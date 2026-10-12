@@ -60,6 +60,7 @@
   <text x="360" y="58" text-anchor="middle" class="hp-tag-r">열 방출</text>
   <!-- 용기 -->
   <path d="M286 88 L286 210 L434 210 L434 88" class="hp-box"/>
+  <path d="M280 88 L406 88" class="hp-box"/>
   <rect x="292" y="94" width="136" height="50" rx="4" class="hp-food"/>
   <text x="360" y="124" text-anchor="middle" class="hp-lbl">음식 (위 칸)</text>
   <rect x="292" y="166" width="136" height="38" rx="4" class="hp-pack"/>
@@ -81,20 +82,20 @@
   <!-- ───── 3. 냉각 팩 ───── -->
   <rect x="484" y="10" width="226" height="372" rx="10" class="hp-panel"/>
   <text x="597" y="38" text-anchor="middle" class="hp-h">냉각 팩</text>
-  <text x="597" y="58" text-anchor="middle" class="hp-tag-b">열 흡수</text>
+  <text x="597" y="56" text-anchor="middle" class="hp-tag-b">열 흡수</text>
   <rect x="532" y="84" width="130" height="96" rx="12" class="hp-cool"/>
   <!-- 터진 물주머니 -->
   <path d="M552 104 L600 100 L608 112 L620 104 L622 130 L556 134 Z" class="hp-bag"/>
   <text x="588" y="124" text-anchor="middle" class="hp-sm" style="fill:var(--fig-ink)">물</text>
   <rect x="560" y="148" width="7" height="7" class="hp-salt"/><rect x="578" y="156" width="7" height="7" class="hp-salt"/><rect x="598" y="146" width="7" height="7" class="hp-salt"/>
   <rect x="616" y="158" width="7" height="7" class="hp-salt"/><rect x="636" y="148" width="7" height="7" class="hp-salt"/><rect x="644" y="118" width="7" height="7" class="hp-salt"/>
-  <text x="597" y="198" text-anchor="middle" class="hp-sm">질산 암모늄 + 물</text>
+  <text x="597" y="78" text-anchor="middle" class="hp-sm">질산 암모늄 + 물주머니</text>
   <!-- 피부 -->
   <rect x="512" y="232" width="170" height="22" rx="4" class="hp-skin"/>
   <text x="597" y="248" text-anchor="middle" class="hp-sm" style="fill:var(--fig-ink)">다친 부위(피부)</text>
   <!-- 열: 피부 → 팩 -->
-  <path d="M560 228 q-4 -4 0 -8 t0 -8" class="hp-heat-b"/><path d="M560 202 l-6 9 h12 z" class="hp-heat-bh"/>
-  <path d="M634 228 q-4 -4 0 -8 t0 -8" class="hp-heat-b"/><path d="M634 202 l-6 9 h12 z" class="hp-heat-bh"/>
+  <path d="M560 228 q-4 -5 0 -10 t0 -10" class="hp-heat-b"/><path d="M560 190 l-6 9 h12 z" class="hp-heat-bh"/>
+  <path d="M634 228 q-4 -5 0 -10 t0 -10" class="hp-heat-b"/><path d="M634 190 l-6 9 h12 z" class="hp-heat-bh"/>
   <text x="597" y="282" text-anchor="middle" class="hp-lbl">질산 암모늄이 물에 녹으며</text>
   <text x="597" y="302" text-anchor="middle" class="hp-lbl">주위의 열을 흡수한다</text>
   <text x="597" y="330" text-anchor="middle" class="hp-sm">팩을 눌러 물주머니를 터뜨리면</text>

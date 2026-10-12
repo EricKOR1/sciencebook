@@ -89,7 +89,7 @@ Sims.register('neutralization', {
       var col = indColor(T, v);
       ctx.fillStyle = T.figPanel; ctx.fillRect(bx, top, bw, bb - top);
       ctx.save();
-      if (col.c) { ctx.globalAlpha = 0.55; ctx.fillStyle = col.c; } else { ctx.globalAlpha = 0.1; ctx.fillStyle = T.figLine; }
+      if (col.c) { ctx.globalAlpha = T.dark ? 0.75 : 0.55; ctx.fillStyle = col.c; } else { ctx.globalAlpha = 0.1; ctx.fillStyle = T.figLine; }
       ctx.fillRect(bx, top, bw, bb - top);
       ctx.restore();
       ctx.strokeStyle = T.figInk; ctx.lineWidth = 2; ctx.beginPath();

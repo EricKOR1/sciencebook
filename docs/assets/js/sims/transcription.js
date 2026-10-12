@@ -28,7 +28,7 @@ Sims.register('transcription', {
     var LAST = STEPS.length - 1;
     var st = { s: 0, p: 1, auto: false, wait: 0 };
 
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.42 : 0.74; }, label: '핵 속에서 DNA가 전사되어 mRNA가 되고 세포질의 리보솜에서 번역되는 과정' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.36 : 0.72; }, label: '핵 속에서 DNA가 전사되어 mRNA가 되고 세포질의 리보솜에서 번역되는 과정' });
     var ctx = cv.ctx;
     var rStep = api.readout('단계');
     var rPlace = api.readout('장소');
@@ -93,9 +93,9 @@ Sims.register('transcription', {
       var textH = narrow ? 64 : 46;
       var bw = Math.min(25, (w - 36) / (15 + 4 * 0.45)), gap = bw * 0.45, bh = Math.min(24, Math.max(17, bw * 1.02));
       var total = 15 * bw + 4 * gap, x0 = (w - total) / 2;
-      var nTop = textH + 4, nBot = textH + (h - textH) * 0.5;
+      var nTop = textH + 4, nBot = nTop + 4.5 * bh + 80;
       return { w: w, h: h, narrow: narrow, textH: textH, bw: bw, gap: gap, bh: bh, x0: x0, total: total,
-        nTop: nTop, nBot: nBot, yc: nTop + (nBot - nTop) * 0.52, cTop: nBot + 8,
+        nTop: nTop, nBot: nBot, yc: nTop + 1.5 * bh + 46, cTop: nBot + 8,
         xOf: function (i) { return x0 + i * bw + Math.floor(i / 3) * gap; },
         codonX: function (c) { return x0 + c * (3 * bw + gap) + 1.5 * bw; },
         codonW: 3 * bw + gap };
@@ -134,6 +134,7 @@ Sims.register('transcription', {
       wrap(S.d, G.w - 12).slice(0, 3).forEach(function (ln, i) { ctx.fillText(ln, 6, 33 + i * 15); });
       drawNucleus(T, G, s, p);
       drawCyto(T, G, s, p);
+      drawRibosome(T, G, s, p);
       drawMRNA(T, G, s, p);
       drawTranslation(T, G, s, p);
     }
@@ -162,8 +163,11 @@ Sims.register('transcription', {
       var tTop = G.yc - G.bh - 2 - up, oTop = G.yc + 2 + down;
       var xs = []; for (var i = 0; i < 15; i++) xs.push([G.xOf(i) + G.bw / 2, 0]);
       xs = [[G.x0 - 8, 0]].concat(xs, [[G.x0 + G.total + 8, 0]]);
+      var dA = s === 3 ? 0.35 + 0.65 * ease((p - 0.55) / 0.3) : 1;   // mRNA가 지나가는 동안 DNA를 흐리게
+      ctx.globalAlpha = dA;
       backbone(G, xs, tTop - 3, T.figInk); backbone(G, xs, oTop + G.bh + 3, T.figInk);
-      for (var j = 0; j < 15; j++) { base(T, G, G.xOf(j), tTop, TPL[j]); base(T, G, G.xOf(j), oTop, OTHER[j]); }
+      ctx.globalAlpha = 1;
+      for (var j = 0; j < 15; j++) { base(T, G, G.xOf(j), tTop, TPL[j], dA); base(T, G, G.xOf(j), oTop, OTHER[j], dA); }
       ctx.font = '11px ' + T.fontBody; ctx.fillStyle = T.figInk; ctx.textAlign = 'left';
       ctx.fillText('DNA 주형 가닥', G.x0, tTop - 9);
       ctx.fillText('DNA 다른 가닥', G.x0, oTop + G.bh + 17);
@@ -186,7 +190,7 @@ Sims.register('transcription', {
     }
     function cytoY(G) {   // 세포질 mRNA 염기 상자의 위쪽 y
       var cH = G.h - G.cTop;
-      return G.cTop + Math.min(Math.max(100 + 2 * G.bh, cH * 0.6), cH - 50 - G.bh);
+      return G.cTop + Math.min(Math.max(118 + 2 * G.bh, cH * 0.55), cH - 34 - G.bh);
     }
     function drawMRNA(T, G, s, p) {
       var n = built(); if (!n) return;
@@ -241,16 +245,11 @@ Sims.register('transcription', {
       ctx.fillStyle = T.figInk; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.font = '600 11px ' + T.fontBody;
       ctx.fillText(name, x, y + 1); ctx.textBaseline = 'alphabetic'; ctx.globalAlpha = 1;
     }
-    function drawTranslation(T, G, s, p) {
+    function drawRibosome(T, G, s, p) {
       var yC = cytoY(G), cw = G.codonW;
-      var chainY = G.cTop + 32, aaY = chainY + 36;
-      var antiTop = yC - G.bh - 3;
-      // 사슬 자리
-      var slots = [], sx = G.x0 + 2;
-      for (var i = 0; i < 4; i++) { var wd = pillW(T, AA[i]); slots.push(sx + wd / 2); sx += wd + 12; }
       var rel = s === 8 ? ease((p - 0.45) / 0.55) : 0;
       // 리보솜
-      var rp = ribPos(s, p), rx = G.codonX(0) + rp * cw;
+      var rp = s < 4 ? 1 : ribPos(s, p), rx = G.codonX(0) + rp * cw;
       var ra = s < 4 ? 0.35 : s === 4 ? 0.35 + 0.65 * ease(p / 0.3) : 1;
       var sep = rel * 10;
       ctx.globalAlpha = ra;
@@ -259,8 +258,17 @@ Sims.register('transcription', {
       var smY = yC + G.bh + 4 + sep, smH = Math.max(11, G.bh * 0.55);
       ctx.beginPath(); ctx.ellipse(rx - cw * 0.5, smY + smH * 0.2, cw * 1.2, smH, 0, 0, Math.PI); ctx.closePath(); ctx.fill(); ctx.stroke();
       ctx.fillStyle = T.figAmber; ctx.font = '600 11px ' + T.fontBody; ctx.textAlign = 'center';
-      ctx.fillText(s < 4 ? '리보솜(대기 중)' : '리보솜', rx - cw * 0.5, smY + smH * 0.2 + 13);
+      ctx.fillText(s < 4 ? '리보솜(대기 중)' : '리보솜', Math.max(rx - cw * 0.5, 48), smY + smH * 0.2 + 13);
       ctx.globalAlpha = 1;
+    }
+    function drawTranslation(T, G, s, p) {
+      var yC = cytoY(G), cw = G.codonW;
+      var chainY = G.cTop + 32, aaY = chainY + 36;
+      var antiTop = yC - G.bh - 3;
+      // 사슬 자리
+      var slots = [], sx = G.x0 + 2;
+      for (var i = 0; i < 4; i++) { var wd = pillW(T, AA[i]); slots.push(sx + wd / 2); sx += wd + 12; }
+      var rel = s === 8 ? ease((p - 0.45) / 0.55) : 0;
       // tRNA
       var bound = -1;
       for (var c = 0; c < 4; c++) {
@@ -302,12 +310,12 @@ Sims.register('transcription', {
       }
       if (s === 0 && G.cTop) {
         ctx.fillStyle = T.figMuted; ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'left';
-        ctx.fillText('아직 mRNA가 오지 않았다', G.codonX(2) - cw * 0.3, yC + G.bh / 2);
+        ctx.fillText('아직 mRNA가 오지 않았다', G.codonX(2) + cw * 0.25, yC + G.bh / 2);
       }
       // 종결
       if (s === 8 && p > 0.3) {
-        var sx4 = G.codonX(4);
-        ctx.fillStyle = T.figRed; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'center';
+        var sx4 = Math.min(G.codonX(4) + cw / 2, G.w - 6);
+        ctx.fillStyle = T.figRed; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'right';
         ctx.fillText('종결 코돈', sx4, antiTop - 22);
         ctx.fillText('맞는 tRNA 없음', sx4, antiTop - 7);
       }

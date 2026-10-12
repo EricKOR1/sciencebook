@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-labelledby="t-5-4-latitude-heating d-5-4-latitude-heating">
+  <title id="t-5-4-latitude-heating">그림 5-4-3 위도에 따라 달라지는 태양 에너지</title>
+  <desc id="d-5-4-latitude-heating">같은 폭의 햇빛이 적도 부근에는 거의 수직으로 비쳐 좁은 면적에 모이고, 고위도에는 비스듬히 비쳐 넓은 면적에 퍼진다. 그래서 저위도는 에너지가 남고 고위도는 부족하며, 대기와 해수의 순환이 남는 에너지를 고위도로 나른다. 춘분·추분 무렵의 모식도(크기 비율은 실제와 다르고 대기의 영향은 생략함).</desc>
+  <style>
+    .lh-lbl{font-size:15px;font-weight:700} .lh-sm{font-size:13px;fill:var(--fig-muted)} .lh-ink{fill:var(--fig-ink)}
+    .lh-ray{stroke:var(--fig-amber);stroke-width:1.2;stroke-opacity:0.6}
+  </style>
+  <!-- 가는 햇빛 -->
+  <line x1="20" y1="112" x2="172" y2="112" class="lh-ray"/>
+  <line x1="20" y1="142" x2="158" y2="142" class="lh-ray"/>
+  <line x1="20" y1="238" x2="158" y2="238" class="lh-ray"/>
+  <line x1="20" y1="268" x2="172" y2="268" class="lh-ray"/>
+  <line x1="20" y1="298" x2="196" y2="298" class="lh-ray"/>
+  <line x1="20" y1="326" x2="237" y2="326" class="lh-ray"/>
+  <!-- 지구 -->
+  <circle cx="300" cy="190" r="150" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <line x1="150" y1="190" x2="450" y2="190" style="stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:5 4"/>
+  <text x="440" y="184" text-anchor="end" class="lh-sm">적도</text>
+  <line x1="300" y1="40" x2="300" y2="340" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:2 4"/>
+  <text x="300" y="32" text-anchor="middle" class="lh-sm">북극</text>
+  <!-- 같은 폭의 햇빛 두 다발 -->
+  <path d="M20,52.1 L241,52.1 A150,150 0 0 0 195.8,82.1 L20,82.1 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.2"/>
+  <path d="M20,175 L150.75,175 A150,150 0 0 0 150.75,205 L20,205 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.2"/>
+  <text x="26" y="44" class="lh-sm">같은 폭의 햇빛</text>
+  <text x="26" y="168" class="lh-sm">같은 폭의 햇빛</text>
+  <!-- 받는 면적 -->
+  <path d="M241,52.1 A150,150 0 0 0 195.8,82.1" style="fill:none;stroke:var(--fig-blue);stroke-width:6;stroke-linecap:round"/>
+  <path d="M150.75,175 A150,150 0 0 0 150.75,205" style="fill:none;stroke:var(--fig-red);stroke-width:6;stroke-linecap:round"/>
+  <text x="214" y="104" class="lh-lbl" style="fill:var(--fig-blue);font-size:13px">넓은 면적에 퍼짐</text>
+  <text x="162" y="230" class="lh-lbl" style="fill:var(--fig-red);font-size:13px">좁은 면적에 모임</text>
+  <!-- 열 운반 -->
+  <path d="M408,172 A110,110 0 0 0 342,88" style="fill:none;stroke:var(--fig-violet);stroke-width:3"/>
+  <path d="M336,84 l14,-1 l-6,11 z" style="fill:var(--fig-violet)"/>
+  <text x="392" y="122" class="lh-sm" style="fill:var(--fig-violet);font-weight:600">열 운반</text>
+  <!-- 설명 -->
+  <text x="476" y="64" class="lh-lbl" style="fill:var(--fig-blue)">고위도</text>
+  <text x="476" y="84" class="lh-sm">햇빛이 비스듬히 → 넓게 퍼짐</text>
+  <text x="476" y="102" class="lh-sm" style="fill:var(--fig-ink)">흡수 &lt; 방출 → 에너지 부족</text>
+  <text x="476" y="214" class="lh-lbl" style="fill:var(--fig-red)">저위도(적도 부근)</text>
+  <text x="476" y="234" class="lh-sm">햇빛이 거의 수직 → 좁게 모임</text>
+  <text x="476" y="252" class="lh-sm" style="fill:var(--fig-ink)">흡수 &gt; 방출 → 에너지 남음</text>
+  <text x="476" y="306" class="lh-lbl" style="fill:var(--fig-violet)">대기·해수의 순환</text>
+  <text x="476" y="326" class="lh-sm">바람과 해류가 남는 에너지를</text>
+  <text x="476" y="344" class="lh-sm">고위도로 나른다</text>
+</svg>

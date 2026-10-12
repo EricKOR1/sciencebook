@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 412" role="img" aria-labelledby="t-5-1-ecosystem-components d-5-1-ecosystem-components">
+  <title id="t-5-1-ecosystem-components">그림 5-1-1 생태계 구성 요소와 그 사이의 관계</title>
+  <desc id="d-5-1-ecosystem-components">생물적 요인(생산자·소비자·분해자)은 먹고 먹히며 서로 영향을 주고(상호작용), 비생물적 요인(빛·온도·물·토양·공기)은 생물에 영향을 주며(작용), 생물도 비생물적 요인을 바꾼다(반작용).</desc>
+  <style>
+    .eco-bio{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2}
+    .eco-abio{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+    .eco-box{fill:var(--fig-panel);stroke:var(--fig-green);stroke-width:1.8}
+    .eco-chip{fill:var(--fig-panel);stroke:var(--fig-amber);stroke-width:1.5}
+    .eco-arr{fill:none;stroke:var(--fig-ink);stroke-width:2}
+    .eco-big-up{fill:var(--fig-blue)} .eco-big-dn{fill:var(--fig-violet)}
+    .eco-head{fill:var(--fig-ink)}
+    .eco-ttl{font-size:16px;font-weight:700;fill:var(--fig-ink)}
+    .eco-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .eco-txt{font-size:13px;fill:var(--fig-ink)}
+    .eco-sm{font-size:12.5px;fill:var(--fig-muted)}
+    .eco-up{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+    .eco-dn{font-size:14px;font-weight:700;fill:var(--fig-violet)}
+  </style>
+  <!-- 생물적 요인 -->
+  <rect x="16" y="12" width="688" height="222" rx="14" class="eco-bio"/>
+  <text x="34" y="40" class="eco-ttl">생물적 요인</text>
+  <text x="686" y="40" text-anchor="end" class="eco-sm">상호작용(생물 ↔ 생물) 예: 토끼가 풀을 먹는다, 먹이를 두고 경쟁한다</text>
+
+  <rect x="40" y="58" width="168" height="92" rx="10" class="eco-box"/>
+  <text x="124" y="84" text-anchor="middle" class="eco-lbl">생산자</text>
+  <text x="124" y="106" text-anchor="middle" class="eco-txt">광합성으로 유기물 생산</text>
+  <text x="124" y="128" text-anchor="middle" class="eco-sm">식물, 식물성 플랑크톤</text>
+
+  <rect x="276" y="58" width="168" height="92" rx="10" class="eco-box"/>
+  <text x="360" y="84" text-anchor="middle" class="eco-lbl">소비자</text>
+  <text x="360" y="106" text-anchor="middle" class="eco-txt">다른 생물을 먹는다</text>
+  <text x="360" y="128" text-anchor="middle" class="eco-sm">초식 동물, 육식 동물</text>
+
+  <rect x="512" y="58" width="168" height="92" rx="10" class="eco-box"/>
+  <text x="596" y="84" text-anchor="middle" class="eco-lbl">분해자</text>
+  <text x="596" y="106" text-anchor="middle" class="eco-txt">유기물 → 무기물로 분해</text>
+  <text x="596" y="128" text-anchor="middle" class="eco-sm">세균, 곰팡이, 버섯</text>
+
+  <!-- 먹이 관계, 사체 -->
+  <line x1="210" y1="104" x2="264" y2="104" class="eco-arr"/>
+  <path d="M272 104 l-10 -5 v10 z" class="eco-head"/>
+  <text x="242" y="94" text-anchor="middle" class="eco-sm">먹이</text>
+  <line x1="446" y1="104" x2="500" y2="104" class="eco-arr"/>
+  <path d="M508 104 l-10 -5 v10 z" class="eco-head"/>
+  <text x="478" y="94" text-anchor="middle" class="eco-sm">사체·</text>
+  <text x="478" y="126" text-anchor="middle" class="eco-sm">배설물</text>
+  <path d="M124 152 C124 206, 596 206, 596 160" class="eco-arr"/>
+  <path d="M596 152 l-5 10 h10 z" class="eco-head"/>
+  <text x="360" y="224" text-anchor="middle" class="eco-sm">낙엽·사체 (생산자 → 분해자)</text>
+
+  <!-- 작용 (비생물 → 생물) -->
+  <path d="M100 314 V256 h-16 l26 -26 l26 26 h-16 V314 z" class="eco-big-up"/>
+  <text x="150" y="262" class="eco-up">작용 (비생물적 요인 → 생물)</text>
+  <text x="150" y="280" class="eco-txt">예: 일조 시간이 짧아지면 국화가 꽃을 피운다</text>
+  <!-- 반작용 (생물 → 비생물) -->
+  <path d="M600 236 V288 h-16 l26 26 l26 -26 h-16 V236 z" class="eco-big-dn"/>
+  <text x="570" y="282" text-anchor="end" class="eco-dn">반작용 (생물 → 비생물적 요인)</text>
+  <text x="570" y="300" text-anchor="end" class="eco-txt">예: 지의류가 바위를 부스러뜨려 토양을 만든다</text>
+
+  <!-- 비생물적 요인 -->
+  <rect x="16" y="318" width="688" height="84" rx="14" class="eco-abio"/>
+  <text x="34" y="352" class="eco-ttl">비생물적</text>
+  <text x="34" y="374" class="eco-ttl">요인</text>
+  <rect x="150" y="340" width="94" height="40" rx="20" class="eco-chip"/>
+  <text x="197" y="365" text-anchor="middle" class="eco-lbl">빛</text>
+  <rect x="260" y="340" width="94" height="40" rx="20" class="eco-chip"/>
+  <text x="307" y="365" text-anchor="middle" class="eco-lbl">온도</text>
+  <rect x="370" y="340" width="94" height="40" rx="20" class="eco-chip"/>
+  <text x="417" y="365" text-anchor="middle" class="eco-lbl">물</text>
+  <rect x="480" y="340" width="94" height="40" rx="20" class="eco-chip"/>
+  <text x="527" y="365" text-anchor="middle" class="eco-lbl">토양</text>
+  <rect x="590" y="340" width="94" height="40" rx="20" class="eco-chip"/>
+  <text x="637" y="365" text-anchor="middle" class="eco-lbl">공기</text>
+</svg>

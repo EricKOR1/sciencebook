@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t-5-1-light-photosynthesis d-5-1-light-photosynthesis">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 410" role="img" aria-labelledby="t-5-1-light-photosynthesis d-5-1-light-photosynthesis">
   <title id="t-5-1-light-photosynthesis">그림 5-1-2 빛의 세기에 따른 양지 식물과 음지 식물의 광합성량</title>
   <desc id="d-5-1-light-photosynthesis">양지 식물은 호흡량이 많아 보상점이 높고, 광포화점도 높아 강한 빛에서 광합성량이 매우 많다. 음지 식물은 보상점이 낮아 약한 빛에서도 살 수 있지만 금방 포화된다. 총광합성량은 순광합성량에 호흡량을 더한 값이다(값은 상대값인 모식 그래프).</desc>
   <style>
@@ -49,11 +49,10 @@
   <!-- 광포화점 -->
   <circle cx="277.5" cy="227.6" r="5" class="lp-dot-shade"/>
   <circle cx="446.3" cy="119" r="5" class="lp-dot-sun"/>
-  <line x1="277.5" y1="234" x2="277.5" y2="352" class="lp-lead-shade"/>
-  <text x="277.5" y="368" text-anchor="middle" class="lp-t">광포화점(음지)</text>
-  <line x1="446.3" y1="125" x2="446.3" y2="352" class="lp-lead-sun"/>
-  <text x="446.3" y="368" text-anchor="middle" class="lp-r">광포화점(양지)</text>
-  <text x="300" y="414" text-anchor="middle" class="lp-sm">보상점: 광합성량 = 호흡량 (겉보기 CO₂ 출입 0) · 광포화점: 빛이 더 세져도 광합성량이 늘지 않기 시작하는 점</text>
+  <line x1="277.5" y1="234" x2="277.5" y2="270" class="lp-lead-shade"/>
+  <text x="284" y="252" class="lp-t">광포화점(음지)</text>
+  <line x1="446.3" y1="125" x2="446.3" y2="270" class="lp-lead-sun"/>
+  <text x="440" y="104" text-anchor="end" class="lp-r">광포화점(양지)</text>
   <!-- 순광합성량, 호흡량, 총광합성량 (양지 식물, 강한 빛에서) -->
   <path d="M552 112.5 h-6 M552 112.5 V272 M546 272 h12 M552 272 V318.4 h-6" class="lp-br"/>
   <text x="560" y="196" class="lp-lbl">순광합성량</text>

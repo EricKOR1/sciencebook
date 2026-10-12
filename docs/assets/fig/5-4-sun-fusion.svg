@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-labelledby="t-5-4-sun-fusion d-5-4-sun-fusion">
+  <title id="t-5-4-sun-fusion">그림 5-4-1 태양의 내부 구조와 중심핵의 수소 핵융합</title>
+  <desc id="d-5-4-sun-fusion">태양 중심핵에서는 수소 원자핵 4개가 여러 단계를 거쳐 헬륨 원자핵 1개가 되며, 반응 뒤 질량이 조금 줄어들고 줄어든 질량이 빛과 열 에너지로 나온다. 모식도(크기 비율과 질량 차이는 실제와 다르게 과장함).</desc>
+  <style>
+    .sf-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)} .sf-sm{font-size:13px;fill:var(--fig-muted)}
+    .sf-ink{fill:var(--fig-ink)} .sf-lead{stroke:var(--fig-muted);stroke-width:1.2;fill:none}
+    .sf-p{fill:var(--fig-red);stroke:var(--fig-ink);stroke-width:1} .sf-n{fill:var(--fig-line);stroke:var(--fig-ink);stroke-width:1}
+    .sf-pt{font-size:12px;font-weight:700;fill:var(--fig-panel)}
+  </style>
+  <!-- 태양 단면(반원) -->
+  <path d="M40,20 A170,170 0 0 1 40,360 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:5"/>
+  <path d="M40,71 A119,119 0 0 1 40,309 Z" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1"/>
+  <path d="M40,147.5 A42.5,42.5 0 0 1 40,232.5 Z" style="fill:var(--fig-red);stroke:var(--fig-red);stroke-width:1"/>
+  <line x1="40" y1="20" x2="40" y2="360" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <!-- 대류 흔적(작은 고리 화살표) -->
+  <path d="M150,96 a14,14 0 1 1 18,10" style="fill:none;stroke:var(--fig-amber);stroke-width:1.6"/>
+  <path d="M168,106 l-7,-1 l4,-6 z" style="fill:var(--fig-amber)"/>
+  <path d="M182,250 a14,14 0 1 1 -4,22" style="fill:none;stroke:var(--fig-amber);stroke-width:1.6"/>
+  <path d="M178,272 l7,-1 l-3,7 z" style="fill:var(--fig-amber)"/>
+  <!-- 이름표 -->
+  <polyline points="125,43 150,32 222,32" class="sf-lead"/>
+  <text x="226" y="30" class="sf-lbl">광구</text><text x="226" y="48" class="sf-sm">눈에 보이는 표면 · 약 5,800 K</text>
+  <polyline points="166,118 190,108 222,108" class="sf-lead"/>
+  <text x="226" y="106" class="sf-lbl">대류층</text><text x="226" y="124" class="sf-sm">기체가 오르내리며 에너지 운반</text>
+  <polyline points="120,178 222,186" class="sf-lead"/>
+  <text x="226" y="184" class="sf-lbl">복사층</text><text x="226" y="202" class="sf-sm">복사로 에너지를 천천히 전달</text>
+  <polyline points="62,208 140,262 222,262" class="sf-lead"/>
+  <text x="226" y="260" class="sf-lbl">중심핵</text><text x="226" y="278" class="sf-sm">약 1,500만 K · 핵융합이 일어남</text>
+  <text x="40" y="384" class="sf-sm">태양의 내부 구조</text>
+
+  <!-- 핵융합 -->
+  <line x1="438" y1="20" x2="438" y2="370" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
+  <text x="580" y="34" text-anchor="middle" class="sf-lbl">중심핵에서 일어나는 일</text>
+  <circle cx="468" cy="88" r="12" class="sf-p"/><circle cx="500" cy="84" r="12" class="sf-p"/>
+  <circle cx="464" cy="120" r="12" class="sf-p"/><circle cx="498" cy="118" r="12" class="sf-p"/>
+  <text x="468" y="92" text-anchor="middle" class="sf-pt">+</text><text x="500" y="88" text-anchor="middle" class="sf-pt">+</text>
+  <text x="464" y="124" text-anchor="middle" class="sf-pt">+</text><text x="498" y="122" text-anchor="middle" class="sf-pt">+</text>
+  <text x="482" y="158" text-anchor="middle" class="sf-sm">수소 원자핵 4개</text>
+  <line x1="520" y1="102" x2="556" y2="102" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <path d="M564,102 l-11,-6 l0,12 z" class="sf-ink"/>
+  <text x="542" y="88" text-anchor="middle" class="sf-sm">핵융합</text>
+  <circle cx="584" cy="94" r="10" class="sf-p"/><circle cx="603" cy="94" r="10" class="sf-n"/>
+  <circle cx="584" cy="112" r="10" class="sf-n"/><circle cx="603" cy="112" r="10" class="sf-p"/>
+  <text x="594" y="158" text-anchor="middle" class="sf-sm">헬륨 원자핵 1개</text>
+  <text x="626" y="108" class="sf-lbl">+</text>
+  <!-- 에너지(빛·열) -->
+  <path d="M646,103 q5,-8 10,0 t10,0 t10,0" style="fill:none;stroke:var(--fig-amber);stroke-width:2.2"/>
+  <path d="M683,103 l-9,-5 l0,10 z" style="fill:var(--fig-amber)"/>
+  <text x="664" y="84" text-anchor="middle" style="font-size:15px;font-weight:700;fill:var(--fig-amber)">에너지</text>
+  <text x="664" y="128" text-anchor="middle" class="sf-sm">빛과 열</text>
+  <text x="580" y="186" text-anchor="middle" class="sf-sm">(실제로는 여러 단계를 거쳐 일어난다)</text>
+  <circle cx="512" cy="208" r="7" class="sf-p"/><text x="524" y="213" class="sf-sm">양성자</text>
+  <circle cx="586" cy="208" r="7" class="sf-n"/><text x="598" y="213" class="sf-sm">중성자</text>
+
+  <!-- 질량 비교 -->
+  <text x="580" y="250" text-anchor="middle" class="sf-lbl">반응 전후의 질량 비교</text>
+  <rect x="452" y="262" width="250" height="26" rx="4" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <text x="460" y="280" class="sf-ink" style="font-size:13px">반응 전: 수소 원자핵 4개</text>
+  <rect x="452" y="300" width="214" height="26" rx="4" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="460" y="318" class="sf-ink" style="font-size:13px">반응 후: 헬륨 원자핵 1개</text>
+  <rect x="668" y="300" width="34" height="26" rx="4" style="fill:var(--fig-paper);stroke:var(--fig-amber);stroke-width:1.5;stroke-dasharray:4 3"/>
+  <line x1="685" y1="330" x2="685" y2="344" style="stroke:var(--fig-amber);stroke-width:1.5"/>
+  <text x="702" y="360" text-anchor="end" style="font-size:13px;font-weight:600;fill:var(--fig-amber)">줄어든 질량 → 에너지로</text>
+  <text x="452" y="382" class="sf-sm">실제로 줄어드는 질량은 아주 작다(그림은 과장)</text>
+</svg>

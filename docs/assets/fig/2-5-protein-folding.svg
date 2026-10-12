@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="t-2-5-protein-folding d-2-5-protein-folding">
+  <title id="t-2-5-protein-folding">그림 2-5-2 아미노산에서 단백질의 입체 구조까지</title>
+  <desc id="d-2-5-protein-folding">여러 종류의 아미노산(색이 다른 구슬)이 펩타이드 결합으로 길게 이어지고, 배열 순서에 따라 정해진 모양으로 접혀 고유한 입체 구조를 이룬다. 입체 구조의 홈에 꼭 맞는 물질과 결합하는 것처럼 구조가 기능을 정한다. 모식도.</desc>
+  <style>
+    .pro-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)} .pro-t{font-size:14px;fill:var(--fig-ink)}
+    .pro-sm{font-size:13px;fill:var(--fig-muted)} .pro-acc{font-size:13px;font-weight:600;fill:var(--fig-accent)}
+    .pro-a{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5} .pro-b{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5}
+    .pro-c{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5} .pro-d{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5}
+    .pro-e{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5}
+    .pro-link{stroke:var(--fig-ink);stroke-width:2.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .pro-sub{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.8}
+    .pro-ar{stroke:var(--fig-accent);stroke-width:2.2;fill:none} .pro-ah{fill:var(--fig-accent)}
+    .pro-pocket{fill:none;stroke:var(--fig-teal);stroke-width:1.5;stroke-dasharray:4 3}
+  </style>
+  <text x="80" y="30" text-anchor="middle" class="pro-lbl">① 아미노산</text>
+  <circle cx="40" cy="70" r="9" class="pro-a"/>
+  <circle cx="82" cy="60" r="9" class="pro-b"/>
+  <circle cx="114" cy="86" r="9" class="pro-c"/>
+  <circle cx="54" cy="108" r="9" class="pro-d"/>
+  <circle cx="98" cy="116" r="9" class="pro-e"/>
+  <circle cx="122" cy="146" r="9" class="pro-a"/>
+  <circle cx="36" cy="150" r="9" class="pro-b"/>
+  <circle cx="78" cy="160" r="9" class="pro-c"/>
+  <circle cx="118" cy="176" r="9" class="pro-d"/>
+  <circle cx="52" cy="196" r="9" class="pro-e"/>
+  <circle cx="96" cy="206" r="9" class="pro-a"/>
+  <circle cx="134" cy="222" r="9" class="pro-b"/>
+  <text x="80" y="256" text-anchor="middle" class="pro-sm">20종류 (색 = 종류)</text>
+  <path d="M160 140 L206 140" class="pro-ar"/><path d="M214 140 l-10 -6 l0 12 z" class="pro-ah"/>
+  <text x="187.0" y="128" text-anchor="middle" class="pro-acc">펩타이드 결합</text>
+  <text x="300" y="30" text-anchor="middle" class="pro-lbl">② 폴리펩타이드</text>
+  <path d="M238 62 L238 96 L238 130 L238 164 L238 198 L238 232 L300 232 L300 198 L300 164 L300 130 L300 96 L300 62 L362 62 L362 96 L362 130 L362 164 L362 198 L362 232" class="pro-link"/>
+  <circle cx="238" cy="62" r="9" class="pro-a"/>
+  <circle cx="238" cy="96" r="9" class="pro-c"/>
+  <circle cx="238" cy="130" r="9" class="pro-b"/>
+  <circle cx="238" cy="164" r="9" class="pro-d"/>
+  <circle cx="238" cy="198" r="9" class="pro-a"/>
+  <circle cx="238" cy="232" r="9" class="pro-e"/>
+  <circle cx="300" cy="232" r="9" class="pro-c"/>
+  <circle cx="300" cy="198" r="9" class="pro-b"/>
+  <circle cx="300" cy="164" r="9" class="pro-d"/>
+  <circle cx="300" cy="130" r="9" class="pro-e"/>
+  <circle cx="300" cy="96" r="9" class="pro-a"/>
+  <circle cx="300" cy="62" r="9" class="pro-c"/>
+  <circle cx="362" cy="62" r="9" class="pro-b"/>
+  <circle cx="362" cy="96" r="9" class="pro-d"/>
+  <circle cx="362" cy="130" r="9" class="pro-c"/>
+  <circle cx="362" cy="164" r="9" class="pro-e"/>
+  <circle cx="362" cy="198" r="9" class="pro-a"/>
+  <circle cx="362" cy="232" r="9" class="pro-b"/>
+  <text x="300" y="256" text-anchor="middle" class="pro-sm">아미노산의 배열 순서가 정해짐</text>
+  <path d="M392 140 L440 140" class="pro-ar"/><path d="M448 140 l-10 -6 l0 12 z" class="pro-ah"/>
+  <text x="420.0" y="128" text-anchor="middle" class="pro-acc">구부러지고 접힘</text>
+  <text x="560" y="30" text-anchor="middle" class="pro-lbl">③ 고유한 입체 구조</text>
+  <path d="M522 210 L500 196 L488 172 L494 148 L512 130 L530 112 L552 104 L574 110 L590 128 L580 150 L560 158 L566 180 L588 190 L610 178 L626 158 L630 134 L620 112 L604 96" class="pro-link"/>
+  <circle cx="522" cy="210" r="9" class="pro-a"/>
+  <circle cx="500" cy="196" r="9" class="pro-c"/>
+  <circle cx="488" cy="172" r="9" class="pro-b"/>
+  <circle cx="494" cy="148" r="9" class="pro-d"/>
+  <circle cx="512" cy="130" r="9" class="pro-a"/>
+  <circle cx="530" cy="112" r="9" class="pro-e"/>
+  <circle cx="552" cy="104" r="9" class="pro-c"/>
+  <circle cx="574" cy="110" r="9" class="pro-b"/>
+  <circle cx="590" cy="128" r="9" class="pro-d"/>
+  <circle cx="580" cy="150" r="9" class="pro-e"/>
+  <circle cx="560" cy="158" r="9" class="pro-a"/>
+  <circle cx="566" cy="180" r="9" class="pro-c"/>
+  <circle cx="588" cy="190" r="9" class="pro-b"/>
+  <circle cx="610" cy="178" r="9" class="pro-d"/>
+  <circle cx="626" cy="158" r="9" class="pro-c"/>
+  <circle cx="630" cy="134" r="9" class="pro-e"/>
+  <circle cx="620" cy="112" r="9" class="pro-a"/>
+  <circle cx="604" cy="96" r="9" class="pro-b"/>
+  <path d="M536 150 q12 -16 24 0" class="pro-pocket"/>
+  <rect x="534" y="136" width="20" height="14" rx="4" class="pro-sub" transform="rotate(0)"/>
+  <text x="660" y="214" text-anchor="end" class="pro-sm">홈에 꼭 맞는 물질</text>
+  <path d="M592 204 L552 154" style="stroke:var(--fig-teal);stroke-width:1.2;fill:none"/>
+  <text x="560" y="256" text-anchor="middle" class="pro-sm">입체 구조가 기능을 정한다</text>
+  <text x="360" y="288" text-anchor="middle" class="pro-sm">열을 받아 입체 구조가 풀리면 배열은 그대로여도 기능을 잃는다(예: 삶은 달걀흰자). 모식도.</text>
+</svg>

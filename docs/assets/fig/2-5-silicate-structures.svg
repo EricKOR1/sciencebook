@@ -1,0 +1,352 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 620" role="img" aria-labelledby="t-2-5-silicate-structures d-2-5-silicate-structures">
+  <title id="t-2-5-silicate-structures">그림 2-5-1 Si–O 사면체와 연결 방식</title>
+  <desc id="d-2-5-silicate-structures">Si–O 사면체(규소 1개를 산소 4개가 둘러쌈)가 이웃 사면체와 꼭짓점의 산소를 몇 개 공유하느냐에 따라 독립형, 단사슬, 복사슬, 판상, 망상 구조가 된다. 아래 다섯 그림은 사면체를 위에서 본 모식도이다.</desc>
+  <style>
+    .sil-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)} .sil-t{font-size:14px;fill:var(--fig-ink)}
+    .sil-sm{font-size:13px;fill:var(--fig-muted)} .sil-am{font-size:13px;font-weight:600;fill:var(--fig-amber)}
+    .sil-tri{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5;stroke-linejoin:round}
+    .sil-tri2{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.2;opacity:0.45}
+    .sil-o{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.4}
+    .sil-os{fill:var(--fig-amber);stroke:var(--fig-amber);stroke-width:1.4}
+    .sil-si{fill:var(--fig-ink)}
+    .sil-cat{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.4}
+    .sil-catp{stroke:var(--fig-violet);stroke-width:1.4}
+    .sil-e{stroke:var(--fig-teal);stroke-width:1.6;fill:none} .sil-eb{stroke:var(--fig-teal);stroke-width:1.4;fill:none;stroke-dasharray:4 3}
+    .sil-bond{stroke:var(--fig-muted);stroke-width:1.4}
+    .sil-panel{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1}
+    .sil-ar{stroke:var(--fig-ink);stroke-width:2;fill:none} .sil-ah{fill:var(--fig-ink)}
+  </style>
+  <rect x="20" y="16" width="220" height="250" rx="10" class="sil-panel"/>
+  <text x="32" y="40" class="sil-lbl">Si–O 사면체</text>
+  <text x="228" y="40" text-anchor="end" class="sil-am">기본 단위</text>
+  <line x1="62" y1="186" x2="158" y2="150" class="sil-eb"/>
+  <line x1="186" y1="196" x2="158" y2="150" class="sil-eb"/>
+  <line x1="128" y1="78" x2="158" y2="150" class="sil-eb"/>
+  <line x1="133.5" y1="152.5" x2="128" y2="78" class="sil-bond"/>
+  <line x1="133.5" y1="152.5" x2="62" y2="186" class="sil-bond"/>
+  <line x1="133.5" y1="152.5" x2="186" y2="196" class="sil-bond"/>
+  <line x1="133.5" y1="152.5" x2="158" y2="150" class="sil-bond"/>
+  <circle cx="158" cy="150" r="15" class="sil-o"/>
+  <circle cx="133.5" cy="152.5" r="9" class="sil-si"/>
+  <line x1="62" y1="186" x2="186" y2="196" class="sil-e"/>
+  <line x1="62" y1="186" x2="128" y2="78" class="sil-e"/>
+  <line x1="186" y1="196" x2="128" y2="78" class="sil-e"/>
+  <circle cx="128" cy="78" r="15" class="sil-o"/>
+  <circle cx="62" cy="186" r="15" class="sil-o"/>
+  <circle cx="186" cy="196" r="15" class="sil-o"/>
+  <text x="150" y="83" class="sil-t">산소 O</text>
+  <path d="M125.5 146.5 L54 118" class="sil-bond"/>
+  <text x="30" y="112" class="sil-t">규소 Si</text>
+  <text x="32" y="250" class="sil-sm">규소 1개 + 꼭짓점의 산소 4개</text>
+  <rect x="250" y="16" width="450" height="250" rx="10" class="sil-panel"/>
+  <text x="262" y="40" class="sil-lbl">위에서 본 사면체 기호</text>
+  <text x="688" y="40" text-anchor="end" class="sil-am"></text>
+  <polygon points="274.0,135.0 326.0,135.0 300.0,90.0" class="sil-tri"/>
+  <circle cx="300.0" cy="120.0" r="3.2" class="sil-si"/>
+  <circle cx="274" cy="135" r="5.2" class="sil-o"/>
+  <circle cx="326" cy="135" r="5.2" class="sil-o"/>
+  <circle cx="300" cy="90" r="5.2" class="sil-o"/>
+  <text x="348" y="98" class="sil-t">삼각형 = 위에서 본 사면체</text>
+  <text x="348" y="120" class="sil-t">꼭짓점의 원 = 바닥의 산소 3개</text>
+  <text x="348" y="142" class="sil-t">가운데 점 = 규소 (그 위에 산소 1개)</text>
+  <circle cx="282" cy="194" r="5.2" class="sil-o"/><text x="294" y="199" class="sil-t">공유하지 않은 산소</text>
+  <circle cx="446" cy="194" r="5.2" class="sil-os"/><text x="458" y="199" class="sil-t">이웃 사면체와 공유한 산소</text>
+  <circle cx="282" cy="224" r="7" class="sil-cat"/><path d="M278.5 224 h7 M282 220.5 v7" class="sil-catp"/><text x="294" y="229" class="sil-t">양이온 (철, 마그네슘 등)</text>
+  <rect x="20" y="284" width="220" height="140" rx="10" class="sil-panel"/>
+  <text x="32" y="308" class="sil-lbl">독립형</text>
+  <text x="228" y="308" text-anchor="end" class="sil-am">공유 산소 0</text>
+  <polygon points="51.0,362.7 81.0,362.7 66.0,336.7" class="sil-tri"/>
+  <circle cx="66.0" cy="354.0" r="3.2" class="sil-si"/>
+  <polygon points="123.0,388.7 153.0,388.7 138.0,362.7" class="sil-tri"/>
+  <circle cx="138.0" cy="380.0" r="3.2" class="sil-si"/>
+  <polygon points="183.0,358.7 213.0,358.7 198.0,332.7" class="sil-tri"/>
+  <circle cx="198.0" cy="350.0" r="3.2" class="sil-si"/>
+  <circle cx="51.0" cy="362.7" r="5.2" class="sil-o"/>
+  <circle cx="81.0" cy="362.7" r="5.2" class="sil-o"/>
+  <circle cx="66" cy="336.7" r="5.2" class="sil-o"/>
+  <circle cx="123.0" cy="388.7" r="5.2" class="sil-o"/>
+  <circle cx="153.0" cy="388.7" r="5.2" class="sil-o"/>
+  <circle cx="138" cy="362.7" r="5.2" class="sil-o"/>
+  <circle cx="183.0" cy="358.7" r="5.2" class="sil-o"/>
+  <circle cx="213.0" cy="358.7" r="5.2" class="sil-o"/>
+  <circle cx="198" cy="332.7" r="5.2" class="sil-o"/>
+  <circle cx="104" cy="348" r="7" class="sil-cat"/><path d="M100.5 348 h7 M104 344.5 v7" class="sil-catp"/>
+  <circle cx="170" cy="392" r="7" class="sil-cat"/><path d="M166.5 392 h7 M170 388.5 v7" class="sil-catp"/>
+  <circle cx="94" cy="392" r="7" class="sil-cat"/><path d="M90.5 392 h7 M94 388.5 v7" class="sil-catp"/>
+  <circle cx="170" cy="340" r="7" class="sil-cat"/><path d="M166.5 340 h7 M170 336.5 v7" class="sil-catp"/>
+  <rect x="250" y="284" width="220" height="140" rx="10" class="sil-panel"/>
+  <text x="262" y="308" class="sil-lbl">단사슬 구조</text>
+  <text x="458" y="308" text-anchor="end" class="sil-am">공유 산소 2</text>
+  <polygon points="270.0,366.0 300.0,366.0 285.0,340.0" class="sil-tri"/>
+  <circle cx="285.0" cy="357.3" r="3.2" class="sil-si"/>
+  <polygon points="300.0,366.0 330.0,366.0 315.0,392.0" class="sil-tri"/>
+  <circle cx="315.0" cy="374.7" r="3.2" class="sil-si"/>
+  <polygon points="330.0,366.0 360.0,366.0 345.0,340.0" class="sil-tri"/>
+  <circle cx="345.0" cy="357.3" r="3.2" class="sil-si"/>
+  <polygon points="360.0,366.0 390.0,366.0 375.0,392.0" class="sil-tri"/>
+  <circle cx="375.0" cy="374.7" r="3.2" class="sil-si"/>
+  <polygon points="390.0,366.0 420.0,366.0 405.0,340.0" class="sil-tri"/>
+  <circle cx="405.0" cy="357.3" r="3.2" class="sil-si"/>
+  <polygon points="420.0,366.0 450.0,366.0 435.0,392.0" class="sil-tri"/>
+  <circle cx="435.0" cy="374.7" r="3.2" class="sil-si"/>
+  <circle cx="270.0" cy="366" r="5.2" class="sil-o"/>
+  <circle cx="300.0" cy="366" r="5.2" class="sil-os"/>
+  <circle cx="285.0" cy="340.0" r="5.2" class="sil-o"/>
+  <circle cx="330.0" cy="366" r="5.2" class="sil-os"/>
+  <circle cx="315.0" cy="392.0" r="5.2" class="sil-o"/>
+  <circle cx="360.0" cy="366" r="5.2" class="sil-os"/>
+  <circle cx="345.0" cy="340.0" r="5.2" class="sil-o"/>
+  <circle cx="390.0" cy="366" r="5.2" class="sil-os"/>
+  <circle cx="375.0" cy="392.0" r="5.2" class="sil-o"/>
+  <circle cx="420.0" cy="366" r="5.2" class="sil-os"/>
+  <circle cx="405.0" cy="340.0" r="5.2" class="sil-o"/>
+  <circle cx="450.0" cy="366" r="5.2" class="sil-o"/>
+  <circle cx="435.0" cy="392.0" r="5.2" class="sil-o"/>
+  <text x="262" y="414" class="sil-sm">한 줄로 이어진 사슬 (… 계속)</text>
+  <rect x="480" y="284" width="220" height="140" rx="10" class="sil-panel"/>
+  <text x="492" y="308" class="sil-lbl">복사슬 구조</text>
+  <text x="688" y="308" text-anchor="end" class="sil-am">공유 산소 2, 3</text>
+  <polygon points="500.0,396.0 530.0,396.0 515.0,370.0" class="sil-tri"/>
+  <circle cx="515.0" cy="387.3" r="3.2" class="sil-si"/>
+  <polygon points="530.0,396.0 560.0,396.0 545.0,422.0" class="sil-tri"/>
+  <circle cx="545.0" cy="404.7" r="3.2" class="sil-si"/>
+  <polygon points="560.0,396.0 590.0,396.0 575.0,370.0" class="sil-tri"/>
+  <circle cx="575.0" cy="387.3" r="3.2" class="sil-si"/>
+  <polygon points="590.0,396.0 620.0,396.0 605.0,422.0" class="sil-tri"/>
+  <circle cx="605.0" cy="404.7" r="3.2" class="sil-si"/>
+  <polygon points="620.0,396.0 650.0,396.0 635.0,370.0" class="sil-tri"/>
+  <circle cx="635.0" cy="387.3" r="3.2" class="sil-si"/>
+  <polygon points="650.0,396.0 680.0,396.0 665.0,422.0" class="sil-tri"/>
+  <circle cx="665.0" cy="404.7" r="3.2" class="sil-si"/>
+  <polygon points="500.0,344.0 530.0,344.0 515.0,370.0" class="sil-tri"/>
+  <circle cx="515.0" cy="352.7" r="3.2" class="sil-si"/>
+  <polygon points="530.0,344.0 560.0,344.0 545.0,318.1" class="sil-tri"/>
+  <circle cx="545.0" cy="335.4" r="3.2" class="sil-si"/>
+  <polygon points="560.0,344.0 590.0,344.0 575.0,370.0" class="sil-tri"/>
+  <circle cx="575.0" cy="352.7" r="3.2" class="sil-si"/>
+  <polygon points="590.0,344.0 620.0,344.0 605.0,318.1" class="sil-tri"/>
+  <circle cx="605.0" cy="335.4" r="3.2" class="sil-si"/>
+  <polygon points="620.0,344.0 650.0,344.0 635.0,370.0" class="sil-tri"/>
+  <circle cx="635.0" cy="352.7" r="3.2" class="sil-si"/>
+  <polygon points="650.0,344.0 680.0,344.0 665.0,318.1" class="sil-tri"/>
+  <circle cx="665.0" cy="335.4" r="3.2" class="sil-si"/>
+  <circle cx="500.0" cy="396" r="5.2" class="sil-o"/>
+  <circle cx="530.0" cy="396" r="5.2" class="sil-os"/>
+  <circle cx="515.0" cy="370.0" r="5.2" class="sil-os"/>
+  <circle cx="560.0" cy="396" r="5.2" class="sil-os"/>
+  <circle cx="545.0" cy="422.0" r="5.2" class="sil-o"/>
+  <circle cx="590.0" cy="396" r="5.2" class="sil-os"/>
+  <circle cx="575.0" cy="370.0" r="5.2" class="sil-os"/>
+  <circle cx="620.0" cy="396" r="5.2" class="sil-os"/>
+  <circle cx="605.0" cy="422.0" r="5.2" class="sil-o"/>
+  <circle cx="650.0" cy="396" r="5.2" class="sil-os"/>
+  <circle cx="635.0" cy="370.0" r="5.2" class="sil-os"/>
+  <circle cx="680.0" cy="396" r="5.2" class="sil-o"/>
+  <circle cx="665.0" cy="422.0" r="5.2" class="sil-o"/>
+  <circle cx="500.0" cy="344.0" r="5.2" class="sil-o"/>
+  <circle cx="530.0" cy="344.0" r="5.2" class="sil-os"/>
+  <circle cx="560.0" cy="344.0" r="5.2" class="sil-os"/>
+  <circle cx="545.0" cy="318.1" r="5.2" class="sil-o"/>
+  <circle cx="590.0" cy="344.0" r="5.2" class="sil-os"/>
+  <circle cx="620.0" cy="344.0" r="5.2" class="sil-os"/>
+  <circle cx="605.0" cy="318.1" r="5.2" class="sil-o"/>
+  <circle cx="650.0" cy="344.0" r="5.2" class="sil-os"/>
+  <circle cx="680.0" cy="344.0" r="5.2" class="sil-o"/>
+  <circle cx="665.0" cy="318.1" r="5.2" class="sil-o"/>
+  <rect x="20" y="436" width="220" height="172" rx="10" class="sil-panel"/>
+  <text x="32" y="460" class="sil-lbl">판상 구조</text>
+  <text x="228" y="460" text-anchor="end" class="sil-am">공유 산소 3</text>
+  <polygon points="46.0,565.0 68.0,565.0 57.0,545.9" class="sil-tri"/>
+  <circle cx="57.0" cy="558.6" r="3.2" class="sil-si"/>
+  <polygon points="68.0,565.0 90.0,565.0 79.0,584.1" class="sil-tri"/>
+  <circle cx="79.0" cy="571.4" r="3.2" class="sil-si"/>
+  <polygon points="90.0,565.0 112.0,565.0 101.0,545.9" class="sil-tri"/>
+  <circle cx="101.0" cy="558.6" r="3.2" class="sil-si"/>
+  <polygon points="112.0,565.0 134.0,565.0 123.0,584.1" class="sil-tri"/>
+  <circle cx="123.0" cy="571.4" r="3.2" class="sil-si"/>
+  <polygon points="134.0,565.0 156.0,565.0 145.0,545.9" class="sil-tri"/>
+  <circle cx="145.0" cy="558.6" r="3.2" class="sil-si"/>
+  <polygon points="156.0,565.0 178.0,565.0 167.0,584.1" class="sil-tri"/>
+  <circle cx="167.0" cy="571.4" r="3.2" class="sil-si"/>
+  <polygon points="178.0,565.0 200.0,565.0 189.0,545.9" class="sil-tri"/>
+  <circle cx="189.0" cy="558.6" r="3.2" class="sil-si"/>
+  <polygon points="46.0,526.9 68.0,526.9 57.0,545.9" class="sil-tri"/>
+  <circle cx="57.0" cy="533.2" r="3.2" class="sil-si"/>
+  <polygon points="68.0,526.9 90.0,526.9 79.0,507.8" class="sil-tri"/>
+  <circle cx="79.0" cy="520.5" r="3.2" class="sil-si"/>
+  <polygon points="90.0,526.9 112.0,526.9 101.0,545.9" class="sil-tri"/>
+  <circle cx="101.0" cy="533.2" r="3.2" class="sil-si"/>
+  <polygon points="112.0,526.9 134.0,526.9 123.0,507.8" class="sil-tri"/>
+  <circle cx="123.0" cy="520.5" r="3.2" class="sil-si"/>
+  <polygon points="134.0,526.9 156.0,526.9 145.0,545.9" class="sil-tri"/>
+  <circle cx="145.0" cy="533.2" r="3.2" class="sil-si"/>
+  <polygon points="156.0,526.9 178.0,526.9 167.0,507.8" class="sil-tri"/>
+  <circle cx="167.0" cy="520.5" r="3.2" class="sil-si"/>
+  <polygon points="178.0,526.9 200.0,526.9 189.0,545.9" class="sil-tri"/>
+  <circle cx="189.0" cy="533.2" r="3.2" class="sil-si"/>
+  <polygon points="46.0,488.8 68.0,488.8 57.0,469.7" class="sil-tri"/>
+  <circle cx="57.0" cy="482.4" r="3.2" class="sil-si"/>
+  <polygon points="68.0,488.8 90.0,488.8 79.0,507.8" class="sil-tri"/>
+  <circle cx="79.0" cy="495.1" r="3.2" class="sil-si"/>
+  <polygon points="90.0,488.8 112.0,488.8 101.0,469.7" class="sil-tri"/>
+  <circle cx="101.0" cy="482.4" r="3.2" class="sil-si"/>
+  <polygon points="112.0,488.8 134.0,488.8 123.0,507.8" class="sil-tri"/>
+  <circle cx="123.0" cy="495.1" r="3.2" class="sil-si"/>
+  <polygon points="134.0,488.8 156.0,488.8 145.0,469.7" class="sil-tri"/>
+  <circle cx="145.0" cy="482.4" r="3.2" class="sil-si"/>
+  <polygon points="156.0,488.8 178.0,488.8 167.0,507.8" class="sil-tri"/>
+  <circle cx="167.0" cy="495.1" r="3.2" class="sil-si"/>
+  <polygon points="178.0,488.8 200.0,488.8 189.0,469.7" class="sil-tri"/>
+  <circle cx="189.0" cy="482.4" r="3.2" class="sil-si"/>
+  <circle cx="46" cy="565" r="5.2" class="sil-o"/>
+  <circle cx="68" cy="565" r="5.2" class="sil-os"/>
+  <circle cx="57.0" cy="545.9" r="5.2" class="sil-os"/>
+  <circle cx="90" cy="565" r="5.2" class="sil-os"/>
+  <circle cx="79.0" cy="584.1" r="5.2" class="sil-o"/>
+  <circle cx="112" cy="565" r="5.2" class="sil-os"/>
+  <circle cx="101.0" cy="545.9" r="5.2" class="sil-os"/>
+  <circle cx="134" cy="565" r="5.2" class="sil-os"/>
+  <circle cx="123.0" cy="584.1" r="5.2" class="sil-o"/>
+  <circle cx="156" cy="565" r="5.2" class="sil-os"/>
+  <circle cx="145.0" cy="545.9" r="5.2" class="sil-os"/>
+  <circle cx="178" cy="565" r="5.2" class="sil-os"/>
+  <circle cx="167.0" cy="584.1" r="5.2" class="sil-o"/>
+  <circle cx="200" cy="565" r="5.2" class="sil-o"/>
+  <circle cx="189.0" cy="545.9" r="5.2" class="sil-os"/>
+  <circle cx="46" cy="526.9" r="5.2" class="sil-o"/>
+  <circle cx="68" cy="526.9" r="5.2" class="sil-os"/>
+  <circle cx="90" cy="526.9" r="5.2" class="sil-os"/>
+  <circle cx="79.0" cy="507.8" r="5.2" class="sil-os"/>
+  <circle cx="112" cy="526.9" r="5.2" class="sil-os"/>
+  <circle cx="134" cy="526.9" r="5.2" class="sil-os"/>
+  <circle cx="123.0" cy="507.8" r="5.2" class="sil-os"/>
+  <circle cx="156" cy="526.9" r="5.2" class="sil-os"/>
+  <circle cx="178" cy="526.9" r="5.2" class="sil-os"/>
+  <circle cx="167.0" cy="507.8" r="5.2" class="sil-os"/>
+  <circle cx="200" cy="526.9" r="5.2" class="sil-o"/>
+  <circle cx="46" cy="488.8" r="5.2" class="sil-o"/>
+  <circle cx="68" cy="488.8" r="5.2" class="sil-os"/>
+  <circle cx="57.0" cy="469.7" r="5.2" class="sil-o"/>
+  <circle cx="90" cy="488.8" r="5.2" class="sil-os"/>
+  <circle cx="112" cy="488.8" r="5.2" class="sil-os"/>
+  <circle cx="101.0" cy="469.7" r="5.2" class="sil-o"/>
+  <circle cx="134" cy="488.8" r="5.2" class="sil-os"/>
+  <circle cx="156" cy="488.8" r="5.2" class="sil-os"/>
+  <circle cx="145.0" cy="469.7" r="5.2" class="sil-o"/>
+  <circle cx="178" cy="488.8" r="5.2" class="sil-os"/>
+  <circle cx="200" cy="488.8" r="5.2" class="sil-o"/>
+  <circle cx="189.0" cy="469.7" r="5.2" class="sil-o"/>
+  <text x="130" y="602" text-anchor="middle" class="sil-sm">평면으로 넓게 이어진 판</text>
+  <rect x="250" y="436" width="220" height="172" rx="10" class="sil-panel"/>
+  <text x="262" y="460" class="sil-lbl">망상 구조</text>
+  <text x="458" y="460" text-anchor="end" class="sil-am">공유 산소 4</text>
+  <polygon points="286.0,560.0 308.0,560.0 297.0,540.9" class="sil-tri2"/>
+  <polygon points="308.0,560.0 330.0,560.0 319.0,579.1" class="sil-tri2"/>
+  <polygon points="330.0,560.0 352.0,560.0 341.0,540.9" class="sil-tri2"/>
+  <polygon points="352.0,560.0 374.0,560.0 363.0,579.1" class="sil-tri2"/>
+  <polygon points="374.0,560.0 396.0,560.0 385.0,540.9" class="sil-tri2"/>
+  <polygon points="396.0,560.0 418.0,560.0 407.0,579.1" class="sil-tri2"/>
+  <polygon points="418.0,560.0 440.0,560.0 429.0,540.9" class="sil-tri2"/>
+  <polygon points="286.0,521.9 308.0,521.9 297.0,540.9" class="sil-tri2"/>
+  <polygon points="308.0,521.9 330.0,521.9 319.0,502.8" class="sil-tri2"/>
+  <polygon points="330.0,521.9 352.0,521.9 341.0,540.9" class="sil-tri2"/>
+  <polygon points="352.0,521.9 374.0,521.9 363.0,502.8" class="sil-tri2"/>
+  <polygon points="374.0,521.9 396.0,521.9 385.0,540.9" class="sil-tri2"/>
+  <polygon points="396.0,521.9 418.0,521.9 407.0,502.8" class="sil-tri2"/>
+  <polygon points="418.0,521.9 440.0,521.9 429.0,540.9" class="sil-tri2"/>
+  <polygon points="286.0,483.8 308.0,483.8 297.0,464.7" class="sil-tri2"/>
+  <polygon points="308.0,483.8 330.0,483.8 319.0,502.8" class="sil-tri2"/>
+  <polygon points="330.0,483.8 352.0,483.8 341.0,464.7" class="sil-tri2"/>
+  <polygon points="352.0,483.8 374.0,483.8 363.0,502.8" class="sil-tri2"/>
+  <polygon points="374.0,483.8 396.0,483.8 385.0,464.7" class="sil-tri2"/>
+  <polygon points="396.0,483.8 418.0,483.8 407.0,502.8" class="sil-tri2"/>
+  <polygon points="418.0,483.8 440.0,483.8 429.0,464.7" class="sil-tri2"/>
+  <polygon points="276.0,565.0 298.0,565.0 287.0,545.9" class="sil-tri"/>
+  <polygon points="298.0,565.0 320.0,565.0 309.0,584.1" class="sil-tri"/>
+  <polygon points="320.0,565.0 342.0,565.0 331.0,545.9" class="sil-tri"/>
+  <polygon points="342.0,565.0 364.0,565.0 353.0,584.1" class="sil-tri"/>
+  <polygon points="364.0,565.0 386.0,565.0 375.0,545.9" class="sil-tri"/>
+  <polygon points="386.0,565.0 408.0,565.0 397.0,584.1" class="sil-tri"/>
+  <polygon points="408.0,565.0 430.0,565.0 419.0,545.9" class="sil-tri"/>
+  <polygon points="276.0,526.9 298.0,526.9 287.0,545.9" class="sil-tri"/>
+  <polygon points="298.0,526.9 320.0,526.9 309.0,507.8" class="sil-tri"/>
+  <polygon points="320.0,526.9 342.0,526.9 331.0,545.9" class="sil-tri"/>
+  <polygon points="342.0,526.9 364.0,526.9 353.0,507.8" class="sil-tri"/>
+  <polygon points="364.0,526.9 386.0,526.9 375.0,545.9" class="sil-tri"/>
+  <polygon points="386.0,526.9 408.0,526.9 397.0,507.8" class="sil-tri"/>
+  <polygon points="408.0,526.9 430.0,526.9 419.0,545.9" class="sil-tri"/>
+  <polygon points="276.0,488.8 298.0,488.8 287.0,469.7" class="sil-tri"/>
+  <polygon points="298.0,488.8 320.0,488.8 309.0,507.8" class="sil-tri"/>
+  <polygon points="320.0,488.8 342.0,488.8 331.0,469.7" class="sil-tri"/>
+  <polygon points="342.0,488.8 364.0,488.8 353.0,507.8" class="sil-tri"/>
+  <polygon points="364.0,488.8 386.0,488.8 375.0,469.7" class="sil-tri"/>
+  <polygon points="386.0,488.8 408.0,488.8 397.0,507.8" class="sil-tri"/>
+  <polygon points="408.0,488.8 430.0,488.8 419.0,469.7" class="sil-tri"/>
+  <circle cx="276" cy="565" r="5.2" class="sil-o"/>
+  <circle cx="298" cy="565" r="5.2" class="sil-os"/>
+  <circle cx="287.0" cy="545.9" r="5.2" class="sil-os"/>
+  <circle cx="320" cy="565" r="5.2" class="sil-os"/>
+  <circle cx="309.0" cy="584.1" r="5.2" class="sil-o"/>
+  <circle cx="342" cy="565" r="5.2" class="sil-os"/>
+  <circle cx="331.0" cy="545.9" r="5.2" class="sil-os"/>
+  <circle cx="364" cy="565" r="5.2" class="sil-os"/>
+  <circle cx="353.0" cy="584.1" r="5.2" class="sil-o"/>
+  <circle cx="386" cy="565" r="5.2" class="sil-os"/>
+  <circle cx="375.0" cy="545.9" r="5.2" class="sil-os"/>
+  <circle cx="408" cy="565" r="5.2" class="sil-os"/>
+  <circle cx="397.0" cy="584.1" r="5.2" class="sil-o"/>
+  <circle cx="430" cy="565" r="5.2" class="sil-o"/>
+  <circle cx="419.0" cy="545.9" r="5.2" class="sil-os"/>
+  <circle cx="276" cy="526.9" r="5.2" class="sil-o"/>
+  <circle cx="298" cy="526.9" r="5.2" class="sil-os"/>
+  <circle cx="320" cy="526.9" r="5.2" class="sil-os"/>
+  <circle cx="309.0" cy="507.8" r="5.2" class="sil-os"/>
+  <circle cx="342" cy="526.9" r="5.2" class="sil-os"/>
+  <circle cx="364" cy="526.9" r="5.2" class="sil-os"/>
+  <circle cx="353.0" cy="507.8" r="5.2" class="sil-os"/>
+  <circle cx="386" cy="526.9" r="5.2" class="sil-os"/>
+  <circle cx="408" cy="526.9" r="5.2" class="sil-os"/>
+  <circle cx="397.0" cy="507.8" r="5.2" class="sil-os"/>
+  <circle cx="430" cy="526.9" r="5.2" class="sil-o"/>
+  <circle cx="276" cy="488.8" r="5.2" class="sil-o"/>
+  <circle cx="298" cy="488.8" r="5.2" class="sil-os"/>
+  <circle cx="287.0" cy="469.7" r="5.2" class="sil-o"/>
+  <circle cx="320" cy="488.8" r="5.2" class="sil-os"/>
+  <circle cx="342" cy="488.8" r="5.2" class="sil-os"/>
+  <circle cx="331.0" cy="469.7" r="5.2" class="sil-o"/>
+  <circle cx="364" cy="488.8" r="5.2" class="sil-os"/>
+  <circle cx="386" cy="488.8" r="5.2" class="sil-os"/>
+  <circle cx="375.0" cy="469.7" r="5.2" class="sil-o"/>
+  <circle cx="408" cy="488.8" r="5.2" class="sil-os"/>
+  <circle cx="430" cy="488.8" r="5.2" class="sil-o"/>
+  <circle cx="419.0" cy="469.7" r="5.2" class="sil-o"/>
+  <circle cx="287.0" cy="558.6" r="4" class="sil-os"/>
+  <circle cx="309.0" cy="571.4" r="4" class="sil-os"/>
+  <circle cx="331.0" cy="558.6" r="4" class="sil-os"/>
+  <circle cx="353.0" cy="571.4" r="4" class="sil-os"/>
+  <circle cx="375.0" cy="558.6" r="4" class="sil-os"/>
+  <circle cx="397.0" cy="571.4" r="4" class="sil-os"/>
+  <circle cx="419.0" cy="558.6" r="4" class="sil-os"/>
+  <circle cx="287.0" cy="533.2" r="4" class="sil-os"/>
+  <circle cx="309.0" cy="520.5" r="4" class="sil-os"/>
+  <circle cx="331.0" cy="533.2" r="4" class="sil-os"/>
+  <circle cx="353.0" cy="520.5" r="4" class="sil-os"/>
+  <circle cx="375.0" cy="533.2" r="4" class="sil-os"/>
+  <circle cx="397.0" cy="520.5" r="4" class="sil-os"/>
+  <circle cx="419.0" cy="533.2" r="4" class="sil-os"/>
+  <circle cx="287.0" cy="482.4" r="4" class="sil-os"/>
+  <circle cx="309.0" cy="495.1" r="4" class="sil-os"/>
+  <circle cx="331.0" cy="482.4" r="4" class="sil-os"/>
+  <circle cx="353.0" cy="495.1" r="4" class="sil-os"/>
+  <circle cx="375.0" cy="482.4" r="4" class="sil-os"/>
+  <circle cx="397.0" cy="495.1" r="4" class="sil-os"/>
+  <circle cx="419.0" cy="482.4" r="4" class="sil-os"/>
+  <text x="360" y="602" text-anchor="middle" class="sil-sm">가운데 산소도 위·아래 층과 공유</text>
+  <rect x="480" y="436" width="220" height="172" rx="10" class="sil-panel"/>
+  <text x="492" y="462" class="sil-lbl">읽는 법</text>
+  <text x="492" y="488" class="sil-t">공유하는 산소가 많을수록</text>
+  <text x="492" y="508" class="sil-t">사면체가 더 넓게 이어진다.</text>
+  <text x="492" y="536" class="sil-sm">독립형 → 사슬 → 판 → 3차원 그물</text>
+  <text x="492" y="560" class="sil-sm">판상: 판 사이가 약해 얇게 벗겨짐</text>
+  <text x="492" y="584" class="sil-sm">망상: 약한 면이 없어 단단함</text>
+</svg>

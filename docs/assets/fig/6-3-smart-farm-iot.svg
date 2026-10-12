@@ -16,9 +16,10 @@
   <!-- 비닐하우스 -->
   <path d="M30 330 V200 Q 170 70 310 200 V330 Z" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2.5"/>
   <!-- 천창(열림) -->
-  <path d="M206 116 L266 98" style="stroke:var(--fig-amber);stroke-width:6;stroke-linecap:round"/>
-  <rect x="190" y="118" width="22" height="14" rx="3" class="f63sf-act"/>
-  <text x="270" y="92" class="f63sf-a">천창(모터로 열고 닫음)</text>
+  <path d="M206 139.3 Q 228 147 250 156.3" style="fill:none;stroke:var(--fig-paper);stroke-width:5"/>
+  <path d="M206 139 L254 118" style="stroke:var(--fig-amber);stroke-width:6;stroke-linecap:round"/>
+  <rect x="180" y="146" width="22" height="14" rx="3" class="f63sf-act"/>
+  <text x="200" y="106" text-anchor="end" class="f63sf-a">천창(모터로 열고 닫음)</text>
   <!-- 땅과 작물 -->
   <rect x="30" y="318" width="280" height="20" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1"/>
   <g style="fill:var(--fig-green)">
@@ -47,20 +48,19 @@
 
   <!-- ② 연결 -->
   <g style="fill:none;stroke:var(--fig-accent);stroke-width:2.5;stroke-linecap:round">
-    <path d="M352 196 a 14 14 0 0 1 20 0"/><path d="M345 189 a 24 24 0 0 1 34 0"/><path d="M338 182 a 34 34 0 0 1 48 0"/>
+    <path d="M360 186 a 14 14 0 0 1 20 0"/><path d="M353 179 a 24 24 0 0 1 34 0"/><path d="M346 172 a 34 34 0 0 1 48 0"/>
   </g>
-  <circle cx="362" cy="204" r="3.5" style="fill:var(--fig-accent)"/>
-  <circle cx="340" cy="234" r="12" class="f63sf-badge"/><text x="340" y="239" text-anchor="middle" class="f63sf-bt">2</text>
-  <text x="358" y="239" class="f63sf-h">연결</text>
-  <text x="358" y="257" class="f63sf-sm">무선 통신</text>
-
+  <circle cx="370" cy="194" r="3.5" style="fill:var(--fig-accent)"/>
+  <circle cx="334" cy="124" r="12" class="f63sf-badge"/><text x="334" y="129" text-anchor="middle" class="f63sf-bt">2</text>
+  <text x="352" y="129" class="f63sf-h">연결</text>
+  <text x="352" y="147" class="f63sf-sm">무선 통신</text>
   <!-- ③ 분석: 클라우드 -->
   <path d="M470 132 h150 a 30 30 0 0 0 0 -60 a 40 40 0 0 0 -70 -18 a 34 34 0 0 0 -62 12 a 33 33 0 0 0 -18 66 z" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2.5"/>
   <text x="545" y="96" text-anchor="middle" class="f63sf-tx" style="font-weight:600">클라우드 서버</text>
   <text x="545" y="116" text-anchor="middle" class="f63sf-sm" style="fill:var(--fig-ink)">기록 저장·기준과 비교</text>
-  <circle cx="470" cy="160" r="12" class="f63sf-badge"/><text x="470" y="165" text-anchor="middle" class="f63sf-bt">3</text>
-  <text x="488" y="165" class="f63sf-h">분석</text>
-  <text x="526" y="165" class="f63sf-sm">판단·인공지능</text>
+  <circle cx="530" cy="156" r="12" class="f63sf-badge"/><text x="530" y="161" text-anchor="middle" class="f63sf-bt">3</text>
+  <text x="548" y="161" class="f63sf-h">분석</text>
+  <text x="548" y="179" class="f63sf-sm">판단·인공지능</text>
 
   <!-- ④ 서비스: 스마트폰 -->
   <rect x="616" y="214" width="62" height="112" rx="10" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2.5"/>
@@ -73,15 +73,15 @@
   <text x="440" y="380" class="f63sf-sm">천창·펌프 작동(주황), 농부에게 알림·원격 제어</text>
 
   <!-- 데이터 흐름 -->
-  <path d="M312 176 C 380 150 400 120 436 112" style="fill:none;stroke:var(--fig-blue);stroke-width:2.5"/>
-  <path d="M446 110 l-12 -6 l2 13 z" style="fill:var(--fig-blue)"/>
-  <text x="392" y="112" text-anchor="end" class="f63sf-s">측정 데이터</text>
-  <path d="M500 136 C 470 230 400 260 300 270" style="fill:none;stroke:var(--fig-amber);stroke-width:2.5;stroke-dasharray:7 4"/>
-  <path d="M292 271 l12 -7 l0 14 z" style="fill:var(--fig-amber)"/>
+  <path d="M312 190 H340 M400 180 C 416 160 424 130 438 118" style="fill:none;stroke:var(--fig-blue);stroke-width:2.5"/>
+  <path d="M446 110 l-13 -2 l6 12 z" style="fill:var(--fig-blue)"/>
+  <text x="400" y="222" class="f63sf-s">측정 데이터</text>
+  <path d="M478 138 C 462 236 390 282 300 280" style="fill:none;stroke:var(--fig-amber);stroke-width:2.5;stroke-dasharray:7 4"/>
+  <path d="M292 280 l12 -7 l0 14 z" style="fill:var(--fig-amber)"/>
   <text x="440" y="292" class="f63sf-a">제어 명령</text>
   <text x="440" y="308" class="f63sf-sm">"28 °C 이상 → 천창 열기"</text>
-  <line x1="600" y1="138" x2="636" y2="206" style="stroke:var(--fig-violet);stroke-width:2.5"/>
-  <path d="M640 213 l-11 -6 l9 -6 z" style="fill:var(--fig-violet)"/>
-  <path d="M596 131 l1 13 l9 -6 z" style="fill:var(--fig-violet)"/>
-  <text x="624" y="186" class="f63sf-sm">알림</text>
+  <line x1="634" y1="134" x2="648" y2="204" style="stroke:var(--fig-violet);stroke-width:2.5"/>
+  <path d="M650 213 l-8 -12 l12 -2 z" style="fill:var(--fig-violet)"/>
+  <path d="M632 126 l-4 13 l11 -2 z" style="fill:var(--fig-violet)"/>
+  <text x="662" y="176" class="f63sf-sm">알림</text>
 </svg>

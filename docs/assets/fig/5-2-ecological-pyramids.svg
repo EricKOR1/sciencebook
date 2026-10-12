@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-5-2-ecological-pyramids d-5-2-ecological-pyramids">
+  <title id="t-5-2-ecological-pyramids">그림 5-2-1 생태 피라미드의 세 종류와 예외</title>
+  <desc id="d-5-2-ecological-pyramids">대부분의 생태계에서는 세 피라미드가 모두 아래가 넓은 모양이지만, 개체 수 피라미드(큰 나무와 애벌레)와 생체량 피라미드(바다의 플랑크톤, 한 순간 측정)는 거꾸로 될 수 있다. 에너지 피라미드는 항상 피라미드 모양이다. 에너지 값은 예제 2의 가상 자료(상대값)이며 막대 폭은 실제 비율과 다른 모식도이다.</desc>
+  <style>
+    .pyr-l0{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6}
+    .pyr-l1{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6}
+    .pyr-l2{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6}
+    .pyr-l3{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6}
+    .pyr-panel{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1}
+    .pyr-ttl{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .pyr-row{font-size:13px;fill:var(--fig-ink)}
+    .pyr-in{font-size:13px;fill:var(--fig-ink)}
+    .pyr-sm{font-size:12px;fill:var(--fig-muted)}
+    .pyr-warn{font-size:13px;font-weight:600;fill:var(--fig-red)}
+    .pyr-ok{font-size:13px;font-weight:600;fill:var(--fig-green)}
+  </style>
+  <!-- 영양 단계 이름 -->
+  <text x="96" y="157" text-anchor="end" class="pyr-row">3차 소비자</text>
+  <text x="96" y="199" text-anchor="end" class="pyr-row">2차 소비자</text>
+  <text x="96" y="241" text-anchor="end" class="pyr-row">1차 소비자</text>
+  <text x="96" y="283" text-anchor="end" class="pyr-row">생산자</text>
+
+  <!-- (가) 개체 수 -->
+  <rect x="104" y="14" width="196" height="336" rx="10" class="pyr-panel"/>
+  <text x="202" y="42" text-anchor="middle" class="pyr-ttl">개체 수 피라미드</text>
+  <text x="202" y="64" text-anchor="middle" class="pyr-sm">각 단계의 개체 수</text>
+  <text x="202" y="88" text-anchor="middle" class="pyr-warn">거꾸로 될 수 있다</text>
+  <rect x="157" y="180" width="90" height="30" rx="3" class="pyr-l2"/>
+  <text x="202" y="200" text-anchor="middle" class="pyr-in">새</text>
+  <rect x="112" y="222" width="180" height="30" rx="3" class="pyr-l1"/>
+  <text x="202" y="242" text-anchor="middle" class="pyr-in">애벌레 (매우 많음)</text>
+  <rect x="190" y="264" width="24" height="30" rx="3" class="pyr-l0"/>
+  <text x="220" y="284" class="pyr-in">나무 1그루</text>
+  <text x="202" y="320" text-anchor="middle" class="pyr-sm">큰 나무 한 그루에</text>
+  <text x="202" y="336" text-anchor="middle" class="pyr-sm">많은 애벌레가 사는 경우</text>
+
+  <!-- (나) 생체량 -->
+  <rect x="308" y="14" width="196" height="336" rx="10" class="pyr-panel"/>
+  <text x="406" y="42" text-anchor="middle" class="pyr-ttl">생체량 피라미드</text>
+  <text x="406" y="64" text-anchor="middle" class="pyr-sm">각 단계 생물의 총 질량</text>
+  <text x="406" y="88" text-anchor="middle" class="pyr-warn">거꾸로 될 수 있다</text>
+  <rect x="316" y="222" width="180" height="30" rx="3" class="pyr-l1"/>
+  <text x="406" y="242" text-anchor="middle" class="pyr-in">동물성 플랑크톤</text>
+  <rect x="350" y="264" width="112" height="30" rx="3" class="pyr-l0"/>
+  <text x="406" y="284" text-anchor="middle" class="pyr-in">식물성 플랑크톤</text>
+  <text x="406" y="320" text-anchor="middle" class="pyr-sm">바다에서 어느 한 순간에</text>
+  <text x="406" y="336" text-anchor="middle" class="pyr-sm">측정한 경우</text>
+
+  <!-- (다) 에너지 -->
+  <rect x="512" y="14" width="196" height="336" rx="10" class="pyr-panel"/>
+  <text x="610" y="42" text-anchor="middle" class="pyr-ttl">에너지 피라미드</text>
+  <text x="610" y="64" text-anchor="middle" class="pyr-sm">일정 기간 얻은 에너지양</text>
+  <text x="610" y="88" text-anchor="middle" class="pyr-ok">항상 피라미드 모양</text>
+  <rect x="592" y="138" width="36" height="30" rx="3" class="pyr-l3"/>
+  <text x="610" y="158" text-anchor="middle" class="pyr-in">3</text>
+  <rect x="580" y="180" width="60" height="30" rx="3" class="pyr-l2"/>
+  <text x="610" y="200" text-anchor="middle" class="pyr-in">15</text>
+  <rect x="555" y="222" width="110" height="30" rx="3" class="pyr-l1"/>
+  <text x="610" y="242" text-anchor="middle" class="pyr-in">100</text>
+  <rect x="520" y="264" width="180" height="30" rx="3" class="pyr-l0"/>
+  <text x="610" y="284" text-anchor="middle" class="pyr-in">1000</text>
+  <text x="610" y="320" text-anchor="middle" class="pyr-sm">예제 2의 가상 자료(상대값)</text>
+  <text x="610" y="336" text-anchor="middle" class="pyr-sm">막대 폭은 실제 비율과 다름</text>
+</svg>

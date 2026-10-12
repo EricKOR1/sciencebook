@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img" aria-labelledby="t-6-4-research-ethics d-6-4-research-ethics">
+  <title id="t-6-4-research-ethics">그림 6-4-1 연구 윤리의 핵심 — 위조·변조·표절과 동물실험의 3R</title>
+  <desc id="d-6-4-research-ethics">정직한 기록은 측정한 값을 그대로 남기지만, 위조는 없는 값을 만들어 넣고, 변조는 맞지 않는 값을 몰래 지우거나 바꾸며, 표절은 남의 글이나 자료를 출처 없이 쓴다. 동물실험에서는 대체·감소·개선의 3R 원칙을 지킨다. 그래프는 설명을 위한 모식도이다.</desc>
+  <style>
+    .f64re-h{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .f64re-tx{font-size:13px;fill:var(--fig-ink)}
+    .f64re-sm{font-size:12px;fill:var(--fig-muted)}
+    .f64re-ax{stroke:var(--fig-line);stroke-width:1.5;fill:none}
+    .f64re-fit{stroke:var(--fig-muted);stroke-width:1.5;stroke-dasharray:5 4;fill:none}
+    .f64re-pt{fill:var(--fig-blue)}
+    .f64re-fake{fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2;stroke-dasharray:3 2}
+    .f64re-x{stroke:var(--fig-red);stroke-width:2.5}
+    .f64re-doc{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5}
+    .f64re-dl{stroke:var(--fig-line);stroke-width:3;stroke-linecap:round}
+    .f64re-cp{stroke:var(--fig-red);stroke-width:3;stroke-linecap:round}
+  </style>
+  <text x="16" y="22" class="f64re-h">연구 부정행위 — 무엇이 문제일까?</text>
+
+  <!-- 1. 정직한 기록 -->
+  <rect x="16" y="34" width="165" height="214" rx="10" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+  <text x="98" y="58" text-anchor="middle" class="f64re-h" style="fill:var(--fig-green)">정직한 기록</text>
+  <path class="f64re-ax" d="M36 76 V176 H166"/>
+  <line class="f64re-fit" x1="40" y1="152" x2="162" y2="86"/>
+  <circle cx="51" cy="150" r="5" class="f64re-pt"/><circle cx="76" cy="133" r="5" class="f64re-pt"/><circle cx="101" cy="142" r="5" class="f64re-pt"/><circle cx="126" cy="106" r="5" class="f64re-pt"/><circle cx="151" cy="95" r="5" class="f64re-pt"/>
+  <text x="98" y="204" text-anchor="middle" class="f64re-tx">측정한 값 그대로 기록</text>
+  <text x="98" y="224" text-anchor="middle" class="f64re-sm">뺀 값이 있으면 이유를 밝힘</text>
+
+  <!-- 2. 위조 -->
+  <rect x="193" y="34" width="165" height="214" rx="10" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2"/>
+  <text x="275" y="58" text-anchor="middle" class="f64re-h" style="fill:var(--fig-red)">위조</text>
+  <path class="f64re-ax" d="M213 76 V176 H343"/>
+  <line class="f64re-fit" x1="217" y1="152" x2="339" y2="86"/>
+  <circle cx="228" cy="150" r="5" class="f64re-pt"/><circle cx="253" cy="133" r="5" class="f64re-pt"/>
+  <circle cx="278" cy="125" r="5" class="f64re-fake"/><circle cx="303" cy="111" r="5" class="f64re-fake"/><circle cx="328" cy="98" r="5" class="f64re-fake"/>
+  <text x="303" y="90" text-anchor="middle" class="f64re-sm" style="fill:var(--fig-red)">측정 안 함</text>
+  <text x="275" y="204" text-anchor="middle" class="f64re-tx">없는 값을</text>
+  <text x="275" y="224" text-anchor="middle" class="f64re-tx">만들어 넣음</text>
+
+  <!-- 3. 변조 -->
+  <rect x="370" y="34" width="165" height="214" rx="10" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2"/>
+  <text x="452" y="58" text-anchor="middle" class="f64re-h" style="fill:var(--fig-red)">변조</text>
+  <path class="f64re-ax" d="M390 76 V176 H520"/>
+  <line class="f64re-fit" x1="394" y1="152" x2="516" y2="86"/>
+  <circle cx="405" cy="150" r="5" class="f64re-pt"/><circle cx="430" cy="138" r="5" class="f64re-pt"/><circle cx="480" cy="111" r="5" class="f64re-pt"/><circle cx="505" cy="98" r="5" class="f64re-pt"/>
+  <circle cx="455" cy="152" r="5" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:1"/>
+  <path class="f64re-x" d="M448 145 l14 14 M462 145 l-14 14"/>
+  <path d="M455 142 V132" style="stroke:var(--fig-red);stroke-width:1.8"/><path d="M455 128 l-4 7 h8 z" style="fill:var(--fig-red)"/>
+  <circle cx="455" cy="124" r="5" style="fill:var(--fig-blue);stroke:var(--fig-red);stroke-width:2"/>
+  <text x="430" y="94" class="f64re-sm" style="fill:var(--fig-red)">몰래 옮김</text>
+  <text x="452" y="204" text-anchor="middle" class="f64re-tx">맞지 않는 값을 몰래</text>
+  <text x="452" y="224" text-anchor="middle" class="f64re-tx">지우거나 바꿈</text>
+
+  <!-- 4. 표절 -->
+  <rect x="547" y="34" width="157" height="214" rx="10" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2"/>
+  <text x="625" y="58" text-anchor="middle" class="f64re-h" style="fill:var(--fig-red)">표절</text>
+  <rect x="560" y="74" width="56" height="100" rx="4" class="f64re-doc"/>
+  <line class="f64re-dl" x1="568" y1="90" x2="606" y2="90"/><line class="f64re-cp" x1="568" y1="104" x2="608" y2="104"/><line class="f64re-cp" x1="568" y1="118" x2="604" y2="118"/><line class="f64re-dl" x1="568" y1="132" x2="600" y2="132"/>
+  <text x="588" y="164" text-anchor="middle" class="f64re-sm">남의 글</text>
+  <rect x="634" y="74" width="56" height="100" rx="4" class="f64re-doc"/>
+  <line class="f64re-dl" x1="642" y1="90" x2="680" y2="90"/><line class="f64re-cp" x1="642" y1="104" x2="682" y2="104"/><line class="f64re-cp" x1="642" y1="118" x2="678" y2="118"/><line class="f64re-dl" x1="642" y1="132" x2="672" y2="132"/>
+  <text x="662" y="164" text-anchor="middle" class="f64re-sm">내 보고서</text>
+  <path d="M617 111 H630" style="stroke:var(--fig-red);stroke-width:2"/><path d="M633 111 l-6 -4 v8 z" style="fill:var(--fig-red)"/>
+  <text x="625" y="204" text-anchor="middle" class="f64re-tx">남의 글·자료를</text>
+  <text x="625" y="224" text-anchor="middle" class="f64re-tx">출처 없이 내 것처럼</text>
+  <text x="625" y="241" text-anchor="middle" class="f64re-sm">(출처 밝히면 인용)</text>
+
+  <!-- 3R -->
+  <text x="16" y="284" class="f64re-h">동물실험의 3R 원칙</text>
+  <rect x="16" y="296" width="220" height="128" rx="10" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2"/>
+  <text x="32" y="324" class="f64re-h">대체 <tspan class="f64re-sm">Replacement</tspan></text>
+  <text x="32" y="352" class="f64re-tx">가능하면 동물을 쓰지 않는</text>
+  <text x="32" y="372" class="f64re-tx">방법으로 바꾼다</text>
+  <text x="32" y="402" class="f64re-sm">세포 배양, 컴퓨터 모의실험</text>
+  <rect x="250" y="296" width="220" height="128" rx="10" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2"/>
+  <text x="266" y="324" class="f64re-h">감소 <tspan class="f64re-sm">Reduction</tspan></text>
+  <text x="266" y="352" class="f64re-tx">사용하는 동물의 수를</text>
+  <text x="266" y="372" class="f64re-tx">줄인다</text>
+  <text x="266" y="402" class="f64re-sm">필요한 최소 수 계산, 데이터 공유</text>
+  <rect x="484" y="296" width="220" height="128" rx="10" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2"/>
+  <text x="500" y="324" class="f64re-h">개선 <tspan class="f64re-sm">Refinement</tspan></text>
+  <text x="500" y="352" class="f64re-tx">동물이 받는 고통을</text>
+  <text x="500" y="372" class="f64re-tx">최소화한다</text>
+  <text x="500" y="402" class="f64re-sm">마취·진통제, 사육 환경 개선</text>
+</svg>
