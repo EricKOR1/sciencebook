@@ -220,7 +220,7 @@ details.answer[open] summary::before { content: "−"; }
 /* 도표(mermaid) */
 .diagram { margin-inline: 0; background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius); padding: 0.8rem; }
 .diagram-scroll { overflow-x: auto; text-align: center; }
-.diagram svg { max-width: 100%; height: auto; font-family: var(--font-body) !important; }
+.diagram svg { max-width: 100%; height: auto; display: inline-block; font-family: var(--font-body) !important; }
 .diagram svg .node rect, .diagram svg .node polygon, .diagram svg .node circle { fill: var(--mm-node) !important; stroke: var(--mm-border) !important; }
 .diagram svg .cluster rect { fill: var(--mm-group) !important; stroke: var(--mm-border) !important; }
 .diagram svg .flowchart-link, .diagram svg .edgePath path { stroke: var(--mm-line) !important; }

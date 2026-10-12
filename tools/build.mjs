@@ -68,6 +68,20 @@ const MM_CFG = { theme: 'base', flowchart: { htmlLabels: true, curve: 'basis', p
     secondaryColor: '#a5a5a5', tertiaryColor: '#a6a6a6', edgeLabelBackground: '#a7a7a7', fontFamily: 'inherit', fontSize: '15px' } };
 let browser = null;
 async function mermaidSvg(def, uid) {
+  // 가로로 너무 긴 도표는 본문 폭에서 글자가 작아지므로 세로 방향으로 다시 그린다
+  let svg = await mermaidRaw(def);
+  let w = +((svg.match(/viewBox="[\d.\-]+ [\d.\-]+ ([\d.]+)/) || [])[1] || 0);
+  if (w > 860 && /^\s*(flowchart|graph)\s+LR/.test(def)) {
+    svg = await mermaidRaw(def.replace(/^(\s*(?:flowchart|graph)\s+)LR/, '$1TB'));
+    w = +((svg.match(/viewBox="[\d.\-]+ [\d.\-]+ ([\d.]+)/) || [])[1] || 0);
+  }
+  for (const [k, v] of Object.entries(MM_VARS)) svg = svg.split(k).join(v).split(k.toUpperCase()).join(v);
+  svg = svg.replace(/<\?xml[^>]*>/, '').replace(/MMID/g, `mm-${uid}`)
+    .replace(/(<svg[^>]*?)\sstyle="[^"]*"/, '$1').replace(/(<svg[^>]*?)\swidth="[^"]*"/, '$1')
+    .replace(/<svg /, `<svg style="width:${Math.round(w)}px" `);
+  return `<figure class="diagram" role="img"><div class="diagram-scroll">${svg}</div></figure>`;
+}
+async function mermaidRaw(def) {
   fs.mkdirSync(CACHE, { recursive: true });
   const key = crypto.createHash('sha1').update(JSON.stringify(MM_CFG) + def).digest('hex').slice(0, 16);
   const file = path.join(CACHE, `mm-${key}.svg`);
@@ -83,10 +97,7 @@ async function mermaidSvg(def, uid) {
     svg = Buffer.from(data).toString('utf8');
     fs.writeFileSync(file, svg);
   }
-  for (const [k, v] of Object.entries(MM_VARS)) svg = svg.split(k).join(v).split(k.toUpperCase()).join(v);
-  svg = svg.replace(/<\?xml[^>]*>/, '').replace(/MMID/g, `mm-${uid}`)
-    .replace(/(<svg[^>]*?)\sstyle="[^"]*"/, '$1').replace(/(<svg[^>]*?)\swidth="[^"]*"/, '$1');
-  return `<figure class="diagram" role="img"><div class="diagram-scroll">${svg}</div></figure>`;
+  return svg;
 }
 
 // ───────────────────────── Markdown 변환 ─────────────────────────
