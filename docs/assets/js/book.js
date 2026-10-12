@@ -133,7 +133,8 @@
             L.playing = true; last = performance.now();
             var step = function (now) {
               if (!L.playing) return;
-              var dt = Math.min((now - last) / 1000, 0.05); last = now; t += dt;
+              var dt = Math.min(Math.max((now - last) / 1000, 0), 0.05); last = now; t += dt;
+              if (dt === 0) { raf = requestAnimationFrame(step); return; }
               fn(dt, t);
               raf = requestAnimationFrame(step);
             };
