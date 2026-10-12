@@ -5,7 +5,7 @@ Sims.register('projectile', {
   init: function (api) {
     var G = 9.8, H = 4.9, TEND = 1.0, FLASH = 0.1, XB0 = 0.5;
     var GM = 398600, RE = 6371, VC = 7.9, R0 = GM / (VC * VC), A0 = R0 - RE; // 발사 높이: 7.9 km/s가 정확히 원 궤도가 되는 높이(약 16 km)
-    var state = { tab: 0, v: 3, t: TEND, playing: false, vl: 7.0, prog: 1, hist: [7.6, 7.85, 7.9, 8.5] };
+    var state = { tab: 0, v: 3, t: TEND, playing: false, vl: 7.7, prog: 1, hist: [7.85, 7.9, 8.5] };
     var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.25 : 0.6; }, label: '자유 낙하와 수평으로 던진 공, 뉴턴의 대포' });
     var ctx = cv.ctx;
 
@@ -139,11 +139,9 @@ Sims.register('projectile', {
       // 바닥과 눈금
       ctx.fillStyle = T.figSoftGreen; ctx.fillRect(area.x + 10, Y(H) + br, area.w - 20, 8);
       ctx.strokeStyle = T.figGreen; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(area.x + 10, Y(H) + br); ctx.lineTo(area.x + area.w - 10, Y(H) + br); ctx.stroke();
-      ctx.strokeStyle = T.figLine; ctx.lineWidth = 1; ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontMono; ctx.textAlign = 'right';
-      ctx.beginPath(); ctx.moveTo(left - 22, Y(0)); ctx.lineTo(left - 22, Y(H)); ctx.stroke();
-      [0, 1, 2, 3, 4].forEach(function (m) { ctx.beginPath(); ctx.moveTo(left - 26, Y(m)); ctx.lineTo(left - 18, Y(m)); ctx.stroke(); ctx.fillText(m + ' m', left - 28, Y(m) + 4); });
-      text('A 가만히 놓음', X(0), topY - 22, T, { bold: true, align: 'center', size: 12 });
-      text('B 수평으로 던짐', X(XB0) + 8, topY - 22, T, { bold: true, size: 12 });
+      text('A 가만히 놓음', X(0) - br, topY - 30, T, { bold: true, size: 12, color: T.figViolet });
+      text('B 수평으로 던짐', X(XB0) + br + 4, topY - 12, T, { bold: true, size: 12, color: T.figAmber });
+      text('출발 높이 4.9 m', area.x + 14, Y(H) + br + 24, T, { size: 11, color: T.figMuted });
       // 섬광 사진 (지금까지 찍힌 것)
       var n = Math.floor(state.t / FLASH + 1e-6);
       for (var k = 0; k <= n; k++) {
@@ -172,7 +170,7 @@ Sims.register('projectile', {
       var lines = [
         ['같은 시각 → 같은 높이', true, T.figInk],
         ['둘 다 1.00 s 만에 바닥에 닿는다', false, T.figInk],
-        ['B의 0.1초당 수평 이동: ' + (state.v * FLASH).toFixed(2) + ' m (일정)', false, T.figInk],
+        ['B의 수평 간격: ' + (state.v * FLASH).toFixed(2) + ' m (일정)', false, T.figInk],
       ];
       if (!narrow) lines.push(['', false, T.figInk], ['↓ 연직 방향 속도: 점점 커짐', false, T.figRed], ['→ 수평 방향 속도: 그대로', false, T.figBlue], ['', false, T.figInk], ['0.1초 간격 · 공기 저항 무시', false, T.figMuted]);
       lines.forEach(function (L, i) { if (L[0]) text(L[0], nx, ny + i * 20, T, { bold: L[1], size: L[1] ? 13 : 12, color: L[2] }); });
@@ -202,7 +200,7 @@ Sims.register('projectile', {
       ctx.lineTo(cx + Rd * Math.sin(0.12), cy - Rd * Math.cos(0.12)); ctx.closePath();
       ctx.fillStyle = T.figSoftGreen; ctx.fill(); ctx.strokeStyle = T.figGreen; ctx.lineWidth = 1.5; ctx.stroke();
       ctx.fillStyle = T.figInk; ctx.fillRect(cx - 7, cy - Rd - M - 5, 12, 5);
-      text(narrow ? '높은 산(과장)' : '높은 산 (높이 과장)', cx - Rd * 0.2, cy - Rd - M * 0.35, T, { align: 'right', size: 11, color: T.figMuted });
+      text(narrow ? '높은 산(과장)' : '높은 산 (높이 과장)', cx - Rd * 0.35, cy - Rd - M - 8, T, { align: 'right', size: 11, color: T.figMuted });
       // 이전 궤적
       state.hist.forEach(function (v) {
         if (Math.abs(v - state.vl) < 1e-9) return;
@@ -218,7 +216,7 @@ Sims.register('projectile', {
       if (state.prog < 1) trace(P.pts, P.pts.length - 1, T.figLine, 1, true);
       trace(P.pts, last, T.figAccent, 2.6, false);
       // 대포알, 중력(지구 중심 방향), 속도
-      var bi = P.end === 'land' || state.prog < 1 ? last : Math.floor((P.pts.length - 1) * 0.17);
+      var bi = P.end === 'land' || state.prog < 1 ? last : Math.floor((P.pts.length - 1) * 0.1);
       var b = pt(P.pts[bi][0], P.pts[bi][1]), b2 = pt(P.pts[Math.min(bi + 1, P.pts.length - 1)][0], P.pts[Math.min(bi + 1, P.pts.length - 1)][1]);
       var b0 = pt(P.pts[Math.max(bi - 1, 0)][0], P.pts[Math.max(bi - 1, 0)][1]);
       var gx = cx - b[0], gy = cy - b[1], gl = Math.hypot(gx, gy), GL = Math.min(38, Rd * 0.3);

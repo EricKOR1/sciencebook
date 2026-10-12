@@ -271,7 +271,7 @@ Sims.register('plates', {
       label(L.narrow ? '진원이 점점 깊어짐 →' : '대륙 쪽으로 갈수록 진원이 깊어짐 →', 0, 0, T, { size: 12, color: T.figInk });
       ctx.restore();
       label('맨틀 대류(단순화)', X(0.17), Y(0.74), T, { size: 11, color: T.figMuted });
-      label('연약권', X(0.86), Y(0.62), T, { size: 12, color: T.figMuted });
+      label('연약권', X(L.narrow ? 0.55 : 0.86), Y(L.narrow ? 0.92 : 0.62), T, { size: 12, color: T.figMuted });
       label('해양판끼리 만나면 → 호상 열도 (예: 일본 열도)', X(0.02), Y(0.06), T, { size: L.narrow ? 11 : 12, align: 'left', color: T.figMuted });
     }
 
@@ -378,7 +378,7 @@ Sims.register('plates', {
       label(L.narrow ? '반대로 미끄러짐 → 지진' : '양쪽 판이 반대로 미끄러짐 → 지진', X(0.5), Y(FY) + 36, T, { size: 12, box: true });
       label(L.narrow ? '단열대' : '단열대 (같은 방향, 지진 거의 없음)', X(0.05), Y(FY) - 14, T, { size: 12, align: 'left', box: true });
       label(L.narrow ? '단열대' : '단열대 (같은 방향, 지진 거의 없음)', X(0.95), Y(FY) + 16, T, { size: 12, align: 'right', box: true });
-      label('위에서 내려다본 모습', X(0.03), Y(top) - 12, T, { size: 12, align: 'left', color: T.figMuted });
+      label('위에서 내려다본 모습', X(0.97), Y(top) - 12, T, { size: 12, align: 'right', color: T.figMuted });
     }
 
     function drawLegend(T, L, key) {
