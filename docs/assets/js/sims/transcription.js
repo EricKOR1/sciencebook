@@ -249,7 +249,7 @@ Sims.register('transcription', {
       var yC = cytoY(G), cw = G.codonW;
       var rel = s === 8 ? ease((p - 0.45) / 0.55) : 0;
       // 리보솜
-      var rp = s < 4 ? 1 : ribPos(s, p), rx = G.codonX(0) + rp * cw;
+      var rp = s < 4 ? 1 : s === 4 ? 1 - ease(p / 0.3) : ribPos(s, p), rx = G.codonX(0) + rp * cw;
       var ra = s < 4 ? 0.35 : s === 4 ? 0.35 + 0.65 * ease(p / 0.3) : 1;
       var sep = rel * 10;
       ctx.globalAlpha = ra;
