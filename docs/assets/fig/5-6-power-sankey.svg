@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 396" role="img" aria-labelledby="t-5-6-power-sankey d-5-6-power-sankey">
+  <title id="t-5-6-power-sankey">그림 5-6-1 화력 발전소에서 전기 기기까지의 에너지 흐름</title>
+  <desc id="d-5-6-power-sankey">연료의 화학 에너지를 100으로 두면 발전소에서 전기로 바뀌는 것은 약 40이고 약 60은 굴뚝과 복수기 냉각수로 열이 되어 버려진다. 송전선과 전기 기기에서도 열이 조금씩 빠져나가 최종적으로 유용하게 쓰이는 에너지는 약 34이다. 띠의 굵기는 에너지의 양에 비례하며, 발전 효율 40%, 송전 효율 95%, 기기 효율 90%로 가정한 예이다.</desc>
+  <style>
+    .sk-lbl{font-size:14px;font-weight:700;fill:var(--fig-ink)} .sk-sm{font-size:12px;fill:var(--fig-muted)} .sk-ink{fill:var(--fig-ink)}
+    .sk-fuel{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5}
+    .sk-elec{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5}
+    .sk-heat{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5}
+    .sk-use{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5}
+    .sk-node{fill:var(--fig-ink)}
+  </style>
+  <!-- 연료 100 -->
+  <rect x="30" y="60" width="172" height="200" class="sk-fuel"/>
+  <text x="115" y="152" text-anchor="middle" class="sk-lbl">연료의</text>
+  <text x="115" y="170" text-anchor="middle" class="sk-lbl">화학 에너지</text>
+  <text x="115" y="196" text-anchor="middle" class="sk-lbl" style="font-size:20px;fill:var(--fig-amber)">100</text>
+  <!-- 굴뚝 열 -->
+  <path d="M206,60 C246,60 258,50 258,30 L278,30 C278,64 248,80 206,80 Z" class="sk-heat"/>
+  <path d="M250,30 L286,30 L268,8 Z" class="sk-heat"/>
+  <text x="292" y="22" class="sk-sm" style="fill:var(--fig-red);font-weight:600">굴뚝으로 나가는 열</text>
+  <!-- 복수기 열 -->
+  <path d="M206,160 C338,160 408,190 408,258 L408,322 L308,322 L308,292 C308,272 278,260 206,260 Z" class="sk-heat"/>
+  <path d="M298,322 L418,322 L358,346 Z" class="sk-heat"/>
+  <text x="358" y="366" text-anchor="middle" class="sk-sm" style="fill:var(--fig-red);font-weight:600">복수기 냉각수(바닷물)로 버려지는 열</text>
+  <text x="358" y="384" text-anchor="middle" class="sk-sm" style="fill:var(--fig-ink)">굴뚝 열과 합쳐 약 60</text>
+  <!-- 전기 40 -->
+  <rect x="206" y="80" width="216" height="80" class="sk-elec"/>
+  <text x="314" y="118" text-anchor="middle" class="sk-lbl">전기 에너지</text>
+  <text x="314" y="138" text-anchor="middle" class="sk-lbl" style="fill:var(--fig-blue)">약 40</text>
+  <!-- 송전 -->
+  <rect x="426" y="80" width="156" height="76" class="sk-elec"/>
+  <text x="504" y="124" text-anchor="middle" class="sk-lbl" style="fill:var(--fig-blue)">약 38</text>
+  <path d="M426,156 C446,156 452,166 452,190 L456,190 C456,164 446,160 426,160 Z" class="sk-heat"/>
+  <path d="M446,190 L462,190 L454,202 Z" class="sk-heat"/>
+  <text x="454" y="220" text-anchor="middle" class="sk-sm" style="fill:var(--fig-red);font-weight:600">송전선의 열 약 2</text>
+  <!-- 기기 -->
+  <rect x="586" y="80" width="94" height="68.4" class="sk-use"/>
+  <path d="M680,72 L708,114.2 L680,156.4 Z" class="sk-use"/>
+  <text x="633" y="112" text-anchor="middle" class="sk-lbl" style="fill:var(--fig-green)">약 34</text>
+  <text x="633" y="130" text-anchor="middle" class="sk-sm" style="fill:var(--fig-ink)">유용한 에너지</text>
+  <path d="M586,148.4 C606,148.4 614,158 614,190 L621.6,190 C621.6,160 606,156 586,156 Z" class="sk-heat"/>
+  <path d="M608,190 L628,190 L618,204 Z" class="sk-heat"/>
+  <text x="618" y="222" text-anchor="middle" class="sk-sm" style="fill:var(--fig-red);font-weight:600">기기에서 나가는 열 약 4</text>
+  <!-- 단계 -->
+  <rect x="202" y="60" width="4" height="200" class="sk-node"/>
+  <rect x="422" y="80" width="4" height="80" class="sk-node"/>
+  <rect x="582" y="80" width="4" height="76" class="sk-node"/>
+  <text x="196" y="30" text-anchor="end" class="sk-lbl">발전소</text>
+  <text x="196" y="48" text-anchor="end" class="sk-sm">발전 효율 약 40%</text>
+  <text x="424" y="52" text-anchor="middle" class="sk-lbl">송전</text>
+  <text x="424" y="70" text-anchor="middle" class="sk-sm">효율 약 95%</text>
+  <text x="584" y="52" text-anchor="middle" class="sk-lbl">전기 기기</text>
+  <text x="584" y="70" text-anchor="middle" class="sk-sm">효율 약 90%</text>
+  <!-- 정리 -->
+  <text x="704" y="292" text-anchor="end" class="sk-lbl">에너지 총량은 보존된다</text>
+  <text x="704" y="312" text-anchor="end" class="sk-sm" style="fill:var(--fig-ink)">100 = 34 + 60 + 2 + 4</text>
+  <text x="704" y="332" text-anchor="end" class="sk-sm">쓸모 있게 쓰인 것은 약 3분의 1뿐</text>
+  <text x="30" y="290" class="sk-sm">띠의 굵기 = 에너지의 양</text>
+  <text x="30" y="308" class="sk-sm">(효율 값은 가정한 예)</text>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 432" role="img" aria-labelledby="t-5-6-renewables d-5-6-renewables">
+  <title id="t-5-6-renewables">그림 5-6-2 신재생 에너지의 근원과 에너지 전환 한눈에 보기</title>
+  <desc id="d-5-6-renewables">재생 에너지의 대부분(태양광, 태양열, 풍력, 수력, 파력, 바이오)은 근원이 태양 에너지이고, 조력은 달(과 태양)의 인력, 지열은 지구 내부의 열에서 온다. 수소·연료 전지는 수소를 만들어 쓰는 신에너지이다. 각 칸에 에너지 전환과 특징을 적었다.</desc>
+  <style>
+    .rn-h{font-size:14px;font-weight:700} .rn-name{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .rn-cv{font-size:13px;fill:var(--fig-ink)} .rn-sm{font-size:12px;fill:var(--fig-muted)}
+    .rn-card{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1}
+  </style>
+  <rect x="8" y="6" width="704" height="238" rx="12" style="fill:var(--fig-soft-amber);fill-opacity:0.55;stroke:var(--fig-amber);stroke-width:1.5"/>
+  <text x="22" y="28" class="rn-h" style="fill:var(--fig-amber)">근원이 태양 에너지인 재생 에너지</text>
+  <rect x="20" y="42" width="220" height="88" rx="8" class="rn-card"/>
+  <path d="M34,98 L60,98 L70,76 L44,76 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <path d="M39,87 L65,87 M47,98 L57,76" style="stroke:var(--fig-blue);stroke-width:1"/>
+  <circle cx="66" cy="68" r="5" style="fill:var(--fig-amber)"/>
+  <text x="84" y="70" class="rn-name">태양광</text>
+  <text x="84" y="94" class="rn-cv">빛 → 전기 (태양 전지)</text>
+  <text x="84" y="116" class="rn-sm">밤에는 발전하지 못함</text>
+  <rect x="250" y="42" width="220" height="88" rx="8" class="rn-card"/>
+  <circle cx="282" cy="82" r="8" style="fill:var(--fig-amber)"/>
+  <line x1="293.0" y1="82.0" x2="298.0" y2="82.0" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="289.8" y1="89.8" x2="293.3" y2="93.3" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="282.0" y1="93.0" x2="282.0" y2="98.0" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="274.2" y1="89.8" x2="270.7" y2="93.3" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="271.0" y1="82.0" x2="266.0" y2="82.0" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="274.2" y1="74.2" x2="270.7" y2="70.7" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="282.0" y1="71.0" x2="282.0" y2="66.0" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="289.8" y1="74.2" x2="293.3" y2="70.7" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <path d="M270,106 q4,-5 8,0 t8,0 t8,0" style="fill:none;stroke:var(--fig-red);stroke-width:2"/>
+  <text x="314" y="70" class="rn-name">태양열</text>
+  <text x="314" y="94" class="rn-cv">빛 → 열 (→ 전기)</text>
+  <text x="314" y="116" class="rn-sm">온수·난방에 바로 이용</text>
+  <rect x="480" y="42" width="220" height="88" rx="8" class="rn-card"/>
+  <line x1="512" y1="80" x2="512" y2="108" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <line x1="512" y1="80" x2="512.0" y2="62.0" style="stroke:var(--fig-ink);stroke-width:3;stroke-linecap:round"/>
+  <line x1="512" y1="80" x2="527.6" y2="89.0" style="stroke:var(--fig-ink);stroke-width:3;stroke-linecap:round"/>
+  <line x1="512" y1="80" x2="496.4" y2="89.0" style="stroke:var(--fig-ink);stroke-width:3;stroke-linecap:round"/>
+  <circle cx="512" cy="80" r="3" style="fill:var(--fig-ink)"/>
+  <text x="544" y="70" class="rn-name">풍력</text>
+  <text x="544" y="94" class="rn-cv">바람의 운동 → 전기</text>
+  <text x="544" y="116" class="rn-sm">바람이 불 때만 발전</text>
+  <rect x="20" y="138" width="220" height="88" rx="8" class="rn-card"/>
+  <rect x="32" y="172" width="16" height="30" style="fill:var(--fig-soft-blue)"/>
+  <path d="M48,166 L56,166 L64,202 L48,202 Z" style="fill:var(--fig-line);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <path d="M64,198 L74,198" style="stroke:var(--fig-blue);stroke-width:3"/>
+  <text x="84" y="166" class="rn-name">수력</text>
+  <text x="84" y="190" class="rn-cv">위치 → 운동 → 전기</text>
+  <text x="84" y="212" class="rn-sm">효율 높음, 지형 한정</text>
+  <rect x="250" y="138" width="220" height="88" rx="8" class="rn-card"/>
+  <path d="M262,176 q5,-7 10,0 t10,0 t10,0 t10,0" style="fill:none;stroke:var(--fig-blue);stroke-width:2.2"/>
+  <path d="M262,188 q5,-7 10,0 t10,0 t10,0 t10,0" style="fill:none;stroke:var(--fig-blue);stroke-width:2.2"/>
+  <text x="314" y="166" class="rn-name">파력</text>
+  <text x="314" y="190" class="rn-cv">파도의 운동 → 전기</text>
+  <text x="314" y="212" class="rn-sm">바람이 일으킨 파도 이용</text>
+  <rect x="480" y="138" width="220" height="88" rx="8" class="rn-card"/>
+  <path d="M498,198 C496,176 512,164 528,164 C528,186 514,198 498,198 Z" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.8"/>
+  <path d="M498,198 L520,174" style="stroke:var(--fig-green);stroke-width:1.5"/>
+  <text x="544" y="166" class="rn-name">바이오</text>
+  <text x="544" y="190" class="rn-cv">화학 → 열·전기</text>
+  <text x="544" y="212" class="rn-sm">광합성으로 저장된 에너지</text>
+  <rect x="8" y="256" width="224" height="134" rx="12" style="fill:var(--fig-soft-violet);fill-opacity:0.55;stroke:var(--fig-violet);stroke-width:1.5"/>
+  <text x="22" y="278" class="rn-h" style="fill:var(--fig-violet)">달(과 태양)의 인력</text>
+  <rect x="14" y="292" width="212" height="88" rx="8" class="rn-card"/>
+  <path d="M48,314 a12,12 0 1 0 10,18 a9,9 0 1 1 -10,-18 z" style="fill:var(--fig-violet)"/>
+  <path d="M26,350 q5,-7 10,0 t10,0 t10,0 t10,0" style="fill:none;stroke:var(--fig-blue);stroke-width:2.2"/>
+  <text x="78" y="320" class="rn-name">조력</text>
+  <text x="78" y="344" class="rn-cv">위치 → 운동 → 전기</text>
+  <text x="78" y="366" class="rn-sm">밀물·썰물의 높이 차 이용</text>
+  <rect x="248" y="256" width="224" height="134" rx="12" style="fill:var(--fig-soft-red);fill-opacity:0.55;stroke:var(--fig-red);stroke-width:1.5"/>
+  <text x="262" y="278" class="rn-h" style="fill:var(--fig-red)">지구 내부의 열</text>
+  <rect x="254" y="292" width="212" height="88" rx="8" class="rn-card"/>
+  <path d="M266,352 A20,20 0 0 1 306,352 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <path d="M277,352 A9,9 0 0 1 295,352 Z" style="fill:var(--fig-red)"/>
+  <path d="M286,330 l0,-14 M282,322 l4,-6 l4,6" style="fill:none;stroke:var(--fig-red);stroke-width:2"/>
+  <text x="318" y="320" class="rn-name">지열</text>
+  <text x="318" y="344" class="rn-cv">땅속의 열 → 냉난방·전기</text>
+  <text x="318" y="366" class="rn-sm">날씨와 관계없이 안정적</text>
+  <rect x="488" y="256" width="224" height="134" rx="12" style="fill:var(--fig-soft-teal);fill-opacity:0.55;stroke:var(--fig-teal);stroke-width:1.5"/>
+  <text x="502" y="278" class="rn-h" style="fill:var(--fig-teal)">신에너지 — 만들어 쓰는 에너지</text>
+  <rect x="494" y="292" width="212" height="88" rx="8" class="rn-card"/>
+  <circle cx="526" cy="336" r="18" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2"/>
+  <text x="526" y="341" text-anchor="middle" style="font-size:14px;font-weight:700;fill:var(--fig-teal)">H₂</text>
+  <text x="558" y="320" class="rn-name">수소·연료 전지</text>
+  <text x="558" y="344" class="rn-cv">화학 → 전기 (직접)</text>
+  <text x="558" y="366" class="rn-sm">쓸 때 물만 나온다</text>
+  <text x="16" y="418" class="rn-sm" style="fill:var(--fig-ink)">태양광·풍력처럼 날씨와 시간에 따라 발전량이 변하는 에너지(간헐성)는 에너지 저장 장치(ESS)·양수 발전과 함께 쓴다.</text>
+</svg>
