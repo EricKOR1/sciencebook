@@ -287,6 +287,98 @@
 <li><strong>웨이퍼</strong> 잉곳을 얇은 원판으로 잘라 거울처럼 매끈하게 연마한 것이 <strong>웨이퍼(wafer)</strong> 이다. 현재 주력 웨이퍼의 지름은 300 mm이다.</li>
 <li><strong>칩 만들기</strong> 웨이퍼 위에 회로 모양을 새기고, 필요한 부분에 불순물을 넣고(도핑), 절연막과 금속 배선을 쌓아 수많은 칩을 만든 뒤 하나씩 잘라 낸다.</li>
 </ol>
+<figure class="fig" id="fig-2-6-wafer-to-chip"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="t-2-6-wafer-to-chip d-2-6-wafer-to-chip">
+  <title id="t-2-6-wafer-to-chip">그림 2-6-1 고순도 규소에서 반도체 칩까지 — 모양의 변화</title>
+  <desc id="d-2-6-wafer-to-chip">고순도 규소를 녹인 뒤 씨앗 결정을 돌리며 끌어올려 원기둥 모양의 단결정(잉곳)을 만들고, 이를 얇게 잘라 연마한 웨이퍼 위에 수많은 칩을 만든 뒤 하나씩 잘라 낸다. 모식도(크기 비율은 실제와 다름).</desc>
+  <style>
+    .waf-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)} .waf-t{font-size:14px;fill:var(--fig-ink)}
+    .waf-sm{font-size:13px;fill:var(--fig-muted)} .waf-acc{font-size:13px;font-weight:600;fill:var(--fig-accent)}
+    .waf-si{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6}
+    .waf-si2{fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:1.2}
+    .waf-cru{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.8} .waf-melt{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.4}
+    .waf-rod{fill:var(--fig-muted)} .waf-ln{stroke:var(--fig-ink);stroke-width:1.4;fill:none}
+    .waf-rot{stroke:var(--fig-accent);stroke-width:1.8;fill:none} .waf-rh{fill:var(--fig-accent)}
+    .waf-cut{stroke:var(--fig-red);stroke-width:1.6;stroke-dasharray:4 3}
+    .waf-chip{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1}
+    .waf-chipb{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2}
+    .waf-wire{stroke:var(--fig-amber);stroke-width:1.6;fill:none}
+    .waf-ar{stroke:var(--fig-ink);stroke-width:2;fill:none} .waf-ah{fill:var(--fig-ink)}
+  </style>
+  <text x="80" y="28" text-anchor="middle" class="waf-lbl">① 고순도 규소</text>
+  <polygon points="40,190 62,160 92,166 100,196 70,206" class="waf-si"/>
+  <polygon points="70,158 90,128 118,138 112,168 88,170" class="waf-si"/>
+  <polygon points="96,198 108,170 132,176 128,204" class="waf-si"/>
+  <polygon points="34,160 46,134 70,140 64,164" class="waf-si"/>
+  <text x="80" y="238" text-anchor="middle" class="waf-sm">다결정 덩어리</text>
+  <text x="80" y="258" text-anchor="middle" class="waf-sm">순도 99.9999999 % 이상</text>
+  <path d="M140 150 L168 150" class="waf-ar"/><path d="M176 150 l-10 -6 l0 12 z" class="waf-ah"/>
+  <text x="250" y="28" text-anchor="middle" class="waf-lbl">② 단결정 키우기</text>
+  <rect x="247" y="40" width="6" height="44" class="waf-rod"/>
+  <path d="M228 84 L272 84 L272 160 Q250 176 228 160 Z" class="waf-si"/>
+  <path d="M220 66 A30 9 0 1 0 280 66" class="waf-rot"/><path d="M280 66 l-2 -9 l8 5 z" class="waf-rh"/>
+  <path d="M290 110 L290 74" class="waf-rot"/><path d="M290 68 l-5 9 l10 0 z" class="waf-rh"/>
+  <text x="298" y="96" class="waf-acc">끌어올림</text>
+  <path d="M192 170 L192 214 Q192 226 204 226 L296 226 Q308 226 308 214 L308 170" class="waf-cru"/>
+  <path d="M194 180 Q250 170 306 180 L306 214 Q306 224 296 224 L204 224 Q194 224 194 214 Z" class="waf-melt"/>
+  <text x="250" y="208" text-anchor="middle" class="waf-sm">녹인 규소</text>
+  <text x="250" y="248" text-anchor="middle" class="waf-sm">돌리며 천천히 끌어올려</text>
+  <text x="250" y="266" text-anchor="middle" class="waf-sm">원기둥 단결정(잉곳)</text>
+  <path d="M320 150 L348 150" class="waf-ar"/><path d="M356 150 l-10 -6 l0 12 z" class="waf-ah"/>
+  <text x="440" y="28" text-anchor="middle" class="waf-lbl">③ 얇게 잘라 연마</text>
+  <path d="M372 90 L436 90 A12 30 0 0 1 436 150 L372 150 A12 30 0 0 1 372 90 Z" class="waf-si"/>
+  <ellipse cx="436" cy="120" rx="12" ry="30" class="waf-si"/>
+  <path d="M392 84 A12 30 0 0 1 392 156" class="waf-cut"/>
+  <path d="M408 84 A12 30 0 0 1 408 156" class="waf-cut"/>
+  <path d="M424 84 A12 30 0 0 1 424 156" class="waf-cut"/>
+  <text x="404.0" y="174" text-anchor="middle" class="waf-sm">잉곳</text>
+  <ellipse cx="480" cy="190" rx="46" ry="19.32" class="waf-si2"/>
+  <ellipse cx="480" cy="186" rx="46" ry="19.32" class="waf-si"/>
+  <path d="M442 140 Q470 144 474 162" class="waf-ln"/><path d="M474 166 l-5 -10 l10 0 z" class="waf-ah"/>
+  <text x="480" y="226" text-anchor="middle" class="waf-sm">웨이퍼 (주력 지름 300 mm)</text>
+  <path d="M540 150 L568 150" class="waf-ar"/><path d="M576 150 l-10 -6 l0 12 z" class="waf-ah"/>
+  <text x="640" y="28" text-anchor="middle" class="waf-lbl">④ 칩 만들기</text>
+  <circle cx="646" cy="110" r="52" class="waf-si"/>
+  <rect x="608" y="85" width="11" height="11" class="waf-chip"/>
+  <rect x="608" y="98" width="11" height="11" class="waf-chip"/>
+  <rect x="608" y="111" width="11" height="11" class="waf-chip"/>
+  <rect x="608" y="124" width="11" height="11" class="waf-chip"/>
+  <rect x="621" y="72" width="11" height="11" class="waf-chip"/>
+  <rect x="621" y="85" width="11" height="11" class="waf-chip"/>
+  <rect x="621" y="98" width="11" height="11" class="waf-chip"/>
+  <rect x="621" y="111" width="11" height="11" class="waf-chip"/>
+  <rect x="621" y="124" width="11" height="11" class="waf-chip"/>
+  <rect x="621" y="137" width="11" height="11" class="waf-chip"/>
+  <rect x="634" y="72" width="11" height="11" class="waf-chip"/>
+  <rect x="634" y="85" width="11" height="11" class="waf-chip"/>
+  <rect x="634" y="98" width="11" height="11" class="waf-chip"/>
+  <rect x="634" y="111" width="11" height="11" class="waf-chip"/>
+  <rect x="634" y="124" width="11" height="11" class="waf-chip"/>
+  <rect x="634" y="137" width="11" height="11" class="waf-chip"/>
+  <rect x="647" y="72" width="11" height="11" class="waf-chip"/>
+  <rect x="647" y="85" width="11" height="11" class="waf-chip"/>
+  <rect x="647" y="98" width="11" height="11" class="waf-chip"/>
+  <rect x="647" y="111" width="11" height="11" class="waf-chip"/>
+  <rect x="647" y="124" width="11" height="11" class="waf-chip"/>
+  <rect x="647" y="137" width="11" height="11" class="waf-chip"/>
+  <rect x="660" y="72" width="11" height="11" class="waf-chip"/>
+  <rect x="660" y="85" width="11" height="11" class="waf-chip"/>
+  <rect x="660" y="98" width="11" height="11" class="waf-chip"/>
+  <rect x="660" y="111" width="11" height="11" class="waf-chip"/>
+  <rect x="660" y="124" width="11" height="11" class="waf-chip"/>
+  <rect x="660" y="137" width="11" height="11" class="waf-chip"/>
+  <rect x="673" y="85" width="11" height="11" class="waf-chip"/>
+  <rect x="673" y="98" width="11" height="11" class="waf-chip"/>
+  <rect x="673" y="111" width="11" height="11" class="waf-chip"/>
+  <rect x="673" y="124" width="11" height="11" class="waf-chip"/>
+  <rect x="626" y="186" width="40" height="40" rx="3" class="waf-chipb"/>
+  <path d="M634 196 h10 v12 h12 M634 216 h20 v-10" class="waf-wire"/>
+  <path d="M646 164 L646 180" class="waf-ln"/><path d="M646 185 l-5 -9 l10 0 z" class="waf-ah"/>
+  <text x="640" y="248" text-anchor="middle" class="waf-sm">회로 새기기·도핑 후</text>
+  <text x="640" y="266" text-anchor="middle" class="waf-sm">하나씩 잘라 낸 칩</text>
+  <text x="360" y="292" text-anchor="middle" class="waf-sm">불순물을 먼저 철저히 없앤 뒤, 원하는 불순물을 원하는 곳에 원하는 양만큼 넣는다. 모식도.</text>
+</svg>
+</div><figcaption><b>그림 2-6-1 고순도 규소에서 반도체 칩까지 — 모양의 변화</b> 고순도 규소를 녹인 뒤 씨앗 결정을 돌리며 끌어올려 원기둥 모양의 단결정(잉곳)을 만들고, 이를 얇게 잘라 연마한 웨이퍼 위에 수많은 칩을 만든 뒤 하나씩 잘라 낸다. 모식도(크기 비율은 실제와 다름).</figcaption></figure>
+
 <aside class="callout important"><p class="callout-title">핵심</p><p>반도체 공정의 순서는 &quot;<strong>먼저 불순물을 철저히 없애고 → 그다음 원하는 불순물을 원하는 곳에 원하는 양만큼 넣는다</strong>&quot;이다. 불순물을 제거하는 것과 넣는 것은 모순이 아니다. <strong>제어되지 않은</strong> 불순물을 없애야 <strong>제어된</strong> 불순물로 전기적 성질을 정확히 조절할 수 있다.</p>
 </aside>
 <h4 id="규소가-반도체-재료의-주인공이-된-이유">규소가 반도체 재료의 주인공이 된 이유</h4>
@@ -506,6 +598,89 @@
 <td>약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">10</span></span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord">Ω</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathrm">m</span></span></span></span> 이상</td>
 </tr>
 </tbody></table></div>
+<figure class="fig" id="fig-2-6-resistivity-scale"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" role="img" aria-labelledby="t-2-6-resistivity-scale d-2-6-resistivity-scale">
+  <title id="t-2-6-resistivity-scale">그림 2-6-2 물질의 비저항 비교(로그 눈금)</title>
+  <desc id="d-2-6-resistivity-scale">같은 모양으로 만들었을 때 전기가 통하기 어려운 정도(비저항)를 로그 눈금에 나타냈다. 구리는 약 1.7×10⁻⁸ Ω·m, 순수한 규소는 약 10³ Ω·m, 유리는 약 10¹⁰ Ω·m 이상이며, 규소에 불순물을 넣으면 비저항이 작아진다. 세 영역의 경계는 대략적인 것이다.</desc>
+  <style>
+    .res-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)} .res-t{font-size:14px;fill:var(--fig-ink)}
+    .res-sm{font-size:13px;fill:var(--fig-muted)} .res-tick{font-size:13px;fill:var(--fig-ink)}
+    .res-ax{stroke:var(--fig-ink);stroke-width:2;fill:none} .res-tk{stroke:var(--fig-ink);stroke-width:1.5}
+    .res-mk{stroke:var(--fig-ink);stroke-width:1.2}
+    .res-cond{fill:var(--fig-soft-amber)} .res-semi{fill:var(--fig-soft-violet)} .res-ins{fill:var(--fig-soft-teal)}
+    .res-bd{stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:4 4}
+    .res-cu{fill:var(--fig-amber);stroke:var(--fig-ink);stroke-width:1.2} .res-si{fill:var(--fig-violet);stroke:var(--fig-ink);stroke-width:1.2}
+    .res-gl{fill:var(--fig-teal);stroke:var(--fig-ink);stroke-width:1.2}
+    .res-ar{stroke:var(--fig-violet);stroke-width:2.2;fill:none} .res-ah{fill:var(--fig-violet)} .res-vt{font-size:13px;font-weight:600;fill:var(--fig-violet)}
+    .res-ar2{stroke:var(--fig-teal);stroke-width:2.2;fill:none} .res-ah2{fill:var(--fig-teal)}
+    .res-g{stroke:var(--fig-muted);stroke-width:1.6;fill:none} .res-gh{fill:var(--fig-muted)}
+  </style>
+  <rect x="50" y="70" width="106.7" height="130" class="res-cond"/>
+  <rect x="156.7" y="70" width="293.3" height="130" class="res-semi"/>
+  <rect x="450.0" y="70" width="240.0" height="130" class="res-ins"/>
+  <line x1="156.7" y1="70" x2="156.7" y2="200" class="res-bd"/>
+  <line x1="450.0" y1="70" x2="450.0" y2="200" class="res-bd"/>
+  <text x="103.3" y="92" text-anchor="middle" class="res-lbl">도체</text>
+  <text x="303.3" y="92" text-anchor="middle" class="res-lbl">반도체</text>
+  <text x="570.0" y="92" text-anchor="middle" class="res-lbl">부도체(절연체)</text>
+  <path d="M280 34 L50 34" class="res-g"/><path d="M50 34 l10 -6 l0 12 z" class="res-gh"/>
+  <text x="64" y="24" class="res-sm">전기가 잘 통한다</text>
+  <path d="M460 34 L690 34" class="res-g"/><path d="M690 34 l-10 -6 l0 12 z" class="res-gh"/>
+  <text x="676" y="24" text-anchor="end" class="res-sm">전기가 잘 통하지 않는다</text>
+  <line x1="50" y1="200" x2="690" y2="200" class="res-ax"/>
+  <line x1="50.0" y1="200" x2="50.0" y2="208" class="res-tk"/>
+  <text x="50.0" y="226" text-anchor="middle" class="res-tick">10⁻⁹</text>
+  <line x1="76.7" y1="200" x2="76.7" y2="204" class="res-tk"/>
+  <line x1="103.3" y1="200" x2="103.3" y2="204" class="res-tk"/>
+  <line x1="130.0" y1="200" x2="130.0" y2="208" class="res-tk"/>
+  <text x="130.0" y="226" text-anchor="middle" class="res-tick">10⁻⁶</text>
+  <line x1="156.7" y1="200" x2="156.7" y2="204" class="res-tk"/>
+  <line x1="183.3" y1="200" x2="183.3" y2="204" class="res-tk"/>
+  <line x1="210.0" y1="200" x2="210.0" y2="208" class="res-tk"/>
+  <text x="210.0" y="226" text-anchor="middle" class="res-tick">10⁻³</text>
+  <line x1="236.7" y1="200" x2="236.7" y2="204" class="res-tk"/>
+  <line x1="263.3" y1="200" x2="263.3" y2="204" class="res-tk"/>
+  <line x1="290.0" y1="200" x2="290.0" y2="208" class="res-tk"/>
+  <text x="290.0" y="226" text-anchor="middle" class="res-tick">10⁰</text>
+  <line x1="316.7" y1="200" x2="316.7" y2="204" class="res-tk"/>
+  <line x1="343.3" y1="200" x2="343.3" y2="204" class="res-tk"/>
+  <line x1="370.0" y1="200" x2="370.0" y2="208" class="res-tk"/>
+  <text x="370.0" y="226" text-anchor="middle" class="res-tick">10³</text>
+  <line x1="396.7" y1="200" x2="396.7" y2="204" class="res-tk"/>
+  <line x1="423.3" y1="200" x2="423.3" y2="204" class="res-tk"/>
+  <line x1="450.0" y1="200" x2="450.0" y2="208" class="res-tk"/>
+  <text x="450.0" y="226" text-anchor="middle" class="res-tick">10⁶</text>
+  <line x1="476.7" y1="200" x2="476.7" y2="204" class="res-tk"/>
+  <line x1="503.3" y1="200" x2="503.3" y2="204" class="res-tk"/>
+  <line x1="530.0" y1="200" x2="530.0" y2="208" class="res-tk"/>
+  <text x="530.0" y="226" text-anchor="middle" class="res-tick">10⁹</text>
+  <line x1="556.7" y1="200" x2="556.7" y2="204" class="res-tk"/>
+  <line x1="583.3" y1="200" x2="583.3" y2="204" class="res-tk"/>
+  <line x1="610.0" y1="200" x2="610.0" y2="208" class="res-tk"/>
+  <text x="610.0" y="226" text-anchor="middle" class="res-tick">10¹²</text>
+  <line x1="636.7" y1="200" x2="636.7" y2="204" class="res-tk"/>
+  <line x1="663.3" y1="200" x2="663.3" y2="204" class="res-tk"/>
+  <line x1="690.0" y1="200" x2="690.0" y2="208" class="res-tk"/>
+  <text x="690.0" y="226" text-anchor="middle" class="res-tick">10¹⁵</text>
+  <text x="360" y="252" text-anchor="middle" class="res-t">비저항 (Ω·m) — 로그 눈금: 큰 눈금 한 칸마다 1000배</text>
+  <text x="360" y="276" text-anchor="middle" class="res-sm">상온에서의 대략적인 값. 영역의 경계(점선)는 뚜렷하게 정해진 것이 아니다.</text>
+  <line x1="82.8" y1="160" x2="82.8" y2="200" class="res-mk"/>
+  <circle cx="82.8" cy="152" r="8" class="res-cu"/>
+  <text x="82.8" y="122" text-anchor="middle" class="res-lbl">구리</text>
+  <text x="82.8" y="139" text-anchor="middle" class="res-sm">약 1.7×10⁻⁸</text>
+  <line x1="370.0" y1="160" x2="370.0" y2="200" class="res-mk"/>
+  <circle cx="370.0" cy="152" r="8" class="res-si"/>
+  <text x="370.0" y="122" text-anchor="middle" class="res-lbl">순수한 규소</text>
+  <text x="370.0" y="139" text-anchor="middle" class="res-sm">약 10³</text>
+  <line x1="556.7" y1="160" x2="556.7" y2="200" class="res-mk"/>
+  <circle cx="556.7" cy="152" r="8" class="res-gl"/>
+  <text x="556.7" y="122" text-anchor="middle" class="res-lbl">유리</text>
+  <text x="556.7" y="139" text-anchor="middle" class="res-sm">약 10¹⁰ 이상</text>
+  <path d="M566.7 152 L642.0 152" class="res-ar2"/><path d="M652.7 152 l-10 -6 l0 12 z" class="res-ah2"/>
+  <path d="M360.0 178 L202.0 178" class="res-ar"/><path d="M191.3 178 l10 -6 l0 12 z" class="res-ah"/>
+  <text x="295.3" y="194" text-anchor="middle" class="res-vt">불순물을 넣을수록 작아짐</text>
+</svg>
+</div><figcaption><b>그림 2-6-2 물질의 비저항 비교(로그 눈금)</b> 같은 모양으로 만들었을 때 전기가 통하기 어려운 정도(비저항)를 로그 눈금에 나타냈다. 구리는 약 1.7×10⁻⁸ Ω·m, 순수한 규소는 약 10³ Ω·m, 유리는 약 10¹⁰ Ω·m 이상이며, 규소에 불순물을 넣으면 비저항이 작아진다. 세 영역의 경계는 대략적인 것이다.</figcaption></figure>
+
 <p>예를 들어 길이 10 m, 단면적 1 mm²(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">6</span></span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span></span></span></span></span></span></span></span>)인 구리선의 저항은</p>
 <p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1.7</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.9474em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">8</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:2.0908em;vertical-align:-0.7693em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7401em;"><span style="top:-2.989em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">6</span></span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">10</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7693em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">0.17</span><span class="mspace"> </span><span class="mord">Ω</span></span></span></span></span></p>
 <p>이다. 같은 모양의 유리라면 저항이 구리의 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">17</span></span></span></span></span></span></span></span></span></span></span></span>배 이상이다. 구리와 성능 좋은 절연체 사이에는 비저항이 20자릿수 넘게 차이 나기도 한다.</p>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="t-2-6-wafer-to-chip d-2-6-wafer-to-chip">
+  <title id="t-2-6-wafer-to-chip">그림 2-6-1 고순도 규소에서 반도체 칩까지 — 모양의 변화</title>
+  <desc id="d-2-6-wafer-to-chip">고순도 규소를 녹인 뒤 씨앗 결정을 돌리며 끌어올려 원기둥 모양의 단결정(잉곳)을 만들고, 이를 얇게 잘라 연마한 웨이퍼 위에 수많은 칩을 만든 뒤 하나씩 잘라 낸다. 모식도(크기 비율은 실제와 다름).</desc>
+  <style>
+    .waf-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)} .waf-t{font-size:14px;fill:var(--fig-ink)}
+    .waf-sm{font-size:13px;fill:var(--fig-muted)} .waf-acc{font-size:13px;font-weight:600;fill:var(--fig-accent)}
+    .waf-si{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6}
+    .waf-si2{fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:1.2}
+    .waf-cru{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.8} .waf-melt{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.4}
+    .waf-rod{fill:var(--fig-muted)} .waf-ln{stroke:var(--fig-ink);stroke-width:1.4;fill:none}
+    .waf-rot{stroke:var(--fig-accent);stroke-width:1.8;fill:none} .waf-rh{fill:var(--fig-accent)}
+    .waf-cut{stroke:var(--fig-red);stroke-width:1.6;stroke-dasharray:4 3}
+    .waf-chip{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1}
+    .waf-chipb{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2}
+    .waf-wire{stroke:var(--fig-amber);stroke-width:1.6;fill:none}
+    .waf-ar{stroke:var(--fig-ink);stroke-width:2;fill:none} .waf-ah{fill:var(--fig-ink)}
+  </style>
+  <text x="80" y="28" text-anchor="middle" class="waf-lbl">① 고순도 규소</text>
+  <polygon points="40,190 62,160 92,166 100,196 70,206" class="waf-si"/>
+  <polygon points="70,158 90,128 118,138 112,168 88,170" class="waf-si"/>
+  <polygon points="96,198 108,170 132,176 128,204" class="waf-si"/>
+  <polygon points="34,160 46,134 70,140 64,164" class="waf-si"/>
+  <text x="80" y="238" text-anchor="middle" class="waf-sm">다결정 덩어리</text>
+  <text x="80" y="258" text-anchor="middle" class="waf-sm">순도 99.9999999 % 이상</text>
+  <path d="M140 150 L168 150" class="waf-ar"/><path d="M176 150 l-10 -6 l0 12 z" class="waf-ah"/>
+  <text x="250" y="28" text-anchor="middle" class="waf-lbl">② 단결정 키우기</text>
+  <rect x="247" y="40" width="6" height="44" class="waf-rod"/>
+  <path d="M228 84 L272 84 L272 160 Q250 176 228 160 Z" class="waf-si"/>
+  <path d="M220 66 A30 9 0 1 0 280 66" class="waf-rot"/><path d="M280 66 l-2 -9 l8 5 z" class="waf-rh"/>
+  <path d="M290 110 L290 74" class="waf-rot"/><path d="M290 68 l-5 9 l10 0 z" class="waf-rh"/>
+  <text x="298" y="96" class="waf-acc">끌어올림</text>
+  <path d="M192 170 L192 214 Q192 226 204 226 L296 226 Q308 226 308 214 L308 170" class="waf-cru"/>
+  <path d="M194 180 Q250 170 306 180 L306 214 Q306 224 296 224 L204 224 Q194 224 194 214 Z" class="waf-melt"/>
+  <text x="250" y="208" text-anchor="middle" class="waf-sm">녹인 규소</text>
+  <text x="250" y="248" text-anchor="middle" class="waf-sm">돌리며 천천히 끌어올려</text>
+  <text x="250" y="266" text-anchor="middle" class="waf-sm">원기둥 단결정(잉곳)</text>
+  <path d="M320 150 L348 150" class="waf-ar"/><path d="M356 150 l-10 -6 l0 12 z" class="waf-ah"/>
+  <text x="440" y="28" text-anchor="middle" class="waf-lbl">③ 얇게 잘라 연마</text>
+  <path d="M372 90 L436 90 A12 30 0 0 1 436 150 L372 150 A12 30 0 0 1 372 90 Z" class="waf-si"/>
+  <ellipse cx="436" cy="120" rx="12" ry="30" class="waf-si"/>
+  <path d="M392 84 A12 30 0 0 1 392 156" class="waf-cut"/>
+  <path d="M408 84 A12 30 0 0 1 408 156" class="waf-cut"/>
+  <path d="M424 84 A12 30 0 0 1 424 156" class="waf-cut"/>
+  <text x="404.0" y="174" text-anchor="middle" class="waf-sm">잉곳</text>
+  <ellipse cx="480" cy="190" rx="46" ry="19.32" class="waf-si2"/>
+  <ellipse cx="480" cy="186" rx="46" ry="19.32" class="waf-si"/>
+  <path d="M442 140 Q470 144 474 162" class="waf-ln"/><path d="M474 166 l-5 -10 l10 0 z" class="waf-ah"/>
+  <text x="480" y="226" text-anchor="middle" class="waf-sm">웨이퍼 (주력 지름 300 mm)</text>
+  <path d="M540 150 L568 150" class="waf-ar"/><path d="M576 150 l-10 -6 l0 12 z" class="waf-ah"/>
+  <text x="640" y="28" text-anchor="middle" class="waf-lbl">④ 칩 만들기</text>
+  <circle cx="646" cy="110" r="52" class="waf-si"/>
+  <rect x="608" y="85" width="11" height="11" class="waf-chip"/>
+  <rect x="608" y="98" width="11" height="11" class="waf-chip"/>
+  <rect x="608" y="111" width="11" height="11" class="waf-chip"/>
+  <rect x="608" y="124" width="11" height="11" class="waf-chip"/>
+  <rect x="621" y="72" width="11" height="11" class="waf-chip"/>
+  <rect x="621" y="85" width="11" height="11" class="waf-chip"/>
+  <rect x="621" y="98" width="11" height="11" class="waf-chip"/>
+  <rect x="621" y="111" width="11" height="11" class="waf-chip"/>
+  <rect x="621" y="124" width="11" height="11" class="waf-chip"/>
+  <rect x="621" y="137" width="11" height="11" class="waf-chip"/>
+  <rect x="634" y="72" width="11" height="11" class="waf-chip"/>
+  <rect x="634" y="85" width="11" height="11" class="waf-chip"/>
+  <rect x="634" y="98" width="11" height="11" class="waf-chip"/>
+  <rect x="634" y="111" width="11" height="11" class="waf-chip"/>
+  <rect x="634" y="124" width="11" height="11" class="waf-chip"/>
+  <rect x="634" y="137" width="11" height="11" class="waf-chip"/>
+  <rect x="647" y="72" width="11" height="11" class="waf-chip"/>
+  <rect x="647" y="85" width="11" height="11" class="waf-chip"/>
+  <rect x="647" y="98" width="11" height="11" class="waf-chip"/>
+  <rect x="647" y="111" width="11" height="11" class="waf-chip"/>
+  <rect x="647" y="124" width="11" height="11" class="waf-chip"/>
+  <rect x="647" y="137" width="11" height="11" class="waf-chip"/>
+  <rect x="660" y="72" width="11" height="11" class="waf-chip"/>
+  <rect x="660" y="85" width="11" height="11" class="waf-chip"/>
+  <rect x="660" y="98" width="11" height="11" class="waf-chip"/>
+  <rect x="660" y="111" width="11" height="11" class="waf-chip"/>
+  <rect x="660" y="124" width="11" height="11" class="waf-chip"/>
+  <rect x="660" y="137" width="11" height="11" class="waf-chip"/>
+  <rect x="673" y="85" width="11" height="11" class="waf-chip"/>
+  <rect x="673" y="98" width="11" height="11" class="waf-chip"/>
+  <rect x="673" y="111" width="11" height="11" class="waf-chip"/>
+  <rect x="673" y="124" width="11" height="11" class="waf-chip"/>
+  <rect x="626" y="186" width="40" height="40" rx="3" class="waf-chipb"/>
+  <path d="M634 196 h10 v12 h12 M634 216 h20 v-10" class="waf-wire"/>
+  <path d="M646 164 L646 180" class="waf-ln"/><path d="M646 185 l-5 -9 l10 0 z" class="waf-ah"/>
+  <text x="640" y="248" text-anchor="middle" class="waf-sm">회로 새기기·도핑 후</text>
+  <text x="640" y="266" text-anchor="middle" class="waf-sm">하나씩 잘라 낸 칩</text>
+  <text x="360" y="292" text-anchor="middle" class="waf-sm">불순물을 먼저 철저히 없앤 뒤, 원하는 불순물을 원하는 곳에 원하는 양만큼 넣는다. 모식도.</text>
+</svg>

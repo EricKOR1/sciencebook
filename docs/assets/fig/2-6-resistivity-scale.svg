@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" role="img" aria-labelledby="t-2-6-resistivity-scale d-2-6-resistivity-scale">
+  <title id="t-2-6-resistivity-scale">그림 2-6-2 물질의 비저항 비교(로그 눈금)</title>
+  <desc id="d-2-6-resistivity-scale">같은 모양으로 만들었을 때 전기가 통하기 어려운 정도(비저항)를 로그 눈금에 나타냈다. 구리는 약 1.7×10⁻⁸ Ω·m, 순수한 규소는 약 10³ Ω·m, 유리는 약 10¹⁰ Ω·m 이상이며, 규소에 불순물을 넣으면 비저항이 작아진다. 세 영역의 경계는 대략적인 것이다.</desc>
+  <style>
+    .res-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)} .res-t{font-size:14px;fill:var(--fig-ink)}
+    .res-sm{font-size:13px;fill:var(--fig-muted)} .res-tick{font-size:13px;fill:var(--fig-ink)}
+    .res-ax{stroke:var(--fig-ink);stroke-width:2;fill:none} .res-tk{stroke:var(--fig-ink);stroke-width:1.5}
+    .res-mk{stroke:var(--fig-ink);stroke-width:1.2}
+    .res-cond{fill:var(--fig-soft-amber)} .res-semi{fill:var(--fig-soft-violet)} .res-ins{fill:var(--fig-soft-teal)}
+    .res-bd{stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:4 4}
+    .res-cu{fill:var(--fig-amber);stroke:var(--fig-ink);stroke-width:1.2} .res-si{fill:var(--fig-violet);stroke:var(--fig-ink);stroke-width:1.2}
+    .res-gl{fill:var(--fig-teal);stroke:var(--fig-ink);stroke-width:1.2}
+    .res-ar{stroke:var(--fig-violet);stroke-width:2.2;fill:none} .res-ah{fill:var(--fig-violet)} .res-vt{font-size:13px;font-weight:600;fill:var(--fig-violet)}
+    .res-ar2{stroke:var(--fig-teal);stroke-width:2.2;fill:none} .res-ah2{fill:var(--fig-teal)}
+    .res-g{stroke:var(--fig-muted);stroke-width:1.6;fill:none} .res-gh{fill:var(--fig-muted)}
+  </style>
+  <rect x="50" y="70" width="106.7" height="130" class="res-cond"/>
+  <rect x="156.7" y="70" width="293.3" height="130" class="res-semi"/>
+  <rect x="450.0" y="70" width="240.0" height="130" class="res-ins"/>
+  <line x1="156.7" y1="70" x2="156.7" y2="200" class="res-bd"/>
+  <line x1="450.0" y1="70" x2="450.0" y2="200" class="res-bd"/>
+  <text x="103.3" y="92" text-anchor="middle" class="res-lbl">도체</text>
+  <text x="303.3" y="92" text-anchor="middle" class="res-lbl">반도체</text>
+  <text x="570.0" y="92" text-anchor="middle" class="res-lbl">부도체(절연체)</text>
+  <path d="M280 34 L50 34" class="res-g"/><path d="M50 34 l10 -6 l0 12 z" class="res-gh"/>
+  <text x="64" y="24" class="res-sm">전기가 잘 통한다</text>
+  <path d="M460 34 L690 34" class="res-g"/><path d="M690 34 l-10 -6 l0 12 z" class="res-gh"/>
+  <text x="676" y="24" text-anchor="end" class="res-sm">전기가 잘 통하지 않는다</text>
+  <line x1="50" y1="200" x2="690" y2="200" class="res-ax"/>
+  <line x1="50.0" y1="200" x2="50.0" y2="208" class="res-tk"/>
+  <text x="50.0" y="226" text-anchor="middle" class="res-tick">10⁻⁹</text>
+  <line x1="76.7" y1="200" x2="76.7" y2="204" class="res-tk"/>
+  <line x1="103.3" y1="200" x2="103.3" y2="204" class="res-tk"/>
+  <line x1="130.0" y1="200" x2="130.0" y2="208" class="res-tk"/>
+  <text x="130.0" y="226" text-anchor="middle" class="res-tick">10⁻⁶</text>
+  <line x1="156.7" y1="200" x2="156.7" y2="204" class="res-tk"/>
+  <line x1="183.3" y1="200" x2="183.3" y2="204" class="res-tk"/>
+  <line x1="210.0" y1="200" x2="210.0" y2="208" class="res-tk"/>
+  <text x="210.0" y="226" text-anchor="middle" class="res-tick">10⁻³</text>
+  <line x1="236.7" y1="200" x2="236.7" y2="204" class="res-tk"/>
+  <line x1="263.3" y1="200" x2="263.3" y2="204" class="res-tk"/>
+  <line x1="290.0" y1="200" x2="290.0" y2="208" class="res-tk"/>
+  <text x="290.0" y="226" text-anchor="middle" class="res-tick">10⁰</text>
+  <line x1="316.7" y1="200" x2="316.7" y2="204" class="res-tk"/>
+  <line x1="343.3" y1="200" x2="343.3" y2="204" class="res-tk"/>
+  <line x1="370.0" y1="200" x2="370.0" y2="208" class="res-tk"/>
+  <text x="370.0" y="226" text-anchor="middle" class="res-tick">10³</text>
+  <line x1="396.7" y1="200" x2="396.7" y2="204" class="res-tk"/>
+  <line x1="423.3" y1="200" x2="423.3" y2="204" class="res-tk"/>
+  <line x1="450.0" y1="200" x2="450.0" y2="208" class="res-tk"/>
+  <text x="450.0" y="226" text-anchor="middle" class="res-tick">10⁶</text>
+  <line x1="476.7" y1="200" x2="476.7" y2="204" class="res-tk"/>
+  <line x1="503.3" y1="200" x2="503.3" y2="204" class="res-tk"/>
+  <line x1="530.0" y1="200" x2="530.0" y2="208" class="res-tk"/>
+  <text x="530.0" y="226" text-anchor="middle" class="res-tick">10⁹</text>
+  <line x1="556.7" y1="200" x2="556.7" y2="204" class="res-tk"/>
+  <line x1="583.3" y1="200" x2="583.3" y2="204" class="res-tk"/>
+  <line x1="610.0" y1="200" x2="610.0" y2="208" class="res-tk"/>
+  <text x="610.0" y="226" text-anchor="middle" class="res-tick">10¹²</text>
+  <line x1="636.7" y1="200" x2="636.7" y2="204" class="res-tk"/>
+  <line x1="663.3" y1="200" x2="663.3" y2="204" class="res-tk"/>
+  <line x1="690.0" y1="200" x2="690.0" y2="208" class="res-tk"/>
+  <text x="690.0" y="226" text-anchor="middle" class="res-tick">10¹⁵</text>
+  <text x="360" y="252" text-anchor="middle" class="res-t">비저항 (Ω·m) — 로그 눈금: 큰 눈금 한 칸마다 1000배</text>
+  <text x="360" y="276" text-anchor="middle" class="res-sm">상온에서의 대략적인 값. 영역의 경계(점선)는 뚜렷하게 정해진 것이 아니다.</text>
+  <line x1="82.8" y1="160" x2="82.8" y2="200" class="res-mk"/>
+  <circle cx="82.8" cy="152" r="8" class="res-cu"/>
+  <text x="82.8" y="122" text-anchor="middle" class="res-lbl">구리</text>
+  <text x="82.8" y="139" text-anchor="middle" class="res-sm">약 1.7×10⁻⁸</text>
+  <line x1="370.0" y1="160" x2="370.0" y2="200" class="res-mk"/>
+  <circle cx="370.0" cy="152" r="8" class="res-si"/>
+  <text x="370.0" y="122" text-anchor="middle" class="res-lbl">순수한 규소</text>
+  <text x="370.0" y="139" text-anchor="middle" class="res-sm">약 10³</text>
+  <line x1="556.7" y1="160" x2="556.7" y2="200" class="res-mk"/>
+  <circle cx="556.7" cy="152" r="8" class="res-gl"/>
+  <text x="556.7" y="122" text-anchor="middle" class="res-lbl">유리</text>
+  <text x="556.7" y="139" text-anchor="middle" class="res-sm">약 10¹⁰ 이상</text>
+  <path d="M566.7 152 L642.0 152" class="res-ar2"/><path d="M652.7 152 l-10 -6 l0 12 z" class="res-ah2"/>
+  <path d="M360.0 178 L202.0 178" class="res-ar"/><path d="M191.3 178 l10 -6 l0 12 z" class="res-ah"/>
+  <text x="295.3" y="194" text-anchor="middle" class="res-vt">불순물을 넣을수록 작아짐</text>
+</svg>
