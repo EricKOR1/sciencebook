@@ -396,6 +396,82 @@
 <td>바퀴 모터로 이동</td>
 </tr>
 </tbody></table></div>
+<figure class="fig" id="fig-6-3-robot-vacuum"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-labelledby="t-6-3-robot-vacuum d-6-3-robot-vacuum">
+  <title id="t-6-3-robot-vacuum">그림 6-3-1 로봇청소기 속의 감지–판단–동작</title>
+  <desc id="d-6-3-robot-vacuum">로봇청소기를 위에서 본 모식도이다. 센서(파랑)가 장애물·바닥·충돌을 감지하면 제어 장치(보라)가 판단하고, 바퀴 모터와 솔 모터(주황)가 동작한다. 점선은 바닥 쪽에 있는 부품이다.</desc>
+  <style>
+    .f63rv-h{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .f63rv-tx{font-size:13px;fill:var(--fig-ink)}
+    .f63rv-sm{font-size:12px;fill:var(--fig-muted)}
+    .f63rv-s{font-size:13px;fill:var(--fig-blue);font-weight:600}
+    .f63rv-a{font-size:13px;fill:var(--fig-amber);font-weight:600}
+    .f63rv-lead{stroke:var(--fig-muted);stroke-width:1.2}
+    .f63rv-arr{fill:var(--fig-ink)}
+  </style>
+  <!-- 몸체 -->
+  <circle cx="215" cy="195" r="115" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:2.5"/>
+  <path d="M120 130 A 115 115 0 0 1 310 130" style="fill:none;stroke:var(--fig-blue);stroke-width:7;stroke-linecap:round"/>
+  <rect x="195" y="84" width="40" height="12" rx="4" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <!-- 바닥 감지 센서(아래쪽) -->
+  <circle cx="148" cy="138" r="8" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2;stroke-dasharray:3 2"/>
+  <circle cx="282" cy="138" r="8" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2;stroke-dasharray:3 2"/>
+  <circle cx="128" cy="246" r="8" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2;stroke-dasharray:3 2"/>
+  <circle cx="302" cy="246" r="8" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2;stroke-dasharray:3 2"/>
+  <!-- 바퀴 모터 -->
+  <rect x="112" y="168" width="20" height="54" rx="5" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2.5;stroke-dasharray:5 3"/>
+  <rect x="298" y="168" width="20" height="54" rx="5" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2.5;stroke-dasharray:5 3"/>
+  <!-- 솔 모터 -->
+  <rect x="170" y="262" width="90" height="22" rx="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2.5;stroke-dasharray:5 3"/>
+  <!-- 제어 장치 -->
+  <g style="stroke:var(--fig-violet);stroke-width:2">
+    <line x1="180" y1="148" x2="180" y2="140"/><line x1="200" y1="148" x2="200" y2="140"/><line x1="220" y1="148" x2="220" y2="140"/><line x1="240" y1="148" x2="240" y2="140"/>
+    <line x1="180" y1="188" x2="180" y2="196"/><line x1="200" y1="188" x2="200" y2="196"/><line x1="220" y1="188" x2="220" y2="196"/><line x1="240" y1="188" x2="240" y2="196"/>
+  </g>
+  <rect x="166" y="148" width="98" height="40" rx="6" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2.5"/>
+  <text x="215" y="173" text-anchor="middle" class="f63rv-tx" style="font-weight:600">제어 장치</text>
+  <!-- 배터리 -->
+  <rect x="180" y="208" width="70" height="30" rx="5" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2"/>
+  <rect x="250" y="217" width="5" height="12" style="fill:var(--fig-teal)"/>
+  <text x="215" y="228" text-anchor="middle" class="f63rv-sm" style="fill:var(--fig-ink)">배터리</text>
+
+  <!-- 이름표 -->
+  <text x="215" y="40" text-anchor="middle" class="f63rv-s">장애물 감지 센서</text>
+  <line x1="215" y1="46" x2="215" y2="83" class="f63rv-lead"/>
+  <text x="16" y="70" class="f63rv-s">충돌 센서(앞 범퍼)</text>
+  <line x1="80" y1="76" x2="128" y2="120" class="f63rv-lead"/>
+  <text x="16" y="186" class="f63rv-a">바퀴 모터</text>
+  <text x="16" y="203" class="f63rv-sm">(왼쪽·오른쪽)</text>
+  <line x1="84" y1="194" x2="111" y2="194" class="f63rv-lead"/>
+  <text x="300" y="70" class="f63rv-s">바닥 감지 센서</text>
+  <text x="300" y="86" class="f63rv-sm">(아래쪽, 계단 감지)</text>
+  <line x1="318" y1="91" x2="288" y2="130" class="f63rv-lead"/>
+  <text x="120" y="340" text-anchor="middle" class="f63rv-a">솔 모터</text>
+  <line x1="140" y1="328" x2="178" y2="285" class="f63rv-lead"/>
+  <text x="330" y="330" class="f63rv-tx" style="fill:var(--fig-teal);font-weight:600">배터리(전원)</text>
+  <text x="330" y="347" class="f63rv-sm">충전량도 측정</text>
+  <line x1="330" y1="320" x2="252" y2="236" class="f63rv-lead"/>
+  <text x="215" y="364" text-anchor="middle" class="f63rv-sm">위에서 본 모식도 · 점선 = 바닥 쪽 부품</text>
+
+  <!-- 감지–판단–동작 고리 -->
+  <text x="474" y="40" class="f63rv-h">의자 다리를 만났을 때</text>
+  <rect x="474" y="56" width="206" height="62" rx="10" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="488" y="80" class="f63rv-tx" style="font-weight:600;fill:var(--fig-blue)">감지 — 센서</text>
+  <text x="488" y="102" class="f63rv-tx">"앞에 장애물이 있다"</text>
+  <rect x="474" y="148" width="206" height="62" rx="10" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <text x="488" y="172" class="f63rv-tx" style="font-weight:600;fill:var(--fig-violet)">판단 — 제어 장치</text>
+  <text x="488" y="194" class="f63rv-tx">"멈추고 방향을 바꾸자"</text>
+  <rect x="474" y="240" width="206" height="62" rx="10" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <text x="488" y="264" class="f63rv-tx" style="font-weight:600;fill:var(--fig-amber)">동작 — 구동기</text>
+  <text x="488" y="286" class="f63rv-tx">좌우 바퀴를 다르게 돌림</text>
+  <line x1="577" y1="118" x2="577" y2="138" style="stroke:var(--fig-ink);stroke-width:2.5"/><path d="M577 147 l-7 -11 h14 z" class="f63rv-arr"/>
+  <line x1="577" y1="210" x2="577" y2="230" style="stroke:var(--fig-ink);stroke-width:2.5"/><path d="M577 239 l-7 -11 h14 z" class="f63rv-arr"/>
+  <path d="M680 271 H700 V87 H692" style="fill:none;stroke:var(--fig-ink);stroke-width:2;stroke-dasharray:6 4"/>
+  <path d="M682 87 l11 -7 v14 z" class="f63rv-arr"/>
+  <text x="577" y="326" text-anchor="middle" class="f63rv-sm">움직이면 주변이 바뀌고, 다시 감지한다</text>
+  <text x="577" y="344" text-anchor="middle" class="f63rv-sm">(되먹임)</text>
+</svg>
+</div><figcaption><b>그림 6-3-1 로봇청소기 속의 감지–판단–동작</b> 로봇청소기를 위에서 본 모식도이다. 센서(파랑)가 장애물·바닥·충돌을 감지하면 제어 장치(보라)가 판단하고, 바퀴 모터와 솔 모터(주황)가 동작한다. 점선은 바닥 쪽에 있는 부품이다.</figcaption></figure>
+
 <h3 id="6-3-③-사물인터넷-사물이-서로-연결되어-대화하다">6-3-③ 사물인터넷 — 사물이 서로 연결되어 대화하다</h3>
 <p><strong>사물인터넷(IoT, Internet of Things)</strong> 은 센서와 통신 기능을 가진 사물들이 인터넷으로 연결되어 <strong>데이터를 주고받고, 사람의 개입을 최소화하며 스스로 작동</strong>하는 기술이다. 1999년 무렵부터 이 용어가 쓰이기 시작했다.</p>
 <div class="table-wrap"><table><thead><tr>
@@ -507,6 +583,95 @@
 <td>안전성 검증, 사고 시 책임</td>
 </tr>
 </tbody></table></div>
+<figure class="fig" id="fig-6-3-smart-farm-iot"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-6-3-smart-farm-iot d-6-3-smart-farm-iot">
+  <title id="t-6-3-smart-farm-iot">그림 6-3-2 사물인터넷으로 연결된 스마트팜</title>
+  <desc id="d-6-3-smart-farm-iot">비닐하우스의 센서가 측정한 데이터가 무선 통신으로 클라우드 서버에 모이고, 서버가 기준과 비교해 판단한 결과로 천창과 관수 펌프를 작동시키며 농부의 스마트폰에 알린다. 감지–연결–분석–서비스의 네 단계를 나타낸 모식도이다.</desc>
+  <style>
+    .f63sf-h{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .f63sf-tx{font-size:13px;fill:var(--fig-ink)}
+    .f63sf-sm{font-size:12px;fill:var(--fig-muted)}
+    .f63sf-s{font-size:12px;fill:var(--fig-blue);font-weight:600}
+    .f63sf-a{font-size:12px;fill:var(--fig-amber);font-weight:600}
+    .f63sf-sen{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2}
+    .f63sf-act{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+    .f63sf-badge{fill:var(--fig-accent)}
+    .f63sf-bt{font-size:12px;font-weight:600;fill:var(--fig-paper)}
+  </style>
+
+  <!-- 비닐하우스 -->
+  <path d="M30 330 V200 Q 170 70 310 200 V330 Z" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2.5"/>
+  <!-- 천창(열림) -->
+  <path d="M206 116 L266 98" style="stroke:var(--fig-amber);stroke-width:6;stroke-linecap:round"/>
+  <rect x="190" y="118" width="22" height="14" rx="3" class="f63sf-act"/>
+  <text x="270" y="92" class="f63sf-a">천창(모터로 열고 닫음)</text>
+  <!-- 땅과 작물 -->
+  <rect x="30" y="318" width="280" height="20" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1"/>
+  <g style="fill:var(--fig-green)">
+    <path d="M70 318 c-14 -10 -12 -28 0 -36 c12 8 14 26 0 36 z"/><path d="M120 318 c-14 -10 -12 -28 0 -36 c12 8 14 26 0 36 z"/>
+    <path d="M170 318 c-14 -10 -12 -28 0 -36 c12 8 14 26 0 36 z"/><path d="M220 318 c-14 -10 -12 -28 0 -36 c12 8 14 26 0 36 z"/>
+  </g>
+  <!-- 관수 -->
+  <line x1="56" y1="276" x2="250" y2="276" style="stroke:var(--fig-amber);stroke-width:3"/>
+  <g style="fill:var(--fig-blue)"><circle cx="70" cy="284" r="2.5"/><circle cx="120" cy="284" r="2.5"/><circle cx="170" cy="284" r="2.5"/><circle cx="220" cy="284" r="2.5"/></g>
+  <rect x="250" y="262" width="40" height="30" rx="5" class="f63sf-act"/>
+  <text x="270" y="312" text-anchor="middle" class="f63sf-a">관수 펌프</text>
+  <!-- 센서 -->
+  <rect x="134" y="182" width="28" height="22" rx="4" class="f63sf-sen"/>
+  <text x="148" y="222" text-anchor="middle" class="f63sf-s">온도·습도</text>
+  <rect x="216" y="200" width="28" height="22" rx="4" class="f63sf-sen"/>
+  <text x="230" y="240" text-anchor="middle" class="f63sf-s">CO₂</text>
+  <rect x="62" y="196" width="28" height="22" rx="4" class="f63sf-sen"/>
+  <text x="76" y="236" text-anchor="middle" class="f63sf-s">일사량</text>
+  <line x1="96" y1="300" x2="96" y2="334" style="stroke:var(--fig-blue);stroke-width:3"/>
+  <rect x="88" y="288" width="16" height="14" rx="3" class="f63sf-sen"/>
+  <text x="96" y="356" text-anchor="middle" class="f63sf-s">토양 수분</text>
+  <!-- 배지 ① -->
+  <circle cx="44" cy="38" r="12" class="f63sf-badge"/><text x="44" y="43" text-anchor="middle" class="f63sf-bt">1</text>
+  <text x="62" y="43" class="f63sf-h">감지</text>
+  <text x="100" y="43" class="f63sf-sm">센서(파랑)가 하우스 환경을 측정</text>
+
+  <!-- ② 연결 -->
+  <g style="fill:none;stroke:var(--fig-accent);stroke-width:2.5;stroke-linecap:round">
+    <path d="M352 196 a 14 14 0 0 1 20 0"/><path d="M345 189 a 24 24 0 0 1 34 0"/><path d="M338 182 a 34 34 0 0 1 48 0"/>
+  </g>
+  <circle cx="362" cy="204" r="3.5" style="fill:var(--fig-accent)"/>
+  <circle cx="340" cy="234" r="12" class="f63sf-badge"/><text x="340" y="239" text-anchor="middle" class="f63sf-bt">2</text>
+  <text x="358" y="239" class="f63sf-h">연결</text>
+  <text x="358" y="257" class="f63sf-sm">무선 통신</text>
+
+  <!-- ③ 분석: 클라우드 -->
+  <path d="M470 132 h150 a 30 30 0 0 0 0 -60 a 40 40 0 0 0 -70 -18 a 34 34 0 0 0 -62 12 a 33 33 0 0 0 -18 66 z" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2.5"/>
+  <text x="545" y="96" text-anchor="middle" class="f63sf-tx" style="font-weight:600">클라우드 서버</text>
+  <text x="545" y="116" text-anchor="middle" class="f63sf-sm" style="fill:var(--fig-ink)">기록 저장·기준과 비교</text>
+  <circle cx="470" cy="160" r="12" class="f63sf-badge"/><text x="470" y="165" text-anchor="middle" class="f63sf-bt">3</text>
+  <text x="488" y="165" class="f63sf-h">분석</text>
+  <text x="526" y="165" class="f63sf-sm">판단·인공지능</text>
+
+  <!-- ④ 서비스: 스마트폰 -->
+  <rect x="616" y="214" width="62" height="112" rx="10" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2.5"/>
+  <rect x="624" y="228" width="46" height="72" rx="3" style="fill:var(--fig-soft-blue)"/>
+  <text x="647" y="252" text-anchor="middle" class="f63sf-sm" style="fill:var(--fig-ink)">28 °C</text>
+  <text x="647" y="272" text-anchor="middle" class="f63sf-sm" style="fill:var(--fig-ink)">천창</text>
+  <text x="647" y="290" text-anchor="middle" class="f63sf-sm" style="fill:var(--fig-ink)">열림</text>
+  <circle cx="584" cy="352" r="12" class="f63sf-badge"/><text x="584" y="357" text-anchor="middle" class="f63sf-bt">4</text>
+  <text x="602" y="357" class="f63sf-h">서비스</text>
+  <text x="440" y="380" class="f63sf-sm">천창·펌프 작동(주황), 농부에게 알림·원격 제어</text>
+
+  <!-- 데이터 흐름 -->
+  <path d="M312 176 C 380 150 400 120 436 112" style="fill:none;stroke:var(--fig-blue);stroke-width:2.5"/>
+  <path d="M446 110 l-12 -6 l2 13 z" style="fill:var(--fig-blue)"/>
+  <text x="392" y="112" text-anchor="end" class="f63sf-s">측정 데이터</text>
+  <path d="M500 136 C 470 230 400 260 300 270" style="fill:none;stroke:var(--fig-amber);stroke-width:2.5;stroke-dasharray:7 4"/>
+  <path d="M292 271 l12 -7 l0 14 z" style="fill:var(--fig-amber)"/>
+  <text x="440" y="292" class="f63sf-a">제어 명령</text>
+  <text x="440" y="308" class="f63sf-sm">"28 °C 이상 → 천창 열기"</text>
+  <line x1="600" y1="138" x2="636" y2="206" style="stroke:var(--fig-violet);stroke-width:2.5"/>
+  <path d="M640 213 l-11 -6 l9 -6 z" style="fill:var(--fig-violet)"/>
+  <path d="M596 131 l1 13 l9 -6 z" style="fill:var(--fig-violet)"/>
+  <text x="624" y="186" class="f63sf-sm">알림</text>
+</svg>
+</div><figcaption><b>그림 6-3-2 사물인터넷으로 연결된 스마트팜</b> 비닐하우스의 센서가 측정한 데이터가 무선 통신으로 클라우드 서버에 모이고, 서버가 기준과 비교해 판단한 결과로 천창과 관수 펌프를 작동시키며 농부의 스마트폰에 알린다. 감지–연결–분석–서비스의 네 단계를 나타낸 모식도이다.</figcaption></figure>
+
 <h4 id="예제-5-스마트팜-데이터-해석-자료-해석">예제 5 — 스마트팜 데이터 해석 (자료 해석)</h4>
 <p>어느 스마트 비닐하우스는 &quot;실내 온도가 28 °C 이상이면 천창(지붕 창)을 열고, 24 °C 이하로 내려가면 닫는다&quot;는 규칙으로 작동한다. 다음은 어느 맑은 날의 기록이다.</p>
 <div class="table-wrap"><table><thead><tr>

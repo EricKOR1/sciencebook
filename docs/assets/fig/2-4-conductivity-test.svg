@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-2-4-conductivity-test d-2-4-conductivity-test">
+  <title id="t-2-4-conductivity-test">그림 2-4-2 간이 전기 전도성 측정기로 비교하기</title>
+  <desc id="d-2-4-conductivity-test">같은 측정기의 두 전극을 염화 나트륨 고체, 염화 나트륨 수용액, 설탕 수용액에 차례로 대면 수용액 속 이온이 이동할 수 있는 염화 나트륨 수용액에서만 LED가 켜진다. 모식도(입자는 크게 확대하여 그림).</desc>
+  <style>
+    .ct-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)} .ct-sm{font-size:13px;fill:var(--fig-muted)}
+    .ct-on{font-size:13px;font-weight:600;fill:var(--fig-amber)} .ct-off{font-size:13px;font-weight:600;fill:var(--fig-muted)}
+    .ct-w{stroke:var(--fig-ink);stroke-width:2;fill:none}
+    .ct-bat{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.6}
+    .ct-ink{fill:var(--fig-ink)} .ct-el{fill:var(--fig-muted)}
+    .ct-glass{fill:none;stroke:var(--fig-ink);stroke-width:2}
+    .ct-water{fill:var(--fig-soft-blue)} .ct-dish{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.6}
+    .ct-xtal{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2}
+    .ct-na{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.3} .ct-cl{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.3}
+    .ct-r{stroke:var(--fig-red);stroke-width:1.4} .ct-g{stroke:var(--fig-green);stroke-width:1.4}
+    .ct-su{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.4}
+    .ct-ledoff{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.6} .ct-ledon{fill:var(--fig-amber);stroke:var(--fig-amber);stroke-width:1.6}
+    .ct-ray{stroke:var(--fig-amber);stroke-width:2}
+    .ct-ok{fill:var(--fig-green)} .ct-no{fill:var(--fig-red)}
+  </style>
+  <rect x="38" y="26" width="52" height="28" rx="4" class="ct-bat"/>
+  <text x="64" y="45" text-anchor="middle" class="ct-sm">9 V</text>
+  <path d="M161 48 L161 38 A9 9 0 0 1 179 38 L179 48 Z" class="ct-ledoff"/>
+  <text x="200" y="45" class="ct-off">LED</text>
+  <path d="M90 40 L161 40" class="ct-w"/>
+  <path d="M170 48 L170 66 L154 66 L154 120" class="ct-w"/>
+  <path d="M38 40 L28 40 L28 76 L86 76 L86 120" class="ct-w"/>
+  <path d="M38 214 L202 214 L196 226 L44 226 Z" class="ct-dish"/>
+  <rect x="50" y="200" width="14" height="14" rx="2" class="ct-xtal"/>
+  <rect x="67" y="200" width="14" height="14" rx="2" class="ct-xtal"/>
+  <rect x="84" y="200" width="14" height="14" rx="2" class="ct-xtal"/>
+  <rect x="101" y="200" width="14" height="14" rx="2" class="ct-xtal"/>
+  <rect x="118" y="200" width="14" height="14" rx="2" class="ct-xtal"/>
+  <rect x="135" y="200" width="14" height="14" rx="2" class="ct-xtal"/>
+  <rect x="152" y="200" width="14" height="14" rx="2" class="ct-xtal"/>
+  <rect x="169" y="200" width="14" height="14" rx="2" class="ct-xtal"/>
+  <rect x="186" y="200" width="14" height="14" rx="2" class="ct-xtal"/>
+  <rect x="59" y="184" width="14" height="14" rx="2" class="ct-xtal"/>
+  <rect x="76" y="184" width="14" height="14" rx="2" class="ct-xtal"/>
+  <rect x="93" y="184" width="14" height="14" rx="2" class="ct-xtal"/>
+  <rect x="110" y="184" width="14" height="14" rx="2" class="ct-xtal"/>
+  <rect x="127" y="184" width="14" height="14" rx="2" class="ct-xtal"/>
+  <rect x="144" y="184" width="14" height="14" rx="2" class="ct-xtal"/>
+  <rect x="161" y="184" width="14" height="14" rx="2" class="ct-xtal"/>
+  <rect x="178" y="184" width="14" height="14" rx="2" class="ct-xtal"/>
+  <rect x="68" y="168" width="14" height="14" rx="2" class="ct-xtal"/>
+  <rect x="85" y="168" width="14" height="14" rx="2" class="ct-xtal"/>
+  <rect x="102" y="168" width="14" height="14" rx="2" class="ct-xtal"/>
+  <rect x="119" y="168" width="14" height="14" rx="2" class="ct-xtal"/>
+  <rect x="136" y="168" width="14" height="14" rx="2" class="ct-xtal"/>
+  <rect x="153" y="168" width="14" height="14" rx="2" class="ct-xtal"/>
+  <rect x="170" y="168" width="14" height="14" rx="2" class="ct-xtal"/>
+  <rect x="83" y="120" width="6" height="80" class="ct-el"/>
+  <rect x="151" y="120" width="6" height="80" class="ct-el"/>
+  <text x="78" y="134" text-anchor="end" class="ct-sm">(−)</text>
+  <text x="162" y="134" class="ct-sm">(+)</text>
+  <text x="120" y="256" text-anchor="middle" class="ct-lbl">염화 나트륨 고체</text>
+  <text x="120" y="280" text-anchor="middle" class="ct-off">LED 꺼짐 — 전류가 흐르지 않는다</text>
+  <text x="120" y="302" text-anchor="middle" class="ct-sm">이온은 있지만 고정되어 있다</text>
+  <rect x="271" y="26" width="52" height="28" rx="4" class="ct-bat"/>
+  <text x="297" y="45" text-anchor="middle" class="ct-sm">9 V</text>
+  <line x1="418.0" y1="40.0" x2="426.0" y2="40.0" class="ct-ray"/>
+  <line x1="413.6" y1="50.6" x2="419.3" y2="56.3" class="ct-ray"/>
+  <line x1="403.0" y1="55.0" x2="403.0" y2="63.0" class="ct-ray"/>
+  <line x1="392.4" y1="50.6" x2="386.7" y2="56.3" class="ct-ray"/>
+  <line x1="388.0" y1="40.0" x2="380.0" y2="40.0" class="ct-ray"/>
+  <line x1="392.4" y1="29.4" x2="386.7" y2="23.7" class="ct-ray"/>
+  <line x1="403.0" y1="25.0" x2="403.0" y2="17.0" class="ct-ray"/>
+  <line x1="413.6" y1="29.4" x2="419.3" y2="23.7" class="ct-ray"/>
+  <path d="M394 48 L394 38 A9 9 0 0 1 412 38 L412 48 Z" class="ct-ledon"/>
+  <text x="433" y="45" class="ct-on">LED</text>
+  <path d="M323 40 L394 40" class="ct-w"/>
+  <path d="M403 48 L403 66 L387 66 L387 120" class="ct-w"/>
+  <path d="M271 40 L261 40 L261 76 L319 76 L319 120" class="ct-w"/>
+  <rect x="275" y="150" width="156" height="76" class="ct-water"/>
+  <path d="M275 120 L275 226 L431 226 L431 120" class="ct-glass"/>
+  <rect x="316" y="120" width="6" height="92" class="ct-el"/>
+  <rect x="384" y="120" width="6" height="92" class="ct-el"/>
+  <circle cx="289" cy="166" r="6" class="ct-na"/>
+  <path d="M285.5 166 h7" class="ct-r"/>
+  <path d="M289 162.5 v7" class="ct-r"/>
+  <circle cx="313" cy="196" r="8" class="ct-cl"/>
+  <path d="M309.5 196 h7" class="ct-g"/>
+  <circle cx="341" cy="172" r="6" class="ct-na"/>
+  <path d="M337.5 172 h7" class="ct-r"/>
+  <path d="M341 168.5 v7" class="ct-r"/>
+  <circle cx="365" cy="204" r="6" class="ct-na"/>
+  <path d="M361.5 204 h7" class="ct-r"/>
+  <path d="M365 200.5 v7" class="ct-r"/>
+  <circle cx="353" cy="214" r="8" class="ct-cl"/>
+  <path d="M349.5 214 h7" class="ct-g"/>
+  <circle cx="379" cy="162" r="8" class="ct-cl"/>
+  <path d="M375.5 162 h7" class="ct-g"/>
+  <circle cx="403" cy="188" r="6" class="ct-na"/>
+  <path d="M399.5 188 h7" class="ct-r"/>
+  <path d="M403 184.5 v7" class="ct-r"/>
+  <circle cx="417" cy="212" r="8" class="ct-cl"/>
+  <path d="M413.5 212 h7" class="ct-g"/>
+  <circle cx="301" cy="214" r="8" class="ct-cl"/>
+  <path d="M297.5 214 h7" class="ct-g"/>
+  <circle cx="335" cy="200" r="8" class="ct-cl"/>
+  <path d="M331.5 200 h7" class="ct-g"/>
+  <text x="311" y="134" text-anchor="end" class="ct-sm">(−)</text>
+  <text x="395" y="134" class="ct-sm">(+)</text>
+  <text x="353" y="256" text-anchor="middle" class="ct-lbl">염화 나트륨 수용액</text>
+  <text x="353" y="280" text-anchor="middle" class="ct-on">LED 켜짐 — 전류가 흐른다</text>
+  <text x="353" y="302" text-anchor="middle" class="ct-sm">이온이 이동할 수 있다</text>
+  <rect x="504" y="26" width="52" height="28" rx="4" class="ct-bat"/>
+  <text x="530" y="45" text-anchor="middle" class="ct-sm">9 V</text>
+  <path d="M627 48 L627 38 A9 9 0 0 1 645 38 L645 48 Z" class="ct-ledoff"/>
+  <text x="666" y="45" class="ct-off">LED</text>
+  <path d="M556 40 L627 40" class="ct-w"/>
+  <path d="M636 48 L636 66 L620 66 L620 120" class="ct-w"/>
+  <path d="M504 40 L494 40 L494 76 L552 76 L552 120" class="ct-w"/>
+  <rect x="508" y="150" width="156" height="76" class="ct-water"/>
+  <path d="M508 120 L508 226 L664 226 L664 120" class="ct-glass"/>
+  <rect x="549" y="120" width="6" height="92" class="ct-el"/>
+  <rect x="617" y="120" width="6" height="92" class="ct-el"/>
+  <polygon points="539.0,170.0 534.5,177.8 525.5,177.8 521.0,170.0 525.5,162.2 534.5,162.2" class="ct-su"/>
+  <polygon points="587.0,196.0 582.5,203.8 573.5,203.8 569.0,196.0 573.5,188.2 582.5,188.2" class="ct-su"/>
+  <polygon points="623.0,168.0 618.5,175.8 609.5,175.8 605.0,168.0 609.5,160.2 618.5,160.2" class="ct-su"/>
+  <polygon points="651.0,206.0 646.5,213.8 637.5,213.8 633.0,206.0 637.5,198.2 646.5,198.2" class="ct-su"/>
+  <polygon points="555.0,210.0 550.5,217.8 541.5,217.8 537.0,210.0 541.5,202.2 550.5,202.2" class="ct-su"/>
+  <text x="544" y="134" text-anchor="end" class="ct-sm">(−)</text>
+  <text x="628" y="134" class="ct-sm">(+)</text>
+  <text x="586" y="256" text-anchor="middle" class="ct-lbl">설탕 수용액</text>
+  <text x="586" y="280" text-anchor="middle" class="ct-off">LED 꺼짐 — 전류가 흐르지 않는다</text>
+  <text x="586" y="302" text-anchor="middle" class="ct-sm">전하를 띤 입자가 없다</text>
+  <text x="360" y="324" text-anchor="middle" class="ct-sm">전극은 매번 증류수로 헹구어 닦고, 낮은 전압의 건전지만 사용한다.</text>
+</svg>

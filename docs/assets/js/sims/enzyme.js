@@ -116,18 +116,17 @@ Sims.register('enzyme', {
       // 반응물·생성물
       ctx.font = '600 12px ' + T.fontBody; ctx.fillStyle = T.figInk; ctx.textAlign = 'left';
       ctx.fillText('반응물', sx(0.03), sy(ER) - 7);
-      ctx.textAlign = 'right'; ctx.fillText('생성물', sx(0.98), sy(EP) - 7);
+      ctx.textAlign = 'right'; ctx.fillText('생성물', sx(0.98), sy(EP) + 17);
       // 활성화 에너지 화살표
-      var narrowE = r.w < 330;
       vArrow(sx(0.45), sy(ER), sy(TOP0) + 2, good ? T.figMuted : T.figRed);
       ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'right'; ctx.fillStyle = good ? T.figMuted : T.figRed;
-      ctx.fillText('활성화 에너지', sx(0.43), sy((ER + TOP0) / 2) - 2);
-      ctx.fillText(good ? '(효소 없음)' : '(높다)', sx(0.43), sy((ER + TOP0) / 2) + 13);
+      ctx.fillText('활성화 에너지', sx(0.36), sy(0.87));
+      ctx.fillText(good ? '(효소 없음)' : '(높다)', sx(0.36), sy(0.87) + 15);
       if (good) {
         vArrow(sx(0.55), sy(ER), sy(TOP1) + 2, T.figGreen);
         ctx.textAlign = 'left'; ctx.fillStyle = T.figGreen; ctx.font = '600 12px ' + T.fontBody;
-        ctx.fillText('활성화 에너지', sx(0.57), sy(TOP1) + 4);
-        ctx.fillText('(효소 있음, 낮다)', sx(0.57), sy(TOP1) + 19);
+        ctx.fillText('활성화 에너지', sx(0.6), sy(TOP1) + 4);
+        ctx.fillText('(효소 있음, 낮다)', sx(0.6), sy(TOP1) + 19);
       }
       // 반응 전후 에너지 차이
       var dx = sx(0.86);
@@ -136,7 +135,7 @@ Sims.register('enzyme', {
       var ly = sy((ER + EP) / 2);
       ctx.fillText('반응 전후', dx - 6, ly - 4);
       ctx.fillText('에너지 차이', dx - 6, ly + 11);
-      ctx.fillText(narrowE ? '(같다)' : '(효소와 관계없이 같다)', dx - 6, ly + 26);
+      ctx.fillText('(그대로)', dx - 6, ly + 26);
       if (st.enz && !good) {
         ctx.fillStyle = T.figRed; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'left';
         ctx.fillText('변성된 효소는 고개를 낮추지 못한다', L + 6, Tp + 2);
@@ -150,7 +149,7 @@ Sims.register('enzyme', {
       var ex = cx, ey = base - 38;        // 효소 중심
       var notchY = ey - 30;               // 활성 부위 입구 높이
       var u = st.u, d = Math.min(1, deform() / 0.85), hasE = st.enz, fits = works();
-      var homeSq = { x: r.x + r.w * 0.16, y: r.y + 44 }, homeCi = { x: r.x + r.w * 0.84, y: r.y + 44 }, homeTr = { x: cx, y: r.y + 40 };
+      var homeSq = { x: r.x + r.w * 0.16, y: r.y + 50 }, homeCi = { x: r.x + r.w * 0.84, y: r.y + 50 }, homeTr = { x: cx, y: r.y + 50 };
       function lerp(a, b, k) { return { x: a.x + (b.x - a.x) * k, y: a.y + (b.y - a.y) * k }; }
       function ease(k) { k = Math.max(0, Math.min(1, k)); return k * k * (3 - 2 * k); }
       function visit(home, t0, t1, stopY) {   // 다가왔다가 맞지 않아 돌아감
@@ -175,9 +174,9 @@ Sims.register('enzyme', {
         ctx.fillStyle = d < 1 ? T.figSoftTeal : T.figSoftRed; ctx.fill();
         ctx.strokeStyle = d < 1 ? T.figTeal : T.figRed; ctx.lineWidth = 2.5; ctx.stroke();
         ctx.fillStyle = d < 1 ? T.figTeal : T.figRed; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'center';
-        ctx.fillText(d < 1 ? '효소' : '변성된 효소', ex, ey + 12);
-        ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left'; ctx.fillStyle = T.figMuted;
-        ctx.fillText(d < 1 ? '← 활성 부위' : '← 모양이 바뀐 활성 부위', ex + 26, ey - hh + 6);
+        ctx.fillText(d < 1 ? '효소' : '변성된 효소', ex, ey + 24);
+        ctx.font = '11px ' + T.fontBody;
+        ctx.fillText(d < 1 ? '↑ 활성 부위' : '↑ 바뀐 활성 부위', ex, ey + 8);
       } else {
         ctx.fillStyle = T.figMuted; ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'center';
         ctx.fillText('효소가 없으면 체온에서', cx, ey - 2);
@@ -233,10 +232,6 @@ Sims.register('enzyme', {
         ctx.fillText('생성물', ex, bound.y - 30 - e2 * 10); ctx.globalAlpha = 1;
         tri(homeTr.x, homeTr.y, 0, Math.max(0, (k - 0.6) / 0.4));
       }
-      if (st.enz && !fits && (phase === 'home' || phase === 'bounce')) {
-        ctx.fillStyle = T.figRed; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'center';
-        ctx.fillText('기질도 더 이상 맞지 않는다', cx, base + 2);
-      }
     }
 
     /* ③ 온도와 반응 속도 */
@@ -274,8 +269,9 @@ Sims.register('enzyme', {
       ctx.fillStyle = st.enz ? (st.dead ? T.figRed : T.figAccent) : T.figRed; ctx.fill();
       ctx.strokeStyle = T.figPanel; ctx.lineWidth = 2; ctx.stroke();
       if (st.enz && st.dead && st.temp < 50) {
-        ctx.fillStyle = T.figRed; ctx.font = '600 11px ' + T.fontBody; ctx.textAlign = st.temp < 35 ? 'left' : 'right';
-        ctx.fillText('한 번 변성된 효소: 식혀도 회복 안 됨', px + (st.temp < 35 ? 8 : -8), py - 10);
+        ctx.fillStyle = T.figRed; ctx.font = '600 11px ' + T.fontBody; ctx.textAlign = 'left';
+        ctx.fillText('한 번 변성된 효소는', L + 6, Tp + 10);
+        ctx.fillText('식혀도 회복되지 않는다', L + 6, Tp + 24);
       }
     }
 

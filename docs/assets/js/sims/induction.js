@@ -163,10 +163,10 @@ Sims.register('induction', {
       var dt = 1 / 60;
       for (var t = 0; t < sec; t += dt) { step(dt); if (until && until()) break; }
     }
-    function event(label) {
+    function event(label, keepPeak) {
       var T0 = tr();
       if (T0.example) { T0.samples = []; T0.events = []; T0.example = false; }
-      T0.events.push([T0.t, label]); T0.peakP = 0; T0.peakN = 0; st.touched = true;
+      T0.events.push([T0.t, label]); if (!keepPeak) { T0.peakP = 0; T0.peakN = 0; } st.touched = true;
     }
     function run() {
       st.idle = 0;
@@ -191,7 +191,7 @@ Sims.register('induction', {
         event('한 바퀴'); st.spinning = true;
         var target = st.theta + 2 * Math.PI;
         simulate(10, function () { return st.theta >= target; });
-        st.theta = target; st.spinning = false; event('멈춤'); run(); return;
+        st.theta = target; st.spinning = false; event('멈춤', true); run(); return;
       }
       if (st.spinning) { st.spinning = false; event('멈춤'); } else { st.spinning = true; event('돌리기'); }
       spinLabel(); run();

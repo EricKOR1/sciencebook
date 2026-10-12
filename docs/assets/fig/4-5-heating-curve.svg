@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-4-5-heating-curve d-4-5-heating-curve">
+  <title id="t-4-5-heating-curve">그림 4-5-2 얼음을 같은 세기로 가열할 때의 온도 변화</title>
+  <desc id="d-4-5-heating-curve">얼음이 녹는 동안(0 °C)과 물이 끓는 동안(1기압에서 100 °C)에는 열을 계속 흡수하는데도 온도가 일정하다. 흡수한 열이 입자의 배열을 바꾸는 데 쓰이기 때문이다. 모식도(구간 길이 비율은 실제와 다름).</desc>
+  <style>
+    .hc-axis{stroke:var(--fig-ink);stroke-width:1.6;fill:none}
+    .hc-axis-h{fill:var(--fig-ink)}
+    .hc-guide{stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4}
+    .hc-curve{stroke:var(--fig-accent);stroke-width:3.5;fill:none;stroke-linejoin:round;stroke-linecap:round}
+    .hc-plat{stroke:var(--fig-red);stroke-width:5;fill:none;stroke-linecap:round}
+    .hc-lbl{font-size:14px;fill:var(--fig-ink)}
+    .hc-b{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+    .hc-red{font-size:13.5px;font-weight:600;fill:var(--fig-red)}
+    .hc-sm{font-size:13px;fill:var(--fig-muted)}
+    .hc-tick{font-size:13px;fill:var(--fig-muted)}
+    .hc-box{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2}
+    .hc-p{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1}
+    .hc-note{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.2}
+  </style>
+
+  <!-- 축 -->
+  <line x1="80" y1="300" x2="690" y2="300" class="hc-axis"/><path d="M698 300 l-10 -6 v12 z" class="hc-axis-h"/>
+  <line x1="80" y1="300" x2="80" y2="34" class="hc-axis"/><path d="M80 26 l-6 10 h12 z" class="hc-axis-h"/>
+  <text x="680" y="324" text-anchor="end" class="hc-lbl">가열한 시간 (같은 세기로 가열)</text>
+  <text x="88" y="30" class="hc-lbl">온도 (°C)</text>
+  <!-- 눈금: y(T) = 250 - 1.6T -->
+  <line x1="80" y1="250" x2="660" y2="250" class="hc-guide"/>
+  <line x1="80" y1="90" x2="660" y2="90" class="hc-guide"/>
+  <text x="70" y="255" text-anchor="end" class="hc-tick">0</text>
+  <text x="70" y="95" text-anchor="end" class="hc-tick">100</text>
+  <text x="70" y="287" text-anchor="end" class="hc-tick">-20</text>
+
+  <!-- 곡선 -->
+  <path d="M92 282 L130 250 L232 250 L380 90 L620 90 L660 58" class="hc-curve"/>
+  <line x1="130" y1="250" x2="232" y2="250" class="hc-plat"/>
+  <line x1="380" y1="90" x2="620" y2="90" class="hc-plat"/>
+
+  <!-- 구간 이름 -->
+  <text x="100" y="236" text-anchor="middle" class="hc-b">얼음</text>
+  <text x="181" y="240" text-anchor="middle" class="hc-b">융해</text>
+  <text x="181" y="272" text-anchor="middle" class="hc-sm">얼음 + 물</text>
+  <text x="181" y="290" text-anchor="middle" class="hc-red">0 °C 일정</text>
+  <text x="326" y="200" class="hc-b">물</text>
+  <text x="500" y="78" text-anchor="middle" class="hc-b">기화 (끓음)</text>
+  <text x="500" y="112" text-anchor="middle" class="hc-sm">물 + 수증기</text>
+  <text x="500" y="130" text-anchor="middle" class="hc-red">100 °C 일정</text>
+  <text x="664" y="50" text-anchor="end" class="hc-b">수증기</text>
+
+  <!-- 입자 모형 상자 -->
+  <rect x="96" y="128" width="64" height="52" rx="6" class="hc-box"/>
+  <circle cx="110" cy="142" r="6" class="hc-p"/><circle cx="124" cy="142" r="6" class="hc-p"/><circle cx="138" cy="142" r="6" class="hc-p"/>
+  <circle cx="110" cy="156" r="6" class="hc-p"/><circle cx="124" cy="156" r="6" class="hc-p"/><circle cx="138" cy="156" r="6" class="hc-p"/>
+  <circle cx="110" cy="170" r="6" class="hc-p"/><circle cx="124" cy="170" r="6" class="hc-p"/><circle cx="138" cy="170" r="6" class="hc-p"/>
+  <text x="128" y="122" text-anchor="middle" class="hc-sm">고체</text>
+  <rect x="392" y="150" width="64" height="52" rx="6" class="hc-box"/>
+  <circle cx="406" cy="170" r="6" class="hc-p"/><circle cx="419" cy="178" r="6" class="hc-p"/><circle cx="433" cy="168" r="6" class="hc-p"/>
+  <circle cx="404" cy="187" r="6" class="hc-p"/><circle cx="442" cy="184" r="6" class="hc-p"/><circle cx="426" cy="193" r="6" class="hc-p"/>
+  <text x="472" y="181" class="hc-sm">액체</text>
+  <rect x="604" y="122" width="64" height="52" rx="6" class="hc-box"/>
+  <circle cx="616" cy="134" r="6" class="hc-p"/><circle cx="652" cy="142" r="6" class="hc-p"/><circle cx="630" cy="162" r="6" class="hc-p"/>
+  <text x="636" y="190" text-anchor="middle" class="hc-sm">기체</text>
+
+  <!-- 설명 -->
+  <rect x="300" y="220" width="300" height="60" rx="8" class="hc-note"/>
+  <text x="450" y="244" text-anchor="middle" class="hc-lbl">온도가 일정한 구간에도 열은 계속 흡수된다</text>
+  <text x="450" y="266" text-anchor="middle" class="hc-sm">→ 입자의 배열을 바꾸는 데(상태 변화) 쓰인다</text>
+
+  <text x="360" y="352" text-anchor="middle" class="hc-lbl">식힐 때는 거꾸로 액화·응고하며 열을 <tspan style="font-weight:700">방출</tspan>하고, 그동안에도 온도가 일정하다</text>
+  <text x="360" y="378" text-anchor="middle" class="hc-sm">1기압 · 모식도(실제로는 끓는 구간이 녹는 구간보다 훨씬 길다)</text>
+</svg>

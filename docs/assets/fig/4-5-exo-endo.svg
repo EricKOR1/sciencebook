@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 356" role="img" aria-labelledby="t-4-5-exo-endo d-4-5-exo-endo">
+  <title id="t-4-5-exo-endo">그림 4-5-1 에너지를 방출하는 변화와 흡수하는 변화 — 주위의 온도</title>
+  <desc id="d-4-5-exo-endo">에너지를 방출하는 변화에서는 열이 계에서 주위로 나가 주위의 온도가 올라가고, 에너지를 흡수하는 변화에서는 열이 주위에서 계로 들어가 주위의 온도가 내려간다.</desc>
+  <style>
+    .ee-panel{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.5}
+    .ee-sur{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:6 4}
+    .ee-h-red{font-size:16px;font-weight:700;fill:var(--fig-red)}
+    .ee-h-blue{font-size:16px;font-weight:700;fill:var(--fig-blue)}
+    .ee-lbl{font-size:14px;fill:var(--fig-ink)}
+    .ee-b{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+    .ee-sm{font-size:13px;fill:var(--fig-muted)}
+    .ee-glass{fill:none;stroke:var(--fig-ink);stroke-width:2;stroke-linejoin:round}
+    .ee-liq-r{fill:var(--fig-soft-red)} .ee-liq-b{fill:var(--fig-soft-blue)}
+    .ee-heat-r{fill:none;stroke:var(--fig-red);stroke-width:2.5;stroke-linecap:round}
+    .ee-heat-rh{fill:var(--fig-red)}
+    .ee-heat-b{fill:none;stroke:var(--fig-blue);stroke-width:2.5;stroke-linecap:round}
+    .ee-heat-bh{fill:var(--fig-blue)}
+    .ee-th{fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2}
+    .ee-th-r{fill:var(--fig-red)} .ee-th-b{fill:var(--fig-blue)}
+    .ee-up{font-size:14px;font-weight:700;fill:var(--fig-red)}
+    .ee-dn{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+  </style>
+
+  <!-- ───── 방출 ───── -->
+  <rect x="10" y="10" width="340" height="300" rx="10" class="ee-panel"/>
+  <text x="180" y="38" text-anchor="middle" class="ee-h-red">에너지 방출 (발열)</text>
+  <rect x="26" y="52" width="308" height="168" rx="12" class="ee-sur"/>
+  <text x="38" y="72" class="ee-sm">주위 (용기·공기·손)</text>
+  <!-- 비커(계) -->
+  <path d="M130 104 L134 108 L134 196 L226 196 L226 108 L230 104" class="ee-glass"/>
+  <rect x="135" y="132" width="90" height="63" class="ee-liq-r"/>
+  <text x="180" y="160" text-anchor="middle" class="ee-b">계</text>
+  <text x="180" y="180" text-anchor="middle" class="ee-sm">반응하는 물질</text>
+  <!-- 열: 계 → 주위 -->
+  <path d="M126 150 q-6 -5 -12 0 t-12 0 t-12 0 t-12 0" class="ee-heat-r"/><path d="M68 150 l12 -7 v14 z" class="ee-heat-rh"/>
+  <path d="M234 150 q6 -5 12 0 t12 0 t12 0 t12 0" class="ee-heat-r"/><path d="M292 150 l-12 -7 v14 z" class="ee-heat-rh"/>
+  <path d="M180 100 q-5 -6 0 -12 t0 -12" class="ee-heat-r"/><path d="M180 66 l-7 12 h14 z" class="ee-heat-rh"/>
+  <text x="96" y="138" text-anchor="middle" class="ee-lbl" style="fill:var(--fig-red)">열</text>
+  <text x="264" y="138" text-anchor="middle" class="ee-lbl" style="fill:var(--fig-red)">열</text>
+  <!-- 온도계 -->
+  <rect x="304" y="96" width="10" height="92" rx="5" class="ee-th"/>
+  <rect x="307" y="112" width="4" height="74" class="ee-th-r"/><circle cx="309" cy="192" r="7" class="ee-th-r"/>
+  <text x="180" y="244" text-anchor="middle" class="ee-up">주위의 온도 ↑ (따뜻해진다)</text>
+  <text x="180" y="270" text-anchor="middle" class="ee-sm">예: 연소, 중화 반응, 철의 산화(손난로),</text>
+  <text x="180" y="290" text-anchor="middle" class="ee-sm">산화 칼슘과 물의 반응(발열 도시락)</text>
+
+  <!-- ───── 흡수 ───── -->
+  <rect x="370" y="10" width="340" height="300" rx="10" class="ee-panel"/>
+  <text x="540" y="38" text-anchor="middle" class="ee-h-blue">에너지 흡수 (흡열)</text>
+  <rect x="386" y="52" width="308" height="168" rx="12" class="ee-sur"/>
+  <text x="398" y="72" class="ee-sm">주위 (용기·공기·손)</text>
+  <path d="M490 104 L494 108 L494 196 L586 196 L586 108 L590 104" class="ee-glass"/>
+  <rect x="495" y="132" width="90" height="63" class="ee-liq-b"/>
+  <text x="540" y="160" text-anchor="middle" class="ee-b">계</text>
+  <text x="540" y="180" text-anchor="middle" class="ee-sm">반응하는 물질</text>
+  <!-- 열: 주위 → 계 -->
+  <path d="M420 150 q6 -5 12 0 t12 0 t12 0 t12 0" class="ee-heat-b"/><path d="M486 150 l-12 -7 v14 z" class="ee-heat-bh"/>
+  <path d="M660 150 q-6 -5 -12 0 t-12 0 t-12 0 t-12 0" class="ee-heat-b"/><path d="M594 150 l12 -7 v14 z" class="ee-heat-bh"/>
+  <path d="M540 66 q-5 6 0 12 t0 12" class="ee-heat-b"/><path d="M540 100 l-7 -12 h14 z" class="ee-heat-bh"/>
+  <text x="446" y="138" text-anchor="middle" class="ee-lbl" style="fill:var(--fig-blue)">열</text>
+  <text x="634" y="138" text-anchor="middle" class="ee-lbl" style="fill:var(--fig-blue)">열</text>
+  <rect x="674" y="96" width="10" height="92" rx="5" class="ee-th"/>
+  <rect x="677" y="160" width="4" height="26" class="ee-th-b"/><circle cx="679" cy="192" r="7" class="ee-th-b"/>
+  <text x="540" y="244" text-anchor="middle" class="ee-dn">주위의 온도 ↓ (차가워진다)</text>
+  <text x="540" y="270" text-anchor="middle" class="ee-sm">예: 질산 암모늄의 용해(냉각 팩),</text>
+  <text x="540" y="290" text-anchor="middle" class="ee-sm">탄산수소 나트륨의 열분해, 광합성</text>
+
+  <text x="360" y="338" text-anchor="middle" class="ee-lbl">열은 온도가 높은 곳에서 낮은 곳으로 이동한다 — 손으로 느끼는 것은 <tspan style="font-weight:700">주위</tspan>의 온도 변화</text>
+</svg>
