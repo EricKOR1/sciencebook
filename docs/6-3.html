@@ -1,0 +1,1040 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>6-3 인공지능 로봇과 사물인터넷</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css">
+<link rel="stylesheet" href="assets/book.css">
+<script src="assets/js/book.js" defer></script>
+
+</head>
+<body class="">
+<header class="topbar">
+  <button class="menu-btn" id="menu-btn" aria-controls="drawer" aria-expanded="false">목차</button>
+  <a class="brand" href="index.html">통합과학 개념에서 산업까지</a>
+  <button class="theme-btn" id="theme-btn" aria-label="밝은 화면과 어두운 화면 바꾸기">화면</button>
+</header>
+<div class="shell">
+<aside class="drawer" id="drawer"><nav class="book-nav" aria-label="교재 목차"><a class="nav-home" href="index.html">처음으로</a><p class="nav-book">통합과학1</p><p class="nav-unit"><span>1단원</span> 과학의 기초</p><ul><li><a href="1-1.html"><span class="nav-id">1-1</span>시간과 공간</a></li><li><a href="1-2.html"><span class="nav-id">1-2</span>기본량과 단위</a></li><li><a href="1-3.html"><span class="nav-id">1-3</span>측정과 어림, 측정 표준</a></li><li><a href="1-4.html"><span class="nav-id">1-4</span>정보와 신호: 아날로그에서 디지털로</a></li></ul><p class="nav-unit"><span>2단원</span> 물질과 규칙성</p><ul><li><a href="2-1.html"><span class="nav-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="2-2.html"><span class="nav-id">2-2</span>별의 진화와 원소의 생성</a></li><li><a href="2-3.html"><span class="nav-id">2-3</span>원소의 주기성과 화학 결합의 이유</a></li><li><a href="2-4.html"><span class="nav-id">2-4</span>이온 결합과 공유 결합</a></li><li><a href="2-5.html"><span class="nav-id">2-5</span>지각과 생명체 구성 물질의 규칙성</a></li><li><a href="2-6.html"><span class="nav-id">2-6</span>물질의 전기적 성질과 소재</a></li></ul><p class="nav-unit"><span>3단원</span> 시스템과 상호작용</p><ul><li><a href="3-1.html"><span class="nav-id">3-1</span>지구시스템의 구성과 상호작용</a></li><li><a href="3-2.html"><span class="nav-id">3-2</span>판구조론과 지권의 변화</a></li><li><a href="3-3.html"><span class="nav-id">3-3</span>중력과 운동</a></li><li><a href="3-4.html"><span class="nav-id">3-4</span>운동량과 충격량</a></li><li><a href="3-5.html"><span class="nav-id">3-5</span>생명 시스템과 물질대사</a></li><li><a href="3-6.html"><span class="nav-id">3-6</span>유전자와 단백질</a></li></ul><p class="nav-book">통합과학2</p><p class="nav-unit"><span>4단원</span> 변화와 다양성</p><ul><li><a href="4-1.html"><span class="nav-id">4-1</span>지질시대의 환경 변화와 생물다양성</a></li><li><a href="4-2.html"><span class="nav-id">4-2</span>진화와 생물다양성</a></li><li><a href="4-3.html"><span class="nav-id">4-3</span>산화와 환원</a></li><li><a href="4-4.html"><span class="nav-id">4-4</span>산과 염기, 중화 반응</a></li><li><a href="4-5.html"><span class="nav-id">4-5</span>물질 변화와 에너지 출입</a></li></ul><p class="nav-unit"><span>5단원</span> 환경과 에너지</p><ul><li><a href="5-1.html"><span class="nav-id">5-1</span>생태계 구성 요소와 상호 관계</a></li><li><a href="5-2.html"><span class="nav-id">5-2</span>생태계 평형</a></li><li><a href="5-3.html"><span class="nav-id">5-3</span>지구온난화와 기후변화</a></li><li><a href="5-4.html"><span class="nav-id">5-4</span>태양 에너지와 에너지 전환</a></li><li><a href="5-5.html"><span class="nav-id">5-5</span>발전기와 전기 에너지</a></li><li><a href="5-6.html"><span class="nav-id">5-6</span>에너지 효율과 신재생 에너지</a></li></ul><p class="nav-unit"><span>6단원</span> 과학과 미래 사회</p><ul><li><a href="6-1.html"><span class="nav-id">6-1</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html"><span class="nav-id">6-2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html" aria-current="page"><span class="nav-id">6-3</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html"><span class="nav-id">6-4</span>과학기술과 윤리</a></li></ul><p class="nav-book">부록</p><ul><li><a href="guide.html">교재 설계 안내</a></li><li><a href="appendix-standards.html">부록 1. 교육과정 성취기준</a></li><li><a href="appendix-map.html">부록 2. 연계 지도</a></li><li><a href="appendix-glossary.html">부록 3. 핵심 용어 사전</a></li></ul></nav></aside>
+<main class="main" id="main">
+<div class="lesson-grid"><nav class="ladder" aria-label="이 단원의 흐름"><p class="ladder-title">이 단원의 흐름</p><ol><li class="extra"><a href="#단원-들어가기">단원 들어가기</a></li><li class="s1"><a href="#step-1"><b>STEP 1</b> 중학교 다시 보기</a></li><li class="s2"><a href="#step-2"><b>STEP 2</b> 기초 다지기</a></li><li class="s3"><a href="#step-3"><b>STEP 3</b> 핵심 개념</a></li><li class="s4"><a href="#step-4"><b>STEP 4</b> 오개념 바로잡기</a></li><li class="s5"><a href="#step-5"><b>STEP 5</b> 선택과목·대학으로 한 걸음 더</a></li><li class="s6"><a href="#step-6"><b>STEP 6</b> 산업 현장과 진로 연결</a></li><li class="extra"><a href="#탐구-활동-일상생활에-활용되는-로봇의-특징-분석-및-개선방안-고안하기">탐구 활동 — 일상생활에 활용되는 로봇의 특징 분석 및 개선방안 고안하기</a></li><li class="extra"><a href="#개념-확인-문제">개념 확인 문제</a></li><li class="extra"><a href="#한눈에-정리">한눈에 정리</a></li></ol></nav><article class="prose lesson"><header class="lesson-hero u6">
+  <p class="eyebrow">통합과학2 · 6단원 과학과 미래 사회</p>
+  <h1><span class="lesson-id">6-3</span>인공지능 로봇과 사물인터넷</h1>
+  <p class="lesson-sub">스스로 배우고, 감지하고, 연결되는 기계</p>
+</header><aside class="callout note"><p class="callout-title">성취기준·참고</p><p><strong>성취기준 [10통과2-03-03]</strong> 인공지능 로봇, 사물인터넷 등과 같이 과학기술의 발전을 인간 삶과 환경 개선에 활용하는 사례를 찾고, 이러한 과학기술의 발전이 미래 사회에 미치는 유용성과 한계를 예측할 수 있다.</p>
+</aside>
+<p><strong>학습 목표</strong></p>
+<ol>
+<li>인공지능이 데이터로부터 규칙을 학습하는 원리를 간단한 예를 들어 설명할 수 있다.</li>
+<li>로봇을 &#39;감지(센서) – 판단(제어) – 동작(구동)&#39;의 구조로 분석하고, 사물인터넷의 구성과 작동 흐름을 설명할 수 있다.</li>
+<li>인공지능 로봇과 사물인터넷이 인간의 삶과 환경을 개선하는 사례(스마트팜, 스마트 그리드, 돌봄·의료 로봇, 재난 로봇 등)를 찾아 설명할 수 있다.</li>
+<li>이러한 과학기술이 미래 사회에 미칠 유용성과 한계를 근거를 들어 예측할 수 있다.</li>
+</ol>
+<p><strong>이 단원의 학습 사다리</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>단계</th>
+<th>무엇을 하나?</th>
+</tr>
+</thead><tbody><tr>
+<td>STEP 1. 중학교 다시 보기</td>
+<td>자극과 반응, 전동기, 첨단 과학기술과 미래 사회, 그리고 앞 단원(신호·반도체·빅데이터)을 꺼내 본다</td>
+</tr>
+<tr>
+<td>STEP 2. 기초 다지기</td>
+<td>입력–처리–출력, 알고리즘, 되먹임 제어, 네트워크를 디딤돌로 놓는다</td>
+</tr>
+<tr>
+<td>STEP 3. 핵심 개념</td>
+<td>인공지능 → 로봇 → 사물인터넷 → 삶과 환경 개선 사례 → 유용성과 한계 예측</td>
+</tr>
+<tr>
+<td>STEP 4. 오개념 바로잡기</td>
+<td>&quot;AI는 사람처럼 이해한다&quot;, &quot;로봇은 사람 모양이다&quot; 같은 착각을 바로잡는다</td>
+</tr>
+<tr>
+<td>STEP 5. 선택과목·대학</td>
+<td>기계학습의 수학(퍼셉트론·경사 하강법), 로봇 제어(PID), 임베디드 시스템</td>
+</tr>
+<tr>
+<td>STEP 6. 산업·진로</td>
+<td>스마트 제조, 스마트팜, 의료·돌봄 로봇, 재난 로봇, 스마트 그리드</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="단원-들어가기">단원 들어가기</h2>
+<p>2016년 3월 서울에서 열린 바둑 대국에서 인공지능 바둑 프로그램이 세계 최정상급 프로 기사를 4승 1패로 이겼다. 바둑은 둘 수 있는 경우의 수가 우주의 원자 수보다 많다고 할 만큼 복잡해서, 사람이 모든 규칙을 일일이 입력하는 방식으로는 정복할 수 없다고 여겨졌다. 이 프로그램은 수많은 기보 <strong>데이터</strong>와 스스로 둔 대국에서 <strong>학습</strong>하여 강해졌다.</p>
+<p>오늘날 인공지능은 바둑판을 벗어나 우리 곁에 있다. 집에서는 로봇청소기가 장애물을 피해 바닥을 청소하고, 식당에서는 서빙 로봇이 음식을 나르며, 비닐하우스에서는 센서가 온도를 재고 창문을 스스로 연다. 병원에서는 수술 로봇이 의사를 돕고, 사람이 들어갈 수 없는 재난 현장에는 로봇이 먼저 들어간다.</p>
+<blockquote><p>기계는 어떻게 &#39;배우고&#39;, &#39;느끼고&#39;, &#39;움직일까&#39;? 이 기술은 우리의 삶과 환경을 얼마나 좋게 만들 수 있고, 어디까지가 한계일까?</p>
+</blockquote>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-6-3-0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 -10.25 1241.5625 239" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-6-3-0{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-6-3-0 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-6-3-0 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-6-3-0 .error-icon{fill:var(--mm-group);}#mm-6-3-0 .error-text{fill:#595959;stroke:#595959;}#mm-6-3-0 .edge-thickness-normal{stroke-width:1px;}#mm-6-3-0 .edge-thickness-thick{stroke-width:3.5px;}#mm-6-3-0 .edge-pattern-solid{stroke-dasharray:0;}#mm-6-3-0 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-6-3-0 .edge-pattern-dashed{stroke-dasharray:3;}#mm-6-3-0 .edge-pattern-dotted{stroke-dasharray:2;}#mm-6-3-0 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-6-3-0 .marker.cross{stroke:var(--mm-line);}#mm-6-3-0 svg{font-family:inherit;font-size:15px;}#mm-6-3-0 p{margin:0;}#mm-6-3-0 .label{font-family:inherit;color:var(--mm-text);}#mm-6-3-0 .cluster-label text{fill:#595959;}#mm-6-3-0 .cluster-label span{color:#595959;}#mm-6-3-0 .cluster-label span p{background-color:transparent;}#mm-6-3-0 .label text,#mm-6-3-0 span{fill:var(--mm-text);color:var(--mm-text);}#mm-6-3-0 .node rect,#mm-6-3-0 .node circle,#mm-6-3-0 .node ellipse,#mm-6-3-0 .node polygon,#mm-6-3-0 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-6-3-0 .rough-node .label text,#mm-6-3-0 .node .label text,#mm-6-3-0 .image-shape .label,#mm-6-3-0 .icon-shape .label{text-anchor:middle;}#mm-6-3-0 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-6-3-0 .rough-node .label,#mm-6-3-0 .node .label,#mm-6-3-0 .image-shape .label,#mm-6-3-0 .icon-shape .label{text-align:center;}#mm-6-3-0 .node.clickable{cursor:pointer;}#mm-6-3-0 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-6-3-0 .arrowheadPath{fill:#0b0b0b;}#mm-6-3-0 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-6-3-0 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-6-3-0 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-6-3-0 .edgeLabel p{background-color:var(--mm-label);}#mm-6-3-0 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-6-3-0 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-6-3-0 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-6-3-0 .cluster text{fill:#595959;}#mm-6-3-0 .cluster span{color:#595959;}#mm-6-3-0 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-6-3-0 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-6-3-0 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-6-3-0 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-6-3-0 rect.text{fill:none;stroke-width:0;}#mm-6-3-0 .icon-shape,#mm-6-3-0 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-6-3-0 .icon-shape p,#mm-6-3-0 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-6-3-0 .icon-shape .label rect,#mm-6-3-0 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-6-3-0 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-6-3-0 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-6-3-0 .node .neo-node{stroke:var(--mm-border);}#mm-6-3-0 [data-look="neo"].node rect,#mm-6-3-0 [data-look="neo"].cluster rect,#mm-6-3-0 [data-look="neo"].node polygon{stroke:url(#mm-6-3-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-3-0 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-6-3-0 [data-look="neo"].node path{stroke:url(#mm-6-3-0-gradient);stroke-width:1px;}#mm-6-3-0 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-3-0 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-6-3-0 [data-look="neo"].node circle{stroke:url(#mm-6-3-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-3-0 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-6-3-0 [data-look="neo"].icon-shape .icon{fill:url(#mm-6-3-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-3-0 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-6-3-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-3-0 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-6-3-0_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-0_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-0_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-0_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-0_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-0_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-0_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-0_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-0_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-0_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-0_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-6-3-0_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M314.867,67.25L320.84,67.25C326.813,67.25,338.758,67.25,348.233,67.559C357.708,67.869,364.713,68.488,368.216,68.797L371.719,69.107" id="mm-6-3-0-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MzE0Ljg2NzE4NzUsInkiOjY3LjI1fSx7IngiOjM1MC43MDMxMjUsInkiOjY3LjI1fSx7IngiOjM3NS43MDMxMjUsInkiOjY5LjQ1OTAyOTQwNzcwNH1d" data-look="classic" marker-end="url(#mm-6-3-0_flowchart-v2-pointEnd)"/><path d="M93.767,57.5L102.335,47.542C110.902,37.583,128.037,17.667,153.732,7.708C179.427,-2.25,213.682,-2.25,247.938,-2.25C282.193,-2.25,316.448,-2.25,352.438,-2.25C388.427,-2.25,426.151,-2.25,463.875,-2.25C501.599,-2.25,539.323,-2.25,561.744,-0.641C584.165,0.968,591.284,4.185,594.843,5.794L598.402,7.403" id="mm-6-3-0-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6OTMuNzY3MjYyMTAyMTIyMDIsInkiOjU3LjV9LHsieCI6MTQ1LjE3MTg3NSwieSI6LTIuMjV9LHsieCI6MjQ3LjkzNzUsInkiOi0yLjI1fSx7IngiOjM1MC43MDMxMjUsInkiOi0yLjI1fSx7IngiOjQ2My44NzUsInkiOi0yLjI1fSx7IngiOjU3Ny4wNDY4NzUsInkiOi0yLjI1fSx7IngiOjYwMi4wNDY4NzUsInkiOjkuMDUwNTA1MDUwNTA1MDUyfV0=" data-look="classic" marker-end="url(#mm-6-3-0_flowchart-v2-pointEnd)"/><path d="M552.047,77.25L556.214,77.25C560.38,77.25,568.714,77.25,576.418,76.008C584.122,74.767,591.197,72.283,594.735,71.041L598.273,69.8" id="mm-6-3-0-L_B_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_D_0" data-points="W3sieCI6NTUyLjA0Njg3NSwieSI6NzcuMjV9LHsieCI6NTc3LjA0Njg3NSwieSI6NzcuMjV9LHsieCI6NjAyLjA0Njg3NSwieSI6NjguNDc0NzQ3NDc0NzQ3NDd9XQ==" data-look="classic" marker-end="url(#mm-6-3-0_flowchart-v2-pointEnd)"/><path d="M93.767,126.5L102.335,136.458C110.902,146.417,128.037,166.333,140.104,176.292C152.172,186.25,159.172,186.25,162.672,186.25L166.172,186.25" id="mm-6-3-0-L_C_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_E_0" data-points="W3sieCI6OTMuNzY3MjYyMTAyMTIyMDIsInkiOjEyNi41fSx7IngiOjE0NS4xNzE4NzUsInkiOjE4Ni4yNX0seyJ4IjoxNzAuMTcxODc1LCJ5IjoxODYuMjV9XQ==" data-look="classic" marker-end="url(#mm-6-3-0_flowchart-v2-pointEnd)"/><path d="M319.562,151.75L324.752,149.25C329.942,146.75,340.323,141.75,352.848,135.394C365.373,129.037,380.044,121.324,387.379,117.468L394.714,113.611" id="mm-6-3-0-L_E_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_B_0" data-points="W3sieCI6MzE5LjU2MjAyNjUxNTE1MTUsInkiOjE1MS43NX0seyJ4IjozNTAuNzAzMTI1LCJ5IjoxMzYuNzV9LHsieCI6Mzk4LjI1NDMzMjk4MzE5MzMsInkiOjExMS43NX1d" data-look="classic" marker-end="url(#mm-6-3-0_flowchart-v2-pointEnd)"/><path d="M750.047,42.5L754.214,42.5C758.38,42.5,766.714,42.5,774.425,43.864C782.136,45.229,789.225,47.958,792.769,49.322L796.314,50.687" id="mm-6-3-0-L_D_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_F_0" data-points="W3sieCI6NzUwLjA0Njg3NSwieSI6NDIuNX0seyJ4Ijo3NzUuMDQ2ODc1LCJ5Ijo0Mi41fSx7IngiOjgwMC4wNDY4NzUsInkiOjUyLjEyMzkxMzk2ODA0MTh9XQ==" data-look="classic" marker-end="url(#mm-6-3-0_flowchart-v2-pointEnd)"/><path d="M325.703,193.817L329.87,194.223C334.036,194.628,342.37,195.439,365.398,195.845C388.427,196.25,426.151,196.25,463.875,196.25C501.599,196.25,539.323,196.25,574.685,196.25C610.047,196.25,643.047,196.25,676.047,196.25C709.047,196.25,742.047,196.25,770.055,186.92C798.063,177.59,821.08,158.929,832.588,149.599L844.096,140.269" id="mm-6-3-0-L_E_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_F_0" data-points="W3sieCI6MzI1LjcwMzEyNSwieSI6MTkzLjgxNzI3OTkxNDg1NDh9LHsieCI6MzUwLjcwMzEyNSwieSI6MTk2LjI1fSx7IngiOjQ2My44NzUsInkiOjE5Ni4yNX0seyJ4Ijo1NzcuMDQ2ODc1LCJ5IjoxOTYuMjV9LHsieCI6Njc2LjA0Njg3NSwieSI6MTk2LjI1fSx7IngiOjc3NS4wNDY4NzUsInkiOjE5Ni4yNX0seyJ4Ijo4NDcuMjAzMDEyNTg5OTI4MSwieSI6MTM3Ljc1fV0=" data-look="classic" marker-end="url(#mm-6-3-0_flowchart-v2-pointEnd)"/><path d="M1007.219,92L1011.385,92C1015.552,92,1023.885,92,1031.552,92C1039.219,92,1046.219,92,1049.719,92L1053.219,92" id="mm-6-3-0-L_F_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_F_G_0" data-points="W3sieCI6MTAwNy4yMTg3NSwieSI6OTJ9LHsieCI6MTAzMi4yMTg3NSwieSI6OTJ9LHsieCI6MTA1Ny4yMTg3NSwieSI6OTJ9XQ==" data-look="classic" marker-end="url(#mm-6-3-0_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_F_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_F_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_F_G_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-6-3-0-flowchart-A-0" data-look="classic" transform="translate(247.9375, 67.25)"><rect class="basic label-container" style="" x="-66.9296875" y="-34.5" width="133.859375" height="69"/><g class="label" style="" transform="translate(-42.9296875, -22.5)"><rect/><foreignObject width="85.859375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>데이터<br />6-2 빅데이터</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-3-0-flowchart-B-1" data-look="classic" transform="translate(463.875, 77.25)"><rect class="basic label-container" style="" x="-88.171875" y="-34.5" width="176.34375" height="69"/><g class="label" style="" transform="translate(-64.171875, -22.5)"><rect/><foreignObject width="128.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>인공지능<br />데이터로 규칙 학습</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-3-0-flowchart-C-2" data-look="classic" transform="translate(64.0859375, 92)"><rect class="basic label-container" style="" x="-56.0859375" y="-34.5" width="112.171875" height="69"/><g class="label" style="" transform="translate(-32.0859375, -22.5)"><rect/><foreignObject width="64.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>센서<br />환경 감지</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-3-0-flowchart-D-3" data-look="classic" transform="translate(676.046875, 42.5)"><rect class="basic label-container" style="" x="-74" y="-34.5" width="148" height="69"/><g class="label" style="" transform="translate(-50, -22.5)"><rect/><foreignObject width="100" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>로봇<br />감지-판단-동작</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-3-0-flowchart-E-7" data-look="classic" transform="translate(247.9375, 186.25)"><rect class="basic label-container" style="" x="-77.765625" y="-34.5" width="155.53125" height="69"/><g class="label" style="" transform="translate(-53.765625, -22.5)"><rect/><foreignObject width="107.53125" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>사물인터넷<br />사물+센서+통신</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-3-0-flowchart-F-11" data-look="classic" transform="translate(903.6328125, 92)"><rect class="basic label-container" style="" x="-103.5859375" y="-45.75" width="207.171875" height="91.5"/><g class="label" style="" transform="translate(-79.5859375, -33.75)"><rect/><foreignObject width="159.171875" height="67.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>삶과 환경 개선<br />스마트팜·스마트 그리드<br />돌봄·의료·재난 로봇</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-3-0-flowchart-G-15" data-look="classic" transform="translate(1145.390625, 92)"><rect class="basic label-container" style="" x="-88.171875" y="-23.25" width="176.34375" height="46.5"/><g class="label" style="" transform="translate(-64.171875, -11.25)"><rect/><foreignObject width="128.34375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>유용성과 한계 예측</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-6-3-0-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-6-3-0-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-6-3-0-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><hr>
+<h2 id="step-1" class="step-h s1"><span class="step-badge s1">STEP 1</span><span class="h-text">중학교 다시 보기</span></h2>
+<h3 id="연계-개념표-중학교-연계">연계 개념표 — 중학교 연계</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>중학교 성취기준</th>
+<th>중학교에서 배운 것</th>
+<th>고등학교에서 확장되는 것</th>
+</tr>
+</thead><tbody><tr>
+<td>[9과01-02]</td>
+<td>과학의 발전이 인류 문명에 미친 영향, 인공지능 등 첨단 과학기술이 가져올 미래 사회의 변화 조사</td>
+<td>인공지능의 <strong>학습 원리</strong>와 로봇·사물인터넷의 <strong>구조</strong>를 이해하고 유용성과 한계를 예측한다</td>
+</tr>
+<tr>
+<td>[9과20-01]</td>
+<td>자극이 감각기관에서 뇌로 전달되는 과정</td>
+<td>로봇의 <strong>센서</strong>가 환경 변화를 감지하는 것과 비교한다</td>
+</tr>
+<tr>
+<td>[9과20-02]</td>
+<td>뉴런과 신경계의 구조와 기능, 자극에서 반응이 일어나기까지의 과정</td>
+<td>감지 → 판단 → 동작으로 이어지는 <strong>로봇의 구조</strong>, 뉴런을 본뜬 <strong>인공 신경망</strong></td>
+</tr>
+<tr>
+<td>[9과14-04]</td>
+<td>자기장 속 전류가 흐르는 코일이 받는 힘, 전동기</td>
+<td>로봇의 관절과 바퀴를 움직이는 <strong>구동기(전동기)</strong></td>
+</tr>
+<tr>
+<td>[9과23-01]</td>
+<td>과학기술의 발달로 생기는 미래 사회의 직업 변화</td>
+<td>인공지능·로봇이 일자리와 사회에 미칠 영향을 예측한다</td>
+</tr>
+</tbody></table></div>
+<h3 id="연계-개념표-앞-단원-연계">연계 개념표 — 앞 단원 연계</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>앞 단원</th>
+<th>거기서 배운 것</th>
+<th>이 단원에서 쓰이는 곳</th>
+</tr>
+</thead><tbody><tr>
+<td>1-4 정보와 신호</td>
+<td>센서가 아날로그 신호를 전기 신호로 바꾸어 디지털 정보가 된다</td>
+<td>로봇과 사물인터넷의 &#39;감각&#39;</td>
+</tr>
+<tr>
+<td>2-6 물질의 전기적 성질</td>
+<td>반도체는 불순물을 넣어 전기적 성질을 제어하기 쉽다</td>
+<td>인공지능 계산과 로봇 제어를 담당하는 <strong>반도체 칩</strong></td>
+</tr>
+<tr>
+<td>3-4 운동량과 충격량</td>
+<td>충돌 시간을 늘려 힘을 줄인다</td>
+<td>사람과 함께 일하는 로봇의 <strong>충돌 안전 설계</strong></td>
+</tr>
+<tr>
+<td>5-5, 5-6 발전과 에너지 효율</td>
+<td>발전 방식과 신재생 에너지의 변동성</td>
+<td>전력망을 데이터로 조절하는 <strong>스마트 그리드</strong></td>
+</tr>
+<tr>
+<td>6-2 빅데이터와 과학기술사회</td>
+<td>빅데이터의 특징과 장단점</td>
+<td>인공지능을 학습시키는 <strong>연료</strong>이자 편향의 출발점</td>
+</tr>
+</tbody></table></div>
+<h3 id="준비-운동-사전-진단">준비 운동 (사전 진단)</h3>
+<p><strong>Q1.</strong> 뜨거운 냄비에 손이 닿으면 손을 재빨리 뗀다. 이 반응에서 &#39;자극을 받아들이는 곳&#39;, &#39;판단(명령)하는 곳&#39;, &#39;움직이는 곳&#39;을 각각 쓰시오.</p>
+<p><strong>Q2.</strong> 전기 에너지를 운동 에너지로 바꾸어 물체를 돌리는 장치는?</p>
+<p><strong>Q3.</strong> 다음 중 사람이 미리 정한 규칙대로만 동작하는 것과, 데이터를 통해 규칙을 스스로 찾아내는 것을 구분하시오.
+ㄱ. 정해진 시각마다 울리는 알람 시계 ㄴ. 수많은 사진을 보고 고양이를 알아보게 된 사진 분류 프로그램</p>
+<p><strong>Q4.</strong> 6-2 단원에서 &quot;쓰레기를 넣으면 쓰레기가 나온다&quot;는 말은 무엇을 뜻했는가?</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>Q1.</strong> 자극을 받아들이는 곳: 피부(감각기관), 판단하는 곳: 척수(무조건 반사의 경우)·뇌, 움직이는 곳: 근육. 로봇에서는 각각 <strong>센서, 제어 장치, 구동기</strong>에 해당한다.</p>
+<p><strong>Q2. 전동기(모터)</strong> — 중학교 [9과14-04]에서 배웠다. 로봇의 관절과 바퀴를 움직이는 대표적인 구동기이다.</p>
+<p><strong>Q3.</strong> ㄱ은 사람이 정한 규칙대로만 동작한다. ㄴ은 데이터로부터 규칙을 찾아낸다(학습).</p>
+<p><strong>Q4.</strong> 잘못되거나 치우친 데이터를 넣으면 분석 결과도 잘못된다는 뜻이다. 인공지능도 학습 데이터의 품질에 결과가 크게 좌우된다.</p>
+</div></details>
+
+<hr>
+<h2 id="step-2" class="step-h s2"><span class="step-badge s2">STEP 2</span><span class="h-text">기초 다지기</span></h2>
+<h3 id="①-입력-처리-출력">① 입력 – 처리 – 출력</h3>
+<p>컴퓨터, 로봇, 스마트 기기는 모두 같은 틀로 이해할 수 있다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>단계</th>
+<th>컴퓨터</th>
+<th>우리 몸</th>
+<th>로봇청소기</th>
+</tr>
+</thead><tbody><tr>
+<td>입력</td>
+<td>키보드, 마우스, 센서</td>
+<td>감각기관</td>
+<td>장애물·바닥 감지 센서</td>
+</tr>
+<tr>
+<td>처리</td>
+<td>중앙 처리 장치(반도체 칩)</td>
+<td>뇌·척수</td>
+<td>제어 장치(칩과 프로그램)</td>
+</tr>
+<tr>
+<td>출력</td>
+<td>화면, 스피커</td>
+<td>근육</td>
+<td>바퀴 모터, 솔 모터</td>
+</tr>
+</tbody></table></div>
+<h3 id="②-알고리즘-문제를-해결하는-절차">② 알고리즘 — 문제를 해결하는 절차</h3>
+<p><strong>알고리즘(algorithm)</strong> 은 문제를 해결하기 위한 순서와 규칙이다. 가장 기본적인 형태는 &quot;만약 ~이면 ~한다(if–then)&quot;이다.</p>
+<ul>
+<li>만약 앞에 장애물이 있으면 → 방향을 바꾼다.</li>
+<li>만약 온도가 28 °C보다 높으면 → 창문을 연다.</li>
+</ul>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 알고리즘은 요리법과 같다. 같은 재료라도 요리법(순서와 규칙)에 따라 결과가 달라진다. 전통적인 프로그램은 사람이 요리법을 직접 쓰고, 인공지능은 수많은 완성 요리(데이터)를 보고 요리법을 스스로 찾아낸다.</p>
+</aside>
+<h3 id="③-되먹임-피드백-제어">③ 되먹임(피드백) 제어</h3>
+<p>결과를 측정하여 다시 입력으로 되돌려 목표에 맞게 조절하는 방식을 <strong>되먹임 제어(feedback control)</strong> 라 한다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-6-3-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 866.0625 120" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-6-3-1{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-6-3-1 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-6-3-1 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-6-3-1 .error-icon{fill:var(--mm-group);}#mm-6-3-1 .error-text{fill:#595959;stroke:#595959;}#mm-6-3-1 .edge-thickness-normal{stroke-width:1px;}#mm-6-3-1 .edge-thickness-thick{stroke-width:3.5px;}#mm-6-3-1 .edge-pattern-solid{stroke-dasharray:0;}#mm-6-3-1 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-6-3-1 .edge-pattern-dashed{stroke-dasharray:3;}#mm-6-3-1 .edge-pattern-dotted{stroke-dasharray:2;}#mm-6-3-1 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-6-3-1 .marker.cross{stroke:var(--mm-line);}#mm-6-3-1 svg{font-family:inherit;font-size:15px;}#mm-6-3-1 p{margin:0;}#mm-6-3-1 .label{font-family:inherit;color:var(--mm-text);}#mm-6-3-1 .cluster-label text{fill:#595959;}#mm-6-3-1 .cluster-label span{color:#595959;}#mm-6-3-1 .cluster-label span p{background-color:transparent;}#mm-6-3-1 .label text,#mm-6-3-1 span{fill:var(--mm-text);color:var(--mm-text);}#mm-6-3-1 .node rect,#mm-6-3-1 .node circle,#mm-6-3-1 .node ellipse,#mm-6-3-1 .node polygon,#mm-6-3-1 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-6-3-1 .rough-node .label text,#mm-6-3-1 .node .label text,#mm-6-3-1 .image-shape .label,#mm-6-3-1 .icon-shape .label{text-anchor:middle;}#mm-6-3-1 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-6-3-1 .rough-node .label,#mm-6-3-1 .node .label,#mm-6-3-1 .image-shape .label,#mm-6-3-1 .icon-shape .label{text-align:center;}#mm-6-3-1 .node.clickable{cursor:pointer;}#mm-6-3-1 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-6-3-1 .arrowheadPath{fill:#0b0b0b;}#mm-6-3-1 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-6-3-1 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-6-3-1 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-6-3-1 .edgeLabel p{background-color:var(--mm-label);}#mm-6-3-1 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-6-3-1 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-6-3-1 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-6-3-1 .cluster text{fill:#595959;}#mm-6-3-1 .cluster span{color:#595959;}#mm-6-3-1 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-6-3-1 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-6-3-1 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-6-3-1 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-6-3-1 rect.text{fill:none;stroke-width:0;}#mm-6-3-1 .icon-shape,#mm-6-3-1 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-6-3-1 .icon-shape p,#mm-6-3-1 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-6-3-1 .icon-shape .label rect,#mm-6-3-1 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-6-3-1 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-6-3-1 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-6-3-1 .node .neo-node{stroke:var(--mm-border);}#mm-6-3-1 [data-look="neo"].node rect,#mm-6-3-1 [data-look="neo"].cluster rect,#mm-6-3-1 [data-look="neo"].node polygon{stroke:url(#mm-6-3-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-3-1 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-6-3-1 [data-look="neo"].node path{stroke:url(#mm-6-3-1-gradient);stroke-width:1px;}#mm-6-3-1 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-3-1 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-6-3-1 [data-look="neo"].node circle{stroke:url(#mm-6-3-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-3-1 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-6-3-1 [data-look="neo"].icon-shape .icon{fill:url(#mm-6-3-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-3-1 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-6-3-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-3-1 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-6-3-1_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-1_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-1_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-1_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-1_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-1_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-1_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-1_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-1_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-1_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-1_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-6-3-1_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M111.031,77.25L115.198,77.25C119.365,77.25,127.698,77.25,135.365,77.25C143.031,77.25,150.031,77.25,153.531,77.25L157.031,77.25" id="mm-6-3-1-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTExLjAzMTI1LCJ5Ijo3Ny4yNX0seyJ4IjoxMzYuMDMxMjUsInkiOjc3LjI1fSx7IngiOjE2MS4wMzEyNSwieSI6NzcuMjV9XQ==" data-look="classic" marker-end="url(#mm-6-3-1_flowchart-v2-pointEnd)"/><path d="M273.203,53.214L277.37,51.428C281.536,49.643,289.87,46.071,297.536,44.286C305.203,42.5,312.203,42.5,315.703,42.5L319.203,42.5" id="mm-6-3-1-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6MjczLjIwMzEyNSwieSI6NTMuMjEzOTQxNjEyODcyMTV9LHsieCI6Mjk4LjIwMzEyNSwieSI6NDIuNX0seyJ4IjozMjMuMjAzMTI1LCJ5Ijo0Mi41fV0=" data-look="classic" marker-end="url(#mm-6-3-1_flowchart-v2-pointEnd)"/><path d="M465.375,42.5L469.542,42.5C473.708,42.5,482.042,42.5,489.708,42.5C497.375,42.5,504.375,42.5,507.875,42.5L511.375,42.5" id="mm-6-3-1-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6NDY1LjM3NSwieSI6NDIuNX0seyJ4Ijo0OTAuMzc1LCJ5Ijo0Mi41fSx7IngiOjUxNS4zNzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-6-3-1_flowchart-v2-pointEnd)"/><path d="M661.719,42.5L665.885,42.5C670.052,42.5,678.385,42.5,686.09,43.752C693.795,45.005,700.872,47.51,704.41,48.762L707.948,50.015" id="mm-6-3-1-L_D_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_E_0" data-points="W3sieCI6NjYxLjcxODc1LCJ5Ijo0Mi41fSx7IngiOjY4Ni43MTg3NSwieSI6NDIuNX0seyJ4Ijo3MTEuNzE4NzUsInkiOjUxLjM0OTI3NTgyMzY1MTEyNn1d" data-look="classic" marker-end="url(#mm-6-3-1_flowchart-v2-pointEnd)"/><path d="M711.719,103.151L707.552,104.626C703.385,106.1,695.052,109.05,674.523,110.525C653.995,112,621.271,112,588.547,112C555.823,112,523.099,112,490.723,112C458.346,112,426.318,112,394.289,112C362.26,112,330.232,112,310.664,110.477C291.095,108.954,283.988,105.908,280.434,104.385L276.88,102.862" id="mm-6-3-1-L_E_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_B_0" data-points="W3sieCI6NzExLjcxODc1LCJ5IjoxMDMuMTUwNzI0MTc2MzQ4ODd9LHsieCI6Njg2LjcxODc1LCJ5IjoxMTJ9LHsieCI6NTg4LjU0Njg3NSwieSI6MTEyfSx7IngiOjQ5MC4zNzUsInkiOjExMn0seyJ4IjozOTQuMjg5MDYyNSwieSI6MTEyfSx7IngiOjI5OC4yMDMxMjUsInkiOjExMn0seyJ4IjoyNzMuMjAzMTI1LCJ5IjoxMDEuMjg2MDU4Mzg3MTI3ODV9XQ==" data-look="classic" marker-end="url(#mm-6-3-1_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-6-3-1-flowchart-A-0" data-look="classic" transform="translate(59.515625, 77.25)"><rect class="basic label-container" style="" x="-51.515625" y="-34.5" width="103.03125" height="69"/><g class="label" style="" transform="translate(-27.515625, -22.5)"><rect/><foreignObject width="55.03125" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>목표값<br />예: 25도</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-3-1-flowchart-B-1" data-look="classic" transform="translate(217.1171875, 77.25)"><rect class="basic label-container" style="" x="-56.0859375" y="-34.5" width="112.171875" height="69"/><g class="label" style="" transform="translate(-32.0859375, -22.5)"><rect/><foreignObject width="64.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>제어 장치<br />차이 계산</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-3-1-flowchart-C-3" data-look="classic" transform="translate(394.2890625, 42.5)"><rect class="basic label-container" style="" x="-71.0859375" y="-34.5" width="142.171875" height="69"/><g class="label" style="" transform="translate(-47.0859375, -22.5)"><rect/><foreignObject width="94.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>구동기<br />냉난방기 작동</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-3-1-flowchart-D-5" data-look="classic" transform="translate(588.546875, 42.5)"><rect class="basic label-container" style="" x="-73.171875" y="-34.5" width="146.34375" height="69"/><g class="label" style="" transform="translate(-49.171875, -22.5)"><rect/><foreignObject width="98.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>환경<br />실내 온도 변화</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-3-1-flowchart-E-7" data-look="classic" transform="translate(784.890625, 77.25)"><rect class="basic label-container" style="" x="-73.171875" y="-34.5" width="146.34375" height="69"/><g class="label" style="" transform="translate(-49.171875, -22.5)"><rect/><foreignObject width="98.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>센서<br />현재 온도 측정</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-6-3-1-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-6-3-1-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-6-3-1-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><p>우리 몸이 체온을 일정하게 유지하는 <strong>항상성</strong>도 되먹임의 예이다. 로봇과 사물인터넷 기기는 거의 모두 이 원리로 움직인다.</p>
+<h3 id="④-네트워크-기기를-잇는-길">④ 네트워크 — 기기를 잇는 길</h3>
+<ul>
+<li><strong>인터넷</strong>: 전 세계 컴퓨터와 기기를 연결하는 통신망</li>
+<li><strong>무선 통신</strong>: 와이파이, 블루투스, 이동 통신망(5G 등)으로 선 없이 데이터를 주고받는다</li>
+<li><strong>클라우드</strong>: 인터넷으로 연결된 원격 데이터 센터의 저장·계산 능력을 빌려 쓰는 것</li>
+</ul>
+<h3 id="⑤-패턴을-찾아-예측하기">⑤ 패턴을 찾아 예측하기</h3>
+<p>6-2 단원에서 데이터 그래프의 추세를 읽었다. 데이터에 일정한 경향이 있으면 아직 측정하지 않은 값을 <strong>예측</strong>할 수 있다. 인공지능의 학습은 이 &#39;패턴 찾기와 예측&#39;을 컴퓨터가 대규모로 하는 것이다.</p>
+<hr>
+<h2 id="step-3" class="step-h s3"><span class="step-badge s3">STEP 3</span><span class="h-text">핵심 개념</span></h2>
+<h3 id="6-3-①-인공지능-데이터로-규칙을-배우는-기계">6-3-① 인공지능 — 데이터로 규칙을 배우는 기계</h3>
+<p><strong>인공지능(AI, artificial intelligence)</strong> 은 학습, 추론, 인식, 판단처럼 사람의 지능이 하는 일을 컴퓨터가 수행하도록 만든 기술이다. 1950년 튜링(A. Turing)은 &quot;기계가 생각할 수 있는가?&quot;라는 질문을 던졌고, 1956년 미국 다트머스 학술회의에서 &#39;인공지능&#39;이라는 이름이 처음 쓰였다.</p>
+<h4 id="규칙-기반-방식과-학습-기반-방식">규칙 기반 방식과 학습 기반 방식</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>규칙 기반 방식</th>
+<th>학습 기반 방식(기계학습)</th>
+</tr>
+</thead><tbody><tr>
+<td>규칙을 누가 만드나?</td>
+<td><strong>사람</strong>이 규칙을 직접 프로그래밍한다</td>
+<td>컴퓨터가 <strong>데이터에서</strong> 규칙을 찾는다</td>
+</tr>
+<tr>
+<td>잘하는 일</td>
+<td>규칙이 분명하고 단순한 일</td>
+<td>규칙을 말로 설명하기 어려운 일(얼굴 인식, 음성 인식, 번역)</td>
+</tr>
+<tr>
+<td>약점</td>
+<td>예외가 많으면 규칙을 다 쓸 수 없다</td>
+<td>데이터가 부족하거나 치우치면 틀린 규칙을 배운다</td>
+</tr>
+</tbody></table></div>
+<p><strong>기계학습(machine learning)</strong> 은 데이터를 이용해 컴퓨터가 스스로 규칙(모델)을 만들고, 이를 새로운 데이터에 적용해 예측하는 방법이다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-6-3-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 886.859375 182.75" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-6-3-2{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-6-3-2 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-6-3-2 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-6-3-2 .error-icon{fill:var(--mm-group);}#mm-6-3-2 .error-text{fill:#595959;stroke:#595959;}#mm-6-3-2 .edge-thickness-normal{stroke-width:1px;}#mm-6-3-2 .edge-thickness-thick{stroke-width:3.5px;}#mm-6-3-2 .edge-pattern-solid{stroke-dasharray:0;}#mm-6-3-2 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-6-3-2 .edge-pattern-dashed{stroke-dasharray:3;}#mm-6-3-2 .edge-pattern-dotted{stroke-dasharray:2;}#mm-6-3-2 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-6-3-2 .marker.cross{stroke:var(--mm-line);}#mm-6-3-2 svg{font-family:inherit;font-size:15px;}#mm-6-3-2 p{margin:0;}#mm-6-3-2 .label{font-family:inherit;color:var(--mm-text);}#mm-6-3-2 .cluster-label text{fill:#595959;}#mm-6-3-2 .cluster-label span{color:#595959;}#mm-6-3-2 .cluster-label span p{background-color:transparent;}#mm-6-3-2 .label text,#mm-6-3-2 span{fill:var(--mm-text);color:var(--mm-text);}#mm-6-3-2 .node rect,#mm-6-3-2 .node circle,#mm-6-3-2 .node ellipse,#mm-6-3-2 .node polygon,#mm-6-3-2 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-6-3-2 .rough-node .label text,#mm-6-3-2 .node .label text,#mm-6-3-2 .image-shape .label,#mm-6-3-2 .icon-shape .label{text-anchor:middle;}#mm-6-3-2 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-6-3-2 .rough-node .label,#mm-6-3-2 .node .label,#mm-6-3-2 .image-shape .label,#mm-6-3-2 .icon-shape .label{text-align:center;}#mm-6-3-2 .node.clickable{cursor:pointer;}#mm-6-3-2 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-6-3-2 .arrowheadPath{fill:#0b0b0b;}#mm-6-3-2 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-6-3-2 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-6-3-2 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-6-3-2 .edgeLabel p{background-color:var(--mm-label);}#mm-6-3-2 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-6-3-2 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-6-3-2 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-6-3-2 .cluster text{fill:#595959;}#mm-6-3-2 .cluster span{color:#595959;}#mm-6-3-2 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-6-3-2 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-6-3-2 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-6-3-2 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-6-3-2 rect.text{fill:none;stroke-width:0;}#mm-6-3-2 .icon-shape,#mm-6-3-2 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-6-3-2 .icon-shape p,#mm-6-3-2 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-6-3-2 .icon-shape .label rect,#mm-6-3-2 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-6-3-2 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-6-3-2 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-6-3-2 .node .neo-node{stroke:var(--mm-border);}#mm-6-3-2 [data-look="neo"].node rect,#mm-6-3-2 [data-look="neo"].cluster rect,#mm-6-3-2 [data-look="neo"].node polygon{stroke:url(#mm-6-3-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-3-2 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-6-3-2 [data-look="neo"].node path{stroke:url(#mm-6-3-2-gradient);stroke-width:1px;}#mm-6-3-2 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-3-2 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-6-3-2 [data-look="neo"].node circle{stroke:url(#mm-6-3-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-3-2 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-6-3-2 [data-look="neo"].icon-shape .icon{fill:url(#mm-6-3-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-3-2 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-6-3-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-3-2 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-6-3-2_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-2_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-2_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-2_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-2_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-2_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-2_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-2_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-2_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-2_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-2_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-6-3-2_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M135.172,42.5L139.339,42.5C143.505,42.5,151.839,42.5,162.005,42.5C172.172,42.5,184.172,42.5,190.172,42.5L196.172,42.5" id="mm-6-3-2-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTM1LjE3MTg3NSwieSI6NDIuNX0seyJ4IjoxNjAuMTcxODc1LCJ5Ijo0Mi41fSx7IngiOjIwMC4xNzE4NzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-6-3-2_flowchart-v2-pointEnd)"/><path d="M312.344,68.11L319.01,71.154C325.677,74.198,339.01,80.287,350.417,86.214C361.824,92.141,371.304,97.906,376.044,100.789L380.784,103.672" id="mm-6-3-2-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6MzEyLjM0Mzc1LCJ5Ijo2OC4xMTAxMDA0MTQ2Njc4NX0seyJ4IjozNTIuMzQzNzUsInkiOjg2LjM3NX0seyJ4IjozODQuMjAxODAxNzY5MTQxNSwieSI6MTA1Ljc1fV0=" data-look="classic" marker-end="url(#mm-6-3-2_flowchart-v2-pointEnd)"/><path d="M327.344,150.25L331.51,150.25C335.677,150.25,344.01,150.25,351.681,149.854C359.352,149.459,366.361,148.668,369.865,148.272L373.369,147.877" id="mm-6-3-2-L_D_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_C_0" data-points="W3sieCI6MzI3LjM0Mzc1LCJ5IjoxNTAuMjV9LHsieCI6MzUyLjM0Mzc1LCJ5IjoxNTAuMjV9LHsieCI6Mzc3LjM0Mzc1LCJ5IjoxNDcuNDI3ODgxNjQ3NDExNn1d" data-look="classic" marker-end="url(#mm-6-3-2_flowchart-v2-pointEnd)"/><path d="M504.516,140.25L508.682,140.25C512.849,140.25,521.182,140.25,528.849,140.25C536.516,140.25,543.516,140.25,547.016,140.25L550.516,140.25" id="mm-6-3-2-L_C_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_E_0" data-points="W3sieCI6NTA0LjUxNTYyNSwieSI6MTQwLjI1fSx7IngiOjUyOS41MTU2MjUsInkiOjE0MC4yNX0seyJ4Ijo1NTQuNTE1NjI1LCJ5IjoxNDAuMjV9XQ==" data-look="classic" marker-end="url(#mm-6-3-2_flowchart-v2-pointEnd)"/><path d="M667.516,140.25L671.682,140.25C675.849,140.25,684.182,140.25,691.9,138.776C699.618,137.301,706.719,134.353,710.27,132.878L713.821,131.404" id="mm-6-3-2-L_E_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_F_0" data-points="W3sieCI6NjY3LjUxNTYyNSwieSI6MTQwLjI1fSx7IngiOjY5Mi41MTU2MjUsInkiOjE0MC4yNX0seyJ4Ijo3MTcuNTE1NjI1LCJ5IjoxMjkuODY5OTkxMTI4MTk3NTR9XQ==" data-look="classic" marker-end="url(#mm-6-3-2_flowchart-v2-pointEnd)"/><path d="M741.112,61.875L733.013,56.979C724.913,52.083,708.715,42.292,687.032,37.396C665.349,32.5,638.182,32.5,611.016,32.5C583.849,32.5,556.682,32.5,528.335,32.5C499.987,32.5,470.458,32.5,440.93,32.5C411.401,32.5,381.872,32.5,361.104,33.125C340.337,33.75,328.329,34.999,322.326,35.624L316.322,36.249" id="mm-6-3-2-L_F_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_F_B_0" data-points="W3sieCI6NzQxLjExMjI3OTg0MzQ0NDIsInkiOjYxLjg3NX0seyJ4Ijo2OTIuNTE1NjI1LCJ5IjozMi41fSx7IngiOjYxMS4wMTU2MjUsInkiOjMyLjV9LHsieCI6NTI5LjUxNTYyNSwieSI6MzIuNX0seyJ4Ijo0NDAuOTI5Njg3NSwieSI6MzIuNX0seyJ4IjozNTIuMzQzNzUsInkiOjMyLjV9LHsieCI6MzEyLjM0Mzc1LCJ5IjozNi42NjI5NDAwNzY0Mjg5OH1d" data-look="classic" marker-end="url(#mm-6-3-2_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_F_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_F_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-6-3-2-flowchart-A-0" data-look="classic" transform="translate(71.5859375, 42.5)"><rect class="basic label-container" style="" x="-63.5859375" y="-34.5" width="127.171875" height="69"/><g class="label" style="" transform="translate(-39.5859375, -22.5)"><rect/><foreignObject width="79.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>학습 데이터<br />입력과 정답</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-3-2-flowchart-B-1" data-look="classic" transform="translate(256.2578125, 42.5)"><rect class="basic label-container" style="" x="-56.0859375" y="-34.5" width="112.171875" height="69"/><g class="label" style="" transform="translate(-32.0859375, -22.5)"><rect/><foreignObject width="64.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>학습<br />규칙 찾기</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-3-2-flowchart-C-3" data-look="classic" transform="translate(440.9296875, 140.25)"><rect class="basic label-container" style="" x="-63.5859375" y="-34.5" width="127.171875" height="69"/><g class="label" style="" transform="translate(-39.5859375, -22.5)"><rect/><foreignObject width="79.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>모델<br />찾아낸 규칙</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-3-2-flowchart-D-4" data-look="classic" transform="translate(256.2578125, 150.25)"><rect class="basic label-container" style="" x="-71.0859375" y="-23.25" width="142.171875" height="46.5"/><g class="label" style="" transform="translate(-47.0859375, -11.25)"><rect/><foreignObject width="94.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>새로운 데이터</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-3-2-flowchart-E-7" data-look="classic" transform="translate(611.015625, 140.25)"><rect class="basic label-container" style="" x="-56.5" y="-23.25" width="113" height="46.5"/><g class="label" style="" transform="translate(-32.5, -11.25)"><rect/><foreignObject width="65" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>예측·판단</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-3-2-flowchart-F-9" data-look="classic" transform="translate(798.1875, 96.375)"><rect class="basic label-container" style="" x="-80.671875" y="-34.5" width="161.34375" height="69"/><g class="label" style="" transform="translate(-56.671875, -22.5)"><rect/><foreignObject width="113.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>결과 확인<br />틀리면 다시 학습</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-6-3-2-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-6-3-2-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-6-3-2-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><h4 id="예제-1-데이터로-규칙-찾기-지도학습">예제 1 — 데이터로 규칙 찾기 (지도학습)</h4>
+<p>학교 화단 관리 담당 선생님이 화분의 토양 수분을 재고, 그때마다 물을 줘야 하는지 판단해 기록하였다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>토양 수분(%)</th>
+<th>12</th>
+<th>18</th>
+<th>22</th>
+<th>27</th>
+<th>33</th>
+<th>38</th>
+<th>45</th>
+<th>52</th>
+</tr>
+</thead><tbody><tr>
+<td>물 줘야 함?</td>
+<td>예</td>
+<td>예</td>
+<td>예</td>
+<td>예</td>
+<td>아니요</td>
+<td>아니요</td>
+<td>아니요</td>
+<td>아니요</td>
+</tr>
+</tbody></table></div>
+<p>(1) 이 데이터에서 &quot;토양 수분이 몇 % 미만이면 물을 준다&quot;는 규칙을 찾으시오.
+(2) 찾은 규칙으로 토양 수분이 25%, 41%인 화분을 판단하시오.</p>
+<p><strong>풀이</strong>
+(1) &#39;예&#39;인 가장 큰 값은 27%, &#39;아니요&#39;인 가장 작은 값은 33%이다. 경계를 그 사이, 예를 들어 가운데인 <strong>30%</strong> 로 정하면 모든 데이터를 올바르게 나눈다. → &quot;토양 수분이 30% 미만이면 물을 준다.&quot;
+(2) 25%는 30% 미만이므로 <strong>물을 준다</strong>. 41%는 30% 이상이므로 <strong>주지 않는다</strong>.</p>
+<p>이처럼 <strong>입력(토양 수분)과 정답(물 여부)이 함께 주어진 데이터</strong>로 규칙을 배우는 방식을 <strong>지도학습</strong>이라 한다. 실제 인공지능은 입력이 수천~수백만 가지(사진의 모든 화소 등)이고 데이터도 훨씬 많을 뿐, &#39;데이터로 경계를 찾는다&#39;는 기본 생각은 같다.</p>
+<h4 id="예제-2-학습-데이터가-치우치면-추론">예제 2 — 학습 데이터가 치우치면? (추론)</h4>
+<p>예제 1의 데이터는 모두 <strong>봄</strong>에 모은 것이었다. 이 규칙을 그대로 한여름에 썼더니 식물이 시드는 일이 생겼다. 그 까닭을 추론하고 개선 방법을 제안하시오.</p>
+<p><strong>풀이</strong>
+여름에는 기온이 높고 증발이 빨라 같은 토양 수분이라도 식물에 필요한 물의 양이 다를 수 있다. 그런데 학습 데이터에는 여름 상황이 없었으므로 인공지능은 그 경우를 <strong>배운 적이 없다</strong>. 개선하려면 ① 여러 계절의 데이터를 고르게 모으고, ② 기온·일사량 같은 입력을 추가하며, ③ 사용하면서 결과를 확인해 다시 학습시킨다.</p>
+<aside class="callout important"><p class="callout-title">핵심</p><p>인공지능은 <strong>학습한 데이터 범위 안에서</strong> 가장 잘 작동한다. 학습 데이터에 없던 상황, 특정 집단이 적게 포함된 데이터에서는 오류가 늘어난다. 6-2 단원에서 배운 <strong>편향</strong>의 문제가 인공지능에서도 그대로 나타난다.</p>
+</aside>
+<h4 id="학습-방식의-종류">학습 방식의 종류</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>방식</th>
+<th>뜻</th>
+<th>예</th>
+</tr>
+</thead><tbody><tr>
+<td><strong>지도학습</strong></td>
+<td>입력과 정답이 함께 있는 데이터로 학습</td>
+<td>스팸 메일 분류, 의료 영상에서 이상 부위 찾기</td>
+</tr>
+<tr>
+<td><strong>비지도학습</strong></td>
+<td>정답 없이 데이터의 비슷한 것끼리 묶는다</td>
+<td>비슷한 소비 패턴의 고객 묶기</td>
+</tr>
+<tr>
+<td><strong>강화학습</strong></td>
+<td>행동의 결과로 받는 보상이 커지도록 시행착오로 학습</td>
+<td>바둑·게임 인공지능, 로봇의 걷기 학습</td>
+</tr>
+</tbody></table></div>
+<h4 id="인공-신경망과-딥러닝">인공 신경망과 딥러닝</h4>
+<p>중학교에서 배운 <strong>뉴런</strong>은 여러 신호를 받아 일정 기준을 넘으면 다음 뉴런으로 신호를 전달한다. <strong>인공 신경망</strong>은 이를 본떠 여러 입력값에 각각 가중치(중요도)를 곱해 더하고, 그 결과에 따라 다음 단계로 값을 넘기는 계산 단위를 층층이 연결한 것이다. 층을 깊게 쌓은 인공 신경망으로 학습하는 것을 <strong>딥러닝(deep learning)</strong> 이라 한다. 인공 신경망 연구의 기초를 놓은 공로로 2024년 노벨 물리학상이 수여되었다.</p>
+<p>최근에는 대량의 글·그림 데이터를 학습하여 새로운 글, 그림, 음성을 만들어 내는 <strong>생성형 인공지능</strong>이 널리 쓰인다. 그럴듯하지만 사실과 다른 내용을 만들어 내기도 하므로, 결과를 반드시 확인해야 한다.</p>
+<h3 id="6-3-②-로봇-감지하고-판단하고-움직이는-기계">6-3-② 로봇 — 감지하고, 판단하고, 움직이는 기계</h3>
+<p>&#39;로봇(robot)&#39;이라는 말은 1920년 체코의 작가 차페크(K. Čapek)의 희곡에서 처음 쓰였으며, 체코어로 &#39;힘든 노동&#39;을 뜻하는 말에서 왔다. 오늘날 <strong>로봇</strong>은 <strong>외부 환경을 감지하고, 스스로 판단하여, 물리적으로 동작하는 기계</strong>를 말한다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>구성 요소</th>
+<th>하는 일</th>
+<th>우리 몸과 비교</th>
+<th>예</th>
+</tr>
+</thead><tbody><tr>
+<td><strong>센서(감지)</strong></td>
+<td>주변 환경과 자신의 상태를 측정한다</td>
+<td>감각기관</td>
+<td>카메라, 거리 센서, 충돌 센서, 기울기 센서</td>
+</tr>
+<tr>
+<td><strong>제어 장치(판단)</strong></td>
+<td>센서 정보를 처리하고 동작을 결정한다</td>
+<td>뇌·척수</td>
+<td>반도체 칩, 프로그램, 인공지능</td>
+</tr>
+<tr>
+<td><strong>구동기(동작)</strong></td>
+<td>실제로 힘을 내어 움직인다</td>
+<td>근육</td>
+<td>전동기(모터), 유압 장치, 바퀴, 로봇 팔</td>
+</tr>
+<tr>
+<td><strong>전원</strong></td>
+<td>에너지를 공급한다</td>
+<td>영양소·세포 호흡</td>
+<td>배터리, 전력선</td>
+</tr>
+<tr>
+<td><strong>몸체</strong></td>
+<td>부품을 지탱하고 보호한다</td>
+<td>뼈대</td>
+<td>금속·플라스틱 프레임</td>
+</tr>
+</tbody></table></div>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-6-3-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 527.171875 120" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-6-3-3{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-6-3-3 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-6-3-3 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-6-3-3 .error-icon{fill:var(--mm-group);}#mm-6-3-3 .error-text{fill:#595959;stroke:#595959;}#mm-6-3-3 .edge-thickness-normal{stroke-width:1px;}#mm-6-3-3 .edge-thickness-thick{stroke-width:3.5px;}#mm-6-3-3 .edge-pattern-solid{stroke-dasharray:0;}#mm-6-3-3 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-6-3-3 .edge-pattern-dashed{stroke-dasharray:3;}#mm-6-3-3 .edge-pattern-dotted{stroke-dasharray:2;}#mm-6-3-3 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-6-3-3 .marker.cross{stroke:var(--mm-line);}#mm-6-3-3 svg{font-family:inherit;font-size:15px;}#mm-6-3-3 p{margin:0;}#mm-6-3-3 .label{font-family:inherit;color:var(--mm-text);}#mm-6-3-3 .cluster-label text{fill:#595959;}#mm-6-3-3 .cluster-label span{color:#595959;}#mm-6-3-3 .cluster-label span p{background-color:transparent;}#mm-6-3-3 .label text,#mm-6-3-3 span{fill:var(--mm-text);color:var(--mm-text);}#mm-6-3-3 .node rect,#mm-6-3-3 .node circle,#mm-6-3-3 .node ellipse,#mm-6-3-3 .node polygon,#mm-6-3-3 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-6-3-3 .rough-node .label text,#mm-6-3-3 .node .label text,#mm-6-3-3 .image-shape .label,#mm-6-3-3 .icon-shape .label{text-anchor:middle;}#mm-6-3-3 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-6-3-3 .rough-node .label,#mm-6-3-3 .node .label,#mm-6-3-3 .image-shape .label,#mm-6-3-3 .icon-shape .label{text-align:center;}#mm-6-3-3 .node.clickable{cursor:pointer;}#mm-6-3-3 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-6-3-3 .arrowheadPath{fill:#0b0b0b;}#mm-6-3-3 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-6-3-3 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-6-3-3 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-6-3-3 .edgeLabel p{background-color:var(--mm-label);}#mm-6-3-3 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-6-3-3 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-6-3-3 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-6-3-3 .cluster text{fill:#595959;}#mm-6-3-3 .cluster span{color:#595959;}#mm-6-3-3 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-6-3-3 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-6-3-3 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-6-3-3 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-6-3-3 rect.text{fill:none;stroke-width:0;}#mm-6-3-3 .icon-shape,#mm-6-3-3 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-6-3-3 .icon-shape p,#mm-6-3-3 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-6-3-3 .icon-shape .label rect,#mm-6-3-3 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-6-3-3 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-6-3-3 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-6-3-3 .node .neo-node{stroke:var(--mm-border);}#mm-6-3-3 [data-look="neo"].node rect,#mm-6-3-3 [data-look="neo"].cluster rect,#mm-6-3-3 [data-look="neo"].node polygon{stroke:url(#mm-6-3-3-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-3-3 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-6-3-3 [data-look="neo"].node path{stroke:url(#mm-6-3-3-gradient);stroke-width:1px;}#mm-6-3-3 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-3-3 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-6-3-3 [data-look="neo"].node circle{stroke:url(#mm-6-3-3-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-3-3 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-6-3-3 [data-look="neo"].icon-shape .icon{fill:url(#mm-6-3-3-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-3-3 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-6-3-3-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-3-3 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-6-3-3_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-3_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-3_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-3_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-3_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-3_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-3_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-3_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-3_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-3_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-3_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-6-3-3_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M86,56.074L90.167,53.812C94.333,51.549,102.667,47.025,110.333,44.762C118,42.5,125,42.5,128.5,42.5L132,42.5" id="mm-6-3-3-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6ODYsInkiOjU2LjA3NDIxODc1fSx7IngiOjExMSwieSI6NDIuNX0seyJ4IjoxMzYsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-6-3-3_flowchart-v2-pointEnd)"/><path d="M214,42.5L218.167,42.5C222.333,42.5,230.667,42.5,238.333,42.5C246,42.5,253,42.5,256.5,42.5L260,42.5" id="mm-6-3-3-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6MjE0LCJ5Ijo0Mi41fSx7IngiOjIzOSwieSI6NDIuNX0seyJ4IjoyNjQsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-6-3-3_flowchart-v2-pointEnd)"/><path d="M376.172,42.5L380.339,42.5C384.505,42.5,392.839,42.5,400.572,44.234C408.306,45.967,415.44,49.435,419.007,51.168L422.574,52.902" id="mm-6-3-3-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6Mzc2LjE3MTg3NSwieSI6NDIuNX0seyJ4Ijo0MDEuMTcxODc1LCJ5Ijo0Mi41fSx7IngiOjQyNi4xNzE4NzUsInkiOjU0LjY1MDM0OTY1MDM0OTY1fV0=" data-look="classic" marker-end="url(#mm-6-3-3_flowchart-v2-pointEnd)"/><path d="M426.172,99.85L422.005,101.875C417.839,103.9,409.505,107.95,391.824,109.975C374.143,112,347.115,112,320.086,112C293.057,112,266.029,112,241.848,112C217.667,112,196.333,112,175,112C153.667,112,132.333,112,118.086,110.056C103.838,108.111,96.677,104.223,93.096,102.279L89.515,100.334" id="mm-6-3-3-L_D_A_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_A_0" data-points="W3sieCI6NDI2LjE3MTg3NSwieSI6OTkuODQ5NjUwMzQ5NjUwMzV9LHsieCI6NDAxLjE3MTg3NSwieSI6MTEyfSx7IngiOjMyMC4wODU5Mzc1LCJ5IjoxMTJ9LHsieCI6MjM5LCJ5IjoxMTJ9LHsieCI6MTc1LCJ5IjoxMTJ9LHsieCI6MTExLCJ5IjoxMTJ9LHsieCI6ODYsInkiOjk4LjQyNTc4MTI1fV0=" data-look="classic" marker-end="url(#mm-6-3-3_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_A_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-6-3-3-flowchart-A-0" data-look="classic" transform="translate(47, 77.25)"><rect class="basic label-container" style="" x="-39" y="-23.25" width="78" height="46.5"/><g class="label" style="" transform="translate(-15, -11.25)"><rect/><foreignObject width="30" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>환경</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-3-3-flowchart-B-1" data-look="classic" transform="translate(175, 42.5)"><rect class="basic label-container" style="" x="-39" y="-34.5" width="78" height="69"/><g class="label" style="" transform="translate(-15, -22.5)"><rect/><foreignObject width="30" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>센서<br />감지</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-3-3-flowchart-C-3" data-look="classic" transform="translate(320.0859375, 42.5)"><rect class="basic label-container" style="" x="-56.0859375" y="-34.5" width="112.171875" height="69"/><g class="label" style="" transform="translate(-32.0859375, -22.5)"><rect/><foreignObject width="64.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>제어 장치<br />판단·AI</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-3-3-flowchart-D-5" data-look="classic" transform="translate(472.671875, 77.25)"><rect class="basic label-container" style="" x="-46.5" y="-34.5" width="93" height="69"/><g class="label" style="" transform="translate(-22.5, -22.5)"><rect/><foreignObject width="45" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>구동기<br />동작</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-6-3-3-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-6-3-3-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-6-3-3-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><aside class="callout note"><p class="callout-title">성취기준·참고</p><p>센서가 빛·거리·기울기를 <strong>어떤 원리로</strong> 측정하는지는 이 과목에서 다루지 않는다(1-4 단원과 같은 범위). 여기서는 센서를 &#39;환경을 측정해 전기 신호(데이터)로 바꾸는 장치&#39;로 이해하고, 그 정보가 <strong>어떻게 쓰이는지</strong>에 집중한다.</p>
+</aside>
+<h4 id="로봇의-종류">로봇의 종류</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>종류</th>
+<th>특징</th>
+<th>예</th>
+</tr>
+</thead><tbody><tr>
+<td>산업용 로봇</td>
+<td>공장에서 같은 작업을 빠르고 정밀하게 반복</td>
+<td>용접·도장·조립 로봇 팔</td>
+</tr>
+<tr>
+<td>협동 로봇</td>
+<td>사람 곁에서 함께 일하며, 사람과 닿으면 멈추거나 힘을 줄인다</td>
+<td>소형 조립, 포장 보조</td>
+</tr>
+<tr>
+<td>서비스 로봇</td>
+<td>일상 공간에서 사람을 돕는다</td>
+<td>로봇청소기, 서빙 로봇, 안내 로봇</td>
+</tr>
+<tr>
+<td>의료·돌봄 로봇</td>
+<td>수술 보조, 재활, 돌봄</td>
+<td>수술 로봇, 착용형 재활 로봇, 돌봄 로봇</td>
+</tr>
+<tr>
+<td>탐사·재난 로봇</td>
+<td>사람이 가기 어렵거나 위험한 곳에서 작업</td>
+<td>화성 탐사 로버, 해저 탐사 로봇, 재난 대응 로봇</td>
+</tr>
+<tr>
+<td>자율주행 자동차</td>
+<td>도로 환경을 감지하고 스스로 주행 판단</td>
+<td>바퀴 달린 로봇이라고 볼 수 있다</td>
+</tr>
+</tbody></table></div>
+<h4 id="예제-3-로봇청소기-분석하기">예제 3 — 로봇청소기 분석하기</h4>
+<p>로봇청소기의 다음 동작을 센서–제어–구동으로 나누어 분석하시오.
+&quot;청소 중 앞에 의자 다리가 나타나자 멈추고 방향을 바꾸었다. 계단 앞에서는 떨어지지 않고 돌아섰다. 배터리가 부족해지자 충전대로 돌아갔다.&quot;</p>
+<p><strong>풀이</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>상황</th>
+<th>센서(감지)</th>
+<th>제어(판단)</th>
+<th>구동(동작)</th>
+</tr>
+</thead><tbody><tr>
+<td>의자 다리</td>
+<td>장애물 감지 센서·충돌 센서</td>
+<td>&quot;앞에 장애물 → 회전&quot;</td>
+<td>좌우 바퀴 모터의 회전 방향·속도 조절</td>
+</tr>
+<tr>
+<td>계단</td>
+<td>바닥 감지 센서(아래쪽 거리)</td>
+<td>&quot;바닥이 없음 → 후진·회전&quot;</td>
+<td>바퀴 모터</td>
+</tr>
+<tr>
+<td>배터리 부족</td>
+<td>배터리 상태 측정</td>
+<td>&quot;충전량 부족 → 충전대로 경로 계산&quot;</td>
+<td>바퀴 모터로 이동</td>
+</tr>
+</tbody></table></div>
+<h3 id="6-3-③-사물인터넷-사물이-서로-연결되어-대화하다">6-3-③ 사물인터넷 — 사물이 서로 연결되어 대화하다</h3>
+<p><strong>사물인터넷(IoT, Internet of Things)</strong> 은 센서와 통신 기능을 가진 사물들이 인터넷으로 연결되어 <strong>데이터를 주고받고, 사람의 개입을 최소화하며 스스로 작동</strong>하는 기술이다. 1999년 무렵부터 이 용어가 쓰이기 시작했다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>계층</th>
+<th>하는 일</th>
+<th>예(스마트 홈)</th>
+</tr>
+</thead><tbody><tr>
+<td><strong>감지</strong></td>
+<td>센서가 환경 데이터를 측정한다</td>
+<td>온도·습도·문 열림·전력 사용량 측정</td>
+</tr>
+<tr>
+<td><strong>연결(네트워크)</strong></td>
+<td>데이터를 무선 통신으로 보낸다</td>
+<td>와이파이, 블루투스, 이동 통신망</td>
+</tr>
+<tr>
+<td><strong>분석(플랫폼)</strong></td>
+<td>모인 데이터를 저장·분석하고 판단한다</td>
+<td>클라우드 서버, 인공지능</td>
+</tr>
+<tr>
+<td><strong>서비스(응용)</strong></td>
+<td>판단 결과에 따라 기기를 제어하거나 사람에게 알린다</td>
+<td>냉난방기 자동 조절, 스마트폰 알림</td>
+</tr>
+</tbody></table></div>
+<p>로봇이 &#39;혼자서 감지–판단–동작&#39;한다면, 사물인터넷은 <strong>여러 사물이 네트워크로 연결되어</strong> 감지·판단·동작을 나누어 맡는다. 두 기술은 서로 결합하여 쓰인다(예: 로봇청소기가 집 안의 다른 기기와 연결되어 사람이 외출하면 청소를 시작).</p>
+<h4 id="예제-4-스마트-화분-설계하기">예제 4 — 스마트 화분 설계하기</h4>
+<p>예제 1에서 찾은 규칙을 이용해 학교 화단을 관리하는 사물인터넷 시스템을 설계하려 한다. 감지 – 연결 – 분석 – 서비스 단계에 해당하는 구성 요소와 동작을 각각 쓰시오.</p>
+<p><strong>풀이</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>단계</th>
+<th>구성 요소와 동작</th>
+</tr>
+</thead><tbody><tr>
+<td>감지</td>
+<td>화분마다 토양 수분 센서와 온도 센서를 설치해 10분마다 측정한다</td>
+</tr>
+<tr>
+<td>연결</td>
+<td>측정값을 무선 통신으로 학교 서버(클라우드)에 보낸다</td>
+</tr>
+<tr>
+<td>분석</td>
+<td>&quot;토양 수분 30% 미만이면 물 주기&quot; 규칙(또는 학습한 인공지능)으로 판단하고, 기록을 쌓아 계절별로 규칙을 고친다</td>
+</tr>
+<tr>
+<td>서비스</td>
+<td>자동 급수 펌프를 켜고, 관리 담당 학생의 스마트폰에 알림을 보낸다. 고장이 나서 값이 이상하면 경고를 보낸다</td>
+</tr>
+</tbody></table></div>
+<h3 id="6-3-④-인간의-삶과-환경을-개선하는-사례">6-3-④ 인간의 삶과 환경을 개선하는 사례</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>분야</th>
+<th>해결하려는 문제</th>
+<th>기술</th>
+<th>개선 효과</th>
+<th>남은 과제</th>
+</tr>
+</thead><tbody><tr>
+<td><strong>스마트팜</strong></td>
+<td>농촌 고령화, 기후 변동, 노동력 부족</td>
+<td>온도·습도·이산화 탄소·일사량 센서, 자동 환기·관수·양액 공급, 원격 제어, 생육 데이터 분석</td>
+<td>생산성 향상, 물·비료 절약, 원격 관리</td>
+<td>높은 초기 설치비, 운영 지식 필요</td>
+</tr>
+<tr>
+<td><strong>스마트 그리드</strong></td>
+<td>전력 수요 변동, 신재생 에너지의 발전량 변동(5-6 단원)</td>
+<td>스마트 계량기, 실시간 수요·공급 데이터, 에너지 저장 장치 연계</td>
+<td>전력 낭비 감소, 신재생 에너지 비중 확대, 정전 위험 감소</td>
+<td>전력망 보안, 설비 투자</td>
+</tr>
+<tr>
+<td><strong>돌봄 로봇</strong></td>
+<td>고령화, 홀로 사는 노인의 건강·안전</td>
+<td>대화형 인공지능, 복약 알림, 활동 감지, 응급 상황 알림</td>
+<td>돌봄 공백 보완, 위급 상황 조기 발견</td>
+<td>사람의 정서적 돌봄 대체 불가, 사생활</td>
+</tr>
+<tr>
+<td><strong>의료 로봇</strong></td>
+<td>정밀한 수술, 재활 인력 부족</td>
+<td>수술 보조 로봇, 착용형 재활 로봇, 의료 영상 판독 보조 인공지능</td>
+<td>작은 절개, 정밀도 향상, 재활 훈련 반복</td>
+<td>비용, 오류 시 책임 소재</td>
+</tr>
+<tr>
+<td><strong>재난 로봇</strong></td>
+<td>붕괴·화재·방사능 등 사람이 들어가기 위험한 현장</td>
+<td>원격 조종·자율 이동 로봇, 드론, 열화상 카메라</td>
+<td>구조대원의 위험 감소, 신속한 수색</td>
+<td>험한 지형·통신 두절에서의 한계</td>
+</tr>
+<tr>
+<td><strong>환경 감시</strong></td>
+<td>대기 오염, 산불, 수질 오염</td>
+<td>대기질 측정망, 산불 감시 카메라·드론, 수질 센서 네트워크</td>
+<td>오염원 추적, 조기 경보</td>
+<td>센서 정확도, 설치·관리 비용</td>
+</tr>
+<tr>
+<td><strong>스마트 교통</strong></td>
+<td>교통 체증, 사고, 탄소 배출</td>
+<td>실시간 신호 제어, 자율주행, 차량 간 통신</td>
+<td>이동 시간·연료 절약, 사고 감소 기대</td>
+<td>안전성 검증, 사고 시 책임</td>
+</tr>
+</tbody></table></div>
+<h4 id="예제-5-스마트팜-데이터-해석-자료-해석">예제 5 — 스마트팜 데이터 해석 (자료 해석)</h4>
+<p>어느 스마트 비닐하우스는 &quot;실내 온도가 28 °C 이상이면 천창(지붕 창)을 열고, 24 °C 이하로 내려가면 닫는다&quot;는 규칙으로 작동한다. 다음은 어느 맑은 날의 기록이다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>시각</th>
+<th>08시</th>
+<th>10시</th>
+<th>11시</th>
+<th>12시</th>
+<th>13시</th>
+<th>14시</th>
+<th>16시</th>
+<th>18시</th>
+</tr>
+</thead><tbody><tr>
+<td>실내 온도(°C)</td>
+<td>18</td>
+<td>24</td>
+<td>28</td>
+<td>27</td>
+<td>26</td>
+<td>28</td>
+<td>25</td>
+<td>22</td>
+</tr>
+<tr>
+<td>천창</td>
+<td>닫힘</td>
+<td>닫힘</td>
+<td>열림</td>
+<td>열림</td>
+<td>열림</td>
+<td>열림</td>
+<td>열림</td>
+<td>닫힘</td>
+</tr>
+</tbody></table></div>
+<p>(1) 11시에 천창이 열린 이유는? (2) 16시에 25 °C인데도 천창이 열려 있는 이유는? (3) 이 시스템에서 &#39;되먹임 제어&#39;가 일어나는 과정을 설명하시오.</p>
+<p><strong>풀이</strong>
+(1) 실내 온도가 기준인 28 °C에 도달했기 때문이다.
+(2) 닫는 기준은 24 °C 이하이다. 25 °C는 아직 24 °C보다 높으므로 열린 상태를 유지한다. 여는 온도와 닫는 온도를 다르게 하면 기준 근처에서 창문이 너무 자주 열고 닫히는 것을 막을 수 있다.
+(3) 온도 센서가 실내 온도를 측정 → 제어 장치가 기준과 비교해 판단 → 구동기(모터)가 천창을 열어 온도가 내려감 → 센서가 다시 측정하는 과정이 반복되며 온도를 적정 범위로 유지한다.</p>
+<h4 id="재난-현장의-로봇-실제-사례">재난 현장의 로봇 — 실제 사례</h4>
+<p>2011년 일본 후쿠시마 원자력 발전소 사고 때 사람이 들어갈 수 없는 건물 내부를 조사하는 데 원격 조종 로봇이 투입되었다. 이 경험을 계기로 재난 현장에서 차량 운전, 문 열기, 밸브 돌리기, 계단 오르기 같은 과제를 수행하는 국제 재난 로봇 대회가 열렸고, 2015년 결선에서 우리나라 대학 연구팀의 인간형 로봇이 우승하였다. 재난 로봇은 아직 사람의 원격 조종에 상당 부분 의존하며, 험한 지형과 통신이 끊긴 환경에서 스스로 판단하는 능력이 핵심 과제로 남아 있다.</p>
+<h3 id="6-3-⑤-유용성과-한계를-예측하기">6-3-⑤ 유용성과 한계를 예측하기</h3>
+<p>새로운 기술의 미래를 예측할 때는 <strong>좋은 점만 보거나 나쁜 점만 보지 않고</strong>, 여러 영역에 미칠 영향을 차례로 따져 보아야 한다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>영역</th>
+<th>유용성(기대)</th>
+<th>한계·우려</th>
+</tr>
+</thead><tbody><tr>
+<td>기술</td>
+<td>정밀하고 지치지 않는 작업, 위험한 일 대신 수행</td>
+<td>학습하지 않은 상황에서 오류, 그럴듯한 오답(생성형 AI), 판단 근거를 설명하기 어려움</td>
+</tr>
+<tr>
+<td>개인의 삶</td>
+<td>편리함, 장애인·노인의 이동·생활 지원</td>
+<td>사생활 침해, 기술 의존, 디지털 격차</td>
+</tr>
+<tr>
+<td>사회·경제</td>
+<td>생산성 향상, 새로운 산업과 직업</td>
+<td>일부 직업 감소, 이익의 쏠림, 사고 시 <strong>책임 소재</strong> 불분명</td>
+</tr>
+<tr>
+<td>환경</td>
+<td>에너지·물·비료 절약, 환경 감시</td>
+<td>데이터 센터의 전력 소비, 전자 폐기물 증가</td>
+</tr>
+<tr>
+<td>안전·보안</td>
+<td>재난 대응, 사고 감소 기대</td>
+<td>해킹으로 기기가 오작동하거나 공격에 동원될 위험</td>
+</tr>
+</tbody></table></div>
+<aside class="callout warning"><p class="callout-title">주의</p><p><strong>환경에 대한 양면성</strong> 인공지능 학습과 데이터 센터 운영에는 많은 전기가 필요하다. 국제에너지기구는 2024년 전 세계 데이터 센터가 세계 전력 소비의 약 1.5%를 사용한 것으로 추정하였다. 기술이 환경을 개선하는 효과와 기술 자체가 환경에 주는 부담을 <strong>함께</strong> 따져야 한다.</p>
+</aside>
+<aside class="callout warning"><p class="callout-title">주의</p><p><strong>보안의 양면성</strong> 사물인터넷 기기가 많아질수록 해킹될 수 있는 문도 많아진다. 2016년에는 보안이 허술한 인터넷 카메라 등 수많은 사물인터넷 기기가 악성 코드에 감염되어 대규모 사이버 공격에 동원되는 일이 있었다. 초기 비밀번호를 바꾸고 소프트웨어를 업데이트하는 것만으로도 위험을 크게 줄일 수 있다.</p>
+</aside>
+<h4 id="미래를-예측하는-도구-미래-바퀴">미래를 예측하는 도구 — 미래 바퀴</h4>
+<p>가운데에 기술을 쓰고, 그 기술이 가져올 <strong>1차 결과</strong>, 그 결과가 다시 낳을 <strong>2차 결과</strong>를 바퀴처럼 그려 나가면 숨은 영향까지 예측할 수 있다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-6-3-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 1089.734375 278" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-6-3-4{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-6-3-4 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-6-3-4 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-6-3-4 .error-icon{fill:var(--mm-group);}#mm-6-3-4 .error-text{fill:#595959;stroke:#595959;}#mm-6-3-4 .edge-thickness-normal{stroke-width:1px;}#mm-6-3-4 .edge-thickness-thick{stroke-width:3.5px;}#mm-6-3-4 .edge-pattern-solid{stroke-dasharray:0;}#mm-6-3-4 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-6-3-4 .edge-pattern-dashed{stroke-dasharray:3;}#mm-6-3-4 .edge-pattern-dotted{stroke-dasharray:2;}#mm-6-3-4 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-6-3-4 .marker.cross{stroke:var(--mm-line);}#mm-6-3-4 svg{font-family:inherit;font-size:15px;}#mm-6-3-4 p{margin:0;}#mm-6-3-4 .label{font-family:inherit;color:var(--mm-text);}#mm-6-3-4 .cluster-label text{fill:#595959;}#mm-6-3-4 .cluster-label span{color:#595959;}#mm-6-3-4 .cluster-label span p{background-color:transparent;}#mm-6-3-4 .label text,#mm-6-3-4 span{fill:var(--mm-text);color:var(--mm-text);}#mm-6-3-4 .node rect,#mm-6-3-4 .node circle,#mm-6-3-4 .node ellipse,#mm-6-3-4 .node polygon,#mm-6-3-4 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-6-3-4 .rough-node .label text,#mm-6-3-4 .node .label text,#mm-6-3-4 .image-shape .label,#mm-6-3-4 .icon-shape .label{text-anchor:middle;}#mm-6-3-4 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-6-3-4 .rough-node .label,#mm-6-3-4 .node .label,#mm-6-3-4 .image-shape .label,#mm-6-3-4 .icon-shape .label{text-align:center;}#mm-6-3-4 .node.clickable{cursor:pointer;}#mm-6-3-4 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-6-3-4 .arrowheadPath{fill:#0b0b0b;}#mm-6-3-4 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-6-3-4 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-6-3-4 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-6-3-4 .edgeLabel p{background-color:var(--mm-label);}#mm-6-3-4 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-6-3-4 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-6-3-4 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-6-3-4 .cluster text{fill:#595959;}#mm-6-3-4 .cluster span{color:#595959;}#mm-6-3-4 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-6-3-4 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-6-3-4 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-6-3-4 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-6-3-4 rect.text{fill:none;stroke-width:0;}#mm-6-3-4 .icon-shape,#mm-6-3-4 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-6-3-4 .icon-shape p,#mm-6-3-4 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-6-3-4 .icon-shape .label rect,#mm-6-3-4 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-6-3-4 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-6-3-4 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-6-3-4 .node .neo-node{stroke:var(--mm-border);}#mm-6-3-4 [data-look="neo"].node rect,#mm-6-3-4 [data-look="neo"].cluster rect,#mm-6-3-4 [data-look="neo"].node polygon{stroke:url(#mm-6-3-4-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-3-4 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-6-3-4 [data-look="neo"].node path{stroke:url(#mm-6-3-4-gradient);stroke-width:1px;}#mm-6-3-4 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-3-4 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-6-3-4 [data-look="neo"].node circle{stroke:url(#mm-6-3-4-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-3-4 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-6-3-4 [data-look="neo"].icon-shape .icon{fill:url(#mm-6-3-4-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-3-4 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-6-3-4-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-3-4 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-6-3-4_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-4_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-4_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-4_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-4_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-4_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-4_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-4_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-4_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-4_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-3-4_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-6-3-4_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M608.195,42.065L553.004,48.304C497.813,54.543,387.43,67.022,332.238,76.761C277.047,86.5,277.047,93.5,277.047,97L277.047,100.5" id="mm-6-3-4-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6NjA4LjE5NTMxMjUsInkiOjQyLjA2NTI0OTAyNTMxNDM3fSx7IngiOjI3Ny4wNDY4NzUsInkiOjc5LjV9LHsieCI6Mjc3LjA0Njg3NSwieSI6MTA0LjV9XQ==" data-look="classic" marker-end="url(#mm-6-3-4_flowchart-v2-pointEnd)"/><path d="M703.867,54.5L703.867,58.667C703.867,62.833,703.867,71.167,703.867,78.833C703.867,86.5,703.867,93.5,703.867,97L703.867,100.5" id="mm-6-3-4-L_A_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_C_0" data-points="W3sieCI6NzAzLjg2NzE4NzUsInkiOjU0LjV9LHsieCI6NzAzLjg2NzE4NzUsInkiOjc5LjV9LHsieCI6NzAzLjg2NzE4NzUsInkiOjEwNC41fV0=" data-look="classic" marker-end="url(#mm-6-3-4_flowchart-v2-pointEnd)"/><path d="M799.539,48.235L828.889,53.446C858.24,58.657,916.94,69.078,946.29,77.789C975.641,86.5,975.641,93.5,975.641,97L975.641,100.5" id="mm-6-3-4-L_A_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_D_0" data-points="W3sieCI6Nzk5LjUzOTA2MjUsInkiOjQ4LjIzNTM1MzcyNDA5MjMzNH0seyJ4Ijo5NzUuNjQwNjI1LCJ5Ijo3OS41fSx7IngiOjk3NS42NDA2MjUsInkiOjEwNC41fV0=" data-look="classic" marker-end="url(#mm-6-3-4_flowchart-v2-pointEnd)"/><path d="M207.154,151L194.628,155.167C182.103,159.333,157.051,167.667,144.526,175.333C132,183,132,190,132,193.5L132,197" id="mm-6-3-4-L_B_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_E_0" data-points="W3sieCI6MjA3LjE1MzgyMTI0MzUyMzMsInkiOjE1MX0seyJ4IjoxMzIsInkiOjE3Nn0seyJ4IjoxMzIsInkiOjIwMX1d" data-look="classic" marker-end="url(#mm-6-3-4_flowchart-v2-pointEnd)"/><path d="M346.94,151L359.466,155.167C371.991,159.333,397.042,167.667,409.568,177.208C422.094,186.75,422.094,197.5,422.094,202.875L422.094,208.25" id="mm-6-3-4-L_B_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_F_0" data-points="W3sieCI6MzQ2LjkzOTkyODc1NjQ3NjY2LCJ5IjoxNTF9LHsieCI6NDIyLjA5Mzc1LCJ5IjoxNzZ9LHsieCI6NDIyLjA5Mzc1LCJ5IjoyMTIuMjV9XQ==" data-look="classic" marker-end="url(#mm-6-3-4_flowchart-v2-pointEnd)"/><path d="M703.867,151L703.867,155.167C703.867,159.333,703.867,167.667,703.867,177.208C703.867,186.75,703.867,197.5,703.867,202.875L703.867,208.25" id="mm-6-3-4-L_C_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_G_0" data-points="W3sieCI6NzAzLjg2NzE4NzUsInkiOjE1MX0seyJ4Ijo3MDMuODY3MTg3NSwieSI6MTc2fSx7IngiOjcwMy44NjcxODc1LCJ5IjoyMTIuMjV9XQ==" data-look="classic" marker-end="url(#mm-6-3-4_flowchart-v2-pointEnd)"/><path d="M975.641,151L975.641,155.167C975.641,159.333,975.641,167.667,975.641,177.208C975.641,186.75,975.641,197.5,975.641,202.875L975.641,208.25" id="mm-6-3-4-L_D_H_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_H_0" data-points="W3sieCI6OTc1LjY0MDYyNSwieSI6MTUxfSx7IngiOjk3NS42NDA2MjUsInkiOjE3Nn0seyJ4Ijo5NzUuNjQwNjI1LCJ5IjoyMTIuMjV9XQ==" data-look="classic" marker-end="url(#mm-6-3-4_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_A_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_A_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_F_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_G_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_H_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-6-3-4-flowchart-A-0" data-look="classic" transform="translate(703.8671875, 31.25)"><rect class="basic label-container" style="" x="-95.671875" y="-23.25" width="191.34375" height="46.5"/><g class="label" style="" transform="translate(-71.671875, -11.25)"><rect/><foreignObject width="143.34375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>자율주행 택시의 확산</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-3-4-flowchart-B-1" data-look="classic" transform="translate(277.046875, 127.75)"><rect class="basic label-container" style="" x="-104.0078125" y="-23.25" width="208.015625" height="46.5"/><g class="label" style="" transform="translate(-80.0078125, -11.25)"><rect/><foreignObject width="160.015625" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>1차: 운전이 필요 없어짐</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-3-4-flowchart-C-3" data-look="classic" transform="translate(703.8671875, 127.75)"><rect class="basic label-container" style="" x="-104.0078125" y="-23.25" width="208.015625" height="46.5"/><g class="label" style="" transform="translate(-80.0078125, -11.25)"><rect/><foreignObject width="160.015625" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>1차: 교통사고 감소 기대</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-3-4-flowchart-D-5" data-look="classic" transform="translate(975.640625, 127.75)"><rect class="basic label-container" style="" x="-89.0078125" y="-23.25" width="178.015625" height="46.5"/><g class="label" style="" transform="translate(-65.0078125, -11.25)"><rect/><foreignObject width="130.015625" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>1차: 운전 직업 감소</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-3-4-flowchart-E-7" data-look="classic" transform="translate(132, 235.5)"><rect class="basic label-container" style="" x="-124" y="-34.5" width="248" height="69"/><g class="label" style="" transform="translate(-100, -22.5)"><rect/><foreignObject width="200" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table; white-space: break-spaces; line-height: 1.5; max-width: 200px; text-align: center; width: 200px;"><span class="nodeLabel"><p>2차: 노인·장애인의 이동 자유 증가</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-3-4-flowchart-F-9" data-look="classic" transform="translate(422.09375, 235.5)"><rect class="basic label-container" style="" x="-116.09375" y="-23.25" width="232.1875" height="46.5"/><g class="label" style="" transform="translate(-92.09375, -11.25)"><rect/><foreignObject width="184.1875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>2차: 이동 중 업무·휴식 가능</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-3-4-flowchart-G-11" data-look="classic" transform="translate(703.8671875, 235.5)"><rect class="basic label-container" style="" x="-115.6796875" y="-23.25" width="231.359375" height="46.5"/><g class="label" style="" transform="translate(-91.6796875, -11.25)"><rect/><foreignObject width="183.359375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>2차: 사고 시 책임 주체 논쟁</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-3-4-flowchart-H-13" data-look="classic" transform="translate(975.640625, 235.5)"><rect class="basic label-container" style="" x="-106.09375" y="-23.25" width="212.1875" height="46.5"/><g class="label" style="" transform="translate(-82.09375, -11.25)"><rect/><foreignObject width="164.1875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>2차: 직업 전환 교육 필요</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-6-3-4-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-6-3-4-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-6-3-4-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><h4 id="예제-6-유용성과-한계-예측하기-논증형">예제 6 — 유용성과 한계 예측하기 (논증형)</h4>
+<p>&quot;홀로 사는 노인 가정에 인공지능 돌봄 로봇을 보급하자.&quot;는 정책에 대해, 유용성과 한계를 각각 두 가지씩 예측하고 이를 바탕으로 보완책을 제시하시오.</p>
+<p><strong>예시 답안</strong></p>
+<ul>
+<li>유용성: ① 복약 시간 알림과 대화 기능으로 일상 관리를 돕는다. ② 일정 시간 움직임이 감지되지 않으면 보호자나 관할 기관에 알려 위급 상황을 일찍 발견할 수 있다.</li>
+<li>한계: ① 집 안의 소리·움직임 데이터가 수집되어 <strong>사생활</strong> 침해 우려가 있다. ② 로봇이 사람과의 정서적 교류를 완전히 대신할 수 없고, 기기 사용이 어려운 노인은 효과를 보기 어렵다(디지털 격차).</li>
+<li>보완책: 수집하는 데이터를 최소화하고 본인 동의를 받으며, 로봇은 사람 돌봄의 <strong>보조 수단</strong>으로 쓰고 방문 돌봄과 함께 운영한다. 사용법 교육도 함께 제공한다.</li>
+</ul>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>좋은 예측의 조건</strong> — ① 근거(사례·데이터)를 든다. ② 유용성과 한계를 <strong>모두</strong> 본다. ③ 누구에게 이익이고 누구에게 부담인지(이해관계자)를 나눈다. ④ 한계를 줄일 방법까지 제시한다.</p>
+</aside>
+<hr>
+<h2 id="step-4" class="step-h s4"><span class="step-badge s4">STEP 4</span><span class="h-text">오개념 바로잡기</span></h2>
+<div class="table-wrap"><table><thead><tr>
+<th>흔한 오개념</th>
+<th>올바른 개념</th>
+<th>왜 그럴까?</th>
+</tr>
+</thead><tbody><tr>
+<td>인공지능은 사람처럼 뜻을 이해하고 생각한다</td>
+<td>현재 인공지능은 데이터에서 <strong>패턴을 학습해 계산</strong>한다</td>
+<td>그럴듯한 문장을 만들어도 사실 여부를 스스로 확인하지 못할 때가 있다</td>
+</tr>
+<tr>
+<td>인공지능은 기계이므로 틀리지 않고 객관적이다</td>
+<td>학습 데이터가 치우치면 <strong>편향된 판단</strong>을 하고, 처음 보는 상황에서 틀린다</td>
+<td>인공지능의 판단은 학습한 데이터와 설계한 사람의 선택을 반영한다</td>
+</tr>
+<tr>
+<td>로봇은 사람처럼 생긴 기계이다</td>
+<td>감지–판단–동작을 하는 기계는 <strong>모양과 상관없이</strong> 로봇이다</td>
+<td>로봇청소기, 산업용 로봇 팔, 자율주행 자동차도 로봇이다</td>
+</tr>
+<tr>
+<td>인터넷에 연결되는 기기는 모두 사물인터넷이다</td>
+<td>사물인터넷은 센서로 <strong>데이터를 수집·공유하고 자동으로 작동</strong>하는 것이 핵심이다</td>
+<td>단순히 인터넷에 접속만 하는 것과 사물끼리 데이터로 협력하는 것은 다르다</td>
+</tr>
+<tr>
+<td>자동화가 되면 사람의 일은 모두 사라진다</td>
+<td>일부 작업은 줄지만 <strong>새로운 직업과 역할</strong>도 생기며, 사람과 기계의 협업이 늘어난다</td>
+<td>기술 변화의 영향은 직업마다 다르며 사회의 대응에 따라 달라진다</td>
+</tr>
+<tr>
+<td>학습 데이터는 많기만 하면 된다</td>
+<td><strong>품질과 다양성(대표성)</strong> 이 함께 중요하다</td>
+<td>한 계절, 한 집단의 데이터만 많으면 다른 상황에서 실패한다</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-5" class="step-h s5"><span class="step-badge s5">STEP 5</span><span class="h-text">선택과목·대학으로 한 걸음 더</span></h2>
+<aside class="callout caution"><p class="callout-title">심화 · 평가 범위 밖</p><p>이 절은 <strong>통합과학 교육과정 범위 밖의 심화 내용</strong>으로 평가 대상이 아니다. &quot;이 개념이 앞으로 어디까지 이어지는가&quot;를 맛보기로 보여 주기 위한 내용이다.</p>
+</aside>
+<h3 id="고2-3-선택과목과의-연결">고2·3 선택과목과의 연결</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>과목</th>
+<th>이어지는 내용</th>
+</tr>
+</thead><tbody><tr>
+<td>정보 / 인공지능 기초</td>
+<td>알고리즘과 프로그래밍, 기계학습의 원리와 활용</td>
+</tr>
+<tr>
+<td>인공지능 수학(수학)</td>
+<td>데이터의 표현(벡터·행렬), 최적화, 확률</td>
+</tr>
+<tr>
+<td>물리학 / 전자기와 양자</td>
+<td>전기 회로, 전동기, 센서와 반도체 소자의 물리</td>
+</tr>
+<tr>
+<td>생명과학</td>
+<td>신경계와 뉴런 → 인공 신경망의 영감</td>
+</tr>
+<tr>
+<td>기술·가정 계열 진로 선택 과목</td>
+<td>로봇의 구조와 제어, 공학 설계</td>
+</tr>
+</tbody></table></div>
+<h3 id="①-기계학습의-수학-퍼셉트론과-경사-하강법">① 기계학습의 수학 — 퍼셉트론과 경사 하강법</h3>
+<p>가장 단순한 인공 신경망인 <strong>퍼셉트론</strong>(1958년 제안)은 입력 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>에 가중치 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02691em;">w</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0269em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02691em;">w</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0269em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>를 곱해 더한 값으로 판단한다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:3em;vertical-align:-1.25em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size4">{</span></span><span class="mord"><span class="mtable"><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.69em;"><span style="top:-3.69em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord">1</span></span></span><span style="top:-2.25em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.19em;"><span></span></span></span></span></span><span class="arraycolsep" style="width:1em;"></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.69em;"><span style="top:-3.69em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mopen">(</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02691em;">w</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0269em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02691em;">w</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0269em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathnormal">b</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord">0</span><span class="mclose">)</span></span></span><span style="top:-2.25em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mopen">(</span><span class="mord text"><span class="mord hangul_fallback">그</span><span class="mord"> </span><span class="mord hangul_fallback">외</span></span><span class="mclose">)</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.19em;"><span></span></span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<p>예제 1의 화분이라면 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> = 토양 수분, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> = 기온으로 두고, 데이터에 맞는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02691em;">w</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0269em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02691em;">w</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0269em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">b</span></span></span></span>를 찾는 것이 학습이다. 대학의 <strong>기계학습</strong> 과목에서는 예측과 정답의 차이(손실 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">L</span></span></span></span>)가 줄어드는 방향으로 가중치를 조금씩 고치는 <strong>경사 하강법</strong>을 배운다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.02691em;">w</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">←</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal" style="margin-right:0.02691em;">w</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:2.0574em;vertical-align:-0.686em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">η</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3714em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord" style="margin-right:0.05556em;">∂</span><span class="mord mathnormal" style="margin-right:0.02691em;">w</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord" style="margin-right:0.05556em;">∂</span><span class="mord mathnormal">L</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<p>(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">η</span></span></span></span>: 학습률) 층이 많은 신경망에서는 출력의 오차를 뒤쪽 층에서 앞쪽 층으로 전달하며 가중치를 고치는 <strong>오차 역전파</strong> 방법을 쓴다.</p>
+<h3 id="②-로봇-제어-pid-제어">② 로봇 제어 — PID 제어</h3>
+<p>STEP 2의 되먹임 제어를 대학 <strong>제어공학</strong>에서는 수식으로 다룬다. 목표값과 현재값의 차이(오차) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">e</span><span class="mopen">(</span><span class="mord mathnormal">t</span><span class="mclose">)</span></span></span></span>를 이용해 구동기에 줄 신호 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">u</span><span class="mopen">(</span><span class="mord mathnormal">t</span><span class="mclose">)</span></span></span></span>를 정한다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">u</span><span class="mopen">(</span><span class="mord mathnormal">t</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.0361em;vertical-align:-0.2861em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07153em;">K</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0715em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">p</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">e</span><span class="mopen">(</span><span class="mord mathnormal">t</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:2.4554em;vertical-align:-0.9119em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07153em;">K</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:-0.0715em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mop"><span class="mop op-symbol large-op" style="margin-right:0.44445em;position:relative;top:-0.0011em;">∫</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.5435em;"><span style="top:-1.7881em;margin-left:-0.4445em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span><span style="top:-3.8129em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">t</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.9119em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">e</span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.1132em;">τ</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">d</span><span class="mord mathnormal" style="margin-right:0.1132em;">τ</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:2.113em;vertical-align:-0.686em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07153em;">K</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361em;"><span style="top:-2.55em;margin-left:-0.0715em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">d</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.427em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">d</span><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">d</span><span class="mord mathnormal">e</span><span class="mopen">(</span><span class="mord mathnormal">t</span><span class="mclose">)</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<ul>
+<li>비례(P): 오차가 클수록 세게 조절한다.</li>
+<li>적분(I): 오래 남아 있는 작은 오차를 없앤다.</li>
+<li>미분(D): 오차가 빠르게 변할 때 미리 브레이크를 건다(지나치게 넘치는 것을 막는다).</li>
+</ul>
+<p>로봇 팔이 정확한 위치에 부드럽게 멈추고, 드론이 바람 속에서도 자세를 유지하는 것이 이 원리 덕분이다. <strong>로봇공학</strong>에서는 관절 각도로 팔 끝의 위치를 계산하는 <strong>기구학</strong>, 센서 정보로 지도를 만들며 자기 위치를 추정하는 기술 등도 배운다.</p>
+<h3 id="③-센서와-임베디드-시스템">③ 센서와 임베디드 시스템</h3>
+<p>통합과학에서는 다루지 않은 센서의 원리를 대학 전자공학에서 배운다. 예를 들어 거리 센서 중에는 빛이나 초음파를 보낸 뒤 되돌아오기까지의 시간 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span></span></span></span>를 재어 거리 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">d</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.9781em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.2921em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mord mathnormal">t</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>를 계산하는 것이 있다. 기기 안에 작은 컴퓨터를 넣어 특정 기능을 수행하게 만드는 <strong>임베디드 시스템</strong>, 적은 전력으로 멀리 통신하는 사물인터넷 <strong>통신 규약</strong>도 배운다.</p>
+<h3 id="고등학교-vs-대학교">고등학교 vs 대학교</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>고등학교 통합과학</th>
+<th>대학교(기계학습·로봇공학·임베디드 시스템)</th>
+</tr>
+</thead><tbody><tr>
+<td>인공지능</td>
+<td>데이터로 규칙(경계)을 찾는다</td>
+<td>손실 함수, 경사 하강법, 신경망·딥러닝 모델 설계</td>
+</tr>
+<tr>
+<td>로봇</td>
+<td>센서–제어–구동의 구조</td>
+<td>기구학·동역학, PID·최적 제어, 경로 계획</td>
+</tr>
+<tr>
+<td>센서</td>
+<td>환경을 측정해 데이터로 바꾸는 장치</td>
+<td>센서의 물리 원리, 신호 처리, 잡음 제거</td>
+</tr>
+<tr>
+<td>사물인터넷</td>
+<td>감지–연결–분석–서비스</td>
+<td>통신 규약, 저전력 설계, 보안 기술</td>
+</tr>
+<tr>
+<td>영향 예측</td>
+<td>미래 바퀴로 유용성과 한계 예측</td>
+<td>기술 영향 평가, 인간–로봇 상호작용 연구</td>
+</tr>
+<tr>
+<td>관련 전공</td>
+<td>—</td>
+<td>컴퓨터공학, 인공지능학, 전자공학, 기계공학, 로봇공학, 제어계측공학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-6" class="step-h s6"><span class="step-badge s6">STEP 6</span><span class="h-text">산업 현장과 진로 연결</span></h2>
+<h3 id="사례-1-스마트-제조-스마트-팩토리">사례 1. 스마트 제조(스마트 팩토리)</h3>
+<ul>
+<li><strong>원리</strong> 공장 설비에 센서를 붙여 사물인터넷으로 연결하고, 생산 데이터를 실시간으로 분석해 공정을 자동으로 조절한다. 1961년 미국의 자동차 공장에 처음 산업용 로봇이 설치된 이후, 로봇은 용접·도장·조립의 핵심 설비가 되었다.</li>
+<li><strong>현장 기술</strong> 카메라 영상으로 불량품을 찾는 인공지능 검사, 진동·온도 데이터로 고장을 미리 아는 예지 정비(6-2 단원), 실제 공장을 컴퓨터 속에 똑같이 만들어 미리 시험해 보는 <strong>디지털 트윈</strong>.</li>
+<li><strong>핵심 숫자</strong> 우리나라는 제조업 노동자 수 대비 산업용 로봇 대수(로봇 밀도)가 세계 최상위권(근로자 1만 명당 약 1000대 수준)이다.</li>
+</ul>
+<h3 id="사례-2-스마트팜">사례 2. 스마트팜</h3>
+<ul>
+<li><strong>원리</strong> 온실의 온도·습도·이산화 탄소·일사량 센서 데이터에 따라 환기창, 보온 커튼, 양액(물과 영양분) 공급 장치가 자동으로 작동한다. 농민은 스마트폰으로 원격 관리할 수 있다.</li>
+<li><strong>발전 방향</strong> 생육 데이터를 쌓아 인공지능이 최적 환경을 제시하고, 수확·운반 로봇과 결합한다. 건물 안에서 층층이 작물을 기르는 <strong>수직 농장</strong>도 연구된다.</li>
+</ul>
+<h3 id="사례-3-의료-돌봄-로봇">사례 3. 의료·돌봄 로봇</h3>
+<ul>
+<li><strong>수술 로봇</strong> 의사가 조종하는 로봇 팔이 작은 구멍으로 정밀한 수술을 돕는다. 손 떨림을 걸러 내고 움직임을 축소해 정밀도를 높인다.</li>
+<li><strong>착용형 재활 로봇</strong> 다리에 착용해 보행 훈련을 돕는다. 같은 동작을 정확히 반복할 수 있어 재활 치료 인력의 부담을 줄인다.</li>
+<li><strong>돌봄 로봇·인공지능 스피커</strong> 일부 지방자치단체는 홀로 사는 노인에게 대화형 인공지능 기기를 보급하여 안부 확인과 응급 상황 알림에 활용하고 있다.</li>
+</ul>
+<h3 id="사례-4-재난-로봇과-드론">사례 4. 재난 로봇과 드론</h3>
+<ul>
+<li>붕괴 현장 수색, 화재 현장 진입, 방사능 지역 조사에 쓰인다. 열화상 카메라를 단 드론은 실종자 수색과 산불 감시에 활용된다.</li>
+<li>2015년 국제 재난 로봇 대회에서 우리나라 대학 연구팀이 우승하는 등 국내 연구 역량도 높다.</li>
+</ul>
+<h3 id="사례-5-스마트-그리드">사례 5. 스마트 그리드</h3>
+<ul>
+<li><strong>원리</strong> 전력망에 정보통신 기술을 결합해 전력의 생산과 소비를 실시간 데이터로 조절한다. 스마트 계량기가 사용량을 실시간으로 전송하고, 수요가 많은 시간에는 요금 신호를 주어 사용을 분산시킨다.</li>
+<li><strong>연결</strong> 날씨에 따라 발전량이 바뀌는 태양광·풍력(5-6 단원)을 안정적으로 쓰려면 수요 예측과 에너지 저장 장치의 제어가 필수이다. 우리나라는 2009년부터 제주에서 스마트 그리드 실증 사업을 진행하였다.</li>
+</ul>
+<h3 id="관련-진로와-학과">관련 진로와 학과</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>진로</th>
+<th>하는 일</th>
+<th>관련 학과</th>
+</tr>
+</thead><tbody><tr>
+<td>인공지능 엔지니어·연구원</td>
+<td>기계학습 모델 개발, 데이터 학습·평가</td>
+<td>컴퓨터공학, 인공지능학, 수학, 통계학</td>
+</tr>
+<tr>
+<td>로봇 공학자</td>
+<td>로봇의 기구·제어·인식 시스템 설계</td>
+<td>로봇공학, 기계공학, 전자공학</td>
+</tr>
+<tr>
+<td>사물인터넷·임베디드 개발자</td>
+<td>센서 기기와 통신, 제어 소프트웨어 개발</td>
+<td>전자공학, 컴퓨터공학, 정보통신공학</td>
+</tr>
+<tr>
+<td>스마트팜 전문가</td>
+<td>시설 원예 환경 제어, 생육 데이터 분석</td>
+<td>원예학, 농업공학, 바이오시스템공학</td>
+</tr>
+<tr>
+<td>스마트 제조 엔지니어</td>
+<td>자동화 공정 설계, 공장 데이터 분석</td>
+<td>산업공학, 기계공학, 전기공학</td>
+</tr>
+<tr>
+<td>의료 로봇·재활공학 연구원</td>
+<td>수술·재활 로봇 개발</td>
+<td>의공학, 기계공학, 재활공학</td>
+</tr>
+<tr>
+<td>에너지 시스템 엔지니어</td>
+<td>스마트 그리드, 에너지 저장 시스템 운영</td>
+<td>전기공학, 에너지공학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="탐구-활동-일상생활에-활용되는-로봇의-특징-분석-및-개선방안-고안하기">탐구 활동 — 일상생활에 활용되는 로봇의 특징 분석 및 개선방안 고안하기</h2>
+<h3 id="활동-a-일상-로봇-해부하기-모둠-조사">활동 A. 일상 로봇 해부하기 (모둠 조사)</h3>
+<p><strong>목표</strong> 일상에서 쓰이는 로봇을 센서–제어–구동의 구조로 분석하고, 사용자의 관점에서 문제점을 찾는다.</p>
+<p><strong>준비물</strong> 조사할 로봇의 사용 설명서·영상·관찰 기록, 분석 활동지, (가능하면) 실제 로봇 관찰</p>
+<p><strong>과정</strong></p>
+<ol>
+<li>모둠별로 조사할 로봇을 하나 고른다(예: 로봇청소기, 식당 서빙 로봇, 안내 로봇, 무인 주차 로봇, 자율주행 배달 로봇, 키오스크와 결합된 바리스타 로봇).</li>
+<li>로봇이 하는 일을 관찰하거나 영상으로 확인하고, 아래 표를 채운다.</li>
+<li>실제 사용자(가족, 식당 직원, 손님 등) 2명 이상에게 불편했던 점을 묻는다(이름 등 개인정보는 기록하지 않는다).</li>
+</ol>
+<p><strong>결과 기록</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>항목</th>
+<th>내용</th>
+</tr>
+</thead><tbody><tr>
+<td>로봇 이름·용도</td>
+<td></td>
+</tr>
+<tr>
+<td>센서(무엇을 감지하나?)</td>
+<td></td>
+</tr>
+<tr>
+<td>제어(어떤 규칙·판단을 하나? 인공지능을 쓰나?)</td>
+<td></td>
+</tr>
+<tr>
+<td>구동기(어떻게 움직이나?)</td>
+<td></td>
+</tr>
+<tr>
+<td>연결(다른 기기·인터넷과 연결되나?)</td>
+<td></td>
+</tr>
+<tr>
+<td>주요 사용자</td>
+<td></td>
+</tr>
+<tr>
+<td>좋은 점</td>
+<td></td>
+</tr>
+<tr>
+<td>문제점(관찰·인터뷰)</td>
+<td></td>
+</tr>
+</tbody></table></div>
+<h3 id="활동-b-개선-방안-고안하기-설계">활동 B. 개선 방안 고안하기 (설계)</h3>
+<p><strong>목표</strong> 활동 A에서 찾은 문제를 해결하는 개선안을 설계하고 발표한다.</p>
+<p><strong>과정</strong></p>
+<ol>
+<li>문제점 중 하나를 골라 <strong>원인</strong>이 센서, 제어, 구동, 연결 중 어디에 있는지 분석한다.</li>
+<li>다양한 사용자(어린이, 노인, 휠체어 사용자, 시각·청각 장애인 등)의 입장에서 개선안을 생각한다.</li>
+<li>개선안이 새로 만들 수 있는 <strong>한계나 부작용</strong>(비용, 사생활, 안전, 에너지)을 미래 바퀴로 예측한다.</li>
+<li>(선택) 마이크로비트·아두이노 등 피지컬 컴퓨팅 기기로 개선 기능의 일부를 간단한 시제품으로 만든다. 예: 서빙 로봇이 다가오면 소리와 빛으로 알리는 기능.</li>
+<li>모둠별로 발표하고 다른 모둠의 평가를 받는다.</li>
+</ol>
+<p><strong>개선안 정리 표</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>문제점</th>
+<th>원인(센서·제어·구동·연결)</th>
+<th>개선 아이디어</th>
+<th>혜택을 받는 사람</th>
+<th>예상되는 한계</th>
+</tr>
+</thead><tbody><tr>
+<td>(예) 서빙 로봇이 바닥의 가방을 피하지 못함</td>
+<td>센서가 낮은 물체를 감지하지 못함</td>
+<td>아래쪽을 보는 센서 추가</td>
+<td>손님, 직원</td>
+<td>비용 증가</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<p><strong>생각해 보기</strong></p>
+<ol>
+<li>우리가 고른 로봇은 사람의 일을 &#39;대신&#39;하는가, &#39;돕는&#39;가? 그 차이는 무엇인가?</li>
+<li>개선안 때문에 로봇이 더 많은 데이터를 수집하게 된다면, 어떤 보호 장치가 필요할까?</li>
+<li>이 로봇이 10년 뒤 어떻게 바뀌어 있을지 예측해 보자.</li>
+</ol>
+<aside class="callout warning"><p class="callout-title">주의</p><p><strong>안전 수칙</strong> 실제 로봇을 관찰할 때는 작동 중인 로봇의 움직이는 부분(바퀴, 팔)에 손을 넣지 않는다. 식당·상점에서 관찰할 때는 관리자의 허락을 받고, 다른 사람의 얼굴이 나오지 않도록 촬영한다.</p>
+</aside>
+<hr>
+<h2 id="개념-확인-문제">개념 확인 문제</h2>
+<h3 id="기본">기본</h3>
+<p><strong>1.</strong> 다음 중 로봇의 구성 요소와 우리 몸의 기관을 옳게 짝지은 것을 <strong>모두</strong> 고르시오.
+ㄱ. 센서 – 감각기관 ㄴ. 제어 장치 – 근육 ㄷ. 구동기 – 뇌</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답 ㄱ</strong></p>
+<p>제어 장치는 판단을 담당하므로 뇌(신경계)에, 구동기는 실제로 움직이므로 근육에 해당한다.</p>
+</div></details>
+
+<p><strong>2.</strong> 규칙 기반 방식과 학습 기반 방식(기계학습)의 차이를 &#39;규칙을 누가 만드는가&#39;를 중심으로 설명하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 규칙 기반 방식은 사람이 규칙을 직접 프로그래밍하고, 학습 기반 방식은 컴퓨터가 데이터로부터 규칙을 스스로 찾아낸다.</p>
+</div></details>
+
+<p><strong>3.</strong> 사물인터넷 시스템의 네 단계(계층)를 순서대로 쓰시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 감지 → 연결(네트워크) → 분석(플랫폼) → 서비스(응용)</p>
+<p>센서가 데이터를 측정하고, 통신으로 전송하며, 서버에서 분석·판단한 뒤, 기기를 제어하거나 사람에게 알린다.</p>
+</div></details>
+
+<p><strong>4.</strong> 빈칸에 알맞은 말을 쓰시오.
+&quot;입력과 정답이 함께 있는 데이터로 학습하는 방식을 ( ㄱ )이라 하고, 행동의 결과로 받는 보상이 커지도록 시행착오를 통해 학습하는 방식을 ( ㄴ )이라 한다.&quot;</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> ㄱ: 지도학습, ㄴ: 강화학습</p>
+</div></details>
+
+<h3 id="응용">응용</h3>
+<p><strong>5.</strong> 어떤 공장에서 부품의 길이(mm)를 측정하고 검사원이 정상·불량을 판정한 데이터가 다음과 같다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>길이(mm)</th>
+<th>48.2</th>
+<th>49.1</th>
+<th>49.6</th>
+<th>50.0</th>
+<th>50.4</th>
+<th>50.9</th>
+<th>51.8</th>
+</tr>
+</thead><tbody><tr>
+<td>판정</td>
+<td>불량</td>
+<td>정상</td>
+<td>정상</td>
+<td>정상</td>
+<td>정상</td>
+<td>정상</td>
+<td>불량</td>
+</tr>
+</tbody></table></div>
+<p>(1) 이 데이터로부터 정상 범위에 대한 규칙을 찾으시오. (2) 길이가 51.5 mm인 부품은 어떻게 판정할까? (3) 이 규칙의 정확성을 높이려면 데이터를 어떻게 보완해야 하는가?</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> (1) (예) 48.2와 49.1 사이, 50.9와 51.8 사이에 경계를 두어 &quot;약 48.7 mm 이상 약 51.4 mm 이하이면 정상&quot; (2) 불량 (3) 아래 해설</p>
+<p>(1) 불량과 정상이 바뀌는 두 구간의 가운데를 경계로 삼으면 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">48.2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">49.1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">48.7</span></span></span></span>, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">50.9</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">51.8</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">51.4</span></span></span></span>이다.
+(2) 51.5 mm는 위쪽 경계(약 51.4 mm)보다 크므로 불량으로 판정한다. 단, 경계에 매우 가까워 판정이 불확실하므로 검사원이 다시 확인하는 것이 좋다.
+(3) 데이터가 7개뿐이고 특히 경계 근처(48.2<del>49.1, 50.9</del>51.8)의 데이터가 없다. 경계 근처의 데이터를 더 모으면 경계를 더 정확히 정할 수 있다.</p>
+</div></details>
+
+<p><strong>6.</strong> 한 회사가 과거 10년간의 합격자 서류를 학습시켜 지원자를 평가하는 인공지능을 만들었다. 그런데 과거 합격자 대부분이 특정 성별이었다. 이 인공지능을 그대로 사용할 때 생길 수 있는 문제를 추론하고, 해결 방안을 두 가지 쓰시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+인공지능은 과거 합격자의 특징을 &#39;좋은 지원자의 규칙&#39;으로 학습하므로, 실력과 상관없이 특정 성별과 관련된 특징을 가진 지원자를 높게 평가하는 <strong>편향</strong>이 생길 수 있다. 과거의 불공정이 인공지능을 통해 반복·강화되는 것이다.
+해결 방안: ① 학습 데이터에서 성별을 짐작할 수 있는 정보를 점검하고, 다양한 집단의 데이터를 고르게 포함한다. ② 인공지능의 판단 결과를 집단별로 비교해 차별이 없는지 정기적으로 검사하고, 최종 결정은 사람이 검토한다.</p>
+</div></details>
+
+<p><strong>7.</strong> 스마트 그리드에서 다음 상황이 일어날 때, 각각 어떤 데이터를 이용해 어떻게 대응할 수 있는지 쓰시오.
+(가) 맑은 낮에 태양광 발전량이 전력 수요보다 많아졌다. (나) 무더운 여름 저녁에 냉방 수요가 갑자기 늘었다.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+(가) 실시간 발전량과 수요 데이터를 보고 남는 전기를 에너지 저장 장치에 충전하거나, 전기차 충전처럼 미룰 수 있는 사용을 낮 시간으로 옮기도록 요금 신호를 보낸다.
+(나) 기상 예보와 과거 사용 데이터로 수요 증가를 미리 예측해 발전량을 준비하고, 낮에 저장해 둔 전기를 내보내며, 스마트 계량기를 통해 수요가 몰리는 시간의 사용을 분산하도록 알린다.</p>
+</div></details>
+
+<h3 id="융합-서술형">융합·서술형</h3>
+<p><strong>8. [산업·환경 연계]</strong> 어느 지역이 기후 변동과 농촌 고령화 문제를 해결하기 위해 스마트팜을 도입하려 한다. (1) 스마트팜이 감지–판단–동작의 구조로 작동하는 과정을 예를 들어 설명하고, (2) 이 기술이 인간의 삶과 환경에 주는 유용성과 한계를 각각 두 가지씩 예측하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+(1) 온실 안의 온도·습도·토양 수분 센서가 환경을 측정하면(감지), 제어 장치가 미리 정한 기준이나 생육 데이터를 학습한 인공지능으로 판단하여(판단), 환기창 모터를 열거나 관수 펌프를 작동한다(동작). 동작의 결과로 바뀐 환경을 센서가 다시 측정하는 되먹임이 반복된다.
+(2) 유용성: ① 사람이 늘 지키지 않아도 원격으로 관리할 수 있어 고령 농민의 노동 부담이 줄어든다. ② 필요한 만큼만 물과 비료를 주어 자원을 절약하고 수질 오염을 줄인다.
+한계: ① 설치 비용이 크고 장비 운영 지식이 필요해 소규모·고령 농가가 도입하기 어렵다. ② 센서 고장이나 정전, 해킹 시 작물 전체가 피해를 볼 수 있으며, 설비 운영에 전기가 필요해 에너지 사용이 늘어날 수 있다.</p>
+<p><strong>채점 포인트</strong> ① 센서–제어–구동과 되먹임 설명 ② 삶 측면의 유용성 ③ 환경 측면의 유용성 ④ 경제·기술·환경 측면의 한계</p>
+</div></details>
+
+<p><strong>9. [대학·사회 연계]</strong> 자율주행 자동차가 확산된 미래를 예측하려 한다. (1) 미래 바퀴 방법으로 1차 결과 두 가지와 각각의 2차 결과를 쓰고, (2) 자율주행 자동차가 사고를 냈을 때 책임을 누가 져야 하는지에 대해 서로 다른 두 관점을 근거와 함께 제시하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+(1) 1차: 운전자가 운전할 필요가 없어진다 → 2차: 노인·장애인 등 운전이 어려운 사람의 이동 자유가 커진다.
+1차: 사람의 실수로 인한 사고가 줄어들 수 있다 → 2차: 그럼에도 생기는 사고의 책임과 보험 제도를 새로 정해야 한다.
+(그 밖에 1차: 운전 관련 직업 감소 → 2차: 직업 전환 교육 필요 등도 가능)
+(2) 관점 A(제조사 책임): 운전을 판단한 주체가 자동차의 소프트웨어이므로, 그 판단 알고리즘을 설계·판매한 제조사가 책임져야 한다. 관점 B(공동 책임): 사람이 개입해야 하는 단계의 자율주행에서는 운전자가 경고에 대응할 의무가 있으므로, 상황에 따라 운전자와 제조사가 책임을 나누어야 한다. 이 문제는 기술 수준(자율주행 단계), 사고 원인 분석 데이터, 법과 보험 제도가 함께 고려되어야 하며, 6-4 단원에서 더 깊이 다룬다.</p>
+<p><strong>채점 포인트</strong> ① 1차·2차 결과의 논리적 연결 ② 서로 다른 두 관점 ③ 각 관점의 근거</p>
+</div></details>
+
+<hr>
+<h2 id="한눈에-정리">한눈에 정리</h2>
+<h3 id="핵심-요약">핵심 요약</h3>
+<ul>
+<li><strong>인공지능</strong>은 사람의 지능적 행동을 컴퓨터로 구현한 기술이며, <strong>기계학습</strong>은 데이터로부터 규칙을 스스로 찾아 새로운 데이터에 적용하는 방법이다(지도학습·비지도학습·강화학습).</li>
+<li>인공지능은 학습 데이터의 범위와 품질에 좌우되며, 데이터가 치우치면 <strong>편향</strong>된 판단을 한다.</li>
+<li><strong>로봇</strong>은 센서(감지) – 제어 장치(판단) – 구동기(동작)로 이루어지며, 우리 몸의 감각기관–신경계–근육과 비슷하다. 대부분 <strong>되먹임 제어</strong>로 작동한다.</li>
+<li><strong>사물인터넷</strong>은 센서와 통신 기능을 가진 사물이 인터넷으로 연결되어 감지–연결–분석–서비스 과정으로 스스로 작동하는 기술이다.</li>
+<li>스마트팜, 스마트 그리드, 돌봄·의료 로봇, 재난 로봇, 환경 감시, 스마트 교통 등으로 <strong>인간의 삶과 환경을 개선</strong>한다.</li>
+<li>유용성(효율·안전·접근성·자원 절약)과 함께 한계(오류·편향, 사생활, 책임 소재, 일자리 변화, 보안, 에너지 소비)를 <strong>함께 예측</strong>해야 한다.</li>
+</ul>
+<h3 id="핵심-용어">핵심 용어</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>용어</th>
+<th>뜻</th>
+</tr>
+</thead><tbody><tr>
+<td>인공지능</td>
+<td>학습·추론·인식·판단 등 사람의 지능적 행동을 컴퓨터로 구현한 기술</td>
+</tr>
+<tr>
+<td>기계학습</td>
+<td>데이터로부터 컴퓨터가 스스로 규칙을 찾아 예측하는 방법</td>
+</tr>
+<tr>
+<td>지도학습</td>
+<td>입력과 정답이 함께 있는 데이터로 학습하는 방식</td>
+</tr>
+<tr>
+<td>인공 신경망 / 딥러닝</td>
+<td>뉴런을 본뜬 계산 단위를 연결한 모델 / 층을 깊게 쌓은 신경망으로 학습하는 것</td>
+</tr>
+<tr>
+<td>로봇</td>
+<td>환경을 감지하고 판단하여 물리적으로 동작하는 기계</td>
+</tr>
+<tr>
+<td>구동기</td>
+<td>로봇에서 실제로 힘을 내어 움직이는 장치(전동기 등)</td>
+</tr>
+<tr>
+<td>되먹임 제어</td>
+<td>결과를 측정해 다시 입력으로 되돌려 목표에 맞게 조절하는 방식</td>
+</tr>
+<tr>
+<td>사물인터넷</td>
+<td>센서와 통신 기능을 가진 사물이 인터넷으로 연결되어 데이터를 주고받으며 작동하는 기술</td>
+</tr>
+</tbody></table></div>
+<h3 id="다음-단원으로">다음 단원으로</h3>
+<p>인공지능 로봇과 사물인터넷은 삶을 편리하게 만들지만, &quot;사고가 나면 누구 책임인가?&quot;, &quot;내 데이터는 누가 지켜 주는가?&quot;, &quot;기술이 차별을 반복한다면?&quot;과 같은 새로운 질문도 던진다. 마지막 단원에서는 유전자 편집, 유전자 변형 생물, 원자력, 인공지능처럼 과학기술의 발전 과정에서 생기는 <strong>과학 관련 사회적 쟁점(SSI)</strong> 을 살펴보고, 과학기술을 이용할 때 왜 <strong>과학 윤리</strong>가 중요한지 근거를 들어 논증해 본다.</p>
+<nav class="pager"><a class="prev" href="6-2.html"><small>이전 단원</small>6-2 빅데이터와 과학기술사회</a><a class="next" href="6-4.html"><small>다음 단원</small>6-4 과학기술과 윤리</a></nav></article></div>
+</main>
+</div>
+</body>
+</html>

@@ -1,0 +1,991 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>1-4 정보와 신호: 아날로그에서 디지털로</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css">
+<link rel="stylesheet" href="assets/book.css">
+<script src="assets/js/book.js" defer></script>
+
+</head>
+<body class="">
+<header class="topbar">
+  <button class="menu-btn" id="menu-btn" aria-controls="drawer" aria-expanded="false">목차</button>
+  <a class="brand" href="index.html">통합과학 개념에서 산업까지</a>
+  <button class="theme-btn" id="theme-btn" aria-label="밝은 화면과 어두운 화면 바꾸기">화면</button>
+</header>
+<div class="shell">
+<aside class="drawer" id="drawer"><nav class="book-nav" aria-label="교재 목차"><a class="nav-home" href="index.html">처음으로</a><p class="nav-book">통합과학1</p><p class="nav-unit"><span>1단원</span> 과학의 기초</p><ul><li><a href="1-1.html"><span class="nav-id">1-1</span>시간과 공간</a></li><li><a href="1-2.html"><span class="nav-id">1-2</span>기본량과 단위</a></li><li><a href="1-3.html"><span class="nav-id">1-3</span>측정과 어림, 측정 표준</a></li><li><a href="1-4.html" aria-current="page"><span class="nav-id">1-4</span>정보와 신호: 아날로그에서 디지털로</a></li></ul><p class="nav-unit"><span>2단원</span> 물질과 규칙성</p><ul><li><a href="2-1.html"><span class="nav-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="2-2.html"><span class="nav-id">2-2</span>별의 진화와 원소의 생성</a></li><li><a href="2-3.html"><span class="nav-id">2-3</span>원소의 주기성과 화학 결합의 이유</a></li><li><a href="2-4.html"><span class="nav-id">2-4</span>이온 결합과 공유 결합</a></li><li><a href="2-5.html"><span class="nav-id">2-5</span>지각과 생명체 구성 물질의 규칙성</a></li><li><a href="2-6.html"><span class="nav-id">2-6</span>물질의 전기적 성질과 소재</a></li></ul><p class="nav-unit"><span>3단원</span> 시스템과 상호작용</p><ul><li><a href="3-1.html"><span class="nav-id">3-1</span>지구시스템의 구성과 상호작용</a></li><li><a href="3-2.html"><span class="nav-id">3-2</span>판구조론과 지권의 변화</a></li><li><a href="3-3.html"><span class="nav-id">3-3</span>중력과 운동</a></li><li><a href="3-4.html"><span class="nav-id">3-4</span>운동량과 충격량</a></li><li><a href="3-5.html"><span class="nav-id">3-5</span>생명 시스템과 물질대사</a></li><li><a href="3-6.html"><span class="nav-id">3-6</span>유전자와 단백질</a></li></ul><p class="nav-book">통합과학2</p><p class="nav-unit"><span>4단원</span> 변화와 다양성</p><ul><li><a href="4-1.html"><span class="nav-id">4-1</span>지질시대의 환경 변화와 생물다양성</a></li><li><a href="4-2.html"><span class="nav-id">4-2</span>진화와 생물다양성</a></li><li><a href="4-3.html"><span class="nav-id">4-3</span>산화와 환원</a></li><li><a href="4-4.html"><span class="nav-id">4-4</span>산과 염기, 중화 반응</a></li><li><a href="4-5.html"><span class="nav-id">4-5</span>물질 변화와 에너지 출입</a></li></ul><p class="nav-unit"><span>5단원</span> 환경과 에너지</p><ul><li><a href="5-1.html"><span class="nav-id">5-1</span>생태계 구성 요소와 상호 관계</a></li><li><a href="5-2.html"><span class="nav-id">5-2</span>생태계 평형</a></li><li><a href="5-3.html"><span class="nav-id">5-3</span>지구온난화와 기후변화</a></li><li><a href="5-4.html"><span class="nav-id">5-4</span>태양 에너지와 에너지 전환</a></li><li><a href="5-5.html"><span class="nav-id">5-5</span>발전기와 전기 에너지</a></li><li><a href="5-6.html"><span class="nav-id">5-6</span>에너지 효율과 신재생 에너지</a></li></ul><p class="nav-unit"><span>6단원</span> 과학과 미래 사회</p><ul><li><a href="6-1.html"><span class="nav-id">6-1</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html"><span class="nav-id">6-2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html"><span class="nav-id">6-3</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html"><span class="nav-id">6-4</span>과학기술과 윤리</a></li></ul><p class="nav-book">부록</p><ul><li><a href="guide.html">교재 설계 안내</a></li><li><a href="appendix-standards.html">부록 1. 교육과정 성취기준</a></li><li><a href="appendix-map.html">부록 2. 연계 지도</a></li><li><a href="appendix-glossary.html">부록 3. 핵심 용어 사전</a></li></ul></nav></aside>
+<main class="main" id="main">
+<div class="lesson-grid"><nav class="ladder" aria-label="이 단원의 흐름"><p class="ladder-title">이 단원의 흐름</p><ol><li class="extra"><a href="#단원-들어가기">단원 들어가기</a></li><li class="s1"><a href="#step-1"><b>STEP 1</b> 중학교 다시 보기</a></li><li class="s2"><a href="#step-2"><b>STEP 2</b> 기초 다지기</a></li><li class="s3"><a href="#step-3"><b>STEP 3</b> 핵심 개념</a></li><li class="s4"><a href="#step-4"><b>STEP 4</b> 오개념 바로잡기</a></li><li class="s5"><a href="#step-5"><b>STEP 5</b> 선택과목·대학으로 한 걸음 더</a></li><li class="s6"><a href="#step-6"><b>STEP 6</b> 산업 현장과 진로 연결</a></li><li class="extra"><a href="#탐구-활동-스마트-기기를-활용하여-신호를-측정하고-디지털-정보로-분석하기">탐구 활동 — 스마트 기기를 활용하여 신호를 측정하고 디지털 정보로 분석하기</a></li><li class="extra"><a href="#개념-확인-문제">개념 확인 문제</a></li><li class="extra"><a href="#한눈에-정리">한눈에 정리</a></li></ol></nav><article class="prose lesson"><header class="lesson-hero u1">
+  <p class="eyebrow">통합과학1 · 1단원 과학의 기초</p>
+  <h1><span class="lesson-id">1-4</span>정보와 신호: 아날로그에서 디지털로</h1>
+  <p class="lesson-sub">0과 1로 세상을 옮기다</p>
+</header><aside class="callout note"><p class="callout-title">성취기준·참고</p><p><strong>성취기준 [10통과1-01-04]</strong> 자연에서 일어나는 다양한 변화를 측정⋅분석하여 정보를 산출함을 알고, 이러한 정보를 디지털로 변환하는 기술을 정보 통신에 활용하여 현대 문명에 미친 영향을 인식한다.</p>
+</aside>
+<p><strong>학습 목표</strong></p>
+<ol>
+<li>자연의 변화가 전달될 때 신호가 되고, 이 신호를 측정·분석할 때 정보가 됨을 사례로 설명할 수 있다.</li>
+<li>아날로그 신호와 디지털 신호를 구별하고, 센서를 통해 다양한 신호가 전기 신호로 바뀌어 디지털 정보가 되는 과정을 설명할 수 있다.</li>
+<li>표본화·양자화·부호화의 의미를 알고, 이진수를 이용해 정보를 나타낼 수 있다.</li>
+<li>디지털 정보 통신 기술이 현대 문명에 미친 긍정적·부정적 영향을 사례로 토의할 수 있다.</li>
+</ol>
+<p><strong>이 단원의 학습 사다리</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>단계</th>
+<th>무엇을 하나?</th>
+</tr>
+</thead><tbody><tr>
+<td>STEP 1. 중학교 다시 보기</td>
+<td>소리의 파형, 화면의 빛의 합성, 자극이 뇌로 전달되는 과정을 다시 꺼내 본다</td>
+</tr>
+<tr>
+<td>STEP 2. 기초 다지기</td>
+<td>시간–값 그래프, &#39;연속&#39;과 &#39;띄엄띄엄&#39;, 이진수와 비트를 디딤돌로 놓는다</td>
+</tr>
+<tr>
+<td>STEP 3. 핵심 개념</td>
+<td>신호와 정보 → 아날로그와 디지털 → 디지털 변환 → 디지털로 표현하기 → 정보 통신과 현대 문명</td>
+</tr>
+<tr>
+<td>STEP 4. 오개념 바로잡기</td>
+<td>&quot;디지털은 원래 신호와 완벽히 똑같다?&quot; 같은 착각을 바로잡는다</td>
+</tr>
+<tr>
+<td>STEP 5. 선택과목·대학</td>
+<td>표본화 정리, 정보량과 비트, 오류 검출</td>
+</tr>
+<tr>
+<td>STEP 6. 산업·진로</td>
+<td>이동 통신과 광통신, 재난 경보, 디지털 헬스케어, 메모리 반도체</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="단원-들어가기">단원 들어가기</h2>
+<p>조선 시대, 남쪽 바닷가에 적의 배가 나타나면 그 소식은 어떻게 한양까지 전해졌을까? 산꼭대기마다 설치된 <strong>봉수대</strong>에서 횃불(낮에는 연기)을 올려 다음 봉수대로 이어 전했다. 평상시에는 1개, 적이 나타나면 2개, 국경에 가까이 오면 3개, 국경을 넘으면 4개, 싸움이 벌어지면 5개. 불의 <strong>개수</strong>라는 단순한 약속으로 &#39;적이 어디까지 왔는가&#39;라는 정보를 수백 km 밖까지 전한 것이다.</p>
+<p>오늘날 여러분의 스마트폰은 1초에 수억 개의 0과 1을 주고받는다. 친구의 목소리, 사진 속 노을빛, 지진계가 기록한 땅의 떨림이 모두 0과 1로 바뀌어 빛의 속력으로 지구 반대편까지 날아간다. 봉수대의 횃불과 스마트폰의 0과 1 사이에는 놀랍게도 <strong>같은 아이디어</strong>가 숨어 있다. 연속적으로 변하는 세상을 <strong>몇 개의 정해진 기호</strong>로 바꾸어 전하는 것, 바로 <strong>디지털</strong>이다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-1-4-0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 1433.71875 85" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-1-4-0{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-1-4-0 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-1-4-0 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-1-4-0 .error-icon{fill:var(--mm-group);}#mm-1-4-0 .error-text{fill:#595959;stroke:#595959;}#mm-1-4-0 .edge-thickness-normal{stroke-width:1px;}#mm-1-4-0 .edge-thickness-thick{stroke-width:3.5px;}#mm-1-4-0 .edge-pattern-solid{stroke-dasharray:0;}#mm-1-4-0 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-1-4-0 .edge-pattern-dashed{stroke-dasharray:3;}#mm-1-4-0 .edge-pattern-dotted{stroke-dasharray:2;}#mm-1-4-0 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-1-4-0 .marker.cross{stroke:var(--mm-line);}#mm-1-4-0 svg{font-family:inherit;font-size:15px;}#mm-1-4-0 p{margin:0;}#mm-1-4-0 .label{font-family:inherit;color:var(--mm-text);}#mm-1-4-0 .cluster-label text{fill:#595959;}#mm-1-4-0 .cluster-label span{color:#595959;}#mm-1-4-0 .cluster-label span p{background-color:transparent;}#mm-1-4-0 .label text,#mm-1-4-0 span{fill:var(--mm-text);color:var(--mm-text);}#mm-1-4-0 .node rect,#mm-1-4-0 .node circle,#mm-1-4-0 .node ellipse,#mm-1-4-0 .node polygon,#mm-1-4-0 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-1-4-0 .rough-node .label text,#mm-1-4-0 .node .label text,#mm-1-4-0 .image-shape .label,#mm-1-4-0 .icon-shape .label{text-anchor:middle;}#mm-1-4-0 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-1-4-0 .rough-node .label,#mm-1-4-0 .node .label,#mm-1-4-0 .image-shape .label,#mm-1-4-0 .icon-shape .label{text-align:center;}#mm-1-4-0 .node.clickable{cursor:pointer;}#mm-1-4-0 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-1-4-0 .arrowheadPath{fill:#0b0b0b;}#mm-1-4-0 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-1-4-0 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-1-4-0 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-1-4-0 .edgeLabel p{background-color:var(--mm-label);}#mm-1-4-0 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-1-4-0 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-1-4-0 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-1-4-0 .cluster text{fill:#595959;}#mm-1-4-0 .cluster span{color:#595959;}#mm-1-4-0 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-1-4-0 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-1-4-0 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-1-4-0 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-1-4-0 rect.text{fill:none;stroke-width:0;}#mm-1-4-0 .icon-shape,#mm-1-4-0 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-1-4-0 .icon-shape p,#mm-1-4-0 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-1-4-0 .icon-shape .label rect,#mm-1-4-0 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-1-4-0 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-1-4-0 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-1-4-0 .node .neo-node{stroke:var(--mm-border);}#mm-1-4-0 [data-look="neo"].node rect,#mm-1-4-0 [data-look="neo"].cluster rect,#mm-1-4-0 [data-look="neo"].node polygon{stroke:url(#mm-1-4-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-1-4-0 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-1-4-0 [data-look="neo"].node path{stroke:url(#mm-1-4-0-gradient);stroke-width:1px;}#mm-1-4-0 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-1-4-0 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-1-4-0 [data-look="neo"].node circle{stroke:url(#mm-1-4-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-1-4-0 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-1-4-0 [data-look="neo"].icon-shape .icon{fill:url(#mm-1-4-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-1-4-0 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-1-4-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-1-4-0 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-1-4-0_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-0_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-0_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-0_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-0_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-0_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-0_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-0_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-0_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-0_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-0_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-1-4-0_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M186.016,42.5L190.182,42.5C194.349,42.5,202.682,42.5,210.349,42.5C218.016,42.5,225.016,42.5,228.516,42.5L232.016,42.5" id="mm-1-4-0-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTg2LjAxNTYyNSwieSI6NDIuNX0seyJ4IjoyMTEuMDE1NjI1LCJ5Ijo0Mi41fSx7IngiOjIzNi4wMTU2MjUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-1-4-0_flowchart-v2-pointEnd)"/><path d="M378.188,42.5L382.354,42.5C386.521,42.5,394.854,42.5,402.521,42.5C410.188,42.5,417.188,42.5,420.688,42.5L424.188,42.5" id="mm-1-4-0-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6Mzc4LjE4NzUsInkiOjQyLjV9LHsieCI6NDAzLjE4NzUsInkiOjQyLjV9LHsieCI6NDI4LjE4NzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-1-4-0_flowchart-v2-pointEnd)"/><path d="M589.531,42.5L593.698,42.5C597.865,42.5,606.198,42.5,613.865,42.5C621.531,42.5,628.531,42.5,632.031,42.5L635.531,42.5" id="mm-1-4-0-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6NTg5LjUzMTI1LCJ5Ijo0Mi41fSx7IngiOjYxNC41MzEyNSwieSI6NDIuNX0seyJ4Ijo2MzkuNTMxMjUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-1-4-0_flowchart-v2-pointEnd)"/><path d="M839.203,42.5L843.37,42.5C847.536,42.5,855.87,42.5,863.536,42.5C871.203,42.5,878.203,42.5,881.703,42.5L885.203,42.5" id="mm-1-4-0-L_D_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_E_0" data-points="W3sieCI6ODM5LjIwMzEyNSwieSI6NDIuNX0seyJ4Ijo4NjQuMjAzMTI1LCJ5Ijo0Mi41fSx7IngiOjg4OS4yMDMxMjUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-1-4-0_flowchart-v2-pointEnd)"/><path d="M1016.375,42.5L1020.542,42.5C1024.708,42.5,1033.042,42.5,1040.708,42.5C1048.375,42.5,1055.375,42.5,1058.875,42.5L1062.375,42.5" id="mm-1-4-0-L_E_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_F_0" data-points="W3sieCI6MTAxNi4zNzUsInkiOjQyLjV9LHsieCI6MTA0MS4zNzUsInkiOjQyLjV9LHsieCI6MTA2Ni4zNzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-1-4-0_flowchart-v2-pointEnd)"/><path d="M1214.375,42.5L1218.542,42.5C1222.708,42.5,1231.042,42.5,1238.708,42.5C1246.375,42.5,1253.375,42.5,1256.875,42.5L1260.375,42.5" id="mm-1-4-0-L_F_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_F_G_0" data-points="W3sieCI6MTIxNC4zNzUsInkiOjQyLjV9LHsieCI6MTIzOS4zNzUsInkiOjQyLjV9LHsieCI6MTI2NC4zNzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-1-4-0_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_F_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_F_G_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-1-4-0-flowchart-A-0" data-look="classic" transform="translate(97.0078125, 42.5)"><rect class="basic label-container" style="" x="-89.0078125" y="-34.5" width="178.015625" height="69"/><g class="label" style="" transform="translate(-65.0078125, -22.5)"><rect/><foreignObject width="130.015625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>자연의 변화<br />소리, 빛, 온도, 진동</p></span></div></foreignObject></g></g><g class="node default" id="mm-1-4-0-flowchart-B-1" data-look="classic" transform="translate(307.1015625, 42.5)"><rect class="basic label-container" style="" x="-71.0859375" y="-34.5" width="142.171875" height="69"/><g class="label" style="" transform="translate(-47.0859375, -22.5)"><rect/><foreignObject width="94.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>신호<br />변화가 전달됨</p></span></div></foreignObject></g></g><g class="node default" id="mm-1-4-0-flowchart-C-3" data-look="classic" transform="translate(508.859375, 42.5)"><rect class="basic label-container" style="" x="-80.671875" y="-34.5" width="161.34375" height="69"/><g class="label" style="" transform="translate(-56.671875, -22.5)"><rect/><foreignObject width="113.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>센서<br />전기 신호로 바꿈</p></span></div></foreignObject></g></g><g class="node default" id="mm-1-4-0-flowchart-D-5" data-look="classic" transform="translate(739.3671875, 42.5)"><rect class="basic label-container" style="" x="-99.8359375" y="-34.5" width="199.671875" height="69"/><g class="label" style="" transform="translate(-75.8359375, -22.5)"><rect/><foreignObject width="151.671875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>디지털 변환<br />표본화, 양자화, 부호화</p></span></div></foreignObject></g></g><g class="node default" id="mm-1-4-0-flowchart-E-7" data-look="classic" transform="translate(952.7890625, 42.5)"><rect class="basic label-container" style="" x="-63.5859375" y="-34.5" width="127.171875" height="69"/><g class="label" style="" transform="translate(-39.5859375, -22.5)"><rect/><foreignObject width="79.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>디지털 정보<br />0과 1</p></span></div></foreignObject></g></g><g class="node default" id="mm-1-4-0-flowchart-F-9" data-look="classic" transform="translate(1140.375, 42.5)"><rect class="basic label-container" style="" x="-74" y="-34.5" width="148" height="69"/><g class="label" style="" transform="translate(-50, -22.5)"><rect/><foreignObject width="100" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>저장·처리·전송<br />정보 통신</p></span></div></foreignObject></g></g><g class="node default" id="mm-1-4-0-flowchart-G-11" data-look="classic" transform="translate(1345.046875, 42.5)"><rect class="basic label-container" style="" x="-80.671875" y="-23.25" width="161.34375" height="46.5"/><g class="label" style="" transform="translate(-56.671875, -11.25)"><rect/><foreignObject width="113.34375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>현대 문명의 변화</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-1-4-0-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-1-4-0-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-1-4-0-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><hr>
+<h2 id="step-1" class="step-h s1"><span class="step-badge s1">STEP 1</span><span class="h-text">중학교 다시 보기</span></h2>
+<h3 id="연계-개념표">연계 개념표</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>중학교 성취기준</th>
+<th>중학교에서 배운 것</th>
+<th>고등학교에서 확장되는 것</th>
+</tr>
+</thead><tbody><tr>
+<td>[9과10-04]</td>
+<td>소리는 파동이며 진폭, 진동수, 파형으로 나타낸다</td>
+<td>소리의 파형(아날로그 신호)을 일정한 간격으로 재어 <strong>디지털 정보</strong>로 바꾼다</td>
+</tr>
+<tr>
+<td>[9과10-03]</td>
+<td>영상 장치는 빛의 삼원색을 합성하여 다양한 색을 표현한다</td>
+<td>화면의 각 점(화소)의 빨강·초록·파랑 밝기를 <strong>숫자(비트)</strong> 로 저장한다</td>
+</tr>
+<tr>
+<td>[9과20-01]</td>
+<td>감각기관이 받아들인 자극이 뇌로 전달된다</td>
+<td>자연의 변화(자극)가 전달되면 <strong>신호</strong>, 이를 해석하면 <strong>정보</strong>가 된다</td>
+</tr>
+<tr>
+<td>[9과14-02]</td>
+<td>전기 회로의 전류와 전압</td>
+<td>센서는 다양한 신호를 <strong>전기 신호(전압·전류의 변화)</strong> 로 바꾼다</td>
+</tr>
+<tr>
+<td>[9과01-02]</td>
+<td>과학의 발전이 인류 문명에 미친 영향, 인공지능 등 첨단 과학기술</td>
+<td>디지털 정보 통신 기술이 현대 문명에 미친 영향을 분석한다</td>
+</tr>
+</tbody></table></div>
+<h3 id="준비-운동-사전-진단">준비 운동 (사전 진단)</h3>
+<p><strong>Q1.</strong> 소리의 크기와 높낮이는 각각 파동의 어떤 특성과 관계있는가?</p>
+<p><strong>Q2.</strong> 스마트폰 화면을 돋보기로 확대하면 무엇이 보일까?</p>
+<p><strong>Q3.</strong> 다음 중 &#39;시계 바늘이 움직이는 시계&#39;와 &#39;숫자가 바뀌는 시계&#39; 가운데 시간을 연속적으로 보여 주는 것은?</p>
+<p><strong>Q4.</strong> 다음 중 어떤 정보를 &#39;전달&#39;하는 예를 모두 고르시오.
+ㄱ. 신호등의 빨간불 ㄴ. 천둥소리 ㄷ. 밤하늘의 별빛 ㄹ. 친구의 손짓</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>Q1.</strong> 크기는 <strong>진폭</strong>, 높낮이는 <strong>진동수</strong>와 관계있다. 진폭이 클수록 큰 소리, 진동수가 클수록 높은 소리이다.</p>
+<p><strong>Q2.</strong> 빨강·초록·파랑의 아주 작은 점들(화소)이 규칙적으로 늘어선 모습이 보인다. 화면은 작은 점들의 밝기를 조절해 그림을 만든다.</p>
+<p><strong>Q3.</strong> 바늘이 움직이는 시계 — 바늘은 끊김 없이 연속적으로 움직인다(아날로그). 숫자 시계는 1분 또는 1초 단위로 띄엄띄엄 바뀐다(디지털).</p>
+<p><strong>Q4. 모두</strong> — 신호등은 사람이 약속한 신호이고, 천둥소리는 번개가 쳤다는 것을, 별빛은 별의 온도와 성분을, 손짓은 친구의 뜻을 전한다. 자연의 변화도, 사람의 약속도 모두 신호가 될 수 있다.</p>
+</div></details>
+
+<hr>
+<h2 id="step-2" class="step-h s2"><span class="step-badge s2">STEP 2</span><span class="h-text">기초 다지기</span></h2>
+<h3 id="①-변화를-그래프로-시간-값-그래프">① 변화를 그래프로: 시간–값 그래프</h3>
+<p>중학교에서 소리를 마이크와 컴퓨터로 관찰하면 가로축이 시간, 세로축이 진폭인 <strong>파형</strong>이 나왔다. 기온 변화, 심장 박동, 지진의 떨림도 모두 <strong>시간에 따라 변하는 값</strong>으로 그래프에 나타낼 수 있다. 이 단원에서 &#39;신호&#39;를 다룰 때는 늘 이 시간–값 그래프를 떠올리자.</p>
+<h3 id="②-39-연속-39-과-39-띄엄띄엄-39">② &#39;연속&#39;과 &#39;띄엄띄엄&#39;</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>뜻</th>
+<th>예</th>
+</tr>
+</thead><tbody><tr>
+<td><strong>연속적(continuous)</strong></td>
+<td>어떤 두 값 사이에도 무수히 많은 값이 있다</td>
+<td>미끄럼틀의 높이, 수은 온도계의 기둥 높이</td>
+</tr>
+<tr>
+<td><strong>띄엄띄엄(이산적, discrete)</strong></td>
+<td>정해진 몇 개의 값만 가진다</td>
+<td>계단의 높이, 주사위 눈, 봉수의 횃불 개수</td>
+</tr>
+</tbody></table></div>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 미끄럼틀(연속)에서는 어느 높이에서든 멈출 수 있지만, 계단(띄엄띄엄)에서는 정해진 칸에만 설 수 있다. 계단의 칸을 아주 촘촘하게 만들면 미끄럼틀과 거의 비슷해진다. 이것이 디지털 변환의 핵심 아이디어이다.</p>
+</aside>
+<h3 id="③-이진수-0과-1만으로-수-세기">③ 이진수: 0과 1만으로 수 세기</h3>
+<p>우리가 쓰는 <strong>십진수</strong>는 0~9의 10개 숫자를 쓰고, 자릿값이 1, 10, 100, …처럼 <strong>10배씩</strong> 커진다. <strong>이진수(binary number)</strong> 는 0과 1의 2개 숫자만 쓰고, 자릿값이 1, 2, 4, 8, 16, …처럼 <strong>2배씩</strong> 커진다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>자릿값</th>
+<th>8</th>
+<th>4</th>
+<th>2</th>
+<th>1</th>
+<th>십진수</th>
+</tr>
+</thead><tbody><tr>
+<td>이진수 0101</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>4 + 1 = 5</td>
+</tr>
+<tr>
+<td>이진수 1101</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>8 + 4 + 1 = 13</td>
+</tr>
+<tr>
+<td>이진수 1111</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>8 + 4 + 2 + 1 = 15</td>
+</tr>
+</tbody></table></div>
+<h4 id="예제-1-이진수-바꾸기">예제 1 — 이진수 바꾸기</h4>
+<p>(1) 이진수 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9996em;vertical-align:-0.3552em;"></span><span class="mord">10110</span><span class="mord"><span class="mord">1</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.5198em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mopen mtight">(</span><span class="mord mtight">2</span><span class="mclose mtight">)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.3552em;"><span></span></span></span></span></span></span></span></span></span>을 십진수로 나타내시오.
+(2) 십진수 13을 이진수로 나타내시오.</p>
+<p><strong>풀이</strong>
+(1) 자릿값 32, 16, 8, 4, 2, 1 → <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">32</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">8</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">45</span></span></span></span>
+(2) 13 = 8 + 4 + 1 → 8의 자리 1, 4의 자리 1, 2의 자리 0, 1의 자리 1 → <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9996em;vertical-align:-0.3552em;"></span><span class="mord">110</span><span class="mord"><span class="mord">1</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.5198em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mopen mtight">(</span><span class="mord mtight">2</span><span class="mclose mtight">)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.3552em;"><span></span></span></span></span></span></span></span></span></span></p>
+<h3 id="④-비트와-바이트-정보의-단위">④ 비트와 바이트: 정보의 단위</h3>
+<ul>
+<li><strong>비트(bit)</strong>: 0 또는 1 하나. 정보의 가장 작은 단위이다.</li>
+<li><strong>바이트(byte)</strong>: 8비트를 묶은 것. 1 B = 8 bit.</li>
+<li><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span>비트로 만들 수 있는 서로 다른 경우의 수는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6644em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">n</span></span></span></span></span></span></span></span></span></span></span></span>가지이다.</li>
+</ul>
+<div class="table-wrap"><table><thead><tr>
+<th>비트 수</th>
+<th>경우의 수</th>
+<th>쓰임의 예</th>
+</tr>
+</thead><tbody><tr>
+<td>1비트</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">2</span></span></span></span></td>
+<td>켜짐/꺼짐, 예/아니요</td>
+</tr>
+<tr>
+<td>3비트</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">8</span></span></span></span></td>
+<td>8단계로 나눈 값</td>
+</tr>
+<tr>
+<td>8비트</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">256</span></span></span></span></td>
+<td>영어 알파벳·숫자 한 글자, 한 색의 밝기 256단계</td>
+</tr>
+<tr>
+<td>16비트</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">16</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">65</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">536</span></span></span></span></td>
+<td>음악 CD 소리 크기 단계</td>
+</tr>
+<tr>
+<td>24비트</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">24</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">16</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">777</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">216</span></span></span></span></td>
+<td>화면 한 점의 색(빨강·초록·파랑 각 8비트)</td>
+</tr>
+</tbody></table></div>
+<aside class="callout note"><p class="callout-title">성취기준·참고</p><p>1-2단원의 SI 접두어는 데이터 양에도 쓰인다. 국제 표준에서 1 kB = 1000 B, 1 MB = <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">6</span></span></span></span></span></span></span></span></span></span></span></span> B, 1 GB = <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">9</span></span></span></span></span></span></span></span></span></span></span></span> B이다. 컴퓨터에서 흔히 쓰는 1024(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">10</span></span></span></span></span></span></span></span></span></span></span></span>)배 단위는 구별하여 KiB(키비바이트)라고 쓰기도 한다.</p>
+</aside>
+<hr>
+<h2 id="step-3" class="step-h s3"><span class="step-badge s3">STEP 3</span><span class="h-text">핵심 개념</span></h2>
+<h3 id="1-4-①-자연의-변화-신호-정보">1-4-① 자연의 변화 → 신호 → 정보</h3>
+<p>번개가 치면 공기가 갑자기 팽창하며 떨린다(자연의 변화). 이 떨림이 공기를 통해 퍼져 우리 귀에 도달하면 <strong>천둥소리</strong>라는 <strong>신호</strong>가 된다. 번개가 보인 뒤 천둥소리가 들리기까지 몇 초가 걸렸는지 <strong>재고 분석하면</strong>, &quot;번개가 약 몇 km 떨어진 곳에서 쳤다&quot;는 <strong>정보</strong>를 얻는다(소리는 공기 중에서 1초에 약 340 m를 간다).</p>
+<ul>
+<li><strong>신호(signal)</strong>: 자연계의 변화가 공간을 거쳐 <strong>전달될 때</strong> 그 변화를 신호라 한다.</li>
+<li><strong>정보(information)</strong>: 신호를 <strong>측정하고 분석하여</strong> 얻은, 의미 있는 내용을 정보라 한다.</li>
+</ul>
+<div class="table-wrap"><table><thead><tr>
+<th>자연의 변화</th>
+<th>전달되는 신호</th>
+<th>측정·분석</th>
+<th>얻는 정보</th>
+</tr>
+</thead><tbody><tr>
+<td>번개</td>
+<td>천둥소리</td>
+<td>빛과 소리의 도착 시간 차</td>
+<td>번개까지의 거리</td>
+</tr>
+<tr>
+<td>땅속 암석이 끊어짐</td>
+<td>지진파</td>
+<td>여러 곳의 지진계 기록 비교</td>
+<td>지진의 발생 위치·규모 → 경보</td>
+</tr>
+<tr>
+<td>별 표면의 뜨거운 기체</td>
+<td>별빛</td>
+<td>빛을 색깔(파장)별로 나누어 분석</td>
+<td>별의 온도, 구성 원소(2단원)</td>
+</tr>
+<tr>
+<td>심장의 박동</td>
+<td>몸 표면의 미세한 전기 변화</td>
+<td>심전도 기록</td>
+<td>심장 질환의 단서</td>
+</tr>
+<tr>
+<td>대기의 움직임</td>
+<td>기온·기압·바람의 변화</td>
+<td>관측소·위성 자료 분석</td>
+<td>일기 예보, 태풍 경로</td>
+</tr>
+</tbody></table></div>
+<aside class="callout important"><p class="callout-title">핵심</p><p>신호는 그 자체로 정보가 아니다. 같은 천둥소리도 시간을 재고 분석하지 않으면 그냥 &#39;큰 소리&#39;일 뿐이다. <strong>측정과 분석</strong>을 거쳐야 신호가 정보가 된다. 앞의 1-1~1-3단원에서 배운 시간·길이 측정, 단위, 오차가 모두 여기에 쓰인다.</p>
+</aside>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-1-4-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 1003.203125 85" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-1-4-1{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-1-4-1 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-1-4-1 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-1-4-1 .error-icon{fill:var(--mm-group);}#mm-1-4-1 .error-text{fill:#595959;stroke:#595959;}#mm-1-4-1 .edge-thickness-normal{stroke-width:1px;}#mm-1-4-1 .edge-thickness-thick{stroke-width:3.5px;}#mm-1-4-1 .edge-pattern-solid{stroke-dasharray:0;}#mm-1-4-1 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-1-4-1 .edge-pattern-dashed{stroke-dasharray:3;}#mm-1-4-1 .edge-pattern-dotted{stroke-dasharray:2;}#mm-1-4-1 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-1-4-1 .marker.cross{stroke:var(--mm-line);}#mm-1-4-1 svg{font-family:inherit;font-size:15px;}#mm-1-4-1 p{margin:0;}#mm-1-4-1 .label{font-family:inherit;color:var(--mm-text);}#mm-1-4-1 .cluster-label text{fill:#595959;}#mm-1-4-1 .cluster-label span{color:#595959;}#mm-1-4-1 .cluster-label span p{background-color:transparent;}#mm-1-4-1 .label text,#mm-1-4-1 span{fill:var(--mm-text);color:var(--mm-text);}#mm-1-4-1 .node rect,#mm-1-4-1 .node circle,#mm-1-4-1 .node ellipse,#mm-1-4-1 .node polygon,#mm-1-4-1 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-1-4-1 .rough-node .label text,#mm-1-4-1 .node .label text,#mm-1-4-1 .image-shape .label,#mm-1-4-1 .icon-shape .label{text-anchor:middle;}#mm-1-4-1 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-1-4-1 .rough-node .label,#mm-1-4-1 .node .label,#mm-1-4-1 .image-shape .label,#mm-1-4-1 .icon-shape .label{text-align:center;}#mm-1-4-1 .node.clickable{cursor:pointer;}#mm-1-4-1 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-1-4-1 .arrowheadPath{fill:#0b0b0b;}#mm-1-4-1 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-1-4-1 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-1-4-1 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-1-4-1 .edgeLabel p{background-color:var(--mm-label);}#mm-1-4-1 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-1-4-1 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-1-4-1 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-1-4-1 .cluster text{fill:#595959;}#mm-1-4-1 .cluster span{color:#595959;}#mm-1-4-1 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-1-4-1 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-1-4-1 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-1-4-1 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-1-4-1 rect.text{fill:none;stroke-width:0;}#mm-1-4-1 .icon-shape,#mm-1-4-1 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-1-4-1 .icon-shape p,#mm-1-4-1 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-1-4-1 .icon-shape .label rect,#mm-1-4-1 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-1-4-1 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-1-4-1 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-1-4-1 .node .neo-node{stroke:var(--mm-border);}#mm-1-4-1 [data-look="neo"].node rect,#mm-1-4-1 [data-look="neo"].cluster rect,#mm-1-4-1 [data-look="neo"].node polygon{stroke:url(#mm-1-4-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-1-4-1 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-1-4-1 [data-look="neo"].node path{stroke:url(#mm-1-4-1-gradient);stroke-width:1px;}#mm-1-4-1 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-1-4-1 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-1-4-1 [data-look="neo"].node circle{stroke:url(#mm-1-4-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-1-4-1 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-1-4-1 [data-look="neo"].icon-shape .icon{fill:url(#mm-1-4-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-1-4-1 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-1-4-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-1-4-1 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-1-4-1_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-1_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-1_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-1_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-1_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-1_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-1_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-1_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-1_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-1_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-1_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-1-4-1_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M184.344,42.5L188.51,42.5C192.677,42.5,201.01,42.5,208.677,42.5C216.344,42.5,223.344,42.5,226.844,42.5L230.344,42.5" id="mm-1-4-1-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTg0LjM0Mzc1LCJ5Ijo0Mi41fSx7IngiOjIwOS4zNDM3NSwieSI6NDIuNX0seyJ4IjoyMzQuMzQzNzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-1-4-1_flowchart-v2-pointEnd)"/><path d="M327.344,42.5L331.51,42.5C335.677,42.5,344.01,42.5,351.677,42.5C359.344,42.5,366.344,42.5,369.844,42.5L373.344,42.5" id="mm-1-4-1-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6MzI3LjM0Mzc1LCJ5Ijo0Mi41fSx7IngiOjM1Mi4zNDM3NSwieSI6NDIuNX0seyJ4IjozNzcuMzQzNzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-1-4-1_flowchart-v2-pointEnd)"/><path d="M470.344,42.5L474.51,42.5C478.677,42.5,487.01,42.5,494.677,42.5C502.344,42.5,509.344,42.5,512.844,42.5L516.344,42.5" id="mm-1-4-1-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6NDcwLjM0Mzc1LCJ5Ijo0Mi41fSx7IngiOjQ5NS4zNDM3NSwieSI6NDIuNX0seyJ4Ijo1MjAuMzQzNzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-1-4-1_flowchart-v2-pointEnd)"/><path d="M670.859,42.5L675.026,42.5C679.193,42.5,687.526,42.5,695.193,42.5C702.859,42.5,709.859,42.5,713.359,42.5L716.859,42.5" id="mm-1-4-1-L_D_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_E_0" data-points="W3sieCI6NjcwLjg1OTM3NSwieSI6NDIuNX0seyJ4Ijo2OTUuODU5Mzc1LCJ5Ijo0Mi41fSx7IngiOjcyMC44NTkzNzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-1-4-1_flowchart-v2-pointEnd)"/><path d="M833.031,42.5L837.198,42.5C841.365,42.5,849.698,42.5,857.365,42.5C865.031,42.5,872.031,42.5,875.531,42.5L879.031,42.5" id="mm-1-4-1-L_E_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_F_0" data-points="W3sieCI6ODMzLjAzMTI1LCJ5Ijo0Mi41fSx7IngiOjg1OC4wMzEyNSwieSI6NDIuNX0seyJ4Ijo4ODMuMDMxMjUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-1-4-1_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_F_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-1-4-1-flowchart-A-0" data-look="classic" transform="translate(96.171875, 42.5)"><rect class="basic label-container" style="" x="-88.171875" y="-34.5" width="176.34375" height="69"/><g class="label" style="" transform="translate(-64.171875, -22.5)"><rect/><foreignObject width="128.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>땅속 암석이 끊어짐<br />자연의 변화</p></span></div></foreignObject></g></g><g class="node default" id="mm-1-4-1-flowchart-B-1" data-look="classic" transform="translate(280.84375, 42.5)"><rect class="basic label-container" style="" x="-46.5" y="-34.5" width="93" height="69"/><g class="label" style="" transform="translate(-22.5, -22.5)"><rect/><foreignObject width="45" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>지진파<br />신호</p></span></div></foreignObject></g></g><g class="node default" id="mm-1-4-1-flowchart-C-3" data-look="classic" transform="translate(423.84375, 42.5)"><rect class="basic label-container" style="" x="-46.5" y="-34.5" width="93" height="69"/><g class="label" style="" transform="translate(-22.5, -22.5)"><rect/><foreignObject width="45" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>지진계<br />측정</p></span></div></foreignObject></g></g><g class="node default" id="mm-1-4-1-flowchart-D-5" data-look="classic" transform="translate(595.6015625, 42.5)"><rect class="basic label-container" style="" x="-75.2578125" y="-34.5" width="150.515625" height="69"/><g class="label" style="" transform="translate(-51.2578125, -22.5)"><rect/><foreignObject width="102.515625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>컴퓨터 분석<br />위치, 규모 계산</p></span></div></foreignObject></g></g><g class="node default" id="mm-1-4-1-flowchart-E-7" data-look="classic" transform="translate(776.9453125, 42.5)"><rect class="basic label-container" style="" x="-56.0859375" y="-34.5" width="112.171875" height="69"/><g class="label" style="" transform="translate(-32.0859375, -22.5)"><rect/><foreignObject width="64.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>지진 정보<br />경보 발표</p></span></div></foreignObject></g></g><g class="node default" id="mm-1-4-1-flowchart-F-9" data-look="classic" transform="translate(939.1171875, 42.5)"><rect class="basic label-container" style="" x="-56.0859375" y="-34.5" width="112.171875" height="69"/><g class="label" style="" transform="translate(-32.0859375, -22.5)"><rect/><foreignObject width="64.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>휴대 전화<br />재난 문자</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-1-4-1-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-1-4-1-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-1-4-1-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><h4 id="센서-신호를-전기-신호로-바꾸는-문">센서: 신호를 전기 신호로 바꾸는 문</h4>
+<p>사람은 눈·귀·피부 같은 감각기관으로 신호를 받아들이고, 신경을 통해 뇌로 전달한다. 기계에서 감각기관의 역할을 하는 것이 <strong>센서(sensor)</strong> 이다. 센서는 빛, 소리, 온도, 압력, 움직임 같은 다양한 신호를 <strong>전기 신호(전압이나 전류의 변화)</strong> 로 바꾼다. 전기 신호로 바뀌어야 컴퓨터가 측정하고 처리할 수 있다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>스마트폰 속 센서</th>
+<th>받아들이는 신호</th>
+<th>쓰임</th>
+</tr>
+</thead><tbody><tr>
+<td>마이크</td>
+<td>소리(공기의 떨림)</td>
+<td>통화, 녹음, 음성 인식</td>
+</tr>
+<tr>
+<td>카메라</td>
+<td>빛</td>
+<td>사진, 영상, 얼굴 인식</td>
+</tr>
+<tr>
+<td>가속도 센서</td>
+<td>움직임의 변화</td>
+<td>화면 회전, 걸음 수 세기</td>
+</tr>
+<tr>
+<td>자이로 센서</td>
+<td>회전</td>
+<td>게임, 손떨림 보정</td>
+</tr>
+<tr>
+<td>조도 센서</td>
+<td>주변의 밝기</td>
+<td>화면 밝기 자동 조절</td>
+</tr>
+<tr>
+<td>기압 센서</td>
+<td>공기의 압력</td>
+<td>높이 변화(층수) 추정</td>
+</tr>
+<tr>
+<td>위성 항법 수신기</td>
+<td>위성의 전파 신호</td>
+<td>위치 확인(1-1단원 GPS)</td>
+</tr>
+</tbody></table></div>
+<aside class="callout note"><p class="callout-title">성취기준·참고</p><p>센서가 &#39;어떻게&#39; 신호를 전기 신호로 바꾸는지(작동 원리)는 이 과목에서 다루지 않는다. 여기서는 <strong>&quot;센서가 다양한 신호를 전기 신호로 바꾼다&quot;</strong> 는 역할에 집중한다.</p>
+</aside>
+<h3 id="1-4-②-아날로그와-디지털">1-4-② 아날로그와 디지털</h3>
+<p>센서에서 나온 전기 신호는 처음에는 자연의 변화를 그대로 따라 <strong>연속적으로</strong> 변한다. 이처럼 연속적으로 변하는 값으로 나타낸 신호를 <strong>아날로그 신호(analog signal)</strong> 라 한다. 반면 정해진 몇 개의 값(흔히 0과 1)만으로 띄엄띄엄 나타낸 신호를 <strong>디지털 신호(digital signal)</strong> 라 한다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>아날로그</th>
+<th>디지털</th>
+</tr>
+</thead><tbody><tr>
+<td>값의 모양</td>
+<td>연속적(미끄럼틀)</td>
+<td>띄엄띄엄(계단)</td>
+</tr>
+<tr>
+<td>예</td>
+<td>바늘 시계, 수은 온도계, LP 레코드, 사람의 목소리</td>
+<td>숫자 시계, 디지털 온도계, 음원 파일, 봉수의 횃불 개수</td>
+</tr>
+<tr>
+<td>잡음(노이즈)</td>
+<td>잡음이 섞이면 원래 신호와 구별하기 어렵다</td>
+<td>0인지 1인지만 구별하면 되므로 잡음에 강하다</td>
+</tr>
+<tr>
+<td>복사·전송</td>
+<td>복사하거나 멀리 보낼수록 품질이 떨어진다</td>
+<td>여러 번 복사·전송해도 품질이 거의 그대로이다</td>
+</tr>
+<tr>
+<td>저장·처리</td>
+<td>저장 매체가 낡으면 품질이 떨어진다</td>
+<td>컴퓨터로 저장·검색·편집·압축·암호화가 쉽다</td>
+</tr>
+<tr>
+<td>한계</td>
+<td>자연의 변화를 그대로 담는다</td>
+<td>변환할 때 아주 작은 차이는 버려진다</td>
+</tr>
+</tbody></table></div>
+<h4 id="왜-디지털은-잡음에-강할까">왜 디지털은 잡음에 강할까?</h4>
+<p>먼 곳으로 신호를 보내면 도중에 신호가 약해지고 잡음이 섞인다. 아날로그 신호는 잡음이 섞인 모양 자체가 &#39;새로운 신호&#39;처럼 보여 원래 모양을 되살릴 수 없다. 하지만 디지털 신호는 받는 쪽에서 <strong>&quot;이 값은 0에 가까운가, 1에 가까운가?&quot;</strong> 만 판단하면 되므로, 잡음이 조금 섞여도 원래의 0과 1을 깨끗하게 <strong>되살려(재생)</strong> 다시 보낼 수 있다.</p>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 아날로그 전달은 &#39;귓속말 이어 전하기 게임&#39;과 같다. 사람을 거칠수록 말이 조금씩 변해 끝에서는 엉뚱한 말이 된다. 디지털 전달은 &#39;손가락으로 숫자 1~5만 보여 주며 이어 전하기&#39;와 같다. 손가락이 조금 구부러져 있어도 몇 개인지는 정확히 알 수 있으니, 끝까지 같은 숫자가 전해진다. 조선의 봉수도 횃불 &#39;개수&#39;를 전했기 때문에 먼 곳까지 정확하게 전달될 수 있었다.</p>
+</aside>
+<h3 id="1-4-③-아날로그-신호를-디지털로-바꾸기-표본화-양자화-부호화">1-4-③ 아날로그 신호를 디지털로 바꾸기 — 표본화, 양자화, 부호화</h3>
+<p>아날로그 신호를 디지털 정보로 바꾸는 과정은 크게 세 단계로 이루어진다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-1-4-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 1175.21875 107.5" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-1-4-2{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-1-4-2 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-1-4-2 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-1-4-2 .error-icon{fill:var(--mm-group);}#mm-1-4-2 .error-text{fill:#595959;stroke:#595959;}#mm-1-4-2 .edge-thickness-normal{stroke-width:1px;}#mm-1-4-2 .edge-thickness-thick{stroke-width:3.5px;}#mm-1-4-2 .edge-pattern-solid{stroke-dasharray:0;}#mm-1-4-2 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-1-4-2 .edge-pattern-dashed{stroke-dasharray:3;}#mm-1-4-2 .edge-pattern-dotted{stroke-dasharray:2;}#mm-1-4-2 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-1-4-2 .marker.cross{stroke:var(--mm-line);}#mm-1-4-2 svg{font-family:inherit;font-size:15px;}#mm-1-4-2 p{margin:0;}#mm-1-4-2 .label{font-family:inherit;color:var(--mm-text);}#mm-1-4-2 .cluster-label text{fill:#595959;}#mm-1-4-2 .cluster-label span{color:#595959;}#mm-1-4-2 .cluster-label span p{background-color:transparent;}#mm-1-4-2 .label text,#mm-1-4-2 span{fill:var(--mm-text);color:var(--mm-text);}#mm-1-4-2 .node rect,#mm-1-4-2 .node circle,#mm-1-4-2 .node ellipse,#mm-1-4-2 .node polygon,#mm-1-4-2 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-1-4-2 .rough-node .label text,#mm-1-4-2 .node .label text,#mm-1-4-2 .image-shape .label,#mm-1-4-2 .icon-shape .label{text-anchor:middle;}#mm-1-4-2 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-1-4-2 .rough-node .label,#mm-1-4-2 .node .label,#mm-1-4-2 .image-shape .label,#mm-1-4-2 .icon-shape .label{text-align:center;}#mm-1-4-2 .node.clickable{cursor:pointer;}#mm-1-4-2 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-1-4-2 .arrowheadPath{fill:#0b0b0b;}#mm-1-4-2 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-1-4-2 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-1-4-2 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-1-4-2 .edgeLabel p{background-color:var(--mm-label);}#mm-1-4-2 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-1-4-2 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-1-4-2 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-1-4-2 .cluster text{fill:#595959;}#mm-1-4-2 .cluster span{color:#595959;}#mm-1-4-2 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-1-4-2 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-1-4-2 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-1-4-2 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-1-4-2 rect.text{fill:none;stroke-width:0;}#mm-1-4-2 .icon-shape,#mm-1-4-2 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-1-4-2 .icon-shape p,#mm-1-4-2 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-1-4-2 .icon-shape .label rect,#mm-1-4-2 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-1-4-2 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-1-4-2 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-1-4-2 .node .neo-node{stroke:var(--mm-border);}#mm-1-4-2 [data-look="neo"].node rect,#mm-1-4-2 [data-look="neo"].cluster rect,#mm-1-4-2 [data-look="neo"].node polygon{stroke:url(#mm-1-4-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-1-4-2 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-1-4-2 [data-look="neo"].node path{stroke:url(#mm-1-4-2-gradient);stroke-width:1px;}#mm-1-4-2 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-1-4-2 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-1-4-2 [data-look="neo"].node circle{stroke:url(#mm-1-4-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-1-4-2 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-1-4-2 [data-look="neo"].icon-shape .icon{fill:url(#mm-1-4-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-1-4-2 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-1-4-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-1-4-2 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-1-4-2_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-2_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-2_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-2_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-2_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-2_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-2_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-2_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-2_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-2_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-4-2_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-1-4-2_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M150.172,53.75L154.339,53.75C158.505,53.75,166.839,53.75,174.505,53.75C182.172,53.75,189.172,53.75,192.672,53.75L196.172,53.75" id="mm-1-4-2-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTUwLjE3MTg3NSwieSI6NTMuNzV9LHsieCI6MTc1LjE3MTg3NSwieSI6NTMuNzV9LHsieCI6MjAwLjE3MTg3NSwieSI6NTMuNzV9XQ==" data-look="classic" marker-end="url(#mm-1-4-2_flowchart-v2-pointEnd)"/><path d="M444.844,53.75L449.01,53.75C453.177,53.75,461.51,53.75,469.177,53.75C476.844,53.75,483.844,53.75,487.344,53.75L490.844,53.75" id="mm-1-4-2-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6NDQ0Ljg0Mzc1LCJ5Ijo1My43NX0seyJ4Ijo0NjkuODQzNzUsInkiOjUzLjc1fSx7IngiOjQ5NC44NDM3NSwieSI6NTMuNzV9XQ==" data-look="classic" marker-end="url(#mm-1-4-2_flowchart-v2-pointEnd)"/><path d="M742.844,53.75L747.01,53.75C751.177,53.75,759.51,53.75,767.177,53.75C774.844,53.75,781.844,53.75,785.344,53.75L788.844,53.75" id="mm-1-4-2-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6NzQyLjg0Mzc1LCJ5Ijo1My43NX0seyJ4Ijo3NjcuODQzNzUsInkiOjUzLjc1fSx7IngiOjc5Mi44NDM3NSwieSI6NTMuNzV9XQ==" data-look="classic" marker-end="url(#mm-1-4-2_flowchart-v2-pointEnd)"/><path d="M984.188,53.75L988.354,53.75C992.521,53.75,1000.854,53.75,1008.521,53.75C1016.188,53.75,1023.188,53.75,1026.688,53.75L1030.188,53.75" id="mm-1-4-2-L_D_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_E_0" data-points="W3sieCI6OTg0LjE4NzUsInkiOjUzLjc1fSx7IngiOjEwMDkuMTg3NSwieSI6NTMuNzV9LHsieCI6MTAzNC4xODc1LCJ5Ijo1My43NX1d" data-look="classic" marker-end="url(#mm-1-4-2_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-1-4-2-flowchart-A-0" data-look="classic" transform="translate(79.0859375, 53.75)"><rect class="basic label-container" style="" x="-71.0859375" y="-34.5" width="142.171875" height="69"/><g class="label" style="" transform="translate(-47.0859375, -22.5)"><rect/><foreignObject width="94.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>아날로그 신호<br />연속적인 파형</p></span></div></foreignObject></g></g><g class="node default" id="mm-1-4-2-flowchart-B-1" data-look="classic" transform="translate(322.5078125, 53.75)"><rect class="basic label-container" style="" x="-122.3359375" y="-34.5" width="244.671875" height="69"/><g class="label" style="" transform="translate(-98.3359375, -22.5)"><rect/><foreignObject width="196.671875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>① 표본화<br />일정한 시간 간격으로 값 읽기</p></span></div></foreignObject></g></g><g class="node default" id="mm-1-4-2-flowchart-C-3" data-look="classic" transform="translate(618.84375, 53.75)"><rect class="basic label-container" style="" x="-124" y="-45.75" width="248" height="91.5"/><g class="label" style="" transform="translate(-100, -33.75)"><rect/><foreignObject width="200" height="67.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table; white-space: break-spaces; line-height: 1.5; max-width: 200px; text-align: center; width: 200px;"><span class="nodeLabel"><p>② 양자화<br />정해진 단계 중 가장 가까운 값으로</p></span></div></foreignObject></g></g><g class="node default" id="mm-1-4-2-flowchart-D-5" data-look="classic" transform="translate(888.515625, 53.75)"><rect class="basic label-container" style="" x="-95.671875" y="-34.5" width="191.34375" height="69"/><g class="label" style="" transform="translate(-71.671875, -22.5)"><rect/><foreignObject width="143.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>③ 부호화<br />단계 번호를 이진수로</p></span></div></foreignObject></g></g><g class="node default" id="mm-1-4-2-flowchart-E-7" data-look="classic" transform="translate(1100.703125, 53.75)"><rect class="basic label-container" style="" x="-66.515625" y="-34.5" width="133.03125" height="69"/><g class="label" style="" transform="translate(-42.515625, -22.5)"><rect/><foreignObject width="85.03125" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>디지털 정보<br />0과 1의 나열</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-1-4-2-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-1-4-2-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-1-4-2-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><div class="table-wrap"><table><thead><tr>
+<th>단계</th>
+<th>하는 일</th>
+<th>비유</th>
+</tr>
+</thead><tbody><tr>
+<td><strong>표본화(sampling)</strong></td>
+<td>연속적인 신호를 <strong>일정한 시간 간격</strong>으로 끊어 그 순간의 값을 읽는다</td>
+<td>동영상을 1초에 몇 장의 사진으로 찍기</td>
+</tr>
+<tr>
+<td><strong>양자화(quantization)</strong></td>
+<td>읽은 값을 <strong>정해진 몇 단계</strong> 중 가장 가까운 단계로 맞춘다</td>
+<td>키를 &#39;1 cm 단위&#39;로 반올림하기</td>
+</tr>
+<tr>
+<td><strong>부호화(encoding)</strong></td>
+<td>각 단계의 번호를 <strong>0과 1(이진수)</strong> 로 바꾼다</td>
+<td>단계 번호를 이진수 암호로 적기</td>
+</tr>
+</tbody></table></div>
+<h4 id="예제-2-하루-기온을-디지털로">예제 2 — 하루 기온을 디지털로</h4>
+<p>어느 날 기온을 4시간마다 표본화했더니 다음과 같았다. 0~40 °C를 <strong>3비트(8단계)</strong> 로 양자화하여 부호화하시오. (한 단계 = 40 ÷ 8 = 5 °C, 0단계는 0 이상 5 미만, 1단계는 5 이상 10 미만, …, 7단계는 35 이상 40 이하로 정한다.)</p>
+<div class="table-wrap"><table><thead><tr>
+<th>시각</th>
+<th>0시</th>
+<th>4시</th>
+<th>8시</th>
+<th>12시</th>
+<th>16시</th>
+<th>20시</th>
+</tr>
+</thead><tbody><tr>
+<td>기온(°C)</td>
+<td>12.4</td>
+<td>9.8</td>
+<td>14.1</td>
+<td>23.0</td>
+<td>26.7</td>
+<td>18.2</td>
+</tr>
+</tbody></table></div>
+<p><strong>풀이</strong> 각 단계는 5 °C 폭의 구간 하나를 대표하므로, 측정값이 들어 있는 구간의 단계 번호로 맞춘다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>시각</th>
+<th>기온(°C)</th>
+<th>양자화 단계</th>
+<th>부호(3비트)</th>
+</tr>
+</thead><tbody><tr>
+<td>0시</td>
+<td>12.4</td>
+<td>2 (10~15)</td>
+<td>010</td>
+</tr>
+<tr>
+<td>4시</td>
+<td>9.8</td>
+<td>1 (5~10)</td>
+<td>001</td>
+</tr>
+<tr>
+<td>8시</td>
+<td>14.1</td>
+<td>2 (10~15)</td>
+<td>010</td>
+</tr>
+<tr>
+<td>12시</td>
+<td>23.0</td>
+<td>4 (20~25)</td>
+<td>100</td>
+</tr>
+<tr>
+<td>16시</td>
+<td>26.7</td>
+<td>5 (25~30)</td>
+<td>101</td>
+</tr>
+<tr>
+<td>20시</td>
+<td>18.2</td>
+<td>3 (15~20)</td>
+<td>011</td>
+</tr>
+</tbody></table></div>
+<p>하루의 기온이 <code>010 001 010 100 101 011</code>, 즉 18비트의 디지털 정보가 되었다. 그런데 12.4 °C와 14.1 °C가 같은 부호(010)가 되었다. <strong>양자화 과정에서 5 °C보다 작은 차이는 버려진 것</strong>이다. 또 4시간 사이에 기온이 잠깐 크게 변했더라도 표본화하지 않은 순간이므로 기록되지 않는다.</p>
+<h4 id="더-정확하게-바꾸려면">더 정확하게 바꾸려면?</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>방법</th>
+<th>효과</th>
+<th>대가</th>
+</tr>
+</thead><tbody><tr>
+<td><strong>표본화를 더 촘촘하게</strong>(1초에 더 많이 읽기)</td>
+<td>빠르게 변하는 신호도 놓치지 않는다</td>
+<td>데이터 양이 늘어난다</td>
+</tr>
+<tr>
+<td><strong>양자화 단계를 더 잘게</strong>(비트 수 늘리기)</td>
+<td>작은 차이도 구별한다</td>
+<td>데이터 양이 늘어난다</td>
+</tr>
+</tbody></table></div>
+<p>예제 2에서 3비트 대신 8비트(256단계)를 쓰면 한 단계가 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">40</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">÷</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">256</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0.16</span></span></span></span> °C가 되어 훨씬 세밀하게 기록할 수 있다. 그러나 같은 시간 동안 데이터 양은 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">8/3</span></span></span></span>배(약 2.7배)로 늘어난다. 디지털 변환은 언제나 <strong>정확도와 데이터 양 사이의 균형</strong>을 정하는 일이다.</p>
+<h4 id="예제-3-음악-cd는-어떻게-소리를-담았을까">예제 3 — 음악 CD는 어떻게 소리를 담았을까?</h4>
+<p>음악 CD는 소리를 1초에 44 100번 표본화하고, 한 번에 16비트로 양자화하며, 왼쪽·오른쪽 두 채널(스테레오)을 기록한다. 1분 동안의 음악은 몇 비트이며, 약 몇 MB인가?</p>
+<p><strong>풀이</strong></p>
+<ul>
+<li>1초: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">44</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">100</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">16</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">411</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">200</span></span></span></span> 비트</li>
+<li>1분: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">411</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">200</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">60</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">84</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">672</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span></span></span></span> 비트</li>
+<li>바이트로: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">84</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">672</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">÷</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">8</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">584</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span></span></span></span> B ≒ <strong>약 10.6 MB</strong></li>
+</ul>
+<aside class="callout note"><p class="callout-title">성취기준·참고</p><p>왜 하필 1초에 44 100번일까? 사람이 들을 수 있는 가장 높은 소리는 약 20 000 Hz이다. 빠르게 진동하는 소리를 놓치지 않으려면 그 진동수의 <strong>2배보다 조금 더 촘촘하게</strong> 표본화해야 하기 때문이다(STEP 5). 반대로 통화 음성은 1초에 8000번 정도만 표본화해도 알아들을 수 있어, 데이터 양을 크게 줄인다.</p>
+</aside>
+<h3 id="1-4-④-세상의-모든-것을-0과-1로-문자-그림-소리">1-4-④ 세상의 모든 것을 0과 1로 — 문자, 그림, 소리</h3>
+<h4 id="문자">문자</h4>
+<p>글자마다 번호를 정해 두고 그 번호를 이진수로 저장한다. 예를 들어 널리 쓰이는 문자 부호 체계에서 영어 대문자 &#39;A&#39;는 65번이며, 8비트로 <code>01000001</code>이다. 한글처럼 글자 수가 많은 문자는 더 많은 비트를 써서 나타낸다.</p>
+<h4 id="그림과-영상">그림과 영상</h4>
+<p>중학교에서 배운 것처럼 화면의 한 점(<strong>화소, pixel</strong>)은 빨강·초록·파랑 빛의 밝기를 합성하여 색을 만든다. 각 색의 밝기를 8비트(256단계)로 나타내면 한 화소는 24비트(3바이트)가 되고, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">25</span><span class="mord"><span class="mord">6</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">16</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">777</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">216</span></span></span></span>가지 색을 표현할 수 있다.</p>
+<h4 id="예제-4-사진-한-장의-데이터-양">예제 4 — 사진 한 장의 데이터 양</h4>
+<p>가로 4000개, 세로 3000개 화소로 이루어진 사진(1200만 화소)을 화소당 3바이트로 압축 없이 저장하면 몇 MB인가?</p>
+<p><strong>풀이</strong> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">4000</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">3000</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">3</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">36</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span></span></span></span> B = <strong>36 MB</strong></p>
+<p>실제 스마트폰 사진 파일은 이보다 훨씬 작다. 사람이 잘 알아채지 못하는 정보를 줄이는 <strong>압축</strong> 기술 덕분이다. 압축도 디지털 정보이기에 가능한 처리이다.</p>
+<h4 id="예제-5-몇-비트가-필요할까">예제 5 — 몇 비트가 필요할까?</h4>
+<p>어떤 센서 값을 100단계 이상으로 구별하여 기록하려면 최소 몇 비트가 필요한가?</p>
+<p><strong>풀이</strong> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">6</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6835em;vertical-align:-0.0391em;"></span><span class="mord">64</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7804em;vertical-align:-0.136em;"></span><span class="mord">100</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">7</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">128</span></span></span></span>이므로 <strong>7비트</strong></p>
+<h3 id="1-4-⑤-디지털-정보-통신과-현대-문명">1-4-⑤ 디지털 정보 통신과 현대 문명</h3>
+<h4 id="정보를-전하는-방법의-변화">정보를 전하는 방법의 변화</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>시대</th>
+<th>방법</th>
+<th>특징</th>
+</tr>
+</thead><tbody><tr>
+<td>조선 시대</td>
+<td>봉수(횃불·연기), 파발(말을 탄 전령)</td>
+<td>봉수는 횃불 개수로 정보를 전한 디지털 방식의 원형</td>
+</tr>
+<tr>
+<td>1840년대</td>
+<td>전신(모스 부호)</td>
+<td>점(짧은 신호)과 선(긴 신호)으로 글자를 전송. 전기로 먼 곳까지 즉시 전달</td>
+</tr>
+<tr>
+<td>1870년대</td>
+<td>전화</td>
+<td>목소리를 아날로그 전기 신호로 바꾸어 전송</td>
+</tr>
+<tr>
+<td>20세기</td>
+<td>라디오, 텔레비전</td>
+<td>전파로 소리와 영상을 동시에 많은 사람에게 전달</td>
+</tr>
+<tr>
+<td>20세기 후반~</td>
+<td>인터넷, 이동 통신, 광통신</td>
+<td>모든 정보를 디지털로 바꾸어 전 세계로 주고받음</td>
+</tr>
+</tbody></table></div>
+<p>우리나라는 2012년 말 지상파 아날로그 텔레비전 방송을 끝내고 디지털 방송으로 완전히 바꾸었다. 같은 전파 대역으로 더 선명한 영상과 더 많은 채널을 보낼 수 있기 때문이다.</p>
+<h4 id="빛과-전파로-0과-1을-나르다">빛과 전파로 0과 1을 나르다</h4>
+<ul>
+<li><strong>광통신</strong>: 머리카락처럼 가는 유리 섬유(<strong>광섬유</strong>) 속으로 레이저 빛을 깜빡여 0과 1을 보낸다. 빛은 섬유 안에서 반사를 거듭하며 멀리까지 전달된다. 대륙과 대륙 사이의 인터넷 데이터 대부분은 바다 밑에 깔린 <strong>해저 광케이블</strong>을 통해 오간다.</li>
+<li><strong>무선 통신</strong>: 이동 통신, 와이파이, 위성 통신은 전파에 0과 1을 실어 보낸다.</li>
+<li><strong>통신의 한계</strong>: 신호도 빛의 속력보다 빠를 수는 없다. 화성까지는 거리에 따라 전파가 가는 데만 약 3분에서 20분 넘게 걸리므로, 화성 탐사 로봇은 지구의 실시간 조종 없이 스스로 판단하는 기능이 필요하다.</li>
+</ul>
+<h4 id="현대-문명에-미친-영향">현대 문명에 미친 영향</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>분야</th>
+<th>긍정적 변화</th>
+<th>함께 생각할 문제</th>
+</tr>
+</thead><tbody><tr>
+<td>생활·소통</td>
+<td>언제 어디서나 영상 통화, 메시지, 정보 검색</td>
+<td>디지털 기기 과의존, 가짜 뉴스의 빠른 확산</td>
+</tr>
+<tr>
+<td>안전</td>
+<td>지진 조기 경보, 긴급 재난 문자, 위치 기반 구조</td>
+<td>경보 오류나 통신 장애 시의 혼란</td>
+</tr>
+<tr>
+<td>의료</td>
+<td>의료 영상 공유, 원격 진료, 착용형 기기로 건강 관찰</td>
+<td>민감한 건강 정보의 유출 위험</td>
+</tr>
+<tr>
+<td>과학</td>
+<td>대량의 관측 데이터 분석(천문, 기후, 유전체)</td>
+<td>데이터 품질과 해석의 신뢰성</td>
+</tr>
+<tr>
+<td>경제·산업</td>
+<td>전자 상거래, 디지털 금융, 스마트 공장</td>
+<td>일자리 변화, 디지털 격차(정보 접근의 불평등)</td>
+</tr>
+<tr>
+<td>환경</td>
+<td>종이·이동 감소</td>
+<td>데이터 센터의 전력 소비, 전자 폐기물 증가</td>
+</tr>
+</tbody></table></div>
+<aside class="callout important"><p class="callout-title">핵심</p><p>디지털 정보 통신은 거리와 시간의 벽을 크게 낮추어 현대 문명의 모습을 바꾸었다. 동시에 개인 정보 보호, 디지털 격차, 에너지 소비 같은 새로운 과제도 만들었다. 과학기술의 영향은 <strong>이익과 위험을 함께 따져 보는 태도</strong>로 바라보아야 한다. 이 주제는 통합과학2의 &#39;과학과 미래 사회&#39; 영역에서 더 깊이 다룬다.</p>
+</aside>
+<hr>
+<h2 id="step-4" class="step-h s4"><span class="step-badge s4">STEP 4</span><span class="h-text">오개념 바로잡기</span></h2>
+<div class="table-wrap"><table><thead><tr>
+<th>흔한 오개념</th>
+<th>올바른 개념</th>
+<th>왜 그럴까?</th>
+</tr>
+</thead><tbody><tr>
+<td>신호와 정보는 같은 것이다</td>
+<td>신호는 <strong>전달되는 변화</strong>이고, 정보는 신호를 <strong>측정·분석해 얻은 의미 있는 내용</strong>이다</td>
+<td>천둥소리(신호)를 재고 분석해야 번개까지의 거리(정보)를 안다</td>
+</tr>
+<tr>
+<td>디지털은 전자 기기나 컴퓨터를 뜻한다</td>
+<td>디지털은 정보를 <strong>정해진 몇 개의 값(띄엄띄엄한 값)</strong> 으로 나타내는 방식이다</td>
+<td>조선의 봉수도 횃불 개수라는 디지털 방식으로 정보를 전했다</td>
+</tr>
+<tr>
+<td>디지털로 바꾼 소리는 원래 소리와 완벽히 같다</td>
+<td>표본화와 양자화에서 <strong>아주 작은 차이는 버려진다</strong>. 다만 사람이 느끼기 어려운 수준으로 정할 뿐이다</td>
+<td>표본 사이의 변화와 양자화 단계보다 작은 차이는 기록되지 않는다</td>
+</tr>
+<tr>
+<td>표본화 횟수와 비트 수는 많을수록 무조건 좋다</td>
+<td>정확해지는 만큼 <strong>데이터 양이 늘어</strong> 저장·전송 부담이 커진다</td>
+<td>목적에 맞게 정확도와 데이터 양의 균형을 정한다(통화 음성 vs 음악)</td>
+</tr>
+<tr>
+<td>아날로그는 낡아서 쓸모없다</td>
+<td>자연의 신호와 센서가 처음 만드는 전기 신호는 <strong>아날로그</strong>이고, 스피커가 내는 소리도 결국 아날로그이다</td>
+<td>디지털은 아날로그 세계를 다루기 위한 <strong>중간 단계</strong>이다</td>
+</tr>
+<tr>
+<td>1 kB는 항상 1024 B이다</td>
+<td>국제 표준(SI 접두어)에서 1 kB = <strong>1000 B</strong>이고, 1024 B는 1 KiB로 구별한다</td>
+<td>컴퓨터가 2의 거듭제곱을 쓰다 보니 관습적으로 섞여 쓰였다</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-5" class="step-h s5"><span class="step-badge s5">STEP 5</span><span class="h-text">선택과목·대학으로 한 걸음 더</span></h2>
+<aside class="callout caution"><p class="callout-title">심화 · 평가 범위 밖</p><p>이 절은 <strong>통합과학 교육과정 범위 밖의 심화 내용</strong>으로 평가 대상이 아니다. &quot;이 개념이 앞으로 어디까지 이어지는가&quot;를 맛보기로 보여 주기 위한 내용이다.</p>
+</aside>
+<h3 id="고2-3-선택과목과의-연결">고2·3 선택과목과의 연결</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>과목</th>
+<th>이어지는 내용</th>
+</tr>
+</thead><tbody><tr>
+<td>물리학</td>
+<td>전자기 유도가 센서·무선 통신 등에 적용되어 현대 문명에 미친 영향 [12물리02-06]</td>
+</tr>
+<tr>
+<td>전자기와 양자</td>
+<td>편광을 활용한 디지털 정보 기술 [12전자02-03], 광전 효과와 디지털 영상 정보·광센서 [12전자02-04], 레이저와 디지털 광통신 [12전자02-05], 양자 암호 통신 [12전자03-02]</td>
+</tr>
+<tr>
+<td>융합과학 탐구</td>
+<td>과학 탐구에서 데이터의 종류와 가치 [12융탐01-03], 디지털 탐구 도구 활용 [12융탐01-04]</td>
+</tr>
+<tr>
+<td>정보(정보 교과)</td>
+<td>이진수와 자료의 표현, 알고리즘, 프로그래밍</td>
+</tr>
+</tbody></table></div>
+<h3 id="①-표본화-정리-얼마나-자주-재야-할까">① 표본화 정리: 얼마나 자주 재야 할까?</h3>
+<p>통신 이론에서는 다음 사실이 증명되어 있다(<strong>표본화 정리</strong>, 나이퀴스트–섀넌 정리).</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.1076em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord hangul_fallback mtight">표본화</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord">2</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.1076em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord hangul_fallback mtight">최대</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></p>
+<p>신호에 들어 있는 가장 높은 진동수의 <strong>2배보다 자주</strong> 표본화하면, 표본들로부터 원래의 아날로그 신호를 이론적으로 되살릴 수 있다. 이보다 드물게 표본화하면 빠른 진동이 엉뚱한 느린 진동처럼 보이는 <strong>에일리어싱(aliasing)</strong> 이 생긴다. 동영상에서 빠르게 도는 자동차 바퀴가 천천히 거꾸로 도는 것처럼 보이는 현상이 그 예이다.</p>
+<h3 id="②-정보량은-비트로-잰다">② 정보량은 비트로 잰다</h3>
+<p>1948년 섀넌은 정보의 양을 수학적으로 정의하여 <strong>정보 이론</strong>을 세웠다. 똑같이 가능한 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span></span></span></span>가지 경우 중 하나를 알려 주는 정보의 양은</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">정보량</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.9386em;vertical-align:-0.2441em;"></span><span class="mop"><span class="mop">lo<span style="margin-right:0.01389em;">g</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.207em;"><span style="top:-2.4559em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2441em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mspace"> </span><span class="mord text"><span class="mord hangul_fallback">비트</span></span></span></span></span></span></p>
+<p>이다. 예를 들어 동전 던지기 결과(2가지)는 1비트, 주사위 결과(6가지)는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9386em;vertical-align:-0.2441em;"></span><span class="mop"><span class="mop">lo<span style="margin-right:0.01389em;">g</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.207em;"><span style="top:-2.4559em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2441em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">6</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">2.58</span></span></span></span>비트이다. 대학에서는 이를 바탕으로 데이터 압축의 한계와, 잡음이 있는 통신로로 보낼 수 있는 최대 정보량을 배운다.</p>
+<h3 id="③-오류를-스스로-찾아내는-부호">③ 오류를 스스로 찾아내는 부호</h3>
+<p>디지털 통신에서는 잡음 때문에 0이 1로 바뀌는 오류가 생길 수 있다. 가장 간단한 대책은 <strong>패리티 비트</strong>이다. 예를 들어 &#39;1의 개수가 늘 짝수가 되도록&#39; 끝에 비트 하나를 덧붙이기로 약속한다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>보낼 데이터</th>
+<th>1의 개수</th>
+<th>패리티 비트</th>
+<th>실제로 보내는 비트</th>
+</tr>
+</thead><tbody><tr>
+<td>1011001</td>
+<td>4개(짝수)</td>
+<td>0</td>
+<td>10110010</td>
+</tr>
+<tr>
+<td>1101000</td>
+<td>3개(홀수)</td>
+<td>1</td>
+<td>11010001</td>
+</tr>
+</tbody></table></div>
+<p>받는 쪽에서 1의 개수가 홀수라면 &quot;도중에 오류가 생겼다&quot;는 것을 알 수 있다. 대학의 &#39;부호 이론&#39;에서는 오류를 찾을 뿐 아니라 <strong>스스로 고치는</strong> 부호를 배우며, 이런 기술이 QR 코드, 저장 장치, 우주 탐사선 통신에 쓰인다.</p>
+<h3 id="고등학교-vs-대학교">고등학교 vs 대학교</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>고등학교 통합과학</th>
+<th>대학교 전자공학·컴퓨터공학·통신공학</th>
+</tr>
+</thead><tbody><tr>
+<td>신호</td>
+<td>자연의 변화가 전달된 것, 시간–값 그래프</td>
+<td>신호를 수학 함수로 다룸, 진동수 성분으로 분해(푸리에 해석)</td>
+</tr>
+<tr>
+<td>디지털 변환</td>
+<td>표본화·양자화·부호화의 개념</td>
+<td>표본화 정리, 양자화 잡음, 변환 회로 설계</td>
+</tr>
+<tr>
+<td>정보</td>
+<td>비트와 바이트, 데이터 양 계산</td>
+<td>정보 이론, 압축 알고리즘, 오류 정정 부호</td>
+</tr>
+<tr>
+<td>통신</td>
+<td>광통신·무선 통신의 활용과 영향</td>
+<td>변조 방식, 통신망 설계, 암호 기술</td>
+</tr>
+<tr>
+<td>관련 전공</td>
+<td>—</td>
+<td>전자공학, 정보통신공학, 컴퓨터공학, 소프트웨어학, 데이터과학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-6" class="step-h s6"><span class="step-badge s6">STEP 6</span><span class="h-text">산업 현장과 진로 연결</span></h2>
+<h3 id="사례-1-이동-통신과-광통신-0과-1의-고속도로">사례 1. 이동 통신과 광통신 — 0과 1의 고속도로</h3>
+<ul>
+<li><strong>원리</strong> 목소리·영상·문자를 모두 디지털로 바꾸어 전파(이동 통신)나 빛(광섬유)에 실어 보낸다. 디지털이므로 중간에서 신호를 되살려 다시 보내며 품질을 유지한다.</li>
+<li><strong>어디에 쓰이나</strong> 스마트폰, 인터넷, 방송, 금융 거래, 자율주행차와 원격 의료의 실시간 통신.</li>
+<li><strong>핵심 숫자</strong> 5G 이동 통신에는 3.5 GHz 대역 등이 쓰인다. 대륙 사이의 데이터 대부분은 해저 광케이블로 오간다.</li>
+</ul>
+<h3 id="사례-2-재난-경보-신호가-생명을-지키는-정보가-되기까지">사례 2. 재난 경보 — 신호가 생명을 지키는 정보가 되기까지</h3>
+<ul>
+<li><strong>원리</strong> 전국의 지진계가 지진파 신호를 측정 → 디지털 데이터로 바꾸어 실시간 전송 → 컴퓨터가 자동으로 위치·규모 분석 → 경보 발표 → 휴대 전화 재난 문자.</li>
+<li><strong>어디에 쓰이나</strong> 기상청은 일정 규모 이상의 지진이 관측되면 자동 분석으로 지진 조기 경보를 발표한다. 전파는 지진파보다 훨씬 빠르므로, 진앙에서 떨어진 지역에서는 강한 흔들림이 오기 전에 경보를 받을 수 있다.</li>
+<li><strong>핵심 아이디어</strong> &#39;신호 → 측정 → 디지털 변환 → 분석 → 정보 → 전송&#39;의 모든 단계가 빨라야 경보가 의미를 가진다.</li>
+</ul>
+<h3 id="사례-3-디지털-헬스케어">사례 3. 디지털 헬스케어</h3>
+<ul>
+<li><strong>원리</strong> 심전도, 맥박, 혈중 산소 같은 몸의 신호를 착용형 기기가 측정하여 디지털 정보로 바꾸고, 스마트폰과 병원으로 전송한다.</li>
+<li><strong>어디에 쓰이나</strong> 만성 질환자의 원격 관찰, 의료 영상(X선, CT, MRI)의 디지털 저장과 공유.</li>
+<li><strong>함께 생각할 점</strong> 건강 정보는 매우 민감한 개인 정보이므로 암호화와 접근 관리가 필수이다.</li>
+</ul>
+<h3 id="사례-4-메모리-반도체-0과-1을-담는-그릇">사례 4. 메모리 반도체 — 0과 1을 담는 그릇</h3>
+<ul>
+<li><strong>원리</strong> 디지털 정보는 결국 어딘가에 0과 1로 저장되어야 한다. 메모리 반도체는 아주 작은 칸마다 0 또는 1을 저장하며, 손톱만 한 칩 하나에 수천억 개 이상의 비트를 담는다.</li>
+<li><strong>우리나라</strong> 우리나라는 메모리 반도체 생산에서 세계적인 위치에 있으며, 데이터 센터·스마트폰·인공지능 산업의 성장과 함께 그 중요성이 더 커지고 있다.</li>
+</ul>
+<h3 id="관련-진로와-학과">관련 진로와 학과</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>진로</th>
+<th>하는 일</th>
+<th>관련 학과</th>
+</tr>
+</thead><tbody><tr>
+<td>통신 엔지니어</td>
+<td>이동 통신·광통신망 설계와 운영</td>
+<td>전자공학, 정보통신공학</td>
+</tr>
+<tr>
+<td>신호 처리·음향 엔지니어</td>
+<td>소리·영상의 디지털 변환, 압축, 잡음 제거</td>
+<td>전자공학, 음향공학, 컴퓨터공학</td>
+</tr>
+<tr>
+<td>데이터 과학자</td>
+<td>측정 데이터에서 의미 있는 정보 찾기</td>
+<td>통계학, 컴퓨터공학, 데이터과학</td>
+</tr>
+<tr>
+<td>의료기기 엔지니어</td>
+<td>생체 신호 측정·전송 기기 개발</td>
+<td>의공학, 전자공학</td>
+</tr>
+<tr>
+<td>정보 보안 전문가</td>
+<td>디지털 정보의 암호화, 해킹 방어</td>
+<td>정보보호학, 컴퓨터공학</td>
+</tr>
+<tr>
+<td>반도체 설계·공정 엔지니어</td>
+<td>메모리·센서 칩 설계와 생산</td>
+<td>전자공학, 신소재공학, 물리학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="탐구-활동-스마트-기기를-활용하여-신호를-측정하고-디지털-정보로-분석하기">탐구 활동 — 스마트 기기를 활용하여 신호를 측정하고 디지털 정보로 분석하기</h2>
+<blockquote><p>교육과정 탐구 활동 &#39;스마트 기기를 활용하여 여러 가지 기본량을 측정하고 분석하기&#39;를 신호와 정보의 관점으로 확장한 활동이다.</p>
+</blockquote>
+<h3 id="활동-a-스마트폰으로-소리-신호를-디지털로-들여다보기-모둠-활동">활동 A. 스마트폰으로 소리 신호를 디지털로 들여다보기 (모둠 활동)</h3>
+<p><strong>목표</strong> 스마트폰으로 소리 신호를 측정하여 디지털 데이터로 기록하고, 표본화와 데이터 양의 관계를 분석한다.</p>
+<p><strong>준비물</strong> 스마트폰(과학 실험 앱 또는 녹음 앱), 소리굽쇠나 악기(또는 온라인 음 발생기), 이어폰</p>
+<p><strong>과정</strong></p>
+<ol>
+<li>과학 실험 앱의 소리(파형) 측정 기능을 켜고, 소리굽쇠나 악기 소리를 측정한다.</li>
+<li>파형을 최대로 확대하여 <strong>매끄러운 곡선이 사실은 점(표본)들을 이은 것</strong>임을 확인하고, 일정 시간 동안 점의 개수를 세어 대략적인 표본화 빈도를 추정한다.</li>
+<li>같은 소리를 크게·작게, 높게·낮게 바꾸어 측정하고 파형의 진폭과 진동수가 어떻게 달라지는지 기록한다.</li>
+<li>녹음 앱에서 설정(음질)을 바꿀 수 있다면, 같은 10초 소리를 &#39;낮은 음질&#39;과 &#39;높은 음질&#39;로 각각 녹음하여 파일 크기를 비교하고 들어 본다.</li>
+<li>가능하면 가속도 센서로 책상 두드리기의 진동도 측정하여, 소리 이외의 신호도 같은 방식(시간–값 데이터)으로 기록됨을 확인한다.</li>
+</ol>
+<p><strong>결과 기록</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>측정 조건</th>
+<th>관찰한 파형의 특징</th>
+<th>추정한 표본화 빈도</th>
+<th>파일 크기</th>
+<th>들었을 때의 느낌</th>
+</tr>
+</thead><tbody><tr>
+<td>높은 음, 큰 소리</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>낮은 음, 작은 소리</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>낮은 음질 녹음(10초)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>높은 음질 녹음(10초)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<p><strong>생각해 보기</strong></p>
+<ol>
+<li>높은 음질 녹음의 파일이 더 큰 이유를 &#39;표본화&#39;와 &#39;양자화&#39;로 설명해 보자.</li>
+<li>통화 음성과 음악 녹음에 서로 다른 표본화 빈도를 쓰는 까닭은 무엇일까?</li>
+<li>측정한 소리 데이터에서 &#39;신호&#39;와 &#39;정보&#39;는 각각 무엇인지 구분해 보자.</li>
+</ol>
+<aside class="callout warning"><p class="callout-title">주의</p><p><strong>안전 수칙</strong> 소리를 측정하거나 들을 때 이어폰 음량을 너무 크게 하지 않는다. 큰 소리를 오래 들으면 청력이 손상될 수 있다.</p>
+</aside>
+<h3 id="활동-b-종이-위의-아날로그-디지털-변환-놀이-짝-활동">활동 B. 종이 위의 아날로그–디지털 변환 놀이 (짝 활동)</h3>
+<ol>
+<li>교사가 나누어 준 &#39;하루 기온 곡선&#39;(매끄러운 아날로그 그래프)을 보고, 4시간 간격으로 값을 읽는다(표본화).</li>
+<li>0~40 °C를 2비트(4단계)와 3비트(8단계)로 각각 양자화하고 이진수로 부호화한다.</li>
+<li>0과 1의 나열만 짝에게 전달한다. 짝은 이것만 보고 그래프를 다시 그린다(복원).</li>
+<li>원래 곡선과 복원한 그래프를 겹쳐 비교한다. 이번에는 1시간 간격으로 표본화하여 다시 해 본다.</li>
+<li>&#39;표본화 간격&#39;과 &#39;비트 수&#39;가 복원 결과와 데이터 양(비트 수)에 어떤 영향을 주는지 표로 정리한다.</li>
+</ol>
+<div class="table-wrap"><table><thead><tr>
+<th>표본화 간격</th>
+<th>비트 수</th>
+<th>전체 데이터 양(비트)</th>
+<th>복원 그래프와 원래 곡선의 차이</th>
+</tr>
+</thead><tbody><tr>
+<td>4시간</td>
+<td>2비트</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4시간</td>
+<td>3비트</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1시간</td>
+<td>3비트</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="개념-확인-문제">개념 확인 문제</h2>
+<h3 id="기본">기본</h3>
+<p><strong>1.</strong> 다음을 아날로그 방식과 디지털 방식으로 구분하시오.
+ㄱ. 수은 온도계 ㄴ. 숫자로 표시되는 체중계 ㄷ. LP 레코드 ㄹ. 스마트폰 음원 파일 ㅁ. 조선의 봉수</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 아날로그: ㄱ, ㄷ / 디지털: ㄴ, ㄹ, ㅁ</p>
+<p>수은 기둥의 높이와 레코드 홈의 모양은 연속적으로 변한다. 숫자 표시, 음원 파일, 봉수의 횃불 개수는 정해진 몇 개의 값만으로 정보를 나타낸다.</p>
+</div></details>
+
+<p><strong>2.</strong> (1) 이진수 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9996em;vertical-align:-0.3552em;"></span><span class="mord">1101</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.5198em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mopen mtight">(</span><span class="mord mtight">2</span><span class="mclose mtight">)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.3552em;"><span></span></span></span></span></span></span></span></span></span>를 십진수로, (2) 십진수 37을 이진수로 나타내시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> (1) 26 (2) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9996em;vertical-align:-0.3552em;"></span><span class="mord">10010</span><span class="mord"><span class="mord">1</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.5198em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mopen mtight">(</span><span class="mord mtight">2</span><span class="mclose mtight">)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.3552em;"><span></span></span></span></span></span></span></span></span></span></p>
+<p>(1) 자릿값 16, 8, 4, 2, 1 → <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">16</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">8</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">26</span></span></span></span>
+(2) 37 = 32 + 4 + 1 → 32의 자리 1, 16의 자리 0, 8의 자리 0, 4의 자리 1, 2의 자리 0, 1의 자리 1 → <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9996em;vertical-align:-0.3552em;"></span><span class="mord">10010</span><span class="mord"><span class="mord">1</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.5198em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mopen mtight">(</span><span class="mord mtight">2</span><span class="mclose mtight">)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.3552em;"><span></span></span></span></span></span></span></span></span></span></p>
+</div></details>
+
+<p><strong>3.</strong> 아날로그 신호를 디지털 정보로 바꾸는 과정을 순서대로 나열하시오.
+ㄱ. 읽은 값을 정해진 단계 중 가장 가까운 값으로 맞춘다.
+ㄴ. 각 단계의 번호를 0과 1로 나타낸다.
+ㄷ. 일정한 시간 간격으로 신호의 값을 읽는다.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> ㄷ → ㄱ → ㄴ</p>
+<p>표본화(ㄷ) → 양자화(ㄱ) → 부호화(ㄴ)의 순서이다.</p>
+</div></details>
+
+<p><strong>4.</strong> 5비트로 나타낼 수 있는 서로 다른 값은 모두 몇 가지인가? 또 1바이트는 몇 비트인가?</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 32가지, 8비트</p>
+<p><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">5</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">32</span></span></span></span></p>
+</div></details>
+
+<h3 id="응용">응용</h3>
+<p><strong>5.</strong> 0~100 °C 범위의 온도를 측정하는 장치가 있다. (1) 이 범위를 4비트로 양자화하면 한 단계는 몇 °C인가? (2) 한 단계를 0.5 °C 이하로 만들려면 최소 몇 비트가 필요한가?</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> (1) 6.25 °C (2) 8비트</p>
+<p>(1) 4비트 = <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">4</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">16</span></span></span></span>단계 → <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">100</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">÷</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">16</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">6.25</span></span></span></span> °C
+(2) 한 단계가 0.5 °C 이하이려면 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">100</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">÷</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0.5</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">200</span></span></span></span>단계 이상이 필요하다. <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">7</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6835em;vertical-align:-0.0391em;"></span><span class="mord">128</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7804em;vertical-align:-0.136em;"></span><span class="mord">200</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">256</span></span></span></span>이므로 <strong>8비트</strong>이다(이때 한 단계 ≒ 0.39 °C).</p>
+</div></details>
+
+<p><strong>6.</strong> 어떤 녹음 장치가 소리를 1초에 48 000번 표본화하고, 한 번에 16비트로 양자화하여 한 채널(모노)로 녹음한다. 10초 동안 녹음한 데이터의 양은 몇 바이트인가? (압축은 하지 않는다.)</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 960 000 B (0.96 MB)</p>
+<p><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">48</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">16</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">7</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">680</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span></span></span></span> 비트 → <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">7</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">680</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">÷</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">8</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">960</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span></span></span></span> B</p>
+</div></details>
+
+<p><strong>7.</strong> 디지털 신호에 대한 설명으로 옳은 것을 <strong>모두</strong> 고르시오.
+ㄱ. 전송 도중 잡음이 조금 섞여도 0과 1을 구별하여 원래 신호를 되살릴 수 있다.
+ㄴ. 아날로그 신호를 디지털로 바꾸면 원래 신호의 모든 정보가 빠짐없이 보존된다.
+ㄷ. 표본화 빈도를 높이면 더 정확해지지만 데이터 양이 늘어난다.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답 ㄱ, ㄷ</strong></p>
+<p>ㄴ. 표본과 표본 사이의 변화, 양자화 단계보다 작은 차이는 버려지므로 모든 정보가 보존되는 것은 아니다. 틀렸다.</p>
+</div></details>
+
+<h3 id="융합-서술형">융합·서술형</h3>
+<p><strong>8. [산업 연계]</strong> 지진 조기 경보 시스템에서 &#39;지진파&#39;가 &#39;휴대 전화의 재난 문자&#39;가 되기까지의 과정을 <strong>신호, 센서, 디지털 변환, 정보, 정보 통신</strong>이라는 말을 모두 사용하여 서술하고, 이 과정에서 디지털 방식이 유리한 점을 한 가지 쓰시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+땅속 암석이 끊어지는 자연의 변화가 지진파라는 <strong>신호</strong>로 전달된다. 지진계의 <strong>센서</strong>가 이 땅의 떨림을 전기 신호로 바꾸고, 이를 표본화·양자화·부호화하는 <strong>디지털 변환</strong>을 거쳐 0과 1의 데이터로 만든다. 여러 지진계의 데이터를 컴퓨터가 분석하여 지진의 위치와 규모라는 <strong>정보</strong>를 산출하고, 이 정보가 <strong>정보 통신</strong>망을 통해 휴대 전화에 재난 문자로 전달된다.
+디지털 방식의 유리한 점: 먼 거리를 전송해도 잡음에 강해 데이터가 정확하게 전달되며, 컴퓨터가 많은 관측소의 데이터를 빠르게 자동 분석할 수 있다.</p>
+<p><strong>채점 포인트</strong> ① 다섯 용어를 올바른 순서와 의미로 사용 ② 측정·분석을 거쳐 정보가 됨을 서술 ③ 디지털의 장점(잡음에 강함, 자동 처리 등)</p>
+</div></details>
+
+<p><strong>9. [대학·사회 연계]</strong> 착용형 심전도 기기가 심장의 전기 신호를 1초에 250번 표본화하고, 한 번에 12비트로 양자화하여 기록한다(한 채널, 압축 없음).
+(1) 하루(86 400초) 동안의 데이터 양을 MB 단위로 구하시오. (1 MB = <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">6</span></span></span></span></span></span></span></span></span></span></span></span> B)
+(2) 이 기술이 의료에 주는 이익과, 사회적으로 함께 고려해야 할 문제를 각각 한 가지씩 서술하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> (1) 약 32.4 MB</p>
+<p>(1) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">250</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">12</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">86</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">400</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">259</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">200</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span></span></span></span> 비트 → <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">÷</span><span class="mord">8</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">32</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">400</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span></span></span></span> B = <strong>32.4 MB</strong></p>
+<p><strong>예시 답안</strong> (2)</p>
+<ul>
+<li>이익: 병원에 가지 않아도 일상생활 중의 심장 신호를 오랫동안 기록·전송할 수 있어, 가끔씩만 나타나는 이상 증상을 발견하거나 원격으로 환자를 관찰할 수 있다.</li>
+<li>함께 고려할 문제: 심장 신호 같은 건강 정보는 매우 민감한 개인 정보이므로, 저장·전송할 때 유출되지 않도록 암호화와 접근 관리가 필요하다. 또 이런 기기를 쓰기 어려운 사람과의 디지털 격차 문제도 고려해야 한다.</li>
+</ul>
+<p><strong>채점 포인트</strong> ① 계산(비트 → 바이트 → MB) ② 구체적인 이익 ③ 개인 정보·격차 등 사회적 문제</p>
+</div></details>
+
+<hr>
+<h2 id="한눈에-정리">한눈에 정리</h2>
+<h3 id="핵심-요약">핵심 요약</h3>
+<ul>
+<li>자연의 변화가 전달되면 <strong>신호</strong>가 되고, 신호를 <strong>측정·분석</strong>하면 <strong>정보</strong>가 된다.</li>
+<li><strong>센서</strong>는 빛, 소리, 온도, 움직임 등의 다양한 신호를 <strong>전기 신호</strong>로 바꾼다(작동 원리는 다루지 않는다).</li>
+<li><strong>아날로그 신호</strong>는 연속적인 값, <strong>디지털 신호</strong>는 정해진 몇 개의 값(0과 1)으로 정보를 나타낸다. 디지털은 잡음에 강하고 복사·저장·처리가 쉽다.</li>
+<li>아날로그 → 디지털 변환: <strong>표본화</strong>(일정 간격으로 읽기) → <strong>양자화</strong>(정해진 단계로 맞추기) → <strong>부호화</strong>(이진수로 바꾸기).</li>
+<li><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span>비트는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6644em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">n</span></span></span></span></span></span></span></span></span></span></span></span>가지 값을 나타낸다. 표본화를 촘촘히, 비트를 많이 할수록 정확하지만 <strong>데이터 양</strong>이 늘어난다.</li>
+<li>디지털 정보 통신(광통신, 이동 통신, 인터넷)은 현대 문명을 크게 바꾸었으며, 개인 정보·디지털 격차·에너지 소비 같은 과제도 함께 가져왔다.</li>
+</ul>
+<h3 id="핵심-용어">핵심 용어</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>용어</th>
+<th>뜻</th>
+</tr>
+</thead><tbody><tr>
+<td>신호</td>
+<td>자연계의 변화가 공간을 거쳐 전달되는 것</td>
+</tr>
+<tr>
+<td>정보</td>
+<td>신호를 측정·분석하여 얻은 의미 있는 내용</td>
+</tr>
+<tr>
+<td>센서</td>
+<td>다양한 신호를 전기 신호로 바꾸는 장치</td>
+</tr>
+<tr>
+<td>아날로그 신호</td>
+<td>연속적으로 변하는 값으로 나타낸 신호</td>
+</tr>
+<tr>
+<td>디지털 신호</td>
+<td>정해진 몇 개의 값(주로 0과 1)으로 띄엄띄엄 나타낸 신호</td>
+</tr>
+<tr>
+<td>표본화</td>
+<td>연속적인 신호를 일정한 시간 간격으로 끊어 값을 읽는 과정</td>
+</tr>
+<tr>
+<td>양자화</td>
+<td>읽은 값을 정해진 단계 중 가장 가까운 값으로 맞추는 과정</td>
+</tr>
+<tr>
+<td>부호화</td>
+<td>양자화한 단계 번호를 0과 1의 이진수로 바꾸는 과정</td>
+</tr>
+<tr>
+<td>비트 / 바이트</td>
+<td>0 또는 1 하나(정보의 최소 단위) / 8비트</td>
+</tr>
+</tbody></table></div>
+<h3 id="다음-단원으로">다음 단원으로</h3>
+<p>이 단원에서 자연의 변화가 신호가 되고, 신호를 측정·분석하면 정보가 된다는 것을 배웠다. 인류가 받는 신호 가운데 가장 멀리서 오는 것은 <strong>별빛</strong>이다. 다음 단원에서는 우주에서 온 빛을 색깔별로 나눈 <strong>스펙트럼</strong>이라는 신호를 분석하여, 우주 초기에 만들어진 원소와 천체를 이루는 물질이라는 정보를 알아내는 방법을 탐구한다.</p>
+<nav class="pager"><a class="prev" href="1-3.html"><small>이전 단원</small>1-3 측정과 어림, 측정 표준</a><a class="next" href="2-1.html"><small>다음 단원</small>2-1 빛의 스펙트럼과 우주 초기 원소</a></nav></article></div>
+</main>
+</div>
+</body>
+</html>

@@ -1,0 +1,916 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>2-5 지각과 생명체 구성 물질의 규칙성</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css">
+<link rel="stylesheet" href="assets/book.css">
+<script src="assets/js/book.js" defer></script>
+
+</head>
+<body class="">
+<header class="topbar">
+  <button class="menu-btn" id="menu-btn" aria-controls="drawer" aria-expanded="false">목차</button>
+  <a class="brand" href="index.html">통합과학 개념에서 산업까지</a>
+  <button class="theme-btn" id="theme-btn" aria-label="밝은 화면과 어두운 화면 바꾸기">화면</button>
+</header>
+<div class="shell">
+<aside class="drawer" id="drawer"><nav class="book-nav" aria-label="교재 목차"><a class="nav-home" href="index.html">처음으로</a><p class="nav-book">통합과학1</p><p class="nav-unit"><span>1단원</span> 과학의 기초</p><ul><li><a href="1-1.html"><span class="nav-id">1-1</span>시간과 공간</a></li><li><a href="1-2.html"><span class="nav-id">1-2</span>기본량과 단위</a></li><li><a href="1-3.html"><span class="nav-id">1-3</span>측정과 어림, 측정 표준</a></li><li><a href="1-4.html"><span class="nav-id">1-4</span>정보와 신호: 아날로그에서 디지털로</a></li></ul><p class="nav-unit"><span>2단원</span> 물질과 규칙성</p><ul><li><a href="2-1.html"><span class="nav-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="2-2.html"><span class="nav-id">2-2</span>별의 진화와 원소의 생성</a></li><li><a href="2-3.html"><span class="nav-id">2-3</span>원소의 주기성과 화학 결합의 이유</a></li><li><a href="2-4.html"><span class="nav-id">2-4</span>이온 결합과 공유 결합</a></li><li><a href="2-5.html" aria-current="page"><span class="nav-id">2-5</span>지각과 생명체 구성 물질의 규칙성</a></li><li><a href="2-6.html"><span class="nav-id">2-6</span>물질의 전기적 성질과 소재</a></li></ul><p class="nav-unit"><span>3단원</span> 시스템과 상호작용</p><ul><li><a href="3-1.html"><span class="nav-id">3-1</span>지구시스템의 구성과 상호작용</a></li><li><a href="3-2.html"><span class="nav-id">3-2</span>판구조론과 지권의 변화</a></li><li><a href="3-3.html"><span class="nav-id">3-3</span>중력과 운동</a></li><li><a href="3-4.html"><span class="nav-id">3-4</span>운동량과 충격량</a></li><li><a href="3-5.html"><span class="nav-id">3-5</span>생명 시스템과 물질대사</a></li><li><a href="3-6.html"><span class="nav-id">3-6</span>유전자와 단백질</a></li></ul><p class="nav-book">통합과학2</p><p class="nav-unit"><span>4단원</span> 변화와 다양성</p><ul><li><a href="4-1.html"><span class="nav-id">4-1</span>지질시대의 환경 변화와 생물다양성</a></li><li><a href="4-2.html"><span class="nav-id">4-2</span>진화와 생물다양성</a></li><li><a href="4-3.html"><span class="nav-id">4-3</span>산화와 환원</a></li><li><a href="4-4.html"><span class="nav-id">4-4</span>산과 염기, 중화 반응</a></li><li><a href="4-5.html"><span class="nav-id">4-5</span>물질 변화와 에너지 출입</a></li></ul><p class="nav-unit"><span>5단원</span> 환경과 에너지</p><ul><li><a href="5-1.html"><span class="nav-id">5-1</span>생태계 구성 요소와 상호 관계</a></li><li><a href="5-2.html"><span class="nav-id">5-2</span>생태계 평형</a></li><li><a href="5-3.html"><span class="nav-id">5-3</span>지구온난화와 기후변화</a></li><li><a href="5-4.html"><span class="nav-id">5-4</span>태양 에너지와 에너지 전환</a></li><li><a href="5-5.html"><span class="nav-id">5-5</span>발전기와 전기 에너지</a></li><li><a href="5-6.html"><span class="nav-id">5-6</span>에너지 효율과 신재생 에너지</a></li></ul><p class="nav-unit"><span>6단원</span> 과학과 미래 사회</p><ul><li><a href="6-1.html"><span class="nav-id">6-1</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html"><span class="nav-id">6-2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html"><span class="nav-id">6-3</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html"><span class="nav-id">6-4</span>과학기술과 윤리</a></li></ul><p class="nav-book">부록</p><ul><li><a href="guide.html">교재 설계 안내</a></li><li><a href="appendix-standards.html">부록 1. 교육과정 성취기준</a></li><li><a href="appendix-map.html">부록 2. 연계 지도</a></li><li><a href="appendix-glossary.html">부록 3. 핵심 용어 사전</a></li></ul></nav></aside>
+<main class="main" id="main">
+<div class="lesson-grid"><nav class="ladder" aria-label="이 단원의 흐름"><p class="ladder-title">이 단원의 흐름</p><ol><li class="extra"><a href="#단원-들어가기">단원 들어가기</a></li><li class="s1"><a href="#step-1"><b>STEP 1</b> 중학교 다시 보기</a></li><li class="s2"><a href="#step-2"><b>STEP 2</b> 기초 다지기</a></li><li class="s3"><a href="#step-3"><b>STEP 3</b> 핵심 개념</a></li><li class="s4"><a href="#step-4"><b>STEP 4</b> 오개념 바로잡기</a></li><li class="s5"><a href="#step-5"><b>STEP 5</b> 선택과목·대학으로 한 걸음 더</a></li><li class="s6"><a href="#step-6"><b>STEP 6</b> 산업 현장과 진로 연결</a></li><li class="extra"><a href="#탐구-활동-dna-모형을-제작하고-dna의-구조적-특징과-규칙성-탐구하기">탐구 활동 — DNA 모형을 제작하고 DNA의 구조적 특징과 규칙성 탐구하기</a></li><li class="extra"><a href="#개념-확인-문제">개념 확인 문제</a></li><li class="extra"><a href="#한눈에-정리">한눈에 정리</a></li></ol></nav><article class="prose lesson"><header class="lesson-hero u2">
+  <p class="eyebrow">통합과학1 · 2단원 물질과 규칙성</p>
+  <h1><span class="lesson-id">2-5</span>지각과 생명체 구성 물질의 규칙성</h1>
+  <p class="lesson-sub">작은 단위체가 만드는 거대한 다양성</p>
+</header><aside class="callout note"><p class="callout-title">성취기준·참고</p><p><strong>성취기준 [10통과1-02-05]</strong> 지각과 생명체를 구성하는 물질들이 기본 단위체의 결합을 통해서 형성된다는 것을 규산염 광물, 단백질과 핵산의 예를 통해 설명할 수 있다.</p>
+</aside>
+<p><strong>학습 목표</strong></p>
+<ol>
+<li>지각과 생명체를 구성하는 주요 원소를 비교하고, 규소와 탄소가 물질의 &#39;뼈대&#39;가 될 수 있는 이유를 원자가 전자 수로 설명할 수 있다.</li>
+<li>규산염 광물이 Si–O 사면체를 기본 단위로 하며, 사면체가 연결되는 방식에 따라 서로 다른 광물이 만들어짐을 설명할 수 있다.</li>
+<li>단백질은 아미노산이, 핵산은 뉴클레오타이드가 결합하여 만들어지며, 단위체의 종류와 배열 순서에 따라 다양한 구조와 기능이 나타남을 설명할 수 있다.</li>
+<li>DNA 모형을 만들어 이중 나선 구조와 염기의 상보적 결합 규칙(A–T, G–C)을 확인할 수 있다.</li>
+</ol>
+<p><strong>이 단원의 학습 사다리</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>단계</th>
+<th>무엇을 하나?</th>
+</tr>
+</thead><tbody><tr>
+<td>STEP 1. 중학교 다시 보기</td>
+<td>조암 광물, 소화(단백질 → 아미노산), 염색체와 유전자를 다시 꺼내 본다</td>
+</tr>
+<tr>
+<td>STEP 2. 기초 다지기</td>
+<td>단위체와 중합체, 결합 손의 개수, 지각·생명체의 구성 원소, 경우의 수를 디딤돌로 놓는다</td>
+</tr>
+<tr>
+<td>STEP 3. 핵심 개념</td>
+<td>Si–O 사면체 → 사면체의 연결과 광물 → 단백질 → 핵산과 DNA → 공통 규칙</td>
+</tr>
+<tr>
+<td>STEP 4. 오개념 바로잡기</td>
+<td>&quot;단백질은 20종류뿐이다?&quot;, &quot;DNA 두 가닥의 서열은 같다?&quot;를 바로잡는다</td>
+</tr>
+<tr>
+<td>STEP 5. 선택과목·대학</td>
+<td>규산염 광물의 화학식, 단백질의 1~4차 구조, DNA 복제와 구조 연구의 역사</td>
+</tr>
+<tr>
+<td>STEP 6. 산업·진로</td>
+<td>유리·세라믹·시멘트, 바이오의약품과 단백질 공학, DNA 분석과 유전자 검사</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="단원-들어가기">단원 들어가기</h2>
+<p>해변의 모래, 교실 창문의 유리, 건물을 받치는 콘크리트, 그리고 여러분의 손톱과 머리카락, 몸속 효소, 세포핵 속 유전 정보. 전혀 관계없어 보이는 이 물질들에는 공통점이 하나 있다. 모두 <strong>작은 기본 단위가 수없이 반복해서 연결된 물질</strong>이라는 점이다.</p>
+<p>알파벳 26자로 셰익스피어의 희곡도, 오늘의 뉴스 기사도 쓸 수 있다. 글자는 몇 개 안 되지만 <strong>배열하는 방법</strong>이 끝없이 다양하기 때문이다. 자연도 같은 전략을 쓴다. 지각은 &#39;Si–O 사면체&#39;라는 하나의 블록을, 생명체는 20종류의 &#39;아미노산&#39;과 4종류의 &#39;뉴클레오타이드&#39;라는 블록을 서로 다른 방식으로 이어 붙여 수많은 물질을 만든다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-2-5-0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 708.359375 442" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-2-5-0{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-2-5-0 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-2-5-0 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-2-5-0 .error-icon{fill:var(--mm-group);}#mm-2-5-0 .error-text{fill:#595959;stroke:#595959;}#mm-2-5-0 .edge-thickness-normal{stroke-width:1px;}#mm-2-5-0 .edge-thickness-thick{stroke-width:3.5px;}#mm-2-5-0 .edge-pattern-solid{stroke-dasharray:0;}#mm-2-5-0 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-2-5-0 .edge-pattern-dashed{stroke-dasharray:3;}#mm-2-5-0 .edge-pattern-dotted{stroke-dasharray:2;}#mm-2-5-0 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-2-5-0 .marker.cross{stroke:var(--mm-line);}#mm-2-5-0 svg{font-family:inherit;font-size:15px;}#mm-2-5-0 p{margin:0;}#mm-2-5-0 .label{font-family:inherit;color:var(--mm-text);}#mm-2-5-0 .cluster-label text{fill:#595959;}#mm-2-5-0 .cluster-label span{color:#595959;}#mm-2-5-0 .cluster-label span p{background-color:transparent;}#mm-2-5-0 .label text,#mm-2-5-0 span{fill:var(--mm-text);color:var(--mm-text);}#mm-2-5-0 .node rect,#mm-2-5-0 .node circle,#mm-2-5-0 .node ellipse,#mm-2-5-0 .node polygon,#mm-2-5-0 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-2-5-0 .rough-node .label text,#mm-2-5-0 .node .label text,#mm-2-5-0 .image-shape .label,#mm-2-5-0 .icon-shape .label{text-anchor:middle;}#mm-2-5-0 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-2-5-0 .rough-node .label,#mm-2-5-0 .node .label,#mm-2-5-0 .image-shape .label,#mm-2-5-0 .icon-shape .label{text-align:center;}#mm-2-5-0 .node.clickable{cursor:pointer;}#mm-2-5-0 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-2-5-0 .arrowheadPath{fill:#0b0b0b;}#mm-2-5-0 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-2-5-0 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-2-5-0 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-2-5-0 .edgeLabel p{background-color:var(--mm-label);}#mm-2-5-0 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-2-5-0 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-2-5-0 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-2-5-0 .cluster text{fill:#595959;}#mm-2-5-0 .cluster span{color:#595959;}#mm-2-5-0 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-2-5-0 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-2-5-0 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-2-5-0 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-2-5-0 rect.text{fill:none;stroke-width:0;}#mm-2-5-0 .icon-shape,#mm-2-5-0 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-2-5-0 .icon-shape p,#mm-2-5-0 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-2-5-0 .icon-shape .label rect,#mm-2-5-0 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-2-5-0 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-2-5-0 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-2-5-0 .node .neo-node{stroke:var(--mm-border);}#mm-2-5-0 [data-look="neo"].node rect,#mm-2-5-0 [data-look="neo"].cluster rect,#mm-2-5-0 [data-look="neo"].node polygon{stroke:url(#mm-2-5-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-5-0 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-2-5-0 [data-look="neo"].node path{stroke:url(#mm-2-5-0-gradient);stroke-width:1px;}#mm-2-5-0 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-5-0 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-2-5-0 [data-look="neo"].node circle{stroke:url(#mm-2-5-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-5-0 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-2-5-0 [data-look="neo"].icon-shape .icon{fill:url(#mm-2-5-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-5-0 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-2-5-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-5-0 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-2-5-0_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-0_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-0_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-0_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-0_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-0_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-0_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-0_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-0_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-0_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-0_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-2-5-0_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M346.422,42.286L310.685,48.488C274.948,54.69,203.474,67.095,167.737,78.673C132,90.25,132,101,132,106.375L132,111.75" id="mm-2-5-0-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MzQ2LjQyMTg3NSwieSI6NDIuMjg1NzM4MzcyOTA5OTN9LHsieCI6MTMyLCJ5Ijo3OS41fSx7IngiOjEzMiwieSI6MTE1Ljc1fV0=" data-look="classic" marker-end="url(#mm-2-5-0_flowchart-v2-pointEnd)"/><path d="M410.008,54.5L410.008,58.667C410.008,62.833,410.008,71.167,410.008,78.833C410.008,86.5,410.008,93.5,410.008,97L410.008,100.5" id="mm-2-5-0-L_A_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_C_0" data-points="W3sieCI6NDEwLjAwNzgxMjUsInkiOjU0LjV9LHsieCI6NDEwLjAwNzgxMjUsInkiOjc5LjV9LHsieCI6NDEwLjAwNzgxMjUsInkiOjEwNC41fV0=" data-look="classic" marker-end="url(#mm-2-5-0_flowchart-v2-pointEnd)"/><path d="M473.594,45.597L498.638,51.247C523.682,56.898,573.771,68.199,598.815,77.349C623.859,86.5,623.859,93.5,623.859,97L623.859,100.5" id="mm-2-5-0-L_A_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_D_0" data-points="W3sieCI6NDczLjU5Mzc1LCJ5Ijo0NS41OTY1MDAyMDA5Mjc5Mn0seyJ4Ijo2MjMuODU5Mzc1LCJ5Ijo3OS41fSx7IngiOjYyMy44NTkzNzUsInkiOjEwNC41fV0=" data-look="classic" marker-end="url(#mm-2-5-0_flowchart-v2-pointEnd)"/><path d="M132,162.25L132,170.167C132,178.083,132,193.917,132,207.208C132,220.5,132,231.25,132,236.625L132,242" id="mm-2-5-0-L_B_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_E_0" data-points="W3sieCI6MTMyLCJ5IjoxNjIuMjV9LHsieCI6MTMyLCJ5IjoyMDkuNzV9LHsieCI6MTMyLCJ5IjoyNDZ9XQ==" data-look="classic" marker-end="url(#mm-2-5-0_flowchart-v2-pointEnd)"/><path d="M410.008,173.5L410.008,179.542C410.008,185.583,410.008,197.667,410.008,210.958C410.008,224.25,410.008,238.75,410.008,246L410.008,253.25" id="mm-2-5-0-L_C_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_F_0" data-points="W3sieCI6NDEwLjAwNzgxMjUsInkiOjE3My41fSx7IngiOjQxMC4wMDc4MTI1LCJ5IjoyMDkuNzV9LHsieCI6NDEwLjAwNzgxMjUsInkiOjI1Ny4yNX1d" data-look="classic" marker-end="url(#mm-2-5-0_flowchart-v2-pointEnd)"/><path d="M623.859,173.5L623.859,179.542C623.859,185.583,623.859,197.667,623.859,210.958C623.859,224.25,623.859,238.75,623.859,246L623.859,253.25" id="mm-2-5-0-L_D_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_G_0" data-points="W3sieCI6NjIzLjg1OTM3NSwieSI6MTczLjV9LHsieCI6NjIzLjg1OTM3NSwieSI6MjA5Ljc1fSx7IngiOjYyMy44NTkzNzUsInkiOjI1Ny4yNX1d" data-look="classic" marker-end="url(#mm-2-5-0_flowchart-v2-pointEnd)"/><path d="M132,337.5L132,341.667C132,345.833,132,354.167,132,361.833C132,369.5,132,376.5,132,380L132,383.5" id="mm-2-5-0-L_E_H_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_H_0" data-points="W3sieCI6MTMyLCJ5IjozMzcuNX0seyJ4IjoxMzIsInkiOjM2Mi41fSx7IngiOjEzMiwieSI6Mzg3LjV9XQ==" data-look="classic" marker-end="url(#mm-2-5-0_flowchart-v2-pointEnd)"/><path d="M410.008,326.25L410.008,332.292C410.008,338.333,410.008,350.417,418.634,360.351C427.26,370.285,444.512,378.07,453.138,381.962L461.764,385.855" id="mm-2-5-0-L_F_I_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_F_I_0" data-points="W3sieCI6NDEwLjAwNzgxMjUsInkiOjMyNi4yNX0seyJ4Ijo0MTAuMDA3ODEyNSwieSI6MzYyLjV9LHsieCI6NDY1LjQwOTc3MTY5Njg5MTIsInkiOjM4Ny41fV0=" data-look="classic" marker-end="url(#mm-2-5-0_flowchart-v2-pointEnd)"/><path d="M623.859,326.25L623.859,332.292C623.859,338.333,623.859,350.417,615.233,360.351C606.607,370.285,589.355,378.07,580.729,381.962L572.103,385.855" id="mm-2-5-0-L_G_I_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_G_I_0" data-points="W3sieCI6NjIzLjg1OTM3NSwieSI6MzI2LjI1fSx7IngiOjYyMy44NTkzNzUsInkiOjM2Mi41fSx7IngiOjU2OC40NTc0MTU4MDMxMDg4LCJ5IjozODcuNX1d" data-look="classic" marker-end="url(#mm-2-5-0_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_A_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_A_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(132, 209.75)"><g class="label" data-id="L_B_E_0" transform="translate(-56.671875, -11.25)"><foreignObject width="113.34375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"><p>연결 방식이 다양</p></span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(410.0078125, 209.75)"><g class="label" data-id="L_C_F_0" transform="translate(-56.671875, -11.25)"><foreignObject width="113.34375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"><p>배열 순서가 다양</p></span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(623.859375, 209.75)"><g class="label" data-id="L_D_G_0" transform="translate(-56.671875, -11.25)"><foreignObject width="113.34375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"><p>염기 서열이 다양</p></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_H_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_F_I_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_G_I_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-2-5-0-flowchart-A-0" data-look="classic" transform="translate(410.0078125, 31.25)"><rect class="basic label-container" style="" x="-63.5859375" y="-23.25" width="127.171875" height="46.5"/><g class="label" style="" transform="translate(-39.5859375, -11.25)"><rect/><foreignObject width="79.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>기본 단위체</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-5-0-flowchart-B-1" data-look="classic" transform="translate(132, 139)"><rect class="basic label-container" style="" x="-63.5859375" y="-23.25" width="127.171875" height="46.5"/><g class="label" style="" transform="translate(-39.5859375, -11.25)"><rect/><foreignObject width="79.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>Si-O 사면체</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-5-0-flowchart-C-3" data-look="classic" transform="translate(410.0078125, 139)"><rect class="basic label-container" style="" x="-54" y="-34.5" width="108" height="69"/><g class="label" style="" transform="translate(-30, -22.5)"><rect/><foreignObject width="60" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>아미노산<br />20종류</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-5-0-flowchart-D-5" data-look="classic" transform="translate(623.859375, 139)"><rect class="basic label-container" style="" x="-76.5" y="-34.5" width="153" height="69"/><g class="label" style="" transform="translate(-52.5, -22.5)"><rect/><foreignObject width="105" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>뉴클레오타이드<br />4종류</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-5-0-flowchart-E-7" data-look="classic" transform="translate(132, 291.75)"><rect class="basic label-container" style="" x="-124" y="-45.75" width="248" height="91.5"/><g class="label" style="" transform="translate(-100, -33.75)"><rect/><foreignObject width="200" height="67.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table; white-space: break-spaces; line-height: 1.5; max-width: 200px; text-align: center; width: 200px;"><span class="nodeLabel"><p>규산염 광물<br />감람석, 휘석, 각섬석, 흑운모, 석영, 장석</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-5-0-flowchart-F-9" data-look="classic" transform="translate(410.0078125, 291.75)"><rect class="basic label-container" style="" x="-104.0078125" y="-34.5" width="208.015625" height="69"/><g class="label" style="" transform="translate(-80.0078125, -22.5)"><rect/><foreignObject width="160.015625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>단백질<br />효소, 항체, 호르몬, 근육</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-5-0-flowchart-G-11" data-look="classic" transform="translate(623.859375, 291.75)"><rect class="basic label-container" style="" x="-59.84375" y="-34.5" width="119.6875" height="69"/><g class="label" style="" transform="translate(-35.84375, -22.5)"><rect/><foreignObject width="71.6875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>핵산<br />DNA, RNA</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-5-0-flowchart-H-13" data-look="classic" transform="translate(132, 410.75)"><rect class="basic label-container" style="" x="-63.5859375" y="-23.25" width="127.171875" height="46.5"/><g class="label" style="" transform="translate(-39.5859375, -11.25)"><rect/><foreignObject width="79.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>지각을 구성</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-5-0-flowchart-I-15" data-look="classic" transform="translate(516.93359375, 410.75)"><rect class="basic label-container" style="" x="-71.0859375" y="-23.25" width="142.171875" height="46.5"/><g class="label" style="" transform="translate(-47.0859375, -11.25)"><rect/><foreignObject width="94.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>생명체를 구성</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-2-5-0-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-2-5-0-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-2-5-0-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><hr>
+<h2 id="step-1" class="step-h s1"><span class="step-badge s1">STEP 1</span><span class="h-text">중학교 다시 보기</span></h2>
+<h3 id="연계-개념표">연계 개념표</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>중학교 성취기준</th>
+<th>중학교에서 배운 것</th>
+<th>고등학교에서 확장되는 것</th>
+</tr>
+</thead><tbody><tr>
+<td>[9과09-02]</td>
+<td>조암 광물(석영, 장석, 흑운모, 각섬석, 휘석, 감람석)의 색, 조흔색, 굳기 등 특성 관찰</td>
+<td>조암 광물 대부분이 <strong>규산염 광물</strong>이며, 성질의 차이를 Si–O 사면체의 <strong>연결 방식</strong>으로 설명한다</td>
+</tr>
+<tr>
+<td>[9과09-03]</td>
+<td>화강암, 현무암 등 암석을 생성 과정에 따라 분류</td>
+<td>암석 → 광물 → Si–O 사면체로 이어지는 &#39;물질의 계층 구조&#39;</td>
+</tr>
+<tr>
+<td>[9과11-01], [9과11-02]</td>
+<td>원소와 화합물, 원자의 구성</td>
+<td>지각과 생명체를 이루는 원소의 비율과 결합 방식 비교</td>
+</tr>
+<tr>
+<td>[9과13-01]</td>
+<td>단백질은 펩신, 트립신 등 소화 효소에 의해 <strong>아미노산</strong>으로 분해된다</td>
+<td>단백질은 아미노산이 결합한 물질이며, 소화는 그 결합을 끊어 <strong>단위체로 되돌리는</strong> 과정이다</td>
+</tr>
+<tr>
+<td>[9과21-02]</td>
+<td>염색체와 유전자의 관계, 세포분열 시 염색체의 행동</td>
+<td>염색체 속 <strong>DNA의 구조</strong>(뉴클레오타이드, 이중 나선, 염기의 상보성)와 유전 정보 저장 방식</td>
+</tr>
+</tbody></table></div>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>앞 단원(2-4)에서 원자들이 공유 결합과 이온 결합으로 손을 잡는 방법을 배웠다. 이 단원에서는 그 결합으로 만들어진 <strong>작은 단위</strong>가 다시 서로 연결되어 <strong>큰 물질</strong>이 되는 다음 단계를 다룬다.</p>
+</aside>
+<h3 id="준비-운동-사전-진단">준비 운동 (사전 진단)</h3>
+<p><strong>Q1.</strong> 화강암을 이루는 주요 광물 세 가지를 쓰시오.</p>
+<p><strong>Q2.</strong> 단백질이 소화 기관에서 최종적으로 분해되어 만들어지는 물질은 무엇인가?</p>
+<p><strong>Q3.</strong> 다음 중 옳은 것을 고르시오.
+ㄱ. 염색체는 DNA와 단백질로 이루어져 있다.
+ㄴ. 유전자는 염색체 전체를 가리키는 말이다.</p>
+<p><strong>Q4.</strong> 석영과 방해석을 서로 긁었을 때 긁히는 쪽은 어느 것인가?</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>Q1.</strong> 석영, 장석, 흑운모 — 화강암은 밝은 색 광물(석영, 장석)이 많고 검은 점처럼 흑운모가 섞여 있다.</p>
+<p><strong>Q2.</strong> 아미노산 — 위의 펩신, 이자액의 트립신 등이 단백질을 점점 작게 분해하여 최종적으로 아미노산이 된다.</p>
+<p><strong>Q3. ㄱ</strong> — 유전자는 DNA 중에서 특정한 유전 정보를 담고 있는 <strong>일부분</strong>이다. 염색체 하나에는 많은 유전자가 들어 있다.</p>
+<p><strong>Q4.</strong> 방해석 — 석영이 방해석보다 단단하므로 석영으로 방해석을 긁으면 방해석에 흠집이 난다.</p>
+</div></details>
+
+<hr>
+<h2 id="step-2" class="step-h s2"><span class="step-badge s2">STEP 2</span><span class="h-text">기초 다지기</span></h2>
+<h3 id="①-단위체와-중합체-구슬과-목걸이">① 단위체와 중합체: 구슬과 목걸이</h3>
+<p>작은 분자가 여러 개 결합하여 만들어진 큰 분자를 <strong>중합체(polymer)</strong>, 중합체를 이루는 작은 기본 분자를 <strong>단위체(monomer)</strong> 라고 한다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>중합체</th>
+<th>단위체</th>
+<th>중학교 연결</th>
+</tr>
+</thead><tbody><tr>
+<td>녹말</td>
+<td>포도당</td>
+<td>녹말은 아밀레이스에 의해 분해된다</td>
+</tr>
+<tr>
+<td>단백질</td>
+<td>아미노산</td>
+<td>단백질은 펩신, 트립신에 의해 분해된다</td>
+</tr>
+<tr>
+<td>핵산(DNA, RNA)</td>
+<td>뉴클레오타이드</td>
+<td>염색체 속에 DNA가 있다</td>
+</tr>
+<tr>
+<td>플라스틱(폴리에틸렌)</td>
+<td>에틸렌</td>
+<td>생활 속 고분자 물질</td>
+</tr>
+</tbody></table></div>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 단위체는 &#39;구슬&#39;, 중합체는 &#39;구슬 목걸이&#39;이다. 같은 구슬이라도 몇 개를, 어떤 순서로, 어떤 모양으로 꿰느냐에 따라 전혀 다른 목걸이가 된다.</p>
+</aside>
+<p>규산염 광물은 생물의 고분자와 달리 &#39;분자&#39;는 아니지만, <strong>같은 기본 단위가 반복적으로 연결되어 큰 구조를 만든다</strong>는 점에서 같은 규칙을 따른다.</p>
+<h3 id="②-결합-손의-개수-왜-규소와-탄소가-39-뼈대-39-가-될까">② 결합 손의 개수: 왜 규소와 탄소가 &#39;뼈대&#39;가 될까?</h3>
+<p>2-4 단원에서 원자가 공유 결합할 때 내밀 수 있는 &#39;손&#39;의 수는 짝을 이루지 않은 원자가 전자 수와 관련 있다는 것을 배웠다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>원소</th>
+<th>족</th>
+<th>원자가 전자 수</th>
+<th>공유 결합의 손 개수(대표적)</th>
+</tr>
+</thead><tbody><tr>
+<td>수소 H</td>
+<td>1족</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>산소 O</td>
+<td>16족</td>
+<td>6</td>
+<td>2</td>
+</tr>
+<tr>
+<td>질소 N</td>
+<td>15족</td>
+<td>5</td>
+<td>3</td>
+</tr>
+<tr>
+<td>탄소 C</td>
+<td>14족</td>
+<td>4</td>
+<td><strong>4</strong></td>
+</tr>
+<tr>
+<td>규소 Si</td>
+<td>14족</td>
+<td>4</td>
+<td><strong>4</strong></td>
+</tr>
+</tbody></table></div>
+<p>손이 1개인 원자는 사슬의 &#39;끝&#39;만 될 수 있고, 손이 2개인 원자는 사슬을 이어 줄 수 있지만 갈라지지는 못한다. <strong>손이 4개인 원자는 사방으로 연결되며 사슬·고리·그물을 만들 수 있다.</strong> 같은 14족인 <strong>탄소</strong>와 <strong>규소</strong>가 각각 생명체와 지각에서 물질의 &#39;뼈대&#39; 역할을 하는 것은 우연이 아니다.</p>
+<h3 id="③-지각과-생명체는-무엇으로-이루어져-있을까">③ 지각과 생명체는 무엇으로 이루어져 있을까?</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>순위</th>
+<th>지각(질량 비율, 약)</th>
+<th>사람의 몸(질량 비율, 약)</th>
+</tr>
+</thead><tbody><tr>
+<td>1</td>
+<td>산소 O 46 %</td>
+<td>산소 O 65 %</td>
+</tr>
+<tr>
+<td>2</td>
+<td>규소 Si 28 %</td>
+<td>탄소 C 18 %</td>
+</tr>
+<tr>
+<td>3</td>
+<td>알루미늄 Al 8 %</td>
+<td>수소 H 10 %</td>
+</tr>
+<tr>
+<td>4</td>
+<td>철 Fe 5 %</td>
+<td>질소 N 3 %</td>
+</tr>
+<tr>
+<td>5</td>
+<td>칼슘 Ca, 나트륨 Na, 칼륨 K, 마그네슘 Mg 각각 2~4 %</td>
+<td>칼슘 Ca, 인 P 각각 1~2 %</td>
+</tr>
+</tbody></table></div>
+<p>(값은 자료에 따라 조금씩 다르며, 대표적인 어림값이다.)</p>
+<ul>
+<li>두 곳 모두 <strong>산소</strong>가 가장 많다.</li>
+<li>지각에서는 <strong>규소</strong>가 두 번째로 많고, 산소와 규소가 결합한 <strong>규산염 광물</strong>이 지각의 대부분을 이룬다.</li>
+<li>생명체에서는 물(H₂O) 때문에 산소와 수소가 많고, 그다음으로 <strong>탄소</strong>가 많다. 탄소는 단백질, 핵산, 탄수화물, 지질의 뼈대를 이룬다.</li>
+</ul>
+<h3 id="④-수학-도구-경우의-수로-다양성-어림하기">④ 수학 도구: 경우의 수로 다양성 어림하기</h3>
+<p>서로 다른 종류의 블록 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span></span></span></span>가지를 사용해 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span>개를 한 줄로 늘어놓는 방법의 수는 (같은 블록을 여러 번 써도 된다면)</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7778em;vertical-align:-0.0833em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7778em;vertical-align:-0.0833em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="minner">⋯</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7144em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7144em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span></span></span></span></span></span></span></span></span></p>
+<p>이다. 예를 들어 4종류의 블록으로 3칸을 채우는 방법은 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord">4</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">64</span></span></span></span>가지, 20종류의 블록으로 3칸을 채우는 방법은 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">2</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">8000</span></span></span></span>가지이다. 블록 종류가 적어도 <strong>길이가 길어지면</strong> 가짓수는 폭발적으로 늘어난다. 이 아이디어가 STEP 3에서 단백질과 DNA의 다양성을 설명하는 열쇠이다.</p>
+<hr>
+<h2 id="step-3" class="step-h s3"><span class="step-badge s3">STEP 3</span><span class="h-text">핵심 개념</span></h2>
+<h3 id="2-5-①-지각의-기본-블록-si-o-사면체">2-5-① 지각의 기본 블록: Si–O 사면체</h3>
+<p>지각에 가장 많은 두 원소인 산소와 규소는 서로 결합하여 <strong>Si–O 사면체(규소–산소 사면체)</strong> 라는 기본 단위를 만든다.</p>
+<ul>
+<li>규소 원자 <strong>1개</strong>가 가운데에 있고, 산소 원자 <strong>4개</strong>가 둘러싸고 있다.</li>
+<li>산소 4개를 이으면 네 개의 정삼각형 면을 가진 <strong>사면체(정사면체에 가까운 모양)</strong> 가 된다. 산소가 각 꼭짓점에 있다.</li>
+<li>Si–O 사면체는 전체적으로 <strong>음(−)전하</strong>를 띤다. 그래서 혼자서는 안정하지 못하고, ① 철, 마그네슘, 칼슘, 나트륨, 칼륨, 알루미늄 같은 <strong>양이온과 결합</strong>하거나 ② 이웃한 사면체와 <strong>꼭짓점의 산소를 함께 나누어 가지며(공유하며)</strong> 연결된다.</li>
+</ul>
+<p>이처럼 Si–O 사면체를 기본 골격으로 하는 광물을 <strong>규산염 광물(silicate mineral)</strong> 이라고 한다. 지각을 이루는 광물의 <strong>90 % 이상</strong>이 규산염 광물이며, 중학교에서 배운 6가지 주요 조암 광물(감람석, 휘석, 각섬석, 흑운모, 석영, 장석)이 모두 규산염 광물이다.</p>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — Si–O 사면체는 네 귀퉁이에 &#39;연결 고리&#39;가 달린 피라미드 블록이다. 고리를 하나도 안 쓰면 블록이 따로 놀고(다른 이온이 붙잡아 줌), 고리를 2개 쓰면 줄이 되고, 3개 쓰면 판이 되고, 4개 모두 쓰면 입체 그물이 된다.</p>
+</aside>
+<h3 id="2-5-②-사면체의-연결-방식이-광물을-결정한다">2-5-② 사면체의 연결 방식이 광물을 결정한다</h3>
+<p>Si–O 사면체가 이웃한 사면체와 <strong>산소를 몇 개 공유하는가</strong>, 즉 <strong>어떤 모양으로 연결되는가</strong>에 따라 서로 다른 규산염 광물이 만들어진다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>연결 방식</th>
+<th>이웃 사면체와 공유하는 산소 수(사면체 1개당)</th>
+<th>구조의 모양</th>
+<th>대표 광물</th>
+<th>나타나는 성질</th>
+</tr>
+</thead><tbody><tr>
+<td>독립형</td>
+<td>0</td>
+<td>사면체가 하나씩 떨어져 있고, 양이온(철·마그네슘)이 사이를 연결</td>
+<td>감람석</td>
+<td>쪼개짐이 거의 없고, 깨지면 불규칙한 면이 생긴다</td>
+</tr>
+<tr>
+<td>단사슬 구조</td>
+<td>2</td>
+<td>사면체가 한 줄로 이어진 사슬</td>
+<td>휘석</td>
+<td>사슬 방향을 따라 두 방향으로 쪼개진다(거의 직각)</td>
+</tr>
+<tr>
+<td>복사슬 구조</td>
+<td>2와 3이 번갈아</td>
+<td>사슬 두 줄이 나란히 연결</td>
+<td>각섬석</td>
+<td>두 방향으로 쪼개진다(약 60°와 120°)</td>
+</tr>
+<tr>
+<td>판상 구조</td>
+<td>3</td>
+<td>사면체가 평면으로 연결된 판</td>
+<td>흑운모</td>
+<td>판과 판 사이가 약해 <strong>한 방향으로 얇게 벗겨진다</strong></td>
+</tr>
+<tr>
+<td>망상 구조</td>
+<td>4</td>
+<td>모든 꼭짓점이 연결된 3차원 그물</td>
+<td>석영, 장석</td>
+<td>석영은 쪼개짐 없이 단단하다(장석은 두 방향 쪼개짐)</td>
+</tr>
+</tbody></table></div>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-2-5-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 856.109375 107.5" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-2-5-1{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-2-5-1 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-2-5-1 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-2-5-1 .error-icon{fill:var(--mm-group);}#mm-2-5-1 .error-text{fill:#595959;stroke:#595959;}#mm-2-5-1 .edge-thickness-normal{stroke-width:1px;}#mm-2-5-1 .edge-thickness-thick{stroke-width:3.5px;}#mm-2-5-1 .edge-pattern-solid{stroke-dasharray:0;}#mm-2-5-1 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-2-5-1 .edge-pattern-dashed{stroke-dasharray:3;}#mm-2-5-1 .edge-pattern-dotted{stroke-dasharray:2;}#mm-2-5-1 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-2-5-1 .marker.cross{stroke:var(--mm-line);}#mm-2-5-1 svg{font-family:inherit;font-size:15px;}#mm-2-5-1 p{margin:0;}#mm-2-5-1 .label{font-family:inherit;color:var(--mm-text);}#mm-2-5-1 .cluster-label text{fill:#595959;}#mm-2-5-1 .cluster-label span{color:#595959;}#mm-2-5-1 .cluster-label span p{background-color:transparent;}#mm-2-5-1 .label text,#mm-2-5-1 span{fill:var(--mm-text);color:var(--mm-text);}#mm-2-5-1 .node rect,#mm-2-5-1 .node circle,#mm-2-5-1 .node ellipse,#mm-2-5-1 .node polygon,#mm-2-5-1 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-2-5-1 .rough-node .label text,#mm-2-5-1 .node .label text,#mm-2-5-1 .image-shape .label,#mm-2-5-1 .icon-shape .label{text-anchor:middle;}#mm-2-5-1 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-2-5-1 .rough-node .label,#mm-2-5-1 .node .label,#mm-2-5-1 .image-shape .label,#mm-2-5-1 .icon-shape .label{text-align:center;}#mm-2-5-1 .node.clickable{cursor:pointer;}#mm-2-5-1 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-2-5-1 .arrowheadPath{fill:#0b0b0b;}#mm-2-5-1 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-2-5-1 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-2-5-1 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-2-5-1 .edgeLabel p{background-color:var(--mm-label);}#mm-2-5-1 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-2-5-1 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-2-5-1 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-2-5-1 .cluster text{fill:#595959;}#mm-2-5-1 .cluster span{color:#595959;}#mm-2-5-1 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-2-5-1 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-2-5-1 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-2-5-1 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-2-5-1 rect.text{fill:none;stroke-width:0;}#mm-2-5-1 .icon-shape,#mm-2-5-1 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-2-5-1 .icon-shape p,#mm-2-5-1 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-2-5-1 .icon-shape .label rect,#mm-2-5-1 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-2-5-1 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-2-5-1 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-2-5-1 .node .neo-node{stroke:var(--mm-border);}#mm-2-5-1 [data-look="neo"].node rect,#mm-2-5-1 [data-look="neo"].cluster rect,#mm-2-5-1 [data-look="neo"].node polygon{stroke:url(#mm-2-5-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-5-1 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-2-5-1 [data-look="neo"].node path{stroke:url(#mm-2-5-1-gradient);stroke-width:1px;}#mm-2-5-1 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-5-1 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-2-5-1 [data-look="neo"].node circle{stroke:url(#mm-2-5-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-5-1 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-2-5-1 [data-look="neo"].icon-shape .icon{fill:url(#mm-2-5-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-5-1 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-2-5-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-5-1 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-2-5-1_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-1_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-1_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-1_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-1_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-1_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-1_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-1_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-1_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-1_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-1_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-2-5-1_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M132.688,53.75L136.854,53.75C141.021,53.75,149.354,53.75,157.021,53.75C164.688,53.75,171.688,53.75,175.188,53.75L178.688,53.75" id="mm-2-5-1-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTMyLjY4NzUsInkiOjUzLjc1fSx7IngiOjE1Ny42ODc1LCJ5Ijo1My43NX0seyJ4IjoxODIuNjg3NSwieSI6NTMuNzV9XQ==" data-look="classic" marker-end="url(#mm-2-5-1_flowchart-v2-pointEnd)"/><path d="M307.375,53.75L311.542,53.75C315.708,53.75,324.042,53.75,331.708,53.75C339.375,53.75,346.375,53.75,349.875,53.75L353.375,53.75" id="mm-2-5-1-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6MzA3LjM3NSwieSI6NTMuNzV9LHsieCI6MzMyLjM3NSwieSI6NTMuNzV9LHsieCI6MzU3LjM3NSwieSI6NTMuNzV9XQ==" data-look="classic" marker-end="url(#mm-2-5-1_flowchart-v2-pointEnd)"/><path d="M498.734,53.75L502.901,53.75C507.068,53.75,515.401,53.75,523.068,53.75C530.734,53.75,537.734,53.75,541.234,53.75L544.734,53.75" id="mm-2-5-1-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6NDk4LjczNDM3NSwieSI6NTMuNzV9LHsieCI6NTIzLjczNDM3NSwieSI6NTMuNzV9LHsieCI6NTQ4LjczNDM3NSwieSI6NTMuNzV9XQ==" data-look="classic" marker-end="url(#mm-2-5-1_flowchart-v2-pointEnd)"/><path d="M673.422,53.75L677.589,53.75C681.755,53.75,690.089,53.75,697.755,53.75C705.422,53.75,712.422,53.75,715.922,53.75L719.422,53.75" id="mm-2-5-1-L_D_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_E_0" data-points="W3sieCI6NjczLjQyMTg3NSwieSI6NTMuNzV9LHsieCI6Njk4LjQyMTg3NSwieSI6NTMuNzV9LHsieCI6NzIzLjQyMTg3NSwieSI6NTMuNzV9XQ==" data-look="classic" marker-end="url(#mm-2-5-1_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-2-5-1-flowchart-A-0" data-look="classic" transform="translate(70.34375, 53.75)"><rect class="basic label-container" style="" x="-62.34375" y="-45.75" width="124.6875" height="91.5"/><g class="label" style="" transform="translate(-38.34375, -33.75)"><rect/><foreignObject width="76.6875" height="67.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>독립형<br />공유 산소 0<br />감람석</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-5-1-flowchart-B-1" data-look="classic" transform="translate(245.03125, 53.75)"><rect class="basic label-container" style="" x="-62.34375" y="-45.75" width="124.6875" height="91.5"/><g class="label" style="" transform="translate(-38.34375, -33.75)"><rect/><foreignObject width="76.6875" height="67.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>단사슬<br />공유 산소 2<br />휘석</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-5-1-flowchart-C-3" data-look="classic" transform="translate(428.0546875, 53.75)"><rect class="basic label-container" style="" x="-70.6796875" y="-45.75" width="141.359375" height="91.5"/><g class="label" style="" transform="translate(-46.6796875, -33.75)"><rect/><foreignObject width="93.359375" height="67.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>복사슬<br />공유 산소 2, 3<br />각섬석</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-5-1-flowchart-D-5" data-look="classic" transform="translate(611.078125, 53.75)"><rect class="basic label-container" style="" x="-62.34375" y="-45.75" width="124.6875" height="91.5"/><g class="label" style="" transform="translate(-38.34375, -33.75)"><rect/><foreignObject width="76.6875" height="67.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>판상<br />공유 산소 3<br />흑운모</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-5-1-flowchart-E-7" data-look="classic" transform="translate(785.765625, 53.75)"><rect class="basic label-container" style="" x="-62.34375" y="-45.75" width="124.6875" height="91.5"/><g class="label" style="" transform="translate(-38.34375, -33.75)"><rect/><foreignObject width="76.6875" height="67.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>망상<br />공유 산소 4<br />석영, 장석</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-2-5-1-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-2-5-1-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-2-5-1-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><h4 id="연결-방식에서-성질-읽어-내기">연결 방식에서 성질 읽어 내기</h4>
+<ul>
+<li><strong>쪼개짐(cleavage)</strong> 은 광물이 결합이 약한 방향을 따라 평평하게 갈라지는 성질이다. 사면체끼리 산소를 공유한 결합은 강하고, 사슬이나 판 <strong>사이</strong>를 양이온이 연결하는 부분은 상대적으로 약하다. 그래서 약한 부분을 따라 쪼개진다.<ul>
+<li>흑운모: 강한 &#39;판&#39; 사이를 양이온이 약하게 잇고 있어 책장을 넘기듯 얇게 벗겨진다.</li>
+<li>석영: 모든 방향으로 사면체가 산소를 공유하는 강한 그물이라 약한 면이 없다. 그래서 쪼개짐이 없고 매우 단단하다(중학교에서 석영이 방해석을 긁었던 이유).</li>
+</ul>
+</li>
+<li><strong>색</strong>: 감람석, 휘석, 각섬석, 흑운모는 철과 마그네슘을 포함하여 대체로 어두운 색(<strong>유색 광물</strong>)을 띠고, 석영과 장석은 대체로 밝은 색(<strong>무색 광물</strong>)을 띤다.</li>
+<li><strong>풍화에 대한 강도</strong>: 석영은 화학적 풍화에 매우 강하다. 그래서 다른 광물이 풍화되어 사라진 뒤에도 남아 모래사장의 주성분이 된다.</li>
+</ul>
+<h4 id="예제-1">예제 1</h4>
+<p>다음 설명에 해당하는 광물을 쓰고, 그 성질을 Si–O 사면체의 연결 방식으로 설명하시오.
+&quot;얇은 종이처럼 한 방향으로 겹겹이 벗겨지며, 검은색을 띤다.&quot;</p>
+<p><strong>풀이</strong> <strong>흑운모</strong>이다. 흑운모는 Si–O 사면체가 산소 3개를 공유하여 평면으로 연결된 <strong>판상 구조</strong>이다. 판 내부는 강하게 결합되어 있지만 판과 판 사이는 양이온이 상대적으로 약하게 연결하고 있어, 판에 나란한 한 방향으로 얇게 쪼개진다. 철·마그네슘을 포함하여 검은색을 띤다.</p>
+<aside class="callout important"><p class="callout-title">핵심</p><p>같은 Si–O 사면체라는 <strong>하나의 블록</strong>에서 출발했지만, <strong>연결 방식</strong>과 사이에 들어가는 <strong>양이온의 종류</strong>가 달라지면서 성질이 전혀 다른 광물들이 만들어진다. 이것이 &#39;지각을 구성하는 물질의 규칙성&#39;이다.</p>
+</aside>
+<h3 id="2-5-③-생명체의-기능을-담당하는-물질-단백질">2-5-③ 생명체의 기능을 담당하는 물질: 단백질</h3>
+<p>사람의 몸에서 물을 빼면 가장 많은 성분이 <strong>단백질(protein)</strong> 이다. 단백질은 <strong>아미노산(amino acid)</strong> 이라는 단위체가 수십~수천 개 결합하여 만들어진다.</p>
+<ul>
+<li>생명체의 단백질을 이루는 아미노산은 <strong>20종류</strong>이다.</li>
+<li>아미노산과 아미노산 사이의 결합을 <strong>펩타이드 결합</strong>이라 하고, 아미노산이 길게 이어진 사슬을 <strong>폴리펩타이드</strong>라고 한다.</li>
+<li>폴리펩타이드 사슬은 그대로 펼쳐져 있지 않고, <strong>아미노산의 배열 순서에 따라 정해진 방식으로 구부러지고 접혀</strong> 고유한 <strong>입체 구조</strong>를 이룬다.</li>
+<li>단백질의 <strong>입체 구조가 그 기능을 결정</strong>한다. 열쇠의 홈 모양이 맞아야 자물쇠가 열리듯, 효소나 항체도 정확한 모양을 갖추어야 제 기능을 한다.</li>
+</ul>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-2-5-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 969.703125 85" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-2-5-2{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-2-5-2 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-2-5-2 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-2-5-2 .error-icon{fill:var(--mm-group);}#mm-2-5-2 .error-text{fill:#595959;stroke:#595959;}#mm-2-5-2 .edge-thickness-normal{stroke-width:1px;}#mm-2-5-2 .edge-thickness-thick{stroke-width:3.5px;}#mm-2-5-2 .edge-pattern-solid{stroke-dasharray:0;}#mm-2-5-2 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-2-5-2 .edge-pattern-dashed{stroke-dasharray:3;}#mm-2-5-2 .edge-pattern-dotted{stroke-dasharray:2;}#mm-2-5-2 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-2-5-2 .marker.cross{stroke:var(--mm-line);}#mm-2-5-2 svg{font-family:inherit;font-size:15px;}#mm-2-5-2 p{margin:0;}#mm-2-5-2 .label{font-family:inherit;color:var(--mm-text);}#mm-2-5-2 .cluster-label text{fill:#595959;}#mm-2-5-2 .cluster-label span{color:#595959;}#mm-2-5-2 .cluster-label span p{background-color:transparent;}#mm-2-5-2 .label text,#mm-2-5-2 span{fill:var(--mm-text);color:var(--mm-text);}#mm-2-5-2 .node rect,#mm-2-5-2 .node circle,#mm-2-5-2 .node ellipse,#mm-2-5-2 .node polygon,#mm-2-5-2 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-2-5-2 .rough-node .label text,#mm-2-5-2 .node .label text,#mm-2-5-2 .image-shape .label,#mm-2-5-2 .icon-shape .label{text-anchor:middle;}#mm-2-5-2 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-2-5-2 .rough-node .label,#mm-2-5-2 .node .label,#mm-2-5-2 .image-shape .label,#mm-2-5-2 .icon-shape .label{text-align:center;}#mm-2-5-2 .node.clickable{cursor:pointer;}#mm-2-5-2 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-2-5-2 .arrowheadPath{fill:#0b0b0b;}#mm-2-5-2 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-2-5-2 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-2-5-2 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-2-5-2 .edgeLabel p{background-color:var(--mm-label);}#mm-2-5-2 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-2-5-2 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-2-5-2 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-2-5-2 .cluster text{fill:#595959;}#mm-2-5-2 .cluster span{color:#595959;}#mm-2-5-2 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-2-5-2 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-2-5-2 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-2-5-2 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-2-5-2 rect.text{fill:none;stroke-width:0;}#mm-2-5-2 .icon-shape,#mm-2-5-2 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-2-5-2 .icon-shape p,#mm-2-5-2 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-2-5-2 .icon-shape .label rect,#mm-2-5-2 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-2-5-2 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-2-5-2 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-2-5-2 .node .neo-node{stroke:var(--mm-border);}#mm-2-5-2 [data-look="neo"].node rect,#mm-2-5-2 [data-look="neo"].cluster rect,#mm-2-5-2 [data-look="neo"].node polygon{stroke:url(#mm-2-5-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-5-2 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-2-5-2 [data-look="neo"].node path{stroke:url(#mm-2-5-2-gradient);stroke-width:1px;}#mm-2-5-2 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-5-2 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-2-5-2 [data-look="neo"].node circle{stroke:url(#mm-2-5-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-5-2 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-2-5-2 [data-look="neo"].icon-shape .icon{fill:url(#mm-2-5-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-5-2 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-2-5-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-5-2 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-2-5-2_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-2_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-2_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-2_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-2_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-2_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-2_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-2_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-2_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-2_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-5-2_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-2-5-2_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M116,42.5L128.014,42.5C140.029,42.5,164.057,42.5,187.419,42.5C210.781,42.5,233.477,42.5,244.824,42.5L256.172,42.5" id="mm-2-5-2-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTE2LCJ5Ijo0Mi41fSx7IngiOjE4OC4wODU5Mzc1LCJ5Ijo0Mi41fSx7IngiOjI2MC4xNzE4NzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-2-5-2_flowchart-v2-pointEnd)"/><path d="M402.344,42.5L415.608,42.5C428.872,42.5,455.401,42.5,481.263,42.5C507.125,42.5,532.32,42.5,544.918,42.5L557.516,42.5" id="mm-2-5-2-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6NDAyLjM0Mzc1LCJ5Ijo0Mi41fSx7IngiOjQ4MS45Mjk2ODc1LCJ5Ijo0Mi41fSx7IngiOjU2MS41MTU2MjUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-2-5-2_flowchart-v2-pointEnd)"/><path d="M722.859,42.5L727.026,42.5C731.193,42.5,739.526,42.5,747.193,42.5C754.859,42.5,761.859,42.5,765.359,42.5L768.859,42.5" id="mm-2-5-2-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6NzIyLjg1OTM3NSwieSI6NDIuNX0seyJ4Ijo3NDcuODU5Mzc1LCJ5Ijo0Mi41fSx7IngiOjc3Mi44NTkzNzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-2-5-2_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(188.0859375, 42.5)"><g class="label" data-id="L_A_B_0" transform="translate(-47.0859375, -11.25)"><foreignObject width="94.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"><p>펩타이드 결합</p></span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(481.9296875, 42.5)"><g class="label" data-id="L_B_C_0" transform="translate(-54.5859375, -11.25)"><foreignObject width="109.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"><p>구부러지고 접힘</p></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-2-5-2-flowchart-A-0" data-look="classic" transform="translate(62, 42.5)"><rect class="basic label-container" style="" x="-54" y="-34.5" width="108" height="69"/><g class="label" style="" transform="translate(-30, -22.5)"><rect/><foreignObject width="60" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>아미노산<br />20종류</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-5-2-flowchart-B-1" data-look="classic" transform="translate(331.2578125, 42.5)"><rect class="basic label-container" style="" x="-71.0859375" y="-34.5" width="142.171875" height="69"/><g class="label" style="" transform="translate(-47.0859375, -22.5)"><rect/><foreignObject width="94.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>폴리펩타이드<br />아미노산 사슬</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-5-2-flowchart-C-3" data-look="classic" transform="translate(642.1875, 42.5)"><rect class="basic label-container" style="" x="-80.671875" y="-23.25" width="161.34375" height="46.5"/><g class="label" style="" transform="translate(-56.671875, -11.25)"><rect/><foreignObject width="113.34375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>고유한 입체 구조</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-5-2-flowchart-D-5" data-look="classic" transform="translate(867.28125, 42.5)"><rect class="basic label-container" style="" x="-94.421875" y="-34.5" width="188.84375" height="69"/><g class="label" style="" transform="translate(-70.421875, -22.5)"><rect/><foreignObject width="140.84375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>고유한 기능<br />효소, 항체, 호르몬 등</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-2-5-2-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-2-5-2-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-2-5-2-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><div class="table-wrap"><table><thead><tr>
+<th>단백질의 기능</th>
+<th>예</th>
+</tr>
+</thead><tbody><tr>
+<td>화학 반응을 빠르게 함(효소)</td>
+<td>아밀레이스, 펩신, 트립신</td>
+</tr>
+<tr>
+<td>몸을 방어함</td>
+<td>항체</td>
+</tr>
+<tr>
+<td>신호를 전달함(호르몬)</td>
+<td>인슐린(혈당 조절)</td>
+</tr>
+<tr>
+<td>물질을 운반함</td>
+<td>헤모글로빈(산소 운반)</td>
+</tr>
+<tr>
+<td>몸의 구조를 이룸</td>
+<td>콜라겐(피부·뼈), 케라틴(머리카락·손톱)</td>
+</tr>
+<tr>
+<td>운동</td>
+<td>근육을 이루는 단백질</td>
+</tr>
+</tbody></table></div>
+<h4 id="예제-2">예제 2</h4>
+<p>아미노산 20종류를 사용해 아미노산 3개가 연결된 사슬을 만들 때, 만들 수 있는 서로 다른 배열은 몇 가지인가? 아미노산 100개로 된 사슬이라면 어느 정도일까?</p>
+<p><strong>풀이</strong></p>
+<ul>
+<li>3개: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">2</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">8000</span></span></span></span>가지</li>
+<li>100개: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">2</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">100</span></span></span></span></span></span></span></span></span></span></span></span>가지. <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9386em;vertical-align:-0.2441em;"></span><span class="mop"><span class="mop">lo<span style="margin-right:0.01389em;">g</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.207em;"><span style="top:-2.4559em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">10</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2441em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">20</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1.30</span></span></span></span>이므로 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">2</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">100</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">130</span></span></span></span></span></span></span></span></span></span></span></span>가지이다.</li>
+</ul>
+<p>관측 가능한 우주 전체의 원자 수(약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">80</span></span></span></span></span></span></span></span></span></span></span></span>개로 어림)보다도 훨씬 큰 수이다. 단 20종류의 블록으로 사실상 <strong>무한에 가까운 종류의 단백질</strong>을 만들 수 있다.</p>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 아미노산은 20가지 글자, 단백질은 그 글자로 쓴 문장이다. &#39;사과&#39;와 &#39;과사&#39;처럼 같은 글자라도 순서가 바뀌면 뜻이 달라지듯, 아미노산 하나의 순서만 바뀌어도 단백질의 모양과 기능이 달라질 수 있다.</p>
+</aside>
+<aside class="callout warning"><p class="callout-title">주의</p><p>달걀을 삶으면 투명한 흰자가 하얗고 단단하게 변한다. 열 때문에 단백질의 <strong>입체 구조가 풀리고 엉키면서</strong> 성질이 바뀐 것이다. 이처럼 입체 구조가 망가지면 아미노산 배열은 그대로여도 단백질은 원래 기능을 잃는다. 단백질로 된 의약품을 냉장 보관하는 이유이기도 하다.</p>
+</aside>
+<h3 id="2-5-④-생명의-정보를-담는-물질-핵산과-dna">2-5-④ 생명의 정보를 담는 물질: 핵산과 DNA</h3>
+<p><strong>핵산(nucleic acid)</strong> 은 유전 정보를 저장하고 전달하는 물질로, <strong>DNA</strong>(디옥시리보핵산)와 <strong>RNA</strong>(리보핵산)가 있다. 핵산의 단위체는 <strong>뉴클레오타이드(nucleotide)</strong> 이다.</p>
+<h4 id="뉴클레오타이드-인산-당-염기">뉴클레오타이드: 인산 + 당 + 염기</h4>
+<p>뉴클레오타이드는 <strong>인산</strong>, <strong>당</strong>, <strong>염기</strong>가 1 : 1 : 1로 결합한 단위체이다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>DNA</th>
+<th>RNA</th>
+</tr>
+</thead><tbody><tr>
+<td>당</td>
+<td>디옥시리보스</td>
+<td>리보스</td>
+</tr>
+<tr>
+<td>염기</td>
+<td>아데닌(A), 구아닌(G), 사이토신(C), <strong>타이민(T)</strong></td>
+<td>아데닌(A), 구아닌(G), 사이토신(C), <strong>유라실(U)</strong></td>
+</tr>
+<tr>
+<td>가닥</td>
+<td>두 가닥(이중 나선)</td>
+<td>한 가닥</td>
+</tr>
+<tr>
+<td>주된 역할</td>
+<td>유전 정보 저장</td>
+<td>유전 정보 전달, 단백질 합성에 참여</td>
+</tr>
+</tbody></table></div>
+<p>뉴클레오타이드끼리는 한 뉴클레오타이드의 <strong>당</strong>과 다음 뉴클레오타이드의 <strong>인산</strong>이 결합하며 길게 이어진다. 그 결과 &#39;당–인산–당–인산…&#39;으로 이어지는 <strong>뼈대</strong>에 염기가 옆으로 하나씩 달린 긴 사슬(폴리뉴클레오타이드)이 된다.</p>
+<h4 id="dna-이중-나선과-염기의-상보적-결합">DNA 이중 나선과 염기의 상보적 결합</h4>
+<p>1953년 왓슨과 크릭은 로절린드 프랭클린 등이 얻은 X선 회절 자료를 바탕으로 DNA의 <strong>이중 나선(double helix)</strong> 구조를 제안하였다.</p>
+<ul>
+<li>DNA는 <strong>두 가닥</strong>의 폴리뉴클레오타이드가 서로 꼬여 있는 <strong>이중 나선</strong> 모양이다.</li>
+<li><strong>당–인산 뼈대는 바깥쪽</strong>, <strong>염기는 안쪽</strong>에 있다. 두 가닥의 염기들이 안쪽에서 짝을 지어 결합한다.</li>
+<li>염기는 정해진 짝끼리만 결합한다. <strong>A는 항상 T와, G는 항상 C와</strong> 결합한다. 이를 <strong>염기의 상보적 결합(complementary base pairing)</strong> 이라고 한다.</li>
+<li>따라서 한 가닥의 염기 서열을 알면 다른 가닥의 서열을 정확히 알 수 있다.</li>
+<li>이중 가닥 DNA 전체에서는 <strong>A의 양 = T의 양, G의 양 = C의 양</strong>이다.</li>
+</ul>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — DNA는 꼬인 사다리이다. 사다리의 양옆 기둥이 당–인산 뼈대, 가로대가 염기쌍이다. 가로대는 반드시 &#39;A–T&#39; 또는 &#39;G–C&#39; 조각으로만 만들 수 있는 퍼즐이라, 한쪽 조각을 보면 맞은편 조각을 알 수 있다.</p>
+</aside>
+<h4 id="예제-3-상보적인-가닥-찾기">예제 3 — 상보적인 가닥 찾기</h4>
+<p>DNA 한 가닥의 염기 서열이 <strong>ATGCCGTA</strong>일 때, 이와 결합하는 다른 가닥의 염기 서열을 쓰시오.</p>
+<p><strong>풀이</strong> A↔T, G↔C로 바꾸어 쓴다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>원래 가닥</th>
+<th>A</th>
+<th>T</th>
+<th>G</th>
+<th>C</th>
+<th>C</th>
+<th>G</th>
+<th>T</th>
+<th>A</th>
+</tr>
+</thead><tbody><tr>
+<td>상보 가닥</td>
+<td>T</td>
+<td>A</td>
+<td>C</td>
+<td>G</td>
+<td>G</td>
+<td>C</td>
+<td>A</td>
+<td>T</td>
+</tr>
+</tbody></table></div>
+<p>→ <strong>TACGGCAT</strong></p>
+<h4 id="예제-4-염기-조성-계산하기">예제 4 — 염기 조성 계산하기</h4>
+<p>어떤 이중 가닥 DNA에서 아데닌(A)이 전체 염기의 20 %를 차지한다. 나머지 염기 T, G, C의 비율을 구하시오.</p>
+<p><strong>풀이</strong></p>
+<ul>
+<li>A = T이므로 T = 20 %</li>
+<li>G + C = <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">100</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">20</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">20</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">60</span></span></span></span> %, G = C이므로 G = C = 30 %</li>
+</ul>
+<h4 id="dna의-다양성-4종류-염기의-배열이-곧-정보">DNA의 다양성: 4종류 염기의 배열이 곧 정보</h4>
+<p>DNA의 유전 정보는 <strong>염기의 배열 순서(염기 서열)</strong> 에 담겨 있다. 염기는 4종류뿐이지만 사람의 DNA에는 약 30억 개의 염기쌍이 있으므로, 가능한 배열의 수는 상상할 수 없을 만큼 많다. 사람마다 생김새가 다른 것도 염기 서열의 일부가 조금씩 다르기 때문이다. 이 염기 서열이 어떻게 단백질의 아미노산 배열로 바뀌는지는 3-6 단원(유전자와 단백질)에서 배운다.</p>
+<aside class="callout note"><p class="callout-title">성취기준·참고</p><p>중학교에서 배운 <strong>염색체</strong>는 이 긴 DNA가 단백질에 감겨 응축된 것이고, <strong>유전자</strong>는 DNA 중에서 특정 형질에 대한 정보를 가진 <strong>일부 구간</strong>이다. &quot;염색체 ⊃ DNA ⊃ 유전자&quot;의 관계로 정리해 두자.</p>
+</aside>
+<h3 id="2-5-⑤-지각과-생명체에-공통으로-흐르는-규칙">2-5-⑤ 지각과 생명체에 공통으로 흐르는 규칙</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>비교 항목</th>
+<th>규산염 광물</th>
+<th>단백질</th>
+<th>핵산(DNA)</th>
+</tr>
+</thead><tbody><tr>
+<td>기본 단위</td>
+<td>Si–O 사면체</td>
+<td>아미노산</td>
+<td>뉴클레오타이드</td>
+</tr>
+<tr>
+<td>단위의 종류</td>
+<td>1가지(+ 사이에 들어가는 여러 양이온)</td>
+<td>20가지</td>
+<td>4가지(염기 기준)</td>
+</tr>
+<tr>
+<td>단위를 잇는 방법</td>
+<td>꼭짓점의 산소 공유, 양이온과의 결합</td>
+<td>펩타이드 결합</td>
+<td>당과 인산의 결합, 두 가닥은 염기쌍으로 연결</td>
+</tr>
+<tr>
+<td>다양성을 만드는 요인</td>
+<td>사면체의 <strong>연결 방식</strong>, 양이온의 종류</td>
+<td>아미노산의 <strong>종류·개수·배열 순서</strong>, 접힌 입체 구조</td>
+<td>염기의 <strong>배열 순서</strong></td>
+</tr>
+<tr>
+<td>결과</td>
+<td>성질이 다른 여러 광물</td>
+<td>기능이 다른 수많은 단백질</td>
+<td>생물마다, 사람마다 다른 유전 정보</td>
+</tr>
+<tr>
+<td>이루는 곳</td>
+<td>지각(암석)</td>
+<td>생명체(구조·기능)</td>
+<td>생명체(정보)</td>
+</tr>
+</tbody></table></div>
+<aside class="callout important"><p class="callout-title">핵심</p><p><strong>핵심 규칙</strong> — 자연은 적은 종류의 <strong>기본 단위체</strong>를 <strong>결합</strong>하고, 그 <strong>연결 방식과 배열 순서를 다양하게</strong> 하여 지각과 생명체를 이루는 수많은 물질을 만든다. 구조가 달라지면 성질과 기능도 달라진다.</p>
+</aside>
+<hr>
+<h2 id="step-4" class="step-h s4"><span class="step-badge s4">STEP 4</span><span class="h-text">오개념 바로잡기</span></h2>
+<div class="table-wrap"><table><thead><tr>
+<th>흔한 오개념</th>
+<th>올바른 개념</th>
+<th>왜 그럴까?</th>
+</tr>
+</thead><tbody><tr>
+<td>같은 Si–O 사면체로 이루어졌으니 규산염 광물은 성질이 모두 비슷하다</td>
+<td>사면체의 <strong>연결 방식</strong>에 따라 쪼개짐, 굳기 등 성질이 크게 다르다</td>
+<td>흑운모(판상)는 얇게 벗겨지지만 석영(망상)은 쪼개짐 없이 단단하다</td>
+</tr>
+<tr>
+<td>석영은 규소 원자로만 이루어진 광물이다</td>
+<td>석영은 Si–O 사면체가 산소를 모두 공유하여 연결된 광물로, <strong>규소와 산소</strong>로 이루어진다</td>
+<td>규소 원소만으로 된 물질(반도체 재료)은 석영에서 산소를 떼어 내야 얻을 수 있다(2-6 단원)</td>
+</tr>
+<tr>
+<td>아미노산이 20종류이므로 단백질도 20종류이다</td>
+<td>단백질의 종류는 <strong>셀 수 없이 많다</strong></td>
+<td>아미노산의 종류·개수·배열 순서의 조합이 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6644em;"></span><span class="mord">2</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span></span></span></span></span></span></span></span>가지로 늘어난다</td>
+</tr>
+<tr>
+<td>DNA 두 가닥의 염기 서열은 똑같다</td>
+<td>두 가닥은 <strong>상보적</strong>이다(A–T, G–C)</td>
+<td>한 가닥이 ATG이면 맞은편은 TAC이다</td>
+</tr>
+<tr>
+<td>DNA에서는 A와 G의 양이 같다</td>
+<td>이중 가닥 DNA에서 <strong>A = T, G = C</strong>이다</td>
+<td>짝을 이루는 염기끼리 양이 같다. A와 G는 짝이 아니다</td>
+</tr>
+<tr>
+<td>단백질은 우리 몸의 &#39;영양소&#39;일 뿐이다</td>
+<td>단백질은 효소, 항체, 호르몬, 운반체 등 <strong>생명 활동의 대부분의 기능</strong>을 담당한다</td>
+<td>음식 속 단백질은 아미노산으로 분해된 뒤, 우리 몸에 필요한 단백질로 다시 조립된다</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-5" class="step-h s5"><span class="step-badge s5">STEP 5</span><span class="h-text">선택과목·대학으로 한 걸음 더</span></h2>
+<aside class="callout caution"><p class="callout-title">심화 · 평가 범위 밖</p><p>이 절은 <strong>통합과학 교육과정 범위 밖의 심화 내용</strong>으로 평가 대상이 아니다. &quot;이 개념이 앞으로 어디까지 이어지는가&quot;를 맛보기로 보여 주기 위한 내용이다.</p>
+</aside>
+<h3 id="고2-3-선택과목과의-연결">고2·3 선택과목과의 연결</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>과목</th>
+<th>이어지는 내용</th>
+</tr>
+</thead><tbody><tr>
+<td>지구과학</td>
+<td>지구의 역사와 한반도의 암석 — 마그마의 조성에 따라 다양한 화성암이 생성되는 과정</td>
+</tr>
+<tr>
+<td>지구시스템과학</td>
+<td>지구 탄생과 생동하는 지구 — 화산 활동으로 생성되는 암석의 특성, 편광현미경으로 암석 조직 관찰</td>
+</tr>
+<tr>
+<td>세포와 물질대사</td>
+<td>핵산과 단백질의 기본 구조와 세포에서의 주요 기능, 핵산과 단백질의 모형 제작</td>
+</tr>
+<tr>
+<td>생명과학</td>
+<td>생명의 연속성과 다양성 — 염색체의 구조, DNA와 유전자의 관계</td>
+</tr>
+<tr>
+<td>생물의 유전</td>
+<td>DNA의 구조와 유전물질 규명의 과학사, 반보존적 DNA 복제, 생명공학기술</td>
+</tr>
+</tbody></table></div>
+<h3 id="①-규산염-광물을-화학식으로-보면">① 규산염 광물을 화학식으로 보면</h3>
+<p>대학 &#39;광물학&#39;과 &#39;결정학&#39;에서는 Si–O 사면체를 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1205em;vertical-align:-0.2663em;"></span><span class="mord"><span class="mord mathrm">Si</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8542em;"><span style="top:-2.4337em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">4</span></span></span><span style="top:-3.1031em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">4</span><span class="mord mtight">−</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2663em;"><span></span></span></span></span></span></span></span></span></span></span>로 나타내고, 연결 방식에 따라 규소와 산소의 개수 비가 어떻게 달라지는지 계산한다. 공유하는 산소가 많아질수록 규소 1개당 산소 수가 줄어든다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>구조</th>
+<th>Si : O</th>
+<th>예</th>
+</tr>
+</thead><tbody><tr>
+<td>독립형</td>
+<td>1 : 4</td>
+<td>감람석</td>
+</tr>
+<tr>
+<td>단사슬</td>
+<td>1 : 3</td>
+<td>휘석</td>
+</tr>
+<tr>
+<td>복사슬</td>
+<td>4 : 11</td>
+<td>각섬석</td>
+</tr>
+<tr>
+<td>판상</td>
+<td>2 : 5</td>
+<td>운모</td>
+</tr>
+<tr>
+<td>망상</td>
+<td>1 : 2</td>
+<td>석영(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">Si</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span>)</td>
+</tr>
+</tbody></table></div>
+<p>또 마그마가 식을 때 감람석 → 휘석 → 각섬석 → 흑운모 순으로 정출된다는 <strong>보웬의 반응 계열</strong>은 광물의 구조와 정출 온도의 관계를 보여 준다.</p>
+<h3 id="②-단백질의-4단계-구조와-인공지능">② 단백질의 4단계 구조와 인공지능</h3>
+<p>대학 &#39;생화학&#39;과 &#39;구조생물학&#39;에서는 단백질 구조를 네 단계로 나누어 분석한다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>단계</th>
+<th>내용</th>
+</tr>
+</thead><tbody><tr>
+<td>1차 구조</td>
+<td>아미노산의 배열 순서</td>
+</tr>
+<tr>
+<td>2차 구조</td>
+<td>사슬의 일부가 나선(알파 나선)이나 병풍(베타 병풍) 모양으로 접힌 구조</td>
+</tr>
+<tr>
+<td>3차 구조</td>
+<td>폴리펩타이드 한 가닥 전체가 접혀 만든 입체 구조</td>
+</tr>
+<tr>
+<td>4차 구조</td>
+<td>여러 가닥의 폴리펩타이드가 모여 이룬 구조(예: 헤모글로빈은 4개의 사슬)</td>
+</tr>
+</tbody></table></div>
+<p>아미노산 서열(1차 구조)만으로 입체 구조를 예측하는 것은 오랫동안 생명과학의 큰 난제였다. 인공지능으로 단백질 구조를 예측하고 새로운 단백질을 설계한 연구는 <strong>2024년 노벨 화학상</strong>을 받았다.</p>
+<h3 id="③-dna-구조의-세부와-복제">③ DNA 구조의 세부와 복제</h3>
+<ul>
+<li>두 가닥의 방향은 서로 <strong>반대(역평행)</strong> 이다.</li>
+<li>염기쌍은 <strong>수소 결합</strong>으로 연결되는데, A–T 사이에는 2개, G–C 사이에는 3개의 수소 결합이 있다. 그래서 G–C 비율이 높은 DNA일수록 두 가닥을 떼어 내는 데 더 높은 온도가 필요하다.</li>
+<li>DNA가 복제될 때 두 가닥이 풀리고 각 가닥을 틀로 새 가닥이 만들어진다. 새 DNA는 옛 가닥 하나와 새 가닥 하나로 이루어지는데, 이를 <strong>반보존적 복제</strong>라 한다. 상보적 결합 규칙 덕분에 정보가 정확하게 복사된다.</li>
+</ul>
+<h3 id="고등학교-vs-대학교">고등학교 vs 대학교</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>고등학교 통합과학</th>
+<th>대학교 광물학·생화학·분자생물학</th>
+</tr>
+</thead><tbody><tr>
+<td>규산염 광물</td>
+<td>Si–O 사면체의 연결 방식과 대표 광물</td>
+<td>화학식, 결정 구조, X선 회절 분석, 상평형</td>
+</tr>
+<tr>
+<td>단백질</td>
+<td>아미노산 단위체, 배열 순서와 입체 구조</td>
+<td>1~4차 구조, 효소 반응 속도론, 구조 예측</td>
+</tr>
+<tr>
+<td>핵산</td>
+<td>뉴클레오타이드, 이중 나선, 상보적 결합</td>
+<td>복제·전사·번역의 분자 기전, 유전체 분석</td>
+</tr>
+<tr>
+<td>연구 도구</td>
+<td>모형 제작, 관찰</td>
+<td>X선 결정학, 극저온 전자 현미경, 염기 서열 분석, 생물정보학</td>
+</tr>
+<tr>
+<td>관련 전공</td>
+<td>—</td>
+<td>지질학, 지구환경과학, 생명과학, 생화학, 약학, 바이오공학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-6" class="step-h s6"><span class="step-badge s6">STEP 6</span><span class="h-text">산업 현장과 진로 연결</span></h2>
+<h3 id="사례-1-규산염-산업-유리-세라믹-시멘트">사례 1. 규산염 산업 — 유리, 세라믹, 시멘트</h3>
+<ul>
+<li><strong>유리</strong> 규사(석영 모래)에 소다회와 석회석 등을 섞어 약 1500 °C 안팎의 높은 온도에서 녹인 뒤 식혀 만든다. 석영 결정에서는 Si–O 사면체가 규칙적으로 배열되어 있지만, 유리에서는 사면체들이 <strong>불규칙하게 연결된 채 굳어</strong> 일정한 결정 구조가 없다(비결정질 고체). 고순도 석영 유리는 빛 신호를 멀리 보내는 <strong>광섬유</strong>의 재료가 된다.</li>
+<li><strong>세라믹(도자기·타일·내화물)</strong> 점토(규산염 광물이 풍화된 물질)와 장석, 규석 등을 빚어 높은 온도에서 구워 단단하게 만든다. 열과 화학 약품에 강해 그릇, 건축 자재, 산업용 부품에 쓰인다.</li>
+<li><strong>시멘트</strong> 석회석과 점토 등을 약 1450 °C에서 구워 만든 덩어리(클링커)에 석고를 넣고 곱게 간다. 시멘트 속 칼슘 규산염 성분이 물과 반응하며 굳어 콘크리트의 뼈대가 된다.</li>
+<li><strong>핵심</strong> 세 산업 모두 지각에 가장 흔한 산소·규소 등의 원소로 된 원료를 쓰며, 원료 속 Si–O 사면체의 <strong>연결 상태를 바꾸어</strong> 원하는 성질을 얻는다.</li>
+</ul>
+<h3 id="사례-2-바이오의약품과-단백질-공학">사례 2. 바이오의약품과 단백질 공학</h3>
+<ul>
+<li><strong>원리</strong> 단백질의 기능은 아미노산 배열과 입체 구조로 결정된다. 사람 단백질의 유전자를 미생물이나 배양 세포에 넣으면, 그 세포가 사람과 같은 아미노산 배열의 단백질을 만들어 낸다.</li>
+<li><strong>인슐린</strong> 과거에는 동물의 이자에서 인슐린을 추출했으나, 1980년대 초부터 유전자를 넣은 미생물로 <strong>사람 인슐린</strong>을 대량 생산하게 되었다.</li>
+<li><strong>항체 의약품</strong> 특정 표적에만 결합하는 항체 단백질을 의약품으로 만들어 암, 자가 면역 질환 등의 치료에 쓴다. 우리나라도 바이오의약품의 위탁 생산과 바이오시밀러(특허가 끝난 바이오의약품과 효능이 같은 의약품) 분야에서 활발히 활동하고 있다.</li>
+<li><strong>단백질 공학</strong> 아미노산 배열 일부를 바꾸어 성질을 개선한 단백질을 설계한다. 예를 들어 낮은 온도의 물에서도 때를 잘 분해하는 세제용 효소가 이렇게 개발된다.</li>
+<li><strong>관리의 핵심</strong> 단백질 의약품은 입체 구조가 망가지면 효과가 사라지므로, 생산부터 운송·보관까지 정해진 온도를 유지하는 <strong>저온 유통 체계(콜드 체인)</strong> 가 필수이다.</li>
+</ul>
+<h3 id="사례-3-dna-분석과-유전자-검사">사례 3. DNA 분석과 유전자 검사</h3>
+<ul>
+<li><strong>원리</strong> 사람마다 DNA 염기 서열의 일부가 조금씩 다르다. 또 상보적 결합 규칙 덕분에 아주 적은 양의 DNA도 같은 서열로 대량 복제(<strong>중합 효소 연쇄 반응, PCR</strong>)하여 분석할 수 있다.</li>
+<li><strong>어디에 쓰이나</strong> 범죄 수사와 실종자·재난 희생자 신원 확인(유전자 감식), 친자 확인, 유전 질환 진단, 감염병 진단(코로나19 진단에도 PCR 검사가 쓰였다), 농축수산물 원산지 판별 등에 쓰인다.</li>
+<li><strong>기술의 변화</strong> 사람 유전체(약 30억 염기쌍)의 서열을 처음 해독한 &#39;인간 유전체 사업&#39;은 10년 넘게 국제 협력으로 진행되어 2003년에 완료되었다. 지금은 분석 기술이 크게 발전하여 훨씬 짧은 시간과 적은 비용으로 개인의 유전체를 분석할 수 있다.</li>
+<li><strong>생각할 점</strong> 유전 정보는 매우 민감한 개인 정보이므로, 검사 결과의 해석과 보호에 대한 윤리적 논의가 함께 필요하다(6-4 단원과 연결).</li>
+</ul>
+<h3 id="관련-진로와-학과">관련 진로와 학과</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>진로</th>
+<th>하는 일</th>
+<th>관련 학과</th>
+</tr>
+</thead><tbody><tr>
+<td>세라믹·유리 소재 엔지니어</td>
+<td>유리, 세라믹, 광섬유, 건축 소재 개발</td>
+<td>신소재공학, 세라믹공학, 화학공학</td>
+</tr>
+<tr>
+<td>지질학자·광물 자원 탐사 전문가</td>
+<td>광물 분석, 자원 탐사, 지질 조사</td>
+<td>지질학, 지구환경과학, 자원공학</td>
+</tr>
+<tr>
+<td>바이오의약품 연구원</td>
+<td>단백질 의약품 개발·생산 공정 관리</td>
+<td>생명과학, 생명공학, 약학, 화학공학</td>
+</tr>
+<tr>
+<td>단백질 공학자</td>
+<td>효소·항체 등 단백질 설계와 개량</td>
+<td>생화학, 생명공학, 화학</td>
+</tr>
+<tr>
+<td>유전체 분석가(생물정보학자)</td>
+<td>DNA 서열 데이터 분석, 유전 질환 연구</td>
+<td>생명과학, 생물정보학, 컴퓨터공학, 통계학</td>
+</tr>
+<tr>
+<td>법유전학 전문가</td>
+<td>유전자 감식, 신원 확인</td>
+<td>생명과학, 법과학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="탐구-활동-dna-모형을-제작하고-dna의-구조적-특징과-규칙성-탐구하기">탐구 활동 — DNA 모형을 제작하고 DNA의 구조적 특징과 규칙성 탐구하기</h2>
+<h3 id="활동-a-사다리에서-이중-나선으로-dna-모형-만들기-모둠-활동">활동 A. 사다리에서 이중 나선으로, DNA 모형 만들기 (모둠 활동)</h3>
+<p><strong>목표</strong> DNA 모형을 직접 제작하여 뉴클레오타이드의 구성, 이중 나선 구조, 염기의 상보적 결합 규칙을 확인한다.</p>
+<p><strong>준비물</strong> 4가지 색의 수수깡(또는 빨대) — 염기 A, T, G, C용, 오각형 색종이(당), 둥근 스티커 또는 구슬(인산), 모루(철사 끈) 2개, 이쑤시개, 셀로판테이프, 가위, 네임펜</p>
+<p><strong>과정</strong></p>
+<ol>
+<li>색을 정한다. (예: A 빨강, T 파랑, G 초록, C 노랑) 수수깡을 약 4 cm 길이로 잘라 염기 조각을 만들고 글자를 적는다.</li>
+<li>오각형 종이(당)에 인산 스티커 1개와 염기 조각 1개를 붙여 <strong>뉴클레오타이드</strong> 10개를 만든다.</li>
+<li>모둠별로 서로 다른 10개짜리 염기 서열을 정해(예: ATGCGTTACG), 뉴클레오타이드를 그 순서대로 모루에 꿰어 <strong>한 가닥</strong>을 만든다. 당과 인산이 번갈아 이어지도록 한다.</li>
+<li>상보적 결합 규칙(A–T, G–C)에 따라 <strong>맞은편 가닥</strong>을 만들고, 두 가닥의 염기끼리 이쑤시개로 연결하여 사다리 모양을 만든다.</li>
+<li>사다리의 양 끝을 잡고 같은 방향으로 살짝 비틀어 <strong>이중 나선</strong>을 만든다.</li>
+<li>각 가닥과 전체에서 A, T, G, C의 개수를 세어 기록한다.</li>
+</ol>
+<p><strong>결과 기록</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>A</th>
+<th>T</th>
+<th>G</th>
+<th>C</th>
+<th>합계</th>
+</tr>
+</thead><tbody><tr>
+<td>가닥 1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>10</td>
+</tr>
+<tr>
+<td>가닥 2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>10</td>
+</tr>
+<tr>
+<td>전체(이중 가닥)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>20</td>
+</tr>
+</tbody></table></div>
+<p><strong>생각해 보기</strong></p>
+<ol>
+<li>전체에서 A와 T, G와 C의 개수를 비교하면 어떤 규칙이 있는가? 그 이유는?</li>
+<li>한 가닥 안에서도 A와 T의 개수가 항상 같은가? 다른 모둠의 결과와 비교해 보자.</li>
+<li>당–인산 뼈대를 바깥쪽에, 염기를 안쪽에 둔 구조는 유전 정보를 보호하는 데 어떤 이점이 있을까?</li>
+<li>모둠마다 서열이 달랐는데도 모형의 기본 모양은 같았다. 이것이 &#39;DNA는 모든 생물에서 같은 구조이지만 담긴 정보는 다르다&#39;는 말과 어떻게 연결되는지 설명해 보자.</li>
+</ol>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>결과 해석 길잡이 — 전체에서는 항상 A = T, G = C이지만 한 가닥 안에서는 같지 않을 수 있다. 짝이 맞는 것은 <strong>가닥과 가닥 사이</strong>이기 때문이다.</p>
+</aside>
+<h3 id="활동-b-si-o-사면체-블록으로-광물-구조-만들기-짧은-활동">활동 B. Si–O 사면체 블록으로 광물 구조 만들기 (짧은 활동)</h3>
+<ol>
+<li>지점토로 작은 공(산소)과 그보다 작은 공(규소)을 만들고, 이쑤시개로 규소 1개에 산소 4개를 연결해 <strong>사면체</strong>를 여러 개 만든다.</li>
+<li>이웃 사면체와 꼭짓점의 산소를 <strong>0개, 2개, 3개</strong> 공유하도록 연결하여 독립형, 단사슬, 판상 구조를 각각 만들어 본다.</li>
+<li>판상 구조 모형을 두 장 겹친 뒤 사이를 약하게(지점토 조금) 붙이고 손으로 떼어 보며, 흑운모가 한 방향으로 벗겨지는 이유를 설명한다.</li>
+</ol>
+<hr>
+<h2 id="개념-확인-문제">개념 확인 문제</h2>
+<h3 id="기본">기본</h3>
+<p><strong>1.</strong> 지각을 구성하는 원소 중 질량 비율이 가장 큰 원소 두 가지를 순서대로 쓰고, 이 두 원소가 만드는 광물 무리의 이름을 쓰시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 산소, 규소 / 규산염 광물</p>
+<p>지각은 산소(약 46 %)와 규소(약 28 %)가 가장 많으며, 이 두 원소가 결합한 Si–O 사면체를 기본 골격으로 하는 규산염 광물이 지각을 이루는 광물의 90 % 이상을 차지한다.</p>
+</div></details>
+
+<p><strong>2.</strong> 빈칸에 알맞은 말을 쓰시오.
+&quot;Si–O 사면체는 규소 원자 ( ㄱ )개를 산소 원자 ( ㄴ )개가 둘러싼 구조이다. 사면체는 이웃한 사면체와 ( ㄷ )을/를 공유하거나 양이온과 결합하여 다양한 광물을 만든다.&quot;</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> ㄱ: 1, ㄴ: 4, ㄷ: 산소(꼭짓점의 산소)</p>
+</div></details>
+
+<p><strong>3.</strong> 단백질과 핵산의 단위체를 각각 쓰고, 핵산 단위체를 이루는 세 가지 구성 요소를 쓰시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 단백질: 아미노산 / 핵산: 뉴클레오타이드 / 뉴클레오타이드의 구성 요소: 인산, 당, 염기</p>
+</div></details>
+
+<p><strong>4.</strong> DNA 한 가닥의 염기 서열이 <strong>ATTGCAC</strong>일 때, 상보적인 가닥의 염기 서열을 쓰시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> TAACGTG</p>
+<p>A↔T, G↔C 규칙에 따라 A→T, T→A, T→A, G→C, C→G, A→T, C→G로 바꾸어 쓴다.</p>
+</div></details>
+
+<h3 id="응용">응용</h3>
+<p><strong>5.</strong> 다음은 세 광물 A, B, C의 특징이다. 옳은 설명을 <strong>모두</strong> 고르시오.</p>
+<ul>
+<li>A: 사면체가 3차원 그물 모양으로 연결되어 있고, 쪼개짐이 없으며 매우 단단하다.</li>
+<li>B: 사면체가 평면으로 연결된 판 모양이며, 한 방향으로 얇게 벗겨진다.</li>
+<li>C: 사면체가 서로 산소를 공유하지 않고 독립적으로 존재한다.</li>
+</ul>
+<p>ㄱ. A는 석영, B는 흑운모, C는 감람석에 해당한다.
+ㄴ. 사면체 1개가 이웃 사면체와 공유하는 산소 수는 A &gt; B &gt; C이다.
+ㄷ. 세 광물은 기본 단위가 서로 다르기 때문에 성질이 다르다.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답 ㄱ, ㄴ</strong></p>
+<p>ㄱ. 망상 구조(석영), 판상 구조(흑운모), 독립형 구조(감람석)이다.
+ㄴ. 공유하는 산소 수는 A(망상) 4개, B(판상) 3개, C(독립형) 0개이다.
+ㄷ. 세 광물 모두 Si–O 사면체라는 <strong>같은 기본 단위</strong>로 이루어져 있다. 성질이 다른 것은 사면체의 <strong>연결 방식</strong>이 다르기 때문이다.</p>
+</div></details>
+
+<p><strong>6.</strong> 염기 200개로 이루어진 이중 가닥 DNA(100 염기쌍)에서 구아닌(G)의 비율이 22 %이다. 이 DNA에 들어 있는 아데닌(A)의 개수를 구하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 56개</p>
+<p>G = C = 22 %이므로 G + C = 44 %, A + T = 56 %. A = T이므로 A = 28 %.
+A의 개수 = <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">200</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0.28</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">56</span></span></span></span>개</p>
+</div></details>
+
+<p><strong>7.</strong> DNA의 염기는 4종류이고, 단백질을 이루는 아미노산은 20종류이다. 염기 몇 개의 배열이 아미노산 하나를 지정한다고 할 때, (1) 염기 2개씩 묶는 경우와 (2) 염기 3개씩 묶는 경우 만들 수 있는 배열의 가짓수를 각각 구하고, 20종류의 아미노산을 모두 지정하려면 최소 몇 개씩 묶어야 하는지 설명하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> (1) 16가지 (2) 64가지 / 최소 3개씩</p>
+<p>(1) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord">4</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">16</span></span></span></span>가지로 20종류를 모두 구별하기에 부족하다.
+(2) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord">4</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">64</span></span></span></span>가지로 20종류를 모두 구별할 수 있다.
+따라서 최소 3개의 염기가 하나의 단위가 되어야 한다. 실제로 생명체는 염기 3개를 한 단위로 아미노산을 지정하며, 이는 3-6 단원에서 자세히 배운다.</p>
+</div></details>
+
+<h3 id="융합-서술형">융합·서술형</h3>
+<p><strong>8. [산업 연계]</strong> 창문 유리와 수정(석영 결정)은 모두 주로 Si–O 사면체로 이루어져 있다.
+(1) 두 물질의 구조적 차이를 사면체의 배열로 설명하시오.
+(2) 유리·세라믹·시멘트 산업을 &#39;규산염 산업&#39;이라고 묶어 부르는 이유와, 이 산업들의 원료를 대량으로 구할 수 있는 까닭을 지각의 구성 원소와 관련지어 서술하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+(1) 수정(석영 결정)은 Si–O 사면체가 산소를 모두 공유하며 3차원으로 <strong>규칙적으로 배열</strong>된 결정이고, 유리는 같은 사면체들이 <strong>불규칙하게 연결된 채 굳어</strong> 일정한 결정 구조가 없는 고체이다.
+(2) 세 산업 모두 Si–O 사면체를 기본 단위로 하는 규산염 물질(규사, 점토, 장석 등)을 원료로 하여, 높은 온도로 처리해 사면체의 연결 상태를 바꾸어 제품을 만들기 때문이다. 지각은 산소와 규소가 가장 많은 원소이고 지각 광물의 대부분이 규산염 광물이므로 원료를 대량으로 얻을 수 있다.</p>
+<p><strong>채점 포인트</strong> ① 규칙적 배열 vs 불규칙 배열 ② 규산염 원료 공통 ③ 지각에 산소·규소가 가장 풍부</p>
+</div></details>
+
+<p><strong>9. [바이오·대학 연계]</strong> 당뇨병 치료에 쓰는 사람 인슐린은 사람 인슐린 유전자를 넣은 미생물이 만들어 낸다.
+(1) 미생물이 사람과 똑같은 단백질을 만들 수 있는 이유를 단위체의 관점에서 추론하시오.
+(2) 인슐린 같은 단백질 의약품을 반드시 정해진 온도에서 보관·운송해야 하는 이유를 단백질의 구조와 기능의 관계로 설명하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+(1) 사람과 미생물 모두 DNA가 같은 4종류의 염기로 된 뉴클레오타이드로 이루어져 있고, 단백질도 같은 20종류의 아미노산으로 만든다. 따라서 사람 인슐린 유전자의 염기 서열을 넣어 주면 미생물도 같은 아미노산 배열의 단백질을 만들 수 있다.
+(2) 단백질의 기능은 아미노산 사슬이 접혀 이룬 입체 구조에 의해 결정된다. 높은 온도 등에 노출되면 입체 구조가 변형되어 아미노산 배열은 같아도 기능을 잃을 수 있으므로, 구조가 유지되는 온도에서 보관해야 한다.</p>
+<p><strong>채점 포인트</strong> ① 생물 공통의 단위체(염기 4종, 아미노산 20종) ② 입체 구조가 기능을 결정 ③ 열에 의한 구조 변형</p>
+</div></details>
+
+<hr>
+<h2 id="한눈에-정리">한눈에 정리</h2>
+<h3 id="핵심-요약">핵심 요약</h3>
+<ul>
+<li>지각에는 산소와 규소가, 생명체에는 산소·탄소·수소가 많다. 결합 손이 4개인 14족 <strong>규소</strong>와 <strong>탄소</strong>가 각각 지각과 생명체 물질의 뼈대가 된다.</li>
+<li><strong>규산염 광물</strong>은 규소 1개와 산소 4개로 된 <strong>Si–O 사면체</strong>를 기본 골격으로 하며, 지각 광물의 90 % 이상을 차지한다.</li>
+<li>사면체가 산소를 공유하는 <strong>연결 방식</strong>(독립형, 단사슬, 복사슬, 판상, 망상)에 따라 감람석, 휘석, 각섬석, 흑운모, 석영·장석 등 성질이 다른 광물이 된다.</li>
+<li><strong>단백질</strong>은 20종류의 <strong>아미노산</strong>이 펩타이드 결합으로 연결된 뒤 접혀 입체 구조를 이루며, 배열 순서와 구조에 따라 효소·항체·호르몬 등 다양한 기능을 한다.</li>
+<li><strong>핵산</strong>은 <strong>뉴클레오타이드</strong>(인산 + 당 + 염기)가 연결된 물질이며, DNA는 두 가닥이 <strong>이중 나선</strong>을 이루고 염기는 <strong>A–T, G–C</strong>로 상보적으로 결합한다.</li>
+<li>공통 규칙: <strong>적은 종류의 단위체 + 다양한 연결·배열 → 다양한 구조와 성질·기능</strong>.</li>
+</ul>
+<h3 id="핵심-용어">핵심 용어</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>용어</th>
+<th>뜻</th>
+</tr>
+</thead><tbody><tr>
+<td>단위체 / 중합체</td>
+<td>큰 분자를 이루는 작은 기본 분자 / 단위체가 여러 개 결합한 큰 분자</td>
+</tr>
+<tr>
+<td>Si–O 사면체</td>
+<td>규소 1개를 산소 4개가 사면체 모양으로 둘러싼 규산염 광물의 기본 단위</td>
+</tr>
+<tr>
+<td>규산염 광물</td>
+<td>Si–O 사면체를 기본 골격으로 하는 광물. 지각 광물의 대부분</td>
+</tr>
+<tr>
+<td>아미노산</td>
+<td>단백질의 단위체. 생명체 단백질을 이루는 것은 20종류</td>
+</tr>
+<tr>
+<td>펩타이드 결합</td>
+<td>아미노산과 아미노산 사이의 결합</td>
+</tr>
+<tr>
+<td>뉴클레오타이드</td>
+<td>인산, 당, 염기로 이루어진 핵산의 단위체</td>
+</tr>
+<tr>
+<td>이중 나선</td>
+<td>두 가닥의 폴리뉴클레오타이드가 꼬여 있는 DNA의 구조</td>
+</tr>
+<tr>
+<td>상보적 결합</td>
+<td>DNA에서 A는 T와, G는 C와만 짝을 지어 결합하는 규칙</td>
+</tr>
+</tbody></table></div>
+<h3 id="다음-단원으로">다음 단원으로</h3>
+<p>지금까지 지각과 생명체를 이루는 물질이 기본 단위체의 결합으로 만들어지는 규칙성을 살펴보았다. 다음 단원에서는 물질을 <strong>전기가 통하는 정도</strong>에 따라 도체·부도체·반도체로 나누어 보고, 이 단원에서 만난 <strong>규산염 광물(규사)에서 얻은 규소가 어떻게 반도체 소자의 재료</strong>가 되어 현대 첨단기술을 떠받치는지 탐구한다.</p>
+<nav class="pager"><a class="prev" href="2-4.html"><small>이전 단원</small>2-4 이온 결합과 공유 결합</a><a class="next" href="2-6.html"><small>다음 단원</small>2-6 물질의 전기적 성질과 소재</a></nav></article></div>
+</main>
+</div>
+</body>
+</html>

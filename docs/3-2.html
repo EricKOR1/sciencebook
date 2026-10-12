@@ -1,0 +1,885 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>3-2 판구조론과 지권의 변화</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css">
+<link rel="stylesheet" href="assets/book.css">
+<script src="assets/js/book.js" defer></script>
+
+</head>
+<body class="">
+<header class="topbar">
+  <button class="menu-btn" id="menu-btn" aria-controls="drawer" aria-expanded="false">목차</button>
+  <a class="brand" href="index.html">통합과학 개념에서 산업까지</a>
+  <button class="theme-btn" id="theme-btn" aria-label="밝은 화면과 어두운 화면 바꾸기">화면</button>
+</header>
+<div class="shell">
+<aside class="drawer" id="drawer"><nav class="book-nav" aria-label="교재 목차"><a class="nav-home" href="index.html">처음으로</a><p class="nav-book">통합과학1</p><p class="nav-unit"><span>1단원</span> 과학의 기초</p><ul><li><a href="1-1.html"><span class="nav-id">1-1</span>시간과 공간</a></li><li><a href="1-2.html"><span class="nav-id">1-2</span>기본량과 단위</a></li><li><a href="1-3.html"><span class="nav-id">1-3</span>측정과 어림, 측정 표준</a></li><li><a href="1-4.html"><span class="nav-id">1-4</span>정보와 신호: 아날로그에서 디지털로</a></li></ul><p class="nav-unit"><span>2단원</span> 물질과 규칙성</p><ul><li><a href="2-1.html"><span class="nav-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="2-2.html"><span class="nav-id">2-2</span>별의 진화와 원소의 생성</a></li><li><a href="2-3.html"><span class="nav-id">2-3</span>원소의 주기성과 화학 결합의 이유</a></li><li><a href="2-4.html"><span class="nav-id">2-4</span>이온 결합과 공유 결합</a></li><li><a href="2-5.html"><span class="nav-id">2-5</span>지각과 생명체 구성 물질의 규칙성</a></li><li><a href="2-6.html"><span class="nav-id">2-6</span>물질의 전기적 성질과 소재</a></li></ul><p class="nav-unit"><span>3단원</span> 시스템과 상호작용</p><ul><li><a href="3-1.html"><span class="nav-id">3-1</span>지구시스템의 구성과 상호작용</a></li><li><a href="3-2.html" aria-current="page"><span class="nav-id">3-2</span>판구조론과 지권의 변화</a></li><li><a href="3-3.html"><span class="nav-id">3-3</span>중력과 운동</a></li><li><a href="3-4.html"><span class="nav-id">3-4</span>운동량과 충격량</a></li><li><a href="3-5.html"><span class="nav-id">3-5</span>생명 시스템과 물질대사</a></li><li><a href="3-6.html"><span class="nav-id">3-6</span>유전자와 단백질</a></li></ul><p class="nav-book">통합과학2</p><p class="nav-unit"><span>4단원</span> 변화와 다양성</p><ul><li><a href="4-1.html"><span class="nav-id">4-1</span>지질시대의 환경 변화와 생물다양성</a></li><li><a href="4-2.html"><span class="nav-id">4-2</span>진화와 생물다양성</a></li><li><a href="4-3.html"><span class="nav-id">4-3</span>산화와 환원</a></li><li><a href="4-4.html"><span class="nav-id">4-4</span>산과 염기, 중화 반응</a></li><li><a href="4-5.html"><span class="nav-id">4-5</span>물질 변화와 에너지 출입</a></li></ul><p class="nav-unit"><span>5단원</span> 환경과 에너지</p><ul><li><a href="5-1.html"><span class="nav-id">5-1</span>생태계 구성 요소와 상호 관계</a></li><li><a href="5-2.html"><span class="nav-id">5-2</span>생태계 평형</a></li><li><a href="5-3.html"><span class="nav-id">5-3</span>지구온난화와 기후변화</a></li><li><a href="5-4.html"><span class="nav-id">5-4</span>태양 에너지와 에너지 전환</a></li><li><a href="5-5.html"><span class="nav-id">5-5</span>발전기와 전기 에너지</a></li><li><a href="5-6.html"><span class="nav-id">5-6</span>에너지 효율과 신재생 에너지</a></li></ul><p class="nav-unit"><span>6단원</span> 과학과 미래 사회</p><ul><li><a href="6-1.html"><span class="nav-id">6-1</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html"><span class="nav-id">6-2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html"><span class="nav-id">6-3</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html"><span class="nav-id">6-4</span>과학기술과 윤리</a></li></ul><p class="nav-book">부록</p><ul><li><a href="guide.html">교재 설계 안내</a></li><li><a href="appendix-standards.html">부록 1. 교육과정 성취기준</a></li><li><a href="appendix-map.html">부록 2. 연계 지도</a></li><li><a href="appendix-glossary.html">부록 3. 핵심 용어 사전</a></li></ul></nav></aside>
+<main class="main" id="main">
+<div class="lesson-grid"><nav class="ladder" aria-label="이 단원의 흐름"><p class="ladder-title">이 단원의 흐름</p><ol><li class="extra"><a href="#단원-들어가기">단원 들어가기</a></li><li class="s1"><a href="#step-1"><b>STEP 1</b> 중학교 다시 보기</a></li><li class="s2"><a href="#step-2"><b>STEP 2</b> 기초 다지기</a></li><li class="s3"><a href="#step-3"><b>STEP 3</b> 핵심 개념</a></li><li class="s4"><a href="#step-4"><b>STEP 4</b> 오개념 바로잡기</a></li><li class="s5"><a href="#step-5"><b>STEP 5</b> 선택과목·대학으로 한 걸음 더</a></li><li class="s6"><a href="#step-6"><b>STEP 6</b> 산업 현장과 진로 연결</a></li><li class="extra"><a href="#탐구-활동-화산-분출로-인한-피해를-조사하고-대책-세우기">탐구 활동 — 화산 분출로 인한 피해를 조사하고 대책 세우기</a></li><li class="extra"><a href="#개념-확인-문제">개념 확인 문제</a></li><li class="extra"><a href="#한눈에-정리">한눈에 정리</a></li></ol></nav><article class="prose lesson"><header class="lesson-hero u3">
+  <p class="eyebrow">통합과학1 · 3단원 시스템과 상호작용</p>
+  <h1><span class="lesson-id">3-2</span>판구조론과 지권의 변화</h1>
+  <p class="lesson-sub">움직이는 땅, 이어진 지구</p>
+</header><aside class="callout note"><p class="callout-title">성취기준·참고</p><p><strong>성취기준 [10통과1-03-02]</strong> 지권의 변화를 판구조론 관점에서 해석하고, 에너지 흐름의 결과로 발생하는 지권의 변화가 지구시스템에 미치는 영향을 추론할 수 있다.</p>
+</aside>
+<p><strong>학습 목표</strong></p>
+<ol>
+<li>대륙 이동설에서 해저 확장설을 거쳐 판구조론이 정립되기까지의 과정을 증거와 함께 설명할 수 있다.</li>
+<li>판의 경계를 발산형·수렴형·보존형으로 구분하고, 각 경계에서 나타나는 지형과 지진·화산 활동을 설명할 수 있다.</li>
+<li>맨틀 대류와 같은 지구 내부의 에너지 흐름이 판을 움직여 지권을 변화시킨다는 것을 설명할 수 있다.</li>
+<li>화산 분출과 지진 같은 지권의 변화가 기권·수권·생물권에 미치는 영향을 추론하고, 피해를 줄이는 대책을 제안할 수 있다.</li>
+</ol>
+<p><strong>이 단원의 학습 사다리</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>단계</th>
+<th>무엇을 하나?</th>
+</tr>
+</thead><tbody><tr>
+<td>STEP 1. 중학교 다시 보기</td>
+<td>지권의 층상 구조, 대륙이동설, 판의 경계와 지진대·화산대를 다시 꺼내 본다</td>
+</tr>
+<tr>
+<td>STEP 2. 기초 다지기</td>
+<td>밀도와 대류, 고체도 흐른다는 생각, 속력 = 거리 ÷ 시간을 디딤돌로 놓는다</td>
+</tr>
+<tr>
+<td>STEP 3. 핵심 개념</td>
+<td>판구조론의 발달 → 판과 경계 → 맨틀 대류와 에너지 흐름 → 지진·화산과 한반도 → 지구시스템에 미치는 영향</td>
+</tr>
+<tr>
+<td>STEP 4. 오개념 바로잡기</td>
+<td>&quot;판은 녹은 마그마 위에 떠 있다?&quot; 같은 착각을 바로잡는다</td>
+</tr>
+<tr>
+<td>STEP 5. 선택과목·대학</td>
+<td>지진의 규모와 에너지, 플룸 구조론, 판을 끌어당기는 힘</td>
+</tr>
+<tr>
+<td>STEP 6. 산업·진로</td>
+<td>지진 조기경보와 내진 설계, 지열 발전, 화산재와 항공 운항</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="단원-들어가기">단원 들어가기</h2>
+<p>세계 지도를 펼쳐 남아메리카의 동쪽 해안선과 아프리카의 서쪽 해안선을 오려서 붙여 보면 놀랍도록 잘 맞는다. 우연일까? 100여 년 전 한 과학자는 &quot;대륙들이 원래 하나였다가 갈라져 움직였다&quot;라고 주장했지만, 당시 대부분의 과학자는 이를 받아들이지 않았다. <strong>대륙처럼 거대한 땅덩어리를 무엇이 움직일 수 있단 말인가?</strong></p>
+<p>이 질문의 답을 찾는 데 50년이 넘게 걸렸다. 그 결과 탄생한 이론이 <strong>판구조론</strong>이다. 판구조론은 지진과 화산이 왜 특정 지역에만 몰려 있는지, 히말라야산맥은 어떻게 생겼는지, 그리고 화산 하나가 어떻게 지구 반대편의 날씨와 비행기 운항까지 바꿀 수 있는지를 하나의 틀로 설명한다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-3-2-0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 1431.53125 181.5" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-3-2-0{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-3-2-0 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-3-2-0 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-3-2-0 .error-icon{fill:var(--mm-group);}#mm-3-2-0 .error-text{fill:#595959;stroke:#595959;}#mm-3-2-0 .edge-thickness-normal{stroke-width:1px;}#mm-3-2-0 .edge-thickness-thick{stroke-width:3.5px;}#mm-3-2-0 .edge-pattern-solid{stroke-dasharray:0;}#mm-3-2-0 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-3-2-0 .edge-pattern-dashed{stroke-dasharray:3;}#mm-3-2-0 .edge-pattern-dotted{stroke-dasharray:2;}#mm-3-2-0 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-3-2-0 .marker.cross{stroke:var(--mm-line);}#mm-3-2-0 svg{font-family:inherit;font-size:15px;}#mm-3-2-0 p{margin:0;}#mm-3-2-0 .label{font-family:inherit;color:var(--mm-text);}#mm-3-2-0 .cluster-label text{fill:#595959;}#mm-3-2-0 .cluster-label span{color:#595959;}#mm-3-2-0 .cluster-label span p{background-color:transparent;}#mm-3-2-0 .label text,#mm-3-2-0 span{fill:var(--mm-text);color:var(--mm-text);}#mm-3-2-0 .node rect,#mm-3-2-0 .node circle,#mm-3-2-0 .node ellipse,#mm-3-2-0 .node polygon,#mm-3-2-0 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-3-2-0 .rough-node .label text,#mm-3-2-0 .node .label text,#mm-3-2-0 .image-shape .label,#mm-3-2-0 .icon-shape .label{text-anchor:middle;}#mm-3-2-0 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-3-2-0 .rough-node .label,#mm-3-2-0 .node .label,#mm-3-2-0 .image-shape .label,#mm-3-2-0 .icon-shape .label{text-align:center;}#mm-3-2-0 .node.clickable{cursor:pointer;}#mm-3-2-0 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-3-2-0 .arrowheadPath{fill:#0b0b0b;}#mm-3-2-0 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-3-2-0 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-3-2-0 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-3-2-0 .edgeLabel p{background-color:var(--mm-label);}#mm-3-2-0 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-3-2-0 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-3-2-0 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-3-2-0 .cluster text{fill:#595959;}#mm-3-2-0 .cluster span{color:#595959;}#mm-3-2-0 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-3-2-0 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-3-2-0 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-3-2-0 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-3-2-0 rect.text{fill:none;stroke-width:0;}#mm-3-2-0 .icon-shape,#mm-3-2-0 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-3-2-0 .icon-shape p,#mm-3-2-0 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-3-2-0 .icon-shape .label rect,#mm-3-2-0 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-3-2-0 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-3-2-0 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-3-2-0 .node .neo-node{stroke:var(--mm-border);}#mm-3-2-0 [data-look="neo"].node rect,#mm-3-2-0 [data-look="neo"].cluster rect,#mm-3-2-0 [data-look="neo"].node polygon{stroke:url(#mm-3-2-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-2-0 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-3-2-0 [data-look="neo"].node path{stroke:url(#mm-3-2-0-gradient);stroke-width:1px;}#mm-3-2-0 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-2-0 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-3-2-0 [data-look="neo"].node circle{stroke:url(#mm-3-2-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-2-0 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-3-2-0 [data-look="neo"].icon-shape .icon{fill:url(#mm-3-2-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-2-0 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-3-2-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-2-0 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-3-2-0_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-0_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-0_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-0_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-0_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-0_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-0_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-0_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-0_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-0_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-0_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-3-2-0_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M167.258,42.5L171.772,42.5C176.286,42.5,185.315,42.5,193.329,42.5C201.344,42.5,208.344,42.5,211.844,42.5L215.344,42.5" id="mm-3-2-0-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTY3LjI1NzgxMjUsInkiOjQyLjV9LHsieCI6MTk0LjM0Mzc1LCJ5Ijo0Mi41fSx7IngiOjIxOS4zNDM3NSwieSI6NDIuNX1d" data-look="classic" marker-end="url(#mm-3-2-0_flowchart-v2-pointEnd)"/><path d="M449.016,42.5L453.182,42.5C457.349,42.5,465.682,42.5,477.361,45.483C489.04,48.466,504.065,54.432,511.577,57.416L519.09,60.399" id="mm-3-2-0-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6NDQ5LjAxNTYyNSwieSI6NDIuNX0seyJ4Ijo0NzQuMDE1NjI1LCJ5Ijo0Mi41fSx7IngiOjUyMi44MDcxMzQ1NzA3NjU3LCJ5Ijo2MS44NzV9XQ==" data-look="classic" marker-end="url(#mm-3-2-0_flowchart-v2-pointEnd)"/><path d="M169.344,150.25L173.51,150.25C177.677,150.25,186.01,150.25,203.469,150.25C220.927,150.25,247.51,150.25,260.802,150.25L274.094,150.25" id="mm-3-2-0-L_D_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_E_0" data-points="W3sieCI6MTY5LjM0Mzc1LCJ5IjoxNTAuMjV9LHsieCI6MTk0LjM0Mzc1LCJ5IjoxNTAuMjV9LHsieCI6Mjc4LjA5Mzc1LCJ5IjoxNTAuMjV9XQ==" data-look="classic" marker-end="url(#mm-3-2-0_flowchart-v2-pointEnd)"/><path d="M390.266,150.25L404.224,150.25C418.182,150.25,446.099,150.25,467.57,147.267C489.04,144.284,504.065,138.318,511.577,135.334L519.09,132.351" id="mm-3-2-0-L_E_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_C_0" data-points="W3sieCI6MzkwLjI2NTYyNSwieSI6MTUwLjI1fSx7IngiOjQ3NC4wMTU2MjUsInkiOjE1MC4yNX0seyJ4Ijo1MjIuODA3MTM0NTcwNzY1NywieSI6MTMwLjg3NX1d" data-look="classic" marker-end="url(#mm-3-2-0_flowchart-v2-pointEnd)"/><path d="M720.359,96.375L724.526,96.375C728.693,96.375,737.026,96.375,744.693,96.375C752.359,96.375,759.359,96.375,762.859,96.375L766.359,96.375" id="mm-3-2-0-L_C_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_F_0" data-points="W3sieCI6NzIwLjM1OTM3NSwieSI6OTYuMzc1fSx7IngiOjc0NS4zNTkzNzUsInkiOjk2LjM3NX0seyJ4Ijo3NzAuMzU5Mzc1LCJ5Ijo5Ni4zNzV9XQ==" data-look="classic" marker-end="url(#mm-3-2-0_flowchart-v2-pointEnd)"/><path d="M963.359,96.375L967.526,96.375C971.693,96.375,980.026,96.375,987.693,96.375C995.359,96.375,1002.359,96.375,1005.859,96.375L1009.359,96.375" id="mm-3-2-0-L_F_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_F_G_0" data-points="W3sieCI6OTYzLjM1OTM3NSwieSI6OTYuMzc1fSx7IngiOjk4OC4zNTkzNzUsInkiOjk2LjM3NX0seyJ4IjoxMDEzLjM1OTM3NSwieSI6OTYuMzc1fV0=" data-look="classic" marker-end="url(#mm-3-2-0_flowchart-v2-pointEnd)"/><path d="M1195.531,96.375L1199.698,96.375C1203.865,96.375,1212.198,96.375,1219.865,96.375C1227.531,96.375,1234.531,96.375,1238.031,96.375L1241.531,96.375" id="mm-3-2-0-L_G_H_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_G_H_0" data-points="W3sieCI6MTE5NS41MzEyNSwieSI6OTYuMzc1fSx7IngiOjEyMjAuNTMxMjUsInkiOjk2LjM3NX0seyJ4IjoxMjQ1LjUzMTI1LCJ5Ijo5Ni4zNzV9XQ==" data-look="classic" marker-end="url(#mm-3-2-0_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_F_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_F_G_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_G_H_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-3-2-0-flowchart-A-0" data-look="classic" transform="translate(88.671875, 42.5)"><rect class="basic label-container" style="" x="-78.5859375" y="-34.5" width="157.171875" height="69"/><g class="label" style="" transform="translate(-54.5859375, -22.5)"><rect/><foreignObject width="109.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>대륙 이동설<br />대륙이 움직였다</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-2-0-flowchart-B-1" data-look="classic" transform="translate(334.1796875, 42.5)"><rect class="basic label-container" style="" x="-114.8359375" y="-34.5" width="229.671875" height="69"/><g class="label" style="" transform="translate(-90.8359375, -22.5)"><rect/><foreignObject width="181.671875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>해저 확장설<br />해령에서 새 해양 지각 생성</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-2-0-flowchart-C-3" data-look="classic" transform="translate(609.6875, 96.375)"><rect class="basic label-container" style="" x="-110.671875" y="-34.5" width="221.34375" height="69"/><g class="label" style="" transform="translate(-86.671875, -22.5)"><rect/><foreignObject width="173.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>판구조론<br />판들이 움직이며 상호작용</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-2-0-flowchart-D-4" data-look="classic" transform="translate(88.671875, 150.25)"><rect class="basic label-container" style="" x="-80.671875" y="-23.25" width="161.34375" height="46.5"/><g class="label" style="" transform="translate(-56.671875, -11.25)"><rect/><foreignObject width="113.34375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>지구 내부 에너지</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-2-0-flowchart-E-5" data-look="classic" transform="translate(334.1796875, 150.25)"><rect class="basic label-container" style="" x="-56.0859375" y="-23.25" width="112.171875" height="46.5"/><g class="label" style="" transform="translate(-32.0859375, -11.25)"><rect/><foreignObject width="64.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>맨틀 대류</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-2-0-flowchart-F-9" data-look="classic" transform="translate(866.859375, 96.375)"><rect class="basic label-container" style="" x="-96.5" y="-34.5" width="193" height="69"/><g class="label" style="" transform="translate(-72.5, -22.5)"><rect/><foreignObject width="145" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>판의 경계<br />발산형·수렴형·보존형</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-2-0-flowchart-G-11" data-look="classic" transform="translate(1104.4453125, 96.375)"><rect class="basic label-container" style="" x="-91.0859375" y="-23.25" width="182.171875" height="46.5"/><g class="label" style="" transform="translate(-67.0859375, -11.25)"><rect/><foreignObject width="134.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>지진·화산·조산 운동</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-2-0-flowchart-H-13" data-look="classic" transform="translate(1334.53125, 96.375)"><rect class="basic label-container" style="" x="-89" y="-34.5" width="178" height="69"/><g class="label" style="" transform="translate(-65, -22.5)"><rect/><foreignObject width="130" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>기권·수권·생물권에<br />영향</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-3-2-0-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-3-2-0-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-3-2-0-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><hr>
+<h2 id="step-1" class="step-h s1"><span class="step-badge s1">STEP 1</span><span class="h-text">중학교 다시 보기</span></h2>
+<h3 id="연계-개념표">연계 개념표</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>중학교 성취기준</th>
+<th>중학교에서 배운 것</th>
+<th>고등학교에서 확장되는 것</th>
+</tr>
+</thead><tbody><tr>
+<td>[9과09-01]</td>
+<td>지권의 층상 구조(지각, 맨틀, 외핵, 내핵)의 이름과 상태</td>
+<td>지각과 맨틀 윗부분을 묶은 <strong>판(암석권)</strong> 과 그 아래 <strong>연약권</strong></td>
+</tr>
+<tr>
+<td>[9과09-03]</td>
+<td>암석을 생성 과정에 따라 분류(화성암·퇴적암·변성암), 암석의 순환</td>
+<td>판의 경계에서 마그마가 생기고 암석이 만들어지는 과정</td>
+</tr>
+<tr>
+<td>[9과09-05]</td>
+<td>대륙이동설, 화산대·지진대의 분포가 판의 경계와 일치</td>
+<td><strong>왜</strong> 판의 경계에서 지진·화산이 일어나는가 → 판의 경계 종류와 판을 움직이는 원동력</td>
+</tr>
+<tr>
+<td>[9과22-01]</td>
+<td>재해·재난(지진, 화산 등)의 발생 원인과 피해를 과학적으로 분석</td>
+<td>화산 분출이 <strong>지구시스템 전체</strong>(기권·수권·생물권)에 미치는 영향 추론</td>
+</tr>
+<tr>
+<td>[9과22-02]</td>
+<td>과학적 원리를 이용한 재해·재난 대비 및 대처 방안</td>
+<td>지진 조기경보, 내진 설계, 화산 감시 등 <strong>과학 기반 대책</strong> 수립</td>
+</tr>
+</tbody></table></div>
+<h3 id="준비-운동-사전-진단">준비 운동 (사전 진단)</h3>
+<p><strong>Q1.</strong> 베게너가 대륙 이동설의 증거로 제시한 것이 <strong>아닌</strong> 것은?
+① 대서양 양쪽 대륙의 해안선 모양이 비슷하다. ② 멀리 떨어진 대륙에서 같은 종의 고생물 화석이 발견된다. ③ 해령을 중심으로 해양 지각의 나이가 대칭적으로 분포한다. ④ 지금은 따뜻한 지역에서 과거 빙하의 흔적이 발견된다.</p>
+<p><strong>Q2.</strong> 대륙 이동설이 처음 발표되었을 때 많은 과학자가 받아들이지 않은 가장 큰 이유는?</p>
+<p><strong>Q3.</strong> 세계 지도에서 지진과 화산이 띠 모양으로 몰려 있는 곳은 어디와 거의 일치하는가?</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>Q1. ③</strong> — 해양 지각의 나이 분포는 베게너가 세상을 떠난 뒤인 20세기 중반 이후 해저 탐사로 밝혀진 <strong>해저 확장설</strong>의 증거이다.</p>
+<p><strong>Q2.</strong> 대륙을 움직이는 <strong>힘(원동력)</strong> 을 설명하지 못했기 때문이다.</p>
+<p><strong>Q3.</strong> <strong>판의 경계</strong>와 거의 일치한다. 특히 태평양 둘레를 따라 고리 모양으로 이어진 지역(환태평양 지진대·화산대)이 대표적이다.</p>
+</div></details>
+
+<hr>
+<h2 id="step-2" class="step-h s2"><span class="step-badge s2">STEP 2</span><span class="h-text">기초 다지기</span></h2>
+<h3 id="①-밀도와-뜨고-가라앉기">① 밀도와 뜨고 가라앉기</h3>
+<p><strong>밀도(density)</strong> 는 단위 부피당 질량이다(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">ρ</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">m</span><span class="mord">/</span><span class="mord mathnormal" style="margin-right:0.22222em;">V</span></span></span></span>). 같은 부피라면 밀도가 큰 것이 더 무겁다.</p>
+<ul>
+<li>밀도가 작은 물질은 밀도가 큰 물질 위에 뜬다. (물 위의 나무토막, 바닷물 위의 빙산)</li>
+<li>같은 물질이라도 <strong>뜨거우면 부피가 늘어 밀도가 작아지고</strong>, 차가우면 밀도가 커진다.</li>
+<li>대륙 지각(화강암질)은 해양 지각(현무암질)보다 밀도가 작다. 그래서 두 판이 부딪히면 <strong>무거운 해양판이 아래로 가라앉는다.</strong></li>
+</ul>
+<h3 id="②-대류-데워지면-올라가고-식으면-내려간다">② 대류: 데워지면 올라가고, 식으면 내려간다</h3>
+<p>냄비에 물을 끓이면 바닥에서 데워진 물은 위로 올라가고, 위에서 식은 물은 다시 내려온다. 이렇게 유체가 직접 움직이며 열을 나르는 것이 <strong>대류(convection)</strong> 이다. 대류가 일어나려면 ① 아래쪽이 뜨겁고 위쪽이 차가워야 하고 ② 물질이 흐를 수 있어야 한다.</p>
+<h3 id="③-고체도-오랜-시간이-지나면-흐른다">③ 고체도 오랜 시간이 지나면 흐른다</h3>
+<p>맨틀은 고체인데 어떻게 대류할 수 있을까? 매우 큰 압력과 높은 온도에서 아주 긴 시간 동안 힘을 받으면, 고체도 부서지지 않고 <strong>아주 천천히 변형되며 흐를 수 있다.</strong></p>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 단단한 엿이나 실리콘 장난감 점토(슬라임과 비슷한 &#39;흐르는 고체&#39;)를 떠올려 보자. 망치로 치면 깨지지만, 책상 위에 며칠 두면 조금씩 퍼져서 납작해진다. 맨틀은 &#39;수천만 년에 걸쳐 흐르는 엿&#39;이다. 맨틀 대류의 속력은 1년에 수 cm로, 손톱이 자라는 속도와 비슷하다.</p>
+</aside>
+<h3 id="④-속력-거리-시간-아주-긴-시간-버전">④ 속력 = 거리 ÷ 시간 (아주 긴 시간 버전)</h3>
+<p>판의 이동 속력도 중학교에서 배운 속력 공식으로 구한다. 다만 시간 단위가 &#39;년&#39;, 그것도 &#39;수백만 년&#39;이다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">속력</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord hangul_fallback">걸린</span><span class="mord"> </span><span class="mord hangul_fallback">시간</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord hangul_fallback">이동</span><span class="mord"> </span><span class="mord hangul_fallback">거리</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<ul>
+<li><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord">1</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">km</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">100</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">cm</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">5</span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">cm</span></span></span></span></span></li>
+<li>1년에 1 cm씩 움직여도 100만 년이면 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">cm</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord">10</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">km</span></span></span></span></span>, 1억 년이면 1000 km를 움직인다.</li>
+</ul>
+<aside class="callout important"><p class="callout-title">핵심</p><p><strong>&#39;느리다&#39;와 &#39;작다&#39;는 다르다.</strong> 1년에 몇 cm는 눈에 보이지 않지만, 지구의 나이(약 46억 년)를 생각하면 대륙이 지구 반 바퀴를 돌 수도 있는 속력이다.</p>
+</aside>
+<hr>
+<h2 id="step-3" class="step-h s3"><span class="step-badge s3">STEP 3</span><span class="h-text">핵심 개념</span></h2>
+<h3 id="3-2-①-판구조론은-어떻게-탄생했나-대륙-이동설에서-판구조론까지">3-2-① 판구조론은 어떻게 탄생했나 — 대륙 이동설에서 판구조론까지</h3>
+<p>판구조론은 한 사람이 한 번에 만든 이론이 아니다. 새로운 증거가 쌓이면서 생각이 발전해 온 과정 자체가 과학의 본성을 잘 보여 준다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-3-2-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 264 628.5" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-3-2-1{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-3-2-1 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-3-2-1 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-3-2-1 .error-icon{fill:var(--mm-group);}#mm-3-2-1 .error-text{fill:#595959;stroke:#595959;}#mm-3-2-1 .edge-thickness-normal{stroke-width:1px;}#mm-3-2-1 .edge-thickness-thick{stroke-width:3.5px;}#mm-3-2-1 .edge-pattern-solid{stroke-dasharray:0;}#mm-3-2-1 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-3-2-1 .edge-pattern-dashed{stroke-dasharray:3;}#mm-3-2-1 .edge-pattern-dotted{stroke-dasharray:2;}#mm-3-2-1 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-3-2-1 .marker.cross{stroke:var(--mm-line);}#mm-3-2-1 svg{font-family:inherit;font-size:15px;}#mm-3-2-1 p{margin:0;}#mm-3-2-1 .label{font-family:inherit;color:var(--mm-text);}#mm-3-2-1 .cluster-label text{fill:#595959;}#mm-3-2-1 .cluster-label span{color:#595959;}#mm-3-2-1 .cluster-label span p{background-color:transparent;}#mm-3-2-1 .label text,#mm-3-2-1 span{fill:var(--mm-text);color:var(--mm-text);}#mm-3-2-1 .node rect,#mm-3-2-1 .node circle,#mm-3-2-1 .node ellipse,#mm-3-2-1 .node polygon,#mm-3-2-1 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-3-2-1 .rough-node .label text,#mm-3-2-1 .node .label text,#mm-3-2-1 .image-shape .label,#mm-3-2-1 .icon-shape .label{text-anchor:middle;}#mm-3-2-1 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-3-2-1 .rough-node .label,#mm-3-2-1 .node .label,#mm-3-2-1 .image-shape .label,#mm-3-2-1 .icon-shape .label{text-align:center;}#mm-3-2-1 .node.clickable{cursor:pointer;}#mm-3-2-1 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-3-2-1 .arrowheadPath{fill:#0b0b0b;}#mm-3-2-1 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-3-2-1 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-3-2-1 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-3-2-1 .edgeLabel p{background-color:var(--mm-label);}#mm-3-2-1 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-3-2-1 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-3-2-1 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-3-2-1 .cluster text{fill:#595959;}#mm-3-2-1 .cluster span{color:#595959;}#mm-3-2-1 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-3-2-1 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-3-2-1 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-3-2-1 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-3-2-1 rect.text{fill:none;stroke-width:0;}#mm-3-2-1 .icon-shape,#mm-3-2-1 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-3-2-1 .icon-shape p,#mm-3-2-1 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-3-2-1 .icon-shape .label rect,#mm-3-2-1 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-3-2-1 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-3-2-1 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-3-2-1 .node .neo-node{stroke:var(--mm-border);}#mm-3-2-1 [data-look="neo"].node rect,#mm-3-2-1 [data-look="neo"].cluster rect,#mm-3-2-1 [data-look="neo"].node polygon{stroke:url(#mm-3-2-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-2-1 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-3-2-1 [data-look="neo"].node path{stroke:url(#mm-3-2-1-gradient);stroke-width:1px;}#mm-3-2-1 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-2-1 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-3-2-1 [data-look="neo"].node circle{stroke:url(#mm-3-2-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-2-1 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-3-2-1 [data-look="neo"].icon-shape .icon{fill:url(#mm-3-2-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-2-1 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-3-2-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-2-1 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-3-2-1_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-1_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-1_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-1_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-1_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-1_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-1_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-1_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-1_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-1_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-1_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-3-2-1_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M132,77L132,81.167C132,85.333,132,93.667,132,101.333C132,109,132,116,132,119.5L132,123" id="mm-3-2-1-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTMyLCJ5Ijo3N30seyJ4IjoxMzIsInkiOjEwMn0seyJ4IjoxMzIsInkiOjEyN31d" data-look="classic" marker-end="url(#mm-3-2-1_flowchart-v2-pointEnd)"/><path d="M132,218.5L132,222.667C132,226.833,132,235.167,132,242.833C132,250.5,132,257.5,132,261L132,264.5" id="mm-3-2-1-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6MTMyLCJ5IjoyMTguNX0seyJ4IjoxMzIsInkiOjI0My41fSx7IngiOjEzMiwieSI6MjY4LjV9XQ==" data-look="classic" marker-end="url(#mm-3-2-1_flowchart-v2-pointEnd)"/><path d="M132,360L132,364.167C132,368.333,132,376.667,132,384.333C132,392,132,399,132,402.5L132,406" id="mm-3-2-1-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6MTMyLCJ5IjozNjB9LHsieCI6MTMyLCJ5IjozODV9LHsieCI6MTMyLCJ5Ijo0MTB9XQ==" data-look="classic" marker-end="url(#mm-3-2-1_flowchart-v2-pointEnd)"/><path d="M132,479L132,483.167C132,487.333,132,495.667,132,503.333C132,511,132,518,132,521.5L132,525" id="mm-3-2-1-L_D_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_E_0" data-points="W3sieCI6MTMyLCJ5Ijo0Nzl9LHsieCI6MTMyLCJ5Ijo1MDR9LHsieCI6MTMyLCJ5Ijo1Mjl9XQ==" data-look="classic" marker-end="url(#mm-3-2-1_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-3-2-1-flowchart-A-0" data-look="classic" transform="translate(132, 42.5)"><rect class="basic label-container" style="" x="-121.9375" y="-34.5" width="243.875" height="69"/><g class="label" style="" transform="translate(-97.9375, -22.5)"><rect/><foreignObject width="195.875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>1912년 베게너의 대륙 이동설<br />대륙이 움직였다</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-2-1-flowchart-B-1" data-look="classic" transform="translate(132, 172.75)"><rect class="basic label-container" style="" x="-124" y="-45.75" width="248" height="91.5"/><g class="label" style="" transform="translate(-100, -33.75)"><rect/><foreignObject width="200" height="67.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table; white-space: break-spaces; line-height: 1.5; max-width: 200px; text-align: center; width: 200px;"><span class="nodeLabel"><p>1920~30년대 맨틀 대류설<br />맨틀 대류가 대륙을 움직일 수 있다</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-2-1-flowchart-C-3" data-look="classic" transform="translate(132, 314.25)"><rect class="basic label-container" style="" x="-124" y="-45.75" width="248" height="91.5"/><g class="label" style="" transform="translate(-100, -33.75)"><rect/><foreignObject width="200" height="67.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table; white-space: break-spaces; line-height: 1.5; max-width: 200px; text-align: center; width: 200px;"><span class="nodeLabel"><p>20세기 중반 해저 탐사<br />해령·해구 발견, 고지자기 측정</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-2-1-flowchart-D-5" data-look="classic" transform="translate(132, 444.5)"><rect class="basic label-container" style="" x="-114.8359375" y="-34.5" width="229.671875" height="69"/><g class="label" style="" transform="translate(-90.8359375, -22.5)"><rect/><foreignObject width="181.671875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>1960년대 초 해저 확장설<br />해령에서 새 해양 지각 생성</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-2-1-flowchart-E-7" data-look="classic" transform="translate(132, 574.75)"><rect class="basic label-container" style="" x="-124" y="-45.75" width="248" height="91.5"/><g class="label" style="" transform="translate(-100, -33.75)"><rect/><foreignObject width="200" height="67.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table; white-space: break-spaces; line-height: 1.5; max-width: 200px; text-align: center; width: 200px;"><span class="nodeLabel"><p>1960년대 후반 판구조론<br />지구 표면은 여러 판으로 나뉘어 움직인다</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-3-2-1-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-3-2-1-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-3-2-1-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><h4 id="1-대륙-이동설-베게너-1912년">(1) 대륙 이동설 (베게너, 1912년)</h4>
+<p>독일의 기상학자 <strong>베게너(Wegener)</strong> 는 과거에 모든 대륙이 <strong>판게아(Pangaea)</strong> 라는 하나의 초대륙으로 모여 있다가 갈라져 오늘날의 위치로 이동했다고 주장하였다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>증거</th>
+<th>내용</th>
+</tr>
+</thead><tbody><tr>
+<td>해안선의 일치</td>
+<td>남아메리카 동해안과 아프리카 서해안의 모양이 잘 들어맞는다</td>
+</tr>
+<tr>
+<td>화석 분포</td>
+<td>바다를 건널 수 없는 고생물(예: 민물 파충류 메소사우루스, 식물 글로소프테리스)의 화석이 멀리 떨어진 여러 대륙에서 발견된다</td>
+</tr>
+<tr>
+<td>지질 구조의 연속성</td>
+<td>북아메리카의 애팔래치아산맥과 유럽 북부(스코틀랜드·스칸디나비아)의 산맥이 대륙을 붙이면 하나로 이어진다</td>
+</tr>
+<tr>
+<td>빙하의 흔적</td>
+<td>지금은 열대·온대인 남아메리카, 아프리카, 인도, 오스트레일리아에 같은 시기의 빙하 흔적이 있고, 대륙을 모으면 남극 주변에 모인다</td>
+</tr>
+</tbody></table></div>
+<p><strong>한계</strong> 대륙을 움직이는 <strong>원동력을 설명하지 못했다.</strong> 그래서 베게너가 살아 있을 때는 널리 인정받지 못했다.</p>
+<h4 id="2-맨틀-대류설">(2) 맨틀 대류설</h4>
+<p>1920~30년대에 영국의 <strong>홈스(Holmes)</strong> 는 방사성 원소가 내는 열 때문에 맨틀에서 대류가 일어나고, 이 대류가 대륙을 움직일 수 있다고 제안했다. 대륙 이동의 원동력을 처음으로 설명한 생각이었지만, 당시에는 이를 확인할 관측 증거가 부족했다.</p>
+<h4 id="3-해저-확장설-1960년대-초-헤스-디츠">(3) 해저 확장설 (1960년대 초, 헤스·디츠)</h4>
+<p>제2차 세계 대전 이후 <strong>음향 측심법</strong>(배에서 음파를 쏘아 바닥에 반사되어 돌아오는 시간으로 수심을 재는 방법)으로 해저 지형을 자세히 조사하자, 바다 밑에 거대한 산맥인 <strong>해령</strong>과 깊은 골짜기인 <strong>해구</strong>가 있다는 것이 밝혀졌다. 이를 바탕으로 <strong>해령에서 맨틀 물질이 올라와 새로운 해양 지각이 만들어지고, 양옆으로 밀려나며 해저가 넓어진다</strong>는 <strong>해저 확장설</strong>이 등장했다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>해저 확장설의 증거</th>
+<th>내용</th>
+<th>해저 확장으로 설명하기</th>
+</tr>
+</thead><tbody><tr>
+<td>해양 지각의 나이</td>
+<td>해령에서 멀어질수록 나이가 많아지고, 해령을 중심으로 <strong>대칭</strong></td>
+<td>해령에서 만들어진 지각이 양쪽으로 밀려나므로</td>
+</tr>
+<tr>
+<td>해저 퇴적물의 두께</td>
+<td>해령에서 멀어질수록 두꺼워진다</td>
+<td>오래된 지각일수록 퇴적물이 쌓인 시간이 길다</td>
+</tr>
+<tr>
+<td>고지자기 줄무늬</td>
+<td>해령 양쪽 암석에 기록된 지구 자기장의 방향(정자극기·역자극기)이 줄무늬처럼 <strong>대칭</strong></td>
+<td>지구 자기장은 과거에 여러 번 역전되었고, 해령에서 굳은 암석이 그때의 자기장 방향을 기록한 채 양쪽으로 이동했으므로</td>
+</tr>
+<tr>
+<td>해양 지각의 최대 나이</td>
+<td>대부분 약 2억 년보다 젊다 (대륙 지각은 수십억 년 된 것도 있다)</td>
+<td>해양 지각은 해령에서 생겨 해구에서 사라지므로 오래 남지 못한다</td>
+</tr>
+</tbody></table></div>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 해령은 두 줄로 나오는 &#39;컨베이어 벨트의 출발점&#39;이고 해구는 &#39;벨트가 다시 들어가는 곳&#39;이다. 고지자기 줄무늬는 일정한 시간마다 색을 바꿔 가며 벨트 위에 찍은 도장과 같다. 출발점 양쪽으로 같은 순서의 도장이 대칭으로 찍혀 있다면, 벨트가 양쪽으로 움직였다는 강력한 증거가 된다.</p>
+</aside>
+<h4 id="4-판구조론-1960년대-후반">(4) 판구조론 (1960년대 후반)</h4>
+<p>해저 확장설과 지진 분포 자료 등을 종합하여, <strong>지구의 겉부분은 여러 개의 단단한 판으로 나뉘어 있고, 이 판들이 움직이며 서로 부딪치거나 멀어지거나 어긋나면서 지진·화산·조산 운동 같은 지각 변동이 일어난다</strong>는 <strong>판구조론(plate tectonics)</strong> 이 정립되었다. 대륙 이동설이 &#39;무엇이 일어났는가&#39;를, 해저 확장설이 &#39;해양에서 어떻게 일어나는가&#39;를 보여 주었다면, 판구조론은 이를 지구 전체에 적용한 통합 이론이다.</p>
+<h4 id="예제-1-해저-확장-속력-구하기">예제 1 — 해저 확장 속력 구하기</h4>
+<p>해령에서 수직 방향으로 100 km 떨어진 곳의 해양 지각 나이가 200만 년이었다. 해양 지각이 해령에서 생긴 뒤 일정한 속력으로 이동했다면, 이 판의 이동 속력은 1년에 몇 cm인가?</p>
+<p><strong>풀이</strong></p>
+<ul>
+<li>거리: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord">100</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">km</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">100</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">5</span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">cm</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">7</span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">cm</span></span></span></span></span></li>
+<li>시간: 200만 년 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span></span></span></span></span></span></span></span> 년</li>
+<li>속력: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.2604em;vertical-align:-0.7693em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.4911em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7401em;"><span style="top:-2.989em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord text"><span class="mord hangul_fallback">년</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">7</span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">cm</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7693em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">5</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">cm</span></span><span class="mord">/</span><span class="mord text"><span class="mord hangul_fallback">년</span></span></span></span></span></li>
+</ul>
+<p>이 판은 해령에서 1년에 약 5 cm씩 멀어지고 있다. 해령 반대편 판도 비슷하게 움직인다면 두 판 사이는 1년에 약 10 cm씩 벌어진다.</p>
+<h3 id="3-2-②-판과-판의-경계">3-2-② 판과 판의 경계</h3>
+<h4 id="1-판이란-무엇인가">(1) 판이란 무엇인가</h4>
+<p><strong>판(plate)</strong> 은 지각과 맨틀의 윗부분을 합친 단단한 암석층으로, <strong>암석권(lithosphere)</strong> 이라고도 한다. 두께는 평균 약 100 km이다. 판 아래에는 맨틀 물질이 부분적으로 녹아 있어 유동성이 있는 <strong>연약권(asthenosphere)</strong> 이 있고, 판은 연약권 위에서 움직인다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>구성</th>
+<th>성질</th>
+</tr>
+</thead><tbody><tr>
+<td>암석권(판)</td>
+<td>지각 + 맨틀 최상부</td>
+<td>단단하다. 힘을 받으면 깨진다(지진)</td>
+</tr>
+<tr>
+<td>연약권</td>
+<td>상부 맨틀의 일부 (깊이 약 100~400 km)</td>
+<td>일부가 녹아 있어 천천히 흐를 수 있다</td>
+</tr>
+</tbody></table></div>
+<p>판은 <strong>대륙판</strong>(대륙 지각을 포함, 두껍고 밀도가 작음)과 <strong>해양판</strong>(해양 지각을 포함, 얇고 밀도가 큼)으로 나뉜다. 지구 표면은 유라시아판, 태평양판, 북아메리카판, 남아메리카판, 아프리카판, 인도–오스트레일리아판, 남극판, 필리핀판, 나스카판 등 크고 작은 판으로 덮여 있다. 우리나라는 <strong>유라시아판</strong>의 동쪽 가장자리 부근 안쪽에 있다.</p>
+<h4 id="2-판의-경계-세-가지">(2) 판의 경계 세 가지</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>경계</th>
+<th>판의 상대 운동</th>
+<th>대표 지형</th>
+<th>지진</th>
+<th>화산</th>
+<th>예</th>
+</tr>
+</thead><tbody><tr>
+<td><strong>발산형</strong></td>
+<td>서로 멀어진다</td>
+<td>해령, 열곡대</td>
+<td>얕은 곳(천발)</td>
+<td>활발</td>
+<td>대서양 중앙 해령, 아이슬란드, 동아프리카 열곡대</td>
+</tr>
+<tr>
+<td><strong>수렴형 – 섭입형</strong></td>
+<td>가까워지며 밀도가 큰 판이 아래로 들어감</td>
+<td>해구, 호상 열도, 습곡 산맥</td>
+<td>얕은 곳~깊은 곳</td>
+<td>활발</td>
+<td>일본 해구와 일본 열도, 페루–칠레 해구와 안데스산맥</td>
+</tr>
+<tr>
+<td><strong>수렴형 – 충돌형</strong></td>
+<td>대륙판끼리 부딪침</td>
+<td>거대한 습곡 산맥</td>
+<td>얕은 곳~중간 깊이</td>
+<td>거의 없음</td>
+<td>히말라야산맥(인도–오스트레일리아판과 유라시아판)</td>
+</tr>
+<tr>
+<td><strong>보존형</strong></td>
+<td>서로 어긋나며 미끄러짐</td>
+<td>변환 단층</td>
+<td>얕은 곳(천발)</td>
+<td>거의 없음</td>
+<td>산안드레아스 단층(미국 캘리포니아)</td>
+</tr>
+</tbody></table></div>
+<ul>
+<li>진원의 깊이: 천발 지진(약 70 km보다 얕음), 중발 지진(약 70~300 km), 심발 지진(약 300 km보다 깊음)</li>
+<li><strong>섭입대</strong>에서는 가라앉는 판을 따라 지진이 일어나므로, 해구에서 대륙 쪽으로 갈수록 진원이 점점 깊어진다.</li>
+<li><strong>충돌형</strong> 경계에서는 두 대륙판 모두 밀도가 작아 어느 쪽도 깊이 가라앉지 않으므로, 땅이 두껍게 접히고 솟아올라 높은 산맥이 생긴다. 히말라야에서 바다 생물의 화석이 발견되는 이유이다.</li>
+</ul>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 테이블 위에 수건 두 장을 놓고 실험해 보자. 서로 떼어 내면(발산형) 가운데가 벌어지고, 마주 밀면 하나가 다른 하나 아래로 들어가거나(섭입형) 둘 다 구겨져 솟아오르며(충돌형), 옆으로 엇갈려 밀면 경계를 따라 비벼진다(보존형).</p>
+</aside>
+<h4 id="3-화산은-왜-발산형-섭입형-경계에-많을까">(3) 화산은 왜 발산형·섭입형 경계에 많을까?</h4>
+<ul>
+<li><strong>발산형 경계</strong>: 판이 벌어진 틈으로 뜨거운 맨틀 물질이 올라오면서 압력이 낮아져 녹아 마그마가 생긴다. 주로 현무암질 용암이 조용히 흘러나온다.</li>
+<li><strong>섭입형 경계</strong>: 가라앉는 해양판에서 빠져나온 물이 그 위의 맨틀을 녹기 쉽게 만들어 마그마가 생긴다. 이 마그마는 끈끈하고 가스를 많이 품고 있어 <strong>폭발적인 분출</strong>이 일어나기 쉽다.</li>
+<li><strong>판 내부의 화산 — 열점</strong>: 하와이처럼 판의 경계가 아닌 곳에서도 화산이 생기는데, 맨틀 깊은 곳에서 뜨거운 물질이 기둥처럼 올라오는 <strong>열점(hot spot)</strong> 때문이다. 열점은 거의 제자리에 있고 판이 그 위를 지나가므로, 화산섬이 일렬로 늘어서며 열점에서 멀수록 나이가 많다.</li>
+</ul>
+<h4 id="예제-2-판의-경계-판별하기">예제 2 — 판의 경계 판별하기</h4>
+<p>다음 지역의 판 경계 종류를 쓰고, 화산 활동이 활발한지 판단하시오.
+(1) 지진은 자주 일어나지만 화산이 거의 없고, 세계에서 가장 높은 산맥이 있다.
+(2) 깊은 해구가 있고, 해구에서 멀어질수록 진원의 깊이가 깊어지며, 화산섬들이 활처럼 늘어서 있다.
+(3) 섬 한가운데를 따라 땅이 갈라진 틈이 있고, 용암이 자주 흘러나온다.</p>
+<p><strong>풀이</strong>
+(1) 수렴형 중 <strong>충돌형</strong> 경계 (히말라야). 화산 활동이 거의 없다.
+(2) 수렴형 중 <strong>섭입형</strong> 경계 (일본 열도). 화산 활동이 활발하다.
+(3) <strong>발산형</strong> 경계 (아이슬란드). 화산 활동이 활발하다.</p>
+<h3 id="3-2-③-판을-움직이는-에너지-맨틀-대류와-지구-내부-에너지">3-2-③ 판을 움직이는 에너지 — 맨틀 대류와 지구 내부 에너지</h3>
+<p>3-1 단원에서 지구시스템의 에너지원 중 하나가 <strong>지구 내부 에너지</strong>라고 했다. 지구 내부 에너지는 방사성 원소가 붕괴하며 내는 열과 지구가 만들어질 때 남은 열이다. 지구 내부는 뜨겁고 표면은 차가우므로, 열은 끊임없이 <strong>안에서 밖으로</strong> 흐른다. 이 열이 흐르는 과정에서 맨틀에 대류가 일어난다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-3-2-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 1597.09375 120" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-3-2-2{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-3-2-2 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-3-2-2 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-3-2-2 .error-icon{fill:var(--mm-group);}#mm-3-2-2 .error-text{fill:#595959;stroke:#595959;}#mm-3-2-2 .edge-thickness-normal{stroke-width:1px;}#mm-3-2-2 .edge-thickness-thick{stroke-width:3.5px;}#mm-3-2-2 .edge-pattern-solid{stroke-dasharray:0;}#mm-3-2-2 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-3-2-2 .edge-pattern-dashed{stroke-dasharray:3;}#mm-3-2-2 .edge-pattern-dotted{stroke-dasharray:2;}#mm-3-2-2 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-3-2-2 .marker.cross{stroke:var(--mm-line);}#mm-3-2-2 svg{font-family:inherit;font-size:15px;}#mm-3-2-2 p{margin:0;}#mm-3-2-2 .label{font-family:inherit;color:var(--mm-text);}#mm-3-2-2 .cluster-label text{fill:#595959;}#mm-3-2-2 .cluster-label span{color:#595959;}#mm-3-2-2 .cluster-label span p{background-color:transparent;}#mm-3-2-2 .label text,#mm-3-2-2 span{fill:var(--mm-text);color:var(--mm-text);}#mm-3-2-2 .node rect,#mm-3-2-2 .node circle,#mm-3-2-2 .node ellipse,#mm-3-2-2 .node polygon,#mm-3-2-2 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-3-2-2 .rough-node .label text,#mm-3-2-2 .node .label text,#mm-3-2-2 .image-shape .label,#mm-3-2-2 .icon-shape .label{text-anchor:middle;}#mm-3-2-2 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-3-2-2 .rough-node .label,#mm-3-2-2 .node .label,#mm-3-2-2 .image-shape .label,#mm-3-2-2 .icon-shape .label{text-align:center;}#mm-3-2-2 .node.clickable{cursor:pointer;}#mm-3-2-2 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-3-2-2 .arrowheadPath{fill:#0b0b0b;}#mm-3-2-2 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-3-2-2 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-3-2-2 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-3-2-2 .edgeLabel p{background-color:var(--mm-label);}#mm-3-2-2 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-3-2-2 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-3-2-2 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-3-2-2 .cluster text{fill:#595959;}#mm-3-2-2 .cluster span{color:#595959;}#mm-3-2-2 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-3-2-2 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-3-2-2 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-3-2-2 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-3-2-2 rect.text{fill:none;stroke-width:0;}#mm-3-2-2 .icon-shape,#mm-3-2-2 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-3-2-2 .icon-shape p,#mm-3-2-2 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-3-2-2 .icon-shape .label rect,#mm-3-2-2 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-3-2-2 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-3-2-2 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-3-2-2 .node .neo-node{stroke:var(--mm-border);}#mm-3-2-2 [data-look="neo"].node rect,#mm-3-2-2 [data-look="neo"].cluster rect,#mm-3-2-2 [data-look="neo"].node polygon{stroke:url(#mm-3-2-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-2-2 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-3-2-2 [data-look="neo"].node path{stroke:url(#mm-3-2-2-gradient);stroke-width:1px;}#mm-3-2-2 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-2-2 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-3-2-2 [data-look="neo"].node circle{stroke:url(#mm-3-2-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-2-2 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-3-2-2 [data-look="neo"].icon-shape .icon{fill:url(#mm-3-2-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-2-2 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-3-2-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-2-2 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-3-2-2_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-2_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-2_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-2_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-2_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-2_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-2_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-2_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-2_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-2_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-2-2_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-3-2-2_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M203.516,77.25L207.682,77.25C211.849,77.25,220.182,77.25,227.849,77.25C235.516,77.25,242.516,77.25,246.016,77.25L249.516,77.25" id="mm-3-2-2-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MjAzLjUxNTYyNSwieSI6NzcuMjV9LHsieCI6MjI4LjUxNTYyNSwieSI6NzcuMjV9LHsieCI6MjUzLjUxNTYyNSwieSI6NzcuMjV9XQ==" data-look="classic" marker-end="url(#mm-3-2-2_flowchart-v2-pointEnd)"/><path d="M417.407,54L423.649,52.083C429.891,50.167,442.375,46.333,452.117,44.417C461.859,42.5,468.859,42.5,472.359,42.5L475.859,42.5" id="mm-3-2-2-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6NDE3LjQwNjgxMjA1MDM1OTcsInkiOjU0fSx7IngiOjQ1NC44NTkzNzUsInkiOjQyLjV9LHsieCI6NDc5Ljg1OTM3NSwieSI6NDIuNX1d" data-look="classic" marker-end="url(#mm-3-2-2_flowchart-v2-pointEnd)"/><path d="M675.375,42.5L679.542,42.5C683.708,42.5,692.042,42.5,699.708,42.5C707.375,42.5,714.375,42.5,717.875,42.5L721.375,42.5" id="mm-3-2-2-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6Njc1LjM3NSwieSI6NDIuNX0seyJ4Ijo3MDAuMzc1LCJ5Ijo0Mi41fSx7IngiOjcyNS4zNzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-3-2-2_flowchart-v2-pointEnd)"/><path d="M890.891,42.5L895.057,42.5C899.224,42.5,907.557,42.5,915.224,42.5C922.891,42.5,929.891,42.5,933.391,42.5L936.891,42.5" id="mm-3-2-2-L_D_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_E_0" data-points="W3sieCI6ODkwLjg5MDYyNSwieSI6NDIuNX0seyJ4Ijo5MTUuODkwNjI1LCJ5Ijo0Mi41fSx7IngiOjk0MC44OTA2MjUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-3-2-2_flowchart-v2-pointEnd)"/><path d="M1117.234,42.5L1121.401,42.5C1125.568,42.5,1133.901,42.5,1141.568,42.5C1149.234,42.5,1156.234,42.5,1159.734,42.5L1163.234,42.5" id="mm-3-2-2-L_E_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_F_0" data-points="W3sieCI6MTExNy4yMzQzNzUsInkiOjQyLjV9LHsieCI6MTE0Mi4yMzQzNzUsInkiOjQyLjV9LHsieCI6MTE2Ny4yMzQzNzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-3-2-2_flowchart-v2-pointEnd)"/><path d="M1377.75,42.5L1381.917,42.5C1386.083,42.5,1394.417,42.5,1403.778,44.208C1413.14,45.917,1423.53,49.334,1428.726,51.042L1433.921,52.75" id="mm-3-2-2-L_F_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_F_G_0" data-points="W3sieCI6MTM3Ny43NSwieSI6NDIuNX0seyJ4IjoxNDAyLjc1LCJ5Ijo0Mi41fSx7IngiOjE0MzcuNzIwNTQ4NTYxMTUxMiwieSI6NTR9XQ==" data-look="classic" marker-end="url(#mm-3-2-2_flowchart-v2-pointEnd)"/><path d="M1437.721,100.5L1431.892,102.417C1426.064,104.333,1414.407,108.167,1386.869,110.083C1359.331,112,1315.911,112,1272.492,112C1229.073,112,1185.654,112,1145.082,112C1104.51,112,1066.786,112,1029.063,112C991.339,112,953.615,112,916.793,112C879.971,112,844.052,112,808.133,112C772.214,112,736.294,112,697.875,112C659.456,112,618.536,112,577.617,112C536.698,112,495.779,112,469.714,110.279C443.65,108.558,432.44,105.116,426.835,103.395L421.231,101.674" id="mm-3-2-2-L_G_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_G_B_0" data-points="W3sieCI6MTQzNy43MjA1NDg1NjExNTEyLCJ5IjoxMDAuNX0seyJ4IjoxNDAyLjc1LCJ5IjoxMTJ9LHsieCI6MTI3Mi40OTIxODc1LCJ5IjoxMTJ9LHsieCI6MTE0Mi4yMzQzNzUsInkiOjExMn0seyJ4IjoxMDI5LjA2MjUsInkiOjExMn0seyJ4Ijo5MTUuODkwNjI1LCJ5IjoxMTJ9LHsieCI6ODA4LjEzMjgxMjUsInkiOjExMn0seyJ4Ijo3MDAuMzc1LCJ5IjoxMTJ9LHsieCI6NTc3LjYxNzE4NzUsInkiOjExMn0seyJ4Ijo0NTQuODU5Mzc1LCJ5IjoxMTJ9LHsieCI6NDE3LjQwNjgxMjA1MDM1OTcsInkiOjEwMC41fV0=" data-look="classic" marker-end="url(#mm-3-2-2_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_F_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_F_G_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_G_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-3-2-2-flowchart-A-0" data-look="classic" transform="translate(105.7578125, 77.25)"><rect class="basic label-container" style="" x="-97.7578125" y="-34.5" width="195.515625" height="69"/><g class="label" style="" transform="translate(-73.7578125, -22.5)"><rect/><foreignObject width="147.515625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>지구 내부 에너지<br />방사성 원소 붕괴열 등</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-2-2-flowchart-B-1" data-look="classic" transform="translate(341.6875, 77.25)"><rect class="basic label-container" style="" x="-88.171875" y="-23.25" width="176.34375" height="46.5"/><g class="label" style="" transform="translate(-64.171875, -11.25)"><rect/><foreignObject width="128.34375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>맨틀 아래쪽이 가열</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-2-2-flowchart-C-3" data-look="classic" transform="translate(577.6171875, 42.5)"><rect class="basic label-container" style="" x="-97.7578125" y="-23.25" width="195.515625" height="46.5"/><g class="label" style="" transform="translate(-73.7578125, -11.25)"><rect/><foreignObject width="147.515625" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>뜨거운 맨틀 물질 상승</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-2-2-flowchart-D-5" data-look="classic" transform="translate(808.1328125, 42.5)"><rect class="basic label-container" style="" x="-82.7578125" y="-34.5" width="165.515625" height="69"/><g class="label" style="" transform="translate(-58.7578125, -22.5)"><rect/><foreignObject width="117.515625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>해령<br />새 해양 지각 생성</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-2-2-flowchart-E-7" data-look="classic" transform="translate(1029.0625, 42.5)"><rect class="basic label-container" style="" x="-88.171875" y="-23.25" width="176.34375" height="46.5"/><g class="label" style="" transform="translate(-64.171875, -11.25)"><rect/><foreignObject width="128.34375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>판이 양쪽으로 이동</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-2-2-flowchart-F-9" data-look="classic" transform="translate(1272.4921875, 42.5)"><rect class="basic label-container" style="" x="-105.2578125" y="-34.5" width="210.515625" height="69"/><g class="label" style="" transform="translate(-81.2578125, -22.5)"><rect/><foreignObject width="162.515625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>해구<br />식고 무거워진 판이 섭입</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-2-2-flowchart-G-11" data-look="classic" transform="translate(1508.421875, 77.25)"><rect class="basic label-container" style="" x="-80.671875" y="-23.25" width="161.34375" height="46.5"/><g class="label" style="" transform="translate(-56.671875, -11.25)"><rect/><foreignObject width="113.34375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>맨틀 속으로 하강</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-3-2-2-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-3-2-2-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-3-2-2-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><div class="table-wrap"><table><thead><tr>
+<th>맨틀 대류의 부분</th>
+<th>지표에서 나타나는 곳</th>
+<th>일어나는 지권의 변화</th>
+</tr>
+</thead><tbody><tr>
+<td>상승하는 곳</td>
+<td>해령, 열곡대</td>
+<td>판이 갈라지고 새 지각 생성, 화산 활동</td>
+</tr>
+<tr>
+<td>수평으로 이동하는 곳</td>
+<td>판의 내부</td>
+<td>판(대륙)의 이동</td>
+</tr>
+<tr>
+<td>하강하는 곳</td>
+<td>해구</td>
+<td>판의 섭입, 지진, 화산, 습곡 산맥 형성</td>
+</tr>
+</tbody></table></div>
+<p>즉, <strong>지진·화산·조산 운동 같은 지권의 변화는 지구 내부에서 표면으로 향하는 에너지 흐름의 결과</strong>이다. 지진은 판이 움직이며 쌓인 에너지가 암석이 끊어지는 순간 한꺼번에 방출되는 현상이고, 화산은 내부의 열과 물질이 직접 지표로 나오는 현상이다.</p>
+<aside class="callout note"><p class="callout-title">성취기준·참고</p><p>맨틀 대류만으로 판의 운동을 모두 설명할 수 있는 것은 아니다. 현재는 해구에서 무거운 판이 가라앉으며 판 전체를 <strong>끌어당기는 힘</strong>, 해령에서 높이 솟은 판이 <strong>미끄러져 내려가는 힘</strong> 등이 함께 작용한다고 본다(→ STEP 5).</p>
+</aside>
+<h3 id="3-2-④-지진과-화산-그리고-한반도">3-2-④ 지진과 화산, 그리고 한반도</h3>
+<h4 id="1-지진과-화산의-분포">(1) 지진과 화산의 분포</h4>
+<p>세계의 지진대와 화산대는 띠 모양으로 분포하며 판의 경계와 거의 일치한다. 특히 태평양 둘레를 따라 고리 모양으로 이어진 <strong>환태평양 지진대·화산대</strong>(&#39;불의 고리&#39;)에 세계의 지진과 활화산이 많이 모여 있다. 태평양판 등 해양판이 주변 판 아래로 섭입하는 경계가 이 고리를 따라 이어져 있기 때문이다.</p>
+<h4 id="2-규모와-진도">(2) 규모와 진도</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>규모(magnitude)</th>
+<th>진도(intensity)</th>
+</tr>
+</thead><tbody><tr>
+<td>뜻</td>
+<td>지진이 방출한 <strong>에너지의 양</strong></td>
+<td>어떤 장소에서 사람이 느끼거나 건물이 <strong>흔들린 정도</strong></td>
+</tr>
+<tr>
+<td>값의 개수</td>
+<td>지진 하나에 <strong>하나</strong></td>
+<td>장소마다 <strong>다르다</strong> (진앙에서 멀수록 대체로 작다)</td>
+</tr>
+<tr>
+<td>표기</td>
+<td>소수점 숫자 (예: 5.8)</td>
+<td>우리나라는 12단계 계급 사용 (로마 숫자 Ⅰ~Ⅻ 등)</td>
+</tr>
+</tbody></table></div>
+<p>규모가 1 커지면 방출 에너지는 약 30배 넘게 커진다. 그래서 규모 5.8과 5.4는 숫자는 비슷해 보여도 에너지 차이가 크다.</p>
+<h4 id="3-한반도는-안전할까">(3) 한반도는 안전할까?</h4>
+<p>우리나라는 판의 경계에서 떨어진 <strong>유라시아판 내부</strong>에 있어, 일본이나 칠레처럼 판의 경계에 있는 나라보다 큰 지진이 드물다. 그러나 판의 내부도 주변 판들이 미는 힘을 받아 오래된 단층에 에너지가 쌓이므로, <strong>지진에서 안전한 곳은 아니다.</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>사례</th>
+<th>내용</th>
+</tr>
+</thead><tbody><tr>
+<td>2016년 9월 경주 지진</td>
+<td><strong>규모 5.8</strong>. 우리나라에서 지진 계기 관측을 시작한 이래 가장 큰 지진이었다</td>
+</tr>
+<tr>
+<td>2017년 11월 포항 지진</td>
+<td><strong>규모 5.4</strong>. 건물과 주택 피해가 컸고, 대학수학능력시험이 일주일 연기되었다</td>
+</tr>
+<tr>
+<td>백두산</td>
+<td>10세기 중엽(946년 무렵) 대규모로 분화한 기록이 있는 화산으로, 지금도 화산 활동 감시 대상이다</td>
+</tr>
+<tr>
+<td>제주도·울릉도·독도</td>
+<td>화산 활동으로 만들어진 화산섬이다</td>
+</tr>
+</tbody></table></div>
+<aside class="callout important"><p class="callout-title">핵심</p><p>경주·포항 지진 이후 우리나라는 내진 설계 기준 강화, 지진 조기경보 개선, 학교 지진 대피 훈련 확대 등 대비를 강화했다. <strong>&#39;판의 경계가 아니니까 괜찮다&#39;는 생각은 위험하다.</strong></p>
+</aside>
+<h3 id="3-2-⑤-지권의-변화가-지구시스템에-미치는-영향-화산-분출을-중심으로">3-2-⑤ 지권의 변화가 지구시스템에 미치는 영향 — 화산 분출을 중심으로</h3>
+<p>성취기준은 지권의 변화가 <strong>지구시스템에 미치는 영향을 추론</strong>하도록 요구한다. 화산이 분출하면 지권에서 나온 물질과 에너지가 다른 권역으로 퍼져 나간다.</p>
+<h4 id="1-화산-분출물">(1) 화산 분출물</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>분출물</th>
+<th>상태</th>
+<th>예</th>
+</tr>
+</thead><tbody><tr>
+<td>화산 가스</td>
+<td>기체</td>
+<td>수증기(가장 많음), 이산화 탄소, 이산화 황 등</td>
+</tr>
+<tr>
+<td>용암</td>
+<td>액체</td>
+<td>지표로 흘러나온 마그마</td>
+</tr>
+<tr>
+<td>화산 쇄설물</td>
+<td>고체</td>
+<td>화산재, 화산탄, 화산력(작은 돌 조각)</td>
+</tr>
+</tbody></table></div>
+<h4 id="2-권역별-영향">(2) 권역별 영향</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>영향을 받는 권역</th>
+<th>해로운 영향</th>
+<th>이로운 영향</th>
+</tr>
+</thead><tbody><tr>
+<td><strong>기권</strong></td>
+<td>화산재가 햇빛을 가리고, 이산화 황이 성층권에서 작은 황산 방울(에어로졸)이 되어 햇빛을 반사 → <strong>지구 기온 하강</strong>. 산성비</td>
+<td>지구 초기에는 화산 가스가 대기와 바다의 재료가 되었다</td>
+</tr>
+<tr>
+<td><strong>수권</strong></td>
+<td>화산재와 산성 물질이 하천·호수를 오염. 해저 화산·산사태로 <strong>지진 해일</strong>. 빙하 아래 화산 분출 시 홍수</td>
+<td>해저 화산이 바닷물에 여러 물질을 공급</td>
+</tr>
+<tr>
+<td><strong>지권</strong></td>
+<td>화산재가 쌓여 지형 변화, 화산 이류(화산재와 물이 섞인 진흙 흐름)</td>
+<td>새로운 섬과 땅 생성, <strong>비옥한 토양</strong>, 광물 자원, 지열</td>
+</tr>
+<tr>
+<td><strong>생물권</strong></td>
+<td>생물의 서식지 파괴, 농작물 피해, 사람의 호흡기 질환과 인명 피해</td>
+<td>시간이 지나면 화산재 토양에서 생물이 다시 번성. 관광 자원(온천, 화산 지형)</td>
+</tr>
+</tbody></table></div>
+<h4 id="대표-사례">대표 사례</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>화산(분출 연도)</th>
+<th>일어난 일</th>
+<th>영향을 받은 권역</th>
+</tr>
+</thead><tbody><tr>
+<td>인도네시아 탐보라 화산(1815년)</td>
+<td>막대한 화산 분출물이 대기로 올라가, 이듬해인 1816년 북반구 여러 지역에서 여름 기온이 낮아져 &#39;여름이 없는 해&#39;로 불렸다. 흉작과 식량난</td>
+<td>지권 → 기권 → 생물권(사람)</td>
+</tr>
+<tr>
+<td>필리핀 피나투보 화산(1991년)</td>
+<td>성층권으로 올라간 이산화 황이 에어로졸을 만들어 이후 1~2년 동안 전 지구 평균 기온이 약 0.5 °C 낮아졌다</td>
+<td>지권 → 기권</td>
+</tr>
+<tr>
+<td>아이슬란드 에이야퍄틀라이외퀴들 화산(2010년)</td>
+<td>빙하 아래에서 분출하여 화산재가 유럽 하늘을 뒤덮었다. 약 일주일간 유럽 항공 운항이 대규모로 중단되었다(약 10만 편 결항)</td>
+<td>지권 → 수권(빙하) → 기권 → 인간 사회</td>
+</tr>
+<tr>
+<td>콜롬비아 네바도델루이스 화산(1985년)</td>
+<td>분출열로 정상의 빙하와 눈이 녹아 거대한 화산 이류가 계곡을 따라 흘러내려, 아래 마을에서 2만 명 이상이 목숨을 잃었다</td>
+<td>지권 → 수권 → 지권 → 생물권</td>
+</tr>
+</tbody></table></div>
+<h4 id="예제-3-화산-분출의-영향-추론하기">예제 3 — 화산 분출의 영향 추론하기</h4>
+<p>큰 화산이 폭발하여 다량의 이산화 황이 성층권까지 올라갔다. 이후 1~2년 동안 (1) 지구 평균 기온 (2) 농작물 생산량이 어떻게 변할지 추론하고, 성층권까지 올라간 물질의 영향이 대류권에만 머문 물질보다 오래가는 까닭을 3-1 단원의 내용으로 설명하시오.</p>
+<p><strong>풀이</strong>
+(1) 이산화 황이 황산 에어로졸이 되어 햇빛을 반사하므로 지표에 도달하는 태양 에너지가 줄어 <strong>기온이 낮아진다.</strong>
+(2) 기온이 낮아지고 일조량이 줄면 광합성이 줄어 <strong>농작물 생산량이 감소할 수 있다.</strong>
+성층권은 위쪽이 따뜻하고 아래쪽이 차가운 <strong>안정한 층</strong>이라 대류가 거의 없고 비가 내리지 않으므로, 에어로졸이 씻겨 내려오지 않고 오래 머문다. 반면 대류권의 물질은 비에 의해 수일~수 주 만에 씻겨 내려온다.</p>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>추론의 사슬 만들기</strong> — &quot;지권의 변화 → (어떤 물질·에너지가) → (어느 권역으로) → (어떤 원리로) → (결과)&quot;를 화살표로 이어 보자. 하나의 원인이 여러 권역을 차례로 거치며 연쇄적으로 영향을 주는 것이 지구시스템의 특징이다.</p>
+</aside>
+<hr>
+<h2 id="step-4" class="step-h s4"><span class="step-badge s4">STEP 4</span><span class="h-text">오개념 바로잡기</span></h2>
+<div class="table-wrap"><table><thead><tr>
+<th>흔한 오개념</th>
+<th>올바른 개념</th>
+<th>왜 그럴까?</th>
+</tr>
+</thead><tbody><tr>
+<td>판은 녹은 마그마의 바다 위에 떠 있다</td>
+<td>판은 <strong>고체 상태의 연약권</strong> 위에서 움직인다. 연약권은 일부만 녹아 있어 천천히 흐를 수 있을 뿐이다</td>
+<td>맨틀은 대부분 고체이다. 지구 내부에서 액체 상태인 층은 외핵뿐이다</td>
+</tr>
+<tr>
+<td>판 = 대륙이다</td>
+<td>판은 지각과 맨틀 윗부분을 합친 <strong>암석권</strong>이며, 하나의 판에 대륙과 해양이 함께 있을 수 있다</td>
+<td>예를 들어 북아메리카판에는 북아메리카 대륙과 대서양 서쪽 해저가 함께 있다</td>
+</tr>
+<tr>
+<td>베게너는 판구조론을 완성했다</td>
+<td>베게너는 <strong>대륙 이동설</strong>을 제안했고, 판구조론은 해저 확장설 등의 증거가 쌓인 <strong>1960년대 후반에 정립</strong>되었다</td>
+<td>과학 이론은 여러 과학자의 증거가 쌓이며 발전한다</td>
+</tr>
+<tr>
+<td>규모와 진도는 같은 것이다</td>
+<td><strong>규모</strong>는 지진 자체의 에너지(하나의 값), <strong>진도</strong>는 장소별 흔들림 정도(장소마다 다름)이다</td>
+<td>같은 지진이라도 진앙 가까운 곳과 먼 곳의 흔들림은 다르다</td>
+</tr>
+<tr>
+<td>판의 경계에서는 어디서나 화산이 생긴다</td>
+<td><strong>충돌형·보존형 경계에서는 화산 활동이 거의 없다</strong></td>
+<td>마그마가 생기려면 맨틀 물질이 상승하거나(발산형) 물이 공급되어야(섭입형) 한다</td>
+</tr>
+<tr>
+<td>화산 폭발은 지구를 항상 뜨겁게 만든다</td>
+<td>큰 폭발 직후에는 화산재와 황산 에어로졸이 햇빛을 가려 <strong>기온이 내려가는</strong> 경우가 많다</td>
+<td>화산 가스의 이산화 탄소보다 성층권 에어로졸의 냉각 효과가 단기적으로 더 크다</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-5" class="step-h s5"><span class="step-badge s5">STEP 5</span><span class="h-text">선택과목·대학으로 한 걸음 더</span></h2>
+<aside class="callout caution"><p class="callout-title">심화 · 평가 범위 밖</p><p>이 절은 <strong>통합과학 교육과정 범위 밖의 심화 내용</strong>으로 평가 대상이 아니다. &quot;이 개념이 앞으로 어디까지 이어지는가&quot;를 맛보기로 보여 주기 위한 내용이다.</p>
+</aside>
+<h3 id="고2-3-선택과목과의-연결">고2·3 선택과목과의 연결</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>과목</th>
+<th>이어지는 내용</th>
+</tr>
+</thead><tbody><tr>
+<td>지구과학</td>
+<td>지구의 역사와 한반도의 암석(한반도의 지질 구조, 암석이 기록한 지각 변동의 역사)</td>
+</tr>
+<tr>
+<td>지구시스템과학</td>
+<td>지구 탄생과 생동하는 지구(지구 내부 구조, 판의 운동과 원동력, 마그마와 화성암)</td>
+</tr>
+<tr>
+<td>기후변화와 환경생태</td>
+<td>화산 활동 등 자연적 요인과 인위적 요인에 의한 기후 변화</td>
+</tr>
+</tbody></table></div>
+<h3 id="①-지진의-규모와-에너지">① 지진의 규모와 에너지</h3>
+<p>대학 <strong>지진학(seismology)</strong> 에서는 규모 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">M</span></span></span></span>과 지진 에너지 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span></span></span></span>(단위 J) 사이의 경험적 관계를 다음과 같이 쓴다(구텐베르크–리히터 관계).</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9386em;vertical-align:-0.2441em;"></span><span class="mop"><span class="mop">lo<span style="margin-right:0.01389em;">g</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.207em;"><span style="top:-2.4559em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">10</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2441em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">4.8</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">1.5</span><span class="mord mathnormal" style="margin-right:0.10903em;">M</span></span></span></span></span></p>
+<p>규모가 1 커지면 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span></span></span></span>는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1.5</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">32</span></span></span></span>배, 규모가 2 커지면 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1000</span></span></span></span>배가 된다. 경주 지진(5.8)과 포항 지진(5.4)의 규모 차이는 0.4이므로 에너지 비는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1.5</span><span class="mbin mtight">×</span><span class="mord mtight">0.4</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">0.6</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">4</span></span></span></span>배이다. 숫자 0.4 차이가 에너지로는 약 4배인 셈이다.</p>
+<h3 id="②-판을-움직이는-힘-맨틀-대류만이-아니다">② 판을 움직이는 힘 — 맨틀 대류만이 아니다</h3>
+<p>지구물리학에서는 판에 작용하는 힘을 다음과 같이 나누어 분석한다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>힘</th>
+<th>내용</th>
+</tr>
+</thead><tbody><tr>
+<td>섭입하는 판이 끌어당기는 힘(slab pull)</td>
+<td>식어서 무거워진 해양판이 해구에서 가라앉으며 판 전체를 끌어당긴다. 가장 큰 힘으로 여겨진다</td>
+</tr>
+<tr>
+<td>해령에서 밀어내는 힘(ridge push)</td>
+<td>해령에서 높이 솟은 판이 중력에 의해 양쪽으로 미끄러져 내려간다</td>
+</tr>
+<tr>
+<td>맨틀과의 마찰</td>
+<td>판 아래 맨틀의 흐름이 판을 끌거나 방해한다</td>
+</tr>
+</tbody></table></div>
+<p>실제로 섭입대를 많이 가진 판(예: 태평양판)이 대체로 더 빠르게 움직인다는 관측이 이를 뒷받침한다.</p>
+<h3 id="③-플룸-구조론과-지진파-단층-촬영">③ 플룸 구조론과 지진파 단층 촬영</h3>
+<p>병원에서 CT로 몸속을 보듯, 수많은 지진파 자료로 지구 내부의 온도 차이를 3차원으로 그려 내는 기술을 <strong>지진파 단층 촬영(seismic tomography)</strong> 이라고 한다. 이를 통해 맨틀 깊은 곳에서 거대한 기둥 모양으로 올라오는 <strong>뜨거운 플룸</strong>과 섭입한 판이 쌓여 가라앉는 <strong>차가운 플룸</strong>이 발견되었다. 판구조론이 지구의 겉부분(약 100 km)을 설명한다면, <strong>플룸 구조론</strong>은 맨틀 전체의 운동을 설명하려는 이론이다. 하와이 같은 열점은 뜨거운 플룸이 지표에 닿은 곳으로 해석된다.</p>
+<h3 id="고등학교-vs-대학교">고등학교 vs 대학교</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>고등학교 통합과학</th>
+<th>대학교 지구물리학·지질학</th>
+</tr>
+</thead><tbody><tr>
+<td>판의 운동</td>
+<td>경계의 종류와 상대 운동</td>
+<td>GPS 측정으로 판 속도를 mm 단위로 계산, 구면 위의 회전으로 기술</td>
+</tr>
+<tr>
+<td>원동력</td>
+<td>맨틀 대류(정성적)</td>
+<td>판에 작용하는 힘의 정량 분석, 맨틀 대류 수치 모델</td>
+</tr>
+<tr>
+<td>지진</td>
+<td>분포와 판 경계의 관계, 규모와 진도</td>
+<td>지진파 분석으로 진원 결정, 규모–에너지 관계, 지진 위험도 평가</td>
+</tr>
+<tr>
+<td>화산</td>
+<td>분출물과 지구시스템 영향</td>
+<td>마그마의 생성 조건, 분출 예측, 화산재 확산 시뮬레이션</td>
+</tr>
+<tr>
+<td>관련 전공</td>
+<td>—</td>
+<td>지구환경과학, 지질학, 지구물리학, 지구시스템과학, 건축·토목공학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-6" class="step-h s6"><span class="step-badge s6">STEP 6</span><span class="h-text">산업 현장과 진로 연결</span></h2>
+<h3 id="사례-1-지진-조기경보-빠른-파동으로-느린-파동을-앞지르다">사례 1. 지진 조기경보 — 빠른 파동으로 느린 파동을 앞지르다</h3>
+<ul>
+<li><strong>원리</strong> 지진이 일어나면 속력이 빠르지만 흔들림이 약한 <strong>P파</strong>와, 느리지만 흔들림이 큰 <strong>S파</strong>가 함께 퍼져 나간다. 진원 가까운 관측소에서 P파를 먼저 감지하여 지진의 위치와 규모를 빠르게 계산하고, <strong>강한 흔들림(S파)이 도착하기 전에</strong> 경보를 보낸다.</li>
+<li><strong>어디에 쓰이나</strong> 기상청은 2015년부터 지진 조기경보를 운영하며, 규모가 큰 지진은 관측 후 몇 초~십여 초 안에 휴대 전화 긴급 재난 문자 등으로 알린다. 몇 초의 여유만 있어도 책상 아래로 피하고, 고속 열차를 감속시키고, 엘리베이터를 가까운 층에 멈추게 할 수 있다.</li>
+<li><strong>핵심 숫자(예)</strong> P파의 속력을 약 7 km/s, S파를 약 3.5 km/s라고 가정하면, 진원에서 70 km 떨어진 곳에는 P파가 10초, S파가 20초 뒤에 도착한다. 지진 발생 후 진원 가까운 관측소의 P파 감지와 분석을 거쳐 경보를 내기까지 10초가 걸린다고 해도, 이곳에서는 S파가 도착하기 전 약 10초의 대비 시간이 생긴다.</li>
+</ul>
+<h3 id="사례-2-내진-설계-흔들려도-무너지지-않게">사례 2. 내진 설계 — 흔들려도 무너지지 않게</h3>
+<ul>
+<li><strong>원리</strong> 건물이 지진의 흔들림을 견디도록 기둥·벽을 튼튼하게 만드는 <strong>내진</strong>, 건물과 땅 사이에 고무 받침 등을 넣어 흔들림이 건물에 덜 전달되게 하는 <strong>면진</strong>, 건물 안에 진동을 줄이는 장치를 다는 <strong>제진</strong> 기술이 있다.</li>
+<li><strong>우리나라의 변화</strong> 건축물 내진 설계 의무는 1988년에 처음 도입되었고, 경주 지진 이후 적용 대상이 크게 넓어져 2017년부터는 2층 이상 건축물 등으로 확대되었다. 학교·병원 같은 공공시설의 내진 보강 사업도 진행되고 있다.</li>
+<li>다리·터널·원자력 발전소·반도체 공장처럼 작은 흔들림에도 큰 피해가 나는 시설은 더욱 엄격한 기준으로 설계한다.</li>
+</ul>
+<h3 id="사례-3-지열-발전-지구-내부-에너지를-전기로">사례 3. 지열 발전 — 지구 내부 에너지를 전기로</h3>
+<ul>
+<li><strong>원리</strong> 땅속 깊은 곳의 뜨거운 물이나 수증기로 터빈을 돌려 전기를 만든다. 지구 내부에서 표면으로 흐르는 에너지를 직접 이용하는 것이다.</li>
+<li><strong>어디에 쓰이나</strong> 아이슬란드, 뉴질랜드, 인도네시아, 필리핀, 미국 캘리포니아처럼 <strong>판의 경계나 화산 지대</strong>에 지열 발전소가 많다. 판 경계 위에 있는 아이슬란드는 전기와 난방의 상당 부분을 지열로 얻는다.</li>
+<li><strong>우리나라</strong> 땅속 수십~수백 m의 일정한 온도를 냉난방에 이용하는 <strong>지열 냉난방(지열 히트펌프)</strong> 이 공공건물을 중심으로 보급되어 있다.</li>
+<li><strong>교훈</strong> 2019년 정부조사연구단은 2017년 포항 지진이 인근 지열 발전 실증 연구 과정에서 땅속에 물을 주입한 것과 관련된 <strong>촉발 지진</strong>이라고 발표했다. 지권에 인위적으로 개입하는 기술은 지구시스템에 대한 충분한 조사와 감시가 함께해야 한다.</li>
+</ul>
+<h3 id="사례-4-화산재와-항공-운항">사례 4. 화산재와 항공 운항</h3>
+<ul>
+<li><strong>원리</strong> 화산재는 아주 작은 암석과 유리 조각이다. 제트 엔진 안의 높은 온도에서 녹았다가 엔진 부품에 달라붙어 엔진을 멈추게 할 수 있다. 1982년 인도네시아 상공에서 화산재 구름에 들어간 여객기의 엔진 4개가 모두 멈췄다가 겨우 다시 켜진 사고가 있었다.</li>
+<li><strong>대응 체계</strong> 세계 9곳의 <strong>화산재 경보 센터(VAAC)</strong> 가 위성 영상과 대기 흐름 계산으로 화산재의 확산을 예측하여 항공사에 경로를 알린다. 2010년 아이슬란드 화산 분출 때 유럽의 항공 대란 이후, 엔진이 견딜 수 있는 화산재 농도 기준을 마련하는 연구가 활발해졌다.</li>
+<li>화산 분출 → 기권(화산재 확산) → 인간 사회(항공·물류·관광)로 이어지는, 지구시스템과 사회 시스템의 연결을 보여 준다.</li>
+</ul>
+<h3 id="관련-진로와-학과">관련 진로와 학과</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>진로</th>
+<th>하는 일</th>
+<th>관련 학과</th>
+</tr>
+</thead><tbody><tr>
+<td>지진·화산 연구원</td>
+<td>지진 관측과 분석, 화산 감시, 조기경보 시스템 개발</td>
+<td>지구환경과학, 지구물리학, 지질학</td>
+</tr>
+<tr>
+<td>구조 엔지니어</td>
+<td>건물·교량 내진 설계, 내진 보강</td>
+<td>건축공학, 토목공학</td>
+</tr>
+<tr>
+<td>지열·자원 엔지니어</td>
+<td>지열 발전소 설계, 지하 자원 탐사</td>
+<td>에너지자원공학, 지질학</td>
+</tr>
+<tr>
+<td>재난 안전 전문가</td>
+<td>재난 위험 지도 제작, 대피 계획 수립, 재난 대응 훈련</td>
+<td>방재안전공학, 소방방재학, 도시계획</td>
+</tr>
+<tr>
+<td>항공 기상 전문가</td>
+<td>화산재·난기류 등 항공 위험 기상 예보</td>
+<td>대기과학, 항공운항학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="탐구-활동-화산-분출로-인한-피해를-조사하고-대책-세우기">탐구 활동 — 화산 분출로 인한 피해를 조사하고 대책 세우기</h2>
+<aside class="callout note"><p class="callout-title">성취기준·참고</p><p>교육과정 탐구 활동 &quot;화산 분출로 인한 환경⋅사회경제적 피해의 종류를 조사하고, 지구와 생명 시스템 측면에서 피해를 줄이기 위한 대책 수립하기&quot;를 바탕으로 구성하였다.</p>
+</aside>
+<h3 id="활동-a-화산-피해-조사-보고서와-대책-만들기-모둠-활동">활동 A. 화산 피해 조사 보고서와 대책 만들기 (모둠 활동)</h3>
+<p><strong>목표</strong> 실제 화산 분출 사례의 피해를 권역별·분야별로 분석하고, 지구 시스템과 생명 시스템을 함께 고려한 피해 감소 대책을 제안한다.</p>
+<p><strong>준비물</strong> 스마트 기기, 공공 기관·국제기구의 화산 자료, 신문 기사, 위성 영상, 전지와 색 펜</p>
+<p><strong>과정</strong></p>
+<ol>
+<li>모둠별로 화산 분출 사례 하나를 고른다. (예: 탐보라 1815년, 피나투보 1991년, 에이야퍄틀라이외퀴들 2010년, 네바도델루이스 1985년, 또는 최근 사례)</li>
+<li>화산이 위치한 <strong>판의 경계 종류</strong>(또는 열점)를 찾고, 분출 형태를 조사한다.</li>
+<li>피해를 <strong>환경적 피해</strong>(기권·수권·지권·생물권)와 <strong>사회경제적 피해</strong>(인명, 건강, 농업, 교통, 산업, 관광)로 나누어 결과 기록 표에 정리한다.</li>
+<li>피해를 줄이기 위한 대책을 <strong>분출 전(예측·대비) – 분출 중(경보·대피) – 분출 후(복구)</strong> 로 나누어 제안한다.</li>
+<li>발표한 뒤, 백두산이 크게 분출한다면 우리나라에 어떤 영향이 있을지 추론하고 토의한다.</li>
+</ol>
+<p><strong>결과 기록 (피해 분석)</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>영향을 받은 권역·분야</th>
+<th>구체적인 피해 내용</th>
+<th>근거 자료(출처)</th>
+</tr>
+</thead><tbody><tr>
+<td>환경적 피해</td>
+<td>기권</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>수권</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>지권</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>생물권</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>사회경제적 피해</td>
+<td>인명·건강</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>농업·식량</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>교통·항공</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>기타 산업</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<p><strong>결과 기록 (대책 수립)</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>시기</th>
+<th>지구 시스템 측면의 대책</th>
+<th>생명 시스템(사람·생물) 측면의 대책</th>
+</tr>
+</thead><tbody><tr>
+<td>분출 전</td>
+<td>예: 지진계·위성·GPS로 땅의 부풂과 가스 방출 감시, 화산 위험 지도 제작</td>
+<td>예: 대피 경로와 대피소 지정, 주민 교육</td>
+</tr>
+<tr>
+<td>분출 중</td>
+<td>예: 화산재 확산 예측, 항공 경로 조정</td>
+<td>예: 마스크 보급, 실내 대피, 식수 보호</td>
+</tr>
+<tr>
+<td>분출 후</td>
+<td>예: 화산 이류 위험 지역 감시, 하천 정비</td>
+<td>예: 호흡기 질환 치료, 농경지 복구, 생태계 회복 모니터링</td>
+</tr>
+</tbody></table></div>
+<p><strong>생각해 보기</strong></p>
+<ol>
+<li>같은 규모의 화산 분출이라도 피해가 지역마다 크게 다른 이유는 무엇일까? (인구 밀도, 대비 수준, 분출 형태 등)</li>
+<li>화산은 피해만 주는가? 화산이 지구시스템과 인간에게 주는 이로운 점을 찾아보자.</li>
+<li>내가 제안한 대책 중 과학 기술로 해결할 수 있는 것과, 사회적 합의·제도가 필요한 것을 구분해 보자.</li>
+</ol>
+<h3 id="활동-b-빅데이터로-판의-경계-찾기">활동 B. 빅데이터로 판의 경계 찾기</h3>
+<ol>
+<li>공공 기관에서 제공하는 최근 지진 목록(위치, 깊이, 규모)을 내려받아 지도 위에 점으로 표시한다(스프레드시트나 지도 프로그램 이용).</li>
+<li>점이 띠 모양으로 모이는 곳을 선으로 이어 판의 경계를 그려 본다.</li>
+<li>진원의 깊이를 색으로 구분하여 표시하고, 일본 열도나 남아메리카 서해안에서 깊이가 어느 방향으로 깊어지는지 확인한다.</li>
+<li>그 결과를 판의 경계 종류(섭입형)로 설명해 보자.</li>
+</ol>
+<hr>
+<h2 id="개념-확인-문제">개념 확인 문제</h2>
+<h3 id="기본">기본</h3>
+<p><strong>1.</strong> 다음을 판구조론이 발달한 순서대로 나열하시오.
+ㄱ. 해저 확장설 ㄴ. 판구조론 ㄷ. 대륙 이동설 ㄹ. 맨틀 대류설</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> ㄷ → ㄹ → ㄱ → ㄴ</p>
+<p>대륙 이동설(1912년) → 맨틀 대류설(1920~30년대) → 해저 확장설(1960년대 초) → 판구조론(1960년대 후반)</p>
+</div></details>
+
+<p><strong>2.</strong> 다음 중 <strong>해저 확장설</strong>의 증거를 <strong>모두</strong> 고르시오.
+ㄱ. 해령에서 멀어질수록 해양 지각의 나이가 많아진다.
+ㄴ. 해령을 중심으로 고지자기 줄무늬가 대칭으로 나타난다.
+ㄷ. 멀리 떨어진 대륙에서 같은 종의 민물 파충류 화석이 발견된다.
+ㄹ. 해령에서 멀어질수록 해저 퇴적물이 두꺼워진다.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답 ㄱ, ㄴ, ㄹ</strong></p>
+<p>ㄷ은 베게너가 제시한 대륙 이동설의 증거이다.</p>
+</div></details>
+
+<p><strong>3.</strong> 판의 경계 종류와 예를 바르게 연결하시오.
+(1) 발산형 (2) 섭입형 (3) 충돌형 (4) 보존형
+ㄱ. 히말라야산맥 ㄴ. 산안드레아스 단층 ㄷ. 대서양 중앙 해령 ㄹ. 일본 해구</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> (1) ㄷ (2) ㄹ (3) ㄱ (4) ㄴ</p>
+</div></details>
+
+<p><strong>4.</strong> 빈칸에 알맞은 말을 쓰시오.
+&quot;판은 지각과 맨틀의 윗부분을 합친 ( ㄱ )(으)로, 그 아래 일부가 녹아 있어 유동성이 있는 ( ㄴ ) 위에서 움직인다. 판을 움직이는 주된 원동력은 지구 내부 에너지에 의한 ( ㄷ )이다.&quot;</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> ㄱ: 암석권, ㄴ: 연약권, ㄷ: 맨틀 대류</p>
+</div></details>
+
+<h3 id="응용">응용</h3>
+<p><strong>5.</strong> 대서양은 1년에 약 2.5 cm씩 넓어지고 있다. 이 속력이 일정했다고 가정하면, 대서양이 1억 년 동안 넓어진 거리는 몇 km인가?</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 2500 km</p>
+<p><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">2.5</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">cm</span></span><span class="mord">/</span><span class="mord text"><span class="mord hangul_fallback">년</span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord text"><span class="mord hangul_fallback">년</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2.5</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">cm</span></span></span></span></span>
+<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord">1</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">km</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">5</span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">cm</span></span></span></span></span> 이므로 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2.5</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">÷</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">5</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2.5</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord">2500</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">km</span></span></span></span></span></p>
+<p>1년에 손톱만큼 움직여도 1억 년이면 수천 km가 된다.</p>
+</div></details>
+
+<p><strong>6.</strong> 어떤 지역에서 해구를 기준으로 대륙 쪽으로 갈수록 진원의 깊이가 점점 깊어지고, 해구와 나란하게 화산이 분포한다. (1) 이 지역의 판 경계 종류를 쓰고, (2) 진원의 깊이가 이렇게 분포하는 까닭과 (3) 화산이 생기는 까닭을 설명하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> (1) 수렴형 경계 중 섭입형</p>
+<p>(2) 밀도가 큰 해양판이 해구에서 대륙판 아래로 비스듬히 가라앉으면서, 가라앉는 판을 따라 지진이 일어나므로 대륙 쪽으로 갈수록 진원이 깊어진다.
+(3) 가라앉는 해양판에서 빠져나온 물이 그 위의 맨틀을 녹기 쉽게 만들어 마그마가 생성되고, 이 마그마가 올라와 화산이 된다.</p>
+</div></details>
+
+<p><strong>7.</strong> 2016년 경주 지진과 2017년 포항 지진에 대한 설명으로 옳은 것을 <strong>모두</strong> 고르시오.
+ㄱ. 경주 지진의 규모는 5.8, 포항 지진의 규모는 5.4이다.
+ㄴ. 두 지진은 판의 경계에서 일어났다.
+ㄷ. 같은 지진이라도 장소에 따라 진도는 다를 수 있다.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답 ㄱ, ㄷ</strong></p>
+<p>ㄴ. 우리나라는 유라시아판의 내부에 있으므로 두 지진은 판 내부에서 일어난 지진이다. 판 내부에도 주변 판이 미는 힘에 의해 에너지가 쌓여 지진이 일어날 수 있다.
+ㄷ. 규모는 지진 하나에 하나의 값이지만, 진도는 장소마다 흔들린 정도이므로 다를 수 있다.</p>
+</div></details>
+
+<h3 id="융합-서술형">융합·서술형</h3>
+<p><strong>8. [산업 연계]</strong> 2010년 아이슬란드 화산 분출로 유럽 하늘길이 약 일주일간 대규모로 막혔다. (1) 화산 분출이 항공 운항을 막기까지의 과정을 &#39;지권 → 수권 → 기권 → 인간 사회&#39;의 흐름으로 설명하고, (2) 비슷한 일이 다시 일어날 때 피해를 줄일 수 있는 과학 기술적 대책을 두 가지 제안하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+(1) 판의 경계(발산형)에 있는 아이슬란드에서 화산이 분출하였다(지권). 분출이 빙하 아래에서 일어나 마그마가 녹은 빙하 물과 만나 급격히 식으며 잘게 부서져 미세한 화산재가 많이 만들어졌다(수권). 화산재가 높이 솟아올라 바람을 타고 유럽 상공으로 퍼졌다(기권). 화산재는 제트 엔진 안에서 녹아 엔진을 멈추게 할 수 있으므로 항공 운항이 중단되어 사람과 물자의 이동이 막혔다(인간 사회).
+(2) ① 위성 관측과 대기 흐름 계산으로 화산재 농도와 확산 경로를 실시간 예측하여 위험 구역만 피해 운항한다. ② 엔진이 견딜 수 있는 화산재 농도 기준을 연구하여 운항 가능 여부를 과학적으로 판단한다. (그 밖에 기내 화산재 감지 장치 개발, 화산 감시 강화로 분출 조기 예측 등)</p>
+<p><strong>채점 포인트</strong> ① 권역 사이의 연쇄적 흐름을 순서대로 제시 ② 화산재가 엔진에 위험한 이유 ③ 관측·예측에 기반한 구체적 대책</p>
+</div></details>
+
+<p><strong>9. [대학·에너지 연계]</strong> 지열 발전소는 아이슬란드, 인도네시아, 필리핀처럼 판의 경계 부근에 많이 건설된다.
+(1) 그 까닭을 지구 내부 에너지의 흐름과 판구조론으로 설명하시오.
+(2) 판의 경계에서 떨어진 우리나라에서 땅속 깊이 물을 주입하는 지열 발전을 추진할 때 고려해야 할 점을 2017년 포항 지진 사례와 관련지어 서술하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+(1) 지구 내부의 열은 안에서 밖으로 흐르는데, 판의 경계(발산형·섭입형)에서는 마그마가 생성되어 지표 가까이까지 올라오므로 얕은 깊이에서도 땅속 온도가 매우 높다. 따라서 적은 비용으로 뜨거운 물과 수증기를 얻을 수 있어 지열 발전에 유리하다.
+(2) 우리나라는 판 내부에 있어 땅속 온도가 높은 곳을 얻으려면 매우 깊이 시추해야 하고, 물을 주입하는 과정에서 지하의 단층에 영향을 주어 지진을 촉발할 수 있다. 실제로 2019년 정부조사연구단은 포항 지진이 지열 발전 실증 연구 과정의 물 주입과 관련된 촉발 지진이라고 발표했다. 따라서 사전에 주변 단층을 정밀 조사하고, 작은 지진을 실시간으로 감시하면서 위험 신호가 있으면 즉시 중단하는 안전 관리 체계가 필요하다.</p>
+<p><strong>채점 포인트</strong> ① 판의 경계에서 지하 온도가 높은 이유 ② 촉발 지진의 위험 ③ 단층 조사·감시 등 구체적인 안전 대책</p>
+</div></details>
+
+<hr>
+<h2 id="한눈에-정리">한눈에 정리</h2>
+<h3 id="핵심-요약">핵심 요약</h3>
+<ul>
+<li>판구조론은 <strong>대륙 이동설(1912년) → 맨틀 대류설 → 해저 확장설(1960년대 초) → 판구조론(1960년대 후반)</strong> 으로 증거가 쌓이며 발전했다.</li>
+<li>해저 확장설의 증거: 해령 중심으로 대칭인 <strong>해양 지각의 나이·고지자기 줄무늬</strong>, 해령에서 멀수록 두꺼운 퇴적물.</li>
+<li><strong>판(암석권)</strong> 은 지각과 맨틀 윗부분으로 이루어진 단단한 층이며, <strong>연약권</strong> 위에서 움직인다.</li>
+<li>판의 경계: <strong>발산형</strong>(해령·열곡대, 화산 활발), <strong>수렴형</strong>(섭입형: 해구·호상 열도·화산 활발 / 충돌형: 습곡 산맥·화산 거의 없음), <strong>보존형</strong>(변환 단층, 화산 거의 없음).</li>
+<li>지진·화산·조산 운동은 <strong>지구 내부 에너지가 표면으로 흐르는 과정(맨틀 대류)의 결과</strong>이다.</li>
+<li>화산 분출은 화산재와 이산화 황 등으로 <strong>기권(기온 하강)·수권(오염, 이류)·생물권(피해와 비옥한 토양)</strong> 에 연쇄적으로 영향을 준다.</li>
+<li>한반도는 판 내부에 있지만 경주(규모 5.8)·포항(규모 5.4) 지진처럼 지진에서 안전하지 않다.</li>
+</ul>
+<h3 id="핵심-용어">핵심 용어</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>용어</th>
+<th>뜻</th>
+</tr>
+</thead><tbody><tr>
+<td>대륙 이동설</td>
+<td>과거 하나였던 대륙(판게아)이 갈라져 이동했다는 베게너의 학설</td>
+</tr>
+<tr>
+<td>해저 확장설</td>
+<td>해령에서 새 해양 지각이 생겨 양쪽으로 이동하며 해저가 넓어진다는 학설</td>
+</tr>
+<tr>
+<td>판구조론</td>
+<td>지구 겉부분이 여러 판으로 나뉘어 움직이며 지각 변동을 일으킨다는 이론</td>
+</tr>
+<tr>
+<td>판(암석권)</td>
+<td>지각과 맨틀 윗부분을 합친 두께 약 100 km의 단단한 층</td>
+</tr>
+<tr>
+<td>연약권</td>
+<td>판 아래에서 일부가 녹아 천천히 흐를 수 있는 상부 맨틀의 층</td>
+</tr>
+<tr>
+<td>섭입</td>
+<td>밀도가 큰 판이 다른 판 아래로 비스듬히 가라앉는 것</td>
+</tr>
+<tr>
+<td>맨틀 대류</td>
+<td>지구 내부 에너지에 의해 맨틀 물질이 매우 느리게 순환하는 운동</td>
+</tr>
+<tr>
+<td>규모 / 진도</td>
+<td>지진이 방출한 에너지의 크기 / 장소별로 흔들린 정도</td>
+</tr>
+</tbody></table></div>
+<h3 id="다음-단원으로">다음 단원으로</h3>
+<p>지금까지 지구 내부 에너지가 판을 움직여 지권을 바꾸는 과정을 보았다. 그런데 해구에서 판이 가라앉고, 화산재가 결국 땅으로 떨어지고, 빗물이 바다로 흘러가는 데에는 모두 공통된 힘이 작용한다. 바로 <strong>중력</strong>이다. 다음 단원에서는 지구 표면에서 떨어지는 물체부터 지구 주위를 도는 인공위성과 달까지, <strong>중력이 만드는 다양한 운동</strong>을 살펴본다.</p>
+<nav class="pager"><a class="prev" href="3-1.html"><small>이전 단원</small>3-1 지구시스템의 구성과 상호작용</a><a class="next" href="3-3.html"><small>다음 단원</small>3-3 중력과 운동</a></nav></article></div>
+</main>
+</div>
+</body>
+</html>

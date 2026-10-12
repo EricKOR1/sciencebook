@@ -1,0 +1,883 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>4-5 물질 변화와 에너지 출입</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css">
+<link rel="stylesheet" href="assets/book.css">
+<script src="assets/js/book.js" defer></script>
+
+</head>
+<body class="">
+<header class="topbar">
+  <button class="menu-btn" id="menu-btn" aria-controls="drawer" aria-expanded="false">목차</button>
+  <a class="brand" href="index.html">통합과학 개념에서 산업까지</a>
+  <button class="theme-btn" id="theme-btn" aria-label="밝은 화면과 어두운 화면 바꾸기">화면</button>
+</header>
+<div class="shell">
+<aside class="drawer" id="drawer"><nav class="book-nav" aria-label="교재 목차"><a class="nav-home" href="index.html">처음으로</a><p class="nav-book">통합과학1</p><p class="nav-unit"><span>1단원</span> 과학의 기초</p><ul><li><a href="1-1.html"><span class="nav-id">1-1</span>시간과 공간</a></li><li><a href="1-2.html"><span class="nav-id">1-2</span>기본량과 단위</a></li><li><a href="1-3.html"><span class="nav-id">1-3</span>측정과 어림, 측정 표준</a></li><li><a href="1-4.html"><span class="nav-id">1-4</span>정보와 신호: 아날로그에서 디지털로</a></li></ul><p class="nav-unit"><span>2단원</span> 물질과 규칙성</p><ul><li><a href="2-1.html"><span class="nav-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="2-2.html"><span class="nav-id">2-2</span>별의 진화와 원소의 생성</a></li><li><a href="2-3.html"><span class="nav-id">2-3</span>원소의 주기성과 화학 결합의 이유</a></li><li><a href="2-4.html"><span class="nav-id">2-4</span>이온 결합과 공유 결합</a></li><li><a href="2-5.html"><span class="nav-id">2-5</span>지각과 생명체 구성 물질의 규칙성</a></li><li><a href="2-6.html"><span class="nav-id">2-6</span>물질의 전기적 성질과 소재</a></li></ul><p class="nav-unit"><span>3단원</span> 시스템과 상호작용</p><ul><li><a href="3-1.html"><span class="nav-id">3-1</span>지구시스템의 구성과 상호작용</a></li><li><a href="3-2.html"><span class="nav-id">3-2</span>판구조론과 지권의 변화</a></li><li><a href="3-3.html"><span class="nav-id">3-3</span>중력과 운동</a></li><li><a href="3-4.html"><span class="nav-id">3-4</span>운동량과 충격량</a></li><li><a href="3-5.html"><span class="nav-id">3-5</span>생명 시스템과 물질대사</a></li><li><a href="3-6.html"><span class="nav-id">3-6</span>유전자와 단백질</a></li></ul><p class="nav-book">통합과학2</p><p class="nav-unit"><span>4단원</span> 변화와 다양성</p><ul><li><a href="4-1.html"><span class="nav-id">4-1</span>지질시대의 환경 변화와 생물다양성</a></li><li><a href="4-2.html"><span class="nav-id">4-2</span>진화와 생물다양성</a></li><li><a href="4-3.html"><span class="nav-id">4-3</span>산화와 환원</a></li><li><a href="4-4.html"><span class="nav-id">4-4</span>산과 염기, 중화 반응</a></li><li><a href="4-5.html" aria-current="page"><span class="nav-id">4-5</span>물질 변화와 에너지 출입</a></li></ul><p class="nav-unit"><span>5단원</span> 환경과 에너지</p><ul><li><a href="5-1.html"><span class="nav-id">5-1</span>생태계 구성 요소와 상호 관계</a></li><li><a href="5-2.html"><span class="nav-id">5-2</span>생태계 평형</a></li><li><a href="5-3.html"><span class="nav-id">5-3</span>지구온난화와 기후변화</a></li><li><a href="5-4.html"><span class="nav-id">5-4</span>태양 에너지와 에너지 전환</a></li><li><a href="5-5.html"><span class="nav-id">5-5</span>발전기와 전기 에너지</a></li><li><a href="5-6.html"><span class="nav-id">5-6</span>에너지 효율과 신재생 에너지</a></li></ul><p class="nav-unit"><span>6단원</span> 과학과 미래 사회</p><ul><li><a href="6-1.html"><span class="nav-id">6-1</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html"><span class="nav-id">6-2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html"><span class="nav-id">6-3</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html"><span class="nav-id">6-4</span>과학기술과 윤리</a></li></ul><p class="nav-book">부록</p><ul><li><a href="guide.html">교재 설계 안내</a></li><li><a href="appendix-standards.html">부록 1. 교육과정 성취기준</a></li><li><a href="appendix-map.html">부록 2. 연계 지도</a></li><li><a href="appendix-glossary.html">부록 3. 핵심 용어 사전</a></li></ul></nav></aside>
+<main class="main" id="main">
+<div class="lesson-grid"><nav class="ladder" aria-label="이 단원의 흐름"><p class="ladder-title">이 단원의 흐름</p><ol><li class="extra"><a href="#단원-들어가기">단원 들어가기</a></li><li class="s1"><a href="#step-1"><b>STEP 1</b> 중학교 다시 보기</a></li><li class="s2"><a href="#step-2"><b>STEP 2</b> 기초 다지기</a></li><li class="s3"><a href="#step-3"><b>STEP 3</b> 핵심 개념</a></li><li class="s4"><a href="#step-4"><b>STEP 4</b> 오개념 바로잡기</a></li><li class="s5"><a href="#step-5"><b>STEP 5</b> 선택과목·대학으로 한 걸음 더</a></li><li class="s6"><a href="#step-6"><b>STEP 6</b> 산업 현장과 진로 연결</a></li><li class="extra"><a href="#탐구-활동-가열장치-없이-물과-산화-칼슘을-이용한-음식-조리-방법-설계하고-실험하기">탐구 활동 — 가열장치 없이 물과 산화 칼슘을 이용한 음식 조리 방법 설계하고 실험하기</a></li><li class="extra"><a href="#개념-확인-문제">개념 확인 문제</a></li><li class="extra"><a href="#한눈에-정리">한눈에 정리</a></li></ol></nav><article class="prose lesson"><header class="lesson-hero u4">
+  <p class="eyebrow">통합과학2 · 4단원 변화와 다양성</p>
+  <h1><span class="lesson-id">4-5</span>물질 변화와 에너지 출입</h1>
+  <p class="lesson-sub">따뜻해지고 차가워지는 변화의 과학</p>
+</header><aside class="callout note"><p class="callout-title">성취기준·참고</p><p><strong>성취기준 [10통과2-01-05]</strong> 생활 주변에서 에너지를 흡수하거나 방출하는 현상을 찾아 에너지의 흡수 방출이 우리 생활에 어떻게 이용되는지 토의할 수 있다.</p>
+</aside>
+<p><strong>학습 목표</strong></p>
+<ol>
+<li>생활 주변의 화학 변화와 물리 변화에서 에너지를 방출하는 현상과 흡수하는 현상을 찾아 구분할 수 있다.</li>
+<li>상태 변화가 일어날 때 열에너지가 출입하는 방향을 입자 사이의 거리 변화와 관련지어 설명할 수 있다.</li>
+<li>손난로, 냉각 팩, 발열 도시락, 냉매 등 에너지 출입을 이용한 제품의 원리를 설명하고, 더 나은 이용 방법을 토의할 수 있다.</li>
+<li>광합성, 호흡, 구름의 생성 등 지구와 생명 현상에서 에너지 출입이 어떤 역할을 하는지 설명할 수 있다.</li>
+</ol>
+<p><strong>이 단원의 학습 사다리</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>단계</th>
+<th>무엇을 하나?</th>
+</tr>
+</thead><tbody><tr>
+<td>STEP 1. 중학교 다시 보기</td>
+<td>열평형, 비열, 상태 변화와 열, 화학 반응과 열을 다시 꺼내 본다</td>
+</tr>
+<tr>
+<td>STEP 2. 기초 다지기</td>
+<td>온도와 열의 구분, &#39;계와 주위&#39;, 열량 계산 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">Q</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">c</span><span class="mord mathnormal">m</span><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span></span>, 에너지 보존을 디딤돌로 놓는다</td>
+</tr>
+<tr>
+<td>STEP 3. 핵심 개념</td>
+<td>에너지 방출·흡수 → 상태 변화와 열 → 열을 내는 제품 → 열을 흡수하는 제품 → 지구·생명 현상</td>
+</tr>
+<tr>
+<td>STEP 4. 오개념 바로잡기</td>
+<td>&quot;냉각 팩은 냉기를 내보낸다?&quot; 같은 착각을 바로잡는다</td>
+</tr>
+<tr>
+<td>STEP 5. 선택과목·대학</td>
+<td>엔탈피와 열화학 반응식, 결합 에너지, 엔트로피, 잠열의 계산</td>
+</tr>
+<tr>
+<td>STEP 6. 산업·진로</td>
+<td>발열·냉각 제품, 냉매와 히트 펌프, 석회·시멘트 산업, 축열 기술</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="단원-들어가기">단원 들어가기</h2>
+<p>추운 겨울 아침, 일회용 손난로의 포장을 뜯어 흔들면 몇 분 뒤 따뜻해진다. 불도 없고 전지도 없는데 열은 어디에서 왔을까? 반대로 운동하다 다쳤을 때 쓰는 냉각 팩은 손으로 꾹 눌러 터뜨리기만 하면 금세 차가워진다. 냉장고도 없는데 어떻게 차가워질까?</p>
+<p>캠핑장에서 끈을 당기기만 하면 김이 나며 데워지는 발열 도시락, 땀이 마르면서 시원해지는 몸, 소나기가 오기 전의 후텁지근한 공기, 엄청난 에너지를 품은 태풍. 이 모든 현상 뒤에는 <strong>물질이 변할 때 에너지가 들어오거나 나간다</strong>는 공통된 원리가 있다. 이 단원에서는 그 원리를 찾아 생활과 지구, 생명 현상에 적용해 본다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-4-5-0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 799.6875 323" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-4-5-0{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-4-5-0 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-4-5-0 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-4-5-0 .error-icon{fill:var(--mm-group);}#mm-4-5-0 .error-text{fill:#595959;stroke:#595959;}#mm-4-5-0 .edge-thickness-normal{stroke-width:1px;}#mm-4-5-0 .edge-thickness-thick{stroke-width:3.5px;}#mm-4-5-0 .edge-pattern-solid{stroke-dasharray:0;}#mm-4-5-0 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-4-5-0 .edge-pattern-dashed{stroke-dasharray:3;}#mm-4-5-0 .edge-pattern-dotted{stroke-dasharray:2;}#mm-4-5-0 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-4-5-0 .marker.cross{stroke:var(--mm-line);}#mm-4-5-0 svg{font-family:inherit;font-size:15px;}#mm-4-5-0 p{margin:0;}#mm-4-5-0 .label{font-family:inherit;color:var(--mm-text);}#mm-4-5-0 .cluster-label text{fill:#595959;}#mm-4-5-0 .cluster-label span{color:#595959;}#mm-4-5-0 .cluster-label span p{background-color:transparent;}#mm-4-5-0 .label text,#mm-4-5-0 span{fill:var(--mm-text);color:var(--mm-text);}#mm-4-5-0 .node rect,#mm-4-5-0 .node circle,#mm-4-5-0 .node ellipse,#mm-4-5-0 .node polygon,#mm-4-5-0 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-4-5-0 .rough-node .label text,#mm-4-5-0 .node .label text,#mm-4-5-0 .image-shape .label,#mm-4-5-0 .icon-shape .label{text-anchor:middle;}#mm-4-5-0 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-4-5-0 .rough-node .label,#mm-4-5-0 .node .label,#mm-4-5-0 .image-shape .label,#mm-4-5-0 .icon-shape .label{text-align:center;}#mm-4-5-0 .node.clickable{cursor:pointer;}#mm-4-5-0 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-4-5-0 .arrowheadPath{fill:#0b0b0b;}#mm-4-5-0 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-4-5-0 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-4-5-0 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-4-5-0 .edgeLabel p{background-color:var(--mm-label);}#mm-4-5-0 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-4-5-0 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-4-5-0 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-4-5-0 .cluster text{fill:#595959;}#mm-4-5-0 .cluster span{color:#595959;}#mm-4-5-0 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-4-5-0 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-4-5-0 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-4-5-0 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-4-5-0 rect.text{fill:none;stroke-width:0;}#mm-4-5-0 .icon-shape,#mm-4-5-0 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-4-5-0 .icon-shape p,#mm-4-5-0 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-4-5-0 .icon-shape .label rect,#mm-4-5-0 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-4-5-0 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-4-5-0 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-4-5-0 .node .neo-node{stroke:var(--mm-border);}#mm-4-5-0 [data-look="neo"].node rect,#mm-4-5-0 [data-look="neo"].cluster rect,#mm-4-5-0 [data-look="neo"].node polygon{stroke:url(#mm-4-5-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-5-0 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-4-5-0 [data-look="neo"].node path{stroke:url(#mm-4-5-0-gradient);stroke-width:1px;}#mm-4-5-0 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-5-0 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-4-5-0 [data-look="neo"].node circle{stroke:url(#mm-4-5-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-5-0 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-4-5-0 [data-look="neo"].icon-shape .icon{fill:url(#mm-4-5-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-5-0 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-4-5-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-5-0 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-4-5-0_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-0_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-0_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-0_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-0_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-0_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-0_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-0_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-0_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-0_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-0_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-4-5-0_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M106.201,138.25L115.197,132.208C124.192,126.167,142.182,114.083,154.677,108.042C167.172,102,174.172,102,177.672,102L181.172,102" id="mm-4-5-0-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTA2LjIwMTQ1MDg5Mjg1NzE0LCJ5IjoxMzguMjV9LHsieCI6MTYwLjE3MTg3NSwieSI6MTAyfSx7IngiOjE4NS4xNzE4NzUsInkiOjEwMn1d" data-look="classic" marker-end="url(#mm-4-5-0_flowchart-v2-pointEnd)"/><path d="M106.201,184.75L115.197,190.792C124.192,196.833,142.182,208.917,157.662,214.958C173.143,221,186.115,221,192.6,221L199.086,221" id="mm-4-5-0-L_A_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_C_0" data-points="W3sieCI6MTA2LjIwMTQ1MDg5Mjg1NzE0LCJ5IjoxODQuNzV9LHsieCI6MTYwLjE3MTg3NSwieSI6MjIxfSx7IngiOjIwMy4wODU5Mzc1LCJ5IjoyMjF9XQ==" data-look="classic" marker-end="url(#mm-4-5-0_flowchart-v2-pointEnd)"/><path d="M368.172,86.292L372.339,85.577C376.505,84.861,384.839,83.431,392.509,83.072C400.179,82.714,407.186,83.427,410.689,83.784L414.192,84.141" id="mm-4-5-0-L_B_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_D_0" data-points="W3sieCI6MzY4LjE3MTg3NSwieSI6ODYuMjkxODQ1NDkzNTYyMjN9LHsieCI6MzkzLjE3MTg3NSwieSI6ODJ9LHsieCI6NDE4LjE3MTg3NSwieSI6ODQuNTQ2NTU0MTkzODU2NDR9XQ==" data-look="classic" marker-end="url(#mm-4-5-0_flowchart-v2-pointEnd)"/><path d="M334.503,136.5L344.281,142.333C354.059,148.167,373.616,159.833,389.698,169.488C405.781,179.142,418.39,186.784,424.695,190.606L431,194.427" id="mm-4-5-0-L_B_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_E_0" data-points="W3sieCI6MzM0LjUwMjgxMDI1MTc5ODU2LCJ5IjoxMzYuNX0seyJ4IjozOTMuMTcxODc1LCJ5IjoxNzEuNX0seyJ4Ijo0MzQuNDIwNTYxOTc0Nzg5OSwieSI6MTk2LjV9XQ==" data-look="classic" marker-end="url(#mm-4-5-0_flowchart-v2-pointEnd)"/><path d="M334.503,186.5L344.281,180.667C354.059,174.833,373.616,163.167,389.698,153.512C405.781,143.858,418.39,136.216,424.695,132.394L431,128.573" id="mm-4-5-0-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6MzM0LjUwMjgxMDI1MTc5ODU2LCJ5IjoxODYuNX0seyJ4IjozOTMuMTcxODc1LCJ5IjoxNTEuNX0seyJ4Ijo0MzQuNDIwNTYxOTc0Nzg5OSwieSI6MTI2LjV9XQ==" data-look="classic" marker-end="url(#mm-4-5-0_flowchart-v2-pointEnd)"/><path d="M350.258,233.633L357.41,234.861C364.563,236.089,378.867,238.544,389.523,239.415C400.179,240.286,407.186,239.573,410.689,239.216L414.192,238.859" id="mm-4-5-0-L_C_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_E_0" data-points="W3sieCI6MzUwLjI1NzgxMjUsInkiOjIzMy42MzI3Nzg5Njk5NTcxfSx7IngiOjM5My4xNzE4NzUsInkiOjI0MX0seyJ4Ijo0MTguMTcxODc1LCJ5IjoyMzguNDUzNDQ1ODA2MTQzNTV9XQ==" data-look="classic" marker-end="url(#mm-4-5-0_flowchart-v2-pointEnd)"/><path d="M559.767,57.5L564.725,55C569.683,52.5,579.599,47.5,588.057,45C596.516,42.5,603.516,42.5,607.016,42.5L610.516,42.5" id="mm-4-5-0-L_D_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_F_0" data-points="W3sieCI6NTU5Ljc2NjU3MTk2OTY5NywieSI6NTcuNX0seyJ4Ijo1ODkuNTE1NjI1LCJ5Ijo0Mi41fSx7IngiOjYxNC41MTU2MjUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-4-5-0_flowchart-v2-pointEnd)"/><path d="M559.767,265.5L564.725,268C569.683,270.5,579.599,275.5,591.807,278C604.016,280.5,618.516,280.5,625.766,280.5L633.016,280.5" id="mm-4-5-0-L_E_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_G_0" data-points="W3sieCI6NTU5Ljc2NjU3MTk2OTY5NywieSI6MjY1LjV9LHsieCI6NTg5LjUxNTYyNSwieSI6MjgwLjV9LHsieCI6NjM3LjAxNTYyNSwieSI6MjgwLjV9XQ==" data-look="classic" marker-end="url(#mm-4-5-0_flowchart-v2-pointEnd)"/><path d="M548.267,126.5L555.142,130.667C562.017,134.833,575.766,143.167,587.393,147.752C599.021,152.337,608.526,153.174,613.278,153.592L618.031,154.01" id="mm-4-5-0-L_D_H_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_H_0" data-points="W3sieCI6NTQ4LjI2NjkzODAyNTIxLCJ5IjoxMjYuNX0seyJ4Ijo1ODkuNTE1NjI1LCJ5IjoxNTEuNX0seyJ4Ijo2MjIuMDE1NjI1LCJ5IjoxNTQuMzYxMjY5Njg4NDI0MjR9XQ==" data-look="classic" marker-end="url(#mm-4-5-0_flowchart-v2-pointEnd)"/><path d="M548.267,196.5L555.142,192.333C562.017,188.167,575.766,179.833,587.393,175.248C599.021,170.663,608.526,169.826,613.278,169.408L618.031,168.99" id="mm-4-5-0-L_E_H_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_H_0" data-points="W3sieCI6NTQ4LjI2NjkzODAyNTIxLCJ5IjoxOTYuNX0seyJ4Ijo1ODkuNTE1NjI1LCJ5IjoxNzEuNX0seyJ4Ijo2MjIuMDE1NjI1LCJ5IjoxNjguNjM4NzMwMzExNTc1NzZ9XQ==" data-look="classic" marker-end="url(#mm-4-5-0_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_A_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_F_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_G_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_H_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_H_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-4-5-0-flowchart-A-0" data-look="classic" transform="translate(71.5859375, 161.5)"><rect class="basic label-container" style="" x="-63.5859375" y="-23.25" width="127.171875" height="46.5"/><g class="label" style="" transform="translate(-39.5859375, -11.25)"><rect/><foreignObject width="79.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>물질의 변화</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-5-0-flowchart-B-1" data-look="classic" transform="translate(276.671875, 102)"><rect class="basic label-container" style="" x="-91.5" y="-34.5" width="183" height="69"/><g class="label" style="" transform="translate(-67.5, -22.5)"><rect/><foreignObject width="135" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>화학 변화<br />연소·중화·산화·분해</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-5-0-flowchart-C-3" data-look="classic" transform="translate(276.671875, 221)"><rect class="basic label-container" style="" x="-73.5859375" y="-34.5" width="147.171875" height="69"/><g class="label" style="" transform="translate(-49.5859375, -22.5)"><rect/><foreignObject width="99.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>물리 변화<br />상태 변화·용해</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-5-0-flowchart-D-5" data-look="classic" transform="translate(491.34375, 92)"><rect class="basic label-container" style="" x="-73.171875" y="-34.5" width="146.34375" height="69"/><g class="label" style="" transform="translate(-49.171875, -22.5)"><rect/><foreignObject width="98.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>에너지 방출<br />주위 온도 상승</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-5-0-flowchart-E-7" data-look="classic" transform="translate(491.34375, 231)"><rect class="basic label-container" style="" x="-73.171875" y="-34.5" width="146.34375" height="69"/><g class="label" style="" transform="translate(-49.171875, -22.5)"><rect/><foreignObject width="98.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>에너지 흡수<br />주위 온도 하강</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-5-0-flowchart-F-13" data-look="classic" transform="translate(703.1015625, 42.5)"><rect class="basic label-container" style="" x="-88.5859375" y="-34.5" width="177.171875" height="69"/><g class="label" style="" transform="translate(-64.5859375, -22.5)"><rect/><foreignObject width="129.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>생활 이용<br />손난로·발열 도시락</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-5-0-flowchart-G-15" data-look="classic" transform="translate(703.1015625, 280.5)"><rect class="basic label-container" style="" x="-66.0859375" y="-34.5" width="132.171875" height="69"/><g class="label" style="" transform="translate(-42.0859375, -22.5)"><rect/><foreignObject width="84.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>생활 이용<br />냉각 팩·냉매</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-5-0-flowchart-H-17" data-look="classic" transform="translate(703.1015625, 161.5)"><rect class="basic label-container" style="" x="-81.0859375" y="-34.5" width="162.171875" height="69"/><g class="label" style="" transform="translate(-57.0859375, -22.5)"><rect/><foreignObject width="114.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>지구·생명 현상<br />호흡·구름과 태풍</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-4-5-0-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-4-5-0-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-4-5-0-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><hr>
+<h2 id="step-1" class="step-h s1"><span class="step-badge s1">STEP 1</span><span class="h-text">중학교 다시 보기</span></h2>
+<h3 id="연계-개념표">연계 개념표</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>중학교 성취기준</th>
+<th>중학교에서 배운 것</th>
+<th>고등학교에서 확장되는 것</th>
+</tr>
+</thead><tbody><tr>
+<td>[9과03-01]</td>
+<td>온도가 다른 두 물체가 접촉하면 열평형에 도달한다</td>
+<td>반응하는 물질(계)과 주위 사이에서 열이 이동하는 방향으로 <strong>방출·흡수</strong>를 판단한다</td>
+</tr>
+<tr>
+<td>[9과03-03]</td>
+<td>물질마다 비열이 다르다</td>
+<td>물의 온도 변화로 출입한 열의 양을 어림한다(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">Q</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">c</span><span class="mord mathnormal">m</span><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span></span>)</td>
+</tr>
+<tr>
+<td>[9과04-04]</td>
+<td>상태 변화 시 열에너지가 출입하고, 상태 변화 동안 온도가 일정하다</td>
+<td>상태 변화의 열 출입을 냉매, 냉해 방지, 체온 조절, 구름 생성에 적용한다</td>
+</tr>
+<tr>
+<td>[9과16-06]</td>
+<td>화학 반응에서 열에너지가 출입하며, 생활 속 사례가 있다</td>
+<td>에너지를 방출·흡수하는 반응을 분류하고, 제품을 <strong>설계</strong>하고 이용 방법을 <strong>토의</strong>한다</td>
+</tr>
+<tr>
+<td>[9과12-02]</td>
+<td>광합성과 호흡에서 에너지와 물질이 출입한다</td>
+<td>광합성은 에너지를 <strong>흡수</strong>하고 호흡은 에너지를 <strong>방출</strong>하는 변화이다</td>
+</tr>
+<tr>
+<td>[9과17-03]</td>
+<td>단열 팽창과 응결로 구름이 생긴다</td>
+<td>응결할 때 방출되는 열이 구름과 태풍을 키우는 에너지원이 된다</td>
+</tr>
+</tbody></table></div>
+<h3 id="준비-운동-사전-진단">준비 운동 (사전 진단)</h3>
+<p><strong>Q1.</strong> 얼음을 가열하면서 온도를 측정하면, 얼음이 녹는 동안 온도가 0 °C에서 한동안 변하지 않는다. 이때 가해 준 열은 어디에 쓰였을까?</p>
+<p><strong>Q2.</strong> 운동한 뒤 땀이 마르면 시원해진다. 그 이유를 &#39;열&#39;이라는 말을 넣어 설명하시오.</p>
+<p><strong>Q3.</strong> 다음 중 열에너지를 방출하는 화학 반응을 고르시오.
+ㄱ. 가스레인지에서 가스가 탄다. ㄴ. 묽은 염산과 수산화 나트륨 수용액을 섞는다. ㄷ. 질산 암모늄을 물에 녹인다.</p>
+<p><strong>Q4.</strong> 80 °C의 물과 20 °C의 물을 섞었다. 열은 어느 쪽에서 어느 쪽으로 이동하며, 언제 멈추는가?</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>Q1.</strong> 가해 준 열은 온도를 높이는 데 쓰이지 않고, 얼음 입자 사이의 규칙적인 배열을 무너뜨려 <strong>고체를 액체로 바꾸는 데(상태 변화)</strong> 쓰였다.</p>
+<p><strong>Q2.</strong> 땀(물)이 증발(기화)할 때 피부로부터 <strong>열을 흡수</strong>하므로 피부의 온도가 내려간다.</p>
+<p><strong>Q3. ㄱ, ㄴ</strong> — 연소와 중화 반응은 열을 방출한다. ㄷ. 질산 암모늄이 물에 녹을 때는 열을 흡수하여 용액이 차가워진다. (용해는 물리 변화로 볼 수 있지만 열 출입이 일어난다.)</p>
+<p><strong>Q4.</strong> 열은 온도가 높은 <strong>80 °C의 물에서 20 °C의 물로</strong> 이동하며, 두 물의 온도가 같아지면(열평형) 겉으로 보이는 열의 이동이 멈춘다.</p>
+</div></details>
+
+<hr>
+<h2 id="step-2" class="step-h s2"><span class="step-badge s2">STEP 2</span><span class="h-text">기초 다지기</span></h2>
+<h3 id="①-온도와-열은-다르다">① 온도와 열은 다르다</h3>
+<ul>
+<li><strong>온도(temperature)</strong>: 물질을 이루는 입자의 운동이 얼마나 활발한지를 나타내는 정도. 단위는 °C 또는 K.</li>
+<li><strong>열(heat)</strong>: 온도 차이 때문에 한 물체에서 다른 물체로 <strong>이동하는 에너지</strong>. 단위는 J(줄).</li>
+</ul>
+<p>열은 언제나 <strong>온도가 높은 곳에서 낮은 곳으로</strong> 이동한다. &quot;열이 들어왔다&quot;는 것은 에너지가 들어왔다는 뜻이고, 그 결과 온도가 오르거나 상태가 변한다.</p>
+<h3 id="②-계와-주위-열이-어디에서-어디로-가는가">② 계와 주위 — 열이 어디에서 어디로 가는가?</h3>
+<p>「통합과학1」에서 관심 있는 대상을 하나의 <strong>시스템(계)</strong> 으로 보고, 그 밖을 주위로 보는 방법을 배웠다. 에너지 출입도 같은 방식으로 본다.</p>
+<ul>
+<li><strong>계(system)</strong>: 반응하거나 상태가 변하는 물질 (예: 손난로 속 철 가루, 냉각 팩 속 질산 암모늄과 물)</li>
+<li><strong>주위(surroundings)</strong>: 계를 둘러싼 나머지 (예: 손, 용기, 공기, 물)</li>
+</ul>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>열의 이동</th>
+<th>주위의 온도</th>
+</tr>
+</thead><tbody><tr>
+<td>에너지 <strong>방출</strong></td>
+<td>계 → 주위</td>
+<td><strong>올라간다</strong> (따뜻해진다)</td>
+</tr>
+<tr>
+<td>에너지 <strong>흡수</strong></td>
+<td>주위 → 계</td>
+<td><strong>내려간다</strong> (차가워진다)</td>
+</tr>
+</tbody></table></div>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 계를 &#39;나&#39;, 주위를 &#39;친구들&#39;이라고 하자. 내가 친구들에게 간식을 나누어 주면(방출) 친구들이 기뻐하고(주위 온도 상승), 내가 친구들에게서 간식을 받아 가면(흡수) 친구들의 간식이 줄어든다(주위 온도 하강). 우리가 손으로 느끼는 것은 늘 <strong>주위(친구들)의 변화</strong>이다.</p>
+</aside>
+<h3 id="③-열의-양을-어림하는-방법">③ 열의 양을 어림하는 방법</h3>
+<p>물질이 얻거나 잃은 열의 양(열량 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">Q</span></span></span></span>)은 비열 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">c</span></span></span></span>, 질량 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">m</span></span></span></span>, 온도 변화 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span></span>로 구할 수 있다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">Q</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">c</span><span class="mord mathnormal">m</span><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span></span></span></p>
+<ul>
+<li>물의 비열은 약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">4.2</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">J/</span><span class="mopen">(</span><span class="mord mathrm" style="margin-right:0.01389em;">g</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin"><span class="mbin">⋅</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6741em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∘</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">C</span><span class="mclose">)</span></span></span></span></span>이다. 물 1 g의 온도를 1 °C 높이는 데 약 4.2 J이 필요하다는 뜻이다.</li>
+<li>예: 물 100 g의 온도를 10 °C 높이려면 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">Q</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">4.2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">100</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">4200</span><span class="mspace"> </span><span class="mord mathrm">J</span></span></span></span></li>
+</ul>
+<p>반응이 일어나는 용기 속 물의 온도 변화를 재면, 반응이 방출하거나 흡수한 열을 거꾸로 어림할 수 있다.</p>
+<h3 id="④-에너지는-사라지지-않고-모습만-바뀐다">④ 에너지는 사라지지 않고 모습만 바뀐다</h3>
+<p>물질은 그 안에 <strong>화학 에너지</strong>를 저장하고 있다. 물질이 변하면서 화학 에너지가 줄어들면 줄어든 만큼 열이나 빛 같은 에너지로 나오고(방출), 화학 에너지가 늘어나려면 그만큼 주위에서 에너지가 들어와야 한다(흡수). 에너지의 총량은 변하지 않는다.</p>
+<hr>
+<h2 id="step-3" class="step-h s3"><span class="step-badge s3">STEP 3</span><span class="h-text">핵심 개념</span></h2>
+<h3 id="4-5-①-에너지를-방출하는-변화와-흡수하는-변화">4-5-① 에너지를 방출하는 변화와 흡수하는 변화</h3>
+<p>물질이 변할 때 에너지를 내보내면 주위가 따뜻해지고, 에너지를 받아들이면 주위가 차가워진다. 화학 반응 가운데 에너지를 방출하는 반응을 <strong>발열 반응(exothermic reaction)</strong>, 에너지를 흡수하는 반응을 <strong>흡열 반응(endothermic reaction)</strong> 이라고 한다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>에너지를 <strong>방출</strong>하는 화학 변화 (발열 반응)</th>
+<th>에너지를 <strong>흡수</strong>하는 화학 변화 (흡열 반응)</th>
+</tr>
+</thead><tbody><tr>
+<td>연료의 연소: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">4</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">2</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">2</span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathrm">O</span></span></span></span></span></td>
+<td>광합성: 빛에너지를 흡수하여 포도당을 만든다</td>
+</tr>
+<tr>
+<td>세포호흡: 포도당이 산화되어 에너지를 낸다</td>
+<td>탄산수소 나트륨의 열분해: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">2NaHC</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">N</span><span class="mord"><span class="mord mathrm">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathrm">O</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+<tr>
+<td>중화 반응: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9213em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7713em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">+</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">O</span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7713em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">−</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathrm">O</span></span></span></span></span></td>
+<td>석회석의 열분해: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">CaC</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">CaO</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+<tr>
+<td>철의 산화(손난로): <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">4Fe</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">3</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">2F</span><span class="mord"><span class="mord mathrm">e</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></td>
+<td>수산화 바륨과 염화 암모늄의 반응(용기가 매우 차가워진다)</td>
+</tr>
+<tr>
+<td>산화 칼슘과 물의 반응: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathrm">CaO</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathrm">O</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">Ca</span><span class="mopen">(</span><span class="mord mathrm">OH</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></td>
+<td>물의 전기 분해: 전기 에너지를 흡수하여 수소와 산소로 나뉜다</td>
+</tr>
+<tr>
+<td>금속과 산의 반응: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">Mg</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">2HCl</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">MgC</span><span class="mord"><span class="mord mathrm">l</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<p>물에 녹는 <strong>용해</strong>에서도 에너지가 출입한다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>물에 녹을 때 열을 <strong>방출</strong>(용액이 따뜻해짐)</th>
+<th>물에 녹을 때 열을 <strong>흡수</strong>(용액이 차가워짐)</th>
+</tr>
+</thead><tbody><tr>
+<td>수산화 나트륨, 염화 칼슘, 진한 황산</td>
+<td>질산 암모늄, 요소</td>
+</tr>
+</tbody></table></div>
+<aside class="callout tip"><p class="callout-title">도움말</p><p><strong>열분해 반응은 대부분 흡열 반응이다.</strong> 탄산수소 나트륨이나 석회석은 계속 가열해 주어야 분해되고, 가열을 멈추면 분해도 멈춘다. 반대로 연소는 처음에 불을 붙여 주어야 하지만 <strong>일단 시작되면 스스로 열을 내며 계속된다.</strong> 시작할 때 열이 필요하다고 해서 흡열 반응인 것은 아니다.</p>
+</aside>
+<h4 id="예제-1">예제 1</h4>
+<p>다음 현상을 에너지를 방출하는 것과 흡수하는 것으로 분류하시오.
+ㄱ. 숯불이 탄다. ㄴ. 빵 반죽 속 베이킹 소다가 오븐에서 분해되어 이산화 탄소를 낸다. ㄷ. 생석회(산화 칼슘)에 물을 부었더니 김이 났다. ㄹ. 질산 암모늄을 물에 녹였더니 비커 바깥에 물방울이 맺혔다.</p>
+<p><strong>풀이</strong></p>
+<ul>
+<li>방출: <strong>ㄱ</strong>(연소), <strong>ㄷ</strong>(산화 칼슘과 물의 반응, 물이 끓을 만큼 뜨거워진다)</li>
+<li>흡수: <strong>ㄴ</strong>(열분해, 오븐의 열을 계속 흡수), <strong>ㄹ</strong>(용액이 차가워져 공기 중 수증기가 비커 표면에서 액화했다)</li>
+</ul>
+<h4 id="예제-2">예제 2</h4>
+<p>냉각 팩 속에서 질산 암모늄이 물 200 g에 녹아 물의 온도가 25 °C에서 5 °C로 내려갔다. 이 물이 잃은 열은 약 몇 J인가? (물의 비열은 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">4.2</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">J/</span><span class="mopen">(</span><span class="mord mathrm" style="margin-right:0.01389em;">g</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin"><span class="mbin">⋅</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6741em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∘</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">C</span><span class="mclose">)</span></span></span></span></span>로 하고, 질산 암모늄의 질량에 의한 영향은 무시한다.)</p>
+<p><strong>풀이</strong> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">Q</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">c</span><span class="mord mathnormal">m</span><span class="mord">Δ</span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">4.2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">200</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">25</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">5</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">16</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">800</span><span class="mspace"> </span><span class="mord mathrm">J</span></span></span></span></p>
+<p>물은 약 <strong>16 800 J(16.8 kJ)</strong> 의 열을 잃었다. 이 열은 질산 암모늄이 녹는 과정에 흡수되었다. 냉각 팩을 다친 부위에 대면, 냉각 팩이 이번에는 피부로부터 열을 흡수하여 피부를 차갑게 한다.</p>
+<h3 id="4-5-②-상태-변화와-에너지-출입">4-5-② 상태 변화와 에너지 출입</h3>
+<p>중학교에서 물질의 상태가 변할 때 열이 출입한다는 것을 배웠다. 입자 모형으로 보면 그 방향을 쉽게 정리할 수 있다.</p>
+<ul>
+<li>입자 사이의 거리가 <strong>멀어지는</strong> 변화(고체 → 액체 → 기체): 입자 사이의 인력을 이겨 내야 하므로 <strong>열을 흡수</strong>한다.</li>
+<li>입자 사이의 거리가 <strong>가까워지는</strong> 변화(기체 → 액체 → 고체): <strong>열을 방출</strong>한다.</li>
+</ul>
+<div class="table-wrap"><table><thead><tr>
+<th>열을 <strong>흡수</strong>하는 상태 변화</th>
+<th>열을 <strong>방출</strong>하는 상태 변화</th>
+</tr>
+</thead><tbody><tr>
+<td>융해 (고체 → 액체)</td>
+<td>응고 (액체 → 고체)</td>
+</tr>
+<tr>
+<td>기화 (액체 → 기체)</td>
+<td>액화 (기체 → 액체)</td>
+</tr>
+<tr>
+<td>승화 (고체 → 기체)</td>
+<td>승화 (기체 → 고체, &#39;증착&#39;이라고도 한다)</td>
+</tr>
+</tbody></table></div>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-4-5-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 478.34375 193.875" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-4-5-1{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-4-5-1 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-4-5-1 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-4-5-1 .error-icon{fill:var(--mm-group);}#mm-4-5-1 .error-text{fill:#595959;stroke:#595959;}#mm-4-5-1 .edge-thickness-normal{stroke-width:1px;}#mm-4-5-1 .edge-thickness-thick{stroke-width:3.5px;}#mm-4-5-1 .edge-pattern-solid{stroke-dasharray:0;}#mm-4-5-1 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-4-5-1 .edge-pattern-dashed{stroke-dasharray:3;}#mm-4-5-1 .edge-pattern-dotted{stroke-dasharray:2;}#mm-4-5-1 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-4-5-1 .marker.cross{stroke:var(--mm-line);}#mm-4-5-1 svg{font-family:inherit;font-size:15px;}#mm-4-5-1 p{margin:0;}#mm-4-5-1 .label{font-family:inherit;color:var(--mm-text);}#mm-4-5-1 .cluster-label text{fill:#595959;}#mm-4-5-1 .cluster-label span{color:#595959;}#mm-4-5-1 .cluster-label span p{background-color:transparent;}#mm-4-5-1 .label text,#mm-4-5-1 span{fill:var(--mm-text);color:var(--mm-text);}#mm-4-5-1 .node rect,#mm-4-5-1 .node circle,#mm-4-5-1 .node ellipse,#mm-4-5-1 .node polygon,#mm-4-5-1 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-4-5-1 .rough-node .label text,#mm-4-5-1 .node .label text,#mm-4-5-1 .image-shape .label,#mm-4-5-1 .icon-shape .label{text-anchor:middle;}#mm-4-5-1 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-4-5-1 .rough-node .label,#mm-4-5-1 .node .label,#mm-4-5-1 .image-shape .label,#mm-4-5-1 .icon-shape .label{text-align:center;}#mm-4-5-1 .node.clickable{cursor:pointer;}#mm-4-5-1 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-4-5-1 .arrowheadPath{fill:#0b0b0b;}#mm-4-5-1 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-4-5-1 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-4-5-1 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-4-5-1 .edgeLabel p{background-color:var(--mm-label);}#mm-4-5-1 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-4-5-1 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-4-5-1 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-4-5-1 .cluster text{fill:#595959;}#mm-4-5-1 .cluster span{color:#595959;}#mm-4-5-1 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-4-5-1 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-4-5-1 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-4-5-1 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-4-5-1 rect.text{fill:none;stroke-width:0;}#mm-4-5-1 .icon-shape,#mm-4-5-1 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-4-5-1 .icon-shape p,#mm-4-5-1 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-4-5-1 .icon-shape .label rect,#mm-4-5-1 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-4-5-1 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-4-5-1 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-4-5-1 .node .neo-node{stroke:var(--mm-border);}#mm-4-5-1 [data-look="neo"].node rect,#mm-4-5-1 [data-look="neo"].cluster rect,#mm-4-5-1 [data-look="neo"].node polygon{stroke:url(#mm-4-5-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-5-1 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-4-5-1 [data-look="neo"].node path{stroke:url(#mm-4-5-1-gradient);stroke-width:1px;}#mm-4-5-1 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-5-1 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-4-5-1 [data-look="neo"].node circle{stroke:url(#mm-4-5-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-5-1 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-4-5-1 [data-look="neo"].icon-shape .icon{fill:url(#mm-4-5-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-5-1 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-4-5-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-5-1 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-4-5-1_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-1_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-1_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-1_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-1_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-1_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-1_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-1_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-1_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-1_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-1_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-4-5-1_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M75.919,73.25L87.114,64.25C98.308,55.25,120.697,37.25,140.755,30.21C160.813,23.17,178.539,27.091,187.403,29.051L196.266,31.011" id="mm-4-5-1-L_S_L_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_S_L_0" data-points="W3sieCI6NzUuOTE5MDY4NTY3OTYxMTYsInkiOjczLjI1fSx7IngiOjE0My4wODU5Mzc1LCJ5IjoxOS4yNX0seyJ4IjoyMDAuMTcxODc1LCJ5IjozMS44NzQ5MDg1MjkxNDg3MTJ9XQ==" data-look="classic" marker-end="url(#mm-4-5-1_flowchart-v2-pointEnd)"/><path d="M278.172,40.5L287.686,40.5C297.201,40.5,316.229,40.5,336.997,50.719C357.765,60.937,380.271,81.374,391.525,91.593L402.778,101.811" id="mm-4-5-1-L_L_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_L_G_0" data-points="W3sieCI6Mjc4LjE3MTg3NSwieSI6NDAuNX0seyJ4IjozMzUuMjU3ODEyNSwieSI6NDAuNX0seyJ4Ijo0MDUuNzM5MTg3ODU4MTY2MiwieSI6MTA0LjV9XQ==" data-look="classic" marker-end="url(#mm-4-5-1_flowchart-v2-pointEnd)"/><path d="M86,102.842L95.514,104.389C105.029,105.936,124.057,109.031,149.586,110.578C175.115,112.125,207.143,112.125,239.172,112.125C271.201,112.125,303.229,112.125,328.1,113.565C352.97,115.005,370.683,117.886,379.539,119.326L388.396,120.766" id="mm-4-5-1-L_S_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_S_G_0" data-points="W3sieCI6ODYsInkiOjEwMi44NDE5NzkwMjI2ODQ3N30seyJ4IjoxNDMuMDg1OTM3NSwieSI6MTEyLjEyNX0seyJ4IjoyMzkuMTcxODc1LCJ5IjoxMTIuMTI1fSx7IngiOjMzNS4yNTc4MTI1LCJ5IjoxMTIuMTI1fSx7IngiOjM5Mi4zNDM3NSwieSI6MTIxLjQwODAyMDk3NzMxNTIzfV0=" data-look="classic" marker-end="url(#mm-4-5-1_flowchart-v2-pointEnd)"/><path d="M392.344,134.092L382.829,135.639C373.315,137.186,354.286,140.281,332.832,129.044C311.378,117.808,287.498,92.24,275.558,79.457L263.618,66.673" id="mm-4-5-1-L_G_L_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_G_L_0" data-points="W3sieCI6MzkyLjM0Mzc1LCJ5IjoxMzQuMDkxOTc5MDIyNjg0Nzd9LHsieCI6MzM1LjI1NzgxMjUsInkiOjE0My4zNzV9LHsieCI6MjYwLjg4NzUzMDM3NjY3MDcsInkiOjYzLjc1fV0=" data-look="classic" marker-end="url(#mm-4-5-1_flowchart-v2-pointEnd)"/><path d="M200.172,49.125L190.658,51.229C181.143,53.333,162.115,57.542,143.713,62.86C125.311,68.178,107.536,74.607,98.649,77.821L89.762,81.035" id="mm-4-5-1-L_L_S_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_L_S_0" data-points="W3sieCI6MjAwLjE3MTg3NSwieSI6NDkuMTI1MDkxNDcwODUxMjl9LHsieCI6MTQzLjA4NTkzNzUsInkiOjYxLjc1fSx7IngiOjg2LCJ5Ijo4Mi4zOTU0Mzg2NTM1NDkwNn1d" data-look="classic" marker-end="url(#mm-4-5-1_flowchart-v2-pointEnd)"/><path d="M392.344,146.776L382.829,151.417C373.315,156.059,354.286,165.342,328.758,169.983C303.229,174.625,271.201,174.625,239.172,174.625C207.143,174.625,175.115,174.625,148.369,165.9C121.624,157.174,100.161,139.724,89.43,130.999L78.699,122.273" id="mm-4-5-1-L_G_S_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_G_S_0" data-points="W3sieCI6MzkyLjM0Mzc1LCJ5IjoxNDYuNzc1OTM3MDY4MDU0M30seyJ4IjozMzUuMjU3ODEyNSwieSI6MTc0LjYyNX0seyJ4IjoyMzkuMTcxODc1LCJ5IjoxNzQuNjI1fSx7IngiOjE0My4wODU5Mzc1LCJ5IjoxNzQuNjI1fSx7IngiOjc1LjU5NTE3NSwieSI6MTE5Ljc1fV0=" data-look="classic" marker-end="url(#mm-4-5-1_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(143.0859375, 19.25)"><g class="label" data-id="L_S_L_0" transform="translate(-32.0859375, -11.25)"><foreignObject width="64.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"><p>융해 흡수</p></span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(335.2578125, 40.5)"><g class="label" data-id="L_L_G_0" transform="translate(-32.0859375, -11.25)"><foreignObject width="64.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"><p>기화 흡수</p></span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(239.171875, 112.125)"><g class="label" data-id="L_S_G_0" transform="translate(-32.0859375, -11.25)"><foreignObject width="64.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"><p>승화 흡수</p></span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(317.81148, 124.69598)"><g class="label" data-id="L_G_L_0" transform="translate(-32.0859375, -11.25)"><foreignObject width="64.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"><p>액화 방출</p></span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(143.0859375, 61.75)"><g class="label" data-id="L_L_S_0" transform="translate(-32.0859375, -11.25)"><foreignObject width="64.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"><p>응고 방출</p></span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(239.171875, 174.625)"><g class="label" data-id="L_G_S_0" transform="translate(-32.0859375, -11.25)"><foreignObject width="64.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"><p>승화 방출</p></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-4-5-1-flowchart-S-0" data-look="classic" transform="translate(47, 96.5)"><rect class="basic label-container" style="" x="-39" y="-23.25" width="78" height="46.5"/><g class="label" style="" transform="translate(-15, -11.25)"><rect/><foreignObject width="30" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>고체</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-5-1-flowchart-L-1" data-look="classic" transform="translate(239.171875, 40.5)"><rect class="basic label-container" style="" x="-39" y="-23.25" width="78" height="46.5"/><g class="label" style="" transform="translate(-15, -11.25)"><rect/><foreignObject width="30" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>액체</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-5-1-flowchart-G-3" data-look="classic" transform="translate(431.34375, 127.75)"><rect class="basic label-container" style="" x="-39" y="-23.25" width="78" height="46.5"/><g class="label" style="" transform="translate(-15, -11.25)"><rect/><foreignObject width="30" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>기체</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-4-5-1-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-4-5-1-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-4-5-1-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><h4 id="상태-변화-동안-온도가-일정한-이유">상태 변화 동안 온도가 일정한 이유</h4>
+<p>얼음을 일정하게 가열하면 얼음이 녹는 동안(0 °C)과 물이 끓는 동안(1기압에서 100 °C)에는 온도가 변하지 않는다. 이때 흡수한 열은 입자의 운동을 활발하게 하는 데(온도 상승) 쓰이지 않고, <strong>입자의 배열을 바꾸는 데(상태 변화)</strong> 쓰이기 때문이다. 반대로 물이 얼 때는 열을 방출하면서도 다 얼 때까지 0 °C를 유지한다.</p>
+<h4 id="생활과-자연-속-상태-변화의-열-출입">생활과 자연 속 상태 변화의 열 출입</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>현상</th>
+<th>상태 변화</th>
+<th>열의 출입</th>
+</tr>
+</thead><tbody><tr>
+<td>땀이 마르면 시원하다</td>
+<td>기화</td>
+<td>피부에서 열을 <strong>흡수</strong></td>
+</tr>
+<tr>
+<td>알코올 솜으로 소독하면 피부가 차갑다</td>
+<td>기화</td>
+<td>피부에서 열을 <strong>흡수</strong></td>
+</tr>
+<tr>
+<td>아이스박스에 얼음을 넣어 음식을 차갑게 한다</td>
+<td>융해</td>
+<td>음식에서 열을 <strong>흡수</strong></td>
+</tr>
+<tr>
+<td>드라이아이스로 아이스크림을 차갑게 유지한다</td>
+<td>승화(고체 → 기체)</td>
+<td>주위에서 열을 <strong>흡수</strong></td>
+</tr>
+<tr>
+<td>한여름 마당에 물을 뿌리면 시원해진다</td>
+<td>기화</td>
+<td>땅과 공기에서 열을 <strong>흡수</strong></td>
+</tr>
+<tr>
+<td>추운 날 과수원에 물을 뿌려 냉해를 막는다</td>
+<td>응고</td>
+<td>물이 얼면서 열을 <strong>방출</strong>하여 꽃눈이 0 °C 아래로 내려가는 것을 늦춘다</td>
+</tr>
+<tr>
+<td>이글루 안에 물을 뿌리면 따뜻해진다</td>
+<td>응고</td>
+<td>물이 얼면서 열을 <strong>방출</strong></td>
+</tr>
+<tr>
+<td>100 °C 수증기에 데면 100 °C 물보다 심한 화상을 입는다</td>
+<td>액화</td>
+<td>수증기가 피부에서 물이 되며 많은 열을 <strong>방출</strong></td>
+</tr>
+<tr>
+<td>소나기가 오기 전에는 후텁지근하다</td>
+<td>액화(응결)</td>
+<td>수증기가 응결하며 열을 <strong>방출</strong></td>
+</tr>
+</tbody></table></div>
+<h4 id="예제-3">예제 3</h4>
+<p>같은 100 °C인데도 끓는 물에 데는 것보다 수증기에 데는 것이 더 위험한 이유를 상태 변화의 열 출입으로 설명하시오.</p>
+<p><strong>풀이</strong> 100 °C의 끓는 물은 피부에 닿아 온도가 내려가는 만큼만 열을 준다. 그런데 100 °C의 수증기는 피부에 닿으면 먼저 <strong>액화하면서 많은 열을 방출</strong>하고, 그렇게 생긴 100 °C의 물이 다시 식으면서 열을 또 준다. 따라서 같은 질량이라면 수증기가 피부에 훨씬 많은 열을 전달한다.</p>
+<h3 id="4-5-③-열을-내는-변화의-이용">4-5-③ 열을 내는 변화의 이용</h3>
+<h4 id="1-일회용-손난로-철의-산화">(1) 일회용 손난로 — 철의 산화</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>구성 성분</th>
+<th>역할</th>
+</tr>
+</thead><tbody><tr>
+<td>철 가루</td>
+<td>공기 중의 산소와 반응(산화)하며 열을 낸다</td>
+</tr>
+<tr>
+<td>물</td>
+<td>철의 산화가 잘 일어나도록 돕는다</td>
+</tr>
+<tr>
+<td>소금</td>
+<td>철의 산화를 빠르게 한다 (소금물에서 철이 더 빨리 녹스는 것과 같은 원리)</td>
+</tr>
+<tr>
+<td>활성탄</td>
+<td>구멍이 많아 공기와 수분을 머금어 철 가루 주변에 공급한다</td>
+</tr>
+<tr>
+<td>질석 등</td>
+<td>수분을 머금고 열을 보존한다</td>
+</tr>
+</tbody></table></div>
+<p>4-3에서 배운 철의 부식과 같은 반응이다. 다만 <strong>철을 가루로 만들어</strong> 산소와 닿는 면적을 넓히고, 소금으로 반응을 빠르게 하여 짧은 시간에 따뜻해지게 했다. 사용하기 전에는 공기가 통하지 않는 바깥 포장으로 산소를 막아 두고, 안쪽 포장지는 미세한 구멍으로 <strong>산소가 들어오는 속도를 조절</strong>하여 몇 시간 동안 따뜻함이 유지되도록 설계한다.</p>
+<h4 id="2-똑딱이-손난로-응고할-때-나오는-열">(2) 똑딱이 손난로 — 응고할 때 나오는 열</h4>
+<p>투명한 주머니 속 액체에 든 금속판을 꺾으면, 액체가 순식간에 하얀 고체로 굳으면서 따뜻해진다. 주머니 속에는 아세트산 나트륨이 물에 아주 많이 녹아 있는 용액(과포화 용액)이 들어 있다. 금속판을 꺾는 자극으로 결정이 생기기 시작하면 용액이 <strong>고체로 굳으면서(결정화) 열을 방출</strong>한다. 다 쓴 손난로를 끓는 물에 넣어 고체를 다시 녹이면(열을 흡수) 재사용할 수 있다.</p>
+<h4 id="3-발열-도시락-산화-칼슘과-물">(3) 발열 도시락 — 산화 칼슘과 물</h4>
+<p>발열 도시락의 아래 칸에는 <strong>산화 칼슘(생석회)</strong> 이 든 발열 팩이 있다. 끈을 당기거나 물을 부으면 산화 칼슘이 물과 반응하여 수산화 칼슘이 되면서 많은 열을 낸다. 이 열로 위 칸의 음식을 데운다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathrm">CaO</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathrm">O</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">Ca</span><span class="mopen">(</span><span class="mord mathrm">OH</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:1em;"></span><span class="mopen">(</span><span class="mord text"><span class="mord hangul_fallback">열</span><span class="mord"> </span><span class="mord hangul_fallback">방출</span></span><span class="mclose">)</span></span></span></span></span></p>
+<p>반응 과정에서 물의 일부가 끓어 김(수증기)이 나오므로, 발열 도시락은 수증기가 빠져나갈 구멍을 두고 밀폐된 공간에서는 사용하지 않도록 안내한다.</p>
+<h4 id="4-제설제-염화-칼슘">(4) 제설제 — 염화 칼슘</h4>
+<p>겨울철 도로에 뿌리는 염화 칼슘은 물에 녹을 때 <strong>열을 방출</strong>하여 주변의 눈과 얼음을 녹이는 것을 돕는다. 또 염화 칼슘이 녹은 물은 0 °C보다 낮은 온도에서 얼기 때문에 녹은 물이 다시 잘 얼지 않는다. 다만 염화 칼슘이 녹은 물은 4-3에서 배운 것처럼 자동차와 철 구조물의 <strong>부식을 빠르게</strong> 하고 가로수와 토양에도 영향을 줄 수 있어, 적절한 양을 쓰는 것이 중요하다.</p>
+<h4 id="5-연소-가장-오래된-열-이용">(5) 연소 — 가장 오래된 열 이용</h4>
+<p>난방용 보일러, 가스레인지, 화력 발전소는 연료의 연소로 방출되는 열을 이용한다. 연소는 많은 열을 쉽게 얻을 수 있지만 이산화 탄소와 대기 오염 물질을 내놓는다는 문제가 있다.</p>
+<h3 id="4-5-④-열을-흡수하는-변화의-이용">4-5-④ 열을 흡수하는 변화의 이용</h3>
+<h4 id="1-냉각-팩-질산-암모늄의-용해">(1) 냉각 팩 — 질산 암모늄의 용해</h4>
+<p>냉각 팩 속에는 질산 암모늄(또는 요소) 고체와 물주머니가 따로 들어 있다. 팩을 세게 눌러 물주머니를 터뜨리면 질산 암모늄이 물에 녹으면서 <strong>주위에서 열을 흡수</strong>하므로 팩이 차가워진다. 냉장고가 없는 운동장이나 야외에서 응급 처치에 쓰인다.</p>
+<h4 id="2-냉매-에어컨과-냉장고의-심장">(2) 냉매 — 에어컨과 냉장고의 심장</h4>
+<p>에어컨과 냉장고는 <strong>냉매</strong>라는 물질의 상태 변화를 이용해 열을 옮긴다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-4-5-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 888.828125 147.875" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-4-5-2{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-4-5-2 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-4-5-2 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-4-5-2 .error-icon{fill:var(--mm-group);}#mm-4-5-2 .error-text{fill:#595959;stroke:#595959;}#mm-4-5-2 .edge-thickness-normal{stroke-width:1px;}#mm-4-5-2 .edge-thickness-thick{stroke-width:3.5px;}#mm-4-5-2 .edge-pattern-solid{stroke-dasharray:0;}#mm-4-5-2 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-4-5-2 .edge-pattern-dashed{stroke-dasharray:3;}#mm-4-5-2 .edge-pattern-dotted{stroke-dasharray:2;}#mm-4-5-2 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-4-5-2 .marker.cross{stroke:var(--mm-line);}#mm-4-5-2 svg{font-family:inherit;font-size:15px;}#mm-4-5-2 p{margin:0;}#mm-4-5-2 .label{font-family:inherit;color:var(--mm-text);}#mm-4-5-2 .cluster-label text{fill:#595959;}#mm-4-5-2 .cluster-label span{color:#595959;}#mm-4-5-2 .cluster-label span p{background-color:transparent;}#mm-4-5-2 .label text,#mm-4-5-2 span{fill:var(--mm-text);color:var(--mm-text);}#mm-4-5-2 .node rect,#mm-4-5-2 .node circle,#mm-4-5-2 .node ellipse,#mm-4-5-2 .node polygon,#mm-4-5-2 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-4-5-2 .rough-node .label text,#mm-4-5-2 .node .label text,#mm-4-5-2 .image-shape .label,#mm-4-5-2 .icon-shape .label{text-anchor:middle;}#mm-4-5-2 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-4-5-2 .rough-node .label,#mm-4-5-2 .node .label,#mm-4-5-2 .image-shape .label,#mm-4-5-2 .icon-shape .label{text-align:center;}#mm-4-5-2 .node.clickable{cursor:pointer;}#mm-4-5-2 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-4-5-2 .arrowheadPath{fill:#0b0b0b;}#mm-4-5-2 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-4-5-2 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-4-5-2 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-4-5-2 .edgeLabel p{background-color:var(--mm-label);}#mm-4-5-2 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-4-5-2 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-4-5-2 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-4-5-2 .cluster text{fill:#595959;}#mm-4-5-2 .cluster span{color:#595959;}#mm-4-5-2 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-4-5-2 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-4-5-2 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-4-5-2 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-4-5-2 rect.text{fill:none;stroke-width:0;}#mm-4-5-2 .icon-shape,#mm-4-5-2 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-4-5-2 .icon-shape p,#mm-4-5-2 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-4-5-2 .icon-shape .label rect,#mm-4-5-2 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-4-5-2 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-4-5-2 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-4-5-2 .node .neo-node{stroke:var(--mm-border);}#mm-4-5-2 [data-look="neo"].node rect,#mm-4-5-2 [data-look="neo"].cluster rect,#mm-4-5-2 [data-look="neo"].node polygon{stroke:url(#mm-4-5-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-5-2 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-4-5-2 [data-look="neo"].node path{stroke:url(#mm-4-5-2-gradient);stroke-width:1px;}#mm-4-5-2 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-5-2 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-4-5-2 [data-look="neo"].node circle{stroke:url(#mm-4-5-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-5-2 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-4-5-2 [data-look="neo"].icon-shape .icon{fill:url(#mm-4-5-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-5-2 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-4-5-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-5-2 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-4-5-2_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-2_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-2_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-2_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-2_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-2_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-2_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-2_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-2_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-2_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-2_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-4-5-2_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M225.156,61.306L229.323,60.047C233.49,58.788,241.823,56.269,249.49,55.009C257.156,53.75,264.156,53.75,267.656,53.75L271.156,53.75" id="mm-4-5-2-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MjI1LjE1NjI1LCJ5Ijo2MS4zMDY0MzkzNDk2MzE1NH0seyJ4IjoyNTAuMTU2MjUsInkiOjUzLjc1fSx7IngiOjI3NS4xNTYyNSwieSI6NTMuNzV9XQ==" data-look="classic" marker-end="url(#mm-4-5-2_flowchart-v2-pointEnd)"/><path d="M436.5,53.75L440.667,53.75C444.833,53.75,453.167,53.75,460.833,53.75C468.5,53.75,475.5,53.75,479,53.75L482.5,53.75" id="mm-4-5-2-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6NDM2LjUsInkiOjUzLjc1fSx7IngiOjQ2MS41LCJ5Ijo1My43NX0seyJ4Ijo0ODYuNSwieSI6NTMuNzV9XQ==" data-look="classic" marker-end="url(#mm-4-5-2_flowchart-v2-pointEnd)"/><path d="M703.656,53.75L707.823,53.75C711.99,53.75,720.323,53.75,728.05,55.373C735.776,56.995,742.896,60.24,746.456,61.863L750.016,63.485" id="mm-4-5-2-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6NzAzLjY1NjI1LCJ5Ijo1My43NX0seyJ4Ijo3MjguNjU2MjUsInkiOjUzLjc1fSx7IngiOjc1My42NTYyNSwieSI6NjUuMTQ0MzAyODQ4NTc1N31d" data-look="classic" marker-end="url(#mm-4-5-2_flowchart-v2-pointEnd)"/><path d="M753.656,123.106L749.49,125.005C745.323,126.904,736.99,130.702,710.56,132.601C684.13,134.5,639.604,134.5,595.078,134.5C550.552,134.5,506.026,134.5,466.151,134.5C426.276,134.5,391.052,134.5,355.828,134.5C320.604,134.5,285.38,134.5,264.24,133.433C243.099,132.367,236.042,130.234,232.514,129.167L228.985,128.101" id="mm-4-5-2-L_D_A_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_A_0" data-points="W3sieCI6NzUzLjY1NjI1LCJ5IjoxMjMuMTA1Njk3MTUxNDI0M30seyJ4Ijo3MjguNjU2MjUsInkiOjEzNC41fSx7IngiOjU5NS4wNzgxMjUsInkiOjEzNC41fSx7IngiOjQ2MS41LCJ5IjoxMzQuNX0seyJ4IjozNTUuODI4MTI1LCJ5IjoxMzQuNX0seyJ4IjoyNTAuMTU2MjUsInkiOjEzNC41fSx7IngiOjIyNS4xNTYyNSwieSI6MTI2Ljk0MzU2MDY1MDM2ODQ1fV0=" data-look="classic" marker-end="url(#mm-4-5-2_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_A_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-4-5-2-flowchart-A-0" data-look="classic" transform="translate(116.578125, 94.125)"><rect class="basic label-container" style="" x="-108.578125" y="-45.75" width="217.15625" height="91.5"/><g class="label" style="" transform="translate(-84.578125, -33.75)"><rect/><foreignObject width="169.15625" height="67.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>증발기(실내기·냉장고 안)<br />냉매가 기화하며<br />열을 흡수</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-5-2-flowchart-B-1" data-look="classic" transform="translate(355.828125, 53.75)"><rect class="basic label-container" style="" x="-80.671875" y="-34.5" width="161.34375" height="69"/><g class="label" style="" transform="translate(-56.671875, -22.5)"><rect/><foreignObject width="113.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>압축기<br />기체 냉매를 압축</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-5-2-flowchart-C-3" data-look="classic" transform="translate(595.078125, 53.75)"><rect class="basic label-container" style="" x="-108.578125" y="-45.75" width="217.15625" height="91.5"/><g class="label" style="" transform="translate(-84.578125, -33.75)"><rect/><foreignObject width="169.15625" height="67.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>응축기(실외기·냉장고 뒤)<br />냉매가 액화하며<br />열을 방출</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-5-2-flowchart-D-5" data-look="classic" transform="translate(817.2421875, 94.125)"><rect class="basic label-container" style="" x="-63.5859375" y="-34.5" width="127.171875" height="69"/><g class="label" style="" transform="translate(-39.5859375, -22.5)"><rect/><foreignObject width="79.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>팽창 밸브<br />압력을 낮춤</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-4-5-2-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-4-5-2-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-4-5-2-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><ul>
+<li>실내기(냉장고 안)에서는 액체 냉매가 <strong>기화하며 열을 흡수</strong>하므로 실내가 시원해진다.</li>
+<li>실외기(냉장고 뒷면)에서는 기체 냉매가 <strong>액화하며 열을 방출</strong>하므로 뜨거운 바람이 나온다.</li>
+<li>즉, 에어컨은 차가움을 만드는 기계가 아니라 <strong>실내의 열을 실외로 옮기는 기계</strong>이다.</li>
+</ul>
+<h4 id="3-증발을-이용한-냉각">(3) 증발을 이용한 냉각</h4>
+<ul>
+<li>전기가 부족한 지역에서는 흙으로 빚은 큰 그릇 안에 작은 그릇을 넣고, 그 사이의 모래에 물을 적셔 두어 채소를 보관한다. 물이 바깥 그릇 표면으로 스며 나와 <strong>증발하면서 열을 흡수</strong>하여 안쪽 그릇을 시원하게 유지한다.</li>
+<li>더운 날 도로나 운동장에 물을 뿌리거나 안개처럼 물을 뿜는 장치(쿨링 포그)를 설치하는 것도 같은 원리이다.</li>
+</ul>
+<h4 id="4-흡열-반응을-이용한-조리">(4) 흡열 반응을 이용한 조리</h4>
+<p>빵이나 과자를 구울 때 반죽에 넣은 베이킹 소다(탄산수소 나트륨)는 오븐의 <strong>열을 흡수하여 분해</strong>되면서 이산화 탄소를 내놓는다. 이 기체가 반죽을 부풀린다.</p>
+<h4 id="생활-속-에너지-출입-이용-정리">생활 속 에너지 출입 이용 정리</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>제품·기술</th>
+<th>이용하는 변화</th>
+<th>에너지</th>
+</tr>
+</thead><tbody><tr>
+<td>일회용 손난로</td>
+<td>철의 산화</td>
+<td>방출</td>
+</tr>
+<tr>
+<td>똑딱이 손난로</td>
+<td>아세트산 나트륨의 결정화(응고)</td>
+<td>방출</td>
+</tr>
+<tr>
+<td>발열 도시락</td>
+<td>산화 칼슘과 물의 반응</td>
+<td>방출</td>
+</tr>
+<tr>
+<td>제설제</td>
+<td>염화 칼슘의 용해</td>
+<td>방출</td>
+</tr>
+<tr>
+<td>냉각 팩</td>
+<td>질산 암모늄의 용해</td>
+<td>흡수</td>
+</tr>
+<tr>
+<td>에어컨·냉장고</td>
+<td>냉매의 기화(실내) / 액화(실외)</td>
+<td>흡수 / 방출</td>
+</tr>
+<tr>
+<td>아이스박스의 얼음</td>
+<td>얼음의 융해</td>
+<td>흡수</td>
+</tr>
+<tr>
+<td>빵 굽기</td>
+<td>탄산수소 나트륨의 열분해</td>
+<td>흡수</td>
+</tr>
+</tbody></table></div>
+<h3 id="4-5-⑤-지구와-생명-현상-속-에너지-출입">4-5-⑤ 지구와 생명 현상 속 에너지 출입</h3>
+<h4 id="1-광합성과-호흡-생명의-에너지-저장과-사용">(1) 광합성과 호흡 — 생명의 에너지 저장과 사용</h4>
+<ul>
+<li><strong>광합성</strong>: 식물은 <strong>빛에너지를 흡수</strong>하여 이산화 탄소와 물로 포도당을 만든다. 흡수한 에너지는 포도당 속에 화학 에너지로 저장된다.</li>
+<li><strong>세포호흡</strong>: 생물은 포도당을 산소와 반응시켜 <strong>에너지를 방출</strong>한다. 이 에너지의 일부는 근육 운동, 물질 합성 같은 생명 활동에 쓰이고, 일부는 열로 나와 <strong>체온을 유지</strong>하는 데 쓰인다.</li>
+</ul>
+<p>4-3에서 광합성(이산화 탄소의 환원)과 호흡(포도당의 산화)을 산화·환원으로 보았다면, 여기서는 에너지 출입으로 본다. 두 관점은 같은 현상의 두 얼굴이다.</p>
+<h4 id="2-체온-조절">(2) 체온 조절</h4>
+<p>사람은 더울 때 땀을 흘리고, 땀이 <strong>증발하면서 피부의 열을 흡수</strong>하여 체온을 낮춘다. 습도가 높은 날 더 덥게 느끼는 것은 땀이 잘 증발하지 않기 때문이다. 개가 혀를 내밀고 헐떡이는 것도 혀와 입 안의 물기를 증발시켜 열을 내보내는 행동이다.</p>
+<h4 id="3-구름과-태풍-응결할-때-나오는-열">(3) 구름과 태풍 — 응결할 때 나오는 열</h4>
+<p>중학교에서 공기가 상승하면 단열 팽창으로 온도가 내려가 수증기가 응결하여 구름이 생긴다고 배웠다. 이때 수증기가 물방울로 <strong>응결하면서 열을 방출</strong>한다.</p>
+<ul>
+<li>응결로 나온 열은 상승하는 공기를 데워 주위 공기보다 따뜻하게(가볍게) 만든다.</li>
+<li>그래서 공기가 더 높이 올라가고, 더 많은 수증기가 응결하며, 또 열이 나온다.</li>
+<li>이 과정이 되풀이되면 높이 솟은 <strong>적란운</strong>이 생기고, 소나기와 천둥·번개가 나타난다.</li>
+</ul>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-4-5-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 930.546875 182.75" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-4-5-3{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-4-5-3 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-4-5-3 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-4-5-3 .error-icon{fill:var(--mm-group);}#mm-4-5-3 .error-text{fill:#595959;stroke:#595959;}#mm-4-5-3 .edge-thickness-normal{stroke-width:1px;}#mm-4-5-3 .edge-thickness-thick{stroke-width:3.5px;}#mm-4-5-3 .edge-pattern-solid{stroke-dasharray:0;}#mm-4-5-3 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-4-5-3 .edge-pattern-dashed{stroke-dasharray:3;}#mm-4-5-3 .edge-pattern-dotted{stroke-dasharray:2;}#mm-4-5-3 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-4-5-3 .marker.cross{stroke:var(--mm-line);}#mm-4-5-3 svg{font-family:inherit;font-size:15px;}#mm-4-5-3 p{margin:0;}#mm-4-5-3 .label{font-family:inherit;color:var(--mm-text);}#mm-4-5-3 .cluster-label text{fill:#595959;}#mm-4-5-3 .cluster-label span{color:#595959;}#mm-4-5-3 .cluster-label span p{background-color:transparent;}#mm-4-5-3 .label text,#mm-4-5-3 span{fill:var(--mm-text);color:var(--mm-text);}#mm-4-5-3 .node rect,#mm-4-5-3 .node circle,#mm-4-5-3 .node ellipse,#mm-4-5-3 .node polygon,#mm-4-5-3 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-4-5-3 .rough-node .label text,#mm-4-5-3 .node .label text,#mm-4-5-3 .image-shape .label,#mm-4-5-3 .icon-shape .label{text-anchor:middle;}#mm-4-5-3 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-4-5-3 .rough-node .label,#mm-4-5-3 .node .label,#mm-4-5-3 .image-shape .label,#mm-4-5-3 .icon-shape .label{text-align:center;}#mm-4-5-3 .node.clickable{cursor:pointer;}#mm-4-5-3 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-4-5-3 .arrowheadPath{fill:#0b0b0b;}#mm-4-5-3 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-4-5-3 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-4-5-3 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-4-5-3 .edgeLabel p{background-color:var(--mm-label);}#mm-4-5-3 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-4-5-3 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-4-5-3 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-4-5-3 .cluster text{fill:#595959;}#mm-4-5-3 .cluster span{color:#595959;}#mm-4-5-3 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-4-5-3 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-4-5-3 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-4-5-3 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-4-5-3 rect.text{fill:none;stroke-width:0;}#mm-4-5-3 .icon-shape,#mm-4-5-3 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-4-5-3 .icon-shape p,#mm-4-5-3 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-4-5-3 .icon-shape .label rect,#mm-4-5-3 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-4-5-3 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-4-5-3 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-4-5-3 .node .neo-node{stroke:var(--mm-border);}#mm-4-5-3 [data-look="neo"].node rect,#mm-4-5-3 [data-look="neo"].cluster rect,#mm-4-5-3 [data-look="neo"].node polygon{stroke:url(#mm-4-5-3-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-5-3 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-4-5-3 [data-look="neo"].node path{stroke:url(#mm-4-5-3-gradient);stroke-width:1px;}#mm-4-5-3 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-5-3 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-4-5-3 [data-look="neo"].node circle{stroke:url(#mm-4-5-3-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-5-3 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-4-5-3 [data-look="neo"].icon-shape .icon{fill:url(#mm-4-5-3-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-5-3 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-4-5-3-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-5-3 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-4-5-3_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-3_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-3_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-3_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-3_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-3_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-3_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-3_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-3_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-3_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-5-3_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-4-5-3_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M203.516,96.375L207.682,96.375C211.849,96.375,220.182,96.375,227.849,96.375C235.516,96.375,242.516,96.375,246.016,96.375L249.516,96.375" id="mm-4-5-3-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MjAzLjUxNTYyNSwieSI6OTYuMzc1fSx7IngiOjIyOC41MTU2MjUsInkiOjk2LjM3NX0seyJ4IjoyNTMuNTE1NjI1LCJ5Ijo5Ni4zNzV9XQ==" data-look="classic" marker-end="url(#mm-4-5-3_flowchart-v2-pointEnd)"/><path d="M461.198,130.875L465.837,132.438C470.476,134,479.754,137.125,487.892,138.688C496.031,140.25,503.031,140.25,506.531,140.25L510.031,140.25" id="mm-4-5-3-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6NDYxLjE5ODM4NDA4MTE5NjYsInkiOjEzMC44NzV9LHsieCI6NDg5LjAzMTI1LCJ5IjoxNDAuMjV9LHsieCI6NTE0LjAzMTI1LCJ5IjoxNDAuMjV9XQ==" data-look="classic" marker-end="url(#mm-4-5-3_flowchart-v2-pointEnd)"/><path d="M666.473,105.75L672.957,102.521C679.441,99.292,692.408,92.833,706.25,86.938C720.093,81.042,734.811,75.709,742.169,73.043L749.528,70.376" id="mm-4-5-3-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6NjY2LjQ3MzI4MTYxMjUyOSwieSI6MTA1Ljc1fSx7IngiOjcwNS4zNzUsInkiOjg2LjM3NX0seyJ4Ijo3NTMuMjg5MDYyNSwieSI6NjkuMDEzNTMzMTMxMTY5NzV9XQ==" data-look="classic" marker-end="url(#mm-4-5-3_flowchart-v2-pointEnd)"/><path d="M753.289,36.457L745.303,35.798C737.318,35.138,721.346,33.819,695.332,33.16C669.318,32.5,633.26,32.5,597.203,32.5C561.146,32.5,525.089,32.5,497.675,37.102C470.261,41.705,451.49,50.909,442.105,55.512L432.719,60.114" id="mm-4-5-3-L_D_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_B_0" data-points="W3sieCI6NzUzLjI4OTA2MjUsInkiOjM2LjQ1NzAyOTQ4NTc3MzI3Nn0seyJ4Ijo3MDUuMzc1LCJ5IjozMi41fSx7IngiOjU5Ny4yMDMxMjUsInkiOjMyLjV9LHsieCI6NDg5LjAzMTI1LCJ5IjozMi41fSx7IngiOjQyOS4xMjc5NTA3MDkzOTMzNiwieSI6NjEuODc1fV0=" data-look="classic" marker-end="url(#mm-4-5-3_flowchart-v2-pointEnd)"/><path d="M680.375,147.939L684.542,148.324C688.708,148.709,697.042,149.48,704.708,149.865C712.375,150.25,719.375,150.25,722.875,150.25L726.375,150.25" id="mm-4-5-3-L_C_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_E_0" data-points="W3sieCI6NjgwLjM3NSwieSI6MTQ3LjkzODg2MzIwOTU5MTJ9LHsieCI6NzA1LjM3NSwieSI6MTUwLjI1fSx7IngiOjczMC4zNzUsInkiOjE1MC4yNX1d" data-look="classic" marker-end="url(#mm-4-5-3_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-4-5-3-flowchart-A-0" data-look="classic" transform="translate(105.7578125, 96.375)"><rect class="basic label-container" style="" x="-97.7578125" y="-34.5" width="195.515625" height="69"/><g class="label" style="" transform="translate(-73.7578125, -22.5)"><rect/><foreignObject width="147.515625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>따뜻한 바다<br />물이 증발하며 열 흡수</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-5-3-flowchart-B-1" data-look="classic" transform="translate(358.7734375, 96.375)"><rect class="basic label-container" style="" x="-105.2578125" y="-34.5" width="210.515625" height="69"/><g class="label" style="" transform="translate(-81.2578125, -22.5)"><rect/><foreignObject width="162.515625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>수증기를 품은 공기 상승<br />단열 팽창으로 냉각</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-5-3-flowchart-C-3" data-look="classic" transform="translate(597.203125, 140.25)"><rect class="basic label-container" style="" x="-83.171875" y="-34.5" width="166.34375" height="69"/><g class="label" style="" transform="translate(-59.171875, -22.5)"><rect/><foreignObject width="118.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>수증기 응결<br />열 방출·구름 생성</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-5-3-flowchart-D-5" data-look="classic" transform="translate(826.4609375, 42.5)"><rect class="basic label-container" style="" x="-73.171875" y="-34.5" width="146.34375" height="69"/><g class="label" style="" transform="translate(-49.171875, -22.5)"><rect/><foreignObject width="98.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>공기가 데워져<br />더 강하게 상승</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-5-3-flowchart-E-9" data-look="classic" transform="translate(826.4609375, 150.25)"><rect class="basic label-container" style="" x="-96.0859375" y="-23.25" width="192.171875" height="46.5"/><g class="label" style="" transform="translate(-72.0859375, -11.25)"><rect/><foreignObject width="144.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>적란운·태풍으로 발달</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-4-5-3-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-4-5-3-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-4-5-3-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><p><strong>태풍</strong>의 주된 에너지원도 따뜻한 바다에서 증발한 수증기가 응결하며 방출하는 열이다. 그래서 태풍은 수증기를 계속 공급받는 따뜻한 바다 위에서는 강해지고, <strong>육지에 상륙하거나 차가운 바다로 이동하면</strong> 수증기 공급이 줄어 약해진다.</p>
+<h4 id="4-물의-순환과-열의-운반">(4) 물의 순환과 열의 운반</h4>
+<p>바다에서 증발할 때 흡수된 열은 수증기 속에 숨어 있다가, 수증기가 바람을 타고 이동해 다른 곳에서 응결할 때 방출된다. 즉, 물의 순환은 <strong>열을 바다에서 대기로, 저위도에서 고위도로 운반</strong>하는 역할을 한다. 또 큰 호수나 바다가 얼 때 방출하는 열, 얼음이 녹을 때 흡수하는 열은 주변 지역의 급격한 기온 변화를 누그러뜨린다.</p>
+<h4 id="예제-4">예제 4</h4>
+<p>한여름 오후, 지면이 뜨겁게 달아오른 뒤 높이 솟은 구름이 생기고 소나기가 내렸다. 이 과정에서 &#39;열을 흡수하는 변화&#39;와 &#39;열을 방출하는 변화&#39;를 각각 찾고, 방출된 열이 구름의 발달에 어떤 역할을 하는지 설명하시오.</p>
+<p><strong>풀이</strong></p>
+<ul>
+<li>열을 흡수하는 변화: 지면과 호수·식물의 물이 <strong>증발(기화)</strong> 할 때</li>
+<li>열을 방출하는 변화: 상승한 공기 속 수증기가 <strong>응결(액화)</strong> 하여 구름이 될 때</li>
+<li>역할: 응결할 때 방출된 열이 상승하는 공기를 데워 주위보다 가볍게 만들므로, 공기가 계속 상승하여 구름이 더 높이 발달한다.</li>
+</ul>
+<hr>
+<h2 id="step-4" class="step-h s4"><span class="step-badge s4">STEP 4</span><span class="h-text">오개념 바로잡기</span></h2>
+<div class="table-wrap"><table><thead><tr>
+<th>흔한 오개념</th>
+<th>올바른 개념</th>
+<th>왜 그럴까?</th>
+</tr>
+</thead><tbody><tr>
+<td>냉각 팩은 &#39;냉기&#39;를 내보내서 차갑게 한다</td>
+<td>냉각 팩은 주위(피부)에서 <strong>열을 흡수</strong>한다</td>
+<td>차가움은 에너지가 아니다. 열이 피부에서 냉각 팩으로 이동하여 피부의 온도가 내려간다</td>
+</tr>
+<tr>
+<td>처음에 불을 붙여 줘야 하는 연소는 흡열 반응이다</td>
+<td>연소는 <strong>발열 반응</strong>이다</td>
+<td>처음에만 열이 필요할 뿐, 일단 시작되면 스스로 열을 내며 계속된다</td>
+</tr>
+<tr>
+<td>흡열 반응은 저절로 일어날 수 없다</td>
+<td>질산 암모늄의 용해처럼 <strong>저절로 일어나는 흡열 변화도 있다</strong></td>
+<td>냉각 팩은 아무 장치 없이 섞기만 해도 차가워진다</td>
+</tr>
+<tr>
+<td>상태 변화 동안 온도가 변하지 않으니 열의 출입도 없다</td>
+<td>상태 변화 동안에도 <strong>열은 계속 출입</strong>한다</td>
+<td>출입한 열이 온도 변화가 아니라 입자 배열의 변화에 쓰인다</td>
+</tr>
+<tr>
+<td>물이 얼면 주위가 더 추워진다</td>
+<td>물이 얼 때는 <strong>열을 방출</strong>한다</td>
+<td>그래서 과수원에 물을 뿌려 냉해를 막고, 이글루 안에 물을 뿌리면 따뜻해진다</td>
+</tr>
+<tr>
+<td>구름이 생길 때는 공기가 차가워지므로 열을 흡수한다</td>
+<td>공기는 단열 팽창으로 차가워지지만, 수증기가 <strong>응결할 때는 열을 방출</strong>한다</td>
+<td>이 응결열이 구름과 태풍을 키우는 에너지원이다</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-5" class="step-h s5"><span class="step-badge s5">STEP 5</span><span class="h-text">선택과목·대학으로 한 걸음 더</span></h2>
+<aside class="callout caution"><p class="callout-title">심화 · 평가 범위 밖</p><p>이 절은 <strong>통합과학 교육과정 범위 밖의 심화 내용</strong>으로 평가 대상이 아니다. &quot;이 개념이 앞으로 어디까지 이어지는가&quot;를 맛보기로 보여 주기 위한 내용이다.</p>
+</aside>
+<h3 id="고2-3-선택과목과의-연결">고2·3 선택과목과의 연결</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>과목</th>
+<th>이어지는 내용</th>
+</tr>
+</thead><tbody><tr>
+<td>물질과 에너지</td>
+<td>물질의 상태와 용액, 화학 반응에서의 에너지 변화(엔탈피 등)</td>
+</tr>
+<tr>
+<td>역학과 에너지</td>
+<td>열과 에너지 — 열역학 법칙, 열기관과 냉동기</td>
+</tr>
+<tr>
+<td>지구과학</td>
+<td>대기와 해양의 상호작용 — 잠열과 대기의 안정도, 태풍</td>
+</tr>
+<tr>
+<td>생명과학, 세포와 물질대사</td>
+<td>세포호흡과 광합성의 에너지 전환</td>
+</tr>
+</tbody></table></div>
+<h3 id="①-엔탈피와-열화학-반응식">① 엔탈피와 열화학 반응식</h3>
+<p>일정한 압력에서 물질이 가진 에너지를 <strong>엔탈피(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.08125em;">H</span></span></span></span>)</strong> 라는 양으로 다루고, 반응 전후의 차이를 <strong>반응 엔탈피 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal" style="margin-right:0.08125em;">H</span></span></span></span></strong> 라고 한다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal" style="margin-right:0.08125em;">H</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.08125em;">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.0813em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord hangul_fallback mtight">생성물</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.08125em;">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.0813em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord hangul_fallback mtight">반응물</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></p>
+<p>발열 반응은 생성물의 엔탈피가 더 작으므로 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7224em;vertical-align:-0.0391em;"></span><span class="mord">Δ</span><span class="mord mathnormal" style="margin-right:0.08125em;">H</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0</span></span></span></span>, 흡열 반응은 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7224em;vertical-align:-0.0391em;"></span><span class="mord">Δ</span><span class="mord mathnormal" style="margin-right:0.08125em;">H</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0</span></span></span></span>이다. 반응식에 물질의 상태와 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal" style="margin-right:0.08125em;">H</span></span></span></span>를 함께 적은 것을 <strong>열화학 반응식</strong>이라고 한다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">4</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord mathrm" style="margin-right:0.01389em;">g</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">2</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord mathrm" style="margin-right:0.01389em;">g</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord mathrm" style="margin-right:0.01389em;">g</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">2</span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathrm">O</span><span class="mopen">(</span><span class="mord mathrm">l</span><span class="mclose">)</span></span><span class="mspace" style="margin-right:2em;"></span><span class="mord">Δ</span><span class="mord mathnormal" style="margin-right:0.08125em;">H</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7778em;vertical-align:-0.0833em;"></span><span class="mord">−</span><span class="mord">890</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">kJ</span></span></span></span></span></span></p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathrm">CaO</span><span class="mopen">(</span><span class="mord mathrm">s</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathrm">O</span><span class="mopen">(</span><span class="mord mathrm">l</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">Ca</span><span class="mopen">(</span><span class="mord mathrm">OH</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord mathrm">s</span><span class="mclose">)</span></span><span class="mspace" style="margin-right:2em;"></span><span class="mord">Δ</span><span class="mord mathnormal" style="margin-right:0.08125em;">H</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7778em;vertical-align:-0.0833em;"></span><span class="mord">−</span><span class="mord">65</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">kJ</span></span></span></span></span></span></p>
+<p>메테인 1 mol(약 16 g)이 완전히 연소하면 약 890 kJ의 열이 나온다는 뜻이다. 반응 엔탈피는 경로와 관계없이 처음과 나중 상태로만 정해지는데, 이를 <strong>헤스 법칙</strong>이라 하며 직접 측정하기 어려운 반응의 열을 계산하는 데 쓴다.</p>
+<h3 id="②-결합-에너지-열은-어디에서-나올까">② 결합 에너지 — 열은 어디에서 나올까?</h3>
+<p>화학 반응은 반응물의 결합이 끊어지고 생성물의 결합이 새로 만들어지는 과정이다. <strong>결합을 끊을 때는 에너지를 흡수하고, 결합을 만들 때는 에너지를 방출</strong>한다. 새로 만든 결합에서 나오는 에너지가 끊는 데 든 에너지보다 크면 전체적으로 발열 반응이 된다.</p>
+<h3 id="③-흡열-반응이-저절로-일어나는-이유-엔트로피">③ 흡열 반응이 저절로 일어나는 이유 — 엔트로피</h3>
+<p>질산 암모늄의 용해는 열을 흡수하는데도 저절로 일어난다. 대학 「물리화학」에서는 이를 <strong>엔트로피(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span></span></span></span>, 무질서도)</strong> 와 <strong>깁스 자유 에너지(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">G</span></span></span></span>)</strong> 로 설명한다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal">G</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord">Δ</span><span class="mord mathnormal" style="margin-right:0.08125em;">H</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="mord">Δ</span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span></span></span></span></span></p>
+<p><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7224em;vertical-align:-0.0391em;"></span><span class="mord">Δ</span><span class="mord mathnormal">G</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0</span></span></span></span>이면 반응이 저절로 일어난다. 고체 결정이 녹아 이온들이 물속에 흩어지면 엔트로피가 크게 늘어나(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7224em;vertical-align:-0.0391em;"></span><span class="mord">Δ</span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0</span></span></span></span>), <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7224em;vertical-align:-0.0391em;"></span><span class="mord">Δ</span><span class="mord mathnormal" style="margin-right:0.08125em;">H</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0</span></span></span></span>이어도 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7224em;vertical-align:-0.0391em;"></span><span class="mord">Δ</span><span class="mord mathnormal">G</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0</span></span></span></span>이 될 수 있다.</p>
+<h3 id="④-잠열의-계산">④ 잠열의 계산</h3>
+<p>상태 변화에 출입하는 열(잠열)은 질량에 비례한다. 물의 경우 대략 다음과 같다.</p>
+<ul>
+<li>융해열: 약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">334</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">J/g</span></span></span></span></span> (0 °C)</li>
+<li>기화열: 약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">2260</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">J/g</span></span></span></span></span> (100 °C)</li>
+</ul>
+<p>물 1 g이 100 °C 수증기에서 액화하면 약 2260 J을 내놓는다. 같은 1 g의 100 °C 물이 체온(37 °C)까지 식으며 내놓는 열은 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">4.2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">63</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">265</span><span class="mspace"> </span><span class="mord mathrm">J</span></span></span></span>이다. 수증기 화상이 훨씬 위험한 이유를 숫자로 확인할 수 있다.</p>
+<h3 id="고등학교-vs-대학교">고등학교 vs 대학교</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>고등학교 통합과학</th>
+<th>대학교 일반화학·물리화학·대기과학</th>
+</tr>
+</thead><tbody><tr>
+<td>열 출입</td>
+<td>방출·흡수, 주위의 온도 변화로 판단</td>
+<td>엔탈피 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal" style="margin-right:0.08125em;">H</span></span></span></span>, 열화학 반응식, 헤스 법칙</td>
+</tr>
+<tr>
+<td>원인</td>
+<td>물질이 가진 화학 에너지의 변화(정성적)</td>
+<td>결합 에너지, 엔트로피, 깁스 자유 에너지</td>
+</tr>
+<tr>
+<td>상태 변화</td>
+<td>흡수·방출 방향, 온도 일정</td>
+<td>잠열 계산, 상평형 그림</td>
+</tr>
+<tr>
+<td>생활 이용</td>
+<td>손난로·냉각 팩·냉매 원리</td>
+<td>열량계로 측정, 냉동 사이클 효율(성능 계수) 계산</td>
+</tr>
+<tr>
+<td>지구·생명</td>
+<td>구름·태풍의 응결열, 광합성·호흡</td>
+<td>대기 열역학, 생체 에너지학</td>
+</tr>
+<tr>
+<td>관련 전공</td>
+<td>—</td>
+<td>화학, 화학공학, 기계공학(열·유체), 대기과학, 생명과학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-6" class="step-h s6"><span class="step-badge s6">STEP 6</span><span class="h-text">산업 현장과 진로 연결</span></h2>
+<h3 id="사례-1-발열-냉각-제품-반응-속도를-설계하는-일">사례 1. 발열·냉각 제품 — 반응 속도를 설계하는 일</h3>
+<ul>
+<li><strong>원리</strong> 손난로는 철의 산화, 발열 도시락은 산화 칼슘과 물의 반응, 냉각 팩은 질산 암모늄의 용해를 이용한다.</li>
+<li><strong>핵심 기술</strong> 같은 반응이라도 <strong>얼마나 빨리, 얼마나 오래</strong> 열이 나오는지가 제품의 품질을 결정한다. 철 가루의 입자 크기, 소금과 활성탄의 비율, 포장지의 공기 구멍 크기를 조절하여 온도와 지속 시간을 맞춘다.</li>
+<li><strong>안전</strong> 손난로를 피부에 오래 직접 대고 있으면 높지 않은 온도에서도 <strong>저온 화상</strong>을 입을 수 있다. 그래서 제품에는 &#39;피부에 직접 붙이지 말 것&#39;, &#39;잘 때 사용하지 말 것&#39; 같은 주의 문구가 들어간다.</li>
+</ul>
+<h3 id="사례-2-냉매와-히트-펌프-열을-옮기는-산업">사례 2. 냉매와 히트 펌프 — 열을 옮기는 산업</h3>
+<ul>
+<li><strong>원리</strong> 냉매가 낮은 압력에서 기화하며 열을 흡수하고, 높은 압력에서 액화하며 열을 방출하는 순환을 이용한다(4-5-④의 냉매 순환).</li>
+<li><strong>히트 펌프</strong> 같은 순환을 거꾸로 돌리면 바깥의 열을 실내로 옮겨 <strong>난방</strong>을 할 수 있다. 연료를 태워 열을 만드는 것이 아니라 열을 &#39;옮기는&#39; 것이어서, 쓰는 전기 에너지보다 더 많은 열을 실내로 옮길 수 있다.</li>
+<li><strong>냉매의 역사와 환경</strong> 과거에 널리 쓰인 염화 플루오린화 탄소(CFC, 프레온 가스)는 오존층을 파괴하는 것으로 밝혀져 <strong>몬트리올 의정서(1987년)</strong> 로 사용이 규제되었다. 대체 물질로 쓰인 수소 플루오린화 탄소(HFC)는 오존층은 파괴하지 않지만 강한 온실가스여서 <strong>키갈리 개정서(2016년)</strong> 로 단계적 감축이 합의되었다. 지금은 지구온난화에 영향이 적은 새로운 냉매와 이산화 탄소, 암모니아, 프로페인 같은 자연 냉매를 쓰는 기술이 개발되고 있다.</li>
+</ul>
+<h3 id="사례-3-석회와-시멘트-산업-흡열과-발열의-연결-고리">사례 3. 석회와 시멘트 산업 — 흡열과 발열의 연결 고리</h3>
+<ul>
+<li><strong>원리</strong> 석회석(탄산 칼슘)을 가마에서 약 900 °C 안팎의 고온으로 가열하면 <strong>열을 흡수하여</strong> 산화 칼슘(생석회)과 이산화 탄소로 분해된다. 이렇게 만든 생석회는 물과 만나면 다시 <strong>열을 방출</strong>한다.</li>
+<li><strong>어디에 쓰이나</strong> 시멘트 원료, 제철(4-3), 산성 토양 개량과 배연 탈황(4-4), 발열 팩(이 단원).</li>
+<li><strong>핵심 과제</strong> 가마를 가열하는 연료의 연소와 석회석의 분해 반응 양쪽에서 이산화 탄소가 나온다. 그래서 대체 원료와 연료, 이산화 탄소 포집 기술이 연구되고 있다.</li>
+</ul>
+<h3 id="사례-4-축열-기술-상태-변화로-에너지를-저장한다">사례 4. 축열 기술 — 상태 변화로 에너지를 저장한다</h3>
+<ul>
+<li><strong>빙축열 냉방</strong> 전기 수요가 적은 밤에 냉동기로 얼음을 얼려 두고, 낮에 얼음이 <strong>녹으면서 흡수하는 열</strong>로 건물을 냉방한다. 낮의 전력 사용을 줄여 전력 수요를 고르게 하는 데 도움이 된다.</li>
+<li><strong>상변화 물질(PCM)</strong> 특정 온도에서 녹고 어는 물질을 건물 벽재, 보냉 택배 포장, 기능성 의류 등에 넣어 온도가 오르면 녹으면서 열을 흡수하고, 내려가면 굳으면서 열을 방출하게 한다. 백신·신선 식품을 일정한 온도로 운반하는 <strong>콜드 체인</strong>에서도 중요하다.</li>
+</ul>
+<h3 id="관련-진로와-학과">관련 진로와 학과</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>진로</th>
+<th>하는 일</th>
+<th>관련 학과</th>
+</tr>
+</thead><tbody><tr>
+<td>화학공학자</td>
+<td>발열·냉각 제품, 석회·시멘트 공정 설계</td>
+<td>화학공학, 화학</td>
+</tr>
+<tr>
+<td>냉동공조 엔지니어</td>
+<td>에어컨·냉장고·히트 펌프 설계, 친환경 냉매 적용</td>
+<td>기계공학, 에너지공학</td>
+</tr>
+<tr>
+<td>소재 연구원</td>
+<td>상변화 물질, 단열재, 축열 소재 개발</td>
+<td>재료공학, 신소재공학, 화학</td>
+</tr>
+<tr>
+<td>기상 연구원·예보관</td>
+<td>구름·태풍 발달 분석, 수치 예보</td>
+<td>대기과학, 지구환경과학</td>
+</tr>
+<tr>
+<td>식품 포장·물류 전문가</td>
+<td>발열 도시락, 보냉 포장, 콜드 체인 관리</td>
+<td>식품공학, 포장학, 산업공학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="탐구-활동-가열장치-없이-물과-산화-칼슘을-이용한-음식-조리-방법-설계하고-실험하기">탐구 활동 — 가열장치 없이 물과 산화 칼슘을 이용한 음식 조리 방법 설계하고 실험하기</h2>
+<p><strong>목표</strong> 산화 칼슘과 물이 반응할 때 방출되는 열을 이용하여, 불이나 전기 없이 음식을 데우는 장치를 설계하고 성능을 측정·개선한다.</p>
+<p><strong>준비물</strong> 산화 칼슘(생석회, 교사가 나누어 줌), 물, 스테인리스 바깥 용기(또는 큰 내열 용기), 음식을 담을 작은 스테인리스 컵(또는 내열 지퍼 백), 데울 음식(소시지, 레토르트 식품 등 이미 익혀 판매하는 식품) 또는 물 100 mL, 온도계 또는 온도 센서, 전자저울, 눈금실린더, 수건(단열용), 타이머, 보안경, 실험용 장갑(내열), 집게</p>
+<h3 id="1단계-설계하기-모둠-토의">1단계: 설계하기 (모둠 토의)</h3>
+<ol>
+<li><strong>탐구 질문 정하기</strong> — 예: &quot;산화 칼슘의 양을 늘리면 음식의 최고 온도가 얼마나 높아질까?&quot;, &quot;단열을 하면 높은 온도가 더 오래 유지될까?&quot;, &quot;물을 얼마나 넣어야 가장 효과적일까?&quot;</li>
+<li><strong>변인 정하기</strong></li>
+</ol>
+<div class="table-wrap"><table><thead><tr>
+<th>변인</th>
+<th>우리 모둠의 설정</th>
+</tr>
+</thead><tbody><tr>
+<td>조작 변인(바꾸는 것)</td>
+<td>예: 산화 칼슘의 질량 25 g, 50 g</td>
+</tr>
+<tr>
+<td>통제 변인(같게 하는 것)</td>
+<td>예: 물의 양, 음식의 양, 용기, 처음 온도</td>
+</tr>
+<tr>
+<td>종속 변인(측정하는 것)</td>
+<td>예: 음식(또는 컵 속 물)의 최고 온도, 60 °C 이상 유지된 시간</td>
+</tr>
+</tbody></table></div>
+<ol start="3">
+<li><strong>장치 그림 그리기</strong> — 바깥 용기 바닥에 산화 칼슘을 넣고, 그 위에 음식이 든 작은 컵을 올린 뒤, 산화 칼슘에 물을 붓는 구조를 기본으로 한다. <strong>음식이 산화 칼슘이나 반응한 혼합물에 직접 닿지 않도록</strong> 설계한다.</li>
+</ol>
+<h3 id="2단계-실험하기">2단계: 실험하기</h3>
+<ol>
+<li>바깥 용기에 산화 칼슘을 넣고, 음식(또는 물 100 mL)이 든 작은 컵을 그 위에 올린다. 작은 컵에 온도계를 꽂는다.</li>
+<li>산화 칼슘 위로 정해진 양의 물을 천천히 붓고 즉시 타이머를 누른다. <strong>뚜껑은 살짝 얹기만 하고 완전히 밀폐하지 않는다.</strong></li>
+<li>1분마다 온도를 20분 동안 기록한다.</li>
+<li>조작 변인을 바꾸어 같은 실험을 반복한다.</li>
+</ol>
+<p><strong>결과 기록</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>시간(분)</th>
+<th>0</th>
+<th>2</th>
+<th>4</th>
+<th>6</th>
+<th>8</th>
+<th>10</th>
+<th>15</th>
+<th>20</th>
+</tr>
+</thead><tbody><tr>
+<td>조건 1 온도(°C)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>조건 2 온도(°C)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<div class="table-wrap"><table><thead><tr>
+<th>조건</th>
+<th>최고 온도(°C)</th>
+<th>최고 온도까지 걸린 시간(분)</th>
+<th>60 °C 이상 유지 시간(분)</th>
+<th>음식의 상태</th>
+</tr>
+</thead><tbody><tr>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<h3 id="3단계-개선하고-토의하기">3단계: 개선하고 토의하기</h3>
+<p><strong>생각해 보기</strong></p>
+<ol>
+<li>산화 칼슘과 물의 반응을 반응식으로 쓰고, 이 반응이 열을 방출하는 반응임을 실험 결과로 설명해 보자.</li>
+<li>물을 너무 많이 넣으면 오히려 온도가 덜 올라갈 수 있다. 그 이유를 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">Q</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">c</span><span class="mord mathnormal">m</span><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span></span>와 관련지어 설명해 보자. (같은 열을 더 많은 물이 나누어 받는다.)</li>
+<li>실험 결과를 바탕으로 장치를 한 가지 개선하고, 개선 전후를 비교해 보자. (예: 수건으로 단열하기, 음식과 닿는 면적 넓히기)</li>
+<li>시판되는 발열 도시락과 우리가 만든 장치를 비교하여, 안전과 편리함을 위해 어떤 점이 더 고려되어 있는지 토의해 보자.</li>
+<li>산화 칼슘은 석회석을 고온으로 가열(흡열)하여 만든다. 발열 도시락이 내는 열의 &#39;근원&#39;을 거슬러 올라가 보고, 이 제품의 환경적 장단점을 토의해 보자.</li>
+</ol>
+<aside class="callout warning"><p class="callout-title">주의</p><p><strong>안전 수칙 (반드시 지킬 것)</strong></p>
+<ul>
+<li>산화 칼슘은 <strong>피부와 눈에 강한 자극</strong>을 주고, 물과 반응하면 <strong>물이 끓을 만큼 뜨거워진다.</strong> 보안경과 내열 장갑을 반드시 착용하고, 산화 칼슘을 맨손으로 만지지 않는다.</li>
+<li>산화 칼슘이 눈에 들어가면 <strong>즉시 흐르는 물로 15분 이상 씻고</strong> 곧바로 교사에게 알려 의료 조치를 받는다. 피부에 묻으면 털어 내고 많은 물로 씻는다.</li>
+<li>산화 칼슘을 덜 때는 가루가 날리지 않게 조심하고 <strong>가루를 들이마시지 않는다.</strong> 젖은 손이나 젖은 장갑으로 만지면 그 자리에서 열이 나므로 손과 장갑을 마른 상태로 유지한다. 산화 칼슘과 물은 교사가 정해 준 양만 쓰고, 물은 한꺼번에 붓지 않는다.</li>
+<li>물을 부을 때 얼굴을 용기 위로 가까이 대지 않는다. 뜨거운 수증기와 튀는 물질에 데일 수 있다.</li>
+<li>용기를 <strong>완전히 밀폐하지 않는다.</strong> 수증기 때문에 압력이 높아져 위험하다.</li>
+<li>반응 중인 용기는 매우 뜨거우므로 집게나 내열 장갑으로만 다룬다. 실험 장소는 환기가 잘 되게 한다.</li>
+<li><strong>알루미늄 용기나 알루미늄 포일</strong>을 반응 혼합물에 닿게 하지 않는다. 반응 후 생기는 수산화 칼슘(강한 염기성)이 알루미늄과 반응할 수 있다.</li>
+<li>음식은 산화 칼슘에 직접 닿지 않게 하며, 먹는 것은 교사가 위생과 안전을 확인한 경우에만 한다.</li>
+<li>사용한 산화 칼슘과 반응 혼합물은 강한 염기성이므로 하수구에 버리지 말고 교사의 지시에 따라 처리한다. 남은 산화 칼슘은 습기를 흡수하므로 밀봉하여 보관한다.</li>
+</ul>
+</aside>
+<hr>
+<h2 id="개념-확인-문제">개념 확인 문제</h2>
+<h3 id="기본">기본</h3>
+<p><strong>1.</strong> 다음 변화를 에너지를 방출하는 것과 흡수하는 것으로 분류하시오.
+ㄱ. 메테인의 연소 ㄴ. 광합성 ㄷ. 질산 암모늄의 용해 ㄹ. 묽은 염산과 수산화 나트륨 수용액의 중화 반응 ㅁ. 산화 칼슘과 물의 반응 ㅂ. 탄산수소 나트륨의 열분해</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 방출: ㄱ, ㄹ, ㅁ / 흡수: ㄴ, ㄷ, ㅂ</p>
+<p>광합성은 빛에너지를 흡수하고, 질산 암모늄의 용해는 주위의 열을 흡수하여 용액이 차가워지며, 탄산수소 나트륨은 계속 가열해야 분해된다.</p>
+</div></details>
+
+<p><strong>2.</strong> 다음 상태 변화 중 열을 <strong>흡수</strong>하는 것을 모두 고르시오.
+ㄱ. 융해 ㄴ. 응고 ㄷ. 기화 ㄹ. 액화 ㅁ. 고체 → 기체 승화</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답 ㄱ, ㄷ, ㅁ</strong></p>
+<p>입자 사이의 거리가 멀어지는 변화(고체 → 액체, 액체 → 기체, 고체 → 기체)는 입자 사이의 인력을 이겨 내야 하므로 열을 흡수한다. 응고와 액화는 열을 방출한다.</p>
+</div></details>
+
+<p><strong>3.</strong> 냉각 팩을 눌러 속의 물주머니를 터뜨리면 팩이 차가워진다. 이 현상을 &#39;계&#39;와 &#39;주위&#39;, &#39;열의 이동 방향&#39;이라는 말을 사용하여 설명하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 질산 암모늄이 물에 녹는 과정(계)이 주위(팩 속의 물, 팩 겉면, 피부)로부터 <strong>열을 흡수</strong>한다. 열이 주위에서 계로 이동하므로 주위의 온도가 내려가 차갑게 느껴진다.</p>
+</div></details>
+
+<p><strong>4.</strong> 빈칸에 알맞은 말을 쓰시오.
+&quot;일회용 손난로는 철 가루가 공기 중의 ( ㄱ )와/과 반응하여 산화될 때 열을 ( ㄴ )하는 원리를 이용한다. 발열 도시락은 ( ㄷ )이/가 물과 반응할 때 방출하는 열을 이용한다.&quot;</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> ㄱ: 산소, ㄴ: 방출, ㄷ: 산화 칼슘(생석회)</p>
+</div></details>
+
+<h3 id="응용">응용</h3>
+<p><strong>5.</strong> 발열 팩 하나로 물 300 g을 20 °C에서 80 °C까지 데웠다. 발열 팩이 방출한 열이 모두 물에 전달되었다고 가정할 때, 물이 얻은 열량을 구하시오. (물의 비열은 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">4.2</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">J/</span><span class="mopen">(</span><span class="mord mathrm" style="margin-right:0.01389em;">g</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin"><span class="mbin">⋅</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6741em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∘</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">C</span><span class="mclose">)</span></span></span></span></span>)</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">75</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">600</span><span class="mspace"> </span><span class="mord mathrm">J</span></span></span></span> (약 75.6 kJ)</p>
+<p><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">Q</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">c</span><span class="mord mathnormal">m</span><span class="mord">Δ</span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">4.2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">300</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">80</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">20</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">4.2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">300</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">60</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">75</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">600</span><span class="mspace"> </span><span class="mord mathrm">J</span></span></span></span></p>
+<p>실제로는 용기와 공기로 빠져나가는 열이 있으므로, 발열 팩이 방출한 열은 이보다 많다.</p>
+</div></details>
+
+<p><strong>6.</strong> −20 °C의 얼음을 1기압에서 일정하게 가열하여 120 °C의 수증기가 될 때까지 온도를 측정하였다. (1) 온도가 일정하게 유지되는 구간 두 곳의 온도와 그때 일어나는 상태 변화를 쓰고, (2) 이 구간에서 가해 준 열이 무엇에 쓰이는지 설명하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong>
+(1) 0 °C: 융해(얼음 → 물), 100 °C: 기화(끓음, 물 → 수증기)
+(2) 가해 준 열은 입자의 운동을 활발하게 하여 온도를 올리는 데 쓰이지 않고, 입자 사이의 인력을 이겨 <strong>입자의 배열을 바꾸는 데(상태 변화)</strong> 쓰인다. 그래서 상태 변화가 끝날 때까지 온도가 일정하다.</p>
+</div></details>
+
+<p><strong>7.</strong> 세 모둠이 산화 칼슘으로 음식을 데우는 장치를 만들어 컵 속 물 100 g의 최고 온도를 측정했다. 다음은 가상의 결과이다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>모둠</th>
+<th>산화 칼슘</th>
+<th>넣은 물</th>
+<th>단열</th>
+<th>컵 속 물의 최고 온도</th>
+</tr>
+</thead><tbody><tr>
+<td>A</td>
+<td>50 g</td>
+<td>25 mL</td>
+<td>없음</td>
+<td>52 °C</td>
+</tr>
+<tr>
+<td>B</td>
+<td>50 g</td>
+<td>25 mL</td>
+<td>수건으로 감쌈</td>
+<td>64 °C</td>
+</tr>
+<tr>
+<td>C</td>
+<td>100 g</td>
+<td>50 mL</td>
+<td>수건으로 감쌈</td>
+<td>85 °C</td>
+</tr>
+</tbody></table></div>
+<p>(1) A와 B를 비교하여 알 수 있는 것은? (2) B와 C를 비교하여 알 수 있는 것은? (3) 이 실험에서 A와 C를 직접 비교하여 결론을 내리기 어려운 이유는?</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong>
+(1) 산화 칼슘과 물의 양이 같을 때 단열을 하면 바깥으로 빠져나가는 열이 줄어 컵 속 물에 더 많은 열이 전달된다.
+(2) 단열 조건이 같을 때 산화 칼슘(과 물)의 양을 늘리면 반응으로 방출되는 열이 많아져 최고 온도가 높아진다.
+(3) A와 C는 <strong>산화 칼슘의 양과 단열 여부 두 가지 조건이 동시에</strong> 다르다. 어느 조건 때문에 온도 차이가 생겼는지 구별할 수 없다(변인 통제가 되지 않음).</p>
+</div></details>
+
+<h3 id="융합-서술형">융합·서술형</h3>
+<p><strong>8. [산업 연계]</strong> 여름철 에어컨을 켜면 실내는 시원해지지만, 실외기에서는 뜨거운 바람이 나온다. (1) 실내기와 실외기에서 냉매에 일어나는 상태 변화와 열 출입을 각각 쓰고, (2) &quot;에어컨은 차가움을 만드는 기계가 아니라 열을 옮기는 기계&quot;라는 말의 의미를 설명하시오. (3) 냉매를 바꾸어 온 역사를 환경 문제와 관련지어 간단히 서술하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+(1) 실내기: 액체 냉매가 <strong>기화</strong>하며 실내 공기에서 열을 <strong>흡수</strong>한다. 실외기: 압축된 기체 냉매가 <strong>액화</strong>하며 바깥 공기로 열을 <strong>방출</strong>한다.
+(2) 에어컨은 냉매의 상태 변화를 이용해 실내의 열을 흡수하여 실외로 내보낸다. 실내의 온도가 내려가는 것은 &#39;차가운 무언가&#39;가 생겨서가 아니라 열이 실외로 옮겨졌기 때문이다. 그래서 실외기 주변은 오히려 더워진다.
+(3) 과거의 CFC(프레온) 냉매는 오존층을 파괴하여 몬트리올 의정서로 규제되었고, 대체 냉매인 HFC는 강한 온실가스라서 키갈리 개정서로 감축이 합의되었다. 현재는 지구온난화 영향이 적은 냉매와 자연 냉매가 개발·사용되고 있다.</p>
+<p><strong>채점 포인트</strong> ① 기화–흡수, 액화–방출의 정확한 연결 ② 열의 이동으로 설명 ③ 오존층 파괴·온실효과 두 가지 환경 문제 언급</p>
+</div></details>
+
+<p><strong>9. [지구·생활 연계]</strong> (1) 태풍은 따뜻한 바다 위에서는 강해지지만 육지에 상륙하면 빠르게 약해진다. 태풍의 에너지원과 관련지어 그 이유를 설명하시오. (2) 늦봄에 갑자기 서리가 내릴 것으로 예보되면, 과수원에서는 밤새 나무에 물을 뿌리기도 한다. 이 방법이 꽃눈을 보호하는 원리를 설명하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+(1) 태풍의 주된 에너지원은 따뜻한 바다에서 증발한 수증기가 상승하여 <strong>응결할 때 방출하는 열</strong>이다. 육지에 상륙하면 바다로부터의 수증기 공급이 크게 줄어 응결열도 줄어들므로 태풍이 약해진다. (육지 표면과의 마찰도 태풍을 약하게 한다.)
+(2) 나무에 뿌린 물이 얼 때(응고) <strong>열을 방출</strong>한다. 물이 얼고 있는 동안에는 온도가 0 °C 부근에서 유지되므로, 꽃눈의 온도가 그보다 훨씬 낮게 떨어져 얼어 죽는 것을 늦출 수 있다.</p>
+</div></details>
+
+<hr>
+<h2 id="한눈에-정리">한눈에 정리</h2>
+<h3 id="핵심-요약">핵심 요약</h3>
+<ul>
+<li>물질이 변할 때 에너지를 <strong>방출</strong>하면 주위의 온도가 올라가고, 에너지를 <strong>흡수</strong>하면 주위의 온도가 내려간다.</li>
+<li>에너지를 방출하는 반응(<strong>발열 반응</strong>): 연소, 호흡, 중화 반응, 철의 산화, 산화 칼슘과 물의 반응 / 흡수하는 반응(<strong>흡열 반응</strong>): 광합성, 열분해, 수산화 바륨과 염화 암모늄의 반응. 용해에서도 열이 출입한다(질산 암모늄은 흡수, 염화 칼슘은 방출).</li>
+<li><strong>융해·기화·승화(고체 → 기체)</strong> 는 열을 흡수하고, <strong>응고·액화·승화(기체 → 고체)</strong> 는 열을 방출한다. 상태 변화 동안 온도는 일정하다.</li>
+<li>손난로·발열 도시락·제설제는 방출되는 열을, 냉각 팩·냉매·증발 냉각은 흡수되는 열을 이용한다.</li>
+<li>광합성은 빛에너지를 흡수하고 호흡은 에너지를 방출하며, 땀의 증발은 체온을 조절한다.</li>
+<li>수증기가 응결할 때 방출하는 열은 구름과 <strong>태풍</strong>을 키우는 에너지원이며, 물의 순환은 열을 운반한다.</li>
+</ul>
+<h3 id="핵심-용어">핵심 용어</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>용어</th>
+<th>뜻</th>
+</tr>
+</thead><tbody><tr>
+<td>발열 반응</td>
+<td>에너지를 방출하여 주위의 온도를 높이는 반응</td>
+</tr>
+<tr>
+<td>흡열 반응</td>
+<td>에너지를 흡수하여 주위의 온도를 낮추는 반응</td>
+</tr>
+<tr>
+<td>계와 주위</td>
+<td>관심을 두는 물질(계)과 그 밖의 나머지(주위)</td>
+</tr>
+<tr>
+<td>열량</td>
+<td>이동한 열의 양. <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">Q</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">c</span><span class="mord mathnormal">m</span><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span></span>로 구한다</td>
+</tr>
+<tr>
+<td>상태 변화의 열 출입</td>
+<td>융해·기화·승화(고→기)는 흡수, 응고·액화·승화(기→고)는 방출</td>
+</tr>
+<tr>
+<td>냉매</td>
+<td>기화와 액화를 되풀이하며 열을 옮기는 물질</td>
+</tr>
+<tr>
+<td>응결열</td>
+<td>수증기가 물방울로 응결할 때 방출하는 열</td>
+</tr>
+</tbody></table></div>
+<h3 id="다음-단원으로">다음 단원으로</h3>
+<p>이번 대단원에서는 산화·환원, 산과 염기, 에너지의 출입을 통해 물질이 끊임없이 변하고 그 과정에서 에너지가 흐른다는 것을 배웠다. 다음 단원부터는 <strong>환경과 에너지</strong>로 시야를 넓힌다. 먼저 광합성으로 저장된 에너지와 물질이 생물과 환경 사이를 어떻게 오가는지, <strong>생태계의 구성 요소와 그 상호 관계</strong>를 탐구해 보자.</p>
+<nav class="pager"><a class="prev" href="4-4.html"><small>이전 단원</small>4-4 산과 염기, 중화 반응</a><a class="next" href="5-1.html"><small>다음 단원</small>5-1 생태계 구성 요소와 상호 관계</a></nav></article></div>
+</main>
+</div>
+</body>
+</html>

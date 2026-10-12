@@ -1,0 +1,971 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>1-1 시간과 공간</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css">
+<link rel="stylesheet" href="assets/book.css">
+<script src="assets/js/book.js" defer></script>
+
+</head>
+<body class="">
+<header class="topbar">
+  <button class="menu-btn" id="menu-btn" aria-controls="drawer" aria-expanded="false">목차</button>
+  <a class="brand" href="index.html">통합과학 개념에서 산업까지</a>
+  <button class="theme-btn" id="theme-btn" aria-label="밝은 화면과 어두운 화면 바꾸기">화면</button>
+</header>
+<div class="shell">
+<aside class="drawer" id="drawer"><nav class="book-nav" aria-label="교재 목차"><a class="nav-home" href="index.html">처음으로</a><p class="nav-book">통합과학1</p><p class="nav-unit"><span>1단원</span> 과학의 기초</p><ul><li><a href="1-1.html" aria-current="page"><span class="nav-id">1-1</span>시간과 공간</a></li><li><a href="1-2.html"><span class="nav-id">1-2</span>기본량과 단위</a></li><li><a href="1-3.html"><span class="nav-id">1-3</span>측정과 어림, 측정 표준</a></li><li><a href="1-4.html"><span class="nav-id">1-4</span>정보와 신호: 아날로그에서 디지털로</a></li></ul><p class="nav-unit"><span>2단원</span> 물질과 규칙성</p><ul><li><a href="2-1.html"><span class="nav-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="2-2.html"><span class="nav-id">2-2</span>별의 진화와 원소의 생성</a></li><li><a href="2-3.html"><span class="nav-id">2-3</span>원소의 주기성과 화학 결합의 이유</a></li><li><a href="2-4.html"><span class="nav-id">2-4</span>이온 결합과 공유 결합</a></li><li><a href="2-5.html"><span class="nav-id">2-5</span>지각과 생명체 구성 물질의 규칙성</a></li><li><a href="2-6.html"><span class="nav-id">2-6</span>물질의 전기적 성질과 소재</a></li></ul><p class="nav-unit"><span>3단원</span> 시스템과 상호작용</p><ul><li><a href="3-1.html"><span class="nav-id">3-1</span>지구시스템의 구성과 상호작용</a></li><li><a href="3-2.html"><span class="nav-id">3-2</span>판구조론과 지권의 변화</a></li><li><a href="3-3.html"><span class="nav-id">3-3</span>중력과 운동</a></li><li><a href="3-4.html"><span class="nav-id">3-4</span>운동량과 충격량</a></li><li><a href="3-5.html"><span class="nav-id">3-5</span>생명 시스템과 물질대사</a></li><li><a href="3-6.html"><span class="nav-id">3-6</span>유전자와 단백질</a></li></ul><p class="nav-book">통합과학2</p><p class="nav-unit"><span>4단원</span> 변화와 다양성</p><ul><li><a href="4-1.html"><span class="nav-id">4-1</span>지질시대의 환경 변화와 생물다양성</a></li><li><a href="4-2.html"><span class="nav-id">4-2</span>진화와 생물다양성</a></li><li><a href="4-3.html"><span class="nav-id">4-3</span>산화와 환원</a></li><li><a href="4-4.html"><span class="nav-id">4-4</span>산과 염기, 중화 반응</a></li><li><a href="4-5.html"><span class="nav-id">4-5</span>물질 변화와 에너지 출입</a></li></ul><p class="nav-unit"><span>5단원</span> 환경과 에너지</p><ul><li><a href="5-1.html"><span class="nav-id">5-1</span>생태계 구성 요소와 상호 관계</a></li><li><a href="5-2.html"><span class="nav-id">5-2</span>생태계 평형</a></li><li><a href="5-3.html"><span class="nav-id">5-3</span>지구온난화와 기후변화</a></li><li><a href="5-4.html"><span class="nav-id">5-4</span>태양 에너지와 에너지 전환</a></li><li><a href="5-5.html"><span class="nav-id">5-5</span>발전기와 전기 에너지</a></li><li><a href="5-6.html"><span class="nav-id">5-6</span>에너지 효율과 신재생 에너지</a></li></ul><p class="nav-unit"><span>6단원</span> 과학과 미래 사회</p><ul><li><a href="6-1.html"><span class="nav-id">6-1</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html"><span class="nav-id">6-2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html"><span class="nav-id">6-3</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html"><span class="nav-id">6-4</span>과학기술과 윤리</a></li></ul><p class="nav-book">부록</p><ul><li><a href="guide.html">교재 설계 안내</a></li><li><a href="appendix-standards.html">부록 1. 교육과정 성취기준</a></li><li><a href="appendix-map.html">부록 2. 연계 지도</a></li><li><a href="appendix-glossary.html">부록 3. 핵심 용어 사전</a></li></ul></nav></aside>
+<main class="main" id="main">
+<div class="lesson-grid"><nav class="ladder" aria-label="이 단원의 흐름"><p class="ladder-title">이 단원의 흐름</p><ol><li class="extra"><a href="#단원-들어가기">단원 들어가기</a></li><li class="s1"><a href="#step-1"><b>STEP 1</b> 중학교 다시 보기</a></li><li class="s2"><a href="#step-2"><b>STEP 2</b> 기초 다지기</a></li><li class="s3"><a href="#step-3"><b>STEP 3</b> 핵심 개념</a></li><li class="s4"><a href="#step-4"><b>STEP 4</b> 오개념 바로잡기</a></li><li class="s5"><a href="#step-5"><b>STEP 5</b> 선택과목·대학으로 한 걸음 더</a></li><li class="s6"><a href="#step-6"><b>STEP 6</b> 산업 현장과 진로 연결</a></li><li class="extra"><a href="#탐구-활동-미시세계와-거시세계의-물체의-크기에-따른-차이점-분석하기">탐구 활동 — 미시세계와 거시세계의 물체의 크기에 따른 차이점 분석하기</a></li><li class="extra"><a href="#개념-확인-문제">개념 확인 문제</a></li><li class="extra"><a href="#한눈에-정리">한눈에 정리</a></li></ol></nav><article class="prose lesson"><header class="lesson-hero u1">
+  <p class="eyebrow">통합과학1 · 1단원 과학의 기초</p>
+  <h1><span class="lesson-id">1-1</span>시간과 공간</h1>
+  <p class="lesson-sub">원자에서 우주까지, 찰나에서 영겁까지</p>
+</header><aside class="callout note"><p class="callout-title">성취기준·참고</p><p><strong>성취기준 [10통과1-01-01]</strong> 자연을 시간과 공간에서 기술할 수 있음을 알고, 길이와 시간 측정의 현대적 방법과 다양한 규모의 측정 사례를 조사할 수 있다.</p>
+</aside>
+<p><strong>학습 목표</strong></p>
+<ol>
+<li>모든 자연 현상은 &#39;언제(시간)&#39;와 &#39;어디서(공간)&#39;를 정하면 기술할 수 있음을 사례로 설명할 수 있다.</li>
+<li>10의 거듭제곱을 이용하여 원자에서 우주까지, 찰나에서 우주의 나이까지 다양한 규모를 비교할 수 있다.</li>
+<li>원자시계, 빛의 속력을 이용한 길이 측정, 레이저 거리 측정, GPS 등 시간과 길이를 재는 현대적 방법을 조사하여 설명할 수 있다.</li>
+<li>측정 기술이 인간의 경험 범위를 어떻게 넓혀 왔는지, 그리고 과학에도 한계가 있음을 사례로 말할 수 있다.</li>
+</ol>
+<p><strong>이 단원의 학습 사다리</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>단계</th>
+<th>무엇을 하나?</th>
+</tr>
+</thead><tbody><tr>
+<td>STEP 1. 중학교 다시 보기</td>
+<td>세포·원자의 크기, 별까지의 거리, 우리은하의 크기를 다시 꺼내 본다</td>
+</tr>
+<tr>
+<td>STEP 2. 기초 다지기</td>
+<td>과학적 표기법(10의 거듭제곱)과 &#39;거리 = 속력 × 시간&#39;을 디딤돌로 놓는다</td>
+</tr>
+<tr>
+<td>STEP 3. 핵심 개념</td>
+<td>시공간으로 기술하기 → 규모 비교 → 시간 재기 → 길이 재기 → 경험의 확장과 한계</td>
+</tr>
+<tr>
+<td>STEP 4. 오개념 바로잡기</td>
+<td>&quot;1미터는 쇠막대 길이로 정한다?&quot; 같은 착각을 바로잡는다</td>
+</tr>
+<tr>
+<td>STEP 5. 선택과목·대학</td>
+<td>상대성 이론과 GPS, 시공간의 휘어짐, 플랑크 규모</td>
+</tr>
+<tr>
+<td>STEP 6. 산업·진로</td>
+<td>위성 항법, 라이다(LiDAR)와 자율주행, 국가 표준시, 반도체 미세 공정</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="단원-들어가기">단원 들어가기</h2>
+<p>여러분이 알고 있는 <strong>가장 짧은 시간</strong>은 무엇인가? 눈 깜빡하는 순간(약 0.1~0.4초)? 100 m 달리기에서 1위와 2위를 가르는 0.01초? 과학자들은 0.01초보다도 1경(京, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">16</span></span></span></span></span></span></span></span></span></span></span></span>) 배 짧은 <strong>아토초(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">18</span></span></span></span></span></span></span></span></span></span></span></span>초)</strong> 단위로 일어나는 전자의 움직임을 관찰하고, 이 연구로 2023년 노벨 물리학상을 받았다.</p>
+<p>반대로 <strong>가장 긴 시간</strong>은? 할머니의 할머니 시절, 공룡이 살던 시대, 지구가 태어난 46억 년 전, 그리고 우주가 시작된 약 138억 년 전. <strong>가장 작은 것</strong>과 <strong>가장 큰 것</strong>도 마찬가지다. 원자는 머리카락 굵기의 100만분의 1 정도이고, 우리은하는 빛의 속력으로도 가로지르는 데 약 10만 년이 걸린다.</p>
+<p>이렇게 엄청나게 다른 크기를 사람은 어떻게 &#39;재고&#39;, 어떻게 &#39;비교&#39;할까? 이 단원은 그 질문에서 출발한다. 과학의 무대는 <strong>시간과 공간</strong>이고, 과학의 첫걸음은 그 무대를 <strong>재는 것</strong>이다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-1-1-0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 1116.890625 298.25" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-1-1-0{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-1-1-0 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-1-1-0 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-1-1-0 .error-icon{fill:var(--mm-group);}#mm-1-1-0 .error-text{fill:#595959;stroke:#595959;}#mm-1-1-0 .edge-thickness-normal{stroke-width:1px;}#mm-1-1-0 .edge-thickness-thick{stroke-width:3.5px;}#mm-1-1-0 .edge-pattern-solid{stroke-dasharray:0;}#mm-1-1-0 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-1-1-0 .edge-pattern-dashed{stroke-dasharray:3;}#mm-1-1-0 .edge-pattern-dotted{stroke-dasharray:2;}#mm-1-1-0 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-1-1-0 .marker.cross{stroke:var(--mm-line);}#mm-1-1-0 svg{font-family:inherit;font-size:15px;}#mm-1-1-0 p{margin:0;}#mm-1-1-0 .label{font-family:inherit;color:var(--mm-text);}#mm-1-1-0 .cluster-label text{fill:#595959;}#mm-1-1-0 .cluster-label span{color:#595959;}#mm-1-1-0 .cluster-label span p{background-color:transparent;}#mm-1-1-0 .label text,#mm-1-1-0 span{fill:var(--mm-text);color:var(--mm-text);}#mm-1-1-0 .node rect,#mm-1-1-0 .node circle,#mm-1-1-0 .node ellipse,#mm-1-1-0 .node polygon,#mm-1-1-0 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-1-1-0 .rough-node .label text,#mm-1-1-0 .node .label text,#mm-1-1-0 .image-shape .label,#mm-1-1-0 .icon-shape .label{text-anchor:middle;}#mm-1-1-0 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-1-1-0 .rough-node .label,#mm-1-1-0 .node .label,#mm-1-1-0 .image-shape .label,#mm-1-1-0 .icon-shape .label{text-align:center;}#mm-1-1-0 .node.clickable{cursor:pointer;}#mm-1-1-0 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-1-1-0 .arrowheadPath{fill:#0b0b0b;}#mm-1-1-0 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-1-1-0 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-1-1-0 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-1-1-0 .edgeLabel p{background-color:var(--mm-label);}#mm-1-1-0 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-1-1-0 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-1-1-0 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-1-1-0 .cluster text{fill:#595959;}#mm-1-1-0 .cluster span{color:#595959;}#mm-1-1-0 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-1-1-0 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-1-1-0 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-1-1-0 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-1-1-0 rect.text{fill:none;stroke-width:0;}#mm-1-1-0 .icon-shape,#mm-1-1-0 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-1-1-0 .icon-shape p,#mm-1-1-0 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-1-1-0 .icon-shape .label rect,#mm-1-1-0 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-1-1-0 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-1-1-0 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-1-1-0 .node .neo-node{stroke:var(--mm-border);}#mm-1-1-0 [data-look="neo"].node rect,#mm-1-1-0 [data-look="neo"].cluster rect,#mm-1-1-0 [data-look="neo"].node polygon{stroke:url(#mm-1-1-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-1-1-0 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-1-1-0 [data-look="neo"].node path{stroke:url(#mm-1-1-0-gradient);stroke-width:1px;}#mm-1-1-0 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-1-1-0 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-1-1-0 [data-look="neo"].node circle{stroke:url(#mm-1-1-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-1-1-0 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-1-1-0 [data-look="neo"].icon-shape .icon{fill:url(#mm-1-1-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-1-1-0 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-1-1-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-1-1-0 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-1-1-0_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-1-0_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-1-0_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-1-0_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-1-0_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-1-0_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-1-0_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-1-0_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-1-0_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-1-0_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-1-0_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-1-1-0_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M139.344,136.75L143.51,136.75C147.677,136.75,156.01,136.75,163.677,136.75C171.344,136.75,178.344,136.75,181.844,136.75L185.344,136.75" id="mm-1-1-0-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTM5LjM0Mzc1LCJ5IjoxMzYuNzV9LHsieCI6MTY0LjM0Mzc1LCJ5IjoxMzYuNzV9LHsieCI6MTg5LjM0Mzc1LCJ5IjoxMzYuNzV9XQ==" data-look="classic" marker-end="url(#mm-1-1-0_flowchart-v2-pointEnd)"/><path d="M305.847,102.25L316.792,92.292C327.737,82.333,349.626,62.417,384.781,52.458C419.935,42.5,468.354,42.5,516.773,42.5C565.193,42.5,613.612,42.5,644.029,42.5C674.445,42.5,686.859,42.5,693.066,42.5L699.273,42.5" id="mm-1-1-0-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6MzA1Ljg0NzA4NjM3MjY3OTAzLCJ5IjoxMDIuMjV9LHsieCI6MzcxLjUxNTYyNSwieSI6NDIuNX0seyJ4Ijo1MTYuNzczNDM3NSwieSI6NDIuNX0seyJ4Ijo2NjIuMDMxMjUsInkiOjQyLjV9LHsieCI6NzAzLjI3MzQzNzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-1-1-0_flowchart-v2-pointEnd)"/><path d="M346.516,136.75L350.682,136.75C354.849,136.75,363.182,136.75,374.044,136.75C384.906,136.75,398.297,136.75,404.992,136.75L411.688,136.75" id="mm-1-1-0-L_B_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_D_0" data-points="W3sieCI6MzQ2LjUxNTYyNSwieSI6MTM2Ljc1fSx7IngiOjM3MS41MTU2MjUsInkiOjEzNi43NX0seyJ4Ijo0MTUuNjg3NSwieSI6MTM2Ljc1fV0=" data-look="classic" marker-end="url(#mm-1-1-0_flowchart-v2-pointEnd)"/><path d="M297.961,171.25L310.22,185.333C322.479,199.417,346.997,227.583,362.757,241.667C378.516,255.75,385.516,255.75,389.016,255.75L392.516,255.75" id="mm-1-1-0-L_B_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_E_0" data-points="W3sieCI6Mjk3Ljk2MDkwNDY3NDM2OTgsInkiOjE3MS4yNX0seyJ4IjozNzEuNTE1NjI1LCJ5IjoyNTUuNzV9LHsieCI6Mzk2LjUxNTYyNSwieSI6MjU1Ljc1fV0=" data-look="classic" marker-end="url(#mm-1-1-0_flowchart-v2-pointEnd)"/><path d="M617.859,136.75L625.221,136.75C632.583,136.75,647.307,136.75,662.004,140.606C676.701,144.463,691.372,152.176,698.707,156.032L706.042,159.889" id="mm-1-1-0-L_D_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_F_0" data-points="W3sieCI6NjE3Ljg1OTM3NSwieSI6MTM2Ljc1fSx7IngiOjY2Mi4wMzEyNSwieSI6MTM2Ljc1fSx7IngiOjcwOS41ODI0NTc5ODMxOTMzLCJ5IjoxNjEuNzV9XQ==" data-look="classic" marker-end="url(#mm-1-1-0_flowchart-v2-pointEnd)"/><path d="M637.031,255.75L641.198,255.75C645.365,255.75,653.698,255.75,665.2,251.894C676.701,248.037,691.372,240.324,698.707,236.468L706.042,232.611" id="mm-1-1-0-L_E_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_F_0" data-points="W3sieCI6NjM3LjAzMTI1LCJ5IjoyNTUuNzV9LHsieCI6NjYyLjAzMTI1LCJ5IjoyNTUuNzV9LHsieCI6NzA5LjU4MjQ1Nzk4MzE5MzMsInkiOjIzMC43NX1d" data-look="classic" marker-end="url(#mm-1-1-0_flowchart-v2-pointEnd)"/><path d="M847.133,42.5L854.007,42.5C860.88,42.5,874.628,42.5,893.943,52.052C913.258,61.605,938.142,80.709,950.583,90.262L963.025,99.814" id="mm-1-1-0-L_C_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_G_0" data-points="W3sieCI6ODQ3LjEzMjgxMjUsInkiOjQyLjV9LHsieCI6ODg4LjM3NSwieSI6NDIuNX0seyJ4Ijo5NjYuMTk3NTkyMDA5MjgzOCwieSI6MTAyLjI1fV0=" data-look="classic" marker-end="url(#mm-1-1-0_flowchart-v2-pointEnd)"/><path d="M863.375,196.25L867.542,196.25C871.708,196.25,880.042,196.25,892.205,192.374C904.368,188.498,920.361,180.746,928.358,176.871L936.354,172.995" id="mm-1-1-0-L_F_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_F_G_0" data-points="W3sieCI6ODYzLjM3NSwieSI6MTk2LjI1fSx7IngiOjg4OC4zNzUsInkiOjE5Ni4yNX0seyJ4Ijo5MzkuOTUzOTEyODE1MTI2LCJ5IjoxNzEuMjV9XQ==" data-look="classic" marker-end="url(#mm-1-1-0_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_F_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_F_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_G_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_F_G_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-1-1-0-flowchart-A-0" data-look="classic" transform="translate(73.671875, 136.75)"><rect class="basic label-container" style="" x="-65.671875" y="-34.5" width="131.34375" height="69"/><g class="label" style="" transform="translate(-41.671875, -22.5)"><rect/><foreignObject width="83.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>자연 현상<br />언제, 어디서</p></span></div></foreignObject></g></g><g class="node default" id="mm-1-1-0-flowchart-B-1" data-look="classic" transform="translate(267.9296875, 136.75)"><rect class="basic label-container" style="" x="-78.5859375" y="-34.5" width="157.171875" height="69"/><g class="label" style="" transform="translate(-54.5859375, -22.5)"><rect/><foreignObject width="109.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>시간과 공간으로<br />기술하기</p></span></div></foreignObject></g></g><g class="node default" id="mm-1-1-0-flowchart-C-3" data-look="classic" transform="translate(775.203125, 42.5)"><rect class="basic label-container" style="" x="-71.9296875" y="-34.5" width="143.859375" height="69"/><g class="label" style="" transform="translate(-47.9296875, -22.5)"><rect/><foreignObject width="95.859375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>규모 비교<br />10의 거듭제곱</p></span></div></foreignObject></g></g><g class="node default" id="mm-1-1-0-flowchart-D-5" data-look="classic" transform="translate(516.7734375, 136.75)"><rect class="basic label-container" style="" x="-101.0859375" y="-34.5" width="202.171875" height="69"/><g class="label" style="" transform="translate(-77.0859375, -22.5)"><rect/><foreignObject width="154.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>시간 측정<br />해시계에서 원자시계로</p></span></div></foreignObject></g></g><g class="node default" id="mm-1-1-0-flowchart-E-7" data-look="classic" transform="translate(516.7734375, 255.75)"><rect class="basic label-container" style="" x="-120.2578125" y="-34.5" width="240.515625" height="69"/><g class="label" style="" transform="translate(-96.2578125, -22.5)"><rect/><foreignObject width="192.515625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>길이 측정<br />미터 원기에서 빛의 속력으로</p></span></div></foreignObject></g></g><g class="node default" id="mm-1-1-0-flowchart-F-9" data-look="classic" transform="translate(775.203125, 196.25)"><rect class="basic label-container" style="" x="-88.171875" y="-34.5" width="176.34375" height="69"/><g class="label" style="" transform="translate(-64.171875, -22.5)"><rect/><foreignObject width="128.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>GPS<br />시간으로 위치 재기</p></span></div></foreignObject></g></g><g class="node default" id="mm-1-1-0-flowchart-G-13" data-look="classic" transform="translate(1011.1328125, 136.75)"><rect class="basic label-container" style="" x="-97.7578125" y="-34.5" width="195.515625" height="69"/><g class="label" style="" transform="translate(-73.7578125, -22.5)"><rect/><foreignObject width="147.515625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>인간 경험 범위의 확장<br />그리고 과학의 한계</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-1-1-0-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-1-1-0-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-1-1-0-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><hr>
+<h2 id="step-1" class="step-h s1"><span class="step-badge s1">STEP 1</span><span class="h-text">중학교 다시 보기</span></h2>
+<h3 id="연계-개념표">연계 개념표</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>중학교 성취기준</th>
+<th>중학교에서 배운 것</th>
+<th>고등학교에서 확장되는 것</th>
+</tr>
+</thead><tbody><tr>
+<td>[9과02-01]</td>
+<td>세포는 생명 활동의 기본 단위이며 현미경으로 관찰한다</td>
+<td>세포(약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">5</span></span></span></span></span></span></span></span></span></span></span></span> m)를 원자·바이러스·사람과 한 줄에 놓고 <strong>규모</strong>로 비교한다</td>
+</tr>
+<tr>
+<td>[9과11-02]</td>
+<td>원자는 양성자, 중성자, 전자로 구성된다</td>
+<td>원자(약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">10</span></span></span></span></span></span></span></span></span></span></span></span> m)와 원자핵(약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">15</span></span></span></span></span></span></span></span></span></span></span></span> m)의 크기 차이를 10의 거듭제곱으로 표현한다</td>
+</tr>
+<tr>
+<td>[9과15-01]</td>
+<td>연주시차를 이용하여 별까지의 거리를 구한다</td>
+<td>별까지의 거리처럼 &#39;직접 잴 수 없는 길이&#39;를 재는 현대적 방법을 조사한다</td>
+</tr>
+<tr>
+<td>[9과15-02]</td>
+<td>우리은하의 구조와 크기(지름 약 10만 광년)</td>
+<td>광년을 미터로 바꾸어 원자와 같은 표기법으로 비교한다</td>
+</tr>
+<tr>
+<td>[9과19-01]</td>
+<td>직선 운동을 그래프로 나타내고 속력 = 이동 거리 ÷ 걸린 시간</td>
+<td>빛의 속력을 알면 <strong>시간을 재서 거리를 구할 수 있다</strong>(레이저 거리 측정, GPS)</td>
+</tr>
+</tbody></table></div>
+<h3 id="준비-운동-사전-진단">준비 운동 (사전 진단)</h3>
+<p><strong>Q1.</strong> 다음을 크기가 작은 것부터 순서대로 나열하시오.
+ㄱ. 사람의 적혈구 ㄴ. 원자 ㄷ. 개미 ㄹ. 바이러스</p>
+<p><strong>Q2.</strong> 1광년은 &#39;시간&#39;의 단위인가, &#39;길이&#39;의 단위인가?</p>
+<p><strong>Q3.</strong> 자동차가 일정한 속력 20 m/s로 5초 동안 달렸다. 이동한 거리는?</p>
+<p><strong>Q4.</strong> 밤하늘에서 보이는 별빛은 &#39;지금 이 순간&#39;의 별의 모습일까?</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>Q1. ㄴ → ㄹ → ㄱ → ㄷ</strong> — 원자(약 0.1 nm) &lt; 바이러스(약 100 nm) &lt; 적혈구(약 7~8 μm) &lt; 개미(수 mm).</p>
+<p><strong>Q2. 길이</strong> — 빛이 1년 동안 이동하는 <strong>거리</strong>이다. 이름에 &#39;년&#39;이 들어 있어 시간 단위로 착각하기 쉽다.</p>
+<p><strong>Q3.</strong> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">20</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">m/s</span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">5</span><span class="mspace"> </span><span class="mord mathrm">s</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">100</span><span class="mspace"> </span><span class="mord mathrm">m</span></span></span></span></p>
+<p><strong>Q4. 아니다</strong> — 빛이 별에서 지구까지 오는 데 시간이 걸리므로, 우리는 별의 <strong>과거 모습</strong>을 본다. 멀리 볼수록 더 먼 과거를 보는 셈이다.</p>
+</div></details>
+
+<hr>
+<h2 id="step-2" class="step-h s2"><span class="step-badge s2">STEP 2</span><span class="h-text">기초 다지기</span></h2>
+<h3 id="①-과학적-표기법-0을-세지-말고-지수를-세자">① 과학적 표기법: 0을 세지 말고 지수를 세자</h3>
+<p>원자의 지름은 약 0.000 000 000 1 m이고, 지구에서 태양까지의 거리는 약 150 000 000 000 m이다. 0을 하나하나 세다가는 실수하기 쉽다. 그래서 과학에서는 다음과 같이 쓴다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal">a</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7144em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">n</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:2em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mord mathnormal">a</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">10</span><span class="mpunct">,</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">n</span><span class="mord text"><span class="mord hangul_fallback">은</span><span class="mord"> </span><span class="mord hangul_fallback">정수</span></span><span class="mclose">)</span></span></span></span></span></p>
+<div class="table-wrap"><table><thead><tr>
+<th>보통 표기</th>
+<th>과학적 표기법</th>
+<th>읽는 법</th>
+</tr>
+</thead><tbody><tr>
+<td>150 000 000 000 m</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1.5</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">11</span></span></span></span></span></span></span></span></span></span></span></span> m</td>
+<td>1.5 곱하기 10의 11제곱 미터</td>
+</tr>
+<tr>
+<td>0.000 000 000 1 m</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">10</span></span></span></span></span></span></span></span></span></span></span></span> m</td>
+<td>1 곱하기 10의 마이너스 10제곱 미터</td>
+</tr>
+<tr>
+<td>0.003 s</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">3</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span></span> s</td>
+<td>3 곱하기 10의 마이너스 3제곱 초</td>
+</tr>
+</tbody></table></div>
+<ul>
+<li>10의 지수가 <strong>양수</strong>이면 큰 수, <strong>음수</strong>이면 1보다 작은 수이다.</li>
+<li><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">0</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span></span></span></span>이다.</li>
+</ul>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 지수는 &#39;확대·축소 버튼을 몇 번 눌렀는가&#39;와 같다. 지수가 1 커질 때마다 10배 확대, 1 작아질 때마다 10배 축소이다. <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">10</span></span></span></span></span></span></span></span></span></span></span></span> m인 원자를 사람 크기(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">0</span></span></span></span></span></span></span></span></span></span></span></span> m)까지 보려면 &#39;10배 확대&#39; 버튼을 10번 눌러야 한다.</p>
+</aside>
+<h3 id="②-지수-계산의-두-가지-규칙">② 지수 계산의 두 가지 규칙</h3>
+<p>규모를 비교할 때는 &#39;몇 배인가&#39;를 자주 묻는다. 이때 다음 두 규칙만 있으면 된다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7977em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7144em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">a</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8991em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8991em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">b</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0274em;vertical-align:-0.686em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8991em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">a</span><span class="mbin mtight">+</span><span class="mord mathnormal mtight">b</span></span></span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:2em;"></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3414em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7751em;"><span style="top:-2.989em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">b</span></span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">a</span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8991em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8991em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">a</span><span class="mbin mtight">−</span><span class="mord mathnormal mtight">b</span></span></span></span></span></span></span></span></span></span></span></span></span></p>
+<ul>
+<li>머리카락 굵기(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">4</span></span></span></span></span></span></span></span></span></span></span></span> m) ÷ 원자 지름(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">10</span></span></span></span></span></span></span></span></span></span></span></span> m) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.888em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.888em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">4</span><span class="mbin mtight">−</span><span class="mopen mtight">(</span><span class="mord mtight">−</span><span class="mord mtight">10</span><span class="mclose mtight">)</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">6</span></span></span></span></span></span></span></span></span></span></span></span> → 100만 배</li>
+</ul>
+<h3 id="③-크기의-차수-39-대충-몇-자리-수인가-39">③ 크기의 차수: &#39;대충 몇 자리 수인가&#39;</h3>
+<p>과학자들은 정확한 값보다 먼저 <strong>크기의 차수(order of magnitude)</strong>, 즉 &#39;10의 몇 제곱 정도인가&#39;를 묻는다. 예를 들어 사람의 키 1.7 m와 기린의 키 5 m는 정확한 값은 다르지만 둘 다 &#39;<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">0</span></span></span></span></span></span></span></span></span></span></span></span> m 차수&#39;에 속한다. 반면 사람과 개미는 차수가 3단계(1000배) 차이 난다.</p>
+<aside class="callout important"><p class="callout-title">핵심</p><p>규모가 엄청나게 다른 대상을 한 그림에 나타낼 때는 눈금 한 칸이 &#39;10배&#39;를 뜻하도록 그린다. 이렇게 그리면 원자부터 우주까지를 공책 한 줄에 나란히 놓을 수 있다. 이 단원의 크기 사다리 표가 바로 그런 방식이다.</p>
+</aside>
+<h3 id="④-거리-속력-시간">④ 거리 = 속력 × 시간</h3>
+<p>중학교에서 속력 = 이동 거리 ÷ 걸린 시간을 배웠다. 이 식을 거꾸로 쓰면</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">거리</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord text"><span class="mord hangul_fallback">속력</span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">시간</span></span></span></span></span></span></p>
+<p>이다. <strong>속력을 정확히 알고 있다면, 시간만 재도 거리를 알 수 있다.</strong> 빛의 속력은 진공에서 정확히 초속 299 792 458 m(약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">3</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span></span></span></span></span> m/s)이다. 이 한 줄이 현대 길이 측정 기술 대부분의 출발점이다.</p>
+<hr>
+<h2 id="step-3" class="step-h s3"><span class="step-badge s3">STEP 3</span><span class="h-text">핵심 개념</span></h2>
+<h3 id="1-1-①-자연은-시간과-공간을-배경으로-기술된다">1-1-① 자연은 시간과 공간을 배경으로 기술된다</h3>
+<p>뉴스에서 지진 소식을 전할 때 꼭 들어가는 정보를 떠올려 보자. &quot;○월 ○일 ○시 ○분 ○초, 위도 ○도·경도 ○도, 깊이 ○ km에서 규모 ○의 지진이 발생했다.&quot; 지진이라는 사건을 <strong>시각(언제)</strong> 과 <strong>위치(어디서)</strong> 로 정해 주어야 비로소 다른 사람과 정확히 정보를 나눌 수 있다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>사건</th>
+<th>시간 정보</th>
+<th>공간 정보</th>
+</tr>
+</thead><tbody><tr>
+<td>지진 발생</td>
+<td>발생 시각(초 단위까지)</td>
+<td>위도, 경도, 깊이</td>
+</tr>
+<tr>
+<td>태풍 예보</td>
+<td>몇 시간 뒤</td>
+<td>중심 위치(위도, 경도), 이동 경로</td>
+</tr>
+<tr>
+<td>100 m 달리기 기록</td>
+<td>9.58초(세계 기록)</td>
+<td>직선 100 m 트랙</td>
+</tr>
+<tr>
+<td>내비게이션 안내</td>
+<td>도착 예정 시각</td>
+<td>현재 위치, 남은 거리</td>
+</tr>
+<tr>
+<td>일식 예보</td>
+<td>시작·최대·종료 시각</td>
+<td>관측 가능한 지역</td>
+</tr>
+</tbody></table></div>
+<p>이처럼 <strong>자연에서 일어나는 모든 사건은 &#39;언제&#39;와 &#39;어디서&#39;를 정하면 기술할 수 있다.</strong> 과학의 다른 모든 양(속력, 가속도, 밀도 등)도 시간과 공간에 대한 측정에서 출발한다. 그래서 시간과 공간은 자연이라는 연극이 펼쳐지는 <strong>무대</strong>에 비유된다.</p>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 친구와 약속을 잡을 때 &quot;토요일 오후 2시, 학교 정문&quot;처럼 <strong>시간 하나 + 장소 하나</strong>를 정한다. 장소는 지도 위의 가로·세로(2차원)로 충분하지만, 건물 몇 층인지까지 정하려면 높이까지 3개의 수가 필요하다. 공간 3개 + 시간 1개, 모두 4개의 수로 하나의 사건이 정해진다.</p>
+</aside>
+<h3 id="1-1-②-10의-거듭제곱으로-보는-미시세계와-거시세계">1-1-② 10의 거듭제곱으로 보는 미시세계와 거시세계</h3>
+<h4 id="공간의-사다리-원자핵에서-관측-가능한-우주까지">공간의 사다리: 원자핵에서 관측 가능한 우주까지</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>대상</th>
+<th>크기(대략)</th>
+<th>과학적 표기법(m, 대략)</th>
+<th>무엇으로 보거나 재나?</th>
+</tr>
+</thead><tbody><tr>
+<td>양성자, 원자핵</td>
+<td>약 0.000 000 000 000 001 m</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">15</span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td>입자 가속기 충돌 실험</td>
+</tr>
+<tr>
+<td>원자</td>
+<td>약 0.1 nm</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">10</span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td>주사 터널링 현미경, 전자 현미경</td>
+</tr>
+<tr>
+<td>DNA 이중 나선의 폭</td>
+<td>약 2 nm</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">9</span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td>X선 회절, 전자 현미경</td>
+</tr>
+<tr>
+<td>바이러스</td>
+<td>약 100 nm</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">7</span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td>전자 현미경</td>
+</tr>
+<tr>
+<td>세균</td>
+<td>약 1~2 μm</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">6</span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td>광학 현미경</td>
+</tr>
+<tr>
+<td>적혈구</td>
+<td>약 7~8 μm</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">8</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">6</span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td>광학 현미경</td>
+</tr>
+<tr>
+<td>머리카락 굵기</td>
+<td>약 0.1 mm</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">4</span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td>맨눈으로 겨우 보임</td>
+</tr>
+<tr>
+<td>사람의 키</td>
+<td>약 1.7 m</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1.7</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">0</span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td>줄자</td>
+</tr>
+<tr>
+<td>에베레스트산 높이</td>
+<td>약 8.8 km</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">8.8</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td>위성 측량, GPS</td>
+</tr>
+<tr>
+<td>지구의 지름</td>
+<td>약 12 700 km</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1.3</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">7</span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td>위성 측지</td>
+</tr>
+<tr>
+<td>지구–달 거리</td>
+<td>약 38만 km</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">3.8</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td>레이저 반사 측정</td>
+</tr>
+<tr>
+<td>지구–태양 거리(1 AU)</td>
+<td>약 1억 5천만 km</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1.5</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">11</span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td>레이더, 행성 관측</td>
+</tr>
+<tr>
+<td>가장 가까운 별(프록시마 센타우리)</td>
+<td>약 4.2광년</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">4.0</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">16</span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td>연주시차</td>
+</tr>
+<tr>
+<td>우리은하의 지름</td>
+<td>약 10만 광년</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">9.5</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">20</span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td>별의 분포 관측</td>
+</tr>
+<tr>
+<td>안드로메다 은하까지</td>
+<td>약 250만 광년</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2.4</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">22</span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td>변광성 등 밝기 비교</td>
+</tr>
+<tr>
+<td>관측 가능한 우주의 지름</td>
+<td>약 930억 광년</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">8.8</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">26</span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td>우주 배경 복사, 은하 관측</td>
+</tr>
+</tbody></table></div>
+<p>표의 위아래 끝을 비교하면 원자핵에서 관측 가능한 우주까지 크기의 차수로 약 <strong>42단계</strong>(약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">42</span></span></span></span></span></span></span></span></span></span></span></span>배)의 차이가 난다. 사람(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">0</span></span></span></span></span></span></span></span></span></span></span></span> m)은 이 사다리의 아래쪽 끝(원자핵)과 위쪽 끝(우주) 사이 어디쯤에 서 있다.</p>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 원자핵을 지름 1 cm인 구슬로 키우면, 원자 전체는 지름이 약 1 km인 거대한 공이 된다(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">15</span></span></span></span></span></span></span></span></span></span></span></span> → <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">10</span></span></span></span></span></span></span></span></span></span></span></span>은 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">5</span></span></span></span></span></span></span></span></span></span></span></span>배). 원자의 대부분은 텅 빈 공간이다.</p>
+</aside>
+<h4 id="예제-1-몇-배-차이인가">예제 1 — 몇 배 차이인가?</h4>
+<p>(1) 세균(약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">6</span></span></span></span></span></span></span></span></span></span></span></span> m)은 바이러스(약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">7</span></span></span></span></span></span></span></span></span></span></span></span> m)의 몇 배인가?
+(2) 우리은하의 지름 약 10만 광년을 미터로 나타내시오. (1광년 ≒ <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">9.5</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">15</span></span></span></span></span></span></span></span></span></span></span></span> m)</p>
+<p><strong>풀이</strong>
+(1) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.1771em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.4911em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7401em;"><span style="top:-2.989em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">7</span></span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">6</span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10</span></span></span></span>배
+(2) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">5</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">9.5</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">15</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">9.5</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">20</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">21</span></span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord mathrm">m</span></span></span></span></p>
+<h4 id="시간의-사다리-아토초에서-우주의-나이까지">시간의 사다리: 아토초에서 우주의 나이까지</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>사건·현상</th>
+<th>시간(대략)</th>
+<th>과학적 표기법(s, 대략)</th>
+</tr>
+</thead><tbody><tr>
+<td>실험실에서 만드는 가장 짧은 빛 펄스(아토초 펄스)</td>
+<td>수십~수백 아토초</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">17</span></span></span></span></span></span></span></span></span></span></span></span> ~ <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">16</span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+<tr>
+<td>세슘 원자 진동 1회(원자시계의 &#39;똑딱&#39;)</td>
+<td>약 0.000 000 000 11 s</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1.1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">10</span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+<tr>
+<td>컴퓨터 중앙처리장치(CPU) 클록 1회</td>
+<td>약 0.3 ns(3 GHz일 때)</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">3.3</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">10</span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+<tr>
+<td>빛이 30 cm를 가는 시간</td>
+<td>약 1 ns</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">9</span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+<tr>
+<td>빛이 달에 다녀오는 시간</td>
+<td>약 2.6 s</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2.6</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">0</span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+<tr>
+<td>햇빛이 지구에 오는 시간</td>
+<td>약 8분 20초</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">5.0</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+<tr>
+<td>하루</td>
+<td>86 400 s</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">8.64</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">4</span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+<tr>
+<td>1년</td>
+<td>약 3150만 s</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">3.2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">7</span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+<tr>
+<td>사람의 일생(80년)</td>
+<td>약 25억 s</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2.5</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">9</span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+<tr>
+<td>문자로 기록된 역사</td>
+<td>약 5000년</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1.6</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">11</span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+<tr>
+<td>공룡 멸종 이후</td>
+<td>약 6600만 년</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2.1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">15</span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+<tr>
+<td>지구의 나이</td>
+<td>약 46억 년</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1.5</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">17</span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+<tr>
+<td>우주의 나이</td>
+<td>약 138억 년</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">4.4</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">17</span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+</tbody></table></div>
+<h4 id="우주-달력-138억-년을-1년으로-줄이면">우주 달력: 138억 년을 1년으로 줄이면</h4>
+<p>우주의 나이 138억 년을 1년(1월 1일 0시 ~ 12월 31일 자정)으로 줄이면, 달력의 1초는 실제 약 440년에 해당한다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>사건</th>
+<th>우주 달력 날짜(대략)</th>
+</tr>
+</thead><tbody><tr>
+<td>빅뱅</td>
+<td>1월 1일 0시</td>
+</tr>
+<tr>
+<td>지구 탄생(약 46억 년 전)</td>
+<td>9월 1일 무렵</td>
+</tr>
+<tr>
+<td>공룡 멸종(약 6600만 년 전)</td>
+<td>12월 30일 아침</td>
+</tr>
+<tr>
+<td>현생 인류 등장(약 30만 년 전)</td>
+<td>12월 31일 밤 11시 48분 무렵</td>
+</tr>
+<tr>
+<td>문자로 기록된 역사 시작(약 5000년 전)</td>
+<td>12월 31일 밤 11시 59분 49초 무렵</td>
+</tr>
+</tbody></table></div>
+<p>인류의 기록된 역사 전체가 <strong>우주 달력의 마지막 11초 남짓</strong>에 불과하다. 시간의 규모를 실감하게 하는 대표적인 방법이다.</p>
+<h4 id="예제-2-우주-달력-계산">예제 2 — 우주 달력 계산</h4>
+<p>우주 달력에서 1초는 실제로 약 몇 년인가? (1년 ≒ <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">3.15</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">7</span></span></span></span></span></span></span></span></span></span></span></span> s)</p>
+<p><strong>풀이</strong> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.2604em;vertical-align:-0.7693em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.4911em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">3.15</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7401em;"><span style="top:-2.989em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">7</span></span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord text"><span class="mord">s</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1.38</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">10</span></span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord text"><span class="mord hangul_fallback">년</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7693em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">4.4</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span>년 → 약 440년</p>
+<h3 id="1-1-③-시간을-재는-현대적-방법-해시계에서-원자시계로">1-1-③ 시간을 재는 현대적 방법 — 해시계에서 원자시계로</h3>
+<p>시간을 재는 원리는 예나 지금이나 같다. <strong>규칙적으로 반복되는 현상을 찾아 그 횟수를 센다.</strong> 바뀐 것은 &#39;무엇이 반복되는가&#39;와 &#39;얼마나 일정한가&#39;이다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>시대</th>
+<th>시계</th>
+<th>반복되는 현상</th>
+<th>정밀도(대략)</th>
+</tr>
+</thead><tbody><tr>
+<td>고대~조선</td>
+<td>해시계(앙부일구), 물시계(자격루, 1434년)</td>
+<td>해의 움직임, 일정하게 흐르는 물</td>
+<td>날씨·계절의 영향을 받아 현대 시계보다 오차가 컸다</td>
+</tr>
+<tr>
+<td>17세기~</td>
+<td>진자시계</td>
+<td>진자의 왕복 운동</td>
+<td>초기에는 하루에 수십 초, 개량 후 수 초 이내</td>
+</tr>
+<tr>
+<td>20세기</td>
+<td>수정(쿼츠) 시계</td>
+<td>수정 결정의 진동(손목시계는 1초에 32 768번)</td>
+<td>일반 손목시계는 한 달에 수 초~수십 초</td>
+</tr>
+<tr>
+<td>1950년대~</td>
+<td>세슘 원자시계</td>
+<td>세슘-133 원자가 흡수·방출하는 전자기파의 진동</td>
+<td>국가 표준용은 수천만~수억 년에 1초 이내</td>
+</tr>
+<tr>
+<td>현재 연구 중</td>
+<td>광시계(광격자 시계 등)</td>
+<td>원자가 흡수·방출하는 빛의 진동</td>
+<td>우주의 나이 동안 1초 이내 수준</td>
+</tr>
+</tbody></table></div>
+<aside class="callout note"><p class="callout-title">성취기준·참고</p><p>조선 세종 때 장영실 등이 만든 <strong>자격루</strong>는 물이 일정하게 흘러드는 것을 이용해 정해진 시각에 인형이 종·북·징을 쳐서 시각을 자동으로 알렸다. &#39;자동 시보 장치&#39;라는 점에서 당대 첨단 기술이었다.</p>
+</aside>
+<h4 id="원자시계-원자는-모두-똑같은-39-진자-39-다">원자시계: 원자는 모두 똑같은 &#39;진자&#39;다</h4>
+<p>진자시계는 진자의 길이가 온도에 따라 늘어나면 느려지고, 수정 시계도 온도나 제작 상태에 따라 조금씩 다르다. 그러나 <strong>같은 종류의 원자는 우주 어디에서나 똑같다.</strong> 세슘-133 원자가 특정한 전자기파를 흡수하는 진동수는 어느 실험실에서 재도 같다. 그래서 1967년부터 <strong>1초</strong>는 다음과 같이 정의되었다.</p>
+<blockquote><p>1초는 세슘-133 원자가 흡수·방출하는 특정한 전자기파가 <strong>9 192 631 770번</strong> 진동하는 데 걸리는 시간이다.</p>
+</blockquote>
+<p>우리나라의 국가 표준시는 대전에 있는 <strong>한국표준과학연구원</strong>이 원자시계로 만들어 유지하며, 인터넷·방송 등을 통해 시각 정보를 제공한다. 스마트폰 시계가 저절로 정확한 시각을 맞추는 것도 결국 이러한 표준시에 연결되어 있기 때문이다.</p>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 진자시계가 &#39;사람마다 보폭이 다른 걸음&#39;으로 거리를 재는 것이라면, 원자시계는 &#39;전 세계 어디서나 똑같은 자&#39;로 재는 것과 같다. 기준이 되는 대상 자체가 바뀌지 않으니 누가 어디서 재도 같은 1초를 얻는다.</p>
+</aside>
+<h4 id="왜-그렇게까지-정밀해야-할까">왜 그렇게까지 정밀해야 할까?</h4>
+<ul>
+<li><strong>통신망</strong>: 휴대 전화 기지국들은 서로 시각을 아주 정밀하게 맞추어야 신호가 엉키지 않는다.</li>
+<li><strong>금융</strong>: 주식 거래는 주문 순서를 정하기 위해 거래 시각을 매우 짧은 단위까지 기록한다.</li>
+<li><strong>전력망</strong>: 넓은 지역의 발전소와 송전망이 같은 박자로 움직이도록 시각을 맞춘다.</li>
+<li><strong>위성 항법(GPS)</strong>: 1-1-④에서 보듯 <strong>시간 오차가 곧 위치 오차</strong>가 된다.</li>
+</ul>
+<h3 id="1-1-④-길이를-재는-현대적-방법-쇠막대에서-빛의-속력으로">1-1-④ 길이를 재는 현대적 방법 — 쇠막대에서 빛의 속력으로</h3>
+<h4 id="미터의-역사-39-지구-39-에서-39-빛-39-으로">미터의 역사: &#39;지구&#39;에서 &#39;빛&#39;으로</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>시기</th>
+<th>1 m의 기준</th>
+<th>문제점</th>
+</tr>
+</thead><tbody><tr>
+<td>18세기 말 프랑스</td>
+<td>북극에서 적도까지 거리의 1000만분의 1</td>
+<td>지구를 다시 잴 때마다 값이 달라질 수 있다</td>
+</tr>
+<tr>
+<td>1889년~</td>
+<td>국제 미터 원기(백금·이리듐 합금 막대)의 두 눈금 사이 거리</td>
+<td>막대가 하나뿐이고 온도·손상·마모의 영향을 받는다</td>
+</tr>
+<tr>
+<td>1960년~</td>
+<td>크립톤-86 원자가 내는 빛의 파장</td>
+<td>더 정밀한 측정 요구를 따라가기 어려워졌다</td>
+</tr>
+<tr>
+<td>1983년~ 현재</td>
+<td><strong>빛이 진공에서 1/299 792 458초 동안 이동한 거리</strong></td>
+<td>빛의 속력은 자연의 상수이므로 변하지 않는다</td>
+</tr>
+</tbody></table></div>
+<p>1983년 이후로는 <strong>빛의 속력을 정확히 299 792 458 m/s로 &#39;정해 놓고&#39;</strong>, 시간(초)을 재서 길이를 정의한다. 원자시계로 초를 매우 정밀하게 잴 수 있으므로, 길이도 그만큼 정밀하게 잴 수 있게 되었다. 시간과 공간의 측정이 하나로 묶인 셈이다.</p>
+<h4 id="고대의-놀라운-측정-에라토스테네스">고대의 놀라운 측정: 에라토스테네스</h4>
+<p>약 2200여 년 전 그리스의 에라토스테네스는 하짓날 정오에 시에네에서는 해가 우물 바닥까지 비추는데, 북쪽의 알렉산드리아에서는 막대 그림자가 생겨 햇빛이 약 7.2°(원의 50분의 1) 기울어진다는 것을 이용했다. 두 도시 사이 거리에 50을 곱해 지구 둘레를 구했고, 그 값은 오늘날 값(약 4만 km)과 크게 다르지 않았던 것으로 평가된다. <strong>직접 잴 수 없는 크기를 &#39;잴 수 있는 것&#39;으로 바꾸어 계산하는 것</strong>, 이것이 측정의 핵심 아이디어이다.</p>
+<h4 id="레이저로-거리-재기-빛을-쏘고-돌아오는-시간을-잰다">레이저로 거리 재기: 빛을 쏘고 돌아오는 시간을 잰다</h4>
+<p>레이저 빛을 물체에 쏘고 반사되어 돌아오는 시간 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span></span></span></span>를 재면, 빛은 같은 거리를 왕복했으므로</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">d</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.9781em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.2921em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">c</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathnormal">t</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<p>이다. 이 원리는 공사 현장의 <strong>레이저 거리 측정기</strong>, 자율주행차의 <strong>라이다(LiDAR)</strong>, 그리고 <strong>지구–달 거리 측정</strong>에 모두 쓰인다.</p>
+<aside class="callout note"><p class="callout-title">성취기준·참고</p><p>1969년 아폴로 11호를 시작으로 달 표면에 놓인 <strong>반사경</strong>에 지구에서 레이저를 쏘아, 지금도 지구–달 거리를 밀리미터 수준까지 측정한다. 이 측정으로 <strong>달이 1년에 약 3.8 cm씩 지구에서 멀어지고 있다</strong>는 사실도 알아냈다.</p>
+</aside>
+<h4 id="예제-3-달까지의-거리">예제 3 — 달까지의 거리</h4>
+<p>지구에서 쏜 레이저가 달의 반사경에 반사되어 돌아오는 데 2.56초가 걸렸다. 지구–달 거리는? (빛의 속력 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">c</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">3.0</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span></span></span></span></span> m/s)</p>
+<p><strong>풀이</strong>
+<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">d</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.9781em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.2921em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">c</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">t</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.1771em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.4911em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">3.0</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">2.56</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">3.84</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord mathrm">m</span></span></span></span> (약 38만 4천 km)</p>
+<h4 id="gps-시간을-재서-내-위치를-안다">GPS: 시간을 재서 내 위치를 안다</h4>
+<p><strong>GPS(위성 항법 시스템)</strong> 위성은 지상 약 2만 km 높이에서 지구를 돌며, 원자시계로 잰 정확한 시각과 자신의 위치를 담은 신호를 계속 보낸다. 스마트폰은 신호가 &#39;보낸 시각&#39;과 &#39;받은 시각&#39;의 차이로 <strong>신호가 날아온 시간</strong>을 알아내고, 여기에 빛의 속력을 곱해 위성까지의 거리를 구한다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-1-1-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 612.53125 374.5" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-1-1-1{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-1-1-1 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-1-1-1 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-1-1-1 .error-icon{fill:var(--mm-group);}#mm-1-1-1 .error-text{fill:#595959;stroke:#595959;}#mm-1-1-1 .edge-thickness-normal{stroke-width:1px;}#mm-1-1-1 .edge-thickness-thick{stroke-width:3.5px;}#mm-1-1-1 .edge-pattern-solid{stroke-dasharray:0;}#mm-1-1-1 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-1-1-1 .edge-pattern-dashed{stroke-dasharray:3;}#mm-1-1-1 .edge-pattern-dotted{stroke-dasharray:2;}#mm-1-1-1 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-1-1-1 .marker.cross{stroke:var(--mm-line);}#mm-1-1-1 svg{font-family:inherit;font-size:15px;}#mm-1-1-1 p{margin:0;}#mm-1-1-1 .label{font-family:inherit;color:var(--mm-text);}#mm-1-1-1 .cluster-label text{fill:#595959;}#mm-1-1-1 .cluster-label span{color:#595959;}#mm-1-1-1 .cluster-label span p{background-color:transparent;}#mm-1-1-1 .label text,#mm-1-1-1 span{fill:var(--mm-text);color:var(--mm-text);}#mm-1-1-1 .node rect,#mm-1-1-1 .node circle,#mm-1-1-1 .node ellipse,#mm-1-1-1 .node polygon,#mm-1-1-1 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-1-1-1 .rough-node .label text,#mm-1-1-1 .node .label text,#mm-1-1-1 .image-shape .label,#mm-1-1-1 .icon-shape .label{text-anchor:middle;}#mm-1-1-1 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-1-1-1 .rough-node .label,#mm-1-1-1 .node .label,#mm-1-1-1 .image-shape .label,#mm-1-1-1 .icon-shape .label{text-align:center;}#mm-1-1-1 .node.clickable{cursor:pointer;}#mm-1-1-1 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-1-1-1 .arrowheadPath{fill:#0b0b0b;}#mm-1-1-1 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-1-1-1 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-1-1-1 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-1-1-1 .edgeLabel p{background-color:var(--mm-label);}#mm-1-1-1 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-1-1-1 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-1-1-1 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-1-1-1 .cluster text{fill:#595959;}#mm-1-1-1 .cluster span{color:#595959;}#mm-1-1-1 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-1-1-1 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-1-1-1 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-1-1-1 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-1-1-1 rect.text{fill:none;stroke-width:0;}#mm-1-1-1 .icon-shape,#mm-1-1-1 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-1-1-1 .icon-shape p,#mm-1-1-1 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-1-1-1 .icon-shape .label rect,#mm-1-1-1 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-1-1-1 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-1-1-1 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-1-1-1 .node .neo-node{stroke:var(--mm-border);}#mm-1-1-1 [data-look="neo"].node rect,#mm-1-1-1 [data-look="neo"].cluster rect,#mm-1-1-1 [data-look="neo"].node polygon{stroke:url(#mm-1-1-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-1-1-1 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-1-1-1 [data-look="neo"].node path{stroke:url(#mm-1-1-1-gradient);stroke-width:1px;}#mm-1-1-1 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-1-1-1 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-1-1-1 [data-look="neo"].node circle{stroke:url(#mm-1-1-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-1-1-1 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-1-1-1 [data-look="neo"].icon-shape .icon{fill:url(#mm-1-1-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-1-1-1 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-1-1-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-1-1-1 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-1-1-1_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-1-1_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-1-1_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-1-1_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-1-1_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-1-1_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-1-1_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-1-1_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-1-1_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-1-1_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-1-1-1_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-1-1-1_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M183.93,31.25L191.361,31.25C198.792,31.25,213.654,31.25,233.173,49.073C252.692,66.897,276.868,102.543,288.956,120.366L301.044,138.19" id="mm-1-1-1-L_A_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_D_0" data-points="W3sieCI6MTgzLjkyOTY4NzUsInkiOjMxLjI1fSx7IngiOjIyOC41MTU2MjUsInkiOjMxLjI1fSx7IngiOjMwMy4yODkwMjIwMjA3MjU0LCJ5IjoxNDEuNX1d" data-look="classic" marker-end="url(#mm-1-1-1_flowchart-v2-pointEnd)"/><path d="M183.93,127.75L191.361,127.75C198.792,127.75,213.654,127.75,225.149,129.748C236.644,131.745,244.773,135.74,248.838,137.738L252.902,139.736" id="mm-1-1-1-L_B_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_D_0" data-points="W3sieCI6MTgzLjkyOTY4NzUsInkiOjEyNy43NX0seyJ4IjoyMjguNTE1NjI1LCJ5IjoxMjcuNzV9LHsieCI6MjU2LjQ5MjA2NjA2MjE3NjE1LCJ5IjoxNDEuNX1d" data-look="classic" marker-end="url(#mm-1-1-1_flowchart-v2-pointEnd)"/><path d="M184.344,224.25L191.706,224.25C199.068,224.25,213.792,224.25,225.218,222.252C236.644,220.255,244.773,216.26,248.838,214.262L252.902,212.264" id="mm-1-1-1-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6MTg0LjM0Mzc1LCJ5IjoyMjQuMjV9LHsieCI6MjI4LjUxNTYyNSwieSI6MjI0LjI1fSx7IngiOjI1Ni40OTIwNjYwNjIxNzYxNSwieSI6MjEwLjV9XQ==" data-look="classic" marker-end="url(#mm-1-1-1_flowchart-v2-pointEnd)"/><path d="M203.516,332L207.682,332C211.849,332,220.182,332,236.737,312.314C253.292,292.628,278.069,253.257,290.458,233.571L302.846,213.885" id="mm-1-1-1-L_E_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_D_0" data-points="W3sieCI6MjAzLjUxNTYyNSwieSI6MzMyfSx7IngiOjIyOC41MTU2MjUsInkiOjMzMn0seyJ4IjozMDQuOTc2NDEyMjU5NjE1MzYsInkiOjIxMC41fV0=" data-look="classic" marker-end="url(#mm-1-1-1_flowchart-v2-pointEnd)"/><path d="M399.859,176L404.026,176C408.193,176,416.526,176,424.193,176C431.859,176,438.859,176,442.359,176L445.859,176" id="mm-1-1-1-L_D_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_F_0" data-points="W3sieCI6Mzk5Ljg1OTM3NSwieSI6MTc2fSx7IngiOjQyNC44NTkzNzUsInkiOjE3Nn0seyJ4Ijo0NDkuODU5Mzc1LCJ5IjoxNzZ9XQ==" data-look="classic" marker-end="url(#mm-1-1-1_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_F_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-1-1-1-flowchart-A-0" data-look="classic" transform="translate(105.7578125, 31.25)"><rect class="basic label-container" style="" x="-78.171875" y="-23.25" width="156.34375" height="46.5"/><g class="label" style="" transform="translate(-54.171875, -11.25)"><rect/><foreignObject width="108.34375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>위성 A까지 거리</p></span></div></foreignObject></g></g><g class="node default" id="mm-1-1-1-flowchart-D-1" data-look="classic" transform="translate(326.6875, 176)"><rect class="basic label-container" style="" x="-73.171875" y="-34.5" width="146.34375" height="69"/><g class="label" style="" transform="translate(-49.171875, -22.5)"><rect/><foreignObject width="98.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>세 거리를 모두<br />만족하는 한 점</p></span></div></foreignObject></g></g><g class="node default" id="mm-1-1-1-flowchart-B-2" data-look="classic" transform="translate(105.7578125, 127.75)"><rect class="basic label-container" style="" x="-78.171875" y="-23.25" width="156.34375" height="46.5"/><g class="label" style="" transform="translate(-54.171875, -11.25)"><rect/><foreignObject width="108.34375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>위성 B까지 거리</p></span></div></foreignObject></g></g><g class="node default" id="mm-1-1-1-flowchart-C-4" data-look="classic" transform="translate(105.7578125, 224.25)"><rect class="basic label-container" style="" x="-78.5859375" y="-23.25" width="157.171875" height="46.5"/><g class="label" style="" transform="translate(-54.5859375, -11.25)"><rect/><foreignObject width="109.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>위성 C까지 거리</p></span></div></foreignObject></g></g><g class="node default" id="mm-1-1-1-flowchart-E-6" data-look="classic" transform="translate(105.7578125, 332)"><rect class="basic label-container" style="" x="-97.7578125" y="-34.5" width="195.515625" height="69"/><g class="label" style="" transform="translate(-73.7578125, -22.5)"><rect/><foreignObject width="147.515625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>위성 D<br />수신기 시계 오차 보정</p></span></div></foreignObject></g></g><g class="node default" id="mm-1-1-1-flowchart-F-9" data-look="classic" transform="translate(527.1953125, 176)"><rect class="basic label-container" style="" x="-77.3359375" y="-34.5" width="154.671875" height="69"/><g class="label" style="" transform="translate(-53.3359375, -22.5)"><rect/><foreignObject width="106.671875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>내 위치<br />위도, 경도, 높이</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-1-1-1-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-1-1-1-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-1-1-1-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><ul>
+<li>위성 하나까지의 거리만 알면 &#39;그 위성을 중심으로 하는 구의 표면 어딘가&#39;까지만 안다.</li>
+<li>세 위성까지의 거리를 알면 세 구면이 만나는 점으로 위치가 좁혀진다.</li>
+<li>스마트폰의 시계는 원자시계가 아니라서 오차가 있으므로, <strong>네 번째 위성</strong>을 이용해 이 시계 오차까지 함께 계산한다.</li>
+</ul>
+<h4 id="예제-4-시간-오차는-곧-위치-오차">예제 4 — 시간 오차는 곧 위치 오차</h4>
+<p>GPS 수신기가 위성 신호의 도착 시각을 1 μs(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">6</span></span></span></span></span></span></span></span></span></span></span></span> s)만큼 잘못 재면, 위성까지의 거리는 얼마나 틀어지는가? (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">c</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">3</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span></span></span></span></span> m/s)</p>
+<p><strong>풀이</strong> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord">Δ</span><span class="mord mathnormal">d</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal">c</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">3</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">6</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">300</span><span class="mspace"> </span><span class="mord mathrm">m</span></span></span></span></p>
+<p>100만분의 1초의 오차가 300 m의 위치 오차가 된다. GPS 위성에 원자시계를 싣는 이유이다.</p>
+<h4 id="더-작게-더-정밀하게-빛의-간섭으로-재기">더 작게, 더 정밀하게: 빛의 간섭으로 재기</h4>
+<p>빛을 둘로 나누었다가 다시 합치면 두 빛이 지나온 길이의 차이에 따라 밝고 어두운 무늬가 생긴다. 이를 이용하는 장치를 <strong>간섭계(interferometer)</strong> 라 한다. 반도체 공장에서는 간섭계로 나노미터 수준의 위치를 맞추고, 2015년에는 팔 길이 4 km인 거대한 간섭계(LIGO)가 블랙홀 충돌에서 온 <strong>중력파</strong>를 처음으로 검출했다. 이때 잰 길이 변화는 <strong>양성자 지름보다도 훨씬 작은</strong> 정도였다.</p>
+<h3 id="1-1-⑤-인간-경험-범위의-확장과-과학의-한계">1-1-⑤ 인간 경험 범위의 확장과 과학의 한계</h3>
+<h4 id="감각의-한계를-넘어선-측정">감각의 한계를 넘어선 측정</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>감각·능력</th>
+<th>맨몸의 범위(대략)</th>
+<th>측정 기술로 넓힌 범위</th>
+</tr>
+</thead><tbody><tr>
+<td>보기(작은 것)</td>
+<td>약 0.1 mm(머리카락 굵기)</td>
+<td>광학 현미경 약 0.2 μm → 전자 현미경·주사 터널링 현미경으로 원자</td>
+</tr>
+<tr>
+<td>보기(먼 것)</td>
+<td>맨눈으로 보이는 안드로메다 은하(약 250만 광년)</td>
+<td>우주 망원경으로 100억 광년이 넘는 거리의 은하</td>
+</tr>
+<tr>
+<td>보기(빛의 종류)</td>
+<td>가시광선뿐</td>
+<td>전파, 적외선, 자외선, X선 망원경</td>
+</tr>
+<tr>
+<td>시간 감각</td>
+<td>약 0.1초 정도의 차이를 겨우 구별</td>
+<td>원자시계, 아토초 펄스</td>
+</tr>
+<tr>
+<td>듣기</td>
+<td>약 20 Hz ~ 20 000 Hz</td>
+<td>지진계, 초음파 장치, 중력파 검출기</td>
+</tr>
+</tbody></table></div>
+<p>망원경, 현미경, 시계는 모두 <strong>인간의 감각을 연장한 도구</strong>이다. 갈릴레이가 망원경으로 목성의 위성을 발견했을 때, 2019년 국제 공동 연구진(한국천문연구원 연구진 포함)이 전 세계 전파 망원경을 연결해 블랙홀의 그림자를 처음 촬영했을 때, 인류가 &#39;경험할 수 있는 세계&#39;는 한 단계씩 넓어졌다.</p>
+<h4 id="그래도-과학에는-한계가-있다">그래도 과학에는 한계가 있다</h4>
+<ul>
+<li><strong>관측 가능한 범위의 한계</strong>: 빛의 속력은 유한하고 우주의 나이도 유한하므로, 빛이 아직 우리에게 도달하지 못한 곳은 볼 수 없다. 이것이 &#39;관측 가능한 우주&#39;라는 말에 &#39;관측 가능한&#39;이 붙은 이유이다.</li>
+<li><strong>측정에는 언제나 오차가 있다</strong>: 아무리 정밀한 시계와 자도 &#39;완벽한&#39; 값은 주지 못한다. 과학은 오차를 줄이고, 오차가 얼마인지를 정직하게 밝히는 활동이다(1-3단원).</li>
+<li><strong>아직 모르는 영역</strong>: 우주를 이루는 물질과 에너지의 대부분은 정체를 모른다(암흑 물질, 암흑 에너지). 원자핵보다 훨씬 작은 규모에서 시간과 공간이 어떤 모습인지도 아직 밝혀지지 않았다.</li>
+</ul>
+<aside class="callout important"><p class="callout-title">핵심</p><p>과학의 한계를 인정하는 것은 과학의 약점이 아니라 <strong>과학의 정직함</strong>이다. &quot;어디까지 알고, 어디부터 모르는가&quot;를 분명히 할 때 다음 탐구가 시작된다.</p>
+</aside>
+<hr>
+<h2 id="step-4" class="step-h s4"><span class="step-badge s4">STEP 4</span><span class="h-text">오개념 바로잡기</span></h2>
+<div class="table-wrap"><table><thead><tr>
+<th>흔한 오개념</th>
+<th>올바른 개념</th>
+<th>왜 그럴까?</th>
+</tr>
+</thead><tbody><tr>
+<td>광년은 시간의 단위이다</td>
+<td>광년은 빛이 1년 동안 가는 <strong>거리</strong>, 즉 길이의 단위이다</td>
+<td>이름에 &#39;년&#39;이 들어 있어 시간으로 착각하기 쉽다</td>
+</tr>
+<tr>
+<td>1 m는 프랑스에 보관된 쇠막대의 길이로 정한다</td>
+<td>1983년부터 1 m는 <strong>빛이 1/299 792 458초 동안 가는 거리</strong>로 정한다</td>
+<td>막대는 변형·손상될 수 있지만 빛의 속력은 변하지 않는 자연의 상수이다</td>
+</tr>
+<tr>
+<td>별을 보면 그 별의 지금 모습을 보는 것이다</td>
+<td>별빛이 오는 데 걸린 시간만큼 <strong>과거의 모습</strong>을 본다</td>
+<td>빛의 속력은 매우 빠르지만 유한하다</td>
+</tr>
+<tr>
+<td>GPS 위성이 스마트폰의 위치를 추적해서 알려 준다</td>
+<td>위성은 <strong>시각과 위치 신호를 보내기만</strong> 하고, 위치 계산은 <strong>수신기(스마트폰)</strong> 가 한다</td>
+<td>수신기가 여러 위성 신호의 도착 시간 차이로 거리를 계산한다</td>
+</tr>
+<tr>
+<td>원자는 아주 작으니 10배쯤 확대하면 보인다</td>
+<td>원자는 머리카락 굵기의 약 <strong>100만분의 1</strong>이다</td>
+<td>규모의 차이는 &#39;몇 배&#39;가 아니라 &#39;10의 몇 제곱&#39;으로 생각해야 실감이 난다</td>
+</tr>
+<tr>
+<td>과학이 발전하면 모든 것을 완벽하게 잴 수 있다</td>
+<td>측정에는 항상 오차가 있고, 관측할 수 없는 영역도 있다</td>
+<td>과학은 한계를 인정하고 그 범위를 조금씩 넓혀 가는 활동이다</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-5" class="step-h s5"><span class="step-badge s5">STEP 5</span><span class="h-text">선택과목·대학으로 한 걸음 더</span></h2>
+<aside class="callout caution"><p class="callout-title">심화 · 평가 범위 밖</p><p>이 절은 <strong>통합과학 교육과정 범위 밖의 심화 내용</strong>으로 평가 대상이 아니다. &quot;이 개념이 앞으로 어디까지 이어지는가&quot;를 맛보기로 보여 주기 위한 내용이다.</p>
+</aside>
+<h3 id="고2-3-선택과목과의-연결">고2·3 선택과목과의 연결</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>과목</th>
+<th>이어지는 내용</th>
+</tr>
+</thead><tbody><tr>
+<td>물리학</td>
+<td>빛의 속력이 모든 관성계에서 같다는 원리 → 시간 팽창, 길이 수축 [12물리03-06]</td>
+</tr>
+<tr>
+<td>역학과 에너지</td>
+<td>등가 원리와 시공간의 휘어짐, 블랙홀과 <strong>중력 시간 지연</strong> [12역학01-06]</td>
+</tr>
+<tr>
+<td>행성우주과학</td>
+<td>별의 시차와 밝기를 이용하여 거리를 측정하는 다양한 방법 비교 [12행우02-02]</td>
+</tr>
+<tr>
+<td>지구과학</td>
+<td>외부은하와 우주의 팽창, 허블–르메트르 법칙 [12지구03-05]</td>
+</tr>
+</tbody></table></div>
+<h3 id="①-움직이는-시계는-느리게-간다-특수-상대성-이론">① 움직이는 시계는 느리게 간다 — 특수 상대성 이론</h3>
+<p>아인슈타인은 &quot;빛의 속력은 누가 재도 같다&quot;는 원리에서 출발해, 빠르게 움직이는 물체의 시간은 정지한 관찰자가 볼 때 <strong>느리게 흐른다</strong>는 결론을 얻었다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.4903em;vertical-align:-1.13em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.175em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.935em;"><span class="svg-align" style="top:-3.2em;"><span class="pstrut" style="height:3.2em;"></span><span class="mord" style="padding-left:1em;"><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7401em;"><span style="top:-2.989em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mord">/</span><span class="mord"><span class="mord mathnormal">c</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7401em;"><span style="top:-2.989em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span><span style="top:-2.895em;"><span class="pstrut" style="height:3.2em;"></span><span class="hide-tail" style="min-width:1.02em;height:1.28em;"><svg xmlns="http://www.w3.org/2000/svg" width='400em' height='1.28em' viewBox='0 0 400000 1296' preserveAspectRatio='xMinYMin slice'><path d='M263,681c0.7,0,18,39.7,52,119
+c34,79.3,68.167,158.7,102.5,238c34.3,79.3,51.8,119.3,52.5,120
+c340,-704.7,510.7,-1060.3,512,-1067
+l0 -0
+c4.7,-7.3,11,-11,19,-11
+H40000v40H1012.3
+s-271.3,567,-271.3,567c-38.7,80.7,-84,175,-136,283c-52,108,-89.167,185.3,-111.5,232
+c-22.3,46.7,-33.8,70.3,-34.5,71c-4.7,4.7,-12.3,7,-23,7s-12,-1,-12,-1
+s-109,-253,-109,-253c-72.7,-168,-109.3,-252,-110,-252c-10.7,8,-22,16.7,-34,26
+c-22,17.3,-33.3,26,-34,26s-26,-26,-26,-26s76,-59,76,-59s76,-60,76,-60z
+M1001 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.305em;"><span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord"><span class="mord mathnormal">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.13em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<p>(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord">Δ</span><span class="mord"><span class="mord mathnormal">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>: 움직이는 시계가 잰 시간, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span></span>: 정지한 관찰자가 잰 시간) 일상의 속력에서는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≪</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">c</span></span></span></span>라 차이를 느낄 수 없지만, 원자시계로는 이 차이를 직접 잴 수 있다.</p>
+<h3 id="②-gps는-상대성-이론-없이는-작동하지-않는다">② GPS는 상대성 이론 없이는 작동하지 않는다</h3>
+<p>GPS 위성의 시계에는 두 가지 효과가 동시에 작용한다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>효과</th>
+<th>원인</th>
+<th>하루 동안의 차이(대략)</th>
+</tr>
+</thead><tbody><tr>
+<td>특수 상대성 효과</td>
+<td>위성이 빠르게(약 3.9 km/s) 움직인다</td>
+<td>약 7 μs 느려짐</td>
+</tr>
+<tr>
+<td>일반 상대성 효과</td>
+<td>위성이 있는 곳은 지표보다 중력이 약하다</td>
+<td>약 45 μs 빨라짐</td>
+</tr>
+<tr>
+<td>합계</td>
+<td></td>
+<td>약 <strong>38 μs 빨라짐</strong></td>
+</tr>
+</tbody></table></div>
+<p>38 μs × (3 × 10⁸ m/s) ≈ 11 km. 보정하지 않으면 <strong>하루에 약 10 km씩 위치 오차가 쌓인다.</strong> 그래서 GPS 위성의 시계는 발사 전부터 이 효과를 고려해 조정된다. 우주와 시공간에 대한 이론이 스마트폰 지도 앱 속에서 매일 검증되고 있는 셈이다.</p>
+<h3 id="③-가장-작은-길이와-시간-플랑크-규모">③ 가장 작은 길이와 시간? — 플랑크 규모</h3>
+<p>대학 물리학에서는 중력, 양자, 빛의 속력을 나타내는 상수를 조합해 <strong>플랑크 길이(약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1.6</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">35</span></span></span></span></span></span></span></span></span></span></span></span> m)</strong> 와 <strong>플랑크 시간(약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">5.4</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">44</span></span></span></span></span></span></span></span></span></span></span></span> s)</strong> 을 만든다. 이 규모에서는 현재의 물리 이론으로 시공간을 설명할 수 없을 것으로 예상되며, 이를 다루는 이론(양자 중력)은 아직 완성되지 않았다. STEP 3의 &#39;과학의 한계&#39;가 바로 이 지점이다.</p>
+<h3 id="고등학교-vs-대학교">고등학교 vs 대학교</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>고등학교 통합과학</th>
+<th>대학교 물리학·천문학·측지학</th>
+</tr>
+</thead><tbody><tr>
+<td>시간과 공간</td>
+<td>사건을 기술하는 무대, 규모 비교</td>
+<td>4차원 시공간, 좌표 변환(로렌츠 변환), 휘어진 시공간</td>
+</tr>
+<tr>
+<td>길이 측정</td>
+<td>레이저 왕복 시간, GPS의 원리</td>
+<td>간섭계 설계, 위성 궤도 결정, 측지 좌표계</td>
+</tr>
+<tr>
+<td>시간 측정</td>
+<td>원자시계의 아이디어</td>
+<td>원자의 에너지 준위, 레이저 냉각, 광시계</td>
+</tr>
+<tr>
+<td>규모</td>
+<td>10의 거듭제곱으로 비교</td>
+<td>차원 분석, 규모에 따라 달라지는 물리 법칙</td>
+</tr>
+<tr>
+<td>관련 전공</td>
+<td>—</td>
+<td>물리학, 천문우주학, 측지·공간정보공학, 항공우주공학, 전자공학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-6" class="step-h s6"><span class="step-badge s6">STEP 6</span><span class="h-text">산업 현장과 진로 연결</span></h2>
+<h3 id="사례-1-위성-항법-시간을-파는-산업">사례 1. 위성 항법 — 시간을 파는 산업</h3>
+<ul>
+<li><strong>원리</strong> 원자시계를 실은 위성들이 시각 신호를 보내고, 수신기가 도착 시간 차이로 위치를 계산한다(1-1-④).</li>
+<li><strong>어디에 쓰이나</strong> 스마트폰 지도·배달 앱, 항공기·선박 항법, 농기계 자율 주행, 측량, 그리고 통신망·전력망·금융 거래의 <strong>시각 동기화</strong>.</li>
+<li><strong>핵심 숫자</strong> 시각 오차 1 μs → 거리 오차 약 300 m. 그래서 &#39;정확한 시간&#39;이 곧 &#39;정확한 위치&#39;이다.</li>
+<li><strong>우리나라</strong> 미국의 GPS 외에도 여러 나라가 독자적인 위성 항법 시스템을 운영하거나 개발하고 있으며, 우리나라도 <strong>한국형 위성항법시스템(KPS)</strong> 개발을 추진하고 있다.</li>
+</ul>
+<h3 id="사례-2-라이다-lidar-와-자율주행-디지털-트윈">사례 2. 라이다(LiDAR)와 자율주행·디지털 트윈</h3>
+<ul>
+<li><strong>원리</strong> 레이저 펄스를 1초에 수십만 번 이상 쏘고 각각의 왕복 시간을 재어 주변을 점들의 3차원 지도(점 구름)로 만든다. 원리는 예제 3의 달 거리 측정과 같다.</li>
+<li><strong>어디에 쓰이나</strong> 자율주행차·로봇의 장애물 인식, 건물과 도시를 컴퓨터 속에 똑같이 재현하는 디지털 트윈, 산림·지형 측량, 문화재의 3차원 기록.</li>
+<li><strong>핵심 숫자</strong> 빛은 1 ns에 약 30 cm를 가므로, 거리를 센티미터 수준으로 재려면 <strong>10억분의 1초보다 짧은 시간 차이</strong>를 구별해야 한다.</li>
+</ul>
+<h3 id="사례-3-국가-표준시와-정밀-시각">사례 3. 국가 표준시와 정밀 시각</h3>
+<ul>
+<li><strong>원리</strong> 한국표준과학연구원이 원자시계로 국가 표준시를 만들고, 세계 여러 나라의 표준 기관이 서로 비교하여 <strong>협정 세계시(UTC)</strong> 를 함께 유지한다.</li>
+<li><strong>어디에 쓰이나</strong> 방송 시보, 이동 통신 기지국, 증권 거래 시각 기록, 전력망 운영.</li>
+<li><strong>요즘 현장</strong> 세슘 원자시계보다 정밀한 <strong>광시계</strong> 연구가 세계적으로 활발하며, 앞으로 1초의 정의를 광시계 기준으로 바꾸는 방안이 국제적으로 논의되고 있다.</li>
+</ul>
+<h3 id="사례-4-반도체-미세-공정-나노미터의-세계">사례 4. 반도체 미세 공정 — 나노미터의 세계</h3>
+<ul>
+<li><strong>원리</strong> 오늘날 반도체 칩 속 회로의 일부 구조는 수 nm~수십 nm 수준이다. 원자 수십 개 크기에 해당하는 규모이다.</li>
+<li><strong>어디에 쓰이나</strong> 공정 장비는 웨이퍼의 위치를 <strong>나노미터 수준</strong>으로 맞추어야 하며, 이때 레이저 간섭계와 같은 정밀 길이 측정 기술이 쓰인다.</li>
+<li><strong>핵심 아이디어</strong> 미시세계의 크기를 정확히 &#39;재고 다룰 수 있는&#39; 능력이 곧 첨단 산업의 경쟁력이다.</li>
+</ul>
+<h3 id="관련-진로와-학과">관련 진로와 학과</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>진로</th>
+<th>하는 일</th>
+<th>관련 학과</th>
+</tr>
+</thead><tbody><tr>
+<td>측정 과학자(표준 연구원)</td>
+<td>원자시계·길이 표준 개발과 유지, 국제 비교</td>
+<td>물리학, 전자공학, 기계공학</td>
+</tr>
+<tr>
+<td>위성 항법·측량 엔지니어</td>
+<td>위성 신호 처리, 정밀 위치 결정, 지도 제작</td>
+<td>측지·공간정보공학, 항공우주공학, 전자공학</td>
+</tr>
+<tr>
+<td>천문학자</td>
+<td>우주 거리 측정, 망원경 관측과 자료 분석</td>
+<td>천문우주학, 물리학</td>
+</tr>
+<tr>
+<td>자율주행 센서 엔지니어</td>
+<td>라이다·카메라 자료 처리, 3차원 지도 제작</td>
+<td>전자공학, 기계공학, 컴퓨터공학</td>
+</tr>
+<tr>
+<td>반도체 공정·계측 엔지니어</td>
+<td>나노미터 수준의 패턴 측정과 검사</td>
+<td>신소재공학, 물리학, 전자공학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="탐구-활동-미시세계와-거시세계의-물체의-크기에-따른-차이점-분석하기">탐구 활동 — 미시세계와 거시세계의 물체의 크기에 따른 차이점 분석하기</h2>
+<h3 id="활동-a-10의-거듭제곱-크기-사다리-만들기-모둠-활동">활동 A. 10의 거듭제곱 크기 사다리 만들기 (모둠 활동)</h3>
+<p><strong>목표</strong> 미시세계와 거시세계의 다양한 대상을 조사하여 10의 거듭제곱 눈금 위에 배치하고, 규모에 따라 무엇이 달라지는지 분석한다.</p>
+<p><strong>준비물</strong> 긴 종이 띠(약 2.5 m), 자, 색연필, 포스트잇, 인터넷 검색이 가능한 스마트 기기</p>
+<p><strong>과정</strong></p>
+<ol>
+<li>종이 띠에 5 cm 간격으로 눈금 43개를 긋고, 왼쪽 끝부터 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">15</span></span></span></span></span></span></span></span></span></span></span></span> m, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">14</span></span></span></span></span></span></span></span></span></span></span></span> m, …, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">27</span></span></span></span></span></span></span></span></span></span></span></span> m라고 적는다(한 칸 = 10배, 전체 약 2.1 m).</li>
+<li>모둠별로 서로 다른 대상을 최소 12개 조사한다. 미시(원자, 바이러스, 세포 …), 일상(개미, 사람, 건물 …), 거시(산, 지구, 은하 …)에서 골고루 고른다.</li>
+<li>각 대상의 크기를 과학적 표기법으로 나타내고, 지수에 해당하는 칸에 포스트잇을 붙인다.</li>
+<li>각 대상을 &#39;무엇으로 보거나 재는가&#39;(맨눈, 현미경, 망원경, 위성 등)를 포스트잇 아래에 적는다.</li>
+<li>같은 방식으로 &#39;시간 사다리&#39;도 만들어 본다(선택).</li>
+</ol>
+<p><strong>결과 기록</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>대상</th>
+<th>크기</th>
+<th>과학적 표기법(m)</th>
+<th>관찰·측정 도구</th>
+<th>미시 / 일상 / 거시</th>
+</tr>
+</thead><tbody><tr>
+<td>예) 적혈구</td>
+<td>약 8 μm</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">8</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">6</span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td>광학 현미경</td>
+<td>미시</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<p><strong>생각해 보기</strong></p>
+<ol>
+<li>맨눈으로 직접 볼 수 있는 범위는 사다리에서 몇 칸 정도인가? 전체 칸 수와 비교해 보자.</li>
+<li>미시세계를 관찰하는 도구와 거시세계를 관찰하는 도구의 공통점은 무엇일까? (힌트: 대부분 &#39;빛&#39;이나 &#39;전자기파&#39;를 이용한다.)</li>
+<li>사다리의 양 끝 너머에는 무엇이 있을까? 우리가 아직 잴 수 없는 영역에 대해 모둠의 생각을 정리해 보자.</li>
+</ol>
+<h3 id="활동-b-스마트폰-스톱워치로-39-반응-시간-39-재기-시간-측정의-한계-체험">활동 B. 스마트폰 스톱워치로 &#39;반응 시간&#39; 재기 — 시간 측정의 한계 체험</h3>
+<ol>
+<li>짝이 스톱워치를 시작하고, 내가 화면을 보지 않은 채 짝의 신호(&quot;지금!&quot;)에 맞추어 멈추는 실험을 10회 반복한다.</li>
+<li>이번에는 내가 직접 시작하고 &#39;정확히 5초&#39;라고 생각될 때 멈추는 실험을 10회 반복한다.</li>
+<li>결과의 평균과 가장 큰 값–가장 작은 값의 차이를 구한다.</li>
+<li>사람의 손으로 재는 시간 측정이 몇 초 수준까지 믿을 만한지 토의하고, 육상 경기에서 전자 계측 장치를 쓰는 이유를 설명해 본다.</li>
+</ol>
+<hr>
+<h2 id="개념-확인-문제">개념 확인 문제</h2>
+<h3 id="기본">기본</h3>
+<p><strong>1.</strong> 다음을 과학적 표기법으로 나타내시오.
+(1) 지구–태양 거리 150 000 000 000 m
+(2) 바이러스의 크기 0.000 000 1 m</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> (1) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1.5</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">11</span></span></span></span></span></span></span></span></span></span></span></span> m (2) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">7</span></span></span></span></span></span></span></span></span></span></span></span> m</p>
+<p>(1) 소수점을 왼쪽으로 11자리 옮겼다. (2) 소수점을 오른쪽으로 7자리 옮겼다.</p>
+</div></details>
+
+<p><strong>2.</strong> 다음 중 크기의 차수가 가장 큰 것과 가장 작은 것을 고르시오.
+ㄱ. 원자 ㄴ. 지구의 지름 ㄷ. 적혈구 ㄹ. 우리은하의 지름 ㅁ. 원자핵</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 가장 큰 것: ㄹ, 가장 작은 것: ㅁ</p>
+<p>원자핵(약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">15</span></span></span></span></span></span></span></span></span></span></span></span> m) &lt; 원자(약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">10</span></span></span></span></span></span></span></span></span></span></span></span> m) &lt; 적혈구(약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">5</span></span></span></span></span></span></span></span></span></span></span></span> m) &lt; 지구의 지름(약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">7</span></span></span></span></span></span></span></span></span></span></span></span> m) &lt; 우리은하의 지름(약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">21</span></span></span></span></span></span></span></span></span></span></span></span> m)</p>
+</div></details>
+
+<p><strong>3.</strong> 현재 1 m는 무엇을 기준으로 정의하는가? 쇠막대(미터 원기)를 기준으로 하던 방식에서 바꾼 까닭과 함께 쓰시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 빛이 진공에서 1/299 792 458초 동안 이동한 거리</p>
+<p>미터 원기는 하나뿐인 인공물이라 온도 변화, 손상, 마모의 영향을 받을 수 있고 다른 나라에서 직접 비교하기도 어렵다. 빛의 속력은 언제 어디서나 같은 자연의 상수이므로, 시간을 정밀하게 잴 수 있으면 누구나 같은 1 m를 재현할 수 있다.</p>
+</div></details>
+
+<p><strong>4.</strong> 빈칸에 알맞은 말을 쓰시오.
+&quot;시계는 규칙적으로 ( ㄱ )되는 현상의 횟수를 세어 시간을 잰다. 현재 1초는 ( ㄴ )-133 원자와 관련된 전자기파가 9 192 631 770번 진동하는 시간으로 정의한다.&quot;</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> ㄱ: 반복, ㄴ: 세슘</p>
+</div></details>
+
+<h3 id="응용">응용</h3>
+<p><strong>5.</strong> 레이저 거리 측정기로 건물 벽을 겨누었더니 빛이 반사되어 돌아오는 데 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">7</span></span></span></span></span></span></span></span></span></span></span></span>초가 걸렸다. 측정기에서 벽까지의 거리는? (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">c</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">3</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span></span></span></span></span> m/s)</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 30 m</p>
+<p><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">d</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.9781em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.2921em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">c</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">t</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.1771em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.4911em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">3</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">7</span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">30</span><span class="mspace"> </span><span class="mord mathrm">m</span></span></span></span></p>
+<p>빛이 &#39;왕복&#39;한 시간이므로 반드시 2로 나누어야 한다. 2로 나누지 않으면 60 m라는 틀린 답이 나온다.</p>
+</div></details>
+
+<p><strong>6.</strong> 우주 달력(우주의 나이 138억 년을 1년으로 줄인 달력)에 대한 설명으로 옳은 것을 <strong>모두</strong> 고르시오.
+ㄱ. 지구는 우주 달력의 상반기(1~6월)에 탄생했다.
+ㄴ. 공룡이 멸종한 사건은 12월에 일어났다.
+ㄷ. 인류의 기록된 역사는 우주 달력의 마지막 1분 안에 들어간다.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답 ㄴ, ㄷ</strong></p>
+<p>ㄱ. 지구의 나이(약 46억 년)는 우주 나이의 약 3분의 1이므로, 연말에서 약 4개월 전인 9월 초에 해당한다. 틀렸다.
+ㄴ. 약 6600만 년 전은 연말에서 약 1.7일 전, 즉 12월 30일 아침이다.
+ㄷ. 약 5000년은 우주 달력에서 약 11초에 해당한다.</p>
+</div></details>
+
+<p><strong>7.</strong> GPS 수신기에 대한 설명으로 옳지 <strong>않은</strong> 것은?
+① 위성은 정확한 시각 정보가 담긴 신호를 보낸다.
+② 수신기는 신호가 날아오는 데 걸린 시간으로 위성까지의 거리를 구한다.
+③ 위성 하나까지의 거리만 알면 수신기의 위치를 하나로 정할 수 있다.
+④ 수신기의 시계 오차를 보정하기 위해 보통 네 개 이상의 위성 신호를 이용한다.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답 ③</strong></p>
+<p>위성 하나까지의 거리만 알면 &#39;그 위성을 중심으로 하는 구면 위의 어딘가&#39;라는 것만 알 수 있다. 세 위성까지의 거리가 있어야 공간의 한 점으로 좁혀지고, 수신기 시계 오차까지 보정하려면 네 번째 위성이 필요하다.</p>
+</div></details>
+
+<h3 id="융합-서술형">융합·서술형</h3>
+<p><strong>8. [산업 연계]</strong> 자율주행차의 라이다는 레이저가 물체에 반사되어 돌아오는 시간으로 거리를 잰다. 거리를 1.5 cm 차이까지 구별하려면 시간 차이를 얼마까지 구별해야 하는지 구하고, 이것이 &#39;정밀한 시간 측정&#39;과 어떤 관계가 있는지 서술하시오. (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">c</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">3</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span></span></span></span></span> m/s)</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+거리가 1.5 cm 달라지면 빛의 왕복 거리는 3 cm 달라진다. 따라서 구별해야 하는 시간 차이는
+<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.2574em;vertical-align:-0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">3</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7401em;"><span style="top:-2.989em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">m/s</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">0.03</span><span class="mspace"> </span><span class="mord mathrm">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.936em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">10</span></span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord mathrm">s</span></span></span></span> (0.1 ns)이다.
+빛은 매우 빠르므로 거리를 정밀하게 재려면 <strong>10억분의 1초보다 짧은 시간 차이</strong>를 구별해야 한다. 즉 길이 측정의 정밀도는 시간 측정의 정밀도에 달려 있으며, 이것이 현대에 길이를 빛의 속력과 시간으로 정의하는 이유와도 연결된다.</p>
+<p><strong>채점 포인트</strong> ① 왕복 거리 고려(2배) ② <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">Δ</span><span class="mord mathnormal">d</span><span class="mord">/</span><span class="mord mathnormal">c</span></span></span></span> 계산 ③ 시간 측정 정밀도와 길이 측정 정밀도의 관계 서술</p>
+</div></details>
+
+<p><strong>9. [과학의 한계 연계]</strong> 어떤 학생이 &quot;망원경 성능만 계속 좋아지면, 언젠가는 우주의 모든 곳을 다 볼 수 있다.&quot;라고 주장했다. 이 주장의 문제점을 &#39;빛의 속력&#39;과 &#39;우주의 나이&#39;를 이용하여 서술하고, 과학의 한계를 인정하는 것이 왜 중요한지 덧붙이시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+우리가 천체를 보는 것은 그 천체에서 출발한 빛이 지구에 도착했기 때문이다. 빛의 속력은 유한하고 우주의 나이도 약 138억 년으로 유한하므로, 빛이 출발했더라도 아직 지구에 도달하지 못한 영역은 망원경 성능과 상관없이 볼 수 없다. 따라서 우리가 볼 수 있는 범위는 &#39;관측 가능한 우주&#39;로 한정된다.
+과학의 한계를 인정하면 어디까지가 확인된 지식이고 어디부터가 추측인지 구분할 수 있어, 근거 없는 주장을 피하고 새로운 탐구 질문을 세울 수 있다.</p>
+<p><strong>채점 포인트</strong> ① 빛이 도달해야 볼 수 있음 ② 빛의 속력과 우주의 나이가 유한함 ③ 한계 인정의 의의</p>
+</div></details>
+
+<hr>
+<h2 id="한눈에-정리">한눈에 정리</h2>
+<h3 id="핵심-요약">핵심 요약</h3>
+<ul>
+<li>자연의 모든 사건은 <strong>시간(언제)</strong> 과 <strong>공간(어디서)</strong> 으로 기술할 수 있다. 공간 3개 + 시간 1개의 수로 사건 하나가 정해진다.</li>
+<li>원자핵(약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">15</span></span></span></span></span></span></span></span></span></span></span></span> m)에서 관측 가능한 우주(약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">27</span></span></span></span></span></span></span></span></span></span></span></span> m)까지, 아토초에서 우주의 나이(약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">4.4</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">17</span></span></span></span></span></span></span></span></span></span></span></span> s)까지 자연은 엄청난 <strong>규모</strong>의 폭을 가지며, 이를 <strong>10의 거듭제곱</strong>으로 비교한다.</li>
+<li>시계는 <strong>규칙적인 반복</strong>을 센다. 해시계·물시계 → 진자 → 수정 → <strong>원자시계</strong>(1초 = 세슘-133 관련 진동 9 192 631 770번)로 발전했다.</li>
+<li>1983년부터 1 m는 <strong>빛이 1/299 792 458초 동안 가는 거리</strong>이다. 길이 측정은 시간 측정에 기대고 있다.</li>
+<li><strong>레이저 거리 측정</strong>과 <strong>GPS</strong>는 &#39;거리 = 빛의 속력 × 시간&#39;을 이용한다. 시간 오차 1 μs는 약 300 m의 거리 오차가 된다.</li>
+<li>측정 기술은 인간의 경험 범위를 넓혀 왔지만, 관측 가능한 우주의 경계·측정 오차·미지의 영역 등 <strong>과학의 한계</strong>도 분명히 존재한다.</li>
+</ul>
+<h3 id="핵심-용어">핵심 용어</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>용어</th>
+<th>뜻</th>
+</tr>
+</thead><tbody><tr>
+<td>규모(scale)</td>
+<td>대상의 크기나 시간의 길이가 어느 정도 범위에 있는지를 나타내는 것</td>
+</tr>
+<tr>
+<td>과학적 표기법</td>
+<td>수를 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal">a</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6644em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">n</span></span></span></span></span></span></span></span></span></span></span></span> (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7804em;vertical-align:-0.136em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mord mathnormal">a</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10</span></span></span></span>) 꼴로 나타내는 방법</td>
+</tr>
+<tr>
+<td>크기의 차수</td>
+<td>어떤 양이 대략 10의 몇 제곱 정도인지를 나타낸 것</td>
+</tr>
+<tr>
+<td>광년</td>
+<td>빛이 1년 동안 이동하는 거리(약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">9.5</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">15</span></span></span></span></span></span></span></span></span></span></span></span> m)</td>
+</tr>
+<tr>
+<td>원자시계</td>
+<td>원자가 흡수·방출하는 전자기파의 일정한 진동을 이용한 매우 정밀한 시계</td>
+</tr>
+<tr>
+<td>레이저 거리 측정</td>
+<td>레이저 빛의 왕복 시간을 재어 거리를 구하는 방법</td>
+</tr>
+<tr>
+<td>GPS(위성 항법 시스템)</td>
+<td>여러 위성의 시각 신호가 도착하는 시간으로 위치를 계산하는 체계</td>
+</tr>
+<tr>
+<td>관측 가능한 우주</td>
+<td>우주가 시작된 뒤 빛이 지구에 도달할 수 있었던 범위의 우주</td>
+</tr>
+</tbody></table></div>
+<h3 id="다음-단원으로">다음 단원으로</h3>
+<p>지금까지 자연이라는 무대의 <strong>시간과 공간</strong>을 어떻게 재는지 살펴보았다. 그런데 과학이 다루는 양은 시간과 길이만이 아니다. 다음 단원에서는 질량, 전류, 온도처럼 자연을 기술하는 데 꼭 필요한 <strong>기본량</strong>과, 전 세계가 함께 쓰는 <strong>단위</strong>가 어떻게 자연의 상수 위에 세워졌는지 알아본다.</p>
+<nav class="pager"><span></span><a class="next" href="1-2.html"><small>다음 단원</small>1-2 기본량과 단위</a></nav></article></div>
+</main>
+</div>
+</body>
+</html>

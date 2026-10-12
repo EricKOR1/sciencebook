@@ -1,0 +1,1272 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>3-5 생명 시스템과 물질대사</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css">
+<link rel="stylesheet" href="assets/book.css">
+<script src="assets/js/book.js" defer></script>
+
+</head>
+<body class="">
+<header class="topbar">
+  <button class="menu-btn" id="menu-btn" aria-controls="drawer" aria-expanded="false">목차</button>
+  <a class="brand" href="index.html">통합과학 개념에서 산업까지</a>
+  <button class="theme-btn" id="theme-btn" aria-label="밝은 화면과 어두운 화면 바꾸기">화면</button>
+</header>
+<div class="shell">
+<aside class="drawer" id="drawer"><nav class="book-nav" aria-label="교재 목차"><a class="nav-home" href="index.html">처음으로</a><p class="nav-book">통합과학1</p><p class="nav-unit"><span>1단원</span> 과학의 기초</p><ul><li><a href="1-1.html"><span class="nav-id">1-1</span>시간과 공간</a></li><li><a href="1-2.html"><span class="nav-id">1-2</span>기본량과 단위</a></li><li><a href="1-3.html"><span class="nav-id">1-3</span>측정과 어림, 측정 표준</a></li><li><a href="1-4.html"><span class="nav-id">1-4</span>정보와 신호: 아날로그에서 디지털로</a></li></ul><p class="nav-unit"><span>2단원</span> 물질과 규칙성</p><ul><li><a href="2-1.html"><span class="nav-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="2-2.html"><span class="nav-id">2-2</span>별의 진화와 원소의 생성</a></li><li><a href="2-3.html"><span class="nav-id">2-3</span>원소의 주기성과 화학 결합의 이유</a></li><li><a href="2-4.html"><span class="nav-id">2-4</span>이온 결합과 공유 결합</a></li><li><a href="2-5.html"><span class="nav-id">2-5</span>지각과 생명체 구성 물질의 규칙성</a></li><li><a href="2-6.html"><span class="nav-id">2-6</span>물질의 전기적 성질과 소재</a></li></ul><p class="nav-unit"><span>3단원</span> 시스템과 상호작용</p><ul><li><a href="3-1.html"><span class="nav-id">3-1</span>지구시스템의 구성과 상호작용</a></li><li><a href="3-2.html"><span class="nav-id">3-2</span>판구조론과 지권의 변화</a></li><li><a href="3-3.html"><span class="nav-id">3-3</span>중력과 운동</a></li><li><a href="3-4.html"><span class="nav-id">3-4</span>운동량과 충격량</a></li><li><a href="3-5.html" aria-current="page"><span class="nav-id">3-5</span>생명 시스템과 물질대사</a></li><li><a href="3-6.html"><span class="nav-id">3-6</span>유전자와 단백질</a></li></ul><p class="nav-book">통합과학2</p><p class="nav-unit"><span>4단원</span> 변화와 다양성</p><ul><li><a href="4-1.html"><span class="nav-id">4-1</span>지질시대의 환경 변화와 생물다양성</a></li><li><a href="4-2.html"><span class="nav-id">4-2</span>진화와 생물다양성</a></li><li><a href="4-3.html"><span class="nav-id">4-3</span>산화와 환원</a></li><li><a href="4-4.html"><span class="nav-id">4-4</span>산과 염기, 중화 반응</a></li><li><a href="4-5.html"><span class="nav-id">4-5</span>물질 변화와 에너지 출입</a></li></ul><p class="nav-unit"><span>5단원</span> 환경과 에너지</p><ul><li><a href="5-1.html"><span class="nav-id">5-1</span>생태계 구성 요소와 상호 관계</a></li><li><a href="5-2.html"><span class="nav-id">5-2</span>생태계 평형</a></li><li><a href="5-3.html"><span class="nav-id">5-3</span>지구온난화와 기후변화</a></li><li><a href="5-4.html"><span class="nav-id">5-4</span>태양 에너지와 에너지 전환</a></li><li><a href="5-5.html"><span class="nav-id">5-5</span>발전기와 전기 에너지</a></li><li><a href="5-6.html"><span class="nav-id">5-6</span>에너지 효율과 신재생 에너지</a></li></ul><p class="nav-unit"><span>6단원</span> 과학과 미래 사회</p><ul><li><a href="6-1.html"><span class="nav-id">6-1</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html"><span class="nav-id">6-2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html"><span class="nav-id">6-3</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html"><span class="nav-id">6-4</span>과학기술과 윤리</a></li></ul><p class="nav-book">부록</p><ul><li><a href="guide.html">교재 설계 안내</a></li><li><a href="appendix-standards.html">부록 1. 교육과정 성취기준</a></li><li><a href="appendix-map.html">부록 2. 연계 지도</a></li><li><a href="appendix-glossary.html">부록 3. 핵심 용어 사전</a></li></ul></nav></aside>
+<main class="main" id="main">
+<div class="lesson-grid"><nav class="ladder" aria-label="이 단원의 흐름"><p class="ladder-title">이 단원의 흐름</p><ol><li class="extra"><a href="#단원-들어가기">단원 들어가기</a></li><li class="s1"><a href="#step-1"><b>STEP 1</b> 중학교 다시 보기</a></li><li class="s2"><a href="#step-2"><b>STEP 2</b> 기초 다지기</a></li><li class="s3"><a href="#step-3"><b>STEP 3</b> 핵심 개념</a></li><li class="s4"><a href="#step-4"><b>STEP 4</b> 오개념 바로잡기</a></li><li class="s5"><a href="#step-5"><b>STEP 5</b> 선택과목·대학으로 한 걸음 더</a></li><li class="s6"><a href="#step-6"><b>STEP 6</b> 산업 현장과 진로 연결</a></li><li class="extra"><a href="#탐구-활동">탐구 활동</a></li><li class="extra"><a href="#개념-확인-문제">개념 확인 문제</a></li><li class="extra"><a href="#한눈에-정리">한눈에 정리</a></li></ol></nav><article class="prose lesson"><header class="lesson-hero u3">
+  <p class="eyebrow">통합과학1 · 3단원 시스템과 상호작용</p>
+  <h1><span class="lesson-id">3-5</span>생명 시스템과 물질대사</h1>
+  <p class="lesson-sub">세포막과 효소가 지키는 생명</p>
+</header><aside class="callout note"><p class="callout-title">성취기준·참고</p><p><strong>성취기준 [10통과1-03-05]</strong> 생명 시스템을 유지하기 위해서 다양한 화학 반응과 물질 출입이 필요함을 이해하고, 일상생활에서 활용되는 화학 반응 사례를 조사하여 발표할 수 있다.</p>
+</aside>
+<p><strong>학습 목표</strong></p>
+<ol>
+<li>생명 시스템이 세포 → 조직 → 기관 → 개체의 단계로 구성됨을 알고, 주요 세포 소기관의 역할을 설명할 수 있다.</li>
+<li>세포막의 구조(인지질 이중층과 단백질)와 선택적 투과성을 이해하고, 확산과 삼투로 세포 안팎의 물질 출입을 설명할 수 있다.</li>
+<li>물질대사를 동화 작용과 이화 작용으로 구분하고, 효소가 활성화 에너지를 낮추어 생명체의 화학 반응을 돕는다는 것을 설명할 수 있다.</li>
+<li>효소의 기질 특이성과 온도·pH의 영향을 이해하고, 일상생활과 산업에서 효소가 활용되는 사례를 조사하여 발표할 수 있다.</li>
+</ol>
+<p><strong>이 단원의 학습 사다리</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>단계</th>
+<th>무엇을 하나?</th>
+</tr>
+</thead><tbody><tr>
+<td>STEP 1. 중학교 다시 보기</td>
+<td>세포의 구조, 확산, 소화 효소, 광합성과 호흡을 다시 꺼내 본다</td>
+</tr>
+<tr>
+<td>STEP 2. 기초 다지기</td>
+<td>입자의 운동, 용액의 농도, 화학 반응과 에너지, 촉매를 디딤돌로 놓는다</td>
+</tr>
+<tr>
+<td>STEP 3. 핵심 개념</td>
+<td>생명 시스템의 구성 → 세포막 → 확산·삼투 → 물질대사 → 효소</td>
+</tr>
+<tr>
+<td>STEP 4. 오개념 바로잡기</td>
+<td>&quot;효소는 반응에 쓰이면 없어진다?&quot; 같은 착각을 바로잡는다</td>
+</tr>
+<tr>
+<td>STEP 5. 선택과목·대학</td>
+<td>ATP와 능동 수송, 삼투압 계산, 효소 반응 속도론</td>
+</tr>
+<tr>
+<td>STEP 6. 산업·진로</td>
+<td>효소 산업, 진단 기기, 혈액 투석과 역삼투 정수, 약물 전달</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="단원-들어가기">단원 들어가기</h2>
+<p>김장할 때 배추를 소금에 절이면 뻣뻣하던 배추가 몇 시간 만에 축 늘어진다. 신선한 파인애플을 넣고 젤리를 만들면 젤리가 굳지 않지만, 통조림 파인애플을 넣으면 잘 굳는다. 상처에 과산화 수소수를 바르면 하얀 거품이 보글보글 올라온다.</p>
+<p>전혀 다른 장면 같지만, 세 현상은 모두 <strong>세포</strong>라는 작은 생명 시스템 안에서 일어나는 두 가지 일로 설명된다. 하나는 세포막을 통해 <strong>물질이 드나드는 것(물질 출입)</strong>, 다른 하나는 세포 안에서 <strong>효소의 도움으로 화학 반응이 일어나는 것(물질대사)</strong> 이다. 3-4 단원에서 물체들이 힘을 주고받는 역학 시스템을 보았다면, 이번에는 세포가 물질과 에너지를 주고받으며 생명을 유지하는 모습을 살펴보자.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-3-5-0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 1416.546875 204" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-3-5-0{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-3-5-0 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-3-5-0 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-3-5-0 .error-icon{fill:var(--mm-group);}#mm-3-5-0 .error-text{fill:#595959;stroke:#595959;}#mm-3-5-0 .edge-thickness-normal{stroke-width:1px;}#mm-3-5-0 .edge-thickness-thick{stroke-width:3.5px;}#mm-3-5-0 .edge-pattern-solid{stroke-dasharray:0;}#mm-3-5-0 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-3-5-0 .edge-pattern-dashed{stroke-dasharray:3;}#mm-3-5-0 .edge-pattern-dotted{stroke-dasharray:2;}#mm-3-5-0 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-3-5-0 .marker.cross{stroke:var(--mm-line);}#mm-3-5-0 svg{font-family:inherit;font-size:15px;}#mm-3-5-0 p{margin:0;}#mm-3-5-0 .label{font-family:inherit;color:var(--mm-text);}#mm-3-5-0 .cluster-label text{fill:#595959;}#mm-3-5-0 .cluster-label span{color:#595959;}#mm-3-5-0 .cluster-label span p{background-color:transparent;}#mm-3-5-0 .label text,#mm-3-5-0 span{fill:var(--mm-text);color:var(--mm-text);}#mm-3-5-0 .node rect,#mm-3-5-0 .node circle,#mm-3-5-0 .node ellipse,#mm-3-5-0 .node polygon,#mm-3-5-0 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-3-5-0 .rough-node .label text,#mm-3-5-0 .node .label text,#mm-3-5-0 .image-shape .label,#mm-3-5-0 .icon-shape .label{text-anchor:middle;}#mm-3-5-0 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-3-5-0 .rough-node .label,#mm-3-5-0 .node .label,#mm-3-5-0 .image-shape .label,#mm-3-5-0 .icon-shape .label{text-align:center;}#mm-3-5-0 .node.clickable{cursor:pointer;}#mm-3-5-0 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-3-5-0 .arrowheadPath{fill:#0b0b0b;}#mm-3-5-0 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-3-5-0 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-3-5-0 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-3-5-0 .edgeLabel p{background-color:var(--mm-label);}#mm-3-5-0 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-3-5-0 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-3-5-0 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-3-5-0 .cluster text{fill:#595959;}#mm-3-5-0 .cluster span{color:#595959;}#mm-3-5-0 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-3-5-0 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-3-5-0 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-3-5-0 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-3-5-0 rect.text{fill:none;stroke-width:0;}#mm-3-5-0 .icon-shape,#mm-3-5-0 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-3-5-0 .icon-shape p,#mm-3-5-0 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-3-5-0 .icon-shape .label rect,#mm-3-5-0 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-3-5-0 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-3-5-0 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-3-5-0 .node .neo-node{stroke:var(--mm-border);}#mm-3-5-0 [data-look="neo"].node rect,#mm-3-5-0 [data-look="neo"].cluster rect,#mm-3-5-0 [data-look="neo"].node polygon{stroke:url(#mm-3-5-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-5-0 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-3-5-0 [data-look="neo"].node path{stroke:url(#mm-3-5-0-gradient);stroke-width:1px;}#mm-3-5-0 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-5-0 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-3-5-0 [data-look="neo"].node circle{stroke:url(#mm-3-5-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-5-0 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-3-5-0 [data-look="neo"].icon-shape .icon{fill:url(#mm-3-5-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-5-0 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-3-5-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-5-0 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-3-5-0_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-0_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-0_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-0_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-0_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-0_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-0_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-0_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-0_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-0_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-0_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-3-5-0_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M221,102L225.167,102C229.333,102,237.667,102,245.333,102C253,102,260,102,263.5,102L267,102" id="mm-3-5-0-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MjIxLCJ5IjoxMDJ9LHsieCI6MjQ2LCJ5IjoxMDJ9LHsieCI6MjcxLCJ5IjoxMDJ9XQ==" data-look="classic" marker-end="url(#mm-3-5-0_flowchart-v2-pointEnd)"/><path d="M439.937,136.5L448.533,140.667C457.13,144.833,474.323,153.167,486.419,157.333C498.516,161.5,505.516,161.5,509.016,161.5L512.516,161.5" id="mm-3-5-0-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6NDM5LjkzNjcxMjE4NDg3Mzk1LCJ5IjoxMzYuNX0seyJ4Ijo0OTEuNTE1NjI1LCJ5IjoxNjEuNX0seyJ4Ijo1MTYuNTE1NjI1LCJ5IjoxNjEuNX1d" data-look="classic" marker-end="url(#mm-3-5-0_flowchart-v2-pointEnd)"/><path d="M439.937,67.5L448.533,63.333C457.13,59.167,474.323,50.833,494.267,46.667C514.211,42.5,536.906,42.5,548.254,42.5L559.602,42.5" id="mm-3-5-0-L_B_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_D_0" data-points="W3sieCI6NDM5LjkzNjcxMjE4NDg3Mzk1LCJ5Ijo2Ny41fSx7IngiOjQ5MS41MTU2MjUsInkiOjQyLjV9LHsieCI6NTYzLjYwMTU2MjUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-3-5-0_flowchart-v2-pointEnd)"/><path d="M722.859,161.5L727.026,161.5C731.193,161.5,739.526,161.5,752.888,161.5C766.25,161.5,784.641,161.5,793.836,161.5L803.031,161.5" id="mm-3-5-0-L_C_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_E_0" data-points="W3sieCI6NzIyLjg1OTM3NSwieSI6MTYxLjV9LHsieCI6NzQ3Ljg1OTM3NSwieSI6MTYxLjV9LHsieCI6ODA3LjAzMTI1LCJ5IjoxNjEuNX1d" data-look="classic" marker-end="url(#mm-3-5-0_flowchart-v2-pointEnd)"/><path d="M675.773,42.5L687.788,42.5C699.802,42.5,723.831,42.5,739.345,42.5C754.859,42.5,761.859,42.5,765.359,42.5L768.859,42.5" id="mm-3-5-0-L_D_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_F_0" data-points="W3sieCI6Njc1Ljc3MzQzNzUsInkiOjQyLjV9LHsieCI6NzQ3Ljg1OTM3NSwieSI6NDIuNX0seyJ4Ijo3NzIuODU5Mzc1LCJ5Ijo0Mi41fV0=" data-look="classic" marker-end="url(#mm-3-5-0_flowchart-v2-pointEnd)"/><path d="M954.203,42.5L958.37,42.5C962.536,42.5,970.87,42.5,978.536,42.5C986.203,42.5,993.203,42.5,996.703,42.5L1000.203,42.5" id="mm-3-5-0-L_F_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_F_G_0" data-points="W3sieCI6OTU0LjIwMzEyNSwieSI6NDIuNX0seyJ4Ijo5NzkuMjAzMTI1LCJ5Ijo0Mi41fSx7IngiOjEwMDQuMjAzMTI1LCJ5Ijo0Mi41fV0=" data-look="classic" marker-end="url(#mm-3-5-0_flowchart-v2-pointEnd)"/><path d="M1210.547,42.5L1214.714,42.5C1218.88,42.5,1227.214,42.5,1234.88,42.5C1242.547,42.5,1249.547,42.5,1253.047,42.5L1256.547,42.5" id="mm-3-5-0-L_G_H_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_G_H_0" data-points="W3sieCI6MTIxMC41NDY4NzUsInkiOjQyLjV9LHsieCI6MTIzNS41NDY4NzUsInkiOjQyLjV9LHsieCI6MTI2MC41NDY4NzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-3-5-0_flowchart-v2-pointEnd)"/><path d="M920.031,161.5L929.893,161.5C939.755,161.5,959.479,161.5,976.522,161.5C993.565,161.5,1007.927,161.5,1015.108,161.5L1022.289,161.5" id="mm-3-5-0-L_E_I_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_I_0" data-points="W3sieCI6OTIwLjAzMTI1LCJ5IjoxNjEuNX0seyJ4Ijo5NzkuMjAzMTI1LCJ5IjoxNjEuNX0seyJ4IjoxMDI2LjI4OTA2MjUsInkiOjE2MS41fV0=" data-look="classic" marker-end="url(#mm-3-5-0_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_F_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_F_G_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_G_H_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_I_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-3-5-0-flowchart-A-0" data-look="classic" transform="translate(114.5, 102)"><rect class="basic label-container" style="" x="-106.5" y="-34.5" width="213" height="69"/><g class="label" style="" transform="translate(-82.5, -22.5)"><rect/><foreignObject width="165" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>생명 시스템<br />세포→조직→기관→개체</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-5-0-flowchart-B-1" data-look="classic" transform="translate(368.7578125, 102)"><rect class="basic label-container" style="" x="-97.7578125" y="-34.5" width="195.515625" height="69"/><g class="label" style="" transform="translate(-73.7578125, -22.5)"><rect/><foreignObject width="147.515625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>세포<br />생명 활동의 기본 단위</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-5-0-flowchart-C-3" data-look="classic" transform="translate(619.6875, 161.5)"><rect class="basic label-container" style="" x="-103.171875" y="-34.5" width="206.34375" height="69"/><g class="label" style="" transform="translate(-79.171875, -22.5)"><rect/><foreignObject width="158.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>물질 출입<br />세포막의 선택적 투과성</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-5-0-flowchart-D-5" data-look="classic" transform="translate(619.6875, 42.5)"><rect class="basic label-container" style="" x="-56.0859375" y="-34.5" width="112.171875" height="69"/><g class="label" style="" transform="translate(-32.0859375, -22.5)"><rect/><foreignObject width="64.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>화학 반응<br />물질대사</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-5-0-flowchart-E-7" data-look="classic" transform="translate(863.53125, 161.5)"><rect class="basic label-container" style="" x="-56.5" y="-34.5" width="113" height="69"/><g class="label" style="" transform="translate(-32.5, -22.5)"><rect/><foreignObject width="65" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>확산·삼투<br />능동 수송</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-5-0-flowchart-F-9" data-look="classic" transform="translate(863.53125, 42.5)"><rect class="basic label-container" style="" x="-90.671875" y="-23.25" width="181.34375" height="46.5"/><g class="label" style="" transform="translate(-66.671875, -11.25)"><rect/><foreignObject width="133.34375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>동화 작용·이화 작용</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-5-0-flowchart-G-11" data-look="classic" transform="translate(1107.375, 42.5)"><rect class="basic label-container" style="" x="-103.171875" y="-34.5" width="206.34375" height="69"/><g class="label" style="" transform="translate(-79.171875, -22.5)"><rect/><foreignObject width="158.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>효소<br />활성화 에너지를 낮춘다</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-5-0-flowchart-H-13" data-look="classic" transform="translate(1334.546875, 42.5)"><rect class="basic label-container" style="" x="-74" y="-34.5" width="148" height="69"/><g class="label" style="" transform="translate(-50, -22.5)"><rect/><foreignObject width="100" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>일상·산업 활용<br />세제·발효·진단</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-5-0-flowchart-I-15" data-look="classic" transform="translate(1107.375, 161.5)"><rect class="basic label-container" style="" x="-81.0859375" y="-34.5" width="162.171875" height="69"/><g class="label" style="" transform="translate(-57.0859375, -22.5)"><rect/><foreignObject width="114.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>산업 활용<br />투석·역삼투 정수</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-3-5-0-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-3-5-0-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-3-5-0-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><hr>
+<h2 id="step-1" class="step-h s1"><span class="step-badge s1">STEP 1</span><span class="h-text">중학교 다시 보기</span></h2>
+<h3 id="연계-개념표">연계 개념표</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>중학교 성취기준</th>
+<th>중학교에서 배운 것</th>
+<th>고등학교에서 확장되는 것</th>
+</tr>
+</thead><tbody><tr>
+<td>[9과02-01]</td>
+<td>세포는 생명 활동의 기본 단위. 세포벽, 세포막, 핵, 엽록체, 미토콘드리아</td>
+<td>리보솜, 소포체, 골지체 등 더 많은 세포 소기관과 <strong>세포막의 구조</strong>·선택적 투과성</td>
+</tr>
+<tr>
+<td>[9과02-02]</td>
+<td>생물의 유기적 구성 단계(세포–조직–기관–개체), 동물과 식물 비교</td>
+<td>구성 단계를 <strong>생명 시스템</strong>의 관점에서 본다</td>
+</tr>
+<tr>
+<td>[9과04-01]</td>
+<td>확산·증발 현상으로 입자가 운동하고 있음을 추론</td>
+<td>확산이 <strong>세포막을 통한 물질 출입</strong>의 기본 원리가 된다</td>
+</tr>
+<tr>
+<td>[9과13-01]</td>
+<td>소화 효소(아밀레이스, 펩신, 트립신, 라이페이스)가 영양소를 분해</td>
+<td>효소의 공통 원리: <strong>활성화 에너지</strong>, 기질 특이성, 온도·pH의 영향</td>
+</tr>
+<tr>
+<td>[9과12-01], [9과12-02]</td>
+<td>광합성, 식물의 호흡과 광합성의 관계, 에너지와 물질의 출입</td>
+<td>광합성 = <strong>동화 작용</strong>, 호흡 = <strong>이화 작용</strong>으로 묶어 물질대사로 이해</td>
+</tr>
+<tr>
+<td>[9과13-05]</td>
+<td>동물은 세포호흡으로 에너지를 얻는다(소화·순환·호흡·배설과 연결)</td>
+<td>세포호흡이 미토콘드리아에서 효소에 의해 단계적으로 일어나는 이화 작용임을 안다</td>
+</tr>
+<tr>
+<td>[9과16-06]</td>
+<td>화학 반응에서 열에너지가 출입한다</td>
+<td>생명체의 화학 반응에서도 에너지가 흡수·방출된다</td>
+</tr>
+</tbody></table></div>
+<h3 id="준비-운동-사전-진단">준비 운동 (사전 진단)</h3>
+<p><strong>Q1.</strong> 식물 세포에는 있지만 동물 세포에는 없는 구조를 두 가지 쓰시오.</p>
+<p><strong>Q2.</strong> 방 한쪽 구석에서 향수 뚜껑을 열었더니 잠시 뒤 방 전체에서 향기가 났다. 이 현상의 이름과 원인을 쓰시오.</p>
+<p><strong>Q3.</strong> 침 속 소화 효소인 아밀레이스는 어떤 영양소를 분해하는가? 또 그 결과 무엇이 만들어지는가?</p>
+<p><strong>Q4.</strong> 다음 중 옳은 것을 고르시오.
+ㄱ. 광합성은 빛에너지를 흡수하여 양분을 만드는 과정이다.
+ㄴ. 호흡은 양분을 분해하여 생명 활동에 필요한 에너지를 얻는 과정이다.
+ㄷ. 식물은 낮에는 광합성만 하고 호흡은 밤에만 한다.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>Q1.</strong> 세포벽, 엽록체 (식물 세포에는 크게 발달한 액포도 있다.)</p>
+<p><strong>Q2. 확산</strong> — 향수 입자가 스스로 끊임없이 운동하여 농도가 높은 곳에서 낮은 곳으로 퍼져 나가기 때문이다.</p>
+<p><strong>Q3.</strong> 녹말을 분해하여 엿당을 만든다.</p>
+<p><strong>Q4. ㄱ, ㄴ</strong> — ㄷ. 호흡은 살아 있는 모든 세포에서 밤낮없이 일어난다. 낮에는 광합성량이 호흡량보다 많아 겉으로 산소를 내보내는 것처럼 보일 뿐이다.</p>
+</div></details>
+
+<hr>
+<h2 id="step-2" class="step-h s2"><span class="step-badge s2">STEP 2</span><span class="h-text">기초 다지기</span></h2>
+<h3 id="①-입자는-스스로-움직인다-확산의-출발점">① 입자는 스스로 움직인다 — 확산의 출발점</h3>
+<p>중학교에서 물에 잉크를 떨어뜨리면 저어 주지 않아도 퍼지는 것을 보았다. 물질을 이루는 입자는 <strong>스스로 끊임없이 무작위로 운동</strong>한다. 그 결과 입자는 많은 곳(농도가 높은 곳)에서 적은 곳(농도가 낮은 곳)으로 퍼져 나가고, 결국 고르게 섞인다. 이것이 <strong>확산(diffusion)</strong> 이다.</p>
+<ul>
+<li>온도가 높을수록 입자 운동이 활발해 확산이 빠르다.</li>
+<li>확산에는 따로 에너지를 공급할 필요가 없다. 입자 스스로의 운동 때문이다.</li>
+</ul>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 쉬는 시간에 교실 한쪽에 몰려 있던 학생들이 아무 목적 없이 이리저리 돌아다니다 보면 어느새 교실 전체에 흩어져 있다. 누가 &quot;퍼져라!&quot;라고 명령하지 않아도 무작위 운동만으로 퍼진다.</p>
+</aside>
+<h3 id="②-용액과-농도">② 용액과 농도</h3>
+<ul>
+<li><strong>용질</strong>: 녹는 물질(예: 소금, 설탕) / <strong>용매</strong>: 녹이는 물질(예: 물) / <strong>용액</strong>: 용질 + 용매</li>
+<li><strong>퍼센트 농도(%)</strong>: 용액 100 g 속에 녹아 있는 용질의 질량(g)</li>
+</ul>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord hangul_fallback">퍼센트</span><span class="mord"> </span><span class="mord hangul_fallback">농도</span><span class="mord">(%)</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord hangul_fallback">용액의</span><span class="mord"> </span><span class="mord hangul_fallback">질량</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord hangul_fallback">용질의</span><span class="mord"> </span><span class="mord hangul_fallback">질량</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">100</span></span></span></span></span></p>
+<p>생물 시간에는 &quot;용질이 많은 쪽 = 농도가 높은 쪽 = 물(용매)의 비율이 낮은 쪽&quot;이라는 관계가 매우 중요하다. 삼투를 이해하는 열쇠이기 때문이다.</p>
+<h4 id="예제-1">예제 1</h4>
+<p>설탕 10 g을 물 90 g에 녹였다. 이 설탕물의 퍼센트 농도는?</p>
+<p><strong>풀이</strong> 용액의 질량 = 10 + 90 = 100 g, 농도 = <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">100</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">10</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">100</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8056em;vertical-align:-0.0556em;"></span><span class="mord">10</span><span class="mspace"> </span><span class="mord">%</span></span></span></span></p>
+<aside class="callout note"><p class="callout-title">성취기준·참고</p><p>병원에서 쓰는 <strong>생리 식염수</strong>는 물 1 L에 소금(염화 나트륨)이 약 9 g 녹아 있는 약 0.9 % 용액으로, 우리 혈액과 농도가 비슷하도록 맞춘 것이다.</p>
+</aside>
+<h3 id="③-화학-반응과-에너지">③ 화학 반응과 에너지</h3>
+<p>화학 반응이 일어나면 원자의 배열이 바뀌어 새로운 물질이 생기고, 이때 에너지가 출입한다([9과16-06]).</p>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>에너지 출입</th>
+<th>생명체 속 예</th>
+</tr>
+</thead><tbody><tr>
+<td>에너지를 <strong>흡수</strong>하는 반응</td>
+<td>주변에서 에너지를 받아들인다</td>
+<td>광합성(빛에너지 흡수)</td>
+</tr>
+<tr>
+<td>에너지를 <strong>방출</strong>하는 반응</td>
+<td>주변으로 에너지를 내보낸다</td>
+<td>세포호흡(양분 분해, 에너지 방출)</td>
+</tr>
+</tbody></table></div>
+<h3 id="④-반응을-시작하게-하는-39-문턱-39-과-촉매">④ 반응을 시작하게 하는 &#39;문턱&#39;과 촉매</h3>
+<p>종이는 공기 중에서 타는 반응을 할 수 있지만, 책상 위의 종이가 저절로 타지는 않는다. 성냥불로 열을 주어야 비로소 타기 시작한다. 이처럼 반응이 시작되려면 넘어야 하는 <strong>에너지 문턱</strong>이 있다. 이것을 <strong>활성화 에너지(activation energy)</strong> 라고 한다.</p>
+<p><strong>촉매(catalyst)</strong> 는 이 문턱을 낮추어 반응을 빠르게 해 주고, 자신은 반응 전후에 변하지 않는 물질이다. 생명체에서 촉매 역할을 하는 것이 바로 STEP 3의 <strong>효소</strong>이다.</p>
+<h3 id="⑤-단백질은-39-접힌-모양-39-이-기능을-정한다">⑤ 단백질은 &#39;접힌 모양&#39;이 기능을 정한다</h3>
+<p>2-5 단원에서 단백질은 <strong>아미노산</strong>이라는 단위체가 사슬처럼 길게 연결된 뒤, 특정한 <strong>입체 구조로 접혀서</strong> 만들어진다는 것을 배웠다. 아미노산의 종류와 순서가 달라지면 접힌 모양이 달라지고, 모양이 달라지면 하는 일도 달라진다. 효소의 주성분이 단백질이라는 점을 기억해 두자. 효소가 열에 약한 이유가 여기에 있다.</p>
+<hr>
+<h2 id="step-3" class="step-h s3"><span class="step-badge s3">STEP 3</span><span class="h-text">핵심 개념</span></h2>
+<h3 id="3-5-①-생명-시스템의-구성-세포에서-개체까지">3-5-① 생명 시스템의 구성 — 세포에서 개체까지</h3>
+<p>생물의 몸은 작은 단위가 모여 더 큰 단위를 이루는 <strong>계층 구조</strong>의 시스템이다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-3-5-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 829.390625 85" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-3-5-1{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-3-5-1 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-3-5-1 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-3-5-1 .error-icon{fill:var(--mm-group);}#mm-3-5-1 .error-text{fill:#595959;stroke:#595959;}#mm-3-5-1 .edge-thickness-normal{stroke-width:1px;}#mm-3-5-1 .edge-thickness-thick{stroke-width:3.5px;}#mm-3-5-1 .edge-pattern-solid{stroke-dasharray:0;}#mm-3-5-1 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-3-5-1 .edge-pattern-dashed{stroke-dasharray:3;}#mm-3-5-1 .edge-pattern-dotted{stroke-dasharray:2;}#mm-3-5-1 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-3-5-1 .marker.cross{stroke:var(--mm-line);}#mm-3-5-1 svg{font-family:inherit;font-size:15px;}#mm-3-5-1 p{margin:0;}#mm-3-5-1 .label{font-family:inherit;color:var(--mm-text);}#mm-3-5-1 .cluster-label text{fill:#595959;}#mm-3-5-1 .cluster-label span{color:#595959;}#mm-3-5-1 .cluster-label span p{background-color:transparent;}#mm-3-5-1 .label text,#mm-3-5-1 span{fill:var(--mm-text);color:var(--mm-text);}#mm-3-5-1 .node rect,#mm-3-5-1 .node circle,#mm-3-5-1 .node ellipse,#mm-3-5-1 .node polygon,#mm-3-5-1 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-3-5-1 .rough-node .label text,#mm-3-5-1 .node .label text,#mm-3-5-1 .image-shape .label,#mm-3-5-1 .icon-shape .label{text-anchor:middle;}#mm-3-5-1 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-3-5-1 .rough-node .label,#mm-3-5-1 .node .label,#mm-3-5-1 .image-shape .label,#mm-3-5-1 .icon-shape .label{text-align:center;}#mm-3-5-1 .node.clickable{cursor:pointer;}#mm-3-5-1 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-3-5-1 .arrowheadPath{fill:#0b0b0b;}#mm-3-5-1 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-3-5-1 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-3-5-1 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-3-5-1 .edgeLabel p{background-color:var(--mm-label);}#mm-3-5-1 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-3-5-1 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-3-5-1 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-3-5-1 .cluster text{fill:#595959;}#mm-3-5-1 .cluster span{color:#595959;}#mm-3-5-1 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-3-5-1 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-3-5-1 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-3-5-1 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-3-5-1 rect.text{fill:none;stroke-width:0;}#mm-3-5-1 .icon-shape,#mm-3-5-1 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-3-5-1 .icon-shape p,#mm-3-5-1 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-3-5-1 .icon-shape .label rect,#mm-3-5-1 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-3-5-1 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-3-5-1 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-3-5-1 .node .neo-node{stroke:var(--mm-border);}#mm-3-5-1 [data-look="neo"].node rect,#mm-3-5-1 [data-look="neo"].cluster rect,#mm-3-5-1 [data-look="neo"].node polygon{stroke:url(#mm-3-5-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-5-1 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-3-5-1 [data-look="neo"].node path{stroke:url(#mm-3-5-1-gradient);stroke-width:1px;}#mm-3-5-1 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-5-1 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-3-5-1 [data-look="neo"].node circle{stroke:url(#mm-3-5-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-5-1 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-3-5-1 [data-look="neo"].icon-shape .icon{fill:url(#mm-3-5-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-5-1 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-3-5-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-5-1 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-3-5-1_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-1_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-1_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-1_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-1_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-1_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-1_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-1_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-1_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-1_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-1_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-3-5-1_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M143.516,42.5L147.682,42.5C151.849,42.5,160.182,42.5,167.849,42.5C175.516,42.5,182.516,42.5,186.016,42.5L189.516,42.5" id="mm-3-5-1-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTQzLjUxNTYyNSwieSI6NDIuNX0seyJ4IjoxNjguNTE1NjI1LCJ5Ijo0Mi41fSx7IngiOjE5My41MTU2MjUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-3-5-1_flowchart-v2-pointEnd)"/><path d="M329.031,42.5L333.198,42.5C337.365,42.5,345.698,42.5,353.365,42.5C361.031,42.5,368.031,42.5,371.531,42.5L375.031,42.5" id="mm-3-5-1-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6MzI5LjAzMTI1LCJ5Ijo0Mi41fSx7IngiOjM1NC4wMzEyNSwieSI6NDIuNX0seyJ4IjozNzkuMDMxMjUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-3-5-1_flowchart-v2-pointEnd)"/><path d="M503.703,42.5L507.87,42.5C512.036,42.5,520.37,42.5,528.036,42.5C535.703,42.5,542.703,42.5,546.203,42.5L549.703,42.5" id="mm-3-5-1-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6NTAzLjcwMzEyNSwieSI6NDIuNX0seyJ4Ijo1MjguNzAzMTI1LCJ5Ijo0Mi41fSx7IngiOjU1My43MDMxMjUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-3-5-1_flowchart-v2-pointEnd)"/><path d="M670.047,42.5L674.214,42.5C678.38,42.5,686.714,42.5,694.38,42.5C702.047,42.5,709.047,42.5,712.547,42.5L716.047,42.5" id="mm-3-5-1-L_D_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_E_0" data-points="W3sieCI6NjcwLjA0Njg3NSwieSI6NDIuNX0seyJ4Ijo2OTUuMDQ2ODc1LCJ5Ijo0Mi41fSx7IngiOjcyMC4wNDY4NzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-3-5-1_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-3-5-1-flowchart-A-0" data-look="classic" transform="translate(75.7578125, 42.5)"><rect class="basic label-container" style="" x="-67.7578125" y="-34.5" width="135.515625" height="69"/><g class="label" style="" transform="translate(-43.7578125, -22.5)"><rect/><foreignObject width="87.515625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>세포<br />예: 근육 세포</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-5-1-flowchart-B-1" data-look="classic" transform="translate(261.2734375, 42.5)"><rect class="basic label-container" style="" x="-67.7578125" y="-34.5" width="135.515625" height="69"/><g class="label" style="" transform="translate(-43.7578125, -22.5)"><rect/><foreignObject width="87.515625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>조직<br />예: 근육 조직</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-5-1-flowchart-C-3" data-look="classic" transform="translate(441.3671875, 42.5)"><rect class="basic label-container" style="" x="-62.3359375" y="-34.5" width="124.671875" height="69"/><g class="label" style="" transform="translate(-38.3359375, -22.5)"><rect/><foreignObject width="76.671875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>기관<br />예: 위, 심장</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-5-1-flowchart-D-5" data-look="classic" transform="translate(611.875, 42.5)"><rect class="basic label-container" style="" x="-58.171875" y="-34.5" width="116.34375" height="69"/><g class="label" style="" transform="translate(-34.171875, -22.5)"><rect/><foreignObject width="68.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>기관계<br />예: 소화계</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-5-1-flowchart-E-7" data-look="classic" transform="translate(770.71875, 42.5)"><rect class="basic label-container" style="" x="-50.671875" y="-34.5" width="101.34375" height="69"/><g class="label" style="" transform="translate(-26.671875, -22.5)"><rect/><foreignObject width="53.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>개체<br />예: 사람</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-3-5-1-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-3-5-1-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-3-5-1-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><div class="table-wrap"><table><thead><tr>
+<th>구성 단계</th>
+<th>뜻</th>
+<th>동물의 예</th>
+<th>식물의 예</th>
+</tr>
+</thead><tbody><tr>
+<td>세포</td>
+<td>생명 활동이 일어나는 기본 단위</td>
+<td>근육 세포, 신경 세포</td>
+<td>표피 세포, 공변세포</td>
+</tr>
+<tr>
+<td>조직</td>
+<td>모양과 기능이 비슷한 세포의 모임</td>
+<td>상피 조직, 근육 조직</td>
+<td>표피 조직, 통도 조직</td>
+</tr>
+<tr>
+<td>조직계</td>
+<td>(식물에만) 여러 조직이 모여 일정한 기능을 하는 단위</td>
+<td>—</td>
+<td>표피 조직계, 관다발 조직계</td>
+</tr>
+<tr>
+<td>기관</td>
+<td>여러 조직이 모여 특정 기능을 하는 단위</td>
+<td>위, 심장, 폐</td>
+<td>뿌리, 줄기, 잎, 꽃</td>
+</tr>
+<tr>
+<td>기관계</td>
+<td>(동물에만) 관련된 기능을 하는 기관의 모임</td>
+<td>소화계, 순환계, 호흡계, 배설계</td>
+<td>—</td>
+</tr>
+<tr>
+<td>개체</td>
+<td>독립적으로 생명 활동을 하는 하나의 생물</td>
+<td>사람, 고양이</td>
+<td>해바라기, 소나무</td>
+</tr>
+</tbody></table></div>
+<p>각 단계는 아래 단계가 단순히 더해진 것이 아니라, <strong>서로 상호작용하며 새로운 기능을 만들어 낸다.</strong> 세포 하나는 음식물을 소화할 수 없지만, 세포가 모여 만든 위와 소장은 소화를 한다. 이것이 &#39;시스템&#39;의 특징이다.</p>
+<h4 id="세포-소기관-세포라는-작은-도시">세포 소기관 — 세포라는 작은 도시</h4>
+<p>세포 하나도 그 자체로 하나의 시스템이다. 세포 안에는 서로 다른 일을 나누어 맡은 <strong>세포 소기관(organelle)</strong> 들이 있다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>세포 소기관</th>
+<th>하는 일</th>
+<th>도시에 비유하면</th>
+<th>동물</th>
+<th>식물</th>
+</tr>
+</thead><tbody><tr>
+<td><strong>핵</strong></td>
+<td>유전 물질(DNA)을 보관하고 세포의 생명 활동을 조절한다</td>
+<td>시청(설계도 보관실)</td>
+<td>○</td>
+<td>○</td>
+</tr>
+<tr>
+<td><strong>리보솜</strong></td>
+<td>단백질을 합성한다</td>
+<td>조립 공장</td>
+<td>○</td>
+<td>○</td>
+</tr>
+<tr>
+<td><strong>소포체</strong></td>
+<td>리보솜에서 만든 단백질을 골지체 등으로 운반한다(일부는 지질 합성)</td>
+<td>도로와 운송망</td>
+<td>○</td>
+<td>○</td>
+</tr>
+<tr>
+<td><strong>골지체</strong></td>
+<td>단백질을 가공·포장하여 세포 밖으로 내보내거나 필요한 곳으로 보낸다</td>
+<td>포장·택배 센터</td>
+<td>○</td>
+<td>○</td>
+</tr>
+<tr>
+<td><strong>미토콘드리아</strong></td>
+<td>세포호흡으로 양분을 분해하여 생명 활동에 쓸 에너지를 얻는다</td>
+<td>발전소</td>
+<td>○</td>
+<td>○</td>
+</tr>
+<tr>
+<td><strong>엽록체</strong></td>
+<td>빛에너지를 흡수하여 광합성으로 양분을 만든다</td>
+<td>태양광 식품 공장</td>
+<td>×</td>
+<td>○</td>
+</tr>
+<tr>
+<td><strong>세포막</strong></td>
+<td>세포를 둘러싸고 물질 출입을 조절한다</td>
+<td>출입 검문소가 있는 성벽</td>
+<td>○</td>
+<td>○</td>
+</tr>
+<tr>
+<td><strong>세포벽</strong></td>
+<td>세포막 바깥에서 세포를 보호하고 모양을 유지한다</td>
+<td>단단한 외벽</td>
+<td>×</td>
+<td>○</td>
+</tr>
+<tr>
+<td><strong>액포</strong></td>
+<td>물, 양분, 노폐물 등을 저장한다(성숙한 식물 세포에서 크게 발달)</td>
+<td>저수지·창고</td>
+<td>작거나 드묾</td>
+<td>○(크다)</td>
+</tr>
+<tr>
+<td><strong>리소좀</strong></td>
+<td>분해 효소로 낡은 세포 소기관이나 세포 안으로 들어온 물질을 분해한다</td>
+<td>재활용·청소 센터</td>
+<td>○</td>
+<td>드묾(주로 액포가 비슷한 역할)</td>
+</tr>
+</tbody></table></div>
+<aside class="callout important"><p class="callout-title">핵심</p><p>세포 소기관은 따로 노는 것이 아니라 <strong>연결된 흐름</strong>으로 일한다. 예를 들어 이자 세포가 소화 효소를 분비하는 과정은 다음과 같다.
+핵(설계도) → 리보솜(효소 단백질 합성) → 소포체(운반) → 골지체(가공·포장) → 세포막을 통해 분비
+이 전체 과정에 필요한 에너지는 미토콘드리아가 공급한다. 핵 속 설계도가 어떻게 단백질이 되는지는 다음 3-6 단원에서 자세히 배운다.</p>
+</aside>
+<h3 id="3-5-②-세포막의-구조와-선택적-투과성">3-5-② 세포막의 구조와 선택적 투과성</h3>
+<p>세포가 살아 있으려면 양분과 산소는 들어오고, 이산화 탄소와 노폐물은 나가야 한다. 반대로 세포에 꼭 필요한 물질은 함부로 빠져나가면 안 된다. 이 출입을 담당하는 것이 <strong>세포막(cell membrane)</strong> 이다.</p>
+<h4 id="세포막을-이루는-두-재료">세포막을 이루는 두 재료</h4>
+<ol>
+<li><strong>인지질(phospholipid)</strong>: 물과 친한 <strong>머리 부분(친수성)</strong> 과 물을 싫어하는 <strong>꼬리 부분(소수성)</strong> 으로 이루어진 분자이다. 세포 안팎이 모두 물이므로, 인지질은 머리를 바깥쪽(물 쪽)으로, 꼬리를 안쪽으로 향하게 두 겹으로 늘어선다. 이것을 <strong>인지질 이중층(phospholipid bilayer)</strong> 이라고 한다.</li>
+<li><strong>막단백질(membrane protein)</strong>: 인지질 이중층에 박혀 있거나 걸쳐 있는 단백질이다. 특정 물질이 지나가는 <strong>통로</strong>나 <strong>운반체</strong> 역할, 신호를 받아들이는 역할 등을 한다.</li>
+</ol>
+<p>인지질과 단백질은 한 자리에 고정되어 있지 않고 막 안에서 옆으로 움직일 수 있어서, 세포막은 단단한 벽이라기보다 <strong>유동성이 있는 얇은 막</strong>이다. 세포막의 두께는 수 nm(나노미터) 정도로 매우 얇다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>세포막 부분</th>
+<th>성질</th>
+<th>결과</th>
+</tr>
+</thead><tbody><tr>
+<td>인지질 머리</td>
+<td>친수성(물과 잘 어울림)</td>
+<td>막의 안쪽 면·바깥쪽 면이 물과 접한다</td>
+</tr>
+<tr>
+<td>인지질 꼬리</td>
+<td>소수성(물을 밀어냄)</td>
+<td>막 가운데에 물을 싫어하는 층이 생겨 이온 등이 쉽게 통과하지 못한다</td>
+</tr>
+<tr>
+<td>막단백질</td>
+<td>특정 물질만 통과시키는 통로·운반체</td>
+<td>필요한 물질을 골라서 출입시킨다</td>
+</tr>
+</tbody></table></div>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 세포막은 <strong>기름 막으로 된 성벽에 &#39;전용 출입문&#39;이 달린 구조</strong>이다. 기름에 잘 섞이는 작은 손님(산소, 이산화 탄소)은 성벽을 그냥 통과한다. 하지만 전하를 띤 손님(이온)이나 덩치 큰 손님(포도당)은 자기에게 맞는 전용 출입문(막단백질)으로만 들어올 수 있다.</p>
+</aside>
+<h4 id="선택적-투과성">선택적 투과성</h4>
+<p>세포막이 물질의 종류에 따라 통과시키는 정도를 다르게 하는 성질을 <strong>선택적 투과성(selective permeability)</strong> 이라고 한다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>물질</th>
+<th>크기·성질</th>
+<th>세포막 통과 방법</th>
+</tr>
+</thead><tbody><tr>
+<td>산소(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>), 이산화 탄소(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span>)</td>
+<td>작고 전하가 없다</td>
+<td>인지질 이중층을 <strong>직접</strong> 통과(확산)</td>
+</tr>
+<tr>
+<td>물(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathrm">O</span></span></span></span></span>)</td>
+<td>작지만 극성이 있다</td>
+<td>인지질 사이로 조금씩 통과하고, <strong>물 전용 통로 단백질</strong>이 있으면 훨씬 빠르게 이동</td>
+</tr>
+<tr>
+<td>포도당, 아미노산</td>
+<td>비교적 크고 물과 친하다</td>
+<td><strong>운반체 단백질</strong>의 도움으로 이동</td>
+</tr>
+<tr>
+<td>나트륨 이온(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7713em;"></span><span class="mord"><span class="mord mathrm">N</span><span class="mord"><span class="mord mathrm">a</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7713em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">+</span></span></span></span></span></span></span></span></span></span></span></span>), 칼륨 이온(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7713em;"></span><span class="mord"><span class="mord mathrm">K</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7713em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">+</span></span></span></span></span></span></span></span></span></span></span>) 등</td>
+<td>전하를 띤다</td>
+<td><strong>통로 단백질</strong>이나 운반체 단백질을 통해서만 이동</td>
+</tr>
+<tr>
+<td>단백질, 녹말 같은 큰 분자</td>
+<td>매우 크다</td>
+<td>세포막을 그대로 통과하지 못한다</td>
+</tr>
+</tbody></table></div>
+<h3 id="3-5-③-막을-통한-물질-이동-확산-삼투-능동-수송">3-5-③ 막을 통한 물질 이동 — 확산, 삼투, 능동 수송</h3>
+<h4 id="1-확산-농도가-높은-쪽-낮은-쪽">(1) 확산: 농도가 높은 쪽 → 낮은 쪽</h4>
+<p>세포막을 사이에 두고 농도 차이가 있으면, 물질은 <strong>농도가 높은 쪽에서 낮은 쪽으로</strong> 확산한다. 에너지가 필요 없다.</p>
+<ul>
+<li><strong>폐포와 모세 혈관</strong>: 폐포 속 공기는 산소 농도가 높고 혈액은 낮으므로 산소가 혈액으로 확산한다. 이산화 탄소는 반대로 이동한다.</li>
+<li><strong>조직 세포</strong>: 세포는 산소를 계속 쓰므로 세포 안 산소 농도가 낮게 유지된다. 그래서 산소가 혈액에서 세포로 계속 확산해 들어온다.</li>
+<li>포도당처럼 인지질 이중층을 직접 통과하기 어려운 물질은 운반체 단백질을 통해 확산한다(농도가 높은 쪽 → 낮은 쪽이므로 역시 에너지가 필요 없다).</li>
+</ul>
+<h4 id="2-삼투-물이-막을-통해-이동하는-확산">(2) 삼투: 물이 막을 통해 이동하는 확산</h4>
+<p><strong>삼투(osmosis)</strong> 는 <strong>용매(물)</strong> 가 <strong>반투과성 막</strong>(물은 통과하고 용질은 통과하기 어려운 막)을 통해 <strong>용질 농도가 낮은 쪽에서 높은 쪽으로</strong> 이동하는 현상이다.</p>
+<aside class="callout important"><p class="callout-title">핵심</p><p>헷갈리기 쉬운 방향을 정리하자.</p>
+<ul>
+<li>용질 입장에서: 농도가 <strong>높은</strong> 쪽 → <strong>낮은</strong> 쪽으로 확산하려 한다. 그런데 막이 용질을 막는다.</li>
+<li>물 입장에서: 물이 <strong>많은</strong> 쪽(용질 농도가 <strong>낮은</strong> 쪽) → 물이 <strong>적은</strong> 쪽(용질 농도가 <strong>높은</strong> 쪽)으로 이동한다.
+결국 삼투도 <strong>&#39;물의 확산&#39;</strong> 이다. 물은 &#39;짠 쪽, 진한 쪽&#39;으로 간다고 기억하자.</li>
+</ul>
+</aside>
+<h4 id="세포를-다른-농도의-용액에-넣으면">세포를 다른 농도의 용액에 넣으면?</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>바깥 용액</th>
+<th>물의 이동</th>
+<th>적혈구(동물 세포)</th>
+<th>식물 세포</th>
+</tr>
+</thead><tbody><tr>
+<td>세포 안보다 농도가 <strong>낮은</strong> 용액(예: 증류수)</td>
+<td>바깥 → 세포 안</td>
+<td>부풀다가 터진다(<strong>용혈</strong>)</td>
+<td>부풀지만 세포벽 덕분에 터지지 않고 팽팽해진다(<strong>팽압</strong> 증가)</td>
+</tr>
+<tr>
+<td>세포 안과 농도가 <strong>같은</strong> 용액(예: 생리 식염수)</td>
+<td>들어오고 나가는 양이 같다</td>
+<td>모양 유지</td>
+<td>모양 유지</td>
+</tr>
+<tr>
+<td>세포 안보다 농도가 <strong>높은</strong> 용액(예: 진한 소금물)</td>
+<td>세포 안 → 바깥</td>
+<td>쭈그러든다</td>
+<td>세포막이 세포벽에서 떨어진다(<strong>원형질 분리</strong>)</td>
+</tr>
+</tbody></table></div>
+<p>이제 단원 들어가기의 배추 절이기를 설명할 수 있다. 진한 소금물 속 배추 세포에서는 물이 바깥으로 빠져나가고, 세포가 팽압을 잃어 배추가 축 늘어진다(숨이 죽는다).</p>
+<div class="table-wrap"><table><thead><tr>
+<th>일상 속 삼투</th>
+<th>설명</th>
+</tr>
+</thead><tbody><tr>
+<td>시든 채소를 찬물에 담가 두면 싱싱해진다</td>
+<td>물이 세포 안으로 들어가 팽압이 회복된다</td>
+</tr>
+<tr>
+<td>오이·배추를 소금에 절인다</td>
+<td>세포 안의 물이 진한 소금물 쪽으로 빠져나간다</td>
+</tr>
+<tr>
+<td>민물고기를 바닷물에 넣으면 살기 어렵다</td>
+<td>몸속의 물이 농도가 높은 바닷물 쪽으로 빠져나간다</td>
+</tr>
+<tr>
+<td>링거 주사는 혈액과 농도가 비슷한 용액을 쓴다</td>
+<td>적혈구가 터지거나 쭈그러들지 않게 하기 위해서이다</td>
+</tr>
+<tr>
+<td>비료를 너무 많이 주면 식물이 시든다</td>
+<td>흙 속 용액의 농도가 높아져 뿌리에서 물이 빠져나간다</td>
+</tr>
+</tbody></table></div>
+<h4 id="예제-2">예제 2</h4>
+<p>감자 조각(각 5.00 g)을 농도가 다른 설탕 용액에 1시간 동안 담갔다가 질량을 측정하였다(예시 자료).</p>
+<div class="table-wrap"><table><thead><tr>
+<th>설탕 용액 농도</th>
+<th>0 %</th>
+<th>4 %</th>
+<th>8 %</th>
+<th>12 %</th>
+<th>16 %</th>
+</tr>
+</thead><tbody><tr>
+<td>나중 질량(g)</td>
+<td>5.50</td>
+<td>5.30</td>
+<td>5.10</td>
+<td>4.90</td>
+<td>4.70</td>
+</tr>
+</tbody></table></div>
+<p>(1) 각 조건의 질량 변화율(%)을 구하시오.
+(2) 감자 세포 안 용액의 농도는 약 몇 %의 설탕 용액과 비슷하다고 추정할 수 있는가?</p>
+<p><strong>풀이</strong>
+(1) 질량 변화율 = <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.0463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord hangul_fallback">처음</span><span class="mord"> </span><span class="mord hangul_fallback">질량</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord hangul_fallback">나중</span><span class="mord"> </span><span class="mord hangul_fallback">질량</span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord text"><span class="mord hangul_fallback">처음</span><span class="mord"> </span><span class="mord hangul_fallback">질량</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">100</span></span></span></span></p>
+<ul>
+<li>0 %: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">5.00</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">5.50</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">5.00</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">100</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.0833em;"></span><span class="mord">+</span><span class="mord">10</span><span class="mspace"> </span><span class="mord">%</span></span></span></span></li>
+<li>4 %: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.0833em;"></span><span class="mord">+</span><span class="mord">6</span><span class="mspace"> </span><span class="mord">%</span></span></span></span>, 8 %: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.0833em;"></span><span class="mord">+</span><span class="mord">2</span><span class="mspace"> </span><span class="mord">%</span></span></span></span>, 12 %: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.0833em;"></span><span class="mord">−</span><span class="mord">2</span><span class="mspace"> </span><span class="mord">%</span></span></span></span>, 16 %: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.0833em;"></span><span class="mord">−</span><span class="mord">6</span><span class="mspace"> </span><span class="mord">%</span></span></span></span></li>
+</ul>
+<p>(2) 질량이 늘어난 것은 물이 감자 안으로 들어온 것(바깥 농도가 더 낮음), 줄어든 것은 물이 빠져나간 것(바깥 농도가 더 높음)이다. 8 %(+2 %)와 12 %(−2 %) 사이에서 변화율이 0이 되므로, 감자 세포 안 용액은 <strong>약 10 % 설탕 용액</strong>과 농도가 비슷하다고 추정할 수 있다.</p>
+<h4 id="3-능동-수송-에너지를-써서-39-거꾸로-39-나르기-간단히">(3) 능동 수송: 에너지를 써서 &#39;거꾸로&#39; 나르기 (간단히)</h4>
+<p>세포는 때로 <strong>농도가 낮은 쪽에서 높은 쪽으로</strong> 물질을 끌어와야 한다. 이때는 확산만으로 불가능하므로, 세포가 <strong>에너지를 써서</strong> 운반체 단백질로 물질을 퍼 올린다. 이것을 <strong>능동 수송(active transport)</strong> 이라고 한다.</p>
+<ul>
+<li>식물의 뿌리털 세포는 흙 속보다 세포 안 농도가 더 높은데도 무기 염류를 흡수한다.</li>
+<li>신경 세포는 세포 안의 나트륨 이온을 바깥으로 계속 퍼내고 칼륨 이온을 안으로 들인다.</li>
+</ul>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>확산·삼투</th>
+<th>능동 수송</th>
+</tr>
+</thead><tbody><tr>
+<td>이동 방향</td>
+<td>농도가 높은 쪽 → 낮은 쪽(물은 용질 농도가 낮은 쪽 → 높은 쪽)</td>
+<td>농도가 낮은 쪽 → 높은 쪽</td>
+</tr>
+<tr>
+<td>에너지 사용</td>
+<td>필요 없음</td>
+<td>필요함</td>
+</tr>
+<tr>
+<td>비유</td>
+<td>미끄럼틀 내려가기</td>
+<td>짐을 들고 계단 올라가기</td>
+</tr>
+</tbody></table></div>
+<h3 id="3-5-④-물질대사-생명체-속-화학-반응의-총합">3-5-④ 물질대사 — 생명체 속 화학 반응의 총합</h3>
+<p>세포 안에서는 1초도 쉬지 않고 수많은 화학 반응이 일어난다. 생명체에서 일어나는 모든 화학 반응을 통틀어 <strong>물질대사(metabolism)</strong> 라고 한다. 물질대사에서는 물질이 바뀌면서 반드시 <strong>에너지도 출입</strong>한다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>동화 작용(anabolism)</th>
+<th>이화 작용(catabolism)</th>
+</tr>
+</thead><tbody><tr>
+<td>물질 변화</td>
+<td>작고 간단한 물질 → 크고 복잡한 물질 (합성)</td>
+<td>크고 복잡한 물질 → 작고 간단한 물질 (분해)</td>
+</tr>
+<tr>
+<td>에너지</td>
+<td><strong>흡수</strong></td>
+<td><strong>방출</strong></td>
+</tr>
+<tr>
+<td>예</td>
+<td>광합성, 단백질 합성(아미노산 → 단백질), 녹말·글리코젠 합성</td>
+<td>세포호흡, 소화(녹말 → 포도당 등)</td>
+</tr>
+<tr>
+<td>비유</td>
+<td>레고 블록으로 성 쌓기(힘이 든다)</td>
+<td>레고 성 허물기(쌓여 있던 에너지가 풀려난다)</td>
+</tr>
+</tbody></table></div>
+<p><strong>대표적인 예: 광합성과 세포호흡</strong></p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord hangul_fallback">광합성</span><span class="mord">(</span><span class="mord hangul_fallback">동화</span><span class="mord">):</span></span><span class="mspace" style="margin-right:1em;"></span><span class="mord text"><span class="mord hangul_fallback">이산화</span><span class="mord"> </span><span class="mord hangul_fallback">탄소</span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.1113em;vertical-align:-0.011em;"></span><span class="mord text"><span class="mord hangul_fallback">물</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel x-arrow"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.1003em;"><span style="top:-3.322em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight x-arrow-pad"><span class="mord mtight"><span class="mspace mtight"><span class="mtight"> </span></span><span class="mord text mtight"><span class="mord hangul_fallback mtight">빛에너지</span></span><span class="mspace mtight"><span class="mtight"> </span></span></span></span></span><span class="svg-align" style="top:-2.689em;"><span class="pstrut" style="height:2.7em;"></span><span class="hide-tail" style="height:0.522em;min-width:1.469em;"><svg xmlns="http://www.w3.org/2000/svg" width='400em' height='0.522em' viewBox='0 0 400000 522' preserveAspectRatio='xMaxYMin slice'><path d='M0 241v40h399891c-47.3 35.3-84 78-110 128
+-16.7 32-27.7 63.7-33 95 0 1.3-.2 2.7-.5 4-.3 1.3-.5 2.3-.5 3 0 7.3 6.7 11 20
+ 11 8 0 13.2-.8 15.5-2.5 2.3-1.7 4.2-5.5 5.5-11.5 2-13.3 5.7-27 11-41 14.7-44.7
+ 39-84.5 73-119.5s73.7-60.2 119-75.5c6-2 9-5.7 9-11s-3-9-9-11c-45.3-15.3-85
+-40.5-119-75.5s-58.3-74.8-73-119.5c-4.7-14-8.3-27.3-11-40-1.3-6.7-3.2-10.8-5.5
+-12.5-2.3-1.7-7.5-2.5-15.5-2.5-14 0-21 3.7-21 11 0 2 2 10.3 6 25 20.7 83.3 67
+ 151.7 139 205zm0 0v40h399900v-40z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.011em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord text"><span class="mord hangul_fallback">포도당</span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">산소</span></span></span></span></span></span></p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord hangul_fallback">세포호흡</span><span class="mord">(</span><span class="mord hangul_fallback">이화</span><span class="mord">):</span></span><span class="mspace" style="margin-right:1em;"></span><span class="mord text"><span class="mord hangul_fallback">포도당</span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6943em;vertical-align:-0.011em;"></span><span class="mord text"><span class="mord hangul_fallback">산소</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">⟶</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord text"><span class="mord hangul_fallback">이산화</span><span class="mord"> </span><span class="mord hangul_fallback">탄소</span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord text"><span class="mord hangul_fallback">물</span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">에너지</span></span></span></span></span></span></p>
+<p>광합성은 엽록체에서, 세포호흡은 주로 미토콘드리아에서 일어난다. 식물이 광합성으로 저장한 에너지를 동물이 먹고 세포호흡으로 꺼내 쓴다. 생명 시스템은 이처럼 <strong>물질과 에너지를 주고받으며</strong> 유지된다.</p>
+<aside class="callout warning"><p class="callout-title">주의</p><p>우리 몸의 체온은 약 37 °C이다. 그런데 포도당을 공기 중에서 태우려면 높은 온도로 가열해야 한다. 세포는 어떻게 37 °C에서 포도당을 분해해 에너지를 얻을까? 만약 세포호흡이 연소처럼 한꺼번에 일어난다면 세포가 열로 타 버릴 것이다. 정답은 <strong>효소</strong>이다. 효소는 반응의 문턱(활성화 에너지)을 낮추고, 세포호흡은 여러 효소가 차례로 작용하는 <strong>여러 단계</strong>로 나뉘어 에너지를 조금씩 방출한다.</p>
+</aside>
+<h3 id="3-5-⑤-효소-생명체의-촉매">3-5-⑤ 효소 — 생명체의 촉매</h3>
+<p><strong>효소(enzyme)</strong> 는 생명체에서 만들어져 물질대사가 잘 일어나도록 돕는 <strong>생체 촉매</strong>이다. 주성분은 <strong>단백질</strong>이다.</p>
+<h4 id="1-효소는-활성화-에너지를-낮춘다">(1) 효소는 활성화 에너지를 낮춘다</h4>
+<p>반응물이 생성물로 바뀌려면 <strong>활성화 에너지라는 &#39;고개&#39;</strong> 를 넘어야 한다. 효소는 고개를 낮춘 <strong>&#39;터널&#39;</strong> 을 뚫어 준다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>비교</th>
+<th>효소가 없을 때</th>
+<th>효소가 있을 때</th>
+</tr>
+</thead><tbody><tr>
+<td>활성화 에너지</td>
+<td>높다</td>
+<td><strong>낮다</strong></td>
+</tr>
+<tr>
+<td>반응 속도(체온 조건)</td>
+<td>매우 느리다</td>
+<td>매우 빠르다</td>
+</tr>
+<tr>
+<td>반응물·생성물의 종류</td>
+<td>같다</td>
+<td>같다</td>
+</tr>
+<tr>
+<td>반응 전후 에너지 차이</td>
+<td>같다</td>
+<td>같다(효소는 이것을 바꾸지 않는다)</td>
+</tr>
+<tr>
+<td>효소 자신</td>
+<td>—</td>
+<td>반응 뒤에도 <strong>변하지 않고 다시 쓰인다</strong></td>
+</tr>
+</tbody></table></div>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 산 너머 마을(생성물)로 가려면 높은 고개를 넘어야 한다. 효소는 산에 터널을 뚫어 준다. <strong>출발지와 도착지의 높이 차이는 그대로</strong>지만, 훨씬 적은 힘으로 빨리 갈 수 있다. 그리고 터널은 한 번 쓰고 없어지지 않는다.</p>
+</aside>
+<h4 id="예-과산화-수소의-분해">예 — 과산화 수소의 분해</h4>
+<p>세포호흡 등 물질대사 과정에서는 세포에 해로운 <strong>과산화 수소(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span>)</strong> 가 생긴다. 과산화 수소는 그냥 두어도 물과 산소로 분해되지만 매우 느리다. 간이나 감자 등 대부분의 세포에 들어 있는 효소 <strong>카탈레이스(catalase)</strong> 가 있으면 순식간에 분해된다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.2503em;vertical-align:-0.15em;"></span><span class="mord">2</span><span class="mord"><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel x-arrow"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.1003em;"><span style="top:-3.322em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight x-arrow-pad"><span class="mord mtight"><span class="mspace mtight"><span class="mtight"> </span></span><span class="mord text mtight"><span class="mord hangul_fallback mtight">카탈레이스</span></span><span class="mspace mtight"><span class="mtight"> </span></span></span></span></span><span class="svg-align" style="top:-2.689em;"><span class="pstrut" style="height:2.7em;"></span><span class="hide-tail" style="height:0.522em;min-width:1.469em;"><svg xmlns="http://www.w3.org/2000/svg" width='400em' height='0.522em' viewBox='0 0 400000 522' preserveAspectRatio='xMaxYMin slice'><path d='M0 241v40h399891c-47.3 35.3-84 78-110 128
+-16.7 32-27.7 63.7-33 95 0 1.3-.2 2.7-.5 4-.3 1.3-.5 2.3-.5 3 0 7.3 6.7 11 20
+ 11 8 0 13.2-.8 15.5-2.5 2.3-1.7 4.2-5.5 5.5-11.5 2-13.3 5.7-27 11-41 14.7-44.7
+ 39-84.5 73-119.5s73.7-60.2 119-75.5c6-2 9-5.7 9-11s-3-9-9-11c-45.3-15.3-85
+-40.5-119-75.5s-58.3-74.8-73-119.5c-4.7-14-8.3-27.3-11-40-1.3-6.7-3.2-10.8-5.5
+-12.5-2.3-1.7-7.5-2.5-15.5-2.5-14 0-21 3.7-21 11 0 2 2 10.3 6 25 20.7 83.3 67
+ 151.7 139 205zm0 0v40h399900v-40z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.011em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord">2</span><span class="mord"><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathrm">O</span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></p>
+<p>상처에 과산화 수소수를 바르면 거품이 나는 이유가 이것이다. 상처의 혈액과 조직 세포 속 카탈레이스가 과산화 수소를 분해해 <strong>산소 기체</strong>가 생긴다.</p>
+<h4 id="2-기질-특이성-효소마다-맞는-짝이-정해져-있다">(2) 기질 특이성 — 효소마다 맞는 짝이 정해져 있다</h4>
+<p>효소가 작용하는 물질을 <strong>기질(substrate)</strong> 이라고 한다. 효소에는 기질이 꼭 맞게 결합하는 부위인 <strong>활성 부위(active site)</strong> 가 있다. 활성 부위의 입체 구조에 맞는 기질하고만 반응하므로, <strong>한 효소는 특정한 기질에만 작용한다.</strong> 이것을 <strong>기질 특이성(substrate specificity)</strong> 이라고 한다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-3-5-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 788.90625 85" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-3-5-2{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-3-5-2 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-3-5-2 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-3-5-2 .error-icon{fill:var(--mm-group);}#mm-3-5-2 .error-text{fill:#595959;stroke:#595959;}#mm-3-5-2 .edge-thickness-normal{stroke-width:1px;}#mm-3-5-2 .edge-thickness-thick{stroke-width:3.5px;}#mm-3-5-2 .edge-pattern-solid{stroke-dasharray:0;}#mm-3-5-2 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-3-5-2 .edge-pattern-dashed{stroke-dasharray:3;}#mm-3-5-2 .edge-pattern-dotted{stroke-dasharray:2;}#mm-3-5-2 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-3-5-2 .marker.cross{stroke:var(--mm-line);}#mm-3-5-2 svg{font-family:inherit;font-size:15px;}#mm-3-5-2 p{margin:0;}#mm-3-5-2 .label{font-family:inherit;color:var(--mm-text);}#mm-3-5-2 .cluster-label text{fill:#595959;}#mm-3-5-2 .cluster-label span{color:#595959;}#mm-3-5-2 .cluster-label span p{background-color:transparent;}#mm-3-5-2 .label text,#mm-3-5-2 span{fill:var(--mm-text);color:var(--mm-text);}#mm-3-5-2 .node rect,#mm-3-5-2 .node circle,#mm-3-5-2 .node ellipse,#mm-3-5-2 .node polygon,#mm-3-5-2 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-3-5-2 .rough-node .label text,#mm-3-5-2 .node .label text,#mm-3-5-2 .image-shape .label,#mm-3-5-2 .icon-shape .label{text-anchor:middle;}#mm-3-5-2 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-3-5-2 .rough-node .label,#mm-3-5-2 .node .label,#mm-3-5-2 .image-shape .label,#mm-3-5-2 .icon-shape .label{text-align:center;}#mm-3-5-2 .node.clickable{cursor:pointer;}#mm-3-5-2 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-3-5-2 .arrowheadPath{fill:#0b0b0b;}#mm-3-5-2 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-3-5-2 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-3-5-2 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-3-5-2 .edgeLabel p{background-color:var(--mm-label);}#mm-3-5-2 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-3-5-2 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-3-5-2 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-3-5-2 .cluster text{fill:#595959;}#mm-3-5-2 .cluster span{color:#595959;}#mm-3-5-2 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-3-5-2 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-3-5-2 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-3-5-2 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-3-5-2 rect.text{fill:none;stroke-width:0;}#mm-3-5-2 .icon-shape,#mm-3-5-2 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-3-5-2 .icon-shape p,#mm-3-5-2 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-3-5-2 .icon-shape .label rect,#mm-3-5-2 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-3-5-2 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-3-5-2 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-3-5-2 .node .neo-node{stroke:var(--mm-border);}#mm-3-5-2 [data-look="neo"].node rect,#mm-3-5-2 [data-look="neo"].cluster rect,#mm-3-5-2 [data-look="neo"].node polygon{stroke:url(#mm-3-5-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-5-2 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-3-5-2 [data-look="neo"].node path{stroke:url(#mm-3-5-2-gradient);stroke-width:1px;}#mm-3-5-2 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-5-2 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-3-5-2 [data-look="neo"].node circle{stroke:url(#mm-3-5-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-5-2 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-3-5-2 [data-look="neo"].icon-shape .icon{fill:url(#mm-3-5-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-5-2 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-3-5-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-5-2 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-3-5-2_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-2_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-2_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-2_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-2_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-2_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-2_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-2_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-2_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-2_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-5-2_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-3-5-2_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M133.109,42.5L137.276,42.5C141.443,42.5,149.776,42.5,157.443,42.5C165.109,42.5,172.109,42.5,175.609,42.5L179.109,42.5" id="mm-3-5-2-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTMzLjEwOTM3NSwieSI6NDIuNX0seyJ4IjoxNTguMTA5Mzc1LCJ5Ijo0Mi41fSx7IngiOjE4My4xMDkzNzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-3-5-2_flowchart-v2-pointEnd)"/><path d="M345.281,42.5L349.448,42.5C353.615,42.5,361.948,42.5,369.615,42.5C377.281,42.5,384.281,42.5,387.781,42.5L391.281,42.5" id="mm-3-5-2-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6MzQ1LjI4MTI1LCJ5Ijo0Mi41fSx7IngiOjM3MC4yODEyNSwieSI6NDIuNX0seyJ4IjozOTUuMjgxMjUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-3-5-2_flowchart-v2-pointEnd)"/><path d="M535.391,42.5L539.557,42.5C543.724,42.5,552.057,42.5,559.724,42.5C567.391,42.5,574.391,42.5,577.891,42.5L581.391,42.5" id="mm-3-5-2-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6NTM1LjM5MDYyNSwieSI6NDIuNX0seyJ4Ijo1NjAuMzkwNjI1LCJ5Ijo0Mi41fSx7IngiOjU4NS4zOTA2MjUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-3-5-2_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-3-5-2-flowchart-A-0" data-look="classic" transform="translate(70.5546875, 42.5)"><rect class="basic label-container" style="" x="-62.5546875" y="-23.25" width="125.109375" height="46.5"/><g class="label" style="" transform="translate(-38.5546875, -11.25)"><rect/><foreignObject width="77.109375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>효소 + 기질</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-5-2-flowchart-B-1" data-look="classic" transform="translate(264.1953125, 42.5)"><rect class="basic label-container" style="" x="-81.0859375" y="-34.5" width="162.171875" height="69"/><g class="label" style="" transform="translate(-57.0859375, -22.5)"><rect/><foreignObject width="114.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>효소·기질 복합체<br />활성 부위에 결합</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-5-2-flowchart-C-3" data-look="classic" transform="translate(465.3359375, 42.5)"><rect class="basic label-container" style="" x="-70.0546875" y="-23.25" width="140.109375" height="46.5"/><g class="label" style="" transform="translate(-46.0546875, -11.25)"><rect/><foreignObject width="92.109375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>효소 + 생성물</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-5-2-flowchart-D-5" data-look="classic" transform="translate(683.1484375, 42.5)"><rect class="basic label-container" style="" x="-97.7578125" y="-34.5" width="195.515625" height="69"/><g class="label" style="" transform="translate(-73.7578125, -22.5)"><rect/><foreignObject width="147.515625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>효소는 그대로<br />다음 기질과 다시 반응</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-3-5-2-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-3-5-2-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-3-5-2-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><div class="table-wrap"><table><thead><tr>
+<th>효소</th>
+<th>기질</th>
+<th>생성물</th>
+<th>작용하는 곳</th>
+</tr>
+</thead><tbody><tr>
+<td>아밀레이스</td>
+<td>녹말</td>
+<td>엿당</td>
+<td>침, 이자액</td>
+</tr>
+<tr>
+<td>펩신</td>
+<td>단백질</td>
+<td>더 작은 단백질 조각</td>
+<td>위액</td>
+</tr>
+<tr>
+<td>트립신</td>
+<td>단백질</td>
+<td>더 작은 단백질 조각</td>
+<td>이자액</td>
+</tr>
+<tr>
+<td>라이페이스</td>
+<td>지방</td>
+<td>지방산, 모노글리세리드</td>
+<td>이자액</td>
+</tr>
+<tr>
+<td>카탈레이스</td>
+<td>과산화 수소</td>
+<td>물, 산소</td>
+<td>대부분의 세포</td>
+</tr>
+</tbody></table></div>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 효소와 기질은 <strong>자물쇠와 열쇠</strong>처럼 맞는 짝이 정해져 있다. 아밀레이스라는 자물쇠에는 녹말이라는 열쇠만 맞는다. 그래서 아밀레이스는 단백질이나 지방을 분해하지 못한다. 우리 몸에 수많은 종류의 효소가 필요한 이유이다.</p>
+</aside>
+<h4 id="3-온도와-ph의-영향-효소는-단백질이다">(3) 온도와 pH의 영향 — 효소는 단백질이다</h4>
+<p>효소의 주성분은 단백질이고, 단백질은 <strong>입체 구조</strong>가 기능을 결정한다(STEP 2-⑤). 따라서 입체 구조를 바꾸는 조건은 효소의 활성에 큰 영향을 준다.</p>
+<p><strong>온도</strong></p>
+<ul>
+<li>온도가 높아지면 입자 운동이 활발해져 반응 속도가 빨라진다.</li>
+<li>그러나 일정 온도를 넘으면 효소 단백질의 입체 구조가 망가져(<strong>변성, denaturation</strong>) 활성 부위에 기질이 맞지 않게 되고, 반응 속도가 급격히 떨어진다.</li>
+<li>효소가 가장 잘 작용하는 온도를 <strong>최적 온도</strong>라고 한다. 사람 몸속 효소의 최적 온도는 대체로 체온(약 35~40 °C) 부근이다.</li>
+<li>낮은 온도에서는 반응이 느려질 뿐 효소가 망가지지는 않아서, 온도를 다시 올리면 활성이 돌아온다. 반면 높은 온도로 변성된 효소는 대부분 다시 식혀도 활성이 돌아오지 않는다.</li>
+</ul>
+<p><strong>pH</strong></p>
+<ul>
+<li>효소마다 가장 잘 작용하는 <strong>최적 pH</strong>가 다르다. 최적 pH를 크게 벗어나면 역시 입체 구조가 변해 활성이 떨어진다.</li>
+</ul>
+<div class="table-wrap"><table><thead><tr>
+<th>효소</th>
+<th>작용하는 곳</th>
+<th>최적 pH(대략)</th>
+</tr>
+</thead><tbody><tr>
+<td>펩신</td>
+<td>위(강한 산성)</td>
+<td>약 2</td>
+</tr>
+<tr>
+<td>침 속 아밀레이스</td>
+<td>입(거의 중성)</td>
+<td>약 7</td>
+</tr>
+<tr>
+<td>트립신</td>
+<td>소장(약한 염기성)</td>
+<td>약 8</td>
+</tr>
+</tbody></table></div>
+<h4 id="예제-3">예제 3</h4>
+<p>간 조각에 3 % 과산화 수소수를 떨어뜨리는 실험을 온도만 바꾸어 하고, 일정 시간 동안 발생한 산소의 부피를 측정했다(예시 자료).</p>
+<div class="table-wrap"><table><thead><tr>
+<th>온도(°C)</th>
+<th>0</th>
+<th>20</th>
+<th>37</th>
+<th>60</th>
+<th>100</th>
+</tr>
+</thead><tbody><tr>
+<td>산소 부피(mL)</td>
+<td>4</td>
+<td>12</td>
+<td>20</td>
+<td>6</td>
+<td>0</td>
+</tr>
+</tbody></table></div>
+<p>(1) 이 효소의 최적 온도는 대략 몇 °C인가?
+(2) 0 °C와 100 °C에서 산소가 적게 발생한 이유를 각각 쓰시오.</p>
+<p><strong>풀이</strong>
+(1) 산소가 가장 많이 발생한 약 37 °C 부근이다.
+(2) 0 °C: 온도가 낮아 입자 운동이 느려서 효소와 기질이 만나는 횟수가 적다(효소는 망가지지 않음). 100 °C: 효소 단백질이 <strong>변성</strong>되어 활성 부위의 모양이 바뀌었기 때문에 기질과 결합하지 못한다.</p>
+<h4 id="단원-들어가기-풀이-파인애플-젤리의-비밀">단원 들어가기 풀이 — 파인애플 젤리의 비밀</h4>
+<p>젤리를 굳게 하는 젤라틴은 <strong>단백질</strong>이다. 신선한 파인애플에는 <strong>단백질 분해 효소</strong>가 들어 있어 젤라틴을 분해하므로 젤리가 굳지 않는다. 통조림 파인애플은 만드는 과정에서 가열되어 효소가 변성되었기 때문에 젤리가 잘 굳는다. <strong>효소의 기질 특이성(단백질만 분해)</strong> 과 <strong>온도에 의한 변성</strong>을 한 번에 보여 주는 예이다.</p>
+<h4 id="일상에서-활용되는-효소와-화학-반응">일상에서 활용되는 효소와 화학 반응</h4>
+<p>성취기준은 &quot;일상생활에서 활용되는 화학 반응 사례를 조사하여 발표&quot;하는 것을 요구한다. 아래는 조사의 출발점이 될 수 있는 사례이다(탐구 활동 C에서 직접 조사·발표한다).</p>
+<div class="table-wrap"><table><thead><tr>
+<th>분야</th>
+<th>사례</th>
+<th>관련 효소·생물</th>
+<th>원리</th>
+</tr>
+</thead><tbody><tr>
+<td>전통 음식</td>
+<td>식혜</td>
+<td>엿기름 속 아밀레이스</td>
+<td>밥의 녹말을 엿당으로 분해해 단맛을 낸다. 따뜻하게(약 60 °C 안팎) 유지하는 것은 효소가 잘 작용하는 온도를 맞추기 위해서이다</td>
+</tr>
+<tr>
+<td>발효 식품</td>
+<td>김치, 요구르트</td>
+<td>젖산균의 효소</td>
+<td>당을 분해해 젖산을 만든다(신맛)</td>
+</tr>
+<tr>
+<td>제빵·양조</td>
+<td>빵, 막걸리</td>
+<td>효모의 효소</td>
+<td>당을 분해해 이산화 탄소와 알코올을 만든다. 빵이 부푸는 것은 이산화 탄소 때문이다</td>
+</tr>
+<tr>
+<td>요리</td>
+<td>고기 연하게 재우기</td>
+<td>키위·파인애플의 단백질 분해 효소</td>
+<td>고기 단백질을 일부 분해한다</td>
+</tr>
+<tr>
+<td>유제품</td>
+<td>유당을 줄인 우유</td>
+<td>락테이스</td>
+<td>유당(젖당)을 포도당과 갈락토스로 분해한다</td>
+</tr>
+<tr>
+<td>세탁</td>
+<td>효소 세제</td>
+<td>단백질·지방·녹말 분해 효소</td>
+<td>피, 음식물 얼룩을 분해해 떼어 낸다</td>
+</tr>
+<tr>
+<td>의약품</td>
+<td>소화제</td>
+<td>여러 소화 효소</td>
+<td>소화를 돕는다</td>
+</tr>
+<tr>
+<td>응급 처치</td>
+<td>과산화 수소수 소독</td>
+<td>카탈레이스</td>
+<td>과산화 수소가 분해되며 산소 거품이 생긴다</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-4" class="step-h s4"><span class="step-badge s4">STEP 4</span><span class="h-text">오개념 바로잡기</span></h2>
+<div class="table-wrap"><table><thead><tr>
+<th>흔한 오개념</th>
+<th>올바른 개념</th>
+<th>왜 그럴까?</th>
+</tr>
+</thead><tbody><tr>
+<td>효소는 반응에 쓰이면 없어진다</td>
+<td>효소는 반응 전후에 <strong>변하지 않고 반복해서 쓰인다</strong></td>
+<td>효소는 촉매이다. 기질과 잠시 결합했다가 생성물을 내놓고 원래대로 돌아간다</td>
+</tr>
+<tr>
+<td>효소는 반응의 에너지(반응 전후 에너지 차이)를 바꾼다</td>
+<td>효소는 <strong>활성화 에너지만 낮춘다</strong></td>
+<td>터널을 뚫어도 출발지와 도착지의 높이 차이는 그대로이다</td>
+</tr>
+<tr>
+<td>온도가 높을수록 효소 반응은 계속 빨라진다</td>
+<td>최적 온도를 넘으면 효소가 <strong>변성</strong>되어 반응이 급격히 느려진다</td>
+<td>효소의 주성분인 단백질은 열에 의해 입체 구조가 망가진다</td>
+</tr>
+<tr>
+<td>차갑게 하면 효소가 죽는다(파괴된다)</td>
+<td>낮은 온도에서는 <strong>활성이 낮아질 뿐</strong>, 다시 온도를 올리면 회복된다</td>
+<td>낮은 온도는 입자 운동을 느리게 할 뿐 입체 구조를 망가뜨리지 않는다. 그래서 효소를 냉장 보관한다</td>
+</tr>
+<tr>
+<td>삼투에서 물은 농도가 높은 쪽에서 낮은 쪽으로 간다</td>
+<td>물은 <strong>용질 농도가 낮은 쪽 → 높은 쪽</strong>으로 이동한다</td>
+<td>용질 농도가 낮은 쪽이 &#39;물의 농도&#39;가 높은 쪽이다. 물의 입장에서는 확산이다</td>
+</tr>
+<tr>
+<td>세포막은 구멍이 뚫린 체(거름망)여서 작은 것은 다 통과한다</td>
+<td>세포막은 크기뿐 아니라 <strong>전하·성질</strong>에 따라 선택적으로 통과시킨다</td>
+<td>나트륨 이온은 크기가 매우 작지만, 전하를 띠어 소수성 층을 직접 통과하지 못한다</td>
+</tr>
+<tr>
+<td>확산은 살아 있는 세포만 일으킨다</td>
+<td>확산은 입자의 <strong>스스로의 운동</strong> 때문에 일어나며 에너지가 필요 없다</td>
+<td>죽은 달걀 막이나 셀로판(투석막)에서도 확산·삼투가 일어난다</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-5" class="step-h s5"><span class="step-badge s5">STEP 5</span><span class="h-text">선택과목·대학으로 한 걸음 더</span></h2>
+<aside class="callout caution"><p class="callout-title">심화 · 평가 범위 밖</p><p>이 절은 <strong>통합과학 교육과정 범위 밖의 심화 내용</strong>으로 평가 대상이 아니다. &quot;이 개념이 앞으로 어디까지 이어지는가&quot;를 맛보기로 보여 주기 위한 내용이다.</p>
+</aside>
+<h3 id="고2-3-선택과목과의-연결">고2·3 선택과목과의 연결</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>과목</th>
+<th>이어지는 내용</th>
+</tr>
+</thead><tbody><tr>
+<td>생명과학</td>
+<td>생명 시스템의 구성(세포, 기관계의 통합적 작용), 물질대사와 에너지</td>
+</tr>
+<tr>
+<td>세포와 물질대사</td>
+<td>세포(세포 소기관, 세포막을 통한 물질 수송), 물질대사와 에너지(효소의 작용), 세포호흡과 광합성의 단계별 과정</td>
+</tr>
+</tbody></table></div>
+<h3 id="①-atp-세포의-에너지-화폐와-능동-수송">① ATP — 세포의 에너지 화폐와 능동 수송</h3>
+<p>세포호흡으로 포도당에서 방출된 에너지는 그대로 쓰이지 않고 <strong>ATP(아데노신 삼인산)</strong> 라는 물질에 저장된다. ATP가 ADP와 인산으로 분해될 때 나오는 에너지를 근육 수축, 물질 합성, 능동 수송 등에 쓴다. 그래서 ATP를 <strong>세포의 에너지 화폐</strong>라고 부른다.</p>
+<p>대표적인 능동 수송 단백질인 <strong>나트륨–칼륨 펌프</strong>는 ATP 1분자의 에너지를 써서 나트륨 이온 3개를 세포 밖으로, 칼륨 이온 2개를 세포 안으로 옮긴다. 이렇게 만든 이온 농도 차이는 신경 세포가 신호를 전달하는 바탕이 된다.</p>
+<h3 id="②-삼투압을-숫자로-반트호프-식">② 삼투압을 숫자로 — 반트호프 식</h3>
+<p>반투과성 막을 사이에 두고 삼투가 일어나지 않게 하려면 진한 용액 쪽에 압력을 가해야 한다. 이 압력을 <strong>삼투압(π)</strong> 이라 하며, 묽은 용액에서는 다음 식으로 어림한다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">π</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">CRT</span></span></span></span></span></p>
+<p>(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span></span></span></span>: 용질 입자의 몰 농도(mol/L), <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span></span></span></span>: 기체 상수 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">0.082</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">atm</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">L/</span><span class="mopen">(</span><span class="mord mathrm">mol</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">K</span><span class="mclose">)</span></span></span></span></span>, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">T</span></span></span></span>: 절대 온도(K))</p>
+<p><strong>예</strong> 바닷물을 염화 나트륨 0.55 mol/L 용액이라고 가정하자. 염화 나트륨은 물에서 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7713em;"></span><span class="mord"><span class="mord mathrm">N</span><span class="mord"><span class="mord mathrm">a</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7713em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">+</span></span></span></span></span></span></span></span></span></span></span></span>과 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7713em;"></span><span class="mord"><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">l</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7713em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">−</span></span></span></span></span></span></span></span></span></span></span></span> 두 입자로 나뉘므로 입자 농도는 약 1.1 mol/L이다. 25 °C(298 K)에서</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4831em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">π</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1.1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">0.082</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">298</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">27</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">atm</span></span></span></span></span></span></p>
+<p>바닷물에서 담수를 얻는 <strong>역삼투</strong> 장치는 이보다 <strong>더 큰 압력</strong>을 바닷물 쪽에 가해, 물을 삼투와 <strong>반대 방향</strong>(진한 쪽 → 묽은 쪽)으로 밀어낸다(STEP 6).</p>
+<h3 id="③-효소-반응-속도론-미카엘리스-멘텐-식">③ 효소 반응 속도론 — 미카엘리스–멘텐 식</h3>
+<p>대학 &#39;생화학&#39;에서는 기질 농도 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mclose">]</span></span></span></span>에 따른 효소 반응 속도 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span>를 다음과 같이 나타낸다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.363em;vertical-align:-0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.427em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal" style="margin-right:0.07153em;">K</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0715em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mopen">[</span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mclose">]</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mop mtight"><span class="mtight">m</span><span class="mtight">a</span><span class="mtight">x</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mopen">[</span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mclose">]</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.936em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<ul>
+<li><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mop mtight"><span class="mtight">m</span><span class="mtight">a</span><span class="mtight">x</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>: 효소가 모두 기질과 결합해 있을 때의 최대 속도</li>
+<li><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07153em;">K</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0715em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>: 반응 속도가 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mop mtight"><span class="mtight">m</span><span class="mtight">a</span><span class="mtight">x</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>의 절반이 될 때의 기질 농도(효소와 기질이 얼마나 잘 결합하는지의 지표)</li>
+</ul>
+<p><strong>예</strong> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mop mtight"><span class="mtight">m</span><span class="mtight">a</span><span class="mtight">x</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">100</span></span></span></span>, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07153em;">K</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0715em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">2</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">mM</span></span></span></span></span>일 때</p>
+<ul>
+<li><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mclose">]</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">2</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">mM</span></span></span></span></span>: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0908em;vertical-align:-0.7693em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">2</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">100</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7693em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">50</span></span></span></span> (최대 속도의 절반)</li>
+<li><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mclose">]</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">18</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">mM</span></span></span></span></span>: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0908em;vertical-align:-0.7693em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">18</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">100</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">18</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7693em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">90</span></span></span></span></li>
+</ul>
+<p>기질을 9배로 늘려도 속도는 2배가 채 안 된다. 효소의 활성 부위가 거의 다 차서 <strong>포화</strong>되기 때문이다.</p>
+<p>또 활성 부위에 기질 대신 결합해 반응을 막는 <strong>저해제(inhibitor)</strong> 를 연구한다. 많은 의약품이 특정 효소의 저해제이다. 예를 들어 아스피린 같은 일부 진통·소염제는 염증 물질을 만드는 효소의 작용을 억제한다.</p>
+<h3 id="고등학교-vs-대학교">고등학교 vs 대학교</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>고등학교 통합과학</th>
+<th>대학교 세포생물학·생화학</th>
+</tr>
+</thead><tbody><tr>
+<td>세포막</td>
+<td>인지질 이중층 + 단백질, 선택적 투과성</td>
+<td>유동 모자이크 모형, 막 전위, 수송 단백질의 종류와 구조</td>
+</tr>
+<tr>
+<td>물질 이동</td>
+<td>확산, 삼투, 능동 수송(정성적)</td>
+<td>확산 속도(픽의 법칙), 삼투압 계산, 에너지 수지</td>
+</tr>
+<tr>
+<td>물질대사</td>
+<td>동화·이화, 에너지 흡수·방출</td>
+<td>해당 과정·TCA 회로·전자 전달계 등 대사 경로 전체</td>
+</tr>
+<tr>
+<td>효소</td>
+<td>활성화 에너지, 기질 특이성, 온도·pH</td>
+<td>반응 속도론(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mop mtight"><span class="mtight">m</span><span class="mtight">a</span><span class="mtight">x</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07153em;">K</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0715em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>), 저해 양식, 효소 구조 분석</td>
+</tr>
+<tr>
+<td>관련 전공</td>
+<td>—</td>
+<td>생명과학, 생화학, 화학공학, 식품공학, 약학, 의학, 환경공학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-6" class="step-h s6"><span class="step-badge s6">STEP 6</span><span class="h-text">산업 현장과 진로 연결</span></h2>
+<h3 id="사례-1-효소-산업-세제-식품-바이오-연료">사례 1. 효소 산업 — 세제, 식품, 바이오 연료</h3>
+<ul>
+<li><strong>원리</strong> 효소는 기질 특이성이 높아 원하는 반응만 골라 일으키고, 비교적 낮은 온도와 중성 부근에서 작용한다. 높은 온도·압력이나 강한 화학 약품이 필요한 공정을 대신할 수 있어 에너지와 오염 물질을 줄인다.</li>
+<li><strong>세제</strong> 효소 세제에는 단백질 분해 효소(피, 달걀 얼룩), 지방 분해 효소(기름 얼룩), 녹말 분해 효소(음식물 얼룩) 등이 들어 있다. 산업계는 찬물에서도 잘 작용하거나 세제의 염기성 조건에서도 변성되지 않는 효소를 개발해 왔다.</li>
+<li><strong>식품·발효</strong> 녹말을 분해해 물엿·올리고당을 만들고, 우유 속 유당을 분해하며, 치즈를 굳히는 데 효소를 쓴다. 김치·장류·빵 같은 발효 식품은 미생물이 가진 효소의 작용을 이용한다.</li>
+<li><strong>바이오 연료</strong> 옥수수 녹말이나 식물의 섬유질(셀룰로스)을 효소로 분해해 포도당을 만들고, 효모가 포도당을 발효시켜 <strong>바이오에탄올</strong>을 만든다. 질기고 단단한 셀룰로스를 효율적으로 분해하는 효소 개발이 핵심 기술 과제이다.</li>
+</ul>
+<h3 id="사례-2-진단-기기-효소의-39-정확한-짝-찾기-39-능력">사례 2. 진단 기기 — 효소의 &#39;정확한 짝 찾기&#39; 능력</h3>
+<ul>
+<li><strong>혈당 측정기</strong>: 시험지에 포도당에만 반응하는 효소가 묻어 있다. 피 한 방울 속 포도당이 효소와 반응할 때 생기는 전기 신호의 크기로 혈당 농도를 계산한다. 혈액 속에 수많은 물질이 섞여 있어도 <strong>기질 특이성</strong> 덕분에 포도당만 측정할 수 있다.</li>
+<li><strong>임상 검사</strong>: 병원의 혈액 검사 장비는 효소 반응으로 색 변화를 일으켜 특정 물질의 양을 측정한다. 또 간이 손상되면 간세포 속 효소가 혈액으로 새어 나오므로, 혈액 속 특정 효소의 양은 간 건강의 지표가 된다.</li>
+</ul>
+<h3 id="사례-3-막-기술-혈액-투석과-역삼투-정수">사례 3. 막 기술 — 혈액 투석과 역삼투 정수</h3>
+<p><strong>혈액 투석(인공 신장)</strong></p>
+<ul>
+<li>콩팥(신장)이 제 기능을 못하면 혈액 속에 요소 같은 노폐물이 쌓인다. 혈액 투석기는 혈액을 몸 밖으로 꺼내 <strong>반투과성 막</strong>으로 된 가는 관 다발 속으로 흘려보낸다.</li>
+<li>막 바깥에는 <strong>투석액</strong>이 흐른다. 노폐물은 혈액 쪽 농도가 높으므로 투석액 쪽으로 <strong>확산</strong>해 빠져나가고, 혈구와 단백질처럼 큰 성분은 막을 통과하지 못해 혈액에 남는다.</li>
+<li>투석액에는 몸에 필요한 물질(일부 이온, 포도당 등)을 혈액과 비슷한 농도로 넣어, 필요한 물질은 빠져나가지 않게 한다. 확산과 선택적 투과성을 그대로 이용한 기술이다.</li>
+<li>혈액 투석은 보통 일주일에 3회, 한 번에 약 4시간 정도 받는다.</li>
+</ul>
+<p><strong>역삼투 정수와 해수 담수화</strong></p>
+<ul>
+<li>삼투와 반대로, 진한 쪽(바닷물, 오염된 물)에 <strong>삼투압보다 큰 압력</strong>을 가하면 물만 막을 통과해 묽은 쪽으로 밀려 나간다. 이를 <strong>역삼투(reverse osmosis)</strong> 라고 한다.</li>
+<li>이온조차 거의 통과하지 못할 만큼 촘촘한 막을 쓰며, 가정용 정수기와 물이 부족한 지역의 <strong>해수 담수화 시설</strong>에 쓰인다. 큰 압력을 만드는 데 드는 에너지를 줄이는 것이 주요 기술 과제이다.</li>
+</ul>
+<h3 id="사례-4-약물-전달-세포막을-닮은-39-캡슐-39">사례 4. 약물 전달 — 세포막을 닮은 &#39;캡슐&#39;</h3>
+<ul>
+<li>인지질은 물속에서 저절로 이중층을 만든다. 이 성질을 이용해 약물을 인지질 이중층 주머니 안에 담은 <strong>리포솜(liposome)</strong> 을 만든다.</li>
+<li>리포솜이나 이와 비슷한 <strong>지질 나노 입자</strong>는 세포막과 성질이 비슷해 세포와 잘 융합되고, 약물이 혈액 속에서 너무 빨리 분해되지 않도록 보호한다. 일부 항암제와 mRNA 백신(3-6 단원)에 이 기술이 쓰인다.</li>
+</ul>
+<h3 id="관련-진로와-학과">관련 진로와 학과</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>진로</th>
+<th>하는 일</th>
+<th>관련 학과</th>
+</tr>
+</thead><tbody><tr>
+<td>효소·발효 연구원</td>
+<td>산업용 효소 개발, 발효 식품·바이오 연료 공정 개발</td>
+<td>생명공학, 미생물학, 식품공학, 화학공학</td>
+</tr>
+<tr>
+<td>의공학 엔지니어</td>
+<td>투석기·인공 장기·진단 기기 설계</td>
+<td>의공학, 기계공학, 전자공학</td>
+</tr>
+<tr>
+<td>수처리·막 공정 엔지니어</td>
+<td>정수·해수 담수화·폐수 처리 시설 설계</td>
+<td>환경공학, 화학공학, 토목공학</td>
+</tr>
+<tr>
+<td>제약 연구원</td>
+<td>신약·약물 전달 시스템 개발, 효소 저해제 설계</td>
+<td>약학, 생화학, 화학</td>
+</tr>
+<tr>
+<td>임상병리사·진단 연구원</td>
+<td>혈액·효소 검사, 진단 키트 개발</td>
+<td>임상병리학, 생명과학, 의학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="탐구-활동">탐구 활동</h2>
+<h3 id="활동-a-막을-통한-물질의-이동-실험하기-생명-활동-유지에서-세포막의-역할-탐구">활동 A. 막을 통한 물질의 이동 실험하기 — 생명 활동 유지에서 세포막의 역할 탐구</h3>
+<p><strong>목표</strong> 반투과성 막(달걀 막, 투석막)과 식물 세포(감자)에서 일어나는 물질 이동을 관찰하고, 세포막의 선택적 투과성과 연결하여 설명한다.</p>
+<p><strong>준비물</strong> 날달걀 2개, 식초, 증류수, 진한 설탕물(또는 물엿), 투석막(셀로판 튜브), 녹말 용액, 포도당 용액, 아이오딘–아이오딘화 칼륨 용액, 포도당 검출 시약(베네딕트 용액 또는 포도당 검출 시험지), 감자, 칼(교사 지도), 전자저울, 비커, 농도가 다른 설탕 용액(0 %, 4 %, 8 %, 12 %, 16 %)</p>
+<p><strong>과정</strong></p>
+<ol>
+<li><strong>달걀 막 만들기</strong>: 날달걀을 식초에 1~2일 담가 껍데기를 녹인다(이산화 탄소 거품이 생긴다). 껍데기가 녹으면 얇은 막만 남은 달걀을 조심스럽게 꺼내 질량을 잰다.</li>
+<li>한 개는 증류수, 다른 한 개는 진한 설탕물에 담가 하루 뒤 질량과 모양을 비교한다.</li>
+<li><strong>투석막 실험</strong>: 투석막 주머니에 녹말 용액과 포도당 용액을 섞어 넣고 입구를 묶는다. 아이오딘–아이오딘화 칼륨 용액을 탄 물이 든 비커에 넣는다.</li>
+<li>20~30분 뒤 주머니 안과 비커 물의 색을 관찰하고, 비커 물에 포도당이 있는지 검사한다.</li>
+<li><strong>감자 삼투 실험</strong>: 같은 크기로 자른 감자 조각의 처음 질량을 재고, 농도가 다른 설탕 용액에 1시간 담근 뒤 물기를 닦고 나중 질량을 잰다.</li>
+</ol>
+<p><strong>결과 기록</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>실험</th>
+<th>조건</th>
+<th>처음</th>
+<th>나중</th>
+<th>관찰 결과·해석</th>
+</tr>
+</thead><tbody><tr>
+<td>달걀 막</td>
+<td>증류수</td>
+<td>g</td>
+<td>g</td>
+<td></td>
+</tr>
+<tr>
+<td>달걀 막</td>
+<td>진한 설탕물</td>
+<td>g</td>
+<td>g</td>
+<td></td>
+</tr>
+<tr>
+<td>투석막</td>
+<td>주머니 안의 색</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>투석막</td>
+<td>비커 물의 포도당 검출</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>감자</td>
+<td>0 % ~ 16 % 설탕 용액</td>
+<td>g</td>
+<td>g</td>
+<td>질량 변화율(%) =</td>
+</tr>
+</tbody></table></div>
+<p><strong>생각해 보기</strong></p>
+<ol>
+<li>증류수에 넣은 달걀과 설탕물에 넣은 달걀의 질량 변화를 &#39;물의 이동 방향&#39;으로 설명해 보자.</li>
+<li>투석막 실험에서 주머니 안은 청람색으로 변했지만 비커 물에서는 녹말이 검출되지 않았다. 포도당·아이오딘·녹말 중 막을 통과한 것과 통과하지 못한 것을 구분하고, 그 이유를 입자 크기로 설명해 보자.</li>
+<li>감자 실험 결과를 그래프로 그리고, 질량 변화가 0이 되는 농도를 찾아 감자 세포 안 용액의 농도를 추정해 보자.</li>
+<li>투석막은 크기만으로 물질을 거르지만, 실제 세포막은 그렇지 않다. 세포막이 투석막과 어떻게 다른지 막단백질을 이용해 설명해 보자.</li>
+</ol>
+<aside class="callout warning"><p class="callout-title">주의</p><p><strong>안전 수칙</strong> 칼을 사용할 때는 교사의 지도를 받고 도마 위에서 몸 바깥쪽으로 자른다. 아이오딘 용액은 피부와 옷에 묻으면 착색되므로 장갑을 낀다. 베네딕트 용액으로 포도당을 검출할 때는 물중탕으로 가열하고, 보안경을 쓰며 시험관 입구를 사람 쪽으로 향하지 않는다. 실험에 쓴 달걀과 감자는 먹지 않는다.</p>
+</aside>
+<h3 id="활동-b-효소-작용의-원리에-관한-실험하기-카탈레이스와-과산화-수소">활동 B. 효소 작용의 원리에 관한 실험하기 — 카탈레이스와 과산화 수소</h3>
+<p><strong>목표</strong> 카탈레이스가 과산화 수소의 분해를 촉진함을 확인하고, 온도와 pH가 효소의 작용에 미치는 영향을 조사한다.</p>
+<p><strong>준비물</strong> 생간(닭 간 등) 또는 생감자 조각, 3 % 과산화 수소수, 시험관 6개, 시험관대, 비커, 묽은 염산, 묽은 수산화 나트륨 수용액, 얼음물, 끓는 물, 이산화 망가니즈, 향, 점화기, 보안경, 실험용 장갑</p>
+<p><strong>과정</strong></p>
+<ol>
+<li>시험관 A~F에 3 % 과산화 수소수를 같은 양(약 5 mL)씩 넣는다.</li>
+<li>다음과 같이 처리한 물질을 넣고 거품이 발생하는 정도를 비교한다.</li>
+</ol>
+<div class="table-wrap"><table><thead><tr>
+<th>시험관</th>
+<th>넣는 것</th>
+<th>확인할 점</th>
+</tr>
+</thead><tbody><tr>
+<td>A</td>
+<td>아무것도 넣지 않음</td>
+<td>대조군</td>
+</tr>
+<tr>
+<td>B</td>
+<td>생간 조각</td>
+<td>효소의 작용</td>
+</tr>
+<tr>
+<td>C</td>
+<td>끓는 물에 5분 삶은 간 조각</td>
+<td>높은 온도의 영향</td>
+</tr>
+<tr>
+<td>D</td>
+<td>얼음물에 담가 둔 간 조각(과산화 수소수도 차갑게)</td>
+<td>낮은 온도의 영향</td>
+</tr>
+<tr>
+<td>E</td>
+<td>묽은 염산에 담갔던 간 조각</td>
+<td>산성 조건의 영향</td>
+</tr>
+<tr>
+<td>F</td>
+<td>이산화 망가니즈(무기 촉매)</td>
+<td>효소와 무기 촉매의 비교</td>
+</tr>
+</tbody></table></div>
+<ol start="3">
+<li>거품이 많이 나는 시험관 입구에 불씨만 남은 향을 넣어 발생한 기체를 확인한다.</li>
+<li>B 시험관의 반응이 끝난 뒤 과산화 수소수를 다시 넣어 거품이 또 생기는지 관찰한다.</li>
+<li>(추가) 끓인 이산화 망가니즈로도 F와 같은 실험을 하여 C와 비교한다. 묽은 수산화 나트륨 수용액에 담갔던 간 조각으로도 실험해 본다.</li>
+</ol>
+<p><strong>결과 기록</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>시험관</th>
+<th>거품 발생 정도(+++, ++, +, −)</th>
+<th>향불의 변화</th>
+<th>해석</th>
+</tr>
+</thead><tbody><tr>
+<td>A</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>B</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>E</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>F</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<p><strong>생각해 보기</strong></p>
+<ol>
+<li>향불이 다시 타오른 것으로 보아 발생한 기체는 무엇인가?</li>
+<li>과정 4의 결과로 보아 효소는 반응 후에 어떻게 되는가?</li>
+<li>삶은 간(C)과 삶은 이산화 망가니즈의 결과가 다르다면, 그 이유를 &#39;효소의 주성분&#39;으로 설명해 보자.</li>
+<li>이 실험에서 조작 변인과 통제 변인은 각각 무엇인가? 공정한 비교를 위해 무엇을 같게 해야 할까?</li>
+</ol>
+<aside class="callout warning"><p class="callout-title">주의</p><p><strong>안전 수칙</strong> 보안경과 장갑을 반드시 착용한다. 과산화 수소수·염산·수산화 나트륨 수용액이 피부에 묻으면 즉시 많은 물로 씻는다. 시험관 입구를 사람 쪽으로 향하지 않는다. 향불은 교사의 지도 아래 다루고, 사용 후 완전히 끈다. 간을 삶을 때는 끓는 물과 수증기에 화상을 입지 않도록 집게를 사용한다. 생간에는 식중독 세균이 있을 수 있으므로 맨손으로 만지지 않고, 실험 후 도구를 세척하고 손을 비누로 씻는다. 이산화 망가니즈 가루는 들이마시지 않도록 주의하고, 사용한 이산화 망가니즈와 폐액은 하수구에 버리지 말고 교사의 안내에 따라 처리한다.</p>
+</aside>
+<h3 id="활동-c-일상생활에서-활용되는-화학-반응-사례-조사-발표하기">활동 C. 일상생활에서 활용되는 화학 반응 사례 조사·발표하기</h3>
+<p><strong>목표</strong> 생명 시스템의 화학 반응(효소 반응, 발효 등)이 일상과 산업에서 활용되는 사례를 조사하여 발표한다.</p>
+<p><strong>과정</strong></p>
+<ol>
+<li>모둠별로 주제를 하나 고른다. (예: 효소 세제는 어떻게 얼룩을 지우나? / 식혜와 엿은 어떻게 단맛을 낼까? / 김치가 시어지는 이유 / 유당을 줄인 우유 / 혈당 측정기의 원리 / 바이오에탄올 만들기)</li>
+<li>다음 질문에 답하도록 자료를 조사한다. ① 어떤 물질이 어떤 물질로 바뀌는가? ② 어떤 효소(또는 생물)가 관여하는가? ③ 온도·pH 등 조건을 어떻게 조절하는가? ④ 우리 생활이나 산업에 어떤 도움을 주는가?</li>
+<li>출처를 밝혀 발표 자료(포스터, 슬라이드, 짧은 영상 등)를 만들고 발표한다.</li>
+</ol>
+<p><strong>발표 평가 기준</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>평가 항목</th>
+<th>확인할 점</th>
+</tr>
+</thead><tbody><tr>
+<td>과학적 정확성</td>
+<td>반응물·생성물, 효소의 역할을 정확히 설명했는가</td>
+</tr>
+<tr>
+<td>개념 연결</td>
+<td>활성화 에너지, 기질 특이성, 온도·pH 중 하나 이상을 연결했는가</td>
+</tr>
+<tr>
+<td>자료의 신뢰성</td>
+<td>공공기관·교과서·학술 자료 등 믿을 만한 출처를 밝혔는가</td>
+</tr>
+<tr>
+<td>소통</td>
+<td>청중이 이해하기 쉽게 그림·표를 활용했는가</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="개념-확인-문제">개념 확인 문제</h2>
+<h3 id="기본">기본</h3>
+<p><strong>1.</strong> 세포 소기관과 그 역할을 옳게 짝 지은 것을 <strong>모두</strong> 고르시오.
+ㄱ. 리보솜 – 단백질 합성
+ㄴ. 미토콘드리아 – 광합성
+ㄷ. 골지체 – 단백질의 가공과 분비
+ㄹ. 핵 – 유전 물질(DNA) 보관</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답 ㄱ, ㄷ, ㄹ</strong></p>
+<p>ㄴ. 미토콘드리아는 세포호흡으로 에너지를 얻는 곳이다. 광합성은 엽록체에서 일어난다.</p>
+</div></details>
+
+<p><strong>2.</strong> 다음 물질 중 세포막의 인지질 이중층을 <strong>직접</strong> 통과하기 쉬운 것을 모두 고르시오.
+ㄱ. 산소 ㄴ. 이산화 탄소 ㄷ. 나트륨 이온 ㄹ. 녹말</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답 ㄱ, ㄴ</strong></p>
+<p>산소와 이산화 탄소는 작고 전하를 띠지 않아 인지질 이중층을 직접 통과한다. 나트륨 이온은 전하를 띠어 막단백질(통로)을 통해서만 이동하고, 녹말은 너무 커서 세포막을 통과하지 못한다.</p>
+</div></details>
+
+<p><strong>3.</strong> 적혈구를 증류수, 생리 식염수, 진한 소금물에 각각 넣었다. 각 용액에서 적혈구에 일어나는 변화를 쓰시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 증류수: 물이 들어와 부풀다가 터진다(용혈). 생리 식염수: 모양을 유지한다. 진한 소금물: 물이 빠져나가 쭈그러든다.</p>
+<p>물은 용질 농도가 낮은 쪽에서 높은 쪽으로 이동한다. 생리 식염수는 혈액과 농도가 비슷하여 물이 들어오고 나가는 양이 같다.</p>
+</div></details>
+
+<p><strong>4.</strong> 다음 반응을 동화 작용과 이화 작용으로 구분하시오.
+ㄱ. 광합성 ㄴ. 세포호흡 ㄷ. 아미노산으로 단백질 합성 ㄹ. 소화 과정에서 녹말 분해</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 동화 작용: ㄱ, ㄷ / 이화 작용: ㄴ, ㄹ</p>
+<p>동화 작용은 간단한 물질로 복잡한 물질을 합성하며 에너지를 흡수하고, 이화 작용은 복잡한 물질을 간단한 물질로 분해하며 에너지를 방출한다.</p>
+</div></details>
+
+<h3 id="응용">응용</h3>
+<p><strong>5.</strong> 어떤 효소의 반응 속도를 온도에 따라 측정했더니 40 °C까지는 빨라지다가 그 이상에서는 급격히 느려졌다. 이 효소를 60 °C에 10분 두었다가 40 °C로 되돌리면 반응 속도는 어떻게 될지 예상하고, 그 이유를 쓰시오. 또 0 °C에 두었다가 40 °C로 되돌리는 경우와 비교하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 60 °C에 두었던 효소는 40 °C로 되돌려도 반응 속도가 거의 회복되지 않는다. 0 °C에 두었던 효소는 40 °C로 되돌리면 반응 속도가 회복된다.</p>
+<p>효소의 주성분은 단백질이다. 높은 온도에서는 입체 구조가 망가지는 변성이 일어나 활성 부위에 기질이 결합하지 못하며, 이 변화는 대부분 되돌릴 수 없다. 낮은 온도에서는 입자 운동이 느려 반응이 느릴 뿐 구조는 그대로이므로 온도를 올리면 활성이 돌아온다.</p>
+</div></details>
+
+<p><strong>6.</strong> 처음 질량이 각각 8.0 g인 무 조각 A, B를 서로 다른 소금물에 1시간 담갔더니 A는 8.8 g, B는 7.2 g이 되었다.
+(1) A, B의 질량 변화율(%)을 각각 구하시오.
+(2) 무 세포 안 용액보다 농도가 높은 소금물에 넣은 것은 어느 것인가?</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> (1) A: +10 %, B: −10 % (2) B</p>
+<p>(1) A: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">8.0</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">8.8</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">8.0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">100</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.0833em;"></span><span class="mord">+</span><span class="mord">10</span><span class="mspace"> </span><span class="mord">%</span></span></span></span>, B: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">8.0</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">7.2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">8.0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">100</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.0833em;"></span><span class="mord">−</span><span class="mord">10</span><span class="mspace"> </span><span class="mord">%</span></span></span></span>
+(2) B는 질량이 줄었으므로 세포 안의 물이 바깥으로 빠져나갔다. 물은 용질 농도가 높은 쪽으로 이동하므로, B를 담근 소금물의 농도가 무 세포 안보다 높다.</p>
+</div></details>
+
+<p><strong>7.</strong> 탐구 활동 B에서 한 학생이 &quot;생간 조각은 3 % 과산화 수소수에, 삶은 간 조각은 6 % 과산화 수소수에 넣어 거품 양을 비교했다.&quot;라고 했다. 이 실험 설계의 문제점을 쓰고, 올바르게 고치시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 조작 변인(간을 삶았는지 여부) 외에 과산화 수소수의 농도라는 다른 변인까지 달라져, 거품 양의 차이가 온도(삶기) 때문인지 기질 농도 때문인지 알 수 없다.</p>
+<p>두 시험관 모두 <strong>같은 농도·같은 양</strong>의 과산화 수소수를 쓰고, 간 조각의 크기와 질량, 실험 시간도 같게 해야 한다(통제 변인). 그래야 &#39;삶기(높은 온도)&#39;의 영향만 비교할 수 있다.</p>
+</div></details>
+
+<h3 id="융합-서술형">융합·서술형</h3>
+<p><strong>8. [산업 연계]</strong> 혈액 투석기는 반투과성 막을 사이에 두고 한쪽에 환자의 혈액, 다른 쪽에 투석액을 흘려보낸다. (1) 요소 같은 노폐물이 혈액에서 제거되는 원리를 쓰고, (2) 투석액에 포도당과 일부 이온을 혈액과 비슷한 농도로 넣는 이유를 쓰시오. (3) 이 막과 실제 세포막의 차이를 한 가지 쓰시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+(1) 요소는 혈액 쪽 농도가 높고 투석액 쪽 농도가 낮으므로, 막을 통해 투석액 쪽으로 <strong>확산</strong>해 빠져나간다. 혈구와 단백질은 막을 통과하지 못해 혈액에 남는다.
+(2) 투석액에 포도당과 이온이 없으면 농도 차이 때문에 몸에 필요한 이 물질들까지 확산으로 빠져나가 버린다. 혈액과 농도를 비슷하게 맞추면 농도 차이가 거의 없어 필요한 물질은 유지된다.
+(3) 투석막은 주로 <strong>입자 크기</strong>로 물질을 거르지만, 세포막은 인지질 이중층과 <strong>막단백질</strong>이 물질의 크기·전하·종류에 따라 선택적으로 통과시키고, 에너지를 써서 농도가 낮은 쪽에서 높은 쪽으로 옮기는 능동 수송도 한다.</p>
+<p><strong>채점 포인트</strong> ① 농도 차이에 의한 확산 ② 필요한 물질의 농도 차이를 없앤다는 설명 ③ 막단백질 또는 능동 수송 언급</p>
+</div></details>
+
+<p><strong>9. [산업·생활 연계]</strong> 효소 세제의 사용 설명서에 &quot;40 °C 정도의 미지근한 물을 사용하세요.&quot;와 &quot;실크나 울(양모) 소재에는 사용하지 마세요.&quot;라는 문구가 있다. 실크와 울의 주성분은 단백질이다. 두 문구를 효소의 성질을 이용하여 설명하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong></p>
+<ul>
+<li>미지근한 물: 효소는 최적 온도에서 가장 잘 작용한다. 물이 너무 차가우면 반응이 느리고, 너무 뜨거우면 효소 단백질이 <strong>변성</strong>되어 활성을 잃는다. 따라서 세제 효소의 최적 온도에 가까운 물을 쓰라는 것이다.</li>
+<li>실크·울 사용 금지: 세제 속 <strong>단백질 분해 효소</strong>는 기질 특이성에 따라 &#39;단백질&#39;을 분해한다. 효소는 얼룩 단백질과 옷감 단백질을 구별하지 못하므로, 단백질이 주성분인 실크와 울 섬유까지 분해해 옷감이 상할 수 있다.</li>
+</ul>
+<p><strong>채점 포인트</strong> ① 최적 온도와 변성 ② 기질 특이성(단백질 분해 효소는 단백질을 기질로 함) ③ 옷감의 주성분과 연결</p>
+</div></details>
+
+<hr>
+<h2 id="한눈에-정리">한눈에 정리</h2>
+<h3 id="핵심-요약">핵심 요약</h3>
+<ul>
+<li>생명 시스템은 <strong>세포 → 조직 → 기관 → (기관계) → 개체</strong>의 단계로 구성되고, 세포 안에서는 핵·리보솜·소포체·골지체·미토콘드리아·엽록체 등이 역할을 나누어 협력한다.</li>
+<li><strong>세포막</strong>은 인지질 이중층과 막단백질로 이루어지며, 물질의 크기·성질에 따라 출입을 조절하는 <strong>선택적 투과성</strong>이 있다.</li>
+<li><strong>확산</strong>: 농도가 높은 쪽 → 낮은 쪽, 에너지 불필요. <strong>삼투</strong>: 물이 반투과성 막을 통해 용질 농도가 낮은 쪽 → 높은 쪽으로 이동. <strong>능동 수송</strong>: 에너지를 써서 농도가 낮은 쪽 → 높은 쪽.</li>
+<li><strong>물질대사</strong> = 생명체 속 화학 반응의 총합. <strong>동화 작용</strong>(합성, 에너지 흡수)과 <strong>이화 작용</strong>(분해, 에너지 방출).</li>
+<li><strong>효소</strong>는 단백질이 주성분인 생체 촉매로, <strong>활성화 에너지를 낮추고</strong> 반응 후에도 변하지 않는다.</li>
+<li>효소는 <strong>기질 특이성</strong>이 있고, <strong>최적 온도·최적 pH</strong>에서 가장 잘 작용하며, 높은 온도에서는 변성된다.</li>
+<li>효소와 막의 원리는 세제·발효 식품·바이오 연료·진단 기기·혈액 투석·역삼투 정수·약물 전달에 활용된다.</li>
+</ul>
+<h3 id="핵심-용어">핵심 용어</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>용어</th>
+<th>뜻</th>
+</tr>
+</thead><tbody><tr>
+<td>세포 소기관</td>
+<td>세포 안에서 특정한 기능을 나누어 맡은 구조(핵, 미토콘드리아, 리보솜 등)</td>
+</tr>
+<tr>
+<td>인지질 이중층</td>
+<td>친수성 머리를 바깥, 소수성 꼬리를 안쪽으로 하여 두 겹으로 배열된 인지질 층. 세포막의 기본 구조</td>
+</tr>
+<tr>
+<td>선택적 투과성</td>
+<td>세포막이 물질의 종류에 따라 통과시키는 정도를 다르게 하는 성질</td>
+</tr>
+<tr>
+<td>확산</td>
+<td>입자가 스스로 운동하여 농도가 높은 쪽에서 낮은 쪽으로 퍼지는 현상</td>
+</tr>
+<tr>
+<td>삼투</td>
+<td>물이 반투과성 막을 통해 용질 농도가 낮은 쪽에서 높은 쪽으로 이동하는 현상</td>
+</tr>
+<tr>
+<td>능동 수송</td>
+<td>에너지를 써서 물질을 농도가 낮은 쪽에서 높은 쪽으로 이동시키는 것</td>
+</tr>
+<tr>
+<td>물질대사</td>
+<td>생명체에서 일어나는 모든 화학 반응. 동화 작용과 이화 작용으로 나뉨</td>
+</tr>
+<tr>
+<td>활성화 에너지</td>
+<td>화학 반응이 일어나기 위해 넘어야 하는 최소한의 에너지 문턱</td>
+</tr>
+<tr>
+<td>효소</td>
+<td>단백질이 주성분인 생체 촉매. 활성화 에너지를 낮춘다</td>
+</tr>
+<tr>
+<td>기질 특이성</td>
+<td>효소가 활성 부위에 맞는 특정 기질에만 작용하는 성질</td>
+</tr>
+<tr>
+<td>변성</td>
+<td>높은 온도나 극단적인 pH로 단백질의 입체 구조가 바뀌어 기능을 잃는 현상</td>
+</tr>
+</tbody></table></div>
+<h3 id="다음-단원으로">다음 단원으로</h3>
+<p>이 단원에서 세포는 막으로 물질 출입을 조절하고, 효소로 화학 반응을 일으키며 생명을 유지한다는 것을 배웠다. 그런데 효소와 막단백질은 모두 <strong>단백질</strong>이다. 세포는 수천 가지나 되는 단백질을 어떻게 정확한 모양으로 만들어 낼까? 다음 3-6 단원에서는 핵 속 <strong>유전자(DNA)</strong> 에 담긴 정보가 <strong>RNA</strong>를 거쳐 <strong>단백질</strong>로 만들어지는 세포 내 정보의 흐름을 탐구한다.</p>
+<nav class="pager"><a class="prev" href="3-4.html"><small>이전 단원</small>3-4 운동량과 충격량</a><a class="next" href="3-6.html"><small>다음 단원</small>3-6 유전자와 단백질</a></nav></article></div>
+</main>
+</div>
+</body>
+</html>

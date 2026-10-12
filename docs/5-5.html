@@ -1,0 +1,920 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>5-5 발전기와 전기 에너지</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css">
+<link rel="stylesheet" href="assets/book.css">
+<script src="assets/js/book.js" defer></script>
+
+</head>
+<body class="">
+<header class="topbar">
+  <button class="menu-btn" id="menu-btn" aria-controls="drawer" aria-expanded="false">목차</button>
+  <a class="brand" href="index.html">통합과학 개념에서 산업까지</a>
+  <button class="theme-btn" id="theme-btn" aria-label="밝은 화면과 어두운 화면 바꾸기">화면</button>
+</header>
+<div class="shell">
+<aside class="drawer" id="drawer"><nav class="book-nav" aria-label="교재 목차"><a class="nav-home" href="index.html">처음으로</a><p class="nav-book">통합과학1</p><p class="nav-unit"><span>1단원</span> 과학의 기초</p><ul><li><a href="1-1.html"><span class="nav-id">1-1</span>시간과 공간</a></li><li><a href="1-2.html"><span class="nav-id">1-2</span>기본량과 단위</a></li><li><a href="1-3.html"><span class="nav-id">1-3</span>측정과 어림, 측정 표준</a></li><li><a href="1-4.html"><span class="nav-id">1-4</span>정보와 신호: 아날로그에서 디지털로</a></li></ul><p class="nav-unit"><span>2단원</span> 물질과 규칙성</p><ul><li><a href="2-1.html"><span class="nav-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="2-2.html"><span class="nav-id">2-2</span>별의 진화와 원소의 생성</a></li><li><a href="2-3.html"><span class="nav-id">2-3</span>원소의 주기성과 화학 결합의 이유</a></li><li><a href="2-4.html"><span class="nav-id">2-4</span>이온 결합과 공유 결합</a></li><li><a href="2-5.html"><span class="nav-id">2-5</span>지각과 생명체 구성 물질의 규칙성</a></li><li><a href="2-6.html"><span class="nav-id">2-6</span>물질의 전기적 성질과 소재</a></li></ul><p class="nav-unit"><span>3단원</span> 시스템과 상호작용</p><ul><li><a href="3-1.html"><span class="nav-id">3-1</span>지구시스템의 구성과 상호작용</a></li><li><a href="3-2.html"><span class="nav-id">3-2</span>판구조론과 지권의 변화</a></li><li><a href="3-3.html"><span class="nav-id">3-3</span>중력과 운동</a></li><li><a href="3-4.html"><span class="nav-id">3-4</span>운동량과 충격량</a></li><li><a href="3-5.html"><span class="nav-id">3-5</span>생명 시스템과 물질대사</a></li><li><a href="3-6.html"><span class="nav-id">3-6</span>유전자와 단백질</a></li></ul><p class="nav-book">통합과학2</p><p class="nav-unit"><span>4단원</span> 변화와 다양성</p><ul><li><a href="4-1.html"><span class="nav-id">4-1</span>지질시대의 환경 변화와 생물다양성</a></li><li><a href="4-2.html"><span class="nav-id">4-2</span>진화와 생물다양성</a></li><li><a href="4-3.html"><span class="nav-id">4-3</span>산화와 환원</a></li><li><a href="4-4.html"><span class="nav-id">4-4</span>산과 염기, 중화 반응</a></li><li><a href="4-5.html"><span class="nav-id">4-5</span>물질 변화와 에너지 출입</a></li></ul><p class="nav-unit"><span>5단원</span> 환경과 에너지</p><ul><li><a href="5-1.html"><span class="nav-id">5-1</span>생태계 구성 요소와 상호 관계</a></li><li><a href="5-2.html"><span class="nav-id">5-2</span>생태계 평형</a></li><li><a href="5-3.html"><span class="nav-id">5-3</span>지구온난화와 기후변화</a></li><li><a href="5-4.html"><span class="nav-id">5-4</span>태양 에너지와 에너지 전환</a></li><li><a href="5-5.html" aria-current="page"><span class="nav-id">5-5</span>발전기와 전기 에너지</a></li><li><a href="5-6.html"><span class="nav-id">5-6</span>에너지 효율과 신재생 에너지</a></li></ul><p class="nav-unit"><span>6단원</span> 과학과 미래 사회</p><ul><li><a href="6-1.html"><span class="nav-id">6-1</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html"><span class="nav-id">6-2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html"><span class="nav-id">6-3</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html"><span class="nav-id">6-4</span>과학기술과 윤리</a></li></ul><p class="nav-book">부록</p><ul><li><a href="guide.html">교재 설계 안내</a></li><li><a href="appendix-standards.html">부록 1. 교육과정 성취기준</a></li><li><a href="appendix-map.html">부록 2. 연계 지도</a></li><li><a href="appendix-glossary.html">부록 3. 핵심 용어 사전</a></li></ul></nav></aside>
+<main class="main" id="main">
+<div class="lesson-grid"><nav class="ladder" aria-label="이 단원의 흐름"><p class="ladder-title">이 단원의 흐름</p><ol><li class="extra"><a href="#단원-들어가기">단원 들어가기</a></li><li class="s1"><a href="#step-1"><b>STEP 1</b> 중학교 다시 보기</a></li><li class="s2"><a href="#step-2"><b>STEP 2</b> 기초 다지기</a></li><li class="s3"><a href="#step-3"><b>STEP 3</b> 핵심 개념</a></li><li class="s4"><a href="#step-4"><b>STEP 4</b> 오개념 바로잡기</a></li><li class="s5"><a href="#step-5"><b>STEP 5</b> 선택과목·대학으로 한 걸음 더</a></li><li class="s6"><a href="#step-6"><b>STEP 6</b> 산업 현장과 진로 연결</a></li><li class="extra"><a href="#탐구-활동-자석과-코일의-상대-운동에-의해-운동-에너지가-전기-에너지로-전환되는-과정-탐구하기">탐구 활동 — 자석과 코일의 상대 운동에 의해 운동 에너지가 전기 에너지로 전환되는 과정 탐구하기</a></li><li class="extra"><a href="#개념-확인-문제">개념 확인 문제</a></li><li class="extra"><a href="#한눈에-정리">한눈에 정리</a></li></ol></nav><article class="prose lesson"><header class="lesson-hero u5">
+  <p class="eyebrow">통합과학2 · 5단원 환경과 에너지</p>
+  <h1><span class="lesson-id">5-5</span>발전기와 전기 에너지</h1>
+  <p class="lesson-sub">움직임을 전기로 바꾸는 기술</p>
+</header><aside class="callout note"><p class="callout-title">성취기준·참고</p><p><strong>성취기준 [10통과2-02-05]</strong> 발전기에서 운동 에너지가 전기 에너지로 전환되는 과정을 이해하고, 열원으로서 화석 연료, 핵에너지를 이용하는 발전소가 인간 생활에 미치는 영향을 조사⋅발표할 수 있다.</p>
+</aside>
+<p><strong>학습 목표</strong></p>
+<ol>
+<li>코일을 통과하는 자기장의 세기가 변할 때 전류가 흐르는 전자기 유도 현상을 관찰하고 정성적으로 설명할 수 있다.</li>
+<li>발전기에서 자석과 코일의 상대 운동으로 운동 에너지가 전기 에너지로 전환되는 과정을 설명하고, 간이 발전기를 만들 수 있다.</li>
+<li>화력·원자력·수력 발전소에서 터빈을 돌리는 에너지원을 비교하여 발전소에서 전기 에너지를 만드는 방법을 설명할 수 있다.</li>
+<li>화석 연료와 핵에너지를 이용하는 발전소가 인간 생활에 미치는 영향을 조사하고, 장점과 문제점을 균형 있게 발표할 수 있다.</li>
+</ol>
+<p><strong>이 단원의 학습 사다리</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>단계</th>
+<th>무엇을 하나?</th>
+</tr>
+</thead><tbody><tr>
+<td>STEP 1. 중학교 다시 보기</td>
+<td>자기장, 전동기, 전기 에너지의 전환, 역학적 에너지 보존을 다시 꺼내 본다</td>
+</tr>
+<tr>
+<td>STEP 2. 기초 다지기</td>
+<td>자기장과 자기력선, 전자석, 상대 운동, 직류와 교류를 디딤돌로 놓는다</td>
+</tr>
+<tr>
+<td>STEP 3. 핵심 개념</td>
+<td>전자기 유도 → 발전기 → 발전소 → 발전소가 생활에 미치는 영향 → 전력 수송</td>
+</tr>
+<tr>
+<td>STEP 4. 오개념 바로잡기</td>
+<td>&quot;발전기는 전기를 공짜로 만든다?&quot;, &quot;원자력 발전은 핵폭발로?&quot; 같은 착각을 바로잡는다</td>
+</tr>
+<tr>
+<td>STEP 5. 선택과목·대학</td>
+<td>패러데이 법칙, 렌츠 법칙, 교류 발전기의 식, 변압기와 송전 손실 계산</td>
+</tr>
+<tr>
+<td>STEP 6. 산업·진로</td>
+<td>발전기·터빈 제조, 초고압 송전과 HVDC, 원전 운영·해체, 회생 제동</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="단원-들어가기">단원 들어가기</h2>
+<p>스마트폰 충전기를 콘센트에 꽂는 순간, 전기는 어디에서 오는 걸까? 콘센트 뒤의 전선을 따라 끝까지 거슬러 올라가면 수십~수백 km 떨어진 발전소에 닿는다. 그곳에서는 집채만 한 <strong>발전기</strong> 속에서 자석이 1초에 수십 바퀴씩 돌고 있다.</p>
+<p>놀랍게도 이 거대한 발전기와 자전거 바퀴에 다는 작은 전조등 발전기는 <strong>같은 원리</strong>로 움직인다. 1831년 영국의 과학자 패러데이가 발견한 이 원리 — &quot;<strong>자석을 코일 속에서 움직이면 전류가 흐른다</strong>&quot; — 는 오늘날 우리가 쓰는 전기의 대부분을 만들어 낸다. 이 단원에서는 그 원리에서 출발해 발전소, 그리고 발전소가 우리 삶에 주는 혜택과 고민까지 살펴본다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-5-5-0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 1482.875 204" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-5-5-0{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-5-5-0 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-5-5-0 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-5-5-0 .error-icon{fill:var(--mm-group);}#mm-5-5-0 .error-text{fill:#595959;stroke:#595959;}#mm-5-5-0 .edge-thickness-normal{stroke-width:1px;}#mm-5-5-0 .edge-thickness-thick{stroke-width:3.5px;}#mm-5-5-0 .edge-pattern-solid{stroke-dasharray:0;}#mm-5-5-0 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-5-5-0 .edge-pattern-dashed{stroke-dasharray:3;}#mm-5-5-0 .edge-pattern-dotted{stroke-dasharray:2;}#mm-5-5-0 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-5-5-0 .marker.cross{stroke:var(--mm-line);}#mm-5-5-0 svg{font-family:inherit;font-size:15px;}#mm-5-5-0 p{margin:0;}#mm-5-5-0 .label{font-family:inherit;color:var(--mm-text);}#mm-5-5-0 .cluster-label text{fill:#595959;}#mm-5-5-0 .cluster-label span{color:#595959;}#mm-5-5-0 .cluster-label span p{background-color:transparent;}#mm-5-5-0 .label text,#mm-5-5-0 span{fill:var(--mm-text);color:var(--mm-text);}#mm-5-5-0 .node rect,#mm-5-5-0 .node circle,#mm-5-5-0 .node ellipse,#mm-5-5-0 .node polygon,#mm-5-5-0 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-5-5-0 .rough-node .label text,#mm-5-5-0 .node .label text,#mm-5-5-0 .image-shape .label,#mm-5-5-0 .icon-shape .label{text-anchor:middle;}#mm-5-5-0 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-5-5-0 .rough-node .label,#mm-5-5-0 .node .label,#mm-5-5-0 .image-shape .label,#mm-5-5-0 .icon-shape .label{text-align:center;}#mm-5-5-0 .node.clickable{cursor:pointer;}#mm-5-5-0 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-5-5-0 .arrowheadPath{fill:#0b0b0b;}#mm-5-5-0 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-5-5-0 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-5-5-0 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-5-5-0 .edgeLabel p{background-color:var(--mm-label);}#mm-5-5-0 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-5-5-0 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-5-5-0 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-5-5-0 .cluster text{fill:#595959;}#mm-5-5-0 .cluster span{color:#595959;}#mm-5-5-0 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-5-5-0 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-5-5-0 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-5-5-0 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-5-5-0 rect.text{fill:none;stroke-width:0;}#mm-5-5-0 .icon-shape,#mm-5-5-0 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-5-5-0 .icon-shape p,#mm-5-5-0 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-5-5-0 .icon-shape .label rect,#mm-5-5-0 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-5-5-0 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-5-5-0 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-5-5-0 .node .neo-node{stroke:var(--mm-border);}#mm-5-5-0 [data-look="neo"].node rect,#mm-5-5-0 [data-look="neo"].cluster rect,#mm-5-5-0 [data-look="neo"].node polygon{stroke:url(#mm-5-5-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-5-0 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-5-5-0 [data-look="neo"].node path{stroke:url(#mm-5-5-0-gradient);stroke-width:1px;}#mm-5-5-0 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-5-0 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-5-5-0 [data-look="neo"].node circle{stroke:url(#mm-5-5-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-5-0 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-5-5-0 [data-look="neo"].icon-shape .icon{fill:url(#mm-5-5-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-5-0 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-5-5-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-5-0 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-5-5-0_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-0_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-0_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-0_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-0_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-0_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-0_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-0_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-0_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-0_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-0_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-5-5-0_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M150.172,102L154.339,102C158.505,102,166.839,102,174.505,102C182.172,102,189.172,102,192.672,102L196.172,102" id="mm-5-5-0-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTUwLjE3MTg3NSwieSI6MTAyfSx7IngiOjE3NS4xNzE4NzUsInkiOjEwMn0seyJ4IjoyMDAuMTcxODc1LCJ5IjoxMDJ9XQ==" data-look="classic" marker-end="url(#mm-5-5-0_flowchart-v2-pointEnd)"/><path d="M346.516,102L350.682,102C354.849,102,363.182,102,370.849,102C378.516,102,385.516,102,389.016,102L392.516,102" id="mm-5-5-0-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6MzQ2LjUxNTYyNSwieSI6MTAyfSx7IngiOjM3MS41MTU2MjUsInkiOjEwMn0seyJ4IjozOTYuNTE1NjI1LCJ5IjoxMDJ9XQ==" data-look="classic" marker-end="url(#mm-5-5-0_flowchart-v2-pointEnd)"/><path d="M523.688,102L527.854,102C532.021,102,540.354,102,548.021,102C555.688,102,562.688,102,566.188,102L569.688,102" id="mm-5-5-0-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6NTIzLjY4NzUsInkiOjEwMn0seyJ4Ijo1NDguNjg3NSwieSI6MTAyfSx7IngiOjU3My42ODc1LCJ5IjoxMDJ9XQ==" data-look="classic" marker-end="url(#mm-5-5-0_flowchart-v2-pointEnd)"/><path d="M803.359,102L807.526,102C811.693,102,820.026,102,827.693,102C835.359,102,842.359,102,845.859,102L849.359,102" id="mm-5-5-0-L_D_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_E_0" data-points="W3sieCI6ODAzLjM1OTM3NSwieSI6MTAyfSx7IngiOjgyOC4zNTkzNzUsInkiOjEwMn0seyJ4Ijo4NTMuMzU5Mzc1LCJ5IjoxMDJ9XQ==" data-look="classic" marker-end="url(#mm-5-5-0_flowchart-v2-pointEnd)"/><path d="M996.611,67.5L1004.069,63.333C1011.527,59.167,1026.443,50.833,1043.028,46.667C1059.612,42.5,1077.865,42.5,1086.991,42.5L1096.117,42.5" id="mm-5-5-0-L_E_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_F_0" data-points="W3sieCI6OTk2LjYxMTQ3NTg0MDMzNjEsInkiOjY3LjV9LHsieCI6MTA0MS4zNTkzNzUsInkiOjQyLjV9LHsieCI6MTEwMC4xMTcxODc1LCJ5Ijo0Mi41fV0=" data-look="classic" marker-end="url(#mm-5-5-0_flowchart-v2-pointEnd)"/><path d="M1243.117,42.5L1252.91,42.5C1262.703,42.5,1282.289,42.5,1295.582,42.5C1308.875,42.5,1315.875,42.5,1319.375,42.5L1322.875,42.5" id="mm-5-5-0-L_F_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_F_G_0" data-points="W3sieCI6MTI0My4xMTcxODc1LCJ5Ijo0Mi41fSx7IngiOjEzMDEuODc1LCJ5Ijo0Mi41fSx7IngiOjEzMjYuODc1LCJ5Ijo0Mi41fV0=" data-look="classic" marker-end="url(#mm-5-5-0_flowchart-v2-pointEnd)"/><path d="M996.611,136.5L1004.069,140.667C1011.527,144.833,1026.443,153.167,1037.401,157.333C1048.359,161.5,1055.359,161.5,1058.859,161.5L1062.359,161.5" id="mm-5-5-0-L_E_H_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_H_0" data-points="W3sieCI6OTk2LjYxMTQ3NTg0MDMzNjEsInkiOjEzNi41fSx7IngiOjEwNDEuMzU5Mzc1LCJ5IjoxNjEuNX0seyJ4IjoxMDY2LjM1OTM3NSwieSI6MTYxLjV9XQ==" data-look="classic" marker-end="url(#mm-5-5-0_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_F_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_F_G_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_H_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-5-5-0-flowchart-A-0" data-look="classic" transform="translate(79.0859375, 102)"><rect class="basic label-container" style="" x="-71.0859375" y="-34.5" width="142.171875" height="69"/><g class="label" style="" transform="translate(-47.0859375, -22.5)"><rect/><foreignObject width="94.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>자석과 코일의<br />상대 운동</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-5-0-flowchart-B-1" data-look="classic" transform="translate(273.34375, 102)"><rect class="basic label-container" style="" x="-73.171875" y="-34.5" width="146.34375" height="69"/><g class="label" style="" transform="translate(-49.171875, -22.5)"><rect/><foreignObject width="98.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>코일 속 자기장<br />세기 변화</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-5-0-flowchart-C-3" data-look="classic" transform="translate(460.1015625, 102)"><rect class="basic label-container" style="" x="-63.5859375" y="-34.5" width="127.171875" height="69"/><g class="label" style="" transform="translate(-39.5859375, -22.5)"><rect/><foreignObject width="79.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>유도 전류<br />전자기 유도</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-5-0-flowchart-D-5" data-look="classic" transform="translate(688.5234375, 102)"><rect class="basic label-container" style="" x="-114.8359375" y="-34.5" width="229.671875" height="69"/><g class="label" style="" transform="translate(-90.8359375, -22.5)"><rect/><foreignObject width="181.671875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>발전기<br />운동 에너지 → 전기 에너지</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-5-0-flowchart-E-7" data-look="classic" transform="translate(934.859375, 102)"><rect class="basic label-container" style="" x="-81.5" y="-34.5" width="163" height="69"/><g class="label" style="" transform="translate(-57.5, -22.5)"><rect/><foreignObject width="115" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>발전소<br />화력·원자력·수력</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-5-0-flowchart-F-9" data-look="classic" transform="translate(1171.6171875, 42.5)"><rect class="basic label-container" style="" x="-71.5" y="-34.5" width="143" height="69"/><g class="label" style="" transform="translate(-47.5, -22.5)"><rect/><foreignObject width="95" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>변압기·송전선<br />전력 수송</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-5-0-flowchart-G-11" data-look="classic" transform="translate(1400.875, 42.5)"><rect class="basic label-container" style="" x="-74" y="-23.25" width="148" height="46.5"/><g class="label" style="" transform="translate(-50, -11.25)"><rect/><foreignObject width="100" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>가정·학교·공장</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-5-0-flowchart-H-13" data-look="classic" transform="translate(1171.6171875, 161.5)"><rect class="basic label-container" style="" x="-105.2578125" y="-34.5" width="210.515625" height="69"/><g class="label" style="" transform="translate(-81.2578125, -22.5)"><rect/><foreignObject width="162.515625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>인간 생활에 미치는 영향<br />혜택과 문제점</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-5-5-0-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-5-5-0-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-5-5-0-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><hr>
+<h2 id="step-1" class="step-h s1"><span class="step-badge s1">STEP 1</span><span class="h-text">중학교 다시 보기</span></h2>
+<h3 id="연계-개념표">연계 개념표</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>중학교 성취기준</th>
+<th>중학교에서 배운 것</th>
+<th>고등학교에서 확장되는 것</th>
+</tr>
+</thead><tbody><tr>
+<td>[9과14-04]</td>
+<td>전류가 흐르는 코일 주위에 자기장이 생기고, 자기장 안의 전류가 흐르는 코일은 힘을 받는다 → <strong>전동기</strong></td>
+<td>거꾸로, 코일 속 자기장이 변하면 전류가 흐른다 → <strong>발전기</strong></td>
+</tr>
+<tr>
+<td>[9과14-02]</td>
+<td>전기 회로에서 전류, 전압, 저항의 관계</td>
+<td>유도 전류, 송전선의 저항과 전력 손실</td>
+</tr>
+<tr>
+<td>[9과14-03]</td>
+<td>전기 에너지가 빛·열·운동 에너지 등으로 전환된다(소비 전력)</td>
+<td>발전기는 그 반대로 <strong>다른 에너지를 전기 에너지로</strong> 전환한다</td>
+</tr>
+<tr>
+<td>[9과19-04]</td>
+<td>역학적 에너지의 전환과 보존</td>
+<td>수력 발전: 물의 위치 에너지 → 운동 에너지 → 전기 에너지</td>
+</tr>
+<tr>
+<td>[9과16-06]</td>
+<td>화학 반응에서 열에너지가 출입한다(연소는 열을 방출)</td>
+<td>화력 발전: 연료의 화학 에너지 → 열에너지</td>
+</tr>
+<tr>
+<td>[9과04-04]</td>
+<td>상태 변화와 열에너지 출입(기화 시 흡수, 액화 시 방출)</td>
+<td>발전소에서 물을 끓여 증기를 만들고, 다시 식혀 물로 되돌린다</td>
+</tr>
+</tbody></table></div>
+<h3 id="준비-운동-사전-진단">준비 운동 (사전 진단)</h3>
+<p><strong>Q1.</strong> 에나멜선을 감은 코일에 전류를 흘려 보내면 코일 주위에 무엇이 생기는가?</p>
+<p><strong>Q2.</strong> 선풍기의 전동기는 어떤 에너지를 어떤 에너지로 전환하는가?</p>
+<p><strong>Q3.</strong> 막대자석 바깥에서 자기력선은 어느 극에서 나와 어느 극으로 들어가는가?</p>
+<p><strong>Q4.</strong> 전기 에너지가 주로 열에너지로 전환되는 가전제품의 예를 두 가지 쓰시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>Q1. 자기장</strong> — 전류가 흐르는 코일은 막대자석처럼 행동한다(전자석). 전류가 셀수록, 감은 수가 많을수록 자기장이 세다.</p>
+<p><strong>Q2.</strong> 전기 에너지 → 운동 에너지(회전). 일부는 열과 소리로도 전환된다.</p>
+<p><strong>Q3.</strong> N극에서 나와 S극으로 들어간다.</p>
+<p><strong>Q4.</strong> 예: 전기 주전자, 전기다리미, 헤어드라이어, 전기난로 등</p>
+</div></details>
+
+<hr>
+<h2 id="step-2" class="step-h s2"><span class="step-badge s2">STEP 2</span><span class="h-text">기초 다지기</span></h2>
+<h3 id="①-자석과-자기장">① 자석과 자기장</h3>
+<p>자석 주위에서 자기력이 작용하는 공간을 <strong>자기장(magnetic field)</strong> 이라고 한다. 자기장은 <strong>자기력선</strong>으로 나타낸다.</p>
+<ul>
+<li>자기력선은 N극에서 나와 S극으로 들어간다.</li>
+<li>자기력선이 <strong>빽빽할수록</strong> 자기장이 <strong>세다.</strong> → 자석의 극 가까이에서 자기장이 가장 세다.</li>
+<li>자석에서 멀어질수록 자기장은 약해진다.</li>
+</ul>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 자기력선은 &#39;자기장의 지도에 그린 등고선&#39;과 비슷하다. 선이 촘촘한 곳일수록 자기장이 강하다. 그래서 자석을 코일에 <strong>가까이 가져가면</strong> 코일을 지나는 자기장이 <strong>세지고</strong>, <strong>멀리 하면 약해진다.</strong></p>
+</aside>
+<h3 id="②-전류와-자기장-전자석">② 전류와 자기장 — 전자석</h3>
+<p>중학교에서 전류가 흐르는 코일이 자석처럼 행동한다는 것을 배웠다. 이것을 <strong>전자석</strong>이라고 한다. &quot;전류가 자기장을 만든다.&quot; 이 단원에서는 이 문장을 뒤집어 본다. &quot;<strong>자기장이 변하면 전류가 만들어진다.</strong>&quot;</p>
+<h3 id="③-전동기-복습-전기-에너지-운동-에너지">③ 전동기 복습 — 전기 에너지 → 운동 에너지</h3>
+<p>자석 사이에 놓인 코일에 전류를 흘리면 코일이 힘을 받아 회전한다. 이것이 <strong>전동기(모터)</strong> 이다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6943em;vertical-align:-0.011em;"></span><span class="mord text"><span class="mord hangul_fallback">전동기</span><span class="mord">: </span><span class="mord hangul_fallback">전기</span><span class="mord"> </span><span class="mord hangul_fallback">에너지</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">⟶</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">운동</span><span class="mord"> </span><span class="mord hangul_fallback">에너지</span></span></span></span></span></span></p>
+<p>이 단원의 <strong>발전기</strong>는 전동기와 구조가 거의 같지만 에너지 전환의 방향이 반대이다.</p>
+<h3 id="④-상대-운동-누가-움직였는지는-중요하지-않다">④ 상대 운동 — 누가 움직였는지는 중요하지 않다</h3>
+<p>기차 안에서 옆 선로의 기차를 보면, 내 기차가 움직이는지 옆 기차가 움직이는지 헷갈릴 때가 있다. 두 물체의 거리가 변하는 &#39;서로에 대한 움직임&#39;을 <strong>상대 운동</strong>이라고 한다. 전자기 유도에서는 <strong>자석이 움직이든 코일이 움직이든</strong> 둘 사이에 상대 운동이 있어 코일 속 자기장이 변하기만 하면 전류가 흐른다.</p>
+<h3 id="⑤-직류와-교류">⑤ 직류와 교류</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>직류(DC)</th>
+<th>교류(AC)</th>
+</tr>
+</thead><tbody><tr>
+<td>전류 방향</td>
+<td>한 방향으로 일정</td>
+<td>주기적으로 방향이 바뀐다</td>
+</tr>
+<tr>
+<td>예</td>
+<td>건전지, 스마트폰 배터리</td>
+<td>가정용 콘센트</td>
+</tr>
+<tr>
+<td>특징</td>
+<td>저장하기 쉽다(전지)</td>
+<td>변압기로 전압을 쉽게 바꿀 수 있다</td>
+</tr>
+</tbody></table></div>
+<p>우리나라 가정의 전기는 <strong>전압 220 V, 1초에 60번 진동하는(60 Hz) 교류</strong>이다. 전류가 한 방향으로 흘렀다가 반대 방향으로 흐르고 다시 처음 방향으로 돌아오는 한 번의 왕복이 1초에 60번 일어난다는 뜻이다. 가정의 전기가 교류인 것은 발전소의 발전기가 회전하면서 자연스럽게 교류를 만들기 때문이다.</p>
+<hr>
+<h2 id="step-3" class="step-h s3"><span class="step-badge s3">STEP 3</span><span class="h-text">핵심 개념</span></h2>
+<h3 id="5-5-①-전자기-유도-자기장의-변화가-전류를-만든다">5-5-① 전자기 유도 — 자기장의 변화가 전류를 만든다</h3>
+<h4 id="실험으로-보기">실험으로 보기</h4>
+<p>코일의 양 끝을 <strong>검류계</strong>(아주 약한 전류도 감지하는 전류계)에 연결하고 막대자석을 움직여 보자.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>조작</th>
+<th>코일 속 자기장의 세기</th>
+<th>검류계 바늘</th>
+</tr>
+</thead><tbody><tr>
+<td>자석을 코일 속에 <strong>넣는다</strong></td>
+<td>세진다</td>
+<td>한쪽으로 움직인다</td>
+</tr>
+<tr>
+<td>자석을 코일 속에 <strong>가만히 둔다</strong></td>
+<td>변하지 않는다</td>
+<td>움직이지 않는다(0)</td>
+</tr>
+<tr>
+<td>자석을 코일에서 <strong>뺀다</strong></td>
+<td>약해진다</td>
+<td><strong>반대쪽</strong>으로 움직인다</td>
+</tr>
+<tr>
+<td>자석은 그대로 두고 <strong>코일을</strong> 자석 쪽으로 움직인다</td>
+<td>세진다</td>
+<td>자석을 넣을 때와 같은 쪽으로 움직인다</td>
+</tr>
+<tr>
+<td>자석을 <strong>더 빠르게</strong> 넣는다</td>
+<td>더 빨리 세진다</td>
+<td>더 크게 움직인다</td>
+</tr>
+</tbody></table></div>
+<h4 id="핵심-정리">핵심 정리</h4>
+<p><strong>코일을 통과하는 자기장의 세기가 변할 때 코일에 전류가 흐른다.</strong> 이 현상을 <strong>전자기 유도(electromagnetic induction)</strong> 라 하고, 이때 흐르는 전류를 <strong>유도 전류(induced current)</strong> 라고 한다.</p>
+<ul>
+<li>자기장이 <strong>변하지 않으면</strong>(자석이 정지) 아무리 강한 자석이라도 전류가 흐르지 않는다.</li>
+<li>자기장이 세질 때와 약해질 때 유도 전류의 <strong>방향이 반대</strong>이다.</li>
+<li>유도 전류를 크게 하려면 → <strong>자석을 빠르게</strong> 움직이거나, <strong>센 자석</strong>을 쓰거나, 코일의 <strong>감은 수를 늘린다.</strong></li>
+</ul>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 코일은 &#39;변화에만 반응하는 감지기&#39;이다. 교실이 계속 시끄러우면 금방 익숙해져 신경 쓰지 않지만, 갑자기 조용해지거나 갑자기 시끄러워지면 바로 알아차린다. 코일도 자기장이 <strong>변하는 순간에만</strong> 전류로 반응한다. 변화가 <strong>빠를수록</strong> 더 크게 반응한다.</p>
+</aside>
+<aside class="callout important"><p class="callout-title">핵심</p><p>통합과학에서는 전자기 유도를 <strong>정성적으로</strong>만 다룬다. &quot;자기장의 세기가 변하면 전류가 흐른다, 빠르게·세게·많이 감으면 커진다, 변화 방향이 반대면 전류 방향도 반대다&quot;까지가 범위이다. 유도 전류의 크기를 계산하는 식(패러데이 법칙)과 방향을 정하는 규칙(렌츠 법칙)은 STEP 5에서 맛보기로 본다.</p>
+</aside>
+<h4 id="생활-속-전자기-유도">생활 속 전자기 유도</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>기술</th>
+<th>전자기 유도가 쓰이는 곳</th>
+</tr>
+</thead><tbody><tr>
+<td>교통카드</td>
+<td>단말기가 만든 변하는 자기장이 카드 속 코일에 전류를 유도해 칩이 작동한다</td>
+</tr>
+<tr>
+<td>인덕션 레인지</td>
+<td>변하는 자기장이 냄비 바닥에 전류를 유도하고, 이 전류가 열을 낸다</td>
+</tr>
+<tr>
+<td>무선 충전기</td>
+<td>충전 패드의 코일이 만든 변하는 자기장이 스마트폰 속 코일에 전류를 유도한다</td>
+</tr>
+<tr>
+<td>흔들어 켜는 손전등</td>
+<td>손전등을 흔들면 안의 자석이 코일 속을 오가며 전류가 유도된다</td>
+</tr>
+<tr>
+<td>발전기</td>
+<td>자석과 코일의 상대 운동으로 전류를 계속 만든다(5-5-②)</td>
+</tr>
+</tbody></table></div>
+<h4 id="예제-1">예제 1</h4>
+<p>코일에 검류계를 연결하고 다음과 같이 실험하였다. 검류계 바늘이 움직이는 경우를 모두 고르시오.
+ㄱ. 센 자석을 코일 속에 넣어 둔 채로 가만히 있었다.
+ㄴ. 자석은 고정하고 코일을 자석에서 멀어지게 움직였다.
+ㄷ. 자석과 코일을 같은 속도로 함께 나란히 움직였다.
+ㄹ. 자석을 코일 속에서 빠르게 뺐다.</p>
+<p><strong>풀이</strong></p>
+<ul>
+<li>ㄱ. 자기장이 세더라도 <strong>변하지 않으므로</strong> 전류가 흐르지 않는다.</li>
+<li>ㄴ. 코일 속 자기장이 약해지므로 전류가 흐른다(상대 운동).</li>
+<li>ㄷ. 둘 사이의 거리가 변하지 않아 <strong>상대 운동이 없다.</strong> 코일 속 자기장이 변하지 않으므로 전류가 흐르지 않는다.</li>
+<li>ㄹ. 자기장이 빠르게 약해지므로 전류가 흐른다.</li>
+</ul>
+<p><strong>정답 ㄴ, ㄹ</strong></p>
+<h3 id="5-5-②-발전기-운동-에너지를-전기-에너지로">5-5-② 발전기 — 운동 에너지를 전기 에너지로</h3>
+<h4 id="발전기의-구조와-원리">발전기의 구조와 원리</h4>
+<p><strong>발전기(generator)</strong> 는 자석과 코일 중 하나를 <strong>계속 회전</strong>시켜 코일 속 자기장의 세기를 끊임없이 변하게 하는 장치이다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>구성 요소</th>
+<th>역할</th>
+</tr>
+</thead><tbody><tr>
+<td>자석(또는 전자석)</td>
+<td>자기장을 만든다</td>
+</tr>
+<tr>
+<td>코일</td>
+<td>자기장의 변화로 유도 전류가 흐르는 곳</td>
+</tr>
+<tr>
+<td>회전축</td>
+<td>바깥의 힘(물, 증기, 바람, 사람의 손)이 돌린다</td>
+</tr>
+<tr>
+<td>전선(출력 단자)</td>
+<td>유도 전류를 바깥 회로로 내보낸다</td>
+</tr>
+</tbody></table></div>
+<p>회전하는 동안 코일을 지나는 자기장은 세졌다 약해졌다를 반복하므로, 유도 전류의 방향도 주기적으로 바뀐다. 그래서 발전기는 기본적으로 <strong>교류</strong>를 만든다. 우리나라 발전소의 발전기는 1초에 60번 진동하는(60 Hz) 교류를 만들도록 일정한 속도로 돈다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-5-5-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 1089.375 85" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-5-5-1{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-5-5-1 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-5-5-1 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-5-5-1 .error-icon{fill:var(--mm-group);}#mm-5-5-1 .error-text{fill:#595959;stroke:#595959;}#mm-5-5-1 .edge-thickness-normal{stroke-width:1px;}#mm-5-5-1 .edge-thickness-thick{stroke-width:3.5px;}#mm-5-5-1 .edge-pattern-solid{stroke-dasharray:0;}#mm-5-5-1 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-5-5-1 .edge-pattern-dashed{stroke-dasharray:3;}#mm-5-5-1 .edge-pattern-dotted{stroke-dasharray:2;}#mm-5-5-1 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-5-5-1 .marker.cross{stroke:var(--mm-line);}#mm-5-5-1 svg{font-family:inherit;font-size:15px;}#mm-5-5-1 p{margin:0;}#mm-5-5-1 .label{font-family:inherit;color:var(--mm-text);}#mm-5-5-1 .cluster-label text{fill:#595959;}#mm-5-5-1 .cluster-label span{color:#595959;}#mm-5-5-1 .cluster-label span p{background-color:transparent;}#mm-5-5-1 .label text,#mm-5-5-1 span{fill:var(--mm-text);color:var(--mm-text);}#mm-5-5-1 .node rect,#mm-5-5-1 .node circle,#mm-5-5-1 .node ellipse,#mm-5-5-1 .node polygon,#mm-5-5-1 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-5-5-1 .rough-node .label text,#mm-5-5-1 .node .label text,#mm-5-5-1 .image-shape .label,#mm-5-5-1 .icon-shape .label{text-anchor:middle;}#mm-5-5-1 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-5-5-1 .rough-node .label,#mm-5-5-1 .node .label,#mm-5-5-1 .image-shape .label,#mm-5-5-1 .icon-shape .label{text-align:center;}#mm-5-5-1 .node.clickable{cursor:pointer;}#mm-5-5-1 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-5-5-1 .arrowheadPath{fill:#0b0b0b;}#mm-5-5-1 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-5-5-1 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-5-5-1 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-5-5-1 .edgeLabel p{background-color:var(--mm-label);}#mm-5-5-1 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-5-5-1 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-5-5-1 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-5-5-1 .cluster text{fill:#595959;}#mm-5-5-1 .cluster span{color:#595959;}#mm-5-5-1 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-5-5-1 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-5-5-1 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-5-5-1 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-5-5-1 rect.text{fill:none;stroke-width:0;}#mm-5-5-1 .icon-shape,#mm-5-5-1 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-5-5-1 .icon-shape p,#mm-5-5-1 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-5-5-1 .icon-shape .label rect,#mm-5-5-1 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-5-5-1 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-5-5-1 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-5-5-1 .node .neo-node{stroke:var(--mm-border);}#mm-5-5-1 [data-look="neo"].node rect,#mm-5-5-1 [data-look="neo"].cluster rect,#mm-5-5-1 [data-look="neo"].node polygon{stroke:url(#mm-5-5-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-5-1 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-5-5-1 [data-look="neo"].node path{stroke:url(#mm-5-5-1-gradient);stroke-width:1px;}#mm-5-5-1 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-5-1 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-5-5-1 [data-look="neo"].node circle{stroke:url(#mm-5-5-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-5-1 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-5-5-1 [data-look="neo"].icon-shape .icon{fill:url(#mm-5-5-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-5-1 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-5-5-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-5-1 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-5-5-1_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-1_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-1_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-1_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-1_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-1_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-1_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-1_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-1_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-1_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-1_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-5-5-1_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M214.344,42.5L218.51,42.5C222.677,42.5,231.01,42.5,238.677,42.5C246.344,42.5,253.344,42.5,256.844,42.5L260.344,42.5" id="mm-5-5-1-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MjE0LjM0Mzc1LCJ5Ijo0Mi41fSx7IngiOjIzOS4zNDM3NSwieSI6NDIuNX0seyJ4IjoyNjQuMzQzNzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-5-5-1_flowchart-v2-pointEnd)"/><path d="M406.516,42.5L410.682,42.5C414.849,42.5,423.182,42.5,430.849,42.5C438.516,42.5,445.516,42.5,449.016,42.5L452.516,42.5" id="mm-5-5-1-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6NDA2LjUxNTYyNSwieSI6NDIuNX0seyJ4Ijo0MzEuNTE1NjI1LCJ5Ijo0Mi41fSx7IngiOjQ1Ni41MTU2MjUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-5-5-1_flowchart-v2-pointEnd)"/><path d="M647.859,42.5L652.026,42.5C656.193,42.5,664.526,42.5,672.193,42.5C679.859,42.5,686.859,42.5,690.359,42.5L693.859,42.5" id="mm-5-5-1-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6NjQ3Ljg1OTM3NSwieSI6NDIuNX0seyJ4Ijo2NzIuODU5Mzc1LCJ5Ijo0Mi41fSx7IngiOjY5Ny44NTkzNzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-5-5-1_flowchart-v2-pointEnd)"/><path d="M904.203,42.5L908.37,42.5C912.536,42.5,920.87,42.5,928.536,42.5C936.203,42.5,943.203,42.5,946.703,42.5L950.203,42.5" id="mm-5-5-1-L_D_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_E_0" data-points="W3sieCI6OTA0LjIwMzEyNSwieSI6NDIuNX0seyJ4Ijo5MjkuMjAzMTI1LCJ5Ijo0Mi41fSx7IngiOjk1NC4yMDMxMjUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-5-5-1_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-5-5-1-flowchart-A-0" data-look="classic" transform="translate(111.171875, 42.5)"><rect class="basic label-container" style="" x="-103.171875" y="-34.5" width="206.34375" height="69"/><g class="label" style="" transform="translate(-79.171875, -22.5)"><rect/><foreignObject width="158.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>바깥에서 회전축을 돌림<br />운동 에너지</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-5-1-flowchart-B-1" data-look="classic" transform="translate(335.4296875, 42.5)"><rect class="basic label-container" style="" x="-71.0859375" y="-34.5" width="142.171875" height="69"/><g class="label" style="" transform="translate(-47.0859375, -22.5)"><rect/><foreignObject width="94.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>자석과 코일의<br />상대 운동</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-5-1-flowchart-C-3" data-look="classic" transform="translate(552.1875, 42.5)"><rect class="basic label-container" style="" x="-95.671875" y="-34.5" width="191.34375" height="69"/><g class="label" style="" transform="translate(-71.671875, -22.5)"><rect/><foreignObject width="143.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>코일 속 자기장<br />세졌다 약해졌다 반복</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-5-1-flowchart-D-5" data-look="classic" transform="translate(801.03125, 42.5)"><rect class="basic label-container" style="" x="-103.171875" y="-34.5" width="206.34375" height="69"/><g class="label" style="" transform="translate(-79.171875, -22.5)"><rect/><foreignObject width="158.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>유도 전류<br />방향이 주기적으로 바뀜</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-5-1-flowchart-E-7" data-look="classic" transform="translate(1017.7890625, 42.5)"><rect class="basic label-container" style="" x="-63.5859375" y="-34.5" width="127.171875" height="69"/><g class="label" style="" transform="translate(-39.5859375, -22.5)"><rect/><foreignObject width="79.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>전기 에너지<br />교류 출력</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-5-5-1-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-5-5-1-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-5-5-1-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><h4 id="에너지는-공짜가-아니다">에너지는 공짜가 아니다</h4>
+<p>손으로 돌리는 발전기에 전구를 연결하고 돌리면, 전구가 켜진 순간 <strong>손잡이가 갑자기 뻑뻑해진다.</strong> 코일에 유도 전류가 흐르면 그 전류와 자석 사이에 회전을 방해하는 힘이 생기기 때문이다. 결국 우리는 이 방해를 이기며 <strong>일을 해야</strong> 하고, 그 일(운동 에너지)이 전기 에너지로 바뀐다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6943em;vertical-align:-0.011em;"></span><span class="mord text"><span class="mord hangul_fallback">발전기</span><span class="mord">: </span><span class="mord hangul_fallback">운동</span><span class="mord"> </span><span class="mord hangul_fallback">에너지</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">⟶</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord hangul_fallback">전기</span><span class="mord"> </span><span class="mord hangul_fallback">에너지</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mopen">(</span><span class="mord">+</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord text"><span class="mord hangul_fallback">일부</span><span class="mord"> </span><span class="mord hangul_fallback">열</span></span><span class="mclose">)</span></span></span></span></span></p>
+<p>전구를 더 많이 연결하여 전기 에너지를 더 많이 쓸수록 손잡이는 더 뻑뻑해진다. <strong>에너지 보존 법칙</strong> 때문이다. 아무것도 연결하지 않으면 전류가 흐르지 않아 손잡이가 가볍다.</p>
+<h4 id="발전기와-전동기는-형제">발전기와 전동기는 형제</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>전동기(모터)</th>
+<th>발전기</th>
+</tr>
+</thead><tbody><tr>
+<td>구조</td>
+<td>자석 + 코일 + 회전축</td>
+<td>자석 + 코일 + 회전축</td>
+</tr>
+<tr>
+<td>입력</td>
+<td>전기 에너지(전류를 흘려 줌)</td>
+<td>운동 에너지(회전축을 돌려 줌)</td>
+</tr>
+<tr>
+<td>출력</td>
+<td>운동 에너지(회전)</td>
+<td>전기 에너지(유도 전류)</td>
+</tr>
+<tr>
+<td>원리</td>
+<td>자기장 속 전류가 받는 힘</td>
+<td>전자기 유도</td>
+</tr>
+<tr>
+<td>예</td>
+<td>선풍기, 세탁기, 전기차 구동</td>
+<td>발전소, 자전거 발전기, 풍력 발전기</td>
+</tr>
+</tbody></table></div>
+<p>같은 장치를 상황에 따라 두 가지로 쓸 수도 있다. 전기 자동차는 달릴 때 모터로 바퀴를 돌리고, <strong>속력을 줄일 때는 바퀴가 모터를 거꾸로 돌려 발전기로 쓴다.</strong> 이렇게 운동 에너지를 전기 에너지로 되돌려 배터리에 저장하는 기술을 <strong>회생 제동</strong>이라고 한다.</p>
+<h4 id="예제-2-손발전기-실험">예제 2 — 손발전기 실험</h4>
+<p>손발전기에 꼬마전구를 연결하였다.
+(1) 손잡이를 더 빠르게 돌리면 전구의 밝기는 어떻게 되는가? 그 까닭은?
+(2) 꼬마전구를 1개에서 3개로 늘려(병렬연결) 같은 밝기로 켜려면 손잡이를 돌리기가 어떻게 되는가? 그 까닭은?</p>
+<p><strong>풀이</strong>
+(1) 밝아진다. 빠르게 돌리면 코일 속 자기장이 <strong>더 빠르게 변하므로</strong> 유도 전류가 커진다.
+(2) 더 힘들어진다. 전구 3개가 쓰는 전기 에너지가 더 많으므로, 에너지 보존 법칙에 따라 손이 해 주어야 하는 일(운동 에너지)도 더 많아야 한다.</p>
+<h3 id="5-5-③-발전소-무엇으로-터빈을-돌리는가">5-5-③ 발전소 — 무엇으로 터빈을 돌리는가</h3>
+<h4 id="공통-구조-터빈-발전기">공통 구조: 터빈 + 발전기</h4>
+<p>대부분의 발전소는 <strong>터빈(turbine)</strong> 을 돌려 발전기를 돌린다. 터빈은 날개가 달린 커다란 바퀴로, 증기·물·바람이 날개를 밀면 회전한다. 터빈과 발전기는 같은 축으로 연결되어 있다.</p>
+<blockquote><p><strong>발전소마다 다른 것은 &#39;무엇으로 터빈을 돌리는가&#39;뿐이다.</strong></p>
+</blockquote>
+<h4 id="화력-발전-연료를-태워서">화력 발전 — 연료를 태워서</h4>
+<ol>
+<li>석탄이나 천연가스(LNG) 같은 <strong>화석 연료를 태운다</strong>(화학 에너지 → 열에너지).</li>
+<li>그 열로 보일러의 물을 끓여 <strong>고온·고압의 증기</strong>를 만든다.</li>
+<li>증기가 터빈의 날개를 밀어 회전시킨다(열에너지 → 운동 에너지).</li>
+<li>터빈과 연결된 발전기가 전기를 만든다(운동 에너지 → 전기 에너지).</li>
+<li>터빈을 지난 증기는 <strong>복수기</strong>에서 차가운 물(주로 바닷물)로 식혀 다시 물로 되돌린 뒤 보일러로 보낸다.</li>
+</ol>
+<p>천연가스 발전소 중에는 가스를 태운 뜨거운 기체로 <strong>가스 터빈</strong>을 직접 돌리고, 남은 열로 다시 증기를 만들어 증기 터빈까지 돌리는 <strong>복합 화력 발전</strong>도 많다.</p>
+<h4 id="원자력-발전-원자핵을-쪼개서">원자력 발전 — 원자핵을 쪼개서</h4>
+<ol>
+<li>원자로 속 <strong>우라늄</strong> 원자핵이 중성자를 흡수하여 둘로 쪼개진다. 이를 <strong>핵분열(nuclear fission)</strong> 이라고 한다.</li>
+<li>핵분열 때 반응 후 질량이 조금 줄어들고, 줄어든 질량이 <strong>많은 열</strong>로 나온다(5-4의 핵융합과 같은 &#39;질량 → 에너지&#39; 원리, 반응 종류만 다름).</li>
+<li>쪼개질 때 나온 중성자가 다른 우라늄 원자핵을 다시 쪼개는 <strong>연쇄 반응</strong>이 일어난다. 원자로는 <strong>제어봉</strong>으로 중성자 수를 조절하여 반응이 일정한 빠르기로 일어나게 한다.</li>
+<li>이 열로 물을 끓여 증기를 만들고, <strong>증기 터빈</strong>과 발전기를 돌린다. → 이후 과정은 화력 발전과 같다.</li>
+</ol>
+<h4 id="수력-발전-물을-떨어뜨려서">수력 발전 — 물을 떨어뜨려서</h4>
+<p>댐에 가둔 물이 아래로 떨어지면서 수차(물 터빈)를 돌린다. 물의 <strong>위치 에너지 → 운동 에너지 → 전기 에너지</strong>. 증기를 만들 필요가 없다. 5-4에서 보았듯 물의 위치 에너지는 원래 태양 에너지에서 왔다.</p>
+<h4 id="발전-방식-비교">발전 방식 비교</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>발전 방식</th>
+<th>터빈을 돌리는 것</th>
+<th>열원·동력원</th>
+<th>에너지 전환</th>
+</tr>
+</thead><tbody><tr>
+<td>석탄 화력</td>
+<td>증기</td>
+<td>석탄의 연소열</td>
+<td>화학 → 열 → 운동 → 전기</td>
+</tr>
+<tr>
+<td>천연가스(복합) 화력</td>
+<td>연소 기체 + 증기</td>
+<td>천연가스의 연소열</td>
+<td>화학 → 열 → 운동 → 전기</td>
+</tr>
+<tr>
+<td>원자력</td>
+<td>증기</td>
+<td>우라늄의 핵분열 열</td>
+<td>핵 → 열 → 운동 → 전기</td>
+</tr>
+<tr>
+<td>수력</td>
+<td>떨어지는 물</td>
+<td>물의 위치 에너지</td>
+<td>위치 → 운동 → 전기</td>
+</tr>
+<tr>
+<td>풍력</td>
+<td>바람</td>
+<td>공기의 운동 에너지</td>
+<td>운동 → 전기</td>
+</tr>
+<tr>
+<td>태양광</td>
+<td>(터빈·발전기 없음)</td>
+<td>햇빛</td>
+<td>빛 → 전기 (5-6)</td>
+</tr>
+</tbody></table></div>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-5-5-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 956.03125 311.75" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-5-5-2{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-5-5-2 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-5-5-2 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-5-5-2 .error-icon{fill:var(--mm-group);}#mm-5-5-2 .error-text{fill:#595959;stroke:#595959;}#mm-5-5-2 .edge-thickness-normal{stroke-width:1px;}#mm-5-5-2 .edge-thickness-thick{stroke-width:3.5px;}#mm-5-5-2 .edge-pattern-solid{stroke-dasharray:0;}#mm-5-5-2 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-5-5-2 .edge-pattern-dashed{stroke-dasharray:3;}#mm-5-5-2 .edge-pattern-dotted{stroke-dasharray:2;}#mm-5-5-2 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-5-5-2 .marker.cross{stroke:var(--mm-line);}#mm-5-5-2 svg{font-family:inherit;font-size:15px;}#mm-5-5-2 p{margin:0;}#mm-5-5-2 .label{font-family:inherit;color:var(--mm-text);}#mm-5-5-2 .cluster-label text{fill:#595959;}#mm-5-5-2 .cluster-label span{color:#595959;}#mm-5-5-2 .cluster-label span p{background-color:transparent;}#mm-5-5-2 .label text,#mm-5-5-2 span{fill:var(--mm-text);color:var(--mm-text);}#mm-5-5-2 .node rect,#mm-5-5-2 .node circle,#mm-5-5-2 .node ellipse,#mm-5-5-2 .node polygon,#mm-5-5-2 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-5-5-2 .rough-node .label text,#mm-5-5-2 .node .label text,#mm-5-5-2 .image-shape .label,#mm-5-5-2 .icon-shape .label{text-anchor:middle;}#mm-5-5-2 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-5-5-2 .rough-node .label,#mm-5-5-2 .node .label,#mm-5-5-2 .image-shape .label,#mm-5-5-2 .icon-shape .label{text-align:center;}#mm-5-5-2 .node.clickable{cursor:pointer;}#mm-5-5-2 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-5-5-2 .arrowheadPath{fill:#0b0b0b;}#mm-5-5-2 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-5-5-2 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-5-5-2 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-5-5-2 .edgeLabel p{background-color:var(--mm-label);}#mm-5-5-2 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-5-5-2 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-5-5-2 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-5-5-2 .cluster text{fill:#595959;}#mm-5-5-2 .cluster span{color:#595959;}#mm-5-5-2 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-5-5-2 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-5-5-2 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-5-5-2 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-5-5-2 rect.text{fill:none;stroke-width:0;}#mm-5-5-2 .icon-shape,#mm-5-5-2 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-5-5-2 .icon-shape p,#mm-5-5-2 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-5-5-2 .icon-shape .label rect,#mm-5-5-2 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-5-5-2 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-5-5-2 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-5-5-2 .node .neo-node{stroke:var(--mm-border);}#mm-5-5-2 [data-look="neo"].node rect,#mm-5-5-2 [data-look="neo"].cluster rect,#mm-5-5-2 [data-look="neo"].node polygon{stroke:url(#mm-5-5-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-5-2 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-5-5-2 [data-look="neo"].node path{stroke:url(#mm-5-5-2-gradient);stroke-width:1px;}#mm-5-5-2 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-5-2 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-5-5-2 [data-look="neo"].node circle{stroke:url(#mm-5-5-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-5-2 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-5-5-2 [data-look="neo"].icon-shape .icon{fill:url(#mm-5-5-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-5-2 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-5-5-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-5-2 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-5-5-2_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-2_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-2_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-2_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-2_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-2_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-2_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-2_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-2_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-2_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-2_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-5-5-2_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M151,42.5L155.167,42.5C159.333,42.5,167.667,42.5,178.166,46.322C188.666,50.144,201.332,57.789,207.665,61.611L213.998,65.433" id="mm-5-5-2-L_C_S_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_S_0" data-points="W3sieCI6MTUxLCJ5Ijo0Mi41fSx7IngiOjE3NiwieSI6NDIuNX0seyJ4IjoyMTcuNDIyNjYyODE1MTI2MDUsInkiOjY3LjV9XQ==" data-look="classic" marker-end="url(#mm-5-5-2_flowchart-v2-pointEnd)"/><path d="M126,161.5L134.333,161.5C142.667,161.5,159.333,161.5,174,157.678C188.666,153.856,201.332,146.211,207.665,142.389L213.998,138.567" id="mm-5-5-2-L_U_S_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_U_S_0" data-points="W3sieCI6MTI2LCJ5IjoxNjEuNX0seyJ4IjoxNzYsInkiOjE2MS41fSx7IngiOjIxNy40MjI2NjI4MTUxMjYwNSwieSI6MTM2LjV9XQ==" data-look="classic" marker-end="url(#mm-5-5-2_flowchart-v2-pointEnd)"/><path d="M337.718,67.5L343.627,64.271C349.536,61.042,361.354,54.583,374.86,51.354C388.367,48.125,403.563,48.125,411.16,48.125L418.758,48.125" id="mm-5-5-2-L_S_T_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_S_T_0" data-points="W3sieCI6MzM3LjcxNzUzNTUyNzg0MjI0LCJ5Ijo2Ny41fSx7IngiOjM3My4xNzE4NzUsInkiOjQ4LjEyNX0seyJ4Ijo0MjIuNzU3ODEyNSwieSI6NDguMTI1fV0=" data-look="classic" marker-end="url(#mm-5-5-2_flowchart-v2-pointEnd)"/><path d="M323.172,269.25L331.505,269.25C339.839,269.25,356.505,269.25,375.284,269.25C394.063,269.25,414.953,269.25,425.398,269.25L435.844,269.25" id="mm-5-5-2-L_W_T2_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_W_T2_0" data-points="W3sieCI6MzIzLjE3MTg3NSwieSI6MjY5LjI1fSx7IngiOjM3My4xNzE4NzUsInkiOjI2OS4yNX0seyJ4Ijo0MzkuODQzNzUsInkiOjI2OS4yNX1d" data-look="classic" marker-end="url(#mm-5-5-2_flowchart-v2-pointEnd)"/><path d="M569.102,48.125L577.366,48.125C585.63,48.125,602.159,48.125,620.284,60.746C638.41,73.366,658.132,98.607,667.993,111.228L677.854,123.848" id="mm-5-5-2-L_T_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_T_G_0" data-points="W3sieCI6NTY5LjEwMTU2MjUsInkiOjQ4LjEyNX0seyJ4Ijo2MTguNjg3NSwieSI6NDguMTI1fSx7IngiOjY4MC4zMTY3NDY0ODU2NjcxLCJ5IjoxMjd9XQ==" data-look="classic" marker-end="url(#mm-5-5-2_flowchart-v2-pointEnd)"/><path d="M552.016,269.25L563.128,269.25C574.24,269.25,596.464,269.25,617.189,257.557C637.915,245.863,657.142,222.477,666.756,210.783L676.369,199.09" id="mm-5-5-2-L_T2_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_T2_G_0" data-points="W3sieCI6NTUyLjAxNTYyNSwieSI6MjY5LjI1fSx7IngiOjYxOC42ODc1LCJ5IjoyNjkuMjV9LHsieCI6Njc4LjkwOTQ5NDYzNDU3MDgsInkiOjE5Nn1d" data-look="classic" marker-end="url(#mm-5-5-2_flowchart-v2-pointEnd)"/><path d="M770.859,161.5L775.026,161.5C779.193,161.5,787.526,161.5,795.193,161.5C802.859,161.5,809.859,161.5,813.359,161.5L816.859,161.5" id="mm-5-5-2-L_G_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_G_E_0" data-points="W3sieCI6NzcwLjg1OTM3NSwieSI6MTYxLjV9LHsieCI6Nzk1Ljg1OTM3NSwieSI6MTYxLjV9LHsieCI6ODIwLjg1OTM3NSwieSI6MTYxLjV9XQ==" data-look="classic" marker-end="url(#mm-5-5-2_flowchart-v2-pointEnd)"/><path d="M337.718,136.5L343.627,139.729C349.536,142.958,361.354,149.417,370.763,152.646C380.172,155.875,387.172,155.875,390.672,155.875L394.172,155.875" id="mm-5-5-2-L_S_K_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_S_K_0" data-points="W3sieCI6MzM3LjcxNzUzNTUyNzg0MjI0LCJ5IjoxMzYuNX0seyJ4IjozNzMuMTcxODc1LCJ5IjoxNTUuODc1fSx7IngiOjM5OC4xNzE4NzUsInkiOjE1NS44NzV9XQ==" data-look="classic" marker-end="url(#mm-5-5-2_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_C_S_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_U_S_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_S_T_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_W_T2_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_T_G_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_T2_G_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_G_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_S_K_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-5-5-2-flowchart-C-0" data-look="classic" transform="translate(79.5, 42.5)"><rect class="basic label-container" style="" x="-71.5" y="-34.5" width="143" height="69"/><g class="label" style="" transform="translate(-47.5, -22.5)"><rect/><foreignObject width="95" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>석탄·천연가스<br />연소</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-5-2-flowchart-S-1" data-look="classic" transform="translate(274.5859375, 102)"><rect class="basic label-container" style="" x="-73.5859375" y="-34.5" width="147.171875" height="69"/><g class="label" style="" transform="translate(-49.5859375, -22.5)"><rect/><foreignObject width="99.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>물을 끓여<br />고온·고압 증기</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-5-2-flowchart-U-2" data-look="classic" transform="translate(79.5, 161.5)"><rect class="basic label-container" style="" x="-46.5" y="-34.5" width="93" height="69"/><g class="label" style="" transform="translate(-22.5, -22.5)"><rect/><foreignObject width="45" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>우라늄<br />핵분열</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-5-2-flowchart-T-5" data-look="classic" transform="translate(495.9296875, 48.125)"><rect class="basic label-container" style="" x="-73.171875" y="-23.25" width="146.34375" height="46.5"/><g class="label" style="" transform="translate(-49.171875, -11.25)"><rect/><foreignObject width="98.34375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>증기 터빈 회전</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-5-2-flowchart-W-6" data-look="classic" transform="translate(274.5859375, 269.25)"><rect class="basic label-container" style="" x="-48.5859375" y="-34.5" width="97.171875" height="69"/><g class="label" style="" transform="translate(-24.5859375, -22.5)"><rect/><foreignObject width="49.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>댐의 물<br />낙하</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-5-2-flowchart-T2-7" data-look="classic" transform="translate(495.9296875, 269.25)"><rect class="basic label-container" style="" x="-56.0859375" y="-23.25" width="112.171875" height="46.5"/><g class="label" style="" transform="translate(-32.0859375, -11.25)"><rect/><foreignObject width="64.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>수차 회전</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-5-2-flowchart-G-9" data-look="classic" transform="translate(707.2734375, 161.5)"><rect class="basic label-container" style="" x="-63.5859375" y="-34.5" width="127.171875" height="69"/><g class="label" style="" transform="translate(-39.5859375, -22.5)"><rect/><foreignObject width="79.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>발전기<br />전자기 유도</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-5-2-flowchart-E-13" data-look="classic" transform="translate(884.4453125, 161.5)"><rect class="basic label-container" style="" x="-63.5859375" y="-23.25" width="127.171875" height="46.5"/><g class="label" style="" transform="translate(-39.5859375, -11.25)"><rect/><foreignObject width="79.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>전기 에너지</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-5-2-flowchart-K-15" data-look="classic" transform="translate(495.9296875, 155.875)"><rect class="basic label-container" style="" x="-97.7578125" y="-34.5" width="195.515625" height="69"/><g class="label" style="" transform="translate(-73.7578125, -22.5)"><rect/><foreignObject width="147.515625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>복수기에서 냉각<br />열 일부를 바다로 방출</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-5-5-2-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-5-5-2-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-5-5-2-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><aside class="callout note"><p class="callout-title">성취기준·참고</p><p>화력·원자력 발전소에서는 연료가 낸 열에너지 가운데 <strong>상당 부분이 복수기의 냉각수를 통해 열로 버려진다.</strong> 그래서 연료 에너지 중 전기로 바뀌는 비율은 대략 30~40%대에 그친다(복합 화력은 이보다 높다). 이 &#39;버려지는 열&#39;과 효율 이야기는 5-6에서 이어진다. 많은 양의 냉각수가 필요하므로 우리나라의 원자력·석탄 발전소는 대부분 <strong>바닷가</strong>에 있다.</p>
+</aside>
+<h4 id="예제-3-수력-발전소의-에너지">예제 3 — 수력 발전소의 에너지</h4>
+<p>어느 수력 발전소에서 1초마다 물 10 000 kg이 50 m 높이에서 떨어져 수차를 돌린다.
+(1) 1초 동안 떨어지는 물의 위치 에너지는 몇 J인가?
+(2) 이 에너지의 90%가 전기 에너지로 전환된다고 가정하면, 1초 동안 만들어지는 전기 에너지는 몇 J인가?</p>
+<p><strong>풀이</strong>
+(1) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9694em;vertical-align:-0.2861em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0576em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">p</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">9.8</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">10</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">50</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">900</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace"> </span><span class="mord mathrm">J</span></span></span></span> (490만 J)
+(2) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">900</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0.9</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">410</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace"> </span><span class="mord mathrm">J</span></span></span></span> (441만 J)</p>
+<p>1초에 441만 J이므로 이 발전소의 전기 출력은 약 441만 W(약 4.4 MW)이다. 나머지 10%는 물의 소용돌이, 마찰, 발전기 속 열 등으로 흩어진다.</p>
+<h3 id="5-5-④-화석-연료-핵에너지-발전소가-인간-생활에-미치는-영향">5-5-④ 화석 연료·핵에너지 발전소가 인간 생활에 미치는 영향</h3>
+<p>전기는 현대 생활을 떠받치는 에너지이다. 그러나 전기를 만드는 방식마다 혜택과 대가가 함께 있다. 어느 한쪽만 보지 말고 <strong>근거를 들어 균형 있게</strong> 따져 보아야 한다.</p>
+<h4 id="화석-연료-발전소">화석 연료 발전소</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>측면</th>
+<th>장점(혜택)</th>
+<th>문제점(대가)</th>
+</tr>
+</thead><tbody><tr>
+<td>공급</td>
+<td>연료만 있으면 날씨와 관계없이 원하는 때 발전할 수 있다. 특히 천연가스 발전은 출력을 빠르게 조절할 수 있어 전력 수요 변화에 대응하기 좋다</td>
+<td>연료가 한정된 자원이다. 우리나라는 에너지 자원의 대부분(90% 이상)을 수입하여 국제 연료 가격 변동에 영향을 받는다</td>
+</tr>
+<tr>
+<td>환경</td>
+<td>기술이 오래 축적되어 오염 물질 저감 설비(탈황·탈질 설비, 집진기 등)가 발전해 왔다</td>
+<td>연소할 때 <strong>이산화 탄소</strong>가 나와 지구온난화의 주요 원인이 된다. 석탄은 황산화물·질소산화물·미세먼지 등 <strong>대기 오염 물질</strong>도 많이 배출한다</td>
+</tr>
+<tr>
+<td>경제·사회</td>
+<td>발전소 건설과 운영 기술이 성숙하여 비교적 짧은 기간에 지을 수 있다</td>
+<td>대기 오염에 따른 건강 피해, 온배수에 의한 주변 해양 환경 변화</td>
+</tr>
+</tbody></table></div>
+<h4 id="핵에너지-원자력-발전소">핵에너지(원자력) 발전소</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>측면</th>
+<th>장점(혜택)</th>
+<th>문제점(대가)</th>
+</tr>
+</thead><tbody><tr>
+<td>공급</td>
+<td>적은 양의 연료로 많은 전기를 오랫동안 안정적으로 만든다. 한 번 넣은 연료로 오래 운전할 수 있다</td>
+<td>출력을 자주 바꾸기 어려워 주로 일정한 양을 계속 발전하는 데 쓴다</td>
+</tr>
+<tr>
+<td>환경</td>
+<td>발전하는 동안 <strong>이산화 탄소와 대기 오염 물질을 거의 배출하지 않는다</strong></td>
+<td>쓰고 난 핵연료(<strong>사용후핵연료</strong>)는 매우 강한 방사선을 오랫동안 내므로 안전하게 보관·처분해야 한다. 영구 처분 시설 마련이 중요한 사회적 과제이다</td>
+</tr>
+<tr>
+<td>안전·사회</td>
+<td>엄격한 안전 기준과 다중 안전 설비로 관리한다</td>
+<td>체르노빌(1986), 후쿠시마(2011)처럼 큰 사고가 나면 넓은 지역에 오랫동안 피해를 준다. 발전소와 방사성 폐기물 시설의 입지를 둘러싼 갈등이 있다. 수명이 다한 원전은 <strong>해체</strong>하는 데 오랜 시간과 비용이 든다</td>
+</tr>
+</tbody></table></div>
+<aside class="callout important"><p class="callout-title">핵심</p><p><strong>조사·발표할 때의 기준</strong></p>
+<ol>
+<li><strong>근거</strong>: 공공기관 통계, 학술 자료 등 믿을 수 있는 출처를 밝힌다.</li>
+<li><strong>균형</strong>: 장점과 문제점을 모두 다룬다. 다른 발전 방식과 <strong>비교</strong>한다.</li>
+<li><strong>관점</strong>: 지역 주민, 전기 사용자, 미래 세대, 환경 등 여러 입장을 고려한다.</li>
+<li><strong>대안</strong>: 문제점을 줄이는 기술이나 정책(효율 향상, 신재생 에너지, 안전 규제 등)을 함께 제시한다.</li>
+</ol>
+</aside>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 발전 방식 고르기는 &#39;식단 짜기&#39;와 비슷하다. 영양소마다 장단점이 있어 한 가지 음식만 먹으면 탈이 나듯, 한 나라의 전기도 여러 발전 방식을 조합해 만든다. 이 조합을 <strong>에너지 믹스(energy mix)</strong> 라고 하며, 사회가 무엇을 더 중요하게 여기는지(안정성, 비용, 환경, 안전)에 따라 달라진다.</p>
+</aside>
+<h3 id="5-5-⑤-전기-에너지의-수송-발전소에서-우리-집까지">5-5-⑤ 전기 에너지의 수송 — 발전소에서 우리 집까지</h3>
+<p>발전소는 대개 사람이 많이 사는 곳에서 멀리 떨어져 있다. 만든 전기를 먼 곳까지 보내는 과정을 <strong>송전</strong>, 동네와 집으로 나누어 보내는 과정을 <strong>배전</strong>이라고 한다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-5-5-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 1165.515625 85" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-5-5-3{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-5-5-3 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-5-5-3 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-5-5-3 .error-icon{fill:var(--mm-group);}#mm-5-5-3 .error-text{fill:#595959;stroke:#595959;}#mm-5-5-3 .edge-thickness-normal{stroke-width:1px;}#mm-5-5-3 .edge-thickness-thick{stroke-width:3.5px;}#mm-5-5-3 .edge-pattern-solid{stroke-dasharray:0;}#mm-5-5-3 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-5-5-3 .edge-pattern-dashed{stroke-dasharray:3;}#mm-5-5-3 .edge-pattern-dotted{stroke-dasharray:2;}#mm-5-5-3 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-5-5-3 .marker.cross{stroke:var(--mm-line);}#mm-5-5-3 svg{font-family:inherit;font-size:15px;}#mm-5-5-3 p{margin:0;}#mm-5-5-3 .label{font-family:inherit;color:var(--mm-text);}#mm-5-5-3 .cluster-label text{fill:#595959;}#mm-5-5-3 .cluster-label span{color:#595959;}#mm-5-5-3 .cluster-label span p{background-color:transparent;}#mm-5-5-3 .label text,#mm-5-5-3 span{fill:var(--mm-text);color:var(--mm-text);}#mm-5-5-3 .node rect,#mm-5-5-3 .node circle,#mm-5-5-3 .node ellipse,#mm-5-5-3 .node polygon,#mm-5-5-3 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-5-5-3 .rough-node .label text,#mm-5-5-3 .node .label text,#mm-5-5-3 .image-shape .label,#mm-5-5-3 .icon-shape .label{text-anchor:middle;}#mm-5-5-3 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-5-5-3 .rough-node .label,#mm-5-5-3 .node .label,#mm-5-5-3 .image-shape .label,#mm-5-5-3 .icon-shape .label{text-align:center;}#mm-5-5-3 .node.clickable{cursor:pointer;}#mm-5-5-3 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-5-5-3 .arrowheadPath{fill:#0b0b0b;}#mm-5-5-3 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-5-5-3 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-5-5-3 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-5-5-3 .edgeLabel p{background-color:var(--mm-label);}#mm-5-5-3 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-5-5-3 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-5-5-3 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-5-5-3 .cluster text{fill:#595959;}#mm-5-5-3 .cluster span{color:#595959;}#mm-5-5-3 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-5-5-3 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-5-5-3 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-5-5-3 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-5-5-3 rect.text{fill:none;stroke-width:0;}#mm-5-5-3 .icon-shape,#mm-5-5-3 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-5-5-3 .icon-shape p,#mm-5-5-3 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-5-5-3 .icon-shape .label rect,#mm-5-5-3 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-5-5-3 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-5-5-3 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-5-5-3 .node .neo-node{stroke:var(--mm-border);}#mm-5-5-3 [data-look="neo"].node rect,#mm-5-5-3 [data-look="neo"].cluster rect,#mm-5-5-3 [data-look="neo"].node polygon{stroke:url(#mm-5-5-3-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-5-3 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-5-5-3 [data-look="neo"].node path{stroke:url(#mm-5-5-3-gradient);stroke-width:1px;}#mm-5-5-3 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-5-3 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-5-5-3 [data-look="neo"].node circle{stroke:url(#mm-5-5-3-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-5-3 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-5-5-3 [data-look="neo"].icon-shape .icon{fill:url(#mm-5-5-3-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-5-3 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-5-5-3-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-5-3 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-5-5-3_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-3_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-3_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-3_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-3_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-3_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-3_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-3_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-3_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-3_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-5-3_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-5-5-3_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M101,42.5L105.167,42.5C109.333,42.5,117.667,42.5,125.333,42.5C133,42.5,140,42.5,143.5,42.5L147,42.5" id="mm-5-5-3-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTAxLCJ5Ijo0Mi41fSx7IngiOjEyNiwieSI6NDIuNX0seyJ4IjoxNTEsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-5-5-3_flowchart-v2-pointEnd)"/><path d="M327.344,42.5L331.51,42.5C335.677,42.5,344.01,42.5,351.677,42.5C359.344,42.5,366.344,42.5,369.844,42.5L373.344,42.5" id="mm-5-5-3-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6MzI3LjM0Mzc1LCJ5Ijo0Mi41fSx7IngiOjM1Mi4zNDM3NSwieSI6NDIuNX0seyJ4IjozNzcuMzQzNzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-5-5-3_flowchart-v2-pointEnd)"/><path d="M532.094,42.5L536.26,42.5C540.427,42.5,548.76,42.5,556.427,42.5C564.094,42.5,571.094,42.5,574.594,42.5L578.094,42.5" id="mm-5-5-3-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6NTMyLjA5Mzc1LCJ5Ijo0Mi41fSx7IngiOjU1Ny4wOTM3NSwieSI6NDIuNX0seyJ4Ijo1ODIuMDkzNzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-5-5-3_flowchart-v2-pointEnd)"/><path d="M694.266,42.5L698.432,42.5C702.599,42.5,710.932,42.5,718.599,42.5C726.266,42.5,733.266,42.5,736.766,42.5L740.266,42.5" id="mm-5-5-3-L_D_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_E_0" data-points="W3sieCI6Njk0LjI2NTYyNSwieSI6NDIuNX0seyJ4Ijo3MTkuMjY1NjI1LCJ5Ijo0Mi41fSx7IngiOjc0NC4yNjU2MjUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-5-5-3_flowchart-v2-pointEnd)"/><path d="M843.141,42.5L847.307,42.5C851.474,42.5,859.807,42.5,867.474,42.5C875.141,42.5,882.141,42.5,885.641,42.5L889.141,42.5" id="mm-5-5-3-L_E_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_F_0" data-points="W3sieCI6ODQzLjE0MDYyNSwieSI6NDIuNX0seyJ4Ijo4NjguMTQwNjI1LCJ5Ijo0Mi41fSx7IngiOjg5My4xNDA2MjUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-5-5-3_flowchart-v2-pointEnd)"/><path d="M1020.313,42.5L1024.479,42.5C1028.646,42.5,1036.979,42.5,1044.646,42.5C1052.313,42.5,1059.313,42.5,1062.813,42.5L1066.313,42.5" id="mm-5-5-3-L_F_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_F_G_0" data-points="W3sieCI6MTAyMC4zMTI1LCJ5Ijo0Mi41fSx7IngiOjEwNDUuMzEyNSwieSI6NDIuNX0seyJ4IjoxMDcwLjMxMjUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-5-5-3_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_F_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_F_G_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-5-5-3-flowchart-A-0" data-look="classic" transform="translate(54.5, 42.5)"><rect class="basic label-container" style="" x="-46.5" y="-34.5" width="93" height="69"/><g class="label" style="" transform="translate(-22.5, -22.5)"><rect/><foreignObject width="45" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>발전소<br />발전기</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-5-3-flowchart-B-1" data-look="classic" transform="translate(239.171875, 42.5)"><rect class="basic label-container" style="" x="-88.171875" y="-34.5" width="176.34375" height="69"/><g class="label" style="" transform="translate(-64.171875, -22.5)"><rect/><foreignObject width="128.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>변전소<br />변압기로 전압 높임</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-5-3-flowchart-C-3" data-look="classic" transform="translate(454.71875, 42.5)"><rect class="basic label-container" style="" x="-77.375" y="-34.5" width="154.75" height="69"/><g class="label" style="" transform="translate(-53.375, -22.5)"><rect/><foreignObject width="106.75" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>송전선<br />154·345·765 kV</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-5-3-flowchart-D-5" data-look="classic" transform="translate(638.1796875, 42.5)"><rect class="basic label-container" style="" x="-56.0859375" y="-34.5" width="112.171875" height="69"/><g class="label" style="" transform="translate(-32.0859375, -22.5)"><rect/><foreignObject width="64.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>변전소<br />전압 낮춤</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-5-3-flowchart-E-7" data-look="classic" transform="translate(793.703125, 42.5)"><rect class="basic label-container" style="" x="-49.4375" y="-34.5" width="98.875" height="69"/><g class="label" style="" transform="translate(-25.4375, -22.5)"><rect/><foreignObject width="50.875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>배전선<br />22.9 kV</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-5-3-flowchart-F-9" data-look="classic" transform="translate(956.7265625, 42.5)"><rect class="basic label-container" style="" x="-63.5859375" y="-34.5" width="127.171875" height="69"/><g class="label" style="" transform="translate(-39.5859375, -22.5)"><rect/><foreignObject width="79.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>주상 변압기<br />전압 낮춤</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-5-3-flowchart-G-11" data-look="classic" transform="translate(1113.9140625, 42.5)"><rect class="basic label-container" style="" x="-43.6015625" y="-34.5" width="87.203125" height="69"/><g class="label" style="" transform="translate(-19.6015625, -22.5)"><rect/><foreignObject width="39.203125" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>가정<br />220 V</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-5-5-3-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-5-5-3-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-5-5-3-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><h4 id="왜-아주-높은-전압으로-보낼까">왜 아주 높은 전압으로 보낼까?</h4>
+<p>전선에도 <strong>저항</strong>이 있어 전류가 흐르면 전기 에너지의 일부가 <strong>열로 바뀌어 손실</strong>된다. 같은 양의 전기 에너지를 보낼 때 <strong>전압을 높이면 전선에 흐르는 전류가 작아지고</strong>, 전류가 작을수록 전선에서 열로 사라지는 에너지가 크게 줄어든다. 그래서 발전소에서 만든 전기는 변압기로 전압을 수십만 볼트까지 높여 보낸 뒤, 쓰는 곳 가까이에서 다시 낮춘다.</p>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 같은 양의 물건을 옮길 때, 작은 손수레 수백 대로 좁은 길을 지나가면 길이 막히고 바퀴 마찰로 힘이 많이 든다. 큰 트럭 몇 대에 꽉꽉 실어 보내면 길도 덜 붐비고 손실도 적다. 전압을 높이는 것은 &#39;한 번에 꽉꽉 실어 보내기&#39;에 해당한다.</p>
+</aside>
+<h4 id="변압기도-전자기-유도로-작동한다">변압기도 전자기 유도로 작동한다</h4>
+<p><strong>변압기(transformer)</strong> 는 철심에 두 개의 코일을 감은 장치이다. 한쪽 코일에 <strong>교류</strong>를 흘리면 철심 속 자기장의 세기가 계속 변하고, 그 변화가 다른 쪽 코일에 전류를 유도한다. 두 코일의 감은 수를 다르게 하면 전압을 높이거나 낮출 수 있다.</p>
+<ul>
+<li>직류는 자기장이 변하지 않으므로 보통의 변압기로 전압을 바꿀 수 없다. 교류가 전력망의 기본이 된 큰 이유이다.</li>
+<li>다만 아주 먼 거리나 바다 밑으로 많은 전력을 보낼 때는 교류를 직류로 바꾸어 보내는 <strong>초고압 직류 송전(HVDC)</strong> 을 쓰기도 한다(STEP 6).</li>
+</ul>
+<h4 id="예제-4">예제 4</h4>
+<p>다음 중 발전소에서 고전압으로 송전하는 까닭으로 가장 알맞은 것은?
+① 전기 에너지를 더 많이 만들기 위해
+② 전선에 흐르는 전류를 줄여 전선에서 열로 손실되는 에너지를 줄이기 위해
+③ 가정에서 220 V 전기를 그대로 쓰기 위해
+④ 직류를 교류로 바꾸기 위해</p>
+<p><strong>풀이</strong> 전압을 높여도 전기 에너지가 새로 만들어지지는 않는다. 같은 전력을 보낼 때 전압을 높이면 전류가 작아져 전선에서 열로 잃는 에너지가 줄어든다.</p>
+<p><strong>정답 ②</strong></p>
+<hr>
+<h2 id="step-4" class="step-h s4"><span class="step-badge s4">STEP 4</span><span class="h-text">오개념 바로잡기</span></h2>
+<div class="table-wrap"><table><thead><tr>
+<th>흔한 오개념</th>
+<th>올바른 개념</th>
+<th>왜 그럴까?</th>
+</tr>
+</thead><tbody><tr>
+<td>강한 자석을 코일 속에 넣어 두기만 해도 전류가 흐른다</td>
+<td>코일 속 자기장의 세기가 <strong>변할 때만</strong> 전류가 흐른다</td>
+<td>전자기 유도는 자기장의 &#39;세기&#39;가 아니라 &#39;변화&#39;에 반응한다</td>
+</tr>
+<tr>
+<td>발전기는 전기를 새로 만들어 낸다</td>
+<td>발전기는 운동 에너지를 전기 에너지로 <strong>전환</strong>할 뿐이다</td>
+<td>전기를 많이 쓸수록 발전기를 돌리기 힘들어진다. 에너지 보존 법칙 때문이다</td>
+</tr>
+<tr>
+<td>발전기와 전동기는 전혀 다른 장치이다</td>
+<td>구조가 거의 같고 <strong>에너지 전환 방향만 반대</strong>이다</td>
+<td>전기차는 같은 모터를 달릴 때는 전동기로, 감속할 때는 발전기로 쓴다</td>
+</tr>
+<tr>
+<td>원자력 발전소는 작은 핵폭발로 전기를 만든다</td>
+<td>핵분열의 <strong>열로 물을 끓여 증기 터빈을 돌린다</strong></td>
+<td>제어봉으로 연쇄 반응의 빠르기를 일정하게 조절한다. 열을 얻는 방법만 화력과 다르다</td>
+</tr>
+<tr>
+<td>모든 발전소는 터빈과 발전기를 쓴다</td>
+<td><strong>태양광 발전</strong>과 연료 전지는 터빈·발전기 없이 전기를 만든다</td>
+<td>태양 전지는 빛에너지를, 연료 전지는 화학 에너지를 직접 전기로 바꾼다(5-6)</td>
+</tr>
+<tr>
+<td>고전압으로 송전하면 더 많은 전기가 전달된다</td>
+<td>전기 에너지가 늘어나는 것이 아니라 <strong>손실이 줄어든다</strong></td>
+<td>전압을 높이면 전류가 작아져 전선에서 열로 잃는 에너지가 줄어든다</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-5" class="step-h s5"><span class="step-badge s5">STEP 5</span><span class="h-text">선택과목·대학으로 한 걸음 더</span></h2>
+<aside class="callout caution"><p class="callout-title">심화 · 평가 범위 밖</p><p>이 절은 <strong>통합과학 교육과정 범위 밖의 심화 내용</strong>으로 평가 대상이 아니다. &quot;이 개념이 앞으로 어디까지 이어지는가&quot;를 맛보기로 보여 주기 위한 내용이다.</p>
+</aside>
+<h3 id="고2-3-선택과목과의-연결">고2·3 선택과목과의 연결</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>과목</th>
+<th>이어지는 내용</th>
+</tr>
+</thead><tbody><tr>
+<td>물리학</td>
+<td>전류의 자기 작용을 이용한 전동기·스피커 [12물리02-05], 전자기 유도의 활용 기술(센서, 무선통신, 무선충전) [12물리02-06]</td>
+</tr>
+<tr>
+<td>전자기와 양자</td>
+<td>로런츠 힘 [12전자01-04], 자기선속의 변화로 이해하는 전자기 유도와 변압기·인덕터 [12전자01-05]</td>
+</tr>
+<tr>
+<td>역학과 에너지</td>
+<td>열기관의 순환 과정과 열효율, 열기관이 산업과 환경에 미친 영향 [12역학02-04]</td>
+</tr>
+</tbody></table></div>
+<h3 id="①-패러데이-전자기-유도-법칙">① 패러데이 전자기 유도 법칙</h3>
+<p>대학과 진로 선택 과목에서는 &#39;코일을 지나는 자기장의 양&#39;을 <strong>자기 선속</strong> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Φ</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span><span class="mord mathnormal">A</span></span></span></span> (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span></span></span></span>: 자기장의 세기, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span></span></span></span>: 코일의 넓이, 단위 Wb)로 정의한다. 코일에 생기는 <strong>유도 기전력</strong> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">ε</span></span></span></span> (전류를 흐르게 하는 전압)은</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">ε</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0463em;vertical-align:-0.686em;"></span><span class="mord">−</span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">ΔΦ</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<p>(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span></span></span></span>: 코일의 감은 수) 이다. STEP 3의 정성적 결론 &quot;빠르게(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span></span> 작게), 센 자석(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">ΔΦ</span></span></span></span> 크게), 많이 감을수록(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span></span></span></span> 크게) 유도 전류가 커진다&quot;가 이 식 하나에 모두 들어 있다.</p>
+<p><strong>예</strong> 감은 수 100회인 코일을 지나는 자기 선속이 0.1초 동안 0.02 Wb만큼 변하면
+<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">ε</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">100</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">0.1</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">0.02</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">20</span><span class="mspace"> </span><span class="mord mathrm" style="margin-right:0.01389em;">V</span></span></span></span> 의 유도 기전력이 생긴다.</p>
+<h3 id="②-렌츠-법칙-유도-전류는-변화를-방해한다">② 렌츠 법칙 — 유도 전류는 변화를 방해한다</h3>
+<p>식의 (−) 부호는 <strong>렌츠 법칙</strong>을 뜻한다. &quot;유도 전류는 코일을 지나는 자기 선속의 <strong>변화를 방해하는 방향</strong>으로 흐른다.&quot; 자석의 N극을 코일에 가까이 하면 코일은 N극을 밀어내는 쪽으로, 멀리 하면 끌어당기는 쪽으로 전류가 흐른다. STEP 3에서 손발전기가 뻑뻑해진 까닭이 바로 이것이며, 렌츠 법칙은 <strong>에너지 보존 법칙</strong>의 전자기적 표현이다. 구리관 속에 강한 자석을 떨어뜨리면 관에 유도된 전류(맴돌이 전류)가 낙하를 방해해 자석이 천천히 떨어지는 것도 같은 원리이다.</p>
+<h3 id="③-교류-발전기의-식">③ 교류 발전기의 식</h3>
+<p>넓이 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span></span></span></span>, 감은 수 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span></span></span></span>인 코일이 세기 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span></span></span></span>인 자기장 속에서 각속도 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">ω</span></span></span></span>로 회전하면 유도 기전력은 사인 함수 모양으로 변한다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">ε</span><span class="mopen">(</span><span class="mord mathnormal">t</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">NB</span><span class="mord mathnormal">A</span><span class="mord mathnormal" style="margin-right:0.03588em;">ω</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mop">sin</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">ω</span><span class="mord mathnormal">t</span></span></span></span></span></p>
+<p>우리나라 전력망은 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">60</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">Hz</span></span></span></span></span> (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">ω</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord">2</span><span class="mord mathnormal" style="margin-right:0.03588em;">π</span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span></span></span></span>) 로 운전된다. 대학 &#39;전기기기&#39;에서는 세 개의 코일을 120°씩 엇갈리게 배치한 <strong>3상 교류 발전기</strong>를 배우는데, 실제 발전소와 송전선이 모두 3상 방식이다.</p>
+<h3 id="④-변압기와-송전-손실의-정량-계산">④ 변압기와 송전 손실의 정량 계산</h3>
+<p>이상적인 변압기에서 전압의 비는 감은 수의 비와 같다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.1963em;vertical-align:-0.836em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.836em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.1963em;vertical-align:-0.836em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.109em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.109em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.836em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<p>송전 전력 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.22222em;">V</span><span class="mord mathnormal" style="margin-right:0.07847em;">I</span></span></span></span>, 전선 저항 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span></span></span></span>에서 열로 손실되는 전력은 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord hangul_fallback mtight">손실</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span></span></span></span> 이다.</p>
+<p><strong>예</strong> 전력 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace"> </span><span class="mord mathrm" style="margin-right:0.01389em;">W</span></span></span></span>를 저항 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">10</span><span class="mspace"> </span><span class="mord">Ω</span></span></span></span>인 송전선으로 보낼 때</p>
+<ul>
+<li>10 000 V로 보내면: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">100</span><span class="mspace"> </span><span class="mord mathrm">A</span></span></span></span>, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord hangul_fallback mtight">손실</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"></span><span class="mord">10</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">100</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace"> </span><span class="mord mathrm" style="margin-right:0.01389em;">W</span></span></span></span> (보낸 전력의 10%)</li>
+<li>100 000 V로 보내면: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">10</span><span class="mspace"> </span><span class="mord mathrm">A</span></span></span></span>, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord hangul_fallback mtight">손실</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace"> </span><span class="mord mathrm" style="margin-right:0.01389em;">W</span></span></span></span> (0.1%)</li>
+</ul>
+<p>전압을 10배로 높이면 손실은 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">100</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span> 로 줄어든다. STEP 3에서 &#39;크게 줄어든다&#39;고만 했던 내용의 정체이다.</p>
+<h3 id="고등학교-vs-대학교">고등학교 vs 대학교</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>고등학교 통합과학</th>
+<th>대학교 전자기학·전기공학</th>
+</tr>
+</thead><tbody><tr>
+<td>전자기 유도</td>
+<td>자기장 세기가 변하면 전류가 흐른다(정성적)</td>
+<td>패러데이 법칙 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">ε</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">−</span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">d</span><span class="mord">Φ/</span><span class="mord mathnormal">d</span><span class="mord mathnormal">t</span></span></span></span>, 맥스웰 방정식</td>
+</tr>
+<tr>
+<td>유도 전류의 방향</td>
+<td>넣을 때와 뺄 때 반대(관찰)</td>
+<td>렌츠 법칙, 벡터로 계산</td>
+</tr>
+<tr>
+<td>발전기</td>
+<td>운동 에너지 → 전기 에너지, 교류 생성</td>
+<td>3상 동기 발전기, 출력·효율 설계</td>
+</tr>
+<tr>
+<td>송전</td>
+<td>고전압으로 손실 줄이기(정성적)</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span></span></span></span> 손실, 전력 계통 해석, HVDC, 전력전자</td>
+</tr>
+<tr>
+<td>관련 전공</td>
+<td>—</td>
+<td>전기공학, 전자공학, 기계공학, 원자핵공학, 에너지공학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-6" class="step-h s6"><span class="step-badge s6">STEP 6</span><span class="h-text">산업 현장과 진로 연결</span></h2>
+<h3 id="사례-1-발전기-터빈-제조-거대한-정밀-기계">사례 1. 발전기·터빈 제조 — 거대한 정밀 기계</h3>
+<ul>
+<li><strong>원리</strong> 발전소의 발전기는 STEP 3의 손발전기와 같은 원리지만 크기와 정밀도가 전혀 다르다. 원자력 발전소 한 기의 전기 출력은 약 1,000~1,400 MW에 이르고, 터빈과 발전기 회전축은 1초에 수십 바퀴씩 쉬지 않고 돈다.</li>
+<li><strong>핵심 기술</strong> 고온·고압 증기나 연소 기체를 견디는 터빈 날개 소재와 냉각 기술, 진동을 줄이는 회전체 설계, 발전기 코일의 냉각과 절연 기술이 필요하다. 특히 발전용 대형 가스 터빈은 소수의 나라만 만들 수 있는 고난도 기술인데, 최근 우리나라도 국산화에 성공하였다.</li>
+<li><strong>변화</strong> 풍력 발전기(5-6), 소형 수력, 선박·항공기 엔진 등으로 터빈·발전기 기술의 활용 범위가 넓어지고 있다.</li>
+</ul>
+<h3 id="사례-2-전력망-초고압-송전과-hvdc">사례 2. 전력망 — 초고압 송전과 HVDC</h3>
+<ul>
+<li><strong>원리</strong> 우리나라는 154 kV, 345 kV, 765 kV의 송전 전압을 써서 손실을 줄인다(5-5-⑤).</li>
+<li><strong>HVDC</strong> 교류를 직류로 바꾸어 보내는 <strong>초고압 직류 송전</strong>은 먼 거리나 바다 밑 케이블 송전에서 손실과 비용을 줄일 수 있다. 우리나라에서는 제주와 육지(전라남도)를 잇는 해저 HVDC 송전선이 운영되고 있으며, 서해안 해상풍력 등 대규모 신재생 에너지를 수도권으로 보내는 수단으로도 주목받는다.</li>
+<li><strong>스마트 그리드</strong> 전력망에 정보 통신 기술을 결합하여 공급과 수요를 실시간으로 조절하는 지능형 전력망으로 발전하고 있다(5-6과 연결).</li>
+</ul>
+<h3 id="사례-3-원자력-발전소의-운영과-해체">사례 3. 원자력 발전소의 운영과 해체</h3>
+<ul>
+<li><strong>운영</strong> 원자로 운전원은 국가 면허를 받아 원자로 출력, 냉각수 온도·압력, 방사선량을 24시간 감시한다. 원자력안전위원회가 안전 규제를 맡는다.</li>
+<li><strong>해체</strong> 우리나라 최초의 상업용 원자력 발전소인 고리 1호기는 2017년 영구 정지되어 해체 절차를 밟고 있다. 해체는 사용후핵연료 반출, 방사성 오염 제거, 구조물 철거, 부지 복원까지 오랜 기간이 걸리는 작업으로, 세계적으로 수명이 다한 원전이 늘면서 새로운 산업 분야로 주목받는다.</li>
+<li><strong>방사성 폐기물 관리</strong> 사용후핵연료를 안전하게 저장하고 최종 처분하는 기술과 제도를 마련하는 일이 중요한 과제이다.</li>
+</ul>
+<h3 id="사례-4-회생-제동과-무선-충전-생활-속-전자기-유도">사례 4. 회생 제동과 무선 충전 — 생활 속 전자기 유도</h3>
+<ul>
+<li><strong>회생 제동</strong> 전기차·하이브리드차·전동차(지하철)는 감속할 때 모터를 발전기로 바꾸어 운동 에너지를 전기 에너지로 회수한다. 브레이크 패드 마모가 줄고 주행 거리가 늘어난다.</li>
+<li><strong>무선 충전·교통카드</strong> 변하는 자기장으로 코일에 전류를 유도하여 선 없이 에너지와 신호를 전달한다(고2·3 &#39;물리학&#39;에서 무선 충전기를 직접 구현해 본다).</li>
+</ul>
+<h3 id="관련-진로와-학과">관련 진로와 학과</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>진로</th>
+<th>하는 일</th>
+<th>관련 학과</th>
+</tr>
+</thead><tbody><tr>
+<td>발전 설비 엔지니어</td>
+<td>터빈·발전기 설계, 제작, 정비</td>
+<td>기계공학, 전기공학, 재료공학</td>
+</tr>
+<tr>
+<td>전력 계통 엔지니어</td>
+<td>송전·변전 설비 운영, 전력망 계획, HVDC</td>
+<td>전기공학, 전자공학</td>
+</tr>
+<tr>
+<td>원자력 엔지니어·운전원</td>
+<td>원자로 운전·안전 관리, 해체·방사성 폐기물 관리</td>
+<td>원자핵공학, 기계공학, 화학공학</td>
+</tr>
+<tr>
+<td>전기차 구동계 엔지니어</td>
+<td>모터·인버터·회생 제동 시스템 개발</td>
+<td>전기공학, 자동차공학, 기계공학</td>
+</tr>
+<tr>
+<td>에너지 정책 연구원</td>
+<td>에너지 믹스, 발전소 입지·환경 영향 분석</td>
+<td>에너지공학, 환경공학, 경제학, 정책학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="탐구-활동-자석과-코일의-상대-운동에-의해-운동-에너지가-전기-에너지로-전환되는-과정-탐구하기">탐구 활동 — 자석과 코일의 상대 운동에 의해 운동 에너지가 전기 에너지로 전환되는 과정 탐구하기</h2>
+<h3 id="활동-a-자석과-코일의-상대-운동-탐구">활동 A. 자석과 코일의 상대 운동 탐구</h3>
+<p><strong>목표</strong> 코일 속 자기장의 세기 변화와 유도 전류의 관계를 관찰하고, 유도 전류의 세기에 영향을 주는 요인을 찾는다.</p>
+<p><strong>준비물</strong> 감은 수가 다른 코일 2개(예: 200회, 400회), 세기가 다른 막대자석 2개, 검류계(또는 디지털 전류 센서), 집게 전선</p>
+<p><strong>과정</strong></p>
+<ol>
+<li>200회 코일을 검류계에 연결한다.</li>
+<li>자석의 N극을 코일 속에 천천히 넣고, 잠시 멈추었다가, 천천히 뺀다. 각 순간 바늘의 방향과 크기를 기록한다.</li>
+<li>같은 자석을 빠르게 넣고 뺀다.</li>
+<li>자석은 고정하고 코일을 움직여 2~3을 반복한다.</li>
+<li>센 자석으로 바꾸어 반복한다.</li>
+<li>400회 코일로 바꾸어 같은 속력으로 반복한다.</li>
+</ol>
+<p><strong>결과 기록</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>조건</th>
+<th>넣을 때 바늘 방향·크기</th>
+<th>정지할 때</th>
+<th>뺄 때 바늘 방향·크기</th>
+</tr>
+</thead><tbody><tr>
+<td>200회, 약한 자석, 천천히</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>200회, 약한 자석, 빠르게</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>200회, 코일을 움직임</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>200회, 센 자석, 빠르게</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>400회, 약한 자석, 빠르게</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<p><strong>생각해 보기</strong></p>
+<ol>
+<li>자석이 코일 속에 정지해 있을 때 전류가 흐르지 않은 까닭은?</li>
+<li>유도 전류를 크게 하는 조건 세 가지를 실험 결과로 정리해 보자.</li>
+<li>자석을 넣고 뺄 때 손이 한 일은 어떤 에너지로 전환되었을까?</li>
+</ol>
+<h3 id="활동-b-간이-발전기-만들기-39-흔들이-발전기-39">활동 B. 간이 발전기 만들기 — &#39;흔들이 발전기&#39;</h3>
+<p><strong>목표</strong> 전자기 유도를 이용한 간이 발전기를 만들고, 운동 에너지가 전기 에너지로 전환되는 과정을 확인한다.</p>
+<p><strong>준비물</strong> 투명 플라스틱 관(지름 약 2 cm, 길이 약 15 cm), 에나멜선(약 20~30 m), 원통형 네오디뮴 자석, 발광 다이오드(LED) 2개(빨강), 사포, 고무마개 2개, 테이프</p>
+<p><strong>과정</strong></p>
+<ol>
+<li>플라스틱 관 가운데에 에나멜선을 같은 방향으로 촘촘히 감는다(수백 회 이상).</li>
+<li>에나멜선 양 끝을 사포로 문질러 피복을 벗긴다.</li>
+<li>LED 2개의 극을 서로 반대로 하여 나란히 연결한 뒤 에나멜선 양 끝에 연결한다(교류이므로 두 방향 전류를 모두 확인할 수 있다).</li>
+<li>관 속에 자석을 넣고 양 끝을 고무마개로 막는다.</li>
+<li>관을 앞뒤로 세게 흔들며 LED를 관찰한다. 흔드는 빠르기를 바꾸어 본다.</li>
+</ol>
+<p><strong>생각해 보기</strong></p>
+<ol>
+<li>두 LED가 번갈아 켜지는 까닭을 유도 전류의 방향으로 설명해 보자.</li>
+<li>LED를 더 밝게 하려면 무엇을 바꾸면 좋을까? (감은 수, 자석, 흔드는 빠르기)</li>
+<li>이 장치와 발전소의 발전기에서 &#39;바깥에서 공급하는 운동 에너지&#39;는 각각 무엇인가?</li>
+</ol>
+<aside class="callout warning"><p class="callout-title">주의</p><p><strong>안전 수칙</strong> 네오디뮴 자석은 매우 강해 두 개가 갑자기 달라붙으면 손가락이 끼거나 자석이 깨질 수 있다. 스마트폰, 교통카드, 심장 박동기를 가진 사람에게서 멀리 둔다. 작은 자석은 절대 입에 넣지 않는다. 에나멜선 끝은 날카로우므로 조심한다.</p>
+</aside>
+<h3 id="활동-c-조사-발표-발전소가-인간-생활에-미치는-영향">활동 C. 조사·발표 — 발전소가 인간 생활에 미치는 영향</h3>
+<ol>
+<li>모둠별로 <strong>석탄 화력, 천연가스 화력, 원자력</strong> 중 하나를 맡는다.</li>
+<li>다음 항목을 공공기관 자료 등 믿을 수 있는 출처로 조사한다: 발전 원리, 우리나라의 발전소 위치, 장점, 문제점(환경·안전·경제·사회), 문제점을 줄이기 위한 기술과 노력.</li>
+<li>역할극으로 발표한다: 발전소 인근 주민, 전기를 많이 쓰는 도시 주민, 환경 단체, 발전소 운영자, 미래 세대.</li>
+<li>다른 모둠의 발표를 평가표로 평가한다.</li>
+</ol>
+<div class="table-wrap"><table><thead><tr>
+<th>평가 항목</th>
+<th>잘함</th>
+<th>보통</th>
+<th>노력 필요</th>
+</tr>
+</thead><tbody><tr>
+<td>발전 원리를 에너지 전환으로 정확히 설명했는가</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>장점과 문제점을 균형 있게 제시했는가</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>근거 자료의 출처를 밝혔는가</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>다른 발전 방식과 비교하고 대안을 제시했는가</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="개념-확인-문제">개념 확인 문제</h2>
+<h3 id="기본">기본</h3>
+<p><strong>1.</strong> 코일에 검류계를 연결하였다. 검류계에 전류가 흐르지 <strong>않는</strong> 경우는?
+① 자석을 코일 속으로 넣을 때
+② 자석을 코일 속에서 뺄 때
+③ 자석을 코일 속에 넣고 가만히 둘 때
+④ 자석은 고정하고 코일을 자석 쪽으로 움직일 때</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답 ③</strong></p>
+<p>자석이 코일 속에 정지해 있으면 코일을 지나는 자기장의 세기가 변하지 않으므로 유도 전류가 흐르지 않는다. ①, ②, ④는 모두 상대 운동으로 자기장의 세기가 변한다.</p>
+</div></details>
+
+<p><strong>2.</strong> 전동기와 발전기에서 일어나는 에너지 전환을 각각 쓰시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 전동기: 전기 에너지 → 운동 에너지 / 발전기: 운동 에너지 → 전기 에너지</p>
+<p>두 장치는 구조가 거의 같고 에너지 전환의 방향이 반대이다.</p>
+</div></details>
+
+<p><strong>3.</strong> 표의 빈칸에 알맞은 말을 쓰시오.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>발전 방식</th>
+<th>터빈을 돌리는 것</th>
+<th>열이나 에너지를 얻는 방법</th>
+</tr>
+</thead><tbody><tr>
+<td>화력</td>
+<td>( ㄱ )</td>
+<td>화석 연료의 연소</td>
+</tr>
+<tr>
+<td>원자력</td>
+<td>증기</td>
+<td>( ㄴ )</td>
+</tr>
+<tr>
+<td>수력</td>
+<td>떨어지는 물</td>
+<td>물의 ( ㄷ ) 에너지</td>
+</tr>
+</tbody></table></div>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> ㄱ: 증기(천연가스 복합 화력은 연소 기체와 증기), ㄴ: 우라늄의 핵분열, ㄷ: 위치</p>
+<p>화력과 원자력은 열을 얻는 방법만 다르고, 물을 끓여 증기로 터빈을 돌리는 과정은 같다.</p>
+</div></details>
+
+<p><strong>4.</strong> 발전소에서 만든 전기를 변압기로 전압을 높여 송전하는 까닭을 &#39;전류&#39;와 &#39;열&#39;이라는 낱말을 넣어 쓰시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong> 같은 양의 전기 에너지를 보낼 때 전압을 높이면 송전선에 흐르는 <strong>전류</strong>가 작아져, 송전선의 저항 때문에 <strong>열</strong>로 손실되는 에너지가 줄어들기 때문이다.</p>
+</div></details>
+
+<h3 id="응용">응용</h3>
+<p><strong>5.</strong> 코일과 자석을 이용해 유도 전류를 더 크게 만드는 방법으로 옳은 것만을 있는 대로 고르시오.
+ㄱ. 자석을 더 빠르게 움직인다.
+ㄴ. 코일의 감은 수를 늘린다.
+ㄷ. 더 센 자석을 사용한다.
+ㄹ. 자석을 코일 속에 더 오래 넣어 둔다.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답 ㄱ, ㄴ, ㄷ</strong></p>
+<p>유도 전류는 코일 속 자기장이 더 빠르게, 더 크게 변할수록, 코일을 많이 감을수록 커진다. ㄹ은 자기장이 변하지 않으므로 전류가 흐르지 않는다.</p>
+</div></details>
+
+<p><strong>6.</strong> 소수력 발전소에서 1초마다 물 2000 kg이 30 m 높이에서 떨어진다.
+(1) 1초 동안 떨어지는 물의 위치 에너지는 몇 J인가?
+(2) 그중 85%가 전기 에너지로 전환된다고 가정할 때, 1초 동안 생산되는 전기 에너지는 몇 J인가?</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> (1) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">588</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace"> </span><span class="mord mathrm">J</span></span></span></span> (2) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">499</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">800</span><span class="mspace"> </span><span class="mord mathrm">J</span></span></span></span></p>
+<p>(1) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9694em;vertical-align:-0.2861em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0576em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">p</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">9.8</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2000</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">30</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">588</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace"> </span><span class="mord mathrm">J</span></span></span></span>
+(2) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">588</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0.85</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">499</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">800</span><span class="mspace"> </span><span class="mord mathrm">J</span></span></span></span> (약 50만 J, 출력 약 50만 W)</p>
+<p>나머지 15%는 마찰, 물의 소용돌이, 발전기 속 열 등으로 흩어진다.</p>
+</div></details>
+
+<p><strong>7.</strong> 손발전기 A에는 꼬마전구 1개를, 손발전기 B에는 같은 꼬마전구 3개를 병렬로 연결하였다. 두 발전기의 전구가 모두 같은 밝기로 켜지도록 돌릴 때, 손잡이를 돌리기가 더 힘든 쪽은 어느 것이며 그 까닭은 무엇인가?</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> B</p>
+<p>B는 같은 밝기의 전구 3개를 켜므로 1초 동안 소비하는 전기 에너지가 A의 약 3배이다. 발전기는 손이 한 일(운동 에너지)을 전기 에너지로 전환할 뿐이므로, 에너지 보존 법칙에 따라 B를 돌리는 손이 더 많은 일을 해야 한다. 실제로 유도 전류가 클수록 회전을 방해하는 힘도 커져 손잡이가 뻑뻑해진다.</p>
+</div></details>
+
+<h3 id="융합-서술형">융합·서술형</h3>
+<p><strong>8. [사회·환경 연계]</strong> 어느 지역에 새로운 대형 발전소를 짓기로 하고, 석탄 화력 발전소와 원자력 발전소 중 하나를 고르려 한다. (1) 두 발전소의 공통점을 에너지 전환 과정으로 쓰고, (2) 환경과 안전 측면에서 각각의 장점과 문제점을 한 가지씩 비교하시오. (3) 결정 과정에서 함께 고려해야 할 것을 한 가지 제안하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+(1) 두 발전소 모두 열에너지로 물을 끓여 만든 증기로 터빈을 돌리고, 발전기에서 운동 에너지를 전기 에너지로 전환한다(열 → 운동 → 전기). 열을 얻는 방법이 연소(화학 에너지)와 핵분열(핵에너지)로 다를 뿐이다.
+(2) 석탄 화력: 연료 수급과 출력 조절이 비교적 쉽다는 장점이 있으나, 이산화 탄소와 미세먼지 등 대기 오염 물질을 많이 배출한다. 원자력: 발전 중 이산화 탄소와 대기 오염 물질을 거의 배출하지 않으나, 사용후핵연료 처분과 사고 시 방사성 물질 누출 위험이 문제가 된다.
+(3) 예: 지역 주민의 의견 수렴과 정보 공개, 송전선 경로, 장기적인 탄소중립 목표, 신재생 에너지와 함께 쓰는 에너지 믹스, 발전소 수명이 끝난 뒤의 해체 비용 등</p>
+<p><strong>채점 포인트</strong> ① 공통 과정(증기 터빈과 발전기) ② 두 방식의 장점·문제점을 균형 있게 비교 ③ 사회적 고려 사항 제안</p>
+</div></details>
+
+<p><strong>9. [산업·대학 연계]</strong> 전기 자동차는 내리막길이나 감속할 때 &#39;회생 제동&#39;을 이용한다. (1) 회생 제동에서 모터가 어떤 장치로 바뀌어 어떤 에너지 전환이 일어나는지 설명하고, (2) 일반 브레이크(마찰로 멈춤)와 비교하여 에너지 측면의 장점을 서술하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+(1) 감속할 때 바퀴의 회전이 모터의 회전축을 거꾸로 돌리게 되어 모터가 <strong>발전기</strong>로 작동한다. 자석과 코일의 상대 운동으로 유도 전류가 흐르고, 자동차의 <strong>운동 에너지가 전기 에너지로 전환</strong>되어 배터리에 저장된다. 이때 유도 전류가 회전을 방해하므로 자동차의 속력도 줄어든다.
+(2) 일반 브레이크는 마찰로 운동 에너지를 대부분 <strong>열로 바꾸어 버리지만</strong>, 회생 제동은 그 일부를 다시 쓸 수 있는 전기 에너지로 회수한다. 따라서 같은 배터리로 더 먼 거리를 달릴 수 있고 브레이크 마모도 줄어든다.</p>
+<p><strong>채점 포인트</strong> ① 모터 → 발전기 ② 운동 에너지 → 전기 에너지 ③ 마찰 브레이크는 열로 버림, 회생 제동은 회수</p>
+</div></details>
+
+<hr>
+<h2 id="한눈에-정리">한눈에 정리</h2>
+<h3 id="핵심-요약">핵심 요약</h3>
+<ul>
+<li>코일을 통과하는 <strong>자기장의 세기가 변할 때</strong> 코일에 전류가 흐른다(<strong>전자기 유도</strong>, 유도 전류). 자기장이 변하지 않으면 전류는 흐르지 않는다.</li>
+<li>유도 전류는 자석을 <strong>빠르게</strong> 움직일수록, <strong>센 자석</strong>일수록, 코일을 <strong>많이 감을수록</strong> 크다. 자기장이 세질 때와 약해질 때 전류의 방향은 반대이다.</li>
+<li><strong>발전기</strong>는 자석과 코일의 상대 운동(회전)으로 <strong>운동 에너지를 전기 에너지로</strong> 전환하며, 교류를 만든다. 전동기와 구조는 같고 전환 방향이 반대이다.</li>
+<li>발전소는 <strong>무엇으로 터빈을 돌리는가</strong>가 다르다: 화력(연료의 연소열 → 증기), 원자력(핵분열 열 → 증기), 수력(물의 위치 에너지).</li>
+<li>화석 연료 발전은 공급이 유연하지만 이산화 탄소·대기 오염 물질을, 원자력 발전은 탄소 배출이 적지만 방사성 폐기물·사고 위험을 고민해야 한다. <strong>근거를 들어 균형 있게</strong> 판단한다.</li>
+<li>전기는 <strong>변압기로 전압을 높여 송전</strong>하여 전선에서 열로 잃는 에너지를 줄이고, 쓰는 곳 가까이에서 다시 낮춘다.</li>
+</ul>
+<h3 id="핵심-용어">핵심 용어</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>용어</th>
+<th>뜻</th>
+</tr>
+</thead><tbody><tr>
+<td>전자기 유도</td>
+<td>코일을 통과하는 자기장의 세기가 변할 때 코일에 전류가 흐르는 현상</td>
+</tr>
+<tr>
+<td>유도 전류</td>
+<td>전자기 유도로 코일에 흐르는 전류</td>
+</tr>
+<tr>
+<td>발전기</td>
+<td>자석과 코일의 상대 운동으로 운동 에너지를 전기 에너지로 바꾸는 장치</td>
+</tr>
+<tr>
+<td>터빈</td>
+<td>증기·물·바람의 흐름으로 회전하여 발전기를 돌리는 날개 달린 바퀴</td>
+</tr>
+<tr>
+<td>핵분열</td>
+<td>무거운 원자핵(우라늄 등)이 쪼개지며 많은 에너지를 내는 반응</td>
+</tr>
+<tr>
+<td>교류</td>
+<td>방향과 세기가 주기적으로 바뀌는 전류. 우리나라 가정은 220 V, 60 Hz</td>
+</tr>
+<tr>
+<td>변압기</td>
+<td>전자기 유도를 이용해 교류의 전압을 높이거나 낮추는 장치</td>
+</tr>
+<tr>
+<td>송전</td>
+<td>발전소에서 만든 전기를 먼 곳까지 보내는 과정</td>
+</tr>
+</tbody></table></div>
+<h3 id="다음-단원으로">다음 단원으로</h3>
+<p>발전소에서 연료가 낸 에너지 가운데 상당 부분은 전기가 되지 못하고 열로 버려졌다. 에너지는 보존된다는데, 왜 &#39;버려진다&#39;고 말할까? 다음 단원에서는 <strong>에너지 효율</strong>의 의미를 계산으로 확인하고, 효율을 높이는 기술과 태양광·풍력·수소 같은 <strong>신재생 에너지</strong>를 활용해 지속가능한 발전과 지구 환경 문제를 해결하는 방안을 탐색한다.</p>
+<nav class="pager"><a class="prev" href="5-4.html"><small>이전 단원</small>5-4 태양 에너지와 에너지 전환</a><a class="next" href="5-6.html"><small>다음 단원</small>5-6 에너지 효율과 신재생 에너지</a></nav></article></div>
+</main>
+</div>
+</body>
+</html>

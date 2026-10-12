@@ -1,0 +1,872 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>5-4 태양 에너지와 에너지 전환</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css">
+<link rel="stylesheet" href="assets/book.css">
+<script src="assets/js/book.js" defer></script>
+
+</head>
+<body class="">
+<header class="topbar">
+  <button class="menu-btn" id="menu-btn" aria-controls="drawer" aria-expanded="false">목차</button>
+  <a class="brand" href="index.html">통합과학 개념에서 산업까지</a>
+  <button class="theme-btn" id="theme-btn" aria-label="밝은 화면과 어두운 화면 바꾸기">화면</button>
+</header>
+<div class="shell">
+<aside class="drawer" id="drawer"><nav class="book-nav" aria-label="교재 목차"><a class="nav-home" href="index.html">처음으로</a><p class="nav-book">통합과학1</p><p class="nav-unit"><span>1단원</span> 과학의 기초</p><ul><li><a href="1-1.html"><span class="nav-id">1-1</span>시간과 공간</a></li><li><a href="1-2.html"><span class="nav-id">1-2</span>기본량과 단위</a></li><li><a href="1-3.html"><span class="nav-id">1-3</span>측정과 어림, 측정 표준</a></li><li><a href="1-4.html"><span class="nav-id">1-4</span>정보와 신호: 아날로그에서 디지털로</a></li></ul><p class="nav-unit"><span>2단원</span> 물질과 규칙성</p><ul><li><a href="2-1.html"><span class="nav-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="2-2.html"><span class="nav-id">2-2</span>별의 진화와 원소의 생성</a></li><li><a href="2-3.html"><span class="nav-id">2-3</span>원소의 주기성과 화학 결합의 이유</a></li><li><a href="2-4.html"><span class="nav-id">2-4</span>이온 결합과 공유 결합</a></li><li><a href="2-5.html"><span class="nav-id">2-5</span>지각과 생명체 구성 물질의 규칙성</a></li><li><a href="2-6.html"><span class="nav-id">2-6</span>물질의 전기적 성질과 소재</a></li></ul><p class="nav-unit"><span>3단원</span> 시스템과 상호작용</p><ul><li><a href="3-1.html"><span class="nav-id">3-1</span>지구시스템의 구성과 상호작용</a></li><li><a href="3-2.html"><span class="nav-id">3-2</span>판구조론과 지권의 변화</a></li><li><a href="3-3.html"><span class="nav-id">3-3</span>중력과 운동</a></li><li><a href="3-4.html"><span class="nav-id">3-4</span>운동량과 충격량</a></li><li><a href="3-5.html"><span class="nav-id">3-5</span>생명 시스템과 물질대사</a></li><li><a href="3-6.html"><span class="nav-id">3-6</span>유전자와 단백질</a></li></ul><p class="nav-book">통합과학2</p><p class="nav-unit"><span>4단원</span> 변화와 다양성</p><ul><li><a href="4-1.html"><span class="nav-id">4-1</span>지질시대의 환경 변화와 생물다양성</a></li><li><a href="4-2.html"><span class="nav-id">4-2</span>진화와 생물다양성</a></li><li><a href="4-3.html"><span class="nav-id">4-3</span>산화와 환원</a></li><li><a href="4-4.html"><span class="nav-id">4-4</span>산과 염기, 중화 반응</a></li><li><a href="4-5.html"><span class="nav-id">4-5</span>물질 변화와 에너지 출입</a></li></ul><p class="nav-unit"><span>5단원</span> 환경과 에너지</p><ul><li><a href="5-1.html"><span class="nav-id">5-1</span>생태계 구성 요소와 상호 관계</a></li><li><a href="5-2.html"><span class="nav-id">5-2</span>생태계 평형</a></li><li><a href="5-3.html"><span class="nav-id">5-3</span>지구온난화와 기후변화</a></li><li><a href="5-4.html" aria-current="page"><span class="nav-id">5-4</span>태양 에너지와 에너지 전환</a></li><li><a href="5-5.html"><span class="nav-id">5-5</span>발전기와 전기 에너지</a></li><li><a href="5-6.html"><span class="nav-id">5-6</span>에너지 효율과 신재생 에너지</a></li></ul><p class="nav-unit"><span>6단원</span> 과학과 미래 사회</p><ul><li><a href="6-1.html"><span class="nav-id">6-1</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html"><span class="nav-id">6-2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html"><span class="nav-id">6-3</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html"><span class="nav-id">6-4</span>과학기술과 윤리</a></li></ul><p class="nav-book">부록</p><ul><li><a href="guide.html">교재 설계 안내</a></li><li><a href="appendix-standards.html">부록 1. 교육과정 성취기준</a></li><li><a href="appendix-map.html">부록 2. 연계 지도</a></li><li><a href="appendix-glossary.html">부록 3. 핵심 용어 사전</a></li></ul></nav></aside>
+<main class="main" id="main">
+<div class="lesson-grid"><nav class="ladder" aria-label="이 단원의 흐름"><p class="ladder-title">이 단원의 흐름</p><ol><li class="extra"><a href="#단원-들어가기">단원 들어가기</a></li><li class="s1"><a href="#step-1"><b>STEP 1</b> 중학교 다시 보기</a></li><li class="s2"><a href="#step-2"><b>STEP 2</b> 기초 다지기</a></li><li class="s3"><a href="#step-3"><b>STEP 3</b> 핵심 개념</a></li><li class="s4"><a href="#step-4"><b>STEP 4</b> 오개념 바로잡기</a></li><li class="s5"><a href="#step-5"><b>STEP 5</b> 선택과목·대학으로 한 걸음 더</a></li><li class="s6"><a href="#step-6"><b>STEP 6</b> 산업 현장과 진로 연결</a></li><li class="extra"><a href="#탐구-활동-태양-에너지의-흐름과-전환-추적하기">탐구 활동 — 태양 에너지의 흐름과 전환 추적하기</a></li><li class="extra"><a href="#개념-확인-문제">개념 확인 문제</a></li><li class="extra"><a href="#한눈에-정리">한눈에 정리</a></li></ol></nav><article class="prose lesson"><header class="lesson-hero u5">
+  <p class="eyebrow">통합과학2 · 5단원 환경과 에너지</p>
+  <h1><span class="lesson-id">5-4</span>태양 에너지와 에너지 전환</h1>
+  <p class="lesson-sub">모든 에너지의 고향, 태양</p>
+</header><aside class="callout note"><p class="callout-title">성취기준·참고</p><p><strong>성취기준 [10통과2-02-04]</strong> 태양에서 수소 핵융합 반응을 통해 질량 일부가 에너지로 바뀌고, 그중 일부가 지구에서 에너지 흐름을 일으키며 다양한 에너지로 전환되는 과정을 추론할 수 있다.</p>
+</aside>
+<p><strong>학습 목표</strong></p>
+<ol>
+<li>태양 중심부에서 수소 원자핵이 헬륨 원자핵으로 핵융합하는 과정에서 질량이 줄어들고, 줄어든 질량이 에너지로 바뀐다는 것을 정성적으로 설명할 수 있다.</li>
+<li>태양 에너지가 지구에 도달하여 대기와 해수의 순환, 물의 순환, 광합성 같은 에너지 흐름을 일으키는 과정을 설명할 수 있다.</li>
+<li>바람, 흐르는 물, 생물, 화석 연료가 가진 에너지의 근원이 태양 에너지임을 에너지 전환 과정을 따라가며 추론할 수 있다.</li>
+<li>일상생활과 지구 시스템에서 일어나는 에너지 전환을 흐름도로 나타낼 수 있다.</li>
+</ol>
+<p><strong>이 단원의 학습 사다리</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>단계</th>
+<th>무엇을 하나?</th>
+</tr>
+</thead><tbody><tr>
+<td>STEP 1. 중학교 다시 보기</td>
+<td>태양 활동, 광합성, 대기 대순환, 역학적 에너지 보존을 다시 꺼내 본다</td>
+</tr>
+<tr>
+<td>STEP 2. 기초 다지기</td>
+<td>에너지와 단위(J, W), 원자핵의 구성, 화학 반응과 핵반응의 차이를 디딤돌로 놓는다</td>
+</tr>
+<tr>
+<td>STEP 3. 핵심 개념</td>
+<td>수소 핵융합 → 태양 에너지의 여행 → 지구의 에너지 흐름 → 다양한 에너지 전환</td>
+</tr>
+<tr>
+<td>STEP 4. 오개념 바로잡기</td>
+<td>&quot;태양은 거대한 불덩이?&quot;, &quot;모든 에너지는 태양에서 온다?&quot; 같은 착각을 바로잡는다</td>
+</tr>
+<tr>
+<td>STEP 5. 선택과목·대학</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord mathnormal">m</span><span class="mord"><span class="mord mathnormal">c</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span>, 양성자–양성자 연쇄 반응, 역제곱 법칙으로 구하는 태양 상수</td>
+</tr>
+<tr>
+<td>STEP 6. 산업·진로</td>
+<td>핵융합 연구(KSTAR·ITER), 우주 기상 예보, 인공 광합성, 기상·기후 예측</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="단원-들어가기">단원 들어가기</h2>
+<p>오늘 아침에 먹은 밥, 등굣길에 탄 버스의 연료, 창문을 흔드는 바람, 댐에 고인 물……. 겉보기에는 아무 관계도 없어 보이는 이것들의 에너지를 거꾸로 거슬러 올라가면 놀랍게도 <strong>한 곳</strong>에서 만난다. 바로 약 1억 5천만 km 떨어진 <strong>태양</strong>이다.</p>
+<p>태양은 46억 년 가까이 쉬지 않고 빛나고 있다. 만약 태양이 석탄 덩어리였다면 수천 년 만에 다 타 버렸을 것이다. 그렇다면 태양은 무엇을 &#39;연료&#39;로 이렇게 오랫동안 빛날까? 그리고 그 빛은 지구에 와서 무슨 일을 할까? 이 단원에서는 <strong>태양 중심부의 핵융합</strong>에서 출발해 <strong>지구 곳곳의 에너지 흐름</strong>까지 에너지의 긴 여행을 따라가 본다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-5-4-0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 1462.890625 311.75" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-5-4-0{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-5-4-0 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-5-4-0 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-5-4-0 .error-icon{fill:var(--mm-group);}#mm-5-4-0 .error-text{fill:#595959;stroke:#595959;}#mm-5-4-0 .edge-thickness-normal{stroke-width:1px;}#mm-5-4-0 .edge-thickness-thick{stroke-width:3.5px;}#mm-5-4-0 .edge-pattern-solid{stroke-dasharray:0;}#mm-5-4-0 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-5-4-0 .edge-pattern-dashed{stroke-dasharray:3;}#mm-5-4-0 .edge-pattern-dotted{stroke-dasharray:2;}#mm-5-4-0 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-5-4-0 .marker.cross{stroke:var(--mm-line);}#mm-5-4-0 svg{font-family:inherit;font-size:15px;}#mm-5-4-0 p{margin:0;}#mm-5-4-0 .label{font-family:inherit;color:var(--mm-text);}#mm-5-4-0 .cluster-label text{fill:#595959;}#mm-5-4-0 .cluster-label span{color:#595959;}#mm-5-4-0 .cluster-label span p{background-color:transparent;}#mm-5-4-0 .label text,#mm-5-4-0 span{fill:var(--mm-text);color:var(--mm-text);}#mm-5-4-0 .node rect,#mm-5-4-0 .node circle,#mm-5-4-0 .node ellipse,#mm-5-4-0 .node polygon,#mm-5-4-0 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-5-4-0 .rough-node .label text,#mm-5-4-0 .node .label text,#mm-5-4-0 .image-shape .label,#mm-5-4-0 .icon-shape .label{text-anchor:middle;}#mm-5-4-0 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-5-4-0 .rough-node .label,#mm-5-4-0 .node .label,#mm-5-4-0 .image-shape .label,#mm-5-4-0 .icon-shape .label{text-align:center;}#mm-5-4-0 .node.clickable{cursor:pointer;}#mm-5-4-0 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-5-4-0 .arrowheadPath{fill:#0b0b0b;}#mm-5-4-0 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-5-4-0 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-5-4-0 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-5-4-0 .edgeLabel p{background-color:var(--mm-label);}#mm-5-4-0 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-5-4-0 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-5-4-0 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-5-4-0 .cluster text{fill:#595959;}#mm-5-4-0 .cluster span{color:#595959;}#mm-5-4-0 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-5-4-0 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-5-4-0 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-5-4-0 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-5-4-0 rect.text{fill:none;stroke-width:0;}#mm-5-4-0 .icon-shape,#mm-5-4-0 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-5-4-0 .icon-shape p,#mm-5-4-0 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-5-4-0 .icon-shape .label rect,#mm-5-4-0 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-5-4-0 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-5-4-0 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-5-4-0 .node .neo-node{stroke:var(--mm-border);}#mm-5-4-0 [data-look="neo"].node rect,#mm-5-4-0 [data-look="neo"].cluster rect,#mm-5-4-0 [data-look="neo"].node polygon{stroke:url(#mm-5-4-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-4-0 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-5-4-0 [data-look="neo"].node path{stroke:url(#mm-5-4-0-gradient);stroke-width:1px;}#mm-5-4-0 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-4-0 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-5-4-0 [data-look="neo"].node circle{stroke:url(#mm-5-4-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-4-0 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-5-4-0 [data-look="neo"].icon-shape .icon{fill:url(#mm-5-4-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-4-0 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-5-4-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-4-0 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-5-4-0_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-0_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-0_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-0_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-0_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-0_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-0_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-0_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-0_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-0_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-0_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-5-4-0_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M135.172,161.5L139.339,161.5C143.505,161.5,151.839,161.5,159.505,161.5C167.172,161.5,174.172,161.5,177.672,161.5L181.172,161.5" id="mm-5-4-0-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTM1LjE3MTg3NSwieSI6MTYxLjV9LHsieCI6MTYwLjE3MTg3NSwieSI6MTYxLjV9LHsieCI6MTg1LjE3MTg3NSwieSI6MTYxLjV9XQ==" data-look="classic" marker-end="url(#mm-5-4-0_flowchart-v2-pointEnd)"/><path d="M312.344,161.5L316.51,161.5C320.677,161.5,329.01,161.5,336.677,161.5C344.344,161.5,351.344,161.5,354.844,161.5L358.344,161.5" id="mm-5-4-0-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6MzEyLjM0Mzc1LCJ5IjoxNjEuNX0seyJ4IjozMzcuMzQzNzUsInkiOjE2MS41fSx7IngiOjM2Mi4zNDM3NSwieSI6MTYxLjV9XQ==" data-look="classic" marker-end="url(#mm-5-4-0_flowchart-v2-pointEnd)"/><path d="M557.859,161.5L562.026,161.5C566.193,161.5,574.526,161.5,582.193,161.5C589.859,161.5,596.859,161.5,600.359,161.5L603.859,161.5" id="mm-5-4-0-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6NTU3Ljg1OTM3NSwieSI6MTYxLjV9LHsieCI6NTgyLjg1OTM3NSwieSI6MTYxLjV9LHsieCI6NjA3Ljg1OTM3NSwieSI6MTYxLjV9XQ==" data-look="classic" marker-end="url(#mm-5-4-0_flowchart-v2-pointEnd)"/><path d="M730.096,138.25L746.614,122.292C763.132,106.333,796.168,74.417,830.297,58.458C864.427,42.5,899.651,42.5,934.875,42.5C970.099,42.5,1005.323,42.5,1026.435,42.5C1047.547,42.5,1054.547,42.5,1058.047,42.5L1061.547,42.5" id="mm-5-4-0-L_D_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_E_0" data-points="W3sieCI6NzMwLjA5NjM0MzIyNDc5LCJ5IjoxMzguMjV9LHsieCI6ODI5LjIwMzEyNSwieSI6NDIuNX0seyJ4Ijo5MzQuODc1LCJ5Ijo0Mi41fSx7IngiOjEwNDAuNTQ2ODc1LCJ5Ijo0Mi41fSx7IngiOjEwNjUuNTQ2ODc1LCJ5Ijo0Mi41fV0=" data-look="classic" marker-end="url(#mm-5-4-0_flowchart-v2-pointEnd)"/><path d="M804.203,161.5L808.37,161.5C812.536,161.5,820.87,161.5,842.648,161.5C864.427,161.5,899.651,161.5,934.875,161.5C970.099,161.5,1005.323,161.5,1026.435,161.5C1047.547,161.5,1054.547,161.5,1058.047,161.5L1061.547,161.5" id="mm-5-4-0-L_D_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_F_0" data-points="W3sieCI6ODA0LjIwMzEyNSwieSI6MTYxLjV9LHsieCI6ODI5LjIwMzEyNSwieSI6MTYxLjV9LHsieCI6OTM0Ljg3NSwieSI6MTYxLjV9LHsieCI6MTA0MC41NDY4NzUsInkiOjE2MS41fSx7IngiOjEwNjUuNTQ2ODc1LCJ5IjoxNjEuNX1d" data-look="classic" marker-end="url(#mm-5-4-0_flowchart-v2-pointEnd)"/><path d="M732.609,184.75L748.708,198.833C764.807,212.917,797.005,241.083,816.604,255.167C836.203,269.25,843.203,269.25,846.703,269.25L850.203,269.25" id="mm-5-4-0-L_D_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_G_0" data-points="W3sieCI6NzMyLjYwODkzOTk2NTE5NzIsInkiOjE4NC43NX0seyJ4Ijo4MjkuMjAzMTI1LCJ5IjoyNjkuMjV9LHsieCI6ODU0LjIwMzEyNSwieSI6MjY5LjI1fV0=" data-look="classic" marker-end="url(#mm-5-4-0_flowchart-v2-pointEnd)"/><path d="M1015.547,269.25L1019.714,269.25C1023.88,269.25,1032.214,269.25,1039.949,269.25C1047.685,269.25,1054.823,269.25,1058.392,269.25L1061.961,269.25" id="mm-5-4-0-L_G_H_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_G_H_0" data-points="W3sieCI6MTAxNS41NDY4NzUsInkiOjI2OS4yNX0seyJ4IjoxMDQwLjU0Njg3NSwieSI6MjY5LjI1fSx7IngiOjEwNjUuOTYwOTM3NSwieSI6MjY5LjI1fV0=" data-look="classic" marker-end="url(#mm-5-4-0_flowchart-v2-pointEnd)"/><path d="M1213.547,42.5L1217.714,42.5C1221.88,42.5,1230.214,42.5,1248.187,56.115C1266.16,69.73,1293.773,96.961,1307.579,110.576L1321.386,124.191" id="mm-5-4-0-L_E_I_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_I_0" data-points="W3sieCI6MTIxMy41NDY4NzUsInkiOjQyLjV9LHsieCI6MTIzOC41NDY4NzUsInkiOjQyLjV9LHsieCI6MTMyNC4yMzQwNDY3NDM2OTc1LCJ5IjoxMjd9XQ==" data-look="classic" marker-end="url(#mm-5-4-0_flowchart-v2-pointEnd)"/><path d="M1213.547,161.5L1217.714,161.5C1221.88,161.5,1230.214,161.5,1237.88,161.5C1245.547,161.5,1252.547,161.5,1256.047,161.5L1259.547,161.5" id="mm-5-4-0-L_F_I_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_F_I_0" data-points="W3sieCI6MTIxMy41NDY4NzUsInkiOjE2MS41fSx7IngiOjEyMzguNTQ2ODc1LCJ5IjoxNjEuNX0seyJ4IjoxMjYzLjU0Njg3NSwieSI6MTYxLjV9XQ==" data-look="classic" marker-end="url(#mm-5-4-0_flowchart-v2-pointEnd)"/><path d="M1213.133,269.25L1217.368,269.25C1221.604,269.25,1230.076,269.25,1247.486,257.486C1264.897,245.721,1291.247,222.193,1304.423,210.428L1317.598,198.664" id="mm-5-4-0-L_H_I_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_H_I_0" data-points="W3sieCI6MTIxMy4xMzI4MTI1LCJ5IjoyNjkuMjV9LHsieCI6MTIzOC41NDY4NzUsInkiOjI2OS4yNX0seyJ4IjoxMzIwLjU4MTM1MTUwODEyMDYsInkiOjE5Nn1d" data-look="classic" marker-end="url(#mm-5-4-0_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_F_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_G_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_G_H_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_I_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_F_I_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_H_I_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-5-4-0-flowchart-A-0" data-look="classic" transform="translate(71.5859375, 161.5)"><rect class="basic label-container" style="" x="-63.5859375" y="-34.5" width="127.171875" height="69"/><g class="label" style="" transform="translate(-39.5859375, -22.5)"><rect/><foreignObject width="79.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>태양 중심부<br />수소 핵융합</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-4-0-flowchart-B-1" data-look="classic" transform="translate(248.7578125, 161.5)"><rect class="basic label-container" style="" x="-63.5859375" y="-34.5" width="127.171875" height="69"/><g class="label" style="" transform="translate(-39.5859375, -22.5)"><rect/><foreignObject width="79.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>질량 일부가<br />에너지로</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-4-0-flowchart-C-3" data-look="classic" transform="translate(460.1015625, 161.5)"><rect class="basic label-container" style="" x="-97.7578125" y="-34.5" width="195.515625" height="69"/><g class="label" style="" transform="translate(-73.7578125, -22.5)"><rect/><foreignObject width="147.515625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>복사로 우주 공간 전달<br />약 8분 20초</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-4-0-flowchart-D-5" data-look="classic" transform="translate(706.03125, 161.5)"><rect class="basic label-container" style="" x="-98.171875" y="-23.25" width="196.34375" height="46.5"/><g class="label" style="" transform="translate(-74.171875, -11.25)"><rect/><foreignObject width="148.34375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>지구 대기·지표가 흡수</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-4-0-flowchart-E-7" data-look="classic" transform="translate(1139.546875, 42.5)"><rect class="basic label-container" style="" x="-74" y="-34.5" width="148" height="69"/><g class="label" style="" transform="translate(-50, -22.5)"><rect/><foreignObject width="100" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>대기·해수 순환<br />바람·해류·파도</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-4-0-flowchart-F-9" data-look="classic" transform="translate(1139.546875, 161.5)"><rect class="basic label-container" style="" x="-74" y="-34.5" width="148" height="69"/><g class="label" style="" transform="translate(-50, -22.5)"><rect/><foreignObject width="100" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>물의 순환<br />증발·강수·강물</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-4-0-flowchart-G-11" data-look="classic" transform="translate(934.875, 269.25)"><rect class="basic label-container" style="" x="-80.671875" y="-34.5" width="161.34375" height="69"/><g class="label" style="" transform="translate(-56.671875, -22.5)"><rect/><foreignObject width="113.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>광합성<br />화학 에너지 저장</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-4-0-flowchart-H-13" data-look="classic" transform="translate(1139.546875, 269.25)"><rect class="basic label-container" style="" x="-73.5859375" y="-23.25" width="147.171875" height="46.5"/><g class="label" style="" transform="translate(-49.5859375, -11.25)"><rect/><foreignObject width="99.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>생물·화석 연료</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-4-0-flowchart-I-15" data-look="classic" transform="translate(1359.21875, 161.5)"><rect class="basic label-container" style="" x="-95.671875" y="-34.5" width="191.34375" height="69"/><g class="label" style="" transform="translate(-71.671875, -22.5)"><rect/><foreignObject width="143.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>다양한 에너지로 전환<br />풍력·수력·전기</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-5-4-0-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-5-4-0-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-5-4-0-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><hr>
+<h2 id="step-1" class="step-h s1"><span class="step-badge s1">STEP 1</span><span class="h-text">중학교 다시 보기</span></h2>
+<h3 id="연계-개념표">연계 개념표</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>중학교 성취기준</th>
+<th>중학교에서 배운 것</th>
+<th>고등학교에서 확장되는 것</th>
+</tr>
+</thead><tbody><tr>
+<td>[9과07-02]</td>
+<td>태양 표면(광구, 흑점, 쌀알 무늬)과 대기(채층, 코로나, 홍염, 플레어)의 현상, 태양 활동이 지구에 미치는 영향</td>
+<td>태양이 빛나는 <strong>근본 원인</strong> = 중심부의 수소 핵융합</td>
+</tr>
+<tr>
+<td>[9과03-02]</td>
+<td>열은 전도, 대류, 복사로 전달된다</td>
+<td>진공인 우주 공간을 건너오는 태양 에너지는 <strong>복사</strong>로만 전달된다</td>
+</tr>
+<tr>
+<td>[9과12-01], [9과12-02]</td>
+<td>광합성은 빛에너지를 이용해 물과 이산화 탄소로 포도당과 산소를 만든다. 호흡과 광합성의 에너지 출입</td>
+<td>빛에너지 → <strong>화학 에너지</strong> 전환. 생물 에너지의 출발점</td>
+</tr>
+<tr>
+<td>[9과12-03]</td>
+<td>광합성 산물은 저장되었다가 생명 활동의 에너지원으로 쓰인다</td>
+<td>오래전 저장된 산물이 묻혀 <strong>화석 연료</strong>가 된다</td>
+</tr>
+<tr>
+<td>[9과17-02], [9과18-03]</td>
+<td>대기 대순환과 위도별 바람, 해양 표층 순환, 해류의 에너지 재분배</td>
+<td>위도별로 받는 태양 에너지 차이가 <strong>대기·해수 순환</strong>을 일으킨다</td>
+</tr>
+<tr>
+<td>[9과04-04]</td>
+<td>상태 변화 시 열에너지가 출입한다(기화 시 흡수, 액화 시 방출)</td>
+<td>증발에 쓰인 태양 에너지가 <strong>물의 순환</strong>과 강물의 위치 에너지가 된다</td>
+</tr>
+<tr>
+<td>[9과19-04]</td>
+<td>역학적 에너지의 전환과 보존</td>
+<td>높은 곳의 물(위치 에너지) → 흐르는 물(운동 에너지) → 수력 발전</td>
+</tr>
+</tbody></table></div>
+<h3 id="준비-운동-사전-진단">준비 운동 (사전 진단)</h3>
+<p><strong>Q1.</strong> 태양의 표면에서 볼 수 있는 어둡게 보이는 점으로, 주변보다 온도가 낮은 곳을 무엇이라고 하는가?</p>
+<p><strong>Q2.</strong> 우주 공간은 거의 진공이다. 태양의 열이 지구까지 전달되는 방법은 전도, 대류, 복사 중 무엇인가?</p>
+<p><strong>Q3.</strong> 광합성에 필요한 물질 두 가지와 에너지 한 가지를 쓰시오.</p>
+<p><strong>Q4.</strong> 롤러코스터가 높은 곳에서 내려올 때 어떤 에너지가 어떤 에너지로 전환되는가?</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>Q1. 흑점</strong> — 주변 광구보다 온도가 낮아 상대적으로 어둡게 보인다. 흑점 수가 많을 때 태양 활동이 활발하다.</p>
+<p><strong>Q2. 복사</strong> — 전도와 대류는 물질(입자)이 있어야 일어난다. 복사는 물질 없이도 에너지가 전달된다.</p>
+<p><strong>Q3.</strong> 물질: 물, 이산화 탄소 / 에너지: 빛에너지</p>
+<p><strong>Q4.</strong> 위치 에너지 → 운동 에너지. 마찰과 공기 저항이 없다면 두 에너지의 합(역학적 에너지)은 일정하다.</p>
+</div></details>
+
+<hr>
+<h2 id="step-2" class="step-h s2"><span class="step-badge s2">STEP 2</span><span class="h-text">기초 다지기</span></h2>
+<h3 id="①-에너지와-그-단위">① 에너지와 그 단위</h3>
+<p><strong>에너지(energy)</strong> 는 일을 할 수 있는 능력이다. 물체를 움직이거나, 온도를 높이거나, 빛을 내거나, 물질을 변화시키는 데에는 모두 에너지가 필요하다.</p>
+<ul>
+<li>에너지의 단위: <strong>J(줄)</strong>. 1 J은 1 N의 힘으로 물체를 힘의 방향으로 1 m 움직일 때 하는 일이다.</li>
+<li><strong>일률(power)</strong> 은 1초 동안 전달·전환되는 에너지이다. 단위는 <strong>W(와트)</strong>.</li>
+</ul>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">일률</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord hangul_fallback">시간</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord hangul_fallback">에너지</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:2em;"></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">1</span><span class="mspace"> </span><span class="mord mathrm" style="margin-right:0.01389em;">W</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">1</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">J/s</span></span></span></span></span></span></p>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 에너지는 &#39;물통에 든 물의 양&#39;, 일률은 &#39;수도꼭지에서 1초 동안 나오는 물의 양&#39;이다. 100 W 전등을 10초 켜면 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">100</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">1000</span><span class="mspace"> </span><span class="mord mathrm">J</span></span></span></span>의 전기 에너지가 쓰인다.</p>
+</aside>
+<h3 id="②-원자와-원자핵-다시-보기">② 원자와 원자핵 다시 보기</h3>
+<p>중학교에서 원자는 <strong>원자핵</strong>과 <strong>전자</strong>로, 원자핵은 <strong>양성자</strong>와 <strong>중성자</strong>로 이루어져 있다고 배웠다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>입자</th>
+<th>구성</th>
+<th>전하</th>
+</tr>
+</thead><tbody><tr>
+<td>수소 원자핵</td>
+<td>양성자 1개</td>
+<td>(+)</td>
+</tr>
+<tr>
+<td>헬륨 원자핵</td>
+<td>양성자 2개 + 중성자 2개</td>
+<td>(+)</td>
+</tr>
+</tbody></table></div>
+<p>원자핵은 모두 (+)전하를 띠므로 서로 <strong>밀어낸다.</strong> 원자핵끼리 합쳐지려면 이 반발을 이겨 낼 만큼 아주 빠르게 부딪혀야 한다. 이것이 핵융합에 엄청난 온도가 필요한 이유이다. (통합과학1의 2-2 &#39;별의 진화와 원소의 생성&#39;에서 배운 내용이다.)</p>
+<h3 id="③-화학-반응과-핵반응은-다르다">③ 화학 반응과 핵반응은 다르다</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>화학 반응 (예: 석탄의 연소)</th>
+<th>핵반응 (예: 수소 핵융합)</th>
+</tr>
+</thead><tbody><tr>
+<td>무엇이 변하나?</td>
+<td>원자의 <strong>배열</strong>(결합)만 바뀐다</td>
+<td><strong>원자핵 자체</strong>가 바뀌어 다른 원소가 된다</td>
+</tr>
+<tr>
+<td>원소의 종류</td>
+<td>반응 전후 같다</td>
+<td>수소 → 헬륨처럼 바뀐다</td>
+</tr>
+<tr>
+<td>질량</td>
+<td>보존된다(질량 보존 법칙)</td>
+<td>반응 후 질량이 <strong>줄어든다</strong></td>
+</tr>
+<tr>
+<td>나오는 에너지</td>
+<td>상대적으로 작다</td>
+<td>같은 질량에서 비교할 수 없을 만큼 크다</td>
+</tr>
+</tbody></table></div>
+<p>중학교에서 배운 질량 보존 법칙은 화학 반응에서 성립한다. 핵반응에서는 반응 후 질량이 줄어들고, <strong>줄어든 질량이 에너지로 바뀐다.</strong> 이것이 이 단원의 출발점이다.</p>
+<h3 id="④-에너지-전환과-에너지-보존">④ 에너지 전환과 에너지 보존</h3>
+<p>에너지는 한 형태에서 다른 형태로 바뀔 수 있다. 이를 <strong>에너지 전환(energy conversion)</strong> 이라고 한다. 중학교에서 역학적 에너지가 보존되는 것을 배웠듯이, 넓게 보면 <strong>에너지가 전환되어도 에너지의 총량은 변하지 않는다(에너지 보존 법칙).</strong> 이 법칙은 5-6에서 효율과 함께 더 자세히 다룬다.</p>
+<h3 id="⑤-아주-큰-수-다루기">⑤ 아주 큰 수 다루기</h3>
+<p>태양을 다룰 때는 숫자가 매우 커진다. <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6644em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span></span></span></span></span></span></span></span>은 1 뒤에 0이 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span>개 붙은 수이다.</p>
+<ul>
+<li>1억 = <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span></span></span></span>, 1억 5천만 km = <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1.5</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">km</span></span></span></span></span></li>
+<li>1500만 = <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1.5</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">7</span></span></span></span></span></span></span></span></span></span></span></li>
+</ul>
+<hr>
+<h2 id="step-3" class="step-h s3"><span class="step-badge s3">STEP 3</span><span class="h-text">핵심 개념</span></h2>
+<h3 id="5-4-①-태양-에너지의-근원-수소-핵융합">5-4-① 태양 에너지의 근원 — 수소 핵융합</h3>
+<h4 id="태양의-구조">태양의 구조</h4>
+<p>태양은 거대한 기체 덩어리이며, 안쪽부터 다음과 같이 나뉜다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>영역</th>
+<th>특징</th>
+</tr>
+</thead><tbody><tr>
+<td>중심핵</td>
+<td>온도 약 1,500만 K, 밀도와 압력이 매우 높다. <strong>핵융합이 일어나는 곳</strong></td>
+</tr>
+<tr>
+<td>복사층</td>
+<td>중심핵에서 만든 에너지가 복사의 형태로 천천히 바깥으로 전달된다</td>
+</tr>
+<tr>
+<td>대류층</td>
+<td>뜨거운 기체가 오르내리며(대류) 에너지를 표면으로 나른다</td>
+</tr>
+<tr>
+<td>광구</td>
+<td>우리 눈에 보이는 태양의 표면. 온도 약 5,800 K. 쌀알 무늬는 대류의 흔적이다</td>
+</tr>
+</tbody></table></div>
+<h4 id="수소가-헬륨으로-핵융합">수소가 헬륨으로 — 핵융합</h4>
+<p>태양 중심핵처럼 온도가 매우 높으면 원자는 전자를 잃고 원자핵과 전자가 따로 떠다니는 <strong>플라스마(plasma)</strong> 상태가 된다. 이때 수소 원자핵(양성자)들은 엄청난 속력으로 움직이므로 서로 밀어내는 힘을 이겨 내고 충돌하여 합쳐진다. 이처럼 가벼운 원자핵이 합쳐져 더 무거운 원자핵이 되는 반응을 <strong>핵융합(nuclear fusion)</strong> 이라고 한다.</p>
+<p>태양 중심부에서는 여러 단계를 거쳐 결과적으로 다음과 같은 일이 일어난다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6943em;vertical-align:-0.011em;"></span><span class="mord text"><span class="mord hangul_fallback">수소</span><span class="mord"> </span><span class="mord hangul_fallback">원자핵</span><span class="mord"> 4</span><span class="mord hangul_fallback">개</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">⟶</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord text"><span class="mord hangul_fallback">헬륨</span><span class="mord"> </span><span class="mord hangul_fallback">원자핵</span><span class="mord"> 1</span><span class="mord hangul_fallback">개</span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">에너지</span></span></span></span></span></span></p>
+<h4 id="질량이-줄어서-에너지가-된다">질량이 줄어서 에너지가 된다</h4>
+<p>핵융합 전후의 질량을 정밀하게 비교하면, <strong>헬륨 원자핵 1개의 질량은 수소 원자핵 4개의 질량을 합한 것보다 조금 작다.</strong> 반응하는 동안 사라진 이 질량이 에너지로 바뀌어 빛과 열로 방출된다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-5-4-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 832.203125 204" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-5-4-1{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-5-4-1 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-5-4-1 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-5-4-1 .error-icon{fill:var(--mm-group);}#mm-5-4-1 .error-text{fill:#595959;stroke:#595959;}#mm-5-4-1 .edge-thickness-normal{stroke-width:1px;}#mm-5-4-1 .edge-thickness-thick{stroke-width:3.5px;}#mm-5-4-1 .edge-pattern-solid{stroke-dasharray:0;}#mm-5-4-1 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-5-4-1 .edge-pattern-dashed{stroke-dasharray:3;}#mm-5-4-1 .edge-pattern-dotted{stroke-dasharray:2;}#mm-5-4-1 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-5-4-1 .marker.cross{stroke:var(--mm-line);}#mm-5-4-1 svg{font-family:inherit;font-size:15px;}#mm-5-4-1 p{margin:0;}#mm-5-4-1 .label{font-family:inherit;color:var(--mm-text);}#mm-5-4-1 .cluster-label text{fill:#595959;}#mm-5-4-1 .cluster-label span{color:#595959;}#mm-5-4-1 .cluster-label span p{background-color:transparent;}#mm-5-4-1 .label text,#mm-5-4-1 span{fill:var(--mm-text);color:var(--mm-text);}#mm-5-4-1 .node rect,#mm-5-4-1 .node circle,#mm-5-4-1 .node ellipse,#mm-5-4-1 .node polygon,#mm-5-4-1 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-5-4-1 .rough-node .label text,#mm-5-4-1 .node .label text,#mm-5-4-1 .image-shape .label,#mm-5-4-1 .icon-shape .label{text-anchor:middle;}#mm-5-4-1 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-5-4-1 .rough-node .label,#mm-5-4-1 .node .label,#mm-5-4-1 .image-shape .label,#mm-5-4-1 .icon-shape .label{text-align:center;}#mm-5-4-1 .node.clickable{cursor:pointer;}#mm-5-4-1 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-5-4-1 .arrowheadPath{fill:#0b0b0b;}#mm-5-4-1 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-5-4-1 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-5-4-1 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-5-4-1 .edgeLabel p{background-color:var(--mm-label);}#mm-5-4-1 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-5-4-1 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-5-4-1 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-5-4-1 .cluster text{fill:#595959;}#mm-5-4-1 .cluster span{color:#595959;}#mm-5-4-1 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-5-4-1 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-5-4-1 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-5-4-1 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-5-4-1 rect.text{fill:none;stroke-width:0;}#mm-5-4-1 .icon-shape,#mm-5-4-1 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-5-4-1 .icon-shape p,#mm-5-4-1 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-5-4-1 .icon-shape .label rect,#mm-5-4-1 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-5-4-1 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-5-4-1 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-5-4-1 .node .neo-node{stroke:var(--mm-border);}#mm-5-4-1 [data-look="neo"].node rect,#mm-5-4-1 [data-look="neo"].cluster rect,#mm-5-4-1 [data-look="neo"].node polygon{stroke:url(#mm-5-4-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-4-1 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-5-4-1 [data-look="neo"].node path{stroke:url(#mm-5-4-1-gradient);stroke-width:1px;}#mm-5-4-1 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-4-1 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-5-4-1 [data-look="neo"].node circle{stroke:url(#mm-5-4-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-4-1 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-5-4-1 [data-look="neo"].icon-shape .icon{fill:url(#mm-5-4-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-4-1 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-5-4-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-4-1 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-5-4-1_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-1_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-1_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-1_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-1_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-1_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-1_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-1_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-1_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-1_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-1_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-5-4-1_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M162.688,102L166.854,102C171.021,102,179.354,102,187.021,102C194.688,102,201.688,102,205.188,102L208.688,102" id="mm-5-4-1-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTYyLjY4NzUsInkiOjEwMn0seyJ4IjoxODcuNjg3NSwieSI6MTAyfSx7IngiOjIxMi42ODc1LCJ5IjoxMDJ9XQ==" data-look="classic" marker-end="url(#mm-5-4-1_flowchart-v2-pointEnd)"/><path d="M355.285,67.5L362.714,63.333C370.143,59.167,385.001,50.833,396.137,46.667C407.273,42.5,414.688,42.5,418.395,42.5L422.102,42.5" id="mm-5-4-1-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6MzU1LjI4NTQ1MTY4MDY3MjMsInkiOjY3LjV9LHsieCI6Mzk5Ljg1OTM3NSwieSI6NDIuNX0seyJ4Ijo0MjYuMTAxNTYyNSwieSI6NDIuNX1d" data-look="classic" marker-end="url(#mm-5-4-1_flowchart-v2-pointEnd)"/><path d="M355.285,136.5L362.714,140.667C370.143,144.833,385.001,153.167,395.93,157.333C406.859,161.5,413.859,161.5,417.359,161.5L420.859,161.5" id="mm-5-4-1-L_B_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_D_0" data-points="W3sieCI6MzU1LjI4NTQ1MTY4MDY3MjMsInkiOjEzNi41fSx7IngiOjM5OS44NTkzNzUsInkiOjE2MS41fSx7IngiOjQyNC44NTkzNzUsInkiOjE2MS41fV0=" data-look="classic" marker-end="url(#mm-5-4-1_flowchart-v2-pointEnd)"/><path d="M582.031,161.5L586.198,161.5C590.365,161.5,598.698,161.5,606.365,161.5C614.031,161.5,621.031,161.5,624.531,161.5L628.031,161.5" id="mm-5-4-1-L_D_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_E_0" data-points="W3sieCI6NTgyLjAzMTI1LCJ5IjoxNjEuNX0seyJ4Ijo2MDcuMDMxMjUsInkiOjE2MS41fSx7IngiOjYzMi4wMzEyNSwieSI6MTYxLjV9XQ==" data-look="classic" marker-end="url(#mm-5-4-1_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-5-4-1-flowchart-A-0" data-look="classic" transform="translate(85.34375, 102)"><rect class="basic label-container" style="" x="-77.34375" y="-34.5" width="154.6875" height="69"/><g class="label" style="" transform="translate(-53.34375, -22.5)"><rect/><foreignObject width="106.6875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>수소 원자핵 4개<br />질량 합 조금 큼</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-4-1-flowchart-B-1" data-look="classic" transform="translate(293.7734375, 102)"><rect class="basic label-container" style="" x="-81.0859375" y="-34.5" width="162.171875" height="69"/><g class="label" style="" transform="translate(-57.0859375, -22.5)"><rect/><foreignObject width="114.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>핵융합<br />중심핵 고온·고압</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-4-1-flowchart-C-3" data-look="classic" transform="translate(503.4453125, 42.5)"><rect class="basic label-container" style="" x="-77.34375" y="-34.5" width="154.6875" height="69"/><g class="label" style="" transform="translate(-53.34375, -22.5)"><rect/><foreignObject width="106.6875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>헬륨 원자핵 1개<br />질량 조금 작음</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-4-1-flowchart-D-5" data-look="classic" transform="translate(503.4453125, 161.5)"><rect class="basic label-container" style="" x="-78.5859375" y="-34.5" width="157.171875" height="69"/><g class="label" style="" transform="translate(-54.5859375, -22.5)"><rect/><foreignObject width="109.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>줄어든 질량만큼<br />에너지 방출</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-4-1-flowchart-E-7" data-look="classic" transform="translate(728.1171875, 161.5)"><rect class="basic label-container" style="" x="-96.0859375" y="-34.5" width="192.171875" height="69"/><g class="label" style="" transform="translate(-72.0859375, -22.5)"><rect/><foreignObject width="144.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>복사층·대류층을 거쳐<br />광구에서 빛으로</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-5-4-1-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-5-4-1-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-5-4-1-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 질량을 &#39;꽁꽁 얼려 둔 에너지&#39;라고 생각해 보자. 수소 원자핵 4개가 헬륨 원자핵 1개로 합쳐지면, 얼려 둔 에너지의 아주 작은 일부가 녹아 밖으로 흘러나온다. 녹아 나온 양은 질량으로 보면 아주 작지만, 에너지로 바꾸면 어마어마하게 크다.</p>
+</aside>
+<aside class="callout important"><p class="callout-title">핵심</p><p>통합과학에서는 <strong>&quot;질량이 줄어서 그만큼 에너지가 생긴다&quot;는 사실을 정성적으로만</strong> 이해하면 된다. 줄어든 질량으로 에너지의 양을 계산하는 식(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord mathnormal">m</span><span class="mord"><span class="mord mathnormal">c</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span>)은 STEP 5에서 맛보기로 다룬다.</p>
+</aside>
+<h4 id="태양은-39-타는-39-것이-아니다">태양은 &#39;타는&#39; 것이 아니다</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>석탄의 연소</th>
+<th>태양의 핵융합</th>
+</tr>
+</thead><tbody><tr>
+<td>반응 종류</td>
+<td>화학 반응(산소와 결합)</td>
+<td>핵반응(원자핵이 합쳐짐)</td>
+</tr>
+<tr>
+<td>산소가 필요한가?</td>
+<td>필요하다</td>
+<td>필요 없다</td>
+</tr>
+<tr>
+<td>반응 후 생기는 것</td>
+<td>이산화 탄소, 물 등</td>
+<td>헬륨</td>
+</tr>
+<tr>
+<td>같은 질량의 연료가 내는 에너지</td>
+<td>작다</td>
+<td>연소와 비교할 수 없을 만큼 크다</td>
+</tr>
+<tr>
+<td>태양 정도의 연료로 버틸 수 있는 시간</td>
+<td>수천 년 정도</td>
+<td>약 100억 년(현재 약 46억 년 지남)</td>
+</tr>
+</tbody></table></div>
+<p>태양은 지금 나이가 약 46억 년이며, 중심핵의 수소를 앞으로 약 50억 년 동안 더 태울 수 있을 것으로 추정된다. 연소로는 이렇게 긴 시간을 설명할 수 없다. 이것이 태양의 에너지원이 핵융합이라는 중요한 근거 중 하나이다.</p>
+<h4 id="예제-1">예제 1</h4>
+<p>다음 중 태양 중심부의 핵융합에 대한 설명으로 옳은 것을 모두 고르시오.
+ㄱ. 수소 원자핵이 합쳐져 헬륨 원자핵이 된다.
+ㄴ. 반응 후 입자들의 질량 합은 반응 전보다 크다.
+ㄷ. 산소가 공급되어야 반응이 계속 일어난다.
+ㄹ. 온도와 압력이 매우 높은 중심핵에서 일어난다.</p>
+<p><strong>풀이</strong></p>
+<ul>
+<li>ㄱ. 옳다. 수소 원자핵 4개가 헬륨 원자핵 1개가 된다.</li>
+<li>ㄴ. 틀렸다. 반응 후 질량이 <strong>줄어들고</strong>, 줄어든 질량이 에너지가 된다.</li>
+<li>ㄷ. 틀렸다. 핵융합은 연소가 아니므로 산소가 필요 없다.</li>
+<li>ㄹ. 옳다. 원자핵끼리의 반발을 이기려면 매우 높은 온도와 압력이 필요하다.</li>
+</ul>
+<p><strong>정답 ㄱ, ㄹ</strong></p>
+<h3 id="5-4-②-태양-에너지가-지구에-도착하기까지">5-4-② 태양 에너지가 지구에 도착하기까지</h3>
+<h4 id="복사로-우주를-건너온다">복사로 우주를 건너온다</h4>
+<p>광구에서 나온 에너지는 빛(가시광선)뿐만 아니라 적외선, 자외선 등 여러 종류의 <strong>전자기파</strong>에 실려 사방으로 퍼져 나간다. 우주 공간은 거의 진공이라 전도나 대류가 일어날 수 없으므로, 태양 에너지는 <strong>복사(radiation)</strong> 로만 지구에 도착한다.</p>
+<ul>
+<li>태양–지구 평균 거리: 약 1억 5천만 km</li>
+<li>빛이 태양에서 지구까지 오는 데 걸리는 시간: 약 8분 20초</li>
+<li>우리가 보는 태양은 &#39;약 8분 20초 전의 태양&#39;이다.</li>
+</ul>
+<h4 id="지구는-아주-작은-일부만-받는다">지구는 아주 작은 일부만 받는다</h4>
+<p>태양 에너지는 모든 방향으로 퍼져 나가므로 지구가 받는 것은 그중 <strong>아주 작은 일부(약 20억분의 1 정도)</strong> 이다. 그래도 그 양은 인류가 쓰는 에너지와 비교할 수 없을 만큼 많다.</p>
+<p>지구 대기의 맨 위에서 태양 빛에 <strong>수직인 면 1 m²</strong> 가 1초 동안 받는 태양 복사 에너지는 약 1,360 J이다. 이 값을 <strong>태양 상수(solar constant)</strong> 라고 한다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">태양</span><span class="mord"> </span><span class="mord hangul_fallback">상수</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.1141em;vertical-align:-0.25em;"></span><span class="mord">1360</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">W/</span><span class="mord"><span class="mord mathrm">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:1em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span></span></span></span></span><span class="mord text"><span class="mord hangul_fallback">당</span><span class="mord"> 1</span><span class="mord hangul_fallback">초에</span><span class="mord"> </span><span class="mord hangul_fallback">약</span><span class="mord"> </span></span><span class="mord">1360</span><span class="mspace"> </span><span class="mord mathrm">J</span><span class="mclose">)</span></span></span></span></span></p>
+<h4 id="지구에-도착한-에너지는-어디로-갈까">지구에 도착한 에너지는 어디로 갈까?</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>경로</th>
+<th>대략적 비율</th>
+<th>결과</th>
+</tr>
+</thead><tbody><tr>
+<td>구름, 대기, 지표(눈·얼음 등)에서 반사되어 우주로</td>
+<td>약 30%</td>
+<td>지구를 데우지 않고 되돌아간다</td>
+</tr>
+<tr>
+<td>대기가 흡수</td>
+<td>약 23%</td>
+<td>대기를 데운다</td>
+</tr>
+<tr>
+<td>지표(땅과 바다)가 흡수</td>
+<td>약 47%</td>
+<td>땅과 바다를 데우고, 물을 증발시킨다</td>
+</tr>
+</tbody></table></div>
+<p>(5-3의 지구 열수지에서 들어오는 태양 복사를 100으로 두었을 때의 반사 30, 대기 흡수 23, 지표 흡수 47과 같은 값이다.)</p>
+<p>흡수된 약 70%(23 + 47)의 에너지는 지구에서 여러 가지 일(바람, 해류, 물의 순환, 광합성)을 한 뒤 결국 열이 되어 <strong>적외선으로 우주에 다시 방출</strong>된다. 들어오는 에너지와 나가는 에너지가 같아 평균 기온이 일정하게 유지되는 상태가 5-3에서 배운 <strong>복사 평형</strong>이다.</p>
+<h4 id="예제-2">예제 2</h4>
+<p>대기 상단에서 태양 빛에 수직으로 놓인 넓이 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">2</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span></span></span></span></span></span></span></span>의 판이 1분 동안 받는 태양 복사 에너지는 약 몇 J인가? (태양 상수는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord">1360</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">W/</span><span class="mord"><span class="mord mathrm">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span></span></span></span></span></span></span></span></span>로 한다.)</p>
+<p><strong>풀이</strong>
+1초 동안 받는 에너지: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1360</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">2720</span><span class="mspace"> </span><span class="mord mathrm">J</span></span></span></span>
+1분(60초) 동안: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2720</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">60</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">163</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">200</span><span class="mspace"> </span><span class="mord mathrm">J</span></span></span></span></p>
+<p><strong>정답</strong> 약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">163</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">200</span><span class="mspace"> </span><span class="mord mathrm">J</span></span></span></span> (약 16만 J)</p>
+<aside class="callout warning"><p class="callout-title">주의</p><p>태양 상수는 &#39;대기 상단, 태양 빛에 수직인 면&#39;의 값이다. 지표면에서는 대기가 일부를 반사·흡수하고, 태양 빛이 비스듬히 비치기도 하며, 밤과 구름도 있으므로 <strong>실제로 지표 1 m²가 받는 평균 에너지는 이보다 훨씬 작다.</strong></p>
+</aside>
+<h3 id="5-4-③-태양이-움직이는-지구-지구의-에너지-흐름">5-4-③ 태양이 움직이는 지구 — 지구의 에너지 흐름</h3>
+<p>지구에 흡수된 태양 에너지는 그냥 머물지 않고 대기와 바다, 물, 생물을 움직이며 <strong>에너지 흐름(energy flow)</strong> 을 만든다.</p>
+<h4 id="1-대기와-해수의-순환-바람과-해류">(1) 대기와 해수의 순환 — 바람과 해류</h4>
+<p>지구는 둥글기 때문에 <strong>저위도(적도 부근)는 태양 빛을 거의 수직으로 받고, 고위도(극 부근)는 비스듬히 받는다.</strong> 같은 양의 빛이라도 비스듬히 비치면 더 넓은 면적에 퍼지므로 단위 면적당 받는 에너지가 줄어든다.</p>
+<ul>
+<li>저위도: 흡수하는 에너지 &gt; 방출하는 에너지 → <strong>에너지 남음</strong></li>
+<li>고위도: 흡수하는 에너지 &lt; 방출하는 에너지 → <strong>에너지 부족</strong></li>
+</ul>
+<p>그런데도 적도는 계속 뜨거워지지 않고, 극은 계속 차가워지지 않는다. <strong>대기 대순환과 해류가 남는 에너지를 저위도에서 고위도로 운반</strong>하기 때문이다.</p>
+<ul>
+<li>지표가 고르지 않게 가열 → 기압 차이 → <strong>바람</strong>(공기의 운동 에너지)</li>
+<li>바람이 바다 표면을 밀어 → <strong>표층 해류</strong>와 <strong>파도</strong>(물의 운동 에너지)</li>
+</ul>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 지구는 한쪽(적도)만 계속 데우는 커다란 냄비와 같다. 냄비 속 물이 대류로 빙글빙글 돌며 열을 고르게 나누듯, 대기와 바다는 끊임없이 움직이며 적도의 열을 극 쪽으로 나른다. 그 &#39;움직임&#39;이 바로 바람과 해류이다.</p>
+</aside>
+<h4 id="2-물의-순환-강물의-위치-에너지">(2) 물의 순환 — 강물의 위치 에너지</h4>
+<ol>
+<li>바다와 땅의 물이 태양 에너지를 흡수해 <strong>증발</strong>한다(열에너지를 흡수, [9과04-04]).</li>
+<li>수증기가 상승하여 높은 곳에서 <strong>응결</strong>해 구름이 된다(열에너지를 방출하여 대기를 데움).</li>
+<li>비나 눈이 되어 산과 같은 <strong>높은 곳</strong>에 내린다 → 물이 <strong>위치 에너지</strong>를 갖게 된다.</li>
+<li>물이 강을 따라 흐르며 위치 에너지가 <strong>운동 에너지</strong>로 전환된다 → 침식·운반, 수력 발전.</li>
+</ol>
+<p>즉, 댐에 고인 물의 위치 에너지는 원래 <strong>물을 증발시켜 높이 들어 올린 태양 에너지</strong>이다.</p>
+<h4 id="3-광합성-화학-에너지로-저장">(3) 광합성 — 화학 에너지로 저장</h4>
+<p>식물, 조류 등 광합성 생물은 빛에너지를 흡수하여 물과 이산화 탄소로 포도당을 만든다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord text"><span class="mord hangul_fallback">이산화</span><span class="mord"> </span><span class="mord hangul_fallback">탄소</span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.1113em;vertical-align:-0.011em;"></span><span class="mord text"><span class="mord hangul_fallback">물</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel x-arrow"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.1003em;"><span style="top:-3.322em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight x-arrow-pad"><span class="mord mtight"><span class="mord text mtight"><span class="mord hangul_fallback mtight">빛에너지</span></span></span></span></span><span class="svg-align" style="top:-2.689em;"><span class="pstrut" style="height:2.7em;"></span><span class="hide-tail" style="height:0.522em;min-width:1.469em;"><svg xmlns="http://www.w3.org/2000/svg" width='400em' height='0.522em' viewBox='0 0 400000 522' preserveAspectRatio='xMaxYMin slice'><path d='M0 241v40h399891c-47.3 35.3-84 78-110 128
+-16.7 32-27.7 63.7-33 95 0 1.3-.2 2.7-.5 4-.3 1.3-.5 2.3-.5 3 0 7.3 6.7 11 20
+ 11 8 0 13.2-.8 15.5-2.5 2.3-1.7 4.2-5.5 5.5-11.5 2-13.3 5.7-27 11-41 14.7-44.7
+ 39-84.5 73-119.5s73.7-60.2 119-75.5c6-2 9-5.7 9-11s-3-9-9-11c-45.3-15.3-85
+-40.5-119-75.5s-58.3-74.8-73-119.5c-4.7-14-8.3-27.3-11-40-1.3-6.7-3.2-10.8-5.5
+-12.5-2.3-1.7-7.5-2.5-15.5-2.5-14 0-21 3.7-21 11 0 2 2 10.3 6 25 20.7 83.3 67
+ 151.7 139 205zm0 0v40h399900v-40z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.011em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord text"><span class="mord hangul_fallback">포도당</span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">산소</span></span></span></span></span></span></p>
+<ul>
+<li>빛에너지가 포도당 속 <strong>화학 에너지</strong>로 전환·저장된다.</li>
+<li>생물은 <strong>세포 호흡</strong>으로 이 화학 에너지를 꺼내 생명 활동에 쓴다.</li>
+<li>이 에너지는 <strong>먹이 사슬</strong>을 따라 초식 동물, 육식 동물로 전달된다(5-1, 5-2와 연결).</li>
+</ul>
+<h4 id="4-화석-연료-수억-년-동안-저금한-태양-에너지">(4) 화석 연료 — 수억 년 동안 저금한 태양 에너지</h4>
+<p>오래전 지질 시대에 살았던 생물(주로 육상 식물은 석탄, 바다의 플랑크톤 등은 석유와 천연가스)의 유해가 땅속에 묻혀 높은 열과 압력을 오랫동안 받으면 <strong>화석 연료</strong>가 된다.</p>
+<ul>
+<li>화석 연료 속 화학 에너지 = <strong>과거 광합성으로 저장된 태양 에너지</strong></li>
+<li>만들어지는 데 수백만 년 이상 걸리므로 인간의 시간 기준으로는 <strong>다시 만들 수 없는(재생 불가능한) 자원</strong>이다.</li>
+<li>태우면 오랫동안 땅속에 갇혀 있던 탄소가 이산화 탄소로 대기에 나온다 → 5-3의 지구온난화와 연결된다.</li>
+</ul>
+<h4 id="지구-시스템의-에너지-흐름-정리">지구 시스템의 에너지 흐름 정리</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>현상</th>
+<th>태양 에너지가 바뀐 형태</th>
+<th>관련 지구 시스템</th>
+<th>우리가 이용하는 방법</th>
+</tr>
+</thead><tbody><tr>
+<td>바람</td>
+<td>공기의 운동 에너지</td>
+<td>기권</td>
+<td>풍력 발전</td>
+</tr>
+<tr>
+<td>해류·파도</td>
+<td>물의 운동 에너지</td>
+<td>수권</td>
+<td>파력·해류 발전</td>
+</tr>
+<tr>
+<td>강물·호수의 물</td>
+<td>위치 에너지 → 운동 에너지</td>
+<td>수권</td>
+<td>수력 발전</td>
+</tr>
+<tr>
+<td>생물</td>
+<td>화학 에너지</td>
+<td>생물권</td>
+<td>식량, 바이오 에너지</td>
+</tr>
+<tr>
+<td>석탄·석유·천연가스</td>
+<td>화학 에너지</td>
+<td>지권</td>
+<td>화력 발전, 자동차 연료</td>
+</tr>
+<tr>
+<td>햇빛 그 자체</td>
+<td>빛·열에너지</td>
+<td>—</td>
+<td>태양광 발전, 태양열 이용</td>
+</tr>
+</tbody></table></div>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-5-4-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 604.2265625 516" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-5-4-2{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-5-4-2 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-5-4-2 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-5-4-2 .error-icon{fill:var(--mm-group);}#mm-5-4-2 .error-text{fill:#595959;stroke:#595959;}#mm-5-4-2 .edge-thickness-normal{stroke-width:1px;}#mm-5-4-2 .edge-thickness-thick{stroke-width:3.5px;}#mm-5-4-2 .edge-pattern-solid{stroke-dasharray:0;}#mm-5-4-2 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-5-4-2 .edge-pattern-dashed{stroke-dasharray:3;}#mm-5-4-2 .edge-pattern-dotted{stroke-dasharray:2;}#mm-5-4-2 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-5-4-2 .marker.cross{stroke:var(--mm-line);}#mm-5-4-2 svg{font-family:inherit;font-size:15px;}#mm-5-4-2 p{margin:0;}#mm-5-4-2 .label{font-family:inherit;color:var(--mm-text);}#mm-5-4-2 .cluster-label text{fill:#595959;}#mm-5-4-2 .cluster-label span{color:#595959;}#mm-5-4-2 .cluster-label span p{background-color:transparent;}#mm-5-4-2 .label text,#mm-5-4-2 span{fill:var(--mm-text);color:var(--mm-text);}#mm-5-4-2 .node rect,#mm-5-4-2 .node circle,#mm-5-4-2 .node ellipse,#mm-5-4-2 .node polygon,#mm-5-4-2 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-5-4-2 .rough-node .label text,#mm-5-4-2 .node .label text,#mm-5-4-2 .image-shape .label,#mm-5-4-2 .icon-shape .label{text-anchor:middle;}#mm-5-4-2 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-5-4-2 .rough-node .label,#mm-5-4-2 .node .label,#mm-5-4-2 .image-shape .label,#mm-5-4-2 .icon-shape .label{text-align:center;}#mm-5-4-2 .node.clickable{cursor:pointer;}#mm-5-4-2 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-5-4-2 .arrowheadPath{fill:#0b0b0b;}#mm-5-4-2 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-5-4-2 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-5-4-2 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-5-4-2 .edgeLabel p{background-color:var(--mm-label);}#mm-5-4-2 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-5-4-2 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-5-4-2 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-5-4-2 .cluster text{fill:#595959;}#mm-5-4-2 .cluster span{color:#595959;}#mm-5-4-2 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-5-4-2 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-5-4-2 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-5-4-2 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-5-4-2 rect.text{fill:none;stroke-width:0;}#mm-5-4-2 .icon-shape,#mm-5-4-2 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-5-4-2 .icon-shape p,#mm-5-4-2 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-5-4-2 .icon-shape .label rect,#mm-5-4-2 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-5-4-2 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-5-4-2 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-5-4-2 .node .neo-node{stroke:var(--mm-border);}#mm-5-4-2 [data-look="neo"].node rect,#mm-5-4-2 [data-look="neo"].cluster rect,#mm-5-4-2 [data-look="neo"].node polygon{stroke:url(#mm-5-4-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-4-2 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-5-4-2 [data-look="neo"].node path{stroke:url(#mm-5-4-2-gradient);stroke-width:1px;}#mm-5-4-2 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-4-2 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-5-4-2 [data-look="neo"].node circle{stroke:url(#mm-5-4-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-4-2 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-5-4-2 [data-look="neo"].icon-shape .icon{fill:url(#mm-5-4-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-4-2 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-5-4-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-4-2 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-5-4-2_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-2_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-2_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-2_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-2_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-2_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-2_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-2_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-2_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-2_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-2_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-5-4-2_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M129.624,54.5L120.3,58.667C110.976,62.833,92.328,71.167,83.004,78.833C73.68,86.5,73.68,93.5,73.68,97L73.68,100.5" id="mm-5-4-2-L_S_R_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_S_R_0" data-points="W3sieCI6MTI5LjYyNDA2ODk3NjY4MzkzLCJ5Ijo1NC41fSx7IngiOjczLjY3OTY4NzUsInkiOjc5LjV9LHsieCI6NzMuNjc5Njg3NSwieSI6MTA0LjV9XQ==" data-look="classic" marker-end="url(#mm-5-4-2_flowchart-v2-pointEnd)"/><path d="M233.681,54.5L243.005,58.667C252.329,62.833,270.977,71.167,280.301,78.833C289.625,86.5,289.625,93.5,289.625,97L289.625,100.5" id="mm-5-4-2-L_S_A_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_S_A_0" data-points="W3sieCI6MjMzLjY4MDYxODUyMzMxNjA3LCJ5Ijo1NC41fSx7IngiOjI4OS42MjUsInkiOjc5LjV9LHsieCI6Mjg5LjYyNSwieSI6MTA0LjV9XQ==" data-look="classic" marker-end="url(#mm-5-4-2_flowchart-v2-pointEnd)"/><path d="M202.042,151L186.346,155.167C170.651,159.333,139.259,167.667,123.563,175.333C107.867,183,107.867,190,107.867,193.5L107.867,197" id="mm-5-4-2-L_A_W_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_W_0" data-points="W3sieCI6MjAyLjA0MjIxOTg4MzQxOTcsInkiOjE1MX0seyJ4IjoxMDcuODY3MTg3NSwieSI6MTc2fSx7IngiOjEwNy44NjcxODc1LCJ5IjoyMDF9XQ==" data-look="classic" marker-end="url(#mm-5-4-2_flowchart-v2-pointEnd)"/><path d="M107.867,270L107.867,274.167C107.867,278.333,107.867,286.667,107.867,294.333C107.867,302,107.867,309,107.867,312.5L107.867,316" id="mm-5-4-2-L_W_O_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_W_O_0" data-points="W3sieCI6MTA3Ljg2NzE4NzUsInkiOjI3MH0seyJ4IjoxMDcuODY3MTg3NSwieSI6Mjk1fSx7IngiOjEwNy44NjcxODc1LCJ5IjozMjB9XQ==" data-look="classic" marker-end="url(#mm-5-4-2_flowchart-v2-pointEnd)"/><path d="M289.625,151L289.625,155.167C289.625,159.333,289.625,167.667,289.625,181.75C289.625,195.833,289.625,215.667,289.625,235.5C289.625,255.333,289.625,275.167,289.625,288.583C289.625,302,289.625,309,289.625,312.5L289.625,316" id="mm-5-4-2-L_A_V_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_V_0" data-points="W3sieCI6Mjg5LjYyNSwieSI6MTUxfSx7IngiOjI4OS42MjUsInkiOjE3Nn0seyJ4IjoyODkuNjI1LCJ5IjoyMzUuNX0seyJ4IjoyODkuNjI1LCJ5IjoyOTV9LHsieCI6Mjg5LjYyNSwieSI6MzIwfV0=" data-look="classic" marker-end="url(#mm-5-4-2_flowchart-v2-pointEnd)"/><path d="M389.891,150.155L409.168,154.462C428.445,158.77,467,167.385,486.277,175.192C505.555,183,505.555,190,505.555,193.5L505.555,197" id="mm-5-4-2-L_A_P_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_P_0" data-points="W3sieCI6Mzg5Ljg5MDYyNSwieSI6MTUwLjE1NDU5MTMzODMyNjI3fSx7IngiOjUwNS41NTQ2ODc1LCJ5IjoxNzZ9LHsieCI6NTA1LjU1NDY4NzUsInkiOjIwMX1d" data-look="classic" marker-end="url(#mm-5-4-2_flowchart-v2-pointEnd)"/><path d="M505.555,270L505.555,274.167C505.555,278.333,505.555,286.667,505.555,296.208C505.555,305.75,505.555,316.5,505.555,321.875L505.555,327.25" id="mm-5-4-2-L_P_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_P_F_0" data-points="W3sieCI6NTA1LjU1NDY4NzUsInkiOjI3MH0seyJ4Ijo1MDUuNTU0Njg3NSwieSI6Mjk1fSx7IngiOjUwNS41NTQ2ODc1LCJ5IjozMzEuMjV9XQ==" data-look="classic" marker-end="url(#mm-5-4-2_flowchart-v2-pointEnd)"/><path d="M54.813,270L48.405,274.167C41.997,278.333,29.182,286.667,22.775,300.75C16.367,314.833,16.367,334.667,16.367,354.5C16.367,374.333,16.367,394.167,46.911,410.342C77.454,426.518,138.541,439.036,169.085,445.295L199.628,451.555" id="mm-5-4-2-L_W_H_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_W_H_0" data-points="W3sieCI6NTQuODEyNTY1NjUxMjYwNTA2LCJ5IjoyNzB9LHsieCI6MTYuMzY3MTg3NSwieSI6Mjk1fSx7IngiOjE2LjM2NzE4NzUsInkiOjM1NC41fSx7IngiOjE2LjM2NzE4NzUsInkiOjQxNH0seyJ4IjoyMDMuNTQ2ODc1LCJ5Ijo0NTIuMzU3NjA3OTY0NDgyN31d" data-look="classic" marker-end="url(#mm-5-4-2_flowchart-v2-pointEnd)"/><path d="M107.867,389L107.867,393.167C107.867,397.333,107.867,405.667,123.175,414.414C138.483,423.161,169.099,432.322,184.407,436.902L199.715,441.482" id="mm-5-4-2-L_O_H_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_O_H_0" data-points="W3sieCI6MTA3Ljg2NzE4NzUsInkiOjM4OX0seyJ4IjoxMDcuODY3MTg3NSwieSI6NDE0fSx7IngiOjIwMy41NDY4NzUsInkiOjQ0Mi42MjkxMDA2OTUzOTkzNn1d" data-look="classic" marker-end="url(#mm-5-4-2_flowchart-v2-pointEnd)"/><path d="M289.625,389L289.625,393.167C289.625,397.333,289.625,405.667,290.638,413.359C291.651,421.052,293.677,428.104,294.69,431.63L295.703,435.156" id="mm-5-4-2-L_V_H_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_V_H_0" data-points="W3sieCI6Mjg5LjYyNSwieSI6Mzg5fSx7IngiOjI4OS42MjUsInkiOjQxNH0seyJ4IjoyOTYuODA3MjQ3ODk5MTU5NywieSI6NDM5fV0=" data-look="classic" marker-end="url(#mm-5-4-2_flowchart-v2-pointEnd)"/><path d="M505.555,377.75L505.555,383.792C505.555,389.833,505.555,401.917,490.249,412.538C474.944,423.16,444.333,432.32,429.028,436.9L413.723,441.48" id="mm-5-4-2-L_F_H_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_F_H_0" data-points="W3sieCI6NTA1LjU1NDY4NzUsInkiOjM3Ny43NX0seyJ4Ijo1MDUuNTU0Njg3NSwieSI6NDE0fSx7IngiOjQwOS44OTA2MjUsInkiOjQ0Mi42MjY2NzQ3ODY4NDUzfV0=" data-look="classic" marker-end="url(#mm-5-4-2_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_S_R_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_S_A_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_A_W_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_W_O_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_A_V_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_A_P_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_P_F_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_W_H_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_O_H_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_V_H_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_F_H_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-5-4-2-flowchart-S-0" data-look="classic" transform="translate(181.65234375, 31.25)"><rect class="basic label-container" style="" x="-80.671875" y="-23.25" width="161.34375" height="46.5"/><g class="label" style="" transform="translate(-56.671875, -11.25)"><rect/><foreignObject width="113.34375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>태양 복사 에너지</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-4-2-flowchart-R-1" data-look="classic" transform="translate(73.6796875, 127.75)"><rect class="basic label-container" style="" x="-65.6796875" y="-23.25" width="131.359375" height="46.5"/><g class="label" style="" transform="translate(-41.6796875, -11.25)"><rect/><foreignObject width="83.359375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>약 30% 반사</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-4-2-flowchart-A-3" data-look="classic" transform="translate(289.625, 127.75)"><rect class="basic label-container" style="" x="-100.265625" y="-23.25" width="200.53125" height="46.5"/><g class="label" style="" transform="translate(-76.265625, -11.25)"><rect/><foreignObject width="152.53125" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>대기·지표 흡수 약 70%</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-4-2-flowchart-W-5" data-look="classic" transform="translate(107.8671875, 235.5)"><rect class="basic label-container" style="" x="-82.7578125" y="-34.5" width="165.515625" height="69"/><g class="label" style="" transform="translate(-58.7578125, -22.5)"><rect/><foreignObject width="117.515625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>불균등 가열<br />대기 순환 → 바람</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-4-2-flowchart-O-7" data-look="classic" transform="translate(107.8671875, 354.5)"><rect class="basic label-container" style="" x="-56.5" y="-34.5" width="113" height="69"/><g class="label" style="" transform="translate(-32.5, -22.5)"><rect/><foreignObject width="65" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>해수 순환<br />해류·파도</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-4-2-flowchart-V-9" data-look="classic" transform="translate(289.625, 354.5)"><rect class="basic label-container" style="" x="-75.2578125" y="-34.5" width="150.515625" height="69"/><g class="label" style="" transform="translate(-51.2578125, -22.5)"><rect/><foreignObject width="102.515625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>물의 증발<br />→ 강수 → 강물</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-4-2-flowchart-P-11" data-look="classic" transform="translate(505.5546875, 235.5)"><rect class="basic label-container" style="" x="-63.5859375" y="-34.5" width="127.171875" height="69"/><g class="label" style="" transform="translate(-39.5859375, -22.5)"><rect/><foreignObject width="79.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>광합성<br />화학 에너지</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-4-2-flowchart-F-13" data-look="classic" transform="translate(505.5546875, 354.5)"><rect class="basic label-container" style="" x="-90.671875" y="-23.25" width="181.34375" height="46.5"/><g class="label" style="" transform="translate(-66.671875, -11.25)"><rect/><foreignObject width="133.34375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>먹이 사슬·화석 연료</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-4-2-flowchart-H-15" data-look="classic" transform="translate(306.71875, 473.5)"><rect class="basic label-container" style="" x="-103.171875" y="-34.5" width="206.34375" height="69"/><g class="label" style="" transform="translate(-79.171875, -22.5)"><rect/><foreignObject width="158.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>결국 열로 바뀌어<br />적외선으로 우주로 방출</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-5-4-2-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-5-4-2-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-5-4-2-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><h3 id="5-4-④-다양한-에너지와-에너지-전환">5-4-④ 다양한 에너지와 에너지 전환</h3>
+<h4 id="에너지의-여러-형태">에너지의 여러 형태</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>에너지 형태</th>
+<th>뜻</th>
+<th>예</th>
+</tr>
+</thead><tbody><tr>
+<td>운동 에너지</td>
+<td>움직이는 물체가 가진 에너지</td>
+<td>바람, 흐르는 물, 달리는 자동차</td>
+</tr>
+<tr>
+<td>위치 에너지</td>
+<td>높은 곳에 있는 물체가 가진 에너지</td>
+<td>댐에 고인 물</td>
+</tr>
+<tr>
+<td>열에너지</td>
+<td>물질을 이루는 입자의 운동과 관련된 에너지</td>
+<td>데워진 땅과 바다</td>
+</tr>
+<tr>
+<td>빛에너지</td>
+<td>빛(전자기파)이 전달하는 에너지</td>
+<td>햇빛, 전등 빛</td>
+</tr>
+<tr>
+<td>화학 에너지</td>
+<td>물질 속에 저장된 에너지</td>
+<td>포도당, 석유, 전지</td>
+</tr>
+<tr>
+<td>전기 에너지</td>
+<td>전류가 흐를 때 전달되는 에너지</td>
+<td>가전제품을 작동시키는 에너지</td>
+</tr>
+<tr>
+<td>핵에너지</td>
+<td>원자핵이 변할 때 나오는 에너지</td>
+<td>태양의 핵융합, 원자력 발전의 핵분열</td>
+</tr>
+<tr>
+<td>소리 에너지</td>
+<td>물체의 진동이 전달하는 에너지</td>
+<td>천둥, 스피커 소리</td>
+</tr>
+</tbody></table></div>
+<h4 id="태양에서-오지-않은-에너지도-있다">태양에서 오지 않은 에너지도 있다</h4>
+<p>지구에서 쓰는 에너지의 대부분은 태양에서 왔지만, 모두가 그런 것은 아니다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>에너지</th>
+<th>근원</th>
+<th>태양 기원인가?</th>
+</tr>
+</thead><tbody><tr>
+<td>풍력, 수력, 파력, 바이오, 화석 연료, 태양광·태양열</td>
+<td>태양 복사 에너지</td>
+<td>예</td>
+</tr>
+<tr>
+<td>조력(밀물·썰물)</td>
+<td>주로 달(과 태양)의 <strong>인력</strong>과 지구의 자전</td>
+<td>아니요</td>
+</tr>
+<tr>
+<td>지열</td>
+<td>지구 내부의 열(방사성 원소의 붕괴 등)</td>
+<td>아니요</td>
+</tr>
+<tr>
+<td>원자력(핵분열)</td>
+<td>우라늄 원자핵 속에 저장된 핵에너지</td>
+<td>아니요</td>
+</tr>
+</tbody></table></div>
+<aside class="callout note"><p class="callout-title">성취기준·참고</p><p>조력의 근원에 &#39;태양&#39;이 일부 포함되는 것은 태양의 <strong>중력</strong> 때문이지, 태양의 <strong>복사 에너지</strong> 때문이 아니다. 둘을 구분하자.</p>
+</aside>
+<h4 id="예제-3-강물이-가진-에너지">예제 3 — 강물이 가진 에너지</h4>
+<p>높이 100 m에 있는 댐에서 물 1000 kg(1톤)이 떨어질 때, 이 물이 가진 위치 에너지는 몇 J인가? 이 에너지의 근원을 거슬러 올라가 설명하시오.</p>
+<p><strong>풀이</strong> 중학교에서 배운 위치 에너지 식을 쓴다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9694em;vertical-align:-0.2861em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0576em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">p</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">9.8</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal">m</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">h</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">9.8</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1000</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">100</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">980</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace"> </span><span class="mord mathrm">J</span></span></span></span></span></p>
+<p>약 98만 J이다. 이 물은 원래 바다나 땅에서 <strong>태양 에너지를 흡수해 증발</strong>한 뒤 높은 곳에서 비로 내린 것이다. 따라서 물의 위치 에너지는 <strong>태양 에너지가 전환된 것</strong>이다.</p>
+<h4 id="예제-4-에너지의-여행-추적하기">예제 4 — 에너지의 여행 추적하기</h4>
+<p>학생이 밥을 먹고 자전거 발전기를 돌려 전구를 켰다. 이 과정에서 일어나는 에너지 전환을 태양부터 순서대로 쓰시오.</p>
+<p><strong>풀이</strong></p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-5-4-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 1202.859375 85" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-5-4-3{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-5-4-3 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-5-4-3 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-5-4-3 .error-icon{fill:var(--mm-group);}#mm-5-4-3 .error-text{fill:#595959;stroke:#595959;}#mm-5-4-3 .edge-thickness-normal{stroke-width:1px;}#mm-5-4-3 .edge-thickness-thick{stroke-width:3.5px;}#mm-5-4-3 .edge-pattern-solid{stroke-dasharray:0;}#mm-5-4-3 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-5-4-3 .edge-pattern-dashed{stroke-dasharray:3;}#mm-5-4-3 .edge-pattern-dotted{stroke-dasharray:2;}#mm-5-4-3 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-5-4-3 .marker.cross{stroke:var(--mm-line);}#mm-5-4-3 svg{font-family:inherit;font-size:15px;}#mm-5-4-3 p{margin:0;}#mm-5-4-3 .label{font-family:inherit;color:var(--mm-text);}#mm-5-4-3 .cluster-label text{fill:#595959;}#mm-5-4-3 .cluster-label span{color:#595959;}#mm-5-4-3 .cluster-label span p{background-color:transparent;}#mm-5-4-3 .label text,#mm-5-4-3 span{fill:var(--mm-text);color:var(--mm-text);}#mm-5-4-3 .node rect,#mm-5-4-3 .node circle,#mm-5-4-3 .node ellipse,#mm-5-4-3 .node polygon,#mm-5-4-3 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-5-4-3 .rough-node .label text,#mm-5-4-3 .node .label text,#mm-5-4-3 .image-shape .label,#mm-5-4-3 .icon-shape .label{text-anchor:middle;}#mm-5-4-3 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-5-4-3 .rough-node .label,#mm-5-4-3 .node .label,#mm-5-4-3 .image-shape .label,#mm-5-4-3 .icon-shape .label{text-align:center;}#mm-5-4-3 .node.clickable{cursor:pointer;}#mm-5-4-3 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-5-4-3 .arrowheadPath{fill:#0b0b0b;}#mm-5-4-3 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-5-4-3 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-5-4-3 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-5-4-3 .edgeLabel p{background-color:var(--mm-label);}#mm-5-4-3 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-5-4-3 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-5-4-3 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-5-4-3 .cluster text{fill:#595959;}#mm-5-4-3 .cluster span{color:#595959;}#mm-5-4-3 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-5-4-3 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-5-4-3 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-5-4-3 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-5-4-3 rect.text{fill:none;stroke-width:0;}#mm-5-4-3 .icon-shape,#mm-5-4-3 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-5-4-3 .icon-shape p,#mm-5-4-3 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-5-4-3 .icon-shape .label rect,#mm-5-4-3 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-5-4-3 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-5-4-3 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-5-4-3 .node .neo-node{stroke:var(--mm-border);}#mm-5-4-3 [data-look="neo"].node rect,#mm-5-4-3 [data-look="neo"].cluster rect,#mm-5-4-3 [data-look="neo"].node polygon{stroke:url(#mm-5-4-3-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-4-3 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-5-4-3 [data-look="neo"].node path{stroke:url(#mm-5-4-3-gradient);stroke-width:1px;}#mm-5-4-3 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-4-3 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-5-4-3 [data-look="neo"].node circle{stroke:url(#mm-5-4-3-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-4-3 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-5-4-3 [data-look="neo"].icon-shape .icon{fill:url(#mm-5-4-3-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-4-3 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-5-4-3-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-5-4-3 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-5-4-3_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-3_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-3_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-3_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-3_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-3_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-3_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-3_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-3_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-3_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-5-4-3_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-5-4-3_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M116,42.5L120.167,42.5C124.333,42.5,132.667,42.5,140.333,42.5C148,42.5,155,42.5,158.5,42.5L162,42.5" id="mm-5-4-3-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTE2LCJ5Ijo0Mi41fSx7IngiOjE0MSwieSI6NDIuNX0seyJ4IjoxNjYsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-5-4-3_flowchart-v2-pointEnd)"/><path d="M274,42.5L278.167,42.5C282.333,42.5,290.667,42.5,298.333,42.5C306,42.5,313,42.5,316.5,42.5L320,42.5" id="mm-5-4-3-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6Mjc0LCJ5Ijo0Mi41fSx7IngiOjI5OSwieSI6NDIuNX0seyJ4IjozMjQsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-5-4-3_flowchart-v2-pointEnd)"/><path d="M451.172,42.5L455.339,42.5C459.505,42.5,467.839,42.5,475.505,42.5C483.172,42.5,490.172,42.5,493.672,42.5L497.172,42.5" id="mm-5-4-3-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6NDUxLjE3MTg3NSwieSI6NDIuNX0seyJ4Ijo0NzYuMTcxODc1LCJ5Ijo0Mi41fSx7IngiOjUwMS4xNzE4NzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-5-4-3_flowchart-v2-pointEnd)"/><path d="M662.516,42.5L666.682,42.5C670.849,42.5,679.182,42.5,686.849,42.5C694.516,42.5,701.516,42.5,705.016,42.5L708.516,42.5" id="mm-5-4-3-L_D_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_E_0" data-points="W3sieCI6NjYyLjUxNTYyNSwieSI6NDIuNX0seyJ4Ijo2ODcuNTE1NjI1LCJ5Ijo0Mi41fSx7IngiOjcxMi41MTU2MjUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-5-4-3_flowchart-v2-pointEnd)"/><path d="M839.688,42.5L843.854,42.5C848.021,42.5,856.354,42.5,864.021,42.5C871.688,42.5,878.688,42.5,882.188,42.5L885.688,42.5" id="mm-5-4-3-L_E_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_F_0" data-points="W3sieCI6ODM5LjY4NzUsInkiOjQyLjV9LHsieCI6ODY0LjY4NzUsInkiOjQyLjV9LHsieCI6ODg5LjY4NzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-5-4-3_flowchart-v2-pointEnd)"/><path d="M1016.859,42.5L1021.026,42.5C1025.193,42.5,1033.526,42.5,1041.193,42.5C1048.859,42.5,1055.859,42.5,1059.359,42.5L1062.859,42.5" id="mm-5-4-3-L_F_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_F_G_0" data-points="W3sieCI6MTAxNi44NTkzNzUsInkiOjQyLjV9LHsieCI6MTA0MS44NTkzNzUsInkiOjQyLjV9LHsieCI6MTA2Ni44NTkzNzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-5-4-3_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_F_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_F_G_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-5-4-3-flowchart-A-0" data-look="classic" transform="translate(62, 42.5)"><rect class="basic label-container" style="" x="-54" y="-34.5" width="108" height="69"/><g class="label" style="" transform="translate(-30, -22.5)"><rect/><foreignObject width="60" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>태양<br />핵에너지</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-4-3-flowchart-B-1" data-look="classic" transform="translate(220, 42.5)"><rect class="basic label-container" style="" x="-54" y="-34.5" width="108" height="69"/><g class="label" style="" transform="translate(-30, -22.5)"><rect/><foreignObject width="60" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>햇빛<br />빛에너지</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-4-3-flowchart-C-3" data-look="classic" transform="translate(387.5859375, 42.5)"><rect class="basic label-container" style="" x="-63.5859375" y="-34.5" width="127.171875" height="69"/><g class="label" style="" transform="translate(-39.5859375, -22.5)"><rect/><foreignObject width="79.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>벼의 광합성<br />화학 에너지</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-4-3-flowchart-D-5" data-look="classic" transform="translate(581.84375, 42.5)"><rect class="basic label-container" style="" x="-80.671875" y="-34.5" width="161.34375" height="69"/><g class="label" style="" transform="translate(-56.671875, -22.5)"><rect/><foreignObject width="113.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>학생의 세포 호흡<br />근육 운동</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-4-3-flowchart-E-7" data-look="classic" transform="translate(776.1015625, 42.5)"><rect class="basic label-container" style="" x="-63.5859375" y="-34.5" width="127.171875" height="69"/><g class="label" style="" transform="translate(-39.5859375, -22.5)"><rect/><foreignObject width="79.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>페달·바퀴<br />운동 에너지</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-4-3-flowchart-F-9" data-look="classic" transform="translate(953.2734375, 42.5)"><rect class="basic label-container" style="" x="-63.5859375" y="-34.5" width="127.171875" height="69"/><g class="label" style="" transform="translate(-39.5859375, -22.5)"><rect/><foreignObject width="79.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>발전기<br />전기 에너지</p></span></div></foreignObject></g></g><g class="node default" id="mm-5-4-3-flowchart-G-11" data-look="classic" transform="translate(1130.859375, 42.5)"><rect class="basic label-container" style="" x="-64" y="-34.5" width="128" height="69"/><g class="label" style="" transform="translate(-40, -22.5)"><rect/><foreignObject width="80" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>전구<br />빛·열에너지</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-5-4-3-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-5-4-3-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-5-4-3-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><p>핵에너지 → 빛에너지 → 화학 에너지 → 운동 에너지 → 전기 에너지 → 빛에너지·열에너지. 각 단계에서 일부 에너지는 열로 흩어지지만, <strong>에너지의 총량은 보존</strong>된다.</p>
+<aside class="callout important"><p class="callout-title">핵심</p><p>에너지 전환이 일어날 때마다 일부가 <strong>열</strong>로 흩어진다. 흩어진 열은 다시 모아 쓰기 어렵기 때문에 &#39;쓸모 있는 에너지&#39;는 점점 줄어든다. 에너지 총량은 그대로인데 왜 에너지를 아껴야 하는지, 그 답은 5-6 &#39;에너지 효율&#39;에서 찾을 수 있다.</p>
+</aside>
+<hr>
+<h2 id="step-4" class="step-h s4"><span class="step-badge s4">STEP 4</span><span class="h-text">오개념 바로잡기</span></h2>
+<div class="table-wrap"><table><thead><tr>
+<th>흔한 오개념</th>
+<th>올바른 개념</th>
+<th>왜 그럴까?</th>
+</tr>
+</thead><tbody><tr>
+<td>태양은 거대한 불덩이라서 타면서 빛난다</td>
+<td>태양은 <strong>수소 핵융합</strong>으로 에너지를 만든다. 연소가 아니다</td>
+<td>연소는 산소가 필요한 화학 반응이고, 태양 정도 질량의 연료라도 연소로는 수천 년밖에 버티지 못한다</td>
+</tr>
+<tr>
+<td>핵융합에서도 질량은 보존된다</td>
+<td>핵융합 후 질량이 <strong>줄어들고</strong>, 그만큼 에너지가 생긴다</td>
+<td>질량 보존 법칙은 원자핵이 변하지 않는 <strong>화학 반응</strong>에서 성립한다</td>
+</tr>
+<tr>
+<td>지구의 모든 에너지는 태양에서 온다</td>
+<td><strong>지열, 조력, 원자력</strong>은 태양 복사 에너지에서 온 것이 아니다</td>
+<td>지구 내부의 열, 달의 인력, 우라늄의 핵에너지가 근원이다</td>
+</tr>
+<tr>
+<td>석탄·석유는 태양과 관계없는 땅속 자원이다</td>
+<td>화석 연료는 <strong>과거 생물이 광합성으로 저장한 태양 에너지</strong>이다</td>
+<td>화석 연료는 오래전 생물의 유해에서 만들어졌다</td>
+</tr>
+<tr>
+<td>바람은 지구가 자전하기 때문에 분다</td>
+<td>바람의 근본 원인은 <strong>태양 에너지에 의한 불균등 가열</strong>이다</td>
+<td>자전은 바람의 방향에 영향을 줄 뿐, 공기를 움직이는 에너지를 주지는 않는다</td>
+</tr>
+<tr>
+<td>에너지가 전환되면 일부가 사라진다</td>
+<td>에너지는 사라지지 않고 <strong>총량이 보존</strong>된다. 다만 일부가 쓰기 어려운 열로 바뀐다</td>
+<td>전환 과정에서 마찰 등으로 열이 발생해 주변으로 흩어진다</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-5" class="step-h s5"><span class="step-badge s5">STEP 5</span><span class="h-text">선택과목·대학으로 한 걸음 더</span></h2>
+<aside class="callout caution"><p class="callout-title">심화 · 평가 범위 밖</p><p>이 절은 <strong>통합과학 교육과정 범위 밖의 심화 내용</strong>으로 평가 대상이 아니다. &quot;이 개념이 앞으로 어디까지 이어지는가&quot;를 맛보기로 보여 주기 위한 내용이다.</p>
+</aside>
+<h3 id="고2-3-선택과목과의-연결">고2·3 선택과목과의 연결</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>과목</th>
+<th>이어지는 내용</th>
+</tr>
+</thead><tbody><tr>
+<td>전자기와 양자</td>
+<td>별에서 핵융합에 의해 에너지가 생성되고 빛이 방출되는 원리 [12전자03-05]</td>
+</tr>
+<tr>
+<td>물리학</td>
+<td>역학적 에너지 보존, 역학적 에너지가 열로 전환될 때의 에너지 총량 보존 [12물리01-04], [12물리01-05]</td>
+</tr>
+<tr>
+<td>지구과학</td>
+<td>대기와 해양의 상호작용, 해수의 순환과 기후</td>
+</tr>
+<tr>
+<td>세포와 물질대사</td>
+<td>광합성과 세포호흡, ATP의 에너지 전달 [12세포02-02]</td>
+</tr>
+<tr>
+<td>행성우주과학</td>
+<td>태양의 광구와 대기에서 나타나는 현상과 관측 [12행우02-01]</td>
+</tr>
+</tbody></table></div>
+<h3 id="①-질량-에너지-등가-math22">① 질량–에너지 등가: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord mathnormal">m</span><span class="mord"><span class="mord mathnormal">c</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></h3>
+<p>아인슈타인의 특수 상대성 이론에 따르면 질량은 에너지의 한 형태이며, 줄어든 질량 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal">m</span></span></span></span>과 나오는 에너지 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span></span></span></span> 사이에는 다음 관계가 있다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.1141em;vertical-align:-0.25em;"></span><span class="mord">Δ</span><span class="mord mathnormal">m</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal">c</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:2em;"></span><span class="mopen">(</span><span class="mord mathnormal">c</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">3</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.1141em;vertical-align:-0.25em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">m/s</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord hangul_fallback">빛의</span><span class="mord"> </span><span class="mord hangul_fallback">속력</span></span><span class="mclose">)</span></span></span></span></span></p>
+<p><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord mathnormal">c</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span>은 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">9</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">16</span></span></span></span></span></span></span></span></span></span></span></span>으로 엄청나게 큰 수이므로, 아주 작은 질량도 막대한 에너지가 된다.</p>
+<ul>
+<li>수소 원자핵 4개가 헬륨 원자핵 1개가 될 때 줄어드는 질량은 처음 질량의 <strong>약 0.7%</strong> 이다.</li>
+<li>수소 1 kg이 모두 헬륨으로 바뀌면 약 0.007 kg이 줄어든다.</li>
+</ul>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">0.007</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">3</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.1141em;vertical-align:-0.25em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">6.3</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8641em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">14</span></span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord mathrm">J</span></span></span></span></span></p>
+<p>석탄 1 kg을 태울 때 나오는 에너지를 약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">3</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">7</span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord mathrm">J</span></span></span></span>이라고 가정하면, 수소 1 kg의 핵융합 에너지는 그 <strong>약 2000만 배</strong>에 이른다.</p>
+<p>태양 전체가 1초 동안 내보내는 에너지(광도)는 약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">3.8</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">26</span></span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord mathrm">J</span></span></span></span>이다. 이를 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord mathnormal">c</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span>으로 나누면 태양은 <strong>1초마다 약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.0085em;vertical-align:-0.1944em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">9</span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">kg</span></span></span></span></span>, 즉 약 400만 톤의 질량</strong>을 에너지로 바꾸고 있다. 그래도 태양의 질량(약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.0085em;vertical-align:-0.1944em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">30</span></span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">kg</span></span></span></span></span>)에 비하면 아주 작은 양이다.</p>
+<h3 id="②-양성자-양성자-연쇄-반응">② 양성자–양성자 연쇄 반응</h3>
+<p>대학 천체물리학에서는 태양의 핵융합을 단계별로 다룬다. 태양 같은 별에서는 주로 <strong>양성자–양성자 연쇄 반응(p–p chain)</strong> 이 일어난다.</p>
+<ol>
+<li>양성자 2개 → 중수소 원자핵 + 양전자 + 중성미자</li>
+<li>중수소 원자핵 + 양성자 → 헬륨-3 원자핵 + 감마선</li>
+<li>헬륨-3 원자핵 2개 → 헬륨-4 원자핵 + 양성자 2개</li>
+</ol>
+<p>태양보다 무거운 별의 중심에서는 탄소·질소·산소를 &#39;촉매&#39;처럼 쓰는 <strong>CNO 순환</strong>이 더 중요해진다. 2-2에서 배운 &#39;별의 진화와 원소의 생성&#39;이 여기서 다시 이어진다. 1단계에서 나오는 <strong>중성미자</strong>는 물질과 거의 반응하지 않아 태양 중심부에서 곧바로 지구까지 날아온다. 과학자들은 거대한 지하 검출기로 이 중성미자를 관측해 태양 중심부에서 실제로 핵융합이 일어난다는 증거를 얻었다.</p>
+<h3 id="③-역제곱-법칙으로-태양-상수-구하기">③ 역제곱 법칙으로 태양 상수 구하기</h3>
+<p>태양이 1초에 내보내는 에너지 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">L</span></span></span></span>은 반지름 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">d</span></span></span></span>인 거대한 구 껍질 전체에 고르게 퍼진다. 구의 겉넓이는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">4</span><span class="mord mathnormal" style="margin-right:0.03588em;">π</span><span class="mord"><span class="mord mathnormal">d</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span>이므로</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">4</span><span class="mord mathnormal" style="margin-right:0.03588em;">π</span><span class="mord"><span class="mord mathnormal">d</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7401em;"><span style="top:-2.989em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">L</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.4271em;vertical-align:-0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.4911em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">4</span><span class="mord mathnormal" style="margin-right:0.03588em;">π</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mopen">(</span><span class="mord">1.5</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7401em;"><span style="top:-2.989em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">11</span></span></span></span></span></span></span></span></span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7401em;"><span style="top:-2.989em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">3.8</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">26</span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.936em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1.3</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.1141em;vertical-align:-0.25em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">W/</span><span class="mord"><span class="mord mathrm">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span></span></span></span></span></span></span></span></span></span></p>
+<p>STEP 3의 태양 상수(약 1360 W/m²)와 거의 같다. 거리가 2배가 되면 받는 에너지는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">4</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>이 된다(<strong>역제곱 법칙</strong>). 화성이 지구보다 훨씬 춥고, 목성 탐사선이 태양 전지판을 매우 크게 만들어야 하는 이유이다.</p>
+<h3 id="고등학교-vs-대학교">고등학교 vs 대학교</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>고등학교 통합과학</th>
+<th>대학교 물리학·천문학·지구과학</th>
+</tr>
+</thead><tbody><tr>
+<td>핵융합</td>
+<td>수소 → 헬륨, 질량이 줄어 에너지 생성(정성적)</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord mathnormal">m</span><span class="mord"><span class="mord mathnormal">c</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span>, 반응 단계별 에너지 계산, 플라스마 물리</td>
+</tr>
+<tr>
+<td>태양 에너지 전달</td>
+<td>복사로 전달, 태양 상수 약 1360 W/m²</td>
+<td>흑체 복사, 역제곱 법칙, 복사 전달 방정식</td>
+</tr>
+<tr>
+<td>지구의 에너지 흐름</td>
+<td>대기·해수 순환, 물의 순환, 광합성을 정성적으로</td>
+<td>지구 에너지 수지의 정량 모델, 기후 모델, 광합성 효율</td>
+</tr>
+<tr>
+<td>관련 전공</td>
+<td>—</td>
+<td>물리학, 천문학, 대기과학, 해양학, 원자핵공학, 생명과학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-6" class="step-h s6"><span class="step-badge s6">STEP 6</span><span class="h-text">산업 현장과 진로 연결</span></h2>
+<h3 id="사례-1-핵융합-에너지-연구-지구-위의-39-인공-태양-39">사례 1. 핵융합 에너지 연구 — 지구 위의 &#39;인공 태양&#39;</h3>
+<ul>
+<li><strong>원리</strong> 태양처럼 가벼운 원자핵을 융합시켜 에너지를 얻는다. 다만 지구의 장치는 태양처럼 거대한 중력으로 연료를 눌러 모을 수 없어 밀도가 훨씬 낮다. 그래서 반응을 충분히 일으키려면 <strong>태양 중심(약 1,500만 K)보다 훨씬 높은 1억 ℃ 이상</strong>의 플라스마가 필요하다. 연료도 일반 수소보다 융합이 쉬운 <strong>중수소와 삼중수소</strong>를 쓴다.</li>
+<li><strong>토카막(tokamak)</strong> 이렇게 뜨거운 플라스마는 어떤 그릇에도 담을 수 없으므로, 도넛 모양의 진공 용기 안에서 강한 <strong>자기장</strong>으로 플라스마를 공중에 띄워 가둔다.</li>
+<li><strong>KSTAR</strong> 우리나라 한국핵융합에너지연구원(대전)이 운영하는 초전도 토카막 장치이다. 2008년 처음 플라스마를 만들었고, 2021년에는 이온 온도 1억 ℃의 플라스마를 30초 동안 유지하는 데 성공하는 등 &#39;초고온 플라스마를 오래 유지하는 기술&#39;을 연구하고 있다.</li>
+<li><strong>ITER(국제핵융합실험로)</strong> 우리나라를 포함한 7개 회원(유럽연합, 미국, 일본, 중국, 러시아, 인도, 한국)이 프랑스 남부에 함께 건설 중인 실험로이다. 넣어 준 가열 에너지(50 MW)의 10배인 500 MW의 핵융합 출력을 내는 것을 목표로 한다. 우리나라도 진공 용기 일부 등 핵심 부품 제작에 참여하고 있다.</li>
+<li><strong>현실적 과제</strong> 초고온 플라스마를 오래 안정하게 유지하기, 고속 중성자에 견디는 벽 재료 개발, 삼중수소 생산 등 해결할 과제가 많아 상업 발전까지는 상당한 시간이 걸릴 것으로 보인다.</li>
+</ul>
+<h3 id="사례-2-우주-기상-예보-태양-활동-감시">사례 2. 우주 기상 예보 — 태양 활동 감시</h3>
+<ul>
+<li><strong>원리</strong> 태양 표면의 폭발(플레어)과 코로나 물질 방출이 일어나면, 강한 전자기파와 고에너지 입자가 지구로 날아와 <strong>인공위성 고장, 단파 통신 장애, GPS 오차, 전력망 이상</strong>을 일으킬 수 있다([9과07-02]의 &#39;태양 활동이 지구에 미치는 영향&#39;).</li>
+<li><strong>현장</strong> 우리나라에서는 국립전파연구원 우주전파센터가 태양 활동을 관측해 우주 기상 특보를 낸다. 항공사, 위성 운영 기관, 전력 회사가 이 정보를 활용한다.</li>
+</ul>
+<h3 id="사례-3-인공-광합성과-바이오-에너지">사례 3. 인공 광합성과 바이오 에너지</h3>
+<ul>
+<li><strong>원리</strong> 식물이 하는 광합성(빛에너지 → 화학 에너지)을 흉내 내어, 햇빛과 물, 이산화 탄소로 수소나 액체 연료 같은 <strong>화학 연료를 직접 만드는 기술</strong>을 연구한다. 대기의 이산화 탄소를 원료로 쓰므로 탄소중립 기술로도 주목받는다.</li>
+<li><strong>바이오 에너지</strong> 옥수수·사탕수수로 만든 바이오에탄올, 식물성 기름으로 만든 바이오디젤, 음식물 쓰레기에서 얻는 바이오가스는 모두 <strong>최근의 광합성으로 저장된 태양 에너지</strong>를 쓰는 것이다(5-6에서 자세히).</li>
+</ul>
+<h3 id="사례-4-기상-기후-예측-태양-에너지-흐름의-계산">사례 4. 기상·기후 예측 — 태양 에너지 흐름의 계산</h3>
+<ul>
+<li><strong>원리</strong> 날씨와 기후는 &#39;태양 에너지가 지구에서 어떻게 흐르는가&#39;의 결과이다. 기상청은 대기에 들어오고 나가는 에너지, 공기와 물의 움직임을 슈퍼컴퓨터로 계산하는 <strong>수치 예보 모델</strong>로 날씨를 예측한다.</li>
+<li><strong>활용</strong> 태양광 발전소는 일사량 예보로, 풍력 발전소는 바람 예보로 내일의 발전량을 예측하여 전력망 운영에 활용한다.</li>
+</ul>
+<h3 id="관련-진로와-학과">관련 진로와 학과</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>진로</th>
+<th>하는 일</th>
+<th>관련 학과</th>
+</tr>
+</thead><tbody><tr>
+<td>핵융합 연구원</td>
+<td>플라스마 가열·제어, 초전도 자석, 내열 재료 연구</td>
+<td>원자핵공학, 물리학, 전기공학, 재료공학</td>
+</tr>
+<tr>
+<td>태양·우주 기상 연구원</td>
+<td>태양 활동 관측, 우주 기상 예보</td>
+<td>천문우주학, 대기과학, 물리학</td>
+</tr>
+<tr>
+<td>기상·기후 예보관</td>
+<td>수치 예보 모델 운영, 기후 변화 분석</td>
+<td>대기과학, 해양학, 지구환경과학</td>
+</tr>
+<tr>
+<td>바이오 에너지·인공 광합성 연구원</td>
+<td>광촉매·바이오 연료 개발</td>
+<td>화학공학, 생명공학, 신소재공학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="탐구-활동-태양-에너지의-흐름과-전환-추적하기">탐구 활동 — 태양 에너지의 흐름과 전환 추적하기</h2>
+<h3 id="활동-a-간이-태양열-집열기로-태양-에너지-어림하기">활동 A. 간이 태양열 집열기로 태양 에너지 어림하기</h3>
+<p><strong>목표</strong> 햇빛이 물에 전달하는 열에너지를 측정하여 태양 에너지가 열에너지로 전환됨을 확인하고, 지표 1 m²가 1초 동안 받는 에너지를 어림한다.</p>
+<p><strong>준비물</strong> 같은 크기의 알루미늄 캔 2개(하나는 검은색, 하나는 흰색으로 칠함), 물, 온도계(또는 디지털 온도 센서), 전자저울, 투명 랩, 자, 초시계</p>
+<p><strong>과정</strong></p>
+<ol>
+<li>두 캔에 같은 질량(예: 0.3 kg)의 물을 넣고 입구를 투명 랩으로 덮는다.</li>
+<li>맑은 날 햇빛이 잘 드는 곳에 두 캔을 나란히 놓고 처음 수온을 잰다.</li>
+<li>20분 동안 5분마다 수온을 기록한다.</li>
+<li>캔이 햇빛을 받는 면적(햇빛 방향에서 본 캔의 단면적: 지름 × 높이)을 잰다.</li>
+<li>물이 얻은 열에너지를 다음 식으로 구한다(물의 비열 약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">4200</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">J/</span><span class="mopen">(</span><span class="mord mathrm" style="margin-right:0.01389em;">kg</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">℃</span><span class="mclose">)</span></span></span></span></span>).</li>
+</ol>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">열에너지</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord text"><span class="mord hangul_fallback">비열</span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord text"><span class="mord hangul_fallback">질량</span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">온도</span><span class="mord"> </span><span class="mord hangul_fallback">변화</span></span></span></span></span></span></p>
+<p><strong>결과 기록</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>시간(분)</th>
+<th>0</th>
+<th>5</th>
+<th>10</th>
+<th>15</th>
+<th>20</th>
+</tr>
+</thead><tbody><tr>
+<td>검은 캔 수온(℃)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>흰 캔 수온(℃)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<p><strong>예시 자료로 계산해 보기</strong> 검은 캔(물 0.3 kg)의 수온이 20분 동안 8 ℃ 올랐고, 햇빛을 받는 면적이 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">0.02</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span></span></span></span></span></span></span></span>였다고 가정하자.</p>
+<ul>
+<li>물이 얻은 열에너지: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">4200</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">0.3</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">8</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">10</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">080</span><span class="mspace"> </span><span class="mord mathrm">J</span></span></span></span></li>
+<li>1 m²가 1초에 받은 에너지: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.0908em;vertical-align:-0.7693em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">0.02</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">1200</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">10</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">080</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7693em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord">420</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">W/</span><span class="mord"><span class="mord mathrm">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span></span></span></span></span></span></span></span></span></li>
+</ul>
+<p><strong>생각해 보기</strong></p>
+<ol>
+<li>검은 캔과 흰 캔의 결과가 다른 까닭을 &#39;흡수&#39;와 &#39;반사&#39;로 설명해 보자. 지구에서 눈과 얼음이 많은 지역은 어느 캔과 비슷할까?</li>
+<li>측정값이 태양 상수(약 1360 W/m²)보다 훨씬 작은 까닭을 세 가지 이상 써 보자. (힌트: 대기, 햇빛의 각도, 캔에서 빠져나간 열)</li>
+<li>이 실험에서 일어난 에너지 전환을 태양 중심부부터 흐름도로 나타내 보자.</li>
+</ol>
+<aside class="callout warning"><p class="callout-title">주의</p><p><strong>안전 수칙</strong> 어떤 경우에도 태양을 맨눈이나 쌍안경·망원경으로 직접 보지 않는다. 오랜 시간 햇빛 아래에서 활동할 때는 모자를 쓰고 물을 충분히 마신다. 햇빛을 받은 캔은 뜨거울 수 있으니 장갑을 낀다.</p>
+</aside>
+<h3 id="활동-b-모둠별-39-에너지-족보-39-그리기">활동 B. 모둠별 &#39;에너지 족보&#39; 그리기</h3>
+<ol>
+<li>모둠마다 일상의 장면 카드를 하나씩 뽑는다(예: 전기 주전자로 라면 끓이기, 버스 타기, 풍력 발전기 아래에서 연 날리기, 갯벌의 조력 발전소, 온천욕).</li>
+<li>그 장면에서 쓰이는 에너지가 <strong>어디에서 왔는지</strong> 근원까지 거슬러 올라가 흐름도를 그린다.</li>
+<li>각 화살표 위에 &#39;어떤 에너지 → 어떤 에너지&#39;인지 쓰고, 열로 흩어지는 부분은 다른 색으로 표시한다.</li>
+<li>근원이 태양이 <strong>아닌</strong> 장면을 찾은 모둠은 그 근원(달의 인력, 지구 내부의 열, 핵에너지)을 발표한다.</li>
+</ol>
+<hr>
+<h2 id="개념-확인-문제">개념 확인 문제</h2>
+<h3 id="기본">기본</h3>
+<p><strong>1.</strong> 태양이 에너지를 만드는 방법으로 옳은 것은?
+① 수소가 산소와 결합하여 탄다.
+② 무거운 원자핵이 쪼개진다.
+③ 수소 원자핵이 융합하여 헬륨 원자핵이 된다.
+④ 태양 내부의 방사성 원소가 붕괴한다.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답 ③</strong></p>
+<p>태양 중심부에서는 수소 원자핵 4개가 핵융합하여 헬륨 원자핵 1개가 되며, 이때 줄어든 질량이 에너지로 바뀐다. ①은 연소(화학 반응), ②는 핵분열(원자력 발전)이다.</p>
+</div></details>
+
+<p><strong>2.</strong> 다음 중 에너지의 근원이 <strong>태양 복사 에너지가 아닌</strong> 것을 모두 고르시오.
+ㄱ. 풍력 ㄴ. 조력 ㄷ. 지열 ㄹ. 석유 ㅁ. 원자력 ㅂ. 수력</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답 ㄴ, ㄷ, ㅁ</strong></p>
+<p>조력은 달과 태양의 인력, 지열은 지구 내부의 열, 원자력은 우라늄의 핵에너지가 근원이다. 풍력·수력은 태양 에너지가 일으킨 대기 순환과 물의 순환, 석유는 과거 광합성으로 저장된 태양 에너지에서 온다.</p>
+</div></details>
+
+<p><strong>3.</strong> 빈칸에 알맞은 에너지의 형태를 쓰시오.
+&quot;바다의 물이 태양 에너지를 흡수하여 증발하고, 높은 산에 비로 내리면 물은 ( ㄱ ) 에너지를 갖게 된다. 이 물이 강을 따라 흐르면 ( ㄱ ) 에너지가 ( ㄴ ) 에너지로 전환된다.&quot;</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> ㄱ: 위치, ㄴ: 운동</p>
+<p>증발에 쓰인 태양 에너지가 결국 높은 곳에 있는 물의 위치 에너지가 되고, 흐르면서 운동 에너지로 바뀐다. 수력 발전은 이 에너지를 이용한다.</p>
+</div></details>
+
+<p><strong>4.</strong> 대기 상단에서 태양 빛에 수직으로 놓인 넓이 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">0.5</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span></span></span></span></span></span></span></span>의 판이 10초 동안 받는 태양 복사 에너지는 몇 J인가? (태양 상수는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord">1360</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">W/</span><span class="mord"><span class="mord mathrm">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span></span></span></span></span></span></span></span></span>로 한다.)</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">6800</span><span class="mspace"> </span><span class="mord mathrm">J</span></span></span></span></p>
+<p><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1360</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">0.5</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">6800</span><span class="mspace"> </span><span class="mord mathrm">J</span></span></span></span></p>
+</div></details>
+
+<h3 id="응용">응용</h3>
+<p><strong>5.</strong> 태양 중심부의 핵융합에 대한 설명으로 옳은 것만을 있는 대로 고르시오.
+ㄱ. 반응 전 수소 원자핵 4개의 질량 합은 반응 후 헬륨 원자핵 1개의 질량보다 크다.
+ㄴ. 원자핵들이 서로 밀어내는 힘을 이기려면 매우 높은 온도가 필요하다.
+ㄷ. 화학 반응과 같이 반응 전후의 질량이 보존된다.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답 ㄱ, ㄴ</strong></p>
+<p>ㄱ. 핵융합 후 질량이 줄어들고, 줄어든 질량이 에너지가 된다.
+ㄴ. 원자핵은 모두 (+)전하를 띠어 서로 밀어내므로, 매우 빠르게 충돌해야(고온) 융합할 수 있다.
+ㄷ. 질량 보존 법칙은 원자핵이 변하지 않는 화학 반응에서 성립한다. 핵융합에서는 질량이 줄어든다.</p>
+</div></details>
+
+<p><strong>6.</strong> 산 위의 저수지에 있는 물 500 kg이 40 m 아래의 발전기까지 내려온다.
+(1) 이 물이 처음 가진 위치 에너지는 몇 J인가?
+(2) 이 에너지가 근원적으로 어디에서 왔는지 물의 순환 과정을 이용하여 설명하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> (1) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">196</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace"> </span><span class="mord mathrm">J</span></span></span></span> (2) 해설 참고</p>
+<p>(1) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9694em;vertical-align:-0.2861em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0576em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">p</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">9.8</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">500</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">40</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">196</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace"> </span><span class="mord mathrm">J</span></span></span></span></p>
+<p>(2) 바다·땅의 물이 태양 에너지를 흡수하여 증발 → 수증기가 상승·응결하여 구름 → 비가 되어 산 위에 내림. 즉 태양 에너지가 물을 높은 곳으로 &#39;들어 올린&#39; 셈이므로, 이 위치 에너지의 근원은 태양 에너지이다.</p>
+</div></details>
+
+<p><strong>7.</strong> 적도 지방은 극지방보다 1년 동안 훨씬 많은 태양 에너지를 흡수하지만, 적도의 기온이 해마다 계속 올라가지는 않는다. 그 까닭을 지구의 에너지 흐름으로 설명하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+저위도는 흡수하는 에너지가 방출하는 에너지보다 많아 에너지가 남고, 고위도는 부족하다. 이 차이로 대기가 고르지 않게 가열되어 <strong>대기 대순환(바람)</strong> 이 일어나고, 바람이 <strong>해류</strong>를 일으킨다. 대기와 해수의 순환이 남는 에너지를 저위도에서 고위도로 운반하므로 적도의 기온이 계속 오르지 않는다.</p>
+<p><strong>채점 포인트</strong> ① 위도별 에너지 과잉·부족 ② 대기와 해수의 순환 ③ 저위도 → 고위도 에너지 운반</p>
+</div></details>
+
+<h3 id="융합-서술형">융합·서술형</h3>
+<p><strong>8. [산업 연계]</strong> 핵융합 연구 장치 KSTAR는 1억 ℃가 넘는 플라스마를 만든다. 태양 중심부의 온도(약 1,500만 K)보다 훨씬 높은 온도가 필요한 까닭과, 이렇게 뜨거운 플라스마를 그릇에 담지 않고 자기장으로 가두는 까닭을 각각 서술하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+(1) 태양은 질량이 매우 커서 중력이 연료를 강하게 눌러 중심부의 밀도와 압력이 매우 높다. 원자핵끼리 부딪힐 기회가 많으므로 비교적 낮은 온도에서도 핵융합이 충분히 일어난다. 지구의 장치는 이런 중력이 없어 연료의 밀도가 훨씬 낮으므로, 온도를 더 높여 원자핵을 더 빠르게 움직이게 해야 서로 밀어내는 힘을 이기고 충분히 자주 융합할 수 있다.
+(2) 1억 ℃가 넘는 플라스마가 벽에 닿으면 벽이 녹거나 손상되고, 플라스마도 순식간에 식어 반응이 멈춘다. 플라스마는 전하를 띤 입자들로 이루어져 있으므로 자기장으로 공중에 띄워 벽에 닿지 않게 가둘 수 있다.</p>
+<p><strong>채점 포인트</strong> ① 태양의 중력·고밀도와 장치의 저밀도 비교 ② 원자핵 사이의 반발을 이기는 고온 ③ 플라스마가 전하를 띤 입자임을 이용한 자기장 가둠</p>
+</div></details>
+
+<p><strong>9. [생명·지구 연계]</strong> 석탄 화력 발전소에서 만든 전기로 교실 전등을 켰다.
+(1) 전등에서 나오는 빛에너지의 근원을 태양 중심부까지 거슬러 올라가는 에너지 전환 흐름도로 나타내시오.
+(2) 같은 &#39;태양 에너지에서 온&#39; 자원이라도 석탄은 재생 불가능한 자원이고 바람은 재생 가능한 자원으로 분류되는 까닭을 설명하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+(1) 태양 중심부의 핵융합(핵에너지) → 햇빛(빛에너지) → 고대 식물의 광합성(화학 에너지) → 땅속에 묻혀 석탄이 됨(화학 에너지) → 발전소에서 연소(열에너지) → 증기가 터빈을 돌림(운동 에너지) → 발전기(전기 에너지) → 전등(빛에너지, 열에너지)
+(2) 석탄은 수억 년 전의 광합성 산물이 오랜 시간 땅속에서 변해 만들어진 것이라, 한번 쓰면 인간의 시간 기준으로는 다시 만들어지지 않는다. 바람은 지금 이 순간에도 태양 에너지가 대기를 고르지 않게 데우며 계속 만들어지므로 다시 채워진다.</p>
+<p><strong>채점 포인트</strong> ① 광합성 → 화석 연료 → 연소 → 발전의 순서 ② 생성에 걸리는 시간의 차이 ③ &#39;지금 공급되는 태양 에너지&#39;와 &#39;과거에 저장된 태양 에너지&#39;의 구분</p>
+</div></details>
+
+<hr>
+<h2 id="한눈에-정리">한눈에 정리</h2>
+<h3 id="핵심-요약">핵심 요약</h3>
+<ul>
+<li>태양 중심핵에서는 <strong>수소 원자핵 4개가 헬륨 원자핵 1개로 핵융합</strong>한다. 반응 후 <strong>질량이 줄어들고, 줄어든 질량이 에너지</strong>로 바뀐다.</li>
+<li>태양 에너지는 진공인 우주 공간을 <strong>복사</strong>로 건너 약 8분 20초 만에 지구에 도착한다. 대기 상단에서 수직인 면 1 m²는 1초에 약 1360 J을 받는다(태양 상수).</li>
+<li>지구에 도착한 에너지의 약 30%는 반사되고, 약 70%는 흡수되어 지구의 <strong>에너지 흐름</strong>을 일으킨 뒤 결국 적외선으로 우주에 방출된다.</li>
+<li>위도별 불균등 가열 → <strong>대기·해수 순환</strong>(바람, 해류, 파도). 증발·강수 → <strong>물의 순환</strong>(강물의 위치 에너지). <strong>광합성</strong> → 화학 에너지 → 먹이 사슬, 화석 연료.</li>
+<li>풍력, 수력, 파력, 바이오, 화석 연료, 태양광·태양열의 근원은 태양이다. <strong>조력, 지열, 원자력</strong>은 예외이다.</li>
+<li>에너지는 여러 형태로 전환되며 <strong>총량은 보존</strong>되지만, 전환될 때마다 일부가 열로 흩어진다.</li>
+</ul>
+<h3 id="핵심-용어">핵심 용어</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>용어</th>
+<th>뜻</th>
+</tr>
+</thead><tbody><tr>
+<td>핵융합</td>
+<td>가벼운 원자핵들이 합쳐져 더 무거운 원자핵이 되는 반응. 질량이 줄며 에너지가 나온다</td>
+</tr>
+<tr>
+<td>플라스마</td>
+<td>매우 높은 온도에서 원자핵과 전자가 분리되어 떠다니는 물질의 상태</td>
+</tr>
+<tr>
+<td>태양 상수</td>
+<td>대기 상단에서 태양 빛에 수직인 면 1 m²가 1초 동안 받는 태양 복사 에너지(약 1360 W/m²)</td>
+</tr>
+<tr>
+<td>복사</td>
+<td>물질의 도움 없이 전자기파로 에너지가 전달되는 방식</td>
+</tr>
+<tr>
+<td>에너지 흐름</td>
+<td>지구에 흡수된 태양 에너지가 대기·해수·물·생물을 거치며 형태를 바꾸어 이동하는 과정</td>
+</tr>
+<tr>
+<td>에너지 전환</td>
+<td>에너지가 한 형태에서 다른 형태로 바뀌는 것</td>
+</tr>
+<tr>
+<td>화석 연료</td>
+<td>과거 생물의 유해가 땅속에서 변해 만들어진 연료. 과거에 저장된 태양 에너지</td>
+</tr>
+<tr>
+<td>에너지 보존 법칙</td>
+<td>에너지가 전환되어도 에너지의 총량은 변하지 않는다는 법칙</td>
+</tr>
+</tbody></table></div>
+<h3 id="다음-단원으로">다음 단원으로</h3>
+<p>태양 에너지는 바람과 강물, 화석 연료 등 여러 모습으로 지구에 저장되어 있다. 하지만 우리가 집과 학교에서 가장 편리하게 쓰는 에너지는 <strong>전기 에너지</strong>이다. 다음 단원에서는 터빈의 <strong>운동 에너지가 발전기에서 어떻게 전기 에너지로 바뀌는지</strong>, 그리고 화석 연료와 핵에너지를 쓰는 발전소가 우리 생활에 어떤 영향을 주는지 탐구한다.</p>
+<nav class="pager"><a class="prev" href="5-3.html"><small>이전 단원</small>5-3 지구온난화와 기후변화</a><a class="next" href="5-5.html"><small>다음 단원</small>5-5 발전기와 전기 에너지</a></nav></article></div>
+</main>
+</div>
+</body>
+</html>

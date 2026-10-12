@@ -1,0 +1,921 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>2-1 빛의 스펙트럼과 우주 초기 원소</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css">
+<link rel="stylesheet" href="assets/book.css">
+<script src="assets/js/book.js" defer></script>
+
+</head>
+<body class="">
+<header class="topbar">
+  <button class="menu-btn" id="menu-btn" aria-controls="drawer" aria-expanded="false">목차</button>
+  <a class="brand" href="index.html">통합과학 개념에서 산업까지</a>
+  <button class="theme-btn" id="theme-btn" aria-label="밝은 화면과 어두운 화면 바꾸기">화면</button>
+</header>
+<div class="shell">
+<aside class="drawer" id="drawer"><nav class="book-nav" aria-label="교재 목차"><a class="nav-home" href="index.html">처음으로</a><p class="nav-book">통합과학1</p><p class="nav-unit"><span>1단원</span> 과학의 기초</p><ul><li><a href="1-1.html"><span class="nav-id">1-1</span>시간과 공간</a></li><li><a href="1-2.html"><span class="nav-id">1-2</span>기본량과 단위</a></li><li><a href="1-3.html"><span class="nav-id">1-3</span>측정과 어림, 측정 표준</a></li><li><a href="1-4.html"><span class="nav-id">1-4</span>정보와 신호: 아날로그에서 디지털로</a></li></ul><p class="nav-unit"><span>2단원</span> 물질과 규칙성</p><ul><li><a href="2-1.html" aria-current="page"><span class="nav-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="2-2.html"><span class="nav-id">2-2</span>별의 진화와 원소의 생성</a></li><li><a href="2-3.html"><span class="nav-id">2-3</span>원소의 주기성과 화학 결합의 이유</a></li><li><a href="2-4.html"><span class="nav-id">2-4</span>이온 결합과 공유 결합</a></li><li><a href="2-5.html"><span class="nav-id">2-5</span>지각과 생명체 구성 물질의 규칙성</a></li><li><a href="2-6.html"><span class="nav-id">2-6</span>물질의 전기적 성질과 소재</a></li></ul><p class="nav-unit"><span>3단원</span> 시스템과 상호작용</p><ul><li><a href="3-1.html"><span class="nav-id">3-1</span>지구시스템의 구성과 상호작용</a></li><li><a href="3-2.html"><span class="nav-id">3-2</span>판구조론과 지권의 변화</a></li><li><a href="3-3.html"><span class="nav-id">3-3</span>중력과 운동</a></li><li><a href="3-4.html"><span class="nav-id">3-4</span>운동량과 충격량</a></li><li><a href="3-5.html"><span class="nav-id">3-5</span>생명 시스템과 물질대사</a></li><li><a href="3-6.html"><span class="nav-id">3-6</span>유전자와 단백질</a></li></ul><p class="nav-book">통합과학2</p><p class="nav-unit"><span>4단원</span> 변화와 다양성</p><ul><li><a href="4-1.html"><span class="nav-id">4-1</span>지질시대의 환경 변화와 생물다양성</a></li><li><a href="4-2.html"><span class="nav-id">4-2</span>진화와 생물다양성</a></li><li><a href="4-3.html"><span class="nav-id">4-3</span>산화와 환원</a></li><li><a href="4-4.html"><span class="nav-id">4-4</span>산과 염기, 중화 반응</a></li><li><a href="4-5.html"><span class="nav-id">4-5</span>물질 변화와 에너지 출입</a></li></ul><p class="nav-unit"><span>5단원</span> 환경과 에너지</p><ul><li><a href="5-1.html"><span class="nav-id">5-1</span>생태계 구성 요소와 상호 관계</a></li><li><a href="5-2.html"><span class="nav-id">5-2</span>생태계 평형</a></li><li><a href="5-3.html"><span class="nav-id">5-3</span>지구온난화와 기후변화</a></li><li><a href="5-4.html"><span class="nav-id">5-4</span>태양 에너지와 에너지 전환</a></li><li><a href="5-5.html"><span class="nav-id">5-5</span>발전기와 전기 에너지</a></li><li><a href="5-6.html"><span class="nav-id">5-6</span>에너지 효율과 신재생 에너지</a></li></ul><p class="nav-unit"><span>6단원</span> 과학과 미래 사회</p><ul><li><a href="6-1.html"><span class="nav-id">6-1</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html"><span class="nav-id">6-2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html"><span class="nav-id">6-3</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html"><span class="nav-id">6-4</span>과학기술과 윤리</a></li></ul><p class="nav-book">부록</p><ul><li><a href="guide.html">교재 설계 안내</a></li><li><a href="appendix-standards.html">부록 1. 교육과정 성취기준</a></li><li><a href="appendix-map.html">부록 2. 연계 지도</a></li><li><a href="appendix-glossary.html">부록 3. 핵심 용어 사전</a></li></ul></nav></aside>
+<main class="main" id="main">
+<div class="lesson-grid"><nav class="ladder" aria-label="이 단원의 흐름"><p class="ladder-title">이 단원의 흐름</p><ol><li class="extra"><a href="#단원-들어가기">단원 들어가기</a></li><li class="s1"><a href="#step-1"><b>STEP 1</b> 중학교 다시 보기</a></li><li class="s2"><a href="#step-2"><b>STEP 2</b> 기초 다지기</a></li><li class="s3"><a href="#step-3"><b>STEP 3</b> 핵심 개념</a></li><li class="s4"><a href="#step-4"><b>STEP 4</b> 오개념 바로잡기</a></li><li class="s5"><a href="#step-5"><b>STEP 5</b> 선택과목·대학으로 한 걸음 더</a></li><li class="s6"><a href="#step-6"><b>STEP 6</b> 산업 현장과 진로 연결</a></li><li class="extra"><a href="#탐구-활동-분광기로-다양한-물질의-스펙트럼-관찰-비교하기">탐구 활동 — 분광기로 다양한 물질의 스펙트럼 관찰·비교하기</a></li><li class="extra"><a href="#개념-확인-문제">개념 확인 문제</a></li><li class="extra"><a href="#한눈에-정리">한눈에 정리</a></li></ol></nav><article class="prose lesson"><header class="lesson-hero u2">
+  <p class="eyebrow">통합과학1 · 2단원 물질과 규칙성</p>
+  <h1><span class="lesson-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</h1>
+  <p class="lesson-sub">빛으로 읽는 우주의 성분표</p>
+</header><aside class="callout note"><p class="callout-title">성취기준·참고</p><p><strong>성취기준 [10통과1-02-01]</strong> 천체에서 방출되는 빛의 스펙트럼을 분석하여 우주 초기에 형성된 원소와 천체의 구성 물질을 추론할 수 있다.</p>
+</aside>
+<p><strong>학습 목표</strong></p>
+<ol>
+<li>연속 스펙트럼, 선 스펙트럼(방출 스펙트럼), 흡수 스펙트럼을 구분하고 각각이 생기는 조건을 설명할 수 있다.</li>
+<li>분광기로 수소의 선 스펙트럼을 관찰하고, 원소마다 고유한 선 스펙트럼을 이용해 원소를 확인할 수 있음을 설명할 수 있다.</li>
+<li>빅뱅 우주론에 따라 우주 초기에 수소와 헬륨이 만들어진 과정을 설명하고, 수소와 헬륨의 질량비가 약 3:1이 되는 까닭을 계산으로 보일 수 있다.</li>
+<li>별과 우주의 스펙트럼 자료를 분석하여 천체의 구성 원소를 추론하고, 수소와 헬륨이 현재 우주의 주요 구성 원소임을 파악할 수 있다.</li>
+</ol>
+<p><strong>이 단원의 학습 사다리</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>단계</th>
+<th>무엇을 하나?</th>
+</tr>
+</thead><tbody><tr>
+<td>STEP 1. 중학교 다시 보기</td>
+<td>빛의 색, 파동, 원자의 구조, 우주 팽창을 다시 꺼내 본다</td>
+</tr>
+<tr>
+<td>STEP 2. 기초 다지기</td>
+<td>파장과 나노미터, 빛의 분해, 원자와 원자핵, 질량비와 개수비를 디딤돌로 놓는다</td>
+</tr>
+<tr>
+<td>STEP 3. 핵심 개념</td>
+<td>스펙트럼의 종류 → 원소의 지문 → 수소 선 스펙트럼 → 빅뱅과 우주 초기 원소 → 천체의 성분 추론</td>
+</tr>
+<tr>
+<td>STEP 4. 오개념 바로잡기</td>
+<td>&quot;흡수선은 빛이 전혀 없는 곳?&quot;, &quot;3:1은 개수 비?&quot; 같은 착각을 바로잡는다</td>
+</tr>
+<tr>
+<td>STEP 5. 선택과목·대학</td>
+<td>원자의 에너지 준위, 별의 온도와 빛, 적색 편이와 허블 법칙</td>
+</tr>
+<tr>
+<td>STEP 6. 산업·진로</td>
+<td>천문 분광 관측, 원소 분석 장비, 반도체 공정 감시, 환경 위성</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="단원-들어가기">단원 들어가기</h2>
+<p>1835년, 프랑스의 철학자 콩트는 &quot;별이 무엇으로 이루어져 있는지는 인류가 영원히 알 수 없을 것&quot;이라고 썼다. 별까지 가서 돌멩이 하나 가져올 수 없으니 그럴듯한 말이었다. 그런데 불과 수십 년 뒤, 과학자들은 태양에 수소·나트륨·철이 있다는 것을 알아냈고, 심지어 지구에서는 아직 발견되지 않은 새 원소까지 태양에서 먼저 찾아냈다. 그 원소의 이름이 그리스어로 &#39;태양&#39;을 뜻하는 <strong>헬륨(helium)</strong> 이다.</p>
+<p>과학자들이 손에 쥔 것은 별에서 온 <strong>빛 한 줄기</strong>뿐이었다. 빛을 무지개처럼 펼친 띠, 곧 <strong>스펙트럼</strong> 속에 원소마다 다른 &#39;바코드&#39;가 숨어 있었던 것이다. 이 단원에서는 빛의 바코드를 읽는 법을 배우고, 그 바코드로 <strong>우주가 처음 생겨났을 때 어떤 원소가 만들어졌는지</strong>까지 추론해 본다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-2-1-0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 1566.21875 204" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-2-1-0{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-2-1-0 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-2-1-0 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-2-1-0 .error-icon{fill:var(--mm-group);}#mm-2-1-0 .error-text{fill:#595959;stroke:#595959;}#mm-2-1-0 .edge-thickness-normal{stroke-width:1px;}#mm-2-1-0 .edge-thickness-thick{stroke-width:3.5px;}#mm-2-1-0 .edge-pattern-solid{stroke-dasharray:0;}#mm-2-1-0 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-2-1-0 .edge-pattern-dashed{stroke-dasharray:3;}#mm-2-1-0 .edge-pattern-dotted{stroke-dasharray:2;}#mm-2-1-0 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-2-1-0 .marker.cross{stroke:var(--mm-line);}#mm-2-1-0 svg{font-family:inherit;font-size:15px;}#mm-2-1-0 p{margin:0;}#mm-2-1-0 .label{font-family:inherit;color:var(--mm-text);}#mm-2-1-0 .cluster-label text{fill:#595959;}#mm-2-1-0 .cluster-label span{color:#595959;}#mm-2-1-0 .cluster-label span p{background-color:transparent;}#mm-2-1-0 .label text,#mm-2-1-0 span{fill:var(--mm-text);color:var(--mm-text);}#mm-2-1-0 .node rect,#mm-2-1-0 .node circle,#mm-2-1-0 .node ellipse,#mm-2-1-0 .node polygon,#mm-2-1-0 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-2-1-0 .rough-node .label text,#mm-2-1-0 .node .label text,#mm-2-1-0 .image-shape .label,#mm-2-1-0 .icon-shape .label{text-anchor:middle;}#mm-2-1-0 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-2-1-0 .rough-node .label,#mm-2-1-0 .node .label,#mm-2-1-0 .image-shape .label,#mm-2-1-0 .icon-shape .label{text-align:center;}#mm-2-1-0 .node.clickable{cursor:pointer;}#mm-2-1-0 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-2-1-0 .arrowheadPath{fill:#0b0b0b;}#mm-2-1-0 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-2-1-0 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-2-1-0 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-2-1-0 .edgeLabel p{background-color:var(--mm-label);}#mm-2-1-0 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-2-1-0 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-2-1-0 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-2-1-0 .cluster text{fill:#595959;}#mm-2-1-0 .cluster span{color:#595959;}#mm-2-1-0 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-2-1-0 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-2-1-0 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-2-1-0 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-2-1-0 rect.text{fill:none;stroke-width:0;}#mm-2-1-0 .icon-shape,#mm-2-1-0 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-2-1-0 .icon-shape p,#mm-2-1-0 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-2-1-0 .icon-shape .label rect,#mm-2-1-0 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-2-1-0 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-2-1-0 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-2-1-0 .node .neo-node{stroke:var(--mm-border);}#mm-2-1-0 [data-look="neo"].node rect,#mm-2-1-0 [data-look="neo"].cluster rect,#mm-2-1-0 [data-look="neo"].node polygon{stroke:url(#mm-2-1-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-1-0 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-2-1-0 [data-look="neo"].node path{stroke:url(#mm-2-1-0-gradient);stroke-width:1px;}#mm-2-1-0 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-1-0 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-2-1-0 [data-look="neo"].node circle{stroke:url(#mm-2-1-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-1-0 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-2-1-0 [data-look="neo"].icon-shape .icon{fill:url(#mm-2-1-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-1-0 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-2-1-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-1-0 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-2-1-0_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-0_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-0_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-0_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-0_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-0_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-0_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-0_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-0_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-0_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-0_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-2-1-0_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M203.516,161.5L207.682,161.5C211.849,161.5,220.182,161.5,227.849,161.5C235.516,161.5,242.516,161.5,246.016,161.5L249.516,161.5" id="mm-2-1-0-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MjAzLjUxNTYyNSwieSI6MTYxLjV9LHsieCI6MjI4LjUxNTYyNSwieSI6MTYxLjV9LHsieCI6MjUzLjUxNTYyNSwieSI6MTYxLjV9XQ==" data-look="classic" marker-end="url(#mm-2-1-0_flowchart-v2-pointEnd)"/><path d="M429.859,161.5L434.026,161.5C438.193,161.5,446.526,161.5,454.193,161.5C461.859,161.5,468.859,161.5,472.359,161.5L475.859,161.5" id="mm-2-1-0-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6NDI5Ljg1OTM3NSwieSI6MTYxLjV9LHsieCI6NDU0Ljg1OTM3NSwieSI6MTYxLjV9LHsieCI6NDc5Ljg1OTM3NSwieSI6MTYxLjV9XQ==" data-look="classic" marker-end="url(#mm-2-1-0_flowchart-v2-pointEnd)"/><path d="M612.859,161.5L617.026,161.5C621.193,161.5,629.526,161.5,637.193,161.5C644.859,161.5,651.859,161.5,655.359,161.5L658.859,161.5" id="mm-2-1-0-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6NjEyLjg1OTM3NSwieSI6MTYxLjV9LHsieCI6NjM3Ljg1OTM3NSwieSI6MTYxLjV9LHsieCI6NjYyLjg1OTM3NSwieSI6MTYxLjV9XQ==" data-look="classic" marker-end="url(#mm-2-1-0_flowchart-v2-pointEnd)"/><path d="M839.203,161.5L843.37,161.5C847.536,161.5,855.87,161.5,865.549,161.5C875.229,161.5,886.255,161.5,891.768,161.5L897.281,161.5" id="mm-2-1-0-L_D_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_E_0" data-points="W3sieCI6ODM5LjIwMzEyNSwieSI6MTYxLjV9LHsieCI6ODY0LjIwMzEyNSwieSI6MTYxLjV9LHsieCI6OTAxLjI4MTI1LCJ5IjoxNjEuNX1d" data-look="classic" marker-end="url(#mm-2-1-0_flowchart-v2-pointEnd)"/><path d="M1104.703,42.5L1108.87,42.5C1113.036,42.5,1121.37,42.5,1132.368,42.5C1143.367,42.5,1157.031,42.5,1163.863,42.5L1170.695,42.5" id="mm-2-1-0-L_F_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_F_G_0" data-points="W3sieCI6MTEwNC43MDMxMjUsInkiOjQyLjV9LHsieCI6MTEyOS43MDMxMjUsInkiOjQyLjV9LHsieCI6MTE3NC42OTUzMTI1LCJ5Ijo0Mi41fV0=" data-look="classic" marker-end="url(#mm-2-1-0_flowchart-v2-pointEnd)"/><path d="M1092.625,161.5L1098.805,161.5C1104.984,161.5,1117.344,161.5,1127.023,161.5C1136.703,161.5,1143.703,161.5,1147.203,161.5L1150.703,161.5" id="mm-2-1-0-L_E_H_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_H_0" data-points="W3sieCI6MTA5Mi42MjUsInkiOjE2MS41fSx7IngiOjExMjkuNzAzMTI1LCJ5IjoxNjEuNX0seyJ4IjoxMTU0LjcwMzEyNSwieSI6MTYxLjV9XQ==" data-look="classic" marker-end="url(#mm-2-1-0_flowchart-v2-pointEnd)"/><path d="M1311.883,42.5L1319.382,42.5C1326.88,42.5,1341.878,42.5,1360.278,48.231C1378.678,53.963,1400.481,65.426,1411.382,71.157L1422.284,76.889" id="mm-2-1-0-L_G_I_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_G_I_0" data-points="W3sieCI6MTMxMS44ODI4MTI1LCJ5Ijo0Mi41fSx7IngiOjEzNTYuODc1LCJ5Ijo0Mi41fSx7IngiOjE0MjUuODI0MjUxNTc1NjMwMywieSI6NzguNzV9XQ==" data-look="classic" marker-end="url(#mm-2-1-0_flowchart-v2-pointEnd)"/><path d="M1331.875,161.5L1336.042,161.5C1340.208,161.5,1348.542,161.5,1363.61,155.769C1378.678,150.037,1400.481,138.574,1411.382,132.843L1422.284,127.111" id="mm-2-1-0-L_H_I_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_H_I_0" data-points="W3sieCI6MTMzMS44NzUsInkiOjE2MS41fSx7IngiOjEzNTYuODc1LCJ5IjoxNjEuNX0seyJ4IjoxNDI1LjgyNDI1MTU3NTYzMDMsInkiOjEyNS4yNX1d" data-look="classic" marker-end="url(#mm-2-1-0_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_F_G_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_H_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_G_I_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_H_I_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-2-1-0-flowchart-A-0" data-look="classic" transform="translate(105.7578125, 161.5)"><rect class="basic label-container" style="" x="-97.7578125" y="-34.5" width="195.515625" height="69"/><g class="label" style="" transform="translate(-73.7578125, -22.5)"><rect/><foreignObject width="147.515625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>빛<br />파장에 따라 색이 다름</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-1-0-flowchart-B-1" data-look="classic" transform="translate(341.6875, 161.5)"><rect class="basic label-container" style="" x="-88.171875" y="-34.5" width="176.34375" height="69"/><g class="label" style="" transform="translate(-64.171875, -22.5)"><rect/><foreignObject width="128.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>분광기<br />빛을 파장별로 분해</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-1-0-flowchart-C-3" data-look="classic" transform="translate(546.359375, 161.5)"><rect class="basic label-container" style="" x="-66.5" y="-34.5" width="133" height="69"/><g class="label" style="" transform="translate(-42.5, -22.5)"><rect/><foreignObject width="85" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>스펙트럼<br />연속·선·흡수</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-1-0-flowchart-D-5" data-look="classic" transform="translate(751.03125, 161.5)"><rect class="basic label-container" style="" x="-88.171875" y="-34.5" width="176.34375" height="69"/><g class="label" style="" transform="translate(-64.171875, -22.5)"><rect/><foreignObject width="128.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>원소의 지문<br />원소마다 고유한 선</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-1-0-flowchart-E-7" data-look="classic" transform="translate(996.953125, 161.5)"><rect class="basic label-container" style="" x="-95.671875" y="-34.5" width="191.34375" height="69"/><g class="label" style="" transform="translate(-71.671875, -22.5)"><rect/><foreignObject width="143.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>별과 우주의 스펙트럼<br />구성 원소 추론</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-1-0-flowchart-F-8" data-look="classic" transform="translate(996.953125, 42.5)"><rect class="basic label-container" style="" x="-107.75" y="-34.5" width="215.5" height="69"/><g class="label" style="" transform="translate(-83.75, -22.5)"><rect/><foreignObject width="167.5" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>빅뱅 우주론<br />우주 초기 수소·헬륨 생성</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-1-0-flowchart-G-9" data-look="classic" transform="translate(1243.2890625, 42.5)"><rect class="basic label-container" style="" x="-68.59375" y="-34.5" width="137.1875" height="69"/><g class="label" style="" transform="translate(-44.59375, -22.5)"><rect/><foreignObject width="89.1875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>예측<br />질량비 약 3:1</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-1-0-flowchart-H-11" data-look="classic" transform="translate(1243.2890625, 161.5)"><rect class="basic label-container" style="" x="-88.5859375" y="-34.5" width="177.171875" height="69"/><g class="label" style="" transform="translate(-64.5859375, -22.5)"><rect/><foreignObject width="129.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>관측<br />수소·헬륨이 대부분</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-1-0-flowchart-I-13" data-look="classic" transform="translate(1470.046875, 102)"><rect class="basic label-container" style="" x="-88.171875" y="-23.25" width="176.34375" height="46.5"/><g class="label" style="" transform="translate(-64.171875, -11.25)"><rect/><foreignObject width="128.34375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>이론과 관측의 일치</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-2-1-0-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-2-1-0-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-2-1-0-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><hr>
+<h2 id="step-1" class="step-h s1"><span class="step-badge s1">STEP 1</span><span class="h-text">중학교 다시 보기</span></h2>
+<h3 id="연계-개념표">연계 개념표</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>중학교 성취기준</th>
+<th>중학교에서 배운 것</th>
+<th>고등학교에서 확장되는 것</th>
+</tr>
+</thead><tbody><tr>
+<td>[9과10-03]</td>
+<td>물체의 색은 반사되는 빛의 색으로 결정된다. 빛의 삼원색을 합성하면 여러 색을 만든다</td>
+<td>반대로 <strong>백색광을 색깔별로 분해</strong>하여 스펙트럼을 얻는다</td>
+</tr>
+<tr>
+<td>[9과10-04]</td>
+<td>파동은 진폭, 진동수, 파장으로 나타낸다</td>
+<td>빛도 파동이며, <strong>파장에 따라 색이 다르다.</strong> 스펙트럼은 &#39;파장별 빛의 세기&#39; 그래프이다</td>
+</tr>
+<tr>
+<td>[9과11-02]</td>
+<td>원자는 양성자, 중성자, 전자로 이루어지며 양성자 수가 원소의 종류를 정한다</td>
+<td>수소 원자핵(양성자 1개), 헬륨 원자핵(양성자 2개 + 중성자 2개)이 <strong>우주 초기에 만들어진 과정</strong></td>
+</tr>
+<tr>
+<td>[9과15-01]</td>
+<td>별의 표면 온도는 별의 색으로 비교할 수 있다</td>
+<td>별의 색은 <strong>연속 스펙트럼</strong>에서 어느 색이 강한지로 정해진다</td>
+</tr>
+<tr>
+<td>[9과15-03]</td>
+<td>모형(풍선 등)을 이용하여 우주가 팽창하고 있음을 설명한다</td>
+<td>팽창을 거꾸로 돌려 <strong>빅뱅 우주론</strong>과 우주 초기 원소의 생성을 설명한다</td>
+</tr>
+<tr>
+<td>[9과07-02]</td>
+<td>태양의 표면과 대기에서 일어나는 현상(흑점, 홍염, 코로나 등)</td>
+<td>태양 대기를 지나온 빛의 <strong>흡수 스펙트럼</strong>으로 태양의 구성 원소를 알아낸다</td>
+</tr>
+</tbody></table></div>
+<h3 id="준비-운동-사전-진단">준비 운동 (사전 진단)</h3>
+<p><strong>Q1.</strong> 햇빛을 프리즘에 통과시키면 여러 색의 띠가 나타난다. 이것은 프리즘이 햇빛에 색을 &#39;칠한&#39; 것이다. (O / X)</p>
+<p><strong>Q2.</strong> 빨간빛과 보랏빛 중 파장이 더 긴 것은?</p>
+<p><strong>Q3.</strong> 원자가 전기적으로 중성인 까닭을 양성자와 전자의 수로 설명하시오.</p>
+<p><strong>Q4.</strong> 풍선 위에 점을 찍고 풍선을 불면 점 사이의 거리는 어떻게 변하는가? 이 모형은 우주의 어떤 모습을 나타내는가?</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>Q1. X</strong> — 햇빛(백색광)에는 처음부터 여러 색의 빛이 섞여 있다. 프리즘은 색마다 꺾이는 정도가 달라서 섞여 있던 빛을 <strong>나누어 보여 줄 뿐</strong>이다.</p>
+<p><strong>Q2. 빨간빛</strong> — 가시광선 중 빨간빛은 파장이 가장 길고, 보랏빛은 가장 짧다.</p>
+<p><strong>Q3.</strong> 원자 속 양성자(+) 수와 전자(−) 수가 같아서 전하의 합이 0이기 때문이다.</p>
+<p><strong>Q4.</strong> 모든 점 사이의 거리가 멀어진다. 우주가 팽창하면서 은하들 사이의 거리가 멀어지는 모습을 나타낸다. 어느 점에서 보아도 다른 점들이 멀어지므로 &#39;우주의 중심&#39;은 따로 없다.</p>
+</div></details>
+
+<hr>
+<h2 id="step-2" class="step-h s2"><span class="step-badge s2">STEP 2</span><span class="h-text">기초 다지기</span></h2>
+<h3 id="①-빛은-파동이다-파장과-나노미터">① 빛은 파동이다 — 파장과 나노미터</h3>
+<p>중학교에서 소리를 파동으로 배웠듯이, 빛도 파동이다. 파동에서 마루와 마루 사이의 거리를 <strong>파장(wavelength)</strong> 이라고 한다. 빛의 파장은 매우 짧아서 <strong>나노미터(nm)</strong> 단위를 쓴다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">nm</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8641em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">9</span></span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord mathrm">m</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace"> </span><span class="mord mathrm">m</span></span></span></span></span></p>
+<ul>
+<li>사람 눈에 보이는 빛, 곧 <strong>가시광선</strong>의 파장은 약 400~700 nm이다.</li>
+<li>파장이 짧은 쪽부터 보라 → 파랑 → 초록 → 노랑 → 주황 → 빨강 순이다.</li>
+<li>가시광선보다 파장이 짧은 빛은 자외선, 긴 빛은 적외선이다. 눈에는 보이지 않지만 장비로는 관측할 수 있다.</li>
+</ul>
+<div class="table-wrap"><table><thead><tr>
+<th>색</th>
+<th>대략적인 파장 범위(nm)</th>
+</tr>
+</thead><tbody><tr>
+<td>보라</td>
+<td>약 400~450</td>
+</tr>
+<tr>
+<td>파랑</td>
+<td>약 450~495</td>
+</tr>
+<tr>
+<td>초록</td>
+<td>약 495~570</td>
+</tr>
+<tr>
+<td>노랑</td>
+<td>약 570~590</td>
+</tr>
+<tr>
+<td>주황</td>
+<td>약 590~620</td>
+</tr>
+<tr>
+<td>빨강</td>
+<td>약 620~700</td>
+</tr>
+</tbody></table></div>
+<p>(색의 경계는 사람마다, 자료마다 조금씩 다르다.)</p>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 머리카락 굵기가 약 0.1 mm = 100 000 nm이다. 빨간빛의 파장(약 650 nm)은 머리카락 굵기의 약 150분의 1에 불과하다.</p>
+</aside>
+<h3 id="②-빛을-펼쳐-보는-도구-프리즘과-회절-격자">② 빛을 펼쳐 보는 도구 — 프리즘과 회절 격자</h3>
+<p><strong>스펙트럼(spectrum)</strong> 은 빛을 파장(색)에 따라 나누어 늘어놓은 띠이다. 빛을 나누는 방법은 두 가지가 대표적이다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>도구</th>
+<th>원리(정성적)</th>
+<th>예</th>
+</tr>
+</thead><tbody><tr>
+<td>프리즘</td>
+<td>색(파장)마다 꺾이는 정도가 달라 빛이 나뉜다</td>
+<td>무지개(물방울이 프리즘 역할)</td>
+</tr>
+<tr>
+<td>회절 격자</td>
+<td>아주 촘촘한 홈에서 빛이 퍼지고 겹치며 색이 나뉜다</td>
+<td>CD·DVD 뒷면에 비친 무지갯빛</td>
+</tr>
+</tbody></table></div>
+<p>빛을 스펙트럼으로 나누어 관찰하는 장치를 <strong>분광기(spectroscope)</strong> 라 한다. 학교에서는 회절 격자 필름과 종이 상자로 간단한 분광기를 직접 만들 수 있다.</p>
+<h3 id="③-원자-원자핵-그리고-39-전자를-잃은-원자-39">③ 원자, 원자핵, 그리고 &#39;전자를 잃은 원자&#39;</h3>
+<ul>
+<li><strong>원자</strong> = 원자핵(양성자 + 중성자) + 전자</li>
+<li><strong>원자핵</strong>은 원자의 중심에 있으며 원자 질량의 거의 전부를 차지한다.</li>
+<li>양성자와 중성자의 질량은 거의 같고, 전자는 그보다 약 2000분의 1 정도로 매우 가볍다.</li>
+</ul>
+<div class="table-wrap"><table><thead><tr>
+<th>원소</th>
+<th>원자핵의 구성</th>
+<th>원자의 전자 수</th>
+</tr>
+</thead><tbody><tr>
+<td>수소(H)</td>
+<td>양성자 1개</td>
+<td>1개</td>
+</tr>
+<tr>
+<td>헬륨(He)</td>
+<td>양성자 2개 + 중성자 2개</td>
+<td>2개</td>
+</tr>
+</tbody></table></div>
+<p>온도가 아주 높으면 원자는 전자를 붙잡지 못하고, 원자핵과 전자가 따로따로 흩어져 돌아다닌다. 우주 초기에는 우주 전체가 이런 뜨거운 상태였다는 것이 이 단원의 중요한 장면이 된다.</p>
+<h3 id="④-질량비와-개수비는-다르다-수학-도구">④ 질량비와 개수비는 다르다 — 수학 도구</h3>
+<p>수소 원자핵 12개와 헬륨 원자핵 1개가 있다고 하자. 양성자와 중성자의 질량을 각각 1로 어림하면</p>
+<ul>
+<li><strong>개수비</strong> 수소 : 헬륨 = 12 : 1</li>
+<li><strong>질량비</strong> 수소 : 헬륨 = (12 × 1) : (1 × 4) = 12 : 4 = <strong>3 : 1</strong></li>
+</ul>
+<p>같은 물질 모임이라도 &#39;몇 개인가&#39;로 비교하느냐, &#39;얼마나 무거운가&#39;로 비교하느냐에 따라 비가 달라진다. 헬륨 원자핵 하나는 수소 원자핵보다 약 4배 무겁기 때문이다.</p>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 교실에 탁구공 12개와 볼링공 1개가 있다. 개수로는 탁구공이 압도적이지만, 무게로 따지면 볼링공 하나가 훨씬 무겁다. 우주의 원소를 비교할 때도 &#39;개수&#39;인지 &#39;질량&#39;인지 꼭 확인해야 한다.</p>
+</aside>
+<h3 id="⑤-우주의-시간-규모">⑤ 우주의 시간 규모</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>사건</th>
+<th>시점</th>
+</tr>
+</thead><tbody><tr>
+<td>빅뱅(우주의 시작)</td>
+<td>약 138억 년 전</td>
+</tr>
+<tr>
+<td>태양계와 지구의 탄생</td>
+<td>약 46억 년 전</td>
+</tr>
+<tr>
+<td>인류(호모 사피엔스)의 등장</td>
+<td>수십만 년 전</td>
+</tr>
+</tbody></table></div>
+<p>우주의 나이를 1년(달력 한 장)으로 줄이면, 지구는 9월 초에 태어나고 인류(호모 사피엔스)의 역사는 12월 31일 밤 마지막 10분 남짓에 해당한다.</p>
+<hr>
+<h2 id="step-3" class="step-h s3"><span class="step-badge s3">STEP 3</span><span class="h-text">핵심 개념</span></h2>
+<h3 id="2-1-①-스펙트럼의-세-가지-얼굴-연속-선-흡수">2-1-① 스펙트럼의 세 가지 얼굴 — 연속, 선, 흡수</h3>
+<p>빛을 분광기로 나누어 보면 광원에 따라 전혀 다른 모습이 나타난다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>종류</th>
+<th>모양</th>
+<th>생기는 조건</th>
+<th>예</th>
+</tr>
+</thead><tbody><tr>
+<td><strong>연속 스펙트럼</strong>(continuous spectrum)</td>
+<td>빨강부터 보라까지 끊김 없이 이어진 띠</td>
+<td>고온의 고체·액체, 또는 밀도가 큰 고온의 기체가 빛을 낼 때</td>
+<td>백열전구, 달군 쇠, 태양의 표면(광구)</td>
+</tr>
+<tr>
+<td><strong>선 스펙트럼</strong>(방출 스펙트럼, emission spectrum)</td>
+<td>어두운 바탕에 특정 위치에만 밝은 선 몇 개</td>
+<td>밀도가 낮은 고온의 기체가 빛을 낼 때</td>
+<td>수소·네온 방전관, 불꽃 반응, 성운</td>
+</tr>
+<tr>
+<td><strong>흡수 스펙트럼</strong>(absorption spectrum)</td>
+<td>연속 스펙트럼 위에 특정 위치에만 검은 선</td>
+<td>연속 스펙트럼의 빛이 온도가 더 낮은 기체를 지나올 때</td>
+<td>태양 빛, 대부분의 별빛</td>
+</tr>
+</tbody></table></div>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-2-1-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 604.203125 229.75" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-2-1-1{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-2-1-1 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-2-1-1 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-2-1-1 .error-icon{fill:var(--mm-group);}#mm-2-1-1 .error-text{fill:#595959;stroke:#595959;}#mm-2-1-1 .edge-thickness-normal{stroke-width:1px;}#mm-2-1-1 .edge-thickness-thick{stroke-width:3.5px;}#mm-2-1-1 .edge-pattern-solid{stroke-dasharray:0;}#mm-2-1-1 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-2-1-1 .edge-pattern-dashed{stroke-dasharray:3;}#mm-2-1-1 .edge-pattern-dotted{stroke-dasharray:2;}#mm-2-1-1 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-2-1-1 .marker.cross{stroke:var(--mm-line);}#mm-2-1-1 svg{font-family:inherit;font-size:15px;}#mm-2-1-1 p{margin:0;}#mm-2-1-1 .label{font-family:inherit;color:var(--mm-text);}#mm-2-1-1 .cluster-label text{fill:#595959;}#mm-2-1-1 .cluster-label span{color:#595959;}#mm-2-1-1 .cluster-label span p{background-color:transparent;}#mm-2-1-1 .label text,#mm-2-1-1 span{fill:var(--mm-text);color:var(--mm-text);}#mm-2-1-1 .node rect,#mm-2-1-1 .node circle,#mm-2-1-1 .node ellipse,#mm-2-1-1 .node polygon,#mm-2-1-1 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-2-1-1 .rough-node .label text,#mm-2-1-1 .node .label text,#mm-2-1-1 .image-shape .label,#mm-2-1-1 .icon-shape .label{text-anchor:middle;}#mm-2-1-1 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-2-1-1 .rough-node .label,#mm-2-1-1 .node .label,#mm-2-1-1 .image-shape .label,#mm-2-1-1 .icon-shape .label{text-align:center;}#mm-2-1-1 .node.clickable{cursor:pointer;}#mm-2-1-1 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-2-1-1 .arrowheadPath{fill:#0b0b0b;}#mm-2-1-1 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-2-1-1 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-2-1-1 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-2-1-1 .edgeLabel p{background-color:var(--mm-label);}#mm-2-1-1 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-2-1-1 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-2-1-1 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-2-1-1 .cluster text{fill:#595959;}#mm-2-1-1 .cluster span{color:#595959;}#mm-2-1-1 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-2-1-1 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-2-1-1 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-2-1-1 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-2-1-1 rect.text{fill:none;stroke-width:0;}#mm-2-1-1 .icon-shape,#mm-2-1-1 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-2-1-1 .icon-shape p,#mm-2-1-1 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-2-1-1 .icon-shape .label rect,#mm-2-1-1 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-2-1-1 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-2-1-1 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-2-1-1 .node .neo-node{stroke:var(--mm-border);}#mm-2-1-1 [data-look="neo"].node rect,#mm-2-1-1 [data-look="neo"].cluster rect,#mm-2-1-1 [data-look="neo"].node polygon{stroke:url(#mm-2-1-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-1-1 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-2-1-1 [data-look="neo"].node path{stroke:url(#mm-2-1-1-gradient);stroke-width:1px;}#mm-2-1-1 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-1-1 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-2-1-1 [data-look="neo"].node circle{stroke:url(#mm-2-1-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-1-1 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-2-1-1 [data-look="neo"].icon-shape .icon{fill:url(#mm-2-1-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-1-1 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-2-1-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-1-1 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-2-1-1_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-1_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-1_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-1_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-1_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-1_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-1_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-1_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-1_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-1_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-1_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-2-1-1_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M138.505,45L142.811,42.708C147.118,40.417,155.731,35.833,165.135,33.542C174.539,31.25,184.734,31.25,189.832,31.25L194.93,31.25" id="mm-2-1-1-L_S_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_S_C_0" data-points="W3sieCI6MTM4LjUwNDYxNDYzNzMwNTY4LCJ5Ijo0NX0seyJ4IjoxNjQuMzQzNzUsInkiOjMxLjI1fSx7IngiOjE5OC45Mjk2ODc1LCJ5IjozMS4yNX1d" data-look="classic" marker-end="url(#mm-2-1-1_flowchart-v2-pointEnd)"/><path d="M138.505,114L142.811,116.292C147.118,118.583,155.731,123.167,163.537,125.458C171.344,127.75,178.344,127.75,181.844,127.75L185.344,127.75" id="mm-2-1-1-L_S_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_S_G_0" data-points="W3sieCI6MTM4LjUwNDYxNDYzNzMwNTY4LCJ5IjoxMTR9LHsieCI6MTY0LjM0Mzc1LCJ5IjoxMjcuNzV9LHsieCI6MTg5LjM0Mzc1LCJ5IjoxMjcuNzV9XQ==" data-look="classic" marker-end="url(#mm-2-1-1_flowchart-v2-pointEnd)"/><path d="M311.308,104.5L322.038,98.458C332.768,92.417,354.228,80.333,371.305,74.292C388.383,68.25,401.078,68.25,407.426,68.25L413.773,68.25" id="mm-2-1-1-L_G_AB_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_G_AB_0" data-points="W3sieCI6MzExLjMwNzU3NjE1NTQ2MjIsInkiOjEwNC41fSx7IngiOjM3NS42ODc1LCJ5Ijo2OC4yNX0seyJ4Ijo0MTcuNzczNDM3NSwieSI6NjguMjV9XQ==" data-look="classic" marker-end="url(#mm-2-1-1_flowchart-v2-pointEnd)"/><path d="M311.308,151L322.038,157.042C332.768,163.083,354.228,175.167,368.458,181.208C382.688,187.25,389.688,187.25,393.188,187.25L396.688,187.25" id="mm-2-1-1-L_G_EM_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_G_EM_0" data-points="W3sieCI6MzExLjMwNzU3NjE1NTQ2MjIsInkiOjE1MX0seyJ4IjozNzUuNjg3NSwieSI6MTg3LjI1fSx7IngiOjQwMC42ODc1LCJ5IjoxODcuMjV9XQ==" data-look="classic" marker-end="url(#mm-2-1-1_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_S_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_S_G_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_G_AB_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_G_EM_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-2-1-1-flowchart-S-0" data-look="classic" transform="translate(73.671875, 79.5)"><rect class="basic label-container" style="" x="-65.671875" y="-34.5" width="131.34375" height="69"/><g class="label" style="" transform="translate(-41.671875, -22.5)"><rect/><foreignObject width="83.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>고온의 광원<br />예: 백열전구</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-1-1-flowchart-C-1" data-look="classic" transform="translate(270.015625, 31.25)"><rect class="basic label-container" style="" x="-71.0859375" y="-23.25" width="142.171875" height="46.5"/><g class="label" style="" transform="translate(-47.0859375, -11.25)"><rect/><foreignObject width="94.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>연속 스펙트럼</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-1-1-flowchart-G-3" data-look="classic" transform="translate(270.015625, 127.75)"><rect class="basic label-container" style="" x="-80.671875" y="-23.25" width="161.34375" height="46.5"/><g class="label" style="" transform="translate(-56.671875, -11.25)"><rect/><foreignObject width="113.34375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>차가운 기체 구름</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-1-1-flowchart-AB-5" data-look="classic" transform="translate(498.4453125, 68.25)"><rect class="basic label-container" style="" x="-80.671875" y="-34.5" width="161.34375" height="69"/><g class="label" style="" transform="translate(-56.671875, -22.5)"><rect/><foreignObject width="113.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>기체를 통과한 빛<br />흡수 스펙트럼</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-1-1-flowchart-EM-7" data-look="classic" transform="translate(498.4453125, 187.25)"><rect class="basic label-container" style="" x="-97.7578125" y="-34.5" width="195.515625" height="69"/><g class="label" style="" transform="translate(-73.7578125, -22.5)"><rect/><foreignObject width="147.515625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>기체가 옆으로 내는 빛<br />방출 선 스펙트럼</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-2-1-1-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-2-1-1-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-2-1-1-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><p><strong>핵심 규칙</strong> — 같은 기체라면, <strong>흡수 스펙트럼의 검은 선 위치와 방출 스펙트럼의 밝은 선 위치가 같다.</strong> 기체는 자기가 내놓을 수 있는 바로 그 파장의 빛만 골라서 흡수하기 때문이다. 이 규칙은 1859년 무렵 독일의 키르히호프와 분젠이 실험으로 정리하였다.</p>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 어떤 합창단원이 &#39;도&#39;, &#39;미&#39;, &#39;솔&#39; 음만 낼 수 있다고 하자. 이 단원은 피아노 소리를 들을 때에도 &#39;도&#39;, &#39;미&#39;, &#39;솔&#39;에만 반응하여 따라 울린다. 낼 수 있는 음과 받아들이는 음이 같은 것처럼, 기체가 방출하는 빛의 파장과 흡수하는 빛의 파장은 같다.</p>
+</aside>
+<h4 id="예제-1">예제 1</h4>
+<p>다음 세 광원의 스펙트럼은 각각 어떤 종류인가?
+(1) 전기 난로의 빨갛게 달아오른 열선
+(2) 네온사인
+(3) 백열전구 빛을 나트륨 증기가 든 유리관에 통과시킨 빛</p>
+<p><strong>풀이</strong>
+(1) 고온의 고체 → <strong>연속 스펙트럼</strong>
+(2) 밀도가 낮은 고온의 기체(네온) → <strong>선 스펙트럼(방출)</strong>
+(3) 연속 스펙트럼의 빛이 기체를 통과 → <strong>흡수 스펙트럼.</strong> 나트륨의 방출선이 있던 노란색 위치(약 589 nm)에 검은 선이 나타난다.</p>
+<h3 id="2-1-②-원소의-지문-선-스펙트럼으로-원소를-찾는다">2-1-② 원소의 지문 — 선 스펙트럼으로 원소를 찾는다</h3>
+<p>원소마다 선 스펙트럼에 나타나는 <strong>선의 개수, 위치(파장), 세기가 다르다.</strong> 사람마다 지문이 다른 것처럼, 원소마다 고유한 선 스펙트럼을 가진다. 그래서 선 스펙트럼을 보면 <strong>어떤 원소가 들어 있는지</strong> 알 수 있다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>원소</th>
+<th>가시광선 영역의 대표적인 선(약, nm)</th>
+<th>눈에 보이는 느낌</th>
+</tr>
+</thead><tbody><tr>
+<td>수소(H)</td>
+<td>656(빨강), 486(청록), 434(파랑-보라), 410(보라)</td>
+<td>분홍빛을 띤 보라색</td>
+</tr>
+<tr>
+<td>헬륨(He)</td>
+<td>588(노랑)을 비롯한 여러 선</td>
+<td>연한 분홍-주황색</td>
+</tr>
+<tr>
+<td>나트륨(Na)</td>
+<td>589 부근의 노란 선 두 줄(매우 가까이 붙어 있음)</td>
+<td>진한 노란색</td>
+</tr>
+<tr>
+<td>네온(Ne)</td>
+<td>빨강·주황 영역에 많은 선</td>
+<td>붉은 주황색</td>
+</tr>
+</tbody></table></div>
+<p>(실제 원소들은 이보다 훨씬 많은 선을 가진다. 표에는 대표적인 것만 실었다.)</p>
+<p><strong>불꽃 반응과의 관계</strong> — 중학교 실험 등에서 볼 수 있는 불꽃 반응(나트륨은 노란색, 리튬은 빨간색, 구리는 청록색)은 사실 여러 선의 빛이 섞여 보이는 색이다. 리튬과 스트론튬처럼 <strong>불꽃색이 비슷한 빨간색이라도 분광기로 보면 선의 위치가 달라</strong> 구별할 수 있다. 분광기는 &#39;색&#39;보다 훨씬 정밀한 원소 감별 도구이다.</p>
+<h4 id="스펙트럼이-바꾼-원소의-역사">스펙트럼이 바꾼 원소의 역사</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>시기</th>
+<th>사건</th>
+</tr>
+</thead><tbody><tr>
+<td>1814년</td>
+<td>프라운호퍼가 태양 스펙트럼에서 수백 개의 검은 선(흡수선)을 기록하였다</td>
+</tr>
+<tr>
+<td>1859~1861년</td>
+<td>키르히호프와 분젠이 원소마다 고유한 선 스펙트럼이 있음을 밝히고, 이를 이용해 새 원소 세슘과 루비듐을 발견하였다</td>
+</tr>
+<tr>
+<td>1868년</td>
+<td>일식 때 태양 대기의 스펙트럼에서 알려진 원소와 맞지 않는 노란 선(약 588 nm)이 발견되었고, 이 선의 주인공에 &#39;헬륨&#39;이라는 이름이 붙었다</td>
+</tr>
+<tr>
+<td>1895년</td>
+<td>지구의 광물에서 헬륨이 분리되어 존재가 확인되었다</td>
+</tr>
+</tbody></table></div>
+<aside class="callout important"><p class="callout-title">핵심</p><p>헬륨은 <strong>지구보다 태양에서 먼저 발견된 원소</strong>이다. 스펙트럼 분석만으로 우주 저편 천체의 성분을 알아낼 수 있다는 것을 보여 준 대표적인 사건이다.</p>
+</aside>
+<h4 id="예제-2-미지의-기체-찾기">예제 2 — 미지의 기체 찾기</h4>
+<p>어떤 기체 방전관의 선 스펙트럼에서 밝은 선이 약 656 nm, 486 nm, 434 nm, 410 nm에 나타났다. 위의 표를 이용하여 이 기체를 추론하시오. 또 이 방전관 앞에 나트륨 증기를 조금 섞어 넣는다면 스펙트럼에 어떤 변화가 생길지 예상하시오.</p>
+<p><strong>풀이</strong>
+네 선의 위치가 수소의 선과 일치하므로 <strong>수소</strong>이다. 나트륨이 섞이면 수소의 네 선은 그대로 남고, 약 589 nm에 나트륨의 노란 선이 <strong>추가로</strong> 나타난다. 이처럼 여러 원소가 섞여 있으면 <strong>각 원소의 선이 겹쳐서</strong> 함께 나타나므로, 선을 하나씩 대조하여 성분을 모두 찾아낼 수 있다.</p>
+<h3 id="2-1-③-분광기로-수소의-선-스펙트럼-관찰하기">2-1-③ 분광기로 수소의 선 스펙트럼 관찰하기</h3>
+<p>수소는 원자 번호 1번, 가장 단순한 원소이다. 수소 기체를 넣은 유리관(수소 방전관)에 높은 전압을 걸면 기체가 빛을 내는데, 이 빛을 분광기로 보면 다음과 같다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>관찰 대상</th>
+<th>맨눈으로 본 색</th>
+<th>분광기로 본 모습</th>
+</tr>
+</thead><tbody><tr>
+<td>백열전구</td>
+<td>노르스름한 흰색</td>
+<td>빨강~보라가 끊김 없이 이어진 띠(연속)</td>
+</tr>
+<tr>
+<td>수소 방전관</td>
+<td>분홍빛 보라색</td>
+<td>검은 바탕에 빨강·청록·파랑·보라의 <strong>선 4개</strong></td>
+</tr>
+<tr>
+<td>형광등(참고)</td>
+<td>흰색</td>
+<td>연속적인 배경 위에 몇 개의 밝은 선(형광등 속 수은의 선)</td>
+</tr>
+</tbody></table></div>
+<p>수소 방전관의 분홍빛은 빨간 선(656 nm)과 청록·보라 선의 빛이 섞여 보이는 색이다. 분광기는 이 섞인 빛을 <strong>파장별로 풀어서</strong> 보여 준다.</p>
+<h4 id="왜-원소마다-정해진-선만-나타날까-맛보기">왜 원소마다 정해진 선만 나타날까? (맛보기)</h4>
+<p>원자 속 전자는 아무 에너지나 가질 수 없고, <strong>원소마다 정해진 몇 가지 에너지 값만</strong> 가질 수 있다. 전자가 높은 에너지 상태에서 낮은 상태로 옮겨 갈 때, 그 차이에 해당하는 빛만 나온다. 에너지 값의 배치가 원소마다 다르므로 선의 위치도 원소마다 다르다. 이 내용은 통합과학의 범위를 넘는 맛보기로 평가 대상이 아니며, STEP 5와 고2·3 선택과목에서 자세히 다룬다.</p>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 계단에서 공이 굴러떨어질 때, 공은 계단 사이 &#39;공중&#39;에 멈출 수 없고 계단 높이만큼씩만 떨어진다. 원자 속 전자의 에너지도 계단처럼 띄엄띄엄 정해져 있어서, 떨어지는 &#39;높이 차&#39;에 해당하는 빛만 나온다. 원소마다 계단 높이가 다르니 나오는 빛도 다르다.</p>
+</aside>
+<h4 id="수소-선-스펙트럼이-우주에서-중요한-이유">수소 선 스펙트럼이 우주에서 중요한 이유</h4>
+<p>지구 실험실의 수소 방전관과 <strong>똑같은 위치의 선</strong>이 태양, 다른 별, 성운, 멀리 있는 은하의 스펙트럼에서도 발견된다. 특히 성운에서 나오는 붉은빛의 상당 부분은 수소의 656 nm 선이다.</p>
+<ul>
+<li>같은 원소는 우주 어디에서나 같은 선 스펙트럼을 가진다 → <strong>우주 어디에서나 같은 물리 법칙이 성립한다.</strong></li>
+<li>우주 곳곳에서 수소의 선이 가장 흔하고 강하게 나타난다 → <strong>수소는 우주에서 가장 흔한 원소이다.</strong></li>
+</ul>
+<h3 id="2-1-④-빅뱅-우주론-우주-초기에-수소와-헬륨이-만들어지다">2-1-④ 빅뱅 우주론 — 우주 초기에 수소와 헬륨이 만들어지다</h3>
+<p>중학교에서 우주가 팽창하고 있다는 것을 배웠다. 팽창하는 우주를 영화처럼 <strong>거꾸로 돌리면</strong> 과거로 갈수록 우주는 더 작고, 더 뜨겁고, 더 밀도가 높았을 것이다. 이렇게 <strong>우주가 아주 뜨겁고 밀도가 높은 한 상태에서 시작해 팽창하며 식어 왔다</strong>는 이론을 <strong>빅뱅 우주론(Big Bang cosmology)</strong> 이라 한다. 우주의 나이는 약 138억 년으로 알려져 있다.</p>
+<h4 id="우주-초기의-원소-생성-시간표">우주 초기의 원소 생성 시간표</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>순서</th>
+<th>대략적인 시점</th>
+<th>일어난 일</th>
+</tr>
+</thead><tbody><tr>
+<td>①</td>
+<td>빅뱅 직후</td>
+<td>매우 뜨거운 우주에 기본 입자(쿼크, 전자 등)와 빛이 가득했다</td>
+</tr>
+<tr>
+<td>②</td>
+<td>약 1초 이내</td>
+<td>우주가 식으며 쿼크가 모여 <strong>양성자와 중성자</strong>가 만들어졌다. 양성자 하나가 곧 수소 원자핵이다</td>
+</tr>
+<tr>
+<td>③</td>
+<td>약 3분 무렵부터 짧은 기간</td>
+<td>양성자 2개와 중성자 2개가 결합하여 <strong>헬륨 원자핵</strong>이 만들어졌다</td>
+</tr>
+<tr>
+<td>④</td>
+<td>약 38만 년</td>
+<td>우주의 온도가 약 3000 K까지 내려가자 원자핵이 전자를 붙잡아 <strong>수소 원자, 헬륨 원자</strong>가 만들어졌다. 이때부터 빛이 자유롭게 우주를 지나가게 되었다</td>
+</tr>
+<tr>
+<td>⑤</td>
+<td>수억 년 이후</td>
+<td>수소와 헬륨 기체가 중력으로 뭉쳐 첫 별과 은하가 태어났다(→ 2-2 단원)</td>
+</tr>
+</tbody></table></div>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-2-1-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 1085.6875 85" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-2-1-2{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-2-1-2 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-2-1-2 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-2-1-2 .error-icon{fill:var(--mm-group);}#mm-2-1-2 .error-text{fill:#595959;stroke:#595959;}#mm-2-1-2 .edge-thickness-normal{stroke-width:1px;}#mm-2-1-2 .edge-thickness-thick{stroke-width:3.5px;}#mm-2-1-2 .edge-pattern-solid{stroke-dasharray:0;}#mm-2-1-2 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-2-1-2 .edge-pattern-dashed{stroke-dasharray:3;}#mm-2-1-2 .edge-pattern-dotted{stroke-dasharray:2;}#mm-2-1-2 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-2-1-2 .marker.cross{stroke:var(--mm-line);}#mm-2-1-2 svg{font-family:inherit;font-size:15px;}#mm-2-1-2 p{margin:0;}#mm-2-1-2 .label{font-family:inherit;color:var(--mm-text);}#mm-2-1-2 .cluster-label text{fill:#595959;}#mm-2-1-2 .cluster-label span{color:#595959;}#mm-2-1-2 .cluster-label span p{background-color:transparent;}#mm-2-1-2 .label text,#mm-2-1-2 span{fill:var(--mm-text);color:var(--mm-text);}#mm-2-1-2 .node rect,#mm-2-1-2 .node circle,#mm-2-1-2 .node ellipse,#mm-2-1-2 .node polygon,#mm-2-1-2 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-2-1-2 .rough-node .label text,#mm-2-1-2 .node .label text,#mm-2-1-2 .image-shape .label,#mm-2-1-2 .icon-shape .label{text-anchor:middle;}#mm-2-1-2 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-2-1-2 .rough-node .label,#mm-2-1-2 .node .label,#mm-2-1-2 .image-shape .label,#mm-2-1-2 .icon-shape .label{text-align:center;}#mm-2-1-2 .node.clickable{cursor:pointer;}#mm-2-1-2 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-2-1-2 .arrowheadPath{fill:#0b0b0b;}#mm-2-1-2 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-2-1-2 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-2-1-2 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-2-1-2 .edgeLabel p{background-color:var(--mm-label);}#mm-2-1-2 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-2-1-2 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-2-1-2 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-2-1-2 .cluster text{fill:#595959;}#mm-2-1-2 .cluster span{color:#595959;}#mm-2-1-2 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-2-1-2 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-2-1-2 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-2-1-2 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-2-1-2 rect.text{fill:none;stroke-width:0;}#mm-2-1-2 .icon-shape,#mm-2-1-2 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-2-1-2 .icon-shape p,#mm-2-1-2 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-2-1-2 .icon-shape .label rect,#mm-2-1-2 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-2-1-2 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-2-1-2 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-2-1-2 .node .neo-node{stroke:var(--mm-border);}#mm-2-1-2 [data-look="neo"].node rect,#mm-2-1-2 [data-look="neo"].cluster rect,#mm-2-1-2 [data-look="neo"].node polygon{stroke:url(#mm-2-1-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-1-2 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-2-1-2 [data-look="neo"].node path{stroke:url(#mm-2-1-2-gradient);stroke-width:1px;}#mm-2-1-2 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-1-2 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-2-1-2 [data-look="neo"].node circle{stroke:url(#mm-2-1-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-1-2 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-2-1-2 [data-look="neo"].icon-shape .icon{fill:url(#mm-2-1-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-1-2 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-2-1-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-1-2 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-2-1-2_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-2_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-2_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-2_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-2_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-2_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-2_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-2_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-2_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-2_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-2_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-2-1-2_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M166,42.5L170.167,42.5C174.333,42.5,182.667,42.5,190.333,42.5C198,42.5,205,42.5,208.5,42.5L212,42.5" id="mm-2-1-2-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTY2LCJ5Ijo0Mi41fSx7IngiOjE5MSwieSI6NDIuNX0seyJ4IjoyMTYsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-2-1-2_flowchart-v2-pointEnd)"/><path d="M329,42.5L333.167,42.5C337.333,42.5,345.667,42.5,353.333,42.5C361,42.5,368,42.5,371.5,42.5L375,42.5" id="mm-2-1-2-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6MzI5LCJ5Ijo0Mi41fSx7IngiOjM1NCwieSI6NDIuNX0seyJ4IjozNzksInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-2-1-2_flowchart-v2-pointEnd)"/><path d="M522,42.5L526.167,42.5C530.333,42.5,538.667,42.5,546.333,42.5C554,42.5,561,42.5,564.5,42.5L568,42.5" id="mm-2-1-2-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6NTIyLCJ5Ijo0Mi41fSx7IngiOjU0NywieSI6NDIuNX0seyJ4Ijo1NzIsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-2-1-2_flowchart-v2-pointEnd)"/><path d="M699.172,42.5L703.339,42.5C707.505,42.5,715.839,42.5,723.505,42.5C731.172,42.5,738.172,42.5,741.672,42.5L745.172,42.5" id="mm-2-1-2-L_D_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_E_0" data-points="W3sieCI6Njk5LjE3MTg3NSwieSI6NDIuNX0seyJ4Ijo3MjQuMTcxODc1LCJ5Ijo0Mi41fSx7IngiOjc0OS4xNzE4NzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-2-1-2_flowchart-v2-pointEnd)"/><path d="M896.344,42.5L900.51,42.5C904.677,42.5,913.01,42.5,920.677,42.5C928.344,42.5,935.344,42.5,938.844,42.5L942.344,42.5" id="mm-2-1-2-L_E_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_F_0" data-points="W3sieCI6ODk2LjM0Mzc1LCJ5Ijo0Mi41fSx7IngiOjkyMS4zNDM3NSwieSI6NDIuNX0seyJ4Ijo5NDYuMzQzNzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-2-1-2_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_F_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-2-1-2-flowchart-A-0" data-look="classic" transform="translate(87, 42.5)"><rect class="basic label-container" style="" x="-79" y="-34.5" width="158" height="69"/><g class="label" style="" transform="translate(-55, -22.5)"><rect/><foreignObject width="110" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>빅뱅<br />초고온·초고밀도</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-1-2-flowchart-B-1" data-look="classic" transform="translate(272.5, 42.5)"><rect class="basic label-container" style="" x="-56.5" y="-34.5" width="113" height="69"/><g class="label" style="" transform="translate(-32.5, -22.5)"><rect/><foreignObject width="65" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>기본 입자<br />쿼크·전자</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-1-2-flowchart-C-3" data-look="classic" transform="translate(450.5, 42.5)"><rect class="basic label-container" style="" x="-71.5" y="-34.5" width="143" height="69"/><g class="label" style="" transform="translate(-47.5, -22.5)"><rect/><foreignObject width="95" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>양성자·중성자<br />약 1초 이내</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-1-2-flowchart-D-5" data-look="classic" transform="translate(635.5859375, 42.5)"><rect class="basic label-container" style="" x="-63.5859375" y="-34.5" width="127.171875" height="69"/><g class="label" style="" transform="translate(-39.5859375, -22.5)"><rect/><foreignObject width="79.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>헬륨 원자핵<br />약 3분 무렵</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-1-2-flowchart-E-7" data-look="classic" transform="translate(822.7578125, 42.5)"><rect class="basic label-container" style="" x="-73.5859375" y="-34.5" width="147.171875" height="69"/><g class="label" style="" transform="translate(-49.5859375, -22.5)"><rect/><foreignObject width="99.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>수소·헬륨 원자<br />약 38만 년</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-1-2-flowchart-F-9" data-look="classic" transform="translate(1012.015625, 42.5)"><rect class="basic label-container" style="" x="-65.671875" y="-34.5" width="131.34375" height="69"/><g class="label" style="" transform="translate(-41.671875, -22.5)"><rect/><foreignObject width="83.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>첫 별과 은하<br />수억 년 이후</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-2-1-2-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-2-1-2-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-2-1-2-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><aside class="callout note"><p class="callout-title">성취기준·참고</p><p>시점은 모두 &#39;약&#39;이 붙는 어림값이다. 중요한 것은 <strong>순서</strong>이다. 입자가 먼저, 원자핵이 다음, 원자는 한참 뒤에 만들어졌다.</p>
+</aside>
+<h4 id="왜-우주-초기에는-수소와-헬륨만-만들어졌을까">왜 우주 초기에는 수소와 헬륨만 만들어졌을까?</h4>
+<p>원자핵끼리 합쳐지려면(<strong>핵융합</strong>) 아주 높은 온도와 밀도가 필요하다. 그런데 우주는 빠르게 팽창하며 식었기 때문에, 원자핵이 합쳐질 수 있을 만큼 뜨거웠던 시간은 <strong>몇 분 정도</strong>에 불과했다. 그 짧은 시간 동안 헬륨까지는 만들어졌지만, 그보다 무거운 원소는 거의 만들어지지 못했다(리튬이 아주 조금 만들어졌다). 탄소, 산소, 철처럼 더 무거운 원소는 훗날 <strong>별 속</strong>에서 만들어진다. 이것이 다음 단원의 주제이다.</p>
+<h4 id="수소와-헬륨의-질량비가-약-3-1이-되는-까닭">수소와 헬륨의 질량비가 약 3:1이 되는 까닭</h4>
+<p>헬륨 원자핵이 만들어지던 무렵, 우주에는 <strong>양성자 약 7개당 중성자 약 1개</strong>가 있었다고 계산된다. 이때 남아 있던 중성자는 거의 모두 헬륨 원자핵 속으로 들어갔다.</p>
+<h4 id="예제-3-3-1을-직접-계산하기">예제 3 — 3:1을 직접 계산하기</h4>
+<p>양성자와 중성자의 개수비가 7 : 1이고, 중성자가 모두 헬륨 원자핵(양성자 2개 + 중성자 2개)이 되었다고 하자. (양성자와 중성자의 질량은 같다고 본다.)
+(1) 수소 원자핵과 헬륨 원자핵의 개수비를 구하시오.
+(2) 수소와 헬륨의 질량비를 구하시오.</p>
+<p><strong>풀이</strong>
+양성자 14개, 중성자 2개(합 16개)로 생각하자.</p>
+<ul>
+<li>중성자 2개 + 양성자 2개 → 헬륨 원자핵 <strong>1개</strong></li>
+<li>남은 양성자 14 − 2 = 12개 → 수소 원자핵 <strong>12개</strong></li>
+</ul>
+<p>(1) 개수비 수소 : 헬륨 = <strong>12 : 1</strong>
+(2) 질량비 수소 : 헬륨 = 12 : 4 = <strong>3 : 1</strong> (헬륨 원자핵 1개의 질량은 입자 4개분)</p>
+<p>즉 우주 초기 물질의 질량 중 약 75%가 수소, 약 25%가 헬륨이었다.</p>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 남학생 14명, 여학생 2명이 &#39;남 2 + 여 2&#39; 짝으로만 4인조를 만든다면 4인조는 1팀밖에 못 만들고 남학생 12명은 혼자 남는다. 여학생 수(중성자 수)가 4인조(헬륨) 개수를 정한다.</p>
+</aside>
+<h3 id="2-1-⑤-별과-우주의-스펙트럼으로-구성-물질을-추론하다">2-1-⑤ 별과 우주의 스펙트럼으로 구성 물질을 추론하다</h3>
+<h4 id="태양의-흡수-스펙트럼-읽기">태양의 흡수 스펙트럼 읽기</h4>
+<p>태양의 표면(광구)은 연속 스펙트럼의 빛을 내고, 이 빛이 태양의 대기를 지나오면서 대기 속 원소들이 자기 고유의 파장을 흡수한다. 그래서 태양 스펙트럼에는 수많은 검은 흡수선이 나타난다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>태양 스펙트럼의 흡수선 위치(약, nm)</th>
+<th>실험실 방출선과 대조한 결과</th>
+</tr>
+</thead><tbody><tr>
+<td>656, 486, 434, 410</td>
+<td>수소</td>
+</tr>
+<tr>
+<td>589 부근의 두 줄</td>
+<td>나트륨</td>
+</tr>
+<tr>
+<td>393, 397</td>
+<td>칼슘</td>
+</tr>
+<tr>
+<td>527 부근을 비롯한 여러 선</td>
+<td>철</td>
+</tr>
+<tr>
+<td>517 부근</td>
+<td>마그네슘</td>
+</tr>
+</tbody></table></div>
+<p><strong>분석 방법</strong> — ① 실험실에서 각 원소의 방출 선 스펙트럼을 측정해 둔다. ② 천체의 흡수(또는 방출) 스펙트럼과 <strong>선의 위치</strong>를 하나씩 대조한다. ③ 위치가 일치하는 선들이 있으면 그 원소가 천체에 있다고 판단한다. ④ 선의 세기를 분석하면(온도 등의 영향을 함께 고려해야 한다) 원소의 양도 어림할 수 있다.</p>
+<h4 id="예제-4-별-스펙트럼-분석">예제 4 — 별 스펙트럼 분석</h4>
+<p>다음은 실험실에서 얻은 원소 A, B, C의 방출선 위치와 어떤 별의 흡수선 위치를 나타낸 것이다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>대상</th>
+<th>선의 위치(nm)</th>
+</tr>
+</thead><tbody><tr>
+<td>원소 A</td>
+<td>410, 434, 486, 656</td>
+</tr>
+<tr>
+<td>원소 B</td>
+<td>589.0, 589.6</td>
+</tr>
+<tr>
+<td>원소 C</td>
+<td>447, 502, 588, 668</td>
+</tr>
+<tr>
+<td>별 X(흡수선)</td>
+<td>410, 434, 447, 486, 502, 588, 656, 668</td>
+</tr>
+</tbody></table></div>
+<p>별 X에 들어 있는 원소를 모두 고르고, 그 근거를 쓰시오.</p>
+<p><strong>풀이</strong></p>
+<ul>
+<li>원소 A의 선 4개가 별 X에 <strong>모두</strong> 있다 → A 있음</li>
+<li>원소 C의 선 4개가 별 X에 <strong>모두</strong> 있다 → C 있음</li>
+<li>원소 B의 선(589.0, 589.6)이 별 X에 없다 → B는 확인되지 않음</li>
+</ul>
+<p>따라서 별 X에는 <strong>A와 C</strong>가 있다. (실제로 A는 수소, C는 헬륨의 선을 단순화한 것이다. 헬륨의 흡수선은 표면 온도가 높은 별에서 잘 나타난다.)</p>
+<aside class="callout warning"><p class="callout-title">주의</p><p>선이 <strong>하나만</strong> 겹친다고 그 원소가 있다고 단정하면 안 된다. 서로 다른 원소의 선이 우연히 비슷한 위치에 있을 수 있기 때문이다. 그 원소의 <strong>여러 선이 함께</strong> 나타나는지 확인해야 한다.</p>
+</aside>
+<h4 id="우주-전체의-스펙트럼이-알려-주는-것">우주 전체의 스펙트럼이 알려 주는 것</h4>
+<p>천문학자들은 수많은 별, 성운, 은하의 스펙트럼을 분석하여 다음과 같은 결론을 얻었다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>관측 사실</th>
+<th>해석</th>
+</tr>
+</thead><tbody><tr>
+<td>우주 어디에서나 수소의 선이 가장 흔하고 강하다</td>
+<td>수소가 우주에서 가장 많은 원소이다</td>
+</tr>
+<tr>
+<td>오래된 별이나 무거운 원소가 적은 성운에서도 헬륨이 질량의 약 4분의 1을 차지한다</td>
+<td>헬륨의 대부분은 별이 아니라 <strong>우주 초기</strong>에 만들어졌다</td>
+</tr>
+<tr>
+<td>현재 우주 물질의 질량은 수소 약 74%, 헬륨 약 24%, 나머지 모든 원소를 합해 약 2%</td>
+<td>우주 초기에 만들어진 <strong>수소와 헬륨이 지금도 우주의 주요 구성 원소</strong>이다</td>
+</tr>
+</tbody></table></div>
+<p>빅뱅 우주론이 계산으로 <strong>예측</strong>한 질량비(약 3:1)와, 스펙트럼으로 <strong>관측</strong>한 질량비가 잘 맞는다. 이론의 예측이 관측으로 확인된 것이므로, 이 일치는 빅뱅 우주론을 지지하는 중요한 증거가 된다.</p>
+<aside class="callout note"><p class="callout-title">성취기준·참고</p><p><strong>또 하나의 증거, 우주 배경 복사</strong> — 약 38만 년 무렵 원자가 만들어지며 우주를 자유롭게 지나가기 시작한 빛은, 우주가 팽창하는 동안 식어서 지금은 약 2.7 K에 해당하는 전파(마이크로파)로 하늘의 모든 방향에서 거의 고르게 들어온다. 1965년에 우연히 발견된 이 <strong>우주 배경 복사</strong>도 빅뱅 우주론의 강력한 증거이다.</p>
+</aside>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-2-1-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 700.05859375 323" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-2-1-3{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-2-1-3 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-2-1-3 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-2-1-3 .error-icon{fill:var(--mm-group);}#mm-2-1-3 .error-text{fill:#595959;stroke:#595959;}#mm-2-1-3 .edge-thickness-normal{stroke-width:1px;}#mm-2-1-3 .edge-thickness-thick{stroke-width:3.5px;}#mm-2-1-3 .edge-pattern-solid{stroke-dasharray:0;}#mm-2-1-3 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-2-1-3 .edge-pattern-dashed{stroke-dasharray:3;}#mm-2-1-3 .edge-pattern-dotted{stroke-dasharray:2;}#mm-2-1-3 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-2-1-3 .marker.cross{stroke:var(--mm-line);}#mm-2-1-3 svg{font-family:inherit;font-size:15px;}#mm-2-1-3 p{margin:0;}#mm-2-1-3 .label{font-family:inherit;color:var(--mm-text);}#mm-2-1-3 .cluster-label text{fill:#595959;}#mm-2-1-3 .cluster-label span{color:#595959;}#mm-2-1-3 .cluster-label span p{background-color:transparent;}#mm-2-1-3 .label text,#mm-2-1-3 span{fill:var(--mm-text);color:var(--mm-text);}#mm-2-1-3 .node rect,#mm-2-1-3 .node circle,#mm-2-1-3 .node ellipse,#mm-2-1-3 .node polygon,#mm-2-1-3 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-2-1-3 .rough-node .label text,#mm-2-1-3 .node .label text,#mm-2-1-3 .image-shape .label,#mm-2-1-3 .icon-shape .label{text-anchor:middle;}#mm-2-1-3 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-2-1-3 .rough-node .label,#mm-2-1-3 .node .label,#mm-2-1-3 .image-shape .label,#mm-2-1-3 .icon-shape .label{text-align:center;}#mm-2-1-3 .node.clickable{cursor:pointer;}#mm-2-1-3 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-2-1-3 .arrowheadPath{fill:#0b0b0b;}#mm-2-1-3 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-2-1-3 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-2-1-3 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-2-1-3 .edgeLabel p{background-color:var(--mm-label);}#mm-2-1-3 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-2-1-3 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-2-1-3 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-2-1-3 .cluster text{fill:#595959;}#mm-2-1-3 .cluster span{color:#595959;}#mm-2-1-3 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-2-1-3 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-2-1-3 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-2-1-3 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-2-1-3 rect.text{fill:none;stroke-width:0;}#mm-2-1-3 .icon-shape,#mm-2-1-3 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-2-1-3 .icon-shape p,#mm-2-1-3 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-2-1-3 .icon-shape .label rect,#mm-2-1-3 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-2-1-3 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-2-1-3 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-2-1-3 .node .neo-node{stroke:var(--mm-border);}#mm-2-1-3 [data-look="neo"].node rect,#mm-2-1-3 [data-look="neo"].cluster rect,#mm-2-1-3 [data-look="neo"].node polygon{stroke:url(#mm-2-1-3-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-1-3 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-2-1-3 [data-look="neo"].node path{stroke:url(#mm-2-1-3-gradient);stroke-width:1px;}#mm-2-1-3 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-1-3 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-2-1-3 [data-look="neo"].node circle{stroke:url(#mm-2-1-3-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-1-3 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-2-1-3 [data-look="neo"].icon-shape .icon{fill:url(#mm-2-1-3-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-1-3 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-2-1-3-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-1-3 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-2-1-3_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-3_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-3_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-3_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-3_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-3_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-3_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-3_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-3_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-3_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-1-3_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-2-1-3_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M110.766,65.75L110.766,71.792C110.766,77.833,110.766,89.917,110.766,99.458C110.766,109,110.766,116,110.766,119.5L110.766,123" id="mm-2-1-3-L_T_P1_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_T_P1_0" data-points="W3sieCI6MTEwLjc2NTYyNSwieSI6NjUuNzV9LHsieCI6MTEwLjc2NTYyNSwieSI6MTAyfSx7IngiOjExMC43NjU2MjUsInkiOjEyN31d" data-look="classic" marker-end="url(#mm-2-1-3_flowchart-v2-pointEnd)"/><path d="M174.352,53.344L221.902,61.453C269.453,69.563,364.555,85.781,419.915,97.761C475.275,109.741,490.895,117.482,498.704,121.353L506.514,125.224" id="mm-2-1-3-L_T_P2_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_T_P2_0" data-points="W3sieCI6MTc0LjM1MTU2MjUsInkiOjUzLjM0Mzk4MDkyMTY3MTM3fSx7IngiOjQ1OS42NTYyNSwieSI6MTAyfSx7IngiOjUxMC4wOTc3NTQ3MjY4OTA3NCwieSI6MTI3fV0=" data-look="classic" marker-end="url(#mm-2-1-3_flowchart-v2-pointEnd)"/><path d="M330.438,77L330.438,81.167C330.438,85.333,330.438,93.667,311.597,102.937C292.756,112.206,255.074,122.413,236.233,127.516L217.392,132.619" id="mm-2-1-3-L_O1_P1_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_O1_P1_0" data-points="W3sieCI6MzMwLjQzNzUsInkiOjc3fSx7IngiOjMzMC40Mzc1LCJ5IjoxMDJ9LHsieCI6MjEzLjUzMTI1LCJ5IjoxMzMuNjY1MDU0NDEzNTQyOTJ9XQ==" data-look="classic" marker-end="url(#mm-2-1-3_flowchart-v2-pointEnd)"/><path d="M589.707,77L589.707,81.167C589.707,85.333,589.707,93.667,589.117,101.343C588.527,109.018,587.348,116.037,586.758,119.546L586.168,123.055" id="mm-2-1-3-L_O2_P2_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_O2_P2_0" data-points="W3sieCI6NTg5LjcwNzAzMTI1LCJ5Ijo3N30seyJ4Ijo1ODkuNzA3MDMxMjUsInkiOjEwMn0seyJ4Ijo1ODUuNTA1MzUwNTc3NzMxMSwieSI6MTI3fV0=" data-look="classic" marker-end="url(#mm-2-1-3_flowchart-v2-pointEnd)"/><path d="M110.766,196L110.766,200.167C110.766,204.333,110.766,212.667,135.404,222.945C160.043,233.222,209.321,245.445,233.959,251.556L258.598,257.667" id="mm-2-1-3-L_P1_R_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_P1_R_0" data-points="W3sieCI6MTEwLjc2NTYyNSwieSI6MTk2fSx7IngiOjExMC43NjU2MjUsInkiOjIyMX0seyJ4IjoyNjIuNDgwNDY4NzUsInkiOjI1OC42MzA0MDAwOTExODg5fV0=" data-look="classic" marker-end="url(#mm-2-1-3_flowchart-v2-pointEnd)"/><path d="M579.707,196L579.707,200.167C579.707,204.333,579.707,212.667,556.872,222.765C534.037,232.864,488.366,244.727,465.531,250.659L442.696,256.591" id="mm-2-1-3-L_P2_R_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_P2_R_0" data-points="W3sieCI6NTc5LjcwNzAzMTI1LCJ5IjoxOTZ9LHsieCI6NTc5LjcwNzAzMTI1LCJ5IjoyMjF9LHsieCI6NDM4LjgyNDIxODc1LCJ5IjoyNTcuNTk2MTgzMzYyMzI0OH1d" data-look="classic" marker-end="url(#mm-2-1-3_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_T_P1_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_T_P2_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_O1_P1_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_O2_P2_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_P1_R_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_P2_R_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-2-1-3-flowchart-T-0" data-look="classic" transform="translate(110.765625, 42.5)"><rect class="basic label-container" style="" x="-63.5859375" y="-23.25" width="127.171875" height="46.5"/><g class="label" style="" transform="translate(-39.5859375, -11.25)"><rect/><foreignObject width="79.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>빅뱅 우주론</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-1-3-flowchart-P1-1" data-look="classic" transform="translate(110.765625, 161.5)"><rect class="basic label-container" style="" x="-102.765625" y="-34.5" width="205.53125" height="69"/><g class="label" style="" transform="translate(-78.765625, -22.5)"><rect/><foreignObject width="157.53125" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>예측 1<br />수소:헬륨 질량비 약 3:1</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-1-3-flowchart-P2-3" data-look="classic" transform="translate(579.70703125, 161.5)"><rect class="basic label-container" style="" x="-107.3359375" y="-34.5" width="214.671875" height="69"/><g class="label" style="" transform="translate(-83.3359375, -22.5)"><rect/><foreignObject width="166.671875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>예측 2<br />우주 전체에 퍼진 식은 빛</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-1-3-flowchart-O1-4" data-look="classic" transform="translate(330.4375, 42.5)"><rect class="basic label-container" style="" x="-106.0859375" y="-34.5" width="212.171875" height="69"/><g class="label" style="" transform="translate(-82.0859375, -22.5)"><rect/><foreignObject width="164.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>관측 1<br />별·성운·은하의 스펙트럼</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-1-3-flowchart-O2-6" data-look="classic" transform="translate(589.70703125, 42.5)"><rect class="basic label-container" style="" x="-102.3515625" y="-34.5" width="204.703125" height="69"/><g class="label" style="" transform="translate(-78.3515625, -22.5)"><rect/><foreignObject width="156.703125" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>관측 2<br />우주 배경 복사 약 2.7 K</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-1-3-flowchart-R-9" data-look="classic" transform="translate(350.65234375, 280.5)"><rect class="basic label-container" style="" x="-88.171875" y="-34.5" width="176.34375" height="69"/><g class="label" style="" transform="translate(-64.171875, -22.5)"><rect/><foreignObject width="128.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>이론과 관측의 일치<br />빅뱅 우주론 지지</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-2-1-3-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-2-1-3-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-2-1-3-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><hr>
+<h2 id="step-4" class="step-h s4"><span class="step-badge s4">STEP 4</span><span class="h-text">오개념 바로잡기</span></h2>
+<div class="table-wrap"><table><thead><tr>
+<th>흔한 오개념</th>
+<th>올바른 개념</th>
+<th>왜 그럴까?</th>
+</tr>
+</thead><tbody><tr>
+<td>흡수 스펙트럼의 검은 선은 빛이 <strong>전혀 없는</strong> 곳이다</td>
+<td>검은 선은 주변보다 빛이 <strong>훨씬 약한</strong> 곳이다</td>
+<td>기체가 흡수한 빛은 여러 방향으로 다시 방출되어 관측자 쪽으로 오는 양이 줄어들 뿐이다</td>
+</tr>
+<tr>
+<td>수소와 헬륨의 3:1은 <strong>원자 개수</strong>의 비이다</td>
+<td>3:1은 <strong>질량비</strong>이고, 개수비는 약 12:1이다</td>
+<td>헬륨 원자핵 하나는 수소 원자핵보다 약 4배 무겁다</td>
+</tr>
+<tr>
+<td>별 스펙트럼에 철의 선이 보이면 그 별은 주로 철로 되어 있다</td>
+<td>선이 보이면 그 원소가 <strong>있다는 것</strong>만 알 수 있다</td>
+<td>양은 선의 세기와 온도 등을 함께 분석해야 알 수 있다. 태양도 대부분은 수소와 헬륨이다</td>
+</tr>
+<tr>
+<td>빅뱅은 빈 공간의 한 점에서 일어난 폭발이다</td>
+<td>빅뱅은 <strong>공간 자체</strong>가 뜨겁고 조밀한 상태에서 팽창하기 시작한 것이다</td>
+<td>풍선 표면의 모든 점이 서로 멀어지듯, 우주에는 특별한 중심이 없다</td>
+</tr>
+<tr>
+<td>우주 초기에 지금 있는 모든 원소가 만들어졌다</td>
+<td>우주 초기에는 <strong>수소와 헬륨</strong>(그리고 극소량의 리튬)만 만들어졌다</td>
+<td>핵융합이 가능할 만큼 뜨거웠던 시간이 몇 분에 불과했다. 무거운 원소는 별에서 만들어졌다</td>
+</tr>
+<tr>
+<td>같은 원소라도 흡수선과 방출선은 위치가 다르다</td>
+<td>같은 원소의 흡수선과 방출선은 <strong>같은 위치</strong>에 나타난다</td>
+<td>원소는 자기가 낼 수 있는 파장의 빛만 골라 흡수한다</td>
+</tr>
+<tr>
+<td>불꽃색이 같으면 같은 원소이다</td>
+<td>불꽃색이 비슷해도 <strong>선 스펙트럼</strong>은 다를 수 있다</td>
+<td>리튬과 스트론튬은 둘 다 빨간 불꽃이지만 선의 위치가 다르다</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-5" class="step-h s5"><span class="step-badge s5">STEP 5</span><span class="h-text">선택과목·대학으로 한 걸음 더</span></h2>
+<aside class="callout caution"><p class="callout-title">심화 · 평가 범위 밖</p><p>이 절은 <strong>통합과학 교육과정 범위 밖의 심화 내용</strong>으로 평가 대상이 아니다. &quot;이 개념이 앞으로 어디까지 이어지는가&quot;를 맛보기로 보여 주기 위한 내용이다.</p>
+</aside>
+<h3 id="고2-3-선택과목과의-연결">고2·3 선택과목과의 연결</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>과목</th>
+<th>이어지는 내용</th>
+</tr>
+</thead><tbody><tr>
+<td>물리학</td>
+<td>빛과 물질 — 빛의 이중성, 원자의 에너지 준위와 선 스펙트럼</td>
+</tr>
+<tr>
+<td>전자기와 양자</td>
+<td>양자와 미시세계 — 양자 현상, 원자 속 전자의 상태</td>
+</tr>
+<tr>
+<td>지구과학</td>
+<td>별과 우주의 진화 — 별의 스펙트럼과 분류, 우주의 팽창</td>
+</tr>
+<tr>
+<td>행성우주과학</td>
+<td>태양과 별의 관측, 은하와 우주 — 분광 관측으로 천체의 물리량 구하기</td>
+</tr>
+</tbody></table></div>
+<h3 id="①-왜-선-스펙트럼인가-에너지-준위와-광자">① 왜 선 스펙트럼인가 — 에너지 준위와 광자</h3>
+<p>빛은 파동이면서 동시에 <strong>광자(photon)</strong> 라는 에너지 덩어리로도 행동한다. 광자 하나의 에너지는 파장에 반비례한다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0574em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3714em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">λ</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">h</span><span class="mord mathnormal">c</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:2em;"></span><span class="mopen">(</span><span class="mord mathnormal">h</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">:</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord text"><span class="mord hangul_fallback">플랑크</span><span class="mord"> </span><span class="mord hangul_fallback">상수</span></span><span class="mpunct">,</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">c</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">:</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord text"><span class="mord hangul_fallback">빛의</span><span class="mord"> </span><span class="mord hangul_fallback">속력</span></span><span class="mpunct">,</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">λ</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">:</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord hangul_fallback">파장</span></span><span class="mclose">)</span></span></span></span></span></p>
+<p>보어의 원자 모형에서 수소 원자의 전자는 다음과 같은 에너지만 가질 수 있다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0576em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord">−</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal">n</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7401em;"><span style="top:-2.989em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">13.6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace"> </span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">eV</span></span><span class="mspace" style="margin-right:2em;"></span><span class="mopen">(</span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">2</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">3</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner">⋯</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mclose">)</span></span></span></span></span></p>
+<p>전자가 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">3</span></span></span></span>에서 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">2</span></span></span></span>로 옮겨 갈 때 나오는 빛의 에너지와 파장을 계산해 보자. (편리한 관계 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">λ</span><span class="mopen">(</span><span class="mord"><span class="mord mathrm">nm</span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.2574em;vertical-align:-0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="mopen">(</span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">eV</span></span><span class="mclose">)</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1240</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.936em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>를 쓴다.)</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.4em;vertical-align:-0.95em;"></span><span class="mord">13.6</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7401em;"><span style="top:-2.989em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord">3</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7401em;"><span style="top:-2.989em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">)</span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">13.6</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">36</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">5</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">1.89</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">eV</span></span><span class="mspace" style="margin-right:1em;"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">⇒</span><span class="mspace" style="margin-right:1em;"></span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">λ</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1.89</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1240</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">656</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">nm</span></span></span></span></span></span></p>
+<p>STEP 3에서 본 수소의 빨간 선(656 nm)이 정확히 계산된다. <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8389em;vertical-align:-0.1944em;"></span><span class="mord">4</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">5</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">6</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">2</span></span></span></span>로 옮겨 가면 486, 434, 410 nm 선이 나온다. 이 네 선을 묶어 <strong>발머 계열</strong>이라 한다. 대학의 <strong>양자역학</strong>에서는 슈뢰딩거 방정식으로 이 에너지 값을 처음부터 유도한다.</p>
+<h3 id="②-별의-색과-연속-스펙트럼-빈의-법칙">② 별의 색과 연속 스펙트럼 — 빈의 법칙</h3>
+<p>뜨거운 물체가 내는 연속 스펙트럼은 온도가 높을수록 세기가 가장 센 파장 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">λ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mop mtight"><span class="mtight">m</span><span class="mtight">a</span><span class="mtight">x</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>가 짧아진다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">λ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mop mtight"><span class="mtight">m</span><span class="mtight">a</span><span class="mtight">x</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2.9</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8641em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">3</span></span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">m</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">K</span></span></span></span></span></span></p>
+<p>태양 표면 온도를 약 5800 K로 놓으면 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">λ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mop mtight"><span class="mtight">m</span><span class="mtight">a</span><span class="mtight">x</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2.9</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">3</span></span></span></span></span></span></span></span></span><span class="mord">/5800</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">5.0</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">7</span></span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord mathrm">m</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">500</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">nm</span></span></span></span></span>로, 가시광선 한가운데이다. 표면 온도가 높은 별은 파랗게, 낮은 별은 붉게 보이는 까닭(중학교 [9과15-01])을 정량적으로 설명하는 식이다.</p>
+<h3 id="③-적색-편이와-허블-법칙">③ 적색 편이와 허블 법칙</h3>
+<p>멀어지는 광원에서 온 빛은 파장이 길어져(빨간 쪽으로 밀려) 관측된다. 이를 <strong>적색 편이(redshift)</strong> 라 한다. 먼 은하의 스펙트럼에서 수소 선들이 실험실 위치보다 <strong>모두 함께 빨간 쪽으로 밀려</strong> 있다는 것이 관측되었고, 멀리 있는 은하일수록 더 빠르게 멀어진다는 <strong>허블 법칙</strong>이 얻어졌다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.08125em;">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0813em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">d</span><span class="mspace" style="margin-right:2em;"></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">:</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord text"><span class="mord hangul_fallback">후퇴</span><span class="mord"> </span><span class="mord hangul_fallback">속도</span></span><span class="mpunct">,</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">d</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">:</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord text"><span class="mord hangul_fallback">거리</span></span><span class="mpunct">,</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.08125em;">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0813em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">:</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord hangul_fallback">허블</span><span class="mord"> </span><span class="mord hangul_fallback">상수</span></span><span class="mclose">)</span></span></span></span></span></p>
+<p>스펙트럼의 &#39;선 위치&#39;는 원소를 알려 줄 뿐 아니라, 선이 <strong>얼마나 밀렸는지</strong>로 천체의 운동까지 알려 준다. 중학교에서 모형으로 배운 우주 팽창의 실제 관측 근거가 바로 이것이다.</p>
+<h3 id="고등학교-vs-대학교">고등학교 vs 대학교</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>고등학교 통합과학</th>
+<th>대학교(일반물리학·천체물리학·분석화학)</th>
+</tr>
+</thead><tbody><tr>
+<td>스펙트럼</td>
+<td>연속·선·흡수 스펙트럼의 구분과 조건</td>
+<td>복사 전달 이론, 선의 세기와 모양으로 온도·밀도·압력 계산</td>
+</tr>
+<tr>
+<td>선이 생기는 이유</td>
+<td>&quot;원소마다 고유하다&quot;는 사실</td>
+<td>양자역학의 에너지 준위, 전이 확률</td>
+</tr>
+<tr>
+<td>우주 초기 원소</td>
+<td>수소·헬륨 질량비 약 3:1을 개수 세기로 확인</td>
+<td>빅뱅 핵합성 계산(온도·팽창 속도·반응률의 연립)</td>
+</tr>
+<tr>
+<td>분석 기술</td>
+<td>분광기로 선 위치 대조</td>
+<td>분광 분석 기기(원자 방출·흡수 분광법), 정량 분석</td>
+</tr>
+<tr>
+<td>관련 전공</td>
+<td>—</td>
+<td>천문우주학, 물리학, 화학, 분석화학, 광학공학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-6" class="step-h s6"><span class="step-badge s6">STEP 6</span><span class="h-text">산업 현장과 진로 연결</span></h2>
+<h3 id="사례-1-천문-분광-관측-대형-망원경과-우주-망원경">사례 1. 천문 분광 관측 — 대형 망원경과 우주 망원경</h3>
+<ul>
+<li><strong>원리</strong> 망원경으로 모은 별빛을 분광기로 나누어, 흡수선의 위치로 원소를, 선이 밀린 정도로 천체의 운동을 알아낸다. 빛을 많이 모을수록 어둡고 먼 천체의 스펙트럼을 얻을 수 있어 망원경은 점점 커진다.</li>
+<li><strong>우리나라</strong> 한국천문연구원은 경북 영천의 <strong>보현산천문대</strong>에서 지름 1.8 m 망원경과 고분산 분광기로 별을 관측한다. 또 지름 약 25 m급 <strong>거대 마젤란 망원경(GMT)</strong> 건설 국제 협력에 참여하고 있으며, 2025년 발사된 미국 항공우주국(NASA)의 전천 적외선 분광 탐사 망원경 <strong>스피어엑스(SPHEREx)</strong> 개발에도 참여하였다.</li>
+<li><strong>우주 망원경</strong> 제임스 웹 우주 망원경(2021년 발사)은 적외선 분광기로 먼 은하와 외계 행성 대기의 성분을 분석한다.</li>
+</ul>
+<h3 id="사례-2-원소-분석-장비-물과-식품-속-중금속-찾기">사례 2. 원소 분석 장비 — 물과 식품 속 중금속 찾기</h3>
+<ul>
+<li><strong>원리</strong> 시료를 아주 높은 온도로 가열하면 원소들이 각자 고유한 선 스펙트럼의 빛을 낸다(<strong>원자 방출 분광법</strong>). 반대로 특정 원소의 빛을 시료에 비추어 얼마나 흡수되는지 재는 방법도 있다(<strong>원자 흡수 분광법</strong>). 2-1-①의 방출·흡수 원리를 그대로 쓴 것이다.</li>
+<li><strong>어디에 쓰이나</strong> 수돗물·하천수의 납·카드뮴 검사, 식품의 중금속 검사, 토양 오염 조사, 금속 소재의 성분 검사 등. 선의 <strong>위치</strong>로 어떤 원소인지, 선의 <strong>세기</strong>로 얼마나 들어 있는지 알아낸다.</li>
+<li><strong>핵심</strong> 아주 적은 양의 원소까지 검출할 수 있어서 환경·식품 안전 기준을 지키는 데 필수적인 장비이다.</li>
+</ul>
+<h3 id="사례-3-반도체-공정-빛으로-공정을-감시한다">사례 3. 반도체 공정 — 빛으로 공정을 감시한다</h3>
+<ul>
+<li><strong>원리</strong> 반도체 칩을 만들 때 기체를 플라스마(원자와 전자가 분리될 만큼 에너지를 받은 기체) 상태로 만들어 웨이퍼 표면을 깎아 내는 <strong>식각 공정</strong>을 한다. 플라스마는 그 속에 있는 원소에 따라 고유한 선 스펙트럼의 빛을 낸다.</li>
+<li><strong>어디에 쓰이나</strong> 공정 장비에 분광기를 달아 플라스마 빛을 실시간으로 분석한다(<strong>광학 발광 분광</strong>). 깎아 내던 층이 다 없어지고 아래층이 드러나면 빛 속 원소의 선이 바뀌므로, 이 순간을 잡아 식각을 멈춘다(<strong>식각 종료점 검출</strong>).</li>
+<li><strong>핵심</strong> 나노미터 수준의 정밀한 공정에서 &#39;언제 멈출지&#39;를 빛의 바코드로 판단한다. 공정 가스의 오염이나 장비 이상을 감시하는 데에도 분광 분석이 쓰인다.</li>
+</ul>
+<h3 id="사례-4-환경-위성-하늘에서-대기-오염-물질을-읽는다">사례 4. 환경 위성 — 하늘에서 대기 오염 물질을 읽는다</h3>
+<ul>
+<li><strong>원리</strong> 지표에서 반사되어 대기를 통과한 햇빛에는 대기 속 기체들이 흡수한 흔적(흡수 스펙트럼)이 남는다.</li>
+<li><strong>우리나라</strong> 2020년 발사된 <strong>천리안위성 2B호</strong>에는 환경 탑재체(GEMS)가 실려, 정지 궤도에서 한반도와 아시아 지역의 이산화 질소, 오존 등 대기 오염 물질을 분광 관측한다.</li>
+<li><strong>핵심</strong> 별의 성분을 알아낸 방법이 그대로 지구 대기 감시에 쓰인다.</li>
+</ul>
+<h3 id="관련-진로와-학과">관련 진로와 학과</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>진로</th>
+<th>하는 일</th>
+<th>관련 학과</th>
+</tr>
+</thead><tbody><tr>
+<td>천문학자·천체물리학자</td>
+<td>분광 관측으로 별·은하의 성분과 진화 연구</td>
+<td>천문우주학, 물리학</td>
+</tr>
+<tr>
+<td>분석화학자·시험 분석 연구원</td>
+<td>분광 장비로 환경·식품·소재 성분 분석</td>
+<td>화학, 화학공학, 환경공학</td>
+</tr>
+<tr>
+<td>반도체 공정·장비 엔지니어</td>
+<td>식각·증착 공정 개발, 공정 감시 장비 운영</td>
+<td>전자공학, 재료공학, 화학공학, 물리학</td>
+</tr>
+<tr>
+<td>광학 엔지니어</td>
+<td>분광기·망원경·센서 광학계 설계</td>
+<td>광학공학, 물리학, 전자공학</td>
+</tr>
+<tr>
+<td>원격 탐사·위성 연구원</td>
+<td>위성 분광 자료로 대기·환경 감시</td>
+<td>대기과학, 지구환경과학, 항공우주공학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="탐구-활동-분광기로-다양한-물질의-스펙트럼-관찰-비교하기">탐구 활동 — 분광기로 다양한 물질의 스펙트럼 관찰·비교하기</h2>
+<h3 id="활동-a-간이-분광기-만들어-여러-광원-관찰하기-모둠-활동">활동 A. 간이 분광기 만들어 여러 광원 관찰하기 (모둠 활동)</h3>
+<p><strong>목표</strong> 간이 분광기를 만들어 여러 광원의 스펙트럼을 관찰하고 연속 스펙트럼과 선 스펙트럼을 구별한다.</p>
+<p><strong>준비물</strong> 회절 격자 필름(또는 못 쓰는 CD·DVD 조각), 검은 종이 상자(또는 종이컵), 커터칼, 검은 테이프, 스마트폰(촬영용), 백열전구(또는 할로겐 전구), LED 손전등, 형광등</p>
+<p><strong>과정</strong></p>
+<ol>
+<li>상자 한쪽 끝에 폭 1 mm 정도의 가는 틈(슬릿)을 내고, 반대쪽에 회절 격자 필름을 붙여 들여다보는 창을 만든다.</li>
+<li>슬릿을 광원 쪽으로 향하게 하고 들여다보며, 스펙트럼이 가장 선명하게 보이도록 각도를 조절한다.</li>
+<li>각 광원의 스펙트럼을 스마트폰으로 촬영하고 아래 표에 기록한다.</li>
+</ol>
+<p><strong>결과 기록</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>광원</th>
+<th>맨눈으로 본 색</th>
+<th>스펙트럼 모양(그림)</th>
+<th>연속 / 선 / 혼합</th>
+</tr>
+</thead><tbody><tr>
+<td>백열전구</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>LED 손전등</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>형광등</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<h3 id="활동-b-수소-방전관과-원소-방전관-관찰하기-교사-시범-관찰">활동 B. 수소 방전관과 원소 방전관 관찰하기 (교사 시범 + 관찰)</h3>
+<ol>
+<li>교사가 스펙트럼관 전원 장치에 수소 방전관을 끼우고 전원을 켠다.</li>
+<li>학생은 분광기(또는 간이 분광기)로 수소 방전관을 관찰하고, 보이는 선의 색과 대략적인 위치(눈금이 있는 분광기는 파장 값)를 기록한다.</li>
+<li>헬륨, 네온 방전관으로 바꾸어 같은 방법으로 관찰한다.</li>
+</ol>
+<div class="table-wrap"><table><thead><tr>
+<th>방전관</th>
+<th>맨눈으로 본 색</th>
+<th>관찰한 선의 색(파장)</th>
+<th>선의 개수</th>
+</tr>
+</thead><tbody><tr>
+<td>수소</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>헬륨</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>네온</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<h3 id="활동-c-우주-스펙트럼-자료와-비교하기">활동 C. 우주 스펙트럼 자료와 비교하기</h3>
+<ol>
+<li>교사가 제공하는 태양 스펙트럼 사진(또는 천문 자료 사이트의 별 스펙트럼)에서 흡수선의 위치를 읽는다.</li>
+<li>활동 B에서 기록한 수소의 선 위치와 비교하여, 일치하는 흡수선을 찾아 표시한다.</li>
+<li>여러 별과 성운의 스펙트럼 자료에서 수소 선이 공통으로 나타나는지 확인한다.</li>
+</ol>
+<p><strong>생각해 보기</strong></p>
+<ol>
+<li>백열전구와 형광등은 모두 흰빛으로 보이는데, 스펙트럼은 왜 다를까?</li>
+<li>실험실의 수소 방전관과 태양의 스펙트럼에서 같은 위치에 선이 나타난다는 것은 무엇을 뜻하는가?</li>
+<li>우주의 거의 모든 천체 스펙트럼에서 수소 선이 발견된다는 사실과 빅뱅 우주론을 연결하여 설명해 보자.</li>
+</ol>
+<aside class="callout warning"><p class="callout-title">주의</p><p><strong>안전 수칙</strong> ① 분광기로 <strong>태양을 절대 직접 보지 않는다.</strong> 시력을 잃을 수 있다. 태양 스펙트럼은 흰 종이에 반사된 햇빛이나 사진 자료로 관찰한다. ② 방전관 전원 장치에는 수천 볼트의 높은 전압이 걸리므로 학생은 만지지 않고, 사용 후 방전관이 뜨거우니 식은 뒤에 다룬다. ③ 커터칼은 칼날을 몸 바깥쪽으로 향하게 하여 사용한다.</p>
+</aside>
+<hr>
+<h2 id="개념-확인-문제">개념 확인 문제</h2>
+<h3 id="기본">기본</h3>
+<p><strong>1.</strong> 다음 중 <strong>연속 스펙트럼</strong>이 나타나는 광원은?
+① 네온사인 ② 수소 방전관 ③ 백열전구의 필라멘트 ④ 나트륨 증기를 통과한 백열전구 빛</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답 ③</strong></p>
+<p>고온의 고체인 필라멘트는 연속 스펙트럼을 낸다. ①, ②는 밀도가 낮은 고온 기체이므로 선(방출) 스펙트럼, ④는 연속 스펙트럼의 빛이 기체를 통과했으므로 흡수 스펙트럼이다.</p>
+</div></details>
+
+<p><strong>2.</strong> 빈칸에 알맞은 말을 쓰시오.
+&quot;원소마다 선 스펙트럼의 선의 ( ㄱ )와/과 개수가 다르므로, 선 스펙트럼은 원소의 ( ㄴ )처럼 쓰인다. 같은 원소의 흡수선과 방출선은 ( ㄷ ) 위치에 나타난다.&quot;</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> ㄱ: 위치(파장), ㄴ: 지문(바코드), ㄷ: 같은</p>
+</div></details>
+
+<p><strong>3.</strong> 빅뱅 우주론에 따라 다음 사건을 일어난 순서대로 나열하시오.
+ㄱ. 수소 원자와 헬륨 원자가 만들어졌다.
+ㄴ. 양성자와 중성자가 만들어졌다.
+ㄷ. 헬륨 원자핵이 만들어졌다.
+ㄹ. 첫 별과 은하가 만들어졌다.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> ㄴ → ㄷ → ㄱ → ㄹ</p>
+<p>양성자·중성자(약 1초 이내) → 헬륨 원자핵(약 3분 무렵) → 원자(약 38만 년) → 별과 은하(수억 년 이후) 순이다. 원자핵이 먼저, 원자는 우주가 충분히 식은 뒤에 만들어졌다.</p>
+</div></details>
+
+<p><strong>4.</strong> 현재 우주에서 질량 기준으로 가장 많은 원소 두 가지를 쓰고, 이 두 원소가 주로 언제 만들어졌는지 쓰시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 수소, 헬륨 / 우주 초기(빅뱅 직후)</p>
+<p>수소는 질량의 약 74%, 헬륨은 약 24%를 차지하며, 대부분 빅뱅 직후 우주 초기에 만들어졌다.</p>
+</div></details>
+
+<h3 id="응용">응용</h3>
+<p><strong>5.</strong> 우주 초기 헬륨 원자핵이 만들어지던 무렵 양성자와 중성자의 개수비가 7 : 1이었다고 하자. 양성자 56개와 중성자 8개가 있고, 중성자가 모두 헬륨 원자핵이 되었다면 (1) 헬륨 원자핵과 수소 원자핵은 각각 몇 개인가? (2) 수소와 헬륨의 질량비는? (양성자와 중성자의 질량은 같다고 본다.)</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> (1) 헬륨 원자핵 4개, 수소 원자핵 48개 (2) 3 : 1</p>
+<p>(1) 헬륨 원자핵 하나에 중성자 2개가 필요하므로 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">8</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">÷</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">4</span></span></span></span>개. 이때 양성자도 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">8</span></span></span></span>개가 쓰이므로 남은 양성자(수소 원자핵)는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">56</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">8</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">48</span></span></span></span>개이다.
+(2) 수소 질량 : 헬륨 질량 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">48</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">48</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">16</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">3</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span></span></span></span></p>
+<p>예제 3과 입자 수만 다를 뿐 비율은 같다.</p>
+</div></details>
+
+<p><strong>6.</strong> 다음은 원소 P, Q, R의 방출선 위치와 어떤 별 S의 흡수선 위치이다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>대상</th>
+<th>선의 위치(nm)</th>
+</tr>
+</thead><tbody><tr>
+<td>원소 P</td>
+<td>393, 397</td>
+</tr>
+<tr>
+<td>원소 Q</td>
+<td>589.0, 589.6</td>
+</tr>
+<tr>
+<td>원소 R</td>
+<td>410, 434, 486, 656</td>
+</tr>
+<tr>
+<td>별 S(흡수선)</td>
+<td>393, 397, 410, 434, 486, 656</td>
+</tr>
+</tbody></table></div>
+<p>옳은 설명을 <strong>모두</strong> 고르시오.
+ㄱ. 별 S에는 원소 P와 R이 있다.
+ㄴ. 별 S에는 원소 Q가 있다.
+ㄷ. 별 S의 스펙트럼은 별의 표면에서 나온 연속 스펙트럼의 빛이 별의 대기를 지나며 만들어진 것이다.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답 ㄱ, ㄷ</strong></p>
+<p>ㄱ. P의 선 2개, R의 선 4개가 모두 별 S의 흡수선에 있다.
+ㄴ. Q의 선(589.0, 589.6)이 별 S에 없으므로 Q는 확인되지 않는다.
+ㄷ. 흡수 스펙트럼은 연속 스펙트럼의 빛이 상대적으로 차가운 기체(별의 대기)를 지날 때 생긴다.</p>
+</div></details>
+
+<p><strong>7.</strong> 같은 수소 기체를 이용하여 (가) 수소 방전관의 빛을 직접 본 스펙트럼과 (나) 백열전구 빛을 차가운 수소 기체에 통과시킨 스펙트럼을 얻었다. 두 스펙트럼의 모습을 비교하여 공통점과 차이점을 서술하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+(가)는 어두운 바탕에 밝은 선이 나타나는 방출 스펙트럼, (나)는 무지개 띠 위에 검은 선이 나타나는 흡수 스펙트럼이다(차이점). 그러나 (가)의 밝은 선과 (나)의 검은 선은 <strong>같은 위치</strong>(약 656, 486, 434, 410 nm)에 나타난다(공통점). 수소는 자신이 방출할 수 있는 파장의 빛만 골라 흡수하기 때문이다.</p>
+</div></details>
+
+<h3 id="융합-서술형">융합·서술형</h3>
+<p><strong>8. [산업 연계]</strong> 한 지역의 하천에서 물고기가 떼죽음을 당해, 환경 연구원이 하천수에 중금속이 녹아 있는지 조사하려 한다. 원자 방출 분광 분석 장비를 이용하여 (1) 어떤 중금속이 들어 있는지 판단하는 방법과 (2) 얼마나 들어 있는지 어림하는 방법을, 이 단원에서 배운 스펙트럼의 원리를 이용하여 서술하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+(1) 하천수 시료를 아주 높은 온도로 가열하면 시료 속 원소들이 각자 고유한 선 스펙트럼의 빛을 낸다. 이 빛을 분광하여 얻은 <strong>선의 위치(파장)</strong> 를 납, 카드뮴 등 각 원소의 표준 선 스펙트럼과 대조하여, 여러 선이 함께 일치하는 원소가 시료에 들어 있다고 판단한다.
+(2) 원소가 많이 들어 있을수록 그 원소의 선이 <strong>더 밝게(세게)</strong> 나타난다. 농도를 알고 있는 표준 용액의 선 세기와 비교하면 시료 속 중금속의 양을 어림할 수 있다.</p>
+<p><strong>채점 포인트</strong> ① 원소마다 고유한 선 스펙트럼 ② 선의 위치로 종류 판단 ③ 선의 세기로 양 어림</p>
+</div></details>
+
+<p><strong>9. [대학·천문 연계]</strong> 어떤 천문학자가 &quot;빅뱅 우주론이 옳다면, 아주 오래전에 태어나 무거운 원소가 거의 없는 별에서도 헬륨이 질량의 약 4분의 1을 차지해야 한다.&quot;라고 말했다. (1) 이 예측의 근거를 우주 초기 원소 생성 과정으로 설명하고, (2) 실제로 이를 확인하는 방법을 쓰시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+(1) 빅뱅 우주론에 따르면 우주 초기 약 3분 무렵, 양성자 약 7개당 중성자 약 1개의 비율에서 중성자가 거의 모두 헬륨 원자핵이 되어 수소와 헬륨의 질량비가 약 3:1이 되었다. 무거운 원소는 별에서 나중에 만들어지므로, 무거운 원소가 거의 없는 오래된 별은 우주 초기의 성분을 거의 그대로 가지고 있어야 한다. 따라서 이런 별도 헬륨이 질량의 약 25%를 차지해야 한다.
+(2) 이런 별이나 성운의 빛을 분광기로 분석하여 수소와 헬륨의 선을 확인하고, 선의 세기를 분석해 두 원소의 양을 비교한다. 실제 관측에서 헬륨이 질량의 약 4분의 1을 차지하는 것으로 나타나 예측과 일치한다.</p>
+<p><strong>채점 포인트</strong> ① 우주 초기 수소·헬륨 생성과 질량비 약 3:1 ② 무거운 원소는 나중에 별에서 생성 ③ 분광 관측으로 확인</p>
+</div></details>
+
+<hr>
+<h2 id="한눈에-정리">한눈에 정리</h2>
+<h3 id="핵심-요약">핵심 요약</h3>
+<ul>
+<li>스펙트럼은 빛을 파장별로 나눈 띠이다. <strong>연속 스펙트럼</strong>(고온의 고체·고밀도 기체), <strong>선(방출) 스펙트럼</strong>(고온의 저밀도 기체), <strong>흡수 스펙트럼</strong>(연속 스펙트럼의 빛이 차가운 기체 통과)이 있다.</li>
+<li>원소마다 선 스펙트럼이 고유하므로 선의 <strong>위치</strong>로 원소를 확인할 수 있다. 같은 원소의 흡수선과 방출선은 같은 위치에 나타난다.</li>
+<li>분광기로 본 수소의 선 스펙트럼에는 가시광선 영역에 약 656, 486, 434, 410 nm의 선이 있으며, 같은 선이 우주 곳곳에서 관측된다.</li>
+<li><strong>빅뱅 우주론</strong> — 약 138억 년 전 뜨겁고 조밀한 상태에서 팽창하며 식어 왔다. 양성자·중성자 → 헬륨 원자핵(약 3분 무렵) → 원자(약 38만 년) 순으로 만들어졌다.</li>
+<li>우주 초기에는 <strong>수소와 헬륨</strong>만 만들어졌고, 양성자 : 중성자 ≈ 7 : 1에서 수소 : 헬륨의 <strong>질량비가 약 3 : 1</strong>이 된다(개수비 약 12 : 1).</li>
+<li>별·성운·은하의 스펙트럼 분석 결과, 수소와 헬륨이 현재 우주의 주요 구성 원소이며 이는 빅뱅 우주론의 예측과 일치한다.</li>
+</ul>
+<h3 id="핵심-용어">핵심 용어</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>용어</th>
+<th>뜻</th>
+</tr>
+</thead><tbody><tr>
+<td>스펙트럼</td>
+<td>빛을 파장(색)에 따라 나누어 늘어놓은 띠</td>
+</tr>
+<tr>
+<td>분광기</td>
+<td>빛을 스펙트럼으로 나누어 관찰하는 장치</td>
+</tr>
+<tr>
+<td>연속 스펙트럼</td>
+<td>모든 색이 끊김 없이 이어진 스펙트럼</td>
+</tr>
+<tr>
+<td>선(방출) 스펙트럼</td>
+<td>특정 파장에서만 밝은 선이 나타나는 스펙트럼</td>
+</tr>
+<tr>
+<td>흡수 스펙트럼</td>
+<td>연속 스펙트럼 위에 특정 파장의 검은 선이 나타나는 스펙트럼</td>
+</tr>
+<tr>
+<td>빅뱅 우주론</td>
+<td>우주가 뜨겁고 조밀한 상태에서 팽창하며 식어 왔다는 이론</td>
+</tr>
+<tr>
+<td>우주 배경 복사</td>
+<td>우주 초기의 빛이 식어 현재 모든 방향에서 들어오는 약 2.7 K의 복사</td>
+</tr>
+</tbody></table></div>
+<h3 id="다음-단원으로">다음 단원으로</h3>
+<p>우주 초기에 만들어진 원소는 수소와 헬륨뿐이었다. 그렇다면 우리 몸의 탄소와 산소, 지구 중심의 철, 반지의 금은 어디에서 왔을까? 다음 단원에서는 수소와 헬륨이 뭉쳐 태어난 <strong>별</strong>이 거대한 &#39;원소 공장&#39;이 되어 무거운 원소를 만들고, 그 원소들이 태양계와 지구, 그리고 생명체의 재료가 되는 과정을 따라가 본다.</p>
+<nav class="pager"><a class="prev" href="1-4.html"><small>이전 단원</small>1-4 정보와 신호: 아날로그에서 디지털로</a><a class="next" href="2-2.html"><small>다음 단원</small>2-2 별의 진화와 원소의 생성</a></nav></article></div>
+</main>
+</div>
+</body>
+</html>

@@ -1,0 +1,691 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>3-4 운동량과 충격량</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css">
+<link rel="stylesheet" href="assets/book.css">
+<script src="assets/js/book.js" defer></script>
+<script src="assets/js/sims/impulse.js" defer></script>
+</head>
+<body class="">
+<header class="topbar">
+  <button class="menu-btn" id="menu-btn" aria-controls="drawer" aria-expanded="false">목차</button>
+  <a class="brand" href="index.html">통합과학 개념에서 산업까지</a>
+  <button class="theme-btn" id="theme-btn" aria-label="밝은 화면과 어두운 화면 바꾸기">화면</button>
+</header>
+<div class="shell">
+<aside class="drawer" id="drawer"><nav class="book-nav" aria-label="교재 목차"><a class="nav-home" href="index.html">처음으로</a><p class="nav-book">통합과학1</p><p class="nav-unit"><span>1단원</span> 과학의 기초</p><ul><li><a href="1-1.html"><span class="nav-id">1-1</span>시간과 공간</a></li><li><a href="1-2.html"><span class="nav-id">1-2</span>기본량과 단위</a></li><li><a href="1-3.html"><span class="nav-id">1-3</span>측정과 어림, 측정 표준</a></li><li><a href="1-4.html"><span class="nav-id">1-4</span>정보와 신호: 아날로그에서 디지털로</a></li></ul><p class="nav-unit"><span>2단원</span> 물질과 규칙성</p><ul><li><a href="2-1.html"><span class="nav-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="2-2.html"><span class="nav-id">2-2</span>별의 진화와 원소의 생성</a></li><li><a href="2-3.html"><span class="nav-id">2-3</span>원소의 주기성과 화학 결합의 이유</a></li><li><a href="2-4.html"><span class="nav-id">2-4</span>이온 결합과 공유 결합</a></li><li><a href="2-5.html"><span class="nav-id">2-5</span>지각과 생명체 구성 물질의 규칙성</a></li><li><a href="2-6.html"><span class="nav-id">2-6</span>물질의 전기적 성질과 소재</a></li></ul><p class="nav-unit"><span>3단원</span> 시스템과 상호작용</p><ul><li><a href="3-1.html"><span class="nav-id">3-1</span>지구시스템의 구성과 상호작용</a></li><li><a href="3-2.html"><span class="nav-id">3-2</span>판구조론과 지권의 변화</a></li><li><a href="3-3.html"><span class="nav-id">3-3</span>중력과 운동</a></li><li><a href="3-4.html" aria-current="page"><span class="nav-id">3-4</span>운동량과 충격량</a></li><li><a href="3-5.html"><span class="nav-id">3-5</span>생명 시스템과 물질대사</a></li><li><a href="3-6.html"><span class="nav-id">3-6</span>유전자와 단백질</a></li></ul><p class="nav-book">통합과학2</p><p class="nav-unit"><span>4단원</span> 변화와 다양성</p><ul><li><a href="4-1.html"><span class="nav-id">4-1</span>지질시대의 환경 변화와 생물다양성</a></li><li><a href="4-2.html"><span class="nav-id">4-2</span>진화와 생물다양성</a></li><li><a href="4-3.html"><span class="nav-id">4-3</span>산화와 환원</a></li><li><a href="4-4.html"><span class="nav-id">4-4</span>산과 염기, 중화 반응</a></li><li><a href="4-5.html"><span class="nav-id">4-5</span>물질 변화와 에너지 출입</a></li></ul><p class="nav-unit"><span>5단원</span> 환경과 에너지</p><ul><li><a href="5-1.html"><span class="nav-id">5-1</span>생태계 구성 요소와 상호 관계</a></li><li><a href="5-2.html"><span class="nav-id">5-2</span>생태계 평형</a></li><li><a href="5-3.html"><span class="nav-id">5-3</span>지구온난화와 기후변화</a></li><li><a href="5-4.html"><span class="nav-id">5-4</span>태양 에너지와 에너지 전환</a></li><li><a href="5-5.html"><span class="nav-id">5-5</span>발전기와 전기 에너지</a></li><li><a href="5-6.html"><span class="nav-id">5-6</span>에너지 효율과 신재생 에너지</a></li></ul><p class="nav-unit"><span>6단원</span> 과학과 미래 사회</p><ul><li><a href="6-1.html"><span class="nav-id">6-1</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html"><span class="nav-id">6-2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html"><span class="nav-id">6-3</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html"><span class="nav-id">6-4</span>과학기술과 윤리</a></li></ul><p class="nav-book">부록</p><ul><li><a href="guide.html">교재 설계 안내</a></li><li><a href="appendix-standards.html">부록 1. 교육과정 성취기준</a></li><li><a href="appendix-map.html">부록 2. 연계 지도</a></li><li><a href="appendix-glossary.html">부록 3. 핵심 용어 사전</a></li></ul></nav></aside>
+<main class="main" id="main">
+<div class="lesson-grid"><nav class="ladder" aria-label="이 단원의 흐름"><p class="ladder-title">이 단원의 흐름</p><ol><li class="extra"><a href="#단원-들어가기">단원 들어가기</a></li><li class="s1"><a href="#step-1"><b>STEP 1</b> 중학교 다시 보기</a></li><li class="s2"><a href="#step-2"><b>STEP 2</b> 기초 다지기</a></li><li class="s3"><a href="#step-3"><b>STEP 3</b> 핵심 개념</a></li><li class="s4"><a href="#step-4"><b>STEP 4</b> 오개념 바로잡기</a></li><li class="s5"><a href="#step-5"><b>STEP 5</b> 선택과목·대학으로 한 걸음 더</a></li><li class="s6"><a href="#step-6"><b>STEP 6</b> 산업 현장과 진로 연결</a></li><li class="extra"><a href="#탐구-활동-교통수단과-스포츠-등에서-충격을-줄이는-방법-탐색하기">탐구 활동 — 교통수단과 스포츠 등에서 충격을 줄이는 방법 탐색하기</a></li><li class="extra"><a href="#개념-확인-문제">개념 확인 문제</a></li><li class="extra"><a href="#한눈에-정리">한눈에 정리</a></li></ol></nav><article class="prose lesson"><header class="lesson-hero u3">
+  <p class="eyebrow">통합과학1 · 3단원 시스템과 상호작용</p>
+  <h1><span class="lesson-id">3-4</span>운동량과 충격량</h1>
+  <p class="lesson-sub">충돌을 다스리는 과학</p>
+</header><aside class="callout note"><p class="callout-title">성취기준·참고</p><p><strong>성취기준 [10통과1-03-04]</strong> 상호작용이 없을 때 물체가 가속되지 않음을 알고, 충격량과 운동량의 관계를 충돌 관련 안전장치와 스포츠에 적용할 수 있다.</p>
+</aside>
+<p><strong>학습 목표</strong></p>
+<ol>
+<li>물체에 작용하는 알짜힘이 0이면 물체의 속도가 변하지 않는다는 것(관성)을 일상 사례로 설명할 수 있다.</li>
+<li>운동량과 충격량의 뜻을 알고, &#39;충격량 = 운동량의 변화량&#39; 관계를 이용해 간단한 계산을 할 수 있다.</li>
+<li>충돌 시간을 늘려 충격력을 줄이는 원리를 에어백, 헬멧 등 안전장치에 적용하여 설명할 수 있다.</li>
+<li>힘을 가하는 시간을 늘려 충격량을 키우는 원리를 스포츠 기술에 적용하여 설명할 수 있다.</li>
+</ol>
+<p><strong>이 단원의 학습 사다리</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>단계</th>
+<th>무엇을 하나?</th>
+</tr>
+</thead><tbody><tr>
+<td>STEP 1. 중학교 다시 보기</td>
+<td>힘, 알짜힘, 속력 그래프를 다시 꺼내 본다</td>
+</tr>
+<tr>
+<td>STEP 2. 기초 다지기</td>
+<td>속도와 가속도, &#39;힘 = 질량 × 가속도&#39;를 디딤돌로 놓는다</td>
+</tr>
+<tr>
+<td>STEP 3. 핵심 개념</td>
+<td>관성 → 운동량 → 충격량 → 안전장치와 스포츠</td>
+</tr>
+<tr>
+<td>STEP 4. 오개념 바로잡기</td>
+<td>&quot;에어백은 충격량을 줄인다?&quot; 같은 착각을 바로잡는다</td>
+</tr>
+<tr>
+<td>STEP 5. 선택과목·대학</td>
+<td>운동량 보존, 로켓, 미적분으로 보는 충격량</td>
+</tr>
+<tr>
+<td>STEP 6. 산업·진로</td>
+<td>자동차 충돌 안전, 스포츠 용품, 포장 공학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="단원-들어가기">단원 들어가기</h2>
+<p>달걀을 딱딱한 바닥에 떨어뜨리면 깨지지만, 같은 높이에서 두꺼운 이불 위로 떨어뜨리면 멀쩡하다. 두 경우 모두 달걀은 <strong>같은 속력으로 떨어져서 결국 멈춘다.</strong> 그런데 왜 결과가 다를까?</p>
+<p>야구 선수는 공을 받을 때 글러브를 몸 쪽으로 당기고, 골프 선수는 공을 친 뒤에도 클럽을 끝까지 휘두른다(팔로스루). 하나는 &#39;충격을 줄이는&#39; 동작이고, 다른 하나는 &#39;충격을 키우는&#39; 동작이다. 이 단원에서는 이 모든 현상을 <strong>운동량</strong>과 <strong>충격량</strong>이라는 두 개념 하나로 설명해 본다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-3-4-0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 994.890625 204" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-3-4-0{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-3-4-0 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-3-4-0 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-3-4-0 .error-icon{fill:var(--mm-group);}#mm-3-4-0 .error-text{fill:#595959;stroke:#595959;}#mm-3-4-0 .edge-thickness-normal{stroke-width:1px;}#mm-3-4-0 .edge-thickness-thick{stroke-width:3.5px;}#mm-3-4-0 .edge-pattern-solid{stroke-dasharray:0;}#mm-3-4-0 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-3-4-0 .edge-pattern-dashed{stroke-dasharray:3;}#mm-3-4-0 .edge-pattern-dotted{stroke-dasharray:2;}#mm-3-4-0 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-3-4-0 .marker.cross{stroke:var(--mm-line);}#mm-3-4-0 svg{font-family:inherit;font-size:15px;}#mm-3-4-0 p{margin:0;}#mm-3-4-0 .label{font-family:inherit;color:var(--mm-text);}#mm-3-4-0 .cluster-label text{fill:#595959;}#mm-3-4-0 .cluster-label span{color:#595959;}#mm-3-4-0 .cluster-label span p{background-color:transparent;}#mm-3-4-0 .label text,#mm-3-4-0 span{fill:var(--mm-text);color:var(--mm-text);}#mm-3-4-0 .node rect,#mm-3-4-0 .node circle,#mm-3-4-0 .node ellipse,#mm-3-4-0 .node polygon,#mm-3-4-0 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-3-4-0 .rough-node .label text,#mm-3-4-0 .node .label text,#mm-3-4-0 .image-shape .label,#mm-3-4-0 .icon-shape .label{text-anchor:middle;}#mm-3-4-0 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-3-4-0 .rough-node .label,#mm-3-4-0 .node .label,#mm-3-4-0 .image-shape .label,#mm-3-4-0 .icon-shape .label{text-align:center;}#mm-3-4-0 .node.clickable{cursor:pointer;}#mm-3-4-0 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-3-4-0 .arrowheadPath{fill:#0b0b0b;}#mm-3-4-0 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-3-4-0 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-3-4-0 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-3-4-0 .edgeLabel p{background-color:var(--mm-label);}#mm-3-4-0 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-3-4-0 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-3-4-0 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-3-4-0 .cluster text{fill:#595959;}#mm-3-4-0 .cluster span{color:#595959;}#mm-3-4-0 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-3-4-0 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-3-4-0 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-3-4-0 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-3-4-0 rect.text{fill:none;stroke-width:0;}#mm-3-4-0 .icon-shape,#mm-3-4-0 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-3-4-0 .icon-shape p,#mm-3-4-0 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-3-4-0 .icon-shape .label rect,#mm-3-4-0 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-3-4-0 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-3-4-0 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-3-4-0 .node .neo-node{stroke:var(--mm-border);}#mm-3-4-0 [data-look="neo"].node rect,#mm-3-4-0 [data-look="neo"].cluster rect,#mm-3-4-0 [data-look="neo"].node polygon{stroke:url(#mm-3-4-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-4-0 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-3-4-0 [data-look="neo"].node path{stroke:url(#mm-3-4-0-gradient);stroke-width:1px;}#mm-3-4-0 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-4-0 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-3-4-0 [data-look="neo"].node circle{stroke:url(#mm-3-4-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-4-0 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-3-4-0 [data-look="neo"].icon-shape .icon{fill:url(#mm-3-4-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-4-0 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-3-4-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-3-4-0 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-3-4-0_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-4-0_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-4-0_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-4-0_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-4-0_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-4-0_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-4-0_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-4-0_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-4-0_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-4-0_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-3-4-0_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-3-4-0_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M211.859,102L216.026,102C220.193,102,228.526,102,236.193,102C243.859,102,250.859,102,254.359,102L257.859,102" id="mm-3-4-0-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MjExLjg1OTM3NSwieSI6MTAyfSx7IngiOjIzNi44NTkzNzUsInkiOjEwMn0seyJ4IjoyNjEuODU5Mzc1LCJ5IjoxMDJ9XQ==" data-look="classic" marker-end="url(#mm-3-4-0_flowchart-v2-pointEnd)"/><path d="M355.297,102L359.464,102C363.63,102,371.964,102,379.63,102C387.297,102,394.297,102,397.797,102L401.297,102" id="mm-3-4-0-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6MzU1LjI5Njg3NSwieSI6MTAyfSx7IngiOjM4MC4yOTY4NzUsInkiOjEwMn0seyJ4Ijo0MDUuMjk2ODc1LCJ5IjoxMDJ9XQ==" data-look="classic" marker-end="url(#mm-3-4-0_flowchart-v2-pointEnd)"/><path d="M520.964,67.5L527.199,63.333C533.434,59.167,545.905,50.833,557.237,46.667C568.57,42.5,578.766,42.5,583.863,42.5L588.961,42.5" id="mm-3-4-0-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6NTIwLjk2MzYyOTIwMTY4MDYsInkiOjY3LjV9LHsieCI6NTU4LjM3NSwieSI6NDIuNX0seyJ4Ijo1OTIuOTYwOTM3NSwieSI6NDIuNX1d" data-look="classic" marker-end="url(#mm-3-4-0_flowchart-v2-pointEnd)"/><path d="M520.964,136.5L527.199,140.667C533.434,144.833,545.905,153.167,555.64,157.333C565.375,161.5,572.375,161.5,575.875,161.5L579.375,161.5" id="mm-3-4-0-L_C_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_E_0" data-points="W3sieCI6NTIwLjk2MzYyOTIwMTY4MDYsInkiOjEzNi41fSx7IngiOjU1OC4zNzUsInkiOjE2MS41fSx7IngiOjU4My4zNzUsInkiOjE2MS41fV0=" data-look="classic" marker-end="url(#mm-3-4-0_flowchart-v2-pointEnd)"/><path d="M754.305,42.5L760.069,42.5C765.833,42.5,777.362,42.5,787.46,42.5C797.557,42.5,806.224,42.5,810.557,42.5L814.891,42.5" id="mm-3-4-0-L_D_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_F_0" data-points="W3sieCI6NzU0LjMwNDY4NzUsInkiOjQyLjV9LHsieCI6Nzg4Ljg5MDYyNSwieSI6NDIuNX0seyJ4Ijo4MTguODkwNjI1LCJ5Ijo0Mi41fV0=" data-look="classic" marker-end="url(#mm-3-4-0_flowchart-v2-pointEnd)"/><path d="M763.891,161.5L768.057,161.5C772.224,161.5,780.557,161.5,788.224,161.5C795.891,161.5,802.891,161.5,806.391,161.5L809.891,161.5" id="mm-3-4-0-L_E_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_G_0" data-points="W3sieCI6NzYzLjg5MDYyNSwieSI6MTYxLjV9LHsieCI6Nzg4Ljg5MDYyNSwieSI6MTYxLjV9LHsieCI6ODEzLjg5MDYyNSwieSI6MTYxLjV9XQ==" data-look="classic" marker-end="url(#mm-3-4-0_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_F_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_G_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-3-4-0-flowchart-A-0" data-look="classic" transform="translate(109.9296875, 102)"><rect class="basic label-container" style="" x="-101.9296875" y="-34.5" width="203.859375" height="69"/><g class="label" style="" transform="translate(-77.9296875, -22.5)"><rect/><foreignObject width="155.859375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>관성<br />알짜힘 0이면 속도 일정</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-4-0-flowchart-B-1" data-look="classic" transform="translate(308.578125, 102)"><rect class="basic label-container" style="" x="-46.71875" y="-34.5" width="93.4375" height="69"/><g class="label" style="" transform="translate(-22.71875, -22.5)"><rect/><foreignObject width="45.4375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>운동량<br />p = mv</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-4-0-flowchart-C-3" data-look="classic" transform="translate(469.3359375, 102)"><rect class="basic label-container" style="" x="-64.0390625" y="-34.5" width="128.078125" height="69"/><g class="label" style="" transform="translate(-40.0390625, -22.5)"><rect/><foreignObject width="80.078125" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>충격량<br />I = FΔt = Δp</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-4-0-flowchart-D-5" data-look="classic" transform="translate(673.6328125, 42.5)"><rect class="basic label-container" style="" x="-80.671875" y="-34.5" width="161.34375" height="69"/><g class="label" style="" transform="translate(-56.671875, -22.5)"><rect/><foreignObject width="113.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>충돌 시간 늘리기<br />평균 힘 감소</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-4-0-flowchart-E-7" data-look="classic" transform="translate(673.6328125, 161.5)"><rect class="basic label-container" style="" x="-90.2578125" y="-34.5" width="180.515625" height="69"/><g class="label" style="" transform="translate(-66.2578125, -22.5)"><rect/><foreignObject width="132.515625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>힘 주는 시간 늘리기<br />충격량 증가</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-4-0-flowchart-F-9" data-look="classic" transform="translate(900.390625, 42.5)"><rect class="basic label-container" style="" x="-81.5" y="-34.5" width="163" height="69"/><g class="label" style="" transform="translate(-57.5, -22.5)"><rect/><foreignObject width="115" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>안전장치<br />에어백·헬멧·범퍼</p></span></div></foreignObject></g></g><g class="node default" id="mm-3-4-0-flowchart-G-11" data-look="classic" transform="translate(900.390625, 161.5)"><rect class="basic label-container" style="" x="-86.5" y="-34.5" width="173" height="69"/><g class="label" style="" transform="translate(-62.5, -22.5)"><rect/><foreignObject width="125" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>스포츠<br />팔로스루·도움닫기</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-3-4-0-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-3-4-0-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-3-4-0-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><hr>
+<h2 id="step-1" class="step-h s1"><span class="step-badge s1">STEP 1</span><span class="h-text">중학교 다시 보기</span></h2>
+<h3 id="연계-개념표">연계 개념표</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>중학교 성취기준</th>
+<th>중학교에서 배운 것</th>
+<th>고등학교에서 확장되는 것</th>
+</tr>
+</thead><tbody><tr>
+<td>[9과05-01]</td>
+<td>힘은 크기와 방향을 가지며 화살표로 나타낸다. 힘의 평형</td>
+<td>알짜힘이 0인 상태 = 속도가 변하지 않는 상태(관성)</td>
+</tr>
+<tr>
+<td>[9과05-03]</td>
+<td>알짜힘이 0이 아니면 운동 상태(속력·방향)가 변한다</td>
+<td>운동 상태의 변화를 <strong>운동량의 변화</strong>로 수치화한다</td>
+</tr>
+<tr>
+<td>[9과19-01]</td>
+<td>등속 운동, 속력이 일정하게 변하는 운동의 그래프</td>
+<td>시간–힘 그래프의 넓이 = 충격량</td>
+</tr>
+<tr>
+<td>[9과19-02]</td>
+<td>자유 낙하에서 속력은 1초마다 일정하게 증가한다</td>
+<td>낙하 후 충돌하는 순간의 운동량 변화 계산</td>
+</tr>
+</tbody></table></div>
+<h3 id="준비-운동-사전-진단">준비 운동 (사전 진단)</h3>
+<p><strong>Q1.</strong> 책상 위에 가만히 놓인 책에는 힘이 하나도 작용하지 않는다. (O / X)</p>
+<p><strong>Q2.</strong> 마찰이 없는 얼음판 위에서 밀어 준 퍽(puck)은 손을 떠난 뒤 어떻게 움직일까?</p>
+<p><strong>Q3.</strong> 다음 중 &#39;운동 상태가 변한 것&#39;을 모두 고르시오.
+ㄱ. 일정한 속력으로 곧게 달리는 자동차 ㄴ. 일정한 속력으로 원형 트랙을 도는 자동차 ㄷ. 브레이크를 밟아 속력이 줄어드는 자동차</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>Q1. X</strong> — 중력(아래)과 책상이 떠받치는 힘(위)이 함께 작용한다. 두 힘이 평형을 이루어 <strong>알짜힘이 0</strong>일 뿐이다.</p>
+<p><strong>Q2.</strong> 거의 같은 속력으로 같은 방향으로 계속 미끄러진다. 마찰이 없으면 운동을 방해하는 힘이 없기 때문이다.</p>
+<p><strong>Q3. ㄴ, ㄷ</strong> — 운동 상태의 변화는 &#39;속력의 변화&#39; 또는 &#39;방향의 변화&#39;이다. ㄴ은 속력은 같지만 방향이 계속 바뀐다.</p>
+</div></details>
+
+<hr>
+<h2 id="step-2" class="step-h s2"><span class="step-badge s2">STEP 2</span><span class="h-text">기초 다지기</span></h2>
+<h3 id="①-속력과-속도는-다르다">① 속력과 속도는 다르다</h3>
+<ul>
+<li><strong>속력(speed)</strong>: 얼마나 빠른가. 크기만 있다. (예: 20 m/s)</li>
+<li><strong>속도(velocity)</strong>: 얼마나 빠르고 <strong>어느 방향</strong>인가. 크기와 방향이 모두 있다. (예: 동쪽으로 20 m/s)</li>
+</ul>
+<p>방향이 있는 양은 부호로 나타낼 수 있다. 오른쪽을 (+)로 정하면 왼쪽으로 5 m/s는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">−</span><span class="mord">5</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">m/s</span></span></span></span></span>이다.</p>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 속력은 &quot;시속 60 km&quot;, 속도는 &quot;시속 60 km로 부산 방향&quot;. 내비게이션은 속도를 알아야 길을 안내할 수 있다.</p>
+</aside>
+<h3 id="②-가속도-속도가-얼마나-빨리-변하는가">② 가속도: 속도가 얼마나 빨리 변하는가</h3>
+<p><strong>가속도(acceleration)</strong> 는 1초 동안 속도가 얼마나 변하는지를 나타낸다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">a</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.9463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.2603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord hangul_fallback">걸린</span><span class="mord"> </span><span class="mord hangul_fallback">시간</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord hangul_fallback mtight">나중</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord hangul_fallback mtight">처음</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<ul>
+<li>단위: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathrm">m/</span><span class="mord"><span class="mord mathrm">s</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span></span></span></span></span></span></span></span></span> (&quot;1초마다 몇 m/s씩 변하는가&quot;)</li>
+<li>중학교에서 배운 자유 낙하에서 속력이 1초마다 약 9.8 m/s씩 증가했던 것 → 가속도 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord">9.8</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">m/</span><span class="mord"><span class="mord mathrm">s</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span></span></span></span></span></span></span></span></span></li>
+</ul>
+<h3 id="③-힘과-가속도의-관계">③ 힘과 가속도의 관계</h3>
+<p>중학교에서 &quot;알짜힘이 0이 아니면 운동 상태가 변한다&quot;고 배웠다. 이것을 식으로 쓰면 다음과 같다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">ma</span><span class="mspace" style="margin-right:1em;"></span><span class="mopen">(</span><span class="mord text"><span class="mord hangul_fallback">알짜힘</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord text"><span class="mord hangul_fallback">질량</span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord hangul_fallback">가속도</span></span><span class="mclose">)</span></span></span></span></span></p>
+<ul>
+<li>같은 힘이면 질량이 클수록 속도가 덜 변한다(무거운 수레는 잘 안 밀린다).</li>
+<li>힘의 단위 1 N은 1 kg의 물체를 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord">1</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">m/</span><span class="mord"><span class="mord mathrm">s</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span></span></span></span></span></span></span></span></span>로 가속시키는 힘이다.</li>
+</ul>
+<h3 id="④-39-넓이-39-로-양을-구하는-아이디어">④ &#39;넓이&#39;로 양을 구하는 아이디어</h3>
+<p>중학교에서 속력–시간 그래프 아래 넓이가 이동 거리였다. 마찬가지로 <strong>힘–시간 그래프 아래 넓이</strong>도 의미 있는 양이 된다. 이것이 곧 STEP 3의 <strong>충격량</strong>이다.</p>
+<hr>
+<h2 id="step-3" class="step-h s3"><span class="step-badge s3">STEP 3</span><span class="h-text">핵심 개념</span></h2>
+<h3 id="3-4-①-상호작용이-없으면-가속되지-않는다-관성">3-4-① 상호작용이 없으면 가속되지 않는다 — 관성</h3>
+<p>물체에 작용하는 <strong>알짜힘이 0</strong>이면 물체의 속도는 변하지 않는다.</p>
+<ul>
+<li>정지해 있던 물체 → 계속 정지</li>
+<li>움직이던 물체 → 같은 속력, 같은 방향으로 계속 운동(등속 직선 운동)</li>
+</ul>
+<p>이처럼 물체가 운동 상태를 유지하려는 성질을 <strong>관성(inertia)</strong> 이라 하고, 이 규칙을 <strong>관성 법칙(뉴턴 운동 제1법칙)</strong> 이라고 한다. 질량이 클수록 관성이 크다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>상황</th>
+<th>관성으로 설명하기</th>
+</tr>
+</thead><tbody><tr>
+<td>버스가 갑자기 출발하면 승객이 뒤로 쏠린다</td>
+<td>승객의 몸은 정지 상태를 유지하려 한다</td>
+</tr>
+<tr>
+<td>버스가 갑자기 멈추면 승객이 앞으로 쏠린다</td>
+<td>승객의 몸은 앞으로 가던 운동을 유지하려 한다</td>
+</tr>
+<tr>
+<td>이불을 두드리면 먼지가 떨어진다</td>
+<td>이불은 움직이지만 먼지는 제자리에 남으려 한다</td>
+</tr>
+<tr>
+<td>우주 탐사선은 연료 없이도 오랫동안 날아간다</td>
+<td>우주에는 운동을 방해하는 힘이 거의 없다</td>
+</tr>
+</tbody></table></div>
+<aside class="callout important"><p class="callout-title">핵심</p><p>안전벨트는 <strong>관성 때문에 앞으로 계속 움직이려는 몸</strong>을 붙잡아 주는 장치이다. 차는 멈췄는데 몸은 그대로 앞으로 가려 하기 때문에, 벨트가 없으면 몸이 운전대나 앞 유리에 부딪힌다.</p>
+</aside>
+<h3 id="3-4-②-운동량-운동의-39-세기-39-를-나타내는-양">3-4-② 운동량: 운동의 &#39;세기&#39;를 나타내는 양</h3>
+<p>같은 속력으로 굴러오는 탁구공과 볼링공 중 어느 쪽을 멈추기 어려울까? 같은 볼링공이라도 천천히 굴러올 때와 빠르게 굴러올 때 중 어느 쪽이 멈추기 어려울까?</p>
+<p>멈추기 어려운 정도는 <strong>질량</strong>과 <strong>속도</strong> 모두에 비례한다. 이를 <strong>운동량(momentum)</strong> 이라 한다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">m</span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:2em;"></span><span class="mord text"><span class="mord hangul_fallback">단위</span><span class="mord">: </span></span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">kg</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">m/s</span></span></span></span></span></span></p>
+<ul>
+<li>운동량은 속도와 같은 <strong>방향</strong>을 가진다. 반대 방향이면 부호가 반대이다.</li>
+<li>정지한 물체의 운동량은 0이다.</li>
+</ul>
+<h4 id="예제-1">예제 1</h4>
+<p>질량 0.15 kg인 야구공이 40 m/s로 날아온다. 질량 1500 kg인 자동차가 4 m/s로 천천히 움직인다. 운동량이 더 큰 것은?</p>
+<p><strong>풀이</strong></p>
+<ul>
+<li>야구공: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">0.15</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">40</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">6</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">kg</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">m/s</span></span></span></span></span></li>
+<li>자동차: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1500</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">6000</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">kg</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">m/s</span></span></span></span></span></li>
+</ul>
+<p>자동차의 운동량이 1000배 크다. 느리게 움직이는 자동차도 멈추기 매우 어려운 이유이다.</p>
+<h3 id="3-4-③-충격량-운동량을-바꾸는-39-힘-시간-39">3-4-③ 충격량: 운동량을 바꾸는 &#39;힘 × 시간&#39;</h3>
+<p>운동량을 바꾸려면 힘이 필요하다. 그런데 <strong>얼마나 큰 힘</strong>을 주었는지뿐 아니라 <strong>얼마나 오래</strong> 주었는지도 중요하다. 그래서 다음 양을 정의한다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mord">Δ</span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:2em;"></span><span class="mord text"><span class="mord">(</span><span class="mord hangul_fallback">충격량</span><span class="mord"> = </span><span class="mord hangul_fallback">힘</span><span class="mord"> × </span><span class="mord hangul_fallback">힘이</span><span class="mord"> </span><span class="mord hangul_fallback">작용한</span><span class="mord"> </span><span class="mord hangul_fallback">시간</span><span class="mord">, </span><span class="mord hangul_fallback">단위</span><span class="mord">: </span></span><span class="mord"><span class="mord mathrm">N</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">s</span></span><span class="mclose">)</span></span></span></span></span></p>
+<p>이것을 <strong>충격량(impulse)</strong> 이라고 한다. STEP 2의 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">ma</span></span></span></span>와 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">a</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>를 합치면 아주 중요한 관계가 나온다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.9463em;vertical-align:-0.686em;"></span><span class="mord mathnormal">m</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.2603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord hangul_fallback mtight">나중</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord hangul_fallback mtight">처음</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">⇒</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mord">Δ</span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7333em;vertical-align:-0.15em;"></span><span class="mord mathnormal">m</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord hangul_fallback mtight">나중</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord mathnormal">m</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord hangul_fallback mtight">처음</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.68em;vertical-align:-0.59em;"></span><span class="mord"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.09em;"><span style="top:-3.68em;"><span class="pstrut" style="height:3.68em;"></span><span class="boxpad"><span class="mord"><span class="mord"><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord text"><span class="mord hangul_fallback">충격량</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord text"><span class="mord hangul_fallback">운동량의</span><span class="mord"> </span><span class="mord hangul_fallback">변화량</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord">Δ</span><span class="mord mathnormal">p</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span></span></span></span></span><span style="top:-3.09em;"><span class="pstrut" style="height:3.68em;"></span><span class="stretchy fbox" style="height:1.68em;border-style:solid;border-width:0.04em;"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.59em;"><span></span></span></span></span></span></span></span></span></span></p>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 운동량을 &#39;통장 잔고&#39;, 충격량을 &#39;입금·출금액&#39;이라고 생각하자. 잔고를 1000원 줄이려면 1000원을 한 번에 빼도 되고(큰 힘, 짧은 시간), 10원씩 100번 빼도 된다(작은 힘, 긴 시간). <strong>빠져나간 총액(충격량)은 같지만 한 번에 빠지는 금액(힘)은 전혀 다르다.</strong></p>
+</aside>
+<h4 id="힘-시간-그래프로-보는-충격량">힘–시간 그래프로 보는 충격량</h4>
+<p>실제 충돌에서 힘은 일정하지 않고 순간적으로 커졌다가 작아진다. 이때 <strong>힘–시간 그래프 아래의 넓이</strong>가 충격량이다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>충돌 방식</th>
+<th>그래프 모양</th>
+<th>넓이(충격량)</th>
+<th>최대 힘</th>
+</tr>
+</thead><tbody><tr>
+<td>딱딱한 바닥</td>
+<td>폭이 좁고 높은 뾰족한 산</td>
+<td>같다</td>
+<td>매우 크다</td>
+</tr>
+<tr>
+<td>푹신한 매트</td>
+<td>폭이 넓고 낮은 완만한 산</td>
+<td>같다</td>
+<td>작다</td>
+</tr>
+</tbody></table></div>
+<p>같은 높이에서 떨어져 멈추는 달걀은 <strong>운동량 변화량(충격량)이 같다.</strong> 바닥은 달걀을 아주 짧은 시간에 멈추게 하므로 힘이 크고, 이불은 오랜 시간에 걸쳐 멈추게 하므로 힘이 작다. 그래서 이불 위의 달걀은 깨지지 않는다.</p>
+<h4 id="예제-2">예제 2</h4>
+<p>질량 0.06 kg인 달걀이 5 m/s로 떨어지다가 바닥에서 멈췄다.
+(1) 달걀이 받은 충격량의 크기는?
+(2) 딱딱한 바닥에서 0.002초 만에 멈출 때와 이불에서 0.1초 만에 멈출 때, 달걀이 받는 평균 힘의 크기를 각각 구하시오.</p>
+<p><strong>풀이</strong>
+(1) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣Δ</span><span class="mord mathnormal">p</span><span class="mord">∣</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣0</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">0.06</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">5∣</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">0.3</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">N</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">s</span></span></span></span></span>
+(2) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07847em;">I</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></p>
+<ul>
+<li>바닥: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">0.002</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">0.3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">150</span><span class="mspace"> </span><span class="mord mathrm">N</span></span></span></span></li>
+<li>이불: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">0.1</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">0.3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">3</span><span class="mspace"> </span><span class="mord mathrm">N</span></span></span></span></li>
+</ul>
+<p>충격량은 같지만 평균 힘은 <strong>50배</strong> 차이가 난다.</p>
+<h4 id="예제-3-튕겨-나오면-충격량이-더-크다">예제 3 — 튕겨 나오면 충격량이 더 크다</h4>
+<p>질량 0.5 kg인 공이 오른쪽으로 4 m/s로 벽에 부딪힌 뒤 왼쪽으로 4 m/s로 튕겨 나왔다. 공이 받은 충격량은?</p>
+<p><strong>풀이</strong> 오른쪽을 (+)로 정하면
+<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord">Δ</span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7333em;vertical-align:-0.15em;"></span><span class="mord mathnormal">m</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord hangul_fallback mtight">나중</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord mathnormal">m</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord hangul_fallback mtight">처음</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">0.5</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">−</span><span class="mord">4</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">0.5</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">+</span><span class="mord">4</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">−</span><span class="mord">4</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">kg</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">m/s</span></span></span></span></span></p>
+<p>크기는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">4</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">N</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">s</span></span></span></span></span>, 방향은 왼쪽이다. 벽에 붙어 멈췄다면 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">2</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">N</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">s</span></span></span></span></span>였을 것이다. <strong>튕겨 나오면 운동량 변화가 더 크므로 충격량도 더 크다.</strong></p>
+<figure class="sim" data-sim="impulse"><noscript>이 애니메이션은 자바스크립트가 필요하다.</noscript></figure>
+
+<h3 id="3-4-④-충격을-줄이는-안전장치-충돌-시간을-늘려라">3-4-④ 충격을 줄이는 안전장치 — 충돌 시간을 늘려라</h3>
+<p>충돌로 멈추는 경우 운동량 변화량은 이미 정해져 있다(처음 운동량 → 0). 따라서 몸을 보호하는 방법은 단 하나, <strong>충돌 시간 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span></span>를 늘려 평균 힘 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span></span></span></span>를 줄이는 것</strong>이다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0463em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal">p</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:1em;"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">⇒</span><span class="mspace" style="margin-right:1em;"></span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord">Δ</span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">↑</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">⇒</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">↓</span></span></span></span></span></p>
+<div class="table-wrap"><table><thead><tr>
+<th>안전장치</th>
+<th>어떻게 충돌 시간을 늘리나?</th>
+</tr>
+</thead><tbody><tr>
+<td>에어백</td>
+<td>부풀어 오른 주머니가 머리·가슴이 멈추는 거리와 시간을 늘린다</td>
+</tr>
+<tr>
+<td>안전벨트</td>
+<td>약간 늘어나면서 몸을 붙잡아 몸이 멈추는 시간을 늘린다</td>
+</tr>
+<tr>
+<td>자동차 앞부분(크럼플 존)</td>
+<td>일부러 찌그러지면서 충돌 시간을 늘리고, 승객 공간은 단단하게 지킨다</td>
+</tr>
+<tr>
+<td>헬멧 내부 스티로폼(EPS)</td>
+<td>충격 시 눌려 찌그러지며 머리가 멈추는 시간을 늘린다</td>
+</tr>
+<tr>
+<td>운동장 우레탄 바닥, 체조 매트</td>
+<td>넘어질 때 몸이 천천히 멈추게 한다</td>
+</tr>
+<tr>
+<td>도로의 충격 흡수 장치(쿠션 드럼)</td>
+<td>차량이 부딪힐 때 찌그러지거나 밀려나며 충돌 시간을 늘린다</td>
+</tr>
+<tr>
+<td>낙법, 착지할 때 무릎 굽히기</td>
+<td>몸이 멈추는 시간을 길게 만든다</td>
+</tr>
+</tbody></table></div>
+<h4 id="예제-4-에어백의-효과">예제 4 — 에어백의 효과</h4>
+<p>질량 60 kg인 운전자가 15 m/s(54 km/h)로 달리다 충돌하여 멈춘다.
+머리와 상체가 단단한 운전대에 부딪혀 0.01초 만에 멈추는 경우와 에어백에 의해 0.15초에 걸쳐 멈추는 경우의 평균 힘을 비교하시오. (시간은 설명을 위해 가정한 값이다.)</p>
+<p><strong>풀이</strong> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣Δ</span><span class="mord mathnormal">p</span><span class="mord">∣</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">60</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">15</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">900</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">kg</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">m/s</span></span></span></span></span></p>
+<ul>
+<li>운전대: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">900/0.01</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">90</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace"> </span><span class="mord mathrm">N</span></span></span></span></li>
+<li>에어백: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">900/0.15</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">6</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace"> </span><span class="mord mathrm">N</span></span></span></span></li>
+</ul>
+<p>평균 힘이 <strong>15분의 1</strong>로 줄어든다. 충격량은 똑같다는 점에 주의하자.</p>
+<h3 id="3-4-⑤-충격량을-키우는-스포츠-기술-힘-주는-시간을-늘려라">3-4-⑤ 충격량을 키우는 스포츠 기술 — 힘 주는 시간을 늘려라</h3>
+<p>반대로 공을 멀리, 빠르게 보내고 싶다면 공에 <strong>큰 충격량</strong>을 주어야 한다. 힘의 크기에는 한계가 있으므로, <strong>공과 접촉하는 시간을 늘리는 것</strong>이 핵심이다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>스포츠 동작</th>
+<th>원리</th>
+</tr>
+</thead><tbody><tr>
+<td>골프·야구·테니스의 팔로스루</td>
+<td>공에 힘을 주는 시간을 조금이라도 더 늘려 충격량을 키운다</td>
+</tr>
+<tr>
+<td>투포환·투창의 긴 회전·도움닫기</td>
+<td>힘을 오래 작용시켜 운동량을 크게 만든다</td>
+</tr>
+<tr>
+<td>야구 포수가 미트를 몸 쪽으로 당기기</td>
+<td>(반대) 공이 멈추는 시간을 늘려 손에 받는 힘을 줄인다</td>
+</tr>
+<tr>
+<td>높이뛰기 매트, 멀리뛰기 모래판</td>
+<td>(반대) 착지할 때 충돌 시간을 늘려 부상을 막는다</td>
+</tr>
+</tbody></table></div>
+<aside class="callout warning"><p class="callout-title">주의</p><p>&quot;팔로스루를 하면 무조건 공이 빨라진다&quot;는 정확하지 않다. 실제로 공과 배트가 붙어 있는 시간은 1000분의 1초 정도로 매우 짧다. 팔로스루의 진짜 의미는 <strong>임팩트 순간까지 배트(클럽)의 속력을 줄이지 않고 끝까지 힘을 실어 주는 것</strong>이며, 그 결과 공에 전달되는 충격량이 커진다.</p>
+</aside>
+<hr>
+<h2 id="step-4" class="step-h s4"><span class="step-badge s4">STEP 4</span><span class="h-text">오개념 바로잡기</span></h2>
+<div class="table-wrap"><table><thead><tr>
+<th>흔한 오개념</th>
+<th>올바른 개념</th>
+<th>왜 그럴까?</th>
+</tr>
+</thead><tbody><tr>
+<td>물체가 계속 움직이려면 힘이 계속 작용해야 한다</td>
+<td>알짜힘이 0이면 물체는 <strong>등속 직선 운동을 계속</strong>한다</td>
+<td>일상에서는 마찰력·공기 저항이 항상 작용해 멈추는 것처럼 보일 뿐이다</td>
+</tr>
+<tr>
+<td>에어백은 충격량을 줄여 준다</td>
+<td>에어백은 <strong>충격량은 그대로</strong> 두고 <strong>평균 힘을 줄인다</strong></td>
+<td>멈추는 경우 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord">Δ</span><span class="mord mathnormal">p</span></span></span></span>는 처음 운동량으로 정해져 있다. 바뀌는 것은 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span></span>이다</td>
+</tr>
+<tr>
+<td>무거운 물체는 항상 운동량이 크다</td>
+<td>운동량은 <strong>질량 × 속도</strong>이다</td>
+<td>빠른 총알이 느린 사람보다 운동량이 클 수도 있다</td>
+</tr>
+<tr>
+<td>운동량과 운동 에너지는 같은 것이다</td>
+<td>운동량 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">m</span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span>는 방향이 있고, 운동 에너지 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord mathnormal">m</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span>는 방향이 없다</td>
+<td>마주 오는 두 공의 운동량은 상쇄될 수 있지만 운동 에너지는 상쇄되지 않는다</td>
+</tr>
+<tr>
+<td>벽에 붙는 것보다 튕겨 나올 때 충격이 작다</td>
+<td>튕겨 나오면 <strong>운동량 변화가 더 커서</strong> 충격량이 더 크다</td>
+<td>멈추는 데 더해 반대 방향으로 다시 가속해야 하기 때문이다</td>
+</tr>
+<tr>
+<td>관성은 움직이는 물체에만 있다</td>
+<td>정지한 물체도 <strong>정지 상태를 유지하려는</strong> 관성이 있다</td>
+<td>버스가 출발할 때 몸이 뒤로 쏠리는 현상이 그 예이다</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-5" class="step-h s5"><span class="step-badge s5">STEP 5</span><span class="h-text">선택과목·대학으로 한 걸음 더</span></h2>
+<aside class="callout caution"><p class="callout-title">심화 · 평가 범위 밖</p><p>이 절은 <strong>통합과학 교육과정 범위 밖의 심화 내용</strong>으로 평가 대상이 아니다. &quot;이 개념이 앞으로 어디까지 이어지는가&quot;를 맛보기로 보여 주기 위한 내용이다.</p>
+</aside>
+<h3 id="고2-3-선택과목과의-연결">고2·3 선택과목과의 연결</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>과목</th>
+<th>이어지는 내용</th>
+</tr>
+</thead><tbody><tr>
+<td>물리학</td>
+<td>뉴턴 운동 법칙(관성·가속도·작용 반작용), <strong>운동량 보존 법칙</strong>, 충돌</td>
+</tr>
+<tr>
+<td>역학과 에너지</td>
+<td>시공간과 운동, 다양한 운동의 분석, 열과 에너지</td>
+</tr>
+</tbody></table></div>
+<h3 id="①-운동량-보존-법칙">① 운동량 보존 법칙</h3>
+<p>두 물체가 서로만 힘을 주고받으면(외부 힘이 없으면), 작용–반작용 법칙에 의해 두 물체가 받는 충격량은 크기가 같고 방향이 반대이다. 따라서 한 물체가 얻은 운동량만큼 다른 물체가 잃는다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.0489em;vertical-align:-0.247em;"></span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8019em;"><span style="top:-2.453em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.0489em;vertical-align:-0.247em;"></span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8019em;"><span style="top:-2.453em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span></span></span></span></span></p>
+<p><strong>외부와 상호작용이 없으면 계(system) 전체의 운동량은 변하지 않는다.</strong> 이 단원 성취기준의 &quot;상호작용이 없을 때 가속되지 않는다&quot;를 &#39;여러 물체의 모임&#39;으로 확장한 것이다.</p>
+<h3 id="②-로켓은-무엇을-밀고-나아가는가">② 로켓은 무엇을 밀고 나아가는가?</h3>
+<p>우주에는 밀어낼 공기가 없는데 로켓은 어떻게 가속할까? 로켓은 연료를 태운 가스를 뒤로 빠르게 내뿜는다. 처음 전체 운동량이 0이었다면, 가스가 뒤로 운동량을 가져가는 만큼 로켓은 앞으로 같은 크기의 운동량을 얻는다. 대학 역학에서는 이를 질량이 계속 줄어드는 물체의 운동으로 풀어 <strong>로켓 방정식(치올콥스키 방정식)</strong> 을 얻는다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0797em;vertical-align:-0.9721em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">e</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mop">ln</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.1076em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.10764em;">f</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.9721em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<p>(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">e</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>: 가스 분출 속력, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>: 처음 질량, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7167em;vertical-align:-0.2861em;"></span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.10764em;">f</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span></span></span></span>: 나중 질량) 연료를 많이 실을수록 속도를 크게 바꿀 수 있지만, 로그 함수라서 효과가 점점 줄어든다. 그래서 로켓은 다 쓴 연료통을 떼어 내는 <strong>다단 로켓</strong> 구조를 쓴다.</p>
+<h3 id="③-미적분으로-보는-충격량">③ 미적분으로 보는 충격량</h3>
+<p>대학 &#39;일반물리학&#39;에서는 힘이 시간에 따라 변하는 경우를 적분으로 다룬다. 뉴턴은 원래 운동 제2법칙을 &#39;운동량의 시간 변화율&#39;로 표현했다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0574em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3714em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">d</span><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">d</span><span class="mord mathnormal">p</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:2em;"></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.5555em;vertical-align:-1.012em;"></span><span class="mop"><span class="mop op-symbol large-op" style="margin-right:0.44445em;position:relative;top:-0.0011em;">∫</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.5435em;"><span style="top:-1.7881em;margin-left:-0.4445em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal mtight">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3173em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.0714em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.8129em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal mtight">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3173em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.0714em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.012em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">d</span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7778em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></p>
+<p>STEP 3에서 &#39;그래프 아래 넓이&#39;라고 한 것이 바로 적분이다. 또 운동량은 3차원 <strong>벡터</strong>로 다루며, 당구공처럼 비스듬히 부딪치는 2차원 충돌도 분석할 수 있다.</p>
+<h3 id="고등학교-vs-대학교">고등학교 vs 대학교</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>고등학교 통합과학</th>
+<th>대학교 일반물리학·동역학</th>
+</tr>
+</thead><tbody><tr>
+<td>운동량</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">m</span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span>, 1차원(부호로 방향)</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9084em;vertical-align:-0.1944em;"></span><span class="mord accent"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.714em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathnormal">p</span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.1522em;"><span class="overlay" style="height:0.714em;width:0.471em;"><svg xmlns="http://www.w3.org/2000/svg" width='0.471em' height='0.714em' style='width:0.471em' viewBox='0 0 471 714' preserveAspectRatio='xMinYMin'><path d='M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z'/></svg></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.1944em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.714em;"></span><span class="mord mathnormal">m</span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.714em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.2077em;"><span class="overlay" style="height:0.714em;width:0.471em;"><svg xmlns="http://www.w3.org/2000/svg" width='0.471em' height='0.714em' style='width:0.471em' viewBox='0 0 471 714' preserveAspectRatio='xMinYMin'><path d='M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></span></span></span></span>, 3차원 벡터</td>
+</tr>
+<tr>
+<td>충격량</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span></span> (평균 힘)</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.1111em;vertical-align:-0.3061em;"></span><span class="mop op-symbol small-op" style="margin-right:0.19445em;position:relative;top:-0.0006em;">∫</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">d</span><span class="mord mathnormal">t</span></span></span></span> (변하는 힘)</td>
+</tr>
+<tr>
+<td>충돌</td>
+<td>안전장치·스포츠 사례로 정성 분석</td>
+<td>탄성·비탄성 충돌, 반발 계수, 질량 중심</td>
+</tr>
+<tr>
+<td>응용</td>
+<td>에어백 원리 이해</td>
+<td>충돌 시뮬레이션(유한 요소 해석), 로켓 궤도 설계</td>
+</tr>
+<tr>
+<td>관련 전공</td>
+<td>—</td>
+<td>기계공학, 자동차공학, 항공우주공학, 물리학, 스포츠과학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-6" class="step-h s6"><span class="step-badge s6">STEP 6</span><span class="h-text">산업 현장과 진로 연결</span></h2>
+<h3 id="사례-1-자동차-충돌-안전-공학">사례 1. 자동차 충돌 안전 공학</h3>
+<figure class="fig" id="fig-3-4-crumple-zone"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="t-3-4-crumple-zone d-3-4-crumple-zone">
+  <title id="t-3-4-crumple-zone">그림 3-4-1 자동차의 충돌 안전 구조</title>
+  <desc id="d-3-4-crumple-zone">앞부분(크럼플 존)은 단계적으로 찌그러지며 충돌 시간을 늘리고, 승객이 타는 공간은 단단하게 지킨다.</desc>
+  <style>
+    .k-ink{fill:var(--fig-ink)} .k-mut{fill:var(--fig-muted)}
+    .k-lbl{font-size:15px;fill:var(--fig-ink)} .k-sm{font-size:13px;fill:var(--fig-muted)}
+  </style>
+  <!-- 도로 -->
+  <line x1="20" y1="232" x2="700" y2="232" style="stroke:var(--fig-line);stroke-width:2"/>
+  <!-- 벽 -->
+  <rect x="40" y="70" width="26" height="162" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <text x="53" y="60" text-anchor="middle" class="k-sm">벽</text>
+  <!-- 크럼플 존(앞부분, 접힘 무늬) -->
+  <path d="M70 150 L92 132 L112 156 L134 128 L156 154 L178 126 L200 150 L200 206 L178 186 L156 212 L134 184 L112 210 L92 186 L70 206 Z"
+        style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2.5;stroke-linejoin:round"/>
+  <!-- 승객 공간(캐빈) -->
+  <path d="M200 206 L200 140 L260 96 L470 96 L520 140 L560 140 L560 206 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:3"/>
+  <rect x="270" y="108" width="80" height="34" rx="4" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <rect x="362" y="108" width="96" height="34" rx="4" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <!-- 뒷부분 -->
+  <path d="M560 140 L640 146 L652 206 L560 206 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <!-- 바퀴 -->
+  <circle cx="250" cy="210" r="22" style="fill:var(--fig-ink)"/><circle cx="250" cy="210" r="9" style="fill:var(--fig-paper)"/>
+  <circle cx="560" cy="210" r="22" style="fill:var(--fig-ink)"/><circle cx="560" cy="210" r="9" style="fill:var(--fig-paper)"/>
+  <!-- 운동 방향 -->
+  <line x1="640" y1="70" x2="560" y2="70" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <path d="M560 70 l12 -7 l0 14 z" class="k-ink"/>
+  <text x="600" y="58" text-anchor="middle" class="k-sm">운동 방향</text>
+  <!-- 설명 -->
+  <line x1="135" y1="124" x2="135" y2="38" style="stroke:var(--fig-amber);stroke-width:1.5"/>
+  <text x="140" y="34" class="k-lbl" style="font-weight:600">크럼플 존</text>
+  <text x="140" y="52" class="k-sm">단계적으로 찌그러지며 충돌 시간 ↑</text>
+  <line x1="380" y1="96" x2="380" y2="38" style="stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="386" y="34" class="k-lbl" style="font-weight:600">승객 공간</text>
+  <text x="386" y="52" class="k-sm">고강도 강판으로 모양 유지</text>
+  <text x="360" y="272" text-anchor="middle" class="k-sm">충격량(운동량 변화량)은 같아도, 충돌 시간이 길면 승객이 받는 평균 힘이 작아진다</text>
+</svg>
+</div></figure>
+
+<ul>
+<li><strong>원리</strong> 크럼플 존은 앞부분이 단계적으로 찌그러지며 충돌 시간을 늘리고, 승객이 타는 공간(캐빈)은 고강도 강판으로 만들어 찌그러지지 않게 한다. &quot;부드러운 앞부분 + 단단한 승객 공간&quot;이 함께 있어야 한다.</li>
+<li><strong>에어백의 작동 순서</strong> 충돌을 감지하는 <strong>가속도 센서</strong>가 급격한 감속을 감지 → 제어 장치가 판단 → 가스 발생 장치가 작동 → 수십 밀리초(0.0x초) 안에 에어백이 부풀어 오른다. 탑승자가 앞으로 쏠리기 전에 펼쳐져야 하므로 시간이 핵심이다.</li>
+<li><strong>평가 제도</strong> 우리나라는 한국교통안전공단이 <strong>자동차안전도평가(KNCAP)</strong> 를 실시하여 충돌 시험 결과를 공개한다. 충돌 시험용 인체 모형(더미)의 머리·가슴에 단 센서로 받는 힘과 가속도를 측정한다.</li>
+<li><strong>요즘 현장</strong> 실제 차를 부수는 시험은 비용이 크기 때문에, 먼저 컴퓨터로 수천 번 충돌을 계산하는 <strong>충돌 시뮬레이션(CAE)</strong> 을 하고 마지막에 실차 시험으로 확인한다.</li>
+</ul>
+<h3 id="사례-2-스포츠-용품과-보호-장비">사례 2. 스포츠 용품과 보호 장비</h3>
+<ul>
+<li>헬멧, 축구 정강이 보호대, 러닝화 밑창은 모두 <strong>충격을 받을 때 천천히 찌그러지는 소재</strong>(발포 폴리스타이렌, 폴리우레탄 폼 등)를 쓴다.</li>
+<li>러닝화는 &#39;충격 흡수(충돌 시간 늘리기)&#39;와 &#39;반발력(에너지 되돌려 주기)&#39;을 함께 고려해 밑창 소재를 설계한다.</li>
+</ul>
+<h3 id="사례-3-포장-공학과-물류">사례 3. 포장 공학과 물류</h3>
+<ul>
+<li>택배 상자 안의 에어캡(뽁뽁이), 스티로폼 완충재는 떨어질 때 제품이 멈추는 시간을 늘린다.</li>
+<li>전자 제품 회사는 포장한 제품을 일정 높이에서 떨어뜨리는 <strong>낙하 시험</strong>으로 완충 설계를 검증한다.</li>
+</ul>
+<h3 id="사례-4-항공우주-운동량-보존의-응용">사례 4. 항공우주 — 운동량 보존의 응용</h3>
+<ul>
+<li>로켓 발사는 STEP 5의 운동량 보존을 이용한다. 우리나라는 한국항공우주연구원이 개발한 <strong>누리호</strong>로 독자적인 발사 능력을 갖추었다.</li>
+<li>우주선이 착륙할 때 쓰는 낙하산·역추진 엔진·착륙 다리의 완충 장치도 충돌 시간을 늘리는 원리이다.</li>
+</ul>
+<h3 id="관련-진로와-학과">관련 진로와 학과</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>진로</th>
+<th>하는 일</th>
+<th>관련 학과</th>
+</tr>
+</thead><tbody><tr>
+<td>자동차 안전 엔지니어</td>
+<td>차체 구조·에어백 설계, 충돌 시험·시뮬레이션</td>
+<td>기계공학, 자동차공학</td>
+</tr>
+<tr>
+<td>스포츠 과학자·용품 개발자</td>
+<td>동작 분석, 보호 장비·운동화 개발</td>
+<td>스포츠과학, 체육학, 재료공학</td>
+</tr>
+<tr>
+<td>포장 엔지니어</td>
+<td>완충 포장 설계, 낙하 시험</td>
+<td>기계공학, 산업공학, 포장학</td>
+</tr>
+<tr>
+<td>항공우주 엔지니어</td>
+<td>추진 시스템, 착륙 장치 설계</td>
+<td>항공우주공학, 기계공학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="탐구-활동-교통수단과-스포츠-등에서-충격을-줄이는-방법-탐색하기">탐구 활동 — 교통수단과 스포츠 등에서 충격을 줄이는 방법 탐색하기</h2>
+<h3 id="활동-a-달걀-낙하-보호-장치-설계하기-모둠-활동">활동 A. 달걀 낙하 보호 장치 설계하기 (모둠 활동)</h3>
+<p><strong>목표</strong> 충격량과 충돌 시간의 관계를 이용하여 높은 곳에서 떨어지는 달걀을 보호하는 장치를 설계한다.</p>
+<p><strong>준비물</strong> 날달걀, 종이, 빨대, 고무줄, 비닐봉지, 테이프, 가위, 줄자, 스마트폰(느린 동작 촬영)</p>
+<p><strong>과정</strong></p>
+<ol>
+<li>모둠별로 재료를 받고 15분 동안 보호 장치를 설계·제작한다(재료 양은 모든 모둠 동일).</li>
+<li>같은 높이(예: 2 m)에서 장치를 떨어뜨리고 스마트폰 슬로 모션으로 촬영한다.</li>
+<li>영상에서 장치가 바닥에 닿은 순간부터 완전히 멈출 때까지의 프레임 수를 세어 충돌 시간을 어림한다.</li>
+<li>달걀의 상태를 기록한다.</li>
+</ol>
+<p><strong>결과 기록</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>모둠</th>
+<th>설계 핵심 아이디어</th>
+<th>충돌 시간 어림(초)</th>
+<th>달걀 상태</th>
+</tr>
+</thead><tbody><tr>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<p><strong>생각해 보기</strong></p>
+<ol>
+<li>모든 모둠의 달걀이 받은 충격량은 같았을까? 그렇게 생각한 이유는?</li>
+<li>성공한 장치들의 공통점을 &#39;충돌 시간&#39;으로 설명해 보자.</li>
+<li>이 아이디어를 자동차나 헬멧 설계에 어떻게 적용할 수 있을까?</li>
+</ol>
+<aside class="callout warning"><p class="callout-title">주의</p><p><strong>안전 수칙</strong> 높은 곳에서 떨어뜨릴 때는 교사의 지도 아래 안전한 계단이나 사다리를 이용하고, 아래에 사람이 없는지 확인한다. 깨진 달걀은 위생을 위해 바로 치운다.</p>
+</aside>
+<h3 id="활동-b-스마트폰-가속도-센서로-충격-비교하기">활동 B. 스마트폰 가속도 센서로 충격 비교하기</h3>
+<ol>
+<li>스마트폰 과학 실험 앱(가속도 측정 기능)을 켠다.</li>
+<li>스마트폰을 두꺼운 수건으로 감싸 쿠션 위에 가볍게 떨어뜨리는 경우와, 수건 없이 쿠션 위에 떨어뜨리는 경우의 가속도 그래프를 비교한다. (스마트폰 파손을 막기 위해 반드시 쿠션 위, 낮은 높이에서 한다.)</li>
+<li>그래프의 <strong>최댓값</strong>과 <strong>뾰족한 정도(폭)</strong> 를 비교하고, 충돌 시간과 힘의 관계로 설명한다.</li>
+</ol>
+<hr>
+<h2 id="개념-확인-문제">개념 확인 문제</h2>
+<h3 id="기본">기본</h3>
+<p><strong>1.</strong> 다음 중 관성으로 설명하기 <strong>어려운</strong> 것은?
+① 달리던 사람이 돌에 걸리면 앞으로 넘어진다.
+② 컵 밑의 종이를 빠르게 잡아당기면 컵은 제자리에 남는다.
+③ 망치 자루를 바닥에 내리치면 망치 머리가 자루에 더 단단히 박힌다.
+④ 풍선을 불어 놓았다가 놓으면 풍선이 공기를 내뿜으며 날아간다.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답 ④</strong></p>
+<p>④는 풍선이 공기를 뒤로 밀어내고 그 반작용(또는 운동량 보존)으로 날아가는 현상이다. ①은 발은 멈췄지만 몸은 계속 앞으로 가려는 관성, ②는 컵이 정지 상태를 유지하려는 관성, ③은 자루가 멈춰도 망치 머리는 계속 내려가려는 관성으로 설명된다.</p>
+</div></details>
+
+<p><strong>2.</strong> 질량 2 kg인 물체가 3 m/s로 운동하고 있다. 이 물체의 운동량의 크기를 구하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">6</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">kg</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">m/s</span></span></span></span></span></p>
+<p><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">m</span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">3</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">6</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">kg</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">m/s</span></span></span></span></span></p>
+</div></details>
+
+<p><strong>3.</strong> 정지해 있던 질량 0.4 kg의 축구공을 발로 차서 공이 20 m/s로 날아갔다. 발과 공이 닿아 있던 시간이 0.02초일 때, 공이 받은 (1) 충격량과 (2) 평균 힘의 크기를 구하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> (1) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">8</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">N</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">s</span></span></span></span></span> (2) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">400</span><span class="mspace"> </span><span class="mord mathrm">N</span></span></span></span></p>
+<p>(1) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord">Δ</span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">0.4</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">20</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">8</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">N</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">s</span></span></span></span></span>
+(2) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="mord">/Δ</span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">8/0.02</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">400</span><span class="mspace"> </span><span class="mord mathrm">N</span></span></span></span></p>
+</div></details>
+
+<p><strong>4.</strong> 빈칸에 알맞은 말을 쓰시오.
+&quot;충돌하여 멈추는 물체가 받는 충격량은 처음 ( ㄱ )에 의해 정해진다. 따라서 안전장치는 ( ㄴ )을/를 길게 하여 물체가 받는 평균 ( ㄷ )을/를 줄인다.&quot;</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> ㄱ: 운동량, ㄴ: 충돌 시간(힘이 작용하는 시간), ㄷ: 힘</p>
+</div></details>
+
+<h3 id="응용">응용</h3>
+<p><strong>5.</strong> 같은 높이에서 같은 질량의 공 A, B를 떨어뜨렸다. A는 바닥에 닿은 뒤 멈추었고, B는 바닥에 닿은 뒤 위로 튀어 올랐다. 바닥에 닿기 직전 두 공의 속력은 같다. 옳은 설명을 <strong>모두</strong> 고르시오.
+ㄱ. 바닥에 닿기 직전 A와 B의 운동량은 같다.
+ㄴ. 바닥과 충돌하는 동안 받은 충격량의 크기는 B가 A보다 크다.
+ㄷ. 충돌 시간이 같다면 바닥이 공에 작용한 평균 힘의 크기는 A가 B보다 크다.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답 ㄱ, ㄴ</strong></p>
+<p>ㄱ. 질량과 속도(크기·방향)가 같으므로 운동량이 같다.
+ㄴ. A는 &#39;처음 운동량 → 0&#39;, B는 &#39;처음 운동량 → 반대 방향 운동량&#39;으로 변하므로 B의 운동량 변화량이 더 크다.
+ㄷ. 충돌 시간이 같으면 충격량이 큰 B가 더 큰 평균 힘을 받는다. 따라서 틀렸다.</p>
+</div></details>
+
+<p><strong>6.</strong> 그래프는 같은 질량, 같은 속력의 두 물체 P, Q가 각각 벽에 충돌하여 멈출 때 벽이 물체에 작용한 힘을 시간에 따라 나타낸 것이다. P의 그래프는 높고 폭이 좁고, Q의 그래프는 낮고 폭이 넓다. 두 그래프 아래 넓이를 비교하고, 어느 쪽이 &#39;헬멧을 쓴 머리&#39;의 경우에 해당하는지 설명하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 넓이(충격량)는 같다. Q가 헬멧을 쓴 경우이다.</p>
+<p>두 물체 모두 같은 운동량에서 0으로 변했으므로 충격량, 즉 그래프 아래 넓이가 같다. 헬멧은 충돌 시간을 늘려 최대 힘과 평균 힘을 줄이므로, 폭이 넓고 높이가 낮은 Q의 그래프에 해당한다.</p>
+</div></details>
+
+<p><strong>7.</strong> 질량 50 kg인 학생이 높이 1.25 m에서 뛰어내려 5 m/s의 속력으로 착지했다. 무릎을 펴고 0.05초 만에 멈출 때와 무릎을 굽혀 0.5초 만에 멈출 때, 다리가 받는 평균 힘의 크기를 각각 구하시오. (중력의 영향은 무시하고 충돌로 인한 힘만 생각한다.)</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 무릎을 폈을 때 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">5000</span><span class="mspace"> </span><span class="mord mathrm">N</span></span></span></span>, 굽혔을 때 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">500</span><span class="mspace"> </span><span class="mord mathrm">N</span></span></span></span></p>
+<p><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣Δ</span><span class="mord mathnormal">p</span><span class="mord">∣</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">50</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">5</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">250</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">kg</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">m/s</span></span></span></span></span></p>
+<ul>
+<li>무릎을 폈을 때: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">250/0.05</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">5000</span><span class="mspace"> </span><span class="mord mathrm">N</span></span></span></span></li>
+<li>무릎을 굽혔을 때: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">250/0.5</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">500</span><span class="mspace"> </span><span class="mord mathrm">N</span></span></span></span></li>
+</ul>
+<p>무릎을 굽혀 착지 시간을 10배로 늘리면 평균 힘은 10분의 1이 된다.</p>
+</div></details>
+
+<h3 id="융합-서술형">융합·서술형</h3>
+<p><strong>8. [산업 연계]</strong> 자동차 회사의 설계팀이 &quot;차체 앞부분을 최대한 단단하게 만들어 충돌해도 전혀 찌그러지지 않게 하자.&quot;라고 제안했다. 이 제안의 문제점을 충격량과 운동량의 관계를 이용하여 서술하고, 더 나은 설계 방향을 제시하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+차가 충돌하여 멈출 때 승객의 운동량 변화량(충격량)은 충돌 직전 속도로 정해져 있다. 차체 앞부분이 전혀 찌그러지지 않으면 차가 아주 짧은 시간에 멈추므로 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">Δ</span><span class="mord mathnormal">p</span><span class="mord">/Δ</span><span class="mord mathnormal">t</span></span></span></span>에서 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span></span>가 작아져 승객이 받는 평균 힘이 매우 커진다. 따라서 <strong>앞부분(크럼플 존)은 단계적으로 찌그러지게 하여 충돌 시간을 늘리고, 승객이 타는 공간은 단단하게 만들어</strong> 승객 공간이 침범되지 않도록 설계해야 한다.</p>
+<p><strong>채점 포인트</strong> ① 충격량(운동량 변화량)이 정해져 있음 ② 충돌 시간이 짧으면 힘이 커짐 ③ 찌그러지는 부분과 단단한 부분을 구분한 설계 제안</p>
+</div></details>
+
+<p><strong>9. [대학·스포츠 연계]</strong> 야구에서 타자가 같은 힘으로 배트를 휘두르더라도 &#39;공을 끝까지 보고 밀어 치는&#39; 타격이 공을 더 멀리 보낸다고 한다. (1) 이를 충격량으로 설명하고, (2) 반대로 포수가 공을 받을 때 미트를 몸 쪽으로 당기는 이유를 같은 원리로 설명하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+(1) 공이 받는 충격량은 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span></span>이다. 같은 크기의 힘이라도 배트가 공에 힘을 작용하는 시간이 길어지면 충격량이 커지고, 충격량은 공의 운동량 변화량과 같으므로 공이 더 빠른 속력으로 날아가 멀리 간다.
+(2) 포수가 공을 멈출 때 공의 운동량 변화량은 정해져 있다. 미트를 당기면 공이 멈추는 시간이 길어져 손이 받는 평균 힘이 줄어든다. 즉, 타자는 <strong>충격량을 키우기 위해</strong>, 포수는 <strong>힘을 줄이기 위해</strong> 같은 원리(시간 늘리기)를 이용한다.</p>
+</div></details>
+
+<hr>
+<h2 id="한눈에-정리">한눈에 정리</h2>
+<h3 id="핵심-요약">핵심 요약</h3>
+<ul>
+<li>알짜힘이 0이면 물체는 정지 상태 또는 등속 직선 운동을 유지한다(<strong>관성 법칙</strong>).</li>
+<li><strong>운동량</strong> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">m</span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span>: 질량과 속도의 곱, 방향이 있다. 단위 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">kg</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">m/s</span></span></span></span></span>.</li>
+<li><strong>충격량</strong> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span></span>: 힘과 작용 시간의 곱, 힘–시간 그래프 아래 넓이. 단위 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathrm">N</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">s</span></span></span></span></span>.</li>
+<li><strong>충격량 = 운동량의 변화량</strong> (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mord">Δ</span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord">Δ</span><span class="mord mathnormal">p</span></span></span></span>).</li>
+<li>충돌로 멈출 때 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord">Δ</span><span class="mord mathnormal">p</span></span></span></span>는 정해져 있으므로, <strong>충돌 시간을 늘리면 평균 힘이 줄어든다</strong> → 에어백, 헬멧, 크럼플 존, 매트.</li>
+<li><strong>힘을 주는 시간을 늘리면 충격량이 커진다</strong> → 팔로스루, 도움닫기.</li>
+</ul>
+<h3 id="핵심-용어">핵심 용어</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>용어</th>
+<th>뜻</th>
+</tr>
+</thead><tbody><tr>
+<td>관성</td>
+<td>물체가 운동 상태를 유지하려는 성질. 질량이 클수록 크다</td>
+</tr>
+<tr>
+<td>알짜힘</td>
+<td>물체에 작용하는 모든 힘을 합한 힘</td>
+</tr>
+<tr>
+<td>운동량</td>
+<td>질량 × 속도. 운동의 세기와 방향</td>
+</tr>
+<tr>
+<td>충격량</td>
+<td>힘 × 작용 시간. 운동량의 변화량과 같다</td>
+</tr>
+<tr>
+<td>충격력</td>
+<td>충돌하는 동안 물체가 받는 힘</td>
+</tr>
+<tr>
+<td>크럼플 존</td>
+<td>충돌 시 일부러 찌그러지도록 설계한 자동차 앞뒤 부분</td>
+</tr>
+</tbody></table></div>
+<h3 id="다음-단원으로">다음 단원으로</h3>
+<p>지금까지 &#39;물체&#39;라는 역학 시스템이 힘을 주고받는 모습을 살펴보았다. 다음 단원에서는 시스템을 <strong>생명체</strong>로 바꾸어, 세포라는 가장 작은 생명 시스템이 물질을 주고받고 화학 반응을 일으키며 생명을 유지하는 과정을 탐구한다.</p>
+<nav class="pager"><a class="prev" href="3-3.html"><small>이전 단원</small>3-3 중력과 운동</a><a class="next" href="3-5.html"><small>다음 단원</small>3-5 생명 시스템과 물질대사</a></nav></article></div>
+</main>
+</div>
+</body>
+</html>

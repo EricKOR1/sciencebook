@@ -1,0 +1,928 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>6-2 빅데이터와 과학기술사회</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css">
+<link rel="stylesheet" href="assets/book.css">
+<script src="assets/js/book.js" defer></script>
+
+</head>
+<body class="">
+<header class="topbar">
+  <button class="menu-btn" id="menu-btn" aria-controls="drawer" aria-expanded="false">목차</button>
+  <a class="brand" href="index.html">통합과학 개념에서 산업까지</a>
+  <button class="theme-btn" id="theme-btn" aria-label="밝은 화면과 어두운 화면 바꾸기">화면</button>
+</header>
+<div class="shell">
+<aside class="drawer" id="drawer"><nav class="book-nav" aria-label="교재 목차"><a class="nav-home" href="index.html">처음으로</a><p class="nav-book">통합과학1</p><p class="nav-unit"><span>1단원</span> 과학의 기초</p><ul><li><a href="1-1.html"><span class="nav-id">1-1</span>시간과 공간</a></li><li><a href="1-2.html"><span class="nav-id">1-2</span>기본량과 단위</a></li><li><a href="1-3.html"><span class="nav-id">1-3</span>측정과 어림, 측정 표준</a></li><li><a href="1-4.html"><span class="nav-id">1-4</span>정보와 신호: 아날로그에서 디지털로</a></li></ul><p class="nav-unit"><span>2단원</span> 물질과 규칙성</p><ul><li><a href="2-1.html"><span class="nav-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="2-2.html"><span class="nav-id">2-2</span>별의 진화와 원소의 생성</a></li><li><a href="2-3.html"><span class="nav-id">2-3</span>원소의 주기성과 화학 결합의 이유</a></li><li><a href="2-4.html"><span class="nav-id">2-4</span>이온 결합과 공유 결합</a></li><li><a href="2-5.html"><span class="nav-id">2-5</span>지각과 생명체 구성 물질의 규칙성</a></li><li><a href="2-6.html"><span class="nav-id">2-6</span>물질의 전기적 성질과 소재</a></li></ul><p class="nav-unit"><span>3단원</span> 시스템과 상호작용</p><ul><li><a href="3-1.html"><span class="nav-id">3-1</span>지구시스템의 구성과 상호작용</a></li><li><a href="3-2.html"><span class="nav-id">3-2</span>판구조론과 지권의 변화</a></li><li><a href="3-3.html"><span class="nav-id">3-3</span>중력과 운동</a></li><li><a href="3-4.html"><span class="nav-id">3-4</span>운동량과 충격량</a></li><li><a href="3-5.html"><span class="nav-id">3-5</span>생명 시스템과 물질대사</a></li><li><a href="3-6.html"><span class="nav-id">3-6</span>유전자와 단백질</a></li></ul><p class="nav-book">통합과학2</p><p class="nav-unit"><span>4단원</span> 변화와 다양성</p><ul><li><a href="4-1.html"><span class="nav-id">4-1</span>지질시대의 환경 변화와 생물다양성</a></li><li><a href="4-2.html"><span class="nav-id">4-2</span>진화와 생물다양성</a></li><li><a href="4-3.html"><span class="nav-id">4-3</span>산화와 환원</a></li><li><a href="4-4.html"><span class="nav-id">4-4</span>산과 염기, 중화 반응</a></li><li><a href="4-5.html"><span class="nav-id">4-5</span>물질 변화와 에너지 출입</a></li></ul><p class="nav-unit"><span>5단원</span> 환경과 에너지</p><ul><li><a href="5-1.html"><span class="nav-id">5-1</span>생태계 구성 요소와 상호 관계</a></li><li><a href="5-2.html"><span class="nav-id">5-2</span>생태계 평형</a></li><li><a href="5-3.html"><span class="nav-id">5-3</span>지구온난화와 기후변화</a></li><li><a href="5-4.html"><span class="nav-id">5-4</span>태양 에너지와 에너지 전환</a></li><li><a href="5-5.html"><span class="nav-id">5-5</span>발전기와 전기 에너지</a></li><li><a href="5-6.html"><span class="nav-id">5-6</span>에너지 효율과 신재생 에너지</a></li></ul><p class="nav-unit"><span>6단원</span> 과학과 미래 사회</p><ul><li><a href="6-1.html"><span class="nav-id">6-1</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html" aria-current="page"><span class="nav-id">6-2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html"><span class="nav-id">6-3</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html"><span class="nav-id">6-4</span>과학기술과 윤리</a></li></ul><p class="nav-book">부록</p><ul><li><a href="guide.html">교재 설계 안내</a></li><li><a href="appendix-standards.html">부록 1. 교육과정 성취기준</a></li><li><a href="appendix-map.html">부록 2. 연계 지도</a></li><li><a href="appendix-glossary.html">부록 3. 핵심 용어 사전</a></li></ul></nav></aside>
+<main class="main" id="main">
+<div class="lesson-grid"><nav class="ladder" aria-label="이 단원의 흐름"><p class="ladder-title">이 단원의 흐름</p><ol><li class="extra"><a href="#단원-들어가기">단원 들어가기</a></li><li class="s1"><a href="#step-1"><b>STEP 1</b> 중학교 다시 보기</a></li><li class="s2"><a href="#step-2"><b>STEP 2</b> 기초 다지기</a></li><li class="s3"><a href="#step-3"><b>STEP 3</b> 핵심 개념</a></li><li class="s4"><a href="#step-4"><b>STEP 4</b> 오개념 바로잡기</a></li><li class="s5"><a href="#step-5"><b>STEP 5</b> 선택과목·대학으로 한 걸음 더</a></li><li class="s6"><a href="#step-6"><b>STEP 6</b> 산업 현장과 진로 연결</a></li><li class="extra"><a href="#탐구-활동-디지털-탐구-도구를-활용한-실시간-생활-데이터-측정하기">탐구 활동 — 디지털 탐구 도구를 활용한 실시간 생활 데이터 측정하기</a></li><li class="extra"><a href="#개념-확인-문제">개념 확인 문제</a></li><li class="extra"><a href="#한눈에-정리">한눈에 정리</a></li></ol></nav><article class="prose lesson"><header class="lesson-hero u6">
+  <p class="eyebrow">통합과학2 · 6단원 과학과 미래 사회</p>
+  <h1><span class="lesson-id">6-2</span>빅데이터와 과학기술사회</h1>
+  <p class="lesson-sub">데이터가 과학과 일상을 바꾸다</p>
+</header><aside class="callout note"><p class="callout-title">성취기준·참고</p><p><strong>성취기준 [10통과2-03-02]</strong> 빅데이터를 과학기술사회에서 사용하고 있는 사례를 조사하고, 빅데이터 활용의 장점과 문제점을 추론할 수 있다.</p>
+<p><strong>성취기준 해설</strong> 과학 실험, 기상 관측, 유전체 분석, 신약 개발 등과 같은 분야에서 많은 정보를 디지털 형태로 전환하여 대량의 데이터를 축적할 수 있게 되면서, 일상생활의 다양한 분야에서 폭넓게 활용할 수 있음을 소개한다.</p>
+</aside>
+<p><strong>학습 목표</strong></p>
+<ol>
+<li>빅데이터의 뜻과 특징(규모, 속도, 다양성 등)을 설명하고, 데이터가 폭발적으로 늘어난 까닭을 디지털 전환과 관련지어 설명할 수 있다.</li>
+<li>과학 실험, 기상 관측, 유전체 분석, 신약 개발 등 과학기술 분야와 일상생활에서 빅데이터가 활용되는 사례를 조사하여 발표할 수 있다.</li>
+<li>빅데이터 활용의 장점과 문제점(개인정보, 편향, 상관과 인과의 혼동, 보안 등)을 자료를 근거로 추론할 수 있다.</li>
+<li>디지털 탐구 도구로 실시간 생활 데이터를 수집·저장·처리하고, 그 결과를 비판적으로 평가할 수 있다.</li>
+</ol>
+<p><strong>이 단원의 학습 사다리</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>단계</th>
+<th>무엇을 하나?</th>
+</tr>
+</thead><tbody><tr>
+<td>STEP 1. 중학교 다시 보기</td>
+<td>빅데이터로 재해·재난과 지진대를 분석했던 경험, 앞 단원(정보와 신호)을 꺼내 본다</td>
+</tr>
+<tr>
+<td>STEP 2. 기초 다지기</td>
+<td>비트와 바이트, 정형·비정형 데이터, 그래프 읽기, 상관과 인과, 표본을 디딤돌로 놓는다</td>
+</tr>
+<tr>
+<td>STEP 3. 핵심 개념</td>
+<td>빅데이터의 특징 → 과학 연구 속 빅데이터 → 일상 속 빅데이터 → 장점 → 문제점과 대응</td>
+</tr>
+<tr>
+<td>STEP 4. 오개념 바로잡기</td>
+<td>&quot;데이터가 많으면 무조건 정확하다&quot; 같은 착각을 바로잡는다</td>
+</tr>
+<tr>
+<td>STEP 5. 선택과목·대학</td>
+<td>데이터 집약적 과학, 회귀 분석, 생물정보학, 수치예보</td>
+</tr>
+<tr>
+<td>STEP 6. 산업·진로</td>
+<td>기상 산업, 바이오헬스 데이터, 스마트 교통, 제조·에너지 데이터</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="단원-들어가기">단원 들어가기</h2>
+<p>아침에 일어나 스마트폰을 켜면 오늘의 날씨와 미세먼지 예보가 나오고, 등굣길 버스가 몇 분 뒤 도착하는지 알려 준다. 내비게이션은 지금 막히는 길을 피해 돌아가라고 안내하고, 동영상 앱은 내가 좋아할 만한 영상을 골라 준다. 이 모든 것의 뒤에는 <strong>엄청난 양의 데이터</strong>가 있다.</p>
+<p>과학자들의 연구 방식도 크게 바뀌었다. 2019년 공개된 최초의 블랙홀 사진은 지구 곳곳의 전파 망원경이 모은 약 5 PB(페타바이트)의 관측 자료를 분석해서 얻었다. 사람 한 명의 유전체를 처음 해독하는 데는 1990년부터 2003년까지 13년이 걸렸지만, 지금은 하루 이틀이면 해독할 수 있다.</p>
+<blockquote><p>데이터가 많아지면 세상을 더 정확하게 알 수 있을까? 내가 남긴 데이터는 누가, 어떻게 쓰고 있을까?</p>
+</blockquote>
+<p>이 단원에서는 <strong>빅데이터</strong>가 과학기술사회에서 어떻게 쓰이는지 사례를 조사하고, 그 <strong>장점과 문제점</strong>을 근거를 들어 추론해 본다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-6-2-0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 1439.84375 224" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-6-2-0{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-6-2-0 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-6-2-0 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-6-2-0 .error-icon{fill:var(--mm-group);}#mm-6-2-0 .error-text{fill:#595959;stroke:#595959;}#mm-6-2-0 .edge-thickness-normal{stroke-width:1px;}#mm-6-2-0 .edge-thickness-thick{stroke-width:3.5px;}#mm-6-2-0 .edge-pattern-solid{stroke-dasharray:0;}#mm-6-2-0 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-6-2-0 .edge-pattern-dashed{stroke-dasharray:3;}#mm-6-2-0 .edge-pattern-dotted{stroke-dasharray:2;}#mm-6-2-0 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-6-2-0 .marker.cross{stroke:var(--mm-line);}#mm-6-2-0 svg{font-family:inherit;font-size:15px;}#mm-6-2-0 p{margin:0;}#mm-6-2-0 .label{font-family:inherit;color:var(--mm-text);}#mm-6-2-0 .cluster-label text{fill:#595959;}#mm-6-2-0 .cluster-label span{color:#595959;}#mm-6-2-0 .cluster-label span p{background-color:transparent;}#mm-6-2-0 .label text,#mm-6-2-0 span{fill:var(--mm-text);color:var(--mm-text);}#mm-6-2-0 .node rect,#mm-6-2-0 .node circle,#mm-6-2-0 .node ellipse,#mm-6-2-0 .node polygon,#mm-6-2-0 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-6-2-0 .rough-node .label text,#mm-6-2-0 .node .label text,#mm-6-2-0 .image-shape .label,#mm-6-2-0 .icon-shape .label{text-anchor:middle;}#mm-6-2-0 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-6-2-0 .rough-node .label,#mm-6-2-0 .node .label,#mm-6-2-0 .image-shape .label,#mm-6-2-0 .icon-shape .label{text-align:center;}#mm-6-2-0 .node.clickable{cursor:pointer;}#mm-6-2-0 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-6-2-0 .arrowheadPath{fill:#0b0b0b;}#mm-6-2-0 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-6-2-0 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-6-2-0 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-6-2-0 .edgeLabel p{background-color:var(--mm-label);}#mm-6-2-0 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-6-2-0 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-6-2-0 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-6-2-0 .cluster text{fill:#595959;}#mm-6-2-0 .cluster span{color:#595959;}#mm-6-2-0 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-6-2-0 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-6-2-0 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-6-2-0 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-6-2-0 rect.text{fill:none;stroke-width:0;}#mm-6-2-0 .icon-shape,#mm-6-2-0 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-6-2-0 .icon-shape p,#mm-6-2-0 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-6-2-0 .icon-shape .label rect,#mm-6-2-0 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-6-2-0 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-6-2-0 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-6-2-0 .node .neo-node{stroke:var(--mm-border);}#mm-6-2-0 [data-look="neo"].node rect,#mm-6-2-0 [data-look="neo"].cluster rect,#mm-6-2-0 [data-look="neo"].node polygon{stroke:url(#mm-6-2-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-2-0 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-6-2-0 [data-look="neo"].node path{stroke:url(#mm-6-2-0-gradient);stroke-width:1px;}#mm-6-2-0 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-2-0 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-6-2-0 [data-look="neo"].node circle{stroke:url(#mm-6-2-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-2-0 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-6-2-0 [data-look="neo"].icon-shape .icon{fill:url(#mm-6-2-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-2-0 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-6-2-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-2-0 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-6-2-0_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-2-0_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-2-0_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-2-0_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-2-0_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-2-0_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-2-0_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-2-0_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-2-0_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-2-0_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-2-0_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-6-2-0_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M184.344,112L188.51,112C192.677,112,201.01,112,208.677,112C216.344,112,223.344,112,226.844,112L230.344,112" id="mm-6-2-0-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTg0LjM0Mzc1LCJ5IjoxMTJ9LHsieCI6MjA5LjM0Mzc1LCJ5IjoxMTJ9LHsieCI6MjM0LjM0Mzc1LCJ5IjoxMTJ9XQ==" data-look="classic" marker-end="url(#mm-6-2-0_flowchart-v2-pointEnd)"/><path d="M425.688,112L429.854,112C434.021,112,442.354,112,450.021,112C457.688,112,464.688,112,468.188,112L471.688,112" id="mm-6-2-0-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6NDI1LjY4NzUsInkiOjExMn0seyJ4Ijo0NTAuNjg3NSwieSI6MTEyfSx7IngiOjQ3NS42ODc1LCJ5IjoxMTJ9XQ==" data-look="classic" marker-end="url(#mm-6-2-0_flowchart-v2-pointEnd)"/><path d="M638.688,112L642.854,112C647.021,112,655.354,112,663.021,112C670.688,112,677.688,112,681.188,112L684.688,112" id="mm-6-2-0-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6NjM4LjY4NzUsInkiOjExMn0seyJ4Ijo2NjMuNjg3NSwieSI6MTEyfSx7IngiOjY4OC42ODc1LCJ5IjoxMTJ9XQ==" data-look="classic" marker-end="url(#mm-6-2-0_flowchart-v2-pointEnd)"/><path d="M836.141,88.75L848.732,82.708C861.323,76.667,886.505,64.583,902.596,58.542C918.688,52.5,925.688,52.5,929.188,52.5L932.688,52.5" id="mm-6-2-0-L_D_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_E_0" data-points="W3sieCI6ODM2LjE0MTI4MTUxMjYwNSwieSI6ODguNzV9LHsieCI6OTExLjY4NzUsInkiOjUyLjV9LHsieCI6OTM2LjY4NzUsInkiOjUyLjV9XQ==" data-look="classic" marker-end="url(#mm-6-2-0_flowchart-v2-pointEnd)"/><path d="M836.141,135.25L848.732,141.292C861.323,147.333,886.505,159.417,903.846,165.458C921.188,171.5,930.688,171.5,935.438,171.5L940.188,171.5" id="mm-6-2-0-L_D_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_F_0" data-points="W3sieCI6ODM2LjE0MTI4MTUxMjYwNSwieSI6MTM1LjI1fSx7IngiOjkxMS42ODc1LCJ5IjoxNzEuNX0seyJ4Ijo5NDQuMTg3NSwieSI6MTcxLjV9XQ==" data-look="classic" marker-end="url(#mm-6-2-0_flowchart-v2-pointEnd)"/><path d="M1134.688,36.532L1138.854,35.86C1143.021,35.188,1151.354,33.844,1167.285,33.964C1183.217,34.084,1206.746,35.667,1218.51,36.459L1230.275,37.251" id="mm-6-2-0-L_E_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_G_0" data-points="W3sieCI6MTEzNC42ODc1LCJ5IjozNi41MzIyNTgwNjQ1MTYxM30seyJ4IjoxMTU5LjY4NzUsInkiOjMyLjV9LHsieCI6MTIzNC4yNjU2MjUsInkiOjM3LjUxOTQ1NTI1MjkxODI5fV0=" data-look="classic" marker-end="url(#mm-6-2-0_flowchart-v2-pointEnd)"/><path d="M1097.241,137L1107.649,131.167C1118.057,125.333,1138.872,113.667,1161.091,103.104C1183.309,92.54,1206.931,83.081,1218.742,78.351L1230.552,73.621" id="mm-6-2-0-L_F_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_F_G_0" data-points="W3sieCI6MTA5Ny4yNDE0NTY4MzQ1MzIzLCJ5IjoxMzd9LHsieCI6MTE1OS42ODc1LCJ5IjoxMDJ9LHsieCI6MTIzNC4yNjU2MjUsInkiOjcyLjEzNDI0MTI0NTEzNjJ9XQ==" data-look="classic" marker-end="url(#mm-6-2-0_flowchart-v2-pointEnd)"/><path d="M1097.241,87L1107.649,92.833C1118.057,98.667,1138.872,110.333,1159.066,120.085C1179.259,129.838,1198.83,137.675,1208.616,141.594L1218.402,145.513" id="mm-6-2-0-L_E_H_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_H_0" data-points="W3sieCI6MTA5Ny4yNDE0NTY4MzQ1MzIzLCJ5Ijo4N30seyJ4IjoxMTU5LjY4NzUsInkiOjEyMn0seyJ4IjoxMjIyLjExNTI4MzYxMzQ0NTQsInkiOjE0N31d" data-look="classic" marker-end="url(#mm-6-2-0_flowchart-v2-pointEnd)"/><path d="M1127.188,186.258L1132.604,187.132C1138.021,188.005,1148.854,189.753,1157.772,190.391C1166.691,191.029,1173.694,190.557,1177.195,190.322L1180.697,190.086" id="mm-6-2-0-L_F_H_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_F_H_0" data-points="W3sieCI6MTEyNy4xODc1LCJ5IjoxODYuMjU4MDY0NTE2MTI5MDJ9LHsieCI6MTE1OS42ODc1LCJ5IjoxOTEuNX0seyJ4IjoxMTg0LjY4NzUsInkiOjE4OS44MTczODM1MzEzOTEzfV0=" data-look="classic" marker-end="url(#mm-6-2-0_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_F_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_G_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_F_G_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_H_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_F_H_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-6-2-0-flowchart-A-0" data-look="classic" transform="translate(96.171875, 112)"><rect class="basic label-container" style="" x="-88.171875" y="-23.25" width="176.34375" height="46.5"/><g class="label" style="" transform="translate(-64.171875, -11.25)"><rect/><foreignObject width="128.34375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>자연과 일상의 변화</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-2-0-flowchart-B-1" data-look="classic" transform="translate(330.015625, 112)"><rect class="basic label-container" style="" x="-95.671875" y="-34.5" width="191.34375" height="69"/><g class="label" style="" transform="translate(-71.671875, -22.5)"><rect/><foreignObject width="143.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>센서·관측·기록<br />디지털 데이터로 변환</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-2-0-flowchart-C-3" data-look="classic" transform="translate(557.1875, 112)"><rect class="basic label-container" style="" x="-81.5" y="-34.5" width="163" height="69"/><g class="label" style="" transform="translate(-57.5, -22.5)"><rect/><foreignObject width="115" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>빅데이터<br />규모·속도·다양성</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-2-0-flowchart-D-5" data-look="classic" transform="translate(787.6875, 112)"><rect class="basic label-container" style="" x="-99" y="-23.25" width="198" height="46.5"/><g class="label" style="" transform="translate(-75, -11.25)"><rect/><foreignObject width="150" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>저장·정제·분석·시각화</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-2-0-flowchart-E-7" data-look="classic" transform="translate(1035.6875, 52.5)"><rect class="basic label-container" style="" x="-99" y="-34.5" width="198" height="69"/><g class="label" style="" transform="translate(-75, -22.5)"><rect/><foreignObject width="150" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>과학 연구<br />실험·기상·유전체·신약</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-2-0-flowchart-F-9" data-look="classic" transform="translate(1035.6875, 171.5)"><rect class="basic label-container" style="" x="-91.5" y="-34.5" width="183" height="69"/><g class="label" style="" transform="translate(-67.5, -22.5)"><rect/><foreignObject width="135" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>일상생활<br />교통·의료·재난·추천</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-2-0-flowchart-G-11" data-look="classic" transform="translate(1308.265625, 42.5)"><rect class="basic label-container" style="" x="-74" y="-34.5" width="148" height="69"/><g class="label" style="" transform="translate(-50, -22.5)"><rect/><foreignObject width="100" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>장점<br />예측·발견·맞춤</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-2-0-flowchart-H-15" data-look="classic" transform="translate(1308.265625, 181.5)"><rect class="basic label-container" style="" x="-123.578125" y="-34.5" width="247.15625" height="69"/><g class="label" style="" transform="translate(-99.578125, -22.5)"><rect/><foreignObject width="199.15625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>문제점<br />개인정보·편향·인과 혼동·보안</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-6-2-0-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-6-2-0-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-6-2-0-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><hr>
+<h2 id="step-1" class="step-h s1"><span class="step-badge s1">STEP 1</span><span class="h-text">중학교 다시 보기</span></h2>
+<h3 id="연계-개념표-중학교-연계">연계 개념표 — 중학교 연계</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>중학교 성취기준</th>
+<th>중학교에서 배운 것</th>
+<th>고등학교에서 확장되는 것</th>
+</tr>
+</thead><tbody><tr>
+<td>[9과22-01]</td>
+<td>재해·재난의 원인과 피해를 분석한다(탐구: 빅데이터를 이용하여 재해·재난 사례 분석하기)</td>
+<td>재난뿐 아니라 과학 연구 전반에서 빅데이터가 쓰이는 방식과 그 <strong>한계</strong>를 추론한다</td>
+</tr>
+<tr>
+<td>[9과09-05]</td>
+<td>지진과 화산 분포를 판의 경계와 관련짓는다(빅데이터 활용)</td>
+<td>전 지구 관측 데이터를 모아 숨은 <strong>패턴</strong>을 찾는 과학 방법으로 일반화한다</td>
+</tr>
+<tr>
+<td>[9과17-04]</td>
+<td>일기도로 날씨를 해석한다(실시간 데이터 활용)</td>
+<td>관측 데이터를 컴퓨터로 계산하는 <strong>수치예보</strong>의 원리를 이해한다</td>
+</tr>
+<tr>
+<td>[9과01-02]</td>
+<td>인공지능 등 첨단 과학기술이 가져올 미래 사회의 변화를 조사한다</td>
+<td>인공지능의 &#39;연료&#39;인 빅데이터의 장점과 문제점을 구체적으로 분석한다</td>
+</tr>
+<tr>
+<td>[9과19-01]</td>
+<td>운동을 그래프로 나타내고 해석한다</td>
+<td>데이터를 <strong>시각화</strong>하여 추세와 이상값을 찾는다</td>
+</tr>
+</tbody></table></div>
+<h3 id="연계-개념표-앞-단원-연계">연계 개념표 — 앞 단원 연계</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>앞 단원</th>
+<th>거기서 배운 것</th>
+<th>이 단원에서 쓰이는 곳</th>
+</tr>
+</thead><tbody><tr>
+<td>1-4 정보와 신호</td>
+<td>아날로그 신호가 센서를 통해 디지털 정보(0과 1)가 된다</td>
+<td>모든 빅데이터는 <strong>디지털로 변환된 정보</strong>이다</td>
+</tr>
+<tr>
+<td>1-3 측정과 어림</td>
+<td>측정에는 오차가 있고, 측정 표준이 중요하다</td>
+<td>데이터의 <strong>품질</strong>과 기준이 다르면 분석 결과도 틀어진다</td>
+</tr>
+<tr>
+<td>3-6 유전자와 단백질</td>
+<td>유전 정보는 염기 서열로 저장된다</td>
+<td><strong>유전체 분석</strong>은 염기 서열이라는 거대한 데이터를 읽는 일이다</td>
+</tr>
+<tr>
+<td>5-3 지구온난화와 기후변화</td>
+<td>대기 중 이산화 탄소 농도의 장기 관측 자료</td>
+<td>수십 년 쌓인 <strong>기후 관측 데이터</strong>가 기후변화의 증거가 된다</td>
+</tr>
+<tr>
+<td>6-1 감염병과 과학의 유용성</td>
+<td>역학 조사와 접촉자 추적</td>
+<td>방역에 쓰인 위치·결제 데이터의 <strong>유용성과 개인정보 문제</strong></td>
+</tr>
+</tbody></table></div>
+<h3 id="준비-운동-사전-진단">준비 운동 (사전 진단)</h3>
+<p><strong>Q1.</strong> 1바이트(byte)는 몇 비트(bit)인가?</p>
+<p><strong>Q2.</strong> 다음 중 디지털 데이터가 <strong>아닌</strong> 것은?
+① 스마트폰으로 찍은 사진 ② 디지털 체온계에 표시된 36.5 ③ 종이에 연필로 그린 그림 ④ 스마트워치에 기록된 걸음 수</p>
+<p><strong>Q3.</strong> &quot;여름에 아이스크림 판매량이 늘면 물놀이 사고도 늘어난다. 그러므로 아이스크림이 물놀이 사고의 원인이다.&quot; 이 추론의 문제점은?</p>
+<p><strong>Q4.</strong> 우리 반 학생들의 하루 수면 시간을 조사하려고 한다. 조사 대상을 &#39;시험 전날 밤샘한 학생 5명&#39;으로 정하면 어떤 문제가 생길까?</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>Q1. 8비트</strong> — 1-4 단원에서 배운 것처럼 비트는 0 또는 1을 나타내는 가장 작은 단위이고, 8비트를 묶어 1바이트라 한다.</p>
+<p><strong>Q2. ③</strong> — 종이 그림은 연속적인 아날로그 정보이다. 스캐너로 읽어 들이면 디지털 데이터가 된다.</p>
+<p><strong>Q3.</strong> 두 현상이 함께 늘어난다고 해서 한쪽이 다른 쪽의 원인이라고 할 수 없다. 둘 다 <strong>기온이 높다</strong>는 공통 원인 때문에 함께 늘어난 것이다(상관관계 ≠ 인과관계).</p>
+<p><strong>Q4.</strong> 표본이 전체를 대표하지 못해(편향된 표본) 수면 시간이 실제보다 훨씬 짧게 나온다.</p>
+</div></details>
+
+<hr>
+<h2 id="step-2" class="step-h s2"><span class="step-badge s2">STEP 2</span><span class="h-text">기초 다지기</span></h2>
+<h3 id="①-비트와-바이트-데이터의-크기를-재는-단위">① 비트와 바이트 — 데이터의 크기를 재는 단위</h3>
+<p>1-4 단원에서 배운 것처럼 디지털 정보는 0과 1로 표현한다. 데이터의 크기는 바이트(B) 단위로 나타내며, 1000배씩 커질 때마다 접두어가 바뀐다(1-2 단원의 SI 접두어와 같다).</p>
+<div class="table-wrap"><table><thead><tr>
+<th>단위</th>
+<th>크기</th>
+<th>대략 어느 정도?</th>
+</tr>
+</thead><tbody><tr>
+<td>킬로바이트(KB)</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span> B</td>
+<td>짧은 문서 한 장</td>
+</tr>
+<tr>
+<td>메가바이트(MB)</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span></span></span></span></span></span></span></span> B</td>
+<td>스마트폰 사진 한 장(수 MB)</td>
+</tr>
+<tr>
+<td>기가바이트(GB)</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">9</span></span></span></span></span></span></span></span></span></span></span> B</td>
+<td>고화질 영화 한 편(수 GB)</td>
+</tr>
+<tr>
+<td>테라바이트(TB)</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">12</span></span></span></span></span></span></span></span></span></span></span></span> B</td>
+<td>개인용 외장 하드 한 개</td>
+</tr>
+<tr>
+<td>페타바이트(PB)</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">15</span></span></span></span></span></span></span></span></span></span></span></span> B</td>
+<td>대형 연구 시설의 연간 관측 자료</td>
+</tr>
+<tr>
+<td>엑사바이트(EB)</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">18</span></span></span></span></span></span></span></span></span></span></span></span> B</td>
+<td>국가·세계 규모의 데이터 센터</td>
+</tr>
+<tr>
+<td>제타바이트(ZB)</td>
+<td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">21</span></span></span></span></span></span></span></span></span></span></span></span> B</td>
+<td>전 세계에서 한 해에 만들어지는 데이터 규모</td>
+</tr>
+</tbody></table></div>
+<aside class="callout note"><p class="callout-title">성취기준·참고</p><p>컴퓨터 분야에서는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">1</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">KB</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">10</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">1024</span><span class="mspace"> </span><span class="mord mathrm">B</span></span></span></span>로 쓰기도 한다. 이 단원에서는 계산을 쉽게 하려고 1000배씩으로 계산한다.</p>
+</aside>
+<h3 id="②-정형-데이터와-비정형-데이터">② 정형 데이터와 비정형 데이터</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>뜻</th>
+<th>예</th>
+</tr>
+</thead><tbody><tr>
+<td><strong>정형 데이터</strong></td>
+<td>표의 행과 열처럼 형식이 정해진 데이터</td>
+<td>기온 관측표, 성적표, 결제 기록</td>
+</tr>
+<tr>
+<td><strong>비정형 데이터</strong></td>
+<td>형식이 정해지지 않은 데이터</td>
+<td>사진, 동영상, 음성, SNS 글, 위성 영상</td>
+</tr>
+</tbody></table></div>
+<p>빅데이터의 상당 부분은 비정형 데이터이다. 사진 속에서 구름을 찾거나 글에서 감정을 읽어 내려면 별도의 분석 기술이 필요하다.</p>
+<h3 id="③-그래프-읽기-추세-주기-이상값">③ 그래프 읽기 — 추세, 주기, 이상값</h3>
+<p>데이터를 그래프로 나타내면(시각화) 숫자 표에서는 보이지 않던 것이 보인다.</p>
+<ul>
+<li><strong>추세</strong>: 오랜 기간에 걸쳐 커지거나 작아지는 경향(예: 대기 중 이산화 탄소 농도의 꾸준한 증가)</li>
+<li><strong>주기</strong>: 일정한 간격으로 반복되는 변화(예: 하루 중 기온 변화, 계절 변화)</li>
+<li><strong>이상값</strong>: 다른 값과 동떨어진 값. 측정 오류일 수도, 중요한 발견일 수도 있다</li>
+</ul>
+<h3 id="④-상관관계와-인과관계">④ 상관관계와 인과관계</h3>
+<ul>
+<li><strong>상관관계(correlation)</strong>: 한 양이 변할 때 다른 양도 함께 변하는 관계</li>
+<li><strong>인과관계(causation)</strong>: 한 양의 변화가 <strong>원인</strong>이 되어 다른 양이 변하는 관계</li>
+</ul>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 아침마다 수탉이 울고 나서 해가 뜬다. 둘은 매일 함께 일어나지만(상관), 수탉이 해를 띄우는 것은 아니다(인과 아님). 빅데이터는 &#39;함께 일어나는 패턴&#39;을 찾는 데 매우 강하지만, 그것이 원인인지는 따로 확인해야 한다.</p>
+</aside>
+<h3 id="⑤-표본과-대표성">⑤ 표본과 대표성</h3>
+<p>전체(모집단)를 모두 조사할 수 없을 때는 일부(표본)를 조사한다. 이때 표본이 전체를 고르게 대표해야 결론을 믿을 수 있다. 데이터가 <strong>아무리 많아도 한쪽으로 치우쳐 있으면</strong> 결론도 치우친다.</p>
+<hr>
+<h2 id="step-3" class="step-h s3"><span class="step-badge s3">STEP 3</span><span class="h-text">핵심 개념</span></h2>
+<h3 id="6-2-①-빅데이터란-무엇인가">6-2-① 빅데이터란 무엇인가</h3>
+<p><strong>빅데이터(big data)</strong> 는 기존의 방법으로는 저장·처리·분석하기 어려울 만큼 <strong>규모가 크고, 빠르게 생성되며, 형태가 다양한</strong> 데이터를 말한다. 흔히 영어 머리글자를 따서 <strong>3V</strong>로 특징을 정리한다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>특징</th>
+<th>뜻</th>
+<th>예</th>
+</tr>
+</thead><tbody><tr>
+<td><strong>규모(Volume)</strong></td>
+<td>데이터의 양이 매우 많다</td>
+<td>전 세계 기상 관측소·위성 자료, 수많은 사람의 유전체</td>
+</tr>
+<tr>
+<td><strong>속도(Velocity)</strong></td>
+<td>데이터가 실시간으로 빠르게 생성·처리된다</td>
+<td>실시간 교통 정보, 지진 관측 자료</td>
+</tr>
+<tr>
+<td><strong>다양성(Variety)</strong></td>
+<td>숫자·문자·사진·음성 등 형태가 다양하다</td>
+<td>진료 기록 + 의료 영상 + 유전체 자료</td>
+</tr>
+</tbody></table></div>
+<p>여기에 <strong>정확성(Veracity, 데이터를 믿을 수 있는가)</strong> 과 <strong>가치(Value, 쓸모 있는 정보를 얻을 수 있는가)</strong> 를 더해 5V로 설명하기도 한다.</p>
+<h4 id="데이터는-왜-폭발적으로-늘어났을까">데이터는 왜 폭발적으로 늘어났을까?</h4>
+<ol>
+<li><strong>디지털 전환</strong> — 관측·실험·기록이 처음부터 디지털로 이루어진다(1-4 단원).</li>
+<li><strong>센서의 확산</strong> — 스마트폰, 자동차, 가전제품, 공장 설비에 센서가 들어가 쉬지 않고 데이터를 만든다.</li>
+<li><strong>저장 비용의 하락</strong> — 같은 양을 저장하는 비용이 크게 줄었다(2-6 단원의 반도체 기술 발전).</li>
+<li><strong>통신망과 계산 능력의 발전</strong> — 데이터를 빠르게 모으고 여러 컴퓨터가 나누어 계산할 수 있게 되었다.</li>
+</ol>
+<h4 id="빅데이터-처리-과정">빅데이터 처리 과정</h4>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-6-2-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 1202.34375 85" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-6-2-1{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-6-2-1 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-6-2-1 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-6-2-1 .error-icon{fill:var(--mm-group);}#mm-6-2-1 .error-text{fill:#595959;stroke:#595959;}#mm-6-2-1 .edge-thickness-normal{stroke-width:1px;}#mm-6-2-1 .edge-thickness-thick{stroke-width:3.5px;}#mm-6-2-1 .edge-pattern-solid{stroke-dasharray:0;}#mm-6-2-1 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-6-2-1 .edge-pattern-dashed{stroke-dasharray:3;}#mm-6-2-1 .edge-pattern-dotted{stroke-dasharray:2;}#mm-6-2-1 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-6-2-1 .marker.cross{stroke:var(--mm-line);}#mm-6-2-1 svg{font-family:inherit;font-size:15px;}#mm-6-2-1 p{margin:0;}#mm-6-2-1 .label{font-family:inherit;color:var(--mm-text);}#mm-6-2-1 .cluster-label text{fill:#595959;}#mm-6-2-1 .cluster-label span{color:#595959;}#mm-6-2-1 .cluster-label span p{background-color:transparent;}#mm-6-2-1 .label text,#mm-6-2-1 span{fill:var(--mm-text);color:var(--mm-text);}#mm-6-2-1 .node rect,#mm-6-2-1 .node circle,#mm-6-2-1 .node ellipse,#mm-6-2-1 .node polygon,#mm-6-2-1 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-6-2-1 .rough-node .label text,#mm-6-2-1 .node .label text,#mm-6-2-1 .image-shape .label,#mm-6-2-1 .icon-shape .label{text-anchor:middle;}#mm-6-2-1 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-6-2-1 .rough-node .label,#mm-6-2-1 .node .label,#mm-6-2-1 .image-shape .label,#mm-6-2-1 .icon-shape .label{text-align:center;}#mm-6-2-1 .node.clickable{cursor:pointer;}#mm-6-2-1 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-6-2-1 .arrowheadPath{fill:#0b0b0b;}#mm-6-2-1 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-6-2-1 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-6-2-1 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-6-2-1 .edgeLabel p{background-color:var(--mm-label);}#mm-6-2-1 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-6-2-1 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-6-2-1 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-6-2-1 .cluster text{fill:#595959;}#mm-6-2-1 .cluster span{color:#595959;}#mm-6-2-1 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-6-2-1 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-6-2-1 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-6-2-1 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-6-2-1 rect.text{fill:none;stroke-width:0;}#mm-6-2-1 .icon-shape,#mm-6-2-1 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-6-2-1 .icon-shape p,#mm-6-2-1 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-6-2-1 .icon-shape .label rect,#mm-6-2-1 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-6-2-1 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-6-2-1 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-6-2-1 .node .neo-node{stroke:var(--mm-border);}#mm-6-2-1 [data-look="neo"].node rect,#mm-6-2-1 [data-look="neo"].cluster rect,#mm-6-2-1 [data-look="neo"].node polygon{stroke:url(#mm-6-2-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-2-1 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-6-2-1 [data-look="neo"].node path{stroke:url(#mm-6-2-1-gradient);stroke-width:1px;}#mm-6-2-1 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-2-1 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-6-2-1 [data-look="neo"].node circle{stroke:url(#mm-6-2-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-2-1 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-6-2-1 [data-look="neo"].icon-shape .icon{fill:url(#mm-6-2-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-2-1 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-6-2-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-6-2-1 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-6-2-1_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-2-1_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-2-1_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-2-1_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-2-1_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-2-1_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-2-1_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-2-1_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-2-1_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-2-1_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-6-2-1_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-6-2-1_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M156,42.5L160.167,42.5C164.333,42.5,172.667,42.5,180.333,42.5C188,42.5,195,42.5,198.5,42.5L202,42.5" id="mm-6-2-1-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTU2LCJ5Ijo0Mi41fSx7IngiOjE4MSwieSI6NDIuNX0seyJ4IjoyMDYsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-6-2-1_flowchart-v2-pointEnd)"/><path d="M398.172,42.5L402.339,42.5C406.505,42.5,414.839,42.5,422.505,42.5C430.172,42.5,437.172,42.5,440.672,42.5L444.172,42.5" id="mm-6-2-1-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6Mzk4LjE3MTg3NSwieSI6NDIuNX0seyJ4Ijo0MjMuMTcxODc1LCJ5Ijo0Mi41fSx7IngiOjQ0OC4xNzE4NzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-6-2-1_flowchart-v2-pointEnd)"/><path d="M630.344,42.5L634.51,42.5C638.677,42.5,647.01,42.5,654.677,42.5C662.344,42.5,669.344,42.5,672.844,42.5L676.344,42.5" id="mm-6-2-1-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6NjMwLjM0Mzc1LCJ5Ijo0Mi41fSx7IngiOjY1NS4zNDM3NSwieSI6NDIuNX0seyJ4Ijo2ODAuMzQzNzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-6-2-1_flowchart-v2-pointEnd)"/><path d="M823.344,42.5L827.51,42.5C831.677,42.5,840.01,42.5,847.677,42.5C855.344,42.5,862.344,42.5,865.844,42.5L869.344,42.5" id="mm-6-2-1-L_D_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_E_0" data-points="W3sieCI6ODIzLjM0Mzc1LCJ5Ijo0Mi41fSx7IngiOjg0OC4zNDM3NSwieSI6NDIuNX0seyJ4Ijo4NzMuMzQzNzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-6-2-1_flowchart-v2-pointEnd)"/><path d="M1001.344,42.5L1005.51,42.5C1009.677,42.5,1018.01,42.5,1025.677,42.5C1033.344,42.5,1040.344,42.5,1043.844,42.5L1047.344,42.5" id="mm-6-2-1-L_E_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_F_0" data-points="W3sieCI6MTAwMS4zNDM3NSwieSI6NDIuNX0seyJ4IjoxMDI2LjM0Mzc1LCJ5Ijo0Mi41fSx7IngiOjEwNTEuMzQzNzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-6-2-1_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_F_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-6-2-1-flowchart-A-0" data-look="classic" transform="translate(82, 42.5)"><rect class="basic label-container" style="" x="-74" y="-34.5" width="148" height="69"/><g class="label" style="" transform="translate(-50, -22.5)"><rect/><foreignObject width="100" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>수집<br />센서·관측·기록</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-2-1-flowchart-B-1" data-look="classic" transform="translate(302.0859375, 42.5)"><rect class="basic label-container" style="" x="-96.0859375" y="-34.5" width="192.171875" height="69"/><g class="label" style="" transform="translate(-72.0859375, -22.5)"><rect/><foreignObject width="144.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>저장<br />데이터 센터·클라우드</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-2-1-flowchart-C-3" data-look="classic" transform="translate(539.2578125, 42.5)"><rect class="basic label-container" style="" x="-91.0859375" y="-34.5" width="182.171875" height="69"/><g class="label" style="" transform="translate(-67.0859375, -22.5)"><rect/><foreignObject width="134.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>정제<br />오류·중복·빈칸 처리</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-2-1-flowchart-D-5" data-look="classic" transform="translate(751.84375, 42.5)"><rect class="basic label-container" style="" x="-71.5" y="-34.5" width="143" height="69"/><g class="label" style="" transform="translate(-47.5, -22.5)"><rect/><foreignObject width="95" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>분석<br />통계·인공지능</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-2-1-flowchart-E-7" data-look="classic" transform="translate(937.34375, 42.5)"><rect class="basic label-container" style="" x="-64" y="-34.5" width="128" height="69"/><g class="label" style="" transform="translate(-40, -22.5)"><rect/><foreignObject width="80" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>시각화<br />그래프·지도</p></span></div></foreignObject></g></g><g class="node default" id="mm-6-2-1-flowchart-F-9" data-look="classic" transform="translate(1122.84375, 42.5)"><rect class="basic label-container" style="" x="-71.5" y="-34.5" width="143" height="69"/><g class="label" style="" transform="translate(-47.5, -22.5)"><rect/><foreignObject width="95" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>활용<br />예측·의사결정</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-6-2-1-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-6-2-1-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-6-2-1-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><aside class="callout important"><p class="callout-title">핵심</p><p>&#39;정제&#39; 단계는 눈에 잘 띄지 않지만 매우 중요하다. 잘못 측정된 값이나 빠진 값을 그대로 분석하면 엉뚱한 결론이 나온다. 컴퓨터 분야에는 <strong>&quot;쓰레기를 넣으면 쓰레기가 나온다(Garbage In, Garbage Out)&quot;</strong> 라는 말이 있다.</p>
+</aside>
+<h4 id="예제-1-센서-하나가-만드는-데이터-어림">예제 1 — 센서 하나가 만드는 데이터 (어림)</h4>
+<p>온도 센서가 1초에 한 번씩 온도를 측정하고, 측정값 하나를 저장하는 데 4바이트가 필요하다고 하자.
+(1) 이 센서 하나가 1년(365일) 동안 만드는 데이터는 약 몇 MB인가?
+(2) 이런 센서 1000개가 있는 관측망이라면 1년에 약 몇 GB인가?</p>
+<p><strong>풀이</strong>
+(1) 1년의 초: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">365</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">24</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">3600</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">31</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">536</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace"> </span><span class="mord mathrm">s</span></span></span></span>
+데이터: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">31</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">536</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">126</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">144</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace"> </span><span class="mord mathrm">B</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">126</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">MB</span></span></span></span></span>
+(2) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord">126</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">MB</span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1000</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">126</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">MB</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">126</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">GB</span></span></span></span></span></p>
+<p>숫자 하나만 기록하는 단순한 센서도 모이면 큰 데이터가 된다. 여기에 위성 사진, 레이더 영상 같은 비정형 데이터가 더해지면 규모는 훨씬 커진다.</p>
+<h3 id="6-2-②-과학-연구-속-빅데이터">6-2-② 과학 연구 속 빅데이터</h3>
+<p>성취기준 해설에서 제시한 네 분야를 중심으로 살펴보자.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>분야</th>
+<th>어떤 데이터인가?</th>
+<th>빅데이터로 무엇이 달라졌나?</th>
+</tr>
+</thead><tbody><tr>
+<td><strong>과학 실험</strong></td>
+<td>입자 가속기의 충돌 기록, 천체 망원경의 관측 영상</td>
+<td>사람이 다 볼 수 없는 양의 기록 속에서 아주 드문 사건을 찾아낸다</td>
+</tr>
+<tr>
+<td><strong>기상 관측</strong></td>
+<td>지상 관측소, 기상 레이더, 기상 위성, 고층 기상 관측 자료</td>
+<td>관측 자료를 슈퍼컴퓨터로 계산하여 미래 날씨를 예측한다(수치예보)</td>
+</tr>
+<tr>
+<td><strong>유전체 분석</strong></td>
+<td>수많은 사람·생물의 염기 서열</td>
+<td>질병 관련 유전자 탐색, 병원체 변이 추적, 맞춤 의료</td>
+</tr>
+<tr>
+<td><strong>신약 개발</strong></td>
+<td>화합물 정보, 단백질 구조, 임상 시험 자료</td>
+<td>후보 물질을 컴퓨터로 먼저 걸러 내어 개발 기간과 비용을 줄인다</td>
+</tr>
+</tbody></table></div>
+<h4 id="과학-실험-수십억-번-중-한-번을-찾아라">과학 실험 — 수십억 번 중 한 번을 찾아라</h4>
+<p>대형 입자 가속기에서는 입자들이 1초에 수억 번 이상 충돌한다. 모든 충돌을 저장할 수 없으므로 컴퓨터가 실시간으로 &#39;흥미로운 충돌&#39;만 골라 저장하는데도, 1년에 수십 PB의 자료가 쌓인다. 2012년 유럽 입자물리연구소(CERN)가 발표한 <strong>힉스 입자</strong>의 발견은 이런 방대한 충돌 자료 속에서 아주 드물게 나타나는 신호를 통계적으로 찾아낸 결과이다.</p>
+<p>천문학에서도 마찬가지이다. 하늘 전체를 반복 촬영하는 대형 탐사 망원경은 하룻밤에 약 20 TB(테라바이트) 규모의 영상을 만들어 내며, 컴퓨터가 그중에서 새로 나타나거나 밝기가 변한 천체를 자동으로 찾아낸다.</p>
+<h4 id="기상-관측-지구-전체를-계산하는-일기예보">기상 관측 — 지구 전체를 계산하는 일기예보</h4>
+<p>기상청은 지상 관측소, 기상 레이더, 정지궤도 기상위성(천리안위성 2A호), 고층 기상 관측 등에서 모은 자료를 <strong>슈퍼컴퓨터</strong>에 넣는다. 슈퍼컴퓨터는 대기를 촘촘한 격자로 나누고, 각 격자에서 기온·기압·바람·수증기가 어떻게 변할지 물리 법칙에 따라 계산한다. 이를 <strong>수치예보</strong>라 하며, 우리나라는 2020년부터 독자적으로 개발한 <strong>한국형 수치예보모델</strong>을 실제 예보에 활용하고 있다.</p>
+<h4 id="예제-2-유전체는-몇-바이트일까-1-4-단원-연계-계산">예제 2 — 유전체는 몇 바이트일까? (1-4 단원 연계 계산)</h4>
+<p>사람의 유전체는 약 30억(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">3</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">9</span></span></span></span></span></span></span></span></span></span></span>) 개의 염기쌍으로 이루어져 있다. 염기는 A, T, G, C 네 종류이다.
+(1) 염기 하나를 0과 1로 나타내려면 최소 몇 비트가 필요한가?
+(2) 한 가닥의 염기 서열 전체를 저장하는 데 필요한 데이터는 약 몇 MB인가?</p>
+<p><strong>풀이</strong>
+(1) 2비트로 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">4</span></span></span></span>가지를 나타낼 수 있다(예: A=00, T=01, G=10, C=11). 따라서 <strong>2비트</strong>이다.
+(2) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">3</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">9</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">6</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">9</span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord text"><span class="mord hangul_fallback">비트</span></span></span></span></span>
+<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">6</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">9</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">÷</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">8</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">7.5</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord mathrm">B</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">750</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">MB</span></span></span></span></span></p>
+<p>한 사람의 염기 서열은 CD 한 장(약 700 MB) 정도에 담을 수 있다. 그런데 실제 해독 과정에서는 정확도를 높이려고 같은 부분을 수십 번씩 겹쳐 읽고 품질 정보까지 함께 저장하므로, 한 사람의 원자료는 이보다 훨씬 크다. 여기에 수만~수십만 명의 자료를 모아 비교하면 그야말로 빅데이터가 된다.</p>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>3-6 단원과 연결</strong> — 유전체 분석은 3-6 단원에서 배운 &#39;유전 정보 → 단백질&#39;의 흐름 중 맨 앞의 <strong>설계도 전체를 읽는 일</strong>이다. 비용도 크게 떨어졌다. 인간 유전체 사업(1990~2003년)에는 약 27억 달러가 들었지만, 지금은 한 사람의 유전체를 약 1000달러 이하로 해독할 수 있다.</p>
+</aside>
+<h4 id="신약-개발-컴퓨터로-먼저-찾아보기">신약 개발 — 컴퓨터로 먼저 찾아보기</h4>
+<p>신약 하나를 개발하는 데는 흔히 10년 이상이 걸리고, 수많은 후보 물질 가운데 실제 약이 되는 것은 극히 일부이다. 이제는 화합물 데이터베이스, 단백질 구조 데이터, 임상 시험 자료를 분석하여 <strong>약이 될 가능성이 높은 후보를 먼저 골라내는</strong> 방법이 쓰인다. 단백질의 아미노산 서열 정보로부터 입체 구조를 예측하는 인공지능 연구는 그 공로로 2024년 노벨 화학상을 받았다. 이 인공지능은 이미 알려진 수많은 단백질 구조 데이터를 학습하여 만들어졌다.</p>
+<h3 id="6-2-③-일상-속-빅데이터">6-2-③ 일상 속 빅데이터</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>분야</th>
+<th>사용하는 데이터</th>
+<th>활용</th>
+</tr>
+</thead><tbody><tr>
+<td>교통</td>
+<td>차량 위치, 교통카드 승하차 기록</td>
+<td>실시간 빠른 길 안내, 버스 도착 예정 시간, 대중교통 노선 조정</td>
+</tr>
+<tr>
+<td>의료·건강</td>
+<td>진료 기록, 건강검진 자료, 웨어러블 기기 기록</td>
+<td>질병 위험 예측, 의료 영상 판독 보조</td>
+</tr>
+<tr>
+<td>재난·안전</td>
+<td>지진 관측망, 기상 레이더, 하천 수위</td>
+<td>지진 조기 경보, 홍수 예측, 재난 문자</td>
+</tr>
+<tr>
+<td>에너지</td>
+<td>전력 사용량(스마트 계량기), 기상 예보</td>
+<td>전력 수요 예측, 발전량 조절</td>
+</tr>
+<tr>
+<td>유통·서비스</td>
+<td>구매 기록, 검색 기록, 시청 기록</td>
+<td>상품·콘텐츠 추천, 재고 관리</td>
+</tr>
+<tr>
+<td>환경</td>
+<td>대기질 측정망, 위성 관측</td>
+<td>미세먼지 예보, 산불 감시</td>
+</tr>
+<tr>
+<td>방역</td>
+<td>검사 결과, 이동 기록, 하수 검사</td>
+<td>감염 경로 추적, 유행 예측(6-1 단원)</td>
+</tr>
+</tbody></table></div>
+<h4 id="예제-3-데이터로-노선-정하기-자료-해석">예제 3 — 데이터로 노선 정하기 (자료 해석)</h4>
+<p>어느 도시가 심야 버스 노선을 새로 만들려고 한다. 다음 두 방법 중 어느 쪽이 더 나은 근거가 될지 판단하고 이유를 쓰시오.</p>
+<ul>
+<li>방법 A: 시청 직원 5명이 회의를 열어 &quot;사람이 많을 것 같은 곳&quot;을 정한다.</li>
+<li>방법 B: 심야 시간대의 교통카드 기록, 택시 승하차 위치, 유동 인구 데이터를 지도에 나타내 사람이 많이 이동하는 길을 찾는다.</li>
+</ul>
+<p><strong>풀이</strong>
+방법 B가 더 나은 근거이다. 실제로 사람들이 <strong>언제, 어디서, 어디로</strong> 이동하는지를 측정한 데이터에 기반하므로 추측보다 정확하다. 다만 B도 <strong>한계</strong>가 있다. 예를 들어 교통카드를 쓰지 않거나 택시를 이용하지 못하는 사람의 수요는 데이터에 잘 드러나지 않으므로, 주민 의견 조사 등을 함께 활용하는 것이 좋다.</p>
+<h3 id="6-2-④-빅데이터-활용의-장점">6-2-④ 빅데이터 활용의 장점</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>장점</th>
+<th>설명</th>
+<th>사례</th>
+</tr>
+</thead><tbody><tr>
+<td><strong>더 정확한 예측</strong></td>
+<td>과거와 현재의 방대한 자료로 미래를 예측한다</td>
+<td>수치예보, 전력 수요 예측</td>
+</tr>
+<tr>
+<td><strong>숨은 패턴의 발견</strong></td>
+<td>사람이 알아채기 어려운 관계를 찾아낸다</td>
+<td>질병 위험 요인, 지진대 분포</td>
+</tr>
+<tr>
+<td><strong>실시간 대응</strong></td>
+<td>상황을 즉시 파악하고 대처한다</td>
+<td>교통 정보, 재난 경보</td>
+</tr>
+<tr>
+<td><strong>맞춤형 서비스</strong></td>
+<td>개인의 특성에 맞는 정보를 제공한다</td>
+<td>맞춤 학습, 맞춤 의료</td>
+</tr>
+<tr>
+<td><strong>연구 방법의 변화</strong></td>
+<td>가설을 세우기 전에 데이터에서 새로운 질문을 발견하기도 한다</td>
+<td>유전체 연구, 천문 탐사</td>
+</tr>
+<tr>
+<td><strong>자원 절약</strong></td>
+<td>낭비를 줄이고 효율을 높인다</td>
+<td>설비 고장 예측, 물류 경로 최적화</td>
+</tr>
+</tbody></table></div>
+<h3 id="6-2-⑤-빅데이터-활용의-문제점과-대응">6-2-⑤ 빅데이터 활용의 문제점과 대응</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>문제점</th>
+<th>무엇이 문제인가?</th>
+<th>대응 방안</th>
+</tr>
+</thead><tbody><tr>
+<td><strong>개인정보 침해</strong></td>
+<td>위치·건강·구매 기록 등 민감한 정보가 수집·유출될 수 있다</td>
+<td>수집 최소화, 동의, 가명·익명 처리, 법적 보호</td>
+</tr>
+<tr>
+<td><strong>재식별 위험</strong></td>
+<td>이름을 지워도 여러 정보를 결합하면 누구인지 알아낼 수 있다</td>
+<td>결합 가능한 정보까지 고려한 비식별 처리</td>
+</tr>
+<tr>
+<td><strong>편향(치우침)</strong></td>
+<td>데이터가 특정 집단만 대표하면 결론도 치우친다</td>
+<td>표본의 대표성 점검, 다양한 데이터 확보</td>
+</tr>
+<tr>
+<td><strong>상관과 인과의 혼동</strong></td>
+<td>함께 변하는 패턴을 원인으로 착각한다</td>
+<td>실험·추가 연구로 인과관계 확인</td>
+</tr>
+<tr>
+<td><strong>데이터 오류</strong></td>
+<td>잘못 측정·입력된 값이 결론을 왜곡한다</td>
+<td>정제, 측정 표준(1-3 단원) 준수</td>
+</tr>
+<tr>
+<td><strong>보안</strong></td>
+<td>대량의 데이터가 한곳에 모이면 해킹 피해가 커진다</td>
+<td>암호화, 접근 권한 관리</td>
+</tr>
+<tr>
+<td><strong>정보 격차</strong></td>
+<td>데이터와 분석 능력을 가진 쪽이 더 큰 이익을 얻는다</td>
+<td>공공 데이터 개방, 디지털 교육</td>
+</tr>
+<tr>
+<td><strong>에너지 사용</strong></td>
+<td>데이터 센터는 많은 전력을 소비한다</td>
+<td>효율 향상, 재생 에너지 사용(5-6 단원)</td>
+</tr>
+</tbody></table></div>
+<h4 id="예제-4-검색어로-독감을-예측할-수-있을까-사례-분석">예제 4 — 검색어로 독감을 예측할 수 있을까? (사례 분석)</h4>
+<p>2008년 한 인터넷 검색 기업은 사람들이 &#39;독감 증상&#39;, &#39;해열제&#39; 같은 단어를 검색하는 횟수를 분석하여, 보건 당국보다 1<del>2주 빨리 독감 유행을 예측하는 서비스를 내놓았다. 처음에는 꽤 잘 맞는 것처럼 보였으나, 2012</del>2013년 겨울에는 보건 당국이 병원 보고로 집계한 독감 의심 환자 비율보다 약 2배나 높게 예측하는 큰 오류를 냈고, 결국 2015년 서비스 공개가 중단되었다.
+(1) 검색량이 독감 환자 수를 정확히 반영하지 못한 까닭을 추론하시오.
+(2) 이 사례에서 얻을 수 있는 교훈을 쓰시오.</p>
+<p><strong>풀이</strong>
+(1) 검색은 실제로 독감에 걸린 사람만 하는 것이 아니다. 독감에 대한 <strong>언론 보도가 많아지면</strong> 걸리지 않은 사람도 걱정이 되어 검색을 늘린다. 또 감기와 독감을 헷갈린 사람의 검색, 검색 서비스 자체의 변화도 영향을 준다. 즉 검색량과 독감 환자 수의 관계는 <strong>상관관계</strong>일 뿐 직접적인 측정이 아니었다.
+(2) 데이터의 양이 많다고 해서 정확한 것은 아니다. 데이터가 <strong>무엇을 실제로 측정하는지</strong> 확인하고, 전통적인 관측 자료(병원 보고 등)와 <strong>함께 검증</strong>해야 한다.</p>
+<h4 id="예제-5-이름을-지우면-안전할까-추론">예제 5 — 이름을 지우면 안전할까? (추론)</h4>
+<p>어느 학교가 학생 건강 자료를 연구에 제공하면서 이름과 학번을 지우고 &#39;생일(월·일), 성별, 키&#39;만 남겼다. 한 반 학생은 30명이다.
+(1) 생일(월·일)과 성별을 조합한 경우의 수는 최대 몇 가지인가?
+(2) 이 자료만으로 특정 학생을 알아낼 수 있을지 추론하시오.</p>
+<p><strong>풀이</strong>
+(1) 생일은 최대 366가지, 성별은 2가지이므로 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">366</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">732</span></span></span></span>가지이다.
+(2) 732가지 조합에 30명이 나뉘므로 대부분의 학생은 <strong>자기만의 조합</strong>을 가질 가능성이 크다. 같은 반 친구의 생일과 성별을 아는 사람이라면 그 학생의 키와 건강 자료를 알아낼 수 있다. 이처럼 이름을 지워도 다른 정보를 <strong>결합</strong>하면 다시 개인을 알아볼 수 있는데, 이를 <strong>재식별</strong>이라 한다. 실제로 미국에서 우편번호·생년월일·성별 세 가지만으로 인구의 상당수(약 87%)를 특정할 수 있다는 연구 결과도 있다.</p>
+<h4 id="사회는-어떻게-대응하고-있나">사회는 어떻게 대응하고 있나</h4>
+<ul>
+<li>우리나라는 2011년 <strong>개인정보 보호법</strong>을 제정하였고, 2020년 이른바 <strong>데이터 3법</strong>을 개정하여 추가 정보 없이는 개인을 알아볼 수 없게 처리한 <strong>가명정보</strong>를 통계·연구 등에 활용할 수 있게 하면서 보호 장치를 함께 두었다.</li>
+<li>유럽 연합은 2018년부터 <strong>일반 개인정보 보호법(GDPR)</strong> 을 시행하여, 자기 정보의 삭제를 요구할 권리 등을 보장한다.</li>
+</ul>
+<aside class="callout important"><p class="callout-title">핵심</p><p>빅데이터의 문제점은 &quot;데이터를 쓰지 말자&quot;로 해결되지 않는다. <strong>데이터 활용의 이익</strong>과 <strong>개인의 권리 보호</strong>를 함께 지키는 방법(동의, 최소 수집, 가명 처리, 투명성)을 찾는 것이 핵심이다. 교육과정이 강조하는 <strong>디지털 소양</strong>도 바로 정보를 선별하고 <strong>비판적으로 평가</strong>하는 능력이다.</p>
+</aside>
+<h4 id="데이터를-비판적으로-읽는-체크리스트">데이터를 비판적으로 읽는 체크리스트</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>질문</th>
+<th>확인할 것</th>
+</tr>
+</thead><tbody><tr>
+<td>누가 모았나?</td>
+<td>출처의 신뢰성, 이해관계</td>
+</tr>
+<tr>
+<td>무엇을 측정했나?</td>
+<td>실제로 알고 싶은 것을 직접 측정했는가</td>
+</tr>
+<tr>
+<td>누구의 데이터인가?</td>
+<td>표본이 전체를 대표하는가, 빠진 집단은 없는가</td>
+</tr>
+<tr>
+<td>어떻게 정리했나?</td>
+<td>이상값·빈칸 처리, 그래프 축의 눈금</td>
+</tr>
+<tr>
+<td>상관인가 인과인가?</td>
+<td>다른 공통 원인은 없는가</td>
+</tr>
+<tr>
+<td>내 정보는 안전한가?</td>
+<td>수집 목적, 보관 기간, 동의 여부</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-4" class="step-h s4"><span class="step-badge s4">STEP 4</span><span class="h-text">오개념 바로잡기</span></h2>
+<div class="table-wrap"><table><thead><tr>
+<th>흔한 오개념</th>
+<th>올바른 개념</th>
+<th>왜 그럴까?</th>
+</tr>
+</thead><tbody><tr>
+<td>데이터가 많을수록 결론은 무조건 정확하다</td>
+<td>데이터가 <strong>치우치거나 오류가 많으면</strong> 양이 많아도 틀린 결론이 나온다</td>
+<td>독감 검색량 사례처럼 측정 대상과 실제 현상이 다를 수 있다</td>
+</tr>
+<tr>
+<td>두 값이 함께 변하면 하나가 다른 하나의 원인이다</td>
+<td><strong>상관관계는 인과관계가 아니다</strong></td>
+<td>공통 원인(예: 기온)이 두 값을 함께 변화시킬 수 있다</td>
+</tr>
+<tr>
+<td>이름만 지우면 개인정보는 안전하다</td>
+<td>여러 정보를 <strong>결합</strong>하면 다시 개인을 알아낼 수 있다(재식별)</td>
+<td>생일·성별·지역 같은 정보의 조합만으로도 특정될 수 있다</td>
+</tr>
+<tr>
+<td>빅데이터는 크기만 크면 된다</td>
+<td>규모뿐 아니라 <strong>속도·다양성·정확성·가치</strong>가 함께 중요하다</td>
+<td>쓸모없는 데이터는 아무리 커도 가치가 없다</td>
+</tr>
+<tr>
+<td>데이터와 알고리즘은 사람이 아니므로 객관적·중립적이다</td>
+<td>데이터를 <strong>무엇을, 누구에게서, 어떻게</strong> 모았는지에 사람의 선택이 들어간다</td>
+<td>과거 자료에 있던 차별이 분석 결과에 그대로 반복될 수 있다</td>
+</tr>
+<tr>
+<td>내 데이터는 하찮아서 아무 가치가 없다</td>
+<td>개인의 데이터가 모이면 <strong>큰 경제적·사회적 가치</strong>가 생긴다</td>
+<td>그래서 데이터를 둘러싼 권리와 책임이 중요하다</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-5" class="step-h s5"><span class="step-badge s5">STEP 5</span><span class="h-text">선택과목·대학으로 한 걸음 더</span></h2>
+<aside class="callout caution"><p class="callout-title">심화 · 평가 범위 밖</p><p>이 절은 <strong>통합과학 교육과정 범위 밖의 심화 내용</strong>으로 평가 대상이 아니다. &quot;이 개념이 앞으로 어디까지 이어지는가&quot;를 맛보기로 보여 주기 위한 내용이다.</p>
+</aside>
+<h3 id="고2-3-선택과목과의-연결">고2·3 선택과목과의 연결</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>과목</th>
+<th>이어지는 내용</th>
+</tr>
+</thead><tbody><tr>
+<td>정보 / 데이터 과학</td>
+<td>데이터 수집·전처리·분석·시각화, 프로그래밍으로 데이터 다루기</td>
+</tr>
+<tr>
+<td>인공지능 기초</td>
+<td>데이터를 학습하는 인공지능의 원리(6-3 단원과 연결)</td>
+</tr>
+<tr>
+<td>확률과 통계(수학)</td>
+<td>표본과 모집단, 통계적 추정</td>
+</tr>
+<tr>
+<td>지구과학 / 지구시스템과학</td>
+<td>기상·기후·지진 관측 자료의 해석</td>
+</tr>
+<tr>
+<td>생물의 유전</td>
+<td>유전체와 유전자 분석 기술</td>
+</tr>
+</tbody></table></div>
+<h3 id="①-과학의-네-번째-방법-데이터-집약적-과학">① 과학의 네 번째 방법 — 데이터 집약적 과학</h3>
+<p>과학은 오랫동안 <strong>실험·관찰</strong>(경험), <strong>이론</strong>, <strong>계산</strong>(컴퓨터 시뮬레이션)의 방법으로 발전해 왔다. 2000년대 후반부터는 거대한 데이터에서 직접 패턴과 법칙을 찾아내는 <strong>데이터 집약적 과학</strong>이 &#39;네 번째 패러다임&#39;으로 불리기 시작했다. 대학의 <strong>데이터과학</strong> 과목에서는 이 흐름을 통계학, 컴퓨터과학, 각 분야 지식의 결합으로 배운다.</p>
+<h3 id="②-데이터에서-관계식-찾기-회귀-분석">② 데이터에서 관계식 찾기 — 회귀 분석</h3>
+<p>데이터 점 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span>들이 직선에 가깝게 놓여 있으면, 다음 오차의 제곱합이 가장 작아지는 직선 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal">a</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">b</span></span></span></span>를 찾는다. 이를 <strong>최소제곱법</strong>이라 한다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="mopen">(</span><span class="mord mathnormal">a</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">b</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.9291em;vertical-align:-1.2777em;"></span><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.6514em;"><span style="top:-1.8723em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">i</span><span class="mrel mtight">=</span><span class="mord mtight">1</span></span></span></span><span style="top:-3.05em;"><span class="pstrut" style="height:3.05em;"></span><span><span class="mop op-symbol large-op">∑</span></span></span><span style="top:-4.3em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">n</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.2777em;"><span></span></span></span></span></span><span class="mopen"><span class="delimsizing size1">(</span></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathnormal">a</span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.404em;vertical-align:-0.35em;"></span><span class="mord mathnormal">b</span><span class="mclose">)</span><span class="mclose"><span class="mclose"><span class="delimsizing size1">)</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.054em;"><span style="top:-3.3029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:1em;"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">⟶</span><span class="mspace" style="margin-right:1em;"></span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">최소</span></span></span></span></span></span></p>
+<p>두 변수가 함께 변하는 정도는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">−</span><span class="mord">1</span></span></span></span>에서 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span></span></span></span> 사이의 값을 갖는 <strong>상관 계수</strong> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span></span></span></span>로 나타낸다. 대학 통계학에서는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span></span></span></span>이 커도 인과관계를 보장하지 않으며, 인과를 확인하려면 <strong>무작위 대조 실험</strong>이나 인과 추론 기법이 필요함을 배운다.</p>
+<h3 id="③-생물정보학-염기-서열-비교하기">③ 생물정보학 — 염기 서열 비교하기</h3>
+<p><strong>생물정보학(bioinformatics)</strong> 은 컴퓨터로 생물 데이터를 분석하는 학문이다. 두 염기 서열이 얼마나 비슷한지 비교하는 <strong>서열 정렬</strong> 알고리즘, 수많은 짧은 조각을 이어 붙여 전체 유전체를 복원하는 <strong>조립</strong> 알고리즘, 병원체의 변이로 계통수를 그리는 방법 등을 배운다. 6-1 단원의 변이 추적이 바로 이 기술로 이루어진다.</p>
+<h3 id="④-대기과학-수치예보와-앙상블-예보">④ 대기과학 — 수치예보와 앙상블 예보</h3>
+<p>수치예보 모델은 유체의 운동, 열역학, 수증기의 상태 변화를 나타내는 방정식을 격자마다 시간 간격으로 나누어 계산한다. 처음 관측값이 아주 조금만 달라도 며칠 뒤의 결과가 크게 달라질 수 있으므로(혼돈), 처음 조건을 조금씩 바꾼 여러 번의 계산 결과를 모아 <strong>확률</strong>로 예보하는 <strong>앙상블 예보</strong>를 한다. &quot;내일 비 올 확률 60%&quot;는 이런 계산에서 나온다.</p>
+<h3 id="⑤-개인정보를-지키면서-분석하기">⑤ 개인정보를 지키면서 분석하기</h3>
+<p>대학과 연구소에서는 데이터에 일부러 통계적 잡음을 섞어 개인은 알아볼 수 없지만 전체 통계는 유지하는 <strong>차분 프라이버시</strong>, 데이터를 한곳에 모으지 않고 각 기관에서 학습한 결과만 모으는 <strong>연합 학습</strong> 같은 기술을 연구한다.</p>
+<h3 id="고등학교-vs-대학교">고등학교 vs 대학교</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>고등학교 통합과학</th>
+<th>대학교(데이터과학·통계학·생물정보학·대기과학)</th>
+</tr>
+</thead><tbody><tr>
+<td>빅데이터</td>
+<td>3V 특징, 활용 사례 조사</td>
+<td>분산 저장·처리 시스템, 데이터베이스 설계</td>
+</tr>
+<tr>
+<td>분석</td>
+<td>그래프의 추세·이상값 읽기</td>
+<td>회귀 분석, 가설 검정, 기계학습</td>
+</tr>
+<tr>
+<td>상관과 인과</td>
+<td>사례로 구분하기</td>
+<td>상관 계수, 무작위 대조 실험, 인과 추론</td>
+</tr>
+<tr>
+<td>유전체</td>
+<td>염기 서열 = 데이터</td>
+<td>서열 정렬·조립 알고리즘, 유전체 연관 분석</td>
+</tr>
+<tr>
+<td>기상</td>
+<td>관측 자료로 예보한다</td>
+<td>대기 운동 방정식의 수치 해법, 앙상블 예보</td>
+</tr>
+<tr>
+<td>개인정보</td>
+<td>재식별 위험과 법적 보호</td>
+<td>차분 프라이버시, 암호 기술, 데이터 거버넌스</td>
+</tr>
+<tr>
+<td>관련 전공</td>
+<td>—</td>
+<td>통계학, 컴퓨터공학, 데이터사이언스, 생명정보학, 대기과학, 산업공학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-6" class="step-h s6"><span class="step-badge s6">STEP 6</span><span class="h-text">산업 현장과 진로 연결</span></h2>
+<h3 id="사례-1-기상-예보와-기상-산업">사례 1. 기상 예보와 기상 산업</h3>
+<ul>
+<li><strong>원리</strong> 관측 자료(지상·레이더·위성·고층) → 슈퍼컴퓨터 수치예보 → 예보관의 해석 → 예보 발표.</li>
+<li><strong>어디에 쓰이나</strong> 기상 정보는 농업(파종·수확 시기), 항공·해운(운항 계획), 에너지(냉난방 전력 수요, 태양광·풍력 발전량 예측), 유통(계절 상품 재고)에 쓰인다. 날씨 데이터를 가공해 기업에 맞춤 정보를 제공하는 <strong>기상 산업</strong>도 있다.</li>
+<li><strong>누구나 쓸 수 있는 데이터</strong> 기상청의 기상자료개방포털, 정부의 공공데이터포털에서 과거 관측 자료를 내려받아 분석할 수 있다.</li>
+</ul>
+<h3 id="사례-2-바이오헬스-데이터">사례 2. 바이오헬스 데이터</h3>
+<ul>
+<li><strong>원리</strong> 유전체 자료, 진료 기록, 의료 영상, 생활 습관 데이터를 함께 분석하여 질병 위험을 예측하고 치료법을 고른다.</li>
+<li><strong>어디에 쓰이나</strong> 암 환자의 유전자 변이에 맞춘 표적 치료제 선택, 신약 후보 물질 탐색, 감염병 변이 감시(6-1 단원).</li>
+<li><strong>핵심 과제</strong> 의료 데이터는 가장 민감한 개인정보이므로, 가명 처리와 엄격한 접근 관리 아래에서만 연구에 활용한다. 국가 차원에서도 대규모 유전체·임상 데이터를 모으는 사업이 진행되고 있다.</li>
+</ul>
+<h3 id="사례-3-스마트-교통과-스마트-도시">사례 3. 스마트 교통과 스마트 도시</h3>
+<ul>
+<li>교통 신호를 실시간 교통량에 맞춰 조절하고, 교통카드 데이터로 버스 배차 간격과 노선을 조정한다.</li>
+<li>도시 곳곳의 센서(대기질, 소음, 주차 공간 등) 데이터를 모아 시민에게 제공하고 도시 정책에 활용한다. 이 내용은 6-3 단원의 사물인터넷으로 이어진다.</li>
+</ul>
+<h3 id="사례-4-제조-에너지-데이터">사례 4. 제조·에너지 데이터</h3>
+<ul>
+<li><strong>예지 정비</strong> 공장 설비의 진동, 온도, 전류 데이터를 분석해 고장이 나기 전에 미리 부품을 교체한다. 갑작스러운 생산 중단을 막는다.</li>
+<li><strong>전력 수요 예측</strong> 기상 예보, 요일, 과거 사용량 데이터로 내일의 전력 수요를 예측하여 발전량을 계획한다(5-5, 5-6 단원과 연결).</li>
+</ul>
+<h3 id="관련-진로와-학과">관련 진로와 학과</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>진로</th>
+<th>하는 일</th>
+<th>관련 학과</th>
+</tr>
+</thead><tbody><tr>
+<td>데이터 과학자·분석가</td>
+<td>데이터를 분석해 문제를 해결하고 의사결정을 돕는다</td>
+<td>통계학, 컴퓨터공학, 산업공학, 데이터사이언스</td>
+</tr>
+<tr>
+<td>데이터 엔지니어</td>
+<td>대량의 데이터를 모으고 저장·처리하는 시스템을 만든다</td>
+<td>컴퓨터공학, 소프트웨어학</td>
+</tr>
+<tr>
+<td>생물정보학자</td>
+<td>유전체·단백질 데이터를 분석한다</td>
+<td>생명정보학, 생명과학, 컴퓨터공학</td>
+</tr>
+<tr>
+<td>기상 예보관·수치모델 연구원</td>
+<td>기상 자료를 해석하고 예보 모델을 개발한다</td>
+<td>대기과학, 지구과학, 물리학</td>
+</tr>
+<tr>
+<td>개인정보 보호·정보 보안 전문가</td>
+<td>데이터를 안전하게 지키는 체계와 기술을 만든다</td>
+<td>정보보호학, 컴퓨터공학, 법학</td>
+</tr>
+<tr>
+<td>데이터 시각화 디자이너</td>
+<td>복잡한 데이터를 이해하기 쉬운 그래픽으로 표현한다</td>
+<td>디자인, 정보통계, 컴퓨터공학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="탐구-활동-디지털-탐구-도구를-활용한-실시간-생활-데이터-측정하기">탐구 활동 — 디지털 탐구 도구를 활용한 실시간 생활 데이터 측정하기</h2>
+<p>교육과정은 이 영역에서 <strong>마이크로프로세서를 탑재한 피지컬 컴퓨팅 기기</strong> 등 디지털 탐구 도구로 생활 주변의 실시간 데이터를 <strong>수집·저장·처리</strong>하고, 이를 바탕으로 <strong>창의적인 문제해결 방안</strong>을 도출하도록 안내한다.</p>
+<h3 id="활동-a-스마트폰-센서로-교실-환경-데이터-측정하기">활동 A. 스마트폰 센서로 교실 환경 데이터 측정하기</h3>
+<p><strong>목표</strong> 스마트폰의 센서로 교실의 소리 크기와 밝기를 실시간으로 측정·기록하고, 시간대별 변화를 분석한다.</p>
+<p><strong>준비물</strong> 스마트폰(센서 측정 앱), 스프레드시트, 측정 계획서</p>
+<p><strong>과정</strong></p>
+<ol>
+<li>모둠별로 측정할 양(소리 크기 dB, 밝기 lx 등)과 장소(교실 앞·뒤, 창가·복도 쪽)를 정한다.</li>
+<li>측정 간격(예: 1초)과 측정 시간(예: 쉬는 시간 10분 + 수업 시작 10분)을 정한다.</li>
+<li>스마트폰을 같은 높이·같은 방향으로 고정하고 측정 앱으로 데이터를 기록한다.</li>
+<li>데이터를 파일로 내보내 스프레드시트에 정리하고, 시간–측정값 그래프를 그린다.</li>
+<li>평균, 최댓값, 이상값을 찾고, 그 원인을 추론한다.</li>
+</ol>
+<aside class="callout warning"><p class="callout-title">주의</p><p><strong>개인정보 보호</strong> 소리를 측정할 때는 <strong>소리 크기 수치만</strong> 기록하고 대화 내용을 녹음하지 않는다. 사진이나 영상에 다른 사람의 얼굴이 찍히지 않도록 한다.</p>
+</aside>
+<h3 id="활동-b-피지컬-컴퓨팅-기기로-39-교실-환경-모니터-39-만들기">활동 B. 피지컬 컴퓨팅 기기로 &#39;교실 환경 모니터&#39; 만들기</h3>
+<p><strong>목표</strong> 마이크로비트, 아두이노 같은 피지컬 컴퓨팅 기기로 교실 환경 데이터를 자동으로 수집·저장하고, 데이터에 근거한 문제해결 방안을 제안한다.</p>
+<p><strong>준비물</strong> 피지컬 컴퓨팅 기기(마이크로비트 또는 아두이노), 온도·밝기 센서(마이크로비트는 내장), 선택: 이산화 탄소 센서 모듈, 컴퓨터, USB 케이블</p>
+<p><strong>과정</strong></p>
+<ol>
+<li>블록 코딩 등으로 다음 동작을 프로그래밍한다: 1분마다 온도와 밝기(선택: 이산화 탄소 농도)를 측정 → 시각과 함께 기록 → 기준값을 넘으면 화면에 경고 표시.</li>
+<li>기기를 교실 가운데 높이 약 1 m 지점에 두고 하루(또는 수업 시간 동안) 데이터를 수집한다.</li>
+<li>수집한 데이터를 컴퓨터로 옮겨 시간에 따른 그래프를 그린다.</li>
+<li>창문을 연 시각, 학생 수가 바뀐 시각 등 <strong>사건 기록</strong>을 그래프 위에 표시한다.</li>
+<li>다른 모둠과 데이터를 공유하여 교실 위치에 따른 차이를 비교한다.</li>
+<li>분석 결과를 바탕으로 &#39;언제, 얼마나 자주 환기하면 좋을지&#39; 같은 문제해결 방안을 제안한다.</li>
+</ol>
+<aside class="callout note"><p class="callout-title">성취기준·참고</p><p>바깥 공기의 이산화 탄소 농도는 약 420 ppm이다(5-3 단원). 사람이 많은 교실을 환기하지 않으면 농도가 빠르게 올라가며, 학교보건법 시행규칙은 교실 이산화 탄소 기준을 1000 ppm 이하로 정하고 있다. 센서가 측정하는 원리는 다루지 않고, 측정값을 <strong>데이터로 활용</strong>하는 데 집중한다.</p>
+</aside>
+<p><strong>결과 기록</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>시각</th>
+<th>온도(°C)</th>
+<th>밝기</th>
+<th>(선택) CO₂(ppm)</th>
+<th>사건 기록</th>
+</tr>
+</thead><tbody><tr>
+<td>09:00</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1교시 시작</td>
+</tr>
+<tr>
+<td>09:30</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>09:50</td>
+<td></td>
+<td></td>
+<td></td>
+<td>쉬는 시간, 창문 열기</td>
+</tr>
+<tr>
+<td>10:00</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<p><strong>생각해 보기</strong></p>
+<ol>
+<li>측정 간격을 1분에서 1초로 줄이면 데이터의 양은 몇 배가 될까? 그만큼 더 유용해질까?</li>
+<li>우리 모둠의 데이터에 영향을 준 <strong>오차의 원인</strong>(기기 위치, 햇빛, 사람의 숨 등)은 무엇이었을까?</li>
+<li>학교 전체 교실에 이 기기를 설치해 데이터를 모으면 어떤 장점이 있을까? 반대로 어떤 데이터는 모으지 말아야 할까?</li>
+<li>우리가 제안한 해결 방안은 데이터의 어떤 부분을 근거로 하는가?</li>
+</ol>
+<hr>
+<h2 id="개념-확인-문제">개념 확인 문제</h2>
+<h3 id="기본">기본</h3>
+<p><strong>1.</strong> 빅데이터의 특징을 나타내는 3V를 쓰고, 각각의 뜻을 간단히 설명하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 규모(Volume): 데이터의 양이 매우 많다. 속도(Velocity): 데이터가 실시간으로 빠르게 생성·처리된다. 다양성(Variety): 숫자·문자·사진·음성 등 형태가 다양하다.</p>
+</div></details>
+
+<p><strong>2.</strong> 성취기준 해설에서 빅데이터가 축적되는 과학기술 분야로 제시한 예를 <strong>세 가지 이상</strong> 쓰시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 과학 실험, 기상 관측, 유전체 분석, 신약 개발 중 세 가지 이상</p>
+</div></details>
+
+<p><strong>3.</strong> 다음 중 <strong>비정형 데이터</strong>를 모두 고르시오.
+ㄱ. 시간별 기온 관측표 ㄴ. 기상 위성 구름 사진 ㄷ. 진료실에서 녹음한 음성 ㄹ. 교통카드 승하차 시각 기록</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답 ㄴ, ㄷ</strong></p>
+<p>ㄱ과 ㄹ은 행과 열로 정리된 정형 데이터이다. 사진과 음성은 형식이 정해지지 않은 비정형 데이터이다.</p>
+</div></details>
+
+<p><strong>4.</strong> 빈칸에 알맞은 말을 쓰시오.
+&quot;이름을 지운 데이터라도 생일, 성별, 지역 같은 정보를 ( ㄱ )하면 개인을 다시 알아볼 수 있는데, 이를 ( ㄴ )(이)라고 한다.&quot;</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> ㄱ: 결합, ㄴ: 재식별</p>
+</div></details>
+
+<h3 id="응용">응용</h3>
+<p><strong>5.</strong> 어떤 소리 센서가 1초에 10번 측정하고, 측정값 하나는 2바이트이다. 이 센서를 하루(24시간) 동안 작동시키면 데이터는 약 몇 MB인가?</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 약 1.7 MB</p>
+<p>하루의 초: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">24</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">3600</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">86</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">400</span><span class="mspace"> </span><span class="mord mathrm">s</span></span></span></span>
+측정 횟수: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">86</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">400</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">864</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span></span></span></span>번
+데이터: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">864</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">728</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace"> </span><span class="mord mathrm">B</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">1.7</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">MB</span></span></span></span></span></p>
+</div></details>
+
+<p><strong>6.</strong> 한 연구에서 &quot;스마트폰 건강 앱 사용자 100만 명의 걸음 수 데이터를 분석한 결과, 우리나라 국민은 하루 평균 9000걸음을 걷는다.&quot;라고 발표하였다. 이 결론을 비판적으로 평가하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+100만 명이라는 큰 데이터이지만 <strong>건강 앱을 쓰는 사람</strong>만의 데이터이므로 전체 국민을 대표한다고 보기 어렵다. 건강 앱 사용자는 운동에 관심이 많아 평소 더 많이 걸을 가능성이 크고, 스마트폰을 덜 쓰는 고령층이나 어린이는 적게 포함되었을 것이다. 또 스마트폰을 집에 두고 걸은 걸음은 기록되지 않는다. 따라서 &#39;우리나라 국민 평균&#39;이라는 결론은 <strong>표본 편향</strong> 때문에 실제보다 높게 나왔을 수 있다.</p>
+</div></details>
+
+<p><strong>7.</strong> 다음은 어느 도시의 월별 자료이다. 이 자료로부터 &quot;에어컨 판매량이 늘면 전력 사용량이 늘어난다&quot;와 &quot;전력 사용량이 늘면 아이스크림 판매량이 늘어난다&quot; 중 어느 것이 인과관계로서 더 타당한지 판단하고, 두 번째 주장의 문제점을 설명하시오.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>월</th>
+<th>평균 기온</th>
+<th>에어컨 판매량</th>
+<th>전력 사용량</th>
+<th>아이스크림 판매량</th>
+</tr>
+</thead><tbody><tr>
+<td>4월</td>
+<td>낮음</td>
+<td>적음</td>
+<td>보통</td>
+<td>적음</td>
+</tr>
+<tr>
+<td>7월</td>
+<td>높음</td>
+<td>많음</td>
+<td>많음</td>
+<td>많음</td>
+</tr>
+<tr>
+<td>10월</td>
+<td>낮음</td>
+<td>적음</td>
+<td>보통</td>
+<td>적음</td>
+</tr>
+</tbody></table></div>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 첫 번째 주장이 더 타당하다.</p>
+<p>에어컨은 전기를 사용하므로 에어컨 사용 증가가 전력 사용량 증가로 이어지는 <strong>작동 원리</strong>가 있다. 반면 전력 사용량과 아이스크림 판매량은 둘 다 <strong>기온 상승</strong>이라는 공통 원인 때문에 함께 늘어난 것일 뿐, 전력 사용이 아이스크림을 사게 만드는 것은 아니다. 함께 변한다는 상관관계만으로 인과관계를 주장한 것이 문제이다.</p>
+</div></details>
+
+<h3 id="융합-서술형">융합·서술형</h3>
+<p><strong>8. [과학 연구·대학 연계]</strong> 사람의 유전체 약 30억 염기쌍을 한 염기당 2비트로 저장하면 약 750 MB가 된다. 그런데 실제 유전체 연구에서는 한 사람당 이보다 훨씬 큰 데이터가 생기고, 연구에 따라 수십만 명의 데이터를 모으기도 한다. (1) 한 사람의 실제 데이터가 750 MB보다 큰 까닭을 쓰고, (2) 대규모 유전체 데이터를 모을 때의 장점과 문제점을 한 가지씩 근거를 들어 서술하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+(1) 해독 과정에서 정확도를 높이기 위해 같은 부분을 여러 번 겹쳐 읽고, 각 염기를 얼마나 믿을 수 있는지 나타내는 품질 정보도 함께 저장하기 때문이다.
+(2) 장점: 많은 사람의 유전체와 건강 정보를 비교하면 특정 질병과 관련된 유전자 변이를 찾을 수 있어 질병 예측과 맞춤 치료에 도움이 된다. 문제점: 유전 정보는 평생 바뀌지 않고 가족과도 공유되는 매우 민감한 개인정보이므로, 유출되거나 재식별되면 보험·취업 차별 등 되돌릴 수 없는 피해가 생길 수 있다. 따라서 동의, 가명 처리, 엄격한 접근 관리가 필요하다.</p>
+<p><strong>채점 포인트</strong> ① 중복 판독·품질 정보 ② 장점을 과학적 근거와 연결 ③ 유전 정보의 특수성(평생 불변, 가족 공유)과 피해 ④ 보호 방안</p>
+</div></details>
+
+<p><strong>9. [산업·사회 연계]</strong> 어느 시가 &quot;모든 버스 정류장에 카메라와 센서를 설치하여 시민의 이동 데이터를 실시간으로 모으면 대중교통을 크게 개선할 수 있다.&quot;라는 계획을 발표하였다. 빅데이터 활용의 장점과 문제점을 각각 두 가지 이상 들어 이 계획을 평가하고, 문제점을 줄이면서 장점을 살리는 수정안을 제안하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+장점: ① 정류장별·시간대별 승객 수를 실시간으로 파악하여 배차 간격을 조정할 수 있다. ② 실제 이동 패턴에 근거해 새 노선을 설계할 수 있어 추측보다 정확하다.
+문제점: ① 카메라 영상에는 얼굴 같은 민감한 개인정보가 담겨 사생활 침해와 감시 우려가 있다. ② 많은 데이터가 한곳에 모이면 해킹 시 피해가 크다. ③ 정류장을 이용하지 않는 사람(교통 약자 등)의 필요는 데이터에 드러나지 않을 수 있다.
+수정안: 얼굴을 저장하지 않고 <strong>사람 수만 세는</strong> 방식으로 수집 정보를 최소화하고, 데이터는 일정 기간 뒤 삭제하며, 수집 목적과 방법을 시민에게 공개한다. 또한 주민 의견 조사를 함께 하여 데이터에 드러나지 않는 수요를 보완한다.</p>
+<p><strong>채점 포인트</strong> ① 장점 2가지 ② 문제점 2가지(개인정보, 보안, 편향 등) ③ 최소 수집·익명화·투명성을 포함한 구체적 수정안</p>
+</div></details>
+
+<hr>
+<h2 id="한눈에-정리">한눈에 정리</h2>
+<h3 id="핵심-요약">핵심 요약</h3>
+<ul>
+<li><strong>빅데이터</strong>는 기존 방법으로 처리하기 어려울 만큼 규모가 크고(Volume), 빠르게 생성되며(Velocity), 형태가 다양한(Variety) 데이터이다.</li>
+<li>디지털 전환, 센서의 확산, 저장 비용 하락, 통신·계산 능력의 발전으로 데이터가 폭발적으로 늘었다.</li>
+<li>빅데이터는 <strong>수집 → 저장 → 정제 → 분석 → 시각화 → 활용</strong>의 과정을 거친다. 잘못된 데이터는 잘못된 결론을 낳는다.</li>
+<li>과학 실험, 기상 관측(수치예보), 유전체 분석, 신약 개발 등 과학 연구와 교통·의료·재난·에너지 등 일상생활에서 폭넓게 활용된다.</li>
+<li><strong>장점</strong>: 정확한 예측, 숨은 패턴 발견, 실시간 대응, 맞춤 서비스, 연구 방법의 변화.</li>
+<li><strong>문제점</strong>: 개인정보 침해와 재식별, 편향, 상관과 인과의 혼동, 데이터 오류, 보안, 정보 격차, 에너지 사용.</li>
+<li>데이터를 <strong>비판적으로 평가</strong>하는 디지털 소양과, 활용과 보호를 함께 지키는 사회적 장치가 필요하다.</li>
+</ul>
+<h3 id="핵심-용어">핵심 용어</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>용어</th>
+<th>뜻</th>
+</tr>
+</thead><tbody><tr>
+<td>빅데이터</td>
+<td>규모가 크고 빠르게 생성되며 형태가 다양하여 기존 방법으로 처리하기 어려운 데이터</td>
+</tr>
+<tr>
+<td>정형 / 비정형 데이터</td>
+<td>표처럼 형식이 정해진 데이터 / 사진·음성·글처럼 형식이 정해지지 않은 데이터</td>
+</tr>
+<tr>
+<td>데이터 정제</td>
+<td>분석 전에 오류·중복·빈칸을 찾아 고치는 과정</td>
+</tr>
+<tr>
+<td>수치예보</td>
+<td>관측 자료를 컴퓨터로 계산하여 미래 날씨를 예측하는 방법</td>
+</tr>
+<tr>
+<td>유전체 분석</td>
+<td>생물이 가진 유전 정보 전체(염기 서열)를 해독하고 비교하는 일</td>
+</tr>
+<tr>
+<td>상관관계 / 인과관계</td>
+<td>두 양이 함께 변하는 관계 / 한 양이 원인이 되어 다른 양이 변하는 관계</td>
+</tr>
+<tr>
+<td>재식별</td>
+<td>이름을 지운 데이터라도 다른 정보와 결합하여 개인을 다시 알아내는 것</td>
+</tr>
+<tr>
+<td>가명정보</td>
+<td>추가 정보 없이는 특정 개인을 알아볼 수 없도록 처리한 정보</td>
+</tr>
+</tbody></table></div>
+<h3 id="다음-단원으로">다음 단원으로</h3>
+<p>빅데이터는 그 자체로는 숫자의 더미이다. 이 데이터에서 스스로 규칙을 배우는 <strong>인공지능</strong>, 센서로 세상을 감지하고 움직이는 <strong>로봇</strong>, 모든 사물을 인터넷으로 연결하는 <strong>사물인터넷</strong>이 만나면 데이터는 실제 행동으로 바뀐다. 다음 단원에서는 이러한 기술이 인간의 삶과 환경을 어떻게 개선하고 있는지, 그리고 그 유용성과 한계는 무엇인지 예측해 본다.</p>
+<nav class="pager"><a class="prev" href="6-1.html"><small>이전 단원</small>6-1 감염병과 과학의 유용성</a><a class="next" href="6-3.html"><small>다음 단원</small>6-3 인공지능 로봇과 사물인터넷</a></nav></article></div>
+</main>
+</div>
+</body>
+</html>

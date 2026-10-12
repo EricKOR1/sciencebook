@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="t-3-4-crumple-zone d-3-4-crumple-zone">
+  <title id="t-3-4-crumple-zone">그림 3-4-1 자동차의 충돌 안전 구조</title>
+  <desc id="d-3-4-crumple-zone">앞부분(크럼플 존)은 단계적으로 찌그러지며 충돌 시간을 늘리고, 승객이 타는 공간은 단단하게 지킨다.</desc>
+  <style>
+    .k-ink{fill:var(--fig-ink)} .k-mut{fill:var(--fig-muted)}
+    .k-lbl{font-size:15px;fill:var(--fig-ink)} .k-sm{font-size:13px;fill:var(--fig-muted)}
+  </style>
+  <!-- 도로 -->
+  <line x1="20" y1="232" x2="700" y2="232" style="stroke:var(--fig-line);stroke-width:2"/>
+  <!-- 벽 -->
+  <rect x="40" y="70" width="26" height="162" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <text x="53" y="60" text-anchor="middle" class="k-sm">벽</text>
+  <!-- 크럼플 존(앞부분, 접힘 무늬) -->
+  <path d="M70 150 L92 132 L112 156 L134 128 L156 154 L178 126 L200 150 L200 206 L178 186 L156 212 L134 184 L112 210 L92 186 L70 206 Z"
+        style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2.5;stroke-linejoin:round"/>
+  <!-- 승객 공간(캐빈) -->
+  <path d="M200 206 L200 140 L260 96 L470 96 L520 140 L560 140 L560 206 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:3"/>
+  <rect x="270" y="108" width="80" height="34" rx="4" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <rect x="362" y="108" width="96" height="34" rx="4" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <!-- 뒷부분 -->
+  <path d="M560 140 L640 146 L652 206 L560 206 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <!-- 바퀴 -->
+  <circle cx="250" cy="210" r="22" style="fill:var(--fig-ink)"/><circle cx="250" cy="210" r="9" style="fill:var(--fig-paper)"/>
+  <circle cx="560" cy="210" r="22" style="fill:var(--fig-ink)"/><circle cx="560" cy="210" r="9" style="fill:var(--fig-paper)"/>
+  <!-- 운동 방향 -->
+  <line x1="640" y1="70" x2="560" y2="70" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <path d="M560 70 l12 -7 l0 14 z" class="k-ink"/>
+  <text x="600" y="58" text-anchor="middle" class="k-sm">운동 방향</text>
+  <!-- 설명 -->
+  <line x1="135" y1="124" x2="135" y2="38" style="stroke:var(--fig-amber);stroke-width:1.5"/>
+  <text x="140" y="34" class="k-lbl" style="font-weight:600">크럼플 존</text>
+  <text x="140" y="52" class="k-sm">단계적으로 찌그러지며 충돌 시간 ↑</text>
+  <line x1="380" y1="96" x2="380" y2="38" style="stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="386" y="34" class="k-lbl" style="font-weight:600">승객 공간</text>
+  <text x="386" y="52" class="k-sm">고강도 강판으로 모양 유지</text>
+  <text x="360" y="272" text-anchor="middle" class="k-sm">충격량(운동량 변화량)은 같아도, 충돌 시간이 길면 승객이 받는 평균 힘이 작아진다</text>
+</svg>

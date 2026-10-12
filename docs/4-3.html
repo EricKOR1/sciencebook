@@ -1,0 +1,984 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>4-3 산화와 환원</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css">
+<link rel="stylesheet" href="assets/book.css">
+<script src="assets/js/book.js" defer></script>
+
+</head>
+<body class="">
+<header class="topbar">
+  <button class="menu-btn" id="menu-btn" aria-controls="drawer" aria-expanded="false">목차</button>
+  <a class="brand" href="index.html">통합과학 개념에서 산업까지</a>
+  <button class="theme-btn" id="theme-btn" aria-label="밝은 화면과 어두운 화면 바꾸기">화면</button>
+</header>
+<div class="shell">
+<aside class="drawer" id="drawer"><nav class="book-nav" aria-label="교재 목차"><a class="nav-home" href="index.html">처음으로</a><p class="nav-book">통합과학1</p><p class="nav-unit"><span>1단원</span> 과학의 기초</p><ul><li><a href="1-1.html"><span class="nav-id">1-1</span>시간과 공간</a></li><li><a href="1-2.html"><span class="nav-id">1-2</span>기본량과 단위</a></li><li><a href="1-3.html"><span class="nav-id">1-3</span>측정과 어림, 측정 표준</a></li><li><a href="1-4.html"><span class="nav-id">1-4</span>정보와 신호: 아날로그에서 디지털로</a></li></ul><p class="nav-unit"><span>2단원</span> 물질과 규칙성</p><ul><li><a href="2-1.html"><span class="nav-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="2-2.html"><span class="nav-id">2-2</span>별의 진화와 원소의 생성</a></li><li><a href="2-3.html"><span class="nav-id">2-3</span>원소의 주기성과 화학 결합의 이유</a></li><li><a href="2-4.html"><span class="nav-id">2-4</span>이온 결합과 공유 결합</a></li><li><a href="2-5.html"><span class="nav-id">2-5</span>지각과 생명체 구성 물질의 규칙성</a></li><li><a href="2-6.html"><span class="nav-id">2-6</span>물질의 전기적 성질과 소재</a></li></ul><p class="nav-unit"><span>3단원</span> 시스템과 상호작용</p><ul><li><a href="3-1.html"><span class="nav-id">3-1</span>지구시스템의 구성과 상호작용</a></li><li><a href="3-2.html"><span class="nav-id">3-2</span>판구조론과 지권의 변화</a></li><li><a href="3-3.html"><span class="nav-id">3-3</span>중력과 운동</a></li><li><a href="3-4.html"><span class="nav-id">3-4</span>운동량과 충격량</a></li><li><a href="3-5.html"><span class="nav-id">3-5</span>생명 시스템과 물질대사</a></li><li><a href="3-6.html"><span class="nav-id">3-6</span>유전자와 단백질</a></li></ul><p class="nav-book">통합과학2</p><p class="nav-unit"><span>4단원</span> 변화와 다양성</p><ul><li><a href="4-1.html"><span class="nav-id">4-1</span>지질시대의 환경 변화와 생물다양성</a></li><li><a href="4-2.html"><span class="nav-id">4-2</span>진화와 생물다양성</a></li><li><a href="4-3.html" aria-current="page"><span class="nav-id">4-3</span>산화와 환원</a></li><li><a href="4-4.html"><span class="nav-id">4-4</span>산과 염기, 중화 반응</a></li><li><a href="4-5.html"><span class="nav-id">4-5</span>물질 변화와 에너지 출입</a></li></ul><p class="nav-unit"><span>5단원</span> 환경과 에너지</p><ul><li><a href="5-1.html"><span class="nav-id">5-1</span>생태계 구성 요소와 상호 관계</a></li><li><a href="5-2.html"><span class="nav-id">5-2</span>생태계 평형</a></li><li><a href="5-3.html"><span class="nav-id">5-3</span>지구온난화와 기후변화</a></li><li><a href="5-4.html"><span class="nav-id">5-4</span>태양 에너지와 에너지 전환</a></li><li><a href="5-5.html"><span class="nav-id">5-5</span>발전기와 전기 에너지</a></li><li><a href="5-6.html"><span class="nav-id">5-6</span>에너지 효율과 신재생 에너지</a></li></ul><p class="nav-unit"><span>6단원</span> 과학과 미래 사회</p><ul><li><a href="6-1.html"><span class="nav-id">6-1</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html"><span class="nav-id">6-2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html"><span class="nav-id">6-3</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html"><span class="nav-id">6-4</span>과학기술과 윤리</a></li></ul><p class="nav-book">부록</p><ul><li><a href="guide.html">교재 설계 안내</a></li><li><a href="appendix-standards.html">부록 1. 교육과정 성취기준</a></li><li><a href="appendix-map.html">부록 2. 연계 지도</a></li><li><a href="appendix-glossary.html">부록 3. 핵심 용어 사전</a></li></ul></nav></aside>
+<main class="main" id="main">
+<div class="lesson-grid"><nav class="ladder" aria-label="이 단원의 흐름"><p class="ladder-title">이 단원의 흐름</p><ol><li class="extra"><a href="#단원-들어가기">단원 들어가기</a></li><li class="s1"><a href="#step-1"><b>STEP 1</b> 중학교 다시 보기</a></li><li class="s2"><a href="#step-2"><b>STEP 2</b> 기초 다지기</a></li><li class="s3"><a href="#step-3"><b>STEP 3</b> 핵심 개념</a></li><li class="s4"><a href="#step-4"><b>STEP 4</b> 오개념 바로잡기</a></li><li class="s5"><a href="#step-5"><b>STEP 5</b> 선택과목·대학으로 한 걸음 더</a></li><li class="s6"><a href="#step-6"><b>STEP 6</b> 산업 현장과 진로 연결</a></li><li class="extra"><a href="#탐구-활동-생활-속-산화-환원-분석하기">탐구 활동 — 생활 속 산화·환원 분석하기</a></li><li class="extra"><a href="#개념-확인-문제">개념 확인 문제</a></li><li class="extra"><a href="#한눈에-정리">한눈에 정리</a></li></ol></nav><article class="prose lesson"><header class="lesson-hero u4">
+  <p class="eyebrow">통합과학2 · 4단원 변화와 다양성</p>
+  <h1><span class="lesson-id">4-3</span>산화와 환원</h1>
+  <p class="lesson-sub">전자를 주고받으며 세상이 변한다</p>
+</header><aside class="callout note"><p class="callout-title">성취기준·참고</p><p><strong>성취기준 [10통과2-01-03]</strong> 자연과 인류의 역사에 큰 변화를 가져온 광합성, 화석 연료 사용, 철의 제련 등에서 공통점을 찾아 산화와 환원을 이해하고, 생활 주변의 다양한 변화를 산화와 환원의 특징과 규칙성으로 분석할 수 있다.</p>
+</aside>
+<p><strong>학습 목표</strong></p>
+<ol>
+<li>광합성, 화석 연료의 연소, 철의 제련에서 &#39;산소의 이동&#39;이라는 공통점을 찾아 산화와 환원을 설명할 수 있다.</li>
+<li>산화와 환원을 산소의 이동과 전자의 이동으로 정의하고, 두 반응이 항상 동시에 일어남을 설명할 수 있다.</li>
+<li>금속과 금속 이온의 반응을 전자의 이동으로 해석하고, 금속의 반응성 차이로 반응 여부를 예측할 수 있다.</li>
+<li>철의 부식, 사과의 갈변, 호흡, 표백·소독, 전지 등 생활 속 변화를 산화·환원의 특징과 규칙성으로 분석할 수 있다.</li>
+</ol>
+<p><strong>이 단원의 학습 사다리</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>단계</th>
+<th>무엇을 하나?</th>
+</tr>
+</thead><tbody><tr>
+<td>STEP 1. 중학교 다시 보기</td>
+<td>화학 반응식, 질량 보존, 이온, 광합성과 세포호흡을 다시 꺼내 본다</td>
+</tr>
+<tr>
+<td>STEP 2. 기초 다지기</td>
+<td>반응식에서 원자 세기, 이온 만들기, 전자(e⁻)를 식에 쓰는 법을 익힌다</td>
+</tr>
+<tr>
+<td>STEP 3. 핵심 개념</td>
+<td>역사를 바꾼 세 반응 → 산소의 이동 → 전자의 이동 → 금속의 반응성 → 생활 속 산화·환원</td>
+</tr>
+<tr>
+<td>STEP 4. 오개념 바로잡기</td>
+<td>&quot;산화는 산소와 반응하는 것뿐이다?&quot; 같은 착각을 바로잡는다</td>
+</tr>
+<tr>
+<td>STEP 5. 선택과목·대학</td>
+<td>산화수, 산화제·환원제, 전극 전위와 전지 전압, 생체 속 전자 전달</td>
+</tr>
+<tr>
+<td>STEP 6. 산업·진로</td>
+<td>제철과 수소환원제철, 2차 전지, 부식 방지, 반도체 세정</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="단원-들어가기">단원 들어가기</h2>
+<p>지구의 대기에는 산소가 약 21% 들어 있다. 그런데 아주 먼 옛날 지구의 대기에는 산소 기체가 거의 없었다. 지금의 산소는 어디에서 왔을까? 바로 수십억 년에 걸친 <strong>광합성</strong>이 만들어 냈다.</p>
+<p>인류의 역사도 비슷한 반응들로 바뀌었다. 사람들은 돌을 다듬어 쓰다가 광석에서 <strong>철을 뽑아내는 법(제련)</strong> 을 알게 되면서 단단한 농기구와 도구를 갖게 되었다. 수천 년 뒤에는 <strong>석탄과 석유를 태워</strong> 얻은 에너지로 증기 기관과 공장을 움직이며 산업 혁명을 일으켰다.</p>
+<p>광합성, 화석 연료의 연소, 철의 제련. 전혀 달라 보이는 이 세 가지 변화에는 놀라운 공통점이 있다. 세 반응 모두 <strong>어떤 물질은 산소를 얻고, 다른 물질은 산소를 잃는다.</strong> 이 단원에서는 이 공통점에서 출발하여 <strong>산화와 환원</strong>이라는 규칙을 찾고, 그 규칙으로 녹슨 자전거, 갈색으로 변한 사과, 스마트폰 배터리까지 설명해 본다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-4-3-0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 1346.53125 255.5" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-4-3-0{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-4-3-0 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-4-3-0 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-4-3-0 .error-icon{fill:var(--mm-group);}#mm-4-3-0 .error-text{fill:#595959;stroke:#595959;}#mm-4-3-0 .edge-thickness-normal{stroke-width:1px;}#mm-4-3-0 .edge-thickness-thick{stroke-width:3.5px;}#mm-4-3-0 .edge-pattern-solid{stroke-dasharray:0;}#mm-4-3-0 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-4-3-0 .edge-pattern-dashed{stroke-dasharray:3;}#mm-4-3-0 .edge-pattern-dotted{stroke-dasharray:2;}#mm-4-3-0 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-4-3-0 .marker.cross{stroke:var(--mm-line);}#mm-4-3-0 svg{font-family:inherit;font-size:15px;}#mm-4-3-0 p{margin:0;}#mm-4-3-0 .label{font-family:inherit;color:var(--mm-text);}#mm-4-3-0 .cluster-label text{fill:#595959;}#mm-4-3-0 .cluster-label span{color:#595959;}#mm-4-3-0 .cluster-label span p{background-color:transparent;}#mm-4-3-0 .label text,#mm-4-3-0 span{fill:var(--mm-text);color:var(--mm-text);}#mm-4-3-0 .node rect,#mm-4-3-0 .node circle,#mm-4-3-0 .node ellipse,#mm-4-3-0 .node polygon,#mm-4-3-0 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-4-3-0 .rough-node .label text,#mm-4-3-0 .node .label text,#mm-4-3-0 .image-shape .label,#mm-4-3-0 .icon-shape .label{text-anchor:middle;}#mm-4-3-0 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-4-3-0 .rough-node .label,#mm-4-3-0 .node .label,#mm-4-3-0 .image-shape .label,#mm-4-3-0 .icon-shape .label{text-align:center;}#mm-4-3-0 .node.clickable{cursor:pointer;}#mm-4-3-0 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-4-3-0 .arrowheadPath{fill:#0b0b0b;}#mm-4-3-0 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-4-3-0 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-4-3-0 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-4-3-0 .edgeLabel p{background-color:var(--mm-label);}#mm-4-3-0 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-4-3-0 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-4-3-0 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-4-3-0 .cluster text{fill:#595959;}#mm-4-3-0 .cluster span{color:#595959;}#mm-4-3-0 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-4-3-0 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-4-3-0 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-4-3-0 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-4-3-0 rect.text{fill:none;stroke-width:0;}#mm-4-3-0 .icon-shape,#mm-4-3-0 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-4-3-0 .icon-shape p,#mm-4-3-0 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-4-3-0 .icon-shape .label rect,#mm-4-3-0 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-4-3-0 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-4-3-0 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-4-3-0 .node .neo-node{stroke:var(--mm-border);}#mm-4-3-0 [data-look="neo"].node rect,#mm-4-3-0 [data-look="neo"].cluster rect,#mm-4-3-0 [data-look="neo"].node polygon{stroke:url(#mm-4-3-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-3-0 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-4-3-0 [data-look="neo"].node path{stroke:url(#mm-4-3-0-gradient);stroke-width:1px;}#mm-4-3-0 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-3-0 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-4-3-0 [data-look="neo"].node circle{stroke:url(#mm-4-3-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-3-0 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-4-3-0 [data-look="neo"].icon-shape .icon{fill:url(#mm-4-3-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-3-0 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-4-3-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-3-0 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-4-3-0_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-0_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-0_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-0_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-0_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-0_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-0_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-0_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-0_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-0_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-0_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-4-3-0_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M135.172,31.25L145.034,31.25C154.896,31.25,174.62,31.25,195.086,41.129C215.552,51.008,236.761,70.766,247.365,80.645L257.97,90.523" id="mm-4-3-0-L_A_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_D_0" data-points="W3sieCI6MTM1LjE3MTg3NSwieSI6MzEuMjV9LHsieCI6MTk0LjM0Mzc1LCJ5IjozMS4yNX0seyJ4IjoyNjAuODk2MzczMDU2OTk0ODMsInkiOjkzLjI1fV0=" data-look="classic" marker-end="url(#mm-4-3-0_flowchart-v2-pointEnd)"/><path d="M169.344,127.75L173.51,127.75C177.677,127.75,186.01,127.75,193.677,127.75C201.344,127.75,208.344,127.75,211.844,127.75L215.344,127.75" id="mm-4-3-0-L_B_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_D_0" data-points="W3sieCI6MTY5LjM0Mzc1LCJ5IjoxMjcuNzV9LHsieCI6MTk0LjM0Mzc1LCJ5IjoxMjcuNzV9LHsieCI6MjE5LjM0Mzc1LCJ5IjoxMjcuNzV9XQ==" data-look="classic" marker-end="url(#mm-4-3-0_flowchart-v2-pointEnd)"/><path d="M144.758,224.25L153.022,224.25C161.286,224.25,177.815,224.25,196.684,214.371C215.552,204.492,236.761,184.734,247.365,174.855L257.97,164.977" id="mm-4-3-0-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6MTQ0Ljc1NzgxMjUsInkiOjIyNC4yNX0seyJ4IjoxOTQuMzQzNzUsInkiOjIyNC4yNX0seyJ4IjoyNjAuODk2MzczMDU2OTk0ODMsInkiOjE2Mi4yNX1d" data-look="classic" marker-end="url(#mm-4-3-0_flowchart-v2-pointEnd)"/><path d="M376.516,127.75L380.682,127.75C384.849,127.75,393.182,127.75,400.849,127.75C408.516,127.75,415.516,127.75,419.016,127.75L422.516,127.75" id="mm-4-3-0-L_D_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_E_0" data-points="W3sieCI6Mzc2LjUxNTYyNSwieSI6MTI3Ljc1fSx7IngiOjQwMS41MTU2MjUsInkiOjEyNy43NX0seyJ4Ijo0MjYuNTE1NjI1LCJ5IjoxMjcuNzV9XQ==" data-look="classic" marker-end="url(#mm-4-3-0_flowchart-v2-pointEnd)"/><path d="M602.859,127.75L607.026,127.75C611.193,127.75,619.526,127.75,627.193,127.75C634.859,127.75,641.859,127.75,645.359,127.75L648.859,127.75" id="mm-4-3-0-L_E_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_F_0" data-points="W3sieCI6NjAyLjg1OTM3NSwieSI6MTI3Ljc1fSx7IngiOjYyNy44NTkzNzUsInkiOjEyNy43NX0seyJ4Ijo2NTIuODU5Mzc1LCJ5IjoxMjcuNzV9XQ==" data-look="classic" marker-end="url(#mm-4-3-0_flowchart-v2-pointEnd)"/><path d="M829.203,127.75L833.37,127.75C837.536,127.75,845.87,127.75,853.536,127.75C861.203,127.75,868.203,127.75,871.703,127.75L875.203,127.75" id="mm-4-3-0-L_F_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_F_G_0" data-points="W3sieCI6ODI5LjIwMzEyNSwieSI6MTI3Ljc1fSx7IngiOjg1NC4yMDMxMjUsInkiOjEyNy43NX0seyJ4Ijo4NzkuMjAzMTI1LCJ5IjoxMjcuNzV9XQ==" data-look="classic" marker-end="url(#mm-4-3-0_flowchart-v2-pointEnd)"/><path d="M1070.547,127.75L1074.714,127.75C1078.88,127.75,1087.214,127.75,1094.88,127.75C1102.547,127.75,1109.547,127.75,1113.047,127.75L1116.547,127.75" id="mm-4-3-0-L_G_H_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_G_H_0" data-points="W3sieCI6MTA3MC41NDY4NzUsInkiOjEyNy43NX0seyJ4IjoxMDk1LjU0Njg3NSwieSI6MTI3Ljc1fSx7IngiOjExMjAuNTQ2ODc1LCJ5IjoxMjcuNzV9XQ==" data-look="classic" marker-end="url(#mm-4-3-0_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_F_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_F_G_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_G_H_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-4-3-0-flowchart-A-0" data-look="classic" transform="translate(88.671875, 31.25)"><rect class="basic label-container" style="" x="-46.5" y="-23.25" width="93" height="46.5"/><g class="label" style="" transform="translate(-22.5, -11.25)"><rect/><foreignObject width="45" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>광합성</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-3-0-flowchart-D-1" data-look="classic" transform="translate(297.9296875, 127.75)"><rect class="basic label-container" style="" x="-78.5859375" y="-34.5" width="157.171875" height="69"/><g class="label" style="" transform="translate(-54.5859375, -22.5)"><rect/><foreignObject width="109.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>공통점<br />산소가 이동한다</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-3-0-flowchart-B-2" data-look="classic" transform="translate(88.671875, 127.75)"><rect class="basic label-container" style="" x="-80.671875" y="-23.25" width="161.34375" height="46.5"/><g class="label" style="" transform="translate(-56.671875, -11.25)"><rect/><foreignObject width="113.34375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>화석 연료의 연소</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-3-0-flowchart-C-4" data-look="classic" transform="translate(88.671875, 224.25)"><rect class="basic label-container" style="" x="-56.0859375" y="-23.25" width="112.171875" height="46.5"/><g class="label" style="" transform="translate(-32.0859375, -11.25)"><rect/><foreignObject width="64.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>철의 제련</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-3-0-flowchart-E-7" data-look="classic" transform="translate(514.6875, 127.75)"><rect class="basic label-container" style="" x="-88.171875" y="-34.5" width="176.34375" height="69"/><g class="label" style="" transform="translate(-64.171875, -22.5)"><rect/><foreignObject width="128.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>산화·환원 정의 1<br />산소를 얻고 잃는다</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-3-0-flowchart-F-9" data-look="classic" transform="translate(741.03125, 127.75)"><rect class="basic label-container" style="" x="-88.171875" y="-34.5" width="176.34375" height="69"/><g class="label" style="" transform="translate(-64.171875, -22.5)"><rect/><foreignObject width="128.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>산화·환원 정의 2<br />전자를 잃고 얻는다</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-3-0-flowchart-G-11" data-look="classic" transform="translate(974.875, 127.75)"><rect class="basic label-container" style="" x="-95.671875" y="-34.5" width="191.34375" height="69"/><g class="label" style="" transform="translate(-71.671875, -22.5)"><rect/><foreignObject width="143.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>규칙성<br />항상 동시에 일어난다</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-3-0-flowchart-H-13" data-look="classic" transform="translate(1229.5390625, 127.75)"><rect class="basic label-container" style="" x="-108.9921875" y="-34.5" width="217.984375" height="69"/><g class="label" style="" transform="translate(-84.9921875, -22.5)"><rect/><foreignObject width="169.984375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>생활 속 분석<br />부식·갈변·호흡·표백·전지</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-4-3-0-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-4-3-0-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-4-3-0-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><hr>
+<h2 id="step-1" class="step-h s1"><span class="step-badge s1">STEP 1</span><span class="h-text">중학교 다시 보기</span></h2>
+<h3 id="연계-개념표">연계 개념표</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>중학교 성취기준</th>
+<th>중학교에서 배운 것</th>
+<th>고등학교에서 확장되는 것</th>
+</tr>
+</thead><tbody><tr>
+<td>[9과16-01]</td>
+<td>물리 변화와 화학 변화, 화학 변화에서는 새로운 물질이 생긴다</td>
+<td>산화·환원은 우리 주변에서 가장 흔한 화학 변화이다</td>
+</tr>
+<tr>
+<td>[9과16-02]</td>
+<td>화학 반응식을 쓰고, 계수비를 입자 수의 비로 해석한다</td>
+<td>반응식에서 <strong>산소와 전자가 어디에서 어디로 이동했는지</strong> 추적한다</td>
+</tr>
+<tr>
+<td>[9과16-03]</td>
+<td>화학 반응에서 질량이 보존되고, 원자의 종류와 수는 변하지 않는다</td>
+<td>녹슨 철의 질량이 늘어나는 이유, <strong>잃은 전자 수 = 얻은 전자 수</strong></td>
+</tr>
+<tr>
+<td>[9과11-04]</td>
+<td>원자가 전자를 잃으면 양이온, 얻으면 음이온이 된다</td>
+<td>전자를 잃는 것이 <strong>산화</strong>, 얻는 것이 <strong>환원</strong>이다</td>
+</tr>
+<tr>
+<td>[9과12-01], [9과12-02]</td>
+<td>광합성의 재료와 산물, 광합성과 호흡에서 출입하는 물질과 에너지</td>
+<td>광합성에서 이산화 탄소는 <strong>환원</strong>되고, 호흡에서 포도당은 <strong>산화</strong>된다</td>
+</tr>
+<tr>
+<td>[9과13-05]</td>
+<td>동물은 세포호흡으로 에너지를 얻는다</td>
+<td>세포호흡은 포도당이 산소와 반응하는 <strong>산화·환원 반응</strong>이다</td>
+</tr>
+</tbody></table></div>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>고등학교 「통합과학1」의 &#39;원소의 주기성과 화학 결합&#39;, &#39;이온 결합과 공유 결합&#39; 단원에서 배운 <strong>원자가 전자</strong>와 <strong>이온의 형성</strong>도 이 단원의 중요한 바탕이다.</p>
+</aside>
+<h3 id="준비-운동-사전-진단">준비 운동 (사전 진단)</h3>
+<p><strong>Q1.</strong> 마그네슘 리본을 태우면 흰 빛을 내며 흰색 가루가 생긴다. 빈칸에 알맞은 화학식을 쓰시오.
+<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">2Mg</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">2</span><span class="mopen">(</span><span class="mspace" style="margin-right:1em;"></span><span class="mclose">)</span></span></span></span></span></p>
+<p><strong>Q2.</strong> 나트륨 원자(Na)가 전자 1개를 잃으면 어떤 입자가 되는가? 염소 원자(Cl)가 전자 1개를 얻으면 어떤 입자가 되는가?</p>
+<p><strong>Q3.</strong> 강철솜(철)을 공기 중에서 태우면 타고 난 뒤의 질량이 처음보다 늘어난다. 질량 보존 법칙에 어긋나는 것일까?</p>
+<p><strong>Q4.</strong> 광합성에 필요한 물질 두 가지와 광합성으로 만들어지는 물질 두 가지를 쓰시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>Q1. MgO</strong> — 마그네슘이 산소와 결합하여 산화 마그네슘이 된다. 반응 전후 Mg 원자 2개, O 원자 2개로 원자 수가 같다.</p>
+<p><strong>Q2.</strong> 나트륨은 전자를 잃어 <strong>나트륨 이온(Na⁺, 양이온)</strong>, 염소는 전자를 얻어 <strong>염화 이온(Cl⁻, 음이온)</strong> 이 된다.</p>
+<p><strong>Q3. 어긋나지 않는다.</strong> 공기 중의 산소가 철과 결합했기 때문에 그만큼 질량이 늘어난 것이다. 반응한 산소의 질량까지 합하면 반응 전후 전체 질량은 같다.</p>
+<p><strong>Q4.</strong> 필요한 물질: 이산화 탄소, 물 / 만들어지는 물질: 포도당(양분), 산소</p>
+</div></details>
+
+<hr>
+<h2 id="step-2" class="step-h s2"><span class="step-badge s2">STEP 2</span><span class="h-text">기초 다지기</span></h2>
+<h3 id="①-화학-반응식에서-원자를-세는-법">① 화학 반응식에서 원자를 세는 법</h3>
+<p>화학 반응식의 화살표 왼쪽은 <strong>반응물</strong>, 오른쪽은 <strong>생성물</strong>이다. 화학식 앞의 숫자(계수)는 입자의 개수를, 원소 기호 오른쪽 아래 숫자는 한 입자 속 원자의 개수를 뜻한다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">2CuO</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">C</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">2Cu</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></span></p>
+<div class="table-wrap"><table><thead><tr>
+<th>원자</th>
+<th>반응 전</th>
+<th>반응 후</th>
+</tr>
+</thead><tbody><tr>
+<td>Cu</td>
+<td>2 (2CuO 속)</td>
+<td>2 (2Cu)</td>
+</tr>
+<tr>
+<td>O</td>
+<td>2 (2CuO 속)</td>
+<td>2 (CO₂ 속)</td>
+</tr>
+<tr>
+<td>C</td>
+<td>1</td>
+<td>1 (CO₂ 속)</td>
+</tr>
+</tbody></table></div>
+<p>원자의 종류와 수는 그대로이고 <strong>원자들이 짝을 바꾸었을 뿐</strong>이다. 산화 구리(II) 속에 있던 산소가 탄소에게로 옮겨 갔다. 이 &#39;옮겨 감&#39;을 추적하는 것이 이 단원의 첫 번째 열쇠이다.</p>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>&#39;산화 구리(II)&#39;의 (II)는 구리 이온의 전하가 +2라는 뜻이다(Cu²⁺). 구리는 +1인 이온도 만들 수 있어서 이렇게 구분해 쓴다. 산화 철(III)의 (III)도 Fe³⁺를 뜻한다.</p>
+</aside>
+<h3 id="②-원자가-이온이-되는-과정">② 원자가 이온이 되는 과정</h3>
+<p>원자는 양성자(+)의 수와 전자(−)의 수가 같아 전기적으로 중성이다. 여기서 전자를 잃거나 얻으면 이온이 된다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>원자</th>
+<th>전자 변화</th>
+<th>생기는 이온</th>
+<th>이름</th>
+</tr>
+</thead><tbody><tr>
+<td>Na</td>
+<td>1개 잃음</td>
+<td>Na⁺</td>
+<td>나트륨 이온</td>
+</tr>
+<tr>
+<td>Mg</td>
+<td>2개 잃음</td>
+<td>Mg²⁺</td>
+<td>마그네슘 이온</td>
+</tr>
+<tr>
+<td>Zn</td>
+<td>2개 잃음</td>
+<td>Zn²⁺</td>
+<td>아연 이온</td>
+</tr>
+<tr>
+<td>Cu</td>
+<td>2개 잃음</td>
+<td>Cu²⁺</td>
+<td>구리(II) 이온</td>
+</tr>
+<tr>
+<td>Ag</td>
+<td>1개 잃음</td>
+<td>Ag⁺</td>
+<td>은 이온</td>
+</tr>
+<tr>
+<td>Cl</td>
+<td>1개 얻음</td>
+<td>Cl⁻</td>
+<td>염화 이온</td>
+</tr>
+<tr>
+<td>O</td>
+<td>2개 얻음</td>
+<td>O²⁻</td>
+<td>산화 이온</td>
+</tr>
+</tbody></table></div>
+<p>이온식의 오른쪽 위 숫자와 부호는 <strong>잃거나 얻은 전자 수</strong>를 그대로 보여 준다. 전자는 (−)전하를 띠므로, 전자를 잃으면 (+)가 되고 전자를 얻으면 (−)가 된다.</p>
+<h3 id="③-금속은-전자를-내주기-쉽고-산소-염소는-전자를-받기-쉽다">③ 금속은 전자를 내주기 쉽고, 산소·염소는 전자를 받기 쉽다</h3>
+<p>「통합과학1」에서 원자들은 가장 바깥 전자껍질을 18족 원소처럼 안정하게 만들려는 경향이 있다고 배웠다.</p>
+<ul>
+<li><strong>금속 원소</strong>(Na, Mg, Al, Zn, Fe 등): 원자가 전자가 적어 <strong>전자를 잃고</strong> 양이온이 되기 쉽다.</li>
+<li><strong>산소, 염소 같은 비금속 원소</strong>: 원자가 전자가 많아 <strong>전자를 얻어</strong> 음이온이 되기 쉽다.</li>
+</ul>
+<p>그래서 금속과 산소가 만나면 전자가 금속에서 산소 쪽으로 옮겨 간다. 이 경향이 산화·환원 반응이 일어나는 근본 이유이다.</p>
+<h3 id="④-전자를-식-안에-쓰는-법">④ 전자를 식 안에 쓰는 법</h3>
+<p>전자의 이동을 분명히 보이기 위해 전자를 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7713em;"></span><span class="mord"><span class="mord mathrm">e</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7713em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">−</span></span></span></span></span></span></span></span></span></span></span>로 쓰고, 한쪽 물질의 변화만 따로 적는다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1141em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathrm">Zn</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">Z</span><span class="mord"><span class="mord mathrm">n</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">2</span><span class="mord mtight">+</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">2</span><span class="mord"><span class="mord mathrm">e</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8213em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">−</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:2em;"></span><span class="mopen">(</span><span class="mord text"><span class="mord hangul_fallback">아연이</span><span class="mord"> </span><span class="mord hangul_fallback">전자</span><span class="mord"> 2</span><span class="mord hangul_fallback">개를</span><span class="mord"> </span><span class="mord hangul_fallback">잃는다</span></span><span class="mclose">)</span></span></span></span></span></p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1141em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">u</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">2</span><span class="mord mtight">+</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">2</span><span class="mord"><span class="mord mathrm">e</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8213em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">−</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">Cu</span></span><span class="mspace" style="margin-right:2em;"></span><span class="mopen">(</span><span class="mord text"><span class="mord hangul_fallback">구리</span><span class="mord"> </span><span class="mord hangul_fallback">이온이</span><span class="mord"> </span><span class="mord hangul_fallback">전자</span><span class="mord"> 2</span><span class="mord hangul_fallback">개를</span><span class="mord"> </span><span class="mord hangul_fallback">얻는다</span></span><span class="mclose">)</span></span></span></span></span></p>
+<p><strong>전하 맞추기 확인법</strong>: 화살표 양쪽의 전하 합이 같아야 한다. 첫 번째 식은 왼쪽 0, 오른쪽 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">+</span><span class="mord">2</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">−</span><span class="mord">1</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0</span></span></span></span>으로 같다.</p>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 전자의 이동은 <strong>캐치볼</strong>과 같다. 공(전자)을 던진 사람이 있으면 반드시 받은 사람이 있다. 던지기만 하고 아무도 받지 않는 캐치볼은 없다. 이것이 STEP 3에서 배울 &quot;산화와 환원은 항상 동시에 일어난다&quot;의 핵심이다.</p>
+</aside>
+<hr>
+<h2 id="step-3" class="step-h s3"><span class="step-badge s3">STEP 3</span><span class="h-text">핵심 개념</span></h2>
+<h3 id="4-3-①-역사를-바꾼-세-가지-반응-공통점-찾기">4-3-① 역사를 바꾼 세 가지 반응 — 공통점 찾기</h3>
+<h4 id="1-광합성-지구-대기를-바꾼-반응">(1) 광합성: 지구 대기를 바꾼 반응</h4>
+<p>식물과 조류, 남세균(사이아노박테리아)은 빛에너지를 이용해 이산화 탄소와 물로 포도당을 만들고 산소를 내놓는다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.2503em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">6C</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">6</span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathrm">O</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel x-arrow"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.1003em;"><span style="top:-3.322em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight x-arrow-pad"><span class="mord mtight"><span class="mord text mtight"><span class="mord hangul_fallback mtight">빛에너지</span></span></span></span></span><span class="svg-align" style="top:-2.689em;"><span class="pstrut" style="height:2.7em;"></span><span class="hide-tail" style="height:0.522em;min-width:1.469em;"><svg xmlns="http://www.w3.org/2000/svg" width='400em' height='0.522em' viewBox='0 0 400000 522' preserveAspectRatio='xMaxYMin slice'><path d='M0 241v40h399891c-47.3 35.3-84 78-110 128
+-16.7 32-27.7 63.7-33 95 0 1.3-.2 2.7-.5 4-.3 1.3-.5 2.3-.5 3 0 7.3 6.7 11 20
+ 11 8 0 13.2-.8 15.5-2.5 2.3-1.7 4.2-5.5 5.5-11.5 2-13.3 5.7-27 11-41 14.7-44.7
+ 39-84.5 73-119.5s73.7-60.2 119-75.5c6-2 9-5.7 9-11s-3-9-9-11c-45.3-15.3-85
+-40.5-119-75.5s-58.3-74.8-73-119.5c-4.7-14-8.3-27.3-11-40-1.3-6.7-3.2-10.8-5.5
+-12.5-2.3-1.7-7.5-2.5-15.5-2.5-14 0-21 3.7-21 11 0 2 2 10.3 6 25 20.7 83.3 67
+ 151.7 139 205zm0 0v40h399900v-40z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.011em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord"><span class="mord mathrm">C</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">12</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">6</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></span></p>
+<p>광합성 생물이 오랜 세월 내놓은 산소가 대기에 쌓이면서 산소로 호흡하는 생물이 번성하고, 높은 하늘에 오존층이 만들어져 생물이 육지로 올라올 수 있는 환경이 되었다.</p>
+<ul>
+<li><strong>이산화 탄소</strong>는 산소를 잃고 포도당이 된다.</li>
+<li><strong>물</strong>은 산소 기체(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>)를 내놓는다. (물에서 산소 기체가 생기는 과정은 4-3-③의 전자 이동으로 설명한다.)</li>
+</ul>
+<h4 id="2-화석-연료의-연소-산업-혁명을-일으킨-반응">(2) 화석 연료의 연소: 산업 혁명을 일으킨 반응</h4>
+<p>석탄, 석유, 천연가스에는 탄소와 수소가 많이 들어 있다. 이것이 공기 중의 산소와 결합하며 많은 열을 낸다. 천연가스의 주성분인 메테인의 연소는 다음과 같다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">4</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">2</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">2</span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathrm">O</span></span></span></span></span></span></p>
+<p>18세기 후반 석탄을 태워 움직이는 증기 기관이 널리 쓰이면서 산업 혁명이 일어났고, 오늘날에도 화력 발전·자동차·난방 등에 화석 연료가 쓰인다. 한편 이 반응에서 생기는 이산화 탄소는 지구온난화의 주요 원인이 되고 있다.</p>
+<ul>
+<li><strong>메테인 속 탄소와 수소</strong>는 산소를 얻어 이산화 탄소와 물이 된다.</li>
+</ul>
+<h4 id="3-철의-제련-철기-시대를-연-반응">(3) 철의 제련: 철기 시대를 연 반응</h4>
+<p>자연에서 철은 대부분 산소와 결합한 <strong>철광석</strong>(주성분 산화 철(III), <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">F</span><span class="mord"><span class="mord mathrm">e</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span> 등)으로 존재한다. 철광석을 숯이나 코크스(석탄을 가공한 탄소 덩어리)와 함께 높은 온도로 가열하면 순수한 철을 얻을 수 있다. 이것을 <strong>제련(smelting)</strong> 이라고 한다. 오늘날 용광로에서는 코크스가 타서 생긴 일산화 탄소가 철광석에서 산소를 떼어 낸다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">F</span><span class="mord"><span class="mord mathrm">e</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">3CO</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">2Fe</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">3C</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></span></p>
+<p>철기를 쓰게 되면서 단단한 농기구로 농업 생산량이 늘었고, 도구와 무기가 바뀌면서 사회와 국가의 모습도 크게 달라졌다.</p>
+<ul>
+<li><strong>산화 철(III)</strong> 은 산소를 잃고 철이 된다.</li>
+<li><strong>일산화 탄소</strong>는 산소를 얻어 이산화 탄소가 된다.</li>
+</ul>
+<h4 id="세-반응의-공통점">세 반응의 공통점</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>반응</th>
+<th>산소를 <strong>얻는</strong> 쪽</th>
+<th>산소를 <strong>잃는(내주는)</strong> 쪽</th>
+<th>인류·지구에 준 변화</th>
+</tr>
+</thead><tbody><tr>
+<td>광합성</td>
+<td>(대신 물이 산소 기체를 내놓는다 — 4-3-③에서 설명)</td>
+<td>이산화 탄소 → 포도당</td>
+<td>대기 중 산소 증가, 생물의 에너지원</td>
+</tr>
+<tr>
+<td>화석 연료의 연소</td>
+<td>메테인(탄소·수소) → CO₂, H₂O</td>
+<td>공기 중의 산소 기체가 산소를 내준다</td>
+<td>산업 혁명, 에너지 사용, 기후변화</td>
+</tr>
+<tr>
+<td>철의 제련</td>
+<td>일산화 탄소 → 이산화 탄소</td>
+<td>산화 철(III) → 철</td>
+<td>철기 시대, 현대 산업의 기초 소재</td>
+</tr>
+</tbody></table></div>
+<p>세 반응 모두 <strong>산소가 한 물질에서 다른 물질로 이동</strong>한다. 산소를 얻는 물질이 있으면, 반드시 산소를 잃는 물질(또는 산소를 내주는 쪽)이 함께 있다.</p>
+<h3 id="4-3-②-산소의-이동으로-보는-산화와-환원">4-3-② 산소의 이동으로 보는 산화와 환원</h3>
+<p>물질이 산소를 얻는 반응을 <strong>산화(oxidation)</strong>, 물질이 산소를 잃는 반응을 <strong>환원(reduction)</strong> 이라고 한다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>정의</th>
+<th>예</th>
+</tr>
+</thead><tbody><tr>
+<td>산화</td>
+<td>물질이 <strong>산소를 얻는</strong> 반응</td>
+<td>마그네슘의 연소, 철이 녹스는 것, 메테인의 연소</td>
+</tr>
+<tr>
+<td>환원</td>
+<td>물질이 <strong>산소를 잃는</strong> 반응</td>
+<td>철광석이 철로 되는 것, 산화 구리(II)가 구리로 되는 것</td>
+</tr>
+</tbody></table></div>
+<p>중학교에서 해 본 실험을 다시 보자. 검은색 산화 구리(II) 가루와 탄소 가루를 섞어 가열하면 붉은색 구리가 생기고, 석회수를 뿌옇게 만드는 이산화 탄소가 발생한다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">2CuO</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">C</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">2Cu</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></span></p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-4-3-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 525.796875 159" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-4-3-1{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-4-3-1 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-4-3-1 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-4-3-1 .error-icon{fill:var(--mm-group);}#mm-4-3-1 .error-text{fill:#595959;stroke:#595959;}#mm-4-3-1 .edge-thickness-normal{stroke-width:1px;}#mm-4-3-1 .edge-thickness-thick{stroke-width:3.5px;}#mm-4-3-1 .edge-pattern-solid{stroke-dasharray:0;}#mm-4-3-1 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-4-3-1 .edge-pattern-dashed{stroke-dasharray:3;}#mm-4-3-1 .edge-pattern-dotted{stroke-dasharray:2;}#mm-4-3-1 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-4-3-1 .marker.cross{stroke:var(--mm-line);}#mm-4-3-1 svg{font-family:inherit;font-size:15px;}#mm-4-3-1 p{margin:0;}#mm-4-3-1 .label{font-family:inherit;color:var(--mm-text);}#mm-4-3-1 .cluster-label text{fill:#595959;}#mm-4-3-1 .cluster-label span{color:#595959;}#mm-4-3-1 .cluster-label span p{background-color:transparent;}#mm-4-3-1 .label text,#mm-4-3-1 span{fill:var(--mm-text);color:var(--mm-text);}#mm-4-3-1 .node rect,#mm-4-3-1 .node circle,#mm-4-3-1 .node ellipse,#mm-4-3-1 .node polygon,#mm-4-3-1 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-4-3-1 .rough-node .label text,#mm-4-3-1 .node .label text,#mm-4-3-1 .image-shape .label,#mm-4-3-1 .icon-shape .label{text-anchor:middle;}#mm-4-3-1 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-4-3-1 .rough-node .label,#mm-4-3-1 .node .label,#mm-4-3-1 .image-shape .label,#mm-4-3-1 .icon-shape .label{text-align:center;}#mm-4-3-1 .node.clickable{cursor:pointer;}#mm-4-3-1 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-4-3-1 .arrowheadPath{fill:#0b0b0b;}#mm-4-3-1 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-4-3-1 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-4-3-1 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-4-3-1 .edgeLabel p{background-color:var(--mm-label);}#mm-4-3-1 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-4-3-1 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-4-3-1 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-4-3-1 .cluster text{fill:#595959;}#mm-4-3-1 .cluster span{color:#595959;}#mm-4-3-1 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-4-3-1 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-4-3-1 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-4-3-1 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-4-3-1 rect.text{fill:none;stroke-width:0;}#mm-4-3-1 .icon-shape,#mm-4-3-1 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-4-3-1 .icon-shape p,#mm-4-3-1 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-4-3-1 .icon-shape .label rect,#mm-4-3-1 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-4-3-1 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-4-3-1 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-4-3-1 .node .neo-node{stroke:var(--mm-border);}#mm-4-3-1 [data-look="neo"].node rect,#mm-4-3-1 [data-look="neo"].cluster rect,#mm-4-3-1 [data-look="neo"].node polygon{stroke:url(#mm-4-3-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-3-1 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-4-3-1 [data-look="neo"].node path{stroke:url(#mm-4-3-1-gradient);stroke-width:1px;}#mm-4-3-1 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-3-1 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-4-3-1 [data-look="neo"].node circle{stroke:url(#mm-4-3-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-3-1 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-4-3-1 [data-look="neo"].icon-shape .icon{fill:url(#mm-4-3-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-3-1 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-4-3-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-3-1 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-4-3-1_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-1_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-1_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-1_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-1_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-1_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-1_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-1_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-1_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-1_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-1_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-4-3-1_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M181.859,31.25L196.548,31.25C211.237,31.25,240.615,31.25,273.491,31.25C306.367,31.25,342.742,31.25,360.93,31.25L379.117,31.25" id="mm-4-3-1-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTgxLjg1OTM3NSwieSI6MzEuMjV9LHsieCI6MjY5Ljk5MjE4NzUsInkiOjMxLjI1fSx7IngiOjM4My4xMTcxODc1LCJ5IjozMS4yNX1d" data-look="classic" marker-end="url(#mm-4-3-1_flowchart-v2-pointEnd)"/><path d="M141.43,127.75L162.857,127.75C184.284,127.75,227.138,127.75,262.587,127.75C298.036,127.75,326.081,127.75,340.103,127.75L354.125,127.75" id="mm-4-3-1-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6MTQxLjQyOTY4NzUsInkiOjEyNy43NX0seyJ4IjoyNjkuOTkyMTg3NSwieSI6MTI3Ljc1fSx7IngiOjM1OC4xMjUsInkiOjEyNy43NX1d" data-look="classic" marker-end="url(#mm-4-3-1_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(269.9921875, 31.25)"><g class="label" data-id="L_A_B_0" transform="translate(-63.1328125, -11.25)"><foreignObject width="126.265625" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"><p>산소를 잃음 = 환원</p></span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(269.9921875, 127.75)"><g class="label" data-id="L_C_D_0" transform="translate(-63.1328125, -11.25)"><foreignObject width="126.265625" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"><p>산소를 얻음 = 산화</p></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-4-3-1-flowchart-A-0" data-look="classic" transform="translate(94.9296875, 31.25)"><rect class="basic label-container" style="" x="-86.9296875" y="-23.25" width="173.859375" height="46.5"/><g class="label" style="" transform="translate(-62.9296875, -11.25)"><rect/><foreignObject width="125.859375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>산화 구리(II) 2CuO</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-3-1-flowchart-B-1" data-look="classic" transform="translate(437.9609375, 31.25)"><rect class="basic label-container" style="" x="-54.84375" y="-23.25" width="109.6875" height="46.5"/><g class="label" style="" transform="translate(-30.84375, -11.25)"><rect/><foreignObject width="61.6875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>구리 2Cu</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-3-1-flowchart-C-2" data-look="classic" transform="translate(94.9296875, 127.75)"><rect class="basic label-container" style="" x="-46.5" y="-23.25" width="93" height="46.5"/><g class="label" style="" transform="translate(-22.5, -11.25)"><rect/><foreignObject width="45" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>탄소 C</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-3-1-flowchart-D-3" data-look="classic" transform="translate(437.9609375, 127.75)"><rect class="basic label-container" style="" x="-79.8359375" y="-23.25" width="159.671875" height="46.5"/><g class="label" style="" transform="translate(-55.8359375, -11.25)"><rect/><foreignObject width="111.671875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>이산화 탄소 CO₂</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-4-3-1-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-4-3-1-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-4-3-1-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><p>산화 구리(II)가 잃은 산소를 탄소가 얻었다. <strong>산소를 잃는 물질이 있으면 그 산소를 얻는 물질이 반드시 있으므로, 산화와 환원은 항상 동시에 일어난다.</strong> 그래서 이런 반응을 묶어 <strong>산화·환원 반응</strong>이라고 부른다.</p>
+<h4 id="예제-1">예제 1</h4>
+<p>다음 반응에서 산화되는 물질과 환원되는 물질을 쓰시오.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">CuO</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">Cu</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathrm">O</span></span></span></span></span></span></p>
+<p><strong>풀이</strong></p>
+<ul>
+<li>산화 구리(II)(CuO)는 산소를 잃고 구리(Cu)가 되었다 → <strong>환원</strong></li>
+<li>수소(H₂)는 산소를 얻어 물(H₂O)이 되었다 → <strong>산화</strong></li>
+</ul>
+<p>산소 원자 1개가 CuO에서 H₂ 쪽으로 옮겨 갔다. 산화와 환원이 한 반응 안에서 동시에 일어났다.</p>
+<h4 id="예제-2">예제 2</h4>
+<p>프로페인(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord"><span class="mord mathrm">C</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">8</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span>)은 휴대용 가스버너와 캠핑용 가스의 연료로 쓰인다. 프로페인의 연소 반응식을 완성하고 산화되는 물질을 쓰시오.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord"><span class="mord mathrm">C</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">8</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mopen">(</span><span class="mspace"> </span><span class="mspace"> </span><span class="mclose">)</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">3C</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">4</span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathrm">O</span></span></span></span></span></span></p>
+<p><strong>풀이</strong> 오른쪽 산소 원자 수는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">3</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10</span></span></span></span>개이므로 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>는 5개가 필요하다. 계수는 <strong>5</strong>이다. 프로페인 속 탄소와 수소가 산소를 얻어 이산화 탄소와 물이 되었으므로 <strong>프로페인이 산화</strong>된다.</p>
+<h3 id="4-3-③-전자의-이동으로-보는-산화와-환원">4-3-③ 전자의 이동으로 보는 산화와 환원</h3>
+<p>마그네슘이 탈 때 생기는 산화 마그네슘(MgO)은 마그네슘 이온(Mg²⁺)과 산화 이온(O²⁻)으로 이루어진 이온 결합 물질이다. 즉, 마그네슘이 산소를 얻는 동안 실제로는 <strong>마그네슘에서 산소로 전자가 이동</strong>했다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">2Mg</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">2MgO</span></span></span></span></span></span></p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1141em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord hangul_fallback">마그네슘</span><span class="mord">: </span></span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">2Mg</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">2M</span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">g</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">2</span><span class="mord mtight">+</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">4</span><span class="mord"><span class="mord mathrm">e</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8213em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">−</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:2em;"></span><span class="mopen">(</span><span class="mord text"><span class="mord hangul_fallback">전자를</span><span class="mord"> </span><span class="mord hangul_fallback">잃음</span></span><span class="mclose">)</span></span></span></span></span></p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1141em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord hangul_fallback">산소</span><span class="mord">: </span></span><span class="mord"><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">4</span><span class="mord"><span class="mord mathrm">e</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8213em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">−</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">2</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">2</span><span class="mord mtight">−</span></span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:2em;"></span><span class="mopen">(</span><span class="mord text"><span class="mord hangul_fallback">전자를</span><span class="mord"> </span><span class="mord hangul_fallback">얻음</span></span><span class="mclose">)</span></span></span></span></span></p>
+<p>이처럼 산화·환원을 전자의 이동으로 다시 정의할 수 있다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>산소의 이동으로</th>
+<th>전자의 이동으로</th>
+</tr>
+</thead><tbody><tr>
+<td><strong>산화</strong></td>
+<td>산소를 얻는다</td>
+<td><strong>전자를 잃는다</strong></td>
+</tr>
+<tr>
+<td><strong>환원</strong></td>
+<td>산소를 잃는다</td>
+<td><strong>전자를 얻는다</strong></td>
+</tr>
+</tbody></table></div>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>외우는 방법</strong> — &quot;<strong>산</strong>화는 <strong>잃</strong>고, <strong>환</strong>원은 <strong>얻</strong>는다&quot; → <strong>산잃환얻</strong>. 영어권 학생들은 OIL RIG(Oxidation Is Loss, Reduction Is Gain)라고 외운다.</p>
+</aside>
+<h4 id="왜-전자의-이동으로-정의를-넓힐까">왜 전자의 이동으로 정의를 넓힐까?</h4>
+<p>산소가 전혀 없는 반응도 있기 때문이다. 나트륨과 염소 기체가 반응하여 염화 나트륨(소금)이 되는 반응을 보자.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">2Na</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">l</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">2NaCl</span></span></span></span></span></span></p>
+<ul>
+<li>나트륨: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8547em;vertical-align:-0.0833em;"></span><span class="mord"><span class="mord mathrm">2Na</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">2N</span><span class="mord"><span class="mord mathrm">a</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7713em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">+</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">2</span><span class="mord"><span class="mord mathrm">e</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7713em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">−</span></span></span></span></span></span></span></span></span></span></span></span> → 전자를 잃음 → <strong>산화</strong></li>
+<li>염소: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9213em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">l</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">2</span><span class="mord"><span class="mord mathrm">e</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7713em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">−</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">2C</span><span class="mord"><span class="mord mathrm">l</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7713em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">−</span></span></span></span></span></span></span></span></span></span></span></span> → 전자를 얻음 → <strong>환원</strong></li>
+</ul>
+<p>산소는 하나도 없지만, 마그네슘의 연소와 <strong>똑같은 방식</strong>으로 전자가 이동한다. 전자의 이동으로 정의하면 훨씬 더 많은 반응을 같은 규칙으로 설명할 수 있다.</p>
+<h4 id="광합성에서-물이-산소를-내놓는-과정">광합성에서 물이 산소를 내놓는 과정</h4>
+<p>4-3-①에서 미뤄 두었던 광합성의 물을 다시 보자. 광합성에서 물은 빛에너지를 이용해 <strong>전자를 잃고</strong> 산소 기체를 내놓는다. 즉, 물은 <strong>산화</strong>된다. 물이 잃은 전자는 여러 단계를 거쳐 이산화 탄소 쪽으로 전달되어, 이산화 탄소가 포도당으로 <strong>환원</strong>되는 데 쓰인다. 결국 광합성은 &#39;물에서 이산화 탄소로 전자를 옮기는&#39; 거대한 산화·환원 반응이다.</p>
+<aside class="callout important"><p class="callout-title">핵심</p><p><strong>산화·환원의 규칙성</strong></p>
+<ol>
+<li>산화와 환원은 <strong>항상 동시에</strong> 일어난다.</li>
+<li>한 반응에서 <strong>잃은 전자의 총수 = 얻은 전자의 총수</strong>이다. (전자는 사라지거나 새로 생기지 않는다.)</li>
+<li>산소를 얻는 물질은 대개 전자를 잃는 물질이므로, 두 정의는 서로 모순되지 않는다.</li>
+</ol>
+</aside>
+<h4 id="예제-3">예제 3</h4>
+<p><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">2Na</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">l</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">2NaCl</span></span></span></span></span> 반응에서 나트륨 원자 4개가 모두 반응했다면, 이동한 전자는 몇 개이고 반응한 염소 분자는 몇 개인가?</p>
+<p><strong>풀이</strong> 나트륨 원자 1개는 전자 1개를 잃으므로 전자 <strong>4개</strong>가 이동한다. 염소 분자(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">l</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span>) 1개는 전자 2개를 얻으므로, 전자 4개를 받으려면 염소 분자 <strong>2개</strong>가 필요하다. 반응식의 계수비(Na : Cl₂ = 2 : 1)와도 일치한다.</p>
+<h3 id="4-3-④-금속과-금속-이온의-반응-반응성의-규칙성">4-3-④ 금속과 금속 이온의 반응 — 반응성의 규칙성</h3>
+<h4 id="1-아연판을-황산-구리-ii-수용액에-넣으면">(1) 아연판을 황산 구리(II) 수용액에 넣으면</h4>
+<p>푸른색 황산 구리(II) 수용액에 아연판을 넣어 두면 다음 변화가 관찰된다.</p>
+<ul>
+<li>아연판 표면에 <strong>붉은색 물질(구리)</strong> 이 달라붙는다.</li>
+<li>수용액의 <strong>푸른색이 점점 옅어진다.</strong> (푸른색을 내는 Cu²⁺가 줄어든다.)</li>
+<li>아연판이 조금씩 녹아 작아진다.</li>
+</ul>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9474em;vertical-align:-0.0833em;"></span><span class="mord"><span class="mord mathrm">Zn</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">u</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">2</span><span class="mord mtight">+</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">Z</span><span class="mord"><span class="mord mathrm">n</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">2</span><span class="mord mtight">+</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">Cu</span></span></span></span></span></span></p>
+<div class="table-wrap"><table><thead><tr>
+<th>입자</th>
+<th>변화</th>
+<th>전자</th>
+<th>산화·환원</th>
+</tr>
+</thead><tbody><tr>
+<td>아연(Zn)</td>
+<td>아연 이온(Zn²⁺)이 되어 녹아 나감</td>
+<td>2개 잃음</td>
+<td>산화</td>
+</tr>
+<tr>
+<td>구리 이온(Cu²⁺)</td>
+<td>구리(Cu)가 되어 석출됨</td>
+<td>2개 얻음</td>
+<td>환원</td>
+</tr>
+<tr>
+<td>황산 이온(SO₄²⁻)</td>
+<td>변화 없음</td>
+<td>—</td>
+<td>반응에 참여하지 않음</td>
+</tr>
+</tbody></table></div>
+<p>아연이 내놓은 전자를 구리 이온이 받아 갔다. 산소가 전혀 없어도 전자의 이동으로 산화·환원을 설명할 수 있다.</p>
+<h4 id="2-구리줄을-질산-은-수용액에-넣으면">(2) 구리줄을 질산 은 수용액에 넣으면</h4>
+<p>무색의 질산 은 수용액에 구리줄을 넣으면, 구리줄 표면에 <strong>반짝이는 은 결정</strong>이 나뭇가지처럼 자라고 수용액은 점점 <strong>푸른색</strong>으로 변한다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0585em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathrm">Cu</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">2A</span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">g</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8213em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">+</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">u</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">2</span><span class="mord mtight">+</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm" style="margin-right:0.01389em;">2Ag</span></span></span></span></span></span></p>
+<p>구리 원자 1개는 전자 2개를 잃고, 은 이온 1개는 전자 1개를 얻는다. 잃은 전자 수와 얻은 전자 수를 맞추기 위해 <strong>은 이온 2개가 구리 원자 1개와 반응</strong>한다. 따라서 반응이 진행될수록 수용액 속 <strong>양이온의 총수는 줄어든다</strong>(Ag⁺ 2개가 Cu²⁺ 1개로 바뀜).</p>
+<h4 id="3-금속의-반응성-누가-전자를-더-잘-내놓는가">(3) 금속의 반응성 — 누가 전자를 더 잘 내놓는가?</h4>
+<p>반대로 구리판을 황산 아연 수용액에 넣으면 아무 변화도 일어나지 않는다. 아연이 구리보다 <strong>전자를 더 잘 잃기(산화되기 쉬운)</strong> 때문이다. 금속이 전자를 잃고 양이온이 되려는 정도를 <strong>금속의 반응성</strong>이라 하며, 실험으로 정한 순서는 다음과 같다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathrm">K</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">Ca</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">Na</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm" style="margin-right:0.01389em;">Mg</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">Al</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">Zn</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">Fe</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">Ni</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">Sn</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">Pb</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mopen">(</span><span class="mord mathrm">H</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">Cu</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm" style="margin-right:0.01389em;">Hg</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm" style="margin-right:0.01389em;">Ag</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">Pt</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">Au</span></span></span></span></span></span></p>
+<aside class="callout important"><p class="callout-title">핵심</p><p><strong>반응성이 큰 금속</strong>을 <strong>반응성이 작은 금속의 이온</strong>이 든 수용액에 넣으면, 반응성이 큰 금속이 전자를 잃고(산화) 반응성이 작은 금속 이온이 전자를 얻어(환원) 금속으로 석출된다. 그 반대는 일어나지 않는다.</p>
+</aside>
+<p>순서 중간의 (H)는 수소이다. 수소보다 반응성이 큰 금속(Mg, Zn, Fe 등)은 묽은 염산과 반응하여 <strong>수소 기체</strong>를 발생시키지만, 구리·은·금은 묽은 염산과 반응하지 않는다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0141em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">Zn</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">2</span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8213em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">+</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">Z</span><span class="mord"><span class="mord mathrm">n</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">2</span><span class="mord mtight">+</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></span></p>
+<p>아연은 전자를 잃고(산화), 수소 이온은 전자를 얻어 수소 기체가 된다(환원). 금이 수천 년이 지나도 반짝이는 이유도 반응성이 매우 작아 산화되지 않기 때문이다.</p>
+<h4 id="예제-4">예제 4</h4>
+<p>다음 실험 중 금속 표면에 새로운 금속이 석출되는 것을 모두 고르고, 그 반응의 이온 반응식을 쓰시오.
+ㄱ. 철못을 황산 구리(II) 수용액에 넣는다.
+ㄴ. 은반지를 황산 구리(II) 수용액에 넣는다.
+ㄷ. 마그네슘 리본을 질산 은 수용액에 넣는다.</p>
+<p><strong>풀이</strong> 반응성은 Mg &gt; Fe &gt; Cu &gt; Ag이다.</p>
+<ul>
+<li>ㄱ. Fe &gt; Cu이므로 반응한다. <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"></span><span class="mord"><span class="mord mathrm">Fe</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">u</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">2</span><span class="mord mtight">+</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">F</span><span class="mord"><span class="mord mathrm">e</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">2</span><span class="mord mtight">+</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">Cu</span></span></span></span></span></li>
+<li>ㄴ. Ag &lt; Cu이므로 반응하지 않는다.</li>
+<li>ㄷ. Mg &gt; Ag이므로 반응한다. <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0085em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">Mg</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">2A</span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">g</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7713em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">+</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">M</span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">g</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">2</span><span class="mord mtight">+</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm" style="margin-right:0.01389em;">2Ag</span></span></span></span></span></li>
+</ul>
+<p>정답은 <strong>ㄱ, ㄷ</strong>이다. ㄷ에서 Mg 1개가 전자 2개를 잃으므로 Ag⁺ 2개가 필요하다.</p>
+<h3 id="4-3-⑤-생활-속-산화-환원-분석하기">4-3-⑤ 생활 속 산화·환원 분석하기</h3>
+<h4 id="1-철의-부식과-부식-방지">(1) 철의 부식과 부식 방지</h4>
+<p>철은 공기 중의 <strong>산소</strong>와 <strong>물</strong>을 함께 만나면 서서히 산화되어 붉은 녹이 된다. 녹의 주성분은 물을 포함한 산화 철(III)이다. 철이 녹스는 과정을 간단히 나타내면 다음과 같다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathrm">4Fe</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">3</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">2F</span><span class="mord"><span class="mord mathrm">e</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:1em;"></span><span class="mopen">(</span><span class="mord text"><span class="mord hangul_fallback">실제로는</span><span class="mord"> </span><span class="mord hangul_fallback">물이</span><span class="mord"> </span><span class="mord hangul_fallback">함께</span><span class="mord"> </span><span class="mord hangul_fallback">관여한다</span></span><span class="mclose">)</span></span></span></span></span></p>
+<ul>
+<li>철은 전자를 잃고(산화), 산소는 전자를 얻는다(환원).</li>
+<li><strong>물과 산소 중 하나라도 없으면</strong> 녹이 잘 슬지 않는다.</li>
+<li>바닷물이나 겨울철 도로의 제설제처럼 <strong>염분이 있으면 녹이 더 빨리</strong> 슨다. 그래서 바닷가 철 구조물과 겨울철 자동차 하부는 부식에 특히 신경 쓴다.</li>
+</ul>
+<div class="table-wrap"><table><thead><tr>
+<th>부식 방지 방법</th>
+<th>원리</th>
+<th>예</th>
+</tr>
+</thead><tbody><tr>
+<td>페인트칠, 기름칠, 플라스틱 코팅</td>
+<td>철이 산소·물과 만나지 못하게 막는다</td>
+<td>다리, 철제 대문, 자전거 체인</td>
+</tr>
+<tr>
+<td>아연 도금(함석)</td>
+<td>철 표면을 아연으로 덮는다. 긁혀도 <strong>아연이 먼저 산화</strong>되어 철을 보호한다</td>
+<td>지붕, 가드레일, 아연 도금 강판</td>
+</tr>
+<tr>
+<td>주석 도금(양철)</td>
+<td>철 표면을 주석으로 덮어 산소·물을 막는다</td>
+<td>통조림 캔</td>
+</tr>
+<tr>
+<td>합금</td>
+<td>철에 크로뮴·니켈 등을 섞어 표면에 치밀한 보호막이 생기게 한다</td>
+<td>스테인리스강(주방 기구, 수저)</td>
+</tr>
+<tr>
+<td>희생 양극(희생 금속)</td>
+<td>철보다 <strong>반응성이 큰 금속</strong>(마그네슘, 아연 등)을 연결해 그 금속이 대신 산화되게 한다</td>
+<td>선박 바닥, 지하 배관, 해양 구조물</td>
+</tr>
+</tbody></table></div>
+<aside class="callout warning"><p class="callout-title">주의</p><p>양철(주석 도금)은 흠집이 나서 철이 드러나면 오히려 철이 더 빨리 녹슬 수 있다. 주석보다 철의 반응성이 커서 <strong>철이 먼저 산화</strong>되기 때문이다. 반면 함석(아연 도금)은 흠집이 나도 아연이 먼저 산화되어 철을 지켜 준다. 반응성 순서 하나로 두 도금의 차이를 설명할 수 있다.</p>
+</aside>
+<h4 id="2-사과-바나나의-갈변">(2) 사과·바나나의 갈변</h4>
+<p>깎아 둔 사과가 갈색으로 변하는 것은 사과 속의 폴리페놀 성분이 효소의 도움을 받아 <strong>공기 중의 산소와 반응(산화)</strong> 하여 갈색 물질을 만들기 때문이다.</p>
+<ul>
+<li><strong>방지 방법</strong>: 소금물이나 설탕물에 담가 공기와의 접촉을 줄인다. 레몬즙을 뿌리면 레몬 속의 <strong>비타민 C가 먼저 산화</strong>되면서 갈변을 늦춘다.</li>
+<li>이처럼 다른 물질 대신 먼저 산화되어 산화를 막는 물질을 <strong>항산화제(antioxidant)</strong> 라고 한다. 식품 포장에 함께 넣는 <strong>탈산소제</strong>(철 가루가 주성분)는 포장 안의 산소를 먼저 흡수하여 식품의 산화를 막는다.</li>
+</ul>
+<h4 id="3-호흡과-연소-에너지를-꺼내는-산화">(3) 호흡과 연소 — 에너지를 꺼내는 산화</h4>
+<p>세포호흡은 포도당이 산소와 반응하여 에너지를 내는 과정이다. 광합성과 반대 방향의 산화·환원 반응이다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord"><span class="mord mathrm">C</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">12</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">6</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">6C</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">6</span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathrm">O</span></span><span class="mspace" style="margin-right:1em;"></span><span class="mopen">(</span><span class="mord">+</span><span class="mspace"> </span><span class="mord text"><span class="mord hangul_fallback">에너지</span></span><span class="mclose">)</span></span></span></span></span></p>
+<p>포도당은 <strong>산화</strong>되어 이산화 탄소가 되고, 산소는 <strong>환원</strong>되어 물이 된다. 광합성으로 저장된 에너지를 호흡으로 꺼내 쓰는 셈이다. 장작이나 가스를 태우는 연소도 같은 원리로 에너지를 꺼낸다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-4-3-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0.052188873291015625 478.71875 170.8956298828125" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-4-3-2{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-4-3-2 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-4-3-2 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-4-3-2 .error-icon{fill:var(--mm-group);}#mm-4-3-2 .error-text{fill:#595959;stroke:#595959;}#mm-4-3-2 .edge-thickness-normal{stroke-width:1px;}#mm-4-3-2 .edge-thickness-thick{stroke-width:3.5px;}#mm-4-3-2 .edge-pattern-solid{stroke-dasharray:0;}#mm-4-3-2 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-4-3-2 .edge-pattern-dashed{stroke-dasharray:3;}#mm-4-3-2 .edge-pattern-dotted{stroke-dasharray:2;}#mm-4-3-2 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-4-3-2 .marker.cross{stroke:var(--mm-line);}#mm-4-3-2 svg{font-family:inherit;font-size:15px;}#mm-4-3-2 p{margin:0;}#mm-4-3-2 .label{font-family:inherit;color:var(--mm-text);}#mm-4-3-2 .cluster-label text{fill:#595959;}#mm-4-3-2 .cluster-label span{color:#595959;}#mm-4-3-2 .cluster-label span p{background-color:transparent;}#mm-4-3-2 .label text,#mm-4-3-2 span{fill:var(--mm-text);color:var(--mm-text);}#mm-4-3-2 .node rect,#mm-4-3-2 .node circle,#mm-4-3-2 .node ellipse,#mm-4-3-2 .node polygon,#mm-4-3-2 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-4-3-2 .rough-node .label text,#mm-4-3-2 .node .label text,#mm-4-3-2 .image-shape .label,#mm-4-3-2 .icon-shape .label{text-anchor:middle;}#mm-4-3-2 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-4-3-2 .rough-node .label,#mm-4-3-2 .node .label,#mm-4-3-2 .image-shape .label,#mm-4-3-2 .icon-shape .label{text-align:center;}#mm-4-3-2 .node.clickable{cursor:pointer;}#mm-4-3-2 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-4-3-2 .arrowheadPath{fill:#0b0b0b;}#mm-4-3-2 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-4-3-2 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-4-3-2 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-4-3-2 .edgeLabel p{background-color:var(--mm-label);}#mm-4-3-2 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-4-3-2 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-4-3-2 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-4-3-2 .cluster text{fill:#595959;}#mm-4-3-2 .cluster span{color:#595959;}#mm-4-3-2 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-4-3-2 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-4-3-2 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-4-3-2 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-4-3-2 rect.text{fill:none;stroke-width:0;}#mm-4-3-2 .icon-shape,#mm-4-3-2 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-4-3-2 .icon-shape p,#mm-4-3-2 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-4-3-2 .icon-shape .label rect,#mm-4-3-2 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-4-3-2 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-4-3-2 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-4-3-2 .node .neo-node{stroke:var(--mm-border);}#mm-4-3-2 [data-look="neo"].node rect,#mm-4-3-2 [data-look="neo"].cluster rect,#mm-4-3-2 [data-look="neo"].node polygon{stroke:url(#mm-4-3-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-3-2 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-4-3-2 [data-look="neo"].node path{stroke:url(#mm-4-3-2-gradient);stroke-width:1px;}#mm-4-3-2 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-3-2 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-4-3-2 [data-look="neo"].node circle{stroke:url(#mm-4-3-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-3-2 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-4-3-2 [data-look="neo"].icon-shape .icon{fill:url(#mm-4-3-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-3-2 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-4-3-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-4-3-2 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-4-3-2_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-2_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-2_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-2_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-2_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-2_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-2_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-2_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-2_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-2_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-4-3-2_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-4-3-2_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M167.266,63.902L180.878,60.21C194.49,56.518,221.714,49.134,248.297,49.182C274.88,49.231,300.823,56.711,313.795,60.451L326.766,64.192" id="mm-4-3-2-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTY3LjI2NTYyNSwieSI6NjMuOTAxNTIzMjIzNzEyODg2fSx7IngiOjI0OC45Mzc1LCJ5Ijo0MS43NX0seyJ4IjozMzAuNjA5Mzc1LCJ5Ijo2NS4yOTk4OTQ0NDQxNTgzOH1d" data-look="classic" marker-end="url(#mm-4-3-2_flowchart-v2-pointEnd)"/><path d="M330.609,105.7L316.997,109.625C303.385,113.55,276.161,121.4,249.581,121.808C223,122.215,197.063,115.18,184.095,111.663L171.126,108.146" id="mm-4-3-2-L_B_A_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_A_0" data-points="W3sieCI6MzMwLjYwOTM3NSwieSI6MTA1LjcwMDEwNTU1NTg0MTYyfSx7IngiOjI0OC45Mzc1LCJ5IjoxMjkuMjV9LHsieCI6MTY3LjI2NTYyNSwieSI6MTA3LjA5ODQ3Njc3NjI4NzExfV0=" data-look="classic" marker-end="url(#mm-4-3-2_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(249.11851, 41.80219)"><g class="label" data-id="L_A_B_0" transform="translate(-56.671875, -33.75)"><foreignObject width="113.34375" height="67.5"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"><p>광합성<br />이산화 탄소 환원<br />빛에너지 저장</p></span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(249.11851, 129.19781)"><g class="label" data-id="L_B_A_0" transform="translate(-47.5, -33.75)"><foreignObject width="95" height="67.5"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"><p>세포호흡·연소<br />포도당 산화<br />에너지 방출</p></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-4-3-2-flowchart-A-0" data-look="classic" transform="translate(87.6328125, 85.5)"><rect class="basic label-container" style="" x="-79.6328125" y="-23.25" width="159.265625" height="46.5"/><g class="label" style="" transform="translate(-55.6328125, -11.25)"><rect/><foreignObject width="111.265625" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>이산화 탄소 + 물</p></span></div></foreignObject></g></g><g class="node default" id="mm-4-3-2-flowchart-B-1" data-look="classic" transform="translate(400.6640625, 85.5)"><rect class="basic label-container" style="" x="-70.0546875" y="-23.25" width="140.109375" height="46.5"/><g class="label" style="" transform="translate(-46.0546875, -11.25)"><rect/><foreignObject width="92.109375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>포도당 + 산소</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-4-3-2-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-4-3-2-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-4-3-2-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><h4 id="4-표백과-소독">(4) 표백과 소독</h4>
+<ul>
+<li><strong>염소계 표백제</strong>(주성분 하이포아염소산 나트륨): 색을 내는 물질이나 세균의 성분을 <strong>산화</strong>시켜 색을 없애고 세균을 죽인다. 수돗물 소독에 쓰는 염소도 같은 원리이다.</li>
+<li><strong>과산화 수소수</strong>(약 3% 정도의 묽은 용액): 상처에 바르면 거품(산소)이 생기며 세균을 산화시켜 소독한다. 머리카락의 색소를 산화시켜 탈색하는 데에도 쓰인다.</li>
+<li><strong>오존</strong>: 강한 산화력이 있어 정수장에서 물의 냄새 물질과 세균을 없애는 데 쓰인다.</li>
+</ul>
+<aside class="callout warning"><p class="callout-title">주의</p><p>염소계 표백제와 산성 세정제(일부 화장실 청소용 세제 등)를 <strong>절대 섞으면 안 된다.</strong> 유독한 염소 기체가 발생할 수 있다. 세제 용기의 &#39;섞으면 위험&#39; 표시를 꼭 확인하자.</p>
+</aside>
+<h4 id="5-전지-전자의-이동을-도선으로-끌어내다">(5) 전지 — 전자의 이동을 도선으로 끌어내다</h4>
+<p>아연판과 구리판을 레몬(또는 묽은 산)에 꽂고 도선으로 연결하면 전류가 흐른다.</p>
+<ul>
+<li>아연판: 아연이 전자를 잃고 Zn²⁺가 되어 녹아 나간다(<strong>산화</strong>).</li>
+<li>전자는 <strong>도선을 따라</strong> 구리판 쪽으로 이동한다.</li>
+<li>구리판: 그 표면에서 수소 이온이 전자를 얻어 수소 기체가 된다(<strong>환원</strong>).</li>
+</ul>
+<p>4-3-④에서는 아연이 구리 이온에게 전자를 <strong>직접</strong> 건넸지만, 전지는 산화가 일어나는 곳과 환원이 일어나는 곳을 <strong>떨어뜨려 놓고</strong> 전자가 도선을 지나가게 만든 장치이다. 이 전자의 흐름이 바로 전류이다. 건전지, 스마트폰의 리튬 이온 전지, 전기 자동차의 배터리 모두 산화·환원 반응으로 전기를 만든다.</p>
+<h4 id="생활-속-산화-환원-정리">생활 속 산화·환원 정리</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>현상</th>
+<th>산화되는 것</th>
+<th>환원되는 것</th>
+</tr>
+</thead><tbody><tr>
+<td>철이 녹슨다</td>
+<td>철</td>
+<td>산소</td>
+</tr>
+<tr>
+<td>깎은 사과가 갈색으로 변한다</td>
+<td>사과 속 폴리페놀 성분</td>
+<td>산소</td>
+</tr>
+<tr>
+<td>세포호흡</td>
+<td>포도당</td>
+<td>산소</td>
+</tr>
+<tr>
+<td>광합성</td>
+<td>물</td>
+<td>이산화 탄소</td>
+</tr>
+<tr>
+<td>가스레인지에서 가스가 탄다</td>
+<td>연료(메테인 등)</td>
+<td>산소</td>
+</tr>
+<tr>
+<td>철광석에서 철을 얻는다</td>
+<td>일산화 탄소</td>
+<td>산화 철(III)</td>
+</tr>
+<tr>
+<td>아연판에 구리가 석출된다</td>
+<td>아연</td>
+<td>구리 이온</td>
+</tr>
+<tr>
+<td>레몬 전지</td>
+<td>아연</td>
+<td>수소 이온</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-4" class="step-h s4"><span class="step-badge s4">STEP 4</span><span class="h-text">오개념 바로잡기</span></h2>
+<div class="table-wrap"><table><thead><tr>
+<th>흔한 오개념</th>
+<th>올바른 개념</th>
+<th>왜 그럴까?</th>
+</tr>
+</thead><tbody><tr>
+<td>산화는 산소와 반응하는 것만을 말한다</td>
+<td>산화는 <strong>전자를 잃는 것</strong>까지 포함한다</td>
+<td>나트륨과 염소의 반응, 아연과 구리 이온의 반응처럼 산소 없이도 전자가 이동한다</td>
+</tr>
+<tr>
+<td>산화만 일어나는 반응도 있다</td>
+<td>산화와 환원은 <strong>항상 동시에</strong> 일어난다</td>
+<td>전자를 잃는 물질이 있으면 그 전자를 얻는 물질이 반드시 있다</td>
+</tr>
+<tr>
+<td>철이 녹슬면 일부가 떨어져 나가므로 질량이 줄어든다</td>
+<td>녹이 생기면 철에 <strong>산소(와 물)가 결합하여</strong> 질량이 늘어난다</td>
+<td>반응한 산소까지 포함하면 전체 질량은 보존된다</td>
+</tr>
+<tr>
+<td>스테인리스강은 절대 녹슬지 않는다</td>
+<td>녹이 <strong>잘</strong> 슬지 않을 뿐이다</td>
+<td>염분이 많거나 보호막이 손상되면 스테인리스강도 부식될 수 있다</td>
+</tr>
+<tr>
+<td>금속을 다른 금속 이온의 수용액에 넣으면 항상 반응한다</td>
+<td><strong>반응성이 더 큰 금속</strong>만 반응성이 작은 금속의 이온과 반응한다</td>
+<td>구리는 아연 이온에게 전자를 줄 수 없다</td>
+</tr>
+<tr>
+<td>광합성으로 나오는 산소는 이산화 탄소에서 나온다</td>
+<td>광합성으로 발생하는 산소 기체는 <strong>물</strong>에서 나온다</td>
+<td>산소 원자를 표시한 물을 이용한 실험으로 확인되었다. 물은 전자를 잃고(산화) 산소 기체를 내놓는다</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-5" class="step-h s5"><span class="step-badge s5">STEP 5</span><span class="h-text">선택과목·대학으로 한 걸음 더</span></h2>
+<aside class="callout caution"><p class="callout-title">심화 · 평가 범위 밖</p><p>이 절은 <strong>통합과학 교육과정 범위 밖의 심화 내용</strong>으로 평가 대상이 아니다. &quot;이 개념이 앞으로 어디까지 이어지는가&quot;를 맛보기로 보여 주기 위한 내용이다.</p>
+</aside>
+<h3 id="고2-3-선택과목과의-연결">고2·3 선택과목과의 연결</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>과목</th>
+<th>이어지는 내용</th>
+</tr>
+</thead><tbody><tr>
+<td>화학</td>
+<td>역동적인 화학 반응 — 산화·환원 반응을 <strong>산화수</strong>로 분석하기, 산화제와 환원제 등</td>
+</tr>
+<tr>
+<td>화학 반응의 세계</td>
+<td>산화·환원 반응과 <strong>전기 화학</strong>(화학 전지, 전기 분해) 등</td>
+</tr>
+<tr>
+<td>생명과학, 세포와 물질대사</td>
+<td>세포호흡과 광합성에서 전자가 전달되는 과정</td>
+</tr>
+<tr>
+<td>지구과학</td>
+<td>지구의 역사 — 광합성과 대기 중 산소의 증가</td>
+</tr>
+</tbody></table></div>
+<h3 id="①-산화수-전자의-이동을-39-점수-39-로-기록하기">① 산화수: 전자의 이동을 &#39;점수&#39;로 기록하기</h3>
+<p>공유 결합 물질에서는 전자를 완전히 주고받지 않고 함께 쓰기 때문에, &#39;누가 전자를 잃었는가&#39;가 애매하다. 그래서 선택과목 「화학」에서는 각 원자에 <strong>산화수(oxidation number)</strong> 라는 가상의 전하를 매긴다. 산화수가 <strong>증가하면 산화</strong>, <strong>감소하면 환원</strong>이다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.5844em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord"><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.4344em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span><span class="mop"><span class="mord mathrm">F</span><span class="mord"><span class="mord mathrm">e</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.8833em;margin-left:0em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">+</span><span class="mord mathrm mtight">3</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">3</span><span class="mord"><span class="mop op-limits"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.4344em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span><span class="mop mathrm">C</span></span></span><span style="top:-3.8833em;margin-left:0em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">+</span><span class="mord mathrm mtight">2</span></span></span></span></span></span></span></span></span><span class="mord mathrm">O</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">2</span><span class="mord"><span class="mop op-limits"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.4344em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span><span class="mop mathrm">Fe</span></span></span><span style="top:-3.8833em;margin-left:0em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">0</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">3</span><span class="mord"><span class="mop op-limits"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.4344em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span><span class="mop mathrm">C</span></span></span><span style="top:-3.8833em;margin-left:0em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">+</span><span class="mord mathrm mtight">4</span></span></span></span></span></span></span></span></span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></span></p>
+<p>철의 산화수는 +3 → 0으로 감소(환원), 탄소의 산화수는 +2 → +4로 증가(산화)한다. 또 남을 산화시키는 물질(자신은 환원됨)을 <strong>산화제</strong>, 남을 환원시키는 물질(자신은 산화됨)을 <strong>환원제</strong>라고 부른다. 위 반응에서 일산화 탄소는 환원제이다.</p>
+<h3 id="②-전지의-전압은-어떻게-정해질까-전극-전위">② 전지의 전압은 어떻게 정해질까? — 전극 전위</h3>
+<p>대학 「일반화학」에서는 반응성의 차이를 <strong>표준 환원 전위</strong>(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6741em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∘</span></span></span></span></span></span></span></span></span></span></span>)라는 숫자로 나타낸다. 값이 클수록 환원되기 쉽다. 예를 들어 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6741em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∘</span></span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord"><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">u</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">2</span><span class="mord mtight">+</span></span></span></span></span></span></span></span></span><span class="mord mathrm">/Cu</span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord">+</span><span class="mord">0.34</span><span class="mspace"> </span><span class="mord mathrm" style="margin-right:0.01389em;">V</span></span></span></span>, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6741em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∘</span></span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord"><span class="mord mathrm">Z</span><span class="mord"><span class="mord mathrm">n</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">2</span><span class="mord mtight">+</span></span></span></span></span></span></span></span></span><span class="mord mathrm">/Zn</span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord">−</span><span class="mord">0.76</span><span class="mspace"> </span><span class="mord mathrm" style="margin-right:0.01389em;">V</span></span></span></span>이다. 아연–구리 전지(다니엘 전지)의 표준 전압은</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9711em;vertical-align:-0.247em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.7241em;"><span style="top:-2.453em;margin-left:-0.0576em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord hangul_fallback mtight">전지</span></span></span></span></span><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∘</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.9711em;vertical-align:-0.247em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.7241em;"><span style="top:-2.453em;margin-left:-0.0576em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord hangul_fallback mtight">환원</span><span class="mord mtight"> </span><span class="mord hangul_fallback mtight">전극</span></span></span></span></span><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∘</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.9711em;vertical-align:-0.247em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.7241em;"><span style="top:-2.453em;margin-left:-0.0576em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord hangul_fallback mtight">산화</span><span class="mord mtight"> </span><span class="mord hangul_fallback mtight">전극</span></span></span></span></span><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∘</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">0.34</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">−</span><span class="mord">0.76</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">1.10</span><span class="mspace"> </span><span class="mord mathrm" style="margin-right:0.01389em;">V</span></span></span></span></span></p>
+<p>이다. 반응성 순서에서 멀리 떨어진 두 금속을 쓸수록 전압이 커진다. 리튬은 매우 산화되기 쉬운 원소여서, 리튬 이온 전지는 한 개의 전지로 약 3.6~3.7 V의 높은 전압을 낼 수 있다. 또 이동한 전자의 양은 <strong>패러데이 상수</strong>(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">96</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">485</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">C/mol</span></span></span></span></span>)를 이용해 전하량으로 바꿀 수 있어, 배터리 용량 계산의 기초가 된다.</p>
+<h3 id="③-생명-속의-전자-전달">③ 생명 속의 전자 전달</h3>
+<p>대학 「생화학」에서는 세포호흡의 산화·환원을 단계별로 배운다. 포도당에서 떼어 낸 전자는 NAD⁺ 같은 <strong>전자 운반체</strong>에 실려 미토콘드리아 안쪽 막의 <strong>전자 전달계</strong>로 옮겨지고, 마지막에 산소가 전자를 받아 물이 된다. 전자가 한 번에 산소로 가지 않고 여러 단계를 거치기 때문에, 에너지가 불꽃처럼 한꺼번에 터지지 않고 조금씩 ATP로 저장된다. 광합성도 물에서 나온 전자가 엽록체의 전자 전달계를 거쳐 이산화 탄소를 환원하는 과정으로 분석한다.</p>
+<h3 id="고등학교-vs-대학교">고등학교 vs 대학교</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>고등학교 통합과학</th>
+<th>대학교 일반화학·전기화학·생화학</th>
+</tr>
+</thead><tbody><tr>
+<td>산화·환원의 정의</td>
+<td>산소의 이동, 전자의 이동</td>
+<td>산화수의 변화, 반쪽 반응의 균형 맞추기</td>
+</tr>
+<tr>
+<td>반응성</td>
+<td>금속의 반응성 순서(정성적)</td>
+<td>표준 환원 전위(V), 네른스트 식으로 농도 효과 계산</td>
+</tr>
+<tr>
+<td>전지</td>
+<td>산화와 환원이 떨어진 곳에서 일어나 전류가 흐름</td>
+<td>전지 전압·용량·수명 계산, 전극 소재 설계</td>
+</tr>
+<tr>
+<td>부식</td>
+<td>산소·물 차단, 도금, 희생 금속</td>
+<td>부식 속도 측정, 전기 방식 설계(부식 공학)</td>
+</tr>
+<tr>
+<td>생명</td>
+<td>호흡은 포도당의 산화</td>
+<td>전자 전달계, 산화적 인산화</td>
+</tr>
+<tr>
+<td>관련 전공</td>
+<td>—</td>
+<td>화학, 화학공학, 재료공학, 금속공학, 전기화학, 생화학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-6" class="step-h s6"><span class="step-badge s6">STEP 6</span><span class="h-text">산업 현장과 진로 연결</span></h2>
+<h3 id="사례-1-제철-거대한-환원-공장">사례 1. 제철 — 거대한 환원 공장</h3>
+<ul>
+<li><strong>원리</strong> 용광로(고로)의 위쪽으로 철광석, 코크스, 석회석을 넣고 아래쪽에서 뜨거운 공기를 불어 넣는다. 코크스가 타서 이산화 탄소가 되고, 이것이 다시 뜨거운 코크스와 반응해 <strong>일산화 탄소</strong>가 된다. 일산화 탄소가 철광석에서 산소를 빼앗아 철을 <strong>환원</strong>한다.</li>
+</ul>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathrm">C</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:2em;"></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">C</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">2CO</span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:2em;"></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathrm">F</span><span class="mord"><span class="mord mathrm">e</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">3CO</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">2Fe</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">3C</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></span></p>
+<ul>
+<li><strong>어디에 쓰이나</strong> 용광로 바닥에 모인 녹은 철(선철)은 탄소가 약 4% 정도 들어 있어 단단하지만 잘 깨진다. 이 쇳물에 산소를 불어 넣어 탄소를 태워 줄이면 자동차·선박·건물에 쓰는 <strong>강철</strong>이 된다. 철광석 속 불순물은 석회석과 반응해 <strong>슬래그</strong>가 되어 쇳물 위에 뜨며, 슬래그는 시멘트 원료 등으로 재활용된다.</li>
+<li><strong>핵심 과제</strong> 이 과정에서 많은 이산화 탄소가 나오기 때문에 철강 산업은 온실가스를 많이 배출하는 산업 가운데 하나이다. 그래서 탄소 대신 <strong>수소</strong>로 철광석을 환원하는 <strong>수소환원제철</strong> 기술이 개발되고 있다.</li>
+</ul>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">F</span><span class="mord"><span class="mord mathrm">e</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">3</span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">2Fe</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">3</span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathrm">O</span></span></span></span></span></span></p>
+<p>이산화 탄소 대신 물이 생기는 것이 장점이다. 다만 수소를 만드는 과정에서 화석 연료를 쓰면 그 단계에서 이산화 탄소가 나오므로, 재생 에너지로 수소를 만드는 기술과 함께 발전해야 한다.</p>
+<h3 id="사례-2-2차-전지-충전과-방전은-산화-환원의-왕복">사례 2. 2차 전지 — 충전과 방전은 산화·환원의 왕복</h3>
+<ul>
+<li><strong>원리</strong> 한 번 쓰고 버리는 1차 전지와 달리, <strong>2차 전지</strong>는 외부 전기를 걸어 반응을 거꾸로 돌릴 수 있다. 리튬 이온 전지에서 방전할 때는 음극 쪽 물질이 전자를 내놓고(산화) 리튬 이온이 양극 쪽으로 이동하며, 전자는 외부 도선을 따라 기기를 거쳐 양극 쪽 물질에 전달된다(환원). 충전할 때는 외부 전원이 이 과정을 거꾸로 일으킨다.</li>
+<li><strong>어디에 쓰이나</strong> 스마트폰, 노트북, 전기 자동차, 태양광·풍력 전기를 저장하는 에너지 저장 장치(ESS).</li>
+<li><strong>핵심 기술</strong> 더 많은 리튬 이온을 담는 전극 소재, 불이 잘 붙지 않는 전해질(전고체 전지 등), 사용 후 배터리에서 니켈·코발트·리튬 같은 금속을 회수하는 재활용 기술(이 과정에도 금속 이온을 금속이나 화합물로 되돌리는 화학 반응이 쓰인다).</li>
+</ul>
+<h3 id="사례-3-부식-방지-보이지-않는-곳의-산화-환원-관리">사례 3. 부식 방지 — 보이지 않는 곳의 산화·환원 관리</h3>
+<ul>
+<li><strong>원리</strong> 바닷물 속 선박, 땅속 가스관, 다리 기둥은 늘 물·산소·염분에 노출된다. 표면 도장(페인트), 아연 도금과 함께 <strong>희생 양극</strong>을 붙인다. 선박 바닥에 붙인 아연이나 알루미늄 합금 덩어리가 철 대신 산화되어 닳아 없어지므로, 정기적으로 교체한다.</li>
+<li><strong>왜 중요할까?</strong> 부식은 다리·배관의 안전 사고와 큰 경제적 손실로 이어진다. 그래서 산업 현장에는 부식 정도를 측정하고 방지 설계를 하는 <strong>부식 엔지니어</strong>가 있다.</li>
+</ul>
+<h3 id="사례-4-반도체-공정-산화로-막을-만들고-산화로-씻는다">사례 4. 반도체 공정 — 산화로 막을 만들고, 산화로 씻는다</h3>
+<ul>
+<li><strong>산화막 만들기</strong> 실리콘 웨이퍼를 고온에서 산소와 반응시키면 표면에 아주 얇고 고른 이산화 규소(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">Si</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span>) 막이 생긴다. 실리콘이 <strong>산화</strong>되어 만들어진 이 막은 전기가 통하지 않는 절연막으로 쓰인다.</li>
+<li><strong>세정</strong> 웨이퍼 표면의 유기물 찌꺼기와 금속 오염을 없애기 위해 <strong>과산화 수소</strong>를 섞은 세정액을 쓴다. 과산화 수소의 강한 산화력이 오염 물질을 산화시켜 떼어 낸다. 아주 작은 오염도 불량으로 이어지기 때문에 초순수(극도로 깨끗한 물)와 고순도 약품을 사용한다.</li>
+</ul>
+<h3 id="관련-진로와-학과">관련 진로와 학과</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>진로</th>
+<th>하는 일</th>
+<th>관련 학과</th>
+</tr>
+</thead><tbody><tr>
+<td>금속·제철 엔지니어</td>
+<td>철광석 환원 공정, 수소환원제철, 강철 소재 개발</td>
+<td>금속공학, 재료공학, 화학공학</td>
+</tr>
+<tr>
+<td>배터리 연구원</td>
+<td>전극·전해질 소재 개발, 배터리 수명·안전 평가</td>
+<td>화학, 화학공학, 재료공학, 전기화학</td>
+</tr>
+<tr>
+<td>부식 방지 엔지니어</td>
+<td>선박·배관·교량의 부식 진단과 방식 설계</td>
+<td>재료공학, 금속공학, 조선해양공학</td>
+</tr>
+<tr>
+<td>반도체 공정 엔지니어</td>
+<td>산화·세정·식각 공정 관리</td>
+<td>화학공학, 전자공학, 재료공학</td>
+</tr>
+<tr>
+<td>식품공학자</td>
+<td>산화 방지, 포장 기술(탈산소제 등) 개발</td>
+<td>식품공학, 식품영양학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="탐구-활동-생활-속-산화-환원-분석하기">탐구 활동 — 생활 속 산화·환원 분석하기</h2>
+<p>교육과정의 &lt;탐구 활동&gt; 목록에는 이 성취기준 전용 항목이 따로 없어서, 성취기준의 &#39;생활 주변의 다양한 변화를 산화와 환원의 특징과 규칙성으로 분석&#39;하기 위한 보충 탐구로 구성하였다.</p>
+<h3 id="활동-a-금속과-금속-이온의-반응으로-반응성-순서-정하기">활동 A. 금속과 금속 이온의 반응으로 반응성 순서 정하기</h3>
+<p><strong>목표</strong> 금속을 다른 금속 이온의 수용액에 넣었을 때 일어나는 변화를 관찰하여, 전자의 이동과 금속의 반응성을 설명한다.</p>
+<p><strong>준비물</strong> 아연판, 구리판(또는 구리줄), 마그네슘 리본, 묽은 황산 구리(II) 수용액, 묽은 황산 아연 수용액, 묽은 질산 은 수용액, 홈판(또는 시험관), 사포, 핀셋, 보안경, 실험용 장갑</p>
+<p><strong>과정</strong></p>
+<ol>
+<li>금속 조각을 사포로 문질러 표면의 산화막을 벗긴다.</li>
+<li>홈판의 각 칸에 수용액을 조금씩 넣고, 표의 조합대로 금속 조각을 넣는다.</li>
+<li>5~10분 동안 금속 표면과 수용액 색의 변화를 관찰하여 기록한다.</li>
+</ol>
+<p><strong>결과 기록</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>금속 ↓ · 수용액 →</th>
+<th>황산 구리(II) (Cu²⁺)</th>
+<th>황산 아연 (Zn²⁺)</th>
+<th>질산 은 (Ag⁺)</th>
+</tr>
+</thead><tbody><tr>
+<td>마그네슘</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>아연</td>
+<td></td>
+<td>—</td>
+<td></td>
+</tr>
+<tr>
+<td>구리</td>
+<td>—</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<p>&#39;—&#39;는 금속과 같은 종류의 금속 이온이 든 수용액이라 실험하지 않는 칸이다.</p>
+<p><strong>생각해 보기</strong></p>
+<ol>
+<li>반응이 일어난 칸에서 산화된 것과 환원된 것은 각각 무엇인가?</li>
+<li>결과를 이용해 Mg, Zn, Cu, Ag의 반응성 순서를 정해 보자.</li>
+<li>질산 은 수용액에 구리를 넣었을 때 수용액이 푸른색으로 변한 이유를 이온으로 설명해 보자.</li>
+</ol>
+<aside class="callout warning"><p class="callout-title">주의</p><p><strong>안전 수칙</strong> 질산 은 수용액이 피부에 묻으면 검은 얼룩이 생기므로 반드시 장갑을 끼고, 눈에 튀지 않도록 보안경을 쓴다. 사용한 금속 이온 수용액은 하수구에 버리지 말고 교사의 지시에 따라 지정된 폐액 통에 모은다.</p>
+</aside>
+<h3 id="활동-b-철이-녹스는-조건-찾기-1-2주-관찰">활동 B. 철이 녹스는 조건 찾기 (1~2주 관찰)</h3>
+<p><strong>목표</strong> 철의 부식에 필요한 조건을 변인 통제 실험으로 확인하고 부식 방지 방법을 제안한다.</p>
+<p><strong>준비물</strong> 깨끗한 철못 5개, 시험관 5개, 수돗물, 끓여서 식힌 물, 식용유, 염화 칼슘(건조제), 솜, 고무마개, 소금, 아연 조각(또는 아연 도금 철사)</p>
+<p><strong>과정</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>시험관</th>
+<th>조건</th>
+<th>확인하려는 것</th>
+</tr>
+</thead><tbody><tr>
+<td>(가)</td>
+<td>못을 수돗물에 반쯤 잠기게 한다</td>
+<td>물과 공기가 모두 있을 때</td>
+</tr>
+<tr>
+<td>(나)</td>
+<td>끓여서 식힌 물에 못을 완전히 잠기게 하고 식용유를 부어 막을 만든다</td>
+<td>물속 산소를 줄이고 공기를 차단할 때</td>
+</tr>
+<tr>
+<td>(다)</td>
+<td>바닥에 염화 칼슘을 넣고 솜을 덮은 뒤 못을 넣고 마개를 막는다</td>
+<td>물(습기)이 없을 때</td>
+</tr>
+<tr>
+<td>(라)</td>
+<td>못을 소금물에 반쯤 잠기게 한다</td>
+<td>염분이 있을 때</td>
+</tr>
+<tr>
+<td>(마)</td>
+<td>아연 조각을 감은 못을 수돗물에 반쯤 잠기게 한다</td>
+<td>더 반응성이 큰 금속을 연결했을 때</td>
+</tr>
+</tbody></table></div>
+<p>1주 뒤와 2주 뒤에 못의 상태를 사진으로 찍어 비교한다.</p>
+<p><strong>결과 기록</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>시험관</th>
+<th>1주 뒤</th>
+<th>2주 뒤</th>
+<th>녹슨 정도 순위</th>
+</tr>
+</thead><tbody><tr>
+<td>(가)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>(나)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>(다)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>(라)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>(마)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<p><strong>생각해 보기</strong></p>
+<ol>
+<li>(가)~(다)를 비교하여 철이 녹스는 데 필요한 두 가지 조건을 쓰시오.</li>
+<li>(가)와 (라)를 비교하면 바닷가나 겨울철 도로에서 부식이 빨리 일어나는 이유를 설명할 수 있는가?</li>
+<li>(마)의 못이 덜 녹슨 이유를 금속의 반응성과 전자의 이동으로 설명하고, 이 원리를 이용하는 산업 사례를 찾아보자.</li>
+</ol>
+<hr>
+<h2 id="개념-확인-문제">개념 확인 문제</h2>
+<h3 id="기본">기본</h3>
+<p><strong>1.</strong> 다음 반응에서 산화되는 물질과 환원되는 물질을 각각 쓰시오.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">2CuO</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">C</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">2Cu</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></span></p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 산화되는 물질: 탄소(C), 환원되는 물질: 산화 구리(II)(CuO)</p>
+<p>탄소는 산소를 얻어 이산화 탄소가 되었으므로 산화되었고, 산화 구리(II)는 산소를 잃고 구리가 되었으므로 환원되었다.</p>
+</div></details>
+
+<p><strong>2.</strong> 다음 중 산화·환원에 대한 설명으로 옳은 것을 <strong>모두</strong> 고르시오.
+ㄱ. 물질이 전자를 잃는 반응을 산화라고 한다.
+ㄴ. 산소가 관여하지 않는 반응은 산화·환원 반응이 아니다.
+ㄷ. 한 반응에서 잃은 전자의 총수와 얻은 전자의 총수는 같다.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답 ㄱ, ㄷ</strong></p>
+<p>ㄴ. 나트륨과 염소의 반응(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">2Na</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">l</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">2NaCl</span></span></span></span></span>)처럼 산소가 없어도 전자가 이동하면 산화·환원 반응이다.
+ㄷ. 전자는 새로 생기거나 사라지지 않으므로, 잃은 전자 수와 얻은 전자 수는 같다. 그래서 산화와 환원이 동시에 일어난다.</p>
+</div></details>
+
+<p><strong>3.</strong> 푸른색 황산 구리(II) 수용액에 아연판을 넣었다. 이때 관찰되는 현상 두 가지를 쓰고, 일어나는 반응을 이온 반응식으로 나타내시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong></p>
+<ul>
+<li>관찰: ① 아연판 표면에 붉은색 구리가 석출된다. ② 수용액의 푸른색이 점점 옅어진다. (아연판이 조금씩 녹는다.)</li>
+<li>반응식: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"></span><span class="mord"><span class="mord mathrm">Zn</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">u</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">2</span><span class="mord mtight">+</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">Z</span><span class="mord"><span class="mord mathrm">n</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">2</span><span class="mord mtight">+</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">Cu</span></span></span></span></span></li>
+</ul>
+<p>아연은 전자 2개를 잃어 산화되고, 구리 이온은 전자 2개를 얻어 환원된다. 푸른색을 내는 Cu²⁺가 줄어들기 때문에 색이 옅어진다.</p>
+</div></details>
+
+<p><strong>4.</strong> 빈칸에 알맞은 말을 쓰시오.
+&quot;철이 녹슬려면 ( ㄱ )와/과 ( ㄴ )이/가 함께 있어야 한다. 철에 아연을 도금하면 흠집이 나도 철보다 반응성이 큰 ( ㄷ )이/가 먼저 산화되어 철을 보호한다.&quot;</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> ㄱ, ㄴ: 산소, 물(순서 무관), ㄷ: 아연</p>
+</div></details>
+
+<h3 id="응용">응용</h3>
+<p><strong>5.</strong> 질산 은 수용액에 구리줄을 넣었더니, 구리줄 표면에 은이 석출되고 수용액이 푸른색으로 변했다. 처음 수용액에 은 이온(Ag⁺)이 12개, 질산 이온(NO₃⁻)이 12개 있었다고 하자(모형). 은 이온이 모두 반응했을 때 (1) 수용액 속 구리(II) 이온의 수, (2) 수용액 속 양이온의 총수 변화, (3) 질산 이온의 수를 구하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> (1) 6개 (2) 12개 → 6개로 줄어든다 (3) 12개(변화 없음)</p>
+<p>반응식은 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0085em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathrm">Cu</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">2A</span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">g</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7713em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">+</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">u</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">2</span><span class="mord mtight">+</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm" style="margin-right:0.01389em;">2Ag</span></span></span></span></span>이다. Ag⁺ 1개는 전자 1개를 얻고, Cu 1개는 전자 2개를 잃으므로 Ag⁺ 2개당 Cu²⁺ 1개가 생긴다.
+(1) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">12</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">÷</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">6</span></span></span></span>개
+(2) 양이온은 Ag⁺ 12개에서 Cu²⁺ 6개로 바뀌어 총수가 절반이 된다.
+(3) 질산 이온은 반응에 참여하지 않으므로 그대로이다. (양이온의 전하 총합도 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">12</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">+</span><span class="mord">1</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">6</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">+</span><span class="mord">2</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">+</span><span class="mord">12</span></span></span></span>로 같아, 수용액은 여전히 전기적으로 중성이다.)</p>
+</div></details>
+
+<p><strong>6.</strong> 금속 A, B, C로 다음 실험을 하였다.</p>
+<ul>
+<li>실험 1: A를 B 이온이 든 수용액에 넣었더니 A 표면에 B가 석출되었다.</li>
+<li>실험 2: C를 A 이온이 든 수용액에 넣었더니 아무 변화가 없었다.</li>
+<li>실험 3: C를 B 이온이 든 수용액에 넣었더니 C 표면에 B가 석출되었다.</li>
+</ul>
+<p>A, B, C의 반응성을 큰 순서대로 쓰고, 그 근거를 설명하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> A &gt; C &gt; B</p>
+<ul>
+<li>실험 1: A가 B 이온에게 전자를 주었다 → A &gt; B</li>
+<li>실험 2: C는 A 이온에게 전자를 주지 못했다 → A &gt; C</li>
+<li>실험 3: C가 B 이온에게 전자를 주었다 → C &gt; B</li>
+</ul>
+<p>반응성이 큰 금속이 반응성이 작은 금속의 이온에게 전자를 주어(자신은 산화) 그 금속을 석출시킨다.</p>
+</div></details>
+
+<p><strong>7.</strong> 활동 B의 시험관 (가)~(다)를 생각해 보자. (가) 수돗물에 반쯤 잠긴 못, (나) 끓여 식힌 물에 잠기고 식용유로 덮인 못, (다) 염화 칼슘과 함께 마개로 막은 시험관 속의 못. (1) 가장 많이 녹스는 것과 그 이유, (2) (나)에서 물을 끓여 식히고 식용유를 붓는 까닭을 쓰시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong>
+(1) <strong>(가)</strong> — 물과 산소(공기)가 모두 있기 때문이다. (다)는 염화 칼슘이 습기를 흡수하여 물이 없고, (나)는 산소가 거의 없어 녹이 잘 슬지 않는다.
+(2) 물을 끓이면 물에 녹아 있던 산소가 빠져나가고, 식용유 막은 공기 중의 산소가 다시 물에 녹아 들어가는 것을 막는다. 즉, <strong>산소만 없는 조건</strong>을 만들기 위해서이다.</p>
+</div></details>
+
+<h3 id="융합-서술형">융합·서술형</h3>
+<p><strong>8. [산업 연계]</strong> 철강 회사들이 &#39;수소환원제철&#39;을 개발하고 있다. (1) 산화 철(III)(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">F</span><span class="mord"><span class="mord mathrm">e</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span>)을 수소로 환원하는 반응식을 완성하고, (2) 이 반응에서 산화되는 물질과 환원되는 물질을 쓰고, (3) 기존 용광로 방식과 비교한 환경적 장점과 해결해야 할 과제를 한 가지씩 서술하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+(1) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">F</span><span class="mord"><span class="mord mathrm">e</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">3</span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">2Fe</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">3</span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathrm">O</span></span></span></span></span>
+(2) 산화되는 물질: 수소(H₂) — 산소를 얻어 물이 된다. 환원되는 물질: 산화 철(III) — 산소를 잃고 철이 된다.
+(3) 장점: 기존 용광로에서는 일산화 탄소가 철광석을 환원하면서 이산화 탄소가 생기지만, 수소로 환원하면 물이 생기므로 이산화 탄소 배출을 크게 줄일 수 있다. 과제: 수소를 화석 연료로 만들면 그 과정에서 이산화 탄소가 나오므로, 재생 에너지로 수소를 값싸고 많이 만드는 기술이 필요하다.</p>
+<p><strong>채점 포인트</strong> ① 반응식의 계수 ② 산소 이동(또는 전자 이동)으로 산화·환원 판단 ③ 이산화 탄소 대신 물이 생긴다는 점 ④ 수소 생산 과정의 문제 언급</p>
+</div></details>
+
+<p><strong>9. [대학·생활 연계]</strong> 바다를 항해하는 강철 선박의 바닥에는 아연 덩어리를 붙여 두고, 일정 기간이 지나면 새것으로 교체한다. (1) 아연을 붙이는 이유를 전자의 이동과 금속의 반응성으로 설명하고, (2) 아연 대신 구리 덩어리를 붙이면 어떻게 될지 예측하시오. (3) 이 원리와 같은 이유로 &#39;함석&#39;이 &#39;양철&#39;보다 흠집에 강한 까닭을 설명하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+(1) 아연은 철보다 반응성이 커서 전자를 더 잘 잃는다. 아연과 철이 붙어 있으면 아연이 대신 전자를 잃고 산화되어 녹아 나가므로 철의 산화(부식)가 늦춰진다. 아연이 점점 닳아 없어지기 때문에 주기적으로 교체해야 한다(희생 양극).
+(2) 구리는 철보다 반응성이 작아 철이 먼저 전자를 잃는다. 따라서 철의 부식을 막지 못하고 오히려 철이 더 빨리 부식될 수 있다.
+(3) 함석은 철 위에 아연을 도금한 것이라 흠집으로 철이 드러나도 아연이 먼저 산화되어 철을 보호한다. 양철은 철보다 반응성이 작은 주석을 도금한 것이라 흠집이 나면 철이 먼저 산화된다.</p>
+</div></details>
+
+<hr>
+<h2 id="한눈에-정리">한눈에 정리</h2>
+<h3 id="핵심-요약">핵심 요약</h3>
+<ul>
+<li>광합성, 화석 연료의 연소, 철의 제련은 모두 <strong>산소가 한 물질에서 다른 물질로 이동</strong>하는 반응이다.</li>
+<li><strong>산화</strong>: 산소를 얻거나 <strong>전자를 잃는</strong> 반응 / <strong>환원</strong>: 산소를 잃거나 <strong>전자를 얻는</strong> 반응 (산잃환얻).</li>
+<li>산화와 환원은 <strong>항상 동시에</strong> 일어나며, 잃은 전자 수와 얻은 전자 수는 같다.</li>
+<li>반응성이 큰 금속은 반응성이 작은 금속의 이온에게 전자를 주어 그 금속을 석출시킨다 (예: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"></span><span class="mord"><span class="mord mathrm">Zn</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">u</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">2</span><span class="mord mtight">+</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathrm">Z</span><span class="mord"><span class="mord mathrm">n</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">2</span><span class="mord mtight">+</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathrm">Cu</span></span></span></span></span>).</li>
+<li>철은 <strong>산소와 물</strong>이 있을 때 녹슬며, 도장·도금·합금·희생 양극으로 부식을 막는다.</li>
+<li>사과의 갈변, 호흡, 연소, 표백·소독, 전지는 모두 산화·환원으로 분석할 수 있다.</li>
+</ul>
+<h3 id="핵심-용어">핵심 용어</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>용어</th>
+<th>뜻</th>
+</tr>
+</thead><tbody><tr>
+<td>산화</td>
+<td>물질이 산소를 얻거나 전자를 잃는 반응</td>
+</tr>
+<tr>
+<td>환원</td>
+<td>물질이 산소를 잃거나 전자를 얻는 반응</td>
+</tr>
+<tr>
+<td>산화·환원 반응</td>
+<td>산화와 환원이 동시에 일어나는 반응</td>
+</tr>
+<tr>
+<td>제련</td>
+<td>광석에서 산소 등을 떼어 내(환원) 금속을 얻는 과정</td>
+</tr>
+<tr>
+<td>금속의 반응성</td>
+<td>금속이 전자를 잃고 양이온이 되려는 정도</td>
+</tr>
+<tr>
+<td>부식</td>
+<td>금속이 산소·물 등과 반응하여 산화되며 손상되는 현상</td>
+</tr>
+<tr>
+<td>희생 양극(희생 금속)</td>
+<td>보호할 금속보다 반응성이 큰 금속을 연결해 대신 산화되게 하는 방법</td>
+</tr>
+<tr>
+<td>항산화제</td>
+<td>자신이 먼저 산화되어 다른 물질의 산화를 막는 물질</td>
+</tr>
+</tbody></table></div>
+<h3 id="다음-단원으로">다음 단원으로</h3>
+<p>산화·환원은 &#39;전자&#39;를 주고받는 반응이었다. 다음 단원에서는 우리 주변의 또 다른 대표적인 화학 반응인 <strong>산과 염기의 반응</strong>을 살펴본다. 이번에는 전자 대신 <strong>수소 이온(H⁺)과 수산화 이온(OH⁻)</strong> 이 주인공이다. 식초와 비눗물, 위산과 제산제가 만나면 어떤 일이 일어나는지 탐구해 보자.</p>
+<nav class="pager"><a class="prev" href="4-2.html"><small>이전 단원</small>4-2 진화와 생물다양성</a><a class="next" href="4-4.html"><small>다음 단원</small>4-4 산과 염기, 중화 반응</a></nav></article></div>
+</main>
+</div>
+</body>
+</html>

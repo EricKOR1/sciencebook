@@ -1,0 +1,885 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>2-6 물질의 전기적 성질과 소재</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css">
+<link rel="stylesheet" href="assets/book.css">
+<script src="assets/js/book.js" defer></script>
+
+</head>
+<body class="">
+<header class="topbar">
+  <button class="menu-btn" id="menu-btn" aria-controls="drawer" aria-expanded="false">목차</button>
+  <a class="brand" href="index.html">통합과학 개념에서 산업까지</a>
+  <button class="theme-btn" id="theme-btn" aria-label="밝은 화면과 어두운 화면 바꾸기">화면</button>
+</header>
+<div class="shell">
+<aside class="drawer" id="drawer"><nav class="book-nav" aria-label="교재 목차"><a class="nav-home" href="index.html">처음으로</a><p class="nav-book">통합과학1</p><p class="nav-unit"><span>1단원</span> 과학의 기초</p><ul><li><a href="1-1.html"><span class="nav-id">1-1</span>시간과 공간</a></li><li><a href="1-2.html"><span class="nav-id">1-2</span>기본량과 단위</a></li><li><a href="1-3.html"><span class="nav-id">1-3</span>측정과 어림, 측정 표준</a></li><li><a href="1-4.html"><span class="nav-id">1-4</span>정보와 신호: 아날로그에서 디지털로</a></li></ul><p class="nav-unit"><span>2단원</span> 물질과 규칙성</p><ul><li><a href="2-1.html"><span class="nav-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="2-2.html"><span class="nav-id">2-2</span>별의 진화와 원소의 생성</a></li><li><a href="2-3.html"><span class="nav-id">2-3</span>원소의 주기성과 화학 결합의 이유</a></li><li><a href="2-4.html"><span class="nav-id">2-4</span>이온 결합과 공유 결합</a></li><li><a href="2-5.html"><span class="nav-id">2-5</span>지각과 생명체 구성 물질의 규칙성</a></li><li><a href="2-6.html" aria-current="page"><span class="nav-id">2-6</span>물질의 전기적 성질과 소재</a></li></ul><p class="nav-unit"><span>3단원</span> 시스템과 상호작용</p><ul><li><a href="3-1.html"><span class="nav-id">3-1</span>지구시스템의 구성과 상호작용</a></li><li><a href="3-2.html"><span class="nav-id">3-2</span>판구조론과 지권의 변화</a></li><li><a href="3-3.html"><span class="nav-id">3-3</span>중력과 운동</a></li><li><a href="3-4.html"><span class="nav-id">3-4</span>운동량과 충격량</a></li><li><a href="3-5.html"><span class="nav-id">3-5</span>생명 시스템과 물질대사</a></li><li><a href="3-6.html"><span class="nav-id">3-6</span>유전자와 단백질</a></li></ul><p class="nav-book">통합과학2</p><p class="nav-unit"><span>4단원</span> 변화와 다양성</p><ul><li><a href="4-1.html"><span class="nav-id">4-1</span>지질시대의 환경 변화와 생물다양성</a></li><li><a href="4-2.html"><span class="nav-id">4-2</span>진화와 생물다양성</a></li><li><a href="4-3.html"><span class="nav-id">4-3</span>산화와 환원</a></li><li><a href="4-4.html"><span class="nav-id">4-4</span>산과 염기, 중화 반응</a></li><li><a href="4-5.html"><span class="nav-id">4-5</span>물질 변화와 에너지 출입</a></li></ul><p class="nav-unit"><span>5단원</span> 환경과 에너지</p><ul><li><a href="5-1.html"><span class="nav-id">5-1</span>생태계 구성 요소와 상호 관계</a></li><li><a href="5-2.html"><span class="nav-id">5-2</span>생태계 평형</a></li><li><a href="5-3.html"><span class="nav-id">5-3</span>지구온난화와 기후변화</a></li><li><a href="5-4.html"><span class="nav-id">5-4</span>태양 에너지와 에너지 전환</a></li><li><a href="5-5.html"><span class="nav-id">5-5</span>발전기와 전기 에너지</a></li><li><a href="5-6.html"><span class="nav-id">5-6</span>에너지 효율과 신재생 에너지</a></li></ul><p class="nav-unit"><span>6단원</span> 과학과 미래 사회</p><ul><li><a href="6-1.html"><span class="nav-id">6-1</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html"><span class="nav-id">6-2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html"><span class="nav-id">6-3</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html"><span class="nav-id">6-4</span>과학기술과 윤리</a></li></ul><p class="nav-book">부록</p><ul><li><a href="guide.html">교재 설계 안내</a></li><li><a href="appendix-standards.html">부록 1. 교육과정 성취기준</a></li><li><a href="appendix-map.html">부록 2. 연계 지도</a></li><li><a href="appendix-glossary.html">부록 3. 핵심 용어 사전</a></li></ul></nav></aside>
+<main class="main" id="main">
+<div class="lesson-grid"><nav class="ladder" aria-label="이 단원의 흐름"><p class="ladder-title">이 단원의 흐름</p><ol><li class="extra"><a href="#단원-들어가기">단원 들어가기</a></li><li class="s1"><a href="#step-1"><b>STEP 1</b> 중학교 다시 보기</a></li><li class="s2"><a href="#step-2"><b>STEP 2</b> 기초 다지기</a></li><li class="s3"><a href="#step-3"><b>STEP 3</b> 핵심 개념</a></li><li class="s4"><a href="#step-4"><b>STEP 4</b> 오개념 바로잡기</a></li><li class="s5"><a href="#step-5"><b>STEP 5</b> 선택과목·대학으로 한 걸음 더</a></li><li class="s6"><a href="#step-6"><b>STEP 6</b> 산업 현장과 진로 연결</a></li><li class="extra"><a href="#탐구-활동-물질을-전기적-성질에-따라-구분하고-소재-활용-사례-조사하기">탐구 활동 — 물질을 전기적 성질에 따라 구분하고, 소재 활용 사례 조사하기</a></li><li class="extra"><a href="#개념-확인-문제">개념 확인 문제</a></li><li class="extra"><a href="#한눈에-정리">한눈에 정리</a></li></ol></nav><article class="prose lesson"><header class="lesson-hero u2">
+  <p class="eyebrow">통합과학1 · 2단원 물질과 규칙성</p>
+  <h1><span class="lesson-id">2-6</span>물질의 전기적 성질과 소재</h1>
+  <p class="lesson-sub">모래 한 줌에서 반도체 칩까지</p>
+</header><aside class="callout note"><p class="callout-title">성취기준·참고</p><p><strong>성취기준 [10통과1-02-06]</strong> 지구를 구성하는 물질을 전기적 성질에 따라 구분할 수 있고, 물질의 전기적 성질을 응용하여 일상생활과 첨단기술에서 다양한 소재로 활용됨을 인식한다.</p>
+</aside>
+<p><strong>학습 목표</strong></p>
+<ol>
+<li>물질 속 <strong>자유 전자</strong>의 이동 정도에 따라 물질을 도체, 부도체(절연체), 반도체로 구분할 수 있다.</li>
+<li>반도체는 <strong>불순물을 첨가하여 전기적 성질을 쉽게 제어할 수 있음</strong>을 알고, 이 성질이 첨단기술에서 중요한 이유를 설명할 수 있다.</li>
+<li>지각의 규산염 광물(규사)에서 반도체 소자의 재료인 규소를 얻는 과정을 설명할 수 있다.</li>
+<li>초전도체, 그래핀, 디스플레이 소재 등 전기적 성질을 응용한 소재가 일상생활과 첨단기술에 활용되는 사례를 조사하고 그 가치를 인식할 수 있다.</li>
+</ol>
+<p><strong>이 단원의 학습 사다리</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>단계</th>
+<th>무엇을 하나?</th>
+</tr>
+</thead><tbody><tr>
+<td>STEP 1. 중학교 다시 보기</td>
+<td>전류, 저항, 도체와 부도체, 반도체 소개를 다시 꺼내 본다</td>
+</tr>
+<tr>
+<td>STEP 2. 기초 다지기</td>
+<td>전류와 전자의 이동, 옴의 법칙, 원자 속 &#39;묶인 전자&#39;와 &#39;자유 전자&#39;를 디딤돌로 놓는다</td>
+</tr>
+<tr>
+<td>STEP 3. 핵심 개념</td>
+<td>도체 → 부도체 → 반도체와 불순물 → 규사에서 웨이퍼까지 → 신소재</td>
+</tr>
+<tr>
+<td>STEP 4. 오개념 바로잡기</td>
+<td>&quot;반도체는 전기가 반만 통한다?&quot;, &quot;부도체에는 전자가 없다?&quot;를 바로잡는다</td>
+</tr>
+<tr>
+<td>STEP 5. 선택과목·대학</td>
+<td>에너지띠 이론, n형·p형 반도체와 p-n 접합, 비저항</td>
+</tr>
+<tr>
+<td>STEP 6. 산업·진로</td>
+<td>반도체 산업(웨이퍼·도핑·메모리), 디스플레이, 전선과 절연 소재, 초전도 응용</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="단원-들어가기">단원 들어가기</h2>
+<p>스마트폰 속 손톱만 한 칩에는 수십억 개의 전자 스위치가 들어 있다. 이 칩의 주재료는 무엇일까? 놀랍게도 그 출발점은 <strong>바닷가와 강가에 흔한 모래</strong>, 정확히는 2-5 단원에서 배운 규산염 광물인 <strong>석영</strong>이 많이 든 모래(규사)이다.</p>
+<p>또 하나 생각해 보자. 전선의 속은 구리인데 겉은 왜 플라스틱으로 감싸 놓았을까? 구리는 전기가 잘 통하고 플라스틱은 전기가 통하지 않기 때문이다. 그렇다면 &#39;전기가 통한다&#39;와 &#39;통하지 않는다&#39; 사이에는 무엇이 있을까? 그리고 그 중간에 있는 물질이 왜 현대 문명의 핵심 소재가 되었을까?</p>
+<p>이 단원에서는 물질을 <strong>전기적 성질</strong>에 따라 나누고, 그 성질을 응용한 소재들이 우리 삶을 어떻게 바꾸었는지 탐구한다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-2-6-0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 1071.45703125 442" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-2-6-0{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-2-6-0 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-2-6-0 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-2-6-0 .error-icon{fill:var(--mm-group);}#mm-2-6-0 .error-text{fill:#595959;stroke:#595959;}#mm-2-6-0 .edge-thickness-normal{stroke-width:1px;}#mm-2-6-0 .edge-thickness-thick{stroke-width:3.5px;}#mm-2-6-0 .edge-pattern-solid{stroke-dasharray:0;}#mm-2-6-0 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-2-6-0 .edge-pattern-dashed{stroke-dasharray:3;}#mm-2-6-0 .edge-pattern-dotted{stroke-dasharray:2;}#mm-2-6-0 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-2-6-0 .marker.cross{stroke:var(--mm-line);}#mm-2-6-0 svg{font-family:inherit;font-size:15px;}#mm-2-6-0 p{margin:0;}#mm-2-6-0 .label{font-family:inherit;color:var(--mm-text);}#mm-2-6-0 .cluster-label text{fill:#595959;}#mm-2-6-0 .cluster-label span{color:#595959;}#mm-2-6-0 .cluster-label span p{background-color:transparent;}#mm-2-6-0 .label text,#mm-2-6-0 span{fill:var(--mm-text);color:var(--mm-text);}#mm-2-6-0 .node rect,#mm-2-6-0 .node circle,#mm-2-6-0 .node ellipse,#mm-2-6-0 .node polygon,#mm-2-6-0 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-2-6-0 .rough-node .label text,#mm-2-6-0 .node .label text,#mm-2-6-0 .image-shape .label,#mm-2-6-0 .icon-shape .label{text-anchor:middle;}#mm-2-6-0 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-2-6-0 .rough-node .label,#mm-2-6-0 .node .label,#mm-2-6-0 .image-shape .label,#mm-2-6-0 .icon-shape .label{text-align:center;}#mm-2-6-0 .node.clickable{cursor:pointer;}#mm-2-6-0 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-2-6-0 .arrowheadPath{fill:#0b0b0b;}#mm-2-6-0 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-2-6-0 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-2-6-0 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-2-6-0 .edgeLabel p{background-color:var(--mm-label);}#mm-2-6-0 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-2-6-0 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-2-6-0 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-2-6-0 .cluster text{fill:#595959;}#mm-2-6-0 .cluster span{color:#595959;}#mm-2-6-0 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-2-6-0 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-2-6-0 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-2-6-0 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-2-6-0 rect.text{fill:none;stroke-width:0;}#mm-2-6-0 .icon-shape,#mm-2-6-0 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-2-6-0 .icon-shape p,#mm-2-6-0 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-2-6-0 .icon-shape .label rect,#mm-2-6-0 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-2-6-0 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-2-6-0 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-2-6-0 .node .neo-node{stroke:var(--mm-border);}#mm-2-6-0 [data-look="neo"].node rect,#mm-2-6-0 [data-look="neo"].cluster rect,#mm-2-6-0 [data-look="neo"].node polygon{stroke:url(#mm-2-6-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-6-0 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-2-6-0 [data-look="neo"].node path{stroke:url(#mm-2-6-0-gradient);stroke-width:1px;}#mm-2-6-0 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-6-0 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-2-6-0 [data-look="neo"].node circle{stroke:url(#mm-2-6-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-6-0 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-2-6-0 [data-look="neo"].icon-shape .icon{fill:url(#mm-2-6-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-6-0 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-2-6-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-6-0 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-2-6-0_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-6-0_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-6-0_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-6-0_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-6-0_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-6-0_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-6-0_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-6-0_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-6-0_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-6-0_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-6-0_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-2-6-0_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M320.008,57.812L280.202,65.176C240.396,72.541,160.784,87.271,120.978,98.135C81.172,109,81.172,116,81.172,119.5L81.172,123" id="mm-2-6-0-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MzIwLjAwNzgxMjUsInkiOjU3LjgxMTUyMjIwMzg2NzQ1NX0seyJ4Ijo4MS4xNzE4NzUsInkiOjEwMn0seyJ4Ijo4MS4xNzE4NzUsInkiOjEyN31d" data-look="classic" marker-end="url(#mm-2-6-0_flowchart-v2-pointEnd)"/><path d="M361.312,65.75L350.54,71.792C339.768,77.833,318.224,89.917,307.452,99.458C296.68,109,296.68,116,296.68,119.5L296.68,123" id="mm-2-6-0-L_A_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_C_0" data-points="W3sieCI6MzYxLjMxMTg3NjMxMzAyNTIsInkiOjY1Ljc1fSx7IngiOjI5Ni42Nzk2ODc1LCJ5IjoxMDJ9LHsieCI6Mjk2LjY3OTY4NzUsInkiOjEyN31d" data-look="classic" marker-end="url(#mm-2-6-0_flowchart-v2-pointEnd)"/><path d="M446.336,65.75L457.659,71.792C468.981,77.833,491.625,89.917,502.947,99.458C514.27,109,514.27,116,514.27,119.5L514.27,123" id="mm-2-6-0-L_A_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_D_0" data-points="W3sieCI6NDQ2LjMzNjQ3OTEyMjg5OTE2LCJ5Ijo2NS43NX0seyJ4Ijo1MTQuMjY5NTMxMjUsInkiOjEwMn0seyJ4Ijo1MTQuMjY5NTMxMjUsInkiOjEyN31d" data-look="classic" marker-end="url(#mm-2-6-0_flowchart-v2-pointEnd)"/><path d="M81.172,196L81.172,200.167C81.172,204.333,81.172,212.667,81.172,220.333C81.172,228,81.172,235,81.172,238.5L81.172,242" id="mm-2-6-0-L_B_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_E_0" data-points="W3sieCI6ODEuMTcxODc1LCJ5IjoxOTZ9LHsieCI6ODEuMTcxODc1LCJ5IjoyMjF9LHsieCI6ODEuMTcxODc1LCJ5IjoyNDZ9XQ==" data-look="classic" marker-end="url(#mm-2-6-0_flowchart-v2-pointEnd)"/><path d="M296.68,196L296.68,200.167C296.68,204.333,296.68,212.667,296.68,220.333C296.68,228,296.68,235,296.68,238.5L296.68,242" id="mm-2-6-0-L_C_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_F_0" data-points="W3sieCI6Mjk2LjY3OTY4NzUsInkiOjE5Nn0seyJ4IjoyOTYuNjc5Njg3NSwieSI6MjIxfSx7IngiOjI5Ni42Nzk2ODc1LCJ5IjoyNDZ9XQ==" data-look="classic" marker-end="url(#mm-2-6-0_flowchart-v2-pointEnd)"/><path d="M514.27,196L514.27,200.167C514.27,204.333,514.27,212.667,540.644,223.296C567.017,233.926,619.765,246.852,646.139,253.316L672.513,259.779" id="mm-2-6-0-L_D_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_G_0" data-points="W3sieCI6NTE0LjI2OTUzMTI1LCJ5IjoxOTZ9LHsieCI6NTE0LjI2OTUzMTI1LCJ5IjoyMjF9LHsieCI6Njc2LjM5ODQzNzUsInkiOjI2MC43MzA4MDI2NDQ5MTUzfV0=" data-look="classic" marker-end="url(#mm-2-6-0_flowchart-v2-pointEnd)"/><path d="M999.871,77L999.871,81.167C999.871,85.333,999.871,93.667,999.871,103.208C999.871,112.75,999.871,123.5,999.871,128.875L999.871,134.25" id="mm-2-6-0-L_H_I_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_H_I_0" data-points="W3sieCI6OTk5Ljg3MTA5Mzc1LCJ5Ijo3N30seyJ4Ijo5OTkuODcxMDkzNzUsInkiOjEwMn0seyJ4Ijo5OTkuODcxMDkzNzUsInkiOjEzOC4yNX1d" data-look="classic" marker-end="url(#mm-2-6-0_flowchart-v2-pointEnd)"/><path d="M999.871,184.75L999.871,190.792C999.871,196.833,999.871,208.917,973.497,221.421C947.123,233.926,894.375,246.852,868.001,253.316L841.627,259.779" id="mm-2-6-0-L_I_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_I_G_0" data-points="W3sieCI6OTk5Ljg3MTA5Mzc1LCJ5IjoxODQuNzV9LHsieCI6OTk5Ljg3MTA5Mzc1LCJ5IjoyMjF9LHsieCI6ODM3Ljc0MjE4NzUsInkiOjI2MC43MzA4MDI2NDQ5MTUzfV0=" data-look="classic" marker-end="url(#mm-2-6-0_flowchart-v2-pointEnd)"/><path d="M757.07,315L757.07,319.167C757.07,323.333,757.07,331.667,757.07,339.333C757.07,347,757.07,354,757.07,357.5L757.07,361" id="mm-2-6-0-L_G_J_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_G_J_0" data-points="W3sieCI6NzU3LjA3MDMxMjUsInkiOjMxNX0seyJ4Ijo3NTcuMDcwMzEyNSwieSI6MzQwfSx7IngiOjc1Ny4wNzAzMTI1LCJ5IjozNjV9XQ==" data-look="classic" marker-end="url(#mm-2-6-0_flowchart-v2-pointEnd)"/><path d="M485.523,55.932L532.83,63.61C580.137,71.288,674.75,86.644,722.057,97.822C769.363,109,769.363,116,769.363,119.5L769.363,123" id="mm-2-6-0-L_A_K_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_K_0" data-points="W3sieCI6NDg1LjUyMzQzNzUsInkiOjU1LjkzMTg2Mzk1MTY2NzA0fSx7IngiOjc2OS4zNjMyODEyNSwieSI6MTAyfSx7IngiOjc2OS4zNjMyODEyNSwieSI6MTI3fV0=" data-look="classic" marker-end="url(#mm-2-6-0_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_A_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_A_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_F_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_G_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_H_I_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_I_G_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_G_J_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_A_K_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-2-6-0-flowchart-A-0" data-look="classic" transform="translate(402.765625, 42.5)"><rect class="basic label-container" style="" x="-82.7578125" y="-23.25" width="165.515625" height="46.5"/><g class="label" style="" transform="translate(-58.7578125, -11.25)"><rect/><foreignObject width="117.515625" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>물질 속 자유 전자</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-6-0-flowchart-B-1" data-look="classic" transform="translate(81.171875, 161.5)"><rect class="basic label-container" style="" x="-39" y="-34.5" width="78" height="69"/><g class="label" style="" transform="translate(-15, -22.5)"><rect/><foreignObject width="30" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>많다<br />도체</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-6-0-flowchart-C-3" data-look="classic" transform="translate(296.6796875, 161.5)"><rect class="basic label-container" style="" x="-74" y="-34.5" width="148" height="69"/><g class="label" style="" transform="translate(-50, -22.5)"><rect/><foreignObject width="100" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>거의 없다<br />부도체(절연체)</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-6-0-flowchart-D-5" data-look="classic" transform="translate(514.26953125, 161.5)"><rect class="basic label-container" style="" x="-88.171875" y="-34.5" width="176.34375" height="69"/><g class="label" style="" transform="translate(-64.171875, -22.5)"><rect/><foreignObject width="128.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>중간이고 조절 가능<br />반도체</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-6-0-flowchart-E-7" data-look="classic" transform="translate(81.171875, 280.5)"><rect class="basic label-container" style="" x="-73.171875" y="-34.5" width="146.34375" height="69"/><g class="label" style="" transform="translate(-49.171875, -22.5)"><rect/><foreignObject width="98.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>전선, 전극<br />구리, 알루미늄</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-6-0-flowchart-F-9" data-look="classic" transform="translate(296.6796875, 280.5)"><rect class="basic label-container" style="" x="-92.3359375" y="-34.5" width="184.671875" height="69"/><g class="label" style="" transform="translate(-68.3359375, -22.5)"><rect/><foreignObject width="136.671875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>전선 피복, 애자<br />고무, 유리, 플라스틱</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-6-0-flowchart-G-11" data-look="classic" transform="translate(757.0703125, 280.5)"><rect class="basic label-container" style="" x="-80.671875" y="-34.5" width="161.34375" height="69"/><g class="label" style="" transform="translate(-56.671875, -22.5)"><rect/><foreignObject width="113.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>불순물 첨가로<br />전기적 성질 제어</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-6-0-flowchart-H-12" data-look="classic" transform="translate(999.87109375, 42.5)"><rect class="basic label-container" style="" x="-63.5859375" y="-34.5" width="127.171875" height="69"/><g class="label" style="" transform="translate(-39.5859375, -22.5)"><rect/><foreignObject width="79.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>규사<br />규산염 광물</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-6-0-flowchart-I-13" data-look="classic" transform="translate(999.87109375, 161.5)"><rect class="basic label-container" style="" x="-63.5859375" y="-23.25" width="127.171875" height="46.5"/><g class="label" style="" transform="translate(-39.5859375, -11.25)"><rect/><foreignObject width="79.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>고순도 규소</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-6-0-flowchart-J-17" data-look="classic" transform="translate(757.0703125, 399.5)"><rect class="basic label-container" style="" x="-80.671875" y="-34.5" width="161.34375" height="69"/><g class="label" style="" transform="translate(-56.671875, -22.5)"><rect/><foreignObject width="113.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>반도체 칩<br />메모리, 프로세서</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-6-0-flowchart-K-19" data-look="classic" transform="translate(769.36328125, 161.5)"><rect class="basic label-container" style="" x="-116.921875" y="-34.5" width="233.84375" height="69"/><g class="label" style="" transform="translate(-92.921875, -22.5)"><rect/><foreignObject width="185.84375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>신소재<br />초전도체, 그래핀, 투명 전극</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-2-6-0-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-2-6-0-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-2-6-0-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><hr>
+<h2 id="step-1" class="step-h s1"><span class="step-badge s1">STEP 1</span><span class="h-text">중학교 다시 보기</span></h2>
+<h3 id="연계-개념표">연계 개념표</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>중학교 성취기준</th>
+<th>중학교에서 배운 것</th>
+<th>고등학교에서 확장되는 것</th>
+</tr>
+</thead><tbody><tr>
+<td>[9과14-01]</td>
+<td>마찰 전기, 정전기 유도를 원자 모형(전자의 이동)으로 설명</td>
+<td>물질 속을 자유롭게 움직이는 <strong>자유 전자</strong>의 개념</td>
+</tr>
+<tr>
+<td>[9과14-02]</td>
+<td>전류 모형, 저항·전류·전압의 관계, 도체와 부도체, 반도체 소개</td>
+<td>자유 전자의 이동으로 도체·부도체·반도체를 <strong>구분하는 기준</strong>, 반도체의 전기적 성질 제어</td>
+</tr>
+<tr>
+<td>[9과14-03]</td>
+<td>전기 에너지가 열·빛 등 다른 에너지로 전환됨, 소비 전력</td>
+<td>저항 때문에 생기는 에너지 손실과 저항이 0인 <strong>초전도체</strong></td>
+</tr>
+<tr>
+<td>[9과09-02]</td>
+<td>광물의 특성, 암석과 광물의 자원으로서 가치</td>
+<td>규산염 광물(규사)이 <strong>반도체 재료 자원</strong>이 됨</td>
+</tr>
+<tr>
+<td>[9과11-03]</td>
+<td>주기율표에서 성질이 비슷한 원소 찾기</td>
+<td>14족 규소와 13족·15족 불순물 원소</td>
+</tr>
+</tbody></table></div>
+<h3 id="준비-운동-사전-진단">준비 운동 (사전 진단)</h3>
+<p><strong>Q1.</strong> 구리, 고무, 유리, 알루미늄을 도체와 부도체로 분류하시오.</p>
+<p><strong>Q2.</strong> 전기 회로에서 전류의 방향과 도선 속 전자가 이동하는 방향은 같은가?</p>
+<p><strong>Q3.</strong> 저항에 3 V의 전압을 걸었더니 0.1 A의 전류가 흘렀다. 저항은 몇 Ω인가?</p>
+<p><strong>Q4.</strong> 연필심(흑연)은 전기가 통할까?</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>Q1.</strong> 도체: 구리, 알루미늄 / 부도체: 고무, 유리</p>
+<p><strong>Q2.</strong> 반대이다. 전류는 (+)극에서 (−)극 쪽으로 흐른다고 약속했지만, 실제로 도선 속 전자는 (−)극에서 (+)극 쪽으로 이동한다.</p>
+<p><strong>Q3.</strong> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.22222em;">V</span><span class="mord">/</span><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">3/0.1</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">30</span><span class="mspace"> </span><span class="mord">Ω</span></span></span></span></p>
+<p><strong>Q4.</strong> 통한다. 흑연은 금속이 아니지만 내부에 자유롭게 움직이는 전자가 있어 전기가 통한다. &quot;금속만 전기가 통한다&quot;는 생각은 틀렸다.</p>
+</div></details>
+
+<hr>
+<h2 id="step-2" class="step-h s2"><span class="step-badge s2">STEP 2</span><span class="h-text">기초 다지기</span></h2>
+<h3 id="①-전류의-정체-전하를-띤-입자의-흐름">① 전류의 정체: 전하를 띤 입자의 흐름</h3>
+<p>2-4 단원에서 전류가 흐르려면 <strong>전하를 띤 입자</strong>가 있고, 그 입자가 <strong>이동할 수 있어야</strong> 한다는 것을 배웠다. 수용액에서는 이온이 전하를 운반했다. 금속 도선 같은 <strong>고체</strong>에서 전하를 운반하는 것은 <strong>전자</strong>이다.</p>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 전기 회로를 물이 흐르는 관에 비유해 보자. 전압은 물을 밀어 주는 &#39;수압의 차이&#39;, 전류는 관을 흐르는 &#39;물의 양&#39;, 저항은 관이 좁거나 막혀서 흐름을 방해하는 정도이다.</p>
+</aside>
+<h3 id="②-옴의-법칙">② 옴의 법칙</h3>
+<p>중학교에서 배운 전압(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.22222em;">V</span></span></span></span>), 전류(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">I</span></span></span></span>), 저항(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span></span></span></span>)의 관계를 다시 정리하자.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.22222em;">V</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.4em;vertical-align:-0.95em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:2em;"></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">(</span></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07847em;">I</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.22222em;">V</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">)</span></span></span></span></span></span></span></p>
+<ul>
+<li>전압의 단위는 V(볼트), 전류는 A(암페어), 저항은 Ω(옴)이다.</li>
+<li>같은 전압을 걸었을 때 <strong>저항이 작을수록 전류가 많이 흐른다.</strong></li>
+</ul>
+<h4 id="미니-예제">미니 예제</h4>
+<p>1.5 V 건전지에 연결한 막대에 0.5 A의 전류가 흘렀다. 막대의 저항은?</p>
+<p><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">1.5/0.5</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">3</span><span class="mspace"> </span><span class="mord">Ω</span></span></span></span></p>
+<h3 id="③-물질-자체의-성질을-비교하려면">③ 물질 자체의 성질을 비교하려면</h3>
+<p>같은 물질이라도 <strong>길이가 길수록, 굵기가 가늘수록</strong> 저항이 커진다. 따라서 여러 물질이 전기를 얼마나 잘 통하게 하는지 공정하게 비교하려면 <strong>같은 모양과 크기</strong>로 만들어 비교해야 한다. 그렇게 비교하면 물질마다 저항이 크게 다르다는 것을 알 수 있다. 이 차이가 바로 물질의 <strong>전기적 성질</strong>이다.</p>
+<h3 id="④-원자-속의-39-묶인-전자-39-와-39-자유-전자-39">④ 원자 속의 &#39;묶인 전자&#39;와 &#39;자유 전자&#39;</h3>
+<p>원자 속 전자는 원자핵의 (+)전하에 끌려 원자에 묶여 있다. 그런데 물질에 따라 <strong>가장 바깥 전자(원자가 전자)</strong> 가 원자에 묶여 있는 정도가 다르다.</p>
+<ul>
+<li>금속 원자는 원자가 전자를 쉽게 내놓는다(2-4 단원: 금속은 양이온이 되기 쉽다).</li>
+<li>금속 원자들이 모여 고체를 이루면, 각 원자가 내놓은 원자가 전자는 어느 한 원자에 속하지 않고 <strong>물질 전체를 자유롭게 돌아다닌다.</strong> 이런 전자를 <strong>자유 전자(free electron)</strong> 라고 한다.</li>
+<li>반면 공유 결합이나 이온 결합을 이룬 물질에서는 전자가 결합에 단단히 묶여 있어 자유롭게 움직이기 어렵다.</li>
+</ul>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 금속 속 자유 전자는 &#39;교실 안을 자유롭게 돌아다니는 학생&#39;, 부도체 속 전자는 &#39;자기 자리에 안전벨트를 매고 앉은 학생&#39;이다. 전압은 &quot;모두 앞문 쪽으로 이동!&quot;이라는 신호이다. 돌아다니는 학생은 바로 움직이지만, 벨트를 맨 학생은 움직이지 못한다.</p>
+</aside>
+<h3 id="⑤-주기율표-다시-보기-13족-14족-15족">⑤ 주기율표 다시 보기: 13족, 14족, 15족</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>족</th>
+<th>원자가 전자 수</th>
+<th>원소 예</th>
+<th>이 단원에서의 역할</th>
+</tr>
+</thead><tbody><tr>
+<td>13족</td>
+<td>3</td>
+<td>붕소 B, 알루미늄 Al, 갈륨 Ga</td>
+<td>반도체에 넣는 불순물</td>
+</tr>
+<tr>
+<td>14족</td>
+<td>4</td>
+<td>탄소 C, 규소 Si, 저마늄 Ge</td>
+<td>반도체의 주재료(규소, 저마늄), 그래핀(탄소)</td>
+</tr>
+<tr>
+<td>15족</td>
+<td>5</td>
+<td>질소 N, 인 P, 비소 As</td>
+<td>반도체에 넣는 불순물</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-3" class="step-h s3"><span class="step-badge s3">STEP 3</span><span class="h-text">핵심 개념</span></h2>
+<h3 id="2-6-①-도체-자유-전자가-많은-물질">2-6-① 도체: 자유 전자가 많은 물질</h3>
+<p>전기가 잘 통하는 물질을 <strong>도체(conductor)</strong> 라고 한다. 도체 속에는 <strong>자유 전자가 많아서</strong>, 전압을 걸면 자유 전자들이 한 방향으로 이동하여 전류가 잘 흐른다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>도체</th>
+<th>특징</th>
+<th>쓰임</th>
+</tr>
+</thead><tbody><tr>
+<td>은</td>
+<td>금속 중 전기가 가장 잘 통한다. 값이 비싸다</td>
+<td>특수 전자 부품, 전도성 잉크</td>
+</tr>
+<tr>
+<td>구리</td>
+<td>은 다음으로 전기가 잘 통하고 값이 적당하다</td>
+<td>가정용 전선, 전자 회로의 배선</td>
+</tr>
+<tr>
+<td>알루미늄</td>
+<td>구리보다는 덜 통하지만 가볍다</td>
+<td>송전선(높은 철탑 사이의 전선)</td>
+</tr>
+<tr>
+<td>금</td>
+<td>녹슬지 않는다</td>
+<td>전자 부품의 접점 도금, 칩의 연결선</td>
+</tr>
+<tr>
+<td>흑연</td>
+<td>비금속이지만 자유롭게 움직이는 전자가 있다</td>
+<td>전극, 연필심</td>
+</tr>
+</tbody></table></div>
+<aside class="callout note"><p class="callout-title">성취기준·참고</p><p>금속에서는 온도가 높아지면 원자들의 진동이 커져 자유 전자의 이동을 더 많이 방해한다. 그래서 금속 도체는 <strong>온도가 높아질수록 저항이 커진다.</strong></p>
+</aside>
+<h3 id="2-6-②-부도체-절연체-전자가-단단히-묶인-물질">2-6-② 부도체(절연체): 전자가 단단히 묶인 물질</h3>
+<p>전기가 거의 통하지 않는 물질을 <strong>부도체(insulator)</strong> 또는 <strong>절연체</strong>라고 한다. 부도체 속에도 전자는 아주 많지만, 거의 모두 원자나 결합에 <strong>단단히 묶여 있어 자유 전자가 거의 없다.</strong> 그래서 전압을 걸어도 전류가 거의 흐르지 않는다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>부도체</th>
+<th>쓰임</th>
+</tr>
+</thead><tbody><tr>
+<td>고무, 플라스틱(PVC, 폴리에틸렌 등)</td>
+<td>전선 피복, 플러그·콘센트 외장, 공구 손잡이</td>
+</tr>
+<tr>
+<td>유리, 도자기(세라믹)</td>
+<td>송전탑의 <strong>애자</strong>(전선과 철탑 사이를 절연하는 부품)</td>
+</tr>
+<tr>
+<td>운모</td>
+<td>전열 기구 안의 절연판</td>
+</tr>
+<tr>
+<td>에폭시 수지 등</td>
+<td>전자 회로 기판, 반도체 칩을 감싸는 재료</td>
+</tr>
+</tbody></table></div>
+<p>2-5 단원에서 배운 <strong>규산염 광물</strong>(석영, 운모, 장석 등)과 이를 원료로 만든 <strong>유리·도자기</strong>는 대표적인 부도체이다. 또 2-4 단원의 <strong>고체 상태의 이온 결합 물질</strong>(소금 결정)과 <strong>설탕 같은 분자 물질</strong>도 전류가 흐르지 않는다.</p>
+<aside class="callout warning"><p class="callout-title">주의</p><p>부도체도 <strong>아주 높은 전압</strong>이 걸리면 갑자기 전류가 흐를 수 있다(절연 파괴). 번개는 평소 부도체인 공기에 매우 높은 전압이 걸려 전류가 흐르는 현상이다. 그래서 고압 전선 가까이에서는 직접 닿지 않아도 위험하다.</p>
+</aside>
+<h3 id="2-6-③-반도체-전기적-성질을-39-조절할-수-있는-39-물질">2-6-③ 반도체: 전기적 성질을 &#39;조절할 수 있는&#39; 물질</h3>
+<p><strong>반도체(semiconductor)</strong> 는 순수한 상태에서 전기가 통하는 정도가 <strong>도체와 부도체의 중간</strong>인 물질이다. 대표적인 반도체 원소는 14족의 <strong>규소(Si, 실리콘)</strong> 와 <strong>저마늄(Ge)</strong> 이다.</p>
+<h4 id="순수한-규소는-왜-전기가-잘-통하지-않을까">순수한 규소는 왜 전기가 잘 통하지 않을까?</h4>
+<p>규소 원자는 원자가 전자가 4개이다. 순수한 규소 결정에서 각 규소 원자는 이웃한 규소 원자 4개와 전자쌍을 하나씩 <strong>공유 결합</strong>한다(2-4 단원). 원자가 전자가 모두 결합에 쓰여 묶여 있으므로, 상온에서 자유롭게 움직이는 전자가 <strong>아주 적다.</strong> 그래서 순수한 규소는 도체보다 전기가 훨씬 덜 통한다. 하지만 묶인 정도가 부도체만큼 강하지 않아서, 일부 전자는 열이나 빛 에너지를 받아 결합에서 풀려나 움직일 수 있다. 그래서 반도체는 온도가 높아지거나 빛을 받으면 전기가 더 잘 통하게 된다(금속과 반대 경향).</p>
+<h4 id="반도체의-핵심-불순물을-넣어-전기적-성질을-제어한다">반도체의 핵심: 불순물을 넣어 전기적 성질을 제어한다</h4>
+<p>반도체가 첨단기술의 주인공이 된 진짜 이유는 따로 있다. 순수한 규소에 <strong>다른 원소(불순물)를 아주 조금 넣는 것만으로</strong> 전기가 통하는 정도를 <strong>크게, 그리고 원하는 만큼</strong> 바꿀 수 있다는 점이다. 이렇게 반도체에 불순물을 의도적으로 첨가하는 것을 <strong>도핑(doping)</strong> 이라고 한다.</p>
+<ul>
+<li>불순물을 넣으면 규소 속에 <strong>움직일 수 있는 전하가 늘어나</strong> 전기가 훨씬 잘 통하게 된다.</li>
+<li>넣는 <strong>양</strong>을 조절하면 전기가 통하는 정도를 조절할 수 있다. 일정한 범위 안에서는 불순물을 많이 넣을수록 전기가 더 잘 통한다. 규소 원자 수백만 개 사이에 불순물 원자가 하나 정도 들어가는 아주 적은 양만으로도 전기가 통하는 정도는 수천 배 이상 달라질 수 있다.</li>
+<li>넣는 <strong>종류</strong>를 바꾸면 전기적 성질이 서로 다른 반도체를 만들 수 있다. (참고: 규소에 넣는 불순물로는 주로 원자가 전자 수가 규소와 다른 13족 원소(붕소 등)나 15족 원소(인 등)를 쓴다. 불순물이 전하의 이동을 돕는 자세한 원리는 STEP 5에서 소개한다.)</li>
+<li>하나의 규소 조각 안에서도 <strong>아주 작은 영역마다 다른 불순물을 넣어</strong> 영역마다 전기적 성질을 다르게 만들 수 있다. 이렇게 만든 아주 작은 전자 스위치(트랜지스터) 수십억 개를 손톱만 한 칩에 모아 넣은 것이 반도체 칩이다.</li>
+</ul>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 도체는 항상 열려 있는 문, 부도체는 항상 잠긴 문이다. 반도체는 <strong>열고 닫는 정도를 조절할 수 있는 문</strong>이다. 정보를 0과 1로 처리하는 컴퓨터(1-4 단원)에 꼭 필요한 것은 바로 이 &#39;조절할 수 있는 문&#39;이다.</p>
+</aside>
+<aside class="callout note"><p class="callout-title">성취기준·참고</p><p>서로 다른 불순물을 넣은 영역을 맞붙였을 때 생기는 현상(접합)과 이를 이용한 소자의 원리는 통합과학에서 다루지 않는다. 궁금하다면 STEP 5를 보자.</p>
+</aside>
+<h4 id="예제-1-전기적-성질로-분류하기">예제 1 — 전기적 성질로 분류하기</h4>
+<p>같은 모양과 크기로 만든 막대 A, B, C에 각각 3 V의 전압을 걸고 전류를 측정하였다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>막대</th>
+<th>전류</th>
+</tr>
+</thead><tbody><tr>
+<td>A</td>
+<td>1 A</td>
+</tr>
+<tr>
+<td>B</td>
+<td>0.000 001 A</td>
+</tr>
+<tr>
+<td>C</td>
+<td>0.01 A</td>
+</tr>
+</tbody></table></div>
+<p>(1) 각 막대의 저항을 구하시오. (2) A, B, C는 각각 구리, 유리, 규소 중 무엇일 가능성이 가장 큰가?</p>
+<p><strong>풀이</strong>
+(1) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.22222em;">V</span><span class="mord">/</span><span class="mord mathnormal" style="margin-right:0.07847em;">I</span></span></span></span></p>
+<ul>
+<li>A: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">3/1</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">3</span><span class="mspace"> </span><span class="mord">Ω</span></span></span></span></li>
+<li>B: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">3/0.000</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">001</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">3</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace"> </span><span class="mord">Ω</span></span></span></span></li>
+<li>C: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">3/0.01</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">300</span><span class="mspace"> </span><span class="mord">Ω</span></span></span></span></li>
+</ul>
+<p>(2) 저항이 가장 작은 A가 도체인 구리, 가장 큰 B가 부도체인 유리, 중간인 C가 반도체인 규소이다. (수치는 비교를 위해 가정한 값이다. 실제 유리의 저항은 이보다 훨씬 크다.)</p>
+<h3 id="2-6-④-모래에서-반도체-칩까지-규산염-광물의-변신">2-6-④ 모래에서 반도체 칩까지: 규산염 광물의 변신</h3>
+<p>2-5 단원에서 지각에 두 번째로 많은 원소가 <strong>규소</strong>이고, 석영(Si–O 사면체가 산소를 모두 공유한 광물)이 풍화에 강해 모래에 많이 남는다는 것을 배웠다. 반도체 산업은 바로 이 <strong>석영이 많은 모래(규사)</strong> 에서 출발한다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg id="mm-2-6-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 1663.125 85" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-2-6-1{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-2-6-1 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-2-6-1 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-2-6-1 .error-icon{fill:var(--mm-group);}#mm-2-6-1 .error-text{fill:#595959;stroke:#595959;}#mm-2-6-1 .edge-thickness-normal{stroke-width:1px;}#mm-2-6-1 .edge-thickness-thick{stroke-width:3.5px;}#mm-2-6-1 .edge-pattern-solid{stroke-dasharray:0;}#mm-2-6-1 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-2-6-1 .edge-pattern-dashed{stroke-dasharray:3;}#mm-2-6-1 .edge-pattern-dotted{stroke-dasharray:2;}#mm-2-6-1 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-2-6-1 .marker.cross{stroke:var(--mm-line);}#mm-2-6-1 svg{font-family:inherit;font-size:15px;}#mm-2-6-1 p{margin:0;}#mm-2-6-1 .label{font-family:inherit;color:var(--mm-text);}#mm-2-6-1 .cluster-label text{fill:#595959;}#mm-2-6-1 .cluster-label span{color:#595959;}#mm-2-6-1 .cluster-label span p{background-color:transparent;}#mm-2-6-1 .label text,#mm-2-6-1 span{fill:var(--mm-text);color:var(--mm-text);}#mm-2-6-1 .node rect,#mm-2-6-1 .node circle,#mm-2-6-1 .node ellipse,#mm-2-6-1 .node polygon,#mm-2-6-1 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-2-6-1 .rough-node .label text,#mm-2-6-1 .node .label text,#mm-2-6-1 .image-shape .label,#mm-2-6-1 .icon-shape .label{text-anchor:middle;}#mm-2-6-1 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-2-6-1 .rough-node .label,#mm-2-6-1 .node .label,#mm-2-6-1 .image-shape .label,#mm-2-6-1 .icon-shape .label{text-align:center;}#mm-2-6-1 .node.clickable{cursor:pointer;}#mm-2-6-1 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-2-6-1 .arrowheadPath{fill:#0b0b0b;}#mm-2-6-1 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-2-6-1 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-2-6-1 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-2-6-1 .edgeLabel p{background-color:var(--mm-label);}#mm-2-6-1 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-2-6-1 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-2-6-1 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-2-6-1 .cluster text{fill:#595959;}#mm-2-6-1 .cluster span{color:#595959;}#mm-2-6-1 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-2-6-1 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-2-6-1 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-2-6-1 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-2-6-1 rect.text{fill:none;stroke-width:0;}#mm-2-6-1 .icon-shape,#mm-2-6-1 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-2-6-1 .icon-shape p,#mm-2-6-1 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-2-6-1 .icon-shape .label rect,#mm-2-6-1 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-2-6-1 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-2-6-1 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-2-6-1 .node .neo-node{stroke:var(--mm-border);}#mm-2-6-1 [data-look="neo"].node rect,#mm-2-6-1 [data-look="neo"].cluster rect,#mm-2-6-1 [data-look="neo"].node polygon{stroke:url(#mm-2-6-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-6-1 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-2-6-1 [data-look="neo"].node path{stroke:url(#mm-2-6-1-gradient);stroke-width:1px;}#mm-2-6-1 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-6-1 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-2-6-1 [data-look="neo"].node circle{stroke:url(#mm-2-6-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-6-1 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-2-6-1 [data-look="neo"].icon-shape .icon{fill:url(#mm-2-6-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-6-1 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-2-6-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-2-6-1 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-2-6-1_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-6-1_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-6-1_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-6-1_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-6-1_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-6-1_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-6-1_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-6-1_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-6-1_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-6-1_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-2-6-1_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-2-6-1_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M169.344,42.5L173.51,42.5C177.677,42.5,186.01,42.5,193.677,42.5C201.344,42.5,208.344,42.5,211.844,42.5L215.344,42.5" id="mm-2-6-1-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTY5LjM0Mzc1LCJ5Ijo0Mi41fSx7IngiOjE5NC4zNDM3NSwieSI6NDIuNX0seyJ4IjoyMTkuMzQzNzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-2-6-1_flowchart-v2-pointEnd)"/><path d="M380.688,42.5L384.854,42.5C389.021,42.5,397.354,42.5,405.021,42.5C412.688,42.5,419.688,42.5,423.188,42.5L426.688,42.5" id="mm-2-6-1-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6MzgwLjY4NzUsInkiOjQyLjV9LHsieCI6NDA1LjY4NzUsInkiOjQyLjV9LHsieCI6NDMwLjY4NzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-2-6-1_flowchart-v2-pointEnd)"/><path d="M591.656,42.5L595.823,42.5C599.99,42.5,608.323,42.5,615.99,42.5C623.656,42.5,630.656,42.5,634.156,42.5L637.656,42.5" id="mm-2-6-1-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6NTkxLjY1NjI1LCJ5Ijo0Mi41fSx7IngiOjYxNi42NTYyNSwieSI6NDIuNX0seyJ4Ijo2NDEuNjU2MjUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-2-6-1_flowchart-v2-pointEnd)"/><path d="M768.828,42.5L772.995,42.5C777.161,42.5,785.495,42.5,793.161,42.5C800.828,42.5,807.828,42.5,811.328,42.5L814.828,42.5" id="mm-2-6-1-L_D_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_E_0" data-points="W3sieCI6NzY4LjgyODEyNSwieSI6NDIuNX0seyJ4Ijo3OTMuODI4MTI1LCJ5Ijo0Mi41fSx7IngiOjgxOC44MjgxMjUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-2-6-1_flowchart-v2-pointEnd)"/><path d="M1031.922,42.5L1036.089,42.5C1040.255,42.5,1048.589,42.5,1056.255,42.5C1063.922,42.5,1070.922,42.5,1074.422,42.5L1077.922,42.5" id="mm-2-6-1-L_E_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_F_0" data-points="W3sieCI6MTAzMS45MjE4NzUsInkiOjQyLjV9LHsieCI6MTA1Ni45MjE4NzUsInkiOjQyLjV9LHsieCI6MTA4MS45MjE4NzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-2-6-1_flowchart-v2-pointEnd)"/><path d="M1243.266,42.5L1247.432,42.5C1251.599,42.5,1259.932,42.5,1267.599,42.5C1275.266,42.5,1282.266,42.5,1285.766,42.5L1289.266,42.5" id="mm-2-6-1-L_F_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_F_G_0" data-points="W3sieCI6MTI0My4yNjU2MjUsInkiOjQyLjV9LHsieCI6MTI2OC4yNjU2MjUsInkiOjQyLjV9LHsieCI6MTI5My4yNjU2MjUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-2-6-1_flowchart-v2-pointEnd)"/><path d="M1439.609,42.5L1443.776,42.5C1447.943,42.5,1456.276,42.5,1463.943,42.5C1471.609,42.5,1478.609,42.5,1482.109,42.5L1485.609,42.5" id="mm-2-6-1-L_G_H_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_G_H_0" data-points="W3sieCI6MTQzOS42MDkzNzUsInkiOjQyLjV9LHsieCI6MTQ2NC42MDkzNzUsInkiOjQyLjV9LHsieCI6MTQ4OS42MDkzNzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-2-6-1_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_F_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_F_G_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_G_H_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-2-6-1-flowchart-A-0" data-look="classic" transform="translate(88.671875, 42.5)"><rect class="basic label-container" style="" x="-80.671875" y="-34.5" width="161.34375" height="69"/><g class="label" style="" transform="translate(-56.671875, -22.5)"><rect/><foreignObject width="113.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>규사<br />석영이 많은 모래</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-6-1-flowchart-B-1" data-look="classic" transform="translate(300.015625, 42.5)"><rect class="basic label-container" style="" x="-80.671875" y="-34.5" width="161.34375" height="69"/><g class="label" style="" transform="translate(-56.671875, -22.5)"><rect/><foreignObject width="113.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>높은 온도에서<br />탄소로 산소 제거</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-6-1-flowchart-C-3" data-look="classic" transform="translate(511.171875, 42.5)"><rect class="basic label-container" style="" x="-80.484375" y="-34.5" width="160.96875" height="69"/><g class="label" style="" transform="translate(-56.484375, -22.5)"><rect/><foreignObject width="112.96875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>금속급 규소<br />순도 약 98~99 %</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-6-1-flowchart-D-5" data-look="classic" transform="translate(705.2421875, 42.5)"><rect class="basic label-container" style="" x="-63.5859375" y="-23.25" width="127.171875" height="46.5"/><g class="label" style="" transform="translate(-39.5859375, -11.25)"><rect/><foreignObject width="79.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>화학적 정제</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-6-1-flowchart-E-7" data-look="classic" transform="translate(925.375, 42.5)"><rect class="basic label-container" style="" x="-106.546875" y="-34.5" width="213.09375" height="69"/><g class="label" style="" transform="translate(-82.546875, -22.5)"><rect/><foreignObject width="165.09375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>고순도 다결정 규소<br />순도 99.9999999 % 이상</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-6-1-flowchart-F-9" data-look="classic" transform="translate(1162.59375, 42.5)"><rect class="basic label-container" style="" x="-80.671875" y="-34.5" width="161.34375" height="69"/><g class="label" style="" transform="translate(-56.671875, -22.5)"><rect/><foreignObject width="113.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>녹여서 단결정<br />원기둥 잉곳 성장</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-6-1-flowchart-G-11" data-look="classic" transform="translate(1366.4375, 42.5)"><rect class="basic label-container" style="" x="-73.171875" y="-34.5" width="146.34375" height="69"/><g class="label" style="" transform="translate(-49.171875, -22.5)"><rect/><foreignObject width="98.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>얇게 잘라 연마<br />웨이퍼</p></span></div></foreignObject></g></g><g class="node default" id="mm-2-6-1-flowchart-H-13" data-look="classic" transform="translate(1572.3671875, 42.5)"><rect class="basic label-container" style="" x="-82.7578125" y="-34.5" width="165.515625" height="69"/><g class="label" style="" transform="translate(-58.7578125, -22.5)"><rect/><foreignObject width="117.515625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>도핑, 회로 새기기<br />반도체 칩</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-2-6-1-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-2-6-1-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-2-6-1-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><ol>
+<li><strong>규소 얻기</strong> 석영은 규소와 산소가 단단히 결합한 물질이다. 규사를 탄소와 함께 매우 높은 온도로 가열하면 탄소가 산소를 떼어 가고 <strong>규소</strong>가 남는다. 이렇게 얻은 규소는 순도가 약 98~99 % 정도이다.</li>
+<li><strong>정제</strong> 반도체에는 원하지 않는 불순물이 거의 없어야 하므로, 화학적 정제를 거쳐 순도를 <strong>99.9999999 %(9가 9개) 이상</strong>으로 높인다.</li>
+<li><strong>단결정 만들기</strong> 고순도 규소를 녹인 뒤 작은 씨앗 결정을 담갔다가 천천히 돌리며 끌어올리면, 원자 배열이 전체적으로 하나로 이어진 원기둥 모양의 <strong>단결정 덩어리(잉곳)</strong> 가 만들어진다.</li>
+<li><strong>웨이퍼</strong> 잉곳을 얇은 원판으로 잘라 거울처럼 매끈하게 연마한 것이 <strong>웨이퍼(wafer)</strong> 이다. 현재 주력 웨이퍼의 지름은 300 mm이다.</li>
+<li><strong>칩 만들기</strong> 웨이퍼 위에 회로 모양을 새기고, 필요한 부분에 불순물을 넣고(도핑), 절연막과 금속 배선을 쌓아 수많은 칩을 만든 뒤 하나씩 잘라 낸다.</li>
+</ol>
+<aside class="callout important"><p class="callout-title">핵심</p><p>반도체 공정의 순서는 &quot;<strong>먼저 불순물을 철저히 없애고 → 그다음 원하는 불순물을 원하는 곳에 원하는 양만큼 넣는다</strong>&quot;이다. 불순물을 제거하는 것과 넣는 것은 모순이 아니다. <strong>제어되지 않은</strong> 불순물을 없애야 <strong>제어된</strong> 불순물로 전기적 성질을 정확히 조절할 수 있다.</p>
+</aside>
+<h4 id="규소가-반도체-재료의-주인공이-된-이유">규소가 반도체 재료의 주인공이 된 이유</h4>
+<ul>
+<li>지각에 산소 다음으로 많아 원료(규사)가 풍부하다.</li>
+<li>불순물 첨가로 전기적 성질을 조절하기 쉽다.</li>
+<li>표면을 산소와 반응시키면 품질 좋은 <strong>절연막</strong>(규소 산화막)을 쉽게 만들 수 있어, 회로 안에서 전류가 흐르는 곳과 흐르지 않는 곳을 나누기 좋다.</li>
+</ul>
+<h4 id="예제-2-순도-계산하기">예제 2 — 순도 계산하기</h4>
+<p>(1) 순도 99.9999999 %인 규소에서 불순물 원자는 원자 몇 개 중 1개꼴인가?
+(2) 지름 300 mm 웨이퍼의 넓이는 약 몇 cm²인가? 가로·세로 1 cm인 칩을 이론적으로 최대 몇 개 정도 만들 수 있는지 어림하시오. (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4831em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">π</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">3.14</span></span></span></span>)</p>
+<p><strong>풀이</strong>
+(1) 불순물 비율 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">100</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">99.9999999</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8056em;vertical-align:-0.0556em;"></span><span class="mord">0.0000001</span><span class="mspace"> </span><span class="mord">%</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">100</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">0.0000001</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">9</span></span></span></span></span></span></span></span></span></span></span></span> → 원자 <strong>10억 개 중 1개</strong>꼴이다.
+(2) 반지름 15 cm → 넓이 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">3.14</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">5</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">3.14</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">225</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">707</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">c</span><span class="mord"><span class="mord mathrm">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span></span></span></span></span></span></span></span></span>. 칩 하나가 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">c</span><span class="mord"><span class="mord mathrm">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span></span></span></span></span></span></span></span></span>이므로 이론상 최대 약 700개이다. 실제로는 원판 가장자리에 사각형 칩을 다 채울 수 없고 불량품도 생기므로 이보다 적다.</p>
+<h3 id="2-6-⑤-전기적-성질을-응용한-다양한-소재">2-6-⑤ 전기적 성질을 응용한 다양한 소재</h3>
+<h4 id="1-초전도체-저항이-0이-되는-물질">(1) 초전도체: 저항이 0이 되는 물질</h4>
+<p>어떤 물질은 특정 온도(<strong>임계 온도</strong>) 이하로 차갑게 하면 <strong>전기 저항이 완전히 0</strong>이 된다. 이런 물질을 <strong>초전도체(superconductor)</strong> 라고 한다. 1911년 네덜란드의 카메를링 오너스가 수은을 약 −269 °C까지 냉각하여 처음 발견하였다.</p>
+<ul>
+<li>저항이 0이므로 전류가 흘러도 열로 잃는 에너지가 없다. 한번 흐르기 시작한 전류가 계속 흐를 수 있어 <strong>매우 강한 전자석</strong>을 만들 수 있다.</li>
+<li>초전도체는 내부로 자기장이 들어오지 못하게 밀어내는 성질이 있어, 자석 위에 초전도체를 놓으면 <strong>공중에 뜨는</strong> 현상을 볼 수 있다.</li>
+<li><strong>활용</strong>: 병원의 <strong>MRI(자기 공명 영상) 장치</strong>의 강한 자석, 핵융합 연구 장치의 자석, 손실이 적은 초전도 전력 케이블, 자기 부상 열차 연구</li>
+<li><strong>한계</strong>: 지금까지 쓰이는 초전도체는 액체 헬륨(약 −269 °C)이나 액체 질소(약 −196 °C)로 매우 차갑게 유지해야 한다. 상온에서 작동하는 초전도체는 아직 확인되지 않았다.</li>
+</ul>
+<h4 id="2-그래핀-원자-한-층-두께의-탄소-소재">(2) 그래핀: 원자 한 층 두께의 탄소 소재</h4>
+<p><strong>그래핀(graphene)</strong> 은 탄소 원자들이 벌집 모양의 육각형으로 연결된 <strong>원자 한 층 두께</strong>의 얇은 막이다. 연필심의 흑연은 그래핀이 수없이 겹쳐 쌓인 것이다.</p>
+<ul>
+<li>전기가 매우 잘 통하고, 매우 강하며, 거의 투명하고, 잘 휘어진다.</li>
+<li>2004년 흑연에서 접착테이프로 그래핀을 떼어 내는 데 성공한 안드레 가임과 콘스탄틴 노보셀로프는 2010년 노벨 물리학상을 받았다.</li>
+<li><strong>활용(연구·개발 중)</strong>: 휘어지는 투명 전극, 열을 빠르게 퍼뜨리는 방열 소재, 고감도 센서, 2차전지 소재 등</li>
+</ul>
+<h4 id="3-디스플레이-소재-빛과-전기를-함께-다루다">(3) 디스플레이 소재: 빛과 전기를 함께 다루다</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>소재</th>
+<th>전기적 성질</th>
+<th>쓰임</th>
+</tr>
+</thead><tbody><tr>
+<td>투명 전극(예: 인듐 주석 산화물)</td>
+<td><strong>투명하면서도 전기가 통한다</strong></td>
+<td>터치스크린, 디스플레이 화면의 전극, 태양 전지</td>
+</tr>
+<tr>
+<td>유기 발광 소재(OLED)</td>
+<td>전류가 흐르면 <strong>스스로 빛을 낸다</strong></td>
+<td>스마트폰·TV 화면, 휘어지는 디스플레이</td>
+</tr>
+<tr>
+<td>박막 트랜지스터용 반도체</td>
+<td>화소마다 전류를 켜고 끄는 스위치 역할</td>
+<td>디스플레이의 각 화소 제어</td>
+</tr>
+<tr>
+<td>액정</td>
+<td>전압에 따라 분자 배열이 바뀌어 빛의 통과를 조절</td>
+<td>LCD 화면</td>
+</tr>
+</tbody></table></div>
+<h4 id="4-그-밖의-소재">(4) 그 밖의 소재</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>소재</th>
+<th>전기적 성질</th>
+<th>활용</th>
+</tr>
+</thead><tbody><tr>
+<td>전도성 고분자</td>
+<td>플라스틱이면서 전기가 통한다(2000년 노벨 화학상)</td>
+<td>정전기 방지 필름, 유연한 전자 소자</td>
+</tr>
+<tr>
+<td>절연 피복재(가교 폴리에틸렌 등)</td>
+<td>높은 전압에서도 절연을 유지하고 열에 강하다</td>
+<td>고압 전력 케이블</td>
+</tr>
+<tr>
+<td>이온 전도 고체</td>
+<td>전자는 막고 이온만 이동시킨다(2-4 단원)</td>
+<td>전고체 전지의 고체 전해질</td>
+</tr>
+</tbody></table></div>
+<h4 id="예제-3">예제 3</h4>
+<p>다음 상황에 가장 알맞은 소재를 위에서 찾아 쓰고, 그 이유를 전기적 성질로 설명하시오.
+(1) 스마트폰 화면을 손가락으로 터치하면 위치를 인식해야 하는데, 화면은 투명해야 한다.
+(2) 병원의 MRI 장치에서 매우 강한 자기장을 오랫동안 안정적으로 만들어야 한다.</p>
+<p><strong>풀이</strong>
+(1) <strong>투명 전극</strong> — 빛을 통과시키면서도 전기가 통하므로, 화면을 가리지 않고 손가락이 닿은 위치의 전기적 변화를 전달할 수 있다.
+(2) <strong>초전도체</strong> — 저항이 0이라 큰 전류를 흘려도 열로 잃는 에너지가 없으므로, 강한 전자석을 안정적으로 유지할 수 있다.</p>
+<hr>
+<h2 id="step-4" class="step-h s4"><span class="step-badge s4">STEP 4</span><span class="h-text">오개념 바로잡기</span></h2>
+<div class="table-wrap"><table><thead><tr>
+<th>흔한 오개념</th>
+<th>올바른 개념</th>
+<th>왜 그럴까?</th>
+</tr>
+</thead><tbody><tr>
+<td>부도체에는 전자가 없다</td>
+<td>부도체에도 전자는 많지만 <strong>원자나 결합에 묶여</strong> 자유롭게 움직이지 못한다</td>
+<td>모든 물질은 원자로 이루어져 있고, 원자에는 전자가 있다</td>
+</tr>
+<tr>
+<td>반도체는 전기가 &#39;반만&#39; 통하는 물질이다</td>
+<td>반도체는 <strong>불순물·온도·빛 등에 따라 전기적 성질을 크게 바꿀 수 있는</strong> 물질이다</td>
+<td>중간 정도라는 점보다 &#39;조절할 수 있다&#39;는 점이 핵심이다</td>
+</tr>
+<tr>
+<td>불순물은 항상 품질을 떨어뜨린다</td>
+<td>반도체에서는 불순물을 <strong>일부러, 정밀하게</strong> 넣어 성질을 조절한다</td>
+<td>원하지 않는 불순물은 철저히 없애고, 원하는 불순물만 정해진 양을 넣는다</td>
+</tr>
+<tr>
+<td>금속만 전기가 통한다</td>
+<td>흑연, 그래핀, 전도성 고분자, 이온이 녹은 수용액도 전기가 통한다</td>
+<td>전하를 띤 입자가 이동할 수 있으면 전류가 흐른다</td>
+</tr>
+<tr>
+<td>스위치를 켜면 전선 속 전자가 빛처럼 빠르게 달려간다</td>
+<td>전선 속 자유 전자 하나하나는 <strong>매우 느리게</strong>(보통 1초에 1 mm도 안 되게) 이동한다</td>
+<td>도선 전체에 이미 자유 전자가 가득 차 있어 한꺼번에 밀리기 시작하므로 전등은 바로 켜진다</td>
+</tr>
+<tr>
+<td>실리콘 주방용품과 반도체 실리콘은 같은 물질이다</td>
+<td>반도체의 실리콘(silicon)은 <strong>규소 원소</strong>, 주방용품의 실리콘(silicone)은 규소를 포함한 <strong>고분자 물질</strong>이다</td>
+<td>우리말로는 둘 다 &#39;실리콘&#39;이라고 부르지만 영어 철자와 물질이 다르다</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-5" class="step-h s5"><span class="step-badge s5">STEP 5</span><span class="h-text">선택과목·대학으로 한 걸음 더</span></h2>
+<aside class="callout caution"><p class="callout-title">심화 · 평가 범위 밖</p><p>이 절은 <strong>통합과학 교육과정 범위 밖의 심화 내용</strong>으로 평가 대상이 아니다. &quot;이 개념이 앞으로 어디까지 이어지는가&quot;를 맛보기로 보여 주기 위한 내용이다.</p>
+</aside>
+<h3 id="고2-3-선택과목과의-연결">고2·3 선택과목과의 연결</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>과목</th>
+<th>이어지는 내용</th>
+</tr>
+</thead><tbody><tr>
+<td>물리학</td>
+<td>빛과 물질 — 고체의 <strong>에너지띠</strong> 구조로 도체와 부도체의 차이 설명, 반도체 소자의 원리(p-n 접합과 다이오드), 반도체·디스플레이 제작 공정에서의 빛</td>
+</tr>
+<tr>
+<td>전자기와 양자</td>
+<td>다이오드·트랜지스터 등 반도체 소자를 활용한 전자회로(정류, 증폭, 논리회로), 터널 효과</td>
+</tr>
+<tr>
+<td>물질과 에너지</td>
+<td>결정성 고체를 화학 결합의 종류에 따라 분류</td>
+</tr>
+</tbody></table></div>
+<h3 id="①-에너지띠-이론-39-자유-전자-39-를-더-정확하게">① 에너지띠 이론: &#39;자유 전자&#39;를 더 정확하게</h3>
+<p>원자가 하나일 때 전자는 정해진 에너지 준위만 가질 수 있다(2-1 단원의 선스펙트럼). 그런데 수많은 원자가 모여 고체가 되면 에너지 준위들이 촘촘히 모여 <strong>띠(band)</strong> 를 이룬다.</p>
+<ul>
+<li><strong>원자가 띠</strong>: 결합에 묶인 전자들이 차지하는 띠</li>
+<li><strong>전도띠</strong>: 전자가 자유롭게 움직일 수 있는 띠</li>
+<li><strong>띠틈(band gap)</strong>: 두 띠 사이에 전자가 가질 수 없는 에너지 간격</li>
+</ul>
+<div class="table-wrap"><table><thead><tr>
+<th>물질</th>
+<th>띠의 모양</th>
+<th>전기 전도성</th>
+</tr>
+</thead><tbody><tr>
+<td>도체</td>
+<td>원자가 띠와 전도띠가 겹치거나 전도띠가 일부 차 있다</td>
+<td>전자가 쉽게 움직인다</td>
+</tr>
+<tr>
+<td>반도체</td>
+<td>띠틈이 작다(규소 약 1.1 eV)</td>
+<td>열·빛으로 일부 전자가 전도띠로 올라간다</td>
+</tr>
+<tr>
+<td>부도체</td>
+<td>띠틈이 매우 크다</td>
+<td>전자가 거의 올라가지 못한다</td>
+</tr>
+</tbody></table></div>
+<p>STEP 3에서 &#39;자유 전자가 많다/적다&#39;라고 한 것을 대학 &#39;고체물리학&#39;에서는 이 에너지띠로 정확하게 설명한다.</p>
+<h3 id="②-n형-p형-반도체와-p-n-접합">② n형·p형 반도체와 p-n 접합</h3>
+<p>STEP 3에서 &quot;불순물을 넣으면 움직일 수 있는 전하가 늘어난다&quot;고만 했던 것을 원자가 전자 수로 들여다보면 다음과 같다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>넣는 불순물</th>
+<th>규소 결정 속에서 생기는 일</th>
+<th>결과</th>
+</tr>
+</thead><tbody><tr>
+<td>15족 원소(예: 인) — 원자가 전자 5개</td>
+<td>4개는 이웃 규소와 결합하고, <strong>1개가 남아</strong> 자유롭게 움직인다</td>
+<td>움직일 수 있는 전하가 늘어 전기가 잘 통한다</td>
+</tr>
+<tr>
+<td>13족 원소(예: 붕소) — 원자가 전자 3개</td>
+<td>결합할 전자가 <strong>1개 모자라 빈자리</strong>가 생기고, 이웃 전자가 그 빈자리로 옮겨 가며 전하가 이동한다</td>
+<td>움직일 수 있는 전하가 늘어 전기가 잘 통한다</td>
+</tr>
+</tbody></table></div>
+<ul>
+<li>15족 원소를 넣어 남는 전자가 전하를 운반하는 반도체를 <strong>n형 반도체</strong>(negative), 13족 원소를 넣어 생긴 전자의 빈자리(<strong>양공</strong>, hole)가 (+)전하처럼 움직이는 반도체를 <strong>p형 반도체</strong>(positive)라고 한다.</li>
+<li>p형과 n형을 맞붙인 <strong>p-n 접합</strong>은 한쪽 방향으로만 전류를 잘 흐르게 한다. 이것이 <strong>다이오드</strong>이다. 교류를 직류로 바꾸는 정류 회로에 쓰인다.</li>
+<li>접합에서 전자와 양공이 만나 빛을 내게 하면 <strong>발광 다이오드(LED)</strong>, 반대로 빛을 받아 전류를 만들면 <strong>태양 전지</strong>가 된다.</li>
+<li>p-n-p 또는 n-p-n 구조나 전압으로 전류의 통로를 여닫는 구조를 만들면 전류를 증폭하거나 켜고 끄는 <strong>트랜지스터</strong>가 된다.</li>
+</ul>
+<h3 id="③-비저항-물질-고유의-39-전기가-통하기-어려운-정도-39">③ 비저항: 물질 고유의 &#39;전기가 통하기 어려운 정도&#39;</h3>
+<p>모양과 관계없이 물질 자체의 성질을 나타내기 위해 <strong>비저항</strong> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">ρ</span></span></span></span>를 쓴다.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0463em;vertical-align:-0.686em;"></span><span class="mord mathnormal">ρ</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">A</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">L</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:2em;"></span><span class="mopen">(</span><span class="mord mathnormal">L</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord text"><span class="mord hangul_fallback">길이</span></span><span class="mpunct">,</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">A</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord text"><span class="mord hangul_fallback">단면적</span></span><span class="mpunct">,</span><span class="mspace"> </span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">ρ</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord text"><span class="mord hangul_fallback">비저항</span><span class="mord">, </span><span class="mord hangul_fallback">단위</span><span class="mord"> </span></span><span class="mord">Ω</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathrm">m</span><span class="mclose">)</span></span></span></span></span></p>
+<div class="table-wrap"><table><thead><tr>
+<th>물질</th>
+<th>비저항(대략적인 크기, 상온)</th>
+</tr>
+</thead><tbody><tr>
+<td>구리</td>
+<td>약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1.7</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">8</span></span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord">Ω</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathrm">m</span></span></span></span></td>
+</tr>
+<tr>
+<td>순수한 규소</td>
+<td>약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord">Ω</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathrm">m</span></span></span></span> 정도</td>
+</tr>
+<tr>
+<td>유리</td>
+<td>약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">10</span></span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord">Ω</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathrm">m</span></span></span></span> 이상</td>
+</tr>
+</tbody></table></div>
+<p>예를 들어 길이 10 m, 단면적 1 mm²(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">6</span></span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span></span></span></span></span></span></span></span>)인 구리선의 저항은</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1.7</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.9474em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">8</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:2.0908em;vertical-align:-0.7693em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7401em;"><span style="top:-2.989em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">6</span></span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">10</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7693em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">0.17</span><span class="mspace"> </span><span class="mord">Ω</span></span></span></span></span></p>
+<p>이다. 같은 모양의 유리라면 저항이 구리의 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">17</span></span></span></span></span></span></span></span></span></span></span></span>배 이상이다. 구리와 성능 좋은 절연체 사이에는 비저항이 20자릿수 넘게 차이 나기도 한다.</p>
+<h3 id="고등학교-vs-대학교">고등학교 vs 대학교</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>고등학교 통합과학</th>
+<th>대학교 고체물리학·반도체공학·재료공학</th>
+</tr>
+</thead><tbody><tr>
+<td>구분 기준</td>
+<td>자유 전자의 이동 정도</td>
+<td>에너지띠, 띠틈, 전하 운반자 농도와 이동도</td>
+</tr>
+<tr>
+<td>반도체</td>
+<td>불순물 첨가로 전기적 성질 제어</td>
+<td>n형·p형, p-n 접합, 다이오드·트랜지스터의 동작, 소자 설계</td>
+</tr>
+<tr>
+<td>정량화</td>
+<td>옴의 법칙 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.22222em;">V</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span></span></span></span></td>
+<td>비저항, 전도도, 운반자 농도 계산, 양자역학</td>
+</tr>
+<tr>
+<td>신소재</td>
+<td>초전도체·그래핀·디스플레이 소재 사례</td>
+<td>초전도 이론, 2차원 물질, 유기 반도체, 화합물 반도체</td>
+</tr>
+<tr>
+<td>관련 전공</td>
+<td>—</td>
+<td>전자공학, 반도체공학, 신소재공학, 물리학, 전기공학, 디스플레이공학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-6" class="step-h s6"><span class="step-badge s6">STEP 6</span><span class="h-text">산업 현장과 진로 연결</span></h2>
+<h3 id="사례-1-반도체-산업-웨이퍼-도핑-그리고-메모리">사례 1. 반도체 산업 — 웨이퍼, 도핑, 그리고 메모리</h3>
+<ul>
+<li><strong>웨이퍼 제조</strong> STEP 3-④의 과정처럼 고순도 규소로 단결정 잉곳을 만들고, 얇게 잘라 연마하여 웨이퍼를 만든다.</li>
+<li><strong>전공정(회로 만들기)</strong> 웨이퍼 위에 절연막을 만들고(산화), 빛으로 회로 모양을 옮기고(노광), 필요 없는 부분을 깎아 내고(식각), 불순물을 넣고(도핑), 얇은 막과 금속 배선을 쌓는(증착·배선) 과정을 수백 번 반복한다. 도핑은 주로 불순물 원소를 이온으로 만들어 가속한 뒤 웨이퍼 표면에 박아 넣는 <strong>이온 주입</strong> 방식으로 한다.</li>
+<li><strong>후공정</strong> 완성된 칩을 잘라 외부와 연결하고 보호 재료로 감싼 뒤(패키징), 제대로 작동하는지 검사한다.</li>
+<li><strong>청정한 환경</strong> 머리카락 굵기보다 훨씬 작은 회로를 만들기 때문에 먼지가 극도로 적은 <strong>클린룸</strong>과 이온을 제거한 <strong>초순수</strong>(2-4 단원)를 쓴다.</li>
+<li><strong>메모리 반도체</strong> 정보를 저장하는 반도체로, 전원이 꺼지면 정보가 사라지는 <strong>D램</strong>과 전원이 꺼져도 정보가 남는 <strong>낸드 플래시</strong>가 대표적이다. 우리나라는 메모리 반도체 분야에서 세계적인 생산국이며, 반도체는 우리나라의 주요 수출 품목이다.</li>
+<li><strong>새로운 흐름</strong> 전기차·충전기 등에 쓰이는 <strong>전력 반도체</strong>에서는 높은 전압과 온도에 강한 탄화 규소, 질화 갈륨 같은 화합물 반도체의 사용이 늘고 있다.</li>
+</ul>
+<h3 id="사례-2-디스플레이-산업">사례 2. 디스플레이 산업</h3>
+<ul>
+<li>스마트폰·TV 화면은 투명 전극, 화소마다 전류를 켜고 끄는 박막 트랜지스터, 스스로 빛을 내는 유기 발광 소재(OLED) 등 <strong>전기적 성질이 서로 다른 소재들을 층층이 쌓아</strong> 만든다.</li>
+<li>유리 기판 대신 휘어지는 플라스틱 기판을 쓰면 접거나 말 수 있는 디스플레이를 만들 수 있다. 우리나라는 디스플레이 산업에서도 세계적인 기술력을 갖추고 있다.</li>
+</ul>
+<h3 id="사례-3-전선과-절연-소재-도체와-부도체의-협력">사례 3. 전선과 절연 소재 — 도체와 부도체의 협력</h3>
+<ul>
+<li>가정용 전선은 <strong>구리(도체)</strong> 를 <strong>PVC 등 플라스틱(부도체)</strong> 으로 감싼 구조이다. 피복이 벗겨지면 감전이나 합선, 화재가 일어날 수 있다.</li>
+<li>송전선은 가벼운 <strong>알루미늄</strong>으로 만들고, 철탑과 전선 사이는 유리·도자기·고분자로 만든 <strong>애자</strong>로 절연한다.</li>
+<li>땅속에 묻는 고압 전력 케이블에는 높은 전압과 열을 견디는 절연 소재(가교 폴리에틸렌 등)가 쓰인다. 절연 소재의 품질이 전력망의 안전과 수명을 좌우한다.</li>
+</ul>
+<h3 id="사례-4-초전도-기술의-활용">사례 4. 초전도 기술의 활용</h3>
+<ul>
+<li><strong>의료</strong> 병원의 MRI 장치는 액체 헬륨으로 냉각한 초전도 코일로 강한 자기장을 만들어 몸속을 영상으로 보여 준다.</li>
+<li><strong>에너지 연구</strong> 우리나라의 핵융합 연구 장치 <strong>KSTAR</strong>(한국핵융합에너지연구원)는 초전도 자석으로 초고온 플라스마를 가두는 실험을 하고 있다.</li>
+<li><strong>전력</strong> 저항이 0인 초전도 케이블은 송전 중 에너지 손실을 크게 줄일 수 있어, 냉각 비용을 줄이는 기술과 함께 실증 연구가 이루어지고 있다.</li>
+</ul>
+<h3 id="관련-진로와-학과">관련 진로와 학과</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>진로</th>
+<th>하는 일</th>
+<th>관련 학과</th>
+</tr>
+</thead><tbody><tr>
+<td>반도체 공정 엔지니어</td>
+<td>웨이퍼 위 회로 제작 공정(노광·식각·도핑·증착) 개발과 관리</td>
+<td>전자공학, 반도체공학, 신소재공학, 화학공학</td>
+</tr>
+<tr>
+<td>반도체 소자·회로 설계자</td>
+<td>메모리·프로세서 등 칩의 구조와 회로 설계</td>
+<td>전자공학, 전기공학, 컴퓨터공학</td>
+</tr>
+<tr>
+<td>디스플레이 연구원</td>
+<td>OLED·투명 전극 등 디스플레이 소재와 공정 개발</td>
+<td>디스플레이공학, 신소재공학, 화학, 물리학</td>
+</tr>
+<tr>
+<td>신소재 연구원</td>
+<td>초전도체·그래핀 등 새로운 전자 소재 연구</td>
+<td>물리학, 신소재공학, 화학</td>
+</tr>
+<tr>
+<td>전력 설비 엔지니어</td>
+<td>전선·케이블·절연 설비 설계와 유지 관리</td>
+<td>전기공학</td>
+</tr>
+<tr>
+<td>의료 영상 장비 엔지니어</td>
+<td>MRI 등 의료 장비 개발·유지 관리</td>
+<td>의공학, 전기전자공학, 물리학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="탐구-활동-물질을-전기적-성질에-따라-구분하고-소재-활용-사례-조사하기">탐구 활동 — 물질을 전기적 성질에 따라 구분하고, 소재 활용 사례 조사하기</h2>
+<h3 id="활동-a-주변-물질의-전기-전도성-조사하기-모둠-활동">활동 A. 주변 물질의 전기 전도성 조사하기 (모둠 활동)</h3>
+<p><strong>목표</strong> 여러 물질에 같은 전압을 걸었을 때 전류가 흐르는 정도를 비교하여 도체와 부도체로 구분하고, 그 차이를 자유 전자의 이동으로 설명한다.</p>
+<p><strong>준비물</strong> 건전지(1.5 V 2개)와 건전지 끼우개, LED 또는 꼬마전구, 집게 전선 3개, 멀티미터(전류 측정 기능), 시료(구리선, 알루미늄 포일, 철 못, 연필심(흑연), 유리 막대, 고무줄, 플라스틱 자, 나무젓가락, 종이, 도자기 조각)</p>
+<p><strong>과정</strong></p>
+<ol>
+<li>건전지–LED(또는 꼬마전구)–멀티미터–시료를 집게 전선으로 연결한 간이 회로를 만든다. 시료 자리를 비워 두면 회로가 끊긴 상태이다.</li>
+<li>각 시료를 집게 사이에 끼우고, 집게 사이 간격을 약 5 cm로 같게 맞춘다.</li>
+<li>LED의 밝기와 멀티미터의 전류 값을 기록한다.</li>
+<li>결과를 바탕으로 시료를 도체와 부도체로 분류한다.</li>
+</ol>
+<p><strong>결과 기록</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>시료</th>
+<th>LED 밝기(밝음/어두움/꺼짐)</th>
+<th>전류(mA)</th>
+<th>분류</th>
+<th>자유 전자로 설명하기</th>
+</tr>
+</thead><tbody><tr>
+<td>구리선</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>알루미늄 포일</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>연필심(흑연)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>유리 막대</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>고무줄</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>플라스틱 자</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>나무젓가락</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<p><strong>생각해 보기</strong></p>
+<ol>
+<li>금속이 아닌데 전류가 흐른 시료가 있는가? 그 이유는 무엇일까?</li>
+<li>도체로 분류된 시료들 사이에서도 전류 값에 차이가 있는가? 차이가 생긴 원인(물질의 종류, 굵기 등)을 생각해 보자.</li>
+<li>전선을 만들 때 구리와 플라스틱을 함께 쓰는 이유를 이 실험 결과로 설명해 보자.</li>
+<li>반도체(규소)는 이 실험에서 어떤 결과를 보일지 예상하고, 반도체의 진짜 가치는 이 실험으로는 알 수 없는 어떤 성질에 있는지 쓰시오.</li>
+</ol>
+<aside class="callout warning"><p class="callout-title">주의</p><p><strong>안전 수칙</strong> 반드시 건전지 등 낮은 전압만 사용하고 가정용 콘센트에는 절대 연결하지 않는다. 도체 시료를 끼운 채 오래 두면 전선과 건전지가 뜨거워질 수 있으므로, 측정이 끝나면 바로 회로를 끊는다. 유리 막대와 도자기 조각을 다룰 때 깨지지 않도록 주의한다.</p>
+</aside>
+<h3 id="활동-b-39-미래-소재-카드-39-만들기-조사-발표-활동">활동 B. &#39;미래 소재 카드&#39; 만들기 (조사·발표 활동)</h3>
+<ol>
+<li>모둠별로 다음 중 하나를 고른다: 초전도체, 그래핀, 투명 전극, OLED 소재, 전력 반도체(탄화 규소 등), 고체 전해질, 전도성 고분자.</li>
+<li>아래 항목으로 소재 카드를 만든다.</li>
+</ol>
+<div class="table-wrap"><table><thead><tr>
+<th>항목</th>
+<th>내용</th>
+</tr>
+</thead><tbody><tr>
+<td>소재 이름</td>
+<td></td>
+</tr>
+<tr>
+<td>전기적 성질(도체·부도체·반도체·기타)</td>
+<td></td>
+</tr>
+<tr>
+<td>핵심 원리(한두 문장)</td>
+<td></td>
+</tr>
+<tr>
+<td>일상생활 활용 사례</td>
+<td></td>
+</tr>
+<tr>
+<td>첨단기술 활용 사례</td>
+<td></td>
+</tr>
+<tr>
+<td>현재의 한계와 해결 과제</td>
+<td></td>
+</tr>
+<tr>
+<td>관련 진로·학과</td>
+<td></td>
+</tr>
+</tbody></table></div>
+<ol start="3">
+<li>모둠별로 2분간 발표하고, 다른 모둠의 소재 중 &#39;10년 뒤 우리 생활을 가장 크게 바꿀 소재&#39;를 골라 근거와 함께 투표한다.</li>
+</ol>
+<hr>
+<h2 id="개념-확인-문제">개념 확인 문제</h2>
+<h3 id="기본">기본</h3>
+<p><strong>1.</strong> 다음 물질을 도체, 부도체, 반도체로 분류하시오.
+구리, 유리, 규소, 고무, 알루미늄, 저마늄</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 도체: 구리, 알루미늄 / 부도체: 유리, 고무 / 반도체: 규소, 저마늄</p>
+<p>도체는 자유 전자가 많아 전기가 잘 통하고, 부도체는 전자가 묶여 있어 자유 전자가 거의 없다. 규소와 저마늄은 14족 원소로 대표적인 반도체이다.</p>
+</div></details>
+
+<p><strong>2.</strong> 도체와 부도체의 차이를 &#39;자유 전자&#39;라는 말을 넣어 한 문장으로 설명하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답 예시</strong> 도체는 물질 속을 자유롭게 이동할 수 있는 자유 전자가 많아 전기가 잘 통하고, 부도체는 전자가 원자나 결합에 묶여 있어 자유 전자가 거의 없으므로 전기가 거의 통하지 않는다.</p>
+</div></details>
+
+<p><strong>3.</strong> 빈칸에 알맞은 말을 쓰시오.
+&quot;반도체는 순수한 상태에서 전기가 통하는 정도가 도체와 부도체의 중간이지만, ( ㄱ )을/를 아주 조금 첨가하면 전기적 성질을 크게 바꿀 수 있다. 이렇게 의도적으로 ( ㄱ )을/를 넣는 것을 ( ㄴ )(이)라고 한다.&quot;</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> ㄱ: 불순물(다른 원소), ㄴ: 도핑</p>
+</div></details>
+
+<p><strong>4.</strong> 초전도체의 뜻을 쓰고, 초전도체가 실제로 쓰이는 예를 한 가지 쓰시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 특정 온도(임계 온도) 이하에서 전기 저항이 0이 되는 물질이다. 예: MRI 장치의 강한 자석, 핵융합 연구 장치의 자석 등</p>
+</div></details>
+
+<h3 id="응용">응용</h3>
+<p><strong>5.</strong> 어떤 규소의 순도가 99.99999 %이다. 이 규소에서 규소 원자와 불순물 원자를 합쳐 1억 개를 골랐을 때, 그중 불순물 원자는 몇 개꼴인가?</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 10개</p>
+<p>불순물 비율 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">100</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">99.99999</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8056em;vertical-align:-0.0556em;"></span><span class="mord">0.00001</span><span class="mspace"> </span><span class="mord">%</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">7</span></span></span></span></span></span></span></span></span></span></span></span>
+불순물 원자 수 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">7</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10</span></span></span></span>개</p>
+<p>반도체용 규소는 이보다 순도가 100배 이상 높아야 한다(99.9999999 % 이상).</p>
+</div></details>
+
+<p><strong>6.</strong> 다음은 모래에서 반도체 칩을 만드는 과정을 순서 없이 나열한 것이다. 올바른 순서대로 기호를 쓰시오.
+ㄱ. 단결정 잉곳을 얇게 잘라 웨이퍼를 만든다.
+ㄴ. 규사를 탄소와 함께 높은 온도로 가열해 산소를 제거한다.
+ㄷ. 웨이퍼에 불순물을 넣고 회로를 새겨 칩을 만든다.
+ㄹ. 화학적 정제로 규소의 순도를 높인다.
+ㅁ. 고순도 규소를 녹여 단결정 잉곳을 만든다.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> ㄴ → ㄹ → ㅁ → ㄱ → ㄷ</p>
+<p>규사에서 산소를 떼어 규소를 얻고(ㄴ), 순도를 높인 뒤(ㄹ), 단결정 잉곳을 키워(ㅁ), 얇게 잘라 웨이퍼를 만들고(ㄱ), 도핑과 회로 공정으로 칩을 완성한다(ㄷ).</p>
+</div></details>
+
+<p><strong>7.</strong> 같은 모양과 크기로 만든 규소 막대 X, Y, Z에 같은 온도에서 2 V의 전압을 걸고 전류를 측정하였다. X는 순수한 규소이고, Y와 Z에는 같은 종류의 불순물을 아주 조금씩 서로 다른 양만큼 넣었다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>막대</th>
+<th>전류</th>
+</tr>
+</thead><tbody><tr>
+<td>X</td>
+<td>0.001 A</td>
+</tr>
+<tr>
+<td>Y</td>
+<td>0.05 A</td>
+</tr>
+<tr>
+<td>Z</td>
+<td>0.4 A</td>
+</tr>
+</tbody></table></div>
+<p>(1) 각 막대의 저항을 구하시오.
+(2) Y와 Z 중 불순물을 더 많이 넣은 막대는 어느 것으로 추론할 수 있는가?
+(3) 이 결과로 알 수 있는 반도체의 성질을 쓰고, 이 성질이 반도체 칩을 만드는 데 왜 중요한지 설명하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> (1) X: 2000 Ω, Y: 40 Ω, Z: 5 Ω (2) Z (3) 아래 해설 참조</p>
+<p>(1) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.22222em;">V</span><span class="mord">/</span><span class="mord mathnormal" style="margin-right:0.07847em;">I</span></span></span></span>이므로 X: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">2/0.001</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">2000</span><span class="mspace"> </span><span class="mord">Ω</span></span></span></span>, Y: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">2/0.05</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">40</span><span class="mspace"> </span><span class="mord">Ω</span></span></span></span>, Z: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">2/0.4</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">5</span><span class="mspace"> </span><span class="mord">Ω</span></span></span></span>이다.
+(2) 같은 종류의 불순물이라면 일정한 범위 안에서 많이 넣을수록 움직일 수 있는 전하가 늘어 전기가 더 잘 통한다. 저항이 더 작은(전류가 더 많이 흐른) Z에 불순물을 더 많이 넣었다고 추론할 수 있다.
+(3) 반도체는 불순물을 아주 조금 넣는 것만으로 전기가 통하는 정도가 크게 달라지고(X와 Z의 저항은 400배 차이), 넣는 양에 따라 그 정도를 조절할 수 있다. 즉, <strong>불순물 첨가로 전기적 성질을 쉽게 제어할 수 있다.</strong> 그래서 하나의 규소 조각 안에서도 영역마다 넣는 불순물을 달리하여 필요한 전기적 성질을 가진 수많은 전자 스위치를 만들 수 있다.</p>
+</div></details>
+
+<h3 id="융합-서술형">융합·서술형</h3>
+<p><strong>8. [산업 연계]</strong> 반도체 공장을 견학한 학생이 이렇게 말했다. &quot;규소를 99.9999999 % 이상으로 정제하느라 엄청난 비용을 들여 놓고, 다시 불순물을 넣는다니 이상해요.&quot; 이 학생에게 반도체 공정에서 &#39;불순물 제거&#39;와 &#39;불순물 첨가&#39;가 모두 필요한 이유를 설명하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+반도체는 아주 적은 양의 불순물로도 전기적 성질이 크게 변한다. 그래서 어떤 원소가 얼마나 들어 있는지 모르는 상태에서는 성질을 예측하거나 조절할 수 없다. 먼저 <strong>원하지 않는 불순물을 철저히 제거</strong>해 깨끗한 출발점을 만든 뒤, <strong>원하는 종류의 불순물을 원하는 위치에 정해진 양만큼 넣어야</strong> 각 부분의 전기적 성질을 정확하게 제어할 수 있다. 즉, 제거는 &#39;통제되지 않은 불순물&#39;을, 첨가는 &#39;통제된 불순물&#39;을 다루는 것이므로 모순이 아니다.</p>
+<p><strong>채점 포인트</strong> ① 반도체는 불순물에 민감함 ② 원치 않는 불순물 제거로 기준 상태 확보 ③ 의도한 불순물을 정밀하게 넣어 성질 제어</p>
+</div></details>
+
+<p><strong>9. [생활·진로 연계]</strong> 스마트폰을 분해하면 다음 부품들이 있다. 각 부품에 쓰인 소재의 전기적 성질을 쓰고, 그 성질이 필요한 이유를 설명하시오. 또 이 단원에서 배운 신소재 하나를 골라 미래의 스마트폰에 어떻게 쓰일 수 있을지 제안하시오.
+(가) 충전 단자와 내부 배선 (나) 회로 기판과 케이스 (다) 정보를 처리하고 저장하는 칩 (라) 터치 화면의 전극</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+(가) <strong>도체</strong>(구리·금 등) — 자유 전자가 많아 전류를 손실 적게 전달해야 한다.
+(나) <strong>부도체</strong> — 서로 다른 회로가 합선되지 않도록 전류의 길을 나누고, 사용자를 감전에서 보호해야 한다.
+(다) <strong>반도체</strong>(규소) — 불순물 첨가로 영역마다 전기적 성질을 제어해 수많은 전자 스위치를 만들어야 정보를 0과 1로 처리·저장할 수 있다.
+(라) <strong>투명 전극</strong> — 화면을 가리지 않도록 투명하면서도 손가락 위치에 따른 전기적 변화를 전달해야 한다.
+<strong>제안 예</strong> 그래핀은 전기가 잘 통하고 투명하며 잘 휘어지므로, 접거나 돌돌 마는 스마트폰의 투명 전극으로 쓸 수 있다. 또 열을 빠르게 퍼뜨리는 성질을 이용해 칩의 발열을 줄이는 방열 소재로 쓸 수 있다.</p>
+<p><strong>채점 포인트</strong> ① 부품별 전기적 성질을 바르게 연결 ② 필요한 이유를 자유 전자·제어 가능성으로 설명 ③ 신소재의 성질과 활용을 근거 있게 연결</p>
+</div></details>
+
+<hr>
+<h2 id="한눈에-정리">한눈에 정리</h2>
+<h3 id="핵심-요약">핵심 요약</h3>
+<ul>
+<li>물질은 <strong>자유 전자의 이동 정도</strong>에 따라 <strong>도체</strong>(자유 전자 많음), <strong>부도체·절연체</strong>(자유 전자 거의 없음), <strong>반도체</strong>(중간)로 구분한다.</li>
+<li>도체(구리, 알루미늄, 금, 흑연)는 전선·전극에, 부도체(고무, 플라스틱, 유리, 도자기)는 피복·애자·기판에 쓰인다.</li>
+<li>반도체(규소, 저마늄)는 <strong>불순물을 아주 조금 첨가하여(도핑) 전기적 성질을 쉽게, 정밀하게 제어</strong>할 수 있다.</li>
+<li>반도체의 주재료인 <strong>규소</strong>는 지각의 규산염 광물(석영이 많은 <strong>규사</strong>)에서 산소를 제거하고 정제하여 얻으며, 단결정 잉곳 → 웨이퍼 → 칩으로 만들어진다.</li>
+<li><strong>초전도체</strong>(임계 온도 이하에서 저항 0, MRI·핵융합 장치), <strong>그래핀</strong>(원자 한 층의 탄소, 전도성·강도·투명성), <strong>디스플레이 소재</strong>(투명 전극, OLED) 등 전기적 성질을 응용한 소재가 첨단기술을 이끈다.</li>
+<li>하나의 기기 속에서도 <strong>도체·부도체·반도체가 각자의 전기적 성질에 맞는 역할</strong>을 나누어 맡는다.</li>
+</ul>
+<h3 id="핵심-용어">핵심 용어</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>용어</th>
+<th>뜻</th>
+</tr>
+</thead><tbody><tr>
+<td>자유 전자</td>
+<td>특정 원자에 묶이지 않고 물질 속을 자유롭게 이동하는 전자</td>
+</tr>
+<tr>
+<td>도체</td>
+<td>자유 전자가 많아 전기가 잘 통하는 물질</td>
+</tr>
+<tr>
+<td>부도체(절연체)</td>
+<td>전자가 묶여 있어 자유 전자가 거의 없어 전기가 거의 통하지 않는 물질</td>
+</tr>
+<tr>
+<td>반도체</td>
+<td>전기가 통하는 정도가 도체와 부도체의 중간이며, 불순물 첨가로 전기적 성질을 제어할 수 있는 물질</td>
+</tr>
+<tr>
+<td>도핑</td>
+<td>반도체에 불순물을 의도적으로 넣어 전기적 성질을 조절하는 것</td>
+</tr>
+<tr>
+<td>웨이퍼</td>
+<td>고순도 단결정 규소를 얇은 원판으로 잘라 연마한 반도체 칩의 기판</td>
+</tr>
+<tr>
+<td>초전도체</td>
+<td>임계 온도 이하에서 전기 저항이 0이 되는 물질</td>
+</tr>
+<tr>
+<td>그래핀</td>
+<td>탄소 원자가 벌집 모양으로 연결된 원자 한 층 두께의 소재</td>
+</tr>
+</tbody></table></div>
+<h3 id="다음-단원으로">다음 단원으로</h3>
+<p>지금까지 원소에서 출발해 화학 결합, 지각과 생명체의 구성 물질, 그리고 물질의 전기적 성질과 첨단 소재까지 &#39;물질의 규칙성&#39;을 따라왔다. 다음 대단원에서는 시야를 넓혀, 이런 물질들이 모여 이룬 거대한 시스템인 <strong>지구시스템</strong>이 기권·수권·지권·생물권 사이에서 물질과 에너지를 주고받으며 어떻게 상호작용하는지 탐구한다.</p>
+<nav class="pager"><a class="prev" href="2-5.html"><small>이전 단원</small>2-5 지각과 생명체 구성 물질의 규칙성</a><a class="next" href="3-1.html"><small>다음 단원</small>3-1 지구시스템의 구성과 상호작용</a></nav></article></div>
+</main>
+</div>
+</body>
+</html>
