@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 530" role="img" aria-labelledby="t-3-3-orbits d-3-3-orbits">
+  <title id="t-3-3-orbits">그림 3-3-2 인공위성의 궤도 높이 비교</title>
+  <desc id="d-3-3-orbits">지구와 궤도의 반지름을 실제 비율대로 그렸다. 높은 궤도를 도는 위성일수록 공전 속력은 느리고 한 바퀴 도는 데 걸리는 시간은 길다.</desc>
+  <style>
+    .orb-b{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+    .orb-txt{font-size:13px;fill:var(--fig-ink)}
+    .orb-sm{font-size:12px;fill:var(--fig-muted)}
+  </style>
+  <path d="M625.9 20.0A582.3 582.3 0 0 1 630.5 510.0" style="fill:none;stroke:var(--fig-amber);stroke-width:2.5"/>
+  <path d="M368.7 20.0A367.0 367.0 0 0 1 377.7 510.0" style="fill:none;stroke:var(--fig-violet);stroke-width:2.5"/>
+  <circle cx="100" cy="270" r="88" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <circle cx="100" cy="270" r="93.5" style="fill:none;stroke:var(--fig-teal);stroke-width:2"/>
+  <text x="100" y="266" text-anchor="middle" class="orb-b">지구</text>
+  <text x="100" y="284" text-anchor="middle" class="orb-sm" style="fill:var(--fig-ink)">반지름 약 6400 km</text>
+  <rect x="170.6" y="210.4" width="12" height="12" rx="2" style="fill:var(--fig-teal);stroke:var(--fig-paper);stroke-width:1.5"/>
+  <rect x="438.9" y="138.5" width="12" height="12" rx="2" style="fill:var(--fig-violet);stroke:var(--fig-paper);stroke-width:1.5"/>
+  <rect x="656.5" y="414.7" width="12" height="12" rx="2" style="fill:var(--fig-amber);stroke:var(--fig-paper);stroke-width:1.5"/>
+  <path d="M182.6 210.4L205 182" style="stroke:var(--fig-teal);stroke-width:1.2;fill:none"/>
+  <text x="210" y="140" class="orb-b" style="fill:var(--fig-teal)">저궤도 위성 <tspan class="orb-sm">(ISS 등)</tspan></text>
+  <text x="210" y="158" class="orb-txt">고도 약 400 km</text>
+  <text x="210" y="176" class="orb-txt">약 90분 · 약 7.7 km/s</text>
+  <text x="460" y="128" class="orb-b" style="fill:var(--fig-violet)">GPS 위성</text>
+  <text x="460" y="146" class="orb-txt">고도 약 20,200 km</text>
+  <text x="460" y="164" class="orb-txt">약 12시간 · 약 3.9 km/s</text>
+  <text x="440" y="440" class="orb-b" style="fill:var(--fig-amber)">정지 궤도 위성</text>
+  <text x="440" y="458" class="orb-txt">고도 약 35,786 km</text>
+  <text x="440" y="476" class="orb-txt">약 23시간 56분 · 약 3.1 km/s</text>
+  <text x="440" y="494" class="orb-sm">적도 상공, 지구 자전과 같은 주기</text>
+  <text x="20" y="34" class="orb-sm">축척: 지구와 궤도의 반지름은 실제 비율</text>
+  <text x="20" y="52" class="orb-sm">달은 이 그림 밖, 지구 반지름의 약 60배 거리</text>
+  <text x="20" y="500" class="orb-txt" style="font-weight:600">높이 돌수록 공전 속력은 느리고,</text>
+  <text x="20" y="518" class="orb-txt" style="font-weight:600">한 바퀴 도는 시간은 길다.</text>
+</svg>

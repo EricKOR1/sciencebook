@@ -229,7 +229,6 @@ Sims.register('neutralization', {
         ctx.save(); if (c.c) { ctx.globalAlpha = 0.7; ctx.fillStyle = c.c; } else { ctx.globalAlpha = 0.15; ctx.fillStyle = T.figLine; }
         ctx.fillRect(sx(a), B + 6, sx(a + STEP) - sx(a) + 0.5, 9); ctx.restore();
       }
-      if (cur > 0) { ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left'; }
       // 측정한 곡선
       ctx.strokeStyle = T.figAccent; ctx.lineWidth = 2.4; ctx.beginPath();
       for (var u = 0; u <= cur; u += STEP) { if (u) ctx.lineTo(sx(u), sy(temp(u))); else ctx.moveTo(sx(u), sy(temp(u))); }
@@ -243,7 +242,7 @@ Sims.register('neutralization', {
         ctx.fillText('중화점: 온도 최고 (' + temp(VA).toFixed(1) + ' °C)', sx(VA), sy(temp(VA)) - 10);
       }
       ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right';
-      ctx.fillText('점선: 끝까지 넣을 때의 예상', R, Tp + 4);
+      ctx.fillText('점선: 끝까지 넣을 때의 예상', R, B - 8);
     }
     function roundRect(x, y, w, h, r) { ctx.beginPath(); ctx.moveTo(x + r, y); ctx.arcTo(x + w, y, x + w, y + h, r); ctx.arcTo(x + w, y + h, x, y + h, r); ctx.arcTo(x, y + h, x, y, r); ctx.arcTo(x, y, x + w, y, r); ctx.closePath(); }
 

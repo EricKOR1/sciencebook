@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 416" role="img" aria-labelledby="t-3-3-strobe d-3-3-strobe">
+  <title id="t-3-3-strobe">그림 3-3-1 자유 낙하와 수평으로 던진 공의 다중 섬광 사진(모식도)</title>
+  <desc id="d-3-3-strobe">0.1초 간격으로 두 공의 위치를 겹쳐 나타냈다. 두 공은 매 순간 같은 높이에 있고, 수평으로 던진 공은 같은 시간 동안 같은 수평 거리를 간다. 공기 저항은 무시했다.</desc>
+  <style>
+    .stb-txt{font-size:13px;fill:var(--fig-ink)}
+    .stb-b{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+    .stb-sm{font-size:12px;fill:var(--fig-muted)}
+    .stb-a{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2}
+    .stb-bb{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+    .stb-dash{stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:4 4;fill:none}
+    .stb-vy{stroke:var(--fig-red);stroke-width:2.5;fill:none}
+    .stb-vx{stroke:var(--fig-blue);stroke-width:2.5;fill:none}
+  </style>
+  <rect x="40" y="374" width="660" height="8" style="fill:var(--fig-soft-green)"/>
+  <path d="M40 374H700" style="stroke:var(--fig-green);stroke-width:2;fill:none"/>
+  <text x="110" y="26" text-anchor="middle" class="stb-b">A 가만히 놓음</text>
+  <text x="172" y="26" class="stb-b">B 수평으로 던짐 <tspan class="stb-sm">(3 m/s)</tspan></text>
+  <path d="M170 52H530" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/>
+  <path d="M170 47V57" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/>
+  <path d="M242 47V57" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/>
+  <path d="M314 47V57" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/>
+  <path d="M386 47V57" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/>
+  <path d="M458 47V57" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/>
+  <path d="M530 47V57" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/>
+  <text x="206" y="46" text-anchor="middle" class="stb-sm">0.3 m</text>
+  <text x="278" y="46" text-anchor="middle" class="stb-sm">0.3 m</text>
+  <text x="350" y="46" text-anchor="middle" class="stb-sm">0.3 m</text>
+  <text x="422" y="46" text-anchor="middle" class="stb-sm">0.3 m</text>
+  <text x="494" y="46" text-anchor="middle" class="stb-sm">0.3 m</text>
+  <path d="M110 70.0H170" class="stb-dash"/>
+  <path d="M110 81.8H242" class="stb-dash"/>
+  <path d="M110 117.0H314" class="stb-dash"/>
+  <path d="M110 175.8H386" class="stb-dash"/>
+  <path d="M110 258.2H458" class="stb-dash"/>
+  <path d="M110 364.0H530" class="stb-dash"/>
+  <text x="92" y="74.0" text-anchor="end" class="stb-sm" style="fill:var(--fig-ink)">0 s</text>
+  <text x="92" y="85.8" text-anchor="end" class="stb-sm" style="fill:var(--fig-ink)">0.1 s</text>
+  <text x="92" y="121.0" text-anchor="end" class="stb-sm" style="fill:var(--fig-ink)">0.2 s</text>
+  <text x="92" y="179.8" text-anchor="end" class="stb-sm" style="fill:var(--fig-ink)">0.3 s</text>
+  <text x="92" y="262.2" text-anchor="end" class="stb-sm" style="fill:var(--fig-ink)">0.4 s</text>
+  <text x="92" y="368.0" text-anchor="end" class="stb-sm" style="fill:var(--fig-ink)">0.5 s</text>
+  <circle cx="110" cy="70.0" r="9" class="stb-a"/>
+  <circle cx="170" cy="70.0" r="9" class="stb-bb"/>
+  <circle cx="110" cy="81.8" r="9" class="stb-a"/>
+  <circle cx="242" cy="81.8" r="9" class="stb-bb"/>
+  <circle cx="110" cy="117.0" r="9" class="stb-a"/>
+  <circle cx="314" cy="117.0" r="9" class="stb-bb"/>
+  <circle cx="110" cy="175.8" r="9" class="stb-a"/>
+  <circle cx="386" cy="175.8" r="9" class="stb-bb"/>
+  <circle cx="110" cy="258.2" r="9" class="stb-a"/>
+  <circle cx="458" cy="258.2" r="9" class="stb-bb"/>
+  <circle cx="110" cy="364.0" r="9" class="stb-a"/>
+  <circle cx="530" cy="364.0" r="9" class="stb-bb"/>
+  <path d="M110 90.8V96.6" class="stb-vy"/><path d="M110 102.6l-5 -8h10z" style="fill:var(--fig-red)"/>
+  <path d="M242 90.8V96.6" class="stb-vy"/><path d="M242 102.6l-5 -8h10z" style="fill:var(--fig-red)"/>
+  <path d="M110 126.0V143.6" class="stb-vy"/><path d="M110 149.6l-5 -8h10z" style="fill:var(--fig-red)"/>
+  <path d="M314 126.0V143.6" class="stb-vy"/><path d="M314 149.6l-5 -8h10z" style="fill:var(--fig-red)"/>
+  <path d="M110 184.8V214.2" class="stb-vy"/><path d="M110 220.2l-5 -8h10z" style="fill:var(--fig-red)"/>
+  <path d="M386 184.8V214.2" class="stb-vy"/><path d="M386 220.2l-5 -8h10z" style="fill:var(--fig-red)"/>
+  <path d="M110 267.2V308.4" class="stb-vy"/><path d="M110 314.4l-5 -8h10z" style="fill:var(--fig-red)"/>
+  <path d="M458 267.2V308.4" class="stb-vy"/><path d="M458 314.4l-5 -8h10z" style="fill:var(--fig-red)"/>
+  <path d="M179 70.0H209" class="stb-vx"/><path d="M215 70.0l-8 -5v10z" style="fill:var(--fig-blue)"/>
+  <path d="M251 81.8H281" class="stb-vx"/><path d="M287 81.8l-8 -5v10z" style="fill:var(--fig-blue)"/>
+  <path d="M323 117.0H353" class="stb-vx"/><path d="M359 117.0l-8 -5v10z" style="fill:var(--fig-blue)"/>
+  <path d="M395 175.8H425" class="stb-vx"/><path d="M431 175.8l-8 -5v10z" style="fill:var(--fig-blue)"/>
+  <path d="M467 258.2H497" class="stb-vx"/><path d="M503 258.2l-8 -5v10z" style="fill:var(--fig-blue)"/>
+  <text x="530" y="110" class="stb-b">같은 시각 → 같은 높이</text>
+  <text x="530" y="130" class="stb-txt">그래서 동시에 바닥에 닿는다</text>
+  <text x="530" y="170" class="stb-txt">수평: 힘이 없다 → 등속 운동</text>
+  <text x="530" y="190" class="stb-txt">연직: 중력 → 자유 낙하</text>
+  <text x="530" y="210" class="stb-sm">(구간 낙하 거리 1 : 3 : 5 : 7 : 9)</text>
+  <text x="40" y="404" class="stb-sm">0.1 s 간격 · 공기 저항 무시</text>
+  <path d="M400 392V406" class="stb-vy"/><path d="M400 410l-5 -8h10z" style="fill:var(--fig-red)"/>
+  <text x="412" y="404" class="stb-txt">연직 방향 속도</text>
+  <path d="M540 399H566" class="stb-vx"/><path d="M574 399l-8 -5v10z" style="fill:var(--fig-blue)"/>
+  <text x="582" y="404" class="stb-txt">수평 방향 속도</text>
+</svg>

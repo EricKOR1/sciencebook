@@ -38,14 +38,15 @@
   <text x="470.0" y="278.0" text-anchor="start" class="tsp-lbl tsp-b">③ 방출(선) 스펙트럼</text>
   <rect x="470" y="288" width="230" height="36" class="tsp-night" style="stroke:var(--fig-line);stroke-width:1"/>
   <rect x="476.3" y="288" width="3" height="36" style="fill:var(--fig-violet)"/>
-  <rect x="494.6" y="288" width="3" height="36" style="fill:var(--fig-violet)"/>
+  <rect x="494.6" y="288" width="3" height="36" style="fill:var(--fig-blue)"/>
   <rect x="534.5" y="288" width="3" height="36" style="fill:var(--fig-teal)"/>
   <rect x="665.0" y="288" width="3" height="36" style="fill:var(--fig-red)"/>
   <line x1="477.8" y1="210" x2="477.8" y2="286" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:3 3"/>
   <line x1="496.1" y1="210" x2="496.1" y2="286" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:3 3"/>
   <line x1="536.0" y1="210" x2="536.0" y2="286" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:3 3"/>
   <line x1="666.5" y1="210" x2="666.5" y2="286" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:3 3"/>
-  <text x="585.0" y="248.0" text-anchor="middle" class="tsp-sm">검은 선과 밝은 선의 위치가 같다</text>
+  <rect x="476" y="235" width="218" height="20" rx="4" style="fill:var(--fig-paper)"/>
+  <text x="585.0" y="250.0" text-anchor="middle" class="tsp-sm">검은 선과 밝은 선의 위치가 같다</text>
   <line x1="470.0" y1="324" x2="470.0" y2="330" style="stroke:var(--fig-line);stroke-width:1"/>
   <text x="470.0" y="344.0" text-anchor="middle" class="tsp-sm">400</text>
   <line x1="546.7" y1="324" x2="546.7" y2="330" style="stroke:var(--fig-line);stroke-width:1"/>

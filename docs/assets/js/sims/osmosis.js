@@ -1,7 +1,7 @@
 /* 3-5 막을 통한 물질 이동: 입자는 무작위로 움직이지만 알짜 이동이 생긴다 (확산·삼투·적혈구) */
 Sims.register('osmosis', {
   title: '막을 사이에 둔 입자들 — 확산과 삼투',
-  caption: '입자 하나하나는 방향 없이 무작위로 움직이며 막을 양쪽으로 오간다. 그런데 한쪽으로 가는 수가 더 많아 알짜 이동이 생긴다. 확산에서는 용질이 농도가 높은 쪽에서 낮은 쪽으로, 삼투에서는 물이 용질 농도가 낮은 쪽에서 높은 쪽으로 이동한다. 용질 입자 수를 바꾸어 수위 변화를 비교하고, 적혈구 실험도 눌러 보자. 입자 수·속도·수위는 설명을 위해 단순화한 모형이며, 실제로는 높아진 수위의 압력이 물의 이동을 막아 수위 차이가 어느 정도에서 멈춘다.',
+  caption: '입자 하나하나는 방향 없이 무작위로 움직이며 막을 양쪽으로 오간다. 그래도 한쪽으로 가는 수가 더 많아 알짜 이동이 생긴다. 확산에서는 용질이 농도가 높은 쪽 → 낮은 쪽으로, 삼투에서는 물이 용질 농도가 낮은 쪽 → 높은 쪽으로 이동한다(적혈구 실험도 눌러 보자). 입자 수·속도·수위는 설명을 위해 단순화한 모형이며, 실제 삼투에서는 높아진 수위의 압력 때문에 수위 차이가 어느 정도에서 멈춘다.',
   init: function (api) {
     var NSIDE = 90;          // 한쪽 칸의 처음 입자 수(물 + 용질): 두 칸의 처음 부피를 같게
     var H0 = 0.45;           // 처음 수위(통 높이에 대한 비율)
@@ -267,19 +267,21 @@ Sims.register('osmosis', {
     }
     function drawRbc(T, w, h) {
       var narrow = w < 560, c = RBC[st.rbc], p = st.rbcP;
-      var cx = w / 2, cy = h * (narrow ? 0.47 : 0.48), R0 = Math.min(w, h) * (narrow ? 0.2 : 0.2);
+      var bottomH = narrow ? 80 : 60, pTop = 30, pBot = h - bottomH;
+      var cx = w / 2, cy = (pTop + pBot) / 2, R0 = Math.min(w, pBot - pTop) * (narrow ? 0.17 : 0.2);
       ctx.textAlign = 'center'; ctx.textBaseline = 'alphabetic';
       // 바깥 용액
-      ctx.fillStyle = T.figSoftBlue; ctx.fillRect(10, 30, w - 20, h - (narrow ? 96 : 70));
+      ctx.fillStyle = T.figSoftBlue; ctx.fillRect(10, pTop, w - 20, pBot - pTop);
       ctx.font = '600 13px ' + T.fontBody; ctx.fillStyle = T.figInk;
       ctx.fillText('바깥 용액: ' + c.name, cx, 20);
       // 바깥 용질 입자(농도 표시)
-      var nOut = Math.round(c.outC * 26);
+      var nOut = Math.round(c.outC * (narrow ? 14 : 26));
       var seed = 7;
       function rr() { seed = (seed * 9301 + 49297) % 233280; return seed / 233280; }
-      for (var i = 0; i < nOut; i++) {
-        var px = 22 + rr() * (w - 44), py = 42 + rr() * (h - (narrow ? 96 : 70) - 24);
-        if (Math.hypot(px - cx, py - cy) < R0 * 1.45) continue;
+      for (var i = 0; i < nOut * 2 && nOut > 0; i++) {
+        var px = 22 + rr() * (w - 44), py = pTop + 10 + rr() * (pBot - pTop - 20);
+        if (Math.hypot(px - cx, py - cy) < R0 * 1.75 || (py < pTop + 26 && px < 130)) continue;
+        if (--nOut < 0) break;
         dot(px, py, 4.5, T.figAmber, T.figInk);
       }
       // 세포 모양
@@ -333,19 +335,21 @@ Sims.register('osmosis', {
         });
       }
       // 상태 글
-      ctx.font = '600 13px ' + T.fontBody; ctx.fillStyle = burst ? T.figRed : T.figInk;
-      var yRes = h - (narrow ? 52 : 26);
-      ctx.fillText('물의 알짜 이동: ' + c.net + ' → ' + (p >= 1 ? c.res : '…'), cx, yRes);
-      ctx.font = '12px ' + T.fontBody; ctx.fillStyle = T.figMuted;
-      var plant = c.plant;
-      if (narrow && ctx.measureText(plant).width > w - 20) {
-        var cut = plant.indexOf(':') + 1;
-        ctx.fillText(plant.slice(0, cut), cx, yRes + 20); ctx.fillText(plant.slice(cut).trim(), cx, yRes + 36);
-      } else ctx.fillText(plant, cx, yRes + 20);
+      var y0 = pBot + 18, lines = [];
+      ctx.font = '600 13px ' + T.fontBody;
+      lines.push(['물의 알짜 이동: ' + c.net, T.figInk, '600 13px ']);
+      lines.push(['결과: ' + (p >= 1 ? c.res : '변하는 중…'), burst ? T.figRed : T.figInk, '600 13px ']);
+      ctx.font = '12px ' + T.fontBody;
+      if (ctx.measureText(c.plant).width > w - 20) {
+        var cut = c.plant.indexOf(':') + 1;
+        lines.push([c.plant.slice(0, cut), T.figMuted, '12px ']); lines.push([c.plant.slice(cut).trim(), T.figMuted, '12px ']);
+      } else lines.push([c.plant, T.figMuted, '12px ']);
+      if (!narrow) { lines[0][0] += '  →  결과: ' + (p >= 1 ? c.res : '변하는 중…'); lines[0][1] = burst ? T.figRed : T.figInk; lines.splice(1, 1); }
+      lines.forEach(function (ln, i) { ctx.font = ln[2] + T.fontBody; ctx.fillStyle = ln[1]; ctx.fillText(ln[0], cx, y0 + i * 17); });
       // 범례
       ctx.textAlign = 'left'; ctx.font = '11px ' + T.fontBody;
-      dot(18, 44, 3, T.figBlue); ctx.fillStyle = T.figInk; ctx.fillText('물 분자', 25, 48);
-      dot(78, 44, 4.5, T.figAmber, T.figInk); ctx.fillText('용질', 86, 48);
+      dot(20, pTop + 12, 3, T.figBlue); ctx.fillStyle = T.figInk; ctx.fillText('물 분자', 27, pTop + 16);
+      dot(80, pTop + 12, 4.5, T.figAmber, T.figInk); ctx.fillText('용질', 88, pTop + 16);
     }
 
     api.onResize(draw);

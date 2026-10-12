@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-labelledby="t-6-2-common-cause d-6-2-common-cause">
+  <title id="t-6-2-common-cause">그림 6-2-1 상관관계와 인과관계 — 숨은 공통 원인</title>
+  <desc id="d-6-2-common-cause">아이스크림 판매량과 물놀이 사고는 여름에 함께 늘어나지만(상관관계), 하나가 다른 하나의 원인은 아니다. 높은 기온이라는 공통 원인이 둘을 함께 늘린다. 왼쪽 그래프는 경향만 나타낸 가상의 모식도이다.</desc>
+  <style>
+    .f62cc-h{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .f62cc-tx{font-size:14px;fill:var(--fig-ink)}
+    .f62cc-sm{font-size:12px;fill:var(--fig-muted)}
+    .f62cc-ax{stroke:var(--fig-line);stroke-width:1.5;fill:none}
+    .f62cc-box{stroke-width:2}
+  </style>
+  <!-- 왼쪽: 보이는 것 -->
+  <text x="20" y="26" class="f62cc-h">보이는 것: 둘이 함께 늘었다 (상관관계)</text>
+  <path class="f62cc-ax" d="M50 52 V240 H344"/>
+  <text x="44" y="64" text-anchor="end" class="f62cc-sm">많음</text>
+  <text x="44" y="240" text-anchor="end" class="f62cc-sm">적음</text>
+  <g class="f62cc-sm" text-anchor="middle">
+    <text x="62" y="258">1</text><text x="112" y="258">3</text><text x="162" y="258">5</text><text x="212" y="258">7</text><text x="262" y="258">9</text><text x="312" y="258">11</text>
+  </g>
+  <text x="190" y="278" text-anchor="middle" class="f62cc-sm">월</text>
+  <rect x="186" y="56" width="62" height="184" style="fill:var(--fig-soft-amber)"/>
+  <text x="217" y="72" text-anchor="middle" class="f62cc-sm">여름</text>
+  <polyline points="62,206 87,206 112,190 137,174 162,150 187,118 212,86 237,78 262,126 287,166 312,190 337,206" style="fill:none;stroke:var(--fig-blue);stroke-width:3;stroke-linejoin:round"/>
+  <polyline points="62,232 87,232 112,227 137,221 162,200 187,160 212,96 237,88 262,176 287,216 312,227 337,232" style="fill:none;stroke:var(--fig-red);stroke-width:3;stroke-linejoin:round;stroke-dasharray:8 4"/>
+  <line x1="60" y1="296" x2="84" y2="296" style="stroke:var(--fig-blue);stroke-width:3"/>
+  <text x="90" y="301" class="f62cc-sm">아이스크림 판매량</text>
+  <line x1="206" y1="296" x2="230" y2="296" style="stroke:var(--fig-red);stroke-width:3;stroke-dasharray:8 4"/>
+  <text x="236" y="301" class="f62cc-sm">물놀이 사고</text>
+
+  <!-- 오른쪽: 숨은 원인 -->
+  <text x="380" y="26" class="f62cc-h">실제 관계: 숨은 공통 원인</text>
+  <rect x="462" y="48" width="164" height="50" rx="10" class="f62cc-box" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber)"/>
+  <text x="544" y="79" text-anchor="middle" class="f62cc-tx" style="font-weight:600">기온이 높다(여름)</text>
+  <rect x="380" y="186" width="150" height="50" rx="10" class="f62cc-box" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue)"/>
+  <text x="455" y="217" text-anchor="middle" class="f62cc-tx">아이스크림 판매 ↑</text>
+  <rect x="558" y="186" width="146" height="50" rx="10" class="f62cc-box" style="fill:var(--fig-soft-red);stroke:var(--fig-red)"/>
+  <text x="631" y="217" text-anchor="middle" class="f62cc-tx">물놀이 사고 ↑</text>
+  <line x1="520" y1="100" x2="468" y2="174" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <path d="M462 184 l2 -15 l11 8 z" style="fill:var(--fig-ink)"/>
+  <line x1="568" y1="100" x2="620" y2="174" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <path d="M626 184 l-13 -7 l11 -8 z" style="fill:var(--fig-ink)"/>
+  <text x="474" y="138" text-anchor="end" class="f62cc-sm">원인</text>
+  <text x="614" y="138" class="f62cc-sm">원인</text>
+  <line x1="534" y1="211" x2="554" y2="211" style="stroke:var(--fig-red);stroke-width:2;stroke-dasharray:4 3"/>
+  <path d="M537 204 l14 14 M551 204 l-14 14" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <text x="544" y="262" text-anchor="middle" class="f62cc-tx">서로가 원인은 아니다</text>
+  <text x="544" y="284" text-anchor="middle" class="f62cc-sm">함께 변한다(상관) ≠ 원인과 결과(인과)</text>
+  <text x="544" y="302" text-anchor="middle" class="f62cc-sm">인과는 실험·추가 연구로 따로 확인해야 한다</text>
+</svg>

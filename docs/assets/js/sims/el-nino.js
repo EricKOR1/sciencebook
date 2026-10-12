@@ -112,10 +112,11 @@ Sims.register('el-nino', {
       ctx.fillStyle = T.figPanel; ctx.strokeStyle = T.figMuted; ctx.lineWidth = 1.3;
       ctx.beginPath(); ctx.arc(rx - 22 * cs, cy + 4 * cs, 13 * cs, 0, Math.PI * 2); ctx.arc(rx, cy - 5 * cs, 18 * cs, 0, Math.PI * 2); ctx.arc(rx + 23 * cs, cy + 4 * cs, 13 * cs, 0, Math.PI * 2); ctx.fill(); ctx.stroke();
       ctx.beginPath(); ctx.ellipse(rx, cy + 8 * cs, 34 * cs, 9 * cs, 0, 0, Math.PI * 2); ctx.fill();
-      arrow(T.figRed, rx + 44 * cs, g.sea - h * 0.06, rx + 44 * cs, cy - 4, 2);
-      tag(T, '상승 기류 · 많은 비', rx, cy + 30 * cs + fs, T.figBlue, fs);
+      arrow(T.figRed, rx - 46 * cs, g.sea - h * 0.06, rx - 46 * cs, cy - 4, 2);
+      tag(T, '상승 기류', rx + 40 * cs, cy - 2, T.figRed, fs, false, 'left');
+      tag(T, '많은 비', rx + 40 * cs, cy + fs + 2, T.figBlue, fs, false, 'left');
       // 하강 기류(건조)
-      var dx = bx(g, cur.dryX), dTop = h * 0.14, dBot = g.sea - h * 0.1;
+      var dx = bx(g, cur.dryX), dTop = h * (g.narrow ? 0.18 : 0.14), dBot = g.sea - h * 0.13;
       arrow(T.figAmber, dx, dTop + 6, dx, dBot, 2);
       tag(T, '하강 기류 · 건조', dx, dTop - 2, T.figAmber, fs);
 
@@ -130,7 +131,7 @@ Sims.register('el-nino', {
         ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(x + 6 + 8 * cur.wind, y); ctx.stroke(); ctx.globalAlpha = 1;
       });
       var windWord = cur.wind > 1.3 ? '무역풍 (강함)' : cur.wind < 0.6 ? '무역풍 (약함)' : '무역풍';
-      tag(T, windWord, bx(g, 0.58), wy - 14, T.figInk, fs, true);
+      tag(T, windWord, bx(g, 0.38) - wl / 2 - 8, wy + 4, T.figInk, fs, true, 'right');
 
       // 용승
       var ux = bx(g, 0.93), uBot = g.sea + g.D * 0.62, uTop = g.sea + 10;
@@ -146,7 +147,7 @@ Sims.register('el-nino', {
       }
       var upWord = cur.up > 1.3 ? '용승 (강함)' : cur.up < 0.5 ? '용승 (약함)' : '용승';
       ctx.textAlign = 'right';
-      tag(T, upWord, ux - 8, g.sea + g.D * 0.42, T.figBlue, fs, false, 'right');
+      tag(T, upWord, ux - 8, g.sea + g.D * 0.56, T.figBlue, fs, false, 'right');
 
       // 바닷속 이름표
       var lx = bx(g, 0.2), ty = thermY(g, lx);

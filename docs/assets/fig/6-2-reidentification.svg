@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-6-2-reidentification d-6-2-reidentification">
+  <title id="t-6-2-reidentification">그림 6-2-2 이름을 지워도 드러나는 개인 — 재식별</title>
+  <desc id="d-6-2-reidentification">이름과 학번을 지운 건강 자료라도, 생일과 성별처럼 다른 곳에서 알 수 있는 정보와 결합하면 누구의 자료인지 알아낼 수 있다. 표의 이름과 값은 설명을 위한 가상의 예이다.</desc>
+  <style>
+    .f62ri-h{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .f62ri-tx{font-size:14px;fill:var(--fig-ink)}
+    .f62ri-sm{font-size:12px;fill:var(--fig-muted)}
+    .f62ri-hd{fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:1}
+    .f62ri-hd2{fill:var(--fig-soft-violet);stroke:var(--fig-line);stroke-width:1}
+    .f62ri-c{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1}
+    .f62ri-k{fill:var(--fig-soft-amber);stroke:var(--fig-line);stroke-width:1}
+  </style>
+  <!-- 왼쪽 표 -->
+  <text x="20" y="26" class="f62ri-h">① 연구용으로 받은 자료</text>
+  <text x="20" y="45" class="f62ri-sm">이름·학번은 지웠다</text>
+  <rect x="20" y="58" width="70" height="30" class="f62ri-hd"/><rect x="90" y="58" width="56" height="30" class="f62ri-hd"/><rect x="146" y="58" width="70" height="30" class="f62ri-hd"/><rect x="216" y="58" width="104" height="30" class="f62ri-hd"/>
+  <g class="f62ri-tx" text-anchor="middle"><text x="55" y="78">생일</text><text x="118" y="78">성별</text><text x="181" y="78">키(cm)</text><text x="268" y="78">건강 기록</text></g>
+  <g>
+    <rect x="20" y="88" width="70" height="30" class="f62ri-k"/><rect x="90" y="88" width="56" height="30" class="f62ri-k"/><rect x="146" y="88" width="70" height="30" class="f62ri-c"/><rect x="216" y="88" width="104" height="30" class="f62ri-c"/>
+    <rect x="20" y="118" width="70" height="30" class="f62ri-k"/><rect x="90" y="118" width="56" height="30" class="f62ri-k"/><rect x="146" y="118" width="70" height="30" class="f62ri-c"/><rect x="216" y="118" width="104" height="30" class="f62ri-c"/>
+    <rect x="20" y="148" width="70" height="30" class="f62ri-k"/><rect x="90" y="148" width="56" height="30" class="f62ri-k"/><rect x="146" y="148" width="70" height="30" class="f62ri-c"/><rect x="216" y="148" width="104" height="30" class="f62ri-c"/>
+  </g>
+  <g class="f62ri-tx" text-anchor="middle">
+    <text x="55" y="108">3/14</text><text x="118" y="108">여</text><text x="181" y="108">162</text><text x="268" y="108">기록 A</text>
+    <text x="55" y="138">7/02</text><text x="118" y="138">남</text><text x="181" y="138">175</text><text x="268" y="138">기록 B</text>
+    <text x="55" y="168">11/23</text><text x="118" y="168">여</text><text x="181" y="168">158</text><text x="268" y="168">기록 C</text>
+  </g>
+
+  <!-- 오른쪽 표 -->
+  <text x="460" y="26" class="f62ri-h">② 내가 이미 아는 정보</text>
+  <text x="460" y="45" class="f62ri-sm">같은 반 친구의 생일·성별</text>
+  <rect x="460" y="58" width="80" height="30" class="f62ri-hd2"/><rect x="540" y="58" width="90" height="30" class="f62ri-hd2"/><rect x="630" y="58" width="70" height="30" class="f62ri-hd2"/>
+  <g class="f62ri-tx" text-anchor="middle"><text x="500" y="78">이름</text><text x="585" y="78">생일</text><text x="665" y="78">성별</text></g>
+  <g>
+    <rect x="460" y="88" width="80" height="30" class="f62ri-c"/><rect x="540" y="88" width="90" height="30" class="f62ri-k"/><rect x="630" y="88" width="70" height="30" class="f62ri-k"/>
+    <rect x="460" y="118" width="80" height="30" class="f62ri-c"/><rect x="540" y="118" width="90" height="30" class="f62ri-k"/><rect x="630" y="118" width="70" height="30" class="f62ri-k"/>
+    <rect x="460" y="148" width="80" height="30" class="f62ri-c"/><rect x="540" y="148" width="90" height="30" class="f62ri-k"/><rect x="630" y="148" width="70" height="30" class="f62ri-k"/>
+  </g>
+  <g class="f62ri-tx" text-anchor="middle">
+    <text x="500" y="108">가람</text><text x="585" y="108">11/23</text><text x="665" y="108">여</text>
+    <text x="500" y="138">나래</text><text x="585" y="138">3/14</text><text x="665" y="138">여</text>
+    <text x="500" y="168">다온</text><text x="585" y="168">7/02</text><text x="665" y="168">남</text>
+  </g>
+
+  <!-- 연결선: 생일+성별이 같은 행 -->
+  <g style="fill:none;stroke-width:2.5">
+    <path d="M322 103 C 390 103 392 133 458 133" style="stroke:var(--fig-red)"/>
+    <path d="M322 133 C 390 133 392 163 458 163" style="stroke:var(--fig-violet)"/>
+    <path d="M322 163 C 390 163 392 103 458 103" style="stroke:var(--fig-teal)"/>
+  </g>
+  <text x="390" y="198" text-anchor="middle" class="f62ri-sm">생일 + 성별로 짝 맞추기</text>
+
+  <!-- 결과 -->
+  <rect x="20" y="214" width="680" height="110" rx="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <text x="40" y="242" class="f62ri-tx"><tspan style="font-weight:600">결합하면</tspan>: '3/14·여'는 나래 → 나래의 키 162 cm와 건강 기록 A가 드러난다</text>
+  <text x="40" y="270" class="f62ri-tx">생일(월·일) 366가지 × 성별 2가지 = 732가지 조합, 한 반은 30명</text>
+  <text x="40" y="294" class="f62ri-tx">→ 대부분 학생이 자기만의 조합을 가진다</text>
+  <text x="40" y="316" class="f62ri-tx" style="font-weight:600">→ 이름을 지워도 다른 정보와 결합하면 개인을 알아볼 수 있다(재식별)</text>
+</svg>

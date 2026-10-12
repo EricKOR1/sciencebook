@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-labelledby="t-4-4-indicator-colors d-4-4-indicator-colors">
+  <title id="t-4-4-indicator-colors">그림 4-4-1 pH에 따른 지시약의 색</title>
+  <desc id="d-4-4-indicator-colors">메틸 오렌지는 pH 약 3.1~4.4에서 붉은색에서 노란색으로, BTB는 pH 약 6.0~7.6에서 노란색·초록색·파란색으로, 페놀프탈레인은 pH 약 8.2~10에서 무색에서 붉은색으로 변한다. 색이 바뀌는 pH 범위는 대략적인 값이다.</desc>
+  <defs>
+    <linearGradient id="ind-g-mo" x1="0" x2="1" y1="0" y2="0"><stop offset="0" style="stop-color:var(--fig-red)"/><stop offset="1" style="stop-color:var(--fig-amber)"/></linearGradient>
+    <linearGradient id="ind-g-btb" x1="0" x2="1" y1="0" y2="0"><stop offset="0" style="stop-color:var(--fig-amber)"/><stop offset="0.62" style="stop-color:var(--fig-green)"/><stop offset="1" style="stop-color:var(--fig-blue)"/></linearGradient>
+    <linearGradient id="ind-g-pp" x1="0" x2="1" y1="0" y2="0"><stop offset="0" style="stop-color:var(--fig-panel)"/><stop offset="1" style="stop-color:var(--fig-red)"/></linearGradient>
+  </defs>
+  <style>
+    .ind-red{fill:var(--fig-red);fill-opacity:.5} .ind-amb{fill:var(--fig-amber);fill-opacity:.5} .ind-blue{fill:var(--fig-blue);fill-opacity:.5}
+    .ind-clear{fill:var(--fig-panel)}
+    .ind-frame{fill:none;stroke:var(--fig-line);stroke-width:1.5}
+    .ind-name{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .ind-in{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .ind-sm{font-size:12.5px;fill:var(--fig-muted)}
+    .ind-num{font-size:12.5px;fill:var(--fig-muted)}
+    .ind-tick{stroke:var(--fig-line);stroke-width:1}
+    .ind-seven{stroke:var(--fig-green);stroke-width:1.5;stroke-dasharray:5 4}
+    .ind-acid{font-size:14px;font-weight:700;fill:var(--fig-red)}
+    .ind-base{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+    .ind-neu{font-size:14px;font-weight:700;fill:var(--fig-green)}
+  </style>
+  <text x="283.0" y="28" text-anchor="middle" class="ind-acid">← 산성</text>
+  <text x="416" y="28" text-anchor="middle" class="ind-neu">중성 (pH 7)</text>
+  <text x="549.0" y="28" text-anchor="middle" class="ind-base">염기성 →</text>
+  <text x="16" y="78" class="ind-name">메틸 오렌지</text>
+  <text x="16" y="96" class="ind-sm">변색 pH 3.1~4.4</text>
+  <rect x="150" y="60" width="117.80000000000001" height="34" class="ind-red"/>
+  <text x="208.9" y="82" text-anchor="middle" class="ind-in">붉은색</text>
+  <rect x="267.8" y="60" width="49.400000000000034" height="34" style="fill:url(#ind-g-mo);fill-opacity:.55"/>
+  <rect x="317.20000000000005" y="60" width="364.79999999999995" height="34" class="ind-amb"/>
+  <text x="499.6" y="82" text-anchor="middle" class="ind-in">노란색</text>
+  <rect x="150" y="60" width="532" height="34" rx="4" class="ind-frame"/>
+  <text x="16" y="152" class="ind-name">BTB</text>
+  <text x="16" y="170" class="ind-sm">변색 pH 6.0~7.6</text>
+  <rect x="150" y="134" width="228.0" height="34" class="ind-amb"/>
+  <text x="264.0" y="156" text-anchor="middle" class="ind-in">노란색</text>
+  <rect x="378.0" y="134" width="60.80000000000001" height="34" style="fill:url(#ind-g-btb);fill-opacity:.55"/>
+  <rect x="438.8" y="134" width="243.2" height="34" class="ind-blue"/>
+  <text x="560.4" y="156" text-anchor="middle" class="ind-in">파란색</text>
+  <rect x="150" y="134" width="532" height="34" rx="4" class="ind-frame"/>
+  <text x="416" y="186" text-anchor="middle" class="ind-in" style="fill:var(--fig-green)">초록색</text>
+  <text x="16" y="226" class="ind-name">페놀프탈레인</text>
+  <text x="16" y="244" class="ind-sm">변색 pH 8.2~10</text>
+  <rect x="150" y="208" width="311.59999999999997" height="34" class="ind-clear"/>
+  <text x="305.79999999999995" y="230" text-anchor="middle" class="ind-in">무색</text>
+  <rect x="461.59999999999997" y="208" width="68.40000000000003" height="34" style="fill:url(#ind-g-pp);fill-opacity:.55"/>
+  <rect x="530" y="208" width="152" height="34" class="ind-red"/>
+  <text x="606.0" y="230" text-anchor="middle" class="ind-in">붉은색</text>
+  <rect x="150" y="208" width="532" height="34" rx="4" class="ind-frame"/>
+  <line x1="416" y1="38" x2="416" y2="250" class="ind-seven"/>
+  <line x1="150" y1="252" x2="150" y2="258" class="ind-tick"/>
+  <text x="150" y="272" text-anchor="middle" class="ind-num">0</text>
+  <line x1="188" y1="252" x2="188" y2="258" class="ind-tick"/>
+  <text x="188" y="272" text-anchor="middle" class="ind-num">1</text>
+  <line x1="226" y1="252" x2="226" y2="258" class="ind-tick"/>
+  <text x="226" y="272" text-anchor="middle" class="ind-num">2</text>
+  <line x1="264" y1="252" x2="264" y2="258" class="ind-tick"/>
+  <text x="264" y="272" text-anchor="middle" class="ind-num">3</text>
+  <line x1="302" y1="252" x2="302" y2="258" class="ind-tick"/>
+  <text x="302" y="272" text-anchor="middle" class="ind-num">4</text>
+  <line x1="340" y1="252" x2="340" y2="258" class="ind-tick"/>
+  <text x="340" y="272" text-anchor="middle" class="ind-num">5</text>
+  <line x1="378" y1="252" x2="378" y2="258" class="ind-tick"/>
+  <text x="378" y="272" text-anchor="middle" class="ind-num">6</text>
+  <line x1="416" y1="252" x2="416" y2="258" class="ind-tick"/>
+  <text x="416" y="272" text-anchor="middle" class="ind-num">7</text>
+  <line x1="454" y1="252" x2="454" y2="258" class="ind-tick"/>
+  <text x="454" y="272" text-anchor="middle" class="ind-num">8</text>
+  <line x1="492" y1="252" x2="492" y2="258" class="ind-tick"/>
+  <text x="492" y="272" text-anchor="middle" class="ind-num">9</text>
+  <line x1="530" y1="252" x2="530" y2="258" class="ind-tick"/>
+  <text x="530" y="272" text-anchor="middle" class="ind-num">10</text>
+  <line x1="568" y1="252" x2="568" y2="258" class="ind-tick"/>
+  <text x="568" y="272" text-anchor="middle" class="ind-num">11</text>
+  <line x1="606" y1="252" x2="606" y2="258" class="ind-tick"/>
+  <text x="606" y="272" text-anchor="middle" class="ind-num">12</text>
+  <line x1="644" y1="252" x2="644" y2="258" class="ind-tick"/>
+  <text x="644" y="272" text-anchor="middle" class="ind-num">13</text>
+  <line x1="682" y1="252" x2="682" y2="258" class="ind-tick"/>
+  <text x="682" y="272" text-anchor="middle" class="ind-num">14</text>
+  <text x="138" y="272" text-anchor="end" class="ind-sm">pH</text>
+  <text x="360" y="298" text-anchor="middle" class="ind-sm">그러데이션: 색이 서서히 바뀌는 pH 범위(대략적인 값)</text>
+</svg>

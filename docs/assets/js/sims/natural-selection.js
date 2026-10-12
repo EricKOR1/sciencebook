@@ -1,7 +1,7 @@
 /* 4-2 자연선택: 회색가지나방 모의실험 — 새가 눈에 띄는 나방을 더 많이 잡아먹고, 살아남은 나방이 같은 색 자손을 남긴다 */
 Sims.register('natural-selection', {
   title: '회색가지나방 모의실험 — 나무껍질 색이 나방 집단을 바꾼다',
-  caption: '나무껍질 색을 고르고 \'한 세대 진행\'을 눌러 보자. 새는 나무껍질과 대비가 큰(눈에 띄는) 나방의 50%만, 잘 숨는 나방은 75%를 살려 두고, 살아남은 나방은 같은 색 자손을 2마리씩 남긴다(예제 2와 같은 규칙, 먹이·공간 때문에 집단은 최대 80마리). 나방 한 마리의 색은 바뀌지 않고 집단 속 비율만 바뀌며, 처음 비율을 0%로 두면 검은 나방은 생기지 않는다 — 변이가 먼저 있어야 환경이 고를 수 있다. 누가 먹힐지는 확률로 정하므로 \'다시 하기\'마다 결과가 조금씩 다르고, 점선은 무작위가 없을 때의 계산값이다(몸 색이 그대로 유전된다고 보는 등 설명을 위해 단순화).',
+  caption: '나무껍질 색을 고르고 \'한 세대 진행\'을 눌러 보자. 새는 나무껍질과 대비가 큰(눈에 띄는) 나방의 50%만, 잘 숨는 나방은 75%를 살려 두고, 살아남은 나방은 같은 색 자손을 남긴다(예제 2와 같은 규칙, 집단 크기는 먹이·공간 때문에 늘 80마리로 둠). 나방 한 마리의 색은 바뀌지 않고 집단 속 비율만 바뀌며, 처음 비율을 0%로 두면 검은 나방은 생기지 않는다 — 변이가 먼저 있어야 환경이 고를 수 있다. 누가 먹힐지는 확률로 정하므로 \'다시 하기\'마다 결과가 조금씩 다르고, 점선은 무작위가 없을 때의 계산값이다(몸 색이 그대로 유전된다고 보는 등 설명을 위해 단순화).',
   init: function (api) {
     var K = 80, S_HIDE = 0.75, S_SEEN = 0.5, GMAX = 60;
     var BARK = {
@@ -79,7 +79,7 @@ Sims.register('natural-selection', {
       var h = state.hist[state.hist.length - 1]; h.f = frac(state.pop); h.e = h.f;
       readouts(); draw();
     }
-    /* 한 세대: ① 새의 포식(확률) ② 살아남은 나방이 같은 색 자손 2마리 ③ 먹이·공간 한계로 최대 K마리 */
+    /* 한 세대: ① 새의 포식(확률) ② 살아남은 나방이 같은 색 자손 2마리 ③ 먹이·공간 한계로 집단은 K마리로 유지(넘치면 무작위로 덜어 내고, 모자라면 살아남은 나방의 자손을 무작위로 더함) */
     function compute() {
       var victims = {}, surv = [], eatL = 0, eatD = 0;
       state.pop.forEach(function (m) {
@@ -90,6 +90,7 @@ Sims.register('natural-selection', {
       surv.forEach(function (m) { kids.push(moth(m.dark), moth(m.dark)); });
       shuffle(kids);
       if (kids.length > K) kids = kids.slice(0, K);
+      while (kids.length && kids.length < K) kids.push(moth(surv[Math.floor(Math.random() * surv.length)].dark));
       var prev = state.hist[state.hist.length - 1];
       return { victims: victims, kids: place(kids), eatL: eatL, eatD: eatD, e: expNext(prev.e) };
     }
