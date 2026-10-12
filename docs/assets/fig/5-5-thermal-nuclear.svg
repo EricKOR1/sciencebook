@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 448" role="img" aria-labelledby="t-5-5-thermal-nuclear d-5-5-thermal-nuclear">
+  <title id="t-5-5-thermal-nuclear">그림 5-5-1 화력 발전소와 원자력 발전소의 구조 비교</title>
+  <desc id="d-5-5-thermal-nuclear">두 발전소 모두 열로 물을 끓여 만든 고온·고압의 증기로 터빈을 돌리고, 터빈과 같은 축의 발전기가 전기를 만든다. 다른 것은 열을 얻는 방법(연료의 연소 또는 우라늄의 핵분열)뿐이다. 터빈을 지난 증기는 복수기에서 바닷물로 식혀 다시 물로 되돌린다. 모식도(실제 구조는 더 복잡함).</desc>
+  <style>
+    .tn-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .tn-lbl{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .tn-sm{font-size:12px;fill:var(--fig-muted)} .tn-ink{fill:var(--fig-ink)}
+    .tn-steam{fill:none;stroke:var(--fig-red);stroke-width:6} .tn-water{fill:none;stroke:var(--fig-blue);stroke-width:4}
+    .tn-wire{fill:none;stroke:var(--fig-ink);stroke-width:2}
+    .tn-same{fill:var(--fig-soft-teal);fill-opacity:0.45;stroke:var(--fig-teal);stroke-width:1.5;stroke-dasharray:6 4}
+  </style>
+  <text x="20" y="18" class="tn-h">화력 발전</text><text x="104" y="18" class="tn-sm">석탄·천연가스를 태운 열로 물을 끓인다</text>
+  <rect x="20" y="36" width="130" height="126" rx="8" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <text x="85" y="60" text-anchor="middle" class="tn-lbl">보일러</text>
+  <text x="85" y="78" text-anchor="middle" class="tn-sm">연료를 태운다</text>
+  <path d="M60,150 C52,132 66,124 64,108 C76,118 80,104 84,96 C92,112 108,120 104,136 C110,130 112,124 112,120 C120,134 114,148 108,150 Z" style="fill:var(--fig-amber);fill-opacity:0.85;stroke:var(--fig-red);stroke-width:1.2"/>
+  <rect x="228" y="24" width="420" height="140" rx="10" class="tn-same"/>
+  <path d="M150,52 L240,52" class="tn-steam"/>
+  <path d="M236,46 l10,6 l-10,6 z" style="fill:var(--fig-red)"/>
+  <text x="190" y="42" text-anchor="middle" class="tn-sm" style="fill:var(--fig-red)">증기</text>
+  <path d="M246,40 L330,30 L330,104 L246,94 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="262" y1="36.6" x2="262" y2="97.4" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="280" y1="38.6" x2="280" y2="95.4" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="298" y1="40.6" x2="298" y2="93.4" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="316" y1="42.6" x2="316" y2="91.4" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <text x="288" y="122" text-anchor="middle" class="tn-lbl" style="font-size:13px">터빈</text>
+  <line x1="330" y1="67" x2="362" y2="67" style="stroke:var(--fig-ink);stroke-width:5"/>
+  <rect x="362" y="40" width="78" height="54" rx="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="401" y="72" text-anchor="middle" class="tn-lbl">발전기</text>
+  <line x1="440" y1="67" x2="478" y2="67" class="tn-wire"/>
+  <circle cx="490" cy="67" r="12" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <circle cx="506" cy="67" r="12" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <text x="498" y="98" text-anchor="middle" class="tn-sm">변압기</text>
+  <line x1="518" y1="67" x2="600" y2="67" class="tn-wire"/>
+  <path d="M592,120 L604,44 L616,120 M596,96 L612,96 M598,72 L610,72 M590,56 L618,56 M594,96 L614,72 M598,72 L612,96" style="fill:none;stroke:var(--fig-ink);stroke-width:1.6"/>
+  <text x="604" y="138" text-anchor="middle" class="tn-sm">송전</text>
+  <line x1="618" y1="56" x2="664" y2="56" class="tn-wire"/>
+  <path d="M672,56 l-9,-5 l0,10 z" class="tn-ink"/>
+  <text x="676" y="52" class="tn-sm" style="fill:var(--fig-ink)">가정</text>
+  <text x="676" y="68" class="tn-sm" style="fill:var(--fig-ink)">공장</text>
+  <path d="M288,104 L288,128" style="fill:none;stroke:var(--fig-red);stroke-width:3;stroke-dasharray:4 3"/>
+  <rect x="246" y="128" width="84" height="30" rx="5" style="fill:var(--fig-soft-blue);stroke:var(--fig-teal);stroke-width:2"/>
+  <text x="288" y="148" text-anchor="middle" class="tn-lbl" style="font-size:13px">복수기</text>
+  <path d="M384,136 L334,136" style="fill:none;stroke:var(--fig-teal);stroke-width:2.5"/>
+  <path d="M332,136 l8,-4 l0,8 z" style="fill:var(--fig-teal)"/>
+  <path d="M330,152 L380,152" style="fill:none;stroke:var(--fig-red);stroke-width:2.5"/>
+  <path d="M384,152 l-8,-4 l0,8 z" style="fill:var(--fig-red)"/>
+  <text x="390" y="140" class="tn-sm">바닷물로 식힘</text>
+  <text x="390" y="156" class="tn-sm">(열 일부를 바다로 버림)</text>
+  <path d="M246,150 L150,150" class="tn-water"/>
+  <path d="M152,144 l-10,6 l10,6 z" style="fill:var(--fig-blue)"/>
+  <text x="196" y="144" text-anchor="middle" class="tn-sm" style="fill:var(--fig-blue)">물</text>
+  <text x="20" y="190" class="tn-sm" style="fill:var(--fig-ink)">에너지 전환: 화학 에너지 → 열에너지 → 운동 에너지(터빈) → 전기 에너지(발전기)</text>
+  <line x1="20" y1="208" x2="700" y2="208" style="stroke:var(--fig-line);stroke-width:1"/>
+  <text x="20" y="238" class="tn-h">원자력 발전</text><text x="118" y="238" class="tn-sm">우라늄 원자핵이 쪼개질 때(핵분열) 나오는 열로 물을 끓인다</text>
+  <rect x="20" y="264" width="64" height="112" rx="26" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <rect x="34" y="306" width="4" height="52" style="fill:var(--fig-amber)"/>
+  <rect x="44" y="306" width="4" height="52" style="fill:var(--fig-amber)"/>
+  <rect x="56" y="306" width="4" height="52" style="fill:var(--fig-amber)"/>
+  <rect x="66" y="306" width="4" height="52" style="fill:var(--fig-amber)"/>
+  <line x1="41" y1="254" x2="41" y2="324" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <line x1="63" y1="254" x2="63" y2="324" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <text x="52" y="290" text-anchor="middle" class="tn-lbl" style="font-size:13px">원자로</text>
+  <text x="20" y="396" class="tn-sm">연료봉·제어봉</text>
+  <path d="M84,300 L104,300" style="fill:none;stroke:var(--fig-red);stroke-width:4"/>
+  <path d="M104,354 L84,354" style="fill:none;stroke:var(--fig-blue);stroke-width:4"/>
+  <rect x="104" y="256" width="46" height="126" rx="8" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <text x="127" y="312" text-anchor="middle" class="tn-lbl" style="font-size:13px">증기</text>
+  <text x="127" y="328" text-anchor="middle" class="tn-lbl" style="font-size:13px">발생기</text>
+  <rect x="228" y="244" width="420" height="140" rx="10" class="tn-same"/>
+  <path d="M150,272 L240,272" class="tn-steam"/>
+  <path d="M236,266 l10,6 l-10,6 z" style="fill:var(--fig-red)"/>
+  <text x="190" y="262" text-anchor="middle" class="tn-sm" style="fill:var(--fig-red)">증기</text>
+  <path d="M246,260 L330,250 L330,324 L246,314 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="262" y1="256.6" x2="262" y2="317.4" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="280" y1="258.6" x2="280" y2="315.4" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="298" y1="260.6" x2="298" y2="313.4" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="316" y1="262.6" x2="316" y2="311.4" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <text x="288" y="342" text-anchor="middle" class="tn-lbl" style="font-size:13px">터빈</text>
+  <line x1="330" y1="287" x2="362" y2="287" style="stroke:var(--fig-ink);stroke-width:5"/>
+  <rect x="362" y="260" width="78" height="54" rx="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="401" y="292" text-anchor="middle" class="tn-lbl">발전기</text>
+  <line x1="440" y1="287" x2="478" y2="287" class="tn-wire"/>
+  <circle cx="490" cy="287" r="12" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <circle cx="506" cy="287" r="12" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <text x="498" y="318" text-anchor="middle" class="tn-sm">변압기</text>
+  <line x1="518" y1="287" x2="600" y2="287" class="tn-wire"/>
+  <path d="M592,340 L604,264 L616,340 M596,316 L612,316 M598,292 L610,292 M590,276 L618,276 M594,316 L614,292 M598,292 L612,316" style="fill:none;stroke:var(--fig-ink);stroke-width:1.6"/>
+  <text x="604" y="358" text-anchor="middle" class="tn-sm">송전</text>
+  <line x1="618" y1="276" x2="664" y2="276" class="tn-wire"/>
+  <path d="M672,276 l-9,-5 l0,10 z" class="tn-ink"/>
+  <text x="676" y="272" class="tn-sm" style="fill:var(--fig-ink)">가정</text>
+  <text x="676" y="288" class="tn-sm" style="fill:var(--fig-ink)">공장</text>
+  <path d="M288,324 L288,348" style="fill:none;stroke:var(--fig-red);stroke-width:3;stroke-dasharray:4 3"/>
+  <rect x="246" y="348" width="84" height="30" rx="5" style="fill:var(--fig-soft-blue);stroke:var(--fig-teal);stroke-width:2"/>
+  <text x="288" y="368" text-anchor="middle" class="tn-lbl" style="font-size:13px">복수기</text>
+  <path d="M384,356 L334,356" style="fill:none;stroke:var(--fig-teal);stroke-width:2.5"/>
+  <path d="M332,356 l8,-4 l0,8 z" style="fill:var(--fig-teal)"/>
+  <path d="M330,372 L380,372" style="fill:none;stroke:var(--fig-red);stroke-width:2.5"/>
+  <path d="M384,372 l-8,-4 l0,8 z" style="fill:var(--fig-red)"/>
+  <text x="390" y="360" class="tn-sm">바닷물로 식힘</text>
+  <text x="390" y="376" class="tn-sm">(열 일부를 바다로 버림)</text>
+  <path d="M246,370 L150,370" class="tn-water"/>
+  <path d="M152,364 l-10,6 l10,6 z" style="fill:var(--fig-blue)"/>
+  <text x="196" y="364" text-anchor="middle" class="tn-sm" style="fill:var(--fig-blue)">물</text>
+  <text x="20" y="416" class="tn-sm" style="fill:var(--fig-ink)">에너지 전환: 핵에너지 → 열에너지 → 운동 에너지(터빈) → 전기 에너지(발전기)</text>
+  <rect x="440" y="398" width="14" height="10" rx="2" class="tn-same"/><text x="460" y="408" class="tn-sm" style="fill:var(--fig-teal);font-weight:600">두 발전소에서 같은 부분</text>
+</svg>

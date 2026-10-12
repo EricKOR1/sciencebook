@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 384" role="img" aria-labelledby="t-3-5-organization-levels d-3-5-organization-levels">
+<title id="t-3-5-organization-levels">그림 3-5-1 동물과 식물의 구성 단계 비교</title>
+<desc id="d-3-5-organization-levels">동물은 세포 → 조직 → 기관 → 기관계 → 개체, 식물은 세포 → 조직 → 조직계 → 기관 → 개체로 구성된다. 기관계는 동물에만, 조직계는 식물에만 있다.</desc>
+<style>
+  .c35org-box{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5}
+  .c35org-boxv{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2}
+  .c35org-name{font-size:15px;font-weight:600;fill:var(--fig-ink)} .c35org-ex{font-size:12px;fill:var(--fig-muted)}
+  .c35org-row{font-size:15px;font-weight:700;fill:var(--fig-accent)} .c35org-note{font-size:12px;fill:var(--fig-muted)}
+  .c35org-tagv{font-size:12px;font-weight:600;fill:var(--fig-violet)}
+  .c35org-arr{fill:none;stroke:var(--fig-ink);stroke-width:2} .c35org-arrh{fill:var(--fig-ink)}
+  .c35org-sep{fill:none;stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4}
+  .c35org-musc{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5} .c35org-nuc{fill:var(--fig-violet)}
+  .c35org-stom{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+  .c35org-tube{fill:none;stroke:var(--fig-amber);stroke-width:4;stroke-linecap:round}
+  .c35org-body{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5}
+  .c35org-wall{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2} .c35org-cyto{fill:var(--fig-panel)}
+  .c35org-none{fill:none;stroke:none}
+  .c35org-leafin{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5}
+  .c35org-epi{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2}
+  .c35org-vein{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5}
+  .c35org-leaf{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2}
+  .c35org-rib{fill:none;stroke:var(--fig-green);stroke-width:2} .c35org-stem{fill:none;stroke:var(--fig-green);stroke-width:4}
+  .c35org-petal{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:3;stroke-dasharray:5 3} .c35org-fc{fill:var(--fig-amber)}
+</style>
+<text x="14" y="24" class="c35org-row">동물</text>
+<path d="M14.0 78 Q60 52 106.0 78 Q60 104 14.0 78 Z" class="c35org-musc"/>
+<ellipse cx="60" cy="78" rx="7" ry="4" class="c35org-nuc"/>
+<path d="M129.0 58 Q172 44 215.0 58 Q172 72 129.0 58 Z" class="c35org-musc"/>
+<ellipse cx="172" cy="58" rx="5" ry="3" class="c35org-nuc"/>
+<path d="M147.0 72 Q190 58 233.0 72 Q190 86 147.0 72 Z" class="c35org-musc"/>
+<ellipse cx="190" cy="72" rx="5" ry="3" class="c35org-nuc"/>
+<path d="M133.0 86 Q176 72 219.0 86 Q176 100 133.0 86 Z" class="c35org-musc"/>
+<ellipse cx="176" cy="86" rx="5" ry="3" class="c35org-nuc"/>
+<path d="M149.0 100 Q192 86 235.0 100 Q192 114 149.0 100 Z" class="c35org-musc"/>
+<ellipse cx="192" cy="100" rx="5" ry="3" class="c35org-nuc"/>
+<g transform="translate(372 40)"><path d="M38 2 L48 2 L50 18 C74 10 96 24 92 46 C88 66 58 74 40 63 C32 58 30 52 22 54 L10 58 L8 48 L22 43 C32 38 36 30 38 20 Z" class="c35org-stom"/></g>
+<g transform="translate(490 40)"><path d="M48 0 L50 22" class="c35org-tube"/><path d="M50 22 C66 18 72 30 66 36 C60 42 50 38 46 34" class="c35org-tube"/><path d="M46 34 C30 38 30 46 50 46 C70 46 70 54 50 54 C30 54 30 62 50 62 C66 62 70 68 56 72" class="c35org-tube"/><path d="M50 22 C66 18 72 30 66 36 C60 42 50 38 46 34 Z" class="c35org-stom"/></g>
+<circle cx="660" cy="50" r="9" class="c35org-body"/><path d="M646 62 L674 62 Q680 62 680 68 L680 88 L672 88 L672 114 L663 114 L663 92 L657 92 L657 114 L648 114 L648 88 L640 88 L640 68 Q640 62 646 62 Z" class="c35org-body"/>
+<rect x="8" y="122" width="104" height="44" rx="8" class="c35org-box"/><text x="60" y="141" text-anchor="middle" class="c35org-name">세포</text><text x="60" y="158" text-anchor="middle" class="c35org-ex">근육 세포</text>
+<rect x="128" y="122" width="104" height="44" rx="8" class="c35org-box"/><text x="180" y="141" text-anchor="middle" class="c35org-name">조직</text><text x="180" y="158" text-anchor="middle" class="c35org-ex">근육 조직</text>
+<rect x="368" y="122" width="104" height="44" rx="8" class="c35org-box"/><text x="420" y="141" text-anchor="middle" class="c35org-name">기관</text><text x="420" y="158" text-anchor="middle" class="c35org-ex">위</text>
+<rect x="488" y="122" width="104" height="44" rx="8" class="c35org-boxv"/><text x="540" y="141" text-anchor="middle" class="c35org-name">기관계</text><text x="540" y="158" text-anchor="middle" class="c35org-ex">소화계</text>
+<rect x="608" y="122" width="104" height="44" rx="8" class="c35org-box"/><text x="660" y="141" text-anchor="middle" class="c35org-name">개체</text><text x="660" y="158" text-anchor="middle" class="c35org-ex">사람</text>
+<line x1="112" y1="144" x2="121" y2="144" class="c35org-arr"/><path d="M128 144 l-9 -5 l0 10 z" class="c35org-arrh"/>
+<line x1="232" y1="144" x2="361" y2="144" class="c35org-arr"/><path d="M368 144 l-9 -5 l0 10 z" class="c35org-arrh"/><text x="300.0" y="136" text-anchor="middle" class="c35org-note">조직계 없음</text>
+<line x1="472" y1="144" x2="481" y2="144" class="c35org-arr"/><path d="M488 144 l-9 -5 l0 10 z" class="c35org-arrh"/>
+<line x1="592" y1="144" x2="601" y2="144" class="c35org-arr"/><path d="M608 144 l-9 -5 l0 10 z" class="c35org-arrh"/>
+<text x="540" y="184" text-anchor="middle" class="c35org-tagv">동물에만 있는 단계</text>
+<line x1="14" y1="196" x2="706" y2="196" class="c35org-sep"/>
+<text x="14" y="216" class="c35org-row">식물</text>
+<rect x="26" y="240" width="68" height="46" rx="3" class="c35org-wall"/><rect x="31" y="245" width="58" height="36" rx="2" class="c35org-cyto"/><circle cx="46" cy="258" r="5" class="c35org-nuc"/>
+<rect x="134" y="242" width="24" height="24" class="c35org-wall"/>
+<rect x="158" y="242" width="24" height="24" class="c35org-wall"/>
+<rect x="146" y="266" width="24" height="24" class="c35org-wall"/>
+<rect x="182" y="242" width="24" height="24" class="c35org-wall"/>
+<rect x="170" y="266" width="24" height="24" class="c35org-wall"/>
+<rect x="206" y="242" width="24" height="24" class="c35org-wall"/>
+<rect x="194" y="266" width="24" height="24" class="c35org-wall"/>
+<rect x="128" y="242" width="104" height="48" class="c35org-none"/>
+<rect x="250" y="236" width="100" height="60" rx="14" class="c35org-leafin"/>
+<rect x="256" y="238" width="13" height="10" class="c35org-epi"/>
+<rect x="256" y="284" width="13" height="10" class="c35org-epi"/>
+<rect x="269" y="238" width="13" height="10" class="c35org-epi"/>
+<rect x="269" y="284" width="13" height="10" class="c35org-epi"/>
+<rect x="282" y="238" width="13" height="10" class="c35org-epi"/>
+<rect x="282" y="284" width="13" height="10" class="c35org-epi"/>
+<rect x="295" y="238" width="13" height="10" class="c35org-epi"/>
+<rect x="295" y="284" width="13" height="10" class="c35org-epi"/>
+<rect x="308" y="238" width="13" height="10" class="c35org-epi"/>
+<rect x="308" y="284" width="13" height="10" class="c35org-epi"/>
+<rect x="321" y="238" width="13" height="10" class="c35org-epi"/>
+<rect x="321" y="284" width="13" height="10" class="c35org-epi"/>
+<rect x="334" y="238" width="13" height="10" class="c35org-epi"/>
+<rect x="334" y="284" width="13" height="10" class="c35org-epi"/>
+<circle cx="300" cy="266" r="9" class="c35org-vein"/>
+<path d="M378 292 C384 248 420 232 462 234 C456 274 424 294 384 288 Z" class="c35org-leaf"/><path d="M370 300 L384 288 C404 272 430 252 458 236" class="c35org-rib"/>
+<path d="M660 304 L660 252" class="c35org-stem"/><path d="M660 284 C676 272 690 276 694 282 C684 290 670 290 660 284 Z" class="c35org-leaf"/><path d="M660 274 C644 262 630 266 626 272 C636 280 650 280 660 274 Z" class="c35org-leaf"/><circle cx="660" cy="244" r="15" class="c35org-petal"/><circle cx="660" cy="244" r="7" class="c35org-fc"/>
+<rect x="8" y="310" width="104" height="44" rx="8" class="c35org-box"/><text x="60" y="329" text-anchor="middle" class="c35org-name">세포</text><text x="60" y="346" text-anchor="middle" class="c35org-ex">표피 세포</text>
+<rect x="128" y="310" width="104" height="44" rx="8" class="c35org-box"/><text x="180" y="329" text-anchor="middle" class="c35org-name">조직</text><text x="180" y="346" text-anchor="middle" class="c35org-ex">표피 조직</text>
+<rect x="248" y="310" width="104" height="44" rx="8" class="c35org-boxv"/><text x="300" y="329" text-anchor="middle" class="c35org-name">조직계</text><text x="300" y="346" text-anchor="middle" class="c35org-ex">표피 조직계</text>
+<rect x="368" y="310" width="104" height="44" rx="8" class="c35org-box"/><text x="420" y="329" text-anchor="middle" class="c35org-name">기관</text><text x="420" y="346" text-anchor="middle" class="c35org-ex">잎</text>
+<rect x="608" y="310" width="104" height="44" rx="8" class="c35org-box"/><text x="660" y="329" text-anchor="middle" class="c35org-name">개체</text><text x="660" y="346" text-anchor="middle" class="c35org-ex">해바라기</text>
+<line x1="112" y1="332" x2="121" y2="332" class="c35org-arr"/><path d="M128 332 l-9 -5 l0 10 z" class="c35org-arrh"/>
+<line x1="232" y1="332" x2="241" y2="332" class="c35org-arr"/><path d="M248 332 l-9 -5 l0 10 z" class="c35org-arrh"/>
+<line x1="352" y1="332" x2="361" y2="332" class="c35org-arr"/><path d="M368 332 l-9 -5 l0 10 z" class="c35org-arrh"/>
+<line x1="472" y1="332" x2="601" y2="332" class="c35org-arr"/><path d="M608 332 l-9 -5 l0 10 z" class="c35org-arrh"/><text x="540.0" y="324" text-anchor="middle" class="c35org-note">기관계 없음</text>
+<text x="300" y="372" text-anchor="middle" class="c35org-tagv">식물에만 있는 단계</text>
+<text x="706" y="372" text-anchor="end" class="c35org-ex">모식도(크기 비율은 실제와 다름)</text>
+</svg>

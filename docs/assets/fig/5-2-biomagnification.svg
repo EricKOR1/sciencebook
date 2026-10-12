@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 324" role="img" aria-labelledby="t-5-2-biomagnification d-5-2-biomagnification">
+  <title id="t-5-2-biomagnification">그림 5-2-2 먹이 관계를 따라 쌓이는 물질 — 생물 농축</title>
+  <desc id="d-5-2-biomagnification">잘 분해·배출되지 않는 물질 X는 먹이 관계를 따라 위 영양 단계로 갈수록 몸속 농도가 높아진다. 농도 값은 예제 4의 가상 자료이고, 점의 수는 농도가 커지는 경향만 나타낸 모식이다(비율은 실제와 다름).</desc>
+  <style>
+    .bm-ttl{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .bm-lbl{font-size:14px;fill:var(--fig-ink)}
+    .bm-val{font-size:15px;font-weight:700;fill:var(--fig-red)}
+    .bm-sm{font-size:12.5px;fill:var(--fig-muted)}
+    .bm-box{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2}
+    .bm-dot{fill:var(--fig-red)}
+    .bm-arr{fill:none;stroke:var(--fig-ink);stroke-width:2}
+    .bm-head{fill:var(--fig-ink)}
+    .bm-pl{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5}
+    .bm-fish{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8;stroke-linejoin:round}
+    .bm-bird{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.8;stroke-linejoin:round}
+    .bm-leg{fill:none;stroke:var(--fig-violet);stroke-width:2}
+    .bm-eye{fill:var(--fig-ink)}
+  </style>
+  <text x="360" y="28" text-anchor="middle" class="bm-ttl">잘 분해·배출되지 않는 물질 X의 몸속 농도</text>
+  <!-- 동물성 플랑크톤 -->
+  <g>
+    <ellipse cx="86" cy="100" rx="8" ry="4.5" class="bm-pl"/><path d="M78 98 l-8 -7 M78 101 l-8 5" class="bm-leg" style="stroke:var(--fig-teal);stroke-width:1.2"/>
+    <ellipse cx="114" cy="92" rx="8" ry="4.5" class="bm-pl"/><path d="M106 90 l-8 -7 M106 93 l-8 5" class="bm-leg" style="stroke:var(--fig-teal);stroke-width:1.2"/>
+    <ellipse cx="104" cy="118" rx="8" ry="4.5" class="bm-pl"/><path d="M96 116 l-8 -7 M96 119 l-8 5" class="bm-leg" style="stroke:var(--fig-teal);stroke-width:1.2"/>
+    <ellipse cx="128" cy="126" rx="8" ry="4.5" class="bm-pl"/><path d="M120 124 l-8 -7 M120 127 l-8 5" class="bm-leg" style="stroke:var(--fig-teal);stroke-width:1.2"/>
+    <ellipse cx="80" cy="130" rx="8" ry="4.5" class="bm-pl"/><path d="M72 128 l-8 -7 M72 131 l-8 5" class="bm-leg" style="stroke:var(--fig-teal);stroke-width:1.2"/>
+  </g>
+  <text x="105" y="164" text-anchor="middle" class="bm-lbl">동물성 플랑크톤</text>
+  <!-- 작은 물고기 -->
+  <path d="M251 112 l-16 -11 v22 z" class="bm-fish"/>
+  <ellipse cx="277" cy="112" rx="27" ry="11" class="bm-fish"/>
+  <circle cx="294" cy="109" r="2.2" class="bm-eye"/>
+  <text x="275" y="164" text-anchor="middle" class="bm-lbl">작은 물고기</text>
+  <!-- 큰 물고기 -->
+  <path d="M400 112 l-24 -17 v34 z" class="bm-fish"/>
+  <ellipse cx="447" cy="112" rx="49" ry="20" class="bm-fish"/>
+  <circle cx="480" cy="106" r="3" class="bm-eye"/>
+  <text x="445" y="164" text-anchor="middle" class="bm-lbl">큰 물고기</text>
+  <!-- 물새 -->
+  <path d="M606 124 l-4 24 M620 124 l4 24" class="bm-leg"/>
+  <path d="M628 108 C634 98, 630 90, 634 82" class="bm-leg" style="stroke-width:6;stroke-linecap:round"/>
+  <ellipse cx="612" cy="114" rx="28" ry="14" class="bm-bird"/>
+  <circle cx="636" cy="80" r="9" class="bm-bird"/>
+  <path d="M644 77 l18 4 l-18 5 z" class="bm-bird" style="fill:var(--fig-amber);stroke:var(--fig-amber)"/>
+  <circle cx="638" cy="78" r="1.8" class="bm-eye"/>
+  <text x="615" y="164" text-anchor="middle" class="bm-lbl">물새</text>
+  <!-- 먹힘 화살표 -->
+  <line x1="146" y1="110" x2="218" y2="110" class="bm-arr"/><path d="M226 110 l-10 -5 v10 z" class="bm-head"/>
+  <text x="184" y="100" text-anchor="middle" class="bm-sm">먹힘</text>
+  <line x1="316" y1="110" x2="358" y2="110" class="bm-arr"/><path d="M366 110 l-10 -5 v10 z" class="bm-head"/>
+  <text x="338" y="100" text-anchor="middle" class="bm-sm">먹힘</text>
+  <line x1="508" y1="110" x2="566" y2="110" class="bm-arr"/><path d="M574 110 l-10 -5 v10 z" class="bm-head"/>
+  <text x="540" y="100" text-anchor="middle" class="bm-sm">먹힘</text>
+  <!-- 농도 상자 -->
+  <rect x="30" y="182" width="150" height="62" rx="8" class="bm-box"/>
+  <rect x="200" y="182" width="150" height="62" rx="8" class="bm-box"/>
+  <rect x="370" y="182" width="150" height="62" rx="8" class="bm-box"/>
+  <rect x="540" y="182" width="150" height="62" rx="8" class="bm-box"/>
+  <circle cx="92.4" cy="220" r="3.6" class="bm-dot"/>
+  <circle cx="67.2" cy="196" r="3.6" class="bm-dot"/>
+  <circle cx="316.8" cy="208" r="3.6" class="bm-dot"/>
+  <circle cx="312.8" cy="196" r="3.6" class="bm-dot"/>
+  <circle cx="279.0" cy="232" r="3.6" class="bm-dot"/>
+  <circle cx="253.8" cy="208" r="3.6" class="bm-dot"/>
+  <circle cx="253.8" cy="232" r="3.6" class="bm-dot"/>
+  <circle cx="300.2" cy="196" r="3.6" class="bm-dot"/>
+  <circle cx="512.0" cy="208" r="3.6" class="bm-dot"/>
+  <circle cx="419.8" cy="196" r="3.6" class="bm-dot"/>
+  <circle cx="461.6" cy="208" r="3.6" class="bm-dot"/>
+  <circle cx="419.8" cy="220" r="3.6" class="bm-dot"/>
+  <circle cx="486.8" cy="208" r="3.6" class="bm-dot"/>
+  <circle cx="394.6" cy="220" r="3.6" class="bm-dot"/>
+  <circle cx="386.0" cy="232" r="3.6" class="bm-dot"/>
+  <circle cx="449.0" cy="208" r="3.6" class="bm-dot"/>
+  <circle cx="449.0" cy="232" r="3.6" class="bm-dot"/>
+  <circle cx="461.6" cy="232" r="3.6" class="bm-dot"/>
+  <circle cx="457.6" cy="220" r="3.6" class="bm-dot"/>
+  <circle cx="508.0" cy="220" r="3.6" class="bm-dot"/>
+  <circle cx="495.4" cy="196" r="3.6" class="bm-dot"/>
+  <circle cx="382.0" cy="220" r="3.6" class="bm-dot"/>
+  <circle cx="552.0" cy="196" r="3.6" class="bm-dot"/>
+  <circle cx="577.2" cy="220" r="3.6" class="bm-dot"/>
+  <circle cx="615.0" cy="220" r="3.6" class="bm-dot"/>
+  <circle cx="568.6" cy="232" r="3.6" class="bm-dot"/>
+  <circle cx="669.4" cy="208" r="3.6" class="bm-dot"/>
+  <circle cx="602.4" cy="196" r="3.6" class="bm-dot"/>
+  <circle cx="581.2" cy="232" r="3.6" class="bm-dot"/>
+  <circle cx="606.4" cy="232" r="3.6" class="bm-dot"/>
+  <circle cx="682.0" cy="208" r="3.6" class="bm-dot"/>
+  <circle cx="556.0" cy="232" r="3.6" class="bm-dot"/>
+  <circle cx="665.4" cy="220" r="3.6" class="bm-dot"/>
+  <circle cx="678.0" cy="196" r="3.6" class="bm-dot"/>
+  <circle cx="568.6" cy="208" r="3.6" class="bm-dot"/>
+  <circle cx="556.0" cy="208" r="3.6" class="bm-dot"/>
+  <circle cx="644.2" cy="232" r="3.6" class="bm-dot"/>
+  <circle cx="615.0" cy="196" r="3.6" class="bm-dot"/>
+  <circle cx="644.2" cy="208" r="3.6" class="bm-dot"/>
+  <circle cx="564.6" cy="220" r="3.6" class="bm-dot"/>
+  <circle cx="631.6" cy="232" r="3.6" class="bm-dot"/>
+  <circle cx="652.8" cy="220" r="3.6" class="bm-dot"/>
+  <circle cx="656.8" cy="232" r="3.6" class="bm-dot"/>
+  <circle cx="593.8" cy="232" r="3.6" class="bm-dot"/>
+  <circle cx="640.2" cy="196" r="3.6" class="bm-dot"/>
+  <circle cx="682.0" cy="232" r="3.6" class="bm-dot"/>
+  <circle cx="627.6" cy="196" r="3.6" class="bm-dot"/>
+  <circle cx="606.4" cy="208" r="3.6" class="bm-dot"/>
+  <circle cx="602.4" cy="220" r="3.6" class="bm-dot"/>
+  <circle cx="640.2" cy="220" r="3.6" class="bm-dot"/>
+  <circle cx="619.0" cy="208" r="3.6" class="bm-dot"/>
+  <circle cx="589.8" cy="196" r="3.6" class="bm-dot"/>
+  <circle cx="577.2" cy="196" r="3.6" class="bm-dot"/>
+  <circle cx="589.8" cy="220" r="3.6" class="bm-dot"/>
+  <circle cx="669.4" cy="232" r="3.6" class="bm-dot"/>
+  <circle cx="552.0" cy="220" r="3.6" class="bm-dot"/>
+  <circle cx="678.0" cy="220" r="3.6" class="bm-dot"/>
+  <circle cx="593.8" cy="208" r="3.6" class="bm-dot"/>
+  <circle cx="656.8" cy="208" r="3.6" class="bm-dot"/>
+  <circle cx="631.6" cy="208" r="3.6" class="bm-dot"/>
+  <circle cx="627.6" cy="220" r="3.6" class="bm-dot"/>
+  <circle cx="652.8" cy="196" r="3.6" class="bm-dot"/>
+  <circle cx="564.6" cy="196" r="3.6" class="bm-dot"/>
+  <circle cx="619.0" cy="232" r="3.6" class="bm-dot"/>
+  <circle cx="581.2" cy="208" r="3.6" class="bm-dot"/>
+  <circle cx="665.4" cy="196" r="3.6" class="bm-dot"/>
+  <text x="105" y="268" text-anchor="middle" class="bm-val">0.04 ppm</text>
+  <text x="275" y="268" text-anchor="middle" class="bm-val">0.5 ppm</text>
+  <text x="445" y="268" text-anchor="middle" class="bm-val">2 ppm</text>
+  <text x="615" y="268" text-anchor="middle" class="bm-val">25 ppm</text>
+  <text x="360" y="296" text-anchor="middle" class="bm-sm">위 영양 단계는 아래 단계 생물을 많이 먹고, 물질 X는 몸에 남는다 → 위로 갈수록 농도가 높아진다</text>
+  <text x="360" y="314" text-anchor="middle" class="bm-sm">(예제 4의 가상 자료 · 점의 수는 실제 비율과 다름)</text>
+</svg>

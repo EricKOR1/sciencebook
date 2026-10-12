@@ -141,14 +141,17 @@ Sims.register('plates', {
       var step = 2 / r.w;
       for (f = 0; f < 1; f += step) {
         var d = Math.abs(f + step / 2 - 0.5), age = d / V, nrm = polarity(state.t - age);
-        ctx.fillStyle = nrm ? T.figBlue : T.figSoftBlue;
+        ctx.fillStyle = nrm ? T.figBlue : T.figPaper;
         var y0 = Y(floor(f + step / 2));
         ctx.fillRect(X(f), y0, 2.2, Y(floor(f + step / 2) + CR) - y0);
       }
+      // 지각의 위·아래 경계
+      ctx.strokeStyle = T.figBlue; ctx.lineWidth = 1;
+      [0, CR].forEach(function (o) { ctx.beginPath(); for (var j = 0; j <= N; j++) { var q = j / N; if (j) ctx.lineTo(X(q), Y(floor(q) + o)); else ctx.moveTo(X(q), Y(floor(q) + o)); } ctx.stroke(); });
       // 마그마 상승
       var top = Y(floor(0.5)), bot = Y(1.02);
-      ctx.save(); ctx.globalAlpha = 0.75;
-      poly([[X(0.44), bot], [X(0.488), Y(0.5)], [X(0.497), top], [X(0.503), top], [X(0.512), Y(0.5)], [X(0.56), bot]], T.figRed);
+      ctx.save(); ctx.globalAlpha = 0.55;
+      poly([[X(0.465), bot], [X(0.49), Y(0.5)], [X(0.497), top], [X(0.503), top], [X(0.51), Y(0.5)], [X(0.535), bot]], T.figRed);
       ctx.restore();
       for (i = 0; i < 4; i++) {
         var p = ((state.t * 0.15 + i / 4) % 1), yy = bot - p * (bot - top - 6);
@@ -186,28 +189,28 @@ Sims.register('plates', {
       // 위 선에서 아래쪽으로 두께만큼 띄운 선
       function offset(pts, d) {
         return pts.map(function (p, i) {
-          var a = pts[Math.max(0, i - 1)], b = pts[Math.min(pts.length - 1, i + 1)];
-          var n1 = norm(pts[Math.max(0, i - 1)], p, i > 0), n2 = norm(p, pts[Math.min(pts.length - 1, i + 1)], i < pts.length - 1);
-          var nx = (n1[0] + n2[0]), ny = (n1[1] + n2[1]), l = Math.hypot(nx, ny), dot = (nx * n1[0] + ny * n1[1]) / l;
-          void a; void b;
-          return [p[0] + nx / l * d / dot, p[1] + ny / l * d / dot];
+          var ns = [];
+          if (i > 0) ns.push(norm(pts[i - 1], p));
+          if (i < pts.length - 1) ns.push(norm(p, pts[i + 1]));
+          var nx = 0, ny = 0;
+          ns.forEach(function (n) { nx += n[0]; ny += n[1]; });
+          var l = Math.hypot(nx, ny); nx /= l; ny /= l;
+          var dot = nx * ns[0][0] + ny * ns[0][1];
+          return [p[0] + nx * d / dot, p[1] + ny * d / dot];
         });
       }
-      function norm(a, b, ok) {
-        if (!ok) return [0, 0];
-        var dx = b[0] - a[0], dy = b[1] - a[1], l = Math.hypot(dx, dy); return [-dy / l, dx / l];
-      }
+      function norm(a, b) { var dx = b[0] - a[0], dy = b[1] - a[1], l = Math.hypot(dx, dy); return [-dy / l, dx / l]; }
       var bottom = offset(top, TH);
       // 대륙 표면 (화산 위치는 섭입판이 충분히 깊어진 곳 위)
-      var vx = slabX(Y(0.47));
-      var surf = [[P2[0] + 2, P2[1] - 2], [X(0.47), Y(0.24)], [X(0.50), Y(SEA)], [X(0.52), Y(0.17)],
-        [vx - r.w * 0.05, Y(0.13)], [vx, Y(0.075)], [vx + r.w * 0.05, Y(0.12)], [vx + r.w * 0.11, Y(0.10)],
-        [vx + r.w * 0.17, Y(0.14)], [X(1.02), Y(0.16)]];
+      var vx = Math.max(slabX(Y(0.47)), X(0.55)), mw = r.w * 0.045;
+      var surf = [[P2[0] + 2, P2[1] - 2], [X(0.45), Y(0.26)], [X(0.48), Y(SEA)], [X(0.50), Y(0.175)],
+        [vx - mw * 1.2, Y(0.13)], [vx, Y(0.075)], [vx + mw, Y(0.115)], [vx + mw * 2.2, Y(0.095)],
+        [vx + mw * 3.6, Y(0.14)], [X(1.02), Y(0.16)]];
       // 연약권
       ctx.fillStyle = T.figSoftRed; ctx.fillRect(r.x, Y(0.25), r.w, r.h);
       // 바다
-      poly([[X(-0.02), Y(SEA)], [X(0.50), Y(SEA)], [X(0.47), Y(0.24)], P2, P1, P0], T.figSoftBlue);
-      ctx.strokeStyle = T.figBlue; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.moveTo(X(-0.02), Y(SEA)); ctx.lineTo(X(0.50), Y(SEA)); ctx.stroke();
+      poly([[X(-0.02), Y(SEA)], [X(0.48), Y(SEA)], [X(0.45), Y(0.26)], P2, P1, P0], T.figSoftBlue);
+      ctx.strokeStyle = T.figBlue; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.moveTo(X(-0.02), Y(SEA)); ctx.lineTo(X(0.48), Y(SEA)); ctx.stroke();
       // 대륙판: 지각 + 맨틀 최상부
       var MOHO = Y(0.37), LB = Y(0.50);
       var crust = surf.slice(); crust.push([X(1.02), MOHO], [slabX(MOHO), MOHO]);
@@ -253,18 +256,18 @@ Sims.register('plates', {
       });
       star(X(0.47), Y(0.29), 6, T, fl);
       // 이름표
-      var ay = Y(0.27) + TH * 0.6;
+      var ay = Y(0.27) + TH * 0.8;
       arrow(X(0.08), ay, X(0.26), ay, T.figInk, 3);
-      label('해양판 (밀도 큼)', X(0.17), ay - 16, T, { bold: true });
-      arrow(X(0.93), Y(0.435), X(0.80), Y(0.435), T.figInk, 3);
-      label('대륙판 (밀도 작음)', X(L.narrow ? 0.80 : 0.84), Y(0.40) - 2, T, { bold: true, box: true });
+      label('해양판 (밀도 큼)', X(0.17), Y(0.27) + TH * 0.47, T, { bold: true });
+      arrow(X(0.95), Y(0.47), X(0.82), Y(0.47), T.figInk, 3);
+      label('대륙판 (밀도 작음)', X(L.narrow ? 0.80 : 0.85), Y(0.41), T, { bold: true });
       label('해구', P2[0], Y(SEA) - 14, T, { bold: true, size: 13 });
       ctx.strokeStyle = T.figInk; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(P2[0], Y(SEA) - 6); ctx.lineTo(P2[0], P2[1] - 4); ctx.stroke();
       label('화산', vx + 14, Y(0.035), T, { bold: true, size: 13, align: 'left' });
       // 진원 깊이 설명 (섭입판 아래쪽, 판을 따라 기울여 씀)
       ctx.save();
-      var mid = Y(0.62), tx = slabX(mid) - TH * 0.9;
-      ctx.translate(tx, mid + TH * 0.55); ctx.rotate(ANG);
+      var mid = Y(0.60), off = TH + 14;
+      ctx.translate(slabX(mid) - sa * off, mid + ca * off); ctx.rotate(ANG);
       label(L.narrow ? '진원이 점점 깊어짐 →' : '대륙 쪽으로 갈수록 진원이 깊어짐 →', 0, 0, T, { size: 12, color: T.figInk });
       ctx.restore();
       label('맨틀 대류(단순화)', X(0.17), Y(0.74), T, { size: 11, color: T.figMuted });
