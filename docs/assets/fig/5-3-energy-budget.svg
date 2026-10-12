@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 476" role="img" aria-labelledby="t-5-3-energy-budget d-5-3-energy-budget">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 498" role="img" aria-labelledby="t-5-3-energy-budget d-5-3-energy-budget">
   <title id="t-5-3-energy-budget">그림 5-3-1 지구 열수지 (태양 복사 100 기준)</title>
   <desc id="d-5-3-energy-budget">지구에 들어오는 태양 복사 100 가운데 30은 반사되고 23은 대기, 47은 지표가 흡수한다. 지표는 대기 역복사 97을 더 받아 지표 복사 116, 증발 23, 전도·대류 5를 내보내고, 대기는 우주로 58을 방출한다. 지구 전체·대기·지표 각각에서 들어온 양과 나간 양이 같다. 반올림한 대표값이며 자료마다 조금씩 다를 수 있다.</desc>
   <style>
@@ -46,19 +46,19 @@
   <text x="362" y="318" text-anchor="end" class="eb-lbl eb-c-lw">지표 복사 116</text>
   <text x="362" y="236" text-anchor="end" class="eb-lbl eb-c-lw">대기 흡수 104</text>
   <text x="406" y="84" class="eb-lbl eb-c-lw">대기 통과 12</text>
-  <line x1="470" y1="345" x2="470" y2="216" class="eb-ht" style="stroke-width:4.8"/>
-  <path d="M470 204 L464 213 L476 213 Z" class="eb-ht-h"/>
-  <line x1="500" y1="345" x2="500" y2="216" class="eb-ht" style="stroke-width:2.5"/>
-  <path d="M500 204 L494 213 L506 213 Z" class="eb-ht-h"/>
-  <text x="458" y="300" text-anchor="end" class="eb-lbl eb-c-ht">증발(숨은열) 23</text>
-  <text x="508" y="300" class="eb-lbl eb-c-ht">전도·대류 5</text>
+  <line x1="452" y1="345" x2="452" y2="216" class="eb-ht" style="stroke-width:4.8"/>
+  <path d="M452 204 L446 213 L458 213 Z" class="eb-ht-h"/>
+  <line x1="474" y1="345" x2="474" y2="216" class="eb-ht" style="stroke-width:2.5"/>
+  <path d="M474 204 L468 213 L480 213 Z" class="eb-ht-h"/>
+  <text x="486" y="292" class="eb-lbl eb-c-ht">증발(숨은열) 23</text>
+  <text x="486" y="316" class="eb-lbl eb-c-ht">전도·대류 5</text>
   <line x1="612" y1="186" x2="612" y2="336" class="eb-lw" style="stroke-width:20.4"/>
   <path d="M612 350 L594.6855 333.704 L629.3145 333.704 Z" class="eb-lw-h"/>
   <text x="596" y="240" text-anchor="end" class="eb-lbl eb-c-lw">대기 역복사 97</text>
   <line x1="680" y1="186" x2="680" y2="44" class="eb-lw" style="stroke-width:12.2"/>
   <path d="M680 28 L669.647 37.744 L690.353 37.744 Z" class="eb-lw-h"/>
   <text x="664" y="84" text-anchor="end" class="eb-lbl eb-c-lw">대기의 방출 58</text>
-  <text x="12" y="290" class="eb-sm">화살표 굵기: 크기 비교용(작은 값은 같은 굵기)</text>
+  <text x="12" y="488" class="eb-sm">반올림한 대표값(태양 복사 100 기준). 화살표 굵기는 대략적인 크기 비교용이며, 작은 값(5·7·12)은 같은 굵기로 그렸다.</text>
   <text x="12" y="420" class="eb-sum"><tspan class="eb-sumh">지구 전체</tspan>  들어옴: 태양 복사 100  =  나감: 반사 30 + 대기의 방출 58 + 대기 통과 12</text>
   <text x="12" y="442" class="eb-sum"><tspan class="eb-sumh">대기</tspan>  들어옴: 23 + 104 + 23 + 5 = 155  =  나감: 대기 역복사 97 + 대기의 방출 58</text>
   <text x="12" y="464" class="eb-sum"><tspan class="eb-sumh">지표</tspan>  들어옴: 47 + 97 = 144  =  나감: 지표 복사 116 + 증발 23 + 전도·대류 5</text>

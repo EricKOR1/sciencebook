@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-5-5-transformer d-5-5-transformer">
+  <title id="t-5-5-transformer">그림 5-5-3 변압기의 구조와 원리</title>
+  <desc id="d-5-5-transformer">철심에 두 코일을 감고 1차 코일에 교류를 흘리면 철심 속 자기장이 계속 변하고, 이 변화가 2차 코일에 전류를 유도한다(전자기 유도). 2차 코일을 더 많이 감으면 전압이 높아지고, 더 적게 감으면 낮아진다. 모식도.</desc>
+  <style>
+    .tf-lbl{font-size:14px;font-weight:600;fill:var(--fig-ink)} .tf-sm{font-size:13px;fill:var(--fig-muted)} .tf-ink{fill:var(--fig-ink)}
+    .tf-coil{fill:none;stroke:var(--fig-amber);stroke-width:3}
+    .tf-wire{fill:none;stroke:var(--fig-amber);stroke-width:2}
+  </style>
+  <!-- 철심 -->
+  <path d="M220,48 h280 v200 h-280 Z M270,98 v100 h180 v-100 Z" style="fill:var(--fig-line);fill-opacity:0.4;fill-rule:evenodd;stroke:var(--fig-ink);stroke-width:1.5"/>
+  <text x="360" y="124" text-anchor="middle" class="tf-sm">철심</text>
+  <!-- 철심 속 자기장 -->
+  <rect x="245" y="73" width="230" height="150" rx="16" style="fill:none;stroke:var(--fig-violet);stroke-width:2;stroke-dasharray:7 5"/>
+  <path d="M368,73 l-11,-5 l0,10 z M352,223 l11,-5 l0,10 z" style="fill:var(--fig-violet)"/>
+  <text x="360" y="36" text-anchor="middle" class="tf-lbl" style="fill:var(--fig-violet)">교류가 흐르면 철심 속 자기장이 계속 변한다</text>
+  <!-- 1차 코일(4번 감음) -->
+  <ellipse cx="245" cy="118" rx="34" ry="7" class="tf-coil"/>
+  <ellipse cx="245" cy="138" rx="34" ry="7" class="tf-coil"/>
+  <ellipse cx="245" cy="158" rx="34" ry="7" class="tf-coil"/>
+  <ellipse cx="245" cy="178" rx="34" ry="7" class="tf-coil"/>
+  <!-- 2차 코일(8번 감음) -->
+  <ellipse cx="475" cy="106" rx="34" ry="6" class="tf-coil"/>
+  <ellipse cx="475" cy="118" rx="34" ry="6" class="tf-coil"/>
+  <ellipse cx="475" cy="130" rx="34" ry="6" class="tf-coil"/>
+  <ellipse cx="475" cy="142" rx="34" ry="6" class="tf-coil"/>
+  <ellipse cx="475" cy="154" rx="34" ry="6" class="tf-coil"/>
+  <ellipse cx="475" cy="166" rx="34" ry="6" class="tf-coil"/>
+  <ellipse cx="475" cy="178" rx="34" ry="6" class="tf-coil"/>
+  <ellipse cx="475" cy="190" rx="34" ry="6" class="tf-coil"/>
+  <!-- 입력 -->
+  <polyline points="211,118 130,118 130,126" class="tf-wire"/>
+  <polyline points="211,178 130,178 130,170" class="tf-wire"/>
+  <circle cx="130" cy="148" r="22" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <path d="M116,148 q7,-12 14,0 t14,0" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <text x="130" y="206" text-anchor="middle" class="tf-lbl">교류 입력</text>
+  <!-- 출력 -->
+  <polyline points="509,106 600,106 600,128" class="tf-wire"/>
+  <polyline points="509,190 600,190 600,168" class="tf-wire"/>
+  <circle cx="600" cy="148" r="20" style="fill:var(--fig-soft-amber);stroke:var(--fig-ink);stroke-width:2"/>
+  <path d="M588,136 L612,160 M612,136 L588,160" style="stroke:var(--fig-ink);stroke-width:1.6"/>
+  <text x="600" y="206" text-anchor="middle" class="tf-lbl">출력</text>
+  <text x="600" y="224" text-anchor="middle" class="tf-sm">유도 전류가 흐른다</text>
+  <!-- 이름 -->
+  <text x="245" y="272" text-anchor="middle" class="tf-lbl">1차 코일</text>
+  <text x="245" y="290" text-anchor="middle" class="tf-sm">감은 수 적음</text>
+  <text x="475" y="272" text-anchor="middle" class="tf-lbl">2차 코일</text>
+  <text x="475" y="290" text-anchor="middle" class="tf-sm">감은 수 많음 → 전압이 높아짐</text>
+  <!-- 정리 -->
+  <line x1="20" y1="306" x2="700" y2="306" style="stroke:var(--fig-line);stroke-width:1"/>
+  <text x="20" y="328" class="tf-sm" style="fill:var(--fig-ink)">2차 코일을 더 많이 감으면 → 전압을 높인다 (발전소 → 송전선)</text>
+  <text x="20" y="348" class="tf-sm" style="fill:var(--fig-ink)">2차 코일을 더 적게 감으면 → 전압을 낮춘다 (변전소·주상 변압기 → 가정)</text>
+  <text x="20" y="370" class="tf-sm">직류는 자기장이 변하지 않으므로 보통의 변압기로 전압을 바꿀 수 없다.</text>
+</svg>
