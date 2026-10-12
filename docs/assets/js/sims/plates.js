@@ -272,7 +272,7 @@ Sims.register('plates', {
       ctx.restore();
       label('맨틀 대류(단순화)', X(0.17), Y(0.74), T, { size: 11, color: T.figMuted });
       label('연약권', X(L.narrow ? 0.55 : 0.86), Y(L.narrow ? 0.92 : 0.62), T, { size: 12, color: T.figMuted });
-      label('해양판끼리 만나면 → 호상 열도 (예: 일본 열도)', X(0.02), Y(0.06), T, { size: L.narrow ? 11 : 12, align: 'left', color: T.figMuted });
+      if (!L.narrow) label('해양판끼리 만나면 → 호상 열도 (예: 일본 열도)', X(0.02), Y(0.06), T, { size: 12, align: 'left', color: T.figMuted });
     }
 
     /* ───── 충돌형 ───── */
