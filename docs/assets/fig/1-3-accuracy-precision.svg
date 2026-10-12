@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="t-1-3-accuracy-precision d-1-3-accuracy-precision">
+  <title id="t-1-3-accuracy-precision">그림 1-3-1 정확도와 정밀도</title>
+  <desc id="d-1-3-accuracy-precision">과녁 한가운데를 참값, 점을 측정값, ×를 평균이라 하면, 정확도는 평균이 한가운데에 가까운 정도이고 정밀도는 점끼리 모여 있는 정도이다.</desc>
+  <style>
+    .ap13-lbl{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .ap13-txt{font-size:14px;fill:var(--fig-ink)}
+    .ap13-sm{font-size:13px;fill:var(--fig-muted)}
+    .ap13-hi{fill:var(--fig-green)} .ap13-lo{fill:var(--fig-red)}
+    .ap13-r1{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2}
+    .ap13-r2{fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:1.2}
+    .ap13-dot{fill:var(--fig-red);stroke:var(--fig-panel);stroke-width:1.2}
+    .ap13-mean{stroke:var(--fig-violet);stroke-width:3;fill:none;stroke-linecap:round}
+  </style>
+  <circle cx="95" cy="104" r="70.0" class="ap13-r1"/>
+  <circle cx="95" cy="104" r="46.7" class="ap13-r2"/>
+  <circle cx="95" cy="104" r="23.3" class="ap13-r1"/>
+  <circle cx="95" cy="104" r="5" style="fill:var(--fig-blue)"/>
+  <circle cx="90" cy="101" r="5" class="ap13-dot"/>
+  <circle cx="99" cy="98" r="5" class="ap13-dot"/>
+  <circle cx="101" cy="107" r="5" class="ap13-dot"/>
+  <circle cx="92" cy="110" r="5" class="ap13-dot"/>
+  <circle cx="96" cy="104" r="5" class="ap13-dot"/>
+  <circle cx="88" cy="106" r="5" class="ap13-dot"/>
+  <path d="M88.3 98.3 l12 12 M100.3 98.3 l-12 12" class="ap13-mean"/>
+  <text x="95" y="200" text-anchor="middle" class="ap13-lbl ap13-hi">정확도 높음</text>
+  <text x="95" y="220" text-anchor="middle" class="ap13-lbl ap13-hi">정밀도 높음</text>
+  <text x="95" y="240" text-anchor="middle" class="ap13-sm">좋은 도구, 좋은 방법</text>
+  <circle cx="272" cy="104" r="70.0" class="ap13-r1"/>
+  <circle cx="272" cy="104" r="46.7" class="ap13-r2"/>
+  <circle cx="272" cy="104" r="23.3" class="ap13-r1"/>
+  <circle cx="272" cy="104" r="5" style="fill:var(--fig-blue)"/>
+  <circle cx="297" cy="73" r="5" class="ap13-dot"/>
+  <circle cx="306" cy="70" r="5" class="ap13-dot"/>
+  <circle cx="308" cy="79" r="5" class="ap13-dot"/>
+  <circle cx="299" cy="82" r="5" class="ap13-dot"/>
+  <circle cx="303" cy="76" r="5" class="ap13-dot"/>
+  <circle cx="295" cy="78" r="5" class="ap13-dot"/>
+  <path d="M295.3 70.3 l12 12 M307.3 70.3 l-12 12" class="ap13-mean"/>
+  <text x="272" y="200" text-anchor="middle" class="ap13-lbl ap13-lo">정확도 낮음</text>
+  <text x="272" y="220" text-anchor="middle" class="ap13-lbl ap13-hi">정밀도 높음</text>
+  <text x="272" y="240" text-anchor="middle" class="ap13-sm">계통 오차(영점·교정)</text>
+  <circle cx="449" cy="104" r="70.0" class="ap13-r1"/>
+  <circle cx="449" cy="104" r="46.7" class="ap13-r2"/>
+  <circle cx="449" cy="104" r="23.3" class="ap13-r1"/>
+  <circle cx="449" cy="104" r="5" style="fill:var(--fig-blue)"/>
+  <circle cx="409" cy="89" r="5" class="ap13-dot"/>
+  <circle cx="484" cy="74" r="5" class="ap13-dot"/>
+  <circle cx="469" cy="142" r="5" class="ap13-dot"/>
+  <circle cx="424" cy="139" r="5" class="ap13-dot"/>
+  <circle cx="491" cy="114" r="5" class="ap13-dot"/>
+  <circle cx="417" cy="66" r="5" class="ap13-dot"/>
+  <path d="M443.0 98.0 l12 12 M455.0 98.0 l-12 12" class="ap13-mean"/>
+  <text x="449" y="200" text-anchor="middle" class="ap13-lbl ap13-hi">평균은 정확</text>
+  <text x="449" y="220" text-anchor="middle" class="ap13-lbl ap13-lo">정밀도 낮음</text>
+  <text x="449" y="240" text-anchor="middle" class="ap13-sm">우연 오차</text>
+  <circle cx="626" cy="104" r="70.0" class="ap13-r1"/>
+  <circle cx="626" cy="104" r="46.7" class="ap13-r2"/>
+  <circle cx="626" cy="104" r="23.3" class="ap13-r1"/>
+  <circle cx="626" cy="104" r="5" style="fill:var(--fig-blue)"/>
+  <circle cx="621" cy="114" r="5" class="ap13-dot"/>
+  <circle cx="678" cy="140" r="5" class="ap13-dot"/>
+  <circle cx="666" cy="159" r="5" class="ap13-dot"/>
+  <circle cx="626" cy="154" r="5" class="ap13-dot"/>
+  <circle cx="681" cy="102" r="5" class="ap13-dot"/>
+  <circle cx="644" cy="124" r="5" class="ap13-dot"/>
+  <path d="M646.7 126.2 l12 12 M658.7 126.2 l-12 12" class="ap13-mean"/>
+  <text x="626" y="200" text-anchor="middle" class="ap13-lbl ap13-lo">정확도 낮음</text>
+  <text x="626" y="220" text-anchor="middle" class="ap13-lbl ap13-lo">정밀도 낮음</text>
+  <text x="626" y="240" text-anchor="middle" class="ap13-sm">두 오차 모두</text>
+  <circle cx="186" cy="279" r="5" class="ap13-dot"/><text x="196" y="284" class="ap13-sm">측정값</text>
+  <path d="M268 273 l12 12 M280 273 l-12 12" class="ap13-mean"/><text x="288" y="284" class="ap13-sm">평균</text>
+  <circle cx="352" cy="279" r="5" style="fill:var(--fig-blue)"/><text x="362" y="284" class="ap13-sm">과녁 한가운데 = 참값</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 372" role="img" aria-labelledby="t-2-1-three-spectra d-2-1-three-spectra">
+  <title id="t-2-1-three-spectra">그림 2-1-2 연속·흡수·방출 스펙트럼이 생기는 조건</title>
+  <desc id="d-2-1-three-spectra">뜨거운 광원의 빛을 그대로 보면 연속 스펙트럼, 차가운 기체를 통과한 빛을 보면 흡수 스펙트럼, 기체가 옆으로 내는 빛을 보면 방출(선) 스펙트럼이 보인다. 예로 든 수소의 선(410, 434, 486, 656 nm)처럼 같은 기체의 흡수선과 방출선은 위치가 같다. 색은 근사.</desc>
+  <style>
+    .tsp-lbl{font-size:15px;fill:var(--fig-ink)} .tsp-sm{font-size:13px;fill:var(--fig-muted)}
+    .tsp-ink{fill:var(--fig-ink)} .tsp-mut{fill:var(--fig-muted)} .tsp-b{font-weight:600}
+    .tsp-night{fill:var(--fig-ink)}
+    @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .tsp-night{fill:var(--fig-paper)} }
+    :root[data-theme="dark"] .tsp-night{fill:var(--fig-paper)}
+  </style>
+  <defs><linearGradient id="tsp-rainbow" x1="0" y1="0" x2="1" y2="0"><stop offset="0" style="stop-color:var(--fig-violet)"/><stop offset="0.17" style="stop-color:var(--fig-blue)"/><stop offset="0.3" style="stop-color:var(--fig-teal)"/><stop offset="0.43" style="stop-color:var(--fig-green)"/><stop offset="0.6" style="stop-color:var(--fig-amber)"/><stop offset="0.8" style="stop-color:var(--fig-red)"/><stop offset="1" style="stop-color:var(--fig-red)"/></linearGradient></defs>
+  <circle cx="80" cy="190" r="28" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <path d="M68 196 q6 -16 12 0 q6 -16 12 0" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
+  <rect x="70" y="218" width="20" height="12" style="fill:var(--fig-line)"/>
+  <text x="80.0" y="252.0" text-anchor="middle" class="tsp-lbl tsp-b">뜨거운 광원</text>
+  <text x="80.0" y="270.0" text-anchor="middle" class="tsp-sm">(전구, 별의 표면)</text>
+  <ellipse cx="290" cy="190" rx="66" ry="42" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="290.0" y="186.0" text-anchor="middle" class="tsp-lbl tsp-b">차가운 기체</text>
+  <text x="290.0" y="204.0" text-anchor="middle" class="tsp-sm">(예: 수소)</text>
+  <line x1="104.0" y1="172.0" x2="446.3" y2="76.4" style="stroke:var(--fig-amber);stroke-width:2.5;fill:none"/>
+  <path d="M455.0 74.0 L447.5 80.8 L445.1 72.1 Z" style="fill:var(--fig-amber)"/>
+  <text x="250.0" y="110.0" text-anchor="middle" class="tsp-sm" transform="rotate(-15.6 250 110)">기체를 거치지 않은 빛</text>
+  <line x1="110" y1="190" x2="224" y2="190" style="stroke:var(--fig-amber);stroke-width:2.5"/>
+  <line x1="356.0" y1="190.0" x2="446.0" y2="190.0" style="stroke:var(--fig-amber);stroke-width:2.5;fill:none"/>
+  <path d="M455.0 190.0 L446.0 194.5 L446.0 185.5 Z" style="fill:var(--fig-amber)"/>
+  <line x1="330.0" y1="224.0" x2="447.5" y2="301.1" style="stroke:var(--fig-violet);stroke-width:2.5;stroke-dasharray:6 4;fill:none"/>
+  <path d="M455.0 306.0 L445.0 304.8 L449.9 297.3 Z" style="fill:var(--fig-violet)"/>
+  <text x="392.0" y="290.0" text-anchor="end" class="tsp-sm">기체가 옆으로</text>
+  <text x="392.0" y="306.0" text-anchor="end" class="tsp-sm">내는 빛</text>
+  <text x="470.0" y="46.0" text-anchor="start" class="tsp-lbl tsp-b">① 연속 스펙트럼</text>
+  <rect x="470" y="56" width="230" height="36" style="fill:url(#tsp-rainbow);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="470.0" y="162.0" text-anchor="start" class="tsp-lbl tsp-b">② 흡수 스펙트럼</text>
+  <rect x="470" y="172" width="230" height="36" style="fill:url(#tsp-rainbow);stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="476.3" y="172" width="3" height="36" class="tsp-night"/>
+  <rect x="494.6" y="172" width="3" height="36" class="tsp-night"/>
+  <rect x="534.5" y="172" width="3" height="36" class="tsp-night"/>
+  <rect x="665.0" y="172" width="3" height="36" class="tsp-night"/>
+  <text x="470.0" y="278.0" text-anchor="start" class="tsp-lbl tsp-b">③ 방출(선) 스펙트럼</text>
+  <rect x="470" y="288" width="230" height="36" class="tsp-night" style="stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="476.3" y="288" width="3" height="36" style="fill:var(--fig-violet)"/>
+  <rect x="494.6" y="288" width="3" height="36" style="fill:var(--fig-violet)"/>
+  <rect x="534.5" y="288" width="3" height="36" style="fill:var(--fig-teal)"/>
+  <rect x="665.0" y="288" width="3" height="36" style="fill:var(--fig-red)"/>
+  <line x1="477.8" y1="210" x2="477.8" y2="286" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:3 3"/>
+  <line x1="496.1" y1="210" x2="496.1" y2="286" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:3 3"/>
+  <line x1="536.0" y1="210" x2="536.0" y2="286" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:3 3"/>
+  <line x1="666.5" y1="210" x2="666.5" y2="286" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:3 3"/>
+  <text x="585.0" y="248.0" text-anchor="middle" class="tsp-sm">검은 선과 밝은 선의 위치가 같다</text>
+  <line x1="470.0" y1="324" x2="470.0" y2="330" style="stroke:var(--fig-line);stroke-width:1"/>
+  <text x="470.0" y="344.0" text-anchor="middle" class="tsp-sm">400</text>
+  <line x1="546.7" y1="324" x2="546.7" y2="330" style="stroke:var(--fig-line);stroke-width:1"/>
+  <text x="546.7" y="344.0" text-anchor="middle" class="tsp-sm">500</text>
+  <line x1="623.3" y1="324" x2="623.3" y2="330" style="stroke:var(--fig-line);stroke-width:1"/>
+  <text x="623.3" y="344.0" text-anchor="middle" class="tsp-sm">600</text>
+  <line x1="700.0" y1="324" x2="700.0" y2="330" style="stroke:var(--fig-line);stroke-width:1"/>
+  <text x="700.0" y="344.0" text-anchor="middle" class="tsp-sm">700</text>
+  <text x="585.0" y="362.0" text-anchor="middle" class="tsp-sm">파장 (nm) · 각 띠는 분광기로 본 모습</text>
+
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 384" role="img" aria-labelledby="t-3-2-lithosphere d-3-2-lithosphere">
+  <title id="t-3-2-lithosphere">그림 3-2-2 지구 내부 구조와 판(암석권)·연약권</title>
+  <desc id="d-3-2-lithosphere">왼쪽은 지구 내부의 층을 반지름 비율대로 나타낸 것이고, 오른쪽은 지표 부근을 확대한 것이다. 단단한 암석권(판)이 일부가 녹아 천천히 흐르는 연약권 위에 놓여 있다. 오른쪽 그림의 지각과 바다 두께는 보이도록 조금 과장했다.</desc>
+  <style>
+    .lit-lbl{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .lit-txt{font-size:13px;fill:var(--fig-ink)}
+    .lit-sm{font-size:12px;fill:var(--fig-muted)}
+    .lit-ink{font-size:12px;fill:var(--fig-ink)}
+  </style>
+  <!-- 확대 표시선 (원 뒤에) -->
+  <path d="M192 177L370 44M192 189L370 330" style="stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:5 4;fill:none"/>
+
+  <!-- 왼쪽: 지구 내부 -->
+  <text x="24" y="34" class="lit-lbl">지구의 내부 구조</text>
+  <text x="24" y="54" class="lit-sm">지각은 너무 얇아 바깥 선으로만 보인다</text>
+  <path d="M30 330A150 150 0 0 1 330 330Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:3"/>
+  <path d="M98 330A82 82 0 0 1 262 330Z" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <path d="M149.5 330A30.5 30.5 0 0 1 210.5 330Z" style="fill:var(--fig-red)"/>
+  <path d="M30 330H330" style="stroke:var(--fig-ink);stroke-width:1.5;fill:none"/>
+  <text x="180" y="226" text-anchor="middle" class="lit-txt" style="font-weight:700">맨틀</text>
+  <text x="180" y="244" text-anchor="middle" class="lit-sm">고체 (아주 천천히 흐름)</text>
+  <text x="180" y="290" text-anchor="middle" class="lit-txt" style="font-weight:700">외핵(액체)</text>
+  <text x="180" y="324" text-anchor="middle" class="lit-txt" style="font-weight:700;fill:var(--fig-paper)">내핵</text>
+  <path d="M86 214L64 186" style="stroke:var(--fig-ink);stroke-width:1;fill:none"/>
+  <text x="60" y="180" text-anchor="middle" class="lit-ink" style="font-weight:700">지각</text>
+  <rect x="168" y="177" width="24" height="12" style="fill:none;stroke:var(--fig-ink);stroke-width:1.5"/>
+  <!-- 깊이 눈금 -->
+  <path d="M330 330v6M262 330v6M210.5 330v6M180 330v6" style="stroke:var(--fig-ink);stroke-width:1.5;fill:none"/>
+  <g class="lit-sm" style="fill:var(--fig-ink)">
+    <text x="330" y="350" text-anchor="middle">0</text>
+    <text x="262" y="350" text-anchor="middle">2900</text>
+    <text x="212" y="350" text-anchor="middle">5100</text>
+    <text x="178" y="350" text-anchor="end">6400</text>
+  </g>
+  <text x="24" y="350" class="lit-sm">깊이(km)</text>
+  <text x="180" y="372" text-anchor="middle" class="lit-sm">(지구 중심)</text>
+
+  <!-- 오른쪽: 확대 -->
+  <text x="445" y="34" text-anchor="middle" class="lit-txt" style="font-weight:700">해양판 <tspan class="lit-sm">얇고 밀도 큼</tspan></text>
+  <text x="618" y="34" text-anchor="middle" class="lit-txt" style="font-weight:700">대륙판 <tspan class="lit-sm">두껍고 밀도 작음</tspan></text>
+  <!-- 연약권 -->
+  <rect x="370" y="120" width="330" height="210" style="fill:var(--fig-soft-red)"/>
+  <!-- 바다 -->
+  <path d="M370 60H537L515 66H370Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <!-- 맨틀 최상부 (암석권 아래쪽) -->
+  <path d="M370 73H520L536 76L560 84H700V148H560L510 127.5H370Z" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <!-- 해양 지각 -->
+  <path d="M370 66H515L537 60V76L520 73H370Z" style="fill:var(--fig-teal)"/>
+  <!-- 대륙 지각 -->
+  <path d="M537 60L548 52L590 50L612 44L632 49L660 47L700 52V84H560L537 76Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <text x="620" y="72" text-anchor="middle" class="lit-ink">대륙 지각 (평균 약 35 km)</text>
+  <text x="378" y="92" class="lit-ink">↑ 해양 지각 (약 5~10 km)</text>
+  <text x="445" y="114" text-anchor="middle" class="lit-txt" style="font-weight:700">암석권(판)</text>
+  <text x="630" y="112" text-anchor="middle" class="lit-txt" style="font-weight:700">암석권(판)</text>
+  <text x="630" y="130" text-anchor="middle" class="lit-ink">지각 + 맨틀 최상부</text>
+  <!-- 연약권 설명과 흐름 -->
+  <text x="535" y="200" text-anchor="middle" class="lit-lbl">연약권</text>
+  <text x="535" y="221" text-anchor="middle" class="lit-txt">일부가 녹아 있어 천천히 흐른다</text>
+  <path d="M430 270Q490 248 550 270T670 270" style="fill:none;stroke:var(--fig-red);stroke-width:2;stroke-dasharray:6 5"/>
+  <path d="M680 274l-12 -10l-2 12z" style="fill:var(--fig-red)"/>
+  <!-- 깊이 눈금 -->
+  <path d="M370 127.5h8M370 195h8M370 262.5h8" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/>
+  <g class="lit-sm">
+    <text x="382" y="142">100 km</text>
+    <text x="382" y="199">200 km</text>
+    <text x="382" y="266">300 km</text>
+    <text x="382" y="325">400 km</text>
+  </g>
+  <rect x="370" y="44" width="330" height="286" style="fill:none;stroke:var(--fig-line);stroke-width:1.2"/>
+</svg>

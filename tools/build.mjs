@@ -185,8 +185,8 @@ async function convert(md, ctx) {
       const f = path.join(ASSETS, 'fig', `${name}.svg`);
       if (!fs.existsSync(f)) { console.warn(`  ! 그림 없음: ${name}`); return ''; }
       const raw = fs.readFileSync(f, 'utf8').replace(/<\?xml[^>]*>/, '');
-      const cap = (raw.match(/<title>([^<]*)<\/title>/) || [])[1] || '';
-      const desc = (raw.match(/<desc>([^<]*)<\/desc>/) || [])[1] || '';
+      const cap = (raw.match(/<title[^>]*>([^<]*)<\/title>/) || [])[1] || '';
+      const desc = (raw.match(/<desc[^>]*>([^<]*)<\/desc>/) || [])[1] || '';
       return `<figure class="fig" id="fig-${name}"><div class="fig-art">${raw}</div>${cap ? `<figcaption><b>${cap}</b>${desc ? ` ${desc}` : ''}</figcaption>` : ''}</figure>`;
     }
     if (kind === 'photo') {

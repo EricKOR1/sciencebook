@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 384" role="img" aria-labelledby="t-4-1-geologic-timescale d-4-1-geologic-timescale">
+  <title id="t-4-1-geologic-timescale">그림 4-1-2 지질시대 연대표 — 길이 비율을 실제와 같게</title>
+  <desc id="d-4-1-geologic-timescale">위 띠는 46억 년 전체를 같은 비율로 그린 것으로, 선캄브리아 시대가 약 88%를 차지한다. 아래 띠는 마지막 약 11.7%(고생대·중생대·신생대)를 확대하여 각 기의 길이를 실제 비율대로 나타냈다. 연대는 국제층서위원회(ICS) 기준의 어림값이다.</desc>
+  <style>
+    .gts-lbl{font-size:15px;fill:var(--fig-ink)} .gts-b{font-weight:600}
+    .gts-sm{font-size:13px;fill:var(--fig-muted)} .gts-per{font-size:13px;fill:var(--fig-ink)}
+    .gts-pc{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5}
+    .gts-pz{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5}
+    .gts-mz{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5}
+    .gts-cz{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5}
+    .gts-pzp{fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:1.2}
+    .gts-mzp{fill:var(--fig-panel);stroke:var(--fig-green);stroke-width:1.2}
+    .gts-czp{fill:var(--fig-panel);stroke:var(--fig-amber);stroke-width:1.2}
+    .gts-tick{stroke:var(--fig-line);stroke-width:1.2;fill:none}
+  </style>
+
+  <!-- ① 46억 년 전체 (1 Myr = 0.1391 px) -->
+  <text x="40" y="38" class="gts-sm">46억 년 전 (지구 탄생)</text>
+  <text x="262.6" y="38" text-anchor="middle" class="gts-sm">30억</text>
+  <text x="401.7" y="38" text-anchor="middle" class="gts-sm">20억</text>
+  <text x="540.9" y="38" text-anchor="middle" class="gts-sm">10억</text>
+  <text x="680" y="38" text-anchor="end" class="gts-sm">현재</text>
+  <path d="M262.6 44V50 M401.7 44V50 M540.9 44V50 M40 44V50 M680 44V50" class="gts-tick"/>
+
+  <rect x="40" y="50" width="565" height="40" class="gts-pc"/>
+  <rect x="605" y="50" width="40" height="40" class="gts-pz"/>
+  <rect x="645" y="50" width="25.8" height="40" class="gts-mz"/>
+  <rect x="670.8" y="50" width="9.2" height="40" class="gts-cz"/>
+  <text x="322" y="75" text-anchor="middle" class="gts-lbl"><tspan class="gts-b">선캄브리아 시대</tspan> · 약 40억 년 (88.3%)</text>
+
+  <!-- 약 24억 년 전 산소 증가 표시 -->
+  <path d="M346.1 90 l-6 10 h12 z" style="fill:var(--fig-violet)"/>
+  <text x="356" y="116" text-anchor="end" class="gts-sm">약 24억 년 전: 대기 중 산소가 크게 늘어남</text>
+
+  <!-- 확대 깔때기 -->
+  <path d="M605 90 L680 90 L680 180 L40 180 Z" style="fill:var(--fig-soft-blue);opacity:0.45;stroke:none"/>
+  <path d="M605 90 L40 180 M680 90 L680 180" style="stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:4 3;fill:none"/>
+  <text x="560" y="150" text-anchor="middle" class="gts-sm">고생대 이후(전체의 약 11.7%)를 확대</text>
+
+  <!-- ② 고생대 이후 확대 (1 Myr = 1.1878 px) : 대 -->
+  <rect x="40" y="180" width="340.8" height="32" class="gts-pz"/>
+  <rect x="380.8" y="180" width="220.8" height="32" class="gts-mz"/>
+  <rect x="601.6" y="180" width="78.4" height="32" class="gts-cz"/>
+  <text x="210.4" y="201" text-anchor="middle" class="gts-lbl gts-b">고생대</text>
+  <text x="491.2" y="201" text-anchor="middle" class="gts-lbl gts-b">중생대</text>
+  <text x="640.8" y="201" text-anchor="middle" class="gts-lbl gts-b">신생대</text>
+
+  <!-- 기 -->
+  <rect x="40" y="214" width="63.4" height="86" class="gts-pzp"/>
+  <rect x="103.4" y="214" width="49.4" height="86" class="gts-pzp"/>
+  <rect x="152.8" y="214" width="29.3" height="86" class="gts-pzp"/>
+  <rect x="182.1" y="214" width="71.6" height="86" class="gts-pzp"/>
+  <rect x="253.7" y="214" width="71.3" height="86" class="gts-pzp"/>
+  <rect x="325" y="214" width="55.8" height="86" class="gts-pzp"/>
+  <rect x="380.8" y="214" width="60" height="86" class="gts-mzp"/>
+  <rect x="440.8" y="214" width="67" height="86" class="gts-mzp"/>
+  <rect x="507.8" y="214" width="93.8" height="86" class="gts-mzp"/>
+  <rect x="601.6" y="214" width="51" height="86" class="gts-czp"/>
+  <rect x="652.6" y="214" width="24.3" height="86" class="gts-czp"/>
+  <rect x="676.9" y="214" width="3.1" height="86" class="gts-czp"/>
+  <g class="gts-per" text-anchor="middle">
+    <text transform="translate(76.2 257) rotate(-90)" dy="4.5">캄브리아기</text>
+    <text transform="translate(128.1 257) rotate(-90)" dy="4.5">오르도비스기</text>
+    <text transform="translate(167.5 257) rotate(-90)" dy="4.5">실루리아기</text>
+    <text transform="translate(217.9 257) rotate(-90)" dy="4.5">데본기</text>
+    <text transform="translate(289.4 257) rotate(-90)" dy="4.5">석탄기</text>
+    <text transform="translate(352.9 257) rotate(-90)" dy="4.5">페름기</text>
+    <text transform="translate(410.8 257) rotate(-90)" dy="4.5">트라이아스기</text>
+    <text transform="translate(474.3 257) rotate(-90)" dy="4.5">쥐라기</text>
+    <text transform="translate(554.7 257) rotate(-90)" dy="4.5">백악기</text>
+    <text transform="translate(627.1 257) rotate(-90)" dy="4.5">팔레오기</text>
+    <text transform="translate(664.8 257) rotate(-90)" dy="4.5">네오기</text>
+    <text transform="translate(698 257) rotate(-90)" dy="4.5">제4기</text>
+  </g>
+  <path d="M680 257 H690" class="gts-tick"/>
+
+  <!-- 경계 연대 -->
+  <path d="M40 300V308 M380.8 300V308 M601.6 300V308 M680 300V308" class="gts-tick"/>
+  <text x="40" y="323" class="gts-sm">5억 3900만 년 전</text>
+  <text x="380.8" y="323" text-anchor="middle" class="gts-sm">2억 5200만 년 전</text>
+  <text x="601.6" y="323" text-anchor="middle" class="gts-sm">6600만 년 전</text>
+  <text x="680" y="323" text-anchor="end" class="gts-sm">현재</text>
+
+  <!-- 길이와 번성한 생물 -->
+  <text x="210.4" y="346" text-anchor="middle" class="gts-sm">약 2억 9천만 년 · 6.2%</text>
+  <text x="480" y="346" text-anchor="middle" class="gts-sm">약 1억 8600만 년 · 4.0%</text>
+  <text x="712" y="346" text-anchor="end" class="gts-sm">6600만 년 · 1.4%</text>
+  <text x="210.4" y="368" text-anchor="middle" class="gts-lbl">삼엽충 · 어류 · 양치식물</text>
+  <text x="480" y="368" text-anchor="middle" class="gts-lbl">공룡 · 암모나이트 · 겉씨식물</text>
+  <text x="712" y="368" text-anchor="end" class="gts-lbl">포유류 · 속씨식물</text>
+</svg>

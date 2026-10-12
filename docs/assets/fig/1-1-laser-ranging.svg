@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 316" role="img" aria-labelledby="t-1-1-laser-ranging d-1-1-laser-ranging">
+  <title id="t-1-1-laser-ranging">그림 1-1-2 레이저로 지구–달 거리 재기</title>
+  <desc id="d-1-1-laser-ranging">지구에서 쏜 레이저 펄스가 달의 반사경에 반사되어 돌아오는 시간 t를 재면, 빛은 거리 d를 왕복했으므로 d = c × t ÷ 2이다. 모식도(크기와 거리의 비율은 실제와 다름).</desc>
+  <style>
+    .las11-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .las11-txt{font-size:14px;fill:var(--fig-ink)}
+    .las11-sm{font-size:13px;fill:var(--fig-muted)}
+    .las11-red{fill:var(--fig-red)}
+    .las11-beam{stroke:var(--fig-red);stroke-width:2.5;fill:none}
+    .las11-ln{stroke:var(--fig-line);stroke-width:1.2;fill:none}
+  </style>
+  <circle cx="-160" cy="150" r="260" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <ellipse cx="22" cy="236" rx="36" ry="20" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <text x="16" y="40" class="las11-lbl">지구</text>
+  <rect x="90" y="134" width="30" height="34" rx="3" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.5"/>
+  <path d="M105 136 l34 -12 l4 10 l-34 12 z" style="fill:var(--fig-ink)"/>
+  <text x="104" y="194" class="las11-sm">레이저 관측소</text>
+  <circle cx="640" cy="150" r="70" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:2"/>
+  <circle cx="660" cy="120" r="12" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <circle cx="652" cy="185" r="9" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="652" y="58" text-anchor="middle" class="las11-lbl">달</text>
+  <path d="M572 136 l0 28 l12 -14 z" style="fill:var(--fig-amber);stroke:var(--fig-amber);stroke-width:1"/>
+  <text x="546" y="204" text-anchor="middle" class="las11-sm">반사경</text>
+  <line x1="152" y1="128" x2="562" y2="128" class="las11-beam"/>
+  <path d="M568 128 l-12 -6 v12 z" class="las11-red"/>
+  <line x1="568" y1="172" x2="162" y2="172" class="las11-beam" style="stroke-dasharray:8 5"/>
+  <path d="M156 172 l12 -6 v12 z" class="las11-red"/>
+  <text x="370" y="118" text-anchor="middle" class="las11-txt">① 레이저 펄스를 쏜다 (시각 0)</text>
+  <text x="370" y="192" text-anchor="middle" class="las11-txt">② 반사되어 돌아온다 (시각 t)</text>
+  <path d="M122 80 V72 H572 V80" class="las11-ln"/>
+  <rect x="319" y="62" width="56" height="20" style="fill:var(--fig-paper)"/>
+  <text x="347" y="77" text-anchor="middle" class="las11-lbl">거리 d</text>
+  <rect x="140" y="214" width="440" height="90" rx="10" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <text x="360" y="242" text-anchor="middle" class="las11-lbl">빛이 간 길(왕복) = 2d = c × t   →   d = c × t ÷ 2</text>
+  <text x="360" y="268" text-anchor="middle" class="las11-txt">예: t = 2.56 s이면 d = 3.0×10⁸ m/s × 2.56 s ÷ 2 ≈ 3.84×10⁸ m</text>
+  <text x="360" y="292" text-anchor="middle" class="las11-sm">같은 원리: 레이저 거리 측정기, 라이다(LiDAR)</text>
+</svg>

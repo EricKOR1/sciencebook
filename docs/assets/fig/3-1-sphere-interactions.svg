@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 545" role="img" aria-labelledby="t-3-1-sphere-interactions d-3-1-sphere-interactions">
+  <title id="t-3-1-sphere-interactions">그림 3-1-3 지구시스템 권역 사이의 물질 이동과 에너지 흐름</title>
+  <desc id="d-3-1-sphere-interactions">실선은 물질의 이동, 점선은 에너지의 이동을 나타낸다. 권역들은 서로 물질과 에너지를 주고받으며, 그 결과로 날씨 변화와 지표 변화 같은 현상이 나타난다. 대표적인 예만 골라 나타낸 모식도이다.</desc>
+  <style>
+    .ssi-ttl{font-size:16px;font-weight:700;fill:var(--fig-ink)}
+    .ssi-sub{font-size:12px;fill:var(--fig-muted)}
+    .ssi-m{font-size:13px;fill:var(--fig-blue)}
+    .ssi-e{font-size:13px;fill:var(--fig-amber)}
+    .ssi-ml{stroke:var(--fig-blue);stroke-width:2;fill:none}
+    .ssi-el{stroke:var(--fig-amber);stroke-width:2.2;stroke-dasharray:7 5;fill:none}
+  </style>
+  <defs>
+    <marker id="ssi-ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" style="fill:var(--fig-blue)"/>
+    </marker>
+    <marker id="ssi-aa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" style="fill:var(--fig-amber)"/>
+    </marker>
+  </defs>
+
+  <!-- 외권 -->
+  <rect x="20" y="16" width="680" height="56" rx="10" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <text x="40" y="50" class="ssi-ttl">외권 <tspan class="ssi-sub" style="font-weight:400">기권 바깥의 우주 공간</tspan></text>
+  <circle cx="658" cy="44" r="13" style="fill:var(--fig-amber)"/>
+  <text x="636" y="49" text-anchor="end" class="ssi-sub" style="fill:var(--fig-ink)">태양</text>
+
+  <!-- 상자 -->
+  <rect x="250" y="128" width="220" height="52" rx="10" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="360" y="150" text-anchor="middle" class="ssi-ttl">기권</text>
+  <text x="360" y="169" text-anchor="middle" class="ssi-sub">대기 (질소·산소 등)</text>
+
+  <rect x="40" y="380" width="160" height="52" rx="10" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2"/>
+  <text x="120" y="402" text-anchor="middle" class="ssi-ttl">수권</text>
+  <text x="120" y="421" text-anchor="middle" class="ssi-sub">바다·빙하·지하수·강</text>
+
+  <rect x="280" y="380" width="160" height="52" rx="10" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+  <text x="360" y="402" text-anchor="middle" class="ssi-ttl">생물권</text>
+  <text x="360" y="421" text-anchor="middle" class="ssi-sub">지구의 모든 생물</text>
+
+  <rect x="520" y="380" width="160" height="52" rx="10" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <text x="600" y="402" text-anchor="middle" class="ssi-ttl">지권</text>
+  <text x="600" y="421" text-anchor="middle" class="ssi-sub">지각·맨틀·핵</text>
+
+  <!-- 외권 ↔ 기권 (에너지) -->
+  <path d="M300 74V126" class="ssi-el" marker-end="url(#ssi-aa)"/>
+  <text x="292" y="105" text-anchor="end" class="ssi-e">태양 복사 에너지</text>
+  <path d="M420 126V74" class="ssi-el" marker-end="url(#ssi-aa)"/>
+  <text x="428" y="105" class="ssi-e">지구 복사 에너지(적외선)</text>
+
+  <!-- 기권 ↔ 수권 -->
+  <path d="M140 378L252 182" class="ssi-ml" marker-end="url(#ssi-ab)"/>
+  <path d="M164 378L276 182" class="ssi-el" marker-end="url(#ssi-aa)"/>
+  <path d="M300 182L188 378" class="ssi-el" marker-end="url(#ssi-aa)"/>
+  <text x="180" y="250" text-anchor="end" class="ssi-m">↑ 증발: 수증기</text>
+  <text x="180" y="269" text-anchor="end" class="ssi-e">↑ 숨은열</text>
+  <text x="180" y="288" text-anchor="end" class="ssi-e">↓ 바람 → 해류·파도</text>
+
+  <!-- 기권 ↔ 지권 -->
+  <path d="M580 378L468 182" class="ssi-ml" marker-end="url(#ssi-ab)"/>
+  <path d="M444 182L556 378" class="ssi-ml" marker-end="url(#ssi-ab)"/>
+  <text x="540" y="262" class="ssi-m">↑ 화산 가스·화산재</text>
+  <text x="540" y="281" class="ssi-m">↓ 비·눈 → 풍화</text>
+
+  <!-- 기권 ↔ 생물권 -->
+  <path d="M346 182V378" class="ssi-ml" marker-end="url(#ssi-ab)"/>
+  <path d="M374 378V182" class="ssi-ml" marker-end="url(#ssi-ab)"/>
+  <text x="338" y="270" text-anchor="end" class="ssi-m">CO₂</text>
+  <text x="338" y="288" text-anchor="end" class="ssi-m">(광합성)</text>
+  <text x="382" y="270" class="ssi-m">O₂ (광합성)</text>
+  <text x="382" y="288" class="ssi-m">CO₂ (호흡)</text>
+
+  <!-- 수권 ↔ 생물권, 생물권 ↔ 지권 -->
+  <path d="M202 398H278" class="ssi-ml" marker-end="url(#ssi-ab)"/>
+  <path d="M278 414H202" class="ssi-ml" marker-end="url(#ssi-ab)"/>
+  <text x="240" y="454" text-anchor="middle" class="ssi-m">물·탄소</text>
+  <path d="M442 398H518" class="ssi-ml" marker-end="url(#ssi-ab)"/>
+  <path d="M518 414H442" class="ssi-ml" marker-end="url(#ssi-ab)"/>
+  <text x="480" y="454" text-anchor="middle" class="ssi-m">유기물·영양분</text>
+
+  <!-- 수권 ↔ 지권 -->
+  <path d="M120 436Q360 552 600 436" class="ssi-ml" marker-start="url(#ssi-ab)" marker-end="url(#ssi-ab)"/>
+  <text x="360" y="516" text-anchor="middle" class="ssi-m">침식·운반·퇴적, 암석에서 녹은 물질(염분)</text>
+
+  <!-- 범례 -->
+  <path d="M24 512H60" class="ssi-ml"/>
+  <text x="68" y="516" class="ssi-sub" style="fill:var(--fig-ink)">물질의 이동</text>
+  <path d="M24 534H60" class="ssi-el"/>
+  <text x="68" y="538" class="ssi-sub" style="fill:var(--fig-ink)">에너지의 이동</text>
+</svg>

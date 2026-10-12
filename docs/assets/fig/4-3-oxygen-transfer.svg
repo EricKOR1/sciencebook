@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 372" role="img" aria-labelledby="t-4-3-oxygen-transfer d-4-3-oxygen-transfer">
+  <title id="t-4-3-oxygen-transfer">그림 4-3-1 역사를 바꾼 세 반응의 공통점 — 산소의 이동</title>
+  <desc id="d-4-3-oxygen-transfer">광합성, 화석 연료의 연소, 철의 제련에서 어떤 물질은 산소를 잃고 다른 물질은 산소를 얻는다. 광합성에서 나오는 산소 기체의 산소는 물에서 나온다.</desc>
+  <style>
+    .ox-panel{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.5}
+    .ox-h{font-size:16px;font-weight:700;fill:var(--fig-ink)}
+    .ox-sub{font-size:12.5px;fill:var(--fig-muted)}
+    .ox-f{font-size:15px;fill:var(--fig-ink)}
+    .ox-red-box{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5}
+    .ox-ox-box{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5}
+    .ox-neu-box{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5}
+    .ox-lb-blue{font-size:13.5px;font-weight:600;fill:var(--fig-blue)}
+    .ox-lb-red{font-size:13.5px;font-weight:600;fill:var(--fig-red)}
+    .ox-lb-mut{font-size:13px;fill:var(--fig-muted)}
+    .ox-arrow{stroke:var(--fig-ink);stroke-width:1.8;fill:none}
+    .ox-head{fill:var(--fig-ink)}
+    .ox-o{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+    .ox-o-t{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+    .ox-move{stroke:var(--fig-amber);stroke-width:2.5;fill:none}
+    .ox-move-h{fill:var(--fig-amber)}
+    .ox-note{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1;stroke-dasharray:4 3}
+    .ox-band{fill:var(--fig-panel);stroke:var(--fig-accent);stroke-width:1.5}
+    .ox-band-t{font-size:14.5px;fill:var(--fig-ink)}
+  </style>
+
+  <!-- ───── 패널 1: 광합성 ───── -->
+  <rect x="10" y="10" width="226" height="296" rx="10" class="ox-panel"/>
+  <text x="123" y="38" text-anchor="middle" class="ox-h">광합성</text>
+  <text x="123" y="57" text-anchor="middle" class="ox-sub">지구 대기에 산소를 채운 반응</text>
+  <rect x="22" y="78" width="80" height="36" rx="6" class="ox-red-box"/>
+  <text x="62" y="102" text-anchor="middle" class="ox-f">CO₂</text>
+  <line x1="106" y1="96" x2="134" y2="96" class="ox-arrow"/><path d="M140 96 l-8 -5 v10 z" class="ox-head"/>
+  <rect x="142" y="78" width="84" height="36" rx="6" class="ox-red-box"/>
+  <text x="184" y="102" text-anchor="middle" class="ox-f">포도당</text>
+  <text x="123" y="136" text-anchor="middle" class="ox-lb-blue">산소를 잃음 → 환원</text>
+  <rect x="24" y="150" width="198" height="46" rx="6" class="ox-note"/>
+  <text x="123" y="169" text-anchor="middle" class="ox-lb-mut">나오는 산소 기체(O₂)의</text>
+  <text x="123" y="187" text-anchor="middle" class="ox-lb-mut">산소 원자는 물에서 온다</text>
+  <rect x="22" y="212" width="80" height="36" rx="6" class="ox-ox-box"/>
+  <text x="62" y="236" text-anchor="middle" class="ox-f">H₂O</text>
+  <line x1="106" y1="230" x2="134" y2="230" class="ox-arrow"/><path d="M140 230 l-8 -5 v10 z" class="ox-head"/>
+  <rect x="142" y="212" width="84" height="36" rx="6" class="ox-ox-box"/>
+  <text x="184" y="236" text-anchor="middle" class="ox-f">O₂</text>
+  <text x="123" y="270" text-anchor="middle" class="ox-lb-red">물이 산소 기체를 내놓음</text>
+  <text x="123" y="290" text-anchor="middle" class="ox-lb-mut">(4-3-③: 전자를 잃음 → 산화)</text>
+
+  <!-- ───── 패널 2: 화석 연료의 연소 ───── -->
+  <rect x="247" y="10" width="226" height="296" rx="10" class="ox-panel"/>
+  <text x="360" y="38" text-anchor="middle" class="ox-h">화석 연료의 연소</text>
+  <text x="360" y="57" text-anchor="middle" class="ox-sub">산업 혁명을 일으킨 반응</text>
+  <rect x="300" y="78" width="120" height="36" rx="6" class="ox-neu-box"/>
+  <text x="360" y="102" text-anchor="middle" class="ox-f">O₂ (공기 중)</text>
+  <text x="360" y="136" text-anchor="middle" class="ox-lb-mut">산소를 내주는 쪽</text>
+  <!-- 산소 이동 -->
+  <path d="M360 144 L360 200" class="ox-move"/><path d="M360 208 l-6 -10 h12 z" class="ox-move-h"/>
+  <circle cx="390" cy="174" r="13" class="ox-o"/><text x="390" y="179" text-anchor="middle" class="ox-o-t">O</text>
+  <text x="410" y="179" class="ox-lb-mut">이동</text>
+  <rect x="259" y="212" width="80" height="36" rx="6" class="ox-ox-box"/>
+  <text x="299" y="236" text-anchor="middle" class="ox-f">CH₄</text>
+  <line x1="343" y1="230" x2="371" y2="230" class="ox-arrow"/><path d="M377 230 l-8 -5 v10 z" class="ox-head"/>
+  <rect x="379" y="212" width="84" height="36" rx="6" class="ox-ox-box"/>
+  <text x="421" y="236" text-anchor="middle" class="ox-f">CO₂, H₂O</text>
+  <text x="360" y="270" text-anchor="middle" class="ox-lb-red">산소를 얻음 → 산화</text>
+  <text x="360" y="290" text-anchor="middle" class="ox-lb-mut">(메테인 속 탄소와 수소)</text>
+
+  <!-- ───── 패널 3: 철의 제련 ───── -->
+  <rect x="484" y="10" width="226" height="296" rx="10" class="ox-panel"/>
+  <text x="597" y="38" text-anchor="middle" class="ox-h">철의 제련</text>
+  <text x="597" y="57" text-anchor="middle" class="ox-sub">철기 시대를 연 반응</text>
+  <rect x="496" y="78" width="80" height="36" rx="6" class="ox-red-box"/>
+  <text x="536" y="102" text-anchor="middle" class="ox-f">Fe₂O₃</text>
+  <line x1="580" y1="96" x2="608" y2="96" class="ox-arrow"/><path d="M614 96 l-8 -5 v10 z" class="ox-head"/>
+  <rect x="616" y="78" width="84" height="36" rx="6" class="ox-red-box"/>
+  <text x="658" y="102" text-anchor="middle" class="ox-f">Fe</text>
+  <text x="597" y="136" text-anchor="middle" class="ox-lb-blue">산소를 잃음 → 환원</text>
+  <path d="M597 144 L597 200" class="ox-move"/><path d="M597 208 l-6 -10 h12 z" class="ox-move-h"/>
+  <circle cx="627" cy="174" r="13" class="ox-o"/><text x="627" y="179" text-anchor="middle" class="ox-o-t">O</text>
+  <text x="647" y="179" class="ox-lb-mut">이동</text>
+  <rect x="496" y="212" width="80" height="36" rx="6" class="ox-ox-box"/>
+  <text x="536" y="236" text-anchor="middle" class="ox-f">CO</text>
+  <line x1="580" y1="230" x2="608" y2="230" class="ox-arrow"/><path d="M614 230 l-8 -5 v10 z" class="ox-head"/>
+  <rect x="616" y="212" width="84" height="36" rx="6" class="ox-ox-box"/>
+  <text x="658" y="236" text-anchor="middle" class="ox-f">CO₂</text>
+  <text x="597" y="270" text-anchor="middle" class="ox-lb-red">산소를 얻음 → 산화</text>
+  <text x="597" y="290" text-anchor="middle" class="ox-lb-mut">(일산화 탄소)</text>
+
+  <!-- ───── 공통점 ───── -->
+  <rect x="10" y="320" width="700" height="42" rx="8" class="ox-band"/>
+  <text x="360" y="346" text-anchor="middle" class="ox-band-t"><tspan style="font-weight:700">공통점</tspan>  산소를 얻는 물질이 있으면 산소를 잃는(내주는) 물질이 반드시 함께 있다</text>
+</svg>

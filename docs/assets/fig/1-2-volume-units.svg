@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" role="img" aria-labelledby="t-1-2-volume-units d-1-2-volume-units">
+  <title id="t-1-2-volume-units">그림 1-2-3 길이가 10배이면 부피는 1000배</title>
+  <desc id="d-1-2-volume-units">한 변이 1 cm, 10 cm, 100 cm(1 m)인 정육면체의 부피를 비교했다. 한 변이 10배가 될 때마다 부피는 10 × 10 × 10 = 1000배가 되어, 1 m³ = 1 000 000 cm³이다. 모식도(크기 비율은 실제와 다름).</desc>
+  <style>
+    .vol12-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .vol12-txt{font-size:14px;fill:var(--fig-ink)}
+    .vol12-sm{font-size:13px;fill:var(--fig-muted)}
+    .vol12-acc{font-size:15px;font-weight:600;fill:var(--fig-accent)}
+  </style>
+  <path d="M70 150 h18 v18 h-18 z" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5;stroke-linejoin:round"/>
+  <path d="M70 150 l7.2 -7.2 h18 l-7.2 7.2 z" style="fill:var(--fig-panel);stroke:var(--fig-green);stroke-width:1.5;stroke-linejoin:round"/>
+  <path d="M88 150 l7.2 -7.2 v18 l-7.2 7.2 z" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5;stroke-linejoin:round;opacity:0.85"/>
+  <path d="M260 116 h56 v56 h-56 z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5;stroke-linejoin:round"/>
+  <path d="M260 116 l22.400000000000002 -22.400000000000002 h56 l-22.400000000000002 22.400000000000002 z" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:1.5;stroke-linejoin:round"/>
+  <path d="M316 116 l22.400000000000002 -22.400000000000002 v56 l-22.400000000000002 22.400000000000002 z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5;stroke-linejoin:round;opacity:0.85"/>
+  <path d="M500 70 h118 v118 h-118 z" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5;stroke-linejoin:round"/>
+  <path d="M500 70 l47.2 -47.2 h118 l-47.2 47.2 z" style="fill:var(--fig-panel);stroke:var(--fig-violet);stroke-width:1.5;stroke-linejoin:round"/>
+  <path d="M618 70 l47.2 -47.2 v118 l-47.2 47.2 z" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5;stroke-linejoin:round;opacity:0.85"/>
+  <text x="83" y="200" text-anchor="middle" class="vol12-lbl">1 cm³</text>
+  <text x="83" y="220" text-anchor="middle" class="vol12-sm">한 변 1 cm</text>
+  <text x="83" y="238" text-anchor="middle" class="vol12-sm">(= 1 mL)</text>
+  <text x="299" y="200" text-anchor="middle" class="vol12-lbl">1000 cm³ = 1 L</text>
+  <text x="299" y="220" text-anchor="middle" class="vol12-sm">한 변 10 cm</text>
+  <text x="582" y="216" text-anchor="middle" class="vol12-lbl">1 m³ = 1 000 000 cm³</text>
+  <text x="582" y="236" text-anchor="middle" class="vol12-sm">한 변 100 cm = 1 m</text>
+  <line x1="120" y1="140" x2="228" y2="140" style="stroke:var(--fig-accent);stroke-width:2"/>
+  <path d="M236 140 l-11 -6 v12 z" style="fill:var(--fig-accent)"/>
+  <text x="178.0" y="114" text-anchor="middle" class="vol12-sm">한 변 × 10</text>
+  <text x="178.0" y="132" text-anchor="middle" class="vol12-acc">부피 × 1000</text>
+  <line x1="346" y1="140" x2="468" y2="140" style="stroke:var(--fig-accent);stroke-width:2"/>
+  <path d="M476 140 l-11 -6 v12 z" style="fill:var(--fig-accent)"/>
+  <text x="411.0" y="114" text-anchor="middle" class="vol12-sm">한 변 × 10</text>
+  <text x="411.0" y="132" text-anchor="middle" class="vol12-acc">부피 × 1000</text>
+  <text x="360" y="270" text-anchor="middle" class="vol12-txt">부피는 길이를 세 번 곱한 양이므로 (10 × 10 × 10 = 1000배), 1 m³ = 100 cm × 100 cm × 100 cm</text>
+</svg>

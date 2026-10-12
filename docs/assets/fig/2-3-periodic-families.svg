@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 344" role="img" aria-labelledby="t-2-3-periodic-families d-2-3-periodic-families">
+  <title id="t-2-3-periodic-families">그림 2-3-1 원자 번호 1~20번 원소의 간이 주기율표</title>
+  <desc id="d-2-3-periodic-families">가로줄은 주기, 세로줄은 족이다. 1족(수소 제외)은 알칼리 금속, 17족은 할로젠, 18족은 비활성 기체이며 같은 족 원소는 화학적 성질이 비슷하다. 3~12족은 4주기부터 나타나므로 생략하였다.</desc>
+  <style>
+    .ptf-lbl{font-size:15px;fill:var(--fig-ink)} .ptf-sm{font-size:13px;fill:var(--fig-muted)}
+    .ptf-ink{fill:var(--fig-ink)} .ptf-mut{fill:var(--fig-muted)} .ptf-b{font-weight:600}
+    .ptf-night{fill:var(--fig-ink)}
+    @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .ptf-night{fill:var(--fig-paper)} }
+    :root[data-theme="dark"] .ptf-night{fill:var(--fig-paper)}
+  </style>
+  <text x="40.0" y="48.0" text-anchor="middle" class="ptf-sm">주기</text>
+  <text x="114.0" y="48.0" text-anchor="middle" class="ptf-sm ptf-b">1족</text>
+  <text x="186.0" y="48.0" text-anchor="middle" class="ptf-sm">2족</text>
+  <text x="288.0" y="48.0" text-anchor="middle" class="ptf-sm">13족</text>
+  <text x="360.0" y="48.0" text-anchor="middle" class="ptf-sm">14족</text>
+  <text x="432.0" y="48.0" text-anchor="middle" class="ptf-sm">15족</text>
+  <text x="504.0" y="48.0" text-anchor="middle" class="ptf-sm">16족</text>
+  <text x="576.0" y="48.0" text-anchor="middle" class="ptf-sm ptf-b">17족</text>
+  <text x="648.0" y="48.0" text-anchor="middle" class="ptf-sm ptf-b">18족</text>
+  <text x="40.0" y="96.0" text-anchor="middle" class="ptf-lbl">1</text>
+  <text x="40.0" y="154.0" text-anchor="middle" class="ptf-lbl">2</text>
+  <text x="40.0" y="212.0" text-anchor="middle" class="ptf-lbl">3</text>
+  <text x="40.0" y="270.0" text-anchor="middle" class="ptf-lbl">4</text>
+  <rect x="82" y="64" width="64" height="54" rx="5" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:1.6;stroke-dasharray:4 3"/>
+  <text x="88.0" y="78.0" text-anchor="start" class="ptf-sm">1</text>
+  <text x="114.0" y="96.0" text-anchor="middle" class="ptf-lbl ptf-b">H</text>
+  <text x="114.0" y="112.0" text-anchor="middle" class="ptf-sm" style="font-size:12px">수소</text>
+  <rect x="616" y="64" width="64" height="54" rx="5" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6"/>
+  <text x="622.0" y="78.0" text-anchor="start" class="ptf-sm">2</text>
+  <text x="648.0" y="96.0" text-anchor="middle" class="ptf-lbl ptf-b">He</text>
+  <text x="648.0" y="112.0" text-anchor="middle" class="ptf-sm" style="font-size:12px">헬륨</text>
+  <rect x="82" y="122" width="64" height="54" rx="5" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6"/>
+  <text x="88.0" y="136.0" text-anchor="start" class="ptf-sm">3</text>
+  <text x="114.0" y="154.0" text-anchor="middle" class="ptf-lbl ptf-b">Li</text>
+  <text x="114.0" y="170.0" text-anchor="middle" class="ptf-sm" style="font-size:12px">리튬</text>
+  <rect x="154" y="122" width="64" height="54" rx="5" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.6"/>
+  <text x="160.0" y="136.0" text-anchor="start" class="ptf-sm">4</text>
+  <text x="186.0" y="154.0" text-anchor="middle" class="ptf-lbl ptf-b">Be</text>
+  <text x="186.0" y="170.0" text-anchor="middle" class="ptf-sm" style="font-size:12px">베릴륨</text>
+  <rect x="256" y="122" width="64" height="54" rx="5" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.6"/>
+  <text x="262.0" y="136.0" text-anchor="start" class="ptf-sm">5</text>
+  <text x="288.0" y="154.0" text-anchor="middle" class="ptf-lbl ptf-b">B</text>
+  <text x="288.0" y="170.0" text-anchor="middle" class="ptf-sm" style="font-size:12px">붕소</text>
+  <rect x="328" y="122" width="64" height="54" rx="5" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.6"/>
+  <text x="334.0" y="136.0" text-anchor="start" class="ptf-sm">6</text>
+  <text x="360.0" y="154.0" text-anchor="middle" class="ptf-lbl ptf-b">C</text>
+  <text x="360.0" y="170.0" text-anchor="middle" class="ptf-sm" style="font-size:12px">탄소</text>
+  <rect x="400" y="122" width="64" height="54" rx="5" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.6"/>
+  <text x="406.0" y="136.0" text-anchor="start" class="ptf-sm">7</text>
+  <text x="432.0" y="154.0" text-anchor="middle" class="ptf-lbl ptf-b">N</text>
+  <text x="432.0" y="170.0" text-anchor="middle" class="ptf-sm" style="font-size:12px">질소</text>
+  <rect x="472" y="122" width="64" height="54" rx="5" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.6"/>
+  <text x="478.0" y="136.0" text-anchor="start" class="ptf-sm">8</text>
+  <text x="504.0" y="154.0" text-anchor="middle" class="ptf-lbl ptf-b">O</text>
+  <text x="504.0" y="170.0" text-anchor="middle" class="ptf-sm" style="font-size:12px">산소</text>
+  <rect x="544" y="122" width="64" height="54" rx="5" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6"/>
+  <text x="550.0" y="136.0" text-anchor="start" class="ptf-sm">9</text>
+  <text x="576.0" y="154.0" text-anchor="middle" class="ptf-lbl ptf-b">F</text>
+  <text x="576.0" y="170.0" text-anchor="middle" class="ptf-sm" style="font-size:12px">플루오린</text>
+  <rect x="616" y="122" width="64" height="54" rx="5" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6"/>
+  <text x="622.0" y="136.0" text-anchor="start" class="ptf-sm">10</text>
+  <text x="648.0" y="154.0" text-anchor="middle" class="ptf-lbl ptf-b">Ne</text>
+  <text x="648.0" y="170.0" text-anchor="middle" class="ptf-sm" style="font-size:12px">네온</text>
+  <rect x="82" y="180" width="64" height="54" rx="5" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6"/>
+  <text x="88.0" y="194.0" text-anchor="start" class="ptf-sm">11</text>
+  <text x="114.0" y="212.0" text-anchor="middle" class="ptf-lbl ptf-b">Na</text>
+  <text x="114.0" y="228.0" text-anchor="middle" class="ptf-sm" style="font-size:12px">나트륨</text>
+  <rect x="154" y="180" width="64" height="54" rx="5" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.6"/>
+  <text x="160.0" y="194.0" text-anchor="start" class="ptf-sm">12</text>
+  <text x="186.0" y="212.0" text-anchor="middle" class="ptf-lbl ptf-b">Mg</text>
+  <text x="186.0" y="228.0" text-anchor="middle" class="ptf-sm" style="font-size:12px">마그네슘</text>
+  <rect x="256" y="180" width="64" height="54" rx="5" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.6"/>
+  <text x="262.0" y="194.0" text-anchor="start" class="ptf-sm">13</text>
+  <text x="288.0" y="212.0" text-anchor="middle" class="ptf-lbl ptf-b">Al</text>
+  <text x="288.0" y="228.0" text-anchor="middle" class="ptf-sm" style="font-size:12px">알루미늄</text>
+  <rect x="328" y="180" width="64" height="54" rx="5" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.6"/>
+  <text x="334.0" y="194.0" text-anchor="start" class="ptf-sm">14</text>
+  <text x="360.0" y="212.0" text-anchor="middle" class="ptf-lbl ptf-b">Si</text>
+  <text x="360.0" y="228.0" text-anchor="middle" class="ptf-sm" style="font-size:12px">규소</text>
+  <rect x="400" y="180" width="64" height="54" rx="5" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.6"/>
+  <text x="406.0" y="194.0" text-anchor="start" class="ptf-sm">15</text>
+  <text x="432.0" y="212.0" text-anchor="middle" class="ptf-lbl ptf-b">P</text>
+  <text x="432.0" y="228.0" text-anchor="middle" class="ptf-sm" style="font-size:12px">인</text>
+  <rect x="472" y="180" width="64" height="54" rx="5" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.6"/>
+  <text x="478.0" y="194.0" text-anchor="start" class="ptf-sm">16</text>
+  <text x="504.0" y="212.0" text-anchor="middle" class="ptf-lbl ptf-b">S</text>
+  <text x="504.0" y="228.0" text-anchor="middle" class="ptf-sm" style="font-size:12px">황</text>
+  <rect x="544" y="180" width="64" height="54" rx="5" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6"/>
+  <text x="550.0" y="194.0" text-anchor="start" class="ptf-sm">17</text>
+  <text x="576.0" y="212.0" text-anchor="middle" class="ptf-lbl ptf-b">Cl</text>
+  <text x="576.0" y="228.0" text-anchor="middle" class="ptf-sm" style="font-size:12px">염소</text>
+  <rect x="616" y="180" width="64" height="54" rx="5" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6"/>
+  <text x="622.0" y="194.0" text-anchor="start" class="ptf-sm">18</text>
+  <text x="648.0" y="212.0" text-anchor="middle" class="ptf-lbl ptf-b">Ar</text>
+  <text x="648.0" y="228.0" text-anchor="middle" class="ptf-sm" style="font-size:12px">아르곤</text>
+  <rect x="82" y="238" width="64" height="54" rx="5" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6"/>
+  <text x="88.0" y="252.0" text-anchor="start" class="ptf-sm">19</text>
+  <text x="114.0" y="270.0" text-anchor="middle" class="ptf-lbl ptf-b">K</text>
+  <text x="114.0" y="286.0" text-anchor="middle" class="ptf-sm" style="font-size:12px">칼륨</text>
+  <rect x="154" y="238" width="64" height="54" rx="5" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.6"/>
+  <text x="160.0" y="252.0" text-anchor="start" class="ptf-sm">20</text>
+  <text x="186.0" y="270.0" text-anchor="middle" class="ptf-lbl ptf-b">Ca</text>
+  <text x="186.0" y="286.0" text-anchor="middle" class="ptf-sm" style="font-size:12px">칼슘</text>
+  <line x1="236" y1="182" x2="236" y2="290" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 3"/>
+  <text x="230.0" y="240.0" text-anchor="middle" class="ptf-sm" transform="rotate(-90 230 240)" style="font-size:12px">3~12족 생략</text>
+  <rect x="24" y="308" width="16" height="16" rx="3" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <text x="48.0" y="321.0" text-anchor="start" class="ptf-sm ptf-ink ptf-b">1족 알칼리 금속(H 제외)</text>
+  <text x="48.0" y="339.0" text-anchor="start" class="ptf-sm">물과 격렬히 반응, +1 이온</text>
+  <rect x="260" y="308" width="16" height="16" rx="3" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <text x="284.0" y="321.0" text-anchor="start" class="ptf-sm ptf-ink ptf-b">17족 할로젠</text>
+  <text x="284.0" y="339.0" text-anchor="start" class="ptf-sm">금속과 잘 반응, −1 이온</text>
+  <rect x="496" y="308" width="16" height="16" rx="3" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <text x="520.0" y="321.0" text-anchor="start" class="ptf-sm ptf-ink ptf-b">18족 비활성 기체</text>
+  <text x="520.0" y="339.0" text-anchor="start" class="ptf-sm">거의 반응하지 않는다</text>
+  <text x="250.0" y="89.0" text-anchor="start" class="ptf-sm">수소(H)는 1족이지만 비금속(점선 칸)</text>
+  <text x="250.0" y="107.0" text-anchor="start" class="ptf-sm ptf-ink">같은 족(세로줄) = 비슷한 화학적 성질</text>
+
+</svg>

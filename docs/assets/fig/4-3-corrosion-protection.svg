@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t-4-3-corrosion-protection d-4-3-corrosion-protection">
+  <title id="t-4-3-corrosion-protection">그림 4-3-2 흠집 난 함석과 양철 — 반응성 순서로 보는 부식 방지</title>
+  <desc id="d-4-3-corrosion-protection">함석은 흠집이 나도 철보다 반응성이 큰 아연이 먼저 전자를 잃어(산화) 철을 지키고, 양철은 흠집이 나면 주석보다 반응성이 큰 철이 먼저 전자를 잃어 녹이 빨리 슨다. 모식도(크기 비율은 실제와 다름).</desc>
+  <style>
+    .cp-panel{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.5}
+    .cp-h{font-size:16px;font-weight:700;fill:var(--fig-ink)}
+    .cp-lbl{font-size:14px;fill:var(--fig-ink)}
+    .cp-sm{font-size:13px;fill:var(--fig-muted)}
+    .cp-steel{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5}
+    .cp-zn{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5}
+    .cp-sn{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5}
+    .cp-water{fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:5 3}
+    .cp-rust{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5}
+    .cp-up{stroke:var(--fig-red);stroke-width:2.2;fill:none}
+    .cp-up-h{fill:var(--fig-red)}
+    .cp-e{stroke:var(--fig-amber);stroke-width:2.2;fill:none}
+    .cp-e-h{fill:var(--fig-amber)}
+    .cp-e-dot{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.2}
+    .cp-e-t{font-size:11.5px;font-weight:700;fill:var(--fig-ink)}
+    .cp-ok{font-size:14px;font-weight:700;fill:var(--fig-green)}
+    .cp-bad{font-size:14px;font-weight:700;fill:var(--fig-red)}
+    .cp-chip{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2}
+    .cp-chip-zn{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5}
+    .cp-chip-fe{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5}
+    .cp-chip-sn{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5}
+    .cp-chip-t{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .cp-gt{font-size:16px;fill:var(--fig-muted)}
+    .cp-arrow{stroke:var(--fig-ink);stroke-width:1.6;fill:none}
+    .cp-arrow-h{fill:var(--fig-ink)}
+  </style>
+
+  <!-- ───── 반응성 순서 ───── -->
+  <rect x="150" y="12" width="60" height="32" rx="6" class="cp-chip"/><text x="180" y="34" text-anchor="middle" class="cp-chip-t">Mg</text>
+  <text x="228" y="34" text-anchor="middle" class="cp-gt">&gt;</text>
+  <rect x="246" y="12" width="60" height="32" rx="6" class="cp-chip-zn"/><text x="276" y="34" text-anchor="middle" class="cp-chip-t">Zn</text>
+  <text x="324" y="34" text-anchor="middle" class="cp-gt">&gt;</text>
+  <rect x="342" y="12" width="60" height="32" rx="6" class="cp-chip-fe"/><text x="372" y="34" text-anchor="middle" class="cp-chip-t">Fe</text>
+  <text x="420" y="34" text-anchor="middle" class="cp-gt">&gt;</text>
+  <rect x="438" y="12" width="60" height="32" rx="6" class="cp-chip-sn"/><text x="468" y="34" text-anchor="middle" class="cp-chip-t">Sn</text>
+  <text x="516" y="34" text-anchor="middle" class="cp-gt">&gt;</text>
+  <rect x="534" y="12" width="60" height="32" rx="6" class="cp-chip"/><text x="564" y="34" text-anchor="middle" class="cp-chip-t">Cu</text>
+  <line x1="580" y1="58" x2="166" y2="58" class="cp-arrow"/><path d="M156 58 l10 -6 v12 z" class="cp-arrow-h"/>
+  <text x="372" y="78" text-anchor="middle" class="cp-sm">왼쪽일수록 전자를 잘 잃는다(산화되기 쉽다, 반응성이 크다)</text>
+
+  <!-- ───── 왼쪽: 함석 ───── -->
+  <rect x="10" y="94" width="340" height="270" rx="10" class="cp-panel"/>
+  <text x="180" y="122" text-anchor="middle" class="cp-h">함석 (아연 도금)</text>
+  <!-- 물방울 -->
+  <path d="M100 222 Q180 120 260 222 Z" class="cp-water"/>
+  <text x="180" y="160" text-anchor="middle" class="cp-sm">물 + 산소</text>
+  <!-- 철판과 도금층 -->
+  <rect x="30" y="236" width="300" height="50" class="cp-steel"/>
+  <rect x="30" y="222" width="130" height="14" class="cp-zn"/>
+  <rect x="200" y="222" width="130" height="14" class="cp-zn"/>
+  <text x="70" y="267" text-anchor="middle" class="cp-lbl">철(Fe)</text>
+  <text x="60" y="214" text-anchor="middle" class="cp-sm">아연층</text>
+  <text x="180" y="252" text-anchor="middle" class="cp-sm">흠집</text>
+  <!-- 아연이 Zn²⁺로 -->
+  <line x1="130" y1="220" x2="130" y2="192" class="cp-up"/><path d="M130 184 l-6 10 h12 z" class="cp-up-h"/>
+  <text x="122" y="198" text-anchor="end" class="cp-lbl" style="fill:var(--fig-red);font-weight:600">Zn²⁺</text>
+  <!-- 전자 이동: 아연 → 흠집 -->
+  <path d="M138 230 L186 230" class="cp-e"/><path d="M194 230 l-9 -5 v10 z" class="cp-e-h"/>
+  <circle cx="160" cy="218" r="9" class="cp-e-dot"/><text x="160" y="222" text-anchor="middle" class="cp-e-t">e⁻</text>
+  <text x="180" y="310" text-anchor="middle" class="cp-lbl">아연이 철 대신 먼저 전자를 잃는다(산화)</text>
+  <text x="180" y="332" text-anchor="middle" class="cp-sm">전자는 흠집에서 물속 산소가 받아 간다</text>
+  <text x="180" y="354" text-anchor="middle" class="cp-ok">드러난 철이 보호된다</text>
+
+  <!-- ───── 오른쪽: 양철 ───── -->
+  <rect x="370" y="94" width="340" height="270" rx="10" class="cp-panel"/>
+  <text x="540" y="122" text-anchor="middle" class="cp-h">양철 (주석 도금)</text>
+  <path d="M460 222 Q540 120 620 222 Z" class="cp-water"/>
+  <text x="540" y="160" text-anchor="middle" class="cp-sm">물 + 산소</text>
+  <rect x="390" y="236" width="300" height="50" class="cp-steel"/>
+  <rect x="390" y="222" width="130" height="14" class="cp-sn"/>
+  <rect x="560" y="222" width="130" height="14" class="cp-sn"/>
+  <text x="430" y="267" text-anchor="middle" class="cp-lbl">철(Fe)</text>
+  <text x="420" y="214" text-anchor="middle" class="cp-sm">주석층</text>
+  <!-- 흠집에 녹 -->
+  <path d="M524 236 Q532 226 540 232 Q548 224 556 236 Z" class="cp-rust"/>
+  <text x="540" y="256" text-anchor="middle" class="cp-sm" style="fill:var(--fig-red)">녹</text>
+  <!-- 철이 Fe²⁺로 -->
+  <line x1="540" y1="224" x2="540" y2="194" class="cp-up"/><path d="M540 186 l-6 10 h12 z" class="cp-up-h"/>
+  <text x="532" y="200" text-anchor="end" class="cp-lbl" style="fill:var(--fig-red);font-weight:600">Fe²⁺</text>
+  <!-- 전자 이동: 흠집의 철 → 주석 -->
+  <path d="M552 230 L592 214" class="cp-e"/><path d="M600 211 l-10 -1 l4 9 z" class="cp-e-h"/>
+  <circle cx="580" cy="202" r="9" class="cp-e-dot"/><text x="580" y="206" text-anchor="middle" class="cp-e-t">e⁻</text>
+  <text x="540" y="310" text-anchor="middle" class="cp-lbl">흠집의 철이 주석보다 먼저 전자를 잃는다</text>
+  <text x="540" y="332" text-anchor="middle" class="cp-sm">전자는 주석 표면에서 물속 산소가 받아 간다</text>
+  <text x="540" y="354" text-anchor="middle" class="cp-bad">흠집 부분이 빨리 녹슨다</text>
+
+  <!-- 희생 양극 -->
+  <text x="360" y="390" text-anchor="middle" class="cp-lbl"><tspan style="font-weight:700">희생 양극</tspan>도 함석과 같은 원리 — 철보다 반응성이 큰 아연·마그네슘이 대신 산화된다</text>
+  <text x="360" y="410" text-anchor="middle" class="cp-sm">(선박 바닥, 지하 배관) · 모식도(크기 비율은 실제와 다름)</text>
+</svg>

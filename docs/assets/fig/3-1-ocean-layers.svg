@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 504" role="img" aria-labelledby="t-3-1-ocean-layers d-3-1-ocean-layers">
+  <title id="t-3-1-ocean-layers">그림 3-1-2 깊이에 따른 수온 분포와 해수의 층 구조</title>
+  <desc id="d-3-1-ocean-layers">중위도 바다의 대표적인 수온 분포(대략값)이다. 혼합층의 두께와 수온은 위도, 계절, 바람의 세기에 따라 달라진다.</desc>
+  <style>
+    .sea-lbl{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .sea-txt{font-size:13px;fill:var(--fig-ink)}
+    .sea-sm{font-size:12px;fill:var(--fig-muted)}
+    .sea-axis{stroke:var(--fig-ink);stroke-width:1.5;fill:none}
+    .sea-grid{stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4;fill:none}
+    .sea-bnd{stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:6 4;fill:none}
+  </style>
+  <!-- 층 배경 -->
+  <rect x="120" y="70" width="590" height="19" style="fill:var(--fig-soft-amber)"/>
+  <rect x="120" y="89" width="590" height="171" style="fill:var(--fig-soft-teal)"/>
+  <rect x="120" y="260" width="590" height="190" style="fill:var(--fig-soft-blue)"/>
+  <!-- 격자 -->
+  <path class="sea-grid" d="M120 165H470M120 355H470M190 70V450M260 70V450M330 70V450M400 70V450"/>
+  <!-- 층 경계 -->
+  <path class="sea-bnd" d="M120 89H710M120 260H710"/>
+  <text x="706" y="104" text-anchor="end" class="sea-sm">약 100 m</text>
+  <text x="706" y="255" text-anchor="end" class="sea-sm">약 1000 m</text>
+  <!-- 해수면, 태양, 바람 -->
+  <path d="M120 70 q10 -5 20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t10 0"
+        style="fill:none;stroke:var(--fig-blue);stroke-width:2"/>
+  <circle cx="560" cy="30" r="12" style="fill:var(--fig-amber)"/>
+  <path d="M560 10v-6M560 50v6M540 30h-6M580 30h6M546 16l-4 -4M574 16l4 -4M546 44l-4 4M574 44l4 4" style="stroke:var(--fig-amber);stroke-width:2;fill:none"/>
+  <text x="590" y="35" class="sea-txt">태양 에너지로 데워짐</text>
+  <path d="M140 46H232" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
+  <path d="M242 46l-11 -6v12z" style="fill:var(--fig-ink)"/>
+  <path d="M150 58H222" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
+  <path d="M232 58l-11 -6v12z" style="fill:var(--fig-ink)"/>
+  <text x="252" y="50" class="sea-txt">바람이 표층의 물을 섞는다</text>
+  <!-- 축 -->
+  <path class="sea-axis" d="M120 70V450H470"/>
+  <g class="sea-sm" text-anchor="end">
+    <text x="114" y="74">0</text><text x="114" y="169">500</text><text x="114" y="264">1000</text>
+    <text x="114" y="359">1500</text><text x="114" y="454">2000</text>
+  </g>
+  <g class="sea-sm" text-anchor="middle">
+    <text x="120" y="468">0</text><text x="190" y="468">5</text><text x="260" y="468">10</text>
+    <text x="330" y="468">15</text><text x="400" y="468">20</text><text x="470" y="468">25</text>
+  </g>
+  <text x="295" y="492" text-anchor="middle" class="sea-txt">수온 (°C)</text>
+  <text x="52" y="260" text-anchor="middle" class="sea-txt" transform="rotate(-90 52 260)">깊이 (m)</text>
+  <!-- 수온 곡선 -->
+  <path d="M400 70L400 89L365 98.5L330 108L281 127L246 146L211 184L193 222L183 260L166 355L155 450"
+        style="fill:none;stroke:var(--fig-red);stroke-width:3;stroke-linejoin:round;stroke-linecap:round"/>
+  <!-- 층 설명 -->
+  <text x="498" y="85" class="sea-lbl">혼합층 <tspan class="sea-txt" style="font-weight:400">수온이 거의 일정</tspan></text>
+  <text x="498" y="150" class="sea-lbl">수온 약층</text>
+  <text x="498" y="170" class="sea-txt">깊을수록 수온이 급격히 낮아짐</text>
+  <text x="498" y="188" class="sea-txt">매우 안정 → 위아래가 잘 안 섞임</text>
+  <text x="498" y="330" class="sea-lbl">심해층</text>
+  <text x="498" y="350" class="sea-txt">수온이 낮고 거의 일정</text>
+  <text x="498" y="368" class="sea-txt">(약 2~4 °C) · 햇빛이 닿지 않음</text>
+</svg>

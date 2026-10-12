@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" role="img" aria-labelledby="t-2-1-spectroscope d-2-1-spectroscope">
+  <title id="t-2-1-spectroscope">그림 2-1-1 빛을 스펙트럼으로 나누는 두 가지 방법</title>
+  <desc id="d-2-1-spectroscope">프리즘은 색(파장)마다 꺾이는 정도가 달라 빛을 나누고(보라가 가장 많이 꺾임), 회절 격자는 촘촘한 홈에서 퍼진 빛이 겹치며 색을 나눈다(가운데는 흰빛, 양옆에 스펙트럼). 모식도(각도는 실제와 다름).</desc>
+  <style>
+    .sps-lbl{font-size:15px;fill:var(--fig-ink)} .sps-sm{font-size:13px;fill:var(--fig-muted)}
+    .sps-ink{fill:var(--fig-ink)} .sps-mut{fill:var(--fig-muted)} .sps-b{font-weight:600}
+    .sps-night{fill:var(--fig-ink)}
+    @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .sps-night{fill:var(--fig-paper)} }
+    :root[data-theme="dark"] .sps-night{fill:var(--fig-paper)}
+  </style>
+  <text x="180.0" y="30.0" text-anchor="middle" class="sps-lbl sps-b">① 프리즘</text>
+  <text x="540.0" y="30.0" text-anchor="middle" class="sps-lbl sps-b">② 회절 격자</text>
+  <line x1="360" y1="20" x2="360" y2="280" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
+  <line x1="24" y1="152" x2="145" y2="135" style="stroke:var(--fig-ink);stroke-width:4"/>
+  <text x="70.0" y="128.0" text-anchor="middle" class="sps-sm">백색광</text>
+  <path d="M170 76 L222 190 L118 190 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2;stroke-linejoin:round"/>
+  <line x1="145" y1="135" x2="196" y2="134" style="stroke:var(--fig-ink);stroke-width:3;opacity:0.6"/>
+  <line x1="196" y1="134" x2="318" y2="150" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <line x1="196" y1="134" x2="318" y2="162" style="stroke:var(--fig-amber);stroke-width:2.5"/>
+  <line x1="196" y1="134" x2="318" y2="174" style="stroke:var(--fig-green);stroke-width:2.5"/>
+  <line x1="196" y1="134" x2="318" y2="186" style="stroke:var(--fig-blue);stroke-width:2.5"/>
+  <line x1="196" y1="134" x2="318" y2="198" style="stroke:var(--fig-violet);stroke-width:2.5"/>
+  <rect x="318" y="118" width="10" height="100" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="300.0" y="108.0" text-anchor="end" class="sps-sm">빨강: 적게 꺾임</text>
+  <text x="300.0" y="236.0" text-anchor="end" class="sps-sm">보라: 많이 꺾임</text>
+  <text x="170.0" y="214.0" text-anchor="middle" class="sps-sm">프리즘</text>
+  <text x="180.0" y="266.0" text-anchor="middle" class="sps-lbl">색(파장)마다 꺾이는 정도가 달라 나뉜다</text>
+  <line x1="378" y1="150" x2="500" y2="150" style="stroke:var(--fig-ink);stroke-width:4"/>
+  <text x="420.0" y="140.0" text-anchor="middle" class="sps-sm">백색광</text>
+  <rect x="498" y="80" width="6" height="140" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.5"/>
+  <line x1="498" y1="86" x2="504" y2="86" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="498" y1="95" x2="504" y2="95" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="498" y1="104" x2="504" y2="104" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="498" y1="113" x2="504" y2="113" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="498" y1="122" x2="504" y2="122" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="498" y1="131" x2="504" y2="131" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="498" y1="140" x2="504" y2="140" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="498" y1="149" x2="504" y2="149" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="498" y1="158" x2="504" y2="158" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="498" y1="167" x2="504" y2="167" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="498" y1="176" x2="504" y2="176" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="498" y1="185" x2="504" y2="185" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="498" y1="194" x2="504" y2="194" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="498" y1="203" x2="504" y2="203" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="498" y1="212" x2="504" y2="212" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="501.0" y="238.0" text-anchor="middle" class="sps-sm">회절 격자(촘촘한 홈)</text>
+  <line x1="504" y1="150" x2="680" y2="150" style="stroke:var(--fig-ink);stroke-width:3;opacity:0.6"/>
+  <line x1="504" y1="150" x2="680" y2="120" style="stroke:var(--fig-violet);stroke-width:2.5"/>
+  <line x1="504" y1="150" x2="680" y2="180" style="stroke:var(--fig-violet);stroke-width:2.5"/>
+  <line x1="504" y1="150" x2="680" y2="112" style="stroke:var(--fig-blue);stroke-width:2.5"/>
+  <line x1="504" y1="150" x2="680" y2="188" style="stroke:var(--fig-blue);stroke-width:2.5"/>
+  <line x1="504" y1="150" x2="680" y2="102" style="stroke:var(--fig-green);stroke-width:2.5"/>
+  <line x1="504" y1="150" x2="680" y2="198" style="stroke:var(--fig-green);stroke-width:2.5"/>
+  <line x1="504" y1="150" x2="680" y2="92" style="stroke:var(--fig-amber);stroke-width:2.5"/>
+  <line x1="504" y1="150" x2="680" y2="208" style="stroke:var(--fig-amber);stroke-width:2.5"/>
+  <line x1="504" y1="150" x2="680" y2="80" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <line x1="504" y1="150" x2="680" y2="220" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <rect x="680" y="64" width="10" height="172" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="676.0" y="72.0" text-anchor="end" class="sps-sm">빨강</text>
+  <text x="676.0" y="160.0" text-anchor="end" class="sps-sm" dy="-14">가운데: 흰빛</text>
+  <text x="540.0" y="266.0" text-anchor="middle" class="sps-lbl">홈에서 퍼진 빛이 겹치며 색이 나뉜다</text>
+
+</svg>

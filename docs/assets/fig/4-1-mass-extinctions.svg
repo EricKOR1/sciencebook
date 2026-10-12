@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 446" role="img" aria-labelledby="t-4-1-mass-extinctions d-4-1-mass-extinctions">
+  <title id="t-4-1-mass-extinctions">그림 4-1-3 고생대 이후의 5대 대멸종</title>
+  <desc id="d-4-1-mass-extinctions">위 띠에 다섯 번의 대멸종 시점을 실제 시간 비율대로 표시하고, 아래 표에 사라진 해양 생물 종의 추정 비율, 대표적으로 사라진 생물, 주요 원인 가설을 정리했다. 고생대 말과 중생대 말 대멸종은 지질시대(대)의 경계가 된다.</desc>
+  <style>
+    .mx-lbl{font-size:15px;fill:var(--fig-ink)} .mx-b{font-weight:600}
+    .mx-sm{font-size:13px;fill:var(--fig-muted)} .mx-txt{font-size:14px;fill:var(--fig-ink)}
+    .mx-num{font-size:13px;font-weight:700;fill:var(--fig-paper)}
+    .mx-dot{fill:var(--fig-red)}
+    .mx-track{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1}
+    .mx-bar{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5}
+    .mx-big{fill:var(--fig-red);stroke:var(--fig-red);stroke-width:1.5}
+    .mx-tick{stroke:var(--fig-line);stroke-width:1.2;fill:none}
+    .mx-rule{stroke:var(--fig-line);stroke-width:1;stroke-dasharray:2 3;fill:none}
+  </style>
+
+  <!-- 시간 축 (고생대 시작 ~ 현재, 1 Myr = 1.1878 px) -->
+  <rect x="40" y="58" width="340.8" height="28" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <rect x="380.8" y="58" width="220.8" height="28" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <rect x="601.6" y="58" width="78.4" height="28" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <text x="96" y="77" text-anchor="middle" class="mx-lbl mx-b">고생대</text>
+  <text x="520" y="77" text-anchor="middle" class="mx-lbl mx-b">중생대</text>
+  <text x="640.8" y="77" text-anchor="middle" class="mx-lbl mx-b">신생대</text>
+
+  <!-- 대멸종 시점 -->
+  <g>
+    <path d="M152.6 58 V86 M238.1 58 V86 M380.8 58 V86 M440.8 58 V86 M601.6 58 V86" style="stroke:var(--fig-red);stroke-width:2.5;fill:none"/>
+    <circle cx="152.6" cy="38" r="12" class="mx-dot"/><text x="152.6" y="42.5" text-anchor="middle" class="mx-num">1</text>
+    <circle cx="238.1" cy="38" r="12" class="mx-dot"/><text x="238.1" y="42.5" text-anchor="middle" class="mx-num">2</text>
+    <circle cx="380.8" cy="38" r="12" class="mx-dot"/><text x="380.8" y="42.5" text-anchor="middle" class="mx-num">3</text>
+    <circle cx="440.8" cy="38" r="12" class="mx-dot"/><text x="440.8" y="42.5" text-anchor="middle" class="mx-num">4</text>
+    <circle cx="601.6" cy="38" r="12" class="mx-dot"/><text x="601.6" y="42.5" text-anchor="middle" class="mx-num">5</text>
+    <path d="M152.6 50 V58 M238.1 50 V58 M380.8 50 V58 M440.8 50 V58 M601.6 50 V58" style="stroke:var(--fig-red);stroke-width:2;fill:none"/>
+  </g>
+  <path d="M40 86V93 M680 86V93" class="mx-tick"/>
+  <text x="40" y="106" class="mx-sm">5억 3900만 년 전</text>
+  <text x="680" y="106" text-anchor="end" class="mx-sm">현재</text>
+
+  <!-- 표 머리 -->
+  <text x="250" y="128" class="mx-sm">사라진 해양 생물 종의 비율(추정)</text>
+  <text x="512" y="128" class="mx-sm">사라진 대표 생물 / 주요 원인 가설</text>
+  <path d="M40 136 H700" class="mx-tick"/>
+
+  <!-- ① -->
+  <circle cx="52" cy="159" r="11" class="mx-dot"/><text x="52" y="163.5" text-anchor="middle" class="mx-num">1</text>
+  <text x="72" y="164" class="mx-lbl mx-b">오르도비스기 말</text>
+  <text x="72" y="182" class="mx-sm">약 4억 4400만 년 전</text>
+  <rect x="250" y="152" width="180" height="16" rx="3" class="mx-track"/>
+  <rect x="250" y="152" width="153" height="16" rx="3" class="mx-bar"/>
+  <text x="436" y="165" class="mx-txt">약 85%</text>
+  <text x="512" y="164" class="mx-txt">삼엽충·필석·완족류의 많은 종</text>
+  <text x="512" y="182" class="mx-sm">빙하기 → 해수면·수온 하강</text>
+  <path d="M40 190 H700" class="mx-rule"/>
+
+  <!-- ② -->
+  <circle cx="52" cy="213" r="11" class="mx-dot"/><text x="52" y="217.5" text-anchor="middle" class="mx-num">2</text>
+  <text x="72" y="218" class="mx-lbl mx-b">데본기 후기</text>
+  <text x="72" y="236" class="mx-sm">약 3억 7천만 년 전</text>
+  <rect x="250" y="206" width="180" height="16" rx="3" class="mx-track"/>
+  <rect x="250" y="206" width="135" height="16" rx="3" class="mx-bar"/>
+  <text x="436" y="219" class="mx-txt">약 75%</text>
+  <text x="512" y="218" class="mx-txt">갑주어·산호초 생물 등</text>
+  <text x="512" y="236" class="mx-sm">바닷물의 산소 부족, 기후 변화</text>
+  <path d="M40 244 H700" class="mx-rule"/>
+
+  <!-- ③ 가장 큰 대멸종 -->
+  <rect x="40" y="246" width="660" height="50" rx="6" style="fill:var(--fig-soft-red);stroke:none"/>
+  <circle cx="52" cy="267" r="11" class="mx-dot"/><text x="52" y="271.5" text-anchor="middle" class="mx-num">3</text>
+  <text x="72" y="272" class="mx-lbl mx-b">페름기 말(고생대 말)</text>
+  <text x="72" y="290" class="mx-sm">약 2억 5200만 년 전</text>
+  <rect x="250" y="260" width="180" height="16" rx="3" class="mx-track"/>
+  <rect x="250" y="260" width="162" height="16" rx="3" class="mx-big"/>
+  <text x="436" y="273" class="mx-txt mx-b">90% 이상</text>
+  <text x="512" y="272" class="mx-txt">삼엽충·방추충 완전히 멸종</text>
+  <text x="512" y="290" class="mx-sm">시베리아 화산 활동, 판게아 형성</text>
+  <path d="M40 298 H700" class="mx-rule"/>
+
+  <!-- ④ -->
+  <circle cx="52" cy="321" r="11" class="mx-dot"/><text x="52" y="325.5" text-anchor="middle" class="mx-num">4</text>
+  <text x="72" y="326" class="mx-lbl mx-b">트라이아스기 말</text>
+  <text x="72" y="344" class="mx-sm">약 2억 100만 년 전</text>
+  <rect x="250" y="314" width="180" height="16" rx="3" class="mx-track"/>
+  <rect x="250" y="314" width="135" height="16" rx="3" class="mx-bar"/>
+  <rect x="385" y="314" width="9" height="16" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.2;stroke-dasharray:3 2"/>
+  <text x="436" y="327" class="mx-txt">약 75~80%</text>
+  <text x="512" y="326" class="mx-txt">많은 파충류·대형 양서류</text>
+  <text x="512" y="344" class="mx-sm">판게아가 갈라질 때의 화산 활동</text>
+  <path d="M40 352 H700" class="mx-rule"/>
+
+  <!-- ⑤ -->
+  <rect x="40" y="354" width="660" height="50" rx="6" style="fill:var(--fig-soft-amber);stroke:none"/>
+  <circle cx="52" cy="375" r="11" class="mx-dot"/><text x="52" y="379.5" text-anchor="middle" class="mx-num">5</text>
+  <text x="72" y="380" class="mx-lbl mx-b">백악기 말(중생대 말)</text>
+  <text x="72" y="398" class="mx-sm">6600만 년 전</text>
+  <rect x="250" y="368" width="180" height="16" rx="3" class="mx-track"/>
+  <rect x="250" y="368" width="135" height="16" rx="3" class="mx-bar"/>
+  <text x="436" y="381" class="mx-txt">약 75%</text>
+  <text x="512" y="380" class="mx-txt">공룡(조류 제외)·암모나이트</text>
+  <text x="512" y="398" class="mx-sm">소행성 충돌, 데칸 화산 활동</text>
+  <path d="M40 406 H700" class="mx-tick"/>
+
+  <text x="40" y="428" class="mx-sm">③은 고생대/중생대, ⑤는 중생대/신생대의 경계가 된다. 비율은 화석 자료로 추정한 값으로 연구마다 차이가 있다.</text>
+</svg>

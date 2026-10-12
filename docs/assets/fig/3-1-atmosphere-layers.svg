@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 456" role="img" aria-labelledby="t-3-1-atmosphere-layers d-3-1-atmosphere-layers">
+  <title id="t-3-1-atmosphere-layers">그림 3-1-1 높이에 따른 기온 분포와 기권의 층 구조</title>
+  <desc id="d-3-1-atmosphere-layers">높이에 따라 기온이 낮아지는 층(대류권, 중간권)과 높아지는 층(성층권, 열권)이 번갈아 나타난다. 중위도의 평균적인 대기를 바탕으로 한 대략값이며, 열권의 기온은 위로 갈수록 계속 높아진다.</desc>
+  <style>
+    .atm-lbl{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .atm-txt{font-size:13px;fill:var(--fig-ink)}
+    .atm-sm{font-size:12px;fill:var(--fig-muted)}
+    .atm-axis{stroke:var(--fig-ink);stroke-width:1.5;fill:none}
+    .atm-grid{stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4;fill:none}
+    .atm-bnd{stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:6 4;fill:none}
+    .atm-dot{fill:var(--fig-red)}
+  </style>
+  <!-- 층 배경 -->
+  <rect x="90" y="40" width="620" height="120" style="fill:var(--fig-soft-amber)"/>
+  <rect x="90" y="160" width="620" height="90" style="fill:var(--fig-soft-violet)"/>
+  <rect x="90" y="250" width="620" height="117" style="fill:var(--fig-soft-green)"/>
+  <rect x="90" y="367" width="620" height="33" style="fill:var(--fig-soft-blue)"/>
+  <!-- 오존층 -->
+  <rect x="90" y="310" width="380" height="30" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1;stroke-dasharray:4 3"/>
+  <text x="262" y="330" class="atm-txt" style="fill:var(--fig-teal);font-weight:600">오존층 (약 20~30 km)</text>
+  <!-- 격자 -->
+  <path class="atm-grid" d="M90 340H470M90 280H470M90 220H470M90 100H470M144.3 40V400M198.6 40V400M252.9 40V400M307.1 40V400M361.4 40V400M415.7 40V400"/>
+  <!-- 층 경계 -->
+  <path class="atm-bnd" d="M90 367H710M90 250H710M90 160H710"/>
+  <text x="706" y="362" text-anchor="end" class="atm-sm">약 11 km</text>
+  <text x="706" y="245" text-anchor="end" class="atm-sm">약 50 km</text>
+  <text x="706" y="155" text-anchor="end" class="atm-sm">약 80 km</text>
+  <!-- 축 -->
+  <path class="atm-axis" d="M90 40V400H470"/>
+  <g class="atm-sm" text-anchor="end">
+    <text x="84" y="404">0</text><text x="84" y="344">20</text><text x="84" y="284">40</text>
+    <text x="84" y="224">60</text><text x="84" y="164">80</text><text x="84" y="104">100</text><text x="84" y="44">120</text>
+  </g>
+  <g class="atm-sm" text-anchor="middle">
+    <text x="90" y="418">−100</text><text x="144.3" y="418">−80</text><text x="198.6" y="418">−60</text><text x="252.9" y="418">−40</text>
+    <text x="307.1" y="418">−20</text><text x="361.4" y="418">0</text><text x="415.7" y="418">20</text><text x="470" y="418">40</text>
+  </g>
+  <text x="280" y="444" text-anchor="middle" class="atm-txt">기온 (°C)</text>
+  <text x="34" y="220" text-anchor="middle" class="atm-txt" transform="rotate(-90 34 220)">높이 (km)</text>
+  <!-- 기온 곡선 -->
+  <path d="M402.1 400L208.1 367L208.1 340L240.6 304L354.6 259L354.6 247L202.6 187L117.1 160L130.7 130L157.9 100L266.4 70L466 49.6"
+        style="fill:none;stroke:var(--fig-red);stroke-width:3;stroke-linejoin:round;stroke-linecap:round"/>
+  <path d="M474 48 l-11 -4 l2 10 z" style="fill:var(--fig-red)"/>
+  <text x="290" y="100" class="atm-txt" style="fill:var(--fig-red)">↑ 위로 갈수록 계속 높아짐</text>
+  <text x="290" y="117" class="atm-sm">(수백 °C 이상, 매우 희박한 공기)</text>
+  <!-- 주요 값 -->
+  <circle cx="402.1" cy="400" r="4" class="atm-dot"/>
+  <text x="410" y="393" class="atm-sm" style="fill:var(--fig-ink)">약 15 °C</text>
+  <circle cx="208.1" cy="367" r="4" class="atm-dot"/>
+  <text x="200" y="362" text-anchor="end" class="atm-sm" style="fill:var(--fig-ink)">약 −56 °C</text>
+  <circle cx="354.6" cy="253" r="4" class="atm-dot"/>
+  <text x="362" y="257" class="atm-sm" style="fill:var(--fig-ink)">약 0 °C</text>
+  <circle cx="117.1" cy="160" r="4" class="atm-dot"/>
+  <text x="97" y="182" class="atm-sm" style="fill:var(--fig-ink)">약 −90 °C</text>
+  <!-- 층 설명 -->
+  <text x="498" y="80" class="atm-lbl">열권</text>
+  <text x="498" y="100" class="atm-txt">높이↑ 기온↑</text>
+  <text x="498" y="118" class="atm-txt">공기 매우 희박 · 오로라</text>
+  <text x="498" y="186" class="atm-lbl">중간권</text>
+  <text x="498" y="206" class="atm-txt">높이↑ 기온↓ · 유성</text>
+  <text x="498" y="224" class="atm-txt">대류 있으나 기상 현상 없음</text>
+  <text x="498" y="280" class="atm-lbl">성층권</text>
+  <text x="498" y="300" class="atm-txt">높이↑ 기온↑</text>
+  <text x="498" y="318" class="atm-txt">오존층이 자외선을 흡수</text>
+  <text x="498" y="336" class="atm-txt">위아래로 섞이지 않아 안정</text>
+  <text x="498" y="389" class="atm-lbl">대류권 <tspan class="atm-txt" style="font-weight:400">높이↑ 기온↓ · 기상 현상</tspan></text>
+</svg>

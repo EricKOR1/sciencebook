@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 386" role="img" aria-labelledby="t-2-2-star-cores d-2-2-star-cores">
+  <title id="t-2-2-star-cores">그림 2-2-2 질량에 따라 달라지는 별의 내부</title>
+  <desc id="d-2-2-star-cores">태양 정도 질량의 별은 중심부에 탄소와 산소를 만들고 멈추지만, 매우 무거운 별은 철까지 만들어 내부가 양파처럼 수소, 헬륨, 탄소·산소, 네온·마그네슘·산소, 규소·황, 철의 층을 이룬다(바깥에서 안쪽 순서).</desc>
+  <style>
+    .scr-lbl{font-size:15px;fill:var(--fig-ink)} .scr-sm{font-size:13px;fill:var(--fig-muted)}
+    .scr-ink{fill:var(--fig-ink)} .scr-mut{fill:var(--fig-muted)} .scr-b{font-weight:600}
+    .scr-night{fill:var(--fig-ink)}
+    @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .scr-night{fill:var(--fig-paper)} }
+    :root[data-theme="dark"] .scr-night{fill:var(--fig-paper)}
+  </style>
+  <text x="150.0" y="42.0" text-anchor="middle" class="scr-lbl scr-b">태양 정도 질량의 별</text>
+  <text x="150.0" y="62.0" text-anchor="middle" class="scr-sm">(적색 거성 단계)</text>
+  <circle cx="150" cy="205" r="100" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <circle cx="150" cy="205" r="60" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="150" cy="205" r="32" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.8"/>
+  <text x="150.0" y="131.0" text-anchor="middle" class="scr-lbl">수소</text>
+  <text x="150.0" y="165.0" text-anchor="middle" class="scr-lbl">헬륨</text>
+  <text x="150.0" y="202.0" text-anchor="middle" class="scr-sm scr-ink">탄소</text>
+  <text x="150.0" y="219.0" text-anchor="middle" class="scr-sm scr-ink">산소</text>
+  <text x="150.0" y="334.0" text-anchor="middle" class="scr-lbl">탄소·산소에서 멈춤</text>
+  <text x="150.0" y="354.0" text-anchor="middle" class="scr-sm">→ 행성상 성운 + 백색 왜성</text>
+  <text x="490.0" y="42.0" text-anchor="middle" class="scr-lbl scr-b">태양보다 매우 무거운 별</text>
+  <text x="490.0" y="62.0" text-anchor="middle" class="scr-sm">(초거성의 마지막 단계)</text>
+  <circle cx="430" cy="205" r="115" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <circle cx="430" cy="205" r="95" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="430" cy="205" r="75" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.8"/>
+  <circle cx="430" cy="205" r="55" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.8"/>
+  <circle cx="430" cy="205" r="35" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.8"/>
+  <circle cx="430" cy="205" r="16" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8"/>
+  <line x1="535.0" y1="205" x2="582" y2="123" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <circle cx="535.0" cy="205" r="2.5" style="fill:var(--fig-ink)"/>
+  <text x="586.0" y="128.0" text-anchor="start" class="scr-sm scr-ink">수소</text>
+  <line x1="515.0" y1="205" x2="582" y2="154" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <circle cx="515.0" cy="205" r="2.5" style="fill:var(--fig-ink)"/>
+  <text x="586.0" y="159.0" text-anchor="start" class="scr-sm scr-ink">헬륨</text>
+  <line x1="495.0" y1="205" x2="582" y2="185" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <circle cx="495.0" cy="205" r="2.5" style="fill:var(--fig-ink)"/>
+  <text x="586.0" y="190.0" text-anchor="start" class="scr-sm scr-ink">탄소·산소</text>
+  <line x1="475.0" y1="205" x2="582" y2="216" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <circle cx="475.0" cy="205" r="2.5" style="fill:var(--fig-ink)"/>
+  <text x="586.0" y="221.0" text-anchor="start" class="scr-sm scr-ink">네온·마그네슘·산소</text>
+  <line x1="455.5" y1="205" x2="582" y2="247" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <circle cx="455.5" cy="205" r="2.5" style="fill:var(--fig-ink)"/>
+  <text x="586.0" y="252.0" text-anchor="start" class="scr-sm scr-ink">규소·황</text>
+  <line x1="438.0" y1="205" x2="582" y2="278" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <circle cx="438.0" cy="205" r="2.5" style="fill:var(--fig-ink)"/>
+  <text x="586.0" y="283.0" text-anchor="start" class="scr-sm scr-ink scr-b">철</text>
+  <text x="430.0" y="334.0" text-anchor="middle" class="scr-lbl">중심부에 철까지 쌓임</text>
+  <text x="430.0" y="354.0" text-anchor="middle" class="scr-sm">→ 중심부 붕괴, 초신성 폭발</text>
+  <text x="704.0" y="376.0" text-anchor="end" class="scr-sm">모식도: 별의 크기와 층의 두께 비율은 실제와 다름</text>
+
+</svg>

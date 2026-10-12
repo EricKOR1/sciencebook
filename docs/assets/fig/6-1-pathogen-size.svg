@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t-6-1-pathogen-size d-6-1-pathogen-size">
+  <title id="t-6-1-pathogen-size">그림 6-1-1 세균과 바이러스의 크기와 구조 비교</title>
+  <desc id="d-6-1-pathogen-size">같은 배율로 그리면 길이 약 2 μm인 세균 옆에 지름 약 100 nm인 바이러스는 점처럼 작다. 세균은 세포벽·세포막·유전 물질을 가진 세포이고, 바이러스는 유전 물질을 단백질 껍질이 감싼 세포가 아닌 구조이다. 구조 그림은 모식도(크기 비율은 실제와 다름)이다.</desc>
+  <style>
+    .f61ps-h{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .f61ps-tx{font-size:13px;fill:var(--fig-ink)}
+    .f61ps-sm{font-size:12px;fill:var(--fig-muted)}
+    .f61ps-lead{stroke:var(--fig-muted);stroke-width:1.2}
+    .f61ps-cell{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1}
+    .f61ps-head{fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:1}
+  </style>
+
+  <!-- ① 같은 배율 -->
+  <text x="20" y="24" class="f61ps-h">① 같은 배율로 보면</text>
+  <rect x="41" y="62" width="170" height="68" rx="34" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2.5"/>
+  <text x="126" y="93" text-anchor="middle" class="f61ps-tx">세균(대장균)</text>
+  <text x="126" y="112" text-anchor="middle" class="f61ps-sm">길이 약 2 μm</text>
+  <circle cx="52" cy="158" r="4.3" style="fill:var(--fig-amber)"/>
+  <text x="64" y="163" class="f61ps-tx">← 바이러스</text>
+  <text x="64" y="180" class="f61ps-sm">(코로나19, 지름 약 100 nm)</text>
+  <line x1="41" y1="204" x2="126" y2="204" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <line x1="41" y1="198" x2="41" y2="210" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <line x1="126" y1="198" x2="126" y2="210" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <text x="134" y="209" class="f61ps-sm">1 μm</text>
+  <text x="41" y="228" class="f61ps-sm">1 μm = 1000 nm</text>
+
+  <!-- ② 세균의 구조 -->
+  <text x="252" y="24" class="f61ps-h">② 세균의 구조(확대)</text>
+  <rect x="272" y="70" width="176" height="84" rx="42" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:5"/>
+  <rect x="280" y="78" width="160" height="68" rx="34" style="fill:var(--fig-soft-green);stroke:var(--fig-teal);stroke-width:2"/>
+  <path d="M318 112 c8 -18 18 18 26 0 s18 -18 26 0 s18 18 26 0 s14 -14 20 -4" style="fill:none;stroke:var(--fig-violet);stroke-width:2.5;stroke-linecap:round"/>
+  <circle cx="300" cy="100" r="2.6" style="fill:var(--fig-muted)"/><circle cx="305" cy="128" r="2.6" style="fill:var(--fig-muted)"/>
+  <circle cx="420" cy="96" r="2.6" style="fill:var(--fig-muted)"/><circle cx="424" cy="128" r="2.6" style="fill:var(--fig-muted)"/>
+  <circle cx="352" cy="134" r="2.6" style="fill:var(--fig-muted)"/><circle cx="388" cy="92" r="2.6" style="fill:var(--fig-muted)"/>
+  <line x1="290" y1="52" x2="296" y2="72" class="f61ps-lead"/>
+  <text x="262" y="48" class="f61ps-tx">세포벽</text>
+  <line x1="420" y1="52" x2="414" y2="79" class="f61ps-lead"/>
+  <text x="404" y="48" class="f61ps-tx">세포막</text>
+  <line x1="360" y1="116" x2="360" y2="168" class="f61ps-lead"/>
+  <text x="360" y="182" text-anchor="middle" class="f61ps-tx">유전 물질(DNA) — 핵막 없음</text>
+  <line x1="424" y1="131" x2="436" y2="190" class="f61ps-lead"/>
+  <text x="436" y="203" text-anchor="middle" class="f61ps-sm">리보솜</text>
+
+  <!-- ③ 바이러스의 구조 -->
+  <text x="488" y="24" class="f61ps-h">③ 바이러스의 구조(더 크게 확대)</text>
+  <path d="M596 64 L638 88 L638 136 L596 160 L554 136 L554 88 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:4;stroke-linejoin:round"/>
+  <path d="M572 110 c6 -14 14 14 20 0 s14 -14 20 0 s10 10 14 2" style="fill:none;stroke:var(--fig-violet);stroke-width:2.5;stroke-linecap:round"/>
+  <line x1="640" y1="80" x2="660" y2="58" class="f61ps-lead"/>
+  <text x="600" y="50" class="f61ps-tx">단백질 껍질</text>
+  <line x1="596" y1="114" x2="596" y2="168" class="f61ps-lead"/>
+  <text x="596" y="182" text-anchor="middle" class="f61ps-tx">유전 물질(DNA 또는 RNA)</text>
+  <text x="596" y="203" text-anchor="middle" class="f61ps-sm">세포 구조가 없다</text>
+  <text x="480" y="228" text-anchor="middle" class="f61ps-sm">②·③은 모식도(크기 비율은 실제와 다름)</text>
+
+  <!-- 비교 표 -->
+  <rect x="16" y="246" width="150" height="32" class="f61ps-head"/>
+  <rect x="166" y="246" width="269" height="32" class="f61ps-head"/>
+  <rect x="435" y="246" width="269" height="32" class="f61ps-head"/>
+  <text x="300" y="267" text-anchor="middle" class="f61ps-h">세균</text>
+  <text x="570" y="267" text-anchor="middle" class="f61ps-h">바이러스</text>
+  <g>
+    <rect x="16" y="278" width="150" height="32" class="f61ps-cell"/><rect x="166" y="278" width="269" height="32" class="f61ps-cell"/><rect x="435" y="278" width="269" height="32" class="f61ps-cell"/>
+    <text x="28" y="299" class="f61ps-tx">세포인가?</text><text x="300" y="299" text-anchor="middle" class="f61ps-tx">세포이다(단세포 생물)</text><text x="570" y="299" text-anchor="middle" class="f61ps-tx">세포가 아니다</text>
+  </g>
+  <g>
+    <rect x="16" y="310" width="150" height="32" class="f61ps-cell"/><rect x="166" y="310" width="269" height="32" class="f61ps-cell"/><rect x="435" y="310" width="269" height="32" class="f61ps-cell"/>
+    <text x="28" y="331" class="f61ps-tx">증식</text><text x="300" y="331" text-anchor="middle" class="f61ps-tx">스스로 물질대사하며 증식</text><text x="570" y="331" text-anchor="middle" class="f61ps-tx">살아 있는 세포 안에서만 증식</text>
+  </g>
+  <g>
+    <rect x="16" y="342" width="150" height="32" class="f61ps-cell"/><rect x="166" y="342" width="269" height="32" class="f61ps-cell"/><rect x="435" y="342" width="269" height="32" class="f61ps-cell"/>
+    <text x="28" y="363" class="f61ps-tx">크기</text><text x="300" y="363" text-anchor="middle" class="f61ps-tx">대략 1~수 μm</text><text x="570" y="363" text-anchor="middle" class="f61ps-tx">대략 수십~수백 nm</text>
+  </g>
+  <g>
+    <rect x="16" y="374" width="150" height="32" class="f61ps-cell"/><rect x="166" y="374" width="269" height="32" class="f61ps-cell"/><rect x="435" y="374" width="269" height="32" class="f61ps-cell"/>
+    <text x="28" y="395" class="f61ps-tx">항생제</text><text x="300" y="395" text-anchor="middle" class="f61ps-tx" style="fill:var(--fig-green)">효과가 있다</text><text x="570" y="395" text-anchor="middle" class="f61ps-tx" style="fill:var(--fig-red)">효과가 없다</text>
+  </g>
+</svg>

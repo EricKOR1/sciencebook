@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 316" role="img" aria-labelledby="t-2-2-star-balance d-2-2-star-balance">
+  <title id="t-2-2-star-balance">그림 2-2-1 주계열성 — 중력과 압력의 균형</title>
+  <desc id="d-2-2-star-balance">중심부에서 수소 핵융합으로 뜨거워진 기체가 바깥으로 미는 압력과, 별을 안쪽으로 끌어당기는 중력이 균형을 이루어 주계열성은 크기를 일정하게 유지한다.</desc>
+  <style>
+    .sbl-lbl{font-size:15px;fill:var(--fig-ink)} .sbl-sm{font-size:13px;fill:var(--fig-muted)}
+    .sbl-ink{fill:var(--fig-ink)} .sbl-mut{fill:var(--fig-muted)} .sbl-b{font-weight:600}
+    .sbl-night{fill:var(--fig-ink)}
+    @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .sbl-night{fill:var(--fig-paper)} }
+    :root[data-theme="dark"] .sbl-night{fill:var(--fig-paper)}
+  </style>
+  <circle cx="220" cy="160" r="108" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2.5"/>
+  <circle cx="220" cy="160" r="38" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <text x="220.0" y="156.0" text-anchor="middle" class="sbl-sm sbl-b">중심부</text>
+  <text x="220.0" y="174.0" text-anchor="middle" class="sbl-sm">H → He</text>
+  <line x1="330.3" y1="270.3" x2="307.0" y2="247.0" style="stroke:var(--fig-blue);stroke-width:3;fill:none"/>
+  <path d="M299.2 239.2 L310.9 243.1 L303.1 250.9 Z" style="fill:var(--fig-blue)"/>
+  <line x1="252.5" y1="192.5" x2="284.3" y2="224.3" style="stroke:var(--fig-red);stroke-width:3;fill:none"/>
+  <path d="M292.1 232.1 L280.5 228.2 L288.2 220.5 Z" style="fill:var(--fig-red)"/>
+  <line x1="109.7" y1="270.3" x2="133.0" y2="247.0" style="stroke:var(--fig-blue);stroke-width:3;fill:none"/>
+  <path d="M140.8 239.2 L136.9 250.9 L129.1 243.1 Z" style="fill:var(--fig-blue)"/>
+  <line x1="187.5" y1="192.5" x2="155.7" y2="224.3" style="stroke:var(--fig-red);stroke-width:3;fill:none"/>
+  <path d="M147.9 232.1 L151.8 220.5 L159.5 228.2 Z" style="fill:var(--fig-red)"/>
+  <line x1="109.7" y1="49.7" x2="133.0" y2="73.0" style="stroke:var(--fig-blue);stroke-width:3;fill:none"/>
+  <path d="M140.8 80.8 L129.1 76.9 L136.9 69.1 Z" style="fill:var(--fig-blue)"/>
+  <line x1="187.5" y1="127.5" x2="155.7" y2="95.7" style="stroke:var(--fig-red);stroke-width:3;fill:none"/>
+  <path d="M147.9 87.9 L159.5 91.8 L151.8 99.5 Z" style="fill:var(--fig-red)"/>
+  <line x1="330.3" y1="49.7" x2="307.0" y2="73.0" style="stroke:var(--fig-blue);stroke-width:3;fill:none"/>
+  <path d="M299.2 80.8 L303.1 69.1 L310.9 76.9 Z" style="fill:var(--fig-blue)"/>
+  <line x1="252.5" y1="127.5" x2="284.3" y2="95.7" style="stroke:var(--fig-red);stroke-width:3;fill:none"/>
+  <path d="M292.1 87.9 L288.2 99.5 L280.5 91.8 Z" style="fill:var(--fig-red)"/>
+  <line x1="420.0" y1="60.0" x2="449.0" y2="60.0" style="stroke:var(--fig-blue);stroke-width:3;fill:none"/>
+  <path d="M460.0 60.0 L449.0 65.5 L449.0 54.5 Z" style="fill:var(--fig-blue)"/>
+  <text x="472.0" y="65.0" text-anchor="start" class="sbl-lbl sbl-b">중력</text>
+  <text x="472.0" y="85.0" text-anchor="start" class="sbl-sm">별의 물질을 안쪽으로 끌어당긴다</text>
+  <line x1="420.0" y1="130.0" x2="449.0" y2="130.0" style="stroke:var(--fig-red);stroke-width:3;fill:none"/>
+  <path d="M460.0 130.0 L449.0 135.5 L449.0 124.5 Z" style="fill:var(--fig-red)"/>
+  <text x="472.0" y="135.0" text-anchor="start" class="sbl-lbl sbl-b">기체의 압력</text>
+  <text x="472.0" y="155.0" text-anchor="start" class="sbl-sm">핵융합으로 뜨거워진 기체가</text>
+  <text x="472.0" y="173.0" text-anchor="start" class="sbl-sm">바깥으로 밀어낸다</text>
+  <rect x="420" y="204" width="282" height="58" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="561.0" y="228.0" text-anchor="middle" class="sbl-lbl sbl-b">두 힘이 균형 → 크기가 일정</text>
+  <text x="561.0" y="249.0" text-anchor="middle" class="sbl-sm">= 주계열성 (별 일생의 대부분)</text>
+  <text x="220.0" y="304.0" text-anchor="middle" class="sbl-sm">모식도(크기 비율은 실제와 다름) · 중심부 약 1000만 K 이상</text>
+
+</svg>

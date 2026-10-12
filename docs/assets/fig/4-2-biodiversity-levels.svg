@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-4-2-biodiversity-levels d-4-2-biodiversity-levels">
+  <title id="t-4-2-biodiversity-levels">그림 4-2-2 생물다양성의 세 수준</title>
+  <desc id="d-4-2-biodiversity-levels">유전적 다양성은 같은 종(예: 아시아무당벌레) 안에서 개체마다 유전자가 달라 형질이 다양한 정도, 종 다양성은 한 지역에 사는 종의 수와 고르게 분포한 정도, 생태계 다양성은 숲·초원·강·갯벌·바다처럼 한 지역에 있는 생태계의 다양한 정도이다. 모식도.</desc>
+  <style>
+    .bd-h{font-size:15px;font-weight:600;fill:var(--fig-ink)} .bd-lbl{font-size:14px;fill:var(--fig-ink)}
+    .bd-sm{font-size:13px;fill:var(--fig-muted)} .bd-in{font-size:13px;fill:var(--fig-ink)}
+    .bd-panel{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2}
+    .bd-ink{fill:var(--fig-ink)} .bd-red{fill:var(--fig-red)} .bd-amb{fill:var(--fig-amber)}
+    .bd-shell{stroke:var(--fig-ink);stroke-width:1.2}
+    .bd-arr{stroke:var(--fig-muted);stroke-width:2;fill:none} .bd-arrh{fill:var(--fig-muted)}
+  </style>
+  <circle cx="28" cy="31" r="6" style="fill:var(--fig-red)"/><text x="40" y="36" class="bd-h">유전적 다양성</text>
+  <rect x="20" y="48" width="220" height="200" rx="8" class="bd-panel"/>
+  <circle cx="258" cy="31" r="6" style="fill:var(--fig-green)"/><text x="270" y="36" class="bd-h">종 다양성</text>
+  <rect x="250" y="48" width="220" height="200" rx="8" class="bd-panel"/>
+  <circle cx="488" cy="31" r="6" style="fill:var(--fig-blue)"/><text x="500" y="36" class="bd-h">생태계 다양성</text>
+  <rect x="480" y="48" width="220" height="200" rx="8" class="bd-panel"/>
+  <ellipse cx="75" cy="110" rx="21" ry="25" class="bd-red bd-shell"/><path d="M63 89 Q75 72 87 89 Z" class="bd-ink"/><path d="M75 88 V135" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/><circle cx="65" cy="102" r="3.2" class="bd-ink"/><circle cx="85" cy="102" r="3.2" class="bd-ink"/><circle cx="62" cy="114" r="3.2" class="bd-ink"/><circle cx="88" cy="114" r="3.2" class="bd-ink"/><circle cx="68" cy="124" r="3" class="bd-ink"/><circle cx="82" cy="124" r="3" class="bd-ink"/><circle cx="61" cy="94" r="2.4" class="bd-ink"/><circle cx="89" cy="94" r="2.4" class="bd-ink"/>
+  <ellipse cx="130" cy="110" rx="21" ry="25" class="bd-amb bd-shell"/><path d="M118 89 Q130 72 142 89 Z" class="bd-ink"/><path d="M130 88 V135" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/>
+  <ellipse cx="185" cy="110" rx="21" ry="25" class="bd-red bd-shell"/><path d="M173 89 Q185 72 197 89 Z" class="bd-ink"/><path d="M185 88 V135" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/><circle cx="175" cy="104" r="4" class="bd-ink"/><circle cx="195" cy="104" r="4" class="bd-ink"/><circle cx="176" cy="120" r="4" class="bd-ink"/><circle cx="194" cy="120" r="4" class="bd-ink"/>
+  <ellipse cx="75" cy="180" rx="21" ry="25" class="bd-ink bd-shell"/><path d="M63 159 Q75 142 87 159 Z" class="bd-ink"/><path d="M75 158 V205" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/><circle cx="65" cy="180" r="5.5" class="bd-red"/><circle cx="85" cy="180" r="5.5" class="bd-red"/>
+  <ellipse cx="130" cy="180" rx="21" ry="25" class="bd-amb bd-shell"/><path d="M118 159 Q130 142 142 159 Z" class="bd-ink"/><path d="M130 158 V205" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/><circle cx="121" cy="176" r="3.2" class="bd-ink"/><circle cx="139" cy="176" r="3.2" class="bd-ink"/><circle cx="124" cy="192" r="3" class="bd-ink"/><circle cx="136" cy="192" r="3" class="bd-ink"/>
+  <ellipse cx="185" cy="180" rx="21" ry="25" class="bd-ink bd-shell"/><path d="M173 159 Q185 142 197 159 Z" class="bd-ink"/><path d="M185 158 V205" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/><circle cx="175" cy="174" r="4" class="bd-red"/><circle cx="195" cy="174" r="4" class="bd-red"/><circle cx="176" cy="190" r="4" class="bd-red"/><circle cx="194" cy="190" r="4" class="bd-red"/>
+  <text x="130" y="236" text-anchor="middle" class="bd-in">모두 같은 종(아시아무당벌레)</text>
+  <path d="M260 210 H460" style="stroke:var(--fig-line);stroke-width:1.5;fill:none"/>
+  <rect x="290" y="160" width="8" height="50" style="fill:var(--fig-soft-amber);stroke:var(--fig-muted);stroke-width:1"/><circle cx="294" cy="146" r="24" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <path d="M342 210 V184" style="stroke:var(--fig-green);stroke-width:2;fill:none"/>
+  <circle cx="348.0" cy="180.0" r="4.5" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2"/>
+  <circle cx="343.9" cy="185.7" r="4.5" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2"/>
+  <circle cx="337.1" cy="183.5" r="4.5" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2"/>
+  <circle cx="337.1" cy="176.5" r="4.5" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2"/>
+  <circle cx="343.9" cy="174.3" r="4.5" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2"/>
+  <circle cx="342" cy="180" r="3" style="fill:var(--fig-amber)"/>
+  <path d="M362 210 V184" style="stroke:var(--fig-green);stroke-width:2;fill:none"/>
+  <circle cx="368.0" cy="180.0" r="4.5" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2"/>
+  <circle cx="363.9" cy="185.7" r="4.5" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2"/>
+  <circle cx="357.1" cy="183.5" r="4.5" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2"/>
+  <circle cx="357.1" cy="176.5" r="4.5" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2"/>
+  <circle cx="363.9" cy="174.3" r="4.5" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2"/>
+  <circle cx="362" cy="180" r="3" style="fill:var(--fig-amber)"/>
+  <rect x="413" y="194" width="8" height="16" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2"/><path d="M403 196 Q417 172 431 196 Z" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <ellipse cx="390" cy="202" rx="13" ry="8" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/><circle cx="384" cy="193" r="3.5" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.2"/><circle cx="396" cy="193" r="3.5" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.2"/>
+  <path d="M400 120 q-16 -16 -18 -2 q2 10 18 2 Z M400 120 q16 -16 18 -2 q-2 10 -18 2 Z M400 120 q-12 8 -10 14 q6 2 10 -14 Z M400 120 q12 8 10 14 q-6 2 -10 -14 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.4"/>
+  <path d="M340 90 q10 -10 20 0 q10 -10 20 0" style="fill:none;stroke:var(--fig-blue);stroke-width:2.2;stroke-linecap:round"/>
+  <path d="M410 70 q7 -7 14 0 q7 -7 14 0" style="fill:none;stroke:var(--fig-blue);stroke-width:2;stroke-linecap:round"/>
+  <text x="360" y="236" text-anchor="middle" class="bd-in">한 지역에 사는 여러 종</text>
+  <path d="M481 49 H699 V200 H481 Z" style="fill:var(--fig-soft-green);stroke:none"/>
+  <path d="M640 49 Q630 130 650 200 H699 V49 Z" style="fill:var(--fig-soft-blue);stroke:none"/>
+  <path d="M608 49 Q600 130 622 200 H650 Q630 130 640 49 Z" style="fill:var(--fig-soft-amber);stroke:none"/>
+  <path d="M502 88 l9 18 h-18 z" style="fill:var(--fig-green);stroke:none"/>
+  <path d="M524 80 l9 18 h-18 z" style="fill:var(--fig-green);stroke:none"/>
+  <path d="M546 90 l9 18 h-18 z" style="fill:var(--fig-green);stroke:none"/>
+  <path d="M512 108 l9 18 h-18 z" style="fill:var(--fig-green);stroke:none"/>
+  <path d="M536 112 l9 18 h-18 z" style="fill:var(--fig-green);stroke:none"/>
+  <path d="M506 170 l2 -7 M510 170 v-9 M514 170 l-2 -7" style="stroke:var(--fig-green);stroke-width:1.5;fill:none"/>
+  <path d="M528 182 l2 -7 M532 182 v-9 M536 182 l-2 -7" style="stroke:var(--fig-green);stroke-width:1.5;fill:none"/>
+  <path d="M550 166 l2 -7 M554 166 v-9 M558 166 l-2 -7" style="stroke:var(--fig-green);stroke-width:1.5;fill:none"/>
+  <path d="M516 192 l2 -7 M520 192 v-9 M524 192 l-2 -7" style="stroke:var(--fig-green);stroke-width:1.5;fill:none"/>
+  <path d="M568 186 l2 -7 M572 186 v-9 M576 186 l-2 -7" style="stroke:var(--fig-green);stroke-width:1.5;fill:none"/>
+  <path d="M550 49 C600 90 550 120 590 150 S600 190 620 200" style="fill:none;stroke:var(--fig-blue);stroke-width:7;stroke-linecap:round"/>
+  <path d="M481 200 H699 V247 H481 Z" style="fill:var(--fig-panel);stroke:none"/>
+  <rect x="480" y="48" width="220" height="200" rx="8" style="fill:none;stroke:var(--fig-line);stroke-width:1.2"/>
+  <text x="524" y="70" text-anchor="middle" class="bd-in" style="font-weight:600">숲</text>
+  <text x="540" y="154" text-anchor="middle" class="bd-in" style="font-weight:600">초원</text>
+  <text x="592" y="120" text-anchor="middle" class="bd-in" style="font-weight:600">강</text>
+  <text x="624" y="96" text-anchor="middle" class="bd-in" style="font-weight:600">갯벌</text>
+  <text x="676" y="140" text-anchor="middle" class="bd-in" style="font-weight:600">바다</text>
+  <text x="590" y="236" text-anchor="middle" class="bd-in">한 지역의 여러 생태계</text>
+  <text x="130" y="272" text-anchor="middle" class="bd-lbl">같은 종 안의 유전자 차이</text><text x="130" y="291" text-anchor="middle" class="bd-sm">예: 무당벌레 무늬, 벼 품종</text>
+  <text x="360" y="272" text-anchor="middle" class="bd-lbl">종의 수 + 고르게 분포한 정도</text><text x="360" y="291" text-anchor="middle" class="bd-sm">예: 열대 우림 &gt; 극지방</text>
+  <text x="590" y="272" text-anchor="middle" class="bd-lbl">생태계 종류의 다양한 정도</text><text x="590" y="291" text-anchor="middle" class="bd-sm">예: 산·강·갯벌·바다가 고루 있음</text>
+  <path d="M40 316 H668" class="bd-arr"/><path d="M680 316 l-12 -6 v12 z" class="bd-arrh"/>
+  <rect x="226" y="306" width="268" height="20" style="fill:var(--fig-paper);stroke:none"/>
+  <text x="360" y="321" text-anchor="middle" class="bd-sm">유전자 → 종 → 생태계, 보는 범위가 넓어진다</text>
+  </svg>

@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="t-6-1-rapid-antigen-test d-6-1-rapid-antigen-test">
+  <title id="t-6-1-rapid-antigen-test">그림 6-1-2 신속항원검사 키트의 구조와 결과 읽기</title>
+  <desc id="d-6-1-rapid-antigen-test">검체 용액이 시료 패드에서 흡수 패드 쪽으로 스며 이동하는 동안, 항원이 있으면 색 입자 항체와 함께 T선에 붙잡혀 색 띠가 생긴다. C선은 액체가 잘 흘렀다면 항상 나타난다. 분자 부분은 모식도(크기 비율은 실제와 다름)이다.</desc>
+  <style>
+    .f61rat-lbl{font-size:14px;fill:var(--fig-ink);font-weight:600}
+    .f61rat-tx{font-size:13px;fill:var(--fig-ink)}
+    .f61rat-sm{font-size:12px;fill:var(--fig-muted)}
+    .f61rat-ab{fill:none;stroke:var(--fig-ink);stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+    .f61rat-ag{fill:var(--fig-violet)}
+    .f61rat-dot{fill:var(--fig-red)}
+    .f61rat-cap{fill:none;stroke:var(--fig-teal);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .f61rat-base{stroke:var(--fig-line);stroke-width:2}
+  </style>
+  <defs>
+    <g id="f61rat-y"><path class="f61rat-ab" d="M0 0 V-10 M0 -10 L-7 -19 M0 -10 L7 -19"/></g>
+    <g id="f61rat-cab"><path class="f61rat-ab" d="M0 0 V-10 M0 -10 L-7 -19 M0 -10 L7 -19"/><circle cx="0" cy="4" r="5" class="f61rat-dot"/></g>
+    <g id="f61rat-cabd"><path class="f61rat-ab" d="M0 0 V10 M0 10 L-7 19 M0 10 L7 19"/><circle cx="0" cy="-4" r="5" class="f61rat-dot"/></g>
+    <g id="f61rat-agn"><path class="f61rat-ag" d="M0 -5 L5 0 L0 5 L-5 0 Z"/></g>
+  </defs>
+
+  <!-- ① 검사 띠 -->
+  <text x="24" y="24" class="f61rat-lbl">검사 띠의 구조</text>
+  <text x="140" y="24" class="f61rat-sm">(위에서 본 모습, 검체 용액은 왼쪽 끝에 떨어뜨린다)</text>
+  <text x="87" y="66" text-anchor="middle" class="f61rat-tx">① 시료 패드</text>
+  <text x="206" y="66" text-anchor="middle" class="f61rat-tx">② 결합 패드</text>
+  <text x="360" y="66" text-anchor="middle" class="f61rat-tx">③ T선(검사선)</text>
+  <text x="470" y="66" text-anchor="middle" class="f61rat-tx">④ C선(대조선)</text>
+  <text x="631" y="66" text-anchor="middle" class="f61rat-tx">⑤ 흡수 패드</text>
+  <rect x="24" y="78" width="126" height="34" rx="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <rect x="150" y="78" width="112" height="34" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <rect x="262" y="78" width="304" height="34" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="566" y="78" width="130" height="34" rx="6" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <rect x="355" y="80" width="10" height="30" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5;stroke-dasharray:3 2"/>
+  <rect x="465" y="80" width="10" height="30" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5;stroke-dasharray:3 2"/>
+  <circle cx="87" cy="95" r="7" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <line x1="40" y1="128" x2="672" y2="128" style="stroke:var(--fig-accent);stroke-width:2.5"/>
+  <path d="M684 128 l-14 -7 v14 z" style="fill:var(--fig-accent)"/>
+  <text x="360" y="148" text-anchor="middle" class="f61rat-sm">액체가 한 방향으로 스며 이동한다(측면 흐름) →</text>
+
+  <!-- ② 분자 수준 확대 -->
+  <rect x="16" y="160" width="688" height="168" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1;stroke-dasharray:5 4"/>
+  <text x="28" y="180" class="f61rat-sm">분자 수준으로 확대한 모식도(항원이 있을 때)</text>
+  <!-- 시료 패드: 검체 속 항원 -->
+  <path d="M87 196 C 100 214 112 228 112 242 A 25 25 0 0 1 62 242 C 62 228 74 214 87 196 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <use href="#f61rat-agn" x="78" y="236"/><use href="#f61rat-agn" x="96" y="246"/><use href="#f61rat-agn" x="84" y="256"/>
+  <text x="87" y="290" text-anchor="middle" class="f61rat-tx">검체 속 항원</text>
+  <text x="87" y="307" text-anchor="middle" class="f61rat-sm">(바이러스 단백질)</text>
+  <!-- 결합 패드: 색 입자 항체가 항원과 결합 -->
+  <use href="#f61rat-cab" x="186" y="256"/>
+  <use href="#f61rat-cab" x="222" y="256"/>
+  <use href="#f61rat-agn" x="222" y="232"/>
+  <text x="206" y="290" text-anchor="middle" class="f61rat-tx">색 입자 항체가</text>
+  <text x="206" y="307" text-anchor="middle" class="f61rat-tx">항원과 결합</text>
+  <!-- T선: 고정 항체 – 항원 – 색 입자 항체 -->
+  <line x1="318" y1="268" x2="402" y2="268" class="f61rat-base"/>
+  <use href="#f61rat-y" x="360" y="268"/>
+  <use href="#f61rat-agn" x="360" y="244"/>
+  <use href="#f61rat-cabd" x="360" y="220"/>
+  <text x="350" y="220" text-anchor="end" class="f61rat-sm">색 입자</text>
+  <text x="371" y="262" class="f61rat-sm">고정 항체</text>
+  <text x="360" y="290" text-anchor="middle" class="f61rat-tx">덩어리가 붙잡혀</text>
+  <text x="360" y="307" text-anchor="middle" class="f61rat-tx">색 띠가 생긴다</text>
+  <!-- C선: 색 입자 항체를 붙잡는 물질 -->
+  <line x1="428" y1="268" x2="512" y2="268" class="f61rat-base"/>
+  <path class="f61rat-cap" d="M458 246 V268 H482 V246"/>
+  <circle cx="470" cy="252" r="5" class="f61rat-dot"/>
+  <use href="#f61rat-y" x="470" y="246"/>
+  <text x="488" y="250" class="f61rat-sm">붙잡는 물질</text>
+  <text x="470" y="290" text-anchor="middle" class="f61rat-tx">항원이 없어도</text>
+  <text x="470" y="307" text-anchor="middle" class="f61rat-tx">항상 색 띠</text>
+  <!-- 흡수 패드 -->
+  <path d="M606 220 q12 -10 25 0 t25 0 M606 236 q12 -10 25 0 t25 0" style="fill:none;stroke:var(--fig-teal);stroke-width:2"/>
+  <text x="631" y="290" text-anchor="middle" class="f61rat-tx">남은 액체를 빨아</text>
+  <text x="631" y="307" text-anchor="middle" class="f61rat-tx">흐름을 유지</text>
+
+  <!-- 범례 -->
+  <use href="#f61rat-agn" x="250" y="346"/><text x="260" y="351" class="f61rat-sm">항원</text>
+  <use href="#f61rat-y" x="312" y="356"/><text x="324" y="351" class="f61rat-sm">항체</text>
+  <circle cx="378" cy="346" r="5" class="f61rat-dot"/><text x="388" y="351" class="f61rat-sm">색 입자</text>
+
+  <!-- ③ 결과 읽기 -->
+  <g>
+    <rect x="45" y="370" width="170" height="56" rx="12" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5"/>
+    <rect x="80" y="380" width="100" height="24" rx="4" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+    <rect x="147" y="383" width="6" height="18" class="f61rat-dot"/>
+    <text x="110" y="419" text-anchor="middle" class="f61rat-sm">T</text><text x="150" y="419" text-anchor="middle" class="f61rat-sm">C</text>
+    <text x="130" y="448" text-anchor="middle" class="f61rat-lbl" style="fill:var(--fig-green)">음성</text>
+    <text x="130" y="467" text-anchor="middle" class="f61rat-tx">C선만 나타남</text>
+  </g>
+  <g>
+    <rect x="275" y="370" width="170" height="56" rx="12" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5"/>
+    <rect x="310" y="380" width="100" height="24" rx="4" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+    <rect x="337" y="383" width="6" height="18" class="f61rat-dot" style="opacity:0.5"/>
+    <rect x="377" y="383" width="6" height="18" class="f61rat-dot"/>
+    <text x="340" y="419" text-anchor="middle" class="f61rat-sm">T</text><text x="380" y="419" text-anchor="middle" class="f61rat-sm">C</text>
+    <text x="360" y="448" text-anchor="middle" class="f61rat-lbl" style="fill:var(--fig-red)">양성</text>
+    <text x="360" y="467" text-anchor="middle" class="f61rat-tx">C선 + T선(T선이 흐려도 양성)</text>
+  </g>
+  <g>
+    <rect x="505" y="370" width="170" height="56" rx="12" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5"/>
+    <rect x="540" y="380" width="100" height="24" rx="4" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+    <rect x="567" y="383" width="6" height="18" class="f61rat-dot"/>
+    <text x="570" y="419" text-anchor="middle" class="f61rat-sm">T</text><text x="610" y="419" text-anchor="middle" class="f61rat-sm">C</text>
+    <text x="590" y="448" text-anchor="middle" class="f61rat-lbl" style="fill:var(--fig-amber)">무효</text>
+    <text x="590" y="467" text-anchor="middle" class="f61rat-tx">C선이 없음 → 다시 검사</text>
+  </g>
+</svg>

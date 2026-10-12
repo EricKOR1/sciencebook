@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 326" role="img" aria-labelledby="t-1-2-celsius-kelvin d-1-2-celsius-kelvin">
+  <title id="t-1-2-celsius-kelvin">그림 1-2-1 섭씨온도와 절대 온도(켈빈)</title>
+  <desc id="d-1-2-celsius-kelvin">두 눈금은 한 칸의 크기가 같고, 0의 위치만 273.15만큼 다르다. 켈빈 눈금은 절대 영도를 0으로 잡으므로 음수가 없다.</desc>
+  <style>
+    .ck12-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .ck12-txt{font-size:14px;fill:var(--fig-ink)}
+    .ck12-num{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .ck12-sm{font-size:13px;fill:var(--fig-muted)}
+    .ck12-dash{stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:5 4;fill:none}
+    .ck12-col{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.5}
+  </style>
+  <text x="300" y="30" text-anchor="middle" class="ck12-lbl">섭씨온도 (°C)</text>
+  <text x="460" y="30" text-anchor="middle" class="ck12-lbl">절대 온도 (K)</text>
+  <rect x="289" y="44" width="22" height="248" rx="11" class="ck12-col"/>
+  <rect x="449" y="44" width="22" height="248" rx="11" class="ck12-col"/>
+  <rect x="295" y="103.1" width="10" height="182.9" rx="5" style="fill:var(--fig-red)"/>
+  <rect x="455" y="103.1" width="10" height="182.9" rx="5" style="fill:var(--fig-red)"/>
+  <line x1="40" y1="66.0" x2="550" y2="66.0" class="ck12-dash"/>
+  <line x1="289" y1="66.0" x2="311" y2="66.0" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <line x1="449" y1="66.0" x2="471" y2="66.0" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <rect x="36" y="50.0" width="126" height="20" style="fill:var(--fig-paper)"/>
+  <text x="40" y="64.0" class="ck12-txt">물이 끓는 온도</text>
+  <rect x="200" y="50.0" width="84" height="20" style="fill:var(--fig-paper)"/>
+  <text x="282" y="64.0" text-anchor="end" class="ck12-num">100 °C</text>
+  <rect x="476" y="50.0" width="84" height="20" style="fill:var(--fig-paper)"/>
+  <text x="478" y="64.0" class="ck12-num">373.15 K</text>
+  <line x1="40" y1="103.1" x2="550" y2="103.1" class="ck12-dash"/>
+  <line x1="289" y1="103.1" x2="311" y2="103.1" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <line x1="449" y1="103.1" x2="471" y2="103.1" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <rect x="36" y="87.1" width="42" height="20" style="fill:var(--fig-paper)"/>
+  <text x="40" y="101.1" class="ck12-txt">체온</text>
+  <rect x="200" y="87.1" width="84" height="20" style="fill:var(--fig-paper)"/>
+  <text x="282" y="101.1" text-anchor="end" class="ck12-num">36.5 °C</text>
+  <rect x="476" y="87.1" width="84" height="20" style="fill:var(--fig-paper)"/>
+  <text x="478" y="101.1" class="ck12-num">309.65 K</text>
+  <line x1="40" y1="124.4" x2="550" y2="124.4" class="ck12-dash"/>
+  <line x1="289" y1="124.4" x2="311" y2="124.4" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <line x1="449" y1="124.4" x2="471" y2="124.4" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <rect x="36" y="108.4" width="126" height="20" style="fill:var(--fig-paper)"/>
+  <text x="40" y="122.4" class="ck12-txt">물이 어는 온도</text>
+  <rect x="200" y="108.4" width="84" height="20" style="fill:var(--fig-paper)"/>
+  <text x="282" y="122.4" text-anchor="end" class="ck12-num">0 °C</text>
+  <rect x="476" y="108.4" width="84" height="20" style="fill:var(--fig-paper)"/>
+  <text x="478" y="122.4" class="ck12-num">273.15 K</text>
+  <line x1="40" y1="284.0" x2="550" y2="284.0" class="ck12-dash"/>
+  <line x1="289" y1="284.0" x2="311" y2="284.0" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <line x1="449" y1="284.0" x2="471" y2="284.0" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <rect x="36" y="268.0" width="84" height="20" style="fill:var(--fig-paper)"/>
+  <text x="40" y="282.0" class="ck12-txt">절대 영도</text>
+  <rect x="200" y="268.0" width="84" height="20" style="fill:var(--fig-paper)"/>
+  <text x="282" y="282.0" text-anchor="end" class="ck12-num">−273.15 °C</text>
+  <rect x="476" y="268.0" width="84" height="20" style="fill:var(--fig-paper)"/>
+  <text x="478" y="282.0" class="ck12-num">0 K</text>
+  <line x1="324" y1="204.2" x2="434" y2="204.2" style="stroke:var(--fig-accent);stroke-width:2"/>
+  <path d="M440 204.2 l-10 -6 v12 z" style="fill:var(--fig-accent)"/>
+  <text x="380.0" y="196.2" text-anchor="middle" class="ck12-lbl" style="fill:var(--fig-accent)">+ 273.15</text>
+  <rect x="572" y="88" width="140" height="150" rx="10" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <text x="642" y="114" text-anchor="middle" class="ck12-lbl">눈금 한 칸은 같다</text>
+  <text x="642" y="140" text-anchor="middle" class="ck12-txt">1 °C 오르면</text>
+  <text x="642" y="160" text-anchor="middle" class="ck12-txt">1 K 오른다</text>
+  <text x="642" y="190" text-anchor="middle" class="ck12-sm">36.5 → 38.0 °C</text>
+  <text x="642" y="208" text-anchor="middle" class="ck12-sm">309.65 → 311.15 K</text>
+  <text x="642" y="226" text-anchor="middle" class="ck12-sm">변화량은 둘 다 1.5</text>
+  <text x="642" y="282.0" text-anchor="middle" class="ck12-sm">← 켈빈에는 음수가 없다</text>
+  <text x="380" y="316" text-anchor="middle" class="ck12-txt">T(K) = t(°C) + 273.15</text>
+</svg>

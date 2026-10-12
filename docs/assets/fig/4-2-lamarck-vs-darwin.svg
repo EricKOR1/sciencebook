@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img" aria-labelledby="t-4-2-lamarck-vs-darwin d-4-2-lamarck-vs-darwin">
+  <title id="t-4-2-lamarck-vs-darwin">그림 4-2-1 기린의 목으로 비교한 용불용설과 자연선택설</title>
+  <desc id="d-4-2-lamarck-vs-darwin">라마르크는 기린이 살면서 목을 늘였고 그 형질이 유전되었다고 보았지만, 살면서 얻은 형질은 유전되지 않는다. 자연선택설에서는 목 길이가 다양한 변이가 먼저 있고, 높은 잎만 남은 환경에서 목이 긴 개체가 더 많이 살아남아 자손을 남겨 여러 세대 뒤 목이 긴 개체의 비율이 높아진다. 모식도.</desc>
+  <style>
+    .ld-lbl{font-size:14px;fill:var(--fig-ink)} .ld-b{font-weight:600} .ld-h{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .ld-sm{font-size:13px;fill:var(--fig-muted)} .ld-red{font-size:13px;fill:var(--fig-red);font-weight:600} .ld-grn{font-size:13px;fill:var(--fig-green);font-weight:600}
+    .ld-leg{stroke:var(--fig-amber);stroke-width:3;stroke-linecap:round;fill:none}
+    .ld-neck-o{stroke:var(--fig-amber);stroke-width:8;stroke-linecap:round;fill:none}
+    .ld-neck-i{stroke:var(--fig-soft-amber);stroke-width:4;stroke-linecap:round;fill:none}
+    .ld-body{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6}
+    .ld-trunk{fill:var(--fig-soft-amber);stroke:var(--fig-muted);stroke-width:1.2}
+    .ld-leaf{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5}
+    .ld-ground{stroke:var(--fig-line);stroke-width:1.5;fill:none}
+    .ld-arr{stroke:var(--fig-muted);stroke-width:2;fill:none} .ld-arrh{fill:var(--fig-muted)}
+    .ld-x{stroke:var(--fig-red);stroke-width:3;stroke-linecap:round;fill:none}
+    .ld-dead{opacity:0.35}
+    .ld-ghost{stroke:var(--fig-amber);stroke-width:1.5;stroke-dasharray:3 3;fill:none}
+    .ld-up{stroke:var(--fig-blue);stroke-width:2;fill:none} .ld-uph{fill:var(--fig-blue)}
+  </style>
+  <text x="20" y="24" class="ld-h">(가) 라마르크의 용불용설 <tspan class="ld-sm" style="font-weight:400">— 오늘날 받아들여지지 않는 설명</tspan></text>
+  <path d="M20 168 H700" class="ld-ground"/>
+  <rect x="181" y="76" width="8" height="92" class="ld-trunk"/><ellipse cx="185" cy="68" rx="30" ry="16" class="ld-leaf"/>
+  <g transform="translate(95 168) scale(1.0)"><path d="M-14 -24 V0" class="ld-leg"/><path d="M-8 -24 V0" class="ld-leg"/><path d="M8 -24 V0" class="ld-leg"/><path d="M14 -24 V0" class="ld-leg"/><path d="M14 -34 L20 -56" class="ld-neck-o"/><path d="M14 -34 L20 -56" class="ld-neck-i"/><ellipse cx="0" cy="-30" rx="20" ry="9" class="ld-body"/><path d="M-19 -33 l-6 9" class="ld-leg"/><ellipse cx="27" cy="-59" rx="9" ry="4.5" class="ld-body"/><path d="M21 -63 l-1 -6 M24 -63 l0 -6" class="ld-leg" style="stroke-width:2"/></g>
+  <rect x="421" y="76" width="8" height="92" class="ld-trunk"/><ellipse cx="425" cy="68" rx="30" ry="16" class="ld-leaf"/>
+  <path d="M349 134 L355 112" class="ld-ghost"/>
+  <g transform="translate(335 168) scale(1.0)"><path d="M-14 -24 V0" class="ld-leg"/><path d="M-8 -24 V0" class="ld-leg"/><path d="M8 -24 V0" class="ld-leg"/><path d="M14 -24 V0" class="ld-leg"/><path d="M14 -34 L20 -86" class="ld-neck-o"/><path d="M14 -34 L20 -86" class="ld-neck-i"/><ellipse cx="0" cy="-30" rx="20" ry="9" class="ld-body"/><path d="M-19 -33 l-6 9" class="ld-leg"/><ellipse cx="27" cy="-89" rx="9" ry="4.5" class="ld-body"/><path d="M21 -93 l-1 -6 M24 -93 l0 -6" class="ld-leg" style="stroke-width:2"/></g>
+  <path d="M378 98 V68" class="ld-up"/><path d="M378 62 l-5 8 h10 z" class="ld-uph"/>
+  <g transform="translate(570 168) scale(1.0)"><path d="M-14 -24 V0" class="ld-leg"/><path d="M-8 -24 V0" class="ld-leg"/><path d="M8 -24 V0" class="ld-leg"/><path d="M14 -24 V0" class="ld-leg"/><path d="M14 -34 L20 -86" class="ld-neck-o"/><path d="M14 -34 L20 -86" class="ld-neck-i"/><ellipse cx="0" cy="-30" rx="20" ry="9" class="ld-body"/><path d="M-19 -33 l-6 9" class="ld-leg"/><ellipse cx="27" cy="-89" rx="9" ry="4.5" class="ld-body"/><path d="M21 -93 l-1 -6 M24 -93 l0 -6" class="ld-leg" style="stroke-width:2"/></g>
+  <g transform="translate(640 168) scale(0.6)"><path d="M-14 -24 V0" class="ld-leg"/><path d="M-8 -24 V0" class="ld-leg"/><path d="M8 -24 V0" class="ld-leg"/><path d="M14 -24 V0" class="ld-leg"/><path d="M14 -34 L20 -86" class="ld-neck-o"/><path d="M14 -34 L20 -86" class="ld-neck-i"/><ellipse cx="0" cy="-30" rx="20" ry="9" class="ld-body"/><path d="M-19 -33 l-6 9" class="ld-leg"/><ellipse cx="27" cy="-89" rx="9" ry="4.5" class="ld-body"/><path d="M21 -93 l-1 -6 M24 -93 l0 -6" class="ld-leg" style="stroke-width:2"/></g>
+  <path d="M226 110 H248" class="ld-arr"/><path d="M254 110 l-9 -6 v12 z" class="ld-arrh"/>
+  <path d="M466 110 H488" class="ld-arr"/><path d="M494 110 l-9 -6 v12 z" class="ld-arrh"/>
+  <text x="120" y="190" text-anchor="middle" class="ld-lbl">목이 짧은 조상 기린</text>
+  <text x="120" y="208" text-anchor="middle" class="ld-sm">높은 곳의 잎을 먹으려 한다</text>
+  <text x="360" y="190" text-anchor="middle" class="ld-lbl">애써 목을 늘이다 보니</text>
+  <text x="360" y="208" text-anchor="middle" class="ld-sm">살면서 목이 길어졌다고 봄</text>
+  <text x="600" y="190" text-anchor="middle" class="ld-lbl">늘어난 목이 자손에게 유전된다고 봄</text>
+  <text x="600" y="208" text-anchor="middle" class="ld-red">✗ 살면서 얻은 형질은 유전되지 않는다</text>
+  <path d="M20 228 H700" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:2 4;fill:none"/>
+  <text x="20" y="256" class="ld-h">(나) 다윈의 자연선택설 <tspan class="ld-sm" style="font-weight:400">— 이미 있던 변이 중에서 환경이 고른다</tspan></text>
+  <path d="M20 384 H700" class="ld-ground"/>
+  <g transform="translate(40 384) scale(0.78)"><path d="M-14 -24 V0" class="ld-leg"/><path d="M-8 -24 V0" class="ld-leg"/><path d="M8 -24 V0" class="ld-leg"/><path d="M14 -24 V0" class="ld-leg"/><path d="M14 -34 L20 -56" class="ld-neck-o"/><path d="M14 -34 L20 -56" class="ld-neck-i"/><ellipse cx="0" cy="-30" rx="20" ry="9" class="ld-body"/><path d="M-19 -33 l-6 9" class="ld-leg"/><ellipse cx="27" cy="-59" rx="9" ry="4.5" class="ld-body"/><path d="M21 -63 l-1 -6 M24 -63 l0 -6" class="ld-leg" style="stroke-width:2"/></g>
+  <g transform="translate(90 384) scale(0.78)"><path d="M-14 -24 V0" class="ld-leg"/><path d="M-8 -24 V0" class="ld-leg"/><path d="M8 -24 V0" class="ld-leg"/><path d="M14 -24 V0" class="ld-leg"/><path d="M14 -34 L20 -80" class="ld-neck-o"/><path d="M14 -34 L20 -80" class="ld-neck-i"/><ellipse cx="0" cy="-30" rx="20" ry="9" class="ld-body"/><path d="M-19 -33 l-6 9" class="ld-leg"/><ellipse cx="27" cy="-83" rx="9" ry="4.5" class="ld-body"/><path d="M21 -87 l-1 -6 M24 -87 l0 -6" class="ld-leg" style="stroke-width:2"/></g>
+  <g transform="translate(140 384) scale(0.78)"><path d="M-14 -24 V0" class="ld-leg"/><path d="M-8 -24 V0" class="ld-leg"/><path d="M8 -24 V0" class="ld-leg"/><path d="M14 -24 V0" class="ld-leg"/><path d="M14 -34 L20 -64" class="ld-neck-o"/><path d="M14 -34 L20 -64" class="ld-neck-i"/><ellipse cx="0" cy="-30" rx="20" ry="9" class="ld-body"/><path d="M-19 -33 l-6 9" class="ld-leg"/><ellipse cx="27" cy="-67" rx="9" ry="4.5" class="ld-body"/><path d="M21 -71 l-1 -6 M24 -71 l0 -6" class="ld-leg" style="stroke-width:2"/></g>
+  <g transform="translate(188 384) scale(0.78)"><path d="M-14 -24 V0" class="ld-leg"/><path d="M-8 -24 V0" class="ld-leg"/><path d="M8 -24 V0" class="ld-leg"/><path d="M14 -24 V0" class="ld-leg"/><path d="M14 -34 L20 -72" class="ld-neck-o"/><path d="M14 -34 L20 -72" class="ld-neck-i"/><ellipse cx="0" cy="-30" rx="20" ry="9" class="ld-body"/><path d="M-19 -33 l-6 9" class="ld-leg"/><ellipse cx="27" cy="-75" rx="9" ry="4.5" class="ld-body"/><path d="M21 -79 l-1 -6 M24 -79 l0 -6" class="ld-leg" style="stroke-width:2"/></g>
+  <rect x="454" y="292" width="8" height="92" class="ld-trunk"/><ellipse cx="458" cy="284" rx="30" ry="16" class="ld-leaf"/>
+  <g transform="translate(268 384) scale(0.78)" class="ld-dead"><path d="M-14 -24 V0" class="ld-leg"/><path d="M-8 -24 V0" class="ld-leg"/><path d="M8 -24 V0" class="ld-leg"/><path d="M14 -24 V0" class="ld-leg"/><path d="M14 -34 L20 -56" class="ld-neck-o"/><path d="M14 -34 L20 -56" class="ld-neck-i"/><ellipse cx="0" cy="-30" rx="20" ry="9" class="ld-body"/><path d="M-19 -33 l-6 9" class="ld-leg"/><ellipse cx="27" cy="-59" rx="9" ry="4.5" class="ld-body"/><path d="M21 -63 l-1 -6 M24 -63 l0 -6" class="ld-leg" style="stroke-width:2"/></g>
+  <path d="M264 346 L280 362 M280 346 L264 362" class="ld-x"/>
+  <g transform="translate(310 384) scale(0.78)"><path d="M-14 -24 V0" class="ld-leg"/><path d="M-8 -24 V0" class="ld-leg"/><path d="M8 -24 V0" class="ld-leg"/><path d="M14 -24 V0" class="ld-leg"/><path d="M14 -34 L20 -80" class="ld-neck-o"/><path d="M14 -34 L20 -80" class="ld-neck-i"/><ellipse cx="0" cy="-30" rx="20" ry="9" class="ld-body"/><path d="M-19 -33 l-6 9" class="ld-leg"/><ellipse cx="27" cy="-83" rx="9" ry="4.5" class="ld-body"/><path d="M21 -87 l-1 -6 M24 -87 l0 -6" class="ld-leg" style="stroke-width:2"/></g>
+  <g transform="translate(354 384) scale(0.78)" class="ld-dead"><path d="M-14 -24 V0" class="ld-leg"/><path d="M-8 -24 V0" class="ld-leg"/><path d="M8 -24 V0" class="ld-leg"/><path d="M14 -24 V0" class="ld-leg"/><path d="M14 -34 L20 -64" class="ld-neck-o"/><path d="M14 -34 L20 -64" class="ld-neck-i"/><ellipse cx="0" cy="-30" rx="20" ry="9" class="ld-body"/><path d="M-19 -33 l-6 9" class="ld-leg"/><ellipse cx="27" cy="-67" rx="9" ry="4.5" class="ld-body"/><path d="M21 -71 l-1 -6 M24 -71 l0 -6" class="ld-leg" style="stroke-width:2"/></g>
+  <path d="M350 346 L366 362 M366 346 L350 362" class="ld-x"/>
+  <g transform="translate(400 384) scale(0.78)"><path d="M-14 -24 V0" class="ld-leg"/><path d="M-8 -24 V0" class="ld-leg"/><path d="M8 -24 V0" class="ld-leg"/><path d="M14 -24 V0" class="ld-leg"/><path d="M14 -34 L20 -72" class="ld-neck-o"/><path d="M14 -34 L20 -72" class="ld-neck-i"/><ellipse cx="0" cy="-30" rx="20" ry="9" class="ld-body"/><path d="M-19 -33 l-6 9" class="ld-leg"/><ellipse cx="27" cy="-75" rx="9" ry="4.5" class="ld-body"/><path d="M21 -79 l-1 -6 M24 -79 l0 -6" class="ld-leg" style="stroke-width:2"/></g>
+  <g transform="translate(520 384) scale(0.78)"><path d="M-14 -24 V0" class="ld-leg"/><path d="M-8 -24 V0" class="ld-leg"/><path d="M8 -24 V0" class="ld-leg"/><path d="M14 -24 V0" class="ld-leg"/><path d="M14 -34 L20 -80" class="ld-neck-o"/><path d="M14 -34 L20 -80" class="ld-neck-i"/><ellipse cx="0" cy="-30" rx="20" ry="9" class="ld-body"/><path d="M-19 -33 l-6 9" class="ld-leg"/><ellipse cx="27" cy="-83" rx="9" ry="4.5" class="ld-body"/><path d="M21 -87 l-1 -6 M24 -87 l0 -6" class="ld-leg" style="stroke-width:2"/></g>
+  <g transform="translate(570 384) scale(0.78)"><path d="M-14 -24 V0" class="ld-leg"/><path d="M-8 -24 V0" class="ld-leg"/><path d="M8 -24 V0" class="ld-leg"/><path d="M14 -24 V0" class="ld-leg"/><path d="M14 -34 L20 -72" class="ld-neck-o"/><path d="M14 -34 L20 -72" class="ld-neck-i"/><ellipse cx="0" cy="-30" rx="20" ry="9" class="ld-body"/><path d="M-19 -33 l-6 9" class="ld-leg"/><ellipse cx="27" cy="-75" rx="9" ry="4.5" class="ld-body"/><path d="M21 -79 l-1 -6 M24 -79 l0 -6" class="ld-leg" style="stroke-width:2"/></g>
+  <g transform="translate(620 384) scale(0.78)"><path d="M-14 -24 V0" class="ld-leg"/><path d="M-8 -24 V0" class="ld-leg"/><path d="M8 -24 V0" class="ld-leg"/><path d="M14 -24 V0" class="ld-leg"/><path d="M14 -34 L20 -84" class="ld-neck-o"/><path d="M14 -34 L20 -84" class="ld-neck-i"/><ellipse cx="0" cy="-30" rx="20" ry="9" class="ld-body"/><path d="M-19 -33 l-6 9" class="ld-leg"/><ellipse cx="27" cy="-87" rx="9" ry="4.5" class="ld-body"/><path d="M21 -91 l-1 -6 M24 -91 l0 -6" class="ld-leg" style="stroke-width:2"/></g>
+  <g transform="translate(668 384) scale(0.78)"><path d="M-14 -24 V0" class="ld-leg"/><path d="M-8 -24 V0" class="ld-leg"/><path d="M8 -24 V0" class="ld-leg"/><path d="M14 -24 V0" class="ld-leg"/><path d="M14 -34 L20 -64" class="ld-neck-o"/><path d="M14 -34 L20 -64" class="ld-neck-i"/><ellipse cx="0" cy="-30" rx="20" ry="9" class="ld-body"/><path d="M-19 -33 l-6 9" class="ld-leg"/><ellipse cx="27" cy="-67" rx="9" ry="4.5" class="ld-body"/><path d="M21 -71 l-1 -6 M24 -71 l0 -6" class="ld-leg" style="stroke-width:2"/></g>
+  <path d="M226 330 H248" class="ld-arr"/><path d="M254 330 l-9 -6 v12 z" class="ld-arrh"/>
+  <path d="M466 330 H488" class="ld-arr"/><path d="M494 330 l-9 -6 v12 z" class="ld-arrh"/>
+  <text x="120" y="406" text-anchor="middle" class="ld-lbl">목 길이가 제각각인 자손</text>
+  <text x="120" y="424" text-anchor="middle" class="ld-sm">유전적 변이가 먼저 있다</text>
+  <text x="360" y="406" text-anchor="middle" class="ld-lbl">높은 잎만 남으면</text>
+  <text x="360" y="424" text-anchor="middle" class="ld-sm">목이 긴 개체가 더 많이 살아남아 번식</text>
+  <text x="600" y="406" text-anchor="middle" class="ld-lbl">여러 세대 뒤</text>
+  <text x="600" y="424" text-anchor="middle" class="ld-grn">목이 긴 개체의 비율이 높아짐(진화)</text>
+  </svg>
