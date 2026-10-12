@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 392" role="img" aria-labelledby="t-4-5-heat-products d-4-5-heat-products">
+  <title id="t-4-5-heat-products">그림 4-5-3 손난로·발열 도시락·냉각 팩의 원리</title>
+  <desc id="d-4-5-heat-products">일회용 손난로는 철 가루가 산소와 반응(산화)하며, 발열 도시락은 산화 칼슘이 물과 반응하며 열을 방출한다. 냉각 팩은 질산 암모늄이 물에 녹으며 주위에서 열을 흡수한다. 모식도(크기 비율은 실제와 다름).</desc>
+  <style>
+    .hp-panel{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.5}
+    .hp-h{font-size:16px;font-weight:700;fill:var(--fig-ink)}
+    .hp-tag-r{font-size:13.5px;font-weight:700;fill:var(--fig-red)}
+    .hp-tag-b{font-size:13.5px;font-weight:700;fill:var(--fig-blue)}
+    .hp-lbl{font-size:14px;fill:var(--fig-ink)}
+    .hp-sm{font-size:12.5px;fill:var(--fig-muted)}
+    .hp-eq{font-size:13.5px;font-weight:600;fill:var(--fig-ink)}
+    .hp-pouch{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2;stroke-dasharray:2 3}
+    .hp-fe{fill:var(--fig-muted)}
+    .hp-o2{font-size:12.5px;font-weight:700;fill:var(--fig-teal)}
+    .hp-o2-l{stroke:var(--fig-teal);stroke-width:1.8;fill:none}
+    .hp-o2-h{fill:var(--fig-teal)}
+    .hp-heat-r{fill:none;stroke:var(--fig-red);stroke-width:2.5;stroke-linecap:round}
+    .hp-heat-rh{fill:var(--fig-red)}
+    .hp-heat-b{fill:none;stroke:var(--fig-blue);stroke-width:2.5;stroke-linecap:round}
+    .hp-heat-bh{fill:var(--fig-blue)}
+    .hp-food{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5}
+    .hp-pack{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5}
+    .hp-box{fill:none;stroke:var(--fig-ink);stroke-width:2}
+    .hp-steam{fill:none;stroke:var(--fig-muted);stroke-width:2;stroke-linecap:round}
+    .hp-cool{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2}
+    .hp-bag{fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:4 3}
+    .hp-salt{fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1}
+    .hp-skin{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5}
+  </style>
+
+  <!-- ───── 1. 일회용 손난로 ───── -->
+  <rect x="10" y="10" width="226" height="372" rx="10" class="hp-panel"/>
+  <text x="123" y="38" text-anchor="middle" class="hp-h">일회용 손난로</text>
+  <text x="123" y="58" text-anchor="middle" class="hp-tag-r">열 방출</text>
+  <rect x="58" y="96" width="130" height="110" rx="14" class="hp-pouch"/>
+  <!-- 철 가루 -->
+  <circle cx="78" cy="118" r="3" class="hp-fe"/><circle cx="96" cy="130" r="3" class="hp-fe"/><circle cx="116" cy="114" r="3" class="hp-fe"/><circle cx="138" cy="126" r="3" class="hp-fe"/>
+  <circle cx="160" cy="116" r="3" class="hp-fe"/><circle cx="170" cy="140" r="3" class="hp-fe"/><circle cx="86" cy="150" r="3" class="hp-fe"/><circle cx="108" cy="160" r="3" class="hp-fe"/>
+  <circle cx="130" cy="150" r="3" class="hp-fe"/><circle cx="150" cy="164" r="3" class="hp-fe"/><circle cx="76" cy="182" r="3" class="hp-fe"/><circle cx="100" cy="190" r="3" class="hp-fe"/>
+  <circle cx="124" cy="182" r="3" class="hp-fe"/><circle cx="146" cy="192" r="3" class="hp-fe"/><circle cx="170" cy="180" r="3" class="hp-fe"/>
+  <text x="123" y="226" text-anchor="middle" class="hp-sm">철 가루·물·소금·활성탄</text>
+  <!-- 산소 들어옴 -->
+  <text x="34" y="84" class="hp-o2">O₂</text>
+  <path d="M46 90 L66 104" class="hp-o2-l"/><path d="M72 108 l-11 -2 l5 -8 z" class="hp-o2-h"/>
+  <text x="196" y="84" class="hp-o2">O₂</text>
+  <path d="M200 90 L182 104" class="hp-o2-l"/><path d="M176 108 l4 -10 l6 8 z" class="hp-o2-h"/>
+  <!-- 열 나감 -->
+  <path d="M40 150 q-5 -4 -10 0 t-10 0" class="hp-heat-r"/><path d="M14 150 l8 -6 v12 z" class="hp-heat-rh"/>
+  <path d="M204 150 q5 -4 10 0 t10 0" class="hp-heat-r"/><path d="M230 150 l-8 -6 v12 z" class="hp-heat-rh"/>
+  <text x="123" y="256" text-anchor="middle" class="hp-eq">철 + 산소 → 산화 철</text>
+  <text x="123" y="280" text-anchor="middle" class="hp-lbl">철이 산화되며 열을 낸다</text>
+  <text x="123" y="306" text-anchor="middle" class="hp-sm">가루 → 산소와 닿는 면적 ↑</text>
+  <text x="123" y="326" text-anchor="middle" class="hp-sm">소금 → 산화가 빨라진다</text>
+  <text x="123" y="346" text-anchor="middle" class="hp-sm">미세한 구멍 → 산소가 들어오는</text>
+  <text x="123" y="364" text-anchor="middle" class="hp-sm">속도 조절(몇 시간 유지)</text>
+
+  <!-- ───── 2. 발열 도시락 ───── -->
+  <rect x="247" y="10" width="226" height="372" rx="10" class="hp-panel"/>
+  <text x="360" y="38" text-anchor="middle" class="hp-h">발열 도시락</text>
+  <text x="360" y="58" text-anchor="middle" class="hp-tag-r">열 방출</text>
+  <!-- 용기 -->
+  <path d="M286 88 L286 210 L434 210 L434 88" class="hp-box"/>
+  <rect x="292" y="94" width="136" height="50" rx="4" class="hp-food"/>
+  <text x="360" y="124" text-anchor="middle" class="hp-lbl">음식 (위 칸)</text>
+  <rect x="292" y="166" width="136" height="38" rx="4" class="hp-pack"/>
+  <text x="360" y="190" text-anchor="middle" class="hp-sm" style="fill:var(--fig-ink)">발열 팩 (아래 칸)</text>
+  <!-- 열 올라감 -->
+  <path d="M320 164 q-4 -4 0 -8 t0 -8" class="hp-heat-r"/><path d="M320 140 l-6 9 h12 z" class="hp-heat-rh"/>
+  <path d="M360 164 q-4 -4 0 -8 t0 -8" class="hp-heat-r"/><path d="M360 140 l-6 9 h12 z" class="hp-heat-rh"/>
+  <path d="M400 164 q-4 -4 0 -8 t0 -8" class="hp-heat-r"/><path d="M400 140 l-6 9 h12 z" class="hp-heat-rh"/>
+  <!-- 수증기 -->
+  <path d="M416 82 q-6 -8 0 -16 t0 -16" class="hp-steam"/>
+  <path d="M430 82 q-6 -8 0 -16 t0 -16" class="hp-steam"/>
+  <text x="404" y="78" text-anchor="end" class="hp-sm">수증기 구멍</text>
+  <text x="360" y="246" text-anchor="middle" class="hp-eq">CaO + H₂O → Ca(OH)₂</text>
+  <text x="360" y="270" text-anchor="middle" class="hp-lbl">산화 칼슘(생석회)이 물과</text>
+  <text x="360" y="290" text-anchor="middle" class="hp-lbl">반응하며 많은 열을 낸다</text>
+  <text x="360" y="320" text-anchor="middle" class="hp-sm">물의 일부가 끓어 김이 나므로</text>
+  <text x="360" y="340" text-anchor="middle" class="hp-sm">밀폐된 곳에서 쓰지 않는다</text>
+
+  <!-- ───── 3. 냉각 팩 ───── -->
+  <rect x="484" y="10" width="226" height="372" rx="10" class="hp-panel"/>
+  <text x="597" y="38" text-anchor="middle" class="hp-h">냉각 팩</text>
+  <text x="597" y="58" text-anchor="middle" class="hp-tag-b">열 흡수</text>
+  <rect x="532" y="84" width="130" height="96" rx="12" class="hp-cool"/>
+  <!-- 터진 물주머니 -->
+  <path d="M552 104 L600 100 L608 112 L620 104 L622 130 L556 134 Z" class="hp-bag"/>
+  <text x="588" y="124" text-anchor="middle" class="hp-sm" style="fill:var(--fig-ink)">물</text>
+  <rect x="560" y="148" width="7" height="7" class="hp-salt"/><rect x="578" y="156" width="7" height="7" class="hp-salt"/><rect x="598" y="146" width="7" height="7" class="hp-salt"/>
+  <rect x="616" y="158" width="7" height="7" class="hp-salt"/><rect x="636" y="148" width="7" height="7" class="hp-salt"/><rect x="644" y="118" width="7" height="7" class="hp-salt"/>
+  <text x="597" y="198" text-anchor="middle" class="hp-sm">질산 암모늄 + 물</text>
+  <!-- 피부 -->
+  <rect x="512" y="232" width="170" height="22" rx="4" class="hp-skin"/>
+  <text x="597" y="248" text-anchor="middle" class="hp-sm" style="fill:var(--fig-ink)">다친 부위(피부)</text>
+  <!-- 열: 피부 → 팩 -->
+  <path d="M560 228 q-4 -4 0 -8 t0 -8" class="hp-heat-b"/><path d="M560 202 l-6 9 h12 z" class="hp-heat-bh"/>
+  <path d="M634 228 q-4 -4 0 -8 t0 -8" class="hp-heat-b"/><path d="M634 202 l-6 9 h12 z" class="hp-heat-bh"/>
+  <text x="597" y="282" text-anchor="middle" class="hp-lbl">질산 암모늄이 물에 녹으며</text>
+  <text x="597" y="302" text-anchor="middle" class="hp-lbl">주위의 열을 흡수한다</text>
+  <text x="597" y="330" text-anchor="middle" class="hp-sm">팩을 눌러 물주머니를 터뜨리면</text>
+  <text x="597" y="350" text-anchor="middle" class="hp-sm">녹기 시작해 금세 차가워진다</text>
+</svg>
