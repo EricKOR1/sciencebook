@@ -1,0 +1,72 @@
+{
+  "title": "한 권으로 잇는 과학",
+  "subtitle": "중학교 1학년부터 고등학교 진로 선택 과목까지",
+  "strands": [
+    { "id": "energy", "name": "운동과 에너지" },
+    { "id": "matter", "name": "물질" },
+    { "id": "life", "name": "생명" },
+    { "id": "earth", "name": "지구와 우주" },
+    { "id": "society", "name": "과학의 기초와 사회" }
+  ],
+  "groups": [
+    {
+      "id": "middle", "name": "중학교 과학",
+      "parts": [
+        { "id": "m1", "name": "1학년", "short": "중1", "dir": "중학교/1학년" },
+        { "id": "m2", "name": "2학년", "short": "중2", "dir": "중학교/2학년" },
+        { "id": "m3", "name": "3학년", "short": "중3", "dir": "중학교/3학년" }
+      ]
+    },
+    {
+      "id": "common", "name": "고등학교 공통 과목",
+      "parts": [
+        { "id": "is1", "name": "통합과학1", "short": "통합과학1", "units": [
+          { "name": "1단원 과학의 기초", "dir": "통합과학1/1단원_과학의_기초" },
+          { "name": "2단원 물질과 규칙성", "dir": "통합과학1/2단원_물질과_규칙성" },
+          { "name": "3단원 시스템과 상호작용", "dir": "통합과학1/3단원_시스템과_상호작용" } ] },
+        { "id": "is2", "name": "통합과학2", "short": "통합과학2", "units": [
+          { "name": "4단원 변화와 다양성", "dir": "통합과학2/4단원_변화와_다양성" },
+          { "name": "5단원 환경과 에너지", "dir": "통합과학2/5단원_환경과_에너지" },
+          { "name": "6단원 과학과 미래 사회", "dir": "통합과학2/6단원_과학과_미래_사회" } ] }
+      ]
+    },
+    {
+      "id": "general", "name": "고등학교 일반 선택",
+      "parts": [
+        { "id": "phy", "name": "물리학", "short": "물리학", "dir": "고등학교_일반선택/물리학", "strand": "energy" },
+        { "id": "chem", "name": "화학", "short": "화학", "dir": "고등학교_일반선택/화학", "strand": "matter" },
+        { "id": "bio", "name": "생명과학", "short": "생명과학", "dir": "고등학교_일반선택/생명과학", "strand": "life" },
+        { "id": "earth", "name": "지구과학", "short": "지구과학", "dir": "고등학교_일반선택/지구과학", "strand": "earth" }
+      ]
+    },
+    {
+      "id": "career", "name": "고등학교 진로 선택",
+      "parts": [
+        { "id": "mech", "name": "역학과 에너지", "short": "역학과 에너지", "dir": "고등학교_진로선택/역학과_에너지", "strand": "energy" },
+        { "id": "emq", "name": "전자기와 양자", "short": "전자기와 양자", "dir": "고등학교_진로선택/전자기와_양자", "strand": "energy" },
+        { "id": "matter", "name": "물질과 에너지", "short": "물질과 에너지", "dir": "고등학교_진로선택/물질과_에너지", "strand": "matter" },
+        { "id": "rxn", "name": "화학 반응의 세계", "short": "화학 반응의 세계", "dir": "고등학교_진로선택/화학_반응의_세계", "strand": "matter" },
+        { "id": "cell", "name": "세포와 물질대사", "short": "세포와 물질대사", "dir": "고등학교_진로선택/세포와_물질대사", "strand": "life" },
+        { "id": "gene", "name": "생물의 유전", "short": "생물의 유전", "dir": "고등학교_진로선택/생물의_유전", "strand": "life" },
+        { "id": "esys", "name": "지구시스템과학", "short": "지구시스템과학", "dir": "고등학교_진로선택/지구시스템과학", "strand": "earth" },
+        { "id": "astro", "name": "행성우주과학", "short": "행성우주과학", "dir": "고등학교_진로선택/행성우주과학", "strand": "earth" }
+      ]
+    }
+  ],
+  "lessonStrands": {
+    "m1-01": "society", "m1-02": "life", "m1-03": "energy", "m1-04": "matter", "m1-05": "energy", "m1-06": "matter", "m1-07": "earth",
+    "m2-01": "matter", "m2-02": "earth", "m2-03": "energy", "m2-04": "matter", "m2-05": "life", "m2-06": "life", "m2-07": "energy", "m2-08": "earth",
+    "m3-01": "matter", "m3-02": "earth", "m3-03": "earth", "m3-04": "energy", "m3-05": "life", "m3-06": "life", "m3-07": "society", "m3-08": "society",
+    "1-1": "society", "1-2": "society", "1-3": "society", "1-4": "society",
+    "2-1": "earth", "2-2": "earth", "2-3": "matter", "2-4": "matter", "2-5": "matter", "2-6": "matter",
+    "3-1": "earth", "3-2": "earth", "3-3": "energy", "3-4": "energy", "3-5": "life", "3-6": "life",
+    "4-1": "earth", "4-2": "life", "4-3": "matter", "4-4": "matter", "4-5": "matter",
+    "5-1": "life", "5-2": "life", "5-3": "earth", "5-4": "energy", "5-5": "energy", "5-6": "energy",
+    "6-1": "society", "6-2": "society", "6-3": "society", "6-4": "society"
+  },
+  "extra": [
+    { "id": "guide", "src": "교재_설계_안내.md", "title": "교재 설계 안내", "out": "guide.html" },
+    { "id": "standards", "src": "부록/교육과정_성취기준.md", "title": "통합과학 성취기준 원문", "out": "appendix-standards.html" },
+    { "id": "ismap", "src": "부록/연계_지도.md", "title": "통합과학 대학·산업 연계 지도", "out": "appendix-map.html" }
+  ]
+}
