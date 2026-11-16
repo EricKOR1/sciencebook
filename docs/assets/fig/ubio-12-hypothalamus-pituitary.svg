@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-labelledby="t-ubio-12-hypothalamus-pituitary d-ubio-12-hypothalamus-pituitary">
+  <title id="t-ubio-12-hypothalamus-pituitary">그림 일반생명과학 12-1 시상하부와 뇌하수체의 두 가지 연결</title>
+  <desc id="d-ubio-12-hypothalamus-pituitary">뇌하수체 후엽에는 시상하부 신경 분비 세포의 축삭이 직접 뻗어 내려가 옥시토신과 항이뇨 호르몬을 혈액으로 내보낸다. 전엽에는 시상하부의 방출·억제 호르몬이 1차 모세 혈관망에서 문맥 혈관을 따라 2차 모세 혈관망으로 운반되어, 전엽 세포의 호르몬 분비를 조절한다. 모식도이다.</desc>
+  <style>
+    .ubio-12-hp-t{font-size:14px;fill:var(--fig-ink)}
+    .ubio-12-hp-s{font-size:13px;fill:var(--fig-muted)}
+    .ubio-12-hp-b{font-size:15px;fill:var(--fig-ink);font-weight:700}
+    .ubio-12-hp-vessel{fill:none;stroke:var(--fig-red);stroke-width:3;stroke-linecap:round}
+    .ubio-12-hp-cap{fill:none;stroke:var(--fig-red);stroke-width:2}
+  </style>
+  <!-- 시상하부 -->
+  <path d="M150 40 Q360 10 570 40 Q600 110 520 150 L400 165 Q380 168 375 180 L345 180 Q340 168 320 165 L200 150 Q120 110 150 40 Z" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <text x="360" y="42" text-anchor="middle" class="ubio-12-hp-b">시상하부</text>
+  <!-- 뇌하수체 줄기(누두) -->
+  <path d="M345 178 L345 250 Q345 262 335 268 L395 268 Q385 262 385 250 L385 178 Z" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <!-- 전엽(샘 조직) -->
+  <ellipse cx="255" cy="330" rx="115" ry="72" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2.2"/>
+  <!-- 후엽(신경 조직) -->
+  <ellipse cx="430" cy="320" rx="72" ry="62" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2.2"/>
+  <text x="225" y="418" text-anchor="middle" class="ubio-12-hp-b">뇌하수체 전엽</text>
+  <text x="225" y="436" text-anchor="middle" class="ubio-12-hp-s">(샘 조직)</text>
+  <text x="440" y="405" text-anchor="middle" class="ubio-12-hp-b">뇌하수체 후엽</text>
+  <text x="440" y="423" text-anchor="middle" class="ubio-12-hp-s">(신경 조직)</text>
+
+  <!-- ① 후엽 경로: 신경 분비 세포의 긴 축삭 -->
+  <circle cx="470" cy="85" r="13" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2"/>
+  <circle cx="470" cy="85" r="4.5" style="fill:var(--fig-teal)"/>
+  <path d="M465 98 Q420 140 378 185 L372 250 Q380 290 425 315" style="fill:none;stroke:var(--fig-teal);stroke-width:2.6"/>
+  <circle cx="429" cy="318" r="6" style="fill:var(--fig-teal)"/>
+  <circle cx="438" cy="313" r="2.4" style="fill:var(--fig-teal)"/>
+  <circle cx="436" cy="324" r="2.4" style="fill:var(--fig-teal)"/>
+  <!-- 후엽 모세 혈관 -->
+  <path d="M455 290 q12 10 0 20 q-12 10 0 20 q12 10 0 20" class="ubio-12-hp-cap"/>
+  <path d="M455 350 L500 372" class="ubio-12-hp-vessel"/>
+  <path d="M500 372 l-12 -1 l7 -9 z" style="fill:var(--fig-red)"/>
+
+  <!-- ② 전엽 경로: 짧은 축삭 → 1차 모세 혈관망 → 문맥 → 2차 모세 혈관망 -->
+  <circle cx="250" cy="90" r="13" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <circle cx="250" cy="90" r="4.5" style="fill:var(--fig-blue)"/>
+  <path d="M260 100 Q310 140 350 190" style="fill:none;stroke:var(--fig-blue);stroke-width:2.6"/>
+  <circle cx="352" cy="193" r="5.5" style="fill:var(--fig-blue)"/>
+  <!-- 동맥 유입 -->
+  <path d="M290 205 L340 205" class="ubio-12-hp-vessel"/>
+  <path d="M342 205 l-11 -6 l0 12 z" style="fill:var(--fig-red)"/>
+  <text x="285" y="209" text-anchor="end" class="ubio-12-hp-s">동맥</text>
+  <!-- 1차 모세 혈관망 -->
+  <path d="M342 205 q8 -12 16 0 q8 12 16 0 q-6 -14 -14 -3" class="ubio-12-hp-cap"/>
+  <!-- 문맥 혈관 -->
+  <path d="M350 212 Q330 250 290 285" class="ubio-12-hp-vessel"/>
+  <path d="M362 212 Q345 255 302 292" class="ubio-12-hp-vessel"/>
+  <!-- 2차 모세 혈관망 -->
+  <path d="M290 285 q-14 8 -6 20 q8 12 -6 20 q-14 8 -4 20" class="ubio-12-hp-cap"/>
+  <path d="M302 292 q-10 10 0 20 q10 10 0 20 q-10 10 -2 22" class="ubio-12-hp-cap"/>
+  <!-- 전엽 세포 -->
+  <circle cx="220" cy="305" r="11" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <circle cx="200" cy="335" r="11" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <circle cx="238" cy="345" r="11" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <circle cx="255" cy="318" r="11" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <circle cx="220" cy="305" r="3.5" style="fill:var(--fig-amber)"/>
+  <circle cx="200" cy="335" r="3.5" style="fill:var(--fig-amber)"/>
+  <circle cx="238" cy="345" r="3.5" style="fill:var(--fig-amber)"/>
+  <circle cx="255" cy="318" r="3.5" style="fill:var(--fig-amber)"/>
+  <!-- 전엽 정맥 유출 -->
+  <path d="M296 355 L260 385 L150 385" class="ubio-12-hp-vessel"/>
+  <path d="M148 385 l12 -6 l0 12 z" style="fill:var(--fig-red)"/>
+
+  <!-- 설명 (왼쪽: 전엽 경로) -->
+  <text x="20" y="200" class="ubio-12-hp-b" style="fill:var(--fig-blue)">② 혈관으로 잇기</text>
+  <text x="20" y="220" class="ubio-12-hp-s">방출·억제 호르몬</text>
+  <text x="20" y="238" class="ubio-12-hp-s">(TRH, CRH, GnRH 등)</text>
+  <text x="20" y="256" class="ubio-12-hp-s">→ 문맥 혈관 → 전엽</text>
+  <text x="140" y="374" text-anchor="end" class="ubio-12-hp-t">온몸으로</text>
+  <text x="20" y="455" class="ubio-12-hp-s">TSH · ACTH · FSH · LH · GH · PRL</text>
+  <!-- 설명 (오른쪽: 후엽 경로) -->
+  <text x="520" y="200" class="ubio-12-hp-b" style="fill:var(--fig-teal)">① 축삭으로 잇기</text>
+  <text x="520" y="220" class="ubio-12-hp-s">시상하부에서 만든 호르몬이</text>
+  <text x="520" y="238" class="ubio-12-hp-s">축삭을 따라 내려가 저장</text>
+  <text x="508" y="380" class="ubio-12-hp-t">온몸으로</text>
+  <text x="508" y="398" class="ubio-12-hp-s">옥시토신 · ADH</text>
+  <!-- 라벨 -->
+  <text x="225" y="125" text-anchor="middle" class="ubio-12-hp-s">신경 분비 세포</text>
+  <text x="500" y="125" class="ubio-12-hp-s">신경 분비 세포</text>
+  <text x="400" y="200" class="ubio-12-hp-s">1차 모세 혈관망</text>
+  <text x="160" y="270" text-anchor="end" class="ubio-12-hp-s"> </text>
+  <text x="335" y="252" text-anchor="end" class="ubio-12-hp-t" style="fill:var(--fig-red)">문맥 혈관</text>
+  <text x="600" y="455" text-anchor="end" class="ubio-12-hp-s">모식도(실제 크기·모양과 다름)</text>
+</svg>
