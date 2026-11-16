@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-emq-3-stm d-emq-3-stm">
+  <title id="t-emq-3-stm">그림 전자기와 양자 3-2 주사 터널링 현미경(STM)의 원리</title>
+  <desc id="d-emq-3-stm">뾰족한 탐침과 시료 표면 사이의 약 1 nm 진공 틈을 전자가 터널링하여 전류가 흐른다. 탐침이 원자 바로 위를 지날 때는 틈이 얇아 전류가 크고, 원자 사이에서는 틈이 두꺼워 전류가 급격히 작아진다. 전류를 위치별로 기록하면 원자 배열 지도가 된다.</desc>
+  <style>
+    .emq-3-stm-t{font-size:15px;fill:var(--fig-ink);font-weight:600}
+    .emq-3-stm-s{font-size:13px;fill:var(--fig-muted)}
+    .emq-3-stm-k{font-size:13px;fill:var(--fig-ink)}
+    .emq-3-stm-tip{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+    .emq-3-stm-at{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5}
+    .emq-3-stm-e{fill:var(--fig-red)}
+    .emq-3-stm-ar{fill:none;stroke:var(--fig-red);stroke-width:1.8;stroke-dasharray:3 3}
+    .emq-3-stm-ink{fill:none;stroke:var(--fig-ink);stroke-width:1.5}
+    .emq-3-stm-inkf{fill:var(--fig-ink)}
+    .emq-3-stm-cur{fill:none;stroke:var(--fig-accent);stroke-width:2.5}
+    .emq-3-stm-ax{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .emq-3-stm-guide{fill:none;stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4}
+  </style>
+  <!-- 탐침 -->
+  <path d="M215 30 L265 30 L246 118 L240 128 L234 118 Z" class="emq-3-stm-tip"/>
+  <text x="275" y="60" class="emq-3-stm-k">탐침(끝이 원자 몇 개 크기)</text>
+  <!-- 이동 화살표 -->
+  <path d="M110 50 H190" class="emq-3-stm-ink"/><path d="M198 50 l-10 -5 v10 z" class="emq-3-stm-inkf"/>
+  <text x="150" y="40" text-anchor="middle" class="emq-3-stm-s">훑으며 이동</text>
+  <!-- 터널링 전자 -->
+  <path d="M240 134 V160" class="emq-3-stm-ar"/>
+  <circle cx="240" cy="146" r="3.5" class="emq-3-stm-e"/>
+  <path d="M260 132 C300 140 320 150 330 150" class="emq-3-stm-guide"/>
+  <text x="336" y="146" class="emq-3-stm-k">진공 틈(약 1 nm 이하)을 전자가 터널링</text>
+  <text x="336" y="164" class="emq-3-stm-s">틈이 원자 하나 크기만큼만 변해도 전류가 약 10배 변한다</text>
+  <!-- 표면 원자 -->
+  <g>
+    <circle cx="60" cy="190" r="22" class="emq-3-stm-at"/><circle cx="110" cy="190" r="22" class="emq-3-stm-at"/>
+    <circle cx="160" cy="190" r="22" class="emq-3-stm-at"/><circle cx="210" cy="190" r="22" class="emq-3-stm-at"/>
+    <circle cx="260" cy="190" r="22" class="emq-3-stm-at"/><circle cx="310" cy="190" r="22" class="emq-3-stm-at"/>
+    <circle cx="360" cy="190" r="22" class="emq-3-stm-at"/><circle cx="410" cy="190" r="22" class="emq-3-stm-at"/>
+    <circle cx="460" cy="190" r="22" class="emq-3-stm-at"/><circle cx="510" cy="190" r="22" class="emq-3-stm-at"/>
+    <circle cx="560" cy="190" r="22" class="emq-3-stm-at"/><circle cx="610" cy="190" r="22" class="emq-3-stm-at"/>
+    <circle cx="660" cy="190" r="22" class="emq-3-stm-at"/>
+  </g>
+  <text x="700" y="228" text-anchor="end" class="emq-3-stm-s">시료 표면의 원자</text>
+  <!-- 전류 그래프 -->
+  <path d="M40 330 H690 M40 330 V250" class="emq-3-stm-ax"/>
+  <text x="34" y="262" text-anchor="end" class="emq-3-stm-s">전류</text>
+  <text x="690" y="350" text-anchor="end" class="emq-3-stm-s">탐침의 위치</text>
+  <path d="M40 318 C50 318 52 262 60 262 C68 262 70 318 85 318 C100 318 102 262 110 262 C118 262 120 318 135 318 C150 318 152 262 160 262 C168 262 170 318 185 318 C200 318 202 262 210 262 C218 262 220 318 235 318 C250 318 252 262 260 262 C268 262 270 318 285 318 C300 318 302 262 310 262 C318 262 320 318 335 318 C350 318 352 262 360 262 C368 262 370 318 385 318 C400 318 402 262 410 262 C418 262 420 318 435 318 C450 318 452 262 460 262 C468 262 470 318 485 318 C500 318 502 262 510 262 C518 262 520 318 535 318 C550 318 552 262 560 262 C568 262 570 318 585 318 C600 318 602 262 610 262 C618 262 620 318 635 318 C650 318 652 262 660 262 C668 262 670 318 690 318" class="emq-3-stm-cur"/>
+  <path d="M260 212 V258 M285 212 V312" class="emq-3-stm-guide"/>
+  <text x="96" y="248" class="emq-3-stm-k">원자 위: 틈 얇음 → 전류 큼</text>
+  <text x="300" y="300" class="emq-3-stm-k">원자 사이: 틈 두꺼움 → 전류 작음</text>
+  <text x="20" y="22" class="emq-3-stm-s">모식도(크기 비율은 실제와 다름)</text>
+</svg>

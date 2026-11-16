@@ -71,13 +71,13 @@ Sims.register('reflect-refract', {
       }
       // 광원
       ctx.fillStyle = cIn; ctx.beginPath(); ctx.arc(src[0], src[1], 6, 0, Math.PI * 2); ctx.fill();
-      ray(src, [ox, oy], cIn, 3, 1);
-      ray([ox, oy], refl, cRefl, r === null ? 3 : 2.4, r === null ? 1 : 0.75);
+      ray(src, [ox, oy], cIn, 3, 1, 0.3);
+      ray([ox, oy], refl, cRefl, r === null ? 3 : 2.4, r === null ? 1 : 0.75, 0.75);
       var refr = null;
       if (r !== null) {
         var rr = rad(r);
         refr = [ox + L * Math.sin(rr), oy - up * L * Math.cos(rr)];
-        ray([ox, oy], refr, cRefr, 3, 1);
+        ray([ox, oy], refr, cRefr, 3, 1, 0.75);
       }
       // 각 표시
       var R0 = Math.min(56, L * 0.36);
@@ -106,11 +106,11 @@ Sims.register('reflect-refract', {
       else if (state.i === 0) { rT.set('0°'); rDir.set('꺾이지 않는다'); }
       else { rT.set('약 ' + Math.round(r) + '°'); rDir.set(state.mode === 'aw' ? '법선 쪽으로' : '법선에서 멀어지게'); }
 
-      function ray(a, b, color, lw, alpha) {
+      function ray(a, b, color, lw, alpha, at) {
         ctx.globalAlpha = alpha; ctx.strokeStyle = color; ctx.lineWidth = lw; ctx.lineCap = 'round';
         ctx.beginPath(); ctx.moveTo(a[0], a[1]); ctx.lineTo(b[0], b[1]); ctx.stroke();
         // 가운데 화살촉
-        var mx = (a[0] + b[0]) / 2, my = (a[1] + b[1]) / 2, ang = Math.atan2(b[1] - a[1], b[0] - a[0]), hs = 11;
+        var mx = a[0] + (b[0] - a[0]) * at, my = a[1] + (b[1] - a[1]) * at, ang = Math.atan2(b[1] - a[1], b[0] - a[0]), hs = 11;
         ctx.fillStyle = color; ctx.beginPath(); ctx.moveTo(mx + hs * 0.6 * Math.cos(ang), my + hs * 0.6 * Math.sin(ang));
         ctx.lineTo(mx - hs * Math.cos(ang - 0.45), my - hs * Math.sin(ang - 0.45));
         ctx.lineTo(mx - hs * Math.cos(ang + 0.45), my - hs * Math.sin(ang + 0.45)); ctx.closePath(); ctx.fill();
@@ -129,7 +129,10 @@ Sims.register('reflect-refract', {
       ctx.arc(cv.w / 2, cv.h * 0.5, R, d > 0 ? a1 : a1 + d, d > 0 ? a1 + d : a1); ctx.stroke();
       var mid = a1 + d / 2, lx = cv.w / 2 + (R + 10) * Math.cos(mid), ly = cv.h * 0.5 + (R + 10) * Math.sin(mid);
       ctx.font = fs - 1 + 'px ' + T.fontBody; ctx.fillStyle = color; ctx.textBaseline = 'middle';
-      ctx.textAlign = Math.cos(mid) < -0.05 ? 'right' : Math.cos(mid) > 0.05 ? 'left' : 'center';
+      var al = Math.cos(mid) < -0.05 ? 'right' : Math.cos(mid) > 0.05 ? 'left' : 'center', tw = ctx.measureText(text).width;
+      var bx = al === 'right' ? lx - tw : al === 'center' ? lx - tw / 2 : lx;
+      ctx.globalAlpha = 0.88; ctx.fillStyle = T.figPanel; ctx.fillRect(bx - 3, ly - fs / 2 - 2, tw + 6, fs + 4); ctx.globalAlpha = 1;
+      ctx.fillStyle = color; ctx.textAlign = al;
       ctx.fillText(text, lx, ly); ctx.textBaseline = 'alphabetic';
     }
     function wrap(text, x, y, maxW, lh) {

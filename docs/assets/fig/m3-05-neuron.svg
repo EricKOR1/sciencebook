@@ -42,16 +42,16 @@
   <line x1="60" y1="232" x2="640" y2="232" style="stroke:var(--fig-red);stroke-width:3"/>
   <path d="M652 232 l-14 -8 l0 16 z" style="fill:var(--fig-red)"/>
   <text x="360" y="256" text-anchor="middle" class="m3-05-neuron-l" style="fill:var(--fig-red)">신호 전달 방향: 가지돌기 → 신경 세포체 → 축삭돌기 → 다음 뉴런</text>
-  <line x1="70" y1="96" x2="60" y2="24" class="m3-05-neuron-ld"/>
+  <line x1="70" y1="96" x2="60" y2="63" class="m3-05-neuron-ld"/>
   <text x="60" y="40" text-anchor="middle" class="m3-05-neuron-l">가지돌기</text>
   <text x="60" y="57" text-anchor="middle" class="m3-05-neuron-s">신호를 받아들인다</text>
-  <line x1="130" y1="128" x2="215" y2="24" class="m3-05-neuron-ld"/>
+  <line x1="130" y1="128" x2="215" y2="63" class="m3-05-neuron-ld"/>
   <text x="215" y="40" text-anchor="middle" class="m3-05-neuron-l">신경 세포체</text>
   <text x="215" y="57" text-anchor="middle" class="m3-05-neuron-s">핵이 있다</text>
-  <line x1="350" y1="144" x2="370" y2="24" class="m3-05-neuron-ld"/>
+  <line x1="350" y1="144" x2="370" y2="63" class="m3-05-neuron-ld"/>
   <text x="370" y="40" text-anchor="middle" class="m3-05-neuron-l">축삭돌기</text>
   <text x="370" y="57" text-anchor="middle" class="m3-05-neuron-s">신호를 멀리 전달한다 (길게 뻗음)</text>
-  <line x1="609" y1="180" x2="560" y2="212" class="m3-05-neuron-ld"/>
+  <line x1="609" y1="180" x2="560" y2="190" class="m3-05-neuron-ld"/>
   <text x="560" y="206" text-anchor="middle" class="m3-05-neuron-l">좁은 틈</text>
   <line x1="118" y1="160" x2="160" y2="200" class="m3-05-neuron-ld"/><text x="164" y="204" class="m3-05-neuron-s">핵</text>
 </svg>

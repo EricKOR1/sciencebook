@@ -34,13 +34,13 @@ Sims.register('milky-way', {
     api.readout('태양계 ~ 중심').set('약 2만 6천~3만 광년');
 
     var S = api.scene3d({
-      yaw: 0.4, pitch: 0.55, dist: 22, scale: 0.082,
+      yaw: 0.4, pitch: 0.55, dist: 22, scale: 0.07,
       label: '우리은하의 입체 모형: 막대 모양 중심부, 나선팔, 원반, 헤일로와 구상 성단, 태양계의 위치',
-      draw: function (g, T) {
+      draw: function (g, T, V) {
         // 헤일로(투명한 공의 테두리)
-        g.circle([0, 0, 0], 6.2, [0, 1, 0], T.figViolet, { width: 1, dash: [3, 5], lineAlpha: 0.5 });
-        g.circle([0, 0, 0], 6.2, [1, 0, 0], T.figViolet, { width: 1, dash: [3, 5], lineAlpha: 0.5 });
-        g.circle([0, 0, 0], 6.2, [0, 0, 1], T.figViolet, { width: 1, dash: [3, 5], lineAlpha: 0.5 });
+        g.circle([0, 0, 0], 6.0, [0, 1, 0], T.figViolet, { width: 1, dash: [3, 5], lineAlpha: 0.5 });
+        g.circle([0, 0, 0], 6.0, [1, 0, 0], T.figViolet, { width: 1, dash: [3, 5], lineAlpha: 0.5 });
+        g.circle([0, 0, 0], 6.0, [0, 0, 1], T.figViolet, { width: 1, dash: [3, 5], lineAlpha: 0.5 });
         // 원반
         g.circle([0, 0, 0], RD, [0, 1, 0], T.figLine, { width: 1, fill: T.figSoftBlue, alpha: 0.35 });
         // 나선팔
@@ -50,7 +50,7 @@ Sims.register('milky-way', {
         // 막대 모양 중심부와 팽대부
         var c = Math.cos(BARANG), s = Math.sin(BARANG), bw = 0.42;
         g.poly([[BAR * c - bw * s, 0, BAR * s + bw * c], [-BAR * c - bw * s, 0, -BAR * s + bw * c], [-BAR * c + bw * s, 0, -BAR * s - bw * c], [BAR * c + bw * s, 0, BAR * s - bw * c]], T.figAmber, { alpha: 0.6 });
-        g.sphere([0, 0, 0], 0.75, T.figAmber, { alpha: 0.85 });
+        g.sphere([0, 0, 0], 0.5, T.figAmber, { alpha: 0.85 });
         // 구상 성단
         GC.forEach(function (p) { g.sphere(p, 0.09, T.figRed, { alpha: 0.95 }); });
         // 태양계
@@ -59,14 +59,15 @@ Sims.register('milky-way', {
         // 지름 표시
         g.line([-RD, 0, RD * 0.02], [RD, 0, RD * 0.02], T.figMuted, { width: 1, dash: [2, 4], alpha: 0.7 });
         if (state.labels) {
-          g.text([SUN[0], 0.55, SUN[2]], '태양계', { bold: true, size: 13 });
-          g.text([SUN[0] / 2, -0.35, SUN[2] / 2], '약 2만 6천~3만 광년', { size: 11, color: T.figInk });
-          g.text([0, 1.15, 0], '막대 모양 중심부(팽대부)', { size: 12, color: T.figAmber, bold: true });
-          g.text([RD * 0.72, -0.3, -RD * 0.15], '지름 약 10만 광년', { size: 11, color: T.figMuted });
+          g.text([SUN[0] * 1.18, 0.55, SUN[2] * 1.18], '태양계', { bold: true, size: 13 });
+          var pr = [-SUN[2] / RSUN, SUN[0] / RSUN];
+          g.text([SUN[0] * 0.5 + pr[0] * 0.55, -0.65, SUN[2] * 0.5 + pr[1] * 0.55], '약 2만 6천~3만 광년', { size: 11, color: T.figInk });
+          g.text([0, 1.1, -0.9], '막대 모양 중심부(팽대부)', { size: 12, color: T.figAmber, bold: true });
+          g.text([RD * 0.8, -0.5, 0], '지름 약 10만 광년', { size: 11, color: T.figMuted });
           var am = ARMS[0][Math.floor(ARMS[0].length * 0.72)];
-          g.text([am[0], 0.4, am[2]], '나선팔', { size: 12, color: T.figBlue, bold: true });
+          if (V.pitch > 0.25) g.text([am[0], 0.4, am[2]], '나선팔', { size: 12, color: T.figBlue, bold: true });
           g.text([-RD * 0.62, 0.25, RD * 0.62], '원반', { size: 12, color: T.figInk });
-          g.text([0, 6.6, 0], '헤일로', { size: 12, color: T.figViolet, bold: true });
+          g.text([-4.4, 4.4, 0], '헤일로', { size: 12, color: T.figViolet, bold: true });
           var gc = GC.reduce(function (b, p) { return p[1] > b[1] ? b : (p[1] > 2.2 ? p : b); }, [0, -99, 0]);
           if (gc[1] < 0) gc = GC[0];
           g.text([gc[0], gc[1] + 0.4, gc[2]], '구상 성단', { size: 11, color: T.figRed });

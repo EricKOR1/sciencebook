@@ -32,11 +32,11 @@ Sims.register('action-potential', {
       return '분극(휴지 상태)';
     }
 
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.4 : 0.56; }, label: '자극 지점의 세포막 확대 그림과 막전위 그래프' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.7 : 0.56; }, label: '자극 지점의 세포막 확대 그림과 막전위 그래프' });
     var ctx = cv.ctx;
     var rV = api.readout('막전위'), rP = api.readout('단계'), rNa = api.readout('Na⁺ 통로'), rK = api.readout('K⁺ 통로');
     var sS = api.slider({ id: 'action-potential-s', label: '자극 세기', min: 1, max: 10, step: 1, value: st.s,
-      format: function (v) { return v + ' (막전위를 ' + strengthV(v) + ' mV까지 올림)'; },
+      format: function (v) { return v + ' (→ −' + Math.abs(strengthV(v)) + ' mV)'; },
       onInput: function (v) { st.s = v; } });
     api.button('자극 주기', function () { stimulate(); }, { primary: true });
     var busy = false;
@@ -48,7 +48,7 @@ Sims.register('action-potential', {
       var prev = st.cur;
       if (prev != null && st.ghosts.indexOf(prev) < 0) { st.ghosts.push(prev); if (st.ghosts.length > 3) st.ghosts.shift(); }
       st.cur = st.s;
-      if (api.reduced) { setT(1.0); return; }
+      if (api.reduced) { setT(0.7); return; }
       st.t = -0.5; st.playing = true; loop.play();
     }
     function setT(t) { st.t = t; busy = true; sT.set(Math.round(t * 20) / 20); busy = false; update(); }
@@ -75,7 +75,7 @@ Sims.register('action-potential', {
 
     function layout() {
       var w = cv.w, h = cv.h;
-      if (w < 560) return { m: { x: 0, y: 0, w: w, h: h * 0.44 }, g: { x: 0, y: h * 0.46, w: w, h: h * 0.54 } };
+      if (w < 560) return { m: { x: 0, y: 0, w: w, h: h * 0.47 }, g: { x: 0, y: h * 0.49, w: w, h: h * 0.51 } };
       return { m: { x: 0, y: 0, w: w * 0.42, h: h }, g: { x: w * 0.45, y: 0, w: w * 0.55, h: h } };
     }
     function draw() {
@@ -95,8 +95,6 @@ Sims.register('action-potential', {
       var x0 = r.x + 8, x1 = r.x + r.w - 8;
       ctx.fillStyle = T.figInk; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'left';
       ctx.fillText('자극 지점의 세포막 (확대 모식도)', x0, r.y + 14);
-      ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody;
-      ctx.fillText('세포 밖', x0, top + 12); ctx.fillText('세포 안(축삭 속)', x0, bot - 4);
       // 막(인지질 이중층)
       ctx.fillStyle = T.figSoftAmber; ctx.fillRect(x0, mid - mh / 2, x1 - x0, mh);
       ctx.strokeStyle = T.figAmber; ctx.lineWidth = 1.5;
@@ -108,13 +106,15 @@ Sims.register('action-potential', {
       // 막 양쪽 전하(분극: 밖 +, 안 −  / 막전위 > 0: 뒤집힘)
       var flip = v > 0;
       ctx.font = '700 13px ' + T.fontBody; ctx.textAlign = 'center';
-      [0.08, 0.5, 0.88].forEach(function (f) {
+      [0.06, 0.49].forEach(function (f) {
         var x = x0 + W * f;
         ctx.fillStyle = flip ? T.figBlue : T.figRed; ctx.fillText(flip ? '−' : '+', x, mid - mh / 2 - 5);
         ctx.fillStyle = flip ? T.figRed : T.figBlue; ctx.fillText(flip ? '+' : '−', x, mid + mh / 2 + 14);
       });
       // 바탕 이온(농도 차: Na⁺ 밖에 많음, K⁺ 안에 많음)
-      var outY = top + 34, inY = bot - 30;
+      ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right';
+      ctx.fillText('세포 밖', x1, mid - mh / 2 - 6); ctx.fillText('세포 안', x1, mid + mh / 2 + 15);
+      var outY = Math.max(top + 14, mid - mh / 2 - 70), inY = Math.min(bot - 14, mid + mh / 2 + 62);
       var naOut = [0.12, 0.2, 0.42, 0.55, 0.82, 0.93], kOut = [0.6], naIn = [0.58], kIn = [0.1, 0.22, 0.4, 0.5, 0.8, 0.92];
       naOut.forEach(function (f, i) { ion(T, x0 + W * f, outY + (i % 2) * 14 - 6, 'na'); });
       kOut.forEach(function (f) { ion(T, x0 + W * f, outY + 4, 'k'); });
@@ -125,14 +125,14 @@ Sims.register('action-potential', {
       if (nOpen) {
         arrow(T, cNa + 24, mid - mh / 2 - 22, cNa + 24, mid + mh / 2 + 22, T.figAmber);
         for (var i = 0; i < 2; i++) { var q = (ph + i / 2) % 1; ion(T, cNa, mid - mh / 2 - 18 + q * (mh + 36), 'na'); }
-        label(T, '확산으로 Na⁺ 유입', cNa, mid + mh / 2 + 34, T.figAmber);
+        label(T, '확산으로 Na⁺ 유입', cNa, mid + mh / 2 + 38, T.figAmber);
       }
       if (kO) {
         arrow(T, cK + 24, mid + mh / 2 + 22, cK + 24, mid - mh / 2 - 22, T.figViolet);
         for (var j = 0; j < 2; j++) { var q2 = (ph + j / 2) % 1; ion(T, cK, mid + mh / 2 + 18 - q2 * (mh + 36), 'k'); }
-        label(T, '확산으로 K⁺ 유출', cK, mid - mh / 2 - 26, T.figViolet);
+        label(T, '확산으로 K⁺ 유출', cK, mid - mh / 2 - 46, T.figViolet);
       }
-      if (!fires(s) && t > 0 && t < 1.6) label(T, '역치 미만: 통로가 열리지 않음', (x0 + x1) / 2, mid + mh / 2 + 34, T.figMuted);
+      if (!fires(s) && t > 0 && t < 1.6) label(T, '역치 미만: 전압 개폐 통로가 열리지 않음', (x0 + x1) / 2, mid + mh / 2 + 38, T.figMuted);
     }
     function label(T, txt, x, y, col) { ctx.fillStyle = col; ctx.font = '600 11px ' + T.fontBody; ctx.textAlign = 'center'; ctx.fillText(txt, x, y); }
     function channel(T, cx, mid, mh, open, col, name) {
@@ -144,7 +144,7 @@ Sims.register('action-potential', {
       ctx.globalAlpha = 1;
       if (!open) { ctx.fillStyle = col; ctx.fillRect(cx - gap - 1, mid - 4, 2 * gap + 2, 8); }
       ctx.fillStyle = T.figInk; ctx.font = '600 11px ' + T.fontBody; ctx.textAlign = 'center';
-      ctx.fillText(name + (open ? ' 열림' : ' 닫힘'), cx, mid + 4 + (open ? 0 : 0) - mh / 2 - 46 < 0 ? mid : mid - mh / 2 - 44);
+      ctx.fillText(name + (open ? ' 열림' : ' 닫힘'), cx, mid - mh / 2 - 30);
     }
     function arrow(T, x1, y1, x2, y2, col) {
       ctx.strokeStyle = col; ctx.fillStyle = col; ctx.lineWidth = 2.2;
@@ -178,7 +178,7 @@ Sims.register('action-potential', {
       // 이전 곡선
       st.ghosts.forEach(function (gs) { curve(gs, tmax, T.figLine, 1.3); });
       // 현재 곡선(시각까지)
-      if (st.cur != null) curve(st.cur, st.t, T.figAccent, 2.6);
+      if (st.cur != null) { curve(st.cur, tmax, T.figSoftBlue, 2.6); curve(st.cur, st.t, T.figAccent, 2.6); }
       // 단계 이름(활동 전위가 그려졌을 때)
       if (st.cur != null && fires(st.cur) && st.t > 1.2) {
         ctx.font = '11px ' + T.fontBody; ctx.fillStyle = T.figMuted; ctx.textAlign = 'center';
@@ -192,7 +192,7 @@ Sims.register('action-potential', {
       ctx.fillStyle = T.figAccent; ctx.beginPath(); ctx.arc(sx(tt), sy(vv), 4.5, 0, 7); ctx.fill();
       // 자극 표시
       ctx.fillStyle = T.figInk; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'center';
-      ctx.beginPath(); ctx.moveTo(sx(0), B - 2); ctx.lineTo(sx(0) - 5, B + 4 - 10); ctx.lineTo(sx(0) + 5, B + 4 - 10); ctx.closePath();
+      ctx.beginPath(); ctx.moveTo(sx(0), B - 2); ctx.lineTo(sx(0) - 5, B + 4 - 10); ctx.lineTo(sx(0) + 5, B + 4 - 10); ctx.closePath(); ctx.fill();
       ctx.fillText('자극', sx(0) - 14, sy(-85) + 2);
       function curve(s, tEnd, col, lw) {
         ctx.strokeStyle = col; ctx.lineWidth = lw; ctx.beginPath();
@@ -220,6 +220,6 @@ Sims.register('action-potential', {
     }
     api.onResize(draw);
     // 첫 화면: 역치 미만(자극 3) 곡선을 흐리게, 역치 이상(자극 6) 곡선을 끝까지 그려 둔다
-    st.ghosts = [3]; st.cur = 6; setT(1.0);
+    st.ghosts = [3]; st.cur = 6; setT(0.7);
   },
 });

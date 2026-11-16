@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 310" role="img" aria-labelledby="t-emq-2-stimulated-emission d-emq-2-stimulated-emission">
+  <title id="t-emq-2-stimulated-emission">그림 전자기와 양자 2-2 흡수, 자발 방출, 유도 방출</title>
+  <desc id="d-emq-2-stimulated-emission">흡수에서는 광자가 사라지고 원자가 들뜬다. 자발 방출에서는 들뜬 원자가 아무 방향으로나 광자를 낸다. 유도 방출에서는 지나가는 광자가 들뜬 원자를 자극해 진동수·위상·방향이 같은 광자 두 개가 나온다.</desc>
+  <style>
+    .emq-2-stimulated-emission-t{font-size:15px;fill:var(--fig-ink);font-weight:600}
+    .emq-2-stimulated-emission-s{font-size:13px;fill:var(--fig-muted)}
+    .emq-2-stimulated-emission-k{font-size:13px;fill:var(--fig-ink)}
+    .emq-2-stimulated-emission-lv{fill:none;stroke:var(--fig-ink);stroke-width:2}
+    .emq-2-stimulated-emission-e{fill:var(--fig-blue)}
+    .emq-2-stimulated-emission-eo{fill:none;stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:3 3}
+    .emq-2-stimulated-emission-ph{fill:none;stroke:var(--fig-red);stroke-width:2.2}
+    .emq-2-stimulated-emission-ah{fill:var(--fig-red)}
+    .emq-2-stimulated-emission-jump{fill:none;stroke:var(--fig-muted);stroke-width:1.5}
+    .emq-2-stimulated-emission-jh{fill:var(--fig-muted)}
+    .emq-2-stimulated-emission-pan{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1}
+  </style>
+  <defs>
+    <path id="emq-2-stimulated-emission-w" d="M0 0 q5 -8 10 0 t10 0 t10 0 t10 0 t10 0"/>
+  </defs>
+  <rect x="10" y="10" width="225" height="290" rx="10" class="emq-2-stimulated-emission-pan"/>
+  <rect x="247" y="10" width="225" height="290" rx="10" class="emq-2-stimulated-emission-pan"/>
+  <rect x="484" y="10" width="226" height="290" rx="10" class="emq-2-stimulated-emission-pan"/>
+  <text x="122" y="36" text-anchor="middle" class="emq-2-stimulated-emission-t">흡수</text>
+  <text x="359" y="36" text-anchor="middle" class="emq-2-stimulated-emission-t">자발 방출</text>
+  <text x="597" y="36" text-anchor="middle" class="emq-2-stimulated-emission-t">유도 방출</text>
+  <!-- 공통: 준위 E2(y=100), E1(y=170) 각 패널의 원자 영역 x 110~200 -->
+  <!-- 흡수 -->
+  <path d="M110 100 H200 M110 170 H200" class="emq-2-stimulated-emission-lv"/>
+  <text x="205" y="104" class="emq-2-stimulated-emission-s">E₂</text><text x="205" y="174" class="emq-2-stimulated-emission-s">E₁</text>
+  <circle cx="155" cy="170" r="7" class="emq-2-stimulated-emission-eo"/>
+  <circle cx="155" cy="100" r="7" class="emq-2-stimulated-emission-e"/>
+  <path d="M155 160 V112" class="emq-2-stimulated-emission-jump"/><path d="M155 108 l-5 9 h10 z" class="emq-2-stimulated-emission-jh"/>
+  <use href="#emq-2-stimulated-emission-w" x="30" y="135" class="emq-2-stimulated-emission-ph"/>
+  <path d="M90 135 l-10 -6 v12 z" class="emq-2-stimulated-emission-ah"/>
+  <text x="56" y="122" text-anchor="middle" class="emq-2-stimulated-emission-s">광자</text>
+  <text x="24" y="222" class="emq-2-stimulated-emission-k">광자 1개가 사라지고</text>
+  <text x="24" y="242" class="emq-2-stimulated-emission-k">전자가 E₁ → E₂로 올라감</text>
+  <text x="24" y="270" class="emq-2-stimulated-emission-s">광자 에너지 = E₂ − E₁</text>
+  <!-- 자발 방출 -->
+  <path d="M290 100 H380 M290 170 H380" class="emq-2-stimulated-emission-lv"/>
+  <text x="385" y="104" class="emq-2-stimulated-emission-s">E₂</text><text x="385" y="174" class="emq-2-stimulated-emission-s">E₁</text>
+  <circle cx="335" cy="100" r="7" class="emq-2-stimulated-emission-eo"/>
+  <circle cx="335" cy="170" r="7" class="emq-2-stimulated-emission-e"/>
+  <path d="M335 110 V158" class="emq-2-stimulated-emission-jump"/><path d="M335 162 l-5 -9 h10 z" class="emq-2-stimulated-emission-jh"/>
+  <use href="#emq-2-stimulated-emission-w" x="0" y="0" class="emq-2-stimulated-emission-ph" transform="translate(352 125) rotate(-35)"/>
+  <path d="M0 0 l-10 -6 v12 z" class="emq-2-stimulated-emission-ah" transform="translate(393 96) rotate(-35)"/>
+  <text x="261" y="222" class="emq-2-stimulated-emission-k">들뜬 원자가 스스로</text>
+  <text x="261" y="242" class="emq-2-stimulated-emission-k">아무 때, 아무 방향으로 방출</text>
+  <text x="261" y="270" class="emq-2-stimulated-emission-s">전구·형광등·LED의 빛</text>
+  <!-- 유도 방출 -->
+  <path d="M560 100 H630 M560 170 H630" class="emq-2-stimulated-emission-lv"/>
+  <text x="635" y="104" class="emq-2-stimulated-emission-s">E₂</text><text x="635" y="174" class="emq-2-stimulated-emission-s">E₁</text>
+  <circle cx="595" cy="100" r="7" class="emq-2-stimulated-emission-eo"/>
+  <circle cx="595" cy="170" r="7" class="emq-2-stimulated-emission-e"/>
+  <path d="M595 110 V158" class="emq-2-stimulated-emission-jump"/><path d="M595 162 l-5 -9 h10 z" class="emq-2-stimulated-emission-jh"/>
+  <use href="#emq-2-stimulated-emission-w" x="496" y="135" class="emq-2-stimulated-emission-ph"/>
+  <path d="M556 135 l-10 -6 v12 z" class="emq-2-stimulated-emission-ah"/>
+  <text x="520" y="122" text-anchor="middle" class="emq-2-stimulated-emission-s">광자</text>
+  <use href="#emq-2-stimulated-emission-w" x="640" y="125" class="emq-2-stimulated-emission-ph"/>
+  <use href="#emq-2-stimulated-emission-w" x="640" y="145" class="emq-2-stimulated-emission-ph"/>
+  <path d="M700 125 l-10 -6 v12 z M700 145 l-10 -6 v12 z" class="emq-2-stimulated-emission-ah"/>
+  <text x="498" y="222" class="emq-2-stimulated-emission-k">광자 1개 → 똑같은 광자 2개</text>
+  <text x="498" y="242" class="emq-2-stimulated-emission-k">진동수·위상·방향·편광 같음</text>
+  <text x="498" y="270" class="emq-2-stimulated-emission-s">레이저의 빛 증폭 원리</text>
+</svg>

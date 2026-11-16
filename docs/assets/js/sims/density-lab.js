@@ -89,7 +89,7 @@ Sims.register('density-lab', {
       if (S.key === 'ice') { ctx.fillText('얼음은 가는 막대로 눌러 잠기게 한다', r.x + r.w / 2, bot + 30); }
     }
     function drawGraph(T, r) {
-      var L = r.x + 46, R = r.x + r.w - 14, Tp = r.y + 34, B = r.y + r.h - 36;
+      var L = r.x + 56, R = r.x + r.w - 14, Tp = r.y + 34, B = r.y + r.h - 36;
       var sx = function (v) { return L + v / VMAX * (R - L); }, sy = function (m) { return B - m / MMAX * (B - Tp); };
       title(T, '② 질량–부피 그래프 (기울기 = 밀도)', r.x + r.w / 2, r.y + 16);
       ctx.save(); ctx.beginPath(); ctx.rect(L, Tp, R - L, B - Tp); ctx.clip();

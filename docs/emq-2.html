@@ -285,7 +285,71 @@
 </tr>
 </tbody></table></div>
 <p>막의 두께가 장소마다 다르면 보강되는 색이 달라져 무지개색 무늬가 생긴다. 세워 둔 비누막은 중력 때문에 위가 얇고 아래가 두꺼워져 <strong>가로 줄무늬</strong>가 나타나며, 시간이 지나 맨 위가 아주 얇아지면(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0</span></span></span></span>) 경로차는 0이지만 한 번의 위상 반전 때문에 상쇄되어 <strong>검게</strong> 보인다.</p>
-
+<figure class="fig" id="fig-emq-2-thin-film"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-emq-2-thin-film d-emq-2-thin-film">
+  <title id="t-emq-2-thin-film">그림 전자기와 양자 2-1 얇은 막의 간섭 — 두 반사광과 위상 반전</title>
+  <desc id="d-emq-2-thin-film">얇은 막의 윗면과 아랫면에서 반사된 두 빛이 겹친다. 경로차는 약 2nt이고, 굴절률이 작은 곳에서 큰 곳으로의 경계에서 반사될 때마다 위상이 반대로 바뀐다. 비누막은 한 번, 유리 위 반사 방지 코팅은 두 번 바뀐다.</desc>
+  <style>
+    .emq-2-thin-film-t{font-size:15px;fill:var(--fig-ink);font-weight:600}
+    .emq-2-thin-film-s{font-size:13px;fill:var(--fig-muted)}
+    .emq-2-thin-film-k{font-size:13px;fill:var(--fig-ink)}
+    .emq-2-thin-film-r{font-size:13px;fill:var(--fig-red);font-weight:600}
+    .emq-2-thin-film-film{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5}
+    .emq-2-thin-film-glass{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5}
+    .emq-2-thin-film-ray{fill:none;stroke:var(--fig-amber);stroke-width:2.5}
+    .emq-2-thin-film-ray2{fill:none;stroke:var(--fig-violet);stroke-width:2.5}
+    .emq-2-thin-film-ah{fill:var(--fig-amber)} .emq-2-thin-film-ah2{fill:var(--fig-violet)}
+    .emq-2-thin-film-dim{fill:none;stroke:var(--fig-ink);stroke-width:1.2}
+    .emq-2-thin-film-mark{fill:var(--fig-red)}
+  </style>
+  <!-- (가) 비누막 -->
+  <text x="20" y="28" class="emq-2-thin-film-t">(가) 공기 중의 비누막 (n = 1.33)</text>
+  <text x="30" y="70" class="emq-2-thin-film-s">공기 (n = 1.00)</text>
+  <rect x="20" y="150" width="320" height="50" class="emq-2-thin-film-film"/>
+  <text x="330" y="180" text-anchor="end" class="emq-2-thin-film-s">막 (n = 1.33)</text>
+  <text x="30" y="226" class="emq-2-thin-film-s">공기 (n = 1.00)</text>
+  <!-- 입사광 -->
+  <path d="M60 60 L120 150" class="emq-2-thin-film-ray"/>
+  <path d="M100 120 l3 -10 l6 8 z" class="emq-2-thin-film-ah" transform="rotate(-24 104 116)"/>
+  <!-- 반사 1 -->
+  <path d="M120 150 L180 60" class="emq-2-thin-film-ray"/>
+  <path d="M180 60 l-1 11 l-8 -5 z" class="emq-2-thin-film-ah"/>
+  <text x="186" y="58" class="emq-2-thin-film-k">반사광 ①</text>
+  <circle cx="120" cy="150" r="5" class="emq-2-thin-film-mark"/>
+  <!-- 굴절-아랫면 반사-나옴 -->
+  <path d="M120 150 L150 200 L180 150 L240 60" class="emq-2-thin-film-ray2"/>
+  <path d="M240 60 l-1 11 l-8 -5 z" class="emq-2-thin-film-ah2"/>
+  <text x="246" y="78" class="emq-2-thin-film-k">반사광 ②</text>
+  <!-- 두께 -->
+  <path d="M300 150 L300 200 M294 150 L306 150 M294 200 L306 200" class="emq-2-thin-film-dim"/>
+  <text x="290" y="168" text-anchor="end" class="emq-2-thin-film-k">t</text>
+  <text x="20" y="256" class="emq-2-thin-film-r">● 윗면(공기→막) 반사: 위상 반전</text>
+  <text x="20" y="276" class="emq-2-thin-film-k">아랫면(막→공기) 반사: 위상 그대로</text>
+  <text x="20" y="300" class="emq-2-thin-film-k">반전 1번 → 보강: 2nt = (m + ½)λ</text>
+  <text x="20" y="320" class="emq-2-thin-film-s">t → 0 이면 상쇄되어 검게 보인다</text>
+  <line x1="360" y1="20" x2="360" y2="330" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
+  <!-- (나) 반사 방지 코팅 -->
+  <text x="380" y="28" class="emq-2-thin-film-t">(나) 유리 위 반사 방지 코팅 (n = 1.38)</text>
+  <text x="390" y="70" class="emq-2-thin-film-s">공기 (n = 1.00)</text>
+  <rect x="380" y="150" width="320" height="50" class="emq-2-thin-film-film"/>
+  <text x="690" y="180" text-anchor="end" class="emq-2-thin-film-s">코팅 (n = 1.38)</text>
+  <rect x="380" y="200" width="320" height="34" class="emq-2-thin-film-glass"/>
+  <text x="690" y="222" text-anchor="end" class="emq-2-thin-film-s">유리 (n = 1.5)</text>
+  <path d="M420 60 L480 150" class="emq-2-thin-film-ray"/>
+  <path d="M460 120 l3 -10 l6 8 z" class="emq-2-thin-film-ah" transform="rotate(-24 464 116)"/>
+  <path d="M480 150 L540 60" class="emq-2-thin-film-ray"/>
+  <path d="M540 60 l-1 11 l-8 -5 z" class="emq-2-thin-film-ah"/>
+  <text x="546" y="58" class="emq-2-thin-film-k">반사광 ①</text>
+  <circle cx="480" cy="150" r="5" class="emq-2-thin-film-mark"/>
+  <path d="M480 150 L510 200 L540 150 L600 60" class="emq-2-thin-film-ray2"/>
+  <path d="M600 60 l-1 11 l-8 -5 z" class="emq-2-thin-film-ah2"/>
+  <text x="606" y="78" class="emq-2-thin-film-k">반사광 ②</text>
+  <circle cx="510" cy="200" r="5" class="emq-2-thin-film-mark"/>
+  <text x="380" y="256" class="emq-2-thin-film-r">● 두 경계 모두 작은 n → 큰 n: 둘 다 반전</text>
+  <text x="380" y="276" class="emq-2-thin-film-k">반전 효과가 서로 비김</text>
+  <text x="380" y="300" class="emq-2-thin-film-k">반전 2번 → 상쇄: 2nt = (m + ½)λ</text>
+  <text x="380" y="320" class="emq-2-thin-film-s">빛을 거의 수직으로 비춘다고 보고, 각도를 과장한 모식도</text>
+</svg>
+</div><figcaption><b>그림 전자기와 양자 2-1 얇은 막의 간섭 — 두 반사광과 위상 반전</b> 얇은 막의 윗면과 아랫면에서 반사된 두 빛이 겹친다. 경로차는 약 2nt이고, 굴절률이 작은 곳에서 큰 곳으로의 경계에서 반사될 때마다 위상이 반대로 바뀐다. 비누막은 한 번, 유리 위 반사 방지 코팅은 두 번 바뀐다.</figcaption></figure>
 
 <h4 id="예제-2-비누막의-색">예제 2 — 비누막의 색</h4>
 <p>굴절률 1.33인 비누막에 파장 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">532</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">nm</span></span></span></span></span>의 초록빛을 수직으로 비춘다. 반사광이 가장 밝게 보이는 막의 최소 두께는?</p>
@@ -663,7 +727,72 @@
 </tr>
 </tbody></table></div>
 <p><strong>레이저(LASER)</strong> 는 Light Amplification by Stimulated Emission of Radiation, 즉 <strong>유도 방출에 의한 빛의 증폭</strong>의 머리글자이다.</p>
-
+<figure class="fig" id="fig-emq-2-stimulated-emission"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 310" role="img" aria-labelledby="t-emq-2-stimulated-emission d-emq-2-stimulated-emission">
+  <title id="t-emq-2-stimulated-emission">그림 전자기와 양자 2-2 흡수, 자발 방출, 유도 방출</title>
+  <desc id="d-emq-2-stimulated-emission">흡수에서는 광자가 사라지고 원자가 들뜬다. 자발 방출에서는 들뜬 원자가 아무 방향으로나 광자를 낸다. 유도 방출에서는 지나가는 광자가 들뜬 원자를 자극해 진동수·위상·방향이 같은 광자 두 개가 나온다.</desc>
+  <style>
+    .emq-2-stimulated-emission-t{font-size:15px;fill:var(--fig-ink);font-weight:600}
+    .emq-2-stimulated-emission-s{font-size:13px;fill:var(--fig-muted)}
+    .emq-2-stimulated-emission-k{font-size:13px;fill:var(--fig-ink)}
+    .emq-2-stimulated-emission-lv{fill:none;stroke:var(--fig-ink);stroke-width:2}
+    .emq-2-stimulated-emission-e{fill:var(--fig-blue)}
+    .emq-2-stimulated-emission-eo{fill:none;stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:3 3}
+    .emq-2-stimulated-emission-ph{fill:none;stroke:var(--fig-red);stroke-width:2.2}
+    .emq-2-stimulated-emission-ah{fill:var(--fig-red)}
+    .emq-2-stimulated-emission-jump{fill:none;stroke:var(--fig-muted);stroke-width:1.5}
+    .emq-2-stimulated-emission-jh{fill:var(--fig-muted)}
+    .emq-2-stimulated-emission-pan{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1}
+  </style>
+  <defs>
+    <path id="emq-2-stimulated-emission-w" d="M0 0 q5 -8 10 0 t10 0 t10 0 t10 0 t10 0"/>
+  </defs>
+  <rect x="10" y="10" width="225" height="290" rx="10" class="emq-2-stimulated-emission-pan"/>
+  <rect x="247" y="10" width="225" height="290" rx="10" class="emq-2-stimulated-emission-pan"/>
+  <rect x="484" y="10" width="226" height="290" rx="10" class="emq-2-stimulated-emission-pan"/>
+  <text x="122" y="36" text-anchor="middle" class="emq-2-stimulated-emission-t">흡수</text>
+  <text x="359" y="36" text-anchor="middle" class="emq-2-stimulated-emission-t">자발 방출</text>
+  <text x="597" y="36" text-anchor="middle" class="emq-2-stimulated-emission-t">유도 방출</text>
+  <!-- 공통: 준위 E2(y=100), E1(y=170) 각 패널의 원자 영역 x 110~200 -->
+  <!-- 흡수 -->
+  <path d="M110 100 H200 M110 170 H200" class="emq-2-stimulated-emission-lv"/>
+  <text x="205" y="104" class="emq-2-stimulated-emission-s">E₂</text><text x="205" y="174" class="emq-2-stimulated-emission-s">E₁</text>
+  <circle cx="155" cy="170" r="7" class="emq-2-stimulated-emission-eo"/>
+  <circle cx="155" cy="100" r="7" class="emq-2-stimulated-emission-e"/>
+  <path d="M155 160 V112" class="emq-2-stimulated-emission-jump"/><path d="M155 108 l-5 9 h10 z" class="emq-2-stimulated-emission-jh"/>
+  <use href="#emq-2-stimulated-emission-w" x="30" y="135" class="emq-2-stimulated-emission-ph"/>
+  <path d="M90 135 l-10 -6 v12 z" class="emq-2-stimulated-emission-ah"/>
+  <text x="56" y="122" text-anchor="middle" class="emq-2-stimulated-emission-s">광자</text>
+  <text x="24" y="222" class="emq-2-stimulated-emission-k">광자 1개가 사라지고</text>
+  <text x="24" y="242" class="emq-2-stimulated-emission-k">전자가 E₁ → E₂로 올라감</text>
+  <text x="24" y="270" class="emq-2-stimulated-emission-s">광자 에너지 = E₂ − E₁</text>
+  <!-- 자발 방출 -->
+  <path d="M290 100 H380 M290 170 H380" class="emq-2-stimulated-emission-lv"/>
+  <text x="385" y="104" class="emq-2-stimulated-emission-s">E₂</text><text x="385" y="174" class="emq-2-stimulated-emission-s">E₁</text>
+  <circle cx="335" cy="100" r="7" class="emq-2-stimulated-emission-eo"/>
+  <circle cx="335" cy="170" r="7" class="emq-2-stimulated-emission-e"/>
+  <path d="M335 110 V158" class="emq-2-stimulated-emission-jump"/><path d="M335 162 l-5 -9 h10 z" class="emq-2-stimulated-emission-jh"/>
+  <use href="#emq-2-stimulated-emission-w" x="0" y="0" class="emq-2-stimulated-emission-ph" transform="translate(352 125) rotate(-35)"/>
+  <path d="M0 0 l-10 -6 v12 z" class="emq-2-stimulated-emission-ah" transform="translate(393 96) rotate(-35)"/>
+  <text x="261" y="222" class="emq-2-stimulated-emission-k">들뜬 원자가 스스로</text>
+  <text x="261" y="242" class="emq-2-stimulated-emission-k">아무 때, 아무 방향으로 방출</text>
+  <text x="261" y="270" class="emq-2-stimulated-emission-s">전구·형광등·LED의 빛</text>
+  <!-- 유도 방출 -->
+  <path d="M560 100 H630 M560 170 H630" class="emq-2-stimulated-emission-lv"/>
+  <text x="635" y="104" class="emq-2-stimulated-emission-s">E₂</text><text x="635" y="174" class="emq-2-stimulated-emission-s">E₁</text>
+  <circle cx="595" cy="100" r="7" class="emq-2-stimulated-emission-eo"/>
+  <circle cx="595" cy="170" r="7" class="emq-2-stimulated-emission-e"/>
+  <path d="M595 110 V158" class="emq-2-stimulated-emission-jump"/><path d="M595 162 l-5 -9 h10 z" class="emq-2-stimulated-emission-jh"/>
+  <use href="#emq-2-stimulated-emission-w" x="496" y="135" class="emq-2-stimulated-emission-ph"/>
+  <path d="M556 135 l-10 -6 v12 z" class="emq-2-stimulated-emission-ah"/>
+  <text x="520" y="122" text-anchor="middle" class="emq-2-stimulated-emission-s">광자</text>
+  <use href="#emq-2-stimulated-emission-w" x="640" y="125" class="emq-2-stimulated-emission-ph"/>
+  <use href="#emq-2-stimulated-emission-w" x="640" y="145" class="emq-2-stimulated-emission-ph"/>
+  <path d="M700 125 l-10 -6 v12 z M700 145 l-10 -6 v12 z" class="emq-2-stimulated-emission-ah"/>
+  <text x="498" y="222" class="emq-2-stimulated-emission-k">광자 1개 → 똑같은 광자 2개</text>
+  <text x="498" y="242" class="emq-2-stimulated-emission-k">진동수·위상·방향·편광 같음</text>
+  <text x="498" y="270" class="emq-2-stimulated-emission-s">레이저의 빛 증폭 원리</text>
+</svg>
+</div><figcaption><b>그림 전자기와 양자 2-2 흡수, 자발 방출, 유도 방출</b> 흡수에서는 광자가 사라지고 원자가 들뜬다. 자발 방출에서는 들뜬 원자가 아무 방향으로나 광자를 낸다. 유도 방출에서는 지나가는 광자가 들뜬 원자를 자극해 진동수·위상·방향이 같은 광자 두 개가 나온다.</figcaption></figure>
 
 <h4 id="빛이-증폭되기-위한-조건">빛이 증폭되기 위한 조건</h4>
 <ol>

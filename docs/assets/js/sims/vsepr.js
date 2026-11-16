@@ -39,9 +39,9 @@ Sims.register('vsepr', {
     function rad(a) { return a === 'H' ? 0.3 : a === 'Be' || a === 'B' || a === 'C' || a === 'N' || a === 'O' ? 0.46 : 0.42; }
 
     var S = api.scene3d({
-      yaw: 0.45, pitch: 0.3, dist: 10, scale: 0.19, label: '중심 원자 주위의 전자쌍 배치와 분자 모양을 보여 주는 입체 모형',
-      aspect: function (w) { return w < 560 ? 1.0 : 0.58; },
-      draw: function (g, T) {
+      yaw: 0.45, pitch: 0.3, dist: 10, scale: 0.155, label: '중심 원자 주위의 전자쌍 배치와 분자 모양을 보여 주는 입체 모형',
+      aspect: function (w) { return w < 560 ? 1.05 : 0.58; },
+      draw: function (g, T, SS) {
         var M = mols[state.m], dirs = M.bonds;
         // 전자쌍 배치 틀(모든 전자쌍 방향의 끝을 잇는 반투명 면)
         if (state.frame) {
@@ -77,7 +77,7 @@ Sims.register('vsepr', {
           var q = norm(cross(d, Math.abs(d[0]) > 0.9 ? [0, 1, 0] : [1, 0, 0]));
           g.sphere(add(sc(d, 1.0), sc(q, 0.14)), 0.07, T.figViolet, { flat: true });
           g.sphere(add(sc(d, 1.0), sc(q, -0.14)), 0.07, T.figViolet, { flat: true });
-          g.text(sc(d, 1.85), '비공유 전자쌍', { color: T.figViolet, size: 12, bold: true });
+          g.text(sc(d, 1.6), '비공유 전자쌍', { color: T.figViolet, size: 12, bold: true, align: 'right', dx: -16 });
         });
         // 결합각 호
         if (dirs.length >= 2) {
@@ -110,12 +110,13 @@ Sims.register('vsepr', {
             net = add(net, sc(toward, mag));
             g.text(add(sc(d, BL), sc(perp, -0.55)), diff > 0 ? 'δ−' : 'δ+', { color: T.figRed, size: 12, bold: true });
           });
-          g.text([-0.62, 0.2, 0.55], diff > 0 ? 'δ+' : 'δ−', { color: T.figRed, size: 12, bold: true });
+          var rpx = rad(M.c) * SS.project([0, 0, 0]).k;
+          g.text([0, 0, 0], diff > 0 ? 'δ+' : 'δ−', { color: T.figRed, size: 13, bold: true, align: 'right', dx: -rpx * 0.75, dy: -rpx * 0.95 });
           var nl = Math.hypot(net[0], net[1], net[2]);
           if (nl > 0.05) {
-            var nd = norm(net), tail = sc(nd, -0.2), head = sc(nd, 0.2 + Math.min(2.2, nl * 1.1) + 0.6);
+            var nd = norm(net), tail = sc(nd, -0.2), head = sc(nd, 1.0 + Math.min(1.0, nl * 0.6));
             g.arrow(tail, head, T.figGreen, { width: 4, head: 12 });
-            g.text(add(head, sc(nd, 0.3)), '쌍극자의 합', { color: T.figGreen, size: 12, bold: true });
+            g.text(head, '쌍극자의 합', { color: T.figGreen, size: 12, bold: true, align: 'left', dx: 12 });
           }
           state.net = nl;
         }
@@ -136,7 +137,7 @@ Sims.register('vsepr', {
       bDip.setAttribute('aria-pressed', state.dip ? 'true' : 'false');
       var M = mols[state.m];
       var n = M.bonds.length + M.lp.length;
-      rM.set(M.f + ': ' + n + '쌍 (공유 ' + M.bonds.length + (M.order === 2 ? ', 이중 결합은 1쌍 취급' : '') + ' / 비공유 ' + M.lp.length + ') → ' + M.domain + ' 배치');
+      rM.set(M.f + ': ' + (M.order === 2 ? '이중 결합 2개 = 전자쌍 2개로 취급 (비공유 0)' : n + '쌍 (공유 ' + M.bonds.length + ' / 비공유 ' + M.lp.length + ')') + ' → ' + M.domain + ' 배치');
       rS.set(M.shape + ' · ' + M.angleTxt);
       if (!state.dip) rP.set('‘쌍극자 보기’를 눌러 확인');
       else {

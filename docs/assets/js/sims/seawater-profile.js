@@ -60,7 +60,7 @@ Sims.register('seawater-profile', {
       var zBreak = top + (bot - top) * 0.58;
       function Y(z) { return z <= 100 ? top + (zBreak - top) * z / 100 : zBreak + (bot - zBreak) * (z - 100) / (ZMAX - 100); }
       var colX = 8, colW = narrow ? w * 0.3 : w * 0.3;
-      var gL = colX + colW + (narrow ? 44 : 64), gR = w - 14;
+      var gL = colX + colW + (narrow ? 56 : 76), gR = w - 14;
       function X(t) { return gL + t / 30 * (gR - gL); }
       // 하늘: 해와 바람
       var sunR = 8 + 10 * st.s;
@@ -112,7 +112,7 @@ Sims.register('seawater-profile', {
       [0, 20, 40, 60, 80, 100, 200, 300, 400, 500].forEach(function (z) { ctx.beginPath(); ctx.moveTo(gL, Y(z)); ctx.lineTo(gR, Y(z)); ctx.stroke(); ctx.fillText(z, gL - 6, Y(z) + 4); });
       ctx.fillStyle = T.figInk; ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'center';
       ctx.fillText('수온 (°C)', (gL + gR) / 2, top - 22);
-      ctx.save(); ctx.translate(gL - (narrow ? 34 : 40), (top + bot) / 2); ctx.rotate(-Math.PI / 2); ctx.fillText('깊이 (m)', 0, 0); ctx.restore();
+      ctx.save(); ctx.translate(gL - (narrow ? 42 : 50), (top + bot) / 2); ctx.rotate(-Math.PI / 2); ctx.fillText('깊이 (m)', 0, 0); ctx.restore();
       // 눈금 간격이 바뀌는 곳
       ctx.strokeStyle = T.figMuted; ctx.lineWidth = 1.5; ctx.beginPath();
       ctx.moveTo(gL - 5, zBreak - 3); ctx.lineTo(gL + 5, zBreak - 7); ctx.moveTo(gL - 5, zBreak + 3); ctx.lineTo(gL + 5, zBreak - 1); ctx.stroke();

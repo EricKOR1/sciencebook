@@ -59,7 +59,7 @@ Sims.register('seismic-waves', {
     raysP.concat(raysS).forEach(function (o) { var pp = o.ray.pts; TMAX = Math.max(TMAX, pp[pp.length - 1].t); });
 
     var state = { show: 'both', src: 0, t: TMAX, playing: false };
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.2 : 0.64; }, label: '지구 단면에서 진원으로부터 퍼지는 P파와 S파의 경로, 그림자대' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.36 : 0.64; }, label: '지구 단면에서 진원으로부터 퍼지는 P파와 S파의 경로, 그림자대' });
     var ctx = cv.ctx;
     var rT = api.readout('진원에서 출발한 뒤');
     var rP = api.readout('P파 그림자대');
@@ -89,7 +89,7 @@ Sims.register('seismic-waves', {
 
     function geom() {
       var w = cv.w, h = cv.h, narrow = w < 560;
-      if (narrow) { var rr = Math.min(w / 2 - 40, h * 0.36); return { cx: w / 2, cy: rr + 38, R: rr, narrow: true, lx: 12, ly: 2 * rr + 82 }; }
+      if (narrow) { var rr = Math.min(w / 2 - 40, h * 0.36); return { cx: w / 2, cy: rr + 38, R: rr, narrow: true, lx: 16, ly: 2 * rr + 86 }; }
       var R2 = Math.min(h / 2 - 40, w * 0.33);
       return { cx: R2 + 52, cy: h / 2, R: R2, narrow: false, lx: 2 * R2 + 120, ly: 40 };
     }
@@ -126,7 +126,7 @@ Sims.register('seismic-waves', {
           if (G.narrow && sg < 0 && d % 60 !== 0) return;
           var p1 = XY(G, R, state.src + sg * d), p2 = XY(G, R * 1.03, state.src + sg * d), p3 = XY(G, R * (G.narrow ? 1.17 : 1.15), state.src + sg * d);
           ctx.strokeStyle = T.figMuted; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(p1[0], p1[1]); ctx.lineTo(p2[0], p2[1]); ctx.stroke();
-          ctx.fillText(d + '°', p3[0], p3[1] + 4);
+          if (d > 0) ctx.fillText(d + '°', p3[0], p3[1] + 4);
         });
       }
       // 광선
@@ -162,7 +162,7 @@ Sims.register('seismic-waves', {
       // 진원
       var s0 = XY(G, R, state.src);
       ctx.beginPath(); ctx.arc(s0[0], s0[1], 6, 0, Math.PI * 2); ctx.fillStyle = T.figAmber; ctx.fill(); ctx.strokeStyle = T.figInk; ctx.lineWidth = 1.5; ctx.stroke();
-      var sl = XY(G, R * 1.3, state.src);
+      var sl = XY(G, R * (G.narrow ? 1.17 : 1.15), state.src);
       ctx.fillStyle = T.figInk; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'center'; ctx.fillText('진원', sl[0], sl[1] + 4);
       // 범례
       var lx = G.lx, ly = G.ly, rows = [];
@@ -172,9 +172,9 @@ Sims.register('seismic-waves', {
       if (showP) rows.push([T.figBlue, 'band', 'P파 그림자대 ' + Math.round(pStart) + '°~' + Math.round(pEnd) + '°']);
       if (showS) rows.push([T.figRed, 'band', 'S파 그림자대 ' + Math.round(sStart) + '° 이상']);
       ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'left';
-      var colW = G.narrow ? (w - 24) / 2 : 0;
+      var colW = 0;
       rows.forEach(function (rw, i) {
-        var x = lx + (G.narrow ? (i % 2) * colW : 0), y = ly + (G.narrow ? Math.floor(i / 2) * 20 : i * 22);
+        var x = lx + colW, y = ly + i * (G.narrow ? 19 : 22);
         ctx.strokeStyle = rw[0]; ctx.setLineDash(rw[1] === 'dash' ? [4, 4] : []);
         ctx.lineWidth = rw[1] === 'band' ? 6 : 2;
         ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(x + 22, y); ctx.stroke(); ctx.setLineDash([]);

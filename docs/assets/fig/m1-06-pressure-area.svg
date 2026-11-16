@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-m1-06-pressure-area d-m1-06-pressure-area">
+  <title id="t-m1-06-pressure-area">그림 중1-6-1 같은 힘, 다른 넓이 — 압력 비교</title>
+  <desc id="d-m1-06-pressure-area">무게가 같은 벽돌 두 개를 스펀지 위에 놓았다. 바닥을 누르는 힘은 같지만, 좁은 면이 닿게 세운 벽돌은 힘을 받는 면적이 좁아 압력이 크므로 스펀지가 더 깊이 들어간다. 모식도이다.</desc>
+  <style>
+    .pa-red{fill:none;stroke:var(--fig-red)} .pa-redh{fill:var(--fig-red)}
+    .pa-blue{fill:none;stroke:var(--fig-blue)} .pa-blueh{fill:var(--fig-blue)}
+    .pa-green{fill:none;stroke:var(--fig-green)} .pa-greenh{fill:var(--fig-green)}
+    .pa-ink{fill:none;stroke:var(--fig-ink)} .pa-inkh{fill:var(--fig-ink)}
+    .pa-violet{fill:none;stroke:var(--fig-violet)} .pa-violeth{fill:var(--fig-violet)}
+    .pa-muted{fill:none;stroke:var(--fig-muted)} .pa-mutedh{fill:var(--fig-muted)}
+    .pa-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .pa-t{font-size:14px;fill:var(--fig-ink)}
+    .pa-sm{font-size:13px;fill:var(--fig-muted)}
+    .pa-rb{font-size:14px;font-weight:700;fill:var(--fig-red)}
+    .pa-bb{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+    .pa-ld{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .pa-brick{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2}
+    .pa-sponge{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8}
+    .pa-hole{fill:var(--fig-amber);stroke:none;opacity:.35}
+  </style>
+  <text x="180" y="294" text-anchor="middle" class="pa-h">넓은 면이 닿게 눕힘</text>
+  <path d="M40 210 L90 210 L94 216 L266 216 L270 210 L320 210 L320 270 L40 270 Z" class="pa-sponge"/>
+  <circle cx="54" cy="234" r="3.5" class="pa-hole"/>
+  <circle cx="91" cy="247" r="3.5" class="pa-hole"/>
+  <circle cx="128" cy="260" r="3.5" class="pa-hole"/>
+  <circle cx="165" cy="243" r="3.5" class="pa-hole"/>
+  <circle cx="202" cy="256" r="3.5" class="pa-hole"/>
+  <circle cx="239" cy="239" r="3.5" class="pa-hole"/>
+  <circle cx="276" cy="252" r="3.5" class="pa-hole"/>
+  <circle cx="61" cy="235" r="3.5" class="pa-hole"/>
+  <circle cx="98" cy="248" r="3.5" class="pa-hole"/>
+  <circle cx="135" cy="261" r="3.5" class="pa-hole"/>
+  <circle cx="172" cy="244" r="3.5" class="pa-hole"/>
+  <circle cx="209" cy="257" r="3.5" class="pa-hole"/>
+  <circle cx="246" cy="240" r="3.5" class="pa-hole"/>
+  <circle cx="283" cy="253" r="3.5" class="pa-hole"/>
+  <circle cx="68" cy="236" r="3.5" class="pa-hole"/>
+  <circle cx="105" cy="249" r="3.5" class="pa-hole"/>
+  <circle cx="142" cy="262" r="3.5" class="pa-hole"/>
+  <circle cx="179" cy="245" r="3.5" class="pa-hole"/>
+  <rect x="90" y="168" width="180" height="48" rx="2" class="pa-brick"/>
+  <text x="540" y="294" text-anchor="middle" class="pa-h">좁은 면이 닿게 세움</text>
+  <path d="M400 210 L516 210 L520 236 L560 236 L564 210 L680 210 L680 270 L400 270 Z" class="pa-sponge"/>
+  <circle cx="414" cy="246" r="3.5" class="pa-hole"/>
+  <circle cx="451" cy="259" r="3.5" class="pa-hole"/>
+  <circle cx="488" cy="272" r="3.5" class="pa-hole"/>
+  <circle cx="525" cy="255" r="3.5" class="pa-hole"/>
+  <circle cx="562" cy="268" r="3.5" class="pa-hole"/>
+  <circle cx="599" cy="251" r="3.5" class="pa-hole"/>
+  <circle cx="636" cy="264" r="3.5" class="pa-hole"/>
+  <circle cx="421" cy="247" r="3.5" class="pa-hole"/>
+  <circle cx="458" cy="260" r="3.5" class="pa-hole"/>
+  <circle cx="495" cy="273" r="3.5" class="pa-hole"/>
+  <circle cx="532" cy="256" r="3.5" class="pa-hole"/>
+  <circle cx="569" cy="269" r="3.5" class="pa-hole"/>
+  <circle cx="606" cy="252" r="3.5" class="pa-hole"/>
+  <circle cx="643" cy="265" r="3.5" class="pa-hole"/>
+  <circle cx="428" cy="248" r="3.5" class="pa-hole"/>
+  <circle cx="465" cy="261" r="3.5" class="pa-hole"/>
+  <circle cx="502" cy="274" r="3.5" class="pa-hole"/>
+  <circle cx="539" cy="257" r="3.5" class="pa-hole"/>
+  <rect x="516" y="96" width="48" height="140" rx="2" class="pa-brick"/>
+  <line x1="180.0" y1="96.0" x2="180.0" y2="152.0" style="stroke-width:3.5;stroke-linecap:round" class="pa-green"/><path d="M180.0 166.0 L173.7 152.0 L186.3 152.0 Z" class="pa-greenh"/>
+  <text x="192" y="120" class="pa-t">누르는 힘</text><text x="192" y="138" class="pa-sm">(벽돌의 무게)</text>
+  <line x1="540.0" y1="22.0" x2="540.0" y2="78.0" style="stroke-width:3.5;stroke-linecap:round" class="pa-green"/><path d="M540.0 92.0 L533.7 78.0 L546.3 78.0 Z" class="pa-greenh"/>
+  <text x="552" y="52" class="pa-t">같은 힘</text>
+  <text x="180" y="318" text-anchor="middle" class="pa-t">면적이 넓다 → 압력이 <tspan style="font-weight:700">작다</tspan></text>
+  <text x="540" y="318" text-anchor="middle" class="pa-t">면적이 좁다 → 압력이 <tspan style="font-weight:700">크다</tspan></text>
+  <text x="588" y="230" class="pa-sm">깊이 들어감</text>
+</svg>

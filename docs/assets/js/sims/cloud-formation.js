@@ -102,14 +102,14 @@ Sims.register('cloud-formation', {
         var top = Y(st.p) - 14, cw = r.w * 0.5;
         ctx.fillStyle = T.figPanel; ctx.strokeStyle = T.figMuted; ctx.lineWidth = 1.2;
         var puffs = [];
-        var hh = Math.max(10, by - top), n = Math.max(3, Math.round(hh / 18));
-        for (var i = 0; i < n; i++) {
-          var t = i / Math.max(1, n - 1), yy = by - 10 - t * (hh - 10), ww = cw * (0.5 + 0.5 * (1 - Math.abs(t - 0.4)));
-          puffs.push([cx - ww * 0.3, yy, 14 + 4 * (i % 2)], [cx, yy - 4, 17], [cx + ww * 0.3, yy, 14 + 3 * ((i + 1) % 2)]);
+        var hh = Math.max(16, by - top), rows = Math.max(1, Math.round(hh / 16));
+        for (var i = 0; i < rows; i++) {
+          var t = rows === 1 ? 0 : i / (rows - 1), yy = by - 12 - t * (hh - 12), ww = cw * (1 - 0.45 * t), nc = Math.max(2, Math.round(ww / 22));
+          for (var j = 0; j < nc; j++) { var xx = cx - ww / 2 + ww * (j + 0.5) / nc + ((i * 7 + j * 5) % 5 - 2); puffs.push([xx, yy - ((i + j) % 2) * 3, 15 + ((i * 3 + j) % 3) * 2]); }
         }
         puffs.forEach(function (p) { ctx.beginPath(); ctx.arc(p[0], p[1], p[2], 0, Math.PI * 2); ctx.stroke(); });
         puffs.forEach(function (p) { ctx.beginPath(); ctx.arc(p[0], p[1], p[2] - 1, 0, Math.PI * 2); ctx.fill(); });
-        ctx.fillStyle = T.figPanel; ctx.fillRect(cx - cw * 0.48, by - 12, cw * 0.96, 12);
+        ctx.fillStyle = T.figPanel; ctx.fillRect(cx - cw * 0.5 - 4, by - 12, cw + 8, 12);
       }
       // 구름 밑면 선
       ctx.setLineDash([6, 4]); ctx.strokeStyle = T.figAccent; ctx.lineWidth = 1.5;
@@ -118,9 +118,9 @@ Sims.register('cloud-formation', {
       ctx.fillText(M.fog ? '지표에서 포화 (안개)' : '구름 밑면: 이슬점에 이르는 높이', ax + 16, by > gy - 20 ? by - 6 : by + 15);
       // 공기 덩어리 자취와 현재 위치
       var steps = st.anim ? [] : [0, 0.25, 0.5, 0.75].map(function (f) { return f * Math.min(M.pb, st.p); });
-      steps.forEach(function (p) { blob(T, cx - r.w * 0.27, Y(p), p, M, 0.35); });
-      blob(T, st.anim ? cx : cx - r.w * 0.27, Y(st.p), st.p, M, 1);
-      if (!st.anim) { ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'center'; ctx.fillText('공기 덩어리', cx - r.w * 0.27, gy - 4 - 22); }
+      steps.forEach(function (p) { blob(T, cx, Y(p), p, M, 0.35); });
+      blob(T, cx, Y(st.p), st.p, M, 1);
+      if (!st.anim) { ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'center'; ctx.textAlign = 'left'; ctx.fillText('공기 덩어리', cx + 18, gy - 10); }
       function blob(T, x, y, p, M, alpha) {
         var rad = 12 * (1 + 0.7 * p), PP = parcel(M, p), t = Math.max(0, Math.min(1, (M.T0 - PP.T) / 30));
         ctx.globalAlpha = alpha;
@@ -165,11 +165,11 @@ Sims.register('cloud-formation', {
       // 현재 점
       ctx.beginPath(); ctx.arc(X(P.T), Yq(P.q), 6, 0, Math.PI * 2); ctx.fillStyle = T.figPanel; ctx.fill(); ctx.strokeStyle = T.figAccent; ctx.lineWidth = 2.5; ctx.stroke();
       if (P.cloud) {
-        ctx.strokeStyle = T.figBlue; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(X(P.T) + 10, Yq(M.q)); ctx.lineTo(X(P.T) + 10, Yq(P.q)); ctx.stroke();
-        ctx.fillStyle = T.figBlue; ctx.textAlign = 'left'; ctx.font = '11px ' + T.fontBody; ctx.fillText('응결한 양', X(P.T) + 14, (Yq(M.q) + Yq(P.q)) / 2 + 4);
+        ctx.strokeStyle = T.figBlue; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(X(P.T) - 10, Yq(M.q)); ctx.lineTo(X(P.T) - 10, Yq(P.q)); ctx.stroke();
+        ctx.fillStyle = T.figBlue; ctx.textAlign = 'right'; ctx.font = '11px ' + T.fontBody; ctx.fillText('응결한 양', X(P.T) - 14, (Yq(M.q) + Yq(P.q)) / 2 + 4);
       }
-      ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
-      ctx.fillText('← 올라갈수록 기온이 낮아진다', L + 4, Tp + 12);
+      if (M.T0 - M.Td > 4) { ctx.fillStyle = T.figAccent; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'center';
+        ctx.fillText('← 올라가며 기온 하강', X((M.T0 + M.Td) / 2), Yq(M.q) - 8); }
     }
 
     api.onResize(update);

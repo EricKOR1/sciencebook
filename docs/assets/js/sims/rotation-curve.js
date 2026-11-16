@@ -23,7 +23,6 @@ Sims.register('rotation-curve', {
     var g = api.group();
     api.button('보이는 물질만', function () { setM(0); }, { parent: g });
     api.button('관측에 맞추기', function () { setM(2.8); }, { parent: g, primary: true });
-    var sl;
     function setM(x) { var inp = document.getElementById('rotation-curve-dm'); inp.value = x; inp.dispatchEvent(new Event('input')); }
 
     function upd() {

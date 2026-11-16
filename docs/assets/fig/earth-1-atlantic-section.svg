@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t-earth-1-atlantic-section d-earth-1-atlantic-section">
+  <title id="t-earth-1-atlantic-section">그림 지구과학 1-1 대서양 남북 단면으로 본 심층 순환</title>
+  <desc id="d-earth-1-atlantic-section">남극 주변에서 가라앉은 남극 중층수는 약 1000 m 깊이에서, 남극 저층수는 해저 바닥을 따라 북쪽으로 흐르고, 그린란드 남쪽에서 가라앉은 북대서양 심층수는 그 사이 깊이에서 남쪽으로 흐른다.</desc>
+  <style>
+    .earth-1-atlantic-section-t{font-size:14px;fill:var(--fig-ink)}
+    .earth-1-atlantic-section-b{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .earth-1-atlantic-section-s{font-size:13px;fill:var(--fig-muted)}
+  </style>
+  <!-- 바다 -->
+  <rect x="90" y="60" width="570" height="270" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.5"/>
+  <!-- 육지 벽 -->
+  <rect x="62" y="44" width="28" height="286" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <rect x="660" y="44" width="28" height="286" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <text x="76" y="36" text-anchor="middle" class="earth-1-atlantic-section-s">남극 대륙</text>
+  <text x="664" y="36" text-anchor="middle" class="earth-1-atlantic-section-s">그린란드 부근</text>
+  <!-- 남극 중층수 -->
+  <path d="M128 60 L176 60 C200 80 240 94 300 98 L430 104 L452 112 L430 120 L300 126 C220 126 160 110 128 60 Z" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <text x="330" y="117" text-anchor="middle" class="earth-1-atlantic-section-b">남극 중층수 →</text>
+  <!-- 북대서양 심층수 -->
+  <path d="M612 60 L656 60 L656 268 L560 266 L300 262 L176 250 L160 214 L176 178 L300 150 L560 148 L606 140 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="380" y="212" text-anchor="middle" class="earth-1-atlantic-section-b">← 북대서양 심층수</text>
+  <!-- 남극 저층수 -->
+  <path d="M90 60 L118 60 L126 120 L150 270 L300 280 L500 300 L548 316 L500 329 L91 329 L91 60 Z" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <text x="330" y="314" text-anchor="middle" class="earth-1-atlantic-section-b">남극 저층수 →</text>
+  <!-- 침강 화살표 -->
+  <line x1="634" y1="72" x2="634" y2="122" style="stroke:var(--fig-blue);stroke-width:3"/>
+  <path d="M634 132 l-7 -12 l14 0 z" style="fill:var(--fig-blue)"/>
+  <line x1="104" y1="72" x2="104" y2="250" style="stroke:var(--fig-violet);stroke-width:3"/>
+  <path d="M104 260 l-7 -12 l14 0 z" style="fill:var(--fig-violet)"/>
+  <line x1="152" y1="66" x2="168" y2="88" style="stroke:var(--fig-teal);stroke-width:3"/>
+  <path d="M174 96 l-12 -5 l9 -9 z" style="fill:var(--fig-teal)"/>
+  <!-- 깊이 눈금 -->
+  <g class="earth-1-atlantic-section-s" text-anchor="end">
+    <text x="56" y="64">0 m</text><text x="56" y="118">1000</text><text x="56" y="172">2000</text>
+    <text x="56" y="226">3000</text><text x="56" y="280">4000</text><text x="56" y="334">5000</text>
+  </g>
+  <!-- 위도 눈금 -->
+  <g class="earth-1-atlantic-section-s" text-anchor="middle">
+    <text x="131" y="350">60°S</text><text x="253" y="350">30°S</text><text x="375" y="350">적도</text>
+    <text x="497" y="350">30°N</text><text x="619" y="350">60°N</text>
+  </g>
+  <text x="420" y="54" text-anchor="middle" class="earth-1-atlantic-section-s">표층: 바람이 일으키는 표층 순환</text>
+  <text x="360" y="378" text-anchor="middle" class="earth-1-atlantic-section-t">밀도: 남극 저층수 &gt; 북대서양 심층수 &gt; 남극 중층수 — 무거운 물일수록 아래에 깔린다</text>
+  <text x="360" y="402" text-anchor="middle" class="earth-1-atlantic-section-s">모식도(해저 지형 생략, 깊이를 크게 과장). 화살표: 냉각·결빙으로 무거워진 물의 침강</text>
+</svg>
