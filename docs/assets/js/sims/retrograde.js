@@ -94,7 +94,7 @@ Sims.register('retrograde', {
       ctx.beginPath(); ctx.arc(m[0], m[1], 5, 0, 2 * Math.PI); ctx.fillStyle = T.figRed; ctx.fill();
       ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'center';
       ctx.fillStyle = T.figInk; ctx.fillText('태양', cx, cy + 23);
-      ctx.fillStyle = T.figBlue; ctx.fillText('지구', e[0] + (e[0] < cx ? -20 : 20), e[1] + 4);
+      ctx.fillStyle = T.figBlue; ctx.fillText('지구', e[0], e[1] + 20);
       ctx.fillStyle = T.figRed; ctx.fillText('화성', m[0] + (m[0] < cx ? -20 : 20), m[1] - 6);
       // 공전 방향
       ctx.strokeStyle = T.figMuted; ctx.lineWidth = 1.4; var ar = k * RM + 10;
