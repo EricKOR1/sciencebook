@@ -486,7 +486,7 @@ $$
 PV = nRT \qquad (R \approx 0.082\ \mathrm{atm\cdot L/(mol\cdot K)})
 $$
 
-$P = 1\ \mathrm{atm}$, $T = 273\ \mathrm{K}$(0 °C), $n = 1\ \mathrm{mol}$을 넣으면 $V = 0.082\times273 \approx 22.4\ \mathrm{L}$이다. 25 °C(298 K)를 넣으면 약 24.5 L가 나온다. 이 단원에서 외운 값이 하나의 식에서 나온다는 것을 알게 된다.
+$P = 1\ \mathrm{atm}$, $T = 273\ \mathrm{K}$(0 °C), $n = 1\ \mathrm{mol}$을 넣으면 $V = 0.082\times273 \approx 22.4\ \mathrm{L}$이다. 25 °C(298 K)를 넣으면 약 24.4 L(더 정밀한 $R$ 값으로는 약 24.5 L)가 나온다. 이 단원에서 외운 값이 하나의 식에서 나온다는 것을 알게 된다.
 
 ### ② 이론과 실제의 차이 — 수득률
 

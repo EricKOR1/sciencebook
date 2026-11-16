@@ -334,9 +334,9 @@ $$
 
 #### 예제 6 — 기체 1몰의 부피
 
-$0^\circ\mathrm{C}$, 1기압($1.01\times10^{5}\ \mathrm{Pa}$)에서 이상 기체 1 mol의 부피는?
+$0^\circ\mathrm{C}$, 1기압($1.013\times10^{5}\ \mathrm{Pa}$)에서 이상 기체 1 mol의 부피는?
 
-**풀이** $V = \dfrac{nRT}{P} = \dfrac{1\times8.31\times273}{1.01\times10^{5}} \approx 2.24\times10^{-2}\ \mathrm{m^3} = 22.4\ \mathrm{L}$
+**풀이** $V = \dfrac{nRT}{P} = \dfrac{1\times8.31\times273}{1.013\times10^{5}} \approx 2.24\times10^{-2}\ \mathrm{m^3} = 22.4\ \mathrm{L}$
 
 어떤 기체든 같은 온도·압력이면 1 mol의 부피가 같다는 것은 이상 기체 법칙에 기체의 종류가 들어 있지 않다는 뜻이다.
 
