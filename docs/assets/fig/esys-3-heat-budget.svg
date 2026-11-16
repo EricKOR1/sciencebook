@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t-esys-3-heat-budget d-esys-3-heat-budget">
+  <title id="t-esys-3-heat-budget">그림 지구시스템과학 3-1 전 지구 평균 열수지</title>
+  <desc id="d-esys-3-heat-budget">대기 꼭대기에 들어오는 태양 복사를 100으로 둔 열수지이다. 30은 반사, 23은 대기, 47은 지표가 흡수한다. 지표는 지구 복사 116(대기 흡수 104, 대기의 창 12), 잠열 23, 현열 5를 내보내고 대기 역복사 97을 받는다. 대기는 우주로 58을 방출한다.</desc>
+  <style>
+    .esys-3-heat-budget-t{font-size:13px;fill:var(--fig-ink)}
+    .esys-3-heat-budget-b{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .esys-3-heat-budget-s{font-size:13px;fill:var(--fig-muted)}
+    .esys-3-heat-budget-a{font-size:14px;font-weight:600;fill:var(--fig-amber)}
+    .esys-3-heat-budget-r{font-size:14px;font-weight:600;fill:var(--fig-red)}
+    .esys-3-heat-budget-g{font-size:14px;font-weight:600;fill:var(--fig-teal)}
+  </style>
+  <!-- 층 -->
+  <text x="14" y="30" class="esys-3-heat-budget-b">우주</text>
+  <line x1="14" y1="80" x2="706" y2="80" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:5 4"/>
+  <text x="446" y="74" text-anchor="end" class="esys-3-heat-budget-s">대기 꼭대기</text>
+  <rect x="14" y="120" width="692" height="90" rx="10" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <text x="24" y="142" class="esys-3-heat-budget-b">대기</text>
+  <rect x="14" y="290" width="692" height="34" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1"/>
+  <text x="24" y="312" class="esys-3-heat-budget-b">지표</text>
+  <!-- 태양 복사(단파) -->
+  <path d="M90 22 V104" style="stroke:var(--fig-amber);stroke-width:12;fill:none"/>
+  <path d="M90 104 V280" style="stroke:var(--fig-amber);stroke-width:6;fill:none"/>
+  <path d="M90 290 l-10 -13 h20 z" style="fill:var(--fig-amber)"/>
+  <text x="90" y="16" text-anchor="middle" class="esys-3-heat-budget-a">태양 복사 100</text>
+  <text x="100" y="268" class="esys-3-heat-budget-a">지표 흡수 47</text>
+  <path d="M140 96 V40" style="stroke:var(--fig-amber);stroke-width:5;fill:none"/>
+  <path d="M140 30 l-9 12 h18 z" style="fill:var(--fig-amber)"/>
+  <path d="M94 104 Q140 104 140 92" style="stroke:var(--fig-amber);stroke-width:5;fill:none"/>
+  <text x="150" y="52" class="esys-3-heat-budget-a">반사 30</text>
+  <text x="150" y="70" class="esys-3-heat-budget-s">(구름·지표 등)</text>
+  <path d="M94 106 Q120 110 150 172" style="stroke:var(--fig-amber);stroke-width:4;fill:none"/>
+  <circle cx="152" cy="176" r="4" style="fill:var(--fig-amber)"/>
+  <text x="162" y="180" class="esys-3-heat-budget-a">대기 흡수 23</text>
+  <!-- 잠열·현열 -->
+  <path d="M290 288 V192" style="stroke:var(--fig-teal);stroke-width:5;fill:none"/>
+  <path d="M290 182 l-9 12 h18 z" style="fill:var(--fig-teal)"/>
+  <text x="300" y="252" class="esys-3-heat-budget-g">잠열 23</text>
+  <path d="M370 288 V192" style="stroke:var(--fig-teal);stroke-width:2.5;fill:none"/>
+  <path d="M370 182 l-7 10 h14 z" style="fill:var(--fig-teal)"/>
+  <text x="378" y="252" class="esys-3-heat-budget-g">현열 5</text>
+  <!-- 지구 복사(장파) -->
+  <path d="M470 288 V192" style="stroke:var(--fig-red);stroke-width:12;fill:none"/>
+  <path d="M470 180 l-13 15 h26 z" style="fill:var(--fig-red)"/>
+  <text x="482" y="252" class="esys-3-heat-budget-r">104</text>
+  <path d="M520 288 V40" style="stroke:var(--fig-red);stroke-width:3;fill:none;stroke-dasharray:6 3"/>
+  <path d="M520 30 l-8 12 h16 z" style="fill:var(--fig-red)"/>
+  <text x="528" y="52" class="esys-3-heat-budget-r">대기의 창 12</text>
+  <path d="M470 288 Q470 300 495 300 Q520 300 520 288" style="fill:none;stroke:var(--fig-red);stroke-width:1.2"/>
+  <text x="495" y="340" text-anchor="middle" class="esys-3-heat-budget-r">지표 복사 116</text>
+  <path d="M600 212 V278" style="stroke:var(--fig-red);stroke-width:10;fill:none"/>
+  <path d="M600 290 l-12 -14 h24 z" style="fill:var(--fig-red)"/>
+  <text x="612" y="252" class="esys-3-heat-budget-r">역복사 97</text>
+  <path d="M660 118 V40" style="stroke:var(--fig-red);stroke-width:7;fill:none"/>
+  <path d="M660 28 l-11 14 h22 z" style="fill:var(--fig-red)"/>
+  <text x="652" y="104" text-anchor="end" class="esys-3-heat-budget-r">대기 방출 58</text>
+  <!-- 수지 -->
+  <text x="14" y="368" class="esys-3-heat-budget-t">지구 전체: 들어옴 100 = 반사 30 + 대기 방출 58 + 대기의 창 12</text>
+  <text x="14" y="388" class="esys-3-heat-budget-t">대기: 23 + 104 + 23 + 5 = 155 = 97 + 58</text>
+  <text x="380" y="388" class="esys-3-heat-budget-t">지표: 47 + 97 = 144 = 116 + 23 + 5</text>
+  <text x="14" y="410" class="esys-3-heat-budget-s">노란색: 태양 복사(단파) · 빨간색: 지구 복사(장파) · 청록색: 잠열·현열 · 화살표 굵기는 대략의 양</text>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-labelledby="t-esys-3-precipitation d-esys-3-precipitation">
+  <title id="t-esys-3-precipitation">그림 지구시스템과학 3-2 강수 과정 — 병합설과 빙정설</title>
+  <desc id="d-esys-3-precipitation">따뜻한 구름에서는 크게 자란 물방울이 떨어지며 작은 구름 방울과 부딪혀 합쳐져 빗방울이 된다(병합설). 0 °C보다 차가운 구름에서는 얼음의 포화 수증기압이 물보다 작아 과냉각 물방울이 증발하고 빙정이 수증기를 받아 자라며, 떨어지다 녹으면 비, 녹지 않으면 눈이 된다(빙정설).</desc>
+  <style>
+    .esys-3-precipitation-t{font-size:13px;fill:var(--fig-ink)}
+    .esys-3-precipitation-b{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .esys-3-precipitation-s{font-size:13px;fill:var(--fig-muted)}
+    .esys-3-precipitation-u{font-size:13px;font-weight:600;fill:var(--fig-blue)}
+    .esys-3-precipitation-v{font-size:13px;font-weight:600;fill:var(--fig-violet)}
+    .esys-3-precipitation-drop{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2}
+    .esys-3-precipitation-ice{fill:none;stroke:var(--fig-violet);stroke-width:2;stroke-linecap:round}
+  </style>
+  <!-- 병합설 -->
+  <text x="175" y="24" text-anchor="middle" class="esys-3-precipitation-b">병합설(충돌·병합)</text>
+  <text x="175" y="44" text-anchor="middle" class="esys-3-precipitation-s">구름 전체가 0 °C보다 따뜻함 · 저위도</text>
+  <path d="M40 200 C20 170 40 130 80 134 C90 96 150 86 175 110 C200 80 270 90 280 130 C320 128 330 176 306 200 Z" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5"/>
+  <g class="esys-3-precipitation-drop">
+    <circle cx="80" cy="170" r="3"/><circle cx="110" cy="150" r="3"/><circle cx="140" cy="182" r="3"/><circle cx="210" cy="140" r="3"/><circle cx="270" cy="150" r="3"/><circle cx="96" cy="190" r="3"/><circle cx="230" cy="120" r="3"/><circle cx="160" cy="124" r="3"/>
+    <circle cx="186" cy="152" r="3"/><circle cx="168" cy="178" r="3"/>
+  </g>
+  <!-- 떨어지는 큰 물방울 -->
+  <path d="M182 120 V250" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:4 3;fill:none"/>
+  <circle cx="182" cy="140" r="5" class="esys-3-precipitation-drop"/>
+  <circle cx="182" cy="168" r="8" class="esys-3-precipitation-drop"/>
+  <path d="M182 220 c-9 0 -14 -8 -14 -14 c0 -9 14 -24 14 -24 c0 0 14 15 14 24 c0 6 -5 14 -14 14 z" class="esys-3-precipitation-drop"/>
+  <path d="M188 262 v26" style="stroke:var(--fig-blue);stroke-width:2.5;fill:none"/><path d="M188 296 l-6 -10 h12 z" style="fill:var(--fig-blue)"/>
+  <text x="204" y="172" class="esys-3-precipitation-t">큰 물방울이 빨리 떨어지며</text>
+  <text x="204" y="190" class="esys-3-precipitation-t">작은 방울과 부딪혀 합쳐짐</text>
+  <text x="200" y="214" class="esys-3-precipitation-u">→ 빗방울(비)</text>
+  <text x="30" y="320" class="esys-3-precipitation-s">구름 방울 약 0.02 mm → 빗방울 약 2 mm</text>
+  <text x="30" y="340" class="esys-3-precipitation-s">(구름 방울 약 100만 개가 모여야 빗방울 1개)</text>
+  <!-- 가운데 구분선 -->
+  <line x1="360" y1="20" x2="360" y2="350" style="stroke:var(--fig-line);stroke-width:1"/>
+  <!-- 빙정설 -->
+  <text x="540" y="24" text-anchor="middle" class="esys-3-precipitation-b">빙정설(베르게론 과정)</text>
+  <text x="540" y="44" text-anchor="middle" class="esys-3-precipitation-s">0 °C보다 차가운 층이 있는 구름 · 중·고위도</text>
+  <path d="M396 230 C376 200 390 150 430 150 C430 90 500 62 540 90 C580 60 660 80 664 140 C700 150 704 210 680 230 Z" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5"/>
+  <line x1="380" y1="202" x2="704" y2="202" style="stroke:var(--fig-red);stroke-width:1.5;stroke-dasharray:6 4"/>
+  <text x="702" y="220" text-anchor="end" class="esys-3-precipitation-s">0 °C</text>
+  <text x="410" y="194" class="esys-3-precipitation-s">−10 °C 부근</text>
+  <!-- 과냉각 물방울 -->
+  <g class="esys-3-precipitation-drop"><circle cx="470" cy="118" r="5"/><circle cx="620" cy="122" r="5"/><circle cx="468" cy="160" r="5"/></g>
+  <!-- 빙정 -->
+  <g class="esys-3-precipitation-ice">
+    <path d="M540 120 v28 M528 127 l24 14 M528 141 l24 -14"/>
+  </g>
+  <!-- 수증기 이동 -->
+  <g style="stroke:var(--fig-muted);stroke-width:1.5;fill:none;stroke-dasharray:3 3">
+    <path d="M478 120 L522 132"/><path d="M612 124 L558 132"/><path d="M476 156 L524 142"/>
+  </g>
+  <g style="fill:var(--fig-muted)"><path d="M528 134 l-10 -6 l-1 8 z"/><path d="M552 133 l9 -6 l2 8 z"/><path d="M530 140 l-11 -3 l3 9 z"/></g>
+  <text x="440" y="104" class="esys-3-precipitation-u">과냉각 물방울: 증발</text>
+  <text x="556" y="168" class="esys-3-precipitation-v">빙정: 수증기를</text>
+  <text x="556" y="186" class="esys-3-precipitation-v">받아 성장</text>
+  <!-- 낙하 -->
+  <g class="esys-3-precipitation-ice"><path d="M540 236 v20 M531 241 l18 10 M531 251 l18 -10"/></g>
+  <path d="M540 262 v20" style="stroke:var(--fig-violet);stroke-width:2;fill:none;stroke-dasharray:3 3"/>
+  <path d="M540 312 c-7 0 -11 -6 -11 -11 c0 -7 11 -18 11 -18 c0 0 11 11 11 18 c0 5 -4 11 -11 11 z" class="esys-3-precipitation-drop"/>
+  <text x="560" y="250" class="esys-3-precipitation-v">눈(녹지 않으면)</text>
+  <text x="560" y="306" class="esys-3-precipitation-u">비(떨어지다 녹으면)</text>
+  <text x="380" y="340" class="esys-3-precipitation-t">−10 °C 포화 수증기압: 물 약 2.86 hPa &gt; 얼음 약 2.60 hPa</text>
+</svg>
