@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 352" role="img" aria-labelledby="t-rxn-3-addition-condensation d-rxn-3-addition-condensation">
+  <title id="t-rxn-3-addition-condensation">그림 화학 반응의 세계 3-2 첨가 중합과 축합 중합 비교</title>
+  <desc id="d-rxn-3-addition-condensation">첨가 중합에서는 이중 결합 하나가 열리며 단위체가 그대로 이어지고 빠지는 분자가 없다. 축합 중합에서는 양 끝의 작용기가 반응하며 연결될 때마다 물 분자가 하나씩 빠진다. 단위체의 탄소 골격은 도형으로 줄여 나타냈다.</desc>
+  <style>
+    .rxn-3-addition-condensation-a{font-size:15px;fill:var(--fig-ink);font-weight:600}
+    .rxn-3-addition-condensation-h{font-size:15px;font-weight:700}
+    .rxn-3-addition-condensation-s{font-size:13px;fill:var(--fig-muted)}
+    .rxn-3-addition-condensation-k{font-size:13px;fill:var(--fig-ink)}
+  </style>
+  <!-- 첨가 중합 -->
+  <rect x="6" y="6" width="708" height="150" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="20" y="32" class="rxn-3-addition-condensation-h" style="fill:var(--fig-blue)">첨가 중합</text>
+  <text x="104" y="32" class="rxn-3-addition-condensation-s">예: 에틸렌 → 폴리에틸렌</text>
+  <g class="rxn-3-addition-condensation-a" text-anchor="middle">
+    <text x="190" y="72">CH₂<tspan style="fill:var(--fig-red)">=</tspan>CH₂</text>
+    <text x="270" y="72">+</text>
+    <text x="350" y="72">CH₂<tspan style="fill:var(--fig-red)">=</tspan>CH₂</text>
+    <text x="430" y="72">+</text>
+    <text x="510" y="72">CH₂<tspan style="fill:var(--fig-red)">=</tspan>CH₂</text>
+  </g>
+  <path d="M350 82 V100" style="stroke:var(--fig-ink);stroke-width:2"/><path d="M350 108 l-6 -10 h12 z" style="fill:var(--fig-ink)"/>
+  <text x="362" y="100" class="rxn-3-addition-condensation-s">이중 결합 하나씩 열리며 연결</text>
+  <text x="350" y="134" text-anchor="middle" class="rxn-3-addition-condensation-a">···–CH₂–CH₂<tspan style="fill:var(--fig-red)">–</tspan>CH₂–CH₂<tspan style="fill:var(--fig-red)">–</tspan>CH₂–CH₂–···</text>
+  <text x="700" y="134" text-anchor="end" class="rxn-3-addition-condensation-k" style="font-weight:600">빠지는 분자 없음</text>
+  <!-- 축합 중합 -->
+  <rect x="6" y="168" width="708" height="178" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="20" y="194" class="rxn-3-addition-condensation-h" style="fill:var(--fig-violet)">축합 중합</text>
+  <text x="104" y="194" class="rxn-3-addition-condensation-s">예: 카복실기 2개 단위체 + 하이드록시기 2개 단위체 → 폴리에스터(PET)</text>
+  <!-- 단위체 -->
+  <g class="rxn-3-addition-condensation-a">
+    <text x="120" y="238" text-anchor="end">HOOC–</text>
+    <text x="196" y="238">–CO<tspan style="fill:var(--fig-blue)">OH</tspan></text>
+    <text x="286" y="238" text-anchor="middle">+</text>
+    <text x="350" y="238" text-anchor="end"><tspan style="fill:var(--fig-blue)">H</tspan>O–</text>
+    <text x="404" y="238">–OH</text>
+    <text x="466" y="238" text-anchor="middle">+</text>
+    <text x="530" y="238" text-anchor="end">HOOC–</text>
+    <text x="606" y="238">–COOH</text>
+  </g>
+  <rect x="124" y="222" width="68" height="22" rx="3" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <ellipse cx="377" cy="233" rx="24" ry="12" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <rect x="534" y="222" width="68" height="22" rx="3" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <path d="M350 252 V270" style="stroke:var(--fig-ink);stroke-width:2"/><path d="M350 278 l-6 -10 h12 z" style="fill:var(--fig-ink)"/>
+  <text x="362" y="270" class="rxn-3-addition-condensation-s">−OH와 H가 물로 빠지며 연결</text>
+  <!-- 중합체 -->
+  <g class="rxn-3-addition-condensation-a">
+    <text x="60" y="312" text-anchor="end">···–</text>
+    <text x="136" y="312"><tspan style="fill:var(--fig-amber)">–CO–O–</tspan></text>
+    <text x="270" y="312"><tspan style="fill:var(--fig-amber)">–O–CO–</tspan></text>
+    <text x="406" y="312">–···</text>
+  </g>
+  <rect x="64" y="296" width="68" height="22" rx="3" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <ellipse cx="240" cy="307" rx="24" ry="12" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <rect x="334" y="296" width="68" height="22" rx="3" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <text x="470" y="312" class="rxn-3-addition-condensation-a">+ 연결마다 <tspan style="fill:var(--fig-blue)">H₂O</tspan> 1개</text>
+  <text x="20" y="336" class="rxn-3-addition-condensation-s">주황색 –CO–O– : 카복실기와 하이드록시기가 만나 생긴 연결 고리</text>
+</svg>

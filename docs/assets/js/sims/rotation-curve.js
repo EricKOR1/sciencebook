@@ -63,7 +63,7 @@ Sims.register('rotation-curve', {
         ctx.fillStyle = T.figRed; ctx.beginPath(); ctx.arc(sx(o.r), sy(o.v), 3.6, 0, Math.PI * 2); ctx.fill();
       });
       // 범례
-      var lx = L + 8, ly = Tp + 4;
+      var lx = L + 8, ly = sy(100);
       ctx.fillStyle = T.figRed; ctx.beginPath(); ctx.arc(lx + 8, ly, 3.6, 0, Math.PI * 2); ctx.fill(); txt(T, '관측 (단순화한 값)', lx + 20, ly + 4, { size: 11 });
       ctx.strokeStyle = T.figMuted; ctx.setLineDash([6, 4]); ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(lx, ly + 18); ctx.lineTo(lx + 16, ly + 18); ctx.stroke(); ctx.setLineDash([]); txt(T, '보이는 물질만으로 한 예측', lx + 20, ly + 22, { size: 11 });
       ctx.strokeStyle = T.figAccent; ctx.lineWidth = 2.6; ctx.beginPath(); ctx.moveTo(lx, ly + 36); ctx.lineTo(lx + 16, ly + 36); ctx.stroke(); txt(T, '보이는 물질 + 암흑 물질', lx + 20, ly + 40, { size: 11 });
