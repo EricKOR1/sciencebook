@@ -1,5 +1,5 @@
 # 일반생명과학 7. 유전자 발현 조절과 생명공학 — 스위치를 읽는 법에서 다시 쓰는 법까지
-<!-- prev: gene-2, gene-3, ubio-6 -->
+<!-- prev: gene-2, gene-3, ubio-6, ubio-4 -->
 <!-- next: ubio-8, ubio-12 -->
 
 > [!NOTE]

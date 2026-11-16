@@ -572,7 +572,7 @@ $300\ \mathrm{K}$, $1.0\times10^5\ \mathrm{Pa}$의 공기($\gamma = 1.40$)를 �
 (1) $T_f = T_i\left(\dfrac{V_i}{V_f}\right)^{\gamma-1} = 300\times18^{0.40} \approx 953\ \mathrm{K}$ (약 $680\ ^\circ\mathrm{C}$)
 (2) $P_f = P_i\left(\dfrac{V_i}{V_f}\right)^{\gamma} = 1.0\times10^5\times18^{1.40} \approx 5.7\times10^6\ \mathrm{Pa}$ (약 57기압)
 (3) $W_{\text{기체가 한 일}} = nC_V(T_i - T_f) = 1.00\times\frac{5}{2}\times8.314\times(300 - 953) \approx -1.36\times10^4\ \mathrm{J}$. 외부가 공기에 약 $13.6\ \mathrm{kJ}$의 일을 해 주었다.
-- 의미: 경유의 자연 발화 온도(약 $500\ \mathrm{K}$대)를 크게 넘으므로 점화 플러그 없이 연료가 불붙는다. 등온 압축이었다면 압력은 18배에 그쳤을 것이다.
+- 의미: 경유의 자연 발화 온도(약 $500\ \mathrm{K}$ 안팎)를 크게 넘으므로 점화 플러그 없이 연료가 불붙는다. 등온 압축이었다면 압력은 18배에 그쳤을 것이다.
 
 #### 단열 과정이 일어나는 곳
 

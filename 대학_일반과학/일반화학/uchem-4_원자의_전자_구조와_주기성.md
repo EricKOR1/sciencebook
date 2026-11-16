@@ -1,5 +1,5 @@
 # 일반화학 4. 원자의 전자 구조와 주기성 — 빛이 알려 준 원자 속 전자의 주소
-<!-- prev: 2-3, chem-2, emq-3 -->
+<!-- prev: 2-3, chem-2, phy-3, emq-3 -->
 <!-- next: uchem-5, uchem-12, uphy-12 -->
 
 > [!NOTE]
