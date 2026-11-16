@@ -1,5 +1,5 @@
 # 일반생명과학 4. 세포 신호 전달과 세포 주기 — 세포가 듣고, 판단하고, 나뉘는 방법
-<!-- prev: cell-1, bio-3, ubio-2 -->
+<!-- prev: cell-1, bio-3, ubio-2, ubio-3 -->
 <!-- next: ubio-5, ubio-7, ubio-12 -->
 
 > [!NOTE]

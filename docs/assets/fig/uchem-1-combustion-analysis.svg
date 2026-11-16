@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-labelledby="t-uchem-1-combustion-analysis d-uchem-1-combustion-analysis">
+  <title id="t-uchem-1-combustion-analysis">그림 일반화학 1-2 연소 분석 장치</title>
+  <desc id="d-uchem-1-combustion-analysis">산소 기류 속에서 시료를 완전히 태우면 C는 CO₂, H는 H₂O가 된다. 기체는 물 흡수관을 먼저, 이산화 탄소 흡수관을 나중에 지나며, 각 관의 질량 증가로 H₂O와 CO₂의 질량을 잰다(모식도).</desc>
+  <style>
+    .uchem-1-ca-t{font-size:14px;fill:var(--fig-ink)}
+    .uchem-1-ca-h{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .uchem-1-ca-s{font-size:13px;fill:var(--fig-muted)}
+    .uchem-1-ca-flow{stroke:var(--fig-accent);stroke-width:2.5;fill:none}
+    .uchem-1-ca-head{fill:var(--fig-accent)}
+    .uchem-1-ca-tube{fill:var(--fig-paper);stroke:var(--fig-ink);stroke-width:1.8}
+  </style>
+  <!-- 산소 들어옴 -->
+  <text x="22" y="98" class="uchem-1-ca-h">O₂</text>
+  <text x="22" y="116" class="uchem-1-ca-s">기류</text>
+  <line x1="20" y1="136" x2="62" y2="136" class="uchem-1-ca-flow"/>
+  <path d="M68 136 l-10 -6 v12 z" class="uchem-1-ca-head"/>
+  <!-- 가열로 -->
+  <rect x="96" y="96" width="210" height="80" rx="8" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <rect x="70" y="122" width="260" height="28" rx="6" class="uchem-1-ca-tube"/>
+  <!-- 시료 접시 -->
+  <path d="M150 146 l8 -12 h44 l8 12 z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <!-- 불꽃 표시 -->
+  <path d="M172 134 q-6 -8 2 -16 q2 8 6 4 q4 6 -2 12 z" style="fill:var(--fig-amber)"/>
+  <text x="201" y="88" text-anchor="middle" class="uchem-1-ca-h">가열로</text>
+  <text x="180" y="200" text-anchor="middle" class="uchem-1-ca-t">시료 CₓHᵧO_z (질량 측정)</text>
+  <line x1="180" y1="186" x2="180" y2="150" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <!-- 관 연결 1 -->
+  <line x1="330" y1="136" x2="372" y2="136" class="uchem-1-ca-flow"/>
+  <path d="M378 136 l-10 -6 v12 z" class="uchem-1-ca-head"/>
+  <text x="352" y="122" text-anchor="middle" class="uchem-1-ca-s">CO₂</text>
+  <text x="352" y="166" text-anchor="middle" class="uchem-1-ca-s">H₂O</text>
+  <!-- 물 흡수관 -->
+  <rect x="380" y="110" width="110" height="52" rx="10" class="uchem-1-ca-tube"/>
+  <rect x="390" y="118" width="90" height="36" rx="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="435" y="141" text-anchor="middle" class="uchem-1-ca-t">건조제</text>
+  <text x="435" y="94" text-anchor="middle" class="uchem-1-ca-h">① 물 흡수관</text>
+  <!-- 관 연결 2 -->
+  <line x1="490" y1="136" x2="532" y2="136" class="uchem-1-ca-flow"/>
+  <path d="M538 136 l-10 -6 v12 z" class="uchem-1-ca-head"/>
+  <text x="512" y="122" text-anchor="middle" class="uchem-1-ca-s">CO₂</text>
+  <!-- CO2 흡수관 -->
+  <rect x="540" y="110" width="110" height="52" rx="10" class="uchem-1-ca-tube"/>
+  <rect x="550" y="118" width="90" height="36" rx="6" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <text x="595" y="141" text-anchor="middle" class="uchem-1-ca-t">NaOH</text>
+  <text x="595" y="94" text-anchor="middle" class="uchem-1-ca-h">② CO₂ 흡수관</text>
+  <!-- 나감 -->
+  <line x1="650" y1="136" x2="692" y2="136" class="uchem-1-ca-flow"/>
+  <path d="M698 136 l-10 -6 v12 z" class="uchem-1-ca-head"/>
+  <text x="676" y="122" text-anchor="middle" class="uchem-1-ca-s">남은 O₂</text>
+  <!-- 질량 증가 설명 -->
+  <text x="435" y="188" text-anchor="middle" class="uchem-1-ca-t">질량 증가</text>
+  <text x="435" y="206" text-anchor="middle" class="uchem-1-ca-t">= H₂O의 질량</text>
+  <text x="595" y="188" text-anchor="middle" class="uchem-1-ca-t">질량 증가</text>
+  <text x="595" y="206" text-anchor="middle" class="uchem-1-ca-t">= CO₂의 질량</text>
+  <!-- 계산 흐름 -->
+  <rect x="40" y="232" width="640" height="72" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="60" y="256" class="uchem-1-ca-t">C의 질량 = CO₂ 질량 × 12.01/44.01      H의 질량 = H₂O 질량 × 2(1.008)/18.02</text>
+  <text x="60" y="282" class="uchem-1-ca-t">O의 질량 = 시료 질량 − C − H  (산소는 O₂ 기류에서도 오므로 직접 잴 수 없다)</text>
+  <text x="60" y="298" class="uchem-1-ca-s">NaOH는 물도 흡수하므로, 물 흡수관이 반드시 앞에 있어야 두 질량을 따로 잴 수 있다.</text>
+</svg>

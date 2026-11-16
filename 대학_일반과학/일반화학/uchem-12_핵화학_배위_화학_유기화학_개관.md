@@ -88,7 +88,7 @@ flowchart LR
 
 **Q3.** $[\mathrm{Ar}]3d^6$. 전이 금속은 4s 전자를 먼저 잃는다. d 오비탈 5개에 훈트 규칙으로 채우면 홀전자 4개.
 
-**Q4.** 에탄올(약 78 ℃, 다이메틸 에터는 약 −24 ℃). 에탄올은 $\mathrm{-OH}$로 분자 사이에 수소 결합을 한다. 이처럼 분자식이 같고 구조가 다른 것이 ⑨의 구조 이성질체이다.
+**Q4.** 에탄올(약 78 ℃, 다이메틸 에터는 약 −24 ℃). 에탄올은 $\mathrm{-OH}$로 분자 사이에 수소 결합을 한다. 이처럼 분자식이 같고 구조가 다른 것이 ⑫의 구조 이성질체이다.
 
 </details>
 
@@ -402,7 +402,7 @@ d 오비탈이 부분적으로 채워진 전이 금속은 주족 원소와 다�
 | 성질 | 원인 | 예 |
 |---|---|---|
 | 여러 산화 상태 | 4s와 3d의 에너지가 비슷해 잃는 전자 수가 다양 | Mn: +2, +4, +7 |
-| 화합물이 색을 띤다 | d 오비탈 사이의 전자 전이가 가시광선 에너지 | 푸른 $\mathrm{CuSO_4\cdot5H_2O}$, 보라색 $\mathrm{KMnO_4}$ |
+| 화합물이 색을 띤다 | d 오비탈 사이의 전자 전이가 가시광선 에너지 | 푸른 $\mathrm{CuSO_4\cdot5H_2O}$, 분홍색 $\mathrm{CoCl_2\cdot6H_2O}$ |
 | 상자기성 화합물이 많다 | 홀전자 | $\mathrm{FeCl_3}$, $\mathrm{CuSO_4}$ |
 | 촉매 작용 | 산화수 변화, 빈 d 오비탈에 분자가 결합 | 암모니아 합성의 철, 자동차 촉매의 백금·팔라듐·로듐 |
 | 착이온 형성 | 빈 오비탈이 리간드의 전자쌍을 받는다 | $\mathrm{[Cu(NH_3)_4]^{2+}}$, $\mathrm{[Fe(CN)_6]^{4-}}$ |
@@ -412,7 +412,7 @@ d 오비탈이 부분적으로 채워진 전이 금속은 주족 원소와 다�
 **배위 화합물(coordination compound)** 은 중심 금속 원자·이온에 **리간드(ligand)** 가 비공유 전자쌍을 내주어 **배위 결합**한 착이온(또는 중성 착물)을 포함한 화합물이다. 금속은 루이스 산, 리간드는 루이스 염기이다.
 
 $$
-\underbrace{[\mathrm{Co}(\mathrm{NH_3})_5\mathrm{Cl}]}_{\text{배위권(착이온)}}{}^{2+}\ \underbrace{\mathrm{Cl_2^-}}_{\text{상대 이온}} \quad\Longrightarrow\quad [\mathrm{Co(NH_3)_5Cl}]\mathrm{Cl_2}
+\underbrace{[\mathrm{Co}(\mathrm{NH_3})_5\mathrm{Cl}]}_{\text{배위권(착이온)}}{}^{2+}\ \underbrace{\mathrm{2Cl^-}}_{\text{상대 이온}} \quad\Longrightarrow\quad [\mathrm{Co(NH_3)_5Cl}]\mathrm{Cl_2}
 $$
 
 | 용어 | 뜻 | 예 |

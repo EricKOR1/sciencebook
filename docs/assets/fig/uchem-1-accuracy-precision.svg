@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="t-uchem-1-accuracy-precision d-uchem-1-accuracy-precision">
+  <title id="t-uchem-1-accuracy-precision">그림 일반화학 1-1 정확도와 정밀도</title>
+  <desc id="d-uchem-1-accuracy-precision">과녁의 중심을 참값, 점을 반복 측정값으로 본 모식도. 점들이 서로 모인 정도가 정밀도(우연 오차), 점들의 평균(×)이 중심에 가까운 정도가 정확도(계통 오차)이다.</desc>
+  <style>
+    .uchem-1-ap-r1{fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:1}
+    .uchem-1-ap-r2{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1}
+    .uchem-1-ap-hit{fill:var(--fig-red);stroke:var(--fig-panel);stroke-width:1.2}
+    .uchem-1-ap-mean{stroke:var(--fig-amber);stroke-width:3;stroke-linecap:round;fill:none}
+    .uchem-1-ap-h{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .uchem-1-ap-s{font-size:13px;fill:var(--fig-muted)}
+    .uchem-1-ap-ok{font-size:13px;fill:var(--fig-green)}
+    .uchem-1-ap-no{font-size:13px;fill:var(--fig-red)}
+  </style>
+  <defs>
+    <g id="uchem-1-ap-target">
+      <circle cx="0" cy="0" r="66" class="uchem-1-ap-r1"/>
+      <circle cx="0" cy="0" r="50" class="uchem-1-ap-r2"/>
+      <circle cx="0" cy="0" r="34" class="uchem-1-ap-r1"/>
+      <circle cx="0" cy="0" r="18" class="uchem-1-ap-r2"/>
+      <circle cx="0" cy="0" r="4" style="fill:var(--fig-ink)"/>
+    </g>
+  </defs>
+  <!-- (가) 정확하고 정밀 -->
+  <g transform="translate(90 112)">
+    <use href="#uchem-1-ap-target"/>
+    <circle cx="-4" cy="-3" r="5" class="uchem-1-ap-hit"/><circle cx="5" cy="2" r="5" class="uchem-1-ap-hit"/>
+    <circle cx="-2" cy="6" r="5" class="uchem-1-ap-hit"/><circle cx="4" cy="-7" r="5" class="uchem-1-ap-hit"/><circle cx="-7" cy="3" r="5" class="uchem-1-ap-hit"/>
+  </g>
+  <!-- (나) 정밀하지만 부정확 -->
+  <g transform="translate(270 112)">
+    <use href="#uchem-1-ap-target"/>
+    <circle cx="28" cy="-30" r="5" class="uchem-1-ap-hit"/><circle cx="37" cy="-26" r="5" class="uchem-1-ap-hit"/>
+    <circle cx="31" cy="-20" r="5" class="uchem-1-ap-hit"/><circle cx="38" cy="-35" r="5" class="uchem-1-ap-hit"/><circle cx="24" cy="-24" r="5" class="uchem-1-ap-hit"/>
+    <path d="M26 -34 l10 10 M36 -34 l-10 10" class="uchem-1-ap-mean"/>
+  </g>
+  <!-- (다) 정확하지만 정밀하지 않음 -->
+  <g transform="translate(450 112)">
+    <use href="#uchem-1-ap-target"/>
+    <circle cx="-40" cy="-12" r="5" class="uchem-1-ap-hit"/><circle cx="34" cy="-30" r="5" class="uchem-1-ap-hit"/>
+    <circle cx="20" cy="40" r="5" class="uchem-1-ap-hit"/><circle cx="-26" cy="34" r="5" class="uchem-1-ap-hit"/><circle cx="12" cy="-32" r="5" class="uchem-1-ap-hit"/>
+    <path d="M-5 -5 l10 10 M5 -5 l-10 10" class="uchem-1-ap-mean"/>
+  </g>
+  <!-- (라) 부정확하고 정밀하지 않음 -->
+  <g transform="translate(630 112)">
+    <use href="#uchem-1-ap-target"/>
+    <circle cx="-48" cy="-20" r="5" class="uchem-1-ap-hit"/><circle cx="-10" cy="-52" r="5" class="uchem-1-ap-hit"/>
+    <circle cx="-44" cy="16" r="5" class="uchem-1-ap-hit"/><circle cx="-20" cy="-12" r="5" class="uchem-1-ap-hit"/><circle cx="-58" cy="-40" r="5" class="uchem-1-ap-hit"/>
+    <path d="M-41 -27 l10 10 M-31 -27 l-10 10" class="uchem-1-ap-mean"/>
+  </g>
+  <!-- 이름표 -->
+  <text x="90" y="206" text-anchor="middle" class="uchem-1-ap-h">(가) 정확·정밀</text>
+  <text x="90" y="226" text-anchor="middle" class="uchem-1-ap-ok">계통 오차 작음</text>
+  <text x="90" y="244" text-anchor="middle" class="uchem-1-ap-ok">우연 오차 작음</text>
+  <text x="270" y="206" text-anchor="middle" class="uchem-1-ap-h">(나) 정밀, 부정확</text>
+  <text x="270" y="226" text-anchor="middle" class="uchem-1-ap-no">계통 오차 큼</text>
+  <text x="270" y="244" text-anchor="middle" class="uchem-1-ap-ok">우연 오차 작음</text>
+  <text x="450" y="206" text-anchor="middle" class="uchem-1-ap-h">(다) 정확, 부정밀</text>
+  <text x="450" y="226" text-anchor="middle" class="uchem-1-ap-ok">계통 오차 작음</text>
+  <text x="450" y="244" text-anchor="middle" class="uchem-1-ap-no">우연 오차 큼</text>
+  <text x="630" y="206" text-anchor="middle" class="uchem-1-ap-h">(라) 부정확·부정밀</text>
+  <text x="630" y="226" text-anchor="middle" class="uchem-1-ap-no">계통 오차 큼</text>
+  <text x="630" y="244" text-anchor="middle" class="uchem-1-ap-no">우연 오차 큼</text>
+  <!-- 범례 -->
+  <circle cx="186" cy="278" r="5" class="uchem-1-ap-hit"/>
+  <text x="198" y="283" class="uchem-1-ap-s">반복 측정값</text>
+  <path d="M296 273 l10 10 M306 273 l-10 10" class="uchem-1-ap-mean"/>
+  <text x="316" y="283" class="uchem-1-ap-s">측정값의 평균</text>
+  <circle cx="430" cy="278" r="4" style="fill:var(--fig-ink)"/>
+  <text x="440" y="283" class="uchem-1-ap-s">과녁 중심 = 참값</text>
+</svg>
