@@ -44,7 +44,7 @@ Sims.register('operon', {
       var speed = 0.12, every = lv === 2 ? 1.6 : 5.5;
       state.timer += dt;
       if (state.timer >= every) { state.timer = 0; state.pols.push(0); }
-      state.pols = state.pols.map(function (p) { return p + dt * speed; }).filter(function (p) { return p < 1.02; });
+      state.pols = state.pols.map(function (p) { return p + dt * speed; }).filter(function (p) { return p < 0.96; });
       draw();
     });
     loop.pause();
@@ -55,7 +55,7 @@ Sims.register('operon', {
       var x0 = m, x1 = w - m, span = x1 - x0;
       var f = function (t) { return x0 + span * t; };
       if (narrow) return {
-        narrow: true, dnaY: h * 0.68, lacY: h * 0.4, top: h * 0.05,
+        narrow: true, dnaY: h * 0.7, lacY: h * 0.32, top: h * 0.05,
         lacI: [f(0.02), f(0.3)], cap: [f(0), f(0.07)], pro: [f(0.07), f(0.24)], op: [f(0.24), f(0.35)],
         z: [f(0.35), f(0.67)], y: [f(0.67), f(0.84)], a: [f(0.84), f(1)], f: f,
       };
@@ -132,7 +132,7 @@ Sims.register('operon', {
         ctx.fillText('젖당 유도체', lx + 11, ly + 2);
       }
       ctx.font = '600 ' + fs + 'px ' + T.fontBody; ctx.fillStyle = T.figRed; ctx.textAlign = 'center';
-      ctx.fillText('억제 단백질', repX, (state.lac ? repY - 26 : repY - 42));
+      ctx.fillText('억제 단백질', repX, (state.lac ? repY - 26 : repY - (G.narrow ? 56 : 42)));
       // 조절 유전자 → 억제 단백질 화살표
       ctx.strokeStyle = T.figViolet; ctx.lineWidth = 1.4; ctx.setLineDash([4, 3]);
       ctx.beginPath(); ctx.moveTo(lacIc, G.lacY - 13); ctx.quadraticCurveTo(lacIc, repY - (G.narrow ? 40 : 4), repX - rw / 2 - 4, state.lac ? repY : repY - 18); ctx.stroke(); ctx.setLineDash([]);
@@ -143,8 +143,8 @@ Sims.register('operon', {
         ctx.fillStyle = T.figViolet; ctx.strokeStyle = T.figInk; ctx.lineWidth = 1;
         rr(capC - 15, Y - 38, 30, 27, 8); ctx.fill(); ctx.stroke();
         ctx.fillStyle = T.figAmber; ctx.beginPath(); ctx.arc(capC, Y - 42, 5, 0, 7); ctx.fill();
-        ctx.font = '600 ' + fs + 'px ' + T.fontBody; ctx.fillStyle = T.figViolet; ctx.textAlign = 'center';
-        ctx.fillText('CAP–cAMP', capC, Y - 58);
+        ctx.font = '600 ' + fs + 'px ' + T.fontBody; ctx.fillStyle = T.figViolet; ctx.textAlign = G.narrow ? 'left' : 'center';
+        ctx.fillText('CAP–cAMP', G.narrow ? G.cap[0] : capC, Y - 58);
       }
 
       // RNA 중합 효소(프로모터 위), 전사 진행
@@ -163,7 +163,7 @@ Sims.register('operon', {
         ctx.strokeStyle = T.figTeal; ctx.lineWidth = 2.5; ctx.beginPath();
         var len = x - gs;
         ctx.moveTo(x, Y - 24);
-        for (var t = 0; t <= len; t += 4) ctx.lineTo(x - t, Y - 30 - t * 0.35 + Math.sin(t / 7) * 3);
+        for (var t = 0; t <= len; t += 4) ctx.lineTo(x - t, Y - 30 - Math.min(t * 0.25, 60) + Math.sin(t / 7) * 3);
         ctx.stroke();
         drawPol(T, x, Y, 30, 1);
       });

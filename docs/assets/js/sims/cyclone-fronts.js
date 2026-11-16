@@ -1,7 +1,7 @@
 /* 지구과학 1 중위도 저기압의 통과: 일기도 위 저기압·전선이 서→동으로 지나갈 때 관측소의 풍향·기온·기압·날씨 변화 */
 Sims.register('cyclone-fronts', {
   title: '중위도 저기압이 지나갈 때 — 관측소의 날씨 변화',
-  caption: '시간 슬라이더를 움직이거나 재생을 눌러 저기압을 동쪽으로 보내 보자. 중심의 남쪽을 지나는 관측소 A에서는 온난 전선 앞의 지속적인 비 → 온난 구역의 맑음 → 한랭 전선의 소나기와 기온 급하강이 차례로 나타나고, 풍향은 남동 → 남서 → 북서로 시계 방향으로 바뀐다. 북쪽의 관측소 B에서는 풍향이 동 → 북동 → 북으로 시계 반대 방향으로 바뀐다. 지도를 눌러 관측소를 옮길 수도 있다. 북반구 기준이며, 저기압은 모양을 유지한 채 시속 40 km로 움직인다고 단순화했다(실제로는 발달·폐색하며, 수치는 어림값이다).',
+  caption: '시간 슬라이더를 움직이거나 재생을 눌러 저기압을 동쪽으로 보내 보자. 중심의 남쪽을 지나는 관측소 A에서는 온난 전선 앞의 지속적인 비 → 온난 구역의 맑음 → 한랭 전선의 소나기와 기온 급하강이 차례로 나타나고, 풍향은 남동 → 남서 → 북서로 시계 방향으로 바뀐다. 북쪽의 관측소 B에서는 풍향이 동 → 북동 → 북으로 시계 반대 방향으로 바뀐다. 그래프의 화살표는 바람이 불어 가는 방향(위가 북쪽), 막대는 비(진할수록 소나기)이다. 지도를 눌러 관측소를 옮길 수도 있다. 북반구 기준이며, 저기압은 모양을 유지한 채 시속 40 km로 움직인다고 단순화했다(실제로는 발달·폐색하며, 수치는 어림값이다).',
   init: function (api) {
     var D = Math.PI / 180, SPEED = 40, TMAX = 75, X0 = -1500;
     var st = { t: 22, sx: 200, sy: -350, which: 'A' };
@@ -66,7 +66,7 @@ Sims.register('cyclone-fronts', {
       var strat = 0, conv = 0, cloud;
       var ahead = -sW;                                                                  // 온난 전선 앞 거리
       if (onW && th >= tw && th < 70 && ahead > 0) {
-        strat = Math.max(strat, Math.max(0, 1 - ahead / 240));
+        strat = Math.max(strat, Math.max(0, 1 - ahead / 320));
       }
       if (v > 0 && r < 480 && th < 160) strat = Math.max(strat, 0.75 * (1 - r / 480));
       var behind = -sC;
@@ -141,7 +141,7 @@ Sims.register('cyclone-fronts', {
       for (var gx = x0; gx < x1; gx += cell) for (var gy = y0; gy < y1; gy += cell) {
         var f = field(gx + cell / 2 - c, gy + cell / 2);
         if (f.conv) { ctx.fillStyle = T.figGreen; ctx.globalAlpha = 0.55; }
-        else if (f.strat > 0.05) { ctx.fillStyle = T.figGreen; ctx.globalAlpha = 0.12 + 0.25 * f.strat; }
+        else if (f.strat > 0.05) { ctx.fillStyle = T.figGreen; ctx.globalAlpha = 0.22 + 0.4 * f.strat; }
         else continue;
         ctx.fillRect(X(gx), Y(gy + cell), cell * s + 0.6, cell * s + 0.6);
       }
@@ -169,8 +169,8 @@ Sims.register('cyclone-fronts', {
       ctx.setLineDash([4, 5]); ctx.strokeStyle = T.figMuted; ctx.lineWidth = 1;
       ctx.beginPath(); ctx.moveTo(X(-1650), Y(0)); ctx.lineTo(X(1650), Y(0)); ctx.stroke(); ctx.setLineDash([]);
       // 전선
-      front(T, thW, 1500, T.figRed, 'warm');
-      front(T, thC, 1600, T.figBlue, 'cold');
+      front(T, thW, 2600, T.figRed, 'warm');
+      front(T, thC, 2600, T.figBlue, 'cold');
       function front(T, thf, len, col, kind) {
         var pts = [];
         for (var rr = 0; rr <= len; rr += 20) { var th = thf(rr) * D; pts.push([X(c + rr * Math.cos(th)), Y(rr * Math.sin(th))]); }
@@ -199,8 +199,8 @@ Sims.register('cyclone-fronts', {
       ctx.font = fs + 'px ' + T.fontBody; ctx.fillStyle = T.figInk; ctx.textBaseline = 'alphabetic';
       ctx.fillText('저기압', X(c), Y(0) - fs - 8);
       // 이동 방향 화살표
-      arrow(X(c) + 22, Y(0) + fs + 10, X(c) + 70, Y(0) + fs + 10, T.figInk, 2);
-      ctx.textAlign = 'left'; ctx.fillStyle = T.figMuted; ctx.fillText('이동(편서풍)', X(c) + 74, Y(0) + fs + 14);
+      arrow(X(c) + 18, Y(0) - 12, X(c) + 62, Y(0) - 12, T.figInk, 2);
+      ctx.textAlign = 'left'; ctx.fillStyle = T.figInk; ctx.fillText('이동(편서풍)', X(c) + 66, Y(0) - 8);
       // 공기 이름
       var wsx = c + 650 * Math.cos(-72 * D), wsy = 650 * Math.sin(-72 * D);
       ctx.textAlign = 'center'; ctx.fillStyle = T.figRed; ctx.font = '600 ' + fs + 'px ' + T.fontBody;
@@ -211,10 +211,10 @@ Sims.register('cyclone-fronts', {
       ctx.fillText('찬 공기', X(c + 700), Y(450));
       // 전선 이름
       ctx.font = fs + 'px ' + T.fontBody;
-      var wt = thW(1100) * D; ctx.fillStyle = T.figRed; ctx.textAlign = 'left';
-      ctx.fillText('온난 전선', X(c + 1100 * Math.cos(wt)) + 6, Y(1100 * Math.sin(wt)) - 10);
-      var ct = thC(1150) * D; ctx.fillStyle = T.figBlue; ctx.textAlign = 'right';
-      ctx.fillText('한랭 전선', X(c + 1150 * Math.cos(ct)) - 10, Y(1150 * Math.sin(ct)));
+      var wt = thW(650) * D; ctx.fillStyle = T.figRed; ctx.textAlign = 'right';
+      ctx.fillText('온난 전선', X(c + 650 * Math.cos(wt)) - 4, Y(650 * Math.sin(wt)) + fs + 8);
+      var ct = thC(600) * D; ctx.fillStyle = T.figBlue; ctx.textAlign = 'left';
+      ctx.fillText('한랭 전선', X(c + 600 * Math.cos(ct)) + 14, Y(600 * Math.sin(ct)));
       // 관측소
       var f0 = at(st.t), sxp = X(st.sx), syp = Y(st.sy);
       var bto = (f0.from + 180) * D, al = 30;
@@ -251,7 +251,7 @@ Sims.register('cyclone-fronts', {
       line(boxes[1], '기압 (hPa)', 994, 1018, [996, 1004, 1012], function (f) { return f.p; }, T.figBlue);
       // 풍향·강수
       var b = boxes[2], top = b.y + 18, bot = b.y + b.h - 18;
-      frame(b, '풍향과 강수');
+      frame(b, '풍향(화살표)과 강수(막대)');
       var maxBar = (bot - top) * 0.5;
       series.forEach(function (s) {
         var amt = s.f.conv ? 1 : s.f.strat * 0.5;
@@ -269,12 +269,9 @@ Sims.register('cyclone-fronts', {
         arrow(x - Math.sin(bto) * al / 2, ay + Math.cos(bto) * al / 2, x + Math.sin(bto) * al / 2, ay - Math.cos(bto) * al / 2, T.figViolet, 1.8);
         ctx.globalAlpha = 1;
       }
-      ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
-      ctx.fillText('화살표: 바람이 불어 가는 방향(위가 북쪽)', L, b.y + b.h - 3);
-      ctx.textAlign = 'right'; ctx.fillText('막대: 비(진할수록 소나기)', R, b.y + 13);
       boxes.forEach(function (bb) { now(bb); });
       ctx.fillStyle = T.figMuted; ctx.textAlign = 'center'; ctx.font = '11px ' + T.fontMono;
-      [0, 15, 30, 45, 60, 75].forEach(function (t) { ctx.fillText(t, tx(t), b.y + b.h + 12 > cv.h ? b.y + b.h - 2 : b.y + b.h + 11); });
+      [0, 15, 30, 45, 60, 75].forEach(function (t) { ctx.fillText(t, tx(t), b.y + b.h - 4); });
 
       function frame(bb, title) {
         ctx.fillStyle = T.figPaper; ctx.fillRect(L, bb.y + 16, R - L, bb.h - 34);

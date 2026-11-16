@@ -14,7 +14,7 @@ Sims.register('double-slit-electron', {
 
     // 스크린 좌표 y ∈ [−1, 1]
     function prob(y) {
-      var c = 0.3, s = 0.22;
+      var c = 0.34, s = 0.19;
       var g1 = Math.exp(-Math.pow((y - c) / s, 2) / 2), g2 = Math.exp(-Math.pow((y + c) / s, 2) / 2);
       if (st.measure) return g1 + g2;
       var spacing = 0.28 / st.speed;                    // 빠를수록 파장↓ → 무늬 간격↓

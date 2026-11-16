@@ -4,7 +4,7 @@ Sims.register('lens-image', {
   caption: '물체(초록 화살표)를 끌어 옮기거나 슬라이더로 렌즈와의 거리를 바꾸어 보자. 축에 나란히 들어온 광선, 렌즈 중심을 지나는 광선, 초점을 지나거나(볼록) 초점을 향하는(오목) 광선이 실제로 만나는 곳에는 실상이, 거꾸로 연장한 선(점선)이 만나는 곳에는 허상이 생긴다. 볼록 렌즈는 물체가 초점 밖에 있으면 거꾸로 선 실상, 초점 안에 있으면 바로 선 확대된 허상을 만들고, 오목 렌즈는 언제나 바로 선 축소된 허상을 만든다. 렌즈는 두께를 무시한 얇은 렌즈로 보고, 빛이 렌즈 가운데 면에서 한 번 꺾인다고 단순화했다.',
   init: function (api) {
     var st = { a: 2.5, convex: true };       // a: 물체 거리(초점거리 단위)
-    var H = 0.75;                            // 물체 높이(초점거리 단위)
+    var H = 0.55;                            // 물체 높이(초점거리 단위)
     var cv = api.canvas({ aspect: function (w) { return w < 560 ? 0.66 : 0.48; }, label: '렌즈의 광선 추적과 상' });
     var ctx = cv.ctx;
     var rKind = api.readout('상의 종류');
@@ -85,7 +85,7 @@ Sims.register('lens-image', {
       ctx.fillText('물체', V.X(-a), V.Y(0) + 32);
       // 상
       if (im) {
-        var ih = im.m * H, onScreen = Math.abs(im.b) < right - 0.1 && Math.abs(ih) < 1.55;
+        var ih = im.m * H, onScreen = Math.abs(im.b) < right - 0.1 && Math.abs(ih) < h / 2 / sc - 0.12;
         if (onScreen) {
           arrowUp(im.b, ih, im.b > 0 ? T.figRed : T.figViolet, im.b < 0);
           ctx.fillStyle = im.b > 0 ? T.figRed : T.figViolet; ctx.textAlign = 'center';
