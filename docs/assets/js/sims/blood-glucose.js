@@ -27,7 +27,7 @@ Sims.register('blood-glucose', {
     function advance(min) { acc += min; while (acc >= 0.25) { step(0.25); acc -= 0.25; } }
     function steady() { return s.gut < 0.3 && s.ex <= 0 && Math.abs(s.G - SET) < 0.4 && s.I < 0.03 && s.C < 0.03; }
 
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.5 : 0.58; }, label: '혈당 조절 흐름도와 혈당·호르몬 그래프' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.8 : 0.58; }, label: '혈당 조절 흐름도와 혈당·호르몬 그래프' });
     var ctx = cv.ctx;
     var rG = api.readout('혈당량'), rI = api.readout('인슐린 분비'), rC = api.readout('글루카곤 분비'), rL = api.readout('간');
     api.button('식사하기', function () { s.gut += 120; events.push({ t: s.t, k: '식사' }); go(); }, { primary: true });
@@ -53,7 +53,7 @@ Sims.register('blood-glucose', {
     }
     function layout() {
       var w = cv.w, h = cv.h;
-      if (w < 560) return { d: { x: 0, y: 0, w: w, h: h * 0.47 }, g: { x: 0, y: h * 0.5, w: w, h: h * 0.5 } };
+      if (w < 560) return { d: { x: 0, y: 0, w: w, h: h * 0.53 }, g: { x: 0, y: h * 0.56, w: w, h: h * 0.44 } };
       return { d: { x: 0, y: 0, w: w * 0.45, h: h }, g: { x: w * 0.48, y: 0, w: w * 0.52, h: h } };
     }
     function draw() {
@@ -141,8 +141,8 @@ Sims.register('blood-glucose', {
       var gy = function (g) { return gB - (g - 50) / 130 * (gB - top); };
       // 정상 범위 띠
       ctx.fillStyle = T.figSoftGreen; ctx.fillRect(Lx, gy(100), R - Lx, gy(70) - gy(100));
-      ctx.fillStyle = T.figGreen; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right';
-      ctx.fillText('공복 정상 범위 70~100', R - 4, gy(70) - 4);
+      ctx.fillStyle = T.figGreen; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
+      ctx.fillText('공복 정상 범위 70~100', Lx + 4, gy(70) + 13);
       // 운동 구간
       events.forEach(function (e) {
         if (e.k === '운동') { var a = Math.max(sx(e.t), Lx), b = Math.min(sx(e.end), R); if (b > a) { ctx.fillStyle = T.figSoftAmber; ctx.globalAlpha = 0.7; ctx.fillRect(a, top, b - a, gB - top); ctx.globalAlpha = 1; } }
