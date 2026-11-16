@@ -132,7 +132,7 @@ async function mermaidRaw(def) {
 }
 
 // ───────────────────────── Markdown 변환 ─────────────────────────
-const CALLOUT = { NOTE: '성취기준·참고', TIP: '도움말', IMPORTANT: '핵심', WARNING: '주의', CAUTION: '심화 · 평가 범위 밖' };
+const CALLOUT = { NOTE: '참고', TIP: '도움말', IMPORTANT: '핵심', WARNING: '주의', CAUTION: '심화 · 평가 범위 밖' };
 function protectMath(md, store) {
   // 코드 블록·코드 스팬은 건드리지 않고 수식만 자리표시자로 바꾼다.
   const parts = md.split(/(```[\s\S]*?```|`[^`\n]+`)/g);
@@ -384,7 +384,7 @@ function coverBody() {
 </section>
 ${groups}
 <section class="appendix-row"><h2>찾아보기·부록</h2><ul>${[...FINDERS, ...EXTRA].map((e) => `<li><a href="${e.out}">${e.title}</a></li>`).join('')}</ul>
-<p class="source">근거: 교육부 고시 제2022-33호 [별책 9] 「과학과 교육과정」. 중학교 단원의 학년 배치는 교과서(학교)에 따라 다를 수 있다.</p></section>
+<p class="source">근거: 교육부 고시 제2022-33호 [별책 9] 「과학과 교육과정」. 중학교 단원의 학년 배치는 교과서(학교)에 따라 다를 수 있다. 대학 일반 과학 단원은 정해진 교육과정이 없어, 대학 1학년 과정에서 널리 쓰이는 교재들의 공통 목차를 참고해 범위를 정했다.</p></section>
 <section class="progress-admin" id="progress-admin" hidden><h2>학습 기록</h2>
 <p>읽던 위치, 읽은 정도, 완료 표시는 지금 쓰는 기기의 이 브라우저에만 저장된다. 다른 기기나 다른 브라우저에서는 따로 기록되며, 브라우저의 사이트 데이터를 지우면 함께 사라진다.</p>
 <div class="pa-btns"></div></section>`;
@@ -394,7 +394,7 @@ ${groups}
 function mapBody() {
   const stages = [];
   for (const g of CFG.groups) {
-    if (g.id === 'general' || g.id === 'career') stages.push({ name: g.name.replace('고등학교 ', ''), list: lessons.filter((l) => l.group === g), showPart: true });
+    if (g.id === 'general' || g.id === 'career' || g.id === 'university') stages.push({ name: g.name.replace('고등학교 ', ''), list: lessons.filter((l) => l.group === g), showPart: true });
     else for (const p of g.parts) stages.push({ name: g.id === 'middle' ? `중학교 ${p.name}` : p.name, list: partLessons(p) });
   }
   const rows = stages.filter((s) => s.list.length).map((s) => `<tr><th scope="row">${s.name}</th>${STRANDS.map((st) => {

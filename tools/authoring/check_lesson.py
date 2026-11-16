@@ -50,7 +50,12 @@ def check(path):
     one = re.search(r"\*\*성취기준 \[(10통과[12]-\d\d-\d\d)\]\*\*\s*(.+)", text)
     if one:
         stds = [(one.group(1), one.group(2))]
-    if not stds:
+    univ = bool(re.match(r"^u[a-z]+-\d+$", lid))          # 대학 일반 과학 단원: 성취기준 대신 '이 단원의 범위' 상자
+    if univ:
+        stds = []
+        if not re.search(r"> \[!NOTE\]\n> \*\*이 단원의 범위\*\*", text):
+            P.append("'이 단원의 범위' 상자가 없음")
+    elif not stds:
         P.append("성취기준 상자가 없음")
     for code, body in stds:
         if code not in ALL_CODES:
@@ -72,7 +77,7 @@ def check(path):
                     P.append(f"{key}에 없는 단원 id: {x}")
                 if x == lid:
                     P.append(f"{key}에 자기 자신이 들어 있음")
-    if PLAN.get(lid) and not re.search(r"<!--\s*(prev|next):", text):
+    if (PLAN.get(lid) or univ) and not re.search(r"<!--\s*prev:", text if univ else text.replace("next:", "prev:")):
         P.append("prev/next 표식이 없음")
     # STEP 5 범위 표시
     s5 = text.find("## STEP 5.")

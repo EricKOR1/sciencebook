@@ -1,6 +1,6 @@
 {
   "title": "한 권으로 잇는 과학",
-  "subtitle": "중학교 1학년부터 고등학교 진로 선택 과목까지",
+  "subtitle": "중학교 1학년부터 대학 일반 과학까지",
   "strands": [
     { "id": "energy", "name": "운동과 에너지" },
     { "id": "matter", "name": "물질" },
@@ -50,6 +50,15 @@
         { "id": "gene", "name": "생물의 유전", "short": "생물의 유전", "dir": "고등학교_진로선택/생물의_유전", "strand": "life" },
         { "id": "esys", "name": "지구시스템과학", "short": "지구시스템과학", "dir": "고등학교_진로선택/지구시스템과학", "strand": "earth" },
         { "id": "astro", "name": "행성우주과학", "short": "행성우주과학", "dir": "고등학교_진로선택/행성우주과학", "strand": "earth" }
+      ]
+    },
+    {
+      "id": "university", "name": "대학 일반 과학",
+      "parts": [
+        { "id": "uphy", "name": "일반물리학", "short": "일반물리학", "dir": "대학_일반과학/일반물리학", "strand": "energy" },
+        { "id": "uchem", "name": "일반화학", "short": "일반화학", "dir": "대학_일반과학/일반화학", "strand": "matter" },
+        { "id": "ubio", "name": "일반생명과학", "short": "일반생명과학", "dir": "대학_일반과학/일반생명과학", "strand": "life" },
+        { "id": "uearth", "name": "일반지구과학", "short": "일반지구과학", "dir": "대학_일반과학/일반지구과학", "strand": "earth" }
       ]
     }
   ],
