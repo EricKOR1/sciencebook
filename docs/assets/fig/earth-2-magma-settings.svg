@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t-earth-2-magma-settings d-earth-2-magma-settings">
+  <title id="t-earth-2-magma-settings">그림 지구과학 2-3 변동대에서 마그마가 생기는 곳</title>
+  <desc id="d-earth-2-magma-settings">해령과 열점에서는 맨틀 물질이 상승하며 압력이 낮아져 현무암질 마그마가 생긴다. 섭입대에서는 해양판에서 빠져나온 물이 맨틀의 녹는점을 낮춰 마그마가 생기고, 이 마그마가 대륙 지각 아래를 가열하면 유문암질 마그마가 생긴다.</desc>
+  <style>
+    .earth-2-magma-settings-b{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .earth-2-magma-settings-s{font-size:13px;fill:var(--fig-muted)}
+    .earth-2-magma-settings-n{font-size:13px;font-weight:700;fill:var(--fig-panel)}
+    .earth-2-magma-settings-m{fill:var(--fig-red);stroke:none}
+  </style>
+  <!-- 맨틀 -->
+  <rect x="20" y="170" width="680" height="200" style="fill:var(--fig-soft-amber);stroke:none"/>
+  <text x="200" y="356" text-anchor="middle" class="earth-2-magma-settings-s">맨틀(대부분 고체)</text>
+  <!-- 바다 -->
+  <path d="M20 118 L500 118 L500 160 L20 160 Z" style="fill:var(--fig-soft-blue);stroke:none"/>
+  <line x1="20" y1="118" x2="500" y2="118" style="stroke:var(--fig-blue);stroke-width:1.5"/>
+  <!-- 해양판 -->
+  <path d="M20 160 L80 150 L110 138 L140 150 L200 160 L480 160 L520 166 L690 340 L660 360 L500 196 L480 190 L200 190 L140 180 L110 172 L80 180 L20 190 Z" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <!-- 대륙 -->
+  <path d="M480 160 L500 118 L520 104 L560 100 L600 60 L622 60 L640 100 L700 100 L700 220 L620 220 L560 200 L520 166 Z" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <text x="672" y="124" text-anchor="middle" class="earth-2-magma-settings-s">대륙 지각</text>
+  <!-- 열점 섬 -->
+  <path d="M260 160 L282 118 L292 96 L304 96 L314 118 L336 160 Z" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <!-- 판 이동 화살표 -->
+  <g style="stroke:var(--fig-ink);stroke-width:2">
+    <line x1="150" y1="176" x2="214" y2="176"/><line x1="70" y1="176" x2="30" y2="176"/><line x1="380" y1="176" x2="444" y2="176"/>
+  </g>
+  <g style="fill:var(--fig-ink)">
+    <path d="M222 176 l-10 -5 l0 10 z"/><path d="M24 176 l10 -5 l0 10 z"/><path d="M452 176 l-10 -5 l0 10 z"/>
+  </g>
+  <!-- ① 해령 -->
+  <ellipse cx="110" cy="200" rx="26" ry="12" class="earth-2-magma-settings-m"/>
+  <path d="M110 250 L110 216" style="stroke:var(--fig-red);stroke-width:3"/><path d="M110 212 l-6 10 l12 0 z" class="earth-2-magma-settings-m"/>
+  <path d="M92 290 C92 260 128 260 128 290" style="fill:none;stroke:var(--fig-red);stroke-width:2;stroke-dasharray:4 4"/>
+  <!-- ② 열점 -->
+  <path d="M286 360 L286 214 Q298 196 310 214 L310 360 Z" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <ellipse cx="298" cy="204" rx="22" ry="10" class="earth-2-magma-settings-m"/>
+  <path d="M298 330 L298 236" style="stroke:var(--fig-red);stroke-width:3"/><path d="M298 228 l-6 10 l12 0 z" class="earth-2-magma-settings-m"/>
+  <!-- ③ 섭입대: 물 -->
+  <g style="fill:var(--fig-blue)">
+    <circle cx="590" cy="262" r="3"/><circle cx="582" cy="248" r="3"/><circle cx="574" cy="234" r="3"/><circle cx="604" cy="276" r="3"/><circle cx="596" cy="252" r="3"/>
+  </g>
+  <path d="M600 284 L574 236" style="stroke:var(--fig-blue);stroke-width:2;stroke-dasharray:4 3"/>
+  <ellipse cx="566" cy="226" rx="16" ry="9" class="earth-2-magma-settings-m"/>
+  <!-- ④ 대륙 지각 하부 가열 -->
+  <ellipse cx="592" cy="186" rx="22" ry="10" style="fill:var(--fig-violet);stroke:none"/>
+  <path d="M578 220 L586 198" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <path d="M600 176 L608 74" style="stroke:var(--fig-red);stroke-width:3"/>
+  <!-- 번호 -->
+  <g>
+    <circle cx="110" cy="200" r="10" style="fill:var(--fig-ink)"/><text x="110" y="205" text-anchor="middle" class="earth-2-magma-settings-n">1</text>
+    <circle cx="298" cy="204" r="10" style="fill:var(--fig-ink)"/><text x="298" y="209" text-anchor="middle" class="earth-2-magma-settings-n">2</text>
+    <circle cx="540" cy="226" r="10" style="fill:var(--fig-ink)"/><text x="540" y="231" text-anchor="middle" class="earth-2-magma-settings-n">3</text>
+    <circle cx="626" cy="186" r="10" style="fill:var(--fig-ink)"/><text x="626" y="191" text-anchor="middle" class="earth-2-magma-settings-n">4</text>
+  </g>
+  <text x="110" y="132" text-anchor="middle" class="earth-2-magma-settings-s">해령</text>
+  <text x="298" y="88" text-anchor="middle" class="earth-2-magma-settings-s">열점 화산섬</text>
+  <text x="612" y="52" text-anchor="middle" class="earth-2-magma-settings-s">화산(안산암질)</text>
+  <text x="432" y="306" text-anchor="middle" class="earth-2-magma-settings-s">섭입하는 해양판</text>
+  <!-- 설명 -->
+  <g class="earth-2-magma-settings-b">
+    <text x="20" y="24">1 해령 · 2 열점: 맨틀 물질 상승 → 압력 감소 → 현무암질 마그마</text>
+    <text x="20" y="44" style="fill:var(--fig-blue)">3 섭입대: 해양판에서 나온 물 → 맨틀의 녹는점 하강 → 현무암질 마그마</text>
+    <text x="20" y="64" style="fill:var(--fig-violet)">4 대륙 지각 하부: 올라온 마그마의 열로 가열 → 유문암질 마그마</text>
+  </g>
+  <text x="360" y="396" text-anchor="middle" class="earth-2-magma-settings-s">빨강: 현무암질 마그마 · 보라: 유문암질 마그마 · 파랑 점: 빠져나온 물 (모식도, 크기·깊이는 실제와 다름)</text>
+</svg>

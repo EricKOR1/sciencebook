@@ -3,9 +3,9 @@ Sims.register('collision-1d', {
   title: '수레 두 대의 충돌 — 운동량과 운동 에너지 비교하기',
   caption: '두 수레의 질량과 처음 속도를 정하고, 튕기는 충돌(탄성 충돌)과 붙는 충돌(완전 비탄성 충돌)을 골라 충돌시켜 보자. 어느 경우에도 운동량의 합은 충돌 전과 후가 같지만, 붙는 충돌에서는 운동 에너지의 합이 줄어든다(줄어든 만큼 열·소리·변형으로 바뀐다). 오른쪽을 (+) 방향으로 정했고, 레일의 마찰과 공기 저항은 없다고 가정했다.',
   init: function (api) {
-    var W = 0.6;                      // 수레 길이(m, 그림용)
+    var W = 0.9;                      // 수레 길이(m, 그림용)
     var state = { mA: 2, mB: 1, vA: 3, vB: 0, type: 'stick', t: 0, playing: false, done: false };
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.32 : 0.6; }, label: '레일 위 두 수레와 충돌 전후 속도·운동량·운동 에너지 막대그래프' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.5 : 0.62; }, label: '레일 위 두 수레와 충돌 전후 속도·운동량·운동 에너지 막대그래프' });
     var ctx = cv.ctx;
 
     var rV = api.readout('충돌 후 속도 A, B');
@@ -86,8 +86,8 @@ Sims.register('collision-1d', {
     function layout() {
       var w = cv.w, h = cv.h;
       if (w < 560) {
-        return { scene: { x: 0, y: 0, w: w, h: h * 0.27 },
-          v: { x: 0, y: h * 0.29, w: w, h: h * 0.33 },
+        return { scene: { x: 0, y: 0, w: w, h: h * 0.26 },
+          v: { x: 0, y: h * 0.28, w: w, h: h * 0.34 },
           p: { x: 0, y: h * 0.64, w: w * 0.5, h: h * 0.36 }, k: { x: w * 0.5, y: h * 0.64, w: w * 0.5, h: h * 0.36 } };
       }
       return { scene: { x: 0, y: 0, w: w, h: h * 0.36 },
@@ -128,8 +128,9 @@ Sims.register('collision-1d', {
       ctx.fillStyle = T.figInk;
       [cx - half * 0.55, cx + half * 0.55].forEach(function (wx) { ctx.beginPath(); ctx.arc(wx, railY - 5, 5, 0, Math.PI * 2); ctx.fill(); });
       ctx.fillStyle = T.figInk; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
-      ctx.fillText(name + ' ' + m.toFixed(1) + ' kg', cx, top + hgt / 2);
+      ctx.fillText(name, cx, top + hgt / 2);
       ctx.textBaseline = 'alphabetic';
+      ctx.font = '11px ' + T.fontBody; ctx.fillStyle = T.figMuted; ctx.fillText(m.toFixed(1) + ' kg', cx, railY + 15);
       // 속도 화살표
       if (Math.abs(v) > 0.01) {
         var len = v * 16, ay = top - 10;
@@ -161,7 +162,7 @@ Sims.register('collision-1d', {
     function panelFrame(T, r, title) {
       ctx.fillStyle = T.figInk; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'center';
       ctx.fillText(title, r.x + r.w / 2, r.y + 14);
-      return { L: r.x + 38, R: r.x + r.w - 10, T: r.y + 26, B: r.y + r.h - 24 };
+      return { L: r.x + 38, R: r.x + r.w - 10, T: r.y + 26, B: r.y + r.h - 36 };
     }
     function signedPanel(T, r, title, vmax, bars, sum) {
       var f = panelFrame(T, r, title), mid = (f.T + f.B) / 2, sy = function (v) { return mid - v / vmax * (f.B - f.T) / 2; };
@@ -182,7 +183,7 @@ Sims.register('collision-1d', {
       });
       if (sum) {
         ctx.fillStyle = T.figGreen; ctx.font = '600 11px ' + T.fontBody; ctx.textAlign = 'center';
-        ctx.fillText('같다 = 보존', (f.L + f.R) / 2, f.T + 2);
+        ctx.fillText('전과 후가 같다 = 보존', (f.L + f.R) / 2, f.B + 31);
       }
       if (bars.length === 4) { // 전/후 사이 구분선
         ctx.strokeStyle = T.figLine; ctx.setLineDash([2, 3]); ctx.beginPath(); ctx.moveTo((f.L + f.R) / 2, f.T); ctx.lineTo((f.L + f.R) / 2, f.B + 4); ctx.stroke(); ctx.setLineDash([]);
@@ -214,8 +215,9 @@ Sims.register('collision-1d', {
       });
       // 범례
       ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
-      ctx.fillStyle = T.figBlue; ctx.fillRect(f.R - 52, f.T - 2, 9, 9); ctx.fillStyle = T.figInk; ctx.fillText('A', f.R - 40, f.T + 6);
-      ctx.fillStyle = T.figRed; ctx.fillRect(f.R - 26, f.T - 2, 9, 9); ctx.fillStyle = T.figInk; ctx.fillText('B', f.R - 14, f.T + 6);
+      var lx = (f.L + f.R) / 2 - 42, ly = f.B + 31;
+      ctx.fillStyle = T.figBlue; ctx.fillRect(lx, ly - 9, 9, 9); ctx.fillStyle = T.figInk; ctx.fillText('수레 A', lx + 12, ly);
+      ctx.fillStyle = T.figRed; ctx.fillRect(lx + 50, ly - 9, 9, 9); ctx.fillStyle = T.figInk; ctx.fillText('B', lx + 62, ly);
     }
 
     api.onResize(draw);

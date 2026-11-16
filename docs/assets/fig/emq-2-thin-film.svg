@@ -18,7 +18,7 @@
   <text x="20" y="28" class="emq-2-thin-film-t">(가) 공기 중의 비누막 (n = 1.33)</text>
   <text x="30" y="70" class="emq-2-thin-film-s">공기 (n = 1.00)</text>
   <rect x="20" y="150" width="320" height="50" class="emq-2-thin-film-film"/>
-  <text x="330" y="180" text-anchor="end" class="emq-2-thin-film-s">막 (n = 1.33)</text>
+  <text x="200" y="180" class="emq-2-thin-film-s">막 (n = 1.33)</text>
   <text x="30" y="226" class="emq-2-thin-film-s">공기 (n = 1.00)</text>
   <!-- 입사광 -->
   <path d="M60 60 L120 150" class="emq-2-thin-film-ray"/>
@@ -44,9 +44,9 @@
   <text x="380" y="28" class="emq-2-thin-film-t">(나) 유리 위 반사 방지 코팅 (n = 1.38)</text>
   <text x="390" y="70" class="emq-2-thin-film-s">공기 (n = 1.00)</text>
   <rect x="380" y="150" width="320" height="50" class="emq-2-thin-film-film"/>
-  <text x="690" y="180" text-anchor="end" class="emq-2-thin-film-s">코팅 (n = 1.38)</text>
+  <text x="560" y="180" class="emq-2-thin-film-s">코팅 (n = 1.38)</text>
   <rect x="380" y="200" width="320" height="34" class="emq-2-thin-film-glass"/>
-  <text x="690" y="222" text-anchor="end" class="emq-2-thin-film-s">유리 (n = 1.5)</text>
+  <text x="560" y="222" class="emq-2-thin-film-s">유리 (n = 1.5)</text>
   <path d="M420 60 L480 150" class="emq-2-thin-film-ray"/>
   <path d="M460 120 l3 -10 l6 8 z" class="emq-2-thin-film-ah" transform="rotate(-24 464 116)"/>
   <path d="M480 150 L540 60" class="emq-2-thin-film-ray"/>

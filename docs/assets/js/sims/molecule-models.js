@@ -71,7 +71,10 @@ Sims.register('molecule-models', {
       yaw: 0.5, pitch: 0.3, dist: 10, scale: 0.17, label: '분자의 공-막대 모형',
       draw: function (g, T) {
         var m = MOL[state.m], C = colors(T);
-        m.bonds.forEach(function (b) { g.line(m.atoms[b[0]][1], m.atoms[b[1]][1], T.figMuted, { width: 7 }); });
+        m.bonds.forEach(function (b) {   // 막대를 공의 겉면에서 겉면까지만 그려 앞뒤 관계가 맞게 보이도록
+          var A = m.atoms[b[0]], B = m.atoms[b[1]], d = add(B[1], A[1], -1), L = Math.hypot(d[0], d[1], d[2]);
+          g.line(add(A[1], d, EL[A[0]].r * 0.9 / L), add(B[1], d, -EL[B[0]].r * 0.9 / L), T.figMuted, { width: 7 });
+        });
         m.atoms.forEach(function (a) {
           var e = a[0], c = C[e];
           g.sphere(a[1], EL[e].r, c.fill, { label: e, labelColor: c.text, outline: T.figMuted });

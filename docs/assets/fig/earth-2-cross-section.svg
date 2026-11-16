@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-earth-2-cross-section d-earth-2-cross-section">
+  <title id="t-earth-2-cross-section">그림 지구과학 2-2 예제 1의 지질 단면</title>
+  <desc id="d-earth-2-cross-section">동쪽으로 기울어진 셰일 A, 사암 B, 석회암 C를 단층 F가 자르고, 그 위를 경사 부정합으로 수평한 역암 D와 사암 E가 덮으며, 화강암 G가 A부터 E까지 모두 뚫고 관입하여 주변을 구웠다.</desc>
+  <style>
+    .earth-2-cross-section-a{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1}
+    .earth-2-cross-section-b{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1}
+    .earth-2-cross-section-c{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1}
+    .earth-2-cross-section-d{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1}
+    .earth-2-cross-section-e{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1}
+    .earth-2-cross-section-lb{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .earth-2-cross-section-s{font-size:13px;fill:var(--fig-muted)}
+    .earth-2-cross-section-t{font-size:14px;fill:var(--fig-ink)}
+    .earth-2-cross-section-ci{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.2}
+  </style>
+  <defs>
+    <clipPath id="earth-2-cross-section-left"><path d="M100 160 L353 160 L310 330 L100 330 Z"/></clipPath>
+    <clipPath id="earth-2-cross-section-right"><path d="M353 160 L620 160 L620 330 L310 330 Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#earth-2-cross-section-left)"><path d="M100 -200 L620 -200 L620 264 L100 30 Z" class="earth-2-cross-section-c"/><path d="M100 30 L620 264 L620 364 L100 130 Z" class="earth-2-cross-section-b"/><path d="M100 130 L620 364 L620 500 L100 500 Z" class="earth-2-cross-section-a"/></g>
+  <g clip-path="url(#earth-2-cross-section-right)"><path d="M100 -200 L620 -200 L620 234 L100 0 Z" class="earth-2-cross-section-c"/><path d="M100 0 L620 234 L620 334 L100 100 Z" class="earth-2-cross-section-b"/><path d="M100 100 L620 334 L620 500 L100 500 Z" class="earth-2-cross-section-a"/></g>
+  <path d="M100 172 L160 168 L230 174 L300 170 L370 175 L440 169 L520 173 L620 170 L620 140 L100 140 Z" class="earth-2-cross-section-d"/>
+  <rect x="100" y="64" width="520" height="76" class="earth-2-cross-section-e"/>
+  <g style="fill:var(--fig-panel);stroke:var(--fig-green);stroke-width:1">
+    <ellipse cx="108" cy="162" rx="3.8" ry="3"/>
+    <ellipse cx="133" cy="159" rx="5.1" ry="3"/>
+    <ellipse cx="146" cy="151" rx="5.8" ry="3"/>
+    <ellipse cx="168" cy="162" rx="4.1" ry="3"/>
+    <ellipse cx="192" cy="159" rx="4.9" ry="3"/>
+    <ellipse cx="208" cy="159" rx="5.1" ry="3"/>
+    <ellipse cx="224" cy="162" rx="3.9" ry="3"/>
+    <ellipse cx="250" cy="159" rx="5.4" ry="3"/>
+    <ellipse cx="267" cy="151" rx="3.9" ry="3"/>
+    <ellipse cx="289" cy="151" rx="4.3" ry="3"/>
+    <ellipse cx="301" cy="159" rx="4.7" ry="3"/>
+    <ellipse cx="326" cy="159" rx="5.3" ry="3"/>
+    <ellipse cx="347" cy="159" rx="5.3" ry="3"/>
+    <ellipse cx="364" cy="151" rx="5.7" ry="3"/>
+    <ellipse cx="380" cy="151" rx="4.7" ry="3"/>
+    <ellipse cx="401" cy="162" rx="4.6" ry="3"/>
+    <ellipse cx="423" cy="159" rx="4.6" ry="3"/>
+    <ellipse cx="444" cy="162" rx="4.4" ry="3"/>
+    <ellipse cx="462" cy="162" rx="4.1" ry="3"/>
+    <ellipse cx="479" cy="151" rx="5.6" ry="3"/>
+    <ellipse cx="504" cy="162" rx="5.2" ry="3"/>
+    <ellipse cx="521" cy="159" rx="5.9" ry="3"/>
+    <ellipse cx="542" cy="162" rx="3.8" ry="3"/>
+    <ellipse cx="560" cy="162" rx="5.6" ry="3"/>
+    <ellipse cx="579" cy="159" rx="3.8" ry="3"/>
+    <ellipse cx="597" cy="162" rx="6.0" ry="3"/>
+  </g>
+  <line x1="350" y1="172" x2="310" y2="330" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <path d="M100 172 L160 168 L230 174 L300 170 L370 175 L440 169 L520 173 L620 170" style="fill:none;stroke:var(--fig-red);stroke-width:3"/>
+  <path d="M470 330 C474 260 488 200 500 150 C506 112 516 86 530 82 C546 80 552 112 556 150 C562 210 572 270 580 330" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:12;stroke-opacity:0.35"/>
+  <path d="M470 330 C474 260 488 200 500 150 C506 112 516 86 530 82 C546 80 552 112 556 150 C562 210 572 270 580 330 Z" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8"/>
+  <g style="stroke:var(--fig-red);stroke-width:1.2">
+    <path d="M512 160 l8 0 M516 156 l0 8 M532 210 l8 0 M536 206 l0 8 M508 260 l8 0 M512 256 l0 8 M545 290 l8 0 M549 286 l0 8 M524 120 l8 0 M528 116 l0 8"/>
+  </g>
+  <rect x="100" y="64" width="520" height="266" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <line x1="100" y1="64" x2="620" y2="64" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <text x="104" y="56" class="earth-2-cross-section-s">지표</text>
+  <circle cx="200" cy="99" r="12" class="earth-2-cross-section-ci"/><text x="200" y="104" text-anchor="middle" class="earth-2-cross-section-lb">E</text>
+  <circle cx="230" cy="151" r="12" class="earth-2-cross-section-ci"/><text x="230" y="156" text-anchor="middle" class="earth-2-cross-section-lb">D</text>
+  <circle cx="604" cy="195" r="12" class="earth-2-cross-section-ci"/><text x="604" y="200" text-anchor="middle" class="earth-2-cross-section-lb">C</text>
+  <circle cx="420" cy="209" r="12" class="earth-2-cross-section-ci"/><text x="420" y="214" text-anchor="middle" class="earth-2-cross-section-lb">B</text>
+  <circle cx="268" cy="191" r="12" class="earth-2-cross-section-ci"/><text x="268" y="196" text-anchor="middle" class="earth-2-cross-section-lb">B</text>
+  <circle cx="180" cy="257" r="12" class="earth-2-cross-section-ci"/><text x="180" y="262" text-anchor="middle" class="earth-2-cross-section-lb">A</text>
+  <circle cx="420" cy="287" r="12" class="earth-2-cross-section-ci"/><text x="420" y="292" text-anchor="middle" class="earth-2-cross-section-lb">A</text>
+  <circle cx="528" cy="227" r="12" class="earth-2-cross-section-ci"/><text x="528" y="232" text-anchor="middle" class="earth-2-cross-section-lb">G</text>
+  <circle cx="352" cy="245" r="12" class="earth-2-cross-section-ci"/><text x="352" y="250" text-anchor="middle" class="earth-2-cross-section-lb">F</text>
+  <text x="660" y="100" text-anchor="middle" class="earth-2-cross-section-s">서 ← → 동</text>
+  <g class="earth-2-cross-section-t">
+    <rect x="100" y="348" width="16" height="12" class="earth-2-cross-section-a"/><text x="122" y="359">A 셰일</text>
+    <rect x="188" y="348" width="16" height="12" class="earth-2-cross-section-b"/><text x="210" y="359">B 사암</text>
+    <rect x="276" y="348" width="16" height="12" class="earth-2-cross-section-c"/><text x="298" y="359">C 석회암</text>
+    <rect x="378" y="348" width="16" height="12" class="earth-2-cross-section-d"/><text x="400" y="359">D 역암</text>
+    <rect x="466" y="348" width="16" height="12" class="earth-2-cross-section-e"/><text x="488" y="359">E 사암</text>
+    <rect x="554" y="348" width="16" height="12" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1"/><text x="576" y="359">G 화강암</text>
+  </g>
+  <line x1="100" y1="380" x2="130" y2="380" style="stroke:var(--fig-red);stroke-width:3"/><text x="136" y="385" class="earth-2-cross-section-s">부정합면</text>
+  <line x1="220" y1="380" x2="250" y2="380" style="stroke:var(--fig-red);stroke-width:10;stroke-opacity:0.35"/><text x="256" y="385" class="earth-2-cross-section-s">G 둘레의 구워진 부분(접촉 변성)</text>
+  <text x="470" y="385" class="earth-2-cross-section-s">모식도</text>
+</svg>

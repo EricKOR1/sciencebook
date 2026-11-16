@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-labelledby="t-astro-2-space-motion d-astro-2-space-motion">
+  <title id="t-astro-2-space-motion">그림 행성우주과학 2-2 별의 공간 운동 — 시선속도와 접선속도</title>
+  <desc id="d-astro-2-space-motion">별의 실제 운동(공간 속도)은 시선 방향 성분인 시선속도와 시선에 수직인 성분인 접선속도로 나뉜다. 시선속도는 도플러 효과로, 접선속도는 고유 운동과 거리로 구한다.</desc>
+  <style>
+    .astro-2-space-motion-ink{fill:var(--fig-ink)} .astro-2-space-motion-mut{fill:var(--fig-muted)}
+    .astro-2-space-motion-lbl{font-size:14px;fill:var(--fig-ink)} .astro-2-space-motion-sm{font-size:13px;fill:var(--fig-muted)} .astro-2-space-motion-b{font-weight:600}
+    .astro-2-space-motion-ax{stroke:var(--fig-line);stroke-width:1.5;fill:none}
+    
+  </style>
+  <text x="20" y="28" class="astro-2-space-motion-lbl astro-2-space-motion-b">공간 속도 = 시선속도 + 접선속도 (서로 수직)</text>
+  <line x1="70" y1="250" x2="618.2" y2="135.8" style="stroke:var(--fig-line);stroke-width:1.4;stroke-dasharray:6 5"/>
+  <text x="265.8" y="231.2" text-anchor="middle" class="astro-2-space-motion-sm">시선 방향 (거리 d)</text>
+  <line x1="70" y1="250" x2="409.8" y2="78.2" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:2 4"/>
+  <path d="M158.1 231.6 A90 90 0 0 0 150.3 209.4" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
+  <text x="170.0" y="220.0" class="astro-2-space-motion-sm" style="fill:var(--fig-amber)">고유 운동 μ (″/년)</text>
+  <circle cx="70" cy="250" r="10" style="fill:var(--fig-teal)"/>
+  <text x="70" y="280" text-anchor="middle" class="astro-2-space-motion-lbl astro-2-space-motion-b">태양(지구)</text>
+  <path d="M565.2 146.8 L545.0 50.0 L409.8 78.2" style="fill:none;stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:4 4"/>
+  <line x1="430.0" y1="175.0" x2="556.6" y2="148.6" style="stroke:var(--fig-red);stroke-width:2.6"/>
+  <path d="M565.2 146.8 L556.1 153.1 L554.4 144.7 Z" style="fill:var(--fig-red)"/>
+  <line x1="430.0" y1="175.0" x2="411.6" y2="86.8" style="stroke:var(--fig-blue);stroke-width:2.6"/>
+  <path d="M409.8 78.2 L416.1 87.2 L407.7 89.0 Z" style="fill:var(--fig-blue)"/>
+  <line x1="430.0" y1="175.0" x2="539.0" y2="56.5" style="stroke:var(--fig-ink);stroke-width:3"/>
+  <path d="M545.0 50.0 L541.3 60.4 L535.0 54.6 Z" style="fill:var(--fig-ink)"/>
+  <circle cx="430" cy="175" r="9" style="fill:var(--fig-amber);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="436" y="205" class="astro-2-space-motion-lbl">별</text>
+  <text x="575.2" y="164.8" class="astro-2-space-motion-lbl astro-2-space-motion-b" style="fill:var(--fig-red)">시선속도 v_r</text>
+  <text x="575.2" y="182.8" class="astro-2-space-motion-sm">스펙트럼선의 도플러 이동</text>
+  <text x="575.2" y="199.8" class="astro-2-space-motion-sm">v_r = c·Δλ/λ₀ (멀어지면 +)</text>
+  <text x="399.8" y="80.2" text-anchor="end" class="astro-2-space-motion-lbl astro-2-space-motion-b" style="fill:var(--fig-blue)">접선속도 v_t</text>
+  <text x="399.8" y="98.2" text-anchor="end" class="astro-2-space-motion-sm">하늘 면을 따라 움직임</text>
+  <text x="399.8" y="115.2" text-anchor="end" class="astro-2-space-motion-sm">v_t = 4.74 μ d (km/s)</text>
+  <text x="555.0" y="54.0" class="astro-2-space-motion-lbl astro-2-space-motion-b">공간 속도 v</text>
+  <text x="555.0" y="72.0" class="astro-2-space-motion-sm">v = √(v_r² + v_t²)</text>
+  <text x="360" y="308" text-anchor="middle" class="astro-2-space-motion-sm">모식도: 각도와 길이는 실제 비율이 아니다 (μ는 실제로 1년에 1″ 안팎으로 매우 작다)</text>
+</svg>

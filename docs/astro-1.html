@@ -10,7 +10,8 @@
 <link rel="stylesheet" href="assets/katex/katex.min.css">
 <link rel="stylesheet" href="assets/book.css">
 <script src="assets/js/book.js" defer></script>
-
+<script src="assets/js/sims/solar-system-orbits.js" defer></script>
+<script src="assets/js/sims/exoplanet-transit.js" defer></script>
 </head>
 <body class="" data-lesson="astro-1" data-title="우주탐사와 행성계" data-where="행성우주과학">
 <header class="topbar">
@@ -565,6 +566,8 @@ h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">​</span
 </tr>
 </tbody></table></div>
 <p>행성뿐 아니라 왜소행성·혜성까지 <strong>태양계의 모든 천체가 같은 규칙을 따른다</strong>는 것을 표에서 확인할 수 있다.</p>
+<figure class="sim" id="sim-solar-system-orbits" data-sim="solar-system-orbits"><noscript>이 애니메이션은 자바스크립트가 필요하다.</noscript></figure>
+
 <h4 id="예제-4-제3법칙으로-궤도-크기와-주기-구하기">예제 4 — 제3법칙으로 궤도 크기와 주기 구하기</h4>
 <p>(1) 긴반지름이 2.77 AU인 왜소행성 세레스의 공전 주기를 구하시오.
 (2) 공전 주기가 약 248년인 명왕성의 긴반지름을 구하시오.</p>
@@ -650,6 +653,86 @@ h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">​</span
 <td>대기에서 타며 빛나면 유성, 땅에 떨어진 것이 운석</td>
 </tr>
 </tbody></table></div>
+<figure class="fig" id="fig-astro-1-small-bodies"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-astro-1-small-bodies d-astro-1-small-bodies">
+  <title id="t-astro-1-small-bodies">그림 행성우주과학 1-1 태양계 소천체의 분포</title>
+  <desc id="d-astro-1-small-bodies">거리를 로그 눈금으로 나타내면 소행성대는 화성과 목성 사이, 카이퍼 벨트는 해왕성 바깥, 오르트 구름은 그보다 훨씬 먼 태양계 외곽에 있다. 설선 안쪽의 소천체는 주로 암석·금속, 바깥은 얼음이 많다.</desc>
+  <style>
+    .astro-1-small-bodies-ink{fill:var(--fig-ink)} .astro-1-small-bodies-mut{fill:var(--fig-muted)}
+    .astro-1-small-bodies-lbl{font-size:14px;fill:var(--fig-ink)} .astro-1-small-bodies-sm{font-size:13px;fill:var(--fig-muted)} .astro-1-small-bodies-b{font-weight:600}
+    .astro-1-small-bodies-ax{stroke:var(--fig-line);stroke-width:1.5;fill:none}
+    
+  </style>
+  <rect x="163.9" y="148" width="22.1" height="44" rx="6" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <rect x="293.8" y="148" width="24.9" height="44" rx="6" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <rect x="498.9" y="130" width="191.1" height="80" rx="6" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5;stroke-dasharray:5 4"/>
+  <line x1="179.7" y1="66" x2="179.7" y2="220" style="stroke:var(--fig-line);stroke-width:1.3;stroke-dasharray:4 4"/>
+  <text x="179.7" y="58" text-anchor="middle" class="astro-1-small-bodies-sm">설선(약 3 AU)</text>
+  <line x1="361.5" y1="66" x2="361.5" y2="220" style="stroke:var(--fig-line);stroke-width:1.3;stroke-dasharray:4 4"/>
+  <text x="361.5" y="58" text-anchor="middle" class="astro-1-small-bodies-sm">태양권 계면(약 120 AU)</text>
+  <text x="173.7" y="84" text-anchor="end" class="astro-1-small-bodies-sm">← 암석·금속</text>
+  <text x="185.7" y="84" class="astro-1-small-bodies-sm">얼음이 많음 →</text>
+  <line x1="40" y1="170" x2="690" y2="170" class="astro-1-small-bodies-ax" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <circle cx="36" cy="170" r="14" style="fill:var(--fig-amber)"/>
+  <text x="36" y="204" text-anchor="middle" class="astro-1-small-bodies-lbl astro-1-small-bodies-b">태양</text>
+  <circle cx="81.3" cy="170" r="3.5" style="fill:var(--fig-blue)"/>
+  <text x="81.3" y="158" text-anchor="middle" class="astro-1-small-bodies-sm">수</text>
+  <circle cx="111.9" cy="170" r="3.5" style="fill:var(--fig-blue)"/>
+  <text x="111.9" y="158" text-anchor="middle" class="astro-1-small-bodies-sm">금</text>
+  <circle cx="127.7" cy="170" r="3.5" style="fill:var(--fig-blue)"/>
+  <text x="127.7" y="158" text-anchor="middle" class="astro-1-small-bodies-sm">지</text>
+  <circle cx="148.3" cy="170" r="3.5" style="fill:var(--fig-blue)"/>
+  <text x="148.3" y="158" text-anchor="middle" class="astro-1-small-bodies-sm">화</text>
+  <circle cx="208.2" cy="170" r="6" style="fill:var(--fig-blue)"/>
+  <text x="208.2" y="140" text-anchor="middle" class="astro-1-small-bodies-sm">목</text>
+  <circle cx="238.1" cy="170" r="6" style="fill:var(--fig-blue)"/>
+  <text x="238.1" y="158" text-anchor="middle" class="astro-1-small-bodies-sm">토</text>
+  <circle cx="272.0" cy="170" r="4.5" style="fill:var(--fig-blue)"/>
+  <text x="272.0" y="158" text-anchor="middle" class="astro-1-small-bodies-sm">천</text>
+  <circle cx="294.0" cy="170" r="4.5" style="fill:var(--fig-blue)"/>
+  <text x="294.0" y="140" text-anchor="middle" class="astro-1-small-bodies-sm">해</text>
+  <circle cx="199.2" cy="176" r="1.6" style="fill:var(--fig-amber)"/>
+  <circle cx="202.2" cy="176" r="1.6" style="fill:var(--fig-amber)"/>
+  <circle cx="214.2" cy="164" r="1.6" style="fill:var(--fig-amber)"/>
+  <circle cx="217.2" cy="164" r="1.6" style="fill:var(--fig-amber)"/>
+  <text x="175.0" y="224" text-anchor="middle" class="astro-1-small-bodies-lbl astro-1-small-bodies-b">소행성대</text>
+  <text x="175.0" y="241" text-anchor="middle" class="astro-1-small-bodies-sm">2.1~3.3 AU, 암석·금속</text>
+  <text x="208.2" y="258" text-anchor="middle" class="astro-1-small-bodies-lbl astro-1-small-bodies-b">트로이군</text>
+  <text x="208.2" y="275" text-anchor="middle" class="astro-1-small-bodies-sm">목성 궤도 앞뒤</text>
+  <text x="306.3" y="224" text-anchor="middle" class="astro-1-small-bodies-lbl astro-1-small-bodies-b">카이퍼 벨트</text>
+  <text x="306.3" y="241" text-anchor="middle" class="astro-1-small-bodies-sm">30~50 AU, 얼음 천체</text>
+  <text x="594.5" y="244" text-anchor="middle" class="astro-1-small-bodies-lbl astro-1-small-bodies-b">오르트 구름(추정)</text>
+  <text x="594.5" y="261" text-anchor="middle" class="astro-1-small-bodies-sm">수천~10만 AU, 장주기 혜성</text>
+  <line x1="208.2" y1="180" x2="208.2" y2="244" style="stroke:var(--fig-line);stroke-width:1"/>
+  <circle cx="177.5" cy="170" r="3.5" style="fill:var(--fig-ink)"/>
+  <circle cx="307.3" cy="170" r="3.5" style="fill:var(--fig-ink)"/>
+  <circle cx="333.6" cy="170" r="3.5" style="fill:var(--fig-ink)"/>
+  <text x="307.3" y="140" text-anchor="middle" class="astro-1-small-bodies-sm">명왕성</text>
+  <line x1="307.3" y1="144" x2="307.3" y2="165" style="stroke:var(--fig-line);stroke-width:1"/>
+  <text x="333.6" y="158" text-anchor="middle" class="astro-1-small-bodies-sm">에리스</text>
+  <text x="177.5" y="140" text-anchor="middle" class="astro-1-small-bodies-sm">세레스</text>
+  <line x1="177.5" y1="144" x2="177.5" y2="165" style="stroke:var(--fig-line);stroke-width:1"/>
+  <path d="M101.9 118 L101.9 110 L301.4 110 L301.4 118" style="fill:none;stroke:var(--fig-red);stroke-width:1.6"/>
+  <text x="201.6" y="104" text-anchor="middle" class="astro-1-small-bodies-sm" style="fill:var(--fig-red)">핼리 혜성의 궤도 범위 0.59~35 AU</text>
+  <path d="M68.9 140 L68.9 132 L140.5 132 L140.5 140" style="fill:none;stroke:var(--fig-green);stroke-width:1.6"/>
+  <text x="104.7" y="126" text-anchor="middle" class="astro-1-small-bodies-sm" style="fill:var(--fig-green)">지구 접근 천체: 근일점 1.3 AU 이하</text>
+  <line x1="127.7" y1="270" x2="127.7" y2="278" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="127.7" y="294" text-anchor="middle" class="astro-1-small-bodies-sm">1 AU</text>
+  <line x1="240.2" y1="270" x2="240.2" y2="278" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="240.2" y="294" text-anchor="middle" class="astro-1-small-bodies-sm">10</text>
+  <line x1="352.6" y1="270" x2="352.6" y2="278" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="352.6" y="294" text-anchor="middle" class="astro-1-small-bodies-sm">100</text>
+  <line x1="465.1" y1="270" x2="465.1" y2="278" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="465.1" y="294" text-anchor="middle" class="astro-1-small-bodies-sm">1000</text>
+  <line x1="577.5" y1="270" x2="577.5" y2="278" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="577.5" y="294" text-anchor="middle" class="astro-1-small-bodies-sm">1만</text>
+  <line x1="690.0" y1="270" x2="690.0" y2="278" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="690.0" y="294" text-anchor="middle" class="astro-1-small-bodies-sm">10만 AU</text>
+  <line x1="60" y1="270" x2="690" y2="270" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="360" y="318" text-anchor="middle" class="astro-1-small-bodies-sm">태양으로부터의 거리 (로그 눈금: 한 칸마다 10배) · 천체 크기는 실제 비율이 아닌 모식도</text>
+  <text x="20" y="28" class="astro-1-small-bodies-lbl astro-1-small-bodies-b">행성 사이와 바깥에 퍼져 있는 소천체</text>
+</svg>
+</div><figcaption><b>그림 행성우주과학 1-1 태양계 소천체의 분포</b> 거리를 로그 눈금으로 나타내면 소행성대는 화성과 목성 사이, 카이퍼 벨트는 해왕성 바깥, 오르트 구름은 그보다 훨씬 먼 태양계 외곽에 있다. 설선 안쪽의 소천체는 주로 암석·금속, 바깥은 얼음이 많다.</figcaption></figure>
+
 <h4 id="원시-물질-천체와-분화된-천체">원시 물질 천체와 분화된 천체</h4>
 <p>소천체를 이해하는 가장 중요한 기준은 <strong>태어난 뒤 녹아서 층이 나뉘었는가(분화)</strong> 이다.</p>
 <ul>
@@ -746,6 +829,8 @@ h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">​</span
 <li>통과하는 동안 별빛이 행성 대기를 지나며 생긴 흡수선 → <strong>행성 대기의 성분</strong>(JWST가 활발히 측정)</li>
 <li>시선속도법으로 질량, 통과법으로 반지름을 함께 얻으면 → <strong>평균 밀도</strong>를 구해 암석 행성인지 기체 행성인지 판단</li>
 </ul>
+<figure class="sim" id="sim-exoplanet-transit" data-sim="exoplanet-transit"><noscript>이 애니메이션은 자바스크립트가 필요하다.</noscript></figure>
+
 <h4 id="예제-9-통과법의-밝기-변화">예제 9 — 통과법의 밝기 변화</h4>
 <p>태양 반지름을 약 696,000 km, 목성 반지름을 약 71,500 km, 지구 반지름을 약 6,370 km라 하자. 먼 곳의 관측자가 목성과 지구의 통과를 각각 볼 때 태양 밝기는 몇 % 줄어드는가?</p>
 <p><strong>풀이</strong></p>
@@ -836,6 +921,78 @@ M1001 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
 <td>수명이 매우 길고 수가 많다. 그러나 가까워서 한쪽 면만 별을 향하는 동주기 자전이 되기 쉽고, 플레어가 잦다</td>
 </tr>
 </tbody></table></div>
+<figure class="fig" id="fig-astro-1-habitable-zone"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-astro-1-habitable-zone d-astro-1-habitable-zone">
+  <title id="t-astro-1-habitable-zone">그림 행성우주과학 1-2 중심별의 표면 온도에 따른 생명가능지대</title>
+  <desc id="d-astro-1-habitable-zone">표면 온도가 높은 별일수록 광도가 커서 생명가능지대가 멀어지고 넓어진다. 차가운 M형 별의 생명가능지대는 수성 궤도보다 훨씬 안쪽에 좁게 있고, 뜨거운 A형 별은 목성·토성 궤도 근처에 넓게 있다.</desc>
+  <style>
+    .astro-1-habitable-zone-ink{fill:var(--fig-ink)} .astro-1-habitable-zone-mut{fill:var(--fig-muted)}
+    .astro-1-habitable-zone-lbl{font-size:14px;fill:var(--fig-ink)} .astro-1-habitable-zone-sm{font-size:13px;fill:var(--fig-muted)} .astro-1-habitable-zone-b{font-weight:600}
+    .astro-1-habitable-zone-ax{stroke:var(--fig-line);stroke-width:1.5;fill:none}
+    
+  </style>
+  <rect x="10" y="70" width="700" height="54" style="fill:var(--fig-panel)"/>
+  <rect x="10" y="178" width="700" height="54" style="fill:var(--fig-panel)"/>
+  <line x1="390.6" y1="62" x2="390.6" y2="286" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4"/>
+  <line x1="439.6" y1="62" x2="439.6" y2="286" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4"/>
+  <line x1="465.0" y1="62" x2="465.0" y2="286" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4"/>
+  <line x1="498.1" y1="62" x2="498.1" y2="286" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4"/>
+  <line x1="594.3" y1="62" x2="594.3" y2="286" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4"/>
+  <line x1="642.3" y1="62" x2="642.3" y2="286" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4"/>
+  <circle cx="34" cy="97.0" r="7" style="fill:var(--fig-red)"/>
+  <text x="58" y="94.0" class="astro-1-habitable-zone-lbl astro-1-habitable-zone-b">M형 별</text>
+  <text x="58" y="112.0" class="astro-1-habitable-zone-sm">2900 K, 반지름 0.2배</text>
+  <line x1="190" y1="97.0" x2="700" y2="97.0" style="stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="226.9" y="86.0" width="29.6" height="22" rx="4" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+  <text x="262.5" y="102.0" class="astro-1-habitable-zone-sm" style="fill:var(--fig-green)">0.048~0.07 AU</text>
+  <circle cx="34" cy="151.0" r="10" style="fill:var(--fig-amber)"/>
+  <text x="58" y="148.0" class="astro-1-habitable-zone-lbl astro-1-habitable-zone-b">K형 별</text>
+  <text x="58" y="166.0" class="astro-1-habitable-zone-sm">4000 K, 반지름 0.6배</text>
+  <line x1="190" y1="151.0" x2="700" y2="151.0" style="stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="362.3" y="140.0" width="30.8" height="22" rx="4" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+  <text x="399.2" y="156.0" class="astro-1-habitable-zone-sm" style="fill:var(--fig-green)">0.27~0.4 AU</text>
+  <circle cx="34" cy="205.0" r="13" style="fill:var(--fig-amber)"/>
+  <text x="58" y="202.0" class="astro-1-habitable-zone-lbl astro-1-habitable-zone-b">태양(G형)</text>
+  <text x="58" y="220.0" class="astro-1-habitable-zone-sm">5800 K</text>
+  <line x1="190" y1="205.0" x2="700" y2="205.0" style="stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="461.0" y="194.0" width="30.4" height="22" rx="4" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+  <text x="497.4" y="210.0" class="astro-1-habitable-zone-sm" style="fill:var(--fig-green)">0.95~1.4 AU</text>
+  <circle cx="34" cy="259.0" r="18" style="fill:var(--fig-blue)"/>
+  <text x="58" y="256.0" class="astro-1-habitable-zone-lbl astro-1-habitable-zone-b">A형 별</text>
+  <text x="58" y="274.0" class="astro-1-habitable-zone-sm">10,000 K, 반지름 2.5배</text>
+  <line x1="190" y1="259.0" x2="700" y2="259.0" style="stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="618.8" y="248.0" width="29.9" height="22" rx="4" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+  <text x="612.8" y="264.0" text-anchor="end" class="astro-1-habitable-zone-sm" style="fill:var(--fig-green)">7.1~10.4 AU</text>
+  <circle cx="390.6" cy="300" r="3.5" style="fill:var(--fig-blue)"/>
+  <text x="390.6" y="320" text-anchor="middle" class="astro-1-habitable-zone-sm">수성</text>
+  <circle cx="439.6" cy="300" r="3.5" style="fill:var(--fig-blue)"/>
+  <text x="439.6" y="320" text-anchor="middle" class="astro-1-habitable-zone-sm">금성</text>
+  <circle cx="465.0" cy="300" r="3.5" style="fill:var(--fig-blue)"/>
+  <text x="465.0" y="320" text-anchor="middle" class="astro-1-habitable-zone-sm">지구</text>
+  <circle cx="498.1" cy="300" r="3.5" style="fill:var(--fig-blue)"/>
+  <text x="498.1" y="320" text-anchor="middle" class="astro-1-habitable-zone-sm">화성</text>
+  <circle cx="594.3" cy="300" r="3.5" style="fill:var(--fig-blue)"/>
+  <text x="594.3" y="320" text-anchor="middle" class="astro-1-habitable-zone-sm">목성</text>
+  <circle cx="642.3" cy="300" r="3.5" style="fill:var(--fig-blue)"/>
+  <text x="642.3" y="320" text-anchor="middle" class="astro-1-habitable-zone-sm">토성</text>
+  <text x="180" y="305" text-anchor="end" class="astro-1-habitable-zone-sm">태양계 행성 궤도</text>
+  <line x1="190.0" y1="332" x2="190.0" y2="338" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="190.0" y="352" text-anchor="middle" class="astro-1-habitable-zone-sm">0.03</text>
+  <line x1="284.4" y1="332" x2="284.4" y2="338" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="284.4" y="352" text-anchor="middle" class="astro-1-habitable-zone-sm">0.1</text>
+  <line x1="370.6" y1="332" x2="370.6" y2="338" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="370.6" y="352" text-anchor="middle" class="astro-1-habitable-zone-sm">0.3</text>
+  <line x1="465.0" y1="332" x2="465.0" y2="338" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="465.0" y="352" text-anchor="middle" class="astro-1-habitable-zone-sm">1</text>
+  <line x1="551.2" y1="332" x2="551.2" y2="338" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="551.2" y="352" text-anchor="middle" class="astro-1-habitable-zone-sm">3</text>
+  <line x1="645.6" y1="332" x2="645.6" y2="338" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="645.6" y="352" text-anchor="middle" class="astro-1-habitable-zone-sm">10 AU</text>
+  <line x1="190" y1="332" x2="700" y2="332" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="20" y="28" class="astro-1-habitable-zone-lbl astro-1-habitable-zone-b">초록 띠: 생명가능지대 (태양계 0.95~1.4 AU × √(L/L☉))</text>
+  <text x="20" y="50" class="astro-1-habitable-zone-sm">거리는 로그 눈금 · 별의 크기와 색은 모식적으로 나타냄 · 값은 본문 예제와 같은 어림값</text>
+</svg>
+</div><figcaption><b>그림 행성우주과학 1-2 중심별의 표면 온도에 따른 생명가능지대</b> 표면 온도가 높은 별일수록 광도가 커서 생명가능지대가 멀어지고 넓어진다. 차가운 M형 별의 생명가능지대는 수성 궤도보다 훨씬 안쪽에 좁게 있고, 뜨거운 A형 별은 목성·토성 궤도 근처에 넓게 있다.</figcaption></figure>
+
 <h4 id="예제-10-중심별의-표면-온도에-따른-생명가능지대">예제 10 — 중심별의 표면 온도에 따른 생명가능지대</h4>
 <p>태양의 표면 온도를 5800 K, 태양계 생명가능지대를 0.95~1.4 AU라 하자.
 (1) 반지름이 태양의 0.6배, 표면 온도가 4000 K인 별의 생명가능지대를 구하시오.

@@ -108,9 +108,8 @@ Sims.register('organic-molecules', {
       });
       if (M.fgAtoms.length) {
         var c = [0, 0, 0]; M.fgAtoms.forEach(function (k) { c = add(c, pos(m, k)); }); c = mul(c, 1 / M.fgAtoms.length);
-        g.text(add(c, [0.3, 0.8, 0]), M.fg, { size: 13, bold: true, color: T.figInk });
+        g.text([c[0], 1.95, c[2]], '작용기 ' + M.fg, { size: 13, bold: true, color: T.figInk });
       }
-      if (M.planar) g.text(add(pos(m, 'C2'), [0.1, -1.55, 0]), 'C=O 주위는 평면', { size: 12, color: T.figBlue });
     }
 
     var gM = api.group();

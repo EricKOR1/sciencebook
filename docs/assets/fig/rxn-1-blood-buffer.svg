@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-rxn-1-blood-buffer d-rxn-1-blood-buffer">
+  <title id="t-rxn-1-blood-buffer">그림 화학 반응의 세계 1-2 혈액의 탄산–탄산수소 이온 완충계</title>
+  <desc id="d-rxn-1-blood-buffer">평형의 한쪽 끝(CO₂)은 폐가, 다른 쪽 끝(HCO₃⁻)은 콩팥이 조절한다. 산이 들어오면 평형이 왼쪽으로, 염기가 들어오면 오른쪽으로 이동해 pH를 7.35~7.45로 지킨다. 막대 길이는 모식적으로 나타냈다.</desc>
+  <style>
+    .rxn-1-blood-buffer-f{font-size:15px;fill:var(--fig-ink);font-weight:600}
+    .rxn-1-blood-buffer-s{font-size:13px;fill:var(--fig-muted)}
+    .rxn-1-blood-buffer-k{font-size:13px;fill:var(--fig-ink)}
+    .rxn-1-blood-buffer-b{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5}
+  </style>
+  <!-- 평형 사슬 -->
+  <rect x="10" y="22" width="110" height="60" rx="10" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2"/>
+  <text x="65" y="47" text-anchor="middle" class="rxn-1-blood-buffer-f">폐</text>
+  <text x="65" y="67" text-anchor="middle" class="rxn-1-blood-buffer-k">호흡으로 CO₂ 배출</text>
+  <path d="M150 52 H128" style="stroke:var(--fig-teal);stroke-width:2.5"/><path d="M122 52 l10 -6 v12 z" style="fill:var(--fig-teal)"/>
+  <rect x="152" y="32" width="114" height="40" rx="8" class="rxn-1-blood-buffer-b"/>
+  <text x="209" y="57" text-anchor="middle" class="rxn-1-blood-buffer-f">CO₂ + H₂O</text>
+  <text x="283" y="59" text-anchor="middle" style="font-size:22px;fill:var(--fig-ink)">⇌</text>
+  <rect x="300" y="32" width="96" height="40" rx="8" class="rxn-1-blood-buffer-b"/>
+  <text x="348" y="57" text-anchor="middle" class="rxn-1-blood-buffer-f">H₂CO₃</text>
+  <text x="413" y="59" text-anchor="middle" style="font-size:22px;fill:var(--fig-ink)">⇌</text>
+  <rect x="430" y="32" width="130" height="40" rx="8" class="rxn-1-blood-buffer-b"/>
+  <text x="495" y="57" text-anchor="middle" class="rxn-1-blood-buffer-f">H⁺ + HCO₃⁻</text>
+  <path d="M562 52 H590" style="stroke:var(--fig-violet);stroke-width:2.5"/><path d="M596 52 l-10 -6 v12 z" style="fill:var(--fig-violet)"/>
+  <rect x="600" y="22" width="110" height="60" rx="10" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <text x="655" y="47" text-anchor="middle" class="rxn-1-blood-buffer-f">콩팥</text>
+  <text x="655" y="67" text-anchor="middle" class="rxn-1-blood-buffer-k">HCO₃⁻ 배설 조절</text>
+  <!-- 두 상황 -->
+  <rect x="10" y="104" width="342" height="98" rx="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <text x="24" y="128" class="rxn-1-blood-buffer-f" style="fill:var(--fig-red)">산(H⁺)이 늘면 — 예: 운동 후 젖산</text>
+  <text x="24" y="152" class="rxn-1-blood-buffer-k">H⁺ + HCO₃⁻ → H₂CO₃ → CO₂ + H₂O</text>
+  <text x="24" y="174" class="rxn-1-blood-buffer-k">평형이 <tspan style="font-weight:600">왼쪽</tspan>으로 이동해 H⁺를 거두어들인다</text>
+  <text x="24" y="193" class="rxn-1-blood-buffer-s">늘어난 CO₂는 숨을 가쁘게 쉬어 폐로 내보낸다</text>
+  <rect x="368" y="104" width="342" height="98" rx="10" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="382" y="128" class="rxn-1-blood-buffer-f" style="fill:var(--fig-blue)">염기(OH⁻)가 늘면</text>
+  <text x="382" y="152" class="rxn-1-blood-buffer-k">H₂CO₃ + OH⁻ → HCO₃⁻ + H₂O</text>
+  <text x="382" y="174" class="rxn-1-blood-buffer-k">평형이 <tspan style="font-weight:600">오른쪽</tspan>으로 이동해 H⁺를 보충한다</text>
+  <text x="382" y="193" class="rxn-1-blood-buffer-s">남는 HCO₃⁻는 콩팥이 더 많이 내보낸다</text>
+  <!-- 비율 막대 -->
+  <text x="10" y="236" class="rxn-1-blood-buffer-f">혈액 속 양의 비 (약)</text>
+  <rect x="10" y="248" width="240" height="20" rx="3" style="fill:var(--fig-violet)"/>
+  <text x="258" y="263" class="rxn-1-blood-buffer-k">HCO₃⁻ 20</text>
+  <rect x="10" y="276" width="12" height="20" rx="3" style="fill:var(--fig-amber)"/>
+  <text x="30" y="291" class="rxn-1-blood-buffer-k">H₂CO₃(용해된 CO₂ 포함) 1</text>
+  <text x="10" y="318" class="rxn-1-blood-buffer-s">짝염기가 훨씬 많아 몸속에서 많이 생기는 산에 특히 강하다</text>
+  <!-- pH 띠 -->
+  <text x="400" y="236" class="rxn-1-blood-buffer-f">혈액의 pH</text>
+  <rect x="400" y="252" width="300" height="24" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="400" y="252" width="131" height="24" style="fill:var(--fig-soft-red)"/>
+  <rect x="569" y="252" width="131" height="24" style="fill:var(--fig-soft-blue)"/>
+  <rect x="531" y="252" width="38" height="24" style="fill:var(--fig-green)"/>
+  <text x="465" y="269" text-anchor="middle" class="rxn-1-blood-buffer-k">산증</text>
+  <text x="635" y="269" text-anchor="middle" class="rxn-1-blood-buffer-k">알칼리증</text>
+  <g class="rxn-1-blood-buffer-s" text-anchor="middle">
+    <text x="400" y="294">7.0</text><text x="531" y="294">7.35</text><text x="569" y="294">7.45</text><text x="700" y="294">7.8</text>
+  </g>
+  <text x="550" y="318" text-anchor="middle" class="rxn-1-blood-buffer-s">정상 범위(초록)는 pH 7.35~7.45로 매우 좁다</text>
+</svg>

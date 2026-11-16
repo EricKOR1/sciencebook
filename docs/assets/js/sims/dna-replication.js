@@ -9,7 +9,7 @@ Sims.register('dna-replication', {
       { id: 'disp', name: '분산적' },
     ];
     var SEG = 8;
-    var state = { hyp: 'semi', gen: 0 };
+    var state = { hyp: 'semi', gen: 2 };
 
     var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.35 : 0.56; }, label: '세대별 DNA 분자의 가닥 조성과 밀도 기울기 원심 분리 띠' });
     var ctx = cv.ctx;
@@ -21,7 +21,7 @@ Sims.register('dna-replication', {
     var hb = HYP.map(function (h) {
       return api.button(h.name + ' 복제', function () { state.hyp = h.id; hb.forEach(function (b, i) { b.setAttribute('aria-pressed', HYP[i].id === h.id ? 'true' : 'false'); }); draw(); }, { toggle: true, pressed: h.id === state.hyp, parent: g });
     });
-    var gs = api.slider({ id: 'dna-replication-gen', label: '¹⁴N 배지로 옮긴 뒤', min: 0, max: 3, step: 1, value: 0,
+    var gs = api.slider({ id: 'dna-replication-gen', label: '¹⁴N 배지로 옮긴 뒤', min: 0, max: 3, step: 1, value: 2,
       format: function (v) { return v + '세대'; }, onInput: function (v) { state.gen = v; draw(); } });
     api.button('다음 세대', function () { gs.set(state.gen >= 3 ? 0 : state.gen + 1); }, { primary: true });
 
@@ -95,7 +95,7 @@ Sims.register('dna-replication', {
       var prevPos = [];
       for (var k = 0; k <= n; k++) {
         var mols = molecules(state.hyp, k), cnt = mols.length;
-        var slot = avail / 8, mw = Math.min(slot * 0.82, 56), y = top + k * rowH + rowH * 0.45;
+        var slot = avail / 8, mw = Math.min(slot * 0.82, 70), y = top + k * rowH + rowH * 0.45;
         ctx.font = '12px ' + T.fontBody; ctx.fillStyle = T.figMuted; ctx.textAlign = 'left';
         ctx.fillText(k + '세대', r.x + 4, y);
         var pos = [];
@@ -117,7 +117,7 @@ Sims.register('dna-replication', {
       ctx.fillStyle = T.figAmber; ctx.fillRect(r.x + 110, ly - 4, 16, 6); ctx.fillStyle = T.figInk; ctx.fillText('¹⁴N 가닥(새)', r.x + 130, ly);
     }
     function drawMol(T, m, x, y, w) {
-      var sh = 5, gap = 3, sw = w / SEG;
+      var sh = 7, gap = 3, sw = w / SEG;
       [0, 1].forEach(function (s) {
         var yy = s === 0 ? y - gap / 2 - sh : y + gap / 2;
         m[s].forEach(function (v, i) { ctx.fillStyle = v ? T.figBlue : T.figAmber; ctx.fillRect(x + i * sw, yy, sw + 0.3, sh); });

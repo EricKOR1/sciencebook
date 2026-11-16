@@ -10,7 +10,8 @@
 <link rel="stylesheet" href="assets/katex/katex.min.css">
 <link rel="stylesheet" href="assets/book.css">
 <script src="assets/js/book.js" defer></script>
-
+<script src="assets/js/sims/torque-balance.js" defer></script>
+<script src="assets/js/sims/collision-1d.js" defer></script>
 </head>
 <body class="" data-lesson="phy-1" data-title="힘과 에너지" data-where="물리학">
 <header class="topbar">
@@ -265,6 +266,8 @@
 </tbody></table></div>
 <aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 볼트를 푸는 렌치를 떠올리자. 자루 끝을 잡으면 쉽게 풀리고, 볼트 가까이를 잡으면 아무리 힘을 줘도 잘 안 풀린다. 돌림힘은 &quot;힘 × 지렛대 팔의 길이&quot;이다. 아르키메데스가 &quot;충분히 긴 지렛대만 있으면 지구도 움직이겠다&quot;고 한 것도 같은 뜻이다.</p>
 </aside>
+<figure class="sim" id="sim-torque-balance" data-sim="torque-balance"><noscript>이 애니메이션은 자바스크립트가 필요하다.</noscript></figure>
+
 <h4 id="예제-1-시소의-평형">예제 1 — 시소의 평형</h4>
 <p>질량 30 kg인 아이가 시소 받침점에서 1.5 m 떨어진 곳에 앉아 있다. 질량 45 kg인 아빠가 반대쪽에 앉아 시소가 수평으로 평형을 이루려면 받침점에서 몇 m 떨어져 앉아야 할까? (시소 판의 무게중심은 받침점에 있다.)</p>
 <p><strong>풀이</strong> 받침점을 회전축으로 잡으면 두 사람의 무게에 의한 돌림힘이 같아야 한다. <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">30</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mclose">)</span><span class="mopen">(</span><span class="mord">1.5</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">45</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mclose">)</span><span class="mord mathnormal">d</span></span></span></span> → <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">d</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1.0</span><span class="mspace"> </span><span class="mord mathrm">m</span></span></span></span> (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span></span></span></span>는 약분된다). <strong>무거운 사람이 받침점에 더 가까이</strong> 앉아야 한다.</p>
@@ -286,6 +289,33 @@
 <li>연직선이 <strong>받침면 밖</strong>으로 나가면 → 중력이 물체를 넘어뜨리는 돌림힘을 만든다 → 넘어진다.</li>
 </ul>
 <p>따라서 <strong>무게중심이 낮고 받침면이 넓을수록</strong> 많이 기울어져도 넘어지지 않아 안정하다.</p>
+<figure class="fig" id="fig-phy-1-cog-stability"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 326" role="img" aria-labelledby="t-phy-1-cog-stability d-phy-1-cog-stability">
+  <title id="t-phy-1-cog-stability">그림 물리학 1-1 무게중심과 받침면으로 보는 안정성</title>
+  <desc id="d-phy-1-cog-stability">같은 상자를 오른쪽 아래 모서리를 축으로 기울였을 때, 무게중심에서 내린 연직선이 처음 받침면 안을 지나면 되돌아오고 밖으로 나가면 넘어진다.</desc>
+  <style>
+    .phy-1-cog-stability-lbl{font-size:14px;fill:var(--fig-ink)} .phy-1-cog-stability-sm{font-size:13px;fill:var(--fig-muted)} .phy-1-cog-stability-b{font-weight:600}
+    .phy-1-cog-stability-ax{stroke:var(--fig-ink);stroke-width:1.5;fill:none} .phy-1-cog-stability-grid{stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 3;fill:none}
+  </style>
+<line x1="20" y1="260" x2="340" y2="260" style="stroke:var(--fig-line);stroke-width:2"/><rect x="135" y="260" width="80" height="7" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/><text x="175.0" y="284.0" text-anchor="middle" class="phy-1-cog-stability-sm">처음 받침면</text>
+<path d="M135 260 L135 110 L215 110 L215 260" style="fill:none;stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:4 4"/><path d="M215.0 260.0 L137.7 239.3 L176.5 94.4 L253.8 115.1 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2.5"/><line x1="195.8" y1="177.2" x2="195.8" y2="260" style="stroke:var(--fig-red);stroke-width:1.5;stroke-dasharray:5 4"/><line x1="195.8" y1="177.2" x2="195.8" y2="220.2" style="stroke:var(--fig-red);stroke-width:2.5"/><path d="M195.8 229.2 L199.8 220.2 L191.7 220.2 Z" style="fill:var(--fig-red)"/>
+<circle cx="195.8" cy="177.2" r="5" style="fill:var(--fig-red)"/><text x="185.8" y="171.2" text-anchor="end" class="phy-1-cog-stability-lbl">무게중심</text>
+<text x="189.8" y="227.2" text-anchor="end" class="phy-1-cog-stability-sm">중력</text>
+<circle cx="215" cy="260" r="4" style="fill:var(--fig-ink)"/><text x="223.0" y="254.0" text-anchor="start" class="phy-1-cog-stability-sm">회전축</text>
+<circle cx="195.8" cy="260" r="3.5" style="fill:var(--fig-red)"/><path d="M238.0 71.4 A190 190 0 0 0 162.7 77.3" style="fill:none;stroke:var(--fig-green);stroke-width:2.5"/><line x1="173.8" y1="74.5" x2="173.4" y2="74.6" style="stroke:var(--fig-green);stroke-width:2.5"/><path d="M162.7 77.3 L174.6 79.4 L172.2 69.8 Z" style="fill:var(--fig-green)"/>
+<text x="200.0" y="60.6" text-anchor="middle" class="phy-1-cog-stability-lbl phy-1-cog-stability-b" style="fill:var(--fig-green)">되돌아옴</text>
+<text x="180.0" y="30.0" text-anchor="middle" class="phy-1-cog-stability-lbl phy-1-cog-stability-b">(가) 연직선이 받침면 안 → 제자리로 돌아온다</text>
+<line x1="380" y1="260" x2="700" y2="260" style="stroke:var(--fig-line);stroke-width:2"/><rect x="495" y="260" width="80" height="7" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/><text x="535.0" y="284.0" text-anchor="middle" class="phy-1-cog-stability-sm">처음 받침면</text>
+<path d="M495 260 L495 110 L575 110 L575 260" style="fill:none;stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:4 4"/><path d="M575.0 260.0 L515.5 206.5 L615.9 95.0 L675.4 148.5 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2.5"/><line x1="595.5" y1="177.5" x2="595.5" y2="260" style="stroke:var(--fig-red);stroke-width:1.5;stroke-dasharray:5 4"/><line x1="595.5" y1="177.5" x2="595.5" y2="220.5" style="stroke:var(--fig-red);stroke-width:2.5"/><path d="M595.5 229.5 L599.5 220.5 L591.4 220.5 Z" style="fill:var(--fig-red)"/>
+<circle cx="595.5" cy="177.5" r="5" style="fill:var(--fig-red)"/><text x="585.5" y="171.5" text-anchor="end" class="phy-1-cog-stability-lbl">무게중심</text>
+<text x="589.5" y="227.5" text-anchor="end" class="phy-1-cog-stability-sm">중력</text>
+<circle cx="575" cy="260" r="4" style="fill:var(--fig-ink)"/><text x="583.0" y="254.0" text-anchor="start" class="phy-1-cog-stability-sm">회전축</text>
+<circle cx="595.5" cy="260" r="3.5" style="fill:var(--fig-red)"/><path d="M640.6 81.7 A190 190 0 0 1 704.8 121.3" style="fill:none;stroke:var(--fig-red);stroke-width:2.5"/><line x1="696.3" y1="113.8" x2="696.6" y2="114.0" style="stroke:var(--fig-red);stroke-width:2.5"/><path d="M704.8 121.3 L699.9 110.3 L693.3 117.7 Z" style="fill:var(--fig-red)"/>
+<text x="682.7" y="88.3" text-anchor="start" class="phy-1-cog-stability-lbl phy-1-cog-stability-b" style="fill:var(--fig-red)">넘어짐</text>
+<text x="540.0" y="30.0" text-anchor="middle" class="phy-1-cog-stability-lbl phy-1-cog-stability-b">(나) 연직선이 받침면 밖 → 넘어진다</text>
+<text x="360.0" y="312.0" text-anchor="middle" class="phy-1-cog-stability-sm">무게중심에서 내린 연직선이 받침면 안에 있으면 중력의 돌림힘이 물체를 되돌리고, 밖으로 나가면 넘어뜨린다</text>
+</svg>
+</div><figcaption><b>그림 물리학 1-1 무게중심과 받침면으로 보는 안정성</b> 같은 상자를 오른쪽 아래 모서리를 축으로 기울였을 때, 무게중심에서 내린 연직선이 처음 받침면 안을 지나면 되돌아오고 밖으로 나가면 넘어진다.</figcaption></figure>
+
 <div class="table-wrap"><table><thead><tr>
 <th>구조물·물체</th>
 <th>안정성을 높이는 방법</th>
@@ -404,6 +434,57 @@ c100.7 8.3 195.3 44 280 108 55.3 42 101.7 93 139 153l9 14c2.7-4 5.7-8.7 9-14
 <li><strong>공주 거리</strong>: 위험을 본 뒤 브레이크를 밟기까지(반응 시간) 차가 <strong>등속으로</strong> 달린 거리. 속력에 비례한다.</li>
 <li><strong>제동 거리</strong>: 브레이크를 밟은 뒤 <strong>등가속도로 감속</strong>하여 멈출 때까지의 거리. <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.0622em;vertical-align:-0.2481em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-2.4519em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2481em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">2</span><span class="mord mathnormal">a</span><span class="mord mathnormal">s</span></span></span></span>에서 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0</span></span></span></span>을 넣으면 나온다. <strong>속력의 제곱에 비례</strong>한다.</li>
 </ul>
+<figure class="fig" id="fig-phy-1-stopping-distance"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 388" role="img" aria-labelledby="t-phy-1-stopping-distance d-phy-1-stopping-distance">
+  <title id="t-phy-1-stopping-distance">그림 물리학 1-2 속도–시간 그래프로 보는 정지 거리</title>
+  <desc id="d-phy-1-stopping-distance">반응 시간 1초, 감속도 5 m/s²인 자동차가 10 m/s와 20 m/s로 달리다 멈출 때의 속도–시간 그래프. 직사각형 넓이가 공주 거리, 삼각형 넓이가 제동 거리이다.</desc>
+  <style>
+    .phy-1-stopping-distance-lbl{font-size:14px;fill:var(--fig-ink)} .phy-1-stopping-distance-sm{font-size:13px;fill:var(--fig-muted)} .phy-1-stopping-distance-b{font-weight:600}
+    .phy-1-stopping-distance-ax{stroke:var(--fig-ink);stroke-width:1.5;fill:none} .phy-1-stopping-distance-grid{stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 3;fill:none}
+  </style>
+<line x1="50" y1="235.0" x2="320" y2="235.0" class="phy-1-stopping-distance-grid"/><text x="42.0" y="239.0" text-anchor="end" class="phy-1-stopping-distance-sm">5</text>
+<line x1="50" y1="180.0" x2="320" y2="180.0" class="phy-1-stopping-distance-grid"/><text x="42.0" y="184.0" text-anchor="end" class="phy-1-stopping-distance-sm">10</text>
+<line x1="50" y1="125.0" x2="320" y2="125.0" class="phy-1-stopping-distance-grid"/><text x="42.0" y="129.0" text-anchor="end" class="phy-1-stopping-distance-sm">15</text>
+<line x1="50" y1="70.0" x2="320" y2="70.0" class="phy-1-stopping-distance-grid"/><text x="42.0" y="74.0" text-anchor="end" class="phy-1-stopping-distance-sm">20</text>
+<text x="50.0" y="308.0" text-anchor="middle" class="phy-1-stopping-distance-sm">0</text>
+<text x="104.0" y="308.0" text-anchor="middle" class="phy-1-stopping-distance-sm">1</text>
+<text x="158.0" y="308.0" text-anchor="middle" class="phy-1-stopping-distance-sm">2</text>
+<text x="212.0" y="308.0" text-anchor="middle" class="phy-1-stopping-distance-sm">3</text>
+<text x="266.0" y="308.0" text-anchor="middle" class="phy-1-stopping-distance-sm">4</text>
+<text x="320.0" y="308.0" text-anchor="middle" class="phy-1-stopping-distance-sm">5</text>
+<rect x="50.0" y="180.0" width="54.0" height="110.0" style="fill:var(--fig-soft-amber);stroke:none"/><path d="M104.0 290 L104.0 180.0 L212.0 290 Z" style="fill:var(--fig-soft-red);stroke:none"/><path d="M50.0 180.0 L104.0 180.0 L212.0 290" style="fill:none;stroke:var(--fig-blue);stroke-width:3;stroke-linejoin:round"/><path d="M50 58 L50 290 L328 290" class="phy-1-stopping-distance-ax"/><text x="42.0" y="52.0" text-anchor="start" class="phy-1-stopping-distance-sm">속도 (m/s)</text>
+<text x="328.0" y="326.0" text-anchor="end" class="phy-1-stopping-distance-sm">시간 (s)</text>
+<text x="185.0" y="28.0" text-anchor="middle" class="phy-1-stopping-distance-lbl phy-1-stopping-distance-b">10 m/s로 달릴 때</text>
+<text x="77.0" y="278.0" text-anchor="middle" class="phy-1-stopping-distance-lbl">공주</text>
+<text x="77.0" y="260.0" text-anchor="middle" class="phy-1-stopping-distance-lbl phy-1-stopping-distance-b">10 m</text>
+<text x="144.0" y="278.0" text-anchor="middle" class="phy-1-stopping-distance-lbl">제동</text>
+<text x="144.0" y="260.0" text-anchor="middle" class="phy-1-stopping-distance-lbl phy-1-stopping-distance-b">10 m</text>
+<text x="320.0" y="52.0" text-anchor="end" class="phy-1-stopping-distance-lbl phy-1-stopping-distance-b">정지 거리 20 m</text>
+<text x="87.0" y="172.0" text-anchor="middle" class="phy-1-stopping-distance-sm">반응 시간 1 s</text>
+<line x1="410" y1="235.0" x2="680" y2="235.0" class="phy-1-stopping-distance-grid"/><text x="402.0" y="239.0" text-anchor="end" class="phy-1-stopping-distance-sm">5</text>
+<line x1="410" y1="180.0" x2="680" y2="180.0" class="phy-1-stopping-distance-grid"/><text x="402.0" y="184.0" text-anchor="end" class="phy-1-stopping-distance-sm">10</text>
+<line x1="410" y1="125.0" x2="680" y2="125.0" class="phy-1-stopping-distance-grid"/><text x="402.0" y="129.0" text-anchor="end" class="phy-1-stopping-distance-sm">15</text>
+<line x1="410" y1="70.0" x2="680" y2="70.0" class="phy-1-stopping-distance-grid"/><text x="402.0" y="74.0" text-anchor="end" class="phy-1-stopping-distance-sm">20</text>
+<text x="410.0" y="308.0" text-anchor="middle" class="phy-1-stopping-distance-sm">0</text>
+<text x="464.0" y="308.0" text-anchor="middle" class="phy-1-stopping-distance-sm">1</text>
+<text x="518.0" y="308.0" text-anchor="middle" class="phy-1-stopping-distance-sm">2</text>
+<text x="572.0" y="308.0" text-anchor="middle" class="phy-1-stopping-distance-sm">3</text>
+<text x="626.0" y="308.0" text-anchor="middle" class="phy-1-stopping-distance-sm">4</text>
+<text x="680.0" y="308.0" text-anchor="middle" class="phy-1-stopping-distance-sm">5</text>
+<rect x="410.0" y="70.0" width="54.0" height="220.0" style="fill:var(--fig-soft-amber);stroke:none"/><path d="M464.0 290 L464.0 70.0 L680.0 290 Z" style="fill:var(--fig-soft-red);stroke:none"/><path d="M410.0 70.0 L464.0 70.0 L680.0 290" style="fill:none;stroke:var(--fig-blue);stroke-width:3;stroke-linejoin:round"/><path d="M410 58 L410 290 L688 290" class="phy-1-stopping-distance-ax"/><text x="402.0" y="52.0" text-anchor="start" class="phy-1-stopping-distance-sm">속도 (m/s)</text>
+<text x="688.0" y="326.0" text-anchor="end" class="phy-1-stopping-distance-sm">시간 (s)</text>
+<text x="545.0" y="28.0" text-anchor="middle" class="phy-1-stopping-distance-lbl phy-1-stopping-distance-b">20 m/s로 달릴 때</text>
+<text x="437.0" y="278.0" text-anchor="middle" class="phy-1-stopping-distance-lbl">공주</text>
+<text x="437.0" y="220.0" text-anchor="middle" class="phy-1-stopping-distance-lbl phy-1-stopping-distance-b">20 m</text>
+<text x="540.0" y="278.0" text-anchor="middle" class="phy-1-stopping-distance-lbl">제동</text>
+<text x="540.0" y="220.0" text-anchor="middle" class="phy-1-stopping-distance-lbl phy-1-stopping-distance-b">40 m</text>
+<text x="680.0" y="52.0" text-anchor="end" class="phy-1-stopping-distance-lbl phy-1-stopping-distance-b">정지 거리 60 m</text>
+<text x="447.0" y="62.0" text-anchor="middle" class="phy-1-stopping-distance-sm">반응 시간 1 s</text>
+<rect x="40" y="334" width="14" height="14" style="fill:var(--fig-soft-amber);stroke:none"/><text x="60.0" y="346.0" text-anchor="start" class="phy-1-stopping-distance-sm">공주 거리 (등속, 속력에 비례)</text>
+<rect x="300" y="334" width="14" height="14" style="fill:var(--fig-soft-red);stroke:none"/><text x="320.0" y="346.0" text-anchor="start" class="phy-1-stopping-distance-sm">제동 거리 (감속 5 m/s², 속력의 제곱에 비례)</text>
+<text x="360.0" y="374.0" text-anchor="middle" class="phy-1-stopping-distance-sm">그래프 아래 넓이 = 이동 거리. 속력이 2배이면 공주 거리는 2배, 제동 거리는 4배가 된다</text>
+</svg>
+</div><figcaption><b>그림 물리학 1-2 속도–시간 그래프로 보는 정지 거리</b> 반응 시간 1초, 감속도 5 m/s²인 자동차가 10 m/s와 20 m/s로 달리다 멈출 때의 속도–시간 그래프. 직사각형 넓이가 공주 거리, 삼각형 넓이가 제동 거리이다.</figcaption></figure>
+
 <h4 id="예제-7-속력이-2배이면-정지-거리는">예제 7 — 속력이 2배이면 정지 거리는?</h4>
 <p>반응 시간이 1.0초인 운전자가 노면에서 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord">5</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">m/</span><span class="mord"><span class="mord mathrm">s</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span></span></span></span></span></span></span></span></span>로 감속할 수 있는 자동차를 운전한다. 속력이 10 m/s(36 km/h)일 때와 20 m/s(72 km/h)일 때의 정지 거리를 구하시오.</p>
 <p><strong>풀이</strong></p>
@@ -541,6 +622,8 @@ c100.7 8.3 195.3 44 280 108 55.3 42 101.7 93 139 153l9 14c2.7-4 5.7-8.7 9-14
 </tbody></table></div>
 <aside class="callout important"><p class="callout-title">핵심</p><p>충돌에서 <strong>운동량은 언제나 보존</strong>되지만(외력이 없으면), <strong>운동 에너지는 보존되지 않을 수 있다.</strong> 사라진 것처럼 보이는 운동 에너지는 열과 소리로 바뀐다. 이 연결은 STEP 3 ⑪에서 다시 만난다.</p>
 </aside>
+<figure class="sim" id="sim-collision-1d" data-sim="collision-1d"><noscript>이 애니메이션은 자바스크립트가 필요하다.</noscript></figure>
+
 <h4 id="예제-8-붙어서-함께-움직이는-수레">예제 8 — 붙어서 함께 움직이는 수레</h4>
 <p>마찰이 없는 수평 레일 위에서 질량 2 kg인 수레 A가 3 m/s로 달려와 정지해 있던 질량 1 kg인 수레 B와 충돌한 뒤 둘이 붙어서 움직였다. (1) 충돌 후 속력과 (2) 충돌로 줄어든 운동 에너지를 구하시오.</p>
 <p><strong>풀이</strong>

@@ -71,7 +71,7 @@ Sims.register('field-potential', {
       var cell = Math.max(5, Math.round(w / 140)), nx = Math.ceil(w / cell) + 1, ny = Math.ceil(h / cell) + 1, grid = new Float64Array(nx * ny);
       for (var j = 0; j < ny; j++) for (var i = 0; i < nx; i++) grid[j * nx + i] = fieldAt(V.ix(i * cell), V.iy(j * cell), cs).v;
       var vmax = 0; for (var q = 0; q < grid.length; q++) if (isFinite(grid[q])) vmax = Math.max(vmax, Math.abs(grid[q]));
-      var lv = [], top = Math.min(vmax, 4e5);
+      var lv = [], top = Math.min(vmax, 1.6e5);
       for (var L = DV; L < top; L += DV) { lv.push(L); lv.push(-L); }
       if (cs.length > 1) lv.push(0);
       lv.forEach(function (L) {
@@ -107,27 +107,22 @@ Sims.register('field-potential', {
         ctx.beginPath(); ctx.arc(cx, cy, r, 0, Math.PI * 2);
         ctx.fillStyle = c.q > 0 ? T.figSoftRed : T.figSoftBlue; ctx.fill();
         ctx.lineWidth = 2; ctx.strokeStyle = c.q > 0 ? T.figRed : T.figBlue; ctx.stroke();
-        ctx.fillStyle = c.q > 0 ? T.figRed : T.figBlue; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
-        ctx.fillText(fq(Math.round(c.q * 1e6)), cx, cy + r + 12);
+        label(T, fq(Math.round(c.q * 1e6)), cx, cy + r + 12, 'center', c.q > 0 ? T.figRed : T.figBlue, true);
       });
       // 점 P
       var P = fieldAt(st.p[0], st.p[1], cs), ppx = V.X(st.p[0]), ppy = V.Y(st.p[1]);
       if (P.e > 1) arrow(ppx, ppy, P.ex / P.e, -P.ey / P.e, 40, T.figAmber, 1, 3);
       ctx.beginPath(); ctx.arc(ppx, ppy, 7, 0, Math.PI * 2); ctx.fillStyle = T.figAmber; ctx.fill();
       ctx.lineWidth = 2; ctx.strokeStyle = T.figPanel; ctx.stroke();
-      ctx.fillStyle = T.figInk; ctx.font = '600 13px ' + T.fontBody; ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
-      ctx.fillText('P', ppx + 10, ppy - 10);
+      label(T, 'P', ppx + 10, ppy - 13, 'left', T.figInk, true);
       // 축척과 범례
       var bar = 0.2 * V.sc;
       ctx.strokeStyle = T.figInk; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(12, h - 14); ctx.lineTo(12 + bar, h - 14); ctx.stroke();
-      ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
-      ctx.fillText('0.2 m', 12, h - 20);
-      ctx.textAlign = 'right';
-      ctx.fillStyle = T.figRed; ctx.fillText('V > 0 등전위선', w - 10, 16);
-      ctx.fillStyle = T.figBlue; ctx.fillText('V < 0 등전위선', w - 10, 31);
-      if (cs.length > 1) { ctx.fillStyle = T.figMuted; ctx.fillText('점선: V = 0', w - 10, 46); }
-      ctx.textAlign = 'left'; ctx.fillStyle = T.figMuted;
-      ctx.fillText('점 P를 끌어 옮겨 보자', 12, 16);
+      label(T, '0.2 m', 12, h - 24, 'left', T.figMuted);
+      label(T, 'V > 0 등전위선', w - 10, 14, 'right', T.figRed);
+      label(T, 'V < 0 등전위선', w - 10, 31, 'right', T.figBlue);
+      if (cs.length > 1) label(T, '점선: V = 0', w - 10, 48, 'right', T.figMuted);
+      label(T, '점 P를 끌어 옮겨 보자', 12, 14, 'left', T.figMuted);
       // 읽은 값
       var d = cs.map(function (c) { return Math.hypot(st.p[0] - c.x, st.p[1] - c.y); });
       var inside = d.some(function (r) { return r < 0.05; });
@@ -135,6 +130,12 @@ Sims.register('field-potential', {
       rE.set(P.e < 50 ? '0 N/C (전기장 없음)' : sci(P.e, 'N/C'));
       rDir.set(P.e < 50 ? '–' : dirName(P.ex, P.ey));
       rV.set(sci(P.v, 'V'));
+    }
+    function label(T, txt, x, y, align, color, bold) {
+      ctx.font = (bold ? '600 ' : '') + (bold ? 12 : 11) + 'px ' + T.fontBody; ctx.textAlign = align; ctx.textBaseline = 'middle';
+      var tw = ctx.measureText(txt).width, x0 = align === 'right' ? x - tw : align === 'center' ? x - tw / 2 : x;
+      ctx.globalAlpha = 0.88; ctx.fillStyle = T.figPaper; ctx.fillRect(x0 - 3, y - 8, tw + 6, 16); ctx.globalAlpha = 1;
+      ctx.fillStyle = color; ctx.fillText(txt, x, y); ctx.textBaseline = 'alphabetic';
     }
     function dirName(ex, ey) {
       var a = Math.atan2(ey, ex) * 180 / Math.PI, names = ['오른쪽', '오른쪽 위', '위', '왼쪽 위', '왼쪽', '왼쪽 아래', '아래', '오른쪽 아래'];

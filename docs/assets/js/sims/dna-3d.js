@@ -17,8 +17,8 @@ Sims.register('dna-3d', {
     function colorOf(T, b) { return b === 'A' ? T.figRed : b === 'T' ? T.figAmber : b === 'G' ? T.figGreen : T.figBlue; }
 
     var S = api.scene3d({
-      aspect: function (w) { return w < 560 ? 1.25 : 0.62; },
-      yaw: 0.25, pitch: 0.12, dist: 16, scale: 0.12,
+      aspect: function (w) { return w < 560 ? 1.25 : 0.52; },
+      yaw: 0.25, pitch: 0.12, dist: 16, scale: 0.135,
       label: 'DNA 이중 나선 입체 모형: 당–인산 골격 두 가닥과 수소 결합으로 이어진 염기쌍 20개',
       draw: function (g, T, S) {
         var wide = S.w >= 560;
@@ -80,7 +80,11 @@ Sims.register('dna-3d', {
         if (u < 0.05) {
           var ya = y0, yz = y0 + 10 * RISE, sidePt = function (yy) { return M([0, yy, 0]).map(function (v, k) { return v + (wide ? [0, -1, 0] : [1, 0, 0])[k] * 1.9; }); };
           g.line(sidePt(ya), sidePt(yz), T.figMuted, { width: 1.5, dash: [4, 3] });
-          g.text(sidePt((ya + yz) / 2), '한 바퀴 ≈ 10염기쌍 (3.4 nm)', { size: 12, color: T.figMuted, dy: wide ? 14 : 0, align: wide ? 'center' : 'left' });
+          if (wide) g.text(sidePt((ya + yz) / 2), '한 바퀴 ≈ 10염기쌍 (3.4 nm)', { size: 12, color: T.figMuted, dy: 14 });
+          else {
+            g.text(sidePt((ya + yz) / 2), '한 바퀴', { size: 12, color: T.figMuted, align: 'left', dx: 6, dy: -9 });
+            g.text(sidePt((ya + yz) / 2), '≈ 10염기쌍', { size: 12, color: T.figMuted, align: 'left', dx: 6, dy: 8 });
+          }
         }
       },
       overlay: function (ctx, T, S) {

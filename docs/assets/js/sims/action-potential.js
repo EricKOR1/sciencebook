@@ -114,7 +114,7 @@ Sims.register('action-potential', {
       // 바탕 이온(농도 차: Na⁺ 밖에 많음, K⁺ 안에 많음)
       ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right';
       ctx.fillText('세포 밖', x1, mid - mh / 2 - 6); ctx.fillText('세포 안', x1, mid + mh / 2 + 15);
-      var outY = Math.max(top + 14, mid - mh / 2 - 70), inY = Math.min(bot - 14, mid + mh / 2 + 62);
+      var outY = Math.max(top + 14, mid - mh / 2 - 80), inY = Math.min(bot - 14, mid + mh / 2 + 62);
       var naOut = [0.12, 0.2, 0.42, 0.55, 0.82, 0.93], kOut = [0.6], naIn = [0.58], kIn = [0.1, 0.22, 0.4, 0.5, 0.8, 0.92];
       naOut.forEach(function (f, i) { ion(T, x0 + W * f, outY + (i % 2) * 14 - 6, 'na'); });
       kOut.forEach(function (f) { ion(T, x0 + W * f, outY + 4, 'k'); });
@@ -183,7 +183,6 @@ Sims.register('action-potential', {
       if (st.cur != null && fires(st.cur) && st.t > 1.2) {
         ctx.font = '11px ' + T.fontBody; ctx.fillStyle = T.figMuted; ctx.textAlign = 'center';
         ctx.fillText('탈분극', sx(0.45), sy(10)); if (st.t > 1.6) ctx.fillText('재분극', sx(1.75), sy(10));
-        if (st.t > 2.2) ctx.fillText('과분극', sx(2.1), sy(-80) + 14);
       }
       // 현재 시각 표시
       var tt = Math.max(tmin, st.t), vv = V(tt, st.cur);

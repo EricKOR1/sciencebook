@@ -73,7 +73,7 @@ Sims.register('density-lab', {
       ctx.fillText(mass().toFixed(1) + ' g', bx, by + 7);
       ctx.fillStyle = T.figMuted; ctx.font = '12px ' + T.fontBody; ctx.fillText('전자저울', bx, by + 36);
       // 눈금실린더 (물 30 mL + 조각 부피)
-      var cx = r.x + r.w * 0.75, top = r.y + 32, bot = r.y + r.h - 34, cw = 34, vmax = 60;
+      var cx = r.x + r.w * 0.75, top = r.y + 32, bot = r.y + r.h - 48, cw = 34, vmax = 60;
       var yOf = function (mL) { return bot - (mL / vmax) * (bot - top); };
       var level = WATER0 + state.v;
       ctx.fillStyle = T.figSoftBlue; ctx.fillRect(cx - cw / 2, yOf(level), cw, bot - yOf(level));
@@ -86,7 +86,7 @@ Sims.register('density-lab', {
       ctx.fillStyle = T.figInk; ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'left';
       ctx.fillText(level + ' mL', cx + cw / 2 + 4, yOf(level)); ctx.fillStyle = T.figMuted; ctx.fillText(WATER0 + ' mL', cx + cw / 2 + 4, yOf(WATER0) + 12);
       ctx.textAlign = 'center'; ctx.fillText('눈금실린더(물)', cx, bot + 16);
-      if (S.key === 'ice') { ctx.fillText('얼음은 가는 막대로 눌러 잠기게 한다', r.x + r.w / 2, bot + 30); }
+      if (S.key === 'ice') { ctx.fillText('얼음은 가는 막대로 눌러 잠기게 한다', r.x + r.w / 2, bot + 34); }
     }
     function drawGraph(T, r) {
       var L = r.x + 56, R = r.x + r.w - 14, Tp = r.y + 34, B = r.y + r.h - 36;
@@ -122,7 +122,8 @@ Sims.register('density-lab', {
         var vEnd = Math.min(VMAX, MMAX / S.rho), x = sx(vEnd), y = sy(S.rho * vEnd);
         var txt = S.name + ' ' + S.rho;
         ctx.fillStyle = S.liquid ? T[Lq.line] : T[COLORS[S.key]];
-        if (vEnd < VMAX) { ctx.textAlign = 'center'; ctx.fillText(txt, Math.min(x, R - 30), Tp - 8); }
+        if (S.liquid && vEnd >= VMAX) { ctx.textAlign = 'center'; ctx.fillText(txt, sx(VMAX * 0.5), sy(S.rho * VMAX * 0.5) + 12); }
+        else if (vEnd < VMAX) { ctx.textAlign = 'center'; ctx.fillText(txt, Math.min(x, R - 30), Tp - 8); }
         else { ctx.textAlign = 'right'; ctx.fillText(txt, R - 2, y - 9); }
       });
       // 축

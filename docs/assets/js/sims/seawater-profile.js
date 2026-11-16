@@ -117,7 +117,7 @@ Sims.register('seawater-profile', {
       ctx.strokeStyle = T.figMuted; ctx.lineWidth = 1.5; ctx.beginPath();
       ctx.moveTo(gL - 5, zBreak - 3); ctx.lineTo(gL + 5, zBreak - 7); ctx.moveTo(gL - 5, zBreak + 3); ctx.lineTo(gL + 5, zBreak - 1); ctx.stroke();
       ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right';
-      ctx.fillText('↓ 100 m 아래는 눈금 간격을 줄임', gR - 2, zBreak + 14);
+      if (narrow) ctx.fillText('100 m 아래는 깊이 눈금 간격을 줄임', gR - 2, h - 8); else ctx.fillText('↓ 100 m 아래는 눈금 간격을 줄임', gR - 2, zBreak + 14);
       // 수온 곡선
       function curve(Mx, color, lw, dash) {
         ctx.setLineDash(dash || []); ctx.strokeStyle = color; ctx.lineWidth = lw; ctx.beginPath();

@@ -176,7 +176,7 @@ Sims.register('enzyme-kinetics', {
       ctx.font = '600 11px ' + T.fontBody; ctx.textAlign = 'right';
       [['none', '저해제 없음', 14], ['comp', '경쟁적', 14], ['non', '비경쟁적', -6]].forEach(function (q) {
         ctx.fillStyle = q[0] === st.inh ? cols[q[0]] : T.figMuted;
-        var y = q[0] === 'none' ? sy(rate('none', 30)) - 8 : q[0] === 'comp' ? sy(rate('comp', 30)) + 15 : sy(rate('non', 30)) - 8;
+        var y = q[0] === 'none' ? sy(rate('none', 30)) + 16 : q[0] === 'comp' ? sy(rate('comp', 30)) + 28 : sy(rate('non', 30)) + 18;
         ctx.fillText(q[1], sx(30), y);
       });
       var s = S(), v = rate(st.inh, s);

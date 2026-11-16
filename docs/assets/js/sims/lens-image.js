@@ -5,7 +5,7 @@ Sims.register('lens-image', {
   init: function (api) {
     var st = { a: 2.5, convex: true };       // a: 물체 거리(초점거리 단위)
     var H = 0.75;                            // 물체 높이(초점거리 단위)
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 0.85 : 0.48; }, label: '렌즈의 광선 추적과 상' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 0.66 : 0.48; }, label: '렌즈의 광선 추적과 상' });
     var ctx = cv.ctx;
     var rKind = api.readout('상의 종류');
     var rUp = api.readout('상의 방향');

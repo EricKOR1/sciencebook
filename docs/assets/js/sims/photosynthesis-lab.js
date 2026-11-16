@@ -48,7 +48,7 @@ Sims.register('photosynthesis-lab', {
       rL.set(I(state.d).toFixed(2));
       var f = [{ n: '빛', v: fL(I(state.d)) }, { n: '이산화 탄소', v: fC(state.g) }, { n: state.t > 32 ? '온도(너무 높음)' : '온도(낮음)', v: fT(state.t) }];
       f.sort(function (a, b) { return a.v - b.v; });
-      rLim.set(f[0].v > 0.85 ? '모두 충분한 편' : f[0].n);
+      rLim.set(f[0].v > 0.75 ? '모두 충분한 편' : f[0].n);
     }
 
     var loop = api.loop(function (dt) {
@@ -128,7 +128,7 @@ Sims.register('photosynthesis-lab', {
       ctx.fillText('탄산수소 나트륨 ' + state.g.toFixed(2) + ' g', r.x + 8, r.y + 32);
     }
     function drawGraph(T, r) {
-      var ax = AX[state.axis], L = r.x + 46, R = r.x + r.w - 14, Tp = r.y + 34, B = r.y + r.h - 42, YM = 70;
+      var ax = AX[state.axis], L = r.x + 46, R = r.x + r.w - 14, Tp = r.y + 46, B = r.y + r.h - 42, YM = 70;
       var sx = function (v) { return L + (v - ax.min) / (ax.max - ax.min) * (R - L); };
       var sy = function (p) { return B - p / YM * (B - Tp); };
       ctx.fillStyle = T.figInk; ctx.font = '600 13px ' + T.fontBody; ctx.textAlign = 'left';
@@ -161,8 +161,8 @@ Sims.register('photosynthesis-lab', {
       ctx.font = '600 12px ' + T.fontBody; ctx.fillStyle = T.figAccent;
       ctx.textAlign = cx > (L + R) / 2 ? 'right' : 'left';
       ctx.fillText(Math.round(cp) + '개', cx + (cx > (L + R) / 2 ? -10 : 10), sy(cp) - 10);
-      ctx.font = '11px ' + T.fontBody; ctx.fillStyle = T.figMuted; ctx.textAlign = 'right';
-      ctx.fillText('점선: 다른 두 조건이 지금과 같을 때의 경향', R, Tp - 8);
+      ctx.font = '11px ' + T.fontBody; ctx.fillStyle = T.figMuted; ctx.textAlign = 'left';
+      ctx.fillText('점선: 다른 두 조건이 지금과 같을 때의 경향', L, r.y + 32);
     }
 
     api.onResize(draw);

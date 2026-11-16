@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 352" role="img" aria-labelledby="t-m2-08-light-spread d-m2-08-light-spread">
+  <title id="t-m2-08-light-spread">그림 중2-8-1 거리에 따라 빛이 퍼지는 넓이</title>
+  <desc id="d-m2-08-light-spread">광원에서 거리가 2배, 3배가 되면 같은 빛이 4배, 9배의 넓이로 퍼지므로, 같은 넓이에서 받는 빛의 세기(밝기)는 1/4, 1/9이 된다.</desc>
+  <style>.m2-08-light-spread-t{font-size:14px;fill:var(--fig-ink)} .m2-08-light-spread-b{font-size:14px;font-weight:600;fill:var(--fig-ink)} .m2-08-light-spread-s{font-size:13px;fill:var(--fig-muted)} .m2-08-light-spread-hd{font-size:15px;font-weight:700;fill:var(--fig-ink)} </style>
+  <line x1="60" y1="150" x2="485.9" y2="209.3" style="stroke:var(--fig-amber);stroke-width:1.2;stroke-dasharray:5 4"/>
+  <line x1="60" y1="150" x2="534.1" y2="228.7" style="stroke:var(--fig-amber);stroke-width:1.2;stroke-dasharray:5 4"/>
+  <line x1="60" y1="150" x2="534.1" y2="90.7" style="stroke:var(--fig-amber);stroke-width:1.2;stroke-dasharray:5 4"/>
+  <line x1="60" y1="150" x2="485.9" y2="71.3" style="stroke:var(--fig-amber);stroke-width:1.2;stroke-dasharray:5 4"/>
+  <polygon points="201.9,123.8 218.1,130.2 218.1,176.2 201.9,169.8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5;opacity:0.9"/>
+  <text x="210" y="265.0" text-anchor="middle" class="m2-08-light-spread-b">거리 1</text><text x="210" y="284.0" text-anchor="middle" class="m2-08-light-spread-t">넓이 1</text><text x="210" y="303.0" text-anchor="middle" class="m2-08-light-spread-t" style="fill:var(--fig-red)">밝기 1</text>
+  <polygon points="343.9,97.6 376.1,110.4 376.1,202.4 343.9,189.6" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5;opacity:0.9"/>
+  <line x1="360.0" y1="104.0" x2="360.0" y2="196.0" style="stroke:var(--fig-amber);stroke-width:1"/>
+  <line x1="343.9" y1="143.6" x2="376.1" y2="156.4" style="stroke:var(--fig-amber);stroke-width:1"/>
+  <text x="360" y="265.0" text-anchor="middle" class="m2-08-light-spread-b">거리 2</text><text x="360" y="284.0" text-anchor="middle" class="m2-08-light-spread-t">넓이 4 (2×2)</text><text x="360" y="303.0" text-anchor="middle" class="m2-08-light-spread-t" style="fill:var(--fig-red)">밝기 1/4</text>
+  <polygon points="485.9,71.3 534.1,90.7 534.1,228.7 485.9,209.3" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5;opacity:0.9"/>
+  <line x1="501.9" y1="77.8" x2="501.9" y2="215.8" style="stroke:var(--fig-amber);stroke-width:1"/>
+  <line x1="485.9" y1="117.3" x2="534.1" y2="136.7" style="stroke:var(--fig-amber);stroke-width:1"/>
+  <line x1="518.0" y1="84.2" x2="518.0" y2="222.2" style="stroke:var(--fig-amber);stroke-width:1"/>
+  <line x1="485.9" y1="163.3" x2="534.1" y2="182.7" style="stroke:var(--fig-amber);stroke-width:1"/>
+  <text x="510" y="265.0" text-anchor="middle" class="m2-08-light-spread-b">거리 3</text><text x="510" y="284.0" text-anchor="middle" class="m2-08-light-spread-t">넓이 9 (3×3)</text><text x="510" y="303.0" text-anchor="middle" class="m2-08-light-spread-t" style="fill:var(--fig-red)">밝기 1/9</text>
+  <circle cx="60" cy="150" r="12" style="fill:var(--fig-amber)"/>
+  <text x="60" y="184" text-anchor="middle" class="m2-08-light-spread-t">광원</text>
+  <text x="610" y="70" class="m2-08-light-spread-b">같은 빛이</text><text x="610" y="90" class="m2-08-light-spread-b">넓게 퍼질수록</text><text x="610" y="110" class="m2-08-light-spread-t">한 칸(같은 넓이)이</text><text x="610" y="130" class="m2-08-light-spread-t">받는 빛은 줄어든다</text>
+</svg>

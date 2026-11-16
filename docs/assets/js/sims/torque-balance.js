@@ -18,7 +18,7 @@ Sims.register('torque-balance', {
     var sDR = api.slider({ id: 'torque-balance-dr', label: '오른쪽 물체 거리', min: 0.25, max: 2, step: 0.25, value: state.dR, format: function (v) { return v.toFixed(2) + ' m'; }, onInput: function (v) { state.dR = v; update(); } });
     api.button('예제 1 상황(300 N·1.5 m, 450 N)으로', function () { sWL.set(300); sDL.set(1.5); sWR.set(450); sDR.set(1.5); });
 
-    var MAXANG = 0.2;   // 판 끝이 바닥에 닿는 각(라디안)
+    var MAXANG = 0.12;   // 판 끝이 바닥에 닿는 각(라디안): 그릴 때 받침점 높이로 다시 계산
     function torques() { return { L: state.wL * state.dL, R: state.wR * state.dR }; }
     function target() { var t = torques(); return Math.abs(t.L - t.R) < 1e-6 ? 0 : (t.L > t.R ? 1 : -1) * MAXANG; }   // + : 시계 반대 방향(왼쪽이 내려감)
     function update() {
@@ -39,13 +39,14 @@ Sims.register('torque-balance', {
     function draw() {
       var T = api.tokens(), w = cv.w, h = cv.h, narrow = w < 560;
       ctx.clearRect(0, 0, w, h);
-      var sceneH = narrow ? h * 0.66 : h * 0.72;
-      var cx = w / 2, pivotY = sceneH - 36, scale = Math.min((w - 40) / (2 * HALF + 0.4), 150);
-      var groundY = pivotY + 34;
+      var sceneH = narrow ? h * 0.7 : h * 0.74;
+      var cx = w / 2, pivotY = sceneH - 62, scale = Math.min((w - 40) / (2 * HALF + 0.4), 150);
+      var groundY = pivotY + 46;
+      MAXANG = Math.asin(Math.min(0.5, (groundY - pivotY - 6) / ((HALF + 0.1) * scale)));
       // 바닥과 받침점
       ctx.strokeStyle = T.figLine; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(10, groundY); ctx.lineTo(w - 10, groundY); ctx.stroke();
       ctx.fillStyle = T.figSoftAmber; ctx.strokeStyle = T.figAmber; ctx.lineWidth = 2;
-      ctx.beginPath(); ctx.moveTo(cx, pivotY); ctx.lineTo(cx - 26, groundY); ctx.lineTo(cx + 26, groundY); ctx.closePath(); ctx.fill(); ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(cx, pivotY); ctx.lineTo(cx - 30, groundY); ctx.lineTo(cx + 30, groundY); ctx.closePath(); ctx.fill(); ctx.stroke();
       ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'center';
       ctx.fillText('받침점(회전축)', cx, groundY + 15);
       // 판 좌표계: 회전 (화면에서 시계 반대 방향 = 왼쪽 끝이 내려감)
@@ -98,7 +99,7 @@ Sims.register('torque-balance', {
       ctx.beginPath(); ctx.moveTo(c1.x, c1.y); ctx.lineTo(c2.x, c2.y); ctx.lineTo(c3.x, c3.y); ctx.lineTo(c4.x, c4.y); ctx.closePath(); ctx.fill(); ctx.stroke();
       var cc = P(x, 10 + s / 2);
       // 무게 화살표 (연직 아래)
-      var len = 12 + wN / 800 * 46;
+      var len = 8 + wN / 800 * 30;
       ctx.strokeStyle = stroke; ctx.fillStyle = stroke; ctx.lineWidth = 2.5;
       ctx.beginPath(); ctx.moveTo(cc.x, cc.y); ctx.lineTo(cc.x, cc.y + s / 2 + 10 + len); ctx.stroke();
       var ey = cc.y + s / 2 + 10 + len;
@@ -137,6 +138,7 @@ Sims.register('torque-balance', {
     }
 
     api.onResize(draw);
+    draw();   // 받침점 높이에 맞춘 MAXANG 계산
     state.ang = target();
     update(); draw();
   },

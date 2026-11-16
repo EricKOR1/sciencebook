@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-astro-1-habitable-zone d-astro-1-habitable-zone">
+  <title id="t-astro-1-habitable-zone">그림 행성우주과학 1-2 중심별의 표면 온도에 따른 생명가능지대</title>
+  <desc id="d-astro-1-habitable-zone">표면 온도가 높은 별일수록 광도가 커서 생명가능지대가 멀어지고 넓어진다. 차가운 M형 별의 생명가능지대는 수성 궤도보다 훨씬 안쪽에 좁게 있고, 뜨거운 A형 별은 목성·토성 궤도 근처에 넓게 있다.</desc>
+  <style>
+    .astro-1-habitable-zone-ink{fill:var(--fig-ink)} .astro-1-habitable-zone-mut{fill:var(--fig-muted)}
+    .astro-1-habitable-zone-lbl{font-size:14px;fill:var(--fig-ink)} .astro-1-habitable-zone-sm{font-size:13px;fill:var(--fig-muted)} .astro-1-habitable-zone-b{font-weight:600}
+    .astro-1-habitable-zone-ax{stroke:var(--fig-line);stroke-width:1.5;fill:none}
+    
+  </style>
+  <rect x="10" y="70" width="700" height="54" style="fill:var(--fig-panel)"/>
+  <rect x="10" y="178" width="700" height="54" style="fill:var(--fig-panel)"/>
+  <line x1="390.6" y1="62" x2="390.6" y2="286" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4"/>
+  <line x1="439.6" y1="62" x2="439.6" y2="286" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4"/>
+  <line x1="465.0" y1="62" x2="465.0" y2="286" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4"/>
+  <line x1="498.1" y1="62" x2="498.1" y2="286" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4"/>
+  <line x1="594.3" y1="62" x2="594.3" y2="286" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4"/>
+  <line x1="642.3" y1="62" x2="642.3" y2="286" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4"/>
+  <circle cx="34" cy="97.0" r="7" style="fill:var(--fig-red)"/>
+  <text x="58" y="94.0" class="astro-1-habitable-zone-lbl astro-1-habitable-zone-b">M형 별</text>
+  <text x="58" y="112.0" class="astro-1-habitable-zone-sm">2900 K, 반지름 0.2배</text>
+  <line x1="190" y1="97.0" x2="700" y2="97.0" style="stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="226.9" y="86.0" width="29.6" height="22" rx="4" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+  <text x="262.5" y="102.0" class="astro-1-habitable-zone-sm" style="fill:var(--fig-green)">0.048~0.07 AU</text>
+  <circle cx="34" cy="151.0" r="10" style="fill:var(--fig-amber)"/>
+  <text x="58" y="148.0" class="astro-1-habitable-zone-lbl astro-1-habitable-zone-b">K형 별</text>
+  <text x="58" y="166.0" class="astro-1-habitable-zone-sm">4000 K, 반지름 0.6배</text>
+  <line x1="190" y1="151.0" x2="700" y2="151.0" style="stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="362.3" y="140.0" width="30.8" height="22" rx="4" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+  <text x="399.2" y="156.0" class="astro-1-habitable-zone-sm" style="fill:var(--fig-green)">0.27~0.4 AU</text>
+  <circle cx="34" cy="205.0" r="13" style="fill:var(--fig-amber)"/>
+  <text x="58" y="202.0" class="astro-1-habitable-zone-lbl astro-1-habitable-zone-b">태양(G형)</text>
+  <text x="58" y="220.0" class="astro-1-habitable-zone-sm">5800 K</text>
+  <line x1="190" y1="205.0" x2="700" y2="205.0" style="stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="461.0" y="194.0" width="30.4" height="22" rx="4" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+  <text x="497.4" y="210.0" class="astro-1-habitable-zone-sm" style="fill:var(--fig-green)">0.95~1.4 AU</text>
+  <circle cx="34" cy="259.0" r="18" style="fill:var(--fig-blue)"/>
+  <text x="58" y="256.0" class="astro-1-habitable-zone-lbl astro-1-habitable-zone-b">A형 별</text>
+  <text x="58" y="274.0" class="astro-1-habitable-zone-sm">10,000 K, 반지름 2.5배</text>
+  <line x1="190" y1="259.0" x2="700" y2="259.0" style="stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="618.8" y="248.0" width="29.9" height="22" rx="4" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+  <text x="612.8" y="264.0" text-anchor="end" class="astro-1-habitable-zone-sm" style="fill:var(--fig-green)">7.1~10.4 AU</text>
+  <circle cx="390.6" cy="300" r="3.5" style="fill:var(--fig-blue)"/>
+  <text x="390.6" y="320" text-anchor="middle" class="astro-1-habitable-zone-sm">수성</text>
+  <circle cx="439.6" cy="300" r="3.5" style="fill:var(--fig-blue)"/>
+  <text x="439.6" y="320" text-anchor="middle" class="astro-1-habitable-zone-sm">금성</text>
+  <circle cx="465.0" cy="300" r="3.5" style="fill:var(--fig-blue)"/>
+  <text x="465.0" y="320" text-anchor="middle" class="astro-1-habitable-zone-sm">지구</text>
+  <circle cx="498.1" cy="300" r="3.5" style="fill:var(--fig-blue)"/>
+  <text x="498.1" y="320" text-anchor="middle" class="astro-1-habitable-zone-sm">화성</text>
+  <circle cx="594.3" cy="300" r="3.5" style="fill:var(--fig-blue)"/>
+  <text x="594.3" y="320" text-anchor="middle" class="astro-1-habitable-zone-sm">목성</text>
+  <circle cx="642.3" cy="300" r="3.5" style="fill:var(--fig-blue)"/>
+  <text x="642.3" y="320" text-anchor="middle" class="astro-1-habitable-zone-sm">토성</text>
+  <text x="180" y="305" text-anchor="end" class="astro-1-habitable-zone-sm">태양계 행성 궤도</text>
+  <line x1="190.0" y1="332" x2="190.0" y2="338" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="190.0" y="352" text-anchor="middle" class="astro-1-habitable-zone-sm">0.03</text>
+  <line x1="284.4" y1="332" x2="284.4" y2="338" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="284.4" y="352" text-anchor="middle" class="astro-1-habitable-zone-sm">0.1</text>
+  <line x1="370.6" y1="332" x2="370.6" y2="338" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="370.6" y="352" text-anchor="middle" class="astro-1-habitable-zone-sm">0.3</text>
+  <line x1="465.0" y1="332" x2="465.0" y2="338" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="465.0" y="352" text-anchor="middle" class="astro-1-habitable-zone-sm">1</text>
+  <line x1="551.2" y1="332" x2="551.2" y2="338" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="551.2" y="352" text-anchor="middle" class="astro-1-habitable-zone-sm">3</text>
+  <line x1="645.6" y1="332" x2="645.6" y2="338" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="645.6" y="352" text-anchor="middle" class="astro-1-habitable-zone-sm">10 AU</text>
+  <line x1="190" y1="332" x2="700" y2="332" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="20" y="28" class="astro-1-habitable-zone-lbl astro-1-habitable-zone-b">초록 띠: 생명가능지대 (태양계 0.95~1.4 AU × √(L/L☉))</text>
+  <text x="20" y="50" class="astro-1-habitable-zone-sm">거리는 로그 눈금 · 별의 크기와 색은 모식적으로 나타냄 · 값은 본문 예제와 같은 어림값</text>
+</svg>

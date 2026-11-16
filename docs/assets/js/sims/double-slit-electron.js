@@ -65,6 +65,19 @@ Sims.register('double-slit-electron', {
         [cy - gap, cy + gap].forEach(function (yy) { ctx.beginPath(); ctx.arc(wallX + 14, yy, 5, 0, Math.PI * 2); ctx.fill(); });
         ctx.font = '600 11px ' + T.fontBody; ctx.fillText('경로 측정 장치', wallX + 14, s.y + s.h + 12); ctx.font = '12px ' + T.fontBody;
       }
+      // 확률 파동(측정하지 않을 때): 두 슬릿에서 함께 퍼져 나가는 물결
+      ctx.save(); ctx.beginPath(); ctx.rect(wallX + 4, s.y, scrX - wallX - 6, s.h); ctx.clip();
+      ctx.strokeStyle = T.figTeal; ctx.lineWidth = 1;
+      var wl = (scrX - wallX) * 0.09 / st.speed * 2;
+      [cy - gap, cy + gap].forEach(function (yy, idx) {
+        if (st.measure) return;
+        for (var rr = wl; rr < (scrX - wallX) * 1.15; rr += wl) {
+          ctx.globalAlpha = 0.35 * (1 - rr / ((scrX - wallX) * 1.2));
+          ctx.beginPath(); ctx.arc(wallX, yy, rr, -Math.PI / 2, Math.PI / 2); ctx.stroke();
+        }
+      });
+      ctx.globalAlpha = 1; ctx.restore();
+      if (!st.measure) { ctx.fillStyle = T.figTeal; ctx.textAlign = 'center'; ctx.font = '11px ' + T.fontBody; ctx.fillText('확률 파동', (wallX + scrX) / 2, s.y + s.h + 12); ctx.font = '12px ' + T.fontBody; }
       ctx.fillStyle = T.figInk; ctx.fillRect(scrX - 2, s.y, 4, s.h);
       ctx.fillStyle = T.figMuted; ctx.fillText('스크린', scrX - 12, s.y - 8);
       // 날아가는 전자
@@ -128,7 +141,7 @@ Sims.register('double-slit-electron', {
       onInput: function (v) { st.speed = v; rS.set(v <= 1.5 ? '넓음 (파장 김)' : v <= 2.25 ? '보통' : '촘촘함 (파장 짧음)'); build(); clear(); draw(); } });
     rM.set('꺼짐'); rS.set('보통');
     build();
-    if (api.reduced) add(3000);      // 움직임 줄이기: 쌓인 결과를 바로 보여 준다
+    add(api.reduced ? 3000 : 40);      // 첫 화면: 흩어진 점 몇 개(움직임 줄이기: 쌓인 결과)
     api.onResize(draw);
     draw();
   },

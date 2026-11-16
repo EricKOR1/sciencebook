@@ -105,7 +105,7 @@ Sims.register('exoplanet-transit', {
     function sceneTransit(T, r) {
       txt(T, '지구에서 본 별과 행성', r.x + 10, r.y + 18, { bold: true });
       var stacked = cv.w < 560;
-      var Rs = Math.min(r.w * (stacked ? 0.2 : 0.3), r.h * 0.22), cx = stacked ? r.x + r.w * 0.27 : r.x + r.w / 2, cy = r.y + (stacked ? r.h * 0.55 : r.h * 0.3);
+      var Rs = Math.min(r.w * (stacked ? 0.2 : 0.24), r.h * (stacked ? 0.22 : 0.16)), cx = stacked ? r.x + r.w * 0.27 : r.x + r.w / 2, cy = r.y + (stacked ? r.h * 0.55 : r.h * 0.28);
       ctx.fillStyle = T.figAmber; ctx.beginPath(); ctx.arc(cx, cy, Rs, 0, Math.PI * 2); ctx.fill();
       var ph = phase(st.t), x = aR() * Math.cos(ph);
       if (Math.sin(ph) < 0 && Math.abs(x) < 1 + k() + 2) {
@@ -113,7 +113,7 @@ Sims.register('exoplanet-transit', {
       }
       txt(T, '크기 비율은 실제와 같다', cx, cy + Rs + 18, { size: 11, color: T.figMuted, align: 'center' });
       // 위에서 본 궤도(모식도)
-      var tx = stacked ? r.x + r.w * 0.74 : r.x + r.w / 2, ty = stacked ? r.y + r.h * 0.45 : r.y + r.h * 0.68, R = Math.min(r.w * (stacked ? 0.17 : 0.3), r.h * (stacked ? 0.26 : 0.17));
+      var tx = stacked ? r.x + r.w * 0.74 : r.x + r.w / 2, ty = stacked ? r.y + r.h * 0.45 : r.y + r.h * 0.7, R = Math.min(r.w * (stacked ? 0.17 : 0.3), r.h * (stacked ? 0.26 : 0.15));
       txt(T, '위에서 본 궤도', tx, ty - R - 8, { size: 11, color: T.figMuted, align: 'center' });
       topView(T, tx, ty, R, 0);
     }
@@ -137,7 +137,7 @@ Sims.register('exoplanet-transit', {
       ctx.strokeStyle = T.figAccent; ctx.lineWidth = 1.8; ctx.beginPath();
       pts.forEach(function (t, i) { var y = A.sy(Math.max(0.975, flux(t))); if (i) ctx.lineTo(A.sx(t), y); else ctx.moveTo(A.sx(t), y); }); ctx.stroke();
       if (T0 + Pd < WIN) {
-        var y0 = A.Ty + 4; ctx.strokeStyle = T.figRed; ctx.fillStyle = T.figRed; ctx.lineWidth = 1.2;
+        var y0 = A.sy(0.9855); ctx.strokeStyle = T.figRed; ctx.fillStyle = T.figRed; ctx.lineWidth = 1.2;
         ctx.beginPath(); ctx.moveTo(A.sx(T0), y0); ctx.lineTo(A.sx(T0 + Pd), y0); ctx.stroke();
         txt(T, '간격 = 공전 주기', Math.min(A.sx(T0 + Pd) + 4, A.Rx - 90), y0 + 4, { size: 11, color: T.figRed });
       }

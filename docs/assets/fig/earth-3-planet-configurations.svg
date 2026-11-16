@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img" aria-labelledby="t-earth-3-planet-configurations d-earth-3-planet-configurations">
+  <title id="t-earth-3-planet-configurations">그림 지구과학 3-2 내행성과 외행성의 위치 관계</title>
+  <desc id="d-earth-3-planet-configurations">태양계를 북쪽에서 내려다본 모식도. 내행성은 내합·외합·동방 최대 이각·서방 최대 이각, 외행성은 충·합·동구·서구의 위치 관계를 가지며, 지구에서 태양을 바라볼 때 왼쪽이 동쪽이다.</desc>
+  <style>
+    .earth-3-planet-configurations-b{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .earth-3-planet-configurations-s{font-size:13px;fill:var(--fig-muted)}
+    .earth-3-planet-configurations-o{fill:none;stroke:var(--fig-line);stroke-width:1.3}
+    .earth-3-planet-configurations-ld{stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 3;fill:none}
+    .earth-3-planet-configurations-in{fill:var(--fig-violet)}
+    .earth-3-planet-configurations-out{fill:var(--fig-red)}
+  </style>
+  <circle cx="360" cy="215" r="70" class="earth-3-planet-configurations-o"/>
+  <circle cx="360" cy="215" r="130" class="earth-3-planet-configurations-o" style="stroke:var(--fig-blue)"/>
+  <circle cx="360" cy="215" r="190" class="earth-3-planet-configurations-o"/>
+  <!-- 시선 -->
+  <g style="stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:5 4;fill:none">
+    <line x1="360" y1="345" x2="301" y2="253"/><line x1="360" y1="345" x2="419" y2="253"/>
+    <line x1="360" y1="345" x2="221" y2="345"/><line x1="360" y1="345" x2="499" y2="345"/>
+    <line x1="360" y1="345" x2="360" y2="25"/>
+  </g>
+  <!-- 지시선 -->
+  <path d="M166 250 L294 253" class="earth-3-planet-configurations-ld"/>
+  <path d="M554 250 L426 253" class="earth-3-planet-configurations-ld"/>
+  <path d="M166 352 L213 346" class="earth-3-planet-configurations-ld"/>
+  <path d="M554 352 L507 346" class="earth-3-planet-configurations-ld"/>
+  <!-- 태양과 지구 -->
+  <circle cx="360" cy="215" r="15" style="fill:var(--fig-amber)"/>
+  <circle cx="360" cy="345" r="9" style="fill:var(--fig-blue)"/>
+  <text x="386" y="210" class="earth-3-planet-configurations-b">태양</text>
+  <text x="376" y="372" class="earth-3-planet-configurations-b" style="fill:var(--fig-blue)">지구</text>
+  <!-- 내행성 -->
+  <circle cx="360" cy="285" r="6" class="earth-3-planet-configurations-in"/>
+  <circle cx="360" cy="145" r="6" class="earth-3-planet-configurations-in"/>
+  <circle cx="301" cy="253" r="6" class="earth-3-planet-configurations-in"/>
+  <circle cx="419" cy="253" r="6" class="earth-3-planet-configurations-in"/>
+  <!-- 외행성 -->
+  <circle cx="360" cy="405" r="7" class="earth-3-planet-configurations-out"/>
+  <circle cx="360" cy="25" r="7" class="earth-3-planet-configurations-out"/>
+  <circle cx="221" cy="345" r="7" class="earth-3-planet-configurations-out"/>
+  <circle cx="499" cy="345" r="7" class="earth-3-planet-configurations-out"/>
+  <!-- 이름 -->
+  <text x="372" y="293" class="earth-3-planet-configurations-b" style="fill:var(--fig-violet)">내합</text>
+  <text x="372" y="140" class="earth-3-planet-configurations-b" style="fill:var(--fig-violet)">외합</text>
+  <text x="374" y="30" class="earth-3-planet-configurations-b" style="fill:var(--fig-red)">합</text><text x="394" y="30" class="earth-3-planet-configurations-s">(보이지 않음)</text>
+  <text x="374" y="410" class="earth-3-planet-configurations-b" style="fill:var(--fig-red)">충</text><text x="394" y="410" class="earth-3-planet-configurations-s">밤새 보임, 가장 밝음, 역행</text>
+  <text x="160" y="244" text-anchor="end" class="earth-3-planet-configurations-b" style="fill:var(--fig-violet)">동방 최대 이각</text>
+  <text x="160" y="262" text-anchor="end" class="earth-3-planet-configurations-s">초저녁 서쪽 하늘</text>
+  <text x="560" y="244" class="earth-3-planet-configurations-b" style="fill:var(--fig-violet)">서방 최대 이각</text>
+  <text x="560" y="262" class="earth-3-planet-configurations-s">새벽 동쪽 하늘</text>
+  <text x="160" y="346" text-anchor="end" class="earth-3-planet-configurations-b" style="fill:var(--fig-red)">동구</text>
+  <text x="160" y="364" text-anchor="end" class="earth-3-planet-configurations-s">초저녁 남쪽 하늘</text>
+  <text x="560" y="346" class="earth-3-planet-configurations-b" style="fill:var(--fig-red)">서구</text>
+  <text x="560" y="364" class="earth-3-planet-configurations-s">새벽 남쪽 하늘</text>
+  <!-- 범례 -->
+  <text x="16" y="26" class="earth-3-planet-configurations-b">북쪽에서 내려다본 모습(모식도)</text>
+  <text x="16" y="46" class="earth-3-planet-configurations-s">행성은 모두 시계 반대 방향으로 공전</text>
+  <circle cx="22" cy="66" r="5" class="earth-3-planet-configurations-in"/><text x="34" y="71" class="earth-3-planet-configurations-s">내행성(수성·금성)</text>
+  <circle cx="22" cy="88" r="6" class="earth-3-planet-configurations-out"/><text x="34" y="93" class="earth-3-planet-configurations-s">외행성(화성~해왕성)</text>
+  <text x="704" y="26" text-anchor="end" class="earth-3-planet-configurations-s">지구에서 태양 쪽을 볼 때</text>
+  <text x="704" y="46" text-anchor="end" class="earth-3-planet-configurations-s">왼쪽이 동쪽, 오른쪽이 서쪽</text>
+  <!-- 공전 방향 -->
+  <path d="M528 140 A190 190 0 0 0 470 60" style="fill:none;stroke:var(--fig-muted);stroke-width:1.8"/>
+  <path d="M462 55 l12 -1 l-5 11 z" style="fill:var(--fig-muted)"/>
+  <text x="530" y="102" class="earth-3-planet-configurations-s">공전 방향</text>
+  <text x="360" y="434" text-anchor="middle" class="earth-3-planet-configurations-s">내합 무렵 내행성도 역행한다</text>
+</svg>

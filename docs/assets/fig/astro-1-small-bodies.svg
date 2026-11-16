@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-astro-1-small-bodies d-astro-1-small-bodies">
+  <title id="t-astro-1-small-bodies">그림 행성우주과학 1-1 태양계 소천체의 분포</title>
+  <desc id="d-astro-1-small-bodies">거리를 로그 눈금으로 나타내면 소행성대는 화성과 목성 사이, 카이퍼 벨트는 해왕성 바깥, 오르트 구름은 그보다 훨씬 먼 태양계 외곽에 있다. 설선 안쪽의 소천체는 주로 암석·금속, 바깥은 얼음이 많다.</desc>
+  <style>
+    .astro-1-small-bodies-ink{fill:var(--fig-ink)} .astro-1-small-bodies-mut{fill:var(--fig-muted)}
+    .astro-1-small-bodies-lbl{font-size:14px;fill:var(--fig-ink)} .astro-1-small-bodies-sm{font-size:13px;fill:var(--fig-muted)} .astro-1-small-bodies-b{font-weight:600}
+    .astro-1-small-bodies-ax{stroke:var(--fig-line);stroke-width:1.5;fill:none}
+    
+  </style>
+  <rect x="163.9" y="148" width="22.1" height="44" rx="6" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <rect x="293.8" y="148" width="24.9" height="44" rx="6" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <rect x="498.9" y="130" width="191.1" height="80" rx="6" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5;stroke-dasharray:5 4"/>
+  <line x1="179.7" y1="66" x2="179.7" y2="220" style="stroke:var(--fig-line);stroke-width:1.3;stroke-dasharray:4 4"/>
+  <text x="179.7" y="58" text-anchor="middle" class="astro-1-small-bodies-sm">설선(약 3 AU)</text>
+  <line x1="361.5" y1="66" x2="361.5" y2="220" style="stroke:var(--fig-line);stroke-width:1.3;stroke-dasharray:4 4"/>
+  <text x="361.5" y="58" text-anchor="middle" class="astro-1-small-bodies-sm">태양권 계면(약 120 AU)</text>
+  <text x="173.7" y="84" text-anchor="end" class="astro-1-small-bodies-sm">← 암석·금속</text>
+  <text x="185.7" y="84" class="astro-1-small-bodies-sm">얼음이 많음 →</text>
+  <line x1="40" y1="170" x2="690" y2="170" class="astro-1-small-bodies-ax" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <circle cx="36" cy="170" r="14" style="fill:var(--fig-amber)"/>
+  <text x="36" y="204" text-anchor="middle" class="astro-1-small-bodies-lbl astro-1-small-bodies-b">태양</text>
+  <circle cx="81.3" cy="170" r="3.5" style="fill:var(--fig-blue)"/>
+  <text x="81.3" y="158" text-anchor="middle" class="astro-1-small-bodies-sm">수</text>
+  <circle cx="111.9" cy="170" r="3.5" style="fill:var(--fig-blue)"/>
+  <text x="111.9" y="158" text-anchor="middle" class="astro-1-small-bodies-sm">금</text>
+  <circle cx="127.7" cy="170" r="3.5" style="fill:var(--fig-blue)"/>
+  <text x="127.7" y="158" text-anchor="middle" class="astro-1-small-bodies-sm">지</text>
+  <circle cx="148.3" cy="170" r="3.5" style="fill:var(--fig-blue)"/>
+  <text x="148.3" y="158" text-anchor="middle" class="astro-1-small-bodies-sm">화</text>
+  <circle cx="208.2" cy="170" r="6" style="fill:var(--fig-blue)"/>
+  <text x="208.2" y="140" text-anchor="middle" class="astro-1-small-bodies-sm">목</text>
+  <circle cx="238.1" cy="170" r="6" style="fill:var(--fig-blue)"/>
+  <text x="238.1" y="158" text-anchor="middle" class="astro-1-small-bodies-sm">토</text>
+  <circle cx="272.0" cy="170" r="4.5" style="fill:var(--fig-blue)"/>
+  <text x="272.0" y="158" text-anchor="middle" class="astro-1-small-bodies-sm">천</text>
+  <circle cx="294.0" cy="170" r="4.5" style="fill:var(--fig-blue)"/>
+  <text x="294.0" y="140" text-anchor="middle" class="astro-1-small-bodies-sm">해</text>
+  <circle cx="199.2" cy="176" r="1.6" style="fill:var(--fig-amber)"/>
+  <circle cx="202.2" cy="176" r="1.6" style="fill:var(--fig-amber)"/>
+  <circle cx="214.2" cy="164" r="1.6" style="fill:var(--fig-amber)"/>
+  <circle cx="217.2" cy="164" r="1.6" style="fill:var(--fig-amber)"/>
+  <text x="175.0" y="224" text-anchor="middle" class="astro-1-small-bodies-lbl astro-1-small-bodies-b">소행성대</text>
+  <text x="175.0" y="241" text-anchor="middle" class="astro-1-small-bodies-sm">2.1~3.3 AU, 암석·금속</text>
+  <text x="208.2" y="258" text-anchor="middle" class="astro-1-small-bodies-lbl astro-1-small-bodies-b">트로이군</text>
+  <text x="208.2" y="275" text-anchor="middle" class="astro-1-small-bodies-sm">목성 궤도 앞뒤</text>
+  <text x="306.3" y="224" text-anchor="middle" class="astro-1-small-bodies-lbl astro-1-small-bodies-b">카이퍼 벨트</text>
+  <text x="306.3" y="241" text-anchor="middle" class="astro-1-small-bodies-sm">30~50 AU, 얼음 천체</text>
+  <text x="594.5" y="244" text-anchor="middle" class="astro-1-small-bodies-lbl astro-1-small-bodies-b">오르트 구름(추정)</text>
+  <text x="594.5" y="261" text-anchor="middle" class="astro-1-small-bodies-sm">수천~10만 AU, 장주기 혜성</text>
+  <line x1="208.2" y1="180" x2="208.2" y2="244" style="stroke:var(--fig-line);stroke-width:1"/>
+  <circle cx="177.5" cy="170" r="3.5" style="fill:var(--fig-ink)"/>
+  <circle cx="307.3" cy="170" r="3.5" style="fill:var(--fig-ink)"/>
+  <circle cx="333.6" cy="170" r="3.5" style="fill:var(--fig-ink)"/>
+  <text x="307.3" y="140" text-anchor="middle" class="astro-1-small-bodies-sm">명왕성</text>
+  <line x1="307.3" y1="144" x2="307.3" y2="165" style="stroke:var(--fig-line);stroke-width:1"/>
+  <text x="333.6" y="158" text-anchor="middle" class="astro-1-small-bodies-sm">에리스</text>
+  <text x="177.5" y="140" text-anchor="middle" class="astro-1-small-bodies-sm">세레스</text>
+  <line x1="177.5" y1="144" x2="177.5" y2="165" style="stroke:var(--fig-line);stroke-width:1"/>
+  <path d="M101.9 118 L101.9 110 L301.4 110 L301.4 118" style="fill:none;stroke:var(--fig-red);stroke-width:1.6"/>
+  <text x="201.6" y="104" text-anchor="middle" class="astro-1-small-bodies-sm" style="fill:var(--fig-red)">핼리 혜성의 궤도 범위 0.59~35 AU</text>
+  <path d="M68.9 140 L68.9 132 L140.5 132 L140.5 140" style="fill:none;stroke:var(--fig-green);stroke-width:1.6"/>
+  <text x="104.7" y="126" text-anchor="middle" class="astro-1-small-bodies-sm" style="fill:var(--fig-green)">지구 접근 천체: 근일점 1.3 AU 이하</text>
+  <line x1="127.7" y1="270" x2="127.7" y2="278" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="127.7" y="294" text-anchor="middle" class="astro-1-small-bodies-sm">1 AU</text>
+  <line x1="240.2" y1="270" x2="240.2" y2="278" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="240.2" y="294" text-anchor="middle" class="astro-1-small-bodies-sm">10</text>
+  <line x1="352.6" y1="270" x2="352.6" y2="278" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="352.6" y="294" text-anchor="middle" class="astro-1-small-bodies-sm">100</text>
+  <line x1="465.1" y1="270" x2="465.1" y2="278" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="465.1" y="294" text-anchor="middle" class="astro-1-small-bodies-sm">1000</text>
+  <line x1="577.5" y1="270" x2="577.5" y2="278" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="577.5" y="294" text-anchor="middle" class="astro-1-small-bodies-sm">1만</text>
+  <line x1="690.0" y1="270" x2="690.0" y2="278" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="690.0" y="294" text-anchor="middle" class="astro-1-small-bodies-sm">10만 AU</text>
+  <line x1="60" y1="270" x2="690" y2="270" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="360" y="318" text-anchor="middle" class="astro-1-small-bodies-sm">태양으로부터의 거리 (로그 눈금: 한 칸마다 10배) · 천체 크기는 실제 비율이 아닌 모식도</text>
+  <text x="20" y="28" class="astro-1-small-bodies-lbl astro-1-small-bodies-b">행성 사이와 바깥에 퍼져 있는 소천체</text>
+</svg>

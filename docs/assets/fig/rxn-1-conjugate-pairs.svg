@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-rxn-1-conjugate-pairs d-rxn-1-conjugate-pairs">
+  <title id="t-rxn-1-conjugate-pairs">그림 화학 반응의 세계 1-1 양성자의 이동과 짝산–짝염기 쌍</title>
+  <desc id="d-rxn-1-conjugate-pairs">산은 양성자(H⁺)를 내주고 짝염기가 되며, 염기는 양성자를 받아 짝산이 된다. 같은 물이 아세트산 앞에서는 염기, 암모니아 앞에서는 산으로 작용한다.</desc>
+  <style>
+    .rxn-1-conjugate-pairs-f{font-size:16px;fill:var(--fig-ink);font-weight:600}
+    .rxn-1-conjugate-pairs-r{font-size:13px;fill:var(--fig-muted)}
+    .rxn-1-conjugate-pairs-t{font-size:13px;font-weight:600}
+    .rxn-1-conjugate-pairs-b{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5}
+    .rxn-1-conjugate-pairs-w{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+  </style>
+  <!-- 1줄: 아세트산 + 물 -->
+  <path d="M70 62 V38 H450 V62" style="fill:none;stroke:var(--fig-teal);stroke-width:2"/>
+  <text x="260" y="30" text-anchor="middle" class="rxn-1-conjugate-pairs-t" style="fill:var(--fig-teal)">짝산–짝염기 쌍 ① (H⁺ 1개 차이)</text>
+  <rect x="10" y="62" width="120" height="52" rx="8" class="rxn-1-conjugate-pairs-b"/>
+  <text x="70" y="85" text-anchor="middle" class="rxn-1-conjugate-pairs-f">CH₃COOH</text>
+  <text x="70" y="104" text-anchor="middle" class="rxn-1-conjugate-pairs-r">산 (양성자 주개)</text>
+  <text x="145" y="94" text-anchor="middle" class="rxn-1-conjugate-pairs-f">+</text>
+  <rect x="160" y="62" width="120" height="52" rx="8" class="rxn-1-conjugate-pairs-w"/>
+  <text x="220" y="85" text-anchor="middle" class="rxn-1-conjugate-pairs-f">H₂O</text>
+  <text x="220" y="104" text-anchor="middle" class="rxn-1-conjugate-pairs-r">염기 (양성자 받개)</text>
+  <text x="335" y="95" text-anchor="middle" style="font-size:24px;fill:var(--fig-ink)">⇌</text>
+  <rect x="390" y="62" width="120" height="52" rx="8" class="rxn-1-conjugate-pairs-b"/>
+  <text x="450" y="85" text-anchor="middle" class="rxn-1-conjugate-pairs-f">CH₃COO⁻</text>
+  <text x="450" y="104" text-anchor="middle" class="rxn-1-conjugate-pairs-r">짝염기</text>
+  <text x="535" y="94" text-anchor="middle" class="rxn-1-conjugate-pairs-f">+</text>
+  <rect x="550" y="62" width="120" height="52" rx="8" class="rxn-1-conjugate-pairs-b"/>
+  <text x="610" y="85" text-anchor="middle" class="rxn-1-conjugate-pairs-f">H₃O⁺</text>
+  <text x="610" y="104" text-anchor="middle" class="rxn-1-conjugate-pairs-r">짝산</text>
+  <path d="M220 114 V140 H610 V114" style="fill:none;stroke:var(--fig-violet);stroke-width:2"/>
+  <text x="415" y="158" text-anchor="middle" class="rxn-1-conjugate-pairs-t" style="fill:var(--fig-violet)">짝산–짝염기 쌍 ②</text>
+  <!-- H⁺ 이동 화살표 -->
+  <path d="M112 116 C130 150 175 150 200 120" style="fill:none;stroke:var(--fig-red);stroke-width:2.5"/>
+  <path d="M200 120 l-1 12 l-9 -6 z" style="fill:var(--fig-red)"/>
+  <circle cx="148" cy="150" r="11" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <text x="148" y="155" text-anchor="middle" class="rxn-1-conjugate-pairs-t" style="fill:var(--fig-red)">H⁺</text>
+  <!-- 2줄: 암모니아 + 물 -->
+  <path d="M70 222 V198 H450 V222" style="fill:none;stroke:var(--fig-teal);stroke-width:2"/>
+  <text x="260" y="190" text-anchor="middle" class="rxn-1-conjugate-pairs-t" style="fill:var(--fig-teal)">짝산–짝염기 쌍 ①</text>
+  <rect x="10" y="222" width="120" height="52" rx="8" class="rxn-1-conjugate-pairs-b"/>
+  <text x="70" y="245" text-anchor="middle" class="rxn-1-conjugate-pairs-f">NH₃</text>
+  <text x="70" y="264" text-anchor="middle" class="rxn-1-conjugate-pairs-r">염기 (양성자 받개)</text>
+  <text x="145" y="254" text-anchor="middle" class="rxn-1-conjugate-pairs-f">+</text>
+  <rect x="160" y="222" width="120" height="52" rx="8" class="rxn-1-conjugate-pairs-w"/>
+  <text x="220" y="245" text-anchor="middle" class="rxn-1-conjugate-pairs-f">H₂O</text>
+  <text x="220" y="264" text-anchor="middle" class="rxn-1-conjugate-pairs-r">산 (양성자 주개)</text>
+  <text x="335" y="255" text-anchor="middle" style="font-size:24px;fill:var(--fig-ink)">⇌</text>
+  <rect x="390" y="222" width="120" height="52" rx="8" class="rxn-1-conjugate-pairs-b"/>
+  <text x="450" y="245" text-anchor="middle" class="rxn-1-conjugate-pairs-f">NH₄⁺</text>
+  <text x="450" y="264" text-anchor="middle" class="rxn-1-conjugate-pairs-r">짝산</text>
+  <text x="535" y="254" text-anchor="middle" class="rxn-1-conjugate-pairs-f">+</text>
+  <rect x="550" y="222" width="120" height="52" rx="8" class="rxn-1-conjugate-pairs-b"/>
+  <text x="610" y="245" text-anchor="middle" class="rxn-1-conjugate-pairs-f">OH⁻</text>
+  <text x="610" y="264" text-anchor="middle" class="rxn-1-conjugate-pairs-r">짝염기</text>
+  <path d="M220 274 V300 H610 V274" style="fill:none;stroke:var(--fig-violet);stroke-width:2"/>
+  <text x="415" y="318" text-anchor="middle" class="rxn-1-conjugate-pairs-t" style="fill:var(--fig-violet)">짝산–짝염기 쌍 ②</text>
+  <path d="M200 276 C175 310 130 310 112 280" style="fill:none;stroke:var(--fig-red);stroke-width:2.5"/>
+  <path d="M112 280 l11 4 l-9 7 z" style="fill:var(--fig-red)"/>
+  <circle cx="156" cy="309" r="11" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <text x="156" y="314" text-anchor="middle" class="rxn-1-conjugate-pairs-t" style="fill:var(--fig-red)">H⁺</text>
+  <text x="360" y="346" text-anchor="middle" class="rxn-1-conjugate-pairs-r"><tspan style="fill:var(--fig-amber);font-weight:600">물(H₂O)</tspan>은 상대에 따라 염기도, 산도 된다 — 양쪽성 물질</text>
+  <text x="360" y="366" text-anchor="middle" class="rxn-1-conjugate-pairs-r">역반응에서는 짝산이 짝염기에게 H⁺를 돌려준다</text>
+</svg>

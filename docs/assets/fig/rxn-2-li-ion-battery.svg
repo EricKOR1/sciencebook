@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-labelledby="t-rxn-2-li-ion-battery d-rxn-2-li-ion-battery">
+  <title id="t-rxn-2-li-ion-battery">그림 화학 반응의 세계 2-2 리튬 이온 전지의 방전과 충전</title>
+  <desc id="d-rxn-2-li-ion-battery">방전할 때는 흑연 속 리튬이 Li⁺로 산화되어 전해질을 지나 (+)극으로 가고 전자는 도선으로 흐른다. 충전할 때는 외부 전원이 Li⁺와 전자를 모두 흑연 쪽으로 되돌린다. 층 구조와 이온 크기는 모식도이다.</desc>
+  <style>
+    .rxn-2-li-ion-battery-f{font-size:14px;fill:var(--fig-ink);font-weight:600}
+    .rxn-2-li-ion-battery-s{font-size:13px;fill:var(--fig-muted)}
+    .rxn-2-li-ion-battery-k{font-size:13px;fill:var(--fig-ink)}
+    .rxn-2-li-ion-battery-g{stroke:var(--fig-ink);stroke-width:2}
+    .rxn-2-li-ion-battery-o{stroke:var(--fig-violet);stroke-width:3}
+    .rxn-2-li-ion-battery-li{fill:var(--fig-teal);stroke:var(--fig-panel);stroke-width:1}
+  </style>
+  <defs>
+    <g id="rxn-2-li-ion-battery-cell">
+      <rect x="28" y="84" width="284" height="140" rx="4" style="fill:var(--fig-soft-amber);stroke:var(--fig-line);stroke-width:1.5"/>
+      <rect x="28" y="84" width="9" height="140" style="fill:var(--fig-amber)"/>
+      <rect x="303" y="84" width="9" height="140" style="fill:var(--fig-muted)"/>
+      <rect x="44" y="96" width="92" height="116" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+      <g class="rxn-2-li-ion-battery-g"><line x1="48" y1="108" x2="132" y2="108"/><line x1="48" y1="132" x2="132" y2="132"/><line x1="48" y1="156" x2="132" y2="156"/><line x1="48" y1="180" x2="132" y2="180"/><line x1="48" y1="204" x2="132" y2="204"/></g>
+      <rect x="204" y="96" width="92" height="116" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+      <g class="rxn-2-li-ion-battery-o"><line x1="208" y1="108" x2="292" y2="108"/><line x1="208" y1="132" x2="292" y2="132"/><line x1="208" y1="156" x2="292" y2="156"/><line x1="208" y1="180" x2="292" y2="180"/><line x1="208" y1="204" x2="292" y2="204"/></g>
+      <line x1="170" y1="88" x2="170" y2="220" style="stroke:var(--fig-ink);stroke-width:2;stroke-dasharray:5 4"/>
+      <text x="90" y="244" text-anchor="middle" class="rxn-2-li-ion-battery-k">(−)극 흑연</text>
+      <text x="170" y="244" text-anchor="middle" class="rxn-2-li-ion-battery-s">분리막</text>
+      <text x="250" y="244" text-anchor="middle" class="rxn-2-li-ion-battery-k">(+)극 LiCoO₂</text>
+      <text x="32" y="78" class="rxn-2-li-ion-battery-s">구리박</text>
+      <text x="308" y="78" text-anchor="end" class="rxn-2-li-ion-battery-s">알루미늄박</text>
+    </g>
+  </defs>
+  <!-- 방전 -->
+  <text x="170" y="20" text-anchor="middle" class="rxn-2-li-ion-battery-f">방전 — 전기를 쓸 때</text>
+  <use href="#rxn-2-li-ion-battery-cell"/>
+  <path d="M32 84 V46 H155 M185 46 H308 V84" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <circle cx="170" cy="46" r="14" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <path d="M163 46 l4 -6 l3 12 l3 -12 l4 6" style="fill:none;stroke:var(--fig-amber);stroke-width:1.5"/>
+  <path d="M70 36 H120" style="stroke:var(--fig-amber);stroke-width:2.5"/><path d="M128 36 l-10 -5 v10 z" style="fill:var(--fig-amber)"/>
+  <text x="62" y="40" text-anchor="end" class="rxn-2-li-ion-battery-k" style="fill:var(--fig-amber);font-weight:600">e⁻</text>
+  <!-- 방전: 흑연 쪽 Li 몇 개 남고, (+)극 층 사이에 Li 많이 -->
+  <g class="rxn-2-li-ion-battery-li"><circle cx="70" cy="120" r="5"/><circle cx="110" cy="168" r="5"/>
+    <circle cx="222" cy="120" r="5"/><circle cx="250" cy="120" r="5"/><circle cx="278" cy="144" r="5"/><circle cx="236" cy="168" r="5"/><circle cx="264" cy="192" r="5"/><circle cx="222" cy="192" r="5"/></g>
+  <path d="M138 144 H196" style="stroke:var(--fig-teal);stroke-width:2.5"/><path d="M203 144 l-10 -6 v12 z" style="fill:var(--fig-teal)"/>
+  <rect x="150" y="160" width="40" height="18" rx="4" style="fill:var(--fig-panel)"/>
+  <text x="170" y="174" text-anchor="middle" class="rxn-2-li-ion-battery-k" style="fill:var(--fig-teal);font-weight:600">Li⁺</text>
+  <text x="170" y="276" text-anchor="middle" class="rxn-2-li-ion-battery-k">(−)극: LiC₆ → C₆ + Li⁺ + e⁻ (산화)</text>
+  <text x="170" y="298" text-anchor="middle" class="rxn-2-li-ion-battery-k">(+)극: CoO₂ + Li⁺ + e⁻ → LiCoO₂ (환원)</text>
+  <!-- 충전 -->
+  <g transform="translate(380 0)">
+    <text x="170" y="20" text-anchor="middle" class="rxn-2-li-ion-battery-f">충전 — 외부 전원을 연결할 때</text>
+    <use href="#rxn-2-li-ion-battery-cell"/>
+    <path d="M32 84 V46 H148 M192 46 H308 V84" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+    <rect x="148" y="32" width="44" height="28" rx="4" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+    <text x="156" y="51" text-anchor="middle" class="rxn-2-li-ion-battery-f" style="fill:var(--fig-blue)">−</text>
+    <text x="184" y="51" text-anchor="middle" class="rxn-2-li-ion-battery-f" style="fill:var(--fig-red)">+</text>
+    <path d="M270 36 H220" style="stroke:var(--fig-amber);stroke-width:2.5"/><path d="M212 36 l10 -5 v10 z" style="fill:var(--fig-amber)"/>
+    <text x="278" y="40" class="rxn-2-li-ion-battery-k" style="fill:var(--fig-amber);font-weight:600">e⁻</text>
+    <g class="rxn-2-li-ion-battery-li"><circle cx="62" cy="120" r="5"/><circle cx="90" cy="120" r="5"/><circle cx="118" cy="144" r="5"/><circle cx="76" cy="168" r="5"/><circle cx="104" cy="192" r="5"/><circle cx="62" cy="192" r="5"/>
+      <circle cx="236" cy="120" r="5"/><circle cx="270" cy="168" r="5"/></g>
+    <path d="M202 144 H144" style="stroke:var(--fig-teal);stroke-width:2.5"/><path d="M137 144 l10 -6 v12 z" style="fill:var(--fig-teal)"/>
+    <rect x="150" y="160" width="40" height="18" rx="4" style="fill:var(--fig-panel)"/>
+    <text x="170" y="174" text-anchor="middle" class="rxn-2-li-ion-battery-k" style="fill:var(--fig-teal);font-weight:600">Li⁺</text>
+    <text x="170" y="276" text-anchor="middle" class="rxn-2-li-ion-battery-k">(−)극: C₆ + Li⁺ + e⁻ → LiC₆ (환원)</text>
+    <text x="170" y="298" text-anchor="middle" class="rxn-2-li-ion-battery-k">(+)극: LiCoO₂ → CoO₂ + Li⁺ + e⁻ (산화)</text>
+  </g>
+  <line x1="360" y1="30" x2="360" y2="305" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4"/>
+  <text x="360" y="316" text-anchor="middle" class="rxn-2-li-ion-battery-s" style="font-size:12px">Li⁺는 전해질로, 전자는 도선으로만 이동한다</text>
+</svg>

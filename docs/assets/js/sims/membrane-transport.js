@@ -8,7 +8,7 @@ Sims.register('membrane-transport', {
       { key: 'facil', name: '촉진 확산', mol: '포도당' },
       { key: 'active', name: '능동 수송', mol: 'K⁺' },
     ];
-    var K_S = 1, VF = 6, KF = 2, VA = 4, KA = 1.5, CMAX = 10;
+    var K_S = 1, VF = 12, KF = 2, VA = 4, KA = 1.5, CMAX = 10;
     var st = { mode: 'simple', co: 8, ci: 2, atp: true, parts: [], movers: [], flashes: [], acc: { in: 0, out: 0 } };
     var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.45 : 0.56; }, label: '세포막을 사이에 둔 입자의 이동과 농도 차–이동 속도 그래프' });
     var ctx = cv.ctx;
@@ -55,7 +55,7 @@ Sims.register('membrane-transport', {
     }
     function geom() {
       var r = layout().scene, mid = r.y + r.h * 0.5;
-      return { r: r, top: r.y + 26, mT: mid - 14, mB: mid + 14, bot: r.y + r.h - 6, prot: [0.25, 0.5, 0.75].map(function (f) { return r.x + r.w * f; }) };
+      return { r: r, top: r.y + 26, mT: mid - 14, mB: mid + 14, bot: r.y + r.h - 6, prot: [0.2, 0.42, 0.64].map(function (f) { return r.x + r.w * f; }) };
     }
     function rnd(a, b) { return a + Math.random() * (b - a); }
     function newPart(side, G) {
@@ -169,7 +169,7 @@ Sims.register('membrane-transport', {
       ctx.fillText(info.mol, r.x + r.w - 6, r.y + 16);
     }
     function drawGraph(T, r) {
-      var L = r.x + 46, R = r.x + r.w - 12, Tp = r.y + 30, B = r.y + r.h - 40;
+      var L = r.x + 46, R = r.x + r.w - 12, Tp = r.y + 40, B = r.y + r.h - 40;
       var sx = function (d) { return L + (d + CMAX) / (2 * CMAX) * (R - L); };
       var sy = function (j) { return (Tp + B) / 2 - j / 10 * (B - Tp) / 2; };
       ctx.strokeStyle = T.rule; ctx.lineWidth = 1; ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontMono;
@@ -183,7 +183,7 @@ Sims.register('membrane-transport', {
       ctx.fillText('농도 차 (세포 밖 − 세포 안)', (L + R) / 2, B + 30);
       ctx.textAlign = 'left'; ctx.fillText('이동 속도 (안으로 +)', L, Tp - 14);
       ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody;
-      ctx.fillText('세포 안 농도 ' + st.ci + '으로 두고 밖 농도를 바꿀 때', L, Tp - 1);
+      ctx.fillText('세포 안 농도 ' + st.ci + ' 고정, 밖 농도를 바꿀 때', L, Tp - 1);
       function curve(mode, color, lw, dash) {
         ctx.strokeStyle = color; ctx.lineWidth = lw; ctx.setLineDash(dash || []);
         ctx.beginPath();
@@ -202,13 +202,13 @@ Sims.register('membrane-transport', {
       ctx.beginPath(); ctx.arc(sx(d), sy(J), 6, 0, Math.PI * 2); ctx.fill(); ctx.stroke();
       // 곡선 이름표
       ctx.font = '600 11px ' + T.fontBody; ctx.textAlign = 'right';
-      var lab = [['simple', '단순 확산'], ['facil', '촉진 확산'], ['active', '능동 수송']];
+      var lab = [['simple', '단순 확산'], ['facil', '촉진 확산'], ['active', '능동 수송']].map(function (p) {
+        return { k: p[0], t: p[1], y: sy(flux(p[0], CMAX, st.ci)) - 6 };
+      }).sort(function (a, b) { return a.y - b.y; });
+      for (var n = 1; n < lab.length; n++) if (lab[n].y - lab[n - 1].y < 14) lab[n].y = lab[n - 1].y + 14;
       lab.forEach(function (p) {
-        var co = CMAX, dd = co - st.ci, jj = flux(p[0], co, st.ci);
-        ctx.fillStyle = p[0] === st.mode ? col : T.figMuted;
-        var yy = sy(jj) + (p[0] === 'facil' ? 14 : -6);
-        if (p[0] === 'active') yy = sy(jj) + (jj > flux('facil', co, st.ci) ? -6 : 14);
-        ctx.fillText(p[1], Math.min(sx(dd), R), Math.max(Tp + 10, Math.min(B - 4, yy)));
+        ctx.fillStyle = p.k === st.mode ? col : T.figMuted;
+        ctx.fillText(p.t, Math.min(sx(CMAX - st.ci), R) - 12, Math.max(Tp + 10, Math.min(B - 4, p.y)));
       });
       if (st.mode === 'facil') {
         var plateau = VF * (1 - st.ci / (KF + st.ci));

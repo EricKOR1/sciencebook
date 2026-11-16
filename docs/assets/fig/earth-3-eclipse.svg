@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img" aria-labelledby="t-earth-3-eclipse d-earth-3-eclipse">
+  <title id="t-earth-3-eclipse">그림 지구과학 3-1 일식과 월식 — 본그림자와 반그림자</title>
+  <desc id="d-earth-3-eclipse">일식은 삭일 때 달의 그림자가 지구에 드리워 본그림자 속에서는 개기 일식, 반그림자 속에서는 부분 일식이 보인다. 월식은 망일 때 달이 지구 그림자에 들어가 본그림자 속에서는 개기 월식, 반그림자만 지나면 반영식이 된다.</desc>
+  <style>
+    .earth-3-eclipse-b{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .earth-3-eclipse-t{font-size:14px;fill:var(--fig-ink)}
+    .earth-3-eclipse-s{font-size:13px;fill:var(--fig-muted)}
+    .earth-3-eclipse-pen{fill:var(--fig-muted);fill-opacity:0.28;stroke:none}
+    .earth-3-eclipse-umb{fill:var(--fig-ink);fill-opacity:0.55;stroke:none}
+    .earth-3-eclipse-ray{stroke:var(--fig-amber);stroke-width:1;stroke-dasharray:4 4;fill:none}
+  </style>
+  <defs>
+    <clipPath id="earth-3-eclipse-c1"><rect x="20" y="34" width="680" height="160"/></clipPath>
+    <clipPath id="earth-3-eclipse-c2"><rect x="20" y="246" width="680" height="160"/></clipPath>
+  </defs>
+  <text x="20" y="24" class="earth-3-eclipse-b">(가) 일식 — 태양, 달(삭), 지구 순서로 일직선</text>
+  <g clip-path="url(#earth-3-eclipse-c1)">
+    <circle cx="70" cy="110" r="55" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+    <circle cx="600" cy="110" r="50" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+    <path d="M70 55 L640 164" class="earth-3-eclipse-ray"/><path d="M70 165 L640 56" class="earth-3-eclipse-ray"/>
+    <path d="M432 96 L640 56 L640 164 L432 124 Z" class="earth-3-eclipse-pen"/>
+    <path d="M432 96 L556 110 L432 124 Z" class="earth-3-eclipse-umb"/>
+    <circle cx="432" cy="110" r="14" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  </g>
+  <text x="70" y="114" text-anchor="middle" class="earth-3-eclipse-t">태양</text>
+  <text x="432" y="146" text-anchor="middle" class="earth-3-eclipse-t">달</text>
+  <text x="660" y="190" text-anchor="middle" class="earth-3-eclipse-t">지구</text>
+  <line x1="553" y1="110" x2="500" y2="56" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="496" y="50" text-anchor="end" class="earth-3-eclipse-t">본그림자 → 개기 일식</text>
+  <line x1="562" y1="140" x2="520" y2="176" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="516" y="186" text-anchor="end" class="earth-3-eclipse-s">반그림자 → 부분 일식</text>
+  <text x="250" y="200" text-anchor="middle" class="earth-3-eclipse-s">본그림자가 지표에 닿지 못하면(달이 멀 때) 금환 일식</text>
+
+  <text x="20" y="236" class="earth-3-eclipse-b">(나) 월식 — 태양, 지구, 달(망) 순서로 일직선</text>
+  <g clip-path="url(#earth-3-eclipse-c2)">
+    <circle cx="70" cy="326" r="55" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+    <path d="M330 292 L700 166 L700 486 L330 360 Z" class="earth-3-eclipse-pen"/>
+    <path d="M330 292 L700 322 L700 330 L330 360 Z" class="earth-3-eclipse-umb"/>
+    <circle cx="330" cy="326" r="34" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+    <circle cx="560" cy="326" r="12" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+    <circle cx="640" cy="268" r="12" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.5"/>
+  </g>
+  <text x="70" y="330" text-anchor="middle" class="earth-3-eclipse-t">태양</text>
+  <text x="330" y="380" text-anchor="middle" class="earth-3-eclipse-t">지구</text>
+  <text x="560" y="358" text-anchor="middle" class="earth-3-eclipse-t">달</text>
+  <text x="560" y="420" text-anchor="middle" class="earth-3-eclipse-t">본그림자 속 → 개기 월식(붉은 구릿빛)</text>
+  <line x1="560" y1="404" x2="560" y2="374" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="626" y="266" text-anchor="end" class="earth-3-eclipse-s">반그림자만 → 반영식</text>
+  <text x="250" y="420" text-anchor="middle" class="earth-3-eclipse-s">모식도(크기·거리는 실제와 다름)</text>
+</svg>

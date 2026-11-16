@@ -7,7 +7,7 @@ Sims.register('chemiosmosis', {
     var E0 = 1, KS = 1.5, GTH = 0.15, KU = 8, LEAK = 0.05;
     var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.25 : 0.58; }, label: '막에 박힌 전자 전달계와 ATP 합성 효소, H⁺의 이동' });
     var ctx = cv.ctx;
-    var rE = api.readout('전자 전달(O₂ 소비)');
+    var rE = api.readout('전자 전달 속도');
     var rG = api.readout('H⁺ 농도 차');
     var rA = api.readout('ATP 합성');
     var rH = api.readout('상태');
@@ -22,7 +22,7 @@ Sims.register('chemiosmosis', {
       return api.button(c[1], function () { st.cond = c[0]; cb.forEach(function (b, j) { b.setAttribute('aria-pressed', j === i ? 'true' : 'false'); }); if (api.reduced) settle(); update(); }, { toggle: true, pressed: i === 0, parent: g2 });
     });
     function relabel() { cb[1].textContent = st.org === 'mito' ? '산소 없음' : '빛 끄기'; rE.set('–'); }
-    function relabelReadout() {}
+    var REF = { e: 0.51, s: 0.51, G: 0.49 };
 
     function rates(G) {
       var e = st.cond === 'noE' ? 0 : E0 * Math.max(0, 1 - G);
@@ -87,7 +87,7 @@ Sims.register('chemiosmosis', {
       // 전자 경로
       var path = [];
       var y0 = G.mB + 22, yE = (G.mT + G.mB) / 2;
-      path.push([G.p[0] - 50, y0]);
+      path.push([Math.max(8, G.p[0] - 50), y0]);
       for (var k = 0; k < 3; k++) path.push([G.p[k], yE]);
       path.push([G.p[2] + 40, y0 + 6]);
       ctx.strokeStyle = T.figAmber; ctx.lineWidth = 2; ctx.setLineDash([5, 4]);
@@ -114,12 +114,12 @@ Sims.register('chemiosmosis', {
       ctx.font = '600 11px ' + T.fontBody; ctx.textAlign = 'center';
       ctx.fillStyle = T.figInk;
       if (mito) {
-        ctx.fillText('NADH → NAD⁺', G.p[0] - 34, y0 + 18);
+        ctx.fillText('NADH → NAD⁺', Math.max(40, G.p[0] - 34), y0 + 18);
         ctx.fillStyle = st.cond === 'noE' ? T.figRed : T.figInk;
-        ctx.fillText(st.cond === 'noE' ? 'O₂ 없음 ✕' : 'O₂ + H⁺ → H₂O', G.p[2] + 40, y0 + 24);
+        ctx.fillText(st.cond === 'noE' ? 'O₂ 없음 ✕' : 'O₂ + H⁺ → H₂O', G.narrow ? G.p[2] : G.p[2] + 40, G.narrow ? y0 + 40 : y0 + 24);
       } else {
-        ctx.fillText('H₂O → O₂ + H⁺', G.p[0], G.mT - 84 < 50 ? G.mT - 84 : G.mT - 84);
-        ctx.fillText('NADP⁺ → NADPH', G.p[2] + 40, y0 + 24);
+        ctx.fillText('H₂O → O₂ + H⁺', Math.max(44, G.p[0]), G.mT - 84);
+        ctx.fillText('NADP⁺ → NADPH', G.narrow ? G.p[2] : G.p[2] + 40, G.narrow ? y0 + 40 : y0 + 24);
       }
       // ATP 합성 효소
       var sx = G.p[3];
@@ -138,7 +138,7 @@ Sims.register('chemiosmosis', {
       // 짝풀림 물질
       if (st.cond === 'unc') {
         ctx.fillStyle = T.figRed; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'center';
-        ctx.fillText('짝풀림 물질: H⁺이 막을 그냥 통과 → 열', w * 0.45, G.mB + 16);
+        ctx.fillText('짝풀림 물질: H⁺이 막을 그냥 통과 → 열', w * 0.42, G.mB + (G.narrow ? 92 : 62));
       }
       // 이동 중인 H⁺
       ctx.font = '700 12px ' + T.fontBody; ctx.textAlign = 'center';
@@ -172,8 +172,7 @@ Sims.register('chemiosmosis', {
     var lastTxt = '';
     function update(fromLoop) {
       var mito = st.org === 'mito';
-      var ref = rates(0.49);
-      var eTxt = pct(st.e, 0.51) + '%', aTxt = st.s < 0.02 ? '멈춤' : pct(st.s, 0.51) + '%';
+      var eTxt = pct(st.e, REF.e) + '%', aTxt = st.s < 0.02 ? '멈춤' : pct(st.s, REF.s) + '%';
       var lbl = mito ? 'O₂ 소비' : 'O₂ 발생·NADPH 생성';
       var msg = {
         normal: '정상: 전자 전달과 ATP 합성이 함께 일어난다',
@@ -185,13 +184,13 @@ Sims.register('chemiosmosis', {
       if (fromLoop && txt === lastTxt) return;
       lastTxt = txt;
       rE.set(lbl + ' ' + eTxt);
-      rG.set(Math.round(st.G * 100) + ' (정상 49)');
+      rG.set(Math.round(st.G * 100) + ' (정상 ' + Math.round(REF.G * 100) + ')');
       rA.set(aTxt);
       rH.set(msg);
       if (!fromLoop) draw();
     }
     api.onResize(draw);
-    relabel(); settle(); update();
+    relabel(); settle(); REF = { e: st.e, s: st.s, G: st.G }; update();
     if (api.reduced) {
       loop.pause();
       // 움직임 줄이기: 각 조건의 최종 상태를 바로 그린다

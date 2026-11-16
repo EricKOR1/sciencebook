@@ -179,8 +179,6 @@ Sims.register('pv-diagram', {
       ctx.beginPath();
       for (var i = 0; i <= 60; i++) { var V = 8e-3 + i / 60 * 46e-3, P = P0 * V0 / V; if (P > PMAX) continue; var sx = X(V), sy = Y(P); if (i === 0 || P0 * V0 / (8e-3 + (i - 1) / 60 * 46e-3) > PMAX) ctx.moveTo(sx, sy); else ctx.lineTo(sx, sy); }
       ctx.stroke(); ctx.setLineDash([]);
-      ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
-      ctx.fillText('점선: ' + Math.round(T0) + ' K 등온선', X(10.5e-3) + 6, Y(P0 * V0 / 10.5e-3));
       // 이전 경로
       state.ghosts.forEach(function (gh) {
         if (gh.kind === state.kind && gh.v === state.vEnd && gh.p === state.pEnd && state.prog >= 1) return;
@@ -214,6 +212,8 @@ Sims.register('pv-diagram', {
         ctx.fillStyle = T.figMuted; ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'left';
         ctx.fillText('부피 변화 없음 → 넓이 0, W = 0', X(V0) + 8, B - 10);
       }
+      ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right';
+      ctx.fillText('점선: ' + Math.round(T0) + ' K 등온선', Rr, Y(P0 * V0 / 54e-3) + 16);
       // 제1법칙 식
       var y1 = B + (narrow ? 48 : 50);
       ctx.textAlign = 'center'; ctx.font = '600 13px ' + T.fontBody; ctx.fillStyle = T.figInk;

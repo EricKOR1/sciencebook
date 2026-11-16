@@ -35,7 +35,7 @@ Sims.register('solar-system-orbits', {
     function period() { return Math.pow(st.a, 1.5); }
 
     var S = api.scene3d({
-      yaw: 0.35, pitch: 0.62, dist: 10, scale: 0.17, label: '태양 둘레의 타원 궤도와 같은 시간 동안 쓸고 지나간 넓이',
+      yaw: 0.35, pitch: 0.62, dist: 10, scale: 0.155, label: '태양 둘레의 타원 궤도와 같은 시간 동안 쓸고 지나간 넓이',
       aspect: function (w) { return w < 560 ? 0.95 : 0.62; },
       draw: function (g, T) {
         var s = scale(), e = st.e, a = st.a;

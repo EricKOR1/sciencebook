@@ -48,10 +48,11 @@ Sims.register('quantum-tunnel', {
     function draw() {
       var T = api.tokens(), w = cv.w, h = cv.h, s = solve();
       ctx.clearRect(0, 0, w, h);
-      var top = { y: 22, h: h * 0.56 }, bot = { y: h * 0.64, h: h * 0.33 };
+      var top = { y: 22, h: h * 0.62 }, bot = { y: h * 0.74, h: h * 0.24 };
       var X = function (x) { return 14 + (x - XL) / (XR - XL) * (w - 28); };
       // ── 위: 퍼텐셜 장벽과 확률 파동
-      var base = top.y + top.h * 0.62, eu = top.h * 0.17;              // 1 eV 당 픽셀
+      var base = top.y + top.h - 30, eu = top.h * 0.36 / 3.4, waveH = top.h * 0.5;
+      ctx.globalAlpha = 0.35; ctx.fillStyle = T.figSoftAmber; ctx.fillRect(X(0), top.y, X(st.a) - X(0), waveH); ctx.globalAlpha = 1;              // 1 eV 당 픽셀
       var vTop = base - Math.min(st.V, 3.4) * eu;
       ctx.fillStyle = T.figSoftAmber; ctx.fillRect(X(0), vTop, X(st.a) - X(0), base - vTop);
       ctx.strokeStyle = T.figAmber; ctx.lineWidth = 2; ctx.strokeRect(X(0), vTop, X(st.a) - X(0), base - vTop);
@@ -60,12 +61,13 @@ Sims.register('quantum-tunnel', {
       ctx.setLineDash([5, 4]); ctx.strokeStyle = T.figMuted; ctx.beginPath(); ctx.moveTo(X(XL), yE); ctx.lineTo(X(XR), yE); ctx.stroke(); ctx.setLineDash([]);
       ctx.font = '11px ' + T.fontBody; ctx.fillStyle = T.figMuted; ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
       ctx.fillText('전자의 에너지 1 eV', X(XL), yE - 4);
+      ctx.textAlign = 'right'; ctx.fillText('에너지 장벽', X(XR), base - 4); ctx.textAlign = 'left';
       ctx.fillStyle = T.figAmber; ctx.textAlign = 'center';
       ctx.fillText('장벽 ' + st.V.toFixed(1) + ' eV', (X(0) + X(st.a)) / 2, vTop - 5);
       // 오른쪽 확대 배율
       var tAmp = Math.sqrt(s.T), mag = 1;
       if (tAmp < 0.15) { mag = Math.pow(10, Math.ceil(Math.log10(0.25 / tAmp))); }
-      var ph = st.t * 2.4, A = top.h * 0.2, mid = top.y + top.h * 0.3;
+      var ph = st.t * 2.4, A = waveH / 2.3, mid = top.y + waveH / 2;
       // 파동: |ψ| 포락선(옅게)과 실수부(진하게)
       var N = Math.round(w * 1.2);
       ['env', 're'].forEach(function (kind) {
@@ -84,10 +86,10 @@ Sims.register('quantum-tunnel', {
       ctx.fillStyle = T.figInk; ctx.textAlign = 'left'; ctx.font = '600 12px ' + T.fontBody;
       ctx.fillText('전자의 확률 파동', X(XL), top.y - 6);
       ctx.font = '11px ' + T.fontBody; ctx.fillStyle = T.figMuted;
-      ctx.fillText('들어오는 파동 + 반사파', X(XL), mid + A * 0.75 + 12);
+      ctx.fillText('들어오는 파동 + 반사파', X(XL), top.y + waveH + 12);
       ctx.textAlign = 'right';
-      ctx.fillText(mag > 1 ? '투과파 (×' + mag.toLocaleString('ko-KR') + ' 확대)' : '투과파', X(XR), mid + A * 0.75 + 12);
-      if (mag > 1) { ctx.setLineDash([2, 3]); ctx.strokeStyle = T.figLine; ctx.beginPath(); ctx.moveTo(X(st.a) + 4, top.y); ctx.lineTo(X(st.a) + 4, base); ctx.stroke(); ctx.setLineDash([]); }
+      ctx.fillText(mag > 1 ? '투과파 (×' + mag.toLocaleString('ko-KR') + ' 확대)' : '투과파', X(XR), top.y + waveH + 12);
+      if (mag > 1) { ctx.setLineDash([2, 3]); ctx.strokeStyle = T.figLine; ctx.beginPath(); ctx.moveTo(X(st.a) + 4, top.y); ctx.lineTo(X(st.a) + 4, top.y + waveH); ctx.stroke(); ctx.setLineDash([]); }
       // 거리 눈금
       ctx.textAlign = 'center'; ctx.fillStyle = T.figMuted;
       ctx.beginPath(); ctx.strokeStyle = T.figInk; ctx.lineWidth = 1.5; ctx.moveTo(X(XR - 1.0), base + 14); ctx.lineTo(X(XR), base + 14); ctx.stroke();

@@ -22,7 +22,7 @@
     .gp-wall{fill:var(--fig-paper);stroke:var(--fig-ink);stroke-width:2}
     .gp-tag{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2}
   </style>
-  <text x="170" y="34" text-anchor="middle" class="gp-h">밀폐된 그릇 속 기체</text>
+  <text x="120" y="34" text-anchor="middle" class="gp-h">밀폐된 그릇 속 기체</text>
   <rect x="40" y="50" width="260" height="220" rx="10" class="gp-box"/>
   <circle cx="80" cy="90" r="9" class="gp-g"/>
   <line x1="89.4" y1="95.7" x2="104.9" y2="104.9" style="stroke-width:1.6;stroke-linecap:round" class="gp-ink"/><path d="M110.9 108.5 L103.2 107.6 L106.5 102.2 Z" class="gp-inkh"/>
@@ -44,11 +44,11 @@
   <line x1="119.2" y1="157.8" x2="101.6" y2="154.3" style="stroke-width:1.6;stroke-linecap:round" class="gp-ink"/><path d="M94.7 152.9 L102.2 151.2 L100.9 157.4 Z" class="gp-inkh"/>
   <circle cx="250" cy="150" r="9" class="gp-g"/>
   <line x1="260.9" y1="151.1" x2="278.9" y2="152.9" style="stroke-width:1.6;stroke-linecap:round" class="gp-ink"/><path d="M285.8 153.6 L278.5 156.0 L279.2 149.8 Z" class="gp-inkh"/>
-  <line x1="170.0" y1="46.0" x2="170.0" y2="35.0" style="stroke-width:3;stroke-linecap:round" class="gp-blue"/><path d="M170.0 24.0 L174.9 35.0 L165.1 35.0 Z" class="gp-blueh"/>
-  <line x1="170.0" y1="274.0" x2="170.0" y2="287.0" style="stroke-width:3;stroke-linecap:round" class="gp-blue"/><path d="M170.0 298.0 L165.1 287.0 L174.9 287.0 Z" class="gp-blueh"/>
+  <line x1="250.0" y1="46.0" x2="250.0" y2="35.0" style="stroke-width:3;stroke-linecap:round" class="gp-blue"/><path d="M250.0 24.0 L254.9 35.0 L245.1 35.0 Z" class="gp-blueh"/>
+  <line x1="250.0" y1="274.0" x2="250.0" y2="287.0" style="stroke-width:3;stroke-linecap:round" class="gp-blue"/><path d="M250.0 298.0 L245.1 287.0 L254.9 287.0 Z" class="gp-blueh"/>
   <line x1="36.0" y1="160.0" x2="23.0" y2="160.0" style="stroke-width:3;stroke-linecap:round" class="gp-blue"/><path d="M12.0 160.0 L23.0 155.1 L23.0 164.9 Z" class="gp-blueh"/>
   <line x1="304.0" y1="160.0" x2="317.0" y2="160.0" style="stroke-width:3;stroke-linecap:round" class="gp-blue"/><path d="M328.0 160.0 L317.0 164.9 L317.0 155.1 Z" class="gp-blueh"/>
-  <text x="170" y="320" text-anchor="middle" class="gp-bb">기체의 압력은 모든 방향으로 작용한다</text>
+  <text x="40" y="320" class="gp-bb">기체의 압력은 모든 방향으로 작용한다</text>
   <rect x="250" y="110" width="50" height="60" class="gp-zoom"/>
   <line x1="300" y1="110" x2="400" y2="60" class="gp-zoom"/><line x1="300" y1="170" x2="400" y2="250" class="gp-zoom"/>
   <text x="520" y="34" text-anchor="middle" class="gp-h">벽 가까이 확대</text>

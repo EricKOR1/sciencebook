@@ -23,7 +23,7 @@ Sims.register('cloud-formation', {
       return { T: T2, q: sat(T2), rh: 1, cloud: true };
     }
 
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.45 : 0.58; }, label: '올라가는 공기 덩어리와 구름, 포화 수증기량 곡선' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.55 : 0.58; }, label: '올라가는 공기 덩어리와 구름, 포화 수증기량 곡선' });
     var ctx = cv.ctx;
     var rTd = api.readout('이슬점');
     var rRh = api.readout('지표 상대습도');
@@ -55,7 +55,7 @@ Sims.register('cloud-formation', {
     function update() {
       var M = model(); M.T0 = st.T0;
       var P = parcel(M, st.p);
-      rTd.set(M.Td.toFixed(1) + ' °C');
+      rTd.set('약 ' + M.Td.toFixed(0) + ' °C');
       rRh.set(Math.round(M.q / M.ws0 * 100) + ' %');
       rT.set(P.T.toFixed(1) + ' °C');
       rS.set(M.fog ? '지표에서 이미 포화 → 안개' : P.cloud ? '이슬점 도달 → 응결, 구름' : '상대습도 ' + Math.round(P.rh * 100) + ' % (아직 구름 없음)');
@@ -87,7 +87,7 @@ Sims.register('cloud-formation', {
       ctx.fillStyle = grd; ctx.fillRect(ax - 5, ty + 8, 10, gy - ty - 8);
       ctx.fillStyle = T.figInk; ctx.beginPath(); ctx.moveTo(ax, ty - 4); ctx.lineTo(ax - 8, ty + 10); ctx.lineTo(ax + 8, ty + 10); ctx.closePath(); ctx.fill();
       ctx.save(); ctx.translate(ax - 16, (ty + gy) / 2); ctx.rotate(-Math.PI / 2); ctx.textAlign = 'center';
-      ctx.font = '12px ' + T.fontBody; ctx.fillStyle = T.figInk; ctx.fillText('높이 ↑  올라갈수록 기압·기온이 낮아진다', 0, 0); ctx.restore();
+      ctx.font = '12px ' + T.fontBody; ctx.fillStyle = T.figInk; ctx.fillText((r.h < 300 ? '높이 ↑ (올라갈수록 기온 ↓)' : '높이 ↑  올라갈수록 기압·기온이 낮아진다'), 0, 0); ctx.restore();
       var cx = r.x + r.w * 0.58;
       // 이전 구름 밑면
       if (lastBase != null && Math.abs(lastBase - M.pb) > 0.01 && lastBase < 1) {

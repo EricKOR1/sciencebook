@@ -126,8 +126,8 @@ Sims.register('projectile-angle', {
         ctx.fillText('H = ' + I.H.toFixed(1) + ' m', hx, hy);
       }
       if (state.phase !== 'fly') {
-        ctx.fillStyle = T.figAccent; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = X(I.R) > R - 60 ? 'right' : 'center';
-        ctx.fillText('R = ' + I.R.toFixed(1) + ' m', Math.min(X(I.R), R), B - 8);
+        ctx.fillStyle = T.figAccent; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'right';
+        ctx.fillText('R = ' + I.R.toFixed(1) + ' m', X(I.R) - 14, state.phase === 'done' ? B - 34 : B - 8);
       }
 
       // 공과 속도 성분 화살표
@@ -142,16 +142,14 @@ Sims.register('projectile-angle', {
       ctx.fillStyle = T.figAmber; ctx.fill(); ctx.strokeStyle = T.figInk; ctx.lineWidth = 1.5; ctx.stroke();
       // 화살표 이름
       ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'left';
-      ctx.fillStyle = T.figBlue; ctx.fillText('수평 ' + I.vx.toFixed(1), Math.min(px + I.vx * k + 5, R - 70), py + (vy >= 0 ? 15 : -8));
+      ctx.fillStyle = T.figBlue; ctx.fillText('수평 ' + I.vx.toFixed(1), Math.min(px + I.vx * k + 5, R - 70), py - 10);
       ctx.fillStyle = T.figRed;
-      var vyLabelY = py - vy * k + (vy >= 0 ? -6 : 14);
-      ctx.fillText('연직 ' + vy.toFixed(1), px + 6, Math.max(Tp + 10, Math.min(B - 4, vyLabelY)));
+      if (vy >= 0) ctx.fillText('연직 ' + vy.toFixed(1), px + 9, Math.max(Tp + 10, py - vy * k - 6));
+      else { ctx.textAlign = 'right'; ctx.fillText('연직 ' + vy.toFixed(1), px - 12, py - 10); ctx.textAlign = 'left'; }
       // 각도 표시(처음 상태)
       if (state.phase === 'rest') {
         ctx.strokeStyle = T.figInk; ctx.lineWidth = 1.2;
         ctx.beginPath(); ctx.arc(px, py, 26, -rad(state.th), 0); ctx.stroke();
-        ctx.fillStyle = T.figInk; ctx.font = '12px ' + T.fontBody;
-        ctx.fillText(state.th + '°', px + 30, py - 6);
       }
       // 범례
       ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right'; ctx.fillStyle = T.figMuted;

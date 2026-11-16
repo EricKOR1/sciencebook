@@ -4,7 +4,7 @@ Sims.register('charge-in-field', {
   caption: '속력, 자기장 세기, 입사 각도, 전하의 부호를 바꾸며 궤도를 돌려 보자. 자기장에 수직으로 들어오면 원운동, 비스듬히 들어오면 자기장 방향으로 나아가며 감기는 나선 운동을 한다. 로런츠 힘(주황)은 늘 속도(초록)와 자기장(파랑)에 수직이어서 속력은 그대로이고 방향만 바뀌며, 반지름은 r = mv/qB(비스듬히 들어오면 자기장에 수직인 속도 성분으로 계산)로 속력이 클수록·자기장이 약할수록 커진다. 입자는 양성자(질량 1.67×10⁻²⁷ kg)로 보고, (−)전하는 같은 질량의 입자(반양성자)로 가정했다. 화면의 시간은 실제보다 약 5천만 배 느리게 늘였다.',
   init: function (api) {
     var M = 1.67e-27, Q = 1.6e-19;
-    var st = { v: 1.0, B: 0.5, deg: 90, sign: 1, t: 0, t0: 0, playing: !api.reduced };
+    var st = { v: 1.5, B: 0.5, deg: 90, sign: 1, t: 0, t0: 0, playing: !api.reduced };
     var YMIN = -3, YMAX = 3, TS = 3;                // 화면 높이 6 cm, 자기장 1 T일 때 한 바퀴 3초
 
     var rR = api.readout('궤도 반지름 r');
@@ -25,7 +25,7 @@ Sims.register('charge-in-field', {
     }
 
     var S = api.scene3d({
-      yaw: 0.55, pitch: 0.32, dist: 22, scale: 0.075, label: '균일한 자기장 속 하전 입자의 궤도',
+      yaw: 0.55, pitch: 0.32, dist: 22, scale: 0.095, label: '균일한 자기장 속 하전 입자의 궤도',
       aspect: function (w) { return w < 560 ? 1.05 : 0.62; },
       draw: function (g, T) {
         var d = derived();
@@ -42,7 +42,13 @@ Sims.register('charge-in-field', {
         var from = Math.max(st.t0, st.t - span), pts = [], n = 90;
         for (var j = 0; j <= n; j++) pts.push(pos(from + (st.t - from) * j / n, d));
         var col = st.sign > 0 ? T.figRed : T.figViolet;
-        g.path(pts, col, { width: 2.4 });
+        g.path(pts, col, { width: 2.6 });
+        // 앞으로 갈 길(한 바퀴, 옅은 점선)
+        if (d.vp > 1e-6) {
+          var fut = [], tEnd = st.t + d.Tsc;
+          for (var m = 0; m <= 90; m++) { var tp = st.t + (tEnd - st.t) * m / 90, pp = pos(tp, d); if (pp[1] > YMAX + 0.5) break; fut.push(pp); }
+          if (fut.length > 1) g.path(fut, col, { width: 1.2, dash: [4, 4], alpha: 0.6 });
+        }
         // 입자, 속도, 힘
         var p = pos(st.t, d), a = d.om * st.t;
         var vx = d.vp * Math.cos(a), vz = d.vp * Math.sin(a), vy = d.vl;

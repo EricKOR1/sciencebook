@@ -430,3 +430,4 @@ figcaption b { color: var(--ink); font-weight: 600; margin-right: 0.25rem; }
 .progress-admin p { margin: 0 0 0.7rem; line-height: 1.6; }
 .progress-admin .pa-btns { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
 @media print { .read-bar, .resume-toast, .done-box, .resume-panel, .progress-admin { display: none !important; } }
+.sim-glabel { align-self: center; font: 600 0.8rem/1.2 var(--font-body); color: var(--muted); margin-right: 0.15rem; }

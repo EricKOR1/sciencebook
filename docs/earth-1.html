@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="assets/katex/katex.min.css">
 <link rel="stylesheet" href="assets/book.css">
 <script src="assets/js/book.js" defer></script>
-
+<script src="assets/js/sims/cyclone-fronts.js" defer></script>
 </head>
 <body class="" data-lesson="earth-1" data-title="대기와 해양의 상호작용" data-where="지구과학">
 <header class="topbar">
@@ -467,6 +467,53 @@
 <li>밀도는 <strong>남극 저층수 &gt; 북대서양 심층수 &gt; 남극 중층수</strong> 순이다. 그래서 남극 저층수가 가장 아래에 깔린다.</li>
 <li>심층 해수는 매우 느리게 움직여(대개 하루에 수 km 이하), 한 바퀴 도는 데 <strong>수백 년에서 1000년 이상</strong>이 걸린다고 추정된다.</li>
 </ul>
+<figure class="fig" id="fig-earth-1-atlantic-section"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t-earth-1-atlantic-section d-earth-1-atlantic-section">
+  <title id="t-earth-1-atlantic-section">그림 지구과학 1-1 대서양 남북 단면으로 본 심층 순환</title>
+  <desc id="d-earth-1-atlantic-section">남극 주변에서 가라앉은 남극 중층수는 약 1000 m 깊이에서, 남극 저층수는 해저 바닥을 따라 북쪽으로 흐르고, 그린란드 남쪽에서 가라앉은 북대서양 심층수는 그 사이 깊이에서 남쪽으로 흐른다.</desc>
+  <style>
+    .earth-1-atlantic-section-t{font-size:14px;fill:var(--fig-ink)}
+    .earth-1-atlantic-section-b{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .earth-1-atlantic-section-s{font-size:13px;fill:var(--fig-muted)}
+  </style>
+  <!-- 바다 -->
+  <rect x="90" y="60" width="570" height="270" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.5"/>
+  <!-- 육지 벽 -->
+  <rect x="62" y="44" width="28" height="286" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <rect x="660" y="44" width="28" height="286" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <text x="76" y="36" text-anchor="middle" class="earth-1-atlantic-section-s">남극 대륙</text>
+  <text x="664" y="36" text-anchor="middle" class="earth-1-atlantic-section-s">그린란드 부근</text>
+  <!-- 남극 중층수 -->
+  <path d="M128 60 L176 60 C200 80 240 94 300 98 L430 104 L452 112 L430 120 L300 126 C220 126 160 110 128 60 Z" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <text x="330" y="117" text-anchor="middle" class="earth-1-atlantic-section-b">남극 중층수 →</text>
+  <!-- 북대서양 심층수 -->
+  <path d="M612 60 L656 60 L656 268 L560 266 L300 262 L176 250 L160 214 L176 178 L300 150 L560 148 L606 140 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="380" y="212" text-anchor="middle" class="earth-1-atlantic-section-b">← 북대서양 심층수</text>
+  <!-- 남극 저층수 -->
+  <path d="M90 60 L118 60 L126 120 L150 270 L300 280 L500 300 L548 316 L500 329 L91 329 L91 60 Z" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <text x="330" y="314" text-anchor="middle" class="earth-1-atlantic-section-b">남극 저층수 →</text>
+  <!-- 침강 화살표 -->
+  <line x1="634" y1="72" x2="634" y2="122" style="stroke:var(--fig-blue);stroke-width:3"/>
+  <path d="M634 132 l-7 -12 l14 0 z" style="fill:var(--fig-blue)"/>
+  <line x1="104" y1="72" x2="104" y2="250" style="stroke:var(--fig-violet);stroke-width:3"/>
+  <path d="M104 260 l-7 -12 l14 0 z" style="fill:var(--fig-violet)"/>
+  <line x1="152" y1="66" x2="168" y2="88" style="stroke:var(--fig-teal);stroke-width:3"/>
+  <path d="M174 96 l-12 -5 l9 -9 z" style="fill:var(--fig-teal)"/>
+  <!-- 깊이 눈금 -->
+  <g class="earth-1-atlantic-section-s" text-anchor="end">
+    <text x="56" y="64">0 m</text><text x="56" y="118">1000</text><text x="56" y="172">2000</text>
+    <text x="56" y="226">3000</text><text x="56" y="280">4000</text><text x="56" y="334">5000</text>
+  </g>
+  <!-- 위도 눈금 -->
+  <g class="earth-1-atlantic-section-s" text-anchor="middle">
+    <text x="131" y="350">60°S</text><text x="253" y="350">30°S</text><text x="375" y="350">적도</text>
+    <text x="497" y="350">30°N</text><text x="619" y="350">60°N</text>
+  </g>
+  <text x="420" y="54" text-anchor="middle" class="earth-1-atlantic-section-s">표층: 바람이 일으키는 표층 순환</text>
+  <text x="360" y="378" text-anchor="middle" class="earth-1-atlantic-section-t">밀도: 남극 저층수 &gt; 북대서양 심층수 &gt; 남극 중층수 — 무거운 물일수록 아래에 깔린다</text>
+  <text x="360" y="402" text-anchor="middle" class="earth-1-atlantic-section-s">모식도(해저 지형 생략, 깊이를 크게 과장). 화살표: 냉각·결빙으로 무거워진 물의 침강</text>
+</svg>
+</div><figcaption><b>그림 지구과학 1-1 대서양 남북 단면으로 본 심층 순환</b> 남극 주변에서 가라앉은 남극 중층수는 약 1000 m 깊이에서, 남극 저층수는 해저 바닥을 따라 북쪽으로 흐르고, 그린란드 남쪽에서 가라앉은 북대서양 심층수는 그 사이 깊이에서 남쪽으로 흐른다.</figcaption></figure>
+
 <h4 id="4-표층-순환과-심층-순환은-하나로-이어져-있다">(4) 표층 순환과 심층 순환은 하나로 이어져 있다</h4>
 <p>북대서양에서 가라앉은 물은 대서양을 남하해 남극 주변을 돌고 인도양과 태평양으로 퍼진 뒤 서서히 떠오른다. 떠오른 물은 표층 해류를 타고 다시 대서양 북쪽으로 돌아온다. 이 전체 흐름을 <strong>해양 컨베이어 벨트</strong>라고 부른다.</p>
 <figure class="diagram" role="img"><div class="diagram-scroll"><svg style="width:295px" id="mm-earth-1-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 294.55859375 561" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-earth-1-1{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-earth-1-1 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-earth-1-1 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-earth-1-1 .error-icon{fill:var(--mm-group);}#mm-earth-1-1 .error-text{fill:#595959;stroke:#595959;}#mm-earth-1-1 .edge-thickness-normal{stroke-width:1px;}#mm-earth-1-1 .edge-thickness-thick{stroke-width:3.5px;}#mm-earth-1-1 .edge-pattern-solid{stroke-dasharray:0;}#mm-earth-1-1 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-earth-1-1 .edge-pattern-dashed{stroke-dasharray:3;}#mm-earth-1-1 .edge-pattern-dotted{stroke-dasharray:2;}#mm-earth-1-1 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-earth-1-1 .marker.cross{stroke:var(--mm-line);}#mm-earth-1-1 svg{font-family:inherit;font-size:15px;}#mm-earth-1-1 p{margin:0;}#mm-earth-1-1 .label{font-family:inherit;color:var(--mm-text);}#mm-earth-1-1 .cluster-label text{fill:#595959;}#mm-earth-1-1 .cluster-label span{color:#595959;}#mm-earth-1-1 .cluster-label span p{background-color:transparent;}#mm-earth-1-1 .label text,#mm-earth-1-1 span{fill:var(--mm-text);color:var(--mm-text);}#mm-earth-1-1 .node rect,#mm-earth-1-1 .node circle,#mm-earth-1-1 .node ellipse,#mm-earth-1-1 .node polygon,#mm-earth-1-1 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-earth-1-1 .rough-node .label text,#mm-earth-1-1 .node .label text,#mm-earth-1-1 .image-shape .label,#mm-earth-1-1 .icon-shape .label{text-anchor:middle;}#mm-earth-1-1 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-earth-1-1 .rough-node .label,#mm-earth-1-1 .node .label,#mm-earth-1-1 .image-shape .label,#mm-earth-1-1 .icon-shape .label{text-align:center;}#mm-earth-1-1 .node.clickable{cursor:pointer;}#mm-earth-1-1 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-earth-1-1 .arrowheadPath{fill:#0b0b0b;}#mm-earth-1-1 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-earth-1-1 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-earth-1-1 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-earth-1-1 .edgeLabel p{background-color:var(--mm-label);}#mm-earth-1-1 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-earth-1-1 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-earth-1-1 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-earth-1-1 .cluster text{fill:#595959;}#mm-earth-1-1 .cluster span{color:#595959;}#mm-earth-1-1 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-earth-1-1 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-earth-1-1 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-earth-1-1 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-earth-1-1 rect.text{fill:none;stroke-width:0;}#mm-earth-1-1 .icon-shape,#mm-earth-1-1 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-earth-1-1 .icon-shape p,#mm-earth-1-1 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-earth-1-1 .icon-shape .label rect,#mm-earth-1-1 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-earth-1-1 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-earth-1-1 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-earth-1-1 .node .neo-node{stroke:var(--mm-border);}#mm-earth-1-1 [data-look="neo"].node rect,#mm-earth-1-1 [data-look="neo"].cluster rect,#mm-earth-1-1 [data-look="neo"].node polygon{stroke:url(#mm-earth-1-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-earth-1-1 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-earth-1-1 [data-look="neo"].node path{stroke:url(#mm-earth-1-1-gradient);stroke-width:1px;}#mm-earth-1-1 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-earth-1-1 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-earth-1-1 [data-look="neo"].node circle{stroke:url(#mm-earth-1-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-earth-1-1 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-earth-1-1 [data-look="neo"].icon-shape .icon{fill:url(#mm-earth-1-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-earth-1-1 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-earth-1-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-earth-1-1 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-earth-1-1_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-earth-1-1_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-earth-1-1_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-earth-1-1_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-earth-1-1_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-earth-1-1_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-earth-1-1_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-earth-1-1_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-earth-1-1_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-earth-1-1_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-earth-1-1_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-earth-1-1_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M142.724,77L137.813,81.167C132.902,85.333,123.08,93.667,118.169,101.333C113.258,109,113.258,116,113.258,119.5L113.258,123" id="mm-earth-1-1-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTQyLjcyMzczOTQ5NTc5ODMzLCJ5Ijo3N30seyJ4IjoxMTMuMjU3ODEyNSwieSI6MTAyfSx7IngiOjExMy4yNTc4MTI1LCJ5IjoxMjd9XQ==" data-look="classic" marker-end="url(#mm-earth-1-1_flowchart-v2-pointEnd)"/><path d="M113.258,196L113.258,200.167C113.258,204.333,113.258,212.667,113.258,220.333C113.258,228,113.258,235,113.258,238.5L113.258,242" id="mm-earth-1-1-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6MTEzLjI1NzgxMjUsInkiOjE5Nn0seyJ4IjoxMTMuMjU3ODEyNSwieSI6MjIxfSx7IngiOjExMy4yNTc4MTI1LCJ5IjoyNDZ9XQ==" data-look="classic" marker-end="url(#mm-earth-1-1_flowchart-v2-pointEnd)"/><path d="M113.258,315L113.258,319.167C113.258,323.333,113.258,331.667,113.258,339.333C113.258,347,113.258,354,113.258,357.5L113.258,361" id="mm-earth-1-1-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6MTEzLjI1NzgxMjUsInkiOjMxNX0seyJ4IjoxMTMuMjU3ODEyNSwieSI6MzQwfSx7IngiOjExMy4yNTc4MTI1LCJ5IjozNjV9XQ==" data-look="classic" marker-end="url(#mm-earth-1-1_flowchart-v2-pointEnd)"/><path d="M113.258,434L113.258,438.167C113.258,442.333,113.258,450.667,117.66,458.569C122.063,466.471,130.868,473.941,135.271,477.677L139.674,481.412" id="mm-earth-1-1-L_D_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_E_0" data-points="W3sieCI6MTEzLjI1NzgxMjUsInkiOjQzNH0seyJ4IjoxMTMuMjU3ODEyNSwieSI6NDU5fSx7IngiOjE0Mi43MjM3Mzk0OTU3OTgzMywieSI6NDg0fV0=" data-look="classic" marker-end="url(#mm-earth-1-1_flowchart-v2-pointEnd)"/><path d="M224.05,484L228.961,479.833C233.872,475.667,243.694,467.333,248.605,453.25C253.516,439.167,253.516,419.333,253.516,399.5C253.516,379.667,253.516,359.833,253.516,340C253.516,320.167,253.516,300.333,253.516,280.5C253.516,260.667,253.516,240.833,253.516,221C253.516,201.167,253.516,181.333,253.516,161.5C253.516,141.667,253.516,121.833,249.113,108.181C244.71,94.529,235.905,87.059,231.502,83.323L227.1,79.588" id="mm-earth-1-1-L_E_A_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_A_0" data-points="W3sieCI6MjI0LjA0OTY5ODAwNDIwMTY3LCJ5Ijo0ODR9LHsieCI6MjUzLjUxNTYyNSwieSI6NDU5fSx7IngiOjI1My41MTU2MjUsInkiOjM5OS41fSx7IngiOjI1My41MTU2MjUsInkiOjM0MH0seyJ4IjoyNTMuNTE1NjI1LCJ5IjoyODAuNX0seyJ4IjoyNTMuNTE1NjI1LCJ5IjoyMjF9LHsieCI6MjUzLjUxNTYyNSwieSI6MTYxLjV9LHsieCI6MjUzLjUxNTYyNSwieSI6MTAyfSx7IngiOjIyNC4wNDk2OTgwMDQyMDE2NywieSI6Nzd9XQ==" data-look="classic" marker-end="url(#mm-earth-1-1_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_A_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-earth-1-1-flowchart-A-0" data-look="classic" transform="translate(183.38671875, 42.5)"><rect class="basic label-container" style="" x="-88.5859375" y="-34.5" width="177.171875" height="69"/><g class="label" style="" transform="translate(-64.5859375, -22.5)"><rect/><foreignObject width="129.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>북대서양 고위도<br />냉각·결빙으로 침강</p></span></div></foreignObject></g></g><g class="node default" id="mm-earth-1-1-flowchart-B-1" data-look="classic" transform="translate(113.2578125, 161.5)"><rect class="basic label-container" style="" x="-78.5859375" y="-34.5" width="157.171875" height="69"/><g class="label" style="" transform="translate(-54.5859375, -22.5)"><rect/><foreignObject width="109.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>북대서양 심층수<br />남쪽으로 이동</p></span></div></foreignObject></g></g><g class="node default" id="mm-earth-1-1-flowchart-C-3" data-look="classic" transform="translate(113.2578125, 280.5)"><rect class="basic label-container" style="" x="-105.2578125" y="-34.5" width="210.515625" height="69"/><g class="label" style="" transform="translate(-81.2578125, -22.5)"><rect/><foreignObject width="162.515625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>남극 주변<br />남극 저층수와 함께 순환</p></span></div></foreignObject></g></g><g class="node default" id="mm-earth-1-1-flowchart-D-5" data-look="classic" transform="translate(113.2578125, 399.5)"><rect class="basic label-container" style="" x="-71.5" y="-34.5" width="143" height="69"/><g class="label" style="" transform="translate(-47.5, -22.5)"><rect/><foreignObject width="95" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>인도양·태평양<br />서서히 용승</p></span></div></foreignObject></g></g><g class="node default" id="mm-earth-1-1-flowchart-E-7" data-look="classic" transform="translate(183.38671875, 518.5)"><rect class="basic label-container" style="" x="-103.171875" y="-34.5" width="206.34375" height="69"/><g class="label" style="" transform="translate(-79.171875, -22.5)"><rect/><foreignObject width="158.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>표층 해류<br />따뜻한 물이 대서양으로</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-earth-1-1-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-earth-1-1-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-earth-1-1-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><div class="table-wrap"><table><thead><tr>
@@ -620,6 +667,8 @@
 </tbody></table></div>
 <aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>요령</strong> — 저기압 중심의 남쪽에 있는 관측소에서 풍향은 <strong>남동 → 남서 → 북서</strong>로 <strong>시계 방향</strong>으로 바뀐다. 중심의 북쪽을 지나는 관측소라면 풍향이 <strong>시계 반대 방향</strong>(동 → 북동 → 북)으로 바뀐다.</p>
 </aside>
+<figure class="sim" id="sim-cyclone-fronts" data-sim="cyclone-fronts"><noscript>이 애니메이션은 자바스크립트가 필요하다.</noscript></figure>
+
 <h4 id="5-이동성-고기압">(5) 이동성 고기압</h4>
 <p>봄과 가을에는 중국 대륙(양쯔강 유역 부근)에서 떨어져 나온 고기압이 편서풍을 타고 저기압과 번갈아 지나간다. 이를 <strong>이동성 고기압</strong>이라 한다.</p>
 <ul>
@@ -748,6 +797,75 @@
 <td>태풍이 관측소의 동쪽을 지나갈 때</td>
 </tr>
 </tbody></table></div>
+<figure class="fig" id="fig-earth-1-typhoon-semicircle"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-earth-1-typhoon-semicircle d-earth-1-typhoon-semicircle">
+  <title id="t-earth-1-typhoon-semicircle">그림 지구과학 1-2 태풍의 위험 반원과 안전 반원</title>
+  <desc id="d-earth-1-typhoon-semicircle">북쪽으로 움직이는 북반구 태풍에서 시계 반대 방향의 회전 바람과 이동 방향이 같은 오른쪽(동쪽) 반원은 바람이 더 강한 위험 반원이고, 왼쪽 반원은 상대적으로 약한 안전 반원이다. 오른쪽에 있는 관측소의 풍향은 시계 방향으로, 왼쪽 관측소는 시계 반대 방향으로 바뀐다.</desc>
+  <style>
+    .earth-1-typhoon-semicircle-t{font-size:14px;fill:var(--fig-ink)}
+    .earth-1-typhoon-semicircle-b{font-size:15px;font-weight:600}
+    .earth-1-typhoon-semicircle-s{font-size:13px;fill:var(--fig-muted)}
+  </style>
+  <!-- 반원 -->
+  <path d="M200 70 A130 130 0 0 1 200 330 Z" style="fill:var(--fig-soft-red);stroke:none"/>
+  <path d="M200 70 A130 130 0 0 0 200 330 Z" style="fill:var(--fig-soft-blue);stroke:none"/>
+  <circle cx="200" cy="200" r="130" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <line x1="200" y1="56" x2="200" y2="344" style="stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:5 5"/>
+  <!-- 진행 방향 -->
+  <line x1="200" y1="62" x2="200" y2="24" style="stroke:var(--fig-ink);stroke-width:3"/>
+  <path d="M200 12 l-8 14 l16 0 z" style="fill:var(--fig-ink)"/>
+  <text x="212" y="28" class="earth-1-typhoon-semicircle-t">진행 방향(북쪽)</text>
+  <!-- 회전 바람(시계 반대 방향) -->
+  <g style="fill:none;stroke:var(--fig-muted);stroke-width:2">
+    <path d="M262 150 A80 80 0 0 0 150 138"/><path d="M138 250 A80 80 0 0 0 250 262"/>
+  </g>
+  <path d="M142 144 l12 -12 l2 12 z" style="fill:var(--fig-muted)"/>
+  <path d="M258 256 l-12 12 l-2 -12 z" style="fill:var(--fig-muted)"/>
+  <!-- 눈 -->
+  <circle cx="200" cy="200" r="13" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <text x="200" y="232" text-anchor="middle" class="earth-1-typhoon-semicircle-s">태풍의 눈</text>
+  <!-- 동쪽: 더해짐 -->
+  <line x1="300" y1="250" x2="300" y2="200" style="stroke:var(--fig-violet);stroke-width:3"/>
+  <path d="M300 190 l-6 12 l12 0 z" style="fill:var(--fig-violet)"/>
+  <line x1="300" y1="190" x2="300" y2="150" style="stroke:var(--fig-ink);stroke-width:3"/>
+  <path d="M300 140 l-6 12 l12 0 z" style="fill:var(--fig-ink)"/>
+  <!-- 서쪽: 상쇄 -->
+  <line x1="100" y1="160" x2="100" y2="232" style="stroke:var(--fig-violet);stroke-width:3"/>
+  <path d="M100 242 l-6 -12 l12 0 z" style="fill:var(--fig-violet)"/>
+  <line x1="92" y1="232" x2="92" y2="200" style="stroke:var(--fig-ink);stroke-width:3"/>
+  <path d="M92 190 l-6 12 l12 0 z" style="fill:var(--fig-ink)"/>
+  <text x="262" y="300" text-anchor="middle" class="earth-1-typhoon-semicircle-b" style="fill:var(--fig-red)">위험 반원</text>
+  <text x="138" y="300" text-anchor="middle" class="earth-1-typhoon-semicircle-b" style="fill:var(--fig-blue)">안전 반원</text>
+  <text x="200" y="364" text-anchor="middle" class="earth-1-typhoon-semicircle-s">보라: 회전 바람  검정: 태풍의 이동</text>
+  <text x="200" y="384" text-anchor="middle" class="earth-1-typhoon-semicircle-s">오른쪽은 두 방향이 같아 더해지고, 왼쪽은 반대라 약해진다</text>
+  <!-- 오른쪽: 관측소 풍향 변화 -->
+  <text x="372" y="66" class="earth-1-typhoon-semicircle-t" style="font-weight:600">관측소의 풍향 변화 (태풍이 남→북으로 지날 때)</text>
+  <text x="372" y="104" class="earth-1-typhoon-semicircle-t" style="fill:var(--fig-red)">진로의 오른쪽(위험 반원): 시계 방향</text>
+  <text x="372" y="244" class="earth-1-typhoon-semicircle-t" style="fill:var(--fig-blue)">진로의 왼쪽(안전 반원): 시계 반대 방향</text>
+  <g style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2">
+    <circle cx="410" cy="160" r="26"/><circle cx="490" cy="160" r="26"/><circle cx="570" cy="160" r="26"/><circle cx="650" cy="160" r="26"/>
+    <circle cx="410" cy="300" r="26"/><circle cx="490" cy="300" r="26"/><circle cx="570" cy="300" r="26"/><circle cx="650" cy="300" r="26"/>
+  </g>
+  <!-- 바람 화살표: 불어 가는 방향 -->
+  <g style="stroke:var(--fig-violet);stroke-width:2.5">
+    <line x1="426" y1="160" x2="400" y2="160"/><line x1="501" y1="171" x2="483" y2="153"/><line x1="570" y1="176" x2="570" y2="150"/><line x1="639" y1="171" x2="657" y2="153"/>
+    <line x1="426" y1="300" x2="400" y2="300"/><line x1="501" y1="289" x2="483" y2="307"/><line x1="570" y1="284" x2="570" y2="310"/><line x1="639" y1="289" x2="657" y2="307"/>
+  </g>
+  <g style="fill:var(--fig-violet)">
+    <path d="M394 160 l10 -6 l0 12 z"/><path d="M479 149 l11 2 l-9 9 z"/><path d="M570 144 l-6 10 l12 0 z"/><path d="M661 149 l-2 11 l-9 -9 z"/>
+    <path d="M394 300 l10 -6 l0 12 z"/><path d="M479 311 l2 -11 l9 9 z"/><path d="M570 316 l-6 -10 l12 0 z"/><path d="M661 311 l-11 -2 l9 -9 z"/>
+  </g>
+  <g class="earth-1-typhoon-semicircle-t" text-anchor="middle">
+    <text x="410" y="206">동풍</text><text x="490" y="206">남동풍</text><text x="570" y="206">남풍</text><text x="650" y="206">남서풍</text>
+    <text x="410" y="346">동풍</text><text x="490" y="346">북동풍</text><text x="570" y="346">북풍</text><text x="650" y="346">북서풍</text>
+  </g>
+  <g class="earth-1-typhoon-semicircle-s" text-anchor="middle">
+    <text x="450" y="124">→</text><text x="530" y="124">→</text><text x="610" y="124">→</text>
+    <text x="450" y="264">→</text><text x="530" y="264">→</text><text x="610" y="264">→</text>
+  </g>
+  <text x="530" y="384" text-anchor="middle" class="earth-1-typhoon-semicircle-s">화살표: 바람이 불어 가는 방향(위가 북쪽), 시간 순서 →</text>
+</svg>
+</div><figcaption><b>그림 지구과학 1-2 태풍의 위험 반원과 안전 반원</b> 북쪽으로 움직이는 북반구 태풍에서 시계 반대 방향의 회전 바람과 이동 방향이 같은 오른쪽(동쪽) 반원은 바람이 더 강한 위험 반원이고, 왼쪽 반원은 상대적으로 약한 안전 반원이다. 오른쪽에 있는 관측소의 풍향은 시계 방향으로, 왼쪽 관측소는 시계 반대 방향으로 바뀐다.</figcaption></figure>
+
 <h4 id="5-최근-사례-대기-해양-육지의-상호작용">(5) 최근 사례 — 대기·해양·육지의 상호작용</h4>
 <p>2022년 태풍 &#39;힌남노&#39;는 우리나라에 다가오는 동안 평년보다 따뜻한 바다 위를 지나며 강한 세력을 유지했고, 9월 6일 경남 남해안에 상륙한 뒤 동해로 빠져나갔다. 경북 포항에서는 짧은 시간에 매우 많은 비가 내려 하천이 범람하고, 아파트 지하 주차장이 침수되는 인명 피해가 있었다.</p>
 <ul>

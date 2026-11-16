@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="assets/katex/katex.min.css">
 <link rel="stylesheet" href="assets/book.css">
 <script src="assets/js/book.js" defer></script>
-
+<script src="assets/js/sims/gas-laws.js" defer></script>
 </head>
 <body class="" data-lesson="m1-06" data-title="기체의 성질" data-where="중1">
 <header class="topbar">
@@ -212,6 +212,78 @@
 </tbody></table></div>
 <aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 같은 양의 버터를 빵에 바를 때, 넓은 면에 펴 바르면 얇게 발리고 한 점에 모으면 두껍게 쌓인다. 힘도 마찬가지로 넓은 면에 &#39;펴 바르면&#39; 압력이 작아지고, 좁은 면에 &#39;모으면&#39; 압력이 커진다.</p>
 </aside>
+<figure class="fig" id="fig-m1-06-pressure-area"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-m1-06-pressure-area d-m1-06-pressure-area">
+  <title id="t-m1-06-pressure-area">그림 중1-6-1 같은 힘, 다른 넓이 — 압력 비교</title>
+  <desc id="d-m1-06-pressure-area">무게가 같은 벽돌 두 개를 스펀지 위에 놓았다. 바닥을 누르는 힘은 같지만, 좁은 면이 닿게 세운 벽돌은 힘을 받는 면적이 좁아 압력이 크므로 스펀지가 더 깊이 들어간다. 모식도이다.</desc>
+  <style>
+    .pa-red{fill:none;stroke:var(--fig-red)} .pa-redh{fill:var(--fig-red)}
+    .pa-blue{fill:none;stroke:var(--fig-blue)} .pa-blueh{fill:var(--fig-blue)}
+    .pa-green{fill:none;stroke:var(--fig-green)} .pa-greenh{fill:var(--fig-green)}
+    .pa-ink{fill:none;stroke:var(--fig-ink)} .pa-inkh{fill:var(--fig-ink)}
+    .pa-violet{fill:none;stroke:var(--fig-violet)} .pa-violeth{fill:var(--fig-violet)}
+    .pa-muted{fill:none;stroke:var(--fig-muted)} .pa-mutedh{fill:var(--fig-muted)}
+    .pa-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .pa-t{font-size:14px;fill:var(--fig-ink)}
+    .pa-sm{font-size:13px;fill:var(--fig-muted)}
+    .pa-rb{font-size:14px;font-weight:700;fill:var(--fig-red)}
+    .pa-bb{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+    .pa-ld{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .pa-brick{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2}
+    .pa-sponge{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8}
+    .pa-hole{fill:var(--fig-amber);stroke:none;opacity:.35}
+  </style>
+  <text x="180" y="294" text-anchor="middle" class="pa-h">넓은 면이 닿게 눕힘</text>
+  <path d="M40 210 L90 210 L94 216 L266 216 L270 210 L320 210 L320 270 L40 270 Z" class="pa-sponge"/>
+  <circle cx="54" cy="234" r="3.5" class="pa-hole"/>
+  <circle cx="91" cy="247" r="3.5" class="pa-hole"/>
+  <circle cx="128" cy="238" r="3.5" class="pa-hole"/>
+  <circle cx="165" cy="251" r="3.5" class="pa-hole"/>
+  <circle cx="202" cy="242" r="3.5" class="pa-hole"/>
+  <circle cx="239" cy="255" r="3.5" class="pa-hole"/>
+  <circle cx="276" cy="246" r="3.5" class="pa-hole"/>
+  <circle cx="61" cy="237" r="3.5" class="pa-hole"/>
+  <circle cx="98" cy="250" r="3.5" class="pa-hole"/>
+  <circle cx="135" cy="241" r="3.5" class="pa-hole"/>
+  <circle cx="172" cy="254" r="3.5" class="pa-hole"/>
+  <circle cx="209" cy="245" r="3.5" class="pa-hole"/>
+  <circle cx="246" cy="236" r="3.5" class="pa-hole"/>
+  <circle cx="283" cy="249" r="3.5" class="pa-hole"/>
+  <circle cx="68" cy="240" r="3.5" class="pa-hole"/>
+  <circle cx="105" cy="253" r="3.5" class="pa-hole"/>
+  <circle cx="142" cy="244" r="3.5" class="pa-hole"/>
+  <circle cx="179" cy="235" r="3.5" class="pa-hole"/>
+  <rect x="90" y="168" width="180" height="48" rx="2" class="pa-brick"/>
+  <text x="540" y="294" text-anchor="middle" class="pa-h">좁은 면이 닿게 세움</text>
+  <path d="M400 210 L516 210 L520 236 L560 236 L564 210 L680 210 L680 270 L400 270 Z" class="pa-sponge"/>
+  <circle cx="414" cy="246" r="3.5" class="pa-hole"/>
+  <circle cx="451" cy="259" r="3.5" class="pa-hole"/>
+  <circle cx="488" cy="250" r="3.5" class="pa-hole"/>
+  <circle cx="525" cy="263" r="3.5" class="pa-hole"/>
+  <circle cx="562" cy="254" r="3.5" class="pa-hole"/>
+  <circle cx="599" cy="267" r="3.5" class="pa-hole"/>
+  <circle cx="636" cy="258" r="3.5" class="pa-hole"/>
+  <circle cx="421" cy="249" r="3.5" class="pa-hole"/>
+  <circle cx="458" cy="262" r="3.5" class="pa-hole"/>
+  <circle cx="495" cy="253" r="3.5" class="pa-hole"/>
+  <circle cx="532" cy="266" r="3.5" class="pa-hole"/>
+  <circle cx="569" cy="257" r="3.5" class="pa-hole"/>
+  <circle cx="606" cy="248" r="3.5" class="pa-hole"/>
+  <circle cx="643" cy="261" r="3.5" class="pa-hole"/>
+  <circle cx="428" cy="252" r="3.5" class="pa-hole"/>
+  <circle cx="465" cy="265" r="3.5" class="pa-hole"/>
+  <circle cx="502" cy="256" r="3.5" class="pa-hole"/>
+  <circle cx="539" cy="247" r="3.5" class="pa-hole"/>
+  <rect x="516" y="96" width="48" height="140" rx="2" class="pa-brick"/>
+  <line x1="180.0" y1="96.0" x2="180.0" y2="152.0" style="stroke-width:3.5;stroke-linecap:round" class="pa-green"/><path d="M180.0 166.0 L173.7 152.0 L186.3 152.0 Z" class="pa-greenh"/>
+  <text x="192" y="120" class="pa-t">누르는 힘</text><text x="192" y="138" class="pa-sm">(벽돌의 무게)</text>
+  <line x1="540.0" y1="22.0" x2="540.0" y2="78.0" style="stroke-width:3.5;stroke-linecap:round" class="pa-green"/><path d="M540.0 92.0 L533.7 78.0 L546.3 78.0 Z" class="pa-greenh"/>
+  <text x="552" y="52" class="pa-t">같은 힘</text>
+  <text x="180" y="318" text-anchor="middle" class="pa-t">면적이 넓다 → 압력이 <tspan style="font-weight:700">작다</tspan></text>
+  <text x="540" y="318" text-anchor="middle" class="pa-t">면적이 좁다 → 압력이 <tspan style="font-weight:700">크다</tspan></text>
+  <text x="588" y="230" class="pa-sm">깊이 들어감</text>
+</svg>
+</div><figcaption><b>그림 중1-6-1 같은 힘, 다른 넓이 — 압력 비교</b> 무게가 같은 벽돌 두 개를 스펀지 위에 놓았다. 바닥을 누르는 힘은 같지만, 좁은 면이 닿게 세운 벽돌은 힘을 받는 면적이 좁아 압력이 크므로 스펀지가 더 깊이 들어간다. 모식도이다.</figcaption></figure>
+
 <h4 id="예제-1">예제 1</h4>
 <p>무게가 같은 벽돌을 바닥에 놓을 때, (가) 가장 넓은 면이 바닥에 닿게 놓는 경우와 (나) 가장 좁은 면이 바닥에 닿게 세워 놓는 경우 중 바닥이 받는 압력이 더 큰 것은?</p>
 <p><strong>풀이</strong> <strong>(나)</strong>. 두 경우 모두 바닥을 누르는 힘(벽돌의 무게)은 같지만, (나)는 힘을 받는 면적이 좁으므로 압력이 크다. 모래 위에 놓으면 (나)가 더 깊이 박힌다.</p>
@@ -226,6 +298,80 @@
 <li>기체 입자는 모든 방향으로 운동하므로, 기체의 압력은 <strong>모든 방향으로 작용한다.</strong> 그래서 풍선은 한쪽만 볼록해지지 않고 둥글게 부푼다.</li>
 <li>일정한 면적에 <strong>입자가 더 자주 충돌할수록</strong>, 그리고 <strong>더 세게 충돌할수록</strong> 기체의 압력이 커진다.</li>
 </ul>
+<figure class="fig" id="fig-m1-06-gas-pressure"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-m1-06-gas-pressure d-m1-06-gas-pressure">
+  <title id="t-m1-06-gas-pressure">그림 중1-6-2 기체의 압력이 생기는 까닭</title>
+  <desc id="d-m1-06-gas-pressure">그릇 속 기체 입자는 모든 방향으로 움직이며 벽에 끊임없이 충돌한다. 일정한 면적의 벽에 입자가 더 자주, 더 세게 충돌할수록 기체의 압력이 크다. 입자 크기와 개수는 모식적이다.</desc>
+  <style>
+    .gp-red{fill:none;stroke:var(--fig-red)} .gp-redh{fill:var(--fig-red)}
+    .gp-blue{fill:none;stroke:var(--fig-blue)} .gp-blueh{fill:var(--fig-blue)}
+    .gp-green{fill:none;stroke:var(--fig-green)} .gp-greenh{fill:var(--fig-green)}
+    .gp-ink{fill:none;stroke:var(--fig-ink)} .gp-inkh{fill:var(--fig-ink)}
+    .gp-violet{fill:none;stroke:var(--fig-violet)} .gp-violeth{fill:var(--fig-violet)}
+    .gp-muted{fill:none;stroke:var(--fig-muted)} .gp-mutedh{fill:var(--fig-muted)}
+    .gp-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .gp-t{font-size:14px;fill:var(--fig-ink)}
+    .gp-sm{font-size:13px;fill:var(--fig-muted)}
+    .gp-rb{font-size:14px;font-weight:700;fill:var(--fig-red)}
+    .gp-bb{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+    .gp-ld{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .gp-box{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:3}
+    .gp-g{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.4}
+    .gp-hit{fill:var(--fig-amber);stroke:none}
+    .gp-path{fill:none;stroke:var(--fig-muted);stroke-width:1.5;stroke-dasharray:4 4}
+    .gp-zoom{fill:none;stroke:var(--fig-line);stroke-width:1.4;stroke-dasharray:5 4}
+    .gp-wall{fill:var(--fig-paper);stroke:var(--fig-ink);stroke-width:2}
+    .gp-tag{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2}
+  </style>
+  <text x="120" y="34" text-anchor="middle" class="gp-h">밀폐된 그릇 속 기체</text>
+  <rect x="40" y="50" width="260" height="220" rx="10" class="gp-box"/>
+  <circle cx="80" cy="90" r="9" class="gp-g"/>
+  <line x1="89.4" y1="95.7" x2="104.9" y2="104.9" style="stroke-width:1.6;stroke-linecap:round" class="gp-ink"/><path d="M110.9 108.5 L103.2 107.6 L106.5 102.2 Z" class="gp-inkh"/>
+  <circle cx="150" cy="130" r="9" class="gp-g"/>
+  <line x1="142.2" y1="137.8" x2="129.5" y2="150.5" style="stroke-width:1.6;stroke-linecap:round" class="gp-ink"/><path d="M124.5 155.5 L127.3 148.3 L131.7 152.7 Z" class="gp-inkh"/>
+  <circle cx="230" cy="80" r="9" class="gp-g"/>
+  <line x1="235.3" y1="70.4" x2="244.1" y2="54.6" style="stroke-width:1.6;stroke-linecap:round" class="gp-ink"/><path d="M247.5 48.5 L246.8 56.2 L241.3 53.1 Z" class="gp-inkh"/>
+  <circle cx="110" cy="200" r="9" class="gp-g"/>
+  <line x1="120.1" y1="204.5" x2="136.5" y2="211.8" style="stroke-width:1.6;stroke-linecap:round" class="gp-ink"/><path d="M142.9 214.6 L135.2 214.7 L137.8 208.9 Z" class="gp-inkh"/>
+  <circle cx="200" cy="180" r="9" class="gp-g"/>
+  <line x1="195.5" y1="169.9" x2="188.2" y2="153.5" style="stroke-width:1.6;stroke-linecap:round" class="gp-ink"/><path d="M185.4 147.1 L191.1 152.2 L185.3 154.8 Z" class="gp-inkh"/>
+  <circle cx="260" cy="230" r="9" class="gp-g"/>
+  <line x1="268.8" y1="236.6" x2="283.2" y2="247.4" style="stroke-width:1.6;stroke-linecap:round" class="gp-ink"/><path d="M288.8 251.6 L281.3 249.9 L285.1 244.9 Z" class="gp-inkh"/>
+  <circle cx="75" cy="245" r="9" class="gp-g"/>
+  <line x1="68.4" y1="253.8" x2="57.6" y2="268.2" style="stroke-width:1.6;stroke-linecap:round" class="gp-ink"/><path d="M53.4 273.8 L55.1 266.3 L60.1 270.1 Z" class="gp-inkh"/>
+  <circle cx="180" cy="240" r="9" class="gp-g"/>
+  <line x1="182.2" y1="250.8" x2="185.7" y2="268.4" style="stroke-width:1.6;stroke-linecap:round" class="gp-ink"/><path d="M187.1 275.3 L182.6 269.1 L188.8 267.8 Z" class="gp-inkh"/>
+  <circle cx="130" cy="160" r="9" class="gp-g"/>
+  <line x1="119.2" y1="157.8" x2="101.6" y2="154.3" style="stroke-width:1.6;stroke-linecap:round" class="gp-ink"/><path d="M94.7 152.9 L102.2 151.2 L100.9 157.4 Z" class="gp-inkh"/>
+  <circle cx="250" cy="150" r="9" class="gp-g"/>
+  <line x1="260.9" y1="151.1" x2="278.9" y2="152.9" style="stroke-width:1.6;stroke-linecap:round" class="gp-ink"/><path d="M285.8 153.6 L278.5 156.0 L279.2 149.8 Z" class="gp-inkh"/>
+  <line x1="250.0" y1="46.0" x2="250.0" y2="35.0" style="stroke-width:3;stroke-linecap:round" class="gp-blue"/><path d="M250.0 24.0 L254.9 35.0 L245.1 35.0 Z" class="gp-blueh"/>
+  <line x1="250.0" y1="274.0" x2="250.0" y2="287.0" style="stroke-width:3;stroke-linecap:round" class="gp-blue"/><path d="M250.0 298.0 L245.1 287.0 L254.9 287.0 Z" class="gp-blueh"/>
+  <line x1="36.0" y1="160.0" x2="23.0" y2="160.0" style="stroke-width:3;stroke-linecap:round" class="gp-blue"/><path d="M12.0 160.0 L23.0 155.1 L23.0 164.9 Z" class="gp-blueh"/>
+  <line x1="304.0" y1="160.0" x2="317.0" y2="160.0" style="stroke-width:3;stroke-linecap:round" class="gp-blue"/><path d="M328.0 160.0 L317.0 164.9 L317.0 155.1 Z" class="gp-blueh"/>
+  <text x="40" y="320" class="gp-bb">기체의 압력은 모든 방향으로 작용한다</text>
+  <rect x="250" y="110" width="50" height="60" class="gp-zoom"/>
+  <line x1="300" y1="110" x2="400" y2="60" class="gp-zoom"/><line x1="300" y1="170" x2="400" y2="250" class="gp-zoom"/>
+  <text x="520" y="34" text-anchor="middle" class="gp-h">벽 가까이 확대</text>
+  <rect x="580" y="60" width="24" height="190" class="gp-wall"/>
+  <path d="M420 80 L570 100.0 L420 120" class="gp-path"/>
+  <circle cx="570" cy="100.0" r="9" class="gp-g"/>
+  <circle cx="582" cy="100.0" r="4" class="gp-hit"/>
+  <line x1="440.0" y1="82.4" x2="493.0" y2="88.6" style="stroke-width:1.6;stroke-linecap:round" class="gp-ink"/><path d="M500.0 89.4 L492.7 91.7 L493.4 85.5 Z" class="gp-inkh"/>
+  <line x1="500.0" y1="110.0" x2="451.9" y2="116.3" style="stroke-width:1.6;stroke-linecap:round" class="gp-ink"/><path d="M445.0 117.2 L451.5 113.2 L452.3 119.4 Z" class="gp-inkh"/>
+  <line x1="604.0" y1="100.0" x2="631.0" y2="100.0" style="stroke-width:3;stroke-linecap:round" class="gp-red"/><path d="M642.0 100.0 L631.0 105.0 L631.0 95.0 Z" class="gp-redh"/>
+  <path d="M420 165 L570 185.0 L420 205" class="gp-path"/>
+  <circle cx="570" cy="185.0" r="9" class="gp-g"/>
+  <circle cx="582" cy="185.0" r="4" class="gp-hit"/>
+  <line x1="440.0" y1="167.4" x2="493.0" y2="173.6" style="stroke-width:1.6;stroke-linecap:round" class="gp-ink"/><path d="M500.0 174.4 L492.7 176.7 L493.4 170.5 Z" class="gp-inkh"/>
+  <line x1="500.0" y1="195.0" x2="451.9" y2="201.3" style="stroke-width:1.6;stroke-linecap:round" class="gp-ink"/><path d="M445.0 202.2 L451.5 198.2 L452.3 204.4 Z" class="gp-inkh"/>
+  <line x1="604.0" y1="185.0" x2="631.0" y2="185.0" style="stroke-width:3;stroke-linecap:round" class="gp-red"/><path d="M642.0 185.0 L631.0 189.9 L631.0 180.1 Z" class="gp-redh"/>
+  <text x="646" y="100" class="gp-rb">벽을</text><text x="646" y="117" class="gp-rb">미는 힘</text>
+  <rect x="410" y="262" width="296" height="58" rx="6" class="gp-tag"/>
+  <text x="422" y="284" class="gp-t">같은 면적에 <tspan style="font-weight:700">더 자주</tspan> 충돌할수록</text>
+  <text x="422" y="306" class="gp-t"><tspan style="font-weight:700">더 세게</tspan> 충돌할수록 → 압력이 크다</text>
+</svg>
+</div><figcaption><b>그림 중1-6-2 기체의 압력이 생기는 까닭</b> 그릇 속 기체 입자는 모든 방향으로 움직이며 벽에 끊임없이 충돌한다. 일정한 면적의 벽에 입자가 더 자주, 더 세게 충돌할수록 기체의 압력이 크다. 입자 크기와 개수는 모식적이다.</figcaption></figure>
+
 <div class="table-wrap"><table><thead><tr>
 <th>기체의 압력이 커지는 경우</th>
 <th>입자로 보면</th>
@@ -447,6 +593,8 @@
 </ul>
 <aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 같은 인원이 강강술래를 할 때, 천천히 돌면 손을 잡고 작은 원을 그리지만 빠르게 뛰며 돌면 바깥으로 쏠려 원이 커진다. 사람 수(입자 수)는 같고, 움직임이 활발해지자 차지하는 공간(부피)이 넓어진 것이다.</p>
 </aside>
+<figure class="sim" id="sim-gas-laws" data-sim="gas-laws"><noscript>이 애니메이션은 자바스크립트가 필요하다.</noscript></figure>
+
 <h4 id="예제-5">예제 5</h4>
 <p>위 실험에서 주사기를 0 °C 물에서 80 °C 물로 옮겼을 때 다음은 각각 어떻게 되는지 쓰시오.
 (1) 공기의 부피 (2) 공기 입자의 운동 빠르기 (3) 공기 입자의 수 (4) 공기의 질량</p>

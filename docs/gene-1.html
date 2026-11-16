@@ -10,7 +10,8 @@
 <link rel="stylesheet" href="assets/katex/katex.min.css">
 <link rel="stylesheet" href="assets/book.css">
 <script src="assets/js/book.js" defer></script>
-
+<script src="assets/js/sims/dna-3d.js" defer></script>
+<script src="assets/js/sims/dna-replication.js" defer></script>
 </head>
 <body class="" data-lesson="gene-1" data-title="유전자와 유전물질" data-where="생물의 유전">
 <header class="topbar">
@@ -595,6 +596,136 @@
 <td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span></span></span></span> 생식세포에 <strong>같은 염색 분체에서 온 동일한</strong> 염색체(예: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07847em;">X</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">a</span></span></span></span></span></span></span></span></span></span></span>와 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07847em;">X</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">a</span></span></span></span></span></span></span></span></span></span></span>)가 들어감</td>
 </tr>
 </tbody></table></div>
+<figure class="fig" id="fig-gene-1-nondisjunction"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 452" role="img" aria-labelledby="t-gene-1-nondisjunction d-gene-1-nondisjunction">
+  <title id="t-gene-1-nondisjunction">그림 생물의 유전 1-1 감수 1분열 비분리와 감수 2분열 비분리</title>
+  <desc id="d-gene-1-nondisjunction">한 쌍의 상동 염색체만 나타낸 모식도이다. 감수 1분열에서 상동 염색체가 갈라지지 않으면 생식세포 4개가 모두 비정상(n+1 2개, n−1 2개)이 되고, 감수 2분열에서 한 세포의 염색 분체가 갈라지지 않으면 4개 중 2개만 비정상(n+1 1개, n−1 1개)이 된다.</desc>
+  <style>
+    .gene-1-nondisjunction-h{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .gene-1-nondisjunction-tx{font-size:14px;fill:var(--fig-ink)}
+    .gene-1-nondisjunction-sm{font-size:13px;fill:var(--fig-muted)}
+    .gene-1-nondisjunction-bad{font-size:14px;font-weight:600;fill:var(--fig-red)}
+    .gene-1-nondisjunction-ok{font-size:14px;font-weight:600;fill:var(--fig-green)}
+    .gene-1-nondisjunction-cell{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:2}
+    .gene-1-nondisjunction-nd{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2.5}
+    .gene-1-nondisjunction-b{fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:1}
+    .gene-1-nondisjunction-r{fill:var(--fig-red);stroke:var(--fig-ink);stroke-width:1}
+    .gene-1-nondisjunction-cen{fill:var(--fig-ink)}
+    .gene-1-nondisjunction-ar{fill:none;stroke:var(--fig-muted);stroke-width:1.6}
+    .gene-1-nondisjunction-ah{fill:var(--fig-muted)}
+    .gene-1-nondisjunction-pan{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1}
+  </style>
+  <rect x="10" y="10" width="350" height="400" rx="10" class="gene-1-nondisjunction-pan"/>
+  <text x="185" y="36" text-anchor="middle" class="gene-1-nondisjunction-h">감수 1분열에서 비분리</text>
+  <text x="24" y="108" class="gene-1-nondisjunction-sm">감수 분열 전</text>
+  <text x="24" y="126" class="gene-1-nondisjunction-sm">(복제된 상태)</text>
+  <circle cx="185" cy="104" r="42" class="gene-1-nondisjunction-cell"/>
+  <rect x="165.0" y="89.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-b"/>
+  <rect x="174.0" y="89.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-b"/>
+  <circle cx="173" cy="104" r="3" class="gene-1-nondisjunction-cen"/>
+  <rect x="189.0" y="89.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-r"/>
+  <rect x="198.0" y="89.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-r"/>
+  <circle cx="197" cy="104" r="3" class="gene-1-nondisjunction-cen"/>
+  <text x="24" y="172.0" class="gene-1-nondisjunction-sm">감수 1분열</text>
+  <text x="24" y="291.5" class="gene-1-nondisjunction-sm">감수 2분열</text>
+  <line x1="163.0" y1="140.0" x2="119.0" y2="185.0" class="gene-1-nondisjunction-ar"/>
+  <path d="M119.0 185.0 L121.8 177.5 L126.4 182.1 Z" class="gene-1-nondisjunction-ah"/>
+  <line x1="207.0" y1="140.0" x2="251.0" y2="185.0" class="gene-1-nondisjunction-ar"/>
+  <path d="M251.0 185.0 L243.6 182.1 L248.2 177.5 Z" class="gene-1-nondisjunction-ah"/>
+  <line x1="97.0" y1="252.0" x2="65.0" y2="314.0" class="gene-1-nondisjunction-ar"/>
+  <path d="M65.0 314.0 L65.5 306.0 L71.2 309.0 Z" class="gene-1-nondisjunction-ah"/>
+  <line x1="117.0" y1="252.0" x2="129.0" y2="314.0" class="gene-1-nondisjunction-ar"/>
+  <path d="M129.0 314.0 L124.4 307.4 L130.8 306.2 Z" class="gene-1-nondisjunction-ah"/>
+  <line x1="253.0" y1="252.0" x2="241.0" y2="314.0" class="gene-1-nondisjunction-ar"/>
+  <path d="M241.0 314.0 L239.2 306.2 L245.6 307.4 Z" class="gene-1-nondisjunction-ah"/>
+  <line x1="273.0" y1="252.0" x2="305.0" y2="314.0" class="gene-1-nondisjunction-ar"/>
+  <path d="M305.0 314.0 L298.8 309.0 L304.5 306.0 Z" class="gene-1-nondisjunction-ah"/>
+  <circle cx="107" cy="222" r="34" class="gene-1-nondisjunction-nd"/>
+  <rect x="88.0" y="207.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-b"/>
+  <rect x="97.0" y="207.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-b"/>
+  <circle cx="96" cy="222" r="3" class="gene-1-nondisjunction-cen"/>
+  <rect x="110.0" y="207.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-r"/>
+  <rect x="119.0" y="207.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-r"/>
+  <circle cx="118" cy="222" r="3" class="gene-1-nondisjunction-cen"/>
+  <circle cx="263" cy="222" r="34" class="gene-1-nondisjunction-cell"/>
+  <text x="107" y="272" text-anchor="middle" class="gene-1-nondisjunction-sm" style="fill:var(--fig-amber)">비분리</text>
+  <text x="272" y="176" text-anchor="middle" class="gene-1-nondisjunction-sm">상동 염색체가</text>
+  <text x="272" y="192" text-anchor="middle" class="gene-1-nondisjunction-sm">함께 한쪽으로</text>
+  <circle cx="57" cy="344" r="27" class="gene-1-nondisjunction-cell"/>
+  <rect x="47.5" y="332.0" width="7" height="24" rx="3.5" class="gene-1-nondisjunction-b"/>
+  <circle cx="51" cy="344" r="2.6" class="gene-1-nondisjunction-cen"/>
+  <rect x="59.5" y="332.0" width="7" height="24" rx="3.5" class="gene-1-nondisjunction-r"/>
+  <circle cx="63" cy="344" r="2.6" class="gene-1-nondisjunction-cen"/>
+  <circle cx="137" cy="344" r="27" class="gene-1-nondisjunction-cell"/>
+  <rect x="127.5" y="332.0" width="7" height="24" rx="3.5" class="gene-1-nondisjunction-b"/>
+  <circle cx="131" cy="344" r="2.6" class="gene-1-nondisjunction-cen"/>
+  <rect x="139.5" y="332.0" width="7" height="24" rx="3.5" class="gene-1-nondisjunction-r"/>
+  <circle cx="143" cy="344" r="2.6" class="gene-1-nondisjunction-cen"/>
+  <circle cx="233" cy="344" r="27" class="gene-1-nondisjunction-cell"/>
+  <circle cx="313" cy="344" r="27" class="gene-1-nondisjunction-cell"/>
+  <text x="57" y="391" text-anchor="middle" class="gene-1-nondisjunction-bad">n+1</text>
+  <text x="137" y="391" text-anchor="middle" class="gene-1-nondisjunction-bad">n+1</text>
+  <text x="233" y="391" text-anchor="middle" class="gene-1-nondisjunction-bad">n−1</text>
+  <text x="313" y="391" text-anchor="middle" class="gene-1-nondisjunction-bad">n−1</text>
+  <text x="185" y="415" text-anchor="middle" class="gene-1-nondisjunction-tx">생식세포 4개 모두 비정상</text>
+  <text x="185" y="433" text-anchor="middle" class="gene-1-nondisjunction-sm">n+1에 서로 다른 상동 염색체(파랑+빨강)</text>
+  <rect x="360" y="10" width="350" height="400" rx="10" class="gene-1-nondisjunction-pan"/>
+  <text x="535" y="36" text-anchor="middle" class="gene-1-nondisjunction-h">감수 2분열에서 비분리</text>
+  <text x="374" y="108" class="gene-1-nondisjunction-sm">감수 분열 전</text>
+  <text x="374" y="126" class="gene-1-nondisjunction-sm">(복제된 상태)</text>
+  <circle cx="535" cy="104" r="42" class="gene-1-nondisjunction-cell"/>
+  <rect x="515.0" y="89.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-b"/>
+  <rect x="524.0" y="89.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-b"/>
+  <circle cx="523" cy="104" r="3" class="gene-1-nondisjunction-cen"/>
+  <rect x="539.0" y="89.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-r"/>
+  <rect x="548.0" y="89.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-r"/>
+  <circle cx="547" cy="104" r="3" class="gene-1-nondisjunction-cen"/>
+  <text x="374" y="172.0" class="gene-1-nondisjunction-sm">감수 1분열</text>
+  <text x="374" y="291.5" class="gene-1-nondisjunction-sm">감수 2분열</text>
+  <line x1="513.0" y1="140.0" x2="469.0" y2="185.0" class="gene-1-nondisjunction-ar"/>
+  <path d="M469.0 185.0 L471.8 177.5 L476.4 182.1 Z" class="gene-1-nondisjunction-ah"/>
+  <line x1="557.0" y1="140.0" x2="601.0" y2="185.0" class="gene-1-nondisjunction-ar"/>
+  <path d="M601.0 185.0 L593.6 182.1 L598.2 177.5 Z" class="gene-1-nondisjunction-ah"/>
+  <line x1="447.0" y1="252.0" x2="415.0" y2="314.0" class="gene-1-nondisjunction-ar"/>
+  <path d="M415.0 314.0 L415.5 306.0 L421.2 309.0 Z" class="gene-1-nondisjunction-ah"/>
+  <line x1="467.0" y1="252.0" x2="479.0" y2="314.0" class="gene-1-nondisjunction-ar"/>
+  <path d="M479.0 314.0 L474.4 307.4 L480.8 306.2 Z" class="gene-1-nondisjunction-ah"/>
+  <line x1="603.0" y1="252.0" x2="591.0" y2="314.0" class="gene-1-nondisjunction-ar"/>
+  <path d="M591.0 314.0 L589.2 306.2 L595.6 307.4 Z" class="gene-1-nondisjunction-ah"/>
+  <line x1="623.0" y1="252.0" x2="655.0" y2="314.0" class="gene-1-nondisjunction-ar"/>
+  <path d="M655.0 314.0 L648.8 309.0 L654.5 306.0 Z" class="gene-1-nondisjunction-ah"/>
+  <circle cx="457" cy="222" r="34" class="gene-1-nondisjunction-cell"/>
+  <rect x="449.0" y="207.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-b"/>
+  <rect x="458.0" y="207.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-b"/>
+  <circle cx="457" cy="222" r="3" class="gene-1-nondisjunction-cen"/>
+  <circle cx="613" cy="222" r="34" class="gene-1-nondisjunction-cell"/>
+  <rect x="605.0" y="207.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-r"/>
+  <rect x="614.0" y="207.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-r"/>
+  <circle cx="613" cy="222" r="3" class="gene-1-nondisjunction-cen"/>
+  <circle cx="407" cy="344" r="27" class="gene-1-nondisjunction-cell"/>
+  <rect x="403.5" y="332.0" width="7" height="24" rx="3.5" class="gene-1-nondisjunction-b"/>
+  <circle cx="407" cy="344" r="2.6" class="gene-1-nondisjunction-cen"/>
+  <circle cx="487" cy="344" r="27" class="gene-1-nondisjunction-cell"/>
+  <rect x="483.5" y="332.0" width="7" height="24" rx="3.5" class="gene-1-nondisjunction-b"/>
+  <circle cx="487" cy="344" r="2.6" class="gene-1-nondisjunction-cen"/>
+  <circle cx="583" cy="344" r="27" class="gene-1-nondisjunction-cell"/>
+  <rect x="573.5" y="332.0" width="7" height="24" rx="3.5" class="gene-1-nondisjunction-r"/>
+  <circle cx="577" cy="344" r="2.6" class="gene-1-nondisjunction-cen"/>
+  <rect x="585.5" y="332.0" width="7" height="24" rx="3.5" class="gene-1-nondisjunction-r"/>
+  <circle cx="589" cy="344" r="2.6" class="gene-1-nondisjunction-cen"/>
+  <circle cx="663" cy="344" r="27" class="gene-1-nondisjunction-cell"/>
+  <text x="665" y="284" text-anchor="middle" class="gene-1-nondisjunction-sm" style="fill:var(--fig-amber)">비분리</text>
+  <text x="665" y="300" text-anchor="middle" class="gene-1-nondisjunction-sm" style="fill:var(--fig-amber)">(염색 분체)</text>
+  <text x="407" y="391" text-anchor="middle" class="gene-1-nondisjunction-ok">n</text>
+  <text x="487" y="391" text-anchor="middle" class="gene-1-nondisjunction-ok">n</text>
+  <text x="583" y="391" text-anchor="middle" class="gene-1-nondisjunction-bad">n+1</text>
+  <text x="663" y="391" text-anchor="middle" class="gene-1-nondisjunction-bad">n−1</text>
+  <text x="535" y="415" text-anchor="middle" class="gene-1-nondisjunction-tx">4개 중 2개만 비정상, 2개는 정상</text>
+  <text x="535" y="433" text-anchor="middle" class="gene-1-nondisjunction-sm">n+1에 같은 염색 분체에서 온 염색체 2개</text>
+  <rect x="22" y="424" width="8" height="18" rx="3" class="gene-1-nondisjunction-b"/><rect x="33" y="424" width="8" height="18" rx="3" class="gene-1-nondisjunction-r"/>
+  <text x="50" y="438" class="gene-1-nondisjunction-sm">상동 염색체 한 쌍(파랑·빨강)만 나타낸 모식도. 막대 2개 = 염색 분체 2개로 된 복제된 염색체, 생식세포에는 1개씩</text>
+</svg>
+</div><figcaption><b>그림 생물의 유전 1-1 감수 1분열 비분리와 감수 2분열 비분리</b> 한 쌍의 상동 염색체만 나타낸 모식도이다. 감수 1분열에서 상동 염색체가 갈라지지 않으면 생식세포 4개가 모두 비정상(n+1 2개, n−1 2개)이 되고, 감수 2분열에서 한 세포의 염색 분체가 갈라지지 않으면 4개 중 2개만 비정상(n+1 1개, n−1 1개)이 된다.</figcaption></figure>
+
 <div class="table-wrap"><table><thead><tr>
 <th>유전병</th>
 <th>핵형</th>
@@ -777,6 +908,146 @@
 <p>대장균 안으로 들어가 새 파지를 만든 것은 DNA였으므로, 파지의 유전물질은 <strong>DNA</strong>이다.</p>
 <aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 택배(파지)가 도착했을 때 상자(단백질 껍질)는 문밖에 두고 안의 설명서(DNA)만 집 안(대장균)에 들어간다. 집 안에서 설명서대로 새 택배가 만들어진다면, 정보를 담은 것은 상자가 아니라 설명서이다. 허시와 체이스는 상자에는 &#39;황 스티커&#39;, 설명서에는 &#39;인 스티커&#39;를 붙여 무엇이 들어갔는지 추적했다.</p>
 </aside>
+<figure class="fig" id="fig-gene-1-hershey-chase"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-labelledby="t-gene-1-hershey-chase d-gene-1-hershey-chase">
+  <title id="t-gene-1-hershey-chase">그림 생물의 유전 1-2 허시와 체이스의 실험</title>
+  <desc id="d-gene-1-hershey-chase">³⁵S로 단백질 껍질을 표지한 파지와 ³²P로 DNA를 표지한 파지를 각각 대장균에 감염시킨 뒤 흔들어 원심 분리하면, ³⁵S는 파지 껍질이 있는 상층액에서, ³²P는 대장균이 있는 침전물에서 주로 검출된다. 대장균 안으로 들어간 것은 DNA이다.</desc>
+  <style>
+    .gene-1-hershey-chase-h{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .gene-1-hershey-chase-tx{font-size:14px;fill:var(--fig-ink)}
+    .gene-1-hershey-chase-sm{font-size:13px;fill:var(--fig-muted)}
+    .gene-1-hershey-chase-hot{font-size:14px;font-weight:600;fill:var(--fig-red)}
+    .gene-1-hershey-chase-coat{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.6}
+    .gene-1-hershey-chase-coatH{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2.4}
+    .gene-1-hershey-chase-dna{fill:none;stroke:var(--fig-muted);stroke-width:2}
+    .gene-1-hershey-chase-dnaH{fill:none;stroke:var(--fig-red);stroke-width:2.6}
+    .gene-1-hershey-chase-leg{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
+    .gene-1-hershey-chase-legH{fill:none;stroke:var(--fig-red);stroke-width:2}
+    .gene-1-hershey-chase-bac{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2}
+    .gene-1-hershey-chase-tube{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.6}
+    .gene-1-hershey-chase-liq{fill:var(--fig-soft-blue)}
+    .gene-1-hershey-chase-pel{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5}
+    .gene-1-hershey-chase-ar{fill:none;stroke:var(--fig-muted);stroke-width:1.6}
+    .gene-1-hershey-chase-ah{fill:var(--fig-muted)}
+    .gene-1-hershey-chase-pan{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1}
+    .gene-1-hershey-chase-dot{fill:var(--fig-red)}
+    .gene-1-hershey-chase-ln{fill:none;stroke:var(--fig-line);stroke-width:1}
+  </style>
+  <text x="88" y="26" text-anchor="middle" class="gene-1-hershey-chase-h">① 표지한 파지</text>
+  <text x="258" y="26" text-anchor="middle" class="gene-1-hershey-chase-h">② 대장균에 감염</text>
+  <text x="428" y="26" text-anchor="middle" class="gene-1-hershey-chase-h">③ 흔들어 껍질 떼어 내기</text>
+  <text x="600" y="26" text-anchor="middle" class="gene-1-hershey-chase-h">④ 원심 분리 결과</text>
+  <rect x="10" y="38" width="700" height="190" rx="10" class="gene-1-hershey-chase-pan"/>
+  <polygon points="104.2,105.4 88.0,114.8 71.8,105.4 71.8,86.6 88.0,77.2 104.2,86.6" class="gene-1-hershey-chase-coatH"/>
+  <path d="M78.0 91.0 q4 -6 8 0 t8 0 M78.0 101.0 q4 -6 8 0 t8 0" class="gene-1-hershey-chase-dna"/>
+  <rect x="84.2" y="114.8" width="7.5" height="28.8" class="gene-1-hershey-chase-coatH"/>
+  <rect x="76.8" y="142.2" width="22.5" height="5.0" class="gene-1-hershey-chase-coatH"/>
+  <path d="M78.0 146.0 l-10 9 M98.0 146.0 l10 9" class="gene-1-hershey-chase-legH"/>
+  <text x="88" y="188" text-anchor="middle" class="gene-1-hershey-chase-hot">³⁵S</text>
+  <text x="88" y="208" text-anchor="middle" class="gene-1-hershey-chase-sm">단백질 껍질을 표지</text>
+  <line x1="150" y1="133" x2="182" y2="133" class="gene-1-hershey-chase-ar"/>
+  <path d="M182.0 133.0 L174.7 136.3 L174.7 129.7 Z" class="gene-1-hershey-chase-ah"/>
+  <rect x="196" y="133" width="124" height="44" rx="22" class="gene-1-hershey-chase-bac"/>
+  <polygon points="239.0,104.0 228.0,110.3 217.0,104.0 217.0,91.2 228.0,84.8 239.0,91.2" class="gene-1-hershey-chase-coatH"/>
+  <rect x="225.4" y="110.3" width="5.1" height="19.5" class="gene-1-hershey-chase-coatH"/>
+  <rect x="220.3" y="129.1" width="15.3" height="3.4" class="gene-1-hershey-chase-coatH"/>
+  <path d="M221.2 131.6 l-10 9 M234.8 131.6 l10 9" class="gene-1-hershey-chase-legH"/>
+  <polygon points="269.0,104.0 258.0,110.3 247.0,104.0 247.0,91.2 258.0,84.8 269.0,91.2" class="gene-1-hershey-chase-coatH"/>
+  <rect x="255.4" y="110.3" width="5.1" height="19.5" class="gene-1-hershey-chase-coatH"/>
+  <rect x="250.3" y="129.1" width="15.3" height="3.4" class="gene-1-hershey-chase-coatH"/>
+  <path d="M251.2 131.6 l-10 9 M264.8 131.6 l10 9" class="gene-1-hershey-chase-legH"/>
+  <polygon points="299.0,104.0 288.0,110.3 277.0,104.0 277.0,91.2 288.0,84.8 299.0,91.2" class="gene-1-hershey-chase-coatH"/>
+  <rect x="285.4" y="110.3" width="5.1" height="19.5" class="gene-1-hershey-chase-coatH"/>
+  <rect x="280.4" y="129.1" width="15.3" height="3.4" class="gene-1-hershey-chase-coatH"/>
+  <path d="M281.2 131.6 l-10 9 M294.8 131.6 l10 9" class="gene-1-hershey-chase-legH"/>
+  <path d="M214 159 q6 -10 12 0 t12 0 t12 0 M266 161 q6 -10 12 0 t12 0 t12 0" class="gene-1-hershey-chase-dna"/>
+  <text x="258" y="208" text-anchor="middle" class="gene-1-hershey-chase-sm">DNA만 대장균 안으로</text>
+  <line x1="332" y1="133" x2="354" y2="133" class="gene-1-hershey-chase-ar"/>
+  <path d="M354.0 133.0 L346.7 136.3 L346.7 129.7 Z" class="gene-1-hershey-chase-ah"/>
+  <rect x="378" y="133" width="100" height="44" rx="22" class="gene-1-hershey-chase-bac"/>
+  <path d="M392 159 q6 -10 12 0 t12 0 t12 0 M430 161 q6 -10 12 0 t12 0" class="gene-1-hershey-chase-dna"/>
+  <polygon points="398.4,69.8 388.0,75.8 377.6,69.8 377.6,57.8 388.0,51.8 398.4,57.8" class="gene-1-hershey-chase-coatH"/>
+  <rect x="385.6" y="75.8" width="4.8" height="18.4" class="gene-1-hershey-chase-coatH"/>
+  <rect x="380.8" y="93.4" width="14.4" height="3.2" class="gene-1-hershey-chase-coatH"/>
+  <path d="M381.6 95.8 l-10 9 M394.4 95.8 l10 9" class="gene-1-hershey-chase-legH"/>
+  <polygon points="476.4,63.8 466.0,69.8 455.6,63.8 455.6,51.8 466.0,45.8 476.4,51.8" class="gene-1-hershey-chase-coatH"/>
+  <rect x="463.6" y="69.8" width="4.8" height="18.4" class="gene-1-hershey-chase-coatH"/>
+  <rect x="458.8" y="87.4" width="14.4" height="3.2" class="gene-1-hershey-chase-coatH"/>
+  <path d="M459.6 89.8 l-10 9 M472.4 89.8 l10 9" class="gene-1-hershey-chase-legH"/>
+  <text x="428" y="208" text-anchor="middle" class="gene-1-hershey-chase-sm">빈 껍질은 밖에 남는다</text>
+  <line x1="490" y1="133" x2="518" y2="133" class="gene-1-hershey-chase-ar"/>
+  <path d="M518.0 133.0 L510.7 136.3 L510.7 129.7 Z" class="gene-1-hershey-chase-ah"/>
+  <path d="M554 68 L554 190 A16 16 0 0 0 586 190 L586 68" class="gene-1-hershey-chase-tube"/>
+  <path d="M555.5 90 L555.5 190 A14.5 14.5 0 0 0 584.5 190 L584.5 90 Z" class="gene-1-hershey-chase-liq"/>
+  <ellipse cx="570" cy="196" rx="11" ry="7" class="gene-1-hershey-chase-pel"/>
+  <circle cx="563" cy="108" r="2.6" class="gene-1-hershey-chase-dot"/>
+  <circle cx="575" cy="120" r="2.6" class="gene-1-hershey-chase-dot"/>
+  <circle cx="567" cy="134" r="2.6" class="gene-1-hershey-chase-dot"/>
+  <circle cx="577" cy="148" r="2.6" class="gene-1-hershey-chase-dot"/>
+  <circle cx="562" cy="160" r="2.6" class="gene-1-hershey-chase-dot"/>
+  <circle cx="572" cy="172" r="2.6" class="gene-1-hershey-chase-dot"/>
+  <line x1="588" y1="128" x2="604" y2="128" class="gene-1-hershey-chase-ln"/>
+  <text x="608" y="124" class="gene-1-hershey-chase-tx">상층액</text><text x="608" y="141" class="gene-1-hershey-chase-sm">(파지 껍질)</text>
+  <line x1="584" y1="196" x2="604" y2="196" class="gene-1-hershey-chase-ln"/>
+  <text x="608" y="192" class="gene-1-hershey-chase-tx">침전물</text><text x="608" y="209" class="gene-1-hershey-chase-sm">(대장균)</text>
+  <text x="608" y="78" class="gene-1-hershey-chase-hot">방사능 → 상층액</text>
+  <rect x="10" y="238" width="700" height="190" rx="10" class="gene-1-hershey-chase-pan"/>
+  <polygon points="104.2,305.4 88.0,314.8 71.8,305.4 71.8,286.6 88.0,277.2 104.2,286.6" class="gene-1-hershey-chase-coat"/>
+  <path d="M78.0 291.0 q4 -6 8 0 t8 0 M78.0 301.0 q4 -6 8 0 t8 0" class="gene-1-hershey-chase-dnaH" />
+  <rect x="84.2" y="314.8" width="7.5" height="28.8" class="gene-1-hershey-chase-coat"/>
+  <rect x="76.8" y="342.2" width="22.5" height="5.0" class="gene-1-hershey-chase-coat"/>
+  <path d="M78.0 346.0 l-10 9 M98.0 346.0 l10 9" class="gene-1-hershey-chase-leg"/>
+  <text x="88" y="388" text-anchor="middle" class="gene-1-hershey-chase-hot">³²P</text>
+  <text x="88" y="408" text-anchor="middle" class="gene-1-hershey-chase-sm">DNA를 표지</text>
+  <line x1="150" y1="333" x2="182" y2="333" class="gene-1-hershey-chase-ar"/>
+  <path d="M182.0 333.0 L174.7 336.3 L174.7 329.7 Z" class="gene-1-hershey-chase-ah"/>
+  <rect x="196" y="333" width="124" height="44" rx="22" class="gene-1-hershey-chase-bac"/>
+  <polygon points="239.0,304.0 228.0,310.4 217.0,304.0 217.0,291.2 228.0,284.9 239.0,291.2" class="gene-1-hershey-chase-coat"/>
+  <rect x="225.4" y="310.4" width="5.1" height="19.5" class="gene-1-hershey-chase-coat"/>
+  <rect x="220.3" y="329.1" width="15.3" height="3.4" class="gene-1-hershey-chase-coat"/>
+  <path d="M221.2 331.6 l-10 9 M234.8 331.6 l10 9" class="gene-1-hershey-chase-leg"/>
+  <polygon points="269.0,304.0 258.0,310.4 247.0,304.0 247.0,291.2 258.0,284.9 269.0,291.2" class="gene-1-hershey-chase-coat"/>
+  <rect x="255.4" y="310.4" width="5.1" height="19.5" class="gene-1-hershey-chase-coat"/>
+  <rect x="250.3" y="329.1" width="15.3" height="3.4" class="gene-1-hershey-chase-coat"/>
+  <path d="M251.2 331.6 l-10 9 M264.8 331.6 l10 9" class="gene-1-hershey-chase-leg"/>
+  <polygon points="299.0,304.0 288.0,310.4 277.0,304.0 277.0,291.2 288.0,284.9 299.0,291.2" class="gene-1-hershey-chase-coat"/>
+  <rect x="285.4" y="310.4" width="5.1" height="19.5" class="gene-1-hershey-chase-coat"/>
+  <rect x="280.4" y="329.1" width="15.3" height="3.4" class="gene-1-hershey-chase-coat"/>
+  <path d="M281.2 331.6 l-10 9 M294.8 331.6 l10 9" class="gene-1-hershey-chase-leg"/>
+  <path d="M214 359 q6 -10 12 0 t12 0 t12 0 M266 361 q6 -10 12 0 t12 0 t12 0" class="gene-1-hershey-chase-dnaH"/>
+  <text x="258" y="408" text-anchor="middle" class="gene-1-hershey-chase-sm">DNA만 대장균 안으로</text>
+  <line x1="332" y1="333" x2="354" y2="333" class="gene-1-hershey-chase-ar"/>
+  <path d="M354.0 333.0 L346.7 336.3 L346.7 329.7 Z" class="gene-1-hershey-chase-ah"/>
+  <rect x="378" y="333" width="100" height="44" rx="22" class="gene-1-hershey-chase-bac"/>
+  <path d="M392 359 q6 -10 12 0 t12 0 t12 0 M430 361 q6 -10 12 0 t12 0" class="gene-1-hershey-chase-dnaH"/>
+  <polygon points="398.4,269.8 388.0,275.8 377.6,269.8 377.6,257.8 388.0,251.8 398.4,257.8" class="gene-1-hershey-chase-coat"/>
+  <rect x="385.6" y="275.8" width="4.8" height="18.4" class="gene-1-hershey-chase-coat"/>
+  <rect x="380.8" y="293.4" width="14.4" height="3.2" class="gene-1-hershey-chase-coat"/>
+  <path d="M381.6 295.8 l-10 9 M394.4 295.8 l10 9" class="gene-1-hershey-chase-leg"/>
+  <polygon points="476.4,263.8 466.0,269.8 455.6,263.8 455.6,251.8 466.0,245.8 476.4,251.8" class="gene-1-hershey-chase-coat"/>
+  <rect x="463.6" y="269.8" width="4.8" height="18.4" class="gene-1-hershey-chase-coat"/>
+  <rect x="458.8" y="287.4" width="14.4" height="3.2" class="gene-1-hershey-chase-coat"/>
+  <path d="M459.6 289.8 l-10 9 M472.4 289.8 l10 9" class="gene-1-hershey-chase-leg"/>
+  <text x="428" y="408" text-anchor="middle" class="gene-1-hershey-chase-sm">빈 껍질은 밖에 남는다</text>
+  <line x1="490" y1="333" x2="518" y2="333" class="gene-1-hershey-chase-ar"/>
+  <path d="M518.0 333.0 L510.7 336.3 L510.7 329.7 Z" class="gene-1-hershey-chase-ah"/>
+  <path d="M554 268 L554 390 A16 16 0 0 0 586 390 L586 268" class="gene-1-hershey-chase-tube"/>
+  <path d="M555.5 290 L555.5 390 A14.5 14.5 0 0 0 584.5 390 L584.5 290 Z" class="gene-1-hershey-chase-liq"/>
+  <ellipse cx="570" cy="396" rx="11" ry="7" class="gene-1-hershey-chase-pel"/>
+  <circle cx="565" cy="395" r="2.4" class="gene-1-hershey-chase-dot"/>
+  <circle cx="573" cy="397" r="2.4" class="gene-1-hershey-chase-dot"/>
+  <circle cx="570" cy="393" r="2.4" class="gene-1-hershey-chase-dot"/>
+  <circle cx="576" cy="394" r="2.4" class="gene-1-hershey-chase-dot"/>
+  <circle cx="568" cy="399" r="2.4" class="gene-1-hershey-chase-dot"/>
+  <line x1="588" y1="328" x2="604" y2="328" class="gene-1-hershey-chase-ln"/>
+  <text x="608" y="324" class="gene-1-hershey-chase-tx">상층액</text><text x="608" y="341" class="gene-1-hershey-chase-sm">(파지 껍질)</text>
+  <line x1="584" y1="396" x2="604" y2="396" class="gene-1-hershey-chase-ln"/>
+  <text x="608" y="392" class="gene-1-hershey-chase-tx">침전물</text><text x="608" y="409" class="gene-1-hershey-chase-sm">(대장균)</text>
+  <text x="608" y="278" class="gene-1-hershey-chase-hot">방사능 → 침전물</text>
+  <circle cx="24" cy="448" r="4" class="gene-1-hershey-chase-dot"/>
+  <text x="36" y="453" class="gene-1-hershey-chase-sm">빨간색: 방사성 동위 원소로 표지된 부분(모식도). 대장균 안으로 들어가 새 파지를 만든 것은 DNA이다.</text>
+</svg>
+</div><figcaption><b>그림 생물의 유전 1-2 허시와 체이스의 실험</b> ³⁵S로 단백질 껍질을 표지한 파지와 ³²P로 DNA를 표지한 파지를 각각 대장균에 감염시킨 뒤 흔들어 원심 분리하면, ³⁵S는 파지 껍질이 있는 상층액에서, ³²P는 대장균이 있는 침전물에서 주로 검출된다. 대장균 안으로 들어간 것은 DNA이다.</figcaption></figure>
+
 <h4 id="4-dna-구조를-밝힌-단서와-이중-나선-모형-1950-1953">(4) DNA 구조를 밝힌 단서와 이중 나선 모형 (1950~1953)</h4>
 <div class="table-wrap"><table><thead><tr>
 <th>연구자</th>
@@ -808,6 +1079,8 @@
 <li>염기쌍 사이 간격은 약 0.34 nm, 나선 한 바퀴에 약 10개의 염기쌍(약 3.4 nm)이 있다.</li>
 </ul>
 <p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathrm">A</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord mathrm">T</span><span class="mpunct">,</span><span class="mspace" style="margin-right:2em;"></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathrm">G</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord mathrm">C</span><span class="mpunct">,</span><span class="mspace" style="margin-right:2em;"></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathrm">A</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathrm">G</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord mathrm">T</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathrm">C</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8056em;vertical-align:-0.0556em;"></span><span class="mord">50%</span></span></span></span></span></p>
+<figure class="sim" id="sim-dna-3d" data-sim="dna-3d"><noscript>이 애니메이션은 자바스크립트가 필요하다.</noscript></figure>
+
 <aside class="callout important"><p class="callout-title">핵심</p><p>왓슨과 크릭은 논문에서 &quot;우리가 가정한 특이적 짝짓기는 유전물질의 복제 방식을 곧바로 암시한다&quot;고 썼다. 구조를 알자 <strong>기능(복제)이 보였다</strong>는 점이 이 발견의 진짜 의미이다. 한편 프랭클린의 X선 회절 자료는 모형의 결정적인 근거였지만 그는 1958년에 세상을 떠났고, 1962년 노벨상은 왓슨, 크릭, 윌킨스가 받았다. 과학의 성과가 여러 사람의 자료와 협력 위에 세워진다는 점, 그리고 연구 자료의 공정한 공유와 인정이라는 연구 윤리 문제를 함께 생각해 볼 수 있다.</p>
 </aside>
 <h4 id="예제-5-샤가프-법칙과-dna의-크기">예제 5 — 샤가프 법칙과 DNA의 크기</h4>
@@ -969,6 +1242,8 @@
 </tbody></table></div>
 <p>1세대 결과로 보존적 복제가, 2세대 결과로 분산적 복제가 배제되어 <strong>반보존적 복제</strong>가 확인되었다.</p>
 <figure class="diagram" role="img"><div class="diagram-scroll"><svg style="width:256px" id="mm-gene-1-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 256.1875 509.5" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-gene-1-2{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-gene-1-2 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-gene-1-2 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-gene-1-2 .error-icon{fill:var(--mm-group);}#mm-gene-1-2 .error-text{fill:#595959;stroke:#595959;}#mm-gene-1-2 .edge-thickness-normal{stroke-width:1px;}#mm-gene-1-2 .edge-thickness-thick{stroke-width:3.5px;}#mm-gene-1-2 .edge-pattern-solid{stroke-dasharray:0;}#mm-gene-1-2 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-gene-1-2 .edge-pattern-dashed{stroke-dasharray:3;}#mm-gene-1-2 .edge-pattern-dotted{stroke-dasharray:2;}#mm-gene-1-2 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-gene-1-2 .marker.cross{stroke:var(--mm-line);}#mm-gene-1-2 svg{font-family:inherit;font-size:15px;}#mm-gene-1-2 p{margin:0;}#mm-gene-1-2 .label{font-family:inherit;color:var(--mm-text);}#mm-gene-1-2 .cluster-label text{fill:#595959;}#mm-gene-1-2 .cluster-label span{color:#595959;}#mm-gene-1-2 .cluster-label span p{background-color:transparent;}#mm-gene-1-2 .label text,#mm-gene-1-2 span{fill:var(--mm-text);color:var(--mm-text);}#mm-gene-1-2 .node rect,#mm-gene-1-2 .node circle,#mm-gene-1-2 .node ellipse,#mm-gene-1-2 .node polygon,#mm-gene-1-2 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-gene-1-2 .rough-node .label text,#mm-gene-1-2 .node .label text,#mm-gene-1-2 .image-shape .label,#mm-gene-1-2 .icon-shape .label{text-anchor:middle;}#mm-gene-1-2 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-gene-1-2 .rough-node .label,#mm-gene-1-2 .node .label,#mm-gene-1-2 .image-shape .label,#mm-gene-1-2 .icon-shape .label{text-align:center;}#mm-gene-1-2 .node.clickable{cursor:pointer;}#mm-gene-1-2 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-gene-1-2 .arrowheadPath{fill:#0b0b0b;}#mm-gene-1-2 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-gene-1-2 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-gene-1-2 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-gene-1-2 .edgeLabel p{background-color:var(--mm-label);}#mm-gene-1-2 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-gene-1-2 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-gene-1-2 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-gene-1-2 .cluster text{fill:#595959;}#mm-gene-1-2 .cluster span{color:#595959;}#mm-gene-1-2 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-gene-1-2 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-gene-1-2 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-gene-1-2 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-gene-1-2 rect.text{fill:none;stroke-width:0;}#mm-gene-1-2 .icon-shape,#mm-gene-1-2 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-gene-1-2 .icon-shape p,#mm-gene-1-2 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-gene-1-2 .icon-shape .label rect,#mm-gene-1-2 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-gene-1-2 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-gene-1-2 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-gene-1-2 .node .neo-node{stroke:var(--mm-border);}#mm-gene-1-2 [data-look="neo"].node rect,#mm-gene-1-2 [data-look="neo"].cluster rect,#mm-gene-1-2 [data-look="neo"].node polygon{stroke:url(#mm-gene-1-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-gene-1-2 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-gene-1-2 [data-look="neo"].node path{stroke:url(#mm-gene-1-2-gradient);stroke-width:1px;}#mm-gene-1-2 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-gene-1-2 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-gene-1-2 [data-look="neo"].node circle{stroke:url(#mm-gene-1-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-gene-1-2 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-gene-1-2 [data-look="neo"].icon-shape .icon{fill:url(#mm-gene-1-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-gene-1-2 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-gene-1-2-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-gene-1-2 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-gene-1-2_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-gene-1-2_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-gene-1-2_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-gene-1-2_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-gene-1-2_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-gene-1-2_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-gene-1-2_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-gene-1-2_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-gene-1-2_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-gene-1-2_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-gene-1-2_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-gene-1-2_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M128.094,77L128.094,81.167C128.094,85.333,128.094,93.667,128.094,101.333C128.094,109,128.094,116,128.094,119.5L128.094,123" id="mm-gene-1-2-L_G0_G1_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_G0_G1_0" data-points="W3sieCI6MTI4LjA5Mzc1LCJ5Ijo3N30seyJ4IjoxMjguMDkzNzUsInkiOjEwMn0seyJ4IjoxMjguMDkzNzUsInkiOjEyN31d" data-look="classic" marker-end="url(#mm-gene-1-2_flowchart-v2-pointEnd)"/><path d="M128.094,218.5L128.094,222.667C128.094,226.833,128.094,235.167,128.094,242.833C128.094,250.5,128.094,257.5,128.094,261L128.094,264.5" id="mm-gene-1-2-L_G1_G2_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_G1_G2_0" data-points="W3sieCI6MTI4LjA5Mzc1LCJ5IjoyMTguNX0seyJ4IjoxMjguMDkzNzUsInkiOjI0My41fSx7IngiOjEyOC4wOTM3NSwieSI6MjY4LjV9XQ==" data-look="classic" marker-end="url(#mm-gene-1-2_flowchart-v2-pointEnd)"/><path d="M128.094,360L128.094,364.167C128.094,368.333,128.094,376.667,128.094,384.333C128.094,392,128.094,399,128.094,402.5L128.094,406" id="mm-gene-1-2-L_G2_G3_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_G2_G3_0" data-points="W3sieCI6MTI4LjA5Mzc1LCJ5IjozNjB9LHsieCI6MTI4LjA5Mzc1LCJ5IjozODV9LHsieCI6MTI4LjA5Mzc1LCJ5Ijo0MTB9XQ==" data-look="classic" marker-end="url(#mm-gene-1-2_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_G0_G1_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_G1_G2_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_G2_G3_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-gene-1-2-flowchart-G0-0" data-look="classic" transform="translate(128.09375, 42.5)"><rect class="basic label-container" style="" x="-67.7734375" y="-34.5" width="135.546875" height="69"/><g class="label" style="" transform="translate(-43.7734375, -22.5)"><rect/><foreignObject width="87.546875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>0세대<br />15N-15N 1개</p></span></div></foreignObject></g></g><g class="node default" id="mm-gene-1-2-flowchart-G1-1" data-look="classic" transform="translate(128.09375, 172.75)"><rect class="basic label-container" style="" x="-67.7734375" y="-45.75" width="135.546875" height="91.5"/><g class="label" style="" transform="translate(-43.7734375, -33.75)"><rect/><foreignObject width="87.546875" height="67.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>1세대<br />15N-14N 2개<br />중간 띠만</p></span></div></foreignObject></g></g><g class="node default" id="mm-gene-1-2-flowchart-G2-3" data-look="classic" transform="translate(128.09375, 314.25)"><rect class="basic label-container" style="" x="-120.09375" y="-45.75" width="240.1875" height="91.5"/><g class="label" style="" transform="translate(-96.09375, -33.75)"><rect/><foreignObject width="192.1875" height="67.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>2세대<br />15N-14N 2개 + 14N-14N 2개<br />중간 : 가벼움 = 1 : 1</p></span></div></foreignObject></g></g><g class="node default" id="mm-gene-1-2-flowchart-G3-5" data-look="classic" transform="translate(128.09375, 455.75)"><rect class="basic label-container" style="" x="-120.09375" y="-45.75" width="240.1875" height="91.5"/><g class="label" style="" transform="translate(-96.09375, -33.75)"><rect/><foreignObject width="192.1875" height="67.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>3세대<br />15N-14N 2개 + 14N-14N 6개<br />중간 : 가벼움 = 1 : 3</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-gene-1-2-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-gene-1-2-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-gene-1-2-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><p><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span>세대 뒤 DNA는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6644em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span></span></span></span></span></span></span></span>개이고, 그중 원래 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">15</span></span></span></span></span></span></span></span></span><span class="mord mathrm">N</span></span></span></span> 가닥을 하나씩 가진 중간 밀도 DNA는 <strong>항상 2개</strong>이다. 원래 두 가닥은 없어지지 않고 끝까지 하나씩 다른 DNA에 나뉘어 남는다.</p>
+<figure class="sim" id="sim-dna-replication" data-sim="dna-replication"><noscript>이 애니메이션은 자바스크립트가 필요하다.</noscript></figure>
+
 <h4 id="복제가-일어나는-과정-용어-수준으로">복제가 일어나는 과정 — 용어 수준으로</h4>
 <div class="table-wrap"><table><thead><tr>
 <th>단계</th>

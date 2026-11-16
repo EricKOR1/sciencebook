@@ -89,14 +89,14 @@ Sims.register('em-wave', {
       },
       overlay: function (ctx, T, S2) {
         // 아래쪽 스펙트럼 띠(로그 눈금)
-        var w = S2.w, h = S2.h, x0 = 12, x1 = w - 12, y = h - 30, bh = 12;
+        var w = S2.w, h = S2.h, x0 = 12, x1 = w - 12, y = h - 40, bh = 12;
         var lo = -11.5, hi = 2, X = function (lg) { return x1 - (lg - lo) / (hi - lo) * (x1 - x0); };   // 왼쪽이 긴 파장
         var bands = [[-3, 2, '전파', T.figSoftAmber], [Math.log10(700e-9), -3, '적외선', T.figSoftRed], [Math.log10(10e-9), Math.log10(400e-9), '자외선', T.figSoftViolet], [-11, -8, 'X선', T.figSoftBlue], [lo, -11, '감마', T.figSoftTeal]];
         ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'center'; ctx.textBaseline = 'alphabetic';
         bands.forEach(function (b) {
           var a = X(b[1]), c = X(b[0]);
           ctx.fillStyle = b[3]; ctx.fillRect(a, y, c - a, bh);
-          ctx.fillStyle = T.figMuted; if (c - a > 26) ctx.fillText(b[2], (a + c) / 2, y + bh + 13);
+          ctx.fillStyle = T.figMuted; if (c - a > 26) ctx.fillText(b[2], (a + c) / 2, y + bh + 24);
         });
         var va = X(Math.log10(700e-9)), vb = X(Math.log10(400e-9));
         var gr = ctx.createLinearGradient(va, 0, vb, 0);
@@ -104,7 +104,7 @@ Sims.register('em-wave', {
         ctx.fillStyle = gr; ctx.fillRect(va, y, Math.max(2, vb - va), bh);
         ctx.fillStyle = T.figMuted; ctx.fillText('가시광선', (va + vb) / 2, y - 4);
         var mx = X(st.lg);
-        ctx.fillStyle = T.figInk; ctx.beginPath(); ctx.moveTo(mx, y - 1); ctx.lineTo(mx - 6, y - 10); ctx.lineTo(mx + 6, y - 10); ctx.closePath(); ctx.fill();
+        ctx.fillStyle = T.figInk; ctx.fillRect(mx - 1, y - 2, 2, bh + 4); ctx.beginPath(); ctx.moveTo(mx, y + bh + 1); ctx.lineTo(mx - 6, y + bh + 10); ctx.lineTo(mx + 6, y + bh + 10); ctx.closePath(); ctx.fill();
         ctx.textAlign = 'left'; ctx.fillText('← 파장이 길다', x0, y - 14); ctx.textAlign = 'right'; ctx.fillText('파장이 짧다 →', x1, y - 14);
       },
     });

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-earth-2-unconformities d-earth-2-unconformities">
+  <title id="t-earth-2-unconformities">그림 지구과학 2-1 부정합의 세 가지 종류</title>
+  <desc id="d-earth-2-unconformities">평행 부정합은 위아래 지층이 나란하고, 경사 부정합은 아래 지층이 기울어져 있으며, 난정합은 아래가 화성암이나 변성암이다. 세 경우 모두 침식면(부정합면) 바로 위에 기저 역암이 쌓여 있다.</desc>
+  <style>
+    .earth-2-unconformities-b{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .earth-2-unconformities-s{font-size:13px;fill:var(--fig-muted)}
+    .earth-2-unconformities-l1{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1}
+    .earth-2-unconformities-l2{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1}
+    .earth-2-unconformities-l3{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1}
+    .earth-2-unconformities-pb{fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1}
+    .earth-2-unconformities-u{fill:none;stroke:var(--fig-red);stroke-width:3}
+  </style>
+  <defs>
+    <clipPath id="earth-2-unconformities-c1"><path d="M20 150 Q60 140 100 152 T180 148 T220 150 L220 230 L20 230 Z"/></clipPath>
+    <clipPath id="earth-2-unconformities-c2"><path d="M260 150 Q300 140 340 152 T420 148 T460 150 L460 230 L260 230 Z"/></clipPath>
+    <clipPath id="earth-2-unconformities-c3"><path d="M500 150 Q540 140 580 152 T660 148 T700 150 L700 230 L500 230 Z"/></clipPath>
+  </defs>
+  <!-- 공통: 위 지층 -->
+  <g>
+    <rect x="20" y="50" width="200" height="34" class="earth-2-unconformities-l3"/><rect x="20" y="84" width="200" height="34" class="earth-2-unconformities-l2"/>
+    <rect x="260" y="50" width="200" height="34" class="earth-2-unconformities-l3"/><rect x="260" y="84" width="200" height="34" class="earth-2-unconformities-l2"/>
+    <rect x="500" y="50" width="200" height="34" class="earth-2-unconformities-l3"/><rect x="500" y="84" width="200" height="34" class="earth-2-unconformities-l2"/>
+    <rect x="20" y="118" width="200" height="44" class="earth-2-unconformities-l1"/>
+    <rect x="260" y="118" width="200" height="44" class="earth-2-unconformities-l1"/>
+    <rect x="500" y="118" width="200" height="44" class="earth-2-unconformities-l1"/>
+  </g>
+  <!-- 기저 역암(자갈) -->
+  <g class="earth-2-unconformities-pb">
+    <ellipse cx="38" cy="140" rx="6" ry="4"/><ellipse cx="62" cy="134" rx="5" ry="4"/><ellipse cx="88" cy="141" rx="7" ry="4"/><ellipse cx="116" cy="144" rx="5" ry="3"/><ellipse cx="146" cy="142" rx="6" ry="4"/><ellipse cx="176" cy="140" rx="5" ry="4"/><ellipse cx="204" cy="142" rx="6" ry="4"/>
+    <ellipse cx="278" cy="140" rx="6" ry="4"/><ellipse cx="302" cy="134" rx="5" ry="4"/><ellipse cx="328" cy="141" rx="7" ry="4"/><ellipse cx="356" cy="144" rx="5" ry="3"/><ellipse cx="386" cy="142" rx="6" ry="4"/><ellipse cx="416" cy="140" rx="5" ry="4"/><ellipse cx="444" cy="142" rx="6" ry="4"/>
+    <ellipse cx="518" cy="140" rx="6" ry="4"/><ellipse cx="542" cy="134" rx="5" ry="4"/><ellipse cx="568" cy="141" rx="7" ry="4"/><ellipse cx="596" cy="144" rx="5" ry="3"/><ellipse cx="626" cy="142" rx="6" ry="4"/><ellipse cx="656" cy="140" rx="5" ry="4"/><ellipse cx="684" cy="142" rx="6" ry="4"/>
+  </g>
+  <!-- (가) 평행 부정합: 아래도 수평 -->
+  <g clip-path="url(#earth-2-unconformities-c1)">
+    <rect x="20" y="130" width="200" height="38" class="earth-2-unconformities-l3"/><rect x="20" y="168" width="200" height="30" class="earth-2-unconformities-l2"/><rect x="20" y="198" width="200" height="32" class="earth-2-unconformities-l1"/>
+  </g>
+  <!-- (나) 경사 부정합: 아래가 기울어짐 -->
+  <g clip-path="url(#earth-2-unconformities-c2)">
+    <rect x="200" y="100" width="320" height="200" class="earth-2-unconformities-l2"/>
+    <path d="M230 140 L330 140 L480 300 L380 300 Z" class="earth-2-unconformities-l3"/>
+    <path d="M150 140 L230 140 L380 300 L300 300 Z" class="earth-2-unconformities-l1"/>
+    <path d="M380 140 L460 140 L610 300 L530 300 Z" class="earth-2-unconformities-l1"/>
+  </g>
+  <!-- (다) 난정합: 아래가 화강암 -->
+  <g clip-path="url(#earth-2-unconformities-c3)">
+    <rect x="500" y="130" width="200" height="100" style="fill:var(--fig-soft-red);stroke:none"/>
+    <g style="stroke:var(--fig-red);stroke-width:1.2">
+      <path d="M515 172 l8 0 M519 168 l0 8 M545 196 l8 0 M549 192 l0 8 M575 170 l8 0 M579 166 l0 8 M605 200 l8 0 M609 196 l0 8 M635 174 l8 0 M639 170 l0 8 M665 198 l8 0 M669 194 l0 8 M688 170 l8 0 M692 166 l0 8 M530 214 l8 0 M534 210 l0 8 M590 216 l8 0 M594 212 l0 8 M650 218 l8 0 M654 214 l0 8"/>
+    </g>
+  </g>
+  <rect x="20" y="50" width="200" height="180" style="fill:none;stroke:var(--fig-line);stroke-width:1.2"/>
+  <rect x="260" y="50" width="200" height="180" style="fill:none;stroke:var(--fig-line);stroke-width:1.2"/>
+  <rect x="500" y="50" width="200" height="180" style="fill:none;stroke:var(--fig-line);stroke-width:1.2"/>
+  <!-- 부정합면 -->
+  <path d="M20 150 Q60 140 100 152 T180 148 T220 150" class="earth-2-unconformities-u"/>
+  <path d="M260 150 Q300 140 340 152 T420 148 T460 150" class="earth-2-unconformities-u"/>
+  <path d="M500 150 Q540 140 580 152 T660 148 T700 150" class="earth-2-unconformities-u"/>
+  <text x="120" y="36" text-anchor="middle" class="earth-2-unconformities-b">(가) 평행 부정합</text>
+  <text x="360" y="36" text-anchor="middle" class="earth-2-unconformities-b">(나) 경사 부정합</text>
+  <text x="600" y="36" text-anchor="middle" class="earth-2-unconformities-b">(다) 난정합</text>
+  <g class="earth-2-unconformities-s" text-anchor="middle">
+    <text x="120" y="254">위아래 지층이 나란하다</text><text x="120" y="272">기울지 않은 채 융기·침식·침강</text>
+    <text x="360" y="254">아래 지층이 기울어져 있다</text><text x="360" y="272">횡압력으로 변형된 뒤 침식</text>
+    <text x="600" y="254">아래가 화성암·변성암</text><text x="600" y="272">깊은 곳의 암석이 융기해 깎인 뒤 퇴적</text>
+  </g>
+  <line x1="196" y1="296" x2="226" y2="296" class="earth-2-unconformities-u"/>
+  <text x="232" y="301" class="earth-2-unconformities-s">부정합면(침식면)</text>
+  <ellipse cx="400" cy="296" rx="6" ry="4" class="earth-2-unconformities-pb"/><ellipse cx="416" cy="297" rx="5" ry="3" class="earth-2-unconformities-pb"/>
+  <text x="428" y="301" class="earth-2-unconformities-s">기저 역암</text>
+  <text x="360" y="322" text-anchor="middle" class="earth-2-unconformities-s">모식도 — 부정합면 위아래 사이에는 긴 시간 간격(퇴적 중단·침식)이 있다</text>
+</svg>
