@@ -15,7 +15,7 @@
   <rect x="20" y="170" width="320" height="90" style="fill:var(--fig-soft-green);stroke:none"/>
   <line x1="20" y1="70" x2="340" y2="70" style="stroke:var(--fig-ink);stroke-width:2"/>
   <line x1="20" y1="170" x2="340" y2="170" style="stroke:var(--fig-green);stroke-width:2"/>
-  <text x="330" y="102" text-anchor="end" class="esys-1-travel-time-t">지각 v₁ = 6.0 km/s</text>
+  <text x="185" y="122" text-anchor="middle" class="esys-1-travel-time-t">지각 v₁ = 6.0 km/s</text>
   <text x="330" y="248" text-anchor="end" class="esys-1-travel-time-t">맨틀 최상부 v₂ = 8.0 km/s</text>
   <text x="26" y="188" class="esys-1-travel-time-s">모호면</text>
   <!-- 두께 표시 -->
@@ -29,7 +29,7 @@
   <!-- 굴절파 -->
   <path d="M52 70 L165 170 L205 170 L318 70" style="stroke:var(--fig-red);stroke-width:2.5;fill:none"/>
   <path d="M318 70 l-11 4 l6 7 z" style="fill:var(--fig-red)"/>
-  <text x="236" y="150" text-anchor="middle" class="esys-1-travel-time-r">굴절파</text>
+  <text x="185" y="190" text-anchor="middle" class="esys-1-travel-time-r">굴절파</text>
   <!-- 임계각 -->
   <line x1="165" y1="170" x2="165" y2="122" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:3 3"/>
   <path d="M165 146 A24 24 0 0 0 147 154" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-esys-2-ekman-spiral d-esys-2-ekman-spiral">
+  <title id="t-esys-2-ekman-spiral">그림 지구시스템과학 2-1 에크만 나선과 에크만 수송(북반구)</title>
+  <desc id="d-esys-2-ekman-spiral">북쪽으로 부는 바람에 대해 표층 해수는 오른쪽 약 45° 방향으로 흐르고, 깊어질수록 흐름이 느려지며 오른쪽으로 돌아가 에크만 층 바닥에서는 표층과 거의 반대 방향이 된다. 층 전체의 알짜 수송은 바람의 오른쪽 90° 방향이다.</desc>
+  <style>
+    .esys-2-ekman-spiral-t{font-size:13px;fill:var(--fig-ink)}
+    .esys-2-ekman-spiral-b{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .esys-2-ekman-spiral-s{font-size:13px;fill:var(--fig-muted)}
+    .esys-2-ekman-spiral-u{font-size:13px;font-weight:600;fill:var(--fig-blue)}
+    .esys-2-ekman-spiral-r{font-size:13px;font-weight:600;fill:var(--fig-red)}
+    .esys-2-ekman-spiral-g{font-size:13px;font-weight:600;fill:var(--fig-green)}
+  </style>
+  <!-- 비스듬히 본 바다: 동쪽 = 오른쪽, 북쪽 = 오른쪽 위(안쪽), 깊이 = 아래 -->
+  <path d="M60 90 L380 90 L450 40 L130 40 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <text x="70" y="108" class="esys-2-ekman-spiral-s">해수면</text>
+  <line x1="240" y1="64" x2="240" y2="318" style="stroke:var(--fig-muted);stroke-width:1.5;stroke-dasharray:4 3"/>
+  <text x="248" y="334" class="esys-2-ekman-spiral-s">깊이 ↓ (에크만 층, 수십~100 m)</text>
+  <!-- 바람(북쪽) -->
+  <path d="M240 64 L318 10" style="stroke:var(--fig-ink);stroke-width:4;fill:none"/>
+  <path d="M328 3 L311 7 L320 18 Z" style="fill:var(--fig-ink)"/>
+  <text x="332" y="18" class="esys-2-ekman-spiral-b">바람(북쪽으로)</text>
+  <!-- 깊이별 흐름: 각도 45+36k (북에서 시계 방향), 크기 e^(-kπ/5); 화면: 동(1,0), 북(0.75,-0.52) 배율 120 -->
+  <g style="stroke:var(--fig-blue);fill:none">
+    <path d="M240 64 L342.7 33.5" style="stroke-width:3.5"/>
+    <path d="M240 112 L302.6 107.4" style="stroke-width:3.1"/>
+    <path d="M240 160 L257.4 167.5" style="stroke-width:2.7"/>
+    <path d="M240 208 L235.7 217.2" style="stroke-width:2.3"/>
+    <path d="M240 256 L224.4 264.9" style="stroke-width:1.9"/>
+    <path d="M240 304 L225.2 308.4" style="stroke-width:1.5"/>
+  </g>
+  <g style="fill:var(--fig-blue)">
+    <path d="M351.4 30.9 L344.0 37.8 L341.5 29.2 Z"/>
+    <path d="M311.6 106.7 L303.0 111.9 L302.3 102.9 Z"/>
+    <path d="M265.7 171.0 L255.6 171.6 L259.2 163.3 Z"/>
+    <path d="M232.8 223.6 L232.6 215.7 L238.9 218.7 Z"/>
+    <path d="M218.3 268.4 L222.6 261.9 L226.1 268.0 Z"/>
+    <path d="M218.5 310.4 L224.2 305.1 L226.2 311.8 Z"/>
+  </g>
+  <!-- 나선(화살표 끝을 이음) -->
+  <path d="M351.4 30.9 L311.6 106.7 L265.7 171.0 L232.8 223.6 L218.3 268.4 L218.5 310.4" style="fill:none;stroke:var(--fig-violet);stroke-width:1.2;stroke-dasharray:3 3"/>
+  <text x="356" y="44" class="esys-2-ekman-spiral-u">표층: 바람의 오른쪽 약 45°</text>
+  <text x="312" y="138" class="esys-2-ekman-spiral-t">깊어질수록 느려지며</text>
+  <text x="312" y="156" class="esys-2-ekman-spiral-t">오른쪽으로 회전</text>
+  <text x="250" y="312" class="esys-2-ekman-spiral-t">← 층 바닥: 표층과 거의 반대</text>
+  <!-- 오른쪽: 위에서 본 모습 -->
+  <rect x="470" y="70" width="236" height="232" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="588" y="92" text-anchor="middle" class="esys-2-ekman-spiral-b">위에서 본 모습</text>
+  <circle cx="560" cy="210" r="4" style="fill:var(--fig-ink)"/>
+  <path d="M560 210 V124" style="stroke:var(--fig-ink);stroke-width:4;fill:none"/><path d="M560 112 l-8 14 h16 z" style="fill:var(--fig-ink)"/>
+  <text x="572" y="122" class="esys-2-ekman-spiral-b">바람</text>
+  <path d="M560 210 L614 156" style="stroke:var(--fig-blue);stroke-width:3;fill:none"/><path d="M622 148 l-15 3 l9 9 z" style="fill:var(--fig-blue)"/>
+  <text x="626" y="150" class="esys-2-ekman-spiral-u">표층류</text>
+  <path d="M560 210 H676" style="stroke:var(--fig-green);stroke-width:5;fill:none"/><path d="M690 210 l-14 -8 v16 z" style="fill:var(--fig-green)"/>
+  <text x="604" y="236" class="esys-2-ekman-spiral-g">에크만 수송</text>
+  <text x="604" y="254" class="esys-2-ekman-spiral-g">(바람의 오른쪽 90°)</text>
+  <path d="M560 180 A30 30 0 0 1 590 210" style="fill:none;stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="586" y="186" class="esys-2-ekman-spiral-s">90°</text>
+  <text x="588" y="288" text-anchor="middle" class="esys-2-ekman-spiral-s">남반구에서는 모두 왼쪽으로</text>
+  <text x="240" y="354" text-anchor="middle" class="esys-2-ekman-spiral-s">모식도 — 화살표 길이는 흐름의 빠르기(깊은 곳은 과장)</text>
+</svg>

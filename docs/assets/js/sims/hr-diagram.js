@@ -90,7 +90,7 @@ Sims.register('hr-diagram', {
       ctx.restore();
       ctx.font = '600 ' + fs + 'px ' + T.fontBody; ctx.textAlign = 'center';
       ctx.fillStyle = T.figBlue; ctx.fillText('주계열성', X(4600, G), Y(0.04, G));
-      ctx.fillStyle = T.figAmber; ctx.fillText('거성', X(3300, G), Y(25, G));
+      ctx.fillStyle = T.figAmber; ctx.fillText('거성', X(4600, G), Y(2500, G));
       ctx.fillStyle = T.figRed; ctx.fillText('초거성', X(7000, G), Y(1.4e6, G));
       ctx.fillStyle = T.figViolet; ctx.fillText('백색 왜성', X(26000, G), Y(0.00015, G));
       // 대표 별
