@@ -7,7 +7,7 @@ Sims.register('collision-theory', {
     var st = { T: 300, n: 10, cat: false, parts: [], flash: [], col: 0, eff: 0, time: 0 };
     var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.3 : 0.5; }, label: '반응 용기 속 입자와 운동 에너지 분포 곡선' });
     var ctx = cv.ctx;
-    var rF = api.readout('Eₐ 이상인 분자의 비율'), rC = api.readout('충돌 횟수(상대)'), rV = api.readout('반응 속도(상대)'), rS = api.readout('용기 속 충돌');
+    var rF = api.readout('Eₐ 이상인 분자의 비율'), rC = api.readout('충돌 횟수(상대)'), rV = api.readout('반응 속도(상대)'), rS = api.readout('용기 속 유효 충돌(번쩍임)');
 
     api.slider({ id: 'collision-theory-n', label: '농도(입자 수)', min: 4, max: 20, step: 1, value: 10, format: function (v) { return 'A, B 각 ' + v + '개'; }, onInput: function (v) { st.n = v; build(); update(); } });
     api.slider({ id: 'collision-theory-t', label: '온도', min: 250, max: 500, step: 5, value: 300, format: function (v) { return v + ' K'; }, onInput: function (v) { var old = st.T; st.T = v; rescale(old); update(); } });
@@ -42,7 +42,7 @@ Sims.register('collision-theory', {
     function update() {
       var r = rates();
       rF.set((r.f * 100).toFixed(1) + ' %'); rC.set('× ' + r.c.toFixed(2)); rV.set('× ' + r.v.toFixed(2));
-      rS.set(st.col ? '유효 ' + st.eff + ' / 전체 ' + st.col : '세는 중…');
+      rS.set(st.eff + '번 (' + st.time.toFixed(0) + '초 동안)');
       draw();
     }
 
@@ -71,7 +71,7 @@ Sims.register('collision-theory', {
       }
       if (Math.random() < dt * 0.4) { var q = st.parts[Math.floor(Math.random() * st.parts.length)]; q.E = sampleE(st.T); mark(q); }   // 에너지 주고받기를 단순하게 흉내
       st.flash = st.flash.filter(function (f) { f.t -= dt; return f.t > 0; });
-      rS.set(st.col ? '유효 ' + st.eff + ' / 전체 ' + st.col : '세는 중…');
+      rS.set(st.eff + '번 (' + st.time.toFixed(0) + '초 동안)');
       draw();
     });
     if (api.reduced) loop.pause();
