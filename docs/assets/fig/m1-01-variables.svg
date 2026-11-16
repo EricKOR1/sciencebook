@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img" aria-labelledby="t-m1-01-variables d-m1-01-variables">
+<title id="t-m1-01-variables">그림 중1-1-1 변인 통제 — 물의 온도와 설탕이 녹는 시간</title>
+<desc id="d-m1-01-variables">물의 온도(조작 변인)만 10 °C, 30 °C, 50 °C로 다르게 하고, 물의 양·설탕의 양·컵·젓는 방법(통제 변인)은 같게 한 뒤 설탕이 다 녹는 데 걸린 시간(종속 변인)을 잰다.</desc>
+<style>
+  .m101v-lbl{font-size:15px;font-weight:700} .m101v-sm{font-size:13px;fill:var(--fig-muted)} .m101v-ink{font-size:14px;fill:var(--fig-ink)}
+  .m101v-vio{fill:var(--fig-violet)} .m101v-teal{fill:var(--fig-teal)} .m101v-amb{fill:var(--fig-amber)}
+  .m101v-div{fill:none;stroke:var(--fig-line);stroke-width:1;stroke-dasharray:5 5}
+  .m101v-glass{fill:none;stroke:var(--fig-ink);stroke-width:2.2;stroke-linejoin:round}
+  .m101v-tick{fill:none;stroke:var(--fig-muted);stroke-width:1.2}
+  .m101v-w0{fill:var(--fig-soft-blue)} .m101v-w1{fill:var(--fig-soft-amber)} .m101v-w2{fill:var(--fig-soft-red)}
+  .m101v-t0{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2} .m101v-t1{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2} .m101v-t2{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2}
+  .m101v-tt{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+  .m101v-sugar{fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1}
+  .m101v-rod{fill:none;stroke:var(--fig-muted);stroke-width:3;stroke-linecap:round}
+  .m101v-lvl{fill:none;stroke:var(--fig-teal);stroke-width:1.5;stroke-dasharray:6 4}
+  .m101v-eq{font-size:24px;font-weight:700;fill:var(--fig-teal)}
+  .m101v-face{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2.2} .m101v-btn{fill:var(--fig-ink)}
+  .m101v-sec{fill:var(--fig-soft-amber);stroke:none} .m101v-hand{fill:none;stroke:var(--fig-amber);stroke-width:2.5;stroke-linecap:round}
+  .m101v-hub{fill:var(--fig-amber)}
+  .m101v-time{font-size:15px;font-weight:700;fill:var(--fig-amber)}
+</style>
+<text x="20" y="48" class="m101v-lbl m101v-vio">조작 변인</text>
+<text x="20" y="68" class="m101v-sm">일부러 다르게 하는 것</text>
+<line x1="20" y1="92" x2="700" y2="92" class="m101v-div"/>
+<text x="20" y="140" class="m101v-lbl m101v-teal">통제 변인</text>
+<text x="20" y="160" class="m101v-sm">같게 유지하는 것</text>
+<text x="20" y="190" class="m101v-ink">· 물의 양 100 mL</text>
+<text x="20" y="210" class="m101v-ink">· 설탕 5 g</text>
+<text x="20" y="230" class="m101v-ink">· 같은 컵</text>
+<text x="20" y="250" class="m101v-ink">· 같은 방법으로 젓기</text>
+<line x1="20" y1="272" x2="700" y2="272" class="m101v-div"/>
+<text x="20" y="312" class="m101v-lbl m101v-amb">종속 변인</text>
+<text x="20" y="332" class="m101v-sm">측정하는 결과</text>
+<text x="20" y="350" class="m101v-sm">(다 녹는 시간, 평균)</text>
+<rect x="226" y="34" width="92" height="34" rx="17" class="m101v-t0"/>
+<text x="272" y="57" text-anchor="middle" class="m101v-tt">10 °C</text>
+<rect x="224" y="150" width="96" height="100" class="m101v-w0"/>
+<rect x="246" y="242" width="7" height="7" class="m101v-sugar"/><rect x="258" y="242" width="7" height="7" class="m101v-sugar"/><rect x="270" y="242" width="7" height="7" class="m101v-sugar"/><rect x="282" y="242" width="7" height="7" class="m101v-sugar"/><rect x="294" y="242" width="7" height="7" class="m101v-sugar"/><rect x="252" y="235" width="7" height="7" class="m101v-sugar"/><rect x="264" y="235" width="7" height="7" class="m101v-sugar"/><rect x="276" y="235" width="7" height="7" class="m101v-sugar"/><rect x="288" y="235" width="7" height="7" class="m101v-sugar"/>
+<path d="M216 112 L222 118 L222 244 Q222 252 230 252 L314 252 Q322 252 322 244 L322 112" class="m101v-glass"/>
+<line x1="222" y1="150" x2="232" y2="150" class="m101v-tick"/><line x1="222" y1="174" x2="232" y2="174" class="m101v-tick"/><line x1="222" y1="198" x2="232" y2="198" class="m101v-tick"/><line x1="222" y1="222" x2="232" y2="222" class="m101v-tick"/>
+<line x1="294" y1="100" x2="268" y2="238" class="m101v-rod"/>
+<rect x="267" y="282" width="10" height="8" rx="2" class="m101v-btn"/>
+<circle cx="272" cy="318" r="27" class="m101v-face"/>
+<circle cx="272" cy="318" r="23.2" class="m101v-sec"/>
+<line x1="272" y1="318" x2="272.0" y2="294.8" class="m101v-hand"/><circle cx="272" cy="318" r="3" class="m101v-hub"/>
+<text x="272" y="369" text-anchor="middle" class="m101v-time">60초</text>
+<rect x="401" y="34" width="92" height="34" rx="17" class="m101v-t1"/>
+<text x="447" y="57" text-anchor="middle" class="m101v-tt">30 °C</text>
+<rect x="399" y="150" width="96" height="100" class="m101v-w1"/>
+<rect x="421" y="242" width="7" height="7" class="m101v-sugar"/><rect x="433" y="242" width="7" height="7" class="m101v-sugar"/><rect x="445" y="242" width="7" height="7" class="m101v-sugar"/><rect x="457" y="242" width="7" height="7" class="m101v-sugar"/><rect x="469" y="242" width="7" height="7" class="m101v-sugar"/><rect x="427" y="235" width="7" height="7" class="m101v-sugar"/><rect x="439" y="235" width="7" height="7" class="m101v-sugar"/><rect x="451" y="235" width="7" height="7" class="m101v-sugar"/><rect x="463" y="235" width="7" height="7" class="m101v-sugar"/>
+<path d="M391 112 L397 118 L397 244 Q397 252 405 252 L489 252 Q497 252 497 244 L497 112" class="m101v-glass"/>
+<line x1="397" y1="150" x2="407" y2="150" class="m101v-tick"/><line x1="397" y1="174" x2="407" y2="174" class="m101v-tick"/><line x1="397" y1="198" x2="407" y2="198" class="m101v-tick"/><line x1="397" y1="222" x2="407" y2="222" class="m101v-tick"/>
+<line x1="469" y1="100" x2="443" y2="238" class="m101v-rod"/>
+<rect x="442" y="282" width="10" height="8" rx="2" class="m101v-btn"/>
+<circle cx="447" cy="318" r="27" class="m101v-face"/>
+<path d="M447 318 L447 294.8 A23.2 23.2 0 1 1 425.8 327.4 Z" class="m101v-sec"/>
+<line x1="447" y1="318" x2="425.8" y2="327.4" class="m101v-hand"/><circle cx="447" cy="318" r="3" class="m101v-hub"/>
+<text x="447" y="369" text-anchor="middle" class="m101v-time">41초</text>
+<rect x="576" y="34" width="92" height="34" rx="17" class="m101v-t2"/>
+<text x="622" y="57" text-anchor="middle" class="m101v-tt">50 °C</text>
+<rect x="574" y="150" width="96" height="100" class="m101v-w2"/>
+<rect x="596" y="242" width="7" height="7" class="m101v-sugar"/><rect x="608" y="242" width="7" height="7" class="m101v-sugar"/><rect x="620" y="242" width="7" height="7" class="m101v-sugar"/><rect x="632" y="242" width="7" height="7" class="m101v-sugar"/><rect x="644" y="242" width="7" height="7" class="m101v-sugar"/><rect x="602" y="235" width="7" height="7" class="m101v-sugar"/><rect x="614" y="235" width="7" height="7" class="m101v-sugar"/><rect x="626" y="235" width="7" height="7" class="m101v-sugar"/><rect x="638" y="235" width="7" height="7" class="m101v-sugar"/>
+<path d="M566 112 L572 118 L572 244 Q572 252 580 252 L664 252 Q672 252 672 244 L672 112" class="m101v-glass"/>
+<line x1="572" y1="150" x2="582" y2="150" class="m101v-tick"/><line x1="572" y1="174" x2="582" y2="174" class="m101v-tick"/><line x1="572" y1="198" x2="582" y2="198" class="m101v-tick"/><line x1="572" y1="222" x2="582" y2="222" class="m101v-tick"/>
+<line x1="644" y1="100" x2="618" y2="238" class="m101v-rod"/>
+<rect x="617" y="282" width="10" height="8" rx="2" class="m101v-btn"/>
+<circle cx="622" cy="318" r="27" class="m101v-face"/>
+<path d="M622 318 L622 294.8 A23.2 23.2 0 0 1 639.3 333.5 Z" class="m101v-sec"/>
+<line x1="622" y1="318" x2="639.3" y2="333.5" class="m101v-hand"/><circle cx="622" cy="318" r="3" class="m101v-hub"/>
+<text x="622" y="369" text-anchor="middle" class="m101v-time">22초</text>
+<line x1="214" y1="150" x2="680" y2="150" class="m101v-lvl"/>
+<text x="359.5" y="142" text-anchor="middle" class="m101v-sm">같은 높이</text><text x="534.5" y="142" text-anchor="middle" class="m101v-sm">같은 높이</text>
+<text x="359.5" y="212" text-anchor="middle" class="m101v-eq">=</text>
+<text x="534.5" y="212" text-anchor="middle" class="m101v-eq">=</text>
+<text x="360" y="410" text-anchor="middle" class="m101v-ink">조작 변인만 다르고 나머지 조건이 같으므로, 시간의 차이는 물의 온도 때문이라고 말할 수 있다.</text>
+<text x="360" y="430" text-anchor="middle" class="m101v-sm">물이 따뜻할수록 설탕이 빨리 녹는다 (시간은 예제 3의 평균값)</text>
+</svg>

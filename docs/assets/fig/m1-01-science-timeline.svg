@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-m1-01-science-timeline d-m1-01-science-timeline">
+<title id="t-m1-01-science-timeline">그림 중1-1-2 과학과 기술이 바꾼 인류 문명의 연표</title>
+<desc id="d-m1-01-science-timeline">금속 활자 인쇄에서 인공지능까지, 과학 지식과 기술의 발전이 기록·인쇄, 농업·식량, 관측 도구, 동력·교통, 의학, 전기·통신 분야를 바꾸어 온 주요 사건을 시간 순서로 나타냈다. 사건 사이의 간격은 실제 시간 비율과 다르다.</desc>
+<style>
+  .m101t-axis{fill:none;stroke:var(--fig-ink);stroke-width:2.5}
+  .m101t-yr{font-size:14px;font-weight:700;fill:var(--fig-ink)} .m101t-nm{font-size:13px;fill:var(--fig-ink)}
+  .m101t-sm{font-size:13px;fill:var(--fig-muted)}
+  .m101t-d-print{fill:var(--fig-violet);stroke:var(--fig-paper);stroke-width:2} .m101t-s-print{fill:none;stroke:var(--fig-violet);stroke-width:1.5} .m101t-b-print{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2}
+  .m101t-d-agri{fill:var(--fig-green);stroke:var(--fig-paper);stroke-width:2} .m101t-s-agri{fill:none;stroke:var(--fig-green);stroke-width:1.5} .m101t-b-agri{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2}
+  .m101t-d-obs{fill:var(--fig-blue);stroke:var(--fig-paper);stroke-width:2} .m101t-s-obs{fill:none;stroke:var(--fig-blue);stroke-width:1.5} .m101t-b-obs{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2}
+  .m101t-d-power{fill:var(--fig-amber);stroke:var(--fig-paper);stroke-width:2} .m101t-s-power{fill:none;stroke:var(--fig-amber);stroke-width:1.5} .m101t-b-power{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.2}
+  .m101t-d-med{fill:var(--fig-red);stroke:var(--fig-paper);stroke-width:2} .m101t-s-med{fill:none;stroke:var(--fig-red);stroke-width:1.5} .m101t-b-med{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.2}
+  .m101t-d-comm{fill:var(--fig-teal);stroke:var(--fig-paper);stroke-width:2} .m101t-s-comm{fill:none;stroke:var(--fig-teal);stroke-width:1.5} .m101t-b-comm{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.2}
+</style>
+<line x1="24" y1="178" x2="694" y2="178" class="m101t-axis"/>
+<path d="M704 178 l-12 -7 l0 14 z" style="fill:var(--fig-ink)"/>
+<line x1="52.0" y1="178" x2="52.0" y2="112" class="m101t-s-print"/>
+<text x="52.0" y="62" text-anchor="middle" class="m101t-yr">1377</text>
+<text x="52.0" y="82" text-anchor="middle" class="m101t-nm">『직지』</text>
+<text x="52.0" y="100" text-anchor="middle" class="m101t-nm">금속 활자 인쇄</text>
+<circle cx="52.0" cy="178" r="7" class="m101t-d-print"/>
+<line x1="103.3" y1="178" x2="103.3" y2="244" class="m101t-s-agri"/>
+<text x="103.3" y="262" text-anchor="middle" class="m101t-yr">1441</text>
+<text x="103.3" y="282" text-anchor="middle" class="m101t-nm">측우기로</text>
+<text x="103.3" y="300" text-anchor="middle" class="m101t-nm">비의 양 측정</text>
+<circle cx="103.3" cy="178" r="7" class="m101t-d-agri"/>
+<line x1="154.6" y1="178" x2="154.6" y2="112" class="m101t-s-print"/>
+<text x="154.6" y="62" text-anchor="middle" class="m101t-yr">1450년경</text>
+<text x="154.6" y="82" text-anchor="middle" class="m101t-nm">유럽의</text>
+<text x="154.6" y="100" text-anchor="middle" class="m101t-nm">활판 인쇄</text>
+<circle cx="154.6" cy="178" r="7" class="m101t-d-print"/>
+<line x1="205.9" y1="178" x2="205.9" y2="244" class="m101t-s-obs"/>
+<text x="205.9" y="262" text-anchor="middle" class="m101t-yr">1609</text>
+<text x="205.9" y="282" text-anchor="middle" class="m101t-nm">갈릴레이의</text>
+<text x="205.9" y="300" text-anchor="middle" class="m101t-nm">망원경 관측</text>
+<circle cx="205.9" cy="178" r="7" class="m101t-d-obs"/>
+<line x1="257.2" y1="178" x2="257.2" y2="112" class="m101t-s-obs"/>
+<text x="257.2" y="62" text-anchor="middle" class="m101t-yr">1665</text>
+<text x="257.2" y="82" text-anchor="middle" class="m101t-nm">훅의 현미경</text>
+<text x="257.2" y="100" text-anchor="middle" class="m101t-nm">세포 관찰</text>
+<circle cx="257.2" cy="178" r="7" class="m101t-d-obs"/>
+<line x1="308.5" y1="178" x2="308.5" y2="244" class="m101t-s-power"/>
+<text x="308.5" y="262" text-anchor="middle" class="m101t-yr">1769</text>
+<text x="308.5" y="282" text-anchor="middle" class="m101t-nm">와트의</text>
+<text x="308.5" y="300" text-anchor="middle" class="m101t-nm">증기 기관 개량</text>
+<circle cx="308.5" cy="178" r="7" class="m101t-d-power"/>
+<line x1="359.8" y1="178" x2="359.8" y2="112" class="m101t-s-med"/>
+<text x="359.8" y="62" text-anchor="middle" class="m101t-yr">1796</text>
+<text x="359.8" y="82" text-anchor="middle" class="m101t-nm">제너의</text>
+<text x="359.8" y="100" text-anchor="middle" class="m101t-nm">종두법</text>
+<circle cx="359.8" cy="178" r="7" class="m101t-d-med"/>
+<line x1="411.1" y1="178" x2="411.1" y2="244" class="m101t-s-comm"/>
+<text x="411.1" y="262" text-anchor="middle" class="m101t-yr">1876</text>
+<text x="411.1" y="282" text-anchor="middle" class="m101t-nm">전화의</text>
+<text x="411.1" y="300" text-anchor="middle" class="m101t-nm">발명</text>
+<circle cx="411.1" cy="178" r="7" class="m101t-d-comm"/>
+<line x1="462.4" y1="178" x2="462.4" y2="112" class="m101t-s-agri"/>
+<text x="462.4" y="62" text-anchor="middle" class="m101t-yr">1913</text>
+<text x="462.4" y="82" text-anchor="middle" class="m101t-nm">질소 비료</text>
+<text x="462.4" y="100" text-anchor="middle" class="m101t-nm">대량 생산</text>
+<circle cx="462.4" cy="178" r="7" class="m101t-d-agri"/>
+<line x1="513.7" y1="178" x2="513.7" y2="244" class="m101t-s-med"/>
+<text x="513.7" y="262" text-anchor="middle" class="m101t-yr">1928</text>
+<text x="513.7" y="282" text-anchor="middle" class="m101t-nm">페니실린</text>
+<text x="513.7" y="300" text-anchor="middle" class="m101t-nm">발견</text>
+<circle cx="513.7" cy="178" r="7" class="m101t-d-med"/>
+<line x1="565.0" y1="178" x2="565.0" y2="112" class="m101t-s-comm"/>
+<text x="565.0" y="62" text-anchor="middle" class="m101t-yr">1947</text>
+<text x="565.0" y="82" text-anchor="middle" class="m101t-nm">트랜지스터</text>
+<text x="565.0" y="100" text-anchor="middle" class="m101t-nm">(반도체)</text>
+<circle cx="565.0" cy="178" r="7" class="m101t-d-comm"/>
+<line x1="616.3" y1="178" x2="616.3" y2="244" class="m101t-s-comm"/>
+<text x="616.3" y="262" text-anchor="middle" class="m101t-yr">1969</text>
+<text x="616.3" y="282" text-anchor="middle" class="m101t-nm">인터넷의</text>
+<text x="616.3" y="300" text-anchor="middle" class="m101t-nm">출발</text>
+<circle cx="616.3" cy="178" r="7" class="m101t-d-comm"/>
+<line x1="667.6" y1="178" x2="667.6" y2="112" class="m101t-s-comm"/>
+<text x="667.6" y="62" text-anchor="middle" class="m101t-yr">2010년대~</text>
+<text x="667.6" y="82" text-anchor="middle" class="m101t-nm">인공지능·</text>
+<text x="667.6" y="100" text-anchor="middle" class="m101t-nm">사물인터넷</text>
+<circle cx="667.6" cy="178" r="7" class="m101t-d-comm"/>
+<rect x="30" y="322" width="14" height="14" rx="3" class="m101t-b-print"/><text x="50" y="334" class="m101t-sm">기록·인쇄</text>
+<rect x="137" y="322" width="14" height="14" rx="3" class="m101t-b-agri"/><text x="157" y="334" class="m101t-sm">농업·식량</text>
+<rect x="244" y="322" width="14" height="14" rx="3" class="m101t-b-obs"/><text x="264" y="334" class="m101t-sm">관측 도구</text>
+<rect x="351" y="322" width="14" height="14" rx="3" class="m101t-b-power"/><text x="371" y="334" class="m101t-sm">동력·교통</text>
+<rect x="458" y="322" width="14" height="14" rx="3" class="m101t-b-med"/><text x="478" y="334" class="m101t-sm">의학</text>
+<rect x="526" y="322" width="14" height="14" rx="3" class="m101t-b-comm"/><text x="546" y="334" class="m101t-sm">전기·통신·첨단</text>
+<text x="694" y="354" text-anchor="end" class="m101t-sm">사건 사이의 간격은 실제 시간 비율과 다르다</text>
+</svg>

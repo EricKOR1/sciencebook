@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 346" role="img" aria-labelledby="t-m3-06-chromosome-dna-gene d-m3-06-chromosome-dna-gene">
+  <title id="t-m3-06-chromosome-dna-gene">그림 중3-6-1 염색체·DNA·유전자의 관계</title>
+  <desc id="d-m3-06-chromosome-dna-gene">세포의 핵 속에 있는 염색체를 확대하면 DNA가 단백질과 함께 뭉쳐 있고, DNA를 풀어 보면 그 일부 구간이 유전자이다. 분열 중인 염색체는 복제된 두 가닥(염색 분체)이 붙어 있다.</desc>
+  <style>
+    .m3-06-chromosome-dna-gene-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .m3-06-chromosome-dna-gene-sm{font-size:13px;fill:var(--fig-muted)}
+    .m3-06-chromosome-dna-gene-zoom{fill:none;stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:4 4}
+  </style>
+  <!-- 세포와 핵 -->
+  <ellipse cx="110" cy="165" rx="88" ry="78" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+  <circle cx="118" cy="168" r="36" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.8"/>
+  <rect x="101.5" y="147" width="5" height="18" rx="2.5" transform="rotate(20 104 156)" style="fill:var(--fig-red)"/>
+  <rect x="123.5" y="143" width="5" height="18" rx="2.5" transform="rotate(-30 126 152)" style="fill:var(--fig-blue)"/>
+  <rect x="107.5" y="173" width="5" height="18" rx="2.5" transform="rotate(70 110 182)" style="fill:var(--fig-red)"/>
+  <rect x="129.5" y="169" width="5" height="18" rx="2.5" transform="rotate(10 132 178)" style="fill:var(--fig-blue)"/>
+  <text x="110" y="74" text-anchor="middle" class="m3-06-chromosome-dna-gene-lbl">세포</text>
+  <text x="118" y="226" text-anchor="middle" class="m3-06-chromosome-dna-gene-sm">핵</text>
+  <path d="M136 136 L250 62 M136 200 L250 268" class="m3-06-chromosome-dna-gene-zoom"/>
+  <!-- 복제된 염색체 -->
+  <rect x="250" y="52" width="150" height="226" rx="12" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2"/>
+  <path d="M310.0 72 Q323 72 323 85.0 L323 128 Q315 142 323 156 L323 245.0 Q323 258 310.0 258 Q297 258 297 245.0 L297 156 Q301.8 142 297 128 L297 85.0 Q297 72 310.0 72 Z" style="fill:var(--fig-red);stroke:var(--fig-ink);stroke-width:1"/>
+  <path d="M336.0 72 Q349 72 349 85.0 L349 128 Q344.2 142 349 156 L349 245.0 Q349 258 336.0 258 Q323 258 323 245.0 L323 156 Q331 142 323 128 L323 85.0 Q323 72 336.0 72 Z" style="fill:var(--fig-red);stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="299" y1="92" x2="321" y2="92" style="stroke:var(--fig-soft-red);stroke-width:2"/>
+  <line x1="325" y1="98" x2="347" y2="98" style="stroke:var(--fig-soft-red);stroke-width:2"/>
+  <line x1="299" y1="112" x2="321" y2="112" style="stroke:var(--fig-soft-red);stroke-width:2"/>
+  <line x1="325" y1="118" x2="347" y2="118" style="stroke:var(--fig-soft-red);stroke-width:2"/>
+  <line x1="299" y1="176" x2="321" y2="176" style="stroke:var(--fig-soft-red);stroke-width:2"/>
+  <line x1="325" y1="182" x2="347" y2="182" style="stroke:var(--fig-soft-red);stroke-width:2"/>
+  <line x1="299" y1="198" x2="321" y2="198" style="stroke:var(--fig-soft-red);stroke-width:2"/>
+  <line x1="325" y1="204" x2="347" y2="204" style="stroke:var(--fig-soft-red);stroke-width:2"/>
+  <line x1="299" y1="222" x2="321" y2="222" style="stroke:var(--fig-soft-red);stroke-width:2"/>
+  <line x1="325" y1="228" x2="347" y2="228" style="stroke:var(--fig-soft-red);stroke-width:2"/>
+  <line x1="299" y1="240" x2="321" y2="240" style="stroke:var(--fig-soft-red);stroke-width:2"/>
+  <line x1="325" y1="246" x2="347" y2="246" style="stroke:var(--fig-soft-red);stroke-width:2"/>
+  <text x="325" y="44" text-anchor="middle" class="m3-06-chromosome-dna-gene-lbl">염색체</text>
+  <text x="325" y="298" text-anchor="middle" class="m3-06-chromosome-dna-gene-sm">DNA + 단백질이 뭉친 구조</text>
+  <line x1="350" y1="100" x2="384" y2="86" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="356" y="80" class="m3-06-chromosome-dna-gene-sm">염색 분체</text>
+  <line x1="294" y1="230" x2="268" y2="244" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="258" y="262" class="m3-06-chromosome-dna-gene-sm">염색 분체</text>
+  <text x="372" y="146" text-anchor="middle" class="m3-06-chromosome-dna-gene-sm" transform="rotate(90 372 146)">복제된 두 가닥</text>
+  <rect x="323" y="182" width="26" height="22" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
+  <path d="M349 182 L440 92 M349 204 L440 238" class="m3-06-chromosome-dna-gene-zoom"/>
+  <!-- DNA 이중 나선(펼친 모습) -->
+  <rect x="440" y="52" width="268" height="226" rx="12" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2"/>
+  <rect x="520" y="128" width="78" height="84" rx="6" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <rect x="628" y="128" width="50" height="84" rx="6" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5;stroke-dasharray:4 3"/>
+  <line x1="459.0" y1="175.6" x2="459.0" y2="164.4" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="464.9" y1="185.6" x2="464.9" y2="154.4" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="470.8" y1="193.3" x2="470.8" y2="146.7" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="476.7" y1="197.5" x2="476.7" y2="142.5" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="482.6" y1="197.4" x2="482.6" y2="142.6" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="488.5" y1="193.2" x2="488.5" y2="146.8" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="494.4" y1="185.5" x2="494.4" y2="154.5" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="500.3" y1="175.4" x2="500.3" y2="164.6" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="506.2" y1="164.5" x2="506.2" y2="175.5" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="512.1" y1="154.4" x2="512.1" y2="185.6" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="518.0" y1="146.7" x2="518.0" y2="193.3" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="523.9" y1="142.5" x2="523.9" y2="197.5" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="529.8" y1="142.5" x2="529.8" y2="197.5" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="535.7" y1="146.7" x2="535.7" y2="193.3" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="541.6" y1="154.5" x2="541.6" y2="185.5" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="547.5" y1="164.6" x2="547.5" y2="175.4" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="553.4" y1="175.5" x2="553.4" y2="164.5" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="559.3" y1="185.6" x2="559.3" y2="154.4" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="565.2" y1="193.3" x2="565.2" y2="146.7" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="571.1" y1="197.5" x2="571.1" y2="142.5" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="576.9" y1="197.5" x2="576.9" y2="142.5" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="582.8" y1="193.3" x2="582.8" y2="146.7" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="588.7" y1="185.6" x2="588.7" y2="154.4" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="594.6" y1="175.5" x2="594.6" y2="164.5" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="600.5" y1="164.6" x2="600.5" y2="175.4" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="606.4" y1="154.5" x2="606.4" y2="185.5" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="612.3" y1="146.7" x2="612.3" y2="193.3" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="618.2" y1="142.5" x2="618.2" y2="197.5" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="624.1" y1="142.5" x2="624.1" y2="197.5" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="630.0" y1="146.7" x2="630.0" y2="193.3" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="635.9" y1="154.4" x2="635.9" y2="185.6" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="641.8" y1="164.5" x2="641.8" y2="175.5" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="647.7" y1="175.4" x2="647.7" y2="164.6" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="653.6" y1="185.5" x2="653.6" y2="154.5" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="659.5" y1="193.2" x2="659.5" y2="146.8" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="665.4" y1="197.4" x2="665.4" y2="142.6" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="671.3" y1="197.5" x2="671.3" y2="142.5" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="677.2" y1="193.3" x2="677.2" y2="146.7" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="683.1" y1="185.6" x2="683.1" y2="154.4" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <line x1="689.0" y1="175.6" x2="689.0" y2="164.4" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <path d="M456.0 170.0 L458.0 173.7 L459.9 177.2 L461.9 180.7 L463.9 184.0 L465.8 187.0 L467.8 189.8 L469.8 192.2 L471.7 194.2 L473.7 195.9 L475.7 197.0 L477.6 197.8 L479.6 198.0 L481.6 197.8 L483.5 197.0 L485.5 195.9 L487.5 194.2 L489.4 192.2 L491.4 189.8 L493.4 187.0 L495.3 184.0 L497.3 180.7 L499.3 177.2 L501.2 173.7 L503.2 170.0 L505.2 166.3 L507.1 162.8 L509.1 159.3 L511.1 156.0 L513.0 153.0 L515.0 150.2 L517.0 147.8 L518.9 145.8 L520.9 144.1 L522.9 143.0 L524.8 142.2 L526.8 142.0 L528.8 142.2 L530.7 143.0 L532.7 144.1 L534.7 145.8 L536.6 147.8 L538.6 150.2 L540.6 153.0 L542.5 156.0 L544.5 159.3 L546.5 162.8 L548.4 166.3 L550.4 170.0 L552.4 173.7 L554.3 177.2 L556.3 180.7 L558.3 184.0 L560.2 187.0 L562.2 189.8 L564.2 192.2 L566.1 194.2 L568.1 195.9 L570.1 197.0 L572.0 197.8 L574.0 198.0 L576.0 197.8 L577.9 197.0 L579.9 195.9 L581.9 194.2 L583.8 192.2 L585.8 189.8 L587.8 187.0 L589.7 184.0 L591.7 180.7 L593.7 177.2 L595.6 173.7 L597.6 170.0 L599.6 166.3 L601.5 162.8 L603.5 159.3 L605.5 156.0 L607.4 153.0 L609.4 150.2 L611.4 147.8 L613.3 145.8 L615.3 144.1 L617.3 143.0 L619.2 142.2 L621.2 142.0 L623.2 142.2 L625.1 143.0 L627.1 144.1 L629.1 145.8 L631.0 147.8 L633.0 150.2 L635.0 153.0 L636.9 156.0 L638.9 159.3 L640.9 162.8 L642.8 166.3 L644.8 170.0 L646.8 173.7 L648.7 177.2 L650.7 180.7 L652.7 184.0 L654.6 187.0 L656.6 189.8 L658.6 192.2 L660.5 194.2 L662.5 195.9 L664.5 197.0 L666.4 197.8 L668.4 198.0 L670.4 197.8 L672.3 197.0 L674.3 195.9 L676.3 194.2 L678.2 192.2 L680.2 189.8 L682.2 187.0 L684.1 184.0 L686.1 180.7 L688.1 177.2 L690.0 173.7 L692.0 170.0" style="fill:none;stroke:var(--fig-blue);stroke-width:3.5"/>
+  <path d="M456.0 170.0 L458.0 166.3 L459.9 162.8 L461.9 159.3 L463.9 156.0 L465.8 153.0 L467.8 150.2 L469.8 147.8 L471.7 145.8 L473.7 144.1 L475.7 143.0 L477.6 142.2 L479.6 142.0 L481.6 142.2 L483.5 143.0 L485.5 144.1 L487.5 145.8 L489.4 147.8 L491.4 150.2 L493.4 153.0 L495.3 156.0 L497.3 159.3 L499.3 162.8 L501.2 166.3 L503.2 170.0 L505.2 173.7 L507.1 177.2 L509.1 180.7 L511.1 184.0 L513.0 187.0 L515.0 189.8 L517.0 192.2 L518.9 194.2 L520.9 195.9 L522.9 197.0 L524.8 197.8 L526.8 198.0 L528.8 197.8 L530.7 197.0 L532.7 195.9 L534.7 194.2 L536.6 192.2 L538.6 189.8 L540.6 187.0 L542.5 184.0 L544.5 180.7 L546.5 177.2 L548.4 173.7 L550.4 170.0 L552.4 166.3 L554.3 162.8 L556.3 159.3 L558.3 156.0 L560.2 153.0 L562.2 150.2 L564.2 147.8 L566.1 145.8 L568.1 144.1 L570.1 143.0 L572.0 142.2 L574.0 142.0 L576.0 142.2 L577.9 143.0 L579.9 144.1 L581.9 145.8 L583.8 147.8 L585.8 150.2 L587.8 153.0 L589.7 156.0 L591.7 159.3 L593.7 162.8 L595.6 166.3 L597.6 170.0 L599.6 173.7 L601.5 177.2 L603.5 180.7 L605.5 184.0 L607.4 187.0 L609.4 189.8 L611.4 192.2 L613.3 194.2 L615.3 195.9 L617.3 197.0 L619.2 197.8 L621.2 198.0 L623.2 197.8 L625.1 197.0 L627.1 195.9 L629.1 194.2 L631.0 192.2 L633.0 189.8 L635.0 187.0 L636.9 184.0 L638.9 180.7 L640.9 177.2 L642.8 173.7 L644.8 170.0 L646.8 166.3 L648.7 162.8 L650.7 159.3 L652.7 156.0 L654.6 153.0 L656.6 150.2 L658.6 147.8 L660.5 145.8 L662.5 144.1 L664.5 143.0 L666.4 142.2 L668.4 142.0 L670.4 142.2 L672.3 143.0 L674.3 144.1 L676.3 145.8 L678.2 147.8 L680.2 150.2 L682.2 153.0 L684.1 156.0 L686.1 159.3 L688.1 162.8 L690.0 166.3 L692.0 170.0" style="fill:none;stroke:var(--fig-violet);stroke-width:3.5"/>
+  <text x="574" y="80" text-anchor="middle" class="m3-06-chromosome-dna-gene-lbl">DNA</text>
+  <text x="574" y="100" text-anchor="middle" class="m3-06-chromosome-dna-gene-sm">두 가닥이 꼬인 긴 사슬(유전 정보 저장)</text>
+  <text x="559" y="232" text-anchor="middle" class="m3-06-chromosome-dna-gene-lbl" style="fill:var(--fig-amber)">유전자</text>
+  <text x="559" y="250" text-anchor="middle" class="m3-06-chromosome-dna-gene-sm">특정 형질의 정보를</text>
+  <text x="559" y="266" text-anchor="middle" class="m3-06-chromosome-dna-gene-sm">가진 DNA의 한 구간</text>
+  <text x="653" y="232" text-anchor="middle" class="m3-06-chromosome-dna-gene-sm">다른 유전자</text>
+  <text x="360" y="320" text-anchor="middle" class="m3-06-chromosome-dna-gene-sm" style="fill:var(--fig-ink)">염색체 안에 DNA가 있고, DNA의 일부 구간이 유전자이다. 염색체 하나에는 수많은 유전자가 있다.</text>
+  <text x="360" y="338" text-anchor="middle" class="m3-06-chromosome-dna-gene-sm">모식도: 크기 비율은 실제와 다르다.</text>
+</svg>
