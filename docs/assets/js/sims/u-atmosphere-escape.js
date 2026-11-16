@@ -1,7 +1,7 @@
 /* 일반지구과학 10 행성의 대기: 탈출 속도와 기체 분자의 열속력(v_rms) 비교로 대기 유지 판단 */
 Sims.register('u-atmosphere-escape', {
   title: '어떤 기체가 남을까? — 탈출 속도와 분자의 열속력',
-  caption: '천체를 고르거나 외기권 온도와 탈출 속도를 바꿔 보자. 위 그래프의 막대 끝은 각 기체의 6 v_rms(v_rms = √(3kT/m))이고, 세로선은 탈출 속도이다. 막대가 선에 못 미치면(v_esc ≳ 6 v_rms) 그 기체를 태양계 나이 동안 붙잡아 둘 수 있다고 본다. 아래 그래프는 고른 기체의 속력 분포(맥스웰 분포)로, 평균이 탈출 속도보다 훨씬 작아도 빠른 꼬리의 분자는 늘 조금씩 달아난다는 것을 보여 준다. 온도는 대기 꼭대기(외기권) 값을 쓰며, 태양풍에 의한 깎임·화학 반응 같은 열적 탈출 밖의 과정은 넣지 않았다.',
+  caption: '천체를 고르거나 외기권 온도와 탈출 속도를 바꿔 보자. 왼쪽(위) 그래프의 막대 끝은 각 기체의 6 v_rms(v_rms = √(3kT/m))이고, 세로선은 탈출 속도이다. 막대가 선에 못 미치면(v_esc ≳ 6 v_rms) 그 기체를 태양계 나이 동안 붙잡아 둘 수 있다고 본다. 오른쪽(아래) 그래프는 고른 기체의 속력 분포(맥스웰 분포)로, 평균이 탈출 속도보다 훨씬 작아도 빠른 꼬리의 분자는 늘 조금씩 달아난다는 것을 보여 준다. 온도는 대기 꼭대기(외기권) 값을 쓰며, 태양풍에 의한 깎임·화학 반응 같은 열적 탈출 밖의 과정은 넣지 않았다.',
   init: function (api) {
     var k = 1.381e-23, u = 1.6605e-27;
     var bodies = [
@@ -74,7 +74,7 @@ Sims.register('u-atmosphere-escape', {
       drawBars(T, P.a); drawDist(T, P.b);
     }
     function drawBars(T, r) {
-      var L = r.x + 54, R = r.x + r.w - 16, Tp = r.y + 40, B = r.y + r.h - 40;
+      var L = r.x + 54, R = r.x + r.w - 16, Tp = r.y + 56, B = r.y + r.h - 40;
       var lo = Math.log10(0.1), hi = Math.log10(200);
       var sx = function (v) { return L + (Math.log10(v) - lo) / (hi - lo) * (R - L); };
       ctx.font = '600 13px ' + T.fontBody; ctx.fillStyle = T.figInk; ctx.textAlign = 'left';
@@ -133,7 +133,7 @@ Sims.register('u-atmosphere-escape', {
       ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontMono; ctx.textAlign = 'center';
       var step = niceStep(vmax / 4);
       for (v = 0; v <= vmax + 1e-9; v += step) ctx.fillText(+v.toFixed(2), sx(v), B + 14);
-      ctx.font = '12px ' + T.fontBody; ctx.fillText('속력 (km/s)', (L + R) / 2, B + 30);
+      ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'left'; ctx.fillText('속력 (km/s)', L, B + 30);
       // v_rms, v_esc 선
       vline(vrms(g), T.figInk, 'v_rms', 0);
       vline(st.v, T.figAccent, 'v_esc', 1);
@@ -146,7 +146,7 @@ Sims.register('u-atmosphere-escape', {
         ctx.fillText(lab, x + (x > (L + R) / 2 ? -4 : 4), Tp - 10 + row * 14);
       }
       ctx.fillStyle = T.figRed; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right';
-      ctx.fillText('색칠한 꼬리 = 탈출 가능한 분자', R, r.y + 34);
+      ctx.fillText('색칠한 꼬리 = 탈출 가능', R, B + 30);
     }
     function niceStep(x) { var p = Math.pow(10, Math.floor(Math.log10(x))), m = x / p; return (m < 1.5 ? 1 : m < 3.5 ? 2 : m < 7.5 ? 5 : 10) * p; }
 

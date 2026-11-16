@@ -39,22 +39,22 @@
 
 | 묶음 | 단원 | W | R | V |
 |---|---|---|---|---|
-| uphy-a | uphy-1 uphy-2 uphy-3 | 완료 | 진행 | |
-| uphy-b | uphy-4 uphy-5 uphy-6 | 완료 | 진행 | |
-| uphy-c | uphy-7 uphy-8 uphy-9 | 완료 | 진행 | |
-| uphy-d | uphy-10 uphy-11 uphy-12 | 완료 | 진행 | |
-| uchem-a | uchem-1 uchem-2 uchem-3 | 완료 | 진행 | |
-| uchem-b | uchem-4 uchem-5 uchem-6 | 완료 | 진행 | |
-| uchem-c | uchem-7 uchem-8 uchem-9 | 완료 | 진행 | |
-| uchem-d | uchem-10 uchem-11 uchem-12 | 완료 | 진행 | |
-| ubio-a | ubio-1 ubio-2 ubio-3 | 완료 | 진행 | |
-| ubio-b | ubio-4 ubio-5 ubio-6 | 완료 | 진행 | |
-| ubio-c | ubio-7 ubio-8 ubio-9 | 완료 | 진행 | |
-| ubio-d | ubio-10 ubio-11 | 완료 | 진행 | |
+| uphy-a | uphy-1 uphy-2 uphy-3 | 완료 | 완료 | 진행 |
+| uphy-b | uphy-4 uphy-5 uphy-6 | 완료 | 완료 | 진행 |
+| uphy-c | uphy-7 uphy-8 uphy-9 | 완료 | 완료 | 진행 |
+| uphy-d | uphy-10 uphy-11 uphy-12 | 완료 | 완료 | 진행 |
+| uchem-a | uchem-1 uchem-2 uchem-3 | 완료 | 완료 | 진행 |
+| uchem-b | uchem-4 uchem-5 uchem-6 | 완료 | 완료 | 진행 |
+| uchem-c | uchem-7 uchem-8 uchem-9 | 완료 | 완료 | 진행 |
+| uchem-d | uchem-10 uchem-11 uchem-12 | 완료 | 완료 | 진행 |
+| ubio-a | ubio-1 ubio-2 ubio-3 | 완료 | 완료 | 진행 |
+| ubio-b | ubio-4 ubio-5 ubio-6 | 완료 | 완료 | 진행 |
+| ubio-c | ubio-7 ubio-8 ubio-9 | 완료 | 완료 | 진행 |
+| ubio-d | ubio-10 ubio-11 | 완료 | 완료 | 진행 |
 | ubio-e | ubio-12 ubio-13 | 완료 | 완료 | 진행 |
-| uearth-a | uearth-1 uearth-2 uearth-3 | 완료 | 진행 | |
-| uearth-b | uearth-4 uearth-5 uearth-6 | 완료 | 진행 | |
-| uearth-c | uearth-7 uearth-8 uearth-9 | 완료 | 진행 | |
+| uearth-a | uearth-1 uearth-2 uearth-3 | 완료 | 완료 | 진행 |
+| uearth-b | uearth-4 uearth-5 uearth-6 | 완료 | 완료 | 진행 |
+| uearth-c | uearth-7 uearth-8 uearth-9 | 완료 | 완료 | 진행 |
 | uearth-d | uearth-10 uearth-11 | 완료 | 완료 | 진행 |
 
 마무리 때 할 일: 전체 빌드·qa·check, renumber_figs, README·교재_설계_안내·`m3-08-book-map.svg`(단계별 단원 수)·오프라인 묶음 갱신.

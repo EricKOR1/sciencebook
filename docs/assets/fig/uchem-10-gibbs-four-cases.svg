@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-uchem-10-gibbs-four-cases d-uchem-10-gibbs-four-cases">
+  <title id="t-uchem-10-gibbs-four-cases">그림 일반화학 10-3 ΔG = ΔH − TΔS의 온도 의존: 네 가지 경우</title>
+  <desc id="d-uchem-10-gibbs-four-cases">ΔH와 ΔS가 온도에 거의 무관하다고 보면 ΔG는 T에 대한 직선이다. 세로축 절편이 ΔH, 기울기가 −ΔS이다. 초록 영역(ΔG < 0)이 자발적인 온도 범위이며, 부호가 같은 두 경우에는 직선이 가로축과 만나는 전환 온도 T* = ΔH/ΔS에서 자발성이 바뀐다.</desc>
+  <style>.uchem-10-gibbs-four-cases-t{font-size:14px;fill:var(--fig-ink)} .uchem-10-gibbs-four-cases-s{font-size:13px;fill:var(--fig-muted)} .uchem-10-gibbs-four-cases-b{font-size:15px;font-weight:600;fill:var(--fig-ink)}</style>
+  <text x="92.0" y="22.0" text-anchor="middle" class="uchem-10-gibbs-four-cases-b">ΔH < 0, ΔS > 0</text>
+  <text x="92.0" y="44.0" text-anchor="middle" class="uchem-10-gibbs-four-cases-t" style="fill:var(--fig-green)">모든 온도에서 자발적</text>
+  <rect x="12.0" y="64.0" width="160.0" height="190.0" rx="0" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="34.0" y="159.0" width="126.0" height="81.0" rx="0" style="fill:var(--fig-soft-green);stroke:none"/>
+  <line x1="34.0" y1="159.0" x2="160.0" y2="159.0" style="stroke:var(--fig-muted);stroke-width:1.4;stroke-linecap:round"/>
+  <line x1="34.0" y1="78.0" x2="34.0" y2="240.0" style="stroke:var(--fig-muted);stroke-width:1.4;stroke-linecap:round"/>
+  <text x="30.0" y="80.0" text-anchor="end" class="uchem-10-gibbs-four-cases-s" style="font-size:12px">ΔG</text>
+  <text x="160.0" y="153.0" text-anchor="end" class="uchem-10-gibbs-four-cases-s" style="font-style:italic">T</text>
+  <text x="29.0" y="163.0" text-anchor="end" class="uchem-10-gibbs-four-cases-s" style="font-size:12px">0</text>
+  <line x1="34.0" y1="215.7" x2="160.0" y2="240.0" style="stroke:var(--fig-accent);stroke-width:3;stroke-linecap:round"/>
+  <circle cx="34.0" cy="215.7" r="4.0" style="fill:var(--fig-accent);stroke:none"/>
+  <text x="41.0" y="229.7" class="uchem-10-gibbs-four-cases-s" style="fill:var(--fig-accent)">ΔH</text>
+  <text x="92.0" y="276.0" text-anchor="middle" class="uchem-10-gibbs-four-cases-s">기울기 −ΔS < 0</text>
+  <text x="92.0" y="296.0" text-anchor="middle" class="uchem-10-gibbs-four-cases-s">2H₂O₂ → 2H₂O + O₂</text>
+  <text x="265.0" y="22.0" text-anchor="middle" class="uchem-10-gibbs-four-cases-b">ΔH > 0, ΔS < 0</text>
+  <text x="265.0" y="44.0" text-anchor="middle" class="uchem-10-gibbs-four-cases-t" style="fill:var(--fig-red)">모든 온도에서 비자발적</text>
+  <rect x="185.0" y="64.0" width="160.0" height="190.0" rx="0" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <line x1="207.0" y1="159.0" x2="333.0" y2="159.0" style="stroke:var(--fig-muted);stroke-width:1.4;stroke-linecap:round"/>
+  <line x1="207.0" y1="78.0" x2="207.0" y2="240.0" style="stroke:var(--fig-muted);stroke-width:1.4;stroke-linecap:round"/>
+  <text x="203.0" y="80.0" text-anchor="end" class="uchem-10-gibbs-four-cases-s" style="font-size:12px">ΔG</text>
+  <text x="333.0" y="153.0" text-anchor="end" class="uchem-10-gibbs-four-cases-s" style="font-style:italic">T</text>
+  <text x="202.0" y="163.0" text-anchor="end" class="uchem-10-gibbs-four-cases-s" style="font-size:12px">0</text>
+  <line x1="207.0" y1="102.3" x2="333.0" y2="78.0" style="stroke:var(--fig-accent);stroke-width:3;stroke-linecap:round"/>
+  <circle cx="207.0" cy="102.3" r="4.0" style="fill:var(--fig-accent);stroke:none"/>
+  <text x="214.0" y="96.3" class="uchem-10-gibbs-four-cases-s" style="fill:var(--fig-accent)">ΔH</text>
+  <text x="265.0" y="276.0" text-anchor="middle" class="uchem-10-gibbs-four-cases-s">기울기 −ΔS > 0</text>
+  <text x="265.0" y="296.0" text-anchor="middle" class="uchem-10-gibbs-four-cases-s">3O₂ → 2O₃</text>
+  <text x="438.0" y="22.0" text-anchor="middle" class="uchem-10-gibbs-four-cases-b">ΔH < 0, ΔS < 0</text>
+  <text x="438.0" y="44.0" text-anchor="middle" class="uchem-10-gibbs-four-cases-t" style="fill:var(--fig-ink)">T < T* 에서 자발적</text>
+  <rect x="358.0" y="64.0" width="160.0" height="190.0" rx="0" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="380.0" y="159.0" width="63.0" height="81.0" rx="0" style="fill:var(--fig-soft-green);stroke:none"/>
+  <line x1="380.0" y1="159.0" x2="506.0" y2="159.0" style="stroke:var(--fig-muted);stroke-width:1.4;stroke-linecap:round"/>
+  <line x1="380.0" y1="78.0" x2="380.0" y2="240.0" style="stroke:var(--fig-muted);stroke-width:1.4;stroke-linecap:round"/>
+  <text x="376.0" y="80.0" text-anchor="end" class="uchem-10-gibbs-four-cases-s" style="font-size:12px">ΔG</text>
+  <text x="506.0" y="153.0" text-anchor="end" class="uchem-10-gibbs-four-cases-s" style="font-style:italic">T</text>
+  <text x="375.0" y="163.0" text-anchor="end" class="uchem-10-gibbs-four-cases-s" style="font-size:12px">0</text>
+  <line x1="380.0" y1="215.7" x2="506.0" y2="102.3" style="stroke:var(--fig-accent);stroke-width:3;stroke-linecap:round"/>
+  <circle cx="380.0" cy="215.7" r="4.0" style="fill:var(--fig-accent);stroke:none"/>
+  <text x="387.0" y="229.7" class="uchem-10-gibbs-four-cases-s" style="fill:var(--fig-accent)">ΔH</text>
+  <circle cx="443.0" cy="159.0" r="4.5" style="fill:var(--fig-red);stroke:none"/>
+  <text x="443.0" y="179.0" text-anchor="middle" class="uchem-10-gibbs-four-cases-t" style="fill:var(--fig-red);font-weight:600">T*</text>
+  <text x="438.0" y="276.0" text-anchor="middle" class="uchem-10-gibbs-four-cases-s">기울기 −ΔS > 0</text>
+  <text x="438.0" y="296.0" text-anchor="middle" class="uchem-10-gibbs-four-cases-s">NH₃ 합성, 물의 응고</text>
+  <text x="611.0" y="22.0" text-anchor="middle" class="uchem-10-gibbs-four-cases-b">ΔH > 0, ΔS > 0</text>
+  <text x="611.0" y="44.0" text-anchor="middle" class="uchem-10-gibbs-four-cases-t" style="fill:var(--fig-ink)">T > T* 에서 자발적</text>
+  <rect x="531.0" y="64.0" width="160.0" height="190.0" rx="0" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="616.0" y="159.0" width="63.0" height="81.0" rx="0" style="fill:var(--fig-soft-green);stroke:none"/>
+  <line x1="553.0" y1="159.0" x2="679.0" y2="159.0" style="stroke:var(--fig-muted);stroke-width:1.4;stroke-linecap:round"/>
+  <line x1="553.0" y1="78.0" x2="553.0" y2="240.0" style="stroke:var(--fig-muted);stroke-width:1.4;stroke-linecap:round"/>
+  <text x="549.0" y="80.0" text-anchor="end" class="uchem-10-gibbs-four-cases-s" style="font-size:12px">ΔG</text>
+  <text x="679.0" y="153.0" text-anchor="end" class="uchem-10-gibbs-four-cases-s" style="font-style:italic">T</text>
+  <text x="548.0" y="163.0" text-anchor="end" class="uchem-10-gibbs-four-cases-s" style="font-size:12px">0</text>
+  <line x1="553.0" y1="102.3" x2="679.0" y2="215.7" style="stroke:var(--fig-accent);stroke-width:3;stroke-linecap:round"/>
+  <circle cx="553.0" cy="102.3" r="4.0" style="fill:var(--fig-accent);stroke:none"/>
+  <text x="560.0" y="96.3" class="uchem-10-gibbs-four-cases-s" style="fill:var(--fig-accent)">ΔH</text>
+  <circle cx="616.0" cy="159.0" r="4.5" style="fill:var(--fig-red);stroke:none"/>
+  <text x="616.0" y="149.0" text-anchor="middle" class="uchem-10-gibbs-four-cases-t" style="fill:var(--fig-red);font-weight:600">T*</text>
+  <text x="611.0" y="276.0" text-anchor="middle" class="uchem-10-gibbs-four-cases-s">기울기 −ΔS < 0</text>
+  <text x="611.0" y="296.0" text-anchor="middle" class="uchem-10-gibbs-four-cases-s">CaCO₃ 분해, 얼음 융해</text>
+  <text x="360.0" y="322.0" text-anchor="middle" class="uchem-10-gibbs-four-cases-s" style="fill:var(--fig-green)">초록 영역: ΔG < 0 (자발적)   ·   T* = ΔH/ΔS (전환 온도)</text>
+</svg>

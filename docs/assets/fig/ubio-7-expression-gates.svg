@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img" aria-labelledby="t-ubio-7-expression-gates d-ubio-7-expression-gates">
+  <title id="t-ubio-7-expression-gates">그림 일반생명과학 7-1 진핵세포에서 유전자 발현량이 정해지는 관문</title>
+  <desc id="d-ubio-7-expression-gates">핵 안에서는 염색질의 열림, 전사 개시, RNA 가공이, 핵공을 지난 세포질에서는 mRNA 분해, 번역, 단백질의 가공과 분해가 단백질의 최종 양을 정한다. 모식도이다.</desc>
+  <style>
+    .ubio-7-expression-gates-h{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+    .ubio-7-expression-gates-s{font-size:13px;fill:var(--fig-muted)}
+    .ubio-7-expression-gates-t{font-size:13px;fill:var(--fig-ink)}
+    .ubio-7-expression-gates-nuc{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5}
+    .ubio-7-expression-gates-dna{fill:none;stroke:var(--fig-ink);stroke-width:2.5}
+    .ubio-7-expression-gates-his{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5}
+    .ubio-7-expression-gates-ex{fill:var(--fig-blue);stroke:none}
+    .ubio-7-expression-gates-arr{fill:none;stroke:var(--fig-muted);stroke-width:1.8}
+    .ubio-7-expression-gates-ah{fill:var(--fig-muted)}
+    .ubio-7-expression-gates-rib{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5}
+    .ubio-7-expression-gates-pep{fill:none;stroke:var(--fig-red);stroke-width:2;stroke-linejoin:round}
+  </style>
+  <!-- 세포막과 세포질 -->
+  <rect x="4" y="4" width="712" height="432" rx="30" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:2"/>
+  <text x="700" y="30" text-anchor="end" class="ubio-7-expression-gates-h">세포질</text>
+  <!-- 핵(이중막) -->
+  <rect x="16" y="40" width="340" height="384" rx="26" class="ubio-7-expression-gates-nuc"/>
+  <rect x="21" y="45" width="330" height="374" rx="22" style="fill:none;stroke:var(--fig-violet);stroke-width:1.2"/>
+  <!-- 핵공 -->
+  <rect x="345" y="322" width="16" height="26" style="fill:var(--fig-panel);stroke:none"/>
+  <line x1="347" y1="322" x2="360" y2="322" style="stroke:var(--fig-violet);stroke-width:2.5"/>
+  <line x1="347" y1="348" x2="360" y2="348" style="stroke:var(--fig-violet);stroke-width:2.5"/>
+  <text x="34" y="68" class="ubio-7-expression-gates-h">핵</text>
+
+  <!-- ① 염색질 -->
+  <text x="34" y="96" class="ubio-7-expression-gates-h">① 염색질</text>
+  <g>
+    <circle cx="62" cy="130" r="9" class="ubio-7-expression-gates-his"/><circle cx="79" cy="124" r="9" class="ubio-7-expression-gates-his"/>
+    <circle cx="96" cy="131" r="9" class="ubio-7-expression-gates-his"/><circle cx="113" cy="124" r="9" class="ubio-7-expression-gates-his"/>
+    <circle cx="130" cy="131" r="9" class="ubio-7-expression-gates-his"/><circle cx="70" cy="143" r="9" class="ubio-7-expression-gates-his"/>
+    <circle cx="88" cy="146" r="9" class="ubio-7-expression-gates-his"/><circle cx="106" cy="144" r="9" class="ubio-7-expression-gates-his"/>
+    <circle cx="123" cy="146" r="9" class="ubio-7-expression-gates-his"/>
+  </g>
+  <text x="96" y="172" text-anchor="middle" class="ubio-7-expression-gates-s">이질염색질(닫힘)</text>
+  <line x1="152" y1="136" x2="190" y2="136" class="ubio-7-expression-gates-arr"/>
+  <path d="M196 136 l-8 -5 v10 z" class="ubio-7-expression-gates-ah"/><path d="M146 136 l8 -5 v10 z" class="ubio-7-expression-gates-ah"/>
+  <text x="171" y="124" text-anchor="middle" class="ubio-7-expression-gates-s">Ac</text>
+  <path d="M202 136 C214 120 226 152 238 136 S262 120 274 136 S298 152 310 136 S330 124 338 136" class="ubio-7-expression-gates-dna"/>
+  <circle cx="226" cy="136" r="9" class="ubio-7-expression-gates-his"/><circle cx="286" cy="136" r="9" class="ubio-7-expression-gates-his"/>
+  <text x="270" y="172" text-anchor="middle" class="ubio-7-expression-gates-s">진정염색질(열림)</text>
+
+  <!-- ② 전사 개시 -->
+  <text x="34" y="206" class="ubio-7-expression-gates-h">② 전사 개시</text>
+  <line x1="30" y1="262" x2="340" y2="262" class="ubio-7-expression-gates-dna"/>
+  <rect x="44" y="256" width="42" height="12" style="fill:var(--fig-amber)"/>
+  <ellipse cx="65" cy="242" rx="18" ry="10" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <text x="65" y="286" text-anchor="middle" class="ubio-7-expression-gates-s">인핸서</text>
+  <text x="65" y="226" text-anchor="middle" class="ubio-7-expression-gates-t">활성 인자</text>
+  <path d="M84 236 C120 196 176 200 206 232" style="fill:none;stroke:var(--fig-green);stroke-width:1.6;stroke-dasharray:5 4"/>
+  <rect x="198" y="256" width="36" height="12" style="fill:var(--fig-violet)"/>
+  <rect x="236" y="256" width="100" height="12" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <ellipse cx="226" cy="244" rx="24" ry="12" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <text x="216" y="286" text-anchor="middle" class="ubio-7-expression-gates-s">프로모터</text>
+  <text x="290" y="286" text-anchor="middle" class="ubio-7-expression-gates-s">유전자</text>
+  <text x="258" y="226" class="ubio-7-expression-gates-t">RNA 중합</text>
+  <text x="258" y="242" class="ubio-7-expression-gates-t">효소 Ⅱ</text>
+
+  <!-- ③ RNA 가공 -->
+  <text x="34" y="318" class="ubio-7-expression-gates-h">③ RNA 가공</text>
+  <line x1="40" y1="340" x2="214" y2="340" style="stroke:var(--fig-muted);stroke-width:2"/>
+  <rect x="40" y="333" width="34" height="14" class="ubio-7-expression-gates-ex"/>
+  <rect x="110" y="333" width="34" height="14" class="ubio-7-expression-gates-ex"/>
+  <rect x="180" y="333" width="34" height="14" class="ubio-7-expression-gates-ex"/>
+  <text x="222" y="345" class="ubio-7-expression-gates-s">엑손 + 인트론</text>
+  <line x1="110" y1="352" x2="110" y2="370" class="ubio-7-expression-gates-arr"/>
+  <path d="M110 376 l-5 -8 h10 z" class="ubio-7-expression-gates-ah"/>
+  <text x="120" y="368" class="ubio-7-expression-gates-s">스플라이싱(선택적)</text>
+  <circle cx="46" cy="392" r="6" style="fill:var(--fig-red)"/>
+  <rect x="54" y="385" width="102" height="14" class="ubio-7-expression-gates-ex"/>
+  <line x1="88" y1="385" x2="88" y2="399" style="stroke:var(--fig-panel);stroke-width:1.5"/>
+  <line x1="122" y1="385" x2="122" y2="399" style="stroke:var(--fig-panel);stroke-width:1.5"/>
+  <text x="160" y="397" class="ubio-7-expression-gates-t">AAAA</text>
+  <text x="34" y="414" class="ubio-7-expression-gates-s">5′ 모자</text>
+  <text x="160" y="414" class="ubio-7-expression-gates-s">폴리 A 꼬리</text>
+  <!-- ④ 핵 밖 수송 -->
+  <path d="M206 392 C270 392 300 335 352 335 L392 335" class="ubio-7-expression-gates-arr"/>
+  <path d="M400 335 l-9 -5 v10 z" class="ubio-7-expression-gates-ah"/>
+  <text x="372" y="302" class="ubio-7-expression-gates-h">④ 핵 밖 수송</text>
+  <text x="372" y="318" class="ubio-7-expression-gates-s">핵공</text>
+
+  <!-- ⑥ 번역 -->
+  <line x1="404" y1="335" x2="560" y2="335" style="stroke:var(--fig-blue);stroke-width:4"/>
+  <circle cx="404" cy="335" r="5" style="fill:var(--fig-red)"/>
+  <ellipse cx="450" cy="326" rx="17" ry="10" class="ubio-7-expression-gates-rib"/><ellipse cx="450" cy="343" rx="12" ry="7" class="ubio-7-expression-gates-rib"/>
+  <ellipse cx="514" cy="326" rx="17" ry="10" class="ubio-7-expression-gates-rib"/><ellipse cx="514" cy="343" rx="12" ry="7" class="ubio-7-expression-gates-rib"/>
+  <path d="M450 316 l-5 -6 l5 -6" class="ubio-7-expression-gates-pep"/>
+  <path d="M514 316 l-6 -7 l6 -7 l-6 -7 l6 -7 l-6 -7 l6 -7 l-6 -7 l6 -8" class="ubio-7-expression-gates-pep"/>
+  <text x="580" y="331" class="ubio-7-expression-gates-h">⑥ 번역</text>
+  <text x="580" y="348" class="ubio-7-expression-gates-s">리보솜·개시 인자</text>
+  <!-- ⑤ mRNA 분해 -->
+  <line x1="424" y1="352" x2="424" y2="376" class="ubio-7-expression-gates-arr"/>
+  <path d="M424 382 l-5 -8 h10 z" class="ubio-7-expression-gates-ah"/>
+  <line x1="404" y1="400" x2="430" y2="400" style="stroke:var(--fig-blue);stroke-width:4"/>
+  <line x1="440" y1="400" x2="462" y2="400" style="stroke:var(--fig-blue);stroke-width:4"/>
+  <line x1="472" y1="400" x2="490" y2="400" style="stroke:var(--fig-blue);stroke-width:4"/>
+  <ellipse cx="520" cy="398" rx="20" ry="11" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <text x="520" y="424" text-anchor="middle" class="ubio-7-expression-gates-s">miRNA–RISC</text>
+  <text x="580" y="398" class="ubio-7-expression-gates-h">⑤ mRNA 분해</text>
+  <text x="580" y="415" class="ubio-7-expression-gates-s">3′ UTR·miRNA</text>
+
+  <!-- ⑦ 단백질 가공·분해 -->
+  <path d="M500 258 C478 236 520 226 506 210 C494 196 528 186 540 204 C556 224 534 240 548 256 C532 272 512 270 500 258 Z" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <line x1="514" y1="262" x2="514" y2="268" class="ubio-7-expression-gates-pep"/>
+  <!-- 활성화 -->
+  <line x1="556" y1="232" x2="604" y2="232" class="ubio-7-expression-gates-arr"/>
+  <path d="M612 232 l-9 -5 v10 z" class="ubio-7-expression-gates-ah"/>
+  <path d="M624 248 C612 232 640 222 632 210 C626 198 652 192 662 206 C674 222 656 234 668 248 C656 260 636 260 624 248 Z" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <circle cx="672" cy="208" r="9" style="fill:var(--fig-amber)"/>
+  <text x="672" y="212" text-anchor="middle" style="font-size:11px;font-weight:700;fill:var(--fig-paper)">P</text>
+  <text x="645" y="282" text-anchor="middle" class="ubio-7-expression-gates-s">활성형</text>
+  <text x="645" y="298" text-anchor="middle" class="ubio-7-expression-gates-s">(절단·인산화)</text>
+  <!-- 분해 -->
+  <line x1="514" y1="186" x2="514" y2="150" class="ubio-7-expression-gates-arr"/>
+  <path d="M514 142 l-5 9 h10 z" class="ubio-7-expression-gates-ah"/>
+  <circle cx="470" cy="128" r="9" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <circle cx="486" cy="118" r="9" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <circle cx="502" cy="126" r="9" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <text x="440" y="104" text-anchor="middle" class="ubio-7-expression-gates-s">유비퀴틴</text>
+  <rect x="580" y="108" width="80" height="40" rx="10" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <line x1="600" y1="108" x2="600" y2="148" style="stroke:var(--fig-amber);stroke-width:1"/>
+  <line x1="620" y1="108" x2="620" y2="148" style="stroke:var(--fig-amber);stroke-width:1"/>
+  <line x1="640" y1="108" x2="640" y2="148" style="stroke:var(--fig-amber);stroke-width:1"/>
+  <line x1="524" y1="128" x2="568" y2="128" class="ubio-7-expression-gates-arr"/>
+  <path d="M576 128 l-9 -5 v10 z" class="ubio-7-expression-gates-ah"/>
+  <text x="620" y="98" text-anchor="middle" class="ubio-7-expression-gates-s">프로테아솜</text>
+  <text x="620" y="168" text-anchor="middle" class="ubio-7-expression-gates-s">→ 아미노산</text>
+  <text x="390" y="62" class="ubio-7-expression-gates-h">⑦ 단백질 가공·분해</text>
+</svg>

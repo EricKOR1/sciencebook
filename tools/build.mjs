@@ -145,7 +145,11 @@ function protectMath(md, store) {
 }
 function renderMath(m) {
   // KaTeX는 가운뎃점(·)을 처리하지 못하므로 \cdot 으로 바꾼다(\text{…} 안에서는 잠시 밖으로 꺼낸다)
-  const tex = m.tex.replace(/\\text\{([^{}]*)\}/g, (all, inner) => `\\text{${inner.replace(/·/g, '}\\cdot\\text{')}}`).replace(/·/g, '\\cdot ').replace(/µ/g, 'μ');
+  const tex = m.tex.replace(/\\text\{([^{}]*)\}/g, (all, inner) => `\\text{${inner.replace(/·/g, '}\\cdot\\text{')}}`).replace(/·/g, '\\cdot ').replace(/µ/g, 'μ')
+    // 핵종 표기처럼 간격 명령 바로 뒤에 위·아래 첨자가 오면(\, ^{4}_{2}He) KaTeX가 처리하지 못하므로 빈 묶음을 끼운다
+    .replace(/(\\[,;:!]|\\quad|\\qquad)\s*(?=[\^_])/g, '$1{}')
+    // KaTeX 기본 글꼴에 없는 기호는 \text 로 감싸 본문 글꼴로 보여 준다
+    .replace(/(?<!\\text\{[^{}]*)([℃‰ⅠⅡⅢⅣⅤ])/g, '\\text{$1}');
   try {
     return katex.renderToString(tex, { displayMode: m.display, throwOnError: true, output: 'html', strict: 'ignore', trust: false });
   } catch (e) {
@@ -243,7 +247,9 @@ const FINDERS = [
   { id: 'sims', out: 'sims.html', title: '시뮬레이션 모아 보기' },
 ];
 const partLessons = (part) => lessons.filter((l) => l.part === part);
-const navItem = (l, current) => `<li><a href="${l.out}" data-id="${l.id}"${l.id === current ? ' aria-current="page"' : ''}><span class="nav-id">${escapeHtml(l.label)}</span>${escapeHtml(l.title)}</a></li>`;
+// 과목 이름이 붙은 번호("일반물리학 3")는 그 과목 목록 안에서는 숫자만 보여 준다
+const shortLabel = (l) => (l.label.startsWith(l.part.name + ' ') ? l.label.slice(l.part.name.length + 1) : l.label);
+const navItem = (l, current) => `<li><a href="${l.out}" data-id="${l.id}"${l.id === current ? ' aria-current="page"' : ''}><span class="nav-id">${escapeHtml(shortLabel(l))}</span>${escapeHtml(l.title)}</a></li>`;
 
 function navTree(current) {
   const cur = byId.get(current);
@@ -363,7 +369,7 @@ function coverBody() {
       const inner = units.map((u) => {
         const ls = partLessons(p).filter((l) => !p.units || l.unit === u);
         if (!ls.length) return '';
-        return `${u.name ? `<p class="toc-unit">${u.name}</p>` : ''}<ol>${ls.map((l) => `<li><a href="${l.out}" data-id="${l.id}" data-where="${escapeHtml(where(l))}"><span class="nav-id">${escapeHtml(l.label)}</span><span>${escapeHtml(l.title)}</span></a></li>`).join('')}</ol>`;
+        return `${u.name ? `<p class="toc-unit">${u.name}</p>` : ''}<ol>${ls.map((l) => `<li><a href="${l.out}" data-id="${l.id}" data-where="${escapeHtml(where(l))}"><span class="nav-id">${escapeHtml(shortLabel(l))}</span><span>${escapeHtml(l.title)}</span></a></li>`).join('')}</ol>`;
       }).join('');
       return `<section class="toc-card" id="toc-${p.id}"><h3>${p.name}<span class="nav-count">${partLessons(p).length}단원</span></h3>${inner}</section>`;
     }).join('');

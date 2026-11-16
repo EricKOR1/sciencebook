@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-uphy-7-kinetic-pressure d-uphy-7-kinetic-pressure">
+  <title id="t-uphy-7-kinetic-pressure">그림 일반물리학 7-2 분자 하나가 벽에 주는 평균 힘에서 압력으로</title>
+  <desc id="d-uphy-7-kinetic-pressure">한 변이 L인 상자 속 분자가 오른쪽 벽에 탄성 충돌하면 속도의 x성분만 vₓ에서 −vₓ로 바뀌어 벽이 2mvₓ의 충격량을 받는다. 같은 벽에 다시 오기까지 x 방향으로 2L을 가야 하므로 시간은 2L/vₓ이고, 평균 힘은 mvₓ²/L이다. N개를 더하고 넓이 L²으로 나누면 압력이 된다. 모식도이다.</desc>
+  <style>
+    .uphy-7-kinetic-pressure-t{font-size:14px;fill:var(--fig-ink)}
+    .uphy-7-kinetic-pressure-b{font-size:14px;fill:var(--fig-ink);font-weight:700}
+    .uphy-7-kinetic-pressure-s{font-size:13px;fill:var(--fig-muted)}
+    .uphy-7-kinetic-pressure-r{font-size:14px;fill:var(--fig-red);font-weight:700}
+    .uphy-7-kinetic-pressure-bl{font-size:14px;fill:var(--fig-blue);font-weight:700}
+  </style>
+  <!-- 상자 단면 -->
+  <rect x="40" y="60" width="230" height="200" style="fill:var(--fig-paper);stroke:var(--fig-ink);stroke-width:2"/>
+  <rect x="262" y="60" width="8" height="200" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <text x="155" y="48" text-anchor="middle" class="uphy-7-kinetic-pressure-s">정육면체 상자의 단면 (한 변 L)</text>
+  <text x="300" y="66" class="uphy-7-kinetic-pressure-s">벽 (넓이 L²)</text>
+  <!-- L 표시 -->
+  <line x1="40" y1="282" x2="270" y2="282" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <line x1="40" y1="276" x2="40" y2="288" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <line x1="270" y1="276" x2="270" y2="288" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="155" y="302" text-anchor="middle" class="uphy-7-kinetic-pressure-t">L</text>
+  <!-- 분자 경로 -->
+  <line x1="70" y1="230" x2="260" y2="150" style="stroke:var(--fig-line);stroke-width:1.5;stroke-dasharray:5 4"/>
+  <line x1="260" y1="150" x2="70" y2="70" style="stroke:var(--fig-line);stroke-width:1.5;stroke-dasharray:5 4"/>
+  <!-- 들어가는 속도 -->
+  <circle cx="160" cy="192" r="9" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <line x1="170" y1="188" x2="226" y2="164" style="stroke:var(--fig-blue);stroke-width:2.5"/>
+  <path d="M236 160 l-12 -1 l5 10 z" style="fill:var(--fig-blue)"/>
+  <text x="128" y="215" class="uphy-7-kinetic-pressure-bl">충돌 전</text>
+  <!-- 성분 (충돌 직전) -->
+  <line x1="212" y1="140" x2="252" y2="140" style="stroke:var(--fig-blue);stroke-width:2"/>
+  <path d="M258 140 l-9 -4 l0 8 z" style="fill:var(--fig-blue)"/>
+  <text x="208" y="133" text-anchor="end" class="uphy-7-kinetic-pressure-bl">+vₓ</text>
+  <!-- 나가는 속도 -->
+  <circle cx="160" cy="108" r="9" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <line x1="226" y1="136" x2="174" y2="114" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <path d="M168 111 l12 -1 l-5 10 z" style="fill:var(--fig-red)"/>
+  <text x="128" y="94" class="uphy-7-kinetic-pressure-r">충돌 후</text>
+  <line x1="252" y1="160" x2="212" y2="160" style="stroke:var(--fig-red);stroke-width:2"/>
+  <path d="M206 160 l9 -4 l0 8 z" style="fill:var(--fig-red)"/>
+  <text x="208" y="178" text-anchor="end" class="uphy-7-kinetic-pressure-r">−vₓ</text>
+  <text x="60" y="250" class="uphy-7-kinetic-pressure-s">y·z 성분은 그대로</text>
+  <!-- 벽이 받는 충격량 -->
+  <line x1="272" y1="150" x2="318" y2="150" style="stroke:var(--fig-amber);stroke-width:3"/>
+  <path d="M328 150 l-11 -5 l0 10 z" style="fill:var(--fig-amber)"/>
+  <text x="300" y="176" class="uphy-7-kinetic-pressure-t" style="fill:var(--fig-amber);font-weight:700">+2mvₓ</text>
+  <!-- 오른쪽 풀이 단계 -->
+  <rect x="380" y="30" width="320" height="64" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="394" y="54" class="uphy-7-kinetic-pressure-b">① 충돌 한 번</text>
+  <text x="394" y="78" class="uphy-7-kinetic-pressure-t">분자: Δpₓ = −2mvₓ → 벽: 충격량 +2mvₓ</text>
+  <rect x="380" y="104" width="320" height="64" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="394" y="128" class="uphy-7-kinetic-pressure-b">② 같은 벽에 다시 올 때까지</text>
+  <text x="394" y="152" class="uphy-7-kinetic-pressure-t">x 방향으로 2L 왕복 → Δt = 2L / vₓ</text>
+  <rect x="380" y="178" width="320" height="64" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="394" y="202" class="uphy-7-kinetic-pressure-b">③ 분자 하나의 평균 힘</text>
+  <text x="394" y="226" class="uphy-7-kinetic-pressure-t">F̄₁ = 2mvₓ / (2L/vₓ) = mvₓ² / L</text>
+  <rect x="380" y="252" width="320" height="64" rx="8" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <text x="394" y="276" class="uphy-7-kinetic-pressure-b">④ N개를 더하고 넓이 L²으로 나누기</text>
+  <text x="394" y="300" class="uphy-7-kinetic-pressure-t">P = (Nm/V)·⟨vₓ²⟩ = (1/3)(Nm/V)·⟨v²⟩</text>
+</svg>

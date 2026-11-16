@@ -4,7 +4,7 @@ Sims.register('u-seasons', {
   caption: '위도와 날짜를 바꿔 보자. 왼쪽(위)은 정오에 같은 폭의 햇빛 다발이 지면에 닿는 모습으로, 남중 고도 h가 낮을수록 같은 에너지가 1/sin h배 넓은 땅에 퍼진다. 오른쪽(아래)은 1년 동안의 낮 길이와 대기 밖 하루 평균 일사량이다. 자전축 경사를 0°로 줄이면 계절이 거의 사라지고, 남은 작은 변화(약 ±3 %)는 근일점·원일점 거리 차이 때문이다. 태양 적위는 원 궤도 근사 sin δ = sin ε sin λ로, 낮의 길이는 태양 중심이 지평선을 지나는 때로 계산했으며 대기의 굴절·감쇠는 무시했다(근일점 1월 3일, 이심률 0.0167, 태양 상수 1361 W/m²).',
   init: function (api) {
     var S0 = 1361, ECC = 0.0167, DEG = Math.PI / 180;
-    var st = { lat: 37.5, day: 172, tilt: 23.4 };
+    var st = { lat: 37.5, day: 171, tilt: 23.4 };
     var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.3 : 0.52; }, label: '정오의 햇빛 다발과 1년 동안의 낮 길이·일사량 그래프' });
     var ctx = cv.ctx;
     var MONTH0 = [0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334];
@@ -142,11 +142,11 @@ Sims.register('u-seasons', {
         ctx.fillStyle = T.figRed; ctx.textAlign = 'left'; ctx.fillText(Math.round(hh / 24 * maxQ), R + 6, syL(hh) + 4);
       });
       ctx.fillStyle = T.figMuted; ctx.textAlign = 'center';
-      var narrow = r.w < 420;
+      var narrow = r.w < 370;
       MONTH0.forEach(function (d, i) { if (!narrow || i % 2 === 0) ctx.fillText((i + 1) + '월', sx(d + 15), B + 15); });
       ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'left';
-      ctx.fillStyle = T.figBlue; ctx.fillText('— 낮의 길이 (시간)', L, Tp - 14);
-      ctx.fillStyle = T.figRed; ctx.textAlign = 'right'; ctx.fillText('하루 평균 일사량 (W/m²) —', R, Tp - 14);
+      ctx.fillStyle = T.figBlue; ctx.fillText(narrow ? '— 낮 길이(시간)' : '— 낮의 길이 (시간)', L - 30, Tp - 14);
+      ctx.fillStyle = T.figRed; ctx.textAlign = 'right'; ctx.fillText(narrow ? '일사량(W/m²) —' : '하루 평균 일사량 (W/m²) —', R + 34, Tp - 14);
       // 곡선
       function curve(fn, sy, col, dash) {
         ctx.beginPath();

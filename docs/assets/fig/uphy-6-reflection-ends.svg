@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-uphy-6-reflection-ends d-uphy-6-reflection-ends">
+  <title id="t-uphy-6-reflection-ends">그림 일반물리학 6-1 고정단과 자유단에서의 반사</title>
+  <desc id="d-uphy-6-reflection-ends">고정단에서는 끝점의 변위가 0이어야 하므로 반사 펄스가 뒤집혀(위상 π 변화) 돌아오고, 자유단(막대를 따라 미끄러지는 고리)에서는 끝의 기울기가 0이어야 하므로 뒤집히지 않고 돌아온다.</desc>
+  <style>
+    .u6re-t{font-size:14px;fill:var(--fig-ink)} .u6re-s{font-size:13px;fill:var(--fig-muted)}
+    .u6re-b{font-size:15px;fill:var(--fig-ink);font-weight:600} .u6re-i{font-size:14px;fill:var(--fig-ink);font-style:italic}
+  </style>
+  <text x="30" y="40" class="u6re-b">고정단</text>
+  <path d="M50 110 L53 110 L56 110 L59 110 L62 110 L65 110 L68 110 L71 110 L74 110 L77 110 L80 110 L83 110 L86 110 L89 110 L92 110 L95 110 L98 110 L101 110 L104 110 L107 110 L110 110 L113 110 L116 110 L119 110 L122 110 L125 110 L128 110 L131 110 L134 109.9 L137 109.9 L140 109.8 L143 109.6 L146 109.4 L149 109 L152 108.5 L155 107.7 L158 106.6 L161 105.2 L164 103.2 L167 100.8 L170 97.9 L173 94.4 L176 90.4 L179 86 L182 81.5 L185 77 L188 72.8 L191 69.2 L194 66.4 L197 64.6 L200 64 L203 64.6 L206 66.4 L209 69.2 L212 72.8 L215 77 L218 81.5 L221 86 L224 90.4 L227 94.4 L230 97.9 L233 100.8 L236 103.2 L239 105.2 L242 106.6 L245 107.7 L248 108.5 L251 109 L254 109.4 L257 109.6 L260 109.8 L263 109.9 L266 109.9 L269 110 L272 110 L275 110 L278 110 L281 110 L284 110 L287 110 L290 110 L293 110 L296 110 L299 110 L302 110 L305 110 L308 110 L311 110 L314 110 L317 110 L320 110" style="fill:none;stroke:var(--fig-blue);stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round"/>
+  <line x1="200" y1="48" x2="243" y2="48" style="stroke:var(--fig-blue);stroke-width:2;stroke-linecap:butt"/>
+  <path d="M250 48 L242 51.6 L242 44.4 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <text x="200" y="134" text-anchor="middle" class="u6re-s" style="fill:var(--fig-blue)">들어오는 펄스</text>
+  <rect x="320" y="50" width="14" height="120" rx="0" style="fill:var(--fig-soft-red);stroke:var(--fig-ink);stroke-width:1.5"/>
+  <text x="345" y="115" class="u6re-t" style="fill:var(--fig-muted);font-size:22px">→</text>
+  <path d="M380 110 L383 110 L386 110 L389 110 L392 110 L395 110 L398 110 L401 110 L404 110 L407 110 L410 110 L413 110 L416 110 L419 110 L422 110 L425 110 L428 110 L431 110 L434 110 L437 110 L440 110 L443 110 L446 110 L449 110 L452 110 L455 110.1 L458 110.2 L461 110.3 L464 110.4 L467 110.7 L470 111.1 L473 111.8 L476 112.6 L479 113.8 L482 115.4 L485 117.5 L488 120.1 L491 123.3 L494 126.9 L497 131 L500 135.5 L503 140 L506 144.4 L509 148.5 L512 151.8 L515 154.3 L518 155.7 L521 155.9 L524 154.9 L527 152.8 L530 149.7 L533 145.8 L536 141.5 L539 137 L542 132.5 L545 128.2 L548 124.4 L551 121.1 L554 118.3 L557 116.1 L560 114.3 L563 113 L566 112 L569 111.3 L572 110.8 L575 110.5 L578 110.3 L581 110.2 L584 110.1 L587 110.1 L590 110 L593 110 L596 110 L599 110 L602 110 L605 110 L608 110 L611 110 L614 110 L617 110 L620 110 L623 110 L626 110 L629 110 L632 110 L635 110 L638 110 L641 110 L644 110 L647 110 L650 110" style="fill:none;stroke:var(--fig-red);stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round"/>
+  <line x1="540" y1="172" x2="497" y2="172" style="stroke:var(--fig-red);stroke-width:2;stroke-linecap:butt"/>
+  <path d="M490 172 L498 168.4 L498 175.6 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="520" y="92" text-anchor="middle" class="u6re-s" style="fill:var(--fig-red)">돌아가는 펄스</text>
+  <rect x="650" y="50" width="14" height="120" rx="0" style="fill:var(--fig-soft-red);stroke:var(--fig-ink);stroke-width:1.5"/>
+  <text x="690" y="40" text-anchor="end" class="u6re-s">끝점 y = 0</text>
+  <text x="470" y="186" text-anchor="middle" class="u6re-t" style="fill:var(--fig-red)">뒤집혀 돌아온다(위상 π 변화)</text>
+  <text x="30" y="220" class="u6re-b">자유단</text>
+  <path d="M50 290 L53 290 L56 290 L59 290 L62 290 L65 290 L68 290 L71 290 L74 290 L77 290 L80 290 L83 290 L86 290 L89 290 L92 290 L95 290 L98 290 L101 290 L104 290 L107 290 L110 290 L113 290 L116 290 L119 290 L122 290 L125 290 L128 290 L131 290 L134 289.9 L137 289.9 L140 289.8 L143 289.6 L146 289.4 L149 289 L152 288.5 L155 287.7 L158 286.6 L161 285.2 L164 283.2 L167 280.8 L170 277.9 L173 274.4 L176 270.4 L179 266 L182 261.5 L185 257 L188 252.8 L191 249.2 L194 246.4 L197 244.6 L200 244 L203 244.6 L206 246.4 L209 249.2 L212 252.8 L215 257 L218 261.5 L221 266 L224 270.4 L227 274.4 L230 277.9 L233 280.8 L236 283.2 L239 285.2 L242 286.6 L245 287.7 L248 288.5 L251 289 L254 289.4 L257 289.6 L260 289.8 L263 289.9 L266 289.9 L269 290 L272 290 L275 290 L278 290 L281 290 L284 290 L287 290 L290 290 L293 290 L296 290 L299 290 L302 290 L305 290 L308 290 L311 290 L314 290 L317 290 L320 290" style="fill:none;stroke:var(--fig-blue);stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round"/>
+  <line x1="200" y1="228" x2="243" y2="228" style="stroke:var(--fig-blue);stroke-width:2;stroke-linecap:butt"/>
+  <path d="M250 228 L242 231.6 L242 224.4 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <text x="200" y="314" text-anchor="middle" class="u6re-s" style="fill:var(--fig-blue)">들어오는 펄스</text>
+  <rect x="326" y="230" width="6" height="120" rx="0" style="fill:var(--fig-line);stroke:var(--fig-ink);stroke-width:1"/>
+  <circle cx="329" cy="290" r="7" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <text x="345" y="295" class="u6re-t" style="fill:var(--fig-muted);font-size:22px">→</text>
+  <path d="M380 290 L383 290 L386 290 L389 290 L392 290 L395 290 L398 290 L401 290 L404 290 L407 290 L410 290 L413 290 L416 290 L419 290 L422 290 L425 290 L428 290 L431 290 L434 290 L437 290 L440 290 L443 290 L446 290 L449 290 L452 290 L455 289.9 L458 289.8 L461 289.7 L464 289.6 L467 289.3 L470 288.9 L473 288.2 L476 287.4 L479 286.2 L482 284.6 L485 282.5 L488 279.9 L491 276.7 L494 273.1 L497 269 L500 264.5 L503 260 L506 255.6 L509 251.5 L512 248.2 L515 245.7 L518 244.3 L521 244.1 L524 245.1 L527 247.2 L530 250.3 L533 254.2 L536 258.5 L539 263 L542 267.5 L545 271.8 L548 275.6 L551 278.9 L554 281.7 L557 283.9 L560 285.7 L563 287 L566 288 L569 288.7 L572 289.2 L575 289.5 L578 289.7 L581 289.8 L584 289.9 L587 289.9 L590 290 L593 290 L596 290 L599 290 L602 290 L605 290 L608 290 L611 290 L614 290 L617 290 L620 290 L623 290 L626 290 L629 290 L632 290 L635 290 L638 290 L641 290 L644 290 L647 290 L650 290" style="fill:none;stroke:var(--fig-red);stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round"/>
+  <line x1="540" y1="228" x2="497" y2="228" style="stroke:var(--fig-red);stroke-width:2;stroke-linecap:butt"/>
+  <path d="M490 228 L498 224.4 L498 231.6 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="520" y="314" text-anchor="middle" class="u6re-s" style="fill:var(--fig-red)">돌아가는 펄스</text>
+  <rect x="656" y="230" width="6" height="120" rx="0" style="fill:var(--fig-line);stroke:var(--fig-ink);stroke-width:1"/>
+  <circle cx="659" cy="290" r="7" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <text x="690" y="220" text-anchor="end" class="u6re-s">끝점 ∂y/∂x = 0</text>
+  <text x="470" y="354" text-anchor="middle" class="u6re-t" style="fill:var(--fig-red)">그대로 돌아온다(위상 변화 없음)</text>
+  <text x="360" y="368" text-anchor="middle" class="u6re-s">자유단: 마찰 없이 막대를 따라 위아래로 움직이는 가벼운 고리에 줄 끝을 맨다(끝에 가로 힘이 작용하지 않는다)</text>
+</svg>

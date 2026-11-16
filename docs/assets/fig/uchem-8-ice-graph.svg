@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-uchem-8-ice-graph d-uchem-8-ice-graph">
+  <title id="t-uchem-8-ice-graph">그림 일반화학 8-2 ICE 표와 Q(x) 그래프로 본 평형 계산</title>
+  <desc id="d-uchem-8-ice-graph">예제 7(PCl₅ ⇌ PCl₃ + Cl₂, K = 0.0420, 처음 0.100 M)의 ICE 표를 세운 뒤, 변화량 x에 따른 Q(x) = x²/(0.100 − x)를 그렸다. 곡선이 K 선과 만나는 x = 0.0471이 평형이다. 분모의 x를 무시한 작은 K 근사(점선)는 x = 0.0648을 주어 크게 틀린다.</desc>
+  <style>.uchem-8-ice-graph-t{font-size:14px;fill:var(--fig-ink)} .uchem-8-ice-graph-s{font-size:13px;fill:var(--fig-muted)} .uchem-8-ice-graph-h{font-size:15px;fill:var(--fig-ink);font-weight:700} .uchem-8-ice-graph-ax{stroke:var(--fig-ink);stroke-width:1.3;fill:none} .uchem-8-ice-graph-grid{stroke:var(--fig-line);stroke-width:0.7;stroke-dasharray:3 3;fill:none} </style>
+  <text x="20" y="26" text-anchor="start" class="uchem-8-ice-graph-h">① ICE 표 (단위 M)</text>
+  <rect x="20" y="40" width="250" height="136" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="20" y="142" width="250" height="34" rx="0" style="fill:var(--fig-soft-green);stroke:none"/>
+  <line x1="20" y1="74" x2="270" y2="74" style="stroke:var(--fig-line);stroke-width:1"/>
+  <line x1="20" y1="108" x2="270" y2="108" style="stroke:var(--fig-line);stroke-width:1"/>
+  <line x1="20" y1="142" x2="270" y2="142" style="stroke:var(--fig-line);stroke-width:1"/>
+  <text x="42" y="62" text-anchor="middle" class="uchem-8-ice-graph-t" style="font-weight:600"></text>
+  <text x="42" y="96" text-anchor="middle" class="uchem-8-ice-graph-t" style="font-weight:600">I</text>
+  <text x="42" y="130" text-anchor="middle" class="uchem-8-ice-graph-t" style="font-weight:600">C</text>
+  <text x="42" y="164" text-anchor="middle" class="uchem-8-ice-graph-t" style="font-weight:600">E</text>
+  <line x1="64" y1="40" x2="64" y2="176" style="stroke:var(--fig-line);stroke-width:1"/>
+  <text x="101" y="62" text-anchor="middle" class="uchem-8-ice-graph-t" style="font-weight:600">PCl₅</text>
+  <text x="101" y="96" text-anchor="middle" class="uchem-8-ice-graph-t">0.100</text>
+  <text x="101" y="130" text-anchor="middle" class="uchem-8-ice-graph-t">−x</text>
+  <text x="101" y="164" text-anchor="middle" class="uchem-8-ice-graph-t">0.100 − x</text>
+  <line x1="138" y1="40" x2="138" y2="176" style="stroke:var(--fig-line);stroke-width:1"/>
+  <text x="171" y="62" text-anchor="middle" class="uchem-8-ice-graph-t" style="font-weight:600">PCl₃</text>
+  <text x="171" y="96" text-anchor="middle" class="uchem-8-ice-graph-t">0</text>
+  <text x="171" y="130" text-anchor="middle" class="uchem-8-ice-graph-t">+x</text>
+  <text x="171" y="164" text-anchor="middle" class="uchem-8-ice-graph-t">x</text>
+  <line x1="204" y1="40" x2="204" y2="176" style="stroke:var(--fig-line);stroke-width:1"/>
+  <text x="237" y="62" text-anchor="middle" class="uchem-8-ice-graph-t" style="font-weight:600">Cl₂</text>
+  <text x="237" y="96" text-anchor="middle" class="uchem-8-ice-graph-t">0</text>
+  <text x="237" y="130" text-anchor="middle" class="uchem-8-ice-graph-t">+x</text>
+  <text x="237" y="164" text-anchor="middle" class="uchem-8-ice-graph-t">x</text>
+  <text x="20" y="202" text-anchor="start" class="uchem-8-ice-graph-h">② E 줄을 K 식에 넣는다</text>
+  <text x="20" y="226" text-anchor="start" class="uchem-8-ice-graph-t">Q(x) = x² / (0.100 − x) = K</text>
+  <text x="20" y="250" text-anchor="start" class="uchem-8-ice-graph-h">③ 근의 공식: x = 0.0471 M</text>
+  <text x="20" y="274" text-anchor="start" class="uchem-8-ice-graph-t">PCl₅ 0.0529, PCl₃ = Cl₂ = 0.0471 M</text>
+  <text x="20" y="298" text-anchor="start" class="uchem-8-ice-graph-h">④ 검산: 0.0471² / 0.0529 = 0.0419</text>
+  <text x="20" y="322" text-anchor="start" class="uchem-8-ice-graph-s">x가 처음 농도의 47 %라 근사는 쓸 수 없다</text>
+  <line x1="402" y1="30" x2="402" y2="300" style="stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 3"/>
+  <text x="402" y="316" text-anchor="middle" class="uchem-8-ice-graph-s">0.02</text>
+  <line x1="474" y1="30" x2="474" y2="300" style="stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 3"/>
+  <text x="474" y="316" text-anchor="middle" class="uchem-8-ice-graph-s">0.04</text>
+  <line x1="546" y1="30" x2="546" y2="300" style="stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 3"/>
+  <text x="546" y="316" text-anchor="middle" class="uchem-8-ice-graph-s">0.06</text>
+  <line x1="618" y1="30" x2="618" y2="300" style="stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 3"/>
+  <text x="618" y="316" text-anchor="middle" class="uchem-8-ice-graph-s">0.08</text>
+  <line x1="690" y1="30" x2="690" y2="300" style="stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 3"/>
+  <text x="690" y="316" text-anchor="middle" class="uchem-8-ice-graph-s">0.10</text>
+  <text x="324" y="250" text-anchor="end" class="uchem-8-ice-graph-s">0.02</text>
+  <text x="324" y="196" text-anchor="end" class="uchem-8-ice-graph-s">0.04</text>
+  <text x="324" y="142" text-anchor="end" class="uchem-8-ice-graph-s">0.06</text>
+  <text x="324" y="88" text-anchor="end" class="uchem-8-ice-graph-s">0.08</text>
+  <text x="324" y="34" text-anchor="end" class="uchem-8-ice-graph-s">0.10</text>
+  <text x="324" y="304" text-anchor="end" class="uchem-8-ice-graph-s">0</text>
+  <path d="M330 26 L330 300 L690 300" class="uchem-8-ice-graph-ax"/>
+  <text x="690" y="334" text-anchor="end" class="uchem-8-ice-graph-t">변화량 x (M)</text>
+  <text x="338" y="40" text-anchor="start" class="uchem-8-ice-graph-t" style="font-weight:600">Q(x)</text>
+  <line x1="330" y1="186.6" x2="690" y2="186.6" style="stroke:var(--fig-red);stroke-width:2"/>
+  <text x="686" y="178.6" text-anchor="end" class="uchem-8-ice-graph-t" style="fill:var(--fig-red);font-weight:600">K = 0.0420</text>
+  <path d="M330 300 L333.6 300 L337.2 299.9 L340.8 299.7 L344.4 299.6 L348 299.3 L351.6 299 L355.2 298.6 L358.8 298.1 L362.4 297.6 L366 297 L369.6 296.3 L373.2 295.6 L376.8 294.8 L380.4 293.8 L384 292.9 L387.6 291.8 L391.2 290.6 L394.8 289.3 L398.4 288 L402 286.5 L405.6 284.9 L409.2 283.2 L412.8 281.5 L416.4 279.5 L420 277.5 L423.6 275.3 L427.2 273 L430.8 270.6 L434.4 268 L438 265.3 L441.6 262.4 L445.2 259.3 L448.8 256.1 L452.4 252.7 L456 249.1 L459.6 245.3 L463.2 241.3 L466.8 237.1 L470.4 232.7 L474 228 L477.6 223.1 L481.2 217.9 L484.8 212.4 L488.4 206.7 L492 200.6 L495.6 194.2 L499.2 187.5 L502.8 180.4 L506.4 172.9 L510 165 L513.6 156.7 L517.2 147.9 L520.8 138.6 L524.4 128.8 L528 118.5 L531.6 107.6 L535.2 96 L538.8 83.7 L542.4 70.8 L546 57 L549.6 42.4 L552.5 30" style="fill:none;stroke:var(--fig-accent);stroke-width:2.6"/>
+  <path d="M330 300 L333.6 300 L337.2 299.9 L340.8 299.8 L344.4 299.6 L348 299.3 L351.6 299 L355.2 298.7 L358.8 298.3 L362.4 297.8 L366 297.3 L369.6 296.7 L373.2 296.1 L376.8 295.4 L380.4 294.7 L384 293.9 L387.6 293.1 L391.2 292.2 L394.8 291.3 L398.4 290.3 L402 289.2 L405.6 288.1 L409.2 286.9 L412.8 285.7 L416.4 284.4 L420 283.1 L423.6 281.7 L427.2 280.3 L430.8 278.8 L434.4 277.3 L438 275.7 L441.6 274.1 L445.2 272.4 L448.8 270.6 L452.4 268.8 L456 266.9 L459.6 265 L463.2 263 L466.8 261 L470.4 258.9 L474 256.8 L477.6 254.6 L481.2 252.4 L484.8 250.1 L488.4 247.7 L492 245.3 L495.6 242.9 L499.2 240.4 L502.8 237.8 L506.4 235.2 L510 232.5 L513.6 229.8 L517.2 227 L520.8 224.2 L524.4 221.3 L528 218.3 L531.6 215.3 L535.2 212.3 L538.8 209.2 L542.4 206 L546 202.8 L549.6 199.5 L553.2 196.2 L556.8 192.8 L560.4 189.4 L564 185.9 L567.6 182.4 L571.2 178.8 L574.8 175.2 L578.4 171.5 L582 167.7 L585.6 163.9 L589.2 160 L592.8 156.1 L596.4 152.1 L600 148.1 L603.6 144 L607.2 139.9 L610.8 135.7 L614.4 131.5 L618 127.2 L621.6 122.9 L625.2 118.5 L628.8 114 L632.4 109.5 L636 104.9 L639.6 100.3 L643.2 95.6 L646.8 90.9 L650.4 86.1 L654 81.3 L657.6 76.4 L661.2 71.5 L664.8 66.5 L668.4 61.4 L672 56.3 L675.6 51.2 L679.2 46 L682.8 40.7 L686.4 35.4 L690 30" style="fill:none;stroke:var(--fig-muted);stroke-width:2;stroke-dasharray:6 4"/>
+  <line x1="499.6" y1="186.6" x2="499.6" y2="300" style="stroke:var(--fig-accent);stroke-width:1.2;stroke-dasharray:4 3"/>
+  <circle cx="499.6" cy="186.6" r="5.5" style="fill:var(--fig-accent);stroke:var(--fig-panel);stroke-width:1.5"/>
+  <text x="493.6" y="146.6" text-anchor="end" class="uchem-8-ice-graph-t" style="fill:var(--fig-accent);font-weight:700">평형 x = 0.0471</text>
+  <line x1="495.6" y1="150.6" x2="499.6" y2="179.6" style="stroke:var(--fig-accent);stroke-width:1"/>
+  <circle cx="563.3" cy="186.6" r="4.5" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:2"/>
+  <text x="569.3" y="208.6" text-anchor="start" class="uchem-8-ice-graph-s">근사 x = 0.0648 (틀림)</text>
+  <text x="628.8" y="97.5" text-anchor="end" class="uchem-8-ice-graph-t" style="fill:var(--fig-accent)">정확한 Q(x)</text>
+  <text x="686" y="46" text-anchor="end" class="uchem-8-ice-graph-s">x²/0.100 (근사)</text>
+  <text x="373.2" y="254" text-anchor="middle" class="uchem-8-ice-graph-s" style="fill:var(--fig-blue)">Q &lt; K</text>
+  <text x="373.2" y="270" text-anchor="middle" class="uchem-8-ice-graph-s" style="fill:var(--fig-blue)">→ 정반응</text>
+</svg>

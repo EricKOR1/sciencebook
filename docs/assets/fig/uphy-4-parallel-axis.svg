@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-labelledby="t-uphy-4-parallel-axis d-uphy-4-parallel-axis">
+  <title id="t-uphy-4-parallel-axis">그림 일반물리학 4-1 평행축 정리</title>
+  <desc id="d-uphy-4-parallel-axis">왼쪽: 질량 중심을 지나는 축과, 그 축에서 거리 d만큼 떨어진 나란한 축(둘 다 종이면에 수직). 조각 dm에서 두 축까지의 거리를 비교하면 I = I_cm + Md²가 나온다. 오른쪽: 막대의 중심 축과 끝 축에 적용한 예.</desc>
+  <style>
+    .u4pa-t{font-size:14px;fill:var(--fig-ink)} .u4pa-s{font-size:13px;fill:var(--fig-muted)}
+    .u4pa-b{font-size:15px;fill:var(--fig-ink);font-weight:600} .u4pa-i{font-size:14px;fill:var(--fig-ink);font-style:italic}
+  </style>
+  <path d="M70 230 C40 170 80 90 160 80 C240 70 330 100 340 170 C350 240 290 290 200 285 C130 282 95 270 70 230 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2;stroke-linejoin:round;stroke-linecap:round"/>
+  <line x1="200" y1="190" x2="120" y2="130" style="stroke:var(--fig-muted);stroke-width:1.8;stroke-linecap:round;stroke-dasharray:5 4"/>
+  <line x1="300" y1="120" x2="120" y2="130" style="stroke:var(--fig-amber);stroke-width:1.8;stroke-linecap:round;stroke-dasharray:5 4"/>
+  <line x1="200" y1="190" x2="280.6" y2="133.6" style="stroke:var(--fig-red);stroke-width:2.5;stroke-linecap:butt"/>
+  <path d="M288 128.4 L282.4 137.8 L277.2 130.4 Z" style="fill:var(--fig-red);stroke:none"/>
+  <circle cx="200" cy="190" r="10" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <circle cx="200" cy="190" r="3" style="fill:var(--fig-ink);stroke:none;stroke-width:0"/>
+  <circle cx="300" cy="120" r="10" style="fill:var(--fig-panel);stroke:var(--fig-amber);stroke-width:2"/>
+  <circle cx="300" cy="120" r="3" style="fill:var(--fig-amber);stroke:none;stroke-width:0"/>
+  <rect x="113" y="123" width="14" height="14" rx="2" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <text x="108" y="116" text-anchor="end" class="u4pa-b" style="fill:var(--fig-violet)">dm</text>
+  <text x="194" y="220" text-anchor="middle" class="u4pa-s">질량 중심 축</text>
+  <text x="194" y="237" text-anchor="middle" class="u4pa-i">I<tspan baseline-shift="sub" font-size="11">cm</tspan></text>
+  <text x="316" y="106" class="u4pa-s" style="fill:var(--fig-amber)">나란한 새 축</text>
+  <text x="316" y="124" class="u4pa-i" style="fill:var(--fig-amber)">I</text>
+  <text x="262" y="168" text-anchor="middle" class="u4pa-i" style="fill:var(--fig-red);font-weight:600;font-size:16px">d</text>
+  <text x="150" y="176" text-anchor="middle" class="u4pa-i" style="fill:var(--fig-muted)">r</text>
+  <text x="210" y="116" text-anchor="middle" class="u4pa-i" style="fill:var(--fig-amber)">r′</text>
+  <text x="205" y="330" text-anchor="middle" class="u4pa-s">축은 모두 종이면에 수직(⊙)</text>
+  <text x="200" y="30" text-anchor="middle" class="u4pa-t">r′<tspan baseline-shift="super" font-size="11">2</tspan> = r<tspan baseline-shift="super" font-size="11">2</tspan> − 2(ax + by) + d<tspan baseline-shift="super" font-size="11">2</tspan>   (새 축의 위치 (a, b))</text>
+  <text x="200" y="52" text-anchor="middle" class="u4pa-s">∫x dm = ∫y dm = 0 (원점이 질량 중심)</text>
+  <line x1="390" y1="30" x2="390" y2="320" style="stroke:var(--fig-line);stroke-width:1;stroke-linecap:round;stroke-dasharray:3 5"/>
+  <rect x="440" y="167" width="240" height="16" rx="4" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <circle cx="560" cy="175" r="9" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <circle cx="560" cy="175" r="3" style="fill:var(--fig-ink);stroke:none;stroke-width:0"/>
+  <circle cx="440" cy="175" r="9" style="fill:var(--fig-panel);stroke:var(--fig-amber);stroke-width:2"/>
+  <circle cx="440" cy="175" r="3" style="fill:var(--fig-amber);stroke:none;stroke-width:0"/>
+  <text x="560" y="207" text-anchor="middle" class="u4pa-s">중심 축</text>
+  <text x="440" y="207" text-anchor="middle" class="u4pa-s" style="fill:var(--fig-amber)">끝 축</text>
+  <line x1="452" y1="130" x2="551" y2="130" style="stroke:var(--fig-red);stroke-width:2;stroke-linecap:butt"/>
+  <path d="M558 130 L550 133.6 L550 126.4 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="548" y1="130" x2="449" y2="130" style="stroke:var(--fig-red);stroke-width:2;stroke-linecap:butt"/>
+  <path d="M442 130 L450 126.4 L450 133.6 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="500" y="120" text-anchor="middle" class="u4pa-i" style="fill:var(--fig-red)">d = L/2</text>
+  <line x1="440" y1="95" x2="680" y2="95" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:round"/>
+  <line x1="440" y1="89" x2="440" y2="101" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:round"/>
+  <line x1="680" y1="89" x2="680" y2="101" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:round"/>
+  <text x="560" y="86" text-anchor="middle" class="u4pa-s">길이 L, 질량 M</text>
+  <text x="560" y="245" text-anchor="middle" class="u4pa-t">I<tspan baseline-shift="sub" font-size="11">중심</tspan> = ML²/12</text>
+  <text x="560" y="270" text-anchor="middle" class="u4pa-t" style="fill:var(--fig-amber)">I<tspan baseline-shift="sub" font-size="11">끝</tspan> = ML²/12 + M(L/2)² = ML²/3</text>
+  <text x="560" y="300" text-anchor="middle" class="u4pa-s">나란한 축 가운데 질량 중심을 지나는</text>
+  <text x="560" y="318" text-anchor="middle" class="u4pa-s">축의 관성 모멘트가 가장 작다</text>
+</svg>

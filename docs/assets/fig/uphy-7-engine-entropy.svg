@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-labelledby="t-uphy-7-engine-entropy d-uphy-7-engine-entropy">
+  <title id="t-uphy-7-engine-entropy">그림 일반물리학 7-3 열기관과 냉동기의 에너지 흐름과 엔트로피 장부</title>
+  <desc id="d-uphy-7-engine-entropy">(가) 열기관은 고온 열원에서 Q_H를 받아 일 W를 하고 저온 열원에 Q_C를 버린다. 전체 엔트로피 변화가 0 이상이어야 하므로 효율은 1 − T_C/T_H를 넘지 못한다. (나) Q_C = 0인 기관은 고온 열원의 엔트로피만 줄여 제2법칙에 어긋난다. (다) 냉동기·히트 펌프는 일을 들여 저온에서 고온으로 열을 옮긴다. 화살표 굵기는 모식적이다.</desc>
+  <style>.uphy-7-engine-entropy-t{font-size:14px;fill:var(--fig-ink)} .uphy-7-engine-entropy-b{font-size:14px;fill:var(--fig-ink);font-weight:700} .uphy-7-engine-entropy-s{font-size:13px;fill:var(--fig-muted)} .uphy-7-engine-entropy-hot{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5} .uphy-7-engine-entropy-cold{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5} .uphy-7-engine-entropy-eng{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2}</style>
+  <rect x="12" y="10" width="224" height="370" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="124" y="34" text-anchor="middle" class="uphy-7-engine-entropy-b">(가) 열기관</text>
+  <rect x="26" y="46" width="152" height="36" rx="6" class="uphy-7-engine-entropy-hot"/>
+  <text x="102" y="69" text-anchor="middle" class="uphy-7-engine-entropy-t">고온 열원 T<tspan style="baseline-shift:sub;font-size:11px">H</tspan></text>
+  <rect x="26" y="222" width="152" height="36" rx="6" class="uphy-7-engine-entropy-cold"/>
+  <text x="102" y="245" text-anchor="middle" class="uphy-7-engine-entropy-t">저온 열원 T<tspan style="baseline-shift:sub;font-size:11px">C</tspan></text>
+  <circle cx="102" cy="152" r="28" class="uphy-7-engine-entropy-eng"/>
+  <text x="102" y="157" text-anchor="middle" class="uphy-7-engine-entropy-s">기관</text>
+  <rect x="94.0" y="82" width="16" height="28" style="fill:var(--fig-red)"/>
+  <path d="M87.0 110 L117.0 110 L102 124 Z" style="fill:var(--fig-red)"/>
+  <text x="118" y="108" class="uphy-7-engine-entropy-b" style="fill:var(--fig-red)">Q<tspan style="baseline-shift:sub;font-size:11px">H</tspan></text>
+  <rect x="97.5" y="180" width="9" height="28" style="fill:var(--fig-blue)"/>
+  <path d="M90.5 208 L113.5 208 L102 222 Z" style="fill:var(--fig-blue)"/>
+  <text x="116" y="206" class="uphy-7-engine-entropy-b" style="fill:var(--fig-blue)">Q<tspan style="baseline-shift:sub;font-size:11px">C</tspan></text>
+  <rect x="130" y="147.5" width="80" height="9" style="fill:var(--fig-green)"/>
+  <path d="M210 140.5 L210 163.5 L224 152 Z" style="fill:var(--fig-green)"/>
+  <text x="192" y="140" text-anchor="middle" class="uphy-7-engine-entropy-b" style="fill:var(--fig-green)">W</text>
+  <text x="124" y="290" text-anchor="middle" class="uphy-7-engine-entropy-t">W = Q<tspan style="baseline-shift:sub;font-size:11px">H</tspan> − Q<tspan style="baseline-shift:sub;font-size:11px">C</tspan></text>
+  <text x="124" y="312" text-anchor="middle" class="uphy-7-engine-entropy-t">ΔS = −Q<tspan style="baseline-shift:sub;font-size:11px">H</tspan>/T<tspan style="baseline-shift:sub;font-size:11px">H</tspan> + Q<tspan style="baseline-shift:sub;font-size:11px">C</tspan>/T<tspan style="baseline-shift:sub;font-size:11px">C</tspan> ≥ 0</text>
+  <text x="124" y="334" text-anchor="middle" class="uphy-7-engine-entropy-t">⇒ e = W/Q<tspan style="baseline-shift:sub;font-size:11px">H</tspan> ≤ 1 − T<tspan style="baseline-shift:sub;font-size:11px">C</tspan>/T<tspan style="baseline-shift:sub;font-size:11px">H</tspan></text>
+  <text x="124" y="356" text-anchor="middle" class="uphy-7-engine-entropy-s">(등호: 카르노 기관)</text>
+  <rect x="248" y="10" width="224" height="370" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="360" y="34" text-anchor="middle" class="uphy-7-engine-entropy-b">(나) 불가능한 기관</text>
+  <rect x="262" y="46" width="152" height="36" rx="6" class="uphy-7-engine-entropy-hot"/>
+  <text x="338" y="69" text-anchor="middle" class="uphy-7-engine-entropy-t">고온 열원 T<tspan style="baseline-shift:sub;font-size:11px">H</tspan></text>
+  <rect x="262" y="222" width="152" height="36" rx="6" class="uphy-7-engine-entropy-cold"/>
+  <text x="338" y="245" text-anchor="middle" class="uphy-7-engine-entropy-t">저온 열원 T<tspan style="baseline-shift:sub;font-size:11px">C</tspan></text>
+  <circle cx="338" cy="152" r="28" class="uphy-7-engine-entropy-eng"/>
+  <text x="338" y="157" text-anchor="middle" class="uphy-7-engine-entropy-s">기관</text>
+  <rect x="330.0" y="82" width="16" height="28" style="fill:var(--fig-red)"/>
+  <path d="M323.0 110 L353.0 110 L338 124 Z" style="fill:var(--fig-red)"/>
+  <text x="354" y="108" class="uphy-7-engine-entropy-b" style="fill:var(--fig-red)">Q<tspan style="baseline-shift:sub;font-size:11px">H</tspan></text>
+  <rect x="366" y="144.0" width="80" height="16" style="fill:var(--fig-green)"/>
+  <path d="M446 137.0 L446 167.0 L460 152 Z" style="fill:var(--fig-green)"/>
+  <text x="428" y="134" text-anchor="middle" class="uphy-7-engine-entropy-b" style="fill:var(--fig-green)">W = Q<tspan style="baseline-shift:sub;font-size:11px">H</tspan></text>
+  <text x="338" y="206" text-anchor="middle" class="uphy-7-engine-entropy-s">Q<tspan style="baseline-shift:sub;font-size:11px">C</tspan> = 0</text>
+  <path d="M304 118 L372 186 M372 118 L304 186" style="stroke:var(--fig-red);stroke-width:3;fill:none"/>
+  <text x="360" y="290" text-anchor="middle" class="uphy-7-engine-entropy-t">ΔS = −Q<tspan style="baseline-shift:sub;font-size:11px">H</tspan>/T<tspan style="baseline-shift:sub;font-size:11px">H</tspan> < 0</text>
+  <text x="360" y="312" text-anchor="middle" class="uphy-7-engine-entropy-t">고립계의 엔트로피가 줄어든다</text>
+  <text x="360" y="334" text-anchor="middle" class="uphy-7-engine-entropy-t">→ 제2법칙 위반</text>
+  <text x="360" y="356" text-anchor="middle" class="uphy-7-engine-entropy-s">(켈빈–플랑크 표현)</text>
+  <rect x="484" y="10" width="224" height="370" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="596" y="34" text-anchor="middle" class="uphy-7-engine-entropy-b">(다) 냉동기 · 히트 펌프</text>
+  <rect x="498" y="46" width="152" height="36" rx="6" class="uphy-7-engine-entropy-hot"/>
+  <text x="574" y="69" text-anchor="middle" class="uphy-7-engine-entropy-t">고온 열원 T<tspan style="baseline-shift:sub;font-size:11px">H</tspan></text>
+  <rect x="498" y="222" width="152" height="36" rx="6" class="uphy-7-engine-entropy-cold"/>
+  <text x="574" y="245" text-anchor="middle" class="uphy-7-engine-entropy-t">저온 열원 T<tspan style="baseline-shift:sub;font-size:11px">C</tspan></text>
+  <circle cx="574" cy="152" r="28" class="uphy-7-engine-entropy-eng"/>
+  <text x="574" y="157" text-anchor="middle" class="uphy-7-engine-entropy-s">냉동기</text>
+  <rect x="566.0" y="96" width="16" height="28" style="fill:var(--fig-red)"/>
+  <path d="M559.0 96 L589.0 96 L574 82 Z" style="fill:var(--fig-red)"/>
+  <text x="590" y="108" class="uphy-7-engine-entropy-b" style="fill:var(--fig-red)">Q<tspan style="baseline-shift:sub;font-size:11px">H</tspan></text>
+  <rect x="569.5" y="194" width="9" height="28" style="fill:var(--fig-blue)"/>
+  <path d="M562.5 194 L585.5 194 L574 180 Z" style="fill:var(--fig-blue)"/>
+  <text x="588" y="206" class="uphy-7-engine-entropy-b" style="fill:var(--fig-blue)">Q<tspan style="baseline-shift:sub;font-size:11px">C</tspan></text>
+  <rect x="616" y="147.5" width="80" height="9" style="fill:var(--fig-green)"/>
+  <path d="M616 140.5 L616 163.5 L602 152 Z" style="fill:var(--fig-green)"/>
+  <text x="672" y="140" text-anchor="middle" class="uphy-7-engine-entropy-b" style="fill:var(--fig-green)">W</text>
+  <text x="596" y="290" text-anchor="middle" class="uphy-7-engine-entropy-t">Q<tspan style="baseline-shift:sub;font-size:11px">H</tspan> = Q<tspan style="baseline-shift:sub;font-size:11px">C</tspan> + W</text>
+  <text x="596" y="312" text-anchor="middle" class="uphy-7-engine-entropy-t">ΔS = −Q<tspan style="baseline-shift:sub;font-size:11px">C</tspan>/T<tspan style="baseline-shift:sub;font-size:11px">C</tspan> + Q<tspan style="baseline-shift:sub;font-size:11px">H</tspan>/T<tspan style="baseline-shift:sub;font-size:11px">H</tspan> ≥ 0</text>
+  <text x="596" y="334" text-anchor="middle" class="uphy-7-engine-entropy-t">⇒ K = Q<tspan style="baseline-shift:sub;font-size:11px">C</tspan>/W ≤ T<tspan style="baseline-shift:sub;font-size:11px">C</tspan>/(T<tspan style="baseline-shift:sub;font-size:11px">H</tspan> − T<tspan style="baseline-shift:sub;font-size:11px">C</tspan>)</text>
+  <text x="596" y="356" text-anchor="middle" class="uphy-7-engine-entropy-s">성능 계수는 1보다 클 수 있다</text>
+</svg>

@@ -37,10 +37,11 @@
   <text x="430.0" y="120.0" class="uphy-1-dot-cross-s">두 벡터에 모두 수직</text>
   <path d="M450.0 188.0 A30 11 0 1 1 394.0 188.0" style="fill:none;stroke:var(--fig-amber);stroke-width:2;stroke-linejoin:round;stroke-linecap:round"/>
   <polygon points="394.0,188.0 402.0,178.0 405.0,191.0" style="fill:var(--fig-amber);stroke:none;stroke-width:1;stroke-linejoin:round"/>
-  <text x="460.0" y="176.0" class="uphy-1-dot-cross-s">오른손 네 손가락: A → B 쪽으로</text>
-  <text x="460.0" y="194.0" class="uphy-1-dot-cross-s">엄지가 가리키는 쪽이 A × B</text>
-  <line x1="695.0" y1="204.0" x2="695.0" y2="292.0" style="stroke:var(--fig-muted);stroke-width:2;stroke-linecap:butt;stroke-dasharray:5 4"/>
-  <polygon points="695.0,302.0 690.0,291.0 700.0,291.0" style="fill:var(--fig-muted);stroke:none;stroke-width:1;stroke-linejoin:round"/>
-  <text x="687.0" y="324.0" text-anchor="middle" class="uphy-1-dot-cross-s">B × A = −A × B</text>
+  <text x="460.0" y="160.0" class="uphy-1-dot-cross-s">오른손 네 손가락: A → B 쪽으로</text>
+  <text x="460.0" y="178.0" class="uphy-1-dot-cross-s">엄지가 가리키는 쪽이 A × B</text>
+  <line x1="640.0" y1="222.0" x2="640.0" y2="296.0" style="stroke:var(--fig-muted);stroke-width:2;stroke-linecap:butt;stroke-dasharray:5 4"/>
+  <polygon points="640.0,306.0 635.0,295.0 645.0,295.0" style="fill:var(--fig-muted);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <text x="648.0" y="302.0" class="uphy-1-dot-cross-s">B × A</text>
+  <text x="648.0" y="318.0" class="uphy-1-dot-cross-s">= −A × B</text>
   <text x="390.0" y="342.0" class="uphy-1-dot-cross-s">크기: 평행사변형의 넓이  ·  나란하면 0</text>
 </svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-uchem-2-vt-extrapolation d-uchem-2-vt-extrapolation">
+  <title id="t-uchem-2-vt-extrapolation">그림 일반화학 2-2 V–t 직선을 외삽해 찾은 절대 영도</title>
+  <desc id="d-uchem-2-vt-extrapolation">압력이 일정할 때 양이 다른 세 기체 시료의 부피는 섭씨 온도에 대해 직선으로 변한다. 측정한 구간(실선)을 낮은 온도 쪽으로 연장하면(점선) 세 직선이 모두 −273.15 °C에서 부피 0에 모인다. 실제 기체는 그 전에 액화한다.</desc>
+  <style>
+    .uchem-2-vt-extrapolation-ax{stroke:var(--fig-ink);stroke-width:1.5}
+    .uchem-2-vt-extrapolation-grid{stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:2 4}
+    .uchem-2-vt-extrapolation-n{font-size:13px;fill:var(--fig-muted)}
+    .uchem-2-vt-extrapolation-t{font-size:14px;fill:var(--fig-ink)}
+    .uchem-2-vt-extrapolation-k{font-size:14px;font-weight:600;fill:var(--fig-red)}
+  </style>
+  <line x1="90.0" y1="280" x2="90.0" y2="40" class="uchem-2-vt-extrapolation-grid"/>
+  <text x="90.0" y="298" text−anchor="middle" class="uchem−2−vt−extrapolation−n">−300</text>
+  <line x1="161.4" y1="280" x2="161.4" y2="40" class="uchem-2-vt-extrapolation-grid"/>
+  <text x="161.4" y="298" text−anchor="middle" class="uchem−2−vt−extrapolation−n">−250</text>
+  <line x1="232.9" y1="280" x2="232.9" y2="40" class="uchem-2-vt-extrapolation-grid"/>
+  <text x="232.9" y="298" text−anchor="middle" class="uchem−2−vt−extrapolation−n">−200</text>
+  <line x1="304.3" y1="280" x2="304.3" y2="40" class="uchem-2-vt-extrapolation-grid"/>
+  <text x="304.3" y="298" text−anchor="middle" class="uchem−2−vt−extrapolation−n">−150</text>
+  <line x1="375.7" y1="280" x2="375.7" y2="40" class="uchem-2-vt-extrapolation-grid"/>
+  <text x="375.7" y="298" text−anchor="middle" class="uchem−2−vt−extrapolation−n">−100</text>
+  <line x1="447.1" y1="280" x2="447.1" y2="40" class="uchem-2-vt-extrapolation-grid"/>
+  <text x="447.1" y="298" text−anchor="middle" class="uchem−2−vt−extrapolation−n">−50</text>
+  <line x1="518.6" y1="280" x2="518.6" y2="40" class="uchem-2-vt-extrapolation-grid"/>
+  <text x="518.6" y="298" text-anchor="middle" class="uchem-2-vt-extrapolation-n">0</text>
+  <line x1="590.0" y1="280" x2="590.0" y2="40" class="uchem-2-vt-extrapolation-grid"/>
+  <text x="590.0" y="298" text-anchor="middle" class="uchem-2-vt-extrapolation-n">50</text>
+  <line x1="661.4" y1="280" x2="661.4" y2="40" class="uchem-2-vt-extrapolation-grid"/>
+  <text x="661.4" y="298" text-anchor="middle" class="uchem-2-vt-extrapolation-n">100</text>
+  <line x1="90" y1="280.0" x2="690" y2="280.0" class="uchem-2-vt-extrapolation-grid"/>
+  <text x="82" y="284.0" text-anchor="end" class="uchem-2-vt-extrapolation-n">0.0</text>
+  <line x1="90" y1="220.0" x2="690" y2="220.0" class="uchem-2-vt-extrapolation-grid"/>
+  <text x="82" y="224.0" text-anchor="end" class="uchem-2-vt-extrapolation-n">0.4</text>
+  <line x1="90" y1="160.0" x2="690" y2="160.0" class="uchem-2-vt-extrapolation-grid"/>
+  <text x="82" y="164.0" text-anchor="end" class="uchem-2-vt-extrapolation-n">0.8</text>
+  <line x1="90" y1="100.0" x2="690" y2="100.0" class="uchem-2-vt-extrapolation-grid"/>
+  <text x="82" y="104.0" text-anchor="end" class="uchem-2-vt-extrapolation-n">1.2</text>
+  <line x1="90" y1="40.0" x2="690" y2="40.0" class="uchem-2-vt-extrapolation-grid"/>
+  <text x="82" y="44.0" text-anchor="end" class="uchem-2-vt-extrapolation-n">1.6</text>
+  <line x1="90" y1="280" x2="690" y2="280" class="uchem-2-vt-extrapolation-ax"/>
+  <line x1="90" y1="280" x2="90" y2="34" class="uchem-2-vt-extrapolation-ax"/>
+  <line x1="518.6" y1="280" x2="518.6" y2="40" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="390.0" y="320" text-anchor="middle" class="uchem-2-vt-extrapolation-t">온도 t (°C)</text>
+  <text x="22" y="160.0" text-anchor="middle" class="uchem-2-vt-extrapolation-t" transform="rotate(-90 22 160.0)">부피 V (L)</text>
+  <line x1="128.4" y1="280.0" x2="432.9" y2="162.9" style="stroke:var(--fig-blue);stroke-width:2;stroke-dasharray:6 5"/>
+  <line x1="432.9" y1="162.9" x2="661.4" y2="75.1" style="stroke:var(--fig-blue);stroke-width:3"/>
+  <circle cx="432.9" cy="162.9" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:2"/>
+  <circle cx="461.4" cy="152.0" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:2"/>
+  <circle cx="490.0" cy="141.0" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:2"/>
+  <circle cx="518.6" cy="130.0" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:2"/>
+  <circle cx="547.1" cy="119.0" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:2"/>
+  <circle cx="575.7" cy="108.0" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:2"/>
+  <circle cx="604.3" cy="97.1" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:2"/>
+  <circle cx="632.9" cy="86.1" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:2"/>
+  <circle cx="661.4" cy="75.1" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="667.1" y="77.9" class="uchem-2-vt-extrapolation-t" style="fill:var(--fig-blue);font-weight:600">A</text>
+  <line x1="128.4" y1="280.0" x2="432.9" y2="198.1" style="stroke:var(--fig-green);stroke-width:2;stroke-dasharray:6 5"/>
+  <line x1="432.9" y1="198.1" x2="661.4" y2="136.6" style="stroke:var(--fig-green);stroke-width:3"/>
+  <circle cx="432.9" cy="198.1" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-green);stroke-width:2"/>
+  <circle cx="461.4" cy="190.4" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-green);stroke-width:2"/>
+  <circle cx="490.0" cy="182.7" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-green);stroke-width:2"/>
+  <circle cx="518.6" cy="175.0" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-green);stroke-width:2"/>
+  <circle cx="547.1" cy="167.3" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-green);stroke-width:2"/>
+  <circle cx="575.7" cy="159.6" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-green);stroke-width:2"/>
+  <circle cx="604.3" cy="151.9" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-green);stroke-width:2"/>
+  <circle cx="632.9" cy="144.2" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-green);stroke-width:2"/>
+  <circle cx="661.4" cy="136.6" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-green);stroke-width:2"/>
+  <text x="667.1" y="140.0" class="uchem-2-vt-extrapolation-t" style="fill:var(--fig-green);font-weight:600">B</text>
+  <line x1="128.4" y1="280.0" x2="432.9" y2="233.2" style="stroke:var(--fig-violet);stroke-width:2;stroke-dasharray:6 5"/>
+  <line x1="432.9" y1="233.2" x2="661.4" y2="198.0" style="stroke:var(--fig-violet);stroke-width:3"/>
+  <circle cx="432.9" cy="233.2" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-violet);stroke-width:2"/>
+  <circle cx="461.4" cy="228.8" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-violet);stroke-width:2"/>
+  <circle cx="490.0" cy="224.4" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-violet);stroke-width:2"/>
+  <circle cx="518.6" cy="220.0" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-violet);stroke-width:2"/>
+  <circle cx="547.1" cy="215.6" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-violet);stroke-width:2"/>
+  <circle cx="575.7" cy="211.2" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-violet);stroke-width:2"/>
+  <circle cx="604.3" cy="206.8" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-violet);stroke-width:2"/>
+  <circle cx="632.9" cy="202.4" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-violet);stroke-width:2"/>
+  <circle cx="661.4" cy="198.0" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-violet);stroke-width:2"/>
+  <text x="667.1" y="202.2" class="uchem-2-vt-extrapolation-t" style="fill:var(--fig-violet);font-weight:600">C</text>
+  <circle cx="128.4" cy="280.0" r="6" style="fill:var(--fig-red)"/>
+  <text x="138.4" y="246.0" class="uchem-2-vt-extrapolation-k">−273.15 °C = 0 K</text>
+  <text x="138.4" y="264.0" class="uchem-2-vt-extrapolation-n">세 직선이 모이는 곳(부피 0)</text>
+  <text x="304.3" y="67.0" class="uchem-2-vt-extrapolation-n">A: 0 °C에서 1.000 L, 100 °C에서 1.366 L</text>
+  <text x="304.3" y="85.0" class="uchem-2-vt-extrapolation-n">기울기 0.003 66 L/°C</text>
+  <line x1="104.3" y1="55.0" x2="132.9" y2="55.0" style="stroke:var(--fig-ink);stroke-width:3"/>
+  <text x="138.6" y="60.0" class="uchem-2-vt-extrapolation-n">측정한 구간</text>
+  <line x1="104.3" y1="76.0" x2="132.9" y2="76.0" style="stroke:var(--fig-ink);stroke-width:2;stroke-dasharray:6 5"/>
+  <text x="138.6" y="81.0" class="uchem-2-vt-extrapolation-n">외삽(연장)</text>
+  <text x="104.3" y="102.0" class="uchem-2-vt-extrapolation-n">A, B, C: 양이 다른 기체 시료(압력 일정)</text>
+</svg>

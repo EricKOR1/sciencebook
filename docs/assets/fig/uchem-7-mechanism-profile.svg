@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t-uchem-7-mechanism-profile d-uchem-7-mechanism-profile">
+  <title id="t-uchem-7-mechanism-profile">그림 일반화학 7-2 두 단계 메커니즘의 에너지 그림</title>
+  <desc id="d-uchem-7-mechanism-profile">NO₂ + CO → NO + CO₂의 저온 메커니즘을 반응 좌표로 그린 모식도이다. 봉우리는 분리할 수 없는 전이 상태, 두 봉우리 사이의 골짜기는 잠시 존재하는 중간체 NO₃이다. 넘어야 할 고개가 더 높은 1단계가 속도 결정 단계이다.</desc>
+  <style>.uchem-7-mechanism-profile-t{font-size:14px;fill:var(--fig-ink)} .uchem-7-mechanism-profile-s{font-size:13px;fill:var(--fig-muted)} .uchem-7-mechanism-profile-h{font-size:15px;fill:var(--fig-ink);font-weight:700} .uchem-7-mechanism-profile-ax{stroke:var(--fig-ink);stroke-width:1.3;fill:none} .uchem-7-mechanism-profile-grid{stroke:var(--fig-line);stroke-width:0.7;stroke-dasharray:3 3;fill:none} </style>
+  <path d="M80 40 L80 350 L690 350" class="uchem-7-mechanism-profile-ax"/>
+  <path d="M80 34 L83.5 41.2 L76.5 41.2 Z" style="fill:var(--fig-ink)"/>
+  <path d="M696 350 L688.8 353.5 L688.8 346.5 Z" style="fill:var(--fig-ink)"/>
+  <text x="28" y="195.0" text-anchor="middle" class="uchem-7-mechanism-profile-t" transform="rotate(-90 28 195.0)">퍼텐셜 에너지</text>
+  <text x="690" y="372" text-anchor="end" class="uchem-7-mechanism-profile-t">반응 좌표 →</text>
+  <path d="M90 230 L175 230 C220 230 220 70 265 70 C312.5 70 312.5 200 360 200 C402.5 200 402.5 150 445 150 C490 150 490 320 535 320 L680 320" style="fill:none;stroke:var(--fig-accent);stroke-width:3"/>
+  <text x="118" y="218" text-anchor="middle" class="uchem-7-mechanism-profile-t" style="font-weight:600">2NO₂ + CO</text>
+  <text x="118" y="252" text-anchor="middle" class="uchem-7-mechanism-profile-s">반응물</text>
+  <text x="624" y="308" text-anchor="middle" class="uchem-7-mechanism-profile-t" style="font-weight:600">NO + CO₂ + NO₂</text>
+  <text x="624" y="342" text-anchor="middle" class="uchem-7-mechanism-profile-s">생성물(NO₂ 하나는 되살아남)</text>
+  <circle cx="265" cy="70" r="5" style="fill:var(--fig-red)"/>
+  <text x="265" y="56" text-anchor="middle" class="uchem-7-mechanism-profile-t" style="fill:var(--fig-red);font-weight:600">전이 상태 1</text>
+  <circle cx="445" cy="150" r="5" style="fill:var(--fig-red)"/>
+  <text x="470" y="136" text-anchor="middle" class="uchem-7-mechanism-profile-t" style="fill:var(--fig-red);font-weight:600">전이 상태 2</text>
+  <circle cx="360" cy="200" r="5" style="fill:var(--fig-green)"/>
+  <text x="360" y="226" text-anchor="middle" class="uchem-7-mechanism-profile-t" style="fill:var(--fig-green);font-weight:600">중간체 NO₃ + NO + CO</text>
+  <text x="360" y="244" text-anchor="middle" class="uchem-7-mechanism-profile-s">골짜기: 잠시 존재, 검출 가능</text>
+  <line x1="150" y1="70" x2="258" y2="70" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 3"/>
+  <line x1="165" y1="230" x2="165" y2="78" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <path d="M165 72 L168.5 79.2 L161.5 79.2 Z" style="fill:var(--fig-amber)"/>
+  <text x="160" y="140" text-anchor="end" class="uchem-7-mechanism-profile-t" style="fill:var(--fig-amber);font-weight:700">Eₐ₁</text>
+  <text x="160" y="158" text-anchor="end" class="uchem-7-mechanism-profile-s">(큼)</text>
+  <line x1="360" y1="150" x2="438" y2="150" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 3"/>
+  <line x1="395" y1="200" x2="395" y2="158" style="stroke:var(--fig-teal);stroke-width:2"/>
+  <path d="M395 152 L398.5 159.2 L391.5 159.2 Z" style="fill:var(--fig-teal)"/>
+  <text x="402" y="182" text-anchor="start" class="uchem-7-mechanism-profile-t" style="fill:var(--fig-teal);font-weight:700">Eₐ₂</text>
+  <line x1="560" y1="230" x2="600" y2="230" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 3"/>
+  <line x1="175" y1="230" x2="560" y2="230" style="stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:2 4"/>
+  <line x1="590" y1="230" x2="590" y2="312" style="stroke:var(--fig-violet);stroke-width:2"/>
+  <path d="M590 318 L586.5 310.8 L593.5 310.8 Z" style="fill:var(--fig-violet)"/>
+  <text x="598" y="278" text-anchor="start" class="uchem-7-mechanism-profile-t" style="fill:var(--fig-violet);font-weight:600">ΔH &lt; 0</text>
+  <rect x="88" y="384" width="272" height="26" rx="6" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1"/>
+  <text x="224" y="402" text-anchor="middle" class="uchem-7-mechanism-profile-t">1단계(느림) NO₂ + NO₂ → NO₃ + NO</text>
+  <rect x="372" y="384" width="250" height="26" rx="6" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1"/>
+  <text x="497" y="402" text-anchor="middle" class="uchem-7-mechanism-profile-t">2단계(빠름) NO₃ + CO → NO₂ + CO₂</text>
+  <rect x="470" y="34" width="236" height="62" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-amber);stroke-width:1.2"/>
+  <text x="588" y="56" text-anchor="middle" class="uchem-7-mechanism-profile-t" style="font-weight:700">속도 결정 단계 = 1단계</text>
+  <text x="588" y="76" text-anchor="middle" class="uchem-7-mechanism-profile-s">가장 높은 고개 → v = k₁[NO₂]²</text>
+  <text x="588" y="92" text-anchor="middle" class="uchem-7-mechanism-profile-s">CO는 고개를 넘은 뒤 참여(0차)</text>
+  <text x="88" y="26" text-anchor="start" class="uchem-7-mechanism-profile-s">모식도(에너지 크기는 비율에 맞추지 않음)</text>
+</svg>
