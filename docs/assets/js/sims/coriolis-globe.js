@@ -46,8 +46,8 @@ Sims.register('coriolis-globe', {
     var Sc = function (p, r) { return [p[0] * RE * r, p[1] * RE * r, p[2] * RE * r]; };
 
     var S = api.scene3d({
-      yaw: 0.35, pitch: 0.55, dist: 11, scale: 0.15, label: '자전하는 지구본 위에서 물체를 보냈을 때 우주에서 본 경로와 지표에 남는 경로',
-      aspect: function (w) { return w < 560 ? 1.0 : 0.62; },
+      yaw: 0.35, pitch: 0.5, dist: 11, scale: 0.105, label: '자전하는 지구본 위에서 물체를 보냈을 때 우주에서 본 경로와 지표에 남는 경로',
+      aspect: function (w) { return w < 560 ? 1.2 : 0.62; },
       draw: function (g, T) {
         g.sphere([0, 0, 0], RE, T.figSoftBlue, {});
         // 위선·경선

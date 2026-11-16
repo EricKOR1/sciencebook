@@ -120,6 +120,7 @@ Sims.register('lens-image', {
       var r = cv.canvas.getBoundingClientRect(), V = view(), px = (e.clientX - r.left) * cv.w / r.width;
       var a = -(px - cv.w / 2) / V.sc; sl.set(Math.max(0.3, Math.min(4.5, Math.round(a * 20) / 20)));
     }
+    cv.canvas.style.touchAction = 'pan-y';  // 물체를 좌우로 끌 수 있게(위아래로는 쪽이 넘어간다)
     cv.canvas.addEventListener('pointerdown', function (e) {
       var r = cv.canvas.getBoundingClientRect(), V = view(), px = (e.clientX - r.left) * cv.w / r.width;
       if (px > cv.w / 2) return;

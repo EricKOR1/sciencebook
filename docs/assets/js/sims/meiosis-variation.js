@@ -5,7 +5,7 @@ Sims.register('meiosis-variation', {
   init: function (api) {
     var st = { n: 3, orient: [false, false, false], cross: false, seen: {} };
     var LEN = [1, 0.74, 0.5];
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.55 : 0.66; }, label: '감수 분열 단계별 염색체 배열과 생식세포의 염색체 조합' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.55 : 0.58; }, label: '감수 분열 단계별 염색체 배열과 생식세포의 염색체 조합' });
     var ctx = cv.ctx;
     var rN = api.readout('상동 염색체 쌍 수 n'), rA = api.readout('중기 배열 방법'), rAll = api.readout('가능한 조합 2ⁿ'), rSeen = api.readout('지금까지 나온 조합');
     var g = api.group();
@@ -72,21 +72,21 @@ Sims.register('meiosis-variation', {
         return { A: { x: 0, y: 0, w: w * 0.56, h: h * 0.4 }, B: { x: w * 0.6, y: 0, w: w * 0.4, h: h * 0.4 },
           C: { x: 0, y: h * 0.42, w: w, h: h * 0.22 }, D: { x: 0, y: h * 0.66, w: w, h: h * 0.34 }, cols: 4 };
       }
-      return { A: { x: 0, y: 0, w: w * 0.34, h: h * 0.6 }, B: { x: w * 0.38, y: 0, w: w * 0.2, h: h * 0.6 },
-        C: { x: w * 0.62, y: 0, w: w * 0.38, h: h * 0.6 }, D: { x: 0, y: h * 0.63, w: w, h: h * 0.37 }, cols: 8 };
+      return { A: { x: 0, y: 0, w: w * 0.34, h: h * 0.64 }, B: { x: w * 0.38, y: 0, w: w * 0.2, h: h * 0.64 },
+        C: { x: w * 0.62, y: 0, w: w * 0.38, h: h * 0.64 }, D: { x: 0, y: h * 0.67, w: w, h: h * 0.33 }, cols: 8 };
     }
     var hit = [];
     function draw() {
       var T = api.tokens(), Lo = layout(); ctx.clearRect(0, 0, cv.w, cv.h); hit = [];
       var gms = gametes();
       // A: 감수 1분열 중기
-      var A = Lo.A, acx = A.x + A.w / 2, acy = A.y + 22 + (A.h - 30) / 2;
-      var unit = Math.min((A.h - 50) / (st.n === 3 ? 2.6 : 2.0), 64);
+      var A = Lo.A, acx = A.x + A.w / 2, aTop = A.y + 20, aBot = A.y + A.h - 16, acy = (aTop + aBot) / 2, ary = (aBot - aTop) / 2;
+      var rowH = (aBot - aTop - 28) / st.n;
+      var unit = Math.min(64, (aBot - aTop - 28) / 3 * 0.88);
       title(T, '감수 1분열 중기', acx, A.y + 13);
-      cell(acx, acy, A.w / 2 - 6, (A.h - 34) / 2, T);
+      cell(acx, acy, A.w / 2 - 6, ary, T);
       ctx.strokeStyle = T.figMuted; ctx.setLineDash([4, 4]); ctx.lineWidth = 1;
-      ctx.beginPath(); ctx.moveTo(acx, acy - (A.h - 34) / 2 + 6); ctx.lineTo(acx, acy + (A.h - 34) / 2 - 6); ctx.stroke(); ctx.setLineDash([]);
-      var rowH = (A.h - 60) / st.n;
+      ctx.beginPath(); ctx.moveTo(acx, acy - ary + 6); ctx.lineTo(acx, acy + ary - 6); ctx.stroke(); ctx.setLineDash([]);
       for (var i = 0; i < st.n; i++) {
         var y = acy - (st.n - 1) * rowH / 2 + i * rowH, len = unit * LEN[i];
         var Lsrc = st.orient[i] ? 'M' : 'P', Rsrc = Lsrc === 'P' ? 'M' : 'P', rc = st.cross && i === 0;
@@ -124,7 +124,7 @@ Sims.register('meiosis-variation', {
         var cw = Math.min(16, (gw - 20) / st.n);
         for (var i = 0; i < st.n; i++) chromosome(cx - (st.n - 1) * cw / 2 + i * cw, cy - 4, unit * LEN[i] * 0.55, [gm[i]], T);
         ctx.fillStyle = rec ? T.figAmber : T.figMuted; ctx.font = (rec ? '600 ' : '') + '11px ' + T.fontBody; ctx.textAlign = 'center';
-        ctx.fillText(rec ? '교차로 새 조합' : '', cx, cy + gh / 2 - 6);
+        ctx.fillText(rec ? '교차로 새 조합' : '', cx, cy + gh / 2 - 14);
       });
       // D: 가능한 조합 2ⁿ
       var D = Lo.D, all = Math.pow(2, st.n), cols = Math.min(Lo.cols, all), rows = Math.ceil(all / cols);

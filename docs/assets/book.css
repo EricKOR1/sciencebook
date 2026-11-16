@@ -245,7 +245,8 @@ figcaption b { color: var(--ink); font-weight: 600; margin-right: 0.25rem; }
 .sim-tag { font: 600 0.72rem/1 var(--font-body); letter-spacing: 0.02em; color: var(--accent-ink); background: var(--accent); padding: 0.35rem 0.5rem; border-radius: 5px; }
 .sim-title { margin: 0; font: 700 1.08rem/1.35 var(--font-display); }
 .sim-stage { position: relative; padding: 0.4rem 1rem; }
-.sim-stage canvas, .sim-stage svg { display: block; width: 100%; max-width: 100%; height: auto; touch-action: none; }
+/* 휴대폰에서 그림 위를 쓸어도 쪽이 넘어가도록 둔다. 끌어서 조작하는 시뮬레이션만 자기 캔버스에 touch-action을 따로 건다 */
+.sim-stage canvas, .sim-stage svg { display: block; width: 100%; max-width: 100%; height: auto; touch-action: manipulation; }
 .sim-controls { display: flex; flex-wrap: wrap; gap: 0.7rem 1.2rem; align-items: center; padding: 0.6rem 1rem 0.8rem; border-top: 1px solid var(--rule); background: var(--fig-paper); }
 .sim-controls label { display: grid; gap: 0.2rem; font-size: 0.82rem; color: var(--muted); min-width: 12rem; flex: 1 1 12rem; }
 .sim-controls label output { font: 600 0.9rem/1.2 var(--font-mono); color: var(--ink); font-variant-numeric: tabular-nums; }

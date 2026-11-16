@@ -161,6 +161,7 @@ Sims.register('field-potential', {
       st.p = [Math.max(-XR, Math.min(XR, V.ix(px))), V.iy(Math.max(0, Math.min(cv.h, py)))];
       draw();
     }
+    cv.canvas.style.touchAction = 'none';   // 점 P를 손가락으로 끌 수 있게
     cv.canvas.addEventListener('pointerdown', function (e) { dragging = true; try { cv.canvas.setPointerCapture(e.pointerId); } catch (err) { /* 무시 */ } setP(e); });
     cv.canvas.addEventListener('pointermove', function (e) { if (dragging) setP(e); });
     ['pointerup', 'pointercancel'].forEach(function (ev) { cv.canvas.addEventListener(ev, function () { dragging = false; }); });
