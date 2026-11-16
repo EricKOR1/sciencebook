@@ -73,7 +73,7 @@ Sims.register('geostrophic-wind', {
       var narrow = w < 560;
       var spanKm = 3.6 * 300;                    // 화면 세로가 나타내는 거리(km)
       var k = h / spanKm;                         // px/km
-      var px0 = w * (narrow ? 0.62 : 0.6), py0 = h * 0.55;   // 공기 덩어리를 그리는 화면 위치
+      var px0 = w * (state.hemi > 0 ? 0.64 : 0.36), py0 = h * 0.55;   // 공기 덩어리를 그리는 화면 위치
       var SX = function (x) { return px0 + (x - state.x) * k; }, SY = function (y) { return py0 - (y - state.y) * k; };
       ctx.fillStyle = T.figPaper; ctx.fillRect(0, 0, w, h);
       // 등압선(북쪽=위가 저기압)
@@ -88,7 +88,7 @@ Sims.register('geostrophic-wind', {
       ctx.fillStyle = T.figRed; ctx.fillText('저기압 쪽 (L)', w - 8, 18);
       ctx.fillStyle = T.figBlue; ctx.fillText('고기압 쪽 (H)', w - 8, h - 8);
       ctx.fillStyle = T.figInk; ctx.textAlign = 'left'; ctx.font = '11px ' + T.fontBody;
-      ctx.fillText((state.hemi > 0 ? '북반구 · 위가 북쪽' : '남반구 · 위가 극 쪽') + ' · 1/f ≈ 3시간', 6, h - 8);
+      ctx.fillText((state.hemi > 0 ? '북반구' : '남반구') + ' 위도 40° · 점선: 지나온 경로', 6, h - 8);
       // 경로
       ctx.beginPath();
       state.trail.forEach(function (p, i) { var X = SX(p[0]), Y = SY(p[1]); if (i === 0) ctx.moveTo(X, Y); else ctx.lineTo(X, Y); });

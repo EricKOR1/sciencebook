@@ -89,8 +89,8 @@ Sims.register('hr-diagram', {
       blob(15000, 0.006, 0.17, 0.75, T.figSoftViolet);
       ctx.restore();
       ctx.font = '600 ' + fs + 'px ' + T.fontBody; ctx.textAlign = 'center';
-      ctx.fillStyle = T.figBlue; ctx.save(); ctx.translate(X(13000, G), Y(400, G)); ctx.rotate(Math.atan2(Y(1, G) - Y(1e4, G), X(5800, G) - X(25000, G)) * 0.95); ctx.fillText('주계열성', 0, -4); ctx.restore();
-      ctx.fillStyle = T.figAmber; ctx.fillText('거성', X(4000, G), Y(1500, G));
+      ctx.fillStyle = T.figBlue; ctx.fillText('주계열성', X(4300, G), Y(0.012, G));
+      ctx.fillStyle = T.figAmber; ctx.fillText('거성', X(3300, G), Y(25, G));
       ctx.fillStyle = T.figRed; ctx.fillText('초거성', X(7000, G), Y(1.4e6, G));
       ctx.fillStyle = T.figViolet; ctx.fillText('백색 왜성', X(14000, G), Y(0.0006, G));
       // 대표 별
@@ -100,7 +100,7 @@ Sims.register('hr-diagram', {
         ctx.beginPath(); ctx.arc(x, y, 3.2, 0, 2 * Math.PI); ctx.fillStyle = T.figMuted; ctx.fill();
         if (w < 420 && (s.n === '프로키온' || s.n === '안타레스' || s.n === '알데바란')) return;
         ctx.fillStyle = T.figMuted; ctx.textAlign = s.T < 4000 ? 'right' : 'left';
-        var dy = s.n === '안타레스' ? 12 : s.n === '알데바란' ? 12 : -5;
+        var dy = s.n === '안타레스' ? 12 : s.n === '아크투루스' ? 15 : -5;
         ctx.fillText(s.n, x + (s.T < 4000 ? -6 : 6), y + dy);
       });
       // 진화 경로
@@ -108,7 +108,7 @@ Sims.register('hr-diagram', {
       var pts;
       if (!s.big) {
         var Lrg = Math.min(3000, 400 * Math.pow(s.m, 1.6)), Lpn = Lrg * 1.2;
-        pts = [[s.T, s.L], [s.T * 0.85, s.L * 2.2], [4600, s.L * 3.5], [3600, Lrg], [7000, Lpn], [30000, Lpn * 0.9], [42000, Lpn * 0.3], [40000, 3], [20000, 0.01], [12000, 0.0012]];
+        pts = [[s.T, s.L], [s.T * 0.85, s.L * 2.2], [4600, s.L * 3.5], [3600, Lrg], [8000, Lpn], [30000, Lpn * 0.8], [38000, 30], [25000, 0.05], [12000, 0.0015]];
         var ms = 1;
       } else {
         pts = [[s.T, s.L], [s.T * 0.85, s.L * 1.4], [3500, s.L * 1.6]];
@@ -129,7 +129,7 @@ Sims.register('hr-diagram', {
       } else {
         ctx.beginPath(); ctx.arc(ex, ey, 5, 0, 2 * Math.PI); ctx.fillStyle = T.figViolet; ctx.fill();
         ctx.fillStyle = T.figInk; ctx.textAlign = 'left'; ctx.fillText('백색 왜성으로 식어 감', ex + 9, ey + 4);
-        var rg = pts[3]; ctx.textAlign = 'right'; ctx.fillText('적색 거성', X(rg[0], G) - 8, Y(rg[1], G) - 6);
+        var rg = pts[3]; ctx.textAlign = 'center'; ctx.fillText('적색 거성', X(rg[0], G), Y(rg[1], G) - 10);
         ctx.font = '11px ' + T.fontBody; ctx.fillStyle = T.figMuted; ctx.textAlign = 'center';
         ctx.fillText('행성상 성운(바깥층 방출)', X(14000, G), Y(Lpn, G) - 9);
       }

@@ -132,10 +132,10 @@ Sims.register('operon', {
         ctx.fillText('젖당 유도체', lx + 11, ly + 2);
       }
       ctx.font = '600 ' + fs + 'px ' + T.fontBody; ctx.fillStyle = T.figRed; ctx.textAlign = 'center';
-      ctx.fillText('억제 단백질', repX, (state.lac ? repY - 26 : repY - (G.narrow ? 56 : 42)));
+      ctx.fillText('억제 단백질', repX, (state.lac ? (G.narrow ? repY + 28 : repY - 26) : repY - (G.narrow ? 56 : 42)));
       // 조절 유전자 → 억제 단백질 화살표
       ctx.strokeStyle = T.figViolet; ctx.lineWidth = 1.4; ctx.setLineDash([4, 3]);
-      ctx.beginPath(); ctx.moveTo(lacIc, G.lacY - 13); ctx.quadraticCurveTo(lacIc, repY - (G.narrow ? 40 : 4), repX - rw / 2 - 4, state.lac ? repY : repY - 18); ctx.stroke(); ctx.setLineDash([]);
+      ctx.beginPath(); if (G.narrow) { ctx.moveTo(G.lacI[1], G.lacY); ctx.quadraticCurveTo(repX, G.lacY, repX - (state.lac ? rw / 2 + 4 : 0), state.lac ? repY : repY - 22); } else ctx.moveTo(lacIc, G.lacY - 13); if (!G.narrow) ctx.quadraticCurveTo(lacIc, repY - 4, repX - rw / 2 - 4, state.lac ? repY : repY - 18); ctx.stroke(); ctx.setLineDash([]);
 
       // CAP–cAMP
       var capC = (G.cap[0] + G.cap[1]) / 2;

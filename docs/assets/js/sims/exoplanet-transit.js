@@ -169,7 +169,7 @@ Sims.register('exoplanet-transit', {
       ctx.strokeStyle = T.figLine; ctx.setLineDash([2, 3]); ctx.beginPath(); ctx.arc(cx, cy, wob, 0, Math.PI * 2); ctx.stroke(); ctx.setLineDash([]);
       topView(T, cx, cy, R, wob);
       ctx.fillStyle = T.figInk; ctx.font = '600 13px ' + T.fontBody; ctx.textAlign = 'center'; ctx.fillText('+', cx, cy + 4);
-      txt(T, '+ 공통 질량 중심 (별의 흔들림은 과장)', cx, cy - R - 10, { size: 11, color: T.figMuted, align: 'center' });
+      txt(T, '+ 공통 질량 중심 (별의 흔들림은 과장)', cx, r.y + r.h - 4, { size: 11, color: T.figMuted, align: 'center' });
     }
     function spectrum(T, r) {
       txt(T, '별빛의 스펙트럼과 흡수선 (이동량 크게 과장)', r.x + 6, r.y + 16, { size: 12, bold: true });
@@ -181,7 +181,7 @@ Sims.register('exoplanet-transit', {
       ctx.strokeStyle = T.figLine; ctx.setLineDash([3, 3]); ctx.beginPath(); ctx.moveTo(mid, y0 - 4); ctx.lineTo(mid, y0 + hh + 4); ctx.stroke(); ctx.setLineDash([]);
       ctx.fillStyle = '#111'; ctx.fillRect(mid + shift - 2, y0, 4, hh);
       var word = Math.abs(v) < Kms() * 0.15 ? '거의 이동 없음' : v < 0 ? '← 청색 이동 (별이 다가옴)' : '적색 이동 (별이 멀어짐) →';
-      txt(T, word, mid, y0 + hh + 20, { size: 12, align: 'center', color: v < 0 ? T.figBlue : v > 0 ? T.figRed : T.figMuted, bold: true });
+      txt(T, word, mid, y0 + hh + 20, { size: 12, align: 'center', color: Math.abs(v) < Kms() * 0.15 ? T.figMuted : v < 0 ? T.figBlue : T.figRed, bold: true });
       txt(T, '점선: 원래 파장', mid, y0 + hh + 36, { size: 11, align: 'center', color: T.figMuted });
     }
     function graphRV(T, r) {

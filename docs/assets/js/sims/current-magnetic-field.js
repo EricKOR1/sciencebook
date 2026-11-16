@@ -101,8 +101,8 @@ Sims.register('current-magnetic-field', {
         marks.forEach(function (k) {
           var a = P[k], b = P[Math.min(n, k + (st.mode === 'line' ? 4 : 3))];
           if (dir < 0) { var tmp = a; a = b; b = tmp; }
-          var d = norm([b[0] - a[0], b[1] - a[1], b[2] - a[2]]), L = 0.45;
-          g.arrow(a, [a[0] + d[0] * L, a[1] + d[1] * L, a[2] + d[2] * L], T.figAmber, { width: 4, head: 12 });
+          var d = norm([b[0] - a[0], b[1] - a[1], b[2] - a[2]]), L = 0.6;
+          g.arrow(a, [a[0] + d[0] * L, a[1] + d[1] * L, a[2] + d[2] * L], T.figAmber, { width: 5, head: 16 });
         });
         var lp = st.mode === 'line' ? (dir > 0 ? [0.25, 2.5, 0] : [0.25, -2.5, 0]) : st.mode === 'loop' ? [0, 1.55, 0.6] : [0, 1.25, 0.6];
         g.text(lp, '전류 I', { color: T.figAmber, bold: true, size: 13, align: 'left' });
@@ -147,7 +147,7 @@ Sims.register('current-magnetic-field', {
         rShape.set('직선 도선, 전류 ' + (up ? '위쪽' : '아래쪽') + ' 방향');
         rRule.set('도선을 중심으로 한 동심원 — 위에서 내려다보면 ' + (up ? '시계 반대 방향' : '시계 방향'));
       } else if (st.mode === 'loop') {
-        rShape.set('원형 도선 (처음 시점에서 고리는 오른쪽을 향해 놓임)');
+        rShape.set('원형 도선 (처음 시점에서 고리의 축이 좌우로 놓임)');
         rRule.set('고리 중심에서 고리 면을 수직으로 꿰뚫어 ' + (up ? '오른쪽' : '왼쪽') + ' 방향');
       } else {
         rShape.set('솔레노이드 (처음 시점에서 축이 좌우로 놓임)');

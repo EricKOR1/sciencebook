@@ -13,7 +13,7 @@ Sims.register('recombinant-dna', {
       { name: '항생제 배지에서 고르기', who: '항생제 저항성 유전자', desc: '플라스미드를 가진 대장균만 살아남아 군체를 만든다' },
     ];
     var state = { step: 0 };
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.45 : 0.68; }, label: '재조합 DNA를 만드는 단계별 모식도와 인식 부위의 염기 서열' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.45 : 0.6; }, label: '재조합 DNA를 만드는 단계별 모식도와 인식 부위의 염기 서열' });
     var ctx = cv.ctx;
     var rStep = api.readout('단계');
     var rWho = api.readout('작용하는 것');
@@ -57,11 +57,11 @@ Sims.register('recombinant-dna', {
         var dy = r.y + 24, x0 = r.x + 14, x1 = r.x + r.w - 14;
         var gA = x0 + (x1 - x0) * 0.36, gB = x0 + (x1 - x0) * 0.64;
         if (s === 0) {
-          label(T, '사람 DNA', x0, dy - 12, 'left');
+          label(T, '사람 DNA', x0, dy - 14, 'left');
           dsLine(T, x0, gA, dy); geneBox(T, gA, gB, dy); dsLine(T, gB, x1, dy);
           siteMark(T, gA, dy); siteMark(T, gB, dy);
         } else if (s <= 2) {
-          label(T, '사람 DNA → 목적 유전자 조각', x0, dy - 12, 'left');
+          label(T, '사람 DNA → 목적 유전자 조각', x0, dy - 14, 'left');
           dsLine(T, x0, gA - 12, dy); geneBox(T, gA, gB, dy + 0); dsLine(T, gB + 12, x1, dy);
           stickyMark(T, gA, dy, -1); stickyMark(T, gB, dy, 1);
         }
