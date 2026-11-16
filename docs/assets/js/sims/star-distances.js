@@ -1,7 +1,7 @@
 /* 행성우주과학 2: 별자리의 별들을 실제 거리에 놓고 돌려 보기 (오리온자리, 북두칠성) */
 Sims.register('star-distances', {
   title: '별자리의 별은 정말 이웃일까? — 실제 거리에 놓아 보기',
-  caption: '왼쪽 위 작은 창은 지구에서 본 별자리 모양이다. 큰 그림을 돌려 보면, 오리온자리의 별들은 약 250광년부터 2000광년까지 앞뒤로 멀리 흩어져 있어 같은 방향에 겹쳐 보일 뿐임을 알 수 있다. 북두칠성은 가운데 다섯 별이 약 80광년에 모여 있지만 양 끝의 두 별은 더 멀다. 별을 골라 거리와 연주시차(p = 1/d)를 비교해 보자. 거리는 대략적인 값이고, 오리온자리는 옆(하늘 면) 방향을 4배로 늘려 그린 모식도이다(앞뒤 거리는 실제 비율).',
+  caption: '오른쪽 아래 작은 창은 지구에서 본 별자리 모양이다. 큰 그림을 돌려 보면, 오리온자리의 별들은 약 250광년부터 2000광년까지 앞뒤로 멀리 흩어져 있어 같은 방향에 겹쳐 보일 뿐임을 알 수 있다. 북두칠성은 가운데 다섯 별이 약 80광년에 모여 있지만 양 끝의 두 별은 더 멀다. 별을 골라 거리와 연주시차(p = 1/d)를 비교해 보자. 거리는 대략적인 값이고, 오리온자리는 옆(하늘 면) 방향을 4배로 늘려 그린 모식도이다(앞뒤 거리는 실제 비율).',
   init: function (api) {
     var sets = {
       orion: { name: '오리온자리', k: 4, ticks: [500, 1000, 1500, 2000], stars: [
@@ -47,14 +47,14 @@ Sims.register('star-distances', {
     var rR = api.readout('이 별자리 별들의 거리 범위');
 
     var S = api.scene3d({
-      yaw: 1.05, pitch: 0.38, dist: 11, scale: 0.16, label: '별자리를 이루는 별들의 실제 거리 배치',
+      yaw: -1.05, pitch: 0.38, dist: 11, scale: 0.16, label: '별자리를 이루는 별들의 실제 거리 배치',
       aspect: function (w) { return w < 560 ? 1.05 : 0.62; },
       draw: function (g, T) {
         var C = sets[st.set], G = geom(), dmax = C.ticks[C.ticks.length - 1], s = DEPTH / dmax;
         var E = [0, 0, ZE];
         // 거리 눈금(시선 방향)
         g.line(E, [0, 0, ZE - DEPTH * 1.04], T.figLine, { width: 1, dash: [4, 4] });
-        C.ticks.forEach(function (t) { var z = ZE - t * s; g.line([-0.08, 0, z], [0.08, 0, z], T.figMuted, { width: 1.2 }); g.text([0, -0.2, z], t + '광년', { size: 11, color: T.figMuted }); });
+        C.ticks.forEach(function (t) { var z = ZE - t * s; g.line([-0.08, 0, z], [0.08, 0, z], T.figMuted, { width: 1.2 }); g.text([0, -0.32, z], t + '광년', { size: 11, color: T.figMuted }); });
         g.sphere(E, 0.13, T.figTeal, {});
         g.text([0, 0.3, ZE], '지구', { size: 12, bold: true });
         // 별자리 선(실제 위치끼리)
@@ -75,7 +75,7 @@ Sims.register('star-distances', {
       },
       overlay: function (ctx, T, S2) {
         var C = sets[st.set], G = geom();
-        var bw = Math.min(S2.w * 0.36, 210), bh = bw * 0.95, x0 = 8, y0 = 8;
+        var bw = Math.min(S2.w * 0.36, 210), bh = bw * 0.95, x0 = S2.w - bw - 8, y0 = S2.h - bh - 8;
         ctx.fillStyle = T.figPaper; ctx.strokeStyle = T.figLine; ctx.lineWidth = 1;
         ctx.beginPath(); ctx.rect(x0, y0, bw, bh); ctx.fill(); ctx.stroke();
         ctx.fillStyle = T.figInk; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';

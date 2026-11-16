@@ -6,7 +6,7 @@ Sims.register('equilibrium', {
     var COLD = { K: 0.2, kf: 0.15 }, HOT = { K: 0.8, kf: 0.3 };
     var SEG = 9;   // 한 번의 변화 뒤 계산하는 시간(상대 단위)
     var st;
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.6 : 0.56; }, label: 'N₂O₄와 NO₂의 농도–시간 그래프, 정반응과 역반응 속도 그래프, 용기 색과 Q와 K 비교' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.8 : 0.56; }, label: 'N₂O₄와 NO₂의 농도–시간 그래프, 정반응과 역반응 속도 그래프, 용기 색과 Q와 K 비교' });
     var ctx = cv.ctx;
 
     var rA = api.readout('[N₂O₄]');
@@ -87,7 +87,7 @@ Sims.register('equilibrium', {
       var T = api.tokens(), w = cv.w, h = cv.h, narrow = w < 560;
       ctx.clearRect(0, 0, w, h);
       var G, R, side;
-      if (narrow) { G = { x: 0, y: 0, w: w, h: h * 0.4 }; R = { x: 0, y: h * 0.41, w: w, h: h * 0.24 }; side = { x: 0, y: h * 0.67, w: w, h: h * 0.33 }; }
+      if (narrow) { G = { x: 0, y: 0, w: w, h: h * 0.4 }; R = { x: 0, y: h * 0.41, w: w, h: h * 0.24 }; side = { x: 0, y: h * 0.66, w: w, h: h * 0.34 }; }
       else { G = { x: 0, y: 0, w: w * 0.64, h: h * 0.6 }; R = { x: 0, y: h * 0.6, w: w * 0.64, h: h * 0.4 }; side = { x: w * 0.66, y: 0, w: w * 0.34, h: h }; }
       var tMax = Math.max(SEG, st.tEnd), cMax = 0;
       st.data.forEach(function (d) { cMax = Math.max(cMax, d.A, d.B); });
@@ -138,17 +138,18 @@ Sims.register('equilibrium', {
     }
     function drawSide(T, r) {
       var p = at(st.tShown), narrow = cv.w < 560;
-      var vx = r.x + 10, vy = r.y + 10, vw = narrow ? r.w * 0.34 : r.w - 20, vh = narrow ? r.h - 20 : r.h * 0.34;
+      var vx = r.x + 10, vy = r.y + 24, vw = narrow ? r.w * 0.34 : r.w - 20, vh = narrow ? r.h - 60 : r.h * 0.3;
+      ctx.fillStyle = T.figInk; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'center';
+      ctx.fillText('용기 속 색', vx + vw / 2, vy - 8);
       // 용기: NO₂의 적갈색(실제 색) 진하기 ∝ [NO₂]
       ctx.fillStyle = T.figPanel; ctx.fillRect(vx, vy, vw, vh);
-      ctx.fillStyle = 'rgba(160, 70, 20,' + Math.min(0.85, p.B / 1.6).toFixed(3) + ')'; ctx.fillRect(vx, vy, vw, vh);
+      ctx.fillStyle = 'rgba(160, 70, 20,' + Math.min(0.8, p.B / 1.8).toFixed(3) + ')'; ctx.fillRect(vx, vy, vw, vh);
       ctx.strokeStyle = T.figLine; ctx.lineWidth = 1.5; ctx.strokeRect(vx, vy, vw, vh);
-      ctx.fillStyle = T.figInk; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'center';
-      ctx.fillText('용기 속 색', vx + vw / 2, vy + 16);
       ctx.font = '11px ' + T.fontBody; ctx.fillStyle = T.figMuted;
-      ctx.fillText('NO₂(적갈색)가 많을수록 진하다', vx + vw / 2, vy + vh - 8);
+      wrap(T, 'NO₂(적갈색)가 많을수록 진하다', vx + vw / 2, vy + vh + 16, vw, 11, T.figMuted);
+      vy -= 14; vh += 14;
       // Q와 K 비교 상자
-      var bx = narrow ? vx + vw + 12 : vx, by = narrow ? vy : vy + vh + 12, bw = narrow ? r.w - vw - 32 : vw, bh = narrow ? vh : r.h - vh - 32;
+      var bx = narrow ? vx + vw + 12 : vx, by = narrow ? r.y + 10 : vy + vh + 30, bw = narrow ? r.w - vw - 32 : vw, bh = narrow ? r.h - 20 : r.h - vh - 32;
       ctx.fillStyle = T.figPaper; ctx.fillRect(bx, by, bw, bh); ctx.strokeStyle = T.rule; ctx.strokeRect(bx, by, bw, bh);
       var m = st.msg, y = by + 20, cx = bx + bw / 2;
       ctx.fillStyle = T.figInk; ctx.font = '600 15px ' + T.fontBody; ctx.textAlign = 'center';
@@ -162,8 +163,8 @@ Sims.register('equilibrium', {
         wrap(T, m.title, cx, y + 48, bw - 16, 12, T.figInk);
         var yy = y + 48 + 16 * lines(m.title, bw - 16, 12);
         if (m.why) { wrap(T, '변화를 줄이는 방향: ' + m.why, cx, yy, bw - 16, 11, T.figMuted); yy += 15 * lines('변화를 줄이는 방향: ' + m.why, bw - 16, 11); }
-        ctx.font = '600 12px ' + T.fontBody; ctx.fillStyle = done ? T.figAccent : T.figMuted;
-        ctx.fillText((done ? '새 평형: ' : '새 평형(예상): ') + '[N₂O₄] ' + m.A.toFixed(2) + ', [NO₂] ' + m.B.toFixed(2) + ' M', cx, Math.min(yy + 6, by + bh - 10));
+        var nt = (done ? '새 평형: ' : '새 평형(예상): ') + '[N₂O₄] ' + m.A.toFixed(2) + ' M, [NO₂] ' + m.B.toFixed(2) + ' M';
+        wrap(T, nt, cx, yy + 6, bw - 16, 12, done ? T.figAccent : T.figMuted);
       }
       if (st.note) { ctx.fillStyle = T.figRed; ctx.font = '11px ' + T.fontBody; ctx.fillText(st.note, cx, by + bh + 14); st.note = null; }
     }

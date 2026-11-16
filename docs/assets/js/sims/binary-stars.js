@@ -74,7 +74,7 @@ Sims.register('binary-stars', {
       ctx.fillStyle = T.figMuted; ctx.beginPath(); ctx.moveTo(cx, cy + R + 10); ctx.lineTo(cx - 5, cy + R + 19); ctx.lineTo(cx + 5, cy + R + 19); ctx.fill();
       txt(T, '↓ 관측자 쪽 (궤도면과 나란히 봄)', cx, Math.max(oy, cy + R + 34), { size: 11, color: T.figMuted, align: 'center' });
       // 시선 속도 곡선
-      var L = gr.x + 54, Rr = gr.x + gr.w - 14, Tp = gr.y + 30, B = gr.y + gr.h - 36;
+      var L = gr.x + 54, Rr = gr.x + gr.w - 14, Tp = gr.y + 48, B = gr.y + gr.h - 36;
       var vmax = Math.max(Q.v1, Q.v2), top = nice(vmax * 1.15);
       var sx = function (f) { return L + f / 2 * (Rr - L); }, sy = function (v) { return (Tp + B) / 2 - v / top * (B - Tp) / 2; };
       txt(T, '시선 속도 곡선 (멀어지면 +, km/s)', gr.x + 6, gr.y + 16, { bold: true });
@@ -91,8 +91,8 @@ Sims.register('binary-stars', {
       }
       curve(1, Q.v1, T.figBlue); curve(-1, Q.v2, T.figAmber);
       ctx.strokeStyle = T.figMuted; ctx.setLineDash([3, 3]); ctx.beginPath(); ctx.moveTo(sx(st.ph), Tp); ctx.lineTo(sx(st.ph), B); ctx.stroke(); ctx.setLineDash([]);
-      txt(T, '별 1 (무거운 별)', L + 6, Tp - 4, { size: 11, color: T.figBlue, bold: true });
-      txt(T, '별 2', Rr - 4, Tp - 4, { size: 11, color: T.figAmber, bold: true, align: 'right' });
+      txt(T, '별 1 (무거운 별)', L + 6, gr.y + 34, { size: 11, color: T.figBlue, bold: true });
+      txt(T, '별 2', Rr - 4, gr.y + 34, { size: 11, color: T.figAmber, bold: true, align: 'right' });
     }
     function nice(x) { var p = Math.pow(10, Math.floor(Math.log10(x))), m = x / p; return (m <= 1 ? 1 : m <= 2 ? 2 : m <= 2.5 ? 2.5 : m <= 5 ? 5 : 10) * p; }
     api.onResize(draw);

@@ -76,7 +76,7 @@ Sims.register('dna-replication', {
       var mols = molecules(state.hyp, state.gen), c = classify(mols);
       rN.set(mols.length + '개');
       var oth = Object.keys(c.other);
-      rRatio.set(oth.length ? '중간과 가벼움 사이 띠 하나(¹⁵N ' + Math.round(parseFloat(oth[0]) * 100) + '%)' : ratio(c));
+      rRatio.set(oth.length ? '중간과 가벼움 사이 띠 하나(¹⁵N ' + (parseFloat(oth[0]) * 100).toString() + '%)' : ratio(c));
       var real = classify(molecules('semi', state.gen));
       var same = c.heavy === real.heavy && c.mid === real.mid && c.light === real.light && !oth.length;
       rMatch.set(same ? '일치' : '불일치 → 이 가설은 배제');

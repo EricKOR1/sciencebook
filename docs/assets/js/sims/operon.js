@@ -54,8 +54,13 @@ Sims.register('operon', {
       var dnaY = narrow ? h * 0.7 : h * 0.66;
       var x0 = m, x1 = w - m, span = x1 - x0;
       var f = function (t) { return x0 + span * t; };
+      if (narrow) return {
+        narrow: true, dnaY: h * 0.68, lacY: h * 0.4, top: h * 0.05,
+        lacI: [f(0.02), f(0.3)], cap: [f(0), f(0.07)], pro: [f(0.07), f(0.24)], op: [f(0.24), f(0.35)],
+        z: [f(0.35), f(0.67)], y: [f(0.67), f(0.84)], a: [f(0.84), f(1)], f: f,
+      };
       return {
-        narrow: narrow, dnaY: dnaY, top: narrow ? h * 0.06 : h * 0.08,
+        narrow: false, dnaY: dnaY, lacY: dnaY, top: h * 0.08,
         lacI: [f(0), f(0.12)], cap: [f(0.16), f(0.21)], pro: [f(0.21), f(0.33)], op: [f(0.33), f(0.41)],
         z: [f(0.41), f(0.69)], y: [f(0.69), f(0.86)], a: [f(0.86), f(1)], f: f,
       };
@@ -80,16 +85,19 @@ Sims.register('operon', {
       items.forEach(function (it, i) { ctx.fillStyle = it[1]; ctx.fillText('• ' + it[0], 12, infoY + i * 18); });
 
       // DNA
-      ctx.strokeStyle = T.figInk; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(G.lacI[0], Y); ctx.lineTo(G.a[1], Y); ctx.stroke();
-      var seg = function (r, fill, stroke, label, sub, row) {
+      ctx.strokeStyle = T.figInk; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(G.narrow ? G.cap[0] : G.lacI[0], Y); ctx.lineTo(G.a[1], Y); ctx.stroke();
+      if (G.narrow) { ctx.beginPath(); ctx.moveTo(G.lacI[0] - 6, G.lacY); ctx.lineTo(G.lacI[1] + 24, G.lacY); ctx.stroke(); }
+      var seg = function (r, fill, stroke, label, sub, row, yy) {
+        var Y0 = Y; if (yy != null) Y = yy;
         rr(r[0], Y - 11, r[1] - r[0], 22, 4); ctx.fillStyle = fill; ctx.fill(); ctx.strokeStyle = stroke; ctx.lineWidth = 1.5; ctx.stroke();
         var cx = (r[0] + r[1]) / 2, ly = Y + 26 + (row || 0) * 30;
         ctx.fillStyle = T.figInk; ctx.font = '600 ' + fs + 'px ' + T.fontBody; ctx.textAlign = 'center';
         if (row) { ctx.strokeStyle = T.figLine; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(cx, Y + 12); ctx.lineTo(cx, ly - 8); ctx.stroke(); }
         ctx.fillText(label, cx, ly);
         if (sub) { ctx.font = (fs - 0) + 'px ' + T.fontBody; ctx.fillStyle = T.figMuted; ctx.fillText(sub, cx, ly + 15); }
+        Y = Y0;
       };
-      seg(G.lacI, T.figSoftViolet, T.figViolet, '조절 유전자', 'lacI');
+      seg(G.lacI, T.figSoftViolet, T.figViolet, '조절 유전자', 'lacI', 0, G.lacY);
       seg(G.cap, T.figSoftBlue, T.figBlue, '', '', 0);
       seg(G.pro, T.figSoftBlue, T.figBlue, '프로모터', '', G.narrow ? 1 : 0);
       seg(G.op, T.figSoftRed, T.figRed, '작동 부위', '', G.narrow ? 0 : 1);
@@ -108,7 +116,7 @@ Sims.register('operon', {
       var lacIc = (G.lacI[0] + G.lacI[1]) / 2;
       var repX, repY;
       if (!state.lac) { repX = (G.op[0] + G.op[1]) / 2; repY = Y - 26; }
-      else { repX = lacIc + (G.op[0] - lacIc) * 0.45; repY = Y - 92; }
+      else if (G.narrow) { repX = G.f(0.62); repY = G.lacY; } else { repX = lacIc + (G.op[0] - lacIc) * 0.45; repY = Y - 92; }
       var rw = Math.max(34, (G.op[1] - G.op[0]) * 1.25);
       ctx.fillStyle = T.figRed; ctx.strokeStyle = T.figInk; ctx.lineWidth = 1;
       ctx.beginPath();
@@ -127,7 +135,7 @@ Sims.register('operon', {
       ctx.fillText('억제 단백질', repX, (state.lac ? repY - 26 : repY - 42));
       // 조절 유전자 → 억제 단백질 화살표
       ctx.strokeStyle = T.figViolet; ctx.lineWidth = 1.4; ctx.setLineDash([4, 3]);
-      ctx.beginPath(); ctx.moveTo(lacIc, Y - 13); ctx.quadraticCurveTo(lacIc, repY - 4, repX - rw / 2 - 4, state.lac ? repY : repY - 18); ctx.stroke(); ctx.setLineDash([]);
+      ctx.beginPath(); ctx.moveTo(lacIc, G.lacY - 13); ctx.quadraticCurveTo(lacIc, repY - (G.narrow ? 40 : 4), repX - rw / 2 - 4, state.lac ? repY : repY - 18); ctx.stroke(); ctx.setLineDash([]);
 
       // CAP–cAMP
       var capC = (G.cap[0] + G.cap[1]) / 2;

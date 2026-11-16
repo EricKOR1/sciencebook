@@ -1,7 +1,7 @@
 /* 지구시스템과학 2 조석: 달의 위상에 따른 해수면 부풂과 하루 조위 곡선 (2D, 평형 조석) */
 Sims.register('tides', {
   title: '달과 태양이 만드는 조석 — 사리와 조금',
-  caption: '달의 위상을 바꾸어 보자. 삭·망에는 달과 태양이 일직선이라 두 부풂이 겹쳐 조차가 큰 사리가, 상현·하현에는 직각이라 서로 약화하여 조차가 작은 조금이 된다. 지구가 자전하면 한 지점은 하루에 두 부풂을 지나므로 만조와 간조가 두 번씩, 약 12시간 25분 간격으로 찾아온다. 해수 전체가 기조력에 곧바로 반응한다고 보는 평형 조석으로 그렸고, 달은 적도 위에 있다고 가정했다(일조부등 없음). 부풂의 크기, 지구·달의 크기와 거리는 크게 과장했으며 달과 태양의 기조력 비는 약 2 : 1로 두었다.',
+  caption: '달의 위상을 바꾸어 보자. 삭·망에는 달과 태양이 일직선이라 두 부풂이 겹쳐 조차가 큰 사리가, 상현·하현에는 직각이라 서로 약화하여 조차가 작은 조금이 된다. 지구가 자전하면 한 지점은 하루에 두 부풂을 지나므로 만조와 간조가 두 번씩, 약 12시간 25분 간격으로 찾아온다. 해수 전체가 기조력에 곧바로 반응한다고 보는 평형 조석으로 그렸고, 달은 적도 위에 있다고 가정했다(일조부등 없음). 부풂의 크기, 지구·달의 크기와 거리는 크게 과장했으며 달과 태양의 기조력 비는 약 2 : 1로 두었다. 만조 간격은 태양의 영향으로 사리 무렵 조금 짧고 조금 무렵 조금 길지만 평균은 약 12시간 25분이다.',
   init: function (api) {
     var SUN = 0.46;                    // 태양 기조력 / 달 기조력
     var PH = [['삭', 0], ['상현', 90], ['망', 180], ['하현', 270]];
@@ -49,7 +49,7 @@ Sims.register('tides', {
       rKind.set(spring ? '사리 (조차 최대)' : '조금 (조차 최소)');
       var hi = EX.filter(function (e) { return e.hi; }), lo = EX.filter(function (e) { return !e.hi; });
       if (hi.length && lo.length) rRange.set(((hi[0].h - lo[0].h) / 2).toFixed(2));
-      if (hi.length >= 2) { var d = hi[1].t - hi[0].t, m = Math.round(d * 60); rInt.set(Math.floor(m / 60) + '시간 ' + (m % 60) + '분'); }
+      if (hi.length >= 2) { var d = hi[1].t - hi[0].t, m = Math.round(d * 60); rInt.set(Math.floor(m / 60) + '시간 ' + (m % 60) + '분 (평균 약 12시간 25분)'); }
       draw();
     }
 
@@ -64,7 +64,7 @@ Sims.register('tides', {
       drawView(T, P.view); drawGraph(T, P.graph);
     }
     function drawView(T, r) {
-      var cx = r.x + r.w * 0.44, cy = r.y + r.h / 2, re = Math.min(r.w, r.h) * 0.17, orb = Math.min(r.w * 0.4, r.h * 0.4);
+      var cx = r.x + r.w * 0.44, cy = r.y + r.h / 2, re = Math.min(r.w, r.h) * 0.17, orb = Math.min(r.w * 0.4, r.h * 0.37);
       var t = state.t, mA = moonAng(t);
       // 태양 빛
       ctx.strokeStyle = T.figAmber; ctx.lineWidth = 1.2; ctx.fillStyle = T.figAmber;
@@ -106,7 +106,7 @@ Sims.register('tides', {
       ctx.beginPath(); ctx.arc(mx, my, mr, -Math.PI / 2, Math.PI / 2); ctx.closePath(); ctx.fillStyle = T.figPaper; ctx.fill();
       ctx.strokeStyle = T.figInk; ctx.lineWidth = 1; ctx.beginPath(); ctx.arc(mx, my, mr, 0, Math.PI * 2); ctx.stroke();
       ctx.fillStyle = T.figInk; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'center';
-      ctx.fillText('달(' + PH[state.ph][0] + ')', mx, my + (my < cy ? -mr - 6 : mr + 15));
+      ctx.fillText('달(' + PH[state.ph][0] + ')', mx, my + (my > cy + 5 ? -mr - 6 : mr + 15));
       // 범례
       var ly = r.y + r.h - 46, lx = r.x + 8;
       [[T.figBlue, null, '합쳐진 해수면'], [T.figViolet, [4, 3], '달에 의한 부풂'], [T.figAmber, [2, 3], '태양에 의한 부풂']].forEach(function (L, i) {

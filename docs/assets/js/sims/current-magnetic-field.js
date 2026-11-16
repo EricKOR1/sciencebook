@@ -42,8 +42,8 @@ Sims.register('current-magnetic-field', {
     function build(mode) {
       if (cache[mode]) return cache[mode];
       var pts = wirePts(mode), lines = [], needles = [], i, j;
-      if (mode === 'line') {
-        [-1.6, 0, 1.6].forEach(function (y) { [0.7, 1.4, 2.1].forEach(function (r) { var c = []; for (var k = 0; k <= 60; k++) { var a = k / 60 * Math.PI * 2; c.push([r * Math.cos(a), y, -r * Math.sin(a)]); } lines.push(c);   // 전류 +y일 때의 자기장 방향 순서 }); });
+      if (mode === 'line') {   // 원은 전류 +y일 때의 자기장 방향 순서로 잇는다
+        [-1.6, 0, 1.6].forEach(function (y) { [0.7, 1.4, 2.1].forEach(function (r) { var c = []; for (var k = 0; k <= 60; k++) { var a = k / 60 * Math.PI * 2; c.push([r * Math.cos(a), y, -r * Math.sin(a)]); } lines.push(c); }); });
         [1.0, 1.8].forEach(function (r) { for (var k = 0; k < 8; k++) { var a = k / 8 * Math.PI * 2 + 0.2; needles.push({ p: [r * Math.cos(a), -0.8, r * Math.sin(a)], e1: [1, 0, 0], e2: [0, 0, 1] }); } });
       } else {
         var starts = mode === 'loop' ? [0.25, 0.55, 0.85, 1.6, 2.1] : [0.2, 0.45, 0.68];

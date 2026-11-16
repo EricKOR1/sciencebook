@@ -23,7 +23,8 @@ Sims.register('blood-glucose', {
       if (s.t - hist[hist.length - 1].t >= 1) hist.push({ t: s.t, G: s.G, I: s.I, C: s.C });
       if (hist.length > 2000) hist.shift();
     }
-    function advance(min) { var n = Math.round(min / 0.25); for (var i = 0; i < n; i++) step(0.25); }
+    var acc = 0;
+    function advance(min) { acc += min; while (acc >= 0.25) { step(0.25); acc -= 0.25; } }
     function steady() { return s.gut < 0.3 && s.ex <= 0 && Math.abs(s.G - SET) < 0.4 && s.I < 0.03 && s.C < 0.03; }
 
     var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.5 : 0.58; }, label: '혈당 조절 흐름도와 혈당·호르몬 그래프' });

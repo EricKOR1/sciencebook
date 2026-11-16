@@ -122,7 +122,7 @@ Sims.register('density-lab', {
         var vEnd = Math.min(VMAX, MMAX / S.rho), x = sx(vEnd), y = sy(S.rho * vEnd);
         var txt = S.name + ' ' + S.rho;
         ctx.fillStyle = S.liquid ? T[Lq.line] : T[COLORS[S.key]];
-        if (S.liquid && vEnd >= VMAX) { ctx.textAlign = 'center'; ctx.fillText(txt, sx(VMAX * 0.5), sy(S.rho * VMAX * 0.5) + 12); }
+        if (S.liquid && vEnd >= VMAX) { ctx.textAlign = 'center'; ctx.fillText(txt, sx(VMAX * 0.5), sy(S.rho * VMAX * 0.5) - 10); }
         else if (vEnd < VMAX) { ctx.textAlign = 'center'; ctx.fillText(txt, Math.min(x, R - 30), Tp - 8); }
         else { ctx.textAlign = 'right'; ctx.fillText(txt, R - 2, y - 9); }
       });

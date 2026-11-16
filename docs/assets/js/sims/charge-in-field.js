@@ -25,7 +25,7 @@ Sims.register('charge-in-field', {
     }
 
     var S = api.scene3d({
-      yaw: 0.55, pitch: 0.32, dist: 22, scale: 0.095, label: '균일한 자기장 속 하전 입자의 궤도',
+      yaw: 0.55, pitch: 0.32, dist: 22, scale: 0.085, label: '균일한 자기장 속 하전 입자의 궤도',
       aspect: function (w) { return w < 560 ? 1.05 : 0.62; },
       draw: function (g, T) {
         var d = derived();
@@ -70,7 +70,7 @@ Sims.register('charge-in-field', {
       var d = derived();
       rR.set(d.r < 0.005 ? '0 (원을 그리지 않음)' : d.r.toFixed(2) + ' cm');
       var F = Q * st.v * 1e6 * st.B * Math.sin(d.th);
-      rF.set(F < 1e-20 ? '0 N' : (F / 1e-14).toFixed(1) + ' × 10⁻¹⁴ N');
+      rF.set(F < 1e-20 ? '0 N' : F >= 1e-13 ? (F / 1e-13).toFixed(2) + ' × 10⁻¹³ N' : (F / 1e-14).toFixed(1) + ' × 10⁻¹⁴ N');
       rDir.set(d.r < 0.005 ? '돌지 않음' : (st.sign > 0 ? '시계 방향' : '시계 반대 방향'));
       rMove.set(st.deg === 90 ? '원운동' : st.deg === 0 ? '직선 운동(힘 0)' : '나선 운동');
     }

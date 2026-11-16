@@ -57,12 +57,12 @@ Sims.register('hubble-expansion', {
       var amp = 0.18 * st.H / 70, a = 1 + amp * st.tau;
       ctx.save(); ctx.beginPath(); ctx.rect(r.x, r.y + 24, r.w, r.h - 30); ctx.clip();
       gal.forEach(function (g, i) {
-        var p0 = scenePt(g, r, 1), p = scenePt(g, r, a), isRef = i === st.ref;
-        if (!isRef && st.tau > 0.02) {
+        var p0 = scenePt(g, r, 1), p1 = scenePt(g, r, 1 + amp), p = scenePt(g, r, a), isRef = i === st.ref;
+        if (!isRef) {
           ctx.strokeStyle = T.figRed; ctx.globalAlpha = 0.75; ctx.lineWidth = 1.3;
-          ctx.beginPath(); ctx.moveTo(p0[0], p0[1]); ctx.lineTo(p[0], p[1]); ctx.stroke();
-          var ang = Math.atan2(p[1] - p0[1], p[0] - p0[0]), len = Math.hypot(p[0] - p0[0], p[1] - p0[1]);
-          if (len > 5) { ctx.fillStyle = T.figRed; ctx.beginPath(); ctx.moveTo(p[0], p[1]); ctx.lineTo(p[0] - 6 * Math.cos(ang - 0.45), p[1] - 6 * Math.sin(ang - 0.45)); ctx.lineTo(p[0] - 6 * Math.cos(ang + 0.45), p[1] - 6 * Math.sin(ang + 0.45)); ctx.fill(); }
+          ctx.beginPath(); ctx.moveTo(p0[0], p0[1]); ctx.lineTo(p1[0], p1[1]); ctx.stroke();
+          var ang = Math.atan2(p1[1] - p0[1], p1[0] - p0[0]), len = Math.hypot(p1[0] - p0[0], p1[1] - p0[1]);
+          if (len > 5) { ctx.fillStyle = T.figRed; ctx.beginPath(); ctx.moveTo(p1[0], p1[1]); ctx.lineTo(p1[0] - 6 * Math.cos(ang - 0.45), p1[1] - 6 * Math.sin(ang - 0.45)); ctx.lineTo(p1[0] - 6 * Math.cos(ang + 0.45), p1[1] - 6 * Math.sin(ang + 0.45)); ctx.fill(); }
           ctx.globalAlpha = 1;
         }
         ctx.save(); ctx.translate(p[0], p[1]); ctx.rotate(g.rot);
