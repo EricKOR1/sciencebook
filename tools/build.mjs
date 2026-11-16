@@ -144,8 +144,10 @@ function protectMath(md, store) {
   }).join('');
 }
 function renderMath(m) {
+  // KaTeX는 가운뎃점(·)을 처리하지 못하므로 \cdot 으로 바꾼다(\text{…} 안에서는 잠시 밖으로 꺼낸다)
+  const tex = m.tex.replace(/\\text\{([^{}]*)\}/g, (all, inner) => `\\text{${inner.replace(/·/g, '}\\cdot\\text{')}}`).replace(/·/g, '\\cdot ').replace(/µ/g, 'μ');
   try {
-    return katex.renderToString(m.tex, { displayMode: m.display, throwOnError: true, output: 'html', strict: 'ignore', trust: false });
+    return katex.renderToString(tex, { displayMode: m.display, throwOnError: true, output: 'html', strict: 'ignore', trust: false });
   } catch (e) {
     console.warn('  ! 수식 오류:', m.tex.slice(0, 60), '→', e.message.split('\n')[0]);
     return `<code class="math-error">${escapeHtml(m.tex)}</code>`;

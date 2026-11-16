@@ -1,0 +1,965 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>과학과 나의 미래 · 중3</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css">
+<link rel="stylesheet" href="assets/book.css">
+<script src="assets/js/book.js" defer></script>
+
+</head>
+<body class="">
+<header class="topbar">
+  <button class="menu-btn" id="menu-btn" aria-controls="drawer" aria-expanded="false">목차</button>
+  <a class="brand" href="index.html">한 권으로 잇는 과학</a>
+  <button class="theme-btn" id="theme-btn" aria-label="밝은 화면과 어두운 화면 바꾸기">화면</button>
+</header>
+<div class="shell">
+<aside class="drawer" id="drawer"><nav class="book-nav" aria-label="교재 목차"><a class="nav-home" href="index.html">처음으로 · 전체 목차</a><input class="nav-filter" id="nav-filter" type="search" placeholder="단원 이름으로 찾기" aria-label="단원 이름으로 찾기" autocomplete="off"><p class="nav-group">중학교 과학</p><details class="nav-part"><summary>1학년<span class="nav-count">7</span></summary><ul><li><a href="m1-01.html"><span class="nav-id">중1-1</span>과학과 인류의 지속가능한 삶</a></li><li><a href="m1-02.html"><span class="nav-id">중1-2</span>생물의 구성과 다양성</a></li><li><a href="m1-03.html"><span class="nav-id">중1-3</span>열</a></li><li><a href="m1-04.html"><span class="nav-id">중1-4</span>물질의 상태 변화</a></li><li><a href="m1-05.html"><span class="nav-id">중1-5</span>힘의 작용</a></li><li><a href="m1-06.html"><span class="nav-id">중1-6</span>기체의 성질</a></li><li><a href="m1-07.html"><span class="nav-id">중1-7</span>태양계</a></li></ul></details><details class="nav-part"><summary>2학년<span class="nav-count">8</span></summary><ul><li><a href="m2-01.html"><span class="nav-id">중2-1</span>물질의 특성</a></li><li><a href="m2-02.html"><span class="nav-id">중2-2</span>지권의 변화</a></li><li><a href="m2-03.html"><span class="nav-id">중2-3</span>빛과 파동</a></li><li><a href="m2-04.html"><span class="nav-id">중2-4</span>물질의 구성</a></li><li><a href="m2-05.html"><span class="nav-id">중2-5</span>식물과 에너지</a></li><li><a href="m2-06.html"><span class="nav-id">중2-6</span>동물과 에너지</a></li><li><a href="m2-07.html"><span class="nav-id">중2-7</span>전기와 자기</a></li><li><a href="m2-08.html"><span class="nav-id">중2-8</span>별과 우주</a></li></ul></details><details class="nav-part" open><summary>3학년<span class="nav-count">8</span></summary><ul><li><a href="m3-01.html"><span class="nav-id">중3-1</span>화학 반응의 규칙성</a></li><li><a href="m3-02.html"><span class="nav-id">중3-2</span>날씨와 기후변화</a></li><li><a href="m3-03.html"><span class="nav-id">중3-3</span>수권과 해수의 순환</a></li><li><a href="m3-04.html"><span class="nav-id">중3-4</span>운동과 에너지</a></li><li><a href="m3-05.html"><span class="nav-id">중3-5</span>자극과 반응</a></li><li><a href="m3-06.html"><span class="nav-id">중3-6</span>생식과 유전</a></li><li><a href="m3-07.html"><span class="nav-id">중3-7</span>재해·재난과 안전</a></li><li><a href="m3-08.html" aria-current="page"><span class="nav-id">중3-8</span>과학과 나의 미래</a></li></ul></details><p class="nav-group">고등학교 공통 과목</p><details class="nav-part"><summary>통합과학1<span class="nav-count">16</span></summary><p class="nav-unit">1단원 과학의 기초</p><ul><li><a href="1-1.html"><span class="nav-id">1-1</span>시간과 공간</a></li><li><a href="1-2.html"><span class="nav-id">1-2</span>기본량과 단위</a></li><li><a href="1-3.html"><span class="nav-id">1-3</span>측정과 어림, 측정 표준</a></li><li><a href="1-4.html"><span class="nav-id">1-4</span>정보와 신호: 아날로그에서 디지털로</a></li></ul><p class="nav-unit">2단원 물질과 규칙성</p><ul><li><a href="2-1.html"><span class="nav-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="2-2.html"><span class="nav-id">2-2</span>별의 진화와 원소의 생성</a></li><li><a href="2-3.html"><span class="nav-id">2-3</span>원소의 주기성과 화학 결합의 이유</a></li><li><a href="2-4.html"><span class="nav-id">2-4</span>이온 결합과 공유 결합</a></li><li><a href="2-5.html"><span class="nav-id">2-5</span>지각과 생명체 구성 물질의 규칙성</a></li><li><a href="2-6.html"><span class="nav-id">2-6</span>물질의 전기적 성질과 소재</a></li></ul><p class="nav-unit">3단원 시스템과 상호작용</p><ul><li><a href="3-1.html"><span class="nav-id">3-1</span>지구시스템의 구성과 상호작용</a></li><li><a href="3-2.html"><span class="nav-id">3-2</span>판구조론과 지권의 변화</a></li><li><a href="3-3.html"><span class="nav-id">3-3</span>중력과 운동</a></li><li><a href="3-4.html"><span class="nav-id">3-4</span>운동량과 충격량</a></li><li><a href="3-5.html"><span class="nav-id">3-5</span>생명 시스템과 물질대사</a></li><li><a href="3-6.html"><span class="nav-id">3-6</span>유전자와 단백질</a></li></ul></details><details class="nav-part"><summary>통합과학2<span class="nav-count">15</span></summary><p class="nav-unit">4단원 변화와 다양성</p><ul><li><a href="4-1.html"><span class="nav-id">4-1</span>지질시대의 환경 변화와 생물다양성</a></li><li><a href="4-2.html"><span class="nav-id">4-2</span>진화와 생물다양성</a></li><li><a href="4-3.html"><span class="nav-id">4-3</span>산화와 환원</a></li><li><a href="4-4.html"><span class="nav-id">4-4</span>산과 염기, 중화 반응</a></li><li><a href="4-5.html"><span class="nav-id">4-5</span>물질 변화와 에너지 출입</a></li></ul><p class="nav-unit">5단원 환경과 에너지</p><ul><li><a href="5-1.html"><span class="nav-id">5-1</span>생태계 구성 요소와 상호 관계</a></li><li><a href="5-2.html"><span class="nav-id">5-2</span>생태계 평형</a></li><li><a href="5-3.html"><span class="nav-id">5-3</span>지구온난화와 기후변화</a></li><li><a href="5-4.html"><span class="nav-id">5-4</span>태양 에너지와 에너지 전환</a></li><li><a href="5-5.html"><span class="nav-id">5-5</span>발전기와 전기 에너지</a></li><li><a href="5-6.html"><span class="nav-id">5-6</span>에너지 효율과 신재생 에너지</a></li></ul><p class="nav-unit">6단원 과학과 미래 사회</p><ul><li><a href="6-1.html"><span class="nav-id">6-1</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html"><span class="nav-id">6-2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html"><span class="nav-id">6-3</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html"><span class="nav-id">6-4</span>과학기술과 윤리</a></li></ul></details><p class="nav-group">고등학교 일반 선택</p><details class="nav-part"><summary>물리학<span class="nav-count">3</span></summary><ul><li><a href="phy-1.html"><span class="nav-id">물리학 1</span>힘과 에너지</a></li><li><a href="phy-2.html"><span class="nav-id">물리학 2</span>전기와 자기</a></li><li><a href="phy-3.html"><span class="nav-id">물리학 3</span>빛과 물질</a></li></ul></details><details class="nav-part"><summary>화학<span class="nav-count">4</span></summary><ul><li><a href="chem-1.html"><span class="nav-id">화학 1</span>화학의 언어</a></li><li><a href="chem-2.html"><span class="nav-id">화학 2</span>물질의 구조와 성질</a></li><li><a href="chem-3.html"><span class="nav-id">화학 3</span>화학 평형</a></li><li><a href="chem-4.html"><span class="nav-id">화학 4</span>역동적인 화학 반응</a></li></ul></details><details class="nav-part"><summary>생명과학<span class="nav-count">3</span></summary><ul><li><a href="bio-1.html"><span class="nav-id">생명과학 1</span>생명 시스템의 구성</a></li><li><a href="bio-2.html"><span class="nav-id">생명과학 2</span>항상성과 몸의 조절</a></li><li><a href="bio-3.html"><span class="nav-id">생명과학 3</span>생명의 연속성과 다양성</a></li></ul></details><details class="nav-part"><summary>지구과학<span class="nav-count">3</span></summary><ul><li><a href="earth-1.html"><span class="nav-id">지구과학 1</span>대기와 해양의 상호작용</a></li><li><a href="earth-2.html"><span class="nav-id">지구과학 2</span>지구의 역사와 한반도의 암석</a></li><li><a href="earth-3.html"><span class="nav-id">지구과학 3</span>태양계 천체와 별과 우주의 진화</a></li></ul></details><p class="nav-group">고등학교 진로 선택</p><details class="nav-part"><summary>역학과 에너지<span class="nav-count">2</span></summary><ul><li><a href="mech-1.html"><span class="nav-id">역학과 에너지 1</span>시공간과 운동</a></li><li><a href="mech-2.html"><span class="nav-id">역학과 에너지 2</span>열과 에너지</a></li></ul></details><details class="nav-part"><summary>전자기와 양자<span class="nav-count">3</span></summary><ul><li><a href="emq-1.html"><span class="nav-id">전자기와 양자 1</span>전자기적 상호작용</a></li><li><a href="emq-2.html"><span class="nav-id">전자기와 양자 2</span>빛과 정보 통신</a></li><li><a href="emq-3.html"><span class="nav-id">전자기와 양자 3</span>양자와 미시세계</a></li></ul></details><details class="nav-part"><summary>물질과 에너지<span class="nav-count">3</span></summary><ul><li><a href="matter-1.html"><span class="nav-id">물질과 에너지 1</span>물질의 세 가지 상태</a></li><li><a href="matter-2.html"><span class="nav-id">물질과 에너지 2</span>용액의 성질</a></li><li><a href="matter-3.html"><span class="nav-id">물질과 에너지 3</span>화학 변화의 자발성</a></li></ul></details><details class="nav-part"><summary>화학 반응의 세계<span class="nav-count">3</span></summary><ul><li><a href="rxn-1.html"><span class="nav-id">화학 반응의 세계 1</span>산·염기 평형</a></li><li><a href="rxn-2.html"><span class="nav-id">화학 반응의 세계 2</span>산화·환원 반응</a></li><li><a href="rxn-3.html"><span class="nav-id">화학 반응의 세계 3</span>탄소 화합물과 반응</a></li></ul></details><details class="nav-part"><summary>세포와 물질대사<span class="nav-count">3</span></summary><ul><li><a href="cell-1.html"><span class="nav-id">세포와 물질대사 1</span>세포</a></li><li><a href="cell-2.html"><span class="nav-id">세포와 물질대사 2</span>물질대사와 에너지</a></li><li><a href="cell-3.html"><span class="nav-id">세포와 물질대사 3</span>세포호흡과 광합성</a></li></ul></details><details class="nav-part"><summary>생물의 유전<span class="nav-count">3</span></summary><ul><li><a href="gene-1.html"><span class="nav-id">생물의 유전 1</span>유전자와 유전물질</a></li><li><a href="gene-2.html"><span class="nav-id">생물의 유전 2</span>유전자의 발현</a></li><li><a href="gene-3.html"><span class="nav-id">생물의 유전 3</span>생명공학기술</a></li></ul></details><details class="nav-part"><summary>지구시스템과학<span class="nav-count">2</span></summary><ul><li><a href="esys-1.html"><span class="nav-id">지구시스템과학 1</span>지구 탄생과 생동하는 지구</a></li><li><a href="esys-2.html"><span class="nav-id">지구시스템과학 2</span>해수의 운동</a></li></ul></details><details class="nav-part"><summary>행성우주과학<span class="nav-count">2</span></summary><ul><li><a href="astro-1.html"><span class="nav-id">행성우주과학 1</span>우주탐사와 행성계</a></li><li><a href="astro-2.html"><span class="nav-id">행성우주과학 2</span>태양과 별의 관측</a></li></ul></details><p class="nav-group">찾아보기</p><ul class="nav-extra"><li><a href="map.html">개념 연계 지도</a></li><li><a href="glossary.html">핵심 용어 사전</a></li><li><a href="sims.html">시뮬레이션 모아 보기</a></li><li><a href="guide.html">교재 설계 안내</a></li><li><a href="appendix-standards.html">통합과학 성취기준 원문</a></li><li><a href="appendix-map.html">통합과학 대학·산업 연계 지도</a></li></ul></nav></aside>
+<main class="main" id="main">
+<div class="lesson-grid"><nav class="ladder" aria-label="이 단원의 흐름"><p class="ladder-title">이 단원의 흐름</p><ol><li class="extra"><a href="#단원-들어가기">단원 들어가기</a></li><li class="s1"><a href="#step-1"><b>STEP 1</b> 이전 학습 다시 보기</a></li><li class="s2"><a href="#step-2"><b>STEP 2</b> 기초 다지기</a></li><li class="s3"><a href="#step-3"><b>STEP 3</b> 핵심 개념</a></li><li class="s4"><a href="#step-4"><b>STEP 4</b> 오개념 바로잡기</a></li><li class="s5"><a href="#step-5"><b>STEP 5</b> 다음 단계로 한 걸음 더</a></li><li class="s6"><a href="#step-6"><b>STEP 6</b> 생활·산업·진로 연결</a></li><li class="extra"><a href="#탐구-활동">탐구 활동</a></li><li class="extra"><a href="#개념-확인-문제">개념 확인 문제</a></li><li class="extra"><a href="#한눈에-정리">한눈에 정리</a></li></ol></nav><article class="prose lesson"><header class="lesson-hero st-society">
+  <p class="eyebrow">중학교 과학 · 3학년</p>
+  <h1><span class="lesson-id">중3-8</span>과학과 나의 미래</h1>
+  <p class="lesson-sub">이 책의 지도를 펴고 나의 길을 그리기</p>
+</header><section class="links-panel" aria-label="개념 연결">
+  <div class="lp-col"><p class="lp-title">먼저 배운 내용</p><ul><li><a href="m1-01.html"><span class="lp-where">중1</span>과학과 인류의 지속가능한 삶</a></li><li><a href="m3-07.html"><span class="lp-where">중3</span>재해·재난과 안전</a></li></ul></div>
+  <div class="lp-now"><span>지금</span><b>과학과 나의 미래</b></div>
+  <div class="lp-col"><p class="lp-title">이어지는 내용</p><ul><li><a href="1-1.html"><span class="lp-where">통합과학1</span>시간과 공간</a></li><li><a href="6-2.html"><span class="lp-where">통합과학2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html"><span class="lp-where">통합과학2</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html"><span class="lp-where">통합과학2</span>과학기술과 윤리</a></li></ul></div>
+</section><!-- prev: m1-01, m3-07 -->
+<!-- next: 1-1, 6-2, 6-3, 6-4 -->
+
+<aside class="callout note"><p class="callout-title">성취기준·참고</p><p><strong>성취기준</strong></p>
+<ul>
+<li><strong>[9과23-01]</strong> 과학과 관련된 직업의 종류와 하는 일을 조사하고, 과학기술의 발달로 생기는 미래 사회의 직업 변화를 예상할 수 있다.</li>
+<li><strong>[9과23-02]</strong> 자신의 진로와 관련 있는 과학 분야를 조사하고, 진로 선택을 위하여 필요한 과학 학습을 계획할 수 있다.</li>
+</ul>
+</aside>
+<p><strong>학습 목표</strong></p>
+<ol>
+<li>과학과 관련된 직업을 여러 갈래로 나누고, 각 직업에서 하는 일과 쓰이는 과학 개념을 조사할 수 있다.</li>
+<li>과학기술의 발달로 사라지거나, 바뀌거나, 새로 생긴 직업의 사례를 들고 미래의 직업 변화를 예상할 수 있다.</li>
+<li>나의 흥미와 진로에 관련된 과학 분야를 찾을 수 있다.</li>
+<li>이 책의 과목·영역 구성을 이해하고, 고등학교까지 이어지는 나의 과학 학습 계획을 세울 수 있다.</li>
+</ol>
+<p><strong>이 단원의 학습 사다리</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>단계</th>
+<th>무엇을 하나?</th>
+</tr>
+</thead><tbody><tr>
+<td>STEP 1. 이전 학습 다시 보기</td>
+<td>중학교 3년 동안 배운 다섯 영역을 한눈에 정리한다</td>
+</tr>
+<tr>
+<td>STEP 2. 기초 다지기</td>
+<td>과학·기술·공학의 차이, 과학의 네 분야, 진로 정보를 찾는 방법</td>
+</tr>
+<tr>
+<td>STEP 3. 핵심 개념</td>
+<td>과학 관련 직업 → 직업의 변화 → 나의 분야 찾기 → 이 책의 지도 → 학습 계획</td>
+</tr>
+<tr>
+<td>STEP 4. 오개념 바로잡기</td>
+<td>&quot;과학 직업은 과학자뿐?&quot;, &quot;인공지능이 모든 직업을 없앤다?&quot;</td>
+</tr>
+<tr>
+<td>STEP 5. 다음 단계로</td>
+<td>통합과학과 선택 과목, 대학 전공으로 이어지는 길</td>
+</tr>
+<tr>
+<td>STEP 6. 생활·산업·진로</td>
+<td>과학이 숨어 있는 여러 직업 현장</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="단원-들어가기">단원 들어가기</h2>
+<p>10년 뒤 너는 어디에서 무엇을 하고 있을까? 지금 있는 직업 중 하나를 하고 있을 수도 있고, 아직 이름조차 없는 직업을 하고 있을 수도 있다. 20년 전에는 &#39;스마트폰 앱 개발자&#39;나 &#39;유튜브 크리에이터&#39;라는 직업이 거의 없었다. 반대로 한때 흔했던 &#39;전화 교환원&#39;은 이제 찾아보기 어렵다.</p>
+<p>미래를 정확히 알 수는 없지만, 변화를 이끄는 힘이 <strong>과학기술</strong>이라는 것은 분명하다. 그래서 과학을 이해하는 사람은 변화를 더 잘 읽고 더 잘 준비할 수 있다. 이 단원에서는 과학과 관련된 직업을 조사하고, 이 책 「한 권으로 잇는 과학」의 지도를 펼쳐 <strong>중학교에서 고등학교까지 이어지는 나만의 과학 학습 길</strong>을 그려 본다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg style="width:330px" id="mm-m3-08-0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 330.2578125 561" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-m3-08-0{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-m3-08-0 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-m3-08-0 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-m3-08-0 .error-icon{fill:var(--mm-group);}#mm-m3-08-0 .error-text{fill:#595959;stroke:#595959;}#mm-m3-08-0 .edge-thickness-normal{stroke-width:1px;}#mm-m3-08-0 .edge-thickness-thick{stroke-width:3.5px;}#mm-m3-08-0 .edge-pattern-solid{stroke-dasharray:0;}#mm-m3-08-0 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-m3-08-0 .edge-pattern-dashed{stroke-dasharray:3;}#mm-m3-08-0 .edge-pattern-dotted{stroke-dasharray:2;}#mm-m3-08-0 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-m3-08-0 .marker.cross{stroke:var(--mm-line);}#mm-m3-08-0 svg{font-family:inherit;font-size:15px;}#mm-m3-08-0 p{margin:0;}#mm-m3-08-0 .label{font-family:inherit;color:var(--mm-text);}#mm-m3-08-0 .cluster-label text{fill:#595959;}#mm-m3-08-0 .cluster-label span{color:#595959;}#mm-m3-08-0 .cluster-label span p{background-color:transparent;}#mm-m3-08-0 .label text,#mm-m3-08-0 span{fill:var(--mm-text);color:var(--mm-text);}#mm-m3-08-0 .node rect,#mm-m3-08-0 .node circle,#mm-m3-08-0 .node ellipse,#mm-m3-08-0 .node polygon,#mm-m3-08-0 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-m3-08-0 .rough-node .label text,#mm-m3-08-0 .node .label text,#mm-m3-08-0 .image-shape .label,#mm-m3-08-0 .icon-shape .label{text-anchor:middle;}#mm-m3-08-0 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-m3-08-0 .rough-node .label,#mm-m3-08-0 .node .label,#mm-m3-08-0 .image-shape .label,#mm-m3-08-0 .icon-shape .label{text-align:center;}#mm-m3-08-0 .node.clickable{cursor:pointer;}#mm-m3-08-0 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-m3-08-0 .arrowheadPath{fill:#0b0b0b;}#mm-m3-08-0 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-m3-08-0 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-m3-08-0 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-m3-08-0 .edgeLabel p{background-color:var(--mm-label);}#mm-m3-08-0 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-m3-08-0 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-m3-08-0 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-m3-08-0 .cluster text{fill:#595959;}#mm-m3-08-0 .cluster span{color:#595959;}#mm-m3-08-0 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-m3-08-0 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-m3-08-0 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-m3-08-0 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-m3-08-0 rect.text{fill:none;stroke-width:0;}#mm-m3-08-0 .icon-shape,#mm-m3-08-0 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-m3-08-0 .icon-shape p,#mm-m3-08-0 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-m3-08-0 .icon-shape .label rect,#mm-m3-08-0 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-m3-08-0 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-m3-08-0 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-m3-08-0 .node .neo-node{stroke:var(--mm-border);}#mm-m3-08-0 [data-look="neo"].node rect,#mm-m3-08-0 [data-look="neo"].cluster rect,#mm-m3-08-0 [data-look="neo"].node polygon{stroke:url(#mm-m3-08-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-m3-08-0 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-m3-08-0 [data-look="neo"].node path{stroke:url(#mm-m3-08-0-gradient);stroke-width:1px;}#mm-m3-08-0 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-m3-08-0 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-m3-08-0 [data-look="neo"].node circle{stroke:url(#mm-m3-08-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-m3-08-0 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-m3-08-0 [data-look="neo"].icon-shape .icon{fill:url(#mm-m3-08-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-m3-08-0 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-m3-08-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-m3-08-0 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-m3-08-0_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-08-0_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-08-0_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-08-0_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-08-0_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-08-0_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-08-0_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-08-0_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-08-0_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-08-0_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-08-0_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-m3-08-0_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M134.83,77L128.942,81.167C123.053,85.333,111.277,93.667,105.388,101.333C99.5,109,99.5,116,99.5,119.5L99.5,123" id="mm-m3-08-0-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTM0LjgzMDIyNTg0MDMzNjE0LCJ5Ijo3N30seyJ4Ijo5OS41LCJ5IjoxMDJ9LHsieCI6OTkuNSwieSI6MTI3fV0=" data-look="classic" marker-end="url(#mm-m3-08-0_flowchart-v2-pointEnd)"/><path d="M99.5,196L99.5,200.167C99.5,204.333,99.5,212.667,99.5,220.333C99.5,228,99.5,235,99.5,238.5L99.5,242" id="mm-m3-08-0-L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6OTkuNSwieSI6MTk2fSx7IngiOjk5LjUsInkiOjIyMX0seyJ4Ijo5OS41LCJ5IjoyNDZ9XQ==" data-look="classic" marker-end="url(#mm-m3-08-0_flowchart-v2-pointEnd)"/><path d="M99.5,315L99.5,319.167C99.5,323.333,99.5,331.667,99.5,339.333C99.5,347,99.5,354,99.5,357.5L99.5,361" id="mm-m3-08-0-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6OTkuNSwieSI6MzE1fSx7IngiOjk5LjUsInkiOjM0MH0seyJ4Ijo5OS41LCJ5IjozNjV9XQ==" data-look="classic" marker-end="url(#mm-m3-08-0_flowchart-v2-pointEnd)"/><path d="M99.5,434L99.5,438.167C99.5,442.333,99.5,450.667,104.844,458.615C110.188,466.563,120.877,474.126,126.221,477.908L131.565,481.69" id="mm-m3-08-0-L_D_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_E_0" data-points="W3sieCI6OTkuNSwieSI6NDM0fSx7IngiOjk5LjUsInkiOjQ1OX0seyJ4IjoxMzQuODMwMjI1ODQwMzM2MTQsInkiOjQ4NH1d" data-look="classic" marker-end="url(#mm-m3-08-0_flowchart-v2-pointEnd)"/><path d="M232.342,484L238.23,479.833C244.118,475.667,255.895,467.333,261.784,453.25C267.672,439.167,267.672,419.333,267.672,399.5C267.672,379.667,267.672,359.833,267.672,340C267.672,320.167,267.672,300.333,267.672,280.5C267.672,260.667,267.672,240.833,267.672,221C267.672,201.167,267.672,181.333,267.672,161.5C267.672,141.667,267.672,121.833,262.328,108.135C256.984,94.437,246.295,86.874,240.951,83.092L235.607,79.31" id="mm-m3-08-0-L_E_A_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_A_0" data-points="W3sieCI6MjMyLjM0MTY0OTE1OTY2Mzg2LCJ5Ijo0ODR9LHsieCI6MjY3LjY3MTg3NSwieSI6NDU5fSx7IngiOjI2Ny42NzE4NzUsInkiOjM5OS41fSx7IngiOjI2Ny42NzE4NzUsInkiOjM0MH0seyJ4IjoyNjcuNjcxODc1LCJ5IjoyODAuNX0seyJ4IjoyNjcuNjcxODc1LCJ5IjoyMjF9LHsieCI6MjY3LjY3MTg3NSwieSI6MTYxLjV9LHsieCI6MjY3LjY3MTg3NSwieSI6MTAyfSx7IngiOjIzMi4zNDE2NDkxNTk2NjM4NiwieSI6Nzd9XQ==" data-look="classic" marker-end="url(#mm-m3-08-0_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(267.671875, 280.5)"><g class="label" data-id="L_E_A_0" transform="translate(-54.5859375, -11.25)"><foreignObject width="109.171875" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"><p>점검하고 고치기</p></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-m3-08-0-flowchart-A-0" data-look="classic" transform="translate(183.5859375, 42.5)"><rect class="basic label-container" style="" x="-74" y="-34.5" width="148" height="69"/><g class="label" style="" transform="translate(-50, -22.5)"><rect/><foreignObject width="100" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>나를 이해하기<br />흥미·적성·가치</p></span></div></foreignObject></g></g><g class="node default" id="mm-m3-08-0-flowchart-B-1" data-look="classic" transform="translate(99.5, 161.5)"><rect class="basic label-container" style="" x="-90.671875" y="-34.5" width="181.34375" height="69"/><g class="label" style="" transform="translate(-66.671875, -22.5)"><rect/><foreignObject width="133.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>직업 탐색<br />하는 일·쓰이는 과학</p></span></div></foreignObject></g></g><g class="node default" id="mm-m3-08-0-flowchart-C-3" data-look="classic" transform="translate(99.5, 280.5)"><rect class="basic label-container" style="" x="-78.5859375" y="-34.5" width="157.171875" height="69"/><g class="label" style="" transform="translate(-54.5859375, -22.5)"><rect/><foreignObject width="109.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>미래 변화 예상<br />과학기술과 직업</p></span></div></foreignObject></g></g><g class="node default" id="mm-m3-08-0-flowchart-D-5" data-look="classic" transform="translate(99.5, 399.5)"><rect class="basic label-container" style="" x="-91.5" y="-34.5" width="183" height="69"/><g class="label" style="" transform="translate(-67.5, -22.5)"><rect/><foreignObject width="135" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>관련 과학 분야<br />물리·화학·생명·지구</p></span></div></foreignObject></g></g><g class="node default" id="mm-m3-08-0-flowchart-E-7" data-look="classic" transform="translate(183.5859375, 518.5)"><rect class="basic label-container" style="" x="-88.5859375" y="-34.5" width="177.171875" height="69"/><g class="label" style="" transform="translate(-64.5859375, -22.5)"><rect/><foreignObject width="129.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>과학 학습 계획<br />통합과학·선택 과목</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-m3-08-0-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-m3-08-0-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-m3-08-0-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><hr>
+<h2 id="step-1" class="step-h s1"><span class="step-badge s1">STEP 1</span><span class="h-text">이전 학습 다시 보기</span></h2>
+<h3 id="연계-개념표">연계 개념표</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>이전 단원·성취기준</th>
+<th>그때 배운 것</th>
+<th>이 단원에서 확장되는 것</th>
+</tr>
+</thead><tbody><tr>
+<td>중1 「과학과 인류의 지속가능한 삶」 [9과01-01]</td>
+<td>문제를 발견하고 탐구 계획을 세워 해결하는 과학적 탐구 방법</td>
+<td>진로 문제도 &#39;조사 → 분석 → 계획 → 점검&#39;의 탐구 과정으로 풀어 본다</td>
+</tr>
+<tr>
+<td>중1 「과학과 인류의 지속가능한 삶」 [9과01-02]</td>
+<td>인공지능 등 첨단 과학기술이 미래 사회를 바꾼다</td>
+<td>첨단 과학기술이 <strong>직업</strong>을 어떻게 바꾸는지 예상한다</td>
+</tr>
+<tr>
+<td>중3 「재해·재난과 안전」 [9과22-02]</td>
+<td>과학 원리로 재해·재난에 대비한다</td>
+<td>기상 예보관, 방재 엔지니어 등 안전을 지키는 과학 직업</td>
+</tr>
+<tr>
+<td>중1~중3의 모든 단원</td>
+<td>운동과 에너지, 물질, 생명, 지구와 우주, 과학의 기초와 사회</td>
+<td>각 영역이 어떤 직업과 고등학교 과목으로 이어지는지 연결한다</td>
+</tr>
+</tbody></table></div>
+<h3 id="중학교-3년-다섯-영역-한눈에-보기">중학교 3년, 다섯 영역 한눈에 보기</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>영역</th>
+<th>중1</th>
+<th>중2</th>
+<th>중3</th>
+</tr>
+</thead><tbody><tr>
+<td>운동과 에너지</td>
+<td>「열」, 「힘의 작용」</td>
+<td>「빛과 파동」, 「전기와 자기」</td>
+<td>「운동과 에너지」</td>
+</tr>
+<tr>
+<td>물질</td>
+<td>「물질의 상태 변화」, 「기체의 성질」</td>
+<td>「물질의 특성」, 「물질의 구성」</td>
+<td>「화학 반응의 규칙성」</td>
+</tr>
+<tr>
+<td>생명</td>
+<td>「생물의 구성과 다양성」</td>
+<td>「식물과 에너지」, 「동물과 에너지」</td>
+<td>「자극과 반응」, 「생식과 유전」</td>
+</tr>
+<tr>
+<td>지구와 우주</td>
+<td>「태양계」</td>
+<td>「지권의 변화」, 「별과 우주」</td>
+<td>「날씨와 기후변화」, 「수권과 해수의 순환」</td>
+</tr>
+<tr>
+<td>과학의 기초와 사회</td>
+<td>「과학과 인류의 지속가능한 삶」</td>
+<td>—</td>
+<td>「재해·재난과 안전」, 「과학과 나의 미래」</td>
+</tr>
+</tbody></table></div>
+<h3 id="준비-운동-사전-진단">준비 운동 (사전 진단)</h3>
+<p><strong>Q1.</strong> 중학교 과학 단원 중 가장 재미있었던 단원과 가장 어려웠던 단원을 하나씩 쓰고, 그 까닭을 한 줄로 적어 보자. (정답 없음)</p>
+<p><strong>Q2.</strong> 다음 직업 중 일하면서 과학 지식을 <strong>쓰지 않는</strong> 직업은? ① 요리사 ② 소방관 ③ 운동선수 ④ 없다</p>
+<p><strong>Q3.</strong> 휴대 전화를 만드는 데 필요한 과학 분야를 두 가지 이상 써 보자.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>Q1.</strong> 정답은 없다. 이 기록은 STEP 3의 &#39;나의 과학 분야 찾기&#39;에서 다시 쓴다.</p>
+<p><strong>Q2. ④</strong> — 요리사는 열과 화학 변화를, 소방관은 연소와 소화의 원리를, 운동선수는 힘과 에너지, 몸의 생리를 이용한다.</p>
+<p><strong>Q3.</strong> 예: 전기와 자기(회로, 스피커), 빛과 파동(화면, 카메라), 물질(배터리, 반도체 재료), 인공위성의 운동(위치 측정) 등</p>
+</div></details>
+
+<hr>
+<h2 id="step-2" class="step-h s2"><span class="step-badge s2">STEP 2</span><span class="h-text">기초 다지기</span></h2>
+<h3 id="①-과학-기술-공학은-어떻게-다를까">① 과학, 기술, 공학은 어떻게 다를까?</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>질문</th>
+<th>예</th>
+</tr>
+</thead><tbody><tr>
+<td><strong>과학(science)</strong></td>
+<td>자연은 <strong>왜, 어떻게</strong> 그렇게 되는가?</td>
+<td>빛이 렌즈를 지나면 왜 꺾일까?</td>
+</tr>
+<tr>
+<td><strong>기술(technology)</strong></td>
+<td>그 지식을 <strong>어떻게 쓸 수</strong> 있는가?</td>
+<td>렌즈로 물체를 크게 보는 방법</td>
+</tr>
+<tr>
+<td><strong>공학(engineering)</strong></td>
+<td>정해진 조건에서 <strong>가장 좋은 해결책</strong>을 어떻게 설계하는가?</td>
+<td>작고 가벼우면서 선명한 스마트폰 카메라 설계</td>
+</tr>
+</tbody></table></div>
+<p>세 가지는 서로 밀어 주며 함께 발전한다. 과학이 원리를 밝히면 기술과 공학이 새 도구를 만들고, 새 도구(예: 전자 현미경, 우주 망원경)는 다시 과학의 새 발견을 이끈다.</p>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 과학은 &#39;요리의 원리를 아는 것&#39;(왜 달걀은 열을 받으면 굳을까?), 기술은 &#39;조리법&#39;(달걀찜 만드는 법), 공학은 &#39;식당 주방 설계&#39;(한 시간에 달걀찜 200그릇을 맛있게 만드는 방법)이다.</p>
+</aside>
+<h3 id="②-과학의-네-분야와-이-책의-다섯-영역">② 과학의 네 분야와 이 책의 다섯 영역</h3>
+<p>자연을 탐구하는 대표적인 분야는 네 가지이다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>분야</th>
+<th>주로 묻는 것</th>
+<th>이 책의 영역</th>
+</tr>
+</thead><tbody><tr>
+<td><strong>물리학</strong></td>
+<td>힘, 운동, 에너지, 전기, 빛은 어떻게 작용하는가?</td>
+<td>운동과 에너지</td>
+</tr>
+<tr>
+<td><strong>화학</strong></td>
+<td>물질은 무엇으로 이루어지고 어떻게 변하는가?</td>
+<td>물질</td>
+</tr>
+<tr>
+<td><strong>생명과학</strong></td>
+<td>생명은 어떻게 유지되고 이어지는가?</td>
+<td>생명</td>
+</tr>
+<tr>
+<td><strong>지구과학</strong></td>
+<td>지구와 우주는 어떻게 이루어지고 변하는가?</td>
+<td>지구와 우주</td>
+</tr>
+</tbody></table></div>
+<p>여기에 과학이 사회·기술·직업과 어떻게 연결되는지를 다루는 <strong>과학의 기초와 사회</strong> 영역이 더해져 이 책의 다섯 영역이 된다.</p>
+<h3 id="③-직업-정보를-찾는-방법">③ 직업 정보를 찾는 방법</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>방법</th>
+<th>내용</th>
+<th>주의할 점</th>
+</tr>
+</thead><tbody><tr>
+<td>공공 진로 정보 누리집</td>
+<td>커리어넷 같은 공공 누리집에서 직업별 하는 일, 필요한 능력, 관련 학과를 찾는다</td>
+<td>정보가 갱신된 날짜를 확인한다</td>
+</tr>
+<tr>
+<td>직업인 인터뷰</td>
+<td>가족·이웃·졸업생 등 실제 종사자에게 묻는다</td>
+<td>한 사람의 경험이 전부는 아니다</td>
+</tr>
+<tr>
+<td>책·기사·영상</td>
+<td>직업 소개 도서, 신문 기사, 직업 체험 영상</td>
+<td>광고나 과장된 표현을 가려낸다</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-3" class="step-h s3"><span class="step-badge s3">STEP 3</span><span class="h-text">핵심 개념</span></h2>
+<h3 id="①-과학과-관련된-직업의-종류와-하는-일">① 과학과 관련된 직업의 종류와 하는 일</h3>
+<p>&#39;과학 관련 직업&#39;이라고 하면 흰 가운을 입은 연구원만 떠올리기 쉽다. 그러나 과학 지식은 훨씬 많은 직업에서 쓰인다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>갈래</th>
+<th>직업의 예</th>
+<th>하는 일</th>
+<th>주로 쓰이는 과학</th>
+</tr>
+</thead><tbody><tr>
+<td>연구</td>
+<td>물리학자, 화학자, 생명과학자, 천문학자</td>
+<td>자연의 원리를 밝히는 실험과 관측</td>
+<td>해당 분야 전체</td>
+</tr>
+<tr>
+<td>기술·공학</td>
+<td>반도체 엔지니어, 기계 엔지니어, 건축가, 로봇 엔지니어</td>
+<td>제품·건물·장치의 설계와 제작</td>
+<td>전기와 자기, 힘과 운동, 물질의 성질</td>
+</tr>
+<tr>
+<td>의료·보건</td>
+<td>의사, 간호사, 약사, 임상병리사, 방사선사</td>
+<td>질병 진단·치료, 건강 관리</td>
+<td>생명(자극과 반응, 동물과 에너지), 화학</td>
+</tr>
+<tr>
+<td>환경·에너지</td>
+<td>환경 연구원, 신재생 에너지 기술자, 기후 분석가</td>
+<td>오염 측정, 에너지 시스템 설계, 기후 자료 분석</td>
+<td>기후변화, 에너지 전환, 생태계</td>
+</tr>
+<tr>
+<td>지구·안전</td>
+<td>기상 예보관, 지진 연구원, 해양 연구원, 소방관</td>
+<td>예보, 재난 대비, 구조</td>
+<td>날씨, 지권의 변화, 해수의 순환, 연소</td>
+</tr>
+<tr>
+<td>농업·식품</td>
+<td>스마트팜 농업인, 육종 연구원, 식품 연구원</td>
+<td>작물 재배 환경 관리, 품종 개발, 식품 개발</td>
+<td>식물과 에너지, 생식과 유전, 화학 반응</td>
+</tr>
+<tr>
+<td>정보·데이터</td>
+<td>데이터 과학자, 인공지능 개발자</td>
+<td>대량의 자료에서 규칙을 찾고 예측 모형을 만든다</td>
+<td>과학적 탐구 방법, 통계, 정보</td>
+</tr>
+<tr>
+<td>소통·교육·정책</td>
+<td>과학 교사, 과학 기자, 과학관 해설사, 변리사, 과학 정책 연구원</td>
+<td>과학을 가르치고, 알리고, 제도를 만든다</td>
+<td>모든 영역 + 글쓰기·말하기</td>
+</tr>
+</tbody></table></div>
+<h4 id="예제-1-직업-속-과학-찾기">예제 1 — 직업 속 과학 찾기</h4>
+<p>제빵사는 빵을 만들 때 반죽에 효모를 넣고 따뜻한 곳에 둔 뒤 오븐에 굽는다. 이 과정에 숨어 있는 과학을 이 책의 단원과 연결하시오.</p>
+<p><strong>풀이</strong></p>
+<ul>
+<li>효모는 균계에 속하는 살아 있는 생물이며, 반죽 속 당을 분해하여 에너지를 얻는 과정에서 이산화 탄소를 내놓는다 → 중1 「생물의 구성과 다양성」</li>
+<li>이산화 탄소 기체가 반죽 속에서 부풀며, 오븐에서 온도가 높아지면 기체의 부피가 더 커진다 → 중1 「기체의 성질」</li>
+<li>구울 때 겉면이 갈색으로 변하는 것은 새로운 물질이 생기는 화학 변화이다 → 중3 「화학 반응의 규칙성」</li>
+<li>오븐 속 열이 반죽으로 전달된다 → 중1 「열」</li>
+</ul>
+<p>한 가지 직업 속에 생명, 물질, 에너지 영역이 모두 들어 있다.</p>
+<h3 id="②-과학기술의-발달과-직업의-변화">② 과학기술의 발달과 직업의 변화</h3>
+<p>과학기술이 발달하면 직업은 세 가지 방식으로 변한다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>변화</th>
+<th>과거·현재의 사례</th>
+<th>이끈 과학기술</th>
+</tr>
+</thead><tbody><tr>
+<td><strong>사라지거나 줄어든 직업</strong></td>
+<td>전화 교환원, 활자를 하나하나 골라 짜던 식자공, 버스 안내원</td>
+<td>자동 전화 교환기, 컴퓨터 인쇄, 자동 요금 장치</td>
+</tr>
+<tr>
+<td><strong>하는 일이 바뀐 직업</strong></td>
+<td>농부(스마트팜으로 온도·습도를 원격 조절), 의사(인공지능의 영상 판독 도움), 기상 예보관(슈퍼컴퓨터 수치 예보 활용)</td>
+<td>사물인터넷, 인공지능, 빅데이터</td>
+</tr>
+<tr>
+<td><strong>새로 생긴 직업</strong></td>
+<td>앱 개발자, 데이터 과학자, 드론 조종사, 3D 프린팅 전문가, 유전 상담사</td>
+<td>스마트폰, 빅데이터, 드론, 3D 프린팅, 유전체 분석</td>
+</tr>
+</tbody></table></div>
+<h4 id="미래의-직업-변화를-이끌-과학기술">미래의 직업 변화를 이끌 과학기술</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>변화의 힘</th>
+<th>생겨나거나 커질 수 있는 일의 예</th>
+</tr>
+</thead><tbody><tr>
+<td>인공지능·로봇</td>
+<td>인공지능 학습 자료 관리, 로봇 유지·보수, 인공지능 윤리 검토</td>
+</tr>
+<tr>
+<td>생명공학</td>
+<td>맞춤형 의료, 줄기세포 치료, 새 품종 개발</td>
+</tr>
+<tr>
+<td>기후변화·에너지 전환</td>
+<td>탄소 배출 측정·관리, 신재생 에너지 설비 설계, 기후 위험 분석</td>
+</tr>
+<tr>
+<td>우주 개발</td>
+<td>인공위성 자료 분석, 우주 쓰레기 감시, 우주 탐사선 설계</td>
+</tr>
+<tr>
+<td>빅데이터·사물인터넷</td>
+<td>도시 데이터 분석(교통·에너지), 재난 예측 시스템 운영</td>
+</tr>
+</tbody></table></div>
+<p>일반적으로 <strong>규칙이 분명하고 반복적인 일</strong>은 기계와 인공지능이 대신하기 쉽고, <strong>공감과 소통, 새로운 상황에서의 판단과 창의성</strong>이 필요한 일은 사람의 역할이 계속 크다. 다만 기술이 발전하면 이 경계도 움직인다.</p>
+<aside class="callout important"><p class="callout-title">핵심</p><p>미래 예측은 <strong>틀릴 수 있다.</strong> 그래서 특정 직업 이름을 외우기보다, 어떤 직업이든 필요한 힘인 <strong>과학적으로 생각하는 능력, 자료를 해석하는 능력, 새로운 것을 배우는 능력, 다른 사람과 협력하는 능력</strong>을 기르는 것이 중요하다.</p>
+</aside>
+<h4 id="예제-2-자료로-직업-변화-읽기">예제 2 — 자료로 직업 변화 읽기</h4>
+<p>다음은 어느 가상 도시의 두 직업 종사자 수 자료이다. 10년 동안 각각 몇 % 변했는지 구하고, 그 까닭을 과학기술과 관련지어 추론하시오.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>직업</th>
+<th>10년 전</th>
+<th>현재</th>
+</tr>
+</thead><tbody><tr>
+<td>매표소 직원</td>
+<td>500명</td>
+<td>200명</td>
+</tr>
+<tr>
+<td>드론 관련 기술자</td>
+<td>40명</td>
+<td>160명</td>
+</tr>
+</tbody></table></div>
+<p><strong>풀이</strong></p>
+<ul>
+<li>매표소 직원: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">500</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">200</span><span class="mbin mtight">−</span><span class="mord mtight">500</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">100</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.0833em;"></span><span class="mord">−</span><span class="mord">60%</span></span></span></span> → 60 % 감소</li>
+<li>드론 관련 기술자: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">40</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">160</span><span class="mbin mtight">−</span><span class="mord mtight">40</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">100</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8056em;vertical-align:-0.0556em;"></span><span class="mord">300%</span></span></span></span> → 300 % 증가(4배)</li>
+</ul>
+<p>온라인 예매와 무인 발권기가 퍼지면서 매표 업무가 줄었고, 드론이 배송·촬영·농업·안전 점검에 쓰이면서 관련 기술자가 늘었다고 추론할 수 있다. (실제 원인을 확인하려면 다른 자료도 함께 조사해야 한다.)</p>
+<h3 id="③-나의-진로와-관련-있는-과학-분야-찾기">③ 나의 진로와 관련 있는 과학 분야 찾기</h3>
+<p>흥미가 있는 분야에서 출발하여 관련 과학 분야를 찾아보자. 과학과 거리가 멀어 보이는 진로도 과학과 연결되어 있다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>관심 분야</th>
+<th>관련 직업의 예</th>
+<th>특히 관련 깊은 과학 분야</th>
+</tr>
+</thead><tbody><tr>
+<td>의료·건강</td>
+<td>의사, 간호사, 물리 치료사</td>
+<td>생명과학, 화학</td>
+</tr>
+<tr>
+<td>게임·인공지능</td>
+<td>게임 개발자, 인공지능 개발자</td>
+<td>물리학(운동을 계산하는 물리 엔진), 과학의 기초와 사회</td>
+</tr>
+<tr>
+<td>건축·도시</td>
+<td>건축가, 토목 엔지니어</td>
+<td>물리학(힘의 평형), 지구과학(지반·기상)</td>
+</tr>
+<tr>
+<td>요리·식품</td>
+<td>요리사, 식품 연구원</td>
+<td>화학, 생명과학</td>
+</tr>
+<tr>
+<td>패션·뷰티</td>
+<td>섬유 디자이너, 화장품 연구원</td>
+<td>화학(섬유·색소·계면 활성제)</td>
+</tr>
+<tr>
+<td>예술·음악</td>
+<td>음향 기술자, 문화재 보존 과학자</td>
+<td>물리학(소리·빛), 화학(안료·재료)</td>
+</tr>
+<tr>
+<td>법·사회</td>
+<td>과학 수사관, 변리사, 환경 정책가</td>
+<td>생명과학(DNA 분석), 화학, 모든 영역</td>
+</tr>
+<tr>
+<td>환경·기후</td>
+<td>환경 공학자, 기후 분석가</td>
+<td>지구과학, 화학, 생명과학</td>
+</tr>
+</tbody></table></div>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 STEP 1의 준비 운동 Q1에서 적은 &#39;가장 재미있었던 단원&#39;의 영역을 위 표의 오른쪽 열과 비교해 보자. 내 흥미와 맞닿은 과학 분야가 보일 것이다. 진로가 아직 없어도 괜찮다. <strong>좋아하는 단원</strong>에서 출발해도 된다.</p>
+</aside>
+<h3 id="④-이-책의-지도-과목과-영역은-어떻게-이어질까">④ 이 책의 지도 — 과목과 영역은 어떻게 이어질까?</h3>
+<p>「한 권으로 잇는 과학」은 중학교 1학년부터 고등학교 진로 선택 과목까지를 한 권으로 잇는다. 2022 개정 교육과정의 과학 과목은 다음 순서로 깊어진다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg style="width:789px" id="mm-m3-08-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 789.328125 442" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-m3-08-1{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-m3-08-1 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-m3-08-1 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-m3-08-1 .error-icon{fill:var(--mm-group);}#mm-m3-08-1 .error-text{fill:#595959;stroke:#595959;}#mm-m3-08-1 .edge-thickness-normal{stroke-width:1px;}#mm-m3-08-1 .edge-thickness-thick{stroke-width:3.5px;}#mm-m3-08-1 .edge-pattern-solid{stroke-dasharray:0;}#mm-m3-08-1 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-m3-08-1 .edge-pattern-dashed{stroke-dasharray:3;}#mm-m3-08-1 .edge-pattern-dotted{stroke-dasharray:2;}#mm-m3-08-1 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-m3-08-1 .marker.cross{stroke:var(--mm-line);}#mm-m3-08-1 svg{font-family:inherit;font-size:15px;}#mm-m3-08-1 p{margin:0;}#mm-m3-08-1 .label{font-family:inherit;color:var(--mm-text);}#mm-m3-08-1 .cluster-label text{fill:#595959;}#mm-m3-08-1 .cluster-label span{color:#595959;}#mm-m3-08-1 .cluster-label span p{background-color:transparent;}#mm-m3-08-1 .label text,#mm-m3-08-1 span{fill:var(--mm-text);color:var(--mm-text);}#mm-m3-08-1 .node rect,#mm-m3-08-1 .node circle,#mm-m3-08-1 .node ellipse,#mm-m3-08-1 .node polygon,#mm-m3-08-1 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-m3-08-1 .rough-node .label text,#mm-m3-08-1 .node .label text,#mm-m3-08-1 .image-shape .label,#mm-m3-08-1 .icon-shape .label{text-anchor:middle;}#mm-m3-08-1 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-m3-08-1 .rough-node .label,#mm-m3-08-1 .node .label,#mm-m3-08-1 .image-shape .label,#mm-m3-08-1 .icon-shape .label{text-align:center;}#mm-m3-08-1 .node.clickable{cursor:pointer;}#mm-m3-08-1 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-m3-08-1 .arrowheadPath{fill:#0b0b0b;}#mm-m3-08-1 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-m3-08-1 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-m3-08-1 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-m3-08-1 .edgeLabel p{background-color:var(--mm-label);}#mm-m3-08-1 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-m3-08-1 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-m3-08-1 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-m3-08-1 .cluster text{fill:#595959;}#mm-m3-08-1 .cluster span{color:#595959;}#mm-m3-08-1 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-m3-08-1 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-m3-08-1 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-m3-08-1 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-m3-08-1 rect.text{fill:none;stroke-width:0;}#mm-m3-08-1 .icon-shape,#mm-m3-08-1 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-m3-08-1 .icon-shape p,#mm-m3-08-1 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-m3-08-1 .icon-shape .label rect,#mm-m3-08-1 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-m3-08-1 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-m3-08-1 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-m3-08-1 .node .neo-node{stroke:var(--mm-border);}#mm-m3-08-1 [data-look="neo"].node rect,#mm-m3-08-1 [data-look="neo"].cluster rect,#mm-m3-08-1 [data-look="neo"].node polygon{stroke:url(#mm-m3-08-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-m3-08-1 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-m3-08-1 [data-look="neo"].node path{stroke:url(#mm-m3-08-1-gradient);stroke-width:1px;}#mm-m3-08-1 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-m3-08-1 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-m3-08-1 [data-look="neo"].node circle{stroke:url(#mm-m3-08-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-m3-08-1 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-m3-08-1 [data-look="neo"].icon-shape .icon{fill:url(#mm-m3-08-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-m3-08-1 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-m3-08-1-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-m3-08-1 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-m3-08-1_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-08-1_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-08-1_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-08-1_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-08-1_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-08-1_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-08-1_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-08-1_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-08-1_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-08-1_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-08-1_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-m3-08-1_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M185.641,221L189.807,221C193.974,221,202.307,221,209.974,221C217.641,221,224.641,221,228.141,221L231.641,221" id="mm-m3-08-1-L_M_I_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_M_I_0" data-points="W3sieCI6MTg1LjY0MDYyNSwieSI6MjIxfSx7IngiOjIxMC42NDA2MjUsInkiOjIyMX0seyJ4IjoyMzUuNjQwNjI1LCJ5IjoyMjF9XQ==" data-look="classic" marker-end="url(#mm-m3-08-1_flowchart-v2-pointEnd)"/><path d="M345.686,186.5L360.902,162.5C376.119,138.5,406.552,90.5,426.518,66.5C446.484,42.5,455.984,42.5,460.734,42.5L465.484,42.5" id="mm-m3-08-1-L_I_P_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_I_P_0" data-points="W3sieCI6MzQ1LjY4NjA1NTY3MjI2ODk0LCJ5IjoxODYuNX0seyJ4Ijo0MzYuOTg0Mzc1LCJ5Ijo0Mi41fSx7IngiOjQ2OS40ODQzNzUsInkiOjQyLjV9XQ==" data-look="classic" marker-end="url(#mm-m3-08-1_flowchart-v2-pointEnd)"/><path d="M389.433,186.5L397.358,182.333C405.284,178.167,421.134,169.833,435.059,165.667C448.984,161.5,460.984,161.5,466.984,161.5L472.984,161.5" id="mm-m3-08-1-L_I_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_I_C_0" data-points="W3sieCI6Mzg5LjQzMzE2NzAxNjgwNjcsInkiOjE4Ni41fSx7IngiOjQzNi45ODQzNzUsInkiOjE2MS41fSx7IngiOjQ3Ni45ODQzNzUsInkiOjE2MS41fV0=" data-look="classic" marker-end="url(#mm-m3-08-1_flowchart-v2-pointEnd)"/><path d="M389.433,255.5L397.358,259.667C405.284,263.833,421.134,272.167,432.559,276.333C443.984,280.5,450.984,280.5,454.484,280.5L457.984,280.5" id="mm-m3-08-1-L_I_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_I_B_0" data-points="W3sieCI6Mzg5LjQzMzE2NzAxNjgwNjcsInkiOjI1NS41fSx7IngiOjQzNi45ODQzNzUsInkiOjI4MC41fSx7IngiOjQ2MS45ODQzNzUsInkiOjI4MC41fV0=" data-look="classic" marker-end="url(#mm-m3-08-1_flowchart-v2-pointEnd)"/><path d="M345.686,255.5L360.902,279.5C376.119,303.5,406.552,351.5,425.268,375.5C443.984,399.5,450.984,399.5,454.484,399.5L457.984,399.5" id="mm-m3-08-1-L_I_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_I_E_0" data-points="W3sieCI6MzQ1LjY4NjA1NTY3MjI2ODk0LCJ5IjoyNTUuNX0seyJ4Ijo0MzYuOTg0Mzc1LCJ5IjozOTkuNX0seyJ4Ijo0NjEuOTg0Mzc1LCJ5IjozOTkuNX1d" data-look="classic" marker-end="url(#mm-m3-08-1_flowchart-v2-pointEnd)"/><path d="M562.484,42.5L567.901,42.5C573.318,42.5,584.151,42.5,594.665,42.5C605.18,42.5,615.375,42.5,620.473,42.5L625.57,42.5" id="mm-m3-08-1-L_P_P2_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_P_P2_0" data-points="W3sieCI6NTYyLjQ4NDM3NSwieSI6NDIuNX0seyJ4Ijo1OTQuOTg0Mzc1LCJ5Ijo0Mi41fSx7IngiOjYyOS41NzAzMTI1LCJ5Ijo0Mi41fV0=" data-look="classic" marker-end="url(#mm-m3-08-1_flowchart-v2-pointEnd)"/><path d="M554.984,161.5L561.651,161.5C568.318,161.5,581.651,161.5,591.818,161.5C601.984,161.5,608.984,161.5,612.484,161.5L615.984,161.5" id="mm-m3-08-1-L_C_C2_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_C2_0" data-points="W3sieCI6NTU0Ljk4NDM3NSwieSI6MTYxLjV9LHsieCI6NTk0Ljk4NDM3NSwieSI6MTYxLjV9LHsieCI6NjE5Ljk4NDM3NSwieSI6MTYxLjV9XQ==" data-look="classic" marker-end="url(#mm-m3-08-1_flowchart-v2-pointEnd)"/><path d="M569.984,280.5L574.151,280.5C578.318,280.5,586.651,280.5,594.665,280.5C602.68,280.5,610.375,280.5,614.223,280.5L618.07,280.5" id="mm-m3-08-1-L_B_B2_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_B2_0" data-points="W3sieCI6NTY5Ljk4NDM3NSwieSI6MjgwLjV9LHsieCI6NTk0Ljk4NDM3NSwieSI6MjgwLjV9LHsieCI6NjIyLjA3MDMxMjUsInkiOjI4MC41fV0=" data-look="classic" marker-end="url(#mm-m3-08-1_flowchart-v2-pointEnd)"/><path d="M569.984,399.5L574.151,399.5C578.318,399.5,586.651,399.5,595.013,399.5C603.375,399.5,611.766,399.5,615.961,399.5L620.156,399.5" id="mm-m3-08-1-L_E_E2_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_E2_0" data-points="W3sieCI6NTY5Ljk4NDM3NSwieSI6Mzk5LjV9LHsieCI6NTk0Ljk4NDM3NSwieSI6Mzk5LjV9LHsieCI6NjI0LjE1NjI1LCJ5IjozOTkuNX1d" data-look="classic" marker-end="url(#mm-m3-08-1_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_M_I_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_I_P_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_I_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_I_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_I_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_P_P2_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_C2_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_B2_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_E2_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-m3-08-1-flowchart-M-0" data-look="classic" transform="translate(96.8203125, 221)"><rect class="basic label-container" style="" x="-88.8203125" y="-34.5" width="177.640625" height="69"/><g class="label" style="" transform="translate(-64.8203125, -22.5)"><rect/><foreignObject width="129.640625" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>중학교 과학<br />중1~중3, 23개 단원</p></span></div></foreignObject></g></g><g class="node default" id="mm-m3-08-1-flowchart-I-1" data-look="classic" transform="translate(323.8125, 221)"><rect class="basic label-container" style="" x="-88.171875" y="-34.5" width="176.34375" height="69"/><g class="label" style="" transform="translate(-64.171875, -22.5)"><rect/><foreignObject width="128.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>통합과학1·2<br />고등학교 공통 과목</p></span></div></foreignObject></g></g><g class="node default" id="mm-m3-08-1-flowchart-P-3" data-look="classic" transform="translate(515.984375, 42.5)"><rect class="basic label-container" style="" x="-46.5" y="-23.25" width="93" height="46.5"/><g class="label" style="" transform="translate(-22.5, -11.25)"><rect/><foreignObject width="45" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>물리학</p></span></div></foreignObject></g></g><g class="node default" id="mm-m3-08-1-flowchart-C-5" data-look="classic" transform="translate(515.984375, 161.5)"><rect class="basic label-container" style="" x="-39" y="-23.25" width="78" height="46.5"/><g class="label" style="" transform="translate(-15, -11.25)"><rect/><foreignObject width="30" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>화학</p></span></div></foreignObject></g></g><g class="node default" id="mm-m3-08-1-flowchart-B-7" data-look="classic" transform="translate(515.984375, 280.5)"><rect class="basic label-container" style="" x="-54" y="-23.25" width="108" height="46.5"/><g class="label" style="" transform="translate(-30, -11.25)"><rect/><foreignObject width="60" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>생명과학</p></span></div></foreignObject></g></g><g class="node default" id="mm-m3-08-1-flowchart-E-9" data-look="classic" transform="translate(515.984375, 399.5)"><rect class="basic label-container" style="" x="-54" y="-23.25" width="108" height="46.5"/><g class="label" style="" transform="translate(-30, -11.25)"><rect/><foreignObject width="60" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>지구과학</p></span></div></foreignObject></g></g><g class="node default" id="mm-m3-08-1-flowchart-P2-11" data-look="classic" transform="translate(700.65625, 42.5)"><rect class="basic label-container" style="" x="-71.0859375" y="-34.5" width="142.171875" height="69"/><g class="label" style="" transform="translate(-47.0859375, -22.5)"><rect/><foreignObject width="94.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>역학과 에너지<br />전자기와 양자</p></span></div></foreignObject></g></g><g class="node default" id="mm-m3-08-1-flowchart-C2-13" data-look="classic" transform="translate(700.65625, 161.5)"><rect class="basic label-container" style="" x="-80.671875" y="-34.5" width="161.34375" height="69"/><g class="label" style="" transform="translate(-56.671875, -22.5)"><rect/><foreignObject width="113.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>물질과 에너지<br />화학 반응의 세계</p></span></div></foreignObject></g></g><g class="node default" id="mm-m3-08-1-flowchart-B2-15" data-look="classic" transform="translate(700.65625, 280.5)"><rect class="basic label-container" style="" x="-78.5859375" y="-34.5" width="157.171875" height="69"/><g class="label" style="" transform="translate(-54.5859375, -22.5)"><rect/><foreignObject width="109.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>세포와 물질대사<br />생물의 유전</p></span></div></foreignObject></g></g><g class="node default" id="mm-m3-08-1-flowchart-E2-17" data-look="classic" transform="translate(700.65625, 399.5)"><rect class="basic label-container" style="" x="-76.5" y="-34.5" width="153" height="69"/><g class="label" style="" transform="translate(-52.5, -22.5)"><rect/><foreignObject width="105" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>지구시스템과학<br />행성우주과학</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-m3-08-1-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-m3-08-1-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-m3-08-1-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><div class="table-wrap"><table><thead><tr>
+<th>단계</th>
+<th>과목</th>
+<th>이 책에서 다루는 영역(단원)</th>
+</tr>
+</thead><tbody><tr>
+<td>중학교</td>
+<td>과학 (중1~중3)</td>
+<td>운동과 에너지, 물질, 생명, 지구와 우주, 과학의 기초와 사회의 23개 단원</td>
+</tr>
+<tr>
+<td>고등학교 공통</td>
+<td>통합과학1</td>
+<td>과학의 기초, 물질과 규칙성, 시스템과 상호작용</td>
+</tr>
+<tr>
+<td>고등학교 공통</td>
+<td>통합과학2</td>
+<td>변화와 다양성, 환경과 에너지, 과학과 미래 사회</td>
+</tr>
+<tr>
+<td>일반 선택</td>
+<td>물리학</td>
+<td>힘과 에너지, 전기와 자기, 빛과 물질</td>
+</tr>
+<tr>
+<td>일반 선택</td>
+<td>화학</td>
+<td>화학의 언어, 물질의 구조와 성질, 화학 평형, 역동적인 화학 반응</td>
+</tr>
+<tr>
+<td>일반 선택</td>
+<td>생명과학</td>
+<td>생명 시스템의 구성, 항상성과 몸의 조절, 생명의 연속성과 다양성</td>
+</tr>
+<tr>
+<td>일반 선택</td>
+<td>지구과학</td>
+<td>대기와 해양의 상호작용, 지구의 역사와 한반도의 암석, 태양계 천체와 별과 우주의 진화</td>
+</tr>
+<tr>
+<td>진로 선택</td>
+<td>역학과 에너지 / 전자기와 양자</td>
+<td>시공간과 운동, 열과 에너지, 탄성파와 소리 / 전자기적 상호작용, 빛과 정보 통신, 양자와 미시세계</td>
+</tr>
+<tr>
+<td>진로 선택</td>
+<td>물질과 에너지 / 화학 반응의 세계</td>
+<td>물질의 세 가지 상태, 용액의 성질, 화학 변화의 자발성, 반응 속도 / 산·염기 평형, 산화·환원 반응, 탄소 화합물과 반응</td>
+</tr>
+<tr>
+<td>진로 선택</td>
+<td>세포와 물질대사 / 생물의 유전</td>
+<td>세포, 물질대사와 에너지, 세포호흡과 광합성 / 유전자와 유전물질, 유전자의 발현, 생명공학기술</td>
+</tr>
+<tr>
+<td>진로 선택</td>
+<td>지구시스템과학 / 행성우주과학</td>
+<td>지구 탄생과 생동하는 지구, 해수의 운동, 강수 과정과 대기의 운동 / 우주탐사와 행성계, 태양과 별의 관측, 은하와 우주</td>
+</tr>
+</tbody></table></div>
+<aside class="callout note"><p class="callout-title">성취기준·참고</p><p>고등학교 과학에는 이 밖에도 공통 과목인 <strong>과학탐구실험1·2</strong>, 융합 선택 과목인 <strong>과학의 역사와 문화</strong>, <strong>기후변화와 환경생태</strong>, <strong>융합과학 탐구</strong>가 있다. 이 책은 개념이 이어지는 흐름을 따라가기 위해 위의 과목들을 담았다. 어떤 과목이 몇 학년에 개설되는지는 학교마다 다를 수 있다.</p>
+</aside>
+<h4 id="개념은-이렇게-이어진다-세-가지-39-개념-줄기-39">개념은 이렇게 이어진다 — 세 가지 &#39;개념 줄기&#39;</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>개념 줄기</th>
+<th>중학교</th>
+<th>통합과학</th>
+<th>일반 선택</th>
+<th>진로 선택</th>
+</tr>
+</thead><tbody><tr>
+<td>에너지</td>
+<td>「열」 → 「운동과 에너지」</td>
+<td>「태양 에너지와 에너지 전환」, 「에너지 효율과 신재생 에너지」</td>
+<td>물리학 「힘과 에너지」</td>
+<td>역학과 에너지 「열과 에너지」</td>
+</tr>
+<tr>
+<td>유전</td>
+<td>「생식과 유전」</td>
+<td>「유전자와 단백질」</td>
+<td>생명과학 「생명의 연속성과 다양성」</td>
+<td>생물의 유전 「유전자와 유전물질」</td>
+</tr>
+<tr>
+<td>고체 지구</td>
+<td>「지권의 변화」</td>
+<td>「판구조론과 지권의 변화」</td>
+<td>지구과학 「지구의 역사와 한반도의 암석」</td>
+<td>지구시스템과학 「지구 탄생과 생동하는 지구」</td>
+</tr>
+</tbody></table></div>
+<p>이 책의 모든 단원은 STEP 1에서 앞 단계를, STEP 5에서 다음 단계를 가리킨다. 궁금한 개념이 생기면 이 줄기를 따라 앞뒤 단원을 펼쳐 보자.</p>
+<h3 id="⑤-진로-선택을-위한-과학-학습-계획-세우기">⑤ 진로 선택을 위한 과학 학습 계획 세우기</h3>
+<p>학습 계획은 다음 다섯 단계로 세운다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>단계</th>
+<th>할 일</th>
+<th>예</th>
+</tr>
+</thead><tbody><tr>
+<td>1. 나 이해하기</td>
+<td><strong>흥미</strong>(무엇이 즐거운가), <strong>적성</strong>(무엇을 잘하는가), <strong>가치</strong>(일에서 무엇이 중요한가)를 적는다</td>
+<td>&quot;생물 관찰을 좋아하고, 다른 사람을 돕고 싶다&quot;</td>
+</tr>
+<tr>
+<td>2. 직업 탐색하기</td>
+<td>관심 직업 2~3개의 하는 일과 필요한 과학을 조사한다</td>
+<td>간호사, 수의사, 임상병리사</td>
+</tr>
+<tr>
+<td>3. 관련 과학 분야 찾기</td>
+<td>직업에 필요한 분야와 이 책의 단원을 연결한다</td>
+<td>생명과학, 화학 → 「자극과 반응」, 「생식과 유전」</td>
+</tr>
+<tr>
+<td>4. 과목·활동 계획하기</td>
+<td>고등학교에서 들을 과목과 탐구·동아리 활동을 정한다</td>
+<td>통합과학 → 생명과학·화학 → 세포와 물질대사</td>
+</tr>
+<tr>
+<td>5. 점검하고 고치기</td>
+<td>한 학기마다 계획을 돌아보고 바꾼다</td>
+<td>&quot;실험보다 사람 만나는 일이 더 좋다는 걸 알았다&quot;</td>
+</tr>
+</tbody></table></div>
+<h4 id="예제-3-학습-계획-세워-보기">예제 3 — 학습 계획 세워 보기</h4>
+<p>기상 예보관이 되고 싶은 학생이 있다. 이 학생에게 필요한 과학 분야와, 이 책에서 특히 주의 깊게 공부할 단원을 중학교·통합과학·선택 과목 순서로 제안하시오.</p>
+<p><strong>풀이</strong></p>
+<ul>
+<li>필요한 분야: 지구과학(대기와 해양), 물리학(열, 유체의 운동), 자료 분석(빅데이터)</li>
+<li>중학교: 「날씨와 기후변화」, 「수권과 해수의 순환」, 「열」, 「재해·재난과 안전」</li>
+<li>통합과학: 「지구시스템의 구성과 상호작용」, 「지구온난화와 기후변화」, 「빅데이터와 과학기술사회」</li>
+<li>일반 선택: 지구과학 「대기와 해양의 상호작용」, 물리학 「힘과 에너지」</li>
+<li>진로 선택: 지구시스템과학 「해수의 운동」, 「강수 과정과 대기의 운동」, 역학과 에너지 「열과 에너지」</li>
+<li>활동: 학교 기상 관측 동아리, 공공 기상 자료를 이용한 탐구 보고서 쓰기</li>
+</ul>
+<aside class="callout warning"><p class="callout-title">주의</p><p>대학의 학과마다 고등학교에서 공부하기를 권하는 과목이 다르고, 그 안내는 해마다 바뀔 수 있다. 계획을 세울 때는 <strong>관심 대학·학과의 최신 안내 자료</strong>를 직접 확인하자.</p>
+</aside>
+<hr>
+<h2 id="step-4" class="step-h s4"><span class="step-badge s4">STEP 4</span><span class="h-text">오개념 바로잡기</span></h2>
+<div class="table-wrap"><table><thead><tr>
+<th>흔한 오개념</th>
+<th>올바른 개념</th>
+<th>왜 그럴까?</th>
+</tr>
+</thead><tbody><tr>
+<td>과학 관련 직업은 과학자와 연구원뿐이다</td>
+<td>의료, 공학, 농업, 예술, 법, 교육 등 <strong>매우 많은 직업</strong>에서 과학을 쓴다</td>
+<td>제빵사·소방관·운동선수의 일에도 과학 원리가 숨어 있다</td>
+</tr>
+<tr>
+<td>인공지능이 모든 직업을 없앨 것이다</td>
+<td>일부 업무는 대체되지만, <strong>직업이 바뀌거나 새로 생기기도</strong> 한다</td>
+<td>과거에도 기술 변화로 사라진 직업만큼 새로운 직업이 생겨났다</td>
+</tr>
+<tr>
+<td>과학을 좋아하지 않으면 과학 공부는 필요 없다</td>
+<td>시민으로서 <strong>과학적으로 판단하는 능력</strong>은 누구에게나 필요하다</td>
+<td>감염병, 기후변화, 재난 같은 사회 문제를 판단하려면 과학 소양이 필요하다</td>
+</tr>
+<tr>
+<td>진로는 한 번 정하면 바꿀 수 없다</td>
+<td>진로는 <strong>경험에 따라 계속 다듬어 가는 것</strong>이다</td>
+<td>학습 계획은 점검하고 고치는 단계가 포함된 순환 과정이다</td>
+</tr>
+<tr>
+<td>한 과목만 잘하면 그 분야 직업을 얻는다</td>
+<td>대부분의 직업은 <strong>여러 분야를 함께</strong> 쓴다</td>
+<td>의사는 생명과학뿐 아니라 화학·물리(영상 장비)도 쓴다</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-5" class="step-h s5"><span class="step-badge s5">STEP 5</span><span class="h-text">다음 단계로 한 걸음 더</span></h2>
+<aside class="callout caution"><p class="callout-title">심화 · 평가 범위 밖</p><p>이 절은 <strong>중학교 교육과정 범위 밖의 심화 내용</strong>으로 평가 대상이 아니다. &quot;이 개념이 앞으로 어디까지 이어지는가&quot;를 맛보기로 보여 주기 위한 내용이다.</p>
+</aside>
+<h3 id="다음-학년-과목과의-연결">다음 학년·과목과의 연결</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>단계</th>
+<th>단원</th>
+<th>이어지는 내용</th>
+</tr>
+</thead><tbody><tr>
+<td>통합과학1</td>
+<td>「시간과 공간」</td>
+<td>고등학교 과학의 출발점. 원자에서 우주까지의 규모와 측정</td>
+</tr>
+<tr>
+<td>통합과학2</td>
+<td>「빅데이터와 과학기술사회」</td>
+<td>빅데이터가 과학기술사회에서 쓰이는 사례와 장점·문제점</td>
+</tr>
+<tr>
+<td>통합과학2</td>
+<td>「인공지능 로봇과 사물인터넷」</td>
+<td>첨단 과학기술이 인간 삶에 주는 유용성과 한계 예측</td>
+</tr>
+<tr>
+<td>통합과학2</td>
+<td>「과학기술과 윤리」</td>
+<td>과학 관련 사회적 쟁점과 과학 윤리</td>
+</tr>
+<tr>
+<td>일반·진로 선택</td>
+<td>물리학·화학·생명과학·지구과학과 진로 선택 8과목</td>
+<td>STEP 3 ④의 지도에 따라 관심 분야를 깊이 공부한다</td>
+</tr>
+</tbody></table></div>
+<h3 id="①-대학의-전공-계열과-과학">① 대학의 전공 계열과 과학</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>대학 전공 계열</th>
+<th>학과의 예</th>
+<th>특히 관련 깊은 고등학교 과학</th>
+</tr>
+</thead><tbody><tr>
+<td>자연과학</td>
+<td>물리학과, 화학과, 생명과학과, 지구과학 관련 학과</td>
+<td>해당 분야의 일반 선택·진로 선택 과목</td>
+</tr>
+<tr>
+<td>공학</td>
+<td>기계·전기전자·화학공학·건축·컴퓨터공학</td>
+<td>물리학, 화학, 역학과 에너지, 전자기와 양자</td>
+</tr>
+<tr>
+<td>의약·보건</td>
+<td>의학, 약학, 간호학, 수의학</td>
+<td>생명과학, 화학, 세포와 물질대사, 생물의 유전</td>
+</tr>
+<tr>
+<td>농생명·환경</td>
+<td>농학, 식품공학, 환경공학</td>
+<td>생명과학, 화학, 지구과학</td>
+</tr>
+<tr>
+<td>융합</td>
+<td>인지과학, 생명정보학, 과학기술정책</td>
+<td>여러 과학 분야 + 정보·사회</td>
+</tr>
+</tbody></table></div>
+<h3 id="②-융합이-새로운-분야를-만든다">② 융합이 새로운 분야를 만든다</h3>
+<p><strong>생명정보학</strong>은 생명과학과 컴퓨터 과학이, <strong>기후 과학</strong>은 지구과학·물리학·화학·생명과학이, <strong>신소재 공학</strong>은 물리학과 화학이 만나 생긴 분야이다. 미래에는 한 분야의 지식뿐 아니라 <strong>여러 분야를 연결하는 능력</strong>이 더 중요해질 것이다. 이 책이 단원마다 &#39;개념 연결&#39;을 강조하는 이유이기도 하다.</p>
+<h3 id="지금-vs-다음-단계">지금 vs 다음 단계</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>중학교 (지금)</th>
+<th>고등학교</th>
+</tr>
+</thead><tbody><tr>
+<td>과목</td>
+<td>모든 학생이 같은 &#39;과학&#39;을 배운다</td>
+<td>공통 과목 후 진로에 따라 과목을 고른다</td>
+</tr>
+<tr>
+<td>내용</td>
+<td>다섯 영역의 기본 개념</td>
+<td>분야별로 깊어지고, 정량적 분석이 늘어난다</td>
+</tr>
+<tr>
+<td>탐구</td>
+<td>교사가 안내하는 탐구 활동</td>
+<td>스스로 주제를 정하는 탐구와 보고서</td>
+</tr>
+<tr>
+<td>진로</td>
+<td>직업 탐색과 흥미 발견</td>
+<td>과목 선택과 전공 탐색</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-6" class="step-h s6"><span class="step-badge s6">STEP 6</span><span class="h-text">생활·산업·진로 연결</span></h2>
+<h3 id="사례-1-스마트팜-농업과-과학기술이-만나다">사례 1. 스마트팜 — 농업과 과학기술이 만나다</h3>
+<ul>
+<li><strong>원리</strong> 센서로 온도·습도·빛·이산화 탄소 농도를 측정하고, 자동으로 창문·조명·물 공급을 조절한다. 중2 「식물과 에너지」에서 배운 &#39;광합성에 영향을 주는 환경 요인&#39;을 최적으로 맞추는 기술이다.</li>
+<li><strong>직업의 변화</strong> 농부의 일이 &#39;경험에 의존하는 일&#39;에서 &#39;자료를 분석하고 시스템을 관리하는 일&#39;로 바뀌고 있다.</li>
+</ul>
+<h3 id="사례-2-과학-커뮤니케이터-과학을-알리는-사람">사례 2. 과학 커뮤니케이터 — 과학을 알리는 사람</h3>
+<ul>
+<li>과학관 해설사, 과학 기자, 과학 유튜버, 과학 도서 작가는 어려운 과학을 쉽게 풀어 시민에게 전한다. 감염병 유행이나 재난 상황에서 정확한 과학 정보를 전하는 일은 특히 중요하다.</li>
+<li>필요한 능력: 정확한 과학 지식 + 글쓰기·말하기 + 자료의 출처를 확인하는 습관</li>
+</ul>
+<h3 id="사례-3-과학-수사와-탄소-중립-과학이-넓히는-직업의-경계">사례 3. 과학 수사와 탄소 중립 — 과학이 넓히는 직업의 경계</h3>
+<ul>
+<li>범죄 현장의 혈흔·머리카락을 분석하는 과학 수사는 「생식과 유전」에서 배운 &#39;DNA가 사람마다 다르다&#39;는 사실을 바탕으로 한다.</li>
+<li>기후변화에 대응하여 온실 기체 배출량을 측정·관리하고, 태양광·풍력 설비를 설계·관리하는 일이 늘어나고 있다.</li>
+</ul>
+<h3 id="관련-진로와-학과">관련 진로와 학과</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>진로</th>
+<th>하는 일</th>
+<th>관련 학과</th>
+</tr>
+</thead><tbody><tr>
+<td>스마트팜 전문가</td>
+<td>재배 환경 자동 제어 시스템 운영</td>
+<td>농학, 원예학, 바이오시스템공학</td>
+</tr>
+<tr>
+<td>과학 커뮤니케이터</td>
+<td>과학 정보를 시민에게 전달</td>
+<td>과학 계열 학과, 언론정보학, 과학교육</td>
+</tr>
+<tr>
+<td>과학 수사관</td>
+<td>증거물의 화학·DNA 분석</td>
+<td>화학, 생명과학, 법과학</td>
+</tr>
+<tr>
+<td>데이터 과학자</td>
+<td>대량의 자료 분석과 예측 모형 개발</td>
+<td>통계학, 컴퓨터공학, 산업공학</td>
+</tr>
+<tr>
+<td>신재생 에너지 기술자</td>
+<td>발전 설비 설계·관리</td>
+<td>전기공학, 에너지공학, 기계공학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="탐구-활동">탐구 활동</h2>
+<h3 id="활동-a-다양한-직업-속-과학-탐색하기">활동 A. 다양한 직업 속 과학 탐색하기</h3>
+<p><strong>목표</strong> 과학과 관련 없어 보이는 직업까지 포함하여, 직업 속에서 쓰이는 과학 원리를 조사한다.</p>
+<p><strong>과정</strong></p>
+<ol>
+<li>모둠별로 서로 다른 갈래의 직업 3개를 고른다. 그중 1개는 &#39;과학과 관련 없어 보이는 직업&#39;으로 한다(예: 미용사, 화가, 요리사).</li>
+<li>공공 진로 정보 누리집, 책, 직업인 인터뷰로 하는 일을 조사한다.</li>
+<li>그 일에 쓰이는 과학 원리를 찾아 이 책의 단원과 연결한다.</li>
+<li>모둠별로 발표하고, 가장 의외였던 &#39;직업 속 과학&#39;을 뽑는다.</li>
+</ol>
+<p><strong>결과 기록</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>직업</th>
+<th>하는 일</th>
+<th>쓰이는 과학 원리</th>
+<th>연결되는 단원</th>
+<th>정보 출처</th>
+</tr>
+</thead><tbody><tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<aside class="callout warning"><p class="callout-title">주의</p><p><strong>유의 사항</strong> 직업인 인터뷰를 할 때는 미리 허락을 받고, 상대의 개인 정보(연락처, 소득 등)를 발표 자료에 넣지 않는다.</p>
+</aside>
+<h3 id="활동-b-미래-사회에서-과학의-역할과-새로운-과학-직업-토의하기">활동 B. 미래 사회에서 과학의 역할과 새로운 과학 직업 토의하기</h3>
+<p><strong>목표</strong> 과학기술의 발달로 생길 수 있는 새로운 직업을 상상하고, 그 근거를 토의한다.</p>
+<p><strong>과정</strong></p>
+<ol>
+<li>STEP 3 ②의 &#39;변화의 힘&#39; 중 하나를 고른다.</li>
+<li>그 기술이 20년 뒤 어떤 문제를 해결하거나 새로 만들지 토의한다.</li>
+<li>그 상황에서 필요한 &#39;새로운 직업&#39;을 하나 만들어 <strong>직업 카드</strong>로 정리한다.</li>
+</ol>
+<div class="table-wrap"><table><thead><tr>
+<th>직업 카드 항목</th>
+<th>내용</th>
+</tr>
+</thead><tbody><tr>
+<td>직업 이름</td>
+<td></td>
+</tr>
+<tr>
+<td>하는 일</td>
+<td></td>
+</tr>
+<tr>
+<td>필요한 과학 지식 (이 책의 단원)</td>
+<td></td>
+</tr>
+<tr>
+<td>이 직업이 생길 것이라고 생각한 근거</td>
+<td></td>
+</tr>
+<tr>
+<td>생길 수 있는 윤리적 문제</td>
+<td></td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="개념-확인-문제">개념 확인 문제</h2>
+<h3 id="기본">기본</h3>
+<p><strong>1.</strong> 과학, 기술, 공학의 차이를 &#39;스마트폰 카메라&#39;를 예로 들어 각각 한 문장으로 쓰시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong> 과학: 빛이 렌즈를 지나며 꺾이는 원리를 밝힌다. 기술: 렌즈와 이미지 센서로 상을 맺고 기록하는 방법을 만든다. 공학: 작고 가벼운 스마트폰 안에 선명한 카메라를 넣도록 설계한다.</p>
+</div></details>
+
+<p><strong>2.</strong> 과학기술의 발달로 생긴 직업의 변화 중 &#39;새로 생긴 직업&#39;의 예를 두 가지 쓰고, 각각을 이끈 과학기술을 쓰시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong> 데이터 과학자 – 빅데이터, 드론 조종사 – 드론, 앱 개발자 – 스마트폰, 유전 상담사 – 유전체 분석 등</p>
+</div></details>
+
+<p><strong>3.</strong> 이 책의 다섯 영역을 모두 쓰시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 운동과 에너지, 물질, 생명, 지구와 우주, 과학의 기초와 사회</p>
+</div></details>
+
+<p><strong>4.</strong> 통합과학을 배운 뒤 &#39;생물의 유전&#39;을 깊이 공부하고 싶은 학생이 그 전에 배우면 좋은 일반 선택 과목은 무엇인가?</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 생명과학</p>
+<p>진로 선택 과목 &#39;생물의 유전&#39;은 일반 선택 과목 &#39;생명과학&#39;에서 배운 내용을 바탕으로 깊이 들어간다.</p>
+</div></details>
+
+<h3 id="응용">응용</h3>
+<p><strong>5.</strong> 다음 업무 중 인공지능과 로봇이 대신하기 <strong>어려운</strong> 것을 고르고, 그 까닭을 쓰시오.
+① 정해진 경로로 물건 운반하기 ② 같은 모양의 제품 불량 검사하기 ③ 갈등이 생긴 두 모둠의 의견을 듣고 조정하기 ④ 정해진 양식에 자료 입력하기</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답 ③</strong></p>
+<p>①, ②, ④는 규칙이 분명하고 반복적인 일이다. ③은 상대의 감정을 이해하고 상황에 맞게 판단하는 공감과 소통이 필요해 사람의 역할이 크다.</p>
+</div></details>
+
+<p><strong>6.</strong> 어느 가상 지역의 &#39;스마트팜 관리자&#39;가 5년 전 25명에서 현재 100명이 되었다. 증가율(%)을 구하고, 이런 변화가 생긴 까닭을 과학기술과 관련지어 한 가지 추론하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 300 % 증가</p>
+<p><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">25</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">100</span><span class="mbin mtight">−</span><span class="mord mtight">25</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">100</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8056em;vertical-align:-0.0556em;"></span><span class="mord">300%</span></span></span></span>. 까닭의 예: 센서와 사물인터넷 기술이 발달하여 온도·습도·빛을 자동으로 조절하는 스마트팜이 늘었기 때문이다.</p>
+</div></details>
+
+<p><strong>7.</strong> 문화재 보존 과학자는 오래된 그림과 유물이 훼손되지 않도록 보존·복원한다. 이 직업과 관련된 과학 분야를 두 가지 고르고, 어떻게 쓰이는지 설명하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong></p>
+<ul>
+<li>화학: 안료와 재료의 성분을 분석하고, 녹·곰팡이 같은 변질을 막는 물질을 고른다.</li>
+<li>물리학: 빛(엑스선, 적외선 등)을 이용해 겉으로 보이지 않는 밑그림이나 내부 구조를 조사한다.</li>
+<li>(생명과학: 유물을 훼손하는 곰팡이·벌레를 연구한다. 지구과학: 석조 문화재의 암석과 풍화를 연구한다.)</li>
+</ul>
+</div></details>
+
+<h3 id="융합-서술형">융합·서술형</h3>
+<p><strong>8. [학습 계획]</strong> 자신이 관심 있는 직업 하나를 정하고(정하지 못했다면 가장 재미있었던 과학 단원에서 출발한다), STEP 3 ⑤의 다섯 단계에 따라 고등학교까지의 과학 학습 계획을 세우시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안 (게임 개발자)</strong></p>
+<ol>
+<li>나 이해하기: 게임을 좋아하고, 무언가를 만들고 문제를 푸는 것을 잘한다.</li>
+<li>직업 탐색: 게임 개발자는 게임 속 물체의 움직임과 화면을 프로그램으로 만든다.</li>
+<li>관련 분야: 물리학(물체의 운동, 충돌, 빛) → 「힘의 작용」, 「운동과 에너지」, 「빛과 파동」</li>
+<li>과목·활동: 통합과학(「중력과 운동」, 「운동량과 충격량」) → 물리학 → 역학과 에너지, 정보 동아리에서 간단한 물리 시뮬레이션 만들기</li>
+<li>점검: 학기마다 활동 기록을 보고 흥미가 그대로인지 확인한다.</li>
+</ol>
+<p><strong>채점 포인트</strong> ① 다섯 단계를 모두 포함 ② 직업과 과학 분야·단원의 연결이 타당함 ③ 점검 계획이 있음</p>
+</div></details>
+
+<p><strong>9. [토의]</strong> &quot;인공지능이 발달하면 과학을 배울 필요가 없어진다. 궁금한 것은 인공지능에게 물어보면 되기 때문이다.&quot;라는 주장에 대해 자신의 의견을 근거를 들어 서술하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+이 주장에 반대한다. 첫째, 인공지능의 답이 항상 옳은 것은 아니므로, 그 답이 과학적으로 타당한지 판단하려면 과학 지식과 과학적 사고가 필요하다. 둘째, 감염병·기후변화·재난처럼 사회가 결정해야 하는 문제에서 시민이 근거를 비교하고 판단하려면 과학 소양이 필요하다. 셋째, 새로운 질문을 떠올리고 탐구를 설계하는 일은 원리를 이해한 사람이 더 잘할 수 있다. 따라서 인공지능은 과학 학습을 돕는 도구이지, 과학 학습을 대신하는 것이 아니다.</p>
+<p><strong>채점 포인트</strong> ① 분명한 입장 ② 인공지능 답의 검증 필요성 ③ 시민으로서의 과학 소양 또는 창의적 탐구 능력 중 한 가지 이상</p>
+</div></details>
+
+<hr>
+<h2 id="한눈에-정리">한눈에 정리</h2>
+<h3 id="핵심-요약">핵심 요약</h3>
+<ul>
+<li>과학은 &#39;왜&#39;를 묻고, 기술은 &#39;어떻게 쓸지&#39;를, 공학은 &#39;가장 좋은 해결책&#39;을 설계한다.</li>
+<li>과학 지식은 연구직뿐 아니라 공학, 의료, 농업, 환경, 예술, 법, 교육 등 <strong>많은 직업</strong>에서 쓰인다.</li>
+<li>과학기술이 발달하면 직업은 <strong>사라지거나, 하는 일이 바뀌거나, 새로 생긴다.</strong></li>
+<li>규칙적·반복적인 일은 자동화되기 쉽고, 공감·소통·창의적 판단이 필요한 일은 사람의 역할이 크다.</li>
+<li>미래 예측은 불확실하므로 과학적 사고, 자료 해석, 배우는 능력, 협력하는 능력이 중요하다.</li>
+<li>이 책은 <strong>중학교 과학 → 통합과학1·2 → 일반 선택 4과목 → 진로 선택 8과목</strong>으로 이어지며, 다섯 영역의 개념 줄기를 따라간다.</li>
+<li>과학 학습 계획은 <strong>나 이해하기 → 직업 탐색 → 관련 분야 찾기 → 과목·활동 계획 → 점검하고 고치기</strong>의 순환으로 세운다.</li>
+</ul>
+<h3 id="핵심-용어">핵심 용어</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>용어</th>
+<th>뜻</th>
+</tr>
+</thead><tbody><tr>
+<td>과학</td>
+<td>자연 현상의 원리를 탐구하여 밝히는 활동과 그 지식</td>
+</tr>
+<tr>
+<td>기술</td>
+<td>과학 지식을 실제로 쓰는 방법</td>
+</tr>
+<tr>
+<td>공학</td>
+<td>주어진 조건에서 최선의 해결책을 설계하고 만드는 활동</td>
+</tr>
+<tr>
+<td>흥미</td>
+<td>어떤 일에 관심이 가고 즐거움을 느끼는 마음</td>
+</tr>
+<tr>
+<td>적성</td>
+<td>어떤 일을 잘할 수 있는 소질</td>
+</tr>
+<tr>
+<td>자동화</td>
+<td>사람이 하던 일을 기계나 프로그램이 스스로 하게 하는 것</td>
+</tr>
+<tr>
+<td>통합과학</td>
+<td>고등학교 공통 과목. 과학의 여러 분야를 통합적으로 다룬다</td>
+</tr>
+<tr>
+<td>일반 선택 과목</td>
+<td>물리학, 화학, 생명과학, 지구과학처럼 분야의 기본 개념을 다루는 선택 과목</td>
+</tr>
+<tr>
+<td>진로 선택 과목</td>
+<td>역학과 에너지, 생물의 유전처럼 분야를 깊이 다루는 선택 과목</td>
+</tr>
+<tr>
+<td>융합</td>
+<td>여러 분야의 지식을 연결하여 새로운 지식이나 분야를 만드는 것</td>
+</tr>
+</tbody></table></div>
+<h3 id="다음-단원으로">다음 단원으로</h3>
+<p>이것으로 중학교 과학의 여정이 끝났다. 다음은 고등학교 통합과학1의 첫 단원 「시간과 공간」이다. 원자처럼 작은 세계부터 우주처럼 큰 세계까지, 자연을 &#39;시간과 공간&#39;이라는 하나의 눈으로 기술하는 방법에서 고등학교 과학을 시작한다. 이 단원에서 세운 학습 계획을 책갈피 삼아, 개념 줄기를 따라 한 단계씩 올라가 보자.</p>
+<nav class="pager"><a class="prev" href="m3-07.html"><small>이전 단원 · 중3</small>재해·재난과 안전</a><a class="next" href="1-1.html"><small>다음 단원 · 통합과학1</small>시간과 공간</a></nav></article></div>
+</main>
+</div>
+</body>
+</html>

@@ -1,0 +1,818 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>재해·재난과 안전 · 중3</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css">
+<link rel="stylesheet" href="assets/book.css">
+<script src="assets/js/book.js" defer></script>
+
+</head>
+<body class="">
+<header class="topbar">
+  <button class="menu-btn" id="menu-btn" aria-controls="drawer" aria-expanded="false">목차</button>
+  <a class="brand" href="index.html">한 권으로 잇는 과학</a>
+  <button class="theme-btn" id="theme-btn" aria-label="밝은 화면과 어두운 화면 바꾸기">화면</button>
+</header>
+<div class="shell">
+<aside class="drawer" id="drawer"><nav class="book-nav" aria-label="교재 목차"><a class="nav-home" href="index.html">처음으로 · 전체 목차</a><input class="nav-filter" id="nav-filter" type="search" placeholder="단원 이름으로 찾기" aria-label="단원 이름으로 찾기" autocomplete="off"><p class="nav-group">중학교 과학</p><details class="nav-part"><summary>1학년<span class="nav-count">7</span></summary><ul><li><a href="m1-01.html"><span class="nav-id">중1-1</span>과학과 인류의 지속가능한 삶</a></li><li><a href="m1-02.html"><span class="nav-id">중1-2</span>생물의 구성과 다양성</a></li><li><a href="m1-03.html"><span class="nav-id">중1-3</span>열</a></li><li><a href="m1-04.html"><span class="nav-id">중1-4</span>물질의 상태 변화</a></li><li><a href="m1-05.html"><span class="nav-id">중1-5</span>힘의 작용</a></li><li><a href="m1-06.html"><span class="nav-id">중1-6</span>기체의 성질</a></li><li><a href="m1-07.html"><span class="nav-id">중1-7</span>태양계</a></li></ul></details><details class="nav-part"><summary>2학년<span class="nav-count">8</span></summary><ul><li><a href="m2-01.html"><span class="nav-id">중2-1</span>물질의 특성</a></li><li><a href="m2-02.html"><span class="nav-id">중2-2</span>지권의 변화</a></li><li><a href="m2-03.html"><span class="nav-id">중2-3</span>빛과 파동</a></li><li><a href="m2-04.html"><span class="nav-id">중2-4</span>물질의 구성</a></li><li><a href="m2-05.html"><span class="nav-id">중2-5</span>식물과 에너지</a></li><li><a href="m2-06.html"><span class="nav-id">중2-6</span>동물과 에너지</a></li><li><a href="m2-07.html"><span class="nav-id">중2-7</span>전기와 자기</a></li><li><a href="m2-08.html"><span class="nav-id">중2-8</span>별과 우주</a></li></ul></details><details class="nav-part" open><summary>3학년<span class="nav-count">8</span></summary><ul><li><a href="m3-01.html"><span class="nav-id">중3-1</span>화학 반응의 규칙성</a></li><li><a href="m3-02.html"><span class="nav-id">중3-2</span>날씨와 기후변화</a></li><li><a href="m3-03.html"><span class="nav-id">중3-3</span>수권과 해수의 순환</a></li><li><a href="m3-04.html"><span class="nav-id">중3-4</span>운동과 에너지</a></li><li><a href="m3-05.html"><span class="nav-id">중3-5</span>자극과 반응</a></li><li><a href="m3-06.html"><span class="nav-id">중3-6</span>생식과 유전</a></li><li><a href="m3-07.html" aria-current="page"><span class="nav-id">중3-7</span>재해·재난과 안전</a></li><li><a href="m3-08.html"><span class="nav-id">중3-8</span>과학과 나의 미래</a></li></ul></details><p class="nav-group">고등학교 공통 과목</p><details class="nav-part"><summary>통합과학1<span class="nav-count">16</span></summary><p class="nav-unit">1단원 과학의 기초</p><ul><li><a href="1-1.html"><span class="nav-id">1-1</span>시간과 공간</a></li><li><a href="1-2.html"><span class="nav-id">1-2</span>기본량과 단위</a></li><li><a href="1-3.html"><span class="nav-id">1-3</span>측정과 어림, 측정 표준</a></li><li><a href="1-4.html"><span class="nav-id">1-4</span>정보와 신호: 아날로그에서 디지털로</a></li></ul><p class="nav-unit">2단원 물질과 규칙성</p><ul><li><a href="2-1.html"><span class="nav-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="2-2.html"><span class="nav-id">2-2</span>별의 진화와 원소의 생성</a></li><li><a href="2-3.html"><span class="nav-id">2-3</span>원소의 주기성과 화학 결합의 이유</a></li><li><a href="2-4.html"><span class="nav-id">2-4</span>이온 결합과 공유 결합</a></li><li><a href="2-5.html"><span class="nav-id">2-5</span>지각과 생명체 구성 물질의 규칙성</a></li><li><a href="2-6.html"><span class="nav-id">2-6</span>물질의 전기적 성질과 소재</a></li></ul><p class="nav-unit">3단원 시스템과 상호작용</p><ul><li><a href="3-1.html"><span class="nav-id">3-1</span>지구시스템의 구성과 상호작용</a></li><li><a href="3-2.html"><span class="nav-id">3-2</span>판구조론과 지권의 변화</a></li><li><a href="3-3.html"><span class="nav-id">3-3</span>중력과 운동</a></li><li><a href="3-4.html"><span class="nav-id">3-4</span>운동량과 충격량</a></li><li><a href="3-5.html"><span class="nav-id">3-5</span>생명 시스템과 물질대사</a></li><li><a href="3-6.html"><span class="nav-id">3-6</span>유전자와 단백질</a></li></ul></details><details class="nav-part"><summary>통합과학2<span class="nav-count">15</span></summary><p class="nav-unit">4단원 변화와 다양성</p><ul><li><a href="4-1.html"><span class="nav-id">4-1</span>지질시대의 환경 변화와 생물다양성</a></li><li><a href="4-2.html"><span class="nav-id">4-2</span>진화와 생물다양성</a></li><li><a href="4-3.html"><span class="nav-id">4-3</span>산화와 환원</a></li><li><a href="4-4.html"><span class="nav-id">4-4</span>산과 염기, 중화 반응</a></li><li><a href="4-5.html"><span class="nav-id">4-5</span>물질 변화와 에너지 출입</a></li></ul><p class="nav-unit">5단원 환경과 에너지</p><ul><li><a href="5-1.html"><span class="nav-id">5-1</span>생태계 구성 요소와 상호 관계</a></li><li><a href="5-2.html"><span class="nav-id">5-2</span>생태계 평형</a></li><li><a href="5-3.html"><span class="nav-id">5-3</span>지구온난화와 기후변화</a></li><li><a href="5-4.html"><span class="nav-id">5-4</span>태양 에너지와 에너지 전환</a></li><li><a href="5-5.html"><span class="nav-id">5-5</span>발전기와 전기 에너지</a></li><li><a href="5-6.html"><span class="nav-id">5-6</span>에너지 효율과 신재생 에너지</a></li></ul><p class="nav-unit">6단원 과학과 미래 사회</p><ul><li><a href="6-1.html"><span class="nav-id">6-1</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html"><span class="nav-id">6-2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html"><span class="nav-id">6-3</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html"><span class="nav-id">6-4</span>과학기술과 윤리</a></li></ul></details><p class="nav-group">고등학교 일반 선택</p><details class="nav-part"><summary>물리학<span class="nav-count">3</span></summary><ul><li><a href="phy-1.html"><span class="nav-id">물리학 1</span>힘과 에너지</a></li><li><a href="phy-2.html"><span class="nav-id">물리학 2</span>전기와 자기</a></li><li><a href="phy-3.html"><span class="nav-id">물리학 3</span>빛과 물질</a></li></ul></details><details class="nav-part"><summary>화학<span class="nav-count">4</span></summary><ul><li><a href="chem-1.html"><span class="nav-id">화학 1</span>화학의 언어</a></li><li><a href="chem-2.html"><span class="nav-id">화학 2</span>물질의 구조와 성질</a></li><li><a href="chem-3.html"><span class="nav-id">화학 3</span>화학 평형</a></li><li><a href="chem-4.html"><span class="nav-id">화학 4</span>역동적인 화학 반응</a></li></ul></details><details class="nav-part"><summary>생명과학<span class="nav-count">3</span></summary><ul><li><a href="bio-1.html"><span class="nav-id">생명과학 1</span>생명 시스템의 구성</a></li><li><a href="bio-2.html"><span class="nav-id">생명과학 2</span>항상성과 몸의 조절</a></li><li><a href="bio-3.html"><span class="nav-id">생명과학 3</span>생명의 연속성과 다양성</a></li></ul></details><details class="nav-part"><summary>지구과학<span class="nav-count">3</span></summary><ul><li><a href="earth-1.html"><span class="nav-id">지구과학 1</span>대기와 해양의 상호작용</a></li><li><a href="earth-2.html"><span class="nav-id">지구과학 2</span>지구의 역사와 한반도의 암석</a></li><li><a href="earth-3.html"><span class="nav-id">지구과학 3</span>태양계 천체와 별과 우주의 진화</a></li></ul></details><p class="nav-group">고등학교 진로 선택</p><details class="nav-part"><summary>역학과 에너지<span class="nav-count">2</span></summary><ul><li><a href="mech-1.html"><span class="nav-id">역학과 에너지 1</span>시공간과 운동</a></li><li><a href="mech-2.html"><span class="nav-id">역학과 에너지 2</span>열과 에너지</a></li></ul></details><details class="nav-part"><summary>전자기와 양자<span class="nav-count">3</span></summary><ul><li><a href="emq-1.html"><span class="nav-id">전자기와 양자 1</span>전자기적 상호작용</a></li><li><a href="emq-2.html"><span class="nav-id">전자기와 양자 2</span>빛과 정보 통신</a></li><li><a href="emq-3.html"><span class="nav-id">전자기와 양자 3</span>양자와 미시세계</a></li></ul></details><details class="nav-part"><summary>물질과 에너지<span class="nav-count">3</span></summary><ul><li><a href="matter-1.html"><span class="nav-id">물질과 에너지 1</span>물질의 세 가지 상태</a></li><li><a href="matter-2.html"><span class="nav-id">물질과 에너지 2</span>용액의 성질</a></li><li><a href="matter-3.html"><span class="nav-id">물질과 에너지 3</span>화학 변화의 자발성</a></li></ul></details><details class="nav-part"><summary>화학 반응의 세계<span class="nav-count">3</span></summary><ul><li><a href="rxn-1.html"><span class="nav-id">화학 반응의 세계 1</span>산·염기 평형</a></li><li><a href="rxn-2.html"><span class="nav-id">화학 반응의 세계 2</span>산화·환원 반응</a></li><li><a href="rxn-3.html"><span class="nav-id">화학 반응의 세계 3</span>탄소 화합물과 반응</a></li></ul></details><details class="nav-part"><summary>세포와 물질대사<span class="nav-count">3</span></summary><ul><li><a href="cell-1.html"><span class="nav-id">세포와 물질대사 1</span>세포</a></li><li><a href="cell-2.html"><span class="nav-id">세포와 물질대사 2</span>물질대사와 에너지</a></li><li><a href="cell-3.html"><span class="nav-id">세포와 물질대사 3</span>세포호흡과 광합성</a></li></ul></details><details class="nav-part"><summary>생물의 유전<span class="nav-count">3</span></summary><ul><li><a href="gene-1.html"><span class="nav-id">생물의 유전 1</span>유전자와 유전물질</a></li><li><a href="gene-2.html"><span class="nav-id">생물의 유전 2</span>유전자의 발현</a></li><li><a href="gene-3.html"><span class="nav-id">생물의 유전 3</span>생명공학기술</a></li></ul></details><details class="nav-part"><summary>지구시스템과학<span class="nav-count">2</span></summary><ul><li><a href="esys-1.html"><span class="nav-id">지구시스템과학 1</span>지구 탄생과 생동하는 지구</a></li><li><a href="esys-2.html"><span class="nav-id">지구시스템과학 2</span>해수의 운동</a></li></ul></details><details class="nav-part"><summary>행성우주과학<span class="nav-count">2</span></summary><ul><li><a href="astro-1.html"><span class="nav-id">행성우주과학 1</span>우주탐사와 행성계</a></li><li><a href="astro-2.html"><span class="nav-id">행성우주과학 2</span>태양과 별의 관측</a></li></ul></details><p class="nav-group">찾아보기</p><ul class="nav-extra"><li><a href="map.html">개념 연계 지도</a></li><li><a href="glossary.html">핵심 용어 사전</a></li><li><a href="sims.html">시뮬레이션 모아 보기</a></li><li><a href="guide.html">교재 설계 안내</a></li><li><a href="appendix-standards.html">통합과학 성취기준 원문</a></li><li><a href="appendix-map.html">통합과학 대학·산업 연계 지도</a></li></ul></nav></aside>
+<main class="main" id="main">
+<div class="lesson-grid"><nav class="ladder" aria-label="이 단원의 흐름"><p class="ladder-title">이 단원의 흐름</p><ol><li class="extra"><a href="#단원-들어가기">단원 들어가기</a></li><li class="s1"><a href="#step-1"><b>STEP 1</b> 이전 학습 다시 보기</a></li><li class="s2"><a href="#step-2"><b>STEP 2</b> 기초 다지기</a></li><li class="s3"><a href="#step-3"><b>STEP 3</b> 핵심 개념</a></li><li class="s4"><a href="#step-4"><b>STEP 4</b> 오개념 바로잡기</a></li><li class="s5"><a href="#step-5"><b>STEP 5</b> 다음 단계로 한 걸음 더</a></li><li class="s6"><a href="#step-6"><b>STEP 6</b> 생활·산업·진로 연결</a></li><li class="extra"><a href="#탐구-활동">탐구 활동</a></li><li class="extra"><a href="#개념-확인-문제">개념 확인 문제</a></li><li class="extra"><a href="#한눈에-정리">한눈에 정리</a></li></ol></nav><article class="prose lesson"><header class="lesson-hero st-society">
+  <p class="eyebrow">중학교 과학 · 3학년</p>
+  <h1><span class="lesson-id">중3-7</span>재해·재난과 안전</h1>
+  <p class="lesson-sub">과학으로 위험을 읽고 대비하기</p>
+</header><section class="links-panel" aria-label="개념 연결">
+  <div class="lp-col"><p class="lp-title">먼저 배운 내용</p><ul><li><a href="m1-01.html"><span class="lp-where">중1</span>과학과 인류의 지속가능한 삶</a></li><li><a href="m2-02.html"><span class="lp-where">중2</span>지권의 변화</a></li><li><a href="m3-02.html"><span class="lp-where">중3</span>날씨와 기후변화</a></li><li><a href="m3-04.html"><span class="lp-where">중3</span>운동과 에너지</a></li></ul></div>
+  <div class="lp-now"><span>지금</span><b>재해·재난과 안전</b></div>
+  <div class="lp-col"><p class="lp-title">이어지는 내용</p><ul><li><a href="m3-08.html"><span class="lp-where">중3</span>과학과 나의 미래</a></li><li><a href="3-2.html"><span class="lp-where">통합과학1</span>판구조론과 지권의 변화</a></li><li><a href="3-4.html"><span class="lp-where">통합과학1</span>운동량과 충격량</a></li><li><a href="5-3.html"><span class="lp-where">통합과학2</span>지구온난화와 기후변화</a></li><li><a href="6-1.html"><span class="lp-where">통합과학2</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html"><span class="lp-where">통합과학2</span>빅데이터와 과학기술사회</a></li><li><a href="6-4.html"><span class="lp-where">통합과학2</span>과학기술과 윤리</a></li><li><a href="earth-1.html"><span class="lp-where">지구과학</span>대기와 해양의 상호작용</a></li><li><a href="astro-1.html"><span class="lp-where">행성우주과학</span>우주탐사와 행성계</a></li></ul></div>
+</section><!-- prev: m1-01, m2-02, m3-02, m3-04 -->
+<!-- next: 3-2, 3-4, 6-1, 6-2, earth-1, astro-1 -->
+
+<aside class="callout note"><p class="callout-title">성취기준·참고</p><p><strong>성취기준</strong></p>
+<ul>
+<li><strong>[9과22-01]</strong> 재해·재난 사례와 관련된 자료를 조사하고, 그 발생 원인과 피해에 대해 과학적으로 분석할 수 있다.</li>
+<li><strong>[9과22-02]</strong> 과학적 원리를 이용하여 재해·재난에 대한 대비 및 대처 방안을 세울 수 있다.</li>
+</ul>
+</aside>
+<p><strong>학습 목표</strong></p>
+<ol>
+<li>재해·재난을 자연 재난과 사회 재난으로 나누고, 각각의 예를 들 수 있다.</li>
+<li>지진, 기상재해, 감염병 확산, 화학물질 유출, 운송 수단 사고의 발생 원인을 지금까지 배운 과학 개념으로 설명할 수 있다.</li>
+<li>피해의 크기를 키우는 요인을 자료(그래프·표·지도)에서 찾아 분석할 수 있다.</li>
+<li>사전 예방·대비와 사후 대응·복구를 모두 고려하여, 과학적 원리에 근거한 대비 및 대처 방안을 세울 수 있다.</li>
+</ol>
+<p><strong>이 단원의 학습 사다리</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>단계</th>
+<th>무엇을 하나?</th>
+</tr>
+</thead><tbody><tr>
+<td>STEP 1. 이전 학습 다시 보기</td>
+<td>판의 경계, 기압과 전선, 운동 에너지 등 이미 배운 개념을 &#39;재난의 눈&#39;으로 다시 본다</td>
+</tr>
+<tr>
+<td>STEP 2. 기초 다지기</td>
+<td>재해·재난의 분류, 피해를 정하는 세 요소, 2배씩 늘어나는 수</td>
+</tr>
+<tr>
+<td>STEP 3. 핵심 개념</td>
+<td>분석의 틀 → 지진·화산 → 기상재해 → 사회 재난 → 대비와 대처</td>
+</tr>
+<tr>
+<td>STEP 4. 오개념 바로잡기</td>
+<td>&quot;지진이 나면 바로 밖으로 뛰어나간다?&quot; 같은 착각을 바로잡는다</td>
+</tr>
+<tr>
+<td>STEP 5. 다음 단계로</td>
+<td>판구조론, 충격량, 감염병 진단, 빅데이터, 태풍, 우주 위험 감시</td>
+</tr>
+<tr>
+<td>STEP 6. 생활·산업·진로</td>
+<td>지진 조기 경보, 날씨 예보, 방재 공학, 역학 조사</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="단원-들어가기">단원 들어가기</h2>
+<p>2017년 11월 15일, 경상북도 포항에서 규모 5.4의 지진이 일어났다. 다음 날로 예정되어 있던 대학수학능력시험이 일주일 미뤄졌다. 그보다 1년 전인 2016년 9월에는 경주에서 규모 5.8의 지진이 일어났는데, 이는 우리나라에서 지진을 기계로 관측하기 시작한 이래 가장 큰 지진이었다. &quot;우리나라는 지진 안전지대&quot;라는 생각이 흔들린 순간이었다.</p>
+<p>재해·재난은 지진처럼 자연에서 오기도 하고, 감염병 확산이나 화학물질 유출처럼 사람의 활동과 함께 오기도 한다. 그런데 같은 세기의 지진이라도 어떤 곳은 큰 피해를 입고 어떤 곳은 피해가 적다. 무엇이 그 차이를 만들까? 이 단원에서는 재해·재난을 <strong>과학적으로 분석</strong>하고, 과학의 원리로 <strong>피해를 줄이는 방법</strong>을 설계해 본다.</p>
+<figure class="diagram" role="img"><div class="diagram-scroll"><svg style="width:434px" id="mm-m3-07-0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" viewBox="0 0 433.6875 464.5" role="graphics-document document" aria-roledescription="flowchart-v2"><style>#mm-m3-07-0{font-family:inherit;font-size:15px;fill:var(--mm-text);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mm-m3-07-0 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mm-m3-07-0 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mm-m3-07-0 .error-icon{fill:var(--mm-group);}#mm-m3-07-0 .error-text{fill:#595959;stroke:#595959;}#mm-m3-07-0 .edge-thickness-normal{stroke-width:1px;}#mm-m3-07-0 .edge-thickness-thick{stroke-width:3.5px;}#mm-m3-07-0 .edge-pattern-solid{stroke-dasharray:0;}#mm-m3-07-0 .edge-thickness-invisible{stroke-width:0;fill:none;}#mm-m3-07-0 .edge-pattern-dashed{stroke-dasharray:3;}#mm-m3-07-0 .edge-pattern-dotted{stroke-dasharray:2;}#mm-m3-07-0 .marker{fill:var(--mm-line);stroke:var(--mm-line);}#mm-m3-07-0 .marker.cross{stroke:var(--mm-line);}#mm-m3-07-0 svg{font-family:inherit;font-size:15px;}#mm-m3-07-0 p{margin:0;}#mm-m3-07-0 .label{font-family:inherit;color:var(--mm-text);}#mm-m3-07-0 .cluster-label text{fill:#595959;}#mm-m3-07-0 .cluster-label span{color:#595959;}#mm-m3-07-0 .cluster-label span p{background-color:transparent;}#mm-m3-07-0 .label text,#mm-m3-07-0 span{fill:var(--mm-text);color:var(--mm-text);}#mm-m3-07-0 .node rect,#mm-m3-07-0 .node circle,#mm-m3-07-0 .node ellipse,#mm-m3-07-0 .node polygon,#mm-m3-07-0 .node path{fill:var(--mm-node);stroke:var(--mm-border);stroke-width:1px;}#mm-m3-07-0 .rough-node .label text,#mm-m3-07-0 .node .label text,#mm-m3-07-0 .image-shape .label,#mm-m3-07-0 .icon-shape .label{text-anchor:middle;}#mm-m3-07-0 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mm-m3-07-0 .rough-node .label,#mm-m3-07-0 .node .label,#mm-m3-07-0 .image-shape .label,#mm-m3-07-0 .icon-shape .label{text-align:center;}#mm-m3-07-0 .node.clickable{cursor:pointer;}#mm-m3-07-0 .root .anchor path{fill:var(--mm-line)!important;stroke-width:0;stroke:var(--mm-line);}#mm-m3-07-0 .arrowheadPath{fill:#0b0b0b;}#mm-m3-07-0 .edgePaths .path{stroke:var(--mm-line);stroke-width:1px;}#mm-m3-07-0 .flowchart-link{stroke:var(--mm-line);fill:none;}#mm-m3-07-0 .edgeLabel{background-color:var(--mm-label);text-align:center;}#mm-m3-07-0 .edgeLabel p{background-color:var(--mm-label);}#mm-m3-07-0 .edgeLabel rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-m3-07-0 .labelBkg{background-color:rgba(167, 167, 167, 0.5);}#mm-m3-07-0 .cluster rect{fill:var(--mm-group);stroke:hsl(0, 0%, 55.0980392157%);stroke-width:1px;}#mm-m3-07-0 .cluster text{fill:#595959;}#mm-m3-07-0 .cluster span{color:#595959;}#mm-m3-07-0 .node .collapsed-indicator{fill:hsl(0, 0%, 55.0980392157%);stroke:none;opacity:0.6;}#mm-m3-07-0 .node .collapsed-separator{stroke:hsl(0, 0%, 55.0980392157%);stroke-width:0.75px;}#mm-m3-07-0 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:var(--mm-group);border:1px solid hsl(0, 0%, 55.0980392157%);border-radius:2px;pointer-events:none;z-index:100;}#mm-m3-07-0 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--mm-text);}#mm-m3-07-0 rect.text{fill:none;stroke-width:0;}#mm-m3-07-0 .icon-shape,#mm-m3-07-0 .image-shape{background-color:var(--mm-label);text-align:center;}#mm-m3-07-0 .icon-shape p,#mm-m3-07-0 .image-shape p{background-color:var(--mm-label);padding:2px;}#mm-m3-07-0 .icon-shape .label rect,#mm-m3-07-0 .image-shape .label rect{opacity:0.5;background-color:var(--mm-label);fill:var(--mm-label);}#mm-m3-07-0 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mm-m3-07-0 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mm-m3-07-0 .node .neo-node{stroke:var(--mm-border);}#mm-m3-07-0 [data-look="neo"].node rect,#mm-m3-07-0 [data-look="neo"].cluster rect,#mm-m3-07-0 [data-look="neo"].node polygon{stroke:url(#mm-m3-07-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-m3-07-0 [data-look="neo"].swimlane.cluster rect{filter:none;}#mm-m3-07-0 [data-look="neo"].node path{stroke:url(#mm-m3-07-0-gradient);stroke-width:1px;}#mm-m3-07-0 [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-m3-07-0 [data-look="neo"].node .neo-line path{stroke:var(--mm-border);filter:none;}#mm-m3-07-0 [data-look="neo"].node circle{stroke:url(#mm-m3-07-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-m3-07-0 [data-look="neo"].node circle .state-start{fill:#000000;}#mm-m3-07-0 [data-look="neo"].icon-shape .icon{fill:url(#mm-m3-07-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-m3-07-0 [data-look="neo"].icon-shape .icon-neo path{stroke:url(#mm-m3-07-0-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#mm-m3-07-0 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="mm-m3-07-0_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-07-0_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-07-0_flowchart-v2-pointEnd-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="11.5" refY="7" markerUnits="userSpaceOnUse" markerWidth="10.5" markerHeight="14" orient="auto"><path d="M 0 0 L 11.5 7 L 0 14 z" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-07-0_flowchart-v2-pointStart-margin" class="marker flowchart-v2" viewBox="0 0 11.5 14" refX="1" refY="7" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="14" orient="auto"><polygon points="0,7 11.5,14 11.5,0" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-07-0_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-07-0_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-07-0_flowchart-v2-circleEnd-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refY="5" refX="12.25" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-07-0_flowchart-v2-circleStart-margin" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-2" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 0; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-07-0_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-07-0_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mm-m3-07-0_flowchart-v2-crossEnd-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="17.7" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5;"/></marker><marker id="mm-m3-07-0_flowchart-v2-crossStart-margin" class="marker cross flowchart-v2" viewBox="0 0 15 15" refX="-3.5" refY="7.5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 1,1 L 14,14 M 1,14 L 14,1" class="arrowMarkerPath" style="stroke-width: 2.5; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"/><g class="edgePaths"><path d="M145.299,77L137.111,81.167C128.923,85.333,112.547,93.667,104.36,101.333C96.172,109,96.172,116,96.172,119.5L96.172,123" id="mm-m3-07-0-L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6MTQ1LjI5ODcxMzIzNTI5NDEyLCJ5Ijo3N30seyJ4Ijo5Ni4xNzE4NzUsInkiOjEwMn0seyJ4Ijo5Ni4xNzE4NzUsInkiOjEyN31d" data-look="classic" marker-end="url(#mm-m3-07-0_flowchart-v2-pointEnd)"/><path d="M280.889,77L289.077,81.167C297.264,85.333,313.64,93.667,321.828,101.333C330.016,109,330.016,116,330.016,119.5L330.016,123" id="mm-m3-07-0-L_A_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_C_0" data-points="W3sieCI6MjgwLjg4ODc4Njc2NDcwNTg2LCJ5Ijo3N30seyJ4IjozMzAuMDE1NjI1LCJ5IjoxMDJ9LHsieCI6MzMwLjAxNTYyNSwieSI6MTI3fV0=" data-look="classic" marker-end="url(#mm-m3-07-0_flowchart-v2-pointEnd)"/><path d="M96.172,196L96.172,200.167C96.172,204.333,96.172,212.667,103.766,220.698C111.359,228.729,126.546,236.457,134.14,240.322L141.734,244.186" id="mm-m3-07-0-L_B_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_D_0" data-points="W3sieCI6OTYuMTcxODc1LCJ5IjoxOTZ9LHsieCI6OTYuMTcxODc1LCJ5IjoyMjF9LHsieCI6MTQ1LjI5ODcxMzIzNTI5NDEyLCJ5IjoyNDZ9XQ==" data-look="classic" marker-end="url(#mm-m3-07-0_flowchart-v2-pointEnd)"/><path d="M330.016,196L330.016,200.167C330.016,204.333,330.016,212.667,322.422,220.698C314.828,228.729,299.641,236.457,292.047,240.322L284.454,244.186" id="mm-m3-07-0-L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6MzMwLjAxNTYyNSwieSI6MTk2fSx7IngiOjMzMC4wMTU2MjUsInkiOjIyMX0seyJ4IjoyODAuODg4Nzg2NzY0NzA1ODYsInkiOjI0Nn1d" data-look="classic" marker-end="url(#mm-m3-07-0_flowchart-v2-pointEnd)"/><path d="M194.4,315L191.126,321.042C187.853,327.083,181.305,339.167,180.988,350.664C180.67,362.161,186.582,373.072,189.538,378.528L192.494,383.983" id="mm-m3-07-0-L_D_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_E_0" data-points="W3sieCI6MTk0LjM5OTkwMDYxODM3NDU1LCJ5IjozMTV9LHsieCI6MTc0Ljc1NzgxMjUsInkiOjM1MS4yNX0seyJ4IjoxOTQuMzk5OTAwNjE4Mzc0NTUsInkiOjM4Ny41fV0=" data-look="classic" marker-end="url(#mm-m3-07-0_flowchart-v2-pointEnd)"/><path d="M231.788,387.5L235.061,381.458C238.335,375.417,244.882,363.333,245.2,351.836C245.518,340.339,239.605,329.428,236.649,323.972L233.693,318.517" id="mm-m3-07-0-L_E_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_D_0" data-points="W3sieCI6MjMxLjc4NzU5OTM4MTYyNTQ1LCJ5IjozODcuNX0seyJ4IjoyNTEuNDI5Njg3NSwieSI6MzUxLjI1fSx7IngiOjIzMS43ODc1OTkzODE2MjU0NSwieSI6MzE1fV0=" data-look="classic" marker-end="url(#mm-m3-07-0_flowchart-v2-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_A_C_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_E_0" transform="translate(0, 0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(251.4296875, 351.25)"><g class="label" data-id="L_E_D_0" transform="translate(-56.671875, -11.25)"><foreignObject width="113.34375" height="22.5"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"><p>교훈을 다시 반영</p></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="mm-m3-07-0-flowchart-A-0" data-look="classic" transform="translate(213.09375, 42.5)"><rect class="basic label-container" style="" x="-73.5859375" y="-34.5" width="147.171875" height="69"/><g class="label" style="" transform="translate(-49.5859375, -22.5)"><rect/><foreignObject width="99.171875" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>재해·재난 사례<br />자료 조사</p></span></div></foreignObject></g></g><g class="node default" id="mm-m3-07-0-flowchart-B-1" data-look="classic" transform="translate(96.171875, 161.5)"><rect class="basic label-container" style="" x="-88.171875" y="-34.5" width="176.34375" height="69"/><g class="label" style="" transform="translate(-64.171875, -22.5)"><rect/><foreignObject width="128.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>발생 원인<br />과학 개념으로 설명</p></span></div></foreignObject></g></g><g class="node default" id="mm-m3-07-0-flowchart-C-3" data-look="classic" transform="translate(330.015625, 161.5)"><rect class="basic label-container" style="" x="-95.671875" y="-34.5" width="191.34375" height="69"/><g class="label" style="" transform="translate(-71.671875, -22.5)"><rect/><foreignObject width="143.34375" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>피해 분석<br />무엇이 피해를 키웠나</p></span></div></foreignObject></g></g><g class="node default" id="mm-m3-07-0-flowchart-D-5" data-look="classic" transform="translate(213.09375, 280.5)"><rect class="basic label-container" style="" x="-74" y="-34.5" width="148" height="69"/><g class="label" style="" transform="translate(-50, -22.5)"><rect/><foreignObject width="100" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>사전 예방·대비<br />예측·설계·훈련</p></span></div></foreignObject></g></g><g class="node default" id="mm-m3-07-0-flowchart-E-9" data-look="classic" transform="translate(213.09375, 422)"><rect class="basic label-container" style="" x="-74" y="-34.5" width="148" height="69"/><g class="label" style="" transform="translate(-50, -22.5)"><rect/><foreignObject width="100" height="45"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>사후 대응·복구<br />대피·구조·재건</p></span></div></foreignObject></g></g></g></g></g><defs><filter id="mm-m3-07-0-drop-shadow" height="130%" width="130%"><feDropShadow dx="4" dy="4" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><defs><filter id="mm-m3-07-0-drop-shadow-small" height="150%" width="150%"><feDropShadow dx="2" dy="2" stdDeviation="0" flood-opacity="0.06" flood-color="#000000"/></filter></defs><linearGradient id="mm-m3-07-0-gradient" gradientUnits="objectBoundingBox" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--mm-border)" stop-opacity="1"/><stop offset="100%" stop-color="hsl(0, 0%, 54.7058823529%)" stop-opacity="1"/></linearGradient></svg></div></figure><hr>
+<h2 id="step-1" class="step-h s1"><span class="step-badge s1">STEP 1</span><span class="h-text">이전 학습 다시 보기</span></h2>
+<h3 id="연계-개념표">연계 개념표</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>이전 단원·성취기준</th>
+<th>그때 배운 것</th>
+<th>이 단원에서 확장되는 것</th>
+</tr>
+</thead><tbody><tr>
+<td>초등 3~4학년 「기후변화와 우리 생활」</td>
+<td>기후변화로 폭염·가뭄·홍수가 잦아진다</td>
+<td>기상재해의 원인을 대기의 과학으로 분석한다</td>
+</tr>
+<tr>
+<td>초등 5~6학년 「자원과 에너지」</td>
+<td>에너지와 자원을 아끼고 안전하게 써야 한다</td>
+<td>화학물질·에너지 시설의 사고와 안전 관리</td>
+</tr>
+<tr>
+<td>중1 「과학과 인류의 지속가능한 삶」 [9과01-01]</td>
+<td>문제 인식 → 가설 → 탐구 → 결론의 과학적 탐구 방법</td>
+<td>재해·재난 자료를 조사하고 원인을 분석하는 데 탐구 방법을 쓴다</td>
+</tr>
+<tr>
+<td>중2 「지권의 변화」 [9과09-05]</td>
+<td>지진과 화산은 <strong>판의 경계</strong>를 따라 많이 발생한다</td>
+<td>지진·화산 피해가 어디서, 왜 큰지 분석한다</td>
+</tr>
+<tr>
+<td>중3 「날씨와 기후변화」 [9과17-03], [9과17-04]</td>
+<td>수증기가 응결하며 구름과 비가 생긴다. 저기압·전선 주변에서 날씨가 궂다</td>
+<td>태풍·집중호우의 에너지와 발생 조건을 설명한다</td>
+</tr>
+<tr>
+<td>중3 「운동과 에너지」 [9과19-03]</td>
+<td>운동 에너지는 질량과 속력의 제곱에 비례한다</td>
+<td>과속이 운송 수단 사고의 피해를 크게 키우는 이유</td>
+</tr>
+</tbody></table></div>
+<h3 id="준비-운동-사전-진단">준비 운동 (사전 진단)</h3>
+<p><strong>Q1.</strong> 지진과 화산 활동이 자주 일어나는 지역은 지도에서 어떤 모양으로 분포하는가?</p>
+<p><strong>Q2.</strong> 태풍은 고기압일까, 저기압일까?</p>
+<p><strong>Q3.</strong> 자동차의 속력이 2배가 되면 운동 에너지는 몇 배가 되는가?</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>Q1.</strong> 띠 모양으로 분포한다. 대부분 <strong>판의 경계</strong>와 일치한다. 예를 들어 태평양 가장자리를 따라 지진과 화산이 많은 &#39;불의 고리&#39;가 있다.</p>
+<p><strong>Q2. 저기압</strong> — 태풍은 중심 기압이 매우 낮은 열대 저기압이다. 중심으로 공기가 모여 상승하며 두꺼운 구름과 많은 비를 만든다.</p>
+<p><strong>Q3. 4배</strong> — 운동 에너지는 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord mathnormal">m</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span>이므로 속력의 제곱에 비례한다.</p>
+</div></details>
+
+<hr>
+<h2 id="step-2" class="step-h s2"><span class="step-badge s2">STEP 2</span><span class="h-text">기초 다지기</span></h2>
+<h3 id="①-재해와-재난-그리고-두-갈래">① 재해와 재난, 그리고 두 갈래</h3>
+<ul>
+<li><strong>재난(disaster)</strong>: 사람의 생명·몸·재산과 사회에 피해를 주거나 줄 수 있는 것</li>
+<li><strong>재해</strong>: 재난으로 생긴 피해</li>
+</ul>
+<p>우리나라는 재난을 크게 두 갈래로 나눈다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>뜻</th>
+<th>예</th>
+</tr>
+</thead><tbody><tr>
+<td><strong>자연 재난</strong></td>
+<td>자연 현상으로 생기는 재난</td>
+<td>지진, 화산, 태풍, 호우, 폭염, 한파, 가뭄, 대설</td>
+</tr>
+<tr>
+<td><strong>사회 재난</strong></td>
+<td>사람의 활동이나 사회 시스템과 관련된 재난</td>
+<td>감염병 확산, 화학물질 유출, 화재, 교통사고·운송 수단 사고</td>
+</tr>
+</tbody></table></div>
+<aside class="callout note"><p class="callout-title">성취기준·참고</p><p>둘의 경계가 늘 뚜렷한 것은 아니다. 폭우(자연)에 배수 시설 부족(사회)이 겹쳐 도시가 침수되는 것처럼, 실제 재난은 자연과 사회의 요인이 함께 작용하는 경우가 많다.</p>
+</aside>
+<h3 id="②-피해의-크기를-정하는-세-가지-요소">② 피해의 크기를 정하는 세 가지 요소</h3>
+<p>같은 지진이 사막 한가운데서 일어나면 피해가 거의 없지만, 큰 도시 밑에서 일어나면 피해가 크다. 피해의 크기는 다음 세 가지에 달려 있다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>요소</th>
+<th>뜻</th>
+<th>지진의 예</th>
+</tr>
+</thead><tbody><tr>
+<td><strong>위험 요인의 세기</strong></td>
+<td>현상 자체가 얼마나 강한가</td>
+<td>지진의 규모, 진원의 깊이</td>
+</tr>
+<tr>
+<td><strong>노출</strong></td>
+<td>그 현상이 닿는 곳에 얼마나 많은 사람·시설이 있는가</td>
+<td>진앙 주변의 인구와 건물 수</td>
+</tr>
+<tr>
+<td><strong>취약성</strong></td>
+<td>피해를 견디는 힘이 얼마나 약한가</td>
+<td>내진 설계가 안 된 건물, 대피 훈련 부족</td>
+</tr>
+</tbody></table></div>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 비가 와도(위험 요인) 밖에 나가지 않거나(노출 줄이기) 우산을 쓰면(취약성 줄이기) 젖지 않는다. 비는 막을 수 없어도 <strong>젖는 정도는 줄일 수 있다.</strong> 재난 대비의 핵심이 여기에 있다.</p>
+</aside>
+<h3 id="③-2배씩-늘어나는-수">③ 2배씩 늘어나는 수</h3>
+<p>1이 2배씩 늘어나면 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024 …가 된다. 10번만 2배가 되어도 약 1000배가 된다. 처음에는 느려 보이다가 어느 순간 폭발적으로 커지는 이런 변화는 감염병 확산을 이해하는 데 꼭 필요하다.</p>
+<h3 id="④-자료를-비교하는-습관">④ 자료를 비교하는 습관</h3>
+<p>재난 정보는 누리망, 신문, 방송, 공공 기관 자료 등 여러 곳에서 얻을 수 있다. 한 가지 자료만 보면 편향된 결론을 내리기 쉽다. <strong>출처가 분명한가, 언제 만든 자료인가, 다른 자료와 일치하는가</strong>를 확인하는 습관을 들이자.</p>
+<hr>
+<h2 id="step-3" class="step-h s3"><span class="step-badge s3">STEP 3</span><span class="h-text">핵심 개념</span></h2>
+<h3 id="①-재해-재난을-과학적으로-분석하는-틀">① 재해·재난을 과학적으로 분석하는 틀</h3>
+<p>재해·재난 사례를 조사할 때는 다음 네 질문을 차례로 던진다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>단계</th>
+<th>질문</th>
+<th>쓰는 과학 개념의 예</th>
+</tr>
+</thead><tbody><tr>
+<td>1. 현상</td>
+<td>무슨 일이 언제, 어디서, 얼마나 크게 일어났나?</td>
+<td>규모, 강수량, 풍속, 확진자 수</td>
+</tr>
+<tr>
+<td>2. 원인</td>
+<td>왜 일어났나? 어떤 에너지와 물질이 관여했나?</td>
+<td>판의 운동, 수증기의 응결, 병원체의 전파, 기체의 확산</td>
+</tr>
+<tr>
+<td>3. 피해</td>
+<td>어떤 피해가 생겼나? 피해를 키운 요인은?</td>
+<td>건물 구조, 지형, 인구 밀도, 대처 시간</td>
+</tr>
+<tr>
+<td>4. 교훈</td>
+<td>무엇을 바꾸면 피해를 줄일 수 있나?</td>
+<td>내진 설계, 예보·경보, 방역, 안전거리</td>
+</tr>
+</tbody></table></div>
+<h4 id="예제-1-자료에서-피해-요인-찾기">예제 1 — 자료에서 피해 요인 찾기</h4>
+<p>다음은 가상의 두 도시 A, B에 같은 규모의 지진이 일어났을 때의 자료이다. 두 도시의 피해 차이를 &#39;세 가지 요소&#39;로 분석하시오.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>도시 A</th>
+<th>도시 B</th>
+</tr>
+</thead><tbody><tr>
+<td>진앙까지 거리</td>
+<td>20 km</td>
+<td>20 km</td>
+</tr>
+<tr>
+<td>인구</td>
+<td>50만 명</td>
+<td>50만 명</td>
+</tr>
+<tr>
+<td>내진 설계 건물 비율</td>
+<td>80 %</td>
+<td>20 %</td>
+</tr>
+<tr>
+<td>정기 대피 훈련</td>
+<td>연 2회</td>
+<td>없음</td>
+</tr>
+<tr>
+<td>무너진 건물 수</td>
+<td>적음</td>
+<td>많음</td>
+</tr>
+</tbody></table></div>
+<p><strong>풀이</strong> 위험 요인의 세기(규모, 거리)와 노출(인구)은 같다. 차이는 <strong>취약성</strong>이다. B는 내진 설계 건물이 적고 대피 훈련이 없어 피해가 커졌다. 따라서 B의 피해를 줄이려면 건물의 내진 보강과 대피 훈련이 필요하다.</p>
+<h3 id="②-지진과-화산-땅이-움직일-때">② 지진과 화산 — 땅이 움직일 때</h3>
+<p><strong>발생 원인</strong> 지구의 겉부분은 여러 개의 판으로 나뉘어 매우 느리게 움직인다. 판과 판이 부딪치거나 어긋나는 곳에는 암석에 힘이 쌓이고, 암석이 견디지 못하고 갑자기 끊어지며 에너지를 내놓는 것이 <strong>지진(earthquake)</strong> 이다. 판의 경계 부근에서는 마그마가 만들어져 <strong>화산</strong> 활동도 활발하다. 우리나라는 판의 경계에서 조금 떨어져 있어 큰 지진은 드물지만, 판 안쪽에 쌓인 힘으로 지진이 일어날 수 있다.</p>
+<p><strong>규모와 진도는 다르다</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th><strong>규모(magnitude)</strong></th>
+<th><strong>진도(intensity)</strong></th>
+</tr>
+</thead><tbody><tr>
+<td>뜻</td>
+<td>지진이 내놓은 <strong>에너지의 크기</strong></td>
+<td>어떤 장소에서 사람이 느끼거나 물체가 <strong>흔들린 정도</strong></td>
+</tr>
+<tr>
+<td>한 지진에 대해</td>
+<td>값이 하나이다</td>
+<td>장소마다 다르다 (진앙에서 멀수록 대체로 작다)</td>
+</tr>
+<tr>
+<td>비유</td>
+<td>전구의 밝기(와트)</td>
+<td>내 자리에서 느끼는 밝기</td>
+</tr>
+</tbody></table></div>
+<p>규모가 1 커지면 지진의 에너지는 약 32배 커진다. 규모 5.8과 규모 4.8은 숫자로는 1 차이지만 에너지는 약 32배 차이이다.</p>
+<p><strong>피해</strong> 건물 붕괴, 땅 갈라짐, 산사태, 화재, 가스관·수도관 파손이 함께 일어난다. 2017년 포항 지진 때는 물을 머금은 모래 지반이 흔들리며 액체처럼 변하는 <strong>액상화</strong> 현상이 우리나라에서 처음으로 확인되었다. 바다 밑에서 큰 지진이 일어나면 <strong>지진 해일(쓰나미)</strong> 이 해안을 덮친다. 화산이 분출하면 용암 외에도 <strong>화산재</strong>가 넓게 퍼져 호흡기 질환, 항공기 운항 중단, 농작물 피해를 일으킨다.</p>
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>생활 속 예</strong> — 컵에 물을 담아 책상 위에서 흔들어 보자. 책상(땅)이 흔들리는 정도는 같아도, 컵이 넓고 낮으면 잘 안 넘어지고 좁고 높으면 쉽게 넘어진다. 건물의 모양과 구조가 지진 피해를 좌우하는 것과 같다.</p>
+</aside>
+<h3 id="③-기상재해-대기가-움직일-때">③ 기상재해 — 대기가 움직일 때</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>재해</th>
+<th>발생 원인 (과학 개념)</th>
+<th>주요 피해</th>
+</tr>
+</thead><tbody><tr>
+<td><strong>태풍</strong></td>
+<td>따뜻한 열대 바다(약 27 ℃ 이상)에서 증발한 수증기가 응결하며 내놓는 열이 에너지원인 강한 저기압</td>
+<td>강풍, 폭우, 해안의 폭풍 해일</td>
+</tr>
+<tr>
+<td><strong>집중호우</strong></td>
+<td>따뜻하고 습한 공기가 빠르게 상승하여 짧은 시간에 많은 비구름이 만들어진다</td>
+<td>하천 범람, 도시 침수, 산사태</td>
+</tr>
+<tr>
+<td><strong>폭염</strong></td>
+<td>고기압이 오래 머물며 맑은 날씨와 강한 햇빛이 이어진다</td>
+<td>열사병 등 온열 질환, 전력 부족, 가축 폐사</td>
+</tr>
+<tr>
+<td><strong>한파·대설</strong></td>
+<td>차갑고 건조한 대륙의 공기가 내려온다. 이 공기가 따뜻한 바다를 지나며 눈구름이 생기기도 한다</td>
+<td>동상, 수도관 동파, 교통 마비</td>
+</tr>
+<tr>
+<td><strong>가뭄</strong></td>
+<td>오랫동안 비가 적게 내려 물이 부족해진다</td>
+<td>식수·농업용수 부족, 산불 위험 증가</td>
+</tr>
+</tbody></table></div>
+<aside class="callout important"><p class="callout-title">핵심</p><p>태풍의 에너지원은 <strong>수증기의 응결열</strong>이다. 중3 「날씨와 기후변화」에서 배운 것처럼, 수증기가 응결하여 물방울이 될 때 열을 내놓는다. 그래서 태풍은 따뜻한 바다 위에서 강해지고, 육지에 올라오거나 차가운 바다로 가면 수증기 공급이 줄어 약해진다. 지구온난화로 바닷물이 따뜻해지면 강한 태풍이 생길 가능성이 커진다는 연구가 많다.</p>
+</aside>
+<h4 id="예제-2-집중호우의-물은-얼마나-될까">예제 2 — 집중호우의 물은 얼마나 될까?</h4>
+<p>넓이 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">k</span><span class="mord"><span class="mord mathrm">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span></span></span></span></span></span></span></span></span>(가로 1 km, 세로 1 km)인 지역에 1시간 동안 50 mm의 비가 내렸다. 이 지역에 내린 빗물의 부피는 몇 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord mathrm">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">3</span></span></span></span></span></span></span></span></span></span></span>인가? 물 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">3</span></span></span></span></span></span></span></span></span></span></span>의 질량이 약 1톤이라면 빗물의 질량은 약 몇 톤인가?</p>
+<p><strong>풀이</strong> 단위를 m로 맞춘다. 50 mm = 0.05 m, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">k</span><span class="mord"><span class="mord mathrm">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1000</span><span class="mspace"> </span><span class="mord mathrm">m</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1000</span><span class="mspace"> </span><span class="mord mathrm">m</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span></span></span></span></span></span></span></span>
+부피 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">0.05</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">50</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">3</span></span></span></span></span></span></span></span></span></span></span> → 질량 약 <strong>5만 톤</strong></p>
+<p>이 많은 물이 콘크리트·아스팔트로 덮인 도시에서는 땅으로 스며들지 못하고 한꺼번에 낮은 곳으로 몰린다. 그래서 도시는 <strong>지하 공간과 낮은 도로</strong>가 먼저 잠긴다.</p>
+<h3 id="④-사회-재난-사람의-활동과-함께-오는-위험">④ 사회 재난 — 사람의 활동과 함께 오는 위험</h3>
+<h4 id="감염병-확산">감염병 확산</h4>
+<p><strong>원인</strong> 세균·바이러스 같은 <strong>병원체</strong>가 사람에서 사람으로 옮겨 가며 퍼진다. 전파 경로에는 기침·재채기의 <strong>비말</strong>, 오염된 손과 물건의 <strong>접촉</strong>, 오염된 물·음식, 모기 같은 <strong>매개 동물</strong> 등이 있다. 2020년 세계보건기구(WHO)가 코로나19의 세계적 대유행(팬데믹)을 선언한 것처럼, 교통이 발달한 오늘날에는 감염병이 매우 빠르게 국경을 넘는다.</p>
+<h4 id="예제-3-감염병은-왜-갑자기-폭발할까">예제 3 — 감염병은 왜 갑자기 폭발할까?</h4>
+<p>감염자 1명이 평균 2명에게 병을 옮기고, 한 번 옮기는 데 5일이 걸린다고 하자(설명을 위해 가정한 값이다).
+(1) 처음 감염자 1명에서 시작하여 30일 뒤에 새로 감염되는 사람은 몇 명인가?
+(2) 마스크 착용과 손 씻기로 감염자 1명이 평균 1명에게만 옮기게 되면 30일 뒤 새 감염자는 몇 명인가?</p>
+<p><strong>풀이</strong>
+(1) 30일 ÷ 5일 = 6번 전파된다. <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">64</span></span></span></span>명
+(2) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord">1</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span></span></span></span>명</p>
+<p>1명이 옮기는 사람 수를 2에서 1로 줄였을 뿐인데, 30일 뒤의 차이는 64배이다. 이 수가 1보다 작아지면 감염병은 점점 줄어든다. 개인의 작은 실천이 모이면 큰 차이를 만드는 이유이다.</p>
+<h4 id="화학물질-유출">화학물질 유출</h4>
+<p><strong>원인</strong> 공장·저장 시설·운반 차량에서 유독한 화학물질이 새어 나온다. 2012년 경상북도 구미에서는 플루오린화 수소(불산)가 누출되어 주민과 농작물에 큰 피해가 생겼다.
+<strong>과학으로 보기</strong> 새어 나온 기체는 <strong>확산</strong>하여 바람을 타고 퍼진다. 염소(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">l</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span>)처럼 공기보다 무거운 기체는 낮은 곳과 지하에 고이고, 공기보다 가벼운 기체는 위로 퍼진다. 그래서 유출된 물질의 종류를 알아야 올바른 대피 방향을 정할 수 있다.</p>
+<h4 id="운송-수단-사고">운송 수단 사고</h4>
+<p><strong>원인</strong> 졸음·휴대 전화 사용 같은 부주의, 과속, 빙판길 같은 환경 요인, 차량 결함이 원인이 된다.
+<strong>과학으로 보기</strong> 운전자가 위험을 보고 브레이크를 밟기까지 차는 그대로 달린다(<strong>반응 거리</strong>). 브레이크를 밟은 뒤에도 마찰력이 운동 에너지를 모두 없앨 때까지 미끄러진다(<strong>제동 거리</strong>). 운동 에너지는 속력의 제곱에 비례하므로 <strong>속력이 2배가 되면 제동 거리는 약 4배</strong>가 된다.</p>
+<h4 id="예제-4-정지-거리">예제 4 — 정지 거리</h4>
+<p>자동차가 20 m/s(72 km/h)로 달린다. 운전자의 반응 시간은 1초이고, 이 속력에서 제동 거리는 25 m이다.
+(1) 정지 거리(반응 거리 + 제동 거리)는?
+(2) 운전자가 휴대 전화를 보느라 반응 시간이 2초가 되면 정지 거리는?
+(3) 반응 시간이 1초이고 속력이 40 m/s로 2배가 되면 정지 거리는? (제동 거리는 속력의 제곱에 비례한다.)</p>
+<p><strong>풀이</strong>
+(1) 반응 거리 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">20</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">20</span></span></span></span> m, 정지 거리 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">20</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">25</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">45</span></span></span></span> m
+(2) 반응 거리 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">20</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">40</span></span></span></span> m, 정지 거리 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">40</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">25</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">65</span></span></span></span> m
+(3) 반응 거리 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">40</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">40</span></span></span></span> m, 제동 거리 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">25</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">100</span></span></span></span> m, 정지 거리 <strong>140 m</strong></p>
+<p>속력이 2배가 되면 정지 거리는 3배 넘게 늘어난다. 앞차와의 안전거리를 넉넉히 두어야 하는 과학적 이유이다.</p>
+<h3 id="⑤-과학적-원리로-대비하고-대처하기">⑤ 과학적 원리로 대비하고 대처하기</h3>
+<p>재난 관리는 일이 터진 뒤의 대처만이 아니다. <strong>사전 예방·대비</strong>와 <strong>사후 대응·복구</strong>가 하나의 고리를 이룬다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>단계</th>
+<th>하는 일</th>
+<th>예</th>
+</tr>
+</thead><tbody><tr>
+<td><strong>예방</strong></td>
+<td>재난이 일어나지 않게 하거나 위험 요인을 줄인다</td>
+<td>내진 설계 기준, 화학물질 저장 기준, 백신 접종</td>
+</tr>
+<tr>
+<td><strong>대비</strong></td>
+<td>재난이 일어날 때를 준비한다</td>
+<td>예보·경보 시스템, 대피 훈련, 비상용품 준비</td>
+</tr>
+<tr>
+<td><strong>대응</strong></td>
+<td>재난이 일어났을 때 피해를 줄인다</td>
+<td>대피, 구조, 방역</td>
+</tr>
+<tr>
+<td><strong>복구</strong></td>
+<td>피해를 회복하고 더 안전하게 다시 짓는다</td>
+<td>시설 재건, 원인 조사, 기준 강화</td>
+</tr>
+</tbody></table></div>
+<h4 id="재난별-대비-대처와-과학-원리">재난별 대비·대처와 과학 원리</h4>
+<div class="table-wrap"><table><thead><tr>
+<th>재난</th>
+<th>대비·대처 방안</th>
+<th>과학적 원리</th>
+</tr>
+</thead><tbody><tr>
+<td>지진</td>
+<td><strong>내진</strong>(튼튼하게 버티기), <strong>제진</strong>(흔들림을 흡수하는 장치), <strong>면진</strong>(땅과 건물 사이에 고무 받침 등을 넣어 흔들림 전달 줄이기) 설계</td>
+<td>건물에 전달되는 힘과 진동을 줄인다</td>
+</tr>
+<tr>
+<td>지진</td>
+<td>흔들릴 때는 탁자 밑에서 머리 보호 → 흔들림이 멈추면 계단으로 넓은 곳에 대피</td>
+<td>떨어지는 물체가 가장 큰 위험이다. 정전 시 승강기에 갇힐 수 있다</td>
+</tr>
+<tr>
+<td>지진 해일</td>
+<td>해안에서 강한 흔들림을 느끼면 즉시 높은 곳으로 대피</td>
+<td>해일은 매우 빠르게 이동하며 해안에서 높아진다</td>
+</tr>
+<tr>
+<td>태풍·호우</td>
+<td>예보 확인, 창문을 창틀에 단단히 고정, 지하 공간·하천 주변 피하기</td>
+<td>강풍의 압력, 물의 흐름은 낮은 곳으로 모인다</td>
+</tr>
+<tr>
+<td>폭염</td>
+<td>한낮 야외 활동 줄이기, 물 자주 마시기, 그늘에서 쉬기</td>
+<td>땀의 증발로 체온을 낮추려면 물이 필요하다</td>
+</tr>
+<tr>
+<td>감염병</td>
+<td>손 씻기, 기침 예절, 마스크, 예방 접종, 아플 때 쉬기</td>
+<td>전파 경로를 끊어 1명이 옮기는 사람 수를 줄인다</td>
+</tr>
+<tr>
+<td>화학물질 유출</td>
+<td>바람이 불어오는 쪽이나 바람 방향과 직각 방향으로 대피, 실내에서는 창문을 닫고 틈 막기</td>
+<td>기체는 바람을 타고 확산한다. 무거운 기체는 낮은 곳에 고인다</td>
+</tr>
+<tr>
+<td>운송 수단 사고</td>
+<td>안전띠 착용, 규정 속도와 안전거리 지키기</td>
+<td>관성, 운동 에너지는 속력의 제곱에 비례한다</td>
+</tr>
+</tbody></table></div>
+<h4 id="예제-5-지진-조기-경보의-원리">예제 5 — 지진 조기 경보의 원리</h4>
+<p>지진이 일어나면 빠르지만 흔들림이 약한 <strong>P파</strong>가 먼저 오고, 느리지만 흔들림이 강한 <strong>S파</strong>가 뒤에 온다. P파는 초속 6 km, S파는 초속 3 km로 퍼진다고 하자(계산을 위해 정한 값이다). 진원에서 60 km 떨어진 학교에 P파가 도착한 뒤 S파가 도착하기까지 몇 초의 여유가 있는가?</p>
+<p><strong>풀이</strong> P파 도착 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">60</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">÷</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">6</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10</span></span></span></span>초, S파 도착 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">60</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">÷</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">3</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">20</span></span></span></span>초 → <strong>10초</strong>의 여유가 있다.</p>
+<p>지진 조기 경보는 진원 가까운 관측소에서 P파를 먼저 잡아 강한 흔들림이 오기 전에 경보를 보낸다. 10초는 짧아 보이지만 책상 밑으로 몸을 숨기고, 열차를 감속하고, 가스 밸브를 잠그기에는 충분한 시간이다. 진원에서 멀수록 여유 시간이 길어진다.</p>
+<aside class="callout warning"><p class="callout-title">주의</p><p>대비·대처 방안을 세울 때는 <strong>근거를 확인</strong>하자. 예를 들어 태풍이 올 때 유리창에 테이프를 X자로 붙이는 것은 유리가 깨지는 것을 막는 효과가 거의 없다고 알려져 있다. 창문이 흔들리지 않도록 창틀과 유리 사이를 단단히 고정하는 것이 더 중요하다.</p>
+</aside>
+<hr>
+<h2 id="step-4" class="step-h s4"><span class="step-badge s4">STEP 4</span><span class="h-text">오개념 바로잡기</span></h2>
+<div class="table-wrap"><table><thead><tr>
+<th>흔한 오개념</th>
+<th>올바른 개념</th>
+<th>왜 그럴까?</th>
+</tr>
+</thead><tbody><tr>
+<td>규모와 진도는 같은 말이다</td>
+<td>규모는 지진의 <strong>에너지</strong>, 진도는 장소마다의 <strong>흔들림 정도</strong>이다</td>
+<td>같은 지진이라도 진앙에서 가까운 곳과 먼 곳의 흔들림이 다르다</td>
+</tr>
+<tr>
+<td>지진이 나면 바로 밖으로 뛰어나가야 한다</td>
+<td>흔들리는 동안에는 <strong>탁자 밑에서 몸을 보호</strong>하고, 멈춘 뒤 대피한다</td>
+<td>흔들릴 때 뛰어나가면 떨어지는 간판·유리에 다치기 쉽다</td>
+</tr>
+<tr>
+<td>태풍의 눈에 들어가 바람이 멎으면 태풍이 끝난 것이다</td>
+<td>눈이 지나가면 <strong>반대 방향의 강풍</strong>이 다시 분다</td>
+<td>태풍의 눈은 중심의 바람이 약한 부분일 뿐, 주변은 여전히 강풍 지대이다</td>
+</tr>
+<tr>
+<td>속력이 2배면 제동 거리도 2배이다</td>
+<td>제동 거리는 약 <strong>4배</strong>가 된다</td>
+<td>없애야 할 운동 에너지가 속력의 제곱에 비례한다</td>
+</tr>
+<tr>
+<td>자연 재난은 어차피 막을 수 없으니 대비해도 소용없다</td>
+<td>현상은 막지 못해도 <strong>노출과 취약성을 줄여 피해는 줄일 수 있다</strong></td>
+<td>내진 설계, 예보, 대피 훈련이 피해를 크게 줄인 사례가 많다</td>
+</tr>
+<tr>
+<td>감염병은 몸이 약한 사람만 조심하면 된다</td>
+<td>증상이 약한 사람도 병원체를 <strong>옮길 수 있다</strong></td>
+<td>1명이 옮기는 사람 수를 줄이려면 모두의 실천이 필요하다</td>
+</tr>
+<tr>
+<td>우리나라는 지진 안전지대이다</td>
+<td>우리나라에서도 <strong>규모 5 이상의 지진</strong>이 일어난 적이 있다</td>
+<td>2016년 경주(규모 5.8), 2017년 포항(규모 5.4) 지진</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-5" class="step-h s5"><span class="step-badge s5">STEP 5</span><span class="h-text">다음 단계로 한 걸음 더</span></h2>
+<aside class="callout caution"><p class="callout-title">심화 · 평가 범위 밖</p><p>이 절은 <strong>중학교 교육과정 범위 밖의 심화 내용</strong>으로 평가 대상이 아니다. &quot;이 개념이 앞으로 어디까지 이어지는가&quot;를 맛보기로 보여 주기 위한 내용이다.</p>
+</aside>
+<h3 id="다음-학년-과목과의-연결">다음 학년·과목과의 연결</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>단계</th>
+<th>단원</th>
+<th>이어지는 내용</th>
+</tr>
+</thead><tbody><tr>
+<td>통합과학1</td>
+<td>「판구조론과 지권의 변화」</td>
+<td>판구조론으로 지진·화산을 해석하고, 화산 분출의 피해를 지구시스템 관점에서 분석</td>
+</tr>
+<tr>
+<td>통합과학1</td>
+<td>「운동량과 충격량」</td>
+<td>충돌 시간을 늘려 충격을 줄이는 안전장치(에어백, 헬멧)</td>
+</tr>
+<tr>
+<td>통합과학2</td>
+<td>「감염병과 과학의 유용성」</td>
+<td>핵산과 단백질을 이용한 감염병 진단·추적 기술</td>
+</tr>
+<tr>
+<td>통합과학2</td>
+<td>「빅데이터와 과학기술사회」</td>
+<td>기상 관측 등 대량의 데이터를 활용한 예측</td>
+</tr>
+<tr>
+<td>지구과학 (일반 선택)</td>
+<td>「대기와 해양의 상호작용」</td>
+<td>태풍의 발생·이동·소멸, 뇌우·집중호우 등 악기상</td>
+</tr>
+<tr>
+<td>행성우주과학 (진로 선택)</td>
+<td>「우주탐사와 행성계」</td>
+<td>태양 활동·소천체 충돌·우주 쓰레기 같은 우주 위험 감시</td>
+</tr>
+</tbody></table></div>
+<h3 id="①-규모-눈금의-비밀-로그-눈금">① 규모 눈금의 비밀 — 로그 눈금</h3>
+<p>규모는 1이 커질 때마다 에너지가 약 32배, 2가 커지면 약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">32</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">32</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1000</span></span></span></span>배가 되는 눈금이다. 이처럼 &#39;곱하기&#39;로 커지는 양을 &#39;더하기&#39; 눈금으로 나타내는 방법을 <strong>로그 눈금</strong>이라고 한다. 소리의 크기(데시벨), 용액의 산성도(pH)도 같은 방식이다. 고등학교 수학의 로그를 배우면 규모 공식을 직접 다룰 수 있다.</p>
+<h3 id="②-감염병-확산의-수학-재생산-수">② 감염병 확산의 수학 — 재생산 수</h3>
+<p>예제 3의 &#39;1명이 옮기는 사람 수&#39;를 과학자들은 <strong>재생산 수</strong>라고 부른다. 이 값이 1보다 크면 확산, 1보다 작으면 감소한다. 모두가 면역이 없는 상태에서 재생산 수가 4인 감염병은, 인구의 약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">4</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8056em;vertical-align:-0.0556em;"></span><span class="mord">75%</span></span></span></span>가 면역을 가지면 1명이 평균 1명 미만에게 옮기게 되어 확산이 멈춘다고 계산한다. 이것이 <strong>집단 면역</strong>의 기본 아이디어이다. 실제 연구에서는 컴퓨터 모형으로 감염 전·감염·회복 인구의 변화를 계산한다.</p>
+<h3 id="③-태풍의-위험-반원">③ 태풍의 위험 반원</h3>
+<p>북반구에서 태풍이 북쪽으로 이동할 때, 진행 방향의 <strong>오른쪽</strong>은 태풍 자체의 바람 방향과 태풍의 이동 방향이 같아 바람이 더 강하다. 이를 <strong>위험 반원</strong>이라고 한다. 지구과학에서 일기도와 위성 영상을 이용해 태풍 진로에 따른 피해를 예측할 때 쓰인다.</p>
+<h3 id="지금-vs-다음-단계">지금 vs 다음 단계</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>구분</th>
+<th>중학교 (지금)</th>
+<th>고등학교 통합과학·선택 과목</th>
+</tr>
+</thead><tbody><tr>
+<td>지진</td>
+<td>판의 경계, 규모와 진도 구분</td>
+<td>판구조론, 지진파와 지구 내부 구조</td>
+</tr>
+<tr>
+<td>기상재해</td>
+<td>태풍의 에너지원, 재해별 원인</td>
+<td>태풍의 구조·진로 분석, 위험 반원, 악기상 예보</td>
+</tr>
+<tr>
+<td>감염병</td>
+<td>전파 경로와 차단</td>
+<td>유전자 증폭을 이용한 진단, 역학 자료 분석</td>
+</tr>
+<tr>
+<td>자료 분석</td>
+<td>표·그래프 읽기, 여러 자료 비교</td>
+<td>빅데이터 활용의 장점과 문제점, 시뮬레이션</td>
+</tr>
+<tr>
+<td>안전</td>
+<td>대비·대처 방안 세우기</td>
+<td>충격량을 이용한 안전장치 설계, 과학기술과 윤리</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="step-6" class="step-h s6"><span class="step-badge s6">STEP 6</span><span class="h-text">생활·산업·진로 연결</span></h2>
+<h3 id="사례-1-지진-조기-경보와-재난-문자">사례 1. 지진 조기 경보와 재난 문자</h3>
+<ul>
+<li><strong>원리</strong> 예제 5처럼 P파와 S파의 속력 차이를 이용한다. 여러 관측소의 자료를 자동으로 분석해 규모와 위치를 빠르게 추정한다.</li>
+<li><strong>어디에 쓰이나</strong> 우리나라는 기상청이 지진 조기 경보를 발표하고, 휴대 전화 긴급 재난 문자로 알린다. 고속 열차와 원자력 발전소는 경보를 받으면 자동으로 감속하거나 안전 조치를 한다.</li>
+</ul>
+<h3 id="사례-2-날씨-예보와-슈퍼컴퓨터">사례 2. 날씨 예보와 슈퍼컴퓨터</h3>
+<ul>
+<li><strong>원리</strong> 지상·해양·위성·레이더에서 모은 엄청난 양의 관측 자료를 물리 법칙에 넣어 미래 대기의 상태를 계산한다(수치 예보).</li>
+<li><strong>어디에 쓰이나</strong> 태풍 진로 예측, 호우·폭염 특보. 예보가 정확해질수록 대피할 시간을 더 일찍 확보할 수 있다.</li>
+</ul>
+<h3 id="사례-3-방재-공학-도시를-안전하게-설계하기">사례 3. 방재 공학 — 도시를 안전하게 설계하기</h3>
+<ul>
+<li>내진·면진 건물, 빗물을 잠시 모아 두는 지하 저류 시설, 물이 스며드는 투수성 포장, 산사태를 막는 사방 시설 등은 모두 과학 원리로 <strong>취약성을 줄이는</strong> 공학이다.</li>
+</ul>
+<h3 id="사례-4-감염병-역학-조사">사례 4. 감염병 역학 조사</h3>
+<ul>
+<li>감염자의 이동 경로와 접촉자를 조사하고, 병원체의 유전 정보를 분석해 어디서 퍼졌는지 추적한다. 통합과학2 「감염병과 과학의 유용성」에서 자세히 배운다.</li>
+</ul>
+<h3 id="관련-진로와-학과">관련 진로와 학과</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>진로</th>
+<th>하는 일</th>
+<th>관련 학과</th>
+</tr>
+</thead><tbody><tr>
+<td>기상 예보관·기상 연구원</td>
+<td>기상 자료 분석, 예보·특보 발표</td>
+<td>대기과학, 지구과학</td>
+</tr>
+<tr>
+<td>지진 연구원</td>
+<td>지진 관측, 조기 경보 시스템 개발</td>
+<td>지구환경과학, 지질학, 지구물리학</td>
+</tr>
+<tr>
+<td>방재 엔지니어</td>
+<td>내진 설계, 홍수 방어 시설 설계</td>
+<td>건축공학, 토목공학, 방재공학</td>
+</tr>
+<tr>
+<td>역학 조사관</td>
+<td>감염병 확산 경로 조사, 방역 대책 수립</td>
+<td>의학, 간호학, 보건학</td>
+</tr>
+<tr>
+<td>화학 안전 관리자</td>
+<td>화학물질 저장·운송 관리, 사고 대응</td>
+<td>화학공학, 화학, 환경공학</td>
+</tr>
+<tr>
+<td>소방관·응급 구조사</td>
+<td>재난 현장 구조, 응급 처치</td>
+<td>소방학, 응급구조학</td>
+</tr>
+</tbody></table></div>
+<hr>
+<h2 id="탐구-활동">탐구 활동</h2>
+<h3 id="활동-a-빅데이터를-이용하여-재해-재난-사례-분석하기">활동 A. 빅데이터를 이용하여 재해·재난 사례 분석하기</h3>
+<p><strong>목표</strong> 공공 기관이 공개한 대량의 재해 자료를 정리하여 발생 특징을 찾고, 그 원인을 과학적으로 설명한다.</p>
+<p><strong>준비물</strong> 컴퓨터 또는 태블릿, 스프레드시트 프로그램, 공공 자료(예: 기상청 날씨누리의 국내 지진 목록, 국민재난안전포털의 재난 통계)</p>
+<p><strong>과정</strong></p>
+<ol>
+<li>모둠별로 재해 하나(지진, 태풍, 폭염, 감염병 등)를 고른다.</li>
+<li>공공 누리집에서 최근 여러 해의 자료를 내려받아 스프레드시트에 정리한다.</li>
+<li>연도별·월별·지역별로 발생 횟수나 피해 규모를 세어 그래프로 나타낸다.</li>
+<li>그래프에서 찾은 특징을 이 단원에서 배운 과학 개념으로 설명한다.</li>
+<li>다른 출처의 자료(신문 기사, 다른 기관 통계)와 비교해 결론이 같은지 확인한다.</li>
+</ol>
+<p><strong>결과 기록</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>분석 기준</th>
+<th>찾은 특징</th>
+<th>과학적 원인</th>
+<th>확인한 다른 자료</th>
+</tr>
+</thead><tbody><tr>
+<td>연도별</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>월(계절)별</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>지역별</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<p><strong>생각해 보기</strong></p>
+<ol>
+<li>지진 발생 횟수가 해마다 다르게 나타났다면, 실제 지진이 늘어난 것일까, 관측 장비가 늘어 작은 지진까지 잡힌 것일까? 어떻게 구별할 수 있을까?</li>
+<li>폭염 일수가 많았던 해와 온열 질환자 수 사이에는 어떤 관계가 있는가?</li>
+</ol>
+<h3 id="활동-b-재해-재난의-피해를-줄이기-위한-홍보자료-제작하기">활동 B. 재해·재난의 피해를 줄이기 위한 홍보자료 제작하기</h3>
+<p><strong>목표</strong> 과학적 근거에 기반한 대비·대처 방법을 다른 사람이 쉽게 이해하도록 홍보자료(카드 뉴스, 포스터, 짧은 영상)로 만든다.</p>
+<p><strong>과정</strong></p>
+<ol>
+<li>대상(초등학생, 어르신, 우리 반 친구 등)과 재난 종류를 정한다.</li>
+<li><strong>사전 예방·대비</strong>와 <strong>사후 대응</strong>을 모두 넣어 핵심 행동 3~5가지를 고른다.</li>
+<li>각 행동마다 &quot;왜 그렇게 해야 하는가?&quot;를 과학 원리 한 문장으로 덧붙인다.</li>
+<li>모둠끼리 서로의 자료를 평가하고 고친다.</li>
+</ol>
+<div class="table-wrap"><table><thead><tr>
+<th>점검 항목</th>
+<th>예 / 아니요</th>
+</tr>
+</thead><tbody><tr>
+<td>예방·대비와 대응을 모두 담았는가?</td>
+<td></td>
+</tr>
+<tr>
+<td>행동마다 과학적 근거를 밝혔는가?</td>
+<td></td>
+</tr>
+<tr>
+<td>자료의 출처를 밝혔는가?</td>
+<td></td>
+</tr>
+<tr>
+<td>대상에게 맞는 쉬운 말과 그림을 썼는가?</td>
+<td></td>
+</tr>
+</tbody></table></div>
+<aside class="callout warning"><p class="callout-title">주의</p><p><strong>유의 사항</strong> 출처가 확인되지 않은 정보나 지나치게 공포를 주는 표현은 쓰지 않는다. 실제 피해자의 사진이나 개인 정보는 사용하지 않는다. 사실과 의견을 구분하여 쓴다.</p>
+</aside>
+<hr>
+<h2 id="개념-확인-문제">개념 확인 문제</h2>
+<h3 id="기본">기본</h3>
+<p><strong>1.</strong> 다음 재난을 자연 재난과 사회 재난으로 구분하시오.
+ㄱ. 태풍 ㄴ. 감염병 확산 ㄷ. 지진 ㄹ. 화학물질 유출 ㅁ. 폭염</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 자연 재난: ㄱ, ㄷ, ㅁ / 사회 재난: ㄴ, ㄹ</p>
+</div></details>
+
+<p><strong>2.</strong> 태풍이 육지에 상륙하면 세력이 약해지는 이유를 태풍의 에너지원과 관련지어 쓰시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 태풍의 에너지원은 따뜻한 바다에서 증발한 수증기가 응결할 때 내놓는 열이다. 육지에서는 수증기 공급이 크게 줄어들어 에너지를 얻지 못하므로 약해진다.</p>
+</div></details>
+
+<p><strong>3.</strong> 규모와 진도의 차이를 설명하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 규모는 지진이 내놓은 에너지의 크기로 한 지진에 하나의 값을 가진다. 진도는 어떤 장소에서 느끼는 흔들림의 정도로, 같은 지진이라도 장소마다 다르다.</p>
+</div></details>
+
+<p><strong>4.</strong> 재난 관리의 네 단계 중 &#39;대비&#39;에 해당하는 것을 <strong>모두</strong> 고르시오.
+ㄱ. 대피 훈련 실시 ㄴ. 무너진 건물 다시 짓기 ㄷ. 지진 조기 경보 시스템 설치 ㄹ. 재난 현장에서 구조 활동</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답 ㄱ, ㄷ</strong></p>
+<p>ㄴ은 복구, ㄹ은 대응에 해당한다.</p>
+</div></details>
+
+<h3 id="응용">응용</h3>
+<p><strong>5.</strong> 감염자 1명이 평균 3명에게 병을 옮기고, 한 번 옮기는 데 4일이 걸린다. 처음 1명에서 시작하여 12일 뒤에 새로 감염되는 사람은 몇 명인가? (설명을 위해 가정한 값이다.)</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 27명</p>
+<p>12일 ÷ 4일 = 3번 전파되므로 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord">3</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">27</span></span></span></span>명이다.</p>
+</div></details>
+
+<p><strong>6.</strong> 자동차가 15 m/s로 달리다가 운전자가 위험을 보고 브레이크를 밟았다. 반응 시간은 1.2초, 제동 거리는 15 m이다. (1) 정지 거리를 구하고, (2) 속력이 30 m/s라면 정지 거리는 얼마인지 구하시오. (반응 시간은 같고, 제동 거리는 속력의 제곱에 비례한다.)</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> (1) 33 m (2) 96 m</p>
+<p>(1) 반응 거리 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">15</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1.2</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">18</span></span></span></span> m, 정지 거리 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">18</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">15</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">33</span></span></span></span> m
+(2) 반응 거리 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">30</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1.2</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">36</span></span></span></span> m, 제동 거리 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">15</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">60</span></span></span></span> m, 정지 거리 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">36</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">60</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">96</span></span></span></span> m</p>
+</div></details>
+
+<p><strong>7.</strong> P파가 초속 6 km, S파가 초속 3 km로 퍼진다고 할 때, 어느 도시에서 P파가 도착하고 20초 뒤에 S파가 도착했다. 이 도시는 진원에서 몇 km 떨어져 있는가?</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> 120 km</p>
+<p>거리를 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">d</span></span></span></span>라고 하면 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.2251em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8801em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">3</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">d</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.2251em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8801em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">6</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">d</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.2251em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8801em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">6</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">d</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">20</span></span></span></span>이므로 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">d</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">120</span></span></span></span> km이다. (확인: P파 20초, S파 40초)</p>
+</div></details>
+
+<h3 id="융합-서술형">융합·서술형</h3>
+<p><strong>8. [자료 분석]</strong> 어느 도시는 최근 집중호우 때마다 지하 주차장과 반지하 주택이 침수되었다. 이 도시는 지난 수십 년 동안 논과 숲이 아스팔트 도로와 건물로 바뀌었다. 침수 피해가 커진 원인을 과학적으로 분석하고, 사전 예방·대비 방안과 사후 대처 방안을 각각 한 가지 이상 제안하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+원인: 아스팔트와 건물은 빗물이 땅으로 스며들지 못하게 하므로, 내린 비가 한꺼번에 지표를 따라 흘러 낮은 곳(지하 공간)으로 모인다. 따라서 같은 양의 비에도 침수가 쉽게 일어난다.
+사전 예방·대비: 빗물을 잠시 모아 두는 저류 시설 설치, 투수성 포장 확대, 지하 공간 입구에 물막이판 설치, 호우 예보 시 지하 주차장 차량 이동 안내.
+사후 대처: 물이 들어오기 시작하면 지하 공간에서 즉시 대피(물이 차면 수압 때문에 문을 열기 어렵다), 감전 위험이 있으므로 전기 차단.</p>
+<p><strong>채점 포인트</strong> ① 빗물이 스며들지 못하고 낮은 곳으로 모인다는 원인 분석 ② 예방·대비 방안 ③ 대처 방안과 그 근거</p>
+</div></details>
+
+<p><strong>9. [토의]</strong> &quot;우리나라는 판의 경계에서 떨어져 있으므로 학교 건물의 내진 보강은 필요 없다.&quot;라는 주장에 대해 근거를 들어 반박하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>예시 답안</strong>
+우리나라가 판의 경계에서 떨어져 있어 큰 지진이 드문 것은 맞지만, 판 안쪽에도 힘이 쌓여 지진이 일어날 수 있다. 실제로 2016년 경주에서 규모 5.8, 2017년 포항에서 규모 5.4의 지진이 일어나 건물 피해가 생겼다. 지진의 피해는 위험 요인의 세기뿐 아니라 건물의 취약성에 크게 좌우되며, 학교는 많은 학생이 모이는(노출이 큰) 곳이자 재난 때 대피소로도 쓰이므로 내진 보강이 필요하다.</p>
+<p><strong>채점 포인트</strong> ① 판 내부에서도 지진이 발생함 ② 국내 지진 사례 ③ 취약성·노출 관점의 근거</p>
+</div></details>
+
+<hr>
+<h2 id="한눈에-정리">한눈에 정리</h2>
+<h3 id="핵심-요약">핵심 요약</h3>
+<ul>
+<li>재난은 <strong>자연 재난</strong>(지진, 화산, 태풍, 호우, 폭염 등)과 <strong>사회 재난</strong>(감염병 확산, 화학물질 유출, 운송 수단 사고 등)으로 나눈다.</li>
+<li>피해의 크기는 <strong>위험 요인의 세기, 노출, 취약성</strong>에 달려 있다. 현상은 막지 못해도 노출과 취약성은 줄일 수 있다.</li>
+<li>사례 분석은 <strong>현상 → 원인 → 피해 → 교훈</strong> 순서로 하고, 여러 출처의 자료를 비교한다.</li>
+<li>지진은 판의 운동으로 쌓인 힘이 풀리며 일어난다. <strong>규모</strong>는 에너지, <strong>진도</strong>는 장소별 흔들림이다.</li>
+<li>태풍의 에너지원은 <strong>수증기의 응결열</strong>이다. 집중호우는 도시의 지하 공간과 낮은 곳을 먼저 잠기게 한다.</li>
+<li>감염병은 1명이 옮기는 사람 수가 1보다 크면 <strong>기하급수적으로</strong> 퍼진다. 전파 경로를 끊으면 이 수를 줄일 수 있다.</li>
+<li>제동 거리는 속력의 제곱에 비례하므로 과속은 정지 거리를 크게 늘린다.</li>
+<li>재난 관리는 <strong>예방 → 대비 → 대응 → 복구</strong>의 고리이며, 사후 대처뿐 아니라 사전 예방·대비가 중요하다.</li>
+</ul>
+<h3 id="핵심-용어">핵심 용어</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>용어</th>
+<th>뜻</th>
+</tr>
+</thead><tbody><tr>
+<td>자연 재난</td>
+<td>지진, 태풍처럼 자연 현상으로 생기는 재난</td>
+</tr>
+<tr>
+<td>사회 재난</td>
+<td>감염병 확산, 화학물질 유출처럼 사람의 활동·사회 시스템과 관련된 재난</td>
+</tr>
+<tr>
+<td>규모</td>
+<td>지진이 내놓은 에너지의 크기</td>
+</tr>
+<tr>
+<td>진도</td>
+<td>어떤 장소에서 지진으로 흔들린 정도</td>
+</tr>
+<tr>
+<td>액상화</td>
+<td>물을 머금은 모래 지반이 흔들려 액체처럼 변하는 현상</td>
+</tr>
+<tr>
+<td>응결열</td>
+<td>수증기가 물로 응결할 때 내놓는 열. 태풍의 에너지원</td>
+</tr>
+<tr>
+<td>병원체</td>
+<td>감염병을 일으키는 세균, 바이러스 등</td>
+</tr>
+<tr>
+<td>정지 거리</td>
+<td>반응 거리와 제동 거리를 합한 거리</td>
+</tr>
+<tr>
+<td>내진·제진·면진</td>
+<td>지진에 버티기, 흔들림 흡수하기, 흔들림 전달 줄이기 설계</td>
+</tr>
+<tr>
+<td>지진 조기 경보</td>
+<td>P파를 먼저 감지해 강한 흔들림이 오기 전에 알리는 시스템</td>
+</tr>
+</tbody></table></div>
+<h3 id="다음-단원으로">다음 단원으로</h3>
+<p>재해·재난을 분석하고 대비하는 일에는 기상 예보관, 지진 연구원, 방재 엔지니어, 역학 조사관처럼 많은 과학 관련 직업이 함께한다. 다음 단원 「과학과 나의 미래」에서는 이런 과학 관련 직업과 미래 사회의 변화를 살펴보고, 나의 진로에 맞는 과학 학습 계획을 세워 본다.</p>
+<nav class="pager"><a class="prev" href="m3-06.html"><small>이전 단원 · 중3</small>생식과 유전</a><a class="next" href="m3-08.html"><small>다음 단원 · 중3</small>과학과 나의 미래</a></nav></article></div>
+</main>
+</div>
+</body>
+</html>
