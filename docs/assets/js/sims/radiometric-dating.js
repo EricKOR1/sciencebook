@@ -97,7 +97,7 @@ Sims.register('radiometric-dating', {
       function dot(x, y, c) { ctx.beginPath(); ctx.arc(x, y, 5, 0, 2 * Math.PI); ctx.fillStyle = c; ctx.fill(); }
     }
     function drawGraph(T, r) {
-      var L = r.x + 48, R = r.x + r.w - 12, Tp = r.y + 22, B = r.y + r.h - 46;
+      var L = r.x + 48, R = r.x + r.w - 26, Tp = r.y + 22, B = r.y + r.h - 46;
       function X(n) { return L + n / NMAX * (R - L); }
       function Y(f) { return B - f * (B - Tp); }
       ctx.strokeStyle = T.rule; ctx.lineWidth = 1; ctx.font = '11px ' + T.fontMono; ctx.fillStyle = T.figMuted; ctx.textAlign = 'right';
@@ -140,8 +140,8 @@ Sims.register('radiometric-dating', {
       ctx.beginPath(); ctx.arc(X(st.n), Y(f), 5, 0, 2 * Math.PI); ctx.fillStyle = T.figAccent; ctx.fill();
       // 범례
       ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right';
-      ctx.fillStyle = T.figBlue; ctx.fillText('파란 곡선: 반감기마다 절반', R, Y(0.88));
-      ctx.fillStyle = T.figAmber; ctx.fillText('주황 계단: 실제 남은 입자 수', R, Y(0.88) + 15);
+      ctx.fillStyle = T.figBlue; ctx.fillText('파란 곡선: 반감기마다 절반', R, Y(0.6));
+      ctx.fillStyle = T.figAmber; ctx.fillText('주황 계단: 실제 남은 입자 수', R, Y(0.6) + 15);
     }
 
     api.onResize(draw);
