@@ -243,7 +243,7 @@ const FINDERS = [
   { id: 'sims', out: 'sims.html', title: '시뮬레이션 모아 보기' },
 ];
 const partLessons = (part) => lessons.filter((l) => l.part === part);
-const navItem = (l, current) => `<li><a href="${l.out}"${l.id === current ? ' aria-current="page"' : ''}><span class="nav-id">${escapeHtml(l.label)}</span>${escapeHtml(l.title)}</a></li>`;
+const navItem = (l, current) => `<li><a href="${l.out}" data-id="${l.id}"${l.id === current ? ' aria-current="page"' : ''}><span class="nav-id">${escapeHtml(l.label)}</span>${escapeHtml(l.title)}</a></li>`;
 
 function navTree(current) {
   const cur = byId.get(current);
@@ -269,7 +269,9 @@ function navTree(current) {
   for (const e of [...FINDERS, ...EXTRA]) s += `<li><a href="${e.out}"${e.id === current ? ' aria-current="page"' : ''}>${e.title}</a></li>`;
   return s + '</ul></nav>';
 }
-function page({ title, current, body, sims = [], bodyClass = '' }) {
+function page({ title, current, body, sims = [], bodyClass = '', lesson = null }) {
+  // 단원 쪽에는 학습 기록(읽던 위치·완료 표시)용 정보를 붙인다. 기록은 독자 기기의 브라우저에만 저장된다(book.js의 Progress).
+  const bodyAttrs = lesson ? ` data-lesson="${lesson.id}" data-title="${escapeHtml(lesson.title)}" data-where="${escapeHtml(lesson.part.short || lesson.part.name)}"` : '';
   const simTags = sims.map((s) => `<script src="assets/js/sims/${s}.js" defer></script>`).join('\n');
   return `<!doctype html>
 <html lang="ko">
@@ -285,11 +287,12 @@ function page({ title, current, body, sims = [], bodyClass = '' }) {
 <script src="assets/js/book.js" defer></script>
 ${simTags}
 </head>
-<body class="${bodyClass}">
+<body class="${bodyClass}"${bodyAttrs}>
 <header class="topbar">
   <button class="menu-btn" id="menu-btn" aria-controls="drawer" aria-expanded="false">목차</button>
   <a class="brand" href="index.html">${BOOK}</a>
   <button class="theme-btn" id="theme-btn" aria-label="밝은 화면과 어두운 화면 바꾸기">화면</button>
+  ${lesson ? '<div class="read-bar" id="read-bar" aria-hidden="true"><i></i></div>' : ''}
 </header>
 <div class="shell">
 <aside class="drawer" id="drawer">${navTree(current)}</aside>
@@ -334,8 +337,12 @@ async function buildLesson(l, i) {
   <h1><span class="lesson-id">${escapeHtml(l.label)}</span>${escapeHtml(l.title)}</h1>
   ${l.sub ? `<p class="lesson-sub">${escapeHtml(l.sub)}</p>` : ''}
 </header>`;
-  const out = page({ title: `${l.title} · ${where(l)}`, current: l.id, sims,
-    body: `<div class="lesson-grid">${ladder(toc)}<article class="prose lesson">${hero}${linksPanel(l)}${html}${pager}</article></div>` });
+  const doneBox = `<section class="done-box" id="done-box" hidden>
+  <label><input type="checkbox" id="done-check"><span>이 단원 학습을 마쳤다</span></label>
+  <p>표시해 두면 목차에 ✓가 붙고, 첫 화면에서 전체 진행 상황을 볼 수 있다. 읽던 위치와 이 표시는 지금 쓰는 기기의 브라우저에만 저장된다.</p>
+</section>`;
+  const out = page({ title: `${l.title} · ${where(l)}`, current: l.id, sims, lesson: l,
+    body: `<div class="lesson-grid">${ladder(toc)}<article class="prose lesson">${hero}${linksPanel(l)}${html}${doneBox}${pager}</article></div>` });
   fs.writeFileSync(path.join(OUT, l.out), out);
   return { sims: sims.length };
 }
@@ -356,7 +363,7 @@ function coverBody() {
       const inner = units.map((u) => {
         const ls = partLessons(p).filter((l) => !p.units || l.unit === u);
         if (!ls.length) return '';
-        return `${u.name ? `<p class="toc-unit">${u.name}</p>` : ''}<ol>${ls.map((l) => `<li><a href="${l.out}"><span class="nav-id">${escapeHtml(l.label)}</span><span>${escapeHtml(l.title)}</span></a></li>`).join('')}</ol>`;
+        return `${u.name ? `<p class="toc-unit">${u.name}</p>` : ''}<ol>${ls.map((l) => `<li><a href="${l.out}" data-id="${l.id}" data-where="${escapeHtml(where(l))}"><span class="nav-id">${escapeHtml(l.label)}</span><span>${escapeHtml(l.title)}</span></a></li>`).join('')}</ol>`;
       }).join('');
       return `<section class="toc-card" id="toc-${p.id}"><h3>${p.name}<span class="nav-count">${partLessons(p).length}단원</span></h3>${inner}</section>`;
     }).join('');
@@ -371,12 +378,16 @@ function coverBody() {
   <p class="eyebrow">2022 개정 교육과정 · 과학과</p>
   <h1>${CFG.title.replace('잇는 과학', '<span>잇는 과학</span>')}</h1>
   <p class="cover-lede">${CFG.subtitle}. 학년이 올라가도 같은 개념이 어떻게 이어지고 깊어지는지 한눈에 따라갈 수 있도록 ${lessons.length}개 단원을 하나로 엮었다. 단원마다 먼저 배운 내용과 이어지는 내용을 바로 오갈 수 있고, 이해하기 어려운 개념은 ${simCount}개의 시뮬레이션으로 직접 움직여 보며 익힌다.</p>
+  <section class="resume-panel" id="resume-panel" aria-label="이어서 학습하기" hidden></section>
   <nav class="jump" aria-label="학년·과목 바로 가기">${jump}</nav>
   <p class="cover-links"><a class="btn" href="map.html">개념 연계 지도 보기</a><a class="btn ghost" href="sims.html">시뮬레이션 모아 보기</a><a class="btn ghost" href="glossary.html">용어 사전</a></p>
 </section>
 ${groups}
 <section class="appendix-row"><h2>찾아보기·부록</h2><ul>${[...FINDERS, ...EXTRA].map((e) => `<li><a href="${e.out}">${e.title}</a></li>`).join('')}</ul>
-<p class="source">근거: 교육부 고시 제2022-33호 [별책 9] 「과학과 교육과정」. 중학교 단원의 학년 배치는 교과서(학교)에 따라 다를 수 있다.</p></section>`;
+<p class="source">근거: 교육부 고시 제2022-33호 [별책 9] 「과학과 교육과정」. 중학교 단원의 학년 배치는 교과서(학교)에 따라 다를 수 있다.</p></section>
+<section class="progress-admin" id="progress-admin" hidden><h2>학습 기록</h2>
+<p>읽던 위치, 읽은 정도, 완료 표시는 지금 쓰는 기기의 이 브라우저에만 저장된다. 다른 기기나 다른 브라우저에서는 따로 기록되며, 브라우저의 사이트 데이터를 지우면 함께 사라진다.</p>
+<div class="pa-btns"></div></section>`;
 }
 
 // 개념 연계 지도: 영역(가로) × 학년·과목 단계(세로)

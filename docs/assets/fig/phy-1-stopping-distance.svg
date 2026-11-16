@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 384" role="img" aria-labelledby="t-phy-1-stopping-distance d-phy-1-stopping-distance">
+  <title id="t-phy-1-stopping-distance">그림 물리학 1-2 속도–시간 그래프로 보는 정지 거리</title>
+  <desc id="d-phy-1-stopping-distance">반응 시간 1초, 감속도 5 m/s²인 자동차가 10 m/s와 20 m/s로 달리다 멈출 때의 속도–시간 그래프. 직사각형 넓이가 공주 거리, 삼각형 넓이가 제동 거리이다.</desc>
+  <style>
+    .phy-1-stopping-distance-ink{fill:var(--fig-ink)} .phy-1-stopping-distance-mut{fill:var(--fig-muted)}
+    .phy-1-stopping-distance-lbl{font-size:14px;fill:var(--fig-ink)} .phy-1-stopping-distance-sm{font-size:13px;fill:var(--fig-muted)} .phy-1-stopping-distance-b{font-weight:600}
+    .phy-1-stopping-distance-ax{stroke:var(--fig-ink);stroke-width:1.5;fill:none} .phy-1-stopping-distance-grid{stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 3;fill:none}
+  </style>
+<line x1="50" y1="232.5" x2="320" y2="232.5" class="phy-1-stopping-distance-grid"/><text x="42.0" y="236.5" text-anchor="end" class="phy-1-stopping-distance-sm">5</text>
+<line x1="50" y1="175.0" x2="320" y2="175.0" class="phy-1-stopping-distance-grid"/><text x="42.0" y="179.0" text-anchor="end" class="phy-1-stopping-distance-sm">10</text>
+<line x1="50" y1="117.5" x2="320" y2="117.5" class="phy-1-stopping-distance-grid"/><text x="42.0" y="121.5" text-anchor="end" class="phy-1-stopping-distance-sm">15</text>
+<line x1="50" y1="60.0" x2="320" y2="60.0" class="phy-1-stopping-distance-grid"/><text x="42.0" y="64.0" text-anchor="end" class="phy-1-stopping-distance-sm">20</text>
+<text x="50.0" y="308.0" text-anchor="middle" class="phy-1-stopping-distance-sm">0</text>
+<text x="104.0" y="308.0" text-anchor="middle" class="phy-1-stopping-distance-sm">1</text>
+<text x="158.0" y="308.0" text-anchor="middle" class="phy-1-stopping-distance-sm">2</text>
+<text x="212.0" y="308.0" text-anchor="middle" class="phy-1-stopping-distance-sm">3</text>
+<text x="266.0" y="308.0" text-anchor="middle" class="phy-1-stopping-distance-sm">4</text>
+<text x="320.0" y="308.0" text-anchor="middle" class="phy-1-stopping-distance-sm">5</text>
+<rect x="50.0" y="175.0" width="54.0" height="115.0" style="fill:var(--fig-soft-amber);stroke:none"/><path d="M104.0 290 L104.0 175.0 L212.0 290 Z" style="fill:var(--fig-soft-red);stroke:none"/><path d="M50.0 175.0 L104.0 175.0 L212.0 290" style="fill:none;stroke:var(--fig-blue);stroke-width:3;stroke-linejoin:round"/><path d="M50 48 L50 290 L328 290" class="phy-1-stopping-distance-ax"/><text x="50.0" y="40.0" text-anchor="middle" class="phy-1-stopping-distance-sm">속도 (m/s)</text>
+<text x="328.0" y="326.0" text-anchor="end" class="phy-1-stopping-distance-sm">시간 (s)</text>
+<text x="185.0" y="30.0" text-anchor="middle" class="phy-1-stopping-distance-lbl phy-1-stopping-distance-b">10 m/s로 달릴 때</text>
+<text x="77.0" y="276.0" text-anchor="middle" class="phy-1-stopping-distance-lbl">공주</text>
+<text x="77.0" y="260.0" text-anchor="middle" class="phy-1-stopping-distance-lbl phy-1-stopping-distance-b">10 m</text>
+<text x="144.0" y="276.0" text-anchor="middle" class="phy-1-stopping-distance-lbl">제동</text>
+<text x="144.0" y="260.0" text-anchor="middle" class="phy-1-stopping-distance-lbl phy-1-stopping-distance-b">10 m</text>
+<text x="320.0" y="66.0" text-anchor="end" class="phy-1-stopping-distance-lbl phy-1-stopping-distance-b">정지 거리 20 m</text>
+<text x="77.0" y="167.0" text-anchor="middle" class="phy-1-stopping-distance-sm">반응 시간 1 s</text>
+<line x1="410" y1="232.5" x2="680" y2="232.5" class="phy-1-stopping-distance-grid"/><text x="402.0" y="236.5" text-anchor="end" class="phy-1-stopping-distance-sm">5</text>
+<line x1="410" y1="175.0" x2="680" y2="175.0" class="phy-1-stopping-distance-grid"/><text x="402.0" y="179.0" text-anchor="end" class="phy-1-stopping-distance-sm">10</text>
+<line x1="410" y1="117.5" x2="680" y2="117.5" class="phy-1-stopping-distance-grid"/><text x="402.0" y="121.5" text-anchor="end" class="phy-1-stopping-distance-sm">15</text>
+<line x1="410" y1="60.0" x2="680" y2="60.0" class="phy-1-stopping-distance-grid"/><text x="402.0" y="64.0" text-anchor="end" class="phy-1-stopping-distance-sm">20</text>
+<text x="410.0" y="308.0" text-anchor="middle" class="phy-1-stopping-distance-sm">0</text>
+<text x="464.0" y="308.0" text-anchor="middle" class="phy-1-stopping-distance-sm">1</text>
+<text x="518.0" y="308.0" text-anchor="middle" class="phy-1-stopping-distance-sm">2</text>
+<text x="572.0" y="308.0" text-anchor="middle" class="phy-1-stopping-distance-sm">3</text>
+<text x="626.0" y="308.0" text-anchor="middle" class="phy-1-stopping-distance-sm">4</text>
+<text x="680.0" y="308.0" text-anchor="middle" class="phy-1-stopping-distance-sm">5</text>
+<rect x="410.0" y="60.0" width="54.0" height="230.0" style="fill:var(--fig-soft-amber);stroke:none"/><path d="M464.0 290 L464.0 60.0 L680.0 290 Z" style="fill:var(--fig-soft-red);stroke:none"/><path d="M410.0 60.0 L464.0 60.0 L680.0 290" style="fill:none;stroke:var(--fig-blue);stroke-width:3;stroke-linejoin:round"/><path d="M410 48 L410 290 L688 290" class="phy-1-stopping-distance-ax"/><text x="410.0" y="40.0" text-anchor="middle" class="phy-1-stopping-distance-sm">속도 (m/s)</text>
+<text x="688.0" y="326.0" text-anchor="end" class="phy-1-stopping-distance-sm">시간 (s)</text>
+<text x="545.0" y="30.0" text-anchor="middle" class="phy-1-stopping-distance-lbl phy-1-stopping-distance-b">20 m/s로 달릴 때</text>
+<text x="437.0" y="276.0" text-anchor="middle" class="phy-1-stopping-distance-lbl">공주</text>
+<text x="437.0" y="230.0" text-anchor="middle" class="phy-1-stopping-distance-lbl phy-1-stopping-distance-b">20 m</text>
+<text x="540.0" y="276.0" text-anchor="middle" class="phy-1-stopping-distance-lbl">제동</text>
+<text x="540.0" y="230.0" text-anchor="middle" class="phy-1-stopping-distance-lbl phy-1-stopping-distance-b">40 m</text>
+<text x="680.0" y="66.0" text-anchor="end" class="phy-1-stopping-distance-lbl phy-1-stopping-distance-b">정지 거리 60 m</text>
+<text x="437.0" y="52.0" text-anchor="middle" class="phy-1-stopping-distance-sm">반응 시간 1 s</text>
+<rect x="60" y="334" width="14" height="14" style="fill:var(--fig-soft-amber);stroke:none"/><text x="80.0" y="346.0" text-anchor="start" class="phy-1-stopping-distance-sm">공주 거리 (등속, 속력에 비례)</text>
+<rect x="330" y="334" width="14" height="14" style="fill:var(--fig-soft-red);stroke:none"/><text x="350.0" y="346.0" text-anchor="start" class="phy-1-stopping-distance-sm">제동 거리 (감속 5 m/s², 속력의 제곱에 비례)</text>
+<text x="360.0" y="372.0" text-anchor="middle" class="phy-1-stopping-distance-sm">속도–시간 그래프 아래 넓이 = 이동 거리. 속력이 2배이면 공주 거리는 2배, 제동 거리는 4배가 된다</text>
+</svg>

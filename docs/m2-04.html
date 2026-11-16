@@ -10,16 +10,17 @@
 <link rel="stylesheet" href="assets/katex/katex.min.css">
 <link rel="stylesheet" href="assets/book.css">
 <script src="assets/js/book.js" defer></script>
-
+<script src="assets/js/sims/molecule-models.js" defer></script>
 </head>
-<body class="">
+<body class="" data-lesson="m2-04" data-title="물질의 구성" data-where="중2">
 <header class="topbar">
   <button class="menu-btn" id="menu-btn" aria-controls="drawer" aria-expanded="false">목차</button>
   <a class="brand" href="index.html">한 권으로 잇는 과학</a>
   <button class="theme-btn" id="theme-btn" aria-label="밝은 화면과 어두운 화면 바꾸기">화면</button>
+  <div class="read-bar" id="read-bar" aria-hidden="true"><i></i></div>
 </header>
 <div class="shell">
-<aside class="drawer" id="drawer"><nav class="book-nav" aria-label="교재 목차"><a class="nav-home" href="index.html">처음으로 · 전체 목차</a><input class="nav-filter" id="nav-filter" type="search" placeholder="단원 이름으로 찾기" aria-label="단원 이름으로 찾기" autocomplete="off"><p class="nav-group">중학교 과학</p><details class="nav-part"><summary>1학년<span class="nav-count">7</span></summary><ul><li><a href="m1-01.html"><span class="nav-id">중1-1</span>과학과 인류의 지속가능한 삶</a></li><li><a href="m1-02.html"><span class="nav-id">중1-2</span>생물의 구성과 다양성</a></li><li><a href="m1-03.html"><span class="nav-id">중1-3</span>열</a></li><li><a href="m1-04.html"><span class="nav-id">중1-4</span>물질의 상태 변화</a></li><li><a href="m1-05.html"><span class="nav-id">중1-5</span>힘의 작용</a></li><li><a href="m1-06.html"><span class="nav-id">중1-6</span>기체의 성질</a></li><li><a href="m1-07.html"><span class="nav-id">중1-7</span>태양계</a></li></ul></details><details class="nav-part" open><summary>2학년<span class="nav-count">8</span></summary><ul><li><a href="m2-01.html"><span class="nav-id">중2-1</span>물질의 특성</a></li><li><a href="m2-02.html"><span class="nav-id">중2-2</span>지권의 변화</a></li><li><a href="m2-03.html"><span class="nav-id">중2-3</span>빛과 파동</a></li><li><a href="m2-04.html" aria-current="page"><span class="nav-id">중2-4</span>물질의 구성</a></li><li><a href="m2-05.html"><span class="nav-id">중2-5</span>식물과 에너지</a></li><li><a href="m2-06.html"><span class="nav-id">중2-6</span>동물과 에너지</a></li><li><a href="m2-07.html"><span class="nav-id">중2-7</span>전기와 자기</a></li><li><a href="m2-08.html"><span class="nav-id">중2-8</span>별과 우주</a></li></ul></details><details class="nav-part"><summary>3학년<span class="nav-count">8</span></summary><ul><li><a href="m3-01.html"><span class="nav-id">중3-1</span>화학 반응의 규칙성</a></li><li><a href="m3-02.html"><span class="nav-id">중3-2</span>날씨와 기후변화</a></li><li><a href="m3-03.html"><span class="nav-id">중3-3</span>수권과 해수의 순환</a></li><li><a href="m3-04.html"><span class="nav-id">중3-4</span>운동과 에너지</a></li><li><a href="m3-05.html"><span class="nav-id">중3-5</span>자극과 반응</a></li><li><a href="m3-06.html"><span class="nav-id">중3-6</span>생식과 유전</a></li><li><a href="m3-07.html"><span class="nav-id">중3-7</span>재해·재난과 안전</a></li><li><a href="m3-08.html"><span class="nav-id">중3-8</span>과학과 나의 미래</a></li></ul></details><p class="nav-group">고등학교 공통 과목</p><details class="nav-part"><summary>통합과학1<span class="nav-count">16</span></summary><p class="nav-unit">1단원 과학의 기초</p><ul><li><a href="1-1.html"><span class="nav-id">1-1</span>시간과 공간</a></li><li><a href="1-2.html"><span class="nav-id">1-2</span>기본량과 단위</a></li><li><a href="1-3.html"><span class="nav-id">1-3</span>측정과 어림, 측정 표준</a></li><li><a href="1-4.html"><span class="nav-id">1-4</span>정보와 신호: 아날로그에서 디지털로</a></li></ul><p class="nav-unit">2단원 물질과 규칙성</p><ul><li><a href="2-1.html"><span class="nav-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="2-2.html"><span class="nav-id">2-2</span>별의 진화와 원소의 생성</a></li><li><a href="2-3.html"><span class="nav-id">2-3</span>원소의 주기성과 화학 결합의 이유</a></li><li><a href="2-4.html"><span class="nav-id">2-4</span>이온 결합과 공유 결합</a></li><li><a href="2-5.html"><span class="nav-id">2-5</span>지각과 생명체 구성 물질의 규칙성</a></li><li><a href="2-6.html"><span class="nav-id">2-6</span>물질의 전기적 성질과 소재</a></li></ul><p class="nav-unit">3단원 시스템과 상호작용</p><ul><li><a href="3-1.html"><span class="nav-id">3-1</span>지구시스템의 구성과 상호작용</a></li><li><a href="3-2.html"><span class="nav-id">3-2</span>판구조론과 지권의 변화</a></li><li><a href="3-3.html"><span class="nav-id">3-3</span>중력과 운동</a></li><li><a href="3-4.html"><span class="nav-id">3-4</span>운동량과 충격량</a></li><li><a href="3-5.html"><span class="nav-id">3-5</span>생명 시스템과 물질대사</a></li><li><a href="3-6.html"><span class="nav-id">3-6</span>유전자와 단백질</a></li></ul></details><details class="nav-part"><summary>통합과학2<span class="nav-count">15</span></summary><p class="nav-unit">4단원 변화와 다양성</p><ul><li><a href="4-1.html"><span class="nav-id">4-1</span>지질시대의 환경 변화와 생물다양성</a></li><li><a href="4-2.html"><span class="nav-id">4-2</span>진화와 생물다양성</a></li><li><a href="4-3.html"><span class="nav-id">4-3</span>산화와 환원</a></li><li><a href="4-4.html"><span class="nav-id">4-4</span>산과 염기, 중화 반응</a></li><li><a href="4-5.html"><span class="nav-id">4-5</span>물질 변화와 에너지 출입</a></li></ul><p class="nav-unit">5단원 환경과 에너지</p><ul><li><a href="5-1.html"><span class="nav-id">5-1</span>생태계 구성 요소와 상호 관계</a></li><li><a href="5-2.html"><span class="nav-id">5-2</span>생태계 평형</a></li><li><a href="5-3.html"><span class="nav-id">5-3</span>지구온난화와 기후변화</a></li><li><a href="5-4.html"><span class="nav-id">5-4</span>태양 에너지와 에너지 전환</a></li><li><a href="5-5.html"><span class="nav-id">5-5</span>발전기와 전기 에너지</a></li><li><a href="5-6.html"><span class="nav-id">5-6</span>에너지 효율과 신재생 에너지</a></li></ul><p class="nav-unit">6단원 과학과 미래 사회</p><ul><li><a href="6-1.html"><span class="nav-id">6-1</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html"><span class="nav-id">6-2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html"><span class="nav-id">6-3</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html"><span class="nav-id">6-4</span>과학기술과 윤리</a></li></ul></details><p class="nav-group">고등학교 일반 선택</p><details class="nav-part"><summary>물리학<span class="nav-count">3</span></summary><ul><li><a href="phy-1.html"><span class="nav-id">물리학 1</span>힘과 에너지</a></li><li><a href="phy-2.html"><span class="nav-id">물리학 2</span>전기와 자기</a></li><li><a href="phy-3.html"><span class="nav-id">물리학 3</span>빛과 물질</a></li></ul></details><details class="nav-part"><summary>화학<span class="nav-count">4</span></summary><ul><li><a href="chem-1.html"><span class="nav-id">화학 1</span>화학의 언어</a></li><li><a href="chem-2.html"><span class="nav-id">화학 2</span>물질의 구조와 성질</a></li><li><a href="chem-3.html"><span class="nav-id">화학 3</span>화학 평형</a></li><li><a href="chem-4.html"><span class="nav-id">화학 4</span>역동적인 화학 반응</a></li></ul></details><details class="nav-part"><summary>생명과학<span class="nav-count">3</span></summary><ul><li><a href="bio-1.html"><span class="nav-id">생명과학 1</span>생명 시스템의 구성</a></li><li><a href="bio-2.html"><span class="nav-id">생명과학 2</span>항상성과 몸의 조절</a></li><li><a href="bio-3.html"><span class="nav-id">생명과학 3</span>생명의 연속성과 다양성</a></li></ul></details><details class="nav-part"><summary>지구과학<span class="nav-count">3</span></summary><ul><li><a href="earth-1.html"><span class="nav-id">지구과학 1</span>대기와 해양의 상호작용</a></li><li><a href="earth-2.html"><span class="nav-id">지구과학 2</span>지구의 역사와 한반도의 암석</a></li><li><a href="earth-3.html"><span class="nav-id">지구과학 3</span>태양계 천체와 별과 우주의 진화</a></li></ul></details><p class="nav-group">고등학교 진로 선택</p><details class="nav-part"><summary>역학과 에너지<span class="nav-count">2</span></summary><ul><li><a href="mech-1.html"><span class="nav-id">역학과 에너지 1</span>시공간과 운동</a></li><li><a href="mech-2.html"><span class="nav-id">역학과 에너지 2</span>열과 에너지</a></li></ul></details><details class="nav-part"><summary>전자기와 양자<span class="nav-count">3</span></summary><ul><li><a href="emq-1.html"><span class="nav-id">전자기와 양자 1</span>전자기적 상호작용</a></li><li><a href="emq-2.html"><span class="nav-id">전자기와 양자 2</span>빛과 정보 통신</a></li><li><a href="emq-3.html"><span class="nav-id">전자기와 양자 3</span>양자와 미시세계</a></li></ul></details><details class="nav-part"><summary>물질과 에너지<span class="nav-count">3</span></summary><ul><li><a href="matter-1.html"><span class="nav-id">물질과 에너지 1</span>물질의 세 가지 상태</a></li><li><a href="matter-2.html"><span class="nav-id">물질과 에너지 2</span>용액의 성질</a></li><li><a href="matter-3.html"><span class="nav-id">물질과 에너지 3</span>화학 변화의 자발성</a></li></ul></details><details class="nav-part"><summary>화학 반응의 세계<span class="nav-count">3</span></summary><ul><li><a href="rxn-1.html"><span class="nav-id">화학 반응의 세계 1</span>산·염기 평형</a></li><li><a href="rxn-2.html"><span class="nav-id">화학 반응의 세계 2</span>산화·환원 반응</a></li><li><a href="rxn-3.html"><span class="nav-id">화학 반응의 세계 3</span>탄소 화합물과 반응</a></li></ul></details><details class="nav-part"><summary>세포와 물질대사<span class="nav-count">3</span></summary><ul><li><a href="cell-1.html"><span class="nav-id">세포와 물질대사 1</span>세포</a></li><li><a href="cell-2.html"><span class="nav-id">세포와 물질대사 2</span>물질대사와 에너지</a></li><li><a href="cell-3.html"><span class="nav-id">세포와 물질대사 3</span>세포호흡과 광합성</a></li></ul></details><details class="nav-part"><summary>생물의 유전<span class="nav-count">3</span></summary><ul><li><a href="gene-1.html"><span class="nav-id">생물의 유전 1</span>유전자와 유전물질</a></li><li><a href="gene-2.html"><span class="nav-id">생물의 유전 2</span>유전자의 발현</a></li><li><a href="gene-3.html"><span class="nav-id">생물의 유전 3</span>생명공학기술</a></li></ul></details><details class="nav-part"><summary>지구시스템과학<span class="nav-count">2</span></summary><ul><li><a href="esys-1.html"><span class="nav-id">지구시스템과학 1</span>지구 탄생과 생동하는 지구</a></li><li><a href="esys-2.html"><span class="nav-id">지구시스템과학 2</span>해수의 운동</a></li></ul></details><details class="nav-part"><summary>행성우주과학<span class="nav-count">2</span></summary><ul><li><a href="astro-1.html"><span class="nav-id">행성우주과학 1</span>우주탐사와 행성계</a></li><li><a href="astro-2.html"><span class="nav-id">행성우주과학 2</span>태양과 별의 관측</a></li></ul></details><p class="nav-group">찾아보기</p><ul class="nav-extra"><li><a href="map.html">개념 연계 지도</a></li><li><a href="glossary.html">핵심 용어 사전</a></li><li><a href="sims.html">시뮬레이션 모아 보기</a></li><li><a href="guide.html">교재 설계 안내</a></li><li><a href="appendix-standards.html">통합과학 성취기준 원문</a></li><li><a href="appendix-map.html">통합과학 대학·산업 연계 지도</a></li></ul></nav></aside>
+<aside class="drawer" id="drawer"><nav class="book-nav" aria-label="교재 목차"><a class="nav-home" href="index.html">처음으로 · 전체 목차</a><input class="nav-filter" id="nav-filter" type="search" placeholder="단원 이름으로 찾기" aria-label="단원 이름으로 찾기" autocomplete="off"><p class="nav-group">중학교 과학</p><details class="nav-part"><summary>1학년<span class="nav-count">7</span></summary><ul><li><a href="m1-01.html" data-id="m1-01"><span class="nav-id">중1-1</span>과학과 인류의 지속가능한 삶</a></li><li><a href="m1-02.html" data-id="m1-02"><span class="nav-id">중1-2</span>생물의 구성과 다양성</a></li><li><a href="m1-03.html" data-id="m1-03"><span class="nav-id">중1-3</span>열</a></li><li><a href="m1-04.html" data-id="m1-04"><span class="nav-id">중1-4</span>물질의 상태 변화</a></li><li><a href="m1-05.html" data-id="m1-05"><span class="nav-id">중1-5</span>힘의 작용</a></li><li><a href="m1-06.html" data-id="m1-06"><span class="nav-id">중1-6</span>기체의 성질</a></li><li><a href="m1-07.html" data-id="m1-07"><span class="nav-id">중1-7</span>태양계</a></li></ul></details><details class="nav-part" open><summary>2학년<span class="nav-count">8</span></summary><ul><li><a href="m2-01.html" data-id="m2-01"><span class="nav-id">중2-1</span>물질의 특성</a></li><li><a href="m2-02.html" data-id="m2-02"><span class="nav-id">중2-2</span>지권의 변화</a></li><li><a href="m2-03.html" data-id="m2-03"><span class="nav-id">중2-3</span>빛과 파동</a></li><li><a href="m2-04.html" data-id="m2-04" aria-current="page"><span class="nav-id">중2-4</span>물질의 구성</a></li><li><a href="m2-05.html" data-id="m2-05"><span class="nav-id">중2-5</span>식물과 에너지</a></li><li><a href="m2-06.html" data-id="m2-06"><span class="nav-id">중2-6</span>동물과 에너지</a></li><li><a href="m2-07.html" data-id="m2-07"><span class="nav-id">중2-7</span>전기와 자기</a></li><li><a href="m2-08.html" data-id="m2-08"><span class="nav-id">중2-8</span>별과 우주</a></li></ul></details><details class="nav-part"><summary>3학년<span class="nav-count">8</span></summary><ul><li><a href="m3-01.html" data-id="m3-01"><span class="nav-id">중3-1</span>화학 반응의 규칙성</a></li><li><a href="m3-02.html" data-id="m3-02"><span class="nav-id">중3-2</span>날씨와 기후변화</a></li><li><a href="m3-03.html" data-id="m3-03"><span class="nav-id">중3-3</span>수권과 해수의 순환</a></li><li><a href="m3-04.html" data-id="m3-04"><span class="nav-id">중3-4</span>운동과 에너지</a></li><li><a href="m3-05.html" data-id="m3-05"><span class="nav-id">중3-5</span>자극과 반응</a></li><li><a href="m3-06.html" data-id="m3-06"><span class="nav-id">중3-6</span>생식과 유전</a></li><li><a href="m3-07.html" data-id="m3-07"><span class="nav-id">중3-7</span>재해·재난과 안전</a></li><li><a href="m3-08.html" data-id="m3-08"><span class="nav-id">중3-8</span>과학과 나의 미래</a></li></ul></details><p class="nav-group">고등학교 공통 과목</p><details class="nav-part"><summary>통합과학1<span class="nav-count">16</span></summary><p class="nav-unit">1단원 과학의 기초</p><ul><li><a href="1-1.html" data-id="1-1"><span class="nav-id">1-1</span>시간과 공간</a></li><li><a href="1-2.html" data-id="1-2"><span class="nav-id">1-2</span>기본량과 단위</a></li><li><a href="1-3.html" data-id="1-3"><span class="nav-id">1-3</span>측정과 어림, 측정 표준</a></li><li><a href="1-4.html" data-id="1-4"><span class="nav-id">1-4</span>정보와 신호: 아날로그에서 디지털로</a></li></ul><p class="nav-unit">2단원 물질과 규칙성</p><ul><li><a href="2-1.html" data-id="2-1"><span class="nav-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="2-2.html" data-id="2-2"><span class="nav-id">2-2</span>별의 진화와 원소의 생성</a></li><li><a href="2-3.html" data-id="2-3"><span class="nav-id">2-3</span>원소의 주기성과 화학 결합의 이유</a></li><li><a href="2-4.html" data-id="2-4"><span class="nav-id">2-4</span>이온 결합과 공유 결합</a></li><li><a href="2-5.html" data-id="2-5"><span class="nav-id">2-5</span>지각과 생명체 구성 물질의 규칙성</a></li><li><a href="2-6.html" data-id="2-6"><span class="nav-id">2-6</span>물질의 전기적 성질과 소재</a></li></ul><p class="nav-unit">3단원 시스템과 상호작용</p><ul><li><a href="3-1.html" data-id="3-1"><span class="nav-id">3-1</span>지구시스템의 구성과 상호작용</a></li><li><a href="3-2.html" data-id="3-2"><span class="nav-id">3-2</span>판구조론과 지권의 변화</a></li><li><a href="3-3.html" data-id="3-3"><span class="nav-id">3-3</span>중력과 운동</a></li><li><a href="3-4.html" data-id="3-4"><span class="nav-id">3-4</span>운동량과 충격량</a></li><li><a href="3-5.html" data-id="3-5"><span class="nav-id">3-5</span>생명 시스템과 물질대사</a></li><li><a href="3-6.html" data-id="3-6"><span class="nav-id">3-6</span>유전자와 단백질</a></li></ul></details><details class="nav-part"><summary>통합과학2<span class="nav-count">15</span></summary><p class="nav-unit">4단원 변화와 다양성</p><ul><li><a href="4-1.html" data-id="4-1"><span class="nav-id">4-1</span>지질시대의 환경 변화와 생물다양성</a></li><li><a href="4-2.html" data-id="4-2"><span class="nav-id">4-2</span>진화와 생물다양성</a></li><li><a href="4-3.html" data-id="4-3"><span class="nav-id">4-3</span>산화와 환원</a></li><li><a href="4-4.html" data-id="4-4"><span class="nav-id">4-4</span>산과 염기, 중화 반응</a></li><li><a href="4-5.html" data-id="4-5"><span class="nav-id">4-5</span>물질 변화와 에너지 출입</a></li></ul><p class="nav-unit">5단원 환경과 에너지</p><ul><li><a href="5-1.html" data-id="5-1"><span class="nav-id">5-1</span>생태계 구성 요소와 상호 관계</a></li><li><a href="5-2.html" data-id="5-2"><span class="nav-id">5-2</span>생태계 평형</a></li><li><a href="5-3.html" data-id="5-3"><span class="nav-id">5-3</span>지구온난화와 기후변화</a></li><li><a href="5-4.html" data-id="5-4"><span class="nav-id">5-4</span>태양 에너지와 에너지 전환</a></li><li><a href="5-5.html" data-id="5-5"><span class="nav-id">5-5</span>발전기와 전기 에너지</a></li><li><a href="5-6.html" data-id="5-6"><span class="nav-id">5-6</span>에너지 효율과 신재생 에너지</a></li></ul><p class="nav-unit">6단원 과학과 미래 사회</p><ul><li><a href="6-1.html" data-id="6-1"><span class="nav-id">6-1</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html" data-id="6-2"><span class="nav-id">6-2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html" data-id="6-3"><span class="nav-id">6-3</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html" data-id="6-4"><span class="nav-id">6-4</span>과학기술과 윤리</a></li></ul></details><p class="nav-group">고등학교 일반 선택</p><details class="nav-part"><summary>물리학<span class="nav-count">3</span></summary><ul><li><a href="phy-1.html" data-id="phy-1"><span class="nav-id">물리학 1</span>힘과 에너지</a></li><li><a href="phy-2.html" data-id="phy-2"><span class="nav-id">물리학 2</span>전기와 자기</a></li><li><a href="phy-3.html" data-id="phy-3"><span class="nav-id">물리학 3</span>빛과 물질</a></li></ul></details><details class="nav-part"><summary>화학<span class="nav-count">4</span></summary><ul><li><a href="chem-1.html" data-id="chem-1"><span class="nav-id">화학 1</span>화학의 언어</a></li><li><a href="chem-2.html" data-id="chem-2"><span class="nav-id">화학 2</span>물질의 구조와 성질</a></li><li><a href="chem-3.html" data-id="chem-3"><span class="nav-id">화학 3</span>화학 평형</a></li><li><a href="chem-4.html" data-id="chem-4"><span class="nav-id">화학 4</span>역동적인 화학 반응</a></li></ul></details><details class="nav-part"><summary>생명과학<span class="nav-count">3</span></summary><ul><li><a href="bio-1.html" data-id="bio-1"><span class="nav-id">생명과학 1</span>생명 시스템의 구성</a></li><li><a href="bio-2.html" data-id="bio-2"><span class="nav-id">생명과학 2</span>항상성과 몸의 조절</a></li><li><a href="bio-3.html" data-id="bio-3"><span class="nav-id">생명과학 3</span>생명의 연속성과 다양성</a></li></ul></details><details class="nav-part"><summary>지구과학<span class="nav-count">3</span></summary><ul><li><a href="earth-1.html" data-id="earth-1"><span class="nav-id">지구과학 1</span>대기와 해양의 상호작용</a></li><li><a href="earth-2.html" data-id="earth-2"><span class="nav-id">지구과학 2</span>지구의 역사와 한반도의 암석</a></li><li><a href="earth-3.html" data-id="earth-3"><span class="nav-id">지구과학 3</span>태양계 천체와 별과 우주의 진화</a></li></ul></details><p class="nav-group">고등학교 진로 선택</p><details class="nav-part"><summary>역학과 에너지<span class="nav-count">3</span></summary><ul><li><a href="mech-1.html" data-id="mech-1"><span class="nav-id">역학과 에너지 1</span>시공간과 운동</a></li><li><a href="mech-2.html" data-id="mech-2"><span class="nav-id">역학과 에너지 2</span>열과 에너지</a></li><li><a href="mech-3.html" data-id="mech-3"><span class="nav-id">역학과 에너지 3</span>탄성파와 소리</a></li></ul></details><details class="nav-part"><summary>전자기와 양자<span class="nav-count">3</span></summary><ul><li><a href="emq-1.html" data-id="emq-1"><span class="nav-id">전자기와 양자 1</span>전자기적 상호작용</a></li><li><a href="emq-2.html" data-id="emq-2"><span class="nav-id">전자기와 양자 2</span>빛과 정보 통신</a></li><li><a href="emq-3.html" data-id="emq-3"><span class="nav-id">전자기와 양자 3</span>양자와 미시세계</a></li></ul></details><details class="nav-part"><summary>물질과 에너지<span class="nav-count">4</span></summary><ul><li><a href="matter-1.html" data-id="matter-1"><span class="nav-id">물질과 에너지 1</span>물질의 세 가지 상태</a></li><li><a href="matter-2.html" data-id="matter-2"><span class="nav-id">물질과 에너지 2</span>용액의 성질</a></li><li><a href="matter-3.html" data-id="matter-3"><span class="nav-id">물질과 에너지 3</span>화학 변화의 자발성</a></li><li><a href="matter-4.html" data-id="matter-4"><span class="nav-id">물질과 에너지 4</span>반응 속도</a></li></ul></details><details class="nav-part"><summary>화학 반응의 세계<span class="nav-count">3</span></summary><ul><li><a href="rxn-1.html" data-id="rxn-1"><span class="nav-id">화학 반응의 세계 1</span>산·염기 평형</a></li><li><a href="rxn-2.html" data-id="rxn-2"><span class="nav-id">화학 반응의 세계 2</span>산화·환원 반응</a></li><li><a href="rxn-3.html" data-id="rxn-3"><span class="nav-id">화학 반응의 세계 3</span>탄소 화합물과 반응</a></li></ul></details><details class="nav-part"><summary>세포와 물질대사<span class="nav-count">3</span></summary><ul><li><a href="cell-1.html" data-id="cell-1"><span class="nav-id">세포와 물질대사 1</span>세포</a></li><li><a href="cell-2.html" data-id="cell-2"><span class="nav-id">세포와 물질대사 2</span>물질대사와 에너지</a></li><li><a href="cell-3.html" data-id="cell-3"><span class="nav-id">세포와 물질대사 3</span>세포호흡과 광합성</a></li></ul></details><details class="nav-part"><summary>생물의 유전<span class="nav-count">3</span></summary><ul><li><a href="gene-1.html" data-id="gene-1"><span class="nav-id">생물의 유전 1</span>유전자와 유전물질</a></li><li><a href="gene-2.html" data-id="gene-2"><span class="nav-id">생물의 유전 2</span>유전자의 발현</a></li><li><a href="gene-3.html" data-id="gene-3"><span class="nav-id">생물의 유전 3</span>생명공학기술</a></li></ul></details><details class="nav-part"><summary>지구시스템과학<span class="nav-count">3</span></summary><ul><li><a href="esys-1.html" data-id="esys-1"><span class="nav-id">지구시스템과학 1</span>지구 탄생과 생동하는 지구</a></li><li><a href="esys-2.html" data-id="esys-2"><span class="nav-id">지구시스템과학 2</span>해수의 운동</a></li><li><a href="esys-3.html" data-id="esys-3"><span class="nav-id">지구시스템과학 3</span>강수 과정과 대기의 운동</a></li></ul></details><details class="nav-part"><summary>행성우주과학<span class="nav-count">3</span></summary><ul><li><a href="astro-1.html" data-id="astro-1"><span class="nav-id">행성우주과학 1</span>우주탐사와 행성계</a></li><li><a href="astro-2.html" data-id="astro-2"><span class="nav-id">행성우주과학 2</span>태양과 별의 관측</a></li><li><a href="astro-3.html" data-id="astro-3"><span class="nav-id">행성우주과학 3</span>은하와 우주</a></li></ul></details><p class="nav-group">찾아보기</p><ul class="nav-extra"><li><a href="map.html">개념 연계 지도</a></li><li><a href="glossary.html">핵심 용어 사전</a></li><li><a href="sims.html">시뮬레이션 모아 보기</a></li><li><a href="guide.html">교재 설계 안내</a></li><li><a href="appendix-standards.html">통합과학 성취기준 원문</a></li><li><a href="appendix-map.html">통합과학 대학·산업 연계 지도</a></li></ul></nav></aside>
 <main class="main" id="main">
 <div class="lesson-grid"><nav class="ladder" aria-label="이 단원의 흐름"><p class="ladder-title">이 단원의 흐름</p><ol><li class="extra"><a href="#단원-들어가기">단원 들어가기</a></li><li class="s1"><a href="#step-1"><b>STEP 1</b> 이전 학습 다시 보기</a></li><li class="s2"><a href="#step-2"><b>STEP 2</b> 기초 다지기</a></li><li class="s3"><a href="#step-3"><b>STEP 3</b> 핵심 개념</a></li><li class="s4"><a href="#step-4"><b>STEP 4</b> 오개념 바로잡기</a></li><li class="s5"><a href="#step-5"><b>STEP 5</b> 다음 단계로 한 걸음 더</a></li><li class="s6"><a href="#step-6"><b>STEP 6</b> 생활·산업·진로 연결</a></li><li class="extra"><a href="#탐구-활동-같은-족-원소의-유사성-이온의-이동-관찰하기">탐구 활동 — 같은 족 원소의 유사성, 이온의 이동 관찰하기</a></li><li class="extra"><a href="#개념-확인-문제">개념 확인 문제</a></li><li class="extra"><a href="#한눈에-정리">한눈에 정리</a></li></ol></nav><article class="prose lesson"><header class="lesson-hero st-matter">
   <p class="eyebrow">중학교 과학 · 2학년</p>
@@ -162,7 +163,7 @@
 <hr>
 <h2 id="step-3" class="step-h s3"><span class="step-badge s3">STEP 3</span><span class="h-text">핵심 개념</span></h2>
 <h3 id="①-원소와-화합물-물은-원소일까-9과11-01">① 원소와 화합물 — 물은 원소일까? [9과11-01]</h3>
-<p>옛날 그리스의 철학자 아리스토텔레스는 세상의 모든 물질이 물, 불, 흙, 공기 네 가지 기본 성분으로 이루어져 있다고 생각했다. 이 생각은 2000년 가까이 이어졌다. 그런데 18세기 후반 프랑스의 과학자 <strong>라부아지에</strong>는 뜨겁게 달군 철 관에 물을 통과시켜 물을 수소와 산소로 분해하였다. <strong>물은 기본 성분이 아니었던 것이다.</strong></p>
+<p>옛날 그리스의 철학자 아리스토텔레스는 세상의 모든 물질이 물, 불, 흙, 공기 네 가지 기본 성분으로 이루어져 있다고 생각했다. 이 생각은 2000년 가까이 이어졌다. 그런데 18세기 후반 프랑스의 과학자 <strong>라부아지에</strong>는 뜨겁게 달군 철 관에 물을 통과시켜 물을 분해하고 수소를 얻었다(물에서 나온 산소는 철과 결합하였다). 물이 수소와 산소로 이루어져 있음이 밝혀진 것이다. <strong>물은 기본 성분이 아니었던 것이다.</strong></p>
 <aside class="callout important"><p class="callout-title">핵심</p>
 <ul>
 <li><strong>원소(element)</strong>: 물질을 이루는 기본 성분으로, 화학적인 방법으로 더 이상 다른 물질로 분해되지 않는다. (예: 수소, 산소, 탄소, 철, 금)</li>
@@ -375,6 +376,8 @@
 <aside class="callout warning"><p class="callout-title">주의</p><p><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathrm">O</span></span></span></span></span>(물)와 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span>(과산화 수소)는 숫자 하나 차이지만 <strong>전혀 다른 물질</strong>이다. 과산화 수소는 상처 소독이나 표백에 쓰이며 마시면 안 된다. 화학식의 작은 숫자 하나가 물질의 정체를 바꾼다.</p>
 </aside>
 <p>금속인 철, 구리처럼 분자를 이루지 않고 원자가 계속 늘어서 있는 물질은 원소 기호 하나로 Fe, Cu처럼 나타낸다. 염화 나트륨처럼 이온으로 이루어진 물질은 ⑧에서 다룬다.</p>
+<figure class="sim" id="sim-molecule-models" data-sim="molecule-models"><noscript>이 애니메이션은 자바스크립트가 필요하다.</noscript></figure>
+
 <h4 id="예제-2">예제 2</h4>
 <p><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">2</span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathrm">O</span></span></span></span></span>와 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">3N</span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span>에 대해 각각 (1) 분자의 수, (2) 원자의 종류, (3) 전체 원자의 수를 구하시오.</p>
 <p><strong>풀이</strong></p>
@@ -412,7 +415,7 @@
 <tr>
 <td>프레온 가스(한 종류)</td>
 <td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">CC</span><span class="mord"><span class="mord mathrm">l</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathrm">F</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></td>
-<td>성층권 오존층을 파괴하여 사용이 금지되었다</td>
+<td>성층권 오존층을 파괴하여 국제 협약으로 생산과 사용이 규제되었다</td>
 </tr>
 <tr>
 <td>수은</td>
@@ -456,6 +459,94 @@
 <aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 원자를 커다란 축구 경기장이라고 하면, 원자핵은 경기장 한가운데 놓인 작은 구슬 정도이고, 전자는 관중석 근처를 날아다니는 먼지 같다. 그런데 경기장 무게의 거의 전부가 그 구슬에 들어 있다.</p>
 </aside>
 <p>원자를 입자 모형으로 나타낼 때는 가운데에 원자핵을 그리고 그 안에 (+)의 개수(양성자 수)를 쓰고, 주위에 (−)로 표시한 전자를 양성자 수만큼 그린다.</p>
+<figure class="fig" id="fig-m2-04-atom-structure"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-m2-04-atom d-m2-04-atom">
+  <title id="t-m2-04-atom">그림 중2-4-1 원자의 구조와 원자 모형</title>
+  <desc id="d-m2-04-atom">원자의 중심에는 양성자와 중성자로 이루어진 원자핵이 있고, 그 주위를 전자가 움직인다. 원자 모형에서는 원자핵에 양성자 수만큼 (+)를 쓰고 전자를 양성자 수만큼 그린다. 양성자 수와 전자 수가 같아 원자는 전기적으로 중성이다. 크기 비율은 실제와 다른 모식도이다.</desc>
+  <style>
+    .m2-04-atom-t{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .m2-04-atom-k{font-size:14px;fill:var(--fig-ink)}
+    .m2-04-atom-s{font-size:13px;fill:var(--fig-muted)}
+    .m2-04-atom-cloud{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2;stroke-dasharray:5 4}
+    .m2-04-atom-nuc{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2}
+    .m2-04-atom-e{fill:var(--fig-blue)}
+    .m2-04-atom-et{font-size:13px;font-weight:700;fill:var(--fig-panel)}
+    .m2-04-atom-pt{font-size:15px;font-weight:700;fill:var(--fig-red)}
+  </style>
+<circle cx="170" cy="190" r="120" class="m2-04-atom-cloud"/>
+<circle cx="170" cy="190" r="30" class="m2-04-atom-nuc"/>
+<circle cx="160" cy="181" r="11" style="fill:var(--fig-red)"/>
+<text x="160" y="186" text-anchor="middle" class="m2-04-atom-et">+</text>
+<circle cx="180" cy="199" r="11" style="fill:var(--fig-red)"/>
+<text x="180" y="204" text-anchor="middle" class="m2-04-atom-et">+</text>
+<circle cx="180" cy="181" r="11" style="fill:var(--fig-line)"/>
+<circle cx="160" cy="199" r="11" style="fill:var(--fig-line)"/>
+<circle cx="248.0" cy="128.0" r="9" class="m2-04-atom-e"/>
+<text x="248.0" y="132.5" text-anchor="middle" class="m2-04-atom-et">−</text>
+<circle cx="82.0" cy="238.0" r="9" class="m2-04-atom-e"/>
+<text x="82.0" y="242.5" text-anchor="middle" class="m2-04-atom-et">−</text>
+<line x1="198" y1="204" x2="320" y2="250" style="stroke:var(--fig-muted);stroke-width:1"/>
+<text x="216" y="282" class="m2-04-atom-k">원자핵: 양성자(+)와 중성자</text>
+<circle cx="224" cy="300" r="7" style="fill:var(--fig-red)"/><text x="236" y="305" class="m2-04-atom-s">양성자 (+)</text>
+<circle cx="320" cy="300" r="7" style="fill:var(--fig-line)"/><text x="332" y="305" class="m2-04-atom-s">중성자</text>
+<line x1="257" y1="122" x2="320" y2="80" style="stroke:var(--fig-muted);stroke-width:1"/>
+<text x="324" y="82" class="m2-04-atom-k">전자 (−)</text>
+<text x="324" y="100" class="m2-04-atom-s">원자핵 주위를 움직인다</text>
+<text x="170" y="38" text-anchor="middle" class="m2-04-atom-t">헬륨 원자의 구조</text>
+<text x="170" y="350" text-anchor="middle" class="m2-04-atom-s">원자핵은 실제로 원자의 약 10만분의 1 크기이다</text>
+<text x="530" y="38" text-anchor="middle" class="m2-04-atom-t">원자 모형으로 나타내기</text>
+<circle cx="410" cy="120" r="52" class="m2-04-atom-cloud"/>
+<circle cx="410" cy="120" r="15" class="m2-04-atom-nuc"/>
+<text x="410" y="125" text-anchor="middle" class="m2-04-atom-pt">+1</text>
+<circle cx="424.0" cy="86.8" r="6.5" class="m2-04-atom-e"/>
+<text x="424.0" y="91.3" text-anchor="middle" class="m2-04-atom-et">−</text>
+<text x="410" y="192" text-anchor="middle" class="m2-04-atom-k">수소 H · 전자 1개</text>
+<circle cx="610" cy="120" r="52" class="m2-04-atom-cloud"/>
+<circle cx="610" cy="120" r="15" class="m2-04-atom-nuc"/>
+<text x="610" y="125" text-anchor="middle" class="m2-04-atom-pt">+2</text>
+<circle cx="624.0" cy="86.8" r="6.5" class="m2-04-atom-e"/>
+<text x="624.0" y="91.3" text-anchor="middle" class="m2-04-atom-et">−</text>
+<circle cx="596.0" cy="153.2" r="6.5" class="m2-04-atom-e"/>
+<text x="596.0" y="157.7" text-anchor="middle" class="m2-04-atom-et">−</text>
+<text x="610" y="192" text-anchor="middle" class="m2-04-atom-k">헬륨 He · 전자 2개</text>
+<circle cx="410" cy="260" r="52" class="m2-04-atom-cloud"/>
+<circle cx="410" cy="260" r="15" class="m2-04-atom-nuc"/>
+<text x="410" y="265" text-anchor="middle" class="m2-04-atom-pt">+6</text>
+<circle cx="424.8" cy="225.0" r="6.5" class="m2-04-atom-e"/>
+<text x="424.8" y="229.5" text-anchor="middle" class="m2-04-atom-et">−</text>
+<circle cx="439.8" cy="256.3" r="6.5" class="m2-04-atom-e"/>
+<text x="439.8" y="260.8" text-anchor="middle" class="m2-04-atom-et">−</text>
+<circle cx="432.9" cy="290.3" r="6.5" class="m2-04-atom-e"/>
+<text x="432.9" y="294.8" text-anchor="middle" class="m2-04-atom-et">−</text>
+<circle cx="398.3" cy="287.6" r="6.5" class="m2-04-atom-e"/>
+<text x="398.3" y="292.1" text-anchor="middle" class="m2-04-atom-et">−</text>
+<circle cx="372.3" cy="264.7" r="6.5" class="m2-04-atom-e"/>
+<text x="372.3" y="269.2" text-anchor="middle" class="m2-04-atom-et">−</text>
+<circle cx="391.9" cy="236.1" r="6.5" class="m2-04-atom-e"/>
+<text x="391.9" y="240.6" text-anchor="middle" class="m2-04-atom-et">−</text>
+<text x="410" y="332" text-anchor="middle" class="m2-04-atom-k">탄소 C · 전자 6개</text>
+<circle cx="610" cy="260" r="52" class="m2-04-atom-cloud"/>
+<circle cx="610" cy="260" r="15" class="m2-04-atom-nuc"/>
+<text x="610" y="265" text-anchor="middle" class="m2-04-atom-pt">+8</text>
+<circle cx="624.8" cy="225.0" r="6.5" class="m2-04-atom-e"/>
+<text x="624.8" y="229.5" text-anchor="middle" class="m2-04-atom-et">−</text>
+<circle cx="637.8" cy="248.7" r="6.5" class="m2-04-atom-e"/>
+<text x="637.8" y="253.2" text-anchor="middle" class="m2-04-atom-et">−</text>
+<circle cx="645.0" cy="274.8" r="6.5" class="m2-04-atom-e"/>
+<text x="645.0" y="279.3" text-anchor="middle" class="m2-04-atom-et">−</text>
+<circle cx="621.3" cy="287.8" r="6.5" class="m2-04-atom-e"/>
+<text x="621.3" y="292.3" text-anchor="middle" class="m2-04-atom-et">−</text>
+<circle cx="595.2" cy="295.0" r="6.5" class="m2-04-atom-e"/>
+<text x="595.2" y="299.5" text-anchor="middle" class="m2-04-atom-et">−</text>
+<circle cx="582.2" cy="271.3" r="6.5" class="m2-04-atom-e"/>
+<text x="582.2" y="275.8" text-anchor="middle" class="m2-04-atom-et">−</text>
+<circle cx="575.0" cy="245.2" r="6.5" class="m2-04-atom-e"/>
+<text x="575.0" y="249.7" text-anchor="middle" class="m2-04-atom-et">−</text>
+<circle cx="598.7" cy="232.2" r="6.5" class="m2-04-atom-e"/>
+<text x="598.7" y="236.7" text-anchor="middle" class="m2-04-atom-et">−</text>
+<text x="610" y="332" text-anchor="middle" class="m2-04-atom-k">산소 O · 전자 8개</text>
+<text x="510" y="350" text-anchor="middle" class="m2-04-atom-s">양성자 수 = 전자 수 → (+)와 (−)가 같아 원자는 중성</text>
+</svg></div><figcaption><b>그림 중2-4-1 원자의 구조와 원자 모형</b> 원자의 중심에는 양성자와 중성자로 이루어진 원자핵이 있고, 그 주위를 전자가 움직인다. 원자 모형에서는 원자핵에 양성자 수만큼 (+)를 쓰고 전자를 양성자 수만큼 그린다. 양성자 수와 전자 수가 같아 원자는 전기적으로 중성이다. 크기 비율은 실제와 다른 모식도이다.</figcaption></figure>
+
 <h4 id="예제-4">예제 4</h4>
 <p>어떤 원자의 원자핵에 양성자가 8개, 중성자가 8개 들어 있다.
 (1) 이 원자의 전자 수는? (2) 원자 전체의 전하는? (3) 원자핵의 전하는?</p>
@@ -605,7 +696,7 @@
 </thead><tbody><tr>
 <td><strong>1족</strong>(수소 제외)</td>
 <td>리튬(Li), 나트륨(Na), 칼륨(K)</td>
-<td>칼로 자를 수 있을 만큼 무른 금속이다. 자른 면은 은백색으로 빛나다가 곧 광택을 잃는다. <strong>물과 격렬하게 반응</strong>하여 기체가 생기고, 반응 후 용액에 페놀프탈레인 용액을 떨어뜨리면 붉게 변한다</td>
+<td>칼로 자를 수 있을 만큼 무른 금속이다. 자른 면은 은백색으로 빛나다가 곧 광택을 잃는다. <strong>물과 활발하게 반응</strong>하여 기체가 생기고, 반응 후 용액에 페놀프탈레인 용액을 떨어뜨리면 붉게 변한다</td>
 <td>공기 중 산소나 물과 반응하지 않도록 <strong>석유(기름) 속에 보관</strong>한다. 리튬은 이차 전지의 재료이다</td>
 </tr>
 <tr>
@@ -710,7 +801,7 @@
 <td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7713em;"></span><span class="mord"><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">l</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7713em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">−</span></span></span></span></span></span></span></span></span></span></span></span></td>
 <td>17</td>
 <td>18</td>
-<td>음이온: 원소 이름 끝을 &#39;~화&#39;로 바꾸고 + &#39;이온&#39; (염소 → 염화)</td>
+<td>음이온: 원소 이름 + &#39;화 이온&#39;(&#39;소&#39;로 끝나면 &#39;소&#39;를 뺀다) (염소 → 염화, 황 → 황화)</td>
 </tr>
 <tr>
 <td>산화 이온</td>
@@ -723,6 +814,111 @@
 <p>여러 원자가 모여 하나의 이온처럼 행동하는 이온도 있다. 수산화 이온(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7713em;"></span><span class="mord"><span class="mord mathrm">O</span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7713em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">−</span></span></span></span></span></span></span></span></span></span></span></span>), 황산 이온(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1205em;vertical-align:-0.2663em;"></span><span class="mord"><span class="mord mathrm">S</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8542em;"><span style="top:-2.4337em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">4</span></span></span><span style="top:-3.1031em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">2</span><span class="mord mtight">−</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2663em;"><span></span></span></span></span></span></span></span></span></span></span>), 질산 이온(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0778em;vertical-align:-0.2663em;"></span><span class="mord"><span class="mord mathrm">N</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8115em;"><span style="top:-2.4337em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">3</span></span></span><span style="top:-3.1031em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">−</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2663em;"><span></span></span></span></span></span></span></span></span></span></span>), 탄산 이온(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1205em;vertical-align:-0.2663em;"></span><span class="mord"><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8542em;"><span style="top:-2.4337em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">3</span></span></span><span style="top:-3.1031em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">2</span><span class="mord mtight">−</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2663em;"><span></span></span></span></span></span></span></span></span></span></span>), 암모늄 이온(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0778em;vertical-align:-0.2663em;"></span><span class="mord"><span class="mord mathrm">N</span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8115em;"><span style="top:-2.4337em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">4</span></span></span><span style="top:-3.1031em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">+</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2663em;"><span></span></span></span></span></span></span></span></span></span></span>), 과망가니즈산 이온(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0778em;vertical-align:-0.2663em;"></span><span class="mord"><span class="mord mathrm">Mn</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8115em;"><span style="top:-2.4337em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">4</span></span></span><span style="top:-3.1031em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">−</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2663em;"><span></span></span></span></span></span></span></span></span></span></span>)이 그 예이다.</p>
 <aside class="callout warning"><p class="callout-title">주의</p><p>이온이 될 때 변하는 것은 <strong>전자 수뿐</strong>이다. 양성자 수가 변하는 것이 아니다. <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7713em;"></span><span class="mord"><span class="mord mathrm">N</span><span class="mord"><span class="mord mathrm">a</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7713em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">+</span></span></span></span></span></span></span></span></span></span></span></span>는 양성자를 하나 더 얻은 것이 아니라 <strong>전자를 하나 잃은</strong> 것이다. 그래서 나트륨 이온은 여전히 나트륨이다.</p>
 </aside>
+<figure class="fig" id="fig-m2-04-ion-formation"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t-m2-04-ion d-m2-04-ion">
+  <title id="t-m2-04-ion">그림 중2-4-2 이온이 만들어지는 과정</title>
+  <desc id="d-m2-04-ion">나트륨 원자(양성자 11, 전자 11)가 전자 1개를 잃으면 나트륨 이온 Na⁺(양성자 11, 전자 10)이 되고, 염소 원자(양성자 17, 전자 17)가 전자 1개를 얻으면 염화 이온 Cl⁻(양성자 17, 전자 18)이 된다. 원자핵의 양성자 수는 변하지 않는다. 전자의 위치는 모식적으로 나타냈다.</desc>
+  <style>
+    .m2-04-ion-t{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .m2-04-ion-k{font-size:14px;fill:var(--fig-ink)}
+    .m2-04-ion-s{font-size:13px;fill:var(--fig-muted)}
+    .m2-04-ion-cloud{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2;stroke-dasharray:5 4}
+    .m2-04-ion-nuc{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2}
+    .m2-04-ion-e{fill:var(--fig-blue)}
+    .m2-04-ion-hot{fill:var(--fig-amber);stroke:var(--fig-ink);stroke-width:1}
+    .m2-04-ion-pt{font-size:14px;font-weight:700;fill:var(--fig-red)}
+  </style>
+<text x="20" y="32" class="m2-04-ion-t">양이온: 원자가 전자를 잃는다</text>
+<circle cx="130" cy="120" r="62" class="m2-04-ion-cloud"/>
+<circle cx="130" cy="120" r="17" class="m2-04-ion-nuc"/>
+<text x="130" y="125" text-anchor="middle" class="m2-04-ion-pt">+11</text>
+<circle cx="158.7" cy="128.9" r="4.5" class="m2-04-ion-e"/>
+<circle cx="151.9" cy="155.8" r="4.5" class="m2-04-ion-e"/>
+<circle cx="136.7" cy="171.6" r="4.5" class="m2-04-ion-e"/>
+<circle cx="117.1" cy="147.1" r="4.5" class="m2-04-ion-e"/>
+<circle cx="91.4" cy="136.6" r="4.5" class="m2-04-ion-e"/>
+<circle cx="78.0" cy="119.3" r="4.5" class="m2-04-ion-e"/>
+<circle cx="105.0" cy="103.4" r="4.5" class="m2-04-ion-e"/>
+<circle cx="119.0" cy="79.5" r="4.5" class="m2-04-ion-e"/>
+<circle cx="138.1" cy="68.6" r="4.5" class="m2-04-ion-e"/>
+<circle cx="150.0" cy="97.6" r="4.5" class="m2-04-ion-e"/>
+<circle cx="171.7" cy="114.9" r="4.5" class="m2-04-ion-e"/>
+<text x="130" y="206" text-anchor="middle" class="m2-04-ion-k">나트륨 원자 Na</text>
+<text x="130" y="224" text-anchor="middle" class="m2-04-ion-s">양성자 11 · 전자 11 → 전하 0</text>
+<line x1="215" y1="120" x2="455" y2="120" style="stroke:var(--fig-ink);stroke-width:2"/>
+<path d="M469.4 120.0 L456.6 125.7 L456.6 114.3 Z" style="fill:var(--fig-ink)"/>
+<circle cx="330" cy="86" r="6" class="m2-04-ion-hot"/>
+<path d="M300 106 Q318 86 324 86" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
+<text x="345" y="90" class="m2-04-ion-s">전자 1개를 잃음</text>
+<circle cx="560" cy="120" r="62" class="m2-04-ion-cloud"/>
+<circle cx="560" cy="120" r="17" class="m2-04-ion-nuc"/>
+<text x="560" y="125" text-anchor="middle" class="m2-04-ion-pt">+11</text>
+<circle cx="588.7" cy="128.9" r="4.5" class="m2-04-ion-e"/>
+<circle cx="579.9" cy="157.0" r="4.5" class="m2-04-ion-e"/>
+<circle cx="560.7" cy="172.0" r="4.5" class="m2-04-ion-e"/>
+<circle cx="542.7" cy="144.5" r="4.5" class="m2-04-ion-e"/>
+<circle cx="518.7" cy="127.4" r="4.5" class="m2-04-ion-e"/>
+<circle cx="510.3" cy="104.6" r="4.5" class="m2-04-ion-e"/>
+<circle cx="542.0" cy="96.0" r="4.5" class="m2-04-ion-e"/>
+<circle cx="565.7" cy="78.4" r="4.5" class="m2-04-ion-e"/>
+<circle cx="590.0" cy="77.5" r="4.5" class="m2-04-ion-e"/>
+<circle cx="588.4" cy="110.3" r="4.5" class="m2-04-ion-e"/>
+<text x="560" y="206" text-anchor="middle" class="m2-04-ion-k">나트륨 이온 Na⁺</text>
+<text x="560" y="224" text-anchor="middle" class="m2-04-ion-s">양성자 11 · 전자 10 → (+)1</text>
+<text x="20" y="218" class="m2-04-ion-t">음이온: 원자가 전자를 얻는다</text>
+<circle cx="130" cy="300" r="62" class="m2-04-ion-cloud"/>
+<circle cx="130" cy="300" r="17" class="m2-04-ion-nuc"/>
+<text x="130" y="305" text-anchor="middle" class="m2-04-ion-pt">+17</text>
+<circle cx="158.7" cy="308.9" r="4.5" class="m2-04-ion-e"/>
+<circle cx="158.7" cy="330.7" r="4.5" class="m2-04-ion-e"/>
+<circle cx="156.4" cy="344.8" r="4.5" class="m2-04-ion-e"/>
+<circle cx="134.8" cy="329.6" r="4.5" class="m2-04-ion-e"/>
+<circle cx="115.3" cy="339.3" r="4.5" class="m2-04-ion-e"/>
+<circle cx="101.6" cy="343.6" r="4.5" class="m2-04-ion-e"/>
+<circle cx="105.7" cy="317.5" r="4.5" class="m2-04-ion-e"/>
+<circle cx="88.2" cy="304.4" r="4.5" class="m2-04-ion-e"/>
+<circle cx="78.3" cy="294.0" r="4.5" class="m2-04-ion-e"/>
+<circle cx="103.5" cy="286.0" r="4.5" class="m2-04-ion-e"/>
+<circle cx="107.5" cy="264.6" r="4.5" class="m2-04-ion-e"/>
+<circle cx="112.3" cy="251.1" r="4.5" class="m2-04-ion-e"/>
+<circle cx="130.7" cy="270.0" r="4.5" class="m2-04-ion-e"/>
+<circle cx="151.7" cy="264.0" r="4.5" class="m2-04-ion-e"/>
+<circle cx="165.9" cy="262.4" r="4.5" class="m2-04-ion-e"/>
+<circle cx="157.2" cy="287.2" r="4.5" class="m2-04-ion-e"/>
+<circle cx="171.9" cy="303.4" r="4.5" class="m2-04-ion-e"/>
+<text x="130" y="386" text-anchor="middle" class="m2-04-ion-k">염소 원자 Cl</text>
+<text x="130" y="404" text-anchor="middle" class="m2-04-ion-s">양성자 17 · 전자 17 → 전하 0</text>
+<line x1="215" y1="300" x2="455" y2="300" style="stroke:var(--fig-ink);stroke-width:2"/>
+<path d="M469.4 300.0 L456.6 305.7 L456.6 294.3 Z" style="fill:var(--fig-ink)"/>
+<circle cx="300" cy="266" r="6" class="m2-04-ion-hot"/>
+<path d="M306 266 Q330 266 340 286" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
+<text x="350" y="270" class="m2-04-ion-s">전자 1개를 얻음</text>
+<circle cx="560" cy="300" r="62" class="m2-04-ion-cloud"/>
+<circle cx="560" cy="300" r="17" class="m2-04-ion-nuc"/>
+<text x="560" y="305" text-anchor="middle" class="m2-04-ion-pt">+17</text>
+<circle cx="588.7" cy="308.9" r="4.5" class="m2-04-ion-e"/>
+<circle cx="589.3" cy="330.1" r="4.5" class="m2-04-ion-e"/>
+<circle cx="588.2" cy="343.7" r="4.5" class="m2-04-ion-e"/>
+<circle cx="566.7" cy="329.3" r="4.5" class="m2-04-ion-e"/>
+<circle cx="548.6" cy="340.4" r="4.5" class="m2-04-ion-e"/>
+<circle cx="536.2" cy="346.3" r="4.5" class="m2-04-ion-e"/>
+<circle cx="538.0" cy="320.4" r="4.5" class="m2-04-ion-e"/>
+<circle cx="519.3" cy="310.3" r="4.5" class="m2-04-ion-e"/>
+<circle cx="508.1" cy="302.6" r="4.5" class="m2-04-ion-e"/>
+<circle cx="531.3" cy="291.1" r="4.5" class="m2-04-ion-e"/>
+<circle cx="530.7" cy="269.9" r="4.5" class="m2-04-ion-e"/>
+<circle cx="531.8" cy="256.3" r="4.5" class="m2-04-ion-e"/>
+<circle cx="553.3" cy="270.7" r="4.5" class="m2-04-ion-e"/>
+<circle cx="571.4" cy="259.6" r="4.5" class="m2-04-ion-e"/>
+<circle cx="583.8" cy="253.7" r="4.5" class="m2-04-ion-e"/>
+<circle cx="582.0" cy="279.6" r="4.5" class="m2-04-ion-e"/>
+<circle cx="600.7" cy="289.7" r="4.5" class="m2-04-ion-e"/>
+<circle cx="611.9" cy="297.4" r="4.5" class="m2-04-ion-hot"/>
+<text x="560" y="386" text-anchor="middle" class="m2-04-ion-k">염화 이온 Cl⁻</text>
+<text x="560" y="404" text-anchor="middle" class="m2-04-ion-s">양성자 17 · 전자 18 → (−)1</text>
+<text x="335" y="330" text-anchor="middle" class="m2-04-ion-s">양성자 수(원자핵)는 그대로</text>
+<text x="335" y="150" text-anchor="middle" class="m2-04-ion-s">양성자 수(원자핵)는 그대로</text>
+</svg></div><figcaption><b>그림 중2-4-2 이온이 만들어지는 과정</b> 나트륨 원자(양성자 11, 전자 11)가 전자 1개를 잃으면 나트륨 이온 Na⁺(양성자 11, 전자 10)이 되고, 염소 원자(양성자 17, 전자 17)가 전자 1개를 얻으면 염화 이온 Cl⁻(양성자 17, 전자 18)이 된다. 원자핵의 양성자 수는 변하지 않는다. 전자의 위치는 모식적으로 나타냈다.</figcaption></figure>
+
 <h4 id="예제-9">예제 9</h4>
 <p>(1) 양성자 수가 20인 칼슘 원자가 전자 2개를 잃었다. 이 이온의 전자 수와 이온식을 쓰시오.
 (2) 양성자 수 16, 전자 수 18인 입자는 무엇인가?</p>
@@ -1134,7 +1330,7 @@
 <li><strong>원소 기호</strong>는 알파벳 첫 글자(대문자)와 필요하면 둘째 글자(소문자)로 쓰고, <strong>화학식</strong>은 원소 기호와 숫자로 물질을 나타낸다.</li>
 <li><strong>원자</strong>는 원자핵(양성자 + 중성자)과 전자로 이루어지며, 양성자 수 = 전자 수이므로 전기적으로 중성이다.</li>
 <li>원소의 종류는 <strong>양성자 수(원자 번호)</strong> 로 정해진다.</li>
-<li><strong>주기율표</strong>는 원소를 원자 번호 순서로 배열한 표이며, 같은 <strong>족</strong>의 원소는 성질이 비슷하다(1족: 물과 격렬히 반응, 18족: 매우 안정).</li>
+<li><strong>주기율표</strong>는 원소를 원자 번호 순서로 배열한 표이며, 같은 <strong>족</strong>의 원소는 성질이 비슷하다(1족: 물과 활발히 반응, 18족: 매우 안정).</li>
 <li>물질을 이루는 입자는 <strong>원자, 분자, 이온</strong> 등이다. 분자는 물질의 성질을 나타내는 가장 작은 입자이다.</li>
 <li>원자가 전자를 <strong>잃으면 양이온</strong>, <strong>얻으면 음이온</strong>이 된다. 이온은 전하를 띠므로 전극 쪽으로 이동한다.</li>
 </ul>
@@ -1198,7 +1394,10 @@
 </tbody></table></div>
 <h3 id="다음-단원으로">다음 단원으로</h3>
 <p>이 단원에서 배운 화학식 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span>, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathrm">O</span></span></span></span></span>, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>는 다음 단원 「식물과 에너지」에서 바로 다시 만난다. 식물은 이산화 탄소와 물이라는 화합물로 포도당과 산소를 만들어 낸다. 원자들이 새로운 짝을 찾아 다른 물질이 되는 이 과정을 중3 「화학 반응의 규칙성」에서는 화학 반응식으로 정확하게 표현하게 된다.</p>
-<nav class="pager"><a class="prev" href="m2-03.html"><small>이전 단원 · 중2</small>빛과 파동</a><a class="next" href="m2-05.html"><small>다음 단원 · 중2</small>식물과 에너지</a></nav></article></div>
+<section class="done-box" id="done-box" hidden>
+  <label><input type="checkbox" id="done-check"><span>이 단원 학습을 마쳤다</span></label>
+  <p>표시해 두면 목차에 ✓가 붙고, 첫 화면에서 전체 진행 상황을 볼 수 있다. 읽던 위치와 이 표시는 지금 쓰는 기기의 브라우저에만 저장된다.</p>
+</section><nav class="pager"><a class="prev" href="m2-03.html"><small>이전 단원 · 중2</small>빛과 파동</a><a class="next" href="m2-05.html"><small>다음 단원 · 중2</small>식물과 에너지</a></nav></article></div>
 </main>
 </div>
 </body>

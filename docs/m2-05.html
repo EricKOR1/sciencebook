@@ -10,16 +10,17 @@
 <link rel="stylesheet" href="assets/katex/katex.min.css">
 <link rel="stylesheet" href="assets/book.css">
 <script src="assets/js/book.js" defer></script>
-
+<script src="assets/js/sims/photosynthesis-lab.js" defer></script>
 </head>
-<body class="">
+<body class="" data-lesson="m2-05" data-title="식물과 에너지" data-where="중2">
 <header class="topbar">
   <button class="menu-btn" id="menu-btn" aria-controls="drawer" aria-expanded="false">목차</button>
   <a class="brand" href="index.html">한 권으로 잇는 과학</a>
   <button class="theme-btn" id="theme-btn" aria-label="밝은 화면과 어두운 화면 바꾸기">화면</button>
+  <div class="read-bar" id="read-bar" aria-hidden="true"><i></i></div>
 </header>
 <div class="shell">
-<aside class="drawer" id="drawer"><nav class="book-nav" aria-label="교재 목차"><a class="nav-home" href="index.html">처음으로 · 전체 목차</a><input class="nav-filter" id="nav-filter" type="search" placeholder="단원 이름으로 찾기" aria-label="단원 이름으로 찾기" autocomplete="off"><p class="nav-group">중학교 과학</p><details class="nav-part"><summary>1학년<span class="nav-count">7</span></summary><ul><li><a href="m1-01.html"><span class="nav-id">중1-1</span>과학과 인류의 지속가능한 삶</a></li><li><a href="m1-02.html"><span class="nav-id">중1-2</span>생물의 구성과 다양성</a></li><li><a href="m1-03.html"><span class="nav-id">중1-3</span>열</a></li><li><a href="m1-04.html"><span class="nav-id">중1-4</span>물질의 상태 변화</a></li><li><a href="m1-05.html"><span class="nav-id">중1-5</span>힘의 작용</a></li><li><a href="m1-06.html"><span class="nav-id">중1-6</span>기체의 성질</a></li><li><a href="m1-07.html"><span class="nav-id">중1-7</span>태양계</a></li></ul></details><details class="nav-part" open><summary>2학년<span class="nav-count">8</span></summary><ul><li><a href="m2-01.html"><span class="nav-id">중2-1</span>물질의 특성</a></li><li><a href="m2-02.html"><span class="nav-id">중2-2</span>지권의 변화</a></li><li><a href="m2-03.html"><span class="nav-id">중2-3</span>빛과 파동</a></li><li><a href="m2-04.html"><span class="nav-id">중2-4</span>물질의 구성</a></li><li><a href="m2-05.html" aria-current="page"><span class="nav-id">중2-5</span>식물과 에너지</a></li><li><a href="m2-06.html"><span class="nav-id">중2-6</span>동물과 에너지</a></li><li><a href="m2-07.html"><span class="nav-id">중2-7</span>전기와 자기</a></li><li><a href="m2-08.html"><span class="nav-id">중2-8</span>별과 우주</a></li></ul></details><details class="nav-part"><summary>3학년<span class="nav-count">8</span></summary><ul><li><a href="m3-01.html"><span class="nav-id">중3-1</span>화학 반응의 규칙성</a></li><li><a href="m3-02.html"><span class="nav-id">중3-2</span>날씨와 기후변화</a></li><li><a href="m3-03.html"><span class="nav-id">중3-3</span>수권과 해수의 순환</a></li><li><a href="m3-04.html"><span class="nav-id">중3-4</span>운동과 에너지</a></li><li><a href="m3-05.html"><span class="nav-id">중3-5</span>자극과 반응</a></li><li><a href="m3-06.html"><span class="nav-id">중3-6</span>생식과 유전</a></li><li><a href="m3-07.html"><span class="nav-id">중3-7</span>재해·재난과 안전</a></li><li><a href="m3-08.html"><span class="nav-id">중3-8</span>과학과 나의 미래</a></li></ul></details><p class="nav-group">고등학교 공통 과목</p><details class="nav-part"><summary>통합과학1<span class="nav-count">16</span></summary><p class="nav-unit">1단원 과학의 기초</p><ul><li><a href="1-1.html"><span class="nav-id">1-1</span>시간과 공간</a></li><li><a href="1-2.html"><span class="nav-id">1-2</span>기본량과 단위</a></li><li><a href="1-3.html"><span class="nav-id">1-3</span>측정과 어림, 측정 표준</a></li><li><a href="1-4.html"><span class="nav-id">1-4</span>정보와 신호: 아날로그에서 디지털로</a></li></ul><p class="nav-unit">2단원 물질과 규칙성</p><ul><li><a href="2-1.html"><span class="nav-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="2-2.html"><span class="nav-id">2-2</span>별의 진화와 원소의 생성</a></li><li><a href="2-3.html"><span class="nav-id">2-3</span>원소의 주기성과 화학 결합의 이유</a></li><li><a href="2-4.html"><span class="nav-id">2-4</span>이온 결합과 공유 결합</a></li><li><a href="2-5.html"><span class="nav-id">2-5</span>지각과 생명체 구성 물질의 규칙성</a></li><li><a href="2-6.html"><span class="nav-id">2-6</span>물질의 전기적 성질과 소재</a></li></ul><p class="nav-unit">3단원 시스템과 상호작용</p><ul><li><a href="3-1.html"><span class="nav-id">3-1</span>지구시스템의 구성과 상호작용</a></li><li><a href="3-2.html"><span class="nav-id">3-2</span>판구조론과 지권의 변화</a></li><li><a href="3-3.html"><span class="nav-id">3-3</span>중력과 운동</a></li><li><a href="3-4.html"><span class="nav-id">3-4</span>운동량과 충격량</a></li><li><a href="3-5.html"><span class="nav-id">3-5</span>생명 시스템과 물질대사</a></li><li><a href="3-6.html"><span class="nav-id">3-6</span>유전자와 단백질</a></li></ul></details><details class="nav-part"><summary>통합과학2<span class="nav-count">15</span></summary><p class="nav-unit">4단원 변화와 다양성</p><ul><li><a href="4-1.html"><span class="nav-id">4-1</span>지질시대의 환경 변화와 생물다양성</a></li><li><a href="4-2.html"><span class="nav-id">4-2</span>진화와 생물다양성</a></li><li><a href="4-3.html"><span class="nav-id">4-3</span>산화와 환원</a></li><li><a href="4-4.html"><span class="nav-id">4-4</span>산과 염기, 중화 반응</a></li><li><a href="4-5.html"><span class="nav-id">4-5</span>물질 변화와 에너지 출입</a></li></ul><p class="nav-unit">5단원 환경과 에너지</p><ul><li><a href="5-1.html"><span class="nav-id">5-1</span>생태계 구성 요소와 상호 관계</a></li><li><a href="5-2.html"><span class="nav-id">5-2</span>생태계 평형</a></li><li><a href="5-3.html"><span class="nav-id">5-3</span>지구온난화와 기후변화</a></li><li><a href="5-4.html"><span class="nav-id">5-4</span>태양 에너지와 에너지 전환</a></li><li><a href="5-5.html"><span class="nav-id">5-5</span>발전기와 전기 에너지</a></li><li><a href="5-6.html"><span class="nav-id">5-6</span>에너지 효율과 신재생 에너지</a></li></ul><p class="nav-unit">6단원 과학과 미래 사회</p><ul><li><a href="6-1.html"><span class="nav-id">6-1</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html"><span class="nav-id">6-2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html"><span class="nav-id">6-3</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html"><span class="nav-id">6-4</span>과학기술과 윤리</a></li></ul></details><p class="nav-group">고등학교 일반 선택</p><details class="nav-part"><summary>물리학<span class="nav-count">3</span></summary><ul><li><a href="phy-1.html"><span class="nav-id">물리학 1</span>힘과 에너지</a></li><li><a href="phy-2.html"><span class="nav-id">물리학 2</span>전기와 자기</a></li><li><a href="phy-3.html"><span class="nav-id">물리학 3</span>빛과 물질</a></li></ul></details><details class="nav-part"><summary>화학<span class="nav-count">4</span></summary><ul><li><a href="chem-1.html"><span class="nav-id">화학 1</span>화학의 언어</a></li><li><a href="chem-2.html"><span class="nav-id">화학 2</span>물질의 구조와 성질</a></li><li><a href="chem-3.html"><span class="nav-id">화학 3</span>화학 평형</a></li><li><a href="chem-4.html"><span class="nav-id">화학 4</span>역동적인 화학 반응</a></li></ul></details><details class="nav-part"><summary>생명과학<span class="nav-count">3</span></summary><ul><li><a href="bio-1.html"><span class="nav-id">생명과학 1</span>생명 시스템의 구성</a></li><li><a href="bio-2.html"><span class="nav-id">생명과학 2</span>항상성과 몸의 조절</a></li><li><a href="bio-3.html"><span class="nav-id">생명과학 3</span>생명의 연속성과 다양성</a></li></ul></details><details class="nav-part"><summary>지구과학<span class="nav-count">3</span></summary><ul><li><a href="earth-1.html"><span class="nav-id">지구과학 1</span>대기와 해양의 상호작용</a></li><li><a href="earth-2.html"><span class="nav-id">지구과학 2</span>지구의 역사와 한반도의 암석</a></li><li><a href="earth-3.html"><span class="nav-id">지구과학 3</span>태양계 천체와 별과 우주의 진화</a></li></ul></details><p class="nav-group">고등학교 진로 선택</p><details class="nav-part"><summary>역학과 에너지<span class="nav-count">2</span></summary><ul><li><a href="mech-1.html"><span class="nav-id">역학과 에너지 1</span>시공간과 운동</a></li><li><a href="mech-2.html"><span class="nav-id">역학과 에너지 2</span>열과 에너지</a></li></ul></details><details class="nav-part"><summary>전자기와 양자<span class="nav-count">3</span></summary><ul><li><a href="emq-1.html"><span class="nav-id">전자기와 양자 1</span>전자기적 상호작용</a></li><li><a href="emq-2.html"><span class="nav-id">전자기와 양자 2</span>빛과 정보 통신</a></li><li><a href="emq-3.html"><span class="nav-id">전자기와 양자 3</span>양자와 미시세계</a></li></ul></details><details class="nav-part"><summary>물질과 에너지<span class="nav-count">3</span></summary><ul><li><a href="matter-1.html"><span class="nav-id">물질과 에너지 1</span>물질의 세 가지 상태</a></li><li><a href="matter-2.html"><span class="nav-id">물질과 에너지 2</span>용액의 성질</a></li><li><a href="matter-3.html"><span class="nav-id">물질과 에너지 3</span>화학 변화의 자발성</a></li></ul></details><details class="nav-part"><summary>화학 반응의 세계<span class="nav-count">3</span></summary><ul><li><a href="rxn-1.html"><span class="nav-id">화학 반응의 세계 1</span>산·염기 평형</a></li><li><a href="rxn-2.html"><span class="nav-id">화학 반응의 세계 2</span>산화·환원 반응</a></li><li><a href="rxn-3.html"><span class="nav-id">화학 반응의 세계 3</span>탄소 화합물과 반응</a></li></ul></details><details class="nav-part"><summary>세포와 물질대사<span class="nav-count">3</span></summary><ul><li><a href="cell-1.html"><span class="nav-id">세포와 물질대사 1</span>세포</a></li><li><a href="cell-2.html"><span class="nav-id">세포와 물질대사 2</span>물질대사와 에너지</a></li><li><a href="cell-3.html"><span class="nav-id">세포와 물질대사 3</span>세포호흡과 광합성</a></li></ul></details><details class="nav-part"><summary>생물의 유전<span class="nav-count">3</span></summary><ul><li><a href="gene-1.html"><span class="nav-id">생물의 유전 1</span>유전자와 유전물질</a></li><li><a href="gene-2.html"><span class="nav-id">생물의 유전 2</span>유전자의 발현</a></li><li><a href="gene-3.html"><span class="nav-id">생물의 유전 3</span>생명공학기술</a></li></ul></details><details class="nav-part"><summary>지구시스템과학<span class="nav-count">2</span></summary><ul><li><a href="esys-1.html"><span class="nav-id">지구시스템과학 1</span>지구 탄생과 생동하는 지구</a></li><li><a href="esys-2.html"><span class="nav-id">지구시스템과학 2</span>해수의 운동</a></li></ul></details><details class="nav-part"><summary>행성우주과학<span class="nav-count">2</span></summary><ul><li><a href="astro-1.html"><span class="nav-id">행성우주과학 1</span>우주탐사와 행성계</a></li><li><a href="astro-2.html"><span class="nav-id">행성우주과학 2</span>태양과 별의 관측</a></li></ul></details><p class="nav-group">찾아보기</p><ul class="nav-extra"><li><a href="map.html">개념 연계 지도</a></li><li><a href="glossary.html">핵심 용어 사전</a></li><li><a href="sims.html">시뮬레이션 모아 보기</a></li><li><a href="guide.html">교재 설계 안내</a></li><li><a href="appendix-standards.html">통합과학 성취기준 원문</a></li><li><a href="appendix-map.html">통합과학 대학·산업 연계 지도</a></li></ul></nav></aside>
+<aside class="drawer" id="drawer"><nav class="book-nav" aria-label="교재 목차"><a class="nav-home" href="index.html">처음으로 · 전체 목차</a><input class="nav-filter" id="nav-filter" type="search" placeholder="단원 이름으로 찾기" aria-label="단원 이름으로 찾기" autocomplete="off"><p class="nav-group">중학교 과학</p><details class="nav-part"><summary>1학년<span class="nav-count">7</span></summary><ul><li><a href="m1-01.html" data-id="m1-01"><span class="nav-id">중1-1</span>과학과 인류의 지속가능한 삶</a></li><li><a href="m1-02.html" data-id="m1-02"><span class="nav-id">중1-2</span>생물의 구성과 다양성</a></li><li><a href="m1-03.html" data-id="m1-03"><span class="nav-id">중1-3</span>열</a></li><li><a href="m1-04.html" data-id="m1-04"><span class="nav-id">중1-4</span>물질의 상태 변화</a></li><li><a href="m1-05.html" data-id="m1-05"><span class="nav-id">중1-5</span>힘의 작용</a></li><li><a href="m1-06.html" data-id="m1-06"><span class="nav-id">중1-6</span>기체의 성질</a></li><li><a href="m1-07.html" data-id="m1-07"><span class="nav-id">중1-7</span>태양계</a></li></ul></details><details class="nav-part" open><summary>2학년<span class="nav-count">8</span></summary><ul><li><a href="m2-01.html" data-id="m2-01"><span class="nav-id">중2-1</span>물질의 특성</a></li><li><a href="m2-02.html" data-id="m2-02"><span class="nav-id">중2-2</span>지권의 변화</a></li><li><a href="m2-03.html" data-id="m2-03"><span class="nav-id">중2-3</span>빛과 파동</a></li><li><a href="m2-04.html" data-id="m2-04"><span class="nav-id">중2-4</span>물질의 구성</a></li><li><a href="m2-05.html" data-id="m2-05" aria-current="page"><span class="nav-id">중2-5</span>식물과 에너지</a></li><li><a href="m2-06.html" data-id="m2-06"><span class="nav-id">중2-6</span>동물과 에너지</a></li><li><a href="m2-07.html" data-id="m2-07"><span class="nav-id">중2-7</span>전기와 자기</a></li><li><a href="m2-08.html" data-id="m2-08"><span class="nav-id">중2-8</span>별과 우주</a></li></ul></details><details class="nav-part"><summary>3학년<span class="nav-count">8</span></summary><ul><li><a href="m3-01.html" data-id="m3-01"><span class="nav-id">중3-1</span>화학 반응의 규칙성</a></li><li><a href="m3-02.html" data-id="m3-02"><span class="nav-id">중3-2</span>날씨와 기후변화</a></li><li><a href="m3-03.html" data-id="m3-03"><span class="nav-id">중3-3</span>수권과 해수의 순환</a></li><li><a href="m3-04.html" data-id="m3-04"><span class="nav-id">중3-4</span>운동과 에너지</a></li><li><a href="m3-05.html" data-id="m3-05"><span class="nav-id">중3-5</span>자극과 반응</a></li><li><a href="m3-06.html" data-id="m3-06"><span class="nav-id">중3-6</span>생식과 유전</a></li><li><a href="m3-07.html" data-id="m3-07"><span class="nav-id">중3-7</span>재해·재난과 안전</a></li><li><a href="m3-08.html" data-id="m3-08"><span class="nav-id">중3-8</span>과학과 나의 미래</a></li></ul></details><p class="nav-group">고등학교 공통 과목</p><details class="nav-part"><summary>통합과학1<span class="nav-count">16</span></summary><p class="nav-unit">1단원 과학의 기초</p><ul><li><a href="1-1.html" data-id="1-1"><span class="nav-id">1-1</span>시간과 공간</a></li><li><a href="1-2.html" data-id="1-2"><span class="nav-id">1-2</span>기본량과 단위</a></li><li><a href="1-3.html" data-id="1-3"><span class="nav-id">1-3</span>측정과 어림, 측정 표준</a></li><li><a href="1-4.html" data-id="1-4"><span class="nav-id">1-4</span>정보와 신호: 아날로그에서 디지털로</a></li></ul><p class="nav-unit">2단원 물질과 규칙성</p><ul><li><a href="2-1.html" data-id="2-1"><span class="nav-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="2-2.html" data-id="2-2"><span class="nav-id">2-2</span>별의 진화와 원소의 생성</a></li><li><a href="2-3.html" data-id="2-3"><span class="nav-id">2-3</span>원소의 주기성과 화학 결합의 이유</a></li><li><a href="2-4.html" data-id="2-4"><span class="nav-id">2-4</span>이온 결합과 공유 결합</a></li><li><a href="2-5.html" data-id="2-5"><span class="nav-id">2-5</span>지각과 생명체 구성 물질의 규칙성</a></li><li><a href="2-6.html" data-id="2-6"><span class="nav-id">2-6</span>물질의 전기적 성질과 소재</a></li></ul><p class="nav-unit">3단원 시스템과 상호작용</p><ul><li><a href="3-1.html" data-id="3-1"><span class="nav-id">3-1</span>지구시스템의 구성과 상호작용</a></li><li><a href="3-2.html" data-id="3-2"><span class="nav-id">3-2</span>판구조론과 지권의 변화</a></li><li><a href="3-3.html" data-id="3-3"><span class="nav-id">3-3</span>중력과 운동</a></li><li><a href="3-4.html" data-id="3-4"><span class="nav-id">3-4</span>운동량과 충격량</a></li><li><a href="3-5.html" data-id="3-5"><span class="nav-id">3-5</span>생명 시스템과 물질대사</a></li><li><a href="3-6.html" data-id="3-6"><span class="nav-id">3-6</span>유전자와 단백질</a></li></ul></details><details class="nav-part"><summary>통합과학2<span class="nav-count">15</span></summary><p class="nav-unit">4단원 변화와 다양성</p><ul><li><a href="4-1.html" data-id="4-1"><span class="nav-id">4-1</span>지질시대의 환경 변화와 생물다양성</a></li><li><a href="4-2.html" data-id="4-2"><span class="nav-id">4-2</span>진화와 생물다양성</a></li><li><a href="4-3.html" data-id="4-3"><span class="nav-id">4-3</span>산화와 환원</a></li><li><a href="4-4.html" data-id="4-4"><span class="nav-id">4-4</span>산과 염기, 중화 반응</a></li><li><a href="4-5.html" data-id="4-5"><span class="nav-id">4-5</span>물질 변화와 에너지 출입</a></li></ul><p class="nav-unit">5단원 환경과 에너지</p><ul><li><a href="5-1.html" data-id="5-1"><span class="nav-id">5-1</span>생태계 구성 요소와 상호 관계</a></li><li><a href="5-2.html" data-id="5-2"><span class="nav-id">5-2</span>생태계 평형</a></li><li><a href="5-3.html" data-id="5-3"><span class="nav-id">5-3</span>지구온난화와 기후변화</a></li><li><a href="5-4.html" data-id="5-4"><span class="nav-id">5-4</span>태양 에너지와 에너지 전환</a></li><li><a href="5-5.html" data-id="5-5"><span class="nav-id">5-5</span>발전기와 전기 에너지</a></li><li><a href="5-6.html" data-id="5-6"><span class="nav-id">5-6</span>에너지 효율과 신재생 에너지</a></li></ul><p class="nav-unit">6단원 과학과 미래 사회</p><ul><li><a href="6-1.html" data-id="6-1"><span class="nav-id">6-1</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html" data-id="6-2"><span class="nav-id">6-2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html" data-id="6-3"><span class="nav-id">6-3</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html" data-id="6-4"><span class="nav-id">6-4</span>과학기술과 윤리</a></li></ul></details><p class="nav-group">고등학교 일반 선택</p><details class="nav-part"><summary>물리학<span class="nav-count">3</span></summary><ul><li><a href="phy-1.html" data-id="phy-1"><span class="nav-id">물리학 1</span>힘과 에너지</a></li><li><a href="phy-2.html" data-id="phy-2"><span class="nav-id">물리학 2</span>전기와 자기</a></li><li><a href="phy-3.html" data-id="phy-3"><span class="nav-id">물리학 3</span>빛과 물질</a></li></ul></details><details class="nav-part"><summary>화학<span class="nav-count">4</span></summary><ul><li><a href="chem-1.html" data-id="chem-1"><span class="nav-id">화학 1</span>화학의 언어</a></li><li><a href="chem-2.html" data-id="chem-2"><span class="nav-id">화학 2</span>물질의 구조와 성질</a></li><li><a href="chem-3.html" data-id="chem-3"><span class="nav-id">화학 3</span>화학 평형</a></li><li><a href="chem-4.html" data-id="chem-4"><span class="nav-id">화학 4</span>역동적인 화학 반응</a></li></ul></details><details class="nav-part"><summary>생명과학<span class="nav-count">3</span></summary><ul><li><a href="bio-1.html" data-id="bio-1"><span class="nav-id">생명과학 1</span>생명 시스템의 구성</a></li><li><a href="bio-2.html" data-id="bio-2"><span class="nav-id">생명과학 2</span>항상성과 몸의 조절</a></li><li><a href="bio-3.html" data-id="bio-3"><span class="nav-id">생명과학 3</span>생명의 연속성과 다양성</a></li></ul></details><details class="nav-part"><summary>지구과학<span class="nav-count">3</span></summary><ul><li><a href="earth-1.html" data-id="earth-1"><span class="nav-id">지구과학 1</span>대기와 해양의 상호작용</a></li><li><a href="earth-2.html" data-id="earth-2"><span class="nav-id">지구과학 2</span>지구의 역사와 한반도의 암석</a></li><li><a href="earth-3.html" data-id="earth-3"><span class="nav-id">지구과학 3</span>태양계 천체와 별과 우주의 진화</a></li></ul></details><p class="nav-group">고등학교 진로 선택</p><details class="nav-part"><summary>역학과 에너지<span class="nav-count">3</span></summary><ul><li><a href="mech-1.html" data-id="mech-1"><span class="nav-id">역학과 에너지 1</span>시공간과 운동</a></li><li><a href="mech-2.html" data-id="mech-2"><span class="nav-id">역학과 에너지 2</span>열과 에너지</a></li><li><a href="mech-3.html" data-id="mech-3"><span class="nav-id">역학과 에너지 3</span>탄성파와 소리</a></li></ul></details><details class="nav-part"><summary>전자기와 양자<span class="nav-count">3</span></summary><ul><li><a href="emq-1.html" data-id="emq-1"><span class="nav-id">전자기와 양자 1</span>전자기적 상호작용</a></li><li><a href="emq-2.html" data-id="emq-2"><span class="nav-id">전자기와 양자 2</span>빛과 정보 통신</a></li><li><a href="emq-3.html" data-id="emq-3"><span class="nav-id">전자기와 양자 3</span>양자와 미시세계</a></li></ul></details><details class="nav-part"><summary>물질과 에너지<span class="nav-count">4</span></summary><ul><li><a href="matter-1.html" data-id="matter-1"><span class="nav-id">물질과 에너지 1</span>물질의 세 가지 상태</a></li><li><a href="matter-2.html" data-id="matter-2"><span class="nav-id">물질과 에너지 2</span>용액의 성질</a></li><li><a href="matter-3.html" data-id="matter-3"><span class="nav-id">물질과 에너지 3</span>화학 변화의 자발성</a></li><li><a href="matter-4.html" data-id="matter-4"><span class="nav-id">물질과 에너지 4</span>반응 속도</a></li></ul></details><details class="nav-part"><summary>화학 반응의 세계<span class="nav-count">3</span></summary><ul><li><a href="rxn-1.html" data-id="rxn-1"><span class="nav-id">화학 반응의 세계 1</span>산·염기 평형</a></li><li><a href="rxn-2.html" data-id="rxn-2"><span class="nav-id">화학 반응의 세계 2</span>산화·환원 반응</a></li><li><a href="rxn-3.html" data-id="rxn-3"><span class="nav-id">화학 반응의 세계 3</span>탄소 화합물과 반응</a></li></ul></details><details class="nav-part"><summary>세포와 물질대사<span class="nav-count">3</span></summary><ul><li><a href="cell-1.html" data-id="cell-1"><span class="nav-id">세포와 물질대사 1</span>세포</a></li><li><a href="cell-2.html" data-id="cell-2"><span class="nav-id">세포와 물질대사 2</span>물질대사와 에너지</a></li><li><a href="cell-3.html" data-id="cell-3"><span class="nav-id">세포와 물질대사 3</span>세포호흡과 광합성</a></li></ul></details><details class="nav-part"><summary>생물의 유전<span class="nav-count">3</span></summary><ul><li><a href="gene-1.html" data-id="gene-1"><span class="nav-id">생물의 유전 1</span>유전자와 유전물질</a></li><li><a href="gene-2.html" data-id="gene-2"><span class="nav-id">생물의 유전 2</span>유전자의 발현</a></li><li><a href="gene-3.html" data-id="gene-3"><span class="nav-id">생물의 유전 3</span>생명공학기술</a></li></ul></details><details class="nav-part"><summary>지구시스템과학<span class="nav-count">3</span></summary><ul><li><a href="esys-1.html" data-id="esys-1"><span class="nav-id">지구시스템과학 1</span>지구 탄생과 생동하는 지구</a></li><li><a href="esys-2.html" data-id="esys-2"><span class="nav-id">지구시스템과학 2</span>해수의 운동</a></li><li><a href="esys-3.html" data-id="esys-3"><span class="nav-id">지구시스템과학 3</span>강수 과정과 대기의 운동</a></li></ul></details><details class="nav-part"><summary>행성우주과학<span class="nav-count">3</span></summary><ul><li><a href="astro-1.html" data-id="astro-1"><span class="nav-id">행성우주과학 1</span>우주탐사와 행성계</a></li><li><a href="astro-2.html" data-id="astro-2"><span class="nav-id">행성우주과학 2</span>태양과 별의 관측</a></li><li><a href="astro-3.html" data-id="astro-3"><span class="nav-id">행성우주과학 3</span>은하와 우주</a></li></ul></details><p class="nav-group">찾아보기</p><ul class="nav-extra"><li><a href="map.html">개념 연계 지도</a></li><li><a href="glossary.html">핵심 용어 사전</a></li><li><a href="sims.html">시뮬레이션 모아 보기</a></li><li><a href="guide.html">교재 설계 안내</a></li><li><a href="appendix-standards.html">통합과학 성취기준 원문</a></li><li><a href="appendix-map.html">통합과학 대학·산업 연계 지도</a></li></ul></nav></aside>
 <main class="main" id="main">
 <div class="lesson-grid"><nav class="ladder" aria-label="이 단원의 흐름"><p class="ladder-title">이 단원의 흐름</p><ol><li class="extra"><a href="#단원-들어가기">단원 들어가기</a></li><li class="s1"><a href="#step-1"><b>STEP 1</b> 이전 학습 다시 보기</a></li><li class="s2"><a href="#step-2"><b>STEP 2</b> 기초 다지기</a></li><li class="s3"><a href="#step-3"><b>STEP 3</b> 핵심 개념</a></li><li class="s4"><a href="#step-4"><b>STEP 4</b> 오개념 바로잡기</a></li><li class="s5"><a href="#step-5"><b>STEP 5</b> 다음 단계로 한 걸음 더</a></li><li class="s6"><a href="#step-6"><b>STEP 6</b> 생활·산업·진로 연결</a></li><li class="extra"><a href="#탐구-활동-광합성에-필요한-물질과-산물-확인하는-실험하기">탐구 활동 — 광합성에 필요한 물질과 산물 확인하는 실험하기</a></li><li class="extra"><a href="#개념-확인-문제">개념 확인 문제</a></li><li class="extra"><a href="#한눈에-정리">한눈에 정리</a></li></ol></nav><article class="prose lesson"><header class="lesson-hero st-life">
   <p class="eyebrow">중학교 과학 · 2학년</p>
@@ -159,6 +160,251 @@
 </tbody></table></div>
 <aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 잎은 &#39;공장&#39;이다. 지붕(표피)은 유리처럼 빛을 들여보내고, 작업실(잎살 세포)에는 기계(엽록체)가 가득하며, 출입문(기공)으로 원료 기체가 들어오고 제품 기체가 나간다. 수도관(물관)으로 물이 들어오고, 택배 통로(체관)로 제품(양분)이 나간다.</p>
 </aside>
+<figure class="fig" id="fig-m2-05-leaf-structure"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t-m2-05-leaf d-m2-05-leaf">
+  <title id="t-m2-05-leaf">그림 중2-5-1 잎의 단면 구조와 기공</title>
+  <desc id="d-m2-05-leaf">잎은 위아래 표피로 싸여 있고, 그 사이의 잎살 세포에는 엽록체가 많아 광합성이 활발하다. 잎맥에는 물관과 체관이 있다. 주로 잎 뒷면에 있는 기공은 두 개의 공변세포가 둘러싸고 있으며, 이산화 탄소가 들어오고 산소와 수증기가 나간다. 모식도이다.</desc>
+  <style>
+    .m2-05-leaf-t{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .m2-05-leaf-k{font-size:14px;fill:var(--fig-ink)}
+    .m2-05-leaf-s{font-size:13px;fill:var(--fig-muted)}
+    .m2-05-leaf-epi{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2}
+    .m2-05-leaf-cell{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2}
+    .m2-05-leaf-chl{fill:var(--fig-green)}
+    .m2-05-leaf-guard{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2}
+    .m2-05-leaf-xy{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2}
+    .m2-05-leaf-ph{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.2}
+    .m2-05-leaf-lead{stroke:var(--fig-muted);stroke-width:1}
+  </style>
+<rect x="20" y="70" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="50" y="70" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="80" y="70" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="110" y="70" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="140" y="70" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="170" y="70" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="200" y="70" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="230" y="70" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="260" y="70" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="290" y="70" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="320" y="70" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="350" y="70" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="380" y="70" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="410" y="70" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="440" y="70" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="22" y="92" width="20" height="82" rx="8" class="m2-05-leaf-cell"/>
+<circle cx="28" cy="100" r="3" class="m2-05-leaf-chl"/>
+<circle cx="36" cy="115" r="3" class="m2-05-leaf-chl"/>
+<circle cx="28" cy="130" r="3" class="m2-05-leaf-chl"/>
+<circle cx="36" cy="145" r="3" class="m2-05-leaf-chl"/>
+<circle cx="28" cy="160" r="3" class="m2-05-leaf-chl"/>
+<rect x="44" y="92" width="20" height="82" rx="8" class="m2-05-leaf-cell"/>
+<circle cx="50" cy="100" r="3" class="m2-05-leaf-chl"/>
+<circle cx="58" cy="115" r="3" class="m2-05-leaf-chl"/>
+<circle cx="50" cy="130" r="3" class="m2-05-leaf-chl"/>
+<circle cx="58" cy="145" r="3" class="m2-05-leaf-chl"/>
+<circle cx="50" cy="160" r="3" class="m2-05-leaf-chl"/>
+<rect x="66" y="92" width="20" height="82" rx="8" class="m2-05-leaf-cell"/>
+<circle cx="72" cy="100" r="3" class="m2-05-leaf-chl"/>
+<circle cx="80" cy="115" r="3" class="m2-05-leaf-chl"/>
+<circle cx="72" cy="130" r="3" class="m2-05-leaf-chl"/>
+<circle cx="80" cy="145" r="3" class="m2-05-leaf-chl"/>
+<circle cx="72" cy="160" r="3" class="m2-05-leaf-chl"/>
+<rect x="88" y="92" width="20" height="82" rx="8" class="m2-05-leaf-cell"/>
+<circle cx="94" cy="100" r="3" class="m2-05-leaf-chl"/>
+<circle cx="102" cy="115" r="3" class="m2-05-leaf-chl"/>
+<circle cx="94" cy="130" r="3" class="m2-05-leaf-chl"/>
+<circle cx="102" cy="145" r="3" class="m2-05-leaf-chl"/>
+<circle cx="94" cy="160" r="3" class="m2-05-leaf-chl"/>
+<rect x="110" y="92" width="20" height="82" rx="8" class="m2-05-leaf-cell"/>
+<circle cx="116" cy="100" r="3" class="m2-05-leaf-chl"/>
+<circle cx="124" cy="115" r="3" class="m2-05-leaf-chl"/>
+<circle cx="116" cy="130" r="3" class="m2-05-leaf-chl"/>
+<circle cx="124" cy="145" r="3" class="m2-05-leaf-chl"/>
+<circle cx="116" cy="160" r="3" class="m2-05-leaf-chl"/>
+<rect x="132" y="92" width="20" height="50" rx="8" class="m2-05-leaf-cell"/>
+<rect x="154" y="92" width="20" height="50" rx="8" class="m2-05-leaf-cell"/>
+<rect x="176" y="92" width="20" height="50" rx="8" class="m2-05-leaf-cell"/>
+<rect x="198" y="92" width="20" height="50" rx="8" class="m2-05-leaf-cell"/>
+<rect x="220" y="92" width="20" height="82" rx="8" class="m2-05-leaf-cell"/>
+<circle cx="226" cy="100" r="3" class="m2-05-leaf-chl"/>
+<circle cx="234" cy="115" r="3" class="m2-05-leaf-chl"/>
+<circle cx="226" cy="130" r="3" class="m2-05-leaf-chl"/>
+<circle cx="234" cy="145" r="3" class="m2-05-leaf-chl"/>
+<circle cx="226" cy="160" r="3" class="m2-05-leaf-chl"/>
+<rect x="242" y="92" width="20" height="82" rx="8" class="m2-05-leaf-cell"/>
+<circle cx="248" cy="100" r="3" class="m2-05-leaf-chl"/>
+<circle cx="256" cy="115" r="3" class="m2-05-leaf-chl"/>
+<circle cx="248" cy="130" r="3" class="m2-05-leaf-chl"/>
+<circle cx="256" cy="145" r="3" class="m2-05-leaf-chl"/>
+<circle cx="248" cy="160" r="3" class="m2-05-leaf-chl"/>
+<rect x="264" y="92" width="20" height="82" rx="8" class="m2-05-leaf-cell"/>
+<circle cx="270" cy="100" r="3" class="m2-05-leaf-chl"/>
+<circle cx="278" cy="115" r="3" class="m2-05-leaf-chl"/>
+<circle cx="270" cy="130" r="3" class="m2-05-leaf-chl"/>
+<circle cx="278" cy="145" r="3" class="m2-05-leaf-chl"/>
+<circle cx="270" cy="160" r="3" class="m2-05-leaf-chl"/>
+<rect x="286" y="92" width="20" height="82" rx="8" class="m2-05-leaf-cell"/>
+<circle cx="292" cy="100" r="3" class="m2-05-leaf-chl"/>
+<circle cx="300" cy="115" r="3" class="m2-05-leaf-chl"/>
+<circle cx="292" cy="130" r="3" class="m2-05-leaf-chl"/>
+<circle cx="300" cy="145" r="3" class="m2-05-leaf-chl"/>
+<circle cx="292" cy="160" r="3" class="m2-05-leaf-chl"/>
+<rect x="308" y="92" width="20" height="82" rx="8" class="m2-05-leaf-cell"/>
+<circle cx="314" cy="100" r="3" class="m2-05-leaf-chl"/>
+<circle cx="322" cy="115" r="3" class="m2-05-leaf-chl"/>
+<circle cx="314" cy="130" r="3" class="m2-05-leaf-chl"/>
+<circle cx="322" cy="145" r="3" class="m2-05-leaf-chl"/>
+<circle cx="314" cy="160" r="3" class="m2-05-leaf-chl"/>
+<rect x="330" y="92" width="20" height="82" rx="8" class="m2-05-leaf-cell"/>
+<circle cx="336" cy="100" r="3" class="m2-05-leaf-chl"/>
+<circle cx="344" cy="115" r="3" class="m2-05-leaf-chl"/>
+<circle cx="336" cy="130" r="3" class="m2-05-leaf-chl"/>
+<circle cx="344" cy="145" r="3" class="m2-05-leaf-chl"/>
+<circle cx="336" cy="160" r="3" class="m2-05-leaf-chl"/>
+<rect x="352" y="92" width="20" height="82" rx="8" class="m2-05-leaf-cell"/>
+<circle cx="358" cy="100" r="3" class="m2-05-leaf-chl"/>
+<circle cx="366" cy="115" r="3" class="m2-05-leaf-chl"/>
+<circle cx="358" cy="130" r="3" class="m2-05-leaf-chl"/>
+<circle cx="366" cy="145" r="3" class="m2-05-leaf-chl"/>
+<circle cx="358" cy="160" r="3" class="m2-05-leaf-chl"/>
+<rect x="374" y="92" width="20" height="82" rx="8" class="m2-05-leaf-cell"/>
+<circle cx="380" cy="100" r="3" class="m2-05-leaf-chl"/>
+<circle cx="388" cy="115" r="3" class="m2-05-leaf-chl"/>
+<circle cx="380" cy="130" r="3" class="m2-05-leaf-chl"/>
+<circle cx="388" cy="145" r="3" class="m2-05-leaf-chl"/>
+<circle cx="380" cy="160" r="3" class="m2-05-leaf-chl"/>
+<rect x="396" y="92" width="20" height="82" rx="8" class="m2-05-leaf-cell"/>
+<circle cx="402" cy="100" r="3" class="m2-05-leaf-chl"/>
+<circle cx="410" cy="115" r="3" class="m2-05-leaf-chl"/>
+<circle cx="402" cy="130" r="3" class="m2-05-leaf-chl"/>
+<circle cx="410" cy="145" r="3" class="m2-05-leaf-chl"/>
+<circle cx="402" cy="160" r="3" class="m2-05-leaf-chl"/>
+<rect x="418" y="92" width="20" height="82" rx="8" class="m2-05-leaf-cell"/>
+<circle cx="424" cy="100" r="3" class="m2-05-leaf-chl"/>
+<circle cx="432" cy="115" r="3" class="m2-05-leaf-chl"/>
+<circle cx="424" cy="130" r="3" class="m2-05-leaf-chl"/>
+<circle cx="432" cy="145" r="3" class="m2-05-leaf-chl"/>
+<circle cx="424" cy="160" r="3" class="m2-05-leaf-chl"/>
+<rect x="440" y="92" width="20" height="82" rx="8" class="m2-05-leaf-cell"/>
+<circle cx="446" cy="100" r="3" class="m2-05-leaf-chl"/>
+<circle cx="454" cy="115" r="3" class="m2-05-leaf-chl"/>
+<circle cx="446" cy="130" r="3" class="m2-05-leaf-chl"/>
+<circle cx="454" cy="145" r="3" class="m2-05-leaf-chl"/>
+<circle cx="446" cy="160" r="3" class="m2-05-leaf-chl"/>
+<rect x="462" y="92" width="20" height="82" rx="8" class="m2-05-leaf-cell"/>
+<circle cx="468" cy="100" r="3" class="m2-05-leaf-chl"/>
+<circle cx="476" cy="115" r="3" class="m2-05-leaf-chl"/>
+<circle cx="468" cy="130" r="3" class="m2-05-leaf-chl"/>
+<circle cx="476" cy="145" r="3" class="m2-05-leaf-chl"/>
+<circle cx="468" cy="160" r="3" class="m2-05-leaf-chl"/>
+<ellipse cx="37" cy="197" rx="16" ry="12" class="m2-05-leaf-cell"/>
+<circle cx="32" cy="195" r="2.6" class="m2-05-leaf-chl"/><circle cx="43" cy="200" r="2.6" class="m2-05-leaf-chl"/>
+<ellipse cx="82" cy="194" rx="16" ry="12" class="m2-05-leaf-cell"/>
+<circle cx="77" cy="192" r="2.6" class="m2-05-leaf-chl"/><circle cx="88" cy="197" r="2.6" class="m2-05-leaf-chl"/>
+<ellipse cx="239" cy="197" rx="16" ry="12" class="m2-05-leaf-cell"/>
+<circle cx="234" cy="195" r="2.6" class="m2-05-leaf-chl"/><circle cx="245" cy="200" r="2.6" class="m2-05-leaf-chl"/>
+<ellipse cx="281" cy="198" rx="16" ry="12" class="m2-05-leaf-cell"/>
+<circle cx="276" cy="196" r="2.6" class="m2-05-leaf-chl"/><circle cx="287" cy="201" r="2.6" class="m2-05-leaf-chl"/>
+<ellipse cx="315" cy="197" rx="16" ry="12" class="m2-05-leaf-cell"/>
+<circle cx="310" cy="195" r="2.6" class="m2-05-leaf-chl"/><circle cx="321" cy="200" r="2.6" class="m2-05-leaf-chl"/>
+<ellipse cx="354" cy="199" rx="16" ry="12" class="m2-05-leaf-cell"/>
+<circle cx="349" cy="197" r="2.6" class="m2-05-leaf-chl"/><circle cx="360" cy="202" r="2.6" class="m2-05-leaf-chl"/>
+<ellipse cx="401" cy="195" rx="16" ry="12" class="m2-05-leaf-cell"/>
+<circle cx="396" cy="193" r="2.6" class="m2-05-leaf-chl"/><circle cx="407" cy="198" r="2.6" class="m2-05-leaf-chl"/>
+<ellipse cx="442" cy="194" rx="16" ry="12" class="m2-05-leaf-cell"/>
+<circle cx="437" cy="192" r="2.6" class="m2-05-leaf-chl"/><circle cx="448" cy="197" r="2.6" class="m2-05-leaf-chl"/>
+<ellipse cx="55" cy="234" rx="16" ry="12" class="m2-05-leaf-cell"/>
+<circle cx="50" cy="232" r="2.6" class="m2-05-leaf-chl"/><circle cx="61" cy="237" r="2.6" class="m2-05-leaf-chl"/>
+<ellipse cx="99" cy="233" rx="16" ry="12" class="m2-05-leaf-cell"/>
+<circle cx="94" cy="231" r="2.6" class="m2-05-leaf-chl"/><circle cx="105" cy="236" r="2.6" class="m2-05-leaf-chl"/>
+<ellipse cx="220" cy="232" rx="16" ry="12" class="m2-05-leaf-cell"/>
+<circle cx="215" cy="230" r="2.6" class="m2-05-leaf-chl"/><circle cx="226" cy="235" r="2.6" class="m2-05-leaf-chl"/>
+<ellipse cx="258" cy="234" rx="16" ry="12" class="m2-05-leaf-cell"/>
+<circle cx="253" cy="232" r="2.6" class="m2-05-leaf-chl"/><circle cx="264" cy="237" r="2.6" class="m2-05-leaf-chl"/>
+<ellipse cx="294" cy="230" rx="16" ry="12" class="m2-05-leaf-cell"/>
+<circle cx="289" cy="228" r="2.6" class="m2-05-leaf-chl"/><circle cx="300" cy="233" r="2.6" class="m2-05-leaf-chl"/>
+<ellipse cx="334" cy="235" rx="16" ry="12" class="m2-05-leaf-cell"/>
+<circle cx="329" cy="233" r="2.6" class="m2-05-leaf-chl"/><circle cx="340" cy="238" r="2.6" class="m2-05-leaf-chl"/>
+<ellipse cx="380" cy="232" rx="16" ry="12" class="m2-05-leaf-cell"/>
+<circle cx="375" cy="230" r="2.6" class="m2-05-leaf-chl"/><circle cx="386" cy="235" r="2.6" class="m2-05-leaf-chl"/>
+<ellipse cx="412" cy="234" rx="16" ry="12" class="m2-05-leaf-cell"/>
+<circle cx="407" cy="232" r="2.6" class="m2-05-leaf-chl"/><circle cx="418" cy="237" r="2.6" class="m2-05-leaf-chl"/>
+<ellipse cx="453" cy="230" rx="16" ry="12" class="m2-05-leaf-cell"/>
+<circle cx="448" cy="228" r="2.6" class="m2-05-leaf-chl"/><circle cx="459" cy="233" r="2.6" class="m2-05-leaf-chl"/>
+<ellipse cx="34" cy="261" rx="16" ry="12" class="m2-05-leaf-cell"/>
+<circle cx="29" cy="259" r="2.6" class="m2-05-leaf-chl"/><circle cx="40" cy="264" r="2.6" class="m2-05-leaf-chl"/>
+<ellipse cx="74" cy="265" rx="16" ry="12" class="m2-05-leaf-cell"/>
+<circle cx="69" cy="263" r="2.6" class="m2-05-leaf-chl"/><circle cx="80" cy="268" r="2.6" class="m2-05-leaf-chl"/>
+<ellipse cx="118" cy="262" rx="16" ry="12" class="m2-05-leaf-cell"/>
+<circle cx="113" cy="260" r="2.6" class="m2-05-leaf-chl"/><circle cx="124" cy="265" r="2.6" class="m2-05-leaf-chl"/>
+<ellipse cx="160" cy="264" rx="16" ry="12" class="m2-05-leaf-cell"/>
+<circle cx="155" cy="262" r="2.6" class="m2-05-leaf-chl"/><circle cx="166" cy="267" r="2.6" class="m2-05-leaf-chl"/>
+<ellipse cx="200" cy="262" rx="16" ry="12" class="m2-05-leaf-cell"/>
+<circle cx="195" cy="260" r="2.6" class="m2-05-leaf-chl"/><circle cx="206" cy="265" r="2.6" class="m2-05-leaf-chl"/>
+<ellipse cx="241" cy="260" rx="16" ry="12" class="m2-05-leaf-cell"/>
+<circle cx="236" cy="258" r="2.6" class="m2-05-leaf-chl"/><circle cx="247" cy="263" r="2.6" class="m2-05-leaf-chl"/>
+<ellipse cx="279" cy="259" rx="16" ry="12" class="m2-05-leaf-cell"/>
+<circle cx="274" cy="257" r="2.6" class="m2-05-leaf-chl"/><circle cx="285" cy="262" r="2.6" class="m2-05-leaf-chl"/>
+<ellipse cx="394" cy="260" rx="16" ry="12" class="m2-05-leaf-cell"/>
+<circle cx="389" cy="258" r="2.6" class="m2-05-leaf-chl"/><circle cx="400" cy="263" r="2.6" class="m2-05-leaf-chl"/>
+<ellipse cx="441" cy="260" rx="16" ry="12" class="m2-05-leaf-cell"/>
+<circle cx="436" cy="258" r="2.6" class="m2-05-leaf-chl"/><circle cx="447" cy="263" r="2.6" class="m2-05-leaf-chl"/>
+<circle cx="160" cy="195" r="44" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.2"/>
+<circle cx="142" cy="179" r="8" class="m2-05-leaf-xy"/>
+<circle cx="160" cy="175" r="8" class="m2-05-leaf-xy"/>
+<circle cx="178" cy="179" r="8" class="m2-05-leaf-xy"/>
+<circle cx="151" cy="193" r="8" class="m2-05-leaf-xy"/>
+<circle cx="169" cy="193" r="8" class="m2-05-leaf-xy"/>
+<circle cx="144" cy="213" r="5" class="m2-05-leaf-ph"/>
+<circle cx="155" cy="217" r="5" class="m2-05-leaf-ph"/>
+<circle cx="166" cy="217" r="5" class="m2-05-leaf-ph"/>
+<circle cx="177" cy="213" r="5" class="m2-05-leaf-ph"/>
+<circle cx="160" cy="206" r="5" class="m2-05-leaf-ph"/>
+<rect x="20" y="282" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="50" y="282" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="80" y="282" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="110" y="282" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="140" y="282" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="170" y="282" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="200" y="282" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="230" y="282" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="260" y="282" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="290" y="282" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="380" y="282" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="410" y="282" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="440" y="282" width="30" height="20" class="m2-05-leaf-epi"/>
+<rect x="300" y="282" width="10" height="20" class="m2-05-leaf-epi"/>
+<rect x="360" y="282" width="10" height="20" class="m2-05-leaf-epi"/>
+<ellipse cx="323" cy="292" rx="13" ry="11" class="m2-05-leaf-guard"/><ellipse cx="347" cy="292" rx="13" ry="11" class="m2-05-leaf-guard"/>
+<circle cx="321" cy="290" r="2.6" class="m2-05-leaf-chl"/><circle cx="349" cy="290" r="2.6" class="m2-05-leaf-chl"/>
+<line x1="60" y1="18" x2="60" y2="58" style="stroke:var(--fig-amber);stroke-width:3"/>
+<path d="M60.0 65.4 L55.1 54.4 L64.9 54.4 Z" style="fill:var(--fig-amber)"/>
+<line x1="250" y1="18" x2="250" y2="58" style="stroke:var(--fig-amber);stroke-width:3"/>
+<path d="M250.0 65.4 L245.1 54.4 L254.9 54.4 Z" style="fill:var(--fig-amber)"/>
+<line x1="420" y1="18" x2="420" y2="58" style="stroke:var(--fig-amber);stroke-width:3"/>
+<path d="M420.0 65.4 L415.1 54.4 L424.9 54.4 Z" style="fill:var(--fig-amber)"/>
+<text x="76" y="40" class="m2-05-leaf-k" style="fill:var(--fig-amber)">빛</text>
+<line x1="311" y1="392" x2="311" y2="300" style="stroke:var(--fig-teal);stroke-width:2.4"/>
+<path d="M311.0 294.8 L315.9 305.8 L306.1 305.8 Z" style="fill:var(--fig-teal)"/>
+<text x="303" y="406" text-anchor="end" class="m2-05-leaf-k" style="fill:var(--fig-teal)">이산화 탄소 들어옴</text>
+<line x1="353" y1="300" x2="353" y2="392" style="stroke:var(--fig-red);stroke-width:2.4"/>
+<path d="M353.0 397.2 L348.1 386.2 L357.9 386.2 Z" style="fill:var(--fig-red)"/>
+<text x="363" y="406" class="m2-05-leaf-k" style="fill:var(--fig-red)">산소·수증기 나감</text>
+<line x1="455" y1="80" x2="486" y2="80" class="m2-05-leaf-lead"/>
+<text x="492" y="85" class="m2-05-leaf-k">표피</text>
+<text x="492" y="102" class="m2-05-leaf-s">투명해 빛이 통과한다</text>
+<line x1="450" y1="130" x2="486" y2="128" class="m2-05-leaf-lead"/>
+<text x="492" y="133" class="m2-05-leaf-k">잎살 세포</text>
+<text x="492" y="150" class="m2-05-leaf-s">엽록체가 많다 → 광합성</text>
+<line x1="200" y1="190" x2="486" y2="186" class="m2-05-leaf-lead"/>
+<text x="492" y="191" class="m2-05-leaf-k">잎맥</text>
+<text x="492" y="208" class="m2-05-leaf-s">물관(파랑)·체관(노랑)</text>
+<line x1="450" y1="262" x2="486" y2="240" class="m2-05-leaf-lead"/>
+<text x="492" y="245" class="m2-05-leaf-k">공기가 차 있는 틈</text>
+<line x1="358" y1="292" x2="486" y2="292" class="m2-05-leaf-lead"/>
+<text x="492" y="297" class="m2-05-leaf-k">기공과 공변세포</text>
+<text x="492" y="314" class="m2-05-leaf-s">주로 잎 뒷면에 있다</text>
+</svg></div><figcaption><b>그림 중2-5-1 잎의 단면 구조와 기공</b> 잎은 위아래 표피로 싸여 있고, 그 사이의 잎살 세포에는 엽록체가 많아 광합성이 활발하다. 잎맥에는 물관과 체관이 있다. 주로 잎 뒷면에 있는 기공은 두 개의 공변세포가 둘러싸고 있으며, 이산화 탄소가 들어오고 산소와 수증기가 나간다. 모식도이다.</figcaption></figure>
+
 <h3 id="②-물관과-체관-식물의-두-가지-길">② 물관과 체관 — 식물의 두 가지 길</h3>
 <div class="table-wrap"><table><thead><tr>
 <th>통로</th>
@@ -366,12 +612,14 @@
 <td><strong>온도</strong></td>
 <td>일정 온도까지는 증가하다가, 그보다 높아지면 <strong>급격히 감소</strong>한다</td>
 <td>산 모양</td>
-<td>광합성은 여러 단계의 화학 반응이고, 반응을 돕는 물질(효소)이 높은 온도에서 제 기능을 잃는다</td>
+<td>광합성은 여러 단계의 화학 반응으로 일어나는데, 이 반응을 돕는 물질이 온도가 너무 높으면 제 기능을 잃는다(이 물질을 <strong>효소</strong>라고 하며, 다음 단원 「동물과 에너지」의 소화 효소에서 다시 만난다)</td>
 </tr>
 </tbody></table></div>
 <aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 광합성을 &#39;김밥 만들기&#39;라고 하자. 김(빛), 밥(이산화 탄소), 일손(온도에 따라 일하는 속도)이 모두 필요하다. 밥을 아무리 많이 가져와도 김이 모자라면 김밥 수는 늘지 않는다. 가장 <strong>모자란 재료</strong>가 생산량을 정한다. 그리고 너무 더우면 일손이 지쳐 오히려 생산량이 확 줄어든다.</p>
 </aside>
 <p>온도의 경우 가장 활발한 온도는 식물마다 다르지만, 많은 식물에서 대략 30~35 ℃ 무렵까지 광합성이 활발해지다가 그보다 더 뜨거워지면 빠르게 줄어든다. 한여름 한낮에 기온이 너무 높고 건조하면, 식물은 물을 잃지 않으려고 기공을 닫기도 한다. 그러면 이산화 탄소가 들어오지 못해 광합성량이 줄어든다.</p>
+<figure class="sim" id="sim-photosynthesis-lab" data-sim="photosynthesis-lab"><noscript>이 애니메이션은 자바스크립트가 필요하다.</noscript></figure>
+
 <h4 id="예제-3-실험-결과-해석하기">예제 3 — 실험 결과 해석하기</h4>
 <p>검정말을 물이 든 시험관에 넣고 전등과의 거리를 바꾸며 1분 동안 발생하는 기포 수를 세었다. (물의 온도와 탄산수소 나트륨의 양은 같게 하였다.)</p>
 <div class="table-wrap"><table><thead><tr>
@@ -515,6 +763,88 @@
 </tbody></table></div>
 <aside class="callout important"><p class="callout-title">핵심</p><p>식물이 자라려면(양분이 쌓이려면) 하루 전체로 보아 <strong>광합성으로 만든 양분이 호흡으로 쓴 양분보다 많아야</strong> 한다. 빛이 너무 부족한 곳에서 식물이 시들어 가는 까닭은 광합성량이 호흡량을 따라가지 못해 양분이 계속 줄어들기 때문이다.</p>
 </aside>
+<figure class="fig" id="fig-m2-05-day-night-gas"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-m2-05-gas d-m2-05-gas">
+  <title id="t-m2-05-gas">그림 중2-5-2 낮과 밤, 식물의 기체 출입</title>
+  <desc id="d-m2-05-gas">호흡은 밤낮없이 일어나고 광합성은 빛이 있을 때만 일어난다. 빛이 강한 낮에는 광합성량이 호흡량보다 많아 이산화 탄소를 흡수하고 산소를 내보낸다. 빛이 약한 아침·저녁에는 두 양이 비슷해 드러나는 출입이 거의 없고, 밤에는 호흡만 하므로 산소를 흡수하고 이산화 탄소를 내보낸다. 막대 길이는 크기를 비교하기 위한 모식도이다.</desc>
+  <style>
+    .m2-05-gas-t{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .m2-05-gas-k{font-size:13px;fill:var(--fig-ink)}
+    .m2-05-gas-s{font-size:13px;fill:var(--fig-muted)}
+    .m2-05-gas-box{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2}
+    .m2-05-gas-leaf{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6}
+  </style>
+<rect x="12" y="12" width="224" height="376" rx="8" class="m2-05-gas-box"/>
+<text x="124.0" y="38" text-anchor="middle" class="m2-05-gas-t">빛이 강한 낮</text>
+<circle cx="200" cy="70" r="15" style="fill:var(--fig-amber)"/>
+<line x1="220.0" y1="70.0" x2="227.0" y2="70.0" style="stroke:var(--fig-amber);stroke-width:2.4"/>
+<line x1="214.1" y1="84.1" x2="219.1" y2="89.1" style="stroke:var(--fig-amber);stroke-width:2.4"/>
+<line x1="200.0" y1="90.0" x2="200.0" y2="97.0" style="stroke:var(--fig-amber);stroke-width:2.4"/>
+<line x1="185.9" y1="84.1" x2="180.9" y2="89.1" style="stroke:var(--fig-amber);stroke-width:2.4"/>
+<line x1="180.0" y1="70.0" x2="173.0" y2="70.0" style="stroke:var(--fig-amber);stroke-width:2.4"/>
+<line x1="185.9" y1="55.9" x2="180.9" y2="50.9" style="stroke:var(--fig-amber);stroke-width:2.4"/>
+<line x1="200.0" y1="50.0" x2="200.0" y2="43.0" style="stroke:var(--fig-amber);stroke-width:2.4"/>
+<line x1="214.1" y1="55.9" x2="219.1" y2="50.9" style="stroke:var(--fig-amber);stroke-width:2.4"/>
+<path d="M48 250 L116 250 L108 280 L56 280 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+<line x1="82" y1="250" x2="82" y2="140" style="stroke:var(--fig-green);stroke-width:3"/>
+<path d="M82 220 q-22 -18 -42 -6 q20 14 42 6 Z" class="m2-05-gas-leaf"/>
+<path d="M82 195 q22 -18 42 -6 q-20 14 -42 6 Z" class="m2-05-gas-leaf"/>
+<path d="M82 170 q-22 -18 -42 -6 q20 14 42 6 Z" class="m2-05-gas-leaf"/>
+<path d="M82 148 q22 -18 42 -6 q-20 14 -42 6 Z" class="m2-05-gas-leaf"/>
+<line x1="222" y1="120" x2="112" y2="120" style="stroke:var(--fig-teal);stroke-width:3"/>
+<path d="M108.8 120.0 L120.7 114.7 L120.7 125.3 Z" style="fill:var(--fig-teal)"/>
+<text x="167.0" y="112" text-anchor="middle" class="m2-05-gas-k" style="fill:var(--fig-teal)">이산화 탄소 흡수</text>
+<line x1="112" y1="170" x2="222" y2="170" style="stroke:var(--fig-red);stroke-width:3"/>
+<path d="M225.2 170.0 L213.3 175.3 L213.3 164.7 Z" style="fill:var(--fig-red)"/>
+<text x="167.0" y="162" text-anchor="middle" class="m2-05-gas-k" style="fill:var(--fig-red)">산소 방출</text>
+<text x="26" y="323" class="m2-05-gas-k">광합성</text>
+<rect x="96" y="312" width="124" height="14" rx="3" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+<rect x="96" y="312" width="124.0" height="14" rx="3" style="fill:var(--fig-green)"/>
+<text x="26" y="347" class="m2-05-gas-k">호흡</text>
+<rect x="96" y="336" width="124" height="14" rx="3" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+<rect x="96" y="336" width="37.2" height="14" rx="3" style="fill:var(--fig-violet)"/>
+<text x="124.0" y="376" text-anchor="middle" class="m2-05-gas-t" style="font-size:14px">광합성량 > 호흡량</text>
+<rect x="248" y="12" width="224" height="376" rx="8" class="m2-05-gas-box"/>
+<text x="360.0" y="38" text-anchor="middle" class="m2-05-gas-t">빛이 약한 아침·저녁</text>
+<path d="M416 82 A20 20 0 0 1 456 82 Z" style="fill:var(--fig-amber);opacity:.6"/>
+<line x1="406" y1="82" x2="466" y2="82" style="stroke:var(--fig-line);stroke-width:1.5"/>
+<path d="M284 250 L352 250 L344 280 L292 280 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+<line x1="318" y1="250" x2="318" y2="140" style="stroke:var(--fig-green);stroke-width:3"/>
+<path d="M318 220 q-22 -18 -42 -6 q20 14 42 6 Z" class="m2-05-gas-leaf"/>
+<path d="M318 195 q22 -18 42 -6 q-20 14 -42 6 Z" class="m2-05-gas-leaf"/>
+<path d="M318 170 q-22 -18 -42 -6 q20 14 42 6 Z" class="m2-05-gas-leaf"/>
+<path d="M318 148 q22 -18 42 -6 q-20 14 -42 6 Z" class="m2-05-gas-leaf"/>
+<text x="412" y="140" text-anchor="middle" class="m2-05-gas-s">드러나는 기체</text>
+<text x="412" y="158" text-anchor="middle" class="m2-05-gas-s">출입이 거의 없다</text>
+<text x="262" y="323" class="m2-05-gas-k">광합성</text>
+<rect x="332" y="312" width="124" height="14" rx="3" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+<rect x="332" y="312" width="37.2" height="14" rx="3" style="fill:var(--fig-green)"/>
+<text x="262" y="347" class="m2-05-gas-k">호흡</text>
+<rect x="332" y="336" width="124" height="14" rx="3" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+<rect x="332" y="336" width="37.2" height="14" rx="3" style="fill:var(--fig-violet)"/>
+<text x="360.0" y="376" text-anchor="middle" class="m2-05-gas-t" style="font-size:14px">광합성량 = 호흡량</text>
+<rect x="484" y="12" width="224" height="376" rx="8" class="m2-05-gas-box"/>
+<text x="596.0" y="38" text-anchor="middle" class="m2-05-gas-t">밤</text>
+<path d="M676 54 A16 16 0 1 0 684 82 A12 12 0 1 1 676 54 Z" style="fill:var(--fig-violet)"/>
+<path d="M520 250 L588 250 L580 280 L528 280 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+<line x1="554" y1="250" x2="554" y2="140" style="stroke:var(--fig-green);stroke-width:3"/>
+<path d="M554 220 q-22 -18 -42 -6 q20 14 42 6 Z" class="m2-05-gas-leaf"/>
+<path d="M554 195 q22 -18 42 -6 q-20 14 -42 6 Z" class="m2-05-gas-leaf"/>
+<path d="M554 170 q-22 -18 -42 -6 q20 14 42 6 Z" class="m2-05-gas-leaf"/>
+<path d="M554 148 q22 -18 42 -6 q-20 14 -42 6 Z" class="m2-05-gas-leaf"/>
+<line x1="694" y1="120" x2="584" y2="120" style="stroke:var(--fig-red);stroke-width:3"/>
+<path d="M580.8 120.0 L592.7 114.7 L592.7 125.3 Z" style="fill:var(--fig-red)"/>
+<text x="639.0" y="112" text-anchor="middle" class="m2-05-gas-k" style="fill:var(--fig-red)">산소 흡수</text>
+<line x1="584" y1="170" x2="694" y2="170" style="stroke:var(--fig-teal);stroke-width:3"/>
+<path d="M697.2 170.0 L685.3 175.3 L685.3 164.7 Z" style="fill:var(--fig-teal)"/>
+<text x="639.0" y="162" text-anchor="middle" class="m2-05-gas-k" style="fill:var(--fig-teal)">이산화 탄소 방출</text>
+<text x="498" y="323" class="m2-05-gas-k">광합성</text>
+<rect x="568" y="312" width="124" height="14" rx="3" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+<text x="498" y="347" class="m2-05-gas-k">호흡</text>
+<rect x="568" y="336" width="124" height="14" rx="3" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+<rect x="568" y="336" width="37.2" height="14" rx="3" style="fill:var(--fig-violet)"/>
+<text x="596.0" y="376" text-anchor="middle" class="m2-05-gas-t" style="font-size:14px">광합성량 = 0 (호흡만)</text>
+</svg></div><figcaption><b>그림 중2-5-2 낮과 밤, 식물의 기체 출입</b> 호흡은 밤낮없이 일어나고 광합성은 빛이 있을 때만 일어난다. 빛이 강한 낮에는 광합성량이 호흡량보다 많아 이산화 탄소를 흡수하고 산소를 내보낸다. 빛이 약한 아침·저녁에는 두 양이 비슷해 드러나는 출입이 거의 없고, 밤에는 호흡만 하므로 산소를 흡수하고 이산화 탄소를 내보낸다. 막대 길이는 크기를 비교하기 위한 모식도이다.</figcaption></figure>
+
 <h4 id="예제-6-기체-출입량-계산하기">예제 6 — 기체 출입량 계산하기</h4>
 <p>어떤 식물이 빛이 강할 때 광합성으로 1시간에 산소 30 mL를 만들고, 호흡으로 밤낮 관계없이 1시간에 산소 5 mL를 쓴다.
 (1) 빛이 강한 낮에 이 식물이 1시간 동안 밖으로 내보내는 산소의 양은?
@@ -622,6 +952,55 @@
 <td>참깨, 땅콩, 해바라기(씨)</td>
 </tr>
 </tbody></table></div>
+<figure class="fig" id="fig-m2-05-product-transport"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img" aria-labelledby="t-m2-05-tr d-m2-05-tr">
+  <title id="t-m2-05-tr">그림 중2-5-3 광합성 산물의 이동과 저장</title>
+  <desc id="d-m2-05-tr">낮에 잎에서 만든 포도당은 녹말로 바뀌어 잎에 잠시 저장되고, 주로 밤에 물에 잘 녹는 설탕으로 바뀌어 체관을 따라 위아래로 이동한다. 열매, 씨, 뿌리 같은 저장 기관에서는 녹말·설탕·단백질·지방 등으로 바뀌어 저장된다. 물과 무기 양분은 물관을 따라 뿌리에서 잎으로 올라간다. 모식도이다.</desc>
+  <style>
+    .m2-05-tr-t{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .m2-05-tr-k{font-size:14px;fill:var(--fig-ink)}
+    .m2-05-tr-s{font-size:13px;fill:var(--fig-muted)}
+    .m2-05-tr-leaf{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2}
+    .m2-05-tr-card{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2}
+  </style>
+<rect x="0" y="330" width="720" height="110" style="fill:var(--fig-soft-amber)"/>
+<line x1="0" y1="330" x2="720" y2="330" style="stroke:var(--fig-amber);stroke-width:1.5"/>
+<text x="14" y="352" class="m2-05-tr-s">땅</text>
+<rect x="286" y="90" width="28" height="270" rx="6" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+<line x1="294" y1="96" x2="294" y2="356" style="stroke:var(--fig-blue);stroke-width:4"/>
+<line x1="306" y1="96" x2="306" y2="356" style="stroke:var(--fig-amber);stroke-width:4"/>
+<path d="M300 360 q-30 30 -60 40 M300 360 q20 40 50 50 M300 360 l0 50" style="fill:none;stroke:var(--fig-amber);stroke-width:3"/>
+<ellipse cx="380" cy="408" rx="42" ry="20" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+<path d="M312 372 q20 20 30 30" style="fill:none;stroke:var(--fig-amber);stroke-width:3"/>
+<path d="M314 110 Q420 40 550 80 Q440 160 314 110 Z" class="m2-05-tr-leaf"/>
+<line x1="314" y1="110" x2="540" y2="82" style="stroke:var(--fig-green);stroke-width:1.5"/>
+<path d="M286 170 Q210 130 130 160 Q210 200 286 170 Z" class="m2-05-tr-leaf"/>
+<line x1="314" y1="240" x2="370" y2="250" style="stroke:var(--fig-green);stroke-width:3"/>
+<circle cx="388" cy="262" r="22" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+<path d="M306.0 215.0 L300.7 203.1 L311.3 203.1 Z" style="fill:var(--fig-amber)"/>
+<path d="M306.0 318.5 L300.7 306.6 L311.3 306.6 Z" style="fill:var(--fig-amber)"/>
+<path d="M306.0 93.9 L311.3 105.8 L300.7 105.8 Z" style="fill:var(--fig-amber)"/>
+<path d="M294.0 251.5 L299.3 263.4 L288.7 263.4 Z" style="fill:var(--fig-blue)"/>
+<path d="M294.0 121.5 L299.3 133.4 L288.7 133.4 Z" style="fill:var(--fig-blue)"/>
+<rect x="470" y="120" width="236" height="52" rx="6" class="m2-05-tr-card" style="stroke:var(--fig-green)"/>
+<text x="480" y="142" class="m2-05-tr-k">① 잎(낮): 포도당 → 녹말</text>
+<text x="480" y="161" class="m2-05-tr-s">엽록체에 잠시 저장</text>
+<line x1="470" y1="140" x2="480" y2="90" style="stroke:var(--fig-muted);stroke-width:1"/>
+<rect x="470" y="190" width="236" height="71" rx="6" class="m2-05-tr-card" style="stroke:var(--fig-amber)"/>
+<text x="480" y="212" class="m2-05-tr-k">② 이동(주로 밤): 녹말 → 설탕</text>
+<text x="480" y="231" class="m2-05-tr-s">설탕이 체관을 따라</text>
+<text x="480" y="250" class="m2-05-tr-s">위아래로 이동한다</text>
+<line x1="470" y1="210" x2="310" y2="200" style="stroke:var(--fig-muted);stroke-width:1"/>
+<rect x="470" y="268" width="236" height="52" rx="6" class="m2-05-tr-card" style="stroke:var(--fig-red)"/>
+<text x="480" y="290" class="m2-05-tr-k">③ 저장: 열매·씨·뿌리 등</text>
+<text x="480" y="309" class="m2-05-tr-s">녹말, 설탕, 단백질, 지방으로</text>
+<line x1="470" y1="285" x2="408" y2="268" style="stroke:var(--fig-muted);stroke-width:1"/>
+<text x="430" y="414" class="m2-05-tr-k">고구마(뿌리): 녹말</text>
+<text x="388" y="300" text-anchor="middle" class="m2-05-tr-s">열매</text>
+<line x1="20" y1="40" x2="50" y2="40" style="stroke:var(--fig-blue);stroke-width:4"/><text x="58" y="45" class="m2-05-tr-k">물관: 물·무기 양분 (뿌리 → 잎, 위로)</text>
+<line x1="20" y1="66" x2="50" y2="66" style="stroke:var(--fig-amber);stroke-width:4"/><text x="58" y="71" class="m2-05-tr-k">체관: 양분(설탕) (위·아래 모두)</text>
+<text x="274" y="262" text-anchor="end" class="m2-05-tr-s">줄기</text>
+</svg></div><figcaption><b>그림 중2-5-3 광합성 산물의 이동과 저장</b> 낮에 잎에서 만든 포도당은 녹말로 바뀌어 잎에 잠시 저장되고, 주로 밤에 물에 잘 녹는 설탕으로 바뀌어 체관을 따라 위아래로 이동한다. 열매, 씨, 뿌리 같은 저장 기관에서는 녹말·설탕·단백질·지방 등으로 바뀌어 저장된다. 물과 무기 양분은 물관을 따라 뿌리에서 잎으로 올라간다. 모식도이다.</figcaption></figure>
+
 <h4 id="예제-8">예제 8</h4>
 <p>오후 늦게 딴 잎과 다음 날 새벽에 딴 잎을 각각 에탄올로 탈색하고 아이오딘-아이오딘화 칼륨 용액을 떨어뜨렸다. 어느 잎이 더 진한 청람색을 띠겠는가? 그 까닭을 쓰시오.</p>
 <p><strong>풀이</strong> <strong>오후 늦게 딴 잎</strong>이 더 진하다. 낮 동안 광합성으로 만든 포도당이 녹말로 잎에 쌓여 있기 때문이다. 밤에는 광합성이 일어나지 않고, 잎의 녹말이 설탕으로 바뀌어 체관을 통해 다른 곳으로 옮겨 가거나 호흡에 쓰이므로 새벽에는 잎의 녹말이 줄어 있다.</p>
@@ -1140,7 +1519,10 @@
 </tbody></table></div>
 <h3 id="다음-단원으로">다음 단원으로</h3>
 <p>식물은 햇빛으로 스스로 양분을 만들지만, 동물은 그렇게 할 수 없다. 다음 단원 「동물과 에너지」에서는 동물이 식물이 저장한 양분을 먹고 <strong>소화</strong>하여 흡수하고, <strong>호흡계</strong>로 받아들인 산소와 함께 <strong>순환계</strong>로 온몸의 세포에 전달하여, 이 단원에서 배운 것과 같은 <strong>호흡</strong>으로 에너지를 얻는 과정을 살펴본다. 노폐물을 내보내는 <strong>배설</strong>까지 이어 보면, 식물과 동물이 결국 같은 원리로 에너지를 얻는다는 것을 알게 된다.</p>
-<nav class="pager"><a class="prev" href="m2-04.html"><small>이전 단원 · 중2</small>물질의 구성</a><a class="next" href="m2-06.html"><small>다음 단원 · 중2</small>동물과 에너지</a></nav></article></div>
+<section class="done-box" id="done-box" hidden>
+  <label><input type="checkbox" id="done-check"><span>이 단원 학습을 마쳤다</span></label>
+  <p>표시해 두면 목차에 ✓가 붙고, 첫 화면에서 전체 진행 상황을 볼 수 있다. 읽던 위치와 이 표시는 지금 쓰는 기기의 브라우저에만 저장된다.</p>
+</section><nav class="pager"><a class="prev" href="m2-04.html"><small>이전 단원 · 중2</small>물질의 구성</a><a class="next" href="m2-06.html"><small>다음 단원 · 중2</small>동물과 에너지</a></nav></article></div>
 </main>
 </div>
 </body>

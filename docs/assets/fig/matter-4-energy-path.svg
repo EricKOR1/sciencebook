@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-matter-4-energy-path d-matter-4-energy-path">
+  <title id="t-matter-4-energy-path">그림 물질과 에너지 4-1 반응 경로에 따른 에너지 변화와 촉매</title>
+  <desc id="d-matter-4-energy-path">반응물이 활성화 에너지만큼의 언덕을 넘어 활성화물을 거쳐 생성물이 된다. 정촉매는 언덕이 낮은 새 경로를 열지만 반응물과 생성물의 에너지, 곧 반응 엔탈피는 바꾸지 않는다. 값은 예제 6(Eₐ = 80, ΔH = −30 kJ/mol)을 따랐고, 촉매 경로의 높이는 설명을 위한 것이다.</desc>
+  <style>
+    .ep-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.5}
+    .ep-c{fill:none;stroke:var(--fig-accent);stroke-width:3;stroke-linejoin:round}
+    .ep-k{fill:none;stroke:var(--fig-green);stroke-width:2.6;stroke-dasharray:7 5}
+    .ep-g{fill:none;stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:3 4}
+    .ep-ar{fill:none;stroke:var(--fig-ink);stroke-width:1.8}
+    .ep-ah{fill:var(--fig-ink)}
+    .ep-l{font-size:14px;fill:var(--fig-ink)}
+    .ep-b{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+    .ep-t{font-size:13px;fill:var(--fig-muted)}
+  </style>
+  <path d="M40 30 L40 360 L690 360" class="ep-ax"/>
+  <path d="M40 22 l-5 10 l10 0 z M698 360 l-10 -5 l0 10 z" class="ep-ah"/>
+  <text x="50" y="30" class="ep-t">에너지</text>
+  <text x="690" y="382" text-anchor="end" class="ep-t">반응 진행 →</text>
+  <!-- 기준선 -->
+  <line x1="100" y1="64" x2="660" y2="64" class="ep-g"/>
+  <line x1="100" y1="152" x2="380" y2="152" class="ep-g"/>
+  <line x1="100" y1="240" x2="600" y2="240" class="ep-g"/>
+  <line x1="530" y1="306" x2="660" y2="306" class="ep-g"/>
+  <!-- 곡선 -->
+  <path d="M160 240 L230 240 C300 240 330 152 380 152 C430 152 460 306 530 306" class="ep-k"/>
+  <path d="M160 240 L230 240 C300 240 330 64 380 64 C430 64 460 306 530 306 L620 306" class="ep-c"/>
+  <text x="380" y="52" text-anchor="middle" class="ep-b">활성화물</text>
+  <text x="380" y="140" text-anchor="middle" class="ep-l" style="fill:var(--fig-green);font-weight:700">촉매 경로</text>
+  <text x="190" y="230" text-anchor="middle" class="ep-b">반응물</text>
+  <text x="575" y="328" text-anchor="middle" class="ep-b">생성물</text>
+  <!-- Ea -->
+  <line x1="110" y1="236" x2="110" y2="72" class="ep-ar"/>
+  <path d="M110 64 l-5 10 l10 0 z M110 240 l-5 -10 l10 0 z" class="ep-ah"/>
+  <text x="102" y="150" text-anchor="end" class="ep-l">Eₐ 80</text>
+  <!-- 촉매 Ea -->
+  <line x1="150" y1="236" x2="150" y2="160" style="fill:none;stroke:var(--fig-green);stroke-width:1.8"/>
+  <path d="M150 152 l-5 10 l10 0 z M150 240 l-5 -10 l10 0 z" style="fill:var(--fig-green)"/>
+  <text x="158" y="200" class="ep-l" style="fill:var(--fig-green)">촉매 Eₐ</text>
+  <!-- ΔH -->
+  <line x1="590" y1="244" x2="590" y2="298" class="ep-ar"/>
+  <path d="M590 306 l-5 -10 l10 0 z" class="ep-ah"/>
+  <text x="598" y="278" class="ep-l">ΔH −30</text>
+  <!-- Ea' -->
+  <line x1="650" y1="302" x2="650" y2="72" class="ep-ar"/>
+  <path d="M650 64 l-5 10 l10 0 z M650 306 l-5 -10 l10 0 z" class="ep-ah"/>
+  <text x="644" y="150" text-anchor="end" class="ep-l">역반응 Eₐ′ 110</text>
+  <text x="40" y="392" class="ep-t">단위: kJ/mol. 촉매는 Eₐ와 Eₐ′을 같은 만큼 낮추고 ΔH는 그대로 둔다.</text>
+</svg>

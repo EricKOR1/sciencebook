@@ -20,8 +20,8 @@ Sims.register('motor-3d', {
     function torque() { return K * iA() * Math.cos(state.phi); }
 
     var S = api.scene3d({
-      yaw: 0.55, pitch: 0.32, dist: 13, scale: 0.12,
-      aspect: function (w) { return w < 560 ? 1.0 : 0.62; },
+      yaw: 0.55, pitch: 0.32, dist: 13, scale: 0.118,
+      aspect: function (w) { return w < 560 ? 1.0 : 0.7; },
       label: '말굽자석의 두 극 사이에 놓인 사각 코일, 정류자와 브러시, 전지로 이루어진 전동기 모형',
       draw: function (g, T) {
         // 자석: 왼쪽 N극, 오른쪽 S극
@@ -35,7 +35,6 @@ Sims.register('motor-3d', {
             g.arrow([-2.15, y, z], [2.1, y, z], T.figTeal, { width: 1.2, alpha: 0.55, head: 7 });
           });
         });
-        g.text([0, -1.38, -1.3], '자기장 방향 (N → S)', { color: T.figTeal, size: 12 });
         // 코일
         var c = Math.cos(state.phi), s = Math.sin(state.phi);
         var A = [R * c, R * s], B = [-R * c, -R * s], i1 = iA();
@@ -64,22 +63,21 @@ Sims.register('motor-3d', {
         var bz = state.comm ? CZ : CZ;
         g.line([-CR - 0.32, 0, bz], [-CR - 0.02, 0, bz], T.figInk, { width: 7 });
         g.line([CR + 0.02, 0, bz], [CR + 0.32, 0, bz], T.figInk, { width: 7 });
-        g.path([[-CR - 0.32, 0, bz], [-1.2, 0, bz], [-1.2, -2.0, bz], [-0.35, -2.0, bz]], T.figLine, { width: 2 });
-        g.path([[CR + 0.32, 0, bz], [1.2, 0, bz], [1.2, -2.0, bz], [0.35, -2.0, bz]], T.figLine, { width: 2 });
-        g.poly([[-0.35, -2.25, bz], [0.35, -2.25, bz], [0.35, -1.75, bz], [-0.35, -1.75, bz]], T.figPanel, { alpha: 1, stroke: T.figInk, strokeWidth: 1.5 });
-        g.text([0, -2.0, bz], '전지', { size: 11 });
-        g.text([-0.62, -2.32, bz], plusLeft ? '+' : '−', { bold: true, size: 15, color: plusLeft ? T.figRed : T.figBlue });
-        g.text([0.62, -2.32, bz], plusLeft ? '−' : '+', { bold: true, size: 15, color: plusLeft ? T.figBlue : T.figRed });
-        g.text([0, 0.62, CZ + 0.1], state.comm ? '정류자' : '고리(정류자 없음)', { size: 11, color: T.figMuted });
-        g.text([-1.2, 0.3, bz], '브러시', { size: 11, color: T.figMuted });
+        g.path([[-CR - 0.32, 0, bz], [-1.2, 0, bz], [-1.2, -1.75, bz], [-0.35, -1.75, bz]], T.figLine, { width: 2 });
+        g.path([[CR + 0.32, 0, bz], [1.2, 0, bz], [1.2, -1.75, bz], [0.35, -1.75, bz]], T.figLine, { width: 2 });
+        g.poly([[-0.35, -2.0, bz], [0.35, -2.0, bz], [0.35, -1.5, bz], [-0.35, -1.5, bz]], T.figPanel, { alpha: 1, stroke: T.figInk, strokeWidth: 1.5 });
+        g.text([0, -1.75, bz], '전지', { size: 11 });
+        g.text([-0.62, -2.07, bz], plusLeft ? '+' : '−', { bold: true, size: 15, color: plusLeft ? T.figRed : T.figBlue });
+        g.text([0.62, -2.07, bz], plusLeft ? '−' : '+', { bold: true, size: 15, color: plusLeft ? T.figBlue : T.figRed });
+        g.text([0, -0.62, CZ + 0.45], state.comm ? '정류자와 브러시' : '고리(정류자 없음)', { size: 11, color: T.figMuted });
         // 전류(파란 화살표)와 힘(초록 화살표)
         [[A, i1], [B, -i1]].forEach(function (pr) {
           var p = pr[0], d = pr[1];
-          g.arrow([p[0], p[1], -0.55 * d], [p[0], p[1], 0.75 * d], T.figAccent, { width: 3.5, head: 11 });
+          var ox = p[0] * 0.16, oy = p[1] * 0.16;
+          g.arrow([p[0] + ox, p[1] + oy, -0.6 * d], [p[0] + ox, p[1] + oy, 0.8 * d], T.figAccent, { width: 4, head: 12 });
           g.arrow([p[0], p[1], 0.1], [p[0], p[1] + 1.05 * d, 0.1], T.figGreen, { width: 4, head: 12 });
           g.text([p[0] + (p[0] >= 0 ? 0.42 : -0.42), p[1] + 1.12 * d, 0.1], '힘', { color: T.figGreen, bold: true, size: 13 });
         });
-        g.text([A[0], A[1] + 0.25, 0.95 * i1 + 0.08], '전류', { color: T.figAccent, size: 12, bold: true });
         // 회전 방향 표시(뒤쪽, 축 둘레)
         var tq = torque(), rot = Math.abs(state.w) > 0.15 ? Math.sign(state.w) : (Math.abs(tq) > 0.2 ? Math.sign(tq) : 0);
         if (rot) {
@@ -90,6 +88,17 @@ Sims.register('motor-3d', {
           g.arrow([0.62 * Math.cos(aP), 0.62 * Math.sin(aP), z0], [0.62 * Math.cos(aE), 0.62 * Math.sin(aE), z0], T.figInk, { width: 2, head: 9 });
         }
         readouts();
+      },
+      overlay: function (ctx, T, S) {
+        var rows = [[T.figAccent, '전류'], [T.figGreen, '힘'], [T.figTeal, '자기장 (N → S)']];
+        ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
+        rows.forEach(function (r, k) {
+          var y = 14 + k * 18;
+          ctx.strokeStyle = r[0]; ctx.fillStyle = r[0]; ctx.lineWidth = 3;
+          ctx.beginPath(); ctx.moveTo(8, y); ctx.lineTo(26, y); ctx.stroke();
+          ctx.beginPath(); ctx.moveTo(30, y); ctx.lineTo(23, y - 4); ctx.lineTo(23, y + 4); ctx.closePath(); ctx.fill();
+          ctx.fillStyle = T.figInk; ctx.fillText(r[1], 36, y);
+        });
       },
     });
     api.stage.appendChild(info);
@@ -125,7 +134,7 @@ Sims.register('motor-3d', {
       var deg = Math.round(norm(state.phi) * 180 / Math.PI) % 360, ph = deg % 180;
       var t;
       if (ph < 12 || ph > 168) t = '코일 면이 자기장과 나란하다: 두 변이 받는 힘(위·아래)이 코일을 가장 세게 돌린다.';
-      else if (Math.abs(ph - 90) < 12) t = '코일 면이 자기장에 수직이다: 힘이 축 쪽(위·아래)을 향해 돌리는 효과가 없다. ' + (state.comm ? '이 위치에서 정류자의 틈이 브러시를 지나며 전류 방향이 바뀐다.' : '정류자가 없으므로 이 위치를 지나면 힘이 회전을 되돌린다.');
+      else if (Math.abs(ph - 90) < 12) t = '코일 면이 자기장에 수직이다: 두 변이 받는 힘이 축을 지나는 위·아래 방향이라 코일을 돌리지 못한다. ' + (state.comm ? '이 위치에서 정류자의 틈이 브러시를 지나며 전류 방향이 바뀐다.' : '정류자가 없으므로 이 위치를 지나면 힘이 회전을 되돌린다.');
       else if (!state.comm && tq * (state.w || 1) < 0) t = '정류자가 없어 전류 방향이 그대로이다: 지금은 힘이 회전을 되돌리는 쪽으로 작용한다.';
       else t = '오른쪽(S극 쪽) 변은 위로, 왼쪽(N극 쪽) 변은 아래로 힘을 받는 동안 코일이 계속 같은 방향으로 돈다.';
       if (state.dir < 0 && state.comm) t = t.replace('오른쪽(S극 쪽) 변은 위로, 왼쪽(N극 쪽) 변은 아래로', '전류 방향을 바꾸어 오른쪽 변은 아래로, 왼쪽 변은 위로');

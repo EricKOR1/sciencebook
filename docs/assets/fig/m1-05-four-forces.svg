@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-m1-05-four-forces d-m1-05-four-forces">
+  <title id="t-m1-05-four-forces">그림 중1-5-2 여러 가지 힘</title>
+  <desc id="d-m1-05-four-forces">중력은 지구 중심 방향으로, 탄성력은 탄성체를 변형시킨 힘의 반대 방향으로, 마찰력은 운동하는(하려는) 방향의 반대로, 부력은 중력의 반대 방향(위)으로 작용한다. 화살표 길이는 모식적이다.</desc>
+  <style>
+    .ff-red{fill:none;stroke:var(--fig-red)} .ff-redh{fill:var(--fig-red)}
+    .ff-blue{fill:none;stroke:var(--fig-blue)} .ff-blueh{fill:var(--fig-blue)}
+    .ff-green{fill:none;stroke:var(--fig-green)} .ff-greenh{fill:var(--fig-green)}
+    .ff-amber{fill:none;stroke:var(--fig-amber)} .ff-amberh{fill:var(--fig-amber)}
+    .ff-violet{fill:none;stroke:var(--fig-violet)} .ff-violeth{fill:var(--fig-violet)}
+    .ff-teal{fill:none;stroke:var(--fig-teal)} .ff-tealh{fill:var(--fig-teal)}
+    .ff-ink{fill:none;stroke:var(--fig-ink)} .ff-inkh{fill:var(--fig-ink)}
+    .ff-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .ff-t{font-size:14px;fill:var(--fig-ink)}
+    .ff-sm{font-size:13px;fill:var(--fig-muted)}
+    .ff-box{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+    .ff-floor{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.5}
+    .ff-hatch{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .ff-dot{fill:var(--fig-ink)}
+    .ff-ld{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .ff-tick{fill:none;stroke:var(--fig-muted);stroke-width:1.2}
+    .ff-rb{font-size:14px;font-weight:700;fill:var(--fig-red)}
+    .ff-bb{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+    .ff-gb{font-size:14px;font-weight:700;fill:var(--fig-green)}
+    .ff-vb{font-size:14px;font-weight:700;fill:var(--fig-violet)}
+    .ff-ab{font-size:14px;font-weight:700;fill:var(--fig-amber)}
+    .ff-pan{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2}
+    .ff-apple{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8}
+    .ff-earth{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.8}
+    .ff-spr{fill:none;stroke:var(--fig-ink);stroke-width:2;stroke-linejoin:round}
+    .ff-wall{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.5}
+    .ff-hand{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8}
+    .ff-water{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5}
+    .ff-obj{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.8}
+  </style>
+  <rect x="8" y="8" width="168" height="314" rx="8" class="ff-pan"/>
+  <text x="92.0" y="34" text-anchor="middle" class="ff-gb">중력</text>
+  <text x="92.0" y="284" text-anchor="middle" class="ff-t">지구 중심 방향(아래)</text>
+  <text x="92.0" y="304" text-anchor="middle" class="ff-sm">닿지 않아도 작용</text>
+  <rect x="184" y="8" width="168" height="314" rx="8" class="ff-pan"/>
+  <text x="268.0" y="34" text-anchor="middle" class="ff-ab">탄성력</text>
+  <text x="268.0" y="284" text-anchor="middle" class="ff-t">변형시킨 힘의 반대 방향</text>
+  <text x="268.0" y="304" text-anchor="middle" class="ff-sm">많이 늘어날수록 크다</text>
+  <rect x="360" y="8" width="168" height="314" rx="8" class="ff-pan"/>
+  <text x="444.0" y="34" text-anchor="middle" class="ff-rb">마찰력</text>
+  <text x="444.0" y="284" text-anchor="middle" class="ff-t">운동 방향의 반대</text>
+  <text x="444.0" y="304" text-anchor="middle" class="ff-sm">면이 거칠수록 크다</text>
+  <rect x="536" y="8" width="168" height="314" rx="8" class="ff-pan"/>
+  <text x="620.0" y="34" text-anchor="middle" class="ff-bb">부력</text>
+  <text x="620.0" y="284" text-anchor="middle" class="ff-t">중력의 반대 방향(위)</text>
+  <text x="620.0" y="304" text-anchor="middle" class="ff-sm">잠긴 부피가 클수록 크다</text>
+  <path d="M14 250 Q92.0 205 170 250 L170 262 L14 262 Z" class="ff-earth"/>
+  <text x="92.0" y="252" text-anchor="middle" class="ff-sm">지구</text>
+  <circle cx="92.0" cy="85" r="18" class="ff-apple"/><path d="M92.0 67 q3 -10 10 -12" class="ff-ink" style="stroke-width:2"/>
+  <line x1="92.0" y1="85.0" x2="92.0" y2="161.0" style="stroke-width:3.5;stroke-linecap:round" class="ff-green"/><path d="M92.0 175.0 L85.7 161.0 L98.3 161.0 Z" class="ff-greenh"/>
+  <circle cx="92.0" cy="85" r="4" class="ff-dot"/>
+  <rect x="196" y="90" width="14" height="110" class="ff-wall"/>
+  <polyline points="210 145 220 145 224.2 133 232.7 157 241.1 133 249.6 157 258.0 133 266.4 157 274.9 133 283.3 157 291.8 133 296 145 306 145" class="ff-spr"/>
+  <rect x="306" y="132" width="26" height="26" rx="8" class="ff-hand"/>
+  <text x="319" y="125" text-anchor="middle" class="ff-sm">손</text>
+  <line x1="332.0" y1="182.0" x2="335.0" y2="182.0" style="stroke-width:2.5;stroke-linecap:round" class="ff-ink"/><path d="M344.0 182.0 L335.0 186.1 L335.0 177.9 Z" class="ff-inkh"/>
+  <text x="334" y="203" text-anchor="middle" class="ff-sm">당김</text>
+  <line x1="306.0" y1="145.0" x2="268.0" y2="145.0" style="stroke-width:3.5;stroke-linecap:round" class="ff-amber"/><path d="M254.0 145.0 L268.0 138.7 L268.0 151.3 Z" class="ff-amberh"/>
+  <circle cx="306" cy="145" r="4" class="ff-dot"/>
+  <text x="268" y="236" text-anchor="middle" class="ff-sm">용수철이 손을 끌어당긴다</text>
+  <rect x="370" y="200" width="148" height="16" class="ff-floor"/>
+  <path d="M376 216 l10 -16 M390 216 l10 -16 M404 216 l10 -16 M418 216 l10 -16 M432 216 l10 -16 M446 216 l10 -16 M460 216 l10 -16 M474 216 l10 -16 M488 216 l10 -16 M502 216 l10 -16 " class="ff-hatch"/>
+  <rect x="410" y="140" width="70" height="60" rx="3" class="ff-box"/>
+  <line x1="420.0" y1="110.0" x2="480.0" y2="110.0" style="stroke-width:2.5;stroke-linecap:round" class="ff-ink"/><path d="M490.0 110.0 L480.0 114.5 L480.0 105.5 Z" class="ff-inkh"/>
+  <text x="455" y="100" text-anchor="middle" class="ff-sm">운동 방향</text>
+  <line x1="445.0" y1="200.0" x2="399.0" y2="200.0" style="stroke-width:3.5;stroke-linecap:round" class="ff-red"/><path d="M385.0 200.0 L399.0 193.7 L399.0 206.3 Z" class="ff-redh"/>
+  <circle cx="445" cy="200" r="4" class="ff-dot"/>
+  <text x="445" y="240" text-anchor="middle" class="ff-sm">닿은 면에서 작용</text>
+  <rect x="552" y="120" width="136" height="130" class="ff-water"/>
+  <text x="682" y="140" text-anchor="end" class="ff-sm">물</text>
+  <rect x="594.0" y="160" width="52" height="40" rx="4" class="ff-obj"/>
+  <line x1="610.0" y1="180.0" x2="610.0" y2="114.0" style="stroke-width:3.5;stroke-linecap:round" class="ff-blue"/><path d="M610.0 100.0 L616.3 114.0 L603.7 114.0 Z" class="ff-blueh"/>
+  <line x1="630.0" y1="180.0" x2="630.0" y2="228.0" style="stroke-width:3;stroke-linecap:round" class="ff-green"/><path d="M630.0 240.0 L624.6 228.0 L635.4 228.0 Z" class="ff-greenh"/>
+  <circle cx="610.0" cy="180" r="4" class="ff-dot"/><circle cx="630.0" cy="180" r="4" class="ff-dot"/>
+  <text x="604.0" y="98" text-anchor="end" class="ff-bb">부력</text>
+  <text x="638.0" y="238" class="ff-gb" style="font-size:13px">중력</text>
+</svg>

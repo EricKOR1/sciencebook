@@ -338,6 +338,257 @@
   }
   function mountAll() { document.querySelectorAll('figure.sim[data-sim]').forEach(mount); }
 
+  /* ───── 학습 기록: 읽던 위치, 읽은 정도, 완료 표시 ─────
+     이 기기의 이 브라우저(localStorage 'sb-progress')에만 저장한다. 서버로 보내지 않는다.
+     { v: 1, last: '단원 id', lessons: { id: { t, sec, off, secTitle, ratio, max, done, title, where } } } */
+  var Progress = (function () {
+    var KEY = 'sb-progress', ok = false;
+    try { localStorage.setItem('sb-test', '1'); localStorage.removeItem('sb-test'); ok = true; } catch (e) { ok = false; }
+    function read() {
+      var d = null;
+      if (ok) { try { d = JSON.parse(localStorage.getItem(KEY) || 'null'); } catch (e) { d = null; } }
+      if (!d || typeof d !== 'object' || !d.lessons || typeof d.lessons !== 'object') d = { v: 1, last: null, lessons: {} };
+      return d;
+    }
+    function write(d) { if (!ok) return; try { localStorage.setItem(KEY, JSON.stringify(d)); } catch (e) { /* 저장 공간 부족 등 */ } }
+    return {
+      ok: ok,
+      all: read,
+      get: function (id) { return read().lessons[id] || null; },
+      // 다른 탭에서 바뀐 기록을 덮어쓰지 않도록 저장 직전에 다시 읽어 합친다
+      update: function (id, patch, makeLast) {
+        var d = read(), e = d.lessons[id] || {};
+        Object.keys(patch).forEach(function (k) { e[k] = patch[k]; });
+        d.lessons[id] = e;
+        if (makeLast) d.last = id;
+        write(d);
+        return e;
+      },
+      clear: function () { if (ok) { try { localStorage.removeItem(KEY); } catch (e) { /* 무시 */ } } },
+    };
+  })();
+  function ago(t) {
+    var m = Math.round((Date.now() - t) / 60000);
+    if (!(m >= 0)) return '';
+    if (m < 2) return '방금 전';
+    if (m < 60) return m + '분 전';
+    if (m < 60 * 24) return Math.round(m / 60) + '시간 전';
+    if (m < 60 * 24 * 30) return Math.round(m / 1440) + '일 전';
+    var d = new Date(t);
+    return d.getFullYear() + '. ' + (d.getMonth() + 1) + '. ' + d.getDate() + '.';
+  }
+  function pct(e) { return Math.max(0, Math.min(100, Math.round((e && e.max || 0) * 100))); }
+  function started(e) { return !!e && (e.done || (e.max || 0) >= 0.03); }
+
+  // 목차(서랍·첫 화면)에 완료 ✓ / 학습 중 ◐ 표시
+  function paintMarks() {
+    if (!Progress.ok) return;
+    var L = Progress.all().lessons;
+    [].slice.call(document.querySelectorAll('.book-nav a[data-id], .toc-card a[data-id]')).forEach(function (a) {
+      var e = L[a.getAttribute('data-id')], old = a.querySelector('.pg-mark');
+      if (old) a.removeChild(old);
+      if (!started(e)) return;
+      var m = el('span', 'pg-mark' + (e.done ? '' : ' doing'), e.done ? '✓' : '◐');
+      m.setAttribute('role', 'img');
+      m.setAttribute('aria-label', e.done ? '학습 완료' : '학습 중');
+      m.title = e.done ? '학습 완료' : '학습 중 · 약 ' + pct(e) + '% 읽음';
+      a.appendChild(m);
+    });
+    [].slice.call(document.querySelectorAll('.toc-card')).forEach(function (card) {
+      var links = card.querySelectorAll('a[data-id]'), n = 0, h = card.querySelector('h3');
+      [].slice.call(links).forEach(function (a) { var e = L[a.getAttribute('data-id')]; if (e && e.done) n++; });
+      var sp = card.querySelector('.part-prog');
+      if (!n) { if (sp) sp.parentNode.removeChild(sp); return; }
+      if (!sp && h) { sp = el('span', 'part-prog'); h.appendChild(sp); }
+      if (sp) sp.textContent = '완료 ' + n + '/' + links.length;
+    });
+  }
+
+  // 단원 쪽: 읽던 위치 저장·복원, 읽은 정도 막대, 완료 표시
+  function initLessonProgress() {
+    var id = document.body.getAttribute('data-lesson');
+    if (!id || !Progress.ok) return;
+    var art = document.querySelector('article.lesson') || document.getElementById('main');
+    var heads = [].slice.call(art.querySelectorAll('h2[id], h3[id]'));
+    var bar = document.querySelector('#read-bar i');
+    var before = Progress.get(id);            // 이번에 들어오기 전의 기록
+    var toast = null, hold = false, timer = 0;
+    var LINE = 90;                            // 화면 위쪽 기준선(상단 막대 아래)
+
+    function headTitle(h) {
+      var one = function (x, short) {
+        var b = x.querySelector('.step-badge'), t = x.querySelector('.h-text');
+        return (b && t ? (short ? b.textContent : b.textContent + ' · ' + t.textContent) : x.textContent).replace(/\s+/g, ' ').trim();
+      };
+      var s = one(h, false);
+      if (h.tagName === 'H3') {             // 작은 제목은 어느 STEP 안인지 함께 보여 준다
+        for (var i = heads.indexOf(h) - 1; i >= 0; i--) { if (heads[i].tagName === 'H2') { s = one(heads[i], true) + ' › ' + s; break; } }
+      }
+      return s.length > 48 ? s.slice(0, 47) + '…' : s;
+    }
+    function ratioNow() {
+      var max = document.documentElement.scrollHeight - window.innerHeight;
+      return max > 0 ? Math.max(0, Math.min(1, window.scrollY / max)) : 1;
+    }
+    function snapshot() {
+      var cur = null, i;
+      for (i = 0; i < heads.length; i++) { if (heads[i].getBoundingClientRect().top <= LINE) cur = heads[i]; else break; }
+      var r = ratioNow(), prev = Progress.get(id);
+      return {
+        t: Date.now(), ratio: r, max: Math.max(r, prev && prev.max || 0),
+        sec: cur ? cur.id : '', secTitle: cur ? headTitle(cur) : '',
+        off: cur ? Math.round(LINE - cur.getBoundingClientRect().top) : Math.round(window.scrollY),
+      };
+    }
+    function save() { if (!hold) Progress.update(id, snapshot(), true); }
+    function paintBar() { if (bar) bar.style.width = (ratioNow() * 100).toFixed(1) + '%'; }
+    function targetY(e) {
+      var h = e.sec ? document.getElementById(e.sec) : null;
+      if (h) return h.getBoundingClientRect().top + window.scrollY - LINE + (e.off || 0);
+      if (!e.sec) return e.off || 0;
+      return (e.ratio || 0) * (document.documentElement.scrollHeight - window.innerHeight);
+    }
+    function jump(e) {
+      var go = function () { window.scrollTo(0, Math.max(0, targetY(e))); };
+      go();
+      // 그림·글꼴이 늦게 자리 잡으며 위치가 밀릴 수 있어 한 번 더 맞춘다
+      var y0 = window.scrollY;
+      setTimeout(function () { if (Math.abs(window.scrollY - y0) < 4) go(); }, 350);
+    }
+    function closeToast() { if (toast) { toast.parentNode.removeChild(toast); toast = null; } hold = false; }
+    function showToast(e) {
+      hold = true;                            // 안내가 떠 있는 동안에는 예전 위치를 덮어쓰지 않는다
+      toast = el('div', 'resume-toast');
+      toast.setAttribute('role', 'status');
+      var p = el('p');
+      p.appendChild(el('small', '', '지난번에 읽던 곳 · ' + ago(e.t)));
+      p.appendChild(el('b', '', e.secTitle || '단원 앞부분'));
+      var btns = el('div', 'rt-btns');
+      var goBtn = el('button', 'pg-btn', '이어서 보기'); goBtn.type = 'button';
+      var noBtn = el('button', 'pg-btn ghost', '닫기'); noBtn.type = 'button';
+      goBtn.addEventListener('click', function () { closeToast(); jump(e); });
+      noBtn.addEventListener('click', function () { closeToast(); save(); });
+      btns.appendChild(goBtn); btns.appendChild(noBtn);
+      toast.appendChild(p); toast.appendChild(btns);
+      document.body.appendChild(toast);
+    }
+
+    // 완료 표시
+    var box = document.getElementById('done-box'), chk = document.getElementById('done-check');
+    if (box && chk) {
+      box.hidden = false;
+      var paintDone = function () { var e = Progress.get(id); chk.checked = !!(e && e.done); box.classList.toggle('is-done', chk.checked); };
+      chk.addEventListener('change', function () {
+        Progress.update(id, { done: chk.checked, t: Date.now() }, true);
+        paintDone(); paintMarks();
+      });
+      paintDone();
+      window.addEventListener('storage', paintDone);
+    }
+
+    // 들어온 사실 기록(위치는 아직 건드리지 않는다)
+    Progress.update(id, { t: Date.now(), title: document.body.getAttribute('data-title') || document.title, where: document.body.getAttribute('data-where') || '' }, true);
+
+    window.addEventListener('scroll', function () {
+      paintBar();
+      if (hold && window.scrollY > Math.max(500, window.innerHeight * 0.8)) closeToast();   // 스스로 읽어 내려가면 안내를 접는다
+      if (hold) return;
+      clearTimeout(timer); timer = setTimeout(save, 400);
+    }, { passive: true });
+    window.addEventListener('pagehide', save);
+    document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'hidden') save(); });
+
+    var start = function () {
+      paintBar();
+      var hash = location.hash;
+      if (hash === '#resume') {
+        if (before) jump(before);
+        try { history.replaceState(null, '', location.pathname + location.search); } catch (e) { /* 무시 */ }
+        return;
+      }
+      // 주소에 위치가 있거나, 브라우저가 이미 위치를 되돌려 놓았으면 안내하지 않는다
+      if (hash || window.scrollY > 200 || !before) return;
+      if (before.sec || (before.off || 0) > 400) {
+        if (targetY(before) > window.innerHeight * 0.6) showToast(before);
+      }
+    };
+    if (document.readyState === 'complete') setTimeout(start, 0); else window.addEventListener('load', function () { setTimeout(start, 0); });
+  }
+
+  // 첫 화면: 이어서 학습하기, 전체 진행 상황, 기록 지우기
+  function initCoverProgress() {
+    var panel = document.getElementById('resume-panel'), admin = document.getElementById('progress-admin');
+    if (!panel || !Progress.ok) return;
+    var links = [].slice.call(document.querySelectorAll('.toc-card a[data-id]'));
+    var order = links.map(function (a) { return a.getAttribute('data-id'); });
+    var info = {};
+    links.forEach(function (a) {
+      var card = a.closest('.toc-card'), h = card && card.querySelector('h3'), spans = a.querySelectorAll('span');
+      info[a.getAttribute('data-id')] = { href: a.getAttribute('href'), title: spans.length > 1 ? spans[1].textContent : a.textContent, where: a.getAttribute('data-where') || (h ? h.firstChild.textContent : '') };
+    });
+    function paint() {
+      var d = Progress.all(), L = d.lessons, done = 0, doing = [];
+      order.forEach(function (id) { var e = L[id]; if (!e) return; if (e.done) done++; else if (started(e)) doing.push(id); });
+      panel.textContent = '';
+      var last = d.last && info[d.last] && L[d.last] ? d.last : null;
+      if (!last && !done && !doing.length) { panel.hidden = true; if (admin) admin.hidden = true; return; }
+      panel.hidden = false; if (admin) admin.hidden = false;
+      panel.appendChild(el('h2', '', '이어서 학습하기'));
+      var shown = last;
+      if (last) {
+        var e = L[last], it = info[last], row = el('div', 'rp-main'), p = el('p');
+        var nextId = order[order.indexOf(last) + 1];
+        if (e.done && nextId) {
+          shown = nextId;
+          p.appendChild(el('small', '', '「' + it.title + '」 학습 완료 · 다음 단원'));
+          p.appendChild(el('b', '', info[nextId].where + ' · ' + info[nextId].title));
+          row.appendChild(p);
+          var a1 = el('a', 'pg-btn', '다음 단원 시작'); a1.href = info[nextId].href + (started(L[nextId]) ? '#resume' : '');
+          row.appendChild(a1);
+        } else {
+          p.appendChild(el('small', '', it.where + ' · ' + ago(e.t) + (e.done ? ' · 학습 완료' : ' · 약 ' + pct(e) + '% 읽음')));
+          p.appendChild(el('b', '', it.title));
+          if (e.secTitle) p.appendChild(el('small', '', '읽던 곳: ' + e.secTitle));
+          row.appendChild(p);
+          var a2 = el('a', 'pg-btn', '이어서 보기'); a2.href = it.href + '#resume';
+          row.appendChild(a2);
+        }
+        panel.appendChild(row);
+      }
+      var others = doing.filter(function (id) { return id !== last && id !== shown; }).sort(function (a, b) { return (L[b].t || 0) - (L[a].t || 0); }).slice(0, 4);
+      if (others.length) {
+        var ul = el('ul', 'rp-more'); ul.appendChild(el('li', '', '읽다 만 단원'));
+        others.forEach(function (id) { var li = el('li'), a = el('a', '', info[id].title + ' · ' + pct(L[id]) + '%'); a.href = info[id].href + '#resume'; li.appendChild(a); ul.appendChild(li); });
+        panel.appendChild(ul);
+      }
+      panel.appendChild(el('p', 'rp-total', '전체 ' + order.length + '개 단원 중 완료 ' + done + '개 · 학습 중 ' + doing.length + '개'));
+      var barBox = el('div', 'rp-bar'), fill = el('i'); fill.style.width = (order.length ? done / order.length * 100 : 0).toFixed(1) + '%';
+      barBox.setAttribute('role', 'img'); barBox.setAttribute('aria-label', '전체 단원의 ' + Math.round(order.length ? done / order.length * 100 : 0) + '% 완료');
+      barBox.appendChild(fill); panel.appendChild(barBox);
+    }
+    // 기록 지우기: 한 번 더 확인받는다
+    var btns = admin && admin.querySelector('.pa-btns');
+    if (btns) {
+      var ask = function () {
+        btns.textContent = '';
+        var b = el('button', 'pg-btn ghost', '학습 기록 지우기'); b.type = 'button';
+        b.addEventListener('click', function () {
+          btns.textContent = '';
+          btns.appendChild(el('span', '', '이 기기에 저장된 학습 기록을 모두 지울까요? 되돌릴 수 없어요.'));
+          var y = el('button', 'pg-btn danger', '지우기'), n = el('button', 'pg-btn ghost', '취소'); y.type = n.type = 'button';
+          y.addEventListener('click', function () { Progress.clear(); ask(); paint(); paintMarks(); });
+          n.addEventListener('click', ask);
+          btns.appendChild(y); btns.appendChild(n);
+        });
+        btns.appendChild(b);
+      };
+      ask();
+    }
+    paint();
+    window.addEventListener('storage', paint);
+    window.addEventListener('pageshow', function (ev) { if (ev.persisted) paint(); });
+  }
+
   /* ───── 페이지 동작 ───── */
   document.addEventListener('DOMContentLoaded', function () {
     var mb = document.getElementById('menu-btn');
@@ -357,7 +608,9 @@
       try { localStorage.setItem('sb-theme', next); } catch (e) { /* 저장소 없음 */ }
     });
     var cur = document.querySelector('.book-nav [aria-current="page"]');
-    if (cur && cur.scrollIntoView) cur.scrollIntoView({ block: 'center' });
+    var drawer = document.getElementById('drawer');
+    // 서랍 목차만 움직인다(본문 위치는 건드리지 않는다)
+    if (cur && drawer) drawer.scrollTop += cur.getBoundingClientRect().top - drawer.getBoundingClientRect().top - drawer.clientHeight / 2;
     // 단원 흐름 사다리: 지금 읽는 위치 표시
     var links = [].slice.call(document.querySelectorAll('.ladder a'));
     if (links.length && 'IntersectionObserver' in window) {
@@ -406,5 +659,9 @@
       document.addEventListener('click', function (e) { if (locked && !e.target.closest('.map-chip')) { locked = null; focus(null); } });
     }
     mountAll();
+    // 학습 기록
+    paintMarks(); initLessonProgress(); initCoverProgress();
+    window.addEventListener('storage', paintMarks);
+    window.addEventListener('pageshow', function (ev) { if (ev.persisted) paintMarks(); });
   });
 })();

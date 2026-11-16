@@ -50,12 +50,8 @@ Sims.register('torque-balance', {
       ctx.fillText('받침점(회전축)', cx, groundY + 15);
       // 판 좌표계: 회전 (화면에서 시계 반대 방향 = 왼쪽 끝이 내려감)
       var a = state.ang;   // + 이면 왼쪽이 내려감
-      var P = function (x, y) {   // 판 좌표(x: 오른쪽 m, y: 위쪽 px) → 화면
-        var X = x * scale, c = Math.cos(a), s = Math.sin(a);
-        return { x: cx + X * c - (-y) * (-s) * -1 * 0 + (y * s), y: pivotY - y * c + X * s };
-      };
-      // 위 식 정리: 화면 회전(시계 반대 방향 a) — 오른쪽 끝(x>0)은 올라가므로 y_screen = pivotY - X*sin(a)
-      P = function (x, y) {
+      // 판 좌표(x: 오른쪽 m, y: 판에 수직 위쪽 px) → 화면. a > 0 이면 시계 반대 방향 회전(오른쪽 끝이 올라감)
+      var P = function (x, y) {
         var X = x * scale, c = Math.cos(a), s = Math.sin(a);
         return { x: cx + X * c - y * s, y: pivotY - (X * s + y * c) };
       };
@@ -95,7 +91,6 @@ Sims.register('torque-balance', {
     }
     function box(T, P, x, wN, stroke, fill, name) {
       var s = 18 + wN / 800 * 26;   // 무게에 따라 크기
-      var b0 = P(x - s / 2 / ((cv.w - 40) / (2 * HALF + 0.4) > 150 ? 150 : (cv.w - 40) / (2 * HALF + 0.4)), 10);
       // 상자 네 꼭짓점 (판 좌표에서 위로 쌓기)
       var sc = Math.min((cv.w - 40) / (2 * HALF + 0.4), 150), hw = s / 2 / sc;
       var c1 = P(x - hw, 10), c2 = P(x + hw, 10), c3 = P(x + hw, 10 + s), c4 = P(x - hw, 10 + s);
@@ -111,7 +106,7 @@ Sims.register('torque-balance', {
       var top = P(x, 10 + s);
       ctx.fillStyle = T.figInk; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'center';
       ctx.fillText(wN + ' N', top.x, top.y - 6);
-      void b0; void name;
+      void name;
     }
     function dim(T, P, x0, x1, label, off) {
       var a = P(x0, off), b = P(x1, off);

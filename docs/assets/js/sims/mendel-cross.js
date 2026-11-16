@@ -21,7 +21,7 @@ Sims.register('mendel-cross', {
     };
     var state = { mode: 'one', p1: 'Rr', p2: 'Rr', seeds: [], hist: [], shown: 100 };
 
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 2.05 + 120 / w : 0.66 + 30 / w; }, label: '퍼넷 사각형, 표현형 비율, 씨 100개의 결과' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 2.05 + 210 / w : Math.min(0.44, 300 / w) + 214 / w; }, label: '퍼넷 사각형, 표현형 비율, 씨 100개의 결과' });
     var ctx = cv.ctx;
     var rG = api.readout('유전자형 비');
     var rP = api.readout('표현형 비(이론)');
@@ -122,10 +122,10 @@ Sims.register('mendel-cross', {
       var w = cv.w, h = cv.h;
       if (w < 560) {
         var pw = Math.min(w, 330);
-        return { pun: { x: (w - pw) / 2, y: 0, w: pw, h: pw * 0.92 }, bars: { x: 0, y: pw * 0.92 + 10, w: w, h: 210 },
-          seeds: { x: 0, y: pw * 0.92 + 230, w: w, h: h - (pw * 0.92 + 230) }, cols: 10 };
+        return { pun: { x: (w - pw) / 2, y: 0, w: pw, h: pw * 0.92 }, bars: { x: 0, y: pw * 0.92 + 10, w: w, h: 244 },
+          seeds: { x: 0, y: pw * 0.92 + 278, w: w, h: h - (pw * 0.92 + 278) }, cols: 10 };
       }
-      var top = Math.min(w * 0.44, 320);
+      var top = Math.min(w * 0.44, 300);
       return { pun: { x: 0, y: 0, w: w * 0.44, h: top }, bars: { x: w * 0.47, y: 0, w: w * 0.53, h: top },
         seeds: { x: 0, y: top + 12, w: w, h: h - top - 12 }, cols: 20 };
     }

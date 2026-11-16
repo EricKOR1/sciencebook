@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-m1-05-normal-force d-m1-05-normal-force">
+  <title id="t-m1-05-normal-force">그림 중1-5-3 정지한 물체에 작용하는 힘의 평형</title>
+  <desc id="d-m1-05-normal-force">책상 위의 책에는 중력(아래)과 책상이 떠받치는 힘(위)이 같은 크기로 작용한다. 끌어도 움직이지 않는 상자에서는 세로 방향으로 중력과 떠받치는 힘이, 가로 방향으로 끄는 힘과 마찰력이 각각 평형을 이룬다.</desc>
+  <style>
+    .nf-red{fill:none;stroke:var(--fig-red)} .nf-redh{fill:var(--fig-red)}
+    .nf-blue{fill:none;stroke:var(--fig-blue)} .nf-blueh{fill:var(--fig-blue)}
+    .nf-green{fill:none;stroke:var(--fig-green)} .nf-greenh{fill:var(--fig-green)}
+    .nf-amber{fill:none;stroke:var(--fig-amber)} .nf-amberh{fill:var(--fig-amber)}
+    .nf-violet{fill:none;stroke:var(--fig-violet)} .nf-violeth{fill:var(--fig-violet)}
+    .nf-teal{fill:none;stroke:var(--fig-teal)} .nf-tealh{fill:var(--fig-teal)}
+    .nf-ink{fill:none;stroke:var(--fig-ink)} .nf-inkh{fill:var(--fig-ink)}
+    .nf-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .nf-t{font-size:14px;fill:var(--fig-ink)}
+    .nf-sm{font-size:13px;fill:var(--fig-muted)}
+    .nf-box{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+    .nf-floor{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.5}
+    .nf-hatch{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .nf-dot{fill:var(--fig-ink)}
+    .nf-ld{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .nf-tick{fill:none;stroke:var(--fig-muted);stroke-width:1.2}
+    .nf-rb{font-size:14px;font-weight:700;fill:var(--fig-red)}
+    .nf-bb{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+    .nf-gb{font-size:14px;font-weight:700;fill:var(--fig-green)}
+    .nf-vb{font-size:14px;font-weight:700;fill:var(--fig-violet)}
+    .nf-ab{font-size:14px;font-weight:700;fill:var(--fig-amber)}
+    .nf-book{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2}
+    .nf-desk{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8}
+    .nf-rope{fill:none;stroke:var(--fig-ink);stroke-width:2.2}
+  </style>
+  <text x="175" y="30" text-anchor="middle" class="nf-h">책상 위에 놓인 책</text>
+  <rect x="40" y="200" width="270" height="18" rx="2" class="nf-desk"/>
+  <rect x="60" y="218" width="16" height="70" class="nf-desk"/><rect x="274" y="218" width="16" height="70" class="nf-desk"/>
+  <rect x="115" y="170" width="120" height="30" rx="3" class="nf-book"/>
+  <line x1="175.0" y1="200.0" x2="175.0" y2="104.0" style="stroke-width:3.5;stroke-linecap:round" class="nf-blue"/><path d="M175.0 90.0 L181.3 104.0 L168.7 104.0 Z" class="nf-blueh"/>
+  <line x1="175.0" y1="185.0" x2="175.0" y2="281.0" style="stroke-width:3.5;stroke-linecap:round" class="nf-green"/><path d="M175.0 295.0 L168.7 281.0 L181.3 281.0 Z" class="nf-greenh"/>
+  <circle cx="175" cy="185" r="4" class="nf-dot"/><circle cx="175" cy="200" r="4" class="nf-dot"/>
+  <text x="185" y="100" class="nf-bb">책상이 떠받치는 힘</text>
+  <text x="185" y="290" class="nf-gb">중력(책의 무게)</text>
+  <text x="175" y="320" text-anchor="middle" class="nf-sm">크기가 같고 방향이 반대 → 알짜힘 0</text>
+  <line x1="360" y1="20" x2="360" y2="320" class="nf-ld" style="stroke-dasharray:4 4"/>
+  <text x="545" y="30" text-anchor="middle" class="nf-h">끌어도 움직이지 않는 상자</text>
+  <rect x="385" y="220" width="320" height="16" class="nf-floor"/>
+  <path d="M391 236 l10 -16 M405 236 l10 -16 M419 236 l10 -16 M433 236 l10 -16 M447 236 l10 -16 M461 236 l10 -16 M475 236 l10 -16 M489 236 l10 -16 M503 236 l10 -16 M517 236 l10 -16 M531 236 l10 -16 M545 236 l10 -16 M559 236 l10 -16 M573 236 l10 -16 M587 236 l10 -16 M601 236 l10 -16 M615 236 l10 -16 M629 236 l10 -16 M643 236 l10 -16 M657 236 l10 -16 M671 236 l10 -16 M685 236 l10 -16 " class="nf-hatch"/>
+  <rect x="440" y="140" width="130" height="80" rx="3" class="nf-box"/>
+  <line x1="570" y1="180" x2="700" y2="180" class="nf-rope"/>
+  <line x1="570.0" y1="180.0" x2="636.0" y2="180.0" style="stroke-width:3.5;stroke-linecap:round" class="nf-red"/><path d="M650.0 180.0 L636.0 186.3 L636.0 173.7 Z" class="nf-redh"/>
+  <circle cx="570" cy="180" r="4" class="nf-dot"/>
+  <text x="610" y="168" text-anchor="middle" class="nf-rb">끄는 힘 10 N</text>
+  <line x1="505.0" y1="220.0" x2="439.0" y2="220.0" style="stroke-width:3.5;stroke-linecap:round" class="nf-violet"/><path d="M425.0 220.0 L439.0 213.7 L439.0 226.3 Z" class="nf-violeth"/>
+  <circle cx="505" cy="220" r="4" class="nf-dot"/>
+  <text x="425" y="262" class="nf-vb">마찰력 10 N</text>
+  <line x1="505.0" y1="220.0" x2="505.0" y2="87.0" style="stroke-width:3;stroke-linecap:round" class="nf-blue"/><path d="M505.0 75.0 L510.4 87.0 L499.6 87.0 Z" class="nf-blueh"/>
+  <line x1="505.0" y1="180.0" x2="505.0" y2="303.0" style="stroke-width:3;stroke-linecap:round" class="nf-green"/><path d="M505.0 315.0 L499.6 303.0 L510.4 303.0 Z" class="nf-greenh"/>
+  <circle cx="505" cy="180" r="4" class="nf-dot"/>
+  <text x="515" y="84" class="nf-bb">떠받치는 힘</text>
+  <text x="515" y="300" class="nf-gb">중력</text>
+  <text x="700" y="300" text-anchor="end" class="nf-sm">가로·세로 방향에서</text>
+  <text x="700" y="318" text-anchor="end" class="nf-sm">각각 평형</text>
+</svg>

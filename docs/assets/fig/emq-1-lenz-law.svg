@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-emq-1-lenz-law d-emq-1-lenz-law">
+  <title id="t-emq-1-lenz-law">그림 전자기와 양자 1-1 렌츠 법칙 — 유도 전류는 선속의 변화를 방해한다</title>
+  <desc id="d-emq-1-lenz-law">자석의 N극을 코일에 가까이 하면 코일은 자석 쪽 끝이 N극이 되어 밀어내고, 멀리하면 S극이 되어 붙잡는다. 유도 전류가 만드는 자기장은 코일을 지나는 자기선속의 변화를 방해하는 방향이다.</desc>
+  <style>.emq-1-lenz-law-t{font-size:15px;fill:var(--fig-ink);font-weight:600} .emq-1-lenz-law-s{font-size:13px;fill:var(--fig-muted)} .emq-1-lenz-law-k{font-size:14px;fill:var(--fig-ink)}
+.emq-1-lenz-law-n{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2} .emq-1-lenz-law-sp{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2}
+.emq-1-lenz-law-coil{fill:none;stroke:var(--fig-amber);stroke-width:3} .emq-1-lenz-law-cb{fill:none;stroke:var(--fig-amber);stroke-width:3;opacity:.45}
+.emq-1-lenz-law-bl{fill:none;stroke:var(--fig-blue);stroke-width:1.8} .emq-1-lenz-law-blf{fill:var(--fig-blue)}
+.emq-1-lenz-law-rl{fill:none;stroke:var(--fig-red);stroke-width:3} .emq-1-lenz-law-rlf{fill:var(--fig-red)} .emq-1-lenz-law-ink{fill:var(--fig-ink)} .emq-1-lenz-law-inkl{fill:none;stroke:var(--fig-ink);stroke-width:2.5}
+.emq-1-lenz-law-pr{font-size:16px;font-weight:700;fill:var(--fig-red)} .emq-1-lenz-law-pb{font-size:16px;font-weight:700;fill:var(--fig-blue)}</style>
+  <text x="20" y="30" class="emq-1-lenz-law-t">(가) N극을 가까이 할 때</text>
+  <rect x="20" y="128" width="50" height="44" class="emq-1-lenz-law-sp"/><rect x="70" y="128" width="50" height="44" class="emq-1-lenz-law-n"/>
+  <text x="45" y="156" text-anchor="middle" class="emq-1-lenz-law-pb">S</text><text x="95" y="156" text-anchor="middle" class="emq-1-lenz-law-pr">N</text>
+  <line x1="40" y1="105" x2="108" y2="105" class="emq-1-lenz-law-inkl"/><path d="M118.0 105.0 L109.9 108.9 L109.9 101.1 Z" class="emq-1-lenz-law-ink"/>
+  <text x="70" y="92" text-anchor="middle" class="emq-1-lenz-law-s">가까이</text>
+  <path d="M190 105 A12 45 0 0 0 190 195" class="emq-1-lenz-law-cb"/>
+  <path d="M212 105 A12 45 0 0 0 212 195" class="emq-1-lenz-law-cb"/>
+  <path d="M234 105 A12 45 0 0 0 234 195" class="emq-1-lenz-law-cb"/>
+  <path d="M256 105 A12 45 0 0 0 256 195" class="emq-1-lenz-law-cb"/>
+  <path d="M278 105 A12 45 0 0 0 278 195" class="emq-1-lenz-law-cb"/>
+  <path d="M300 105 A12 45 0 0 0 300 195" class="emq-1-lenz-law-cb"/>
+  <line x1="122" y1="135" x2="330" y2="135" class="emq-1-lenz-law-bl"/><path d="M340.0 135.0 L332.8 138.5 L332.8 131.5 Z" class="emq-1-lenz-law-blf"/>
+  <line x1="122" y1="150" x2="330" y2="150" class="emq-1-lenz-law-bl"/><path d="M340.0 150.0 L332.8 153.5 L332.8 146.5 Z" class="emq-1-lenz-law-blf"/>
+  <line x1="122" y1="165" x2="330" y2="165" class="emq-1-lenz-law-bl"/><path d="M340.0 165.0 L332.8 168.5 L332.8 161.5 Z" class="emq-1-lenz-law-blf"/>
+  <path d="M190 105 A12 45 0 0 1 190 195" class="emq-1-lenz-law-coil"/>
+  <path d="M212 105 A12 45 0 0 1 212 195" class="emq-1-lenz-law-coil"/>
+  <path d="M234 105 A12 45 0 0 1 234 195" class="emq-1-lenz-law-coil"/>
+  <path d="M256 105 A12 45 0 0 1 256 195" class="emq-1-lenz-law-coil"/>
+  <path d="M278 105 A12 45 0 0 1 278 195" class="emq-1-lenz-law-coil"/>
+  <path d="M300 105 A12 45 0 0 1 300 195" class="emq-1-lenz-law-coil"/>
+  <line x1="320" y1="222" x2="200" y2="222" class="emq-1-lenz-law-rl"/><path d="M188.0 222.0 L197.9 217.2 L197.9 226.8 Z" class="emq-1-lenz-law-rlf"/>
+  <text x="176" y="96" text-anchor="middle" class="emq-1-lenz-law-pr">N</text><text x="314" y="96" text-anchor="middle" class="emq-1-lenz-law-pr">S</text>
+  <text x="255" y="245" text-anchor="middle" class="emq-1-lenz-law-s">유도 전류가 만드는 자기장</text>
+  <text x="20" y="276" class="emq-1-lenz-law-k">코일 속 오른쪽 방향 선속이 늘어난다</text>
+  <text x="20" y="295" class="emq-1-lenz-law-k">→ 왼쪽 방향 자기장으로 증가를 방해</text>
+  <text x="20" y="314" class="emq-1-lenz-law-k">→ 자석 쪽 끝이 N극: 자석을 밀어낸다</text>
+  <text x="382" y="30" class="emq-1-lenz-law-t">(나) N극을 멀리할 때</text>
+  <rect x="382" y="128" width="50" height="44" class="emq-1-lenz-law-sp"/><rect x="432" y="128" width="50" height="44" class="emq-1-lenz-law-n"/>
+  <text x="407" y="156" text-anchor="middle" class="emq-1-lenz-law-pb">S</text><text x="457" y="156" text-anchor="middle" class="emq-1-lenz-law-pr">N</text>
+  <line x1="470" y1="105" x2="402" y2="105" class="emq-1-lenz-law-inkl"/><path d="M392.0 105.0 L400.1 101.1 L400.1 108.9 Z" class="emq-1-lenz-law-ink"/>
+  <text x="432" y="92" text-anchor="middle" class="emq-1-lenz-law-s">멀리</text>
+  <path d="M552 105 A12 45 0 0 0 552 195" class="emq-1-lenz-law-cb"/>
+  <path d="M574 105 A12 45 0 0 0 574 195" class="emq-1-lenz-law-cb"/>
+  <path d="M596 105 A12 45 0 0 0 596 195" class="emq-1-lenz-law-cb"/>
+  <path d="M618 105 A12 45 0 0 0 618 195" class="emq-1-lenz-law-cb"/>
+  <path d="M640 105 A12 45 0 0 0 640 195" class="emq-1-lenz-law-cb"/>
+  <path d="M662 105 A12 45 0 0 0 662 195" class="emq-1-lenz-law-cb"/>
+  <line x1="484" y1="135" x2="692" y2="135" class="emq-1-lenz-law-bl"/><path d="M702.0 135.0 L694.8 138.5 L694.8 131.5 Z" class="emq-1-lenz-law-blf"/>
+  <line x1="484" y1="150" x2="692" y2="150" class="emq-1-lenz-law-bl"/><path d="M702.0 150.0 L694.8 153.5 L694.8 146.5 Z" class="emq-1-lenz-law-blf"/>
+  <line x1="484" y1="165" x2="692" y2="165" class="emq-1-lenz-law-bl"/><path d="M702.0 165.0 L694.8 168.5 L694.8 161.5 Z" class="emq-1-lenz-law-blf"/>
+  <path d="M552 105 A12 45 0 0 1 552 195" class="emq-1-lenz-law-coil"/>
+  <path d="M574 105 A12 45 0 0 1 574 195" class="emq-1-lenz-law-coil"/>
+  <path d="M596 105 A12 45 0 0 1 596 195" class="emq-1-lenz-law-coil"/>
+  <path d="M618 105 A12 45 0 0 1 618 195" class="emq-1-lenz-law-coil"/>
+  <path d="M640 105 A12 45 0 0 1 640 195" class="emq-1-lenz-law-coil"/>
+  <path d="M662 105 A12 45 0 0 1 662 195" class="emq-1-lenz-law-coil"/>
+  <line x1="552" y1="222" x2="672" y2="222" class="emq-1-lenz-law-rl"/><path d="M684.0 222.0 L674.1 226.8 L674.1 217.2 Z" class="emq-1-lenz-law-rlf"/>
+  <text x="538" y="96" text-anchor="middle" class="emq-1-lenz-law-pr">S</text><text x="676" y="96" text-anchor="middle" class="emq-1-lenz-law-pr">N</text>
+  <text x="617" y="245" text-anchor="middle" class="emq-1-lenz-law-s">유도 전류가 만드는 자기장</text>
+  <text x="382" y="276" class="emq-1-lenz-law-k">코일 속 오른쪽 방향 선속이 줄어든다</text>
+  <text x="382" y="295" class="emq-1-lenz-law-k">→ 오른쪽 방향 자기장으로 감소를 방해</text>
+  <text x="382" y="314" class="emq-1-lenz-law-k">→ 자석 쪽 끝이 S극: 자석을 붙잡는다</text>
+  <line x1="360" y1="20" x2="360" y2="320" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
+  <text x="700" y="30" text-anchor="end" class="emq-1-lenz-law-s"><tspan class="emq-1-lenz-law-blf" style="fill:var(--fig-blue)">파랑</tspan>: 자석의 자기장</text>
+</svg>

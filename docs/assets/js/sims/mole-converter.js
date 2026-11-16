@@ -211,13 +211,13 @@ Sims.register('mole-converter', {
         label(T, lists[bi].title, r.x + 10, r.y + 18, { align: 'left', bold: true });
         var all = [];
         lists[bi].items.forEach(function (it) { for (var i = 0; i < it.n; i++) all.push(it); });
-        var cols = narrow ? 11 : 6, cell = Math.min((r.w - 20) / cols, (r.h - 34) / Math.max(1, Math.ceil(28 / cols)));
-        cell = Math.min(cell, 30);
-        cols = Math.max(1, Math.floor((r.w - 20) / cell));
+        var aw = r.w - 20, ah = r.h - 38, cell = Math.min(40, Math.sqrt(aw * ah / 30));
+        var cols = Math.max(1, Math.floor(aw / cell));
+        while (Math.ceil(28 / cols) * cell > ah && cell > 12) { cell -= 1; cols = Math.max(1, Math.floor(aw / cell)); }
         all.forEach(function (it, i) {
           var cx = r.x + 10 + (i % cols + 0.5) * cell, cy = r.y + 30 + (Math.floor(i / cols) + 0.5) * cell;
           if (it.left) { ctx.beginPath(); ctx.arc(cx, cy, cell * 0.46, 0, Math.PI * 2); ctx.fillStyle = T.figSoftAmber; ctx.fill(); }
-          molecule(T, it.a, cx, cy, cell * 0.84);
+          molecule(T, it.a, cx, cy, cell * 0.72);
         });
         if (!all.length) label(T, '(없음)', r.x + r.w / 2, r.y + r.h / 2, { color: T.figMuted });
       });

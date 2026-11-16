@@ -10,16 +10,17 @@
 <link rel="stylesheet" href="assets/katex/katex.min.css">
 <link rel="stylesheet" href="assets/book.css">
 <script src="assets/js/book.js" defer></script>
-
+<script src="assets/js/sims/force-balance.js" defer></script>
 </head>
-<body class="">
+<body class="" data-lesson="m1-05" data-title="힘의 작용" data-where="중1">
 <header class="topbar">
   <button class="menu-btn" id="menu-btn" aria-controls="drawer" aria-expanded="false">목차</button>
   <a class="brand" href="index.html">한 권으로 잇는 과학</a>
   <button class="theme-btn" id="theme-btn" aria-label="밝은 화면과 어두운 화면 바꾸기">화면</button>
+  <div class="read-bar" id="read-bar" aria-hidden="true"><i></i></div>
 </header>
 <div class="shell">
-<aside class="drawer" id="drawer"><nav class="book-nav" aria-label="교재 목차"><a class="nav-home" href="index.html">처음으로 · 전체 목차</a><input class="nav-filter" id="nav-filter" type="search" placeholder="단원 이름으로 찾기" aria-label="단원 이름으로 찾기" autocomplete="off"><p class="nav-group">중학교 과학</p><details class="nav-part" open><summary>1학년<span class="nav-count">7</span></summary><ul><li><a href="m1-01.html"><span class="nav-id">중1-1</span>과학과 인류의 지속가능한 삶</a></li><li><a href="m1-02.html"><span class="nav-id">중1-2</span>생물의 구성과 다양성</a></li><li><a href="m1-03.html"><span class="nav-id">중1-3</span>열</a></li><li><a href="m1-04.html"><span class="nav-id">중1-4</span>물질의 상태 변화</a></li><li><a href="m1-05.html" aria-current="page"><span class="nav-id">중1-5</span>힘의 작용</a></li><li><a href="m1-06.html"><span class="nav-id">중1-6</span>기체의 성질</a></li><li><a href="m1-07.html"><span class="nav-id">중1-7</span>태양계</a></li></ul></details><details class="nav-part"><summary>2학년<span class="nav-count">8</span></summary><ul><li><a href="m2-01.html"><span class="nav-id">중2-1</span>물질의 특성</a></li><li><a href="m2-02.html"><span class="nav-id">중2-2</span>지권의 변화</a></li><li><a href="m2-03.html"><span class="nav-id">중2-3</span>빛과 파동</a></li><li><a href="m2-04.html"><span class="nav-id">중2-4</span>물질의 구성</a></li><li><a href="m2-05.html"><span class="nav-id">중2-5</span>식물과 에너지</a></li><li><a href="m2-06.html"><span class="nav-id">중2-6</span>동물과 에너지</a></li><li><a href="m2-07.html"><span class="nav-id">중2-7</span>전기와 자기</a></li><li><a href="m2-08.html"><span class="nav-id">중2-8</span>별과 우주</a></li></ul></details><details class="nav-part"><summary>3학년<span class="nav-count">8</span></summary><ul><li><a href="m3-01.html"><span class="nav-id">중3-1</span>화학 반응의 규칙성</a></li><li><a href="m3-02.html"><span class="nav-id">중3-2</span>날씨와 기후변화</a></li><li><a href="m3-03.html"><span class="nav-id">중3-3</span>수권과 해수의 순환</a></li><li><a href="m3-04.html"><span class="nav-id">중3-4</span>운동과 에너지</a></li><li><a href="m3-05.html"><span class="nav-id">중3-5</span>자극과 반응</a></li><li><a href="m3-06.html"><span class="nav-id">중3-6</span>생식과 유전</a></li><li><a href="m3-07.html"><span class="nav-id">중3-7</span>재해·재난과 안전</a></li><li><a href="m3-08.html"><span class="nav-id">중3-8</span>과학과 나의 미래</a></li></ul></details><p class="nav-group">고등학교 공통 과목</p><details class="nav-part"><summary>통합과학1<span class="nav-count">16</span></summary><p class="nav-unit">1단원 과학의 기초</p><ul><li><a href="1-1.html"><span class="nav-id">1-1</span>시간과 공간</a></li><li><a href="1-2.html"><span class="nav-id">1-2</span>기본량과 단위</a></li><li><a href="1-3.html"><span class="nav-id">1-3</span>측정과 어림, 측정 표준</a></li><li><a href="1-4.html"><span class="nav-id">1-4</span>정보와 신호: 아날로그에서 디지털로</a></li></ul><p class="nav-unit">2단원 물질과 규칙성</p><ul><li><a href="2-1.html"><span class="nav-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="2-2.html"><span class="nav-id">2-2</span>별의 진화와 원소의 생성</a></li><li><a href="2-3.html"><span class="nav-id">2-3</span>원소의 주기성과 화학 결합의 이유</a></li><li><a href="2-4.html"><span class="nav-id">2-4</span>이온 결합과 공유 결합</a></li><li><a href="2-5.html"><span class="nav-id">2-5</span>지각과 생명체 구성 물질의 규칙성</a></li><li><a href="2-6.html"><span class="nav-id">2-6</span>물질의 전기적 성질과 소재</a></li></ul><p class="nav-unit">3단원 시스템과 상호작용</p><ul><li><a href="3-1.html"><span class="nav-id">3-1</span>지구시스템의 구성과 상호작용</a></li><li><a href="3-2.html"><span class="nav-id">3-2</span>판구조론과 지권의 변화</a></li><li><a href="3-3.html"><span class="nav-id">3-3</span>중력과 운동</a></li><li><a href="3-4.html"><span class="nav-id">3-4</span>운동량과 충격량</a></li><li><a href="3-5.html"><span class="nav-id">3-5</span>생명 시스템과 물질대사</a></li><li><a href="3-6.html"><span class="nav-id">3-6</span>유전자와 단백질</a></li></ul></details><details class="nav-part"><summary>통합과학2<span class="nav-count">15</span></summary><p class="nav-unit">4단원 변화와 다양성</p><ul><li><a href="4-1.html"><span class="nav-id">4-1</span>지질시대의 환경 변화와 생물다양성</a></li><li><a href="4-2.html"><span class="nav-id">4-2</span>진화와 생물다양성</a></li><li><a href="4-3.html"><span class="nav-id">4-3</span>산화와 환원</a></li><li><a href="4-4.html"><span class="nav-id">4-4</span>산과 염기, 중화 반응</a></li><li><a href="4-5.html"><span class="nav-id">4-5</span>물질 변화와 에너지 출입</a></li></ul><p class="nav-unit">5단원 환경과 에너지</p><ul><li><a href="5-1.html"><span class="nav-id">5-1</span>생태계 구성 요소와 상호 관계</a></li><li><a href="5-2.html"><span class="nav-id">5-2</span>생태계 평형</a></li><li><a href="5-3.html"><span class="nav-id">5-3</span>지구온난화와 기후변화</a></li><li><a href="5-4.html"><span class="nav-id">5-4</span>태양 에너지와 에너지 전환</a></li><li><a href="5-5.html"><span class="nav-id">5-5</span>발전기와 전기 에너지</a></li><li><a href="5-6.html"><span class="nav-id">5-6</span>에너지 효율과 신재생 에너지</a></li></ul><p class="nav-unit">6단원 과학과 미래 사회</p><ul><li><a href="6-1.html"><span class="nav-id">6-1</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html"><span class="nav-id">6-2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html"><span class="nav-id">6-3</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html"><span class="nav-id">6-4</span>과학기술과 윤리</a></li></ul></details><p class="nav-group">고등학교 일반 선택</p><details class="nav-part"><summary>물리학<span class="nav-count">3</span></summary><ul><li><a href="phy-1.html"><span class="nav-id">물리학 1</span>힘과 에너지</a></li><li><a href="phy-2.html"><span class="nav-id">물리학 2</span>전기와 자기</a></li><li><a href="phy-3.html"><span class="nav-id">물리학 3</span>빛과 물질</a></li></ul></details><details class="nav-part"><summary>화학<span class="nav-count">4</span></summary><ul><li><a href="chem-1.html"><span class="nav-id">화학 1</span>화학의 언어</a></li><li><a href="chem-2.html"><span class="nav-id">화학 2</span>물질의 구조와 성질</a></li><li><a href="chem-3.html"><span class="nav-id">화학 3</span>화학 평형</a></li><li><a href="chem-4.html"><span class="nav-id">화학 4</span>역동적인 화학 반응</a></li></ul></details><details class="nav-part"><summary>생명과학<span class="nav-count">3</span></summary><ul><li><a href="bio-1.html"><span class="nav-id">생명과학 1</span>생명 시스템의 구성</a></li><li><a href="bio-2.html"><span class="nav-id">생명과학 2</span>항상성과 몸의 조절</a></li><li><a href="bio-3.html"><span class="nav-id">생명과학 3</span>생명의 연속성과 다양성</a></li></ul></details><details class="nav-part"><summary>지구과학<span class="nav-count">3</span></summary><ul><li><a href="earth-1.html"><span class="nav-id">지구과학 1</span>대기와 해양의 상호작용</a></li><li><a href="earth-2.html"><span class="nav-id">지구과학 2</span>지구의 역사와 한반도의 암석</a></li><li><a href="earth-3.html"><span class="nav-id">지구과학 3</span>태양계 천체와 별과 우주의 진화</a></li></ul></details><p class="nav-group">고등학교 진로 선택</p><details class="nav-part"><summary>역학과 에너지<span class="nav-count">2</span></summary><ul><li><a href="mech-1.html"><span class="nav-id">역학과 에너지 1</span>시공간과 운동</a></li><li><a href="mech-2.html"><span class="nav-id">역학과 에너지 2</span>열과 에너지</a></li></ul></details><details class="nav-part"><summary>전자기와 양자<span class="nav-count">3</span></summary><ul><li><a href="emq-1.html"><span class="nav-id">전자기와 양자 1</span>전자기적 상호작용</a></li><li><a href="emq-2.html"><span class="nav-id">전자기와 양자 2</span>빛과 정보 통신</a></li><li><a href="emq-3.html"><span class="nav-id">전자기와 양자 3</span>양자와 미시세계</a></li></ul></details><details class="nav-part"><summary>물질과 에너지<span class="nav-count">3</span></summary><ul><li><a href="matter-1.html"><span class="nav-id">물질과 에너지 1</span>물질의 세 가지 상태</a></li><li><a href="matter-2.html"><span class="nav-id">물질과 에너지 2</span>용액의 성질</a></li><li><a href="matter-3.html"><span class="nav-id">물질과 에너지 3</span>화학 변화의 자발성</a></li></ul></details><details class="nav-part"><summary>화학 반응의 세계<span class="nav-count">3</span></summary><ul><li><a href="rxn-1.html"><span class="nav-id">화학 반응의 세계 1</span>산·염기 평형</a></li><li><a href="rxn-2.html"><span class="nav-id">화학 반응의 세계 2</span>산화·환원 반응</a></li><li><a href="rxn-3.html"><span class="nav-id">화학 반응의 세계 3</span>탄소 화합물과 반응</a></li></ul></details><details class="nav-part"><summary>세포와 물질대사<span class="nav-count">3</span></summary><ul><li><a href="cell-1.html"><span class="nav-id">세포와 물질대사 1</span>세포</a></li><li><a href="cell-2.html"><span class="nav-id">세포와 물질대사 2</span>물질대사와 에너지</a></li><li><a href="cell-3.html"><span class="nav-id">세포와 물질대사 3</span>세포호흡과 광합성</a></li></ul></details><details class="nav-part"><summary>생물의 유전<span class="nav-count">3</span></summary><ul><li><a href="gene-1.html"><span class="nav-id">생물의 유전 1</span>유전자와 유전물질</a></li><li><a href="gene-2.html"><span class="nav-id">생물의 유전 2</span>유전자의 발현</a></li><li><a href="gene-3.html"><span class="nav-id">생물의 유전 3</span>생명공학기술</a></li></ul></details><details class="nav-part"><summary>지구시스템과학<span class="nav-count">2</span></summary><ul><li><a href="esys-1.html"><span class="nav-id">지구시스템과학 1</span>지구 탄생과 생동하는 지구</a></li><li><a href="esys-2.html"><span class="nav-id">지구시스템과학 2</span>해수의 운동</a></li></ul></details><details class="nav-part"><summary>행성우주과학<span class="nav-count">2</span></summary><ul><li><a href="astro-1.html"><span class="nav-id">행성우주과학 1</span>우주탐사와 행성계</a></li><li><a href="astro-2.html"><span class="nav-id">행성우주과학 2</span>태양과 별의 관측</a></li></ul></details><p class="nav-group">찾아보기</p><ul class="nav-extra"><li><a href="map.html">개념 연계 지도</a></li><li><a href="glossary.html">핵심 용어 사전</a></li><li><a href="sims.html">시뮬레이션 모아 보기</a></li><li><a href="guide.html">교재 설계 안내</a></li><li><a href="appendix-standards.html">통합과학 성취기준 원문</a></li><li><a href="appendix-map.html">통합과학 대학·산업 연계 지도</a></li></ul></nav></aside>
+<aside class="drawer" id="drawer"><nav class="book-nav" aria-label="교재 목차"><a class="nav-home" href="index.html">처음으로 · 전체 목차</a><input class="nav-filter" id="nav-filter" type="search" placeholder="단원 이름으로 찾기" aria-label="단원 이름으로 찾기" autocomplete="off"><p class="nav-group">중학교 과학</p><details class="nav-part" open><summary>1학년<span class="nav-count">7</span></summary><ul><li><a href="m1-01.html" data-id="m1-01"><span class="nav-id">중1-1</span>과학과 인류의 지속가능한 삶</a></li><li><a href="m1-02.html" data-id="m1-02"><span class="nav-id">중1-2</span>생물의 구성과 다양성</a></li><li><a href="m1-03.html" data-id="m1-03"><span class="nav-id">중1-3</span>열</a></li><li><a href="m1-04.html" data-id="m1-04"><span class="nav-id">중1-4</span>물질의 상태 변화</a></li><li><a href="m1-05.html" data-id="m1-05" aria-current="page"><span class="nav-id">중1-5</span>힘의 작용</a></li><li><a href="m1-06.html" data-id="m1-06"><span class="nav-id">중1-6</span>기체의 성질</a></li><li><a href="m1-07.html" data-id="m1-07"><span class="nav-id">중1-7</span>태양계</a></li></ul></details><details class="nav-part"><summary>2학년<span class="nav-count">8</span></summary><ul><li><a href="m2-01.html" data-id="m2-01"><span class="nav-id">중2-1</span>물질의 특성</a></li><li><a href="m2-02.html" data-id="m2-02"><span class="nav-id">중2-2</span>지권의 변화</a></li><li><a href="m2-03.html" data-id="m2-03"><span class="nav-id">중2-3</span>빛과 파동</a></li><li><a href="m2-04.html" data-id="m2-04"><span class="nav-id">중2-4</span>물질의 구성</a></li><li><a href="m2-05.html" data-id="m2-05"><span class="nav-id">중2-5</span>식물과 에너지</a></li><li><a href="m2-06.html" data-id="m2-06"><span class="nav-id">중2-6</span>동물과 에너지</a></li><li><a href="m2-07.html" data-id="m2-07"><span class="nav-id">중2-7</span>전기와 자기</a></li><li><a href="m2-08.html" data-id="m2-08"><span class="nav-id">중2-8</span>별과 우주</a></li></ul></details><details class="nav-part"><summary>3학년<span class="nav-count">8</span></summary><ul><li><a href="m3-01.html" data-id="m3-01"><span class="nav-id">중3-1</span>화학 반응의 규칙성</a></li><li><a href="m3-02.html" data-id="m3-02"><span class="nav-id">중3-2</span>날씨와 기후변화</a></li><li><a href="m3-03.html" data-id="m3-03"><span class="nav-id">중3-3</span>수권과 해수의 순환</a></li><li><a href="m3-04.html" data-id="m3-04"><span class="nav-id">중3-4</span>운동과 에너지</a></li><li><a href="m3-05.html" data-id="m3-05"><span class="nav-id">중3-5</span>자극과 반응</a></li><li><a href="m3-06.html" data-id="m3-06"><span class="nav-id">중3-6</span>생식과 유전</a></li><li><a href="m3-07.html" data-id="m3-07"><span class="nav-id">중3-7</span>재해·재난과 안전</a></li><li><a href="m3-08.html" data-id="m3-08"><span class="nav-id">중3-8</span>과학과 나의 미래</a></li></ul></details><p class="nav-group">고등학교 공통 과목</p><details class="nav-part"><summary>통합과학1<span class="nav-count">16</span></summary><p class="nav-unit">1단원 과학의 기초</p><ul><li><a href="1-1.html" data-id="1-1"><span class="nav-id">1-1</span>시간과 공간</a></li><li><a href="1-2.html" data-id="1-2"><span class="nav-id">1-2</span>기본량과 단위</a></li><li><a href="1-3.html" data-id="1-3"><span class="nav-id">1-3</span>측정과 어림, 측정 표준</a></li><li><a href="1-4.html" data-id="1-4"><span class="nav-id">1-4</span>정보와 신호: 아날로그에서 디지털로</a></li></ul><p class="nav-unit">2단원 물질과 규칙성</p><ul><li><a href="2-1.html" data-id="2-1"><span class="nav-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="2-2.html" data-id="2-2"><span class="nav-id">2-2</span>별의 진화와 원소의 생성</a></li><li><a href="2-3.html" data-id="2-3"><span class="nav-id">2-3</span>원소의 주기성과 화학 결합의 이유</a></li><li><a href="2-4.html" data-id="2-4"><span class="nav-id">2-4</span>이온 결합과 공유 결합</a></li><li><a href="2-5.html" data-id="2-5"><span class="nav-id">2-5</span>지각과 생명체 구성 물질의 규칙성</a></li><li><a href="2-6.html" data-id="2-6"><span class="nav-id">2-6</span>물질의 전기적 성질과 소재</a></li></ul><p class="nav-unit">3단원 시스템과 상호작용</p><ul><li><a href="3-1.html" data-id="3-1"><span class="nav-id">3-1</span>지구시스템의 구성과 상호작용</a></li><li><a href="3-2.html" data-id="3-2"><span class="nav-id">3-2</span>판구조론과 지권의 변화</a></li><li><a href="3-3.html" data-id="3-3"><span class="nav-id">3-3</span>중력과 운동</a></li><li><a href="3-4.html" data-id="3-4"><span class="nav-id">3-4</span>운동량과 충격량</a></li><li><a href="3-5.html" data-id="3-5"><span class="nav-id">3-5</span>생명 시스템과 물질대사</a></li><li><a href="3-6.html" data-id="3-6"><span class="nav-id">3-6</span>유전자와 단백질</a></li></ul></details><details class="nav-part"><summary>통합과학2<span class="nav-count">15</span></summary><p class="nav-unit">4단원 변화와 다양성</p><ul><li><a href="4-1.html" data-id="4-1"><span class="nav-id">4-1</span>지질시대의 환경 변화와 생물다양성</a></li><li><a href="4-2.html" data-id="4-2"><span class="nav-id">4-2</span>진화와 생물다양성</a></li><li><a href="4-3.html" data-id="4-3"><span class="nav-id">4-3</span>산화와 환원</a></li><li><a href="4-4.html" data-id="4-4"><span class="nav-id">4-4</span>산과 염기, 중화 반응</a></li><li><a href="4-5.html" data-id="4-5"><span class="nav-id">4-5</span>물질 변화와 에너지 출입</a></li></ul><p class="nav-unit">5단원 환경과 에너지</p><ul><li><a href="5-1.html" data-id="5-1"><span class="nav-id">5-1</span>생태계 구성 요소와 상호 관계</a></li><li><a href="5-2.html" data-id="5-2"><span class="nav-id">5-2</span>생태계 평형</a></li><li><a href="5-3.html" data-id="5-3"><span class="nav-id">5-3</span>지구온난화와 기후변화</a></li><li><a href="5-4.html" data-id="5-4"><span class="nav-id">5-4</span>태양 에너지와 에너지 전환</a></li><li><a href="5-5.html" data-id="5-5"><span class="nav-id">5-5</span>발전기와 전기 에너지</a></li><li><a href="5-6.html" data-id="5-6"><span class="nav-id">5-6</span>에너지 효율과 신재생 에너지</a></li></ul><p class="nav-unit">6단원 과학과 미래 사회</p><ul><li><a href="6-1.html" data-id="6-1"><span class="nav-id">6-1</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html" data-id="6-2"><span class="nav-id">6-2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html" data-id="6-3"><span class="nav-id">6-3</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html" data-id="6-4"><span class="nav-id">6-4</span>과학기술과 윤리</a></li></ul></details><p class="nav-group">고등학교 일반 선택</p><details class="nav-part"><summary>물리학<span class="nav-count">3</span></summary><ul><li><a href="phy-1.html" data-id="phy-1"><span class="nav-id">물리학 1</span>힘과 에너지</a></li><li><a href="phy-2.html" data-id="phy-2"><span class="nav-id">물리학 2</span>전기와 자기</a></li><li><a href="phy-3.html" data-id="phy-3"><span class="nav-id">물리학 3</span>빛과 물질</a></li></ul></details><details class="nav-part"><summary>화학<span class="nav-count">4</span></summary><ul><li><a href="chem-1.html" data-id="chem-1"><span class="nav-id">화학 1</span>화학의 언어</a></li><li><a href="chem-2.html" data-id="chem-2"><span class="nav-id">화학 2</span>물질의 구조와 성질</a></li><li><a href="chem-3.html" data-id="chem-3"><span class="nav-id">화학 3</span>화학 평형</a></li><li><a href="chem-4.html" data-id="chem-4"><span class="nav-id">화학 4</span>역동적인 화학 반응</a></li></ul></details><details class="nav-part"><summary>생명과학<span class="nav-count">3</span></summary><ul><li><a href="bio-1.html" data-id="bio-1"><span class="nav-id">생명과학 1</span>생명 시스템의 구성</a></li><li><a href="bio-2.html" data-id="bio-2"><span class="nav-id">생명과학 2</span>항상성과 몸의 조절</a></li><li><a href="bio-3.html" data-id="bio-3"><span class="nav-id">생명과학 3</span>생명의 연속성과 다양성</a></li></ul></details><details class="nav-part"><summary>지구과학<span class="nav-count">3</span></summary><ul><li><a href="earth-1.html" data-id="earth-1"><span class="nav-id">지구과학 1</span>대기와 해양의 상호작용</a></li><li><a href="earth-2.html" data-id="earth-2"><span class="nav-id">지구과학 2</span>지구의 역사와 한반도의 암석</a></li><li><a href="earth-3.html" data-id="earth-3"><span class="nav-id">지구과학 3</span>태양계 천체와 별과 우주의 진화</a></li></ul></details><p class="nav-group">고등학교 진로 선택</p><details class="nav-part"><summary>역학과 에너지<span class="nav-count">3</span></summary><ul><li><a href="mech-1.html" data-id="mech-1"><span class="nav-id">역학과 에너지 1</span>시공간과 운동</a></li><li><a href="mech-2.html" data-id="mech-2"><span class="nav-id">역학과 에너지 2</span>열과 에너지</a></li><li><a href="mech-3.html" data-id="mech-3"><span class="nav-id">역학과 에너지 3</span>탄성파와 소리</a></li></ul></details><details class="nav-part"><summary>전자기와 양자<span class="nav-count">3</span></summary><ul><li><a href="emq-1.html" data-id="emq-1"><span class="nav-id">전자기와 양자 1</span>전자기적 상호작용</a></li><li><a href="emq-2.html" data-id="emq-2"><span class="nav-id">전자기와 양자 2</span>빛과 정보 통신</a></li><li><a href="emq-3.html" data-id="emq-3"><span class="nav-id">전자기와 양자 3</span>양자와 미시세계</a></li></ul></details><details class="nav-part"><summary>물질과 에너지<span class="nav-count">4</span></summary><ul><li><a href="matter-1.html" data-id="matter-1"><span class="nav-id">물질과 에너지 1</span>물질의 세 가지 상태</a></li><li><a href="matter-2.html" data-id="matter-2"><span class="nav-id">물질과 에너지 2</span>용액의 성질</a></li><li><a href="matter-3.html" data-id="matter-3"><span class="nav-id">물질과 에너지 3</span>화학 변화의 자발성</a></li><li><a href="matter-4.html" data-id="matter-4"><span class="nav-id">물질과 에너지 4</span>반응 속도</a></li></ul></details><details class="nav-part"><summary>화학 반응의 세계<span class="nav-count">3</span></summary><ul><li><a href="rxn-1.html" data-id="rxn-1"><span class="nav-id">화학 반응의 세계 1</span>산·염기 평형</a></li><li><a href="rxn-2.html" data-id="rxn-2"><span class="nav-id">화학 반응의 세계 2</span>산화·환원 반응</a></li><li><a href="rxn-3.html" data-id="rxn-3"><span class="nav-id">화학 반응의 세계 3</span>탄소 화합물과 반응</a></li></ul></details><details class="nav-part"><summary>세포와 물질대사<span class="nav-count">3</span></summary><ul><li><a href="cell-1.html" data-id="cell-1"><span class="nav-id">세포와 물질대사 1</span>세포</a></li><li><a href="cell-2.html" data-id="cell-2"><span class="nav-id">세포와 물질대사 2</span>물질대사와 에너지</a></li><li><a href="cell-3.html" data-id="cell-3"><span class="nav-id">세포와 물질대사 3</span>세포호흡과 광합성</a></li></ul></details><details class="nav-part"><summary>생물의 유전<span class="nav-count">3</span></summary><ul><li><a href="gene-1.html" data-id="gene-1"><span class="nav-id">생물의 유전 1</span>유전자와 유전물질</a></li><li><a href="gene-2.html" data-id="gene-2"><span class="nav-id">생물의 유전 2</span>유전자의 발현</a></li><li><a href="gene-3.html" data-id="gene-3"><span class="nav-id">생물의 유전 3</span>생명공학기술</a></li></ul></details><details class="nav-part"><summary>지구시스템과학<span class="nav-count">3</span></summary><ul><li><a href="esys-1.html" data-id="esys-1"><span class="nav-id">지구시스템과학 1</span>지구 탄생과 생동하는 지구</a></li><li><a href="esys-2.html" data-id="esys-2"><span class="nav-id">지구시스템과학 2</span>해수의 운동</a></li><li><a href="esys-3.html" data-id="esys-3"><span class="nav-id">지구시스템과학 3</span>강수 과정과 대기의 운동</a></li></ul></details><details class="nav-part"><summary>행성우주과학<span class="nav-count">3</span></summary><ul><li><a href="astro-1.html" data-id="astro-1"><span class="nav-id">행성우주과학 1</span>우주탐사와 행성계</a></li><li><a href="astro-2.html" data-id="astro-2"><span class="nav-id">행성우주과학 2</span>태양과 별의 관측</a></li><li><a href="astro-3.html" data-id="astro-3"><span class="nav-id">행성우주과학 3</span>은하와 우주</a></li></ul></details><p class="nav-group">찾아보기</p><ul class="nav-extra"><li><a href="map.html">개념 연계 지도</a></li><li><a href="glossary.html">핵심 용어 사전</a></li><li><a href="sims.html">시뮬레이션 모아 보기</a></li><li><a href="guide.html">교재 설계 안내</a></li><li><a href="appendix-standards.html">통합과학 성취기준 원문</a></li><li><a href="appendix-map.html">통합과학 대학·산업 연계 지도</a></li></ul></nav></aside>
 <main class="main" id="main">
 <div class="lesson-grid"><nav class="ladder" aria-label="이 단원의 흐름"><p class="ladder-title">이 단원의 흐름</p><ol><li class="extra"><a href="#단원-들어가기">단원 들어가기</a></li><li class="s1"><a href="#step-1"><b>STEP 1</b> 이전 학습 다시 보기</a></li><li class="s2"><a href="#step-2"><b>STEP 2</b> 기초 다지기</a></li><li class="s3"><a href="#step-3"><b>STEP 3</b> 핵심 개념</a></li><li class="s4"><a href="#step-4"><b>STEP 4</b> 오개념 바로잡기</a></li><li class="s5"><a href="#step-5"><b>STEP 5</b> 다음 단계로 한 걸음 더</a></li><li class="s6"><a href="#step-6"><b>STEP 6</b> 생활·산업·진로 연결</a></li><li class="extra"><a href="#탐구-활동-용수철의-탄성력과-물속에서의-부력-측정하기">탐구 활동 — 용수철의 탄성력과 물속에서의 부력 측정하기</a></li><li class="extra"><a href="#개념-확인-문제">개념 확인 문제</a></li><li class="extra"><a href="#한눈에-정리">한눈에 정리</a></li></ol></nav><article class="prose lesson"><header class="lesson-hero st-energy">
   <p class="eyebrow">중학교 과학 · 1학년</p>
@@ -28,7 +29,7 @@
 </header><section class="links-panel" aria-label="개념 연결">
   <div class="lp-col"><p class="lp-title">먼저 배운 내용</p><p class="lp-empty">이 책에서는 여기가 출발점이다.</p></div>
   <div class="lp-now"><span>지금</span><b>힘의 작용</b></div>
-  <div class="lp-col"><p class="lp-title">이어지는 내용</p><ul><li><a href="m1-06.html"><span class="lp-where">중1</span>기체의 성질</a></li><li><a href="m2-07.html"><span class="lp-where">중2</span>전기와 자기</a></li><li><a href="m3-04.html"><span class="lp-where">중3</span>운동과 에너지</a></li><li><a href="1-2.html"><span class="lp-where">통합과학1</span>기본량과 단위</a></li><li><a href="3-3.html"><span class="lp-where">통합과학1</span>중력과 운동</a></li><li><a href="3-4.html"><span class="lp-where">통합과학1</span>운동량과 충격량</a></li><li><a href="phy-1.html"><span class="lp-where">물리학</span>힘과 에너지</a></li><li><a href="mech-1.html"><span class="lp-where">역학과 에너지</span>시공간과 운동</a></li></ul></div>
+  <div class="lp-col"><p class="lp-title">이어지는 내용</p><ul><li><a href="m1-06.html"><span class="lp-where">중1</span>기체의 성질</a></li><li><a href="m2-07.html"><span class="lp-where">중2</span>전기와 자기</a></li><li><a href="m3-04.html"><span class="lp-where">중3</span>운동과 에너지</a></li><li><a href="1-2.html"><span class="lp-where">통합과학1</span>기본량과 단위</a></li><li><a href="3-3.html"><span class="lp-where">통합과학1</span>중력과 운동</a></li><li><a href="3-4.html"><span class="lp-where">통합과학1</span>운동량과 충격량</a></li><li><a href="phy-1.html"><span class="lp-where">물리학</span>힘과 에너지</a></li><li><a href="mech-1.html"><span class="lp-where">역학과 에너지</span>시공간과 운동</a></li><li><a href="mech-3.html"><span class="lp-where">역학과 에너지</span>탄성파와 소리</a></li></ul></div>
 </section><!-- next: m1-06, m3-04, 3-3, 3-4, phy-1, mech-1 -->
 
 <aside class="callout note"><p class="callout-title">성취기준·참고</p><p><strong>성취기준</strong></p>
@@ -185,6 +186,66 @@
 </tr>
 </tbody></table></div>
 <p><strong>예</strong> 1 cm를 2 N으로 약속하면, 상자를 오른쪽으로 6 N의 힘으로 미는 것은 상자에서 시작해 오른쪽을 향하는 3 cm 길이의 화살표로 나타낸다.</p>
+<figure class="fig" id="fig-m1-05-force-arrow"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" role="img" aria-labelledby="t-m1-05-force-arrow d-m1-05-force-arrow">
+  <title id="t-m1-05-force-arrow">그림 중1-5-1 힘을 화살표로 나타내기</title>
+  <desc id="d-m1-05-force-arrow">화살표의 시작점은 힘이 작용하는 점, 방향은 힘의 방향, 길이는 힘의 크기를 나타낸다. 1 cm를 2 N으로 약속하면 6 N은 3 cm, 3 N은 1.5 cm 화살표가 된다.</desc>
+  <style>
+    .fa-red{fill:none;stroke:var(--fig-red)} .fa-redh{fill:var(--fig-red)}
+    .fa-blue{fill:none;stroke:var(--fig-blue)} .fa-blueh{fill:var(--fig-blue)}
+    .fa-green{fill:none;stroke:var(--fig-green)} .fa-greenh{fill:var(--fig-green)}
+    .fa-amber{fill:none;stroke:var(--fig-amber)} .fa-amberh{fill:var(--fig-amber)}
+    .fa-violet{fill:none;stroke:var(--fig-violet)} .fa-violeth{fill:var(--fig-violet)}
+    .fa-teal{fill:none;stroke:var(--fig-teal)} .fa-tealh{fill:var(--fig-teal)}
+    .fa-ink{fill:none;stroke:var(--fig-ink)} .fa-inkh{fill:var(--fig-ink)}
+    .fa-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .fa-t{font-size:14px;fill:var(--fig-ink)}
+    .fa-sm{font-size:13px;fill:var(--fig-muted)}
+    .fa-box{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+    .fa-floor{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.5}
+    .fa-hatch{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .fa-dot{fill:var(--fig-ink)}
+    .fa-ld{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .fa-tick{fill:none;stroke:var(--fig-muted);stroke-width:1.2}
+    .fa-rb{font-size:14px;font-weight:700;fill:var(--fig-red)}
+    .fa-bb{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+    .fa-gb{font-size:14px;font-weight:700;fill:var(--fig-green)}
+    .fa-vb{font-size:14px;font-weight:700;fill:var(--fig-violet)}
+    .fa-ab{font-size:14px;font-weight:700;fill:var(--fig-amber)}
+  </style>
+  <rect x="30" y="170" width="390" height="16" class="fa-floor"/>
+  <path d="M36 186 l10 -16 M50 186 l10 -16 M64 186 l10 -16 M78 186 l10 -16 M92 186 l10 -16 M106 186 l10 -16 M120 186 l10 -16 M134 186 l10 -16 M148 186 l10 -16 M162 186 l10 -16 M176 186 l10 -16 M190 186 l10 -16 M204 186 l10 -16 M218 186 l10 -16 M232 186 l10 -16 M246 186 l10 -16 M260 186 l10 -16 M274 186 l10 -16 M288 186 l10 -16 M302 186 l10 -16 M316 186 l10 -16 M330 186 l10 -16 M344 186 l10 -16 M358 186 l10 -16 M372 186 l10 -16 M386 186 l10 -16 M400 186 l10 -16 " class="fa-hatch"/>
+  <rect x="60" y="100" width="110" height="70" rx="3" class="fa-box"/>
+  <text x="115" y="140" text-anchor="middle" class="fa-t">상자</text>
+  <line x1="170.0" y1="135.0" x2="276.0" y2="135.0" style="stroke-width:3.5;stroke-linecap:round" class="fa-red"/><path d="M290.0 135.0 L276.0 141.3 L276.0 128.7 Z" class="fa-redh"/>
+  <circle cx="170" cy="135" r="5" class="fa-dot"/>
+  <line x1="170" y1="202" x2="170" y2="212" class="fa-tick"/>
+  <text x="170" y="230" text-anchor="middle" class="fa-sm">0 N</text>
+  <line x1="210" y1="202" x2="210" y2="212" class="fa-tick"/>
+  <text x="210" y="230" text-anchor="middle" class="fa-sm">2 N</text>
+  <line x1="250" y1="202" x2="250" y2="212" class="fa-tick"/>
+  <text x="250" y="230" text-anchor="middle" class="fa-sm">4 N</text>
+  <line x1="290" y1="202" x2="290" y2="212" class="fa-tick"/>
+  <text x="290" y="230" text-anchor="middle" class="fa-sm">6 N</text>
+  <line x1="170" y1="207" x2="290" y2="207" class="fa-tick"/>
+  <text x="230.0" y="252" text-anchor="middle" class="fa-sm">1 cm = 2 N으로 약속</text>
+  <line x1="166" y1="129" x2="140" y2="66" class="fa-ld"/>
+  <text x="140" y="44" text-anchor="middle" class="fa-h">시작점</text><text x="140" y="61" text-anchor="middle" class="fa-sm">작용점</text>
+  <line x1="230" y1="129" x2="250" y2="66" class="fa-ld"/>
+  <text x="262" y="44" text-anchor="middle" class="fa-h">길이</text><text x="262" y="61" text-anchor="middle" class="fa-sm">힘의 크기 6 N → 3 cm</text>
+  <line x1="282" y1="129" x2="350" y2="90" class="fa-ld"/>
+  <text x="372" y="84" text-anchor="middle" class="fa-h">방향</text><text x="372" y="101" text-anchor="middle" class="fa-sm">힘의 방향(오른쪽)</text>
+  <line x1="455" y1="30" x2="455" y2="250" class="fa-ld" style="stroke-dasharray:4 4"/>
+  <text x="590" y="44" text-anchor="middle" class="fa-h">길이가 2배면 힘도 2배</text>
+  <circle cx="500" cy="100" r="4.5" class="fa-dot"/>  <line x1="500.0" y1="100.0" x2="546.0" y2="100.0" style="stroke-width:3.5;stroke-linecap:round" class="fa-blue"/><path d="M560.0 100.0 L546.0 106.3 L546.0 93.7 Z" class="fa-blueh"/>
+  <text x="572.0" y="105" class="fa-bb">3 N</text>
+  <circle cx="500" cy="150" r="4.5" class="fa-dot"/>  <line x1="500.0" y1="150.0" x2="606.0" y2="150.0" style="stroke-width:3.5;stroke-linecap:round" class="fa-red"/><path d="M620.0 150.0 L606.0 156.3 L606.0 143.7 Z" class="fa-redh"/>
+  <text x="632" y="155" class="fa-rb">6 N</text>
+  <circle cx="680" cy="200" r="4.5" class="fa-dot"/>  <line x1="680.0" y1="200.0" x2="574.0" y2="200.0" style="stroke-width:3.5;stroke-linecap:round" class="fa-red"/><path d="M560.0 200.0 L574.0 193.7 L574.0 206.3 Z" class="fa-redh"/>
+  <text x="548" y="205" text-anchor="end" class="fa-rb">6 N</text>
+  <text x="590" y="240" text-anchor="middle" class="fa-sm">크기는 같아도 방향이 다르면 다른 힘</text>
+</svg>
+</div><figcaption><b>그림 중1-5-1 힘을 화살표로 나타내기</b> 화살표의 시작점은 힘이 작용하는 점, 방향은 힘의 방향, 길이는 힘의 크기를 나타낸다. 1 cm를 2 N으로 약속하면 6 N은 3 cm, 3 N은 1.5 cm 화살표가 된다.</figcaption></figure>
+
 <aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>요령</strong> — 화살표를 그리기 전에 먼저 &#39;몇 cm = 몇 N&#39;의 약속(축척)을 정한다. 지도에서 &#39;1 cm = 1 km&#39;로 정하는 것과 같다.</p>
 </aside>
 <h4 id="예제-1">예제 1</h4>
@@ -470,6 +531,89 @@
 <td>그렇다(액체·기체에 잠겨야)</td>
 </tr>
 </tbody></table></div>
+<figure class="fig" id="fig-m1-05-four-forces"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-m1-05-four-forces d-m1-05-four-forces">
+  <title id="t-m1-05-four-forces">그림 중1-5-2 여러 가지 힘</title>
+  <desc id="d-m1-05-four-forces">중력은 지구 중심 방향으로, 탄성력은 탄성체를 변형시킨 힘의 반대 방향으로, 마찰력은 운동하는(하려는) 방향의 반대로, 부력은 중력의 반대 방향(위)으로 작용한다. 화살표 길이는 모식적이다.</desc>
+  <style>
+    .ff-red{fill:none;stroke:var(--fig-red)} .ff-redh{fill:var(--fig-red)}
+    .ff-blue{fill:none;stroke:var(--fig-blue)} .ff-blueh{fill:var(--fig-blue)}
+    .ff-green{fill:none;stroke:var(--fig-green)} .ff-greenh{fill:var(--fig-green)}
+    .ff-amber{fill:none;stroke:var(--fig-amber)} .ff-amberh{fill:var(--fig-amber)}
+    .ff-violet{fill:none;stroke:var(--fig-violet)} .ff-violeth{fill:var(--fig-violet)}
+    .ff-teal{fill:none;stroke:var(--fig-teal)} .ff-tealh{fill:var(--fig-teal)}
+    .ff-ink{fill:none;stroke:var(--fig-ink)} .ff-inkh{fill:var(--fig-ink)}
+    .ff-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .ff-t{font-size:14px;fill:var(--fig-ink)}
+    .ff-sm{font-size:13px;fill:var(--fig-muted)}
+    .ff-box{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+    .ff-floor{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.5}
+    .ff-hatch{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .ff-dot{fill:var(--fig-ink)}
+    .ff-ld{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .ff-tick{fill:none;stroke:var(--fig-muted);stroke-width:1.2}
+    .ff-rb{font-size:14px;font-weight:700;fill:var(--fig-red)}
+    .ff-bb{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+    .ff-gb{font-size:14px;font-weight:700;fill:var(--fig-green)}
+    .ff-vb{font-size:14px;font-weight:700;fill:var(--fig-violet)}
+    .ff-ab{font-size:14px;font-weight:700;fill:var(--fig-amber)}
+    .ff-pan{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2}
+    .ff-apple{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8}
+    .ff-earth{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.8}
+    .ff-spr{fill:none;stroke:var(--fig-ink);stroke-width:2;stroke-linejoin:round}
+    .ff-wall{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.5}
+    .ff-hand{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8}
+    .ff-water{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5}
+    .ff-obj{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.8}
+  </style>
+  <rect x="8" y="8" width="168" height="314" rx="8" class="ff-pan"/>
+  <text x="92.0" y="34" text-anchor="middle" class="ff-gb">중력</text>
+  <text x="92.0" y="284" text-anchor="middle" class="ff-t">지구 중심 방향(아래)</text>
+  <text x="92.0" y="304" text-anchor="middle" class="ff-sm">닿지 않아도 작용</text>
+  <rect x="184" y="8" width="168" height="314" rx="8" class="ff-pan"/>
+  <text x="268.0" y="34" text-anchor="middle" class="ff-ab">탄성력</text>
+  <text x="268.0" y="284" text-anchor="middle" class="ff-t">변형시킨 힘의 반대 방향</text>
+  <text x="268.0" y="304" text-anchor="middle" class="ff-sm">많이 늘어날수록 크다</text>
+  <rect x="360" y="8" width="168" height="314" rx="8" class="ff-pan"/>
+  <text x="444.0" y="34" text-anchor="middle" class="ff-rb">마찰력</text>
+  <text x="444.0" y="284" text-anchor="middle" class="ff-t">운동 방향의 반대</text>
+  <text x="444.0" y="304" text-anchor="middle" class="ff-sm">면이 거칠수록 크다</text>
+  <rect x="536" y="8" width="168" height="314" rx="8" class="ff-pan"/>
+  <text x="620.0" y="34" text-anchor="middle" class="ff-bb">부력</text>
+  <text x="620.0" y="284" text-anchor="middle" class="ff-t">중력의 반대 방향(위)</text>
+  <text x="620.0" y="304" text-anchor="middle" class="ff-sm">잠긴 부피가 클수록 크다</text>
+  <path d="M14 250 Q92.0 205 170 250 L170 262 L14 262 Z" class="ff-earth"/>
+  <text x="92.0" y="252" text-anchor="middle" class="ff-sm">지구</text>
+  <circle cx="92.0" cy="85" r="18" class="ff-apple"/><path d="M92.0 67 q3 -10 10 -12" class="ff-ink" style="stroke-width:2"/>
+  <line x1="92.0" y1="85.0" x2="92.0" y2="161.0" style="stroke-width:3.5;stroke-linecap:round" class="ff-green"/><path d="M92.0 175.0 L85.7 161.0 L98.3 161.0 Z" class="ff-greenh"/>
+  <circle cx="92.0" cy="85" r="4" class="ff-dot"/>
+  <rect x="196" y="90" width="14" height="110" class="ff-wall"/>
+  <polyline points="210 145 220 145 224.2 133 232.7 157 241.1 133 249.6 157 258.0 133 266.4 157 274.9 133 283.3 157 291.8 133 296 145 306 145" class="ff-spr"/>
+  <rect x="306" y="132" width="26" height="26" rx="8" class="ff-hand"/>
+  <text x="319" y="125" text-anchor="middle" class="ff-sm">손</text>
+  <line x1="332.0" y1="182.0" x2="335.0" y2="182.0" style="stroke-width:2.5;stroke-linecap:round" class="ff-ink"/><path d="M344.0 182.0 L335.0 186.1 L335.0 177.9 Z" class="ff-inkh"/>
+  <text x="334" y="203" text-anchor="middle" class="ff-sm">당김</text>
+  <line x1="306.0" y1="145.0" x2="268.0" y2="145.0" style="stroke-width:3.5;stroke-linecap:round" class="ff-amber"/><path d="M254.0 145.0 L268.0 138.7 L268.0 151.3 Z" class="ff-amberh"/>
+  <circle cx="306" cy="145" r="4" class="ff-dot"/>
+  <text x="268" y="236" text-anchor="middle" class="ff-sm">용수철이 손을 끌어당긴다</text>
+  <rect x="370" y="200" width="148" height="16" class="ff-floor"/>
+  <path d="M376 216 l10 -16 M390 216 l10 -16 M404 216 l10 -16 M418 216 l10 -16 M432 216 l10 -16 M446 216 l10 -16 M460 216 l10 -16 M474 216 l10 -16 M488 216 l10 -16 M502 216 l10 -16 " class="ff-hatch"/>
+  <rect x="410" y="140" width="70" height="60" rx="3" class="ff-box"/>
+  <line x1="420.0" y1="110.0" x2="480.0" y2="110.0" style="stroke-width:2.5;stroke-linecap:round" class="ff-ink"/><path d="M490.0 110.0 L480.0 114.5 L480.0 105.5 Z" class="ff-inkh"/>
+  <text x="455" y="100" text-anchor="middle" class="ff-sm">운동 방향</text>
+  <line x1="445.0" y1="200.0" x2="399.0" y2="200.0" style="stroke-width:3.5;stroke-linecap:round" class="ff-red"/><path d="M385.0 200.0 L399.0 193.7 L399.0 206.3 Z" class="ff-redh"/>
+  <circle cx="445" cy="200" r="4" class="ff-dot"/>
+  <text x="445" y="240" text-anchor="middle" class="ff-sm">닿은 면에서 작용</text>
+  <rect x="552" y="120" width="136" height="130" class="ff-water"/>
+  <text x="682" y="140" text-anchor="end" class="ff-sm">물</text>
+  <rect x="594.0" y="160" width="52" height="40" rx="4" class="ff-obj"/>
+  <line x1="610.0" y1="180.0" x2="610.0" y2="114.0" style="stroke-width:3.5;stroke-linecap:round" class="ff-blue"/><path d="M610.0 100.0 L616.3 114.0 L603.7 114.0 Z" class="ff-blueh"/>
+  <line x1="630.0" y1="180.0" x2="630.0" y2="228.0" style="stroke-width:3;stroke-linecap:round" class="ff-green"/><path d="M630.0 240.0 L624.6 228.0 L635.4 228.0 Z" class="ff-greenh"/>
+  <circle cx="610.0" cy="180" r="4" class="ff-dot"/><circle cx="630.0" cy="180" r="4" class="ff-dot"/>
+  <text x="604.0" y="98" text-anchor="end" class="ff-bb">부력</text>
+  <text x="638.0" y="238" class="ff-gb" style="font-size:13px">중력</text>
+</svg>
+</div><figcaption><b>그림 중1-5-2 여러 가지 힘</b> 중력은 지구 중심 방향으로, 탄성력은 탄성체를 변형시킨 힘의 반대 방향으로, 마찰력은 운동하는(하려는) 방향의 반대로, 부력은 중력의 반대 방향(위)으로 작용한다. 화살표 길이는 모식적이다.</figcaption></figure>
+
 <h3 id="⑦-알짜힘이-0이-아니면-운동-상태가-변한다-9과05-03">⑦ 알짜힘이 0이 아니면 운동 상태가 변한다 [9과05-03]</h3>
 <aside class="callout important"><p class="callout-title">핵심</p>
 <ul>
@@ -506,6 +650,8 @@
 </tbody></table></div>
 <aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>요령</strong> — 알짜힘의 방향이 운동 방향과 &#39;같으면 빨라지고, 반대면 느려지고, 나란하지 않으면 방향이 꺾인다&#39;라고 기억하자. 이 단원에서는 여러 운동을 <strong>속력 변화·방향 변화·둘 다</strong>로 분류할 수 있으면 된다. 알짜힘이 운동 방향과 이루는 각도에 따라 운동이 어떻게 달라지는지는 고등학교에서 자세히 배운다(STEP 5).</p>
 </aside>
+<figure class="sim" id="sim-force-balance" data-sim="force-balance"><noscript>이 애니메이션은 자바스크립트가 필요하다.</noscript></figure>
+
 <h4 id="예제-8">예제 8</h4>
 <p>다음 운동을 &#39;속력만 변함&#39;, &#39;방향만 변함&#39;, &#39;속력과 방향이 모두 변함&#39;으로 분류하시오.
 (1) 정지해 있다가 출발하는 버스 (2) 볼링 핀에 부딪혀 방향이 꺾이며 느려진 볼링공 (3) 일정한 빠르기로 도는 대관람차의 칸 (4) 수평으로 던져 포물선을 그리며 떨어지는 공</p>
@@ -555,6 +701,67 @@
 <td>두 힘의 크기가 같다</td>
 </tr>
 </tbody></table></div>
+<figure class="fig" id="fig-m1-05-normal-force"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-m1-05-normal-force d-m1-05-normal-force">
+  <title id="t-m1-05-normal-force">그림 중1-5-3 정지한 물체에 작용하는 힘의 평형</title>
+  <desc id="d-m1-05-normal-force">책상 위의 책에는 중력(아래)과 책상이 떠받치는 힘(위)이 같은 크기로 작용한다. 끌어도 움직이지 않는 상자에서는 세로 방향으로 중력과 떠받치는 힘이, 가로 방향으로 끄는 힘과 마찰력이 각각 평형을 이룬다.</desc>
+  <style>
+    .nf-red{fill:none;stroke:var(--fig-red)} .nf-redh{fill:var(--fig-red)}
+    .nf-blue{fill:none;stroke:var(--fig-blue)} .nf-blueh{fill:var(--fig-blue)}
+    .nf-green{fill:none;stroke:var(--fig-green)} .nf-greenh{fill:var(--fig-green)}
+    .nf-amber{fill:none;stroke:var(--fig-amber)} .nf-amberh{fill:var(--fig-amber)}
+    .nf-violet{fill:none;stroke:var(--fig-violet)} .nf-violeth{fill:var(--fig-violet)}
+    .nf-teal{fill:none;stroke:var(--fig-teal)} .nf-tealh{fill:var(--fig-teal)}
+    .nf-ink{fill:none;stroke:var(--fig-ink)} .nf-inkh{fill:var(--fig-ink)}
+    .nf-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .nf-t{font-size:14px;fill:var(--fig-ink)}
+    .nf-sm{font-size:13px;fill:var(--fig-muted)}
+    .nf-box{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+    .nf-floor{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.5}
+    .nf-hatch{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .nf-dot{fill:var(--fig-ink)}
+    .nf-ld{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .nf-tick{fill:none;stroke:var(--fig-muted);stroke-width:1.2}
+    .nf-rb{font-size:14px;font-weight:700;fill:var(--fig-red)}
+    .nf-bb{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+    .nf-gb{font-size:14px;font-weight:700;fill:var(--fig-green)}
+    .nf-vb{font-size:14px;font-weight:700;fill:var(--fig-violet)}
+    .nf-ab{font-size:14px;font-weight:700;fill:var(--fig-amber)}
+    .nf-book{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2}
+    .nf-desk{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8}
+    .nf-rope{fill:none;stroke:var(--fig-ink);stroke-width:2.2}
+  </style>
+  <text x="175" y="30" text-anchor="middle" class="nf-h">책상 위에 놓인 책</text>
+  <rect x="40" y="200" width="270" height="18" rx="2" class="nf-desk"/>
+  <rect x="60" y="218" width="16" height="70" class="nf-desk"/><rect x="274" y="218" width="16" height="70" class="nf-desk"/>
+  <rect x="115" y="170" width="120" height="30" rx="3" class="nf-book"/>
+  <line x1="175.0" y1="200.0" x2="175.0" y2="104.0" style="stroke-width:3.5;stroke-linecap:round" class="nf-blue"/><path d="M175.0 90.0 L181.3 104.0 L168.7 104.0 Z" class="nf-blueh"/>
+  <line x1="175.0" y1="185.0" x2="175.0" y2="281.0" style="stroke-width:3.5;stroke-linecap:round" class="nf-green"/><path d="M175.0 295.0 L168.7 281.0 L181.3 281.0 Z" class="nf-greenh"/>
+  <circle cx="175" cy="185" r="4" class="nf-dot"/><circle cx="175" cy="200" r="4" class="nf-dot"/>
+  <text x="185" y="100" class="nf-bb">책상이 떠받치는 힘</text>
+  <text x="185" y="290" class="nf-gb">중력(책의 무게)</text>
+  <text x="175" y="320" text-anchor="middle" class="nf-sm">크기가 같고 방향이 반대 → 알짜힘 0</text>
+  <line x1="360" y1="20" x2="360" y2="320" class="nf-ld" style="stroke-dasharray:4 4"/>
+  <text x="545" y="30" text-anchor="middle" class="nf-h">끌어도 움직이지 않는 상자</text>
+  <rect x="385" y="220" width="320" height="16" class="nf-floor"/>
+  <path d="M391 236 l10 -16 M405 236 l10 -16 M419 236 l10 -16 M433 236 l10 -16 M447 236 l10 -16 M461 236 l10 -16 M475 236 l10 -16 M489 236 l10 -16 M503 236 l10 -16 M517 236 l10 -16 M531 236 l10 -16 M545 236 l10 -16 M559 236 l10 -16 M573 236 l10 -16 M587 236 l10 -16 M601 236 l10 -16 M615 236 l10 -16 M629 236 l10 -16 M643 236 l10 -16 M657 236 l10 -16 M671 236 l10 -16 M685 236 l10 -16 " class="nf-hatch"/>
+  <rect x="440" y="140" width="130" height="80" rx="3" class="nf-box"/>
+  <line x1="570" y1="180" x2="700" y2="180" class="nf-rope"/>
+  <line x1="570.0" y1="180.0" x2="636.0" y2="180.0" style="stroke-width:3.5;stroke-linecap:round" class="nf-red"/><path d="M650.0 180.0 L636.0 186.3 L636.0 173.7 Z" class="nf-redh"/>
+  <circle cx="570" cy="180" r="4" class="nf-dot"/>
+  <text x="610" y="168" text-anchor="middle" class="nf-rb">끄는 힘 10 N</text>
+  <line x1="505.0" y1="220.0" x2="439.0" y2="220.0" style="stroke-width:3.5;stroke-linecap:round" class="nf-violet"/><path d="M425.0 220.0 L439.0 213.7 L439.0 226.3 Z" class="nf-violeth"/>
+  <circle cx="505" cy="220" r="4" class="nf-dot"/>
+  <text x="425" y="262" class="nf-vb">마찰력 10 N</text>
+  <line x1="505.0" y1="220.0" x2="505.0" y2="87.0" style="stroke-width:3;stroke-linecap:round" class="nf-blue"/><path d="M505.0 75.0 L510.4 87.0 L499.6 87.0 Z" class="nf-blueh"/>
+  <line x1="505.0" y1="180.0" x2="505.0" y2="303.0" style="stroke-width:3;stroke-linecap:round" class="nf-green"/><path d="M505.0 315.0 L499.6 303.0 L510.4 303.0 Z" class="nf-greenh"/>
+  <circle cx="505" cy="180" r="4" class="nf-dot"/>
+  <text x="515" y="84" class="nf-bb">떠받치는 힘</text>
+  <text x="515" y="300" class="nf-gb">중력</text>
+  <text x="700" y="300" text-anchor="end" class="nf-sm">가로·세로 방향에서</text>
+  <text x="700" y="318" text-anchor="end" class="nf-sm">각각 평형</text>
+</svg>
+</div><figcaption><b>그림 중1-5-3 정지한 물체에 작용하는 힘의 평형</b> 책상 위의 책에는 중력(아래)과 책상이 떠받치는 힘(위)이 같은 크기로 작용한다. 끌어도 움직이지 않는 상자에서는 세로 방향으로 중력과 떠받치는 힘이, 가로 방향으로 끄는 힘과 마찰력이 각각 평형을 이룬다.</figcaption></figure>
+
 <aside class="callout warning"><p class="callout-title">주의</p><p>무거운 상자를 10 N으로 밀었는데 움직이지 않았다면, 마찰력도 <strong>10 N</strong>이다. &quot;마찰력이 미는 힘보다 커서 안 움직인다&quot;는 틀린 말이다. 마찰력이 미는 힘보다 크다면 상자는 미는 사람 쪽으로 움직여야 한다. 정지한 물체에서 마찰력은 미는 힘과 <strong>크기가 같게</strong> 맞추어 작용한다.</p>
 </aside>
 <h4 id="예제-9">예제 9</h4>
@@ -1024,7 +1231,10 @@
 </tbody></table></div>
 <h3 id="다음-단원으로">다음 단원으로</h3>
 <p>이 단원에서는 물체를 밀고 당기는 힘의 크기와 방향을 따져 보았다. 다음 단원 「기체의 성질」에서는 같은 크기의 힘이라도 <strong>넓은 면에 작용하느냐, 좁은 면에 작용하느냐</strong>에 따라 효과가 달라진다는 <strong>압력</strong>을 배우고, 눈에 보이지 않는 기체 입자들이 벽에 부딪히며 만드는 힘으로 기체의 성질을 설명해 본다.</p>
-<nav class="pager"><a class="prev" href="m1-04.html"><small>이전 단원 · 중1</small>물질의 상태 변화</a><a class="next" href="m1-06.html"><small>다음 단원 · 중1</small>기체의 성질</a></nav></article></div>
+<section class="done-box" id="done-box" hidden>
+  <label><input type="checkbox" id="done-check"><span>이 단원 학습을 마쳤다</span></label>
+  <p>표시해 두면 목차에 ✓가 붙고, 첫 화면에서 전체 진행 상황을 볼 수 있다. 읽던 위치와 이 표시는 지금 쓰는 기기의 브라우저에만 저장된다.</p>
+</section><nav class="pager"><a class="prev" href="m1-04.html"><small>이전 단원 · 중1</small>물질의 상태 변화</a><a class="next" href="m1-06.html"><small>다음 단원 · 중1</small>기체의 성질</a></nav></article></div>
 </main>
 </div>
 </body>

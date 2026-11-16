@@ -148,7 +148,7 @@ Sims.register('energy-coaster', {
       ];
       var labW = narrow ? 0 : 170, valW = narrow ? 0 : 84;
       var rowH = r.h / rows.length;
-      var bx = r.x + 44 + labW, bw = r.x + r.w - 10 - valW - bx;
+      var bx = r.x + (narrow ? 6 : 44) + labW, bw = r.x + r.w - (narrow ? 14 : 10) - valW - bx;
       rows.forEach(function (row, i) {
         var y = r.y + i * rowH, barY, barH = Math.min(18, rowH * 0.36);
         var total = row.parts.reduce(function (s, p) { return s + p[0]; }, 0);
@@ -157,7 +157,7 @@ Sims.register('energy-coaster', {
           ctx.fillStyle = T.figInk; ctx.font = '600 12px ' + T.fontBody; ctx.fillText(row.name, bx, y + 14);
           var nw = ctx.measureText(row.name).width;
           ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.fillText(row.f, bx + nw + 6, y + 14);
-          ctx.textAlign = 'right'; ctx.fillStyle = T.figInk; ctx.font = '12px ' + T.fontMono; ctx.fillText(fmtJ(total), r.x + r.w - 10, y + 14);
+          ctx.textAlign = 'right'; ctx.fillStyle = T.figInk; ctx.font = '12px ' + T.fontMono; ctx.fillText(fmtJ(total), bx + bw - 6, y + 14);
           barY = y + 20;
         } else {
           barY = y + (rowH - barH) / 2;

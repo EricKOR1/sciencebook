@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-m1-03-bimetal d-m1-03-bimetal">
+<title id="t-m1-03-bimetal">그림 중1-3-2 가열한 바이메탈이 휘는 방향</title>
+<desc id="d-m1-03-bimetal">알루미늄(열팽창이 큼)과 철(열팽창이 작음)을 붙인 바이메탈을 가열하면, 더 많이 늘어난 알루미늄이 바깥쪽이 되어 철 쪽으로 휜다. 휘는 정도는 과장한 모식도이다.</desc>
+<style>
+  .m103b-al{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8} .m103b-fe{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8}
+  .m103b-clamp{fill:var(--fig-line);stroke:var(--fig-ink);stroke-width:1.5}
+  .m103b-ttl{font-size:16px;font-weight:700;fill:var(--fig-ink)} .m103b-ink{font-size:14px;fill:var(--fig-ink)} .m103b-sm{font-size:13px;fill:var(--fig-muted)}
+  .m103b-lb{font-size:14px;font-weight:700;fill:var(--fig-blue)} .m103b-lr{font-size:14px;font-weight:700;fill:var(--fig-red)}
+  .m103b-ghost{fill:none;stroke:var(--fig-line);stroke-width:1.5;stroke-dasharray:5 4}
+  .m103b-arr{fill:none;stroke:var(--fig-ink);stroke-width:2.2} .m103b-arrh{fill:var(--fig-ink)}
+  .m103b-bend{fill:none;stroke:var(--fig-amber);stroke-width:2.4} .m103b-bendh{fill:var(--fig-amber)}
+  .m103b-fl{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8} .m103b-fl2{fill:var(--fig-amber)}
+  .m103b-div{fill:none;stroke:var(--fig-line);stroke-width:1;stroke-dasharray:5 5}
+</style>
+<text x="40" y="36" class="m103b-ttl">가열 전</text>
+<rect x="28" y="90" width="22" height="60" class="m103b-clamp"/>
+<rect x="50" y="108" width="240" height="12" class="m103b-al"/><rect x="50" y="120" width="240" height="12" class="m103b-fe"/>
+<text x="60" y="98" class="m103b-lb">알루미늄</text><text x="132" y="98" class="m103b-sm">열팽창이 크다</text>
+<text x="60" y="154" class="m103b-lr">철</text><text x="82" y="154" class="m103b-sm">열팽창이 작다</text>
+<text x="40" y="200" class="m103b-ink">두 금속의 길이가 같아</text><text x="40" y="220" class="m103b-ink">곧게 펴져 있다.</text>
+<line x1="330" y1="20" x2="330" y2="250" class="m103b-div"/>
+<path d="M306 64 L354 64" class="m103b-arr"/><path d="M354 64 L344.0 69.0 L344.0 59.0 Z" class="m103b-arrh"/>
+<text x="330" y="52" text-anchor="middle" class="m103b-sm">가열</text>
+<text x="372" y="36" class="m103b-ttl">가열 후</text>
+<rect x="378" y="90" width="22" height="60" class="m103b-clamp"/>
+<line x1="400" y1="120" x2="650" y2="120" class="m103b-ghost"/>
+<path d="M400.0 108.0 L406.6 108.1 L413.3 108.4 L419.9 109.0 L426.5 109.7 L433.1 110.7 L439.6 111.9 L446.1 113.3 L452.5 115.0 L458.9 116.8 L465.3 118.8 L471.5 121.1 L477.7 123.5 L483.8 126.2 L489.8 129.0 L495.7 132.1 L501.5 135.3 L507.2 138.8 L512.7 142.4 L518.2 146.2 L523.5 150.2 L528.7 154.3 L533.8 158.6 L538.7 163.1 L543.4 167.7 L548.0 172.5 L552.5 177.5 L556.7 182.6 L560.8 187.8 L564.8 193.1 L568.5 198.6 L572.1 204.2 L575.5 210.0 L578.7 215.8 L581.7 221.7 L584.5 227.7 L587.1 233.8 L589.5 240.0 L591.7 246.3 L593.7 252.6 L595.5 259.0 L583.9 262.1 L582.2 256.1 L580.3 250.1 L578.2 244.2 L576.0 238.4 L573.5 232.6 L570.9 227.0 L568.1 221.4 L565.1 215.9 L561.9 210.5 L558.5 205.2 L555.0 200.1 L551.3 195.1 L547.4 190.1 L543.4 185.4 L539.2 180.7 L534.9 176.2 L530.4 171.8 L525.8 167.6 L521.1 163.6 L516.2 159.7 L511.2 155.9 L506.0 152.3 L500.8 148.9 L495.4 145.7 L490.0 142.7 L484.4 139.8 L478.8 137.1 L473.1 134.6 L467.3 132.3 L461.4 130.2 L455.4 128.3 L449.4 126.5 L443.4 125.0 L437.3 123.7 L431.1 122.6 L424.9 121.6 L418.7 120.9 L412.5 120.4 L406.2 120.1 L400.0 120.0 Z" class="m103b-al"/>
+<path d="M400.0 120.0 L406.2 120.1 L412.5 120.4 L418.7 120.9 L424.9 121.6 L431.1 122.6 L437.3 123.7 L443.4 125.0 L449.4 126.5 L455.4 128.3 L461.4 130.2 L467.3 132.3 L473.1 134.6 L478.8 137.1 L484.4 139.8 L490.0 142.7 L495.4 145.7 L500.8 148.9 L506.0 152.3 L511.2 155.9 L516.2 159.7 L521.1 163.6 L525.8 167.6 L530.4 171.8 L534.9 176.2 L539.2 180.7 L543.4 185.4 L547.4 190.1 L551.3 195.1 L555.0 200.1 L558.5 205.2 L561.9 210.5 L565.1 215.9 L568.1 221.4 L570.9 227.0 L573.5 232.6 L576.0 238.4 L578.2 244.2 L580.3 250.1 L582.2 256.1 L583.9 262.1 L572.2 265.1 L570.7 259.5 L568.9 253.9 L567.0 248.3 L564.9 242.9 L562.6 237.5 L560.1 232.2 L557.4 227.0 L554.6 221.8 L551.7 216.8 L548.5 211.9 L545.2 207.0 L541.7 202.3 L538.1 197.7 L534.3 193.2 L530.4 188.9 L526.4 184.6 L522.2 180.6 L517.9 176.6 L513.4 172.8 L508.8 169.2 L504.1 165.6 L499.3 162.3 L494.4 159.1 L489.4 156.1 L484.3 153.2 L479.1 150.5 L473.8 148.0 L468.5 145.7 L463.0 143.5 L457.5 141.5 L451.9 139.7 L446.3 138.1 L440.6 136.7 L434.9 135.5 L429.1 134.4 L423.4 133.5 L417.5 132.9 L411.7 132.4 L405.9 132.1 L400.0 132.0 Z" class="m103b-fe"/>
+<text x="420" y="100" class="m103b-lb">알루미늄</text><text x="490" y="100" class="m103b-sm">더 많이 늘어나 바깥쪽</text>
+<text x="481.1" y="190.6" text-anchor="end" class="m103b-lr">철 — 안쪽</text>
+<path d="M612 150 L620 190 L610 230" class="m103b-bend"/><path d="M610 230 L607.6 219.1 L617.3 221.5 Z" class="m103b-bendh"/>
+<text x="628" y="186" class="m103b-sm" style="fill:var(--fig-amber);font-weight:700">철 쪽으로</text>
+<text x="628" y="204" class="m103b-sm" style="fill:var(--fig-amber);font-weight:700">휜다</text>
+<path d="M470 262.8 C481.2 275.6 480.4 286.8 470 290 C459.6 286.8 458.8 275.6 470 262.8 Z" class="m103b-fl"/><path d="M470 275.6 C474.8 282.0 474.8 287.6 470 289.2 C465.2 287.6 465.2 282.0 470 275.6 Z" class="m103b-fl2"/>
+<path d="M520 272.8 C531.2 285.6 530.4 296.8 520 300 C509.6 296.8 508.8 285.6 520 272.8 Z" class="m103b-fl"/><path d="M520 285.6 C524.8 292.0 524.8 297.6 520 299.2 C515.2 297.6 515.2 292.0 520 285.6 Z" class="m103b-fl2"/>
+<text x="360" y="282" class="m103b-sm"></text>
+<text x="40" y="290" class="m103b-ink">식으면 원래대로 곧게 돌아온다.</text>
+<text x="40" y="312" class="m103b-sm">이 성질로 전기 주전자·다리미의 온도 조절 장치를 만든다.</text>
+<text x="700" y="322" text-anchor="end" class="m103b-sm">휘는 정도는 과장한 모식도</text>
+</svg>

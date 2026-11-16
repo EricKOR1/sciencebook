@@ -69,7 +69,7 @@ Sims.register('motion-graphs', {
       rT.set(num(t, 1) + ' s');
       rV.set(num(m.v(t), 1) + ' m/s');
       rD.set(num(m.d(t), 1) + ' m');
-      rC.set(m.change);
+      rC.set(state.mode === 'slowdown' && t >= 5 ? '0 m/s (멈춤)' : m.change);
       rW.set(state.mode === 'freefall' ? '1 kg: 9.8 N · ' + num(state.mass) + ' kg: ' + num(9.8 * state.mass, 1) + ' N' : '—');
     }
 
@@ -129,9 +129,10 @@ Sims.register('motion-graphs', {
       // 현재 위치(애니메이션 중)
       var xc = sx(m.d(state.t));
       ball(xc, y, 7, T.figBlue, T.figBlue, 1);
-      ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right';
+      var nar = cv.w < 560;
+      ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = nar ? 'left' : 'right';
       var gapNote = { uniform: '간격이 모두 같다 → 속력 일정', speedup: '간격이 점점 넓어진다 → 빨라진다', slowdown: '간격이 점점 좁아진다 → 느려진다' }[state.mode];
-      ctx.fillText(gapNote, right + 8, r.y + 16);
+      ctx.fillText(gapNote, nar ? left - 8 : right + 8, nar ? r.y + 33 : r.y + 16);
     }
 
     function drawFall(T, r) {

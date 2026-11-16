@@ -124,10 +124,7 @@ Sims.register('reflex-arc', {
       ctx.beginPath(); ctx.moveTo(X([0.33, 0.24]), Y([0.33, 0.24])); ctx.lineTo(X([0.5, 0.22]), Y([0.5, 0.22]));
       ctx.lineTo(X([0.5, 0.62]), Y([0.5, 0.62])); ctx.lineTo(X([0.335, 0.62]), Y([0.335, 0.62])); ctx.closePath();
       ctx.fillStyle = T.figPanel; ctx.fill(); ctx.strokeStyle = T.figLine; ctx.lineWidth = 1.5; ctx.stroke();
-      var handP = P.hand;
-      var withdrawn = state.mode === 'reflex' && curStep() >= 6;
-      if (withdrawn) handP = [0.72, 0.29];
-      limb([P.shoulder, P.elbow, handP], s * 0.05);
+      limb([P.shoulder, P.elbow, P.hand], s * 0.05);
       ctx.beginPath(); ctx.arc(X([0.4, 0.115]), Y([0.4, 0.115]), s * 0.085, 0, Math.PI * 2);
       ctx.fillStyle = T.figPanel; ctx.fill(); ctx.strokeStyle = T.figLine; ctx.lineWidth = 1.5; ctx.stroke();
       // 뇌와 척수(중추 신경계)
@@ -159,7 +156,7 @@ Sims.register('reflex-arc', {
       // 반응 기관 이름표
       ctx.fillStyle = T.figMuted; ctx.textAlign = 'left';
       if (state.mode === 'conscious') ctx.fillText('다리 근육', X([0.52, 0]), Y([0, 0.72]));
-      else ctx.fillText('팔 근육', X([0.5, 0]), Y([0, 0.23]));
+      else ctx.fillText('팔 근육', X([0.49, 0]), Y([0, 0.235]));
 
       // 경로(희미하게 전체) + 지나간 부분(진하게)
       var COLORS = { sense: T.figBlue, center: T.figViolet, motor: T.figRed, light: T.figGreen, heat: T.figAmber };
@@ -195,7 +192,7 @@ Sims.register('reflex-arc', {
       if (curStep() >= 6) {
         ctx.fillStyle = T.figRed; ctx.font = '600 13px ' + T.fontBody; ctx.textAlign = 'left';
         if (state.mode === 'conscious') ctx.fillText('→ 건넌다!', X([0.56, 0]), Y([0, 0.95]));
-        else ctx.fillText('↑ 손을 뗀다!', X([0.66, 0]), Y([0, 0.22]));
+        else ctx.fillText('↑ 손을 뗀다!', X([0.7, 0]), Y([0, 0.31]));
       }
 
       function path(pts, col, lw, alpha, dash) {
@@ -256,7 +253,7 @@ Sims.register('reflex-arc', {
         var cur = row[0] === state.mode ? Math.min(state.tau, mm.total) : mm.total;
         ctx.fillStyle = row[2]; ctx.fillRect(L, yy, sx(cur) - L, 14);
         ctx.fillStyle = T.figInk; ctx.font = '11px ' + T.fontMono; ctx.textAlign = 'left';
-        ctx.fillText('약 ' + mm.total + ' s', sx(mm.total) + 4, yy + 11);
+        ctx.fillText('약 ' + mm.total + ' s', (mm.feel ? sx(mm.feel) + 6 : sx(mm.total) + 4), yy + 11);
         if (mm.feel) {
           ctx.strokeStyle = T.figBlue; ctx.setLineDash([3, 3]); ctx.lineWidth = 1.2;
           ctx.beginPath(); ctx.moveTo(sx(mm.feel), yy - 2); ctx.lineTo(sx(mm.feel), yy + 16); ctx.stroke(); ctx.setLineDash([]);

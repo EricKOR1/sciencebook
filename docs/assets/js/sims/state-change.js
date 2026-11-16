@@ -45,7 +45,7 @@ Sims.register('state-change', {
     var rW = api.readout('열이 하는 일');
 
     var g = api.group();
-    var bHeat = api.button('열 가하기', function () { setDir(1); }, { toggle: true, parent: g, primary: true });
+    var bHeat = api.button('열 가하기', function () { setDir(1); }, { toggle: true, parent: g });
     var bStop = api.button('멈추기', function () { setDir(0); }, { toggle: true, pressed: true, parent: g });
     var bCool = api.button('열 빼앗기', function () { setDir(-1); }, { toggle: true, parent: g });
     api.button('처음으로 (−20 °C 얼음)', function () {

@@ -75,7 +75,9 @@ Sims.register('projectile-angle', {
       // 축 범위: 지금과 남은 궤적 중 가장 큰 속력으로 정한다(가로·세로 같은 축척)
       var vmax = state.v0;
       state.ghosts.forEach(function (g) { vmax = Math.max(vmax, g.v0); });
-      var xmax = vmax * vmax / G * 1.06, ymax = vmax * vmax / (2 * G) * 1.04;
+      var hmax = info(state.v0, state.th).H;
+      state.ghosts.forEach(function (g) { hmax = Math.max(hmax, info(g.v0, g.th).H); });
+      var xmax = vmax * vmax / G * 1.06, ymax = Math.max(hmax * 1.18, xmax * 0.18);
       var s = Math.min((R - L) / xmax, (B - Tp) / ymax);
       var X = function (x) { return L + x * s; }, Y = function (y) { return B - y * s; };
       var xEnd = (R - L) / s, yEnd = (B - Tp) / s;
@@ -132,7 +134,7 @@ Sims.register('projectile-angle', {
       var t = state.phase === 'rest' ? 0 : state.t;
       var px = X(I.vx * t), py = Y(I.vy * t - 0.5 * G * t * t);
       var vy = I.vy - G * t;
-      var k = Math.min(w * (narrow ? 0.2 : 0.14), (B - Tp) * 0.55) / 30;   // 30 m/s를 이 길이로
+      var k = Math.min(w * (narrow ? 0.22 : 0.18), (B - Tp) * 0.6) / 30;   // 30 m/s를 이 길이로
       arrow(px, py, px + I.vx * k, py, T.figBlue, 2.6);
       arrow(px, py, px, py - vy * k, T.figRed, 2.6);
       ctx.globalAlpha = 0.55; arrow(px, py, px + I.vx * k, py - vy * k, T.figInk, 1.6); ctx.globalAlpha = 1;
@@ -158,7 +160,8 @@ Sims.register('projectile-angle', {
     function path(I, tEnd, color, lw, dash) {
       var w = cv.w, narrow = w < 560, L = narrow ? 40 : 52, R = w - 14, Tp = 34, B = cv.h - 40;
       var vmax = state.v0; state.ghosts.forEach(function (g) { vmax = Math.max(vmax, g.v0); });
-      var s = Math.min((R - L) / (vmax * vmax / G * 1.06), (B - Tp) / (vmax * vmax / (2 * G) * 1.04));
+      var hmax = info(state.v0, state.th).H; state.ghosts.forEach(function (g) { hmax = Math.max(hmax, info(g.v0, g.th).H); });
+      var xm = vmax * vmax / G * 1.06, s = Math.min((R - L) / xm, (B - Tp) / Math.max(hmax * 1.18, xm * 0.18));
       ctx.save(); if (dash) ctx.setLineDash(dash);
       ctx.strokeStyle = color; ctx.lineWidth = lw; ctx.lineCap = 'round';
       ctx.beginPath();

@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t-m2-04-ion d-m2-04-ion">
+  <title id="t-m2-04-ion">그림 중2-4-2 이온이 만들어지는 과정</title>
+  <desc id="d-m2-04-ion">나트륨 원자(양성자 11, 전자 11)가 전자 1개를 잃으면 나트륨 이온 Na⁺(양성자 11, 전자 10)이 되고, 염소 원자(양성자 17, 전자 17)가 전자 1개를 얻으면 염화 이온 Cl⁻(양성자 17, 전자 18)이 된다. 원자핵의 양성자 수는 변하지 않는다. 전자의 위치는 모식적으로 나타냈다.</desc>
+  <style>
+    .m2-04-ion-t{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .m2-04-ion-k{font-size:14px;fill:var(--fig-ink)}
+    .m2-04-ion-s{font-size:13px;fill:var(--fig-muted)}
+    .m2-04-ion-cloud{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2;stroke-dasharray:5 4}
+    .m2-04-ion-nuc{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2}
+    .m2-04-ion-e{fill:var(--fig-blue)}
+    .m2-04-ion-hot{fill:var(--fig-amber);stroke:var(--fig-ink);stroke-width:1}
+    .m2-04-ion-pt{font-size:14px;font-weight:700;fill:var(--fig-red)}
+  </style>
+<text x="20" y="32" class="m2-04-ion-t">양이온: 원자가 전자를 잃는다</text>
+<circle cx="130" cy="120" r="62" class="m2-04-ion-cloud"/>
+<circle cx="130" cy="120" r="17" class="m2-04-ion-nuc"/>
+<text x="130" y="125" text-anchor="middle" class="m2-04-ion-pt">+11</text>
+<circle cx="158.7" cy="128.9" r="4.5" class="m2-04-ion-e"/>
+<circle cx="151.9" cy="155.8" r="4.5" class="m2-04-ion-e"/>
+<circle cx="136.7" cy="171.6" r="4.5" class="m2-04-ion-e"/>
+<circle cx="117.1" cy="147.1" r="4.5" class="m2-04-ion-e"/>
+<circle cx="91.4" cy="136.6" r="4.5" class="m2-04-ion-e"/>
+<circle cx="78.0" cy="119.3" r="4.5" class="m2-04-ion-e"/>
+<circle cx="105.0" cy="103.4" r="4.5" class="m2-04-ion-e"/>
+<circle cx="119.0" cy="79.5" r="4.5" class="m2-04-ion-e"/>
+<circle cx="138.1" cy="68.6" r="4.5" class="m2-04-ion-e"/>
+<circle cx="150.0" cy="97.6" r="4.5" class="m2-04-ion-e"/>
+<circle cx="171.7" cy="114.9" r="4.5" class="m2-04-ion-e"/>
+<text x="130" y="206" text-anchor="middle" class="m2-04-ion-k">나트륨 원자 Na</text>
+<text x="130" y="224" text-anchor="middle" class="m2-04-ion-s">양성자 11 · 전자 11 → 전하 0</text>
+<line x1="215" y1="120" x2="455" y2="120" style="stroke:var(--fig-ink);stroke-width:2"/>
+<path d="M469.4 120.0 L456.6 125.7 L456.6 114.3 Z" style="fill:var(--fig-ink)"/>
+<circle cx="330" cy="86" r="6" class="m2-04-ion-hot"/>
+<path d="M300 106 Q318 86 324 86" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
+<text x="345" y="90" class="m2-04-ion-s">전자 1개를 잃음</text>
+<circle cx="560" cy="120" r="62" class="m2-04-ion-cloud"/>
+<circle cx="560" cy="120" r="17" class="m2-04-ion-nuc"/>
+<text x="560" y="125" text-anchor="middle" class="m2-04-ion-pt">+11</text>
+<circle cx="588.7" cy="128.9" r="4.5" class="m2-04-ion-e"/>
+<circle cx="579.9" cy="157.0" r="4.5" class="m2-04-ion-e"/>
+<circle cx="560.7" cy="172.0" r="4.5" class="m2-04-ion-e"/>
+<circle cx="542.7" cy="144.5" r="4.5" class="m2-04-ion-e"/>
+<circle cx="518.7" cy="127.4" r="4.5" class="m2-04-ion-e"/>
+<circle cx="510.3" cy="104.6" r="4.5" class="m2-04-ion-e"/>
+<circle cx="542.0" cy="96.0" r="4.5" class="m2-04-ion-e"/>
+<circle cx="565.7" cy="78.4" r="4.5" class="m2-04-ion-e"/>
+<circle cx="590.0" cy="77.5" r="4.5" class="m2-04-ion-e"/>
+<circle cx="588.4" cy="110.3" r="4.5" class="m2-04-ion-e"/>
+<text x="560" y="206" text-anchor="middle" class="m2-04-ion-k">나트륨 이온 Na⁺</text>
+<text x="560" y="224" text-anchor="middle" class="m2-04-ion-s">양성자 11 · 전자 10 → (+)1</text>
+<text x="20" y="218" class="m2-04-ion-t">음이온: 원자가 전자를 얻는다</text>
+<circle cx="130" cy="300" r="62" class="m2-04-ion-cloud"/>
+<circle cx="130" cy="300" r="17" class="m2-04-ion-nuc"/>
+<text x="130" y="305" text-anchor="middle" class="m2-04-ion-pt">+17</text>
+<circle cx="158.7" cy="308.9" r="4.5" class="m2-04-ion-e"/>
+<circle cx="158.7" cy="330.7" r="4.5" class="m2-04-ion-e"/>
+<circle cx="156.4" cy="344.8" r="4.5" class="m2-04-ion-e"/>
+<circle cx="134.8" cy="329.6" r="4.5" class="m2-04-ion-e"/>
+<circle cx="115.3" cy="339.3" r="4.5" class="m2-04-ion-e"/>
+<circle cx="101.6" cy="343.6" r="4.5" class="m2-04-ion-e"/>
+<circle cx="105.7" cy="317.5" r="4.5" class="m2-04-ion-e"/>
+<circle cx="88.2" cy="304.4" r="4.5" class="m2-04-ion-e"/>
+<circle cx="78.3" cy="294.0" r="4.5" class="m2-04-ion-e"/>
+<circle cx="103.5" cy="286.0" r="4.5" class="m2-04-ion-e"/>
+<circle cx="107.5" cy="264.6" r="4.5" class="m2-04-ion-e"/>
+<circle cx="112.3" cy="251.1" r="4.5" class="m2-04-ion-e"/>
+<circle cx="130.7" cy="270.0" r="4.5" class="m2-04-ion-e"/>
+<circle cx="151.7" cy="264.0" r="4.5" class="m2-04-ion-e"/>
+<circle cx="165.9" cy="262.4" r="4.5" class="m2-04-ion-e"/>
+<circle cx="157.2" cy="287.2" r="4.5" class="m2-04-ion-e"/>
+<circle cx="171.9" cy="303.4" r="4.5" class="m2-04-ion-e"/>
+<text x="130" y="386" text-anchor="middle" class="m2-04-ion-k">염소 원자 Cl</text>
+<text x="130" y="404" text-anchor="middle" class="m2-04-ion-s">양성자 17 · 전자 17 → 전하 0</text>
+<line x1="215" y1="300" x2="455" y2="300" style="stroke:var(--fig-ink);stroke-width:2"/>
+<path d="M469.4 300.0 L456.6 305.7 L456.6 294.3 Z" style="fill:var(--fig-ink)"/>
+<circle cx="300" cy="266" r="6" class="m2-04-ion-hot"/>
+<path d="M306 266 Q330 266 340 286" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
+<text x="350" y="270" class="m2-04-ion-s">전자 1개를 얻음</text>
+<circle cx="560" cy="300" r="62" class="m2-04-ion-cloud"/>
+<circle cx="560" cy="300" r="17" class="m2-04-ion-nuc"/>
+<text x="560" y="305" text-anchor="middle" class="m2-04-ion-pt">+17</text>
+<circle cx="588.7" cy="308.9" r="4.5" class="m2-04-ion-e"/>
+<circle cx="589.3" cy="330.1" r="4.5" class="m2-04-ion-e"/>
+<circle cx="588.2" cy="343.7" r="4.5" class="m2-04-ion-e"/>
+<circle cx="566.7" cy="329.3" r="4.5" class="m2-04-ion-e"/>
+<circle cx="548.6" cy="340.4" r="4.5" class="m2-04-ion-e"/>
+<circle cx="536.2" cy="346.3" r="4.5" class="m2-04-ion-e"/>
+<circle cx="538.0" cy="320.4" r="4.5" class="m2-04-ion-e"/>
+<circle cx="519.3" cy="310.3" r="4.5" class="m2-04-ion-e"/>
+<circle cx="508.1" cy="302.6" r="4.5" class="m2-04-ion-e"/>
+<circle cx="531.3" cy="291.1" r="4.5" class="m2-04-ion-e"/>
+<circle cx="530.7" cy="269.9" r="4.5" class="m2-04-ion-e"/>
+<circle cx="531.8" cy="256.3" r="4.5" class="m2-04-ion-e"/>
+<circle cx="553.3" cy="270.7" r="4.5" class="m2-04-ion-e"/>
+<circle cx="571.4" cy="259.6" r="4.5" class="m2-04-ion-e"/>
+<circle cx="583.8" cy="253.7" r="4.5" class="m2-04-ion-e"/>
+<circle cx="582.0" cy="279.6" r="4.5" class="m2-04-ion-e"/>
+<circle cx="600.7" cy="289.7" r="4.5" class="m2-04-ion-e"/>
+<circle cx="611.9" cy="297.4" r="4.5" class="m2-04-ion-hot"/>
+<text x="560" y="386" text-anchor="middle" class="m2-04-ion-k">염화 이온 Cl⁻</text>
+<text x="560" y="404" text-anchor="middle" class="m2-04-ion-s">양성자 17 · 전자 18 → (−)1</text>
+<text x="335" y="330" text-anchor="middle" class="m2-04-ion-s">양성자 수(원자핵)는 그대로</text>
+<text x="335" y="150" text-anchor="middle" class="m2-04-ion-s">양성자 수(원자핵)는 그대로</text>
+</svg>

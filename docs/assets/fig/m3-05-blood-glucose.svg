@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-m3-05-blood-glucose d-m3-05-blood-glucose">
+  <title id="t-m3-05-blood-glucose">그림 중3-5-3 인슐린과 글루카곤에 의한 혈당량 조절</title>
+  <desc id="d-m3-05-blood-glucose">식사 후 혈당량이 높아지면 이자에서 인슐린이 분비되어 간이 포도당을 글리코젠으로 저장하고 세포가 포도당을 흡수해 혈당량이 낮아진다. 굶거나 운동하여 혈당량이 낮아지면 이자에서 글루카곤이 분비되어 간이 글리코젠을 포도당으로 바꾸어 내보내 혈당량이 높아진다.</desc>
+  <style>
+    .m3-05-blood-glucose-l{font-size:14px;fill:var(--fig-ink);font-weight:600} .m3-05-blood-glucose-s{font-size:13px;fill:var(--fig-ink)} .m3-05-blood-glucose-m{font-size:13px;fill:var(--fig-muted)}
+    .m3-05-blood-glucose-ar{stroke:var(--fig-ink);stroke-width:2;fill:none}
+  </style>
+  <defs><marker id="m3-05-blood-glucose-h" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" style="fill:var(--fig-ink)"/></marker></defs>
+  <rect x="270" y="152" width="180" height="56" rx="8" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+  <text x="360.0" y="176" text-anchor="middle" class="m3-05-blood-glucose-l">혈당량</text>
+  <text x="360.0" y="194" text-anchor="middle" class="m3-05-blood-glucose-s">알맞은 범위</text>
+  <rect x="20" y="40" width="170" height="56" rx="8" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <text x="105.0" y="64" text-anchor="middle" class="m3-05-blood-glucose-l">혈당량 높아짐</text>
+  <text x="105.0" y="82" text-anchor="middle" class="m3-05-blood-glucose-s">식사 후</text>
+  <rect x="270" y="40" width="180" height="56" rx="8" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <text x="360.0" y="64" text-anchor="middle" class="m3-05-blood-glucose-l">이자</text>
+  <text x="360.0" y="82" text-anchor="middle" class="m3-05-blood-glucose-s">인슐린 분비</text>
+  <rect x="510" y="30" width="190" height="76" rx="8" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="605.0" y="55" text-anchor="middle" class="m3-05-blood-glucose-l">간·몸의 세포</text>
+  <text x="605.0" y="73" text-anchor="middle" class="m3-05-blood-glucose-s">간: 포도당 → 글리코젠</text>
+  <text x="605.0" y="91" text-anchor="middle" class="m3-05-blood-glucose-s">세포: 포도당 흡수</text>
+  <rect x="20" y="264" width="170" height="56" rx="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <text x="105.0" y="288" text-anchor="middle" class="m3-05-blood-glucose-l">혈당량 낮아짐</text>
+  <text x="105.0" y="306" text-anchor="middle" class="m3-05-blood-glucose-s">오래 굶거나 운동한 뒤</text>
+  <rect x="270" y="264" width="180" height="56" rx="8" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <text x="360.0" y="288" text-anchor="middle" class="m3-05-blood-glucose-l">이자</text>
+  <text x="360.0" y="306" text-anchor="middle" class="m3-05-blood-glucose-s">글루카곤 분비</text>
+  <rect x="510" y="254" width="190" height="76" rx="8" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="605.0" y="279" text-anchor="middle" class="m3-05-blood-glucose-l">간</text>
+  <text x="605.0" y="297" text-anchor="middle" class="m3-05-blood-glucose-s">글리코젠 → 포도당</text>
+  <text x="605.0" y="315" text-anchor="middle" class="m3-05-blood-glucose-s">포도당을 혈액으로</text>
+  <path d="M190 68 L266 68" class="m3-05-blood-glucose-ar" marker-end="url(#m3-05-blood-glucose-h)"/>
+  <path d="M450 68 L506 68" class="m3-05-blood-glucose-ar" marker-end="url(#m3-05-blood-glucose-h)"/>
+  <path d="M190 292 L266 292" class="m3-05-blood-glucose-ar" marker-end="url(#m3-05-blood-glucose-h)"/>
+  <path d="M450 292 L506 292" class="m3-05-blood-glucose-ar" marker-end="url(#m3-05-blood-glucose-h)"/>
+  <path d="M270 172 L105 172 L105 100" class="m3-05-blood-glucose-ar" marker-end="url(#m3-05-blood-glucose-h)"/>
+  <text x="150" y="166" text-anchor="middle" class="m3-05-blood-glucose-m">식사</text>
+  <path d="M270 190 L105 190 L105 260" class="m3-05-blood-glucose-ar" marker-end="url(#m3-05-blood-glucose-h)"/>
+  <text x="150" y="206" text-anchor="middle" class="m3-05-blood-glucose-m">굶음·운동</text>
+  <path d="M605 106 L605 168 L454 168" class="m3-05-blood-glucose-ar" marker-end="url(#m3-05-blood-glucose-h)"/>
+  <text x="530" y="160" text-anchor="middle" class="m3-05-blood-glucose-m">혈당량 낮아짐</text>
+  <path d="M605 254 L605 192 L454 192" class="m3-05-blood-glucose-ar" marker-end="url(#m3-05-blood-glucose-h)"/>
+  <text x="530" y="210" text-anchor="middle" class="m3-05-blood-glucose-m">혈당량 높아짐</text>
+  <text x="360" y="350" text-anchor="middle" class="m3-05-blood-glucose-m">인슐린과 글루카곤이 서로 반대로 작용하여 혈당량이 알맞은 범위를 벗어나지 않게 한다 (간 = 포도당 저금통)</text>
+</svg>

@@ -59,12 +59,12 @@ Sims.register('cell-division', {
         CHR.forEach(function (c) { dup(ch, c.id, 0.5, ys[c.id], 0); });
         cells = [one(0.36, 0), one(0.36, 0)];
       } else if (s === 3) {
-        var ys3 = { Am: 0.33, Bm: 0.45, Ap: 0.58, Bp: 0.69 };
+        var ys3 = { Am: 0.26, Bm: 0.41, Ap: 0.56, Bp: 0.72 };
         CHR.forEach(function (c) {
-          ch[c.id + '0'] = { x: 0.24, y: ys3[c.id], a: 0, al: 1 };
-          ch[c.id + '1'] = { x: 0.76, y: ys3[c.id], a: 0, al: 1 };
+          ch[c.id + '0'] = { x: 0.26, y: ys3[c.id], a: 0, al: 1 };
+          ch[c.id + '1'] = { x: 0.74, y: ys3[c.id], a: 0, al: 1 };
         });
-        cells = [{ x: 0.5, y: 0.5, rx: 0.45, ry: 0.3, nuc: 0 }, { x: 0.5, y: 0.5, rx: 0.45, ry: 0.3, nuc: 0 }];
+        cells = [{ x: 0.5, y: 0.5, rx: 0.45, ry: 0.36, nuc: 0 }, { x: 0.5, y: 0.5, rx: 0.45, ry: 0.36, nuc: 0 }];
       } else {
         var dx = { Am: -0.09, Ap: -0.03, Bm: 0.04, Bp: 0.10 };
         CHR.forEach(function (c) {
@@ -94,18 +94,18 @@ Sims.register('cell-division', {
           var y = c.len === LONG ? 0.42 : 0.6;
           dup(ch, c.id, side[c.id] === 0 ? 0.24 : 0.76, y, 0);
         });
-        var e = { x: 0.5, y: 0.5, rx: 0.45, ry: 0.3, nuc: 0 };
+        var e = { x: 0.5, y: 0.5, rx: 0.45, ry: 0.36, nuc: 0 };
         cells = [e, e, e, e];
       } else if (s === 4) {
         CHR.forEach(function (c) { dup(ch, c.id, cx[side[c.id]] + (c.len === LONG ? -0.05 : 0.06), 0.5, 0); });
         cells = [0, 0, 1, 1].map(function (k) { return { x: cx[k], y: 0.5, rx: 0.22, ry: 0.22, nuc: 1 }; });
       } else if (s === 5) {
-        CHR.forEach(function (c) { dup(ch, c.id, cx[side[c.id]] + (c.len === LONG ? -0.07 : 0.07), 0.5, Math.PI / 2); });
+        CHR.forEach(function (c) { dup(ch, c.id, cx[side[c.id]] + (c.len === LONG ? -0.08 : 0.085), 0.5, Math.PI / 2); });
         cells = [0, 0, 1, 1].map(function (k) { return { x: cx[k], y: 0.5, rx: 0.22, ry: 0.22, nuc: 0 }; });
       } else {
         var sep = s === 6 ? 0.13 : 0.21;
         CHR.forEach(function (c) {
-          var x = cx[side[c.id]] + (c.len === LONG ? -0.07 : 0.07);
+          var x = cx[side[c.id]] + (c.len === LONG ? -0.08 : 0.085);
           ch[c.id + '0'] = { x: x, y: 0.5 - sep, a: Math.PI / 2, al: 1 };
           ch[c.id + '1'] = { x: x, y: 0.5 + sep, a: Math.PI / 2, al: 1 };
         });

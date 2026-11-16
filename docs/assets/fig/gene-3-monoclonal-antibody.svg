@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-gene-3-monoclonal-antibody d-gene-3-monoclonal-antibody">
+  <title id="t-gene-3-monoclonal-antibody">그림 생물의 유전 3-2 단일클론항체를 만드는 과정</title>
+  <desc id="d-gene-3-monoclonal-antibody">항원을 주사한 생쥐에서 얻은 B 림프구를 계속 분열하는 골수종 세포와 융합해 잡종 세포(하이브리도마)를 만들고, 그중 원하는 항체를 만드는 잡종 세포 하나만 골라 배양하면 한 가지 항원 결정 부위만 인식하는 같은 항체를 대량으로 얻는다.</desc>
+  <style>
+    .gene-3-monoclonal-antibody-h{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .gene-3-monoclonal-antibody-tx{font-size:14px;fill:var(--fig-ink)}
+    .gene-3-monoclonal-antibody-sm{font-size:13px;fill:var(--fig-muted)}
+    .gene-3-monoclonal-antibody-pan{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1}
+    .gene-3-monoclonal-antibody-mouse{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.6}
+    .gene-3-monoclonal-antibody-eye{fill:var(--fig-ink)}
+    .gene-3-monoclonal-antibody-syr{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5}
+    .gene-3-monoclonal-antibody-b{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2}
+    .gene-3-monoclonal-antibody-m{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+    .gene-3-monoclonal-antibody-hy{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2}
+    .gene-3-monoclonal-antibody-nb{fill:var(--fig-blue)}
+    .gene-3-monoclonal-antibody-nm{fill:var(--fig-amber)}
+    .gene-3-monoclonal-antibody-nh{fill:var(--fig-green)}
+    .gene-3-monoclonal-antibody-ar{fill:none;stroke:var(--fig-muted);stroke-width:1.8}
+    .gene-3-monoclonal-antibody-ah{fill:var(--fig-muted)}
+    .gene-3-monoclonal-antibody-well{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5}
+    .gene-3-monoclonal-antibody-pick{fill:none;stroke:var(--fig-red);stroke-width:2.5}
+    .gene-3-monoclonal-antibody-ok{font-size:14px;font-weight:600;fill:var(--fig-red)}
+  </style>
+  <rect x="10" y="10" width="700" height="180" rx="10" class="gene-3-monoclonal-antibody-pan"/>
+  <rect x="10" y="202" width="700" height="188" rx="10" class="gene-3-monoclonal-antibody-pan"/>
+  <text x="90" y="36" text-anchor="middle" class="gene-3-monoclonal-antibody-h">① 생쥐에 항원 주사</text>
+  <ellipse cx="90" cy="110" rx="40" ry="24" class="gene-3-monoclonal-antibody-mouse"/>
+  <circle cx="134" cy="100" r="16" class="gene-3-monoclonal-antibody-mouse"/>
+  <circle cx="130" cy="83" r="8" class="gene-3-monoclonal-antibody-mouse"/>
+  <circle cx="140" cy="97" r="2" class="gene-3-monoclonal-antibody-eye"/>
+  <path d="M50 114 q-24 4 -30 24" class="gene-3-monoclonal-antibody-mouse" style="fill:none"/>
+  <rect x="70" y="48" width="40" height="10" rx="2" class="gene-3-monoclonal-antibody-syr" transform="rotate(30 90 53)"/>
+  <text x="90" y="166" text-anchor="middle" class="gene-3-monoclonal-antibody-sm">항체를 만드는 B 림프구가 생긴다</text>
+  <line x1="170" y1="105" x2="200" y2="105" class="gene-3-monoclonal-antibody-ar"/>
+  <path d="M200.0 105.0 L192.7 108.3 L192.7 101.7 Z" class="gene-3-monoclonal-antibody-ah"/>
+  <text x="300" y="36" text-anchor="middle" class="gene-3-monoclonal-antibody-h">B 림프구와 골수종 세포</text>
+  <circle cx="240" cy="84" r="18" class="gene-3-monoclonal-antibody-b"/>
+  <circle cx="240" cy="84" r="7.6" class="gene-3-monoclonal-antibody-nb"/>
+  <path d="M266 82.0 L266 74.0 L260.4 67.6 M266 74.0 L271.6 67.6" style="fill:none;stroke:var(--fig-blue);stroke-width:1.9;stroke-linecap:round"/>
+  <circle cx="240" cy="130" r="18" class="gene-3-monoclonal-antibody-b"/>
+  <circle cx="240" cy="130" r="7.6" class="gene-3-monoclonal-antibody-nb"/>
+  <path d="M266 128.0 L266 120.0 L260.4 113.6 M266 120.0 L271.6 113.6" style="fill:none;stroke:var(--fig-teal);stroke-width:1.9;stroke-linecap:round"/>
+  <text x="240" y="166" text-anchor="middle" class="gene-3-monoclonal-antibody-sm">B 림프구</text>
+  <text x="240" y="182" text-anchor="middle" class="gene-3-monoclonal-antibody-sm">항체 생산, 오래 못 삶</text>
+  <text x="300" y="112" text-anchor="middle" class="gene-3-monoclonal-antibody-tx">+</text>
+  <circle cx="360" cy="106" r="20" class="gene-3-monoclonal-antibody-m"/>
+  <circle cx="360" cy="106" r="8.4" class="gene-3-monoclonal-antibody-nm"/>
+  <text x="362" y="166" text-anchor="middle" class="gene-3-monoclonal-antibody-sm">골수종(암) 세포</text>
+  <text x="362" y="182" text-anchor="middle" class="gene-3-monoclonal-antibody-sm">계속 분열, 항체 없음</text>
+  <line x1="420" y1="105" x2="456" y2="105" class="gene-3-monoclonal-antibody-ar"/>
+  <path d="M456.0 105.0 L448.7 108.3 L448.7 101.7 Z" class="gene-3-monoclonal-antibody-ah"/>
+  <text x="590" y="36" text-anchor="middle" class="gene-3-monoclonal-antibody-h">② 세포 융합 → ③ 잡종 세포</text>
+  <circle cx="500" cy="100" r="22" class="gene-3-monoclonal-antibody-hy"/>
+  <circle cx="500" cy="100" r="9.2" class="gene-3-monoclonal-antibody-nh"/>
+  <path d="M530 92.0 L530 84.0 L524.4 77.6 M530 84.0 L535.6 77.6" style="fill:none;stroke:var(--fig-blue);stroke-width:1.9;stroke-linecap:round"/>
+  <circle cx="580" cy="100" r="22" class="gene-3-monoclonal-antibody-hy"/>
+  <circle cx="580" cy="100" r="9.2" class="gene-3-monoclonal-antibody-nh"/>
+  <path d="M610 92.0 L610 84.0 L604.4 77.6 M610 84.0 L615.6 77.6" style="fill:none;stroke:var(--fig-teal);stroke-width:1.9;stroke-linecap:round"/>
+  <circle cx="660" cy="100" r="22" class="gene-3-monoclonal-antibody-hy"/>
+  <circle cx="660" cy="100" r="9.2" class="gene-3-monoclonal-antibody-nh"/>
+  <path d="M690 92.0 L690 84.0 L684.4 77.6 M690 84.0 L695.6 77.6" style="fill:none;stroke:var(--fig-violet);stroke-width:1.9;stroke-linecap:round"/>
+  <text x="580" y="152" text-anchor="middle" class="gene-3-monoclonal-antibody-sm">잡종 세포(하이브리도마)마다 다른 항체</text>
+  <text x="580" y="170" text-anchor="middle" class="gene-3-monoclonal-antibody-sm">항체를 만들면서 계속 분열한다</text>
+  <path d="M660 182 L660 196 L130 196 L130 220" class="gene-3-monoclonal-antibody-ar"/>
+  <path d="M130 226 l-5 -9 l10 0 z" class="gene-3-monoclonal-antibody-ah"/>
+  <text x="200" y="232" class="gene-3-monoclonal-antibody-h">④ 원하는 항체를 만드는 잡종 세포 하나만 골라 배양</text>
+  <circle cx="60" cy="300" r="26" class="gene-3-monoclonal-antibody-well"/>
+  <circle cx="54" cy="302" r="11" class="gene-3-monoclonal-antibody-hy"/>
+  <circle cx="54" cy="302" r="4.6" class="gene-3-monoclonal-antibody-nh"/>
+  <path d="M72 301.0 L72 294.0 L67.1 288.4 M72 294.0 L76.9 288.4" style="fill:none;stroke:var(--fig-blue);stroke-width:1.7;stroke-linecap:round"/>
+  <circle cx="122" cy="300" r="26" class="gene-3-monoclonal-antibody-well"/>
+  <circle cx="116" cy="302" r="11" class="gene-3-monoclonal-antibody-hy"/>
+  <circle cx="116" cy="302" r="4.6" class="gene-3-monoclonal-antibody-nh"/>
+  <path d="M134 301.0 L134 294.0 L129.1 288.4 M134 294.0 L138.9 288.4" style="fill:none;stroke:var(--fig-teal);stroke-width:1.7;stroke-linecap:round"/>
+  <circle cx="184" cy="300" r="26" class="gene-3-monoclonal-antibody-well"/>
+  <circle cx="178" cy="302" r="11" class="gene-3-monoclonal-antibody-hy"/>
+  <circle cx="178" cy="302" r="4.6" class="gene-3-monoclonal-antibody-nh"/>
+  <path d="M196 301.0 L196 294.0 L191.1 288.4 M196 294.0 L200.9 288.4" style="fill:none;stroke:var(--fig-violet);stroke-width:1.7;stroke-linecap:round"/>
+  <circle cx="246" cy="300" r="26" class="gene-3-monoclonal-antibody-well"/>
+  <circle cx="240" cy="302" r="11" class="gene-3-monoclonal-antibody-hy"/>
+  <circle cx="240" cy="302" r="4.6" class="gene-3-monoclonal-antibody-nh"/>
+  <path d="M258 301.0 L258 294.0 L253.1 288.4 M258 294.0 L262.9 288.4" style="fill:none;stroke:var(--fig-blue);stroke-width:1.7;stroke-linecap:round"/>
+  <circle cx="122" cy="300" r="31" class="gene-3-monoclonal-antibody-pick"/>
+  <text x="122" y="350" text-anchor="middle" class="gene-3-monoclonal-antibody-ok">선택</text>
+  <text x="152" y="374" text-anchor="middle" class="gene-3-monoclonal-antibody-sm">세포 하나씩 나누어 키우며 항체 확인</text>
+  <line x1="306" y1="300" x2="346" y2="300" class="gene-3-monoclonal-antibody-ar"/>
+  <path d="M346.0 300.0 L338.7 303.3 L338.7 296.7 Z" class="gene-3-monoclonal-antibody-ah"/>
+  <circle cx="380" cy="280" r="13" class="gene-3-monoclonal-antibody-hy"/>
+  <circle cx="380" cy="280" r="5.5" class="gene-3-monoclonal-antibody-nh"/>
+  <circle cx="416" cy="280" r="13" class="gene-3-monoclonal-antibody-hy"/>
+  <circle cx="416" cy="280" r="5.5" class="gene-3-monoclonal-antibody-nh"/>
+  <circle cx="452" cy="280" r="13" class="gene-3-monoclonal-antibody-hy"/>
+  <circle cx="452" cy="280" r="5.5" class="gene-3-monoclonal-antibody-nh"/>
+  <circle cx="380" cy="316" r="13" class="gene-3-monoclonal-antibody-hy"/>
+  <circle cx="380" cy="316" r="5.5" class="gene-3-monoclonal-antibody-nh"/>
+  <circle cx="416" cy="316" r="13" class="gene-3-monoclonal-antibody-hy"/>
+  <circle cx="416" cy="316" r="5.5" class="gene-3-monoclonal-antibody-nh"/>
+  <circle cx="452" cy="316" r="13" class="gene-3-monoclonal-antibody-hy"/>
+  <circle cx="452" cy="316" r="5.5" class="gene-3-monoclonal-antibody-nh"/>
+  <text x="416" y="350" text-anchor="middle" class="gene-3-monoclonal-antibody-sm">한 세포에서 나온</text>
+  <text x="416" y="368" text-anchor="middle" class="gene-3-monoclonal-antibody-sm">같은 세포들(클론)</text>
+  <line x1="476" y1="300" x2="512" y2="300" class="gene-3-monoclonal-antibody-ar"/>
+  <path d="M512.0 300.0 L504.7 303.3 L504.7 296.7 Z" class="gene-3-monoclonal-antibody-ah"/>
+  <path d="M540 292.0 L540 282.0 L533.0 274.0 M540 282.0 L547.0 274.0" style="fill:none;stroke:var(--fig-teal);stroke-width:2.4;stroke-linecap:round"/>
+  <path d="M566 292.0 L566 282.0 L559.0 274.0 M566 282.0 L573.0 274.0" style="fill:none;stroke:var(--fig-teal);stroke-width:2.4;stroke-linecap:round"/>
+  <path d="M592 292.0 L592 282.0 L585.0 274.0 M592 282.0 L599.0 274.0" style="fill:none;stroke:var(--fig-teal);stroke-width:2.4;stroke-linecap:round"/>
+  <path d="M618 292.0 L618 282.0 L611.0 274.0 M618 282.0 L625.0 274.0" style="fill:none;stroke:var(--fig-teal);stroke-width:2.4;stroke-linecap:round"/>
+  <path d="M644 292.0 L644 282.0 L637.0 274.0 M644 282.0 L651.0 274.0" style="fill:none;stroke:var(--fig-teal);stroke-width:2.4;stroke-linecap:round"/>
+  <path d="M540 322.0 L540 312.0 L533.0 304.0 M540 312.0 L547.0 304.0" style="fill:none;stroke:var(--fig-teal);stroke-width:2.4;stroke-linecap:round"/>
+  <path d="M566 322.0 L566 312.0 L559.0 304.0 M566 312.0 L573.0 304.0" style="fill:none;stroke:var(--fig-teal);stroke-width:2.4;stroke-linecap:round"/>
+  <path d="M592 322.0 L592 312.0 L585.0 304.0 M592 312.0 L599.0 304.0" style="fill:none;stroke:var(--fig-teal);stroke-width:2.4;stroke-linecap:round"/>
+  <path d="M618 322.0 L618 312.0 L611.0 304.0 M618 312.0 L625.0 304.0" style="fill:none;stroke:var(--fig-teal);stroke-width:2.4;stroke-linecap:round"/>
+  <path d="M644 322.0 L644 312.0 L637.0 304.0 M644 312.0 L651.0 304.0" style="fill:none;stroke:var(--fig-teal);stroke-width:2.4;stroke-linecap:round"/>
+  <text x="592" y="350" text-anchor="middle" class="gene-3-monoclonal-antibody-h">단일클론항체 대량 생산</text>
+  <text x="592" y="368" text-anchor="middle" class="gene-3-monoclonal-antibody-sm">모두 같은 항원 결정 부위를 인식</text>
+</svg>

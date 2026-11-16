@@ -113,7 +113,7 @@ Sims.register('pv-diagram', {
       var st = at(state.kind, state.prog), E = energy(state.kind, state.prog), Efull = energy(state.kind, 1);
       var narrow = cv.w < 560;
       // 원통: 아래가 바닥, 위로 피스톤이 움직인다. 높이 ∝ 부피(50 L = 가득)
-      var cw = Math.min(r.w * 0.5, 130), cx = r.x + r.w / 2, base = r.y + r.h - (narrow ? 34 : 62), topMax = r.y + 40;
+      var cw = narrow ? Math.min(r.w * 0.36, 110) : Math.min(r.w * 0.5, 130), cx = r.x + r.w * (narrow ? 0.64 : 0.5), base = r.y + r.h - (narrow ? 34 : 62), topMax = r.y + 40;
       var hFull = base - topMax, gasH = hFull * st.V / 52e-3, py = base - gasH;
       ctx.fillStyle = heatColor(T, st.T); ctx.fillRect(cx - cw / 2, py, cw, gasH);
       // 입자
@@ -179,8 +179,8 @@ Sims.register('pv-diagram', {
       ctx.beginPath();
       for (var i = 0; i <= 60; i++) { var V = 8e-3 + i / 60 * 46e-3, P = P0 * V0 / V; if (P > PMAX) continue; var sx = X(V), sy = Y(P); if (i === 0 || P0 * V0 / (8e-3 + (i - 1) / 60 * 46e-3) > PMAX) ctx.moveTo(sx, sy); else ctx.lineTo(sx, sy); }
       ctx.stroke(); ctx.setLineDash([]);
-      ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right';
-      ctx.fillText('점선: ' + Math.round(T0) + ' K 등온선', Rr, Y(P0 * V0 / 52e-3) - 8);
+      ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
+      ctx.fillText('점선: ' + Math.round(T0) + ' K 등온선', X(10.5e-3) + 6, Y(P0 * V0 / 10.5e-3));
       // 이전 경로
       state.ghosts.forEach(function (gh) {
         if (gh.kind === state.kind && gh.v === state.vEnd && gh.p === state.pEnd && state.prog >= 1) return;

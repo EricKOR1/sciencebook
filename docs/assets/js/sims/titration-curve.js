@@ -123,6 +123,9 @@ Sims.register('titration-curve', {
       var sy = function (p) { return B - p / 14 * (B - Tp); };
       var fs = narrow ? 11 : 12;
 
+      var bandLabels = [], boxes = [];
+      function box(x, y, bw, bh) { boxes.push([x, y, x + bw, y + bh]); }
+      function hit(r) { return boxes.some(function (b) { return r[0] < b[2] && r[2] > b[0] && r[1] < b[3] && r[3] > b[1]; }); }
       // 지시약 변색 범위(실제 색)
       INDS.forEach(function (ind) {
         if (!state.show[ind.key]) return;
@@ -131,8 +134,7 @@ Sims.register('titration-curve', {
         ctx.globalAlpha = T.dark ? 0.32 : 0.26; ctx.fillStyle = gr; ctx.fillRect(L, y1, R - L, y2 - y1); ctx.globalAlpha = 1;
         ctx.strokeStyle = ind.cb; ctx.globalAlpha = 0.7; ctx.lineWidth = 1;
         ctx.beginPath(); ctx.moveTo(L, y1); ctx.lineTo(R, y1); ctx.moveTo(L, y2); ctx.lineTo(R, y2); ctx.stroke(); ctx.globalAlpha = 1;
-        ctx.fillStyle = T.figInk; ctx.font = fs + 'px ' + T.fontBody; ctx.textAlign = 'right'; ctx.textBaseline = 'middle';
-        ctx.fillText(ind.name + ' ' + ind.lo.toFixed(1) + '–' + ind.hi.toFixed(1), R - 6, (y1 + y2) / 2);
+        bandLabels.push({ t: ind.name + ' ' + ind.lo.toFixed(1) + '–' + ind.hi.toFixed(1), y1: y1, y2: y2 });
       });
       // 완충 영역
       if (weak) {
@@ -169,6 +171,7 @@ Sims.register('titration-curve', {
         ctx.beginPath(); ctx.moveTo(qx + 5, sy(st[0])); ctx.lineTo(qx, sy(st[0])); ctx.lineTo(qx, sy(st[1])); ctx.lineTo(qx + 5, sy(st[1])); ctx.stroke();
         ctx.fillStyle = T.figRed; ctx.font = '600 ' + fs + 'px ' + T.fontBody; ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
         ctx.fillText('수직 구간', qx + 8, sy((st[0] + st[1]) / 2) - 8);
+        box(qx + 6, sy((st[0] + st[1]) / 2) - 16, 96, 32);
         ctx.font = fs + 'px ' + T.fontBody;
         ctx.fillText('pH ' + st[0].toFixed(1) + '–' + st[1].toFixed(1), qx + 8, sy((st[0] + st[1]) / 2) + 8);
       }
@@ -186,6 +189,7 @@ Sims.register('titration-curve', {
       ctx.fillText('당량점', sx(Ve) - 8, ey - fs - 2);
       ctx.font = fs + 'px ' + T.fontBody;
       ctx.fillText(Ve.toFixed(1) + ' mL, pH ' + pe.toFixed(2), sx(Ve) - 8, ey);
+      box(sx(Ve) - 8 - ctx.measureText(Ve.toFixed(1) + ' mL, pH ' + pe.toFixed(2)).width, ey - 2 * fs - 4, 140, 2 * fs + 8);
       // 반당량점
       var ph2 = pH(a.Ka, Va, Ve / 2);
       dot(sx(Ve / 2), sy(ph2), T.figGreen, 5);
@@ -194,6 +198,7 @@ Sims.register('titration-curve', {
       ctx.fillText('반당량점', hx, hy);
       ctx.font = fs + 'px ' + T.fontBody;
       ctx.fillText(weak ? 'pH ≈ pKₐ = ' + pKa(a).toFixed(2) : 'pH ' + ph2.toFixed(2), hx, hy + fs + 3);
+      box(hx, hy, 110, 2 * fs + 6);
       // 현재 위치
       var pc = pH(a.Ka, Va, state.vb), cx = sx(state.vb), cy = sy(pc);
       ctx.strokeStyle = T.figInk; ctx.lineWidth = 1; ctx.setLineDash([2, 3]);
@@ -214,6 +219,17 @@ Sims.register('titration-curve', {
         else { ctx.strokeStyle = it.c; ctx.lineWidth = 2.4; ctx.setLineDash(it.d); ctx.beginPath(); ctx.moveTo(lx, ly); ctx.lineTo(lx + 22, ly); ctx.stroke(); ctx.setLineDash([]); }
         ctx.fillStyle = T.figInk; ctx.fillText(it.t, lx + 28, ly);
         lx += 30 + ctx.measureText(it.t).width + 12;
+      });
+
+      // 지시약 이름: 다른 글자와 겹치지 않는 자리를 고른다
+      ctx.font = fs + 'px ' + T.fontBody; ctx.textBaseline = 'middle'; ctx.fillStyle = T.figInk;
+      bandLabels.forEach(function (bl) {
+        var tw = ctx.measureText(bl.t).width, mid = (bl.y1 + bl.y2) / 2;
+        var cands = [[R - 6 - tw, mid], [R - 6 - tw, bl.y1 - fs * 0.7], [R - 6 - tw, bl.y2 + fs * 0.7], [L + 8, mid], [L + 8, bl.y2 + fs * 0.7]];
+        var pick = cands[0];
+        for (var i = 0; i < cands.length; i++) { var c = cands[i], r = [c[0] - 2, c[1] - fs / 2 - 2, c[0] + tw + 2, c[1] + fs / 2 + 2]; if (!hit(r)) { pick = c; break; } }
+        ctx.textAlign = 'left'; ctx.fillText(bl.t, pick[0], pick[1]);
+        box(pick[0] - 2, pick[1] - fs / 2 - 2, tw + 4, fs + 4);
       });
 
       function line(pts, color, lw, dash) {

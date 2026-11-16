@@ -10,26 +10,29 @@
 <link rel="stylesheet" href="assets/katex/katex.min.css">
 <link rel="stylesheet" href="assets/book.css">
 <script src="assets/js/book.js" defer></script>
-
+<script src="assets/js/sims/reflect-refract.js" defer></script>
+<script src="assets/js/sims/sound-wave.js" defer></script>
 </head>
-<body class="">
+<body class="" data-lesson="m2-03" data-title="빛과 파동" data-where="중2">
 <header class="topbar">
   <button class="menu-btn" id="menu-btn" aria-controls="drawer" aria-expanded="false">목차</button>
   <a class="brand" href="index.html">한 권으로 잇는 과학</a>
   <button class="theme-btn" id="theme-btn" aria-label="밝은 화면과 어두운 화면 바꾸기">화면</button>
+  <div class="read-bar" id="read-bar" aria-hidden="true"><i></i></div>
 </header>
 <div class="shell">
-<aside class="drawer" id="drawer"><nav class="book-nav" aria-label="교재 목차"><a class="nav-home" href="index.html">처음으로 · 전체 목차</a><input class="nav-filter" id="nav-filter" type="search" placeholder="단원 이름으로 찾기" aria-label="단원 이름으로 찾기" autocomplete="off"><p class="nav-group">중학교 과학</p><details class="nav-part"><summary>1학년<span class="nav-count">7</span></summary><ul><li><a href="m1-01.html"><span class="nav-id">중1-1</span>과학과 인류의 지속가능한 삶</a></li><li><a href="m1-02.html"><span class="nav-id">중1-2</span>생물의 구성과 다양성</a></li><li><a href="m1-03.html"><span class="nav-id">중1-3</span>열</a></li><li><a href="m1-04.html"><span class="nav-id">중1-4</span>물질의 상태 변화</a></li><li><a href="m1-05.html"><span class="nav-id">중1-5</span>힘의 작용</a></li><li><a href="m1-06.html"><span class="nav-id">중1-6</span>기체의 성질</a></li><li><a href="m1-07.html"><span class="nav-id">중1-7</span>태양계</a></li></ul></details><details class="nav-part" open><summary>2학년<span class="nav-count">8</span></summary><ul><li><a href="m2-01.html"><span class="nav-id">중2-1</span>물질의 특성</a></li><li><a href="m2-02.html"><span class="nav-id">중2-2</span>지권의 변화</a></li><li><a href="m2-03.html" aria-current="page"><span class="nav-id">중2-3</span>빛과 파동</a></li><li><a href="m2-04.html"><span class="nav-id">중2-4</span>물질의 구성</a></li><li><a href="m2-05.html"><span class="nav-id">중2-5</span>식물과 에너지</a></li><li><a href="m2-06.html"><span class="nav-id">중2-6</span>동물과 에너지</a></li><li><a href="m2-07.html"><span class="nav-id">중2-7</span>전기와 자기</a></li><li><a href="m2-08.html"><span class="nav-id">중2-8</span>별과 우주</a></li></ul></details><details class="nav-part"><summary>3학년<span class="nav-count">8</span></summary><ul><li><a href="m3-01.html"><span class="nav-id">중3-1</span>화학 반응의 규칙성</a></li><li><a href="m3-02.html"><span class="nav-id">중3-2</span>날씨와 기후변화</a></li><li><a href="m3-03.html"><span class="nav-id">중3-3</span>수권과 해수의 순환</a></li><li><a href="m3-04.html"><span class="nav-id">중3-4</span>운동과 에너지</a></li><li><a href="m3-05.html"><span class="nav-id">중3-5</span>자극과 반응</a></li><li><a href="m3-06.html"><span class="nav-id">중3-6</span>생식과 유전</a></li><li><a href="m3-07.html"><span class="nav-id">중3-7</span>재해·재난과 안전</a></li><li><a href="m3-08.html"><span class="nav-id">중3-8</span>과학과 나의 미래</a></li></ul></details><p class="nav-group">고등학교 공통 과목</p><details class="nav-part"><summary>통합과학1<span class="nav-count">16</span></summary><p class="nav-unit">1단원 과학의 기초</p><ul><li><a href="1-1.html"><span class="nav-id">1-1</span>시간과 공간</a></li><li><a href="1-2.html"><span class="nav-id">1-2</span>기본량과 단위</a></li><li><a href="1-3.html"><span class="nav-id">1-3</span>측정과 어림, 측정 표준</a></li><li><a href="1-4.html"><span class="nav-id">1-4</span>정보와 신호: 아날로그에서 디지털로</a></li></ul><p class="nav-unit">2단원 물질과 규칙성</p><ul><li><a href="2-1.html"><span class="nav-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="2-2.html"><span class="nav-id">2-2</span>별의 진화와 원소의 생성</a></li><li><a href="2-3.html"><span class="nav-id">2-3</span>원소의 주기성과 화학 결합의 이유</a></li><li><a href="2-4.html"><span class="nav-id">2-4</span>이온 결합과 공유 결합</a></li><li><a href="2-5.html"><span class="nav-id">2-5</span>지각과 생명체 구성 물질의 규칙성</a></li><li><a href="2-6.html"><span class="nav-id">2-6</span>물질의 전기적 성질과 소재</a></li></ul><p class="nav-unit">3단원 시스템과 상호작용</p><ul><li><a href="3-1.html"><span class="nav-id">3-1</span>지구시스템의 구성과 상호작용</a></li><li><a href="3-2.html"><span class="nav-id">3-2</span>판구조론과 지권의 변화</a></li><li><a href="3-3.html"><span class="nav-id">3-3</span>중력과 운동</a></li><li><a href="3-4.html"><span class="nav-id">3-4</span>운동량과 충격량</a></li><li><a href="3-5.html"><span class="nav-id">3-5</span>생명 시스템과 물질대사</a></li><li><a href="3-6.html"><span class="nav-id">3-6</span>유전자와 단백질</a></li></ul></details><details class="nav-part"><summary>통합과학2<span class="nav-count">15</span></summary><p class="nav-unit">4단원 변화와 다양성</p><ul><li><a href="4-1.html"><span class="nav-id">4-1</span>지질시대의 환경 변화와 생물다양성</a></li><li><a href="4-2.html"><span class="nav-id">4-2</span>진화와 생물다양성</a></li><li><a href="4-3.html"><span class="nav-id">4-3</span>산화와 환원</a></li><li><a href="4-4.html"><span class="nav-id">4-4</span>산과 염기, 중화 반응</a></li><li><a href="4-5.html"><span class="nav-id">4-5</span>물질 변화와 에너지 출입</a></li></ul><p class="nav-unit">5단원 환경과 에너지</p><ul><li><a href="5-1.html"><span class="nav-id">5-1</span>생태계 구성 요소와 상호 관계</a></li><li><a href="5-2.html"><span class="nav-id">5-2</span>생태계 평형</a></li><li><a href="5-3.html"><span class="nav-id">5-3</span>지구온난화와 기후변화</a></li><li><a href="5-4.html"><span class="nav-id">5-4</span>태양 에너지와 에너지 전환</a></li><li><a href="5-5.html"><span class="nav-id">5-5</span>발전기와 전기 에너지</a></li><li><a href="5-6.html"><span class="nav-id">5-6</span>에너지 효율과 신재생 에너지</a></li></ul><p class="nav-unit">6단원 과학과 미래 사회</p><ul><li><a href="6-1.html"><span class="nav-id">6-1</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html"><span class="nav-id">6-2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html"><span class="nav-id">6-3</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html"><span class="nav-id">6-4</span>과학기술과 윤리</a></li></ul></details><p class="nav-group">고등학교 일반 선택</p><details class="nav-part"><summary>물리학<span class="nav-count">3</span></summary><ul><li><a href="phy-1.html"><span class="nav-id">물리학 1</span>힘과 에너지</a></li><li><a href="phy-2.html"><span class="nav-id">물리학 2</span>전기와 자기</a></li><li><a href="phy-3.html"><span class="nav-id">물리학 3</span>빛과 물질</a></li></ul></details><details class="nav-part"><summary>화학<span class="nav-count">4</span></summary><ul><li><a href="chem-1.html"><span class="nav-id">화학 1</span>화학의 언어</a></li><li><a href="chem-2.html"><span class="nav-id">화학 2</span>물질의 구조와 성질</a></li><li><a href="chem-3.html"><span class="nav-id">화학 3</span>화학 평형</a></li><li><a href="chem-4.html"><span class="nav-id">화학 4</span>역동적인 화학 반응</a></li></ul></details><details class="nav-part"><summary>생명과학<span class="nav-count">3</span></summary><ul><li><a href="bio-1.html"><span class="nav-id">생명과학 1</span>생명 시스템의 구성</a></li><li><a href="bio-2.html"><span class="nav-id">생명과학 2</span>항상성과 몸의 조절</a></li><li><a href="bio-3.html"><span class="nav-id">생명과학 3</span>생명의 연속성과 다양성</a></li></ul></details><details class="nav-part"><summary>지구과학<span class="nav-count">3</span></summary><ul><li><a href="earth-1.html"><span class="nav-id">지구과학 1</span>대기와 해양의 상호작용</a></li><li><a href="earth-2.html"><span class="nav-id">지구과학 2</span>지구의 역사와 한반도의 암석</a></li><li><a href="earth-3.html"><span class="nav-id">지구과학 3</span>태양계 천체와 별과 우주의 진화</a></li></ul></details><p class="nav-group">고등학교 진로 선택</p><details class="nav-part"><summary>역학과 에너지<span class="nav-count">2</span></summary><ul><li><a href="mech-1.html"><span class="nav-id">역학과 에너지 1</span>시공간과 운동</a></li><li><a href="mech-2.html"><span class="nav-id">역학과 에너지 2</span>열과 에너지</a></li></ul></details><details class="nav-part"><summary>전자기와 양자<span class="nav-count">3</span></summary><ul><li><a href="emq-1.html"><span class="nav-id">전자기와 양자 1</span>전자기적 상호작용</a></li><li><a href="emq-2.html"><span class="nav-id">전자기와 양자 2</span>빛과 정보 통신</a></li><li><a href="emq-3.html"><span class="nav-id">전자기와 양자 3</span>양자와 미시세계</a></li></ul></details><details class="nav-part"><summary>물질과 에너지<span class="nav-count">3</span></summary><ul><li><a href="matter-1.html"><span class="nav-id">물질과 에너지 1</span>물질의 세 가지 상태</a></li><li><a href="matter-2.html"><span class="nav-id">물질과 에너지 2</span>용액의 성질</a></li><li><a href="matter-3.html"><span class="nav-id">물질과 에너지 3</span>화학 변화의 자발성</a></li></ul></details><details class="nav-part"><summary>화학 반응의 세계<span class="nav-count">3</span></summary><ul><li><a href="rxn-1.html"><span class="nav-id">화학 반응의 세계 1</span>산·염기 평형</a></li><li><a href="rxn-2.html"><span class="nav-id">화학 반응의 세계 2</span>산화·환원 반응</a></li><li><a href="rxn-3.html"><span class="nav-id">화학 반응의 세계 3</span>탄소 화합물과 반응</a></li></ul></details><details class="nav-part"><summary>세포와 물질대사<span class="nav-count">3</span></summary><ul><li><a href="cell-1.html"><span class="nav-id">세포와 물질대사 1</span>세포</a></li><li><a href="cell-2.html"><span class="nav-id">세포와 물질대사 2</span>물질대사와 에너지</a></li><li><a href="cell-3.html"><span class="nav-id">세포와 물질대사 3</span>세포호흡과 광합성</a></li></ul></details><details class="nav-part"><summary>생물의 유전<span class="nav-count">3</span></summary><ul><li><a href="gene-1.html"><span class="nav-id">생물의 유전 1</span>유전자와 유전물질</a></li><li><a href="gene-2.html"><span class="nav-id">생물의 유전 2</span>유전자의 발현</a></li><li><a href="gene-3.html"><span class="nav-id">생물의 유전 3</span>생명공학기술</a></li></ul></details><details class="nav-part"><summary>지구시스템과학<span class="nav-count">2</span></summary><ul><li><a href="esys-1.html"><span class="nav-id">지구시스템과학 1</span>지구 탄생과 생동하는 지구</a></li><li><a href="esys-2.html"><span class="nav-id">지구시스템과학 2</span>해수의 운동</a></li></ul></details><details class="nav-part"><summary>행성우주과학<span class="nav-count">2</span></summary><ul><li><a href="astro-1.html"><span class="nav-id">행성우주과학 1</span>우주탐사와 행성계</a></li><li><a href="astro-2.html"><span class="nav-id">행성우주과학 2</span>태양과 별의 관측</a></li></ul></details><p class="nav-group">찾아보기</p><ul class="nav-extra"><li><a href="map.html">개념 연계 지도</a></li><li><a href="glossary.html">핵심 용어 사전</a></li><li><a href="sims.html">시뮬레이션 모아 보기</a></li><li><a href="guide.html">교재 설계 안내</a></li><li><a href="appendix-standards.html">통합과학 성취기준 원문</a></li><li><a href="appendix-map.html">통합과학 대학·산업 연계 지도</a></li></ul></nav></aside>
+<aside class="drawer" id="drawer"><nav class="book-nav" aria-label="교재 목차"><a class="nav-home" href="index.html">처음으로 · 전체 목차</a><input class="nav-filter" id="nav-filter" type="search" placeholder="단원 이름으로 찾기" aria-label="단원 이름으로 찾기" autocomplete="off"><p class="nav-group">중학교 과학</p><details class="nav-part"><summary>1학년<span class="nav-count">7</span></summary><ul><li><a href="m1-01.html" data-id="m1-01"><span class="nav-id">중1-1</span>과학과 인류의 지속가능한 삶</a></li><li><a href="m1-02.html" data-id="m1-02"><span class="nav-id">중1-2</span>생물의 구성과 다양성</a></li><li><a href="m1-03.html" data-id="m1-03"><span class="nav-id">중1-3</span>열</a></li><li><a href="m1-04.html" data-id="m1-04"><span class="nav-id">중1-4</span>물질의 상태 변화</a></li><li><a href="m1-05.html" data-id="m1-05"><span class="nav-id">중1-5</span>힘의 작용</a></li><li><a href="m1-06.html" data-id="m1-06"><span class="nav-id">중1-6</span>기체의 성질</a></li><li><a href="m1-07.html" data-id="m1-07"><span class="nav-id">중1-7</span>태양계</a></li></ul></details><details class="nav-part" open><summary>2학년<span class="nav-count">8</span></summary><ul><li><a href="m2-01.html" data-id="m2-01"><span class="nav-id">중2-1</span>물질의 특성</a></li><li><a href="m2-02.html" data-id="m2-02"><span class="nav-id">중2-2</span>지권의 변화</a></li><li><a href="m2-03.html" data-id="m2-03" aria-current="page"><span class="nav-id">중2-3</span>빛과 파동</a></li><li><a href="m2-04.html" data-id="m2-04"><span class="nav-id">중2-4</span>물질의 구성</a></li><li><a href="m2-05.html" data-id="m2-05"><span class="nav-id">중2-5</span>식물과 에너지</a></li><li><a href="m2-06.html" data-id="m2-06"><span class="nav-id">중2-6</span>동물과 에너지</a></li><li><a href="m2-07.html" data-id="m2-07"><span class="nav-id">중2-7</span>전기와 자기</a></li><li><a href="m2-08.html" data-id="m2-08"><span class="nav-id">중2-8</span>별과 우주</a></li></ul></details><details class="nav-part"><summary>3학년<span class="nav-count">8</span></summary><ul><li><a href="m3-01.html" data-id="m3-01"><span class="nav-id">중3-1</span>화학 반응의 규칙성</a></li><li><a href="m3-02.html" data-id="m3-02"><span class="nav-id">중3-2</span>날씨와 기후변화</a></li><li><a href="m3-03.html" data-id="m3-03"><span class="nav-id">중3-3</span>수권과 해수의 순환</a></li><li><a href="m3-04.html" data-id="m3-04"><span class="nav-id">중3-4</span>운동과 에너지</a></li><li><a href="m3-05.html" data-id="m3-05"><span class="nav-id">중3-5</span>자극과 반응</a></li><li><a href="m3-06.html" data-id="m3-06"><span class="nav-id">중3-6</span>생식과 유전</a></li><li><a href="m3-07.html" data-id="m3-07"><span class="nav-id">중3-7</span>재해·재난과 안전</a></li><li><a href="m3-08.html" data-id="m3-08"><span class="nav-id">중3-8</span>과학과 나의 미래</a></li></ul></details><p class="nav-group">고등학교 공통 과목</p><details class="nav-part"><summary>통합과학1<span class="nav-count">16</span></summary><p class="nav-unit">1단원 과학의 기초</p><ul><li><a href="1-1.html" data-id="1-1"><span class="nav-id">1-1</span>시간과 공간</a></li><li><a href="1-2.html" data-id="1-2"><span class="nav-id">1-2</span>기본량과 단위</a></li><li><a href="1-3.html" data-id="1-3"><span class="nav-id">1-3</span>측정과 어림, 측정 표준</a></li><li><a href="1-4.html" data-id="1-4"><span class="nav-id">1-4</span>정보와 신호: 아날로그에서 디지털로</a></li></ul><p class="nav-unit">2단원 물질과 규칙성</p><ul><li><a href="2-1.html" data-id="2-1"><span class="nav-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="2-2.html" data-id="2-2"><span class="nav-id">2-2</span>별의 진화와 원소의 생성</a></li><li><a href="2-3.html" data-id="2-3"><span class="nav-id">2-3</span>원소의 주기성과 화학 결합의 이유</a></li><li><a href="2-4.html" data-id="2-4"><span class="nav-id">2-4</span>이온 결합과 공유 결합</a></li><li><a href="2-5.html" data-id="2-5"><span class="nav-id">2-5</span>지각과 생명체 구성 물질의 규칙성</a></li><li><a href="2-6.html" data-id="2-6"><span class="nav-id">2-6</span>물질의 전기적 성질과 소재</a></li></ul><p class="nav-unit">3단원 시스템과 상호작용</p><ul><li><a href="3-1.html" data-id="3-1"><span class="nav-id">3-1</span>지구시스템의 구성과 상호작용</a></li><li><a href="3-2.html" data-id="3-2"><span class="nav-id">3-2</span>판구조론과 지권의 변화</a></li><li><a href="3-3.html" data-id="3-3"><span class="nav-id">3-3</span>중력과 운동</a></li><li><a href="3-4.html" data-id="3-4"><span class="nav-id">3-4</span>운동량과 충격량</a></li><li><a href="3-5.html" data-id="3-5"><span class="nav-id">3-5</span>생명 시스템과 물질대사</a></li><li><a href="3-6.html" data-id="3-6"><span class="nav-id">3-6</span>유전자와 단백질</a></li></ul></details><details class="nav-part"><summary>통합과학2<span class="nav-count">15</span></summary><p class="nav-unit">4단원 변화와 다양성</p><ul><li><a href="4-1.html" data-id="4-1"><span class="nav-id">4-1</span>지질시대의 환경 변화와 생물다양성</a></li><li><a href="4-2.html" data-id="4-2"><span class="nav-id">4-2</span>진화와 생물다양성</a></li><li><a href="4-3.html" data-id="4-3"><span class="nav-id">4-3</span>산화와 환원</a></li><li><a href="4-4.html" data-id="4-4"><span class="nav-id">4-4</span>산과 염기, 중화 반응</a></li><li><a href="4-5.html" data-id="4-5"><span class="nav-id">4-5</span>물질 변화와 에너지 출입</a></li></ul><p class="nav-unit">5단원 환경과 에너지</p><ul><li><a href="5-1.html" data-id="5-1"><span class="nav-id">5-1</span>생태계 구성 요소와 상호 관계</a></li><li><a href="5-2.html" data-id="5-2"><span class="nav-id">5-2</span>생태계 평형</a></li><li><a href="5-3.html" data-id="5-3"><span class="nav-id">5-3</span>지구온난화와 기후변화</a></li><li><a href="5-4.html" data-id="5-4"><span class="nav-id">5-4</span>태양 에너지와 에너지 전환</a></li><li><a href="5-5.html" data-id="5-5"><span class="nav-id">5-5</span>발전기와 전기 에너지</a></li><li><a href="5-6.html" data-id="5-6"><span class="nav-id">5-6</span>에너지 효율과 신재생 에너지</a></li></ul><p class="nav-unit">6단원 과학과 미래 사회</p><ul><li><a href="6-1.html" data-id="6-1"><span class="nav-id">6-1</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html" data-id="6-2"><span class="nav-id">6-2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html" data-id="6-3"><span class="nav-id">6-3</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html" data-id="6-4"><span class="nav-id">6-4</span>과학기술과 윤리</a></li></ul></details><p class="nav-group">고등학교 일반 선택</p><details class="nav-part"><summary>물리학<span class="nav-count">3</span></summary><ul><li><a href="phy-1.html" data-id="phy-1"><span class="nav-id">물리학 1</span>힘과 에너지</a></li><li><a href="phy-2.html" data-id="phy-2"><span class="nav-id">물리학 2</span>전기와 자기</a></li><li><a href="phy-3.html" data-id="phy-3"><span class="nav-id">물리학 3</span>빛과 물질</a></li></ul></details><details class="nav-part"><summary>화학<span class="nav-count">4</span></summary><ul><li><a href="chem-1.html" data-id="chem-1"><span class="nav-id">화학 1</span>화학의 언어</a></li><li><a href="chem-2.html" data-id="chem-2"><span class="nav-id">화학 2</span>물질의 구조와 성질</a></li><li><a href="chem-3.html" data-id="chem-3"><span class="nav-id">화학 3</span>화학 평형</a></li><li><a href="chem-4.html" data-id="chem-4"><span class="nav-id">화학 4</span>역동적인 화학 반응</a></li></ul></details><details class="nav-part"><summary>생명과학<span class="nav-count">3</span></summary><ul><li><a href="bio-1.html" data-id="bio-1"><span class="nav-id">생명과학 1</span>생명 시스템의 구성</a></li><li><a href="bio-2.html" data-id="bio-2"><span class="nav-id">생명과학 2</span>항상성과 몸의 조절</a></li><li><a href="bio-3.html" data-id="bio-3"><span class="nav-id">생명과학 3</span>생명의 연속성과 다양성</a></li></ul></details><details class="nav-part"><summary>지구과학<span class="nav-count">3</span></summary><ul><li><a href="earth-1.html" data-id="earth-1"><span class="nav-id">지구과학 1</span>대기와 해양의 상호작용</a></li><li><a href="earth-2.html" data-id="earth-2"><span class="nav-id">지구과학 2</span>지구의 역사와 한반도의 암석</a></li><li><a href="earth-3.html" data-id="earth-3"><span class="nav-id">지구과학 3</span>태양계 천체와 별과 우주의 진화</a></li></ul></details><p class="nav-group">고등학교 진로 선택</p><details class="nav-part"><summary>역학과 에너지<span class="nav-count">3</span></summary><ul><li><a href="mech-1.html" data-id="mech-1"><span class="nav-id">역학과 에너지 1</span>시공간과 운동</a></li><li><a href="mech-2.html" data-id="mech-2"><span class="nav-id">역학과 에너지 2</span>열과 에너지</a></li><li><a href="mech-3.html" data-id="mech-3"><span class="nav-id">역학과 에너지 3</span>탄성파와 소리</a></li></ul></details><details class="nav-part"><summary>전자기와 양자<span class="nav-count">3</span></summary><ul><li><a href="emq-1.html" data-id="emq-1"><span class="nav-id">전자기와 양자 1</span>전자기적 상호작용</a></li><li><a href="emq-2.html" data-id="emq-2"><span class="nav-id">전자기와 양자 2</span>빛과 정보 통신</a></li><li><a href="emq-3.html" data-id="emq-3"><span class="nav-id">전자기와 양자 3</span>양자와 미시세계</a></li></ul></details><details class="nav-part"><summary>물질과 에너지<span class="nav-count">4</span></summary><ul><li><a href="matter-1.html" data-id="matter-1"><span class="nav-id">물질과 에너지 1</span>물질의 세 가지 상태</a></li><li><a href="matter-2.html" data-id="matter-2"><span class="nav-id">물질과 에너지 2</span>용액의 성질</a></li><li><a href="matter-3.html" data-id="matter-3"><span class="nav-id">물질과 에너지 3</span>화학 변화의 자발성</a></li><li><a href="matter-4.html" data-id="matter-4"><span class="nav-id">물질과 에너지 4</span>반응 속도</a></li></ul></details><details class="nav-part"><summary>화학 반응의 세계<span class="nav-count">3</span></summary><ul><li><a href="rxn-1.html" data-id="rxn-1"><span class="nav-id">화학 반응의 세계 1</span>산·염기 평형</a></li><li><a href="rxn-2.html" data-id="rxn-2"><span class="nav-id">화학 반응의 세계 2</span>산화·환원 반응</a></li><li><a href="rxn-3.html" data-id="rxn-3"><span class="nav-id">화학 반응의 세계 3</span>탄소 화합물과 반응</a></li></ul></details><details class="nav-part"><summary>세포와 물질대사<span class="nav-count">3</span></summary><ul><li><a href="cell-1.html" data-id="cell-1"><span class="nav-id">세포와 물질대사 1</span>세포</a></li><li><a href="cell-2.html" data-id="cell-2"><span class="nav-id">세포와 물질대사 2</span>물질대사와 에너지</a></li><li><a href="cell-3.html" data-id="cell-3"><span class="nav-id">세포와 물질대사 3</span>세포호흡과 광합성</a></li></ul></details><details class="nav-part"><summary>생물의 유전<span class="nav-count">3</span></summary><ul><li><a href="gene-1.html" data-id="gene-1"><span class="nav-id">생물의 유전 1</span>유전자와 유전물질</a></li><li><a href="gene-2.html" data-id="gene-2"><span class="nav-id">생물의 유전 2</span>유전자의 발현</a></li><li><a href="gene-3.html" data-id="gene-3"><span class="nav-id">생물의 유전 3</span>생명공학기술</a></li></ul></details><details class="nav-part"><summary>지구시스템과학<span class="nav-count">3</span></summary><ul><li><a href="esys-1.html" data-id="esys-1"><span class="nav-id">지구시스템과학 1</span>지구 탄생과 생동하는 지구</a></li><li><a href="esys-2.html" data-id="esys-2"><span class="nav-id">지구시스템과학 2</span>해수의 운동</a></li><li><a href="esys-3.html" data-id="esys-3"><span class="nav-id">지구시스템과학 3</span>강수 과정과 대기의 운동</a></li></ul></details><details class="nav-part"><summary>행성우주과학<span class="nav-count">3</span></summary><ul><li><a href="astro-1.html" data-id="astro-1"><span class="nav-id">행성우주과학 1</span>우주탐사와 행성계</a></li><li><a href="astro-2.html" data-id="astro-2"><span class="nav-id">행성우주과학 2</span>태양과 별의 관측</a></li><li><a href="astro-3.html" data-id="astro-3"><span class="nav-id">행성우주과학 3</span>은하와 우주</a></li></ul></details><p class="nav-group">찾아보기</p><ul class="nav-extra"><li><a href="map.html">개념 연계 지도</a></li><li><a href="glossary.html">핵심 용어 사전</a></li><li><a href="sims.html">시뮬레이션 모아 보기</a></li><li><a href="guide.html">교재 설계 안내</a></li><li><a href="appendix-standards.html">통합과학 성취기준 원문</a></li><li><a href="appendix-map.html">통합과학 대학·산업 연계 지도</a></li></ul></nav></aside>
 <main class="main" id="main">
 <div class="lesson-grid"><nav class="ladder" aria-label="이 단원의 흐름"><p class="ladder-title">이 단원의 흐름</p><ol><li class="extra"><a href="#단원-들어가기">단원 들어가기</a></li><li class="s1"><a href="#step-1"><b>STEP 1</b> 이전 학습 다시 보기</a></li><li class="s2"><a href="#step-2"><b>STEP 2</b> 기초 다지기</a></li><li class="s3"><a href="#step-3"><b>STEP 3</b> 핵심 개념</a></li><li class="s4"><a href="#step-4"><b>STEP 4</b> 오개념 바로잡기</a></li><li class="s5"><a href="#step-5"><b>STEP 5</b> 다음 단계로 한 걸음 더</a></li><li class="s6"><a href="#step-6"><b>STEP 6</b> 생활·산업·진로 연결</a></li><li class="extra"><a href="#탐구-활동-거울과-렌즈에-의한-상-소리의-진폭-진동수-파형-탐구하기">탐구 활동 — 거울과 렌즈에 의한 상, 소리의 진폭·진동수·파형 탐구하기</a></li><li class="extra"><a href="#개념-확인-문제">개념 확인 문제</a></li><li class="extra"><a href="#한눈에-정리">한눈에 정리</a></li></ol></nav><article class="prose lesson"><header class="lesson-hero st-energy">
   <p class="eyebrow">중학교 과학 · 2학년</p>
   <h1><span class="lesson-id">중2-3</span>빛과 파동</h1>
   <p class="lesson-sub">보이고 들리는 모든 것의 길</p>
 </header><section class="links-panel" aria-label="개념 연결">
-  <div class="lp-col"><p class="lp-title">먼저 배운 내용</p><p class="lp-empty">이 책에서는 여기가 출발점이다.</p></div>
+  <div class="lp-col"><p class="lp-title">먼저 배운 내용</p><ul><li><a href="m1-03.html"><span class="lp-where">중1</span>열</a></li></ul></div>
   <div class="lp-now"><span>지금</span><b>빛과 파동</b></div>
-  <div class="lp-col"><p class="lp-title">이어지는 내용</p><ul><li><a href="m2-08.html"><span class="lp-where">중2</span>별과 우주</a></li><li><a href="m3-05.html"><span class="lp-where">중3</span>자극과 반응</a></li><li><a href="1-4.html"><span class="lp-where">통합과학1</span>정보와 신호: 아날로그에서 디지털로</a></li><li><a href="2-1.html"><span class="lp-where">통합과학1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="phy-3.html"><span class="lp-where">물리학</span>빛과 물질</a></li><li><a href="emq-2.html"><span class="lp-where">전자기와 양자</span>빛과 정보 통신</a></li><li><a href="esys-2.html"><span class="lp-where">지구시스템과학</span>해수의 운동</a></li></ul></div>
-</section><!-- next: 2-1, 1-4, phy-3, emq-2, mech-3 -->
+  <div class="lp-col"><p class="lp-title">이어지는 내용</p><ul><li><a href="m2-08.html"><span class="lp-where">중2</span>별과 우주</a></li><li><a href="m3-05.html"><span class="lp-where">중3</span>자극과 반응</a></li><li><a href="1-4.html"><span class="lp-where">통합과학1</span>정보와 신호: 아날로그에서 디지털로</a></li><li><a href="2-1.html"><span class="lp-where">통합과학1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="phy-3.html"><span class="lp-where">물리학</span>빛과 물질</a></li><li><a href="mech-3.html"><span class="lp-where">역학과 에너지</span>탄성파와 소리</a></li><li><a href="emq-2.html"><span class="lp-where">전자기와 양자</span>빛과 정보 통신</a></li><li><a href="esys-2.html"><span class="lp-where">지구시스템과학</span>해수의 운동</a></li></ul></div>
+</section><!-- prev: m1-03 -->
+<!-- next: 2-1, 1-4, phy-3, emq-2, mech-3 -->
 
 <aside class="callout note"><p class="callout-title">성취기준·참고</p><p><strong>성취기준</strong></p>
 <ul>
@@ -296,6 +299,8 @@
 <td>물이 없을 때는 컵 벽에 가려 동전의 빛이 눈에 못 오지만, 물을 부으면 빛이 수면에서 꺾여 눈에 들어온다</td>
 </tr>
 </tbody></table></div>
+<figure class="sim" id="sim-reflect-refract" data-sim="reflect-refract"><noscript>이 애니메이션은 자바스크립트가 필요하다.</noscript></figure>
+
 <h4 id="예제-3-동전이-떠오르는-컵">예제 3 — 동전이 떠오르는 컵</h4>
 <p>불투명한 컵 바닥에 동전을 놓고, 동전이 컵 가장자리에 막 가려 보이지 않는 위치에 눈을 두었다. 컵에 물을 천천히 부으면 어떤 일이 일어나는지 빛의 경로로 설명하시오.</p>
 <p><strong>풀이</strong> 물이 없을 때 동전에서 눈 쪽으로 곧게 가는 빛은 컵 가장자리에 가로막힌다. 물을 부으면 동전에서 나온 빛이 수면을 지나 공기로 나올 때 <strong>법선에서 멀어지는 쪽</strong>(수면에 더 눕는 쪽, 즉 컵 바깥쪽)으로 꺾여 컵 가장자리를 넘어 눈에 들어온다. 눈은 그 빛이 곧게 온 것으로 여기므로 동전이 원래보다 <strong>위로 떠오른 곳</strong>에 보인다.</p>
@@ -310,6 +315,89 @@
 <li>눈은 빛이 곧게 왔다고 믿으므로, 반사 광선을 <strong>거울 뒤쪽으로 곧게 연장</strong>한다.</li>
 <li>연장선들이 거울 뒤의 <strong>한 점에서 만난다.</strong> 눈은 그곳에 코끝이 있다고 느낀다. 이 점이 코끝의 상이다.</li>
 </ol>
+<figure class="fig" id="fig-m2-03-plane-mirror-image"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img" aria-labelledby="t-m2-03-plane-mirror-image d-m2-03-plane-mirror-image">
+  <title id="t-m2-03-plane-mirror-image">그림 중2-3-1 평면거울에 상이 생기는 원리</title>
+  <desc id="d-m2-03-plane-mirror-image">물체의 끝에서 나온 빛이 거울에서 입사각과 반사각이 같게 반사되어 눈에 들어온다. 눈은 빛이 곧게 왔다고 여기므로 반사 광선을 거울 뒤로 연장한 점선이 만나는 곳에 상이 보인다. 상은 거울 뒤, 물체와 같은 거리에 같은 크기로 생기며, 눈의 위치가 달라도 상의 위치는 같다.</desc>
+  <style>
+    .m2-03-pmi-t{font-size:14px;fill:var(--fig-ink)}
+    .m2-03-pmi-s{font-size:13px;fill:var(--fig-muted)}
+    .m2-03-pmi-b{font-size:14px;font-weight:600}
+    .m2-03-pmi-ray{fill:none;stroke:var(--fig-red);stroke-width:2.4}
+    .m2-03-pmi-ext{fill:none;stroke:var(--fig-red);stroke-width:1.6;stroke-dasharray:6 5;opacity:.8}
+    .m2-03-pmi-head{fill:var(--fig-red)}
+  </style>
+  <rect x="0" y="0" width="720" height="440" style="fill:var(--fig-paper)"/>
+  <!-- 거울 -->
+  <rect x="360" y="40" width="12" height="380" style="fill:var(--fig-soft-blue)"/>
+  <line x1="360" y1="40" x2="360" y2="420" style="stroke:var(--fig-blue);stroke-width:3"/>
+  <g style="stroke:var(--fig-blue);stroke-width:1.2">
+    <line x1="362" y1="60" x2="374" y2="48"/><line x1="362" y1="100" x2="374" y2="88"/><line x1="362" y1="140" x2="374" y2="128"/>
+    <line x1="362" y1="180" x2="374" y2="168"/><line x1="362" y1="220" x2="374" y2="208"/><line x1="362" y1="260" x2="374" y2="248"/>
+    <line x1="362" y1="300" x2="374" y2="288"/><line x1="362" y1="340" x2="374" y2="328"/><line x1="362" y1="380" x2="374" y2="368"/>
+  </g>
+  <text x="380" y="414" class="m2-03-pmi-t m2-03-pmi-b" style="fill:var(--fig-blue)">평면거울</text>
+
+  <!-- 거리 -->
+  <g style="stroke:var(--fig-muted);stroke-width:1.2">
+    <line x1="200" y1="70" x2="356" y2="70"/><line x1="200" y1="64" x2="200" y2="76"/>
+    <line x1="364" y1="70" x2="520" y2="70"/><line x1="520" y1="64" x2="520" y2="76"/>
+  </g>
+  <text x="280" y="62" text-anchor="middle" class="m2-03-pmi-s">거리 a</text>
+  <text x="440" y="62" text-anchor="middle" class="m2-03-pmi-s">같은 거리 a</text>
+
+  <!-- 물체 -->
+  <line x1="200" y1="250" x2="200" y2="128" style="stroke:var(--fig-ink);stroke-width:4"/>
+  <path d="M200 112 L190 132 L210 132 Z" style="fill:var(--fig-ink)"/>
+  <circle cx="200" cy="120" r="4" style="fill:var(--fig-red)"/>
+  <text x="200" y="272" text-anchor="middle" class="m2-03-pmi-t m2-03-pmi-b">물체</text>
+  <text x="182" y="116" text-anchor="end" class="m2-03-pmi-s">점 P</text>
+
+  <!-- 상 -->
+  <line x1="520" y1="250" x2="520" y2="128" style="stroke:var(--fig-muted);stroke-width:3;stroke-dasharray:7 5"/>
+  <path d="M520 112 L510 132 L530 132 Z" style="fill:none;stroke:var(--fig-muted);stroke-width:2"/>
+  <circle cx="520" cy="120" r="4" style="fill:var(--fig-red)"/>
+  <text x="520" y="272" text-anchor="middle" class="m2-03-pmi-t m2-03-pmi-b" style="fill:var(--fig-muted)">상</text>
+  <text x="538" y="116" class="m2-03-pmi-s">점 P의 상</text>
+  <text x="540" y="300" class="m2-03-pmi-s">빛이 실제로 오지는 않는다.</text>
+  <text x="540" y="318" class="m2-03-pmi-s">연장선이 만나는 곳에</text>
+  <text x="540" y="336" class="m2-03-pmi-s">물체가 있는 것처럼 보인다.</text>
+
+  <!-- 광선 1: P → (360,160) → 눈 ① -->
+  <polyline points="200,120 360,160 80,230" class="m2-03-pmi-ray"/>
+  <path d="M285.8 141.5 L274.0 143.5 L276.4 134.1 Z" class="m2-03-pmi-head"/>
+  <path d="M214.2 196.5 L223.6 189.1 L226.0 198.5 Z" class="m2-03-pmi-head"/>
+  <line x1="360" y1="160" x2="520" y2="120" class="m2-03-pmi-ext"/>
+  <!-- 광선 2: P → (360,215) → 눈 ② -->
+  <polyline points="200,120 360,215 80,381.2" class="m2-03-pmi-ray"/>
+  <path d="M285.2 170.6 L273.2 169.2 L278.2 160.8 Z" class="m2-03-pmi-head"/>
+  <path d="M214.8 301.2 L221.8 291.4 L226.8 299.8 Z" class="m2-03-pmi-head"/>
+  <line x1="360" y1="215" x2="520" y2="120" class="m2-03-pmi-ext"/>
+
+  <!-- 법선과 각 (반사점 1) -->
+  <line x1="280" y1="160" x2="440" y2="160" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:4 4"/>
+  <text x="300" y="154" class="m2-03-pmi-s">법선</text>
+  <path d="M328 152 A33 33 0 0 0 328 168" style="fill:none;stroke:var(--fig-violet);stroke-width:1.8"/>
+  <text x="318" y="190" text-anchor="middle" class="m2-03-pmi-s" style="fill:var(--fig-violet)">입사각 = 반사각</text>
+
+  <!-- 눈 -->
+  <g>
+    <path d="M58 230 Q80 216 102 230 Q80 244 58 230 Z" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.6"/>
+    <circle cx="80" cy="230" r="6" style="fill:var(--fig-ink)"/>
+    <text x="40" y="258" class="m2-03-pmi-t">눈 ①</text>
+    <path d="M58 381 Q80 367 102 381 Q80 395 58 381 Z" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.6"/>
+    <circle cx="80" cy="381" r="6" style="fill:var(--fig-ink)"/>
+    <text x="40" y="410" class="m2-03-pmi-t">눈 ②</text>
+  </g>
+
+  <!-- 범례 -->
+  <line x1="420" y1="372" x2="450" y2="372" class="m2-03-pmi-ray"/>
+  <text x="458" y="377" class="m2-03-pmi-s">실제 빛의 경로</text>
+  <line x1="580" y1="372" x2="610" y2="372" class="m2-03-pmi-ext"/>
+  <text x="618" y="377" class="m2-03-pmi-s">반사 광선의 연장선</text>
+  <text x="704" y="30" text-anchor="end" class="m2-03-pmi-s">눈의 위치가 달라도 상은 같은 곳에 보인다</text>
+</svg>
+</div><figcaption><b>그림 중2-3-1 평면거울에 상이 생기는 원리</b> 물체의 끝에서 나온 빛이 거울에서 입사각과 반사각이 같게 반사되어 눈에 들어온다. 눈은 빛이 곧게 왔다고 여기므로 반사 광선을 거울 뒤로 연장한 점선이 만나는 곳에 상이 보인다. 상은 거울 뒤, 물체와 같은 거리에 같은 크기로 생기며, 눈의 위치가 달라도 상의 위치는 같다.</figcaption></figure>
+
 <p>이렇게 물체의 모든 점에 대해 상을 찾으면, 평면거울에 생기는 상의 특징을 알 수 있다.</p>
 <div class="table-wrap"><table><thead><tr>
 <th>평면거울에 생기는 상의 특징</th>
@@ -332,8 +420,8 @@
 <td>좌우가 <strong>바뀐 것처럼</strong> 보인다. 오른손을 들면 거울 속의 나는 왼손을 든 것처럼 보인다</td>
 </tr>
 <tr>
-<td>위치</td>
-<td>상이 생기는 곳에 실제로 빛이 모이지는 않는다. 거울 뒤에 종이를 대어도 상이 비치지 않는다</td>
+<td>보이는 까닭</td>
+<td>반사 광선을 거울 뒤쪽으로 곧게 연장한 선들이 만나는 곳에 물체가 있는 것처럼 보이는 것이다. 빛이 실제로 거울 뒤로 가는 것은 아니다</td>
 </tr>
 </tbody></table></div>
 <aside class="callout tip"><p class="callout-title">도움말</p><p>💡 구급차 앞쪽에 <code>AMBULANCE</code>라는 글자를 <strong>좌우를 뒤집어</strong> 써 놓는 까닭이 바로 이것이다. 앞차 운전자가 백미러(평면거울에 가까운 거울)로 보면 글자가 바르게 읽힌다.</p>
@@ -428,7 +516,128 @@
 </aside>
 <aside class="callout warning"><p class="callout-title">주의</p><p>자동차 측면 거울에 &quot;사물이 거울에 보이는 것보다 가까이 있음&quot;이라고 적혀 있는 것은 볼록거울이 물체를 <strong>작게</strong> 보여 주어 실제보다 멀리 있는 것처럼 느껴지기 때문이다. 차선을 바꿀 때 특히 주의해야 한다.</p>
 </aside>
-<h4 id="예제-6">예제 6</h4>
+<figure class="fig" id="fig-m2-03-mirrors-lenses"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-labelledby="t-m2-03-ml d-m2-03-ml">
+  <title id="t-m2-03-ml">그림 중2-3-2 거울과 렌즈가 빛을 바꾸는 방식</title>
+  <desc id="d-m2-03-ml">나란히 들어온 빛을 오목거울과 볼록렌즈는 한 점(초점)으로 모으고, 볼록거울과 오목렌즈는 퍼지게 한다. 퍼지는 빛을 거꾸로 연장한 점선은 한 점에서 만난다. 각 칸 아래에 물체를 가까이·멀리 두었을 때 보이는 모습과 쓰임을 적었다. 모식도이다.</desc>
+  <style>
+    .m2-03-ml-t{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .m2-03-ml-s{font-size:13px;fill:var(--fig-muted)}
+    .m2-03-ml-k{font-size:13px;fill:var(--fig-ink)}
+    .m2-03-ml-ray{fill:none;stroke:var(--fig-red);stroke-width:2}
+    .m2-03-ml-ext{fill:none;stroke:var(--fig-red);stroke-width:1.4;stroke-dasharray:5 4;opacity:.75}
+    .m2-03-ml-hd{fill:var(--fig-red)}
+    .m2-03-ml-ax{stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4}
+    .m2-03-ml-box{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2}
+  </style>
+<text x="20" y="28" class="m2-03-ml-t" style="fill:var(--fig-green)">빛을 모은다</text>
+<text x="20" y="288" class="m2-03-ml-t" style="fill:var(--fig-violet)">빛을 퍼뜨린다</text>
+<rect x="20" y="40" width="336" height="236" rx="8" class="m2-03-ml-box"/>
+<text x="34" y="64" class="m2-03-ml-t">오목거울 (반사)</text>
+<line x1="30" y1="140" x2="346" y2="140" class="m2-03-ml-ax"/>
+<polyline points="238.3,78 239.8,82 241.2,86 242.5,90 243.7,94 244.7,98 245.7,102 246.6,106 247.3,110 248.0,114 248.6,118 249.0,122 249.4,126 249.7,130 249.9,134 250.0,138 250.0,142 249.9,146 249.7,150 249.4,154 249.0,158 248.6,162 248.0,166 247.3,170 246.6,174 245.7,178 244.7,182 243.7,186 242.5,190 241.2,194 239.8,198 238.3,202" style="fill:none;stroke:var(--fig-blue);stroke-width:4"/>
+<line x1="242.5" y1="84" x2="250.5" y2="76" style="stroke:var(--fig-blue);stroke-width:1"/>
+<line x1="246.7" y1="98" x2="254.7" y2="90" style="stroke:var(--fig-blue);stroke-width:1"/>
+<line x1="249.7" y1="112" x2="257.7" y2="104" style="stroke:var(--fig-blue);stroke-width:1"/>
+<line x1="251.4" y1="126" x2="259.4" y2="118" style="stroke:var(--fig-blue);stroke-width:1"/>
+<line x1="252.0" y1="140" x2="260.0" y2="132" style="stroke:var(--fig-blue);stroke-width:1"/>
+<line x1="251.4" y1="154" x2="259.4" y2="146" style="stroke:var(--fig-blue);stroke-width:1"/>
+<line x1="249.7" y1="168" x2="257.7" y2="160" style="stroke:var(--fig-blue);stroke-width:1"/>
+<line x1="246.7" y1="182" x2="254.7" y2="174" style="stroke:var(--fig-blue);stroke-width:1"/>
+<line x1="242.5" y1="196" x2="250.5" y2="188" style="stroke:var(--fig-blue);stroke-width:1"/>
+<line x1="36" y1="98" x2="244.7" y2="98" class="m2-03-ml-ray"/>
+<path d="M134.9 98.0 L125.8 102.1 L125.8 93.9 Z" class="m2-03-ml-hd"/>
+<line x1="244.7" y1="98" x2="109.2" y2="169.4" class="m2-03-ml-ray"/>
+<path d="M199.6 121.8 L205.8 113.9 L209.6 121.1 Z" class="m2-03-ml-hd"/>
+<line x1="36" y1="140" x2="250.0" y2="140" class="m2-03-ml-ray"/>
+<path d="M137.3 140.0 L128.2 144.1 L128.2 135.9 Z" class="m2-03-ml-hd"/>
+<line x1="250.0" y1="140" x2="76.0" y2="140.0" class="m2-03-ml-ray"/>
+<line x1="36" y1="182" x2="244.7" y2="182" class="m2-03-ml-ray"/>
+<path d="M134.9 182.0 L125.8 186.1 L125.8 177.9 Z" class="m2-03-ml-hd"/>
+<line x1="244.7" y1="182" x2="109.2" y2="110.6" class="m2-03-ml-ray"/>
+<path d="M199.6 158.2 L209.6 158.9 L205.8 166.1 Z" class="m2-03-ml-hd"/>
+<circle cx="165.0" cy="140" r="4" style="fill:var(--fig-ink)"/>
+<text x="165.0" y="160" text-anchor="middle" class="m2-03-ml-k">초점</text>
+<text x="34" y="226" class="m2-03-ml-k">가까운 물체: 크고 바로 선 모습</text>
+<text x="34" y="244" class="m2-03-ml-k">먼 물체: 거꾸로 선 모습</text>
+<text x="34" y="262" class="m2-03-ml-s">쓰임: 화장용 확대 거울, 전조등 반사판</text>
+<rect x="364" y="40" width="336" height="236" rx="8" class="m2-03-ml-box"/>
+<text x="378" y="64" class="m2-03-ml-t">볼록렌즈 (굴절)</text>
+<line x1="374" y1="140" x2="690" y2="140" class="m2-03-ml-ax"/>
+<path d="M532 76 Q564 140 532 204 Q500 140 532 76 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+<line x1="380" y1="98" x2="532" y2="98" class="m2-03-ml-ray"/>
+<path d="M453.4 98.0 L444.3 102.1 L444.3 93.9 Z" class="m2-03-ml-hd"/>
+<line x1="532" y1="98" x2="674.6" y2="163.1" class="m2-03-ml-ray"/>
+<path d="M622.1 139.1 L612.1 139.1 L615.5 131.6 Z" class="m2-03-ml-hd"/>
+<line x1="380" y1="140" x2="532" y2="140" class="m2-03-ml-ray"/>
+<path d="M453.4 140.0 L444.3 144.1 L444.3 135.9 Z" class="m2-03-ml-hd"/>
+<line x1="532" y1="140" x2="679.2" y2="140.0" class="m2-03-ml-ray"/>
+<path d="M625.3 140.0 L616.2 144.1 L616.2 135.9 Z" class="m2-03-ml-hd"/>
+<line x1="380" y1="182" x2="532" y2="182" class="m2-03-ml-ray"/>
+<path d="M453.4 182.0 L444.3 186.1 L444.3 177.9 Z" class="m2-03-ml-hd"/>
+<line x1="532" y1="182" x2="674.6" y2="116.9" class="m2-03-ml-ray"/>
+<path d="M622.1 140.9 L615.5 148.4 L612.1 140.9 Z" class="m2-03-ml-hd"/>
+<circle cx="624.0" cy="140" r="4" style="fill:var(--fig-ink)"/>
+<text x="624.0" y="160" text-anchor="middle" class="m2-03-ml-k">초점</text>
+<text x="378" y="226" class="m2-03-ml-k">가까운 물체: 크고 바로 선 모습</text>
+<text x="378" y="244" class="m2-03-ml-k">먼 물체: 거꾸로 선 모습</text>
+<text x="378" y="262" class="m2-03-ml-s">쓰임: 돋보기, 원시용 안경, 카메라</text>
+<rect x="20" y="300" width="336" height="236" rx="8" class="m2-03-ml-box"/>
+<text x="34" y="324" class="m2-03-ml-t">볼록거울 (반사)</text>
+<line x1="30" y1="400" x2="346" y2="400" class="m2-03-ml-ax"/>
+<polyline points="261.7,338 260.2,342 258.8,346 257.5,350 256.3,354 255.3,358 254.3,362 253.4,366 252.7,370 252.0,374 251.4,378 251.0,382 250.6,386 250.3,390 250.1,394 250.0,398 250.0,402 250.1,406 250.3,410 250.6,414 251.0,418 251.4,422 252.0,426 252.7,430 253.4,434 254.3,438 255.3,442 256.3,446 257.5,450 258.8,454 260.2,458 261.7,462" style="fill:none;stroke:var(--fig-blue);stroke-width:4"/>
+<line x1="261.5" y1="344" x2="269.5" y2="336" style="stroke:var(--fig-blue);stroke-width:1"/>
+<line x1="257.3" y1="358" x2="265.3" y2="350" style="stroke:var(--fig-blue);stroke-width:1"/>
+<line x1="254.3" y1="372" x2="262.3" y2="364" style="stroke:var(--fig-blue);stroke-width:1"/>
+<line x1="252.6" y1="386" x2="260.6" y2="378" style="stroke:var(--fig-blue);stroke-width:1"/>
+<line x1="252.0" y1="400" x2="260.0" y2="392" style="stroke:var(--fig-blue);stroke-width:1"/>
+<line x1="252.6" y1="414" x2="260.6" y2="406" style="stroke:var(--fig-blue);stroke-width:1"/>
+<line x1="254.3" y1="428" x2="262.3" y2="420" style="stroke:var(--fig-blue);stroke-width:1"/>
+<line x1="257.3" y1="442" x2="265.3" y2="434" style="stroke:var(--fig-blue);stroke-width:1"/>
+<line x1="261.5" y1="456" x2="269.5" y2="448" style="stroke:var(--fig-blue);stroke-width:1"/>
+<line x1="36" y1="358" x2="255.3" y2="358" class="m2-03-ml-ray"/>
+<path d="M139.7 358.0 L130.5 362.1 L130.5 353.9 Z" class="m2-03-ml-hd"/>
+<line x1="255.3" y1="358" x2="335.0" y2="400" class="m2-03-ml-ext"/>
+<line x1="255.3" y1="358" x2="175.6" y2="316.1" class="m2-03-ml-ray"/>
+<path d="M207.1 332.6 L217.0 333.2 L213.2 340.5 Z" class="m2-03-ml-hd"/>
+<line x1="36" y1="400" x2="250.0" y2="400" class="m2-03-ml-ray"/>
+<path d="M137.3 400.0 L128.2 404.1 L128.2 395.9 Z" class="m2-03-ml-hd"/>
+<line x1="250.0" y1="400" x2="76.0" y2="400.0" class="m2-03-ml-ray"/>
+<line x1="36" y1="442" x2="255.3" y2="442" class="m2-03-ml-ray"/>
+<path d="M139.7 442.0 L130.5 446.1 L130.5 437.9 Z" class="m2-03-ml-hd"/>
+<line x1="255.3" y1="442" x2="335.0" y2="400" class="m2-03-ml-ext"/>
+<line x1="255.3" y1="442" x2="175.6" y2="483.9" class="m2-03-ml-ray"/>
+<path d="M207.1 467.4 L213.2 459.5 L217.0 466.8 Z" class="m2-03-ml-hd"/>
+<circle cx="335.0" cy="400" r="4" style="fill:var(--fig-ink)"/>
+<text x="335.0" y="420" text-anchor="middle" class="m2-03-ml-k">초점</text>
+<text x="34" y="486" class="m2-03-ml-k">언제나 작고 바로 선 모습</text>
+<text x="34" y="504" class="m2-03-ml-k">넓은 범위가 보인다</text>
+<text x="34" y="522" class="m2-03-ml-s">쓰임: 도로 반사경, 자동차 측면 거울</text>
+<rect x="364" y="300" width="336" height="236" rx="8" class="m2-03-ml-box"/>
+<text x="378" y="324" class="m2-03-ml-t">오목렌즈 (굴절)</text>
+<line x1="374" y1="400" x2="690" y2="400" class="m2-03-ml-ax"/>
+<path d="M521 336 L543 336 Q534 400 543 464 L521 464 Q530 400 521 336 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+<line x1="380" y1="358" x2="532" y2="358" class="m2-03-ml-ray"/>
+<path d="M453.4 358.0 L444.3 362.1 L444.3 353.9 Z" class="m2-03-ml-hd"/>
+<line x1="532" y1="358" x2="440" y2="400" class="m2-03-ml-ext"/>
+<line x1="532" y1="358" x2="627.5" y2="314.4" class="m2-03-ml-ray"/>
+<path d="M593.9 329.8 L587.2 337.3 L583.9 329.8 Z" class="m2-03-ml-hd"/>
+<line x1="380" y1="400" x2="532" y2="400" class="m2-03-ml-ray"/>
+<path d="M453.4 400.0 L444.3 404.1 L444.3 395.9 Z" class="m2-03-ml-hd"/>
+<line x1="532" y1="400" x2="637.0" y2="400.0" class="m2-03-ml-ray"/>
+<path d="M600.0 400.0 L590.9 404.1 L590.9 395.9 Z" class="m2-03-ml-hd"/>
+<line x1="380" y1="442" x2="532" y2="442" class="m2-03-ml-ray"/>
+<path d="M453.4 442.0 L444.3 446.1 L444.3 437.9 Z" class="m2-03-ml-hd"/>
+<line x1="532" y1="442" x2="440" y2="400" class="m2-03-ml-ext"/>
+<line x1="532" y1="442" x2="627.5" y2="485.6" class="m2-03-ml-ray"/>
+<path d="M593.9 470.2 L583.9 470.2 L587.2 462.7 Z" class="m2-03-ml-hd"/>
+<circle cx="440.0" cy="400" r="4" style="fill:var(--fig-ink)"/>
+<text x="440.0" y="420" text-anchor="middle" class="m2-03-ml-k">초점</text>
+<text x="378" y="486" class="m2-03-ml-k">언제나 작고 바로 선 모습</text>
+<text x="378" y="504" class="m2-03-ml-k">넓은 범위가 보인다</text>
+<text x="378" y="522" class="m2-03-ml-s">쓰임: 근시용 안경, 현관문 보안 렌즈</text>
+</svg></div><figcaption><b>그림 중2-3-2 거울과 렌즈가 빛을 바꾸는 방식</b> 나란히 들어온 빛을 오목거울과 볼록렌즈는 한 점(초점)으로 모으고, 볼록거울과 오목렌즈는 퍼지게 한다. 퍼지는 빛을 거꾸로 연장한 점선은 한 점에서 만난다. 각 칸 아래에 물체를 가까이·멀리 두었을 때 보이는 모습과 쓰임을 적었다. 모식도이다.</figcaption></figure>
+
+<h4 id="예제-5">예제 5</h4>
 <p>다음 상황에 알맞은 거울이나 렌즈를 고르고 그 까닭을 쓰시오.
 (1) 아파트 지하 주차장의 굽은 통로에서 반대편 차를 넓게 보고 싶다.
 (2) 작은 글씨를 크게 확대해서 읽고 싶다.</p>
@@ -527,7 +736,7 @@
 <td>검정</td>
 </tr>
 </tbody></table></div>
-<h4 id="예제-7">예제 7</h4>
+<h4 id="예제-6">예제 6</h4>
 <p>흰 종이에 빨간 글씨와 파란 글씨가 쓰여 있다. 이 종이를 빨간빛으로만 비추면 각각 어떻게 보이는가?</p>
 <p><strong>풀이</strong> 흰 종이는 빨간빛을 반사하므로 빨갛게 보인다. 빨간 글씨도 빨간빛을 반사하므로 빨갛게 보여 <strong>종이와 구별되지 않아 사라진 것처럼</strong> 보인다. 파란 글씨는 빨간빛을 흡수하므로 <strong>검게</strong> 보여 또렷이 읽힌다.</p>
 <h3 id="⑦-영상-장치의-색-세-가지-빛으로-수많은-색을-9과10-03">⑦ 영상 장치의 색 — 세 가지 빛으로 수많은 색을 [9과10-03]</h3>
@@ -653,7 +862,7 @@
 <ul>
 <li>줄을 <strong>더 크게</strong> 흔들면 진폭과 전달되는 에너지가 커지고, <strong>더 자주</strong> 흔들면 진동수가 커지며 파장은 <strong>짧아진다</strong>(물결이 촘촘해진다).</li>
 </ul>
-<h4 id="예제-8">예제 8</h4>
+<h4 id="예제-7">예제 7</h4>
 <p>줄의 한쪽 끝을 4초 동안 12번 위아래로 흔들었더니 줄에 물결이 생겼다. 이웃한 두 마루 사이의 거리는 50 cm였고, 마루에서 골까지의 높이는 16 cm였다.
 (1) 진동수 (2) 주기 (3) 파장 (4) 진폭을 구하시오.</p>
 <p><strong>풀이</strong>
@@ -668,7 +877,7 @@
 <li>소리가 전달되는 빠르기는 매질에 따라 다르다. 공기 속에서는 1초에 약 340 m를 가고, 일반적으로 물이나 고체 속에서 더 빠르다. 철로에 귀를 대면 기차 소리를 더 빨리 들을 수 있는 까닭이다.</li>
 <li>빛(1초에 약 30만 km)은 소리보다 훨씬 빠르다. 그래서 번개가 먼저 보이고 천둥소리가 나중에 들린다.</li>
 </ul>
-<h4 id="예제-9-천둥까지의-거리">예제 9 — 천둥까지의 거리</h4>
+<h4 id="예제-8-천둥까지의-거리">예제 8 — 천둥까지의 거리</h4>
 <p>번개가 친 뒤 3초 만에 천둥소리가 들렸다. 공기 중 소리의 속력을 340 m/s라고 할 때, 번개가 친 곳까지의 거리는 약 몇 m인가? (빛이 오는 데 걸린 시간은 무시한다.)</p>
 <p><strong>풀이</strong> 거리 = 속력 × 시간 = <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">340</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">3</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1020</span><span class="mspace"> </span><span class="mord mathrm">m</span></span></span></span>, 약 1 km이다. &quot;번개와 천둥 사이 초를 세어 3으로 나누면 대략 몇 km인지 알 수 있다&quot;는 생활 요령이 여기서 나온다.</p>
 <p>이제 소리를 구별하는 세 가지 특성, <strong>소리의 3요소</strong>를 파동의 용어로 나타내 보자. 마이크와 소리 분석 앱(디지털 탐구 도구)을 쓰면 소리를 그래프(파형)로 볼 수 있다.</p>
@@ -700,7 +909,9 @@
 <aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 소리의 3요소를 사람의 &#39;목소리&#39;로 생각해 보자. 소리를 지르면 <strong>크기</strong>(진폭)가 커지고, 노래에서 고음을 내면 <strong>높낮이</strong>(진동수)가 올라간다. 그런데 친구가 같은 크기, 같은 높이로 &quot;도&quot;를 불러도 누구 목소리인지 알아들을 수 있다. 사람마다 목소리의 <strong>맵시</strong>(파형)가 다르기 때문이다.</p>
 </aside>
 <p>사람이 들을 수 있는 소리의 진동수는 대략 20 Hz에서 20 000 Hz 사이이다(나이가 들면 높은 소리를 잘 못 듣게 된다). 이보다 진동수가 큰 소리를 <strong>초음파(ultrasound)</strong> 라고 한다. 박쥐와 돌고래는 초음파를 내고, 되돌아오는 소리로 먹이와 장애물을 찾는다.</p>
-<h4 id="예제-10-파형-비교하기">예제 10 — 파형 비교하기</h4>
+<figure class="sim" id="sim-sound-wave" data-sim="sound-wave"><noscript>이 애니메이션은 자바스크립트가 필요하다.</noscript></figure>
+
+<h4 id="예제-9-파형-비교하기">예제 9 — 파형 비교하기</h4>
 <p>같은 시간 동안 소리 분석 앱으로 소리 A, B, C를 측정하였다.</p>
 <ul>
 <li>A: 물결 4개, 위아래 높이 작음</li>
@@ -1038,7 +1249,7 @@
 </div></details>
 
 <h3 id="융합-서술형">융합·서술형</h3>
-<p><strong>10. [안전 연계]</strong> 친구가 &quot;자동차 측면 거울을 평면거울로 바꾸면 차가 실제 크기로 보여서 더 안전할 거야.&quot;라고 말했다. 측면 거울로 볼록거울을 쓰는 까닭과, 볼록거울을 쓸 때 운전자가 주의해야 할 점을 상의 특징과 관련지어 서술하시오.</p>
+<p><strong>8. [안전 연계]</strong> 친구가 &quot;자동차 측면 거울을 평면거울로 바꾸면 차가 실제 크기로 보여서 더 안전할 거야.&quot;라고 말했다. 측면 거울로 볼록거울을 쓰는 까닭과, 볼록거울을 쓸 때 운전자가 주의해야 할 점을 상의 특징과 관련지어 서술하시오.</p>
 <details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
 
 <p><strong>예시 답안</strong>
@@ -1046,7 +1257,7 @@
 <p><strong>채점 포인트</strong> ① 볼록거울의 상이 작고 바로 섬 ② 넓은 범위를 볼 수 있음 ③ 실제보다 멀게 느껴지는 점에 대한 주의</p>
 </div></details>
 
-<p><strong>11. [음악·미술 연계]</strong> 미술 시간에 빨강·초록·파랑 물감을 모두 섞었더니 어두운 갈색에 가까운 색이 되었는데, 과학 시간에 빨강·초록·파랑 조명을 한곳에 비추었더니 흰색이 되었다. (1) 두 결과가 다른 까닭을 설명하고, (2) 스마트폰 화면에서 흰 바탕 위의 노란 글자가 어떻게 표현되는지 화소의 빛으로 설명하시오.</p>
+<p><strong>9. [음악·미술 연계]</strong> 미술 시간에 빨강·초록·파랑 물감을 모두 섞었더니 어두운 갈색에 가까운 색이 되었는데, 과학 시간에 빨강·초록·파랑 조명을 한곳에 비추었더니 흰색이 되었다. (1) 두 결과가 다른 까닭을 설명하고, (2) 스마트폰 화면에서 흰 바탕 위의 노란 글자가 어떻게 표현되는지 화소의 빛으로 설명하시오.</p>
 <details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
 
 <p><strong>예시 답안</strong>
@@ -1128,7 +1339,10 @@
 </tbody></table></div>
 <h3 id="다음-단원으로">다음 단원으로</h3>
 <p>빛과 소리는 모두 <strong>에너지와 정보를 실어 나르는 파동</strong>이었다. 다음 단원 「물질의 구성」에서는 눈을 돌려, 빛을 반사하고 흡수하는 그 <strong>물질 자체</strong>가 무엇으로 이루어져 있는지 원소와 원자의 세계로 들어가 본다. 고등학교에 가면 이 두 이야기가 다시 만난다. 「빛의 스펙트럼과 우주 초기 원소」에서 원소마다 내는 빛의 띠를 분석해 별을 이루는 원소를 알아내게 된다.</p>
-<nav class="pager"><a class="prev" href="m2-02.html"><small>이전 단원 · 중2</small>지권의 변화</a><a class="next" href="m2-04.html"><small>다음 단원 · 중2</small>물질의 구성</a></nav></article></div>
+<section class="done-box" id="done-box" hidden>
+  <label><input type="checkbox" id="done-check"><span>이 단원 학습을 마쳤다</span></label>
+  <p>표시해 두면 목차에 ✓가 붙고, 첫 화면에서 전체 진행 상황을 볼 수 있다. 읽던 위치와 이 표시는 지금 쓰는 기기의 브라우저에만 저장된다.</p>
+</section><nav class="pager"><a class="prev" href="m2-02.html"><small>이전 단원 · 중2</small>지권의 변화</a><a class="next" href="m2-04.html"><small>다음 단원 · 중2</small>물질의 구성</a></nav></article></div>
 </main>
 </div>
 </body>

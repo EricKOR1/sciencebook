@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-gene-2-ribosome-sites d-gene-2-ribosome-sites">
+  <title id="t-gene-2-ribosome-sites">그림 생물의 유전 2-1 리보솜의 A·P·E 자리와 번역의 신장</title>
+  <desc id="d-gene-2-ribosome-sites">mRNA 5′-AUG UUC GGC CAU UAA-3′을 번역하는 리보솜. P 자리에는 Met–Phe 사슬을 단 tRNA, A 자리에는 Gly를 단 tRNA가 있고, 아미노산을 넘겨준 빈 tRNA는 E 자리에서 떠난다. 사슬이 A 자리 tRNA의 아미노산으로 옮겨지며 펩타이드 결합이 생기고, 리보솜은 mRNA의 3′ 쪽으로 코돈 하나만큼 이동한다.</desc>
+  <style>
+    .gene-2-ribosome-sites-h{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .gene-2-ribosome-sites-tx{font-size:14px;fill:var(--fig-ink)}
+    .gene-2-ribosome-sites-sm{font-size:13px;fill:var(--fig-muted)}
+    .gene-2-ribosome-sites-site{font-size:18px;font-weight:700;fill:var(--fig-accent)}
+    .gene-2-ribosome-sites-mono{font-size:15px;font-weight:600;fill:var(--fig-ink);letter-spacing:2px}
+    .gene-2-ribosome-sites-large{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2}
+    .gene-2-ribosome-sites-small{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2}
+    .gene-2-ribosome-sites-mrna{fill:none;stroke:var(--fig-teal);stroke-width:4}
+    .gene-2-ribosome-sites-cod{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.2}
+    .gene-2-ribosome-sites-trna{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+    .gene-2-ribosome-sites-aa{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2}
+    .gene-2-ribosome-sites-aat{font-size:12px;font-weight:600;fill:var(--fig-ink)}
+    .gene-2-ribosome-sites-sep{fill:none;stroke:var(--fig-violet);stroke-width:1;stroke-dasharray:4 4}
+    .gene-2-ribosome-sites-ar{fill:none;stroke:var(--fig-red);stroke-width:2}
+    .gene-2-ribosome-sites-ah{fill:var(--fig-red)}
+    .gene-2-ribosome-sites-ar2{fill:none;stroke:var(--fig-ink);stroke-width:2}
+    .gene-2-ribosome-sites-ah2{fill:var(--fig-ink)}
+    .gene-2-ribosome-sites-bond{fill:none;stroke:var(--fig-green);stroke-width:2.5}
+  </style>
+  <path d="M136 262 L136 120 Q136 70 186 70 L318 70 Q368 70 368 120 L368 262 Z" class="gene-2-ribosome-sites-large"/>
+  <path d="M142 276 L362 276 Q374 276 374 296 Q374 320 338 320 L166 320 Q130 320 130 296 Q130 276 142 276 Z" class="gene-2-ribosome-sites-small"/>
+  <line x1="218" y1="96" x2="218" y2="238" class="gene-2-ribosome-sites-sep"/>
+  <line x1="286" y1="96" x2="286" y2="238" class="gene-2-ribosome-sites-sep"/>
+  <text x="184.0" y="94" text-anchor="middle" class="gene-2-ribosome-sites-site">E</text>
+  <text x="252.0" y="94" text-anchor="middle" class="gene-2-ribosome-sites-site">P</text>
+  <text x="320.0" y="94" text-anchor="middle" class="gene-2-ribosome-sites-site">A</text>
+  <line x1="40" y1="268" x2="560" y2="268" class="gene-2-ribosome-sites-mrna"/>
+  <text x="30" y="273" text-anchor="end" class="gene-2-ribosome-sites-tx">5′</text>
+  <text x="570" y="273" class="gene-2-ribosome-sites-tx">3′</text>
+  <rect x="153" y="257" width="62" height="22" rx="4" class="gene-2-ribosome-sites-cod"/>
+  <text x="184.0" y="274" text-anchor="middle" class="gene-2-ribosome-sites-mono">AUG</text>
+  <rect x="221" y="257" width="62" height="22" rx="4" class="gene-2-ribosome-sites-cod"/>
+  <text x="252.0" y="274" text-anchor="middle" class="gene-2-ribosome-sites-mono">UUC</text>
+  <rect x="289" y="257" width="62" height="22" rx="4" class="gene-2-ribosome-sites-cod"/>
+  <text x="320.0" y="274" text-anchor="middle" class="gene-2-ribosome-sites-mono">GGC</text>
+  <rect x="357" y="257" width="62" height="22" rx="4" class="gene-2-ribosome-sites-cod"/>
+  <text x="388.0" y="274" text-anchor="middle" class="gene-2-ribosome-sites-mono">CAU</text>
+  <rect x="425" y="257" width="62" height="22" rx="4" class="gene-2-ribosome-sites-cod"/>
+  <text x="456.0" y="274" text-anchor="middle" class="gene-2-ribosome-sites-mono">UAA</text>
+  <text x="388.0" y="304" text-anchor="middle" class="gene-2-ribosome-sites-sm">다음 코돈</text>
+  <text x="456.0" y="304" text-anchor="middle" class="gene-2-ribosome-sites-sm">종결 코돈</text>
+  <path d="M148.0 232 L148.0 210 Q148.0 202 158.0 198 L164.0 144 L180.0 144 L186.0 198 Q196.0 202 196.0 210 L196.0 232 Z" class="gene-2-ribosome-sites-trna"/>
+  <text x="172.0" y="226" text-anchor="middle" class="gene-2-ribosome-sites-mono" style="font-size:13px">UAC</text>
+  <line x1="172.0" y1="144" x2="172.0" y2="134" class="gene-2-ribosome-sites-bond" style="stroke:var(--fig-amber)"/>
+  <path d="M228.0 254 L228.0 232 Q228.0 224 238.0 220 L244.0 166 L260.0 166 L266.0 220 Q276.0 224 276.0 232 L276.0 254 Z" class="gene-2-ribosome-sites-trna"/>
+  <text x="252.0" y="248" text-anchor="middle" class="gene-2-ribosome-sites-mono" style="font-size:13px">AAG</text>
+  <line x1="252.0" y1="166" x2="252.0" y2="156" class="gene-2-ribosome-sites-bond" style="stroke:var(--fig-amber)"/>
+  <path d="M296.0 254 L296.0 232 Q296.0 224 306.0 220 L312.0 166 L328.0 166 L334.0 220 Q344.0 224 344.0 232 L344.0 254 Z" class="gene-2-ribosome-sites-trna"/>
+  <text x="320.0" y="248" text-anchor="middle" class="gene-2-ribosome-sites-mono" style="font-size:13px">CCG</text>
+  <line x1="320.0" y1="166" x2="320.0" y2="156" class="gene-2-ribosome-sites-bond" style="stroke:var(--fig-amber)"/>
+  <line x1="252.0" y1="142" x2="222.0" y2="118" class="gene-2-ribosome-sites-bond"/>
+  <circle cx="252.0" cy="142" r="15" class="gene-2-ribosome-sites-aa"/>
+  <text x="252.0" y="146" text-anchor="middle" class="gene-2-ribosome-sites-aat">Phe</text>
+  <circle cx="222.0" cy="116" r="15" class="gene-2-ribosome-sites-aa"/>
+  <text x="222.0" y="120" text-anchor="middle" class="gene-2-ribosome-sites-aat">Met</text>
+  <circle cx="320.0" cy="142" r="15" class="gene-2-ribosome-sites-aa"/>
+  <text x="320.0" y="146" text-anchor="middle" class="gene-2-ribosome-sites-aat">Gly</text>
+  <path d="M264.0 130 Q286.0 104 308.0 130" class="gene-2-ribosome-sites-ar"/>
+  <path d="M308.0 130.0 L299.5 127.1 L304.5 121.7 Z" class="gene-2-ribosome-sites-ah"/>
+  <text x="312.0" y="98" class="gene-2-ribosome-sites-tx" style="fill:var(--fig-red)">펩타이드 결합 형성</text>
+  <path d="M146.0 154 L110.0 126" class="gene-2-ribosome-sites-ar"/>
+  <path d="M110.0 126.0 L118.7 128.1 L114.2 133.9 Z" class="gene-2-ribosome-sites-ah"/>
+  <text x="106.0" y="118" text-anchor="middle" class="gene-2-ribosome-sites-sm">빈 tRNA가 떠남</text>
+  <path d="M176 340 L408 340" class="gene-2-ribosome-sites-ar2"/>
+  <path d="M408.0 340.0 L399.8 343.7 L399.8 336.3 Z" class="gene-2-ribosome-sites-ah2"/>
+  <text x="272.0" y="360" text-anchor="middle" class="gene-2-ribosome-sites-sm">리보솜은 mRNA의 3′ 쪽으로 코돈 하나씩 이동</text>
+  <text x="148" y="62" class="gene-2-ribosome-sites-sm">큰 소단위체</text>
+  <text x="382" y="308" class="gene-2-ribosome-sites-sm">작은 소단위체</text>
+  <text x="500" y="96" class="gene-2-ribosome-sites-h">리보솜의 세 자리</text>
+  <text x="500" y="124" class="gene-2-ribosome-sites-site" style="font-size:16px">A 자리</text>
+  <text x="500" y="143" class="gene-2-ribosome-sites-sm">새 아미노산을 단 tRNA가 들어온다</text>
+  <text x="500" y="168" class="gene-2-ribosome-sites-site" style="font-size:16px">P 자리</text>
+  <text x="500" y="187" class="gene-2-ribosome-sites-sm">자라는 폴리펩타이드 사슬을 단 tRNA</text>
+  <text x="500" y="212" class="gene-2-ribosome-sites-site" style="font-size:16px">E 자리</text>
+  <text x="500" y="231" class="gene-2-ribosome-sites-sm">아미노산을 넘겨준 빈 tRNA가 떠난다</text>
+  <text x="20" y="30" class="gene-2-ribosome-sites-sm">tRNA 아래 글자는 안티코돈(3′→5′ 방향으로 표시). 크기 비율은 실제와 다른 모식도</text>
+</svg>

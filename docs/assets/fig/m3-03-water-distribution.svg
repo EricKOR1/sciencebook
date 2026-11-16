@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-m3-03-water-distribution d-m3-03-water-distribution">
+  <title id="t-m3-03-water-distribution">그림 중3-3-1 수권의 물 분포</title>
+  <desc id="d-m3-03-water-distribution">수권의 물은 약 97.5 %가 해수이고 담수는 약 2.5 %이다. 담수를 확대해 보면 약 70 %가 빙하, 약 30 %가 지하수이고, 호수와 하천수 등은 아주 적다.</desc>
+  <style>
+    .m3-03-water-distribution-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .m3-03-water-distribution-l{font-size:14px;fill:var(--fig-ink)}
+    .m3-03-water-distribution-t{font-size:13px;fill:var(--fig-muted)}
+  </style>
+  <text x="40" y="30" class="m3-03-water-distribution-h">수권 전체의 물 (100 %)</text>
+  <rect x="40" y="44" width="624" height="52" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <rect x="664" y="44" width="16" height="52" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+  <text x="352" y="76" text-anchor="middle" class="m3-03-water-distribution-h" style="fill:var(--fig-blue)">해수 약 97.5 %</text>
+  <text x="680" y="118" text-anchor="end" class="m3-03-water-distribution-l" style="fill:var(--fig-green);font-weight:600">담수 약 2.5 %</text>
+  <!-- 확대 선 -->
+  <path d="M664 96 L40 176 L680 176 L680 96" style="fill:var(--fig-soft-green);opacity:0.35;stroke:none"/>
+  <line x1="664" y1="96" x2="40" y2="176" style="stroke:var(--fig-green);stroke-width:1;stroke-dasharray:4 4"/>
+  <line x1="680" y1="96" x2="680" y2="176" style="stroke:var(--fig-green);stroke-width:1;stroke-dasharray:4 4"/>
+  <text x="300" y="150" class="m3-03-water-distribution-t">담수만 크게 늘려 보면</text>
+  <rect x="40" y="176" width="446" height="52" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:2"/>
+  <rect x="486" y="176" width="190" height="52" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <rect x="676" y="176" width="4" height="52" style="fill:var(--fig-blue)"/>
+  <text x="263" y="207" text-anchor="middle" class="m3-03-water-distribution-h" style="fill:var(--fig-teal)">빙하 (담수의 약 70 %)</text>
+  <text x="581" y="207" text-anchor="middle" class="m3-03-water-distribution-h" style="fill:var(--fig-amber)">지하수 (약 30 %)</text>
+  <text x="263" y="250" text-anchor="middle" class="m3-03-water-distribution-t">수권의 약 1.8 % · 대부분 남극·그린란드</text>
+  <text x="581" y="250" text-anchor="middle" class="m3-03-water-distribution-t">수권의 약 0.8 %</text>
+  <line x1="678" y1="230" x2="678" y2="286" style="stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="680" y="304" text-anchor="end" class="m3-03-water-distribution-l" style="fill:var(--fig-blue);font-weight:600">호수·하천수 등: 수권의 약 0.01 % (가는 선)</text>
+  <text x="40" y="304" class="m3-03-water-distribution-t">막대의 길이는 비율에 맞춤</text>
+</svg>

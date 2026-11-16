@@ -10,16 +10,17 @@
 <link rel="stylesheet" href="assets/katex/katex.min.css">
 <link rel="stylesheet" href="assets/book.css">
 <script src="assets/js/book.js" defer></script>
-
+<script src="assets/js/sims/reflex-arc.js" defer></script>
 </head>
-<body class="">
+<body class="" data-lesson="m3-05" data-title="자극과 반응" data-where="중3">
 <header class="topbar">
   <button class="menu-btn" id="menu-btn" aria-controls="drawer" aria-expanded="false">목차</button>
   <a class="brand" href="index.html">한 권으로 잇는 과학</a>
   <button class="theme-btn" id="theme-btn" aria-label="밝은 화면과 어두운 화면 바꾸기">화면</button>
+  <div class="read-bar" id="read-bar" aria-hidden="true"><i></i></div>
 </header>
 <div class="shell">
-<aside class="drawer" id="drawer"><nav class="book-nav" aria-label="교재 목차"><a class="nav-home" href="index.html">처음으로 · 전체 목차</a><input class="nav-filter" id="nav-filter" type="search" placeholder="단원 이름으로 찾기" aria-label="단원 이름으로 찾기" autocomplete="off"><p class="nav-group">중학교 과학</p><details class="nav-part"><summary>1학년<span class="nav-count">7</span></summary><ul><li><a href="m1-01.html"><span class="nav-id">중1-1</span>과학과 인류의 지속가능한 삶</a></li><li><a href="m1-02.html"><span class="nav-id">중1-2</span>생물의 구성과 다양성</a></li><li><a href="m1-03.html"><span class="nav-id">중1-3</span>열</a></li><li><a href="m1-04.html"><span class="nav-id">중1-4</span>물질의 상태 변화</a></li><li><a href="m1-05.html"><span class="nav-id">중1-5</span>힘의 작용</a></li><li><a href="m1-06.html"><span class="nav-id">중1-6</span>기체의 성질</a></li><li><a href="m1-07.html"><span class="nav-id">중1-7</span>태양계</a></li></ul></details><details class="nav-part"><summary>2학년<span class="nav-count">8</span></summary><ul><li><a href="m2-01.html"><span class="nav-id">중2-1</span>물질의 특성</a></li><li><a href="m2-02.html"><span class="nav-id">중2-2</span>지권의 변화</a></li><li><a href="m2-03.html"><span class="nav-id">중2-3</span>빛과 파동</a></li><li><a href="m2-04.html"><span class="nav-id">중2-4</span>물질의 구성</a></li><li><a href="m2-05.html"><span class="nav-id">중2-5</span>식물과 에너지</a></li><li><a href="m2-06.html"><span class="nav-id">중2-6</span>동물과 에너지</a></li><li><a href="m2-07.html"><span class="nav-id">중2-7</span>전기와 자기</a></li><li><a href="m2-08.html"><span class="nav-id">중2-8</span>별과 우주</a></li></ul></details><details class="nav-part" open><summary>3학년<span class="nav-count">8</span></summary><ul><li><a href="m3-01.html"><span class="nav-id">중3-1</span>화학 반응의 규칙성</a></li><li><a href="m3-02.html"><span class="nav-id">중3-2</span>날씨와 기후변화</a></li><li><a href="m3-03.html"><span class="nav-id">중3-3</span>수권과 해수의 순환</a></li><li><a href="m3-04.html"><span class="nav-id">중3-4</span>운동과 에너지</a></li><li><a href="m3-05.html" aria-current="page"><span class="nav-id">중3-5</span>자극과 반응</a></li><li><a href="m3-06.html"><span class="nav-id">중3-6</span>생식과 유전</a></li><li><a href="m3-07.html"><span class="nav-id">중3-7</span>재해·재난과 안전</a></li><li><a href="m3-08.html"><span class="nav-id">중3-8</span>과학과 나의 미래</a></li></ul></details><p class="nav-group">고등학교 공통 과목</p><details class="nav-part"><summary>통합과학1<span class="nav-count">16</span></summary><p class="nav-unit">1단원 과학의 기초</p><ul><li><a href="1-1.html"><span class="nav-id">1-1</span>시간과 공간</a></li><li><a href="1-2.html"><span class="nav-id">1-2</span>기본량과 단위</a></li><li><a href="1-3.html"><span class="nav-id">1-3</span>측정과 어림, 측정 표준</a></li><li><a href="1-4.html"><span class="nav-id">1-4</span>정보와 신호: 아날로그에서 디지털로</a></li></ul><p class="nav-unit">2단원 물질과 규칙성</p><ul><li><a href="2-1.html"><span class="nav-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="2-2.html"><span class="nav-id">2-2</span>별의 진화와 원소의 생성</a></li><li><a href="2-3.html"><span class="nav-id">2-3</span>원소의 주기성과 화학 결합의 이유</a></li><li><a href="2-4.html"><span class="nav-id">2-4</span>이온 결합과 공유 결합</a></li><li><a href="2-5.html"><span class="nav-id">2-5</span>지각과 생명체 구성 물질의 규칙성</a></li><li><a href="2-6.html"><span class="nav-id">2-6</span>물질의 전기적 성질과 소재</a></li></ul><p class="nav-unit">3단원 시스템과 상호작용</p><ul><li><a href="3-1.html"><span class="nav-id">3-1</span>지구시스템의 구성과 상호작용</a></li><li><a href="3-2.html"><span class="nav-id">3-2</span>판구조론과 지권의 변화</a></li><li><a href="3-3.html"><span class="nav-id">3-3</span>중력과 운동</a></li><li><a href="3-4.html"><span class="nav-id">3-4</span>운동량과 충격량</a></li><li><a href="3-5.html"><span class="nav-id">3-5</span>생명 시스템과 물질대사</a></li><li><a href="3-6.html"><span class="nav-id">3-6</span>유전자와 단백질</a></li></ul></details><details class="nav-part"><summary>통합과학2<span class="nav-count">15</span></summary><p class="nav-unit">4단원 변화와 다양성</p><ul><li><a href="4-1.html"><span class="nav-id">4-1</span>지질시대의 환경 변화와 생물다양성</a></li><li><a href="4-2.html"><span class="nav-id">4-2</span>진화와 생물다양성</a></li><li><a href="4-3.html"><span class="nav-id">4-3</span>산화와 환원</a></li><li><a href="4-4.html"><span class="nav-id">4-4</span>산과 염기, 중화 반응</a></li><li><a href="4-5.html"><span class="nav-id">4-5</span>물질 변화와 에너지 출입</a></li></ul><p class="nav-unit">5단원 환경과 에너지</p><ul><li><a href="5-1.html"><span class="nav-id">5-1</span>생태계 구성 요소와 상호 관계</a></li><li><a href="5-2.html"><span class="nav-id">5-2</span>생태계 평형</a></li><li><a href="5-3.html"><span class="nav-id">5-3</span>지구온난화와 기후변화</a></li><li><a href="5-4.html"><span class="nav-id">5-4</span>태양 에너지와 에너지 전환</a></li><li><a href="5-5.html"><span class="nav-id">5-5</span>발전기와 전기 에너지</a></li><li><a href="5-6.html"><span class="nav-id">5-6</span>에너지 효율과 신재생 에너지</a></li></ul><p class="nav-unit">6단원 과학과 미래 사회</p><ul><li><a href="6-1.html"><span class="nav-id">6-1</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html"><span class="nav-id">6-2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html"><span class="nav-id">6-3</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html"><span class="nav-id">6-4</span>과학기술과 윤리</a></li></ul></details><p class="nav-group">고등학교 일반 선택</p><details class="nav-part"><summary>물리학<span class="nav-count">3</span></summary><ul><li><a href="phy-1.html"><span class="nav-id">물리학 1</span>힘과 에너지</a></li><li><a href="phy-2.html"><span class="nav-id">물리학 2</span>전기와 자기</a></li><li><a href="phy-3.html"><span class="nav-id">물리학 3</span>빛과 물질</a></li></ul></details><details class="nav-part"><summary>화학<span class="nav-count">4</span></summary><ul><li><a href="chem-1.html"><span class="nav-id">화학 1</span>화학의 언어</a></li><li><a href="chem-2.html"><span class="nav-id">화학 2</span>물질의 구조와 성질</a></li><li><a href="chem-3.html"><span class="nav-id">화학 3</span>화학 평형</a></li><li><a href="chem-4.html"><span class="nav-id">화학 4</span>역동적인 화학 반응</a></li></ul></details><details class="nav-part"><summary>생명과학<span class="nav-count">3</span></summary><ul><li><a href="bio-1.html"><span class="nav-id">생명과학 1</span>생명 시스템의 구성</a></li><li><a href="bio-2.html"><span class="nav-id">생명과학 2</span>항상성과 몸의 조절</a></li><li><a href="bio-3.html"><span class="nav-id">생명과학 3</span>생명의 연속성과 다양성</a></li></ul></details><details class="nav-part"><summary>지구과학<span class="nav-count">3</span></summary><ul><li><a href="earth-1.html"><span class="nav-id">지구과학 1</span>대기와 해양의 상호작용</a></li><li><a href="earth-2.html"><span class="nav-id">지구과학 2</span>지구의 역사와 한반도의 암석</a></li><li><a href="earth-3.html"><span class="nav-id">지구과학 3</span>태양계 천체와 별과 우주의 진화</a></li></ul></details><p class="nav-group">고등학교 진로 선택</p><details class="nav-part"><summary>역학과 에너지<span class="nav-count">2</span></summary><ul><li><a href="mech-1.html"><span class="nav-id">역학과 에너지 1</span>시공간과 운동</a></li><li><a href="mech-2.html"><span class="nav-id">역학과 에너지 2</span>열과 에너지</a></li></ul></details><details class="nav-part"><summary>전자기와 양자<span class="nav-count">3</span></summary><ul><li><a href="emq-1.html"><span class="nav-id">전자기와 양자 1</span>전자기적 상호작용</a></li><li><a href="emq-2.html"><span class="nav-id">전자기와 양자 2</span>빛과 정보 통신</a></li><li><a href="emq-3.html"><span class="nav-id">전자기와 양자 3</span>양자와 미시세계</a></li></ul></details><details class="nav-part"><summary>물질과 에너지<span class="nav-count">3</span></summary><ul><li><a href="matter-1.html"><span class="nav-id">물질과 에너지 1</span>물질의 세 가지 상태</a></li><li><a href="matter-2.html"><span class="nav-id">물질과 에너지 2</span>용액의 성질</a></li><li><a href="matter-3.html"><span class="nav-id">물질과 에너지 3</span>화학 변화의 자발성</a></li></ul></details><details class="nav-part"><summary>화학 반응의 세계<span class="nav-count">3</span></summary><ul><li><a href="rxn-1.html"><span class="nav-id">화학 반응의 세계 1</span>산·염기 평형</a></li><li><a href="rxn-2.html"><span class="nav-id">화학 반응의 세계 2</span>산화·환원 반응</a></li><li><a href="rxn-3.html"><span class="nav-id">화학 반응의 세계 3</span>탄소 화합물과 반응</a></li></ul></details><details class="nav-part"><summary>세포와 물질대사<span class="nav-count">3</span></summary><ul><li><a href="cell-1.html"><span class="nav-id">세포와 물질대사 1</span>세포</a></li><li><a href="cell-2.html"><span class="nav-id">세포와 물질대사 2</span>물질대사와 에너지</a></li><li><a href="cell-3.html"><span class="nav-id">세포와 물질대사 3</span>세포호흡과 광합성</a></li></ul></details><details class="nav-part"><summary>생물의 유전<span class="nav-count">3</span></summary><ul><li><a href="gene-1.html"><span class="nav-id">생물의 유전 1</span>유전자와 유전물질</a></li><li><a href="gene-2.html"><span class="nav-id">생물의 유전 2</span>유전자의 발현</a></li><li><a href="gene-3.html"><span class="nav-id">생물의 유전 3</span>생명공학기술</a></li></ul></details><details class="nav-part"><summary>지구시스템과학<span class="nav-count">2</span></summary><ul><li><a href="esys-1.html"><span class="nav-id">지구시스템과학 1</span>지구 탄생과 생동하는 지구</a></li><li><a href="esys-2.html"><span class="nav-id">지구시스템과학 2</span>해수의 운동</a></li></ul></details><details class="nav-part"><summary>행성우주과학<span class="nav-count">2</span></summary><ul><li><a href="astro-1.html"><span class="nav-id">행성우주과학 1</span>우주탐사와 행성계</a></li><li><a href="astro-2.html"><span class="nav-id">행성우주과학 2</span>태양과 별의 관측</a></li></ul></details><p class="nav-group">찾아보기</p><ul class="nav-extra"><li><a href="map.html">개념 연계 지도</a></li><li><a href="glossary.html">핵심 용어 사전</a></li><li><a href="sims.html">시뮬레이션 모아 보기</a></li><li><a href="guide.html">교재 설계 안내</a></li><li><a href="appendix-standards.html">통합과학 성취기준 원문</a></li><li><a href="appendix-map.html">통합과학 대학·산업 연계 지도</a></li></ul></nav></aside>
+<aside class="drawer" id="drawer"><nav class="book-nav" aria-label="교재 목차"><a class="nav-home" href="index.html">처음으로 · 전체 목차</a><input class="nav-filter" id="nav-filter" type="search" placeholder="단원 이름으로 찾기" aria-label="단원 이름으로 찾기" autocomplete="off"><p class="nav-group">중학교 과학</p><details class="nav-part"><summary>1학년<span class="nav-count">7</span></summary><ul><li><a href="m1-01.html" data-id="m1-01"><span class="nav-id">중1-1</span>과학과 인류의 지속가능한 삶</a></li><li><a href="m1-02.html" data-id="m1-02"><span class="nav-id">중1-2</span>생물의 구성과 다양성</a></li><li><a href="m1-03.html" data-id="m1-03"><span class="nav-id">중1-3</span>열</a></li><li><a href="m1-04.html" data-id="m1-04"><span class="nav-id">중1-4</span>물질의 상태 변화</a></li><li><a href="m1-05.html" data-id="m1-05"><span class="nav-id">중1-5</span>힘의 작용</a></li><li><a href="m1-06.html" data-id="m1-06"><span class="nav-id">중1-6</span>기체의 성질</a></li><li><a href="m1-07.html" data-id="m1-07"><span class="nav-id">중1-7</span>태양계</a></li></ul></details><details class="nav-part"><summary>2학년<span class="nav-count">8</span></summary><ul><li><a href="m2-01.html" data-id="m2-01"><span class="nav-id">중2-1</span>물질의 특성</a></li><li><a href="m2-02.html" data-id="m2-02"><span class="nav-id">중2-2</span>지권의 변화</a></li><li><a href="m2-03.html" data-id="m2-03"><span class="nav-id">중2-3</span>빛과 파동</a></li><li><a href="m2-04.html" data-id="m2-04"><span class="nav-id">중2-4</span>물질의 구성</a></li><li><a href="m2-05.html" data-id="m2-05"><span class="nav-id">중2-5</span>식물과 에너지</a></li><li><a href="m2-06.html" data-id="m2-06"><span class="nav-id">중2-6</span>동물과 에너지</a></li><li><a href="m2-07.html" data-id="m2-07"><span class="nav-id">중2-7</span>전기와 자기</a></li><li><a href="m2-08.html" data-id="m2-08"><span class="nav-id">중2-8</span>별과 우주</a></li></ul></details><details class="nav-part" open><summary>3학년<span class="nav-count">8</span></summary><ul><li><a href="m3-01.html" data-id="m3-01"><span class="nav-id">중3-1</span>화학 반응의 규칙성</a></li><li><a href="m3-02.html" data-id="m3-02"><span class="nav-id">중3-2</span>날씨와 기후변화</a></li><li><a href="m3-03.html" data-id="m3-03"><span class="nav-id">중3-3</span>수권과 해수의 순환</a></li><li><a href="m3-04.html" data-id="m3-04"><span class="nav-id">중3-4</span>운동과 에너지</a></li><li><a href="m3-05.html" data-id="m3-05" aria-current="page"><span class="nav-id">중3-5</span>자극과 반응</a></li><li><a href="m3-06.html" data-id="m3-06"><span class="nav-id">중3-6</span>생식과 유전</a></li><li><a href="m3-07.html" data-id="m3-07"><span class="nav-id">중3-7</span>재해·재난과 안전</a></li><li><a href="m3-08.html" data-id="m3-08"><span class="nav-id">중3-8</span>과학과 나의 미래</a></li></ul></details><p class="nav-group">고등학교 공통 과목</p><details class="nav-part"><summary>통합과학1<span class="nav-count">16</span></summary><p class="nav-unit">1단원 과학의 기초</p><ul><li><a href="1-1.html" data-id="1-1"><span class="nav-id">1-1</span>시간과 공간</a></li><li><a href="1-2.html" data-id="1-2"><span class="nav-id">1-2</span>기본량과 단위</a></li><li><a href="1-3.html" data-id="1-3"><span class="nav-id">1-3</span>측정과 어림, 측정 표준</a></li><li><a href="1-4.html" data-id="1-4"><span class="nav-id">1-4</span>정보와 신호: 아날로그에서 디지털로</a></li></ul><p class="nav-unit">2단원 물질과 규칙성</p><ul><li><a href="2-1.html" data-id="2-1"><span class="nav-id">2-1</span>빛의 스펙트럼과 우주 초기 원소</a></li><li><a href="2-2.html" data-id="2-2"><span class="nav-id">2-2</span>별의 진화와 원소의 생성</a></li><li><a href="2-3.html" data-id="2-3"><span class="nav-id">2-3</span>원소의 주기성과 화학 결합의 이유</a></li><li><a href="2-4.html" data-id="2-4"><span class="nav-id">2-4</span>이온 결합과 공유 결합</a></li><li><a href="2-5.html" data-id="2-5"><span class="nav-id">2-5</span>지각과 생명체 구성 물질의 규칙성</a></li><li><a href="2-6.html" data-id="2-6"><span class="nav-id">2-6</span>물질의 전기적 성질과 소재</a></li></ul><p class="nav-unit">3단원 시스템과 상호작용</p><ul><li><a href="3-1.html" data-id="3-1"><span class="nav-id">3-1</span>지구시스템의 구성과 상호작용</a></li><li><a href="3-2.html" data-id="3-2"><span class="nav-id">3-2</span>판구조론과 지권의 변화</a></li><li><a href="3-3.html" data-id="3-3"><span class="nav-id">3-3</span>중력과 운동</a></li><li><a href="3-4.html" data-id="3-4"><span class="nav-id">3-4</span>운동량과 충격량</a></li><li><a href="3-5.html" data-id="3-5"><span class="nav-id">3-5</span>생명 시스템과 물질대사</a></li><li><a href="3-6.html" data-id="3-6"><span class="nav-id">3-6</span>유전자와 단백질</a></li></ul></details><details class="nav-part"><summary>통합과학2<span class="nav-count">15</span></summary><p class="nav-unit">4단원 변화와 다양성</p><ul><li><a href="4-1.html" data-id="4-1"><span class="nav-id">4-1</span>지질시대의 환경 변화와 생물다양성</a></li><li><a href="4-2.html" data-id="4-2"><span class="nav-id">4-2</span>진화와 생물다양성</a></li><li><a href="4-3.html" data-id="4-3"><span class="nav-id">4-3</span>산화와 환원</a></li><li><a href="4-4.html" data-id="4-4"><span class="nav-id">4-4</span>산과 염기, 중화 반응</a></li><li><a href="4-5.html" data-id="4-5"><span class="nav-id">4-5</span>물질 변화와 에너지 출입</a></li></ul><p class="nav-unit">5단원 환경과 에너지</p><ul><li><a href="5-1.html" data-id="5-1"><span class="nav-id">5-1</span>생태계 구성 요소와 상호 관계</a></li><li><a href="5-2.html" data-id="5-2"><span class="nav-id">5-2</span>생태계 평형</a></li><li><a href="5-3.html" data-id="5-3"><span class="nav-id">5-3</span>지구온난화와 기후변화</a></li><li><a href="5-4.html" data-id="5-4"><span class="nav-id">5-4</span>태양 에너지와 에너지 전환</a></li><li><a href="5-5.html" data-id="5-5"><span class="nav-id">5-5</span>발전기와 전기 에너지</a></li><li><a href="5-6.html" data-id="5-6"><span class="nav-id">5-6</span>에너지 효율과 신재생 에너지</a></li></ul><p class="nav-unit">6단원 과학과 미래 사회</p><ul><li><a href="6-1.html" data-id="6-1"><span class="nav-id">6-1</span>감염병과 과학의 유용성</a></li><li><a href="6-2.html" data-id="6-2"><span class="nav-id">6-2</span>빅데이터와 과학기술사회</a></li><li><a href="6-3.html" data-id="6-3"><span class="nav-id">6-3</span>인공지능 로봇과 사물인터넷</a></li><li><a href="6-4.html" data-id="6-4"><span class="nav-id">6-4</span>과학기술과 윤리</a></li></ul></details><p class="nav-group">고등학교 일반 선택</p><details class="nav-part"><summary>물리학<span class="nav-count">3</span></summary><ul><li><a href="phy-1.html" data-id="phy-1"><span class="nav-id">물리학 1</span>힘과 에너지</a></li><li><a href="phy-2.html" data-id="phy-2"><span class="nav-id">물리학 2</span>전기와 자기</a></li><li><a href="phy-3.html" data-id="phy-3"><span class="nav-id">물리학 3</span>빛과 물질</a></li></ul></details><details class="nav-part"><summary>화학<span class="nav-count">4</span></summary><ul><li><a href="chem-1.html" data-id="chem-1"><span class="nav-id">화학 1</span>화학의 언어</a></li><li><a href="chem-2.html" data-id="chem-2"><span class="nav-id">화학 2</span>물질의 구조와 성질</a></li><li><a href="chem-3.html" data-id="chem-3"><span class="nav-id">화학 3</span>화학 평형</a></li><li><a href="chem-4.html" data-id="chem-4"><span class="nav-id">화학 4</span>역동적인 화학 반응</a></li></ul></details><details class="nav-part"><summary>생명과학<span class="nav-count">3</span></summary><ul><li><a href="bio-1.html" data-id="bio-1"><span class="nav-id">생명과학 1</span>생명 시스템의 구성</a></li><li><a href="bio-2.html" data-id="bio-2"><span class="nav-id">생명과학 2</span>항상성과 몸의 조절</a></li><li><a href="bio-3.html" data-id="bio-3"><span class="nav-id">생명과학 3</span>생명의 연속성과 다양성</a></li></ul></details><details class="nav-part"><summary>지구과학<span class="nav-count">3</span></summary><ul><li><a href="earth-1.html" data-id="earth-1"><span class="nav-id">지구과학 1</span>대기와 해양의 상호작용</a></li><li><a href="earth-2.html" data-id="earth-2"><span class="nav-id">지구과학 2</span>지구의 역사와 한반도의 암석</a></li><li><a href="earth-3.html" data-id="earth-3"><span class="nav-id">지구과학 3</span>태양계 천체와 별과 우주의 진화</a></li></ul></details><p class="nav-group">고등학교 진로 선택</p><details class="nav-part"><summary>역학과 에너지<span class="nav-count">3</span></summary><ul><li><a href="mech-1.html" data-id="mech-1"><span class="nav-id">역학과 에너지 1</span>시공간과 운동</a></li><li><a href="mech-2.html" data-id="mech-2"><span class="nav-id">역학과 에너지 2</span>열과 에너지</a></li><li><a href="mech-3.html" data-id="mech-3"><span class="nav-id">역학과 에너지 3</span>탄성파와 소리</a></li></ul></details><details class="nav-part"><summary>전자기와 양자<span class="nav-count">3</span></summary><ul><li><a href="emq-1.html" data-id="emq-1"><span class="nav-id">전자기와 양자 1</span>전자기적 상호작용</a></li><li><a href="emq-2.html" data-id="emq-2"><span class="nav-id">전자기와 양자 2</span>빛과 정보 통신</a></li><li><a href="emq-3.html" data-id="emq-3"><span class="nav-id">전자기와 양자 3</span>양자와 미시세계</a></li></ul></details><details class="nav-part"><summary>물질과 에너지<span class="nav-count">4</span></summary><ul><li><a href="matter-1.html" data-id="matter-1"><span class="nav-id">물질과 에너지 1</span>물질의 세 가지 상태</a></li><li><a href="matter-2.html" data-id="matter-2"><span class="nav-id">물질과 에너지 2</span>용액의 성질</a></li><li><a href="matter-3.html" data-id="matter-3"><span class="nav-id">물질과 에너지 3</span>화학 변화의 자발성</a></li><li><a href="matter-4.html" data-id="matter-4"><span class="nav-id">물질과 에너지 4</span>반응 속도</a></li></ul></details><details class="nav-part"><summary>화학 반응의 세계<span class="nav-count">3</span></summary><ul><li><a href="rxn-1.html" data-id="rxn-1"><span class="nav-id">화학 반응의 세계 1</span>산·염기 평형</a></li><li><a href="rxn-2.html" data-id="rxn-2"><span class="nav-id">화학 반응의 세계 2</span>산화·환원 반응</a></li><li><a href="rxn-3.html" data-id="rxn-3"><span class="nav-id">화학 반응의 세계 3</span>탄소 화합물과 반응</a></li></ul></details><details class="nav-part"><summary>세포와 물질대사<span class="nav-count">3</span></summary><ul><li><a href="cell-1.html" data-id="cell-1"><span class="nav-id">세포와 물질대사 1</span>세포</a></li><li><a href="cell-2.html" data-id="cell-2"><span class="nav-id">세포와 물질대사 2</span>물질대사와 에너지</a></li><li><a href="cell-3.html" data-id="cell-3"><span class="nav-id">세포와 물질대사 3</span>세포호흡과 광합성</a></li></ul></details><details class="nav-part"><summary>생물의 유전<span class="nav-count">3</span></summary><ul><li><a href="gene-1.html" data-id="gene-1"><span class="nav-id">생물의 유전 1</span>유전자와 유전물질</a></li><li><a href="gene-2.html" data-id="gene-2"><span class="nav-id">생물의 유전 2</span>유전자의 발현</a></li><li><a href="gene-3.html" data-id="gene-3"><span class="nav-id">생물의 유전 3</span>생명공학기술</a></li></ul></details><details class="nav-part"><summary>지구시스템과학<span class="nav-count">3</span></summary><ul><li><a href="esys-1.html" data-id="esys-1"><span class="nav-id">지구시스템과학 1</span>지구 탄생과 생동하는 지구</a></li><li><a href="esys-2.html" data-id="esys-2"><span class="nav-id">지구시스템과학 2</span>해수의 운동</a></li><li><a href="esys-3.html" data-id="esys-3"><span class="nav-id">지구시스템과학 3</span>강수 과정과 대기의 운동</a></li></ul></details><details class="nav-part"><summary>행성우주과학<span class="nav-count">3</span></summary><ul><li><a href="astro-1.html" data-id="astro-1"><span class="nav-id">행성우주과학 1</span>우주탐사와 행성계</a></li><li><a href="astro-2.html" data-id="astro-2"><span class="nav-id">행성우주과학 2</span>태양과 별의 관측</a></li><li><a href="astro-3.html" data-id="astro-3"><span class="nav-id">행성우주과학 3</span>은하와 우주</a></li></ul></details><p class="nav-group">찾아보기</p><ul class="nav-extra"><li><a href="map.html">개념 연계 지도</a></li><li><a href="glossary.html">핵심 용어 사전</a></li><li><a href="sims.html">시뮬레이션 모아 보기</a></li><li><a href="guide.html">교재 설계 안내</a></li><li><a href="appendix-standards.html">통합과학 성취기준 원문</a></li><li><a href="appendix-map.html">통합과학 대학·산업 연계 지도</a></li></ul></nav></aside>
 <main class="main" id="main">
 <div class="lesson-grid"><nav class="ladder" aria-label="이 단원의 흐름"><p class="ladder-title">이 단원의 흐름</p><ol><li class="extra"><a href="#단원-들어가기">단원 들어가기</a></li><li class="s1"><a href="#step-1"><b>STEP 1</b> 이전 학습 다시 보기</a></li><li class="s2"><a href="#step-2"><b>STEP 2</b> 기초 다지기</a></li><li class="s3"><a href="#step-3"><b>STEP 3</b> 핵심 개념</a></li><li class="s4"><a href="#step-4"><b>STEP 4</b> 오개념 바로잡기</a></li><li class="s5"><a href="#step-5"><b>STEP 5</b> 다음 단계로 한 걸음 더</a></li><li class="s6"><a href="#step-6"><b>STEP 6</b> 생활·산업·진로 연결</a></li><li class="extra"><a href="#탐구-활동">탐구 활동</a></li><li class="extra"><a href="#개념-확인-문제">개념 확인 문제</a></li><li class="extra"><a href="#한눈에-정리">한눈에 정리</a></li></ol></nav><article class="prose lesson"><header class="lesson-hero st-life">
   <p class="eyebrow">중학교 과학 · 3학년</p>
@@ -268,13 +269,8 @@
 </tr>
 <tr>
 <td>홍채</td>
-<td>동공의 크기를 조절하여 들어오는 빛의 양을 조절한다</td>
+<td>가운데 구멍인 <strong>동공</strong>의 크기를 조절하여 들어오는 빛의 양을 조절한다</td>
 <td>조리개</td>
-</tr>
-<tr>
-<td>동공</td>
-<td>홍채 가운데의 구멍. 빛이 들어가는 통로</td>
-<td>조리개 구멍</td>
 </tr>
 <tr>
 <td>수정체</td>
@@ -287,19 +283,9 @@
 <td>초점 조절 장치</td>
 </tr>
 <tr>
-<td>유리체</td>
-<td>눈 속을 채운 투명한 물질. 눈의 모양을 유지한다</td>
-<td>카메라 몸체 내부</td>
-</tr>
-<tr>
 <td>망막</td>
 <td>상이 맺히는 곳. 시각 세포가 있다</td>
 <td>이미지 센서(필름)</td>
-</tr>
-<tr>
-<td>맥락막</td>
-<td>검은 색소가 있어 눈 속을 어둡게 한다</td>
-<td>어두운 내부</td>
 </tr>
 <tr>
 <td>시각 신경</td>
@@ -308,8 +294,69 @@
 </tr>
 </tbody></table></div>
 <p><strong>빛이 뇌까지 가는 길</strong></p>
-<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">빛</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">각막</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">동공</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">수정체</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">유리체</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord hangul_fallback">망막</span><span class="mord">(</span><span class="mord hangul_fallback">시각</span><span class="mord"> </span><span class="mord hangul_fallback">세포</span><span class="mord">)</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">시각</span><span class="mord"> </span><span class="mord hangul_fallback">신경</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">대뇌</span></span></span></span></span></span></p>
+<p><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">빛</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">각막</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">동공</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">수정체</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord hangul_fallback">망막</span><span class="mord">(</span><span class="mord hangul_fallback">시각</span><span class="mord"> </span><span class="mord hangul_fallback">세포</span><span class="mord">)</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">시각</span><span class="mord"> </span><span class="mord hangul_fallback">신경</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord hangul_fallback">대뇌</span></span></span></span></span></span></p>
 <p>중2 「빛과 파동」에서 배운 볼록 렌즈처럼, 수정체는 빛을 굴절시켜 망막에 물체의 상을 맺는다. 이 상은 <strong>위아래와 좌우가 뒤집힌</strong> 모습이지만, 대뇌가 신호를 해석하여 바로 선 모습으로 느끼게 한다.</p>
+<figure class="fig" id="fig-m3-05-eye"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-m3-05-eye d-m3-05-eye">
+  <title id="t-m3-05-eye">그림 중3-5-1 눈의 구조와 빛의 경로</title>
+  <desc id="d-m3-05-eye">빛은 각막과 동공을 지나 수정체에서 굴절되어 망막에 거꾸로 선 상을 맺는다. 망막의 시각 세포가 만든 신호는 시각 신경을 따라 대뇌로 간다. 시각 신경이 나가는 맹점에는 시각 세포가 없다.</desc>
+  <style>
+    .m3-05-eye-l{font-size:14px;fill:var(--fig-ink);font-weight:600} .m3-05-eye-s{font-size:13px;fill:var(--fig-muted)}
+    .m3-05-eye-ld{stroke:var(--fig-muted);stroke-width:1;fill:none} .m3-05-eye-ray{stroke:var(--fig-amber);stroke-width:2;fill:none}
+  </style>
+  <circle cx="400" cy="200" r="130" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:3"/>
+  <path d="M514.5 236.7 L640 252.7 L640 278.7 L512.5 262.7 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <path d="M442.4 83.5 L444.4 84.2 L446.5 85.0 L448.5 85.9 L450.4 86.7 L452.4 87.6 L454.4 88.5 L456.3 89.5 L458.2 90.5 L460.1 91.5 L462.0 92.6 L463.9 93.7 L465.7 94.8 L467.5 96.0 L469.3 97.2 L471.1 98.4 L472.9 99.7 L474.6 101.0 L476.3 102.3 L478.0 103.6 L479.7 105.0 L481.4 106.4 L483.0 107.9 L484.6 109.3 L486.1 110.8 L487.7 112.3 L489.2 113.9 L490.7 115.4 L492.1 117.0 L493.6 118.6 L495.0 120.3 L496.4 122.0 L497.7 123.7 L499.0 125.4 L500.3 127.1 L501.6 128.9 L502.8 130.7 L504.0 132.5 L505.2 134.3 L506.3 136.1 L507.4 138.0 L508.5 139.9 L509.5 141.8 L510.5 143.7 L511.5 145.6 L512.4 147.6 L513.3 149.6 L514.1 151.5 L515.0 153.5 L515.8 155.6 L516.5 157.6 L517.2 159.6 L517.9 161.7 L518.6 163.7 L519.2 165.8 L519.8 167.9 L520.3 170.0 L520.8 172.1 L521.3 174.2 L521.7 176.3 L522.1 178.5 L522.5 180.6 L522.8 182.7 L523.1 184.9 L523.3 187.0 L523.5 189.2 L523.7 191.4 L523.8 193.5 L523.9 195.7 L524.0 197.8 L524.0 200.0 L524.0 202.2 L523.9 204.3 L523.8 206.5 L523.7 208.6 L523.5 210.8 L523.3 213.0 L523.1 215.1 L522.8 217.3 L522.5 219.4 L522.1 221.5 L521.7 223.7 L521.3 225.8 L520.8 227.9 L520.3 230.0 L519.8 232.1 L519.2 234.2 L518.6 236.3 L517.9 238.3 L517.2 240.4 L516.5 242.4 L515.8 244.4 L515.0 246.5 L514.1 248.5 L513.3 250.4 L512.4 252.4 L511.5 254.4 L510.5 256.3 L509.5 258.2 L508.5 260.1 L507.4 262.0 L506.3 263.9 L505.2 265.7 L504.0 267.5 L502.8 269.3 L501.6 271.1 L500.3 272.9 L499.0 274.6 L497.7 276.3 L496.4 278.0 L495.0 279.7 L493.6 281.4 L492.1 283.0 L490.7 284.6 L489.2 286.1 L487.7 287.7 L486.1 289.2 L484.6 290.7 L483.0 292.1 L481.4 293.6 L479.7 295.0 L478.0 296.4 L476.3 297.7 L474.6 299.0 L472.9 300.3 L471.1 301.6 L469.3 302.8 L467.5 304.0 L465.7 305.2 L463.9 306.3 L462.0 307.4 L460.1 308.5 L458.2 309.5 L456.3 310.5 L454.4 311.5 L452.4 312.4 L450.4 313.3 L448.5 314.1 L446.5 315.0 L444.4 315.8 L442.4 316.5" style="fill:none;stroke:var(--fig-red);stroke-width:5;stroke-linecap:round"/>
+  <circle cx="515.0" cy="246.5" r="7" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <circle cx="524" cy="200" r="5" style="fill:var(--fig-amber)"/>
+  <path d="M282 145.4 Q236 200 282 254.6 Z" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:3"/>
+  <rect x="296" y="146" width="8" height="30" rx="2" style="fill:var(--fig-violet)"/>
+  <rect x="296" y="224" width="8" height="30" rx="2" style="fill:var(--fig-violet)"/>
+  <ellipse cx="312" cy="120" rx="9" ry="13" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <line x1="314" y1="132" x2="322" y2="165" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <ellipse cx="312" cy="280" rx="9" ry="13" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <line x1="314" y1="268" x2="322" y2="235" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <ellipse cx="322" cy="200" rx="14" ry="36" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <line x1="70" y1="200" x2="70" y2="182" style="stroke:var(--fig-green);stroke-width:3"/>
+  <path d="M70 176 l-7 11 l14 0 z" style="fill:var(--fig-green)"/>
+  <text x="70" y="222" text-anchor="middle" class="m3-05-eye-s">물체</text>
+  <path d="M70 176 L522.5 219.1" class="m3-05-eye-ray"/>
+  <path d="M70 176 L322 176 L522.5 219.1" class="m3-05-eye-ray"/>
+  <path d="M160.0 184.6 L151.7 188.1 L152.5 179.5 Z" style="fill:var(--fig-amber)"/>
+  <path d="M160.0 176.0 L152.1 180.3 L152.1 171.7 Z" style="fill:var(--fig-amber)"/>
+  <text x="130" y="166" class="m3-05-eye-s" style="fill:var(--fig-amber)">빛</text>
+  <line x1="523" y1="200" x2="520.5" y2="213.1" style="stroke:var(--fig-green);stroke-width:3"/>
+  <path d="M522.5 219.1 l5.2 -11.0 l-9 3 z" style="fill:var(--fig-green)"/>
+  <line x1="250" y1="170" x2="190" y2="46" class="m3-05-eye-ld"/>
+  <text x="190" y="62" text-anchor="middle" class="m3-05-eye-l">각막</text>
+  <text x="190" y="79" text-anchor="middle" class="m3-05-eye-s">빛이 처음 지남</text>
+  <line x1="300" y1="150" x2="290" y2="24" class="m3-05-eye-ld"/>
+  <text x="290" y="40" text-anchor="middle" class="m3-05-eye-l">홍채</text>
+  <text x="290" y="57" text-anchor="middle" class="m3-05-eye-s">동공 크기 조절</text>
+  <line x1="314" y1="108" x2="390" y2="24" class="m3-05-eye-ld"/>
+  <text x="390" y="40" text-anchor="middle" class="m3-05-eye-l">섬모체</text>
+  <text x="390" y="57" text-anchor="middle" class="m3-05-eye-s">수정체 두께 조절</text>
+  <line x1="300" y1="205" x2="232" y2="328" class="m3-05-eye-ld"/>
+  <text x="232" y="322" text-anchor="middle" class="m3-05-eye-l">동공</text>
+  <line x1="326" y1="234" x2="330" y2="352" class="m3-05-eye-ld"/>
+  <text x="330" y="346" text-anchor="middle" class="m3-05-eye-l">수정체</text>
+  <text x="330" y="363" text-anchor="middle" class="m3-05-eye-s">볼록 렌즈 역할</text>
+  <line x1="487.6812408671319" y1="112.31875913286811" x2="560" y2="46" class="m3-05-eye-ld"/>
+  <text x="560" y="62" text-anchor="middle" class="m3-05-eye-l">망막</text>
+  <text x="560" y="79" text-anchor="middle" class="m3-05-eye-s">시각 세포가 있음</text>
+  <line x1="530" y1="200" x2="600" y2="180" class="m3-05-eye-ld"/>
+  <text x="600" y="196" text-anchor="start" class="m3-05-eye-l">황반</text>
+  <text x="600" y="213" text-anchor="start" class="m3-05-eye-s">가장 또렷함</text>
+  <line x1="518" y1="250" x2="560" y2="322" class="m3-05-eye-ld"/>
+  <text x="560" y="316" text-anchor="start" class="m3-05-eye-l">맹점</text>
+  <text x="560" y="333" text-anchor="start" class="m3-05-eye-s">시각 세포 없음</text>
+  <text x="648" y="270.7" class="m3-05-eye-l">시각 신경</text>
+  <text x="648" y="287.7" class="m3-05-eye-s">→ 대뇌</text>
+  <line x1="516.5" y1="221.1" x2="452" y2="276" class="m3-05-eye-ld"/>
+  <text x="452" y="292" text-anchor="middle" class="m3-05-eye-s">거꾸로 맺힌 상</text>
+  <text x="360" y="388" text-anchor="middle" class="m3-05-eye-s">모식도(크기·비율은 실제와 다름) · 빛 → 각막 → 동공 → 수정체 → 망막 → 시각 신경 → 대뇌</text>
+</svg>
+</div><figcaption><b>그림 중3-5-1 눈의 구조와 빛의 경로</b> 빛은 각막과 동공을 지나 수정체에서 굴절되어 망막에 거꾸로 선 상을 맺는다. 망막의 시각 세포가 만든 신호는 시각 신경을 따라 대뇌로 간다. 시각 신경이 나가는 맹점에는 시각 세포가 없다.</figcaption></figure>
+
 <h4 id="맹점과-황반">맹점과 황반</h4>
 <ul>
 <li><strong>맹점</strong>: 시각 신경이 모여 눈 밖으로 나가는 부분. <strong>시각 세포가 없어서</strong> 이곳에 상이 맺히면 물체가 보이지 않는다.</li>
@@ -349,12 +396,8 @@
 <th>하는 일</th>
 </tr>
 </thead><tbody><tr>
-<td>귓바퀴</td>
-<td>소리를 모은다</td>
-</tr>
-<tr>
-<td>외이도</td>
-<td>소리가 지나가는 통로</td>
+<td>귓바퀴·외이도</td>
+<td>소리를 모아 고막까지 보낸다</td>
 </tr>
 <tr>
 <td>고막</td>
@@ -373,12 +416,8 @@
 <td>청각 세포의 신호를 대뇌로 보낸다</td>
 </tr>
 <tr>
-<td>반고리관</td>
-<td>몸이 <strong>회전</strong>하는 것을 느낀다</td>
-</tr>
-<tr>
-<td>전정 기관</td>
-<td>몸이 <strong>기울어진</strong> 것을 느낀다</td>
+<td>반고리관·전정 기관</td>
+<td>반고리관은 몸의 <strong>회전</strong>을, 전정 기관은 몸의 <strong>기울어짐</strong>을 느낀다</td>
 </tr>
 <tr>
 <td>귀인두관</td>
@@ -484,7 +523,66 @@
 </tr>
 </tbody></table></div>
 <p>신호는 <strong>가지돌기 → 신경 세포체 → 축삭돌기</strong> 방향으로 전달된다. 한 뉴런의 축삭돌기 끝은 다음 뉴런의 가지돌기와 아주 좁은 틈을 두고 맞닿아 있어 신호가 다음 뉴런으로 넘어간다.</p>
-<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 뉴런은 &#39;이어달리기 주자&#39;와 같다. 가지돌기로 바통(신호)을 받고, 긴 축삭돌기를 따라 달려 다음 주자에게 넘긴다. 다리에서 척수까지 뻗은 운동 뉴런의 축삭돌기는 길이가 1 m에 가까울 만큼 길다.</p>
+<figure class="fig" id="fig-m3-05-neuron"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="t-m3-05-neuron d-m3-05-neuron">
+  <title id="t-m3-05-neuron">그림 중3-5-2 뉴런의 구조와 신호 방향</title>
+  <desc id="d-m3-05-neuron">가지돌기가 신호를 받아 신경 세포체를 거쳐 긴 축삭돌기를 따라 전달하고, 축삭돌기 끝은 좁은 틈을 두고 다음 뉴런의 가지돌기에 신호를 넘긴다.</desc>
+  <style>
+    .m3-05-neuron-l{font-size:14px;fill:var(--fig-ink);font-weight:600} .m3-05-neuron-s{font-size:13px;fill:var(--fig-muted)}
+    .m3-05-neuron-ld{stroke:var(--fig-muted);stroke-width:1;fill:none}
+    .m3-05-neuron-den{stroke:var(--fig-violet);stroke-width:4;fill:none;stroke-linecap:round}
+    .m3-05-neuron-den2{stroke:var(--fig-violet);stroke-width:2.5;fill:none;stroke-linecap:round}
+  </style>
+  <line x1="111.1" y1="174.4" x2="99.5" y2="206.4" class="m3-05-neuron-den"/>
+  <line x1="99.5" y1="206.4" x2="102.3" y2="226.2" class="m3-05-neuron-den2"/>
+  <line x1="99.5" y1="206.4" x2="84.6" y2="219.8" class="m3-05-neuron-den2"/>
+  <line x1="97.5" y1="163.0" x2="68.0" y2="180.0" class="m3-05-neuron-den"/>
+  <line x1="68.0" y1="180.0" x2="57.4" y2="197.0" class="m3-05-neuron-den2"/>
+  <line x1="68.0" y1="180.0" x2="48.1" y2="180.7" class="m3-05-neuron-den2"/>
+  <line x1="94.4" y1="145.5" x2="60.9" y2="139.6" class="m3-05-neuron-den"/>
+  <line x1="60.9" y1="139.6" x2="41.9" y2="145.8" class="m3-05-neuron-den2"/>
+  <line x1="60.9" y1="139.6" x2="45.2" y2="127.3" class="m3-05-neuron-den2"/>
+  <line x1="103.3" y1="130.1" x2="81.4" y2="104.0" class="m3-05-neuron-den"/>
+  <line x1="81.4" y1="104.0" x2="62.9" y2="96.5" class="m3-05-neuron-den2"/>
+  <line x1="81.4" y1="104.0" x2="77.3" y2="84.5" class="m3-05-neuron-den2"/>
+  <line x1="120.0" y1="124.0" x2="120.0" y2="90.0" class="m3-05-neuron-den"/>
+  <line x1="120.0" y1="90.0" x2="110.6" y2="72.3" class="m3-05-neuron-den2"/>
+  <line x1="120.0" y1="90.0" x2="129.4" y2="72.3" class="m3-05-neuron-den2"/>
+  <line x1="124.5" y1="175.6" x2="130.4" y2="209.1" class="m3-05-neuron-den"/>
+  <line x1="130.4" y1="209.1" x2="142.7" y2="224.8" class="m3-05-neuron-den2"/>
+  <line x1="130.4" y1="209.1" x2="124.2" y2="228.1" class="m3-05-neuron-den2"/>
+  <path d="M140 142 L560 145 L560 155 L140 158 Z" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <circle cx="120" cy="150" r="28" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2.5"/>
+  <circle cx="118" cy="150" r="10" style="fill:var(--fig-violet)"/>
+  <path d="M560 150 Q580 150 594 126" style="fill:none;stroke:var(--fig-violet);stroke-width:3"/>
+  <circle cx="600" cy="126" r="6" style="fill:var(--fig-violet)"/>
+  <path d="M560 150 Q580 150 594 150" style="fill:none;stroke:var(--fig-violet);stroke-width:3"/>
+  <circle cx="600" cy="150" r="6" style="fill:var(--fig-violet)"/>
+  <path d="M560 150 Q580 150 594 174" style="fill:none;stroke:var(--fig-violet);stroke-width:3"/>
+  <circle cx="600" cy="174" r="6" style="fill:var(--fig-violet)"/>
+  <line x1="618" y1="126" x2="660" y2="140.4" class="m3-05-neuron-den" style="stroke:var(--fig-teal)"/>
+  <line x1="618" y1="150" x2="660" y2="150.0" class="m3-05-neuron-den" style="stroke:var(--fig-teal)"/>
+  <line x1="618" y1="174" x2="660" y2="159.6" class="m3-05-neuron-den" style="stroke:var(--fig-teal)"/>
+  <path d="M660 136 Q700 150 660 164" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2"/>
+  <text x="690" y="190" text-anchor="end" class="m3-05-neuron-s">다음 뉴런</text>
+  <line x1="60" y1="232" x2="640" y2="232" style="stroke:var(--fig-red);stroke-width:3"/>
+  <path d="M652 232 l-14 -8 l0 16 z" style="fill:var(--fig-red)"/>
+  <text x="360" y="256" text-anchor="middle" class="m3-05-neuron-l" style="fill:var(--fig-red)">신호 전달 방향: 가지돌기 → 신경 세포체 → 축삭돌기 → 다음 뉴런</text>
+  <line x1="70" y1="96" x2="60" y2="24" class="m3-05-neuron-ld"/>
+  <text x="60" y="40" text-anchor="middle" class="m3-05-neuron-l">가지돌기</text>
+  <text x="60" y="57" text-anchor="middle" class="m3-05-neuron-s">신호를 받아들인다</text>
+  <line x1="130" y1="128" x2="215" y2="24" class="m3-05-neuron-ld"/>
+  <text x="215" y="40" text-anchor="middle" class="m3-05-neuron-l">신경 세포체</text>
+  <text x="215" y="57" text-anchor="middle" class="m3-05-neuron-s">핵이 있다</text>
+  <line x1="350" y1="144" x2="370" y2="24" class="m3-05-neuron-ld"/>
+  <text x="370" y="40" text-anchor="middle" class="m3-05-neuron-l">축삭돌기</text>
+  <text x="370" y="57" text-anchor="middle" class="m3-05-neuron-s">신호를 멀리 전달한다 (길게 뻗음)</text>
+  <line x1="609" y1="180" x2="560" y2="212" class="m3-05-neuron-ld"/>
+  <text x="560" y="206" text-anchor="middle" class="m3-05-neuron-l">좁은 틈</text>
+  <line x1="118" y1="160" x2="160" y2="200" class="m3-05-neuron-ld"/><text x="164" y="204" class="m3-05-neuron-s">핵</text>
+</svg>
+</div><figcaption><b>그림 중3-5-2 뉴런의 구조와 신호 방향</b> 가지돌기가 신호를 받아 신경 세포체를 거쳐 긴 축삭돌기를 따라 전달하고, 축삭돌기 끝은 좁은 틈을 두고 다음 뉴런의 가지돌기에 신호를 넘긴다.</figcaption></figure>
+
+<aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 뉴런은 &#39;이어달리기 주자&#39;와 같다. 가지돌기로 바통(신호)을 받고, 긴 축삭돌기를 따라 달려 다음 주자에게 넘긴다. 척수에서 발의 근육까지 뻗은 운동 뉴런의 축삭돌기는 길이가 1 m에 가까울 만큼 길다.</p>
 </aside>
 <h4 id="뉴런의-종류">뉴런의 종류</h4>
 <div class="table-wrap"><table><thead><tr>
@@ -656,6 +754,8 @@
 <td>위험으로부터 몸을 빠르게 보호한다</td>
 </tr>
 </tbody></table></div>
+<figure class="sim" id="sim-reflex-arc" data-sim="reflex-arc"><noscript>이 애니메이션은 자바스크립트가 필요하다.</noscript></figure>
+
 <h4 id="예제-1-반응-경로-모형-만들기">예제 1 — 반응 경로 모형 만들기</h4>
 <p>다음 상황에서 자극이 전달되는 경로를 화살표로 나타내고, 의식적 반응인지 무조건 반사인지 쓰시오.
 (1) 모기가 팔에 앉은 것을 보고 손으로 쫓았다.
@@ -670,14 +770,14 @@
 <th>0.10</th>
 <th>0.15</th>
 <th>0.20</th>
-<th>0.25</th>
+<th>0.24</th>
 </tr>
 </thead><tbody><tr>
 <td>자가 떨어진 거리(cm)</td>
 <td>4.9</td>
 <td>11.0</td>
 <td>19.6</td>
-<td>30.6</td>
+<td>28.2</td>
 </tr>
 </tbody></table></div>
 <p>자가 19.6 cm 떨어졌을 때 잡았다면 반응 시간은 약 0.2초이다. 이 반응은 &#39;자가 떨어지는 것을 <strong>보고</strong>, 대뇌가 <strong>판단</strong>하여 손가락에 <strong>명령</strong>하는&#39; 의식적 반응이다.</p>
@@ -785,6 +885,53 @@
 </tbody></table></div>
 <aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>비유</strong> — 간은 포도당의 &#39;저금통&#39;이다. 인슐린은 남는 포도당을 글리코젠으로 바꿔 저금통에 <strong>넣는</strong> 일을, 글루카곤은 저금통에서 <strong>꺼내</strong> 쓰는 일을 시킨다. 두 호르몬이 서로 반대로 작용하여 혈당량이 일정한 범위를 벗어나지 않는다.</p>
 </aside>
+<figure class="fig" id="fig-m3-05-blood-glucose"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-m3-05-blood-glucose d-m3-05-blood-glucose">
+  <title id="t-m3-05-blood-glucose">그림 중3-5-3 인슐린과 글루카곤에 의한 혈당량 조절</title>
+  <desc id="d-m3-05-blood-glucose">식사 후 혈당량이 높아지면 이자에서 인슐린이 분비되어 간이 포도당을 글리코젠으로 저장하고 세포가 포도당을 흡수해 혈당량이 낮아진다. 굶거나 운동하여 혈당량이 낮아지면 이자에서 글루카곤이 분비되어 간이 글리코젠을 포도당으로 바꾸어 내보내 혈당량이 높아진다.</desc>
+  <style>
+    .m3-05-blood-glucose-l{font-size:14px;fill:var(--fig-ink);font-weight:600} .m3-05-blood-glucose-s{font-size:13px;fill:var(--fig-ink)} .m3-05-blood-glucose-m{font-size:13px;fill:var(--fig-muted)}
+    .m3-05-blood-glucose-ar{stroke:var(--fig-ink);stroke-width:2;fill:none}
+  </style>
+  <defs><marker id="m3-05-blood-glucose-h" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" style="fill:var(--fig-ink)"/></marker></defs>
+  <rect x="270" y="152" width="180" height="56" rx="8" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+  <text x="360.0" y="176" text-anchor="middle" class="m3-05-blood-glucose-l">혈당량</text>
+  <text x="360.0" y="194" text-anchor="middle" class="m3-05-blood-glucose-s">알맞은 범위</text>
+  <rect x="20" y="40" width="170" height="56" rx="8" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <text x="105.0" y="64" text-anchor="middle" class="m3-05-blood-glucose-l">혈당량 높아짐</text>
+  <text x="105.0" y="82" text-anchor="middle" class="m3-05-blood-glucose-s">식사 후</text>
+  <rect x="270" y="40" width="180" height="56" rx="8" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <text x="360.0" y="64" text-anchor="middle" class="m3-05-blood-glucose-l">이자</text>
+  <text x="360.0" y="82" text-anchor="middle" class="m3-05-blood-glucose-s">인슐린 분비</text>
+  <rect x="510" y="30" width="190" height="76" rx="8" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="605.0" y="55" text-anchor="middle" class="m3-05-blood-glucose-l">간·몸의 세포</text>
+  <text x="605.0" y="73" text-anchor="middle" class="m3-05-blood-glucose-s">간: 포도당 → 글리코젠</text>
+  <text x="605.0" y="91" text-anchor="middle" class="m3-05-blood-glucose-s">세포: 포도당 흡수</text>
+  <rect x="20" y="264" width="170" height="56" rx="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <text x="105.0" y="288" text-anchor="middle" class="m3-05-blood-glucose-l">혈당량 낮아짐</text>
+  <text x="105.0" y="306" text-anchor="middle" class="m3-05-blood-glucose-s">오래 굶거나 운동한 뒤</text>
+  <rect x="270" y="264" width="180" height="56" rx="8" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <text x="360.0" y="288" text-anchor="middle" class="m3-05-blood-glucose-l">이자</text>
+  <text x="360.0" y="306" text-anchor="middle" class="m3-05-blood-glucose-s">글루카곤 분비</text>
+  <rect x="510" y="254" width="190" height="76" rx="8" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="605.0" y="279" text-anchor="middle" class="m3-05-blood-glucose-l">간</text>
+  <text x="605.0" y="297" text-anchor="middle" class="m3-05-blood-glucose-s">글리코젠 → 포도당</text>
+  <text x="605.0" y="315" text-anchor="middle" class="m3-05-blood-glucose-s">포도당을 혈액으로</text>
+  <path d="M190 68 L266 68" class="m3-05-blood-glucose-ar" marker-end="url(#m3-05-blood-glucose-h)"/>
+  <path d="M450 68 L506 68" class="m3-05-blood-glucose-ar" marker-end="url(#m3-05-blood-glucose-h)"/>
+  <path d="M190 292 L266 292" class="m3-05-blood-glucose-ar" marker-end="url(#m3-05-blood-glucose-h)"/>
+  <path d="M450 292 L506 292" class="m3-05-blood-glucose-ar" marker-end="url(#m3-05-blood-glucose-h)"/>
+  <path d="M270 172 L105 172 L105 100" class="m3-05-blood-glucose-ar" marker-end="url(#m3-05-blood-glucose-h)"/>
+  <text x="150" y="166" text-anchor="middle" class="m3-05-blood-glucose-m">식사</text>
+  <path d="M270 190 L105 190 L105 260" class="m3-05-blood-glucose-ar" marker-end="url(#m3-05-blood-glucose-h)"/>
+  <text x="150" y="206" text-anchor="middle" class="m3-05-blood-glucose-m">굶음·운동</text>
+  <path d="M605 106 L605 168 L454 168" class="m3-05-blood-glucose-ar" marker-end="url(#m3-05-blood-glucose-h)"/>
+  <text x="530" y="160" text-anchor="middle" class="m3-05-blood-glucose-m">혈당량 낮아짐</text>
+  <path d="M605 254 L605 192 L454 192" class="m3-05-blood-glucose-ar" marker-end="url(#m3-05-blood-glucose-h)"/>
+  <text x="530" y="210" text-anchor="middle" class="m3-05-blood-glucose-m">혈당량 높아짐</text>
+  <text x="360" y="350" text-anchor="middle" class="m3-05-blood-glucose-m">인슐린과 글루카곤이 서로 반대로 작용하여 혈당량이 알맞은 범위를 벗어나지 않게 한다 (간 = 포도당 저금통)</text>
+</svg>
+</div><figcaption><b>그림 중3-5-3 인슐린과 글루카곤에 의한 혈당량 조절</b> 식사 후 혈당량이 높아지면 이자에서 인슐린이 분비되어 간이 포도당을 글리코젠으로 저장하고 세포가 포도당을 흡수해 혈당량이 낮아진다. 굶거나 운동하여 혈당량이 낮아지면 이자에서 글루카곤이 분비되어 간이 글리코젠을 포도당으로 바꾸어 내보내 혈당량이 높아진다.</figcaption></figure>
+
 <h4 id="2-체온-조절-신경과-티록신의-협동">(2) 체온 조절 — 신경과 티록신의 협동</h4>
 <p>체온의 변화는 <strong>간뇌</strong>가 감지하여 조절한다.</p>
 <div class="table-wrap"><table><thead><tr>
@@ -957,10 +1104,10 @@
 <p><strong>과정</strong></p>
 <ol>
 <li>카드 왼쪽에 &#39;+&#39; 표시를, 오른쪽으로 약 7∼8 cm 떨어진 곳에 지름 약 1 cm의 검은 점 &#39;●&#39;을 그린다.</li>
-<li>왼쪽 눈을 손으로 가리고, 카드를 눈앞 약 30 cm 거리에 든다.</li>
+<li>왼쪽 눈을 손으로 가리고, 카드를 팔을 뻗은 거리(눈앞 약 50 cm)에 든다.</li>
 <li>오른쪽 눈으로 &#39;+&#39;만 계속 바라보면서 카드를 천천히 눈 쪽으로 가까이 가져온다.</li>
 <li>&#39;●&#39;이 사라지는 순간 카드와 눈 사이의 거리를 친구가 자로 잰다.</li>
-<li>카드를 더 가까이 가져와 &#39;●&#39;이 다시 보이는지 확인하고, 반대쪽 눈으로도 해 본다(카드를 뒤집어 &#39;●&#39;이 왼쪽에 오게 한다).</li>
+<li>카드를 더 가까이 가져와 &#39;●&#39;이 다시 보이는지 확인하고, 반대쪽 눈으로도 해 본다(카드를 거꾸로 돌려 들어 &#39;●&#39;이 &#39;+&#39;의 왼쪽에 오게 한다).</li>
 </ol>
 <p><strong>결과 기록</strong></p>
 <div class="table-wrap"><table><thead><tr>
@@ -976,7 +1123,19 @@
 <td></td>
 </tr>
 <tr>
-<td>3</td>
+<td>1</td>
+<td>왼쪽</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>오른쪽</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
 <td>왼쪽</td>
 <td></td>
 <td></td>
@@ -1261,7 +1420,10 @@
 </tbody></table></div>
 <h3 id="다음-단원으로">다음 단원으로</h3>
 <p>이 단원에서는 한 사람의 몸이 신경과 호르몬으로 자극에 반응하고 스스로를 조절하는 모습을 살펴보았다. 성장호르몬이 키를 자라게 할 때, 몸속에서는 세포가 끊임없이 나뉘어 수를 늘린다. 다음 단원 「생식과 유전」에서는 세포가 어떻게 분열하고, 부모의 형질이 어떻게 자손에게 전해지는지를 탐구한다. 그리고 고등학교 생명과학 「항상성과 몸의 조절」에서는 이 단원의 &#39;전기 신호&#39;와 &#39;틈&#39;의 정체를 이온과 시냅스로 밝혀 본다.</p>
-<nav class="pager"><a class="prev" href="m3-04.html"><small>이전 단원 · 중3</small>운동과 에너지</a><a class="next" href="m3-06.html"><small>다음 단원 · 중3</small>생식과 유전</a></nav></article></div>
+<section class="done-box" id="done-box" hidden>
+  <label><input type="checkbox" id="done-check"><span>이 단원 학습을 마쳤다</span></label>
+  <p>표시해 두면 목차에 ✓가 붙고, 첫 화면에서 전체 진행 상황을 볼 수 있다. 읽던 위치와 이 표시는 지금 쓰는 기기의 브라우저에만 저장된다.</p>
+</section><nav class="pager"><a class="prev" href="m3-04.html"><small>이전 단원 · 중3</small>운동과 에너지</a><a class="next" href="m3-06.html"><small>다음 단원 · 중3</small>생식과 유전</a></nav></article></div>
 </main>
 </div>
 </body>

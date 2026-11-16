@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-m2-05-gas d-m2-05-gas">
+  <title id="t-m2-05-gas">그림 중2-5-2 낮과 밤, 식물의 기체 출입</title>
+  <desc id="d-m2-05-gas">호흡은 밤낮없이 일어나고 광합성은 빛이 있을 때만 일어난다. 빛이 강한 낮에는 광합성량이 호흡량보다 많아 이산화 탄소를 흡수하고 산소를 내보낸다. 빛이 약한 아침·저녁에는 두 양이 비슷해 드러나는 출입이 거의 없고, 밤에는 호흡만 하므로 산소를 흡수하고 이산화 탄소를 내보낸다. 막대 길이는 크기를 비교하기 위한 모식도이다.</desc>
+  <style>
+    .m2-05-gas-t{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .m2-05-gas-k{font-size:13px;fill:var(--fig-ink)}
+    .m2-05-gas-s{font-size:13px;fill:var(--fig-muted)}
+    .m2-05-gas-box{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2}
+    .m2-05-gas-leaf{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6}
+  </style>
+<rect x="12" y="12" width="224" height="376" rx="8" class="m2-05-gas-box"/>
+<text x="124.0" y="38" text-anchor="middle" class="m2-05-gas-t">빛이 강한 낮</text>
+<circle cx="200" cy="70" r="15" style="fill:var(--fig-amber)"/>
+<line x1="220.0" y1="70.0" x2="227.0" y2="70.0" style="stroke:var(--fig-amber);stroke-width:2.4"/>
+<line x1="214.1" y1="84.1" x2="219.1" y2="89.1" style="stroke:var(--fig-amber);stroke-width:2.4"/>
+<line x1="200.0" y1="90.0" x2="200.0" y2="97.0" style="stroke:var(--fig-amber);stroke-width:2.4"/>
+<line x1="185.9" y1="84.1" x2="180.9" y2="89.1" style="stroke:var(--fig-amber);stroke-width:2.4"/>
+<line x1="180.0" y1="70.0" x2="173.0" y2="70.0" style="stroke:var(--fig-amber);stroke-width:2.4"/>
+<line x1="185.9" y1="55.9" x2="180.9" y2="50.9" style="stroke:var(--fig-amber);stroke-width:2.4"/>
+<line x1="200.0" y1="50.0" x2="200.0" y2="43.0" style="stroke:var(--fig-amber);stroke-width:2.4"/>
+<line x1="214.1" y1="55.9" x2="219.1" y2="50.9" style="stroke:var(--fig-amber);stroke-width:2.4"/>
+<path d="M48 250 L116 250 L108 280 L56 280 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+<line x1="82" y1="250" x2="82" y2="140" style="stroke:var(--fig-green);stroke-width:3"/>
+<path d="M82 220 q-22 -18 -42 -6 q20 14 42 6 Z" class="m2-05-gas-leaf"/>
+<path d="M82 195 q22 -18 42 -6 q-20 14 -42 6 Z" class="m2-05-gas-leaf"/>
+<path d="M82 170 q-22 -18 -42 -6 q20 14 42 6 Z" class="m2-05-gas-leaf"/>
+<path d="M82 148 q22 -18 42 -6 q-20 14 -42 6 Z" class="m2-05-gas-leaf"/>
+<line x1="222" y1="120" x2="112" y2="120" style="stroke:var(--fig-teal);stroke-width:3"/>
+<path d="M108.8 120.0 L120.7 114.7 L120.7 125.3 Z" style="fill:var(--fig-teal)"/>
+<text x="167.0" y="112" text-anchor="middle" class="m2-05-gas-k" style="fill:var(--fig-teal)">이산화 탄소 흡수</text>
+<line x1="112" y1="170" x2="222" y2="170" style="stroke:var(--fig-red);stroke-width:3"/>
+<path d="M225.2 170.0 L213.3 175.3 L213.3 164.7 Z" style="fill:var(--fig-red)"/>
+<text x="167.0" y="162" text-anchor="middle" class="m2-05-gas-k" style="fill:var(--fig-red)">산소 방출</text>
+<text x="26" y="323" class="m2-05-gas-k">광합성</text>
+<rect x="96" y="312" width="124" height="14" rx="3" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+<rect x="96" y="312" width="124.0" height="14" rx="3" style="fill:var(--fig-green)"/>
+<text x="26" y="347" class="m2-05-gas-k">호흡</text>
+<rect x="96" y="336" width="124" height="14" rx="3" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+<rect x="96" y="336" width="37.2" height="14" rx="3" style="fill:var(--fig-violet)"/>
+<text x="124.0" y="376" text-anchor="middle" class="m2-05-gas-t" style="font-size:14px">광합성량 > 호흡량</text>
+<rect x="248" y="12" width="224" height="376" rx="8" class="m2-05-gas-box"/>
+<text x="360.0" y="38" text-anchor="middle" class="m2-05-gas-t">빛이 약한 아침·저녁</text>
+<path d="M416 82 A20 20 0 0 1 456 82 Z" style="fill:var(--fig-amber);opacity:.6"/>
+<line x1="406" y1="82" x2="466" y2="82" style="stroke:var(--fig-line);stroke-width:1.5"/>
+<path d="M284 250 L352 250 L344 280 L292 280 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+<line x1="318" y1="250" x2="318" y2="140" style="stroke:var(--fig-green);stroke-width:3"/>
+<path d="M318 220 q-22 -18 -42 -6 q20 14 42 6 Z" class="m2-05-gas-leaf"/>
+<path d="M318 195 q22 -18 42 -6 q-20 14 -42 6 Z" class="m2-05-gas-leaf"/>
+<path d="M318 170 q-22 -18 -42 -6 q20 14 42 6 Z" class="m2-05-gas-leaf"/>
+<path d="M318 148 q22 -18 42 -6 q-20 14 -42 6 Z" class="m2-05-gas-leaf"/>
+<text x="412" y="140" text-anchor="middle" class="m2-05-gas-s">드러나는 기체</text>
+<text x="412" y="158" text-anchor="middle" class="m2-05-gas-s">출입이 거의 없다</text>
+<text x="262" y="323" class="m2-05-gas-k">광합성</text>
+<rect x="332" y="312" width="124" height="14" rx="3" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+<rect x="332" y="312" width="37.2" height="14" rx="3" style="fill:var(--fig-green)"/>
+<text x="262" y="347" class="m2-05-gas-k">호흡</text>
+<rect x="332" y="336" width="124" height="14" rx="3" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+<rect x="332" y="336" width="37.2" height="14" rx="3" style="fill:var(--fig-violet)"/>
+<text x="360.0" y="376" text-anchor="middle" class="m2-05-gas-t" style="font-size:14px">광합성량 = 호흡량</text>
+<rect x="484" y="12" width="224" height="376" rx="8" class="m2-05-gas-box"/>
+<text x="596.0" y="38" text-anchor="middle" class="m2-05-gas-t">밤</text>
+<path d="M676 54 A16 16 0 1 0 684 82 A12 12 0 1 1 676 54 Z" style="fill:var(--fig-violet)"/>
+<path d="M520 250 L588 250 L580 280 L528 280 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+<line x1="554" y1="250" x2="554" y2="140" style="stroke:var(--fig-green);stroke-width:3"/>
+<path d="M554 220 q-22 -18 -42 -6 q20 14 42 6 Z" class="m2-05-gas-leaf"/>
+<path d="M554 195 q22 -18 42 -6 q-20 14 -42 6 Z" class="m2-05-gas-leaf"/>
+<path d="M554 170 q-22 -18 -42 -6 q20 14 42 6 Z" class="m2-05-gas-leaf"/>
+<path d="M554 148 q22 -18 42 -6 q-20 14 -42 6 Z" class="m2-05-gas-leaf"/>
+<line x1="694" y1="120" x2="584" y2="120" style="stroke:var(--fig-red);stroke-width:3"/>
+<path d="M580.8 120.0 L592.7 114.7 L592.7 125.3 Z" style="fill:var(--fig-red)"/>
+<text x="639.0" y="112" text-anchor="middle" class="m2-05-gas-k" style="fill:var(--fig-red)">산소 흡수</text>
+<line x1="584" y1="170" x2="694" y2="170" style="stroke:var(--fig-teal);stroke-width:3"/>
+<path d="M697.2 170.0 L685.3 175.3 L685.3 164.7 Z" style="fill:var(--fig-teal)"/>
+<text x="639.0" y="162" text-anchor="middle" class="m2-05-gas-k" style="fill:var(--fig-teal)">이산화 탄소 방출</text>
+<text x="498" y="323" class="m2-05-gas-k">광합성</text>
+<rect x="568" y="312" width="124" height="14" rx="3" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+<text x="498" y="347" class="m2-05-gas-k">호흡</text>
+<rect x="568" y="336" width="124" height="14" rx="3" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+<rect x="568" y="336" width="37.2" height="14" rx="3" style="fill:var(--fig-violet)"/>
+<text x="596.0" y="376" text-anchor="middle" class="m2-05-gas-t" style="font-size:14px">광합성량 = 0 (호흡만)</text>
+</svg>

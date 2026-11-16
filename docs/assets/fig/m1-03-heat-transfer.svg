@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-m1-03-heat-transfer d-m1-03-heat-transfer">
+<title id="t-m1-03-heat-transfer">그림 중1-3-1 열이 이동하는 세 가지 방법 — 전도·대류·복사</title>
+<desc id="d-m1-03-heat-transfer">전도는 고체에서 이웃한 입자에 진동이 차례로 전달되고, 대류는 액체·기체에서 데워진 물질이 직접 이동하며 순환하고, 복사는 물질 없이 열이 직접 전달된다. 모식도.</desc>
+<style>
+  .m103h-box{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1}
+  .m103h-ttl{font-size:16px;font-weight:700} .m103h-r{fill:var(--fig-red)} .m103h-b{fill:var(--fig-blue)} .m103h-a{fill:var(--fig-amber)}
+  .m103h-ink{font-size:14px;fill:var(--fig-ink)} .m103h-sm{font-size:13px;fill:var(--fig-muted)}
+  .m103h-rod{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.8}
+  .m103h-ph{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5} .m103h-pm{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5} .m103h-pc{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5}
+  .m103h-vib{fill:none;stroke:var(--fig-muted);stroke-width:1.3;stroke-linecap:round}
+  .m103h-fl{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8} .m103h-fl2{fill:var(--fig-amber)}
+  .m103h-cand{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5}
+  .m103h-glass{fill:none;stroke:var(--fig-ink);stroke-width:2;stroke-linejoin:round} .m103h-water{fill:var(--fig-soft-blue)}
+  .m103h-up{fill:none;stroke:var(--fig-red);stroke-width:2.6;stroke-linejoin:round} .m103h-uph{fill:var(--fig-red)}
+  .m103h-dn{fill:none;stroke:var(--fig-blue);stroke-width:2.6;stroke-linejoin:round} .m103h-dnh{fill:var(--fig-blue)}
+  .m103h-heat{fill:none;stroke:var(--fig-red);stroke-width:2.2} .m103h-heath{fill:var(--fig-red)}
+  .m103h-wav{fill:none;stroke:var(--fig-red);stroke-width:2} .m103h-wavh{fill:var(--fig-red)}
+  .m103h-sun{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2.5}
+  .m103h-earth{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2} .m103h-land{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2}
+  .m103h-space{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4}
+</style>
+<rect x="6" y="6" width="228" height="328" rx="10" class="m103h-box"/>
+<rect x="244" y="6" width="228" height="328" rx="10" class="m103h-box"/>
+<rect x="482" y="6" width="228" height="328" rx="10" class="m103h-box"/>
+<text x="20" y="34" class="m103h-ttl m103h-r">전도</text><text x="68" y="34" class="m103h-sm">고체</text>
+<rect x="26" y="112" width="192" height="52" rx="4" class="m103h-rod"/>
+<path d="M26.5 121 q-3 5 0 10 M57.5 121 q3 5 0 10" class="m103h-vib"/><circle cx="42" cy="126" r="7.5" class="m103h-ph"/><path d="M26.5 145 q-3 5 0 10 M57.5 145 q3 5 0 10" class="m103h-vib"/><circle cx="42" cy="150" r="7.5" class="m103h-ph"/>
+<path d="M50.2 121 q-3 5 0 10 M79.8 121 q3 5 0 10" class="m103h-vib"/><circle cx="65" cy="126" r="7.5" class="m103h-ph"/><path d="M50.2 145 q-3 5 0 10 M79.8 145 q3 5 0 10" class="m103h-vib"/><circle cx="65" cy="150" r="7.5" class="m103h-ph"/>
+<path d="M74.0 121 q-3 5 0 10 M102.0 121 q3 5 0 10" class="m103h-vib"/><circle cx="88" cy="126" r="7.5" class="m103h-ph"/><path d="M74.0 145 q-3 5 0 10 M102.0 145 q3 5 0 10" class="m103h-vib"/><circle cx="88" cy="150" r="7.5" class="m103h-ph"/>
+<path d="M97.8 121 q-3 5 0 10 M124.2 121 q3 5 0 10" class="m103h-vib"/><circle cx="111" cy="126" r="7.5" class="m103h-pm"/><path d="M97.8 145 q-3 5 0 10 M124.2 145 q3 5 0 10" class="m103h-vib"/><circle cx="111" cy="150" r="7.5" class="m103h-pm"/>
+<path d="M121.5 121 q-3 5 0 10 M146.5 121 q3 5 0 10" class="m103h-vib"/><circle cx="134" cy="126" r="7.5" class="m103h-pm"/><path d="M121.5 145 q-3 5 0 10 M146.5 145 q3 5 0 10" class="m103h-vib"/><circle cx="134" cy="150" r="7.5" class="m103h-pm"/>
+<path d="M145.2 121 q-3 5 0 10 M168.8 121 q3 5 0 10" class="m103h-vib"/><circle cx="157" cy="126" r="7.5" class="m103h-pc"/><path d="M145.2 145 q-3 5 0 10 M168.8 145 q3 5 0 10" class="m103h-vib"/><circle cx="157" cy="150" r="7.5" class="m103h-pc"/>
+<path d="M169.0 121 q-3 5 0 10 M191.0 121 q3 5 0 10" class="m103h-vib"/><circle cx="180" cy="126" r="7.5" class="m103h-pc"/><path d="M169.0 145 q-3 5 0 10 M191.0 145 q3 5 0 10" class="m103h-vib"/><circle cx="180" cy="150" r="7.5" class="m103h-pc"/>
+<path d="M192.8 121 q-3 5 0 10 M213.2 121 q3 5 0 10" class="m103h-vib"/><circle cx="203" cy="126" r="7.5" class="m103h-pc"/><path d="M192.8 145 q-3 5 0 10 M213.2 145 q3 5 0 10" class="m103h-vib"/><circle cx="203" cy="150" r="7.5" class="m103h-pc"/>
+<path d="M46 92 L202 92" class="m103h-heat"/><path d="M202 92 L192.0 97.0 L192.0 87.0 Z" class="m103h-heath"/>
+<text x="124" y="82" text-anchor="middle" class="m103h-sm">열의 이동</text>
+<path d="M54 172.0 C68.0 188.0 67.0 202.0 54 206 C41.0 202.0 40.0 188.0 54 172.0 Z" class="m103h-fl"/><path d="M54 188.0 C60.0 196.0 60.0 203.0 54 205.0 C48.0 203.0 48.0 196.0 54 188.0 Z" class="m103h-fl2"/>
+<rect x="46" y="206" width="16" height="30" rx="2" class="m103h-cand"/>
+<text x="136" y="196" text-anchor="middle" class="m103h-sm">가열한 쪽일수록</text><text x="136" y="214" text-anchor="middle" class="m103h-sm">입자 진동이 크다</text>
+<text x="258" y="34" class="m103h-ttl m103h-a">대류</text><text x="306" y="34" class="m103h-sm">액체·기체</text>
+<rect x="286" y="84" width="144" height="128" class="m103h-water"/>
+<path d="M278 60 L284 66 L284 206 Q284 214 292 214 L424 214 Q432 214 432 206 L432 60" class="m103h-glass"/>
+<path d="M350 196 L350 104" class="m103h-up"/><path d="M350 104 L355.0 114.0 L345.0 114.0 Z" class="m103h-uph"/>
+<path d="M338 98 L302 98 L298 104" class="m103h-dn"/><path d="M298 104 L299.4 92.9 L307.7 98.5 Z" class="m103h-dnh"/>
+<path d="M296 116 L296 196" class="m103h-dn"/><path d="M296 196 L291.0 186.0 L301.0 186.0 Z" class="m103h-dnh"/>
+<path d="M302 204 L336 204" class="m103h-dn"/><path d="M336 204 L326.0 209.0 L326.0 199.0 Z" class="m103h-dnh"/>
+<path d="M366 196 L366 104" class="m103h-up"/><path d="M366 104 L371.0 114.0 L361.0 114.0 Z" class="m103h-uph"/>
+<path d="M378 98 L414 98 L418 104" class="m103h-dn"/><path d="M418 104 L408.3 98.5 L416.6 92.9 Z" class="m103h-dnh"/>
+<path d="M420 116 L420 196" class="m103h-dn"/><path d="M420 196 L415.0 186.0 L425.0 186.0 Z" class="m103h-dnh"/>
+<path d="M414 204 L380 204" class="m103h-dn"/><path d="M380 204 L390.0 199.0 L390.0 209.0 Z" class="m103h-dnh"/>
+<path d="M358 216.0 C372.0 232.0 371.0 246.0 358 250 C345.0 246.0 344.0 232.0 358 216.0 Z" class="m103h-fl"/><path d="M358 232.0 C364.0 240.0 364.0 247.0 358 249.0 C352.0 247.0 352.0 240.0 358 232.0 Z" class="m103h-fl2"/>
+
+<text x="358" y="78" text-anchor="middle" class="m103h-sm">물</text>
+<text x="260" y="246" class="m103h-sm">따뜻한 물 ↑</text><text x="458" y="246" text-anchor="end" class="m103h-sm">찬물 ↓</text>
+<text x="496" y="34" class="m103h-ttl m103h-r">복사</text><text x="544" y="34" class="m103h-sm">물질 없이</text>
+<rect x="494" y="48" width="204" height="196" rx="8" class="m103h-space"/>
+<circle cx="532" cy="92" r="28" class="m103h-sun"/><text x="532" y="97" text-anchor="middle" class="m103h-ink">태양</text>
+<circle cx="662" cy="198" r="24" class="m103h-earth"/><path d="M648 190 q8 -10 18 -4 q6 8 -4 14 q-10 4 -14 -10 Z" class="m103h-land"/>
+<text x="662" y="236" text-anchor="middle" class="m103h-sm">지구</text>
+<polyline points="546.4 109.6 546.2 114.4 549.1 115.7 554.4 114.4 558.1 114.8 558.5 119.0 557.9 124.2 560.0 126.4 565.0 125.4 569.5 125.1 570.6 128.4 569.8 133.8 571.1 137.0 575.6 136.5 580.5 135.6 582.5 138.0 581.8 143.3 582.3 147.3 586.2 147.5 591.5 146.3 594.2 147.8 593.9 152.7 593.8 157.4 596.9 158.5 602.2 157.2 605.8 157.7 606.0 162.0 605.5 167.2 607.8 169.3 612.8 168.2 617.2 168.0 618.1 171.5 617.4 176.9 618.8 179.9 623.4 179.2 627.3 179.5 628.7 182.5 630.4 185.2" class="m103h-wav"/><path d="M630.4 185.2 L619.6 182.2 L626.3 174.8 Z" class="m103h-wavh"/>
+<polyline points="556.0 116.0 556.1 120.8 559.1 121.9 564.3 120.3 568.1 120.4 568.7 124.5 568.5 129.8 570.7 131.9 575.6 130.6 580.0 129.9 581.4 133.1 581.0 138.6 582.4 141.7 586.9 140.9 591.8 139.6 593.9 141.9 593.6 147.2 594.3 151.2 598.2 151.2 603.3 149.6 606.3 150.8 606.3 155.7 606.5 160.5 609.6 161.4 614.8 159.8 618.5 160.0 619.0 164.2 618.8 169.5 621.1 171.4 626.1 170.1 630.4 169.5 631.7 172.8 631.4 178.1 633.8 180.1 637.5 180.2 640.0 182.0" class="m103h-wav"/><path d="M640.0 182.0 L629.0 179.8 L635.2 171.9 Z" class="m103h-wavh"/>
+<polyline points="565.6 122.4 566.1 127.2 569.2 128.0 574.2 126.0 578.0 125.9 578.9 130.1 579.1 135.3 581.5 137.2 586.4 135.4 590.7 134.5 592.2 137.8 592.2 143.3 594.0 146.1 598.6 144.8 603.3 143.3 605.4 145.7 605.4 151.1 606.6 154.8 610.7 154.2 615.7 152.3 618.4 153.7 618.7 158.8 619.4 163.2 622.9 163.5 628.0 161.5 631.4 161.9 632.0 166.5 632.3 171.5 635.2 172.7 640.2 170.8 644.0 170.6 645.0 174.6 646.6 177.8 649.6 178.8" class="m103h-wav"/><path d="M649.6 178.8 L638.5 177.4 L644.1 169.1 Z" class="m103h-wavh"/>
+<text x="632" y="72" text-anchor="middle" class="m103h-sm">우주 공간</text><text x="632" y="90" text-anchor="middle" class="m103h-sm">(거의 진공)</text>
+<text x="20" y="276" class="m103h-ink">이웃한 입자에 진동이 차례로</text><text x="20" y="296" class="m103h-ink">전달된다(입자는 제자리).</text><text x="20" y="320" class="m103h-sm">예: 프라이팬 손잡이가 뜨거워진다</text>
+<text x="258" y="276" class="m103h-ink">데워진 물질이 직접 위로 이동</text><text x="258" y="296" class="m103h-ink">하며 순환한다.</text><text x="258" y="320" class="m103h-sm">예: 난로는 아래, 에어컨은 위</text>
+<text x="496" y="276" class="m103h-ink">물질의 도움 없이 열이 직접</text><text x="496" y="296" class="m103h-ink">전달된다(진공도 지나간다).</text><text x="496" y="320" class="m103h-sm">예: 햇볕, 모닥불 앞의 따뜻함</text>
+</svg>

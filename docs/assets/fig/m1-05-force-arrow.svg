@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" role="img" aria-labelledby="t-m1-05-force-arrow d-m1-05-force-arrow">
+  <title id="t-m1-05-force-arrow">그림 중1-5-1 힘을 화살표로 나타내기</title>
+  <desc id="d-m1-05-force-arrow">화살표의 시작점은 힘이 작용하는 점, 방향은 힘의 방향, 길이는 힘의 크기를 나타낸다. 1 cm를 2 N으로 약속하면 6 N은 3 cm, 3 N은 1.5 cm 화살표가 된다.</desc>
+  <style>
+    .fa-red{fill:none;stroke:var(--fig-red)} .fa-redh{fill:var(--fig-red)}
+    .fa-blue{fill:none;stroke:var(--fig-blue)} .fa-blueh{fill:var(--fig-blue)}
+    .fa-green{fill:none;stroke:var(--fig-green)} .fa-greenh{fill:var(--fig-green)}
+    .fa-amber{fill:none;stroke:var(--fig-amber)} .fa-amberh{fill:var(--fig-amber)}
+    .fa-violet{fill:none;stroke:var(--fig-violet)} .fa-violeth{fill:var(--fig-violet)}
+    .fa-teal{fill:none;stroke:var(--fig-teal)} .fa-tealh{fill:var(--fig-teal)}
+    .fa-ink{fill:none;stroke:var(--fig-ink)} .fa-inkh{fill:var(--fig-ink)}
+    .fa-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .fa-t{font-size:14px;fill:var(--fig-ink)}
+    .fa-sm{font-size:13px;fill:var(--fig-muted)}
+    .fa-box{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+    .fa-floor{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.5}
+    .fa-hatch{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .fa-dot{fill:var(--fig-ink)}
+    .fa-ld{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .fa-tick{fill:none;stroke:var(--fig-muted);stroke-width:1.2}
+    .fa-rb{font-size:14px;font-weight:700;fill:var(--fig-red)}
+    .fa-bb{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+    .fa-gb{font-size:14px;font-weight:700;fill:var(--fig-green)}
+    .fa-vb{font-size:14px;font-weight:700;fill:var(--fig-violet)}
+    .fa-ab{font-size:14px;font-weight:700;fill:var(--fig-amber)}
+  </style>
+  <rect x="30" y="170" width="390" height="16" class="fa-floor"/>
+  <path d="M36 186 l10 -16 M50 186 l10 -16 M64 186 l10 -16 M78 186 l10 -16 M92 186 l10 -16 M106 186 l10 -16 M120 186 l10 -16 M134 186 l10 -16 M148 186 l10 -16 M162 186 l10 -16 M176 186 l10 -16 M190 186 l10 -16 M204 186 l10 -16 M218 186 l10 -16 M232 186 l10 -16 M246 186 l10 -16 M260 186 l10 -16 M274 186 l10 -16 M288 186 l10 -16 M302 186 l10 -16 M316 186 l10 -16 M330 186 l10 -16 M344 186 l10 -16 M358 186 l10 -16 M372 186 l10 -16 M386 186 l10 -16 M400 186 l10 -16 " class="fa-hatch"/>
+  <rect x="60" y="100" width="110" height="70" rx="3" class="fa-box"/>
+  <text x="115" y="140" text-anchor="middle" class="fa-t">상자</text>
+  <line x1="170.0" y1="135.0" x2="276.0" y2="135.0" style="stroke-width:3.5;stroke-linecap:round" class="fa-red"/><path d="M290.0 135.0 L276.0 141.3 L276.0 128.7 Z" class="fa-redh"/>
+  <circle cx="170" cy="135" r="5" class="fa-dot"/>
+  <line x1="170" y1="202" x2="170" y2="212" class="fa-tick"/>
+  <text x="170" y="230" text-anchor="middle" class="fa-sm">0 N</text>
+  <line x1="210" y1="202" x2="210" y2="212" class="fa-tick"/>
+  <text x="210" y="230" text-anchor="middle" class="fa-sm">2 N</text>
+  <line x1="250" y1="202" x2="250" y2="212" class="fa-tick"/>
+  <text x="250" y="230" text-anchor="middle" class="fa-sm">4 N</text>
+  <line x1="290" y1="202" x2="290" y2="212" class="fa-tick"/>
+  <text x="290" y="230" text-anchor="middle" class="fa-sm">6 N</text>
+  <line x1="170" y1="207" x2="290" y2="207" class="fa-tick"/>
+  <text x="230.0" y="252" text-anchor="middle" class="fa-sm">1 cm = 2 N으로 약속</text>
+  <line x1="166" y1="129" x2="140" y2="66" class="fa-ld"/>
+  <text x="140" y="44" text-anchor="middle" class="fa-h">시작점</text><text x="140" y="61" text-anchor="middle" class="fa-sm">작용점</text>
+  <line x1="230" y1="129" x2="250" y2="66" class="fa-ld"/>
+  <text x="262" y="44" text-anchor="middle" class="fa-h">길이</text><text x="262" y="61" text-anchor="middle" class="fa-sm">힘의 크기 6 N → 3 cm</text>
+  <line x1="282" y1="129" x2="350" y2="90" class="fa-ld"/>
+  <text x="372" y="84" text-anchor="middle" class="fa-h">방향</text><text x="372" y="101" text-anchor="middle" class="fa-sm">힘의 방향(오른쪽)</text>
+  <line x1="455" y1="30" x2="455" y2="250" class="fa-ld" style="stroke-dasharray:4 4"/>
+  <text x="590" y="44" text-anchor="middle" class="fa-h">길이가 2배면 힘도 2배</text>
+  <circle cx="500" cy="100" r="4.5" class="fa-dot"/>  <line x1="500.0" y1="100.0" x2="546.0" y2="100.0" style="stroke-width:3.5;stroke-linecap:round" class="fa-blue"/><path d="M560.0 100.0 L546.0 106.3 L546.0 93.7 Z" class="fa-blueh"/>
+  <text x="572.0" y="105" class="fa-bb">3 N</text>
+  <circle cx="500" cy="150" r="4.5" class="fa-dot"/>  <line x1="500.0" y1="150.0" x2="606.0" y2="150.0" style="stroke-width:3.5;stroke-linecap:round" class="fa-red"/><path d="M620.0 150.0 L606.0 156.3 L606.0 143.7 Z" class="fa-redh"/>
+  <text x="632" y="155" class="fa-rb">6 N</text>
+  <circle cx="680" cy="200" r="4.5" class="fa-dot"/>  <line x1="680.0" y1="200.0" x2="574.0" y2="200.0" style="stroke-width:3.5;stroke-linecap:round" class="fa-red"/><path d="M560.0 200.0 L574.0 193.7 L574.0 206.3 Z" class="fa-redh"/>
+  <text x="548" y="205" text-anchor="end" class="fa-rb">6 N</text>
+  <text x="590" y="240" text-anchor="middle" class="fa-sm">크기는 같아도 방향이 다르면 다른 힘</text>
+</svg>

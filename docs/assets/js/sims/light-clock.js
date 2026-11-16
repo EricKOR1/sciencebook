@@ -4,7 +4,7 @@ Sims.register('light-clock', {
   caption: '두 거울 사이를 빛이 한 번 왕복하면 \'똑딱\' 한 번이다. 속력을 올리면, 땅에 선 사람이 보기에 움직이는 시계의 빛은 비스듬한 지그재그 길을 가야 한다. 빛의 속력은 누가 보아도 같으므로(광속 불변) 길이 긴 만큼 한 번 똑딱이는 데 시간이 더 걸린다. 화면의 두 빛은 같은 속력으로 움직이며, 시계의 속력은 빛의 속력에 대한 비로 나타냈다.',
   init: function (api) {
     var state = { b: 0.6, t: 0 };
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.05 : 0.5; }, label: '정지한 빛 시계와 움직이는 빛 시계' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.3 : 0.44; }, label: '정지한 빛 시계와 움직이는 빛 시계' });
     var ctx = cv.ctx;
 
     var rB = api.readout('시계의 속력 (빛의 속력 = 1)');
@@ -34,7 +34,7 @@ Sims.register('light-clock', {
       var w = cv.w, h = cv.h;
       if (w < 560) {
         var Lm = Math.min(90, h * 0.2, (w - 60) / 4.3);
-        return { L: Lm, still: { x: 0, y: 0, w: w, h: h * 0.4 }, move: { x: 0, y: h * 0.4, w: w, h: h * 0.6 } };
+        return { L: Lm, still: { x: 0, y: 0, w: w, h: h * 0.4 }, move: { x: 0, y: h * 0.42, w: w, h: h * 0.58 } };
       }
       var L = Math.min(h * 0.5, 120, (w * 0.74 - 60) / 4.3);
       return { L: L, still: { x: 0, y: 0, w: w * 0.24, h: h }, move: { x: w * 0.26, y: 0, w: w * 0.74, h: h } };
