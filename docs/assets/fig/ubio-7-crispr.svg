@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-labelledby="t-ubio-7-crispr d-ubio-7-crispr">
+<title id="t-ubio-7-crispr">그림 일반생명과학 7-3 CRISPR–Cas9의 표적 인식과 절단, 그리고 두 가지 수선</title>
+<desc id="d-ubio-7-crispr">가이드 RNA의 20 염기가 표적 가닥과 상보적으로 짝을 짓고, 바로 뒤에 PAM(NGG)이 있을 때 Cas9이 PAM 앞 3 염기 위치에서 두 가닥을 모두 자른다. 잘린 DNA는 비상동 말단 연결로 작은 삽입·결실이 생기거나, 넣어 준 주형을 베끼는 상동 의존 수선으로 원하는 서열로 고쳐진다. 서열은 예시이다.</desc>
+<style>
+.ubio-7-crispr-h{font-size:14px;font-weight:700;fill:var(--fig-ink)} .ubio-7-crispr-s{font-size:13px;fill:var(--fig-muted)} .ubio-7-crispr-t{font-size:13px;fill:var(--fig-ink)}
+.ubio-7-crispr-b{font-size:13px;font-weight:700;fill:var(--fig-ink)} .ubio-7-crispr-g{font-size:13px;font-weight:700;fill:var(--fig-violet)}
+.ubio-7-crispr-bb{fill:none;stroke:var(--fig-line);stroke-width:2} .ubio-7-crispr-gb{fill:none;stroke:var(--fig-violet);stroke-width:2}
+.ubio-7-crispr-pair{stroke:var(--fig-violet);stroke-width:1.2} .ubio-7-crispr-dpair{stroke:var(--fig-line);stroke-width:1.2}
+.ubio-7-crispr-cut{stroke:var(--fig-red);stroke-width:2.5} .ubio-7-crispr-ah{fill:var(--fig-muted)} .ubio-7-crispr-arr{fill:none;stroke:var(--fig-muted);stroke-width:2}
+</style>
+<rect x="157" y="56" width="431" height="166" rx="40" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5;opacity:0.9"/>
+<text x="594" y="74" text-anchor="start" class="ubio-7-crispr-b" style="fill:var(--fig-teal)">Cas9</text>
+<rect x="511" y="153" width="51" height="20" rx="4" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+<path d="M114 151 L164 151 C174 151 173 87 183 87 L498 87 C510 87 505 151 513 151 L618 151" class="ubio-7-crispr-bb"/>
+<line x1="114" y1="203" x2="618" y2="203" class="ubio-7-crispr-bb"/>
+<text x="128" y="168" text-anchor="middle" class="ubio-7-crispr-t">A</text>
+<text x="128" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">T</text>
+<line x1="128" y1="172" x2="128" y2="198" class="ubio-7-crispr-dpair"/>
+<text x="145" y="168" text-anchor="middle" class="ubio-7-crispr-t">C</text>
+<text x="145" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">G</text>
+<line x1="145" y1="172" x2="145" y2="198" class="ubio-7-crispr-dpair"/>
+<text x="162" y="168" text-anchor="middle" class="ubio-7-crispr-t">T</text>
+<text x="162" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">A</text>
+<line x1="162" y1="172" x2="162" y2="198" class="ubio-7-crispr-dpair"/>
+<text x="179" y="102" text-anchor="middle" class="ubio-7-crispr-t">G</text>
+<text x="179" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">C</text>
+<text x="196" y="102" text-anchor="middle" class="ubio-7-crispr-t">A</text>
+<text x="196" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">T</text>
+<text x="213" y="102" text-anchor="middle" class="ubio-7-crispr-t">C</text>
+<text x="213" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">G</text>
+<text x="230" y="102" text-anchor="middle" class="ubio-7-crispr-t">G</text>
+<text x="230" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">C</text>
+<text x="247" y="102" text-anchor="middle" class="ubio-7-crispr-t">C</text>
+<text x="247" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">G</text>
+<text x="264" y="102" text-anchor="middle" class="ubio-7-crispr-t">A</text>
+<text x="264" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">T</text>
+<text x="281" y="102" text-anchor="middle" class="ubio-7-crispr-t">T</text>
+<text x="281" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">A</text>
+<text x="298" y="102" text-anchor="middle" class="ubio-7-crispr-t">A</text>
+<text x="298" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">T</text>
+<text x="315" y="102" text-anchor="middle" class="ubio-7-crispr-t">A</text>
+<text x="315" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">T</text>
+<text x="332" y="102" text-anchor="middle" class="ubio-7-crispr-t">A</text>
+<text x="332" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">T</text>
+<text x="349" y="102" text-anchor="middle" class="ubio-7-crispr-t">G</text>
+<text x="349" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">C</text>
+<text x="366" y="102" text-anchor="middle" class="ubio-7-crispr-t">A</text>
+<text x="366" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">T</text>
+<text x="383" y="102" text-anchor="middle" class="ubio-7-crispr-t">T</text>
+<text x="383" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">A</text>
+<text x="400" y="102" text-anchor="middle" class="ubio-7-crispr-t">G</text>
+<text x="400" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">C</text>
+<text x="417" y="102" text-anchor="middle" class="ubio-7-crispr-t">A</text>
+<text x="417" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">T</text>
+<text x="434" y="102" text-anchor="middle" class="ubio-7-crispr-t">G</text>
+<text x="434" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">C</text>
+<text x="451" y="102" text-anchor="middle" class="ubio-7-crispr-t">A</text>
+<text x="451" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">T</text>
+<text x="468" y="102" text-anchor="middle" class="ubio-7-crispr-t">C</text>
+<text x="468" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">G</text>
+<text x="485" y="102" text-anchor="middle" class="ubio-7-crispr-t">G</text>
+<text x="485" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">C</text>
+<text x="502" y="102" text-anchor="middle" class="ubio-7-crispr-t">C</text>
+<text x="502" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">G</text>
+<text x="519" y="168" text-anchor="middle" class="ubio-7-crispr-b">T</text>
+<text x="519" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">A</text>
+<line x1="519" y1="172" x2="519" y2="198" class="ubio-7-crispr-dpair"/>
+<text x="536" y="168" text-anchor="middle" class="ubio-7-crispr-b">G</text>
+<text x="536" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">C</text>
+<line x1="536" y1="172" x2="536" y2="198" class="ubio-7-crispr-dpair"/>
+<text x="553" y="168" text-anchor="middle" class="ubio-7-crispr-b">G</text>
+<text x="553" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">C</text>
+<line x1="553" y1="172" x2="553" y2="198" class="ubio-7-crispr-dpair"/>
+<text x="570" y="168" text-anchor="middle" class="ubio-7-crispr-t">C</text>
+<text x="570" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">G</text>
+<line x1="570" y1="172" x2="570" y2="198" class="ubio-7-crispr-dpair"/>
+<text x="587" y="168" text-anchor="middle" class="ubio-7-crispr-t">A</text>
+<text x="587" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">T</text>
+<line x1="587" y1="172" x2="587" y2="198" class="ubio-7-crispr-dpair"/>
+<text x="604" y="168" text-anchor="middle" class="ubio-7-crispr-t">T</text>
+<text x="604" y="200" text-anchor="middle" class="ubio-7-crispr-t" style="dominant-baseline:hanging">A</text>
+<line x1="604" y1="172" x2="604" y2="198" class="ubio-7-crispr-dpair"/>
+<text x="104" y="168" text-anchor="end" class="ubio-7-crispr-s">5′</text>
+<text x="624" y="168" text-anchor="start" class="ubio-7-crispr-s">3′</text>
+<text x="104" y="210" text-anchor="end" class="ubio-7-crispr-s">3′</text>
+<text x="624" y="210" text-anchor="start" class="ubio-7-crispr-s">5′</text>
+<text x="179" y="168" text-anchor="middle" class="ubio-7-crispr-g">G</text>
+<line x1="179" y1="172" x2="179" y2="198" class="ubio-7-crispr-pair"/>
+<text x="196" y="168" text-anchor="middle" class="ubio-7-crispr-g">A</text>
+<line x1="196" y1="172" x2="196" y2="198" class="ubio-7-crispr-pair"/>
+<text x="213" y="168" text-anchor="middle" class="ubio-7-crispr-g">C</text>
+<line x1="213" y1="172" x2="213" y2="198" class="ubio-7-crispr-pair"/>
+<text x="230" y="168" text-anchor="middle" class="ubio-7-crispr-g">G</text>
+<line x1="230" y1="172" x2="230" y2="198" class="ubio-7-crispr-pair"/>
+<text x="247" y="168" text-anchor="middle" class="ubio-7-crispr-g">C</text>
+<line x1="247" y1="172" x2="247" y2="198" class="ubio-7-crispr-pair"/>
+<text x="264" y="168" text-anchor="middle" class="ubio-7-crispr-g">A</text>
+<line x1="264" y1="172" x2="264" y2="198" class="ubio-7-crispr-pair"/>
+<text x="281" y="168" text-anchor="middle" class="ubio-7-crispr-g">U</text>
+<line x1="281" y1="172" x2="281" y2="198" class="ubio-7-crispr-pair"/>
+<text x="298" y="168" text-anchor="middle" class="ubio-7-crispr-g">A</text>
+<line x1="298" y1="172" x2="298" y2="198" class="ubio-7-crispr-pair"/>
+<text x="315" y="168" text-anchor="middle" class="ubio-7-crispr-g">A</text>
+<line x1="315" y1="172" x2="315" y2="198" class="ubio-7-crispr-pair"/>
+<text x="332" y="168" text-anchor="middle" class="ubio-7-crispr-g">A</text>
+<line x1="332" y1="172" x2="332" y2="198" class="ubio-7-crispr-pair"/>
+<text x="349" y="168" text-anchor="middle" class="ubio-7-crispr-g">G</text>
+<line x1="349" y1="172" x2="349" y2="198" class="ubio-7-crispr-pair"/>
+<text x="366" y="168" text-anchor="middle" class="ubio-7-crispr-g">A</text>
+<line x1="366" y1="172" x2="366" y2="198" class="ubio-7-crispr-pair"/>
+<text x="383" y="168" text-anchor="middle" class="ubio-7-crispr-g">U</text>
+<line x1="383" y1="172" x2="383" y2="198" class="ubio-7-crispr-pair"/>
+<text x="400" y="168" text-anchor="middle" class="ubio-7-crispr-g">G</text>
+<line x1="400" y1="172" x2="400" y2="198" class="ubio-7-crispr-pair"/>
+<text x="417" y="168" text-anchor="middle" class="ubio-7-crispr-g">A</text>
+<line x1="417" y1="172" x2="417" y2="198" class="ubio-7-crispr-pair"/>
+<text x="434" y="168" text-anchor="middle" class="ubio-7-crispr-g">G</text>
+<line x1="434" y1="172" x2="434" y2="198" class="ubio-7-crispr-pair"/>
+<text x="451" y="168" text-anchor="middle" class="ubio-7-crispr-g">A</text>
+<line x1="451" y1="172" x2="451" y2="198" class="ubio-7-crispr-pair"/>
+<text x="468" y="168" text-anchor="middle" class="ubio-7-crispr-g">C</text>
+<line x1="468" y1="172" x2="468" y2="198" class="ubio-7-crispr-pair"/>
+<text x="485" y="168" text-anchor="middle" class="ubio-7-crispr-g">G</text>
+<line x1="485" y1="172" x2="485" y2="198" class="ubio-7-crispr-pair"/>
+<text x="502" y="168" text-anchor="middle" class="ubio-7-crispr-g">C</text>
+<line x1="502" y1="172" x2="502" y2="198" class="ubio-7-crispr-pair"/>
+<line x1="173" y1="153" x2="508" y2="153" class="ubio-7-crispr-gb"/>
+<text x="181" y="146" text-anchor="middle" class="ubio-7-crispr-s" style="fill:var(--fig-violet)">5′</text>
+<path d="M508 153 C522 153 518 128 502 124 L383 124 C349 124 349 106 383 106 L496 106" class="ubio-7-crispr-gb"/>
+<line x1="391" y1="122" x2="391" y2="108" class="ubio-7-crispr-pair"/>
+<line x1="403" y1="122" x2="403" y2="108" class="ubio-7-crispr-pair"/>
+<line x1="415" y1="122" x2="415" y2="108" class="ubio-7-crispr-pair"/>
+<line x1="427" y1="122" x2="427" y2="108" class="ubio-7-crispr-pair"/>
+<line x1="439" y1="122" x2="439" y2="108" class="ubio-7-crispr-pair"/>
+<line x1="451" y1="122" x2="451" y2="108" class="ubio-7-crispr-pair"/>
+<line x1="463" y1="122" x2="463" y2="108" class="ubio-7-crispr-pair"/>
+<line x1="475" y1="122" x2="475" y2="108" class="ubio-7-crispr-pair"/>
+<line x1="487" y1="122" x2="487" y2="108" class="ubio-7-crispr-pair"/>
+<text x="230" y="122" text-anchor="middle" class="ubio-7-crispr-g">가이드 RNA</text>
+<line x1="459.5" y1="78" x2="459.5" y2="106" class="ubio-7-crispr-cut"/>
+<line x1="459.5" y1="196" x2="459.5" y2="220" class="ubio-7-crispr-cut"/>
+<path d="M459.5 78 l-6 -10 h12 z" style="fill:var(--fig-red)"/>
+<path d="M459.5 220 l-6 10 h12 z" style="fill:var(--fig-red)"/>
+<text x="431.5" y="78" text-anchor="middle" class="ubio-7-crispr-b" style="fill:var(--fig-red)">절단</text>
+<text x="536" y="144" text-anchor="middle" class="ubio-7-crispr-b" style="fill:var(--fig-amber)">PAM</text>
+<text x="349" y="48" text-anchor="middle" class="ubio-7-crispr-s">표적 서열 20 염기(위 가닥은 떨어져 나와 있음)</text>
+<text x="349" y="238" text-anchor="middle" class="ubio-7-crispr-s">표적 가닥: 가이드 RNA와 상보적</text>
+<text x="463.5" y="254" text-anchor="middle" class="ubio-7-crispr-s" style="fill:var(--fig-red)">PAM 앞 3 염기 자리에서 두 가닥 모두 절단(이중 가닥 절단)</text>
+<path d="M300 264 C260 284 210 290 190 300" class="ubio-7-crispr-arr"/><path d="M186 304 l3 -10 l7 7 z" class="ubio-7-crispr-ah"/>
+<path d="M420 264 C460 284 510 290 530 300" class="ubio-7-crispr-arr"/><path d="M534 304 l-10 -3 l7 -7 z" class="ubio-7-crispr-ah"/>
+<rect x="16" y="310" width="334" height="150" rx="12" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2"/>
+<text x="30" y="334" text-anchor="start" class="ubio-7-crispr-h">비상동 말단 연결(NHEJ)</text>
+<line x1="40" y1="362" x2="160" y2="362" style="stroke:var(--fig-ink);stroke-width:3"/>
+<line x1="200" y1="362" x2="326" y2="362" style="stroke:var(--fig-ink);stroke-width:3"/>
+<line x1="40" y1="376" x2="160" y2="376" style="stroke:var(--fig-ink);stroke-width:3"/>
+<line x1="200" y1="376" x2="326" y2="376" style="stroke:var(--fig-ink);stroke-width:3"/>
+<text x="180" y="374" text-anchor="middle" class="ubio-7-crispr-b" style="fill:var(--fig-red);font-size:16px">✕</text>
+<line x1="40" y1="404" x2="176" y2="404" style="stroke:var(--fig-ink);stroke-width:3"/>
+<line x1="184" y1="404" x2="320" y2="404" style="stroke:var(--fig-ink);stroke-width:3"/>
+<line x1="40" y1="418" x2="176" y2="418" style="stroke:var(--fig-ink);stroke-width:3"/>
+<line x1="184" y1="418" x2="320" y2="418" style="stroke:var(--fig-ink);stroke-width:3"/>
+<circle cx="180" cy="411" r="11" style="fill:none;stroke:var(--fig-red);stroke-width:1.8"/>
+<text x="196" y="394" text-anchor="start" class="ubio-7-crispr-s" style="fill:var(--fig-red)">몇 염기 결실·삽입</text>
+<text x="30" y="448" text-anchor="start" class="ubio-7-crispr-t">틀 이동 → 유전자 기능 제거(녹아웃)</text>
+<rect x="370" y="310" width="334" height="150" rx="12" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2"/>
+<text x="384" y="334" text-anchor="start" class="ubio-7-crispr-h">상동 의존 수선(HDR)</text>
+<line x1="394" y1="356" x2="514" y2="356" style="stroke:var(--fig-ink);stroke-width:3"/>
+<line x1="554" y1="356" x2="680" y2="356" style="stroke:var(--fig-ink);stroke-width:3"/>
+<line x1="394" y1="366" x2="514" y2="366" style="stroke:var(--fig-ink);stroke-width:3"/>
+<line x1="554" y1="366" x2="680" y2="366" style="stroke:var(--fig-ink);stroke-width:3"/>
+<line x1="440" y1="386" x2="514" y2="386" style="stroke:var(--fig-blue);stroke-width:3"/>
+<line x1="514" y1="386" x2="554" y2="386" style="stroke:var(--fig-green);stroke-width:5"/>
+<line x1="554" y1="386" x2="630" y2="386" style="stroke:var(--fig-blue);stroke-width:3"/>
+<text x="640" y="390" text-anchor="start" class="ubio-7-crispr-s">넣어 준 주형</text>
+<line x1="394" y1="414" x2="514" y2="414" style="stroke:var(--fig-ink);stroke-width:3"/>
+<line x1="514" y1="414" x2="554" y2="414" style="stroke:var(--fig-green);stroke-width:3"/>
+<line x1="554" y1="414" x2="680" y2="414" style="stroke:var(--fig-ink);stroke-width:3"/>
+<line x1="394" y1="424" x2="514" y2="424" style="stroke:var(--fig-ink);stroke-width:3"/>
+<line x1="514" y1="424" x2="554" y2="424" style="stroke:var(--fig-green);stroke-width:3"/>
+<line x1="554" y1="424" x2="680" y2="424" style="stroke:var(--fig-ink);stroke-width:3"/>
+<text x="384" y="448" text-anchor="start" class="ubio-7-crispr-t">주형을 베껴 원하는 서열로 교정·삽입</text>
+</svg>

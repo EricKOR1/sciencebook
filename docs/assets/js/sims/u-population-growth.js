@@ -14,6 +14,7 @@ Sims.register('u-population-growth', {
     var rExp = api.readout('지수 N');
     var rTd = api.readout('배가 시간 ln2/r');
     var rMax = api.readout('최대 증가 속도 rK/4');
+    var rPc = api.readout('1인당 증가율 r(1 − N/K)');
 
     api.slider({ id: 'u-population-growth-r', label: '내적 증가율 r', min: 0.1, max: 1.0, step: 0.01, value: s.r,
       format: function (v) { return v.toFixed(2) + ' /년'; }, onInput: function (v) { s.r = v; update(); } });
@@ -45,6 +46,7 @@ Sims.register('u-population-growth', {
     function update() {
       rT.set(s.t.toFixed(1) + ' 년'); rLog.set(fmtN(logi(s.t))); rExp.set(fmtN(expo(s.t)));
       rTd.set((Math.LN2 / s.r).toFixed(2) + ' 년'); rMax.set((s.r * s.K / 4).toFixed(0) + ' /년');
+      rPc.set((s.r * (1 - logi(s.t) / s.K)).toFixed(3) + ' /년');
       draw();
     }
 
@@ -100,8 +102,8 @@ Sims.register('u-population-growth', {
       }
       // 범례
       ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'left';
-      ctx.fillStyle = T.figRed; ctx.fillText('- - 지수 생장', A.L + 8, A.Tp + 10);
-      ctx.fillStyle = T.figAccent; ctx.fillText('── 로지스트 생장', A.L + 8, A.Tp + 26);
+      ctx.fillStyle = T.figRed; ctx.fillText('- - 지수 생장', A.R - 120, A.B - 30);
+      ctx.fillStyle = T.figAccent; ctx.fillText('── 로지스트 생장', A.R - 120, A.B - 12);
       // 시각 표시
       var NL = logi(s.t), NE = expo(s.t);
       ctx.strokeStyle = T.figViolet; ctx.lineWidth = 1; ctx.setLineDash([3, 3]);
@@ -123,15 +125,14 @@ Sims.register('u-population-growth', {
       // 꼭짓점 rK/4
       var vx = Bx.sx(s.K / 2), vy = Bx.sy(s.r * s.K / 4);
       ctx.fillStyle = T.figAmber; ctx.beginPath(); ctx.arc(vx, vy, 4.5, 0, Math.PI * 2); ctx.fill();
-      ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'center';
-      ctx.fillText('rK/4 = ' + (s.r * s.K / 4).toFixed(0), vx, vy - 9);
+      ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
+      ctx.fillText('rK/4 = ' + (s.r * s.K / 4).toFixed(0), vx + 8, vy - 9);
+      ctx.textAlign = 'center';
       // K 표시
       ctx.fillStyle = T.figGreen; ctx.fillText('K', Bx.sx(s.K), Bx.sy(0) + 14);
       // 현재 점
       var g = gLog(NL);
       ctx.fillStyle = T.figAccent; ctx.beginPath(); ctx.arc(Bx.sx(Math.min(NL, NMAX)), Bx.sy(Math.max(GMIN, g)), 5.5, 0, Math.PI * 2); ctx.fill();
-      ctx.fillStyle = T.figMuted; ctx.textAlign = 'left';
-      ctx.fillText('1인당 증가율 r(1 − N/K) = ' + (s.r * (1 - NL / s.K)).toFixed(3), Bx.L + 4, Bx.B - 6);
     }
 
     api.onResize(draw);

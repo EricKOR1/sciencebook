@@ -39,7 +39,7 @@
     <text x="202" y="176" class="uchem-2-mm-hl">h</text>
     <text x="120" y="20" class="uchem-2-mm-hd">열린 관 ①</text>
     <text x="120" y="296" class="uchem-2-mm-s" text-anchor="middle">대기 쪽 수은 면이 높다</text>
-    <text x="120" y="326" class="uchem-2-mm-eq">P기체 = P대기 + h</text>
+    <text x="120" y="326" class="uchem-2-mm-eq">P<tspan style="font-size:12px" dy="4">기체</tspan><tspan dy="-4"> = </tspan>P<tspan style="font-size:12px" dy="4">대기</tspan><tspan dy="-4"> + h</tspan></text>
   </g>
 
   <!-- ② 열린 관: 기체 압력 < 대기압 -->
@@ -57,7 +57,7 @@
     <text x="202" y="179" class="uchem-2-mm-hl">h</text>
     <text x="120" y="20" class="uchem-2-mm-hd">열린 관 ②</text>
     <text x="120" y="296" class="uchem-2-mm-s" text-anchor="middle">대기 쪽 수은 면이 낮다</text>
-    <text x="120" y="326" class="uchem-2-mm-eq">P기체 = P대기 − h</text>
+    <text x="120" y="326" class="uchem-2-mm-eq">P<tspan style="font-size:12px" dy="4">기체</tspan><tspan dy="-4"> = </tspan>P<tspan style="font-size:12px" dy="4">대기</tspan><tspan dy="-4"> − h</tspan></text>
   </g>
 
   <!-- ③ 닫힌 관 -->
@@ -74,6 +74,6 @@
     <text x="202" y="160" class="uchem-2-mm-hl">h</text>
     <text x="120" y="20" class="uchem-2-mm-hd">닫힌 관 ③</text>
     <text x="120" y="296" class="uchem-2-mm-s" text-anchor="middle">위쪽은 진공(압력 0)</text>
-    <text x="120" y="326" class="uchem-2-mm-eq">P기체 = h</text>
+    <text x="120" y="326" class="uchem-2-mm-eq">P<tspan style="font-size:12px" dy="4">기체</tspan><tspan dy="-4"> = </tspan>h</text>
   </g>
 </svg>

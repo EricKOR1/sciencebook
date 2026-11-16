@@ -111,7 +111,7 @@ Sims.register('u-sarcomere', {
         ctx.fillStyle = col; ctx.fillText(txt, (a + b) / 2, y - 4);
       }
       var top = cy - 64;
-      bracket(tl, tr, top, 'A대 1.60 μm', T.figRed);
+      bracket(tl, tr, top, compressed ? 'A대(Z선에 닿음)' : 'A대 1.60 μm', T.figRed);
       if (L > THICK + 0.05) { bracket(zl, tl, top + 2, 'I대', T.figBlue); bracket(tr, zr, top + 2, 'I대', T.figBlue); }
       ctx.fillStyle = T.figMuted;
       ctx.fillText('Z선', zl, cy + 72); ctx.fillText('Z선', zr, cy + 72);
@@ -120,13 +120,6 @@ Sims.register('u-sarcomere', {
         ctx.fillStyle = T.figAmber; ctx.fillText('H대 ' + (L - 2).toFixed(2), cx, cy + 72);
         ctx.strokeStyle = T.figAmber; ctx.lineWidth = 1.4; ctx.beginPath(); ctx.moveTo(hl, cy + 58); ctx.lineTo(hr, cy + 58); ctx.stroke();
       } else { ctx.fillText('M선', cx, cy + 72); }
-      if (compressed) {
-        ctx.fillStyle = T.figAmber; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'left';
-        ctx.fillText('마이오신이 Z선에 눌림', r.x + 8, r.y + 14);
-      } else if (L < 2 * THIN) {
-        ctx.fillStyle = T.figMuted; ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'left';
-        ctx.fillText('양쪽 액틴이 M선을 넘어 서로 겹침', r.x + 8, r.y + 14);
-      }
     }
 
     function drawGraph(T, r) {
@@ -155,6 +148,9 @@ Sims.register('u-sarcomere', {
       ctx.fillText('점선: 실험 근사', sx(1.32), sy(0.08));
       ctx.fillStyle = T.figGreen; ctx.textAlign = 'center';
       ctx.fillText('최대', sx(2.1), Tp + 12);
+      ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'right';
+      if (s.L < THICK) { ctx.fillStyle = T.figAmber; ctx.fillText('마이오신이 Z선에 닿음', R0 - 4, Tp + 14); }
+      else if (s.L < 2 * THIN) { ctx.fillStyle = T.figMuted; ctx.fillText('액틴끼리 겹침', R0 - 4, Tp + 14); }
       // 지나온 자취
       if (s.trail.length > 1) {
         ctx.fillStyle = T.figViolet; ctx.globalAlpha = 0.35;

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="t-uchem-4-hydrogen-levels d-uchem-4-hydrogen-levels">
+  <title id="t-uchem-4-hydrogen-levels">그림 일반화학 4-1 수소 원자의 에너지 준위와 선 스펙트럼 계열</title>
+  <desc id="d-uchem-4-hydrogen-levels">보어 모형의 에너지 준위 E = −13.6 eV/n²을 실제 비율대로 그렸다. n이 클수록 준위가 촘촘해진다. n = 1로 떨어지는 전이는 라이먼 계열(자외선), n = 2는 발머 계열(가시광선), n = 3은 파셴 계열(적외선)이며, 화살표 옆 숫자는 방출되는 빛의 파장이다.</desc>
+  <style>
+    .uchem-4-hl-lv{stroke:var(--fig-ink);stroke-width:1.6;fill:none}
+    .uchem-4-hl-lvs{stroke:var(--fig-line);stroke-width:1.2;fill:none}
+    .uchem-4-hl-ax{stroke:var(--fig-muted);stroke-width:1;fill:none}
+    .uchem-4-hl-t{font-size:14px;fill:var(--fig-ink)}
+    .uchem-4-hl-s{font-size:13px;fill:var(--fig-muted)}
+    .uchem-4-hl-w{font-size:12px;fill:var(--fig-ink)}
+    .uchem-4-hl-b{font-size:14px;font-weight:600}
+  </style>
+  <line x1="70" y1="54" x2="70" y2="443" class="uchem-4-hl-ax"/>
+  <line x1="66" y1="54" x2="70" y2="54" class="uchem-4-hl-ax"/><text x="62" y="58" text-anchor="end" class="uchem-4-hl-s">0</text>
+  <line x1="66" y1="111.2" x2="70" y2="111.2" class="uchem-4-hl-ax"/><text x="62" y="115.2" text-anchor="end" class="uchem-4-hl-s">−2</text>
+  <line x1="66" y1="168.4" x2="70" y2="168.4" class="uchem-4-hl-ax"/><text x="62" y="172.4" text-anchor="end" class="uchem-4-hl-s">−4</text>
+  <line x1="66" y1="225.6" x2="70" y2="225.6" class="uchem-4-hl-ax"/><text x="62" y="229.6" text-anchor="end" class="uchem-4-hl-s">−6</text>
+  <line x1="66" y1="282.8" x2="70" y2="282.8" class="uchem-4-hl-ax"/><text x="62" y="286.8" text-anchor="end" class="uchem-4-hl-s">−8</text>
+  <line x1="66" y1="340" x2="70" y2="340" class="uchem-4-hl-ax"/><text x="62" y="344" text-anchor="end" class="uchem-4-hl-s">−10</text>
+  <line x1="66" y1="397.2" x2="70" y2="397.2" class="uchem-4-hl-ax"/><text x="62" y="401.2" text-anchor="end" class="uchem-4-hl-s">−12</text>
+  <line x1="66" y1="454.4" x2="70" y2="454.4" class="uchem-4-hl-ax"/><text x="62" y="458.4" text-anchor="end" class="uchem-4-hl-s">−14</text>
+  <text x="24" y="248.5" text-anchor="middle" transform="rotate(-90 24 248.5)" class="uchem-4-hl-s">에너지 (eV)</text>
+  <line x1="128" y1="443" x2="640" y2="443" class="uchem-4-hl-lv"/>
+  <line x1="128" y1="151.2" x2="640" y2="151.2" class="uchem-4-hl-lv"/>
+  <line x1="128" y1="97.2" x2="640" y2="97.2" class="uchem-4-hl-lv"/>
+  <line x1="128" y1="78.3" x2="640" y2="78.3" class="uchem-4-hl-lv"/>
+  <line x1="128" y1="69.6" x2="640" y2="69.6" class="uchem-4-hl-lvs"/>
+  <line x1="128" y1="64.8" x2="640" y2="64.8" class="uchem-4-hl-lvs"/>
+  <line x1="128" y1="54" x2="640" y2="54" class="uchem-4-hl-lv" style="stroke-dasharray:6 4"/>
+  <text x="120" y="448" text-anchor="end" class="uchem-4-hl-t">n = 1</text>
+  <text x="646" y="448" class="uchem-4-hl-s">−13.6</text>
+  <text x="120" y="156.2" text-anchor="end" class="uchem-4-hl-t">n = 2</text>
+  <text x="646" y="156.2" class="uchem-4-hl-s">−3.40</text>
+  <text x="120" y="102.2" text-anchor="end" class="uchem-4-hl-t">n = 3</text>
+  <text x="646" y="102.2" class="uchem-4-hl-s">−1.51</text>
+  <text x="120" y="83.3" text-anchor="end" class="uchem-4-hl-t">n = 4</text>
+  <text x="646" y="83.3" class="uchem-4-hl-s">−0.85</text>
+  <text x="120" y="52" text-anchor="end" class="uchem-4-hl-s">n = ∞</text>
+  <text x="646" y="58" class="uchem-4-hl-s">0</text>
+  <text x="120" y="69.6" text-anchor="end" class="uchem-4-hl-s" style="font-size:11px">5, 6, …</text>
+  <text x="646" y="40" class="uchem-4-hl-s">E (eV)</text>
+  <line x1="160" y1="151.2" x2="160" y2="436" style="stroke:var(--fig-violet);stroke-width:2.2;fill:none"/>
+  <path d="M160 443 l-5 -9 l10 0 z" style="fill:var(--fig-violet)"/>
+  <text x="175" y="427" transform="rotate(-90 175 427)" class="uchem-4-hl-w">121.6 nm</text>
+  <line x1="188" y1="97.2" x2="188" y2="436" style="stroke:var(--fig-violet);stroke-width:2.2;fill:none"/>
+  <path d="M188 443 l-5 -9 l10 0 z" style="fill:var(--fig-violet)"/>
+  <text x="203" y="427" transform="rotate(-90 203 427)" class="uchem-4-hl-w">102.6 nm</text>
+  <line x1="216" y1="78.3" x2="216" y2="436" style="stroke:var(--fig-violet);stroke-width:2.2;fill:none"/>
+  <path d="M216 443 l-5 -9 l10 0 z" style="fill:var(--fig-violet)"/>
+  <text x="231" y="427" transform="rotate(-90 231 427)" class="uchem-4-hl-w">97.3 nm</text>
+  <line x1="244" y1="69.6" x2="244" y2="436" style="stroke:var(--fig-violet);stroke-width:2.2;fill:none"/>
+  <path d="M244 443 l-5 -9 l10 0 z" style="fill:var(--fig-violet)"/>
+  <text x="259" y="427" transform="rotate(-90 259 427)" class="uchem-4-hl-w">95.0 nm</text>
+  <text x="200" y="473" text-anchor="middle" class="uchem-4-hl-t uchem-4-hl-b" style="fill:var(--fig-violet)">라이먼 계열</text>
+  <text x="200" y="491" text-anchor="middle" class="uchem-4-hl-s">n → 1, 자외선</text>
+  <line x1="330" y1="97.2" x2="330" y2="144.2" style="stroke:#e0453a;stroke-width:2.2;fill:none"/>
+  <path d="M330 151.2 l-5 -9 l10 0 z" style="fill:#e0453a"/>
+  <text x="345" y="221.2" transform="rotate(-90 345 221.2)" class="uchem-4-hl-w">656.3 nm</text>
+  <line x1="362" y1="78.3" x2="362" y2="144.2" style="stroke:#1aa6b8;stroke-width:2.2;fill:none"/>
+  <path d="M362 151.2 l-5 -9 l10 0 z" style="fill:#1aa6b8"/>
+  <text x="377" y="221.2" transform="rotate(-90 377 221.2)" class="uchem-4-hl-w">486.1 nm</text>
+  <line x1="394" y1="69.6" x2="394" y2="144.2" style="stroke:#4a63e0;stroke-width:2.2;fill:none"/>
+  <path d="M394 151.2 l-5 -9 l10 0 z" style="fill:#4a63e0"/>
+  <text x="409" y="221.2" transform="rotate(-90 409 221.2)" class="uchem-4-hl-w">434.0 nm</text>
+  <line x1="426" y1="64.8" x2="426" y2="144.2" style="stroke:#8a4fd8;stroke-width:2.2;fill:none"/>
+  <path d="M426 151.2 l-5 -9 l10 0 z" style="fill:#8a4fd8"/>
+  <text x="441" y="221.2" transform="rotate(-90 441 221.2)" class="uchem-4-hl-w">410.2 nm</text>
+  <text x="378" y="247.2" text-anchor="middle" class="uchem-4-hl-t uchem-4-hl-b">발머 계열</text>
+  <text x="378" y="265.2" text-anchor="middle" class="uchem-4-hl-s">n → 2, 가시광선(화살표 색 = 실제 빛의 색)</text>
+  <line x1="530" y1="78.3" x2="530" y2="90.2" style="stroke:var(--fig-amber);stroke-width:2.2;fill:none"/>
+  <path d="M530 97.2 l-5 -9 l10 0 z" style="fill:var(--fig-amber)"/>
+  <text x="545" y="149.2" transform="rotate(-90 545 149.2)" class="uchem-4-hl-w">1875 nm</text>
+  <line x1="560" y1="69.6" x2="560" y2="90.2" style="stroke:var(--fig-amber);stroke-width:2.2;fill:none"/>
+  <path d="M560 97.2 l-5 -9 l10 0 z" style="fill:var(--fig-amber)"/>
+  <text x="575" y="149.2" transform="rotate(-90 575 149.2)" class="uchem-4-hl-w">1282 nm</text>
+  <line x1="590" y1="64.8" x2="590" y2="90.2" style="stroke:var(--fig-amber);stroke-width:2.2;fill:none"/>
+  <path d="M590 97.2 l-5 -9 l10 0 z" style="fill:var(--fig-amber)"/>
+  <text x="605" y="149.2" transform="rotate(-90 605 149.2)" class="uchem-4-hl-w">1094 nm</text>
+  <text x="560" y="177.2" text-anchor="middle" class="uchem-4-hl-t uchem-4-hl-b" style="fill:var(--fig-amber)">파셴 계열</text>
+  <text x="560" y="195.2" text-anchor="middle" class="uchem-4-hl-s">n → 3, 적외선</text>
+  <line x1="612" y1="443" x2="612" y2="62" style="stroke:var(--fig-muted);stroke-width:1.4;stroke-dasharray:4 3;fill:none"/>
+  <path d="M612 54 l-5 9 l10 0 z" style="fill:var(--fig-muted)"/>
+  <text x="606" y="323" text-anchor="middle" transform="rotate(-90 606 323)" class="uchem-4-hl-s">이온화 13.6 eV</text>
+  <text x="360" y="513" text-anchor="middle" class="uchem-4-hl-s">세로축은 실제 비율. 위로 갈수록 준위 간격이 좁아져 n = ∞(0 eV)에 모인다</text>
+</svg>

@@ -16,7 +16,7 @@
   <line x1="60" y1="300" x2="120" y2="250" class="uchem-2-pd-back"/>
   <!-- 오른쪽 벽(x = L) -->
   <path d="M260 100 L320 50 L320 250 L260 300 Z" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6"/>
-  <text x="330" y="44" class="uchem-2-pd-s">오른쪽 벽</text>
+  <text x="326" y="276" class="uchem-2-pd-s">오른쪽 벽</text>
   <!-- 앞면과 윗면 -->
   <path d="M60 100 H260 V300 H60 Z M60 100 L120 50 H320 L260 100" class="uchem-2-pd-edge"/>
   <!-- 들어오는 분자와 튕겨 나가는 분자 -->
@@ -45,15 +45,15 @@
   <path d="M50 300 l-8 -5 v10 z" style="fill:var(--fig-ink)"/>
   <text x="22" y="292" class="uchem-2-pd-s">x</text>
   <!-- 유도 단계 -->
-  <rect x="372" y="34" width="336" height="290" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
-  <text x="388" y="64" class="uchem-2-pd-num">① 한 번 충돌할 때</text>
-  <text x="404" y="88" class="uchem-2-pd-t">분자의 운동량 변화 −2mu<tspan style="font-size:12px" dy="4">x</tspan></text>
-  <text x="404" y="110" class="uchem-2-pd-t">벽이 받는 충격량 +2mu<tspan style="font-size:12px" dy="4">x</tspan></text>
-  <text x="388" y="142" class="uchem-2-pd-num">② 같은 벽에 다시 올 때까지</text>
-  <text x="404" y="166" class="uchem-2-pd-t">왕복 2L을 가므로 Δt = 2L / u<tspan style="font-size:12px" dy="4">x</tspan></text>
-  <text x="388" y="198" class="uchem-2-pd-num">③ 분자 하나가 주는 평균 힘</text>
-  <text x="404" y="222" class="uchem-2-pd-t">F = 2mu<tspan style="font-size:12px" dy="4">x</tspan><tspan dy="-4"> ÷ (2L/u</tspan><tspan style="font-size:12px" dy="4">x</tspan><tspan dy="-4">) = mu</tspan><tspan style="font-size:12px" dy="4">x</tspan><tspan style="font-size:11px" dy="-10">2</tspan><tspan dy="6"> / L</tspan></text>
-  <text x="388" y="254" class="uchem-2-pd-num">④ N개 분자, 세 방향이 동등</text>
-  <text x="404" y="278" class="uchem-2-pd-t">P = F<tspan style="font-size:12px" dy="4">합</tspan><tspan dy="-4"> / L² 에서 </tspan><tspan style="text-decoration:overline">u</tspan><tspan style="font-size:12px;text-decoration:overline" dy="4">x</tspan><tspan style="font-size:11px;text-decoration:overline" dy="-10">2</tspan><tspan dy="6"> = </tspan><tspan style="text-decoration:overline">u²</tspan><tspan>/3</tspan></text>
-  <text x="404" y="306" class="uchem-2-pd-b">PV = ⅓ Nm<tspan style="text-decoration:overline">u²</tspan></text>
+  <rect x="392" y="24" width="318" height="312" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="406" y="52" class="uchem-2-pd-num">① 한 번 충돌할 때</text>
+  <text x="420" y="76" class="uchem-2-pd-t">분자의 운동량 변화 −2mu<tspan style="font-size:12px" dy="4">x</tspan></text>
+  <text x="420" y="98" class="uchem-2-pd-t">벽이 받는 충격량 +2mu<tspan style="font-size:12px" dy="4">x</tspan></text>
+  <text x="406" y="132" class="uchem-2-pd-num">② 같은 벽에 다시 올 때까지</text>
+  <text x="420" y="156" class="uchem-2-pd-t">왕복 2L을 가므로 Δt = 2L / u<tspan style="font-size:12px" dy="4">x</tspan></text>
+  <text x="406" y="190" class="uchem-2-pd-num">③ 분자 하나가 주는 평균 힘</text>
+  <text x="420" y="214" class="uchem-2-pd-t">F = 2mu<tspan style="font-size:12px" dy="4">x</tspan><tspan dy="-4"> ÷ (2L/u</tspan><tspan style="font-size:12px" dy="4">x</tspan><tspan dy="-4">) = mu</tspan><tspan style="font-size:12px" dy="4">x</tspan><tspan style="font-size:11px" dy="-10">2</tspan><tspan dy="6"> / L</tspan></text>
+  <text x="406" y="254" class="uchem-2-pd-num">④ N개 분자, 세 방향이 동등</text>
+  <text x="420" y="278" class="uchem-2-pd-t">P = F<tspan style="font-size:12px" dy="4">합</tspan><tspan dy="-4"> / L², </tspan><tspan style="text-decoration:overline">u</tspan><tspan style="font-size:12px" dy="4">x</tspan><tspan style="font-size:11px" dy="-10">2</tspan><tspan dy="6"> 의 평균 = ⅓ </tspan><tspan style="text-decoration:overline">u²</tspan></text>
+  <text x="420" y="310" class="uchem-2-pd-b">PV = ⅓ Nm<tspan style="text-decoration:overline">u²</tspan></text>
 </svg>

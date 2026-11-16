@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-uphy-8-gauss-surfaces d-uphy-8-gauss-surfaces">
+  <title id="t-uphy-8-gauss-surfaces">그림 일반물리학 8-2 대칭에 맞춘 세 가지 가우스 곡면</title>
+  <desc id="d-uphy-8-gauss-surfaces">(가) 구 대칭: 같은 중심의 구면 위에서 E는 크기가 같고 바깥쪽 수직이다. (나) 원통 대칭: 무한 직선 전하를 감싼 원통에서 선속은 옆면으로만 나가고 두 밑면은 E와 나란해 선속이 0이다. (다) 평면 대칭: 평면을 관통하는 원통의 두 밑면으로만 선속이 나간다. 곡면 위에서 E가 일정하므로 E를 적분 밖으로 꺼낼 수 있다.</desc>
+  <style>.uphy-8-gauss-surfaces-t{font-size:14px;fill:var(--fig-ink)} .uphy-8-gauss-surfaces-b{font-size:14px;fill:var(--fig-ink);font-weight:700} .uphy-8-gauss-surfaces-s{font-size:13px;fill:var(--fig-muted)} .uphy-8-gauss-surfaces-g{fill:var(--fig-soft-teal);fill-opacity:0.45;stroke:var(--fig-teal);stroke-width:2;stroke-dasharray:6 4} .uphy-8-gauss-surfaces-gl{fill:none;stroke:var(--fig-teal);stroke-width:2;stroke-dasharray:6 4}</style>
+  <rect x="8" y="8" width="228" height="364" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="122" y="32" text-anchor="middle" class="uphy-8-gauss-surfaces-b">(가) 구 대칭</text>
+  <rect x="246" y="8" width="228" height="364" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="360" y="32" text-anchor="middle" class="uphy-8-gauss-surfaces-b">(나) 원통 대칭</text>
+  <rect x="484" y="8" width="228" height="364" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="598" y="32" text-anchor="middle" class="uphy-8-gauss-surfaces-b">(다) 평면 대칭</text>
+  <circle cx="122" cy="150" r="72" class="uphy-8-gauss-surfaces-g"/>
+  <ellipse cx="122" cy="150" rx="72" ry="18" class="uphy-8-gauss-surfaces-gl" style="stroke-width:1.2"/>
+  <circle cx="122" cy="150" r="26" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <text x="122" y="155" text-anchor="middle" class="uphy-8-gauss-surfaces-b" style="fill:var(--fig-red)">Q</text>
+  <line x1="188.5" y1="177.6" x2="207.7" y2="185.5" style="stroke:var(--fig-accent);stroke-width:2.4"/>
+  <path d="M214.4 188.3 L205.4 188.3 L208.1 181.9 Z" style="fill:var(--fig-accent)"/>
+  <line x1="149.6" y1="216.5" x2="157.5" y2="235.7" style="stroke:var(--fig-accent);stroke-width:2.4"/>
+  <path d="M160.3 242.4 L153.9 236.1 L160.3 233.4 Z" style="fill:var(--fig-accent)"/>
+  <line x1="94.4" y1="216.5" x2="86.5" y2="235.7" style="stroke:var(--fig-accent);stroke-width:2.4"/>
+  <path d="M83.7 242.4 L83.7 233.4 L90.1 236.1 Z" style="fill:var(--fig-accent)"/>
+  <line x1="55.5" y1="177.6" x2="36.3" y2="185.5" style="stroke:var(--fig-accent);stroke-width:2.4"/>
+  <path d="M29.6 188.3 L35.9 181.9 L38.6 188.3 Z" style="fill:var(--fig-accent)"/>
+  <line x1="55.5" y1="122.4" x2="36.3" y2="114.5" style="stroke:var(--fig-accent);stroke-width:2.4"/>
+  <path d="M29.6 111.7 L38.6 111.7 L35.9 118.1 Z" style="fill:var(--fig-accent)"/>
+  <line x1="94.4" y1="83.5" x2="86.5" y2="64.3" style="stroke:var(--fig-accent);stroke-width:2.4"/>
+  <path d="M83.7 57.6 L90.1 63.9 L83.7 66.6 Z" style="fill:var(--fig-accent)"/>
+  <line x1="149.6" y1="83.5" x2="157.5" y2="64.3" style="stroke:var(--fig-accent);stroke-width:2.4"/>
+  <path d="M160.3 57.6 L160.3 66.6 L153.9 63.9 Z" style="fill:var(--fig-accent)"/>
+  <line x1="188.5" y1="122.4" x2="207.7" y2="114.5" style="stroke:var(--fig-accent);stroke-width:2.4"/>
+  <path d="M214.4 111.7 L208.1 118.1 L205.4 111.7 Z" style="fill:var(--fig-accent)"/>
+  <text x="170" y="66" text-anchor="middle" class="uphy-8-gauss-surfaces-t">r</text>
+  <line x1="122" y1="150" x2="173" y2="99" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="122" y="276" text-anchor="middle" class="uphy-8-gauss-surfaces-s">E ∥ dA, 곡면 위에서 E 일정</text>
+  <text x="122" y="304" text-anchor="middle" class="uphy-8-gauss-surfaces-t">E · 4πr² = q<tspan style="baseline-shift:sub;font-size:11px">안</tspan> / ε₀</text>
+  <text x="122" y="330" text-anchor="middle" class="uphy-8-gauss-surfaces-t" style="fill:var(--fig-accent);font-weight:700">E = kQ / r²  (r ≥ R)</text>
+  <text x="122" y="354" text-anchor="middle" class="uphy-8-gauss-surfaces-s">균일한 구 안: E = kQr/R³</text>
+  <line x1="360" y1="50" x2="360" y2="262" style="stroke:var(--fig-red);stroke-width:4"/>
+  <text x="370" y="60" text-anchor="start" class="uphy-8-gauss-surfaces-s" style="fill:var(--fig-red)">+</text>
+  <text x="370" y="110" text-anchor="start" class="uphy-8-gauss-surfaces-s" style="fill:var(--fig-red)">+</text>
+  <text x="370" y="160" text-anchor="start" class="uphy-8-gauss-surfaces-s" style="fill:var(--fig-red)">+</text>
+  <text x="370" y="210" text-anchor="start" class="uphy-8-gauss-surfaces-s" style="fill:var(--fig-red)">+</text>
+  <text x="370" y="250" text-anchor="start" class="uphy-8-gauss-surfaces-s" style="fill:var(--fig-red)">+</text>
+  <text x="352" y="58" text-anchor="end" class="uphy-8-gauss-surfaces-b" style="fill:var(--fig-red)">λ</text>
+  <path d="M312 80 L312 230 A48 12 0 0 0 408 230 L408 80" class="uphy-8-gauss-surfaces-g"/>
+  <ellipse cx="360" cy="80" rx="48" ry="12" class="uphy-8-gauss-surfaces-g"/>
+  <path d="M312 230 A48 12 0 0 1 408 230" class="uphy-8-gauss-surfaces-gl" style="stroke-width:1.2"/>
+  <line x1="408.0" y1="110.0" x2="438.8" y2="110.0" style="stroke:var(--fig-accent);stroke-width:2.4"/>
+  <path d="M446.0 110.0 L437.7 113.5 L437.7 106.5 Z" style="fill:var(--fig-accent)"/>
+  <line x1="312.0" y1="110.0" x2="281.2" y2="110.0" style="stroke:var(--fig-accent);stroke-width:2.4"/>
+  <path d="M274.0 110.0 L282.3 106.5 L282.3 113.5 Z" style="fill:var(--fig-accent)"/>
+  <line x1="408.0" y1="155.0" x2="438.8" y2="155.0" style="stroke:var(--fig-accent);stroke-width:2.4"/>
+  <path d="M446.0 155.0 L437.7 158.5 L437.7 151.5 Z" style="fill:var(--fig-accent)"/>
+  <line x1="312.0" y1="155.0" x2="281.2" y2="155.0" style="stroke:var(--fig-accent);stroke-width:2.4"/>
+  <path d="M274.0 155.0 L282.3 151.5 L282.3 158.5 Z" style="fill:var(--fig-accent)"/>
+  <line x1="408.0" y1="200.0" x2="438.8" y2="200.0" style="stroke:var(--fig-accent);stroke-width:2.4"/>
+  <path d="M446.0 200.0 L437.7 203.5 L437.7 196.5 Z" style="fill:var(--fig-accent)"/>
+  <line x1="312.0" y1="200.0" x2="281.2" y2="200.0" style="stroke:var(--fig-accent);stroke-width:2.4"/>
+  <path d="M274.0 200.0 L282.3 196.5 L282.3 203.5 Z" style="fill:var(--fig-accent)"/>
+  <line x1="368.0" y1="80.0" x2="394.4" y2="80.0" style="stroke:var(--fig-violet);stroke-width:1.8"/>
+  <path d="M400.0 80.0 L393.6 82.7 L393.6 77.3 Z" style="fill:var(--fig-violet)"/>
+  <text x="420" y="62" text-anchor="middle" class="uphy-8-gauss-surfaces-s">밑면: E ⊥ dA</text>
+  <line x1="414" y1="80" x2="414" y2="230" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="420" y="96" text-anchor="start" class="uphy-8-gauss-surfaces-t">h</text>
+  <text x="360" y="276" text-anchor="middle" class="uphy-8-gauss-surfaces-s">옆면으로만 선속, 밑면은 0</text>
+  <text x="360" y="304" text-anchor="middle" class="uphy-8-gauss-surfaces-t">E · 2πrh = λh / ε₀</text>
+  <text x="360" y="330" text-anchor="middle" class="uphy-8-gauss-surfaces-t" style="fill:var(--fig-accent);font-weight:700">E = λ / (2πε₀ r) = 2kλ / r</text>
+  <polygon points="498,178 658,178 698,142 538,142" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <text x="528" y="165" text-anchor="middle" class="uphy-8-gauss-surfaces-s" style="fill:var(--fig-red)">+</text>
+  <text x="558" y="165" text-anchor="middle" class="uphy-8-gauss-surfaces-s" style="fill:var(--fig-red)">+</text>
+  <text x="638" y="165" text-anchor="middle" class="uphy-8-gauss-surfaces-s" style="fill:var(--fig-red)">+</text>
+  <text x="668" y="165" text-anchor="middle" class="uphy-8-gauss-surfaces-s" style="fill:var(--fig-red)">+</text>
+  <text x="690" y="196" text-anchor="end" class="uphy-8-gauss-surfaces-b" style="fill:var(--fig-red)">σ</text>
+  <path d="M570 98 L570 222 A28 8 0 0 0 626 222 L626 98" class="uphy-8-gauss-surfaces-g"/>
+  <ellipse cx="598" cy="98" rx="28" ry="8" class="uphy-8-gauss-surfaces-g"/>
+  <ellipse cx="598" cy="160" rx="28" ry="8" style="fill:none;stroke:var(--fig-red);stroke-width:1.2;stroke-dasharray:3 3"/>
+  <line x1="584.0" y1="98.0" x2="584.0" y2="65.2" style="stroke:var(--fig-accent);stroke-width:2.4"/>
+  <path d="M584.0 58.0 L587.5 66.3 L580.5 66.3 Z" style="fill:var(--fig-accent)"/>
+  <line x1="584.0" y1="230.0" x2="584.0" y2="258.8" style="stroke:var(--fig-accent);stroke-width:2.4"/>
+  <path d="M584.0 266.0 L580.5 257.7 L587.5 257.7 Z" style="fill:var(--fig-accent)"/>
+  <line x1="598.0" y1="98.0" x2="598.0" y2="65.2" style="stroke:var(--fig-accent);stroke-width:2.4"/>
+  <path d="M598.0 58.0 L601.5 66.3 L594.5 66.3 Z" style="fill:var(--fig-accent)"/>
+  <line x1="598.0" y1="230.0" x2="598.0" y2="258.8" style="stroke:var(--fig-accent);stroke-width:2.4"/>
+  <path d="M598.0 266.0 L594.5 257.7 L601.5 257.7 Z" style="fill:var(--fig-accent)"/>
+  <line x1="612.0" y1="98.0" x2="612.0" y2="65.2" style="stroke:var(--fig-accent);stroke-width:2.4"/>
+  <path d="M612.0 58.0 L615.5 66.3 L608.5 66.3 Z" style="fill:var(--fig-accent)"/>
+  <line x1="612.0" y1="230.0" x2="612.0" y2="258.8" style="stroke:var(--fig-accent);stroke-width:2.4"/>
+  <path d="M612.0 266.0 L608.5 257.7 L615.5 257.7 Z" style="fill:var(--fig-accent)"/>
+  <text x="634" y="102" text-anchor="start" class="uphy-8-gauss-surfaces-t">A</text>
+  <text x="598" y="276" text-anchor="middle" class="uphy-8-gauss-surfaces-s">두 밑면으로만 선속, 옆면은 0</text>
+  <text x="598" y="304" text-anchor="middle" class="uphy-8-gauss-surfaces-t">2EA = σA / ε₀</text>
+  <text x="598" y="330" text-anchor="middle" class="uphy-8-gauss-surfaces-t" style="fill:var(--fig-accent);font-weight:700">E = σ / (2ε₀)</text>
+  <text x="598" y="354" text-anchor="middle" class="uphy-8-gauss-surfaces-s">도체 표면 바로 밖: σ/ε₀</text>
+</svg>

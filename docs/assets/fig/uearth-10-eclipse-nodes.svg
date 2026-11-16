@@ -1,71 +1,83 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-labelledby="t-uearth-10-eclipse-nodes d-uearth-10-eclipse-nodes">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t-uearth-10-eclipse-nodes d-uearth-10-eclipse-nodes">
   <title id="t-uearth-10-eclipse-nodes">그림 일반지구과학 10-2 교점선과 식 계절</title>
-  <desc id="d-uearth-10-eclipse-nodes">달의 궤도면(백도)은 황도면에 기울어 있고 두 면이 만나는 교점선은 공간에서 거의 같은 방향을 유지한다. 교점선이 태양을 향하는 두 시기(약 반년 간격)에는 삭과 망이 교점 근처에서 일어나 일식과 월식이 생기고, 그 사이 시기에는 달이 태양–지구 선의 위나 아래로 비켜 지나가 식이 일어나지 않는다.</desc>
+  <desc id="d-uearth-10-eclipse-nodes">왼쪽: 위에서 본 지구 공전 궤도. 달 궤도면(백도)과 황도면이 만나는 교점선은 공간에서 거의 같은 방향을 유지하므로, 1년에 두 번(약 173일 간격) 교점선이 태양을 향한다. 오른쪽: 옆에서 본 모습. 교점선이 태양을 향하면 삭의 달이 교점, 곧 황도면 안에 있어 그림자가 지구에 닿고(일식), 교점선이 태양 방향과 직각이면 달이 황도면 위나 아래로 비켜 지나가 식이 일어나지 않는다.</desc>
   <style>
     .uearth-10-eclipse-nodes-h{font-size:14px;font-weight:600;fill:var(--fig-ink)}
     .uearth-10-eclipse-nodes-t{font-size:13px;fill:var(--fig-ink)}
     .uearth-10-eclipse-nodes-s{font-size:13px;fill:var(--fig-muted)}
+    .uearth-10-eclipse-nodes-n{font-size:12px;fill:var(--fig-muted)}
   </style>
-  <ellipse cx="360" cy="215" rx="290" ry="165.3" style="fill:var(--fig-soft-blue);stroke:none;opacity:0.6"/>
-  <ellipse cx="360" cy="215" rx="240" ry="136.8" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
-  <text x="646" y="374.3" text-anchor="end" class="uearth-10-eclipse-nodes-s">황도면(지구 공전 궤도면)</text>
-  <line x1="360" y1="215" x2="120.0" y2="215.0" style="stroke:var(--fig-amber);stroke-width:1.2;stroke-dasharray:3 4"/>
-  <line x1="360" y1="215" x2="600.0" y2="215.0" style="stroke:var(--fig-amber);stroke-width:1.2;stroke-dasharray:3 4"/>
-  <line x1="360" y1="215" x2="360.0" y2="78.2" style="stroke:var(--fig-amber);stroke-width:1.2;stroke-dasharray:3 4"/>
-  <line x1="360" y1="215" x2="360.0" y2="351.8" style="stroke:var(--fig-amber);stroke-width:1.2;stroke-dasharray:3 4"/>
-  <circle cx="360" cy="215" r="16" style="fill:var(--fig-amber)"/>
-  <text x="382" y="220" class="uearth-10-eclipse-nodes-t" style="font-weight:600">태양</text>
-  <path d="M170.0 215.0 L169.9 215.6 L169.7 216.2 L169.4 216.7 L168.9 217.3 L168.3 217.9 L167.6 218.4 L166.7 219.0 L165.7 219.5 L164.6 220.0 L163.3 220.5 L161.9 221.0 L160.5 221.5 L158.9 222.0 L157.2 222.4 L155.4 222.8 L153.5 223.2 L151.5 223.6 L149.4 224.0 L147.2 224.3 L145.0 224.6 L142.7 224.9 L140.3 225.1 L137.9 225.3 L135.5 225.5 L132.9 225.7 L130.4 225.8 L127.8 225.9 L125.2 226.0 L122.6 226.1 L120.0 226.1 L117.4 226.1 L114.8 226.0 L112.2 225.9 L109.6 225.8 L107.1 225.7 L104.5 225.5 L102.1 225.3 L99.7 225.1 L97.3 224.9 L95.0 224.6 L92.8 224.3 L90.6 224.0 L88.5 223.6 L86.5 223.2 L84.6 222.8 L82.8 222.4 L81.1 222.0 L79.5 221.5 L78.1 221.0 L76.7 220.5 L75.4 220.0 L74.3 219.5 L73.3 219.0 L72.4 218.4 L71.7 217.9 L71.1 217.3 L70.6 216.7 L70.3 216.2 L70.1 215.6 L70.0 215.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1.8"/>
-  <path d="M70.0 215.0 L70.1 214.4 L70.3 213.8 L70.6 213.3 L71.1 212.7 L71.7 212.1 L72.4 211.6 L73.3 211.0 L74.3 210.5 L75.4 210.0 L76.7 209.5 L78.1 209.0 L79.5 208.5 L81.1 208.0 L82.8 207.6 L84.6 207.2 L86.5 206.8 L88.5 206.4 L90.6 206.0 L92.8 205.7 L95.0 205.4 L97.3 205.1 L99.7 204.9 L102.1 204.7 L104.5 204.5 L107.1 204.3 L109.6 204.2 L112.2 204.1 L114.8 204.0 L117.4 203.9 L120.0 203.9 L122.6 203.9 L125.2 204.0 L127.8 204.1 L130.4 204.2 L132.9 204.3 L135.5 204.5 L137.9 204.7 L140.3 204.9 L142.7 205.1 L145.0 205.4 L147.2 205.7 L149.4 206.0 L151.5 206.4 L153.5 206.8 L155.4 207.2 L157.2 207.6 L158.9 208.0 L160.5 208.5 L161.9 209.0 L163.3 209.5 L164.6 210.0 L165.7 210.5 L166.7 211.0 L167.6 211.6 L168.3 212.1 L168.9 212.7 L169.4 213.3 L169.7 213.8 L169.9 214.4 L170.0 215.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1.8;stroke-dasharray:4 3"/>
-  <line x1="58.0" y1="215.0" x2="182.0" y2="215.0" style="stroke:var(--fig-ink);stroke-width:1"/>
-  <circle cx="70.0" cy="215.0" r="3" style="fill:var(--fig-ink)"/>
-  <circle cx="170.0" cy="215.0" r="3" style="fill:var(--fig-ink)"/>
-  <circle cx="120.0" cy="215.0" r="9" style="fill:var(--fig-teal);stroke:var(--fig-panel);stroke-width:1.5"/>
-  <circle cx="170.0" cy="215.0" r="6" style="fill:var(--fig-ink);stroke:var(--fig-panel);stroke-width:1.2"/>
-  <circle cx="70.0" cy="215.0" r="6" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.5"/>
-  <path d="M650.0 215.0 L649.9 215.6 L649.7 216.2 L649.4 216.7 L648.9 217.3 L648.3 217.9 L647.6 218.4 L646.7 219.0 L645.7 219.5 L644.6 220.0 L643.3 220.5 L641.9 221.0 L640.5 221.5 L638.9 222.0 L637.2 222.4 L635.4 222.8 L633.5 223.2 L631.5 223.6 L629.4 224.0 L627.2 224.3 L625.0 224.6 L622.7 224.9 L620.3 225.1 L617.9 225.3 L615.5 225.5 L612.9 225.7 L610.4 225.8 L607.8 225.9 L605.2 226.0 L602.6 226.1 L600.0 226.1 L597.4 226.1 L594.8 226.0 L592.2 225.9 L589.6 225.8 L587.1 225.7 L584.5 225.5 L582.1 225.3 L579.7 225.1 L577.3 224.9 L575.0 224.6 L572.8 224.3 L570.6 224.0 L568.5 223.6 L566.5 223.2 L564.6 222.8 L562.8 222.4 L561.1 222.0 L559.5 221.5 L558.1 221.0 L556.7 220.5 L555.4 220.0 L554.3 219.5 L553.3 219.0 L552.4 218.4 L551.7 217.9 L551.1 217.3 L550.6 216.7 L550.3 216.2 L550.1 215.6 L550.0 215.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1.8"/>
-  <path d="M550.0 215.0 L550.1 214.4 L550.3 213.8 L550.6 213.3 L551.1 212.7 L551.7 212.1 L552.4 211.6 L553.3 211.0 L554.3 210.5 L555.4 210.0 L556.7 209.5 L558.1 209.0 L559.5 208.5 L561.1 208.0 L562.8 207.6 L564.6 207.2 L566.5 206.8 L568.5 206.4 L570.6 206.0 L572.8 205.7 L575.0 205.4 L577.3 205.1 L579.7 204.9 L582.1 204.7 L584.5 204.5 L587.1 204.3 L589.6 204.2 L592.2 204.1 L594.8 204.0 L597.4 203.9 L600.0 203.9 L602.6 203.9 L605.2 204.0 L607.8 204.1 L610.4 204.2 L612.9 204.3 L615.5 204.5 L617.9 204.7 L620.3 204.9 L622.7 205.1 L625.0 205.4 L627.2 205.7 L629.4 206.0 L631.5 206.4 L633.5 206.8 L635.4 207.2 L637.2 207.6 L638.9 208.0 L640.5 208.5 L641.9 209.0 L643.3 209.5 L644.6 210.0 L645.7 210.5 L646.7 211.0 L647.6 211.6 L648.3 212.1 L648.9 212.7 L649.4 213.3 L649.7 213.8 L649.9 214.4 L650.0 215.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1.8;stroke-dasharray:4 3"/>
-  <line x1="538.0" y1="215.0" x2="662.0" y2="215.0" style="stroke:var(--fig-ink);stroke-width:1"/>
-  <circle cx="550.0" cy="215.0" r="3" style="fill:var(--fig-ink)"/>
-  <circle cx="650.0" cy="215.0" r="3" style="fill:var(--fig-ink)"/>
-  <circle cx="600.0" cy="215.0" r="9" style="fill:var(--fig-teal);stroke:var(--fig-panel);stroke-width:1.5"/>
-  <circle cx="550.0" cy="215.0" r="6" style="fill:var(--fig-ink);stroke:var(--fig-panel);stroke-width:1.2"/>
-  <circle cx="650.0" cy="215.0" r="6" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.5"/>
-  <path d="M410.0 78.2 L409.9 78.8 L409.7 79.4 L409.4 79.9 L408.9 80.5 L408.3 81.1 L407.6 81.6 L406.7 82.2 L405.7 82.7 L404.6 83.2 L403.3 83.7 L401.9 84.2 L400.5 84.7 L398.9 85.2 L397.2 85.6 L395.4 86.0 L393.5 86.4 L391.5 86.8 L389.4 87.2 L387.2 87.5 L385.0 87.8 L382.7 88.1 L380.3 88.3 L377.9 88.5 L375.5 88.7 L372.9 88.9 L370.4 89.0 L367.8 89.1 L365.2 89.2 L362.6 89.3 L360.0 89.3 L357.4 89.3 L354.8 89.2 L352.2 89.1 L349.6 89.0 L347.1 88.9 L344.5 88.7 L342.1 88.5 L339.7 88.3 L337.3 88.1 L335.0 87.8 L332.8 87.5 L330.6 87.2 L328.5 86.8 L326.5 86.4 L324.6 86.0 L322.8 85.6 L321.1 85.2 L319.5 84.7 L318.1 84.2 L316.7 83.7 L315.4 83.2 L314.3 82.7 L313.3 82.2 L312.4 81.6 L311.7 81.1 L311.1 80.5 L310.6 79.9 L310.3 79.4 L310.1 78.8 L310.0 78.2" style="fill:none;stroke:var(--fig-violet);stroke-width:1.8"/>
-  <path d="M310.0 78.2 L310.1 77.6 L310.3 77.0 L310.6 76.5 L311.1 75.9 L311.7 75.3 L312.4 74.8 L313.3 74.2 L314.3 73.7 L315.4 73.2 L316.7 72.7 L318.1 72.2 L319.5 71.7 L321.1 71.2 L322.8 70.8 L324.6 70.4 L326.5 70.0 L328.5 69.6 L330.6 69.2 L332.8 68.9 L335.0 68.6 L337.3 68.3 L339.7 68.1 L342.1 67.9 L344.5 67.7 L347.1 67.5 L349.6 67.4 L352.2 67.3 L354.8 67.2 L357.4 67.1 L360.0 67.1 L362.6 67.1 L365.2 67.2 L367.8 67.3 L370.4 67.4 L372.9 67.5 L375.5 67.7 L377.9 67.9 L380.3 68.1 L382.7 68.3 L385.0 68.6 L387.2 68.9 L389.4 69.2 L391.5 69.6 L393.5 70.0 L395.4 70.4 L397.2 70.8 L398.9 71.2 L400.5 71.7 L401.9 72.2 L403.3 72.7 L404.6 73.2 L405.7 73.7 L406.7 74.2 L407.6 74.8 L408.3 75.3 L408.9 75.9 L409.4 76.5 L409.7 77.0 L409.9 77.6 L410.0 78.2" style="fill:none;stroke:var(--fig-violet);stroke-width:1.8;stroke-dasharray:4 3"/>
-  <line x1="298.0" y1="78.2" x2="422.0" y2="78.2" style="stroke:var(--fig-ink);stroke-width:1"/>
-  <circle cx="310.0" cy="78.2" r="3" style="fill:var(--fig-ink)"/>
-  <circle cx="410.0" cy="78.2" r="3" style="fill:var(--fig-ink)"/>
-  <circle cx="360.0" cy="78.2" r="9" style="fill:var(--fig-teal);stroke:var(--fig-panel);stroke-width:1.5"/>
-  <line x1="360.0" y1="89.3" x2="360.0" y2="104.6" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:2 2"/>
-  <circle cx="360.0" cy="89.3" r="6" style="fill:var(--fig-ink);stroke:var(--fig-panel);stroke-width:1.2"/>
-  <path d="M410.0 351.8 L409.9 352.4 L409.7 353.0 L409.4 353.5 L408.9 354.1 L408.3 354.7 L407.6 355.2 L406.7 355.8 L405.7 356.3 L404.6 356.8 L403.3 357.3 L401.9 357.8 L400.5 358.3 L398.9 358.8 L397.2 359.2 L395.4 359.6 L393.5 360.0 L391.5 360.4 L389.4 360.8 L387.2 361.1 L385.0 361.4 L382.7 361.7 L380.3 361.9 L377.9 362.1 L375.5 362.3 L372.9 362.5 L370.4 362.6 L367.8 362.7 L365.2 362.8 L362.6 362.9 L360.0 362.9 L357.4 362.9 L354.8 362.8 L352.2 362.7 L349.6 362.6 L347.1 362.5 L344.5 362.3 L342.1 362.1 L339.7 361.9 L337.3 361.7 L335.0 361.4 L332.8 361.1 L330.6 360.8 L328.5 360.4 L326.5 360.0 L324.6 359.6 L322.8 359.2 L321.1 358.8 L319.5 358.3 L318.1 357.8 L316.7 357.3 L315.4 356.8 L314.3 356.3 L313.3 355.8 L312.4 355.2 L311.7 354.7 L311.1 354.1 L310.6 353.5 L310.3 353.0 L310.1 352.4 L310.0 351.8" style="fill:none;stroke:var(--fig-violet);stroke-width:1.8"/>
-  <path d="M310.0 351.8 L310.1 351.2 L310.3 350.6 L310.6 350.1 L311.1 349.5 L311.7 348.9 L312.4 348.4 L313.3 347.8 L314.3 347.3 L315.4 346.8 L316.7 346.3 L318.1 345.8 L319.5 345.3 L321.1 344.8 L322.8 344.4 L324.6 344.0 L326.5 343.6 L328.5 343.2 L330.6 342.8 L332.8 342.5 L335.0 342.2 L337.3 341.9 L339.7 341.7 L342.1 341.5 L344.5 341.3 L347.1 341.1 L349.6 341.0 L352.2 340.9 L354.8 340.8 L357.4 340.7 L360.0 340.7 L362.6 340.7 L365.2 340.8 L367.8 340.9 L370.4 341.0 L372.9 341.1 L375.5 341.3 L377.9 341.5 L380.3 341.7 L382.7 341.9 L385.0 342.2 L387.2 342.5 L389.4 342.8 L391.5 343.2 L393.5 343.6 L395.4 344.0 L397.2 344.4 L398.9 344.8 L400.5 345.3 L401.9 345.8 L403.3 346.3 L404.6 346.8 L405.7 347.3 L406.7 347.8 L407.6 348.4 L408.3 348.9 L408.9 349.5 L409.4 350.1 L409.7 350.6 L409.9 351.2 L410.0 351.8" style="fill:none;stroke:var(--fig-violet);stroke-width:1.8;stroke-dasharray:4 3"/>
-  <line x1="298.0" y1="351.8" x2="422.0" y2="351.8" style="stroke:var(--fig-ink);stroke-width:1"/>
-  <circle cx="310.0" cy="351.8" r="3" style="fill:var(--fig-ink)"/>
-  <circle cx="410.0" cy="351.8" r="3" style="fill:var(--fig-ink)"/>
-  <circle cx="360.0" cy="351.8" r="9" style="fill:var(--fig-teal);stroke:var(--fig-panel);stroke-width:1.5"/>
-  <line x1="360.0" y1="340.7" x2="360.0" y2="325.4" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:2 2"/>
-  <circle cx="360.0" cy="340.7" r="6" style="fill:var(--fig-ink);stroke:var(--fig-panel);stroke-width:1.2"/>
-  <rect x="14" y="252" width="170" height="64" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:1.5"/>
-  <text x="24" y="272" class="uearth-10-eclipse-nodes-t" style="font-weight:600;fill:var(--fig-red)">식 계절</text>
-  <text x="24" y="290" class="uearth-10-eclipse-nodes-t">교점선이 태양을 향함</text>
-  <text x="24" y="308" class="uearth-10-eclipse-nodes-t">→ 삭에 일식, 망에 월식</text>
-  <rect x="536" y="252" width="170" height="64" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:1.5"/>
-  <text x="546" y="272" class="uearth-10-eclipse-nodes-t" style="font-weight:600;fill:var(--fig-red)">식 계절 (약 173일 뒤)</text>
-  <text x="546" y="290" class="uearth-10-eclipse-nodes-t">교점선이 태양을 향함</text>
-  <text x="546" y="308" class="uearth-10-eclipse-nodes-t">→ 삭에 일식, 망에 월식</text>
-  <rect x="442" y="22" width="264" height="64" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-green);stroke-width:1.5"/>
-  <text x="452" y="42" class="uearth-10-eclipse-nodes-t" style="font-weight:600;fill:var(--fig-green)">식이 없는 시기</text>
-  <text x="452" y="60" class="uearth-10-eclipse-nodes-t">교점선이 태양 방향과 직각</text>
-  <text x="452" y="78" class="uearth-10-eclipse-nodes-t">→ 삭의 달이 황도면 위로 비켜 감</text>
-  <rect x="14" y="372" width="250" height="46" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-green);stroke-width:1.5"/>
-  <text x="24" y="392" class="uearth-10-eclipse-nodes-t" style="font-weight:600;fill:var(--fig-green)">식이 없는 시기</text>
-  <text x="24" y="410" class="uearth-10-eclipse-nodes-t">삭의 달이 황도면 아래로 비켜 감</text>
-  <circle cx="300" cy="430" r="6" style="fill:var(--fig-ink)"/><text x="312" y="435" class="uearth-10-eclipse-nodes-s">삭의 달</text>
-  <circle cx="380" cy="430" r="6" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.5"/><text x="392" y="435" class="uearth-10-eclipse-nodes-s">망의 달</text>
-  <circle cx="460" cy="430" r="3" style="fill:var(--fig-ink)"/><text x="470" y="435" class="uearth-10-eclipse-nodes-s">교점</text>
-  <line x1="520" y1="430" x2="548" y2="430" style="stroke:var(--fig-violet);stroke-width:1.8"/><text x="554" y="435" class="uearth-10-eclipse-nodes-s">백도(황도면 위)</text>
-  <line x1="300" y1="454" x2="328" y2="454" style="stroke:var(--fig-violet);stroke-width:1.8;stroke-dasharray:4 3"/><text x="334" y="459" class="uearth-10-eclipse-nodes-s">백도(황도면 아래)</text>
-  <text x="706" y="459" text-anchor="end" class="uearth-10-eclipse-nodes-s">모식도: 기울기 5.1°와 크기는 과장</text>
+  <defs><marker id="uearth-10-eclipse-nodes-ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" style="fill:var(--fig-muted)"/></marker></defs>
+  <text x="196" y="22" text-anchor="middle" class="uearth-10-eclipse-nodes-h">위에서 본 모습</text>
+  <circle cx="196" cy="206" r="128" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <path d="M91.1 279.4 A128 128 0 0 0 122.6 310.9" style="fill:none;stroke:var(--fig-muted);stroke-width:2.5" marker-end="url(#uearth-10-eclipse-nodes-ar)"/>
+  <text x="87.1" y="309.4" text-anchor="middle" class="uearth-10-eclipse-nodes-n">지구 공전</text>
+  <line x1="196" y1="206" x2="68" y2="206" style="stroke:var(--fig-amber);stroke-width:1.2;stroke-dasharray:3 4"/>
+  <line x1="196" y1="206" x2="324" y2="206" style="stroke:var(--fig-amber);stroke-width:1.2;stroke-dasharray:3 4"/>
+  <line x1="196" y1="206" x2="196" y2="78" style="stroke:var(--fig-amber);stroke-width:1.2;stroke-dasharray:3 4"/>
+  <line x1="196" y1="206" x2="196" y2="334" style="stroke:var(--fig-amber);stroke-width:1.2;stroke-dasharray:3 4"/>
+  <circle cx="196" cy="206" r="15" style="fill:var(--fig-amber)"/>
+  <text x="196" y="238" text-anchor="middle" class="uearth-10-eclipse-nodes-t">태양</text>
+  <path d="M38 206 A30 30 0 0 1 98 206" style="fill:none;stroke:var(--fig-violet);stroke-width:2"/>
+  <path d="M38 206 A30 30 0 0 0 98 206" style="fill:none;stroke:var(--fig-violet);stroke-width:2;stroke-dasharray:4 3"/>
+  <line x1="30" y1="206" x2="106" y2="206" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <circle cx="38" cy="206" r="3.2" style="fill:var(--fig-ink)"/>
+  <circle cx="98" cy="206" r="3.2" style="fill:var(--fig-ink)"/>
+  <circle cx="68" cy="206" r="8" style="fill:var(--fig-teal);stroke:var(--fig-panel);stroke-width:1.5"/>
+  <circle cx="98.0" cy="206.0" r="5.5" style="fill:var(--fig-ink);stroke:var(--fig-panel);stroke-width:1.2"/>
+  <path d="M294 206 A30 30 0 0 1 354 206" style="fill:none;stroke:var(--fig-violet);stroke-width:2"/>
+  <path d="M294 206 A30 30 0 0 0 354 206" style="fill:none;stroke:var(--fig-violet);stroke-width:2;stroke-dasharray:4 3"/>
+  <line x1="286" y1="206" x2="362" y2="206" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <circle cx="294" cy="206" r="3.2" style="fill:var(--fig-ink)"/>
+  <circle cx="354" cy="206" r="3.2" style="fill:var(--fig-ink)"/>
+  <circle cx="324" cy="206" r="8" style="fill:var(--fig-teal);stroke:var(--fig-panel);stroke-width:1.5"/>
+  <circle cx="294.0" cy="206.0" r="5.5" style="fill:var(--fig-ink);stroke:var(--fig-panel);stroke-width:1.2"/>
+  <path d="M166 78 A30 30 0 0 1 226 78" style="fill:none;stroke:var(--fig-violet);stroke-width:2"/>
+  <path d="M166 78 A30 30 0 0 0 226 78" style="fill:none;stroke:var(--fig-violet);stroke-width:2;stroke-dasharray:4 3"/>
+  <line x1="158" y1="78" x2="234" y2="78" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <circle cx="166" cy="78" r="3.2" style="fill:var(--fig-ink)"/>
+  <circle cx="226" cy="78" r="3.2" style="fill:var(--fig-ink)"/>
+  <circle cx="196" cy="78" r="8" style="fill:var(--fig-teal);stroke:var(--fig-panel);stroke-width:1.5"/>
+  <circle cx="196.0" cy="108.0" r="5.5" style="fill:var(--fig-ink);stroke:var(--fig-panel);stroke-width:1.2"/>
+  <path d="M166 334 A30 30 0 0 1 226 334" style="fill:none;stroke:var(--fig-violet);stroke-width:2"/>
+  <path d="M166 334 A30 30 0 0 0 226 334" style="fill:none;stroke:var(--fig-violet);stroke-width:2;stroke-dasharray:4 3"/>
+  <line x1="158" y1="334" x2="234" y2="334" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <circle cx="166" cy="334" r="3.2" style="fill:var(--fig-ink)"/>
+  <circle cx="226" cy="334" r="3.2" style="fill:var(--fig-ink)"/>
+  <circle cx="196" cy="334" r="8" style="fill:var(--fig-teal);stroke:var(--fig-panel);stroke-width:1.5"/>
+  <circle cx="196.0" cy="304.0" r="5.5" style="fill:var(--fig-ink);stroke:var(--fig-panel);stroke-width:1.2"/>
+  <text x="68" y="258" text-anchor="middle" class="uearth-10-eclipse-nodes-h" style="fill:var(--fig-red)">식 계절</text>
+  <text x="324" y="258" text-anchor="middle" class="uearth-10-eclipse-nodes-h" style="fill:var(--fig-red)">식 계절</text>
+  <text x="324" y="276" text-anchor="middle" class="uearth-10-eclipse-nodes-n">(약 173일 뒤)</text>
+  <text x="240" y="83" class="uearth-10-eclipse-nodes-h" style="fill:var(--fig-green)">식 없음</text>
+  <text x="240" y="339" class="uearth-10-eclipse-nodes-h" style="fill:var(--fig-green)">식 없음</text>
+  <line x1="14" y1="380" x2="40" y2="380" style="stroke:var(--fig-violet);stroke-width:2"/><text x="46" y="384" class="uearth-10-eclipse-nodes-n">백도: 황도면 위</text>
+  <line x1="150" y1="380" x2="176" y2="380" style="stroke:var(--fig-violet);stroke-width:2;stroke-dasharray:4 3"/><text x="182" y="384" class="uearth-10-eclipse-nodes-n">황도면 아래</text>
+  <line x1="14" y1="402" x2="40" y2="402" style="stroke:var(--fig-ink);stroke-width:1.2"/><circle cx="27" cy="402" r="3.2" style="fill:var(--fig-ink)"/><text x="46" y="406" class="uearth-10-eclipse-nodes-n">교점선과 교점</text>
+  <circle cx="160" cy="402" r="5.5" style="fill:var(--fig-ink)"/><text x="172" y="406" class="uearth-10-eclipse-nodes-n">삭일 때의 달</text>
+  <line x1="388" y1="14" x2="388" y2="406" style="stroke:var(--fig-line);stroke-width:1"/>
+  <text x="552" y="22" text-anchor="middle" class="uearth-10-eclipse-nodes-h">옆에서 본 모습(삭일 때)</text>
+  <text x="404" y="68" class="uearth-10-eclipse-nodes-h" style="fill:var(--fig-red)">교점선이 태양을 향할 때</text>
+  <text x="404" y="86" class="uearth-10-eclipse-nodes-n">삭의 달이 교점에 → 그림자가 지구에(일식)</text>
+  <line x1="404" y1="130" x2="706" y2="130" style="stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:6 4"/>
+  <text x="706" y="186" text-anchor="end" class="uearth-10-eclipse-nodes-n">점선: 황도면</text>
+  <circle cx="420" cy="130" r="16" style="fill:var(--fig-amber)"/>
+  <ellipse cx="640" cy="130" rx="50" ry="9" style="fill:none;stroke:var(--fig-violet);stroke-width:1.8"/>
+  <path d="M590.0 125.0 L700.0 128.5 L700.0 131.5 L590.0 135.0 Z" style="fill:var(--fig-muted);opacity:0.55"/>
+  <circle cx="640" cy="130" r="9" style="fill:var(--fig-teal);stroke:var(--fig-panel);stroke-width:1.5"/>
+  <circle cx="590.0" cy="130.0" r="5.5" style="fill:var(--fig-ink);stroke:var(--fig-panel);stroke-width:1.2"/>
+  <text x="590.0" y="118.0" text-anchor="middle" class="uearth-10-eclipse-nodes-n">달</text>
+  <text x="640" y="156" text-anchor="middle" class="uearth-10-eclipse-nodes-n">지구</text>
+  <text x="404" y="248" class="uearth-10-eclipse-nodes-h" style="fill:var(--fig-green)">교점선이 태양 방향과 직각일 때</text>
+  <text x="404" y="266" class="uearth-10-eclipse-nodes-n">삭의 달이 황도면 위 → 그림자가 비껴감</text>
+  <line x1="404" y1="310" x2="706" y2="310" style="stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:6 4"/>
+  <text x="706" y="366" text-anchor="end" class="uearth-10-eclipse-nodes-n">점선: 황도면</text>
+  <circle cx="420" cy="310" r="16" style="fill:var(--fig-amber)"/>
+  <line x1="583.6" y1="289.5" x2="696.4" y2="330.5" style="stroke:var(--fig-violet);stroke-width:1.8"/>
+  <path d="M593.0 287.9 L703.0 291.4 L703.0 294.4 L593.0 297.9 Z" style="fill:var(--fig-muted);opacity:0.55"/>
+  <circle cx="640" cy="310" r="9" style="fill:var(--fig-teal);stroke:var(--fig-panel);stroke-width:1.5"/>
+  <circle cx="593.0" cy="292.9" r="5.5" style="fill:var(--fig-ink);stroke:var(--fig-panel);stroke-width:1.2"/>
+  <text x="593.0" y="280.9" text-anchor="middle" class="uearth-10-eclipse-nodes-n">달</text>
+  <text x="640" y="336" text-anchor="middle" class="uearth-10-eclipse-nodes-n">지구</text>
+  <text x="706" y="412" text-anchor="end" class="uearth-10-eclipse-nodes-n">모식도: 기울기(실제 5.1°)와 크기·거리는 과장</text>
 </svg>

@@ -55,12 +55,13 @@ Sims.register('u-species-area', {
       ctx.fillStyle = T.figSoftBlue; ctx.beginPath();
       ctx.moveTo(sx(0), sy(0)); ctx.lineTo(sx(-2), sy(-2 * 0.15)); ctx.lineTo(sx(-2), sy(-2 * 0.35)); ctx.closePath(); ctx.fill();
       ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
-      ctx.fillText('흔한 z 범위 0.15~0.35', sx(-1.95), sy(-2 * 0.25) + 4);
+      ctx.fillText('흔한 z 범위 0.15~0.35', sx(-1.95), sy(-2 * 0.35) + 16);
       // 면적 = 종 (z = 1) 기준선
       ctx.setLineDash([4, 4]); ctx.strokeStyle = T.figLine; ctx.lineWidth = 1.2;
       ctx.beginPath(); ctx.moveTo(sx(0), sy(0)); ctx.lineTo(sx(-1), sy(-1)); ctx.stroke(); ctx.setLineDash([]);
-      ctx.fillStyle = T.figMuted; ctx.textAlign = 'right';
-      ctx.fillText('z = 1 이라면(면적만큼 감소)', sx(-1) + 8, sy(-1) - 6 < Tp ? Tp + 12 : sy(-1) + 16);
+      ctx.fillStyle = T.figMuted; ctx.textAlign = 'left';
+      ctx.fillText('z = 1 이라면', sx(-0.5) + 8, sy(-0.5) + 4);
+      ctx.fillText('(면적만큼 감소)', sx(-0.5) + 8, sy(-0.5) + 19);
       // 현재 z 직선
       ctx.strokeStyle = T.figAccent; ctx.lineWidth = 2.6;
       ctx.beginPath(); ctx.moveTo(sx(0), sy(0)); ctx.lineTo(sx(-2), sy(-2 * s.z)); ctx.stroke();
@@ -70,8 +71,8 @@ Sims.register('u-species-area', {
       ctx.beginPath(); ctx.moveTo(X, B); ctx.lineTo(X, Y); ctx.lineTo(R, Y); ctx.stroke(); ctx.setLineDash([]);
       ctx.fillStyle = T.figViolet; ctx.beginPath(); ctx.arc(X, Y, 6, 0, Math.PI * 2); ctx.fill();
       ctx.fillStyle = T.figInk; ctx.beginPath(); ctx.arc(sx(0), sy(0), 4.5, 0, Math.PI * 2); ctx.fill();
-      ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'right'; ctx.fillStyle = T.figAccent;
-      ctx.fillText('기울기 z = ' + s.z.toFixed(2), R - 4, Tp + 14);
+      ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'left'; ctx.fillStyle = T.figAccent;
+      ctx.fillText('기울기 z = ' + s.z.toFixed(2), L + 6, Tp + 14);
     }
 
     function pictures(T, r) {

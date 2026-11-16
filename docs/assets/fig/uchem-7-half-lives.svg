@@ -26,7 +26,7 @@
   <text x="152" y="276" text-anchor="middle" class="uchem-7-half-lives-s">연이은 반감기가 짧아진다</text>
   <text x="152" y="238" text-anchor="middle" class="uchem-7-half-lives-s"></text>
   <path d="M52 312 L52 440 L252 440" class="uchem-7-half-lives-ax"/>
-  <text x="58" y="324" text-anchor="start" class="uchem-7-half-lives-t" style="font-weight:600">[A] 대 t</text>
+  <text x="252" y="324" text-anchor="end" class="uchem-7-half-lives-t" style="font-weight:600">[A] 대 t</text>
   <text x="52" y="456" text-anchor="middle" class="uchem-7-half-lives-s">0</text>
   <text x="102" y="456" text-anchor="middle" class="uchem-7-half-lives-s">1</text>
   <text x="152" y="456" text-anchor="middle" class="uchem-7-half-lives-s">2</text>
@@ -40,7 +40,7 @@
   <circle cx="102" cy="378" r="3" style="fill:var(--fig-panel);stroke:var(--fig-amber);stroke-width:1.5"/>
   <circle cx="127" cy="409" r="3" style="fill:var(--fig-panel);stroke:var(--fig-amber);stroke-width:1.5"/>
   <circle cx="152" cy="440" r="3" style="fill:var(--fig-panel);stroke:var(--fig-amber);stroke-width:1.5"/>
-  <text x="248" y="350" text-anchor="end" class="uchem-7-half-lives-t" style="fill:var(--fig-amber);font-weight:600">기울기 −k</text>
+  <text x="248" y="386" text-anchor="end" class="uchem-7-half-lives-t" style="fill:var(--fig-amber);font-weight:600">기울기 −k</text>
   <text x="388" y="24" text-anchor="middle" class="uchem-7-half-lives-h">1차 반응</text>
   <text x="388" y="42" text-anchor="middle" class="uchem-7-half-lives-s">k = ln 2 s⁻¹</text>
   <line x1="288" y1="179.5" x2="488" y2="179.5" style="stroke:var(--fig-line);stroke-width:0.7;stroke-dasharray:3 3"/>
@@ -65,7 +65,7 @@
   <text x="388" y="276" text-anchor="middle" class="uchem-7-half-lives-s">연이은 반감기가 일정하다</text>
   <text x="388" y="238" text-anchor="middle" class="uchem-7-half-lives-s"></text>
   <path d="M288 312 L288 440 L488 440" class="uchem-7-half-lives-ax"/>
-  <text x="294" y="324" text-anchor="start" class="uchem-7-half-lives-t" style="font-weight:600">ln[A] 대 t</text>
+  <text x="488" y="324" text-anchor="end" class="uchem-7-half-lives-t" style="font-weight:600">ln[A] 대 t</text>
   <text x="288" y="456" text-anchor="middle" class="uchem-7-half-lives-s">0</text>
   <text x="338" y="456" text-anchor="middle" class="uchem-7-half-lives-s">1</text>
   <text x="388" y="456" text-anchor="middle" class="uchem-7-half-lives-s">2</text>

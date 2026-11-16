@@ -78,8 +78,9 @@
   <circle cx="661.4" cy="198.0" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-violet);stroke-width:2"/>
   <text x="667.1" y="202.2" class="uchem-2-vt-extrapolation-t" style="fill:var(--fig-violet);font-weight:600">C</text>
   <circle cx="128.4" cy="280.0" r="6" style="fill:var(--fig-red)"/>
-  <text x="138.4" y="246.0" class="uchem-2-vt-extrapolation-k">−273.15 °C = 0 K</text>
-  <text x="138.4" y="264.0" class="uchem-2-vt-extrapolation-n">세 직선이 모이는 곳(부피 0)</text>
+  <text x="92.9" y="202.0" class="uchem-2-vt-extrapolation-k">−273.15 °C = 0 K</text>
+  <line x1="128.4" y1="272.0" x2="122.4" y2="224.0" style="stroke:var(--fig-red);stroke-width:1.2"/>
+  <text x="92.9" y="220.0" class="uchem-2-vt-extrapolation-n">세 직선이 모이는 곳(부피 0)</text>
   <text x="304.3" y="67.0" class="uchem-2-vt-extrapolation-n">A: 0 °C에서 1.000 L, 100 °C에서 1.366 L</text>
   <text x="304.3" y="85.0" class="uchem-2-vt-extrapolation-n">기울기 0.003 66 L/°C</text>
   <line x1="104.3" y1="55.0" x2="132.9" y2="55.0" style="stroke:var(--fig-ink);stroke-width:3"/>

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-labelledby="t-uearth-1-bowen d-uearth-1-bowen">
+  <title id="t-uearth-1-bowen">그림 일반지구과학 1-3 보엔 반응 계열과 마그마 조성</title>
+  <desc id="d-uearth-1-bowen">마그마가 식으면 왼쪽 불연속 계열에서는 감람석→휘석→각섬석→흑운모로 구조가 다른 광물이, 오른쪽 연속 계열에서는 Ca가 많은 사장석에서 Na가 많은 사장석으로 조성만 바뀌는 사장석이 생긴다. 두 계열은 낮은 온도에서 정장석, 백운모, 석영으로 합쳐진다. 오른쪽 띠는 함께 생기는 광물로 이루어진 화성암 무리이다.</desc>
+  <defs>
+    <marker id="uearth-1-bowen-ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-ink)"/></marker>
+  </defs>
+  <style>
+    .uearth-1-bowen-h{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .uearth-1-bowen-l{font-size:14px;fill:var(--fig-ink)}
+    .uearth-1-bowen-b{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .uearth-1-bowen-s{font-size:13px;fill:var(--fig-muted)}
+    .uearth-1-bowen-a{stroke:var(--fig-ink);stroke-width:1.6;fill:none}
+    .uearth-1-bowen-m{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5}
+    .uearth-1-bowen-f{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5}
+  </style>
+  <!-- 온도 축 -->
+  <line x1="44" y1="70" x2="44" y2="388" style="stroke:var(--fig-red);stroke-width:2.5" marker-end="url(#uearth-1-bowen-ar)"/>
+  <text x="44" y="58" text-anchor="middle" class="uearth-1-bowen-s">높은 온도</text>
+  <text x="44" y="410" text-anchor="middle" class="uearth-1-bowen-s">낮은 온도</text>
+  <text x="58" y="84" class="uearth-1-bowen-s">약 1200 °C</text>
+  <text x="58" y="402" class="uearth-1-bowen-s">약 700 °C</text>
+
+  <text x="190" y="40" text-anchor="middle" class="uearth-1-bowen-h">불연속 계열</text>
+  <text x="400" y="40" text-anchor="middle" class="uearth-1-bowen-h">연속 계열</text>
+
+  <!-- 불연속 계열 -->
+  <rect x="120" y="92" width="140" height="44" rx="6" class="uearth-1-bowen-m"/>
+  <text x="190" y="111" text-anchor="middle" class="uearth-1-bowen-b">감람석</text>
+  <text x="190" y="128" text-anchor="middle" class="uearth-1-bowen-s">독립형</text>
+  <rect x="120" y="158" width="140" height="44" rx="6" class="uearth-1-bowen-m"/>
+  <text x="190" y="177" text-anchor="middle" class="uearth-1-bowen-b">휘석</text>
+  <text x="190" y="194" text-anchor="middle" class="uearth-1-bowen-s">단사슬</text>
+  <rect x="120" y="224" width="140" height="44" rx="6" class="uearth-1-bowen-m"/>
+  <text x="190" y="243" text-anchor="middle" class="uearth-1-bowen-b">각섬석</text>
+  <text x="190" y="260" text-anchor="middle" class="uearth-1-bowen-s">복사슬</text>
+  <rect x="120" y="290" width="140" height="44" rx="6" class="uearth-1-bowen-m"/>
+  <text x="190" y="309" text-anchor="middle" class="uearth-1-bowen-b">흑운모</text>
+  <text x="190" y="326" text-anchor="middle" class="uearth-1-bowen-s">판상</text>
+  <line x1="190" y1="136" x2="190" y2="155" class="uearth-1-bowen-a" marker-end="url(#uearth-1-bowen-ar)"/>
+  <line x1="190" y1="202" x2="190" y2="221" class="uearth-1-bowen-a" marker-end="url(#uearth-1-bowen-ar)"/>
+  <line x1="190" y1="268" x2="190" y2="287" class="uearth-1-bowen-a" marker-end="url(#uearth-1-bowen-ar)"/>
+  <text x="112" y="215" text-anchor="end" class="uearth-1-bowen-s">구조가</text>
+  <text x="112" y="232" text-anchor="end" class="uearth-1-bowen-s">바뀜</text>
+
+  <!-- 연속 계열: 사장석 -->
+  <rect x="340" y="92" width="120" height="48" style="fill:var(--fig-soft-blue);stroke:none"/>
+  <rect x="340" y="140" width="120" height="48" style="fill:var(--fig-soft-blue);opacity:0.75;stroke:none"/>
+  <rect x="340" y="188" width="120" height="48" style="fill:var(--fig-soft-teal);opacity:0.75;stroke:none"/>
+  <rect x="340" y="236" width="120" height="49" style="fill:var(--fig-soft-amber);opacity:0.75;stroke:none"/>
+  <rect x="340" y="285" width="120" height="49" style="fill:var(--fig-soft-amber);stroke:none"/>
+  <rect x="340" y="92" width="120" height="242" rx="6" style="fill:none;stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="400" y="113" text-anchor="middle" class="uearth-1-bowen-b">Ca가 많은</text>
+  <text x="400" y="131" text-anchor="middle" class="uearth-1-bowen-b">사장석</text>
+  <text x="400" y="207" text-anchor="middle" class="uearth-1-bowen-l">사장석</text>
+  <text x="400" y="225" text-anchor="middle" class="uearth-1-bowen-s">구조 그대로</text>
+  <text x="400" y="306" text-anchor="middle" class="uearth-1-bowen-b">Na가 많은</text>
+  <text x="400" y="324" text-anchor="middle" class="uearth-1-bowen-b">사장석</text>
+  <line x1="474" y1="100" x2="474" y2="326" class="uearth-1-bowen-a" marker-end="url(#uearth-1-bowen-ar)"/>
+  <text x="300" y="207" text-anchor="middle" class="uearth-1-bowen-s">조성만</text>
+  <text x="300" y="224" text-anchor="middle" class="uearth-1-bowen-s">연속 변화</text>
+
+  <!-- 합쳐지는 부분 -->
+  <line x1="190" y1="334" x2="250" y2="358" class="uearth-1-bowen-a" marker-end="url(#uearth-1-bowen-ar)"/>
+  <line x1="400" y1="334" x2="340" y2="358" class="uearth-1-bowen-a" marker-end="url(#uearth-1-bowen-ar)"/>
+  <rect x="150" y="362" width="90" height="34" rx="6" class="uearth-1-bowen-f"/>
+  <text x="195" y="384" text-anchor="middle" class="uearth-1-bowen-b">정장석</text>
+  <rect x="250" y="362" width="90" height="34" rx="6" class="uearth-1-bowen-f"/>
+  <text x="295" y="384" text-anchor="middle" class="uearth-1-bowen-b">백운모</text>
+  <rect x="350" y="362" width="90" height="34" rx="6" class="uearth-1-bowen-f"/>
+  <text x="395" y="384" text-anchor="middle" class="uearth-1-bowen-b">석영</text>
+
+  <!-- 오른쪽: 화성암 무리 -->
+  <rect x="500" y="92" width="150" height="128" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.2"/>
+  <rect x="500" y="220" width="150" height="80" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2"/>
+  <rect x="500" y="300" width="150" height="96" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.2"/>
+  <text x="575" y="40" text-anchor="middle" class="uearth-1-bowen-h">함께 생기는 암석</text>
+  <text x="575" y="148" text-anchor="middle" class="uearth-1-bowen-b">(초)고철질</text>
+  <text x="575" y="167" text-anchor="middle" class="uearth-1-bowen-s">현무암 · 반려암</text>
+  <text x="575" y="185" text-anchor="middle" class="uearth-1-bowen-s">(감람암)</text>
+  <text x="575" y="255" text-anchor="middle" class="uearth-1-bowen-b">중성</text>
+  <text x="575" y="274" text-anchor="middle" class="uearth-1-bowen-s">안산암 · 섬록암</text>
+  <text x="575" y="343" text-anchor="middle" class="uearth-1-bowen-b">규장질</text>
+  <text x="575" y="362" text-anchor="middle" class="uearth-1-bowen-s">유문암 · 화강암</text>
+  <line x1="672" y1="100" x2="672" y2="388" style="stroke:var(--fig-amber);stroke-width:2.5" marker-end="url(#uearth-1-bowen-ar)"/>
+  <text x="684" y="140" class="uearth-1-bowen-s" transform="rotate(90 684 140)">SiO₂ ↑ · 점성 ↑ · 색 밝아짐</text>
+
+  <text x="360" y="434" text-anchor="middle" class="uearth-1-bowen-s">불연속 계열에서는 사면체의 연결이 독립형 → 단사슬 → 복사슬 → 판상으로 많아진다.</text>
+  <text x="360" y="456" text-anchor="middle" class="uearth-1-bowen-s">모식도: 온도는 대략값이며, 광물이 생기는 온도 구간은 서로 겹친다.</text>
+</svg>

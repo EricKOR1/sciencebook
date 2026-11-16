@@ -16,7 +16,7 @@ Sims.register('u-rlc-resonance', {
     var rW = api.readout('평균 전력');
     var rF0 = api.readout('공명 f₀ · Q');
 
-    api.slider({ id: 'u-rlc-resonance-f', label: '진동수 f', min: Math.log10(FMIN), max: Math.log10(FMAX), step: 0.005, value: Math.log10(60),
+    api.slider({ id: 'u-rlc-resonance-f', label: '진동수 f', min: Math.log10(FMIN), max: Math.log10(FMAX), step: 0.001, value: Math.log10(60),
       format: function (v) { return fmtF(Math.pow(10, v)); }, onInput: function (v) { s.f = Math.pow(10, v); update(); } });
     api.slider({ id: 'u-rlc-resonance-r', label: '저항 R', min: 5, max: 200, step: 1, value: 30,
       format: function (v) { return v + ' Ω'; }, onInput: function (v) { s.R = v; update(); } });
@@ -87,8 +87,6 @@ Sims.register('u-rlc-resonance', {
       ctx.beginPath(); ctx.moveTo(ox - 10, oy); ctx.lineTo(r.x + r.w - 8, oy); ctx.moveTo(ox, oy - room - 8); ctx.lineTo(ox, oy + room + 8); ctx.stroke();
       // 전류 기준 화살표
       arrow(ox, oy, ox + Math.min(60, room * 0.4), oy, T.figMuted, 1.5);
-      ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
-      ctx.fillText('I 방향', ox + 4, oy + 14);
       // V_R, V_L, V_C (원점에서), 그리고 V_R 끝에 V_L−V_C를 이어 붙인 합
       var xr = ox + VR * k;
       arrow(ox, oy, ox, oy - VL * k, T.figRed, 2.5);
@@ -111,6 +109,8 @@ Sims.register('u-rlc-resonance', {
       ctx.fillStyle = T.figBlue; ctx.fillText('V_C ' + fmtV(VC), ox + 6, Math.min(r.y + r.h - 6, oy + VC * k + 4));
       ctx.fillStyle = T.figGreen; ctx.textAlign = 'right';
       ctx.fillText('V_R ' + fmtV(VR), Math.max(xr, ox + 80), oy + (VL > VC ? 16 : -8));
+      ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right';
+      ctx.fillText('전류 방향 →', r.x + r.w - 8, oy + (VL > VC ? -6 : 16));
       var tipY = oy - (VL - VC) * k;
       ctx.fillStyle = T.figInk; ctx.textAlign = 'left'; ctx.font = '600 12px ' + T.fontBody;
       var lx = Math.min(xr + 6, r.x + r.w - 92);
@@ -158,7 +158,7 @@ Sims.register('u-rlc-resonance', {
       var cI = calc(s.f).I;
       ctx.fillStyle = T.figRed; ctx.beginPath(); ctx.arc(lx(s.f), ly(cI), 5.5, 0, Math.PI * 2); ctx.fill();
       ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
-      ctx.fillText('색칠한 띠: I ≥ I_max/√2 (폭 R/2πL)', L + 4, B - 6);
+      ctx.fillText('색칠한 띠: I ≥ I_max/√2', L + 4, Tp + 12);
     }
     function fmtI(v) { return v >= 10 ? v.toFixed(0) : v >= 1 ? v.toFixed(1) : v.toFixed(2); }
     function niceCeil(x) {

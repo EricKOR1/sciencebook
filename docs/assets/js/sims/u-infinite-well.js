@@ -49,7 +49,7 @@ Sims.register('u-infinite-well', {
       drawLevels(T, P.lv); drawWave(T, P.wf);
     }
     function drawLevels(T, r) {
-      var L = r.x + 50, R = r.x + r.w - 10, Tp = r.y + 26, B = r.y + r.h - 30;
+      var L = r.x + 50, R = r.x + r.w - 10, Tp = r.y + 26, B = r.y + r.h - 34;
       var sy = function (e) { return B - e / EMAX * (B - Tp); };
       ctx.fillStyle = T.figInk; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'left';
       ctx.fillText('에너지 준위 (세로축 고정)', r.x + 8, r.y + 16);
@@ -65,6 +65,7 @@ Sims.register('u-infinite-well', {
       ctx.beginPath(); ctx.moveTo(x0, Tp); ctx.lineTo(x0, B); ctx.lineTo(x1, B); ctx.lineTo(x1, Tp); ctx.stroke();
       ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'center';
       ctx.fillText('L = ' + s.L.toFixed(2) + ' nm', cx, B + 14);
+      var countY = B + 27;
       // 준위
       var shown = 0, n = 1;
       while (En(n) <= EMAX && n < 60) {
@@ -81,11 +82,11 @@ Sims.register('u-infinite-well', {
         ctx.fillStyle = T.figRed; ctx.font = '600 11px ' + T.fontBody; ctx.textAlign = 'center';
         ctx.fillText('↑ n=' + s.n + ' 은 ' + fmtE(En(s.n)) + ' eV (축 위)', cx, Tp - 4 > r.y + 20 ? Tp + 12 : Tp + 12);
       }
-      ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
-      ctx.fillText('30 eV 아래 준위 ' + shown + '개', L + 6, Tp + 12 + (En(s.n) > EMAX ? 16 : 0));
+      ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'center';
+      ctx.fillText('30 eV 아래 준위 ' + shown + '개', cx, countY);
     }
     function drawWave(T, r) {
-      var L = r.x + 40, R = r.x + r.w - 14, Tp = r.y + 34, B = r.y + r.h - 34;
+      var L = r.x + 40, R = r.x + r.w - 14, Tp = r.y + 54, B = r.y + r.h - 30;
       var sx = function (u) { return L + u * (R - L); };
       ctx.fillStyle = T.figInk; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'left';
       ctx.fillText('n = ' + s.n + ' 상태 (가로축: 우물 속 위치 x/L)', r.x + 8, r.y + 16);
@@ -124,10 +125,10 @@ Sims.register('u-infinite-well', {
         for (var k = 1; k < s.n; k++) { ctx.beginPath(); ctx.arc(sx(k / s.n), mid, 4, 0, Math.PI * 2); ctx.fill(); }
       }
       // 범례
-      ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right';
-      var ly = B - 6;
-      if (s.view !== 'prob') { ctx.fillStyle = T.figAccent; ctx.fillText('ψ_n = √(2/L) sin(nπx/L)', R - 4, Tp + 12); }
-      if (s.view !== 'psi') { ctx.fillStyle = T.figViolet; ctx.fillText('|ψ_n|² (넓이 = 1)', R - 4, s.view === 'prob' ? Tp + 12 : Tp + 26); }
+      ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
+      var ly = B - 6, lgx = r.x + 8;
+      if (s.view !== 'prob') { ctx.fillStyle = T.figAccent; ctx.fillText('— ψ_n = √(2/L) sin(nπx/L)', lgx, r.y + 34); lgx += ctx.measureText('— ψ_n = √(2/L) sin(nπx/L)').width + 14; }
+      if (s.view !== 'psi') { ctx.fillStyle = T.figViolet; ctx.fillText('— |ψ_n|² (넓이 = 1)', lgx, r.y + 34); }
       if (s.view !== 'prob' && s.n > 1) { ctx.fillStyle = T.figRed; ctx.textAlign = 'left'; ctx.fillText('● 마디', L + 4, ly); }
     }
     api.onResize(draw);

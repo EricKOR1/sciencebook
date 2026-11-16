@@ -135,7 +135,7 @@ Sims.register('u-mirror-lens', {
           arrowUp(ix, cy, Y(img[1]), T.figViolet, 3, i < 0);
           ctx.globalAlpha = 1;
           ctx.fillStyle = T.figViolet; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'center';
-          ctx.fillText(i > 0 ? '실상' : '허상', ix, img[1] > 0 ? cy + 30 : cy - 8);
+          ctx.fillText(i > 0 ? '실상' : '허상', ix, img[1] > 0 ? (Math.abs(ix - ox) < 44 ? cy + 44 : cy + 30) : cy - 8);
         }
       }
       ctx.restore();

@@ -4,7 +4,7 @@ Sims.register('u-lorentz', {
   caption: '속력 β = v/c를 올리며 위의 막대와 시계, 아래 두 그래프를 함께 보자. β가 0.3쯤까지는 γ가 거의 1이고 운동 에너지도 뉴턴 역학의 ½mv²과 겹치지만, β가 1에 가까워지면 γ와 (γ − 1)mc²는 끝없이 커진다. 뉴턴 역학의 곡선은 β = 1에서 ½mc²에 그치므로, 유한한 에너지로 빛의 속력에 이를 수 있다는 틀린 예측을 한다. 시계는 땅에서 1 s가 지나는 동안 움직이는 시계가 가리키는 시간(1/γ s)이고, 막대는 고유 길이 100 m인 우주선을 땅에서 잰 길이이다. 전자의 운동 에너지는 정지 에너지 0.511 MeV로 계산했다.',
   init: function (api) {
     var s = { b: 0.6 };
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.45 : 0.62; }, label: '로런츠 인자와 운동 에너지 그래프, 길이 수축과 시간 팽창 그림' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.75 : 0.62; }, label: '로런츠 인자와 운동 에너지 그래프, 길이 수축과 시간 팽창 그림' });
     var ctx = cv.ctx;
 
     var rG = api.readout('γ');
@@ -33,7 +33,7 @@ Sims.register('u-lorentz', {
     function draw() {
       var T = api.tokens(), w = cv.w, h = cv.h, narrow = w < 560;
       ctx.clearRect(0, 0, w, h);
-      var topH = narrow ? h * 0.36 : h * 0.3;
+      var topH = narrow ? h * 0.34 : h * 0.3;
       drawScene(T, { x: 0, y: 0, w: w, h: topH }, narrow);
       if (narrow) {
         drawGamma(T, { x: 0, y: topH + 4, w: w, h: (h - topH) / 2 - 4 });
@@ -50,7 +50,7 @@ Sims.register('u-lorentz', {
       if (narrow) {
         clockR = Math.min(r.h * 0.16, 30); L0 = r.w - 90 - 64;
         y1 = r.y + r.h * 0.12; y2 = r.y + r.h * 0.32;
-        cy = r.y + r.h * 0.70; clockX = r.x + r.w / 2 - clockR - 30;
+        cy = r.y + r.h * 0.72; clockX = r.x + r.w / 2 - clockR - 30;
       } else {
         clockR = Math.min(r.h * 0.34, 34); clockX = r.x + r.w - 60 - 2 * clockR - 34;
         L0 = Math.min(clockX - clockR - x0 - 70, 380);

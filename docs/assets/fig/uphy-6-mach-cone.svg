@@ -5,25 +5,23 @@
     .u6mc-t{font-size:14px;fill:var(--fig-ink)} .u6mc-s{font-size:13px;fill:var(--fig-muted)}
     .u6mc-b{font-size:15px;fill:var(--fig-ink);font-weight:600} .u6mc-i{font-size:14px;fill:var(--fig-ink);font-style:italic}
   </style>
-  <circle cx="530" cy="190" r="35" style="fill:none;stroke:var(--fig-blue);stroke-width:1.6"/>
-  <circle cx="530" cy="190" r="2.5" style="fill:var(--fig-muted);stroke:none;stroke-width:0"/>
-  <circle cx="460" cy="190" r="70" style="fill:none;stroke:var(--fig-blue);stroke-width:1.6"/>
-  <circle cx="460" cy="190" r="2.5" style="fill:var(--fig-muted);stroke:none;stroke-width:0"/>
-  <circle cx="390" cy="190" r="105" style="fill:none;stroke:var(--fig-blue);stroke-width:1.6"/>
-  <circle cx="390" cy="190" r="2.5" style="fill:var(--fig-muted);stroke:none;stroke-width:0"/>
-  <circle cx="320" cy="190" r="140" style="fill:none;stroke:var(--fig-blue);stroke-width:1.6"/>
-  <circle cx="320" cy="190" r="2.5" style="fill:var(--fig-muted);stroke:none;stroke-width:0"/>
-  <circle cx="250" cy="190" r="175" style="fill:none;stroke:var(--fig-blue);stroke-width:1.6"/>
-  <circle cx="250" cy="190" r="2.5" style="fill:var(--fig-muted);stroke:none;stroke-width:0"/>
-  <circle cx="180" cy="190" r="210" style="fill:none;stroke:var(--fig-blue);stroke-width:1.6"/>
-  <circle cx="180" cy="190" r="2.5" style="fill:var(--fig-muted);stroke:none;stroke-width:0"/>
-  <line x1="600" y1="190" x2="201.6" y2="420" style="stroke:var(--fig-red);stroke-width:2.6;stroke-linecap:round"/>
-  <line x1="600" y1="190" x2="201.6" y2="-40" style="stroke:var(--fig-red);stroke-width:2.6;stroke-linecap:round"/>
-  <line x1="320" y1="190" x2="390" y2="68.8" style="stroke:var(--fig-amber);stroke-width:2.2;stroke-linecap:round"/>
-  <text x="343" y="127.4" text-anchor="end" class="u6mc-i" style="fill:var(--fig-amber);font-weight:600">vt</text>
-  <line x1="320" y1="190" x2="600" y2="190" style="stroke:var(--fig-green);stroke-width:2.2;stroke-linecap:round"/>
-  <text x="460" y="212" text-anchor="middle" class="u6mc-i" style="fill:var(--fig-green);font-weight:600">v<tspan baseline-shift="sub" font-size="11">S</tspan>t</text>
-  <path d="M398.7 73.8 L393.7 82.4 L385 77.4" style="fill:none;stroke:var(--fig-ink);stroke-width:1.2;stroke-linejoin:round;stroke-linecap:round"/>
+  <circle cx="534" cy="190" r="33" style="fill:none;stroke:var(--fig-blue);stroke-width:1.6"/>
+  <circle cx="534" cy="190" r="2.5" style="fill:var(--fig-muted);stroke:none;stroke-width:0"/>
+  <circle cx="468" cy="190" r="66" style="fill:none;stroke:var(--fig-blue);stroke-width:1.6"/>
+  <circle cx="468" cy="190" r="2.5" style="fill:var(--fig-muted);stroke:none;stroke-width:0"/>
+  <circle cx="402" cy="190" r="99" style="fill:none;stroke:var(--fig-blue);stroke-width:1.6"/>
+  <circle cx="402" cy="190" r="2.5" style="fill:var(--fig-muted);stroke:none;stroke-width:0"/>
+  <circle cx="336" cy="190" r="132" style="fill:none;stroke:var(--fig-blue);stroke-width:1.6"/>
+  <circle cx="336" cy="190" r="2.5" style="fill:var(--fig-muted);stroke:none;stroke-width:0"/>
+  <circle cx="270" cy="190" r="165" style="fill:none;stroke:var(--fig-blue);stroke-width:1.6"/>
+  <circle cx="270" cy="190" r="2.5" style="fill:var(--fig-muted);stroke:none;stroke-width:0"/>
+  <line x1="600" y1="190" x2="301.2" y2="362.5" style="stroke:var(--fig-red);stroke-width:2.6;stroke-linecap:round"/>
+  <line x1="600" y1="190" x2="301.2" y2="17.5" style="stroke:var(--fig-red);stroke-width:2.6;stroke-linecap:round"/>
+  <line x1="336" y1="190" x2="402" y2="75.7" style="stroke:var(--fig-amber);stroke-width:2.2;stroke-linecap:round"/>
+  <text x="357" y="130.8" text-anchor="end" class="u6mc-i" style="fill:var(--fig-amber);font-weight:600">vt</text>
+  <line x1="336" y1="190" x2="600" y2="190" style="stroke:var(--fig-green);stroke-width:2.2;stroke-linecap:round"/>
+  <text x="468" y="212" text-anchor="middle" class="u6mc-i" style="fill:var(--fig-green);font-weight:600">v<tspan baseline-shift="sub" font-size="11">S</tspan>t</text>
+  <path d="M410.7 80.7 L405.7 89.3 L397 84.3" style="fill:none;stroke:var(--fig-ink);stroke-width:1.2;stroke-linejoin:round;stroke-linecap:round"/>
   <path d="M552 190 A48 48 0 0 0 558.4 166" style="fill:none;stroke:var(--fig-ink);stroke-width:1.5;stroke-linejoin:round;stroke-linecap:round"/>
   <text x="538" y="180" text-anchor="end" class="u6mc-i" style="font-weight:600;font-size:16px">θ</text>
   <circle cx="600" cy="190" r="7" style="fill:var(--fig-amber);stroke:var(--fig-ink);stroke-width:2"/>
@@ -31,8 +29,8 @@
   <path d="M660 190 L651 194.1 L651 185.9 Z" style="fill:var(--fig-ink);stroke:none"/>
   <text x="634" y="178" text-anchor="middle" class="u6mc-i">v<tspan baseline-shift="sub" font-size="11">S</tspan></text>
   <text x="600" y="222" text-anchor="middle" class="u6mc-s">지금 파원</text>
-  <text x="320" y="234" text-anchor="middle" class="u6mc-s" style="fill:var(--fig-muted)">t 전 파원 위치</text>
-  <text x="40" y="30" class="u6mc-b">sin θ = vt / v<tspan baseline-shift="sub" font-size="11">S</tspan>t = v / v<tspan baseline-shift="sub" font-size="11">S</tspan> = 1/M</text>
-  <text x="40" y="52" class="u6mc-s">원뿔 면을 따라 파면이 겹쳐 충격파가 된다</text>
-  <text x="680" y="360" text-anchor="end" class="u6mc-s">M = 2 (θ = 30°), 파원은 일정한 간격으로 파면을 낸다</text>
+  <text x="336" y="234" text-anchor="middle" class="u6mc-s" style="fill:var(--fig-muted)">t 전 파원 위치</text>
+  <text x="690" y="300" text-anchor="end" class="u6mc-b">sin θ = vt / v<tspan baseline-shift="sub" font-size="11">S</tspan>t = v / v<tspan baseline-shift="sub" font-size="11">S</tspan> = 1/M</text>
+  <text x="690" y="322" text-anchor="end" class="u6mc-s">원뿔 면을 따라 파면이 겹쳐 충격파가 된다</text>
+  <text x="690" y="344" text-anchor="end" class="u6mc-s">M = 2 (θ = 30°), 같은 시간 간격으로 낸 파면</text>
 </svg>

@@ -64,7 +64,7 @@ Sims.register('u-membrane-potential', {
         { key: 'Na', name: 'Na⁺', out: s.naOut, inn: IN.Na, E: c.ENa, z: 1, col: T.figRed, P: s.pNa },
         { key: 'Cl', name: 'Cl⁻', out: CL_OUT, inn: IN.Cl, E: c.ECl, z: -1, col: T.figGreen, P: s.pCl },
       ];
-      var top = r.y + 30, bot = r.y + r.h - 12;
+      var top = r.y + 58, bot = r.y + r.h - 12;
       var memY = (top + bot) / 2;
       ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'left'; ctx.fillStyle = T.figMuted;
       ctx.fillText('세포 밖', r.x + 8, top - 10);
@@ -106,7 +106,8 @@ Sims.register('u-membrane-potential', {
         }
       });
       ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
-      ctx.fillText('막대: 농도(mM, 로그 눈금) · 화살표 굵기: 투과도×추진력(모식)', r.x + 8, r.y + 12);
+      ctx.fillText('막대: 농도(mM, 로그 눈금)', r.x + 8, r.y + 12);
+      ctx.fillText('화살표: 실제 이동 방향(굵기는 모식)', r.x + 8, r.y + 27);
     }
 
     function drawScale(T, r, c) {
@@ -137,10 +138,10 @@ Sims.register('u-membrane-potential', {
       });
       // 막전위
       var vy = sy(Math.max(VMIN, Math.min(VMAX, c.Vm)));
-      var bx = Math.min(r.x + r.w - 70, x + 150);
+      var bx = Math.min(r.x + r.w - 90, x + 175);
       ctx.fillStyle = T.figSoftViolet; ctx.strokeStyle = T.figViolet; ctx.lineWidth = 2;
       ctx.beginPath(); ctx.moveTo(x + 2, vy); ctx.lineTo(x + 14, vy - 7); ctx.lineTo(x + 14, vy + 7); ctx.closePath(); ctx.fillStyle = T.figViolet; ctx.fill();
-      ctx.beginPath(); ctx.moveTo(x + 14, vy); ctx.lineTo(bx, vy); ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(x + 14, vy); ctx.lineTo(x + 34, vy); ctx.moveTo(x + 140, vy); ctx.lineTo(bx, vy); ctx.stroke();
       ctx.fillStyle = T.figViolet; ctx.font = '700 13px ' + T.fontBody; ctx.textAlign = 'left';
       ctx.fillText('V_m ' + mv(c.Vm), bx + 4, vy + 4);
       // 골드먼 식의 가중치 설명

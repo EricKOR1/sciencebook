@@ -84,10 +84,12 @@ Sims.register('u-motional-emf', {
       var topY = r.y + 34, botY = r.y + r.h - 26;
       // 자기장 표시 (종이에 들어가는 방향 ⊗)
       ctx.strokeStyle = T.figTeal; ctx.lineWidth = 1.2;
+      var rodY0 = topY + (botY - topY) * 0.42;
       var sp = 26, off = (s.y * 60) % sp;      // 레일을 따라 장면이 위로 흐르는 느낌
       for (var yy = topY + 30 - off; yy < botY; yy += sp) {
-        for (var xx = xl - 2 * sp + 13; xx < xr + 2 * sp; xx += sp) {
-          if (xx < r.x + 8 || xx > r.x + r.w - 8 || yy < topY + 24) continue;
+        if (yy > rodY0 - 26 && yy < rodY0 + 72) continue;
+        for (var xx = cx - Math.floor(half / sp) * sp + (Math.floor(2 * half / sp) % 2 ? sp / 2 : 0); xx < xr - 8; xx += sp) {
+          if (xx < xl + 8 || yy < topY + 24) continue;
           ctx.beginPath(); ctx.arc(xx, yy, 5, 0, Math.PI * 2); ctx.stroke();
           ctx.beginPath(); ctx.moveTo(xx - 3.2, yy - 3.2); ctx.lineTo(xx + 3.2, yy + 3.2); ctx.moveTo(xx + 3.2, yy - 3.2); ctx.lineTo(xx - 3.2, yy + 3.2); ctx.stroke();
         }
@@ -107,7 +109,7 @@ Sims.register('u-motional-emf', {
         ctx.beginPath(); ctx.moveTo(xl - 6, ty); ctx.lineTo(xl, ty); ctx.moveTo(xr, ty); ctx.lineTo(xr + 6, ty); ctx.stroke();
       }
       // 막대(화면에서는 가운데쯤에 두고 레일이 흐르게 보인다)
-      var rodY = topY + (botY - topY) * (s.t === 0 ? 0.35 : 0.6);
+      var rodY = rodY0;
       ctx.fillStyle = T.figAmber; ctx.fillRect(xl - 8, rodY - 5, 2 * half + 16, 10);
       ctx.strokeStyle = T.figInk; ctx.lineWidth = 1; ctx.strokeRect(xl - 8, rodY - 5, 2 * half + 16, 10);
       // 전류 방향(시계 반대 방향: 막대에서 오른쪽, 오른쪽 레일 위로, 저항을 지나 왼쪽 레일 아래로)
@@ -130,8 +132,8 @@ Sims.register('u-motional-emf', {
       if (Fm * fk > 3) { ctx.fillStyle = T.figGreen; ctx.textAlign = 'right'; ctx.fillText('ILB', fx - 24, rodY - 2 - Fm * fk + 10); }
       ctx.fillStyle = T.figTeal; ctx.textAlign = 'center'; ctx.font = '11px ' + T.fontBody;
       ctx.fillText('⊗ 자기장 B (종이에 들어가는 방향)', cx, r.y + r.h - 8);
-      ctx.fillStyle = T.figMuted; ctx.textAlign = 'center';
-      ctx.fillText('L = 0.25 m', cx, rodY - 12);
+      ctx.fillStyle = T.figMuted; ctx.textAlign = 'left';
+      ctx.fillText('L = 0.25 m', xl + 6, rodY - 12);
     }
     function drawGraph(T, r) {
       var L = r.x + 48, R = r.x + r.w - 14, Tp = r.y + 26, B = r.y + r.h - 40;
@@ -167,9 +169,9 @@ Sims.register('u-motional-emf', {
       ctx.fillStyle = T.figMuted; ctx.textAlign = 'left';
       ctx.fillText('자유 낙하', sx(tf * 0.5) + 6, sy(G * tf * 0.5) + 2);
       // 해석해(옅게)와 진행 곡선
-      ctx.strokeStyle = T.figSoftBlue; ctx.lineWidth = 6; ctx.beginPath();
+      ctx.strokeStyle = T.figAccent; ctx.globalAlpha = 0.22; ctx.lineWidth = 6; ctx.beginPath();
       for (var n = 0; n <= 100; n++) { var t = te * n / 100, y = sy(vt() * (1 - Math.exp(-t / tau()))); if (n === 0) ctx.moveTo(sx(t), y); else ctx.lineTo(sx(t), y); }
-      ctx.stroke();
+      ctx.stroke(); ctx.globalAlpha = 1;
       if (s.hist.length > 1) {
         ctx.strokeStyle = T.figAccent; ctx.lineWidth = 2.4; ctx.beginPath();
         s.hist.forEach(function (p, i) { if (i === 0) ctx.moveTo(sx(p[0]), sy(p[1])); else ctx.lineTo(sx(p[0]), sy(p[1])); });

@@ -39,10 +39,9 @@ Sims.register('u-free-energy-curve', {
     var loop = api.loop(function (dt) {
       if (!st.anim) return;
       var target = xiEq(), d = target - st.xi;
-      // 경사를 따라 내려가듯: 기울기에 비례해 움직이되 바닥 근처에서는 천천히
-      var v = -slope(st.xi) * 0.02;
-      var nx = st.xi + Math.max(-0.4 * dt, Math.min(0.4 * dt, v * dt * 6));
-      if ((target - nx) * d <= 0 || Math.abs(d) < 0.002) { nx = target; st.anim = false; loop.pause(); }
+      // 경사를 따라 내려가 바닥(평형)에 다가간다
+      var nx = st.xi + d * (1 - Math.exp(-2.2 * dt));
+      if (Math.abs(target - nx) < 0.002) { nx = target; st.anim = false; loop.pause(); }
       st.xi = nx; syncing = true; sXi.set(Math.min(0.99, Math.max(0.01, Math.round(nx * 100) / 100))); syncing = false;
       draw();
     });
@@ -51,7 +50,7 @@ Sims.register('u-free-energy-curve', {
     function draw() {
       var T = api.tokens(), w = cv.w, h = cv.h, narrow = w < 560;
       ctx.clearRect(0, 0, w, h);
-      var L = 62, R = w - 18, Tp = 26, B = h - (narrow ? 96 : 84);
+      var L = 62, R = w - 18, Tp = 34, B = h - 84;
       var n = 200, lo = Infinity, hi = -Infinity, i, ys = [];
       for (i = 0; i <= n; i++) { var x = i / n, gg = G(x), lin = x * st.g0; ys.push(gg); lo = Math.min(lo, gg, lin); hi = Math.max(hi, gg, lin); }
       var pad = (hi - lo) * 0.12 + 0.3; lo -= pad; hi += pad;
@@ -63,8 +62,10 @@ Sims.register('u-free-energy-curve', {
       [0, 0.25, 0.5, 0.75, 1].forEach(function (x) { ctx.fillText(x, sx(x), B + 15); });
       ctx.fillStyle = T.figInk; ctx.font = '12px ' + T.fontBody;
       ctx.fillText('반응 진행도 ξ (B의 몰분율)', (L + R) / 2, B + 31);
-      ctx.textAlign = 'left'; ctx.fillStyle = T.figBlue; ctx.fillText('순수한 A', L + 4, B + 31 + (narrow ? 16 : 0));
-      ctx.textAlign = 'right'; ctx.fillStyle = T.figAmber; ctx.fillText('순수한 B', R - 4, B + 31 + (narrow ? 16 : 0));
+      if (!narrow) {
+        ctx.textAlign = 'left'; ctx.fillStyle = T.figBlue; ctx.fillText('순수한 A', L + 4, B + 31);
+        ctx.textAlign = 'right'; ctx.fillStyle = T.figAmber; ctx.fillText('순수한 B', R - 4, B + 31);
+      }
       ctx.save(); ctx.translate(18, (Tp + B) / 2); ctx.rotate(-Math.PI / 2); ctx.textAlign = 'center'; ctx.fillStyle = T.figInk;
       ctx.fillText('G (kJ, 처음 A 1 mol 기준)', 0, 0); ctx.restore();
       // y 눈금
@@ -82,15 +83,15 @@ Sims.register('u-free-energy-curve', {
       // 끝점 G°
       ctx.fillStyle = T.figBlue; ctx.beginPath(); ctx.arc(sx(0), sy(0), 4.5, 0, 7); ctx.fill();
       ctx.fillStyle = T.figAmber; ctx.beginPath(); ctx.arc(sx(1), sy(st.g0), 4.5, 0, 7); ctx.fill();
-      ctx.font = '12px ' + T.fontBody; ctx.fillStyle = T.figInk; ctx.textAlign = 'right';
-      ctx.fillText('G°(B) − G°(A) = ΔG°', sx(1) - 8, sy(st.g0) + (st.g0 >= 0 ? -8 : 16));
+      ctx.font = '12px ' + T.fontBody; ctx.fillStyle = T.figMuted; ctx.textAlign = 'right';
+      ctx.fillText('점선: 섞이지 않을 때 · 양 끝의 높이 차 = ΔG°', R, Tp - 10);
       // 평형(최솟값)
       var xe = xiEq();
       ctx.strokeStyle = T.figGreen; ctx.setLineDash([3, 3]); ctx.lineWidth = 1.2;
       ctx.beginPath(); ctx.moveTo(sx(xe), sy(G(xe))); ctx.lineTo(sx(xe), B); ctx.stroke(); ctx.setLineDash([]);
       ctx.fillStyle = T.figGreen; ctx.beginPath(); ctx.arc(sx(xe), sy(G(xe)), 5.5, 0, 7); ctx.fill();
-      ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = xe > 0.75 ? 'right' : 'left';
-      ctx.fillText('평형: Q = K, ΔG = 0', sx(xe) + (xe > 0.75 ? -8 : 8), sy(G(xe)) + 20);
+      ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = xe > 0.6 ? 'right' : 'left';
+      ctx.fillText('평형: Q = K, ΔG = 0', sx(xe) + (xe > 0.6 ? -6 : 6), B - 7);
       // 현재 조성과 접선
       var xc = st.xi, gc = G(xc), sl = slope(xc), d = 0.14;
       var col = Math.abs(sl) < 0.05 ? T.figGreen : sl < 0 ? T.figBlue : T.figRed;

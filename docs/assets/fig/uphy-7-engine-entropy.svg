@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-labelledby="t-uphy-7-engine-entropy d-uphy-7-engine-entropy">
   <title id="t-uphy-7-engine-entropy">그림 일반물리학 7-3 열기관과 냉동기의 에너지 흐름과 엔트로피 장부</title>
-  <desc id="d-uphy-7-engine-entropy">(가) 열기관은 고온 열원에서 Q_H를 받아 일 W를 하고 저온 열원에 Q_C를 버린다. 전체 엔트로피 변화가 0 이상이어야 하므로 효율은 1 − T_C/T_H를 넘지 못한다. (나) Q_C = 0인 기관은 고온 열원의 엔트로피만 줄여 제2법칙에 어긋난다. (다) 냉동기·히트 펌프는 일을 들여 저온에서 고온으로 열을 옮긴다. 화살표 굵기는 모식적이다.</desc>
+  <desc id="d-uphy-7-engine-entropy">(가) 열기관은 고온 열원에서 열을 받아 일 W를 하고 남은 열을 저온 열원에 버린다. 두 열원의 엔트로피 변화의 합이 0 이상이어야 하므로 효율은 카르노 효율 1 − (저온 열원 온도)/(고온 열원 온도)를 넘지 못한다. (나) 저온 열원에 버리는 열이 0인 기관은 고온 열원의 엔트로피만 줄여 제2법칙에 어긋난다. (다) 냉동기·히트 펌프는 일을 들여 저온에서 고온으로 열을 옮긴다. 화살표 굵기는 모식적이다.</desc>
   <style>.uphy-7-engine-entropy-t{font-size:14px;fill:var(--fig-ink)} .uphy-7-engine-entropy-b{font-size:14px;fill:var(--fig-ink);font-weight:700} .uphy-7-engine-entropy-s{font-size:13px;fill:var(--fig-muted)} .uphy-7-engine-entropy-hot{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5} .uphy-7-engine-entropy-cold{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5} .uphy-7-engine-entropy-eng{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2}</style>
   <rect x="12" y="10" width="224" height="370" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
   <text x="124" y="34" text-anchor="middle" class="uphy-7-engine-entropy-b">(가) 열기관</text>

@@ -114,7 +114,7 @@ Sims.register('u-maxwell-speed', {
 
       var vm = a * Math.sqrt(4 / Math.PI), vr = a * Math.sqrt(1.5), K = 1.5 * KB * st.T;
       rVp.set(Math.round(a) + ' m/s'); rVm.set(Math.round(vm) + ' m/s'); rVr.set(Math.round(vr) + ' m/s');
-      rK.set((K * 1e21).toFixed(2) + '×10⁻²¹ J (' + (K / EV).toFixed(3) + ' eV)');
+      var ke = Math.floor(Math.log10(K)); rK.set((K / Math.pow(10, ke)).toFixed(2) + '×10' + sup(ke) + ' J (' + (K / EV).toFixed(3) + ' eV)');
       rF.set(fmtPct(tail(st.vs, a)));
     }
     function sup(n) { var m = { '-': '⁻', 0: '⁰', 1: '¹', 2: '²', 3: '³', 4: '⁴', 5: '⁵', 6: '⁶', 7: '⁷', 8: '⁸', 9: '⁹' }; return String(n).split('').map(function (c) { return m[c]; }).join(''); }

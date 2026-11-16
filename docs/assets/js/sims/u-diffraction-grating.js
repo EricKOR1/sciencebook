@@ -112,9 +112,10 @@ Sims.register('u-diffraction-grating', {
       ctx.setLineDash([5, 4]); ctx.strokeStyle = T.figRed; ctx.lineWidth = 1.6; ctx.beginPath();
       for (var p4 = 0; p4 <= R - L; p4 += 2) { var x4 = -XM + p4 / (R - L) * 2 * XM; if (p4 === 0) ctx.moveTo(L + p4, syy(env(x4))); else ctx.lineTo(L + p4, syy(env(x4))); }
       ctx.stroke(); ctx.setLineDash([]);
-      ctx.fillStyle = T.figRed; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right';
+      ctx.fillStyle = T.figRed; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
       var ez = lam / s.a;
-      ctx.fillText('점선: 회절 봉투 (첫 어두운 곳 sinθ = λ/a = ' + (ez < 1 ? ez.toFixed(2) : '>1') + ')', R, Tp + 14);
+      ctx.fillText('점선: 회절 봉투', L + 4, Tp + 12);
+      ctx.fillText('λ/a = ' + (ez < 1 ? ez.toFixed(2) : '1 이상'), L + 4, Tp + 26);
     }
     api.onResize(draw);
     update();
