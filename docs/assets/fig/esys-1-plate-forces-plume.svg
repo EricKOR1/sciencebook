@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-esys-1-plate-forces-plume d-esys-1-plate-forces-plume">
+  <title id="t-esys-1-plate-forces-plume">그림 지구시스템과학 1-2 판을 움직이는 힘과 플룸</title>
+  <desc id="d-esys-1-plate-forces-plume">해령에서 미는 힘과 해구에서 섭입하는 판이 당기는 힘이 판을 움직이고, 섭입한 판은 상부·하부 맨틀 경계에 쌓였다가 차가운 플룸으로 가라앉으며, 맨틀–핵 경계에서 올라오는 뜨거운 플룸은 판 한가운데에 열점 화산을 만든다.</desc>
+  <style>
+    .esys-1-plate-forces-plume-t{font-size:13px;fill:var(--fig-ink)}
+    .esys-1-plate-forces-plume-b{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .esys-1-plate-forces-plume-s{font-size:13px;fill:var(--fig-muted)}
+    .esys-1-plate-forces-plume-r{font-size:13px;font-weight:600;fill:var(--fig-red)}
+    .esys-1-plate-forces-plume-u{font-size:13px;font-weight:600;fill:var(--fig-blue)}
+  </style>
+  <!-- 맨틀 바탕 -->
+  <rect x="20" y="70" width="680" height="226" style="fill:var(--fig-soft-amber);stroke:none"/>
+  <!-- 외핵 -->
+  <rect x="20" y="296" width="680" height="34" style="fill:var(--fig-soft-violet);stroke:none"/>
+  <line x1="20" y1="296" x2="700" y2="296" style="stroke:var(--fig-violet);stroke-width:1.5"/>
+  <text x="30" y="318" class="esys-1-plate-forces-plume-t">외핵</text>
+  <text x="690" y="318" text-anchor="end" class="esys-1-plate-forces-plume-s">맨틀–핵 경계(약 2900 km)</text>
+  <!-- 660 km 경계 -->
+  <line x1="20" y1="150" x2="700" y2="150" style="stroke:var(--fig-line);stroke-width:1.5;stroke-dasharray:6 4"/>
+  <text x="30" y="144" class="esys-1-plate-forces-plume-s">상부 맨틀</text>
+  <text x="30" y="168" class="esys-1-plate-forces-plume-s">하부 맨틀</text>
+  <text x="690" y="144" text-anchor="end" class="esys-1-plate-forces-plume-s">약 660 km</text>
+  <!-- 해양판(해령 → 해구) -->
+  <path d="M20 66 L110 60 L140 50 L170 60 L400 70 L400 84 L170 74 L140 64 L110 74 L20 80 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <!-- 섭입하는 판 -->
+  <path d="M400 70 Q432 74 470 140 L566 146 L566 160 L462 156 Q424 92 400 84 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <!-- 대륙판 -->
+  <path d="M404 66 L420 58 L460 52 L700 52 L700 86 L470 86 L432 80 Z" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <text x="600" y="74" class="esys-1-plate-forces-plume-t">대륙판</text>
+  <path d="M470 52 L480 38 L490 52 Z" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <text x="400" y="104" text-anchor="middle" class="esys-1-plate-forces-plume-s">해구</text>
+  <text x="140" y="40" text-anchor="middle" class="esys-1-plate-forces-plume-b">해령</text>
+  <!-- 차가운 플룸 -->
+  <path d="M548 160 C552 210 540 250 548 292 L590 292 C596 250 584 210 566 160 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <path d="M568 196 v58" style="stroke:var(--fig-blue);stroke-width:3;fill:none"/><path d="M568 266 l-7 -12 h14 z" style="fill:var(--fig-blue)"/>
+  <text x="604" y="226" class="esys-1-plate-forces-plume-u">차가운 플룸</text>
+  <text x="604" y="244" class="esys-1-plate-forces-plume-s">쌓인 판이 무거워져</text>
+  <text x="604" y="260" class="esys-1-plate-forces-plume-s">가라앉음</text>
+  <!-- 뜨거운 플룸 -->
+  <path d="M270 292 C276 240 280 160 276 104 C258 100 246 92 250 84 L322 84 C326 92 314 100 296 104 C292 160 296 240 302 292 Z" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <path d="M286 270 v-130" style="stroke:var(--fig-red);stroke-width:3;fill:none"/><path d="M286 128 l-7 12 h14 z" style="fill:var(--fig-red)"/>
+  <text x="312" y="214" class="esys-1-plate-forces-plume-r">뜨거운 플룸</text>
+  <text x="312" y="232" class="esys-1-plate-forces-plume-s">맨틀–핵 경계에서 상승</text>
+  <!-- 열점 화산 -->
+  <path d="M272 64 L286 46 L300 65 Z" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <text x="286" y="34" text-anchor="middle" class="esys-1-plate-forces-plume-b">열점 화산</text>
+  <!-- 해령에서 미는 힘 -->
+  <path d="M158 92 h34" style="stroke:var(--fig-ink);stroke-width:2.5;fill:none"/><path d="M202 92 l-11 -6 v12 z" style="fill:var(--fig-ink)"/>
+  <path d="M122 92 h-34" style="stroke:var(--fig-ink);stroke-width:2.5;fill:none"/><path d="M78 92 l11 -6 v12 z" style="fill:var(--fig-ink)"/>
+  <text x="140" y="118" text-anchor="middle" class="esys-1-plate-forces-plume-t">해령에서 미는 힘</text>
+  <!-- 섭입하는 판이 당기는 힘 -->
+  <path d="M432 100 L452 132" style="stroke:var(--fig-ink);stroke-width:3;fill:none"/><path d="M458 142 l-12 -6 l10 -7 z" style="fill:var(--fig-ink)"/>
+  <text x="474" y="118" class="esys-1-plate-forces-plume-b">섭입하는 판이 당기는 힘</text>
+  <text x="474" y="136" class="esys-1-plate-forces-plume-s">(가장 큰 힘)</text>
+  <!-- 판 이동 -->
+  <path d="M330 60 h40" style="stroke:var(--fig-blue);stroke-width:2;fill:none"/><path d="M378 60 l-9 -5 v10 z" style="fill:var(--fig-blue)"/>
+  <text x="350" y="50" text-anchor="middle" class="esys-1-plate-forces-plume-s">판의 이동</text>
+  <text x="360" y="352" text-anchor="middle" class="esys-1-plate-forces-plume-s">모식도 — 깊이와 두께는 실제 비율과 다르다</text>
+</svg>
