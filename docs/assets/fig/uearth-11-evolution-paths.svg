@@ -7,75 +7,75 @@
     .uearth-11-evolution-paths-s{font-size:12px;fill:var(--fig-muted)}
   </style>
   <defs><marker id="uearth-11-evolution-paths-ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" style="fill:var(--fig-muted)"/></marker></defs>
-  <text x="204.0" y="24" text-anchor="middle" class="uearth-11-evolution-paths-s" style="font-weight:600">주계열</text>
-  <text x="360.0" y="24" text-anchor="middle" class="uearth-11-evolution-paths-s" style="font-weight:600">거성·초거성</text>
-  <text x="507.0" y="24" text-anchor="middle" class="uearth-11-evolution-paths-s" style="font-weight:600">마지막 사건</text>
-  <text x="648.0" y="24" text-anchor="middle" class="uearth-11-evolution-paths-s" style="font-weight:600">남는 천체</text>
+  <text x="201.0" y="24" text-anchor="middle" class="uearth-11-evolution-paths-s" style="font-weight:600">주계열</text>
+  <text x="351.0" y="24" text-anchor="middle" class="uearth-11-evolution-paths-s" style="font-weight:600">거성·초거성</text>
+  <text x="492.0" y="24" text-anchor="middle" class="uearth-11-evolution-paths-s" style="font-weight:600">마지막 사건</text>
+  <text x="636.0" y="24" text-anchor="middle" class="uearth-11-evolution-paths-s" style="font-weight:600">남는 천체</text>
   <rect x="10" y="40" width="120" height="56" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.2"/>
   <text x="70" y="73" text-anchor="middle" class="uearth-11-evolution-paths-h">약 0.5 M☉ 미만</text>
   <line x1="132" y1="68.0" x2="137" y2="68.0" style="stroke:var(--fig-muted);stroke-width:1.4" marker-end="url(#uearth-11-evolution-paths-ar)"/>
-  <rect x="140" y="40" width="128" height="56" rx="8" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.4"/>
-  <text x="204.0" y="64" text-anchor="middle" class="uearth-11-evolution-paths-h">주계열 수백억 년 이상</text>
-  <text x="204.0" y="82" text-anchor="middle" class="uearth-11-evolution-paths-s">우주 나이보다 길다</text>
-  <line x1="270" y1="68.0" x2="581" y2="68.0" style="stroke:var(--fig-muted);stroke-width:1.4;stroke-dasharray:4 4" marker-end="url(#uearth-11-evolution-paths-ar)"/>
-  <rect x="584" y="40" width="128" height="56" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.4;stroke-dasharray:5 4"/>
-  <text x="648.0" y="64" text-anchor="middle" class="uearth-11-evolution-paths-h">아직 진화를 끝낸</text>
-  <text x="648.0" y="82" text-anchor="middle" class="uearth-11-evolution-paths-s">별이 없다</text>
+  <rect x="140" y="40" width="122" height="56" rx="8" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.4"/>
+  <text x="201.0" y="64" text-anchor="middle" class="uearth-11-evolution-paths-h">주계열 수백억 년 이상</text>
+  <text x="201.0" y="82" text-anchor="middle" class="uearth-11-evolution-paths-s">우주 나이보다 길다</text>
+  <line x1="264" y1="68.0" x2="557" y2="68.0" style="stroke:var(--fig-muted);stroke-width:1.4;stroke-dasharray:4 4" marker-end="url(#uearth-11-evolution-paths-ar)"/>
+  <rect x="560" y="40" width="152" height="56" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.4;stroke-dasharray:5 4"/>
+  <text x="636.0" y="64" text-anchor="middle" class="uearth-11-evolution-paths-h">아직 진화를 끝낸</text>
+  <text x="636.0" y="82" text-anchor="middle" class="uearth-11-evolution-paths-s">별이 없다</text>
   <rect x="10" y="110" width="120" height="56" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.2"/>
   <text x="70" y="134" text-anchor="middle" class="uearth-11-evolution-paths-h">약 0.5~8 M☉</text>
   <text x="70" y="152" text-anchor="middle" class="uearth-11-evolution-paths-s">태양 등</text>
   <line x1="132" y1="138.0" x2="137" y2="138.0" style="stroke:var(--fig-muted);stroke-width:1.4" marker-end="url(#uearth-11-evolution-paths-ar)"/>
-  <rect x="140" y="110" width="128" height="56" rx="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.4"/>
-  <text x="204.0" y="134" text-anchor="middle" class="uearth-11-evolution-paths-h">주계열</text>
-  <text x="204.0" y="152" text-anchor="middle" class="uearth-11-evolution-paths-s">1 M☉: 약 100억 년</text>
-  <line x1="270" y1="138.0" x2="287" y2="138.0" style="stroke:var(--fig-muted);stroke-width:1.4" marker-end="url(#uearth-11-evolution-paths-ar)"/>
-  <rect x="290" y="110" width="140" height="56" rx="8" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.4"/>
-  <text x="360.0" y="134" text-anchor="middle" class="uearth-11-evolution-paths-h">적색 거성 → He 핵융합</text>
-  <text x="360.0" y="152" text-anchor="middle" class="uearth-11-evolution-paths-s">→ 점근 거성 가지</text>
-  <line x1="432" y1="138.0" x2="449" y2="138.0" style="stroke:var(--fig-muted);stroke-width:1.4" marker-end="url(#uearth-11-evolution-paths-ar)"/>
-  <rect x="452" y="110" width="110" height="56" rx="8" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.4"/>
-  <text x="507.0" y="134" text-anchor="middle" class="uearth-11-evolution-paths-h">행성상 성운</text>
-  <text x="507.0" y="152" text-anchor="middle" class="uearth-11-evolution-paths-s">외피가 날아감</text>
-  <line x1="564" y1="138.0" x2="581" y2="138.0" style="stroke:var(--fig-muted);stroke-width:1.4" marker-end="url(#uearth-11-evolution-paths-ar)"/>
-  <rect x="584" y="110" width="128" height="56" rx="8" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.4"/>
-  <text x="648.0" y="134" text-anchor="middle" class="uearth-11-evolution-paths-h">백색 왜성</text>
-  <text x="648.0" y="152" text-anchor="middle" class="uearth-11-evolution-paths-s">≤ 1.4 M☉, 지구 크기</text>
+  <rect x="140" y="110" width="122" height="56" rx="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.4"/>
+  <text x="201.0" y="134" text-anchor="middle" class="uearth-11-evolution-paths-h">주계열</text>
+  <text x="201.0" y="152" text-anchor="middle" class="uearth-11-evolution-paths-s">1 M☉: 약 100억 년</text>
+  <line x1="264" y1="138.0" x2="275" y2="138.0" style="stroke:var(--fig-muted);stroke-width:1.4" marker-end="url(#uearth-11-evolution-paths-ar)"/>
+  <rect x="278" y="110" width="146" height="56" rx="8" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.4"/>
+  <text x="351.0" y="134" text-anchor="middle" class="uearth-11-evolution-paths-h">적색 거성 → He 핵융합</text>
+  <text x="351.0" y="152" text-anchor="middle" class="uearth-11-evolution-paths-s">→ 점근 거성 가지</text>
+  <line x1="426" y1="138.0" x2="437" y2="138.0" style="stroke:var(--fig-muted);stroke-width:1.4" marker-end="url(#uearth-11-evolution-paths-ar)"/>
+  <rect x="440" y="110" width="104" height="56" rx="8" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.4"/>
+  <text x="492.0" y="134" text-anchor="middle" class="uearth-11-evolution-paths-h">행성상 성운</text>
+  <text x="492.0" y="152" text-anchor="middle" class="uearth-11-evolution-paths-s">외피가 날아감</text>
+  <line x1="546" y1="138.0" x2="557" y2="138.0" style="stroke:var(--fig-muted);stroke-width:1.4" marker-end="url(#uearth-11-evolution-paths-ar)"/>
+  <rect x="560" y="110" width="152" height="56" rx="8" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.4"/>
+  <text x="636.0" y="134" text-anchor="middle" class="uearth-11-evolution-paths-h">백색 왜성</text>
+  <text x="636.0" y="152" text-anchor="middle" class="uearth-11-evolution-paths-s">≤ 1.4 M☉, 지구 크기</text>
   <rect x="10" y="180" width="120" height="56" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.2"/>
   <text x="70" y="213" text-anchor="middle" class="uearth-11-evolution-paths-h">약 8~20(25) M☉</text>
   <line x1="132" y1="208.0" x2="137" y2="208.0" style="stroke:var(--fig-muted);stroke-width:1.4" marker-end="url(#uearth-11-evolution-paths-ar)"/>
-  <rect x="140" y="180" width="128" height="56" rx="8" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.4"/>
-  <text x="204.0" y="204" text-anchor="middle" class="uearth-11-evolution-paths-h">주계열</text>
-  <text x="204.0" y="222" text-anchor="middle" class="uearth-11-evolution-paths-s">10 M☉: 약 3200만 년</text>
-  <line x1="270" y1="208.0" x2="287" y2="208.0" style="stroke:var(--fig-muted);stroke-width:1.4" marker-end="url(#uearth-11-evolution-paths-ar)"/>
-  <rect x="290" y="180" width="140" height="56" rx="8" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.4"/>
-  <text x="360.0" y="204" text-anchor="middle" class="uearth-11-evolution-paths-h">적색 초거성</text>
-  <text x="360.0" y="222" text-anchor="middle" class="uearth-11-evolution-paths-s">C·Ne·O·Si 핵융합→철 핵</text>
-  <line x1="432" y1="208.0" x2="449" y2="208.0" style="stroke:var(--fig-muted);stroke-width:1.4" marker-end="url(#uearth-11-evolution-paths-ar)"/>
-  <rect x="452" y="180" width="110" height="56" rx="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.4"/>
-  <text x="507.0" y="204" text-anchor="middle" class="uearth-11-evolution-paths-h">핵붕괴 초신성</text>
-  <text x="507.0" y="222" text-anchor="middle" class="uearth-11-evolution-paths-s">Ⅱ형 등</text>
-  <line x1="564" y1="208.0" x2="581" y2="208.0" style="stroke:var(--fig-muted);stroke-width:1.4" marker-end="url(#uearth-11-evolution-paths-ar)"/>
-  <rect x="584" y="180" width="128" height="56" rx="8" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.4"/>
-  <text x="648.0" y="204" text-anchor="middle" class="uearth-11-evolution-paths-h">중성자별</text>
-  <text x="648.0" y="222" text-anchor="middle" class="uearth-11-evolution-paths-s">1.4~2 M☉, 약 10~15 km</text>
+  <rect x="140" y="180" width="122" height="56" rx="8" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.4"/>
+  <text x="201.0" y="204" text-anchor="middle" class="uearth-11-evolution-paths-h">주계열</text>
+  <text x="201.0" y="222" text-anchor="middle" class="uearth-11-evolution-paths-s">10 M☉: 약 3200만 년</text>
+  <line x1="264" y1="208.0" x2="275" y2="208.0" style="stroke:var(--fig-muted);stroke-width:1.4" marker-end="url(#uearth-11-evolution-paths-ar)"/>
+  <rect x="278" y="180" width="146" height="56" rx="8" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.4"/>
+  <text x="351.0" y="204" text-anchor="middle" class="uearth-11-evolution-paths-h">적색 초거성</text>
+  <text x="351.0" y="222" text-anchor="middle" class="uearth-11-evolution-paths-s">C·Ne·O·Si 핵융합→철 핵</text>
+  <line x1="426" y1="208.0" x2="437" y2="208.0" style="stroke:var(--fig-muted);stroke-width:1.4" marker-end="url(#uearth-11-evolution-paths-ar)"/>
+  <rect x="440" y="180" width="104" height="56" rx="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.4"/>
+  <text x="492.0" y="204" text-anchor="middle" class="uearth-11-evolution-paths-h">핵붕괴 초신성</text>
+  <text x="492.0" y="222" text-anchor="middle" class="uearth-11-evolution-paths-s">Ⅱ형 등</text>
+  <line x1="546" y1="208.0" x2="557" y2="208.0" style="stroke:var(--fig-muted);stroke-width:1.4" marker-end="url(#uearth-11-evolution-paths-ar)"/>
+  <rect x="560" y="180" width="152" height="56" rx="8" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.4"/>
+  <text x="636.0" y="204" text-anchor="middle" class="uearth-11-evolution-paths-h">중성자별</text>
+  <text x="636.0" y="222" text-anchor="middle" class="uearth-11-evolution-paths-s">1.4~2 M☉, 10~15 km</text>
   <rect x="10" y="250" width="120" height="56" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.2"/>
   <text x="70" y="283" text-anchor="middle" class="uearth-11-evolution-paths-h">더 무거운 별의 일부</text>
   <line x1="132" y1="278.0" x2="137" y2="278.0" style="stroke:var(--fig-muted);stroke-width:1.4" marker-end="url(#uearth-11-evolution-paths-ar)"/>
-  <rect x="140" y="250" width="128" height="56" rx="8" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.4"/>
-  <text x="204.0" y="274" text-anchor="middle" class="uearth-11-evolution-paths-h">주계열</text>
-  <text x="204.0" y="292" text-anchor="middle" class="uearth-11-evolution-paths-s">25 M☉: 약 320만 년</text>
-  <line x1="270" y1="278.0" x2="287" y2="278.0" style="stroke:var(--fig-muted);stroke-width:1.4" marker-end="url(#uearth-11-evolution-paths-ar)"/>
-  <rect x="290" y="250" width="140" height="56" rx="8" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.4"/>
-  <text x="360.0" y="274" text-anchor="middle" class="uearth-11-evolution-paths-h">초거성</text>
-  <text x="360.0" y="292" text-anchor="middle" class="uearth-11-evolution-paths-s">철 핵까지 핵융합</text>
-  <line x1="432" y1="278.0" x2="449" y2="278.0" style="stroke:var(--fig-muted);stroke-width:1.4" marker-end="url(#uearth-11-evolution-paths-ar)"/>
-  <rect x="452" y="250" width="110" height="56" rx="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.4"/>
-  <text x="507.0" y="274" text-anchor="middle" class="uearth-11-evolution-paths-h">핵붕괴</text>
-  <text x="507.0" y="292" text-anchor="middle" class="uearth-11-evolution-paths-s">(초신성)</text>
-  <line x1="564" y1="278.0" x2="581" y2="278.0" style="stroke:var(--fig-muted);stroke-width:1.4" marker-end="url(#uearth-11-evolution-paths-ar)"/>
-  <rect x="584" y="250" width="128" height="56" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-ink);stroke-width:1.4"/>
-  <text x="648.0" y="274" text-anchor="middle" class="uearth-11-evolution-paths-h">블랙홀</text>
-  <text x="648.0" y="292" text-anchor="middle" class="uearth-11-evolution-paths-s">약 3 M☉ 이상, Rs = 2GM/c²</text>
+  <rect x="140" y="250" width="122" height="56" rx="8" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.4"/>
+  <text x="201.0" y="274" text-anchor="middle" class="uearth-11-evolution-paths-h">주계열</text>
+  <text x="201.0" y="292" text-anchor="middle" class="uearth-11-evolution-paths-s">25 M☉: 약 320만 년</text>
+  <line x1="264" y1="278.0" x2="275" y2="278.0" style="stroke:var(--fig-muted);stroke-width:1.4" marker-end="url(#uearth-11-evolution-paths-ar)"/>
+  <rect x="278" y="250" width="146" height="56" rx="8" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.4"/>
+  <text x="351.0" y="274" text-anchor="middle" class="uearth-11-evolution-paths-h">초거성</text>
+  <text x="351.0" y="292" text-anchor="middle" class="uearth-11-evolution-paths-s">철 핵까지 핵융합</text>
+  <line x1="426" y1="278.0" x2="437" y2="278.0" style="stroke:var(--fig-muted);stroke-width:1.4" marker-end="url(#uearth-11-evolution-paths-ar)"/>
+  <rect x="440" y="250" width="104" height="56" rx="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.4"/>
+  <text x="492.0" y="274" text-anchor="middle" class="uearth-11-evolution-paths-h">핵붕괴</text>
+  <text x="492.0" y="292" text-anchor="middle" class="uearth-11-evolution-paths-s">(초신성)</text>
+  <line x1="546" y1="278.0" x2="557" y2="278.0" style="stroke:var(--fig-muted);stroke-width:1.4" marker-end="url(#uearth-11-evolution-paths-ar)"/>
+  <rect x="560" y="250" width="152" height="56" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-ink);stroke-width:1.4"/>
+  <text x="636.0" y="274" text-anchor="middle" class="uearth-11-evolution-paths-h">블랙홀</text>
+  <text x="636.0" y="292" text-anchor="middle" class="uearth-11-evolution-paths-s">약 3 M☉ 이상</text>
   <text x="10" y="342" class="uearth-11-evolution-paths-h">무거운 별의 마지막 단계 — 양파 껍질 구조(모식도)</text>
   <path d="M28 478 A112 112 0 0 1 252 478 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:1"/>
   <path d="M46 478 A94 94 0 0 1 234 478 Z" style="fill:var(--fig-soft-teal);stroke:var(--fig-line);stroke-width:1"/>

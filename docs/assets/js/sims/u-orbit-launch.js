@@ -6,7 +6,7 @@ Sims.register('u-orbit-launch', {
     var RP = 0.5, VIEW = 3.1, PERIOD_SCREEN = 4;   // 행성 반지름(r₀ 단위), 화면 반경, 원 궤도 한 바퀴 = 4초
     var VC_KM = 7.91 / Math.SQRT2;                   // r₀ = 2R_E일 때 원 궤도 속력(km/s)
     var st = { v: 1.2, gam: 0, path: null, t: 0, flying: false, ghosts: [] };
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.62 : 0.6; }, label: '행성 둘레의 궤도와 퍼텐셜 에너지 그래프' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.8 : 0.6; }, label: '행성 둘레의 궤도와 퍼텐셜 에너지 그래프' });
     var ctx = cv.ctx;
     var rType = api.readout('궤도');
     var rE = api.readout('E (GMm/r₀ 단위)');
@@ -132,7 +132,7 @@ Sims.register('u-orbit-launch', {
       ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
       ctx.fillText('점선: 원 궤도(v₀ = v원)', ob.x + 6, ob.y + ob.h - 8);
       // 에너지 그래프
-      var L0 = eb.x + 46, R0 = eb.x + eb.w - 12, T0 = eb.y + 30, B0 = eb.y + eb.h - 36;
+      var L0 = eb.x + 46, R0 = eb.x + eb.w - 12, T0 = eb.y + 30, B0 = eb.y + eb.h - 40;
       var rmax = 6, ymin = -2.1, ymax = 0.9;
       function ex(r) { return L0 + (r / rmax) * (R0 - L0); } function ey(u) { return T0 + (ymax - u) / (ymax - ymin) * (B0 - T0); }
       ctx.strokeStyle = T.figInk; ctx.lineWidth = 1.2;
@@ -141,8 +141,9 @@ Sims.register('u-orbit-launch', {
       ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontMono; ctx.textAlign = 'right';
       [-2, -1, 0].forEach(function (u) { ctx.fillText(String(u), L0 - 6, ey(u) + 4); });
       ctx.textAlign = 'center';
-      [1, 2, 4, 6].forEach(function (r) { ctx.fillText(String(r), ex(r), ey(0) + 14); });
-      ctx.font = '11px ' + T.fontBody; ctx.fillText('r / r₀', (L0 + R0) / 2, B0 + 26);
+      ctx.strokeStyle = T.rule; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(L0, B0); ctx.lineTo(R0, B0); ctx.stroke();
+      [0.5, 1, 2, 4, 6].forEach(function (r) { ctx.fillText(String(r), ex(r), B0 + 14); });
+      ctx.font = '11px ' + T.fontBody; ctx.fillText('행성 중심에서의 거리 r / r₀', (L0 + R0) / 2, B0 + 28);
       ctx.fillStyle = T.figInk; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'left';
       ctx.fillText('에너지 (GMm/r₀ 단위)', eb.x + 6, eb.y + 16);
       // 행성 내부 음영
@@ -162,8 +163,8 @@ Sims.register('u-orbit-launch', {
       ctx.beginPath(); ctx.moveTo(ex(1), ey(-1)); ctx.lineTo(ex(1), ey(E)); ctx.stroke();
       ctx.fillStyle = T.figGreen; ctx.textAlign = 'left'; ctx.font = '12px ' + T.fontBody;
       ctx.fillText('K', ex(1) + 6, (ey(-1) + ey(E)) / 2 + 4);
-      ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
-      ctx.fillText(E < 0 ? 'E < 0: 묶인 궤도' : 'E ≥ 0: 무한히 멀리 갈 수 있다', L0 + 6, B0 - 6);
+      ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right';
+      ctx.fillText(E < 0 ? 'E < 0: 묶인 궤도' : 'E ≥ 0: 무한히 멀리 갈 수 있다', R0, B0 - 8);
 
       function strokePath(pts, c, lw) {
         ctx.beginPath(); ctx.moveTo(X(pts[0][0]), Y(pts[0][1]));
