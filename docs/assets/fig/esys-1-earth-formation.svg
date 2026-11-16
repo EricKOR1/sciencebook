@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-labelledby="t-esys-1-earth-formation d-esys-1-earth-formation">
+  <title id="t-esys-1-earth-formation">그림 지구시스템과학 1-1 원시 지구의 형성과 층상 분화</title>
+  <desc id="d-esys-1-earth-formation">원시 태양계 성운에서 알갱이가 응축하고, 미행성이 충돌·병합해 원시 지구가 되며, 마그마 바다에서 철이 가라앉아 핵·맨틀·지각으로 분화하고 원시 대기와 바다가 생기는 과정을 네 단계로 나타낸 모식도이다.</desc>
+  <style>
+    .esys-1-earth-formation-h{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .esys-1-earth-formation-t{font-size:13px;fill:var(--fig-ink)}
+    .esys-1-earth-formation-s{font-size:13px;fill:var(--fig-muted)}
+    .esys-1-earth-formation-ar{fill:var(--fig-muted)}
+  </style>
+  <!-- 단계 사이 화살표 -->
+  <g>
+    <path d="M168 150 h18" style="fill:none;stroke:var(--fig-muted);stroke-width:2"/><path d="M194 150 l-9 -5 v10 z" class="esys-1-earth-formation-ar"/>
+    <path d="M348 150 h18" style="fill:none;stroke:var(--fig-muted);stroke-width:2"/><path d="M374 150 l-9 -5 v10 z" class="esys-1-earth-formation-ar"/>
+    <path d="M528 150 h18" style="fill:none;stroke:var(--fig-muted);stroke-width:2"/><path d="M554 150 l-9 -5 v10 z" class="esys-1-earth-formation-ar"/>
+  </g>
+  <!-- ① 응축 -->
+  <text x="88" y="28" text-anchor="middle" class="esys-1-earth-formation-h">① 응축</text>
+  <ellipse cx="88" cy="150" rx="78" ry="34" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <ellipse cx="88" cy="150" rx="46" ry="20" style="fill:none;stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:4 3"/>
+  <circle cx="88" cy="150" r="9" style="fill:var(--fig-amber);stroke:var(--fig-red);stroke-width:1"/>
+  <g style="fill:var(--fig-red)">
+    <circle cx="66" cy="146" r="2.5"/><circle cx="108" cy="156" r="2.5"/><circle cx="76" cy="160" r="2.5"/><circle cx="102" cy="141" r="2.5"/><circle cx="114" cy="148" r="2.5"/><circle cx="60" cy="155" r="2.5"/>
+  </g>
+  <g style="fill:var(--fig-blue)">
+    <circle cx="30" cy="148" r="2.5"/><circle cx="146" cy="152" r="2.5"/><circle cx="40" cy="164" r="2.5"/><circle cx="138" cy="138" r="2.5"/><circle cx="128" cy="168" r="2.5"/><circle cx="46" cy="133" r="2.5"/><circle cx="156" cy="146" r="2.5"/>
+  </g>
+  <text x="88" y="90" text-anchor="middle" class="esys-1-earth-formation-s">원시 태양계 성운(원반)</text>
+  <line x1="122" y1="166" x2="132" y2="204" style="stroke:var(--fig-blue);stroke-width:1"/>
+  <text x="132" y="220" text-anchor="middle" class="esys-1-earth-formation-s">설선</text>
+  <circle cx="22" cy="246" r="4" style="fill:var(--fig-red)"/><text x="32" y="251" class="esys-1-earth-formation-t">금속·규산염</text>
+  <circle cx="22" cy="268" r="4" style="fill:var(--fig-blue)"/><text x="32" y="273" class="esys-1-earth-formation-t">얼음(설선 바깥)</text>
+  <!-- ② 집적 -->
+  <text x="268" y="28" text-anchor="middle" class="esys-1-earth-formation-h">② 집적</text>
+  <circle cx="268" cy="150" r="34" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <g style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5">
+    <circle cx="214" cy="96" r="9"/><circle cx="326" cy="104" r="11"/><circle cx="318" cy="206" r="8"/><circle cx="212" cy="198" r="10"/>
+  </g>
+  <g style="stroke:var(--fig-muted);stroke-width:1.5;fill:none">
+    <path d="M222 104 L240 124"/><path d="M316 112 L298 128"/><path d="M312 200 L296 180"/><path d="M220 192 L238 174"/>
+  </g>
+  <path d="M248 140 l6 -6 l4 8 l6 -6" style="fill:none;stroke:var(--fig-red);stroke-width:2"/>
+  <text x="268" y="250" text-anchor="middle" class="esys-1-earth-formation-t">미행성이 충돌·병합</text>
+  <text x="268" y="270" text-anchor="middle" class="esys-1-earth-formation-s">충돌열 → 표면이 녹음</text>
+  <!-- ③ 마그마 바다와 분화 -->
+  <text x="448" y="28" text-anchor="middle" class="esys-1-earth-formation-h">③ 마그마 바다·분화</text>
+  <circle cx="448" cy="150" r="62" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <circle cx="448" cy="150" r="40" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1;stroke-dasharray:3 3"/>
+  <circle cx="448" cy="150" r="14" style="fill:var(--fig-muted)"/>
+  <g style="fill:var(--fig-ink)">
+    <circle cx="420" cy="112" r="3.5"/><circle cx="482" cy="122" r="3.5"/><circle cx="474" cy="184" r="3.5"/><circle cx="416" cy="178" r="3.5"/>
+  </g>
+  <g style="stroke:var(--fig-ink);stroke-width:1.5;fill:none">
+    <path d="M423 117 L434 133"/><path d="M478 127 L466 138"/><path d="M470 179 L460 168"/><path d="M420 173 L432 164"/>
+  </g>
+  <text x="448" y="232" text-anchor="middle" class="esys-1-earth-formation-t">● 철이 가라앉아 핵으로</text>
+  <text x="448" y="252" text-anchor="middle" class="esys-1-earth-formation-s">가벼운 규산염은 떠오름</text>
+  <text x="448" y="272" text-anchor="middle" class="esys-1-earth-formation-s">바깥: 마그마 바다</text>
+  <!-- ④ 층상 구조와 권역 -->
+  <text x="634" y="28" text-anchor="middle" class="esys-1-earth-formation-h">④ 층상 구조·권역</text>
+  <circle cx="626" cy="150" r="72" style="fill:none;stroke:var(--fig-teal);stroke-width:1.5;stroke-dasharray:5 4"/>
+  <circle cx="626" cy="150" r="60" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:3"/>
+  <circle cx="626" cy="150" r="56" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1"/>
+  <circle cx="626" cy="150" r="30" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1"/>
+  <circle cx="626" cy="150" r="12" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1"/>
+  <path d="M582 110 A60 60 0 0 1 610 92" style="fill:none;stroke:var(--fig-blue);stroke-width:5"/>
+  <text x="626" y="155" text-anchor="middle" class="esys-1-earth-formation-t">핵</text>
+  <text x="626" y="113" text-anchor="middle" class="esys-1-earth-formation-t">맨틀</text>
+  <text x="570" y="86" text-anchor="end" class="esys-1-earth-formation-s">원시 바다</text>
+  <text x="626" y="246" text-anchor="middle" class="esys-1-earth-formation-t">지각(얇은 바깥층)</text>
+  <text x="626" y="266" text-anchor="middle" class="esys-1-earth-formation-s">원시 대기: H₂O·CO₂·N₂</text>
+  <text x="626" y="284" text-anchor="middle" class="esys-1-earth-formation-s">(산소 기체 거의 없음)</text>
+  <text x="360" y="310" text-anchor="middle" class="esys-1-earth-formation-s">모식도 — 크기와 거리, 층의 두께는 실제 비율과 다르다</text>
+</svg>
