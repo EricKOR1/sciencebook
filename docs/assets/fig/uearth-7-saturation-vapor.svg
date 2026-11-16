@@ -51,13 +51,13 @@
   <circle cx="346.8" cy="202.6" r="4.5" style="fill:var(--fig-panel);stroke:var(--fig-green);stroke-width:2"/>
   <circle cx="393.1" cy="117.7" r="3.5" style="fill:var(--fig-blue)"/>
   <text x="401.1" y="220.6" text-anchor="end" class="uearth-7-saturation-vapor-s" style="fill:var(--fig-green)">30 °C, RH 60 %</text>
-  <text x="387.1" y="121.7" text-anchor="end" class="uearth-7-saturation-vapor-s">e_s = 42.5</text>
+  <text x="387.1" y="121.7" text-anchor="end" class="uearth-7-saturation-vapor-s">42.5 hPa</text>
   <text x="338.8" y="194.6" text-anchor="end" class="uearth-7-saturation-vapor-b" style="fill:var(--fig-green)">이슬점 약 21 °C</text>
   <text x="86.2" y="70.0" class="uearth-7-saturation-vapor-t">1 K 오를 때마다 약 6~7 % 증가</text>
   <text x="86.2" y="95.0" class="uearth-7-saturation-vapor-s">(클라우지우스–클라페이롱 관계)</text>
   <text x="86.2" y="135.0" class="uearth-7-saturation-vapor-s">수증기량(e) 그대로 식히면</text>
   <text x="86.2" y="155.0" class="uearth-7-saturation-vapor-s">수평으로 왼쪽으로 이동 → 곡선에서 포화</text>
-  <text x="595.0" y="34.0" text-anchor="middle" class="uearth-7-saturation-vapor-b">물과 얼음의 차이 e_s(물) − e_s(얼음)</text>
+  <text x="595.0" y="34.0" text-anchor="middle" class="uearth-7-saturation-vapor-b">포화 수증기압 차이(물 − 얼음)</text>
   <text x="595.0" y="52.0" text-anchor="middle" class="uearth-7-saturation-vapor-s">(hPa)</text>
   <line x1="490.0" y1="330.0" x2="700.0" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 4"/>
   <text x="484.0" y="334.0" text-anchor="end" class="uearth-7-saturation-vapor-s">0.0</text>

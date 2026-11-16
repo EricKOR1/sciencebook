@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-uphy-2-banked-curve d-uphy-2-banked-curve">
+  <title id="t-uphy-2-banked-curve">그림 일반물리학 2-2 뱅크 커브에서 구심 가속도를 만드는 힘</title>
+  <desc id="d-uphy-2-banked-curve">기울기 23.0°인 커브 도로의 단면에서 차가 받는 힘을 그렸다. 왼쪽: 설계 속력에서는 마찰 없이 수직 항력과 중력의 합이 수평으로 원의 중심을 향한다. 오른쪽: 최대 속력에서는 정지 마찰력이 빗면 아래쪽으로 더해져 중심 쪽 알짜힘이 커진다. 화살표 길이는 크기에 비례한다(예제 9의 값).</desc>
+  <style>.uphy-2-banked-curve-t{font-size:14px;fill:var(--fig-ink)} .uphy-2-banked-curve-s{font-size:13px;fill:var(--fig-muted)} .uphy-2-banked-curve-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .uphy-2-banked-curve-f-ink{fill:var(--fig-ink)} .uphy-2-banked-curve-st-ink{stroke:var(--fig-ink);fill:none} .uphy-2-banked-curve-f-muted{fill:var(--fig-muted)} .uphy-2-banked-curve-st-muted{stroke:var(--fig-muted);fill:none} .uphy-2-banked-curve-f-line{fill:var(--fig-line)} .uphy-2-banked-curve-st-line{stroke:var(--fig-line);fill:none} .uphy-2-banked-curve-f-accent{fill:var(--fig-accent)} .uphy-2-banked-curve-st-accent{stroke:var(--fig-accent);fill:none} .uphy-2-banked-curve-f-blue{fill:var(--fig-blue)} .uphy-2-banked-curve-st-blue{stroke:var(--fig-blue);fill:none} .uphy-2-banked-curve-f-red{fill:var(--fig-red)} .uphy-2-banked-curve-st-red{stroke:var(--fig-red);fill:none} .uphy-2-banked-curve-f-green{fill:var(--fig-green)} .uphy-2-banked-curve-st-green{stroke:var(--fig-green);fill:none} .uphy-2-banked-curve-f-amber{fill:var(--fig-amber)} .uphy-2-banked-curve-st-amber{stroke:var(--fig-amber);fill:none} .uphy-2-banked-curve-f-violet{fill:var(--fig-violet)} .uphy-2-banked-curve-st-violet{stroke:var(--fig-violet);fill:none} .uphy-2-banked-curve-f-teal{fill:var(--fig-teal)} .uphy-2-banked-curve-st-teal{stroke:var(--fig-teal);fill:none}</style>
+  <rect x="10.0" y="10.0" width="340.0" height="360.0" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <polygon points="40.0,300.0 335.0,300.0 335.0,174.8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5;stroke-linejoin:round"/>
+  <path d="M86.0 300.0 A46 46 0 0 0 82.3 282.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.5;stroke-linejoin:round;stroke-linecap:round"/>
+  <text x="92.0" y="294.0" class="uphy-2-banked-curve-t" style="font-style:italic">θ</text>
+  <polygon points="177.2,241.8 225.0,221.5 214.9,197.5 167.0,217.8" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8;stroke-linejoin:round"/>
+  <text x="36.0" y="70.0" class="uphy-2-banked-curve-s">← 원의 중심 쪽</text>
+  <text x="30.0" y="40.0" class="uphy-2-banked-curve-b">(가) 설계 속력: 마찰 없음</text>
+  <line x1="196.0" y1="219.7" x2="196.0" y2="141.7" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:round;stroke-dasharray:4 3"/>
+  <line x1="196.0" y1="141.7" x2="162.9" y2="141.7" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:round;stroke-dasharray:4 3"/>
+  <line x1="196.0" y1="219.7" x2="172.9" y2="219.7" style="stroke:var(--fig-violet);stroke-width:3.2;stroke-linecap:butt"/>
+  <polygon points="162.9,219.7 173.9,214.7 173.9,224.6" style="fill:var(--fig-violet);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <line x1="196.0" y1="219.7" x2="166.8" y2="150.9" style="stroke:var(--fig-green);stroke-width:2.8;stroke-linecap:butt"/>
+  <polygon points="162.9,141.7 171.8,149.8 162.6,153.7" style="fill:var(--fig-green);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <line x1="196.0" y1="219.7" x2="196.0" y2="287.7" style="stroke:var(--fig-ink);stroke-width:2.8;stroke-linecap:butt"/>
+  <polygon points="196.0,297.7 191.1,286.7 201.0,286.7" style="fill:var(--fig-ink);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <circle cx="196.0" cy="219.7" r="3.0" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+  <text x="156.9" y="133.7" text-anchor="middle" class="uphy-2-banked-curve-t" style="fill:var(--fig-green);font-weight:600">N</text>
+  <text x="204.0" y="293.7" class="uphy-2-banked-curve-t" style="fill:var(--fig-ink);font-weight:600">mg</text>
+  <text x="179.5" y="241.7" text-anchor="middle" class="uphy-2-banked-curve-s" style="fill:var(--fig-violet)">알짜힘 = mv²/r</text>
+  <path d="M196.0 189.7 A30 30 0 0 0 184.3 192.0" style="fill:none;stroke:var(--fig-green);stroke-width:1.2;stroke-linejoin:round;stroke-linecap:round"/>
+  <text x="188.0" y="183.7" text-anchor="end" class="uphy-2-banked-curve-s" style="font-style:italic">θ</text>
+  <text x="30.0" y="326.0" class="uphy-2-banked-curve-s">연직: N cos θ = mg</text>
+  <text x="30.0" y="344.0" class="uphy-2-banked-curve-s">수평: N sin θ = mv²/r</text>
+  <text x="30.0" y="362.0" class="uphy-2-banked-curve-t" style="font-weight:600">→ tan θ = v²/(rg)</text>
+  <rect x="370.0" y="10.0" width="340.0" height="360.0" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <polygon points="400.0,300.0 695.0,300.0 695.0,174.8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5;stroke-linejoin:round"/>
+  <path d="M446.0 300.0 A46 46 0 0 0 442.3 282.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.5;stroke-linejoin:round;stroke-linecap:round"/>
+  <text x="452.0" y="294.0" class="uphy-2-banked-curve-t" style="font-style:italic">θ</text>
+  <polygon points="537.2,241.8 585.0,221.5 574.9,197.5 527.0,217.8" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8;stroke-linejoin:round"/>
+  <text x="396.0" y="70.0" class="uphy-2-banked-curve-s">← 원의 중심 쪽</text>
+  <text x="390.0" y="40.0" class="uphy-2-banked-curve-b">(나) 최대 속력: 마찰이 빗면 아래로</text>
+  <line x1="556.0" y1="219.7" x2="556.0" y2="130.3" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:round;stroke-dasharray:4 3"/>
+  <line x1="556.0" y1="130.3" x2="518.1" y2="130.3" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:round;stroke-dasharray:4 3"/>
+  <line x1="556.0" y1="219.7" x2="501.3" y2="219.7" style="stroke:var(--fig-violet);stroke-width:3.2;stroke-linecap:butt"/>
+  <polygon points="491.3,219.7 502.3,214.7 502.3,224.6" style="fill:var(--fig-violet);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <line x1="556.0" y1="219.7" x2="522.0" y2="139.5" style="stroke:var(--fig-green);stroke-width:2.8;stroke-linecap:butt"/>
+  <polygon points="518.1,130.3 526.9,138.5 517.8,142.3" style="fill:var(--fig-green);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <line x1="556.0" y1="219.7" x2="556.0" y2="287.7" style="stroke:var(--fig-ink);stroke-width:2.8;stroke-linecap:butt"/>
+  <polygon points="556.0,297.7 551.1,286.7 561.0,286.7" style="fill:var(--fig-ink);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <line x1="556.0" y1="219.7" x2="538.4" y2="227.1" style="stroke:var(--fig-red);stroke-width:2.8;stroke-linecap:butt"/>
+  <polygon points="529.2,231.0 537.4,222.2 541.3,231.3" style="fill:var(--fig-red);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <text x="525.2" y="249.0" text-anchor="end" class="uphy-2-banked-curve-s" style="fill:var(--fig-red)">f = μsN</text>
+  <circle cx="556.0" cy="219.7" r="3.0" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+  <text x="512.1" y="122.3" text-anchor="middle" class="uphy-2-banked-curve-t" style="fill:var(--fig-green);font-weight:600">N</text>
+  <text x="564.0" y="293.7" class="uphy-2-banked-curve-t" style="fill:var(--fig-ink);font-weight:600">mg</text>
+  <text x="523.6" y="255.7" text-anchor="middle" class="uphy-2-banked-curve-s" style="fill:var(--fig-violet)">알짜힘 = mv²/r</text>
+  <path d="M556.0 189.7 A30 30 0 0 0 544.3 192.0" style="fill:none;stroke:var(--fig-green);stroke-width:1.2;stroke-linejoin:round;stroke-linecap:round"/>
+  <text x="548.0" y="183.7" text-anchor="end" class="uphy-2-banked-curve-s" style="font-style:italic">θ</text>
+  <text x="390.0" y="326.0" class="uphy-2-banked-curve-s">연직: N cos θ − f sin θ = mg</text>
+  <text x="390.0" y="344.0" class="uphy-2-banked-curve-s">수평: N sin θ + f cos θ = mv²/r</text>
+  <text x="390.0" y="362.0" class="uphy-2-banked-curve-t" style="font-weight:600">μs = 0.300이면 v_max = 35.0 m/s</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-uphy-2-conical-pendulum d-uphy-2-conical-pendulum">
+  <title id="t-uphy-2-conical-pendulum">그림 일반물리학 2-3 원뿔 진자의 힘과 힘 삼각형</title>
+  <desc id="d-uphy-2-conical-pendulum">길이 L인 줄에 매단 추가 연직과 각 θ를 이루며 반지름 r = L sin θ인 수평 원을 돈다. 추가 받는 힘은 장력과 중력뿐이며, 장력의 연직 성분이 무게와 같고 수평 성분이 원의 중심을 향하는 알짜힘이 된다. 오른쪽 힘 삼각형에서 두 힘의 합은 수평이다.</desc>
+  <style>.uphy-2-conical-pendulum-t{font-size:14px;fill:var(--fig-ink)} .uphy-2-conical-pendulum-s{font-size:13px;fill:var(--fig-muted)} .uphy-2-conical-pendulum-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .uphy-2-conical-pendulum-f-ink{fill:var(--fig-ink)} .uphy-2-conical-pendulum-st-ink{stroke:var(--fig-ink);fill:none} .uphy-2-conical-pendulum-f-muted{fill:var(--fig-muted)} .uphy-2-conical-pendulum-st-muted{stroke:var(--fig-muted);fill:none} .uphy-2-conical-pendulum-f-line{fill:var(--fig-line)} .uphy-2-conical-pendulum-st-line{stroke:var(--fig-line);fill:none} .uphy-2-conical-pendulum-f-accent{fill:var(--fig-accent)} .uphy-2-conical-pendulum-st-accent{stroke:var(--fig-accent);fill:none} .uphy-2-conical-pendulum-f-blue{fill:var(--fig-blue)} .uphy-2-conical-pendulum-st-blue{stroke:var(--fig-blue);fill:none} .uphy-2-conical-pendulum-f-red{fill:var(--fig-red)} .uphy-2-conical-pendulum-st-red{stroke:var(--fig-red);fill:none} .uphy-2-conical-pendulum-f-green{fill:var(--fig-green)} .uphy-2-conical-pendulum-st-green{stroke:var(--fig-green);fill:none} .uphy-2-conical-pendulum-f-amber{fill:var(--fig-amber)} .uphy-2-conical-pendulum-st-amber{stroke:var(--fig-amber);fill:none} .uphy-2-conical-pendulum-f-violet{fill:var(--fig-violet)} .uphy-2-conical-pendulum-st-violet{stroke:var(--fig-violet);fill:none} .uphy-2-conical-pendulum-f-teal{fill:var(--fig-teal)} .uphy-2-conical-pendulum-st-teal{stroke:var(--fig-teal);fill:none}</style>
+  <rect x="10.0" y="10.0" width="420.0" height="360.0" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="450.0" y="10.0" width="260.0" height="360.0" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="150.0" y="40.0" width="120.0" height="8.0" rx="0" style="fill:var(--fig-line);stroke:none;stroke-width:1.5"/>
+  <ellipse cx="210.0" cy="262.0" rx="120.0" ry="30.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:6 4"/>
+  <line x1="210.0" y1="52.0" x2="210.0" y2="302.0" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:round;stroke-dasharray:5 4"/>
+  <line x1="210.0" y1="262.0" x2="330.0" y2="262.0" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:round;stroke-dasharray:3 3"/>
+  <line x1="210.0" y1="52.0" x2="330.0" y2="262.0" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <path d="M210.0 96.0 A44 44 0 0 0 231.8 90.2" style="fill:none;stroke:var(--fig-muted);stroke-width:1.5;stroke-linejoin:round;stroke-linecap:round"/>
+  <text x="222.0" y="112.0" class="uphy-2-conical-pendulum-t" style="font-style:italic">θ</text>
+  <text x="282.0" y="155.0" class="uphy-2-conical-pendulum-t" style="font-weight:600;font-style:italic">L</text>
+  <text x="270.0" y="308.0" text-anchor="middle" class="uphy-2-conical-pendulum-s">r = L sin θ</text>
+  <text x="202.0" y="187.0" text-anchor="end" class="uphy-2-conical-pendulum-s">L cos θ</text>
+  <path d="M160.0 289.5 Q210.0 295.0 260.0 289.5" style="fill:none;stroke:var(--fig-blue);stroke-width:2;stroke-linejoin:round;stroke-linecap:round"/>
+  <polygon points="268.0,287.5 256.0,284.0 258.0,295.0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <text x="30.0" y="300.0" class="uphy-2-conical-pendulum-s">수평면에서 원운동</text>
+  <line x1="288.9" y1="190.0" x2="288.9" y2="262.0" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:round;stroke-dasharray:4 3"/>
+  <line x1="288.9" y1="190.0" x2="330.0" y2="190.0" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:round;stroke-dasharray:4 3"/>
+  <line x1="330.0" y1="262.0" x2="298.9" y2="262.0" style="stroke:var(--fig-violet);stroke-width:3;stroke-linecap:butt"/>
+  <polygon points="288.9,262.0 299.9,257.1 299.9,266.9" style="fill:var(--fig-violet);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <line x1="330.0" y1="262.0" x2="293.8" y2="198.7" style="stroke:var(--fig-teal);stroke-width:3;stroke-linecap:butt"/>
+  <polygon points="288.9,190.0 298.6,197.1 290.0,202.0" style="fill:var(--fig-teal);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <line x1="330.0" y1="262.0" x2="330.0" y2="324.0" style="stroke:var(--fig-ink);stroke-width:3;stroke-linecap:butt"/>
+  <polygon points="330.0,334.0 325.1,323.0 334.9,323.0" style="fill:var(--fig-ink);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <circle cx="330.0" cy="262.0" r="9.0" style="fill:var(--fig-red);stroke:var(--fig-ink);stroke-width:1.5"/>
+  <text x="306.9" y="188.0" class="uphy-2-conical-pendulum-t" style="fill:var(--fig-teal);font-weight:600">장력 T</text>
+  <text x="342.0" y="330.0" class="uphy-2-conical-pendulum-t" style="font-weight:600">mg</text>
+  <text x="344.0" y="210.0" class="uphy-2-conical-pendulum-s">T cos θ</text>
+  <text x="344.0" y="226.0" class="uphy-2-conical-pendulum-s">= mg</text>
+  <text x="284.9" y="286.0" text-anchor="middle" class="uphy-2-conical-pendulum-s" style="fill:var(--fig-violet)">T sin θ = mv²/r</text>
+  <text x="470.0" y="40.0" class="uphy-2-conical-pendulum-b">힘 삼각형</text>
+  <line x1="640.0" y1="74.0" x2="640.0" y2="160.0" style="stroke:var(--fig-ink);stroke-width:2.8;stroke-linecap:butt"/>
+  <polygon points="640.0,170.0 635.0,159.0 645.0,159.0" style="fill:var(--fig-ink);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <line x1="640.0" y1="170.0" x2="590.1" y2="82.7" style="stroke:var(--fig-teal);stroke-width:2.8;stroke-linecap:butt"/>
+  <polygon points="585.1,74.0 594.9,81.1 586.3,86.0" style="fill:var(--fig-teal);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <line x1="640.0" y1="74.0" x2="595.1" y2="74.0" style="stroke:var(--fig-violet);stroke-width:3;stroke-linecap:butt"/>
+  <polygon points="585.1,74.0 596.1,69.0 596.1,79.0" style="fill:var(--fig-violet);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <text x="648.0" y="130.0" class="uphy-2-conical-pendulum-t" style="font-weight:600">mg</text>
+  <text x="602.6" y="140.0" text-anchor="end" class="uphy-2-conical-pendulum-t" style="fill:var(--fig-teal);font-weight:600">T</text>
+  <text x="612.6" y="66.0" text-anchor="middle" class="uphy-2-conical-pendulum-s" style="fill:var(--fig-violet)">합 = 수평(중심 쪽)</text>
+  <text x="470.0" y="222.0" class="uphy-2-conical-pendulum-t">연직: T cos θ = mg</text>
+  <text x="470.0" y="244.0" class="uphy-2-conical-pendulum-t">수평: T sin θ = mv²/r</text>
+  <text x="470.0" y="266.0" class="uphy-2-conical-pendulum-t" style="font-weight:600">→ tan θ = v²/(rg)</text>
+  <text x="470.0" y="292.0" class="uphy-2-conical-pendulum-t" style="font-weight:600">주기 = 2π√(L cos θ / g)</text>
+  <text x="470.0" y="322.0" class="uphy-2-conical-pendulum-s">예제 10 (L = 1.20 m, θ = 30.0°)</text>
+  <text x="470.0" y="340.0" class="uphy-2-conical-pendulum-s">T = 5.66 N, v = 1.84 m/s</text>
+  <text x="470.0" y="358.0" class="uphy-2-conical-pendulum-s">주기 2.05 s (질량과 무관)</text>
+</svg>

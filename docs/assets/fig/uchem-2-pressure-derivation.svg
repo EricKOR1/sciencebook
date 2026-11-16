@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-uchem-2-pressure-derivation d-uchem-2-pressure-derivation">
+  <title id="t-uchem-2-pressure-derivation">그림 일반화학 2-3 분자 하나의 충돌에서 압력으로</title>
+  <desc id="d-uchem-2-pressure-derivation">한 변이 L인 상자에서 분자가 오른쪽 벽에 탄성 충돌하면 속도의 x 성분만 u_x에서 −u_x로 바뀌어 벽에 충격량 2mu_x를 준다. 같은 벽에 다시 오기까지 2L/u_x가 걸리므로 평균 힘은 mu_x²/L이고, N개 분자와 세 방향을 모두 고려하면 압력식이 나온다.</desc>
+  <style>
+    .uchem-2-pd-edge{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
+    .uchem-2-pd-back{fill:none;stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:4 3}
+    .uchem-2-pd-t{font-size:14px;fill:var(--fig-ink)}
+    .uchem-2-pd-b{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .uchem-2-pd-s{font-size:13px;fill:var(--fig-muted)}
+    .uchem-2-pd-in{stroke:var(--fig-blue);stroke-width:2.5;fill:none}
+    .uchem-2-pd-out{stroke:var(--fig-green);stroke-width:2.5;fill:none}
+    .uchem-2-pd-num{font-size:14px;font-weight:600;fill:var(--fig-accent)}
+  </style>
+  <!-- 상자: 뒤쪽 모서리 -->
+  <path d="M120 50 H320 V250 M120 50 V250 H320" class="uchem-2-pd-back"/>
+  <line x1="60" y1="300" x2="120" y2="250" class="uchem-2-pd-back"/>
+  <!-- 오른쪽 벽(x = L) -->
+  <path d="M260 100 L320 50 L320 250 L260 300 Z" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6"/>
+  <text x="330" y="44" class="uchem-2-pd-s">오른쪽 벽</text>
+  <!-- 앞면과 윗면 -->
+  <path d="M60 100 H260 V300 H60 Z M60 100 L120 50 H320 L260 100" class="uchem-2-pd-edge"/>
+  <!-- 들어오는 분자와 튕겨 나가는 분자 -->
+  <circle cx="170" cy="210" r="9" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <line x1="180" y1="206" x2="282" y2="170" class="uchem-2-pd-in"/>
+  <path d="M290 167 l-13 -1 l5 11 z" style="fill:var(--fig-blue)"/>
+  <line x1="286" y1="166" x2="190" y2="132" class="uchem-2-pd-out"/>
+  <path d="M182 129 l12 -3 l-3 11 z" style="fill:var(--fig-green)"/>
+  <circle cx="290" cy="168" r="4" style="fill:var(--fig-red)"/>
+  <text x="196" y="232" class="uchem-2-pd-t" style="fill:var(--fig-blue)">충돌 전</text>
+  <text x="168" y="124" class="uchem-2-pd-t" style="fill:var(--fig-green)" text-anchor="end">충돌 후</text>
+  <!-- x 성분만 비교 -->
+  <line x1="80" y1="250" x2="140" y2="250" class="uchem-2-pd-in"/>
+  <path d="M148 250 l-10 -6 v12 z" style="fill:var(--fig-blue)"/>
+  <text x="82" y="240" class="uchem-2-pd-t">+mu<tspan style="font-size:12px" dy="4">x</tspan></text>
+  <line x1="148" y1="276" x2="88" y2="276" class="uchem-2-pd-out"/>
+  <path d="M80 276 l10 -6 v12 z" style="fill:var(--fig-green)"/>
+  <text x="152" y="281" class="uchem-2-pd-t">−mu<tspan style="font-size:12px" dy="4">x</tspan></text>
+  <!-- 변의 길이 -->
+  <line x1="60" y1="318" x2="260" y2="318" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <line x1="60" y1="312" x2="60" y2="324" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <line x1="260" y1="312" x2="260" y2="324" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="160" y="336" text-anchor="middle" class="uchem-2-pd-t" style="font-style:italic">L</text>
+  <!-- x축 -->
+  <line x1="20" y1="300" x2="44" y2="300" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+  <path d="M50 300 l-8 -5 v10 z" style="fill:var(--fig-ink)"/>
+  <text x="22" y="292" class="uchem-2-pd-s">x</text>
+  <!-- 유도 단계 -->
+  <rect x="372" y="34" width="336" height="290" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="388" y="64" class="uchem-2-pd-num">① 한 번 충돌할 때</text>
+  <text x="404" y="88" class="uchem-2-pd-t">분자의 운동량 변화 −2mu<tspan style="font-size:12px" dy="4">x</tspan></text>
+  <text x="404" y="110" class="uchem-2-pd-t">벽이 받는 충격량 +2mu<tspan style="font-size:12px" dy="4">x</tspan></text>
+  <text x="388" y="142" class="uchem-2-pd-num">② 같은 벽에 다시 올 때까지</text>
+  <text x="404" y="166" class="uchem-2-pd-t">왕복 2L을 가므로 Δt = 2L / u<tspan style="font-size:12px" dy="4">x</tspan></text>
+  <text x="388" y="198" class="uchem-2-pd-num">③ 분자 하나가 주는 평균 힘</text>
+  <text x="404" y="222" class="uchem-2-pd-t">F = 2mu<tspan style="font-size:12px" dy="4">x</tspan><tspan dy="-4"> ÷ (2L/u</tspan><tspan style="font-size:12px" dy="4">x</tspan><tspan dy="-4">) = mu</tspan><tspan style="font-size:12px" dy="4">x</tspan><tspan style="font-size:11px" dy="-10">2</tspan><tspan dy="6"> / L</tspan></text>
+  <text x="388" y="254" class="uchem-2-pd-num">④ N개 분자, 세 방향이 동등</text>
+  <text x="404" y="278" class="uchem-2-pd-t">P = F<tspan style="font-size:12px" dy="4">합</tspan><tspan dy="-4"> / L² 에서 </tspan><tspan style="text-decoration:overline">u</tspan><tspan style="font-size:12px;text-decoration:overline" dy="4">x</tspan><tspan style="font-size:11px;text-decoration:overline" dy="-10">2</tspan><tspan dy="6"> = </tspan><tspan style="text-decoration:overline">u²</tspan><tspan>/3</tspan></text>
+  <text x="404" y="306" class="uchem-2-pd-b">PV = ⅓ Nm<tspan style="text-decoration:overline">u²</tspan></text>
+</svg>

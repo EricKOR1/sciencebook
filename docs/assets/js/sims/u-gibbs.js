@@ -132,7 +132,7 @@ Sims.register('u-gibbs', {
       var a = dG(0), b = dG(TMAX), m = Math.max(Math.abs(a), Math.abs(b), 20) * 1.1;
       var stepG = niceStep(2 * m); m = Math.ceil(m / stepG) * stepG;
       panel(T, P[0], 'ΔG° = ΔH° − TΔS°', dG, 'ΔG° (kJ)', { t0: 0, lo: -m, hi: m, goodBelow: true, intercept: true, goodLabel: 'ΔG° < 0 : 자발적' });
-      var k1 = logK(100), k2 = logK(TMAX), mk = Math.min(Math.max(Math.abs(k1), Math.abs(k2), 4) * 1.05, 60);
+      var k1 = logK(300), k2 = logK(TMAX), mk = Math.min(Math.max(Math.abs(k1), Math.abs(k2), 4) * 1.1, 40);
       var stepK = niceStep(2 * mk); mk = Math.ceil(mk / stepK) * stepK;
       panel(T, P[1], 'log K  (K = e^(−ΔG°/RT))', logK, 'log K', { t0: 100, lo: -mk, hi: mk, goodBelow: false, goodLabel: 'K > 1' });
       readouts();

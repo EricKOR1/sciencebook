@@ -122,10 +122,10 @@ Sims.register('u-carnot-cycle', {
         ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = k === 0 || k === 3 ? 'right' : 'left';
         ctx.fillText(String(k + 1), x + (k === 0 || k === 3 ? -6 : 6), y + (k === 0 ? -4 : k === 2 ? 14 : -6));
       });
-      var mid = stateAt(m, 1, 0.5);
-      ctx.fillStyle = T.figAccent; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'center';
-      var cx = a.sx((m.V[0] + m.V[2]) / 2 * 1e3 * 0.62), cy = a.sy(mid.P / 1e3 * 0.95);
-      ctx.fillText('넓이 = W', Math.max(a.L + 40, Math.min(cx, a.sx(mid.V * 1e3) - 40)), cy);
+      var mid = stateAt(m, 1, 0.3), mx = a.sx(mid.V * 1e3), my = a.sy(mid.P / 1e3);
+      ctx.strokeStyle = T.figAccent; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(mx - 6, my + 4); ctx.lineTo(mx + 14, my - 18); ctx.stroke();
+      ctx.fillStyle = T.figAccent; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'left';
+      ctx.fillText('둘러싼 넓이 = W', mx + 16, my - 20);
       // ── T–S
       var S2 = n * R * Math.log(st.r), Smax = S2 * 1.25, Tmax = m.TH * 1.18;
       var b = axes(T, Lo.ts, '엔트로피 S (J/K)', '온도 T (K)', Smax, Tmax, ticks(Smax, 4), ticks(Tmax, 4));
@@ -140,7 +140,7 @@ Sims.register('u-carnot-cycle', {
       ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'center';
       ctx.fillStyle = T.figInk; ctx.fillText('W', (b.sx(0) + b.sx(S2)) / 2, (b.sy(m.TH) + b.sy(m.TC)) / 2 + 4);
       ctx.fillStyle = T.figBlue; fillSub('Q_C', (b.sx(0) + b.sx(S2)) / 2, (b.sy(m.TC) + b.sy(0)) / 2 + 4, 12, true);
-      ctx.fillStyle = T.figRed; ctx.textAlign = 'left'; fillSub('Q_H = 색칠한 전체 넓이', b.L + 4, b.sy(m.TH) - 7, 12, true);
+      ctx.fillStyle = T.figRed; ctx.textAlign = 'right'; fillSub('Q_H = W + Q_C', b.R, Lo.ts.y + 14, 12, true);
       // 지금 위치
       var p = stateAt(m, st.k, st.s);
       dot(a.sx(p.V * 1e3), a.sy(p.P / 1e3)); dot(b.sx(p.S), b.sy(p.T));

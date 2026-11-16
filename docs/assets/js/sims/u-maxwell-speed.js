@@ -40,7 +40,7 @@ Sims.register('u-maxwell-speed', {
       btns.forEach(function (b, i) { b.setAttribute('aria-pressed', i === st.g ? 'true' : 'false'); });
       draw();
     }
-    function fmtPct(p) { return p >= 0.1 ? (p * 100).toFixed(1) + ' %' : p >= 1e-4 ? (p * 100).toFixed(3) + ' %' : p > 0 ? (p * 100).toExponential(1) + ' %' : '0 %'; }
+    function fmtPct(p) { return p >= 0.01 ? (p * 100).toFixed(1) + ' %' : p >= 1e-4 ? (p * 100).toFixed(3) + ' %' : p > 0 ? (p * 100).toExponential(1) + ' %' : '0 %'; }
 
     function draw() {
       var T = api.tokens(), w = cv.w, h = cv.h, gas = gases[st.g];
