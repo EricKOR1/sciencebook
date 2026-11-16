@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-uphy-1-circular-accel d-uphy-1-circular-accel">
+  <title id="t-uphy-1-circular-accel">그림 일반물리학 1-3 등속 원운동과 속력이 변하는 원운동의 가속도</title>
+  <desc id="d-uphy-1-circular-accel">왼쪽: 등속 원운동에서는 속도가 접선 방향이고 가속도는 중심을 향하는 구심 가속도 v²/R뿐이다. 오른쪽: 속력이 늘어나는 원운동에서는 접선 가속도 dv/dt가 더해져 전체 가속도가 중심 방향에서 진행 방향 쪽으로 기운다(예제 10의 값으로 그림).</desc>
+  <style>.uphy-1-circular-accel-t{font-size:14px;fill:var(--fig-ink)} .uphy-1-circular-accel-s{font-size:13px;fill:var(--fig-muted)} .uphy-1-circular-accel-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .uphy-1-circular-accel-f-ink{fill:var(--fig-ink)} .uphy-1-circular-accel-st-ink{stroke:var(--fig-ink);fill:none} .uphy-1-circular-accel-f-muted{fill:var(--fig-muted)} .uphy-1-circular-accel-st-muted{stroke:var(--fig-muted);fill:none} .uphy-1-circular-accel-f-line{fill:var(--fig-line)} .uphy-1-circular-accel-st-line{stroke:var(--fig-line);fill:none} .uphy-1-circular-accel-f-accent{fill:var(--fig-accent)} .uphy-1-circular-accel-st-accent{stroke:var(--fig-accent);fill:none} .uphy-1-circular-accel-f-blue{fill:var(--fig-blue)} .uphy-1-circular-accel-st-blue{stroke:var(--fig-blue);fill:none} .uphy-1-circular-accel-f-red{fill:var(--fig-red)} .uphy-1-circular-accel-st-red{stroke:var(--fig-red);fill:none} .uphy-1-circular-accel-f-green{fill:var(--fig-green)} .uphy-1-circular-accel-st-green{stroke:var(--fig-green);fill:none} .uphy-1-circular-accel-f-amber{fill:var(--fig-amber)} .uphy-1-circular-accel-st-amber{stroke:var(--fig-amber);fill:none} .uphy-1-circular-accel-f-violet{fill:var(--fig-violet)} .uphy-1-circular-accel-st-violet{stroke:var(--fig-violet);fill:none} .uphy-1-circular-accel-f-teal{fill:var(--fig-teal)} .uphy-1-circular-accel-st-teal{stroke:var(--fig-teal);fill:none}</style>
+  <rect x="10.0" y="10.0" width="340.0" height="360.0" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="370.0" y="10.0" width="340.0" height="360.0" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="30.0" y="40.0" class="uphy-1-circular-accel-b">(가) 등속 원운동</text>
+  <text x="390.0" y="40.0" class="uphy-1-circular-accel-b">(나) 속력이 늘어나는 원운동</text>
+  <circle cx="180.0" cy="205.0" r="105.0" style="fill:none;stroke:var(--fig-line);stroke-width:1.5;stroke-dasharray:6 5"/>
+  <circle cx="180.0" cy="205.0" r="3.5" style="fill:var(--fig-muted);stroke:none;stroke-width:1.5"/>
+  <text x="188.0" y="223.0" class="uphy-1-circular-accel-s">중심</text>
+  <line x1="180.0" y1="100.0" x2="95.0" y2="100.0" style="stroke:var(--fig-blue);stroke-width:3;stroke-linecap:butt"/>
+  <polygon points="85.0,100.0 96.0,95.0 96.0,105.0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <line x1="180.0" y1="100.0" x2="180.0" y2="168.0" style="stroke:var(--fig-red);stroke-width:3;stroke-linecap:butt"/>
+  <polygon points="180.0,178.0 175.1,167.0 184.9,167.0" style="fill:var(--fig-red);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <circle cx="180.0" cy="100.0" r="7.0" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+  <text x="85.0" y="90.0" class="uphy-1-circular-accel-t" style="fill:var(--fig-blue);font-weight:600">속도 v (접선)</text>
+  <text x="188.0" y="162.0" class="uphy-1-circular-accel-t" style="fill:var(--fig-red);font-weight:600">a_c = v²/R</text>
+  <text x="188.0" y="180.0" class="uphy-1-circular-accel-s">(중심 쪽)</text>
+  <line x1="250.0" y1="290.0" x2="216.6" y2="301.7" style="stroke:var(--fig-muted);stroke-width:1.5;stroke-linecap:butt"/>
+  <polygon points="210.0,304.0 216.4,298.0 218.7,304.8" style="fill:var(--fig-muted);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <text x="30.0" y="340.0" class="uphy-1-circular-accel-s">속력 일정: 가속도는 방향만 바꾼다</text>
+  <text x="30.0" y="358.0" class="uphy-1-circular-accel-s">a = −ω² r  (언제나 중심 쪽)</text>
+  <circle cx="560.0" cy="225.0" r="115.0" style="fill:none;stroke:var(--fig-line);stroke-width:1.5;stroke-dasharray:6 5"/>
+  <circle cx="560.0" cy="225.0" r="3.5" style="fill:var(--fig-muted);stroke:none;stroke-width:1.5"/>
+  <text x="568.0" y="243.0" class="uphy-1-circular-accel-s">중심</text>
+  <line x1="460.4" y1="167.5" x2="560.0" y2="225.0" style="stroke:var(--fig-line);stroke-width:1;stroke-linecap:round;stroke-dasharray:3 4"/>
+  <line x1="450.0" y1="161.5" x2="407.5" y2="235.1" style="stroke:var(--fig-blue);stroke-width:2.4;stroke-linecap:butt"/>
+  <polygon points="402.5,243.8 403.7,231.8 412.3,236.7" style="fill:var(--fig-blue);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <text x="396.5" y="259.8" text-anchor="end" class="uphy-1-circular-accel-t" style="fill:var(--fig-blue);font-weight:600">속도 v</text>
+  <line x1="538.3" y1="212.5" x2="518.3" y2="247.1" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:round;stroke-dasharray:4 3"/>
+  <line x1="440.4" y1="202.1" x2="518.3" y2="247.1" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:round;stroke-dasharray:4 3"/>
+  <line x1="460.4" y1="167.5" x2="529.7" y2="207.5" style="stroke:var(--fig-red);stroke-width:3;stroke-linecap:butt"/>
+  <polygon points="538.3,212.5 526.3,211.3 531.3,202.7" style="fill:var(--fig-red);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <line x1="460.4" y1="167.5" x2="445.4" y2="193.5" style="stroke:var(--fig-amber);stroke-width:3;stroke-linecap:butt"/>
+  <polygon points="440.4,202.1 441.6,190.1 450.2,195.1" style="fill:var(--fig-amber);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <line x1="460.4" y1="167.5" x2="512.5" y2="239.1" style="stroke:var(--fig-violet);stroke-width:3.2;stroke-linecap:butt"/>
+  <polygon points="518.3,247.1 507.9,241.2 515.9,235.3" style="fill:var(--fig-violet);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <circle cx="460.4" cy="167.5" r="7.0" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+  <text x="544.3" y="204.5" class="uphy-1-circular-accel-t" style="fill:var(--fig-red);font-weight:600">a_c = v²/R</text>
+  <text x="388.4" y="208.1" text-anchor="end" class="uphy-1-circular-accel-t" style="fill:var(--fig-amber);font-weight:600">a_t = dv/dt</text>
+  <text x="522.3" y="267.1" class="uphy-1-circular-accel-t" style="fill:var(--fig-violet);font-weight:600">전체 a</text>
+  <path d="M487.5 204.7 A46 46 0 0 0 500.2 190.5" style="fill:none;stroke:var(--fig-violet);stroke-width:1.5;stroke-linejoin:round;stroke-linecap:round"/>
+  <text x="512.4" y="213.5" class="uphy-1-circular-accel-t" style="fill:var(--fig-violet);font-style:italic">φ</text>
+  <text x="390.0" y="322.0" class="uphy-1-circular-accel-s">예제 10: a_c = 4.50, a_t = 2.00 (m/s²)</text>
+  <text x="390.0" y="340.0" class="uphy-1-circular-accel-s">|a| = √(a_t² + a_c²) = 4.92 m/s²</text>
+  <text x="390.0" y="358.0" class="uphy-1-circular-accel-s">tan φ = a_t / a_c → φ = 24.0° (진행 방향 쪽)</text>
+</svg>

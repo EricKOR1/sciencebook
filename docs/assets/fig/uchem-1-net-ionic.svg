@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-uchem-1-net-ionic d-uchem-1-net-ionic">
+  <title id="t-uchem-1-net-ionic">그림 일반화학 1-3 침전 반응을 세 수준의 반응식으로</title>
+  <desc id="d-uchem-1-net-ionic">질산 은 수용액과 염화 나트륨 수용액을 섞으면 Ag⁺와 Cl⁻만 만나 AgCl 앙금이 되고, Na⁺와 NO₃⁻는 섞기 전과 같이 물속에 흩어져 있다(구경꾼 이온). 물 분자는 생략한 입자 모형이다.</desc>
+  <style>
+    .uchem-1-ni-bk{fill:var(--fig-soft-blue);stroke:none}
+    .uchem-1-ni-gl{fill:none;stroke:var(--fig-ink);stroke-width:2;stroke-linejoin:round}
+    .uchem-1-ni-ag{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2}
+    .uchem-1-ni-cl{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2}
+    .uchem-1-ni-na{fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.6;stroke-dasharray:4 3}
+    .uchem-1-ni-no{fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.6;stroke-dasharray:4 3}
+    .uchem-1-ni-in{font-size:13px;fill:var(--fig-ink);text-anchor:middle}
+    .uchem-1-ni-h{font-size:15px;font-weight:600;fill:var(--fig-ink);text-anchor:middle}
+    .uchem-1-ni-t{font-size:14px;fill:var(--fig-ink)}
+    .uchem-1-ni-k{font-size:14px;font-weight:600;fill:var(--fig-accent)}
+    .uchem-1-ni-sp{fill:var(--fig-muted);text-decoration:line-through}
+    .uchem-1-ni-s{font-size:13px;fill:var(--fig-muted)}
+  </style>
+  <!-- 비커 A: AgNO3 -->
+  <path d="M34 66 V196 H190 V66" class="uchem-1-ni-bk"/>
+  <path d="M30 40 V200 H194 V40" class="uchem-1-ni-gl"/>
+  <circle cx="66" cy="94" r="18" class="uchem-1-ni-ag"/><text x="66" y="99" class="uchem-1-ni-in">Ag⁺</text>
+  <circle cx="160" cy="88" r="18" class="uchem-1-ni-no"/><text x="160" y="93" class="uchem-1-ni-in">NO₃⁻</text>
+  <circle cx="112" cy="128" r="18" class="uchem-1-ni-ag"/><text x="112" y="133" class="uchem-1-ni-in">Ag⁺</text>
+  <circle cx="58" cy="164" r="18" class="uchem-1-ni-no"/><text x="58" y="169" class="uchem-1-ni-in">NO₃⁻</text>
+  <circle cx="160" cy="168" r="18" class="uchem-1-ni-ag"/><text x="160" y="173" class="uchem-1-ni-in">Ag⁺</text>
+  <circle cx="108" cy="174" r="18" class="uchem-1-ni-no"/><text x="108" y="179" class="uchem-1-ni-in">NO₃⁻</text>
+  <text x="112" y="28" class="uchem-1-ni-h">AgNO₃(aq)</text>
+  <!-- + -->
+  <text x="232" y="128" class="uchem-1-ni-h" style="font-size:24px">+</text>
+  <!-- 비커 B: NaCl -->
+  <path d="M274 66 V196 H430 V66" class="uchem-1-ni-bk"/>
+  <path d="M270 40 V200 H434 V40" class="uchem-1-ni-gl"/>
+  <circle cx="304" cy="90" r="18" class="uchem-1-ni-na"/><text x="304" y="95" class="uchem-1-ni-in">Na⁺</text>
+  <circle cx="398" cy="96" r="18" class="uchem-1-ni-cl"/><text x="398" y="101" class="uchem-1-ni-in">Cl⁻</text>
+  <circle cx="350" cy="122" r="18" class="uchem-1-ni-cl"/><text x="350" y="127" class="uchem-1-ni-in">Cl⁻</text>
+  <circle cx="400" cy="160" r="18" class="uchem-1-ni-na"/><text x="400" y="165" class="uchem-1-ni-in">Na⁺</text>
+  <circle cx="302" cy="160" r="18" class="uchem-1-ni-cl"/><text x="302" y="165" class="uchem-1-ni-in">Cl⁻</text>
+  <circle cx="352" cy="172" r="18" class="uchem-1-ni-na"/><text x="352" y="177" class="uchem-1-ni-in">Na⁺</text>
+  <text x="352" y="28" class="uchem-1-ni-h">NaCl(aq)</text>
+  <!-- 화살표 -->
+  <line x1="452" y1="122" x2="494" y2="122" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <path d="M502 122 l-12 -7 v14 z" style="fill:var(--fig-ink)"/>
+  <text x="474" y="108" class="uchem-1-ni-s" text-anchor="middle">섞기</text>
+  <!-- 비커 C: 섞은 뒤 -->
+  <path d="M516 66 V196 H690 V66" class="uchem-1-ni-bk"/>
+  <path d="M512 40 V200 H694 V40" class="uchem-1-ni-gl"/>
+  <circle cx="544" cy="86" r="18" class="uchem-1-ni-na"/><text x="544" y="91" class="uchem-1-ni-in">Na⁺</text>
+  <circle cx="600" cy="82" r="18" class="uchem-1-ni-no"/><text x="600" y="87" class="uchem-1-ni-in">NO₃⁻</text>
+  <circle cx="660" cy="88" r="18" class="uchem-1-ni-na"/><text x="660" y="93" class="uchem-1-ni-in">Na⁺</text>
+  <circle cx="570" cy="126" r="18" class="uchem-1-ni-no"/><text x="570" y="131" class="uchem-1-ni-in">NO₃⁻</text>
+  <circle cx="628" cy="124" r="18" class="uchem-1-ni-na"/><text x="628" y="129" class="uchem-1-ni-in">Na⁺</text>
+  <circle cx="672" cy="132" r="18" class="uchem-1-ni-no"/><text x="672" y="137" class="uchem-1-ni-in">NO₃⁻</text>
+  <!-- AgCl 앙금(격자) -->
+  <g>
+    <rect x="550" y="152" width="22" height="22" class="uchem-1-ni-ag"/><rect x="572" y="152" width="22" height="22" class="uchem-1-ni-cl"/><rect x="594" y="152" width="22" height="22" class="uchem-1-ni-ag"/>
+    <rect x="550" y="174" width="22" height="22" class="uchem-1-ni-cl"/><rect x="572" y="174" width="22" height="22" class="uchem-1-ni-ag"/><rect x="594" y="174" width="22" height="22" class="uchem-1-ni-cl"/>
+  </g>
+  <text x="636" y="178" class="uchem-1-ni-k">AgCl(s)</text>
+  <text x="603" y="28" class="uchem-1-ni-h">섞은 뒤</text>
+  <!-- 범례 -->
+  <circle cx="44" cy="226" r="9" class="uchem-1-ni-ag"/><circle cx="66" cy="226" r="9" class="uchem-1-ni-cl"/>
+  <text x="82" y="231" class="uchem-1-ni-s">실제로 반응한 이온</text>
+  <circle cx="232" cy="226" r="9" class="uchem-1-ni-na"/><circle cx="254" cy="226" r="9" class="uchem-1-ni-no"/>
+  <text x="270" y="231" class="uchem-1-ni-s">구경꾼 이온(섞기 전후 그대로)</text>
+  <!-- 세 수준의 반응식 -->
+  <rect x="20" y="248" width="680" height="120" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="36" y="278" class="uchem-1-ni-k">분자 반응식</text>
+  <text x="186" y="278" class="uchem-1-ni-t">AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq)</text>
+  <text x="36" y="316" class="uchem-1-ni-k">완전 이온 반응식</text>
+  <text x="186" y="316" class="uchem-1-ni-t">Ag⁺ + <tspan class="uchem-1-ni-sp">NO₃⁻</tspan> + <tspan class="uchem-1-ni-sp">Na⁺</tspan> + Cl⁻ → AgCl(s) + <tspan class="uchem-1-ni-sp">Na⁺</tspan> + <tspan class="uchem-1-ni-sp">NO₃⁻</tspan></text>
+  <text x="36" y="354" class="uchem-1-ni-k">알짜 이온 반응식</text>
+  <text x="186" y="354" class="uchem-1-ni-t">Ag⁺(aq) + Cl⁻(aq) → AgCl(s)</text>
+  <text x="684" y="354" class="uchem-1-ni-s" text-anchor="end">양쪽의 구경꾼 이온을 지운다</text>
+</svg>
