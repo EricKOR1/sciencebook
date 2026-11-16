@@ -105,7 +105,7 @@ Sims.register('ideal-gas', {
       ctx.fillStyle = T.figLine; ctx.fillRect(B.x + B.w + 10, B.y + B.h / 2 - 3, L.box.w - 50 - B.w, 6);
       st.flash.forEach(function (f) { ctx.globalAlpha = f.t * 4; ctx.fillStyle = T.figAmber; ctx.fillRect(B.x + B.w - 3, B.y + f.y * B.h - 6, 4, 12); });
       ctx.globalAlpha = 1;
-      if (pinned) { ctx.fillStyle = T.figRed; ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'center'; ctx.fillText('피스톤 고정', B.x + B.w + 5, B.y + B.h + 14); }
+      if (pinned) { ctx.fillStyle = T.figRed; ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'left'; ctx.fillText('← 피스톤 고정', B.x + B.w + 14, B.y - 5); }
       // 입자
       var r = Math.max(2.5, Math.min(5, B.h / 40));
       ctx.fillStyle = T.figBlue;

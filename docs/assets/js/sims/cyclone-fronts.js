@@ -213,8 +213,8 @@ Sims.register('cyclone-fronts', {
       ctx.font = fs + 'px ' + T.fontBody;
       var wt = thW(330) * D; ctx.fillStyle = T.figRed; ctx.textAlign = 'left';
       ctx.fillText('온난 전선', X(c + 330 * Math.cos(wt)) + 8, Y(330 * Math.sin(wt)) - 6);
-      var ct = thC(600) * D; ctx.fillStyle = T.figBlue; ctx.textAlign = 'left';
-      ctx.fillText('한랭 전선', X(c + 600 * Math.cos(ct)) + 14, Y(600 * Math.sin(ct)));
+      var ct = thC(1000) * D; ctx.fillStyle = T.figBlue; ctx.textAlign = 'left';
+      ctx.fillText('한랭 전선', X(c + 1000 * Math.cos(ct)) + 14, Y(1000 * Math.sin(ct)));
       // 관측소
       var f0 = at(st.t), sxp = X(st.sx), syp = Y(st.sy);
       var bto = (f0.from + 180) * D, al = 30;

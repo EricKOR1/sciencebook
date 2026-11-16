@@ -91,7 +91,7 @@ Sims.register('electric-field', {
         var L = 24 + 60 * r, fx = st.qt * E.x / E.m, fy = st.qt * E.y / E.m;
         arrow(tx + fx * 11, ty - fy * 11, tx + fx * (11 + L), ty - fy * (11 + L), T.figViolet, 3.5, 11);
         ctx.fillStyle = T.figViolet; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'center';
-        ctx.fillText('받는 힘', tx + fx * (11 + L + 16), ty - fy * (11 + L + 16) + 4);
+        ctx.fillText('받는 힘', tx + fx * (11 + L + 28), ty - fy * (11 + L + 22) + 4);
         rF.set(dirWord(fx, fy) + (st.qt > 0 ? ' (전기장과 같은 방향)' : ' (전기장과 반대 방향)'));
         rS.set(level(E.m));
       } else { rF.set('힘을 받지 않는다'); rS.set('0 (두 전기장이 상쇄)'); }

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-esys-1-travel-time d-esys-1-travel-time">
+  <title id="t-esys-1-travel-time">그림 지구시스템과학 1-3 직접파·굴절파의 경로와 주시 곡선</title>
+  <desc id="d-esys-1-travel-time">왼쪽은 지각만 지나는 직접파와 모호면에 임계각으로 들어가 맨틀 꼭대기를 따라 달린 뒤 올라오는 굴절파의 경로, 오른쪽은 예제 9의 값으로 그린 주시 곡선이다. 두 직선이 만나는 교차 거리 150 km보다 멀면 굴절파가 먼저 도착한다.</desc>
+  <style>
+    .esys-1-travel-time-t{font-size:13px;fill:var(--fig-ink)}
+    .esys-1-travel-time-b{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .esys-1-travel-time-s{font-size:13px;fill:var(--fig-muted)}
+    .esys-1-travel-time-n{font-size:12px;fill:var(--fig-muted)}
+    .esys-1-travel-time-r{font-size:13px;font-weight:600;fill:var(--fig-red)}
+    .esys-1-travel-time-u{font-size:13px;font-weight:600;fill:var(--fig-blue)}
+  </style>
+  <!-- 왼쪽: 단면 -->
+  <text x="175" y="24" text-anchor="middle" class="esys-1-travel-time-b">지진파의 경로(단면)</text>
+  <rect x="20" y="70" width="320" height="100" style="fill:var(--fig-soft-amber);stroke:none"/>
+  <rect x="20" y="170" width="320" height="90" style="fill:var(--fig-soft-green);stroke:none"/>
+  <line x1="20" y1="70" x2="340" y2="70" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <line x1="20" y1="170" x2="340" y2="170" style="stroke:var(--fig-green);stroke-width:2"/>
+  <text x="330" y="102" text-anchor="end" class="esys-1-travel-time-t">지각 v₁ = 6.0 km/s</text>
+  <text x="330" y="248" text-anchor="end" class="esys-1-travel-time-t">맨틀 최상부 v₂ = 8.0 km/s</text>
+  <text x="26" y="188" class="esys-1-travel-time-s">모호면</text>
+  <!-- 두께 표시 -->
+  <path d="M30 76 v88" style="stroke:var(--fig-muted);stroke-width:1;fill:none"/>
+  <path d="M30 72 l-4 8 h8 z M30 168 l-4 -8 h8 z" style="fill:var(--fig-muted)"/>
+  <text x="34" y="146" class="esys-1-travel-time-n">h</text>
+  <!-- 직접파 -->
+  <path d="M52 76 L316 76" style="stroke:var(--fig-blue);stroke-width:2.5;fill:none"/>
+  <path d="M322 76 l-10 -5 v10 z" style="fill:var(--fig-blue)"/>
+  <text x="190" y="92" text-anchor="middle" class="esys-1-travel-time-u">직접파</text>
+  <!-- 굴절파 -->
+  <path d="M52 70 L165 170 L205 170 L318 70" style="stroke:var(--fig-red);stroke-width:2.5;fill:none"/>
+  <path d="M318 70 l-11 4 l6 7 z" style="fill:var(--fig-red)"/>
+  <text x="236" y="150" text-anchor="middle" class="esys-1-travel-time-r">굴절파</text>
+  <!-- 임계각 -->
+  <line x1="165" y1="170" x2="165" y2="122" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:3 3"/>
+  <path d="M165 146 A24 24 0 0 0 147 154" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/>
+  <text x="138" y="138" class="esys-1-travel-time-t">θc</text>
+  <text x="175" y="288" text-anchor="middle" class="esys-1-travel-time-s">임계각: sin θc = v₁ / v₂</text>
+  <!-- 진원·관측소 -->
+  <circle cx="52" cy="70" r="7" style="fill:var(--fig-amber);stroke:var(--fig-ink);stroke-width:1.5"/>
+  <text x="52" y="56" text-anchor="middle" class="esys-1-travel-time-t">진원</text>
+  <path d="M318 70 l-9 -16 h18 z" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.5"/>
+  <text x="318" y="46" text-anchor="middle" class="esys-1-travel-time-t">관측소</text>
+  <!-- 오른쪽: 주시 곡선 -->
+  <text x="555" y="24" text-anchor="middle" class="esys-1-travel-time-b">주시 곡선(예제 9의 값)</text>
+  <g style="stroke:var(--fig-line);stroke-width:1">
+    <line x1="410" y1="60" x2="690" y2="60"/><line x1="410" y1="115" x2="690" y2="115"/><line x1="410" y1="170" x2="690" y2="170"/><line x1="410" y1="225" x2="690" y2="225"/>
+  </g>
+  <line x1="410" y1="280" x2="690" y2="280" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+  <line x1="410" y1="280" x2="410" y2="50" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+  <g class="esys-1-travel-time-n" text-anchor="end">
+    <text x="404" y="284">0</text><text x="404" y="229">10</text><text x="404" y="174">20</text><text x="404" y="119">30</text><text x="404" y="64">40</text>
+  </g>
+  <g class="esys-1-travel-time-n" text-anchor="middle">
+    <text x="410" y="298">0</text><text x="522" y="298">100</text><text x="634" y="298">200</text>
+  </g>
+  <text x="550" y="318" text-anchor="middle" class="esys-1-travel-time-t">진원 거리 (km)</text>
+  <text x="380" y="170" text-anchor="middle" class="esys-1-travel-time-t" transform="rotate(-90 380 170)">도착 시간 (s)</text>
+  <!-- 직접파 t = x/6 : (0,0)→(240,40) -->
+  <line x1="410" y1="280" x2="578" y2="142.5" style="stroke:var(--fig-blue);stroke-width:3"/>
+  <line x1="578" y1="142.5" x2="679" y2="60" style="stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:5 4"/>
+  <!-- 굴절파 t = x/8 + 6.25 : x=64 → 14.25 s, x=250 → 37.5 s -->
+  <line x1="482" y1="201.6" x2="578" y2="142.5" style="stroke:var(--fig-red);stroke-width:1.5;stroke-dasharray:5 4"/>
+  <line x1="578" y1="142.5" x2="690" y2="74" style="stroke:var(--fig-red);stroke-width:3"/>
+  <!-- 교차 거리 -->
+  <line x1="578" y1="142.5" x2="578" y2="280" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:3 3"/>
+  <circle cx="578" cy="142.5" r="4" style="fill:var(--fig-ink)"/>
+  <text x="578" y="272" text-anchor="middle" class="esys-1-travel-time-t">x_c = 150 km</text>
+  <text x="450" y="230" class="esys-1-travel-time-u">기울기 1/v₁</text>
+  <text x="628" y="132" class="esys-1-travel-time-r">기울기 1/v₂</text>
+  <text x="590" y="168" class="esys-1-travel-time-s">교차점 25 s</text>
+  <text x="550" y="336" text-anchor="middle" class="esys-1-travel-time-n">굵은 선: 먼저 도착하는 파 · 지각 두께 h ≈ 28 km</text>
+</svg>
