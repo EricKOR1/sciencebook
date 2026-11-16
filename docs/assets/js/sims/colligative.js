@@ -1,7 +1,7 @@
 /* 물질과 에너지 2: 묽은 용액의 총괄성 — 증기 압력 내림, 끓는점 오름, 어는점 내림, 삼투압 */
 Sims.register('colligative', {
   title: '녹아 있는 입자 수가 바꾸는 것 — 총괄성',
-  caption: '물 1 kg에 녹이는 용질의 양(몰랄 농도)을 바꾸고, 설탕과 염화 나트륨을 비교해 보자. 같은 몰랄 농도라도 NaCl은 Na⁺과 Cl⁻으로 나뉘어 입자 수가 2배이므로 효과도 2배이다. 값은 ΔT_b = 0.51m, ΔT_f = 1.86m, 라울 법칙(25 °C 물 23.8 mmHg), π = CRT로 계산했고, NaCl은 완전히 이온화한다고 가정했다. 그래프는 끓는점·어는점 근처를 확대한 것이며, 입자 그림의 용질 수는 실제 몰 분율에 비례한다.',
+  caption: '물 1 kg에 녹이는 용질의 양(몰랄 농도)을 바꾸고, 설탕과 염화 나트륨을 비교해 보자. 같은 몰랄 농도라도 NaCl은 Na⁺과 Cl⁻으로 나뉘어 입자 수가 2배이므로 효과도 2배이다. 값은 ΔTb = 0.51m, ΔTf = 1.86m, 라울 법칙(25 °C 물 23.8 mmHg), π = CRT로 계산했고, NaCl은 완전히 이온화한다고 가정했다. 그래프는 끓는점·어는점 근처를 확대한 것이며, 입자 그림의 용질 수는 실제 몰 분율에 비례한다.',
   init: function (api) {
     var KB = 0.51, KF = 1.86, P25 = 23.8, MW = 1000 / 18, R = 0.082;
     var st = { tab: 'bp', m: 0.5, salt: false, C: 0.10, tC: 27 };
@@ -44,8 +44,8 @@ Sims.register('colligative', {
         var c = calc();
         r1.set(c.im.toFixed(2) + ' mol/kg' + (st.salt ? ' (이온 Na⁺+Cl⁻)' : ''));
         r2.set(c.P.toFixed(2) + ' mmHg (ΔP ' + c.dP.toFixed(2) + ')');
-        r3.set((100 + c.dTb).toFixed(2) + ' °C (ΔT_b ' + c.dTb.toFixed(2) + ')');
-        r4.set((-c.dTf).toFixed(2).replace('-', '−') + ' °C (ΔT_f ' + c.dTf.toFixed(2) + ')');
+        r3.set((100 + c.dTb).toFixed(2) + ' °C (ΔTb ' + c.dTb.toFixed(2) + ')');
+        r4.set((-c.dTf).toFixed(2).replace('-', '−') + ' °C (ΔTf ' + c.dTf.toFixed(2) + ')');
       } else {
         var o = osm();
         rl(0, '입자의 몰 농도'); rl(1, '삼투압'); rl(2, '물기둥 높이로'); rl(3, '절대 온도');
@@ -76,6 +76,7 @@ Sims.register('colligative', {
     }
     function drawParticles(T, r) {
       var c = calc(), n = COLS * ROWS, nSol = Math.round(n * (1 - c.X));
+      if (st.salt && nSol % 2) nSol += (n * (1 - c.X) > nSol ? 1 : -1);
       var bx = r.x + 10, bw = r.w - 20, top = r.y + r.h * 0.42, bh = r.h * 0.5;
       ctx.fillStyle = T.figInk; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'left';
       ctx.fillText('용액 표면 가까이 (입자 ' + n + '개 중 용질 ' + nSol + '개)', bx, r.y + 16);
@@ -128,12 +129,12 @@ Sims.register('colligative', {
     }
     function drawBoil(T, r) {
       var c = calc(), k = 0.0352, Ps = function (t) { return 760 * Math.exp(k * (t - 100)); }, f = Math.exp(-k * c.dTb);
-      var A = plot(T, r, { title: '끓는점 근처 (확대)', x0: 99, x1: 103, y0: 700, y1: 840, xt: [99, 100, 101, 102, 103], yt: [720, 760, 800],
+      var A = plot(T, r, { title: '끓는점 근처 (확대, mmHg)', x0: 99, x1: 103, y0: 700, y1: 840, xt: [99, 100, 101, 102, 103], yt: [720, 760, 800],
         curves: [{ f: function () { return 760; }, color: T.figMuted, w: 1.2, dash: [5, 4] }, { f: Ps, color: T.figBlue }, { f: function (t) { return Ps(t) * f; }, color: T.figRed }] });
       var bx = A.sx(100 + c.dTb);
       ctx.fillStyle = T.figRed; ctx.beginPath(); ctx.arc(bx, A.sy(760), 4.5, 0, 7); ctx.fill();
       ctx.fillStyle = T.figBlue; ctx.beginPath(); ctx.arc(A.sx(100), A.sy(760), 4.5, 0, 7); ctx.fill();
-      ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left'; ctx.fillStyle = T.figMuted; ctx.fillText('760 mmHg', A.L + 3, A.sy(760) - 5);
+      ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left'; ctx.fillStyle = T.figMuted; ctx.fillText('1 atm (760)', A.L + 3, A.sy(760) - 5);
       ctx.fillStyle = T.figBlue; ctx.fillText('물', A.sx(99.3), A.sy(Ps(99.3)) - 8);
       ctx.fillStyle = T.figRed; ctx.textAlign = 'right'; ctx.fillText('용액', A.R - 4, A.sy(Ps(102.8) * f) + 14);
       if (c.dTb > 0) { ctx.fillStyle = T.figRed; ctx.textAlign = 'center'; ctx.font = '600 11px ' + T.fontBody; ctx.fillText('+' + c.dTb.toFixed(2) + ' °C', (A.sx(100) + bx) / 2 + 10, A.sy(760) + 18); }
@@ -141,7 +142,7 @@ Sims.register('colligative', {
     function drawFreeze(T, r) {
       var c = calc(), kl = 0.0726, ks = 0.0823, P0 = 4.58;
       var Pl = function (t) { return P0 * Math.exp(kl * t); }, Pi = function (t) { return P0 * Math.exp(ks * t); }, f = Math.exp(-(ks - kl) * c.dTf);
-      var A = plot(T, r, { title: '어는점 근처 (확대)', x0: -8, x1: 1, y0: 2, y1: 5.2, xt: [-8, -6, -4, -2, 0], yt: [2, 3, 4, 5],
+      var A = plot(T, r, { title: '어는점 근처 (확대, mmHg)', x0: -8, x1: 1, y0: 2, y1: 5.2, xt: [-8, -6, -4, -2, 0], yt: [2, 3, 4, 5],
         curves: [{ f: Pi, color: T.figViolet, w: 2 }, { f: Pl, color: T.figBlue }, { f: function (t) { return Pl(t) * f; }, color: T.figRed }] });
       var fx = A.sx(-c.dTf);
       ctx.fillStyle = T.figRed; ctx.beginPath(); ctx.arc(fx, A.sy(Pi(-c.dTf)), 4.5, 0, 7); ctx.fill();
@@ -149,15 +150,14 @@ Sims.register('colligative', {
       ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
       ctx.fillStyle = T.figViolet; ctx.fillText('얼음', A.sx(-7.6), A.sy(Pi(-7.6)) + 14);
       ctx.fillStyle = T.figBlue; ctx.fillText('물', A.sx(-3), A.sy(Pl(-3)) - 8);
-      ctx.fillStyle = T.figRed; ctx.fillText('용액', A.sx(-6.2), A.sy(Pl(-6.2) * f) - 6);
-      ctx.fillStyle = T.figMuted; ctx.textAlign = 'right'; ctx.fillText('mmHg', A.L - 4, A.T - 6);
+      ctx.fillStyle = T.figRed; ctx.fillText('용액', A.sx(-3), A.sy(Pl(-3) * f) + 15);
     }
     function drawOsmosis(T) {
       var o = osm(), w = cv.w, h = cv.h, narrow = w < 560;
       var r1 = narrow ? { x: 0, y: 0, w: w, h: h * 0.5 } : { x: 0, y: 0, w: w * 0.45, h: h };
       var r2 = narrow ? { x: 0, y: h * 0.52, w: w, h: h * 0.48 } : { x: w * 0.48, y: 0, w: w * 0.52, h: h };
       // U자관
-      var cx = r1.x + r1.w / 2, aw = Math.min(46, r1.w * 0.13), gap = aw * 1.6, base = r1.y + r1.h - 40, topY = r1.y + 50;
+      var cx = r1.x + r1.w / 2, aw = Math.min(46, r1.w * 0.13), gap = aw * 1.6, base = r1.y + r1.h - aw * 0.8 - 26, topY = r1.y + 50;
       var Lx = cx - gap / 2 - aw, Rx = cx + gap / 2, dh = Math.min(1, o.pi / 10) * (base - topY - 60);
       var mid = (base + topY) / 2 + 20, lv = mid + dh / 2, rv = mid - dh / 2;
       ctx.fillStyle = T.figInk; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'left'; ctx.fillText('삼투 평형 (모식도)', r1.x + 6, r1.y + 16);
@@ -193,8 +193,9 @@ Sims.register('colligative', {
       line(1, st.salt ? T.figLine : T.figAccent, st.salt ? [5, 4] : null);
       line(2, st.salt ? T.figAccent : T.figLine, st.salt ? null : [5, 4]);
       ctx.fillStyle = T.figMuted; ctx.textAlign = 'left';
-      ctx.fillText('NaCl (입자 2배)', sx(Math.min(0.2, pMax / (2 * R * o.T) * 0.6)) + 6, sy(2 * Math.min(0.2, pMax / (2 * R * o.T) * 0.6) * R * o.T) - 6);
-      ctx.fillText('비전해질', sx(0.4) + 4, sy(0.4 * R * o.T) + 16);
+      var cn = Math.min(0.42, 24 / (2 * R * o.T));
+      ctx.textAlign = 'right'; ctx.fillText('NaCl (입자 2배)', sx(cn) - 8, sy(2 * cn * R * o.T));
+      ctx.textAlign = 'left'; ctx.fillText('비전해질', sx(0.42) + 4, sy(0.42 * R * o.T) + 16);
       ctx.fillStyle = T.figRed; ctx.beginPath(); ctx.arc(sx(st.C), sy(Math.min(pMax, o.pi)), 5.5, 0, 7); ctx.fill();
       ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = sx(st.C) > (L + Rr) / 2 ? 'right' : 'left';
       ctx.fillText(o.pi.toFixed(2) + ' atm', sx(st.C) + (ctx.textAlign === 'right' ? -10 : 10), sy(Math.min(pMax, o.pi)) - 8);

@@ -36,8 +36,9 @@ Sims.register('photoelectric', {
     }
     function changed() {
       readouts();
-      if (api.reduced) { snapshot(); draw(); }
-      else { loop.play(); if (!loop.playing) draw(); }
+      snapshot();   // 조건이 바뀌면 이전 광자·전자를 지우고 새 조건으로 다시 진행해 둔다
+      draw();
+      if (!api.reduced) loop.play();
     }
 
     function geo() {

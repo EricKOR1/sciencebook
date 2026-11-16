@@ -124,7 +124,7 @@ Sims.register('meiosis-variation', {
         var cw = Math.min(16, (gw - 20) / st.n);
         for (var i = 0; i < st.n; i++) chromosome(cx - (st.n - 1) * cw / 2 + i * cw, cy - 4, unit * LEN[i] * 0.55, [gm[i]], T);
         ctx.fillStyle = rec ? T.figAmber : T.figMuted; ctx.font = (rec ? '600 ' : '') + '11px ' + T.fontBody; ctx.textAlign = 'center';
-        ctx.fillText(rec ? '교차로 새 조합' : '', cx, cy + gh / 2 - 14);
+        ctx.fillText(rec ? (narrow ? '새 조합' : '교차로 새 조합') : '', cx, cy + gh / 2 - 14);
       });
       // D: 가능한 조합 2ⁿ
       var D = Lo.D, all = Math.pow(2, st.n), cols = Math.min(Lo.cols, all), rows = Math.ceil(all / cols);

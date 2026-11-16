@@ -9,10 +9,10 @@
   </style>
   <text x="20" y="28" class="astro-2-space-motion-lbl astro-2-space-motion-b">공간 속도 = 시선속도 + 접선속도 (서로 수직)</text>
   <line x1="70" y1="250" x2="618.2" y2="135.8" style="stroke:var(--fig-line);stroke-width:1.4;stroke-dasharray:6 5"/>
-  <text x="265.8" y="231.2" text-anchor="middle" class="astro-2-space-motion-sm">시선 방향 (거리 d)</text>
+  <text x="353.9" y="216.9" text-anchor="middle" class="astro-2-space-motion-sm">시선 방향 (거리 d)</text>
   <line x1="70" y1="250" x2="409.8" y2="78.2" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:2 4"/>
   <path d="M158.1 231.6 A90 90 0 0 0 150.3 209.4" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
-  <text x="170.0" y="220.0" class="astro-2-space-motion-sm" style="fill:var(--fig-amber)">고유 운동 μ (″/년)</text>
+  <text x="136.0" y="198.0" text-anchor="end" class="astro-2-space-motion-sm" style="fill:var(--fig-amber)">고유 운동 μ (″/년)</text>
   <circle cx="70" cy="250" r="10" style="fill:var(--fig-teal)"/>
   <text x="70" y="280" text-anchor="middle" class="astro-2-space-motion-lbl astro-2-space-motion-b">태양(지구)</text>
   <path d="M565.2 146.8 L545.0 50.0 L409.8 78.2" style="fill:none;stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:4 4"/>
@@ -24,9 +24,9 @@
   <path d="M545.0 50.0 L541.3 60.4 L535.0 54.6 Z" style="fill:var(--fig-ink)"/>
   <circle cx="430" cy="175" r="9" style="fill:var(--fig-amber);stroke:var(--fig-ink);stroke-width:1.2"/>
   <text x="436" y="205" class="astro-2-space-motion-lbl">별</text>
-  <text x="575.2" y="164.8" class="astro-2-space-motion-lbl astro-2-space-motion-b" style="fill:var(--fig-red)">시선속도 v_r</text>
-  <text x="575.2" y="182.8" class="astro-2-space-motion-sm">스펙트럼선의 도플러 이동</text>
-  <text x="575.2" y="199.8" class="astro-2-space-motion-sm">v_r = c·Δλ/λ₀ (멀어지면 +)</text>
+  <text x="515" y="174.8" class="astro-2-space-motion-lbl astro-2-space-motion-b" style="fill:var(--fig-red)">시선속도 v_r</text>
+  <text x="515" y="192.8" class="astro-2-space-motion-sm">스펙트럼선의 도플러 이동</text>
+  <text x="515" y="209.8" class="astro-2-space-motion-sm">v_r = c·Δλ/λ₀ (멀어지면 +)</text>
   <text x="399.8" y="80.2" text-anchor="end" class="astro-2-space-motion-lbl astro-2-space-motion-b" style="fill:var(--fig-blue)">접선속도 v_t</text>
   <text x="399.8" y="98.2" text-anchor="end" class="astro-2-space-motion-sm">하늘 면을 따라 움직임</text>
   <text x="399.8" y="115.2" text-anchor="end" class="astro-2-space-motion-sm">v_t = 4.74 μ d (km/s)</text>

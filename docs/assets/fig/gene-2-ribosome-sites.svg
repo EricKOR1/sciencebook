@@ -61,15 +61,16 @@
   <text x="320.0" y="146" text-anchor="middle" class="gene-2-ribosome-sites-aat">Gly</text>
   <path d="M264.0 130 Q286.0 104 308.0 130" class="gene-2-ribosome-sites-ar"/>
   <path d="M308.0 130.0 L299.5 127.1 L304.5 121.7 Z" class="gene-2-ribosome-sites-ah"/>
-  <text x="312.0" y="98" class="gene-2-ribosome-sites-tx" style="fill:var(--fig-red)">펩타이드 결합 형성</text>
+  <text x="306.0" y="56" text-anchor="middle" class="gene-2-ribosome-sites-tx" style="fill:var(--fig-red)">펩타이드 결합 형성</text>
   <path d="M146.0 154 L110.0 126" class="gene-2-ribosome-sites-ar"/>
   <path d="M110.0 126.0 L118.7 128.1 L114.2 133.9 Z" class="gene-2-ribosome-sites-ah"/>
-  <text x="106.0" y="118" text-anchor="middle" class="gene-2-ribosome-sites-sm">빈 tRNA가 떠남</text>
+  <text x="104.0" y="120" text-anchor="end" class="gene-2-ribosome-sites-sm">빈 tRNA가</text>
+  <text x="104.0" y="137" text-anchor="end" class="gene-2-ribosome-sites-sm">떠남</text>
   <path d="M176 340 L408 340" class="gene-2-ribosome-sites-ar2"/>
   <path d="M408.0 340.0 L399.8 343.7 L399.8 336.3 Z" class="gene-2-ribosome-sites-ah2"/>
   <text x="272.0" y="360" text-anchor="middle" class="gene-2-ribosome-sites-sm">리보솜은 mRNA의 3′ 쪽으로 코돈 하나씩 이동</text>
-  <text x="148" y="62" class="gene-2-ribosome-sites-sm">큰 소단위체</text>
-  <text x="382" y="308" class="gene-2-ribosome-sites-sm">작은 소단위체</text>
+  <text x="130" y="84" text-anchor="end" class="gene-2-ribosome-sites-sm">큰 소단위체</text>
+  <text x="124" y="312" text-anchor="end" class="gene-2-ribosome-sites-sm">작은 소단위체</text>
   <text x="500" y="96" class="gene-2-ribosome-sites-h">리보솜의 세 자리</text>
   <text x="500" y="124" class="gene-2-ribosome-sites-site" style="font-size:16px">A 자리</text>
   <text x="500" y="143" class="gene-2-ribosome-sites-sm">새 아미노산을 단 tRNA가 들어온다</text>

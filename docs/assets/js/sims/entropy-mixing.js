@@ -136,9 +136,9 @@ Sims.register('entropy-mixing', {
       });
       // 모두 왼쪽 표시
       var xN = L + N * bw + bw / 2;
-      ctx.strokeStyle = T.figRed; ctx.lineWidth = 1.2; ctx.beginPath(); ctx.moveTo(xN, B - 2); ctx.lineTo(xN, B - 22); ctx.stroke();
+      ctx.strokeStyle = T.figRed; ctx.lineWidth = 1.2; var ly = B - (B - Tp) * 0.45; ctx.beginPath(); ctx.moveTo(xN, B - 2); ctx.lineTo(xN, ly + 4); ctx.stroke();
       ctx.fillStyle = T.figRed; ctx.font = '600 11px ' + T.fontBody; ctx.textAlign = 'right';
-      ctx.fillText('모두 왼쪽: ' + probText(N), xN + 4, B - 26);
+      ctx.fillText('모두 왼쪽: ' + probText(N), xN + 4, ly);
       ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'center';
       ctx.fillText('0', L + bw / 2, B + 13); ctx.fillText(String(N), xN, B + 13); ctx.fillText(String(N / 2), L + (N / 2) * bw + bw / 2, B + 13);
       ctx.fillText('왼쪽에 있는 입자 수 (파란 막대: 지금 상태)', (L + R) / 2, B + 28);
@@ -185,7 +185,8 @@ Sims.register('entropy-mixing', {
         if (i === 2) { ctx.strokeStyle = T.figLine; ctx.setLineDash([3, 3]); ctx.beginPath(); ctx.moveTo(L, y + 4); ctx.lineTo(R, y + 4); ctx.stroke(); ctx.setLineDash([]); }
       });
       ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
-      ctx.fillText('같은 양의 열이라도 온도가 낮을수록 주위의 엔트로피를 크게 바꾼다.', L, h - 12);
+      if (narrow) { ctx.fillText('같은 양의 열이라도 온도가 낮을수록', L, h - 26); ctx.fillText('주위의 엔트로피를 크게 바꾼다.', L, h - 10); }
+      else ctx.fillText('같은 양의 열이라도 온도가 낮을수록 주위의 엔트로피를 크게 바꾼다.', L, h - 12);
     }
 
     api.onResize(draw);

@@ -123,7 +123,7 @@ Sims.register('quadrat-survey', {
     }
     function drawTable(T, r) {
       var narrow = cv.w < 560;
-      var cols = [{ k: '종', w: 1.45 }, { k: '개체 수', w: 1 }, { k: '출현\n방형구', w: 1 }, { k: '덮은\n넓이 m²', w: 1.1 },
+      var cols = [{ k: '종', w: 1.45 }, { k: '개체 수', w: 1 }, { k: '출현\n방형구', w: 1 }, { k: '덮은\n넓이(m²)', w: 1.1 },
         { k: '상대\n밀도 %', w: 1.05 }, { k: '상대\n빈도 %', w: 1.05 }, { k: '상대\n피도 %', w: 1.05 }, { k: '중요치', w: 1.1 }];
       var tw = cols.reduce(function (a, c) { return a + c.w; }, 0), unit = (r.w - 4) / tw;
       var rowH = narrow ? 30 : Math.min(36, (r.h - 80) / 5), headH = 34, x0 = r.x + 2, y0 = r.y + 4;

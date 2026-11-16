@@ -64,13 +64,13 @@ Sims.register('ph-dilution', {
       ctx.font = '11px ' + T.fontBody; ctx.fillText('10배 희석 횟수', (L + R) / 2, B + 28);
       // 중성선
       ctx.strokeStyle = T.figGreen; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.moveTo(L, sy(7)); ctx.lineTo(R, sy(7)); ctx.stroke();
-      ctx.fillStyle = T.figGreen; ctx.textAlign = 'right'; ctx.font = '600 11px ' + T.fontBody; ctx.fillText('중성 pH 7', R, sy(7) + (acid ? 14 : -6));
+      ctx.fillStyle = T.figGreen; ctx.textAlign = 'left'; ctx.font = '600 11px ' + T.fontBody; ctx.fillText('중성 pH 7', L + 4, sy(7) + (acid ? -6 : 14));
       // 물을 무시한 예상(점선)
       ctx.setLineDash([5, 4]); ctx.strokeStyle = T.figMuted; ctx.lineWidth = 1.5; ctx.beginPath();
       for (var k = 0; k <= NMAX; k++) { var pn = acid ? 1 + k : 13 - k; var X = sx(k), Y = sy(Math.max(0, Math.min(14, pn))); if (k) ctx.lineTo(X, Y); else ctx.moveTo(X, Y); }
       ctx.stroke(); ctx.setLineDash([]);
-      ctx.fillStyle = T.figMuted; ctx.textAlign = 'left'; ctx.font = '11px ' + T.fontBody;
-      ctx.fillText('물을 무시한 예상(틀림)', sx(6.6), sy(acid ? 9.6 : 4.4) + (acid ? -14 : 14));
+      ctx.fillStyle = T.figMuted; ctx.textAlign = 'right'; ctx.font = '11px ' + T.fontBody;
+      ctx.fillText('점선: 물을 무시한 예상(틀림)', R, sy(acid ? 12.5 : 1.5));
       // 실제 값
       var col = acid ? T.figRed : T.figBlue;
       ctx.strokeStyle = col; ctx.lineWidth = 2.4; ctx.beginPath();

@@ -32,7 +32,7 @@ Sims.register('crystal-types', {
       var a = [], d = 1.1;
       for (var i = 0; i < 3; i++) for (var j = 0; j < 3; j++) for (var k = 0; k < 3; k++)
         add(a, [(i - 1) * d, (j - 1) * d, (k - 1) * d], (i + j + k) % 2 === 0 ? 'na' : 'cl', j === 2);
-      S_.ion = { atoms: a, bonds: near(a, d * 1.01, true), shift: [d, 0, 0], lift: 0.45, inter: true };
+      S_.ion = { atoms: a, bonds: near(a, d * 1.01, true), shift: [d, 0, 0], lift: 0.35, inter: true };
     })();
     (function () { // 분자 결정: CO2
       var a = [], A = 2.7, mols = [], bonds = [];
@@ -113,6 +113,15 @@ Sims.register('crystal-types', {
     var S = api.scene3d({
       yaw: 0.6, pitch: 0.38, dist: 11, scale: 0.15, label: '선택한 결정의 입체 모형',
       aspect: function (w) { return w < 560 ? 0.95 : 0.56; },
+      overlay: function (c, T, S2) {
+        if (!st.elec) return;
+        var flows = st.type === 'met' || st.type === 'gra', w = S2.w, h = S2.h;
+        c.font = '600 22px ' + T.fontBody; c.textAlign = 'center';
+        c.fillStyle = T.figBlue; c.fillText('−', 18, h / 2); c.fillStyle = T.figRed; c.fillText('+', w - 18, h / 2);
+        c.fillStyle = T.figBlue; c.fillRect(4, h * 0.2, 5, h * 0.6); c.fillStyle = T.figRed; c.fillRect(w - 9, h * 0.2, 5, h * 0.6);
+        c.font = '600 12px ' + T.fontBody; c.fillStyle = flows ? T.figBlue : T.figMuted;
+        c.fillText(flows ? '전자가 + 극 쪽으로 이동 → 전류가 흐른다' : '움직일 수 있는 전하가 없다 → 전류가 흐르지 않는다', w / 2, h - 10);
+      },
       draw: function (g, T) {
         var D = S_[st.type], s = st.slide;
         var shake = st.type === 'dia' && s > 0 ? Math.sin(st.t * 40) * 0.03 * (1 - Math.abs(2 * s - 1)) : 0;
@@ -157,13 +166,6 @@ Sims.register('crystal-types', {
             if (st.type === 'gra' && x * x + p[2] * p[2] > 4) return;
             g.sphere([x, y, p[2]], 0.08, T.figBlue, { flat: true, alpha: 0.9 });
           });
-        }
-        if (st.elec) {
-          g.text([-2.9, 0, 0], '−', { size: 22, bold: true, color: T.figBlue });
-          g.text([2.9, 0, 0], '+', { size: 22, bold: true, color: T.figRed });
-          var flows = st.type === 'met' || st.type === 'gra';
-          g.arrow([-1.6, -2.1, 0], [1.6, -2.1, 0], flows ? T.figBlue : T.figLine, { width: 2.5 });
-          g.text([0, -2.45, 0], flows ? '전자가 + 쪽으로 이동 → 전류가 흐른다' : '움직일 수 있는 전하가 없다 → 전류 ×', { size: 12, color: flows ? T.figBlue : T.figMuted });
         }
       },
     });

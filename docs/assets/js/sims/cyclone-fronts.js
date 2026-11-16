@@ -211,8 +211,8 @@ Sims.register('cyclone-fronts', {
       ctx.fillText('찬 공기', X(c - 650), Y(520));
       // 전선 이름
       ctx.font = fs + 'px ' + T.fontBody;
-      var wt = thW(1050) * D; ctx.fillStyle = T.figRed; ctx.textAlign = 'left';
-      ctx.fillText('온난 전선', X(c + 1050 * Math.cos(wt)) + 10, Y(1050 * Math.sin(wt)) - 8);
+      var wt = thW(330) * D; ctx.fillStyle = T.figRed; ctx.textAlign = 'left';
+      ctx.fillText('온난 전선', X(c + 330 * Math.cos(wt)) + 8, Y(330 * Math.sin(wt)) - 6);
       var ct = thC(600) * D; ctx.fillStyle = T.figBlue; ctx.textAlign = 'left';
       ctx.fillText('한랭 전선', X(c + 600 * Math.cos(ct)) + 14, Y(600 * Math.sin(ct)));
       // 관측소
@@ -225,8 +225,8 @@ Sims.register('cyclone-fronts', {
       ctx.fillText('관측소 ' + (st.which || ''), sxp + 10, syp + (st.sy < 0 ? fs + 10 : -12));
       // 방위·축척·범례
       ctx.fillStyle = T.figInk; ctx.font = '600 ' + fs + 'px ' + T.fontBody; ctx.textAlign = 'center';
-      arrow(r.x + 20, r.y + 44, r.x + 20, r.y + 14, T.figInk, 1.6);
-      ctx.fillText('N', r.x + 20, r.y + 58);
+      arrow(r.x + r.w - 20, r.y + 44, r.x + r.w - 20, r.y + 14, T.figInk, 1.6);
+      ctx.fillText('N', r.x + r.w - 20, r.y + 58);
       var sb = 500 * s, bx = r.x + r.w - sb - 12, by = r.y + r.h - 14;
       ctx.strokeStyle = T.figInk; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(bx, by); ctx.lineTo(bx + sb, by); ctx.stroke();
       ctx.font = '11px ' + T.fontBody; ctx.fillText('500 km', bx + sb / 2, by - 5);

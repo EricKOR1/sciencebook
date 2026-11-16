@@ -35,7 +35,7 @@ Sims.register('wave-interference', {
     function geometry(r) {
       var res = 2;   // 화면 2픽셀당 계산 1점
       var gw = Math.max(40, Math.floor(r.w / res)), gh = Math.max(30, Math.floor(r.h / res));
-      var lamP = st.lam / 650 * 7, dP = st.d / 0.25 * 18;   // 계산 격자 단위
+      var lamP = st.lam / 650 * 6, dP = st.d / 0.25 * 24;   // 계산 격자 단위
       var bx = Math.round(Math.min(gw * 0.12, 40)), scrX = Math.round(bx + Math.min(gw - bx - 8, gh * (0.75 + 0.85 * (st.L - 1) / 2)));
       var cy = gh / 2, s1 = cy - dP / 2, s2 = cy + dP / 2, k = 2 * Math.PI / lamP;
       var ph1 = new Float32Array(gw * gh), ph2 = new Float32Array(gw * gh), am1 = new Float32Array(gw * gh), am2 = new Float32Array(gw * gh);
