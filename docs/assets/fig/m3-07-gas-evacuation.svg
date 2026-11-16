@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 376" role="img" aria-labelledby="t-m3-07-gas-evacuation d-m3-07-gas-evacuation">
+  <title id="t-m3-07-gas-evacuation">그림 중3-7-1 화학물질 유출 때의 대피 방향</title>
+  <desc id="d-m3-07-gas-evacuation">새어 나온 기체는 바람을 타고 바람이 불어 가는 쪽으로 넓게 퍼진다. 그래서 바람이 불어오는 쪽이나 바람 방향과 직각 방향으로 대피한다. 공기보다 무거운 기체는 낮은 곳과 지하에 고이므로 그런 곳은 피한다.</desc>
+  <style>
+    .m3-07-gas-evacuation-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .m3-07-gas-evacuation-tx{font-size:14px;fill:var(--fig-ink)}
+    .m3-07-gas-evacuation-sm{font-size:13px;fill:var(--fig-muted)}
+    .m3-07-gas-evacuation-ok{fill:none;stroke:var(--fig-green);stroke-width:4;stroke-linecap:round}
+    .m3-07-gas-evacuation-no{fill:none;stroke:var(--fig-red);stroke-width:4;stroke-linecap:round}
+  </style>
+  <rect x="16" y="16" width="420" height="300" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="32" y="42" class="m3-07-gas-evacuation-lbl">위에서 본 모습</text>
+  <line x1="250" y1="66" x2="330" y2="66" style="stroke:var(--fig-teal);stroke-width:3"/>
+  <path d="M340 66 l-12 -7 l0 14 z" style="fill:var(--fig-teal)"/>
+  <text x="350" y="71" class="m3-07-gas-evacuation-tx" style="fill:var(--fig-teal);font-weight:600">바람</text>
+  <path d="M110 172 Q 260 130 430 88 L430 272 Q 260 230 110 188 Z" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.2;stroke-dasharray:5 4"/>
+  <text x="360" y="185" text-anchor="middle" class="m3-07-gas-evacuation-sm" style="fill:var(--fig-red)">퍼지는 기체</text>
+  <rect x="84" y="162" width="30" height="36" rx="6" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <text x="99" y="220" text-anchor="middle" class="m3-07-gas-evacuation-sm">유출 지점</text>
+  <circle cx="200" cy="174" r="6" style="fill:var(--fig-ink)"/><rect x="195" y="181" width="10" height="16" rx="4" style="fill:var(--fig-ink)"/>
+  <line x1="200" y1="202" x2="200.0" y2="280.0" class="m3-07-gas-evacuation-ok"/>
+  <path d="M200 286 L194.8 275.2 L205.2 275.2 Z" style="fill:var(--fig-green)"/>
+  <text x="210" y="282" class="m3-07-gas-evacuation-tx" style="fill:var(--fig-green);font-weight:600">○ 바람과 직각 방향</text>
+  <line x1="190" y1="164" x2="124.2" y2="96.3" class="m3-07-gas-evacuation-ok"/>
+  <path d="M120 92 L131.3 96.1 L123.8 103.4 Z" style="fill:var(--fig-green)"/>
+  <text x="32" y="80" class="m3-07-gas-evacuation-tx" style="fill:var(--fig-green);font-weight:600">○ 바람이 불어오는 쪽</text>
+  <line x1="212" y1="188" x2="294.0" y2="188.0" class="m3-07-gas-evacuation-no"/>
+  <path d="M300 188 L289.2 193.2 L289.2 182.8 Z" style="fill:var(--fig-red)"/>
+  <text x="254" y="216" class="m3-07-gas-evacuation-tx" style="fill:var(--fig-red);font-weight:600">✕ 바람 따라가기</text>
+  <rect x="452" y="16" width="252" height="300" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="468" y="42" class="m3-07-gas-evacuation-lbl">옆에서 본 모습</text>
+  <path d="M452 230 L572 230 L572 280 L652 280 L652 230 L704 230 L704 316 L452 316 Z" style="fill:var(--fig-soft-amber);stroke:none"/>
+  <path d="M452 230 L572 230 L572 280 L652 280 L652 230 L704 230" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
+  <path d="M572 248 Q 612 240 652 248 L652 280 L572 280 Z" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.2"/>
+  <path d="M460 230 Q 512 214 572 226 L572 230 L460 230 Z" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.2"/>
+  <text x="612" y="270" text-anchor="middle" class="m3-07-gas-evacuation-sm" style="fill:var(--fig-red)">지하</text>
+  <rect x="482" y="80" width="60" height="150" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.5"/>
+  <rect x="492" y="92" width="16" height="14" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="516" y="92" width="16" height="14" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="492" y="120" width="16" height="14" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="516" y="120" width="16" height="14" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="492" y="148" width="16" height="14" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="516" y="148" width="16" height="14" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="492" y="176" width="16" height="14" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="516" y="176" width="16" height="14" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="492" y="204" width="16" height="14" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="516" y="204" width="16" height="14" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <text x="556" y="102" class="m3-07-gas-evacuation-sm">실내에서는</text>
+  <text x="556" y="120" class="m3-07-gas-evacuation-sm">창문을 닫고</text>
+  <text x="556" y="138" class="m3-07-gas-evacuation-sm">틈을 막는다</text>
+  <text x="556" y="172" class="m3-07-gas-evacuation-sm" style="fill:var(--fig-red)">무거운 기체는</text>
+  <text x="556" y="190" class="m3-07-gas-evacuation-sm" style="fill:var(--fig-red)">낮은 곳·지하에</text>
+  <text x="556" y="208" class="m3-07-gas-evacuation-sm" style="fill:var(--fig-red)">고인다</text>
+  <text x="360" y="338" text-anchor="middle" class="m3-07-gas-evacuation-sm" style="fill:var(--fig-ink)">기체는 확산하며 바람을 타고 퍼진다. 공기보다 무거운 기체(예: 염소)는 낮은 곳과 지하에 고인다.</text>
+  <text x="360" y="358" text-anchor="middle" class="m3-07-gas-evacuation-sm">모식도: 실제로는 유출된 물질의 종류와 안내 방송에 따라 대피한다.</text>
+</svg>

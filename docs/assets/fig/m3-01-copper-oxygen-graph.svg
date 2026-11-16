@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-m3-01-copper-oxygen-graph d-m3-01-copper-oxygen-graph">
+  <title id="t-m3-01-copper-oxygen-graph">그림 중3-1-2 구리의 질량과 결합한 산소의 질량</title>
+  <desc id="d-m3-01-copper-oxygen-graph">구리 가루를 가열한 네 모둠의 자료이다. 생성된 산화 구리(II)의 질량과 결합한 산소의 질량은 모두 구리의 질량에 비례하여 원점을 지나는 직선이 되고, 구리와 산소의 질량비는 언제나 4 : 1이다.</desc>
+  <style>
+    .m3-01-copper-oxygen-graph-t{font-size:13px;fill:var(--fig-muted)}
+    .m3-01-copper-oxygen-graph-l{font-size:14px;fill:var(--fig-ink)}
+    .m3-01-copper-oxygen-graph-b{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .m3-01-copper-oxygen-graph-g{stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4;fill:none}
+  </style>
+  <!-- 눈금선 -->
+  <line x1="90" y1="240" x2="520" y2="240" class="m3-01-copper-oxygen-graph-g"/>
+  <line x1="90" y1="180" x2="520" y2="180" class="m3-01-copper-oxygen-graph-g"/>
+  <line x1="90" y1="120" x2="520" y2="120" class="m3-01-copper-oxygen-graph-g"/>
+  <line x1="90" y1="60" x2="520" y2="60" class="m3-01-copper-oxygen-graph-g"/>
+  <!-- 축 -->
+  <line x1="90" y1="300" x2="530" y2="300" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+  <line x1="90" y1="300" x2="90" y2="36" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+  <text x="84" y="304" text-anchor="end" class="m3-01-copper-oxygen-graph-t">0</text>
+  <text x="84" y="244" text-anchor="end" class="m3-01-copper-oxygen-graph-t">0.5</text>
+  <text x="84" y="184" text-anchor="end" class="m3-01-copper-oxygen-graph-t">1.0</text>
+  <text x="84" y="124" text-anchor="end" class="m3-01-copper-oxygen-graph-t">1.5</text>
+  <text x="84" y="64" text-anchor="end" class="m3-01-copper-oxygen-graph-t">2.0</text>
+  <text x="176" y="320" text-anchor="middle" class="m3-01-copper-oxygen-graph-t">0.4</text>
+  <text x="262" y="320" text-anchor="middle" class="m3-01-copper-oxygen-graph-t">0.8</text>
+  <text x="348" y="320" text-anchor="middle" class="m3-01-copper-oxygen-graph-t">1.2</text>
+  <text x="434" y="320" text-anchor="middle" class="m3-01-copper-oxygen-graph-t">1.6</text>
+  <text x="310" y="346" text-anchor="middle" class="m3-01-copper-oxygen-graph-l">구리의 질량 (g)</text>
+  <text x="26" y="168" text-anchor="middle" transform="rotate(-90 26 168)" class="m3-01-copper-oxygen-graph-l">질량 (g)</text>
+  <!-- 산화 구리(II) -->
+  <line x1="90" y1="300" x2="477" y2="30" style="stroke:var(--fig-violet);stroke-width:2.5"/>
+  <circle cx="176" cy="240" r="5" style="fill:var(--fig-violet)"/>
+  <circle cx="262" cy="180" r="5" style="fill:var(--fig-violet)"/>
+  <circle cx="348" cy="120" r="5" style="fill:var(--fig-violet)"/>
+  <circle cx="434" cy="60" r="5" style="fill:var(--fig-violet)"/>
+  <text x="360" y="72" text-anchor="end" class="m3-01-copper-oxygen-graph-l" style="fill:var(--fig-violet);font-weight:600">생성된 산화 구리(II)</text>
+  <!-- 결합한 산소 -->
+  <line x1="90" y1="300" x2="520" y2="240" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <circle cx="176" cy="288" r="5" style="fill:var(--fig-red)"/>
+  <circle cx="262" cy="276" r="5" style="fill:var(--fig-red)"/>
+  <circle cx="348" cy="264" r="5" style="fill:var(--fig-red)"/>
+  <circle cx="434" cy="252" r="5" style="fill:var(--fig-red)"/>
+  <text x="520" y="226" text-anchor="end" class="m3-01-copper-oxygen-graph-l" style="fill:var(--fig-red);font-weight:600">결합한 산소</text>
+  <!-- 구리 1.6 g 표시 -->
+  <line x1="446" y1="252" x2="446" y2="300" style="stroke:var(--fig-red);stroke-width:1.5"/>
+  <line x1="441" y1="252" x2="451" y2="252" style="stroke:var(--fig-red);stroke-width:1.5"/>
+  <line x1="441" y1="300" x2="451" y2="300" style="stroke:var(--fig-red);stroke-width:1.5"/>
+  <text x="456" y="282" class="m3-01-copper-oxygen-graph-t">0.40 g</text>
+  <!-- 설명 -->
+  <rect x="548" y="60" width="160" height="196" rx="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <text x="628" y="88" text-anchor="middle" class="m3-01-copper-oxygen-graph-b">구리 : 산소</text>
+  <text x="628" y="114" text-anchor="middle" class="m3-01-copper-oxygen-graph-l">0.40 : 0.10</text>
+  <text x="628" y="136" text-anchor="middle" class="m3-01-copper-oxygen-graph-l">0.80 : 0.20</text>
+  <text x="628" y="158" text-anchor="middle" class="m3-01-copper-oxygen-graph-l">1.20 : 0.30</text>
+  <text x="628" y="180" text-anchor="middle" class="m3-01-copper-oxygen-graph-l">1.60 : 0.40</text>
+  <line x1="566" y1="194" x2="690" y2="194" style="stroke:var(--fig-amber);stroke-width:1"/>
+  <text x="628" y="218" text-anchor="middle" class="m3-01-copper-oxygen-graph-b">= 4 : 1 (일정)</text>
+  <text x="628" y="242" text-anchor="middle" class="m3-01-copper-oxygen-graph-t">원점을 지나는 직선</text>
+</svg>

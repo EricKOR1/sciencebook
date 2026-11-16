@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-mech-1-incline-forces d-mech-1-incline-forces">
+  <title id="t-mech-1-incline-forces">그림 역학과 에너지 1-1 빗면 위 물체에 작용하는 힘의 분해</title>
+  <desc id="d-mech-1-incline-forces">경사각 θ인 빗면 위 상자에 중력 mg, 수직항력 N, 마찰력 f가 작용한다. 중력을 빗면에 나란한 성분 mg sinθ와 빗면에 수직인 성분 mg cosθ로 나누면, 수직 방향은 N = mg cosθ로 평형이고 빗면 방향으로 가속도가 생긴다.</desc>
+  <style>
+    .mech-1-incline-forces-lbl{font-size:15px;fill:var(--fig-ink)} .mech-1-incline-forces-sm{font-size:13px;fill:var(--fig-muted)}
+    .mech-1-incline-forces-ks{stroke:var(--fig-ink);fill:none} .mech-1-incline-forces-kf{fill:var(--fig-ink)}
+    .mech-1-incline-forces-rs{stroke:var(--fig-red);fill:none} .mech-1-incline-forces-rf{fill:var(--fig-red)}
+    .mech-1-incline-forces-bs{stroke:var(--fig-blue);fill:none} .mech-1-incline-forces-bf{fill:var(--fig-blue)}
+    .mech-1-incline-forces-gs{stroke:var(--fig-green);fill:none} .mech-1-incline-forces-gf{fill:var(--fig-green)}
+    .mech-1-incline-forces-as{stroke:var(--fig-amber);fill:none} .mech-1-incline-forces-af{fill:var(--fig-amber)}
+  </style>
+  <path d="M60.0 310.0 L470.0 310.0 L470.0 73.3 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="20" y1="310" x2="480" y2="310" style="stroke:var(--fig-line);stroke-width:2"/>
+  <path d="M112 310 A52 52 0 0 0 105.0 284.0" style="fill:none;stroke:var(--fig-ink);stroke-width:1.5"/>
+  <text x="120" y="300" class="mech-1-incline-forces-lbl">θ</text>
+  <path d="M205.3 152.2 L260.7 120.2 L292.7 175.6 L237.3 207.6 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <!-- 성분 보조선 -->
+  <line x1="192.7" y1="196.4" x2="249.0" y2="293.9" style="stroke:var(--fig-line);stroke-width:1.5;stroke-dasharray:5 4;fill:none"/>
+  <line x1="305.3" y1="261.4" x2="249.0" y2="293.9" style="stroke:var(--fig-line);stroke-width:1.5;stroke-dasharray:5 4;fill:none"/>
+  <line x1="249.0" y1="163.9" x2="249.0" y2="282.9" class="mech-1-incline-forces-ks" style="stroke-width:3.5"/><path d="M249.0 293.9 L243.5 282.9 L254.5 282.9 Z" class="mech-1-incline-forces-kf"/>
+  <line x1="249.0" y1="163.9" x2="202.2" y2="190.9" class="mech-1-incline-forces-rs" style="stroke-width:3"/><path d="M192.7 196.4 L199.5 186.2 L205.0 195.7 Z" class="mech-1-incline-forces-rf"/>
+  <line x1="249.0" y1="163.9" x2="299.8" y2="251.9" class="mech-1-incline-forces-rs" style="stroke-width:3"/><path d="M305.3 261.4 L295.0 254.7 L304.6 249.2 Z" class="mech-1-incline-forces-rf"/>
+  <line x1="249.0" y1="163.9" x2="198.2" y2="76.0" class="mech-1-incline-forces-bs" style="stroke-width:3.5"/><path d="M192.7 66.4 L203.0 73.2 L193.4 78.7 Z" class="mech-1-incline-forces-bf"/>
+  <line x1="265.0" y1="191.6" x2="290.1" y2="177.1" class="mech-1-incline-forces-gs" style="stroke-width:3.5"/><path d="M299.6 171.6 L292.9 181.9 L287.4 172.4 Z" class="mech-1-incline-forces-gf"/>
+  <circle cx="249.0" cy="163.9" r="3.5" class="mech-1-incline-forces-kf"/>
+  <!-- mg와 빗면 수직 방향 사이의 각 θ -->
+  <path d="M249.0 203.9 A40 40 0 0 0 269.0 198.6" style="fill:none;stroke:var(--fig-ink);stroke-width:1.3"/>
+  <text x="257.0" y="221.9" class="mech-1-incline-forces-sm" style="fill:var(--fig-ink)">θ</text>
+  <text x="237.0" y="311.9" class="mech-1-incline-forces-lbl" style="font-weight:600" text-anchor="end">mg</text>
+  <text x="184.7" y="200.4" class="mech-1-incline-forces-lbl" style="fill:var(--fig-red)" text-anchor="end">mg sinθ</text>
+  <text x="313.3" y="267.4" class="mech-1-incline-forces-lbl" style="fill:var(--fig-red)">mg cosθ</text>
+  <text x="184.7" y="68.4" class="mech-1-incline-forces-lbl" style="fill:var(--fig-blue);font-weight:600" text-anchor="end">N</text>
+  <text x="305.6" y="165.6" class="mech-1-incline-forces-lbl" style="fill:var(--fig-green);font-weight:600">f (마찰력)</text>
+  <!-- 오른쪽 정리 -->
+  <rect x="496" y="40" width="206" height="250" rx="10" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="512" y="68" class="mech-1-incline-forces-lbl" style="font-weight:600">축을 빗면에 맞추면</text>
+  <text x="512" y="98" class="mech-1-incline-forces-sm">빗면에 수직 (움직이지 않음)</text>
+  <text x="512" y="122" class="mech-1-incline-forces-lbl">N = mg cosθ</text>
+  <text x="512" y="156" class="mech-1-incline-forces-sm">빗면 방향 (아래쪽 +)</text>
+  <text x="512" y="180" class="mech-1-incline-forces-lbl">mg sinθ − f = ma</text>
+  <text x="512" y="214" class="mech-1-incline-forces-sm">운동 마찰력 f = μₖN 이면</text>
+  <text x="512" y="238" class="mech-1-incline-forces-lbl">a = g(sinθ − μₖcosθ)</text>
+  <text x="512" y="270" class="mech-1-incline-forces-sm">빨간 화살표 = 중력의 두 성분</text>
+  <text x="360" y="345" text-anchor="middle" class="mech-1-incline-forces-sm">중력을 성분으로 나누었으므로, 원래의 mg와 두 성분을 함께 더하지 않는다(힘을 두 번 세지 않기)</text>
+</svg>

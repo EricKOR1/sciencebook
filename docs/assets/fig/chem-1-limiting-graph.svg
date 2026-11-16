@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-chem-1-limiting-graph d-chem-1-limiting-graph">
+  <title id="t-chem-1-limiting-graph">그림 화학 1-2 한계 반응물이 바뀌는 점 — 마그네슘과 염산</title>
+  <desc id="d-chem-1-limiting-graph">일정한 양의 묽은 염산에 넣는 마그네슘의 질량을 늘리면, 수소의 부피는 처음에는 마그네슘 질량에 비례하여 늘다가 염산이 모두 쓰인 뒤로는 더 늘지 않는다. 꺾이는 점에서 두 반응물이 계수비(1 : 2)대로 정확히 반응한다.</desc>
+  <style>
+    .c1lg-ink{fill:var(--fig-ink)} .c1lg-mut{fill:var(--fig-muted)}
+    .c1lg-lbl{font-size:14px;fill:var(--fig-ink)} .c1lg-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .c1lg-sm{font-size:13px;fill:var(--fig-muted)}
+    .c1lg-H{fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2} .c1lg-O{fill:var(--fig-red);stroke:var(--fig-red);stroke-width:1} .c1lg-C{fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1} .c1lg-N{fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1}
+    
+  </style>
+  <rect x="90" y="40" width="240" height="220" style="fill:var(--fig-soft-blue)"/>
+  <rect x="330" y="40" width="310" height="220" style="fill:var(--fig-soft-amber)"/>
+  <line x1="90" y1="260" x2="650" y2="260" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <line x1="90" y1="260" x2="90" y2="28" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <path d="M656 260 l-9 -5 l0 10 z" class="c1lg-ink"/><path d="M90 22 l-5 9 l10 0 z" class="c1lg-ink"/>
+  <polyline points="90,260 330,110 640,110" style="fill:none;stroke:var(--fig-accent);stroke-width:3.5;stroke-linejoin:round"/>
+  <line x1="330" y1="110" x2="330" y2="260" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:5 4"/>
+  <line x1="90" y1="110" x2="330" y2="110" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:5 4"/>
+  <circle cx="330" cy="110" r="6" style="fill:var(--fig-accent);stroke:var(--fig-panel);stroke-width:2"/>
+  <text x="330" y="76" text-anchor="middle" class="c1lg-b">꺾이는 점</text>
+  <text x="330" y="94" text-anchor="middle" class="c1lg-sm">Mg : HCl = 1 : 2 (몰수비)로 정확히 반응</text>
+  <text x="102" y="62" class="c1lg-b" style="fill:var(--fig-blue)">한계 반응물: Mg</text>
+  <text x="102" y="82" class="c1lg-sm">HCl이 남는다</text>
+  <text x="240.0" y="210" text-anchor="middle" class="c1lg-sm">Mg 질량에 비례하여 증가</text>
+  <text x="628" y="62" text-anchor="end" class="c1lg-b" style="fill:var(--fig-amber)">한계 반응물: HCl</text>
+  <text x="628" y="82" text-anchor="end" class="c1lg-sm">Mg가 남는다</text>
+  <text x="485.0" y="138" text-anchor="middle" class="c1lg-sm">수소가 더 생기지 않는다(수평)</text>
+  <text x="365.0" y="290" text-anchor="middle" class="c1lg-lbl">넣은 마그네슘의 질량 →</text>
+  <text x="74" y="150.0" text-anchor="middle" class="c1lg-lbl" transform="rotate(-90 74 150.0)">발생한 수소의 부피 →</text>
+  <text x="82" y="115" text-anchor="end" class="c1lg-sm">최대</text>
+  <text x="360" y="322" text-anchor="middle" class="c1lg-ink" style="font-size:14px">Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g)   ·   염산의 양은 일정</text>
+</svg>

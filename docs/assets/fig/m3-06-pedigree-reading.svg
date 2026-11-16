@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 372" role="img" aria-labelledby="t-m3-06-pedigree-reading d-m3-06-pedigree-reading">
+  <title id="t-m3-06-pedigree-reading">그림 중3-6-2 가계도의 기호와 읽는 법</title>
+  <desc id="d-m3-06-pedigree-reading">네모는 남자, 동그라미는 여자, 색칠한 기호는 형질이 나타난 사람이다. 형질이 없는 부모에게서 형질이 있는 자녀가 나오면 그 형질은 열성이고, 형질이 있는 부모에게서 형질이 없는 자녀가 나오면 그 형질은 우성이다.</desc>
+  <style>
+    .m3-06-pedigree-reading-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .m3-06-pedigree-reading-tx{font-size:14px;fill:var(--fig-ink)}
+    .m3-06-pedigree-reading-sm{font-size:13px;fill:var(--fig-muted)}
+    .m3-06-pedigree-reading-ln{fill:none;stroke:var(--fig-ink);stroke-width:2}
+    .m3-06-pedigree-reading-off{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2}
+    .m3-06-pedigree-reading-on{fill:var(--fig-violet);stroke:var(--fig-ink);stroke-width:2}
+  </style>
+  <rect x="16" y="12" width="688" height="78" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="32" y="36" class="m3-06-pedigree-reading-lbl">기호</text>
+  <rect x="38.0" y="48.0" width="28" height="28" class="m3-06-pedigree-reading-off"/>
+  <text x="74" y="67" class="m3-06-pedigree-reading-tx">남자</text>
+  <circle cx="132" cy="62" r="14.0" class="m3-06-pedigree-reading-off"/>
+  <text x="154" y="67" class="m3-06-pedigree-reading-tx">여자</text>
+  <rect x="202.0" y="48.0" width="28" height="28" class="m3-06-pedigree-reading-on"/>
+  <circle cx="254" cy="62" r="14.0" class="m3-06-pedigree-reading-on"/>
+  <text x="276" y="67" class="m3-06-pedigree-reading-tx">형질이 나타난 사람</text>
+  <rect x="418.0" y="48.0" width="28" height="28" class="m3-06-pedigree-reading-off"/>
+  <circle cx="500" cy="62" r="14.0" class="m3-06-pedigree-reading-off"/>
+  <line x1="446" y1="62" x2="486" y2="62" class="m3-06-pedigree-reading-ln"/>
+  <text x="466" y="38" text-anchor="middle" class="m3-06-pedigree-reading-sm">가로선: 부부</text>
+  <line x1="590" y1="40" x2="590" y2="56" class="m3-06-pedigree-reading-ln"/><line x1="566" y1="56" x2="614" y2="56" class="m3-06-pedigree-reading-ln"/>
+  <line x1="566" y1="56" x2="566" y2="66" class="m3-06-pedigree-reading-ln"/><line x1="614" y1="56" x2="614" y2="66" class="m3-06-pedigree-reading-ln"/>
+  <text x="626" y="54" class="m3-06-pedigree-reading-sm">세로선 아래:</text><text x="626" y="72" class="m3-06-pedigree-reading-sm">자녀</text>
+  <rect x="16" y="106" width="336" height="256" rx="10" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="184" y="132" text-anchor="middle" class="m3-06-pedigree-reading-lbl">열쇠 1</text>
+  <line x1="148.0" y1="172" x2="220.0" y2="172" class="m3-06-pedigree-reading-ln"/>
+  <line x1="184.0" y1="172" x2="184.0" y2="206" class="m3-06-pedigree-reading-ln"/>
+  <line x1="134" y1="206" x2="234" y2="206" class="m3-06-pedigree-reading-ln"/>
+  <line x1="134" y1="206" x2="134" y2="220" class="m3-06-pedigree-reading-ln"/>
+  <line x1="234" y1="206" x2="234" y2="220" class="m3-06-pedigree-reading-ln"/>
+  <rect x="120.0" y="158.0" width="28" height="28" class="m3-06-pedigree-reading-off"/>
+  <circle cx="234" cy="172" r="14.0" class="m3-06-pedigree-reading-off"/>
+  <rect x="120.0" y="220.0" width="28" height="28" class="m3-06-pedigree-reading-on"/>
+  <circle cx="234" cy="234" r="14.0" class="m3-06-pedigree-reading-off"/>
+  <text x="56" y="177" class="m3-06-pedigree-reading-sm">부모</text>
+  <text x="56" y="239" class="m3-06-pedigree-reading-sm">자녀</text>
+  <text x="184" y="288" text-anchor="middle" class="m3-06-pedigree-reading-tx">형질이 없는 부모 → 형질이 있는 자녀</text>
+  <text x="184" y="314" text-anchor="middle" class="m3-06-pedigree-reading-lbl" style="fill:var(--fig-blue)">⇒ 이 형질은 열성이다</text>
+  <text x="184" y="336" text-anchor="middle" class="m3-06-pedigree-reading-sm">부모가 열성 유전자를 숨기고 있었다</text>
+  <rect x="368" y="106" width="336" height="256" rx="10" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="536" y="132" text-anchor="middle" class="m3-06-pedigree-reading-lbl">열쇠 2</text>
+  <line x1="500.0" y1="172" x2="572.0" y2="172" class="m3-06-pedigree-reading-ln"/>
+  <line x1="536.0" y1="172" x2="536.0" y2="206" class="m3-06-pedigree-reading-ln"/>
+  <line x1="486" y1="206" x2="586" y2="206" class="m3-06-pedigree-reading-ln"/>
+  <line x1="486" y1="206" x2="486" y2="220" class="m3-06-pedigree-reading-ln"/>
+  <line x1="586" y1="206" x2="586" y2="220" class="m3-06-pedigree-reading-ln"/>
+  <rect x="472.0" y="158.0" width="28" height="28" class="m3-06-pedigree-reading-on"/>
+  <circle cx="586" cy="172" r="14.0" class="m3-06-pedigree-reading-on"/>
+  <rect x="472.0" y="220.0" width="28" height="28" class="m3-06-pedigree-reading-off"/>
+  <circle cx="586" cy="234" r="14.0" class="m3-06-pedigree-reading-on"/>
+  <text x="408" y="177" class="m3-06-pedigree-reading-sm">부모</text>
+  <text x="408" y="239" class="m3-06-pedigree-reading-sm">자녀</text>
+  <text x="536" y="288" text-anchor="middle" class="m3-06-pedigree-reading-tx">형질이 있는 부모 → 형질이 없는 자녀</text>
+  <text x="536" y="314" text-anchor="middle" class="m3-06-pedigree-reading-lbl" style="fill:var(--fig-red)">⇒ 이 형질은 우성이다</text>
+  <text x="536" y="336" text-anchor="middle" class="m3-06-pedigree-reading-sm">부모가 열성 유전자를 하나씩 가지고 있었다</text>
+</svg>

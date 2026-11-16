@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="t-bio-1-production d-bio-1-production">
+  <title id="t-bio-1-production">그림 생명과학1-2 생산자의 총생산량과 순생산량</title>
+  <desc id="d-bio-1-production">총생산량은 생산자 자신의 호흡량과 순생산량으로 나뉘고, 순생산량은 다시 피식량, 고사량·낙엽량, 생장량으로 나뉜다. 막대 길이의 비율은 모식적이다.</desc>
+  <style>
+    .b1prd-lbl{font-size:14px;fill:var(--fig-ink)} .b1prd-b{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+    .b1prd-sm{font-size:12.5px;fill:var(--fig-muted)} .b1prd-lead{fill:none;stroke:var(--fig-muted);stroke-width:1.1;stroke-dasharray:3 3}
+  </style>
+  <text x="14" y="66" class="b1prd-b">① 총생산량</text>
+  <text x="14" y="84" class="b1prd-sm">광합성으로 만든 전체</text>
+  <rect x="150" y="44" width="550" height="44" rx="3" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.8"/>
+  <text x="425.0" y="71.0" text-anchor="middle" class="b1prd-b">총생산량</text>
+  <text x="14" y="146" class="b1prd-b">②</text>
+  <text x="34" y="146" class="b1prd-sm">호흡을 빼면</text>
+  <rect x="150" y="124" width="270" height="44" rx="3" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8"/>
+  <text x="285.0" y="151.0" text-anchor="middle" class="b1prd-b">호흡량</text>
+  <rect x="420" y="124" width="280" height="44" rx="3" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.8"/>
+  <text x="560.0" y="151.0" text-anchor="middle" class="b1prd-b">순생산량</text>
+  <text x="14" y="226" class="b1prd-b">③</text>
+  <text x="34" y="226" class="b1prd-sm">순생산량의 쓰임</text>
+  <rect x="420" y="204" width="70" height="44" rx="3" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <text x="455.0" y="231.0" text-anchor="middle" class="b1prd-b">피식량</text>
+  <rect x="490" y="204" width="100" height="44" rx="3" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.8"/>
+  <text x="540.0" y="231.0" text-anchor="middle" class="b1prd-b">고사·낙엽량</text>
+  <rect x="590" y="204" width="110" height="44" rx="3" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <text x="645.0" y="231.0" text-anchor="middle" class="b1prd-b">생장량</text>
+  <line x1="420" y1="168" x2="420" y2="204" class="b1prd-lead"/>
+  <line x1="700" y1="168" x2="700" y2="204" class="b1prd-lead"/>
+  <line x1="150" y1="88" x2="150" y2="124" class="b1prd-lead"/>
+  <line x1="700" y1="88" x2="700" y2="124" class="b1prd-lead"/>
+  <text x="285.0" y="190" text-anchor="middle" class="b1prd-sm">생산자 자신의 생명 활동에 쓰여</text>
+  <text x="285.0" y="206" text-anchor="middle" class="b1prd-sm">결국 열로 빠져나감</text>
+  <text x="455.0" y="268" text-anchor="middle" class="b1prd-sm">1차 소비자</text>
+  <text x="540.0" y="268" text-anchor="middle" class="b1prd-sm">분해자</text>
+  <text x="645.0" y="268" text-anchor="middle" class="b1prd-sm">몸에 쌓임</text>
+  <text x="14" y="292" class="b1prd-sm">총생산량 = 순생산량 + 호흡량,  순생산량 = 피식량 + 고사량·낙엽량 + 생장량  (길이 비율은 모식적)</text>
+</svg>

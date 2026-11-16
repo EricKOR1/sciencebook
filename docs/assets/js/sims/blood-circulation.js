@@ -18,7 +18,7 @@ Sims.register('blood-circulation', {
     var BODYLOOP = { LV: 1, AO: 1, BODY: 1, VC: 1, RA: 1 }, LUNGLOOP = { RV: 1, PA: 1, LUNG: 1, PV: 1, LA: 1 };
     var SPEED = { AO: 1.35, PA: 1.35, BODY: 0.35, LUNG: 0.35, VC: 0.9, PV: 0.9 };
     var state = { sel: 0, show: 'all', flowing: !api.reduced, parts: [] };
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.28 : 0.62; }, label: '심장과 온몸 순환, 폐순환의 경로 모식도' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.42 : 0.62; }, label: '심장과 온몸 순환, 폐순환의 경로 모식도' });
     var ctx = cv.ctx;
     var info = api.el('p', 'sim-hint');
     info.style.fontSize = '0.9rem'; info.style.lineHeight = '1.55'; info.style.paddingTop = '0.5rem';
@@ -46,58 +46,60 @@ Sims.register('blood-circulation', {
     var L, path, total;
     function layout() {
       var w = cv.w, h = cv.h, narrow = w < 560, cx = w / 2;
-      var cw = Math.min(w * 0.17, 104), ch = h * (narrow ? 0.105 : 0.12), g = Math.max(16, cw * 0.2);
-      var hy = h * (narrow ? 0.47 : 0.5);
+      var cw = narrow ? w * 0.2 : Math.min(w * 0.17, 104), ch = h * (narrow ? 0.1 : 0.12), g = Math.max(16, cw * 0.2);
+      var hy = h * (narrow ? 0.45 : 0.49);
       var lane = Math.max(26, cw * 0.36);
       var o = {
         narrow: narrow, cx: cx, cw: cw, ch: ch, g: g, hy: hy,
-        lungT: h * 0.05, lungB: h * (narrow ? 0.2 : 0.23),
-        bodyT: h * (narrow ? 0.73 : 0.77), bodyB: h * (narrow ? 0.88 : 0.95),
+        lungT: h * (narrow ? 0.03 : 0.04), lungB: h * (narrow ? 0.2 : 0.23),
+        bodyT: h * (narrow ? 0.69 : 0.74), bodyB: h * (narrow ? 0.89 : 0.96),
         L1: cx - g / 2 - cw - lane, R1: cx + g / 2 + cw + lane,
       };
-      o.LW = Math.max(o.R1 - cx + 22, Math.min(w * 0.36, 230));
-      o.BW = o.R1 - cx + 22;
+      o.BW = o.R1 - cx + 24;
+      o.LW = narrow ? o.BW : Math.max(o.BW, Math.min(w * 0.3, 200));
       o.RA = { x: cx - g / 2 - cw, y: hy - ch, w: cw, h: ch };
       o.RV = { x: cx - g / 2 - cw, y: hy, w: cw, h: ch };
       o.LA = { x: cx + g / 2, y: hy - ch, w: cw, h: ch };
       o.LV = { x: cx + g / 2, y: hy, w: cw, h: ch };
+      o.lungW = o.lungT + (o.lungB - o.lungT) * 0.72;   // 폐 모세혈관(물결) 높이
+      o.bodyW = o.bodyT + (o.bodyB - o.bodyT) * 0.3;
+      o.inX = cx - cw * 0.75; o.outX = cx + g / 2 + cw / 2;
+      o.bend = o.lungB + (hy - ch - o.lungB) * 0.45;
       return o;
     }
     function build() {
       L = layout();
-      var pts = [], c = function (r) { return [r.x + r.w / 2, r.y + r.h / 2]; };
+      var pts = [];
       function go(region, x, y) { pts.push({ x: x, y: y, r: region }); }
-      var lv = c(L.LV), ra = c(L.RA), rv = c(L.RV), la = c(L.LA);
-      var lungM = (L.lungT + L.lungB) / 2, bodyM = (L.bodyT + L.bodyB) / 2;
-      var inX = L.cx - L.cw * 0.75, outX = la[0], bend = L.lungB + (L.RA.y - L.lungB) * 0.4;
-      go('LV', lv[0], lv[1]);
-      go('LV', L.LV.x + L.cw, lv[1]);
-      go('AO', L.R1, lv[1]); go('AO', L.R1, L.bodyT);
-      go('BODY', L.R1, bodyM);
+      var ccx = function (r) { return r.x + r.w / 2; };
+      var upY = function (r) { return r.y + r.h * 0.68; }, loY = function (r) { return r.y + r.h * 0.32; };
+      var lungA = (L.lungB - L.lungT) * 0.13, bodyA = (L.bodyB - L.bodyT) * 0.12;
+      go('LV', ccx(L.LV), loY(L.LV));
+      go('LV', L.LV.x + L.cw, loY(L.LV));
+      go('AO', L.R1, loY(L.LV)); go('AO', L.R1, L.bodyT);
+      go('BODY', L.R1, L.bodyW);
       var n = 10, i;
-      for (i = 1; i <= n; i++) go('BODY', L.R1 + (L.L1 - L.R1) * i / n, bodyM + (i % 2 ? -1 : 1) * (L.bodyB - L.bodyT) * 0.16 * (i < n ? 1 : 0));
+      for (i = 1; i <= n; i++) go('BODY', L.R1 + (L.L1 - L.R1) * i / n, L.bodyW + (i < n ? (i % 2 ? -1 : 1) * bodyA : 0));
       go('BODY', L.L1, L.bodyT);
-      go('VC', L.L1, ra[1]); go('VC', L.RA.x, ra[1]);
-      go('RA', ra[0], ra[1]);
-      go('RA', rv[0], L.hy);
-      go('RV', rv[0], rv[1]);
-      go('RV', L.cx - L.g / 2 - 4, L.hy + L.ch * 0.25);
-      go('PA', L.cx, L.hy - 2); go('PA', L.cx, bend); go('PA', inX, bend); go('PA', inX, L.lungB);
-      go('LUNG', inX, lungM);
-      for (i = 1; i <= n; i++) go('LUNG', inX + (outX - inX) * i / n, lungM + (i % 2 ? 1 : -1) * (L.lungB - L.lungT) * 0.16 * (i < n ? 1 : 0));
-      go('LUNG', outX, L.lungB);
-      go('PV', outX, L.LA.y);
-      go('LA', la[0], la[1]);
-      go('LA', lv[0], L.hy);
-      go('LV', lv[0], lv[1]);
-      // 길이 누적
+      go('VC', L.L1, upY(L.RA)); go('VC', L.RA.x, upY(L.RA));
+      go('RA', ccx(L.RA), upY(L.RA));
+      go('RA', ccx(L.RV), L.hy);
+      go('RV', ccx(L.RV), loY(L.RV));
+      go('RV', L.cx - L.g / 2, loY(L.RV) - 2);
+      go('PA', L.cx, L.hy - 2); go('PA', L.cx, L.bend); go('PA', L.inX, L.bend); go('PA', L.inX, L.lungB);
+      go('LUNG', L.inX, L.lungW);
+      for (i = 1; i <= n; i++) go('LUNG', L.inX + (L.outX - L.inX) * i / n, L.lungW + (i < n ? (i % 2 ? 1 : -1) * lungA : 0));
+      go('LUNG', L.outX, L.lungB);
+      go('PV', L.outX, L.LA.y);
+      go('LA', ccx(L.LA), upY(L.LA));
+      go('LA', ccx(L.LV), L.hy);
+      go('LV', ccx(L.LV), loY(L.LV));
       path = []; total = 0;
       for (i = 1; i < pts.length; i++) {
         var a = pts[i - 1], b = pts[i], len = Math.hypot(b.x - a.x, b.y - a.y);
         if (len < 0.01) continue;
         path.push({ a: a, b: b, r: b.r, s0: total, len: len }); total += len;
       }
-      // 영역별 시작·끝(모세혈관에서 산소 양이 서서히 바뀌게)
       var span = {};
       path.forEach(function (sg) { var sp = span[sg.r] || (span[sg.r] = { s0: sg.s0, s1: sg.s0 }); sp.s1 = sg.s0 + sg.len; });
       L.span = span;
@@ -113,11 +115,12 @@ Sims.register('blood-circulation', {
         }
       }
     }
+    var OXY = { LV: 1, AO: 1, PV: 1, LA: 1, VC: 0, RA: 0, RV: 0, PA: 0 };
     function oxy(p) {
       var sp = L.span[p.r];
       if (p.r === 'BODY') return 1 - (p.s - sp.s0) / (sp.s1 - sp.s0);
       if (p.r === 'LUNG') return (p.s - sp.s0) / (sp.s1 - sp.s0);
-      return BODYLOOP[p.r] && p.r !== 'VC' && p.r !== 'RA' ? 1 : (p.r === 'PV' || p.r === 'LA') ? 1 : 0;
+      return OXY[p.r];
     }
 
     /* ── 색 ── */
@@ -134,6 +137,7 @@ Sims.register('blood-circulation', {
       if (state.show === 'lung') return !!LUNGLOOP[r];
       return true;
     }
+    var CHAMBER = { RA: 1, RV: 1, LA: 1, LV: 1 };
 
     /* ── 그리기 ── */
     function rr(x, y, w, h, r) { ctx.beginPath(); ctx.moveTo(x + r, y); ctx.arcTo(x + w, y, x + w, y + h, r); ctx.arcTo(x + w, y + h, x, y + h, r); ctx.arcTo(x, y + h, x, y, r); ctx.arcTo(x, y, x + w, y, r); ctx.closePath(); }
@@ -141,17 +145,15 @@ Sims.register('blood-circulation', {
       var T = api.tokens(), w = cv.w, h = cv.h;
       ctx.clearRect(0, 0, w, h);
       var selId = STOPS[state.sel].id;
-      // 폐, 온몸의 조직
       var lx = L.cx - L.LW, bx = L.cx - L.BW;
       ctx.globalAlpha = visibleRegion('LUNG') ? 1 : 0.3;
       rr(lx, L.lungT, L.LW * 2, L.lungB - L.lungT, 18); ctx.fillStyle = T.figSoftTeal; ctx.fill();
-      ctx.lineWidth = selId === 'LUNG' ? 3 : 1.4; ctx.strokeStyle = selId === 'LUNG' ? T.figAmber : T.figTeal; ctx.stroke();
+      ctx.lineWidth = selId === 'LUNG' ? 3.5 : 1.4; ctx.strokeStyle = selId === 'LUNG' ? T.figAmber : T.figTeal; ctx.stroke();
       ctx.globalAlpha = visibleRegion('BODY') ? 1 : 0.3;
       rr(bx, L.bodyT, L.BW * 2, L.bodyB - L.bodyT, 14); ctx.fillStyle = T.figSoftAmber; ctx.fill();
-      ctx.lineWidth = selId === 'BODY' ? 3 : 1.4; ctx.strokeStyle = T.figAmber; ctx.stroke();
+      ctx.lineWidth = selId === 'BODY' ? 3.5 : 1.4; ctx.strokeStyle = T.figAmber; ctx.stroke();
       ctx.globalAlpha = 1;
-      // 심장
-      var pad = 10;
+      var pad = 9;
       rr(L.RA.x - pad, L.RA.y - pad, L.cw * 2 + L.g + pad * 2, L.ch * 2 + pad * 2, 22);
       ctx.fillStyle = T.figPaper; ctx.fill(); ctx.lineWidth = 1.5; ctx.strokeStyle = T.figLine; ctx.stroke();
       ['RA', 'RV', 'LA', 'LV'].forEach(function (id) {
@@ -159,99 +161,98 @@ Sims.register('blood-circulation', {
         ctx.globalAlpha = visibleRegion(id) ? 1 : 0.3;
         rr(r.x, r.y, r.w, r.h, 8); ctx.fillStyle = art ? T.figSoftRed : T.figSoftBlue; ctx.fill();
         ctx.lineWidth = id === 'LV' ? 5 : 2; ctx.strokeStyle = art ? T.figRed : T.figBlue; ctx.stroke();
-        if (selId === id) { rr(r.x - 3, r.y - 3, r.w + 6, r.h + 6, 10); ctx.lineWidth = 3; ctx.strokeStyle = T.figAmber; ctx.stroke(); }
+        if (selId === id) { rr(r.x - 4, r.y - 4, r.w + 8, r.h + 8, 11); ctx.lineWidth = 3; ctx.strokeStyle = T.figAmber; ctx.stroke(); }
       });
       ctx.globalAlpha = 1;
-      // 혈관(관)
-      var step = 3;
-      for (var s = 0; s < total; s += step) {
-        var p1 = at(s / total), p2 = at(Math.min(total, s + step + 0.6) / total);
-        if (p1.r === 'RA' || p1.r === 'RV' || p1.r === 'LA' || p1.r === 'LV') continue;
-        var vis = visibleRegion(p1.r), o = oxy(p1);
+      // 혈관(관): 잘게 나누어 산소 양에 따라 색을 바꾼다
+      var step = 3, s, p1, p2;
+      ctx.lineCap = 'round';
+      for (s = 0; s < total; s += step) {
+        p1 = at(s / total); p2 = at(Math.min(total, s + step + 0.6) / total);
+        if (p1.r !== selId || CHAMBER[p1.r]) continue;
+        ctx.strokeStyle = T.figAmber; ctx.lineWidth = 17; ctx.beginPath(); ctx.moveTo(p1.x, p1.y); ctx.lineTo(p2.x, p2.y); ctx.stroke();
+      }
+      for (s = 0; s < total; s += step) {
+        p1 = at(s / total); p2 = at(Math.min(total, s + step + 0.6) / total);
         var cap = p1.r === 'BODY' || p1.r === 'LUNG';
-        ctx.globalAlpha = vis ? 1 : 0.18;
-        if (p1.r === selId) { ctx.strokeStyle = T.figAmber; ctx.lineWidth = 16; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(p1.x, p1.y); ctx.lineTo(p2.x, p2.y); ctx.stroke(); }
-        ctx.strokeStyle = mix(T.figBlue, T.figRed, o);
-        ctx.lineWidth = cap ? 4 : (p1.r === 'AO' || p1.r === 'PA' ? 10 : 8); ctx.lineCap = 'round';
+        ctx.globalAlpha = visibleRegion(p1.r) ? 0.42 : 0.1;
+        ctx.strokeStyle = mix(T.figBlue, T.figRed, oxy(p1));
+        ctx.lineWidth = cap ? 5 : CHAMBER[p1.r] ? 6 : (p1.r === 'AO' || p1.r === 'PA' ? 11 : 9);
         ctx.beginPath(); ctx.moveTo(p1.x, p1.y); ctx.lineTo(p2.x, p2.y); ctx.stroke();
       }
       ctx.globalAlpha = 1;
-      // 판막(거꾸로 흐르지 않게): 흐름 방향을 가리키는 작은 쐐기
-      [[L.LV.x + L.cw, L.LV.y + L.ch / 2, 0], [L.cx, L.hy - 4, -Math.PI / 2], [L.RA.x + L.cw / 2, L.hy, Math.PI / 2], [L.LA.x + L.cw / 2, L.hy, Math.PI / 2]].forEach(function (v) {
-        ctx.save(); ctx.translate(v[0], v[1]); ctx.rotate(v[2]);
-        ctx.beginPath(); ctx.moveTo(-5, -8); ctx.lineTo(4, -2); ctx.lineTo(-5, -2); ctx.closePath();
-        ctx.moveTo(-5, 8); ctx.lineTo(4, 2); ctx.lineTo(-5, 2); ctx.closePath();
-        ctx.fillStyle = T.figInk; ctx.fill(); ctx.restore();
+      // 판막(거꾸로 흐르지 않게): 흐름 방향을 가리키는 작은 쐐기 한 쌍
+      var loY = function (r) { return r.y + r.h * 0.32; };
+      [[L.LV.x + L.cw, loY(L.LV), 0], [L.cx, L.hy - 6, -Math.PI / 2], [L.RA.x + L.cw / 2, L.hy, Math.PI / 2], [L.LA.x + L.cw / 2, L.hy, Math.PI / 2]].forEach(function (v) {
+        valve(T, v[0], v[1], v[2]);
       });
       // 혈액 알갱이
       state.parts.forEach(function (u) {
         var p = at(u); if (!visibleRegion(p.r)) return;
-        ctx.beginPath(); ctx.arc(p.x, p.y, 3.6, 0, Math.PI * 2);
+        ctx.beginPath(); ctx.arc(p.x, p.y, 3.8, 0, Math.PI * 2);
         ctx.fillStyle = mix(T.figBlue, T.figRed, oxy(p)); ctx.fill();
-        ctx.lineWidth = 1; ctx.strokeStyle = T.figPanel; ctx.stroke();
       });
       labels(T);
     }
+    function valve(T, x, y, ang) {
+      ctx.save(); ctx.translate(x, y); ctx.rotate(ang);
+      ctx.beginPath(); ctx.moveTo(-5, -8); ctx.lineTo(4, -2); ctx.lineTo(-5, -2); ctx.closePath();
+      ctx.moveTo(-5, 8); ctx.lineTo(4, 2); ctx.lineTo(-5, 2); ctx.closePath();
+      ctx.fillStyle = T.figInk; ctx.fill(); ctx.restore();
+    }
+    // 번호 표지의 위치
     function anchor(id) {
-      var c = function (r) { return [r.x + r.w / 2, r.y + r.h / 2]; };
-      var bodyM = (L.bodyT + L.bodyB) / 2, lungM = (L.lungT + L.lungB) / 2;
       switch (id) {
-        case 'LV': case 'RA': case 'RV': case 'LA': var q = c(L[id]); return [q[0], q[1] + 9];
-        case 'AO': return [L.R1, (L.LV.y + L.ch / 2 + L.bodyT) / 2];
-        case 'VC': return [L.L1, (L.RA.y + L.ch / 2 + L.bodyT) / 2];
-        case 'BODY': return [L.cx, L.bodyB - 14];
-        case 'LUNG': return [L.cx, L.lungT + 14];
-        case 'PA': return [L.cx - L.cw * 0.4, L.lungB + (L.RA.y - L.lungB) * 0.4];
-        case 'PV': return [L.LA.x + L.cw / 2, (L.lungB + L.LA.y) / 2];
+        case 'RA': case 'LA': return [L[id].x + 13, L[id].y + 13];
+        case 'RV': case 'LV': return [L[id].x + 13, L[id].y + L.ch - 13];
+        case 'AO': return [L.R1, (L.LV.y + L.ch * 0.32 + L.bodyT) / 2];
+        case 'VC': return [L.L1, (L.RA.y + L.ch * 0.68 + L.bodyT) / 2];
+        case 'BODY': return [L.cx - L.BW + 34, L.bodyT + (L.bodyB - L.bodyT) * 0.62];
+        case 'LUNG': return [L.cx - L.LW + 20, L.lungT + 14];
+        case 'PA': return [L.inX, (L.bend + L.lungB) / 2];
+        case 'PV': return [L.outX, (L.lungB + L.LA.y) / 2];
       }
     }
+    function marker(T, x, y, n, sel) {
+      ctx.beginPath(); ctx.arc(x, y, 10, 0, Math.PI * 2);
+      ctx.fillStyle = sel ? T.figAmber : T.figPanel; ctx.fill(); ctx.lineWidth = 1.5; ctx.strokeStyle = sel ? T.figAmber : T.figInk; ctx.stroke();
+      ctx.fillStyle = sel ? T.figPanel : T.figInk; ctx.font = '700 11px ' + T.fontBody; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+      ctx.fillText(String(n), x, y + 0.5);
+    }
     function labels(T) {
-      var fs = L.narrow ? 11 : 13;
+      var fs = L.narrow ? 12 : 13, sm = L.narrow ? 11 : 12;
       ctx.textBaseline = 'middle';
       STOPS.forEach(function (st, i) {
-        var a = anchor(st.id), sel = i === state.sel, vis = visibleRegion(st.id);
-        ctx.globalAlpha = vis ? 1 : 0.35;
-        var chamber = st.id.length === 2 && 'LVRARVLA'.indexOf(st.id) >= 0 && ['LV', 'RA', 'RV', 'LA'].indexOf(st.id) >= 0;
-        var nx = a[0], ny = a[1], tx, align;
-        if (chamber) { ny = a[1] - 9 - L.ch * 0.18; }
-        // 번호 표지
-        var nxp = chamber ? nx - L.cw / 2 + 12 : nx, nyp = chamber ? L[st.id].y + 12 : ny;
-        ctx.beginPath(); ctx.arc(nxp, nyp, 10, 0, Math.PI * 2);
-        ctx.fillStyle = sel ? T.figAmber : T.figPanel; ctx.fill(); ctx.lineWidth = 1.5; ctx.strokeStyle = sel ? T.figAmber : T.figInk; ctx.stroke();
-        ctx.fillStyle = sel ? T.figPanel : T.figInk; ctx.font = '600 11px ' + T.fontBody; ctx.textAlign = 'center';
-        ctx.fillText(String(i + 1), nxp, nyp + 0.5);
-        // 이름
-        ctx.font = (sel ? '700 ' : '600 ') + fs + 'px ' + T.fontBody; ctx.fillStyle = T.figInk;
-        if (chamber) { tx = a[0] + 6; align = 'center'; ctx.textAlign = align; ctx.fillText(st.name, tx, a[1] + 2); }
-        else if (st.id === 'AO') { ctx.textAlign = 'left'; ctx.fillText(st.name, a[0] + 15, a[1]); }
-        else if (st.id === 'VC') { ctx.textAlign = 'right'; ctx.fillText(st.name, a[0] - 15, a[1]); }
-        else if (st.id === 'PA') { ctx.textAlign = 'right'; ctx.fillText(st.name, a[0] - 14, a[1] + (L.narrow ? 18 : 0)); }
-        else if (st.id === 'PV') { ctx.textAlign = 'left'; ctx.fillText(st.name, a[0] + 15, a[1]); }
-        else if (st.id === 'LUNG') { ctx.textAlign = 'left'; ctx.fillText('폐', a[0] + 16, a[1]); }
-        else if (st.id === 'BODY') { ctx.textAlign = 'left'; ctx.fillText('온몸의 조직세포', a[0] + 16, a[1]); }
+        var a = anchor(st.id), sel = i === state.sel;
+        ctx.globalAlpha = visibleRegion(st.id) ? 1 : 0.35;
+        marker(T, a[0], a[1], i + 1, sel);
+        ctx.font = (sel ? '700 ' : '600 ') + fs + 'px ' + T.fontBody; ctx.fillStyle = T.figInk; ctx.textBaseline = 'middle';
+        var right = st.id === 'VC' || st.id === 'PA';
+        ctx.textAlign = right ? 'right' : 'left';
+        var name = st.id === 'LUNG' ? '폐' : st.id === 'BODY' ? '온몸의 조직세포' : st.name;
+        ctx.fillText(name, a[0] + (right ? -14 : 14), a[1] + 0.5);
       });
       ctx.globalAlpha = 1;
-      // 기체 교환 설명
-      ctx.font = fs - 1 + 'px ' + T.fontBody; ctx.fillStyle = T.figMuted; ctx.textAlign = 'right';
-      var lungX = L.cx + L.LW - 12, bodyX = L.cx + L.BW - 10;
-      ctx.fillText('산소 받기 · 이산화 탄소 내보내기', lungX, L.lungT + 14);
-      ctx.textAlign = 'left';
-      ctx.fillText('산소·영양소 주기', L.cx - L.BW + 10, L.bodyT + 13);
-      ctx.textAlign = 'right';
-      ctx.fillText('이산화 탄소·노폐물 받기', bodyX, L.bodyT + 13);
+      // 기체·물질 교환 설명
+      ctx.font = sm + 'px ' + T.fontBody; ctx.fillStyle = T.figMuted; ctx.textBaseline = 'middle';
+      ctx.textAlign = 'center';
+      ctx.globalAlpha = visibleRegion('LUNG') ? 1 : 0.35;
+      ctx.fillText(L.narrow ? '이산화 탄소 내보내고 산소 받기' : '폐포를 둘러싼 모세혈관: 이산화 탄소 내보내고 산소 받기', L.cx + (L.narrow ? 12 : 16), L.lungT + (L.narrow ? 32 : 14));
+      ctx.globalAlpha = visibleRegion('BODY') ? 1 : 0.35;
+      ctx.fillText('산소·영양소 주고, 이산화 탄소·노폐물 받기', L.cx, L.bodyT + (L.bodyB - L.bodyT) * 0.84);
+      ctx.globalAlpha = 1;
       // 범례
-      var lgY = L.narrow ? cv.h - 14 : 16, lgX = L.narrow ? 12 : 12;
       ctx.textAlign = 'left'; ctx.font = '11px ' + T.fontBody;
-      var items = [[T.figRed, '산소가 많은 혈액'], [T.figBlue, '산소가 적은 혈액']];
-      var x = lgX;
-      items.forEach(function (it) {
-        ctx.beginPath(); ctx.arc(x + 5, lgY, 5, 0, Math.PI * 2); ctx.fillStyle = it[0]; ctx.fill();
-        ctx.fillStyle = T.figInk; ctx.fillText(it[1], x + 14, lgY);
-        x += ctx.measureText(it[1]).width + 30;
+      var rows = [[T.figRed, '산소가 많은 혈액'], [T.figBlue, '산소가 적은 혈액'], ['v', '판막(거꾸로 흐름 막기)'], ['', '그림 왼쪽 = 몸의 오른쪽']];
+      rows.forEach(function (it, k) {
+        var x, y;
+        if (L.narrow) { x = 10 + (k % 2) * (cv.w / 2); y = cv.h - 30 + Math.floor(k / 2) * 18; }
+        else { x = 10; y = L.lungB + 16 + k * 20; }
+        if (it[0] === 'v') valve(T, x + 5, y, 0);
+        else if (it[0]) { ctx.beginPath(); ctx.arc(x + 5, y, 5, 0, Math.PI * 2); ctx.fillStyle = it[0]; ctx.fill(); }
+        ctx.fillStyle = it[0] ? T.figInk : T.figMuted; ctx.textAlign = 'left';
+        ctx.fillText(it[1], x + (it[0] ? 15 : 0), y + 0.5);
       });
-      ctx.fillStyle = T.figMuted;
-      if (L.narrow) { ctx.textAlign = 'right'; ctx.fillText('왼쪽 = 몸의 오른쪽', cv.w - 8, L.hy - L.ch - 22); }
-      else { ctx.fillText('심장을 마주 본 모습(그림의 왼쪽 = 몸의 오른쪽)', lgX, lgY + 18); ctx.fillText('◀▶ 판막: 혈액이 거꾸로 흐르지 않게 한다', lgX, lgY + 36); }
     }
 
     /* ── 고르기 ── */

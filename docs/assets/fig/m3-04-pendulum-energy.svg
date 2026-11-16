@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-labelledby="t-m3-04-pendulum-energy d-m3-04-pendulum-energy">
+  <title id="t-m3-04-pendulum-energy">그림 중3-4-1 진자의 역학적 에너지 전환</title>
+  <desc id="d-m3-04-pendulum-energy">A에서 놓은 진자가 O를 지나 B까지 가는 동안, 위치 에너지는 높이에 따라 줄었다 늘고 운동 에너지는 그 반대로 바뀐다. 두 에너지의 합인 역학적 에너지는 모든 위치에서 같다.</desc>
+  <style>
+    .m3-04-pendulum-energy-t{font-size:14px;fill:var(--fig-ink);font-weight:600} .m3-04-pendulum-energy-s{font-size:13px;fill:var(--fig-muted)} .m3-04-pendulum-energy-n{font-size:13px;fill:var(--fig-ink)}
+    .m3-04-pendulum-energy-pe{fill:var(--fig-blue)} .m3-04-pendulum-energy-ke{fill:var(--fig-red)}
+  </style>
+  <line x1="200" y1="234" x2="560" y2="234" style="stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:6 4"/>
+  <text x="566" y="238" class="m3-04-pendulum-energy-s">기준면(높이 0)</text>
+  <path d="M231.4 187.2 L236.9 191.6 L242.4 195.8 L248.2 199.8 L254.0 203.6 L260.0 207.2 L266.1 210.6 L272.3 213.8 L278.7 216.7 L285.1 219.4 L291.6 221.9 L298.2 224.2 L304.9 226.3 L311.6 228.1 L318.4 229.6 L325.3 231.0 L332.2 232.1 L339.1 232.9 L346.0 233.5 L353.0 233.9 L360.0 234.0 L367.0 233.9 L374.0 233.5 L380.9 232.9 L387.8 232.1 L394.7 231.0 L401.6 229.6 L408.4 228.1 L415.1 226.3 L421.8 224.2 L428.4 221.9 L434.9 219.4 L441.3 216.7 L447.7 213.8 L453.9 210.6 L460.0 207.2 L466.0 203.6 L471.8 199.8 L477.6 195.8 L483.1 191.6 L488.6 187.2" style="fill:none;stroke:var(--fig-line);stroke-width:1.5;stroke-dasharray:4 4"/>
+  <rect x="320" y="22" width="80" height="10" style="fill:var(--fig-muted)"/>
+  <line x1="360" y1="34" x2="231.4" y2="187.2" style="stroke:var(--fig-muted);stroke-width:1.6;opacity:1"/>
+  <circle cx="231.4" cy="187.2" r="12" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2;opacity:1"/>
+  <rect x="216.4" y="300.0" width="30" height="100.0" class="m3-04-pendulum-energy-pe"/>
+  <rect x="216.4" y="300" width="30" height="0.0" class="m3-04-pendulum-energy-ke"/>
+  <rect x="216.4" y="300" width="30" height="100" style="fill:none;stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="231.4" y1="203.2" x2="231.4" y2="292" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:2 3"/>
+  <text x="231.4" y="418" text-anchor="middle" class="m3-04-pendulum-energy-n">A</text>
+  <line x1="360" y1="34" x2="291.6" y2="221.9" style="stroke:var(--fig-muted);stroke-width:1;opacity:0.5"/>
+  <circle cx="291.6" cy="221.9" r="12" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2;opacity:0.55"/>
+  <rect x="276.6" y="374.2" width="30" height="25.8" class="m3-04-pendulum-energy-pe"/>
+  <rect x="276.6" y="300" width="30" height="74.2" class="m3-04-pendulum-energy-ke"/>
+  <rect x="276.6" y="300" width="30" height="100" style="fill:none;stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="291.6" y1="237.9" x2="291.6" y2="292" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:2 3"/>
+  <text x="291.6" y="418" text-anchor="middle" class="m3-04-pendulum-energy-n">중간</text>
+  <line x1="360" y1="34" x2="360.0" y2="234.0" style="stroke:var(--fig-muted);stroke-width:1.6;opacity:1"/>
+  <circle cx="360.0" cy="234.0" r="12" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2;opacity:1"/>
+  <rect x="345.0" y="400.0" width="30" height="0.0" class="m3-04-pendulum-energy-pe"/>
+  <rect x="345.0" y="300" width="30" height="100.0" class="m3-04-pendulum-energy-ke"/>
+  <rect x="345.0" y="300" width="30" height="100" style="fill:none;stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="360.0" y1="250.0" x2="360.0" y2="292" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:2 3"/>
+  <text x="360.0" y="418" text-anchor="middle" class="m3-04-pendulum-energy-n">O</text>
+  <line x1="360" y1="34" x2="428.4" y2="221.9" style="stroke:var(--fig-muted);stroke-width:1;opacity:0.5"/>
+  <circle cx="428.4" cy="221.9" r="12" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2;opacity:0.55"/>
+  <rect x="413.4" y="374.2" width="30" height="25.8" class="m3-04-pendulum-energy-pe"/>
+  <rect x="413.4" y="300" width="30" height="74.2" class="m3-04-pendulum-energy-ke"/>
+  <rect x="413.4" y="300" width="30" height="100" style="fill:none;stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="428.4" y1="237.9" x2="428.4" y2="292" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:2 3"/>
+  <text x="428.4" y="418" text-anchor="middle" class="m3-04-pendulum-energy-n">중간</text>
+  <line x1="360" y1="34" x2="488.6" y2="187.2" style="stroke:var(--fig-muted);stroke-width:1.6;opacity:1"/>
+  <circle cx="488.6" cy="187.2" r="12" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2;opacity:1"/>
+  <rect x="473.6" y="300.0" width="30" height="100.0" class="m3-04-pendulum-energy-pe"/>
+  <rect x="473.6" y="300" width="30" height="0.0" class="m3-04-pendulum-energy-ke"/>
+  <rect x="473.6" y="300" width="30" height="100" style="fill:none;stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="488.6" y1="203.2" x2="488.6" y2="292" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:2 3"/>
+  <text x="488.6" y="418" text-anchor="middle" class="m3-04-pendulum-energy-n">B</text>
+  <text x="211.4" y="167.2" text-anchor="end" class="m3-04-pendulum-energy-t">A</text>
+  <text x="211.4" y="183.2" text-anchor="end" class="m3-04-pendulum-energy-s">처음 놓은 곳, 속력 0</text>
+  <text x="508.6" y="167.2" class="m3-04-pendulum-energy-t">B</text>
+  <text x="508.6" y="183.2" class="m3-04-pendulum-energy-s">A와 같은 높이, 속력 0</text>
+  <text x="360" y="264.0" text-anchor="middle" class="m3-04-pendulum-energy-n"><tspan class="m3-04-pendulum-energy-t">O</tspan> 가장 낮은 곳, 속력 최대</text>
+  <line x1="376" y1="234" x2="412" y2="234" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <path d="M420 234 l-10 -6 l0 12 z" class="m3-04-pendulum-energy-ke"/>
+  <line x1="223.4" y1="187.2" x2="223.4" y2="234" style="stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="217.4" y="215.6" text-anchor="end" class="m3-04-pendulum-energy-n" style="fill:var(--fig-blue)">높이 h</text>
+  <rect x="28" y="308" width="14" height="14" class="m3-04-pendulum-energy-pe"/><text x="48" y="320" class="m3-04-pendulum-energy-n">위치 에너지 9.8mh</text>
+  <rect x="28" y="334" width="14" height="14" class="m3-04-pendulum-energy-ke"/><text x="48" y="346" class="m3-04-pendulum-energy-n">운동 에너지 ½mv²</text>
+  <text x="28" y="378" class="m3-04-pendulum-energy-s">막대 전체 높이</text><text x="28" y="396" class="m3-04-pendulum-energy-s">= 역학적 에너지</text>
+  <text x="540" y="320" class="m3-04-pendulum-energy-n">A, B: 위치 에너지 최대</text><text x="540" y="338" class="m3-04-pendulum-energy-n">운동 에너지 0</text>
+  <text x="540" y="368" class="m3-04-pendulum-energy-n">O: 위치 에너지 0</text><text x="540" y="386" class="m3-04-pendulum-energy-n">운동 에너지 최대</text>
+  <text x="360" y="452" text-anchor="middle" class="m3-04-pendulum-energy-s">공기 저항과 마찰이 없으면 어느 위치에서나 위치 에너지 + 운동 에너지(막대 전체 높이)가 같다</text>
+</svg>

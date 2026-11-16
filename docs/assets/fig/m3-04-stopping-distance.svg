@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-m3-04-stopping-distance d-m3-04-stopping-distance">
+  <title id="t-m3-04-stopping-distance">그림 중3-4-2 정지 거리 = 반응 거리 + 제동 거리</title>
+  <desc id="d-m3-04-stopping-distance">처음 속력이 10 m/s와 20 m/s인 자동차의 시간–속력 그래프. 반응 시간 0.5초 동안의 직사각형 넓이가 반응 거리, 브레이크를 밟은 뒤 삼각형 넓이가 제동 거리이다. 속력이 2배가 되면 반응 거리는 2배, 제동 거리는 4배가 된다.</desc>
+  <style>
+    .m3-04-stopping-distance-t{font-size:14px;fill:var(--fig-ink);font-weight:600} .m3-04-stopping-distance-s{font-size:13px;fill:var(--fig-muted)}
+    .m3-04-stopping-distance-n{font-size:13px;fill:var(--fig-ink)} .m3-04-stopping-distance-ax{stroke:var(--fig-line);stroke-width:1.5;fill:none}
+    .m3-04-stopping-distance-g{stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 3;fill:none;opacity:0.7}
+    .m3-04-stopping-distance-r{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2} .m3-04-stopping-distance-b{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2}
+    .m3-04-stopping-distance-ra{fill:var(--fig-amber);font-size:13px;font-weight:600} .m3-04-stopping-distance-ba{fill:var(--fig-blue);font-size:13px;font-weight:600}
+  </style>
+  <text x="52" y="34" class="m3-04-stopping-distance-t">처음 속력 10 m/s</text>
+  <line x1="52" y1="190.0" x2="322" y2="190.0" class="m3-04-stopping-distance-g"/>
+  <text x="46" y="194.0" text-anchor="end" class="m3-04-stopping-distance-s">5</text>
+  <line x1="52" y1="158.0" x2="322" y2="158.0" class="m3-04-stopping-distance-g"/>
+  <text x="46" y="162.0" text-anchor="end" class="m3-04-stopping-distance-s">10</text>
+  <line x1="52" y1="126.0" x2="322" y2="126.0" class="m3-04-stopping-distance-g"/>
+  <text x="46" y="130.0" text-anchor="end" class="m3-04-stopping-distance-s">15</text>
+  <line x1="52" y1="94.0" x2="322" y2="94.0" class="m3-04-stopping-distance-g"/>
+  <text x="46" y="98.0" text-anchor="end" class="m3-04-stopping-distance-s">20</text>
+  <line x1="52" y1="62.0" x2="322" y2="62.0" class="m3-04-stopping-distance-g"/>
+  <text x="46" y="66.0" text-anchor="end" class="m3-04-stopping-distance-s">25</text>
+  <text x="46" y="226" text-anchor="end" class="m3-04-stopping-distance-s">0</text>
+  <text x="52.0" y="240" text-anchor="middle" class="m3-04-stopping-distance-s">0</text>
+  <text x="106.0" y="240" text-anchor="middle" class="m3-04-stopping-distance-s">1</text>
+  <text x="160.0" y="240" text-anchor="middle" class="m3-04-stopping-distance-s">2</text>
+  <text x="214.0" y="240" text-anchor="middle" class="m3-04-stopping-distance-s">3</text>
+  <text x="268.0" y="240" text-anchor="middle" class="m3-04-stopping-distance-s">4</text>
+  <text x="322.0" y="240" text-anchor="middle" class="m3-04-stopping-distance-s">5</text>
+  <path d="M52 54 L52 222 L330 222" class="m3-04-stopping-distance-ax"/>
+  <text x="330" y="256" text-anchor="end" class="m3-04-stopping-distance-s">시간 (s)</text>
+  <text x="56" y="48" class="m3-04-stopping-distance-s">속력 (m/s)</text>
+  <rect x="52.0" y="158.0" width="27.0" height="64.0" class="m3-04-stopping-distance-r"/>
+  <path d="M79.0 158.0 L187.0 222.0 L79.0 222.0 Z" class="m3-04-stopping-distance-b"/>
+  <path d="M52.0 158.0 L79.0 158.0 L187.0 222.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.5;stroke-linejoin:round"/>
+  <text x="85.0" y="150.0" class="m3-04-stopping-distance-s">← 0.5초 뒤 브레이크</text>
+  <text x="52" y="284" class="m3-04-stopping-distance-n"><tspan class="m3-04-stopping-distance-ra">반응 거리</tspan> 10 × 0.5 = 5 m</text>
+  <text x="52" y="304" class="m3-04-stopping-distance-n"><tspan class="m3-04-stopping-distance-ba">제동 거리</tspan> ½ × 2 × 10 = 10 m</text>
+  <text x="52" y="326" class="m3-04-stopping-distance-t">정지 거리 = 15 m</text>
+  <text x="420" y="34" class="m3-04-stopping-distance-t">처음 속력 20 m/s (2배)</text>
+  <line x1="420" y1="190.0" x2="690" y2="190.0" class="m3-04-stopping-distance-g"/>
+  <text x="414" y="194.0" text-anchor="end" class="m3-04-stopping-distance-s">5</text>
+  <line x1="420" y1="158.0" x2="690" y2="158.0" class="m3-04-stopping-distance-g"/>
+  <text x="414" y="162.0" text-anchor="end" class="m3-04-stopping-distance-s">10</text>
+  <line x1="420" y1="126.0" x2="690" y2="126.0" class="m3-04-stopping-distance-g"/>
+  <text x="414" y="130.0" text-anchor="end" class="m3-04-stopping-distance-s">15</text>
+  <line x1="420" y1="94.0" x2="690" y2="94.0" class="m3-04-stopping-distance-g"/>
+  <text x="414" y="98.0" text-anchor="end" class="m3-04-stopping-distance-s">20</text>
+  <line x1="420" y1="62.0" x2="690" y2="62.0" class="m3-04-stopping-distance-g"/>
+  <text x="414" y="66.0" text-anchor="end" class="m3-04-stopping-distance-s">25</text>
+  <text x="414" y="226" text-anchor="end" class="m3-04-stopping-distance-s">0</text>
+  <text x="420.0" y="240" text-anchor="middle" class="m3-04-stopping-distance-s">0</text>
+  <text x="474.0" y="240" text-anchor="middle" class="m3-04-stopping-distance-s">1</text>
+  <text x="528.0" y="240" text-anchor="middle" class="m3-04-stopping-distance-s">2</text>
+  <text x="582.0" y="240" text-anchor="middle" class="m3-04-stopping-distance-s">3</text>
+  <text x="636.0" y="240" text-anchor="middle" class="m3-04-stopping-distance-s">4</text>
+  <text x="690.0" y="240" text-anchor="middle" class="m3-04-stopping-distance-s">5</text>
+  <path d="M420 54 L420 222 L698 222" class="m3-04-stopping-distance-ax"/>
+  <text x="698" y="256" text-anchor="end" class="m3-04-stopping-distance-s">시간 (s)</text>
+  <text x="424" y="48" class="m3-04-stopping-distance-s">속력 (m/s)</text>
+  <rect x="420.0" y="94.0" width="27.0" height="128.0" class="m3-04-stopping-distance-r"/>
+  <path d="M447.0 94.0 L663.0 222.0 L447.0 222.0 Z" class="m3-04-stopping-distance-b"/>
+  <path d="M420.0 94.0 L447.0 94.0 L663.0 222.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.5;stroke-linejoin:round"/>
+  <text x="453.0" y="86.0" class="m3-04-stopping-distance-s">← 0.5초 뒤 브레이크</text>
+  <text x="420" y="284" class="m3-04-stopping-distance-n"><tspan class="m3-04-stopping-distance-ra">반응 거리</tspan> 20 × 0.5 = 10 m</text>
+  <text x="420" y="304" class="m3-04-stopping-distance-n"><tspan class="m3-04-stopping-distance-ba">제동 거리</tspan> ½ × 4 × 20 = 40 m</text>
+  <text x="420" y="326" class="m3-04-stopping-distance-t">정지 거리 = 50 m</text>
+  <text x="360" y="348" text-anchor="middle" class="m3-04-stopping-distance-s">반응 시간(0.5 s)과 브레이크의 힘이 같을 때: 속력 2배 → 반응 거리 2배, 제동 거리 4배</text>
+</svg>

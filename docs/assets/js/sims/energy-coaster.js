@@ -65,10 +65,9 @@ Sims.register('energy-coaster', {
       var ds = state.v * dt;
       state.x += ds / c;
       if (state.friction) state.heat += K * G * state.mass * Math.abs(ds);
-      // 에너지 보존을 정확히 맞춘다: 속력의 크기는 (역학적 에너지 − 위치 에너지)로 정한다
+      // 계산 오차가 쌓이지 않게: 충분히 빠를 때는 속력의 크기를 (역학적 에너지 − 위치 에너지)로 맞춘다
       var ke = emech() - G * state.mass * hAt(state.x);
-      if (ke <= 0) state.v = 0;
-      else if (state.v !== 0) state.v = Math.sign(state.v) * Math.sqrt(2 * ke / state.mass);
+      if (ke > 0 && Math.abs(state.v) > 1) state.v = Math.sign(state.v) * Math.sqrt(2 * ke / state.mass);
     }
     function advance(sec) { var n = Math.ceil(sec / 0.002); for (var i = 0; i < n; i++) step(sec / n); }
 

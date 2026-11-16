@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="t-m3-02-fronts d-m3-02-fronts">
+  <title id="t-m3-02-fronts">그림 중3-2-3 한랭 전선과 온난 전선의 단면</title>
+  <desc id="d-m3-02-fronts">한랭 전선에서는 찬 공기가 따뜻한 공기 밑을 파고들어 전선면이 급하고, 적운형 구름이 생겨 전선 뒤쪽 좁은 지역에 소나기가 내린다. 온난 전선에서는 따뜻한 공기가 찬 공기 위로 완만하게 타고 올라 층운형 구름이 넓게 생기고, 전선 앞쪽 넓은 지역에 약한 비가 오래 내린다. 두 전선 모두 오른쪽으로 이동한다(모식도).</desc>
+  <style>
+    .m3-02-fronts-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .m3-02-fronts-l{font-size:14px;fill:var(--fig-ink)}
+    .m3-02-fronts-t{font-size:13px;fill:var(--fig-muted)}
+  </style>
+  <defs><clipPath id="m3-02-fronts-c1"><rect x="20" y="10" width="460" height="190"/></clipPath><clipPath id="m3-02-fronts-c2"><rect x="20" y="260" width="460" height="190"/></clipPath></defs>
+  <!-- ① 한랭 전선 -->
+  <rect x="20" y="10" width="460" height="190" rx="6" style="fill:var(--fig-soft-red)"/>
+  <path d="M20 200 L330 200 C305 176 272 124 232 76 L20 64 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+<circle cx="262" cy="98" r="20" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2"/><circle cx="290" cy="92" r="22" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2"/><circle cx="318" cy="98" r="18" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2"/><circle cx="276" cy="70" r="20" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2"/><circle cx="304" cy="66" r="20" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2"/><circle cx="290" cy="44" r="18" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2"/><circle cx="312" cy="40" r="14" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2"/><circle cx="270" cy="46" r="13" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2"/>
+<circle cx="262" cy="98" r="18.5" style="fill:var(--fig-panel)"/><circle cx="290" cy="92" r="20.5" style="fill:var(--fig-panel)"/><circle cx="318" cy="98" r="16.5" style="fill:var(--fig-panel)"/><circle cx="276" cy="70" r="18.5" style="fill:var(--fig-panel)"/><circle cx="304" cy="66" r="18.5" style="fill:var(--fig-panel)"/><circle cx="290" cy="44" r="16.5" style="fill:var(--fig-panel)"/><circle cx="312" cy="40" r="12.5" style="fill:var(--fig-panel)"/><circle cx="270" cy="46" r="11.5" style="fill:var(--fig-panel)"/>
+<line x1="258" y1="118" x2="252" y2="196" style="stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:6 6"/><line x1="269" y1="118" x2="263" y2="196" style="stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:6 6"/><line x1="280" y1="118" x2="274" y2="196" style="stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:6 6"/><line x1="291" y1="118" x2="285" y2="196" style="stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:6 6"/><line x1="302" y1="118" x2="296" y2="196" style="stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:6 6"/><line x1="313" y1="118" x2="307" y2="196" style="stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:6 6"/>
+  <path d="M430 190 C392 168 352 122 336 52" style="fill:none;stroke:var(--fig-red);stroke-width:3"/>
+  <path d="M334 40 l-7 14 l13 0 z" style="fill:var(--fig-red)"/>
+  <text x="472" y="40" text-anchor="end" class="m3-02-fronts-l" style="fill:var(--fig-red);font-weight:600">따뜻한 공기</text>
+  <text x="472" y="58" text-anchor="end" class="m3-02-fronts-t">밀려 올라감</text>
+  <line x1="56" y1="150" x2="166" y2="150" style="stroke:var(--fig-blue);stroke-width:3"/><path d="M178 150 l-13 -7 l0 14 z" style="fill:var(--fig-blue)"/>
+  <text x="56" y="176" class="m3-02-fronts-l" style="fill:var(--fig-blue);font-weight:600">찬 공기</text>
+  <line x1="20" y1="200" x2="480" y2="200" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <path d="M322 200 l8 -12 l8 12 z" style="fill:var(--fig-blue)"/>
+  <text x="330" y="222" text-anchor="middle" class="m3-02-fronts-t">전선 (이동 →)</text>
+  <text x="248" y="222" text-anchor="middle" class="m3-02-fronts-t" style="fill:var(--fig-blue)">소나기</text>
+  <text x="500" y="40" class="m3-02-fronts-h">한랭 전선</text>
+  <text x="500" y="66" class="m3-02-fronts-l">찬 공기가 밑으로 파고든다</text>
+  <text x="500" y="90" class="m3-02-fronts-l">전선면 기울기: 급함</text>
+  <text x="500" y="114" class="m3-02-fronts-l">구름: 적운형 (위로 솟음)</text>
+  <text x="500" y="138" class="m3-02-fronts-l">비: 전선 뒤쪽 좁은 지역,</text>
+  <text x="514" y="158" class="m3-02-fronts-l">소나기·천둥·번개</text>
+  <text x="500" y="182" class="m3-02-fronts-l">통과 후: 기온 하강</text>
+  <line x1="20" y1="245" x2="700" y2="245" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
+  <!-- ② 온난 전선 -->
+  <rect x="20" y="260" width="460" height="190" rx="6" style="fill:var(--fig-soft-red)"/>
+  <path d="M120 450 C200 432 330 392 480 336 L480 450 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+<line x1="146" y1="428" x2="140" y2="446" style="stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:6 6"/><line x1="159" y1="424" x2="153" y2="446" style="stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:6 6"/><line x1="172" y1="421" x2="166" y2="446" style="stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:6 6"/><line x1="185" y1="418" x2="179" y2="446" style="stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:6 6"/><line x1="198" y1="414" x2="192" y2="446" style="stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:6 6"/><line x1="211" y1="410" x2="205" y2="446" style="stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:6 6"/><line x1="224" y1="407" x2="218" y2="446" style="stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:6 6"/><line x1="237" y1="402" x2="231" y2="446" style="stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:6 6"/><line x1="250" y1="399" x2="244" y2="446" style="stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:6 6"/><line x1="263" y1="395" x2="257" y2="446" style="stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:6 6"/><line x1="276" y1="391" x2="270" y2="446" style="stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:6 6"/><line x1="289" y1="387" x2="283" y2="446" style="stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:6 6"/><line x1="302" y1="382" x2="296" y2="446" style="stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:6 6"/><line x1="315" y1="378" x2="309" y2="446" style="stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:6 6"/><line x1="328" y1="374" x2="322" y2="446" style="stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:6 6"/>
+<ellipse cx="190" cy="402" rx="56" ry="11" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2"/><ellipse cx="286" cy="369" rx="62" ry="11" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2"/><ellipse cx="378" cy="333" rx="58" ry="10" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2"/><ellipse cx="446" cy="303" rx="34" ry="8" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2"/>
+  <path d="M40 420 C130 404 230 374 300 352" style="fill:none;stroke:var(--fig-red);stroke-width:3"/>
+  <path d="M312 348 l-14 -3 l5 12 z" style="fill:var(--fig-red)"/>
+  <text x="34" y="290" class="m3-02-fronts-l" style="fill:var(--fig-red);font-weight:600">따뜻한 공기</text>
+  <text x="34" y="308" class="m3-02-fronts-t">완만하게 타고 오름</text>
+  <text x="472" y="436" text-anchor="end" class="m3-02-fronts-l" style="fill:var(--fig-blue);font-weight:600">찬 공기</text>
+  <line x1="20" y1="450" x2="480" y2="450" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <path d="M112 450 a8 8 0 0 1 16 0 z" style="fill:var(--fig-red)"/>
+  <text x="120" y="472" text-anchor="middle" class="m3-02-fronts-t">전선 (이동 →)</text>
+  <text x="240" y="472" text-anchor="middle" class="m3-02-fronts-t" style="fill:var(--fig-blue)">넓은 지역에 약한 비</text>
+  <text x="500" y="290" class="m3-02-fronts-h">온난 전선</text>
+  <text x="500" y="316" class="m3-02-fronts-l">따뜻한 공기가 위로 타고 오른다</text>
+  <text x="500" y="340" class="m3-02-fronts-l">전선면 기울기: 완만함</text>
+  <text x="500" y="364" class="m3-02-fronts-l">구름: 층운형 (옆으로 퍼짐)</text>
+  <text x="500" y="388" class="m3-02-fronts-l">비: 전선 앞쪽 넓은 지역,</text>
+  <text x="514" y="408" class="m3-02-fronts-l">약한 비가 오래</text>
+  <text x="500" y="432" class="m3-02-fronts-l">통과 후: 기온 상승</text>
+  <text x="360" y="494" text-anchor="middle" class="m3-02-fronts-t">두 그림 모두 전선은 오른쪽으로 이동한다. 높이와 거리의 비율은 실제와 다른 모식도이다.</text>
+</svg>

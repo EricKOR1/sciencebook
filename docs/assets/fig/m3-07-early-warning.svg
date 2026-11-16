@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-m3-07-early-warning d-m3-07-early-warning">
+  <title id="t-m3-07-early-warning">그림 중3-7-3 지진 조기 경보의 원리</title>
+  <desc id="d-m3-07-early-warning">진원에서 멀어질수록 먼저 오는 약한 진동과 늦게 오는 강한 흔들림의 도착 시각 차이가 커진다. 진원 가까운 관측소가 약한 진동을 감지해 경보를 보내면, 경보는 전파로 거의 동시에 전달되므로 먼 곳일수록 강한 흔들림이 오기 전 여유 시간이 길다. 진원 바로 가까이에서는 경보보다 강한 흔들림이 먼저 올 수 있다.</desc>
+  <style>
+    .m3-07-early-warning-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .m3-07-early-warning-tx{font-size:14px;fill:var(--fig-ink)}
+    .m3-07-early-warning-sm{font-size:13px;fill:var(--fig-muted)}
+  </style>
+  <rect x="80.0" y="60.0" width="100.8" height="250" style="fill:var(--fig-soft-red)"/>
+  <text x="130.4" y="78.0" text-anchor="middle" class="m3-07-early-warning-sm" style="font-size:12px">경보보다</text>
+  <text x="130.4" y="94.0" text-anchor="middle" class="m3-07-early-warning-sm" style="font-size:12px">흔들림이</text>
+  <text x="130.4" y="110.0" text-anchor="middle" class="m3-07-early-warning-sm" style="font-size:12px">먼저 옴</text>
+  <line x1="80" y1="310" x2="510" y2="310" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <path d="M516 310 l-10 -5 l0 10 z" style="fill:var(--fig-ink)"/>
+  <line x1="80" y1="310" x2="80" y2="50" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <path d="M80 44 l-5 10 l10 0 z" style="fill:var(--fig-ink)"/>
+  <text x="290.0" y="362" text-anchor="middle" class="m3-07-early-warning-tx">진원으로부터의 거리 →</text>
+  <text x="66" y="185.0" text-anchor="middle" class="m3-07-early-warning-tx" transform="rotate(-90 66 185.0)">지진 발생 후 도착하는 시각 →</text>
+  <line x1="80.0" y1="310.0" x2="500.0" y2="185.0" style="stroke:var(--fig-blue);stroke-width:3"/>
+  <line x1="80.0" y1="310.0" x2="500.0" y2="60.0" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="80.0" y1="250.0" x2="500.0" y2="250.0" style="stroke:var(--fig-amber);stroke-width:3;stroke-dasharray:8 5"/>
+  <path d="M122.0 308 l-8 16 l16 0 z" style="fill:var(--fig-violet)"/>
+  <text x="122.0" y="342" text-anchor="middle" class="m3-07-early-warning-sm">관측소</text>
+  <circle cx="122.0" cy="297.5" r="5" style="fill:var(--fig-blue)"/>
+  <line x1="122.0" y1="291.5" x2="122.0" y2="256.0" style="stroke:var(--fig-violet);stroke-width:1.8"/>
+  <path d="M122.0 252.0 l-5 8 l10 0 z" style="fill:var(--fig-violet)"/>
+  <text x="130.0" y="272.0" class="m3-07-early-warning-sm" style="font-size:12px">감지·분석</text>
+  <rect x="401.4" y="290" width="8" height="20" style="fill:var(--fig-muted)"/><rect x="411.4" y="296" width="9" height="14" style="fill:var(--fig-muted)"/>
+  <text x="410.4" y="342" text-anchor="middle" class="m3-07-early-warning-sm">도시</text>
+  <line x1="410.4" y1="288" x2="410.4" y2="113.3" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 3"/>
+  <line x1="424.4" y1="244.0" x2="424.4" y2="119.3" style="stroke:var(--fig-green);stroke-width:2.5"/>
+  <path d="M424.4 250.0 l-5 -9 l10 0 z M424.4 113.3 l-5 9 l10 0 z" style="fill:var(--fig-green)"/>
+  <text x="432.4" y="186.7" class="m3-07-early-warning-lbl" style="fill:var(--fig-green)">여유 시간</text>
+  <circle cx="410.4" cy="211.7" r="4.5" style="fill:var(--fig-blue)"/>
+  <circle cx="410.4" cy="113.3" r="4.5" style="fill:var(--fig-red)"/>
+  <circle cx="410.4" cy="250.0" r="4.5" style="fill:var(--fig-amber)"/>
+  <line x1="548" y1="78" x2="578" y2="78" style="stroke:var(--fig-blue);stroke-width:3"/>
+  <text x="586" y="83" class="m3-07-early-warning-tx" style="font-weight:600">약한 진동</text>
+  <text x="586" y="101" class="m3-07-early-warning-sm">빠르다 → 먼저 도착</text>
+  <line x1="548" y1="130" x2="578" y2="130" style="stroke:var(--fig-red);stroke-width:3"/>
+  <text x="586" y="135" class="m3-07-early-warning-tx" style="font-weight:600">강한 흔들림</text>
+  <text x="586" y="153" class="m3-07-early-warning-sm">느리다 → 늦게 도착</text>
+  <line x1="548" y1="182" x2="578" y2="182" style="stroke:var(--fig-amber);stroke-width:3;stroke-dasharray:8 5"/>
+  <text x="586" y="187" class="m3-07-early-warning-tx" style="font-weight:600">경보</text>
+  <text x="586" y="205" class="m3-07-early-warning-sm">전파로 거의 동시에</text>
+  <text x="548" y="240" class="m3-07-early-warning-sm">진원에서 멀수록</text>
+  <text x="548" y="258" class="m3-07-early-warning-sm">두 진동의 도착 시각 차이가</text>
+  <text x="548" y="276" class="m3-07-early-warning-sm">커져 여유 시간이 길어진다.</text>
+  <text x="360" y="372" text-anchor="middle" class="m3-07-early-warning-sm">모식도: 기울기는 진동이 퍼지는 빠르기를 나타내며, 실제 값은 지역과 땅속 구조에 따라 다르다.</text>
+</svg>

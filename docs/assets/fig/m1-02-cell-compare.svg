@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-m1-02-cell-compare d-m1-02-cell-compare">
+<title id="t-m1-02-cell-compare">그림 중1-2-1 동물 세포와 식물 세포의 구조</title>
+<desc id="d-m1-02-cell-compare">핵, 세포막, 미토콘드리아는 동물 세포와 식물 세포에 모두 있다. 세포벽과 엽록체는 식물 세포에만 있다. 모식도(크기 비율은 실제와 다름).</desc>
+<style>
+  .m102c-cyto{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2.2}
+  .m102c-wall{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2.5}
+  .m102c-nuc{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2.5} .m102c-nucl{fill:var(--fig-violet)}
+  .m102c-mito{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2} .m102c-cris{fill:none;stroke:var(--fig-red);stroke-width:1.4}
+  .m102c-chl{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2} .m102c-gran{fill:none;stroke:var(--fig-green);stroke-width:2}
+  .m102c-lead{fill:none;stroke:var(--fig-muted);stroke-width:1} .m102c-leadg{fill:none;stroke:var(--fig-green);stroke-width:1.2}
+  .m102c-dot{fill:var(--fig-muted)} .m102c-dotg{fill:var(--fig-green)}
+  .m102c-lbl{font-size:14px;fill:var(--fig-ink)} .m102c-sm{font-size:13px;fill:var(--fig-muted)}
+  .m102c-lblg{font-size:14px;font-weight:700;fill:var(--fig-green)}
+  .m102c-ttl{font-size:16px;font-weight:700;fill:var(--fig-ink)}
+  .m102c-band{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4}
+</style>
+<path d="M258.5 200.0 L258.8 208.9 L257.4 217.7 L254.3 226.3 L249.9 234.3 L244.5 241.8 L238.5 248.7 L232.0 255.2 L225.2 261.3 L218.2 267.1 L211.0 272.5 L203.3 277.5 L195.3 282.0 L186.7 285.8 L177.7 288.8 L168.4 290.9 L158.9 292.0 L149.4 292.3 L140.0 292.0 L130.7 291.3 L121.4 290.3 L112.1 289.2 L102.7 287.9 L93.0 286.3 L83.3 284.2 L73.5 281.4 L64.0 277.6 L55.2 272.7 L47.5 266.5 L41.2 259.3 L36.5 251.2 L33.4 242.6 L31.9 233.7 L31.7 224.9 L32.2 216.3 L33.3 208.0 L34.5 200.0 L35.7 192.2 L36.8 184.4 L38.0 176.6 L39.5 168.6 L41.5 160.6 L44.5 152.7 L48.5 145.1 L53.6 137.9 L59.9 131.3 L67.0 125.4 L74.9 120.3 L83.3 115.8 L92.0 111.8 L101.1 108.4 L110.4 105.4 L120.0 102.9 L129.9 101.1 L140.0 100.0 L150.2 100.0 L160.3 101.2 L170.1 103.7 L179.3 107.5 L187.7 112.3 L195.3 118.0 L202.0 124.1 L208.0 130.5 L213.6 136.9 L219.1 143.1 L224.7 149.2 L230.5 155.2 L236.5 161.4 L242.4 168.0 L248.0 175.2 L252.8 182.9 L256.5 191.3 Z" class="m102c-cyto"/>
+<circle cx="122" cy="196" r="32" class="m102c-nuc"/><circle cx="115" cy="200" r="9" class="m102c-nucl"/>
+<g transform="rotate(-20 190 240)"><ellipse cx="190" cy="240" rx="17" ry="9" class="m102c-mito"/><polyline points="178.0 244 182.0 236 186.0 244 190.0 236 194.0 244 198.0 236 202.0 244" class="m102c-cris"/></g>
+<g transform="rotate(40 80 255)"><ellipse cx="80" cy="255" rx="17" ry="9" class="m102c-mito"/><polyline points="68.0 259 72.0 251 76.0 259 80.0 251 84.0 259 88.0 251 92.0 259" class="m102c-cris"/></g>
+<g transform="rotate(15 185 150)"><ellipse cx="185" cy="150" rx="17" ry="9" class="m102c-mito"/><polyline points="173.0 154 177.0 146 181.0 154 185.0 146 189.0 154 193.0 146 197.0 154" class="m102c-cris"/></g>
+<rect x="452" y="100" width="236" height="200" rx="8" class="m102c-wall"/>
+<rect x="462" y="110" width="216" height="180" rx="5" class="m102c-cyto"/>
+<circle cx="512" cy="160" r="26" class="m102c-nuc"/><circle cx="506" cy="164" r="8" class="m102c-nucl"/>
+<g transform="rotate(10 510 240)"><ellipse cx="510" cy="240" rx="17" ry="9" class="m102c-mito"/><polyline points="498.0 244 502.0 236 506.0 244 510.0 236 514.0 244 518.0 236 522.0 244" class="m102c-cris"/></g>
+<g transform="rotate(-30 600 200)"><ellipse cx="600" cy="200" rx="17" ry="9" class="m102c-mito"/><polyline points="588.0 204 592.0 196 596.0 204 600.0 196 604.0 204 608.0 196 612.0 204" class="m102c-cris"/></g>
+<g transform="rotate(0 578 128)"><ellipse cx="578" cy="128" rx="16" ry="8.5" class="m102c-chl"/><line x1="571" y1="124" x2="571" y2="132" class="m102c-gran"/><line x1="578" y1="124" x2="578" y2="132" class="m102c-gran"/><line x1="585" y1="124" x2="585" y2="132" class="m102c-gran"/></g>
+<g transform="rotate(15 640 132)"><ellipse cx="640" cy="132" rx="16" ry="8.5" class="m102c-chl"/><line x1="633" y1="128" x2="633" y2="136" class="m102c-gran"/><line x1="640" y1="128" x2="640" y2="136" class="m102c-gran"/><line x1="647" y1="128" x2="647" y2="136" class="m102c-gran"/></g>
+<g transform="rotate(80 660 210)"><ellipse cx="660" cy="210" rx="16" ry="8.5" class="m102c-chl"/><line x1="653" y1="206" x2="653" y2="214" class="m102c-gran"/><line x1="660" y1="206" x2="660" y2="214" class="m102c-gran"/><line x1="667" y1="206" x2="667" y2="214" class="m102c-gran"/></g>
+<g transform="rotate(0 620 268)"><ellipse cx="620" cy="268" rx="16" ry="8.5" class="m102c-chl"/><line x1="613" y1="264" x2="613" y2="272" class="m102c-gran"/><line x1="620" y1="264" x2="620" y2="272" class="m102c-gran"/><line x1="627" y1="264" x2="627" y2="272" class="m102c-gran"/></g>
+<g transform="rotate(-10 560 270)"><ellipse cx="560" cy="270" rx="16" ry="8.5" class="m102c-chl"/><line x1="553" y1="266" x2="553" y2="274" class="m102c-gran"/><line x1="560" y1="266" x2="560" y2="274" class="m102c-gran"/><line x1="567" y1="266" x2="567" y2="274" class="m102c-gran"/></g>
+<g transform="rotate(75 486 214)"><ellipse cx="486" cy="214" rx="16" ry="8.5" class="m102c-chl"/><line x1="479" y1="210" x2="479" y2="218" class="m102c-gran"/><line x1="486" y1="210" x2="486" y2="218" class="m102c-gran"/><line x1="493" y1="210" x2="493" y2="218" class="m102c-gran"/></g>
+<text x="140" y="70" text-anchor="middle" class="m102c-ttl">동물 세포</text>
+<text x="570" y="70" text-anchor="middle" class="m102c-ttl">식물 세포</text>
+<text x="360" y="70" text-anchor="middle" class="m102c-sm">두 세포에 모두 있는 것</text>
+<rect x="296" y="86" width="128" height="176" rx="10" class="m102c-band"/>
+<line x1="333" y1="111" x2="248.7" y2="176.2" class="m102c-lead"/><circle cx="248.7" cy="176.2" r="2.4" class="m102c-dot"/>
+<line x1="387" y1="111" x2="462.0" y2="124.0" class="m102c-lead"/><circle cx="462.0" cy="124.0" r="2.4" class="m102c-dot"/>
+<text x="360" y="116" text-anchor="middle" class="m102c-lbl">세포막</text>
+<line x1="347" y1="171" x2="152.0" y2="190.0" class="m102c-lead"/><circle cx="152.0" cy="190.0" r="2.4" class="m102c-dot"/>
+<line x1="373" y1="171" x2="536.0" y2="152.0" class="m102c-lead"/><circle cx="536.0" cy="152.0" r="2.4" class="m102c-dot"/>
+<text x="360" y="176" text-anchor="middle" class="m102c-lbl">핵</text>
+<line x1="312" y1="231" x2="205.0" y2="236.0" class="m102c-lead"/><circle cx="205.0" cy="236.0" r="2.4" class="m102c-dot"/>
+<line x1="408" y1="231" x2="526.0" y2="241.0" class="m102c-lead"/><circle cx="526.0" cy="241.0" r="2.4" class="m102c-dot"/>
+<text x="360" y="236" text-anchor="middle" class="m102c-lbl">미토콘드리아</text>
+<text x="500" y="336" text-anchor="middle" class="m102c-lblg">세포벽</text><line x1="500" y1="322" x2="500" y2="301" class="m102c-leadg"/><circle cx="500" cy="300" r="2.4" class="m102c-dotg"/>
+<text x="500" y="354" text-anchor="middle" class="m102c-sm">모양 유지·보호</text>
+<text x="620" y="336" text-anchor="middle" class="m102c-lblg">엽록체</text><line x1="620" y1="322" x2="620" y2="278" class="m102c-leadg"/><circle cx="620" cy="277" r="2.4" class="m102c-dotg"/>
+<text x="620" y="354" text-anchor="middle" class="m102c-sm">광합성</text>
+<text x="140" y="336" text-anchor="middle" class="m102c-sm">세포벽과 엽록체가 없다</text>
+<text x="140" y="354" text-anchor="middle" class="m102c-sm">(모양이 둥글거나 불규칙)</text>
+<text x="360" y="390" text-anchor="middle" class="m102c-sm">모식도 — 실제 세포의 크기 비율·소기관 수와 다르다</text>
+</svg>

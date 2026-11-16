@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="t-m1-07-diurnal-motion d-m1-07-diurnal-motion">
+  <title id="t-m1-07-diurnal-motion">그림 중1-7-3 방향에 따른 별의 일주 운동</title>
+  <desc id="d-m1-07-diurnal-motion">우리나라에서 각 방향의 하늘을 바라볼 때 별이 움직이는 모습. 동쪽에서는 비스듬히 떠오르고, 남쪽에서는 동에서 서로 지나가며, 서쪽에서는 비스듬히 지고, 북쪽에서는 북극성을 중심으로 시계 반대 방향으로 돈다.</desc>
+  <style>.m1-07-diurnal-motion-t{font-size:14px;fill:var(--fig-ink)} .m1-07-diurnal-motion-b{font-weight:600} .m1-07-diurnal-motion-s{font-size:13px;fill:var(--fig-muted)}
+    .m1-07-diurnal-motion-sky{fill:var(--fig-soft-blue)} .m1-07-diurnal-motion-gnd{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5}
+    .m1-07-diurnal-motion-tr{fill:none;stroke:var(--fig-violet);stroke-width:2} .m1-07-diurnal-motion-hd{fill:var(--fig-violet)}</style>
+  <rect x="15.0" y="40" width="165" height="160" rx="6" class="m1-07-diurnal-motion-sky"/>
+  <rect x="15.0" y="200" width="165" height="30" rx="4" class="m1-07-diurnal-motion-gnd"/>
+  <text x="97.5" y="28" text-anchor="middle" class="m1-07-diurnal-motion-t m1-07-diurnal-motion-b">동쪽 하늘</text>
+  <text x="23.0" y="220" class="m1-07-diurnal-motion-s">북</text><text x="172.0" y="220" text-anchor="end" class="m1-07-diurnal-motion-s">남</text>
+  <text x="97.5" y="252" text-anchor="middle" class="m1-07-diurnal-motion-s">비스듬히 떠오른다</text>
+  <path d="M33.0 200 Q53.0 125 103.0 80" class="m1-07-diurnal-motion-tr"/><path d="M109.7 74.0 L106.3 83.7 L99.7 76.3 Z" class="m1-07-diurnal-motion-hd"/>
+  <path d="M78.0 200 Q98.0 125 148.0 80" class="m1-07-diurnal-motion-tr"/><path d="M154.7 74.0 L151.3 83.7 L144.7 76.3 Z" class="m1-07-diurnal-motion-hd"/>
+  <path d="M123.0 200 Q143.0 125 193.0 80" class="m1-07-diurnal-motion-tr"/><path d="M199.7 74.0 L196.3 83.7 L189.7 76.3 Z" class="m1-07-diurnal-motion-hd"/>
+  <rect x="190.0" y="40" width="165" height="160" rx="6" class="m1-07-diurnal-motion-sky"/>
+  <rect x="190.0" y="200" width="165" height="30" rx="4" class="m1-07-diurnal-motion-gnd"/>
+  <text x="272.5" y="28" text-anchor="middle" class="m1-07-diurnal-motion-t m1-07-diurnal-motion-b">남쪽 하늘</text>
+  <text x="198.0" y="220" class="m1-07-diurnal-motion-s">동</text><text x="347.0" y="220" text-anchor="end" class="m1-07-diurnal-motion-s">서</text>
+  <text x="272.5" y="252" text-anchor="middle" class="m1-07-diurnal-motion-s">동 → 서로 지나간다</text>
+  <path d="M202.5 200 A70 120 0 0 1 342.5 200" class="m1-07-diurnal-motion-tr"/><path d="M342.6 179.9 L335.5 172.4 L345.3 170.0 Z" class="m1-07-diurnal-motion-hd"/>
+  <path d="M212.5 200 A60 90 0 0 1 332.5 200" class="m1-07-diurnal-motion-tr"/><path d="M332.9 187.1 L325.8 179.6 L335.6 177.2 Z" class="m1-07-diurnal-motion-hd"/>
+  <path d="M222.5 200 A50 62 0 0 1 322.5 200" class="m1-07-diurnal-motion-tr"/><path d="M323.2 193.9 L316.1 186.3 L325.9 183.9 Z" class="m1-07-diurnal-motion-hd"/>
+  <rect x="365.0" y="40" width="165" height="160" rx="6" class="m1-07-diurnal-motion-sky"/>
+  <rect x="365.0" y="200" width="165" height="30" rx="4" class="m1-07-diurnal-motion-gnd"/>
+  <text x="447.5" y="28" text-anchor="middle" class="m1-07-diurnal-motion-t m1-07-diurnal-motion-b">서쪽 하늘</text>
+  <text x="373.0" y="220" class="m1-07-diurnal-motion-s">남</text><text x="522.0" y="220" text-anchor="end" class="m1-07-diurnal-motion-s">북</text>
+  <text x="447.5" y="252" text-anchor="middle" class="m1-07-diurnal-motion-s">비스듬히 진다</text>
+  <path d="M377.0 80 Q427.0 125 447.0 196" class="m1-07-diurnal-motion-tr"/><path d="M449.4 204.7 L442.2 197.4 L451.8 194.6 Z" class="m1-07-diurnal-motion-hd"/>
+  <path d="M422.0 80 Q472.0 125 492.0 196" class="m1-07-diurnal-motion-tr"/><path d="M494.4 204.7 L487.2 197.4 L496.8 194.6 Z" class="m1-07-diurnal-motion-hd"/>
+  <path d="M467.0 80 Q517.0 125 537.0 196" class="m1-07-diurnal-motion-tr"/><path d="M539.4 204.7 L532.2 197.4 L541.8 194.6 Z" class="m1-07-diurnal-motion-hd"/>
+  <rect x="540.0" y="40" width="165" height="160" rx="6" class="m1-07-diurnal-motion-sky"/>
+  <rect x="540.0" y="200" width="165" height="30" rx="4" class="m1-07-diurnal-motion-gnd"/>
+  <text x="622.5" y="28" text-anchor="middle" class="m1-07-diurnal-motion-t m1-07-diurnal-motion-b">북쪽 하늘</text>
+  <text x="548.0" y="220" class="m1-07-diurnal-motion-s">서</text><text x="697.0" y="220" text-anchor="end" class="m1-07-diurnal-motion-s">동</text>
+  <text x="622.5" y="252" text-anchor="middle" class="m1-07-diurnal-motion-s">북극성 중심, 시계 반대 방향</text>
+  <circle cx="622.5" cy="102" r="4" style="fill:var(--fig-amber)"/><text x="630.5" y="96" class="m1-07-diurnal-motion-s" style="fill:var(--fig-ink)">북극성</text>
+  <path d="M598.1 110.9 A26 26 0 0 0 642.4 118.7" class="m1-07-diurnal-motion-tr"/><path d="M648.2 111.8 L646.2 121.9 L638.6 115.5 Z" class="m1-07-diurnal-motion-hd"/>
+  <path d="M579.3 117.7 A46 46 0 0 0 657.7 131.6" class="m1-07-diurnal-motion-tr"/><path d="M663.5 124.7 L661.6 134.8 L653.9 128.4 Z" class="m1-07-diurnal-motion-hd"/>
+  <path d="M558.6 125.3 A68 68 0 0 0 674.6 145.7" class="m1-07-diurnal-motion-tr"/><path d="M680.4 138.8 L678.4 148.9 L670.8 142.5 Z" class="m1-07-diurnal-motion-hd"/>
+</svg>

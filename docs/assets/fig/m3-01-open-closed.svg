@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-m3-01-open-closed d-m3-01-open-closed">
+  <title id="t-m3-01-open-closed">그림 중3-1-1 열린 용기와 닫힌 용기에서의 기체 발생 반응</title>
+  <desc id="d-m3-01-open-closed">탄산 칼슘과 묽은 염산이 반응하면 이산화 탄소 기체가 생긴다. 열린 용기에서는 기체가 빠져나가 저울의 눈금이 줄어들고, 닫힌 용기에서는 기체가 병 안에 남아 눈금이 그대로이다.</desc>
+  <style>
+    .m3-01-open-closed-h{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .m3-01-open-closed-l{font-size:14px;fill:var(--fig-ink)}
+    .m3-01-open-closed-s{font-size:13px;fill:var(--fig-muted)}
+    .m3-01-open-closed-bub{fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:1.5}
+    .m3-01-open-closed-glass{fill:none;stroke:var(--fig-ink);stroke-width:2.5;stroke-linejoin:round}
+  </style>
+  <text x="180" y="28" text-anchor="middle" class="m3-01-open-closed-h">열린 용기</text>
+  <text x="540" y="28" text-anchor="middle" class="m3-01-open-closed-h">닫힌 용기 (뚜껑을 꼭 닫음)</text>
+  <line x1="360" y1="20" x2="360" y2="300" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
+
+  <!-- 왼쪽: 열린 병 -->
+  <path d="M122 236 L122 182 L238 182 L238 236 Z" style="fill:var(--fig-soft-blue)"/>
+  <path d="M120 236 L120 130 Q120 116 140 110 L160 104 L160 76 M200 76 L200 104 L220 110 Q240 116 240 130 L240 236 Z" class="m3-01-open-closed-glass"/>
+  <!-- 기울어진 작은 시험관과 달걀 껍데기 -->
+  <path d="M150 226 L196 168 L206 176 L162 234 Z" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.5"/>
+  <rect x="160" y="210" width="12" height="9" rx="2" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1"/>
+  <rect x="148" y="222" width="10" height="8" rx="2" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1"/>
+  <circle cx="190" cy="200" r="4" class="m3-01-open-closed-bub"/>
+  <circle cx="214" cy="194" r="3.5" class="m3-01-open-closed-bub"/>
+  <circle cx="200" cy="150" r="4" class="m3-01-open-closed-bub"/>
+  <circle cx="176" cy="96" r="4" class="m3-01-open-closed-bub"/>
+  <circle cx="186" cy="58" r="4" class="m3-01-open-closed-bub"/>
+  <circle cx="168" cy="44" r="3.5" class="m3-01-open-closed-bub"/>
+  <path d="M232 96 C246 80 250 66 248 50" style="fill:none;stroke:var(--fig-teal);stroke-width:2"/>
+  <path d="M248 42 l-6 12 l11 -1 z" style="fill:var(--fig-teal)"/>
+  <text x="256" y="66" class="m3-01-open-closed-s" style="fill:var(--fig-teal)">이산화 탄소가</text>
+  <text x="256" y="84" class="m3-01-open-closed-s" style="fill:var(--fig-teal)">빠져나감</text>
+  <!-- 저울 -->
+  <rect x="80" y="236" width="200" height="14" rx="3" style="fill:var(--fig-line)"/>
+  <rect x="96" y="250" width="168" height="48" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.5"/>
+  <rect x="122" y="260" width="116" height="28" rx="4" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <text x="180" y="279" text-anchor="middle" class="m3-01-open-closed-l" style="fill:var(--fig-red);font-weight:600">눈금 감소 ▼</text>
+  <text x="180" y="324" text-anchor="middle" class="m3-01-open-closed-l">빠져나간 기체만큼 가벼워진 것처럼 보인다</text>
+
+  <!-- 오른쪽: 닫힌 병 -->
+  <path d="M482 236 L482 182 L598 182 L598 236 Z" style="fill:var(--fig-soft-blue)"/>
+  <path d="M480 236 L480 130 Q480 116 500 110 L520 104 L520 76 L560 76 L560 104 L580 110 Q600 116 600 130 L600 236 Z" class="m3-01-open-closed-glass"/>
+  <rect x="514" y="62" width="52" height="16" rx="3" style="fill:var(--fig-amber);stroke:var(--fig-ink);stroke-width:1.5"/>
+  <path d="M510 226 L556 168 L566 176 L522 234 Z" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.5"/>
+  <rect x="520" y="210" width="12" height="9" rx="2" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1"/>
+  <rect x="508" y="222" width="10" height="8" rx="2" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1"/>
+  <circle cx="550" cy="200" r="4" class="m3-01-open-closed-bub"/>
+  <circle cx="574" cy="194" r="3.5" class="m3-01-open-closed-bub"/>
+  <circle cx="500" cy="150" r="4" class="m3-01-open-closed-bub"/>
+  <circle cx="560" cy="140" r="4" class="m3-01-open-closed-bub"/>
+  <circle cx="530" cy="120" r="3.5" class="m3-01-open-closed-bub"/>
+  <circle cx="584" cy="160" r="3.5" class="m3-01-open-closed-bub"/>
+  <circle cx="540" cy="92" r="3.5" class="m3-01-open-closed-bub"/>
+  <text x="612" y="140" class="m3-01-open-closed-s" style="fill:var(--fig-teal)">기체가</text>
+  <text x="612" y="158" class="m3-01-open-closed-s" style="fill:var(--fig-teal)">병 안에 남음</text>
+  <rect x="440" y="236" width="200" height="14" rx="3" style="fill:var(--fig-line)"/>
+  <rect x="456" y="250" width="168" height="48" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.5"/>
+  <rect x="482" y="260" width="116" height="28" rx="4" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <text x="540" y="279" text-anchor="middle" class="m3-01-open-closed-l" style="fill:var(--fig-green);font-weight:600">눈금 그대로 =</text>
+  <text x="540" y="324" text-anchor="middle" class="m3-01-open-closed-l">반응에 참여한 모든 물질이 저울 위에 있다</text>
+
+  <text x="360" y="352" text-anchor="middle" class="m3-01-open-closed-s">탄산 칼슘(달걀 껍데기) + 묽은 염산 → 염화 칼슘 + 물 + 이산화 탄소 (모식도)</text>
+</svg>

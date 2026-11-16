@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 452" role="img" aria-labelledby="t-gene-1-nondisjunction d-gene-1-nondisjunction">
+  <title id="t-gene-1-nondisjunction">그림 생물의 유전 1-1 감수 1분열 비분리와 감수 2분열 비분리</title>
+  <desc id="d-gene-1-nondisjunction">한 쌍의 상동 염색체만 나타낸 모식도이다. 감수 1분열에서 상동 염색체가 갈라지지 않으면 생식세포 4개가 모두 비정상(n+1 2개, n−1 2개)이 되고, 감수 2분열에서 한 세포의 염색 분체가 갈라지지 않으면 4개 중 2개만 비정상(n+1 1개, n−1 1개)이 된다.</desc>
+  <style>
+    .gene-1-nondisjunction-h{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .gene-1-nondisjunction-tx{font-size:14px;fill:var(--fig-ink)}
+    .gene-1-nondisjunction-sm{font-size:13px;fill:var(--fig-muted)}
+    .gene-1-nondisjunction-bad{font-size:14px;font-weight:600;fill:var(--fig-red)}
+    .gene-1-nondisjunction-ok{font-size:14px;font-weight:600;fill:var(--fig-green)}
+    .gene-1-nondisjunction-cell{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:2}
+    .gene-1-nondisjunction-nd{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2.5}
+    .gene-1-nondisjunction-b{fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:1}
+    .gene-1-nondisjunction-r{fill:var(--fig-red);stroke:var(--fig-ink);stroke-width:1}
+    .gene-1-nondisjunction-cen{fill:var(--fig-ink)}
+    .gene-1-nondisjunction-ar{fill:none;stroke:var(--fig-muted);stroke-width:1.6}
+    .gene-1-nondisjunction-ah{fill:var(--fig-muted)}
+    .gene-1-nondisjunction-pan{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1}
+  </style>
+  <rect x="10" y="10" width="350" height="400" rx="10" class="gene-1-nondisjunction-pan"/>
+  <text x="185" y="36" text-anchor="middle" class="gene-1-nondisjunction-h">감수 1분열에서 비분리</text>
+  <text x="24" y="108" class="gene-1-nondisjunction-sm">감수 분열 전</text>
+  <text x="24" y="126" class="gene-1-nondisjunction-sm">(복제된 상태)</text>
+  <circle cx="185" cy="104" r="42" class="gene-1-nondisjunction-cell"/>
+  <rect x="165.0" y="89.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-b"/>
+  <rect x="174.0" y="89.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-b"/>
+  <circle cx="173" cy="104" r="3" class="gene-1-nondisjunction-cen"/>
+  <rect x="189.0" y="89.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-r"/>
+  <rect x="198.0" y="89.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-r"/>
+  <circle cx="197" cy="104" r="3" class="gene-1-nondisjunction-cen"/>
+  <text x="24" y="172.0" class="gene-1-nondisjunction-sm">감수 1분열</text>
+  <text x="24" y="291.5" class="gene-1-nondisjunction-sm">감수 2분열</text>
+  <line x1="163.0" y1="140.0" x2="119.0" y2="185.0" class="gene-1-nondisjunction-ar"/>
+  <path d="M119.0 185.0 L121.8 177.5 L126.4 182.1 Z" class="gene-1-nondisjunction-ah"/>
+  <line x1="207.0" y1="140.0" x2="251.0" y2="185.0" class="gene-1-nondisjunction-ar"/>
+  <path d="M251.0 185.0 L243.6 182.1 L248.2 177.5 Z" class="gene-1-nondisjunction-ah"/>
+  <line x1="97.0" y1="252.0" x2="65.0" y2="314.0" class="gene-1-nondisjunction-ar"/>
+  <path d="M65.0 314.0 L65.5 306.0 L71.2 309.0 Z" class="gene-1-nondisjunction-ah"/>
+  <line x1="117.0" y1="252.0" x2="129.0" y2="314.0" class="gene-1-nondisjunction-ar"/>
+  <path d="M129.0 314.0 L124.4 307.4 L130.8 306.2 Z" class="gene-1-nondisjunction-ah"/>
+  <line x1="253.0" y1="252.0" x2="241.0" y2="314.0" class="gene-1-nondisjunction-ar"/>
+  <path d="M241.0 314.0 L239.2 306.2 L245.6 307.4 Z" class="gene-1-nondisjunction-ah"/>
+  <line x1="273.0" y1="252.0" x2="305.0" y2="314.0" class="gene-1-nondisjunction-ar"/>
+  <path d="M305.0 314.0 L298.8 309.0 L304.5 306.0 Z" class="gene-1-nondisjunction-ah"/>
+  <circle cx="107" cy="222" r="34" class="gene-1-nondisjunction-nd"/>
+  <rect x="88.0" y="207.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-b"/>
+  <rect x="97.0" y="207.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-b"/>
+  <circle cx="96" cy="222" r="3" class="gene-1-nondisjunction-cen"/>
+  <rect x="110.0" y="207.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-r"/>
+  <rect x="119.0" y="207.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-r"/>
+  <circle cx="118" cy="222" r="3" class="gene-1-nondisjunction-cen"/>
+  <circle cx="263" cy="222" r="34" class="gene-1-nondisjunction-cell"/>
+  <text x="107" y="272" text-anchor="middle" class="gene-1-nondisjunction-sm" style="fill:var(--fig-amber)">비분리</text>
+  <text x="272" y="176" text-anchor="middle" class="gene-1-nondisjunction-sm">상동 염색체가</text>
+  <text x="272" y="192" text-anchor="middle" class="gene-1-nondisjunction-sm">함께 한쪽으로</text>
+  <circle cx="57" cy="344" r="27" class="gene-1-nondisjunction-cell"/>
+  <rect x="47.5" y="332.0" width="7" height="24" rx="3.5" class="gene-1-nondisjunction-b"/>
+  <circle cx="51" cy="344" r="2.6" class="gene-1-nondisjunction-cen"/>
+  <rect x="59.5" y="332.0" width="7" height="24" rx="3.5" class="gene-1-nondisjunction-r"/>
+  <circle cx="63" cy="344" r="2.6" class="gene-1-nondisjunction-cen"/>
+  <circle cx="137" cy="344" r="27" class="gene-1-nondisjunction-cell"/>
+  <rect x="127.5" y="332.0" width="7" height="24" rx="3.5" class="gene-1-nondisjunction-b"/>
+  <circle cx="131" cy="344" r="2.6" class="gene-1-nondisjunction-cen"/>
+  <rect x="139.5" y="332.0" width="7" height="24" rx="3.5" class="gene-1-nondisjunction-r"/>
+  <circle cx="143" cy="344" r="2.6" class="gene-1-nondisjunction-cen"/>
+  <circle cx="233" cy="344" r="27" class="gene-1-nondisjunction-cell"/>
+  <circle cx="313" cy="344" r="27" class="gene-1-nondisjunction-cell"/>
+  <text x="57" y="391" text-anchor="middle" class="gene-1-nondisjunction-bad">n+1</text>
+  <text x="137" y="391" text-anchor="middle" class="gene-1-nondisjunction-bad">n+1</text>
+  <text x="233" y="391" text-anchor="middle" class="gene-1-nondisjunction-bad">n−1</text>
+  <text x="313" y="391" text-anchor="middle" class="gene-1-nondisjunction-bad">n−1</text>
+  <text x="185" y="415" text-anchor="middle" class="gene-1-nondisjunction-tx">생식세포 4개 모두 비정상</text>
+  <text x="185" y="433" text-anchor="middle" class="gene-1-nondisjunction-sm">n+1에 서로 다른 상동 염색체(파랑+빨강)</text>
+  <rect x="360" y="10" width="350" height="400" rx="10" class="gene-1-nondisjunction-pan"/>
+  <text x="535" y="36" text-anchor="middle" class="gene-1-nondisjunction-h">감수 2분열에서 비분리</text>
+  <text x="374" y="108" class="gene-1-nondisjunction-sm">감수 분열 전</text>
+  <text x="374" y="126" class="gene-1-nondisjunction-sm">(복제된 상태)</text>
+  <circle cx="535" cy="104" r="42" class="gene-1-nondisjunction-cell"/>
+  <rect x="515.0" y="89.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-b"/>
+  <rect x="524.0" y="89.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-b"/>
+  <circle cx="523" cy="104" r="3" class="gene-1-nondisjunction-cen"/>
+  <rect x="539.0" y="89.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-r"/>
+  <rect x="548.0" y="89.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-r"/>
+  <circle cx="547" cy="104" r="3" class="gene-1-nondisjunction-cen"/>
+  <text x="374" y="172.0" class="gene-1-nondisjunction-sm">감수 1분열</text>
+  <text x="374" y="291.5" class="gene-1-nondisjunction-sm">감수 2분열</text>
+  <line x1="513.0" y1="140.0" x2="469.0" y2="185.0" class="gene-1-nondisjunction-ar"/>
+  <path d="M469.0 185.0 L471.8 177.5 L476.4 182.1 Z" class="gene-1-nondisjunction-ah"/>
+  <line x1="557.0" y1="140.0" x2="601.0" y2="185.0" class="gene-1-nondisjunction-ar"/>
+  <path d="M601.0 185.0 L593.6 182.1 L598.2 177.5 Z" class="gene-1-nondisjunction-ah"/>
+  <line x1="447.0" y1="252.0" x2="415.0" y2="314.0" class="gene-1-nondisjunction-ar"/>
+  <path d="M415.0 314.0 L415.5 306.0 L421.2 309.0 Z" class="gene-1-nondisjunction-ah"/>
+  <line x1="467.0" y1="252.0" x2="479.0" y2="314.0" class="gene-1-nondisjunction-ar"/>
+  <path d="M479.0 314.0 L474.4 307.4 L480.8 306.2 Z" class="gene-1-nondisjunction-ah"/>
+  <line x1="603.0" y1="252.0" x2="591.0" y2="314.0" class="gene-1-nondisjunction-ar"/>
+  <path d="M591.0 314.0 L589.2 306.2 L595.6 307.4 Z" class="gene-1-nondisjunction-ah"/>
+  <line x1="623.0" y1="252.0" x2="655.0" y2="314.0" class="gene-1-nondisjunction-ar"/>
+  <path d="M655.0 314.0 L648.8 309.0 L654.5 306.0 Z" class="gene-1-nondisjunction-ah"/>
+  <circle cx="457" cy="222" r="34" class="gene-1-nondisjunction-cell"/>
+  <rect x="449.0" y="207.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-b"/>
+  <rect x="458.0" y="207.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-b"/>
+  <circle cx="457" cy="222" r="3" class="gene-1-nondisjunction-cen"/>
+  <circle cx="613" cy="222" r="34" class="gene-1-nondisjunction-cell"/>
+  <rect x="605.0" y="207.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-r"/>
+  <rect x="614.0" y="207.0" width="7" height="30" rx="3.5" class="gene-1-nondisjunction-r"/>
+  <circle cx="613" cy="222" r="3" class="gene-1-nondisjunction-cen"/>
+  <circle cx="407" cy="344" r="27" class="gene-1-nondisjunction-cell"/>
+  <rect x="403.5" y="332.0" width="7" height="24" rx="3.5" class="gene-1-nondisjunction-b"/>
+  <circle cx="407" cy="344" r="2.6" class="gene-1-nondisjunction-cen"/>
+  <circle cx="487" cy="344" r="27" class="gene-1-nondisjunction-cell"/>
+  <rect x="483.5" y="332.0" width="7" height="24" rx="3.5" class="gene-1-nondisjunction-b"/>
+  <circle cx="487" cy="344" r="2.6" class="gene-1-nondisjunction-cen"/>
+  <circle cx="583" cy="344" r="27" class="gene-1-nondisjunction-cell"/>
+  <rect x="573.5" y="332.0" width="7" height="24" rx="3.5" class="gene-1-nondisjunction-r"/>
+  <circle cx="577" cy="344" r="2.6" class="gene-1-nondisjunction-cen"/>
+  <rect x="585.5" y="332.0" width="7" height="24" rx="3.5" class="gene-1-nondisjunction-r"/>
+  <circle cx="589" cy="344" r="2.6" class="gene-1-nondisjunction-cen"/>
+  <circle cx="663" cy="344" r="27" class="gene-1-nondisjunction-cell"/>
+  <text x="665" y="284" text-anchor="middle" class="gene-1-nondisjunction-sm" style="fill:var(--fig-amber)">비분리</text>
+  <text x="665" y="300" text-anchor="middle" class="gene-1-nondisjunction-sm" style="fill:var(--fig-amber)">(염색 분체)</text>
+  <text x="407" y="391" text-anchor="middle" class="gene-1-nondisjunction-ok">n</text>
+  <text x="487" y="391" text-anchor="middle" class="gene-1-nondisjunction-ok">n</text>
+  <text x="583" y="391" text-anchor="middle" class="gene-1-nondisjunction-bad">n+1</text>
+  <text x="663" y="391" text-anchor="middle" class="gene-1-nondisjunction-bad">n−1</text>
+  <text x="535" y="415" text-anchor="middle" class="gene-1-nondisjunction-tx">4개 중 2개만 비정상, 2개는 정상</text>
+  <text x="535" y="433" text-anchor="middle" class="gene-1-nondisjunction-sm">n+1에 같은 염색 분체에서 온 염색체 2개</text>
+  <rect x="22" y="424" width="8" height="18" rx="3" class="gene-1-nondisjunction-b"/><rect x="33" y="424" width="8" height="18" rx="3" class="gene-1-nondisjunction-r"/>
+  <text x="50" y="438" class="gene-1-nondisjunction-sm">상동 염색체 한 쌍(파랑·빨강)만 나타낸 모식도. 막대 2개 = 염색 분체 2개로 된 복제된 염색체, 생식세포에는 1개씩</text>
+</svg>
