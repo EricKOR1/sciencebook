@@ -94,7 +94,7 @@ Sims.register('binary-stars', {
       txt(T, '별 1 (무거운 별)', L + 6, gr.y + 34, { size: 11, color: T.figBlue, bold: true });
       txt(T, '별 2', Rr - 4, gr.y + 34, { size: 11, color: T.figAmber, bold: true, align: 'right' });
     }
-    function nice(x) { var p = Math.pow(10, Math.floor(Math.log10(x))), m = x / p; return (m <= 1 ? 1 : m <= 2 ? 2 : m <= 2.5 ? 2.5 : m <= 5 ? 5 : 10) * p; }
+    function nice(x) { var p = Math.pow(10, Math.floor(Math.log10(x))), m = x / p; return (m <= 1 ? 1 : m <= 2 ? 2 : m <= 2.5 ? 2.5 : m <= 5 ? 5 : m <= 6 ? 6 : m <= 8 ? 8 : 10) * p; }
     api.onResize(draw);
     upd();
   },

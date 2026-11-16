@@ -12,7 +12,7 @@ Sims.register('hr-diagram', {
       { n: '시리우스 B', T: 25000, L: 0.056, g: 'wd' }, { n: '프록시마 센타우리', T: 3000, L: 0.0017, g: 'ms' },
     ];
     var st = { lm: 0 };   // log10(질량)
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.1 : 0.66; }, label: 'H-R도: 가로축 표면 온도, 세로축 광도' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.25 : 0.7; }, label: 'H-R도: 가로축 표면 온도, 세로축 광도' });
     var ctx = cv.ctx;
     var rM = api.readout('처음 질량'), rS = api.readout('주계열의 분광형·온도'), rL = api.readout('광도'), rLife = api.readout('주계열 수명(약)'), rEnd = api.readout('최후');
     var g = api.group();
@@ -36,7 +36,7 @@ Sims.register('hr-diagram', {
       if (y >= 1e8) { var e = y / 1e8; return '약 ' + (e >= 100 ? Math.round(e / 10) * 10 : e >= 10 ? Math.round(e) : e.toFixed(1)) + '억 년'; }
       var m = y / 1e4; return '약 ' + (m >= 1000 ? Math.round(m / 100) * 100 : Math.round(m / 10) * 10) + '만 년';
     }
-    function fmtL(L) { return L >= 100 ? Math.round(L).toLocaleString('ko-KR') : L >= 1 ? L.toFixed(1) : L.toFixed(2); }
+    function fmtL(L) { return L >= 100 ? Number(L.toPrecision(2)).toLocaleString('ko-KR') : L >= 0.995 ? L.toFixed(1) : L.toFixed(2); }
     function state() {
       var m = Math.pow(10, st.lm), T = interp(1, st.lm), L = interp(2, st.lm), life = interp(3, st.lm);
       return { m: m, T: T, L: L, life: life, big: m >= 8 };
@@ -54,7 +54,7 @@ Sims.register('hr-diagram', {
     var lgTmax = Math.log10(45000), lgTmin = Math.log10(2400), lgLmin = -4.3, lgLmax = 6.3;
     function geo() {
       var w = cv.w, h = cv.h, nar = w < 560;
-      return { L: nar ? 52 : 64, R: w - (nar ? 34 : 48), T: 26, B: h - 46 };
+      return { L: nar ? 52 : 64, R: w - (nar ? 34 : 48), T: 26, B: h - 78 };
     }
     function X(T, G) { return G.L + (lgTmax - Math.log10(T)) / (lgTmax - lgTmin) * (G.R - G.L); }
     function Y(L, G) { return G.B - (Math.log10(L) - lgLmin) / (lgLmax - lgLmin) * (G.B - G.T); }
@@ -89,10 +89,10 @@ Sims.register('hr-diagram', {
       blob(15000, 0.006, 0.17, 0.75, T.figSoftViolet);
       ctx.restore();
       ctx.font = '600 ' + fs + 'px ' + T.fontBody; ctx.textAlign = 'center';
-      ctx.fillStyle = T.figBlue; ctx.fillText('주계열성', X(4300, G), Y(0.012, G));
+      ctx.fillStyle = T.figBlue; ctx.fillText('주계열성', X(4600, G), Y(0.04, G));
       ctx.fillStyle = T.figAmber; ctx.fillText('거성', X(3300, G), Y(25, G));
       ctx.fillStyle = T.figRed; ctx.fillText('초거성', X(7000, G), Y(1.4e6, G));
-      ctx.fillStyle = T.figViolet; ctx.fillText('백색 왜성', X(14000, G), Y(0.0006, G));
+      ctx.fillStyle = T.figViolet; ctx.fillText('백색 왜성', X(26000, G), Y(0.00015, G));
       // 대표 별
       ctx.font = '11px ' + T.fontBody;
       STARS.forEach(function (s) {
@@ -114,7 +114,7 @@ Sims.register('hr-diagram', {
         pts = [[s.T, s.L], [s.T * 0.85, s.L * 1.4], [3500, s.L * 1.6]];
       }
       // 전주계열(점선)
-      var pre = s.m < 3 ? [[3500, s.L * 40], [3700, s.L * 3], [s.T * 0.92, s.L * 0.9], [s.T, s.L]] : [[3600, s.L * 0.9], [s.T, s.L]];
+      var pre = s.m < 3 ? [[3500, s.L * 40], [3700, s.L * 3], [s.T * 0.92, s.L * 0.9], [s.T, s.L]] : [[3600, s.L * 0.45], [s.T * 0.9, s.L * 0.6], [s.T, s.L]];
       ctx.strokeStyle = T.figTeal; ctx.lineWidth = 1.8; ctx.setLineDash([4, 4]); poly(pre); ctx.stroke(); ctx.setLineDash([]);
       ctx.strokeStyle = s.big ? T.figRed : T.figAmber; ctx.lineWidth = 2.8; poly(pts, true); ctx.stroke();
       arrowAlong(pts, s.big ? T.figRed : T.figAmber);
@@ -122,13 +122,13 @@ Sims.register('hr-diagram', {
       ctx.font = '600 ' + fs + 'px ' + T.fontBody; ctx.fillStyle = T.figInk;
       if (s.big) {
         star(ex, ey, T.figRed);
-        ctx.textAlign = 'right'; ctx.fillText('초신성 폭발', ex - 12, ey - 10);
+        ctx.textAlign = 'right'; ctx.fillText('초신성 폭발', ex + 8, ey + 30);
         ctx.font = '11px ' + T.fontBody; ctx.fillStyle = T.figMuted;
-        ctx.fillText('→ 중성자별 또는 블랙홀', ex - 12, ey + 6);
-        ctx.fillText('(빛을 거의 내지 않아 이 그림 밖)', ex - 12, ey + 20);
+        ctx.fillText('→ 중성자별 또는 블랙홀', ex + 8, ey + 45);
+        ctx.fillText('(빛을 거의 내지 않아 이 그림 밖)', ex + 8, ey + 59);
       } else {
         ctx.beginPath(); ctx.arc(ex, ey, 5, 0, 2 * Math.PI); ctx.fillStyle = T.figViolet; ctx.fill();
-        ctx.fillStyle = T.figInk; ctx.textAlign = 'left'; ctx.fillText('백색 왜성으로 식어 감', ex + 9, ey + 4);
+        ctx.fillStyle = T.figInk; ctx.textAlign = 'left'; ctx.fillText('백색 왜성으로 식어 감', ex + 6, ey + 18);
         var rg = pts[3]; ctx.textAlign = 'center'; ctx.fillText('적색 거성', X(rg[0], G), Y(rg[1], G) - 10);
         ctx.font = '11px ' + T.fontBody; ctx.fillStyle = T.figMuted; ctx.textAlign = 'center';
         ctx.fillText('행성상 성운(바깥층 방출)', X(14000, G), Y(Lpn, G) - 9);
@@ -138,9 +138,9 @@ Sims.register('hr-diagram', {
       ctx.font = '600 ' + fs + 'px ' + T.fontBody; ctx.fillStyle = T.figAccent; ctx.textAlign = 'left';
       ctx.fillText('주계열', x0 + 10, y0 + 16);
       // 범례
-      ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right';
-      ctx.fillStyle = T.figTeal; ctx.fillText('점선: 원시별 → 주계열(전주계열)', G.R - 6, G.B - 22);
-      ctx.fillStyle = s.big ? T.figRed : T.figAmber; ctx.fillText('실선: 주계열 이후의 경로(모식)', G.R - 6, G.B - 8);
+      ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
+      ctx.fillStyle = T.figTeal; ctx.fillText('점선: 원시별 → 주계열(전주계열)', G.L, cv.h - 18);
+      ctx.fillStyle = s.big ? T.figRed : T.figAmber; ctx.fillText('실선: 주계열 이후의 경로(모식)', G.L, cv.h - 4);
 
       function sup(e) { var m = { '-': '⁻', '0': '⁰', '1': '¹', '2': '²', '3': '³', '4': '⁴', '5': '⁵', '6': '⁶' }; return String(e).split('').map(function (c) { return m[c]; }).join(''); }
       function band(arr, wdex, col) {

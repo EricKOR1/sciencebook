@@ -37,10 +37,10 @@ Sims.register('organic-molecules', {
       methane: { name: '메테인', formula: 'CH₄', fg: '없음 (탄화수소)', fgAtoms: [], ox: '−4', shape: '정사면체 (단일 결합 4개)', planar: false,
         atoms: (function () {
           var d = 1.09 / Math.sqrt(3), o = { C2: [0, 0, 0] };
-          [[1, 1, 1], [1, -1, -1], [-1, 1, -1], [-1, -1, 1]].forEach(function (v, i) { o['M' + i] = mul(v, d); });
+          [[1, 1, 1], [1, -1, -1], [-1, 1, -1], [-1, -1, 1]].forEach(function (v, i) { o['H' + 'abcd'.charAt(i)] = mul(v, d); });
           return o;
         })(),
-        bonds: [['C2', 'M0'], ['C2', 'M1'], ['C2', 'M2'], ['C2', 'M3']], dbl: [], noShift: true },
+        bonds: [['C2', 'Ha'], ['C2', 'Hb'], ['C2', 'Hc'], ['C2', 'Hd']], dbl: [], noShift: true },
     };
     var ORDER = ['ethanol', 'ethanal', 'acid'];
     var state = { cur: 'ethanol', anim: null, note: '' };

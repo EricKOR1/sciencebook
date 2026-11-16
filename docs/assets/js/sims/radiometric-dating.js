@@ -140,6 +140,8 @@ Sims.register('radiometric-dating', {
       ctx.beginPath(); ctx.arc(X(st.n), Y(f), 5, 0, 2 * Math.PI); ctx.fillStyle = T.figAccent; ctx.fill();
       // 범례
       ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right';
+      var lw = Math.max(ctx.measureText('파란 곡선: 반감기마다 절반').width, ctx.measureText('주황 계단: 실제 남은 입자 수').width);
+      ctx.fillStyle = T.figPanel; ctx.fillRect(R - lw - 6, Y(0.6) - 13, lw + 10, 34);
       ctx.fillStyle = T.figBlue; ctx.fillText('파란 곡선: 반감기마다 절반', R, Y(0.6));
       ctx.fillStyle = T.figAmber; ctx.fillText('주황 계단: 실제 남은 입자 수', R, Y(0.6) + 15);
     }

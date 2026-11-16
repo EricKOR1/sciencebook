@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t-chem-4-titration-setup d-chem-4-titration-setup">
+  <title id="t-chem-4-titration-setup">그림 화학 4-2 중화 적정 장치와 뷰렛 눈금 읽기</title>
+  <desc id="d-chem-4-titration-setup">뷰렛에 넣은 표준 수산화 나트륨 수용액을 콕으로 조금씩 떨어뜨려, 페놀프탈레인을 넣은 식초 희석액을 적정한다. 뷰렛 눈금은 위쪽이 0이고 아래로 갈수록 커지며, 눈높이에서 메니스커스 아랫면을 0.05 mL 단위까지 읽는다. 넣은 부피는 나중 눈금에서 처음 눈금을 뺀 값이다.</desc>
+  <style>
+    .c4ti-ink{fill:var(--fig-ink)} .c4ti-mut{fill:var(--fig-muted)}
+    .c4ti-lbl{font-size:14px;fill:var(--fig-ink)} .c4ti-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .c4ti-sm{font-size:13px;fill:var(--fig-muted)}
+    .c4ti-H{fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2} .c4ti-O{fill:var(--fig-red);stroke:var(--fig-red);stroke-width:1} .c4ti-C{fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1} .c4ti-N{fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1}
+    .c4ti-gl{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2} .c4ti-liq{fill:var(--fig-soft-blue)} .c4ti-tk{stroke:var(--fig-ink);stroke-width:1}
+  </style>
+  <rect x="40" y="380" width="200" height="14" rx="3" style="fill:var(--fig-line)"/>
+  <rect x="64" y="40" width="8" height="342" style="fill:var(--fig-line)"/>
+  <rect x="72" y="120" width="70" height="8" style="fill:var(--fig-line)"/><rect x="138" y="112" width="16" height="24" rx="3" style="fill:var(--fig-muted)"/>
+  <rect x="152" y="50" width="16" height="230" class="c4ti-gl"/>
+  <rect x="153" y="66" width="14" height="213" class="c4ti-liq"/>
+  <line x1="152" y1="70" x2="158" y2="70" class="c4ti-tk"/>
+  <line x1="152" y1="90" x2="158" y2="90" class="c4ti-tk"/>
+  <line x1="152" y1="110" x2="158" y2="110" class="c4ti-tk"/>
+  <line x1="152" y1="130" x2="158" y2="130" class="c4ti-tk"/>
+  <line x1="152" y1="150" x2="158" y2="150" class="c4ti-tk"/>
+  <line x1="152" y1="170" x2="158" y2="170" class="c4ti-tk"/>
+  <line x1="152" y1="190" x2="158" y2="190" class="c4ti-tk"/>
+  <line x1="152" y1="210" x2="158" y2="210" class="c4ti-tk"/>
+  <line x1="152" y1="230" x2="158" y2="230" class="c4ti-tk"/>
+  <line x1="152" y1="250" x2="158" y2="250" class="c4ti-tk"/>
+  <line x1="152" y1="270" x2="158" y2="270" class="c4ti-tk"/>
+  <path d="M152 280 L157 300 L163 300 L168 280" class="c4ti-gl"/>
+  <rect x="146" y="290" width="28" height="7" rx="2" style="fill:var(--fig-amber)"/>
+  <line x1="160" y1="300" x2="160" y2="314" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <circle cx="160" cy="322" r="2.5" style="fill:var(--fig-blue)"/>
+  <path d="M110 378 L148 334 L148 316 L172 316 L172 334 L210 378 Z" class="c4ti-gl"/>
+  <path d="M116 371 L132 352 L188 352 L204 371 Z" style="fill:rgba(236,72,153,0.35)"/>
+  <rect x="98" y="378" width="124" height="3" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <line x1="168" y1="100" x2="215" y2="90" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="221" y="94" class="c4ti-lbl" style="font-weight:600">뷰렛</text>
+  <text x="221" y="112" class="c4ti-sm">표준 용액(0.10 M NaOH)</text>
+  <line x1="174" y1="293" x2="215" y2="270" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="221" y="274" class="c4ti-lbl" style="font-weight:600">콕</text>
+  <text x="221" y="292" class="c4ti-sm">열어 한 방울씩 넣는다</text>
+  <line x1="200" y1="362" x2="215" y2="330" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="221" y="334" class="c4ti-lbl" style="font-weight:600">삼각 플라스크</text>
+  <text x="221" y="352" class="c4ti-sm">식초 희석액 10.00 mL + 페놀프탈레인</text>
+  <text x="215" y="368" class="c4ti-sm">흔들어도 옅은 붉은색이 약 30초 유지되면 멈춘다(종말점)</text>
+  <rect x="470" y="40" width="230" height="300" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="585.0" y="62" text-anchor="middle" class="c4ti-b">뷰렛 눈금 읽기(확대)</text>
+  <rect x="540" y="84" width="56" height="236" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.5"/>
+  <path d="M541 195 Q568.0 209 595 195 L595 319 L541 319 Z" class="c4ti-liq"/>
+  <path d="M541 195 Q568.0 209 595 195" style="fill:none;stroke:var(--fig-blue);stroke-width:2"/>
+  <line x1="540" y1="92" x2="566" y2="92" class="c4ti-tk" style="stroke-width:1.6"/>
+  <text x="532" y="97" text-anchor="end" class="c4ti-lbl">8.0</text>
+  <line x1="540" y1="114" x2="554" y2="114" class="c4ti-tk" style="stroke-width:1"/>
+  <line x1="540" y1="136" x2="554" y2="136" class="c4ti-tk" style="stroke-width:1"/>
+  <line x1="540" y1="158" x2="554" y2="158" class="c4ti-tk" style="stroke-width:1"/>
+  <line x1="540" y1="180" x2="554" y2="180" class="c4ti-tk" style="stroke-width:1"/>
+  <line x1="540" y1="202" x2="566" y2="202" class="c4ti-tk" style="stroke-width:1.6"/>
+  <text x="532" y="207" text-anchor="end" class="c4ti-lbl">8.5</text>
+  <line x1="540" y1="224" x2="554" y2="224" class="c4ti-tk" style="stroke-width:1"/>
+  <line x1="540" y1="246" x2="554" y2="246" class="c4ti-tk" style="stroke-width:1"/>
+  <line x1="540" y1="268" x2="554" y2="268" class="c4ti-tk" style="stroke-width:1"/>
+  <line x1="540" y1="290" x2="554" y2="290" class="c4ti-tk" style="stroke-width:1"/>
+  <line x1="540" y1="312" x2="566" y2="312" class="c4ti-tk" style="stroke-width:1.6"/>
+  <text x="532" y="317" text-anchor="end" class="c4ti-lbl">9.0</text>
+  <path d="M624 202 q12 -9 24 0 q-12 9 -24 0 z" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.5"/><circle cx="636" cy="202" r="3.5" class="c4ti-ink"/>
+  <line x1="596" y1="202" x2="622" y2="202" style="stroke:var(--fig-accent);stroke-width:1.5;stroke-dasharray:4 3"/>
+  <text x="636" y="186" text-anchor="middle" class="c4ti-sm">눈높이</text>
+  <text x="568.0" y="342" text-anchor="middle" class="c4ti-lbl">아랫면 = <tspan style="font-weight:600;fill:var(--fig-accent)">8.50 mL</tspan></text>
+  <text x="585.0" y="362" text-anchor="middle" class="c4ti-sm">위가 0, 아래로 갈수록 커진다</text>
+  <text x="585.0" y="370" text-anchor="middle" class="c4ti-lbl">처음 0.50 mL → 나중 8.50 mL</text>
+  <text x="585.0" y="392" text-anchor="middle" class="c4ti-b">넣은 부피 = 8.50 − 0.50 = 8.00 mL</text>
+</svg>

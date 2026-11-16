@@ -5,7 +5,7 @@ Sims.register('ideal-gas', {
   init: function (api) {
     var R = 0.082;
     var MODES = [
-      { key: 'boyle', name: '보일: n·T 일정', fixed: { n: 1, T: 300 }, x: 'V', y: 'P', min: 5, max: 50, step: 0.5, start: 24.6, xMax: 50, yMax: 5 },
+      { key: 'boyle', name: '보일: n·T 일정', fixed: { n: 1, T: 300 }, x: 'V', y: 'P', min: 5, max: 50, step: 0.1, start: 24.6, xMax: 50, yMax: 5 },
       { key: 'charles', name: '샤를: n·P 일정', fixed: { n: 1, P: 1 }, x: 'T', y: 'V', min: 100, max: 600, step: 10, start: 300, xMax: 600, yMax: 50 },
       { key: 'avogadro', name: '아보가드로: P·T 일정', fixed: { P: 1, T: 300 }, x: 'n', y: 'V', min: 0.2, max: 2, step: 0.1, start: 1, xMax: 2, yMax: 50 },
       { key: 'nv', name: 'n·V 일정 (타이어)', fixed: { n: 1, V: 24.6 }, x: 'T', y: 'P', min: 100, max: 600, step: 10, start: 300, xMax: 600, yMax: 2.5 },
@@ -62,7 +62,7 @@ Sims.register('ideal-gas', {
     }
     function layout() {
       var w = cv.w, h = cv.h;
-      if (w < 560) return { box: { x: 14, y: 30, w: w - 28, h: h * 0.4 }, gr: { x: 0, y: h * 0.47, w: w, h: h * 0.53 } };
+      if (w < 560) return { box: { x: 14, y: 30, w: w - 28, h: h * 0.4 }, gr: { x: 0, y: h * 0.5, w: w, h: h * 0.5 } };
       return { box: { x: 14, y: 30, w: w * 0.5 - 24, h: h - 60 }, gr: { x: w * 0.52, y: 0, w: w * 0.48, h: h } };
     }
     function boxGeom(L) {

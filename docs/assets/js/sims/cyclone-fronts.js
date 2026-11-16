@@ -202,17 +202,17 @@ Sims.register('cyclone-fronts', {
       arrow(X(c) + 18, Y(0) - 12, X(c) + 62, Y(0) - 12, T.figInk, 2);
       ctx.textAlign = 'left'; ctx.fillStyle = T.figInk; ctx.fillText('이동(편서풍)', X(c) + 66, Y(0) - 8);
       // 공기 이름
-      var wsx = c + 650 * Math.cos(-72 * D), wsy = 650 * Math.sin(-72 * D);
+      var wsx = c + 820 * Math.cos(-70 * D), wsy = 820 * Math.sin(-70 * D);
       ctx.textAlign = 'center'; ctx.fillStyle = T.figRed; ctx.font = '600 ' + fs + 'px ' + T.fontBody;
       ctx.fillText('따뜻한 공기', X(wsx), Y(wsy));
       ctx.fillText('(온난 구역)', X(wsx), Y(wsy) + fs + 3);
       ctx.fillStyle = T.figBlue;
       ctx.fillText('찬 공기', X(c - 800), Y(-700));
-      ctx.fillText('찬 공기', X(c + 700), Y(450));
+      ctx.fillText('찬 공기', X(c - 650), Y(520));
       // 전선 이름
       ctx.font = fs + 'px ' + T.fontBody;
-      var wt = thW(650) * D; ctx.fillStyle = T.figRed; ctx.textAlign = 'right';
-      ctx.fillText('온난 전선', X(c + 650 * Math.cos(wt)) - 4, Y(650 * Math.sin(wt)) + fs + 8);
+      var wt = thW(1050) * D; ctx.fillStyle = T.figRed; ctx.textAlign = 'left';
+      ctx.fillText('온난 전선', X(c + 1050 * Math.cos(wt)) + 10, Y(1050 * Math.sin(wt)) - 8);
       var ct = thC(600) * D; ctx.fillStyle = T.figBlue; ctx.textAlign = 'left';
       ctx.fillText('한랭 전선', X(c + 600 * Math.cos(ct)) + 14, Y(600 * Math.sin(ct)));
       // 관측소
@@ -254,10 +254,10 @@ Sims.register('cyclone-fronts', {
       frame(b, '풍향(화살표)과 강수(막대)');
       var maxBar = (bot - top) * 0.5;
       series.forEach(function (s) {
-        var amt = s.f.conv ? 1 : s.f.strat * 0.5;
-        if (amt <= 0.02) return;
-        ctx.fillStyle = s.f.conv ? T.figGreen : T.figSoftGreen;
-        ctx.globalAlpha = s.t <= st.t ? 1 : 0.45;
+        if (!s.f.conv && s.f.strat <= 0.05) return;
+        var amt = s.f.conv ? 1 : 0.2 + 0.4 * s.f.strat;
+        ctx.fillStyle = T.figGreen;
+        ctx.globalAlpha = (s.f.conv ? 1 : 0.5) * (s.t <= st.t ? 1 : 0.4);
         var x = tx(s.t);
         ctx.fillRect(x - (R - L) / TMAX * 0.26, bot - amt * maxBar, (R - L) / TMAX * 0.52, amt * maxBar);
         ctx.globalAlpha = 1;

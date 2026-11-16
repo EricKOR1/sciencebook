@@ -36,7 +36,7 @@ Sims.register('wave-interference', {
       var res = 2;   // 화면 2픽셀당 계산 1점
       var gw = Math.max(40, Math.floor(r.w / res)), gh = Math.max(30, Math.floor(r.h / res));
       var lamP = st.lam / 650 * 7, dP = st.d / 0.25 * 18;   // 계산 격자 단위
-      var bx = Math.round(gw * 0.12), scrX = Math.round(bx + (gw - bx - 8) * (0.45 + 0.55 * (st.L - 1) / 2));
+      var bx = Math.round(Math.min(gw * 0.12, 40)), scrX = Math.round(bx + Math.min(gw - bx - 8, gh * (0.75 + 0.85 * (st.L - 1) / 2)));
       var cy = gh / 2, s1 = cy - dP / 2, s2 = cy + dP / 2, k = 2 * Math.PI / lamP;
       var ph1 = new Float32Array(gw * gh), ph2 = new Float32Array(gw * gh), am1 = new Float32Array(gw * gh), am2 = new Float32Array(gw * gh);
       for (var j = 0; j < gh; j++) for (var i = 0; i < gw; i++) {
@@ -100,9 +100,10 @@ Sims.register('wave-interference', {
             if (e[0] === 0 && sg < 0) return;
             var ex = sx - 4, ey = my + sg * Math.tan(th) * (ex - mx);
             if (ey < r.y + 4 || ey > r.y + r.h - 4) return;
+            var lab = ey > r.y + 24 && ey < r.y + r.h - 22;
             ctx.strokeStyle = e[1]; ctx.globalAlpha = 0.85; ctx.setLineDash(e[2] === '보강' ? [6, 4] : [2, 4]);
             ctx.beginPath(); ctx.moveTo(mx, my); ctx.lineTo(ex, ey); ctx.stroke(); ctx.setLineDash([]); ctx.globalAlpha = 1;
-            if (m <= 1) {
+            if (m <= 1 && lab) {
               ctx.fillStyle = e[1]; ctx.textAlign = 'right';
               ctx.fillText(e[2], sx - 8, ey + (sg > 0 ? 13 : -5));
             }
@@ -113,13 +114,14 @@ Sims.register('wave-interference', {
       ctx.fillStyle = '#ffffff'; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
       ctx.fillText('위에서 본 모식도 (파장·슬릿 간격 과장)', r.x + 8, r.y + 15);
       ctx.fillText('빛 →', r.x + 8, r.y + r.h - 8);
-      ctx.textAlign = 'right'; ctx.fillText('스크린', sx - 4, r.y + 15);
+      ctx.textAlign = 'right'; ctx.fillText('스크린', sx - 4, r.y + r.h - 8);
+      if (sx + 12 < r.x + r.w) { ctx.fillStyle = T.figPaper; ctx.fillRect(sx + 11, r.y, r.x + r.w - sx - 11, r.h); }
     }
     function drawStrip(T, r) {
       var range = 15, L = r.x + 20, R = r.x + r.w - 20, sxm = function (mm) { return (L + R) / 2 + mm / range * (R - L) / 2; };
-      var top = r.y + 26, bh = Math.min(40, r.h * 0.3), c = rgbOf(st.lam), dx = dxmm();
+      var top = r.y + 40, bh = Math.min(36, r.h * 0.26), c = rgbOf(st.lam), dx = dxmm();
       ctx.fillStyle = T.figInk; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'left';
-      ctx.fillText('스크린에 생긴 무늬 (실제 크기 눈금)', L, r.y + 14);
+      ctx.fillText('스크린에 생긴 무늬 (실제 크기, 눈금 단위 mm)', L, r.y + 14);
       for (var px = L; px <= R; px++) {
         var mm = (px - (L + R) / 2) / ((R - L) / 2) * range, I = Math.pow(Math.cos(Math.PI * mm / dx), 2);
         ctx.fillStyle = 'rgb(' + Math.round(c[0] * I) + ',' + Math.round(c[1] * I) + ',' + Math.round(c[2] * I) + ')';
@@ -135,10 +137,9 @@ Sims.register('wave-interference', {
       ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontMono; ctx.textAlign = 'center';
       var stepT = (R - L) < 400 ? 10 : 5;
       for (var t = -range; t <= range; t += stepT) { ctx.fillRect(sxm(t) - 0.5, gB, 1, 4); ctx.fillText(t, sxm(t), gB + 15); }
-      ctx.textAlign = 'right'; ctx.font = '11px ' + T.fontBody; ctx.fillText('mm', R, gB + 15);
       // Δx 표시: 가운데 밝은 무늬와 다음 밝은 무늬 사이
       if (dx < range) {
-        var a = sxm(0), b = sxm(dx), yy = top - 6;
+        var a = sxm(0), b = sxm(dx), yy = top - 9;
         ctx.strokeStyle = T.figInk; ctx.fillStyle = T.figInk; ctx.lineWidth = 1.2;
         ctx.beginPath(); ctx.moveTo(a, yy); ctx.lineTo(b, yy); ctx.stroke();
         [a, b].forEach(function (x) { ctx.beginPath(); ctx.moveTo(x, yy - 4); ctx.lineTo(x, yy + 4); ctx.stroke(); });

@@ -5,7 +5,7 @@ Sims.register('photoelectric', {
   init: function (api) {
     var H = 4.136e-15, NEED = 2.5;   // eV·s, eV
     var st = { f: 7.3, I: 60, photons: [], electrons: [], acc: 0, count: 0, clock: 0, seed: 1 };
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.15 : 0.56; }, label: '금속판에 빛을 비추는 장면과 광자 에너지 그래프' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.55 : 0.56; }, label: '금속판에 빛을 비추는 장면과 광자 에너지 그래프' });
     var ctx = cv.ctx;
 
     var rE = api.readout('광자 한 개의 에너지 E = hf');
@@ -29,7 +29,8 @@ Sims.register('photoelectric', {
     function above() { return E() > NEED + 1e-9; }
     function rnd() { st.seed = (st.seed * 16807) % 2147483647; return st.seed / 2147483647; }
     function readouts() {
-      rE.set(E().toFixed(2) + ' eV (' + (E() * 1.6e-19).toExponential(1).replace('e-', ' × 10^-') + ' J)');
+      var ex = (E() * 1.6e-19).toExponential(1).split('e'), sup = { '-': '⁻', '0': '⁰', '1': '¹', '2': '²', '3': '³', '4': '⁴', '5': '⁵', '6': '⁶', '7': '⁷', '8': '⁸', '9': '⁹' };
+      rE.set(E().toFixed(2) + ' eV (' + ex[0] + ' × 10' + ex[1].split('').map(function (ch) { return sup[ch] || ''; }).join('') + ' J)');
       rTh.set(f0.toFixed(2) + ' × 10¹⁴ Hz (광자 에너지 2.5 eV)');
       rN.set(st.I === 0 ? '없음 (빛이 없음)' : above() ? '나온다 — 1초에 약 ' + Math.round(st.I / 100 * 14) + '개 (세기에 비례)' : '하나도 안 나온다 (세기와 상관없음)');
     }
@@ -41,10 +42,10 @@ Sims.register('photoelectric', {
 
     function geo() {
       var w = cv.w, h = cv.h, narrow = w < 560;
-      var scene = narrow ? { x: 0, y: 0, w: w, h: h * 0.6 } : { x: 0, y: 0, w: w * 0.6, h: h };
-      var graph = narrow ? { x: 0, y: h * 0.62, w: w, h: h * 0.38 } : { x: w * 0.62, y: 0, w: w * 0.38, h: h };
+      var scene = narrow ? { x: 0, y: 0, w: w, h: h * 0.52 } : { x: 0, y: 0, w: w * 0.6, h: h };
+      var graph = narrow ? { x: 0, y: h * 0.54, w: w, h: h * 0.46 } : { x: w * 0.62, y: 0, w: w * 0.38, h: h };
       var plateX = scene.x + scene.w * 0.62, lampX = scene.x + 46, lampY = scene.y + scene.h * 0.25;
-      return { scene: scene, graph: graph, plateX: plateX, plateT: scene.y + scene.h * 0.3, plateB: scene.y + scene.h * 0.88, lampX: lampX, lampY: lampY };
+      return { scene: scene, graph: graph, plateX: plateX, plateT: scene.y + scene.h * 0.3, plateB: scene.y + scene.h * 0.82, lampX: lampX, lampY: lampY };
     }
     function step(dt) {
       var G = geo();
@@ -95,7 +96,7 @@ Sims.register('photoelectric', {
       ctx.fillStyle = T.figSoftAmber; ctx.strokeStyle = T.figAmber; ctx.lineWidth = 2;
       ctx.beginPath(); ctx.rect(G.plateX, G.plateT, 14, G.plateB - G.plateT); ctx.fill(); ctx.stroke();
       ctx.fillStyle = T.figInk; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'center';
-      ctx.fillText('금속판', G.plateX + 7, G.plateB + 16);
+      ctx.fillText('금속판', G.plateX + 7, G.plateT - 8);
       // 광자 (작은 물결 묶음)
       st.photons.forEach(function (ph) {
         var x = ph.x + (ph.tx - ph.x) * ph.p, y = ph.y + (ph.ty - ph.y) * ph.p, a = Math.atan2(ph.ty - ph.y, ph.tx - ph.x);
@@ -148,7 +149,7 @@ Sims.register('photoelectric', {
 
     api.onResize(draw);
     readouts();
-    if (api.reduced) snapshot();
+    snapshot();   // 멈춘 첫 화면에도 광자와 전자가 보이도록 미리 진행해 둔다
     draw();
   },
 });

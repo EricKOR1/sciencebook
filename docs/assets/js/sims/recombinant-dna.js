@@ -80,7 +80,7 @@ Sims.register('recombinant-dna', {
         if (s === 2) { stickyMark(T, cx - R * Math.sin(gapA), py - R * Math.cos(gapA), -1); stickyMark(T, cx + R * Math.sin(gapA), py - R * Math.cos(gapA), 1); }
         if (s === 1) {
           ctx.fillStyle = T.figRed; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'center';
-          ctx.fillText('✂ EcoRI', gA, dy + 26); ctx.fillText('✂ EcoRI', gB, dy + 26);
+          ctx.fillText('✂ EcoRI', gA - 12, dy + 40); ctx.fillText('✂ EcoRI', gB + 12, dy + 40);
         }
         if (s === 2) { ctx.fillStyle = T.figRed; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'center'; ctx.fillText('✂ EcoRI', cx, py - R - 18); }
         if (ins) {
