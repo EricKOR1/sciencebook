@@ -23,12 +23,12 @@
     .uearth-9-koppen-map-c-amber{font-size:13px;font-weight:600;fill:var(--fig-amber)}
     .uearth-9-koppen-map-c-violet{font-size:13px;font-weight:600;fill:var(--fig-violet)}
     .uearth-9-koppen-map-c-teal{font-size:13px;font-weight:600;fill:var(--fig-teal)}
-    .uearth-9-koppen-map-kA{fill:var(--fig-soft-red);stroke:none}
-    .uearth-9-koppen-map-kB{fill:var(--fig-soft-amber);stroke:none}
-    .uearth-9-koppen-map-kC{fill:var(--fig-soft-green);stroke:none}
-    .uearth-9-koppen-map-kD{fill:var(--fig-soft-blue);stroke:none}
-    .uearth-9-koppen-map-kE{fill:var(--fig-soft-violet);stroke:none}
-    .uearth-9-koppen-map-k-D{fill:var(--fig-soft-teal);stroke:none}
+    .uearth-9-koppen-map-kA{fill:var(--fig-red);fill-opacity:0.5;stroke:none}
+    .uearth-9-koppen-map-kB{fill:var(--fig-amber);fill-opacity:0.5;stroke:none}
+    .uearth-9-koppen-map-kC{fill:var(--fig-green);fill-opacity:0.5;stroke:none}
+    .uearth-9-koppen-map-kD{fill:var(--fig-blue);fill-opacity:0.5;stroke:none}
+    .uearth-9-koppen-map-kE{fill:var(--fig-violet);fill-opacity:0.5;stroke:none}
+    .uearth-9-koppen-map-k-D{fill:var(--fig-teal);fill-opacity:0.55;stroke:none}
     .uearth-9-koppen-map-coast{fill:none;stroke:var(--fig-ink);stroke-width:0.6;stroke-opacity:0.6;fill-rule:evenodd}
     .uearth-9-koppen-map-sea2{fill:var(--fig-paper);stroke:none}
   </style>
@@ -37,6 +37,7 @@
   <g transform="translate(0,26)">
   <path d="M151.5,9.7L360,9.7L568.5,9.7L605.3,27.4L634.9,46.3L661.7,69.1L673.2,81.7L683.3,94.8L692,108.5L699.1,122.5L704.7,136.9L708.8,151.5L711.2,166.2L712,181L711.2,195.8L708.8,210.5L704.7,225.1L699.1,239.5L692,253.5L683.3,267.2L673.2,280.3L661.7,292.9L634.9,315.7L605.3,334.6L568.5,352.3L360,352.3L151.5,352.3L114.7,334.6L85.1,315.7L58.3,292.9L46.8,280.3L36.7,267.2L28,253.5L20.9,239.5L15.3,225.1L11.2,210.5L8.8,195.8L8,181L8.8,166.2L11.2,151.5L15.3,136.9L20.9,122.5L28,108.5L36.7,94.8L46.8,81.7L58.3,69.1L85.1,46.3L114.7,27.4L151.5,9.7Z" class="uearth-9-koppen-map-sea2" style="stroke:var(--fig-line)"/>
   <g clip-path="url(#uearth-9-koppen-map-clip)">
+  <rect x="0" y="0" width="720" height="362" style="fill:var(--fig-paper)"/>
   <rect x="0" y="0" width="720" height="362" class="uearth-9-koppen-map-kC"/>
   <path d="M15.6,225.4L27,225.4L38.5,225.4L50,225.4L61.5,225.4L73,225.4L84.5,225.4L95.9,225.4L107.4,225.4L118.9,225.4L130.4,225.4L141.9,225.4L153.3,225.4L164.8,225.4L176.3,225.4L187.8,225.4L199.3,225.4L210.7,225.4L222.2,225.4L233.7,225.4L245.2,225.4L256.7,225.4L268.2,225.4L279.6,225.4L291.1,225.4L302.6,225.4L314.1,225.4L325.6,225.4L337,225.4L348.5,225.4L360,225.4L371.5,225.4L383,225.4L394.4,225.4L405.9,225.4L417.4,225.4L428.9,225.4L440.4,225.4L451.8,225.4L463.3,225.4L474.8,225.4L486.3,225.4L497.8,225.4L509.3,225.4L520.7,225.4L532.2,225.4L543.7,225.4L555.2,225.4L566.7,225.4L578.1,225.4L589.6,225.4L601.1,225.4L612.6,225.4L624.1,225.4L635.5,225.4L647,225.4L658.5,225.4L670,225.4L681.5,225.4L693,225.4L704.4,225.4L710,203.4L711.8,181L710,158.6L704.4,136.6L693,136.6L681.5,136.6L670,136.6L658.5,136.6L647,136.6L635.5,136.6L624.1,136.6L612.6,136.6L601.1,136.6L589.6,136.6L578.1,136.6L566.7,136.6L555.2,136.6L543.7,136.6L532.2,136.6L520.7,136.6L509.3,136.6L497.8,136.6L486.3,136.6L474.8,136.6L463.3,136.6L451.8,136.6L440.4,136.6L428.9,136.6L417.4,136.6L405.9,136.6L394.4,136.6L383,136.6L371.5,136.6L360,136.6L348.5,136.6L337,136.6L325.6,136.6L314.1,136.6L302.6,136.6L291.1,136.6L279.6,136.6L268.2,136.6L256.7,136.6L245.2,136.6L233.7,136.6L222.2,136.6L210.7,136.6L199.3,136.6L187.8,136.6L176.3,136.6L164.8,136.6L153.3,136.6L141.9,136.6L130.4,136.6L118.9,136.6L107.4,136.6L95.9,136.6L84.5,136.6L73,136.6L61.5,136.6L50,136.6L38.5,136.6L27,136.6L15.6,136.6L10,158.6L8.2,181L10,203.4L15.6,225.4Z" class="uearth-9-koppen-map-kA"/>
   <path d="M471,136.6L492,135.8L513.2,136.6L509.9,118.7L491.2,118.7L477.4,126.3L471,136.6Z" class="uearth-9-koppen-map-kA"/>
