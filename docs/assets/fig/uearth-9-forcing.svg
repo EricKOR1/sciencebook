@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-uearth-9-forcing d-uearth-9-forcing">
+  <title id="t-uearth-9-forcing">그림 일반지구과학 9-5 CO₂ 농도와 복사 강제력, 그리고 여러 요인의 강제력 비교</title>
+  <desc id="d-uearth-9-forcing">왼쪽은 산업화 이전 280 ppm을 기준으로 한 이산화 탄소의 복사 강제력 ΔF = 5.35 ln(C/280) W/m²의 그래프이다. 농도가 2배가 될 때마다(280→560→1120 ppm) 강제력이 같은 양(약 3.7 W/m²)씩 늘어나는 로그 관계이며, 빙기의 약 180 ppm은 약 −2.4, 현재 약 420 ppm은 약 +2.2 W/m²에 해당한다. 오른쪽은 본문에 나온 여러 요인의 강제력 크기를 비교한 막대그래프로, 태양 흑점 주기의 변동(약 0.18)은 작고, 반사율이 0.01만 커져도(약 −3.4) CO₂ 2배(+3.7)와 맞먹으며, 큰 화산 분화는 1~3년 동안 수 W/m²의 냉각을 일으킨다.</desc>
+  <style>
+    .uearth-9-forcing-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .uearth-9-forcing-t{font-size:13px;fill:var(--fig-ink)}
+    .uearth-9-forcing-b{font-size:13px;font-weight:600;fill:var(--fig-ink)}
+    .uearth-9-forcing-s{font-size:13px;fill:var(--fig-muted)}
+    .uearth-9-forcing-ax{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .uearth-9-forcing-grid{fill:none;stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 4}
+    .uearth-9-forcing-panel{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1}
+    .uearth-9-forcing-sea{fill:var(--fig-soft-blue);stroke:none}
+    .uearth-9-forcing-land{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:0.7;fill-rule:evenodd}
+    .uearth-9-forcing-grat{fill:none;stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 4}
+    .uearth-9-forcing-frame{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .uearth-9-forcing-c-ink{font-size:13px;font-weight:600;fill:var(--fig-ink)}
+    .uearth-9-forcing-c-muted{font-size:13px;font-weight:600;fill:var(--fig-muted)}
+    .uearth-9-forcing-c-line{font-size:13px;font-weight:600;fill:var(--fig-line)}
+    .uearth-9-forcing-c-accent{font-size:13px;font-weight:600;fill:var(--fig-accent)}
+    .uearth-9-forcing-c-blue{font-size:13px;font-weight:600;fill:var(--fig-blue)}
+    .uearth-9-forcing-c-red{font-size:13px;font-weight:600;fill:var(--fig-red)}
+    .uearth-9-forcing-c-green{font-size:13px;font-weight:600;fill:var(--fig-green)}
+    .uearth-9-forcing-c-amber{font-size:13px;font-weight:600;fill:var(--fig-amber)}
+    .uearth-9-forcing-c-violet{font-size:13px;font-weight:600;fill:var(--fig-violet)}
+    .uearth-9-forcing-c-teal{font-size:13px;font-weight:600;fill:var(--fig-teal)}
+  </style>
+  <text x="14.0" y="22.0" class="uearth-9-forcing-h">(가) CO₂ 강제력은 농도의 로그에 비례</text>
+  <rect x="64" y="50" width="316" height="250" style="fill:none;stroke:var(--fig-line);stroke-width:1.2"/>
+  <line x1="79.0" y1="300" x2="79.0" y2="305" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="79.0" y="319.0" class="uearth-9-forcing-s" text-anchor="middle">200</text>
+  <line x1="139.2" y1="300" x2="139.2" y2="305" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="139.2" y="319.0" class="uearth-9-forcing-s" text-anchor="middle">400</text>
+  <line x1="199.4" y1="300" x2="199.4" y2="305" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="199.4" y="319.0" class="uearth-9-forcing-s" text-anchor="middle">600</text>
+  <line x1="259.6" y1="300" x2="259.6" y2="305" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="259.6" y="319.0" class="uearth-9-forcing-s" text-anchor="middle">800</text>
+  <line x1="319.8" y1="300" x2="319.8" y2="305" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="319.8" y="319.0" class="uearth-9-forcing-s" text-anchor="middle">1000</text>
+  <line x1="380.0" y1="300" x2="380.0" y2="305" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="380.0" y="319.0" class="uearth-9-forcing-s" text-anchor="middle">1200</text>
+  <line x1="59" y1="277.3" x2="64" y2="277.3" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="56.0" y="281.3" class="uearth-9-forcing-s" text-anchor="end">-2</text>
+  <line x1="59" y1="231.8" x2="64" y2="231.8" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="56.0" y="235.8" class="uearth-9-forcing-s" text-anchor="end">0</text>
+  <line x1="59" y1="186.4" x2="64" y2="186.4" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="56.0" y="190.4" class="uearth-9-forcing-s" text-anchor="end">2</text>
+  <line x1="59" y1="140.9" x2="64" y2="140.9" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="56.0" y="144.9" class="uearth-9-forcing-s" text-anchor="end">4</text>
+  <line x1="59" y1="95.5" x2="64" y2="95.5" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="56.0" y="99.5" class="uearth-9-forcing-s" text-anchor="end">6</text>
+  <line x1="59" y1="50.0" x2="64" y2="50.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="56.0" y="54.0" class="uearth-9-forcing-s" text-anchor="end">8</text>
+  <line x1="64" y1="231.8" x2="380" y2="231.8" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 3"/>
+  <text x="222.0" y="338.0" class="uearth-9-forcing-s" text-anchor="middle">CO₂ 농도 (ppm)</text>
+  <text x="14.0" y="38.0" class="uearth-9-forcing-s">ΔF (W/m²)</text>
+  <polyline points="67.0,299.9 70.0,292.5 73.0,285.5 76.0,279.0 79.0,272.7 82.1,266.8 85.1,261.1 88.1,255.7 91.1,250.6 94.1,245.6 97.1,240.8 100.1,236.2 103.1,231.8 106.1,227.6 109.1,223.4 112.2,219.4 115.2,215.6 118.2,211.8 121.2,208.2 124.2,204.7 127.2,201.3 130.2,197.9 133.2,194.7 136.2,191.5 139.2,188.4 142.2,185.4 145.3,182.5 148.3,179.7 151.3,176.9 154.3,174.1 157.3,171.5 160.3,168.8 163.3,166.3 166.3,163.8 169.3,161.3 172.3,158.9 175.4,156.5 178.4,154.2 181.4,152.0 184.4,149.7 187.4,147.5 190.4,145.4 193.4,143.3 196.4,141.2 199.4,139.1 202.4,137.1 205.4,135.2 208.5,133.2 211.5,131.3 214.5,129.4 217.5,127.6 220.5,125.7 223.5,123.9 226.5,122.2 229.5,120.4 232.5,118.7 235.5,117.0 238.6,115.3 241.6,113.6 244.6,112.0 247.6,110.4 250.6,108.8 253.6,107.2 256.6,105.7 259.6,104.2 262.6,102.7 265.6,101.2 268.6,99.7 271.7,98.2 274.7,96.8 277.7,95.4 280.7,94.0 283.7,92.6 286.7,91.2 289.7,89.8 292.7,88.5 295.7,87.2 298.7,85.9 301.8,84.6 304.8,83.3 307.8,82.0 310.8,80.7 313.8,79.5 316.8,78.3 319.8,77.0 322.8,75.8 325.8,74.6 328.8,73.4 331.8,72.3 334.9,71.1 337.9,70.0 340.9,68.8 343.9,67.7 346.9,66.6 349.9,65.4 352.9,64.3 355.9,63.3 358.9,62.2 361.9,61.1 365.0,60.0 368.0,59.0 371.0,57.9 374.0,56.9 377.0,55.9 380.0,54.9" style="fill:none;stroke:var(--fig-red);stroke-width:2.6"/>
+  <circle cx="73.0" cy="285.5" r="4" style="fill:var(--fig-ink);stroke:none;stroke-width:1"/>
+  <text x="65.0" y="289.5" class="uearth-9-forcing-b" text-anchor="end">빙기 약 180</text>
+  <circle cx="103.1" cy="231.8" r="4" style="fill:var(--fig-ink);stroke:none;stroke-width:1"/>
+  <text x="111.1" y="247.8" class="uearth-9-forcing-b">산업화 이전 280</text>
+  <circle cx="145.3" cy="182.5" r="4" style="fill:var(--fig-ink);stroke:none;stroke-width:1"/>
+  <text x="153.3" y="194.5" class="uearth-9-forcing-b">현재 약 420(+2.2)</text>
+  <circle cx="187.4" cy="147.5" r="4" style="fill:var(--fig-ink);stroke:none;stroke-width:1"/>
+  <text x="195.4" y="159.5" class="uearth-9-forcing-b">2배 560(+3.7)</text>
+  <circle cx="355.9" cy="63.3" r="4" style="fill:var(--fig-ink);stroke:none;stroke-width:1"/>
+  <text x="347.9" y="55.3" class="uearth-9-forcing-b" text-anchor="end">4배 1120(+7.4)</text>
+  <path d="M103.1,231.8 L187.4,231.8 L187.4,147.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4;stroke-dasharray:5 3"/>
+  <text x="193.4" y="193.7" class="uearth-9-forcing-c-blue">+3.7</text>
+  <path d="M187.4,147.5 L355.9,147.5 L355.9,63.3" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4;stroke-dasharray:5 3"/>
+  <text x="361.9" y="109.4" class="uearth-9-forcing-c-blue">+3.7</text>
+  <text x="74.0" y="70.0" class="uearth-9-forcing-c-blue">2배가 될 때마다 같은 +3.7 W/m²</text>
+  <line x1="416" y1="30" x2="416" y2="360" style="stroke:var(--fig-line);stroke-width:1"/>
+  <text x="430.0" y="22.0" class="uearth-9-forcing-h">(나) 강제력 크기 비교(W/m², 약)</text>
+  <text x="430.0" y="64.0" class="uearth-9-forcing-t">CO₂ 2배</text>
+  <rect x="560.0" y="70.0" width="111.0" height="18.0" rx="2" style="fill:var(--fig-red);stroke:none;stroke-width:1;opacity:0.8"/>
+  <text x="676.0" y="84.0" class="uearth-9-forcing-b">+3.7</text>
+  <text x="430.0" y="122.0" class="uearth-9-forcing-t">CO₂ 280→420 ppm</text>
+  <rect x="560.0" y="128.0" width="66.0" height="18.0" rx="2" style="fill:var(--fig-red);stroke:none;stroke-width:1;opacity:0.8"/>
+  <text x="631.0" y="142.0" class="uearth-9-forcing-b">+2.2</text>
+  <text x="430.0" y="180.0" class="uearth-9-forcing-t">태양 11년 주기 변동</text>
+  <rect x="560.0" y="186.0" width="5.4" height="18.0" rx="2" style="fill:var(--fig-amber);stroke:none;stroke-width:1;opacity:0.8"/>
+  <text x="570.4" y="200.0" class="uearth-9-forcing-b">약 0.18</text>
+  <text x="430.0" y="238.0" class="uearth-9-forcing-t">반사율 0.30→0.31</text>
+  <rect x="458.0" y="244.0" width="102.0" height="18.0" rx="2" style="fill:var(--fig-blue);stroke:none;stroke-width:1;opacity:0.8"/>
+  <text x="453.0" y="258.0" class="uearth-9-forcing-b" text-anchor="end">−3.4</text>
+  <text x="430.0" y="296.0" class="uearth-9-forcing-t">큰 화산 분화(1~3년)</text>
+  <rect x="500.0" y="302.0" width="60.0" height="18.0" rx="2" style="fill:var(--fig-blue);stroke:none;stroke-width:1;opacity:0.8"/>
+  <rect x="440.0" y="302.0" width="60.0" height="18.0" rx="2" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1;opacity:0.35;stroke-dasharray:3 2"/>
+  <text x="502.0" y="338.0" class="uearth-9-forcing-b" text-anchor="middle">수 W/m² 냉각</text>
+  <line x1="560" y1="58" x2="560" y2="350" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <text x="560.0" y="366.0" class="uearth-9-forcing-s" text-anchor="middle">0</text>
+  <text x="620.0" y="366.0" class="uearth-9-forcing-c-red" text-anchor="middle">데움 →</text>
+  <text x="500.0" y="366.0" class="uearth-9-forcing-c-blue" text-anchor="middle">← 식힘</text>
+</svg>
