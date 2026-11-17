@@ -93,8 +93,6 @@ Sims.register('u-allele-frequency', {
       ctx.strokeStyle = T.figInk; ctx.lineWidth = 3; ctx.setLineDash([7, 5]); ctx.beginPath();
       for (var g = 0; g <= GEN; g++) { var x = A.sx(g), y = A.sy(st.det[g]); if (g) ctx.lineTo(x, y); else ctx.moveTo(x, y); }
       ctx.stroke(); ctx.setLineDash([]);
-      ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'right'; ctx.fillStyle = T.figMuted;
-      ctx.fillText('N = ' + NS[st.Ni] + ', s = ' + st.s.toFixed(2) + ', m = ' + st.m.toFixed(2) + ' · 점선: 부동 없는 예측', A.R - 4, A.Tp + 14);
       // 이형 접합도
       var Bx = axes(T, P.b, 0.6, [0, 0.25, 0.5], '이형 접합도 H', function (v) { return v.toFixed(2); });
       if (st.s === 0 && st.m === 0) {

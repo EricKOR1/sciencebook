@@ -5,7 +5,7 @@ Sims.register('u-gradient-wind', {
   init: function (api) {
     var OM = 7.292e-5;
     var st = { low: true, r: 600, vg: 12, lat: 43, th: Math.PI / 2 };
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.35 : 0.52; }, label: '원형 등압선 둘레의 힘 벡터와 지균풍·경도풍 비교 그래프' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.6 : 0.52; }, label: '원형 등압선 둘레의 힘 벡터와 지균풍·경도풍 비교 그래프' });
     var ctx = cv.ctx;
     var rF = api.readout('fr ');
     var rV = api.readout('경도풍 v ');
@@ -62,7 +62,7 @@ Sims.register('u-gradient-wind', {
       drawMap(T, A); drawGraph(T, B);
     }
     function drawMap(T, r) {
-      var cx = r.x + r.w / 2, cy = r.y + r.h / 2 + 8, R = Math.min(r.w, r.h) * 0.3;
+      var cx = r.x + r.w / 2, cy = r.y + r.h / 2 + 8, R = Math.min(r.w, r.h) * (cv.w < 560 ? 0.26 : 0.3);
       ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'left'; ctx.fillStyle = T.figInk;
       ctx.fillText(st.low ? '저기압 둘레 (반시계 방향)' : '고기압 둘레 (시계 방향)', r.x + 8, r.y + 16);
       ctx.font = '11px ' + T.fontBody; ctx.fillStyle = T.figMuted;
@@ -90,18 +90,18 @@ Sims.register('u-gradient-wind', {
         arrow(px + tx * o2, py + ty * o2, px + tx * o2 + sgnC * ox * co * K, py + ty * o2 + sgnC * oy * co * K, T.figBlue, 2.6);
         arrow(px - tx * o2, py - ty * o2, px - tx * o2 + ox * ce * K, py - ty * o2 + oy * ce * K, T.figAmber, 2.6);
         // 바람
-        var WK = Math.min(r.w, r.h) * 0.2 / 30;
+        var WK = Math.min(r.w, r.h) * 0.36 / 30;
         arrow(px, py, px + tx * st.vg * WK, py + ty * st.vg * WK, T.figGreen, 1.4, [4, 3]);
         arrow(px, py, px + tx * v * WK, py + ty * v * WK, T.figGreen, 3.6);
       }
       ctx.fillStyle = T.figInk; ctx.beginPath(); ctx.arc(px, py, 4.5, 0, Math.PI * 2); ctx.fill();
       // 범례
       var items = [[T.figRed, '기압 경도력  ' + (pgf * 1e3).toFixed(2)], [T.figBlue, '전향력  ' + (co * 1e3).toFixed(2)], [T.figAmber, '원심력  ' + (ce * 1e3).toFixed(2)], [T.figGreen, '바람(점선: 지균풍)']];
-      var ly = r.y + r.h - items.length * 15 - 2;
+      var nar = cv.w < 560, ly = nar ? r.y + r.h - 4 * 15 - 2 : r.y + 16, lx = nar ? r.x + 8 : r.x + r.w - 132;
       ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
       items.forEach(function (it, i) {
-        ctx.fillStyle = it[0]; ctx.fillRect(r.x + 8, ly + i * 15 - 8, 14, 4);
-        ctx.fillStyle = T.figInk; ctx.fillText(it[1], r.x + 28, ly + i * 15 - 3);
+        ctx.fillStyle = it[0]; ctx.fillRect(lx, ly + i * 15 - 8, 14, 4);
+        ctx.fillStyle = T.figInk; ctx.fillText(it[1], lx + 20, ly + i * 15 - 3);
       });
       ctx.fillStyle = T.figMuted; ctx.textAlign = 'right';
       ctx.fillText('단위: 10⁻³ m/s²', r.x + r.w - 6, r.y + r.h - 4);

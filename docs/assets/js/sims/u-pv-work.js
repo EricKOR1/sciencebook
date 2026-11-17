@@ -1,6 +1,6 @@
 /* 일반화학 3 열화학: 반응이 하는 PV 일 — 일정 압력(피스톤)과 일정 부피(단단한 통)에서 q, w, ΔU, ΔH 비교 */
 Sims.register('u-pv-work', {
-  title: '반응이 하는 PV 일 — 같은 반응, 다른 열(q_P와 q_V)',
+  title: '반응이 하는 PV 일 — 일정 압력과 일정 부피에서 다른 열',
   caption: '반응과 조건을 고르고 「반응 진행 정도」를 끝까지 밀어 보자. 피스톤(일정 압력)에서는 기체 몰수가 변하는 만큼 부피가 변하고, P–V 그래프의 직사각형 넓이 P외부·ΔV가 일의 크기이다(w = −P외부ΔV). 단단한 통(일정 부피)에서는 부피가 그대로라 넓이가 0이고 w = 0이다. ΔU와 ΔH는 두 조건에서 같지만 출입하는 열 q는 Δn기체·RT만큼 다르다. 25 °C로 온도가 유지되고(처음과 나중 온도가 같음), 기체는 이상 기체, 고체·액체의 부피는 무시했다. 외부 압력은 1.00 atm, 반응식 1 mol 기준이다.',
   init: function (api) {
     var R = 8.314e-3, TK = 298.15, RTL = 0.08206 * 298.15;   // kJ/(mol·K), L·atm/mol
@@ -141,8 +141,8 @@ Sims.register('u-pv-work', {
         ctx.fillStyle = rw[2]; ctx.font = '600 12px ' + T.fontMono; ctx.fillText(kj(rw[1]), col2 + (narrow ? 40 : 60), yy); ctx.font = '12px ' + T.fontBody;
       });
       ctx.fillStyle = T.figMuted;
-      var note = 'Δn기체 = ' + (c.dn > 0 ? '+' : '') + c.dn + ' mol, RT = 2.48 kJ/mol → q_P − q_V = ' + kj(c.dn * R * TK * st.xi);
-      if (narrow) { ctx.fillText('Δn기체 = ' + (c.dn > 0 ? '+' : '') + c.dn + ' mol, RT = 2.48 kJ/mol', x0, y + 22 + 4 * 19 + 2); ctx.fillText('→ q_P − q_V = ΔH − ΔU = ' + kj(c.dn * R * TK * st.xi), x0, y + 22 + 5 * 19 + 2); }
+      var note = 'Δn기체 = ' + (c.dn > 0 ? '+' : c.dn < 0 ? '−' : '') + Math.abs(c.dn) + ' mol, RT = 2.48 kJ/mol → q_P − q_V = ' + kj(c.dn * R * TK * st.xi);
+      if (narrow) { ctx.fillText('Δn기체 = ' + (c.dn > 0 ? '+' : c.dn < 0 ? '−' : '') + Math.abs(c.dn) + ' mol, RT = 2.48 kJ/mol', x0, y + 22 + 4 * 19 + 2); ctx.fillText('→ q_P − q_V = ΔH − ΔU = ' + kj(c.dn * R * TK * st.xi), x0, y + 22 + 5 * 19 + 2); }
       else ctx.fillText(note, x0, y + 22 + 4 * 19 + 2);
     }
     api.onResize(draw);

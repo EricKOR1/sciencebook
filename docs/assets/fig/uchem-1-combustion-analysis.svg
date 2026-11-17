@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-labelledby="t-uchem-1-combustion-analysis d-uchem-1-combustion-analysis">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-uchem-1-combustion-analysis d-uchem-1-combustion-analysis">
   <title id="t-uchem-1-combustion-analysis">그림 일반화학 1-2 연소 분석 장치</title>
   <desc id="d-uchem-1-combustion-analysis">산소 기류 속에서 시료를 완전히 태우면 C는 CO₂, H는 H₂O가 된다. 기체는 물 흡수관을 먼저, 이산화 탄소 흡수관을 나중에 지나며, 각 관의 질량 증가로 H₂O와 CO₂의 질량을 잰다(모식도).</desc>
   <style>
@@ -53,8 +53,9 @@
   <text x="595" y="188" text-anchor="middle" class="uchem-1-ca-t">질량 증가</text>
   <text x="595" y="206" text-anchor="middle" class="uchem-1-ca-t">= CO₂의 질량</text>
   <!-- 계산 흐름 -->
-  <rect x="40" y="232" width="640" height="72" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
-  <text x="60" y="256" class="uchem-1-ca-t">C의 질량 = CO₂ 질량 × 12.01/44.01      H의 질량 = H₂O 질량 × 2(1.008)/18.02</text>
-  <text x="60" y="282" class="uchem-1-ca-t">O의 질량 = 시료 질량 − C − H  (산소는 O₂ 기류에서도 오므로 직접 잴 수 없다)</text>
-  <text x="60" y="298" class="uchem-1-ca-s">NaOH는 물도 흡수하므로, 물 흡수관이 반드시 앞에 있어야 두 질량을 따로 잴 수 있다.</text>
+  <rect x="40" y="228" width="640" height="104" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="60" y="252" class="uchem-1-ca-t">C의 질량 = CO₂ 질량 × 12.01/44.01</text>
+  <text x="370" y="252" class="uchem-1-ca-t">H의 질량 = H₂O 질량 × 2(1.008)/18.02</text>
+  <text x="60" y="278" class="uchem-1-ca-t">O의 질량 = 시료 질량 − C − H  (산소는 O₂ 기류에서도 오므로 직접 잴 수 없다)</text>
+  <text x="60" y="314" class="uchem-1-ca-s">NaOH는 물도 흡수하므로, 물 흡수관이 반드시 앞에 있어야 두 질량을 따로 잴 수 있다.</text>
 </svg>

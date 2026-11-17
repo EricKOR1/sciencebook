@@ -61,7 +61,7 @@ Sims.register('u-banked-curve', {
     function scene(T, r) {
       var th = st.deg * Math.PI / 180, F = forces(st.v, th), q = F.f / F.n;
       var slip = q > st.mu + 1e-9 ? 1 : q < -st.mu - 1e-9 ? -1 : 0;
-      var base = r.y + r.h - 34, x0 = r.x + 14, x1 = r.x + r.w - 10;
+      var base = r.y + r.h - 34, x1 = r.x + r.w - 10, x0 = Math.max(r.x + 14, x1 - (r.h * 0.5) / Math.max(Math.tan(th), 1e-6));
       var top = base - (x1 - x0) * Math.tan(th);
       ctx.fillStyle = T.figSoftAmber; ctx.strokeStyle = T.figAmber; ctx.lineWidth = 1.5;
       ctx.beginPath(); ctx.moveTo(x0, base); ctx.lineTo(x1, base); ctx.lineTo(x1, top); ctx.closePath(); ctx.fill(); ctx.stroke();

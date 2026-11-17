@@ -84,7 +84,7 @@ Sims.register('u-calorimeter', {
     }
     function drawCup(T, r, narrow) {
       var cx = narrow ? r.x + r.w * 0.3 : r.x + r.w / 2, sc = Math.min(1, r.h / 260, r.w / 170);
-      var top = r.y + (narrow ? 40 : 70) * sc + 10, H = 120 * sc, wt = 56 * sc, wb = 40 * sc;
+      var top = r.y + (narrow ? 40 * sc + 10 : 118), H = 120 * sc, wt = 56 * sc, wb = 40 * sc;
       ctx.lineWidth = 1.6;
       // 바깥 컵, 안쪽 컵
       [[wt + 8 * sc, wb + 7 * sc, 6 * sc], [wt, wb, 0]].forEach(function (c, i) {
@@ -146,7 +146,9 @@ Sims.register('u-calorimeter', {
       // 계산식
       var s = S();
       ctx.fillStyle = T.figInk; ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'left';
-      ctx.fillText('ΔH = −m·c·ΔT ÷ n = −(' + s.sol.toFixed(1) + ' g)(4.184 J/(g·K))·ΔT ÷ ' + st.n.toFixed(4) + ' mol', r.x + 8, r.y + 14);
+      var ftxt = 'ΔH = −m·c·ΔT ÷ n = −(' + s.sol.toFixed(1) + ' g)(4.184 J/(g·K))·ΔT ÷ ' + st.n.toFixed(4) + ' mol';
+      if (ctx.measureText(ftxt).width > r.w - 16) { ctx.fillText('ΔH = −m·c·ΔT ÷ n', r.x + 8, r.y + 6); ctx.fillText('= −(' + s.sol.toFixed(1) + ' g)(4.184 J/(g·K))·ΔT ÷ ' + st.n.toFixed(4) + ' mol', r.x + 8, r.y + 22); }
+      else ctx.fillText(ftxt, r.x + 8, r.y + 14);
       if (!done) return;
       // 외삽선
       ctx.strokeStyle = T.figAmber; ctx.lineWidth = 2; ctx.setLineDash([6, 4]); ctx.beginPath();

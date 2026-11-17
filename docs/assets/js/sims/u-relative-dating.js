@@ -66,9 +66,8 @@ Sims.register('u-relative-dating', {
       var k = Math.tan(22 * Math.PI / 180);
       var gY = top + 0.06 * H, deY = top + 0.27 * H;
       var uY = function (x) { return top + H * (0.42 + 0.018 * Math.sin((x - x0) / W * 18)); };
-      var sMin = uY(x0) - k * W - x0 * k, sMax = top + H;
-      // s = y - k x
-      var s1 = sMin + (sMax - sMin) * 0.4, s2 = sMin + (sMax - sMin) * 0.7;
+            // s = y - k x
+      var s1 = (top + 0.92 * H) - k * (x0 + 0.8 * W), s2 = (top + 0.9 * H) - k * (x0 + 0.42 * W);
       var Gc = { x: x0 + 0.3 * W, y: top + 0.95 * H, rx: 0.1 * W, ry: 0.55 * H };
       var fA = { x: x0 + 0.64 * W, y: top }, fB = { x: x0 + 0.78 * W, y: top + H };
       var off = 0.09 * H, odx = off * (fB.x - fA.x) / (fB.y - fA.y);
@@ -111,19 +110,17 @@ Sims.register('u-relative-dating', {
     }
     // 라벨 위치(최종 좌표)
     function labelPts(gm) {
-      var right = function (p) { return { x: p.x + gm.odx, y: p.y + gm.off }; };
-      var bandMid = function (s, x) { return { x: x, y: s + gm.k * x }; };
       return {
-        A: bandMid((gm.s2 + gm.top + gm.H) / 2 + 0.0 * gm.H, gm.x0 + 0.08 * gm.W),
-        B: bandMid((gm.s1 + gm.s2) / 2, gm.x0 + 0.5 * gm.W),
-        C: bandMid(gm.s1 - 0.08 * gm.H, gm.x0 + 0.5 * gm.W),
+        A: { x: gm.x0 + 0.08 * gm.W, y: (Math.max(gm.s2 + gm.k * (gm.x0 + 0.08 * gm.W), gm.uY(gm.x0)) + gm.top + gm.H) / 2 },
+        B: { x: gm.x0 + 0.6 * gm.W, y: (gm.s1 + gm.k * (gm.x0 + 0.6 * gm.W) + Math.min(gm.s2 + gm.k * (gm.x0 + 0.6 * gm.W), gm.top + gm.H)) / 2 },
+        C: { x: gm.x0 + 0.5 * gm.W, y: (gm.uY(gm.x0 + 0.5 * gm.W) + gm.s1 + gm.k * (gm.x0 + 0.5 * gm.W)) / 2 + 4 },
+        T: { x: gm.x0 + 0.5 * gm.W, y: gm.s1 + gm.k * (gm.x0 + 0.5 * gm.W) },
         G: { x: gm.G.x, y: gm.top + gm.H * 0.7 },
         U: { x: gm.x0 + 0.06 * gm.W, y: gm.uY(gm.x0 + 0.06 * gm.W) },
         D: { x: gm.x0 + 0.5 * gm.W, y: (gm.deY + gm.uY(gm.x0 + 0.5 * gm.W)) / 2 },
         E: { x: gm.x0 + 0.3 * gm.W, y: (gm.gY + gm.deY) / 2 },
         F: { x: faultX(gm, gm.top + gm.H * 0.62), y: gm.top + gm.H * 0.62 },
         P: { x: gm.pX + gm.pW / 2, y: gm.top + gm.H * 0.84 },
-        T: right({ x: gm.x0 + 0.9 * gm.W, y: gm.top + gm.H * 0.62 }),
       };
     }
     function draw() {

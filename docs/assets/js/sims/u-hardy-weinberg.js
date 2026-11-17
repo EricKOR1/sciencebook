@@ -101,9 +101,10 @@ Sims.register('u-hardy-weinberg', {
         ctx.stroke();
       });
       ctx.font = '600 12px ' + T.fontBody;
-      ctx.fillStyle = T.figBlue; ctx.textAlign = 'right'; ctx.fillText('AA = p²', R - 2, sy(0.9));
-      ctx.fillStyle = T.figAmber; ctx.textAlign = 'left'; ctx.fillText('aa = q²', L + 4, sy(0.9));
-      ctx.fillStyle = T.figViolet; ctx.textAlign = 'center'; ctx.fillText('Aa = 2pq', sx(0.5), sy(0.5) - 8);
+      function lab(t, c, al, x, y) { ctx.textAlign = al; ctx.lineWidth = 4; ctx.lineJoin = 'round'; ctx.strokeStyle = T.figPanel; ctx.strokeText(t, x, y); ctx.fillStyle = c; ctx.fillText(t, x, y); }
+      lab('AA = p²', T.figBlue, 'left', sx(0.84) + 8, sy(0.62));
+      lab('aa = q²', T.figAmber, 'right', sx(0.16) - 8, sy(0.62));
+      lab('Aa = 2pq', T.figViolet, 'center', sx(0.5), sy(0.5) - 8);
       ctx.strokeStyle = T.figInk; ctx.lineWidth = 1; ctx.setLineDash([4, 3]);
       ctx.beginPath(); ctx.moveTo(sx(p0), Tp); ctx.lineTo(sx(p0), B); ctx.stroke(); ctx.setLineDash([]);
       fs.forEach(function (f) { ctx.fillStyle = f[1]; ctx.beginPath(); ctx.arc(sx(p0), sy(f[0](p0)), 5, 0, 7); ctx.fill(); ctx.strokeStyle = T.figPanel; ctx.lineWidth = 1.5; ctx.stroke(); });
