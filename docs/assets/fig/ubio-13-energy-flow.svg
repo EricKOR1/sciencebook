@@ -19,13 +19,10 @@
   <text x="634.0" y="127.0" text-anchor="middle" class="ubio-13-energy-flow-k">순생산 1.6×10²</text>
   <line x1="156.0" y1="112.0" x2="190.0" y2="112.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.2" marker-end="url(#ubio-13-energy-flow-ar-ink)"/>
   <text x="174.0" y="104.0" text-anchor="middle" class="ubio-13-energy-flow-b">1%</text>
-  <text x="174.0" y="132.0" text-anchor="middle" class="ubio-13-energy-flow-s">광합성 효율</text>
   <line x1="332.0" y1="112.0" x2="384.0" y2="112.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.2" marker-end="url(#ubio-13-energy-flow-ar-ink)"/>
   <text x="359.0" y="104.0" text-anchor="middle" class="ubio-13-energy-flow-b">10%</text>
-  <text x="359.0" y="132.0" text-anchor="middle" class="ubio-13-energy-flow-s">영양 효율</text>
   <line x1="526.0" y1="112.0" x2="562.0" y2="112.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.2" marker-end="url(#ubio-13-energy-flow-ar-ink)"/>
   <text x="545.0" y="104.0" text-anchor="middle" class="ubio-13-energy-flow-b">8%</text>
-  <text x="545.0" y="132.0" text-anchor="middle" class="ubio-13-energy-flow-s">영양 효율</text>
   <path d="M262.0 76.85463498048792 q-6 -7 0 -12 q6 -7 0 -12" style="fill:none;stroke:var(--fig-red);stroke-width:2" marker-end="url(#ubio-13-energy-flow-ar-red)"/>
   <text x="262.0" y="46.9" text-anchor="middle" class="ubio-13-energy-flow-s" style="fill:var(--fig-red)">호흡 3.0×10⁴ → 열</text>
   <path d="M456.0 83.14536501951208 q-6 -7 0 -12 q6 -7 0 -12" style="fill:none;stroke:var(--fig-red);stroke-width:2" marker-end="url(#ubio-13-energy-flow-ar-red)"/>
@@ -37,6 +34,7 @@
   <line x1="222.0" y1="147.1" x2="222.0" y2="194.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1.6;stroke-dasharray:4 3" marker-end="url(#ubio-13-energy-flow-ar-violet)"/>
   <line x1="416.0" y1="140.9" x2="416.0" y2="194.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1.6;stroke-dasharray:4 3" marker-end="url(#ubio-13-energy-flow-ar-violet)"/>
   <line x1="594.0" y1="135.9" x2="594.0" y2="194.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1.6;stroke-dasharray:4 3" marker-end="url(#ubio-13-energy-flow-ar-violet)"/>
+  <text x="20.0" y="166.0" class="ubio-13-energy-flow-s">% = 앞 단계에 대한 비율</text>
   <text x="20.0" y="214.0" class="ubio-13-energy-flow-s">에너지는 한 방향,</text>
   <text x="20.0" y="232.0" class="ubio-13-energy-flow-s">결국 모두 열로</text>
   <line x1="20.0" y1="252.0" x2="700.0" y2="252.0" style="fill:none;stroke:var(--fig-line);stroke-width:1"/>
