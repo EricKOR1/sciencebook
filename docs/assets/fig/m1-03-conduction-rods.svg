@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-m1-03-conduction-rods d-m1-03-conduction-rods">
+<title id="t-m1-03-conduction-rods">그림 중1-3-9 막대에서 열이 전도되는 빠르기 비교 장치</title>
+<desc id="d-m1-03-conduction-rods">길이와 굵기가 같은 구리, 알루미늄, 철, 유리 막대를 뜨거운 물이 담긴 단열 용기에 같은 깊이로 세우고 열화상 카메라로 본다. 따뜻한 색이 올라온 높이로 열이 전도되는 빠르기를 비교한다. 그림은 얼마 뒤의 예상 모습을 나타낸 모식도이다.</desc>
+<style>
+  .m103r-ttl{font-size:16px;font-weight:700;fill:var(--fig-ink)}
+  .m103r-ink{font-size:14px;fill:var(--fig-ink)}
+  .m103r-b{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+  .m103r-b15{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+  .m103r-sm{font-size:13px;fill:var(--fig-muted)}
+  .m103r-smi{font-size:13px;fill:var(--fig-ink)}
+  .m103r-acc{font-size:14px;font-weight:700;fill:var(--fig-accent)}
+  .m103r-box{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.2}
+  .m103r-panel{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2}
+  .m103r-panel0{fill:var(--fig-panel)}
+  .m103r-ln{fill:none;stroke:var(--fig-ink);stroke-width:2}
+  .m103r-thin{fill:none;stroke:var(--fig-ink);stroke-width:1.2}
+  .m103r-grid{fill:none;stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4}
+  .m103r-dash{fill:none;stroke:var(--fig-line);stroke-width:1.3;stroke-dasharray:5 5}
+  .m103r-ar{fill:none;stroke:var(--fig-ink);stroke-width:2}
+  .m103r-ah{fill:var(--fig-ink)}
+  .m103r-lead{fill:none;stroke:var(--fig-muted);stroke-width:1}
+  .m103r-dot{fill:var(--fig-muted)}
+  .m103r-mut{fill:var(--fig-muted)}
+  .m103r-inkf{fill:var(--fig-ink)}
+  .m103r-paperf{fill:var(--fig-paper)}
+  .m103r-linef{fill:var(--fig-line)}
+  .m103r-fbl{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2}
+  .m103r-sbl{fill:var(--fig-soft-blue)}
+  .m103r-obl{fill:none;stroke:var(--fig-blue);stroke-width:2}
+  .m103r-cbl{fill:var(--fig-blue)}
+  .m103r-tbl{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+  .m103r-abl{fill:none;stroke:var(--fig-blue);stroke-width:2.4}
+  .m103r-fre{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2}
+  .m103r-sre{fill:var(--fig-soft-red)}
+  .m103r-ore{fill:none;stroke:var(--fig-red);stroke-width:2}
+  .m103r-cre{fill:var(--fig-red)}
+  .m103r-tre{font-size:14px;font-weight:700;fill:var(--fig-red)}
+  .m103r-are{fill:none;stroke:var(--fig-red);stroke-width:2.4}
+  .m103r-fgr{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2}
+  .m103r-sgr{fill:var(--fig-soft-green)}
+  .m103r-ogr{fill:none;stroke:var(--fig-green);stroke-width:2}
+  .m103r-cgr{fill:var(--fig-green)}
+  .m103r-tgr{font-size:14px;font-weight:700;fill:var(--fig-green)}
+  .m103r-agr{fill:none;stroke:var(--fig-green);stroke-width:2.4}
+  .m103r-fam{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+  .m103r-sam{fill:var(--fig-soft-amber)}
+  .m103r-oam{fill:none;stroke:var(--fig-amber);stroke-width:2}
+  .m103r-cam{fill:var(--fig-amber)}
+  .m103r-tam{font-size:14px;font-weight:700;fill:var(--fig-amber)}
+  .m103r-aam{fill:none;stroke:var(--fig-amber);stroke-width:2.4}
+  .m103r-fvi{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2}
+  .m103r-svi{fill:var(--fig-soft-violet)}
+  .m103r-ovi{fill:none;stroke:var(--fig-violet);stroke-width:2}
+  .m103r-cvi{fill:var(--fig-violet)}
+  .m103r-tvi{font-size:14px;font-weight:700;fill:var(--fig-violet)}
+  .m103r-avi{fill:none;stroke:var(--fig-violet);stroke-width:2.4}
+  .m103r-fte{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2}
+  .m103r-ste{fill:var(--fig-soft-teal)}
+  .m103r-ote{fill:none;stroke:var(--fig-teal);stroke-width:2}
+  .m103r-cte{fill:var(--fig-teal)}
+  .m103r-tte{font-size:14px;font-weight:700;fill:var(--fig-teal)}
+  .m103r-ate{fill:none;stroke:var(--fig-teal);stroke-width:2.4}
+</style>
+<path d="M120 210 L420 210 L404 300 L136 300 Z" class="m103r-panel" style="stroke:var(--fig-ink);stroke-width:2"/>
+<path d="M126 224 L414 224 L400 294 L140 294 Z" class="m103r-sre"/>
+<text x="150.0" y="284.0" class="m103r-tre">뜨거운 물(약 70 °C)</text>
+<text x="410.0" y="322.0" text-anchor="end" class="m103r-sm">스타이로폼 컵(단열 용기)</text>
+<rect x="161.0" y="50.0" width="18.0" height="220.0" class="m103r-sbl"/>
+<rect x="161.0" y="61.0" width="18.0" height="94.1" class="m103r-cam" style="opacity:0.75"/>
+<rect x="161.0" y="155.1" width="18.0" height="115.0" class="m103r-cre" style="opacity:0.75"/>
+<rect x="161.0" y="50.0" width="18.0" height="220.0" rx="3" class="m103r-thin"/>
+<text x="170.0" y="40.0" text-anchor="middle" class="m103r-b">구리</text>
+<rect x="227.0" y="50.0" width="18.0" height="220.0" class="m103r-sbl"/>
+<rect x="227.0" y="83.0" width="18.0" height="84.2" class="m103r-cam" style="opacity:0.75"/>
+<rect x="227.0" y="167.1" width="18.0" height="102.9" class="m103r-cre" style="opacity:0.75"/>
+<rect x="227.0" y="50.0" width="18.0" height="220.0" rx="3" class="m103r-thin"/>
+<text x="236.0" y="40.0" text-anchor="middle" class="m103r-b">알루미늄</text>
+<rect x="293.0" y="50.0" width="18.0" height="220.0" class="m103r-sbl"/>
+<rect x="293.0" y="171.0" width="18.0" height="44.6" class="m103r-cam" style="opacity:0.75"/>
+<rect x="293.0" y="215.6" width="18.0" height="54.5" class="m103r-cre" style="opacity:0.75"/>
+<rect x="293.0" y="50.0" width="18.0" height="220.0" rx="3" class="m103r-thin"/>
+<text x="302.0" y="40.0" text-anchor="middle" class="m103r-b">철</text>
+<rect x="359.0" y="50.0" width="18.0" height="220.0" class="m103r-sbl"/>
+<rect x="359.0" y="252.4" width="18.0" height="7.9" class="m103r-cam" style="opacity:0.75"/>
+<rect x="359.0" y="260.3" width="18.0" height="9.7" class="m103r-cre" style="opacity:0.75"/>
+<rect x="359.0" y="50.0" width="18.0" height="220.0" rx="3" class="m103r-thin"/>
+<text x="368.0" y="40.0" text-anchor="middle" class="m103r-b">유리</text>
+<path d="M126 224 L414 224" class="m103r-are" style="stroke-width:1.5"/>
+<text x="112.0" y="228.0" text-anchor="end" class="m103r-sm">같은 깊이</text>
+<rect x="520.0" y="102.0" width="80.0" height="56.0" rx="8" class="m103r-fvi"/>
+<circle cx="520.0" cy="130.0" r="15.0" class="m103r-panel" style="stroke:var(--fig-violet);stroke-width:2"/>
+<circle cx="520.0" cy="130.0" r="7.0" class="m103r-cvi"/>
+<text x="560.0" y="180.0" text-anchor="middle" class="m103r-tvi">열화상 카메라</text>
+<line x1="502.0" y1="130.0" x2="460.0" y2="42.0" class="m103r-dash"/>
+<line x1="502.0" y1="130.0" x2="460.0" y2="130.0" class="m103r-dash"/>
+<line x1="502.0" y1="130.0" x2="460.0" y2="218.0" class="m103r-dash"/>
+<rect x="470.0" y="210.0" width="240.0" height="96.0" rx="8" class="m103r-box"/>
+<text x="482.0" y="234.0" class="m103r-smi">빨강·주황: 따뜻하다  파랑: 차갑다</text>
+<text x="482.0" y="254.0" class="m103r-smi">따뜻한 색이 높이 올라온 막대일수록</text>
+<text x="482.0" y="274.0" class="m103r-smi">열이 빨리 전도된다.</text>
+<text x="482.0" y="294.0" class="m103r-smi">막대의 길이·굵기·담그는 깊이는 같게</text>
+</svg>

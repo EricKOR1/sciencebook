@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 392" role="img" aria-labelledby="t-m3-04-work-direction d-m3-04-work-direction">
+  <title id="t-m3-04-work-direction">그림 중3-4-4 일을 했을까, 안 했을까 — 힘의 방향과 이동 방향</title>
+  <desc id="d-m3-04-work-direction">빨간 화살표는 물체에 준 힘, 파란 화살표는 물체가 이동한 방향과 거리이다. 힘의 방향으로 이동해야 일을 한 것이고, 이동 거리가 0이거나 힘과 이동 방향이 수직이면 그 힘이 한 일은 0이다.</desc>
+  <style>
+    .m3-04-work-direction-l{font-size:14px;fill:var(--fig-ink);font-weight:600} .m3-04-work-direction-t{font-size:14px;fill:var(--fig-ink)}
+    .m3-04-work-direction-s{font-size:13px;fill:var(--fig-muted)} .m3-04-work-direction-h{font-size:15px;fill:var(--fig-ink);font-weight:700}
+    .m3-04-work-direction-ld{stroke:var(--fig-muted);stroke-width:1;fill:none}
+
+  </style>
+  <rect x="15" y="12" width="340" height="170" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="27.0" y="34.0" class="m3-04-work-direction-l">(가) 수레를 밀어 옮긴다</text>
+  <line x1="27.0" y1="134.0" x2="343.0" y2="134.0" style="stroke:var(--fig-line);stroke-width:2"/>
+  <rect x="85" y="100" width="60" height="26" rx="3" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <circle cx="99" cy="129" r="5" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <circle cx="131" cy="129" r="5" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <rect x="245" y="100" width="60" height="26" rx="3" style="fill:none;stroke:var(--fig-muted);stroke-width:1.5;stroke-dasharray:4 3"/>
+  <circle cx="259" cy="129" r="5" style="fill:none;stroke:var(--fig-muted);stroke-width:1.5;stroke-dasharray:4 3"/>
+  <circle cx="291" cy="129" r="5" style="fill:none;stroke:var(--fig-muted);stroke-width:1.5;stroke-dasharray:4 3"/>
+  <line x1="37.0" y1="113.0" x2="73.0" y2="113.0" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <path d="M83.0 113.0 L73.0 118.5 L73.0 107.5 Z" style="fill:var(--fig-red)"/>
+  <text x="35.0" y="92.0" class="m3-04-work-direction-t" style="fill:var(--fig-red);font-weight:600">힘 20 N</text>
+  <line x1="115.0" y1="60.0" x2="265.0" y2="60.0" style="stroke:var(--fig-blue);stroke-width:2.5"/>
+  <path d="M275.0 60.0 L265.0 65.5 L265.0 54.5 Z" style="fill:var(--fig-blue)"/>
+  <text x="195.0" y="54.0" text-anchor="middle" class="m3-04-work-direction-t" style="fill:var(--fig-blue);font-weight:600">이동 거리 5 m</text>
+  <text x="185.0" y="170.0" text-anchor="middle" class="m3-04-work-direction-t" style="fill:var(--fig-green);font-weight:600">힘과 이동 방향이 같다 → 일 = 20 × 5 = 100 J</text>
+  <rect x="365" y="12" width="340" height="170" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="377.0" y="34.0" class="m3-04-work-direction-l">(나) 가방을 들고 수평으로 걷는다</text>
+  <line x1="377.0" y1="134.0" x2="693.0" y2="134.0" style="stroke:var(--fig-line);stroke-width:2"/>
+  <rect x="425" y="88" width="40" height="30" rx="4" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <path d="M437 88 Q445 76 453 88" style="fill:none;stroke:var(--fig-violet);stroke-width:2"/>
+  <rect x="605" y="88" width="40" height="30" rx="4" style="fill:none;stroke:var(--fig-muted);stroke-width:1.5;stroke-dasharray:4 3"/>
+  <path d="M617 88 Q625 76 633 88" style="fill:none;stroke:var(--fig-muted);stroke-width:1.5;stroke-dasharray:4 3"/>
+  <line x1="445.0" y1="84.0" x2="445.0" y2="56.0" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <path d="M445.0 46.0 L450.5 56.0 L439.5 56.0 Z" style="fill:var(--fig-red)"/>
+  <text x="455.0" y="58.0" class="m3-04-work-direction-t" style="fill:var(--fig-red);font-weight:600">드는 힘(위)</text>
+  <line x1="475.0" y1="104.0" x2="589.0" y2="104.0" style="stroke:var(--fig-blue);stroke-width:2.5"/>
+  <path d="M599.0 104.0 L589.0 109.5 L589.0 98.5 Z" style="fill:var(--fig-blue)"/>
+  <text x="537.0" y="130.0" text-anchor="middle" class="m3-04-work-direction-t" style="fill:var(--fig-blue);font-weight:600">이동(옆)</text>
+  <text x="535.0" y="170.0" text-anchor="middle" class="m3-04-work-direction-t" style="fill:var(--fig-red);font-weight:600">힘과 이동 방향이 수직 → 드는 힘이 한 일 = 0</text>
+  <rect x="15" y="202" width="340" height="170" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="27.0" y="224.0" class="m3-04-work-direction-l">(다) 벽을 힘껏 민다</text>
+  <line x1="27.0" y1="324.0" x2="343.0" y2="324.0" style="stroke:var(--fig-line);stroke-width:2"/>
+  <rect x="215" y="242" width="34" height="82" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <line x1="217.0" y1="260.0" x2="247.0" y2="250.0" style="stroke:var(--fig-red);stroke-width:1"/>
+  <line x1="217.0" y1="275.0" x2="247.0" y2="265.0" style="stroke:var(--fig-red);stroke-width:1"/>
+  <line x1="217.0" y1="290.0" x2="247.0" y2="280.0" style="stroke:var(--fig-red);stroke-width:1"/>
+  <line x1="217.0" y1="305.0" x2="247.0" y2="295.0" style="stroke:var(--fig-red);stroke-width:1"/>
+  <line x1="217.0" y1="320.0" x2="247.0" y2="310.0" style="stroke:var(--fig-red);stroke-width:1"/>
+  <line x1="125.0" y1="282.0" x2="201.0" y2="282.0" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <path d="M211.0 282.0 L201.0 287.5 L201.0 276.5 Z" style="fill:var(--fig-red)"/>
+  <text x="125.0" y="270.0" class="m3-04-work-direction-t" style="fill:var(--fig-red);font-weight:600">미는 힘</text>
+  <text x="283.0" y="278.0" text-anchor="middle" class="m3-04-work-direction-t" style="fill:var(--fig-blue);font-weight:600">이동 거리</text>
+  <text x="283.0" y="298.0" text-anchor="middle" class="m3-04-work-direction-t" style="fill:var(--fig-blue);font-weight:600">= 0</text>
+  <text x="185.0" y="360.0" text-anchor="middle" class="m3-04-work-direction-t" style="fill:var(--fig-red);font-weight:600">힘은 주었지만 움직이지 않음 → 일 = 0</text>
+  <rect x="365" y="202" width="340" height="170" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="377.0" y="224.0" class="m3-04-work-direction-l">(라) 물체를 천천히 들어 올린다</text>
+  <line x1="377.0" y1="340.0" x2="565.0" y2="340.0" style="stroke:var(--fig-line);stroke-width:2"/>
+  <rect x="425" y="314" width="36" height="26" rx="3" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2"/>
+  <rect x="425" y="242" width="36" height="26" rx="3" style="fill:none;stroke:var(--fig-muted);stroke-width:1.5;stroke-dasharray:4 3"/>
+  <text x="443.0" y="332.0" text-anchor="middle" class="m3-04-work-direction-t">m</text>
+  <line x1="443.0" y1="310.0" x2="443.0" y2="288.0" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <path d="M443.0 278.0 L448.5 288.0 L437.5 288.0 Z" style="fill:var(--fig-red)"/>
+  <text x="385.0" y="274.0" class="m3-04-work-direction-s" style="fill:var(--fig-red);font-weight:600">드는 힘</text>
+  <text x="385.0" y="290.0" class="m3-04-work-direction-s" style="fill:var(--fig-red);font-weight:600">= 무게</text>
+  <line x1="485.0" y1="338.0" x2="485.0" y2="254.0" style="stroke:var(--fig-blue);stroke-width:2.5"/>
+  <path d="M485.0 244.0 L490.5 254.0 L479.5 254.0 Z" style="fill:var(--fig-blue)"/>
+  <text x="495.0" y="294.0" class="m3-04-work-direction-t" style="fill:var(--fig-blue);font-weight:600">높이 h</text>
+  <text x="575.0" y="262.0" class="m3-04-work-direction-t">중력에 대해서</text>
+  <text x="575.0" y="282.0" class="m3-04-work-direction-t">한 일</text>
+  <text x="575.0" y="306.0" class="m3-04-work-direction-t" style="fill:var(--fig-green);font-weight:600">= 9.8 × m × h</text>
+  <text x="575.0" y="330.0" class="m3-04-work-direction-s">→ 위치 에너지로</text>
+  <text x="575.0" y="348.0" class="m3-04-work-direction-s">저장된다</text>
+  <text x="360.0" y="388.0" text-anchor="middle" class="m3-04-work-direction-s">빨간 화살표: 힘 · 파란 화살표: 이동 방향과 거리 · 점선: 이동한 뒤의 위치</text>
+</svg>

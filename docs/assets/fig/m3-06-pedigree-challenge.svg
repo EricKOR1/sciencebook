@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-m3-06-pedigree-challenge d-m3-06-pedigree-challenge">
+  <title id="t-m3-06-pedigree-challenge">그림 중3-6-7 어느 가상 가계의 가계도</title>
+  <desc id="d-m3-06-pedigree-challenge">1세대 정상 남자 1과 정상 여자 2 사이에서 형질이 나타난 딸 3, 정상 아들 4가 태어났다. 아들 4는 형질이 나타난 여자 5와 결혼하여 정상 아들 6과 형질이 나타난 딸 7을 낳았다. 네모는 남자, 동그라미는 여자, 색칠한 기호는 형질이 나타난 사람이다.</desc>
+  <style>
+    .m3-06-pedigree-challenge-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .m3-06-pedigree-challenge-tx{font-size:14px;fill:var(--fig-ink)}
+    .m3-06-pedigree-challenge-sm{font-size:13px;fill:var(--fig-muted)}
+    .m3-06-pedigree-challenge-ln{fill:none;stroke:var(--fig-ink);stroke-width:2}
+    .m3-06-pedigree-challenge-off{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2}
+    .m3-06-pedigree-challenge-on{fill:var(--fig-violet);stroke:var(--fig-ink);stroke-width:2}
+  </style>
+  <line x1="220.0" y1="60.0" x2="300.0" y2="60.0" class="m3-06-pedigree-challenge-ln"/>
+  <rect x="205.0" y="45.0" width="30" height="30" class="m3-06-pedigree-challenge-off"/>
+  <text x="220.0" y="95.0" text-anchor="middle" class="m3-06-pedigree-challenge-tx">1</text>
+  <circle cx="300.0" cy="60.0" r="15.0" class="m3-06-pedigree-challenge-off"/>
+  <text x="300.0" y="95.0" text-anchor="middle" class="m3-06-pedigree-challenge-tx">2</text>
+  <line x1="260.0" y1="60.0" x2="260.0" y2="110.0" class="m3-06-pedigree-challenge-ln"/>
+  <line x1="200.0" y1="110.0" x2="340.0" y2="110.0" class="m3-06-pedigree-challenge-ln"/>
+  <line x1="200.0" y1="110.0" x2="200.0" y2="145.0" class="m3-06-pedigree-challenge-ln"/>
+  <line x1="340.0" y1="110.0" x2="340.0" y2="145.0" class="m3-06-pedigree-challenge-ln"/>
+  <circle cx="200.0" cy="160.0" r="15.0" class="m3-06-pedigree-challenge-on"/>
+  <text x="200.0" y="195.0" text-anchor="middle" class="m3-06-pedigree-challenge-tx">3</text>
+  <rect x="325.0" y="145.0" width="30" height="30" class="m3-06-pedigree-challenge-off"/>
+  <text x="340.0" y="195.0" text-anchor="middle" class="m3-06-pedigree-challenge-tx">4</text>
+  <line x1="355.0" y1="160.0" x2="425.0" y2="160.0" class="m3-06-pedigree-challenge-ln"/>
+  <circle cx="440.0" cy="160.0" r="15.0" class="m3-06-pedigree-challenge-on"/>
+  <text x="440.0" y="195.0" text-anchor="middle" class="m3-06-pedigree-challenge-tx">5</text>
+  <line x1="390.0" y1="160.0" x2="390.0" y2="210.0" class="m3-06-pedigree-challenge-ln"/>
+  <line x1="350.0" y1="210.0" x2="430.0" y2="210.0" class="m3-06-pedigree-challenge-ln"/>
+  <line x1="350.0" y1="210.0" x2="350.0" y2="245.0" class="m3-06-pedigree-challenge-ln"/>
+  <line x1="430.0" y1="210.0" x2="430.0" y2="245.0" class="m3-06-pedigree-challenge-ln"/>
+  <rect x="335.0" y="245.0" width="30" height="30" class="m3-06-pedigree-challenge-off"/>
+  <text x="350.0" y="295.0" text-anchor="middle" class="m3-06-pedigree-challenge-tx">6</text>
+  <circle cx="430.0" cy="260.0" r="15.0" class="m3-06-pedigree-challenge-on"/>
+  <text x="430.0" y="295.0" text-anchor="middle" class="m3-06-pedigree-challenge-tx">7</text>
+  <text x="110.0" y="65.0" text-anchor="middle" class="m3-06-pedigree-challenge-lbl">Ⅰ</text>
+  <text x="110.0" y="165.0" text-anchor="middle" class="m3-06-pedigree-challenge-lbl">Ⅱ</text>
+  <text x="110.0" y="265.0" text-anchor="middle" class="m3-06-pedigree-challenge-lbl">Ⅲ</text>
+  <rect x="540" y="70" width="22" height="22" class="m3-06-pedigree-challenge-off"/>
+  <text x="572.0" y="87.0" class="m3-06-pedigree-challenge-sm">정상 남자</text>
+  <circle cx="551" cy="121" r="11" class="m3-06-pedigree-challenge-off"/>
+  <text x="572.0" y="126.0" class="m3-06-pedigree-challenge-sm">정상 여자</text>
+  <rect x="540" y="148" width="22" height="22" class="m3-06-pedigree-challenge-on"/>
+  <text x="572.0" y="165.0" class="m3-06-pedigree-challenge-sm">형질 있는 남자</text>
+  <circle cx="551" cy="199" r="11" class="m3-06-pedigree-challenge-on"/>
+  <text x="572.0" y="204.0" class="m3-06-pedigree-challenge-sm">형질 있는 여자</text>
+</svg>

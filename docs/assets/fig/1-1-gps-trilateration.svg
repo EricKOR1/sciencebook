@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-1-1-gps-trilateration d-1-1-gps-trilateration">
+  <title id="t-1-1-gps-trilateration">그림 1-1-4 GPS: 여러 위성까지의 거리로 위치 좁히기</title>
+  <desc id="d-1-1-gps-trilateration">위성 하나까지의 거리만 알면 그 위성을 중심으로 하는 원(실제로는 구면) 위 어딘가까지만 알 수 있다. 두 위성이면 후보가 두 곳으로, 세 위성이면 한 점으로 좁혀진다. 평면에 그린 모식도.</desc>
+  <style>
+    .gps11-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .gps11-txt{font-size:14px;fill:var(--fig-ink)}
+    .gps11-sm{font-size:13px;fill:var(--fig-muted)}
+    .gps11-c1{fill:none;stroke:var(--fig-blue);stroke-width:2}
+    .gps11-c2{fill:none;stroke:var(--fig-violet);stroke-width:2}
+    .gps11-c3{fill:none;stroke:var(--fig-teal);stroke-width:2}
+    .gps11-box{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1}
+  </style>
+  <defs>
+    <clipPath id="gps11-clip0"><rect x="8" y="52" width="232" height="250" rx="8"/></clipPath>
+    <clipPath id="gps11-clip1"><rect x="252" y="52" width="232" height="250" rx="8"/></clipPath>
+    <clipPath id="gps11-clip2"><rect x="496" y="52" width="232" height="250" rx="8"/></clipPath>
+  </defs>
+  <rect x="8" y="52" width="232" height="250" rx="8" class="gps11-box"/>
+  <text x="124.0" y="26" text-anchor="middle" class="gps11-lbl">① 위성 1개</text>
+  <text x="124.0" y="44" text-anchor="middle" class="gps11-sm">원(구면) 위 어딘가</text>
+  <g clip-path="url(#gps11-clip0)">
+    <circle cx="38" cy="172" r="104.7" class="gps11-c1"/>
+  </g>
+  <rect x="31" y="166" width="14" height="12" rx="2" style="fill:var(--fig-blue)"/>
+  <rect x="17" y="169" width="12" height="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="47" y="169" width="12" height="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <text x="64" y="177" text-anchor="start" class="gps11-sm" style="fill:var(--fig-blue);font-weight:600">위성 A</text>
+  <text x="124.0" y="288" text-anchor="middle" class="gps11-sm">내 위치는 이 원 위 어딘가</text>
+  <rect x="252" y="52" width="232" height="250" rx="8" class="gps11-box"/>
+  <text x="368.0" y="26" text-anchor="middle" class="gps11-lbl">② 위성 2개</text>
+  <text x="368.0" y="44" text-anchor="middle" class="gps11-sm">후보가 두 곳</text>
+  <g clip-path="url(#gps11-clip1)">
+    <circle cx="282" cy="172" r="104.7" class="gps11-c1"/>
+    <circle cx="467" cy="142" r="122.7" class="gps11-c2"/>
+  </g>
+  <rect x="275" y="166" width="14" height="12" rx="2" style="fill:var(--fig-blue)"/>
+  <rect x="261" y="169" width="12" height="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="291" y="169" width="12" height="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <text x="308" y="177" text-anchor="start" class="gps11-sm" style="fill:var(--fig-blue);font-weight:600">위성 A</text>
+  <rect x="460" y="136" width="14" height="12" rx="2" style="fill:var(--fig-violet)"/>
+  <rect x="446" y="139" width="12" height="6" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1"/>
+  <rect x="476" y="139" width="12" height="6" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1"/>
+  <text x="441" y="147" text-anchor="end" class="gps11-sm" style="fill:var(--fig-violet);font-weight:600">위성 B</text>
+  <circle cx="353.5" cy="95.5" r="7" style="fill:none;stroke:var(--fig-red);stroke-width:2.5"/>
+  <circle cx="374.0" cy="222.0" r="7" style="fill:none;stroke:var(--fig-red);stroke-width:2.5"/>
+  <text x="386.0" y="242.0" class="gps11-sm" style="fill:var(--fig-red)">후보</text>
+  <text x="365.5" y="87.5" class="gps11-sm" style="fill:var(--fig-red)">후보</text>
+  <rect x="496" y="52" width="232" height="250" rx="8" class="gps11-box"/>
+  <text x="612.0" y="26" text-anchor="middle" class="gps11-lbl">③ 위성 3개</text>
+  <text x="612.0" y="44" text-anchor="middle" class="gps11-sm">한 점으로 정해진다</text>
+  <g clip-path="url(#gps11-clip2)">
+    <circle cx="526" cy="172" r="104.7" class="gps11-c1"/>
+    <circle cx="711" cy="142" r="122.7" class="gps11-c2"/>
+    <circle cx="556" cy="292" r="93.5" class="gps11-c3"/>
+  </g>
+  <rect x="519" y="166" width="14" height="12" rx="2" style="fill:var(--fig-blue)"/>
+  <rect x="505" y="169" width="12" height="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="535" y="169" width="12" height="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <text x="552" y="177" text-anchor="start" class="gps11-sm" style="fill:var(--fig-blue);font-weight:600">위성 A</text>
+  <rect x="704" y="136" width="14" height="12" rx="2" style="fill:var(--fig-violet)"/>
+  <rect x="690" y="139" width="12" height="6" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1"/>
+  <rect x="720" y="139" width="12" height="6" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1"/>
+  <text x="685" y="147" text-anchor="end" class="gps11-sm" style="fill:var(--fig-violet);font-weight:600">위성 B</text>
+  <rect x="549" y="286" width="14" height="12" rx="2" style="fill:var(--fig-teal)"/>
+  <rect x="535" y="289" width="12" height="6" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1"/>
+  <rect x="565" y="289" width="12" height="6" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1"/>
+  <text x="566" y="280" text-anchor="start" class="gps11-sm" style="fill:var(--fig-teal);font-weight:600">위성 C</text>
+  <circle cx="618" cy="222" r="7" style="fill:var(--fig-red)"/>
+  <rect x="630" y="230" width="60" height="20" rx="4" style="fill:var(--fig-paper);opacity:0.9"/>
+  <text x="634" y="245" class="gps11-txt" style="fill:var(--fig-red);font-weight:600">내 위치</text>
+  <text x="360" y="330" text-anchor="middle" class="gps11-txt">각 원의 반지름 = 위성까지의 거리 = 빛의 속력 × 신호가 날아온 시간</text>
+  <text x="360" y="354" text-anchor="middle" class="gps11-sm">실제 공간에서는 원 대신 구면이 만난다. 수신기 시계 오차까지 구하려고 네 번째 위성을 함께 쓴다.</text>
+</svg>

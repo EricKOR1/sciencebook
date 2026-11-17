@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="t-m1-03-particle-temperature d-m1-03-particle-temperature">
+<title id="t-m1-03-particle-temperature">그림 중1-3-4 온도에 따른 입자의 움직임</title>
+<desc id="d-m1-03-particle-temperature">같은 양의 물이라도 온도가 높을수록 물 입자가 더 빠르게 움직인다. 화살표의 길이는 입자의 빠르기를 나타내며, 입자의 수와 크기는 세 경우 모두 같다. 모식도.</desc>
+<style>
+  .m103p-ttl{font-size:16px;font-weight:700;fill:var(--fig-ink)}
+  .m103p-ink{font-size:14px;fill:var(--fig-ink)}
+  .m103p-b{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+  .m103p-b15{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+  .m103p-sm{font-size:13px;fill:var(--fig-muted)}
+  .m103p-smi{font-size:13px;fill:var(--fig-ink)}
+  .m103p-acc{font-size:14px;font-weight:700;fill:var(--fig-accent)}
+  .m103p-box{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.2}
+  .m103p-panel{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2}
+  .m103p-panel0{fill:var(--fig-panel)}
+  .m103p-ln{fill:none;stroke:var(--fig-ink);stroke-width:2}
+  .m103p-thin{fill:none;stroke:var(--fig-ink);stroke-width:1.2}
+  .m103p-grid{fill:none;stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4}
+  .m103p-dash{fill:none;stroke:var(--fig-line);stroke-width:1.3;stroke-dasharray:5 5}
+  .m103p-ar{fill:none;stroke:var(--fig-ink);stroke-width:2}
+  .m103p-ah{fill:var(--fig-ink)}
+  .m103p-lead{fill:none;stroke:var(--fig-muted);stroke-width:1}
+  .m103p-dot{fill:var(--fig-muted)}
+  .m103p-mut{fill:var(--fig-muted)}
+  .m103p-inkf{fill:var(--fig-ink)}
+  .m103p-paperf{fill:var(--fig-paper)}
+  .m103p-linef{fill:var(--fig-line)}
+  .m103p-fbl{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2}
+  .m103p-sbl{fill:var(--fig-soft-blue)}
+  .m103p-obl{fill:none;stroke:var(--fig-blue);stroke-width:2}
+  .m103p-cbl{fill:var(--fig-blue)}
+  .m103p-tbl{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+  .m103p-abl{fill:none;stroke:var(--fig-blue);stroke-width:2.4}
+  .m103p-fre{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2}
+  .m103p-sre{fill:var(--fig-soft-red)}
+  .m103p-ore{fill:none;stroke:var(--fig-red);stroke-width:2}
+  .m103p-cre{fill:var(--fig-red)}
+  .m103p-tre{font-size:14px;font-weight:700;fill:var(--fig-red)}
+  .m103p-are{fill:none;stroke:var(--fig-red);stroke-width:2.4}
+  .m103p-fgr{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2}
+  .m103p-sgr{fill:var(--fig-soft-green)}
+  .m103p-ogr{fill:none;stroke:var(--fig-green);stroke-width:2}
+  .m103p-cgr{fill:var(--fig-green)}
+  .m103p-tgr{font-size:14px;font-weight:700;fill:var(--fig-green)}
+  .m103p-agr{fill:none;stroke:var(--fig-green);stroke-width:2.4}
+  .m103p-fam{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+  .m103p-sam{fill:var(--fig-soft-amber)}
+  .m103p-oam{fill:none;stroke:var(--fig-amber);stroke-width:2}
+  .m103p-cam{fill:var(--fig-amber)}
+  .m103p-tam{font-size:14px;font-weight:700;fill:var(--fig-amber)}
+  .m103p-aam{fill:none;stroke:var(--fig-amber);stroke-width:2.4}
+  .m103p-fvi{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2}
+  .m103p-svi{fill:var(--fig-soft-violet)}
+  .m103p-ovi{fill:none;stroke:var(--fig-violet);stroke-width:2}
+  .m103p-cvi{fill:var(--fig-violet)}
+  .m103p-tvi{font-size:14px;font-weight:700;fill:var(--fig-violet)}
+  .m103p-avi{fill:none;stroke:var(--fig-violet);stroke-width:2.4}
+  .m103p-fte{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2}
+  .m103p-ste{fill:var(--fig-soft-teal)}
+  .m103p-ote{fill:none;stroke:var(--fig-teal);stroke-width:2}
+  .m103p-cte{fill:var(--fig-teal)}
+  .m103p-tte{font-size:14px;font-weight:700;fill:var(--fig-teal)}
+  .m103p-ate{fill:none;stroke:var(--fig-teal);stroke-width:2.4}
+</style>
+<rect x="8.0" y="8.0" width="226.0" height="284.0" rx="8" class="m103p-box"/>
+<text x="121.0" y="34.0" text-anchor="middle" class="m103p-b15">얼음물 (약 0 °C)</text>
+<rect x="28.0" y="70.0" width="12.0" height="156.0" rx="6" class="m103p-panel" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+<circle cx="34.0" cy="232.0" r="11.0" class="m103p-panel" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+<circle cx="34.0" cy="232.0" r="7.5" class="m103p-cbl"/>
+<rect x="31.0" y="220.1" width="6.0" height="9.9" class="m103p-cbl"/>
+<line x1="40.0" y1="226.0" x2="45.0" y2="226.0" class="m103p-thin"/>
+<line x1="40.0" y1="196.4" x2="45.0" y2="196.4" class="m103p-thin"/>
+<line x1="40.0" y1="166.8" x2="45.0" y2="166.8" class="m103p-thin"/>
+<line x1="40.0" y1="137.2" x2="45.0" y2="137.2" class="m103p-thin"/>
+<line x1="40.0" y1="107.6" x2="45.0" y2="107.6" class="m103p-thin"/>
+<line x1="40.0" y1="78.0" x2="45.0" y2="78.0" class="m103p-thin"/>
+<rect x="70.0" y="70.0" width="150.0" height="150.0" class="m103p-panel"/>
+<circle cx="139.6" cy="151.8" r="9.0" class="m103p-fbl"/>
+<line x1="144.3" y1="160.6" x2="146.7" y2="165.1" class="m103p-ar"/>
+<path d="M149.1 169.4 L143.5 165.1 L148.5 162.4 Z" class="m103p-ah"/>
+<circle cx="193.4" cy="141.1" r="9.0" class="m103p-fbl"/>
+<line x1="203.2" y1="142.7" x2="208.3" y2="143.5" class="m103p-ar"/>
+<path d="M213.1 144.2 L206.3 146.0 L207.2 140.4 Z" class="m103p-ah"/>
+<circle cx="98.7" cy="122.6" r="9.0" class="m103p-fbl"/>
+<line x1="90.0" y1="117.6" x2="85.6" y2="115.1" class="m103p-ar"/>
+<path d="M81.4 112.7 L88.3 113.4 L85.5 118.3 Z" class="m103p-ah"/>
+<circle cx="98.3" cy="180.3" r="9.0" class="m103p-fbl"/>
+<line x1="98.7" y1="170.3" x2="98.8" y2="165.2" class="m103p-ar"/>
+<path d="M99.0 160.3 L101.6 166.8 L95.9 166.6 Z" class="m103p-ah"/>
+<circle cx="167.1" cy="92.8" r="9.0" class="m103p-fbl"/>
+<line x1="158.6" y1="87.5" x2="154.2" y2="84.8" class="m103p-ar"/>
+<path d="M150.1 82.2 L157.0 83.1 L154.0 88.0 Z" class="m103p-ah"/>
+<circle cx="200.0" cy="198.0" r="9.0" class="m103p-fbl"/>
+<line x1="193.2" y1="205.3" x2="189.7" y2="209.0" class="m103p-ar"/>
+<path d="M186.4 212.6 L188.6 206.0 L192.8 209.9 Z" class="m103p-ah"/>
+<circle cx="121.0" cy="96.0" r="9.0" class="m103p-fbl"/>
+<line x1="112.9" y1="90.0" x2="108.8" y2="87.0" class="m103p-ar"/>
+<path d="M104.9 84.1 L111.7 85.6 L108.3 90.2 Z" class="m103p-ah"/>
+<circle cx="153.5" cy="186.8" r="9.0" class="m103p-fbl"/>
+<line x1="163.1" y1="189.6" x2="168.0" y2="191.0" class="m103p-ar"/>
+<path d="M172.7 192.4 L165.8 193.3 L167.4 187.9 Z" class="m103p-ah"/>
+<circle cx="200.4" cy="104.5" r="9.0" class="m103p-fbl"/>
+<line x1="192.5" y1="98.4" x2="188.4" y2="95.3" class="m103p-ar"/>
+<path d="M184.5 92.4 L191.3 94.0 L187.9 98.5 Z" class="m103p-ah"/>
+<circle cx="162.4" cy="126.5" r="9.0" class="m103p-fbl"/>
+<line x1="153.1" y1="123.0" x2="148.3" y2="121.2" class="m103p-ar"/>
+<path d="M143.7 119.4 L150.7 119.0 L148.7 124.4 Z" class="m103p-ah"/>
+<text x="121.0" y="262.0" text-anchor="middle" class="m103p-ink">느리게 움직인다</text>
+<rect x="245.0" y="8.0" width="226.0" height="284.0" rx="8" class="m103p-box"/>
+<text x="358.0" y="34.0" text-anchor="middle" class="m103p-b15">체온 (약 36.5 °C)</text>
+<rect x="265.0" y="70.0" width="12.0" height="156.0" rx="6" class="m103p-panel" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+<circle cx="271.0" cy="232.0" r="11.0" class="m103p-panel" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+<circle cx="271.0" cy="232.0" r="7.5" class="m103p-cam"/>
+<rect x="268.0" y="171.2" width="6.0" height="58.8" class="m103p-cam"/>
+<line x1="277.0" y1="226.0" x2="282.0" y2="226.0" class="m103p-thin"/>
+<line x1="277.0" y1="196.4" x2="282.0" y2="196.4" class="m103p-thin"/>
+<line x1="277.0" y1="166.8" x2="282.0" y2="166.8" class="m103p-thin"/>
+<line x1="277.0" y1="137.2" x2="282.0" y2="137.2" class="m103p-thin"/>
+<line x1="277.0" y1="107.6" x2="282.0" y2="107.6" class="m103p-thin"/>
+<line x1="277.0" y1="78.0" x2="282.0" y2="78.0" class="m103p-thin"/>
+<rect x="307.0" y="70.0" width="150.0" height="150.0" class="m103p-panel"/>
+<circle cx="376.6" cy="151.8" r="9.0" class="m103p-fam"/>
+<line x1="381.3" y1="160.6" x2="389.4" y2="175.7" class="m103p-ar"/>
+<path d="M391.7 180.0 L386.2 175.7 L391.2 173.0 Z" class="m103p-ah"/>
+<circle cx="430.4" cy="141.1" r="9.0" class="m103p-fam"/>
+<line x1="440.2" y1="142.7" x2="457.1" y2="145.4" class="m103p-ar"/>
+<path d="M462.0 146.1 L455.2 147.9 L456.1 142.3 Z" class="m103p-ah"/>
+<circle cx="335.7" cy="122.6" r="9.0" class="m103p-fam"/>
+<line x1="327.0" y1="117.6" x2="312.2" y2="109.2" class="m103p-ar"/>
+<path d="M307.9 106.7 L314.9 107.4 L312.1 112.4 Z" class="m103p-ah"/>
+<circle cx="335.3" cy="180.3" r="9.0" class="m103p-fam"/>
+<line x1="335.7" y1="170.3" x2="336.2" y2="153.2" class="m103p-ar"/>
+<path d="M336.4 148.3 L339.0 154.8 L333.3 154.6 Z" class="m103p-ah"/>
+<circle cx="404.1" cy="92.8" r="9.0" class="m103p-fam"/>
+<line x1="395.6" y1="87.5" x2="381.1" y2="78.4" class="m103p-ar"/>
+<path d="M376.9 75.8 L383.8 76.8 L380.8 81.6 Z" class="m103p-ah"/>
+<circle cx="437.0" cy="198.0" r="9.0" class="m103p-fam"/>
+<line x1="430.2" y1="205.3" x2="418.5" y2="217.8" class="m103p-ar"/>
+<path d="M415.2 221.4 L417.4 214.8 L421.6 218.7 Z" class="m103p-ah"/>
+<circle cx="358.0" cy="96.0" r="9.0" class="m103p-fam"/>
+<line x1="349.9" y1="90.0" x2="336.2" y2="79.8" class="m103p-ar"/>
+<path d="M332.3 76.9 L339.1 78.4 L335.7 83.0 Z" class="m103p-ah"/>
+<circle cx="390.5" cy="186.8" r="9.0" class="m103p-fam"/>
+<line x1="400.1" y1="189.6" x2="416.5" y2="194.4" class="m103p-ar"/>
+<path d="M421.2 195.8 L414.3 196.7 L415.9 191.2 Z" class="m103p-ah"/>
+<circle cx="437.4" cy="104.5" r="9.0" class="m103p-fam"/>
+<line x1="429.5" y1="98.4" x2="415.9" y2="88.1" class="m103p-ar"/>
+<path d="M412.0 85.1 L418.8 86.7 L415.3 91.2 Z" class="m103p-ah"/>
+<circle cx="399.4" cy="126.5" r="9.0" class="m103p-fam"/>
+<line x1="390.1" y1="123.0" x2="374.1" y2="117.0" class="m103p-ar"/>
+<path d="M369.5 115.2 L376.5 114.8 L374.4 120.1 Z" class="m103p-ah"/>
+<text x="358.0" y="262.0" text-anchor="middle" class="m103p-ink">더 활발하게 움직인다</text>
+<rect x="482.0" y="8.0" width="226.0" height="284.0" rx="8" class="m103p-box"/>
+<text x="595.0" y="34.0" text-anchor="middle" class="m103p-b15">끓는 물 (약 100 °C)</text>
+<rect x="502.0" y="70.0" width="12.0" height="156.0" rx="6" class="m103p-panel" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+<circle cx="508.0" cy="232.0" r="11.0" class="m103p-panel" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+<circle cx="508.0" cy="232.0" r="7.5" class="m103p-cre"/>
+<rect x="505.0" y="78.0" width="6.0" height="152.0" class="m103p-cre"/>
+<line x1="514.0" y1="226.0" x2="519.0" y2="226.0" class="m103p-thin"/>
+<line x1="514.0" y1="196.4" x2="519.0" y2="196.4" class="m103p-thin"/>
+<line x1="514.0" y1="166.8" x2="519.0" y2="166.8" class="m103p-thin"/>
+<line x1="514.0" y1="137.2" x2="519.0" y2="137.2" class="m103p-thin"/>
+<line x1="514.0" y1="107.6" x2="519.0" y2="107.6" class="m103p-thin"/>
+<line x1="514.0" y1="78.0" x2="519.0" y2="78.0" class="m103p-thin"/>
+<rect x="544.0" y="70.0" width="150.0" height="150.0" class="m103p-panel"/>
+<circle cx="613.6" cy="151.8" r="9.0" class="m103p-fre"/>
+<line x1="618.3" y1="160.6" x2="631.2" y2="184.5" class="m103p-ar"/>
+<path d="M633.5 188.8 L627.9 184.5 L633.0 181.8 Z" class="m103p-ah"/>
+<circle cx="667.4" cy="141.1" r="9.0" class="m103p-fre"/>
+<line x1="677.2" y1="142.7" x2="704.0" y2="146.9" class="m103p-ar"/>
+<path d="M708.8 147.7 L702.1 149.5 L703.0 143.9 Z" class="m103p-ah"/>
+<circle cx="572.7" cy="122.6" r="9.0" class="m103p-fre"/>
+<line x1="564.0" y1="117.6" x2="540.5" y2="104.2" class="m103p-ar"/>
+<path d="M536.2 101.8 L543.2 102.5 L540.4 107.4 Z" class="m103p-ah"/>
+<circle cx="572.3" cy="180.3" r="9.0" class="m103p-fre"/>
+<line x1="572.7" y1="170.3" x2="573.5" y2="143.2" class="m103p-ar"/>
+<path d="M573.7 138.3 L576.3 144.8 L570.6 144.6 Z" class="m103p-ah"/>
+<circle cx="641.1" cy="92.8" r="9.0" class="m103p-fre"/>
+<line x1="632.6" y1="87.5" x2="609.6" y2="73.1" class="m103p-ar"/>
+<path d="M605.4 70.5 L612.4 71.5 L609.3 76.3 Z" class="m103p-ah"/>
+<circle cx="674.0" cy="198.0" r="9.0" class="m103p-fre"/>
+<line x1="667.2" y1="205.3" x2="648.7" y2="225.2" class="m103p-ar"/>
+<path d="M645.4 228.7 L647.6 222.1 L651.8 226.0 Z" class="m103p-ah"/>
+<circle cx="595.0" cy="96.0" r="9.0" class="m103p-fre"/>
+<line x1="586.9" y1="90.0" x2="565.2" y2="73.8" class="m103p-ar"/>
+<path d="M561.3 70.9 L568.1 72.4 L564.7 77.0 Z" class="m103p-ah"/>
+<circle cx="627.5" cy="186.8" r="9.0" class="m103p-fre"/>
+<line x1="637.1" y1="189.6" x2="663.1" y2="197.2" class="m103p-ar"/>
+<path d="M667.8 198.6 L660.9 199.5 L662.5 194.1 Z" class="m103p-ah"/>
+<circle cx="674.4" cy="104.5" r="9.0" class="m103p-fre"/>
+<line x1="666.5" y1="98.4" x2="644.9" y2="82.0" class="m103p-ar"/>
+<path d="M641.0 79.0 L647.8 80.6 L644.4 85.2 Z" class="m103p-ah"/>
+<circle cx="636.4" cy="126.5" r="9.0" class="m103p-fre"/>
+<line x1="627.1" y1="123.0" x2="601.7" y2="113.4" class="m103p-ar"/>
+<path d="M597.1 111.7 L604.1 111.3 L602.1 116.6 Z" class="m103p-ah"/>
+<text x="595.0" y="262.0" text-anchor="middle" class="m103p-ink">매우 활발하게 움직인다</text>
+<text x="712.0" y="286.0" text-anchor="end" class="m103p-sm"></text>
+</svg>

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 448" role="img" aria-labelledby="t-2-2-star-life-paths d-2-2-star-life-paths">
+  <title id="t-2-2-star-life-paths">그림 2-2-5 질량에 따라 달라지는 별의 일생</title>
+  <desc id="d-2-2-star-life-paths">태양 정도 질량의 별은 성운 → 주계열성 → 적색 거성을 거쳐 바깥층은 행성상 성운으로 흩어지고 중심부는 백색 왜성으로 남는다. 태양보다 매우 무거운 별은 주계열성 → 초거성을 거쳐 초신성 폭발을 일으키고 중심부는 중성자별이나 블랙홀로 남는다. 두 경우 모두 별이 만든 원소가 우주로 퍼져 새로운 성운의 재료가 된다. 모식도(크기 비율은 실제와 다름).</desc>
+  <style>
+    .slp-lbl{font-size:15px;fill:var(--fig-ink)} .slp-sm{font-size:13px;fill:var(--fig-muted)}
+    .slp-ink{fill:var(--fig-ink)} .slp-mut{fill:var(--fig-muted)} .slp-b{font-weight:600}
+    .slp-night{fill:var(--fig-ink)}
+    @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .slp-night{fill:var(--fig-paper)} }
+    :root[data-theme="dark"] .slp-night{fill:var(--fig-paper)}
+    
+  </style>
+  <text x="20.0" y="30.0" text-anchor="start" class="slp-lbl slp-b">태양 정도 질량의 별</text>
+  <ellipse cx="48.0" cy="116.0" rx="26.0" ry="18.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1;stroke-opacity:0.6"/>
+  <ellipse cx="70.0" cy="106.0" rx="24.0" ry="20.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1;stroke-opacity:0.6"/>
+  <ellipse cx="64.0" cy="124.0" rx="22.0" ry="14.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1;stroke-opacity:0.6"/>
+  <ellipse cx="56.0" cy="102.0" rx="18.0" ry="14.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1;stroke-opacity:0.6"/>
+  <circle cx="170.0" cy="112.0" r="14.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2.5"/>
+  <circle cx="300.0" cy="112.0" r="46.0" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2.5"/>
+  <circle cx="300.0" cy="112.0" r="9.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <circle cx="450.0" cy="112.0" r="34.0" style="fill:none;stroke:var(--fig-teal);stroke-width:10;stroke-opacity:0.45"/>
+  <circle cx="450.0" cy="112.0" r="34.0" style="fill:none;stroke:var(--fig-teal);stroke-width:1.5"/>
+  <circle cx="450.0" cy="112.0" r="4.5" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.5"/>
+  <line x1="100.0" y1="112.0" x2="141.0" y2="112.0" style="stroke:var(--fig-muted);stroke-width:2;fill:none"/>
+  <path d="M150.0 112.0 L141.0 116.5 L141.0 107.5 Z" style="fill:var(--fig-muted)"/>
+  <line x1="190.0" y1="112.0" x2="239.0" y2="112.0" style="stroke:var(--fig-muted);stroke-width:2;fill:none"/>
+  <path d="M248.0 112.0 L239.0 116.5 L239.0 107.5 Z" style="fill:var(--fig-muted)"/>
+  <line x1="352.0" y1="112.0" x2="395.0" y2="112.0" style="stroke:var(--fig-muted);stroke-width:2;fill:none"/>
+  <path d="M404.0 112.0 L395.0 116.5 L395.0 107.5 Z" style="fill:var(--fig-muted)"/>
+  <text x="60.0" y="174.0" text-anchor="middle" class="slp-lbl slp-b">성운</text>
+  <text x="60.0" y="192.0" text-anchor="middle" class="slp-sm">수소·헬륨 기체</text>
+  <text x="170.0" y="174.0" text-anchor="middle" class="slp-lbl slp-b">주계열성</text>
+  <text x="170.0" y="192.0" text-anchor="middle" class="slp-sm">중심: H → He</text>
+  <text x="300.0" y="174.0" text-anchor="middle" class="slp-lbl slp-b">적색 거성</text>
+  <text x="300.0" y="192.0" text-anchor="middle" class="slp-sm">중심: He → C, O</text>
+  <text x="450.0" y="174.0" text-anchor="middle" class="slp-lbl slp-b">행성상 성운</text>
+  <text x="450.0" y="192.0" text-anchor="middle" class="slp-sm">+ 백색 왜성(가운데 점)</text>
+  <text x="450.0" y="209.0" text-anchor="middle" class="slp-sm">C·N·O를 우주로</text>
+  <text x="20.0" y="228.0" text-anchor="start" class="slp-lbl slp-b">태양보다 매우 무거운 별(약 8~10배 이상)</text>
+  <ellipse cx="48.0" cy="304.0" rx="26.0" ry="18.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1;stroke-opacity:0.6"/>
+  <ellipse cx="70.0" cy="294.0" rx="24.0" ry="20.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1;stroke-opacity:0.6"/>
+  <ellipse cx="64.0" cy="312.0" rx="22.0" ry="14.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1;stroke-opacity:0.6"/>
+  <ellipse cx="56.0" cy="290.0" rx="18.0" ry="14.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1;stroke-opacity:0.6"/>
+  <circle cx="170.0" cy="300.0" r="21.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2.5"/>
+  <circle cx="300.0" cy="300.0" r="58.0" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2.5"/>
+  <circle cx="300.0" cy="300.0" r="26.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-muted);stroke-width:1"/>
+  <circle cx="300.0" cy="300.0" r="14.0" style="fill:var(--fig-soft-green);stroke:var(--fig-muted);stroke-width:1"/>
+  <circle cx="300.0" cy="300.0" r="6.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <path d="M496.0 300.0 L471.3 305.7 L489.8 323.0 L465.6 315.6 L473.0 339.8 L455.7 321.3 L450.0 346.0 L444.3 321.3 L427.0 339.8 L434.4 315.6 L410.2 323.0 L428.7 305.7 L404.0 300.0 L428.7 294.3 L410.2 277.0 L434.4 284.4 L427.0 260.2 L444.3 278.7 L450.0 254.0 L455.7 278.7 L473.0 260.2 L465.6 284.4 L489.8 277.0 L471.3 294.3 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <circle cx="450.0" cy="300.0" r="4.5" style="fill:var(--fig-ink)"/>
+  <line x1="100.0" y1="300.0" x2="134.0" y2="300.0" style="stroke:var(--fig-muted);stroke-width:2;fill:none"/>
+  <path d="M143.0 300.0 L134.0 304.5 L134.0 295.5 Z" style="fill:var(--fig-muted)"/>
+  <line x1="197.0" y1="300.0" x2="227.0" y2="300.0" style="stroke:var(--fig-muted);stroke-width:2;fill:none"/>
+  <path d="M236.0 300.0 L227.0 304.5 L227.0 295.5 Z" style="fill:var(--fig-muted)"/>
+  <line x1="364.0" y1="300.0" x2="389.0" y2="300.0" style="stroke:var(--fig-muted);stroke-width:2;fill:none"/>
+  <path d="M398.0 300.0 L389.0 304.5 L389.0 295.5 Z" style="fill:var(--fig-muted)"/>
+  <text x="60.0" y="374.0" text-anchor="middle" class="slp-lbl slp-b">성운</text>
+  <text x="60.0" y="392.0" text-anchor="middle" class="slp-sm">수소·헬륨 기체</text>
+  <text x="170.0" y="374.0" text-anchor="middle" class="slp-lbl slp-b">주계열성</text>
+  <text x="170.0" y="392.0" text-anchor="middle" class="slp-sm">중심: H → He</text>
+  <text x="300.0" y="374.0" text-anchor="middle" class="slp-lbl slp-b">초거성</text>
+  <text x="300.0" y="392.0" text-anchor="middle" class="slp-sm">중심부에 철까지</text>
+  <text x="450.0" y="374.0" text-anchor="middle" class="slp-lbl slp-b">초신성 폭발</text>
+  <text x="450.0" y="392.0" text-anchor="middle" class="slp-sm">철보다 무거운 원소 생성</text>
+  <text x="450.0" y="409.0" text-anchor="middle" class="slp-sm">중심 → 중성자별·블랙홀</text>
+  <ellipse cx="625.0" cy="211.0" rx="32.5" ry="22.5" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1;stroke-opacity:0.6"/>
+  <ellipse cx="652.5" cy="198.5" rx="30.0" ry="25.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1;stroke-opacity:0.6"/>
+  <ellipse cx="645.0" cy="221.0" rx="27.5" ry="17.5" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1;stroke-opacity:0.6"/>
+  <ellipse cx="635.0" cy="193.5" rx="22.5" ry="17.5" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1;stroke-opacity:0.6"/>
+  <text x="640.0" y="262.0" text-anchor="middle" class="slp-lbl slp-b">새로운 성운</text>
+  <text x="640.0" y="280.0" text-anchor="middle" class="slp-sm">다음 세대 별의 재료</text>
+  <line x1="488.0" y1="122.0" x2="590.0" y2="175.8" style="stroke:var(--fig-teal);stroke-width:2;fill:none;stroke-dasharray:6 4"/>
+  <path d="M598.0 180.0 L587.9 179.8 L592.1 171.8 Z" style="fill:var(--fig-teal)"/>
+  <line x1="500.0" y1="288.0" x2="590.2" y2="236.5" style="stroke:var(--fig-amber);stroke-width:2;fill:none;stroke-dasharray:6 4"/>
+  <path d="M598.0 232.0 L592.4 240.4 L588.0 232.6 Z" style="fill:var(--fig-amber)"/>
+  <text x="560.0" y="136.0" text-anchor="middle" class="slp-sm" style="fill:var(--fig-teal)">원소 방출</text>
+  <text x="540.0" y="252.0" text-anchor="end" class="slp-sm" style="fill:var(--fig-amber)">원소 방출</text>
+  <text x="360.0" y="440.0" text-anchor="middle" class="slp-sm">모식도: 별의 크기 비율은 실제와 다름 · 화살표는 시간 순서</text>
+</svg>

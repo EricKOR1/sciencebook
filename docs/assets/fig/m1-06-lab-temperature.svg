@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-m1-06-lab-temperature d-m1-06-lab-temperature">
+  <title id="t-m1-06-lab-temperature">그림 중1-6-7 온도와 부피 관계 실험 장치</title>
+  <desc id="d-m1-06-lab-temperature">입구를 고무마개로 막은 주사기의 공기 부분이 완전히 잠기도록 물에 담그고, 2~3분 뒤 물의 온도와 공기의 부피를 읽는다. 피스톤이 자유롭게 움직이므로 기체의 압력은 바깥 압력과 같게 유지된다. 얼음물에서 뜨거운 물까지 차례로 옮기며 잰다. 모식도이다.</desc>
+  <style>
+    .lt-red{fill:none;stroke:var(--fig-red)} .lt-redh{fill:var(--fig-red)}
+    .lt-blue{fill:none;stroke:var(--fig-blue)} .lt-blueh{fill:var(--fig-blue)}
+    .lt-green{fill:none;stroke:var(--fig-green)} .lt-greenh{fill:var(--fig-green)}
+    .lt-amber{fill:none;stroke:var(--fig-amber)} .lt-amberh{fill:var(--fig-amber)}
+    .lt-violet{fill:none;stroke:var(--fig-violet)} .lt-violeth{fill:var(--fig-violet)}
+    .lt-teal{fill:none;stroke:var(--fig-teal)} .lt-tealh{fill:var(--fig-teal)}
+    .lt-ink{fill:none;stroke:var(--fig-ink)} .lt-inkh{fill:var(--fig-ink)}
+    .lt-muted{fill:none;stroke:var(--fig-muted)} .lt-mutedh{fill:var(--fig-muted)}
+    .lt-line{fill:none;stroke:var(--fig-line)} .lt-lineh{fill:var(--fig-line)}
+    .lt-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .lt-t{font-size:14px;fill:var(--fig-ink)}
+    .lt-sm{font-size:13px;fill:var(--fig-muted)}
+    .lt-redb{font-size:14px;font-weight:700;fill:var(--fig-red)}
+    .lt-sred{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6}
+    .lt-blueb{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+    .lt-sblue{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6}
+    .lt-greenb{font-size:14px;font-weight:700;fill:var(--fig-green)}
+    .lt-sgreen{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6}
+    .lt-amberb{font-size:14px;font-weight:700;fill:var(--fig-amber)}
+    .lt-samber{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6}
+    .lt-violetb{font-size:14px;font-weight:700;fill:var(--fig-violet)}
+    .lt-sviolet{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6}
+    .lt-tealb{font-size:14px;font-weight:700;fill:var(--fig-teal)}
+    .lt-steal{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.6}
+    .lt-panel{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.4}
+    .lt-paper{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.4}
+    .lt-axis{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
+    .lt-grid{fill:none;stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4}
+    .lt-dash{fill:none;stroke:var(--fig-muted);stroke-width:1.4;stroke-dasharray:5 4}
+    .lt-barrel{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2} .lt-gas{fill:var(--fig-soft-teal);stroke:none} .lt-pist{fill:var(--fig-line);stroke:var(--fig-ink);stroke-width:1.6} .lt-stop{fill:var(--fig-ink)} .lt-pt{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.4} .lt-hit{fill:var(--fig-amber)} .lt-water{fill:var(--fig-soft-blue);stroke:none} .lt-glass{fill:none;stroke:var(--fig-ink);stroke-width:2} .lt-th{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.4} .lt-hg{fill:var(--fig-red)}
+  </style>
+  <text x="170.0" y="28.0" text-anchor="middle" class="lt-h">주사기를 물에 담가 재기</text>
+  <rect x="60.0" y="150.0" width="200.0" height="150.0" rx="0" class="lt-water"/>
+  <path d="M60 110 L60 300 L260 300 L260 110" class="lt-glass"/>
+  <rect x="115.0" y="180.0" width="50.0" height="90.0" rx="0" class="lt-gas"/>
+  <path d="M115.0 120 L115.0 270 L165.0 270 L165.0 120" class="lt-glass"/>
+  <rect x="133.0" y="270.0" width="14.0" height="10.0" rx="0" class="lt-barrel"/>
+  <rect x="130.0" y="280.0" width="20.0" height="9.0" rx="2" class="lt-stop"/>
+  <rect x="117.0" y="168.0" width="46.0" height="12.0" rx="2" class="lt-pist"/>
+  <rect x="136.0" y="120.0" width="8.0" height="48.0" rx="0" class="lt-pist"/>
+  <rect x="105.0" y="112.0" width="70.0" height="8.0" rx="2" class="lt-pist"/>
+  <rect x="205.0" y="60.0" width="10.0" height="225.0" rx="5" class="lt-th"/>
+  <circle cx="210.0" cy="282.0" r="8.0" class="lt-hg"/>
+  <rect x="208.0" y="170.0" width="4.0" height="110.0" rx="0" class="lt-hg"/>
+  <text x="222.0" y="72.0" class="lt-t">온도계</text>
+  <line x1="60.0" y1="150.0" x2="30.0" y2="150.0" class="lt-ink" style="stroke-width:1;stroke-linecap:round"/>
+  <text x="14.0" y="140.0" class="lt-sm">물</text>
+  <text x="160.0" y="322.0" text-anchor="middle" class="lt-t">공기가 든 부분이 완전히 잠기게</text>
+  <text x="82.0" y="60.0" text-anchor="end" class="lt-sm">피스톤은</text>
+  <text x="82.0" y="76.0" text-anchor="end" class="lt-sm">자유롭게</text>
+  <line x1="330.0" y1="20.0" x2="330.0" y2="320.0" class="lt-dash" style="stroke-width:1.2;stroke-linecap:round"/>
+  <text x="525.0" y="28.0" text-anchor="middle" class="lt-h">물의 온도를 바꾸며 차례로</text>
+  <rect x="342.0" y="140.0" width="76.0" height="100.0" rx="4" class="lt-sblue"/>
+  <text x="380.0" y="266.0" text-anchor="middle" class="lt-t">얼음물</text>
+  <text x="380.0" y="286.0" text-anchor="middle" class="lt-sm">약 0 °C</text>
+  <line x1="422.0" y1="190.0" x2="429.0" y2="190.0" class="lt-ink" style="stroke-width:2;stroke-linecap:round"/>
+  <path d="M436.0 190.0 L429.0 193.4 L429.0 186.6 Z" class="lt-inkh"/>
+  <rect x="440.0" y="140.0" width="76.0" height="100.0" rx="4" class="lt-steal"/>
+  <text x="478.0" y="266.0" text-anchor="middle" class="lt-t">찬물</text>
+  <line x1="520.0" y1="190.0" x2="527.0" y2="190.0" class="lt-ink" style="stroke-width:2;stroke-linecap:round"/>
+  <path d="M534.0 190.0 L527.0 193.4 L527.0 186.6 Z" class="lt-inkh"/>
+  <rect x="538.0" y="140.0" width="76.0" height="100.0" rx="4" class="lt-samber"/>
+  <text x="576.0" y="266.0" text-anchor="middle" class="lt-t">따뜻한 물</text>
+  <line x1="618.0" y1="190.0" x2="625.0" y2="190.0" class="lt-ink" style="stroke-width:2;stroke-linecap:round"/>
+  <path d="M632.0 190.0 L625.0 193.4 L625.0 186.6 Z" class="lt-inkh"/>
+  <rect x="636.0" y="140.0" width="76.0" height="100.0" rx="4" class="lt-sred"/>
+  <text x="674.0" y="266.0" text-anchor="middle" class="lt-t">뜨거운 물</text>
+  <text x="674.0" y="286.0" text-anchor="middle" class="lt-sm">약 70 °C</text>
+  <text x="525.0" y="110.0" text-anchor="middle" class="lt-sm">2~3분 기다린 뒤 온도와 부피 기록</text>
+</svg>

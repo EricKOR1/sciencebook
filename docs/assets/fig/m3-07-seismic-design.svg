@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-labelledby="t-m3-07-seismic-design d-m3-07-seismic-design">
+  <title id="t-m3-07-seismic-design">그림 중3-7-7 내진·제진·면진 설계</title>
+  <desc id="d-m3-07-seismic-design">내진 설계는 기둥과 벽, 버팀대를 튼튼하게 하여 흔들림을 견딘다. 제진 설계는 건물 안에 흔들림 에너지를 흡수하는 장치(감쇠 장치)를 넣는다. 면진 설계는 땅과 건물 사이에 고무 받침 같은 장치를 넣어 땅의 흔들림이 건물에 덜 전달되게 한다. 구조를 단순하게 나타낸 모식도이다.</desc>
+  <style>
+    .m3-07-seismic-design-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .m3-07-seismic-design-tx{font-size:14px;fill:var(--fig-ink)}
+    .m3-07-seismic-design-sm{font-size:13px;fill:var(--fig-muted)}
+  </style>
+  <rect x="10.0" y="10.0" width="226.0" height="300.0" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="123.0" y="36.0" text-anchor="middle" class="m3-07-seismic-design-lbl">내진 설계</text>
+  <text x="123.0" y="56.0" text-anchor="middle" class="m3-07-seismic-design-tx">튼튼하게 버틴다</text>
+  <rect x="11.0" y="240.0" width="224.0" height="26.0" style="fill:var(--fig-soft-amber);stroke:none"/>
+  <line x1="11.0" y1="240.0" x2="235.0" y2="240.0" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+  <rect x="75.0" y="90.0" width="96.0" height="150.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-ink);stroke-width:2"/>
+  <line x1="75.0" y1="127.5" x2="171.0" y2="127.5" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="75.0" y1="165.0" x2="171.0" y2="165.0" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="75.0" y1="202.5" x2="171.0" y2="202.5" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="75.0" y1="90.0" x2="171.0" y2="127.5" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <line x1="171.0" y1="90.0" x2="75.0" y2="127.5" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <line x1="75.0" y1="127.5" x2="171.0" y2="165.0" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <line x1="171.0" y1="127.5" x2="75.0" y2="165.0" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <line x1="75.0" y1="165.0" x2="171.0" y2="202.5" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <line x1="171.0" y1="165.0" x2="75.0" y2="202.5" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <line x1="75.0" y1="202.5" x2="171.0" y2="240.0" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <line x1="171.0" y1="202.5" x2="75.0" y2="240.0" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <rect x="71.0" y="90.0" width="8.0" height="150.0" style="fill:var(--fig-ink)"/>
+  <rect x="167.0" y="90.0" width="8.0" height="150.0" style="fill:var(--fig-ink)"/>
+  <line x1="123.0" y1="253.0" x2="159.0" y2="253.0" style="stroke:var(--fig-red);stroke-width:2"/>
+  <path d="M167.0 253.0 L159.0 257.0 L159.0 249.0 Z" style="fill:var(--fig-red)"/>
+  <line x1="123.0" y1="253.0" x2="87.0" y2="253.0" style="stroke:var(--fig-red);stroke-width:2"/>
+  <path d="M79.0 253.0 L87.0 249.0 L87.0 257.0 Z" style="fill:var(--fig-red)"/>
+  <text x="123.0" y="300.0" text-anchor="middle" class="m3-07-seismic-design-sm">기둥·벽·버팀대를 보강</text>
+  <rect x="246.0" y="10.0" width="226.0" height="300.0" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="359.0" y="36.0" text-anchor="middle" class="m3-07-seismic-design-lbl">제진 설계</text>
+  <text x="359.0" y="56.0" text-anchor="middle" class="m3-07-seismic-design-tx">흔들림을 흡수한다</text>
+  <rect x="247.0" y="240.0" width="224.0" height="26.0" style="fill:var(--fig-soft-amber);stroke:none"/>
+  <line x1="247.0" y1="240.0" x2="471.0" y2="240.0" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+  <rect x="311.0" y="90.0" width="96.0" height="150.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-ink);stroke-width:2"/>
+  <line x1="311.0" y1="127.5" x2="407.0" y2="127.5" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="311.0" y1="165.0" x2="407.0" y2="165.0" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="311.0" y1="202.5" x2="407.0" y2="202.5" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="315.0" y1="93.0" x2="403.0" y2="124.5" style="stroke:var(--fig-muted);stroke-width:2"/>
+  <rect x="347.0" y="103.8" width="24" height="10" rx="2" transform="rotate(19.7 359.0 108.8)" style="fill:var(--fig-amber);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="315.0" y1="130.5" x2="403.0" y2="162.0" style="stroke:var(--fig-muted);stroke-width:2"/>
+  <rect x="347.0" y="141.2" width="24" height="10" rx="2" transform="rotate(19.7 359.0 146.2)" style="fill:var(--fig-amber);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="315.0" y1="168.0" x2="403.0" y2="199.5" style="stroke:var(--fig-muted);stroke-width:2"/>
+  <rect x="347.0" y="178.8" width="24" height="10" rx="2" transform="rotate(19.7 359.0 183.8)" style="fill:var(--fig-amber);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="315.0" y1="205.5" x2="403.0" y2="237.0" style="stroke:var(--fig-muted);stroke-width:2"/>
+  <rect x="347.0" y="216.2" width="24" height="10" rx="2" transform="rotate(19.7 359.0 221.2)" style="fill:var(--fig-amber);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="359.0" y1="253.0" x2="395.0" y2="253.0" style="stroke:var(--fig-red);stroke-width:2"/>
+  <path d="M403.0 253.0 L395.0 257.0 L395.0 249.0 Z" style="fill:var(--fig-red)"/>
+  <line x1="359.0" y1="253.0" x2="323.0" y2="253.0" style="stroke:var(--fig-red);stroke-width:2"/>
+  <path d="M315.0 253.0 L323.0 249.0 L323.0 257.0 Z" style="fill:var(--fig-red)"/>
+  <text x="359.0" y="300.0" text-anchor="middle" class="m3-07-seismic-design-sm">건물 안 감쇠 장치가 에너지를 흡수</text>
+  <rect x="482.0" y="10.0" width="226.0" height="300.0" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="595.0" y="36.0" text-anchor="middle" class="m3-07-seismic-design-lbl">면진 설계</text>
+  <text x="595.0" y="56.0" text-anchor="middle" class="m3-07-seismic-design-tx">흔들림 전달을 줄인다</text>
+  <rect x="483.0" y="240.0" width="224.0" height="26.0" style="fill:var(--fig-soft-amber);stroke:none"/>
+  <line x1="483.0" y1="240.0" x2="707.0" y2="240.0" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+  <rect x="547.0" y="76.0" width="96.0" height="150.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-ink);stroke-width:2"/>
+  <line x1="547.0" y1="113.5" x2="643.0" y2="113.5" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="547.0" y1="151.0" x2="643.0" y2="151.0" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="547.0" y1="188.5" x2="643.0" y2="188.5" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <rect x="553.0" y="226.0" width="16.0" height="14.0" style="fill:var(--fig-ink)"/>
+  <line x1="553.0" y1="229.5" x2="569.0" y2="229.5" style="stroke:var(--fig-amber);stroke-width:1.4"/>
+  <line x1="553.0" y1="233.0" x2="569.0" y2="233.0" style="stroke:var(--fig-amber);stroke-width:1.4"/>
+  <line x1="553.0" y1="236.5" x2="569.0" y2="236.5" style="stroke:var(--fig-amber);stroke-width:1.4"/>
+  <rect x="577.0" y="226.0" width="16.0" height="14.0" style="fill:var(--fig-ink)"/>
+  <line x1="577.0" y1="229.5" x2="593.0" y2="229.5" style="stroke:var(--fig-amber);stroke-width:1.4"/>
+  <line x1="577.0" y1="233.0" x2="593.0" y2="233.0" style="stroke:var(--fig-amber);stroke-width:1.4"/>
+  <line x1="577.0" y1="236.5" x2="593.0" y2="236.5" style="stroke:var(--fig-amber);stroke-width:1.4"/>
+  <rect x="601.0" y="226.0" width="16.0" height="14.0" style="fill:var(--fig-ink)"/>
+  <line x1="601.0" y1="229.5" x2="617.0" y2="229.5" style="stroke:var(--fig-amber);stroke-width:1.4"/>
+  <line x1="601.0" y1="233.0" x2="617.0" y2="233.0" style="stroke:var(--fig-amber);stroke-width:1.4"/>
+  <line x1="601.0" y1="236.5" x2="617.0" y2="236.5" style="stroke:var(--fig-amber);stroke-width:1.4"/>
+  <rect x="625.0" y="226.0" width="16.0" height="14.0" style="fill:var(--fig-ink)"/>
+  <line x1="625.0" y1="229.5" x2="641.0" y2="229.5" style="stroke:var(--fig-amber);stroke-width:1.4"/>
+  <line x1="625.0" y1="233.0" x2="641.0" y2="233.0" style="stroke:var(--fig-amber);stroke-width:1.4"/>
+  <line x1="625.0" y1="236.5" x2="641.0" y2="236.5" style="stroke:var(--fig-amber);stroke-width:1.4"/>
+  <line x1="595.0" y1="253.0" x2="631.0" y2="253.0" style="stroke:var(--fig-red);stroke-width:2"/>
+  <path d="M639.0 253.0 L631.0 257.0 L631.0 249.0 Z" style="fill:var(--fig-red)"/>
+  <line x1="595.0" y1="253.0" x2="559.0" y2="253.0" style="stroke:var(--fig-red);stroke-width:2"/>
+  <path d="M551.0 253.0 L559.0 249.0 L559.0 257.0 Z" style="fill:var(--fig-red)"/>
+  <text x="595.0" y="300.0" text-anchor="middle" class="m3-07-seismic-design-sm">땅과 건물 사이에 고무 받침</text>
+  <text x="60.0" y="254.0" class="m3-07-seismic-design-sm"></text>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-labelledby="t-m1-07-eclipses d-m1-07-eclipses">
+  <title id="t-m1-07-eclipses">그림 중1-7-7 일식과 월식의 위치 관계</title>
+  <desc id="d-m1-07-eclipses">일식은 태양-달-지구 순서로 일직선일 때 달의 그림자가 지구의 좁은 지역에 드리워 일어나고, 월식은 태양-지구-달 순서로 일직선일 때 달이 지구의 그림자 속에 들어가 일어난다. 오른쪽은 우리나라에서 남쪽 하늘을 볼 때 가려지기 시작하는 쪽으로, 일식은 태양의 오른쪽(서쪽)부터, 월식은 달의 왼쪽(동쪽)부터 가려진다. 크기와 거리는 실제와 다른 모식도이다.</desc>
+  <style>
+    .m1-07-eclipses-b{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .m1-07-eclipses-t{font-size:14px;fill:var(--fig-ink)}
+    .m1-07-eclipses-tb{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+    .m1-07-eclipses-s{font-size:13px;fill:var(--fig-muted)}
+    .m1-07-eclipses-ln{fill:none;stroke:var(--fig-ink);stroke-width:1.5}
+    .m1-07-eclipses-lm{fill:none;stroke:var(--fig-muted);stroke-width:1.2}
+  </style>
+  <circle cx="40" cy="115" r="60" style="fill:var(--fig-amber)"/>
+  <text x="40.0" y="120.0" text-anchor="middle" class="m1-07-eclipses-tb" style="fill:var(--fig-paper)">태양</text>
+  <path d="M300 104 L428 112 L428 118 L300 126 Z" style="fill:var(--fig-ink);fill-opacity:0.55"/>
+  <circle cx="450" cy="115" r="34" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <path d="M450 81 A34 34 0 0 1 450 149 Z" style="fill:#0b1220;fill-opacity:0.4"/>
+  <circle cx="418" cy="115" r="5" style="fill:var(--fig-red)"/>
+  <circle cx="300" cy="115" r="11" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.5"/>
+  <text x="300.0" y="147.0" text-anchor="middle" class="m1-07-eclipses-t">달 (삭)</text>
+  <text x="450.0" y="171.0" text-anchor="middle" class="m1-07-eclipses-t">지구</text>
+  <line x1="414.0" y1="109.0" x2="390.0" y2="67.0" style="stroke:var(--fig-red);stroke-width:1.2"/>
+  <text x="388.0" y="61.0" text-anchor="middle" class="m1-07-eclipses-s" style="fill:var(--fig-red);font-weight:700">이 좁은 곳에서만 일식이 보인다</text>
+  <text x="20.0" y="32.0" class="m1-07-eclipses-b">(가) 일식 — 태양, 달, 지구 순서로 일직선</text>
+  <line x1="110.0" y1="75.0" x2="143.1" y2="81.6" style="stroke:var(--fig-amber);stroke-width:1.5"/>
+  <path d="M150.0 83.0 L142.4 85.4 L143.9 77.9 Z" style="fill:var(--fig-amber)"/>
+  <line x1="110.0" y1="115.0" x2="143.0" y2="115.0" style="stroke:var(--fig-amber);stroke-width:1.5"/>
+  <path d="M150.0 115.0 L143.0 118.8 L143.0 111.2 Z" style="fill:var(--fig-amber)"/>
+  <line x1="110.0" y1="155.0" x2="143.1" y2="148.4" style="stroke:var(--fig-amber);stroke-width:1.5"/>
+  <path d="M150.0 147.0 L143.9 152.1 L142.4 144.6 Z" style="fill:var(--fig-amber)"/>
+  <circle cx="40" cy="340" r="60" style="fill:var(--fig-amber)"/>
+  <text x="40.0" y="345.0" text-anchor="middle" class="m1-07-eclipses-tb" style="fill:var(--fig-paper)">태양</text>
+  <path d="M250 306 L460 326 L460 354 L250 374 Z" style="fill:var(--fig-ink);fill-opacity:0.35"/>
+  <circle cx="250" cy="340" r="34" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <path d="M250 306 A34 34 0 0 1 250 374 Z" style="fill:#0b1220;fill-opacity:0.4"/>
+  <circle cx="420" cy="340" r="11" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <text x="250.0" y="396.0" text-anchor="middle" class="m1-07-eclipses-t">지구</text>
+  <text x="420.0" y="384.0" text-anchor="middle" class="m1-07-eclipses-t">달 (망)</text>
+  <text x="360.0" y="310.0" text-anchor="middle" class="m1-07-eclipses-s">지구의 그림자</text>
+  <text x="250.0" y="294.0" text-anchor="middle" class="m1-07-eclipses-s" style="fill:var(--fig-blue);font-weight:700">밤인 지역 어디서나 월식이 보인다</text>
+  <text x="20.0" y="257.0" class="m1-07-eclipses-b">(나) 월식 — 태양, 지구, 달 순서로 일직선</text>
+  <line x1="110.0" y1="300.0" x2="143.1" y2="306.6" style="stroke:var(--fig-amber);stroke-width:1.5"/>
+  <path d="M150.0 308.0 L142.4 310.4 L143.9 302.9 Z" style="fill:var(--fig-amber)"/>
+  <line x1="110.0" y1="340.0" x2="143.0" y2="340.0" style="stroke:var(--fig-amber);stroke-width:1.5"/>
+  <path d="M150.0 340.0 L143.0 343.9 L143.0 336.1 Z" style="fill:var(--fig-amber)"/>
+  <line x1="110.0" y1="380.0" x2="143.1" y2="373.4" style="stroke:var(--fig-amber);stroke-width:1.5"/>
+  <path d="M150.0 372.0 L143.9 377.1 L142.4 369.6 Z" style="fill:var(--fig-amber)"/>
+  <line x1="540" y1="40" x2="540" y2="440" style="stroke:var(--fig-line);stroke-width:1"/>
+  <text x="625.0" y="52.0" text-anchor="middle" class="m1-07-eclipses-tb">남쪽 하늘에서 보면</text>
+  <text x="625.0" y="70.0" text-anchor="middle" class="m1-07-eclipses-s">동 ← → 서</text>
+  <circle cx="625" cy="135" r="34" style="fill:var(--fig-amber)"/>
+  <clipPath id="m1-07-eclipses-c1"><circle cx="625" cy="135" r="34"/></clipPath>
+  <circle cx="672" cy="135" r="35" style="fill:#1d2638;fill-opacity:0.92" clip-path="url(#m1-07-eclipses-c1)"/>
+  <circle cx="672" cy="135" r="35" style="fill:none;stroke:var(--fig-ink);stroke-width:1;stroke-dasharray:3 3"/>
+  <line x1="700.0" y1="185.0" x2="668.0" y2="185.0" style="stroke:var(--fig-ink);stroke-width:1.6"/>
+  <path d="M660.0 185.0 L668.0 180.6 L668.0 189.4 Z" style="fill:var(--fig-ink)"/>
+  <text x="714.0" y="190.0" text-anchor="end" class="m1-07-eclipses-s">달</text>
+  <text x="625.0" y="217.0" text-anchor="middle" class="m1-07-eclipses-t">태양의 오른쪽(서쪽)부터</text>
+  <circle cx="612" cy="355" r="48" style="fill:var(--fig-ink);fill-opacity:0.3"/>
+  <text x="612.0" y="299.0" text-anchor="middle" class="m1-07-eclipses-s">지구의 그림자</text>
+  <circle cx="668" cy="355" r="22" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <clipPath id="m1-07-eclipses-c2"><circle cx="668" cy="355" r="22"/></clipPath>
+  <circle cx="612" cy="355" r="48" style="fill:var(--fig-red);fill-opacity:0.55" clip-path="url(#m1-07-eclipses-c2)"/>
+  <line x1="690.0" y1="393.0" x2="658.0" y2="393.0" style="stroke:var(--fig-ink);stroke-width:1.6"/>
+  <path d="M650.0 393.0 L658.0 388.6 L658.0 397.4 Z" style="fill:var(--fig-ink)"/>
+  <text x="714.0" y="398.0" text-anchor="end" class="m1-07-eclipses-s">달</text>
+  <text x="625.0" y="427.0" text-anchor="middle" class="m1-07-eclipses-t">달의 왼쪽(동쪽)부터</text>
+  <text x="20.0" y="462.0" class="m1-07-eclipses-s">크기와 거리는 실제와 다른 모식도 · 달은 서 → 동으로 공전한다</text>
+</svg>

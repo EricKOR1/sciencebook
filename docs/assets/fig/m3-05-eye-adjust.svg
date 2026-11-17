@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 396" role="img" aria-labelledby="t-m3-05-eye-adjust d-m3-05-eye-adjust">
+  <title id="t-m3-05-eye-adjust">그림 중3-5-9 눈의 밝기 조절과 거리 조절</title>
+  <desc id="d-m3-05-eye-adjust">왼쪽은 눈을 앞에서 본 모습으로, 밝은 곳에서는 홍채가 늘어나 동공이 작아지고 어두운 곳에서는 홍채가 줄어들어 동공이 커진다. 오른쪽은 눈의 단면 모식도로, 먼 곳을 볼 때는 섬모체가 이완하여 수정체가 얇아지고, 가까운 곳을 볼 때는 섬모체가 수축하여 수정체가 두꺼워져 두 경우 모두 망막에 상이 맺힌다.</desc>
+  <style>
+    .m3-05-eye-adjust-l{font-size:14px;fill:var(--fig-ink);font-weight:600} .m3-05-eye-adjust-t{font-size:14px;fill:var(--fig-ink)}
+    .m3-05-eye-adjust-s{font-size:13px;fill:var(--fig-muted)} .m3-05-eye-adjust-h{font-size:15px;fill:var(--fig-ink);font-weight:700}
+    .m3-05-eye-adjust-ld{stroke:var(--fig-muted);stroke-width:1;fill:none}
+
+  </style>
+  <text x="150.0" y="24.0" text-anchor="middle" class="m3-05-eye-adjust-h">밝기 조절 — 동공의 크기</text>
+  <text x="520.0" y="24.0" text-anchor="middle" class="m3-05-eye-adjust-h">거리 조절 — 수정체의 두께</text>
+  <line x1="300.0" y1="14.0" x2="300.0" y2="370.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
+  <path d="M107 90 Q185 28 263 90 Q185 152 107 90 Z" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <circle cx="185" cy="90" r="27" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2.5"/>
+  <circle cx="185" cy="90" r="7" style="fill:var(--fig-ink)"/>
+  <text x="73.0" y="86.0" text-anchor="middle" class="m3-05-eye-adjust-l">밝은 곳</text>
+  <text x="185.0" y="142.0" text-anchor="middle" class="m3-05-eye-adjust-t">홍채가 늘어나 동공이 작아진다</text>
+  <text x="185.0" y="160.0" text-anchor="middle" class="m3-05-eye-adjust-s">→ 들어오는 빛의 양이 줄어든다</text>
+  <path d="M107 262 Q185 200 263 262 Q185 324 107 262 Z" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <circle cx="185" cy="262" r="27" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2.5"/>
+  <circle cx="185" cy="262" r="19" style="fill:var(--fig-ink)"/>
+  <text x="73.0" y="258.0" text-anchor="middle" class="m3-05-eye-adjust-l">어두운 곳</text>
+  <text x="185.0" y="314.0" text-anchor="middle" class="m3-05-eye-adjust-t">홍채가 줄어들어 동공이 커진다</text>
+  <text x="185.0" y="332.0" text-anchor="middle" class="m3-05-eye-adjust-s">→ 들어오는 빛의 양이 늘어난다</text>
+  <line x1="206.0" y1="72.0" x2="240.0" y2="42.0" class="m3-05-eye-adjust-ld"/>
+  <text x="244.0" y="42.0" class="m3-05-eye-adjust-s">홍채</text>
+  <line x1="187.0" y1="92.0" x2="250.0" y2="60.0" class="m3-05-eye-adjust-ld"/>
+  <text x="254.0" y="64.0" class="m3-05-eye-adjust-s">동공</text>
+  <circle cx="590" cy="90" r="62" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:2.5"/>
+  <path d="M620 36 A62 62 0 0 1 620 144" style="fill:none;stroke:var(--fig-red);stroke-width:4"/>
+  <rect x="545" y="46" width="10" height="8" rx="2" style="fill:var(--fig-violet)"/>
+  <rect x="545" y="126" width="10" height="8" rx="2" style="fill:var(--fig-violet)"/>
+  <ellipse cx="550" cy="90" rx="6" ry="27" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <path d="M330 70 L550 70 L652 90" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
+  <path d="M330 90 L550 90 L652 90" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
+  <path d="M330 110 L550 110 L652 90" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
+  <text x="332.0" y="60.0" class="m3-05-eye-adjust-s">먼 물체에서 온 빛</text>
+  <circle cx="652" cy="90" r="4" style="fill:var(--fig-green)"/>
+  <text x="520.0" y="170.0" text-anchor="middle" class="m3-05-eye-adjust-t">먼 곳: 섬모체 이완 → 수정체가 얇아진다</text>
+  <text x="520.0" y="186.0" text-anchor="middle" class="m3-05-eye-adjust-s">빛을 덜 굴절시킨다</text>
+  <text x="538.0" y="58.0" text-anchor="end" class="m3-05-eye-adjust-s">수정체</text>
+  <circle cx="590" cy="262" r="62" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:2.5"/>
+  <path d="M620 208 A62 62 0 0 1 620 316" style="fill:none;stroke:var(--fig-red);stroke-width:4"/>
+  <rect x="545" y="218" width="10" height="8" rx="2" style="fill:var(--fig-violet)"/>
+  <rect x="545" y="298" width="10" height="8" rx="2" style="fill:var(--fig-violet)"/>
+  <ellipse cx="550" cy="262" rx="13" ry="27" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <path d="M400 262 L550 242 L652 262" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
+  <path d="M400 262 L550 262 L652 262" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
+  <path d="M400 262 L550 282 L652 262" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
+  <circle cx="400" cy="262" r="5" style="fill:var(--fig-green)"/>
+  <text x="400.0" y="284.0" text-anchor="middle" class="m3-05-eye-adjust-s">가까운 물체</text>
+  <circle cx="652" cy="262" r="4" style="fill:var(--fig-green)"/>
+  <text x="520.0" y="342.0" text-anchor="middle" class="m3-05-eye-adjust-t">가까운 곳: 섬모체 수축 → 수정체가 두꺼워진다</text>
+  <text x="520.0" y="358.0" text-anchor="middle" class="m3-05-eye-adjust-s">빛을 더 많이 굴절시킨다</text>
+  <text x="668.0" y="52.0" class="m3-05-eye-adjust-s" style="fill:var(--fig-red)">망막</text>
+  <text x="360.0" y="388.0" text-anchor="middle" class="m3-05-eye-adjust-s">모식도 · 두 경우 모두 상은 망막에 맺힌다 · 보라색: 섬모체</text>
+</svg>

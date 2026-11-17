@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img" aria-labelledby="t-m3-03-salinity-latitude d-m3-03-salinity-latitude">
+  <title id="t-m3-03-salinity-latitude">그림 중3-3-4 위도에 따른 (증발량 − 강수량)과 표층 염분</title>
+  <desc id="d-m3-03-salinity-latitude">위쪽 그래프는 증발량에서 강수량을 뺀 값, 아래쪽 그래프는 표층 염분을 위도에 따라 나타낸 것이다. 위도 30° 부근은 증발량이 강수량보다 많아 염분이 가장 높고, 적도 부근은 비가 많이 내려 30° 부근보다 염분이 낮으며, 고위도는 강수량이 증발량보다 많고 얼음이 녹은 물도 더해져 염분이 낮다. 실제 관측의 경향을 단순화한 모식 그래프이다.</desc>
+  <style>.m3-03-salinity-latitude-l{font-size:14px;fill:var(--fig-ink)} .m3-03-salinity-latitude-t{font-size:13px;fill:var(--fig-muted)} .m3-03-salinity-latitude-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .m3-03-salinity-latitude-ax{stroke:var(--fig-ink);stroke-width:1.5;fill:none} .m3-03-salinity-latitude-g{stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:2 4;fill:none}</style>
+  <line x1="110.0" y1="40" x2="110.0" y2="400" class="m3-03-salinity-latitude-g"/>
+  <text x="110.0" y="420" text-anchor="middle" class="m3-03-salinity-latitude-t">60°S</text>
+  <line x1="255.0" y1="40" x2="255.0" y2="400" class="m3-03-salinity-latitude-g"/>
+  <text x="255.0" y="420" text-anchor="middle" class="m3-03-salinity-latitude-t">30°S</text>
+  <line x1="400.0" y1="40" x2="400.0" y2="400" class="m3-03-salinity-latitude-g"/>
+  <text x="400.0" y="420" text-anchor="middle" class="m3-03-salinity-latitude-t">0°</text>
+  <line x1="545.0" y1="40" x2="545.0" y2="400" class="m3-03-salinity-latitude-g"/>
+  <text x="545.0" y="420" text-anchor="middle" class="m3-03-salinity-latitude-t">30°N</text>
+  <line x1="690.0" y1="40" x2="690.0" y2="400" class="m3-03-salinity-latitude-g"/>
+  <text x="690.0" y="420" text-anchor="middle" class="m3-03-salinity-latitude-t">60°N</text>
+  <text x="400" y="437" text-anchor="middle" class="m3-03-salinity-latitude-l">위도 (남반구 ← 적도 → 북반구)</text>
+  <rect x="110" y="40" width="580" height="130" style="fill:none;stroke:var(--fig-line);stroke-width:1"/>
+  <line x1="110" y1="125" x2="690" y2="125" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="102" y="130" text-anchor="end" class="m3-03-salinity-latitude-t">0</text>
+  <text x="102" y="62" text-anchor="end" class="m3-03-salinity-latitude-t">증발 많음</text>
+  <text x="102" y="166" text-anchor="end" class="m3-03-salinity-latitude-t">강수 많음</text>
+  <text x="118" y="58" class="m3-03-salinity-latitude-h" style="fill:var(--fig-amber)">증발량 − 강수량</text>
+  <path d="M110.0,161.4 C122.1,157.9 158.3,153.2 182.5,140.6 C206.7,128.0 234.9,96.0 255.0,86.0 C275.1,76.0 287.2,76.9 303.3,80.8 C319.4,84.7 335.6,98.1 351.7,109.4 C367.8,120.7 387.1,138.0 400.0,148.4 C412.9,158.8 419.3,174.0 429.0,171.8 C438.7,169.6 446.7,149.7 458.0,135.4 C469.3,121.1 484.6,95.1 496.7,86.0 C508.7,76.9 516.8,76.5 530.5,80.8 C544.2,85.1 564.3,102.0 578.8,112.0 C593.3,122.0 599.0,131.9 617.5,140.6 C636.0,149.3 677.9,160.1 690.0,164.0 L690.0,125 L110.0,125 Z" style="fill:var(--fig-soft-amber)"/>
+  <path d="M110.0,161.4 C122.1,157.9 158.3,153.2 182.5,140.6 C206.7,128.0 234.9,96.0 255.0,86.0 C275.1,76.0 287.2,76.9 303.3,80.8 C319.4,84.7 335.6,98.1 351.7,109.4 C367.8,120.7 387.1,138.0 400.0,148.4 C412.9,158.8 419.3,174.0 429.0,171.8 C438.7,169.6 446.7,149.7 458.0,135.4 C469.3,121.1 484.6,95.1 496.7,86.0 C508.7,76.9 516.8,76.5 530.5,80.8 C544.2,85.1 564.3,102.0 578.8,112.0 C593.3,122.0 599.0,131.9 617.5,140.6 C636.0,149.3 677.9,160.1 690.0,164.0" style="fill:none;stroke:var(--fig-amber);stroke-width:3"/>
+  <rect x="110" y="190" width="580" height="210" style="fill:none;stroke:var(--fig-line);stroke-width:1"/>
+  <line x1="110" y1="334" x2="690" y2="334" class="m3-03-salinity-latitude-g"/>
+  <text x="102" y="339" text-anchor="end" class="m3-03-salinity-latitude-t">34</text>
+  <line x1="110" y1="273" x2="690" y2="273" class="m3-03-salinity-latitude-g"/>
+  <text x="102" y="278" text-anchor="end" class="m3-03-salinity-latitude-t">35</text>
+  <line x1="110" y1="212" x2="690" y2="212" class="m3-03-salinity-latitude-g"/>
+  <text x="102" y="217" text-anchor="end" class="m3-03-salinity-latitude-t">36</text>
+  <text x="30" y="300" text-anchor="middle" class="m3-03-salinity-latitude-l" transform="rotate(-90 30 300)">표층 염분 (psu)</text>
+  <path d="M110.0,340.1 C122.1,336.0 158.3,332.0 182.5,315.7 C206.7,299.4 234.9,257.8 255.0,242.5 C275.1,227.2 287.2,222.2 303.3,224.2 C319.4,226.2 335.6,244.5 351.7,254.7 C367.8,264.9 387.1,277.1 400.0,285.2 C412.9,293.3 419.3,303.5 429.0,303.5 C438.7,303.5 446.7,296.4 458.0,285.2 C469.3,274.0 484.6,247.6 496.7,236.4 C508.7,225.2 516.8,212.0 530.5,218.1 C544.2,224.2 564.3,256.7 578.8,273.0 C593.3,289.3 599.0,299.4 617.5,315.7 C636.0,332.0 677.9,361.5 690.0,370.6" style="fill:none;stroke:var(--fig-blue);stroke-width:3.5"/>
+  <text x="134.2" y="212" class="m3-03-salinity-latitude-h" style="fill:var(--fig-blue)">표층 염분</text>
+  <circle cx="530.5" cy="218.1" r="5" style="fill:var(--fig-blue)"/>
+  <text x="518.5" y="212.1" text-anchor="end" class="m3-03-salinity-latitude-l">30° 부근: 가장 높다 <tspan class="m3-03-salinity-latitude-t">(증발 > 강수)</tspan></text>
+  <circle cx="400.0" cy="285.2" r="5" style="fill:var(--fig-blue)"/>
+  <text x="400.0" y="345" text-anchor="middle" class="m3-03-salinity-latitude-l">적도: 비가 많아</text><text x="400.0" y="363" text-anchor="middle" class="m3-03-salinity-latitude-t">30°보다 낮다</text>
+  <circle cx="690.0" cy="370.6" r="5" style="fill:var(--fig-blue)"/>
+  <text x="678.0" y="392" text-anchor="end" class="m3-03-salinity-latitude-l">고위도: 낮다 <tspan class="m3-03-salinity-latitude-t">(증발 적고 얼음 녹은 물)</tspan></text>
+</svg>

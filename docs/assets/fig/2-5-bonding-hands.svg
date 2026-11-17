@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-2-5-bonding-hands d-2-5-bonding-hands">
+  <title id="t-2-5-bonding-hands">그림 2-5-4 결합 손의 개수와 연결 모양</title>
+  <desc id="d-2-5-bonding-hands">공유 결합의 손이 1개인 원자는 한 원자와만 이어져 사슬의 끝이 되고, 손이 2개인 원자는 한 줄로 이어지지만 갈라지지 못하며, 손이 4개인 원자는 가지를 치거나 고리·그물을 만들 수 있다. 회색 짧은 선은 아직 쓰지 않은 손이다. 모식도.</desc>
+  <style>
+    .bh-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)} .bh-t{font-size:14px;fill:var(--fig-ink)}
+    .bh-sm{font-size:13px;fill:var(--fig-muted)} .bh-at{font-size:13px;font-weight:700;fill:var(--fig-ink)}
+    .bh-a1{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.6}
+    .bh-a2{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6}
+    .bh-a4{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6}
+    .bh-b{stroke:var(--fig-ink);stroke-width:2.4;fill:none;stroke-linecap:round}
+    .bh-stub{stroke:var(--fig-muted);stroke-width:2.4;fill:none;stroke-linecap:round}
+    .bh-sep{stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4}
+  </style>
+  <line x1="190" y1="16" x2="190" y2="300" class="bh-sep"/>
+  <line x1="370" y1="16" x2="370" y2="300" class="bh-sep"/>
+  <text x="95" y="34" text-anchor="middle" class="bh-lbl">손 1개 (예: H)</text>
+  <circle cx="95.0" cy="82.0" r="13" class="bh-a1"/>
+  <text x="95.0" y="86.5" text-anchor="middle" class="bh-at">H</text>
+  <line x1="108.0" y1="82.0" x2="128.0" y2="82.0" class="bh-stub"/>
+  <text x="95" y="124" text-anchor="middle" class="bh-sm">원자 하나</text>
+  <line x1="75.0" y1="190.0" x2="115.0" y2="190.0" class="bh-b"/>
+  <circle cx="70.0" cy="190.0" r="13" class="bh-a1"/>
+  <text x="70.0" y="194.5" text-anchor="middle" class="bh-at">H</text>
+  <circle cx="120.0" cy="190.0" r="13" class="bh-a1"/>
+  <text x="120.0" y="194.5" text-anchor="middle" class="bh-at">H</text>
+  <text x="95" y="232" text-anchor="middle" class="bh-t">한 원자와 이으면</text>
+  <text x="95" y="252" text-anchor="middle" class="bh-t">남는 손이 없다</text>
+  <text x="95" y="282" text-anchor="middle" class="bh-sm">→ 사슬의 ‘끝’만 된다</text>
+  <text x="280" y="34" text-anchor="middle" class="bh-lbl">손 2개 (예: O)</text>
+  <circle cx="280.0" cy="82.0" r="13" class="bh-a2"/>
+  <text x="280.0" y="86.5" text-anchor="middle" class="bh-at">O</text>
+  <line x1="267.0" y1="82.0" x2="247.0" y2="82.0" class="bh-stub"/>
+  <line x1="293.0" y1="82.0" x2="313.0" y2="82.0" class="bh-stub"/>
+  <text x="280" y="124" text-anchor="middle" class="bh-sm">원자 하나</text>
+  <line x1="214.0" y1="200.0" x2="247.0" y2="178.0" class="bh-b"/>
+  <line x1="247.0" y1="178.0" x2="280.0" y2="200.0" class="bh-b"/>
+  <line x1="280.0" y1="200.0" x2="313.0" y2="178.0" class="bh-b"/>
+  <line x1="313.0" y1="178.0" x2="346.0" y2="200.0" class="bh-b"/>
+  <line x1="201.0" y1="200.0" x2="189.0" y2="200.0" class="bh-stub"/>
+  <line x1="359.0" y1="200.0" x2="371.0" y2="200.0" class="bh-stub"/>
+  <circle cx="214.0" cy="200.0" r="11" class="bh-a2"/>
+  <circle cx="247.0" cy="178.0" r="11" class="bh-a2"/>
+  <circle cx="280.0" cy="200.0" r="11" class="bh-a2"/>
+  <circle cx="313.0" cy="178.0" r="11" class="bh-a2"/>
+  <circle cx="346.0" cy="200.0" r="11" class="bh-a2"/>
+  <text x="280" y="232" text-anchor="middle" class="bh-t">한 줄로 이어지지만</text>
+  <text x="280" y="252" text-anchor="middle" class="bh-t">가지를 칠 손이 없다</text>
+  <text x="280" y="282" text-anchor="middle" class="bh-sm">→ 사슬만 된다</text>
+  <text x="545" y="34" text-anchor="middle" class="bh-lbl">손 4개 (예: C, Si)</text>
+  <circle cx="545.0" cy="82.0" r="13" class="bh-a4"/>
+  <line x1="558.0" y1="82.0" x2="578.0" y2="82.0" class="bh-stub"/>
+  <line x1="545.0" y1="95.0" x2="545.0" y2="115.0" class="bh-stub"/>
+  <line x1="532.0" y1="82.0" x2="512.0" y2="82.0" class="bh-stub"/>
+  <line x1="545.0" y1="69.0" x2="545.0" y2="49.0" class="bh-stub"/>
+  <text x="545" y="82" text-anchor="middle" dy="4.5" class="bh-at">C</text>
+  <text x="590" y="124" class="bh-sm">원자 하나</text>
+  <line x1="400.0" y1="200.0" x2="460.0" y2="200.0" class="bh-b"/>
+  <line x1="430.0" y1="170.0" x2="430.0" y2="230.0" class="bh-b"/>
+  <circle cx="400.0" cy="200.0" r="9" class="bh-a4"/>
+  <circle cx="430.0" cy="200.0" r="9" class="bh-a4"/>
+  <circle cx="460.0" cy="200.0" r="9" class="bh-a4"/>
+  <circle cx="430.0" cy="170.0" r="9" class="bh-a4"/>
+  <circle cx="430.0" cy="230.0" r="9" class="bh-a4"/>
+  <line x1="391.0" y1="200.0" x2="383.0" y2="200.0" class="bh-stub"/>
+  <line x1="400.0" y1="191.0" x2="400.0" y2="183.0" class="bh-stub"/>
+  <line x1="400.0" y1="209.0" x2="400.0" y2="217.0" class="bh-stub"/>
+  <line x1="469.0" y1="200.0" x2="477.0" y2="200.0" class="bh-stub"/>
+  <line x1="460.0" y1="191.0" x2="460.0" y2="183.0" class="bh-stub"/>
+  <line x1="460.0" y1="209.0" x2="460.0" y2="217.0" class="bh-stub"/>
+  <line x1="430.0" y1="161.0" x2="430.0" y2="153.0" class="bh-stub"/>
+  <line x1="421.0" y1="170.0" x2="413.0" y2="170.0" class="bh-stub"/>
+  <line x1="439.0" y1="170.0" x2="447.0" y2="170.0" class="bh-stub"/>
+  <line x1="430.0" y1="239.0" x2="430.0" y2="247.0" class="bh-stub"/>
+  <line x1="421.0" y1="230.0" x2="413.0" y2="230.0" class="bh-stub"/>
+  <line x1="439.0" y1="230.0" x2="447.0" y2="230.0" class="bh-stub"/>
+  <text x="430" y="268" text-anchor="middle" class="bh-t">가지</text>
+  <line x1="530.0" y1="230.0" x2="504.0" y2="215.0" class="bh-b"/>
+  <line x1="504.0" y1="215.0" x2="504.0" y2="185.0" class="bh-b"/>
+  <line x1="504.0" y1="185.0" x2="530.0" y2="170.0" class="bh-b"/>
+  <line x1="530.0" y1="170.0" x2="556.0" y2="185.0" class="bh-b"/>
+  <line x1="556.0" y1="185.0" x2="556.0" y2="215.0" class="bh-b"/>
+  <line x1="556.0" y1="215.0" x2="530.0" y2="230.0" class="bh-b"/>
+  <line x1="533.1" y1="238.5" x2="535.1" y2="244.1" class="bh-stub"/>
+  <line x1="526.9" y1="238.5" x2="524.9" y2="244.1" class="bh-stub"/>
+  <line x1="498.2" y1="221.9" x2="494.4" y2="226.5" class="bh-stub"/>
+  <line x1="495.2" y1="216.6" x2="489.2" y2="217.6" class="bh-stub"/>
+  <line x1="495.2" y1="183.4" x2="489.2" y2="182.4" class="bh-stub"/>
+  <line x1="498.2" y1="178.1" x2="494.4" y2="173.5" class="bh-stub"/>
+  <line x1="526.9" y1="161.5" x2="524.9" y2="155.9" class="bh-stub"/>
+  <line x1="533.1" y1="161.5" x2="535.1" y2="155.9" class="bh-stub"/>
+  <line x1="561.8" y1="178.1" x2="565.6" y2="173.5" class="bh-stub"/>
+  <line x1="564.8" y1="183.4" x2="570.8" y2="182.4" class="bh-stub"/>
+  <line x1="564.8" y1="216.6" x2="570.8" y2="217.6" class="bh-stub"/>
+  <line x1="561.8" y1="221.9" x2="565.6" y2="226.5" class="bh-stub"/>
+  <circle cx="530.0" cy="230.0" r="9" class="bh-a4"/>
+  <circle cx="504.0" cy="215.0" r="9" class="bh-a4"/>
+  <circle cx="504.0" cy="185.0" r="9" class="bh-a4"/>
+  <circle cx="530.0" cy="170.0" r="9" class="bh-a4"/>
+  <circle cx="556.0" cy="185.0" r="9" class="bh-a4"/>
+  <circle cx="556.0" cy="215.0" r="9" class="bh-a4"/>
+  <text x="530" y="268" text-anchor="middle" class="bh-t">고리</text>
+  <line x1="610.0" y1="170.0" x2="670.0" y2="170.0" class="bh-b"/>
+  <line x1="610.0" y1="170.0" x2="610.0" y2="230.0" class="bh-b"/>
+  <line x1="610.0" y1="200.0" x2="670.0" y2="200.0" class="bh-b"/>
+  <line x1="640.0" y1="170.0" x2="640.0" y2="230.0" class="bh-b"/>
+  <line x1="610.0" y1="230.0" x2="670.0" y2="230.0" class="bh-b"/>
+  <line x1="670.0" y1="170.0" x2="670.0" y2="230.0" class="bh-b"/>
+  <line x1="601.0" y1="170.0" x2="595.0" y2="170.0" class="bh-stub"/>
+  <line x1="610.0" y1="161.0" x2="610.0" y2="155.0" class="bh-stub"/>
+  <circle cx="610.0" cy="170.0" r="9" class="bh-a4"/>
+  <line x1="601.0" y1="200.0" x2="595.0" y2="200.0" class="bh-stub"/>
+  <circle cx="610.0" cy="200.0" r="9" class="bh-a4"/>
+  <line x1="601.0" y1="230.0" x2="595.0" y2="230.0" class="bh-stub"/>
+  <line x1="610.0" y1="239.0" x2="610.0" y2="245.0" class="bh-stub"/>
+  <circle cx="610.0" cy="230.0" r="9" class="bh-a4"/>
+  <line x1="640.0" y1="161.0" x2="640.0" y2="155.0" class="bh-stub"/>
+  <circle cx="640.0" cy="170.0" r="9" class="bh-a4"/>
+  <circle cx="640.0" cy="200.0" r="9" class="bh-a4"/>
+  <line x1="640.0" y1="239.0" x2="640.0" y2="245.0" class="bh-stub"/>
+  <circle cx="640.0" cy="230.0" r="9" class="bh-a4"/>
+  <line x1="679.0" y1="170.0" x2="685.0" y2="170.0" class="bh-stub"/>
+  <line x1="670.0" y1="161.0" x2="670.0" y2="155.0" class="bh-stub"/>
+  <circle cx="670.0" cy="170.0" r="9" class="bh-a4"/>
+  <line x1="679.0" y1="200.0" x2="685.0" y2="200.0" class="bh-stub"/>
+  <circle cx="670.0" cy="200.0" r="9" class="bh-a4"/>
+  <line x1="679.0" y1="230.0" x2="685.0" y2="230.0" class="bh-stub"/>
+  <line x1="670.0" y1="239.0" x2="670.0" y2="245.0" class="bh-stub"/>
+  <circle cx="670.0" cy="230.0" r="9" class="bh-a4"/>
+  <text x="640" y="268" text-anchor="middle" class="bh-t">그물</text>
+  <text x="545" y="300" text-anchor="middle" class="bh-sm">→ 사방으로 이어져 크고 다양한 뼈대를 만든다</text>
+  <text x="360" y="322" text-anchor="middle" class="bh-sm">굵은 선 = 이미 이은 결합, 회색 짧은 선 = 아직 쓰지 않은 손(실제 물질에서는 다른 원자와 결합)</text>
+</svg>

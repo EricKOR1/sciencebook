@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-2-4-ion-migration d-2-4-ion-migration">
+  <title id="t-2-4-ion-migration">그림 2-4-5 염화 나트륨 수용액 속 이온의 이동</title>
+  <desc id="d-2-4-ion-migration">수용액에 두 전극을 꽂고 전원을 연결하면 양이온(Na⁺)은 (−)극 쪽으로, 음이온(Cl⁻)은 (+)극 쪽으로 이동한다. 수용액 속에서는 이온이, 도선 속에서는 전자가 전하를 운반한다. 물 분자는 생략한 모식도이며 입자는 크게 확대하여 그렸다.</desc>
+  <style>
+    .im-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)} .im-t{font-size:14px;fill:var(--fig-ink)}
+    .im-sm{font-size:13px;fill:var(--fig-muted)}
+    .im-w{fill:none;stroke:var(--fig-ink);stroke-width:2} .im-bat{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.6}
+    .im-el{fill:var(--fig-muted)} .im-water{fill:var(--fig-soft-blue)} .im-bk{fill:none;stroke:var(--fig-line);stroke-width:2.5}
+    .im-pos{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6} .im-neg{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6}
+    .im-pt{font-size:13px;font-weight:700;fill:var(--fig-red)} .im-nt{font-size:13px;font-weight:700;fill:var(--fig-green)}
+    .im-ar-r{stroke:var(--fig-red);stroke-width:2;fill:none} .im-ah-r{fill:var(--fig-red)}
+    .im-ar-g{stroke:var(--fig-green);stroke-width:2;fill:none} .im-ah-g{fill:var(--fig-green)}
+    .im-ar-b{stroke:var(--fig-blue);stroke-width:2;fill:none} .im-ah-b{fill:var(--fig-blue)} .im-bt{font-size:13px;font-weight:600;fill:var(--fig-blue)}
+  </style>
+  <rect x="182" y="150" width="356" height="170" class="im-water"/>
+  <path d="M176 110 V326 H544 V110" class="im-bk"/>
+  <rect x="243" y="90" width="14" height="210" class="im-el"/>
+  <rect x="463" y="90" width="14" height="210" class="im-el"/>
+  <text x="234" y="132" text-anchor="end" class="im-lbl">(−)극</text>
+  <text x="486" y="132" class="im-lbl">(+)극</text>
+  <path d="M250 90 V50 H330" class="im-w"/><path d="M390 50 H470 V90" class="im-w"/>
+  <line x1="350" y1="40" x2="350" y2="60" style="stroke:var(--fig-ink);stroke-width:5"/>
+  <line x1="368" y1="34" x2="368" y2="66" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <text x="340" y="84" text-anchor="middle" class="im-sm">−</text><text x="378" y="84" text-anchor="middle" class="im-sm">+</text>
+  <line x1="330" y1="50" x2="350" y2="50" class="im-w"/><line x1="368" y1="50" x2="390" y2="50" class="im-w"/>
+  <text x="359" y="20" text-anchor="middle" class="im-sm">전원</text>
+  <path d="M300 50 l12 -6 v12 z" class="im-ah-b"/>
+  <path d="M440 50 l12 -6 v12 z" class="im-ah-b"/>
+  <text x="290" y="40" text-anchor="middle" class="im-bt">전자</text>
+  <text x="430" y="40" text-anchor="middle" class="im-bt">전자</text>
+  <path d="M286 175 H260" class="im-ar-r"/><path d="M256 175 l9 -5 v10 z" class="im-ah-r"/>
+  <circle cx="300" cy="175" r="12" class="im-pos"/><text x="300" y="180" text-anchor="middle" class="im-pt">+</text>
+  <path d="M406 188 H380" class="im-ar-r"/><path d="M376 188 l9 -5 v10 z" class="im-ah-r"/>
+  <circle cx="420" cy="188" r="12" class="im-pos"/><text x="420" y="193" text-anchor="middle" class="im-pt">+</text>
+  <path d="M326 245 H300" class="im-ar-r"/><path d="M296 245 l9 -5 v10 z" class="im-ah-r"/>
+  <circle cx="340" cy="245" r="12" class="im-pos"/><text x="340" y="250" text-anchor="middle" class="im-pt">+</text>
+  <path d="M436 265 H410" class="im-ar-r"/><path d="M406 265 l9 -5 v10 z" class="im-ah-r"/>
+  <circle cx="450" cy="265" r="12" class="im-pos"/><text x="450" y="270" text-anchor="middle" class="im-pt">+</text>
+  <path d="M356 300 H330" class="im-ar-r"/><path d="M326 300 l9 -5 v10 z" class="im-ah-r"/>
+  <circle cx="370" cy="300" r="12" class="im-pos"/><text x="370" y="305" text-anchor="middle" class="im-pt">+</text>
+  <path d="M294 215 H320" class="im-ar-g"/><path d="M324 215 l-9 -5 v10 z" class="im-ah-g"/>
+  <circle cx="280" cy="215" r="12" class="im-neg"/><text x="280" y="220" text-anchor="middle" class="im-nt">−</text>
+  <path d="M374 207 H400" class="im-ar-g"/><path d="M404 207 l-9 -5 v10 z" class="im-ah-g"/>
+  <circle cx="360" cy="207" r="12" class="im-neg"/><text x="360" y="212" text-anchor="middle" class="im-nt">−</text>
+  <path d="M419 240 H445" class="im-ar-g"/><path d="M449 240 l-9 -5 v10 z" class="im-ah-g"/>
+  <circle cx="405" cy="240" r="12" class="im-neg"/><text x="405" y="245" text-anchor="middle" class="im-nt">−</text>
+  <path d="M304 285 H330" class="im-ar-g"/><path d="M334 285 l-9 -5 v10 z" class="im-ah-g"/>
+  <circle cx="290" cy="285" r="12" class="im-neg"/><text x="290" y="290" text-anchor="middle" class="im-nt">−</text>
+  <path d="M426 298 H452" class="im-ar-g"/><path d="M456 298 l-9 -5 v10 z" class="im-ah-g"/>
+  <circle cx="412" cy="298" r="12" class="im-neg"/><text x="412" y="303" text-anchor="middle" class="im-nt">−</text>
+  <circle cx="30" cy="200" r="11" class="im-pos"/><text x="30" y="205" text-anchor="middle" class="im-pt">+</text>
+  <text x="48" y="196" class="im-t">Na⁺ (양이온)</text><text x="48" y="215" class="im-sm">(−)극 쪽으로</text>
+  <circle cx="568" cy="200" r="11" class="im-neg"/><text x="568" y="205" text-anchor="middle" class="im-nt">−</text>
+  <text x="586" y="196" class="im-t">Cl⁻ (음이온)</text><text x="586" y="215" class="im-sm">(+)극 쪽으로</text>
+  <text x="360" y="352" text-anchor="middle" class="im-t">반대 전하를 띤 전극 쪽으로 이온이 이동한다 → 이온의 이동이 곧 수용액 속의 전류</text>
+  <text x="360" y="372" text-anchor="middle" class="im-sm">도선에서는 전자가 전하를 운반한다(물 분자는 생략)</text>
+</svg>

@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" role="img" aria-labelledby="t-m1-01-graph-types d-m1-01-graph-types">
+<title id="t-m1-01-graph-types">그림 중1-1-3 자료에 맞는 그래프 고르기</title>
+<desc id="d-m1-01-graph-types">시간에 따라 연속으로 변하는 값은 꺾은선 그래프, 여러 항목의 크기 비교는 막대그래프, 전체에서 각 부분의 비율은 원그래프로 나타낸다. 그래프의 값은 설명을 위한 예시이다.</desc>
+<style>
+  .m101g-ttl{font-size:16px;font-weight:700;fill:var(--fig-ink)}
+  .m101g-ink{font-size:14px;fill:var(--fig-ink)}
+  .m101g-b{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+  .m101g-b15{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+  .m101g-sm{font-size:13px;fill:var(--fig-muted)}
+  .m101g-smi{font-size:13px;fill:var(--fig-ink)}
+  .m101g-acc{font-size:14px;font-weight:700;fill:var(--fig-accent)}
+  .m101g-box{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.2}
+  .m101g-panel{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2}
+  .m101g-panel0{fill:var(--fig-panel)}
+  .m101g-ln{fill:none;stroke:var(--fig-ink);stroke-width:2}
+  .m101g-thin{fill:none;stroke:var(--fig-ink);stroke-width:1.2}
+  .m101g-grid{fill:none;stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4}
+  .m101g-dash{fill:none;stroke:var(--fig-line);stroke-width:1.3;stroke-dasharray:5 5}
+  .m101g-ar{fill:none;stroke:var(--fig-ink);stroke-width:2}
+  .m101g-ah{fill:var(--fig-ink)}
+  .m101g-lead{fill:none;stroke:var(--fig-muted);stroke-width:1}
+  .m101g-dot{fill:var(--fig-muted)}
+  .m101g-mut{fill:var(--fig-muted)}
+  .m101g-inkf{fill:var(--fig-ink)}
+  .m101g-paperf{fill:var(--fig-paper)}
+  .m101g-linef{fill:var(--fig-line)}
+  .m101g-fbl{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2}
+  .m101g-sbl{fill:var(--fig-soft-blue)}
+  .m101g-obl{fill:none;stroke:var(--fig-blue);stroke-width:2}
+  .m101g-cbl{fill:var(--fig-blue)}
+  .m101g-tbl{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+  .m101g-abl{fill:none;stroke:var(--fig-blue);stroke-width:2.4}
+  .m101g-fre{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2}
+  .m101g-sre{fill:var(--fig-soft-red)}
+  .m101g-ore{fill:none;stroke:var(--fig-red);stroke-width:2}
+  .m101g-cre{fill:var(--fig-red)}
+  .m101g-tre{font-size:14px;font-weight:700;fill:var(--fig-red)}
+  .m101g-are{fill:none;stroke:var(--fig-red);stroke-width:2.4}
+  .m101g-fgr{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2}
+  .m101g-sgr{fill:var(--fig-soft-green)}
+  .m101g-ogr{fill:none;stroke:var(--fig-green);stroke-width:2}
+  .m101g-cgr{fill:var(--fig-green)}
+  .m101g-tgr{font-size:14px;font-weight:700;fill:var(--fig-green)}
+  .m101g-agr{fill:none;stroke:var(--fig-green);stroke-width:2.4}
+  .m101g-fam{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+  .m101g-sam{fill:var(--fig-soft-amber)}
+  .m101g-oam{fill:none;stroke:var(--fig-amber);stroke-width:2}
+  .m101g-cam{fill:var(--fig-amber)}
+  .m101g-tam{font-size:14px;font-weight:700;fill:var(--fig-amber)}
+  .m101g-aam{fill:none;stroke:var(--fig-amber);stroke-width:2.4}
+  .m101g-fvi{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2}
+  .m101g-svi{fill:var(--fig-soft-violet)}
+  .m101g-ovi{fill:none;stroke:var(--fig-violet);stroke-width:2}
+  .m101g-cvi{fill:var(--fig-violet)}
+  .m101g-tvi{font-size:14px;font-weight:700;fill:var(--fig-violet)}
+  .m101g-avi{fill:none;stroke:var(--fig-violet);stroke-width:2.4}
+  .m101g-fte{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2}
+  .m101g-ste{fill:var(--fig-soft-teal)}
+  .m101g-ote{fill:none;stroke:var(--fig-teal);stroke-width:2}
+  .m101g-cte{fill:var(--fig-teal)}
+  .m101g-tte{font-size:14px;font-weight:700;fill:var(--fig-teal)}
+  .m101g-ate{fill:none;stroke:var(--fig-teal);stroke-width:2.4}
+</style>
+<rect x="12.0" y="8.0" width="222.0" height="264.0" rx="8" class="m101g-box"/>
+<text x="123.0" y="34.0" text-anchor="middle" class="m101g-b15">꺾은선 그래프</text>
+<text x="123.0" y="54.0" text-anchor="middle" class="m101g-acc">연속으로 변하는 값</text>
+<text x="123.0" y="260.0" text-anchor="middle" class="m101g-sm">예: 하루 동안의 기온</text>
+<rect x="247.0" y="8.0" width="222.0" height="264.0" rx="8" class="m101g-box"/>
+<text x="358.0" y="34.0" text-anchor="middle" class="m101g-b15">막대그래프</text>
+<text x="358.0" y="54.0" text-anchor="middle" class="m101g-acc">항목끼리 크기 비교</text>
+<text x="358.0" y="260.0" text-anchor="middle" class="m101g-sm">예: 반별 재활용 쓰레기 양</text>
+<rect x="482.0" y="8.0" width="222.0" height="264.0" rx="8" class="m101g-box"/>
+<text x="593.0" y="34.0" text-anchor="middle" class="m101g-b15">원그래프</text>
+<text x="593.0" y="54.0" text-anchor="middle" class="m101g-acc">전체 중 부분의 비율</text>
+<text x="593.0" y="260.0" text-anchor="middle" class="m101g-sm">예: 우리 집 쓰레기 종류별 비율</text>
+<line x1="62.0" y1="218.0" x2="218.0" y2="218.0" class="m101g-thin"/>
+<line x1="62.0" y1="218.0" x2="62.0" y2="82.0" class="m101g-thin"/>
+<line x1="58.0" y1="218.0" x2="62.0" y2="218.0" class="m101g-thin"/>
+<text x="55.0" y="222.0" text-anchor="end" class="m101g-sm">10</text>
+<line x1="58.0" y1="153.0" x2="62.0" y2="153.0" class="m101g-thin"/>
+<text x="55.0" y="157.0" text-anchor="end" class="m101g-sm">20</text>
+<line x1="62.0" y1="153.0" x2="212.0" y2="153.0" class="m101g-grid"/>
+<line x1="58.0" y1="88.0" x2="62.0" y2="88.0" class="m101g-thin"/>
+<text x="55.0" y="92.0" text-anchor="end" class="m101g-sm">30</text>
+<line x1="62.0" y1="88.0" x2="212.0" y2="88.0" class="m101g-grid"/>
+<line x1="70.8" y1="218.0" x2="70.8" y2="222.0" class="m101g-thin"/>
+<text x="70.8" y="236.0" text-anchor="middle" class="m101g-sm">6시</text>
+<line x1="123.8" y1="218.0" x2="123.8" y2="222.0" class="m101g-thin"/>
+<text x="123.8" y="236.0" text-anchor="middle" class="m101g-sm">12시</text>
+<line x1="176.7" y1="218.0" x2="176.7" y2="222.0" class="m101g-thin"/>
+<text x="176.7" y="236.0" text-anchor="middle" class="m101g-sm">18시</text>
+<path d="M70.8 192.0 L97.3 166.0 L123.8 127.0 L150.2 114.0 L176.7 146.5 L203.2 172.5" class="m101g-are"/>
+<circle cx="70.8" cy="192.0" r="3.5" class="m101g-cre"/>
+<circle cx="97.3" cy="166.0" r="3.5" class="m101g-cre"/>
+<circle cx="123.8" cy="127.0" r="3.5" class="m101g-cre"/>
+<circle cx="150.2" cy="114.0" r="3.5" class="m101g-cre"/>
+<circle cx="176.7" cy="146.5" r="3.5" class="m101g-cre"/>
+<circle cx="203.2" cy="172.5" r="3.5" class="m101g-cre"/>
+<text x="58.0" y="76.0" class="m101g-sm">기온(°C)</text>
+<line x1="291.0" y1="218.0" x2="447.0" y2="218.0" class="m101g-thin"/>
+<line x1="291.0" y1="218.0" x2="291.0" y2="82.0" class="m101g-thin"/>
+<rect x="305.0" y="153.0" width="24.0" height="65.0" class="m101g-fbl"/>
+<text x="317.0" y="236.0" text-anchor="middle" class="m101g-sm">1반</text>
+<rect x="341.0" y="104.2" width="24.0" height="113.8" class="m101g-fbl"/>
+<text x="353.0" y="236.0" text-anchor="middle" class="m101g-sm">2반</text>
+<rect x="377.0" y="136.8" width="24.0" height="81.2" class="m101g-fbl"/>
+<text x="389.0" y="236.0" text-anchor="middle" class="m101g-sm">3반</text>
+<rect x="413.0" y="169.2" width="24.0" height="48.8" class="m101g-fbl"/>
+<text x="425.0" y="236.0" text-anchor="middle" class="m101g-sm">4반</text>
+<line x1="287.0" y1="218.0" x2="291.0" y2="218.0" class="m101g-thin"/>
+<text x="284.0" y="222.0" text-anchor="end" class="m101g-sm">0</text>
+<line x1="287.0" y1="153.0" x2="291.0" y2="153.0" class="m101g-thin"/>
+<text x="284.0" y="157.0" text-anchor="end" class="m101g-sm">4</text>
+<line x1="287.0" y1="88.0" x2="291.0" y2="88.0" class="m101g-thin"/>
+<text x="284.0" y="92.0" text-anchor="end" class="m101g-sm">8</text>
+<text x="287.0" y="76.0" class="m101g-sm">양(kg)</text>
+<path d="M593.0 160.0 L593.0 98.0 A62 62 0 0 1 629.4 210.2 Z" class="m101g-fbl"/>
+<text x="627.2" y="147.9" text-anchor="middle" class="m101g-smi">종이</text>
+<text x="627.2" y="163.9" text-anchor="middle" class="m101g-smi">40%</text>
+<path d="M593.0 160.0 L629.4 210.2 A62 62 0 0 1 534.0 179.2 Z" class="m101g-fam"/>
+<text x="581.9" y="193.2" text-anchor="middle" class="m101g-smi">플라스틱</text>
+<text x="581.9" y="209.2" text-anchor="middle" class="m101g-smi">30%</text>
+<path d="M593.0 160.0 L534.0 179.2 A62 62 0 0 1 556.6 109.8 Z" class="m101g-fgr"/>
+<text x="558.8" y="147.9" text-anchor="middle" class="m101g-smi">음식물</text>
+<text x="558.8" y="163.9" text-anchor="middle" class="m101g-smi">20%</text>
+<path d="M593.0 160.0 L556.6 109.8 A62 62 0 0 1 593.0 98.0 Z" class="m101g-fvi"/>
+<text x="568.3" y="82.9" text-anchor="middle" class="m101g-smi">기타</text>
+<text x="568.3" y="98.9" text-anchor="middle" class="m101g-smi">10%</text>
+</svg>

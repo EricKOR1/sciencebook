@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="t-m1-07-annual-motion d-m1-07-annual-motion">
+  <title id="t-m1-07-annual-motion">그림 중1-7-6 지구의 공전과 태양의 연주 운동</title>
+  <desc id="d-m1-07-annual-motion">북극 쪽에서 내려다본 모식도. 지구가 태양 주위를 시계 반대 방향(서 → 동)으로 공전하면, 지구에서 태양을 바라보는 방향이 달라져 태양이 배경 별자리 사이를 서에서 동으로 하루 약 1°씩, 한 달에 약 30°씩 옮겨 가는 것처럼 보인다. 12월 무렵 태양은 궁수자리 쪽, 한 달 뒤에는 염소자리 쪽에 보인다.</desc>
+  <style>
+    .m1-07-annual-motion-b{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .m1-07-annual-motion-t{font-size:14px;fill:var(--fig-ink)}
+    .m1-07-annual-motion-tb{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+    .m1-07-annual-motion-s{font-size:13px;fill:var(--fig-muted)}
+    .m1-07-annual-motion-ln{fill:none;stroke:var(--fig-ink);stroke-width:1.5}
+    .m1-07-annual-motion-lm{fill:none;stroke:var(--fig-muted);stroke-width:1.2}
+  </style>
+  <ellipse cx="360" cy="245" rx="290" ry="200" style="fill:none;stroke:var(--fig-soft-violet);stroke-width:30"/>
+  <text x="360.0" y="450.0" text-anchor="middle" class="m1-07-annual-motion-tb" style="fill:var(--fig-violet)">궁수자리</text>
+  <text x="505.0" y="423.2" text-anchor="middle" class="m1-07-annual-motion-tb" style="fill:var(--fig-violet)">염소자리</text>
+  <text x="611.1" y="350.0" text-anchor="middle" class="m1-07-annual-motion-tb" style="fill:var(--fig-violet)">물병자리</text>
+  <text x="650.0" y="250.0" text-anchor="middle" class="m1-07-annual-motion-tb" style="fill:var(--fig-violet)">물고기자리</text>
+  <text x="611.1" y="150.0" text-anchor="middle" class="m1-07-annual-motion-tb" style="fill:var(--fig-violet)">양자리</text>
+  <text x="505.0" y="76.8" text-anchor="middle" class="m1-07-annual-motion-tb" style="fill:var(--fig-violet)">황소자리</text>
+  <text x="360.0" y="50.0" text-anchor="middle" class="m1-07-annual-motion-tb" style="fill:var(--fig-violet)">쌍둥이자리</text>
+  <text x="215.0" y="76.8" text-anchor="middle" class="m1-07-annual-motion-tb" style="fill:var(--fig-violet)">게자리</text>
+  <text x="108.9" y="150.0" text-anchor="middle" class="m1-07-annual-motion-tb" style="fill:var(--fig-violet)">사자자리</text>
+  <text x="70.0" y="250.0" text-anchor="middle" class="m1-07-annual-motion-tb" style="fill:var(--fig-violet)">처녀자리</text>
+  <text x="108.9" y="350.0" text-anchor="middle" class="m1-07-annual-motion-tb" style="fill:var(--fig-violet)">천칭자리</text>
+  <text x="215.0" y="423.2" text-anchor="middle" class="m1-07-annual-motion-tb" style="fill:var(--fig-violet)">전갈자리</text>
+  <circle cx="360" cy="245" r="112" style="fill:none;stroke:var(--fig-line);stroke-width:1.5;stroke-dasharray:6 5"/>
+  <circle cx="360" cy="245" r="24" style="fill:var(--fig-amber)"/>
+  <text x="390.0" y="250.0" class="m1-07-annual-motion-tb">태양</text>
+  <line x1="360.0" y1="133.0" x2="360.0" y2="403.0" style="stroke:var(--fig-red);stroke-width:1.6;stroke-dasharray:6 4"/>
+  <circle cx="360.0" cy="403.0" r="9" style="fill:var(--fig-amber);stroke:var(--fig-red);stroke-width:2.5"/>
+  <circle cx="360.0" cy="133.0" r="12" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="378.0" y="127.0" class="m1-07-annual-motion-t" style="fill:var(--fig-red);font-weight:700">지구 12월 무렵</text>
+  <line x1="304.0" y1="148.0" x2="478.0" y2="381.8" style="stroke:var(--fig-blue);stroke-width:1.6;stroke-dasharray:6 4"/>
+  <circle cx="478.0" cy="381.8" r="9" style="fill:var(--fig-amber);stroke:var(--fig-blue);stroke-width:2.5"/>
+  <circle cx="304.0" cy="148.0" r="12" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="286.0" y="142.0" text-anchor="end" class="m1-07-annual-motion-t" style="fill:var(--fig-blue);font-weight:700">지구 1월 무렵</text>
+  <path d="M280.8 165.8 L276.8 170.1 L273.0 174.5 L269.4 179.2 L266.1 184.0 L263.0 189.0 L260.2 194.2 L257.7 199.4 L255.4 204.9 L253.5 210.4 L251.8 216.0 L250.4 221.7 L249.4 227.5 L248.6 233.3 L248.2 239.1 L248.0 245.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.2"/>
+  <line x1="248.2" y1="239.1" x2="248.2" y2="242.8" style="stroke:var(--fig-ink);stroke-width:2.2"/>
+  <path d="M248.3 252.8 L242.7 242.9 L253.7 242.8 Z" style="fill:var(--fig-ink)"/>
+  <text x="247.2" y="204.0" class="m1-07-annual-motion-s"></text>
+  <text x="275.1" y="225.2" class="m1-07-annual-motion-s">공전</text>
+  <path d="M374.8 384.7 L382.2 384.2 L389.5 383.6 L396.8 382.9 L404.1 381.9 L411.3 380.8 L418.4 379.6 L425.5 378.1 L432.5 376.6 L439.4 374.8 L446.2 372.9 L452.9 370.8" style="fill:none;stroke:var(--fig-amber);stroke-width:3"/>
+  <line x1="446.2" y1="372.9" x2="449.1" y2="372.0" style="stroke:var(--fig-amber);stroke-width:3"/>
+  <path d="M459.5 368.6 L450.9 377.7 L447.2 366.2 Z" style="fill:var(--fig-amber)"/>
+  <text x="486.0" y="296.0" class="m1-07-annual-motion-s" style="fill:var(--fig-amber);font-weight:700">태양이 보이는 위치가</text>
+  <text x="486.0" y="314.0" class="m1-07-annual-motion-s" style="fill:var(--fig-amber);font-weight:700">서 → 동으로 약 30° 이동</text>
+  <text x="24.0" y="470.0" class="m1-07-annual-motion-s">북극 쪽에서 내려다본 모식도: 자전과 공전은 모두 시계 반대 방향(서 → 동)이다. 별자리는 실제보다 훨씬 멀다.</text>
+</svg>

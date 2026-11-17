@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-labelledby="t-m1-05-friction-test d-m1-05-friction-test">
+  <title id="t-m1-05-friction-test">그림 중1-5-7 마찰력의 크기 비교 실험</title>
+  <desc id="d-m1-05-friction-test">나무 도막을 용수철저울로 수평으로 천천히 끌어 일정한 빠르기로 움직일 때, 끄는 힘과 마찰력이 평형을 이루므로 저울의 눈금이 마찰력의 크기이다. 접촉면이 거칠수록, 누르는 힘이 클수록(도막을 포갤수록) 마찰력이 크다. 화살표 길이는 모식적이다.</desc>
+  <style>
+    .ft-red{fill:none;stroke:var(--fig-red)} .ft-redh{fill:var(--fig-red)}
+    .ft-blue{fill:none;stroke:var(--fig-blue)} .ft-blueh{fill:var(--fig-blue)}
+    .ft-green{fill:none;stroke:var(--fig-green)} .ft-greenh{fill:var(--fig-green)}
+    .ft-amber{fill:none;stroke:var(--fig-amber)} .ft-amberh{fill:var(--fig-amber)}
+    .ft-violet{fill:none;stroke:var(--fig-violet)} .ft-violeth{fill:var(--fig-violet)}
+    .ft-teal{fill:none;stroke:var(--fig-teal)} .ft-tealh{fill:var(--fig-teal)}
+    .ft-ink{fill:none;stroke:var(--fig-ink)} .ft-inkh{fill:var(--fig-ink)}
+    .ft-muted{fill:none;stroke:var(--fig-muted)} .ft-mutedh{fill:var(--fig-muted)}
+    .ft-line{fill:none;stroke:var(--fig-line)} .ft-lineh{fill:var(--fig-line)}
+    .ft-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .ft-t{font-size:14px;fill:var(--fig-ink)}
+    .ft-sm{font-size:13px;fill:var(--fig-muted)}
+    .ft-redb{font-size:14px;font-weight:700;fill:var(--fig-red)}
+    .ft-sred{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6}
+    .ft-blueb{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+    .ft-sblue{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6}
+    .ft-greenb{font-size:14px;font-weight:700;fill:var(--fig-green)}
+    .ft-sgreen{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6}
+    .ft-amberb{font-size:14px;font-weight:700;fill:var(--fig-amber)}
+    .ft-samber{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6}
+    .ft-violetb{font-size:14px;font-weight:700;fill:var(--fig-violet)}
+    .ft-sviolet{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6}
+    .ft-tealb{font-size:14px;font-weight:700;fill:var(--fig-teal)}
+    .ft-steal{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.6}
+    .ft-panel{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.4}
+    .ft-paper{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.4}
+    .ft-axis{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
+    .ft-grid{fill:none;stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4}
+    .ft-dash{fill:none;stroke:var(--fig-muted);stroke-width:1.4;stroke-dasharray:5 4}
+    .ft-block{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8} .ft-glass{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.4} .ft-sand{fill:var(--fig-soft-amber);stroke:var(--fig-muted);stroke-width:1.4} .ft-grain{fill:var(--fig-muted)} .ft-scale{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.6}
+  </style>
+  <text x="20.0" y="33.0" class="ft-h">(가) 유리판 · 도막 1개</text>
+  <rect x="20.0" y="105.0" width="520.0" height="12.0" rx="0" class="ft-glass"/>
+  <rect x="120.0" y="75.0" width="90.0" height="30.0" rx="2" class="ft-block"/>
+  <line x1="210.0" y1="90.0" x2="300.0" y2="90.0" class="ft-ink" style="stroke-width:1.6;stroke-linecap:round"/>
+  <rect x="300.0" y="78.0" width="110.0" height="24.0" rx="4" class="ft-scale"/>
+  <path d="M306 90 L310 85 L316 95 L322 85 L328 95 L334 85 L340 95 L346 85 L352 95 L358 85 L364 95 L370 85 L376 95" class="ft-ink" style="stroke-width:1.4"/>
+  <line x1="410.0" y1="90.0" x2="440.0" y2="90.0" class="ft-ink" style="stroke-width:1.6;stroke-linecap:round"/>
+  <text x="355.0" y="72.0" text-anchor="middle" class="ft-sm">용수철저울</text>
+  <line x1="210.0" y1="90.0" x2="218.8" y2="90.0" class="ft-red" style="stroke-width:3.5;stroke-linecap:round"/>
+  <path d="M232.0 90.0 L218.8 96.3 L218.8 83.7 Z" class="ft-redh"/>
+  <line x1="165.0" y1="105.0" x2="156.2" y2="105.0" class="ft-violet" style="stroke-width:3.5;stroke-linecap:round"/>
+  <path d="M143.0 105.0 L156.2 98.7 L156.2 111.3 Z" class="ft-violeth"/>
+  <text x="139.0" y="133.0" class="ft-violetb">마찰력</text>
+  <text x="560.0" y="95.0" class="ft-t">눈금: 작다</text>
+  <line x1="440.0" y1="90.0" x2="461.0" y2="90.0" class="ft-ink" style="stroke-width:2;stroke-linecap:round"/>
+  <path d="M470.0 90.0 L461.0 94.3 L461.0 85.7 Z" class="ft-inkh"/>
+  <text x="20.0" y="148.0" class="ft-h">(나) 사포 · 도막 1개</text>
+  <rect x="20.0" y="220.0" width="520.0" height="12.0" rx="0" class="ft-sand"/>
+  <circle cx="24.0" cy="224.0" r="1.2" class="ft-grain"/>
+  <circle cx="32.6" cy="226.5" r="1.2" class="ft-grain"/>
+  <circle cx="41.2" cy="229.0" r="1.2" class="ft-grain"/>
+  <circle cx="49.8" cy="224.0" r="1.2" class="ft-grain"/>
+  <circle cx="58.4" cy="226.5" r="1.2" class="ft-grain"/>
+  <circle cx="67.0" cy="229.0" r="1.2" class="ft-grain"/>
+  <circle cx="75.6" cy="224.0" r="1.2" class="ft-grain"/>
+  <circle cx="84.2" cy="226.5" r="1.2" class="ft-grain"/>
+  <circle cx="92.8" cy="229.0" r="1.2" class="ft-grain"/>
+  <circle cx="101.4" cy="224.0" r="1.2" class="ft-grain"/>
+  <circle cx="110.0" cy="226.5" r="1.2" class="ft-grain"/>
+  <circle cx="118.6" cy="229.0" r="1.2" class="ft-grain"/>
+  <circle cx="127.2" cy="224.0" r="1.2" class="ft-grain"/>
+  <circle cx="135.8" cy="226.5" r="1.2" class="ft-grain"/>
+  <circle cx="144.4" cy="229.0" r="1.2" class="ft-grain"/>
+  <circle cx="153.0" cy="224.0" r="1.2" class="ft-grain"/>
+  <circle cx="161.6" cy="226.5" r="1.2" class="ft-grain"/>
+  <circle cx="170.2" cy="229.0" r="1.2" class="ft-grain"/>
+  <circle cx="178.8" cy="224.0" r="1.2" class="ft-grain"/>
+  <circle cx="187.4" cy="226.5" r="1.2" class="ft-grain"/>
+  <circle cx="196.0" cy="229.0" r="1.2" class="ft-grain"/>
+  <circle cx="204.6" cy="224.0" r="1.2" class="ft-grain"/>
+  <circle cx="213.2" cy="226.5" r="1.2" class="ft-grain"/>
+  <circle cx="221.8" cy="229.0" r="1.2" class="ft-grain"/>
+  <circle cx="230.4" cy="224.0" r="1.2" class="ft-grain"/>
+  <circle cx="239.0" cy="226.5" r="1.2" class="ft-grain"/>
+  <circle cx="247.6" cy="229.0" r="1.2" class="ft-grain"/>
+  <circle cx="256.2" cy="224.0" r="1.2" class="ft-grain"/>
+  <circle cx="264.8" cy="226.5" r="1.2" class="ft-grain"/>
+  <circle cx="273.4" cy="229.0" r="1.2" class="ft-grain"/>
+  <circle cx="282.0" cy="224.0" r="1.2" class="ft-grain"/>
+  <circle cx="290.6" cy="226.5" r="1.2" class="ft-grain"/>
+  <circle cx="299.2" cy="229.0" r="1.2" class="ft-grain"/>
+  <circle cx="307.8" cy="224.0" r="1.2" class="ft-grain"/>
+  <circle cx="316.4" cy="226.5" r="1.2" class="ft-grain"/>
+  <circle cx="325.0" cy="229.0" r="1.2" class="ft-grain"/>
+  <circle cx="333.6" cy="224.0" r="1.2" class="ft-grain"/>
+  <circle cx="342.2" cy="226.5" r="1.2" class="ft-grain"/>
+  <circle cx="350.8" cy="229.0" r="1.2" class="ft-grain"/>
+  <circle cx="359.4" cy="224.0" r="1.2" class="ft-grain"/>
+  <circle cx="368.0" cy="226.5" r="1.2" class="ft-grain"/>
+  <circle cx="376.6" cy="229.0" r="1.2" class="ft-grain"/>
+  <circle cx="385.2" cy="224.0" r="1.2" class="ft-grain"/>
+  <circle cx="393.8" cy="226.5" r="1.2" class="ft-grain"/>
+  <circle cx="402.4" cy="229.0" r="1.2" class="ft-grain"/>
+  <circle cx="411.0" cy="224.0" r="1.2" class="ft-grain"/>
+  <circle cx="419.6" cy="226.5" r="1.2" class="ft-grain"/>
+  <circle cx="428.2" cy="229.0" r="1.2" class="ft-grain"/>
+  <circle cx="436.8" cy="224.0" r="1.2" class="ft-grain"/>
+  <circle cx="445.4" cy="226.5" r="1.2" class="ft-grain"/>
+  <circle cx="454.0" cy="229.0" r="1.2" class="ft-grain"/>
+  <circle cx="462.6" cy="224.0" r="1.2" class="ft-grain"/>
+  <circle cx="471.2" cy="226.5" r="1.2" class="ft-grain"/>
+  <circle cx="479.8" cy="229.0" r="1.2" class="ft-grain"/>
+  <circle cx="488.4" cy="224.0" r="1.2" class="ft-grain"/>
+  <circle cx="497.0" cy="226.5" r="1.2" class="ft-grain"/>
+  <circle cx="505.6" cy="229.0" r="1.2" class="ft-grain"/>
+  <circle cx="514.2" cy="224.0" r="1.2" class="ft-grain"/>
+  <circle cx="522.8" cy="226.5" r="1.2" class="ft-grain"/>
+  <circle cx="531.4" cy="229.0" r="1.2" class="ft-grain"/>
+  <rect x="120.0" y="190.0" width="90.0" height="30.0" rx="2" class="ft-block"/>
+  <line x1="210.0" y1="205.0" x2="300.0" y2="205.0" class="ft-ink" style="stroke-width:1.6;stroke-linecap:round"/>
+  <rect x="300.0" y="193.0" width="110.0" height="24.0" rx="4" class="ft-scale"/>
+  <path d="M306 205 L310 200 L316 210 L322 200 L328 210 L334 200 L340 210 L346 200 L352 210 L358 200 L364 210 L370 200 L376 210" class="ft-ink" style="stroke-width:1.4"/>
+  <line x1="410.0" y1="205.0" x2="440.0" y2="205.0" class="ft-ink" style="stroke-width:1.6;stroke-linecap:round"/>
+  <text x="355.0" y="187.0" text-anchor="middle" class="ft-sm">용수철저울</text>
+  <line x1="210.0" y1="205.0" x2="256.0" y2="205.0" class="ft-red" style="stroke-width:3.5;stroke-linecap:round"/>
+  <path d="M270.0 205.0 L256.0 211.7 L256.0 198.3 Z" class="ft-redh"/>
+  <line x1="165.0" y1="220.0" x2="119.0" y2="220.0" class="ft-violet" style="stroke-width:3.5;stroke-linecap:round"/>
+  <path d="M105.0 220.0 L119.0 213.3 L119.0 226.7 Z" class="ft-violeth"/>
+  <text x="101.0" y="248.0" class="ft-violetb">마찰력</text>
+  <text x="560.0" y="210.0" class="ft-t">눈금: 크다</text>
+  <line x1="440.0" y1="205.0" x2="461.0" y2="205.0" class="ft-ink" style="stroke-width:2;stroke-linecap:round"/>
+  <path d="M470.0 205.0 L461.0 209.3 L461.0 200.7 Z" class="ft-inkh"/>
+  <text x="20.0" y="263.0" class="ft-h">(다) 사포 · 도막 2개</text>
+  <rect x="20.0" y="335.0" width="520.0" height="12.0" rx="0" class="ft-sand"/>
+  <circle cx="24.0" cy="339.0" r="1.2" class="ft-grain"/>
+  <circle cx="32.6" cy="341.5" r="1.2" class="ft-grain"/>
+  <circle cx="41.2" cy="344.0" r="1.2" class="ft-grain"/>
+  <circle cx="49.8" cy="339.0" r="1.2" class="ft-grain"/>
+  <circle cx="58.4" cy="341.5" r="1.2" class="ft-grain"/>
+  <circle cx="67.0" cy="344.0" r="1.2" class="ft-grain"/>
+  <circle cx="75.6" cy="339.0" r="1.2" class="ft-grain"/>
+  <circle cx="84.2" cy="341.5" r="1.2" class="ft-grain"/>
+  <circle cx="92.8" cy="344.0" r="1.2" class="ft-grain"/>
+  <circle cx="101.4" cy="339.0" r="1.2" class="ft-grain"/>
+  <circle cx="110.0" cy="341.5" r="1.2" class="ft-grain"/>
+  <circle cx="118.6" cy="344.0" r="1.2" class="ft-grain"/>
+  <circle cx="127.2" cy="339.0" r="1.2" class="ft-grain"/>
+  <circle cx="135.8" cy="341.5" r="1.2" class="ft-grain"/>
+  <circle cx="144.4" cy="344.0" r="1.2" class="ft-grain"/>
+  <circle cx="153.0" cy="339.0" r="1.2" class="ft-grain"/>
+  <circle cx="161.6" cy="341.5" r="1.2" class="ft-grain"/>
+  <circle cx="170.2" cy="344.0" r="1.2" class="ft-grain"/>
+  <circle cx="178.8" cy="339.0" r="1.2" class="ft-grain"/>
+  <circle cx="187.4" cy="341.5" r="1.2" class="ft-grain"/>
+  <circle cx="196.0" cy="344.0" r="1.2" class="ft-grain"/>
+  <circle cx="204.6" cy="339.0" r="1.2" class="ft-grain"/>
+  <circle cx="213.2" cy="341.5" r="1.2" class="ft-grain"/>
+  <circle cx="221.8" cy="344.0" r="1.2" class="ft-grain"/>
+  <circle cx="230.4" cy="339.0" r="1.2" class="ft-grain"/>
+  <circle cx="239.0" cy="341.5" r="1.2" class="ft-grain"/>
+  <circle cx="247.6" cy="344.0" r="1.2" class="ft-grain"/>
+  <circle cx="256.2" cy="339.0" r="1.2" class="ft-grain"/>
+  <circle cx="264.8" cy="341.5" r="1.2" class="ft-grain"/>
+  <circle cx="273.4" cy="344.0" r="1.2" class="ft-grain"/>
+  <circle cx="282.0" cy="339.0" r="1.2" class="ft-grain"/>
+  <circle cx="290.6" cy="341.5" r="1.2" class="ft-grain"/>
+  <circle cx="299.2" cy="344.0" r="1.2" class="ft-grain"/>
+  <circle cx="307.8" cy="339.0" r="1.2" class="ft-grain"/>
+  <circle cx="316.4" cy="341.5" r="1.2" class="ft-grain"/>
+  <circle cx="325.0" cy="344.0" r="1.2" class="ft-grain"/>
+  <circle cx="333.6" cy="339.0" r="1.2" class="ft-grain"/>
+  <circle cx="342.2" cy="341.5" r="1.2" class="ft-grain"/>
+  <circle cx="350.8" cy="344.0" r="1.2" class="ft-grain"/>
+  <circle cx="359.4" cy="339.0" r="1.2" class="ft-grain"/>
+  <circle cx="368.0" cy="341.5" r="1.2" class="ft-grain"/>
+  <circle cx="376.6" cy="344.0" r="1.2" class="ft-grain"/>
+  <circle cx="385.2" cy="339.0" r="1.2" class="ft-grain"/>
+  <circle cx="393.8" cy="341.5" r="1.2" class="ft-grain"/>
+  <circle cx="402.4" cy="344.0" r="1.2" class="ft-grain"/>
+  <circle cx="411.0" cy="339.0" r="1.2" class="ft-grain"/>
+  <circle cx="419.6" cy="341.5" r="1.2" class="ft-grain"/>
+  <circle cx="428.2" cy="344.0" r="1.2" class="ft-grain"/>
+  <circle cx="436.8" cy="339.0" r="1.2" class="ft-grain"/>
+  <circle cx="445.4" cy="341.5" r="1.2" class="ft-grain"/>
+  <circle cx="454.0" cy="344.0" r="1.2" class="ft-grain"/>
+  <circle cx="462.6" cy="339.0" r="1.2" class="ft-grain"/>
+  <circle cx="471.2" cy="341.5" r="1.2" class="ft-grain"/>
+  <circle cx="479.8" cy="344.0" r="1.2" class="ft-grain"/>
+  <circle cx="488.4" cy="339.0" r="1.2" class="ft-grain"/>
+  <circle cx="497.0" cy="341.5" r="1.2" class="ft-grain"/>
+  <circle cx="505.6" cy="344.0" r="1.2" class="ft-grain"/>
+  <circle cx="514.2" cy="339.0" r="1.2" class="ft-grain"/>
+  <circle cx="522.8" cy="341.5" r="1.2" class="ft-grain"/>
+  <circle cx="531.4" cy="344.0" r="1.2" class="ft-grain"/>
+  <rect x="120.0" y="305.0" width="90.0" height="30.0" rx="2" class="ft-block"/>
+  <rect x="120.0" y="275.0" width="90.0" height="30.0" rx="2" class="ft-block"/>
+  <line x1="210.0" y1="320.0" x2="300.0" y2="320.0" class="ft-ink" style="stroke-width:1.6;stroke-linecap:round"/>
+  <rect x="300.0" y="308.0" width="110.0" height="24.0" rx="4" class="ft-scale"/>
+  <path d="M306 320 L310 315 L316 325 L322 315 L328 325 L334 315 L340 325 L346 315 L352 325 L358 315 L364 325 L370 315 L376 325" class="ft-ink" style="stroke-width:1.4"/>
+  <line x1="410.0" y1="320.0" x2="440.0" y2="320.0" class="ft-ink" style="stroke-width:1.6;stroke-linecap:round"/>
+  <text x="355.0" y="302.0" text-anchor="middle" class="ft-sm">용수철저울</text>
+  <line x1="210.0" y1="320.0" x2="306.0" y2="320.0" class="ft-red" style="stroke-width:3.5;stroke-linecap:round"/>
+  <path d="M320.0 320.0 L306.0 326.7 L306.0 313.3 Z" class="ft-redh"/>
+  <line x1="165.0" y1="335.0" x2="69.0" y2="335.0" class="ft-violet" style="stroke-width:3.5;stroke-linecap:round"/>
+  <path d="M55.0 335.0 L69.0 328.3 L69.0 341.7 Z" class="ft-violeth"/>
+  <text x="51.0" y="363.0" class="ft-violetb">마찰력</text>
+  <text x="560.0" y="325.0" class="ft-t">눈금: 더 크다</text>
+  <line x1="440.0" y1="320.0" x2="461.0" y2="320.0" class="ft-ink" style="stroke-width:2;stroke-linecap:round"/>
+  <path d="M470.0 320.0 L461.0 324.3 L461.0 315.7 Z" class="ft-inkh"/>
+  <text x="560.0" y="40.0" class="ft-sm">천천히 일정한 빠르기로</text>
+  <text x="560.0" y="58.0" class="ft-sm">끌 때 눈금 = 마찰력</text>
+</svg>

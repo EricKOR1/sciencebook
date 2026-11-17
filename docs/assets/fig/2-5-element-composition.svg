@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-2-5-element-composition d-2-5-element-composition">
+  <title id="t-2-5-element-composition">그림 2-5-5 지각과 사람 몸을 이루는 원소(질량 비율)</title>
+  <desc id="d-2-5-element-composition">막대 전체를 100 %로 하여 원소별 질량 비율을 나타냈다. 지각과 사람 몸 모두 산소가 가장 많고, 지각에서는 규소가, 사람 몸에서는 탄소·수소가 그다음으로 많다. 값은 자료에 따라 조금씩 다른 대략적인 값이다.</desc>
+  <style>
+    .ec-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)} .ec-t{font-size:14px;fill:var(--fig-ink)}
+    .ec-sm{font-size:13px;fill:var(--fig-muted)} .ec-in{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .ec-O{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.4}
+    .ec-Si{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.4}
+    .ec-Al{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.4}
+    .ec-Fe{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.4}
+    .ec-C{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.4}
+    .ec-H{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.4}
+    .ec-N{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.4}
+    .ec-etc{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.4}
+    .ec-ld{stroke:var(--fig-muted);stroke-width:1.1;fill:none} .ec-ax{stroke:var(--fig-line);stroke-width:1}
+    .ec-acc{font-size:13px;font-weight:600;fill:var(--fig-accent)}
+  </style>
+  <text x="14" y="60" class="ec-lbl">지각</text>
+  <rect x="110.0" y="40" width="271.4" height="34" class="ec-O"/>
+  <text x="245.7" y="62" text-anchor="middle" class="ec-in">O 46 %</text>
+  <rect x="381.4" y="40" width="165.2" height="34" class="ec-Si"/>
+  <text x="464.0" y="62" text-anchor="middle" class="ec-in">Si 28 %</text>
+  <rect x="546.6" y="40" width="47.2" height="34" class="ec-Al"/>
+  <rect x="593.8" y="40" width="29.5" height="34" class="ec-Fe"/>
+  <rect x="623.3" y="40" width="76.7" height="34" class="ec-etc"/>
+  <text x="661.6" y="62" text-anchor="middle" class="ec-in">기타 13 %</text>
+  <path d="M570.2 74 V84" class="ec-ld"/>
+  <text x="570.2" y="96" text-anchor="end" class="ec-t">Al 8 %</text>
+  <path d="M608.5 74 V102" class="ec-ld"/>
+  <text x="608.5" y="114" text-anchor="end" class="ec-t">Fe 5 %</text>
+  <text x="110" y="104" class="ec-sm">기타: 칼슘, 나트륨, 칼륨, 마그네슘 등</text>
+  <text x="14" y="180" class="ec-lbl">사람 몸</text>
+  <rect x="110.0" y="160" width="383.5" height="34" class="ec-O"/>
+  <text x="301.8" y="182" text-anchor="middle" class="ec-in">O 65 %</text>
+  <rect x="493.5" y="160" width="106.2" height="34" class="ec-C"/>
+  <text x="546.6" y="182" text-anchor="middle" class="ec-in">C 18 %</text>
+  <rect x="599.7" y="160" width="59.0" height="34" class="ec-H"/>
+  <rect x="658.7" y="160" width="17.7" height="34" class="ec-N"/>
+  <rect x="676.4" y="160" width="23.6" height="34" class="ec-etc"/>
+  <path d="M629.2 194 V204" class="ec-ld"/>
+  <text x="629.2" y="216" text-anchor="end" class="ec-t">H 10 %</text>
+  <path d="M667.6 194 V222" class="ec-ld"/>
+  <text x="667.6" y="234" text-anchor="end" class="ec-t">N 3 %</text>
+  <path d="M688.2 194 V240" class="ec-ld"/>
+  <text x="688.2" y="252" text-anchor="end" class="ec-t">기타 4 %</text>
+  <text x="110" y="224" class="ec-sm">기타: 칼슘, 인 등</text>
+  <line x1="110" y1="278" x2="700" y2="278" class="ec-ax"/>
+  <line x1="110.0" y1="278" x2="110.0" y2="283" class="ec-ax"/><text x="110.0" y="298" text-anchor="middle" class="ec-sm">0 %</text>
+  <line x1="228.0" y1="278" x2="228.0" y2="283" class="ec-ax"/><text x="228.0" y="298" text-anchor="middle" class="ec-sm">20 %</text>
+  <line x1="346.0" y1="278" x2="346.0" y2="283" class="ec-ax"/><text x="346.0" y="298" text-anchor="middle" class="ec-sm">40 %</text>
+  <line x1="464.0" y1="278" x2="464.0" y2="283" class="ec-ax"/><text x="464.0" y="298" text-anchor="middle" class="ec-sm">60 %</text>
+  <line x1="582.0" y1="278" x2="582.0" y2="283" class="ec-ax"/><text x="582.0" y="298" text-anchor="middle" class="ec-sm">80 %</text>
+  <line x1="700.0" y1="278" x2="700.0" y2="283" class="ec-ax"/><text x="700.0" y="298" text-anchor="middle" class="ec-sm">100 %</text>
+  <text x="360" y="322" text-anchor="middle" class="ec-acc">두 곳 모두 산소가 가장 많다 · 지각의 뼈대는 규소, 생명체의 뼈대는 탄소</text>
+</svg>

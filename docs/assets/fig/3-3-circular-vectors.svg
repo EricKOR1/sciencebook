@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t-3-3-circular-vectors d-3-3-circular-vectors">
+<title id="t-3-3-circular-vectors">그림 3-3-4 지구 주위를 도는 위성의 속도와 중력(가속도) 방향</title>
+<desc id="d-3-3-circular-vectors">원 궤도를 도는 위성의 속도는 매 순간 원의 접선 방향이고 크기는 같다. 중력과 가속도는 언제나 지구 중심을 향한다. 중력이 사라지면 위성은 그 순간의 접선 방향으로 곧게 나아간다. 지구와 궤도의 크기 비율은 실제와 다른 모식도이다.</desc>
+<style>.cv-txt{font-size:13px;fill:var(--fig-ink)}.cv-b{font-size:14px;font-weight:700;fill:var(--fig-ink)}.cv-sm{font-size:12px;fill:var(--fig-muted)}.cv-orb{fill:none;stroke:var(--fig-line);stroke-width:1.5;stroke-dasharray:5 4}.cv-v{fill:none;stroke:var(--fig-blue);stroke-width:3}.cv-vh{fill:var(--fig-blue)}.cv-g{fill:none;stroke:var(--fig-red);stroke-width:3}.cv-gh{fill:var(--fig-red)}.cv-tan{fill:none;stroke:var(--fig-violet);stroke-width:2;stroke-dasharray:7 5}.cv-sat{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2}</style>
+<circle cx="230" cy="210" r="62" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+<text x="230" y="236" text-anchor="middle" class="cv-b">지구</text>
+<text x="230" y="198" text-anchor="middle" class="cv-sm">중심</text>
+<circle cx="230" cy="210" r="3" style="fill:var(--fig-ink)"/>
+<circle cx="230" cy="210" r="150" class="cv-orb"/>
+<path d="M75.9 153.9A164 164 0 0 0 71.6 252.4" style="fill:none;stroke:var(--fig-muted);stroke-width:1.5"/>
+<path d="M71.6 252.4l-2 -11l9 7Z" style="fill:var(--fig-muted)"/>
+<text x="51.9" y="135.9" text-anchor="middle" class="cv-sm">공전 방향</text>
+<path d="M230.0 60.0L168.8 60.0" class="cv-v"/><path d="M160.0 60.0L168.8 54.5L168.8 65.5Z" class="cv-vh"/>
+<path d="M230.0 60.0L230.0 101.2" class="cv-g"/><path d="M230.0 110.0L224.5 101.2L235.5 101.2Z" class="cv-gh"/>
+<circle cx="230.0" cy="60.0" r="7" class="cv-sat"/>
+<path d="M380.0 210.0L380.0 20.0" class="cv-tan"/>
+<text x="390.0" y="60.0" class="cv-txt" style="fill:var(--fig-violet)">중력이 사라지면</text>
+<text x="390.0" y="78.0" class="cv-txt" style="fill:var(--fig-violet)">접선 방향으로 곧게</text>
+<path d="M380.0 210.0L380.0 148.8" class="cv-v"/><path d="M380.0 140.0L385.5 148.8L374.5 148.8Z" class="cv-vh"/>
+<path d="M380.0 210.0L338.8 210.0" class="cv-g"/><path d="M330.0 210.0L338.8 204.5L338.8 215.5Z" class="cv-gh"/>
+<circle cx="380.0" cy="210.0" r="7" class="cv-sat"/>
+<path d="M100.1 285.0L130.7 338.0" class="cv-v"/><path d="M135.1 345.6L125.9 340.8L135.5 335.3Z" class="cv-vh"/>
+<path d="M100.1 285.0L135.8 264.4" class="cv-g"/><path d="M143.4 260.0L138.5 269.2L133.0 259.6Z" class="cv-gh"/>
+<circle cx="100.1" cy="285.0" r="7" class="cv-sat"/>
+<path d="M305.0 339.9L358.0 309.3" class="cv-v"/><path d="M365.6 304.9L360.8 314.1L355.3 304.5Z" class="cv-vh"/>
+<path d="M305.0 339.9L284.4 304.2" class="cv-g"/><path d="M280.0 296.6L289.2 301.5L279.6 307.0Z" class="cv-gh"/>
+<circle cx="305.0" cy="339.9" r="7" class="cv-sat"/>
+<path d="M470 112H504" class="cv-v"/><path d="M512 112l-9 -5v10Z" class="cv-vh"/>
+<text x="522" y="108" class="cv-b" style="fill:var(--fig-blue)">속도</text>
+<text x="522" y="126" class="cv-sm">원의 접선 방향, 크기는 일정</text>
+<path d="M470 172H504" class="cv-g"/><path d="M512 172l-9 -5v10Z" class="cv-gh"/>
+<text x="522" y="168" class="cv-b" style="fill:var(--fig-red)">중력 = 가속도 방향</text>
+<text x="522" y="186" class="cv-sm">언제나 지구 중심 쪽</text>
+<text x="470" y="236" class="cv-txt">중력이 운동 방향과 수직</text>
+<text x="470" y="256" class="cv-txt">→ 속력은 그대로, 방향만 바뀐다</text>
+<text x="470" y="276" class="cv-txt">→ 계속 지구 쪽으로 ‘떨어지며’ 돈다</text>
+<text x="470" y="400" class="cv-sm">모식도 · 위성의 크기와 화살표 길이는 임의</text>
+</svg>

@@ -1,0 +1,436 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-2-6-graphene d-2-6-graphene">
+  <title id="t-2-6-graphene">그림 2-6-6 그래핀과 흑연의 구조</title>
+  <desc id="d-2-6-graphene">그래핀은 탄소 원자가 육각형(벌집) 모양으로 연결된 원자 한 층 두께의 막이다(왼쪽, 위에서 본 모습). 연필심의 흑연은 이런 그래핀 층이 수없이 겹쳐 쌓인 것이다(오른쪽, 비스듬히 본 모습). 모식도.</desc>
+  <style>
+    .gr-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)} .gr-t{font-size:14px;fill:var(--fig-ink)}
+    .gr-sm{font-size:13px;fill:var(--fig-muted)}
+    .gr-bd{stroke:var(--fig-ink);stroke-width:1.6;fill:none} .gr-c{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.4}
+    .gr-hex{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2.2}
+    .gr-L{stroke:var(--fig-teal);stroke-width:1.3;fill:none} .gr-sheet{fill:var(--fig-soft-teal);opacity:0.55}
+    .gr-ld{stroke:var(--fig-muted);stroke-width:1.1;fill:none} .gr-sep{stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4}
+  </style>
+  <line x1="360" y1="16" x2="360" y2="300" class="gr-sep"/>
+  <line x1="64.6" y1="60.0" x2="64.6" y2="80.0" class="gr-bd"/>
+  <line x1="64.6" y1="80.0" x2="47.3" y2="90.0" class="gr-bd"/>
+  <line x1="64.6" y1="80.0" x2="82.0" y2="90.0" class="gr-bd"/>
+  <line x1="99.3" y1="60.0" x2="99.3" y2="80.0" class="gr-bd"/>
+  <line x1="99.3" y1="80.0" x2="82.0" y2="90.0" class="gr-bd"/>
+  <line x1="99.3" y1="80.0" x2="116.6" y2="90.0" class="gr-bd"/>
+  <line x1="133.9" y1="60.0" x2="133.9" y2="80.0" class="gr-bd"/>
+  <line x1="133.9" y1="80.0" x2="116.6" y2="90.0" class="gr-bd"/>
+  <line x1="133.9" y1="80.0" x2="151.2" y2="90.0" class="gr-bd"/>
+  <line x1="168.6" y1="60.0" x2="168.6" y2="80.0" class="gr-bd"/>
+  <line x1="168.6" y1="80.0" x2="151.2" y2="90.0" class="gr-bd"/>
+  <line x1="168.6" y1="80.0" x2="185.9" y2="90.0" class="gr-bd"/>
+  <line x1="203.2" y1="60.0" x2="203.2" y2="80.0" class="gr-bd"/>
+  <line x1="203.2" y1="80.0" x2="185.9" y2="90.0" class="gr-bd"/>
+  <line x1="203.2" y1="80.0" x2="220.5" y2="90.0" class="gr-bd"/>
+  <line x1="237.8" y1="60.0" x2="237.8" y2="80.0" class="gr-bd"/>
+  <line x1="237.8" y1="80.0" x2="220.5" y2="90.0" class="gr-bd"/>
+  <line x1="237.8" y1="80.0" x2="255.2" y2="90.0" class="gr-bd"/>
+  <line x1="272.5" y1="60.0" x2="272.5" y2="80.0" class="gr-bd"/>
+  <line x1="272.5" y1="80.0" x2="255.2" y2="90.0" class="gr-bd"/>
+  <line x1="272.5" y1="80.0" x2="289.8" y2="90.0" class="gr-bd"/>
+  <line x1="307.1" y1="60.0" x2="307.1" y2="80.0" class="gr-bd"/>
+  <line x1="307.1" y1="80.0" x2="289.8" y2="90.0" class="gr-bd"/>
+  <line x1="47.3" y1="90.0" x2="47.3" y2="110.0" class="gr-bd"/>
+  <line x1="47.3" y1="110.0" x2="64.6" y2="120.0" class="gr-bd"/>
+  <line x1="82.0" y1="90.0" x2="82.0" y2="110.0" class="gr-bd"/>
+  <line x1="82.0" y1="110.0" x2="64.6" y2="120.0" class="gr-bd"/>
+  <line x1="82.0" y1="110.0" x2="99.3" y2="120.0" class="gr-bd"/>
+  <line x1="116.6" y1="90.0" x2="116.6" y2="110.0" class="gr-bd"/>
+  <line x1="116.6" y1="110.0" x2="99.3" y2="120.0" class="gr-bd"/>
+  <line x1="116.6" y1="110.0" x2="133.9" y2="120.0" class="gr-bd"/>
+  <line x1="151.2" y1="90.0" x2="151.2" y2="110.0" class="gr-bd"/>
+  <line x1="151.2" y1="110.0" x2="133.9" y2="120.0" class="gr-bd"/>
+  <line x1="151.2" y1="110.0" x2="168.6" y2="120.0" class="gr-bd"/>
+  <line x1="185.9" y1="90.0" x2="185.9" y2="110.0" class="gr-bd"/>
+  <line x1="185.9" y1="110.0" x2="168.6" y2="120.0" class="gr-bd"/>
+  <line x1="185.9" y1="110.0" x2="203.2" y2="120.0" class="gr-bd"/>
+  <line x1="220.5" y1="90.0" x2="220.5" y2="110.0" class="gr-bd"/>
+  <line x1="220.5" y1="110.0" x2="203.2" y2="120.0" class="gr-bd"/>
+  <line x1="220.5" y1="110.0" x2="237.8" y2="120.0" class="gr-bd"/>
+  <line x1="255.2" y1="90.0" x2="255.2" y2="110.0" class="gr-bd"/>
+  <line x1="255.2" y1="110.0" x2="237.8" y2="120.0" class="gr-bd"/>
+  <line x1="255.2" y1="110.0" x2="272.5" y2="120.0" class="gr-bd"/>
+  <line x1="289.8" y1="90.0" x2="289.8" y2="110.0" class="gr-bd"/>
+  <line x1="289.8" y1="110.0" x2="272.5" y2="120.0" class="gr-bd"/>
+  <line x1="289.8" y1="110.0" x2="307.1" y2="120.0" class="gr-bd"/>
+  <line x1="64.6" y1="120.0" x2="64.6" y2="140.0" class="gr-bd"/>
+  <line x1="64.6" y1="140.0" x2="47.3" y2="150.0" class="gr-bd"/>
+  <line x1="64.6" y1="140.0" x2="82.0" y2="150.0" class="gr-bd"/>
+  <line x1="99.3" y1="120.0" x2="99.3" y2="140.0" class="gr-bd"/>
+  <line x1="99.3" y1="140.0" x2="82.0" y2="150.0" class="gr-bd"/>
+  <line x1="99.3" y1="140.0" x2="116.6" y2="150.0" class="gr-bd"/>
+  <line x1="133.9" y1="120.0" x2="133.9" y2="140.0" class="gr-bd"/>
+  <line x1="133.9" y1="140.0" x2="116.6" y2="150.0" class="gr-bd"/>
+  <line x1="133.9" y1="140.0" x2="151.2" y2="150.0" class="gr-bd"/>
+  <line x1="168.6" y1="120.0" x2="168.6" y2="140.0" class="gr-bd"/>
+  <line x1="168.6" y1="140.0" x2="151.2" y2="150.0" class="gr-bd"/>
+  <line x1="168.6" y1="140.0" x2="185.9" y2="150.0" class="gr-bd"/>
+  <line x1="203.2" y1="120.0" x2="203.2" y2="140.0" class="gr-bd"/>
+  <line x1="203.2" y1="140.0" x2="185.9" y2="150.0" class="gr-bd"/>
+  <line x1="203.2" y1="140.0" x2="220.5" y2="150.0" class="gr-bd"/>
+  <line x1="237.8" y1="120.0" x2="237.8" y2="140.0" class="gr-bd"/>
+  <line x1="237.8" y1="140.0" x2="220.5" y2="150.0" class="gr-bd"/>
+  <line x1="237.8" y1="140.0" x2="255.2" y2="150.0" class="gr-bd"/>
+  <line x1="272.5" y1="120.0" x2="272.5" y2="140.0" class="gr-bd"/>
+  <line x1="272.5" y1="140.0" x2="255.2" y2="150.0" class="gr-bd"/>
+  <line x1="272.5" y1="140.0" x2="289.8" y2="150.0" class="gr-bd"/>
+  <line x1="307.1" y1="120.0" x2="307.1" y2="140.0" class="gr-bd"/>
+  <line x1="307.1" y1="140.0" x2="289.8" y2="150.0" class="gr-bd"/>
+  <line x1="47.3" y1="150.0" x2="47.3" y2="170.0" class="gr-bd"/>
+  <line x1="47.3" y1="170.0" x2="64.6" y2="180.0" class="gr-bd"/>
+  <line x1="82.0" y1="150.0" x2="82.0" y2="170.0" class="gr-bd"/>
+  <line x1="82.0" y1="170.0" x2="64.6" y2="180.0" class="gr-bd"/>
+  <line x1="82.0" y1="170.0" x2="99.3" y2="180.0" class="gr-bd"/>
+  <line x1="116.6" y1="150.0" x2="116.6" y2="170.0" class="gr-bd"/>
+  <line x1="116.6" y1="170.0" x2="99.3" y2="180.0" class="gr-bd"/>
+  <line x1="116.6" y1="170.0" x2="133.9" y2="180.0" class="gr-bd"/>
+  <line x1="151.2" y1="150.0" x2="151.2" y2="170.0" class="gr-bd"/>
+  <line x1="151.2" y1="170.0" x2="133.9" y2="180.0" class="gr-bd"/>
+  <line x1="151.2" y1="170.0" x2="168.6" y2="180.0" class="gr-bd"/>
+  <line x1="185.9" y1="150.0" x2="185.9" y2="170.0" class="gr-bd"/>
+  <line x1="185.9" y1="170.0" x2="168.6" y2="180.0" class="gr-bd"/>
+  <line x1="185.9" y1="170.0" x2="203.2" y2="180.0" class="gr-bd"/>
+  <line x1="220.5" y1="150.0" x2="220.5" y2="170.0" class="gr-bd"/>
+  <line x1="220.5" y1="170.0" x2="203.2" y2="180.0" class="gr-bd"/>
+  <line x1="220.5" y1="170.0" x2="237.8" y2="180.0" class="gr-bd"/>
+  <line x1="255.2" y1="150.0" x2="255.2" y2="170.0" class="gr-bd"/>
+  <line x1="255.2" y1="170.0" x2="237.8" y2="180.0" class="gr-bd"/>
+  <line x1="255.2" y1="170.0" x2="272.5" y2="180.0" class="gr-bd"/>
+  <line x1="289.8" y1="150.0" x2="289.8" y2="170.0" class="gr-bd"/>
+  <line x1="289.8" y1="170.0" x2="272.5" y2="180.0" class="gr-bd"/>
+  <line x1="289.8" y1="170.0" x2="307.1" y2="180.0" class="gr-bd"/>
+  <line x1="64.6" y1="180.0" x2="64.6" y2="200.0" class="gr-bd"/>
+  <line x1="64.6" y1="200.0" x2="47.3" y2="210.0" class="gr-bd"/>
+  <line x1="64.6" y1="200.0" x2="82.0" y2="210.0" class="gr-bd"/>
+  <line x1="99.3" y1="180.0" x2="99.3" y2="200.0" class="gr-bd"/>
+  <line x1="99.3" y1="200.0" x2="82.0" y2="210.0" class="gr-bd"/>
+  <line x1="99.3" y1="200.0" x2="116.6" y2="210.0" class="gr-bd"/>
+  <line x1="133.9" y1="180.0" x2="133.9" y2="200.0" class="gr-bd"/>
+  <line x1="133.9" y1="200.0" x2="116.6" y2="210.0" class="gr-bd"/>
+  <line x1="133.9" y1="200.0" x2="151.2" y2="210.0" class="gr-bd"/>
+  <line x1="168.6" y1="180.0" x2="168.6" y2="200.0" class="gr-bd"/>
+  <line x1="168.6" y1="200.0" x2="151.2" y2="210.0" class="gr-bd"/>
+  <line x1="168.6" y1="200.0" x2="185.9" y2="210.0" class="gr-bd"/>
+  <line x1="203.2" y1="180.0" x2="203.2" y2="200.0" class="gr-bd"/>
+  <line x1="203.2" y1="200.0" x2="185.9" y2="210.0" class="gr-bd"/>
+  <line x1="203.2" y1="200.0" x2="220.5" y2="210.0" class="gr-bd"/>
+  <line x1="237.8" y1="180.0" x2="237.8" y2="200.0" class="gr-bd"/>
+  <line x1="237.8" y1="200.0" x2="220.5" y2="210.0" class="gr-bd"/>
+  <line x1="237.8" y1="200.0" x2="255.2" y2="210.0" class="gr-bd"/>
+  <line x1="272.5" y1="180.0" x2="272.5" y2="200.0" class="gr-bd"/>
+  <line x1="272.5" y1="200.0" x2="255.2" y2="210.0" class="gr-bd"/>
+  <line x1="272.5" y1="200.0" x2="289.8" y2="210.0" class="gr-bd"/>
+  <line x1="307.1" y1="180.0" x2="307.1" y2="200.0" class="gr-bd"/>
+  <line x1="307.1" y1="200.0" x2="289.8" y2="210.0" class="gr-bd"/>
+  <line x1="47.3" y1="210.0" x2="47.3" y2="230.0" class="gr-bd"/>
+  <line x1="47.3" y1="230.0" x2="64.6" y2="240.0" class="gr-bd"/>
+  <line x1="82.0" y1="210.0" x2="82.0" y2="230.0" class="gr-bd"/>
+  <line x1="82.0" y1="230.0" x2="64.6" y2="240.0" class="gr-bd"/>
+  <line x1="82.0" y1="230.0" x2="99.3" y2="240.0" class="gr-bd"/>
+  <line x1="116.6" y1="210.0" x2="116.6" y2="230.0" class="gr-bd"/>
+  <line x1="116.6" y1="230.0" x2="99.3" y2="240.0" class="gr-bd"/>
+  <line x1="116.6" y1="230.0" x2="133.9" y2="240.0" class="gr-bd"/>
+  <line x1="151.2" y1="210.0" x2="151.2" y2="230.0" class="gr-bd"/>
+  <line x1="151.2" y1="230.0" x2="133.9" y2="240.0" class="gr-bd"/>
+  <line x1="151.2" y1="230.0" x2="168.6" y2="240.0" class="gr-bd"/>
+  <line x1="185.9" y1="210.0" x2="185.9" y2="230.0" class="gr-bd"/>
+  <line x1="185.9" y1="230.0" x2="168.6" y2="240.0" class="gr-bd"/>
+  <line x1="185.9" y1="230.0" x2="203.2" y2="240.0" class="gr-bd"/>
+  <line x1="220.5" y1="210.0" x2="220.5" y2="230.0" class="gr-bd"/>
+  <line x1="220.5" y1="230.0" x2="203.2" y2="240.0" class="gr-bd"/>
+  <line x1="220.5" y1="230.0" x2="237.8" y2="240.0" class="gr-bd"/>
+  <line x1="255.2" y1="210.0" x2="255.2" y2="230.0" class="gr-bd"/>
+  <line x1="255.2" y1="230.0" x2="237.8" y2="240.0" class="gr-bd"/>
+  <line x1="255.2" y1="230.0" x2="272.5" y2="240.0" class="gr-bd"/>
+  <line x1="289.8" y1="210.0" x2="289.8" y2="230.0" class="gr-bd"/>
+  <line x1="289.8" y1="230.0" x2="272.5" y2="240.0" class="gr-bd"/>
+  <line x1="289.8" y1="230.0" x2="307.1" y2="240.0" class="gr-bd"/>
+  <polygon points="203.2,180.0 185.9,170.0 185.9,150.0 203.2,140.0 220.5,150.0 220.5,170.0" class="gr-hex"/>
+  <circle cx="64.6" cy="60.0" r="4.5" class="gr-c"/>
+  <circle cx="64.6" cy="80.0" r="4.5" class="gr-c"/>
+  <circle cx="99.3" cy="60.0" r="4.5" class="gr-c"/>
+  <circle cx="99.3" cy="80.0" r="4.5" class="gr-c"/>
+  <circle cx="133.9" cy="60.0" r="4.5" class="gr-c"/>
+  <circle cx="133.9" cy="80.0" r="4.5" class="gr-c"/>
+  <circle cx="168.6" cy="60.0" r="4.5" class="gr-c"/>
+  <circle cx="168.6" cy="80.0" r="4.5" class="gr-c"/>
+  <circle cx="203.2" cy="60.0" r="4.5" class="gr-c"/>
+  <circle cx="203.2" cy="80.0" r="4.5" class="gr-c"/>
+  <circle cx="237.8" cy="60.0" r="4.5" class="gr-c"/>
+  <circle cx="237.8" cy="80.0" r="4.5" class="gr-c"/>
+  <circle cx="272.5" cy="60.0" r="4.5" class="gr-c"/>
+  <circle cx="272.5" cy="80.0" r="4.5" class="gr-c"/>
+  <circle cx="307.1" cy="60.0" r="4.5" class="gr-c"/>
+  <circle cx="307.1" cy="80.0" r="4.5" class="gr-c"/>
+  <circle cx="47.3" cy="90.0" r="4.5" class="gr-c"/>
+  <circle cx="47.3" cy="110.0" r="4.5" class="gr-c"/>
+  <circle cx="82.0" cy="90.0" r="4.5" class="gr-c"/>
+  <circle cx="82.0" cy="110.0" r="4.5" class="gr-c"/>
+  <circle cx="116.6" cy="90.0" r="4.5" class="gr-c"/>
+  <circle cx="116.6" cy="110.0" r="4.5" class="gr-c"/>
+  <circle cx="151.2" cy="90.0" r="4.5" class="gr-c"/>
+  <circle cx="151.2" cy="110.0" r="4.5" class="gr-c"/>
+  <circle cx="185.9" cy="90.0" r="4.5" class="gr-c"/>
+  <circle cx="185.9" cy="110.0" r="4.5" class="gr-c"/>
+  <circle cx="220.5" cy="90.0" r="4.5" class="gr-c"/>
+  <circle cx="220.5" cy="110.0" r="4.5" class="gr-c"/>
+  <circle cx="255.2" cy="90.0" r="4.5" class="gr-c"/>
+  <circle cx="255.2" cy="110.0" r="4.5" class="gr-c"/>
+  <circle cx="289.8" cy="90.0" r="4.5" class="gr-c"/>
+  <circle cx="289.8" cy="110.0" r="4.5" class="gr-c"/>
+  <circle cx="64.6" cy="120.0" r="4.5" class="gr-c"/>
+  <circle cx="64.6" cy="140.0" r="4.5" class="gr-c"/>
+  <circle cx="99.3" cy="120.0" r="4.5" class="gr-c"/>
+  <circle cx="99.3" cy="140.0" r="4.5" class="gr-c"/>
+  <circle cx="133.9" cy="120.0" r="4.5" class="gr-c"/>
+  <circle cx="133.9" cy="140.0" r="4.5" class="gr-c"/>
+  <circle cx="168.6" cy="120.0" r="4.5" class="gr-c"/>
+  <circle cx="168.6" cy="140.0" r="4.5" class="gr-c"/>
+  <circle cx="203.2" cy="120.0" r="4.5" class="gr-c"/>
+  <circle cx="203.2" cy="140.0" r="4.5" class="gr-c"/>
+  <circle cx="237.8" cy="120.0" r="4.5" class="gr-c"/>
+  <circle cx="237.8" cy="140.0" r="4.5" class="gr-c"/>
+  <circle cx="272.5" cy="120.0" r="4.5" class="gr-c"/>
+  <circle cx="272.5" cy="140.0" r="4.5" class="gr-c"/>
+  <circle cx="307.1" cy="120.0" r="4.5" class="gr-c"/>
+  <circle cx="307.1" cy="140.0" r="4.5" class="gr-c"/>
+  <circle cx="47.3" cy="150.0" r="4.5" class="gr-c"/>
+  <circle cx="47.3" cy="170.0" r="4.5" class="gr-c"/>
+  <circle cx="82.0" cy="150.0" r="4.5" class="gr-c"/>
+  <circle cx="82.0" cy="170.0" r="4.5" class="gr-c"/>
+  <circle cx="116.6" cy="150.0" r="4.5" class="gr-c"/>
+  <circle cx="116.6" cy="170.0" r="4.5" class="gr-c"/>
+  <circle cx="151.2" cy="150.0" r="4.5" class="gr-c"/>
+  <circle cx="151.2" cy="170.0" r="4.5" class="gr-c"/>
+  <circle cx="185.9" cy="150.0" r="4.5" class="gr-c"/>
+  <circle cx="185.9" cy="170.0" r="4.5" class="gr-c"/>
+  <circle cx="220.5" cy="150.0" r="4.5" class="gr-c"/>
+  <circle cx="220.5" cy="170.0" r="4.5" class="gr-c"/>
+  <circle cx="255.2" cy="150.0" r="4.5" class="gr-c"/>
+  <circle cx="255.2" cy="170.0" r="4.5" class="gr-c"/>
+  <circle cx="289.8" cy="150.0" r="4.5" class="gr-c"/>
+  <circle cx="289.8" cy="170.0" r="4.5" class="gr-c"/>
+  <circle cx="64.6" cy="180.0" r="4.5" class="gr-c"/>
+  <circle cx="64.6" cy="200.0" r="4.5" class="gr-c"/>
+  <circle cx="99.3" cy="180.0" r="4.5" class="gr-c"/>
+  <circle cx="99.3" cy="200.0" r="4.5" class="gr-c"/>
+  <circle cx="133.9" cy="180.0" r="4.5" class="gr-c"/>
+  <circle cx="133.9" cy="200.0" r="4.5" class="gr-c"/>
+  <circle cx="168.6" cy="180.0" r="4.5" class="gr-c"/>
+  <circle cx="168.6" cy="200.0" r="4.5" class="gr-c"/>
+  <circle cx="203.2" cy="180.0" r="4.5" class="gr-c"/>
+  <circle cx="203.2" cy="200.0" r="4.5" class="gr-c"/>
+  <circle cx="237.8" cy="180.0" r="4.5" class="gr-c"/>
+  <circle cx="237.8" cy="200.0" r="4.5" class="gr-c"/>
+  <circle cx="272.5" cy="180.0" r="4.5" class="gr-c"/>
+  <circle cx="272.5" cy="200.0" r="4.5" class="gr-c"/>
+  <circle cx="307.1" cy="180.0" r="4.5" class="gr-c"/>
+  <circle cx="307.1" cy="200.0" r="4.5" class="gr-c"/>
+  <circle cx="47.3" cy="210.0" r="4.5" class="gr-c"/>
+  <circle cx="47.3" cy="230.0" r="4.5" class="gr-c"/>
+  <circle cx="82.0" cy="210.0" r="4.5" class="gr-c"/>
+  <circle cx="82.0" cy="230.0" r="4.5" class="gr-c"/>
+  <circle cx="116.6" cy="210.0" r="4.5" class="gr-c"/>
+  <circle cx="116.6" cy="230.0" r="4.5" class="gr-c"/>
+  <circle cx="151.2" cy="210.0" r="4.5" class="gr-c"/>
+  <circle cx="151.2" cy="230.0" r="4.5" class="gr-c"/>
+  <circle cx="185.9" cy="210.0" r="4.5" class="gr-c"/>
+  <circle cx="185.9" cy="230.0" r="4.5" class="gr-c"/>
+  <circle cx="220.5" cy="210.0" r="4.5" class="gr-c"/>
+  <circle cx="220.5" cy="230.0" r="4.5" class="gr-c"/>
+  <circle cx="255.2" cy="210.0" r="4.5" class="gr-c"/>
+  <circle cx="255.2" cy="230.0" r="4.5" class="gr-c"/>
+  <circle cx="289.8" cy="210.0" r="4.5" class="gr-c"/>
+  <circle cx="289.8" cy="230.0" r="4.5" class="gr-c"/>
+  <circle cx="64.6" cy="240.0" r="4.5" class="gr-c"/>
+  <circle cx="99.3" cy="240.0" r="4.5" class="gr-c"/>
+  <circle cx="133.9" cy="240.0" r="4.5" class="gr-c"/>
+  <circle cx="168.6" cy="240.0" r="4.5" class="gr-c"/>
+  <circle cx="203.2" cy="240.0" r="4.5" class="gr-c"/>
+  <circle cx="237.8" cy="240.0" r="4.5" class="gr-c"/>
+  <circle cx="272.5" cy="240.0" r="4.5" class="gr-c"/>
+  <circle cx="307.1" cy="240.0" r="4.5" class="gr-c"/>
+  <text x="180" y="34" text-anchor="middle" class="gr-lbl">그래핀 (위에서 본 모습)</text>
+  <text x="180" y="280" text-anchor="middle" class="gr-t">탄소 원자가 육각형으로 연결된 한 층</text>
+  <text x="180" y="300" text-anchor="middle" class="gr-sm">● 탄소 원자 · 노란 테두리 = 육각형 하나</text>
+  <text x="540" y="34" text-anchor="middle" class="gr-lbl">흑연 (비스듬히 본 모습)</text>
+  <polygon points="420.0,90.0 580.0,90.0 646.0,128.4 486.0,128.4" class="gr-sheet"/>
+  <line x1="420.0" y1="90.0" x2="431.0" y2="96.4" class="gr-L"/>
+  <line x1="431.0" y1="96.4" x2="453.8" y2="99.6" class="gr-L"/>
+  <line x1="454.6" y1="90.0" x2="465.6" y2="96.4" class="gr-L"/>
+  <line x1="465.6" y1="96.4" x2="453.8" y2="99.6" class="gr-L"/>
+  <line x1="465.6" y1="96.4" x2="488.5" y2="99.6" class="gr-L"/>
+  <line x1="489.3" y1="90.0" x2="500.3" y2="96.4" class="gr-L"/>
+  <line x1="500.3" y1="96.4" x2="488.5" y2="99.6" class="gr-L"/>
+  <line x1="500.3" y1="96.4" x2="523.1" y2="99.6" class="gr-L"/>
+  <line x1="523.9" y1="90.0" x2="534.9" y2="96.4" class="gr-L"/>
+  <line x1="534.9" y1="96.4" x2="523.1" y2="99.6" class="gr-L"/>
+  <line x1="534.9" y1="96.4" x2="557.7" y2="99.6" class="gr-L"/>
+  <line x1="558.6" y1="90.0" x2="569.6" y2="96.4" class="gr-L"/>
+  <line x1="569.6" y1="96.4" x2="557.7" y2="99.6" class="gr-L"/>
+  <line x1="569.6" y1="96.4" x2="592.4" y2="99.6" class="gr-L"/>
+  <line x1="453.8" y1="99.6" x2="464.8" y2="106.0" class="gr-L"/>
+  <line x1="464.8" y1="106.0" x2="453.0" y2="109.2" class="gr-L"/>
+  <line x1="464.8" y1="106.0" x2="487.6" y2="109.2" class="gr-L"/>
+  <line x1="488.5" y1="99.6" x2="499.5" y2="106.0" class="gr-L"/>
+  <line x1="499.5" y1="106.0" x2="487.6" y2="109.2" class="gr-L"/>
+  <line x1="499.5" y1="106.0" x2="522.3" y2="109.2" class="gr-L"/>
+  <line x1="523.1" y1="99.6" x2="534.1" y2="106.0" class="gr-L"/>
+  <line x1="534.1" y1="106.0" x2="522.3" y2="109.2" class="gr-L"/>
+  <line x1="534.1" y1="106.0" x2="556.9" y2="109.2" class="gr-L"/>
+  <line x1="557.7" y1="99.6" x2="568.7" y2="106.0" class="gr-L"/>
+  <line x1="568.7" y1="106.0" x2="556.9" y2="109.2" class="gr-L"/>
+  <line x1="568.7" y1="106.0" x2="591.6" y2="109.2" class="gr-L"/>
+  <line x1="592.4" y1="99.6" x2="603.4" y2="106.0" class="gr-L"/>
+  <line x1="603.4" y1="106.0" x2="591.6" y2="109.2" class="gr-L"/>
+  <line x1="453.0" y1="109.2" x2="464.0" y2="115.6" class="gr-L"/>
+  <line x1="464.0" y1="115.6" x2="486.8" y2="118.8" class="gr-L"/>
+  <line x1="487.6" y1="109.2" x2="498.6" y2="115.6" class="gr-L"/>
+  <line x1="498.6" y1="115.6" x2="486.8" y2="118.8" class="gr-L"/>
+  <line x1="498.6" y1="115.6" x2="521.5" y2="118.8" class="gr-L"/>
+  <line x1="522.3" y1="109.2" x2="533.3" y2="115.6" class="gr-L"/>
+  <line x1="533.3" y1="115.6" x2="521.5" y2="118.8" class="gr-L"/>
+  <line x1="533.3" y1="115.6" x2="556.1" y2="118.8" class="gr-L"/>
+  <line x1="556.9" y1="109.2" x2="567.9" y2="115.6" class="gr-L"/>
+  <line x1="567.9" y1="115.6" x2="556.1" y2="118.8" class="gr-L"/>
+  <line x1="567.9" y1="115.6" x2="590.7" y2="118.8" class="gr-L"/>
+  <line x1="591.6" y1="109.2" x2="602.6" y2="115.6" class="gr-L"/>
+  <line x1="602.6" y1="115.6" x2="590.7" y2="118.8" class="gr-L"/>
+  <line x1="602.6" y1="115.6" x2="625.4" y2="118.8" class="gr-L"/>
+  <line x1="486.8" y1="118.8" x2="497.8" y2="125.2" class="gr-L"/>
+  <line x1="497.8" y1="125.2" x2="486.0" y2="128.4" class="gr-L"/>
+  <line x1="497.8" y1="125.2" x2="520.6" y2="128.4" class="gr-L"/>
+  <line x1="521.5" y1="118.8" x2="532.5" y2="125.2" class="gr-L"/>
+  <line x1="532.5" y1="125.2" x2="520.6" y2="128.4" class="gr-L"/>
+  <line x1="532.5" y1="125.2" x2="555.3" y2="128.4" class="gr-L"/>
+  <line x1="556.1" y1="118.8" x2="567.1" y2="125.2" class="gr-L"/>
+  <line x1="567.1" y1="125.2" x2="555.3" y2="128.4" class="gr-L"/>
+  <line x1="567.1" y1="125.2" x2="589.9" y2="128.4" class="gr-L"/>
+  <line x1="590.7" y1="118.8" x2="601.7" y2="125.2" class="gr-L"/>
+  <line x1="601.7" y1="125.2" x2="589.9" y2="128.4" class="gr-L"/>
+  <line x1="601.7" y1="125.2" x2="624.6" y2="128.4" class="gr-L"/>
+  <line x1="625.4" y1="118.8" x2="636.4" y2="125.2" class="gr-L"/>
+  <line x1="636.4" y1="125.2" x2="624.6" y2="128.4" class="gr-L"/>
+  <polygon points="420.0,152.0 580.0,152.0 646.0,190.4 486.0,190.4" class="gr-sheet"/>
+  <line x1="420.0" y1="152.0" x2="431.0" y2="158.4" class="gr-L"/>
+  <line x1="431.0" y1="158.4" x2="453.8" y2="161.6" class="gr-L"/>
+  <line x1="454.6" y1="152.0" x2="465.6" y2="158.4" class="gr-L"/>
+  <line x1="465.6" y1="158.4" x2="453.8" y2="161.6" class="gr-L"/>
+  <line x1="465.6" y1="158.4" x2="488.5" y2="161.6" class="gr-L"/>
+  <line x1="489.3" y1="152.0" x2="500.3" y2="158.4" class="gr-L"/>
+  <line x1="500.3" y1="158.4" x2="488.5" y2="161.6" class="gr-L"/>
+  <line x1="500.3" y1="158.4" x2="523.1" y2="161.6" class="gr-L"/>
+  <line x1="523.9" y1="152.0" x2="534.9" y2="158.4" class="gr-L"/>
+  <line x1="534.9" y1="158.4" x2="523.1" y2="161.6" class="gr-L"/>
+  <line x1="534.9" y1="158.4" x2="557.7" y2="161.6" class="gr-L"/>
+  <line x1="558.6" y1="152.0" x2="569.6" y2="158.4" class="gr-L"/>
+  <line x1="569.6" y1="158.4" x2="557.7" y2="161.6" class="gr-L"/>
+  <line x1="569.6" y1="158.4" x2="592.4" y2="161.6" class="gr-L"/>
+  <line x1="453.8" y1="161.6" x2="464.8" y2="168.0" class="gr-L"/>
+  <line x1="464.8" y1="168.0" x2="453.0" y2="171.2" class="gr-L"/>
+  <line x1="464.8" y1="168.0" x2="487.6" y2="171.2" class="gr-L"/>
+  <line x1="488.5" y1="161.6" x2="499.5" y2="168.0" class="gr-L"/>
+  <line x1="499.5" y1="168.0" x2="487.6" y2="171.2" class="gr-L"/>
+  <line x1="499.5" y1="168.0" x2="522.3" y2="171.2" class="gr-L"/>
+  <line x1="523.1" y1="161.6" x2="534.1" y2="168.0" class="gr-L"/>
+  <line x1="534.1" y1="168.0" x2="522.3" y2="171.2" class="gr-L"/>
+  <line x1="534.1" y1="168.0" x2="556.9" y2="171.2" class="gr-L"/>
+  <line x1="557.7" y1="161.6" x2="568.7" y2="168.0" class="gr-L"/>
+  <line x1="568.7" y1="168.0" x2="556.9" y2="171.2" class="gr-L"/>
+  <line x1="568.7" y1="168.0" x2="591.6" y2="171.2" class="gr-L"/>
+  <line x1="592.4" y1="161.6" x2="603.4" y2="168.0" class="gr-L"/>
+  <line x1="603.4" y1="168.0" x2="591.6" y2="171.2" class="gr-L"/>
+  <line x1="453.0" y1="171.2" x2="464.0" y2="177.6" class="gr-L"/>
+  <line x1="464.0" y1="177.6" x2="486.8" y2="180.8" class="gr-L"/>
+  <line x1="487.6" y1="171.2" x2="498.6" y2="177.6" class="gr-L"/>
+  <line x1="498.6" y1="177.6" x2="486.8" y2="180.8" class="gr-L"/>
+  <line x1="498.6" y1="177.6" x2="521.5" y2="180.8" class="gr-L"/>
+  <line x1="522.3" y1="171.2" x2="533.3" y2="177.6" class="gr-L"/>
+  <line x1="533.3" y1="177.6" x2="521.5" y2="180.8" class="gr-L"/>
+  <line x1="533.3" y1="177.6" x2="556.1" y2="180.8" class="gr-L"/>
+  <line x1="556.9" y1="171.2" x2="567.9" y2="177.6" class="gr-L"/>
+  <line x1="567.9" y1="177.6" x2="556.1" y2="180.8" class="gr-L"/>
+  <line x1="567.9" y1="177.6" x2="590.7" y2="180.8" class="gr-L"/>
+  <line x1="591.6" y1="171.2" x2="602.6" y2="177.6" class="gr-L"/>
+  <line x1="602.6" y1="177.6" x2="590.7" y2="180.8" class="gr-L"/>
+  <line x1="602.6" y1="177.6" x2="625.4" y2="180.8" class="gr-L"/>
+  <line x1="486.8" y1="180.8" x2="497.8" y2="187.2" class="gr-L"/>
+  <line x1="497.8" y1="187.2" x2="486.0" y2="190.4" class="gr-L"/>
+  <line x1="497.8" y1="187.2" x2="520.6" y2="190.4" class="gr-L"/>
+  <line x1="521.5" y1="180.8" x2="532.5" y2="187.2" class="gr-L"/>
+  <line x1="532.5" y1="187.2" x2="520.6" y2="190.4" class="gr-L"/>
+  <line x1="532.5" y1="187.2" x2="555.3" y2="190.4" class="gr-L"/>
+  <line x1="556.1" y1="180.8" x2="567.1" y2="187.2" class="gr-L"/>
+  <line x1="567.1" y1="187.2" x2="555.3" y2="190.4" class="gr-L"/>
+  <line x1="567.1" y1="187.2" x2="589.9" y2="190.4" class="gr-L"/>
+  <line x1="590.7" y1="180.8" x2="601.7" y2="187.2" class="gr-L"/>
+  <line x1="601.7" y1="187.2" x2="589.9" y2="190.4" class="gr-L"/>
+  <line x1="601.7" y1="187.2" x2="624.6" y2="190.4" class="gr-L"/>
+  <line x1="625.4" y1="180.8" x2="636.4" y2="187.2" class="gr-L"/>
+  <line x1="636.4" y1="187.2" x2="624.6" y2="190.4" class="gr-L"/>
+  <polygon points="420.0,214.0 580.0,214.0 646.0,252.4 486.0,252.4" class="gr-sheet"/>
+  <line x1="420.0" y1="214.0" x2="431.0" y2="220.4" class="gr-L"/>
+  <line x1="431.0" y1="220.4" x2="453.8" y2="223.6" class="gr-L"/>
+  <line x1="454.6" y1="214.0" x2="465.6" y2="220.4" class="gr-L"/>
+  <line x1="465.6" y1="220.4" x2="453.8" y2="223.6" class="gr-L"/>
+  <line x1="465.6" y1="220.4" x2="488.5" y2="223.6" class="gr-L"/>
+  <line x1="489.3" y1="214.0" x2="500.3" y2="220.4" class="gr-L"/>
+  <line x1="500.3" y1="220.4" x2="488.5" y2="223.6" class="gr-L"/>
+  <line x1="500.3" y1="220.4" x2="523.1" y2="223.6" class="gr-L"/>
+  <line x1="523.9" y1="214.0" x2="534.9" y2="220.4" class="gr-L"/>
+  <line x1="534.9" y1="220.4" x2="523.1" y2="223.6" class="gr-L"/>
+  <line x1="534.9" y1="220.4" x2="557.7" y2="223.6" class="gr-L"/>
+  <line x1="558.6" y1="214.0" x2="569.6" y2="220.4" class="gr-L"/>
+  <line x1="569.6" y1="220.4" x2="557.7" y2="223.6" class="gr-L"/>
+  <line x1="569.6" y1="220.4" x2="592.4" y2="223.6" class="gr-L"/>
+  <line x1="453.8" y1="223.6" x2="464.8" y2="230.0" class="gr-L"/>
+  <line x1="464.8" y1="230.0" x2="453.0" y2="233.2" class="gr-L"/>
+  <line x1="464.8" y1="230.0" x2="487.6" y2="233.2" class="gr-L"/>
+  <line x1="488.5" y1="223.6" x2="499.5" y2="230.0" class="gr-L"/>
+  <line x1="499.5" y1="230.0" x2="487.6" y2="233.2" class="gr-L"/>
+  <line x1="499.5" y1="230.0" x2="522.3" y2="233.2" class="gr-L"/>
+  <line x1="523.1" y1="223.6" x2="534.1" y2="230.0" class="gr-L"/>
+  <line x1="534.1" y1="230.0" x2="522.3" y2="233.2" class="gr-L"/>
+  <line x1="534.1" y1="230.0" x2="556.9" y2="233.2" class="gr-L"/>
+  <line x1="557.7" y1="223.6" x2="568.7" y2="230.0" class="gr-L"/>
+  <line x1="568.7" y1="230.0" x2="556.9" y2="233.2" class="gr-L"/>
+  <line x1="568.7" y1="230.0" x2="591.6" y2="233.2" class="gr-L"/>
+  <line x1="592.4" y1="223.6" x2="603.4" y2="230.0" class="gr-L"/>
+  <line x1="603.4" y1="230.0" x2="591.6" y2="233.2" class="gr-L"/>
+  <line x1="453.0" y1="233.2" x2="464.0" y2="239.6" class="gr-L"/>
+  <line x1="464.0" y1="239.6" x2="486.8" y2="242.8" class="gr-L"/>
+  <line x1="487.6" y1="233.2" x2="498.6" y2="239.6" class="gr-L"/>
+  <line x1="498.6" y1="239.6" x2="486.8" y2="242.8" class="gr-L"/>
+  <line x1="498.6" y1="239.6" x2="521.5" y2="242.8" class="gr-L"/>
+  <line x1="522.3" y1="233.2" x2="533.3" y2="239.6" class="gr-L"/>
+  <line x1="533.3" y1="239.6" x2="521.5" y2="242.8" class="gr-L"/>
+  <line x1="533.3" y1="239.6" x2="556.1" y2="242.8" class="gr-L"/>
+  <line x1="556.9" y1="233.2" x2="567.9" y2="239.6" class="gr-L"/>
+  <line x1="567.9" y1="239.6" x2="556.1" y2="242.8" class="gr-L"/>
+  <line x1="567.9" y1="239.6" x2="590.7" y2="242.8" class="gr-L"/>
+  <line x1="591.6" y1="233.2" x2="602.6" y2="239.6" class="gr-L"/>
+  <line x1="602.6" y1="239.6" x2="590.7" y2="242.8" class="gr-L"/>
+  <line x1="602.6" y1="239.6" x2="625.4" y2="242.8" class="gr-L"/>
+  <line x1="486.8" y1="242.8" x2="497.8" y2="249.2" class="gr-L"/>
+  <line x1="497.8" y1="249.2" x2="486.0" y2="252.4" class="gr-L"/>
+  <line x1="497.8" y1="249.2" x2="520.6" y2="252.4" class="gr-L"/>
+  <line x1="521.5" y1="242.8" x2="532.5" y2="249.2" class="gr-L"/>
+  <line x1="532.5" y1="249.2" x2="520.6" y2="252.4" class="gr-L"/>
+  <line x1="532.5" y1="249.2" x2="555.3" y2="252.4" class="gr-L"/>
+  <line x1="556.1" y1="242.8" x2="567.1" y2="249.2" class="gr-L"/>
+  <line x1="567.1" y1="249.2" x2="555.3" y2="252.4" class="gr-L"/>
+  <line x1="567.1" y1="249.2" x2="589.9" y2="252.4" class="gr-L"/>
+  <line x1="590.7" y1="242.8" x2="601.7" y2="249.2" class="gr-L"/>
+  <line x1="601.7" y1="249.2" x2="589.9" y2="252.4" class="gr-L"/>
+  <line x1="601.7" y1="249.2" x2="624.6" y2="252.4" class="gr-L"/>
+  <line x1="625.4" y1="242.8" x2="636.4" y2="249.2" class="gr-L"/>
+  <line x1="636.4" y1="249.2" x2="624.6" y2="252.4" class="gr-L"/>
+  <path d="M617.0 109.2 H635.0" class="gr-ld"/><text x="639.0" y="114.2" class="gr-sm">그래핀 1층</text>
+  <path d="M617.0 171.2 H635.0" class="gr-ld"/><text x="639.0" y="176.2" class="gr-sm">그래핀 1층</text>
+  <path d="M617.0 233.2 H635.0" class="gr-ld"/><text x="639.0" y="238.2" class="gr-sm">그래핀 1층</text>
+  <text x="540" y="280" text-anchor="middle" class="gr-t">그래핀 층이 겹겹이 쌓인 것 = 흑연</text>
+  <text x="540" y="300" text-anchor="middle" class="gr-sm">층 사이 간격은 실제보다 크게 그렸다</text>
+</svg>

@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-m1-05-spring-graph d-m1-05-spring-graph">
+  <title id="t-m1-05-spring-graph">그림 중1-5-6 용수철에 매단 무게와 늘어난 길이</title>
+  <desc id="d-m1-05-spring-graph">무게가 1 N인 추를 하나씩 더 매달면 용수철은 2 cm씩 늘어난다. 늘어난 길이를 무게에 대해 그리면 원점을 지나는 직선이 되어, 늘어난 길이가 무게에 비례함을 알 수 있다(탄성 한계 안에서). 길이는 모식적인 축척이다.</desc>
+  <style>
+    .sg-red{fill:none;stroke:var(--fig-red)} .sg-redh{fill:var(--fig-red)}
+    .sg-blue{fill:none;stroke:var(--fig-blue)} .sg-blueh{fill:var(--fig-blue)}
+    .sg-green{fill:none;stroke:var(--fig-green)} .sg-greenh{fill:var(--fig-green)}
+    .sg-amber{fill:none;stroke:var(--fig-amber)} .sg-amberh{fill:var(--fig-amber)}
+    .sg-violet{fill:none;stroke:var(--fig-violet)} .sg-violeth{fill:var(--fig-violet)}
+    .sg-teal{fill:none;stroke:var(--fig-teal)} .sg-tealh{fill:var(--fig-teal)}
+    .sg-ink{fill:none;stroke:var(--fig-ink)} .sg-inkh{fill:var(--fig-ink)}
+    .sg-muted{fill:none;stroke:var(--fig-muted)} .sg-mutedh{fill:var(--fig-muted)}
+    .sg-line{fill:none;stroke:var(--fig-line)} .sg-lineh{fill:var(--fig-line)}
+    .sg-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .sg-t{font-size:14px;fill:var(--fig-ink)}
+    .sg-sm{font-size:13px;fill:var(--fig-muted)}
+    .sg-redb{font-size:14px;font-weight:700;fill:var(--fig-red)}
+    .sg-sred{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6}
+    .sg-blueb{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+    .sg-sblue{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6}
+    .sg-greenb{font-size:14px;font-weight:700;fill:var(--fig-green)}
+    .sg-sgreen{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6}
+    .sg-amberb{font-size:14px;font-weight:700;fill:var(--fig-amber)}
+    .sg-samber{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6}
+    .sg-violetb{font-size:14px;font-weight:700;fill:var(--fig-violet)}
+    .sg-sviolet{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6}
+    .sg-tealb{font-size:14px;font-weight:700;fill:var(--fig-teal)}
+    .sg-steal{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.6}
+    .sg-panel{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.4}
+    .sg-paper{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.4}
+    .sg-axis{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
+    .sg-grid{fill:none;stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4}
+    .sg-dash{fill:none;stroke:var(--fig-muted);stroke-width:1.4;stroke-dasharray:5 4}
+    .sg-w{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5} .sg-bar{fill:var(--fig-line);stroke:none} .sg-ruler{fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2}
+  </style>
+  <rect x="30.0" y="44.0" width="300.0" height="8.0" rx="0" class="sg-bar"/>
+  <line x1="40.0" y1="112.0" x2="320.0" y2="112.0" class="sg-dash" style="stroke-width:1.2;stroke-linecap:round"/>
+  <text x="325.0" y="116.0" class="sg-sm"></text>
+  <path d="M100.0 52.0 L100.0 58.0 L108.0 59.5 L92.0 62.5 L108.0 65.5 L92.0 68.5 L108.0 71.5 L92.0 74.5 L108.0 77.5 L92.0 80.5 L108.0 83.5 L92.0 86.5 L108.0 89.5 L92.0 92.5 L108.0 95.5 L92.0 98.5 L108.0 101.5 L92.0 104.5 L100.0 106.0 L100.0 112.0" class="sg-ink" style="stroke-width:2;stroke-linejoin:round"/>
+  <text x="100.0" y="268.0" text-anchor="middle" class="sg-violetb">0 N</text>
+  <text x="100.0" y="288.0" text-anchor="middle" class="sg-t">0 cm</text>
+  <path d="M165.0 52.0 L165.0 58.0 L173.0 60.1 L157.0 64.4 L173.0 68.6 L157.0 72.9 L173.0 77.1 L157.0 81.4 L173.0 85.6 L157.0 89.9 L173.0 94.1 L157.0 98.4 L173.0 102.6 L157.0 106.9 L173.0 111.1 L157.0 115.4 L173.0 119.6 L157.0 123.9 L165.0 126.0 L165.0 132.0" class="sg-ink" style="stroke-width:2;stroke-linejoin:round"/>
+  <rect x="151.0" y="134.0" width="28.0" height="18.0" rx="3" class="sg-w"/>
+  <text x="165.0" y="268.0" text-anchor="middle" class="sg-violetb">1 N</text>
+  <text x="165.0" y="288.0" text-anchor="middle" class="sg-t">2 cm</text>
+  <path d="M230.0 52.0 L230.0 58.0 L238.0 60.8 L222.0 66.2 L238.0 71.8 L222.0 77.2 L238.0 82.8 L222.0 88.2 L238.0 93.8 L222.0 99.2 L238.0 104.8 L222.0 110.2 L238.0 115.8 L222.0 121.2 L238.0 126.8 L222.0 132.2 L238.0 137.8 L222.0 143.2 L230.0 146.0 L230.0 152.0" class="sg-ink" style="stroke-width:2;stroke-linejoin:round"/>
+  <rect x="216.0" y="154.0" width="28.0" height="18.0" rx="3" class="sg-w"/>
+  <rect x="216.0" y="174.0" width="28.0" height="18.0" rx="3" class="sg-w"/>
+  <text x="230.0" y="268.0" text-anchor="middle" class="sg-violetb">2 N</text>
+  <text x="230.0" y="288.0" text-anchor="middle" class="sg-t">4 cm</text>
+  <path d="M295.0 52.0 L295.0 58.0 L303.0 61.4 L287.0 68.1 L303.0 74.9 L287.0 81.6 L303.0 88.4 L287.0 95.1 L303.0 101.9 L287.0 108.6 L303.0 115.4 L287.0 122.1 L303.0 128.9 L287.0 135.6 L303.0 142.4 L287.0 149.1 L303.0 155.9 L287.0 162.6 L295.0 166.0 L295.0 172.0" class="sg-ink" style="stroke-width:2;stroke-linejoin:round"/>
+  <rect x="281.0" y="174.0" width="28.0" height="18.0" rx="3" class="sg-w"/>
+  <rect x="281.0" y="194.0" width="28.0" height="18.0" rx="3" class="sg-w"/>
+  <rect x="281.0" y="214.0" width="28.0" height="18.0" rx="3" class="sg-w"/>
+  <text x="295.0" y="268.0" text-anchor="middle" class="sg-violetb">3 N</text>
+  <text x="295.0" y="288.0" text-anchor="middle" class="sg-t">6 cm</text>
+  <line x1="319.0" y1="112.0" x2="319.0" y2="172.0" class="sg-red" style="stroke-width:2;stroke-linecap:round"/>
+  <line x1="314.0" y1="112.0" x2="324.0" y2="112.0" class="sg-red" style="stroke-width:2;stroke-linecap:round"/>
+  <line x1="314.0" y1="172.0" x2="324.0" y2="172.0" class="sg-red" style="stroke-width:2;stroke-linecap:round"/>
+  <text x="325.0" y="148.0" class="sg-redb">6 cm</text>
+  <text x="20.0" y="268.0" class="sg-sm">무게</text>
+  <text x="20.0" y="288.0" class="sg-sm">늘어남</text>
+  <text x="180.0" y="312.0" text-anchor="middle" class="sg-sm">점선: 아무것도 매달지 않았을 때 용수철 끝</text>
+  <text x="560.0" y="20.0" text-anchor="middle" class="sg-h">늘어난 길이와 무게의 관계</text>
+  <line x1="440.0" y1="270.0" x2="440.0" y2="62.0" class="sg-grid" style="stroke-width:1;stroke-linecap:round"/>
+  <text x="440.0" y="290.0" text-anchor="middle" class="sg-t">0</text>
+  <line x1="500.0" y1="270.0" x2="500.0" y2="62.0" class="sg-grid" style="stroke-width:1;stroke-linecap:round"/>
+  <text x="500.0" y="290.0" text-anchor="middle" class="sg-t">1</text>
+  <line x1="560.0" y1="270.0" x2="560.0" y2="62.0" class="sg-grid" style="stroke-width:1;stroke-linecap:round"/>
+  <text x="560.0" y="290.0" text-anchor="middle" class="sg-t">2</text>
+  <line x1="620.0" y1="270.0" x2="620.0" y2="62.0" class="sg-grid" style="stroke-width:1;stroke-linecap:round"/>
+  <text x="620.0" y="290.0" text-anchor="middle" class="sg-t">3</text>
+  <line x1="680.0" y1="270.0" x2="680.0" y2="62.0" class="sg-grid" style="stroke-width:1;stroke-linecap:round"/>
+  <text x="680.0" y="290.0" text-anchor="middle" class="sg-t">4</text>
+  <line x1="440.0" y1="270.0" x2="680.0" y2="270.0" class="sg-grid" style="stroke-width:1;stroke-linecap:round"/>
+  <text x="432.0" y="275.0" text-anchor="end" class="sg-t">0</text>
+  <line x1="440.0" y1="218.0" x2="680.0" y2="218.0" class="sg-grid" style="stroke-width:1;stroke-linecap:round"/>
+  <text x="432.0" y="223.0" text-anchor="end" class="sg-t">2</text>
+  <line x1="440.0" y1="166.0" x2="680.0" y2="166.0" class="sg-grid" style="stroke-width:1;stroke-linecap:round"/>
+  <text x="432.0" y="171.0" text-anchor="end" class="sg-t">4</text>
+  <line x1="440.0" y1="114.0" x2="680.0" y2="114.0" class="sg-grid" style="stroke-width:1;stroke-linecap:round"/>
+  <text x="432.0" y="119.0" text-anchor="end" class="sg-t">6</text>
+  <line x1="440.0" y1="62.0" x2="680.0" y2="62.0" class="sg-grid" style="stroke-width:1;stroke-linecap:round"/>
+  <text x="432.0" y="67.0" text-anchor="end" class="sg-t">8</text>
+  <line x1="440.0" y1="270.0" x2="701.0" y2="270.0" class="sg-ink" style="stroke-width:1.6;stroke-linecap:round"/>
+  <path d="M710.0 270.0 L701.0 274.3 L701.0 265.7 Z" class="sg-inkh"/>
+  <line x1="440.0" y1="270.0" x2="440.0" y2="45.0" class="sg-ink" style="stroke-width:1.6;stroke-linecap:round"/>
+  <path d="M440.0 36.0 L444.3 45.0 L435.7 45.0 Z" class="sg-inkh"/>
+  <text x="710.0" y="310.0" text-anchor="end" class="sg-t">매단 무게(N)</text>
+  <text x="450.0" y="46.0" class="sg-t">늘어난 길이(cm)</text>
+  <line x1="440.0" y1="270.0" x2="680.0" y2="62.0" class="sg-red" style="stroke-width:3;stroke-linecap:round"/>
+  <circle cx="440.0" cy="270.0" r="5.0" class="sg-redh"/>
+  <circle cx="500.0" cy="218.0" r="5.0" class="sg-redh"/>
+  <circle cx="560.0" cy="166.0" r="5.0" class="sg-redh"/>
+  <circle cx="620.0" cy="114.0" r="5.0" class="sg-redh"/>
+  <circle cx="680.0" cy="62.0" r="5.0" class="sg-redh"/>
+  <text x="572.0" y="114.0" text-anchor="end" class="sg-redb">원점을 지나는 직선</text>
+  <text x="572.0" y="132.0" text-anchor="end" class="sg-redb">→ 비례</text>
+</svg>

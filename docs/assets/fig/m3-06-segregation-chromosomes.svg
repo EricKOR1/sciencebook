@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-m3-06-segregation-chromosomes d-m3-06-segregation-chromosomes">
+  <title id="t-m3-06-segregation-chromosomes">그림 중3-6-6 분리의 법칙과 독립의 법칙을 염색체로 보기</title>
+  <desc id="d-m3-06-segregation-chromosomes">왼쪽: 유전자형이 Rr인 세포에서 R와 r는 상동 염색체의 같은 위치에 있다. 생식세포를 만들 때 상동 염색체가 갈라지므로 생식세포는 R 또는 r 하나만 1/2씩 받는다(분리의 법칙). 오른쪽: RrYy인 세포에서 모양 유전자와 색 유전자가 서로 다른 염색체 쌍에 있으면, 첫 번째 분열에서 두 쌍이 늘어서는 방향이 서로 상관없이 정해진다. 그래서 RY, ry, Ry, rY 네 가지 생식세포가 1/4씩 생긴다(독립의 법칙). 복제 과정을 생략한 모식도이다.</desc>
+  <style>
+    .m3-06-segregation-chromosomes-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .m3-06-segregation-chromosomes-tx{font-size:14px;fill:var(--fig-ink)}
+    .m3-06-segregation-chromosomes-sm{font-size:13px;fill:var(--fig-muted)}
+  </style>
+  <rect x="10.0" y="10.0" width="236.0" height="380.0" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="128.0" y="36.0" text-anchor="middle" class="m3-06-segregation-chromosomes-lbl">분리의 법칙 (한 쌍)</text>
+  <circle cx="128.0" cy="120.0" r="52.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="110.0" y1="92.0" x2="110.0" y2="148.0" style="stroke:var(--fig-red);stroke-width:8;stroke-linecap:round"/>
+  <rect x="104.0" y="108.6" width="12.0" height="6.0" style="fill:var(--fig-ink)"/>
+  <text x="100.0" y="116.6" text-anchor="end" class="m3-06-segregation-chromosomes-lbl">R</text>
+  <line x1="146.0" y1="92.0" x2="146.0" y2="148.0" style="stroke:var(--fig-blue);stroke-width:8;stroke-linecap:round"/>
+  <rect x="140.0" y="108.6" width="12.0" height="6.0" style="fill:var(--fig-ink)"/>
+  <text x="156.0" y="116.6" class="m3-06-segregation-chromosomes-lbl">r</text>
+  <text x="128.0" y="192.0" text-anchor="middle" class="m3-06-segregation-chromosomes-sm">체세포 Rr — 상동 염색체 한 쌍</text>
+  <line x1="128.0" y1="202.0" x2="128.0" y2="229.0" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <path d="M128.0 236.0 L124.5 229.0 L131.5 229.0 Z" style="fill:var(--fig-ink)"/>
+  <text x="136.0" y="224.0" class="m3-06-segregation-chromosomes-sm">감수 분열</text>
+  <circle cx="72.0" cy="278.0" r="26.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <line x1="68.0" y1="262.0" x2="68.0" y2="294.0" style="stroke:var(--fig-red);stroke-width:8;stroke-linecap:round"/>
+  <rect x="62.0" y="270.2" width="12.0" height="6.0" style="fill:var(--fig-ink)"/>
+  <text x="72.0" y="324.0" text-anchor="middle" class="m3-06-segregation-chromosomes-lbl">R</text>
+  <text x="72.0" y="342.0" text-anchor="middle" class="m3-06-segregation-chromosomes-sm">1/2</text>
+  <circle cx="184.0" cy="278.0" r="26.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <line x1="180.0" y1="262.0" x2="180.0" y2="294.0" style="stroke:var(--fig-blue);stroke-width:8;stroke-linecap:round"/>
+  <rect x="174.0" y="270.2" width="12.0" height="6.0" style="fill:var(--fig-ink)"/>
+  <text x="184.0" y="324.0" text-anchor="middle" class="m3-06-segregation-chromosomes-lbl">r</text>
+  <text x="184.0" y="342.0" text-anchor="middle" class="m3-06-segregation-chromosomes-sm">1/2</text>
+  <text x="128.0" y="372.0" text-anchor="middle" class="m3-06-segregation-chromosomes-sm">한 쌍이 갈라져 따로 들어간다</text>
+  <rect x="256.0" y="10.0" width="454.0" height="380.0" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="483.0" y="36.0" text-anchor="middle" class="m3-06-segregation-chromosomes-lbl">독립의 법칙 (서로 다른 염색체의 두 쌍)</text>
+  <text x="483.0" y="58.0" text-anchor="middle" class="m3-06-segregation-chromosomes-sm">첫 번째 분열에서 쌍마다 갈라지는 방향은 서로 상관없이 정해진다</text>
+  <text x="370.0" y="84.0" text-anchor="middle" class="m3-06-segregation-chromosomes-lbl">경우 1</text>
+  <ellipse cx="370.0" cy="152.0" rx="92.0" ry="56.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="370.0" y1="104.0" x2="370.0" y2="200.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:3 3"/>
+  <line x1="352.0" y1="111.0" x2="352.0" y2="157.0" style="stroke:var(--fig-red);stroke-width:8;stroke-linecap:round"/>
+  <rect x="346.0" y="124.1" width="12.0" height="6.0" style="fill:var(--fig-ink)"/>
+  <text x="342.0" y="132.1" text-anchor="end" class="m3-06-segregation-chromosomes-lbl">R</text>
+  <line x1="388.0" y1="111.0" x2="388.0" y2="157.0" style="stroke:var(--fig-blue);stroke-width:8;stroke-linecap:round"/>
+  <rect x="382.0" y="124.1" width="12.0" height="6.0" style="fill:var(--fig-ink)"/>
+  <text x="398.0" y="132.1" class="m3-06-segregation-chromosomes-lbl">r</text>
+  <line x1="352.0" y1="167.0" x2="352.0" y2="193.0" style="stroke:var(--fig-red);stroke-width:8;stroke-linecap:round"/>
+  <rect x="346.0" y="174.4" width="12.0" height="6.0" style="fill:var(--fig-ink)"/>
+  <text x="342.0" y="182.4" text-anchor="end" class="m3-06-segregation-chromosomes-lbl">Y</text>
+  <line x1="388.0" y1="167.0" x2="388.0" y2="193.0" style="stroke:var(--fig-blue);stroke-width:8;stroke-linecap:round"/>
+  <rect x="382.0" y="174.4" width="12.0" height="6.0" style="fill:var(--fig-ink)"/>
+  <text x="398.0" y="182.4" class="m3-06-segregation-chromosomes-lbl">y</text>
+  <line x1="330.0" y1="214.0" x2="313.7" y2="240.1" style="stroke:var(--fig-ink);stroke-width:1.6"/>
+  <path d="M310.0 246.0 L310.7 238.2 L316.7 241.9 Z" style="fill:var(--fig-ink)"/>
+  <line x1="410.0" y1="214.0" x2="426.3" y2="240.1" style="stroke:var(--fig-ink);stroke-width:1.6"/>
+  <path d="M430.0 246.0 L423.3 241.9 L429.3 238.2 Z" style="fill:var(--fig-ink)"/>
+  <circle cx="312.0" cy="284.0" r="26.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <line x1="302.0" y1="269.0" x2="302.0" y2="299.0" style="stroke:var(--fig-red);stroke-width:8;stroke-linecap:round"/>
+  <rect x="296.0" y="276.5" width="12.0" height="6.0" style="fill:var(--fig-ink)"/>
+  <line x1="326.0" y1="275.0" x2="326.0" y2="293.0" style="stroke:var(--fig-red);stroke-width:8;stroke-linecap:round"/>
+  <rect x="320.0" y="278.3" width="12.0" height="6.0" style="fill:var(--fig-ink)"/>
+  <text x="312.0" y="330.0" text-anchor="middle" class="m3-06-segregation-chromosomes-lbl">RY</text>
+  <text x="312.0" y="348.0" text-anchor="middle" class="m3-06-segregation-chromosomes-sm">1/4</text>
+  <circle cx="428.0" cy="284.0" r="26.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <line x1="418.0" y1="269.0" x2="418.0" y2="299.0" style="stroke:var(--fig-blue);stroke-width:8;stroke-linecap:round"/>
+  <rect x="412.0" y="276.5" width="12.0" height="6.0" style="fill:var(--fig-ink)"/>
+  <line x1="442.0" y1="275.0" x2="442.0" y2="293.0" style="stroke:var(--fig-blue);stroke-width:8;stroke-linecap:round"/>
+  <rect x="436.0" y="278.3" width="12.0" height="6.0" style="fill:var(--fig-ink)"/>
+  <text x="428.0" y="330.0" text-anchor="middle" class="m3-06-segregation-chromosomes-lbl">ry</text>
+  <text x="428.0" y="348.0" text-anchor="middle" class="m3-06-segregation-chromosomes-sm">1/4</text>
+  <text x="596.0" y="84.0" text-anchor="middle" class="m3-06-segregation-chromosomes-lbl">경우 2</text>
+  <ellipse cx="596.0" cy="152.0" rx="92.0" ry="56.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="596.0" y1="104.0" x2="596.0" y2="200.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:3 3"/>
+  <line x1="578.0" y1="111.0" x2="578.0" y2="157.0" style="stroke:var(--fig-red);stroke-width:8;stroke-linecap:round"/>
+  <rect x="572.0" y="124.1" width="12.0" height="6.0" style="fill:var(--fig-ink)"/>
+  <text x="568.0" y="132.1" text-anchor="end" class="m3-06-segregation-chromosomes-lbl">R</text>
+  <line x1="614.0" y1="111.0" x2="614.0" y2="157.0" style="stroke:var(--fig-blue);stroke-width:8;stroke-linecap:round"/>
+  <rect x="608.0" y="124.1" width="12.0" height="6.0" style="fill:var(--fig-ink)"/>
+  <text x="624.0" y="132.1" class="m3-06-segregation-chromosomes-lbl">r</text>
+  <line x1="578.0" y1="167.0" x2="578.0" y2="193.0" style="stroke:var(--fig-blue);stroke-width:8;stroke-linecap:round"/>
+  <rect x="572.0" y="174.4" width="12.0" height="6.0" style="fill:var(--fig-ink)"/>
+  <text x="568.0" y="182.4" text-anchor="end" class="m3-06-segregation-chromosomes-lbl">y</text>
+  <line x1="614.0" y1="167.0" x2="614.0" y2="193.0" style="stroke:var(--fig-red);stroke-width:8;stroke-linecap:round"/>
+  <rect x="608.0" y="174.4" width="12.0" height="6.0" style="fill:var(--fig-ink)"/>
+  <text x="624.0" y="182.4" class="m3-06-segregation-chromosomes-lbl">Y</text>
+  <line x1="556.0" y1="214.0" x2="539.7" y2="240.1" style="stroke:var(--fig-ink);stroke-width:1.6"/>
+  <path d="M536.0 246.0 L536.7 238.2 L542.7 241.9 Z" style="fill:var(--fig-ink)"/>
+  <line x1="636.0" y1="214.0" x2="652.3" y2="240.1" style="stroke:var(--fig-ink);stroke-width:1.6"/>
+  <path d="M656.0 246.0 L649.3 241.9 L655.3 238.2 Z" style="fill:var(--fig-ink)"/>
+  <circle cx="538.0" cy="284.0" r="26.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <line x1="528.0" y1="269.0" x2="528.0" y2="299.0" style="stroke:var(--fig-red);stroke-width:8;stroke-linecap:round"/>
+  <rect x="522.0" y="276.5" width="12.0" height="6.0" style="fill:var(--fig-ink)"/>
+  <line x1="552.0" y1="275.0" x2="552.0" y2="293.0" style="stroke:var(--fig-blue);stroke-width:8;stroke-linecap:round"/>
+  <rect x="546.0" y="278.3" width="12.0" height="6.0" style="fill:var(--fig-ink)"/>
+  <text x="538.0" y="330.0" text-anchor="middle" class="m3-06-segregation-chromosomes-lbl">Ry</text>
+  <text x="538.0" y="348.0" text-anchor="middle" class="m3-06-segregation-chromosomes-sm">1/4</text>
+  <circle cx="654.0" cy="284.0" r="26.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <line x1="644.0" y1="269.0" x2="644.0" y2="299.0" style="stroke:var(--fig-blue);stroke-width:8;stroke-linecap:round"/>
+  <rect x="638.0" y="276.5" width="12.0" height="6.0" style="fill:var(--fig-ink)"/>
+  <line x1="668.0" y1="275.0" x2="668.0" y2="293.0" style="stroke:var(--fig-red);stroke-width:8;stroke-linecap:round"/>
+  <rect x="662.0" y="278.3" width="12.0" height="6.0" style="fill:var(--fig-ink)"/>
+  <text x="654.0" y="330.0" text-anchor="middle" class="m3-06-segregation-chromosomes-lbl">rY</text>
+  <text x="654.0" y="348.0" text-anchor="middle" class="m3-06-segregation-chromosomes-sm">1/4</text>
+  <text x="483.0" y="372.0" text-anchor="middle" class="m3-06-segregation-chromosomes-tx">두 경우가 같은 확률로 일어나 RY : Ry : rY : ry = 1 : 1 : 1 : 1</text>
+</svg>

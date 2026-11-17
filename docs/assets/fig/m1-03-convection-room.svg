@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-labelledby="t-m1-03-convection-room d-m1-03-convection-room">
+<title id="t-m1-03-convection-room">그림 중1-3-6 난로는 아래에, 에어컨은 위에 두는 까닭</title>
+<desc id="d-m1-03-convection-room">난로를 바닥에 두면 데워진 공기가 위로 올라가고 차가운 공기가 내려와 방 전체에 대류가 일어난다. 에어컨을 위쪽에 두면 차가운 공기가 아래로 내려가고 따뜻한 공기가 올라가 대류가 일어난다. 빨간 화살표는 따뜻한 공기, 파란 화살표는 차가운 공기이다. 단면 모식도.</desc>
+<style>
+  .m103c-ttl{font-size:16px;font-weight:700;fill:var(--fig-ink)}
+  .m103c-ink{font-size:14px;fill:var(--fig-ink)}
+  .m103c-b{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+  .m103c-b15{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+  .m103c-sm{font-size:13px;fill:var(--fig-muted)}
+  .m103c-smi{font-size:13px;fill:var(--fig-ink)}
+  .m103c-acc{font-size:14px;font-weight:700;fill:var(--fig-accent)}
+  .m103c-box{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.2}
+  .m103c-panel{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2}
+  .m103c-panel0{fill:var(--fig-panel)}
+  .m103c-ln{fill:none;stroke:var(--fig-ink);stroke-width:2}
+  .m103c-thin{fill:none;stroke:var(--fig-ink);stroke-width:1.2}
+  .m103c-grid{fill:none;stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4}
+  .m103c-dash{fill:none;stroke:var(--fig-line);stroke-width:1.3;stroke-dasharray:5 5}
+  .m103c-ar{fill:none;stroke:var(--fig-ink);stroke-width:2}
+  .m103c-ah{fill:var(--fig-ink)}
+  .m103c-lead{fill:none;stroke:var(--fig-muted);stroke-width:1}
+  .m103c-dot{fill:var(--fig-muted)}
+  .m103c-mut{fill:var(--fig-muted)}
+  .m103c-inkf{fill:var(--fig-ink)}
+  .m103c-paperf{fill:var(--fig-paper)}
+  .m103c-linef{fill:var(--fig-line)}
+  .m103c-fbl{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2}
+  .m103c-sbl{fill:var(--fig-soft-blue)}
+  .m103c-obl{fill:none;stroke:var(--fig-blue);stroke-width:2}
+  .m103c-cbl{fill:var(--fig-blue)}
+  .m103c-tbl{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+  .m103c-abl{fill:none;stroke:var(--fig-blue);stroke-width:2.4}
+  .m103c-fre{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2}
+  .m103c-sre{fill:var(--fig-soft-red)}
+  .m103c-ore{fill:none;stroke:var(--fig-red);stroke-width:2}
+  .m103c-cre{fill:var(--fig-red)}
+  .m103c-tre{font-size:14px;font-weight:700;fill:var(--fig-red)}
+  .m103c-are{fill:none;stroke:var(--fig-red);stroke-width:2.4}
+  .m103c-fgr{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2}
+  .m103c-sgr{fill:var(--fig-soft-green)}
+  .m103c-ogr{fill:none;stroke:var(--fig-green);stroke-width:2}
+  .m103c-cgr{fill:var(--fig-green)}
+  .m103c-tgr{font-size:14px;font-weight:700;fill:var(--fig-green)}
+  .m103c-agr{fill:none;stroke:var(--fig-green);stroke-width:2.4}
+  .m103c-fam{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+  .m103c-sam{fill:var(--fig-soft-amber)}
+  .m103c-oam{fill:none;stroke:var(--fig-amber);stroke-width:2}
+  .m103c-cam{fill:var(--fig-amber)}
+  .m103c-tam{font-size:14px;font-weight:700;fill:var(--fig-amber)}
+  .m103c-aam{fill:none;stroke:var(--fig-amber);stroke-width:2.4}
+  .m103c-fvi{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2}
+  .m103c-svi{fill:var(--fig-soft-violet)}
+  .m103c-ovi{fill:none;stroke:var(--fig-violet);stroke-width:2}
+  .m103c-cvi{fill:var(--fig-violet)}
+  .m103c-tvi{font-size:14px;font-weight:700;fill:var(--fig-violet)}
+  .m103c-avi{fill:none;stroke:var(--fig-violet);stroke-width:2.4}
+  .m103c-fte{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2}
+  .m103c-ste{fill:var(--fig-soft-teal)}
+  .m103c-ote{fill:none;stroke:var(--fig-teal);stroke-width:2}
+  .m103c-cte{fill:var(--fig-teal)}
+  .m103c-tte{font-size:14px;font-weight:700;fill:var(--fig-teal)}
+  .m103c-ate{fill:none;stroke:var(--fig-teal);stroke-width:2.4}
+</style>
+<rect x="8.0" y="8.0" width="342.0" height="304.0" rx="8" class="m103c-box"/>
+<text x="24.0" y="34.0" class="m103c-b15">난로는 바닥에</text>
+<rect x="28.0" y="48.0" width="302.0" height="210.0" class="m103c-panel" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+<rect x="370.0" y="8.0" width="342.0" height="304.0" rx="8" class="m103c-box"/>
+<text x="386.0" y="34.0" class="m103c-b15">에어컨은 위쪽에</text>
+<rect x="390.0" y="48.0" width="302.0" height="210.0" class="m103c-panel" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+<rect x="44.0" y="216.0" width="54.0" height="40.0" rx="4" class="m103c-fre"/>
+<line x1="52.0" y1="226.0" x2="90.0" y2="226.0" class="m103c-ore"/>
+<line x1="52.0" y1="236.0" x2="90.0" y2="236.0" class="m103c-ore"/>
+<line x1="52.0" y1="246.0" x2="90.0" y2="246.0" class="m103c-ore"/>
+<text x="71.0" y="278.0" text-anchor="middle" class="m103c-tre">난로</text>
+<line x1="72.0" y1="184.9" x2="72.0" y2="96.8" class="m103c-are"/>
+<path d="M72.0 89.1 L76.5 99.2 L67.5 99.2 Z" class="m103c-cre"/>
+<line x1="98.6" y1="74.0" x2="259.7" y2="74.0" class="m103c-are"/>
+<path d="M267.4 74.0 L257.3 78.5 L257.3 69.5 Z" class="m103c-cre"/>
+<line x1="294.0" y1="89.1" x2="294.0" y2="177.2" class="m103c-abl"/>
+<path d="M294.0 184.9 L289.5 174.8 L298.5 174.8 Z" class="m103c-cbl"/>
+<line x1="267.4" y1="200.0" x2="106.3" y2="200.0" class="m103c-abl"/>
+<path d="M98.6 200.0 L108.7 195.5 L108.7 204.5 Z" class="m103c-cbl"/>
+<text x="28.0" y="282.0" class="m103c-smi"></text>
+<text x="28.0" y="302.0" class="m103c-smi">데워진 공기가 올라가고, 찬 공기가 내려온다.</text>
+<rect x="404.0" y="54.0" width="90.0" height="30.0" rx="4" class="m103c-fbl"/>
+<line x1="412.0" y1="78.0" x2="420.0" y2="78.0" class="m103c-obl"/>
+<line x1="432.0" y1="78.0" x2="440.0" y2="78.0" class="m103c-obl"/>
+<line x1="452.0" y1="78.0" x2="460.0" y2="78.0" class="m103c-obl"/>
+<line x1="472.0" y1="78.0" x2="480.0" y2="78.0" class="m103c-obl"/>
+<text x="510.0" y="74.0" class="m103c-tbl">에어컨</text>
+<line x1="448.0" y1="116.3" x2="448.0" y2="212.0" class="m103c-abl"/>
+<path d="M448.0 219.7 L443.5 209.6 L452.5 209.6 Z" class="m103c-cbl"/>
+<line x1="473.4" y1="236.0" x2="626.9" y2="236.0" class="m103c-abl"/>
+<path d="M634.6 236.0 L624.5 240.5 L624.5 231.5 Z" class="m103c-cbl"/>
+<line x1="660.0" y1="219.7" x2="660.0" y2="124.0" class="m103c-are"/>
+<path d="M660.0 116.3 L664.5 126.4 L655.5 126.4 Z" class="m103c-cre"/>
+<line x1="634.6" y1="100.0" x2="481.1" y2="100.0" class="m103c-are"/>
+<path d="M473.4 100.0 L483.5 95.5 L483.5 104.5 Z" class="m103c-cre"/>
+<text x="390.0" y="282.0" class="m103c-smi"></text>
+<text x="390.0" y="302.0" class="m103c-smi">찬 공기가 내려가고, 따뜻한 공기가 올라온다.</text>
+</svg>

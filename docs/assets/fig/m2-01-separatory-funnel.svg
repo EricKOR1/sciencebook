@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-m2-01-separatory-funnel d-m2-01-separatory-funnel">
+  <title id="t-m2-01-separatory-funnel">그림 중2-1-5 분별 깔때기로 물과 식용유 분리하기</title>
+  <desc id="d-m2-01-separatory-funnel">서로 섞이지 않는 물과 식용유를 분별 깔때기에 넣고 잠시 두면 밀도가 작은 식용유는 위층, 밀도가 큰 물은 아래층이 된다. 위쪽 마개를 열고 꼭지를 돌려 아래층의 물을 먼저 받아 내고, 위층의 식용유는 위쪽 입구로 따라 낸다.</desc>
+  <style>
+    .m2-01-separatory-funnel-b{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .m2-01-separatory-funnel-t{font-size:14px;fill:var(--fig-ink)}
+    .m2-01-separatory-funnel-tb{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+    .m2-01-separatory-funnel-s{font-size:13px;fill:var(--fig-muted)}
+    .m2-01-separatory-funnel-ln{fill:none;stroke:var(--fig-ink);stroke-width:1.5}
+    .m2-01-separatory-funnel-lm{fill:none;stroke:var(--fig-muted);stroke-width:1.2}
+  </style>
+  <rect x="60" y="370" width="300" height="10" style="fill:var(--fig-line)"/>
+  <rect x="70" y="40" width="8" height="332" style="fill:var(--fig-line)"/>
+  <rect x="74" y="190" width="118" height="6" style="fill:var(--fig-line)"/>
+  <circle cx="230" cy="193" r="40" style="fill:none;stroke:var(--fig-line);stroke-width:5"/>
+  <clipPath id="m2-01-separatory-funnel-cb"><path d="M221 70 L221 92 C 155 130, 168 205, 222 245 L238 245 C 292 205, 305 130, 239 92 L239 70 Z"/></clipPath>
+  <g clip-path="url(#m2-01-separatory-funnel-cb)">
+  <rect x="150" y="128" width="160" height="56" style="fill:var(--fig-soft-amber)"/>
+  <rect x="150" y="184" width="160" height="70" style="fill:var(--fig-soft-blue)"/>
+  </g>
+  <line x1="160.0" y1="184.0" x2="300.0" y2="184.0" style="stroke:var(--fig-ink);stroke-width:1;stroke-dasharray:3 2"/>
+  <path d="M221 70 L221 92 C 155 130, 168 205, 222 245 L238 245 C 292 205, 305 130, 239 92 L239 70 Z" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <rect x="218" y="56" width="24" height="16" rx="3" style="fill:var(--fig-muted)"/>
+  <rect x="225" y="245" width="10" height="70" style="fill:var(--fig-soft-blue);stroke:var(--fig-ink);stroke-width:1.5"/>
+  <rect x="208" y="262" width="44" height="10" rx="3" style="fill:var(--fig-muted);stroke:var(--fig-ink);stroke-width:1"/>
+  <ellipse cx="230" cy="324" rx="3.5" ry="5" style="fill:var(--fig-blue)"/>
+  <path d="M192 300 L196 368 L264 368 L268 300" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <path d="M194.4 340 L196 367 L264 367 L265.6 340 Z" style="fill:var(--fig-soft-blue)"/>
+  <line x1="242.0" y1="64.0" x2="394.0" y2="55.0" style="stroke:var(--fig-ink);stroke-width:1.1"/>
+  <text x="400.0" y="60.0" class="m2-01-separatory-funnel-tb">마개</text>
+  <text x="400.0" y="78.0" class="m2-01-separatory-funnel-s">먼저 연다 (공기가 들어가야 잘 흐른다)</text>
+  <line x1="270.0" y1="155.0" x2="394.0" y2="125.0" style="stroke:var(--fig-ink);stroke-width:1.1"/>
+  <text x="400.0" y="130.0" class="m2-01-separatory-funnel-tb">식용유 (위층)</text>
+  <text x="400.0" y="148.0" class="m2-01-separatory-funnel-s">밀도가 작다 · 위쪽 입구로 따라 낸다</text>
+  <line x1="275.0" y1="215.0" x2="394.0" y2="195.0" style="stroke:var(--fig-ink);stroke-width:1.1"/>
+  <text x="400.0" y="200.0" class="m2-01-separatory-funnel-tb">물 (아래층)</text>
+  <text x="400.0" y="218.0" class="m2-01-separatory-funnel-s">밀도가 크다 · 먼저 받아 낸다</text>
+  <line x1="252.0" y1="267.0" x2="394.0" y2="265.0" style="stroke:var(--fig-ink);stroke-width:1.1"/>
+  <text x="400.0" y="270.0" class="m2-01-separatory-funnel-tb">꼭지</text>
+  <text x="400.0" y="288.0" class="m2-01-separatory-funnel-s">돌려서 아래층을 흘려 보낸다</text>
+  <line x1="266.0" y1="350.0" x2="394.0" y2="335.0" style="stroke:var(--fig-ink);stroke-width:1.1"/>
+  <text x="400.0" y="340.0" class="m2-01-separatory-funnel-tb">비커</text>
+  <text x="400.0" y="358.0" class="m2-01-separatory-funnel-s">아래층의 물이 모인다</text>
+  <text x="360.0" y="392.0" text-anchor="middle" class="m2-01-separatory-funnel-s">두 층의 경계가 꼭지에 닿으면 꼭지를 잠근다</text>
+</svg>

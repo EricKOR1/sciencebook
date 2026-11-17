@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-labelledby="t-m1-04-refrigerator d-m1-04-refrigerator">
+  <title id="t-m1-04-refrigerator">그림 중1-4-8 냉장고가 열을 옮기는 원리</title>
+  <desc id="d-m1-04-refrigerator">냉매가 관을 따라 돌면서 냉장고 안쪽 관에서는 기화하며 안의 열을 흡수하고, 압축기를 지나 냉장고 바깥쪽 관에서는 액화하며 열을 방출한다. 액체가 된 냉매는 가는 관을 지나 다시 안쪽으로 돌아온다. 관의 모양과 배치는 모식적이다.</desc>
+  <style>
+    .rf-red{fill:none;stroke:var(--fig-red)} .rf-redh{fill:var(--fig-red)}
+    .rf-blue{fill:none;stroke:var(--fig-blue)} .rf-blueh{fill:var(--fig-blue)}
+    .rf-green{fill:none;stroke:var(--fig-green)} .rf-greenh{fill:var(--fig-green)}
+    .rf-amber{fill:none;stroke:var(--fig-amber)} .rf-amberh{fill:var(--fig-amber)}
+    .rf-violet{fill:none;stroke:var(--fig-violet)} .rf-violeth{fill:var(--fig-violet)}
+    .rf-teal{fill:none;stroke:var(--fig-teal)} .rf-tealh{fill:var(--fig-teal)}
+    .rf-ink{fill:none;stroke:var(--fig-ink)} .rf-inkh{fill:var(--fig-ink)}
+    .rf-muted{fill:none;stroke:var(--fig-muted)} .rf-mutedh{fill:var(--fig-muted)}
+    .rf-line{fill:none;stroke:var(--fig-line)} .rf-lineh{fill:var(--fig-line)}
+    .rf-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .rf-t{font-size:14px;fill:var(--fig-ink)}
+    .rf-sm{font-size:13px;fill:var(--fig-muted)}
+    .rf-redb{font-size:14px;font-weight:700;fill:var(--fig-red)}
+    .rf-sred{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6}
+    .rf-blueb{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+    .rf-sblue{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6}
+    .rf-greenb{font-size:14px;font-weight:700;fill:var(--fig-green)}
+    .rf-sgreen{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6}
+    .rf-amberb{font-size:14px;font-weight:700;fill:var(--fig-amber)}
+    .rf-samber{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6}
+    .rf-violetb{font-size:14px;font-weight:700;fill:var(--fig-violet)}
+    .rf-sviolet{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6}
+    .rf-tealb{font-size:14px;font-weight:700;fill:var(--fig-teal)}
+    .rf-steal{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.6}
+    .rf-panel{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.4}
+    .rf-paper{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.4}
+    .rf-axis{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
+    .rf-grid{fill:none;stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4}
+    .rf-dash{fill:none;stroke:var(--fig-muted);stroke-width:1.4;stroke-dasharray:5 4}
+    .rf-pipe{fill:none;stroke:var(--fig-ink);stroke-width:5;stroke-linejoin:round;stroke-linecap:round} .rf-in{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6} .rf-out{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6} .rf-comp{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2}
+  </style>
+  <rect x="30.0" y="60.0" width="270.0" height="250.0" rx="10" class="rf-in"/>
+  <rect x="420.0" y="60.0" width="270.0" height="250.0" rx="10" class="rf-out"/>
+  <text x="165.0" y="84.0" text-anchor="middle" class="rf-blueb">냉장고 안쪽</text>
+  <text x="555.0" y="84.0" text-anchor="middle" class="rf-redb">냉장고 바깥쪽(뒤·실외기)</text>
+  <path d="M110 240 L220 240 L220 214 L110 214 L110 188 L220 188 L220 162 L110 162 L110 136 L220 136 L220 110 L110 110 L220 110 L250 110 L250 40 L470 40 L470 110 L500 110 L610 110 L610 136 L500 136 L500 162 L610 162 L610 188 L500 188 L500 214 L610 214 L610 240 L500 240 L500 240 L470 240 L470 338 L250 338 L250 240 L110 240" class="rf-pipe"/>
+  <rect x="325.0" y="22.0" width="70.0" height="36.0" rx="6" class="rf-comp"/>
+  <text x="360.0" y="45.0" text-anchor="middle" class="rf-t">압축기</text>
+  <rect x="330.0" y="332.0" width="60.0" height="12.0" rx="3" class="rf-comp"/>
+  <text x="360.0" y="382.0" text-anchor="middle" class="rf-sm">가는 관을 지나 다시 안으로</text>
+  <line x1="280.0" y1="28.0" x2="307.0" y2="28.0" class="rf-ink" style="stroke-width:2;stroke-linecap:round"/>
+  <path d="M316.0 28.0 L307.0 32.3 L307.0 23.7 Z" class="rf-inkh"/>
+  <line x1="404.0" y1="28.0" x2="431.0" y2="28.0" class="rf-ink" style="stroke-width:2;stroke-linecap:round"/>
+  <path d="M440.0 28.0 L431.0 32.3 L431.0 23.7 Z" class="rf-inkh"/>
+  <line x1="320.0" y1="358.0" x2="289.0" y2="358.0" class="rf-ink" style="stroke-width:2;stroke-linecap:round"/>
+  <path d="M280.0 358.0 L289.0 353.7 L289.0 362.3 Z" class="rf-inkh"/>
+  <line x1="52.0" y1="125.0" x2="88.0" y2="125.0" class="rf-red" style="stroke-width:2.5;stroke-linecap:round"/>
+  <path d="M98.0 125.0 L88.0 129.8 L88.0 120.2 Z" class="rf-redh"/>
+  <line x1="52.0" y1="195.0" x2="88.0" y2="195.0" class="rf-red" style="stroke-width:2.5;stroke-linecap:round"/>
+  <path d="M98.0 195.0 L88.0 199.8 L88.0 190.2 Z" class="rf-redh"/>
+  <line x1="52.0" y1="255.0" x2="88.0" y2="255.0" class="rf-red" style="stroke-width:2.5;stroke-linecap:round"/>
+  <path d="M98.0 255.0 L88.0 259.8 L88.0 250.2 Z" class="rf-redh"/>
+  <line x1="622.0" y1="125.0" x2="658.0" y2="125.0" class="rf-red" style="stroke-width:2.5;stroke-linecap:round"/>
+  <path d="M668.0 125.0 L658.0 129.8 L658.0 120.2 Z" class="rf-redh"/>
+  <line x1="622.0" y1="195.0" x2="658.0" y2="195.0" class="rf-red" style="stroke-width:2.5;stroke-linecap:round"/>
+  <path d="M668.0 195.0 L658.0 199.8 L658.0 190.2 Z" class="rf-redh"/>
+  <line x1="622.0" y1="255.0" x2="658.0" y2="255.0" class="rf-red" style="stroke-width:2.5;stroke-linecap:round"/>
+  <path d="M668.0 255.0 L658.0 259.8 L658.0 250.2 Z" class="rf-redh"/>
+  <text x="46.0" y="160.0" class="rf-redb">열</text>
+  <text x="640.0" y="160.0" class="rf-redb">열</text>
+  <text x="165.0" y="278.0" text-anchor="middle" class="rf-t">① 액체 → 기체 (기화)</text>
+  <text x="165.0" y="296.0" text-anchor="middle" class="rf-sm">안의 열을 흡수 → 차가워짐</text>
+  <text x="360.0" y="82.0" text-anchor="middle" class="rf-t">② 기체를 압축</text>
+  <text x="555.0" y="278.0" text-anchor="middle" class="rf-t">③ 기체 → 액체 (액화)</text>
+  <text x="555.0" y="296.0" text-anchor="middle" class="rf-sm">열을 방출 → 바깥이 따뜻해짐</text>
+  <text x="360.0" y="180.0" text-anchor="middle" class="rf-sm">냉매가</text>
+  <text x="360.0" y="198.0" text-anchor="middle" class="rf-sm">관을 따라 돈다</text>
+</svg>

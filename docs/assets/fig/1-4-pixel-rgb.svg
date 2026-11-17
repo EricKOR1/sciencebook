@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-1-4-pixel-rgb d-1-4-pixel-rgb">
+  <title id="t-1-4-pixel-rgb">그림 1-4-3 화소 하나를 0과 1로 나타내기</title>
+  <desc id="d-1-4-pixel-rgb">디지털 사진은 작은 화소들로 이루어진다. 화소 하나는 빨강·초록·파랑 빛의 밝기를 각각 8비트(0~255)로 나타내므로 24비트(3바이트)이고, 256×256×256 = 16 777 216가지 색을 나타낼 수 있다. 그림 속 색은 실제 색을 보여 주기 위한 것이다.</desc>
+  <style>
+    .pix14-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .pix14-txt{font-size:14px;fill:var(--fig-ink)}
+    .pix14-sm{font-size:13px;fill:var(--fig-muted)}
+    .pix14-mono{font-size:14px;letter-spacing:1px;fill:var(--fig-ink)}
+  </style>
+  <rect x="30" y="70" width="30" height="30" style="fill:rgb(255,165,0);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="60" y="70" width="30" height="30" style="fill:rgb(255,165,0);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="90" y="70" width="30" height="30" style="fill:rgb(255,165,0);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="120" y="70" width="30" height="30" style="fill:rgb(255,165,0);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="150" y="70" width="30" height="30" style="fill:rgb(255,165,0);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="180" y="70" width="30" height="30" style="fill:rgb(255,165,0);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="30" y="100" width="30" height="30" style="fill:rgb(255,131,20);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="60" y="100" width="30" height="30" style="fill:rgb(255,131,20);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="90" y="100" width="30" height="30" style="fill:rgb(255,131,20);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="120" y="100" width="30" height="30" style="fill:rgb(255,131,20);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="150" y="100" width="30" height="30" style="fill:rgb(255,131,20);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="180" y="100" width="30" height="30" style="fill:rgb(255,131,20);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="30" y="130" width="30" height="30" style="fill:rgb(255,98,40);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="60" y="130" width="30" height="30" style="fill:rgb(255,98,40);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="90" y="130" width="30" height="30" style="fill:rgb(255,98,40);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="120" y="130" width="30" height="30" style="fill:rgb(255,98,40);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="150" y="130" width="30" height="30" style="fill:rgb(255,98,40);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="180" y="130" width="30" height="30" style="fill:rgb(255,98,40);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="30" y="160" width="30" height="30" style="fill:rgb(255,65,60);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="60" y="160" width="30" height="30" style="fill:rgb(255,65,60);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="90" y="160" width="30" height="30" style="fill:rgb(255,65,60);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="120" y="160" width="30" height="30" style="fill:rgb(255,65,60);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="150" y="160" width="30" height="30" style="fill:rgb(255,65,60);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="180" y="160" width="30" height="30" style="fill:rgb(255,65,60);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="30" y="190" width="30" height="30" style="fill:rgb(30,60,120);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="60" y="190" width="30" height="30" style="fill:rgb(40,60,120);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="90" y="190" width="30" height="30" style="fill:rgb(50,60,120);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="120" y="190" width="30" height="30" style="fill:rgb(60,60,120);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="150" y="190" width="30" height="30" style="fill:rgb(70,60,120);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="180" y="190" width="30" height="30" style="fill:rgb(80,60,120);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="30" y="220" width="30" height="30" style="fill:rgb(30,60,170);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="60" y="220" width="30" height="30" style="fill:rgb(40,60,170);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="90" y="220" width="30" height="30" style="fill:rgb(50,60,170);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="120" y="220" width="30" height="30" style="fill:rgb(60,60,170);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="150" y="220" width="30" height="30" style="fill:rgb(70,60,170);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="180" y="220" width="30" height="30" style="fill:rgb(80,60,170);stroke:var(--fig-paper);stroke-width:1"/>
+  <rect x="30" y="70" width="30" height="30" style="fill:none;stroke:var(--fig-ink);stroke-width:3"/>
+  <text x="120.0" y="40.0" text-anchor="middle" class="pix14-lbl">사진(확대)</text>
+  <text x="120.0" y="58.0" text-anchor="middle" class="pix14-sm">작은 칸 하나 = 화소</text>
+  <text x="120.0" y="274.0" text-anchor="middle" class="pix14-sm">6 × 6 = 36개 화소</text>
+  <path d="M60 70 L250 70 M60 100 L250 250" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 3;fill:none"/>
+  <rect x="250.0" y="70" width="50.0" height="180" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <rect x="258.0" y="70.0" width="34.0" height="180.0" style="fill:var(--fig-red)"/>
+  <text x="275.0" y="270.0" text-anchor="middle" class="pix14-sm" style="fill:var(--fig-red);font-weight:600">빨강</text>
+  <rect x="300.0" y="70" width="50.0" height="180" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <rect x="308.0" y="133.5" width="34.0" height="116.5" style="fill:var(--fig-green)"/>
+  <text x="325.0" y="270.0" text-anchor="middle" class="pix14-sm" style="fill:var(--fig-green);font-weight:600">초록</text>
+  <rect x="350.0" y="70" width="50.0" height="180" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="375.0" y="270.0" text-anchor="middle" class="pix14-sm" style="fill:var(--fig-blue);font-weight:600">파랑</text>
+  <text x="325.0" y="40.0" text-anchor="middle" class="pix14-lbl">화소 하나</text>
+  <text x="325.0" y="58.0" text-anchor="middle" class="pix14-sm">세 빛의 밝기(막대 높이)</text>
+  <text x="430.0" y="92.0" text-anchor="start" class="pix14-lbl">밝기(0~255)  →  8비트 이진수</text>
+  <text x="430.0" y="130.0" text-anchor="start" class="pix14-txt" style="fill:var(--fig-red);font-weight:600">빨강</text>
+  <text x="500.0" y="130.0" text-anchor="end" class="pix14-txt">255</text>
+  <text x="520.0" y="130.0" text-anchor="start" class="pix14-txt">→</text>
+  <text x="546.0" y="130.0" text-anchor="start" class="pix14-mono">11111111</text>
+  <text x="430.0" y="164.0" text-anchor="start" class="pix14-txt" style="fill:var(--fig-green);font-weight:600">초록</text>
+  <text x="500.0" y="164.0" text-anchor="end" class="pix14-txt">165</text>
+  <text x="520.0" y="164.0" text-anchor="start" class="pix14-txt">→</text>
+  <text x="546.0" y="164.0" text-anchor="start" class="pix14-mono">10100101</text>
+  <text x="430.0" y="198.0" text-anchor="start" class="pix14-txt" style="fill:var(--fig-blue);font-weight:600">파랑</text>
+  <text x="500.0" y="198.0" text-anchor="end" class="pix14-txt">0</text>
+  <text x="520.0" y="198.0" text-anchor="start" class="pix14-txt">→</text>
+  <text x="546.0" y="198.0" text-anchor="start" class="pix14-mono">00000000</text>
+  <rect x="420" y="232" width="285" height="66" rx="10" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <text x="562.0" y="258.0" text-anchor="middle" class="pix14-lbl">8비트 × 3 = 24비트 = 3바이트</text>
+  <text x="562.0" y="283.0" text-anchor="middle" class="pix14-txt">256³ = 16 777 216가지 색</text>
+  <rect x="420" y="38" width="22" height="22" rx="3" style="fill:rgb(255,165,0);stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="450.0" y="55.0" text-anchor="start" class="pix14-sm">이 화소의 색(주황)</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-labelledby="t-m2-03-specular-diffuse d-m2-03-specular-diffuse">
+  <title id="t-m2-03-specular-diffuse">그림 중2-3-5 정반사와 난반사</title>
+  <desc id="d-m2-03-specular-diffuse">(가) 매끄러운 면에서는 나란히 들어온 빛이 나란히 한 방향으로 반사된다(정반사). (나) 울퉁불퉁한 면에서는 빛이 닿는 점마다 법선의 방향이 달라 반사된 빛이 여러 방향으로 흩어진다(난반사). 두 경우 모두 각 점에서는 입사각과 반사각이 같다. 표면의 굴곡은 크게 과장한 모식도이다.</desc>
+  <style>
+    .m2-03-specular-diffuse-t{font-size:14px;fill:var(--fig-ink)}
+    .m2-03-specular-diffuse-b{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .m2-03-specular-diffuse-s{font-size:13px;fill:var(--fig-muted)}
+
+  </style>
+  <rect x="0" y="0" width="720" height="320" style="fill:var(--fig-paper)"/>
+  <rect x="14.0" y="14.0" width="336.0" height="290.0" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2"/>
+  <rect x="370.0" y="14.0" width="336.0" height="290.0" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2"/>
+  <text x="28.0" y="40.0" class="m2-03-specular-diffuse-b">(가) 정반사 — 매끄러운 면</text>
+  <text x="384.0" y="40.0" class="m2-03-specular-diffuse-b">(나) 난반사 — 울퉁불퉁한 면</text>
+  <rect x="36.0" y="236.0" width="292.0" height="12.0" style="fill:var(--fig-soft-blue)"/>
+  <line x1="36.0" y1="236.0" x2="328.0" y2="236.0" style="stroke:var(--fig-blue);stroke-width:3"/>
+  <line x1="130.0" y1="236.0" x2="130.0" y2="190.0" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:4 3"/>
+  <line x1="33.6" y1="121.1" x2="130.0" y2="236.0" style="stroke:var(--fig-red);stroke-width:2;fill:none"/>
+  <polygon points="84.7,182.0 76.6,178.1 82.2,173.3" style="fill:var(--fig-red)"/>
+  <line x1="130.0" y1="236.0" x2="203.7" y2="148.2" style="stroke:var(--fig-red);stroke-width:2;fill:none"/>
+  <polygon points="207.1,144.1 204.7,152.7 199.0,148.0" style="fill:var(--fig-red)"/>
+  <line x1="180.0" y1="236.0" x2="180.0" y2="190.0" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:4 3"/>
+  <line x1="83.6" y1="121.1" x2="180.0" y2="236.0" style="stroke:var(--fig-red);stroke-width:2;fill:none"/>
+  <polygon points="134.7,182.0 126.6,178.1 132.2,173.3" style="fill:var(--fig-red)"/>
+  <line x1="180.0" y1="236.0" x2="253.7" y2="148.2" style="stroke:var(--fig-red);stroke-width:2;fill:none"/>
+  <polygon points="257.1,144.1 254.7,152.7 249.0,148.0" style="fill:var(--fig-red)"/>
+  <line x1="230.0" y1="236.0" x2="230.0" y2="190.0" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:4 3"/>
+  <line x1="133.6" y1="121.1" x2="230.0" y2="236.0" style="stroke:var(--fig-red);stroke-width:2;fill:none"/>
+  <polygon points="184.7,182.0 176.6,178.1 182.2,173.3" style="fill:var(--fig-red)"/>
+  <line x1="230.0" y1="236.0" x2="303.7" y2="148.2" style="stroke:var(--fig-red);stroke-width:2;fill:none"/>
+  <polygon points="307.1,144.1 304.7,152.7 299.0,148.0" style="fill:var(--fig-red)"/>
+  <text x="182.0" y="280.0" text-anchor="middle" class="m2-03-specular-diffuse-s">반사된 빛이 한 방향으로 나란히 간다</text>
+  <text x="182.0" y="296.0" text-anchor="middle" class="m2-03-specular-diffuse-s">예: 거울, 잔잔한 수면</text>
+  <polygon points="420.0,240.0 452.0,221.5 487.2,232.9 523.7,226.5 559.6,235.5 593.9,221.6 627.1,237.8 663.3,230.1 698.5,241.6 698.5,250.0 420.0,250.0" style="fill:var(--fig-soft-amber);stroke:none"/>
+  <polyline points="420.0,240.0 452.0,221.5 487.2,232.9 523.7,226.5 559.6,235.5 593.9,221.6 627.1,237.8 663.3,230.1 698.5,241.6" style="fill:none;stroke:var(--fig-amber);stroke-width:3"/>
+  <line x1="436.0" y1="230.8" x2="416.0" y2="196.1" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:4 3"/>
+  <line x1="358.9" y1="138.8" x2="436.0" y2="230.8" style="stroke:var(--fig-red);stroke-width:2;fill:none"/>
+  <polygon points="400.3,188.2 392.3,184.3 397.9,179.6" style="fill:var(--fig-red)"/>
+  <line x1="436.0" y1="230.8" x2="400.2" y2="132.5" style="stroke:var(--fig-red);stroke-width:2;fill:none"/>
+  <polygon points="398.4,127.4 404.7,133.9 397.8,136.4" style="fill:var(--fig-red)"/>
+  <line x1="505.5" y1="229.7" x2="498.5" y2="190.3" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:4 3"/>
+  <line x1="428.3" y1="137.8" x2="505.5" y2="229.7" style="stroke:var(--fig-red);stroke-width:2;fill:none"/>
+  <polygon points="469.8,187.2 461.7,183.3 467.3,178.6" style="fill:var(--fig-red)"/>
+  <line x1="505.5" y1="229.7" x2="541.2" y2="131.4" style="stroke:var(--fig-red);stroke-width:2;fill:none"/>
+  <polygon points="543.1,126.4 543.7,135.3 536.8,132.8" style="fill:var(--fig-red)"/>
+  <line x1="541.6" y1="231.0" x2="551.3" y2="192.2" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:4 3"/>
+  <line x1="464.5" y1="139.1" x2="541.6" y2="231.0" style="stroke:var(--fig-red);stroke-width:2;fill:none"/>
+  <polygon points="505.9,188.5 497.9,184.5 503.5,179.8" style="fill:var(--fig-red)"/>
+  <line x1="541.6" y1="231.0" x2="638.6" y2="191.8" style="stroke:var(--fig-red);stroke-width:2;fill:none"/>
+  <polygon points="643.6,189.8 637.4,196.3 634.6,189.5" style="fill:var(--fig-red)"/>
+  <text x="538.0" y="280.0" text-anchor="middle" class="m2-03-specular-diffuse-s">점마다 법선(점선)이 달라 여러 방향으로 흩어진다</text>
+  <text x="538.0" y="296.0" text-anchor="middle" class="m2-03-specular-diffuse-s">예: 종이, 옷, 칠판 → 어디서나 보인다</text>
+</svg>

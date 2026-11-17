@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 404" role="img" aria-labelledby="t-2-1-solar-line-matching d-2-1-solar-line-matching">
+  <title id="t-2-1-solar-line-matching">그림 2-1-4 실험실 방출선과 태양 흡수선 대조하기</title>
+  <desc id="d-2-1-solar-line-matching">실험실에서 측정한 수소·나트륨·칼슘의 방출선 위치를 태양 스펙트럼의 흡수선과 세로로 맞추어 보면 위치가 일치하므로, 태양 대기에 이 원소들이 있음을 알 수 있다. 517 nm와 527 nm 부근의 선은 세 원소의 선과 맞지 않으며 마그네슘·철 등 다른 원소의 선이다. 선의 파장은 실제 값, 색과 굵기는 근사이다.</desc>
+  <style>
+    .slm-lbl{font-size:15px;fill:var(--fig-ink)} .slm-sm{font-size:13px;fill:var(--fig-muted)}
+    .slm-ink{fill:var(--fig-ink)} .slm-mut{fill:var(--fig-muted)} .slm-b{font-weight:600}
+    .slm-night{fill:var(--fig-ink)}
+    @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .slm-night{fill:var(--fig-paper)} }
+    :root[data-theme="dark"] .slm-night{fill:var(--fig-paper)}
+    
+  </style>
+  <defs><linearGradient id="slm-rainbow" x1="0" y1="0" x2="1" y2="0"><stop offset="0.000" style="stop-color:var(--fig-violet)"/><stop offset="0.200" style="stop-color:var(--fig-blue)"/><stop offset="0.367" style="stop-color:var(--fig-teal)"/><stop offset="0.500" style="stop-color:var(--fig-green)"/><stop offset="0.667" style="stop-color:var(--fig-amber)"/><stop offset="0.817" style="stop-color:var(--fig-red)"/><stop offset="1.000" style="stop-color:var(--fig-red)"/></linearGradient></defs>
+  <line x1="215.5" y1="80.0" x2="215.5" y2="282.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 3"/>
+  <line x1="258.7" y1="80.0" x2="258.7" y2="282.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 3"/>
+  <line x1="352.3" y1="80.0" x2="352.3" y2="282.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 3"/>
+  <line x1="658.3" y1="80.0" x2="658.3" y2="282.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 3"/>
+  <line x1="537.7" y1="150.0" x2="537.7" y2="282.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 3"/>
+  <line x1="538.8" y1="150.0" x2="538.8" y2="282.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 3"/>
+  <line x1="184.9" y1="220.0" x2="184.9" y2="282.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 3"/>
+  <line x1="192.1" y1="220.0" x2="192.1" y2="282.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 3"/>
+  <text x="20.0" y="64.0" text-anchor="start" class="slm-lbl slm-b">수소</text>
+  <text x="20.0" y="81.0" text-anchor="start" class="slm-sm">실험실 방출선</text>
+  <rect x="160.0" y="50.0" width="540.0" height="30.0" class="slm-night" style="stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="214.0" y="50.0" width="3.0" height="30.0" style="fill:var(--fig-violet)"/>
+  <rect x="257.2" y="50.0" width="3.0" height="30.0" style="fill:var(--fig-blue)"/>
+  <rect x="350.8" y="50.0" width="3.0" height="30.0" style="fill:var(--fig-teal)"/>
+  <rect x="656.8" y="50.0" width="3.0" height="30.0" style="fill:var(--fig-red)"/>
+  <text x="215.5" y="44.0" text-anchor="middle" class="slm-sm">410</text>
+  <text x="258.7" y="44.0" text-anchor="middle" class="slm-sm">434</text>
+  <text x="352.3" y="44.0" text-anchor="middle" class="slm-sm">486</text>
+  <text x="658.3" y="44.0" text-anchor="middle" class="slm-sm">656</text>
+  <text x="20.0" y="134.0" text-anchor="start" class="slm-lbl slm-b">나트륨</text>
+  <text x="20.0" y="151.0" text-anchor="start" class="slm-sm">실험실 방출선</text>
+  <rect x="160.0" y="120.0" width="540.0" height="30.0" class="slm-night" style="stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="536.2" y="120.0" width="3.0" height="30.0" style="fill:var(--fig-amber)"/>
+  <rect x="537.3" y="120.0" width="3.0" height="30.0" style="fill:var(--fig-amber)"/>
+  <text x="538.2" y="114.0" text-anchor="middle" class="slm-sm">589 (두 줄)</text>
+  <text x="20.0" y="204.0" text-anchor="start" class="slm-lbl slm-b">칼슘</text>
+  <text x="20.0" y="221.0" text-anchor="start" class="slm-sm">실험실 방출선</text>
+  <rect x="160.0" y="190.0" width="540.0" height="30.0" class="slm-night" style="stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="183.4" y="190.0" width="3.0" height="30.0" style="fill:var(--fig-violet)"/>
+  <rect x="190.6" y="190.0" width="3.0" height="30.0" style="fill:var(--fig-violet)"/>
+  <text x="188.5" y="184.0" text-anchor="middle" class="slm-sm">393, 397</text>
+  <text x="20.0" y="297.0" text-anchor="start" class="slm-lbl slm-b">태양</text>
+  <text x="20.0" y="314.0" text-anchor="start" class="slm-sm">흡수 스펙트럼</text>
+  <rect x="160.0" y="282.0" width="540.0" height="36.0" style="fill:url(#slm-rainbow);stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="183.4" y="282.0" width="3.0" height="36.0" class="slm-night"/>
+  <rect x="190.6" y="282.0" width="3.0" height="36.0" class="slm-night"/>
+  <rect x="214.0" y="282.0" width="3.0" height="36.0" class="slm-night"/>
+  <rect x="257.2" y="282.0" width="3.0" height="36.0" class="slm-night"/>
+  <rect x="350.8" y="282.0" width="3.0" height="36.0" class="slm-night"/>
+  <rect x="406.6" y="282.0" width="3.0" height="36.0" class="slm-night"/>
+  <rect x="424.6" y="282.0" width="3.0" height="36.0" class="slm-night"/>
+  <rect x="536.2" y="282.0" width="2.0" height="36.0" class="slm-night"/>
+  <rect x="537.3" y="282.0" width="2.0" height="36.0" class="slm-night"/>
+  <rect x="656.8" y="282.0" width="3.0" height="36.0" class="slm-night"/>
+  <line x1="196.0" y1="318.0" x2="196.0" y2="324.0" style="stroke:var(--fig-line);stroke-width:1"/>
+  <text x="196.0" y="338.0" text-anchor="middle" class="slm-sm">400</text>
+  <line x1="376.0" y1="318.0" x2="376.0" y2="324.0" style="stroke:var(--fig-line);stroke-width:1"/>
+  <text x="376.0" y="338.0" text-anchor="middle" class="slm-sm">500</text>
+  <line x1="556.0" y1="318.0" x2="556.0" y2="324.0" style="stroke:var(--fig-line);stroke-width:1"/>
+  <text x="556.0" y="338.0" text-anchor="middle" class="slm-sm">600</text>
+  <text x="700.0" y="338.0" text-anchor="end" class="slm-sm">파장 (nm)</text>
+  <text x="20.0" y="362.0" text-anchor="start" class="slm-sm slm-b" style="fill:var(--fig-ink)">흡수선의 주인</text>
+  <text x="188.5" y="362.0" text-anchor="middle" class="slm-lbl slm-b" style="fill:var(--fig-ink)">Ca</text>
+  <text x="217.5" y="362.0" text-anchor="middle" class="slm-lbl slm-b" style="fill:var(--fig-ink)">H</text>
+  <text x="258.7" y="362.0" text-anchor="middle" class="slm-lbl slm-b" style="fill:var(--fig-ink)">H</text>
+  <text x="352.3" y="362.0" text-anchor="middle" class="slm-lbl slm-b" style="fill:var(--fig-ink)">H</text>
+  <text x="407.1" y="362.0" text-anchor="end" class="slm-lbl slm-b" style="fill:var(--fig-red)">Mg</text>
+  <text x="429.1" y="362.0" text-anchor="start" class="slm-lbl slm-b" style="fill:var(--fig-red)">Fe</text>
+  <text x="538.2" y="362.0" text-anchor="middle" class="slm-lbl slm-b" style="fill:var(--fig-ink)">Na</text>
+  <text x="658.3" y="362.0" text-anchor="middle" class="slm-lbl slm-b" style="fill:var(--fig-ink)">H</text>
+  <text x="417.1" y="384.0" text-anchor="middle" class="slm-sm" style="fill:var(--fig-red)">↑ 세 원소의 실험실 선과 맞지 않는 선 → 다른 원소(마그네슘·철 등)의 선</text>
+</svg>

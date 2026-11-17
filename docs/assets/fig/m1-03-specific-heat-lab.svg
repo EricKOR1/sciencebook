@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-m1-03-specific-heat-lab d-m1-03-specific-heat-lab">
+<title id="t-m1-03-specific-heat-lab">그림 중1-3-10 물중탕으로 물과 식용유의 비열 비교하기</title>
+<desc id="d-m1-03-specific-heat-lab">같은 질량의 물과 식용유를 시험관에 담아 같은 따뜻한 물에 동시에 담그고 온도 센서로 온도를 잰다. 같은 시간 동안 식용유의 온도가 더 많이 올라가므로 식용유의 비열이 물보다 작다. 그래프는 예상 결과를 나타낸 예시 곡선이다.</desc>
+<style>
+  .m103l-ttl{font-size:16px;font-weight:700;fill:var(--fig-ink)}
+  .m103l-ink{font-size:14px;fill:var(--fig-ink)}
+  .m103l-b{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+  .m103l-b15{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+  .m103l-sm{font-size:13px;fill:var(--fig-muted)}
+  .m103l-smi{font-size:13px;fill:var(--fig-ink)}
+  .m103l-acc{font-size:14px;font-weight:700;fill:var(--fig-accent)}
+  .m103l-box{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.2}
+  .m103l-panel{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2}
+  .m103l-panel0{fill:var(--fig-panel)}
+  .m103l-ln{fill:none;stroke:var(--fig-ink);stroke-width:2}
+  .m103l-thin{fill:none;stroke:var(--fig-ink);stroke-width:1.2}
+  .m103l-grid{fill:none;stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4}
+  .m103l-dash{fill:none;stroke:var(--fig-line);stroke-width:1.3;stroke-dasharray:5 5}
+  .m103l-ar{fill:none;stroke:var(--fig-ink);stroke-width:2}
+  .m103l-ah{fill:var(--fig-ink)}
+  .m103l-lead{fill:none;stroke:var(--fig-muted);stroke-width:1}
+  .m103l-dot{fill:var(--fig-muted)}
+  .m103l-mut{fill:var(--fig-muted)}
+  .m103l-inkf{fill:var(--fig-ink)}
+  .m103l-paperf{fill:var(--fig-paper)}
+  .m103l-linef{fill:var(--fig-line)}
+  .m103l-fbl{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2}
+  .m103l-sbl{fill:var(--fig-soft-blue)}
+  .m103l-obl{fill:none;stroke:var(--fig-blue);stroke-width:2}
+  .m103l-cbl{fill:var(--fig-blue)}
+  .m103l-tbl{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+  .m103l-abl{fill:none;stroke:var(--fig-blue);stroke-width:2.4}
+  .m103l-fre{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2}
+  .m103l-sre{fill:var(--fig-soft-red)}
+  .m103l-ore{fill:none;stroke:var(--fig-red);stroke-width:2}
+  .m103l-cre{fill:var(--fig-red)}
+  .m103l-tre{font-size:14px;font-weight:700;fill:var(--fig-red)}
+  .m103l-are{fill:none;stroke:var(--fig-red);stroke-width:2.4}
+  .m103l-fgr{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2}
+  .m103l-sgr{fill:var(--fig-soft-green)}
+  .m103l-ogr{fill:none;stroke:var(--fig-green);stroke-width:2}
+  .m103l-cgr{fill:var(--fig-green)}
+  .m103l-tgr{font-size:14px;font-weight:700;fill:var(--fig-green)}
+  .m103l-agr{fill:none;stroke:var(--fig-green);stroke-width:2.4}
+  .m103l-fam{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+  .m103l-sam{fill:var(--fig-soft-amber)}
+  .m103l-oam{fill:none;stroke:var(--fig-amber);stroke-width:2}
+  .m103l-cam{fill:var(--fig-amber)}
+  .m103l-tam{font-size:14px;font-weight:700;fill:var(--fig-amber)}
+  .m103l-aam{fill:none;stroke:var(--fig-amber);stroke-width:2.4}
+  .m103l-fvi{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2}
+  .m103l-svi{fill:var(--fig-soft-violet)}
+  .m103l-ovi{fill:none;stroke:var(--fig-violet);stroke-width:2}
+  .m103l-cvi{fill:var(--fig-violet)}
+  .m103l-tvi{font-size:14px;font-weight:700;fill:var(--fig-violet)}
+  .m103l-avi{fill:none;stroke:var(--fig-violet);stroke-width:2.4}
+  .m103l-fte{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2}
+  .m103l-ste{fill:var(--fig-soft-teal)}
+  .m103l-ote{fill:none;stroke:var(--fig-teal);stroke-width:2}
+  .m103l-cte{fill:var(--fig-teal)}
+  .m103l-tte{font-size:14px;font-weight:700;fill:var(--fig-teal)}
+  .m103l-ate{fill:none;stroke:var(--fig-teal);stroke-width:2.4}
+</style>
+<path d="M40 130 L240 130 L240 296 Q240 304 232 304 L48 304 Q40 304 40 296 Z" class="m103l-panel" style="stroke:var(--fig-ink);stroke-width:2"/>
+<rect x="42.0" y="160.0" width="196.0" height="142.0" class="m103l-sre"/>
+<text x="140.0" y="322.0" text-anchor="middle" class="m103l-tre">따뜻한 물(약 60 °C)</text>
+<path d="M84 90 L84 262 Q84 280 100 280 Q116 280 116 262 L116 90" class="m103l-ln"/>
+<path d="M86 190 L86 262 Q86 278 100 278 Q114 278 114 262 L114 190 Z" class="m103l-sbl"/>
+<line x1="104.0" y1="50.0" x2="104.0" y2="250.0" class="m103l-ln"/>
+<circle cx="104.0" cy="252.0" r="3.5" class="m103l-inkf"/>
+<path d="M164 90 L164 262 Q164 280 180 280 Q196 280 196 262 L196 90" class="m103l-ln"/>
+<path d="M166 190 L166 262 Q166 278 180 278 Q194 278 194 262 L194 190 Z" class="m103l-sam"/>
+<line x1="184.0" y1="50.0" x2="184.0" y2="250.0" class="m103l-ln"/>
+<circle cx="184.0" cy="252.0" r="3.5" class="m103l-inkf"/>
+<text x="78.0" y="215.0" text-anchor="end" class="m103l-tbl">물</text>
+<text x="202.0" y="215.0" class="m103l-tam">식용유</text>
+<text x="100.0" y="82.0" class="m103l-sm"></text>
+<rect x="80.0" y="22.0" width="140.0" height="30.0" rx="6" class="m103l-fvi"/>
+<text x="150.0" y="42.0" text-anchor="middle" class="m103l-smi">온도 센서 기록 장치</text>
+<text x="250.0" y="190.0" class="m103l-sm"></text>
+<text x="250.0" y="70.0" class="m103l-sm">같은 질량</text>
+<text x="250.0" y="87.0" class="m103l-sm">(각 30 g)</text>
+<line x1="335.0" y1="280.0" x2="340.0" y2="280.0" class="m103l-thin"/>
+<text x="331.0" y="285.0" text-anchor="end" class="m103l-sm">20</text>
+<line x1="335.0" y1="225.0" x2="340.0" y2="225.0" class="m103l-thin"/>
+<text x="331.0" y="230.0" text-anchor="end" class="m103l-sm">30</text>
+<line x1="340.0" y1="225.0" x2="670.0" y2="225.0" class="m103l-grid"/>
+<line x1="335.0" y1="170.0" x2="340.0" y2="170.0" class="m103l-thin"/>
+<text x="331.0" y="175.0" text-anchor="end" class="m103l-sm">40</text>
+<line x1="340.0" y1="170.0" x2="670.0" y2="170.0" class="m103l-grid"/>
+<line x1="335.0" y1="115.0" x2="340.0" y2="115.0" class="m103l-thin"/>
+<text x="331.0" y="120.0" text-anchor="end" class="m103l-sm">50</text>
+<line x1="340.0" y1="115.0" x2="670.0" y2="115.0" class="m103l-grid"/>
+<line x1="335.0" y1="60.0" x2="340.0" y2="60.0" class="m103l-thin"/>
+<text x="331.0" y="65.0" text-anchor="end" class="m103l-sm">60</text>
+<line x1="340.0" y1="60.0" x2="670.0" y2="60.0" class="m103l-grid"/>
+<line x1="340.0" y1="280.0" x2="340.0" y2="285.0" class="m103l-thin"/>
+<text x="340.0" y="300.0" text-anchor="middle" class="m103l-sm">0</text>
+<line x1="406.0" y1="280.0" x2="406.0" y2="285.0" class="m103l-thin"/>
+<text x="406.0" y="300.0" text-anchor="middle" class="m103l-sm">1</text>
+<line x1="472.0" y1="280.0" x2="472.0" y2="285.0" class="m103l-thin"/>
+<text x="472.0" y="300.0" text-anchor="middle" class="m103l-sm">2</text>
+<line x1="538.0" y1="280.0" x2="538.0" y2="285.0" class="m103l-thin"/>
+<text x="538.0" y="300.0" text-anchor="middle" class="m103l-sm">3</text>
+<line x1="604.0" y1="280.0" x2="604.0" y2="285.0" class="m103l-thin"/>
+<text x="604.0" y="300.0" text-anchor="middle" class="m103l-sm">4</text>
+<line x1="670.0" y1="280.0" x2="670.0" y2="285.0" class="m103l-thin"/>
+<text x="670.0" y="300.0" text-anchor="middle" class="m103l-sm">5</text>
+<line x1="340.0" y1="280.0" x2="678.0" y2="280.0" class="m103l-ln"/>
+<line x1="340.0" y1="280.0" x2="340.0" y2="52.0" class="m103l-ln"/>
+<text x="670.0" y="320.0" text-anchor="end" class="m103l-smi">시간(분)</text>
+<text x="312.0" y="44.0" class="m103l-smi">온도(°C)</text>
+<path d="M340.0 280.0 L346.6 272.3 L353.2 264.8 L359.8 257.6 L366.4 250.7 L373.0 244.0 L379.6 237.6 L386.2 231.3 L392.8 225.3 L399.4 219.5 L406.0 213.9 L412.6 208.5 L419.2 203.3 L425.8 198.3 L432.4 193.4 L439.0 188.8 L445.6 184.2 L452.2 179.9 L458.8 175.7 L465.4 171.6 L472.0 167.7 L478.6 163.9 L485.2 160.3 L491.8 156.8 L498.4 153.4 L505.0 150.1 L511.6 146.9 L518.2 143.9 L524.8 140.9 L531.4 138.1 L538.0 135.4 L544.6 132.7 L551.2 130.2 L557.8 127.7 L564.4 125.3 L571.0 123.0 L577.6 120.8 L584.2 118.7 L590.8 116.6 L597.4 114.6 L604.0 112.7 L610.6 110.9 L617.2 109.1 L623.8 107.4 L630.4 105.7 L637.0 104.1 L643.6 102.6 L650.2 101.1 L656.8 99.6 L663.4 98.2 L670.0 96.9" class="m103l-aam"/>
+<text x="666.0" y="86.9" text-anchor="end" class="m103l-tam">식용유</text>
+<path d="M340.0 280.0 L346.6 276.4 L353.2 272.8 L359.8 269.3 L366.4 265.8 L373.0 262.4 L379.6 259.1 L386.2 255.8 L392.8 252.5 L399.4 249.4 L406.0 246.2 L412.6 243.1 L419.2 240.1 L425.8 237.1 L432.4 234.2 L439.0 231.3 L445.6 228.5 L452.2 225.7 L458.8 223.0 L465.4 220.3 L472.0 217.6 L478.6 215.0 L485.2 212.5 L491.8 209.9 L498.4 207.5 L505.0 205.0 L511.6 202.6 L518.2 200.3 L524.8 198.0 L531.4 195.7 L538.0 193.4 L544.6 191.2 L551.2 189.1 L557.8 186.9 L564.4 184.8 L571.0 182.8 L577.6 180.7 L584.2 178.7 L590.8 176.8 L597.4 174.9 L604.0 173.0 L610.6 171.1 L617.2 169.2 L623.8 167.4 L630.4 165.7 L637.0 163.9 L643.6 162.2 L650.2 160.5 L656.8 158.9 L663.4 157.2 L670.0 155.6" class="m103l-abl"/>
+<text x="666.0" y="145.6" text-anchor="end" class="m103l-tbl">물</text>
+<text x="670.0" y="48.0" text-anchor="end" class="m103l-sm">예상 결과(예시)</text>
+</svg>

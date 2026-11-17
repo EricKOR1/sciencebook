@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-labelledby="t-2-6-temperature-resistance d-2-6-temperature-resistance">
+  <title id="t-2-6-temperature-resistance">그림 2-6-4 온도에 따른 저항의 변화 — 금속과 반도체</title>
+  <desc id="d-2-6-temperature-resistance">금속은 온도가 높아질수록 원자의 진동이 커져 자유 전자의 이동을 방해하므로 저항이 커진다. 순수한 반도체는 온도가 높아질수록 결합에서 풀려나는 전자가 늘어 저항이 작아진다. 두 그래프의 세로 눈금은 서로 다르며 변화의 경향만 나타낸 것이다.</desc>
+  <style>
+    .tr-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)} .tr-t{font-size:14px;fill:var(--fig-ink)}
+    .tr-sm{font-size:13px;fill:var(--fig-muted)} .tr-ax{stroke:var(--fig-ink);stroke-width:1.6;fill:none} .tr-axh{fill:var(--fig-ink)}
+    .tr-m{stroke:var(--fig-blue);stroke-width:3;fill:none} .tr-s{stroke:var(--fig-amber);stroke-width:3;fill:none}
+    .tr-bt{font-size:13px;font-weight:600;fill:var(--fig-blue)} .tr-at{font-size:13px;font-weight:600;fill:var(--fig-amber)}
+  </style>
+  <text x="200" y="30" text-anchor="middle" class="tr-lbl">금속 (예: 구리)</text>
+  <path d="M70 60 V240 H330" class="tr-ax"/>
+  <path d="M70 52 l-5 9 h10 z" class="tr-axh"/><path d="M338 240 l-9 -5 v10 z" class="tr-axh"/>
+  <text x="330" y="264" text-anchor="end" class="tr-sm">온도 →</text>
+  <text x="60" y="64" text-anchor="end" class="tr-sm">저항</text>
+  <path d="M80 180 L320 90" class="tr-m"/>
+  <text x="100" y="82" class="tr-bt">온도 ↑ → 저항 ↑</text>
+  <text x="200" y="290" text-anchor="middle" class="tr-sm">원자의 진동이 커져 자유 전자의 이동을 방해</text>
+  <text x="560" y="30" text-anchor="middle" class="tr-lbl">반도체 (예: 순수한 규소)</text>
+  <path d="M430 60 V240 H690" class="tr-ax"/>
+  <path d="M430 52 l-5 9 h10 z" class="tr-axh"/><path d="M698 240 l-9 -5 v10 z" class="tr-axh"/>
+  <text x="690" y="264" text-anchor="end" class="tr-sm">온도 →</text>
+  <text x="420" y="64" text-anchor="end" class="tr-sm">저항</text>
+  <polyline points="440.0,78.0 446.0,93.0 452.0,106.4 458.0,118.5 464.0,129.4 470.0,139.3 476.0,148.1 482.0,156.1 488.0,163.2 494.0,169.7 500.0,175.5 506.0,180.7 512.0,185.5 518.0,189.7 524.0,193.5 530.0,196.9 536.0,200.0 542.0,202.8 548.0,205.3 554.0,207.6 560.0,209.6 566.0,211.5 572.0,213.1 578.0,214.6 584.0,215.9 590.0,217.1 596.0,218.2 602.0,219.2 608.0,220.1 614.0,220.9 620.0,221.6 626.0,222.2 632.0,222.8 638.0,223.3 644.0,223.8 650.0,224.2 656.0,224.6 662.0,224.9 668.0,225.2 674.0,225.5 680.0,225.8" class="tr-s"/>
+  <text x="680" y="90" text-anchor="end" class="tr-at">온도 ↑ → 저항 ↓</text>
+  <text x="560" y="290" text-anchor="middle" class="tr-sm">결합에서 풀려나 움직이는 전자가 늘어남</text>
+</svg>

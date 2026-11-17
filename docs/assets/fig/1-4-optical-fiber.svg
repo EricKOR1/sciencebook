@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-1-4-optical-fiber d-1-4-optical-fiber">
+  <title id="t-1-4-optical-fiber">그림 1-4-4 광섬유로 0과 1 보내기</title>
+  <desc id="d-1-4-optical-fiber">레이저 빛을 켜고 끄는 깜빡임으로 1과 0을 나타낸다. 빛은 머리카락처럼 가는 유리 섬유 안에서 경계에 반사를 거듭하며 멀리까지 전달되고, 받는 쪽에서 다시 1과 0으로 읽는다. 모식도(섬유의 굵기는 크게 과장함).</desc>
+  <style>
+    .fib14-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .fib14-txt{font-size:14px;fill:var(--fig-ink)}
+    .fib14-sm{font-size:13px;fill:var(--fig-muted)}
+  </style>
+  <text x="110.0" y="30.0" text-anchor="middle" class="fib14-lbl">보내는 쪽: 빛 켜기/끄기</text>
+  <path d="M30 110 L30.0 110.0 L30.0 70.0 L56.7 70.0 L56.7 110.0 L83.3 110.0 L83.3 70.0 L110.0 70.0 L110.0 70.0 L136.7 70.0 L136.7 110.0 L163.3 110.0 L163.3 70.0 L190.0 70.0 L190.0 110" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <line x1="26" y1="110" x2="194" y2="110" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="43.3" y="62.0" text-anchor="middle" class="fib14-lbl">1</text>
+  <text x="70.0" y="62.0" text-anchor="middle" class="fib14-lbl">0</text>
+  <text x="96.7" y="62.0" text-anchor="middle" class="fib14-lbl">1</text>
+  <text x="123.3" y="62.0" text-anchor="middle" class="fib14-lbl">1</text>
+  <text x="150.0" y="62.0" text-anchor="middle" class="fib14-lbl">0</text>
+  <text x="176.7" y="62.0" text-anchor="middle" class="fib14-lbl">1</text>
+  <text x="110.0" y="130.0" text-anchor="middle" class="fib14-sm">켜짐 = 1, 꺼짐 = 0</text>
+  <text x="610.0" y="30.0" text-anchor="middle" class="fib14-lbl">받는 쪽: 다시 0과 1로</text>
+  <path d="M530 110 L530.0 110.0 L530.0 70.0 L556.7 70.0 L556.7 110.0 L583.3 110.0 L583.3 70.0 L610.0 70.0 L610.0 70.0 L636.7 70.0 L636.7 110.0 L663.3 110.0 L663.3 70.0 L690.0 70.0 L690.0 110" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <line x1="526" y1="110" x2="694" y2="110" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="543.3" y="62.0" text-anchor="middle" class="fib14-lbl">1</text>
+  <text x="570.0" y="62.0" text-anchor="middle" class="fib14-lbl">0</text>
+  <text x="596.7" y="62.0" text-anchor="middle" class="fib14-lbl">1</text>
+  <text x="623.3" y="62.0" text-anchor="middle" class="fib14-lbl">1</text>
+  <text x="650.0" y="62.0" text-anchor="middle" class="fib14-lbl">0</text>
+  <text x="676.7" y="62.0" text-anchor="middle" class="fib14-lbl">1</text>
+  <text x="610.0" y="130.0" text-anchor="middle" class="fib14-sm">빛이 오면 1, 안 오면 0</text>
+  <rect x="140" y="181" width="440" height="68" rx="6" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2"/>
+  <rect x="140" y="193" width="440" height="44" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:1"/>
+  <path d="M140.0 215.0 L162.0 193.0 L206.0 237.0 L250.0 193.0 L294.0 237.0 L338.0 193.0 L382.0 237.0 L426.0 193.0 L470.0 237.0 L514.0 193.0 L558.0 237.0 L580.0 215.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.5;stroke-linejoin:round"/>
+  <path d="M272.0 215.0 l-12 -6 l2 12 z" style="fill:var(--fig-red)" transform="rotate(45.0 272.0 215.0) translate(6 0)"/>
+  <rect x="40" y="191" width="96" height="48" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <text x="88.0" y="220.0" text-anchor="middle" class="fib14-lbl">레이저</text>
+  <rect x="584" y="191" width="96" height="48" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <text x="632.0" y="220.0" text-anchor="middle" class="fib14-lbl">수신기</text>
+  <path d="M110 140 V187" style="stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:4 3;fill:none"/>
+  <path d="M610 140 V187" style="stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:4 3;fill:none"/>
+  <text x="360.0" y="169.0" text-anchor="middle" class="fib14-txt" style="fill:var(--fig-teal);font-weight:600">광섬유(머리카락처럼 가는 유리 섬유)</text>
+  <text x="360.0" y="273.0" text-anchor="middle" class="fib14-txt">빛이 섬유 안쪽 경계에서 반사를 거듭하며 앞으로 나아간다</text>
+  <text x="360.0" y="297.0" text-anchor="middle" class="fib14-sm">중간에서 약해진 신호는 0과 1로 되살려 다시 보낼 수 있다</text>
+  <text x="360.0" y="319.0" text-anchor="middle" class="fib14-sm">모식도: 섬유 굵기와 반사 각도는 알아보기 쉽게 과장함</text>
+</svg>

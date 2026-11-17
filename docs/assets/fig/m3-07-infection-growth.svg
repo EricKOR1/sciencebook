@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-m3-07-infection-growth d-m3-07-infection-growth">
+  <title id="t-m3-07-infection-growth">그림 중3-7-8 1명이 옮기는 사람 수와 감염병의 확산</title>
+  <desc id="d-m3-07-infection-growth">감염자 1명이 평균 2명에게 옮기고 한 번 옮기는 데 5일이 걸리면, 새 감염자는 5일마다 2배가 되어 1, 2, 4, 8, 16, 32, 64명으로 처음에는 천천히, 나중에는 폭발적으로 늘어난다. 1명이 평균 1명에게만 옮기면 새 감염자는 계속 1명이다. 설명을 위해 가정한 값이다.</desc>
+  <style>
+    .m3-07-infection-growth-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .m3-07-infection-growth-tx{font-size:14px;fill:var(--fig-ink)}
+    .m3-07-infection-growth-sm{font-size:13px;fill:var(--fig-muted)}
+  </style>
+  <rect x="10.0" y="10.0" width="250.0" height="320.0" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="135.0" y="36.0" text-anchor="middle" class="m3-07-infection-growth-lbl">1명이 2명에게 옮길 때</text>
+  <circle cx="135.0" cy="80.0" r="7.0" style="fill:var(--fig-red);stroke:var(--fig-panel);stroke-width:1"/>
+  <text x="20.0" y="85.0" class="m3-07-infection-growth-sm">0일</text>
+  <text x="250.0" y="85.0" text-anchor="end" class="m3-07-infection-growth-sm">1명</text>
+  <line x1="135.0" y1="88.0" x2="98.5" y2="138.0" style="stroke:var(--fig-line);stroke-width:1.2"/>
+  <line x1="135.0" y1="88.0" x2="171.5" y2="138.0" style="stroke:var(--fig-line);stroke-width:1.2"/>
+  <circle cx="98.5" cy="146.0" r="7.0" style="fill:var(--fig-red);stroke:var(--fig-panel);stroke-width:1"/>
+  <circle cx="171.5" cy="146.0" r="7.0" style="fill:var(--fig-red);stroke:var(--fig-panel);stroke-width:1"/>
+  <text x="20.0" y="151.0" class="m3-07-infection-growth-sm">5일</text>
+  <text x="250.0" y="151.0" text-anchor="end" class="m3-07-infection-growth-sm">2명</text>
+  <line x1="98.5" y1="154.0" x2="80.2" y2="204.0" style="stroke:var(--fig-line);stroke-width:1.2"/>
+  <line x1="98.5" y1="154.0" x2="116.8" y2="204.0" style="stroke:var(--fig-line);stroke-width:1.2"/>
+  <line x1="171.5" y1="154.0" x2="153.2" y2="204.0" style="stroke:var(--fig-line);stroke-width:1.2"/>
+  <line x1="171.5" y1="154.0" x2="189.8" y2="204.0" style="stroke:var(--fig-line);stroke-width:1.2"/>
+  <circle cx="80.2" cy="212.0" r="7.0" style="fill:var(--fig-red);stroke:var(--fig-panel);stroke-width:1"/>
+  <circle cx="116.8" cy="212.0" r="7.0" style="fill:var(--fig-red);stroke:var(--fig-panel);stroke-width:1"/>
+  <circle cx="153.2" cy="212.0" r="7.0" style="fill:var(--fig-red);stroke:var(--fig-panel);stroke-width:1"/>
+  <circle cx="189.8" cy="212.0" r="7.0" style="fill:var(--fig-red);stroke:var(--fig-panel);stroke-width:1"/>
+  <text x="20.0" y="217.0" class="m3-07-infection-growth-sm">10일</text>
+  <text x="250.0" y="217.0" text-anchor="end" class="m3-07-infection-growth-sm">4명</text>
+  <line x1="80.2" y1="220.0" x2="71.1" y2="270.0" style="stroke:var(--fig-line);stroke-width:1.2"/>
+  <line x1="80.2" y1="220.0" x2="89.4" y2="270.0" style="stroke:var(--fig-line);stroke-width:1.2"/>
+  <line x1="116.8" y1="220.0" x2="107.6" y2="270.0" style="stroke:var(--fig-line);stroke-width:1.2"/>
+  <line x1="116.8" y1="220.0" x2="125.9" y2="270.0" style="stroke:var(--fig-line);stroke-width:1.2"/>
+  <line x1="153.2" y1="220.0" x2="144.1" y2="270.0" style="stroke:var(--fig-line);stroke-width:1.2"/>
+  <line x1="153.2" y1="220.0" x2="162.4" y2="270.0" style="stroke:var(--fig-line);stroke-width:1.2"/>
+  <line x1="189.8" y1="220.0" x2="180.6" y2="270.0" style="stroke:var(--fig-line);stroke-width:1.2"/>
+  <line x1="189.8" y1="220.0" x2="198.9" y2="270.0" style="stroke:var(--fig-line);stroke-width:1.2"/>
+  <circle cx="71.1" cy="278.0" r="7.0" style="fill:var(--fig-red);stroke:var(--fig-panel);stroke-width:1"/>
+  <circle cx="89.4" cy="278.0" r="7.0" style="fill:var(--fig-red);stroke:var(--fig-panel);stroke-width:1"/>
+  <circle cx="107.6" cy="278.0" r="7.0" style="fill:var(--fig-red);stroke:var(--fig-panel);stroke-width:1"/>
+  <circle cx="125.9" cy="278.0" r="7.0" style="fill:var(--fig-red);stroke:var(--fig-panel);stroke-width:1"/>
+  <circle cx="144.1" cy="278.0" r="7.0" style="fill:var(--fig-red);stroke:var(--fig-panel);stroke-width:1"/>
+  <circle cx="162.4" cy="278.0" r="7.0" style="fill:var(--fig-red);stroke:var(--fig-panel);stroke-width:1"/>
+  <circle cx="180.6" cy="278.0" r="7.0" style="fill:var(--fig-red);stroke:var(--fig-panel);stroke-width:1"/>
+  <circle cx="198.9" cy="278.0" r="7.0" style="fill:var(--fig-red);stroke:var(--fig-panel);stroke-width:1"/>
+  <text x="20.0" y="283.0" class="m3-07-infection-growth-sm">15일</text>
+  <text x="250.0" y="283.0" text-anchor="end" class="m3-07-infection-growth-sm">8명</text>
+  <text x="135.0" y="316.0" text-anchor="middle" class="m3-07-infection-growth-sm">…5일마다 새 감염자가 2배</text>
+  <line x1="320.0" y1="290.0" x2="690.0" y2="290.0" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+  <line x1="320.0" y1="290.0" x2="320.0" y2="54.0" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+  <text x="312.0" y="295.0" text-anchor="end" class="m3-07-infection-growth-sm">0</text>
+  <text x="312.0" y="229.3" text-anchor="end" class="m3-07-infection-growth-sm">20</text>
+  <line x1="320.0" y1="224.3" x2="690.0" y2="224.3" style="stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 3"/>
+  <text x="312.0" y="163.6" text-anchor="end" class="m3-07-infection-growth-sm">40</text>
+  <line x1="320.0" y1="158.6" x2="690.0" y2="158.6" style="stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 3"/>
+  <text x="312.0" y="97.9" text-anchor="end" class="m3-07-infection-growth-sm">60</text>
+  <line x1="320.0" y1="92.9" x2="690.0" y2="92.9" style="stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 3"/>
+  <text x="312.0" y="46.0" class="m3-07-infection-growth-sm">새 감염자(명)</text>
+  <rect x="331.4" y="286.7" width="14.0" height="3.3" style="fill:var(--fig-red)"/>
+  <rect x="347.4" y="286.7" width="14.0" height="3.3" style="fill:var(--fig-blue)"/>
+  <text x="338.4" y="280.7" text-anchor="middle" class="m3-07-infection-growth-sm">1</text>
+  <text x="346.4" y="310.0" text-anchor="middle" class="m3-07-infection-growth-sm">0</text>
+  <rect x="384.3" y="283.4" width="14.0" height="6.6" style="fill:var(--fig-red)"/>
+  <rect x="400.3" y="286.7" width="14.0" height="3.3" style="fill:var(--fig-blue)"/>
+  <text x="391.3" y="277.4" text-anchor="middle" class="m3-07-infection-growth-sm">2</text>
+  <text x="399.3" y="310.0" text-anchor="middle" class="m3-07-infection-growth-sm">5</text>
+  <rect x="437.1" y="276.9" width="14.0" height="13.1" style="fill:var(--fig-red)"/>
+  <rect x="453.1" y="286.7" width="14.0" height="3.3" style="fill:var(--fig-blue)"/>
+  <text x="444.1" y="270.9" text-anchor="middle" class="m3-07-infection-growth-sm">4</text>
+  <text x="452.1" y="310.0" text-anchor="middle" class="m3-07-infection-growth-sm">10</text>
+  <rect x="490.0" y="263.7" width="14.0" height="26.3" style="fill:var(--fig-red)"/>
+  <rect x="506.0" y="286.7" width="14.0" height="3.3" style="fill:var(--fig-blue)"/>
+  <text x="497.0" y="257.7" text-anchor="middle" class="m3-07-infection-growth-sm">8</text>
+  <text x="505.0" y="310.0" text-anchor="middle" class="m3-07-infection-growth-sm">15</text>
+  <rect x="542.9" y="237.4" width="14.0" height="52.6" style="fill:var(--fig-red)"/>
+  <rect x="558.9" y="286.7" width="14.0" height="3.3" style="fill:var(--fig-blue)"/>
+  <text x="549.9" y="231.4" text-anchor="middle" class="m3-07-infection-growth-sm">16</text>
+  <text x="557.9" y="310.0" text-anchor="middle" class="m3-07-infection-growth-sm">20</text>
+  <rect x="595.7" y="184.9" width="14.0" height="105.1" style="fill:var(--fig-red)"/>
+  <rect x="611.7" y="286.7" width="14.0" height="3.3" style="fill:var(--fig-blue)"/>
+  <text x="602.7" y="178.9" text-anchor="middle" class="m3-07-infection-growth-sm">32</text>
+  <text x="610.7" y="310.0" text-anchor="middle" class="m3-07-infection-growth-sm">25</text>
+  <rect x="648.6" y="79.7" width="14.0" height="210.3" style="fill:var(--fig-red)"/>
+  <rect x="664.6" y="286.7" width="14.0" height="3.3" style="fill:var(--fig-blue)"/>
+  <text x="655.6" y="73.7" text-anchor="middle" class="m3-07-infection-growth-sm">64</text>
+  <text x="663.6" y="310.0" text-anchor="middle" class="m3-07-infection-growth-sm">30</text>
+  <text x="505.0" y="330.0" text-anchor="middle" class="m3-07-infection-growth-sm">지난 날수(일)</text>
+  <rect x="350.0" y="66.0" width="14.0" height="14.0" style="fill:var(--fig-red)"/>
+  <text x="370.0" y="78.0" class="m3-07-infection-growth-sm">1명이 2명에게 옮길 때</text>
+  <rect x="350.0" y="88.0" width="14.0" height="14.0" style="fill:var(--fig-blue)"/>
+  <text x="370.0" y="100.0" class="m3-07-infection-growth-sm">1명이 1명에게 옮길 때 (계속 1명)</text>
+</svg>

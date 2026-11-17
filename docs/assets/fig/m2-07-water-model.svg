@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-m2-07-water-model d-m2-07-water-model">
+  <title id="t-m2-07-water-model">그림 중2-7-5 전기 회로와 물의 흐름 모형</title>
+  <desc id="d-m2-07-water-model">물의 흐름 모형에서 펌프는 전지, 물의 높이 차는 전압, 흐르는 물의 양은 전류, 물레방아는 전구(저항)에 해당한다. 물레방아를 지난 물의 양이 줄지 않듯이 전구를 지난 전류도 줄지 않는다.</desc>
+  <style>.m2-07-water-model-t{font-size:14px;fill:var(--fig-ink)} .m2-07-water-model-b{font-size:14px;font-weight:600;fill:var(--fig-ink)} .m2-07-water-model-s{font-size:13px;fill:var(--fig-muted)} .m2-07-water-model-hd{font-size:15px;font-weight:700;fill:var(--fig-ink)} </style>
+  <text x="180.0" y="26.0" text-anchor="middle" class="m2-07-water-model-hd">물의 흐름 모형</text>
+  <text x="540.0" y="26.0" text-anchor="middle" class="m2-07-water-model-hd">전기 회로</text>
+  <line x1="360.0" y1="16.0" x2="360.0" y2="330.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4;fill:none"/>
+  <rect x="40.0" y="70.0" width="110.0" height="40.0" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <rect x="40.0" y="250.0" width="280.0" height="36.0" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <path d="M150 84 L250 84 L250 160" style="fill:none;stroke:var(--fig-blue);stroke-width:8;stroke-linejoin:round;opacity:0.55"/>
+  <circle cx="250.0" cy="200.0" r="34.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2.4"/>
+  <line x1="250.0" y1="200.0" x2="284.0" y2="200.0" style="stroke:var(--fig-amber);stroke-width:2;fill:none"/>
+  <line x1="250.0" y1="200.0" x2="274.0" y2="224.0" style="stroke:var(--fig-amber);stroke-width:2;fill:none"/>
+  <line x1="250.0" y1="200.0" x2="250.0" y2="234.0" style="stroke:var(--fig-amber);stroke-width:2;fill:none"/>
+  <line x1="250.0" y1="200.0" x2="226.0" y2="224.0" style="stroke:var(--fig-amber);stroke-width:2;fill:none"/>
+  <line x1="250.0" y1="200.0" x2="216.0" y2="200.0" style="stroke:var(--fig-amber);stroke-width:2;fill:none"/>
+  <line x1="250.0" y1="200.0" x2="226.0" y2="176.0" style="stroke:var(--fig-amber);stroke-width:2;fill:none"/>
+  <line x1="250.0" y1="200.0" x2="250.0" y2="166.0" style="stroke:var(--fig-amber);stroke-width:2;fill:none"/>
+  <line x1="250.0" y1="200.0" x2="274.0" y2="176.0" style="stroke:var(--fig-amber);stroke-width:2;fill:none"/>
+  <circle cx="250.0" cy="200.0" r="5.0" style="fill:var(--fig-amber);stroke:var(--fig-amber);stroke-width:1"/>
+  <text x="296.0" y="196.0" class="m2-07-water-model-b">물레방아</text>
+  <text x="296.0" y="214.0" class="m2-07-water-model-s">= 전구(저항)</text>
+  <rect x="60.0" y="150.0" width="50.0" height="50.0" rx="6" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <text x="85.0" y="180.0" text-anchor="middle" class="m2-07-water-model-b">펌프</text>
+  <line x1="85.0" y1="248.0" x2="85.0" y2="210.3" style="stroke:var(--fig-blue);stroke-width:2.4;fill:none"/>
+  <path d="M85.0 204.0 L88.7 212.2 L81.3 212.2 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="85.0" y1="148.0" x2="85.0" y2="120.3" style="stroke:var(--fig-blue);stroke-width:2.4;fill:none"/>
+  <path d="M85.0 114.0 L88.7 122.2 L81.3 122.2 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <text x="20.0" y="228.0" class="m2-07-water-model-s">= 전지</text>
+  <line x1="170.0" y1="70.0" x2="200.0" y2="70.0" style="stroke:var(--fig-line);stroke-width:1;fill:none"/>
+  <line x1="170.0" y1="268.0" x2="200.0" y2="268.0" style="stroke:var(--fig-line);stroke-width:1;fill:none"/>
+  <line x1="185.0" y1="120.0" x2="185.0" y2="76.9" style="stroke:var(--fig-line);stroke-width:1.5;fill:none"/>
+  <path d="M185.0 72.0 L187.9 78.4 L182.1 78.4 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="185.0" y1="220.0" x2="185.0" y2="261.1" style="stroke:var(--fig-line);stroke-width:1.5;fill:none"/>
+  <path d="M185.0 266.0 L182.1 259.6 L187.9 259.6 Z" style="fill:var(--fig-line);stroke:none"/>
+  <text x="185.0" y="160.0" text-anchor="middle" class="m2-07-water-model-b">높이 차</text>
+  <text x="185.0" y="178.0" text-anchor="middle" class="m2-07-water-model-s">= 전압</text>
+  <line x1="220.0" y1="268.0" x2="146.3" y2="268.0" style="stroke:var(--fig-blue);stroke-width:2.4;fill:none"/>
+  <path d="M140.0 268.0 L148.2 264.3 L148.2 271.7 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <text x="180.0" y="308.0" text-anchor="middle" class="m2-07-water-model-s">흐르는 물의 양 = 전류</text>
+  <text x="180.0" y="326.0" text-anchor="middle" class="m2-07-water-model-s">(물레방아를 지나도 줄지 않는다)</text>
+  <line x1="430.0" y1="90.0" x2="525.0" y2="90.0" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
+  <circle cx="540.0" cy="90.0" r="15.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2.2"/>
+  <line x1="529.5" y1="79.5" x2="550.5" y2="100.5" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
+  <line x1="529.5" y1="100.5" x2="550.5" y2="79.5" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
+  <line x1="555.0" y1="90.0" x2="650.0" y2="90.0" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
+  <line x1="650.0" y1="90.0" x2="650.0" y2="260.0" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
+  <line x1="650.0" y1="260.0" x2="546.0" y2="260.0" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
+  <line x1="534.0" y1="242.0" x2="534.0" y2="278.0" style="stroke:var(--fig-ink);stroke-width:2.5;fill:none"/>
+  <line x1="546.0" y1="251.0" x2="546.0" y2="269.0" style="stroke:var(--fig-ink);stroke-width:4.5;fill:none"/>
+  <line x1="534.0" y1="260.0" x2="430.0" y2="260.0" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
+  <line x1="430.0" y1="260.0" x2="430.0" y2="90.0" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
+  <text x="528.0" y="236.0" text-anchor="middle" class="m2-07-water-model-b" style="fill:var(--fig-red)">+</text>
+  <text x="554.0" y="236.0" text-anchor="middle" class="m2-07-water-model-b" style="fill:var(--fig-blue)">−</text>
+  <text x="540.0" y="64.0" text-anchor="middle" class="m2-07-water-model-b">전구</text>
+  <text x="540.0" y="296.0" text-anchor="middle" class="m2-07-water-model-b">전지</text>
+  <line x1="480.0" y1="260.0" x2="456.3" y2="260.0" style="stroke:var(--fig-red);stroke-width:2.2;fill:none"/>
+  <path d="M450.0 260.0 L458.2 256.3 L458.2 263.7 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="430.0" y1="200.0" x2="430.0" y2="156.3" style="stroke:var(--fig-red);stroke-width:2.2;fill:none"/>
+  <path d="M430.0 150.0 L433.7 158.2 L426.3 158.2 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="590.0" y1="90.0" x2="623.7" y2="90.0" style="stroke:var(--fig-red);stroke-width:2.2;fill:none"/>
+  <path d="M630.0 90.0 L621.8 93.7 L621.8 86.3 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="650.0" y1="150.0" x2="650.0" y2="193.7" style="stroke:var(--fig-red);stroke-width:2.2;fill:none"/>
+  <path d="M650.0 200.0 L646.3 191.8 L653.7 191.8 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="540.0" y="180.0" text-anchor="middle" class="m2-07-water-model-s">전류는 전구를 지나도</text>
+  <text x="540.0" y="198.0" text-anchor="middle" class="m2-07-water-model-s">줄지 않는다</text>
+  <text x="540.0" y="326.0" text-anchor="middle" class="m2-07-water-model-s">전구에서 쓰이는 것은 전기 에너지</text>
+</svg>

@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 456" role="img" aria-labelledby="t-m1-02-microscope d-m1-02-microscope">
+<title id="t-m1-02-microscope">그림 중1-2-3 광학 현미경의 구조와 배율에 따른 시야</title>
+<desc id="d-m1-02-microscope">광학 현미경의 각 부분과, 같은 양파 표피를 저배율(100배)과 고배율(400배)로 보았을 때의 차이를 나타냈다. 배율을 높이면 세포가 크게 보이지만 보이는 범위가 좁아지고 어두워진다. 모식도.</desc>
+<style>
+  .m102m-ttl{font-size:16px;font-weight:700;fill:var(--fig-ink)}
+  .m102m-ink{font-size:14px;fill:var(--fig-ink)}
+  .m102m-b{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+  .m102m-b15{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+  .m102m-sm{font-size:13px;fill:var(--fig-muted)}
+  .m102m-smi{font-size:13px;fill:var(--fig-ink)}
+  .m102m-acc{font-size:14px;font-weight:700;fill:var(--fig-accent)}
+  .m102m-box{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.2}
+  .m102m-panel{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2}
+  .m102m-panel0{fill:var(--fig-panel)}
+  .m102m-ln{fill:none;stroke:var(--fig-ink);stroke-width:2}
+  .m102m-thin{fill:none;stroke:var(--fig-ink);stroke-width:1.2}
+  .m102m-grid{fill:none;stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4}
+  .m102m-dash{fill:none;stroke:var(--fig-line);stroke-width:1.3;stroke-dasharray:5 5}
+  .m102m-ar{fill:none;stroke:var(--fig-ink);stroke-width:2}
+  .m102m-ah{fill:var(--fig-ink)}
+  .m102m-lead{fill:none;stroke:var(--fig-muted);stroke-width:1}
+  .m102m-dot{fill:var(--fig-muted)}
+  .m102m-mut{fill:var(--fig-muted)}
+  .m102m-inkf{fill:var(--fig-ink)}
+  .m102m-paperf{fill:var(--fig-paper)}
+  .m102m-linef{fill:var(--fig-line)}
+  .m102m-fbl{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2}
+  .m102m-sbl{fill:var(--fig-soft-blue)}
+  .m102m-obl{fill:none;stroke:var(--fig-blue);stroke-width:2}
+  .m102m-cbl{fill:var(--fig-blue)}
+  .m102m-tbl{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+  .m102m-abl{fill:none;stroke:var(--fig-blue);stroke-width:2.4}
+  .m102m-fre{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2}
+  .m102m-sre{fill:var(--fig-soft-red)}
+  .m102m-ore{fill:none;stroke:var(--fig-red);stroke-width:2}
+  .m102m-cre{fill:var(--fig-red)}
+  .m102m-tre{font-size:14px;font-weight:700;fill:var(--fig-red)}
+  .m102m-are{fill:none;stroke:var(--fig-red);stroke-width:2.4}
+  .m102m-fgr{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2}
+  .m102m-sgr{fill:var(--fig-soft-green)}
+  .m102m-ogr{fill:none;stroke:var(--fig-green);stroke-width:2}
+  .m102m-cgr{fill:var(--fig-green)}
+  .m102m-tgr{font-size:14px;font-weight:700;fill:var(--fig-green)}
+  .m102m-agr{fill:none;stroke:var(--fig-green);stroke-width:2.4}
+  .m102m-fam{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+  .m102m-sam{fill:var(--fig-soft-amber)}
+  .m102m-oam{fill:none;stroke:var(--fig-amber);stroke-width:2}
+  .m102m-cam{fill:var(--fig-amber)}
+  .m102m-tam{font-size:14px;font-weight:700;fill:var(--fig-amber)}
+  .m102m-aam{fill:none;stroke:var(--fig-amber);stroke-width:2.4}
+  .m102m-fvi{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2}
+  .m102m-svi{fill:var(--fig-soft-violet)}
+  .m102m-ovi{fill:none;stroke:var(--fig-violet);stroke-width:2}
+  .m102m-cvi{fill:var(--fig-violet)}
+  .m102m-tvi{font-size:14px;font-weight:700;fill:var(--fig-violet)}
+  .m102m-avi{fill:none;stroke:var(--fig-violet);stroke-width:2.4}
+  .m102m-fte{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2}
+  .m102m-ste{fill:var(--fig-soft-teal)}
+  .m102m-ote{fill:none;stroke:var(--fig-teal);stroke-width:2}
+  .m102m-cte{fill:var(--fig-teal)}
+  .m102m-tte{font-size:14px;font-weight:700;fill:var(--fig-teal)}
+  .m102m-ate{fill:none;stroke:var(--fig-teal);stroke-width:2.4}
+  .m102m-metal{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2;stroke-linejoin:round}
+  .m102m-dark{fill:var(--fig-line);stroke:var(--fig-ink);stroke-width:1.6}
+  .m102m-shade{fill:var(--fig-ink);opacity:0.22}
+</style>
+<defs><clipPath id="m102m-clip0"><circle cx="585" cy="136" r="58"/></clipPath><clipPath id="m102m-clip1"><circle cx="585" cy="322" r="58"/></clipPath></defs>
+<path d="M90 400 L300 400 Q310 400 308 390 L295 372 L100 372 L84 390 Q82 400 90 400 Z" class="m102m-metal"/>
+<path d="M110 372 L110 300 Q110 230 170 170 L208 132 L230 150 L198 186 Q144 240 144 300 L144 372 Z" class="m102m-metal"/>
+<rect x="214.0" y="96.0" width="32.0" height="110.0" class="m102m-metal"/>
+<rect x="218.0" y="58.0" width="24.0" height="40.0" class="m102m-metal"/>
+<rect x="215.0" y="52.0" width="30.0" height="9.0" rx="2" class="m102m-dark"/>
+<path d="M194 206 L266 206 L256 222 L204 222 Z" class="m102m-dark"/>
+<rect x="223.0" y="222.0" width="14.0" height="30.0" class="m102m-metal"/>
+<path d="M208 220 L194 244 L202 248 L216 224 Z" class="m102m-metal"/>
+<path d="M252 220 L266 244 L258 248 L244 224 Z" class="m102m-metal"/>
+<rect x="144.0" y="270.0" width="176.0" height="12.0" class="m102m-metal"/>
+<rect x="186.0" y="264.0" width="88.0" height="6.0" class="m102m-fbl"/>
+<rect x="216.0" y="261.0" width="28.0" height="3.0" class="m102m-fbl"/>
+<path d="M170 264 L194 262" class="m102m-ln"/>
+<rect x="208.0" y="284.0" width="44.0" height="9.0" class="m102m-dark"/>
+<rect x="144.0" y="330.0" width="150.0" height="42.0" class="m102m-metal"/>
+<circle cx="230.0" cy="350.0" r="12.0" class="m102m-fam"/>
+<line x1="245.0" y1="350.0" x2="250.0" y2="350.0" class="m102m-oam"/>
+<line x1="240.6" y1="360.6" x2="244.1" y2="364.1" class="m102m-oam"/>
+<line x1="230.0" y1="365.0" x2="230.0" y2="370.0" class="m102m-oam"/>
+<line x1="219.4" y1="360.6" x2="215.9" y2="364.1" class="m102m-oam"/>
+<line x1="215.0" y1="350.0" x2="210.0" y2="350.0" class="m102m-oam"/>
+<line x1="219.4" y1="339.4" x2="215.9" y2="335.9" class="m102m-oam"/>
+<line x1="230.0" y1="335.0" x2="230.0" y2="330.0" class="m102m-oam"/>
+<line x1="240.6" y1="339.4" x2="244.1" y2="335.9" class="m102m-oam"/>
+<path d="M230 336 L230 296" class="m102m-oam" style="stroke-dasharray:4 4"/>
+<circle cx="127.0" cy="252.0" r="19.0" class="m102m-dark"/>
+<circle cx="127.0" cy="252.0" r="6.0" class="m102m-panel"/>
+<circle cx="127.0" cy="306.0" r="11.0" class="m102m-dark"/>
+<line x1="245.0" y1="70.0" x2="334.0" y2="61.0" class="m102m-lead"/>
+<circle cx="245.0" cy="70.0" r="2.2" class="m102m-dot"/>
+<text x="340.0" y="66.0" class="m102m-b">접안렌즈</text>
+<line x1="246.0" y1="140.0" x2="334.0" y2="135.0" class="m102m-lead"/>
+<circle cx="246.0" cy="140.0" r="2.2" class="m102m-dot"/>
+<text x="340.0" y="140.0" class="m102m-b">경통</text>
+<line x1="264.0" y1="240.0" x2="334.0" y2="217.0" class="m102m-lead"/>
+<circle cx="264.0" cy="240.0" r="2.2" class="m102m-dot"/>
+<text x="340.0" y="222.0" class="m102m-b">대물렌즈</text>
+<line x1="320.0" y1="276.0" x2="334.0" y2="263.0" class="m102m-lead"/>
+<circle cx="320.0" cy="276.0" r="2.2" class="m102m-dot"/>
+<text x="340.0" y="268.0" class="m102m-b">재물대</text>
+<line x1="252.0" y1="289.0" x2="334.0" y2="295.0" class="m102m-lead"/>
+<circle cx="252.0" cy="289.0" r="2.2" class="m102m-dot"/>
+<text x="340.0" y="300.0" class="m102m-b">조리개</text>
+<line x1="252.0" y1="352.0" x2="334.0" y2="347.0" class="m102m-lead"/>
+<circle cx="252.0" cy="352.0" r="2.2" class="m102m-dot"/>
+<text x="340.0" y="352.0" class="m102m-b">전등(반사경)</text>
+<line x1="108.0" y1="252.0" x2="20.0" y2="230.0" class="m102m-lead"/>
+<circle cx="108.0" cy="252.0" r="2.2" class="m102m-dot"/>
+<text x="20.0" y="224.0" class="m102m-b">조동 나사</text>
+<line x1="116.0" y1="306.0" x2="20.0" y2="330.0" class="m102m-lead"/>
+<circle cx="116.0" cy="306.0" r="2.2" class="m102m-dot"/>
+<text x="20.0" y="346.0" class="m102m-b">미동 나사</text>
+<text x="20.0" y="196.0" class="m102m-sm"></text>
+<text x="340.0" y="384.0" class="m102m-sm"></text>
+<rect x="460.0" y="14.0" width="250.0" height="418.0" rx="8" class="m102m-box"/>
+<text x="585.0" y="40.0" text-anchor="middle" class="m102m-b">같은 양파 표피를 보면</text>
+<g clip-path="url(#m102m-clip0)"><rect x="505.0" y="67.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="517.1" cy="72.5" r="1.6" class="m102m-cvi"/><rect x="527.0" y="67.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="539.1" cy="72.5" r="1.6" class="m102m-cvi"/><rect x="549.0" y="67.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="561.1" cy="72.5" r="1.6" class="m102m-cvi"/><rect x="571.0" y="67.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="583.1" cy="72.5" r="1.6" class="m102m-cvi"/><rect x="593.0" y="67.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="605.1" cy="72.5" r="1.6" class="m102m-cvi"/><rect x="615.0" y="67.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="627.1" cy="72.5" r="1.6" class="m102m-cvi"/><rect x="637.0" y="67.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="649.1" cy="72.5" r="1.6" class="m102m-cvi"/><rect x="516.0" y="78.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="528.1" cy="83.5" r="1.6" class="m102m-cvi"/><rect x="538.0" y="78.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="550.1" cy="83.5" r="1.6" class="m102m-cvi"/><rect x="560.0" y="78.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="572.1" cy="83.5" r="1.6" class="m102m-cvi"/><rect x="582.0" y="78.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="594.1" cy="83.5" r="1.6" class="m102m-cvi"/><rect x="604.0" y="78.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="616.1" cy="83.5" r="1.6" class="m102m-cvi"/><rect x="626.0" y="78.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="638.1" cy="83.5" r="1.6" class="m102m-cvi"/><rect x="505.0" y="89.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="517.1" cy="94.5" r="1.6" class="m102m-cvi"/><rect x="527.0" y="89.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="539.1" cy="94.5" r="1.6" class="m102m-cvi"/><rect x="549.0" y="89.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="561.1" cy="94.5" r="1.6" class="m102m-cvi"/><rect x="571.0" y="89.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="583.1" cy="94.5" r="1.6" class="m102m-cvi"/><rect x="593.0" y="89.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="605.1" cy="94.5" r="1.6" class="m102m-cvi"/><rect x="615.0" y="89.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="627.1" cy="94.5" r="1.6" class="m102m-cvi"/><rect x="637.0" y="89.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="649.1" cy="94.5" r="1.6" class="m102m-cvi"/><rect x="516.0" y="100.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="528.1" cy="105.5" r="1.6" class="m102m-cvi"/><rect x="538.0" y="100.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="550.1" cy="105.5" r="1.6" class="m102m-cvi"/><rect x="560.0" y="100.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="572.1" cy="105.5" r="1.6" class="m102m-cvi"/><rect x="582.0" y="100.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="594.1" cy="105.5" r="1.6" class="m102m-cvi"/><rect x="604.0" y="100.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="616.1" cy="105.5" r="1.6" class="m102m-cvi"/><rect x="626.0" y="100.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="638.1" cy="105.5" r="1.6" class="m102m-cvi"/><rect x="505.0" y="111.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="517.1" cy="116.5" r="1.6" class="m102m-cvi"/><rect x="527.0" y="111.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="539.1" cy="116.5" r="1.6" class="m102m-cvi"/><rect x="549.0" y="111.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="561.1" cy="116.5" r="1.6" class="m102m-cvi"/><rect x="571.0" y="111.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="583.1" cy="116.5" r="1.6" class="m102m-cvi"/><rect x="593.0" y="111.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="605.1" cy="116.5" r="1.6" class="m102m-cvi"/><rect x="615.0" y="111.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="627.1" cy="116.5" r="1.6" class="m102m-cvi"/><rect x="637.0" y="111.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="649.1" cy="116.5" r="1.6" class="m102m-cvi"/><rect x="516.0" y="122.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="528.1" cy="127.5" r="1.6" class="m102m-cvi"/><rect x="538.0" y="122.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="550.1" cy="127.5" r="1.6" class="m102m-cvi"/><rect x="560.0" y="122.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="572.1" cy="127.5" r="1.6" class="m102m-cvi"/><rect x="582.0" y="122.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="594.1" cy="127.5" r="1.6" class="m102m-cvi"/><rect x="604.0" y="122.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="616.1" cy="127.5" r="1.6" class="m102m-cvi"/><rect x="626.0" y="122.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="638.1" cy="127.5" r="1.6" class="m102m-cvi"/><rect x="505.0" y="133.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="517.1" cy="138.5" r="1.6" class="m102m-cvi"/><rect x="527.0" y="133.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="539.1" cy="138.5" r="1.6" class="m102m-cvi"/><rect x="549.0" y="133.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="561.1" cy="138.5" r="1.6" class="m102m-cvi"/><rect x="571.0" y="133.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="583.1" cy="138.5" r="1.6" class="m102m-cvi"/><rect x="593.0" y="133.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="605.1" cy="138.5" r="1.6" class="m102m-cvi"/><rect x="615.0" y="133.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="627.1" cy="138.5" r="1.6" class="m102m-cvi"/><rect x="637.0" y="133.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="649.1" cy="138.5" r="1.6" class="m102m-cvi"/><rect x="516.0" y="144.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="528.1" cy="149.5" r="1.6" class="m102m-cvi"/><rect x="538.0" y="144.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="550.1" cy="149.5" r="1.6" class="m102m-cvi"/><rect x="560.0" y="144.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="572.1" cy="149.5" r="1.6" class="m102m-cvi"/><rect x="582.0" y="144.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="594.1" cy="149.5" r="1.6" class="m102m-cvi"/><rect x="604.0" y="144.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="616.1" cy="149.5" r="1.6" class="m102m-cvi"/><rect x="626.0" y="144.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="638.1" cy="149.5" r="1.6" class="m102m-cvi"/><rect x="505.0" y="155.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="517.1" cy="160.5" r="1.6" class="m102m-cvi"/><rect x="527.0" y="155.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="539.1" cy="160.5" r="1.6" class="m102m-cvi"/><rect x="549.0" y="155.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="561.1" cy="160.5" r="1.6" class="m102m-cvi"/><rect x="571.0" y="155.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="583.1" cy="160.5" r="1.6" class="m102m-cvi"/><rect x="593.0" y="155.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="605.1" cy="160.5" r="1.6" class="m102m-cvi"/><rect x="615.0" y="155.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="627.1" cy="160.5" r="1.6" class="m102m-cvi"/><rect x="637.0" y="155.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="649.1" cy="160.5" r="1.6" class="m102m-cvi"/><rect x="516.0" y="166.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="528.1" cy="171.5" r="1.6" class="m102m-cvi"/><rect x="538.0" y="166.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="550.1" cy="171.5" r="1.6" class="m102m-cvi"/><rect x="560.0" y="166.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="572.1" cy="171.5" r="1.6" class="m102m-cvi"/><rect x="582.0" y="166.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="594.1" cy="171.5" r="1.6" class="m102m-cvi"/><rect x="604.0" y="166.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="616.1" cy="171.5" r="1.6" class="m102m-cvi"/><rect x="626.0" y="166.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="638.1" cy="171.5" r="1.6" class="m102m-cvi"/><rect x="505.0" y="177.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="517.1" cy="182.5" r="1.6" class="m102m-cvi"/><rect x="527.0" y="177.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="539.1" cy="182.5" r="1.6" class="m102m-cvi"/><rect x="549.0" y="177.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="561.1" cy="182.5" r="1.6" class="m102m-cvi"/><rect x="571.0" y="177.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="583.1" cy="182.5" r="1.6" class="m102m-cvi"/><rect x="593.0" y="177.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="605.1" cy="182.5" r="1.6" class="m102m-cvi"/><rect x="615.0" y="177.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="627.1" cy="182.5" r="1.6" class="m102m-cvi"/><rect x="637.0" y="177.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="649.1" cy="182.5" r="1.6" class="m102m-cvi"/><rect x="516.0" y="188.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="528.1" cy="193.5" r="1.6" class="m102m-cvi"/><rect x="538.0" y="188.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="550.1" cy="193.5" r="1.6" class="m102m-cvi"/><rect x="560.0" y="188.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="572.1" cy="193.5" r="1.6" class="m102m-cvi"/><rect x="582.0" y="188.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="594.1" cy="193.5" r="1.6" class="m102m-cvi"/><rect x="604.0" y="188.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="616.1" cy="193.5" r="1.6" class="m102m-cvi"/><rect x="626.0" y="188.0" width="22.0" height="11.0" class="m102m-fgr" style="stroke-width:1"/><circle cx="638.1" cy="193.5" r="1.6" class="m102m-cvi"/></g>
+<circle cx="585.0" cy="136.0" r="58.0" class="m102m-ln"/>
+<text x="585.0" y="68.0" text-anchor="middle" class="m102m-b">저배율 100배</text>
+<g clip-path="url(#m102m-clip1)"><rect x="439.0" y="220.0" width="88.0" height="44.0" class="m102m-fgr" style="stroke-width:2"/><circle cx="487.4" cy="242.0" r="6.2" class="m102m-cvi"/><rect x="527.0" y="220.0" width="88.0" height="44.0" class="m102m-fgr" style="stroke-width:2"/><circle cx="575.4" cy="242.0" r="6.2" class="m102m-cvi"/><rect x="615.0" y="220.0" width="88.0" height="44.0" class="m102m-fgr" style="stroke-width:2"/><circle cx="663.4" cy="242.0" r="6.2" class="m102m-cvi"/><rect x="483.0" y="264.0" width="88.0" height="44.0" class="m102m-fgr" style="stroke-width:2"/><circle cx="531.4" cy="286.0" r="6.2" class="m102m-cvi"/><rect x="571.0" y="264.0" width="88.0" height="44.0" class="m102m-fgr" style="stroke-width:2"/><circle cx="619.4" cy="286.0" r="6.2" class="m102m-cvi"/><rect x="439.0" y="308.0" width="88.0" height="44.0" class="m102m-fgr" style="stroke-width:2"/><circle cx="487.4" cy="330.0" r="6.2" class="m102m-cvi"/><rect x="527.0" y="308.0" width="88.0" height="44.0" class="m102m-fgr" style="stroke-width:2"/><circle cx="575.4" cy="330.0" r="6.2" class="m102m-cvi"/><rect x="615.0" y="308.0" width="88.0" height="44.0" class="m102m-fgr" style="stroke-width:2"/><circle cx="663.4" cy="330.0" r="6.2" class="m102m-cvi"/><rect x="483.0" y="352.0" width="88.0" height="44.0" class="m102m-fgr" style="stroke-width:2"/><circle cx="531.4" cy="374.0" r="6.2" class="m102m-cvi"/><rect x="571.0" y="352.0" width="88.0" height="44.0" class="m102m-fgr" style="stroke-width:2"/><circle cx="619.4" cy="374.0" r="6.2" class="m102m-cvi"/><rect x="527" y="264" width="116" height="116" class="m102m-shade"/></g>
+<circle cx="585.0" cy="322.0" r="58.0" class="m102m-ln"/>
+<text x="585.0" y="254.0" text-anchor="middle" class="m102m-b">고배율 400배</text>
+<text x="585.0" y="218.0" text-anchor="middle" class="m102m-smi">세포가 작게, 많이 보인다.</text>
+<text x="585.0" y="235.0" text-anchor="middle" class="m102m-smi">넓은 범위를 본다(밝다).</text>
+<text x="585.0" y="404.0" text-anchor="middle" class="m102m-smi">세포가 크게 보이지만</text>
+<text x="585.0" y="421.0" text-anchor="middle" class="m102m-smi">범위가 좁고 어둡다.</text>
+<text x="20.0" y="448.0" class="m102m-acc">배율 = 접안렌즈 배율 × 대물렌즈 배율   (예: 10 × 40 = 400배)</text>
+</svg>

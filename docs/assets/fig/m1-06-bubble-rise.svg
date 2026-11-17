@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-m1-06-bubble-rise d-m1-06-bubble-rise">
+  <title id="t-m1-06-bubble-rise">그림 중1-6-5 바깥 압력이 작아지면 기체의 부피가 커진다</title>
+  <desc id="d-m1-06-bubble-rise">잠수부가 내뱉은 공기 방울은 수면에 가까워질수록 물의 압력이 작아져 점점 커진다. 높은 산 위에서는 대기압이 작아 밀봉된 과자 봉지가 부푼다. 화살표는 바깥에서 누르는 압력의 크기를 나타낸 모식이며, 크기와 비율은 실제와 다르다.</desc>
+  <style>
+    .br-red{fill:none;stroke:var(--fig-red)} .br-redh{fill:var(--fig-red)}
+    .br-blue{fill:none;stroke:var(--fig-blue)} .br-blueh{fill:var(--fig-blue)}
+    .br-green{fill:none;stroke:var(--fig-green)} .br-greenh{fill:var(--fig-green)}
+    .br-amber{fill:none;stroke:var(--fig-amber)} .br-amberh{fill:var(--fig-amber)}
+    .br-violet{fill:none;stroke:var(--fig-violet)} .br-violeth{fill:var(--fig-violet)}
+    .br-teal{fill:none;stroke:var(--fig-teal)} .br-tealh{fill:var(--fig-teal)}
+    .br-ink{fill:none;stroke:var(--fig-ink)} .br-inkh{fill:var(--fig-ink)}
+    .br-muted{fill:none;stroke:var(--fig-muted)} .br-mutedh{fill:var(--fig-muted)}
+    .br-line{fill:none;stroke:var(--fig-line)} .br-lineh{fill:var(--fig-line)}
+    .br-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .br-t{font-size:14px;fill:var(--fig-ink)}
+    .br-sm{font-size:13px;fill:var(--fig-muted)}
+    .br-redb{font-size:14px;font-weight:700;fill:var(--fig-red)}
+    .br-sred{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6}
+    .br-blueb{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+    .br-sblue{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6}
+    .br-greenb{font-size:14px;font-weight:700;fill:var(--fig-green)}
+    .br-sgreen{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6}
+    .br-amberb{font-size:14px;font-weight:700;fill:var(--fig-amber)}
+    .br-samber{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6}
+    .br-violetb{font-size:14px;font-weight:700;fill:var(--fig-violet)}
+    .br-sviolet{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6}
+    .br-tealb{font-size:14px;font-weight:700;fill:var(--fig-teal)}
+    .br-steal{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.6}
+    .br-panel{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.4}
+    .br-paper{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.4}
+    .br-axis{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
+    .br-grid{fill:none;stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4}
+    .br-dash{fill:none;stroke:var(--fig-muted);stroke-width:1.4;stroke-dasharray:5 4}
+    .br-sea{fill:var(--fig-soft-blue);stroke:none} .br-bub{fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:1.6} .br-dv{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6} .br-mt{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6} .br-bag{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8}
+  </style>
+  <rect x="20.0" y="70.0" width="320.0" height="240.0" rx="0" class="br-sea"/>
+  <path d="M20 70 q20 -8 40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0" class="br-blue" style="stroke-width:2"/>
+  <text x="180.0" y="34.0" text-anchor="middle" class="br-h">물속의 공기 방울</text>
+  <text x="30.0" y="62.0" class="br-sm">수면</text>
+  <ellipse cx="80" cy="282" rx="34" ry="12" class="br-dv"/>
+  <circle cx="118.0" cy="274.0" r="10.0" class="br-dv"/>
+  <rect x="56.0" y="262.0" width="40.0" height="10.0" rx="4" class="br-dv"/>
+  <circle cx="128.0" cy="262.0" r="5.0" class="br-bub"/>
+  <circle cx="136.0" cy="230.0" r="6.5" class="br-bub"/>
+  <circle cx="128.0" cy="196.0" r="8.0" class="br-bub"/>
+  <circle cx="136.0" cy="160.0" r="10.0" class="br-bub"/>
+  <circle cx="128.0" cy="122.0" r="12.5" class="br-bub"/>
+  <circle cx="136.0" cy="86.0" r="15.0" class="br-bub"/>
+  <line x1="200.0" y1="290.0" x2="200.0" y2="99.0" class="br-muted" style="stroke-width:2;stroke-linecap:round"/>
+  <path d="M200.0 90.0 L204.3 99.0 L195.7 99.0 Z" class="br-mutedh"/>
+  <text x="214.0" y="110.0" class="br-t">수면에 가까울수록</text>
+  <text x="214.0" y="128.0" class="br-t">물의 압력이 작다</text>
+  <text x="214.0" y="146.0" class="br-blueb">→ 방울이 커진다</text>
+  <text x="214.0" y="268.0" class="br-t">깊을수록</text>
+  <text x="214.0" y="286.0" class="br-t">물의 압력이 크다</text>
+  <line x1="360.0" y1="20.0" x2="360.0" y2="330.0" class="br-dash" style="stroke-width:1.2;stroke-linecap:round"/>
+  <text x="545.0" y="34.0" text-anchor="middle" class="br-h">산을 오를 때 과자 봉지</text>
+  <path d="M380 310 L545 110 L710 310 Z" class="br-mt"/>
+  <path d="M423.0 242.0 Q450 240.0 477.0 242.0 Q479.0 262 477.0 282.0 Q450 284.0 423.0 282.0 Q421.0 262 423.0 242.0 Z" class="br-bag"/>
+  <line x1="502.2" y1="262.0" x2="489.2" y2="262.0" class="br-violet" style="stroke-width:2;stroke-linecap:round"/>
+  <path d="M482.2 262.0 L489.2 258.6 L489.2 265.4 Z" class="br-violeth"/>
+  <line x1="486.9" y1="230.0" x2="477.7" y2="239.2" class="br-violet" style="stroke-width:2;stroke-linecap:round"/>
+  <path d="M472.8 244.2 L475.3 236.9 L480.1 241.6 Z" class="br-violeth"/>
+  <line x1="450.0" y1="216.8" x2="450.0" y2="229.8" class="br-violet" style="stroke-width:2;stroke-linecap:round"/>
+  <path d="M450.0 236.8 L446.6 229.8 L453.4 229.8 Z" class="br-violeth"/>
+  <line x1="413.1" y1="230.0" x2="422.3" y2="239.2" class="br-violet" style="stroke-width:2;stroke-linecap:round"/>
+  <path d="M427.2 244.2 L419.9 241.6 L424.7 236.9 Z" class="br-violeth"/>
+  <line x1="397.8" y1="262.0" x2="410.8" y2="262.0" class="br-violet" style="stroke-width:2;stroke-linecap:round"/>
+  <path d="M417.8 262.0 L410.8 265.4 L410.8 258.6 Z" class="br-violeth"/>
+  <line x1="413.1" y1="294.0" x2="422.3" y2="284.8" class="br-violet" style="stroke-width:2;stroke-linecap:round"/>
+  <path d="M427.2 279.8 L424.7 287.1 L419.9 282.4 Z" class="br-violeth"/>
+  <line x1="450.0" y1="307.2" x2="450.0" y2="294.2" class="br-violet" style="stroke-width:2;stroke-linecap:round"/>
+  <path d="M450.0 287.2 L453.4 294.2 L446.6 294.2 Z" class="br-violeth"/>
+  <line x1="486.9" y1="294.0" x2="477.7" y2="284.8" class="br-violet" style="stroke-width:2;stroke-linecap:round"/>
+  <path d="M472.8 279.8 L480.1 282.4 L475.3 287.1 Z" class="br-violeth"/>
+  <path d="M518.0 66.0 Q545 54.0 572.0 66.0 Q584.0 86 572.0 106.0 Q545 118.0 518.0 106.0 Q506.0 86 518.0 66.0 Z" class="br-bag"/>
+  <line x1="592.2" y1="86.0" x2="588.6" y2="86.0" class="br-violet" style="stroke-width:2;stroke-linecap:round"/>
+  <path d="M583.2 86.0 L588.6 83.4 L588.6 88.6 Z" class="br-violeth"/>
+  <line x1="578.4" y1="57.6" x2="575.8" y2="60.1" class="br-violet" style="stroke-width:2;stroke-linecap:round"/>
+  <path d="M572.0 63.9 L574.0 58.3 L577.7 62.0 Z" class="br-violeth"/>
+  <line x1="545.0" y1="45.8" x2="545.0" y2="49.4" class="br-violet" style="stroke-width:2;stroke-linecap:round"/>
+  <path d="M545.0 54.8 L542.4 49.4 L547.6 49.4 Z" class="br-violeth"/>
+  <line x1="511.6" y1="57.6" x2="514.2" y2="60.1" class="br-violet" style="stroke-width:2;stroke-linecap:round"/>
+  <path d="M518.0 63.9 L512.3 62.0 L516.0 58.3 Z" class="br-violeth"/>
+  <line x1="497.8" y1="86.0" x2="501.4" y2="86.0" class="br-violet" style="stroke-width:2;stroke-linecap:round"/>
+  <path d="M506.8 86.0 L501.4 88.6 L501.4 83.4 Z" class="br-violeth"/>
+  <line x1="511.6" y1="114.4" x2="514.2" y2="111.9" class="br-violet" style="stroke-width:2;stroke-linecap:round"/>
+  <path d="M518.0 108.1 L516.0 113.7 L512.3 110.0 Z" class="br-violeth"/>
+  <line x1="545.0" y1="126.2" x2="545.0" y2="122.6" class="br-violet" style="stroke-width:2;stroke-linecap:round"/>
+  <path d="M545.0 117.2 L547.6 122.6 L542.4 122.6 Z" class="br-violeth"/>
+  <line x1="578.4" y1="114.4" x2="575.8" y2="111.9" class="br-violet" style="stroke-width:2;stroke-linecap:round"/>
+  <path d="M572.0 108.1 L577.7 110.0 L574.0 113.7 Z" class="br-violeth"/>
+  <text x="510.0" y="296.0" class="br-t">산 아래: 대기압이 크다</text>
+  <text x="600.0" y="70.0" class="br-t">산 위: 대기압이 작다</text>
+  <text x="600.0" y="88.0" class="br-redb">→ 봉지가 부푼다</text>
+  <text x="380.0" y="330.0" class="br-sm">보라색 화살표: 바깥 공기가 누르는 압력</text>
+</svg>

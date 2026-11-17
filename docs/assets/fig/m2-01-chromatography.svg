@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-m2-01-chromatography d-m2-01-chromatography">
+  <title id="t-m2-01-chromatography">그림 중2-1-7 종이 크로마토그래피</title>
+  <desc id="d-m2-01-chromatography">거름종이의 출발선(연필 선)에 사인펜 점을 찍고 종이 끝을 물에 담그면, 물이 종이를 타고 올라가면서 잉크 속 색소들이 이동하는 정도가 달라 서로 다른 높이로 나뉜다. 검은색 잉크는 여러 색소로 나뉘고, 한 가지 색소로 된 잉크는 점 하나로 남는다. 색소의 색과 높이는 예시이다.</desc>
+  <style>
+    .m2-01-chromatography-b{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .m2-01-chromatography-t{font-size:14px;fill:var(--fig-ink)}
+    .m2-01-chromatography-tb{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+    .m2-01-chromatography-s{font-size:13px;fill:var(--fig-muted)}
+    .m2-01-chromatography-ln{fill:none;stroke:var(--fig-ink);stroke-width:1.5}
+    .m2-01-chromatography-lm{fill:none;stroke:var(--fig-muted);stroke-width:1.2}
+  </style>
+  <text x="140.0" y="30.0" text-anchor="middle" class="m2-01-chromatography-b">(가) 처음</text>
+  <path d="M30 90 L34 330 L246 330 L250 90" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <path d="M33 300 L34 329 L246 329 L247 300 Z" style="fill:var(--fig-soft-blue)"/>
+  <rect x="20" y="78" width="240" height="8" rx="3" style="fill:var(--fig-muted)"/>
+  <rect x="80" y="86" width="120" height="232" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5"/>
+  <line x1="80.0" y1="285.0" x2="200.0" y2="285.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <circle cx="115" cy="285" r="6" style="fill:var(--fig-ink)"/>
+  <circle cx="165" cy="285" r="6" style="fill:var(--fig-blue)"/>
+  <text x="115.0" y="311.0" text-anchor="middle" class="m2-01-chromatography-s">검은색</text>
+  <text x="165.0" y="311.0" text-anchor="middle" class="m2-01-chromatography-s">파란색</text>
+  <line x1="200.0" y1="285.0" x2="240.0" y2="245.0" style="stroke:var(--fig-ink);stroke-width:1.1"/>
+  <text x="242.0" y="239.0" class="m2-01-chromatography-s">출발선 (연필)</text>
+  <text x="140.0" y="360.0" text-anchor="middle" class="m2-01-chromatography-s">점이 물에 잠기지 않게 건다</text>
+  <text x="140.0" y="316.0" text-anchor="middle" class="m2-01-chromatography-s" style="fill:var(--fig-blue)">물 (용매)</text>
+  <text x="500.0" y="30.0" text-anchor="middle" class="m2-01-chromatography-b">(나) 물이 올라간 뒤</text>
+  <path d="M390 90 L394 330 L606 330 L610 90" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <path d="M393 300 L394 329 L606 329 L607 300 Z" style="fill:var(--fig-soft-blue)"/>
+  <rect x="380" y="78" width="240" height="8" rx="3" style="fill:var(--fig-muted)"/>
+  <rect x="440" y="86" width="120" height="232" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="440" y="120" width="120" height="198" style="fill:var(--fig-soft-blue);fill-opacity:0.5"/>
+  <line x1="440.0" y1="120.0" x2="560.0" y2="120.0" style="stroke:var(--fig-blue);stroke-width:1.2;stroke-dasharray:4 3"/>
+  <line x1="440.0" y1="285.0" x2="560.0" y2="285.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <ellipse cx="475" cy="160" rx="8" ry="10" style="fill:#e0b100;fill-opacity:0.85"/>
+  <ellipse cx="475" cy="205" rx="8" ry="10" style="fill:#d6453d;fill-opacity:0.85"/>
+  <ellipse cx="475" cy="250" rx="8" ry="10" style="fill:#2f6fd6;fill-opacity:0.85"/>
+  <ellipse cx="525" cy="250" rx="8" ry="10" style="fill:#2f6fd6;fill-opacity:0.85"/>
+  <line x1="560.0" y1="120.0" x2="590.0" y2="104.0" style="stroke:var(--fig-blue);stroke-width:1.1"/>
+  <text x="592.0" y="102.0" class="m2-01-chromatography-s" style="fill:var(--fig-blue)">물이 올라간 끝</text>
+  <text x="475.0" y="311.0" text-anchor="middle" class="m2-01-chromatography-s">검은색</text>
+  <text x="525.0" y="311.0" text-anchor="middle" class="m2-01-chromatography-s">파란색</text>
+  <text x="500.0" y="360.0" text-anchor="middle" class="m2-01-chromatography-s">검은색 잉크는 여러 색소의 혼합물이다</text>
+  <text x="434.0" y="165.0" text-anchor="end" class="m2-01-chromatography-s">잘 이동하는 색소</text>
+  <text x="434.0" y="183.0" text-anchor="end" class="m2-01-chromatography-s">는 더 높이 간다</text>
+</svg>

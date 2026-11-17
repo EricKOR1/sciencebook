@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-2-5-nucleotide-chain d-2-5-nucleotide-chain">
+  <title id="t-2-5-nucleotide-chain">그림 2-5-7 뉴클레오타이드와 핵산 사슬</title>
+  <desc id="d-2-5-nucleotide-chain">뉴클레오타이드는 인산·당·염기가 하나씩 결합한 단위체이다. 한 뉴클레오타이드의 당이 다음 뉴클레오타이드의 인산과 결합하며 길게 이어져, 당–인산이 번갈아 이어진 뼈대에 염기가 하나씩 달린 사슬(한 가닥)이 된다. 염기의 배열 순서가 유전 정보이다. 구조식은 생략한 모식도이다.</desc>
+  <style>
+    .nc-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)} .nc-t{font-size:14px;fill:var(--fig-ink)}
+    .nc-sm{font-size:13px;fill:var(--fig-muted)} .nc-b{font-size:13px;font-weight:700;fill:var(--fig-ink)}
+    .nc-A{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.4} .nc-T{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.4}
+    .nc-G{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.4} .nc-C{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.4}
+    .nc-sug{fill:var(--fig-panel);stroke:var(--fig-violet);stroke-width:1.6} .nc-ph{fill:var(--fig-violet)}
+    .nc-bb{stroke:var(--fig-violet);stroke-width:2.2;fill:none} .nc-ln{stroke:var(--fig-ink);stroke-width:1.6;fill:none}
+    .nc-ld{stroke:var(--fig-muted);stroke-width:1.1;fill:none} .nc-br{stroke:var(--fig-accent);stroke-width:1.6;fill:none}
+    .nc-acc{font-size:13px;font-weight:600;fill:var(--fig-accent)} .nc-sep{stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4}
+    .nc-box{fill:none;stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:5 4}
+  </style>
+  <line x1="300" y1="16" x2="300" y2="380" class="nc-sep"/>
+  <text x="150" y="32" text-anchor="middle" class="nc-lbl">뉴클레오타이드 1개</text>
+  <line x1="70" y1="150" x2="140" y2="150" class="nc-ln"/><line x1="140" y1="150" x2="200" y2="150" class="nc-ln"/>
+  <circle cx="70" cy="150" r="16" class="nc-ph"/>
+  <polygon points="140.0,126.0 164.7,144.0 155.3,173.0 124.7,173.0 115.3,144.0" class="nc-sug"/>
+  <rect x="190" y="134" width="70" height="32" rx="5" class="nc-A"/><text x="225" y="155" text-anchor="middle" class="nc-b">염기</text>
+  <text x="70" y="196" text-anchor="middle" class="nc-t">인산</text><text x="140" y="196" text-anchor="middle" class="nc-t">당</text>
+  <text x="225" y="196" text-anchor="middle" class="nc-t">A·G·C·T 중 하나</text>
+  <rect x="36" y="110" width="254" height="100" rx="8" class="nc-box"/>
+  <text x="150" y="240" text-anchor="middle" class="nc-t">인산 : 당 : 염기 = 1 : 1 : 1</text>
+  <text x="150" y="268" text-anchor="middle" class="nc-sm">DNA의 당 = 디옥시리보스</text>
+  <text x="150" y="290" text-anchor="middle" class="nc-sm">RNA는 당이 리보스, T 대신 U</text>
+  <text x="510" y="32" text-anchor="middle" class="nc-lbl">핵산 사슬(한 가닥)</text>
+  <line x1="420" y1="66" x2="420" y2="334" class="nc-bb"/>
+  <circle cx="420" cy="66" r="9" class="nc-ph"/>
+  <line x1="436" y1="98" x2="470" y2="98" class="nc-ln"/>
+  <polygon points="420.0,82.0 436.2,93.7 430.0,112.8 410.0,112.8 403.8,93.7" class="nc-sug"/>
+  <rect x="470" y="84" width="56" height="28" rx="5" class="nc-A"/><text x="498" y="103" text-anchor="middle" class="nc-b">A</text>
+  <circle cx="420" cy="138" r="9" class="nc-ph"/>
+  <line x1="436" y1="170" x2="470" y2="170" class="nc-ln"/>
+  <polygon points="420.0,154.0 436.2,165.7 430.0,184.8 410.0,184.8 403.8,165.7" class="nc-sug"/>
+  <rect x="470" y="156" width="56" height="28" rx="5" class="nc-G"/><text x="498" y="175" text-anchor="middle" class="nc-b">G</text>
+  <circle cx="420" cy="210" r="9" class="nc-ph"/>
+  <line x1="436" y1="242" x2="470" y2="242" class="nc-ln"/>
+  <polygon points="420.0,226.0 436.2,237.7 430.0,256.8 410.0,256.8 403.8,237.7" class="nc-sug"/>
+  <rect x="470" y="228" width="56" height="28" rx="5" class="nc-C"/><text x="498" y="247" text-anchor="middle" class="nc-b">C</text>
+  <circle cx="420" cy="282" r="9" class="nc-ph"/>
+  <line x1="436" y1="314" x2="470" y2="314" class="nc-ln"/>
+  <polygon points="420.0,298.0 436.2,309.7 430.0,328.8 410.0,328.8 403.8,309.7" class="nc-sug"/>
+  <rect x="470" y="300" width="56" height="28" rx="5" class="nc-T"/><text x="498" y="319" text-anchor="middle" class="nc-b">T</text>
+  <path d="M390 60 H382 V330 H390" class="nc-br"/>
+  <text x="376" y="196" text-anchor="end" class="nc-acc">당–인산</text><text x="376" y="214" text-anchor="end" class="nc-acc">뼈대</text>
+  <path d="M600 84 H608 V328 H600" class="nc-br"/>
+  <text x="616" y="216" class="nc-acc">염기</text><text x="616" y="234" class="nc-acc">서열</text><text x="616" y="254" class="nc-sm">= 정보</text>
+  <path d="M432 138 H450" class="nc-ld"/>
+  <text x="454" y="143" class="nc-sm">당과 다음 인산이 결합</text>
+  <text x="510" y="372" text-anchor="middle" class="nc-sm">이런 사슬 두 가닥이 염기끼리 짝을 지어 꼬인 것이 DNA 이중 나선</text>
+</svg>

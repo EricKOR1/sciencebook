@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-2-4-covalent-molecules d-2-4-covalent-molecules">
+  <title id="t-2-4-covalent-molecules">그림 2-4-4 수소·물·산소 분자의 전자 점식</title>
+  <desc id="d-2-4-covalent-molecules">두 원자 사이에서 함께 가진 전자쌍(노란 바탕)이 공유 전자쌍이고, 한 원자에만 속한 전자쌍(보라 점선)이 비공유 전자쌍이다. 점의 색은 그 전자가 원래 어느 원자의 것이었는지를 나타낸다. 산소 분자는 공유 전자쌍이 2개인 이중 결합이다. 전자 점식은 원자의 연결 관계만 나타내며 실제 분자의 모양을 그린 것은 아니다.</desc>
+  <style>
+    .cm-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)} .cm-t{font-size:14px;fill:var(--fig-ink)}
+    .cm-sm{font-size:13px;fill:var(--fig-muted)} .cm-sym{font-size:28px;font-weight:700;fill:var(--fig-ink)}
+    .cm-line{font-size:24px;font-weight:700;fill:var(--fig-ink)}
+    .cm-e1{fill:var(--fig-blue)} .cm-e2{fill:var(--fig-red)}
+    .cm-sh{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5}
+    .cm-lp{fill:none;stroke:var(--fig-violet);stroke-width:1.5;stroke-dasharray:3 2}
+    .cm-ld{stroke:var(--fig-muted);stroke-width:1.1;fill:none} .cm-box{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1}
+    .cm-sep{stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4}
+  </style>
+  <line x1="240" y1="20" x2="240" y2="330" class="cm-sep"/>
+  <line x1="480" y1="20" x2="480" y2="330" class="cm-sep"/>
+  <text x="120" y="36" text-anchor="middle" class="cm-lbl">수소 분자 H₂</text>
+  <ellipse cx="120" cy="150" rx="16" ry="12" class="cm-sh"/>
+  <text x="90" y="160" text-anchor="middle" class="cm-sym">H</text><text x="150" y="160" text-anchor="middle" class="cm-sym">H</text>
+  <circle cx="114.5" cy="150.0" r="3.6" class="cm-e1"/>
+  <circle cx="125.5" cy="150.0" r="3.6" class="cm-e2"/>
+  <path d="M120 137 L120 98" class="cm-ld"/><text x="120" y="92" text-anchor="middle" class="cm-sm">공유 전자쌍</text>
+  <text x="360" y="36" text-anchor="middle" class="cm-lbl">물 분자 H₂O</text>
+  <ellipse cx="390" cy="150" rx="16" ry="12" class="cm-sh"/>
+  <ellipse cx="360" cy="181" rx="12" ry="16" class="cm-sh"/>
+  <text x="360" y="160" text-anchor="middle" class="cm-sym">O</text>
+  <text x="420" y="160" text-anchor="middle" class="cm-sym">H</text>
+  <text x="360" y="222" text-anchor="middle" class="cm-sym">H</text>
+  <circle cx="384.5" cy="150.0" r="3.6" class="cm-e2"/>
+  <circle cx="395.5" cy="150.0" r="3.6" class="cm-e1"/>
+  <circle cx="360.0" cy="175.5" r="3.6" class="cm-e2"/>
+  <circle cx="360.0" cy="186.5" r="3.6" class="cm-e1"/>
+  <ellipse cx="360" cy="126" rx="14" ry="8" class="cm-lp"/>  <circle cx="354.5" cy="126.0" r="3.6" class="cm-e2"/>
+  <circle cx="365.5" cy="126.0" r="3.6" class="cm-e2"/>
+  <ellipse cx="333" cy="150" rx="8" ry="14" class="cm-lp"/>  <circle cx="333.0" cy="144.5" r="3.6" class="cm-e2"/>
+  <circle cx="333.0" cy="155.5" r="3.6" class="cm-e2"/>
+  <path d="M398 138 L420 98" class="cm-ld"/><text x="422" y="92" text-anchor="middle" class="cm-sm">공유 전자쌍</text>
+  <path d="M352 119 L320 98" class="cm-ld"/><text x="312" y="92" text-anchor="middle" class="cm-sm">비공유 전자쌍</text>
+  <text x="600" y="36" text-anchor="middle" class="cm-lbl">산소 분자 O₂</text>
+  <rect x="588.0" y="133" width="24" height="34" rx="10" class="cm-sh"/>
+  <text x="570" y="160" text-anchor="middle" class="cm-sym">O</text><text x="630" y="160" text-anchor="middle" class="cm-sym">O</text>
+  <circle cx="594.5" cy="143.0" r="3.6" class="cm-e2"/>
+  <circle cx="605.5" cy="143.0" r="3.6" class="cm-e1"/>
+  <circle cx="594.5" cy="157.0" r="3.6" class="cm-e2"/>
+  <circle cx="605.5" cy="157.0" r="3.6" class="cm-e1"/>
+  <ellipse cx="570" cy="126" rx="14" ry="8" class="cm-lp"/>  <circle cx="564.5" cy="126.0" r="3.6" class="cm-e2"/>
+  <circle cx="575.5" cy="126.0" r="3.6" class="cm-e2"/>
+  <ellipse cx="570" cy="174" rx="14" ry="8" class="cm-lp"/>  <circle cx="564.5" cy="174.0" r="3.6" class="cm-e2"/>
+  <circle cx="575.5" cy="174.0" r="3.6" class="cm-e2"/>
+  <ellipse cx="630" cy="126" rx="14" ry="8" class="cm-lp"/>  <circle cx="624.5" cy="126.0" r="3.6" class="cm-e1"/>
+  <circle cx="635.5" cy="126.0" r="3.6" class="cm-e1"/>
+  <ellipse cx="630" cy="174" rx="14" ry="8" class="cm-lp"/>  <circle cx="624.5" cy="174.0" r="3.6" class="cm-e1"/>
+  <circle cx="635.5" cy="174.0" r="3.6" class="cm-e1"/>
+  <path d="M600.0 132 L600.0 98" class="cm-ld"/><text x="600.0" y="92" text-anchor="middle" class="cm-sm">공유 전자쌍 2개</text>
+  <text x="120" y="268" text-anchor="middle" class="cm-line">H–H</text>
+  <text x="360" y="268" text-anchor="middle" class="cm-line">H–O–H</text>
+  <text x="600" y="268" text-anchor="middle" class="cm-line">O=O</text>
+  <text x="120" y="296" text-anchor="middle" class="cm-t">공유 1쌍 · 비공유 0쌍</text>
+  <text x="120" y="316" text-anchor="middle" class="cm-sm">단일 결합</text>
+  <text x="360" y="296" text-anchor="middle" class="cm-t">공유 2쌍 · 비공유 2쌍</text>
+  <text x="360" y="316" text-anchor="middle" class="cm-sm">단일 결합 2개</text>
+  <text x="600" y="296" text-anchor="middle" class="cm-t">공유 2쌍 · 비공유 4쌍</text>
+  <text x="600" y="316" text-anchor="middle" class="cm-sm">이중 결합</text>
+  <text x="14" y="232" class="cm-sm">선 구조(공유 전자쌍 1개 = 선 1개)</text>
+  <rect x="40" y="350" width="640" height="38" rx="6" class="cm-box"/>
+  <circle cx="60.0" cy="369.0" r="3.6" class="cm-e1"/>
+  <text x="70" y="374" class="cm-sm">한쪽 원자에서 온 전자</text>
+  <circle cx="222.0" cy="369.0" r="3.6" class="cm-e2"/>
+  <text x="232" y="374" class="cm-sm">다른 원자에서 온 전자</text>
+  <ellipse cx="398" cy="369" rx="12" ry="8" class="cm-sh"/><text x="416" y="374" class="cm-sm">공유 전자쌍</text>
+  <ellipse cx="530" cy="369" rx="12" ry="8" class="cm-lp"/><text x="548" y="374" class="cm-sm">비공유 전자쌍</text>
+</svg>

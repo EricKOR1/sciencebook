@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t-3-1-water-cycle d-3-1-water-cycle">
+<title id="t-3-1-water-cycle">그림 3-1-6 물의 순환과 숨은열의 이동</title>
+<desc id="d-3-1-water-cycle">바다와 지표의 물이 태양 에너지로 증발·증산하여 대기로 가고, 응결하여 구름이 된 뒤 강수로 떨어지며, 하천과 지하수를 따라 다시 바다로 돌아온다. 증발할 때 흡수한 숨은열은 응결할 때 방출된다. 크기와 거리는 실제와 다른 모식도이다.</desc>
+<style>.wc-txt{font-size:13px;fill:var(--fig-ink)}.wc-b{font-size:14px;font-weight:700;fill:var(--fig-ink)}.wc-sm{font-size:12px;fill:var(--fig-muted)}.wc-e{font-size:12px;fill:var(--fig-amber);font-weight:700}.wc-ar{fill:none;stroke:var(--fig-blue);stroke-width:3}.wc-ah{fill:var(--fig-blue)}.wc-gw{fill:none;stroke:var(--fig-blue);stroke-width:2.5;stroke-dasharray:6 4}.wc-cloud{fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.5}.wc-rain{fill:none;stroke:var(--fig-blue);stroke-width:1.6;stroke-linecap:round}.wc-sea{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2}.wc-land{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5}.wc-soil{fill:var(--fig-soft-amber)}</style>
+<path d="M340 300C360 296 380 280 410 250C450 205 480 150 520 120C545 103 560 100 575 112C610 140 640 180 700 200V400H340Z" class="wc-land"/>
+<path d="M352 330C420 334 520 330 700 326V400H380Z" class="wc-soil"/>
+<text x="600" y="380" text-anchor="middle" class="wc-sm">지하(토양·암석)</text>
+<path d="M520 120C545 103 560 100 575 112L566 122L556 116L546 124L534 118Z" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+<text x="604" y="104" class="wc-sm">빙하·눈</text>
+<path d="M20 300H340L380 400H20Z" class="wc-sea"/>
+<text x="120" y="360" text-anchor="middle" class="wc-b" style="fill:var(--fig-blue)">바다 (수권)</text>
+<text x="610" y="240" text-anchor="middle" class="wc-b" style="fill:var(--fig-green)">육지 (지권)</text>
+<circle cx="56" cy="56" r="24" style="fill:var(--fig-amber)"/>
+<text x="92" y="50" class="wc-sm">태양 에너지</text>
+<path d="M150 106C134 106 134 84 154 84C156 64 186 60 196 76C206 58 240 62 240 84C262 84 262 106 244 106Z" class="wc-cloud"/>
+<path d="M422.5 83.3C407.3 83.3 407.3 62.4 426.3 62.4C428.2 43.400000000000006 456.7 39.6 466.2 54.8C475.7 37.7 508.0 41.5 508.0 62.4C528.9 62.4 528.9 83.3 511.8 83.3Z" class="wc-cloud"/>
+<text x="200" y="98" text-anchor="middle" class="wc-txt">응결 → 구름</text>
+<text x="262" y="110" class="wc-e">숨은열 방출</text>
+<text x="470" y="76" text-anchor="middle" class="wc-txt">응결 → 구름</text>
+<path d="M166 118L160 132M162 146L156 160" class="wc-rain"/>
+<path d="M180 118L174 132M176 146L170 160" class="wc-rain"/>
+<path d="M194 118L188 132M190 146L184 160" class="wc-rain"/>
+<path d="M208 118L202 132M204 146L198 160" class="wc-rain"/>
+<path d="M222 118L216 132M218 146L212 160" class="wc-rain"/>
+<path d="M236 118L230 132M232 146L226 160" class="wc-rain"/>
+<path d="M440 92L434 106M436 120L430 134" class="wc-rain"/>
+<path d="M454 92L448 106M450 120L444 134" class="wc-rain"/>
+<path d="M468 92L462 106M464 120L458 134" class="wc-rain"/>
+<path d="M482 92L476 106M478 120L472 134" class="wc-rain"/>
+<path d="M496 92L490 106M492 120L486 134" class="wc-rain"/>
+<path d="M510 92L504 106M506 120L500 134" class="wc-rain"/>
+<text x="252" y="172" class="wc-txt">강수</text>
+<text x="424" y="122" text-anchor="end" class="wc-txt">강수(비·눈)</text>
+<path d="M110.0 290.0L128.8 139.5" class="wc-ar"/><path d="M130.0 130.0L134.8 140.3L122.9 138.8Z" class="wc-ah"/>
+<text x="30" y="200" class="wc-b">증발</text><text x="30" y="218" class="wc-e">숨은열 흡수</text>
+<path d="M272.0 46.0L388.4 40.5" class="wc-ar"/><path d="M398.0 40.0L388.7 46.4L388.1 34.5Z" class="wc-ah"/>
+<text x="335" y="28" text-anchor="middle" class="wc-txt">수증기 이동(바람)</text>
+<path d="M395 240V264" style="fill:none;stroke:var(--fig-amber);stroke-width:4"/>
+<circle cx="395" cy="230" r="16" style="fill:var(--fig-green)"/>
+<path d="M398.0 210.0L406.2 173.8" class="wc-ar"/><path d="M408.0 166.0L411.1 174.9L401.4 172.7Z" class="wc-ah"/>
+<text x="392" y="190" text-anchor="end" class="wc-txt">증산(생물권)</text>
+<path d="M546 128C540 170 520 200 470 240C430 270 400 290 350 299" style="fill:none;stroke:var(--fig-blue);stroke-width:4;stroke-linecap:round"/>
+<path d="M392.0 288.0L361.3 296.5" class="wc-ar"/><path d="M352.0 299.0L359.7 290.7L362.8 302.2Z" class="wc-ah"/>
+<text x="482" y="292" class="wc-txt">유출(하천)</text>
+<path d="M560 336C500 340 440 342 376 340" class="wc-gw"/>
+<path d="M362 340L376 334L376 346Z" class="wc-ah"/>
+<text x="470" y="362" text-anchor="middle" class="wc-txt">스며듦 → 지하수</text>
+<text x="700" y="414" text-anchor="end" class="wc-sm">모식도</text>
+</svg>

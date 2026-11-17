@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-m1-05-motion-change d-m1-05-motion-change">
+  <title id="t-m1-05-motion-change">그림 중1-5-9 알짜힘의 방향과 운동 상태의 변화</title>
+  <desc id="d-m1-05-motion-change">알짜힘이 운동 방향과 같으면 속력이 빨라지고, 반대이면 느려진다. 일정한 빠르기로 원을 그리며 돌 때 알짜힘은 원의 중심을 향해 운동 방향만 바꾼다. 비스듬히 던진 공에는 아래 방향의 중력이 작용해 속력과 방향이 함께 변한다. 점은 같은 시간 간격의 위치이며 모식적이다.</desc>
+  <style>
+    .mc-red{fill:none;stroke:var(--fig-red)} .mc-redh{fill:var(--fig-red)}
+    .mc-blue{fill:none;stroke:var(--fig-blue)} .mc-blueh{fill:var(--fig-blue)}
+    .mc-green{fill:none;stroke:var(--fig-green)} .mc-greenh{fill:var(--fig-green)}
+    .mc-amber{fill:none;stroke:var(--fig-amber)} .mc-amberh{fill:var(--fig-amber)}
+    .mc-violet{fill:none;stroke:var(--fig-violet)} .mc-violeth{fill:var(--fig-violet)}
+    .mc-teal{fill:none;stroke:var(--fig-teal)} .mc-tealh{fill:var(--fig-teal)}
+    .mc-ink{fill:none;stroke:var(--fig-ink)} .mc-inkh{fill:var(--fig-ink)}
+    .mc-muted{fill:none;stroke:var(--fig-muted)} .mc-mutedh{fill:var(--fig-muted)}
+    .mc-line{fill:none;stroke:var(--fig-line)} .mc-lineh{fill:var(--fig-line)}
+    .mc-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .mc-t{font-size:14px;fill:var(--fig-ink)}
+    .mc-sm{font-size:13px;fill:var(--fig-muted)}
+    .mc-redb{font-size:14px;font-weight:700;fill:var(--fig-red)}
+    .mc-sred{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6}
+    .mc-blueb{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+    .mc-sblue{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6}
+    .mc-greenb{font-size:14px;font-weight:700;fill:var(--fig-green)}
+    .mc-sgreen{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6}
+    .mc-amberb{font-size:14px;font-weight:700;fill:var(--fig-amber)}
+    .mc-samber{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6}
+    .mc-violetb{font-size:14px;font-weight:700;fill:var(--fig-violet)}
+    .mc-sviolet{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6}
+    .mc-tealb{font-size:14px;font-weight:700;fill:var(--fig-teal)}
+    .mc-steal{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.6}
+    .mc-panel{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.4}
+    .mc-paper{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.4}
+    .mc-axis{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
+    .mc-grid{fill:none;stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4}
+    .mc-dash{fill:none;stroke:var(--fig-muted);stroke-width:1.4;stroke-dasharray:5 4}
+    .mc-ball{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6} .mc-pos{fill:var(--fig-muted)}
+  </style>
+  <line x1="470.0" y1="22.0" x2="498.0" y2="22.0" class="mc-blue" style="stroke-width:3;stroke-linecap:round"/>
+  <path d="M510.0 22.0 L498.0 27.8 L498.0 16.2 Z" class="mc-blueh"/>
+  <text x="516.0" y="27.0" class="mc-blueb">운동 방향</text>
+  <line x1="600.0" y1="22.0" x2="628.0" y2="22.0" class="mc-red" style="stroke-width:3;stroke-linecap:round"/>
+  <path d="M640.0 22.0 L628.0 27.8 L628.0 16.2 Z" class="mc-redh"/>
+  <text x="646.0" y="27.0" class="mc-redb">알짜힘</text>
+  <line x1="235.0" y1="45.0" x2="235.0" y2="330.0" class="mc-dash" style="stroke-width:1.2;stroke-linecap:round"/>
+  <line x1="480.0" y1="45.0" x2="480.0" y2="330.0" class="mc-dash" style="stroke-width:1.2;stroke-linecap:round"/>
+  <text x="118.0" y="64.0" text-anchor="middle" class="mc-h">① 속력만 변한다</text>
+  <text x="358.0" y="64.0" text-anchor="middle" class="mc-h">② 운동 방향만 변한다</text>
+  <text x="600.0" y="64.0" text-anchor="middle" class="mc-h">③ 속력과 방향이 모두 변한다</text>
+  <circle cx="20.0" cy="130.0" r="4.0" class="mc-pos"/>
+  <circle cx="32.0" cy="130.0" r="4.0" class="mc-pos"/>
+  <circle cx="50.0" cy="130.0" r="4.0" class="mc-pos"/>
+  <circle cx="74.0" cy="130.0" r="4.0" class="mc-pos"/>
+  <circle cx="104.0" cy="130.0" r="4.0" class="mc-pos"/>
+  <circle cx="140.0" cy="130.0" r="4.0" class="mc-pos"/>
+  <circle cx="154.0" cy="130.0" r="11.0" class="mc-ball"/>
+  <line x1="166.0" y1="112.0" x2="194.0" y2="112.0" class="mc-blue" style="stroke-width:3;stroke-linecap:round"/>
+  <path d="M206.0 112.0 L194.0 117.8 L194.0 106.2 Z" class="mc-blueh"/>
+  <line x1="166.0" y1="148.0" x2="200.0" y2="148.0" class="mc-red" style="stroke-width:3;stroke-linecap:round"/>
+  <path d="M212.0 148.0 L200.0 153.8 L200.0 142.2 Z" class="mc-redh"/>
+  <text x="20.0" y="180.0" class="mc-t">힘이 운동 방향과 같다 → 빨라진다</text>
+  <circle cx="20.0" cy="230.0" r="4.0" class="mc-pos"/>
+  <circle cx="56.0" cy="230.0" r="4.0" class="mc-pos"/>
+  <circle cx="86.0" cy="230.0" r="4.0" class="mc-pos"/>
+  <circle cx="110.0" cy="230.0" r="4.0" class="mc-pos"/>
+  <circle cx="128.0" cy="230.0" r="4.0" class="mc-pos"/>
+  <circle cx="140.0" cy="230.0" r="4.0" class="mc-pos"/>
+  <circle cx="154.0" cy="230.0" r="11.0" class="mc-ball"/>
+  <line x1="166.0" y1="212.0" x2="194.0" y2="212.0" class="mc-blue" style="stroke-width:3;stroke-linecap:round"/>
+  <path d="M206.0 212.0 L194.0 217.8 L194.0 206.2 Z" class="mc-blueh"/>
+  <line x1="142.0" y1="248.0" x2="108.0" y2="248.0" class="mc-red" style="stroke-width:3;stroke-linecap:round"/>
+  <path d="M96.0 248.0 L108.0 242.2 L108.0 253.8 Z" class="mc-redh"/>
+  <text x="20.0" y="280.0" class="mc-t">힘이 운동 방향과 반대 → 느려진다</text>
+  <circle cx="358.0" cy="200.0" r="72.0" class="mc-dash"/>
+  <circle cx="358.0" cy="200.0" r="3.0" class="mc-inkh"/>
+  <circle cx="358.0" cy="128.0" r="10.0" class="mc-ball"/>
+  <line x1="346.0" y1="128.0" x2="318.0" y2="128.0" class="mc-blue" style="stroke-width:3;stroke-linecap:round"/>
+  <path d="M306.0 128.0 L318.0 122.2 L318.0 133.8 Z" class="mc-blueh"/>
+  <line x1="358.0" y1="128.0" x2="358.0" y2="155.6" class="mc-red" style="stroke-width:3;stroke-linecap:round"/>
+  <path d="M358.0 167.6 L352.2 155.6 L363.8 155.6 Z" class="mc-redh"/>
+  <circle cx="430.0" cy="200.0" r="10.0" class="mc-ball"/>
+  <line x1="430.0" y1="188.0" x2="430.0" y2="160.0" class="mc-blue" style="stroke-width:3;stroke-linecap:round"/>
+  <path d="M430.0 148.0 L435.8 160.0 L424.2 160.0 Z" class="mc-blueh"/>
+  <line x1="430.0" y1="200.0" x2="402.4" y2="200.0" class="mc-red" style="stroke-width:3;stroke-linecap:round"/>
+  <path d="M390.4 200.0 L402.4 194.2 L402.4 205.8 Z" class="mc-redh"/>
+  <text x="358.0" y="300.0" text-anchor="middle" class="mc-t">힘이 원의 중심을 향한다</text>
+  <text x="358.0" y="320.0" text-anchor="middle" class="mc-sm">→ 빠르기는 그대로, 방향만 바뀐다</text>
+  <path d="M500 270.0 L505 255.4 L510 241.5 L515 228.4 L520 216.0 L525 204.4 L530 193.5 L535 183.4 L540 174.0 L545 165.4 L550 157.5 L555 150.4 L560 144.0 L565 138.4 L570 133.5 L575 129.4 L580 126.0 L585 123.4 L590 121.5 L595 120.4 L600 120.0 L605 120.4 L610 121.5 L615 123.4 L620 126.0 L625 129.4 L630 133.5 L635 138.4 L640 144.0 L645 150.4 L650 157.5 L655 165.4 L660 174.0 L665 183.4 L670 193.5 L675 204.4 L680 216.0 L685 228.4 L690 241.5 L695 255.4 L700 270.0" class="mc-dash"/>
+  <line x1="485.0" y1="271.0" x2="710.0" y2="271.0" class="mc-ink" style="stroke-width:1.6;stroke-linecap:round"/>
+  <circle cx="530.0" cy="193.5" r="9.0" class="mc-ball"/>
+  <line x1="534.7" y1="183.6" x2="551.6" y2="148.2" class="mc-blue" style="stroke-width:3;stroke-linecap:round"/>
+  <path d="M556.7 137.4 L556.8 150.7 L546.4 145.7 Z" class="mc-blueh"/>
+  <line x1="530.0" y1="203.5" x2="530.0" y2="225.5" class="mc-red" style="stroke-width:3;stroke-linecap:round"/>
+  <path d="M530.0 237.5 L524.2 225.5 L535.8 225.5 Z" class="mc-redh"/>
+  <circle cx="600.0" cy="120.0" r="9.0" class="mc-ball"/>
+  <line x1="611.0" y1="120.0" x2="621.0" y2="120.0" class="mc-blue" style="stroke-width:3;stroke-linecap:round"/>
+  <path d="M633.0 120.0 L621.0 125.8 L621.0 114.2 Z" class="mc-blueh"/>
+  <line x1="600.0" y1="130.0" x2="600.0" y2="152.0" class="mc-red" style="stroke-width:3;stroke-linecap:round"/>
+  <path d="M600.0 164.0 L594.2 152.0 L605.8 152.0 Z" class="mc-redh"/>
+  <circle cx="670.0" cy="193.5" r="9.0" class="mc-ball"/>
+  <line x1="674.7" y1="203.4" x2="691.6" y2="238.8" class="mc-blue" style="stroke-width:3;stroke-linecap:round"/>
+  <path d="M696.7 249.6 L686.4 241.3 L696.8 236.3 Z" class="mc-blueh"/>
+  <line x1="670.0" y1="203.5" x2="670.0" y2="225.5" class="mc-red" style="stroke-width:3;stroke-linecap:round"/>
+  <path d="M670.0 237.5 L664.2 225.5 L675.8 225.5 Z" class="mc-redh"/>
+  <text x="600.0" y="300.0" text-anchor="middle" class="mc-t">힘(중력)은 늘 아래 방향</text>
+  <text x="600.0" y="320.0" text-anchor="middle" class="mc-sm">→ 빠르기와 방향이 함께 바뀐다</text>
+</svg>

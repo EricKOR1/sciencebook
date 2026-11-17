@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-m1-05-net-force d-m1-05-net-force">
+  <title id="t-m1-05-net-force">그림 중1-5-4 한 직선 위의 두 힘과 알짜힘</title>
+  <desc id="d-m1-05-net-force">같은 방향의 두 힘은 크기를 더하고, 반대 방향의 두 힘은 큰 힘에서 작은 힘을 빼며 방향은 큰 힘의 방향이다. 크기가 같고 방향이 반대인 두 힘의 알짜힘은 0이어서 힘의 평형을 이룬다. 화살표의 길이는 힘의 크기에 비례하게 그렸다.</desc>
+  <style>
+    .nf-red{fill:none;stroke:var(--fig-red)} .nf-redh{fill:var(--fig-red)}
+    .nf-blue{fill:none;stroke:var(--fig-blue)} .nf-blueh{fill:var(--fig-blue)}
+    .nf-green{fill:none;stroke:var(--fig-green)} .nf-greenh{fill:var(--fig-green)}
+    .nf-amber{fill:none;stroke:var(--fig-amber)} .nf-amberh{fill:var(--fig-amber)}
+    .nf-violet{fill:none;stroke:var(--fig-violet)} .nf-violeth{fill:var(--fig-violet)}
+    .nf-teal{fill:none;stroke:var(--fig-teal)} .nf-tealh{fill:var(--fig-teal)}
+    .nf-ink{fill:none;stroke:var(--fig-ink)} .nf-inkh{fill:var(--fig-ink)}
+    .nf-muted{fill:none;stroke:var(--fig-muted)} .nf-mutedh{fill:var(--fig-muted)}
+    .nf-line{fill:none;stroke:var(--fig-line)} .nf-lineh{fill:var(--fig-line)}
+    .nf-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .nf-t{font-size:14px;fill:var(--fig-ink)}
+    .nf-sm{font-size:13px;fill:var(--fig-muted)}
+    .nf-redb{font-size:14px;font-weight:700;fill:var(--fig-red)}
+    .nf-sred{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6}
+    .nf-blueb{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+    .nf-sblue{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6}
+    .nf-greenb{font-size:14px;font-weight:700;fill:var(--fig-green)}
+    .nf-sgreen{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6}
+    .nf-amberb{font-size:14px;font-weight:700;fill:var(--fig-amber)}
+    .nf-samber{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6}
+    .nf-violetb{font-size:14px;font-weight:700;fill:var(--fig-violet)}
+    .nf-sviolet{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6}
+    .nf-tealb{font-size:14px;font-weight:700;fill:var(--fig-teal)}
+    .nf-steal{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.6}
+    .nf-panel{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.4}
+    .nf-paper{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.4}
+    .nf-axis{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
+    .nf-grid{fill:none;stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4}
+    .nf-dash{fill:none;stroke:var(--fig-muted);stroke-width:1.4;stroke-dasharray:5 4}
+    .nf-box{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2} .nf-ghost{fill:none;stroke:var(--fig-muted);stroke-width:1.5;stroke-dasharray:4 3}
+  </style>
+  <line x1="330.0" y1="40.0" x2="330.0" y2="330.0" class="nf-dash" style="stroke-width:1.2;stroke-linecap:round"/>
+  <text x="530.0" y="30.0" text-anchor="middle" class="nf-h">알짜힘(합력)</text>
+  <text x="130.0" y="30.0" text-anchor="middle" class="nf-h">물체에 작용하는 힘</text>
+  <text x="20.0" y="51.0" class="nf-t">① 같은 방향</text>
+  <rect x="130.0" y="67.0" width="50.0" height="36.0" rx="3" class="nf-box"/>
+  <line x1="180.0" y1="77.0" x2="256.0" y2="77.0" class="nf-red" style="stroke-width:3.5;stroke-linecap:round"/>
+  <path d="M270.0 77.0 L256.0 83.7 L256.0 70.3 Z" class="nf-redh"/>
+  <text x="276.0" y="82.0" class="nf-redb">5 N</text>
+  <line x1="180.0" y1="93.0" x2="220.0" y2="93.0" class="nf-red" style="stroke-width:3.5;stroke-linecap:round"/>
+  <path d="M234.0 93.0 L220.0 99.7 L220.0 86.3 Z" class="nf-redh"/>
+  <text x="240.0" y="98.0" class="nf-redb">3 N</text>
+  <rect x="420.0" y="67.0" width="50.0" height="36.0" rx="3" class="nf-ghost"/>
+  <line x1="470.0" y1="85.0" x2="600.0" y2="85.0" class="nf-violet" style="stroke-width:4.5;stroke-linecap:round"/>
+  <path d="M614.0 85.0 L600.0 91.7 L600.0 78.3 Z" class="nf-violeth"/>
+  <text x="475.0" y="125.0" class="nf-violetb">5 + 3 = 8 N, 오른쪽</text>
+  <text x="20.0" y="156.0" class="nf-t">② 반대 방향</text>
+  <rect x="130.0" y="172.0" width="50.0" height="36.0" rx="3" class="nf-box"/>
+  <line x1="180.0" y1="190.0" x2="256.0" y2="190.0" class="nf-red" style="stroke-width:3.5;stroke-linecap:round"/>
+  <path d="M270.0 190.0 L256.0 196.7 L256.0 183.3 Z" class="nf-redh"/>
+  <text x="276.0" y="195.0" class="nf-redb">5 N</text>
+  <line x1="130.0" y1="190.0" x2="90.0" y2="190.0" class="nf-blue" style="stroke-width:3.5;stroke-linecap:round"/>
+  <path d="M76.0 190.0 L90.0 183.3 L90.0 196.7 Z" class="nf-blueh"/>
+  <text x="70.0" y="195.0" text-anchor="end" class="nf-blueb">3 N</text>
+  <rect x="420.0" y="172.0" width="50.0" height="36.0" rx="3" class="nf-ghost"/>
+  <line x1="470.0" y1="190.0" x2="492.0" y2="190.0" class="nf-violet" style="stroke-width:4.5;stroke-linecap:round"/>
+  <path d="M506.0 190.0 L492.0 196.7 L492.0 183.3 Z" class="nf-violeth"/>
+  <text x="475.0" y="230.0" class="nf-violetb">5 − 3 = 2 N, 오른쪽(큰 힘 쪽)</text>
+  <text x="20.0" y="261.0" class="nf-t">③ 크기가 같고 반대 방향</text>
+  <rect x="130.0" y="277.0" width="50.0" height="36.0" rx="3" class="nf-box"/>
+  <line x1="180.0" y1="295.0" x2="238.0" y2="295.0" class="nf-red" style="stroke-width:3.5;stroke-linecap:round"/>
+  <path d="M252.0 295.0 L238.0 301.7 L238.0 288.3 Z" class="nf-redh"/>
+  <text x="258.0" y="300.0" class="nf-redb">4 N</text>
+  <line x1="130.0" y1="295.0" x2="72.0" y2="295.0" class="nf-blue" style="stroke-width:3.5;stroke-linecap:round"/>
+  <path d="M58.0 295.0 L72.0 288.3 L72.0 301.7 Z" class="nf-blueh"/>
+  <text x="52.0" y="300.0" text-anchor="end" class="nf-blueb">4 N</text>
+  <rect x="420.0" y="277.0" width="50.0" height="36.0" rx="3" class="nf-ghost"/>
+  <text x="445.0" y="335.0" text-anchor="middle" class="nf-violetb">0 → 힘의 평형</text>
+  <text x="490.0" y="299.0" class="nf-sm">운동 상태가 변하지 않는다</text>
+</svg>

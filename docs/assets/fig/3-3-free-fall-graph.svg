@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-3-3-free-fall-graph d-3-3-free-fall-graph">
+<title id="t-3-3-free-fall-graph">그림 3-3-3 자유 낙하 운동의 속도–시간 그래프와 낙하 거리</title>
+<desc id="d-3-3-free-fall-graph">왼쪽 속도–시간 그래프는 기울기가 9.8 m/s²인 직선이고, 1초 구간마다 그래프 아래 넓이(떨어진 거리)가 4.9, 14.7, 24.5, 34.3 m로 1 : 3 : 5 : 7씩 늘어난다. 오른쪽은 처음부터 떨어진 거리를 시간에 따라 나타낸 것으로, 시간의 제곱에 비례하여 늘어나는 곡선이다. 공기 저항은 무시했다.</desc>
+<style>.ff-txt{font-size:13px;fill:var(--fig-ink)}.ff-b{font-size:14px;font-weight:700;fill:var(--fig-ink)}.ff-sm{font-size:12px;fill:var(--fig-muted)}.ff-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.5}.ff-grid{fill:none;stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4}.ff-v{fill:none;stroke:var(--fig-red);stroke-width:3}.ff-s{fill:none;stroke:var(--fig-blue);stroke-width:3}.ff-a{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1}.ff-b2{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1}.ff-dot{fill:var(--fig-blue)}</style>
+<text x="60" y="36" class="ff-b">속도–시간 그래프</text>
+<path d="M70 250.0H320" class="ff-grid"/><text x="62" y="254.0" text-anchor="end" class="ff-sm" style="fill:var(--fig-ink)">10</text>
+<path d="M70 190.0H320" class="ff-grid"/><text x="62" y="194.0" text-anchor="end" class="ff-sm" style="fill:var(--fig-ink)">20</text>
+<path d="M70 130.0H320" class="ff-grid"/><text x="62" y="134.0" text-anchor="end" class="ff-sm" style="fill:var(--fig-ink)">30</text>
+<path d="M70 70.0H320" class="ff-grid"/><text x="62" y="74.0" text-anchor="end" class="ff-sm" style="fill:var(--fig-ink)">40</text>
+<path d="M70.0 310L70.0 310.0L132.5 251.2L132.5 310Z" class="ff-a"/>
+<text x="101.2" y="296.0" text-anchor="middle" class="ff-txt" style="font-weight:700">4.9</text>
+<path d="M132.5 310L132.5 251.2L195.0 192.4L195.0 310Z" class="ff-b2"/>
+<text x="163.8" y="288.6" text-anchor="middle" class="ff-txt" style="font-weight:700">14.7</text>
+<path d="M195.0 310L195.0 192.4L257.5 133.6L257.5 310Z" class="ff-a"/>
+<text x="226.2" y="259.2" text-anchor="middle" class="ff-txt" style="font-weight:700">24.5</text>
+<path d="M257.5 310L257.5 133.6L320.0 74.8L320.0 310Z" class="ff-b2"/>
+<text x="288.8" y="229.8" text-anchor="middle" class="ff-txt" style="font-weight:700">34.3</text>
+<path d="M70.0 310.0L320.0 74.8" class="ff-v"/>
+<path d="M70 58V310H332" class="ff-ax"/>
+<path d="M70.0 310v6" class="ff-ax"/><text x="70.0" y="332" text-anchor="middle" class="ff-txt">0</text>
+<path d="M132.5 310v6" class="ff-ax"/><text x="132.5" y="332" text-anchor="middle" class="ff-txt">1</text>
+<path d="M195.0 310v6" class="ff-ax"/><text x="195.0" y="332" text-anchor="middle" class="ff-txt">2</text>
+<path d="M257.5 310v6" class="ff-ax"/><text x="257.5" y="332" text-anchor="middle" class="ff-txt">3</text>
+<path d="M320.0 310v6" class="ff-ax"/><text x="320.0" y="332" text-anchor="middle" class="ff-txt">4</text>
+<text x="336" y="314" class="ff-txt">t(s)</text>
+<text x="78" y="66" class="ff-txt">v(m/s)</text>
+<text x="79.4" y="100.0" class="ff-txt" style="fill:var(--fig-red);font-weight:700">v = gt</text>
+<text x="79.4" y="118.0" class="ff-sm">기울기 = g = 9.8 m/s²</text>
+<text x="195.0" y="358" text-anchor="middle" class="ff-txt">1초마다 넓이(떨어진 거리, m) = 1 : 3 : 5 : 7</text>
+<text x="430" y="36" class="ff-b">떨어진 거리–시간 그래프</text>
+<path d="M440 250.0H680" class="ff-grid"/><text x="432" y="254.0" text-anchor="end" class="ff-sm" style="fill:var(--fig-ink)">20</text>
+<path d="M440 190.0H680" class="ff-grid"/><text x="432" y="194.0" text-anchor="end" class="ff-sm" style="fill:var(--fig-ink)">40</text>
+<path d="M440 130.0H680" class="ff-grid"/><text x="432" y="134.0" text-anchor="end" class="ff-sm" style="fill:var(--fig-ink)">60</text>
+<path d="M440 70.0H680" class="ff-grid"/><text x="432" y="74.0" text-anchor="end" class="ff-sm" style="fill:var(--fig-ink)">80</text>
+<path d="M440.0 310.0L443.0 310.0L446.0 309.9L449.0 309.7L452.0 309.4L455.0 309.1L458.0 308.7L461.0 308.2L464.0 307.6L467.0 307.0L470.0 306.3L473.0 305.6L476.0 304.7L479.0 303.8L482.0 302.8L485.0 301.7L488.0 300.6L491.0 299.4L494.0 298.1L497.0 296.7L500.0 295.3L503.0 293.8L506.0 292.2L509.0 290.6L512.0 288.8L515.0 287.0L518.0 285.2L521.0 283.2L524.0 281.2L527.0 279.1L530.0 276.9L533.0 274.7L536.0 272.4L539.0 270.0L542.0 267.5L545.0 265.0L548.0 262.4L551.0 259.7L554.0 256.9L557.0 254.1L560.0 251.2L563.0 248.2L566.0 245.2L569.0 242.0L572.0 238.9L575.0 235.6L578.0 232.2L581.0 228.8L584.0 225.3L587.0 221.8L590.0 218.1L593.0 214.4L596.0 210.6L599.0 206.8L602.0 202.8L605.0 198.8L608.0 194.8L611.0 190.6L614.0 186.4L617.0 182.1L620.0 177.7L623.0 173.3L626.0 168.7L629.0 164.1L632.0 159.5L635.0 154.7L638.0 149.9L641.0 145.0L644.0 140.1L647.0 135.0L650.0 129.9L653.0 124.7L656.0 119.5L659.0 114.2L662.0 108.8L665.0 103.3L668.0 97.7L671.0 92.1L674.0 86.4L677.0 80.6L680.0 74.8" class="ff-s"/>
+<circle cx="500.0" cy="295.3" r="4" class="ff-dot"/>
+<text x="492.0" y="289.3" text-anchor="end" class="ff-txt">4.9 m</text>
+<circle cx="560.0" cy="251.2" r="4" class="ff-dot"/>
+<text x="552.0" y="245.2" text-anchor="end" class="ff-txt">19.6 m</text>
+<circle cx="620.0" cy="177.7" r="4" class="ff-dot"/>
+<text x="612.0" y="171.7" text-anchor="end" class="ff-txt">44.1 m</text>
+<circle cx="680.0" cy="74.8" r="4" class="ff-dot"/>
+<text x="672.0" y="68.8" text-anchor="end" class="ff-txt">78.4 m</text>
+<path d="M440 58V310H692" class="ff-ax"/>
+<path d="M440.0 310v6" class="ff-ax"/><text x="440.0" y="332" text-anchor="middle" class="ff-txt">0</text>
+<path d="M500.0 310v6" class="ff-ax"/><text x="500.0" y="332" text-anchor="middle" class="ff-txt">1</text>
+<path d="M560.0 310v6" class="ff-ax"/><text x="560.0" y="332" text-anchor="middle" class="ff-txt">2</text>
+<path d="M620.0 310v6" class="ff-ax"/><text x="620.0" y="332" text-anchor="middle" class="ff-txt">3</text>
+<path d="M680.0 310v6" class="ff-ax"/><text x="680.0" y="332" text-anchor="middle" class="ff-txt">4</text>
+<text x="694" y="314" class="ff-txt">t(s)</text>
+<text x="448" y="66" class="ff-txt">s(m)</text>
+<text x="464.0" y="154.0" class="ff-txt" style="fill:var(--fig-blue);font-weight:700">s = ½gt²</text>
+<text x="560.0" y="358" text-anchor="middle" class="ff-txt">시간이 2배 → 거리는 4배</text>
+</svg>

@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-m1-06-pressure-volume d-m1-06-pressure-volume">
+  <title id="t-m1-06-pressure-volume">그림 중1-6-3 기체의 압력과 부피 관계</title>
+  <desc id="d-m1-06-pressure-volume">온도가 일정할 때 주사기 속 공기에 가하는 압력을 높이면 부피가 줄어들어, 실험값이 오른쪽 아래로 내려가는 곡선을 이룬다. 입자 모형으로 보면 입자의 수·크기·빠르기는 같고, 입자 사이가 가까워져 벽에 충돌하는 횟수가 많아진다. 노란 표시는 충돌을 나타낸 모식이다.</desc>
+  <style>
+    .pv-red{fill:none;stroke:var(--fig-red)} .pv-redh{fill:var(--fig-red)}
+    .pv-blue{fill:none;stroke:var(--fig-blue)} .pv-blueh{fill:var(--fig-blue)}
+    .pv-green{fill:none;stroke:var(--fig-green)} .pv-greenh{fill:var(--fig-green)}
+    .pv-amber{fill:none;stroke:var(--fig-amber)} .pv-amberh{fill:var(--fig-amber)}
+    .pv-violet{fill:none;stroke:var(--fig-violet)} .pv-violeth{fill:var(--fig-violet)}
+    .pv-teal{fill:none;stroke:var(--fig-teal)} .pv-tealh{fill:var(--fig-teal)}
+    .pv-ink{fill:none;stroke:var(--fig-ink)} .pv-inkh{fill:var(--fig-ink)}
+    .pv-muted{fill:none;stroke:var(--fig-muted)} .pv-mutedh{fill:var(--fig-muted)}
+    .pv-line{fill:none;stroke:var(--fig-line)} .pv-lineh{fill:var(--fig-line)}
+    .pv-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .pv-t{font-size:14px;fill:var(--fig-ink)}
+    .pv-sm{font-size:13px;fill:var(--fig-muted)}
+    .pv-redb{font-size:14px;font-weight:700;fill:var(--fig-red)}
+    .pv-sred{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6}
+    .pv-blueb{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+    .pv-sblue{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6}
+    .pv-greenb{font-size:14px;font-weight:700;fill:var(--fig-green)}
+    .pv-sgreen{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6}
+    .pv-amberb{font-size:14px;font-weight:700;fill:var(--fig-amber)}
+    .pv-samber{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6}
+    .pv-violetb{font-size:14px;font-weight:700;fill:var(--fig-violet)}
+    .pv-sviolet{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6}
+    .pv-tealb{font-size:14px;font-weight:700;fill:var(--fig-teal)}
+    .pv-steal{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.6}
+    .pv-panel{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.4}
+    .pv-paper{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.4}
+    .pv-axis{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
+    .pv-grid{fill:none;stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4}
+    .pv-dash{fill:none;stroke:var(--fig-muted);stroke-width:1.4;stroke-dasharray:5 4}
+    .pv-barrel{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2} .pv-gas{fill:var(--fig-soft-teal);stroke:none} .pv-pist{fill:var(--fig-line);stroke:var(--fig-ink);stroke-width:1.6} .pv-stop{fill:var(--fig-ink)} .pv-pt{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.4} .pv-hit{fill:var(--fig-amber)} .pv-water{fill:var(--fig-soft-blue);stroke:none} .pv-glass{fill:none;stroke:var(--fig-ink);stroke-width:2}
+  </style>
+  <text x="190.0" y="28.0" text-anchor="middle" class="pv-h">실험 결과(온도 일정)</text>
+  <line x1="170.0" y1="300.0" x2="170.0" y2="76.0" class="pv-grid" style="stroke-width:1;stroke-linecap:round"/>
+  <text x="170.0" y="320.0" text-anchor="middle" class="pv-t">100</text>
+  <line x1="220.0" y1="300.0" x2="220.0" y2="76.0" class="pv-grid" style="stroke-width:1;stroke-linecap:round"/>
+  <text x="220.0" y="320.0" text-anchor="middle" class="pv-t">150</text>
+  <line x1="270.0" y1="300.0" x2="270.0" y2="76.0" class="pv-grid" style="stroke-width:1;stroke-linecap:round"/>
+  <text x="270.0" y="320.0" text-anchor="middle" class="pv-t">200</text>
+  <line x1="320.0" y1="300.0" x2="320.0" y2="76.0" class="pv-grid" style="stroke-width:1;stroke-linecap:round"/>
+  <text x="320.0" y="320.0" text-anchor="middle" class="pv-t">250</text>
+  <line x1="70.0" y1="236.0" x2="340.0" y2="236.0" class="pv-grid" style="stroke-width:1;stroke-linecap:round"/>
+  <text x="62.0" y="241.0" text-anchor="end" class="pv-t">20</text>
+  <line x1="70.0" y1="172.0" x2="340.0" y2="172.0" class="pv-grid" style="stroke-width:1;stroke-linecap:round"/>
+  <text x="62.0" y="177.0" text-anchor="end" class="pv-t">40</text>
+  <line x1="70.0" y1="108.0" x2="340.0" y2="108.0" class="pv-grid" style="stroke-width:1;stroke-linecap:round"/>
+  <text x="62.0" y="113.0" text-anchor="end" class="pv-t">60</text>
+  <text x="62.0" y="305.0" text-anchor="end" class="pv-t">0</text>
+  <line x1="70.0" y1="300.0" x2="346.0" y2="300.0" class="pv-ink" style="stroke-width:1.6;stroke-linecap:round"/>
+  <path d="M355.0 300.0 L346.0 304.3 L346.0 295.7 Z" class="pv-inkh"/>
+  <line x1="70.0" y1="300.0" x2="70.0" y2="65.0" class="pv-ink" style="stroke-width:1.6;stroke-linecap:round"/>
+  <path d="M70.0 56.0 L74.3 65.0 L65.7 65.0 Z" class="pv-inkh"/>
+  <text x="355.0" y="342.0" text-anchor="end" class="pv-t">압력(kPa)</text>
+  <text x="80.0" y="66.0" class="pv-t">부피(mL)</text>
+  <path d="M160.0 86.7 L165.0 97.9 L170.0 108.0 L175.0 117.1 L180.0 125.5 L185.0 133.0 L190.0 140.0 L195.0 146.4 L200.0 152.3 L205.0 157.8 L210.0 162.9 L215.0 167.6 L220.0 172.0 L225.0 176.1 L230.0 180.0 L235.0 183.6 L240.0 187.1 L245.0 190.3 L250.0 193.3 L255.0 196.2 L260.0 198.9 L265.0 201.5 L270.0 204.0 L275.0 206.3 L280.0 208.6 L285.0 210.7 L290.0 212.7 L295.0 214.7 L300.0 216.5 L305.0 218.3 L310.0 220.0 L315.0 221.6 L320.0 223.2 L325.0 224.7 L330.0 226.2 L335.0 227.5" class="pv-red" style="stroke-width:2.5"/>
+  <circle cx="170.0" cy="108.0" r="5.0" class="pv-redh"/>
+  <circle cx="195.0" cy="146.4" r="5.0" class="pv-redh"/>
+  <circle cx="220.0" cy="172.0" r="5.0" class="pv-redh"/>
+  <circle cx="270.0" cy="204.0" r="5.0" class="pv-redh"/>
+  <circle cx="320.0" cy="223.2" r="5.0" class="pv-redh"/>
+  <text x="230.0" y="120.8" class="pv-redb">압력↑ → 부피↓</text>
+  <line x1="360.0" y1="20.0" x2="360.0" y2="345.0" class="pv-dash" style="stroke-width:1.2;stroke-linecap:round"/>
+  <text x="540.0" y="28.0" text-anchor="middle" class="pv-h">입자 모형(입자 수 12개로 같다)</text>
+  <rect x="428.0" y="155.0" width="64.0" height="150.0" rx="0" class="pv-gas"/>
+  <path d="M428.0 130 L428.0 305 L492.0 305 L492.0 130" class="pv-glass"/>
+  <rect x="453.0" y="305.0" width="14.0" height="10.0" rx="0" class="pv-barrel"/>
+  <rect x="450.0" y="315.0" width="20.0" height="9.0" rx="2" class="pv-stop"/>
+  <rect x="430.0" y="143.0" width="60.0" height="12.0" rx="2" class="pv-pist"/>
+  <rect x="456.0" y="61.0" width="8.0" height="82.0" rx="0" class="pv-pist"/>
+  <rect x="418.0" y="53.0" width="84.0" height="8.0" rx="2" class="pv-pist"/>
+  <line x1="460.0" y1="29.0" x2="460.0" y2="37.0" class="pv-blue" style="stroke-width:3.5;stroke-linecap:round"/>
+  <path d="M460.0 49.0 L454.2 37.0 L465.8 37.0 Z" class="pv-blueh"/>
+  <circle cx="465.4" cy="261.4" r="5.0" class="pv-pt"/>
+  <line x1="462.3" y1="266.5" x2="458.1" y2="273.4" class="pv-ink" style="stroke-width:1.4;stroke-linecap:round"/>
+  <path d="M454.9 278.5 L455.6 271.8 L460.5 274.9 Z" class="pv-inkh"/>
+  <circle cx="473.0" cy="287.5" r="5.0" class="pv-pt"/>
+  <line x1="470.8" y1="293.1" x2="467.8" y2="300.5" class="pv-ink" style="stroke-width:1.4;stroke-linecap:round"/>
+  <path d="M465.6 306.1 L465.2 299.5 L470.5 301.6 Z" class="pv-inkh"/>
+  <circle cx="439.3" cy="225.5" r="5.0" class="pv-pt"/>
+  <line x1="441.8" y1="220.1" x2="445.1" y2="212.8" class="pv-ink" style="stroke-width:1.4;stroke-linecap:round"/>
+  <path d="M447.6 207.4 L447.7 214.0 L442.5 211.6 Z" class="pv-inkh"/>
+  <circle cx="479.5" cy="249.4" r="5.0" class="pv-pt"/>
+  <line x1="473.6" y1="250.1" x2="465.6" y2="251.1" class="pv-ink" style="stroke-width:1.4;stroke-linecap:round"/>
+  <path d="M459.7 251.8 L465.3 248.2 L466.0 253.9 Z" class="pv-inkh"/>
+  <circle cx="477.6" cy="179.7" r="5.0" class="pv-pt"/>
+  <line x1="475.2" y1="185.2" x2="472.0" y2="192.5" class="pv-ink" style="stroke-width:1.4;stroke-linecap:round"/>
+  <path d="M469.6 198.0 L469.4 191.4 L474.7 193.7 Z" class="pv-inkh"/>
+  <circle cx="458.6" cy="197.1" r="5.0" class="pv-pt"/>
+  <line x1="452.7" y1="197.8" x2="444.7" y2="198.7" class="pv-ink" style="stroke-width:1.4;stroke-linecap:round"/>
+  <path d="M438.8 199.4 L444.4 195.8 L445.1 201.6 Z" class="pv-inkh"/>
+  <circle cx="461.9" cy="239.6" r="5.0" class="pv-pt"/>
+  <line x1="460.2" y1="233.9" x2="458.0" y2="226.2" class="pv-ink" style="stroke-width:1.4;stroke-linecap:round"/>
+  <path d="M456.3 220.4 L460.8 225.4 L455.2 227.0 Z" class="pv-inkh"/>
+  <circle cx="438.6" cy="193.2" r="5.0" class="pv-pt"/>
+  <line x1="444.2" y1="195.3" x2="451.7" y2="198.1" class="pv-ink" style="stroke-width:1.4;stroke-linecap:round"/>
+  <path d="M457.3 200.2 L450.7 200.8 L452.7 195.4 Z" class="pv-inkh"/>
+  <circle cx="450.3" cy="284.1" r="5.0" class="pv-pt"/>
+  <line x1="456.2" y1="283.2" x2="464.1" y2="281.9" class="pv-ink" style="stroke-width:1.4;stroke-linecap:round"/>
+  <path d="M470.1 281.0 L464.6 284.8 L463.7 279.1 Z" class="pv-inkh"/>
+  <circle cx="477.3" cy="203.8" r="5.0" class="pv-pt"/>
+  <line x1="483.3" y1="204.7" x2="491.2" y2="205.8" class="pv-ink" style="stroke-width:1.4;stroke-linecap:round"/>
+  <path d="M497.1 206.7 L490.8 208.7 L491.6 203.0 Z" class="pv-inkh"/>
+  <circle cx="444.4" cy="173.5" r="5.0" class="pv-pt"/>
+  <line x1="444.4" y1="167.5" x2="444.4" y2="159.5" class="pv-ink" style="stroke-width:1.4;stroke-linecap:round"/>
+  <path d="M444.4 153.5 L447.3 159.5 L441.5 159.5 Z" class="pv-inkh"/>
+  <circle cx="438.1" cy="253.1" r="5.0" class="pv-pt"/>
+  <line x1="441.5" y1="248.2" x2="446.0" y2="241.5" class="pv-ink" style="stroke-width:1.4;stroke-linecap:round"/>
+  <path d="M449.4 236.6 L448.4 243.2 L443.6 239.9 Z" class="pv-inkh"/>
+  <path d="M428.0 224.0 L430.0 228.0 L434.0 230.0 L430.0 232.0 L428.0 236.0 L426.0 232.0 L422.0 230.0 L426.0 228.0 Z" class="pv-hit"/>
+  <path d="M492.0 231.5 L494.0 235.5 L498.0 237.5 L494.0 239.5 L492.0 243.5 L490.0 239.5 L486.0 237.5 L490.0 235.5 Z" class="pv-hit"/>
+  <path d="M460.0 149.0 L462.0 153.0 L466.0 155.0 L462.0 157.0 L460.0 161.0 L458.0 157.0 L454.0 155.0 L458.0 153.0 Z" class="pv-hit"/>
+  <rect x="588.0" y="230.0" width="64.0" height="75.0" rx="0" class="pv-gas"/>
+  <path d="M588.0 130 L588.0 305 L652.0 305 L652.0 130" class="pv-glass"/>
+  <rect x="613.0" y="305.0" width="14.0" height="10.0" rx="0" class="pv-barrel"/>
+  <rect x="610.0" y="315.0" width="20.0" height="9.0" rx="2" class="pv-stop"/>
+  <rect x="590.0" y="218.0" width="60.0" height="12.0" rx="2" class="pv-pist"/>
+  <rect x="616.0" y="136.0" width="8.0" height="82.0" rx="0" class="pv-pist"/>
+  <rect x="578.0" y="128.0" width="84.0" height="8.0" rx="2" class="pv-pist"/>
+  <line x1="620.0" y1="84.0" x2="620.0" y2="110.0" class="pv-blue" style="stroke-width:3.5;stroke-linecap:round"/>
+  <path d="M620.0 124.0 L613.3 110.0 L626.7 110.0 Z" class="pv-blueh"/>
+  <circle cx="618.4" cy="260.5" r="5.0" class="pv-pt"/>
+  <line x1="613.8" y1="256.7" x2="607.7" y2="251.5" class="pv-ink" style="stroke-width:1.4;stroke-linecap:round"/>
+  <path d="M603.1 247.6 L609.5 249.3 L605.8 253.7 Z" class="pv-inkh"/>
+  <circle cx="604.1" cy="287.7" r="5.0" class="pv-pt"/>
+  <line x1="601.8" y1="282.1" x2="598.8" y2="274.7" class="pv-ink" style="stroke-width:1.4;stroke-linecap:round"/>
+  <path d="M596.5 269.1 L601.5 273.6 L596.1 275.8 Z" class="pv-inkh"/>
+  <circle cx="598.3" cy="267.7" r="5.0" class="pv-pt"/>
+  <line x1="598.8" y1="273.6" x2="599.6" y2="281.6" class="pv-ink" style="stroke-width:1.4;stroke-linecap:round"/>
+  <path d="M600.1 287.6 L596.7 281.9 L602.4 281.3 Z" class="pv-inkh"/>
+  <circle cx="637.5" cy="244.4" r="5.0" class="pv-pt"/>
+  <line x1="640.1" y1="239.0" x2="643.5" y2="231.8" class="pv-ink" style="stroke-width:1.4;stroke-linecap:round"/>
+  <path d="M646.0 226.3 L646.1 233.0 L640.8 230.5 Z" class="pv-inkh"/>
+  <circle cx="608.5" cy="246.1" r="5.0" class="pv-pt"/>
+  <line x1="602.5" y1="246.9" x2="594.6" y2="247.9" class="pv-ink" style="stroke-width:1.4;stroke-linecap:round"/>
+  <path d="M588.6 248.7 L594.2 245.0 L595.0 250.8 Z" class="pv-inkh"/>
+  <circle cx="620.3" cy="290.8" r="5.0" class="pv-pt"/>
+  <line x1="619.4" y1="296.7" x2="618.2" y2="304.7" class="pv-ink" style="stroke-width:1.4;stroke-linecap:round"/>
+  <path d="M617.3 310.6 L615.4 304.2 L621.1 305.1 Z" class="pv-inkh"/>
+  <circle cx="627.7" cy="272.5" r="5.0" class="pv-pt"/>
+  <line x1="622.2" y1="270.1" x2="614.8" y2="266.9" class="pv-ink" style="stroke-width:1.4;stroke-linecap:round"/>
+  <path d="M609.3 264.5 L616.0 264.3 L613.7 269.6 Z" class="pv-inkh"/>
+  <circle cx="641.4" cy="285.8" r="5.0" class="pv-pt"/>
+  <line x1="635.4" y1="285.5" x2="627.4" y2="285.0" class="pv-ink" style="stroke-width:1.4;stroke-linecap:round"/>
+  <path d="M621.4 284.7 L627.6 282.1 L627.3 287.9 Z" class="pv-inkh"/>
+  <circle cx="640.3" cy="261.8" r="5.0" class="pv-pt"/>
+  <line x1="644.9" y1="265.6" x2="651.2" y2="270.6" class="pv-ink" style="stroke-width:1.4;stroke-linecap:round"/>
+  <path d="M655.9 274.3 L649.4 272.8 L653.0 268.3 Z" class="pv-inkh"/>
+  <circle cx="612.0" cy="274.4" r="5.0" class="pv-pt"/>
+  <line x1="618.0" y1="274.4" x2="626.0" y2="274.3" class="pv-ink" style="stroke-width:1.4;stroke-linecap:round"/>
+  <path d="M632.0 274.2 L626.0 277.2 L626.0 271.4 Z" class="pv-inkh"/>
+  <path d="M588.0 236.5 L590.0 240.5 L594.0 242.5 L590.0 244.5 L588.0 248.5 L586.0 244.5 L582.0 242.5 L586.0 240.5 Z" class="pv-hit"/>
+  <path d="M652.0 287.8 L654.0 291.8 L658.0 293.8 L654.0 295.8 L652.0 299.8 L650.0 295.8 L646.0 293.8 L650.0 291.8 Z" class="pv-hit"/>
+  <path d="M609.3 224.0 L611.3 228.0 L615.3 230.0 L611.3 232.0 L609.3 236.0 L607.3 232.0 L603.3 230.0 L607.3 228.0 Z" class="pv-hit"/>
+  <path d="M588.0 261.5 L590.0 265.5 L594.0 267.5 L590.0 269.5 L588.0 273.5 L586.0 269.5 L582.0 267.5 L586.0 265.5 Z" class="pv-hit"/>
+  <path d="M652.0 265.2 L654.0 269.2 L658.0 271.2 L654.0 273.2 L652.0 277.2 L650.0 273.2 L646.0 271.2 L650.0 269.2 Z" class="pv-hit"/>
+  <path d="M620.0 224.0 L622.0 228.0 L626.0 230.0 L622.0 232.0 L620.0 236.0 L618.0 232.0 L614.0 230.0 L618.0 228.0 Z" class="pv-hit"/>
+  <path d="M588.0 286.5 L590.0 290.5 L594.0 292.5 L590.0 294.5 L588.0 298.5 L586.0 294.5 L582.0 292.5 L586.0 290.5 Z" class="pv-hit"/>
+  <text x="460.0" y="348.0" text-anchor="middle" class="pv-t">압력이 작을 때</text>
+  <text x="460.0" y="366.0" text-anchor="middle" class="pv-sm">부피 크다 · 충돌 적다</text>
+  <text x="620.0" y="348.0" text-anchor="middle" class="pv-t">압력이 클 때</text>
+  <text x="620.0" y="366.0" text-anchor="middle" class="pv-sm">부피 작다 · 충돌 많다</text>
+  <text x="660.0" y="107.0" class="pv-blueb">누르는 힘</text>
+</svg>
