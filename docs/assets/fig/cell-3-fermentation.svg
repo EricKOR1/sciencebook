@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-cell-3-fermentation d-cell-3-fermentation">
+  <title id="t-cell-3-fermentation">그림 세포와 물질대사 3-9 알코올 발효와 젖산 발효</title>
+  <desc id="d-cell-3-fermentation">세포질에서 포도당 1분자가 해당 과정을 거쳐 피루브산 2분자가 되며 ATP 2분자(순)와 NADH 2분자가 생긴다. 산소가 없을 때 알코올 발효에서는 피루브산이 이산화 탄소를 내놓고 아세트알데하이드가 된 뒤 NADH의 전자를 받아 에탄올이 되고, 젖산 발효에서는 피루브산이 NADH의 전자를 직접 받아 젖산이 된다. 두 경우 모두 NAD⁺가 재생되어 해당 과정이 계속된다. 포도당 1분자 기준, 모식도.</desc>
+  <style>.cell-3-fermentation-t{font-size:14px;fill:var(--fig-ink)} .cell-3-fermentation-s{font-size:13px;fill:var(--fig-muted)} .cell-3-fermentation-b{font-size:15px;fill:var(--fig-ink);font-weight:600} .cell-3-fermentation-bs{font-size:14px;fill:var(--fig-ink);font-weight:600} .cell-3-fermentation-g{font-size:14px;fill:var(--fig-green);font-weight:600} .cell-3-fermentation-r{font-size:14px;fill:var(--fig-red);font-weight:600} .cell-3-fermentation-bl{font-size:14px;fill:var(--fig-blue);font-weight:600} .cell-3-fermentation-am{font-size:14px;fill:var(--fig-amber);font-weight:600} .cell-3-fermentation-vi{font-size:14px;fill:var(--fig-violet);font-weight:600} .cell-3-fermentation-te{font-size:14px;fill:var(--fig-teal);font-weight:600}</style>
+  <rect x="10.0" y="10.0" width="700.0" height="360.0" rx="10" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2;fill-opacity:0.5"/>
+  <text x="24.0" y="34.0" class="cell-3-fermentation-bs">세포질(산소 없음)</text>
+  <rect x="285.0" y="32.0" width="150.0" height="36.0" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.8"/>
+  <text x="360.0" y="55.0" text-anchor="middle" class="cell-3-fermentation-bs">포도당 <tspan class="cell-3-fermentation-s">(6C)</tspan></text>
+  <rect x="265.0" y="142.0" width="190.0" height="36.0" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.8"/>
+  <text x="360.0" y="165.0" text-anchor="middle" class="cell-3-fermentation-bs">피루브산 × 2 <tspan class="cell-3-fermentation-s">(3C)</tspan></text>
+  <line x1="360.0" y1="70.0" x2="360.0" y2="133.7" style="stroke:var(--fig-ink);stroke-width:2.2"/>
+  <path d="M360.0 140.0 L356.3 131.8 L363.7 131.8 Z" style="fill:var(--fig-ink)"/>
+  <text x="372.0" y="100.0" class="cell-3-fermentation-bs">해당 과정</text>
+  <text x="372.0" y="120.0" class="cell-3-fermentation-vi">ATP 2(순)</text>
+  <text x="348.0" y="92.0" text-anchor="end" class="cell-3-fermentation-te">2NAD⁺</text>
+  <text x="348.0" y="122.0" text-anchor="end" class="cell-3-fermentation-te">→ 2NADH</text>
+  <text x="150.0" y="210.0" text-anchor="middle" class="cell-3-fermentation-b">알코올 발효(효모)</text>
+  <rect x="45.0" y="252.0" width="210.0" height="36.0" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.8"/>
+  <text x="150.0" y="275.0" text-anchor="middle" class="cell-3-fermentation-bs">아세트알데하이드 × 2 <tspan class="cell-3-fermentation-s">(2C)</tspan></text>
+  <rect x="75.0" y="322.0" width="150.0" height="36.0" rx="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <text x="150.0" y="345.0" text-anchor="middle" class="cell-3-fermentation-bs">에탄올 × 2 <tspan class="cell-3-fermentation-s">(2C)</tspan></text>
+  <path d="M290 172 C200 190 160 220 150 250" style="fill:none;stroke:var(--fig-ink);stroke-width:2.2"/>
+  <path d="M150.0 252.0 L148.0 243.2 L155.2 244.7 Z" style="fill:var(--fig-ink)"/>
+  <line x1="205.0" y1="228.0" x2="249.4" y2="228.0" style="stroke:var(--fig-muted);stroke-width:1.8"/>
+  <path d="M255.0 228.0 L247.7 231.3 L247.7 224.7 Z" style="fill:var(--fig-muted)"/>
+  <text x="262.0" y="233.0" class="cell-3-fermentation-r">2CO₂</text>
+  <line x1="150.0" y1="288.0" x2="150.0" y2="313.7" style="stroke:var(--fig-ink);stroke-width:2.2"/>
+  <path d="M150.0 320.0 L146.3 311.8 L153.7 311.8 Z" style="fill:var(--fig-ink)"/>
+  <text x="160.0" y="310.0" class="cell-3-fermentation-te">2NADH → 2NAD⁺</text>
+  <text x="570.0" y="210.0" text-anchor="middle" class="cell-3-fermentation-b">젖산 발효(젖산균, 근육)</text>
+  <rect x="495.0" y="282.0" width="150.0" height="36.0" rx="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <text x="570.0" y="305.0" text-anchor="middle" class="cell-3-fermentation-bs">젖산 × 2 <tspan class="cell-3-fermentation-s">(3C)</tspan></text>
+  <path d="M430 172 C520 190 560 230 570 278" style="fill:none;stroke:var(--fig-ink);stroke-width:2.2"/>
+  <path d="M570.0 280.0 L565.3 272.3 L572.6 271.4 Z" style="fill:var(--fig-ink)"/>
+  <text x="560.0" y="248.0" text-anchor="end" class="cell-3-fermentation-te">2NADH → 2NAD⁺</text>
+  <path d="M226 316 C300 300 300 140 345 124" style="fill:none;stroke:var(--fig-teal);stroke-width:2;stroke-dasharray:6 4"/>
+  <path d="M347.0 123.0 L342.2 130.6 L338.1 124.5 Z" style="fill:var(--fig-teal)"/>
+  <path d="M640 248 C680 150 520 100 372 92" style="fill:none;stroke:var(--fig-teal);stroke-width:2;stroke-dasharray:6 4"/>
+  <path d="M372.0 92.0 L380.2 88.3 L380.2 95.7 Z" style="fill:var(--fig-teal)"/>
+  <text x="290.0" y="250.0" text-anchor="middle" class="cell-3-fermentation-te">NAD⁺ 재생</text>
+  <text x="640.0" y="140.0" text-anchor="middle" class="cell-3-fermentation-te">NAD⁺ 재생</text>
+  <text x="470.0" y="350.0" text-anchor="middle" class="cell-3-fermentation-s">발효의 ATP는 해당 과정에서만 나온다(포도당 1분자당 2).</text>
+</svg>

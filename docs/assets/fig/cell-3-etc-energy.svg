@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-cell-3-etc-energy d-cell-3-etc-energy">
+  <title id="t-cell-3-etc-energy">그림 세포와 물질대사 3-8 세포호흡과 광합성에서 전자의 에너지 변화</title>
+  <desc id="d-cell-3-etc-energy">세포호흡에서 전자는 에너지가 높은 NADH와 FADH₂에서 출발해 전자 전달계를 거치며 내리막으로만 이동하여 산소에 전달된다. 광합성에서 전자는 에너지가 낮은 물에서 출발해 광계Ⅱ와 광계Ⅰ에서 빛에너지를 받아 두 번 끌어올려진 뒤 내려오며 NADP⁺에 전달된다. 두 경우 모두 내리막 구간에서 방출된 에너지로 H⁺을 퍼낸다. 모식도.</desc>
+  <style>.cell-3-etc-energy-t{font-size:14px;fill:var(--fig-ink)} .cell-3-etc-energy-s{font-size:13px;fill:var(--fig-muted)} .cell-3-etc-energy-b{font-size:15px;fill:var(--fig-ink);font-weight:600} .cell-3-etc-energy-bs{font-size:14px;fill:var(--fig-ink);font-weight:600} .cell-3-etc-energy-g{font-size:14px;fill:var(--fig-green);font-weight:600} .cell-3-etc-energy-r{font-size:14px;fill:var(--fig-red);font-weight:600} .cell-3-etc-energy-bl{font-size:14px;fill:var(--fig-blue);font-weight:600} .cell-3-etc-energy-am{font-size:14px;fill:var(--fig-amber);font-weight:600} .cell-3-etc-energy-vi{font-size:14px;fill:var(--fig-violet);font-weight:600} .cell-3-etc-energy-te{font-size:14px;fill:var(--fig-teal);font-weight:600}</style>
+  <line x1="40.0" y1="330.0" x2="40.0" y2="41.6" style="stroke:var(--fig-ink);stroke-width:1.6"/>
+  <path d="M40.0 36.0 L43.3 43.3 L36.7 43.3 Z" style="fill:var(--fig-ink)"/>
+  <text x="48.0" y="40.0" class="cell-3-etc-energy-s">전자의 에너지</text>
+  <text x="48.0" y="58.0" class="cell-3-etc-energy-s">(위로 갈수록 높음)</text>
+  <line x1="380.0" y1="30.0" x2="380.0" y2="340.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
+  <text x="215.0" y="30.0" text-anchor="middle" class="cell-3-etc-energy-b">세포호흡(미토콘드리아 내막)</text>
+  <text x="550.0" y="30.0" text-anchor="middle" class="cell-3-etc-energy-b">광합성(틸라코이드 막)</text>
+  <path d="M130.0 148.0 L172.5 148.0 L172.5 176.5 L215.0 176.5 L215.0 205.0 L257.5 205.0 L257.5 233.5 L300.0 233.5 L300.0 262.0" style="fill:none;stroke:var(--fig-blue);stroke-width:2.6"/>
+  <circle cx="172.5" cy="176.5" r="4" style="fill:var(--fig-blue)"/>
+  <circle cx="215.0" cy="205.0" r="4" style="fill:var(--fig-blue)"/>
+  <circle cx="257.5" cy="233.5" r="4" style="fill:var(--fig-blue)"/>
+  <path d="M300.0 262.0 L295.9 252.9 L304.1 252.9 Z" style="fill:var(--fig-blue)"/>
+  <rect x="84.0" y="135.0" width="64.0" height="26.0" rx="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
+  <text x="116.0" y="153.0" text-anchor="middle" class="cell-3-etc-energy-bs">NADH</text>
+  <rect x="70.0" y="169.0" width="64.0" height="26.0" rx="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
+  <text x="102.0" y="187.0" text-anchor="middle" class="cell-3-etc-energy-bs">FADH₂</text>
+  <line x1="134.0" y1="182.0" x2="180.4" y2="182.0" style="stroke:var(--fig-blue);stroke-width:2"/>
+  <path d="M186.0 182.0 L178.7 185.3 L178.7 178.7 Z" style="fill:var(--fig-blue)"/>
+  <rect x="270.0" y="270.0" width="96.0" height="46.0" rx="6" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6"/>
+  <text x="318.0" y="290.0" text-anchor="middle" class="cell-3-etc-energy-t">½O₂ + 2H⁺</text>
+  <text x="318.0" y="308.0" text-anchor="middle" class="cell-3-etc-energy-t">→ H₂O</text>
+  <text x="250.0" y="170.0" text-anchor="middle" class="cell-3-etc-energy-bl">내리막: 에너지 방출</text>
+  <text x="250.0" y="188.0" text-anchor="middle" class="cell-3-etc-energy-s">→ H⁺ 퍼냄</text>
+  <rect x="392.0" y="249.0" width="56.0" height="26.0" rx="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
+  <text x="420.0" y="267.0" text-anchor="middle" class="cell-3-etc-energy-bs">H₂O</text>
+  <line x1="448.0" y1="262.0" x2="462.0" y2="276.0" style="stroke:var(--fig-green);stroke-width:2"/>
+  <path d="M466.0 280.0 L458.5 277.1 L463.1 272.5 Z" style="fill:var(--fig-green)"/>
+  <circle cx="476.0" cy="280.0" r="6" style="fill:var(--fig-teal)"/>
+  <text x="476.0" y="304.0" text-anchor="middle" class="cell-3-etc-energy-te">광계Ⅱ</text>
+  <line x1="476.0" y1="272.0" x2="476.0" y2="113.7" style="stroke:var(--fig-amber);stroke-width:3"/>
+  <path d="M476.0 106.0 L480.5 116.0 L471.5 116.0 Z" style="fill:var(--fig-amber)"/>
+  <text x="470.0" y="195.0" text-anchor="end" class="cell-3-etc-energy-am">빛</text>
+  <circle cx="476.0" cy="100.0" r="5" style="fill:var(--fig-teal)"/>
+  <path d="M476.0 100.0 L502.0 100.0 L502.0 131.2 L528.0 131.2 L528.0 162.5 L554.0 162.5 L554.0 193.8 L580.0 193.8 L580.0 225.0" style="fill:none;stroke:var(--fig-green);stroke-width:2.6"/>
+  <circle cx="502.0" cy="131.2" r="4" style="fill:var(--fig-green)"/>
+  <circle cx="528.0" cy="162.5" r="4" style="fill:var(--fig-green)"/>
+  <circle cx="554.0" cy="193.8" r="4" style="fill:var(--fig-green)"/>
+  <text x="548.0" y="125.0" class="cell-3-etc-energy-g">H⁺ 퍼냄</text>
+  <circle cx="586.0" cy="225.0" r="6" style="fill:var(--fig-teal)"/>
+  <text x="586.0" y="249.0" text-anchor="middle" class="cell-3-etc-energy-te">광계Ⅰ</text>
+  <line x1="586.0" y1="217.0" x2="586.0" y2="63.7" style="stroke:var(--fig-amber);stroke-width:3"/>
+  <path d="M586.0 56.0 L590.5 66.0 L581.5 66.0 Z" style="fill:var(--fig-amber)"/>
+  <text x="580.0" y="140.0" text-anchor="end" class="cell-3-etc-energy-am">빛</text>
+  <circle cx="586.0" cy="50.0" r="5" style="fill:var(--fig-teal)"/>
+  <path d="M586.0 50.0 L613.0 50.0 L613.0 99.0 L640.0 99.0 L640.0 148.0" style="fill:none;stroke:var(--fig-green);stroke-width:2.6"/>
+  <circle cx="613.0" cy="99.0" r="4" style="fill:var(--fig-green)"/>
+  <rect x="626.0" y="156.0" width="86.0" height="26.0" rx="6" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6"/>
+  <text x="669.0" y="174.0" text-anchor="middle" class="cell-3-etc-energy-bs">NADPH</text>
+  <text x="360.0" y="352.0" text-anchor="middle" class="cell-3-etc-energy-s">세로 위치는 상대적인 에너지 높낮이를 나타낸 모식도이다(NADH와 NADPH는 비슷한 높이).</text>
+</svg>

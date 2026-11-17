@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-labelledby="t-gene-2-rna-processing d-gene-2-rna-processing">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 490" role="img" aria-labelledby="t-gene-2-rna-processing d-gene-2-rna-processing">
   <title id="t-gene-2-rna-processing">그림 생물의 유전 2-4 원핵생물과 진핵생물의 전사·번역 장소와 RNA 가공</title>
   <desc id="d-gene-2-rna-processing">위: 원핵생물은 핵막이 없어 세포질에서 전사가 진행되는 동안 mRNA에 리보솜이 붙어 번역이 함께 일어난다. 오른쪽으로 갈수록 전사가 더 진행되어 mRNA가 길다. 아래: 진핵생물은 핵에서 엑손과 인트론이 모두 담긴 처음 전사체를 만든 뒤, 인트론을 잘라 내고 엑손을 잇고(RNA 스플라이싱) 5′ 끝에 모자, 3′ 끝에 폴리 A 꼬리를 붙인 성숙한 mRNA만 핵공을 지나 세포질에서 번역된다. 모식도이다.</desc>
   <style>
@@ -37,42 +37,43 @@
     .gene-2-rna-processing-s-teal{fill:none;stroke:var(--fig-teal);stroke-width:2.5}
     .gene-2-rna-processing-t-teal{fill:var(--fig-teal)}
   </style>
-  <rect x="14.0" y="14.0" width="692.0" height="170.0" rx="8" class="gene-2-rna-processing-gray"/>
+  <rect x="14.0" y="14.0" width="692.0" height="188.0" rx="8" class="gene-2-rna-processing-gray"/>
   <text x="28.0" y="40.0" class="gene-2-rna-processing-h">원핵생물 — 세포질에서 전사와 번역이 동시에</text>
-  <line x1="40.0" y1="66.0" x2="690.0" y2="66.0" class="gene-2-rna-processing-ln" style="stroke-width:3;stroke:var(--fig-blue)"/>
-  <path d="M 80 60 L 80 46 L 100 46" class="gene-2-rna-processing-ln"/>
-  <polygon points="104.0,46.0 97.9,49.5 97.9,42.5" class="gene-2-rna-processing-ink"/>
-  <text x="108.0" y="51.0" class="gene-2-rna-processing-sm" style="font-size:12px">전사 시작</text>
-  <path d="M 150 74 Q 144 79.25 136 84.5" class="gene-2-rna-processing-s-red" style="stroke-width:2"/>
-  <ellipse cx="150.0" cy="66.0" rx="11.0" ry="9.0" class="gene-2-rna-processing-b-amber" style="stroke-width:1.5"/>
-  <path d="M 250 74 Q 244 86.75 236 99.5" class="gene-2-rna-processing-s-red" style="stroke-width:2"/>
-  <ellipse cx="237.5" cy="89.9" rx="8.0" ry="5.5" class="gene-2-rna-processing-b-violet" style="stroke-width:1.5"/>
-  <ellipse cx="250.0" cy="66.0" rx="11.0" ry="9.0" class="gene-2-rna-processing-b-amber" style="stroke-width:1.5"/>
-  <path d="M 350 74 Q 344 94.25 336 114.5" class="gene-2-rna-processing-s-red" style="stroke-width:2"/>
-  <ellipse cx="340.9" cy="89.6" rx="8.0" ry="5.5" class="gene-2-rna-processing-b-violet" style="stroke-width:1.5"/>
-  <ellipse cx="334.7" cy="105.2" rx="8.0" ry="5.5" class="gene-2-rna-processing-b-violet" style="stroke-width:1.5"/>
-  <ellipse cx="350.0" cy="66.0" rx="11.0" ry="9.0" class="gene-2-rna-processing-b-amber" style="stroke-width:1.5"/>
-  <path d="M 450 74 Q 444 101.75 436 129.5" class="gene-2-rna-processing-s-red" style="stroke-width:2"/>
-  <ellipse cx="441.9" cy="89.4" rx="8.0" ry="5.5" class="gene-2-rna-processing-b-violet" style="stroke-width:1.5"/>
-  <ellipse cx="438.7" cy="104.8" rx="8.0" ry="5.5" class="gene-2-rna-processing-b-violet" style="stroke-width:1.5"/>
-  <ellipse cx="433.3" cy="120.2" rx="8.0" ry="5.5" class="gene-2-rna-processing-b-violet" style="stroke-width:1.5"/>
-  <ellipse cx="450.0" cy="66.0" rx="11.0" ry="9.0" class="gene-2-rna-processing-b-amber" style="stroke-width:1.5"/>
-  <path d="M 550 74 Q 544 109.25 536 144.5" class="gene-2-rna-processing-s-red" style="stroke-width:2"/>
-  <ellipse cx="542.3" cy="89.3" rx="8.0" ry="5.5" class="gene-2-rna-processing-b-violet" style="stroke-width:1.5"/>
-  <ellipse cx="540.4" cy="104.7" rx="8.0" ry="5.5" class="gene-2-rna-processing-b-violet" style="stroke-width:1.5"/>
-  <ellipse cx="537.0" cy="120.0" rx="8.0" ry="5.5" class="gene-2-rna-processing-b-violet" style="stroke-width:1.5"/>
-  <ellipse cx="532.4" cy="135.3" rx="8.0" ry="5.5" class="gene-2-rna-processing-b-violet" style="stroke-width:1.5"/>
-  <ellipse cx="550.0" cy="66.0" rx="11.0" ry="9.0" class="gene-2-rna-processing-b-amber" style="stroke-width:1.5"/>
-  <line x1="590.0" y1="96.0" x2="653.7" y2="96.0" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
-  <polygon points="660.0,96.0 652.2,100.5 652.2,91.5" class="gene-2-rna-processing-ink" style="fill:var(--fig-amber)"/>
-  <text x="625.0" y="116.0" text-anchor="middle" class="gene-2-rna-processing-sm" style="font-size:12px;fill:var(--fig-amber)">RNA 중합 효소</text>
-  <text x="625.0" y="132.0" text-anchor="middle" class="gene-2-rna-processing-sm" style="font-size:12px;fill:var(--fig-amber)">이동 방향</text>
-  <ellipse cx="196.0" cy="168.0" rx="8.0" ry="5.5" class="gene-2-rna-processing-b-violet" style="stroke-width:1.5"/>
-  <text x="210.0" y="172.0" class="gene-2-rna-processing-sm" style="font-size:12px">리보솜</text>
-  <line x1="250.0" y1="168.0" x2="272.0" y2="168.0" class="gene-2-rna-processing-s-red" style="stroke-width:2"/>
-  <text x="278.0" y="172.0" class="gene-2-rna-processing-sm" style="font-size:12px">mRNA</text>
-  <ellipse cx="340.0" cy="168.0" rx="9.0" ry="7.0" class="gene-2-rna-processing-b-amber" style="stroke-width:1.5"/>
-  <text x="354.0" y="172.0" class="gene-2-rna-processing-sm" style="font-size:12px">RNA 중합 효소</text>
+  <line x1="40.0" y1="82.0" x2="690.0" y2="82.0" class="gene-2-rna-processing-ln" style="stroke-width:3;stroke:var(--fig-blue)"/>
+  <path d="M 80 76 L 80 62 L 100 62" class="gene-2-rna-processing-ln"/>
+  <polygon points="104.0,62.0 97.9,65.5 97.9,58.5" class="gene-2-rna-processing-ink"/>
+  <text x="108.0" y="67.0" class="gene-2-rna-processing-sm" style="font-size:12px">전사 시작</text>
+  <path d="M 150 90 Q 144 95.25 136 100.5" class="gene-2-rna-processing-s-red" style="stroke-width:2"/>
+  <ellipse cx="150.0" cy="82.0" rx="11.0" ry="9.0" class="gene-2-rna-processing-b-amber" style="stroke-width:1.5"/>
+  <path d="M 250 90 Q 244 102.75 236 115.5" class="gene-2-rna-processing-s-red" style="stroke-width:2"/>
+  <ellipse cx="237.5" cy="105.9" rx="8.0" ry="5.5" class="gene-2-rna-processing-b-violet" style="stroke-width:1.5"/>
+  <ellipse cx="250.0" cy="82.0" rx="11.0" ry="9.0" class="gene-2-rna-processing-b-amber" style="stroke-width:1.5"/>
+  <path d="M 350 90 Q 344 110.25 336 130.5" class="gene-2-rna-processing-s-red" style="stroke-width:2"/>
+  <ellipse cx="340.9" cy="105.6" rx="8.0" ry="5.5" class="gene-2-rna-processing-b-violet" style="stroke-width:1.5"/>
+  <ellipse cx="334.7" cy="121.2" rx="8.0" ry="5.5" class="gene-2-rna-processing-b-violet" style="stroke-width:1.5"/>
+  <ellipse cx="350.0" cy="82.0" rx="11.0" ry="9.0" class="gene-2-rna-processing-b-amber" style="stroke-width:1.5"/>
+  <path d="M 450 90 Q 444 117.75 436 145.5" class="gene-2-rna-processing-s-red" style="stroke-width:2"/>
+  <ellipse cx="441.9" cy="105.4" rx="8.0" ry="5.5" class="gene-2-rna-processing-b-violet" style="stroke-width:1.5"/>
+  <ellipse cx="438.7" cy="120.8" rx="8.0" ry="5.5" class="gene-2-rna-processing-b-violet" style="stroke-width:1.5"/>
+  <ellipse cx="433.3" cy="136.2" rx="8.0" ry="5.5" class="gene-2-rna-processing-b-violet" style="stroke-width:1.5"/>
+  <ellipse cx="450.0" cy="82.0" rx="11.0" ry="9.0" class="gene-2-rna-processing-b-amber" style="stroke-width:1.5"/>
+  <path d="M 550 90 Q 544 125.25 536 160.5" class="gene-2-rna-processing-s-red" style="stroke-width:2"/>
+  <ellipse cx="542.3" cy="105.3" rx="8.0" ry="5.5" class="gene-2-rna-processing-b-violet" style="stroke-width:1.5"/>
+  <ellipse cx="540.4" cy="120.7" rx="8.0" ry="5.5" class="gene-2-rna-processing-b-violet" style="stroke-width:1.5"/>
+  <ellipse cx="537.0" cy="136.0" rx="8.0" ry="5.5" class="gene-2-rna-processing-b-violet" style="stroke-width:1.5"/>
+  <ellipse cx="532.4" cy="151.3" rx="8.0" ry="5.5" class="gene-2-rna-processing-b-violet" style="stroke-width:1.5"/>
+  <ellipse cx="550.0" cy="82.0" rx="11.0" ry="9.0" class="gene-2-rna-processing-b-amber" style="stroke-width:1.5"/>
+  <line x1="590.0" y1="112.0" x2="653.7" y2="112.0" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
+  <polygon points="660.0,112.0 652.2,116.5 652.2,107.5" class="gene-2-rna-processing-ink" style="fill:var(--fig-amber)"/>
+  <text x="625.0" y="132.0" text-anchor="middle" class="gene-2-rna-processing-sm" style="font-size:12px;fill:var(--fig-amber)">RNA 중합 효소</text>
+  <text x="625.0" y="148.0" text-anchor="middle" class="gene-2-rna-processing-sm" style="font-size:12px;fill:var(--fig-amber)">이동 방향</text>
+  <ellipse cx="196.0" cy="186.0" rx="8.0" ry="5.5" class="gene-2-rna-processing-b-violet" style="stroke-width:1.5"/>
+  <text x="210.0" y="190.0" class="gene-2-rna-processing-sm" style="font-size:12px">리보솜</text>
+  <line x1="250.0" y1="186.0" x2="272.0" y2="186.0" class="gene-2-rna-processing-s-red" style="stroke-width:2"/>
+  <text x="278.0" y="190.0" class="gene-2-rna-processing-sm" style="font-size:12px">mRNA</text>
+  <ellipse cx="340.0" cy="186.0" rx="9.0" ry="7.0" class="gene-2-rna-processing-b-amber" style="stroke-width:1.5"/>
+  <text x="354.0" y="190.0" class="gene-2-rna-processing-sm" style="font-size:12px">RNA 중합 효소</text>
+  <g transform="translate(0,18)">
   <rect x="14.0" y="198.0" width="692.0" height="258.0" rx="8" class="gene-2-rna-processing-gray"/>
   <text x="28.0" y="224.0" class="gene-2-rna-processing-h">진핵생물 — 핵에서 전사·가공, 세포질에서 번역</text>
   <rect x="24.0" y="236.0" width="470.0" height="210.0" rx="14" class="gene-2-rna-processing-b-blue" style="opacity:0.35;stroke-dasharray:6 4"/>
@@ -105,7 +106,7 @@
   <text x="323.0" y="331.0" text-anchor="middle" class="gene-2-rna-processing-sm" style="font-size:12px">인트론</text>
   <rect x="358.0" y="316.0" width="70.0" height="20.0" rx="0" class="gene-2-rna-processing-b-blue"/>
   <text x="393.0" y="331.0" text-anchor="middle" class="gene-2-rna-processing-tx" style="font-size:12px">엑손3</text>
-  <text x="440.0" y="331.0" text-anchor="middle" class="gene-2-rna-processing-sm">처음 전사체</text>
+  <text x="400.0" y="310.0" text-anchor="middle" class="gene-2-rna-processing-sm">처음 전사체</text>
   <line x1="230.0" y1="340.0" x2="230.0" y2="359.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
   <polygon points="230.0,366.0 225.5,358.2 234.5,358.2" class="gene-2-rna-processing-ink" style="fill:var(--fig-ink)"/>
   <text x="240.0" y="358.0" class="gene-2-rna-processing-sm" style="font-size:12px">RNA 가공: 인트론 제거(스플라이싱) + 모자·꼬리</text>
@@ -124,7 +125,7 @@
   <rect x="486.0" y="360.0" width="16.0" height="60.0" rx="0" class="gene-2-rna-processing-paper" style="stroke:none;fill:var(--fig-paper)"/>
   <line x1="386.0" y1="392.0" x2="553.7" y2="392.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
   <polygon points="560.0,392.0 552.2,396.5 552.2,387.5" class="gene-2-rna-processing-ink" style="fill:var(--fig-ink)"/>
-  <text x="494.0" y="352.0" text-anchor="middle" class="gene-2-rna-processing-sm" style="font-size:12px">핵공</text>
+  <text x="494.0" y="436.0" text-anchor="middle" class="gene-2-rna-processing-sm" style="font-size:12px">핵공</text>
   <line x1="570.0" y1="392.0" x2="690.0" y2="392.0" class="gene-2-rna-processing-s-red" style="stroke-width:3"/>
   <ellipse cx="600.0" cy="383.0" rx="16.0" ry="11.0" class="gene-2-rna-processing-b-violet" style="stroke-width:1.5"/>
   <ellipse cx="650.0" cy="383.0" rx="16.0" ry="11.0" class="gene-2-rna-processing-b-violet" style="stroke-width:1.5"/>
@@ -133,4 +134,5 @@
   <text x="520.0" y="281.0" class="gene-2-rna-processing-tx" style="font-size:13px">  분리되어 있다</text>
   <text x="520.0" y="300.0" class="gene-2-rna-processing-tx" style="font-size:13px">· 인트론은 잘려 나가</text>
   <text x="520.0" y="319.0" class="gene-2-rna-processing-tx" style="font-size:13px">  성숙한 mRNA에 없다</text>
+  </g>
 </svg>

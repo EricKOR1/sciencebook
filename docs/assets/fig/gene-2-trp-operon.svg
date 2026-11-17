@@ -47,17 +47,17 @@
   <rect x="270.0" y="107.0" width="50.0" height="26.0" rx="0" class="gene-2-trp-operon-b-violet"/>
   <text x="295.0" y="152.0" text-anchor="middle" class="gene-2-trp-operon-sm" style="font-size:12px">작동 부위</text>
   <rect x="320.0" y="107.0" width="340.0" height="26.0" rx="0" class="gene-2-trp-operon-b-blue"/>
-  <text x="490.0" y="125.0" text-anchor="middle" class="gene-2-trp-operon-tx" style="font-size:13px">구조 유전자 (트립토판 합성 효소)</text>
+  <text x="540.0" y="125.0" text-anchor="middle" class="gene-2-trp-operon-tx" style="font-size:13px">구조 유전자 (트립토판 합성 효소)</text>
   <path d="M 265 76 Q 259 42 295 38 Q 331 42 325 76 Q 295 62 265 76 Z" class="gene-2-trp-operon-b-red"/>
   <text x="340.0" y="66.0" class="gene-2-trp-operon-sm" style="font-size:12px">억제 단백질(작동 부위에 못 붙음)</text>
   <line x1="100.0" y1="104.0" x2="243.3" y2="63.3" style="fill:none;stroke:var(--fig-red);stroke-width:1.5;stroke-dasharray:5 4"/>
   <polygon points="248.0,62.0 243.1,67.0 241.2,60.3" class="gene-2-trp-operon-ink" style="fill:var(--fig-red)"/>
-  <ellipse cx="400.0" cy="120.0" rx="34.0" ry="22.0" class="gene-2-trp-operon-b-amber" style="opacity:0.9"/>
-  <text x="400.0" y="125.0" text-anchor="middle" class="gene-2-trp-operon-sm" style="font-size:11px;fill:var(--fig-ink)">RNA 중합 효소</text>
-  <line x1="438.0" y1="92.0" x2="493.7" y2="92.0" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
-  <polygon points="500.0,92.0 492.2,96.5 492.2,87.5" class="gene-2-trp-operon-ink" style="fill:var(--fig-amber)"/>
-  <path d="M 330 158 Q 338 152 346 158 Q 354 164 362 158 Q 370 152 378 158 Q 386 164 394 158 Q 402 152 410 158 Q 418 164 426 158 Q 434 152 442 158 Q 450 164 458 158 Q 466 152 474 158 Q 482 164 490 158 Q 498 152 506 158 Q 514 164 522 158 Q 530 152 538 158 Q 546 164 554 158" class="gene-2-trp-operon-s-teal"/>
-  <text x="560.0" y="163.0" class="gene-2-trp-operon-sm" style="font-size:12px">mRNA → 트립토판 합성 효소 → 트립토판</text>
+  <ellipse cx="372.0" cy="120.0" rx="34.0" ry="22.0" class="gene-2-trp-operon-b-amber" style="opacity:0.9"/>
+  <text x="372.0" y="125.0" text-anchor="middle" class="gene-2-trp-operon-sm" style="font-size:11px;fill:var(--fig-ink)">RNA 중합 효소</text>
+  <line x1="410.0" y1="92.0" x2="465.7" y2="92.0" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
+  <polygon points="472.0,92.0 464.2,96.5 464.2,87.5" class="gene-2-trp-operon-ink" style="fill:var(--fig-amber)"/>
+  <path d="M 330 158 Q 338 152 346 158 Q 354 164 362 158 Q 370 152 378 158 Q 386 164 394 158 Q 402 152 410 158 Q 418 164 426 158 Q 434 152 442 158 Q 450 164 458 158 Q 466 152 474 158 Q 482 164 490 158 Q 498 152 506 158 Q 514 164 522 158" class="gene-2-trp-operon-s-teal"/>
+  <text x="530.0" y="163.0" class="gene-2-trp-operon-sm" style="font-size:12px">mRNA → 효소 → 트립토판 합성</text>
   <rect x="14.0" y="204.0" width="692.0" height="182.0" rx="8" class="gene-2-trp-operon-gray"/>
   <text x="28.0" y="230.0" class="gene-2-trp-operon-h">트립토판이 많을 때 — 전사 꺼짐</text>
   <line x1="30.0" y1="318.0" x2="690.0" y2="318.0" class="gene-2-trp-operon-ln" style="stroke-width:3;stroke:var(--fig-line)"/>

@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-gene-3-crispr d-gene-3-crispr">
+  <title id="t-gene-3-crispr">그림 생물의 유전 3-5 크리스퍼 유전자 가위(CRISPR-Cas9)가 DNA를 편집하는 과정</title>
+  <desc id="d-gene-3-crispr">가이드 RNA가 표적 DNA의 약 20개 염기와 상보적으로 결합하여 위치를 찾고, Cas9 단백질이 그 자리에서 DNA 두 가닥을 모두 자른다. 잘린 DNA를 세포가 이어 붙일 때 염기가 조금 없어지거나 끼어들면 틀 이동이 일어나 유전자 기능이 사라지고, 고친 서열의 주형 DNA를 함께 넣어 주면 그 주형대로 고쳐질 수 있다. 모식도이다.</desc>
+  <style>
+    .gene-3-crispr-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .gene-3-crispr-tx{font-size:14px;fill:var(--fig-ink)}
+    .gene-3-crispr-sm{font-size:13px;fill:var(--fig-muted)}
+    .gene-3-crispr-mono{font-size:14px;font-weight:600;fill:var(--fig-ink);letter-spacing:1px}
+    .gene-3-crispr-ln{fill:none;stroke:var(--fig-ink);stroke-width:2}
+    .gene-3-crispr-lnm{fill:none;stroke:var(--fig-line);stroke-width:1.5}
+    .gene-3-crispr-dash{fill:none;stroke:var(--fig-line);stroke-width:1.5;stroke-dasharray:5 4}
+    .gene-3-crispr-ink{fill:var(--fig-ink)}
+    .gene-3-crispr-paper{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5}
+    .gene-3-crispr-gray{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.5}
+    .gene-3-crispr-b-blue{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2}
+    .gene-3-crispr-f-blue{fill:var(--fig-blue)}
+    .gene-3-crispr-s-blue{fill:none;stroke:var(--fig-blue);stroke-width:2.5}
+    .gene-3-crispr-t-blue{fill:var(--fig-blue)}
+    .gene-3-crispr-b-red{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2}
+    .gene-3-crispr-f-red{fill:var(--fig-red)}
+    .gene-3-crispr-s-red{fill:none;stroke:var(--fig-red);stroke-width:2.5}
+    .gene-3-crispr-t-red{fill:var(--fig-red)}
+    .gene-3-crispr-b-green{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2}
+    .gene-3-crispr-f-green{fill:var(--fig-green)}
+    .gene-3-crispr-s-green{fill:none;stroke:var(--fig-green);stroke-width:2.5}
+    .gene-3-crispr-t-green{fill:var(--fig-green)}
+    .gene-3-crispr-b-amber{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+    .gene-3-crispr-f-amber{fill:var(--fig-amber)}
+    .gene-3-crispr-s-amber{fill:none;stroke:var(--fig-amber);stroke-width:2.5}
+    .gene-3-crispr-t-amber{fill:var(--fig-amber)}
+    .gene-3-crispr-b-violet{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2}
+    .gene-3-crispr-f-violet{fill:var(--fig-violet)}
+    .gene-3-crispr-s-violet{fill:none;stroke:var(--fig-violet);stroke-width:2.5}
+    .gene-3-crispr-t-violet{fill:var(--fig-violet)}
+    .gene-3-crispr-b-teal{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2}
+    .gene-3-crispr-f-teal{fill:var(--fig-teal)}
+    .gene-3-crispr-s-teal{fill:none;stroke:var(--fig-teal);stroke-width:2.5}
+    .gene-3-crispr-t-teal{fill:var(--fig-teal)}
+  </style>
+  <ellipse cx="360.0" cy="142.0" rx="175.0" ry="92.0" class="gene-3-crispr-b-violet" style="opacity:0.4"/>
+  <text x="360.0" y="228.0" text-anchor="middle" class="gene-3-crispr-tx" style="fill:var(--fig-violet);font-weight:700">Cas9 단백질</text>
+  <line x1="30.0" y1="120.0" x2="250.0" y2="120.0" class="gene-3-crispr-s-blue" style="stroke-width:3"/>
+  <line x1="470.0" y1="120.0" x2="690.0" y2="120.0" class="gene-3-crispr-s-blue" style="stroke-width:3"/>
+  <path d="M 250 120 Q 270 74 300 74 L 420 74 Q 450 74 470 120" class="gene-3-crispr-s-blue" style="stroke-width:3"/>
+  <line x1="30.0" y1="170.0" x2="690.0" y2="170.0" class="gene-3-crispr-s-teal" style="stroke-width:3"/>
+  <line x1="40.0" y1="123.0" x2="40.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="54.0" y1="123.0" x2="54.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="68.0" y1="123.0" x2="68.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="82.0" y1="123.0" x2="82.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="96.0" y1="123.0" x2="96.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="110.0" y1="123.0" x2="110.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="124.0" y1="123.0" x2="124.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="138.0" y1="123.0" x2="138.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="152.0" y1="123.0" x2="152.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="166.0" y1="123.0" x2="166.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="180.0" y1="123.0" x2="180.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="194.0" y1="123.0" x2="194.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="208.0" y1="123.0" x2="208.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="222.0" y1="123.0" x2="222.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="236.0" y1="123.0" x2="236.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="480.0" y1="123.0" x2="480.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="494.0" y1="123.0" x2="494.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="508.0" y1="123.0" x2="508.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="522.0" y1="123.0" x2="522.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="536.0" y1="123.0" x2="536.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="550.0" y1="123.0" x2="550.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="564.0" y1="123.0" x2="564.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="578.0" y1="123.0" x2="578.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="592.0" y1="123.0" x2="592.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="606.0" y1="123.0" x2="606.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="620.0" y1="123.0" x2="620.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="634.0" y1="123.0" x2="634.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="648.0" y1="123.0" x2="648.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="662.0" y1="123.0" x2="662.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="676.0" y1="123.0" x2="676.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1"/>
+  <line x1="270.0" y1="148.0" x2="450.0" y2="148.0" class="gene-3-crispr-s-red" style="stroke-width:4"/>
+  <line x1="276.0" y1="151.0" x2="276.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1.2;stroke:var(--fig-red)"/>
+  <line x1="288.0" y1="151.0" x2="288.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1.2;stroke:var(--fig-red)"/>
+  <line x1="300.0" y1="151.0" x2="300.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1.2;stroke:var(--fig-red)"/>
+  <line x1="312.0" y1="151.0" x2="312.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1.2;stroke:var(--fig-red)"/>
+  <line x1="324.0" y1="151.0" x2="324.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1.2;stroke:var(--fig-red)"/>
+  <line x1="336.0" y1="151.0" x2="336.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1.2;stroke:var(--fig-red)"/>
+  <line x1="348.0" y1="151.0" x2="348.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1.2;stroke:var(--fig-red)"/>
+  <line x1="360.0" y1="151.0" x2="360.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1.2;stroke:var(--fig-red)"/>
+  <line x1="372.0" y1="151.0" x2="372.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1.2;stroke:var(--fig-red)"/>
+  <line x1="384.0" y1="151.0" x2="384.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1.2;stroke:var(--fig-red)"/>
+  <line x1="396.0" y1="151.0" x2="396.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1.2;stroke:var(--fig-red)"/>
+  <line x1="408.0" y1="151.0" x2="408.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1.2;stroke:var(--fig-red)"/>
+  <line x1="420.0" y1="151.0" x2="420.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1.2;stroke:var(--fig-red)"/>
+  <line x1="432.0" y1="151.0" x2="432.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1.2;stroke:var(--fig-red)"/>
+  <line x1="444.0" y1="151.0" x2="444.0" y2="167.0" class="gene-3-crispr-lnm" style="stroke-width:1.2;stroke:var(--fig-red)"/>
+  <path d="M 270 148 Q 230 140 224 100 Q 220 70 250 66" class="gene-3-crispr-s-red" style="stroke-width:4"/>
+  <text x="244.0" y="58.0" text-anchor="middle" class="gene-3-crispr-tx" style="fill:var(--fig-red);font-weight:700">가이드 RNA</text>
+  <path d="M 270 182 L 270 190 L 450 190 L 450 182" class="gene-3-crispr-ln" style="stroke-width:1.5"/>
+  <text x="360.0" y="208.0" text-anchor="middle" class="gene-3-crispr-sm" style="font-size:12px">표적 서열 약 20개 염기와 상보적 결합</text>
+  <path d="M 472 108 L 464 120 L 472 132" class="gene-3-crispr-s-red" style="stroke-width:3"/>
+  <path d="M 472 158 L 464 170 L 472 182" class="gene-3-crispr-s-red" style="stroke-width:3"/>
+  <text x="494.0" y="94.0" class="gene-3-crispr-tx" style="fill:var(--fig-red);font-size:13px;font-weight:600">✂ 두 가닥 모두 자름</text>
+  <text x="30.0" y="108.0" class="gene-3-crispr-sm" style="font-size:12px">표적 DNA</text>
+  <text x="30.0" y="40.0" class="gene-3-crispr-h">① 찾아가서 자르기</text>
+  <line x1="20.0" y1="254.0" x2="700.0" y2="254.0" class="gene-3-crispr-dash"/>
+  <text x="30.0" y="282.0" class="gene-3-crispr-h">② 세포가 잘린 곳을 수선</text>
+  <rect x="40.0" y="308.0" width="270.0" height="20.0" rx="4" class="gene-3-crispr-b-blue"/>
+  <rect x="175.0" y="308.0" width="0.0" height="20.0" rx="0" class="gene-3-crispr-b-red"/>
+  <line x1="175.0" y1="302.0" x2="175.0" y2="334.0" class="gene-3-crispr-s-red" style="stroke-width:2.5"/>
+  <text x="175.0" y="298.0" text-anchor="middle" class="gene-3-crispr-sm" style="font-size:12px;fill:var(--fig-red)">염기 몇 개 결실(또는 삽입)</text>
+  <text x="40.0" y="354.0" class="gene-3-crispr-tx" style="font-size:13px">→ 틀 이동 돌연변이 → 유전자 기능 제거</text>
+  <text x="40.0" y="376.0" class="gene-3-crispr-sm" style="font-size:12px">(원하지 않는 유전자를 끄기)</text>
+  <rect x="400.0" y="308.0" width="270.0" height="20.0" rx="4" class="gene-3-crispr-b-blue"/>
+  <rect x="520.0" y="308.0" width="30.0" height="20.0" rx="0" class="gene-3-crispr-b-green"/>
+  <rect x="510.0" y="286.0" width="50.0" height="14.0" rx="3" class="gene-3-crispr-b-green"/>
+  <text x="570.0" y="298.0" class="gene-3-crispr-sm" style="font-size:12px;fill:var(--fig-green)">함께 넣은 주형 DNA</text>
+  <text x="400.0" y="354.0" class="gene-3-crispr-tx" style="font-size:13px">→ 주형대로 염기 서열이 고쳐짐(교정)</text>
+  <text x="400.0" y="376.0" class="gene-3-crispr-sm" style="font-size:12px">(돌연변이를 정상 서열로 바꾸기)</text>
+</svg>

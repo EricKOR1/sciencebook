@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-uphy-1-derivative-integral d-uphy-1-derivative-integral">
+  <title id="t-uphy-1-derivative-integral">그림 일반물리학 1-4 도함수는 접선의 기울기, 정적분은 부호 있는 넓이</title>
+  <desc id="d-uphy-1-derivative-integral">(가) x–t 그래프에서 점 P와 Q를 잇는 할선의 기울기 Δx/Δt는 Δt를 줄일수록 P에서의 접선 기울기 dx/dt에 다가간다. (나) v–t 그래프 아래를 폭 Δt인 띠로 나누어 v Δt를 모두 더하면 변위가 된다. 속도가 음수인 구간의 띠는 음수로 더해지므로 정적분은 이동 거리가 아니라 변위이다.</desc>
+  <rect x="10.0" y="10.0" width="345.0" height="320.0" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="365.0" y="10.0" width="345.0" height="320.0" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="26.0" y="36.0" style="font-size:15px;fill:var(--fig-ink);font-weight:600">(가) 할선에서 접선으로 — 미분</text>
+  <text x="381.0" y="36.0" style="font-size:15px;fill:var(--fig-ink);font-weight:600">(나) 잘게 나누어 더하기 — 적분</text>
+  <line x1="48.0" y1="290.0" x2="331.0" y2="290.0" style="stroke:var(--fig-muted);stroke-width:1.5;fill:none"/>
+  <path d="M340.0 290.0 L331.0 294.5 L331.0 285.5 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <line x1="48.0" y1="290.0" x2="48.0" y2="67.0" style="stroke:var(--fig-muted);stroke-width:1.5;fill:none"/>
+  <path d="M48.0 58.0 L52.5 67.0 L43.5 67.0 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <text x="336.0" y="310.0" text-anchor="end" style="font-size:13px;fill:var(--fig-muted)">t</text>
+  <text x="56.0" y="64.0" style="font-size:13px;fill:var(--fig-muted)">x</text>
+  <path d="M48.0 290.0 L53.6 289.9 L59.2 289.7 L64.8 289.3 L70.5 288.7 L76.1 288.0 L81.7 287.2 L87.3 286.1 L92.9 284.9 L98.5 283.6 L104.2 282.1 L109.8 280.4 L115.4 278.6 L121.0 276.6 L126.6 274.5 L132.2 272.2 L137.9 269.8 L143.5 267.1 L149.1 264.4 L154.7 261.4 L160.3 258.4 L165.9 255.1 L171.6 251.7 L177.2 248.2 L182.8 244.4 L188.4 240.6 L194.0 236.5 L199.6 232.3 L205.2 228.0 L210.9 223.5 L216.5 218.8 L222.1 214.0 L227.7 209.0 L233.3 203.9 L238.9 198.6 L244.6 193.1 L250.2 187.5 L255.8 181.7 L261.4 175.8 L267.0 169.7 L272.6 163.5 L278.3 157.0 L283.9 150.5 L289.5 143.8 L295.1 136.9 L300.7 129.8 L306.3 122.6 L312.0 115.3 L317.6 107.8 L323.2 100.1 L328.8 92.3" style="fill:none;stroke:var(--fig-ink);stroke-width:2.5"/>
+  <line x1="118.8" y1="291.6" x2="315.2" y2="114.3" style="stroke:var(--fig-line);stroke-width:2;fill:none;stroke-dasharray:6 4"/>
+  <circle cx="307.2" cy="121.5" r="4.5" style="fill:var(--fig-line);stroke:none;stroke-width:1.5"/>
+  <text x="315.2" y="126.5" style="font-size:13px;fill:var(--fig-line);font-weight:600">Q</text>
+  <line x1="118.8" y1="286.2" x2="243.2" y2="196.3" style="stroke:var(--fig-amber);stroke-width:2;fill:none;stroke-dasharray:6 4"/>
+  <circle cx="235.2" cy="202.1" r="4.5" style="fill:var(--fig-amber);stroke:none;stroke-width:1.5"/>
+  <text x="243.2" y="207.1" style="font-size:13px;fill:var(--fig-amber);font-weight:600">Q</text>
+  <line x1="88.8" y1="294.9" x2="298.8" y2="188.7" style="stroke:var(--fig-red);stroke-width:2.6;fill:none"/>
+  <circle cx="148.8" cy="264.5" r="5.0" style="fill:var(--fig-red);stroke:none;stroke-width:1.5"/>
+  <text x="144.8" y="286.5" text-anchor="end" style="font-size:14px;fill:var(--fig-red);font-weight:600">P</text>
+  <line x1="148.8" y1="264.5" x2="235.2" y2="264.5" style="stroke:var(--fig-amber);stroke-width:1.5;fill:none"/>
+  <line x1="235.2" y1="264.5" x2="235.2" y2="202.1" style="stroke:var(--fig-amber);stroke-width:1.5;fill:none"/>
+  <text x="192.0" y="282.5" text-anchor="middle" style="font-size:13px;fill:var(--fig-amber);font-weight:600">Δt</text>
+  <text x="241.2" y="245.3" style="font-size:13px;fill:var(--fig-amber);font-weight:600">Δx</text>
+  <text x="64.0" y="82.0" style="font-size:13px;fill:var(--fig-amber);font-weight:600">할선 기울기 Δx/Δt</text>
+  <text x="64.0" y="100.0" style="font-size:13px;fill:var(--fig-muted)">→ Δt → 0 이면</text>
+  <text x="64.0" y="118.0" style="font-size:13px;fill:var(--fig-red);font-weight:600">접선 기울기 dx/dt</text>
+  <text x="64.0" y="136.0" style="font-size:13px;fill:var(--fig-muted)">(그 순간의 속도)</text>
+  <line x1="400.0" y1="185.0" x2="691.0" y2="185.0" style="stroke:var(--fig-muted);stroke-width:1.5;fill:none"/>
+  <path d="M700.0 185.0 L691.0 189.5 L691.0 180.5 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <text x="696.0" y="177.0" text-anchor="end" style="font-size:13px;fill:var(--fig-muted)">t</text>
+  <line x1="400.0" y1="300.0" x2="400.0" y2="67.0" style="stroke:var(--fig-muted);stroke-width:1.5;fill:none"/>
+  <path d="M400.0 58.0 L404.5 67.0 L395.5 67.0 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <text x="408.0" y="64.0" style="font-size:13px;fill:var(--fig-muted)">v</text>
+  <rect x="400.0" y="118.3" width="42.0" height="66.7" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <rect x="442.0" y="125.4" width="42.0" height="59.6" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <rect x="484.0" y="139.7" width="42.0" height="45.3" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <rect x="526.0" y="161.2" width="42.0" height="23.8" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <rect x="568.0" y="185.0" width="42.0" height="4.8" rx="0" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.2"/>
+  <rect x="610.0" y="185.0" width="42.0" height="40.5" rx="0" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.2"/>
+  <rect x="652.0" y="185.0" width="42.0" height="83.4" rx="0" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.2"/>
+  <path d="M400.0 117.4 L404.9 117.4 L409.8 117.6 L414.7 117.8 L419.6 118.2 L424.5 118.6 L429.4 119.2 L434.3 119.8 L439.2 120.5 L444.1 121.3 L449.0 122.3 L453.9 123.3 L458.8 124.4 L463.7 125.6 L468.6 126.9 L473.5 128.3 L478.4 129.9 L483.3 131.5 L488.2 133.2 L493.1 135.0 L498.0 136.9 L502.9 138.9 L507.8 141.0 L512.7 143.1 L517.6 145.4 L522.5 147.8 L527.4 150.3 L532.3 152.9 L537.2 155.5 L542.1 158.3 L547.0 161.2 L551.9 164.2 L556.8 167.2 L561.7 170.4 L566.6 173.7 L571.5 177.0 L576.4 180.5 L581.3 184.0 L586.2 187.7 L591.1 191.4 L596.0 195.3 L600.9 199.2 L605.8 203.2 L610.7 207.4 L615.6 211.6 L620.5 215.9 L625.4 220.4 L630.3 224.9 L635.2 229.5 L640.1 234.2 L645.0 239.0 L649.9 244.0 L654.8 249.0 L659.7 254.1 L664.6 259.3 L669.5 264.6 L674.4 270.0 L679.3 275.5 L684.2 281.1 L689.1 286.8 L694.0 292.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.5"/>
+  <text x="463.0" y="161.6" text-anchor="middle" style="font-size:18px;fill:var(--fig-blue);font-weight:600">+</text>
+  <text x="647.8" y="224.0" text-anchor="middle" style="font-size:20px;fill:var(--fig-red);font-weight:600">−</text>
+  <text x="505.0" y="92.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-blue);font-weight:600">조각 하나 = v Δt</text>
+  <line x1="505.0" y1="97.0" x2="505.0" y2="135.7" style="stroke:var(--fig-blue);stroke-width:1.2;fill:none"/>
+  <text x="421.0" y="203.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-muted)">Δt</text>
+  <text x="560.0" y="262.0" style="font-size:13px;fill:var(--fig-ink)">앞으로 간 넓이(+)와</text>
+  <text x="560.0" y="280.0" style="font-size:13px;fill:var(--fig-ink)">뒤로 간 넓이(−)를 더하면</text>
+  <text x="560.0" y="298.0" style="font-size:14px;fill:var(--fig-ink);font-weight:600">∫v dt = 변위</text>
+  <text x="560.0" y="316.0" style="font-size:13px;fill:var(--fig-muted)">(이동 거리는 ∫|v| dt)</text>
+</svg>
