@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-uchem-12-decay-curve d-uchem-12-decay-curve">
+  <title id="t-uchem-12-decay-curve">그림 일반화학 12-4 방사성 붕괴 곡선과 탄소-14 연대 측정</title>
+  <desc id="d-uchem-12-decay-curve">왼쪽: 남은 원자 수(또는 방사능)의 비율은 반감기마다 절반이 되는 지수 곡선을 그린다. 아래 눈금은 탄소-14(반감기 5730년)의 경우이며, 방사능이 살아 있는 생물의 80.0 %인 시료는 약 1840년 전의 것이다(예제 4). 오른쪽: 같은 자료의 ln(N/N₀)을 시간에 대해 그리면 기울기가 −λ인 직선이 된다.</desc>
+  <style>.uchem-12-decay-curve-t{font-size:14px;fill:var(--fig-ink)} .uchem-12-decay-curve-s{font-size:13px;fill:var(--fig-muted)} .uchem-12-decay-curve-b{font-size:15px;font-weight:600;fill:var(--fig-ink)}</style>
+  <rect x="70.0" y="40.0" width="310.0" height="230.0" rx="0" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <line x1="70.0" y1="212.5" x2="380.0" y2="212.5" style="stroke:var(--fig-line);stroke-width:1;stroke-linecap:round"/>
+  <line x1="70.0" y1="155.0" x2="380.0" y2="155.0" style="stroke:var(--fig-line);stroke-width:1;stroke-linecap:round"/>
+  <line x1="70.0" y1="97.5" x2="380.0" y2="97.5" style="stroke:var(--fig-line);stroke-width:1;stroke-linecap:round"/>
+  <line x1="70.0" y1="40.0" x2="380.0" y2="40.0" style="stroke:var(--fig-line);stroke-width:1;stroke-linecap:round"/>
+  <text x="62.0" y="275.0" text-anchor="end" class="uchem-12-decay-curve-s">0</text>
+  <text x="62.0" y="217.5" text-anchor="end" class="uchem-12-decay-curve-s">25</text>
+  <text x="62.0" y="160.0" text-anchor="end" class="uchem-12-decay-curve-s">50</text>
+  <text x="62.0" y="102.5" text-anchor="end" class="uchem-12-decay-curve-s">75</text>
+  <text x="62.0" y="45.0" text-anchor="end" class="uchem-12-decay-curve-s">100</text>
+  <text x="20.0" y="26.0" class="uchem-12-decay-curve-t">N/N₀ (%)</text>
+  <line x1="70.0" y1="270.0" x2="70.0" y2="275.0" style="stroke:var(--fig-muted);stroke-width:1.4;stroke-linecap:round"/>
+  <text x="70.0" y="289.0" text-anchor="middle" class="uchem-12-decay-curve-s">0</text>
+  <text x="70.0" y="307.0" text-anchor="middle" class="uchem-12-decay-curve-s" style="fill:var(--fig-teal);font-size:12px">0</text>
+  <line x1="132.0" y1="270.0" x2="132.0" y2="275.0" style="stroke:var(--fig-muted);stroke-width:1.4;stroke-linecap:round"/>
+  <text x="132.0" y="289.0" text-anchor="middle" class="uchem-12-decay-curve-s">1</text>
+  <text x="132.0" y="307.0" text-anchor="middle" class="uchem-12-decay-curve-s" style="fill:var(--fig-teal);font-size:12px">5,730</text>
+  <line x1="194.0" y1="270.0" x2="194.0" y2="275.0" style="stroke:var(--fig-muted);stroke-width:1.4;stroke-linecap:round"/>
+  <text x="194.0" y="289.0" text-anchor="middle" class="uchem-12-decay-curve-s">2</text>
+  <text x="194.0" y="307.0" text-anchor="middle" class="uchem-12-decay-curve-s" style="fill:var(--fig-teal);font-size:12px">11,460</text>
+  <line x1="256.0" y1="270.0" x2="256.0" y2="275.0" style="stroke:var(--fig-muted);stroke-width:1.4;stroke-linecap:round"/>
+  <text x="256.0" y="289.0" text-anchor="middle" class="uchem-12-decay-curve-s">3</text>
+  <text x="256.0" y="307.0" text-anchor="middle" class="uchem-12-decay-curve-s" style="fill:var(--fig-teal);font-size:12px">17,190</text>
+  <line x1="318.0" y1="270.0" x2="318.0" y2="275.0" style="stroke:var(--fig-muted);stroke-width:1.4;stroke-linecap:round"/>
+  <text x="318.0" y="289.0" text-anchor="middle" class="uchem-12-decay-curve-s">4</text>
+  <text x="318.0" y="307.0" text-anchor="middle" class="uchem-12-decay-curve-s" style="fill:var(--fig-teal);font-size:12px">22,920</text>
+  <line x1="380.0" y1="270.0" x2="380.0" y2="275.0" style="stroke:var(--fig-muted);stroke-width:1.4;stroke-linecap:round"/>
+  <text x="380.0" y="289.0" text-anchor="middle" class="uchem-12-decay-curve-s">5</text>
+  <text x="380.0" y="307.0" text-anchor="middle" class="uchem-12-decay-curve-s" style="fill:var(--fig-teal);font-size:12px">28,650</text>
+  <text x="225.0" y="326.0" text-anchor="middle" class="uchem-12-decay-curve-s" style="fill:var(--fig-ink)">경과 시간 (반감기 수)  /  ¹⁴C의 경우 (년)</text>
+  <polyline points="70.0,40.0 73.1,47.8 76.2,55.4 79.3,62.7 82.4,69.8 85.5,76.6 88.6,83.2 91.7,89.5 94.8,95.7 97.9,101.6 101.0,107.4 104.1,112.9 107.2,118.3 110.3,123.4 113.4,128.4 116.5,133.2 119.6,137.9 122.7,142.4 125.8,146.7 128.9,150.9 132.0,155.0 135.1,158.9 138.2,162.7 141.3,166.4 144.4,169.9 147.5,173.3 150.6,176.6 153.7,179.8 156.8,182.8 159.9,185.8 163.0,188.7 166.1,191.5 169.2,194.1 172.3,196.7 175.4,199.2 178.5,201.6 181.6,203.9 184.7,206.2 187.8,208.4 190.9,210.5 194.0,212.5 197.1,214.5 200.2,216.4 203.3,218.2 206.4,219.9 209.5,221.6 212.6,223.3 215.7,224.9 218.8,226.4 221.9,227.9 225.0,229.3 228.1,230.7 231.2,232.1 234.3,233.4 237.4,234.6 240.5,235.8 243.6,237.0 246.7,238.1 249.8,239.2 252.9,240.2 256.0,241.2 259.1,242.2 262.2,243.2 265.3,244.1 268.4,245.0 271.5,245.8 274.6,246.6 277.7,247.4 280.8,248.2 283.9,249.0 287.0,249.7 290.1,250.4 293.2,251.0 296.3,251.7 299.4,252.3 302.5,252.9 305.6,253.5 308.7,254.0 311.8,254.6 314.9,255.1 318.0,255.6 321.1,256.1 324.2,256.6 327.3,257.0 330.4,257.5 333.5,257.9 336.6,258.3 339.7,258.7 342.8,259.1 345.9,259.5 349.0,259.8 352.1,260.2 355.2,260.5 358.3,260.8 361.4,261.2 364.5,261.5 367.6,261.7 370.7,262.0 373.8,262.3 376.9,262.6 380.0,262.8" style="fill:none;stroke:var(--fig-blue);stroke-width:3;stroke-linejoin:round;stroke-linecap:round"/>
+  <line x1="70.0" y1="155.0" x2="132.0" y2="155.0" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:round;stroke-dasharray:4 4"/>
+  <line x1="132.0" y1="155.0" x2="132.0" y2="270.0" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:round;stroke-dasharray:4 4"/>
+  <circle cx="132.0" cy="155.0" r="4.0" style="fill:var(--fig-blue);stroke:none;stroke-width:1"/>
+  <text x="140.0" y="147.0" class="uchem-12-decay-curve-s" style="fill:var(--fig-blue)">1/2</text>
+  <line x1="70.0" y1="212.5" x2="194.0" y2="212.5" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:round;stroke-dasharray:4 4"/>
+  <line x1="194.0" y1="212.5" x2="194.0" y2="270.0" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:round;stroke-dasharray:4 4"/>
+  <circle cx="194.0" cy="212.5" r="4.0" style="fill:var(--fig-blue);stroke:none;stroke-width:1"/>
+  <text x="202.0" y="204.5" class="uchem-12-decay-curve-s" style="fill:var(--fig-blue)">1/4</text>
+  <line x1="70.0" y1="241.2" x2="256.0" y2="241.2" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:round;stroke-dasharray:4 4"/>
+  <line x1="256.0" y1="241.2" x2="256.0" y2="270.0" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:round;stroke-dasharray:4 4"/>
+  <circle cx="256.0" cy="241.2" r="4.0" style="fill:var(--fig-blue);stroke:none;stroke-width:1"/>
+  <text x="264.0" y="233.2" class="uchem-12-decay-curve-s" style="fill:var(--fig-blue)">1/8</text>
+  <circle cx="90.0" cy="86.0" r="5.0" style="fill:var(--fig-red);stroke:none;stroke-width:1"/>
+  <line x1="90.0" y1="86.0" x2="90.0" y2="270.0" style="stroke:var(--fig-red);stroke-width:1.2;stroke-linecap:round;stroke-dasharray:3 3"/>
+  <text x="100.0" y="80.0" class="uchem-12-decay-curve-s" style="fill:var(--fig-red)">80.0 % → 약 1840년 전</text>
+  <rect x="470.0" y="40.0" width="230.0" height="230.0" rx="0" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <line x1="470.0" y1="40.0" x2="700.0" y2="40.0" style="stroke:var(--fig-line);stroke-width:1;stroke-linecap:round"/>
+  <text x="462.0" y="45.0" text-anchor="end" class="uchem-12-decay-curve-s">0</text>
+  <line x1="470.0" y1="105.7" x2="700.0" y2="105.7" style="stroke:var(--fig-line);stroke-width:1;stroke-linecap:round"/>
+  <text x="462.0" y="110.7" text-anchor="end" class="uchem-12-decay-curve-s">−1</text>
+  <line x1="470.0" y1="171.4" x2="700.0" y2="171.4" style="stroke:var(--fig-line);stroke-width:1;stroke-linecap:round"/>
+  <text x="462.0" y="176.4" text-anchor="end" class="uchem-12-decay-curve-s">−2</text>
+  <line x1="470.0" y1="237.1" x2="700.0" y2="237.1" style="stroke:var(--fig-line);stroke-width:1;stroke-linecap:round"/>
+  <text x="462.0" y="242.1" text-anchor="end" class="uchem-12-decay-curve-s">−3</text>
+  <line x1="470.0" y1="270.0" x2="470.0" y2="275.0" style="stroke:var(--fig-muted);stroke-width:1.4;stroke-linecap:round"/>
+  <text x="470.0" y="289.0" text-anchor="middle" class="uchem-12-decay-curve-s">0</text>
+  <line x1="516.0" y1="270.0" x2="516.0" y2="275.0" style="stroke:var(--fig-muted);stroke-width:1.4;stroke-linecap:round"/>
+  <text x="516.0" y="289.0" text-anchor="middle" class="uchem-12-decay-curve-s">1</text>
+  <line x1="562.0" y1="270.0" x2="562.0" y2="275.0" style="stroke:var(--fig-muted);stroke-width:1.4;stroke-linecap:round"/>
+  <text x="562.0" y="289.0" text-anchor="middle" class="uchem-12-decay-curve-s">2</text>
+  <line x1="608.0" y1="270.0" x2="608.0" y2="275.0" style="stroke:var(--fig-muted);stroke-width:1.4;stroke-linecap:round"/>
+  <text x="608.0" y="289.0" text-anchor="middle" class="uchem-12-decay-curve-s">3</text>
+  <line x1="654.0" y1="270.0" x2="654.0" y2="275.0" style="stroke:var(--fig-muted);stroke-width:1.4;stroke-linecap:round"/>
+  <text x="654.0" y="289.0" text-anchor="middle" class="uchem-12-decay-curve-s">4</text>
+  <line x1="700.0" y1="270.0" x2="700.0" y2="275.0" style="stroke:var(--fig-muted);stroke-width:1.4;stroke-linecap:round"/>
+  <text x="700.0" y="289.0" text-anchor="middle" class="uchem-12-decay-curve-s">5</text>
+  <text x="585.0" y="310.0" text-anchor="middle" class="uchem-12-decay-curve-s" style="fill:var(--fig-ink)">경과 시간 (반감기 수)</text>
+  <text x="440.0" y="26.0" class="uchem-12-decay-curve-t">ln(N/N₀)</text>
+  <line x1="470.0" y1="40.0" x2="700.0" y2="267.7" style="stroke:var(--fig-blue);stroke-width:3;stroke-linecap:round"/>
+  <text x="575.8" y="79.4" class="uchem-12-decay-curve-t" style="fill:var(--fig-blue);font-weight:600">기울기 = −λ</text>
+  <text x="575.8" y="99.4" class="uchem-12-decay-curve-s">λ = ln 2 / t₁/₂</text>
+  <text x="476.0" y="346.0" class="uchem-12-decay-curve-s"></text>
+  <text x="390.0" y="345.0" text-anchor="middle" class="uchem-12-decay-curve-s" style="fill:var(--fig-ink)">N = N₀e^(−λt),  A = λN — 붕괴는 온도·압력·화학 상태와 거의 무관한 1차 과정</text>
+</svg>

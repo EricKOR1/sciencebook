@@ -4,9 +4,9 @@
   <style>.uphy-9-parallel-wires-t{font-size:14px;fill:var(--fig-ink)} .uphy-9-parallel-wires-b{font-size:14px;fill:var(--fig-ink);font-weight:700} .uphy-9-parallel-wires-s{font-size:13px;fill:var(--fig-muted)} .uphy-9-parallel-wires-ax{stroke:var(--fig-ink);stroke-width:1.5;fill:none} .uphy-9-parallel-wires-grid{stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4;fill:none}</style>
   <rect x="8" y="8" width="344" height="314" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
   <text x="24" y="32" class="uphy-9-parallel-wires-b">(가) 같은 방향 → 인력</text>
-  <circle cx="118" cy="170" r="40" style="fill:none;stroke:var(--fig-soft-blue);stroke-width:1.6"/>
-  <circle cx="118" cy="170" r="80" style="fill:none;stroke:var(--fig-soft-blue);stroke-width:1.6"/>
-  <circle cx="118" cy="170" r="120" style="fill:none;stroke:var(--fig-soft-blue);stroke-width:1.6"/>
+  <circle cx="118" cy="170" r="40" style="fill:none;stroke:var(--fig-blue);stroke-opacity:0.45;stroke-width:1.4"/>
+  <circle cx="118" cy="170" r="80" style="fill:none;stroke:var(--fig-blue);stroke-opacity:0.45;stroke-width:1.4"/>
+  <circle cx="118" cy="170" r="120" style="fill:none;stroke:var(--fig-blue);stroke-opacity:0.45;stroke-width:1.4"/>
   <path d="M118 130 L127 126 L127 134.1 Z" style="fill:var(--fig-blue)"/>
   <path d="M118 90 L127 86 L127 94 Z" style="fill:var(--fig-blue)"/>
   <line x1="258" y1="158" x2="258" y2="117" style="stroke:var(--fig-blue);stroke-width:2.4"/>
@@ -29,9 +29,9 @@
   <text x="24" y="310" class="uphy-9-parallel-wires-s">⊙ 종이 면에서 나옴, ⊗ 들어감</text>
   <rect x="368" y="8" width="344" height="314" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
   <text x="384" y="32" class="uphy-9-parallel-wires-b">(나) 반대 방향 → 척력</text>
-  <circle cx="478" cy="170" r="40" style="fill:none;stroke:var(--fig-soft-blue);stroke-width:1.6"/>
-  <circle cx="478" cy="170" r="80" style="fill:none;stroke:var(--fig-soft-blue);stroke-width:1.6"/>
-  <circle cx="478" cy="170" r="120" style="fill:none;stroke:var(--fig-soft-blue);stroke-width:1.6"/>
+  <circle cx="478" cy="170" r="40" style="fill:none;stroke:var(--fig-blue);stroke-opacity:0.45;stroke-width:1.4"/>
+  <circle cx="478" cy="170" r="80" style="fill:none;stroke:var(--fig-blue);stroke-opacity:0.45;stroke-width:1.4"/>
+  <circle cx="478" cy="170" r="120" style="fill:none;stroke:var(--fig-blue);stroke-opacity:0.45;stroke-width:1.4"/>
   <path d="M478 130 L487 126 L487 134.1 Z" style="fill:var(--fig-blue)"/>
   <path d="M478 90 L487 86 L487 94 Z" style="fill:var(--fig-blue)"/>
   <line x1="618" y1="158" x2="618" y2="117" style="stroke:var(--fig-blue);stroke-width:2.4"/>
