@@ -36,11 +36,12 @@
   <text x="150.0" y="96.0" text-anchor="middle" class="uearth-9-carbon-cycle-b" style="fill:var(--fig-green)">광합성 약 120</text>
   <path d="M196.0 262.0 Q250.0 170.0 300.0 82.0" style="fill:none;stroke:var(--fig-muted);stroke-width:2.6"/>
   <path d="M300.0 82.0 L298.8 91.9 L292.1 88.1 Z" style="fill:var(--fig-muted)"/>
-  <text x="258.0" y="192.0" text-anchor="middle" class="uearth-9-carbon-cycle-t">호흡·분해</text>
-  <text x="258.0" y="208.0" text-anchor="middle" class="uearth-9-carbon-cycle-t">약 120</text>
+  <text x="262.0" y="214.0" class="uearth-9-carbon-cycle-t">호흡·분해</text>
+  <text x="262.0" y="230.0" class="uearth-9-carbon-cycle-t">약 120</text>
   <path d="M470.0 40.0 Q590.0 60.0 600.0 172.0" style="fill:none;stroke:var(--fig-blue);stroke-width:2.6"/>
   <path d="M600.0 172.0 L595.3 163.2 L603.1 162.5 Z" style="fill:var(--fig-blue)"/>
-  <text x="600.0" y="98.0" text-anchor="middle" class="uearth-9-carbon-cycle-b" style="fill:var(--fig-blue)">대기 → 해양 약 80</text>
+  <text x="662.0" y="112.0" text-anchor="middle" class="uearth-9-carbon-cycle-b" style="fill:var(--fig-blue)">대기 → 해양</text>
+  <text x="662.0" y="128.0" text-anchor="middle" class="uearth-9-carbon-cycle-b" style="fill:var(--fig-blue)">약 80</text>
   <path d="M540.0 174.0 Q520.0 110.0 472.0 72.0" style="fill:none;stroke:var(--fig-muted);stroke-width:2.2"/>
   <path d="M472.0 72.0 L481.6 74.7 L476.8 80.8 Z" style="fill:var(--fig-muted)"/>
   <text x="470.0" y="126.0" text-anchor="end" class="uearth-9-carbon-cycle-t">해양 → 대기</text>
@@ -50,7 +51,7 @@
   <text x="372.0" y="170.0" class="uearth-9-carbon-cycle-b" style="fill:var(--fig-red)">인위적 배출</text>
   <text x="372.0" y="188.0" class="uearth-9-carbon-cycle-b" style="fill:var(--fig-red)">약 11 GtC/년</text>
   <text x="372.0" y="206.0" class="uearth-9-carbon-cycle-s">(화석 연료+토지 이용)</text>
-  <rect x="490.0" y="300.0" width="214.0" height="112.0" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:1.4;stroke-dasharray:5 3"/>
+  <rect x="490.0" y="300.0" width="214.0" height="124.0" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:1.4;stroke-dasharray:5 3"/>
   <text x="597.0" y="322.0" text-anchor="middle" class="uearth-9-carbon-cycle-b">인위적 탄소의 행방(2010년대)</text>
   <rect x="500.0" y="340.0" width="72.0" height="14.0" style="fill:var(--fig-amber)"/>
   <text x="578.0" y="352.0" class="uearth-9-carbon-cycle-t" style="font-size:12px">대기에 남음 45 %</text>
@@ -58,7 +59,7 @@
   <text x="546.0" y="374.0" class="uearth-9-carbon-cycle-t" style="font-size:12px">해양 흡수 25 %</text>
   <rect x="500.0" y="384.0" width="48.0" height="14.0" style="fill:var(--fig-green)"/>
   <text x="554.0" y="396.0" class="uearth-9-carbon-cycle-t" style="font-size:12px">육상 생태계 흡수 30 %</text>
-  <text x="597.0" y="422.0" text-anchor="middle" class="uearth-9-carbon-cycle-s">→ 대기 CO₂ 해마다 약 2.3 ppm 증가</text>
+  <text x="597.0" y="412.0" text-anchor="middle" class="uearth-9-carbon-cycle-s">→ 대기 CO₂ 해마다 약 2.3 ppm 증가</text>
   <text x="16.0" y="410.0" class="uearth-9-carbon-cycle-s">저장고: GtC</text>
   <text x="16.0" y="428.0" class="uearth-9-carbon-cycle-s">흐름: GtC/년</text>
   <text x="16.0" y="446.0" class="uearth-9-carbon-cycle-s">상자 크기는 탄소량과 무관</text>

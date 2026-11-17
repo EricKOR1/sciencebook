@@ -54,14 +54,17 @@ Sims.register('u-mutation-translator', {
     function classify(t) {
       var diff = seq.length - ORIG.length, changed = seq.some(function (x) { return x.m || x.del; });
       if (!changed) return { type: '원래 서열', diff: '–' };
-      if (t.start !== orig.start && t.start >= 0 && diff === 0) { /* 개시 위치 이동 */ }
       var a = orig.aa, b = t.aa, same = a.join('') === b.join('') && t.stop === orig.stop;
       var firstDiff = -1;
       for (var k = 0; k < Math.max(a.length, b.length); k++) if (a[k] !== b[k]) { firstDiff = k; break; }
       var dtxt = firstDiff < 0 ? '없음' : (firstDiff + 1) + '번째: ' + (a[firstDiff] ? NAME[a[firstDiff]] : '(없음)') + ' → ' + (b[firstDiff] ? NAME[b[firstDiff]] : '종결');
       if (t.start < 0) return { type: '개시 코돈이 사라짐 — 번역 시작 불가', diff: dtxt };
       if (t.start !== orig.start && diff === 0) return { type: '개시 코돈이 바뀜 — 다른 AUG에서 시작', diff: dtxt };
-      if (same) return { type: diff === 0 ? '침묵 돌연변이 — 단백질 변화 없음' : '단백질 변화 없음(암호 부위 밖)', diff: '없음' };
+      if (same) {
+        var end = t.codons.length ? t.codons[t.codons.length - 1].i + 3 : 0, inside = false;
+        seq.forEach(function (x, k) { if ((x.m || x.del) && k >= t.start && k < end) inside = true; });
+        return { type: inside && diff === 0 ? '침묵 돌연변이 — 단백질 변화 없음' : '암호 부위 밖 — 단백질 변화 없음', diff: '없음' };
+      }
       if (diff % 3 !== 0) return { type: '틀 이동 돌연변이 — 그 뒤 아미노산이 모두 바뀜', diff: dtxt };
       if (diff !== 0) return { type: '3의 배수 ' + (diff > 0 ? '삽입' : '결실') + ' — 틀 유지, 아미노산 ' + Math.abs(diff / 3) + '개 ' + (diff > 0 ? '추가' : '제거'), diff: dtxt };
       if (b.length < a.length && a.join('').indexOf(b.join('')) === 0) return { type: '넌센스 돌연변이 — 종결 코돈이 생겨 일찍 끝남', diff: dtxt };
@@ -80,7 +83,7 @@ Sims.register('u-mutation-translator', {
       ctx.clearRect(0, 0, w, h);
       var t = translate(seq), cl = classify(t);
       rType.set(cl.type); rLen.set(t.aa.length + '개' + (t.stop ? '' : ' (종결 코돈 못 만남)')); rDiff.set(cl.diff);
-      var LW = narrow ? 44 : 78, cw = narrow ? 19 : 20;
+      var LW = narrow ? 60 : 90, cw = narrow ? 19 : 20;
       var per = Math.floor((w - LW - 8) / cw / 3) * 3;
       var nLines = Math.ceil(seq.length / per), rowH = 22, blockH = rowH * 4 + 22;
       var y0 = Math.max(6, (h - nLines * blockH) / 2 - 6);
