@@ -1,8 +1,8 @@
 # 한 권으로 잇는 과학
 
-**2022 개정 교육과정 과학 — 중학교 1학년부터 고등학교 진로 선택 과목까지 한 권으로 엮은 학습 교재**
+**중학교 1학년부터 대학 일반 과학까지 한 권으로 엮은 과학 학습 교재** (중·고등학교는 2022 개정 교육과정 기준)
 
-> 학년이 올라가도 같은 개념이 어떻게 이어지고 깊어지는지 한눈에 따라갈 수 있도록, 92개 단원을 하나의 책(웹사이트)으로 묶었다.
+> 학년이 올라가도 같은 개념이 어떻게 이어지고 깊어지는지 한눈에 따라갈 수 있도록, 140개 단원을 하나의 책(웹사이트)으로 묶었다.
 
 ## 바로 보기
 
@@ -16,10 +16,10 @@
 
 | 특징 | 내용 |
 |---|---|
-| 🎯 **교육과정에 맞춤** | 교육부 고시 제2022-33호 [별책 9] 「과학과 교육과정」의 성취기준을 단원마다 원문 그대로 싣고, 성취기준 해설의 범위를 지켰다 |
+| 🎯 **교육과정에 맞춤** | 중·고등학교 단원은 교육부 고시 제2022-33호 [별책 9] 「과학과 교육과정」의 성취기준을 원문 그대로 싣고 해설의 범위를 지켰다. 대학 일반 과학 단원은 대학 1학년 과정에서 널리 쓰이는 교재들의 공통 목차를 참고해 범위를 정하고 내용은 새로 썼다 |
 | 🔗 **개념 연계** | 단원마다 "먼저 배운 내용 → 지금 → 이어지는 내용"을 바로 오갈 수 있고, 전체 흐름은 개념 연계 지도에서 본다 |
 | 🧱 **6단계 학습 흐름** | 이전 학습 다시 보기 → 기초 다지기 → 핵심 개념 → 오개념 바로잡기 → 다음 단계로 한 걸음 더 → 생활·산업·진로 연결 |
-| 🕹️ **2D·3D 시뮬레이션 101개** | 이해하기 어려운 개념은 직접 움직여 보는 시뮬레이션으로 익힌다(분자·결정 구조, DNA, 천체의 운동 등 15개는 돌려 보는 입체 모형). 그림 209개 |
+| 🕹️ **2D·3D 시뮬레이션 193개** | 이해하기 어려운 개념은 직접 움직여 보는 시뮬레이션으로 익힌다(분자·결정 구조, DNA, 오비탈, 천체의 운동 등 21개는 돌려 보는 입체 모형). 그림 353개 |
 | ✅ **탐구 활동과 확인 문제** | 모든 단원에 탐구 활동과 정답·해설이 달린 확인 문제, 한눈에 정리, 핵심 용어 표 |
 | 📌 **이어서 학습하기** | 읽던 위치와 읽은 정도, 완료한 단원을 기기별로 기억해 다음에 이어서 볼 수 있다(기록은 그 기기의 브라우저에만 저장) |
 
@@ -31,9 +31,11 @@
 | 고등학교 공통 과목 | 통합과학1 16 · 통합과학2 15 | 31 |
 | 고등학교 일반 선택 | 물리학 3 · 화학 4 · 생명과학 3 · 지구과학 3 | 13 |
 | 고등학교 진로 선택 | 역학과 에너지 · 전자기와 양자 · 물질과 에너지 · 화학 반응의 세계 · 세포와 물질대사 · 생물의 유전 · 지구시스템과학 · 행성우주과학 | 25 |
+| 대학 일반 과학 | 일반물리학 12 · 일반화학 12 · 일반생명과학 13 · 일반지구과학 11 | 48 |
 
 - 중학교 단원의 학년 배치는 교과서(학교)에 따라 다를 수 있다.
 - 융합 선택 과목과 「과학탐구실험」은 싣지 않았다.
+- 대학 일반 과학에는 정해진 교육과정이 없다. 단원별 범위는 `tools/authoring/UNIV_GUIDE.md`에 적어 두었다.
 
 ## 목차
 
@@ -256,6 +258,84 @@
 
 </details>
 
+### 대학 일반 과학
+
+<details><summary><b>일반물리학</b> — 12개 단원</summary>
+
+| 번호 | 단원 | 웹 |
+|---|---|---|
+| 일반물리학 1 | [운동의 기술](대학_일반과학/일반물리학/uphy-1_운동의_기술.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uphy-1.html) |
+| 일반물리학 2 | [뉴턴 법칙과 그 응용](대학_일반과학/일반물리학/uphy-2_뉴턴_법칙과_그_응용.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uphy-2.html) |
+| 일반물리학 3 | [일·에너지와 운동량](대학_일반과학/일반물리학/uphy-3_일_에너지와_운동량.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uphy-3.html) |
+| 일반물리학 4 | [회전 운동과 각운동량](대학_일반과학/일반물리학/uphy-4_회전_운동과_각운동량.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uphy-4.html) |
+| 일반물리학 5 | [중력·진동·유체](대학_일반과학/일반물리학/uphy-5_중력_진동_유체.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uphy-5.html) |
+| 일반물리학 6 | [파동과 소리](대학_일반과학/일반물리학/uphy-6_파동과_소리.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uphy-6.html) |
+| 일반물리학 7 | [열과 열역학](대학_일반과학/일반물리학/uphy-7_열과_열역학.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uphy-7.html) |
+| 일반물리학 8 | [전기장과 전위](대학_일반과학/일반물리학/uphy-8_전기장과_전위.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uphy-8.html) |
+| 일반물리학 9 | [전류·회로와 자기장](대학_일반과학/일반물리학/uphy-9_전류_회로와_자기장.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uphy-9.html) |
+| 일반물리학 10 | [전자기 유도와 전자기파](대학_일반과학/일반물리학/uphy-10_전자기_유도와_전자기파.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uphy-10.html) |
+| 일반물리학 11 | [빛과 광학](대학_일반과학/일반물리학/uphy-11_빛과_광학.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uphy-11.html) |
+| 일반물리학 12 | [현대 물리](대학_일반과학/일반물리학/uphy-12_현대_물리.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uphy-12.html) |
+
+</details>
+
+<details><summary><b>일반화학</b> — 12개 단원</summary>
+
+| 번호 | 단원 | 웹 |
+|---|---|---|
+| 일반화학 1 | [물질과 화학량론](대학_일반과학/일반화학/uchem-1_물질과_화학량론.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uchem-1.html) |
+| 일반화학 2 | [기체](대학_일반과학/일반화학/uchem-2_기체.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uchem-2.html) |
+| 일반화학 3 | [열화학](대학_일반과학/일반화학/uchem-3_열화학.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uchem-3.html) |
+| 일반화학 4 | [원자의 전자 구조와 주기성](대학_일반과학/일반화학/uchem-4_원자의_전자_구조와_주기성.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uchem-4.html) |
+| 일반화학 5 | [화학 결합과 분자 구조](대학_일반과학/일반화학/uchem-5_화학_결합과_분자_구조.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uchem-5.html) |
+| 일반화학 6 | [분자 간 힘과 액체·고체·용액](대학_일반과학/일반화학/uchem-6_분자_간_힘과_액체_고체_용액.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uchem-6.html) |
+| 일반화학 7 | [화학 반응 속도론](대학_일반과학/일반화학/uchem-7_화학_반응_속도론.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uchem-7.html) |
+| 일반화학 8 | [화학 평형](대학_일반과학/일반화학/uchem-8_화학_평형.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uchem-8.html) |
+| 일반화학 9 | [산·염기와 수용액 평형](대학_일반과학/일반화학/uchem-9_산_염기와_수용액_평형.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uchem-9.html) |
+| 일반화학 10 | [화학 열역학](대학_일반과학/일반화학/uchem-10_화학_열역학.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uchem-10.html) |
+| 일반화학 11 | [전기화학](대학_일반과학/일반화학/uchem-11_전기화학.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uchem-11.html) |
+| 일반화학 12 | [핵화학·배위 화학·유기화학 개관](대학_일반과학/일반화학/uchem-12_핵화학_배위_화학_유기화학_개관.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uchem-12.html) |
+
+</details>
+
+<details><summary><b>일반생명과학</b> — 13개 단원</summary>
+
+| 번호 | 단원 | 웹 |
+|---|---|---|
+| 일반생명과학 1 | [생명의 화학](대학_일반과학/일반생명과학/ubio-1_생명의_화학.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/ubio-1.html) |
+| 일반생명과학 2 | [세포의 구조와 막 수송](대학_일반과학/일반생명과학/ubio-2_세포의_구조와_막_수송.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/ubio-2.html) |
+| 일반생명과학 3 | [물질대사·세포호흡·광합성](대학_일반과학/일반생명과학/ubio-3_물질대사_세포호흡_광합성.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/ubio-3.html) |
+| 일반생명과학 4 | [세포 신호 전달과 세포 주기](대학_일반과학/일반생명과학/ubio-4_세포_신호_전달과_세포_주기.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/ubio-4.html) |
+| 일반생명과학 5 | [감수 분열과 유전 양식](대학_일반과학/일반생명과학/ubio-5_감수_분열과_유전_양식.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/ubio-5.html) |
+| 일반생명과학 6 | [유전의 분자적 기초](대학_일반과학/일반생명과학/ubio-6_유전의_분자적_기초.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/ubio-6.html) |
+| 일반생명과학 7 | [유전자 발현 조절과 생명공학](대학_일반과학/일반생명과학/ubio-7_유전자_발현_조절과_생명공학.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/ubio-7.html) |
+| 일반생명과학 8 | [진화의 원리](대학_일반과학/일반생명과학/ubio-8_진화의_원리.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/ubio-8.html) |
+| 일반생명과학 9 | [생물 다양성](대학_일반과학/일반생명과학/ubio-9_생물_다양성.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/ubio-9.html) |
+| 일반생명과학 10 | [식물의 구조와 기능](대학_일반과학/일반생명과학/ubio-10_식물의_구조와_기능.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/ubio-10.html) |
+| 일반생명과학 11 | [동물의 구조와 기능 Ⅰ](대학_일반과학/일반생명과학/ubio-11_동물의_구조와_기능_Ⅰ.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/ubio-11.html) |
+| 일반생명과학 12 | [동물의 구조와 기능 Ⅱ](대학_일반과학/일반생명과학/ubio-12_동물의_구조와_기능_Ⅱ.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/ubio-12.html) |
+| 일반생명과학 13 | [생태학](대학_일반과학/일반생명과학/ubio-13_생태학.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/ubio-13.html) |
+
+</details>
+
+<details><summary><b>일반지구과학</b> — 11개 단원</summary>
+
+| 번호 | 단원 | 웹 |
+|---|---|---|
+| 일반지구과학 1 | [지구 시스템과 지구 물질](대학_일반과학/일반지구과학/uearth-1_지구_시스템과_지구_물질.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uearth-1.html) |
+| 일반지구과학 2 | [판구조론과 지구 내부](대학_일반과학/일반지구과학/uearth-2_판구조론과_지구_내부.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uearth-2.html) |
+| 일반지구과학 3 | [지진·화산·조산 운동](대학_일반과학/일반지구과학/uearth-3_지진_화산_조산_운동.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uearth-3.html) |
+| 일반지구과학 4 | [지표를 바꾸는 작용](대학_일반과학/일반지구과학/uearth-4_지표를_바꾸는_작용.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uearth-4.html) |
+| 일반지구과학 5 | [지질 시대와 지구의 역사](대학_일반과학/일반지구과학/uearth-5_지질_시대와_지구의_역사.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uearth-5.html) |
+| 일반지구과학 6 | [해양](대학_일반과학/일반지구과학/uearth-6_해양.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uearth-6.html) |
+| 일반지구과학 7 | [대기의 구조와 에너지·수분](대학_일반과학/일반지구과학/uearth-7_대기의_구조와_에너지_수분.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uearth-7.html) |
+| 일반지구과학 8 | [대기의 운동과 날씨](대학_일반과학/일반지구과학/uearth-8_대기의_운동과_날씨.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uearth-8.html) |
+| 일반지구과학 9 | [기후와 기후 변화](대학_일반과학/일반지구과학/uearth-9_기후와_기후_변화.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uearth-9.html) |
+| 일반지구과학 10 | [태양계](대학_일반과학/일반지구과학/uearth-10_태양계.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uearth-10.html) |
+| 일반지구과학 11 | [별과 은하, 우주](대학_일반과학/일반지구과학/uearth-11_별과_은하_우주.md) | [웹으로 보기](https://erickor1.github.io/sciencebook/uearth-11.html) |
+
+</details>
+
 ### 찾아보기·부록
 
 - [개념 연계 지도](https://erickor1.github.io/sciencebook/map.html) · [핵심 용어 사전](https://erickor1.github.io/sciencebook/glossary.html) · [시뮬레이션 모아 보기](https://erickor1.github.io/sciencebook/sims.html)
@@ -265,7 +345,7 @@
 
 | 위치 | 내용 |
 |---|---|
-| `중학교/`, `통합과학1/`, `통합과학2/`, `고등학교_일반선택/`, `고등학교_진로선택/` | 단원 원고(Markdown) |
+| `중학교/`, `통합과학1/`, `통합과학2/`, `고등학교_일반선택/`, `고등학교_진로선택/`, `대학_일반과학/` | 단원 원고(Markdown) |
 | `docs/` | 웹사이트(GitHub Pages가 이 폴더를 그대로 보여 준다) |
 | `docs/assets/fig/`, `docs/assets/js/sims/` | 그림(SVG)과 시뮬레이션 |
 | `tools/` | 원고를 웹사이트로 바꾸는 도구와 집필·검토 지침(`tools/authoring/`) |
