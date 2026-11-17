@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-uchem-6-raoult-deviation d-uchem-6-raoult-deviation">
+  <title id="t-uchem-6-raoult-deviation">그림 일반화학 6-3 라울 법칙과 이상 용액에서 벗어남</title>
+  <desc id="d-uchem-6-raoult-deviation">두 휘발성 액체 A, B 혼합물의 증기 압력을 A의 몰 분율에 대해 그린 모식도. 이상 용액은 각 성분의 부분 압력(파랑 A, 주황 B)과 전체 증기 압력(굵은 선)이 모두 직선이다. A–B 사이 힘이 A–A, B–B보다 약하면 증기 압력이 라울 법칙(점선)보다 커지고(양의 벗어남), 더 강하면 작아진다(음의 벗어남).</desc>
+  <style>
+    .uchem-6-rl-ax{stroke:var(--fig-ink);stroke-width:1.2;fill:none}
+    .uchem-6-rl-id{stroke:var(--fig-muted);stroke-width:1.2;fill:none;stroke-dasharray:5 4}
+    .uchem-6-rl-tot{stroke:var(--fig-accent);stroke-width:2.6;fill:none}
+    .uchem-6-rl-pa{stroke:var(--fig-blue);stroke-width:1.8;fill:none}
+    .uchem-6-rl-pb{stroke:var(--fig-amber);stroke-width:1.8;fill:none}
+    .uchem-6-rl-t{font-size:13px;fill:var(--fig-ink)}
+    .uchem-6-rl-h{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .uchem-6-rl-s{font-size:13px;fill:var(--fig-muted)}
+  </style>
+  <text x="150.0" y="34" text-anchor="middle" class="uchem-6-rl-h">이상 용액</text>
+  <text x="150.0" y="54" text-anchor="middle" class="uchem-6-rl-s">예: 벤젠–톨루엔</text>
+  <path d="M60 64 L60 270 L240 270 L240 64" class="uchem-6-rl-ax"/>
+  <path d="M60 207.9 L240 132.1" class="uchem-6-rl-id"/>
+  <path d="M60 270 L63 267.7 L66 265.4 L69 263.1 L72 260.8 L75 258.5 L78 256.2 L81 253.9 L84 251.6 L87 249.3 L90 247 L93 244.7 L96 242.4 L99 240.1 L102 237.8 L105 235.5 L108 233.2 L111 230.9 L114 228.6 L117 226.3 L120 224 L123 221.7 L126 219.4 L129 217.1 L132 214.8 L135 212.5 L138 210.2 L141 207.9 L144 205.6 L147 203.3 L150 201 L153 198.7 L156 196.4 L159 194.1 L162 191.8 L165 189.5 L168 187.2 L171 184.9 L174 182.6 L177 180.3 L180 178 L183 175.7 L186 173.4 L189 171.1 L192 168.9 L195 166.6 L198 164.3 L201 162 L204 159.7 L207 157.4 L210 155.1 L213 152.8 L216 150.5 L219 148.2 L222 145.9 L225 143.6 L228 141.3 L231 139 L234 136.7 L237 134.4 L240 132.1" class="uchem-6-rl-pa"/>
+  <path d="M60 207.9 L63 209 L66 210 L69 211 L72 212.1 L75 213.1 L78 214.1 L81 215.2 L84 216.2 L87 217.2 L90 218.3 L93 219.3 L96 220.3 L99 221.4 L102 222.4 L105 223.4 L108 224.5 L111 225.5 L114 226.6 L117 227.6 L120 228.6 L123 229.7 L126 230.7 L129 231.7 L132 232.8 L135 233.8 L138 234.8 L141 235.9 L144 236.9 L147 237.9 L150 239 L153 240 L156 241 L159 242.1 L162 243.1 L165 244.1 L168 245.2 L171 246.2 L174 247.2 L177 248.3 L180 249.3 L183 250.3 L186 251.4 L189 252.4 L192 253.4 L195 254.5 L198 255.5 L201 256.6 L204 257.6 L207 258.6 L210 259.7 L213 260.7 L216 261.7 L219 262.8 L222 263.8 L225 264.8 L228 265.9 L231 266.9 L234 267.9 L237 269 L240 270" class="uchem-6-rl-pb"/>
+  <path d="M60 207.9 L63 206.7 L66 205.4 L69 204.1 L72 202.9 L75 201.6 L78 200.3 L81 199.1 L84 197.8 L87 196.6 L90 195.3 L93 194 L96 192.8 L99 191.5 L102 190.2 L105 189 L108 187.7 L111 186.4 L114 185.2 L117 183.9 L120 182.6 L123 181.4 L126 180.1 L129 178.9 L132 177.6 L135 176.3 L138 175.1 L141 173.8 L144 172.5 L147 171.3 L150 170 L153 168.7 L156 167.5 L159 166.2 L162 164.9 L165 163.7 L168 162.4 L171 161.1 L174 159.9 L177 158.6 L180 157.4 L183 156.1 L186 154.8 L189 153.6 L192 152.3 L195 151 L198 149.8 L201 148.5 L204 147.2 L207 146 L210 144.7 L213 143.4 L216 142.2 L219 140.9 L222 139.7 L225 138.4 L228 137.1 L231 135.9 L234 134.6 L237 133.3 L240 132.1" class="uchem-6-rl-tot"/>
+  <text x="60" y="288" text-anchor="middle" class="uchem-6-rl-s">0</text>
+  <text x="240" y="288" text-anchor="middle" class="uchem-6-rl-s">1</text>
+  <text x="150.0" y="290" text-anchor="middle" class="uchem-6-rl-t">A의 몰 분율 X<tspan dy="3" style="font-size:10px">A</tspan></text>
+  <text x="54" y="211.9" text-anchor="end" class="uchem-6-rl-s">P°<tspan dy="3" style="font-size:10px">B</tspan></text>
+  <text x="234" y="124.1" text-anchor="end" class="uchem-6-rl-s">P°<tspan dy="3" style="font-size:10px">A</tspan></text>
+  <text x="380.0" y="34" text-anchor="middle" class="uchem-6-rl-h">양의 벗어남</text>
+  <text x="380.0" y="54" text-anchor="middle" class="uchem-6-rl-s">예: 에탄올–헥세인</text>
+  <path d="M290 64 L290 270 L470 270 L470 64" class="uchem-6-rl-ax"/>
+  <path d="M290 207.9 L470 132.1" class="uchem-6-rl-id"/>
+  <path d="M290 270 L470 132.1" class="uchem-6-rl-id"/>
+  <path d="M290 207.9 L470 270" class="uchem-6-rl-id"/>
+  <path d="M290 270 L293 264.5 L296 259.3 L299 254.5 L302 249.9 L305 245.5 L308 241.4 L311 237.5 L314 233.8 L317 230.4 L320 227.1 L323 223.9 L326 220.9 L329 218.1 L332 215.4 L335 212.8 L338 210.3 L341 208 L344 205.7 L347 203.5 L350 201.4 L353 199.4 L356 197.4 L359 195.5 L362 193.7 L365 191.9 L368 190.2 L371 188.5 L374 186.9 L377 185.2 L380 183.6 L383 182.1 L386 180.5 L389 179 L392 177.4 L395 175.9 L398 174.4 L401 172.9 L404 171.4 L407 169.9 L410 168.4 L413 166.8 L416 165.3 L419 163.7 L422 162.2 L425 160.6 L428 158.9 L431 157.3 L434 155.6 L437 153.9 L440 152.1 L443 150.4 L446 148.5 L449 146.7 L452 144.7 L455 142.8 L458 140.7 L461 138.7 L464 136.5 L467 134.3 L470 132.1" class="uchem-6-rl-pa"/>
+  <path d="M290 207.9 L293 209 L296 209.9 L299 210.9 L302 211.8 L305 212.7 L308 213.6 L311 214.5 L314 215.3 L317 216.2 L320 217 L323 217.8 L326 218.5 L329 219.3 L332 220 L335 220.8 L338 221.5 L341 222.2 L344 222.9 L347 223.6 L350 224.3 L353 225 L356 225.6 L359 226.3 L362 227 L365 227.7 L368 228.4 L371 229 L374 229.7 L377 230.4 L380 231.1 L383 231.9 L386 232.6 L389 233.3 L392 234.1 L395 234.9 L398 235.7 L401 236.5 L404 237.3 L407 238.2 L410 239.1 L413 240.1 L416 241.1 L419 242.1 L422 243.1 L425 244.3 L428 245.4 L431 246.6 L434 247.9 L437 249.3 L440 250.7 L443 252.2 L446 253.7 L449 255.4 L452 257.1 L455 259 L458 260.9 L461 263 L464 265.2 L467 267.5 L470 270" class="uchem-6-rl-pb"/>
+  <path d="M290 207.9 L293 203.5 L296 199.3 L299 195.4 L302 191.7 L305 188.3 L308 185 L311 182 L314 179.2 L317 176.5 L320 174 L323 171.7 L326 169.5 L329 167.4 L332 165.4 L335 163.5 L338 161.8 L341 160.1 L344 158.6 L347 157.1 L350 155.7 L353 154.3 L356 153.1 L359 151.9 L362 150.7 L365 149.6 L368 148.6 L371 147.5 L374 146.6 L377 145.7 L380 144.8 L383 143.9 L386 143.1 L389 142.3 L392 141.5 L395 140.8 L398 140.1 L401 139.4 L404 138.8 L407 138.1 L410 137.5 L413 136.9 L416 136.4 L419 135.8 L422 135.3 L425 134.8 L428 134.4 L431 133.9 L434 133.5 L437 133.2 L440 132.8 L443 132.5 L446 132.3 L449 132 L452 131.9 L455 131.8 L458 131.7 L461 131.7 L464 131.7 L467 131.9 L470 132.1" class="uchem-6-rl-tot"/>
+  <text x="290" y="288" text-anchor="middle" class="uchem-6-rl-s">0</text>
+  <text x="470" y="288" text-anchor="middle" class="uchem-6-rl-s">1</text>
+  <text x="380.0" y="290" text-anchor="middle" class="uchem-6-rl-t">A의 몰 분율 X<tspan dy="3" style="font-size:10px">A</tspan></text>
+  <text x="284" y="211.9" text-anchor="end" class="uchem-6-rl-s">P°<tspan dy="3" style="font-size:10px">B</tspan></text>
+  <text x="464" y="124.1" text-anchor="end" class="uchem-6-rl-s">P°<tspan dy="3" style="font-size:10px">A</tspan></text>
+  <text x="610.0" y="34" text-anchor="middle" class="uchem-6-rl-h">음의 벗어남</text>
+  <text x="610.0" y="54" text-anchor="middle" class="uchem-6-rl-s">예: 아세톤–클로로폼</text>
+  <path d="M520 64 L520 270 L700 270 L700 64" class="uchem-6-rl-ax"/>
+  <path d="M520 207.9 L700 132.1" class="uchem-6-rl-id"/>
+  <path d="M520 270 L700 132.1" class="uchem-6-rl-id"/>
+  <path d="M520 207.9 L700 270" class="uchem-6-rl-id"/>
+  <path d="M520 270 L523 268.9 L526 267.8 L529 266.6 L532 265.4 L535 264.1 L538 262.8 L541 261.4 L544 259.9 L547 258.4 L550 256.8 L553 255.2 L556 253.5 L559 251.7 L562 249.9 L565 248 L568 246.1 L571 244.1 L574 242 L577 239.9 L580 237.8 L583 235.6 L586 233.3 L589 231 L592 228.6 L595 226.2 L598 223.8 L601 221.3 L604 218.7 L607 216.2 L610 213.5 L613 210.9 L616 208.2 L619 205.5 L622 202.7 L625 200 L628 197.2 L631 194.4 L634 191.6 L637 188.7 L640 185.9 L643 183 L646 180.2 L649 177.3 L652 174.4 L655 171.6 L658 168.8 L661 165.9 L664 163.1 L667 160.3 L670 157.6 L673 154.9 L676 152.1 L679 149.5 L682 146.9 L685 144.3 L688 141.7 L691 139.2 L694 136.8 L697 134.4 L700 132.1" class="uchem-6-rl-pa"/>
+  <path d="M520 207.9 L523 209 L526 210.1 L529 211.2 L532 212.3 L535 213.4 L538 214.6 L541 215.8 L544 217 L547 218.2 L550 219.4 L553 220.7 L556 221.9 L559 223.2 L562 224.4 L565 225.7 L568 227 L571 228.3 L574 229.6 L577 230.9 L580 232.1 L583 233.4 L586 234.7 L589 236 L592 237.2 L595 238.5 L598 239.7 L601 241 L604 242.2 L607 243.4 L610 244.6 L613 245.8 L616 246.9 L619 248.1 L622 249.2 L625 250.3 L628 251.4 L631 252.4 L634 253.5 L637 254.5 L640 255.5 L643 256.5 L646 257.4 L649 258.3 L652 259.2 L655 260.1 L658 261 L661 261.8 L664 262.6 L667 263.3 L670 264.1 L673 264.8 L676 265.5 L679 266.1 L682 266.8 L685 267.4 L688 267.9 L691 268.5 L694 269 L697 269.5 L700 270" class="uchem-6-rl-pb"/>
+  <path d="M520 207.9 L523 207.9 L526 207.9 L529 207.8 L532 207.7 L535 207.6 L538 207.4 L541 207.1 L544 206.9 L547 206.6 L550 206.2 L553 205.8 L556 205.4 L559 204.9 L562 204.3 L565 203.7 L568 203.1 L571 202.4 L574 201.6 L577 200.8 L580 199.9 L583 199 L586 198 L589 197 L592 195.9 L595 194.7 L598 193.5 L601 192.2 L604 190.9 L607 189.6 L610 188.1 L613 186.7 L616 185.1 L619 183.6 L622 181.9 L625 180.3 L628 178.6 L631 176.8 L634 175 L637 173.2 L640 171.4 L643 169.5 L646 167.6 L649 165.6 L652 163.7 L655 161.7 L658 159.7 L661 157.7 L664 155.7 L667 153.7 L670 151.6 L673 149.6 L676 147.6 L679 145.6 L682 143.6 L685 141.6 L688 139.7 L691 137.7 L694 135.8 L697 133.9 L700 132.1" class="uchem-6-rl-tot"/>
+  <text x="520" y="288" text-anchor="middle" class="uchem-6-rl-s">0</text>
+  <text x="700" y="288" text-anchor="middle" class="uchem-6-rl-s">1</text>
+  <text x="610.0" y="290" text-anchor="middle" class="uchem-6-rl-t">A의 몰 분율 X<tspan dy="3" style="font-size:10px">A</tspan></text>
+  <text x="514" y="211.9" text-anchor="end" class="uchem-6-rl-s">P°<tspan dy="3" style="font-size:10px">B</tspan></text>
+  <text x="694" y="124.1" text-anchor="end" class="uchem-6-rl-s">P°<tspan dy="3" style="font-size:10px">A</tspan></text>
+  <text x="24" y="170.0" text-anchor="middle" transform="rotate(-90 24 170.0)" class="uchem-6-rl-s">증기 압력</text>
+  <line x1="90" y1="324" x2="120" y2="324" class="uchem-6-rl-tot"/><text x="126" y="329" class="uchem-6-rl-t">전체 증기 압력</text>
+  <line x1="250" y1="324" x2="280" y2="324" class="uchem-6-rl-pa"/><text x="286" y="329" class="uchem-6-rl-t">A의 부분 압력</text>
+  <line x1="400" y1="324" x2="430" y2="324" class="uchem-6-rl-pb"/><text x="436" y="329" class="uchem-6-rl-t">B의 부분 압력</text>
+  <line x1="550" y1="324" x2="580" y2="324" class="uchem-6-rl-id"/><text x="586" y="329" class="uchem-6-rl-t">라울 법칙</text>
+  <text x="360" y="354" text-anchor="middle" class="uchem-6-rl-s">A–B 인력이 약하면 분자가 쉽게 빠져나가 위로(흡열 혼합), 강하면 붙잡혀 아래로(발열 혼합) 벗어난다</text>
+</svg>

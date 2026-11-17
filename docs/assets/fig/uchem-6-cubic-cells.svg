@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-uchem-6-cubic-cells d-uchem-6-cubic-cells">
+  <title id="t-uchem-6-cubic-cells">그림 일반화학 6-1 세 가지 입방 단위 세포</title>
+  <desc id="d-uchem-6-cubic-cells">단순 입방은 꼭짓점에만, 체심 입방은 꼭짓점과 중심에, 면심 입방은 꼭짓점과 여섯 면의 중심에 원자가 있다. 꼭짓점 원자는 8개 세포가, 면의 원자는 2개 세포가 나누어 가지므로 세포당 원자 수는 1, 2, 4개이다. 빨간 선은 원자가 서로 닿는 방향이다. 원자 크기는 위치가 보이도록 줄여 그린 모식도이다.</desc>
+  <style>
+    .uchem-6-cc-e{stroke:var(--fig-ink);stroke-width:1.4;fill:none}
+    .uchem-6-cc-eh{stroke:var(--fig-line);stroke-width:1.2;fill:none;stroke-dasharray:4 3}
+    .uchem-6-cc-c{fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:1}
+    .uchem-6-cc-f{fill:var(--fig-green);stroke:var(--fig-ink);stroke-width:1}
+    .uchem-6-cc-b{fill:var(--fig-amber);stroke:var(--fig-ink);stroke-width:1}
+    .uchem-6-cc-t{font-size:14px;fill:var(--fig-ink)}
+    .uchem-6-cc-h{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .uchem-6-cc-s{font-size:13px;fill:var(--fig-muted)}
+    .uchem-6-cc-k{stroke:var(--fig-red);stroke-width:2.4;fill:none}
+  </style>
+  <line x1="40" y1="220" x2="160" y2="220" class="uchem-6-cc-e"/>
+  <line x1="40" y1="220" x2="40" y2="100" class="uchem-6-cc-e"/>
+  <line x1="40" y1="220" x2="82" y2="194" class="uchem-6-cc-eh"/>
+  <line x1="160" y1="220" x2="160" y2="100" class="uchem-6-cc-e"/>
+  <line x1="160" y1="220" x2="202" y2="194" class="uchem-6-cc-e"/>
+  <line x1="40" y1="100" x2="160" y2="100" class="uchem-6-cc-e"/>
+  <line x1="40" y1="100" x2="82" y2="74" class="uchem-6-cc-e"/>
+  <line x1="160" y1="100" x2="202" y2="74" class="uchem-6-cc-e"/>
+  <line x1="82" y1="194" x2="202" y2="194" class="uchem-6-cc-eh"/>
+  <line x1="82" y1="194" x2="82" y2="74" class="uchem-6-cc-eh"/>
+  <line x1="202" y1="194" x2="202" y2="74" class="uchem-6-cc-e"/>
+  <line x1="82" y1="74" x2="202" y2="74" class="uchem-6-cc-e"/>
+  <line x1="40" y1="220" x2="160" y2="220" class="uchem-6-cc-k"/>
+  <circle cx="82" cy="194" r="10" class="uchem-6-cc-c"/>
+  <circle cx="202" cy="194" r="10" class="uchem-6-cc-c"/>
+  <circle cx="82" cy="74" r="10" class="uchem-6-cc-c"/>
+  <circle cx="202" cy="74" r="10" class="uchem-6-cc-c"/>
+  <circle cx="40" cy="220" r="10" class="uchem-6-cc-c"/>
+  <circle cx="160" cy="220" r="10" class="uchem-6-cc-c"/>
+  <circle cx="40" cy="100" r="10" class="uchem-6-cc-c"/>
+  <circle cx="160" cy="100" r="10" class="uchem-6-cc-c"/>
+  <text x="121" y="34" text-anchor="middle" class="uchem-6-cc-h">단순 입방</text>
+  <text x="121" y="262" text-anchor="middle" class="uchem-6-cc-t">원자 수 8 × 1/8 = 1</text>
+  <text x="121" y="284" text-anchor="middle" class="uchem-6-cc-t">배위수 6 · 쌓임 효율 52 %</text>
+  <text x="121" y="306" text-anchor="middle" class="uchem-6-cc-t" style="fill:var(--fig-red)">a = 2r</text>
+  <line x1="276" y1="220" x2="396" y2="220" class="uchem-6-cc-e"/>
+  <line x1="276" y1="220" x2="276" y2="100" class="uchem-6-cc-e"/>
+  <line x1="276" y1="220" x2="318" y2="194" class="uchem-6-cc-eh"/>
+  <line x1="396" y1="220" x2="396" y2="100" class="uchem-6-cc-e"/>
+  <line x1="396" y1="220" x2="438" y2="194" class="uchem-6-cc-e"/>
+  <line x1="276" y1="100" x2="396" y2="100" class="uchem-6-cc-e"/>
+  <line x1="276" y1="100" x2="318" y2="74" class="uchem-6-cc-e"/>
+  <line x1="396" y1="100" x2="438" y2="74" class="uchem-6-cc-e"/>
+  <line x1="318" y1="194" x2="438" y2="194" class="uchem-6-cc-eh"/>
+  <line x1="318" y1="194" x2="318" y2="74" class="uchem-6-cc-eh"/>
+  <line x1="438" y1="194" x2="438" y2="74" class="uchem-6-cc-e"/>
+  <line x1="318" y1="74" x2="438" y2="74" class="uchem-6-cc-e"/>
+  <line x1="276" y1="220" x2="438" y2="74" class="uchem-6-cc-k"/>
+  <circle cx="318" cy="194" r="10" class="uchem-6-cc-c"/>
+  <circle cx="438" cy="194" r="10" class="uchem-6-cc-c"/>
+  <circle cx="318" cy="74" r="10" class="uchem-6-cc-c"/>
+  <circle cx="438" cy="74" r="10" class="uchem-6-cc-c"/>
+  <circle cx="357" cy="147" r="12" class="uchem-6-cc-b"/>
+  <circle cx="276" cy="220" r="10" class="uchem-6-cc-c"/>
+  <circle cx="396" cy="220" r="10" class="uchem-6-cc-c"/>
+  <circle cx="276" cy="100" r="10" class="uchem-6-cc-c"/>
+  <circle cx="396" cy="100" r="10" class="uchem-6-cc-c"/>
+  <text x="357" y="34" text-anchor="middle" class="uchem-6-cc-h">체심 입방</text>
+  <text x="357" y="262" text-anchor="middle" class="uchem-6-cc-t">원자 수 8 × 1/8 + 1 = 2</text>
+  <text x="357" y="284" text-anchor="middle" class="uchem-6-cc-t">배위수 8 · 쌓임 효율 68 %</text>
+  <text x="357" y="306" text-anchor="middle" class="uchem-6-cc-t" style="fill:var(--fig-red)">√3 a = 4r</text>
+  <line x1="512" y1="220" x2="632" y2="220" class="uchem-6-cc-e"/>
+  <line x1="512" y1="220" x2="512" y2="100" class="uchem-6-cc-e"/>
+  <line x1="512" y1="220" x2="554" y2="194" class="uchem-6-cc-eh"/>
+  <line x1="632" y1="220" x2="632" y2="100" class="uchem-6-cc-e"/>
+  <line x1="632" y1="220" x2="674" y2="194" class="uchem-6-cc-e"/>
+  <line x1="512" y1="100" x2="632" y2="100" class="uchem-6-cc-e"/>
+  <line x1="512" y1="100" x2="554" y2="74" class="uchem-6-cc-e"/>
+  <line x1="632" y1="100" x2="674" y2="74" class="uchem-6-cc-e"/>
+  <line x1="554" y1="194" x2="674" y2="194" class="uchem-6-cc-eh"/>
+  <line x1="554" y1="194" x2="554" y2="74" class="uchem-6-cc-eh"/>
+  <line x1="674" y1="194" x2="674" y2="74" class="uchem-6-cc-e"/>
+  <line x1="554" y1="74" x2="674" y2="74" class="uchem-6-cc-e"/>
+  <line x1="512" y1="220" x2="632" y2="100" class="uchem-6-cc-k"/>
+  <circle cx="554" cy="194" r="10" class="uchem-6-cc-c"/>
+  <circle cx="674" cy="194" r="10" class="uchem-6-cc-c"/>
+  <circle cx="554" cy="74" r="10" class="uchem-6-cc-c"/>
+  <circle cx="674" cy="74" r="10" class="uchem-6-cc-c"/>
+  <circle cx="614" cy="134" r="10" class="uchem-6-cc-f"/>
+  <circle cx="593" cy="207" r="10" class="uchem-6-cc-f"/>
+  <circle cx="593" cy="87" r="10" class="uchem-6-cc-f"/>
+  <circle cx="533" cy="147" r="10" class="uchem-6-cc-f"/>
+  <circle cx="653" cy="147" r="10" class="uchem-6-cc-f"/>
+  <circle cx="512" cy="220" r="10" class="uchem-6-cc-c"/>
+  <circle cx="632" cy="220" r="10" class="uchem-6-cc-c"/>
+  <circle cx="512" cy="100" r="10" class="uchem-6-cc-c"/>
+  <circle cx="632" cy="100" r="10" class="uchem-6-cc-c"/>
+  <circle cx="572" cy="160" r="10" class="uchem-6-cc-f"/>
+  <text x="593" y="34" text-anchor="middle" class="uchem-6-cc-h">면심 입방</text>
+  <text x="593" y="262" text-anchor="middle" class="uchem-6-cc-t">원자 수 8 × 1/8 + 6 × 1/2 = 4</text>
+  <text x="593" y="284" text-anchor="middle" class="uchem-6-cc-t">배위수 12 · 쌓임 효율 74 %</text>
+  <text x="593" y="306" text-anchor="middle" class="uchem-6-cc-t" style="fill:var(--fig-red)">√2 a = 4r</text>
+  <circle cx="120" cy="352" r="9" class="uchem-6-cc-c"/><text x="136" y="357" class="uchem-6-cc-s">꼭짓점: 1/8씩</text>
+  <circle cx="286" cy="352" r="9" class="uchem-6-cc-f"/><text x="302" y="357" class="uchem-6-cc-s">면 중심: 1/2씩</text>
+  <circle cx="452" cy="352" r="9" class="uchem-6-cc-b"/><text x="468" y="357" class="uchem-6-cc-s">세포 중심: 1개 전부</text>
+  <text x="360" y="386" text-anchor="middle" class="uchem-6-cc-s">빨간 선: 원자가 서로 닿는 방향(모서리 · 몸 대각선 · 면 대각선)</text>
+</svg>

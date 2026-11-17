@@ -138,7 +138,7 @@ Sims.register('u-crystal-field', {
       // 읽기
       rS.set('t2g' + sup(c.nt) + ' eg' + sup(c.ne));
       rN.set(c.unp + '개 / ' + Math.sqrt(c.unp * (c.unp + 2)).toFixed(2) + ' μB' + (c.unp ? ' (상자기성)' : ' (반자기성)'));
-      var cf = c.cfse;
+      var cf = Math.round(c.cfse * 10) / 10;
       rE.set((cf === 0 ? '0' : (cf < 0 ? '−' : '+') + Math.abs(cf).toFixed(1) + 'Δo') + ' = ' + Math.round(cf * st.D) + ' kJ/mol');
       rL.set(noDD ? '무색' : vis ? Math.round(lam) + ' nm → ' + (seen(lam) ? seen(lam)[0] : '') : (lam < 380 ? '자외선' : '적외선') + ' 영역');
     }

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 450" role="img" aria-labelledby="t-uearth-9-feedbacks d-uearth-9-feedbacks">
+  <title id="t-uearth-9-feedbacks">그림 일반지구과학 9-1 기후 되먹임 고리와 크기</title>
+  <desc id="d-uearth-9-feedbacks">복사 강제력으로 기온이 오르면 네 가지 되먹임이 작동한다. 플랑크 되먹임(장파 방출 증가, 약 −3.2 W/(m²·K))은 변화를 줄이는 음의 되먹임이고, 수증기·기온 감률(+1.3), 얼음–반사율(+0.35), 구름(+0.4, 불확실성이 가장 큼)은 변화를 키우는 양의 되먹임이다. 합계 약 −1.2 W/(m²·K)로 음수이므로 기후는 새 평형에 이르지만, 온난화는 플랑크 반응만 있을 때의 약 2.5배가 된다.</desc>
+  <style>
+    .uearth-9-feedbacks-h{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .uearth-9-feedbacks-t{font-size:13px;fill:var(--fig-ink)}
+    .uearth-9-feedbacks-b{font-size:13px;font-weight:600;fill:var(--fig-ink)}
+    .uearth-9-feedbacks-s{font-size:13px;fill:var(--fig-muted)}
+    .uearth-9-feedbacks-ax{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .uearth-9-feedbacks-grid{fill:none;stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 4}
+  </style>
+  <rect x="270.0" y="14.0" width="180.0" height="46.0" rx="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6"/>
+  <text x="360.0" y="34.0" text-anchor="middle" class="uearth-9-feedbacks-b" style="fill:var(--fig-amber)">복사 강제력</text>
+  <text x="360.0" y="52.0" text-anchor="middle" class="uearth-9-feedbacks-t">ΔF (CO₂ 2배 ≈ 3.7 W/m²)</text>
+  <rect x="285.0" y="176.0" width="150.0" height="58.0" rx="8" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6"/>
+  <text x="360.0" y="196.0" text-anchor="middle" class="uearth-9-feedbacks-b" style="fill:var(--fig-red)">지구 기온 상승</text>
+  <text x="360.0" y="214.0" text-anchor="middle" class="uearth-9-feedbacks-t">ΔT</text>
+  <line x1="360.0" y1="60.0" x2="360.0" y2="165.0" style="stroke:var(--fig-amber);stroke-width:2.6"/>
+  <path d="M360.0 174.0 L364.5 165.0 L355.5 165.0 Z" style="fill:var(--fig-amber)"/>
+  <rect x="16.0" y="70.0" width="230.0" height="96.0" rx="8" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
+  <text x="131.0" y="90.0" text-anchor="middle" class="uearth-9-feedbacks-b" style="fill:var(--fig-blue)">플랑크 되먹임</text>
+  <text x="131.0" y="108.0" text-anchor="middle" class="uearth-9-feedbacks-t">따뜻할수록 σT⁴로</text>
+  <text x="131.0" y="125.0" text-anchor="middle" class="uearth-9-feedbacks-t">장파를 더 많이 방출</text>
+  <text x="131.0" y="142.0" text-anchor="middle" class="uearth-9-feedbacks-t">−3.2 W/(m²·K)</text>
+  <path d="M285.0 188.0 Q265.5 150.0 246.0 104.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.8"/>
+  <path d="M246.0 104.0 L253.2 111.0 L246.0 114.0 Z" style="fill:var(--fig-muted)"/>
+  <path d="M246.0 132.0 Q265.5 189.0 285.0 206.0" style="fill:none;stroke:var(--fig-blue);stroke-width:2.4"/>
+  <path d="M285.0 206.0 L275.5 202.9 L280.6 197.0 Z" style="fill:var(--fig-blue)"/>
+  <circle cx="255.5" cy="177.0" r="11.0" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="255.5" y="182.0" text-anchor="middle" class="uearth-9-feedbacks-b" style="fill:var(--fig-blue);font-size:15px">−</text>
+  <rect x="474.0" y="70.0" width="230.0" height="96.0" rx="8" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6"/>
+  <text x="589.0" y="90.0" text-anchor="middle" class="uearth-9-feedbacks-b" style="fill:var(--fig-red)">수증기 + 기온 감률</text>
+  <text x="589.0" y="108.0" text-anchor="middle" class="uearth-9-feedbacks-t">1 K당 수증기 약 7 % 증가</text>
+  <text x="589.0" y="125.0" text-anchor="middle" class="uearth-9-feedbacks-t">→ 온실 효과 강화</text>
+  <text x="589.0" y="142.0" text-anchor="middle" class="uearth-9-feedbacks-t">+1.3 W/(m²·K)</text>
+  <path d="M435.0 188.0 Q454.5 150.0 474.0 104.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.8"/>
+  <path d="M474.0 104.0 L474.0 114.0 L466.8 111.0 Z" style="fill:var(--fig-muted)"/>
+  <path d="M474.0 132.0 Q454.5 189.0 435.0 206.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.4"/>
+  <path d="M435.0 206.0 L439.4 197.0 L444.5 202.9 Z" style="fill:var(--fig-red)"/>
+  <circle cx="464.5" cy="177.0" r="11.0" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2"/>
+  <text x="464.5" y="182.0" text-anchor="middle" class="uearth-9-feedbacks-b" style="fill:var(--fig-red);font-size:15px">+</text>
+  <rect x="16.0" y="290.0" width="230.0" height="96.0" rx="8" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6"/>
+  <text x="131.0" y="310.0" text-anchor="middle" class="uearth-9-feedbacks-b" style="fill:var(--fig-red)">얼음–반사율</text>
+  <text x="131.0" y="328.0" text-anchor="middle" class="uearth-9-feedbacks-t">눈·얼음이 녹아 어두운 지표 노출</text>
+  <text x="131.0" y="345.0" text-anchor="middle" class="uearth-9-feedbacks-t">→ 반사율↓, 햇빛 흡수↑</text>
+  <text x="131.0" y="362.0" text-anchor="middle" class="uearth-9-feedbacks-t">+0.35 W/(m²·K)</text>
+  <path d="M285.0 222.0 Q265.5 260.0 246.0 324.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.8"/>
+  <path d="M246.0 324.0 L245.0 314.1 L252.4 316.3 Z" style="fill:var(--fig-muted)"/>
+  <path d="M246.0 352.0 Q265.5 244.0 285.0 204.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.4"/>
+  <path d="M285.0 204.0 L284.5 214.0 L277.5 210.6 Z" style="fill:var(--fig-red)"/>
+  <circle cx="255.5" cy="256.0" r="11.0" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2"/>
+  <text x="255.5" y="261.0" text-anchor="middle" class="uearth-9-feedbacks-b" style="fill:var(--fig-red);font-size:15px">+</text>
+  <rect x="474.0" y="290.0" width="230.0" height="96.0" rx="8" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6"/>
+  <text x="589.0" y="310.0" text-anchor="middle" class="uearth-9-feedbacks-b" style="fill:var(--fig-red)">구름</text>
+  <text x="589.0" y="328.0" text-anchor="middle" class="uearth-9-feedbacks-t">낮은 구름 감소, 높은 구름 상승</text>
+  <text x="589.0" y="345.0" text-anchor="middle" class="uearth-9-feedbacks-t">(불확실성 가장 큼)</text>
+  <text x="589.0" y="362.0" text-anchor="middle" class="uearth-9-feedbacks-t">+0.4 W/(m²·K)</text>
+  <path d="M435.0 222.0 Q454.5 260.0 474.0 324.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.8"/>
+  <path d="M474.0 324.0 L467.6 316.3 L475.0 314.1 Z" style="fill:var(--fig-muted)"/>
+  <path d="M474.0 352.0 Q454.5 244.0 435.0 204.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.4"/>
+  <path d="M435.0 204.0 L442.5 210.6 L435.5 214.0 Z" style="fill:var(--fig-red)"/>
+  <circle cx="464.5" cy="256.0" r="11.0" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2"/>
+  <text x="464.5" y="261.0" text-anchor="middle" class="uearth-9-feedbacks-b" style="fill:var(--fig-red);font-size:15px">+</text>
+  <text x="360.0" y="412.0" text-anchor="middle" class="uearth-9-feedbacks-b">합계 약 −1.2 W/(m²·K) → 음수이므로 폭주하지 않고 새 평형에 이른다</text>
+  <text x="360.0" y="432.0" text-anchor="middle" class="uearth-9-feedbacks-s">플랑크만 있으면 3.7 ÷ 3.2 ≈ 1.2 K, 모두 넣으면 평형 기후 민감도 약 3 °C(약 2.5배)</text>
+</svg>

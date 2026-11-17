@@ -4,7 +4,7 @@ Sims.register('u-plant-life-cycle', {
   caption: '무리를 고른 뒤 ‘다음 단계’를 누르거나 고리의 동그라미를 눌러 생활사를 한 바퀴 돌아 보자. 위쪽(파랑)은 핵상이 n인 배우체 세대, 아래쪽(주황)은 2n인 포자체 세대이며, 감수 분열이 포자를, 배우체의 체세포 분열이 생식 세포를 만든다. 동그라미 크기는 각 세대의 몸집을 나타낸다: 선태식물은 배우체가 크고 독립적이며 포자체가 그 위에 붙어 살고, 양치식물은 포자체가 크고 배우체(전엽체)는 작지만 따로 살며, 속씨식물의 배우체는 꽃 속에서 포자체에 기대 사는 몇 개의 세포로 줄어든다. 염색체 수는 예제 6(고사리 2n = 60)과 예제 7(옥수수 2n = 20)을 따랐고, 선태식물은 핵상만 표시했다.',
   init: function (api) {
     var G = {
-      moss: { name: '선태식물(솔이끼)', n: null, gSize: 1, sSize: 0.45, gNote: '크고 오래 삶 · 독립 생활', sNote: '작음 · 배우체 위에 붙어 영양을 받음',
+      moss: { short: ['포자', '배우체', '정자·난세포', '수정란', '포자체', '포자 모세포'], name: '선태식물(솔이끼)', n: null, gSize: 1, sSize: 0.45, gNote: '크고 오래 삶 · 독립 생활', sNote: '작음 · 배우체 위에 붙어 영양을 받음',
         st: [
           ['포자', 'n', '포자 모세포의 감수 분열로 생겨 바람에 퍼진다'],
           ['배우체(초록 이끼)', 'n', '포자가 체세포 분열로 자란 것. 우리가 보는 초록색 이끼'],
@@ -14,7 +14,7 @@ Sims.register('u-plant-life-cycle', {
           ['포자 모세포', '2n', '포자낭 속에서 감수 분열을 하여 포자를 만든다'],
         ],
         tr: ['체세포 분열', '체세포 분열', '수정(물 필요)', '체세포 분열', '포자낭 형성', '감수 분열'] },
-      fern: { name: '양치식물(고사리)', n: 30, gSize: 0.42, sSize: 1, gNote: '작음(전엽체) · 그래도 독립 생활', sNote: '크고 오래 삶 · 관다발',
+      fern: { short: ['포자', '전엽체', '정자·난세포', '수정란', '포자체', '포자 모세포'], name: '양치식물(고사리)', n: 30, gSize: 0.42, sSize: 1, gNote: '작음(전엽체) · 그래도 독립 생활', sNote: '크고 오래 삶 · 관다발',
         st: [
           ['포자', 'n', '잎 뒷면 포자낭군에서 감수 분열로 생긴다'],
           ['전엽체(배우체)', 'n', '포자가 체세포 분열로 자란 작은 하트 모양 배우체. 따로 산다'],
@@ -24,7 +24,7 @@ Sims.register('u-plant-life-cycle', {
           ['포자 모세포', '2n', '포자낭 속에서 감수 분열을 하여 포자를 만든다'],
         ],
         tr: ['체세포 분열', '체세포 분열', '수정(물 필요)', '체세포 분열', '포자낭 형성', '감수 분열'] },
-      angio: { name: '속씨식물(옥수수)', n: 10, gSize: 0.2, sSize: 1, gNote: '세포 몇 개뿐 · 포자체 속에서 삶', sNote: '크고 오래 삶 · 꽃·열매·종자',
+      angio: { short: ['포자', '꽃가루·배낭', '정핵·난세포', '배·배젖', '포자체', '포자 모세포'], name: '속씨식물(옥수수)', n: 10, gSize: 0.2, sSize: 1, gNote: '세포 몇 개뿐 · 포자체 속에서 삶', sNote: '크고 오래 삶 · 꽃·열매·종자',
         st: [
           ['작은 포자 · 큰 포자', 'n', '꽃밥과 밑씨 속에서 감수 분열로 생긴다'],
           ['꽃가루 · 배낭(배우체)', 'n', '꽃가루는 수배우체, 배낭은 밑씨 속 암배우체. 체세포 분열로 만들어진다'],
@@ -77,14 +77,14 @@ Sims.register('u-plant-life-cycle', {
       rNext.set(g.tr[st.i]);
     }
     function drawRing(T, r, g) {
-      var cx = r.x + r.w / 2, cy = r.y + r.h / 2 + 4, R = Math.min(r.w * 0.36, r.h * 0.36);
+      var cx = r.x + r.w / 2, cy = r.y + r.h / 2 + 4, R = Math.min(r.w * 0.33, r.h * 0.34);
       // 위(n)·아래(2n) 반원
       ctx.lineWidth = 14; ctx.lineCap = 'butt';
       ctx.strokeStyle = T.figSoftBlue; ctx.beginPath(); ctx.arc(cx, cy, R, Math.PI, 2 * Math.PI); ctx.stroke();
       ctx.strokeStyle = T.figSoftAmber; ctx.beginPath(); ctx.arc(cx, cy, R, 0, Math.PI); ctx.stroke();
       ctx.font = '600 13px ' + T.fontBody; ctx.textAlign = 'center';
-      ctx.fillStyle = T.figBlue; ctx.fillText('배우체 세대 (n)', cx, cy - 8);
-      ctx.fillStyle = T.figAmber; ctx.fillText('포자체 세대 (2n)', cx, cy + 18);
+      ctx.fillStyle = T.figBlue; ctx.fillText('배우체 세대 (n)', cx, cy - R * 0.38);
+      ctx.fillStyle = T.figAmber; ctx.fillText('포자체 세대 (2n)', cx, cy + R * 0.38 + 10);
       // 단계 위치: 위쪽 1,2,3 / 아래쪽 4,5,6 (시계 방향)
       var angs = [-Math.PI * 0.95, -Math.PI * 0.5, -Math.PI * 0.05, Math.PI * 0.05, Math.PI * 0.5, Math.PI * 0.95];
       pos = angs.map(function (a, k) {
@@ -102,9 +102,9 @@ Sims.register('u-plant-life-cycle', {
         ctx.lineTo(mx - 6 * Math.cos(dir) + 6 * Math.cos(mid), my - 6 * Math.sin(dir) + 6 * Math.sin(mid));
         ctx.lineTo(mx - 6 * Math.cos(dir) - 6 * Math.cos(mid), my - 6 * Math.sin(dir) - 6 * Math.sin(mid)); ctx.closePath(); ctx.fill();
         if (key) {
-          var lx = cx + (R + 26) * Math.cos(mid), ly = cy + (R + 26) * Math.sin(mid);
-          ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = Math.cos(mid) > 0.2 ? 'left' : Math.cos(mid) < -0.2 ? 'right' : 'center';
-          ctx.fillText(tr, lx, ly + 4);
+          var right = Math.cos(mid) > 0;
+          ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = right ? 'right' : 'left';
+          ctx.fillText(tr, cx + (right ? 1 : -1) * (R - 18), cy + 4);
         }
       }
       pos.forEach(function (p, k) {
@@ -115,14 +115,12 @@ Sims.register('u-plant-life-cycle', {
         ctx.fillStyle = T.figInk; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'center';
         ctx.fillText(k + 1, p.x, p.y + 4);
         // 이름표
-        var name = g.st[k][0], up = Math.sin(p.a) < 0;
-        ctx.font = (sel ? '600 ' : '') + '12px ' + T.fontBody; ctx.fillStyle = sel ? T.figRed : T.figInk;
-        var lx = p.x, ly = up ? p.y - p.r - 8 : p.y + p.r + 16;
-        if (k === 0 || k === 5) { ctx.textAlign = 'right'; lx = p.x - p.r - 4; ly = p.y + (up ? -10 : 14); }
-        if (k === 2 || k === 3) { ctx.textAlign = 'left'; lx = p.x + p.r + 4; ly = p.y + (up ? -10 : 14); }
+        var txt = g.short[k], up = Math.sin(p.a) < 0;
+        ctx.font = (sel ? '600 ' : '') + '12px ' + T.fontBody; ctx.fillStyle = sel ? T.figRed : T.figInk; ctx.textAlign = 'center';
+        var lx = p.x, ly = up ? p.y - p.r - 7 : p.y + p.r + 15;
+        var tw = ctx.measureText(txt).width;
+        lx = Math.max(r.x + tw / 2 + 2, Math.min(r.x + r.w - tw / 2 - 2, lx));
         ctx.lineWidth = 4; ctx.strokeStyle = T.figPanel; ctx.lineJoin = 'round';
-        var maxw = k === 1 || k === 4 ? r.w * 0.6 : (ctx.textAlign === 'right' ? lx - r.x - 2 : r.x + r.w - lx - 2);
-        var txt = name; while (ctx.measureText(txt).width > maxw && txt.length > 3) txt = txt.slice(0, -2) + '…';
         ctx.strokeText(txt, lx, ly); ctx.fillText(txt, lx, ly);
       });
     }
