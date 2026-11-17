@@ -39,12 +39,12 @@
 <circle cx="312.0" cy="115.0" r="4.5" style="fill:var(--fig-red)"/>
 <circle cx="428.0" cy="277.5" r="4.5" style="fill:var(--fig-blue)"/>
 <circle cx="428.0" cy="82.5" r="4.5" style="fill:var(--fig-red)"/>
-<text x="204.0" y="202.0" class="uearth-5-decay-curve-b" style="fill:var(--fig-blue)">1/2</text>
+<text x="188.0" y="204.0" text-anchor="end" class="uearth-5-decay-curve-b" style="fill:var(--fig-blue)">1/2</text>
 <text x="318.0" y="265.0" class="uearth-5-decay-curve-b" style="fill:var(--fig-blue)">1/4</text>
 <text x="434.0" y="297.5" class="uearth-5-decay-curve-b" style="fill:var(--fig-blue)">1/8</text>
-<text x="318.0" y="105.0" class="uearth-5-decay-curve-s" style="fill:var(--fig-red)">D*/N = 3</text>
-<text x="434.0" y="72.5" class="uearth-5-decay-curve-s" style="fill:var(--fig-red)">D*/N = 7</text>
-<text x="204.0" y="170.0" class="uearth-5-decay-curve-s" style="fill:var(--fig-ink)">D*/N = 1</text>
+<text x="304.0" y="105.0" text-anchor="end" class="uearth-5-decay-curve-s" style="fill:var(--fig-red)">D*/N = 3</text>
+<text x="420.0" y="72.5" text-anchor="end" class="uearth-5-decay-curve-s" style="fill:var(--fig-red)">D*/N = 7</text>
+<text x="206.0" y="174.0" class="uearth-5-decay-curve-s" style="fill:var(--fig-ink)">D*/N = 1(반감기 1회)</text>
 <text x="555.6" y="278.8" class="uearth-5-decay-curve-b" style="fill:var(--fig-blue)">모원소 N</text>
 <text x="555.6" y="86.4" class="uearth-5-decay-curve-b" style="fill:var(--fig-red)">자원소 D*</text>
 <text x="97.4" y="65.6" class="uearth-5-decay-curve-s" style="fill:var(--fig-blue)">N = N₀e^(−λt)</text>
