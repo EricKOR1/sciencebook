@@ -22,9 +22,9 @@
   <text x="245.0" y="102.0" text-anchor="middle" class="uchem-10-supercooled-path-s">ΔS = +2.81 J/K</text>
   <line x1="375.0" y1="118.0" x2="375.0" y2="223.0" style="stroke:var(--fig-green);stroke-width:2.4;stroke-linecap:round"/>
   <polygon points="375.0,230.0 371.4,222.0 378.6,222.0" style="fill:var(--fig-green);stroke:none;stroke-width:1;stroke-linejoin:round"/>
-  <text x="385.0" y="158.0" class="uchem-10-supercooled-path-t" style="fill:var(--fig-green);font-weight:600">㉡ 0 ℃에서 가역 응고</text>
-  <text x="385.0" y="178.0" class="uchem-10-supercooled-path-s">ΔS = −6010/273.15</text>
-  <text x="385.0" y="196.0" class="uchem-10-supercooled-path-s">    = −22.00 J/K</text>
+  <text x="385.0" y="150.0" class="uchem-10-supercooled-path-t" style="fill:var(--fig-green);font-weight:600">㉡ 가역 응고</text>
+  <text x="385.0" y="170.0" class="uchem-10-supercooled-path-s">(0 ℃에서)</text>
+  <text x="385.0" y="190.0" class="uchem-10-supercooled-path-s">ΔS = −22.00 J/K</text>
   <line x1="294.0" y1="267.0" x2="203.0" y2="267.0" style="stroke:var(--fig-green);stroke-width:2.4;stroke-linecap:round"/>
   <polygon points="196.0,267.0 204.0,263.4 204.0,270.6" style="fill:var(--fig-green);stroke:none;stroke-width:1;stroke-linejoin:round"/>
   <text x="245.0" y="256.0" text-anchor="middle" class="uchem-10-supercooled-path-t" style="fill:var(--fig-green);font-weight:600">㉢ 냉각</text>
@@ -34,14 +34,14 @@
   <text x="105.0" y="152.0" text-anchor="end" class="uchem-10-supercooled-path-t" style="fill:var(--fig-red);font-weight:600">실제 과정</text>
   <text x="105.0" y="172.0" text-anchor="end" class="uchem-10-supercooled-path-s">(비가역,</text>
   <text x="105.0" y="190.0" text-anchor="end" class="uchem-10-supercooled-path-s">갑자기 언다)</text>
-  <rect x="498.0" y="50.0" width="206.0" height="248.0" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
-  <text x="601.0" y="76.0" text-anchor="middle" class="uchem-10-supercooled-path-b">ΔS는 상태 함수</text>
-  <text x="601.0" y="96.0" text-anchor="middle" class="uchem-10-supercooled-path-s">→ 어느 경로로 계산해도 같다</text>
-  <text x="514.0" y="128.0" class="uchem-10-supercooled-path-t" style="fill:var(--fig-ink)">ΔS계 = ㉠+㉡+㉢</text>
-  <text x="514.0" y="152.0" class="uchem-10-supercooled-path-t" style="fill:var(--fig-blue)">= −20.6 J/K</text>
-  <text x="514.0" y="184.0" class="uchem-10-supercooled-path-t" style="fill:var(--fig-ink)">ΔS주위 = −ΔH계/T</text>
-  <text x="514.0" y="208.0" class="uchem-10-supercooled-path-t" style="fill:var(--fig-muted)">= 5634/263.15</text>
-  <text x="514.0" y="232.0" class="uchem-10-supercooled-path-t" style="fill:var(--fig-amber)">= +21.4 J/K</text>
-  <text x="514.0" y="256.0" class="uchem-10-supercooled-path-t" style="fill:var(--fig-green);font-weight:600">ΔS우주 = +0.8 J/K &gt; 0</text>
-  <text x="514.0" y="280.0" class="uchem-10-supercooled-path-t" style="fill:var(--fig-green)">→ 자발적</text>
+  <rect x="508.0" y="50.0" width="200.0" height="248.0" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="608.0" y="76.0" text-anchor="middle" class="uchem-10-supercooled-path-b">ΔS는 상태 함수</text>
+  <text x="608.0" y="96.0" text-anchor="middle" class="uchem-10-supercooled-path-s">→ 어느 경로로 계산해도 같다</text>
+  <text x="524.0" y="128.0" class="uchem-10-supercooled-path-t" style="fill:var(--fig-ink)">ΔS계 = ㉠+㉡+㉢</text>
+  <text x="524.0" y="152.0" class="uchem-10-supercooled-path-t" style="fill:var(--fig-blue)">= −20.6 J/K</text>
+  <text x="524.0" y="184.0" class="uchem-10-supercooled-path-t" style="fill:var(--fig-ink)">ΔS주위 = −ΔH계/T</text>
+  <text x="524.0" y="208.0" class="uchem-10-supercooled-path-t" style="fill:var(--fig-muted)">= 5634/263.15</text>
+  <text x="524.0" y="232.0" class="uchem-10-supercooled-path-t" style="fill:var(--fig-amber)">= +21.4 J/K</text>
+  <text x="524.0" y="256.0" class="uchem-10-supercooled-path-t" style="fill:var(--fig-green);font-weight:600">ΔS우주 = +0.8 J/K &gt; 0</text>
+  <text x="524.0" y="280.0" class="uchem-10-supercooled-path-t" style="fill:var(--fig-green)">→ 자발적</text>
 </svg>

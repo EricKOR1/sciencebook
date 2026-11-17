@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-uchem-6-heating-energy d-uchem-6-heating-energy">
+  <title id="t-uchem-6-heating-energy">그림 일반화학 6-5 물 1몰의 가열 곡선(가한 열에 비례한 가로축)</title>
+  <desc id="d-uchem-6-heating-energy">1 atm에서 −20 °C 얼음 1.00 mol(18.0 g)에 일정하게 열을 가할 때의 온도 변화. 가로축을 가한 열(kJ)에 비례하게 그렸다. 녹는 동안(0 °C)과 끓는 동안(100 °C)은 온도가 일정한 평평한 구간이며, 기화에 드는 40.7 kJ가 융해 6.01 kJ의 약 7배로 전체 열의 대부분을 차지한다. 기울어진 구간의 기울기는 1/(질량 × 비열)이어서 비열이 큰 액체 물 구간이 얼음·수증기 구간보다 완만하다.</desc>
+  <style>
+    .uchem-6-heating-energy-t{font-size:14px;fill:var(--fig-ink)}
+    .uchem-6-heating-energy-s{font-size:13px;fill:var(--fig-muted)}
+    .uchem-6-heating-energy-b{font-size:15px;fill:var(--fig-ink);font-weight:bold}
+    .uchem-6-heating-energy-ax{stroke:var(--fig-ink);stroke-width:1.2;fill:none}
+    .uchem-6-heating-energy-gr{stroke:var(--fig-line);stroke-width:0.6;fill:none;stroke-dasharray:2 3}
+
+    .uchem-6-heating-energy-cv{stroke:var(--fig-accent);stroke-width:2.8;fill:none;stroke-linejoin:round}
+    .uchem-6-heating-energy-br{stroke:var(--fig-muted);stroke-width:1.2;fill:none}
+    .uchem-6-heating-energy-pl{fill:var(--fig-soft-amber)}
+  </style>
+  <line x1="90" y1="320.0" x2="690" y2="320.0" class="uchem-6-heating-energy-gr"/>
+  <text x="82.0" y="324.0" text-anchor="end" class="uchem-6-heating-energy-s" >-40</text>
+  <line x1="90" y1="288.9" x2="690" y2="288.9" class="uchem-6-heating-energy-gr"/>
+  <text x="82.0" y="292.9" text-anchor="end" class="uchem-6-heating-energy-s" >-20</text>
+  <line x1="90" y1="257.8" x2="690" y2="257.8" class="uchem-6-heating-energy-gr"/>
+  <text x="82.0" y="261.8" text-anchor="end" class="uchem-6-heating-energy-s" >0</text>
+  <line x1="90" y1="226.7" x2="690" y2="226.7" class="uchem-6-heating-energy-gr"/>
+  <text x="82.0" y="230.7" text-anchor="end" class="uchem-6-heating-energy-s" >20</text>
+  <line x1="90" y1="195.6" x2="690" y2="195.6" class="uchem-6-heating-energy-gr"/>
+  <text x="82.0" y="199.6" text-anchor="end" class="uchem-6-heating-energy-s" >40</text>
+  <line x1="90" y1="164.4" x2="690" y2="164.4" class="uchem-6-heating-energy-gr"/>
+  <text x="82.0" y="168.4" text-anchor="end" class="uchem-6-heating-energy-s" >60</text>
+  <line x1="90" y1="133.3" x2="690" y2="133.3" class="uchem-6-heating-energy-gr"/>
+  <text x="82.0" y="137.3" text-anchor="end" class="uchem-6-heating-energy-s" >80</text>
+  <line x1="90" y1="102.2" x2="690" y2="102.2" class="uchem-6-heating-energy-gr"/>
+  <text x="82.0" y="106.2" text-anchor="end" class="uchem-6-heating-energy-s" >100</text>
+  <line x1="90" y1="71.1" x2="690" y2="71.1" class="uchem-6-heating-energy-gr"/>
+  <text x="82.0" y="75.1" text-anchor="end" class="uchem-6-heating-energy-s" >120</text>
+  <line x1="90" y1="40.0" x2="690" y2="40.0" class="uchem-6-heating-energy-gr"/>
+  <text x="82.0" y="44.0" text-anchor="end" class="uchem-6-heating-energy-s" >140</text>
+  <text x="90.0" y="340.0" text-anchor="middle" class="uchem-6-heating-energy-s" >0</text>
+  <text x="190.0" y="340.0" text-anchor="middle" class="uchem-6-heating-energy-s" >10</text>
+  <text x="290.0" y="340.0" text-anchor="middle" class="uchem-6-heating-energy-s" >20</text>
+  <text x="390.0" y="340.0" text-anchor="middle" class="uchem-6-heating-energy-s" >30</text>
+  <text x="490.0" y="340.0" text-anchor="middle" class="uchem-6-heating-energy-s" >40</text>
+  <text x="590.0" y="340.0" text-anchor="middle" class="uchem-6-heating-energy-s" >50</text>
+  <text x="690.0" y="340.0" text-anchor="middle" class="uchem-6-heating-energy-s" >60</text>
+  <path d="M90 36 L90 320 L696 320" class="uchem-6-heating-energy-ax"/>
+  <text x="390.0" y="362.0" text-anchor="middle" class="uchem-6-heating-energy-s" >가한 열 (kJ)</text>
+  <text x="40" y="180.0" text-anchor="middle" transform="rotate(-90 40 180.0)" class="uchem-6-heating-energy-s">온도 (°C)</text>
+  <path d="M90.0 288.9 L97.5 257.8 L157.6 257.8 L233.0 102.2 L640.0 102.2 L647.2 71.1" class="uchem-6-heating-energy-cv"/>
+  <path d="M97.5 239.77777777777777 L97.5 231.77777777777777 L157.6 231.77777777777777 L157.6 239.77777777777777" class="uchem-6-heating-energy-br"/>
+  <text x="97.5" y="225.8" text-anchor="start" class="uchem-6-heating-energy-t" >융해 6.01 kJ</text>
+  <path d="M233.0 116.22222222222223 L233.0 124.22222222222223 L640.0 124.22222222222223 L640.0 116.22222222222223" class="uchem-6-heating-energy-br"/>
+  <text x="436.5" y="142.2" text-anchor="middle" class="uchem-6-heating-energy-t" >기화 40.7 kJ</text>
+  <text x="205.5" y="187.8" text-anchor="start" class="uchem-6-heating-energy-s" >물 가열 7.53 kJ</text>
+  <text x="205.5" y="205.8" text-anchor="start" class="uchem-6-heating-energy-s" >(비열 4.18 J/(g·K))</text>
+  <text x="96.0" y="310.9" text-anchor="start" class="uchem-6-heating-energy-s" >얼음 가열 0.75 kJ</text>
+  <text x="636.0" y="59.1" text-anchor="end" class="uchem-6-heating-energy-s" >수증기 가열 0.72 kJ</text>
+  <text x="112.5" y="279.8" text-anchor="start" class="uchem-6-heating-energy-s" >고체 + 액체</text>
+  <text x="436.5" y="92.2" text-anchor="middle" class="uchem-6-heating-energy-s" >액체 + 기체 (온도 일정)</text>
+</svg>
