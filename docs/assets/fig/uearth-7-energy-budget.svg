@@ -28,7 +28,7 @@
     .uearth-7-energy-budget-num{font-size:15px;font-weight:700;fill:var(--fig-ink)}
   </style>
   <line x1="20" y1="70" x2="700" y2="70" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:6 4"/>
-  <text x="700.0" y="64.0" class="uearth-7-energy-budget-s" text-anchor="end">대기 꼭대기</text>
+  <text x="420.0" y="64.0" class="uearth-7-energy-budget-s">대기 꼭대기</text>
   <rect x="20" y="150" width="680" height="110" class="uearth-7-energy-budget-atm" style="opacity:0.8"/>
   <text x="700.0" y="252.0" class="uearth-7-energy-budget-c-blue" text-anchor="end">대기(구름 포함)</text>
   <rect x="20" y="350" width="680" height="34" class="uearth-7-energy-budget-sfc"/>
@@ -40,8 +40,8 @@
   <text x="86.0" y="56.0" class="uearth-7-energy-budget-num">입사 340</text>
   <path d="M172.7,160 L172.7,50.0 L165.7,50.0 L176,34 L186.3,50.0 L179.3,50.0 L179.3,160 Z" style="fill:var(--fig-amber);opacity:0.85;stroke:none"/>
   <text x="190.0" y="56.0" class="uearth-7-energy-budget-num">반사 100</text>
-  <rect x="57.0" y="187.0" width="88.8" height="18" rx="3" style="fill:var(--fig-paper);opacity:0.85;stroke:none"/>
-  <text x="60.0" y="200.0" class="uearth-7-energy-budget-b">대기 흡수 80</text>
+  <rect x="121.0" y="187.0" width="137.1" height="18" rx="3" style="fill:var(--fig-paper);opacity:0.85;stroke:none"/>
+  <text x="124.0" y="200.0" class="uearth-7-energy-budget-b">대기 흡수 80 (단파)</text>
   <path d="M94.7,160 L94.7,338.0 L87.7,338.0 L100,354 L112.3,338.0 L105.3,338.0 L105.3,160 Z" style="fill:var(--fig-amber);opacity:0.85;stroke:none"/>
   <text x="116.0" y="332.0" class="uearth-7-energy-budget-num">지표 흡수 160</text>
   <path d="M306.7,354 L306.7,176.0 L299.7,176.0 L320,160 L340.3,176.0 L333.3,176.0 L333.3,354 Z" style="fill:var(--fig-red);opacity:0.85;stroke:none"/>
