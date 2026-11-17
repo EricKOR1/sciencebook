@@ -40,7 +40,8 @@
   <text x="44" y="260" text-anchor="end" class="uphy-9-ampere-s">B</text>
   <text x="74" y="306" text-anchor="start" class="uphy-9-ampere-s" style="fill:var(--fig-accent)">∝ r</text>
   <text x="200" y="300" text-anchor="start" class="uphy-9-ampere-s" style="fill:var(--fig-accent)">∝ 1/r</text>
-  <text x="24" y="368" text-anchor="start" class="uphy-9-ampere-t">안: B = μ₀Ir / (2πR²)   밖: B = μ₀I / (2πr)</text>
+  <text x="24" y="362" text-anchor="start" class="uphy-9-ampere-t">안: B = μ₀Ir / (2πR²)</text>
+  <text x="24" y="382" text-anchor="start" class="uphy-9-ampere-t">밖: B = μ₀I / (2πr)</text>
   <circle cx="352" cy="118" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
   <circle cx="352" cy="118" r="2.6" style="fill:var(--fig-amber)"/>
   <circle cx="352" cy="238" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
@@ -103,12 +104,12 @@
   <path d="M683.5 233.5 L692.5 242.5 M692.5 233.5 L683.5 242.5" style="stroke:var(--fig-amber);stroke-width:1.8"/>
   <text x="698" y="102" text-anchor="end" class="uphy-9-ampere-s">⊙ 전류가 나옴</text>
   <text x="698" y="266" text-anchor="end" class="uphy-9-ampere-s">⊗ 전류가 들어감</text>
-  <line x1="352.0" y1="152.0" x2="676.8" y2="152.0" style="stroke:var(--fig-accent);stroke-width:2"/>
-  <path d="M684.0 152.0 L675.8 155.7 L675.8 148.3 Z" style="fill:var(--fig-accent)"/>
-  <line x1="352.0" y1="178.0" x2="676.8" y2="178.0" style="stroke:var(--fig-accent);stroke-width:2"/>
-  <path d="M684.0 178.0 L675.8 181.7 L675.8 174.3 Z" style="fill:var(--fig-accent)"/>
-  <line x1="352.0" y1="204.0" x2="676.8" y2="204.0" style="stroke:var(--fig-accent);stroke-width:2"/>
-  <path d="M684.0 204.0 L675.8 207.7 L675.8 200.3 Z" style="fill:var(--fig-accent)"/>
+  <line x1="352.0" y1="138.0" x2="676.8" y2="138.0" style="stroke:var(--fig-accent);stroke-width:2"/>
+  <path d="M684.0 138.0 L675.8 141.7 L675.8 134.3 Z" style="fill:var(--fig-accent)"/>
+  <line x1="352.0" y1="196.0" x2="676.8" y2="196.0" style="stroke:var(--fig-accent);stroke-width:2"/>
+  <path d="M684.0 196.0 L675.8 199.7 L675.8 192.3 Z" style="fill:var(--fig-accent)"/>
+  <line x1="352.0" y1="218.0" x2="676.8" y2="218.0" style="stroke:var(--fig-accent);stroke-width:2"/>
+  <path d="M684.0 218.0 L675.8 221.7 L675.8 214.3 Z" style="fill:var(--fig-accent)"/>
   <text x="640" y="170" text-anchor="start" class="uphy-9-ampere-b" style="fill:var(--fig-accent)">B</text>
   <text x="560" y="80" text-anchor="start" class="uphy-9-ampere-s">바깥: B ≈ 0</text>
   <rect x="420" y="62" width="120" height="103" class="uphy-9-ampere-loop"/>
@@ -120,9 +121,9 @@
   <text x="544" y="181" text-anchor="start" class="uphy-9-ampere-b" style="fill:var(--fig-teal)">b</text>
   <text x="544" y="58" text-anchor="start" class="uphy-9-ampere-b" style="fill:var(--fig-teal)">c</text>
   <text x="416" y="58" text-anchor="end" class="uphy-9-ampere-b" style="fill:var(--fig-teal)">d</text>
-  <text x="480.0" y="183" text-anchor="middle" class="uphy-9-ampere-b" style="fill:var(--fig-teal)">h</text>
-  <text x="330" y="290" text-anchor="start" class="uphy-9-ampere-t">a→b (내부): B h      b→c, d→a: B ⟂ ds → 0</text>
-  <text x="330" y="314" text-anchor="start" class="uphy-9-ampere-t">c→d (바깥): B ≈ 0</text>
-  <text x="330" y="338" text-anchor="start" class="uphy-9-ampere-t">둘러싼 전류: n h I  (n: 단위 길이당 감은 수)</text>
-  <text x="330" y="362" text-anchor="start" class="uphy-9-ampere-b" style="fill:var(--fig-accent)">B h = μ₀ n h I  →  B = μ₀ n I</text>
+  <text x="480.0" y="185" text-anchor="middle" class="uphy-9-ampere-b" style="fill:var(--fig-teal)">h</text>
+  <text x="330" y="282" text-anchor="start" class="uphy-9-ampere-t">a→b (내부): B·h</text>
+  <text x="330" y="306" text-anchor="start" class="uphy-9-ampere-t">b→c, d→a: B ⟂ ds → 0,  c→d (바깥): B ≈ 0</text>
+  <text x="330" y="330" text-anchor="start" class="uphy-9-ampere-t">둘러싼 전류: n h I  (n: 단위 길이당 감은 수)</text>
+  <text x="330" y="354" text-anchor="start" class="uphy-9-ampere-b" style="fill:var(--fig-accent)">B h = μ₀ n h I  →  B = μ₀ n I</text>
 </svg>
