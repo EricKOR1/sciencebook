@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-5-2-energy-split d-5-2-energy-split">
+  <title id="t-5-2-energy-split">그림 5-2-3 영양 단계마다 나뉘는 에너지</title>
+  <desc id="d-5-2-energy-split">생산자가 얻은 에너지 1000 가운데 100만 1차 소비자에게 전달되고, 나머지 900은 세포 호흡에 쓰이거나 사체·배설물로 분해자에게 넘어가 결국 열로 빠져나간다. 같은 일이 단계마다 되풀이되어 3차 소비자에게는 1만 남는다. 효율을 10%로 가정한 상대값의 모식도이다.</desc>
+  <style>
+    .es-lbl{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+    .es-val{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .es-sm{font-size:13px;fill:var(--fig-muted)}
+    .es-sun{fill:var(--fig-amber)}
+    .es-solar{stroke:var(--fig-amber);stroke-width:4}
+    .es-solarh{fill:var(--fig-amber)}
+    .es-box0{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.8}
+    .es-box1{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8}
+    .es-box2{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8}
+    .es-box3{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.8}
+    .es-next{fill:var(--fig-blue)}
+    .es-nexth{fill:var(--fig-blue)}
+    .es-next-t{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+    .es-loss{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1}
+    .es-lossh{fill:var(--fig-red)}
+    .es-loss-t{font-size:14px;font-weight:700;fill:var(--fig-red)}
+    .es-heat{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.2}
+    .es-heat-t{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+  </style>
+<circle cx="99" cy="44" r="18" class="es-sun"/>
+<text x="128" y="40" class="es-lbl">태양 빛에너지</text>
+<line x1="99" y1="64" x2="99" y2="98" class="es-solar"/>
+<path d="M99,108 l-8,-12 l16,0Z" class="es-solarh"/>
+<text x="108" y="92" class="es-sm">광합성으로 일부만 저장</text>
+<rect x="40" y="110" width="118" height="70" rx="8" class="es-box0"/>
+<text x="99.0" y="138" text-anchor="middle" class="es-lbl">생산자</text>
+<text x="99.0" y="162" text-anchor="middle" class="es-val">1000</text>
+<rect x="158" y="134.0" width="45" height="22.0" class="es-next"/>
+<path d="M213,145.0 l-12,-16.0 l0,32.0Z" class="es-nexth"/>
+<text x="180.5" y="126.0" text-anchor="middle" class="es-next-t">100</text>
+<rect x="83.7" y="180" width="30.6" height="70" class="es-loss"/>
+<path d="M99.0,264 l-21.3,-14 l42.6,0Z" class="es-lossh"/>
+<text x="122.3" y="220" class="es-loss-t">900</text>
+<rect x="215" y="110" width="118" height="70" rx="8" class="es-box1"/>
+<text x="274.0" y="138" text-anchor="middle" class="es-lbl">1차 소비자</text>
+<text x="274.0" y="162" text-anchor="middle" class="es-val">100</text>
+<rect x="333" y="138.5" width="45" height="13.0" class="es-next"/>
+<path d="M388,145.0 l-12,-11.5 l0,23.0Z" class="es-nexth"/>
+<text x="355.5" y="130.5" text-anchor="middle" class="es-next-t">10</text>
+<rect x="263.2" y="180" width="21.6" height="70" class="es-loss"/>
+<path d="M274.0,264 l-16.8,-14 l33.6,0Z" class="es-lossh"/>
+<text x="292.8" y="220" class="es-loss-t">90</text>
+<rect x="390" y="110" width="118" height="70" rx="8" class="es-box2"/>
+<text x="449.0" y="138" text-anchor="middle" class="es-lbl">2차 소비자</text>
+<text x="449.0" y="162" text-anchor="middle" class="es-val">10</text>
+<rect x="508" y="143.0" width="45" height="4.0" class="es-next"/>
+<path d="M563,145.0 l-12,-7.0 l0,14.0Z" class="es-nexth"/>
+<text x="530.5" y="135.0" text-anchor="middle" class="es-next-t">1</text>
+<rect x="442.7" y="180" width="12.6" height="70" class="es-loss"/>
+<path d="M449.0,264 l-12.3,-14 l24.6,0Z" class="es-lossh"/>
+<text x="463.3" y="220" class="es-loss-t">9</text>
+<rect x="565" y="110" width="118" height="70" rx="8" class="es-box3"/>
+<text x="624.0" y="138" text-anchor="middle" class="es-lbl">3차 소비자</text>
+<text x="624.0" y="162" text-anchor="middle" class="es-val">1</text>
+<rect x="622.0" y="180" width="4.0" height="70" class="es-loss"/>
+<path d="M624.0,264 l-8.0,-14 l16.0,0Z" class="es-lossh"/>
+<text x="634.0" y="220" class="es-loss-t">1</text>
+<rect x="30" y="272" width="660" height="44" rx="8" class="es-heat"/>
+<text x="360" y="292" text-anchor="middle" class="es-heat-t">세포 호흡에 쓰이거나 사체·배설물로 분해자에게 → 결국 열로 생태계 밖으로</text>
+<text x="360" y="309" text-anchor="middle" class="es-sm">열에너지는 생산자가 다시 쓸 수 없다 → 에너지는 한 방향으로 흐른다</text>
+<text x="360" y="344" text-anchor="middle" class="es-sm">각 단계에서 다음 단계로 약 10%가 전달된다고 가정한 상대값. 화살표 두께는 양에 따라 달라지게 그린 모식(실제 비율 아님)</text>
+</svg>

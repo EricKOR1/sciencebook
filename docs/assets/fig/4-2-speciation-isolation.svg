@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-labelledby="t-4-2-speciation-isolation d-4-2-speciation-isolation">
+  <title id="t-4-2-speciation-isolation">그림 4-2-5 지리적 격리에 의한 종의 형성</title>
+  <desc id="d-4-2-speciation-isolation">① 한 종의 집단이 한 지역에 산다. ② 강(또는 바다·산맥)이 생겨 집단이 둘로 나뉘어 서로 만나지 못한다. ③ 나뉜 두 집단은 서로 다른 환경에서 서로 다른 변이가 선택되어 오랜 세월 동안 각자 진화한다. ④ 장벽이 없어져 다시 만나도 짝짓기를 하지 않거나 생식 능력 있는 자손을 낳지 못하면 두 집단은 서로 다른 종이다. 모식도.</desc>
+  <style>
+    .sp-h{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+    .sp-t{font-size:13px;fill:var(--fig-ink)}
+    .sp-mu{font-size:13px;fill:var(--fig-muted)}
+    .sp-frame{fill:none;stroke:var(--fig-line);stroke-width:1.5}
+    .sp-land{fill:var(--fig-panel);stroke:none}
+    .sp-dry{fill:var(--fig-soft-amber);stroke:none}
+    .sp-wet{fill:var(--fig-soft-green);stroke:none}
+    .sp-river{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5}
+    .sp-a{fill:var(--fig-violet);stroke:var(--fig-ink);stroke-width:1}
+    .sp-b{fill:var(--fig-amber);stroke:var(--fig-ink);stroke-width:1}
+    .sp-c{fill:var(--fig-green);stroke:var(--fig-ink);stroke-width:1}
+    .sp-x{fill:none;stroke:var(--fig-red);stroke-width:3;stroke-linecap:round}
+    .sp-arr{fill:var(--fig-muted)}
+  </style>
+  <text x="91.0" y="30" text-anchor="middle" class="sp-h">① 하나의 집단</text>
+  <rect x="8" y="44" width="166" height="170" class="sp-land"/>
+  <ellipse cx="55" cy="74" rx="9" ry="6" class="sp-a"/>
+  <ellipse cx="31" cy="115" rx="9" ry="6" class="sp-a"/>
+  <ellipse cx="149" cy="170" rx="9" ry="6" class="sp-a"/>
+  <ellipse cx="128" cy="91" rx="9" ry="6" class="sp-a"/>
+  <ellipse cx="96" cy="98" rx="9" ry="6" class="sp-a"/>
+  <ellipse cx="52" cy="188" rx="9" ry="6" class="sp-a"/>
+  <ellipse cx="65" cy="147" rx="9" ry="6" class="sp-a"/>
+  <ellipse cx="123" cy="178" rx="9" ry="6" class="sp-a"/>
+  <ellipse cx="106" cy="153" rx="9" ry="6" class="sp-a"/>
+  <rect x="8" y="44" width="166" height="170" class="sp-frame"/>
+  <text x="91.0" y="238" text-anchor="middle" class="sp-t">같은 종이 한 지역에</text><text x="91.0" y="256" text-anchor="middle" class="sp-t">함께 산다</text>
+  <path d="M175 122.0 L185 129.0 L175 136.0 Z" class="sp-arr"/>
+  <text x="269.0" y="30" text-anchor="middle" class="sp-h">② 지리적 격리</text>
+  <rect x="186" y="44" width="166" height="170" class="sp-land"/>
+  <path d="M258 44 Q278 104 262 144 T266 214 H286 Q282 174 284 144 T280 44 Z" class="sp-river"/>
+  <ellipse cx="221" cy="85" rx="9" ry="6" class="sp-a"/>
+  <ellipse cx="239" cy="179" rx="9" ry="6" class="sp-a"/>
+  <ellipse cx="238" cy="139" rx="9" ry="6" class="sp-a"/>
+  <ellipse cx="221" cy="117" rx="9" ry="6" class="sp-a"/>
+  <ellipse cx="323" cy="119" rx="9" ry="6" class="sp-a"/>
+  <ellipse cx="331" cy="66" rx="9" ry="6" class="sp-a"/>
+  <ellipse cx="302" cy="146" rx="9" ry="6" class="sp-a"/>
+  <ellipse cx="316" cy="88" rx="9" ry="6" class="sp-a"/>
+  <rect x="186" y="44" width="166" height="170" class="sp-frame"/>
+  <text x="269.0" y="238" text-anchor="middle" class="sp-t">강·바다·산맥 등으로</text><text x="269.0" y="256" text-anchor="middle" class="sp-t">집단이 나뉨</text>
+  <path d="M353 122.0 L363 129.0 L353 136.0 Z" class="sp-arr"/>
+  <text x="447.0" y="30" text-anchor="middle" class="sp-h">③ 서로 다른 자연선택</text>
+  <rect x="364" y="44" width="83.0" height="170" class="sp-dry"/><rect x="447.0" y="44" width="83.0" height="170" class="sp-wet"/>
+  <path d="M436 44 Q456 104 440 144 T444 214 H464 Q460 174 462 144 T458 44 Z" class="sp-river"/>
+  <ellipse cx="405" cy="98" rx="9" ry="6" class="sp-b"/>
+  <ellipse cx="393" cy="163" rx="9" ry="6" class="sp-b"/>
+  <ellipse cx="391" cy="137" rx="9" ry="6" class="sp-b"/>
+  <ellipse cx="416" cy="74" rx="9" ry="6" class="sp-b"/>
+  <ellipse cx="480" cy="92" rx="9" ry="6" class="sp-c"/>
+  <ellipse cx="507" cy="145" rx="9" ry="6" class="sp-c"/>
+  <ellipse cx="485" cy="123" rx="9" ry="6" class="sp-c"/>
+  <ellipse cx="480" cy="156" rx="9" ry="6" class="sp-c"/>
+  <text x="400" y="206" text-anchor="middle" class="sp-mu">건조</text><text x="496" y="206" text-anchor="middle" class="sp-mu">습한 숲</text>
+  <rect x="364" y="44" width="166" height="170" class="sp-frame"/>
+  <text x="447.0" y="238" text-anchor="middle" class="sp-t">환경이 달라 서로 다른</text><text x="447.0" y="256" text-anchor="middle" class="sp-t">변이가 선택·누적됨</text>
+  <path d="M531 122.0 L541 129.0 L531 136.0 Z" class="sp-arr"/>
+  <text x="625.0" y="30" text-anchor="middle" class="sp-h">④ 생식적 격리</text>
+  <rect x="542" y="44" width="166" height="170" class="sp-land"/>
+  <ellipse cx="582" cy="84" rx="9" ry="6" class="sp-b"/>
+  <ellipse cx="612" cy="164" rx="9" ry="6" class="sp-b"/>
+  <ellipse cx="572" cy="184" rx="9" ry="6" class="sp-b"/>
+  <ellipse cx="662" cy="84" rx="9" ry="6" class="sp-c"/>
+  <ellipse cx="682" cy="174" rx="9" ry="6" class="sp-c"/>
+  <ellipse cx="652" cy="194" rx="9" ry="6" class="sp-c"/>
+  <ellipse cx="601" cy="126" rx="9" ry="6" class="sp-b"/>
+  <ellipse cx="649" cy="126" rx="9" ry="6" class="sp-c"/>
+  <path d="M617.0 118 L633.0 134 M633.0 118 L617.0 134" class="sp-x"/>
+  <text x="625.0" y="64" text-anchor="middle" class="sp-mu">장벽이 사라져도</text>
+  <rect x="542" y="44" width="166" height="170" class="sp-frame"/>
+  <text x="625.0" y="238" text-anchor="middle" class="sp-t">생식 능력 있는 자손을</text><text x="625.0" y="256" text-anchor="middle" class="sp-t">못 낳음 → 다른 두 종</text>
+  <text x="360" y="302" text-anchor="middle" class="sp-mu">②→④에는 매우 오랜 세월(수많은 세대)이 걸린다 · 모식도</text>
+</svg>

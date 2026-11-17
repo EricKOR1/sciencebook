@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-labelledby="t-5-4-water-cycle d-5-4-water-cycle">
+  <title id="t-5-4-water-cycle">그림 5-4-5 물의 순환과 강물의 위치 에너지</title>
+  <desc id="d-5-4-water-cycle">① 바다의 물이 태양 에너지를 흡수해 증발하고, ② 수증기가 높은 곳에서 응결해 구름이 되며(이때 열을 내놓아 대기를 데운다), ③ 바람에 실려 간 구름이 산 같은 높은 곳에 비나 눈을 내려 물이 위치 에너지를 갖게 된다. ④ 물이 강을 따라 흐르며 위치 에너지가 운동 에너지로 바뀌고, 이를 이용하는 것이 수력 발전이다. 모식도(크기 비율은 실제와 다름).</desc>
+  <style>
+    .wc-lbl{font-size:14px;font-weight:700;fill:var(--fig-ink)} .wc-sm{font-size:13px;fill:var(--fig-muted)} .wc-ink{font-size:13px;fill:var(--fig-ink)}
+    .wc-sea{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5}
+    .wc-land{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5}
+    .wc-sun{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+    .wc-cloud{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5}
+    .wc-vap{fill:none;stroke:var(--fig-red);stroke-width:2} .wc-vaph{fill:var(--fig-red)}
+    .wc-mv{stroke:var(--fig-muted);stroke-width:1.8;stroke-dasharray:6 4} .wc-mvh{fill:var(--fig-muted)}
+    .wc-rain{stroke:var(--fig-blue);stroke-width:2;stroke-linecap:round}
+    .wc-river{fill:none;stroke:var(--fig-blue);stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+    .wc-dim{stroke:var(--fig-ink);stroke-width:1.2} .wc-dimh{fill:var(--fig-ink)}
+    .wc-dash{stroke:var(--fig-ink);stroke-width:1;stroke-dasharray:4 4}
+    .wc-num{fill:var(--fig-accent)} .wc-numt{font-size:12px;font-weight:700;fill:var(--fig-paper)}
+  </style>
+  <rect x="20" y="300" width="250" height="80" class="wc-sea"/>
+  <text x="40" y="352" class="wc-lbl" style="fill:var(--fig-blue)">바다</text>
+  <path d="M250,300 L320,288 L390,220 L440,160 L470,130 L520,150 L600,185 L700,205 L700,380 L250,380 Z" class="wc-land"/>
+  <circle cx="60" cy="60" r="24" class="wc-sun"/>
+  <line x1="90.0" y1="60.0" x2="100.0" y2="60.0" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="81.2" y1="81.2" x2="88.3" y2="88.3" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="60.0" y1="90.0" x2="60.0" y2="100.0" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="38.8" y1="81.2" x2="31.7" y2="88.3" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="30.0" y1="60.0" x2="20.0" y2="60.0" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="38.8" y1="38.8" x2="31.7" y2="31.7" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="60.0" y1="30.0" x2="60.0" y2="20.0" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="81.2" y1="38.8" x2="88.3" y2="31.7" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <text x="60" y="118" text-anchor="middle" class="wc-lbl">태양</text>
+  <path d="M150,292 Q158,282 150,272 Q142,262 150,252 Q158,242 150,232 Q142,222 150,212" class="wc-vap"/><path d="M150.0,204.0 L154.5,211.8 L145.5,211.8 Z" class="wc-vaph"/>
+  <path d="M195,292 Q203,282 195,272 Q187,262 195,252 Q203,242 195,232 Q187,222 195,212" class="wc-vap"/><path d="M195.0,204.0 L199.5,211.8 L190.5,211.8 Z" class="wc-vaph"/>
+  <path d="M240,292 Q248,282 240,272 Q232,262 240,252 Q248,242 240,232 Q232,222 240,212" class="wc-vap"/><path d="M240.0,204.0 L244.5,211.8 L235.5,211.8 Z" class="wc-vaph"/>
+  <circle cx="40" cy="236" r="10" class="wc-num"/><text x="40" y="240" text-anchor="middle" class="wc-numt">1</text>
+  <text x="56" y="241" class="wc-lbl">증발</text>
+  <text x="30" y="262" class="wc-ink">태양 에너지 흡수</text>
+  <circle cx="166.4" cy="149.8" r="24.0" class="wc-cloud"/><circle cx="190.4" cy="133.0" r="30.0" class="wc-cloud"/><circle cx="219.2" cy="140.2" r="26.4" class="wc-cloud"/><circle cx="238.4" cy="153.4" r="19.2" class="wc-cloud"/><rect x="166.4" y="145.0" width="72.0" height="27.6" class="wc-cloud" style="stroke:none"/>
+  <text x="276" y="128" class="wc-lbl">응결 → 구름</text>
+  <circle cx="262" cy="123" r="10" class="wc-num"/><text x="262" y="127" text-anchor="middle" class="wc-numt">2</text>
+  <text x="264" y="150" class="wc-sm">열을 내놓아 대기를 데움</text>
+  <line x1="275" y1="95" x2="388.8" y2="73.2" class="wc-mv"/><path d="M395.0,72.0 L388.2,77.9 L386.5,69.0 Z" class="wc-mvh"/>
+  <text x="335" y="70" text-anchor="middle" class="wc-sm">바람에 실려</text>
+  <circle cx="429.2" cy="74.4" r="22.0" class="wc-cloud"/><circle cx="451.2" cy="59.0" r="27.5" class="wc-cloud"/><circle cx="477.6" cy="65.6" r="24.2" class="wc-cloud"/><circle cx="495.2" cy="77.7" r="17.6" class="wc-cloud"/><rect x="429.2" y="70.0" width="66.0" height="25.3" class="wc-cloud" style="stroke:none"/>
+  <line x1="430" y1="98" x2="424" y2="140" class="wc-rain"/>
+  <line x1="452" y1="98" x2="446" y2="116" class="wc-rain"/>
+  <line x1="474" y1="98" x2="468" y2="116" class="wc-rain"/>
+  <line x1="496" y1="98" x2="490" y2="140" class="wc-rain"/>
+  <circle cx="536" cy="40" r="10" class="wc-num"/><text x="536" y="44" text-anchor="middle" class="wc-numt">3</text>
+  <text x="552" y="45" class="wc-lbl">높은 곳에 비·눈</text>
+  <text x="526" y="66" class="wc-ink">→ 물이 위치 에너지를 가짐</text>
+  <path d="M466,138 L440,166 L390,226 L320,294 L262,304" class="wc-river"/>
+  <circle cx="358" cy="262" r="11" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.5"/>
+  <line x1="368.0" y1="262.0" x2="348.0" y2="262.0" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="365.1" y1="269.1" x2="350.9" y2="254.9" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="358.0" y1="272.0" x2="358.0" y2="252.0" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="350.9" y1="269.1" x2="365.1" y2="254.9" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <circle cx="390" cy="318" r="10" class="wc-num"/><text x="390" y="322" text-anchor="middle" class="wc-numt">4</text>
+  <text x="406" y="323" class="wc-lbl">강물이 흐름: 위치 → 운동 에너지</text>
+  <text x="406" y="344" class="wc-ink">흐르는 물로 수차를 돌리면 수력 발전</text>
+  <line x1="470" y1="130" x2="690" y2="130" class="wc-dash"/>
+  <line x1="270" y1="300" x2="690" y2="300" class="wc-dash"/>
+  <line x1="676" y1="134" x2="676" y2="296" class="wc-dim"/>
+  <path d="M676.0,132.0 L680.0,138.9 L672.0,138.9 Z" class="wc-dimh"/><path d="M676.0,298.0 L672.0,291.1 L680.0,291.1 Z" class="wc-dimh"/>
+  <text x="666" y="236" text-anchor="end" class="wc-lbl">높이 차</text>
+  <text x="666" y="254" text-anchor="end" class="wc-ink">클수록 위치</text>
+  <text x="666" y="270" text-anchor="end" class="wc-ink">에너지가 큼</text>
+</svg>

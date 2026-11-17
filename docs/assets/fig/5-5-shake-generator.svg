@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 334" role="img" aria-labelledby="t-5-5-shake-generator d-5-5-shake-generator">
+  <title id="t-5-5-shake-generator">그림 5-5-5 흔들이 발전기 만들기</title>
+  <desc id="d-5-5-shake-generator">투명 플라스틱 관 가운데에 에나멜선을 수백 회 감고, 관 속에 원통형 네오디뮴 자석을 넣어 양 끝을 고무마개로 막는다. 코일의 두 끝에는 LED 2개를 극을 서로 반대로 하여 나란히 연결한다. 관을 흔들면 자석이 코일을 드나들 때마다 방향이 바뀌는 유도 전류가 흘러 두 LED가 번갈아 켜진다. 모식도.</desc>
+  <style>
+    .sg-lbl{font-size:14px;font-weight:700;fill:var(--fig-ink)} .sg-sm{font-size:13px;fill:var(--fig-muted)} .sg-ink{font-size:13px;fill:var(--fig-ink)}
+    .sg-tube{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:2}
+    .sg-plug{fill:var(--fig-muted);stroke:var(--fig-ink);stroke-width:1}
+    .sg-turn{fill:none;stroke:var(--fig-amber);stroke-width:2}
+    .sg-n{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5} .sg-s{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5}
+    .sg-wire{fill:none;stroke:var(--fig-amber);stroke-width:1.8}
+    .sg-led1{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8} .sg-led2{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8}
+    .sg-ar{stroke:var(--fig-green);stroke-width:2.5} .sg-arh{fill:var(--fig-green)}
+    .sg-ptr{stroke:var(--fig-line);stroke-width:1}
+  </style>
+  <rect x="120" y="100" width="440" height="56" rx="6" class="sg-tube"/>
+  <rect x="104" y="96" width="20" height="64" rx="3" class="sg-plug"/>
+  <rect x="556" y="96" width="20" height="64" rx="3" class="sg-plug"/>
+  <rect x="160" y="110" width="34" height="36" class="sg-n"/><rect x="194" y="110" width="34" height="36" class="sg-s"/>
+  <text x="177" y="133" text-anchor="middle" class="sg-lbl" style="fill:var(--fig-red)">N</text>
+  <text x="211" y="133" text-anchor="middle" class="sg-lbl" style="fill:var(--fig-blue)">S</text>
+  <ellipse cx="290" cy="128" rx="4" ry="32" class="sg-turn"/>
+  <ellipse cx="297" cy="128" rx="4" ry="32" class="sg-turn"/>
+  <ellipse cx="304" cy="128" rx="4" ry="32" class="sg-turn"/>
+  <ellipse cx="311" cy="128" rx="4" ry="32" class="sg-turn"/>
+  <ellipse cx="318" cy="128" rx="4" ry="32" class="sg-turn"/>
+  <ellipse cx="325" cy="128" rx="4" ry="32" class="sg-turn"/>
+  <ellipse cx="332" cy="128" rx="4" ry="32" class="sg-turn"/>
+  <ellipse cx="339" cy="128" rx="4" ry="32" class="sg-turn"/>
+  <ellipse cx="346" cy="128" rx="4" ry="32" class="sg-turn"/>
+  <ellipse cx="353" cy="128" rx="4" ry="32" class="sg-turn"/>
+  <ellipse cx="360" cy="128" rx="4" ry="32" class="sg-turn"/>
+  <ellipse cx="367" cy="128" rx="4" ry="32" class="sg-turn"/>
+  <ellipse cx="374" cy="128" rx="4" ry="32" class="sg-turn"/>
+  <ellipse cx="381" cy="128" rx="4" ry="32" class="sg-turn"/>
+  <ellipse cx="388" cy="128" rx="4" ry="32" class="sg-turn"/>
+  <ellipse cx="395" cy="128" rx="4" ry="32" class="sg-turn"/>
+  <ellipse cx="402" cy="128" rx="4" ry="32" class="sg-turn"/>
+  <ellipse cx="409" cy="128" rx="4" ry="32" class="sg-turn"/>
+  <line x1="330" y1="64" x2="462.3" y2="64.0" class="sg-ar"/><path d="M470.0,64.0 L460.5,69.5 L460.5,58.5 Z" class="sg-arh"/>
+  <line x1="330" y1="64" x2="217.7" y2="64.0" class="sg-ar"/><path d="M210.0,64.0 L219.5,58.5 L219.5,69.5 Z" class="sg-arh"/>
+  <text x="340" y="50" text-anchor="middle" class="sg-lbl" style="fill:var(--fig-green)">관을 앞뒤로 세게 흔든다</text>
+  <line x1="194" y1="150" x2="150" y2="196" class="sg-ptr"/><text x="40" y="212" class="sg-ink">원통형 네오디뮴 자석</text>
+  <text x="40" y="230" class="sg-sm">관 속을 오간다</text>
+  <line x1="566" y1="160" x2="600" y2="196" class="sg-ptr"/><text x="560" y="212" class="sg-ink">고무마개</text>
+  <line x1="430" y1="110" x2="470" y2="92" class="sg-ptr"/><text x="476" y="94" class="sg-ink">에나멜선 코일(수백 회)</text>
+  <text x="130" y="88" class="sg-sm">투명 플라스틱 관</text>
+  <path d="M290,160 L290,250 L300,250" class="sg-wire"/>
+  <path d="M409,160 L409,250 L400,250" class="sg-wire"/>
+  <path d="M300,226 L300,274" class="sg-wire"/><path d="M400,226 L400,274" class="sg-wire"/>
+  <path d="M300,226 L400,226" class="sg-wire"/><path d="M300,274 L400,274" class="sg-wire"/>
+  <path d="M338,214 L338,238 L360,226 Z" class="sg-led1"/><line x1="360" y1="214" x2="360" y2="238" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <path d="M362,262 L362,286 L340,274 Z" class="sg-led2"/><line x1="340" y1="262" x2="340" y2="286" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <text x="420" y="232" class="sg-ink">LED ① (한 방향 전류에서 켜짐)</text>
+  <text x="420" y="280" class="sg-ink">LED ② (반대 방향 전류에서 켜짐)</text>
+  <text x="40" y="270" class="sg-ink">극을 서로 반대로</text>
+  <text x="40" y="288" class="sg-ink">나란히 연결</text>
+  <text x="40" y="320" class="sg-sm">자석이 코일로 들어갈 때와 나올 때 유도 전류의 방향이 반대 → 두 LED가 번갈아 켜진다</text>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 550" role="img" aria-labelledby="t-5-1-fox-penguin d-5-1-fox-penguin">
+  <title id="t-5-1-fox-penguin">그림 5-1-4 기온과 동물의 몸 — 알렌 규칙과 베르그만 규칙</title>
+  <desc id="d-5-1-fox-penguin">위: 같은 여우 무리라도 북극여우는 귀가 작고, 온대의 붉은여우는 중간, 사막여우는 귀가 매우 크다(얼굴 크기를 같게 맞추어 귀만 비교한 모식도). 아래: 남극의 황제펭귄(키 약 1.1 m)은 적도 부근의 갈라파고스펭귄(키 약 0.5 m)보다 훨씬 크다(같은 비율). 추운 곳일수록 열을 잃는 표면을 줄이는 쪽이 유리하다.</desc>
+  <style>
+    .fp-ttl{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .fp-lbl{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+    .fp-sm{font-size:13px;fill:var(--fig-muted)}
+    .fp-blue-t{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+    .fp-red-t{font-size:14px;font-weight:700;fill:var(--fig-red)}
+    .fp-arctic{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.8}
+    .fp-red{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8}
+    .fp-fennec{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8}
+    .fp-inner{fill:var(--fig-soft-violet);stroke:none}
+    .fp-ink{fill:var(--fig-ink)}
+    .fp-arr{stroke:var(--fig-muted);stroke-width:2}
+    .fp-arrh{fill:var(--fig-muted)}
+    .fp-sep{stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4}
+    .fp-ground{stroke:var(--fig-line);stroke-width:2}
+    .fp-pg{fill:var(--fig-ink)}
+    .fp-belly{fill:var(--fig-panel)}
+    .fp-beak{fill:var(--fig-amber)}
+  </style>
+<text x="16" y="26" class="fp-ttl">알렌 규칙 — 추운 곳일수록 귀(말단 부위)가 작다</text>
+<path d="M118,114 Q107.0,98.0 101.0,94 Q94,107.6 98,126Z" class="fp-arctic"/>
+<path d="M115,114 Q106.0,99.6 102.0,102 Q98,110.4 101,123Z" class="fp-inner"/>
+<path d="M142,114 Q153.0,98.0 159.0,94 Q166,107.6 162,126Z" class="fp-arctic"/>
+<path d="M145,114 Q154.0,99.6 158.0,102 Q162,110.4 159,123Z" class="fp-inner"/>
+<path d="M90,120 Q130,94 170,120 Q168,150 130,174 Q92,150 90,120Z" class="fp-arctic"/>
+<circle cx="115" cy="132" r="4" class="fp-ink"/><circle cx="145" cy="132" r="4" class="fp-ink"/>
+<ellipse cx="130" cy="166" rx="6" ry="4.5" class="fp-ink"/>
+<text x="130" y="202" text-anchor="middle" class="fp-lbl">북극여우</text>
+<text x="130" y="220" text-anchor="middle" class="fp-sm">북극 툰드라</text>
+<path d="M318,114 Q302.5,80.0 296.5,70 Q288,98.0 292,126Z" class="fp-red"/>
+<path d="M315,114 Q301.5,84.0 297.5,78 Q292,102.0 295,123Z" class="fp-inner"/>
+<path d="M342,114 Q357.5,80.0 363.5,70 Q372,98.0 368,126Z" class="fp-red"/>
+<path d="M345,114 Q358.5,84.0 362.5,78 Q368,102.0 365,123Z" class="fp-inner"/>
+<path d="M290,120 Q330,94 370,120 Q368,150 330,174 Q292,150 290,120Z" class="fp-red"/>
+<circle cx="315" cy="132" r="4" class="fp-ink"/><circle cx="345" cy="132" r="4" class="fp-ink"/>
+<ellipse cx="330" cy="166" rx="6" ry="4.5" class="fp-ink"/>
+<text x="330" y="202" text-anchor="middle" class="fp-lbl">붉은여우</text>
+<text x="330" y="220" text-anchor="middle" class="fp-sm">온대 지역</text>
+<path d="M528,114 Q502.0,41.0 496.0,18 Q484,77.19999999999999 488,126Z" class="fp-fennec"/>
+<path d="M525,114 Q501.0,50.199999999999996 497.0,26 Q488,83.80000000000001 491,123Z" class="fp-inner"/>
+<path d="M552,114 Q578.0,41.0 584.0,18 Q596,77.19999999999999 592,126Z" class="fp-fennec"/>
+<path d="M555,114 Q579.0,50.199999999999996 583.0,26 Q592,83.80000000000001 589,123Z" class="fp-inner"/>
+<path d="M500,120 Q540,94 580,120 Q578,150 540,174 Q502,150 500,120Z" class="fp-fennec"/>
+<circle cx="525" cy="132" r="4" class="fp-ink"/><circle cx="555" cy="132" r="4" class="fp-ink"/>
+<ellipse cx="540" cy="166" rx="6" ry="4.5" class="fp-ink"/>
+<text x="540" y="202" text-anchor="middle" class="fp-lbl">사막여우</text>
+<text x="540" y="220" text-anchor="middle" class="fp-sm">사하라 사막</text>
+<line x1="70" y1="248" x2="640" y2="248" class="fp-arr"/>
+<path d="M652,248 l-12,-6 l0,12Z" class="fp-arrh"/>
+<text x="70" y="270" class="fp-blue-t">춥다</text>
+<text x="652" y="270" text-anchor="end" class="fp-red-t">덥다</text>
+<text x="360" y="270" text-anchor="middle" class="fp-sm">사는 곳의 기온 · 귀가 클수록 열을 내보내는 표면이 넓다</text>
+<line x1="16" y1="290" x2="704" y2="290" class="fp-sep"/>
+<text x="16" y="318" class="fp-ttl">베르그만 규칙 — 추운 곳일수록 몸집이 크다</text>
+<line x1="40" y1="500" x2="680" y2="500" class="fp-ground"/>
+<ellipse cx="170" cy="434.8" rx="32.6" ry="65.2" class="fp-pg"/>
+<ellipse cx="170" cy="441.0" rx="20.9" ry="51.2" class="fp-belly"/>
+<circle cx="170" cy="366.5" r="21.7" class="fp-pg"/>
+<path d="M185.5,363.4 l18.6,4.7 l-18.6,4.7Z" class="fp-beak"/>
+<circle cx="177.8" cy="361.8" r="2.8" class="fp-belly"/>
+<text x="170" y="520" text-anchor="middle" class="fp-lbl">황제펭귄</text>
+<text x="170" y="538" text-anchor="middle" class="fp-sm">남극</text>
+<text x="210.6" y="422.4" class="fp-sm">키 약 1.1 m</text>
+<ellipse cx="460" cy="471.6" rx="14.2" ry="28.3" class="fp-pg"/>
+<ellipse cx="460" cy="474.4" rx="9.1" ry="22.3" class="fp-belly"/>
+<circle cx="460" cy="441.9" r="9.5" class="fp-pg"/>
+<path d="M466.8,440.6 l8.1,2.0 l-8.1,2.0Z" class="fp-beak"/>
+<circle cx="463.4" cy="439.9" r="1.5" class="fp-belly"/>
+<text x="460" y="520" text-anchor="middle" class="fp-lbl">갈라파고스펭귄</text>
+<text x="460" y="538" text-anchor="middle" class="fp-sm">적도 부근</text>
+<text x="482.2" y="466.2" class="fp-sm">키 약 0.5 m</text>
+<text x="704" y="538" text-anchor="end" class="fp-sm">두 펭귄은 같은 비율로 그림</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 318" role="img" aria-labelledby="t-5-4-solar-constant d-5-4-solar-constant">
+  <title id="t-5-4-solar-constant">그림 5-4-4 태양에서 지구까지, 그리고 태양 상수</title>
+  <desc id="d-5-4-solar-constant">(가) 태양 에너지는 사방으로 퍼져 나가며 진공인 우주 공간을 복사로 건너 약 1억 5천만 km 떨어진 지구에 약 8분 20초 만에 도착한다. (나) 대기 맨 위에서 햇빛에 수직으로 세운 넓이 1 m²의 면이 1초 동안 받는 에너지는 약 1360 J이며, 이를 태양 상수라고 한다. 모식도(태양과 지구의 크기, 거리의 비율은 실제와 다름).</desc>
+  <style>
+    .sc-lbl{font-size:15px;font-weight:700;fill:var(--fig-ink)} .sc-sm{font-size:13px;fill:var(--fig-muted)} .sc-ink{font-size:13px;fill:var(--fig-ink)}
+    .sc-sun{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+    .sc-ray{stroke:var(--fig-amber);stroke-width:2} .sc-rayh{fill:var(--fig-amber)}
+    .sc-earth{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2}
+    .sc-atm{fill:none;stroke:var(--fig-teal);stroke-width:1.5;stroke-dasharray:5 4}
+    .sc-dim{stroke:var(--fig-ink);stroke-width:1.2} .sc-dimh{fill:var(--fig-ink)}
+    .sc-sq{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2}
+    .sc-box{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1}
+  </style>
+  <text x="20" y="26" class="sc-lbl">(가) 태양 에너지는 복사로 우주를 건너온다</text>
+  <path d="M20,50 A120,120 0 0 1 20,290 Z" class="sc-sun"/>
+  <path d="M20,60 A110,110 0 0 1 20,280" style="fill:none;stroke:var(--fig-amber);stroke-width:1;stroke-dasharray:3 4"/>
+  <text x="34" y="176" class="sc-lbl">태양</text>
+  <line x1="102.3" y1="71.9" x2="138.0" y2="29.3" class="sc-ray"/><path d="M142.1,24.5 L140.5,33.4 L133.6,27.6 Z" class="sc-rayh"/>
+  <line x1="136.0" y1="115.9" x2="186.5" y2="92.4" class="sc-ray"/><path d="M192.2,89.7 L187.0,97.1 L183.2,88.9 Z" class="sc-rayh"/>
+  <line x1="148.0" y1="170.0" x2="203.7" y2="170.0" class="sc-ray"/><path d="M210.0,170.0 L202.2,174.5 L202.2,165.5 Z" class="sc-rayh"/>
+  <line x1="136.0" y1="224.1" x2="186.5" y2="247.6" class="sc-ray"/><path d="M192.2,250.3 L183.2,251.1 L187.0,242.9 Z" class="sc-rayh"/>
+  <line x1="102.3" y1="268.1" x2="138.0" y2="310.7" class="sc-ray"/><path d="M142.1,315.5 L133.6,312.4 L140.5,306.6 Z" class="sc-rayh"/>
+  <text x="128" y="306" class="sc-sm">사방으로 퍼져 나감</text>
+  <circle cx="440" cy="170" r="20" class="sc-earth"/>
+  <circle cx="440" cy="170" r="27" class="sc-atm"/>
+  <text x="440" y="222" text-anchor="middle" class="sc-lbl">지구</text>
+  <text x="440" y="240" text-anchor="middle" class="sc-sm">(점선: 대기)</text>
+  <line x1="220" y1="170" x2="401.0" y2="170.0" class="sc-ray"/><path d="M408.0,170.0 L399.3,175.0 L399.3,165.0 Z" class="sc-rayh"/>
+  <text x="314" y="160" text-anchor="middle" class="sc-ink">진공 → 복사로만 전달</text>
+  <line x1="140" y1="268" x2="440" y2="268" class="sc-dim"/>
+  <path d="M140.0,268.0 L146.9,264.0 L146.9,272.0 Z" class="sc-dimh"/><path d="M440.0,268.0 L433.1,272.0 L433.1,264.0 Z" class="sc-dimh"/>
+  <line x1="440" y1="250" x2="440" y2="276" class="sc-dim"/>
+  <text x="300" y="260" text-anchor="middle" class="sc-ink">약 1억 5천만 km</text>
+  <text x="300" y="290" text-anchor="middle" class="sc-ink">빛으로 약 8분 20초</text>
+  <line x1="465" y1="152" x2="500" y2="70" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 3"/>
+  <line x1="465" y1="188" x2="500" y2="290" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 3"/>
+  <rect x="500" y="40" width="208" height="260" rx="8" class="sc-box"/>
+  <text x="604" y="62" text-anchor="middle" class="sc-lbl">(나) 대기 맨 위에서</text>
+  <line x1="512" y1="110" x2="586.4" y2="110.0" class="sc-ray"/><path d="M592.0,110.0 L585.1,114.0 L585.1,106.0 Z" class="sc-rayh"/>
+  <line x1="512" y1="140" x2="586.4" y2="140.0" class="sc-ray"/><path d="M592.0,140.0 L585.1,144.0 L585.1,136.0 Z" class="sc-rayh"/>
+  <line x1="512" y1="170" x2="586.4" y2="170.0" class="sc-ray"/><path d="M592.0,170.0 L585.1,174.0 L585.1,166.0 Z" class="sc-rayh"/>
+  <line x1="512" y1="200" x2="586.4" y2="200.0" class="sc-ray"/><path d="M592.0,200.0 L585.1,204.0 L585.1,196.0 Z" class="sc-rayh"/>
+  <line x1="512" y1="230" x2="586.4" y2="230.0" class="sc-ray"/><path d="M592.0,230.0 L585.1,234.0 L585.1,226.0 Z" class="sc-rayh"/>
+  <text x="550" y="96" text-anchor="middle" class="sc-sm">햇빛</text>
+  <path d="M600,98 L628,84 L628,226 L600,240 Z" class="sc-sq"/>
+  <text x="640" y="150" class="sc-ink">1 m²</text>
+  <text x="640" y="168" class="sc-sm">빛에 수직</text>
+  <text x="604" y="264" text-anchor="middle" class="sc-ink" style="font-weight:700">1초에 약 1360 J</text>
+  <text x="604" y="284" text-anchor="middle" class="sc-sm">= 태양 상수 약 1360 W/m²</text>
+</svg>

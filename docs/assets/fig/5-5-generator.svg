@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 352" role="img" aria-labelledby="t-5-5-generator d-5-5-generator">
+  <title id="t-5-5-generator">그림 5-5-4 발전기의 구조와 만들어지는 교류</title>
+  <desc id="d-5-5-generator">(가) 터빈이 회전축을 돌리면 자석의 N극과 S극 사이에서 코일이 회전하고, 코일을 지나는 자기장의 세기가 계속 변해 유도 전류가 흐른다. 전류는 회전축의 고리를 거쳐 바깥의 전구로 나간다. (나) 코일이 한 바퀴 도는 동안 전류는 한 방향으로 흘렀다가 반대 방향으로 흐르며, 이것이 되풀이되는 교류가 만들어진다. 모식도(실제 발전소의 발전기는 전자석을 돌리는 구조가 많음).</desc>
+  <style>
+    .gn-lbl{font-size:15px;font-weight:700;fill:var(--fig-ink)} .gn-sm{font-size:13px;fill:var(--fig-muted)} .gn-ink{font-size:13px;fill:var(--fig-ink)}
+    .gn-n{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2} .gn-s{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2}
+    .gn-pole{font-size:20px;font-weight:700}
+    .gn-fl{stroke:var(--fig-line);stroke-width:1.3;stroke-dasharray:5 4} .gn-flh{fill:var(--fig-line)}
+    .gn-coil{fill:none;stroke:var(--fig-amber);stroke-width:3;stroke-linejoin:round}
+    .gn-coil2{fill:none;stroke:var(--fig-amber);stroke-width:1.5;stroke-linejoin:round}
+    .gn-axis{stroke:var(--fig-ink);stroke-width:4;stroke-linecap:round}
+    .gn-wire{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
+    .gn-ring{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5}
+    .gn-rot{fill:none;stroke:var(--fig-green);stroke-width:2.2} .gn-roth{fill:var(--fig-green)}
+    .gn-turb{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5}
+    .gn-bulb{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8}
+    .gn-ax{stroke:var(--fig-ink);stroke-width:1.4} .gn-axh{fill:var(--fig-ink)}
+    .gn-wave{fill:none;stroke:var(--fig-red);stroke-width:2.5}
+    .gn-pos{fill:var(--fig-soft-red)} .gn-neg{fill:var(--fig-soft-blue)}
+  </style>
+  <text x="20" y="26" class="gn-lbl">(가) 발전기의 구조</text>
+  <rect x="140" y="44" width="170" height="44" rx="4" class="gn-n"/>
+  <text x="225" y="73" text-anchor="middle" class="gn-pole" style="fill:var(--fig-red)">N</text>
+  <rect x="140" y="272" width="170" height="44" rx="4" class="gn-s"/>
+  <text x="225" y="301" text-anchor="middle" class="gn-pole" style="fill:var(--fig-blue)">S</text>
+  <line x1="152" y1="94" x2="152.0" y2="260.4" class="gn-fl"/><path d="M152.0,266.0 L148.0,259.1 L156.0,259.1 Z" class="gn-flh"/>
+  <line x1="182" y1="94" x2="182.0" y2="260.4" class="gn-fl"/><path d="M182.0,266.0 L178.0,259.1 L186.0,259.1 Z" class="gn-flh"/>
+  <line x1="268" y1="94" x2="268.0" y2="260.4" class="gn-fl"/><path d="M268.0,266.0 L264.0,259.1 L272.0,259.1 Z" class="gn-flh"/>
+  <line x1="298" y1="94" x2="298.0" y2="260.4" class="gn-fl"/><path d="M298.0,266.0 L294.0,259.1 L302.0,259.1 Z" class="gn-flh"/>
+  <text x="318" y="112" class="gn-sm">자기장</text>
+  <path d="M212.9,152.1 L282.9,152.1 L237.1,207.9 L167.1,207.9 Z" class="gn-coil"/>
+  <path d="M216.0,154.3 L276.0,154.3 L234.0,205.7 L174.0,205.7 Z" class="gn-coil2"/>
+  <text x="225" y="250" text-anchor="middle" class="gn-ink" style="font-weight:700;fill:var(--fig-amber)">코일</text>
+  <line x1="96" y1="180" x2="190" y2="180" class="gn-axis"/>
+  <line x1="260" y1="180" x2="352" y2="180" class="gn-axis"/>
+  <path d="M70,180 L102.7,170.6 L102.7,189.4 Z" class="gn-turb"/>
+  <path d="M70,180 L94.5,203.6 L78.2,213.0 Z" class="gn-turb"/>
+  <path d="M70,180 L61.8,213.0 L45.5,203.6 Z" class="gn-turb"/>
+  <path d="M70,180 L37.3,189.4 L37.3,170.6 Z" class="gn-turb"/>
+  <path d="M70,180 L45.5,156.4 L61.8,147.0 Z" class="gn-turb"/>
+  <path d="M70,180 L78.2,147.0 L94.5,156.4 Z" class="gn-turb"/>
+  <circle cx="70" cy="180" r="7" style="fill:var(--fig-ink)"/>
+  <text x="70" y="236" text-anchor="middle" class="gn-ink" style="font-weight:700">터빈</text>
+  <text x="70" y="254" text-anchor="middle" class="gn-sm">물·증기·바람이</text>
+  <text x="70" y="270" text-anchor="middle" class="gn-sm">돌림</text>
+  <text x="70" y="294" text-anchor="middle" class="gn-ink">운동 에너지</text>
+  <text x="70" y="310" text-anchor="middle" class="gn-ink">공급</text>
+  <path d="M118,152 A12,30 0 1 1 112,206" class="gn-rot"/><path d="M112.0,206.0 L120.9,204.4 L117.8,212.9 Z" class="gn-roth"/>
+  <text x="128" y="140" class="gn-sm" style="fill:var(--fig-green)">회전</text>
+  <ellipse cx="330" cy="180" rx="5" ry="13" class="gn-ring"/>
+  <ellipse cx="346" cy="180" rx="5" ry="13" class="gn-ring"/>
+  <path d="M330,167 L330,140 L390,140 L390,158" class="gn-wire"/>
+  <path d="M346,193 L346,222 L390,222 L390,202" class="gn-wire"/>
+  <circle cx="390" cy="180" r="18" class="gn-bulb"/>
+  <path d="M382,186 L386,174 L390,184 L394,174 L398,186" style="fill:none;stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="390" y="250" text-anchor="middle" class="gn-ink" style="font-weight:700">전구</text>
+  <text x="390" y="268" text-anchor="middle" class="gn-ink">전기 에너지</text>
+  <line x1="436" y1="36" x2="436" y2="320" style="stroke:var(--fig-line);stroke-width:1"/>
+  <text x="452" y="26" class="gn-lbl">(나) 코일에 흐르는 전류</text>
+  <line x1="470" y1="290" x2="470" y2="72" class="gn-ax"/><path d="M470.0,66.0 L474.5,73.8 L465.5,73.8 Z" class="gn-axh"/>
+  <line x1="470" y1="190" x2="700" y2="190" class="gn-ax"/><path d="M706.0,190.0 L698.2,194.5 L698.2,185.5 Z" class="gn-axh"/>
+  <text x="478" y="76" class="gn-ink">전류</text>
+  <text x="704" y="212" text-anchor="end" class="gn-ink">시간</text>
+  <text x="462" y="136" text-anchor="end" class="gn-ink">+</text>
+  <text x="462" y="250" text-anchor="end" class="gn-ink">−</text>
+  <path d="M470.0,190.0 L472.0,181.2 L474.0,172.6 L476.0,164.2 L478.0,156.3 L480.0,148.9 L482.0,142.1 L484.0,136.1 L486.0,130.9 L488.0,126.7 L490.0,123.4 L492.0,121.2 L494.0,120.1 L496.0,120.1 L498.0,121.2 L500.0,123.4 L502.0,126.7 L504.0,130.9 L506.0,136.1 L508.0,142.1 L510.0,148.9 L512.0,156.3 L514.0,164.2 L516.0,172.6 L518.0,181.2 L520.0,190.0 L522.0,198.8 L524.0,207.4 L526.0,215.8 L528.0,223.7 L530.0,231.1 L532.0,237.9 L534.0,243.9 L536.0,249.1 L538.0,253.3 L540.0,256.6 L542.0,258.8 L544.0,259.9 L546.0,259.9 L548.0,258.8 L550.0,256.6 L552.0,253.3 L554.0,249.1 L556.0,243.9 L558.0,237.9 L560.0,231.1 L562.0,223.7 L564.0,215.8 L566.0,207.4 L568.0,198.8 L570.0,190.0 L572.0,181.2 L574.0,172.6 L576.0,164.2 L578.0,156.3 L580.0,148.9 L582.0,142.1 L584.0,136.1 L586.0,130.9 L588.0,126.7 L590.0,123.4 L592.0,121.2 L594.0,120.1 L596.0,120.1 L598.0,121.2 L600.0,123.4 L602.0,126.7 L604.0,130.9 L606.0,136.1 L608.0,142.1 L610.0,148.9 L612.0,156.3 L614.0,164.2 L616.0,172.6 L618.0,181.2 L620.0,190.0 L622.0,198.8 L624.0,207.4 L626.0,215.8 L628.0,223.7 L630.0,231.1 L632.0,237.9 L634.0,243.9 L636.0,249.1 L638.0,253.3 L640.0,256.6 L642.0,258.8 L644.0,259.9 L646.0,259.9 L648.0,258.8 L650.0,256.6 L652.0,253.3 L654.0,249.1 L656.0,243.9 L658.0,237.9 L660.0,231.1 L662.0,223.7 L664.0,215.8 L666.0,207.4 L668.0,198.8 L670.0,190.0" class="gn-wave"/>
+  <text x="495" y="112" text-anchor="middle" class="gn-ink" style="fill:var(--fig-red)">한 방향</text>
+  <text x="545" y="282" text-anchor="middle" class="gn-ink" style="fill:var(--fig-red)">반대 방향</text>
+  <line x1="470" y1="292" x2="570" y2="292" class="gn-ax"/><path d="M470.0,292.0 L476.1,288.5 L476.1,295.5 Z" class="gn-axh"/><path d="M570.0,292.0 L563.9,295.5 L563.9,288.5 Z" class="gn-axh"/>
+  <line x1="570" y1="282" x2="570" y2="300" class="gn-ax"/>
+  <text x="520.0" y="312" text-anchor="middle" class="gn-ink">코일 한 바퀴</text>
+  <text x="452" y="340" class="gn-ink">방향이 주기적으로 바뀌는 전류 → <tspan style="font-weight:700">교류</tspan></text>
+  <text x="20" y="340" class="gn-sm">코일이 돌면 코일을 지나는 자기장이 세졌다 약해졌다 한다</text>
+</svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-4-2-variation-sources d-4-2-variation-sources">
+  <title id="t-4-2-variation-sources">그림 4-2-3 유전적 변이가 생기는 세 가지 원인</title>
+  <desc id="d-4-2-variation-sources">① 돌연변이로 DNA의 염기 하나가 바뀌면 새로운 유전자가 생길 수 있다. ② 생식세포가 만들어질 때 부모에게서 받은 염색체 쌍(파란색은 아버지, 빨간색은 어머니에게서 받은 것)이 무작위로 나뉘어 들어가, 염색체 두 쌍만으로도 네 가지 생식세포가 생긴다. ③ 어떤 정자와 어떤 난자가 수정할지도 무작위여서 조합이 더욱 다양해진다. 염색체 수를 줄인 모식도.</desc>
+  <style>
+    .vs-h{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+    .vs-t{font-size:13px;fill:var(--fig-ink)}
+    .vs-mu{font-size:13px;fill:var(--fig-muted)}
+    .vs-box{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1}
+    .vs-base{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1}
+    .vs-mut{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2}
+    .vs-b{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .vs-cell{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5}
+    .vs-p{fill:var(--fig-blue);stroke:none}
+    .vs-m{fill:var(--fig-red);stroke:none}
+    .vs-arr{fill:none;stroke:var(--fig-ink);stroke-width:1.5}
+    .vs-arrh{fill:var(--fig-ink)}
+  </style>
+  <rect x="8" y="8" width="220" height="324" rx="6" class="vs-box"/>
+  <rect x="236" y="8" width="252" height="324" rx="6" class="vs-box"/>
+  <rect x="496" y="8" width="216" height="324" rx="6" class="vs-box"/>
+  <text x="118" y="32" text-anchor="middle" class="vs-h">① 돌연변이</text>
+  <text x="362" y="32" text-anchor="middle" class="vs-h">② 생식세포 형성</text>
+  <text x="604" y="32" text-anchor="middle" class="vs-h">③ 수정</text>
+  <text x="118" y="64" text-anchor="middle" class="vs-mu">원래 염기 서열</text>
+  <rect x="22" y="74" width="28" height="28" rx="4" class="vs-base"/><text x="36" y="94" text-anchor="middle" class="vs-b">A</text>
+  <rect x="54" y="74" width="28" height="28" rx="4" class="vs-base"/><text x="68" y="94" text-anchor="middle" class="vs-b">T</text>
+  <rect x="86" y="74" width="28" height="28" rx="4" class="vs-base"/><text x="100" y="94" text-anchor="middle" class="vs-b">G</text>
+  <rect x="118" y="74" width="28" height="28" rx="4" class="vs-base"/><text x="132" y="94" text-anchor="middle" class="vs-b">C</text>
+  <rect x="150" y="74" width="28" height="28" rx="4" class="vs-base"/><text x="164" y="94" text-anchor="middle" class="vs-b">C</text>
+  <rect x="182" y="74" width="28" height="28" rx="4" class="vs-base"/><text x="196" y="94" text-anchor="middle" class="vs-b">A</text>
+  <path d="M118 112 V146" class="vs-arr"/><path d="M112 142 L118 154 L124 142 Z" class="vs-arrh"/>
+  <text x="128" y="128" class="vs-mu">복제 오류,</text><text x="128" y="144" class="vs-mu" dx="0">자외선 등</text>
+  <rect x="22" y="160" width="28" height="28" rx="4" class="vs-base"/><text x="36" y="180" text-anchor="middle" class="vs-b">A</text>
+  <rect x="54" y="160" width="28" height="28" rx="4" class="vs-base"/><text x="68" y="180" text-anchor="middle" class="vs-b">T</text>
+  <rect x="86" y="160" width="28" height="28" rx="4" class="vs-base"/><text x="100" y="180" text-anchor="middle" class="vs-b">G</text>
+  <rect x="118" y="160" width="28" height="28" rx="4" class="vs-base"/><text x="132" y="180" text-anchor="middle" class="vs-b">C</text>
+  <rect x="150" y="160" width="28" height="28" rx="4" class="vs-mut"/><text x="164" y="180" text-anchor="middle" class="vs-b">T</text>
+  <rect x="182" y="160" width="28" height="28" rx="4" class="vs-base"/><text x="196" y="180" text-anchor="middle" class="vs-b">A</text>
+  <text x="118" y="218" text-anchor="middle" class="vs-t">염기 하나가 바뀜</text>
+  <text x="118" y="250" text-anchor="middle" class="vs-t">→ 다른 단백질이 만들어져</text>
+  <text x="118" y="270" text-anchor="middle" class="vs-t">새로운 형질이 나타날 수 있다</text>
+  <text x="118" y="308" text-anchor="middle" class="vs-mu">새로운 유전자의 근본 원천</text>
+  <circle cx="362" cy="100" r="44" class="vs-cell"/>
+  <rect x="334" y="80.0" width="8" height="40" rx="4" class="vs-p"/>
+  <rect x="346" y="80.0" width="8" height="40" rx="4" class="vs-m"/>
+  <rect x="370" y="88.0" width="8" height="24" rx="4" class="vs-p"/>
+  <rect x="382" y="88.0" width="8" height="24" rx="4" class="vs-m"/>
+  <text x="414" y="76" class="vs-mu">부모에게서</text><text x="414" y="92" class="vs-mu">받은 염색체</text><text x="414" y="108" class="vs-mu">2쌍</text>
+  <path d="M362 146 L266 198" class="vs-arr" style="stroke:var(--fig-line)"/>
+  <circle cx="266" cy="228" r="25" class="vs-cell"/>
+  <rect x="255" y="213.0" width="8" height="30" rx="4" class="vs-p"/>
+  <rect x="269" y="219.0" width="8" height="18" rx="4" class="vs-p"/>
+  <path d="M362 146 L330 198" class="vs-arr" style="stroke:var(--fig-line)"/>
+  <circle cx="330" cy="228" r="25" class="vs-cell"/>
+  <rect x="319" y="213.0" width="8" height="30" rx="4" class="vs-p"/>
+  <rect x="333" y="219.0" width="8" height="18" rx="4" class="vs-m"/>
+  <path d="M362 146 L394 198" class="vs-arr" style="stroke:var(--fig-line)"/>
+  <circle cx="394" cy="228" r="25" class="vs-cell"/>
+  <rect x="383" y="213.0" width="8" height="30" rx="4" class="vs-m"/>
+  <rect x="397" y="219.0" width="8" height="18" rx="4" class="vs-p"/>
+  <path d="M362 146 L458 198" class="vs-arr" style="stroke:var(--fig-line)"/>
+  <circle cx="458" cy="228" r="25" class="vs-cell"/>
+  <rect x="447" y="213.0" width="8" height="30" rx="4" class="vs-m"/>
+  <rect x="461" y="219.0" width="8" height="18" rx="4" class="vs-m"/>
+  <text x="362" y="282" text-anchor="middle" class="vs-t">각 쌍에서 어느 쪽이 들어갈지 무작위</text>
+  <text x="362" y="302" text-anchor="middle" class="vs-t">→ 두 쌍만으로도 생식세포 4가지</text>
+  <rect x="262" y="314" width="10" height="10" rx="2" class="vs-p"/><text x="276" y="324" class="vs-mu">아버지에게서</text>
+  <rect x="372" y="314" width="10" height="10" rx="2" class="vs-m"/><text x="386" y="324" class="vs-mu">어머니에게서</text>
+  <text x="604" y="62" text-anchor="middle" class="vs-t">정자 4가지 중 하나</text>
+  <text x="604" y="80" text-anchor="middle" class="vs-t">× 난자 4가지 중 하나</text>
+  <circle cx="650" cy="150" r="34" class="vs-cell"/>
+  <text x="650" y="155" text-anchor="middle" class="vs-t">난자</text>
+  <ellipse cx="560" cy="150" rx="12" ry="8" class="vs-cell"/>
+  <path d="M548 150 Q538 142 530 150 T512 150" class="vs-arr"/>
+  <path d="M574 150 H608" class="vs-arr"/><path d="M604 144 L614 150 L604 156 Z" class="vs-arrh"/>
+  <text x="560" y="178" text-anchor="middle" class="vs-t">정자</text>
+  <text x="604" y="226" text-anchor="middle" class="vs-t">어떤 정자와 어떤 난자가</text>
+  <text x="604" y="246" text-anchor="middle" class="vs-t">만날지도 무작위</text>
+  <text x="604" y="276" text-anchor="middle" class="vs-b">4 × 4 = 16가지 조합</text>
+  <text x="604" y="308" text-anchor="middle" class="vs-mu">→ 형제자매도 서로 다르다</text>
+</svg>
