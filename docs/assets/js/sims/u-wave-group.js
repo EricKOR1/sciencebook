@@ -74,9 +74,10 @@ Sims.register('u-wave-group', {
       var yc = mid - amp * 0.5 * (Math.cos(k1 * xc - o1 * tt) + Math.cos(k2 * xc - o2 * tt));
       ctx.beginPath(); ctx.arc(sx(xc), yc, 6, 0, Math.PI * 2); ctx.fillStyle = T.figRed; ctx.fill();
       ctx.beginPath(); ctx.arc(sx(xg), mid - amp - 10, 6, 0, Math.PI * 2); ctx.fillStyle = T.figAccent; ctx.fill();
+      var ly = cv.w < 560 ? r.y + 32 : r.y + 14;
       ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'right';
-      ctx.fillStyle = T.figRed; ctx.fillText('● 마루: c', R, r.y + 14);
-      ctx.fillStyle = T.figAccent; ctx.fillText('● 파군 중심: c_g', R - 80, r.y + 14);
+      ctx.fillStyle = T.figRed; ctx.fillText('● 마루: c', R, ly);
+      ctx.fillStyle = T.figAccent; ctx.fillText('● 파군 중심: c_g', R - 80, ly);
       ctx.fillStyle = T.figMuted; ctx.textAlign = 'left'; ctx.fillText('진행 방향 →', L, r.y + r.h - 4);
     }
     function plot(T, r) {
