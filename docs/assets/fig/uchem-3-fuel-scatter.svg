@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-uchem-3-fuel-scatter d-uchem-3-fuel-scatter">
+  <title id="t-uchem-3-fuel-scatter">그림 일반화학 3-7 연료 값과 같은 에너지당 CO₂ 배출</title>
+  <desc id="d-uchem-3-fuel-scatter">STEP 3 ⑩ 표의 연료를 연료 값(kJ/g, 가로)과 1 MJ당 CO₂ 배출(g, 세로)로 찍었다. 오른쪽일수록 질량당 열이 크고 아래일수록 같은 열을 얻을 때 CO₂가 적다. 알케인은 H/C 비가 클수록(옥테인 → 프로페인 → 메테인) 오른쪽 아래로 가고, 산소를 포함한 에탄올·포도당은 연료 값이 작아 왼쪽에 있다. 수소는 탄소가 없어 배출이 0이다(물은 액체로 생성된다고 본 값).</desc>
+  <style>
+    .uchem-3-fuel-scatter-t{font-size:14px;fill:var(--fig-ink)}
+    .uchem-3-fuel-scatter-s{font-size:13px;fill:var(--fig-muted)}
+    .uchem-3-fuel-scatter-b{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+
+  </style>
+  <line x1="90.0" y1="320.0" x2="686.0" y2="320.0" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+  <line x1="90.0" y1="320.0" x2="90.0" y2="42.0" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+  <line x1="90.0" y1="320.0" x2="90.0" y2="325.0" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="90.0" y="340.0" text-anchor="middle" class="uchem-3-fuel-scatter-s">0</text>
+  <line x1="188.3" y1="320.0" x2="188.3" y2="325.0" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="188.3" y="340.0" text-anchor="middle" class="uchem-3-fuel-scatter-s">25</text>
+  <line x1="188.3" y1="320.0" x2="188.3" y2="50.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:2 4"/>
+  <line x1="286.7" y1="320.0" x2="286.7" y2="325.0" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="286.7" y="340.0" text-anchor="middle" class="uchem-3-fuel-scatter-s">50</text>
+  <line x1="286.7" y1="320.0" x2="286.7" y2="50.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:2 4"/>
+  <line x1="385.0" y1="320.0" x2="385.0" y2="325.0" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="385.0" y="340.0" text-anchor="middle" class="uchem-3-fuel-scatter-s">75</text>
+  <line x1="385.0" y1="320.0" x2="385.0" y2="50.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:2 4"/>
+  <line x1="483.3" y1="320.0" x2="483.3" y2="325.0" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="483.3" y="340.0" text-anchor="middle" class="uchem-3-fuel-scatter-s">100</text>
+  <line x1="483.3" y1="320.0" x2="483.3" y2="50.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:2 4"/>
+  <line x1="581.7" y1="320.0" x2="581.7" y2="325.0" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="581.7" y="340.0" text-anchor="middle" class="uchem-3-fuel-scatter-s">125</text>
+  <line x1="581.7" y1="320.0" x2="581.7" y2="50.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:2 4"/>
+  <line x1="680.0" y1="320.0" x2="680.0" y2="325.0" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="680.0" y="340.0" text-anchor="middle" class="uchem-3-fuel-scatter-s">150</text>
+  <line x1="680.0" y1="320.0" x2="680.0" y2="50.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:2 4"/>
+  <line x1="85.0" y1="320.0" x2="90.0" y2="320.0" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="81.0" y="325.0" text-anchor="end" class="uchem-3-fuel-scatter-s">0</text>
+  <line x1="85.0" y1="275.0" x2="90.0" y2="275.0" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="81.0" y="280.0" text-anchor="end" class="uchem-3-fuel-scatter-s">20</text>
+  <line x1="90.0" y1="275.0" x2="680.0" y2="275.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:2 4"/>
+  <line x1="85.0" y1="230.0" x2="90.0" y2="230.0" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="81.0" y="235.0" text-anchor="end" class="uchem-3-fuel-scatter-s">40</text>
+  <line x1="90.0" y1="230.0" x2="680.0" y2="230.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:2 4"/>
+  <line x1="85.0" y1="185.0" x2="90.0" y2="185.0" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="81.0" y="190.0" text-anchor="end" class="uchem-3-fuel-scatter-s">60</text>
+  <line x1="90.0" y1="185.0" x2="680.0" y2="185.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:2 4"/>
+  <line x1="85.0" y1="140.0" x2="90.0" y2="140.0" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="81.0" y="145.0" text-anchor="end" class="uchem-3-fuel-scatter-s">80</text>
+  <line x1="90.0" y1="140.0" x2="680.0" y2="140.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:2 4"/>
+  <line x1="85.0" y1="95.0" x2="90.0" y2="95.0" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="81.0" y="100.0" text-anchor="end" class="uchem-3-fuel-scatter-s">100</text>
+  <line x1="90.0" y1="95.0" x2="680.0" y2="95.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:2 4"/>
+  <line x1="85.0" y1="50.0" x2="90.0" y2="50.0" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="81.0" y="55.0" text-anchor="end" class="uchem-3-fuel-scatter-s">120</text>
+  <line x1="90.0" y1="50.0" x2="680.0" y2="50.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:2 4"/>
+  <text x="680.0" y="364.0" text-anchor="end" class="uchem-3-fuel-scatter-s">연료 값 (kJ/g)</text>
+  <text x="34" y="185.0" text-anchor="middle" class="uchem-3-fuel-scatter-s" transform="rotate(-90 34 185.0)">CO₂ 배출 (g/MJ)</text>
+  <circle cx="647.7" cy="320.0" r="6.0" style="fill:var(--fig-teal);stroke:var(--fig-panel);stroke-width:1.5"/>
+  <text x="647.7" y="306.0" text-anchor="middle" class="uchem-3-fuel-scatter-t">수소</text>
+  <circle cx="308.3" cy="208.8" r="6.0" style="fill:var(--fig-blue);stroke:var(--fig-panel);stroke-width:1.5"/>
+  <text x="318.3" y="213.8" class="uchem-3-fuel-scatter-t">메테인</text>
+  <circle cx="287.8" cy="186.1" r="6.0" style="fill:var(--fig-blue);stroke:var(--fig-panel);stroke-width:1.5"/>
+  <text x="297.8" y="194.1" class="uchem-3-fuel-scatter-t">프로페인</text>
+  <circle cx="278.4" cy="175.1" r="6.0" style="fill:var(--fig-blue);stroke:var(--fig-panel);stroke-width:1.5"/>
+  <text x="288.4" y="169.1" class="uchem-3-fuel-scatter-t">옥테인</text>
+  <circle cx="206.8" cy="175.1" r="6.0" style="fill:var(--fig-amber);stroke:var(--fig-panel);stroke-width:1.5"/>
+  <text x="196.8" y="180.1" text-anchor="end" class="uchem-3-fuel-scatter-t">에탄올</text>
+  <circle cx="219.0" cy="68.0" r="6.0" style="fill:var(--fig-red);stroke:var(--fig-panel);stroke-width:1.5"/>
+  <text x="229.0" y="73.0" class="uchem-3-fuel-scatter-t">탄소(석탄)</text>
+  <circle cx="151.4" cy="108.0" r="6.0" style="fill:var(--fig-amber);stroke:var(--fig-panel);stroke-width:1.5"/>
+  <text x="161.4" y="113.0" class="uchem-3-fuel-scatter-t">포도당</text>
+  <rect x="400.0" y="56.0" width="270.0" height="104.0" rx="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <text x="414.0" y="80.0" class="uchem-3-fuel-scatter-t">알케인(파랑): H/C 비가 클수록</text>
+  <text x="414.0" y="100.0" class="uchem-3-fuel-scatter-t">오른쪽 아래 — 메테인이 가장 유리</text>
+  <text x="414.0" y="126.0" class="uchem-3-fuel-scatter-t">산소를 포함한 연료(주황):</text>
+  <text x="414.0" y="146.0" class="uchem-3-fuel-scatter-t">이미 산화되어 연료 값이 작다</text>
+</svg>

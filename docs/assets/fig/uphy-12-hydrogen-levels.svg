@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 395" role="img" aria-labelledby="t-uphy-12-hydrogen-levels d-uphy-12-hydrogen-levels">
+  <title id="t-uphy-12-hydrogen-levels">그림 일반물리학 12-7 수소 원자의 에너지 준위와 스펙트럼 계열</title>
+  <desc id="d-uphy-12-hydrogen-levels">수소 원자의 에너지 준위 E_n = −13.6 eV/n²을 실제 비율로 그렸다. n이 커질수록 준위 사이가 좁아져 0 eV(n = ∞, 이온화)로 모인다. n = 1로 내려오는 전이가 라이먼 계열(자외선, 예: 2 → 1은 10.2 eV, 122 nm), n = 2로 내려오는 전이가 발머 계열(가시광선 포함, 예: 3 → 2는 656 nm), n = 3으로 내려오는 전이가 파셴 계열(적외선)이다. 각 준위의 상태 수는 스핀까지 2n²이다.</desc>
+  <style>
+    .u12h-t{font-size:14px;fill:var(--fig-ink)} .u12h-b{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .u12h-s{font-size:13px;fill:var(--fig-muted)} .u12h-sm{font-size:13px;fill:var(--fig-ink)}
+    .u12h-h{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+  </style>
+<line x1="150.0" y1="50.0" x2="560.0" y2="50.0" style="stroke:var(--fig-ink);stroke-width:1.4;stroke-dasharray:5 4;fill:none"/>
+<text x="568.0" y="55.0" class="u12h-sm">n = ∞</text>
+<line x1="150.0" y1="349.2" x2="560.0" y2="349.2" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
+<text x="568.0" y="354.2" class="u12h-sm">n = 1</text>
+<text x="142.0" y="354.2" text-anchor="end" class="u12h-s">−13.60 eV</text>
+<text x="650.0" y="354.2" class="u12h-s">2n² = 2</text>
+<line x1="150.0" y1="124.8" x2="560.0" y2="124.8" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
+<text x="568.0" y="129.8" class="u12h-sm">n = 2</text>
+<text x="142.0" y="129.8" text-anchor="end" class="u12h-s">−3.40 eV</text>
+<text x="650.0" y="129.8" class="u12h-s">2n² = 8</text>
+<line x1="150.0" y1="83.2" x2="560.0" y2="83.2" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
+<text x="568.0" y="88.2" class="u12h-sm">n = 3</text>
+<text x="142.0" y="88.2" text-anchor="end" class="u12h-s">−1.51 eV</text>
+<text x="650.0" y="88.2" class="u12h-s">2n² = 18</text>
+<line x1="150.0" y1="68.7" x2="560.0" y2="68.7" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
+<text x="568.0" y="73.7" class="u12h-sm">n = 4</text>
+<line x1="150.0" y1="62.0" x2="560.0" y2="62.0" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/>
+<line x1="150.0" y1="58.3" x2="560.0" y2="58.3" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/>
+<text x="142.0" y="55.0" text-anchor="end" class="u12h-s">0 eV</text>
+<text x="142.0" y="77.7" text-anchor="end" class="u12h-s">−0.85</text>
+<text x="650.0" y="77.7" class="u12h-s">32</text>
+<line x1="185.0" y1="124.8" x2="185.0" y2="341.7" style="stroke:var(--fig-violet);stroke-width:2;fill:none"/>
+<path d="M185.0 349.2 L181.4 341.2 L188.6 341.2 Z" style="fill:var(--fig-violet);stroke:none"/>
+<line x1="203.0" y1="83.2" x2="203.0" y2="341.7" style="stroke:var(--fig-violet);stroke-width:2;fill:none"/>
+<path d="M203.0 349.2 L199.4 341.2 L206.6 341.2 Z" style="fill:var(--fig-violet);stroke:none"/>
+<line x1="221.0" y1="68.7" x2="221.0" y2="341.7" style="stroke:var(--fig-violet);stroke-width:2;fill:none"/>
+<path d="M221.0 349.2 L217.4 341.2 L224.6 341.2 Z" style="fill:var(--fig-violet);stroke:none"/>
+<line x1="239.0" y1="50.0" x2="239.0" y2="341.7" style="stroke:var(--fig-violet);stroke-width:2;fill:none"/>
+<path d="M239.0 349.2 L235.4 341.2 L242.6 341.2 Z" style="fill:var(--fig-violet);stroke:none"/>
+<line x1="320.0" y1="83.2" x2="320.0" y2="117.3" style="stroke:var(--fig-green);stroke-width:2;fill:none"/>
+<path d="M320.0 124.8 L316.4 116.8 L323.6 116.8 Z" style="fill:var(--fig-green);stroke:none"/>
+<line x1="338.0" y1="68.7" x2="338.0" y2="117.3" style="stroke:var(--fig-green);stroke-width:2;fill:none"/>
+<path d="M338.0 124.8 L334.4 116.8 L341.6 116.8 Z" style="fill:var(--fig-green);stroke:none"/>
+<line x1="356.0" y1="62.0" x2="356.0" y2="117.3" style="stroke:var(--fig-green);stroke-width:2;fill:none"/>
+<path d="M356.0 124.8 L352.4 116.8 L359.6 116.8 Z" style="fill:var(--fig-green);stroke:none"/>
+<line x1="374.0" y1="58.3" x2="374.0" y2="117.3" style="stroke:var(--fig-green);stroke-width:2;fill:none"/>
+<path d="M374.0 124.8 L370.4 116.8 L377.6 116.8 Z" style="fill:var(--fig-green);stroke:none"/>
+<line x1="455.0" y1="68.7" x2="455.0" y2="75.7" style="stroke:var(--fig-amber);stroke-width:2;fill:none"/>
+<path d="M455.0 83.2 L451.4 75.2 L458.6 75.2 Z" style="fill:var(--fig-amber);stroke:none"/>
+<line x1="473.0" y1="62.0" x2="473.0" y2="75.7" style="stroke:var(--fig-amber);stroke-width:2;fill:none"/>
+<path d="M473.0 83.2 L469.4 75.2 L476.6 75.2 Z" style="fill:var(--fig-amber);stroke:none"/>
+<text x="215.0" y="371.2" text-anchor="middle" class="u12h-sm" style="fill:var(--fig-violet)">라이먼 계열 (자외선)</text>
+<text x="178.0" y="260.0" text-anchor="end" class="u12h-s">Lyα 2→1</text>
+<text x="178.0" y="276.0" text-anchor="end" class="u12h-s">10.2 eV · 122 nm</text>
+<line x1="180.0" y1="268.0" x2="184.0" y2="268.0" style="stroke:var(--fig-muted);stroke-width:1;fill:none"/>
+<text x="347.0" y="146.8" text-anchor="middle" class="u12h-sm" style="fill:var(--fig-green)">발머 계열 (가시광선 포함)</text>
+<text x="314.0" y="112.0" text-anchor="end" class="u12h-s">Hα 3→2</text>
+<text x="314.0" y="128.0" text-anchor="end" class="u12h-s">656 nm</text>
+<text x="464.0" y="105.2" text-anchor="middle" class="u12h-sm" style="fill:var(--fig-amber)">파셴 계열 (적외선)</text>
+<line x1="540.0" y1="349.2" x2="540.0" y2="57.5" style="stroke:var(--fig-ink);stroke-width:1.4;stroke-dasharray:4 3;fill:none"/>
+<path d="M540.0 50.0 L543.6 58.0 L536.4 58.0 Z" style="fill:var(--fig-ink);stroke:none"/>
+<text x="534.0" y="220.0" text-anchor="end" class="u12h-s">이온화</text>
+<text x="534.0" y="236.0" text-anchor="end" class="u12h-s">13.6 eV</text>
+<text x="650.0" y="30.0" class="u12h-s">상태 수</text>
+</svg>

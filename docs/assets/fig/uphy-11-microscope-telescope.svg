@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img" aria-labelledby="t-uphy-11-microscope-telescope d-uphy-11-microscope-telescope">
+  <title id="t-uphy-11-microscope-telescope">그림 일반물리학 11-7 복합 현미경과 굴절 망원경의 광선 경로</title>
+  <desc id="d-uphy-11-microscope-telescope">(가) 복합 현미경: 물체를 대물렌즈의 초점 F_ob 바로 바깥에 두면 거꾸로 선 확대 실상이 생기고, 그 실상이 접안렌즈의 초점 F_e에 오도록 하면 접안렌즈를 나온 빛이 나란해져 눈은 무한대에 있는 큰 허상을 본다. 대물렌즈의 뒤 초점과 접안렌즈의 앞 초점 사이가 경통 길이 s이다. (나) 굴절 망원경: 먼 별에서 각 θ로 들어온 나란한 빛이 대물렌즈의 초점면에 실상을 맺고, 두 렌즈 사이는 f_ob + f_e이다. 접안렌즈를 나온 빛은 더 큰 각 θ′로 나아가며 각배율은 θ′/θ = f_ob/f_e이고 상은 거꾸로 선다. 크기와 각을 과장한 모식도이다.</desc>
+  <style>
+    .u11m-t{font-size:14px;fill:var(--fig-ink)} .u11m-b{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .u11m-s{font-size:13px;fill:var(--fig-muted)} .u11m-sm{font-size:13px;fill:var(--fig-ink)}
+    .u11m-h{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+  </style>
+<text x="14.0" y="26.0" class="u11m-h">(가) 복합 현미경</text>
+<line x1="30.0" y1="110.0" x2="500.0" y2="110.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:6 4;fill:none"/>
+<path d="M150 70 Q159 110 150 150 Q141 110 150 70 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+<path d="M410 22 Q419 110 410 198 Q401 110 410 22 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+<text x="150.0" y="62.0" text-anchor="middle" class="u11m-s">대물렌즈</text>
+<text x="410.0" y="18.0" text-anchor="middle" class="u11m-s">접안렌즈</text>
+<circle cx="110.0" cy="110.0" r="3" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1"/>
+<text x="110.0" y="128.0" text-anchor="middle" class="u11m-s">F_ob</text>
+<circle cx="190.0" cy="110.0" r="3" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1"/>
+<text x="190.0" y="101.0" text-anchor="middle" class="u11m-s">F′_ob</text>
+<circle cx="350.0" cy="110.0" r="3" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1"/>
+<text x="350.0" y="101.0" text-anchor="middle" class="u11m-s">F_e</text>
+<line x1="100.0" y1="110.0" x2="100.0" y2="102.5" style="stroke:var(--fig-green);stroke-width:2.5;fill:none"/>
+<path d="M100.0 96.0 L103.2 103.0 L96.8 103.0 Z" style="fill:var(--fig-green);stroke:none"/>
+<text x="96.0" y="92.0" text-anchor="end" class="u11m-s">물체</text>
+<line x1="350.0" y1="110.0" x2="350.0" y2="158.5" style="stroke:var(--fig-violet);stroke-width:2.5;fill:none"/>
+<path d="M350.0 166.0 L346.4 158.0 L353.6 158.0 Z" style="fill:var(--fig-violet);stroke:none"/>
+<text x="340.0" y="190.0" text-anchor="end" class="u11m-s" style="fill:var(--fig-violet)">중간 실상</text>
+<path d="M100.0 96.0 L150.0 96.0 L350.0 166.0 L410.0 187.0" style="fill:none;stroke:var(--fig-red);stroke-width:1.6"/>
+<path d="M100.0 96.0 L150.0 110.0 L350.0 166.0 L410.0 182.8" style="fill:none;stroke:var(--fig-amber);stroke-width:1.6"/>
+<line x1="410.0" y1="187.0" x2="474.5" y2="126.8" style="stroke:var(--fig-red);stroke-width:1.6;fill:none"/>
+<path d="M480.0 121.7 L476.6 129.8 L471.7 124.5 Z" style="fill:var(--fig-red);stroke:none"/>
+<line x1="410.0" y1="182.8" x2="474.5" y2="122.6" style="stroke:var(--fig-amber);stroke-width:1.6;fill:none"/>
+<path d="M480.0 117.5 L476.6 125.6 L471.7 120.3 Z" style="fill:var(--fig-amber);stroke:none"/>
+<line x1="270.0" y1="84.0" x2="340.5" y2="84.0" style="stroke:var(--fig-muted);stroke-width:1.1;fill:none"/>
+<path d="M346.0 84.0 L340.0 86.7 L340.0 81.3 Z" style="fill:var(--fig-muted);stroke:none"/>
+<line x1="270.0" y1="84.0" x2="199.5" y2="84.0" style="stroke:var(--fig-muted);stroke-width:1.1;fill:none"/>
+<path d="M194.0 84.0 L200.0 81.3 L200.0 86.7 Z" style="fill:var(--fig-muted);stroke:none"/>
+<text x="270.0" y="78.0" text-anchor="middle" class="u11m-s">s (경통 길이)</text>
+<text x="436.0" y="200.0" class="u11m-s">나란한 빛 → 눈</text>
+<text x="530.0" y="120.0" class="u11m-sm">M ≈ −(s/f_ob)·(25 cm/f_e)</text>
+<text x="530.0" y="142.0" class="u11m-s">대물렌즈: 확대 실상</text>
+<text x="530.0" y="160.0" class="u11m-s">접안렌즈: 확대경처럼 봄</text>
+<line x1="14.0" y1="222.0" x2="706.0" y2="222.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4;fill:none"/>
+<text x="14.0" y="248.0" class="u11m-h">(나) 굴절 망원경</text>
+<line x1="20.0" y1="330.0" x2="500.0" y2="330.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:6 4;fill:none"/>
+<path d="M100 272 Q109 330 100 388 Q91 330 100 272 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+<path d="M350 278 Q359 330 350 382 Q341 330 350 278 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+<text x="110.0" y="280.0" class="u11m-s">대물렌즈</text>
+<text x="350.0" y="270.0" text-anchor="middle" class="u11m-s">접안렌즈</text>
+<circle cx="300.0" cy="330.0" r="3" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1"/>
+<text x="300.0" y="321.0" text-anchor="middle" class="u11m-s">F′_ob = F_e</text>
+<line x1="20.0" y1="280.4" x2="100.0" y2="290.0" style="stroke:var(--fig-red);stroke-width:1.6;fill:none"/>
+<path d="M100.0 290.0 L300.0 354.0 L350.0 370.0" style="fill:none;stroke:var(--fig-red);stroke-width:1.6"/>
+<line x1="350.0" y1="370.0" x2="433.2" y2="330.0" style="stroke:var(--fig-red);stroke-width:1.6;fill:none"/>
+<path d="M440.0 326.8 L434.3 333.5 L431.2 327.0 Z" style="fill:var(--fig-red);stroke:none"/>
+<line x1="20.0" y1="320.4" x2="100.0" y2="330.0" style="stroke:var(--fig-amber);stroke-width:1.6;fill:none"/>
+<path d="M100.0 330.0 L300.0 354.0 L350.0 360.0" style="fill:none;stroke:var(--fig-amber);stroke-width:1.6"/>
+<line x1="350.0" y1="360.0" x2="433.2" y2="320.0" style="stroke:var(--fig-amber);stroke-width:1.6;fill:none"/>
+<path d="M440.0 316.8 L434.3 323.5 L431.2 317.0 Z" style="fill:var(--fig-amber);stroke:none"/>
+<line x1="20.0" y1="360.4" x2="100.0" y2="370.0" style="stroke:var(--fig-teal);stroke-width:1.6;fill:none"/>
+<path d="M100.0 370.0 L300.0 354.0 L350.0 350.0" style="fill:none;stroke:var(--fig-teal);stroke-width:1.6"/>
+<line x1="350.0" y1="350.0" x2="433.2" y2="310.0" style="stroke:var(--fig-teal);stroke-width:1.6;fill:none"/>
+<path d="M440.0 306.8 L434.3 313.5 L431.2 307.0 Z" style="fill:var(--fig-teal);stroke:none"/>
+<line x1="300.0" y1="330.0" x2="300.0" y2="347.5" style="stroke:var(--fig-violet);stroke-width:2.5;fill:none"/>
+<path d="M300.0 354.0 L296.9 347.0 L303.1 347.0 Z" style="fill:var(--fig-violet);stroke:none"/>
+<text x="296.0" y="370.0" text-anchor="end" class="u11m-s" style="fill:var(--fig-violet)">실상</text>
+<path d="M145.7 335.5 A46 46 0 0 0 146.0 330.0" style="fill:none;stroke:var(--fig-ink);stroke-width:1.2"/>
+<text x="152.0" y="348.0" class="u11m-sm">θ</text>
+<line x1="200.0" y1="402.0" x2="294.5" y2="402.0" style="stroke:var(--fig-muted);stroke-width:1.1;fill:none"/>
+<path d="M300.0 402.0 L294.0 404.7 L294.0 399.3 Z" style="fill:var(--fig-muted);stroke:none"/>
+<line x1="200.0" y1="402.0" x2="105.5" y2="402.0" style="stroke:var(--fig-muted);stroke-width:1.1;fill:none"/>
+<path d="M100.0 402.0 L106.0 399.3 L106.0 404.7 Z" style="fill:var(--fig-muted);stroke:none"/>
+<text x="200.0" y="396.0" text-anchor="middle" class="u11m-s">f_ob</text>
+<line x1="325.0" y1="402.0" x2="344.5" y2="402.0" style="stroke:var(--fig-muted);stroke-width:1.1;fill:none"/>
+<path d="M350.0 402.0 L344.0 404.7 L344.0 399.3 Z" style="fill:var(--fig-muted);stroke:none"/>
+<line x1="325.0" y1="402.0" x2="305.5" y2="402.0" style="stroke:var(--fig-muted);stroke-width:1.1;fill:none"/>
+<path d="M300.0 402.0 L306.0 399.3 L306.0 404.7 Z" style="fill:var(--fig-muted);stroke:none"/>
+<text x="325.0" y="420.0" text-anchor="middle" class="u11m-s">f_e</text>
+<text x="452.0" y="292.0" class="u11m-sm">θ′</text>
+<text x="530.0" y="312.0" class="u11m-sm">m_θ = θ′/θ = −f_ob/f_e</text>
+<text x="530.0" y="334.0" class="u11m-s">두 렌즈 사이 ≈ f_ob + f_e</text>
+<text x="530.0" y="352.0" class="u11m-s">상은 거꾸로 선다</text>
+</svg>

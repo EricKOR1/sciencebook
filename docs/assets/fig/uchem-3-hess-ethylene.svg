@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-uchem-3-hess-ethylene d-uchem-3-hess-ethylene">
+  <title id="t-uchem-3-hess-ethylene">그림 일반화학 3-5 헤스 법칙 — 연소 엔탈피로 에틸렌의 수화 엔탈피 구하기</title>
+  <desc id="d-uchem-3-hess-ethylene">맨 위 준위(C₂H₄ + H₂O + 3O₂)에서 연소 (가)로 바로 내려가면 −1411.0 kJ이다. 같은 바닥 준위에서 (나)를 뒤집어 올라가면 +1366.8 kJ이고 C₂H₅OH + 3O₂ 준위에 닿는다. 두 단계를 이은 경로의 합이 목표 반응의 ΔH = −44.2 kJ이다. 위 두 준위 사이 간격은 실제 비율보다 크게 그린 모식도이다.</desc>
+  <style>
+    .uchem-3-hess-ethylene-t{font-size:14px;fill:var(--fig-ink)}
+    .uchem-3-hess-ethylene-s{font-size:13px;fill:var(--fig-muted)}
+    .uchem-3-hess-ethylene-b{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+
+  </style>
+  <line x1="50.0" y1="320.0" x2="50.0" y2="40.0" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+  <path d="M50 32 l-6 12 h12 z" style="fill:var(--fig-ink);stroke:none;stroke-width:0"/>
+  <text x="34" y="190" text-anchor="middle" class="uchem-3-hess-ethylene-t" transform="rotate(-90 34 190)">엔탈피 H</text>
+  <line x1="80.0" y1="76.0" x2="420.0" y2="76.0" style="stroke:var(--fig-ink);stroke-width:3.5"/>
+  <text x="86.0" y="64.0" class="uchem-3-hess-ethylene-t">C₂H₄(g) + H₂O(l) + 3O₂(g)</text>
+  <line x1="330.0" y1="126.0" x2="680.0" y2="126.0" style="stroke:var(--fig-ink);stroke-width:3.5"/>
+  <text x="400.0" y="150.0" class="uchem-3-hess-ethylene-t">C₂H₅OH(l) + 3O₂(g)</text>
+  <line x1="80.0" y1="300.0" x2="680.0" y2="300.0" style="stroke:var(--fig-ink);stroke-width:3.5"/>
+  <text x="380.0" y="326.0" text-anchor="middle" class="uchem-3-hess-ethylene-t">2CO₂(g) + 3H₂O(l)</text>
+  <line x1="160.0" y1="79.0" x2="160.0" y2="284.0" style="stroke:var(--fig-blue);stroke-width:3"/>
+  <path d="M160.0 297.0 L153.5 284.0 L166.5 284.0 Z" style="fill:var(--fig-blue)"/>
+  <text x="172.0" y="200.0" class="uchem-3-hess-ethylene-t" style="fill:var(--fig-blue);font-weight:600">(가) 그대로</text>
+  <text x="172.0" y="220.0" class="uchem-3-hess-ethylene-t" style="fill:var(--fig-blue)">−1411.0 kJ</text>
+  <line x1="600.0" y1="297.0" x2="600.0" y2="142.0" style="stroke:var(--fig-red);stroke-width:3"/>
+  <path d="M600.0 129.0 L606.5 142.0 L593.5 142.0 Z" style="fill:var(--fig-red)"/>
+  <text x="588.0" y="200.0" text-anchor="end" class="uchem-3-hess-ethylene-t" style="fill:var(--fig-red);font-weight:600">(나)를 뒤집음</text>
+  <text x="588.0" y="220.0" text-anchor="end" class="uchem-3-hess-ethylene-t" style="fill:var(--fig-red)">+1366.8 kJ</text>
+  <line x1="375.0" y1="79.0" x2="375.0" y2="112.0" style="stroke:var(--fig-accent);stroke-width:3"/>
+  <path d="M375.0 123.0 L369.5 112.0 L380.5 112.0 Z" style="fill:var(--fig-accent)"/>
+  <text x="386.0" y="106.0" class="uchem-3-hess-ethylene-t" style="fill:var(--fig-accent);font-weight:600">목표 ΔH = −1411.0 + 1366.8 = −44.2 kJ</text>
+  <text x="380.0" y="346.0" text-anchor="middle" class="uchem-3-hess-ethylene-s">위 두 준위 사이 간격은 과장(모식도)</text>
+</svg>

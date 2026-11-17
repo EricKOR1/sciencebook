@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-uphy-9-loop-torque d-uphy-9-loop-torque">
+  <title id="t-uphy-9-loop-torque">그림 일반물리학 9-6 균일한 자기장 속 직사각형 전류 고리가 받는 토크</title>
+  <desc id="d-uphy-9-loop-torque">(가) 고리 면이 자기장 B와 나란할 때(θ = 90°): B와 나란한 위아래 변(길이 a)은 힘을 받지 않고, 길이 b인 두 옆 변은 크기 IbB인 힘을 종이 면 안쪽(⊗)과 바깥쪽(⊙)으로 반대로 받아 세로축을 중심으로 돈다. (나) 위에서 내려다본 모습: 두 옆 변(⊙, ⊗)이 받는 힘은 크기가 같고 방향이 반대이며 작용선이 a sin θ만큼 떨어져 있어 토크 τ = IabB sin θ가 생긴다. 고리는 법선(자기 쌍극자 모멘트 μ)이 B와 나란해지는 쪽으로 돈다. 모식도이다.</desc>
+  <style>.uphy-9-loop-torque-t{font-size:14px;fill:var(--fig-ink)} .uphy-9-loop-torque-b{font-size:14px;fill:var(--fig-ink);font-weight:700} .uphy-9-loop-torque-s{font-size:13px;fill:var(--fig-muted)} .uphy-9-loop-torque-ax{stroke:var(--fig-ink);stroke-width:1.5;fill:none} .uphy-9-loop-torque-grid{stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4;fill:none}</style>
+  <rect x="8" y="8" width="344" height="364" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="368" y="8" width="344" height="364" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="24" y="32" class="uphy-9-loop-torque-b">(가) 정면: θ = 90°</text>
+  <text x="384" y="32" class="uphy-9-loop-torque-b">(나) 위에서 본 모습</text>
+  <line x1="24" y1="60" x2="328" y2="60" style="stroke:var(--fig-blue);stroke-width:1.6"/>
+  <path d="M336 60 L327 64 L327 56 Z" style="fill:var(--fig-blue)"/>
+  <line x1="24" y1="330" x2="328" y2="330" style="stroke:var(--fig-blue);stroke-width:1.6"/>
+  <path d="M336 330 L327 334.1 L327 325.9 Z" style="fill:var(--fig-blue)"/>
+  <text x="336" y="52" text-anchor="end" class="uphy-9-loop-torque-b" style="fill:var(--fig-blue)">B</text>
+  <rect x="100" y="100" width="160" height="190" style="fill:none;stroke:var(--fig-accent);stroke-width:3"/>
+  <path d="M100 189 L105.8 202 L94.2 202 Z" style="fill:var(--fig-accent)"/>
+  <path d="M186 100 L173 105.8 L173 94.2 Z" style="fill:var(--fig-accent)"/>
+  <path d="M260 201 L254.2 188 L265.9 188 Z" style="fill:var(--fig-accent)"/>
+  <path d="M174 290 L187 284.1 L187 295.9 Z" style="fill:var(--fig-accent)"/>
+  <text x="180" y="90" text-anchor="middle" class="uphy-9-loop-torque-s">a (B와 나란함 → 힘 0)</text>
+  <text x="90" y="130" text-anchor="end" class="uphy-9-loop-torque-s">b</text>
+  <text x="92" y="235" text-anchor="end" class="uphy-9-loop-torque-b" style="fill:var(--fig-accent)">I</text>
+  <line x1="180" y1="98" x2="180" y2="308" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:6 4"/>
+  <text x="186" y="310" class="uphy-9-loop-torque-s">회전축</text>
+  <circle cx="66" cy="195" r="11" style="fill:var(--fig-paper);stroke:var(--fig-red);stroke-width:1.8"/>
+  <path d="M59.4 188.4 L72.6 201.6 M59.4 201.6 L72.6 188.4" style="stroke:var(--fig-red);stroke-width:1.8;fill:none"/>
+  <circle cx="294" cy="195" r="11" style="fill:var(--fig-paper);stroke:var(--fig-red);stroke-width:1.8"/>
+  <circle cx="294" cy="195" r="3.3" style="fill:var(--fig-red)"/>
+  <text x="66" y="225" text-anchor="middle" class="uphy-9-loop-torque-s" style="fill:var(--fig-red)">F 안쪽</text>
+  <text x="294" y="225" text-anchor="middle" class="uphy-9-loop-torque-s" style="fill:var(--fig-red)">F 바깥쪽</text>
+  <text x="294" y="243" text-anchor="middle" class="uphy-9-loop-torque-s">(IbB)</text>
+  <text x="66" y="243" text-anchor="middle" class="uphy-9-loop-torque-s">(IbB)</text>
+  <line x1="384" y1="70" x2="688" y2="70" style="stroke:var(--fig-blue);stroke-width:1.6"/>
+  <path d="M696 70 L687 74 L687 66 Z" style="fill:var(--fig-blue)"/>
+  <line x1="384" y1="320" x2="688" y2="320" style="stroke:var(--fig-blue);stroke-width:1.6"/>
+  <path d="M696 320 L687 324.1 L687 315.9 Z" style="fill:var(--fig-blue)"/>
+  <text x="696" y="62" text-anchor="end" class="uphy-9-loop-torque-b" style="fill:var(--fig-blue)">B</text>
+  <line x1="472.5" y1="146.8" x2="587.5" y2="243.2" style="stroke:var(--fig-accent);stroke-width:4"/>
+  <line x1="530" y1="195" x2="575" y2="141.4" style="stroke:var(--fig-violet);stroke-width:2.6"/>
+  <path d="M581.4 133.7 L578.1 145.3 L570.6 139 Z" style="fill:var(--fig-violet)"/>
+  <text x="587.4" y="129.7" class="uphy-9-loop-torque-t" style="fill:var(--fig-violet)">μ (법선)</text>
+  <line x1="530" y1="195" x2="630" y2="195" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 4"/>
+  <path d="M564 195 A34 34 0 0 0 551.9 169" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/>
+  <text x="570" y="185" class="uphy-9-loop-torque-t">θ</text>
+  <line x1="472.5" y1="134.8" x2="472.5" y2="86.8" style="stroke:var(--fig-red);stroke-width:3"/>
+  <path d="M472.5 76.8 L477.5 87.8 L467.6 87.8 Z" style="fill:var(--fig-red)"/>
+  <line x1="587.5" y1="255.2" x2="587.5" y2="303.2" style="stroke:var(--fig-red);stroke-width:3"/>
+  <path d="M587.5 313.2 L582.5 302.2 L592.4 302.2 Z" style="fill:var(--fig-red)"/>
+  <circle cx="472.5" cy="146.8" r="10" style="fill:var(--fig-paper);stroke:var(--fig-accent);stroke-width:1.8"/>
+  <circle cx="472.5" cy="146.8" r="3" style="fill:var(--fig-accent)"/>
+  <circle cx="587.5" cy="243.2" r="10" style="fill:var(--fig-paper);stroke:var(--fig-accent);stroke-width:1.8"/>
+  <path d="M581.5 237.2 L593.5 249.2 M581.5 249.2 L593.5 237.2" style="stroke:var(--fig-accent);stroke-width:1.8;fill:none"/>
+  <text x="464.5" y="90.8" text-anchor="end" class="uphy-9-loop-torque-t" style="fill:var(--fig-red)">IbB</text>
+  <text x="595.5" y="307.2" class="uphy-9-loop-torque-t" style="fill:var(--fig-red)">IbB</text>
+  <line x1="472.5" y1="160.8" x2="472.5" y2="306" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:3 3"/>
+  <line x1="587.5" y1="317.2" x2="587.5" y2="306" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:3 3"/>
+  <line x1="530" y1="300" x2="479.5" y2="300" style="stroke:var(--fig-ink);stroke-width:1.3"/>
+  <path d="M472.5 300 L480.5 296.4 L480.5 303.6 Z" style="fill:var(--fig-ink)"/>
+  <line x1="530" y1="300" x2="580.5" y2="300" style="stroke:var(--fig-ink);stroke-width:1.3"/>
+  <path d="M587.5 300 L579.5 303.6 L579.5 296.4 Z" style="fill:var(--fig-ink)"/>
+  <text x="530" y="294" text-anchor="middle" class="uphy-9-loop-torque-s">a sin θ</text>
+  <text x="384" y="352" class="uphy-9-loop-torque-s">τ = IbB · a sin θ = IAB sin θ, 회전은 μ가 B 쪽으로</text>
+</svg>

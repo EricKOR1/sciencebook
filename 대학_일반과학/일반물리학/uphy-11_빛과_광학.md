@@ -371,6 +371,8 @@ $$
 m_\theta = -\frac{f_{\text{대물}}}{f_{\text{접안}}}
 $$
 
+<!-- fig:uphy-11-microscope-telescope -->
+
 | 망원경에서 중요한 것 | 무엇으로 정해지나 |
 |---|---|
 | 각배율 | $f_{\text{대물}}/f_{\text{접안}}$ |
@@ -394,6 +396,8 @@ $$
 $$
 \Delta y = \frac{\lambda L}{d}
 $$
+
+<!-- fig:uphy-11-double-slit-geometry -->
 
 #### 밝기 분포
 
@@ -483,6 +487,8 @@ $$
 
 실제 이중 슬릿의 무늬는 이중 슬릿 간섭 $\cos^2$에 단일 슬릿 회절 $(\sin\alpha/\alpha)^2$이 곱해진 모양이다. 회절 무늬가 큰 '봉투'가 되고, 그 안에 간섭무늬가 촘촘히 들어 있다.
 
+<!-- fig:uphy-11-single-slit-pattern -->
+
 #### 예제 8 — 단일 슬릿의 중앙 무늬
 
 폭 $0.10\ \mathrm{mm}$인 슬릿에 파장 $633\ \mathrm{nm}$ 레이저를 비추고 $2.0\ \mathrm{m}$ 떨어진 스크린에서 본다. 중앙 밝은 무늬의 폭은? 슬릿 폭을 절반으로 줄이면?
@@ -503,6 +509,8 @@ $$
 $$
 \theta_R \approx 1.22\frac{\lambda}{D}
 $$
+
+<!-- fig:uphy-11-rayleigh-criterion -->
 
 #### 예제 9 — 눈과 망원경의 분해능
 

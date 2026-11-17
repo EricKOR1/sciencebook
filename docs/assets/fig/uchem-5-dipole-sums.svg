@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-uchem-5-dipole-sums d-uchem-5-dipole-sums">
+  <title id="t-uchem-5-dipole-sums">그림 일반화학 5-6 결합 쌍극자의 벡터 합과 분자의 극성</title>
+  <desc id="d-uchem-5-dipole-sums">빨간 화살표는 결합 쌍극자(δ+ 쪽 꼬리의 + 표시에서 δ− 쪽으로), 파란 굵은 화살표는 분자 전체의 쌍극자이다. NH₃는 세 N–H 쌍극자가 모두 N 쪽(위)을 향하고 비공유 전자쌍도 같은 쪽에 있어 1.47 D로 크다. NF₃는 N–F 쌍극자가 F 쪽(아래)을 향해 위쪽의 비공유 전자쌍 효과와 거의 상쇄되어 0.23 D에 그친다. 1,2-다이클로로에텐은 두 C–Cl 쌍극자가 같은 쪽에 있는 cis형은 극성(약 1.9 D), 정반대인 trans형은 상쇄되어 무극성(0 D)이다. 모식도이다.</desc>
+  <style>
+    .uchem-5-dipole-sums-t{font-size:14px;fill:var(--fig-ink)}
+    .uchem-5-dipole-sums-s{font-size:13px;fill:var(--fig-muted)}
+    .uchem-5-dipole-sums-b{font-size:15px;fill:var(--fig-ink);font-weight:bold}
+    .uchem-5-dipole-sums-ax{stroke:var(--fig-ink);stroke-width:1.2;fill:none}
+    .uchem-5-dipole-sums-gr{stroke:var(--fig-line);stroke-width:0.6;fill:none;stroke-dasharray:2 3}
+
+    .uchem-5-dipole-sums-bd{stroke:var(--fig-ink);stroke-width:2.2;fill:none}
+    .uchem-5-dipole-sums-N{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.4}
+    .uchem-5-dipole-sums-H{fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.4}
+    .uchem-5-dipole-sums-F{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.4}
+    .uchem-5-dipole-sums-C{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.4}
+    .uchem-5-dipole-sums-lp{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2}
+    .uchem-5-dipole-sums-dot{fill:var(--fig-violet)}
+    .uchem-5-dipole-sums-dv{stroke:var(--fig-red);stroke-width:1.8;fill:none}
+    .uchem-5-dipole-sums-dh{fill:var(--fig-red)}
+    .uchem-5-dipole-sums-net{stroke:var(--fig-accent);stroke-width:4;fill:none}
+    .uchem-5-dipole-sums-nh{fill:var(--fig-accent)}
+    .uchem-5-dipole-sums-el{font-size:13px;fill:var(--fig-ink);font-weight:bold}
+    .uchem-5-dipole-sums-sep{stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 3}
+  </style>
+  <line x1="180" y1="20" x2="180" y2="320" class="uchem-5-dipole-sums-sep"/>
+  <line x1="360" y1="20" x2="360" y2="320" class="uchem-5-dipole-sums-sep"/>
+  <line x1="540" y1="20" x2="540" y2="320" class="uchem-5-dipole-sums-sep"/>
+  <text x="90.0" y="32.0" text-anchor="middle" class="uchem-5-dipole-sums-b" >NH₃ (삼각뿔형)</text>
+  <ellipse cx="78" cy="92" rx="9" ry="15" class="uchem-5-dipole-sums-lp"/>
+  <circle cx="74.5" cy="92" r="1.8" class="uchem-5-dipole-sums-dot"/><circle cx="81.5" cy="92" r="1.8" class="uchem-5-dipole-sums-dot"/>
+  <line x1="78" y1="128" x2="28" y2="172" class="uchem-5-dipole-sums-bd"/>
+  <line x1="78" y1="128" x2="128" y2="172" class="uchem-5-dipole-sums-bd"/>
+  <line x1="78" y1="128" x2="88" y2="200" class="uchem-5-dipole-sums-bd"/>
+  <circle cx="78.0" cy="128.0" r="15" class="uchem-5-dipole-sums-N"/>
+  <text x="78.0" y="132.5" text-anchor="middle" class="uchem-5-dipole-sums-el">N</text>
+  <circle cx="28.0" cy="172.0" r="13" class="uchem-5-dipole-sums-H"/>
+  <text x="28.0" y="176.5" text-anchor="middle" class="uchem-5-dipole-sums-el">H</text>
+  <circle cx="128.0" cy="172.0" r="13" class="uchem-5-dipole-sums-H"/>
+  <text x="128.0" y="176.5" text-anchor="middle" class="uchem-5-dipole-sums-el">H</text>
+  <circle cx="88.0" cy="200.0" r="13" class="uchem-5-dipole-sums-H"/>
+  <text x="88.0" y="204.5" text-anchor="middle" class="uchem-5-dipole-sums-el">H</text>
+  <line x1="46.1" y1="173.4" x2="74.1" y2="148.8" class="uchem-5-dipole-sums-dv"/>
+  <path d="M77.1 146.1 L74.0 152.4 L70.4 148.3 Z" class="uchem-5-dipole-sums-dh"/>
+  <line x1="53.9" y1="173.2" x2="47.3" y2="165.7" class="uchem-5-dipole-sums-dv"/>
+  <line x1="127.1" y1="153.9" x2="99.1" y2="129.2" class="uchem-5-dipole-sums-dv"/>
+  <path d="M96.1 126.6 L102.7 128.8 L99.1 132.9 Z" class="uchem-5-dipole-sums-dh"/>
+  <line x1="125.9" y1="146.2" x2="119.3" y2="153.7" class="uchem-5-dipole-sums-dv"/>
+  <line x1="99.0" y1="184.5" x2="93.3" y2="143.9" class="uchem-5-dipole-sums-dv"/>
+  <path d="M92.8 139.9 L96.4 145.9 L91.0 146.7 Z" class="uchem-5-dipole-sums-dh"/>
+  <line x1="103.1" y1="177.9" x2="93.2" y2="179.3" class="uchem-5-dipole-sums-dv"/>
+  <line x1="152" y1="190" x2="152" y2="108" class="uchem-5-dipole-sums-net"/>
+  <path d="M152.0 100.0 L157.1 112.0 L146.9 112.0 Z" class="uchem-5-dipole-sums-nh"/>
+  <text x="152.0" y="92.0" text-anchor="middle" class="uchem-5-dipole-sums-t" >1.47 D</text>
+  <text x="90.0" y="250.0" text-anchor="middle" class="uchem-5-dipole-sums-s" >N–H 쌍극자(N 쪽)와</text>
+  <text x="90.0" y="268.0" text-anchor="middle" class="uchem-5-dipole-sums-s" >비공유 전자쌍이 같은 쪽</text>
+  <text x="90.0" y="298.0" text-anchor="middle" class="uchem-5-dipole-sums-t" >→ 크게 더해짐: 1.47 D</text>
+  <text x="270.0" y="32.0" text-anchor="middle" class="uchem-5-dipole-sums-b" >NF₃ (삼각뿔형)</text>
+  <ellipse cx="258" cy="92" rx="9" ry="15" class="uchem-5-dipole-sums-lp"/>
+  <circle cx="254.5" cy="92" r="1.8" class="uchem-5-dipole-sums-dot"/><circle cx="261.5" cy="92" r="1.8" class="uchem-5-dipole-sums-dot"/>
+  <line x1="258" y1="128" x2="208" y2="172" class="uchem-5-dipole-sums-bd"/>
+  <line x1="258" y1="128" x2="308" y2="172" class="uchem-5-dipole-sums-bd"/>
+  <line x1="258" y1="128" x2="268" y2="200" class="uchem-5-dipole-sums-bd"/>
+  <circle cx="258.0" cy="128.0" r="15" class="uchem-5-dipole-sums-N"/>
+  <text x="258.0" y="132.5" text-anchor="middle" class="uchem-5-dipole-sums-el">N</text>
+  <circle cx="208.0" cy="172.0" r="13" class="uchem-5-dipole-sums-F"/>
+  <text x="208.0" y="176.5" text-anchor="middle" class="uchem-5-dipole-sums-el">F</text>
+  <circle cx="308.0" cy="172.0" r="13" class="uchem-5-dipole-sums-F"/>
+  <text x="308.0" y="176.5" text-anchor="middle" class="uchem-5-dipole-sums-el">F</text>
+  <circle cx="268.0" cy="200.0" r="13" class="uchem-5-dipole-sums-F"/>
+  <text x="268.0" y="204.5" text-anchor="middle" class="uchem-5-dipole-sums-el">F</text>
+  <line x1="239.9" y1="126.6" x2="211.9" y2="151.2" class="uchem-5-dipole-sums-dv"/>
+  <path d="M208.9 153.9 L212.0 147.6 L215.6 151.7 Z" class="uchem-5-dipole-sums-dh"/>
+  <line x1="232.1" y1="126.8" x2="238.7" y2="134.3" class="uchem-5-dipole-sums-dv"/>
+  <line x1="258.9" y1="146.1" x2="286.9" y2="170.8" class="uchem-5-dipole-sums-dv"/>
+  <path d="M289.9 173.4 L283.3 171.2 L286.9 167.1 Z" class="uchem-5-dipole-sums-dh"/>
+  <line x1="260.1" y1="153.8" x2="266.7" y2="146.3" class="uchem-5-dipole-sums-dv"/>
+  <line x1="247.0" y1="143.5" x2="252.7" y2="184.1" class="uchem-5-dipole-sums-dv"/>
+  <path d="M253.2 188.1 L249.6 182.1 L255.0 181.3 Z" class="uchem-5-dipole-sums-dh"/>
+  <line x1="242.9" y1="150.1" x2="252.8" y2="148.7" class="uchem-5-dipole-sums-dv"/>
+  <text x="270.0" y="250.0" text-anchor="middle" class="uchem-5-dipole-sums-s" >N–F 쌍극자(F 쪽)가</text>
+  <text x="270.0" y="268.0" text-anchor="middle" class="uchem-5-dipole-sums-s" >비공유 전자쌍과 반대쪽</text>
+  <text x="270.0" y="298.0" text-anchor="middle" class="uchem-5-dipole-sums-t" >→ 거의 상쇄: 0.23 D</text>
+  <text x="450.0" y="32.0" text-anchor="middle" class="uchem-5-dipole-sums-t" style="font-weight:bold">cis-1,2-다이클로로에텐</text>
+  <line x1="416" y1="136" x2="464" y2="136" class="uchem-5-dipole-sums-bd"/>
+  <line x1="416" y1="144" x2="464" y2="144" class="uchem-5-dipole-sums-bd"/>
+  <line x1="416" y1="140" x2="386" y2="88" class="uchem-5-dipole-sums-bd"/>
+  <line x1="416" y1="140" x2="386" y2="192" class="uchem-5-dipole-sums-bd"/>
+  <line x1="464" y1="140" x2="494" y2="88" class="uchem-5-dipole-sums-bd"/>
+  <line x1="464" y1="140" x2="494" y2="192" class="uchem-5-dipole-sums-bd"/>
+  <circle cx="416.0" cy="140.0" r="13" class="uchem-5-dipole-sums-C"/>
+  <text x="416.0" y="144.5" text-anchor="middle" class="uchem-5-dipole-sums-el">C</text>
+  <circle cx="386.0" cy="88.0" r="14" class="uchem-5-dipole-sums-F"/>
+  <text x="386.0" y="92.5" text-anchor="middle" class="uchem-5-dipole-sums-el">Cl</text>
+  <line x1="398.2" y1="137.1" x2="381.6" y2="108.3" class="uchem-5-dipole-sums-dv"/>
+  <path d="M379.6 104.9 L385.2 109.1 L380.4 111.8 Z" class="uchem-5-dipole-sums-dh"/>
+  <line x1="399.5" y1="129.4" x2="390.8" y2="134.4" class="uchem-5-dipole-sums-dv"/>
+  <circle cx="386.0" cy="192.0" r="11" class="uchem-5-dipole-sums-H"/>
+  <text x="386.0" y="196.5" text-anchor="middle" class="uchem-5-dipole-sums-el">H</text>
+  <circle cx="464.0" cy="140.0" r="13" class="uchem-5-dipole-sums-C"/>
+  <text x="464.0" y="144.5" text-anchor="middle" class="uchem-5-dipole-sums-el">C</text>
+  <circle cx="494.0" cy="88.0" r="14" class="uchem-5-dipole-sums-F"/>
+  <text x="494.0" y="92.5" text-anchor="middle" class="uchem-5-dipole-sums-el">Cl</text>
+  <line x1="481.8" y1="137.1" x2="498.4" y2="108.3" class="uchem-5-dipole-sums-dv"/>
+  <path d="M500.4 104.9 L499.6 111.8 L494.8 109.1 Z" class="uchem-5-dipole-sums-dh"/>
+  <line x1="489.2" y1="134.4" x2="480.5" y2="129.4" class="uchem-5-dipole-sums-dv"/>
+  <circle cx="494.0" cy="192.0" r="11" class="uchem-5-dipole-sums-H"/>
+  <text x="494.0" y="196.5" text-anchor="middle" class="uchem-5-dipole-sums-el">H</text>
+  <line x1="440" y1="232" x2="440" y2="182" class="uchem-5-dipole-sums-net"/>
+  <path d="M440.0 172.0 L445.1 184.0 L434.9 184.0 Z" class="uchem-5-dipole-sums-nh"/>
+  <text x="440.0" y="250.0" text-anchor="middle" class="uchem-5-dipole-sums-t" >약 1.9 D</text>
+  <text x="450.0" y="270.0" text-anchor="middle" class="uchem-5-dipole-sums-s" >두 C–Cl 쌍극자가 같은 쪽 → 극성</text>
+  <text x="450.0" y="298.0" text-anchor="middle" class="uchem-5-dipole-sums-t" >끓는점 약 60 °C</text>
+  <text x="630.0" y="32.0" text-anchor="middle" class="uchem-5-dipole-sums-t" style="font-weight:bold">trans-1,2-다이클로로에텐</text>
+  <line x1="596" y1="136" x2="644" y2="136" class="uchem-5-dipole-sums-bd"/>
+  <line x1="596" y1="144" x2="644" y2="144" class="uchem-5-dipole-sums-bd"/>
+  <line x1="596" y1="140" x2="566" y2="88" class="uchem-5-dipole-sums-bd"/>
+  <line x1="596" y1="140" x2="566" y2="192" class="uchem-5-dipole-sums-bd"/>
+  <line x1="644" y1="140" x2="674" y2="88" class="uchem-5-dipole-sums-bd"/>
+  <line x1="644" y1="140" x2="674" y2="192" class="uchem-5-dipole-sums-bd"/>
+  <circle cx="596.0" cy="140.0" r="13" class="uchem-5-dipole-sums-C"/>
+  <text x="596.0" y="144.5" text-anchor="middle" class="uchem-5-dipole-sums-el">C</text>
+  <circle cx="566.0" cy="88.0" r="14" class="uchem-5-dipole-sums-F"/>
+  <text x="566.0" y="92.5" text-anchor="middle" class="uchem-5-dipole-sums-el">Cl</text>
+  <line x1="578.2" y1="137.1" x2="561.6" y2="108.3" class="uchem-5-dipole-sums-dv"/>
+  <path d="M559.6 104.9 L565.2 109.1 L560.4 111.8 Z" class="uchem-5-dipole-sums-dh"/>
+  <line x1="579.5" y1="129.4" x2="570.8" y2="134.4" class="uchem-5-dipole-sums-dv"/>
+  <circle cx="566.0" cy="192.0" r="11" class="uchem-5-dipole-sums-H"/>
+  <text x="566.0" y="196.5" text-anchor="middle" class="uchem-5-dipole-sums-el">H</text>
+  <circle cx="644.0" cy="140.0" r="13" class="uchem-5-dipole-sums-C"/>
+  <text x="644.0" y="144.5" text-anchor="middle" class="uchem-5-dipole-sums-el">C</text>
+  <circle cx="674.0" cy="88.0" r="11" class="uchem-5-dipole-sums-H"/>
+  <text x="674.0" y="92.5" text-anchor="middle" class="uchem-5-dipole-sums-el">H</text>
+  <circle cx="674.0" cy="192.0" r="14" class="uchem-5-dipole-sums-F"/>
+  <text x="674.0" y="196.5" text-anchor="middle" class="uchem-5-dipole-sums-el">Cl</text>
+  <line x1="661.8" y1="142.9" x2="678.4" y2="171.7" class="uchem-5-dipole-sums-dv"/>
+  <path d="M680.4 175.1 L674.8 170.9 L679.6 168.2 Z" class="uchem-5-dipole-sums-dh"/>
+  <line x1="660.5" y1="150.6" x2="669.2" y2="145.6" class="uchem-5-dipole-sums-dv"/>
+  <text x="630.0" y="250.0" text-anchor="middle" class="uchem-5-dipole-sums-t" >0 D</text>
+  <text x="630.0" y="270.0" text-anchor="middle" class="uchem-5-dipole-sums-s" >정반대 → 상쇄, 무극성</text>
+  <text x="630.0" y="298.0" text-anchor="middle" class="uchem-5-dipole-sums-t" >끓는점 약 48 °C</text>
+</svg>

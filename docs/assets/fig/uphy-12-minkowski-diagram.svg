@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-uphy-12-minkowski-diagram d-uphy-12-minkowski-diagram">
+  <title id="t-uphy-12-minkowski-diagram">그림 일반물리학 12-4 시공간 도표 — 움직이는 기준틀의 축과 동시성</title>
+  <desc id="d-uphy-12-minkowski-diagram">가로축이 x, 세로축이 ct인 기준틀 S의 시공간 도표에 S에 대해 +x 방향으로 v = 0.5c로 움직이는 기준틀 S′의 축을 겹쳐 그렸다. S′의 원점은 x = βct 위를 움직이므로 이것이 ct′축이고, ct′ = 0인 사건들은 ct = βx 위에 있으므로 이것이 x′축이다. 두 축은 빛의 세계선(x = ct, 45°)을 사이에 두고 같은 각만큼 기울어진다. x′축과 나란한 선 위의 사건 A와 B는 S′에서 동시이지만, S에서는 B가 A보다 늦게 일어난다.</desc>
+  <style>
+    .u12m-t{font-size:14px;fill:var(--fig-ink)} .u12m-b{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .u12m-s{font-size:13px;fill:var(--fig-muted)} .u12m-sm{font-size:13px;fill:var(--fig-ink)}
+    .u12m-h{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+  </style>
+<line x1="90.0" y1="260.0" x2="460.0" y2="260.0" style="stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:2 4;fill:none"/>
+<text x="82.0" y="265.0" text-anchor="end" class="u12m-s">1</text>
+<line x1="190.0" y1="360.0" x2="190.0" y2="40.0" style="stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:2 4;fill:none"/>
+<text x="190.0" y="380.0" text-anchor="middle" class="u12m-s">1</text>
+<line x1="90.0" y1="160.0" x2="460.0" y2="160.0" style="stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:2 4;fill:none"/>
+<text x="82.0" y="165.0" text-anchor="end" class="u12m-s">2</text>
+<line x1="290.0" y1="360.0" x2="290.0" y2="40.0" style="stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:2 4;fill:none"/>
+<text x="290.0" y="380.0" text-anchor="middle" class="u12m-s">2</text>
+<line x1="90.0" y1="60.0" x2="460.0" y2="60.0" style="stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:2 4;fill:none"/>
+<text x="82.0" y="65.0" text-anchor="end" class="u12m-s">3</text>
+<line x1="390.0" y1="360.0" x2="390.0" y2="40.0" style="stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:2 4;fill:none"/>
+<text x="390.0" y="380.0" text-anchor="middle" class="u12m-s">3</text>
+<line x1="90.0" y1="360.0" x2="470.5" y2="360.0" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
+<path d="M480.0 360.0 L470.0 364.5 L470.0 355.5 Z" style="fill:var(--fig-ink);stroke:none"/>
+<line x1="90.0" y1="360.0" x2="90.0" y2="34.5" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
+<path d="M90.0 25.0 L94.5 35.0 L85.5 35.0 Z" style="fill:var(--fig-ink);stroke:none"/>
+<text x="480.0" y="382.0" text-anchor="end" class="u12m-b">x</text>
+<text x="100.0" y="35.0" class="u12m-b">ct</text>
+<line x1="90.0" y1="360.0" x2="410.0" y2="40.0" style="stroke:var(--fig-amber);stroke-width:2;stroke-dasharray:7 5;fill:none"/>
+<text x="386.0" y="44.0" text-anchor="end" class="u12m-sm" style="fill:var(--fig-amber)">빛 x = ct</text>
+<line x1="90.0" y1="360.0" x2="248.3" y2="43.5" style="stroke:var(--fig-blue);stroke-width:2.5;fill:none"/>
+<path d="M252.5 35.0 L252.1 46.0 L244.0 41.9 Z" style="fill:var(--fig-blue);stroke:none"/>
+<text x="262.5" y="43.0" class="u12m-sm" style="fill:var(--fig-blue)">ct′  (S′ 원점의 세계선 x = βct)</text>
+<line x1="90.0" y1="360.0" x2="466.5" y2="171.7" style="stroke:var(--fig-blue);stroke-width:2.5;fill:none"/>
+<path d="M475.0 167.5 L468.1 176.0 L464.0 167.9 Z" style="fill:var(--fig-blue);stroke:none"/>
+<text x="450.0" y="147.5" text-anchor="end" class="u12m-sm" style="fill:var(--fig-blue)">x′  (ct′ = 0: ct = βx)</text>
+<line x1="90.0" y1="273.4" x2="430.0" y2="103.4" style="stroke:var(--fig-teal);stroke-width:1.8;stroke-dasharray:6 4;fill:none"/>
+<text x="435.0" y="98.4" class="u12m-sm" style="fill:var(--fig-teal)">S′에서 동시 (ct′ = 1)</text>
+<line x1="90.0" y1="248.4" x2="140.0" y2="248.4" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:3 3;fill:none"/>
+<circle cx="140.0" cy="248.4" r="6" style="fill:var(--fig-red);stroke:var(--fig-red);stroke-width:1.5"/>
+<text x="148.0" y="240.4" class="u12m-b" style="fill:var(--fig-red)">A</text>
+<line x1="90.0" y1="148.4" x2="340.0" y2="148.4" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:3 3;fill:none"/>
+<circle cx="340.0" cy="148.4" r="6" style="fill:var(--fig-red);stroke:var(--fig-red);stroke-width:1.5"/>
+<text x="348.0" y="140.4" class="u12m-b" style="fill:var(--fig-red)">B</text>
+<text x="96.0" y="242.4" class="u12m-s">t_A</text>
+<text x="96.0" y="142.4" class="u12m-s">t_B</text>
+<rect x="480.0" y="250.0" width="238.0" height="132.0" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+<text x="492.0" y="274.0" class="u12m-sm">β = v/c = 0.5로 그림</text>
+<text x="492.0" y="294.0" class="u12m-s">S′의 축은 빛의 선 쪽으로 같은 각만큼</text>
+<text x="492.0" y="314.0" class="u12m-s">기울어진다(β → 1이면 빛의 선에 붙음)</text>
+<text x="492.0" y="334.0" class="u12m-sm">A, B: S′에서 동시(Δt′ = 0)</text>
+<text x="492.0" y="354.0" class="u12m-sm">S에서는 B가 늦다: Δt = γvΔx′/c²</text>
+<text x="492.0" y="374.0" class="u12m-s">단위: ct와 x를 같은 길이 단위로</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-uphy-9-parallel-wires d-uphy-9-parallel-wires">
+  <title id="t-uphy-9-parallel-wires">그림 일반물리학 9-7 평행한 두 도선 사이의 힘</title>
+  <desc id="d-uphy-9-parallel-wires">두 도선을 단면으로 본 모습. 도선 1(왼쪽)의 전류가 만드는 자기장 B₁은 도선 1을 중심으로 한 원을 따라 돌고, 도선 2의 자리에서 위쪽을 향한다. (가) 두 전류가 같은 방향(⊙⊙)이면 도선 2가 받는 힘 I₂L × B₁은 도선 1 쪽을 향해 서로 끌어당긴다. (나) 반대 방향(⊙⊗)이면 밀어낸다. 도선 1이 받는 힘은 크기가 같고 방향이 반대이다(작용 반작용). 크기는 F/L = μ₀I₁I₂/(2πd). 모식도이다.</desc>
+  <style>.uphy-9-parallel-wires-t{font-size:14px;fill:var(--fig-ink)} .uphy-9-parallel-wires-b{font-size:14px;fill:var(--fig-ink);font-weight:700} .uphy-9-parallel-wires-s{font-size:13px;fill:var(--fig-muted)} .uphy-9-parallel-wires-ax{stroke:var(--fig-ink);stroke-width:1.5;fill:none} .uphy-9-parallel-wires-grid{stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4;fill:none}</style>
+  <rect x="8" y="8" width="344" height="314" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="24" y="32" class="uphy-9-parallel-wires-b">(가) 같은 방향 → 인력</text>
+  <circle cx="118" cy="170" r="40" style="fill:none;stroke:var(--fig-soft-blue);stroke-width:1.6"/>
+  <circle cx="118" cy="170" r="80" style="fill:none;stroke:var(--fig-soft-blue);stroke-width:1.6"/>
+  <circle cx="118" cy="170" r="120" style="fill:none;stroke:var(--fig-soft-blue);stroke-width:1.6"/>
+  <path d="M118 130 L127 126 L127 134.1 Z" style="fill:var(--fig-blue)"/>
+  <path d="M118 90 L127 86 L127 94 Z" style="fill:var(--fig-blue)"/>
+  <line x1="258" y1="158" x2="258" y2="117" style="stroke:var(--fig-blue);stroke-width:2.4"/>
+  <path d="M258 108 L262.5 118 L253.5 118 Z" style="fill:var(--fig-blue)"/>
+  <text x="266" y="120" class="uphy-9-parallel-wires-t" style="fill:var(--fig-blue)">B₁</text>
+  <circle cx="118" cy="170" r="11" style="fill:var(--fig-paper);stroke:var(--fig-accent);stroke-width:1.8"/>
+  <circle cx="118" cy="170" r="3.3" style="fill:var(--fig-accent)"/>
+  <circle cx="258" cy="170" r="11" style="fill:var(--fig-paper);stroke:var(--fig-accent);stroke-width:1.8"/>
+  <circle cx="258" cy="170" r="3.3" style="fill:var(--fig-accent)"/>
+  <text x="118" y="202" text-anchor="middle" class="uphy-9-parallel-wires-b" style="fill:var(--fig-accent)">I₁</text>
+  <text x="258" y="202" text-anchor="middle" class="uphy-9-parallel-wires-b" style="fill:var(--fig-accent)">I₂</text>
+  <line x1="244" y1="170" x2="206" y2="170" style="stroke:var(--fig-red);stroke-width:3"/>
+  <path d="M196 170 L207 165.1 L207 174.9 Z" style="fill:var(--fig-red)"/>
+  <line x1="132" y1="170" x2="170" y2="170" style="stroke:var(--fig-red);stroke-width:3"/>
+  <path d="M180 170 L169 174.9 L169 165.1 Z" style="fill:var(--fig-red)"/>
+  <text x="218" y="160" text-anchor="middle" class="uphy-9-parallel-wires-t" style="fill:var(--fig-red)">F₂₁</text>
+  <text x="158" y="160" text-anchor="middle" class="uphy-9-parallel-wires-t" style="fill:var(--fig-red)">F₁₂</text>
+  <line x1="118" y1="220" x2="258" y2="220" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="188" y="236" text-anchor="middle" class="uphy-9-parallel-wires-s">d</text>
+  <text x="24" y="310" class="uphy-9-parallel-wires-s">⊙ 종이 면에서 나옴, ⊗ 들어감</text>
+  <rect x="368" y="8" width="344" height="314" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="384" y="32" class="uphy-9-parallel-wires-b">(나) 반대 방향 → 척력</text>
+  <circle cx="478" cy="170" r="40" style="fill:none;stroke:var(--fig-soft-blue);stroke-width:1.6"/>
+  <circle cx="478" cy="170" r="80" style="fill:none;stroke:var(--fig-soft-blue);stroke-width:1.6"/>
+  <circle cx="478" cy="170" r="120" style="fill:none;stroke:var(--fig-soft-blue);stroke-width:1.6"/>
+  <path d="M478 130 L487 126 L487 134.1 Z" style="fill:var(--fig-blue)"/>
+  <path d="M478 90 L487 86 L487 94 Z" style="fill:var(--fig-blue)"/>
+  <line x1="618" y1="158" x2="618" y2="117" style="stroke:var(--fig-blue);stroke-width:2.4"/>
+  <path d="M618 108 L622.5 118 L613.5 118 Z" style="fill:var(--fig-blue)"/>
+  <text x="626" y="120" class="uphy-9-parallel-wires-t" style="fill:var(--fig-blue)">B₁</text>
+  <circle cx="478" cy="170" r="11" style="fill:var(--fig-paper);stroke:var(--fig-accent);stroke-width:1.8"/>
+  <circle cx="478" cy="170" r="3.3" style="fill:var(--fig-accent)"/>
+  <circle cx="618" cy="170" r="11" style="fill:var(--fig-paper);stroke:var(--fig-accent);stroke-width:1.8"/>
+  <path d="M611.4 163.4 L624.6 176.6 M611.4 176.6 L624.6 163.4" style="stroke:var(--fig-accent);stroke-width:1.8;fill:none"/>
+  <text x="478" y="202" text-anchor="middle" class="uphy-9-parallel-wires-b" style="fill:var(--fig-accent)">I₁</text>
+  <text x="618" y="202" text-anchor="middle" class="uphy-9-parallel-wires-b" style="fill:var(--fig-accent)">I₂</text>
+  <line x1="632" y1="170" x2="670" y2="170" style="stroke:var(--fig-red);stroke-width:3"/>
+  <path d="M680 170 L669 174.9 L669 165.1 Z" style="fill:var(--fig-red)"/>
+  <line x1="464" y1="170" x2="426" y2="170" style="stroke:var(--fig-red);stroke-width:3"/>
+  <path d="M416 170 L427 165.1 L427 174.9 Z" style="fill:var(--fig-red)"/>
+  <text x="658" y="160" text-anchor="middle" class="uphy-9-parallel-wires-t" style="fill:var(--fig-red)">F₂₁</text>
+  <text x="438" y="160" text-anchor="middle" class="uphy-9-parallel-wires-t" style="fill:var(--fig-red)">F₁₂</text>
+  <line x1="478" y1="220" x2="618" y2="220" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="548" y="236" text-anchor="middle" class="uphy-9-parallel-wires-s">d</text>
+  <text x="384" y="310" class="uphy-9-parallel-wires-s">⊙ 종이 면에서 나옴, ⊗ 들어감</text>
+</svg>

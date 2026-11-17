@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-uchem-3-state-function-paths d-uchem-3-state-function-paths">
+  <title id="t-uchem-3-state-function-paths">그림 일반화학 3-4 상태 함수 ΔU와 경로 함수 q, w</title>
+  <desc id="d-uchem-3-state-function-paths">배터리를 100 %에서 50 %로 줄이는 두 경로. 처음과 나중 상태가 같으므로 내부 에너지 변화 ΔU는 두 경로에서 같다. 그러나 화면을 켜 둔 경로 1은 거의 모두 열(q)로, 모터로 물체를 들어 올린 경로 2는 일부를 일(w)로 내보내 q와 w의 배분이 다르다. 막대 길이는 설명을 위한 예이다.</desc>
+  <style>
+    .uchem-3-state-function-paths-t{font-size:14px;fill:var(--fig-ink)}
+    .uchem-3-state-function-paths-s{font-size:13px;fill:var(--fig-muted)}
+    .uchem-3-state-function-paths-b{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+
+  </style>
+  <rect x="30.0" y="130.0" width="70.0" height="46.0" rx="6" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <rect x="36.0" y="138.0" width="58.0" height="30.0" rx="2" style="fill:var(--fig-green);stroke:none"/>
+  <text x="65.0" y="196.0" text-anchor="middle" class="uchem-3-state-function-paths-b">상태 1</text>
+  <text x="65.0" y="214.0" text-anchor="middle" class="uchem-3-state-function-paths-s">100 %</text>
+  <rect x="230.0" y="130.0" width="70.0" height="46.0" rx="6" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <rect x="236.0" y="138.0" width="29.0" height="30.0" rx="2" style="fill:var(--fig-green);stroke:none"/>
+  <text x="265.0" y="196.0" text-anchor="middle" class="uchem-3-state-function-paths-b">상태 2</text>
+  <text x="265.0" y="214.0" text-anchor="middle" class="uchem-3-state-function-paths-s">50 %</text>
+  <path d="M104 140 C150 60 190 60 226 140" style="fill:none;stroke:var(--fig-amber);stroke-width:2.5"/>
+  <line x1="214.0" y1="118.0" x2="221.2" y2="131.2" style="stroke:var(--fig-amber);stroke-width:2.5"/>
+  <path d="M226.0 140.0 L216.8 133.6 L225.6 128.8 Z" style="fill:var(--fig-amber)"/>
+  <text x="165.0" y="66.0" text-anchor="middle" class="uchem-3-state-function-paths-t" style="fill:var(--fig-amber)">경로 1: 화면을 켜 둔다</text>
+  <path d="M104 166 C150 250 190 250 226 166" style="fill:none;stroke:var(--fig-violet);stroke-width:2.5"/>
+  <line x1="214.0" y1="188.0" x2="221.2" y2="174.8" style="stroke:var(--fig-violet);stroke-width:2.5"/>
+  <path d="M226.0 166.0 L225.6 177.2 L216.8 172.4 Z" style="fill:var(--fig-violet)"/>
+  <text x="165.0" y="262.0" text-anchor="middle" class="uchem-3-state-function-paths-t" style="fill:var(--fig-violet)">경로 2: 모터로 물체를 든다</text>
+  <text x="165.0" y="300.0" text-anchor="middle" class="uchem-3-state-function-paths-s">ΔU = U(상태 2) − U(상태 1)</text>
+  <text x="165.0" y="318.0" text-anchor="middle" class="uchem-3-state-function-paths-s">처음·나중만 같으면 값이 같다</text>
+  <line x1="350.0" y1="110.0" x2="700.0" y2="110.0" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+  <text x="352.0" y="102.0" class="uchem-3-state-function-paths-s">0</text>
+  <text x="440.0" y="62.0" text-anchor="middle" class="uchem-3-state-function-paths-b">경로 1</text>
+  <rect x="400.0" y="110.0" width="26.0" height="150.0" rx="0" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8"/>
+  <text x="413.0" y="278.0" text-anchor="middle" class="uchem-3-state-function-paths-s">−20</text>
+  <text x="413.0" y="100.0" text-anchor="middle" class="uchem-3-state-function-paths-t" style="fill:var(--fig-red);font-weight:600">q</text>
+  <line x1="436.0" y1="110.0" x2="462.0" y2="110.0" style="stroke:var(--fig-blue);stroke-width:3"/>
+  <text x="449.0" y="128.0" text-anchor="middle" class="uchem-3-state-function-paths-s">0</text>
+  <text x="449.0" y="100.0" text-anchor="middle" class="uchem-3-state-function-paths-t" style="fill:var(--fig-blue);font-weight:600">w</text>
+  <rect x="472.0" y="110.0" width="26.0" height="150.0" rx="0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.8"/>
+  <text x="485.0" y="278.0" text-anchor="middle" class="uchem-3-state-function-paths-s">−20</text>
+  <text x="485.0" y="100.0" text-anchor="middle" class="uchem-3-state-function-paths-t" style="fill:var(--fig-violet);font-weight:600">ΔU</text>
+  <text x="620.0" y="62.0" text-anchor="middle" class="uchem-3-state-function-paths-b">경로 2</text>
+  <rect x="580.0" y="110.0" width="26.0" height="60.0" rx="0" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8"/>
+  <text x="593.0" y="188.0" text-anchor="middle" class="uchem-3-state-function-paths-s">−8</text>
+  <text x="593.0" y="100.0" text-anchor="middle" class="uchem-3-state-function-paths-t" style="fill:var(--fig-red);font-weight:600">q</text>
+  <rect x="616.0" y="110.0" width="26.0" height="90.0" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <text x="629.0" y="218.0" text-anchor="middle" class="uchem-3-state-function-paths-s">−12</text>
+  <text x="629.0" y="100.0" text-anchor="middle" class="uchem-3-state-function-paths-t" style="fill:var(--fig-blue);font-weight:600">w</text>
+  <rect x="652.0" y="110.0" width="26.0" height="150.0" rx="0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.8"/>
+  <text x="665.0" y="278.0" text-anchor="middle" class="uchem-3-state-function-paths-s">−20</text>
+  <text x="665.0" y="100.0" text-anchor="middle" class="uchem-3-state-function-paths-t" style="fill:var(--fig-violet);font-weight:600">ΔU</text>
+  <text x="525.0" y="300.0" text-anchor="middle" class="uchem-3-state-function-paths-t">q, w: 경로마다 다르다(경로 함수)   ΔU: 같다(상태 함수)</text>
+  <text x="525.0" y="318.0" text-anchor="middle" class="uchem-3-state-function-paths-s">막대 아래로 = 계가 잃은 에너지(−), 수치는 상대값</text>
+</svg>

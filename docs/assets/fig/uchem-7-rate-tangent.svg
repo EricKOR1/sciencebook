@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t-uchem-7-rate-tangent d-uchem-7-rate-tangent">
+  <title id="t-uchem-7-rate-tangent">그림 일반화학 7-4 평균 속도(할선)와 순간 속도(접선)</title>
+  <desc id="d-uchem-7-rate-tangent">예제 2의 자료(점)와 1차 반응 곡선 [A] = 0.800e^(−0.01155t)이다. 0~60 s의 평균 속도는 할선의 기울기, 60 s의 순간 속도는 접선의 기울기, 초기 속도는 t = 0에서 그은 접선의 기울기이다. 반응물이 줄수록 접선이 완만해져 속도가 작아진다.</desc>
+  <style>.uchem-7-rate-tangent-t{font-size:14px;fill:var(--fig-ink)} .uchem-7-rate-tangent-s{font-size:13px;fill:var(--fig-muted)} .uchem-7-rate-tangent-h{font-size:15px;fill:var(--fig-ink);font-weight:700} .uchem-7-rate-tangent-ax{stroke:var(--fig-ink);stroke-width:1.3;fill:none} .uchem-7-rate-tangent-grid{stroke:var(--fig-line);stroke-width:0.7;stroke-dasharray:3 3;fill:none}</style>
+  <path d="M80 50 L80 340 L640 340" style="stroke:var(--fig-ink);stroke-width:1.3;fill:none"/>
+  <line x1="80" y1="340" x2="80" y2="345" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="80" y="359" text-anchor="middle" class="uchem-7-rate-tangent-s">0</text>
+  <line x1="173.3" y1="340" x2="173.3" y2="345" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="173.3" y="359" text-anchor="middle" class="uchem-7-rate-tangent-s">30</text>
+  <line x1="266.7" y1="340" x2="266.7" y2="345" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="266.7" y="359" text-anchor="middle" class="uchem-7-rate-tangent-s">60</text>
+  <line x1="360" y1="340" x2="360" y2="345" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="360" y="359" text-anchor="middle" class="uchem-7-rate-tangent-s">90</text>
+  <line x1="453.3" y1="340" x2="453.3" y2="345" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="453.3" y="359" text-anchor="middle" class="uchem-7-rate-tangent-s">120</text>
+  <line x1="546.7" y1="340" x2="546.7" y2="345" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="546.7" y="359" text-anchor="middle" class="uchem-7-rate-tangent-s">150</text>
+  <line x1="640" y1="340" x2="640" y2="345" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="640" y="359" text-anchor="middle" class="uchem-7-rate-tangent-s">180</text>
+  <line x1="80" y1="275.6" x2="640" y2="275.6" style="stroke:var(--fig-line);stroke-width:0.7;stroke-dasharray:3 3"/>
+  <line x1="75" y1="275.6" x2="80" y2="275.6" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="72" y="280.1" text-anchor="end" class="uchem-7-rate-tangent-s">0.2</text>
+  <line x1="80" y1="211.1" x2="640" y2="211.1" style="stroke:var(--fig-line);stroke-width:0.7;stroke-dasharray:3 3"/>
+  <line x1="75" y1="211.1" x2="80" y2="211.1" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="72" y="215.6" text-anchor="end" class="uchem-7-rate-tangent-s">0.4</text>
+  <line x1="80" y1="146.7" x2="640" y2="146.7" style="stroke:var(--fig-line);stroke-width:0.7;stroke-dasharray:3 3"/>
+  <line x1="75" y1="146.7" x2="80" y2="146.7" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="72" y="151.2" text-anchor="end" class="uchem-7-rate-tangent-s">0.6</text>
+  <line x1="80" y1="82.2" x2="640" y2="82.2" style="stroke:var(--fig-line);stroke-width:0.7;stroke-dasharray:3 3"/>
+  <line x1="75" y1="82.2" x2="80" y2="82.2" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="72" y="86.7" text-anchor="end" class="uchem-7-rate-tangent-s">0.8</text>
+  <text x="360" y="380" text-anchor="middle" class="uchem-7-rate-tangent-t">시간 t (s)</text>
+  <text x="80" y="38" text-anchor="start" class="uchem-7-rate-tangent-t">[A] (M)</text>
+  <line x1="80" y1="82.2" x2="272.9" y2="266.8" style="stroke:var(--fig-blue);stroke-width:1.8;stroke-dasharray:6 4"/>
+  <line x1="80" y1="82.2" x2="266.7" y2="211.1" style="stroke:var(--fig-amber);stroke-width:2.2"/>
+  <line x1="126.7" y1="144.1" x2="468.9" y2="307.9" style="stroke:var(--fig-red);stroke-width:2;stroke-dasharray:6 4"/>
+  <path d="M80 82.2 L82.8 84.9 L85.6 87.5 L88.4 90.1 L91.2 92.7 L94 95.3 L96.8 97.8 L99.6 100.3 L102.4 102.8 L105.2 105.2 L108 107.7 L110.8 110.1 L113.6 112.5 L116.4 114.8 L119.2 117.1 L122 119.4 L124.8 121.7 L127.6 124 L130.4 126.2 L133.2 128.4 L136 130.6 L138.8 132.8 L141.6 134.9 L144.4 137 L147.2 139.1 L150 141.2 L152.8 143.3 L155.6 145.3 L158.4 147.3 L161.2 149.3 L164 151.3 L166.8 153.2 L169.6 155.2 L172.4 157.1 L175.2 159 L178 160.8 L180.8 162.7 L183.6 164.5 L186.4 166.3 L189.2 168.1 L192 169.9 L194.8 171.7 L197.6 173.4 L200.4 175.1 L203.2 176.8 L206 178.5 L208.8 180.2 L211.6 181.9 L214.4 183.5 L217.2 185.1 L220 186.7 L222.8 188.3 L225.6 189.9 L228.4 191.4 L231.2 193 L234 194.5 L236.8 196 L239.6 197.5 L242.4 198.9 L245.2 200.4 L248 201.8 L250.8 203.3 L253.6 204.7 L256.4 206.1 L259.2 207.5 L262 208.8 L264.8 210.2 L267.6 211.5 L270.4 212.9 L273.2 214.2 L276 215.5 L278.8 216.8 L281.6 218 L284.4 219.3 L287.2 220.6 L290 221.8 L292.8 223 L295.6 224.2 L298.4 225.4 L301.2 226.6 L304 227.8 L306.8 228.9 L309.6 230.1 L312.4 231.2 L315.2 232.3 L318 233.5 L320.8 234.6 L323.6 235.7 L326.4 236.7 L329.2 237.8 L332 238.9 L334.8 239.9 L337.6 240.9 L340.4 242 L343.2 243 L346 244 L348.8 245 L351.6 246 L354.4 246.9 L357.2 247.9 L360 248.8 L362.8 249.8 L365.6 250.7 L368.4 251.6 L371.2 252.6 L374 253.5 L376.8 254.4 L379.6 255.2 L382.4 256.1 L385.2 257 L388 257.8 L390.8 258.7 L393.6 259.5 L396.4 260.4 L399.2 261.2 L402 262 L404.8 262.8 L407.6 263.6 L410.4 264.4 L413.2 265.2 L416 266 L418.8 266.7 L421.6 267.5 L424.4 268.2 L427.2 269 L430 269.7 L432.8 270.4 L435.6 271.1 L438.4 271.9 L441.2 272.6 L444 273.3 L446.8 274 L449.6 274.6 L452.4 275.3 L455.2 276 L458 276.6 L460.8 277.3 L463.6 277.9 L466.4 278.6 L469.2 279.2 L472 279.9 L474.8 280.5 L477.6 281.1 L480.4 281.7 L483.2 282.3 L486 282.9 L488.8 283.5 L491.6 284.1 L494.4 284.7 L497.2 285.2 L500 285.8 L502.8 286.4 L505.6 286.9 L508.4 287.5 L511.2 288 L514 288.5 L516.8 289.1 L519.6 289.6 L522.4 290.1 L525.2 290.6 L528 291.1 L530.8 291.6 L533.6 292.1 L536.4 292.6 L539.2 293.1 L542 293.6 L544.8 294.1 L547.6 294.6 L550.4 295 L553.2 295.5 L556 296 L558.8 296.4 L561.6 296.9 L564.4 297.3 L567.2 297.8 L570 298.2 L572.8 298.6 L575.6 299.1 L578.4 299.5 L581.2 299.9 L584 300.3 L586.8 300.7 L589.6 301.1 L592.4 301.5 L595.2 301.9 L598 302.3 L600.8 302.7 L603.6 303.1 L606.4 303.5 L609.2 303.9 L612 304.2 L614.8 304.6 L617.6 305 L620.4 305.3 L623.2 305.7 L626 306 L628.8 306.4 L631.6 306.7 L634.4 307.1 L637.2 307.4 L640 307.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.6"/>
+  <circle cx="80" cy="82.2" r="4" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.6"/>
+  <circle cx="173.3" cy="157.6" r="4" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.6"/>
+  <circle cx="266.7" cy="211.1" r="4" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.6"/>
+  <circle cx="360" cy="248.8" r="4" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.6"/>
+  <circle cx="453.3" cy="275.6" r="4" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.6"/>
+  <circle cx="640" cy="307.8" r="4" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.6"/>
+  <circle cx="266.7" cy="211.1" r="5" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="266.7" y1="340" x2="266.7" y2="211.1" style="stroke:var(--fig-red);stroke-width:1;stroke-dasharray:3 3"/>
+  <line x1="370" y1="70" x2="404" y2="70" style="stroke:var(--fig-blue);stroke-width:1.8;stroke-dasharray:6 4"/>
+  <text x="412" y="75" text-anchor="start" class="uchem-7-rate-tangent-t">초기 속도: t = 0의 접선, 9.24×10⁻³ M/s</text>
+  <line x1="370" y1="96" x2="404" y2="96" style="stroke:var(--fig-amber);stroke-width:2.2"/>
+  <text x="412" y="101" text-anchor="start" class="uchem-7-rate-tangent-t">0~60 s 평균 속도: 할선, 6.67×10⁻³ M/s</text>
+  <line x1="370" y1="122" x2="404" y2="122" style="stroke:var(--fig-red);stroke-width:2;stroke-dasharray:6 4"/>
+  <text x="412" y="127" text-anchor="start" class="uchem-7-rate-tangent-t">60 s 순간 속도: 접선, 4.62×10⁻³ M/s</text>
+  <text x="412" y="150" text-anchor="start" class="uchem-7-rate-tangent-s">(중앙 차분 어림 4.72×10⁻³ M/s)</text>
+  <text x="360" y="405" text-anchor="middle" class="uchem-7-rate-tangent-s">속도는 모두 −(기울기)로 읽는다. 접선이 점점 완만해진다 = 반응이 느려진다.</text>
+</svg>

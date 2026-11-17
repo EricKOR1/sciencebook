@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-labelledby="t-uchem-3-bond-enthalpy-path d-uchem-3-bond-enthalpy-path">
+  <title id="t-uchem-3-bond-enthalpy-path">그림 일반화학 3-6 결합 엔탈피로 반응 엔탈피 어림하기</title>
+  <desc id="d-uchem-3-bond-enthalpy-path">에틸렌의 수소 첨가에서 C=C 결합과 H–H 결합을 끊어 기체 조각으로 만드는 데 +1050 kJ이 들고(흡열), C–C 결합 1개와 C–H 결합 2개가 생기며 1174 kJ이 나온다(발열). 두 단계의 합 ΔH ≈ −124 kJ이 어림값이다. 양쪽에 그대로 있는 C–H 결합 4개는 생략했고, 세로 방향은 엔탈피 값에 비례하게 그렸다.</desc>
+  <style>
+    .uchem-3-bond-enthalpy-path-t{font-size:14px;fill:var(--fig-ink)}
+    .uchem-3-bond-enthalpy-path-s{font-size:13px;fill:var(--fig-muted)}
+    .uchem-3-bond-enthalpy-path-b{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+
+  </style>
+  <line x1="50.0" y1="328.5" x2="50.0" y2="40.0" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+  <path d="M50 32 l-6 12 h12 z" style="fill:var(--fig-ink);stroke:none;stroke-width:0"/>
+  <text x="34" y="190" text-anchor="middle" class="uchem-3-bond-enthalpy-path-t" transform="rotate(-90 34 190)">엔탈피 H</text>
+  <line x1="80.0" y1="66.0" x2="680.0" y2="66.0" style="stroke:var(--fig-ink);stroke-width:3.5"/>
+  <text x="380.0" y="54.0" text-anchor="middle" class="uchem-3-bond-enthalpy-path-t">C=C·H–H를 끊은 기체 조각: 2CH₂ + 2H  (C–H 4개는 그대로)</text>
+  <line x1="80.0" y1="286.5" x2="400.0" y2="286.5" style="stroke:var(--fig-ink);stroke-width:3.5"/>
+  <text x="86.0" y="308.5" class="uchem-3-bond-enthalpy-path-t">H₂C=CH₂(g) + H₂(g)</text>
+  <line x1="360.0" y1="312.5" x2="680.0" y2="312.5" style="stroke:var(--fig-ink);stroke-width:3.5"/>
+  <text x="674.0" y="334.5" text-anchor="end" class="uchem-3-bond-enthalpy-path-t">H₃C–CH₃(g)</text>
+  <line x1="170.0" y1="283.5" x2="170.0" y2="82.0" style="stroke:var(--fig-red);stroke-width:3"/>
+  <path d="M170.0 69.0 L176.5 82.0 L163.5 82.0 Z" style="fill:var(--fig-red)"/>
+  <text x="182.0" y="150.0" class="uchem-3-bond-enthalpy-path-t" style="fill:var(--fig-red);font-weight:600">끊기(흡열)</text>
+  <text x="182.0" y="170.0" class="uchem-3-bond-enthalpy-path-t" style="fill:var(--fig-red)">C=C 614 + H–H 436</text>
+  <text x="182.0" y="190.0" class="uchem-3-bond-enthalpy-path-t" style="fill:var(--fig-red)">= +1050 kJ</text>
+  <line x1="600.0" y1="69.0" x2="600.0" y2="296.5" style="stroke:var(--fig-blue);stroke-width:3"/>
+  <path d="M600.0 309.5 L593.5 296.5 L606.5 296.5 Z" style="fill:var(--fig-blue)"/>
+  <text x="588.0" y="150.0" text-anchor="end" class="uchem-3-bond-enthalpy-path-t" style="fill:var(--fig-blue);font-weight:600">생성(발열)</text>
+  <text x="588.0" y="170.0" text-anchor="end" class="uchem-3-bond-enthalpy-path-t" style="fill:var(--fig-blue)">C–C 348 + 2 × C–H 413</text>
+  <text x="588.0" y="190.0" text-anchor="end" class="uchem-3-bond-enthalpy-path-t" style="fill:var(--fig-blue)">= −1174 kJ</text>
+  <line x1="380.0" y1="288.5" x2="380.0" y2="301.5" style="stroke:var(--fig-accent);stroke-width:3"/>
+  <path d="M380.0 310.5 L375.5 301.5 L384.5 301.5 Z" style="fill:var(--fig-accent)"/>
+  <text x="392.0" y="302.5" class="uchem-3-bond-enthalpy-path-b" style="fill:var(--fig-accent)">ΔH ≈ −124 kJ</text>
+  <text x="380.0" y="362.0" text-anchor="middle" class="uchem-3-bond-enthalpy-path-s">표준 생성 엔탈피로 구한 값은 −137.1 kJ(어림값과 약 10 % 차이)</text>
+</svg>
