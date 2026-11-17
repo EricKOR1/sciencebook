@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-chem-2-cis-trans d-chem-2-cis-trans">
+  <title id="t-chem-2-cis-trans">그림 화학 2-8 시스형과 트랜스형 1,2-다이클로로에텐의 극성</title>
+  <desc id="d-chem-2-cis-trans">두 분자는 모든 원자가 한 평면에 있고 각 탄소 주위 결합각은 약 120°이다. 시스형은 두 C–Cl 결합의 쌍극자가 같은 쪽을 향해 합이 남아 극성 분자이고, 트랜스형은 두 쌍극자가 반대 방향이라 상쇄되어 무극성 분자이다. C–H 결합의 쌍극자는 작아 생략하였다.</desc>
+  <style>
+    .c2ct-ink{fill:var(--fig-ink)} .c2ct-mut{fill:var(--fig-muted)}
+    .c2ct-lbl{font-size:14px;fill:var(--fig-ink)} .c2ct-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .c2ct-sm{font-size:13px;fill:var(--fig-muted)}
+    .c2ct-H{fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2} .c2ct-O{fill:var(--fig-red);stroke:var(--fig-red);stroke-width:1} .c2ct-C{fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1} .c2ct-N{fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1}
+    .c2ct-Cl{fill:var(--fig-green);stroke:var(--fig-green);stroke-width:1} .c2ct-at{font-size:13px;font-weight:600}
+    .c2ct-d{font-size:13px;font-weight:600;fill:var(--fig-red)}
+  </style>
+  <text x="180.0" y="30.0" text-anchor="middle" class="c2ct-b">시스형 (Cl이 같은 쪽)</text>
+  <line x1="140" y1="156" x2="200" y2="156" style="stroke:var(--fig-ink);stroke-width:2.5"/><line x1="140" y1="164" x2="200" y2="164" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <line x1="140" y1="160" x2="109.0" y2="106.3" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <line x1="140" y1="160" x2="109.0" y2="213.7" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <line x1="200" y1="160" x2="231.0" y2="106.3" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <line x1="200" y1="160" x2="231.0" y2="213.7" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <circle cx="109.0" cy="106.3" r="16" class="c2ct-Cl"/><text x="109.0" y="110.8" text-anchor="middle" class="c2ct-at" style="fill:var(--fig-paper)">Cl</text>
+  <line x1="120.1" y1="157.6" x2="107.6" y2="136.0" style="stroke:var(--fig-red);stroke-width:2.5"/><path d="M103.1 128.2 L111.5 133.7 L103.7 138.2 Z" style="fill:var(--fig-red)"/>
+  <line x1="121.8" y1="148.5" x2="111.4" y2="154.5" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <circle cx="109.0" cy="213.7" r="11" class="c2ct-H"/><text x="109.0" y="218.2" text-anchor="middle" class="c2ct-at" style="fill:var(--fig-ink)">H</text>
+  <circle cx="231.0" cy="106.3" r="16" class="c2ct-Cl"/><text x="231.0" y="110.8" text-anchor="middle" class="c2ct-at" style="fill:var(--fig-paper)">Cl</text>
+  <line x1="219.9" y1="157.6" x2="232.4" y2="136.0" style="stroke:var(--fig-red);stroke-width:2.5"/><path d="M236.9 128.2 L236.3 138.2 L228.5 133.7 Z" style="fill:var(--fig-red)"/>
+  <line x1="228.6" y1="154.5" x2="218.2" y2="148.5" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <circle cx="231.0" cy="213.7" r="11" class="c2ct-H"/><text x="231.0" y="218.2" text-anchor="middle" class="c2ct-at" style="fill:var(--fig-ink)">H</text>
+  <circle cx="140.0" cy="160.0" r="13" class="c2ct-C"/><text x="140.0" y="164.5" text-anchor="middle" class="c2ct-at" style="fill:var(--fig-paper)">C</text>
+  <circle cx="200.0" cy="160.0" r="13" class="c2ct-C"/><text x="200.0" y="164.5" text-anchor="middle" class="c2ct-at" style="fill:var(--fig-paper)">C</text>
+  <line x1="300.0" y1="200.0" x2="300.0" y2="132.0" style="stroke:var(--fig-green);stroke-width:4"/><path d="M300.0 120.0 L306.0 132.0 L294.0 132.0 Z" style="fill:var(--fig-green)"/>
+  <text x="310.0" y="165.0" text-anchor="start" class="c2ct-b" style="fill:var(--fig-green)">합</text>
+  <text x="180.0" y="270.0" text-anchor="middle" class="c2ct-b" style="fill:var(--fig-red)">쌍극자의 합 ≠ 0 → 극성 분자</text>
+  <text x="180.0" y="294.0" text-anchor="middle" class="c2ct-lbl">끓는점 약 60 °C</text>
+  <line x1="360" y1="40" x2="360" y2="300" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
+  <text x="540.0" y="30.0" text-anchor="middle" class="c2ct-b">트랜스형 (Cl이 반대쪽)</text>
+  <line x1="510" y1="156" x2="570" y2="156" style="stroke:var(--fig-ink);stroke-width:2.5"/><line x1="510" y1="164" x2="570" y2="164" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <line x1="510" y1="160" x2="479.0" y2="106.3" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <line x1="510" y1="160" x2="479.0" y2="213.7" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <line x1="570" y1="160" x2="601.0" y2="106.3" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <line x1="570" y1="160" x2="601.0" y2="213.7" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <circle cx="479.0" cy="106.3" r="16" class="c2ct-Cl"/><text x="479.0" y="110.8" text-anchor="middle" class="c2ct-at" style="fill:var(--fig-paper)">Cl</text>
+  <line x1="490.1" y1="157.6" x2="477.6" y2="136.0" style="stroke:var(--fig-red);stroke-width:2.5"/><path d="M473.1 128.2 L481.5 133.7 L473.7 138.2 Z" style="fill:var(--fig-red)"/>
+  <line x1="491.8" y1="148.5" x2="481.4" y2="154.5" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <circle cx="479.0" cy="213.7" r="11" class="c2ct-H"/><text x="479.0" y="218.2" text-anchor="middle" class="c2ct-at" style="fill:var(--fig-ink)">H</text>
+  <circle cx="601.0" cy="106.3" r="11" class="c2ct-H"/><text x="601.0" y="110.8" text-anchor="middle" class="c2ct-at" style="fill:var(--fig-ink)">H</text>
+  <circle cx="601.0" cy="213.7" r="16" class="c2ct-Cl"/><text x="601.0" y="218.2" text-anchor="middle" class="c2ct-at" style="fill:var(--fig-paper)">Cl</text>
+  <line x1="589.9" y1="162.4" x2="602.4" y2="184.0" style="stroke:var(--fig-red);stroke-width:2.5"/><path d="M606.9 191.8 L598.5 186.3 L606.3 181.8 Z" style="fill:var(--fig-red)"/>
+  <line x1="588.2" y1="171.5" x2="598.6" y2="165.5" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <circle cx="510.0" cy="160.0" r="13" class="c2ct-C"/><text x="510.0" y="164.5" text-anchor="middle" class="c2ct-at" style="fill:var(--fig-paper)">C</text>
+  <circle cx="570.0" cy="160.0" r="13" class="c2ct-C"/><text x="570.0" y="164.5" text-anchor="middle" class="c2ct-at" style="fill:var(--fig-paper)">C</text>
+  <text x="540.0" y="270.0" text-anchor="middle" class="c2ct-b" style="fill:var(--fig-blue)">쌍극자가 상쇄 → 무극성 분자</text>
+  <text x="540.0" y="294.0" text-anchor="middle" class="c2ct-lbl">끓는점 약 48 °C</text>
+  <text x="360.0" y="322.0" text-anchor="middle" class="c2ct-sm">빨간 화살표: C–Cl 결합의 쌍극자(δ+ C → δ− Cl) · 두 분자 모두 C₂H₂Cl₂, 분자량이 같다</text>
+</svg>

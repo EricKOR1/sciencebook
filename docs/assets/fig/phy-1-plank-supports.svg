@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-phy-1-plank-supports d-phy-1-plank-supports">
+  <title id="t-phy-1-plank-supports">그림 물리학 1-4 두 받침대 위의 널빤지에 작용하는 힘</title>
+  <desc id="d-phy-1-plank-supports">길이 4 m, 무게 200 N인 널빤지 위 A에서 1 m 떨어진 곳에 600 N인 사람이 서 있다. 널빤지가 받는 힘은 아래로 사람의 무게와 널빤지의 무게(한가운데), 위로 받침대 A, B가 떠받치는 힘이다. 화살표 길이는 힘의 크기에 비례한다(예제 2).</desc>
+  <style>
+    .phy-1-plank-supports-lbl{font-size:14px;fill:var(--fig-ink)} .phy-1-plank-supports-sm{font-size:13px;fill:var(--fig-muted)} .phy-1-plank-supports-b{font-weight:600}
+  </style>
+<rect x="120.0" y="143.0" width="480.0" height="14.0" rx="0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+<path d="M120 157 L104 187 L136 187 Z" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+<text x="120.0" y="206.0" text-anchor="middle" class="phy-1-plank-supports-sm">받침대 A</text>
+<path d="M600 157 L584 187 L616 187 Z" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+<text x="600.0" y="206.0" text-anchor="middle" class="phy-1-plank-supports-sm">받침대 B</text>
+<circle cx="240.0" cy="78.0" r="9" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+<line x1="240.0" y1="87.0" x2="240.0" y2="117.0" style="stroke:var(--fig-ink);stroke-width:2.5;fill:none"/>
+<line x1="226.0" y1="98.0" x2="254.0" y2="98.0" style="stroke:var(--fig-ink);stroke-width:2.5;fill:none"/>
+<line x1="240.0" y1="117.0" x2="230.0" y2="142.0" style="stroke:var(--fig-ink);stroke-width:2.5;fill:none"/>
+<line x1="240.0" y1="117.0" x2="250.0" y2="142.0" style="stroke:var(--fig-ink);stroke-width:2.5;fill:none"/>
+<line x1="240.0" y1="150.0" x2="240.0" y2="230.0" style="stroke:var(--fig-red);stroke-width:3;fill:none"/>
+<path d="M240.0 240.0 L235.5 230.0 L244.5 230.0 Z" style="fill:var(--fig-red)"/>
+<text x="248.0" y="236.0" text-anchor="start" class="phy-1-plank-supports-lbl" style="fill:var(--fig-red)">600 N (사람이 누르는 힘)</text>
+<circle cx="360.0" cy="150.0" r="4" style="fill:var(--fig-red);stroke:none;stroke-width:1.5"/>
+<line x1="360.0" y1="150.0" x2="360.0" y2="178.0" style="stroke:var(--fig-red);stroke-width:3;fill:none"/>
+<path d="M360.0 188.0 L355.5 178.0 L364.5 178.0 Z" style="fill:var(--fig-red)"/>
+<text x="368.0" y="194.0" text-anchor="start" class="phy-1-plank-supports-lbl" style="fill:var(--fig-red)">200 N (널빤지 무게, 한가운데)</text>
+<line x1="120.0" y1="143.0" x2="120.0" y2="70.5" style="stroke:var(--fig-blue);stroke-width:3;fill:none"/>
+<path d="M120.0 60.5 L124.5 70.5 L115.5 70.5 Z" style="fill:var(--fig-blue)"/>
+<text x="112.0" y="90.0" text-anchor="end" class="phy-1-plank-supports-lbl phy-1-plank-supports-b" style="fill:var(--fig-blue)">N</text>
+<text x="112.0" y="108.0" text-anchor="end" class="phy-1-plank-supports-sm" style="fill:var(--fig-blue)">A</text>
+<line x1="600.0" y1="143.0" x2="600.0" y2="115.5" style="stroke:var(--fig-blue);stroke-width:3;fill:none"/>
+<path d="M600.0 105.5 L604.5 115.5 L595.5 115.5 Z" style="fill:var(--fig-blue)"/>
+<text x="608.0" y="120.0" text-anchor="start" class="phy-1-plank-supports-lbl phy-1-plank-supports-b" style="fill:var(--fig-blue)">N</text>
+<text x="620.0" y="128.0" text-anchor="start" class="phy-1-plank-supports-sm" style="fill:var(--fig-blue)">B</text>
+<line x1="120.0" y1="268.0" x2="240.0" y2="268.0" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
+<line x1="120.0" y1="263.0" x2="120.0" y2="273.0" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
+<line x1="240.0" y1="263.0" x2="240.0" y2="273.0" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
+<text x="248.0" y="272.0" text-anchor="start" class="phy-1-plank-supports-sm">1 m</text>
+<line x1="120.0" y1="290.0" x2="360.0" y2="290.0" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
+<line x1="120.0" y1="285.0" x2="120.0" y2="295.0" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
+<line x1="360.0" y1="285.0" x2="360.0" y2="295.0" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
+<text x="368.0" y="294.0" text-anchor="start" class="phy-1-plank-supports-sm">2 m</text>
+<line x1="120.0" y1="312.0" x2="600.0" y2="312.0" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
+<line x1="120.0" y1="307.0" x2="120.0" y2="317.0" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
+<line x1="600.0" y1="307.0" x2="600.0" y2="317.0" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
+<text x="608.0" y="316.0" text-anchor="start" class="phy-1-plank-supports-sm">4 m</text>
+<text x="620.0" y="268.0" text-anchor="start" class="phy-1-plank-supports-sm">기준점(회전축)을 A에 잡으면</text>
+<text x="620.0" y="286.0" text-anchor="start" class="phy-1-plank-supports-sm">N</text>
+<text x="632" y="290" class="phy-1-plank-supports-sm" style="font-size:11px">A</text>
+<text x="642.0" y="286.0" text-anchor="start" class="phy-1-plank-supports-sm">가 식에서 빠진다</text>
+</svg>

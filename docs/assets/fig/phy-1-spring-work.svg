@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="t-phy-1-spring-work d-phy-1-spring-work">
+  <title id="t-phy-1-spring-work">그림 물리학 1-8 용수철에 해 준 일과 탄성 위치 에너지</title>
+  <desc id="d-phy-1-spring-work">용수철을 x만큼 늘이는 데 필요한 힘은 F = kx로 늘어난 길이에 비례한다. 힘–늘어난 길이 그래프 아래 삼각형의 넓이 ½·x·kx = ½kx²이 용수철에 해 준 일이며, 탄성 위치 에너지로 저장된다.</desc>
+  <style>
+    .phy-1-spring-work-lbl{font-size:14px;fill:var(--fig-ink)} .phy-1-spring-work-sm{font-size:13px;fill:var(--fig-muted)} .phy-1-spring-work-b{font-weight:600}
+  </style>
+<rect x="30.0" y="60.0" width="10.0" height="60.0" rx="0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+<path d="M40 90 L50 90 L57.0 100 L71.0 80 L85.0 100 L99.0 80 L113.0 100 L127.0 80 L141.0 100 L155.0 80 L169.0 100 L183.0 80 L190 90 L200 90" style="fill:none;stroke:var(--fig-blue);stroke-width:2"/>
+<rect x="200.0" y="72.0" width="36.0" height="36.0" rx="3" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+<rect x="30.0" y="170.0" width="10.0" height="60.0" rx="0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+<path d="M40 200 L50 200 L60.5 210 L81.5 190 L102.5 210 L123.5 190 L144.5 210 L165.5 190 L186.5 210 L207.5 190 L228.5 210 L249.5 190 L260 200 L270 200" style="fill:none;stroke:var(--fig-blue);stroke-width:2"/>
+<rect x="270.0" y="182.0" width="36.0" height="36.0" rx="3" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+<text x="130.0" y="52.0" text-anchor="middle" class="phy-1-spring-work-sm">자연 길이</text>
+<line x1="218.0" y1="120.0" x2="218.0" y2="250.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 3;fill:none"/>
+<line x1="306.0" y1="200.0" x2="350.0" y2="200.0" style="stroke:var(--fig-red);stroke-width:3;fill:none"/>
+<path d="M360.0 200.0 L350.0 204.5 L350.0 195.5 Z" style="fill:var(--fig-red)"/>
+<text x="334.0" y="190.0" text-anchor="middle" class="phy-1-spring-work-lbl phy-1-spring-work-b" style="fill:var(--fig-red)">F = kx</text>
+<line x1="218.0" y1="245.0" x2="288.0" y2="245.0" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
+<line x1="218.0" y1="239.0" x2="218.0" y2="251.0" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
+<line x1="288.0" y1="239.0" x2="288.0" y2="251.0" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
+<text x="253.0" y="266.0" text-anchor="middle" class="phy-1-spring-work-sm">늘어난 길이 x</text>
+<line x1="440.0" y1="250.0" x2="692.0" y2="250.0" style="stroke:var(--fig-ink);stroke-width:1.5;fill:none"/>
+<path d="M700.0 250.0 L692.0 253.6 L692.0 246.4 Z" style="fill:var(--fig-ink)"/>
+<line x1="440.0" y1="250.0" x2="440.0" y2="38.0" style="stroke:var(--fig-ink);stroke-width:1.5;fill:none"/>
+<path d="M440.0 30.0 L443.6 38.0 L436.4 38.0 Z" style="fill:var(--fig-ink)"/>
+<text x="700.0" y="270.0" text-anchor="end" class="phy-1-spring-work-sm">늘어난 길이</text>
+<text x="432.0" y="40.0" text-anchor="end" class="phy-1-spring-work-sm">힘</text>
+<path d="M440 250 L640 70 L640 250 Z" style="fill:var(--fig-soft-amber);stroke:none;stroke-width:0"/>
+<line x1="440.0" y1="250.0" x2="670.0" y2="43.0" style="stroke:var(--fig-red);stroke-width:3;fill:none"/>
+<line x1="640.0" y1="70.0" x2="640.0" y2="250.0" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:4 3;fill:none"/>
+<line x1="440.0" y1="70.0" x2="640.0" y2="70.0" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:4 3;fill:none"/>
+<text x="640.0" y="270.0" text-anchor="middle" class="phy-1-spring-work-lbl phy-1-spring-work-b">x</text>
+<text x="432.0" y="75.0" text-anchor="end" class="phy-1-spring-work-lbl phy-1-spring-work-b">kx</text>
+<text x="600.0" y="215.0" text-anchor="middle" class="phy-1-spring-work-lbl phy-1-spring-work-b" style="fill:var(--fig-amber)">넓이 = ½ × x × kx</text>
+<text x="600.0" y="236.0" text-anchor="middle" class="phy-1-spring-work-sm">= ½kx² (해 준 일)</text>
+<text x="530.0" y="120.0" text-anchor="end" class="phy-1-spring-work-sm">기울기 = k</text>
+</svg>

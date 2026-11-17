@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-phy-1-action-reaction d-phy-1-action-reaction">
+  <title id="t-phy-1-action-reaction">그림 물리학 1-7 책상 위 책: 힘의 평형과 작용 반작용</title>
+  <desc id="d-phy-1-action-reaction">책이 받는 두 힘(지구가 책을 당기는 힘, 책상이 책을 떠받치는 힘)은 한 물체에 작용하는 힘의 평형이다. 같은 색 화살표끼리는 주어와 목적어가 바뀐 작용 반작용 쌍으로, 서로 다른 물체에 작용한다(모식도, 지구는 일부만 그림).</desc>
+  <style>
+    .phy-1-action-reaction-lbl{font-size:14px;fill:var(--fig-ink)} .phy-1-action-reaction-sm{font-size:13px;fill:var(--fig-muted)} .phy-1-action-reaction-b{font-weight:600}
+  </style>
+<path d="M20 262 Q200 240 380 262 L380 330 L20 330 Z" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+<text x="330.0" y="318.0" text-anchor="middle" class="phy-1-action-reaction-lbl phy-1-action-reaction-b">지구</text>
+<rect x="90.0" y="165.0" width="240.0" height="12.0" rx="0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+<line x1="105.0" y1="177.0" x2="105.0" y2="252.0" style="stroke:var(--fig-amber);stroke-width:4;fill:none"/>
+<line x1="315.0" y1="177.0" x2="315.0" y2="250.0" style="stroke:var(--fig-amber);stroke-width:4;fill:none"/>
+<text x="300.0" y="160.0" text-anchor="middle" class="phy-1-action-reaction-sm">책상</text>
+<rect x="140.0" y="85.0" width="130.0" height="42.0" rx="3" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+<text x="205.0" y="75.0" text-anchor="middle" class="phy-1-action-reaction-lbl phy-1-action-reaction-b">책</text>
+<line x1="185.0" y1="106.0" x2="185.0" y2="148.0" style="stroke:var(--fig-green);stroke-width:3.5;fill:none"/>
+<path d="M185.0 158.0 L180.5 148.0 L189.5 148.0 Z" style="fill:var(--fig-green)"/>
+<text x="177.0" y="150.0" text-anchor="end" class="phy-1-action-reaction-sm" style="fill:var(--fig-green)">지구가 책을 당기는 힘</text>
+<line x1="228.0" y1="106.0" x2="228.0" y2="50.0" style="stroke:var(--fig-red);stroke-width:3.5;fill:none"/>
+<path d="M228.0 40.0 L232.5 50.0 L223.5 50.0 Z" style="fill:var(--fig-red)"/>
+<text x="238.0" y="46.0" text-anchor="start" class="phy-1-action-reaction-sm" style="fill:var(--fig-red)">책상이 책을 떠받치는 힘</text>
+<line x1="228.0" y1="171.0" x2="228.0" y2="213.0" style="stroke:var(--fig-red);stroke-width:3.5;fill:none"/>
+<path d="M228.0 223.0 L223.5 213.0 L232.5 213.0 Z" style="fill:var(--fig-red)"/>
+<text x="238.0" y="215.0" text-anchor="start" class="phy-1-action-reaction-sm" style="fill:var(--fig-red)">책이 책상을 누르는 힘</text>
+<line x1="185.0" y1="320.0" x2="185.0" y2="282.0" style="stroke:var(--fig-green);stroke-width:3.5;fill:none"/>
+<path d="M185.0 272.0 L189.5 282.0 L180.5 282.0 Z" style="fill:var(--fig-green)"/>
+<text x="177.0" y="300.0" text-anchor="end" class="phy-1-action-reaction-sm" style="fill:var(--fig-green)">책이 지구를 당기는 힘</text>
+<rect x="420.0" y="40.0" width="290.0" height="270.0" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+<text x="435.0" y="68.0" text-anchor="start" class="phy-1-action-reaction-lbl phy-1-action-reaction-b">힘의 평형 (한 물체 = 책)</text>
+<text x="435.0" y="92.0" text-anchor="start" class="phy-1-action-reaction-sm">지구 → 책 (아래) + 책상 → 책 (위)</text>
+<text x="435.0" y="112.0" text-anchor="start" class="phy-1-action-reaction-sm">합하면 0 → 책은 가속되지 않는다</text>
+<text x="435.0" y="150.0" text-anchor="start" class="phy-1-action-reaction-lbl phy-1-action-reaction-b">작용 반작용 (서로 다른 두 물체)</text>
+<line x1="435.0" y1="172.0" x2="460.0" y2="172.0" style="stroke:var(--fig-red);stroke-width:4;fill:none"/>
+<text x="468.0" y="177.0" text-anchor="start" class="phy-1-action-reaction-sm">책상 → 책  ↔  책 → 책상</text>
+<line x1="435.0" y1="200.0" x2="460.0" y2="200.0" style="stroke:var(--fig-green);stroke-width:4;fill:none"/>
+<text x="468.0" y="205.0" text-anchor="start" class="phy-1-action-reaction-sm">지구 → 책  ↔  책 → 지구</text>
+<text x="435.0" y="240.0" text-anchor="start" class="phy-1-action-reaction-sm">쌍은 주어와 목적어를 맞바꾼 문장</text>
+<text x="435.0" y="260.0" text-anchor="start" class="phy-1-action-reaction-sm">크기가 같고 방향이 반대이지만</text>
+<text x="435.0" y="280.0" text-anchor="start" class="phy-1-action-reaction-sm">다른 물체에 작용해 합성할 수 없다</text>
+</svg>

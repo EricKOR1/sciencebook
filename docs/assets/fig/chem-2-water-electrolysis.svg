@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t-chem-2-water-electrolysis d-chem-2-water-electrolysis">
+  <title id="t-chem-2-water-electrolysis">그림 화학 2-3 물의 전기 분해 장치</title>
+  <desc id="d-chem-2-water-electrolysis">황산 나트륨과 BTB 용액을 넣은 물에 직류 전류를 흘리면 (−)극 쪽 시험관에는 수소, (+)극 쪽 시험관에는 산소가 2 : 1의 부피비로 모인다. (−)극 주변은 OH⁻이 생겨 BTB가 파란색, (+)극 주변은 H⁺이 생겨 노란색이 된다. 장치의 크기와 기체의 양은 모식적이다.</desc>
+  <style>
+    .c2we-ink{fill:var(--fig-ink)} .c2we-mut{fill:var(--fig-muted)}
+    .c2we-lbl{font-size:14px;fill:var(--fig-ink)} .c2we-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .c2we-sm{font-size:13px;fill:var(--fig-muted)}
+    .c2we-H{fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2} .c2we-O{fill:var(--fig-red);stroke:var(--fig-red);stroke-width:1} .c2we-C{fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1} .c2we-N{fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1}
+    .c2we-Cl{fill:var(--fig-green);stroke:var(--fig-green);stroke-width:1} .c2we-at{font-size:13px;font-weight:600}
+    .c2we-glass{fill:none;stroke:var(--fig-ink);stroke-width:2} .c2we-sol{fill:var(--fig-soft-green);stroke:none} .c2we-solB{fill:var(--fig-soft-blue);stroke:none} .c2we-solY{fill:var(--fig-soft-amber);stroke:none} .c2we-gas{fill:var(--fig-paper);stroke:none} .c2we-rod{fill:var(--fig-ink);stroke:none} .c2we-wire{fill:none;stroke:var(--fig-ink);stroke-width:2} .c2we-pw{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.5} .c2we-bub{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1}
+  </style>
+  <rect x="180" y="170" width="360" height="170" class="c2we-sol"/>
+  <rect x="180" y="210" width="150" height="130" class="c2we-solB" style="opacity:0.9"/>
+  <rect x="390" y="210" width="150" height="130" class="c2we-solY" style="opacity:0.9"/>
+  <path d="M229 300 L229 86 A26 26 0 0 1 281 86 L281 300 Z" class="c2we-solB"/>
+  <path d="M229 200 L229 86 A26 26 0 0 1 281 86 L281 200 Z" class="c2we-gas"/>
+  <path d="M229 300 L229 86 A26 26 0 0 1 281 86 L281 300" class="c2we-glass"/>
+  <line x1="229" y1="200" x2="281" y2="200" style="stroke:var(--fig-ink);stroke-width:1;stroke-dasharray:3 3"/>
+  <text x="255.0" y="106.0" text-anchor="middle" class="c2we-b">H₂</text>
+  <rect x="251" y="250" width="8" height="140" class="c2we-rod"/>
+  <circle cx="247" cy="238" r="3" class="c2we-bub"/>
+  <circle cx="261" cy="222" r="3" class="c2we-bub"/>
+  <circle cx="251" cy="206" r="3" class="c2we-bub"/>
+  <circle cx="263" cy="255" r="3" class="c2we-bub"/>
+  <circle cx="245" cy="268" r="3" class="c2we-bub"/>
+  <path d="M439 300 L439 86 A26 26 0 0 1 491 86 L491 300 Z" class="c2we-solY"/>
+  <path d="M439 130 L439 86 A26 26 0 0 1 491 86 L491 130 Z" class="c2we-gas"/>
+  <path d="M439 300 L439 86 A26 26 0 0 1 491 86 L491 300" class="c2we-glass"/>
+  <line x1="439" y1="130" x2="491" y2="130" style="stroke:var(--fig-ink);stroke-width:1;stroke-dasharray:3 3"/>
+  <text x="465.0" y="106.0" text-anchor="middle" class="c2we-b">O₂</text>
+  <rect x="461" y="250" width="8" height="140" class="c2we-rod"/>
+  <circle cx="457" cy="238" r="3" class="c2we-bub"/>
+  <circle cx="471" cy="222" r="3" class="c2we-bub"/>
+  <circle cx="461" cy="190" r="3" class="c2we-bub"/>
+  <circle cx="473" cy="255" r="3" class="c2we-bub"/>
+  <circle cx="455" cy="268" r="3" class="c2we-bub"/>
+  <path d="M180 140 L180 340 L540 340 L540 140" class="c2we-glass"/>
+  <rect x="300" y="372" width="120" height="40" rx="5" class="c2we-pw"/>
+  <text x="360.0" y="397.0" text-anchor="middle" class="c2we-lbl">직류 전원</text>
+  <path d="M255 390 L255 392 L300 392" class="c2we-wire"/>
+  <path d="M465 390 L465 392 L420 392" class="c2we-wire"/>
+  <text x="290.0" y="386.0" text-anchor="middle" class="c2we-b">−</text>
+  <text x="430.0" y="386.0" text-anchor="middle" class="c2we-b">+</text>
+  <text x="20.0" y="70.0" text-anchor="start" class="c2we-b">(−)극 쪽</text>
+  <text x="20.0" y="92.0" text-anchor="start" class="c2we-lbl">수소 H₂ — 부피 2</text>
+  <text x="20.0" y="112.0" text-anchor="start" class="c2we-sm">불씨를 대면 '퍽'</text>
+  <text x="20.0" y="250.0" text-anchor="start" class="c2we-b" style="fill:var(--fig-blue)">BTB 파란색</text>
+  <text x="20.0" y="270.0" text-anchor="start" class="c2we-sm">2H₂O + 2e⁻</text>
+  <text x="20.0" y="288.0" text-anchor="start" class="c2we-sm">→ H₂ + 2OH⁻</text>
+  <text x="700.0" y="70.0" text-anchor="end" class="c2we-b">(+)극 쪽</text>
+  <text x="700.0" y="92.0" text-anchor="end" class="c2we-lbl">산소 O₂ — 부피 1</text>
+  <text x="700.0" y="112.0" text-anchor="end" class="c2we-sm">꺼져 가는 불씨가 타오름</text>
+  <text x="700.0" y="250.0" text-anchor="end" class="c2we-b" style="fill:var(--fig-amber)">BTB 노란색</text>
+  <text x="700.0" y="270.0" text-anchor="end" class="c2we-sm">2H₂O</text>
+  <text x="700.0" y="288.0" text-anchor="end" class="c2we-sm">→ O₂ + 4H⁺ + 4e⁻</text>
+  <text x="360.0" y="190.0" text-anchor="middle" class="c2we-sm">황산 나트륨 + BTB 수용액</text>
+  <text x="360.0" y="160.0" text-anchor="middle" class="c2we-sm">(가운데는 초록색)</text>
+  <text x="130.0" y="360.0" text-anchor="middle" class="c2we-b" style="fill:var(--fig-accent)">모인 기체 부피 H₂ : O₂ = 2 : 1</text>
+  <text x="600.0" y="360.0" text-anchor="middle" class="c2we-b" style="fill:var(--fig-accent)">= 계수비(몰수비)</text>
+</svg>

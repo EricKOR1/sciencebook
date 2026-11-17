@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-chem-1-caco3-setup d-chem-1-caco3-setup">
+  <title id="t-chem-1-caco3-setup">그림 화학 1-5 탄산 칼슘과 염산의 반응 — 질량 감소로 CO₂ 재기</title>
+  <desc id="d-chem-1-caco3-setup">반응 전에는 염산이 든 삼각 플라스크와 탄산 칼슘을 함께 전자저울에 올려 질량을 잰다. 탄산 칼슘을 넣고 입구를 솜으로 느슨하게 막으면 이산화 탄소가 솜 사이로 빠져나가고, 반응이 끝난 뒤 줄어든 질량이 빠져나간 이산화 탄소의 질량이다. 장치의 크기는 모식적이다.</desc>
+  <style>
+    .c1cs-ink{fill:var(--fig-ink)} .c1cs-mut{fill:var(--fig-muted)}
+    .c1cs-lbl{font-size:14px;fill:var(--fig-ink)} .c1cs-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .c1cs-sm{font-size:13px;fill:var(--fig-muted)}
+    .c1cs-H{fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2} .c1cs-O{fill:var(--fig-red);stroke:var(--fig-red);stroke-width:1} .c1cs-C{fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1} .c1cs-N{fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1}
+    .c1cs-Cl{fill:var(--fig-green);stroke:var(--fig-green);stroke-width:1} .c1cs-at{font-size:13px;font-weight:600}
+    .c1cs-glass{fill:none;stroke:var(--fig-ink);stroke-width:2} .c1cs-liq{fill:var(--fig-soft-blue);stroke:none} .c1cs-bal{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.5} .c1cs-disp{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2} .c1cs-pow{fill:var(--fig-paper);stroke:var(--fig-muted);stroke-width:1.2} .c1cs-cot{fill:var(--fig-paper);stroke:var(--fig-muted);stroke-width:1.2} .c1cs-bub{fill:none;stroke:var(--fig-blue);stroke-width:1.2}
+  </style>
+  <text x="180.0" y="30.0" text-anchor="middle" class="c1cs-b">① 반응 전</text>
+  <path d="M109.7 207 L87 246 Q85 252 93 252 L197 252 Q205 252 203 246 L180.3 207 Z" class="c1cs-liq"/>
+  <path d="M133 122 L133 167 L87 246 Q85 252 93 252 L197 252 Q205 252 203 246 L157 167 L157 122" class="c1cs-glass"/>
+  <text x="145.0" y="236.0" text-anchor="middle" class="c1cs-sm">묽은 염산</text>
+  <ellipse cx="250" cy="246" rx="34" ry="6" class="c1cs-bal"/>
+  <path d="M228 242 Q250 222 272 242 Z" class="c1cs-pow"/>
+  <text x="250.0" y="212.0" text-anchor="middle" class="c1cs-sm">CaCO₃ 가루</text>
+  <rect x="60" y="252" width="240" height="8" rx="2" class="c1cs-bal"/>
+  <rect x="50" y="260" width="260" height="44" rx="6" class="c1cs-bal"/>
+  <rect x="130" y="268" width="100" height="28" rx="3" class="c1cs-disp"/>
+  <text x="180.0" y="288.0" text-anchor="middle" class="c1cs-b">W₁</text>
+  <text x="272.0" y="287.0" text-anchor="middle" class="c1cs-sm">전자저울</text>
+  <text x="180.0" y="330.0" text-anchor="middle" class="c1cs-lbl">플라스크 + 염산 + CaCO₃ 함께</text>
+  <line x1="330.0" y1="190.0" x2="379.0" y2="190.0" style="stroke:var(--fig-ink);stroke-width:3"/><path d="M390.0 190.0 L379.0 195.5 L379.0 184.5 Z" style="fill:var(--fig-ink)"/>
+  <text x="360.0" y="176.0" text-anchor="middle" class="c1cs-sm">가루를 넣는다</text>
+  <text x="540.0" y="30.0" text-anchor="middle" class="c1cs-b">② 반응 후(기포가 멈춘 뒤)</text>
+  <path d="M504.7 207 L482 246 Q480 252 488 252 L592 252 Q600 252 598 246 L575.3 207 Z" class="c1cs-liq"/>
+  <path d="M528 122 L528 167 L482 246 Q480 252 488 252 L592 252 Q600 252 598 246 L552 167 L552 122" class="c1cs-glass"/>
+  <path d="M525 134 Q520 118 534 114 Q540 106 548 114 Q560 118 555 134 Z" class="c1cs-cot"/>
+  <text x="566.0" y="124.0" text-anchor="start" class="c1cs-sm">솜(느슨하게)</text>
+  <circle cx="520" cy="236" r="3" class="c1cs-bub"/>
+  <circle cx="545" cy="228" r="4" class="c1cs-bub"/>
+  <circle cx="565" cy="238" r="3" class="c1cs-bub"/>
+  <circle cx="535" cy="216" r="3" class="c1cs-bub"/>
+  <circle cx="555" cy="214" r="2.5" class="c1cs-bub"/>
+  <circle cx="510" cy="222" r="2.5" class="c1cs-bub"/>
+  <line x1="526.0" y1="108.0" x2="512.6" y2="79.2" style="stroke:var(--fig-muted);stroke-width:2"/><path d="M509.2 72.0 L516.2 77.6 L509.0 80.9 Z" style="fill:var(--fig-muted)"/>
+  <line x1="540.0" y1="108.0" x2="540.0" y2="80.0" style="stroke:var(--fig-muted);stroke-width:2"/><path d="M540.0 72.0 L544.0 80.0 L536.0 80.0 Z" style="fill:var(--fig-muted)"/>
+  <line x1="554.0" y1="108.0" x2="567.4" y2="79.2" style="stroke:var(--fig-muted);stroke-width:2"/><path d="M570.8 72.0 L571.0 80.9 L563.8 77.6 Z" style="fill:var(--fig-muted)"/>
+  <text x="500.0" y="84.0" text-anchor="end" class="c1cs-b" style="fill:var(--fig-muted)">CO₂</text>
+  <text x="500.0" y="102.0" text-anchor="end" class="c1cs-sm">빠져나감</text>
+  <rect x="420" y="252" width="240" height="8" rx="2" class="c1cs-bal"/>
+  <rect x="410" y="260" width="260" height="44" rx="6" class="c1cs-bal"/>
+  <rect x="490" y="268" width="100" height="28" rx="3" class="c1cs-disp"/>
+  <text x="540.0" y="288.0" text-anchor="middle" class="c1cs-b">W₂</text>
+  <text x="632.0" y="287.0" text-anchor="middle" class="c1cs-sm">전자저울</text>
+  <text x="540.0" y="330.0" text-anchor="middle" class="c1cs-lbl">CaCl₂ 수용액이 남는다</text>
+  <text x="360.0" y="352.0" text-anchor="middle" class="c1cs-lbl">W₁ − W₂ = 빠져나간 CO₂의 질량   ·   CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g)</text>
+</svg>

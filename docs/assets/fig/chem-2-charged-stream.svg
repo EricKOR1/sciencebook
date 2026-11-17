@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-chem-2-charged-stream d-chem-2-charged-stream">
+  <title id="t-chem-2-charged-stream">그림 화학 2-7 대전체에 끌리는 액체 줄기 — 극성 분자와 무극성 분자</title>
+  <desc id="d-chem-2-charged-stream">대전된 막대를 가는 액체 줄기에 가까이 대면 극성 분자인 물의 줄기는 막대 쪽으로 휘고, 무극성 분자인 헥세인의 줄기는 거의 휘지 않는다. 극성 분자는 막대와 반대 부호인 부분 전하 쪽을 막대로 향하도록 돌아 끌려간다. 줄기가 휘는 정도는 모식적이다.</desc>
+  <style>
+    .c2cs-ink{fill:var(--fig-ink)} .c2cs-mut{fill:var(--fig-muted)}
+    .c2cs-lbl{font-size:14px;fill:var(--fig-ink)} .c2cs-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .c2cs-sm{font-size:13px;fill:var(--fig-muted)}
+    .c2cs-H{fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2} .c2cs-O{fill:var(--fig-red);stroke:var(--fig-red);stroke-width:1} .c2cs-C{fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1} .c2cs-N{fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1}
+    .c2cs-Cl{fill:var(--fig-green);stroke:var(--fig-green);stroke-width:1} .c2cs-at{font-size:13px;font-weight:600}
+    .c2cs-bur{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.5} .c2cs-rod{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5} .c2cs-zoom{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.2} .c2cs-d{font-size:13px;font-weight:600;fill:var(--fig-red)} .c2cs-m{font-size:14px;font-weight:600;fill:var(--fig-violet)}
+  </style>
+  <rect x="136" y="40" width="28" height="60" rx="3" class="c2cs-bur"/>
+  <path d="M144 100 L148 114 L152 114 L156 100 Z" class="c2cs-bur"/>
+  <path d="M150 116 C150 170 154 190 186 300" style="fill:none;stroke:var(--fig-blue);stroke-width:4;stroke-linecap:round"/>
+  <rect x="200" y="186" width="140" height="18" rx="9" class="c2cs-rod"/>
+  <text x="216.0" y="200.0" text-anchor="middle" class="c2cs-m">−</text>
+  <text x="242.0" y="200.0" text-anchor="middle" class="c2cs-m">−</text>
+  <text x="268.0" y="200.0" text-anchor="middle" class="c2cs-m">−</text>
+  <text x="294.0" y="200.0" text-anchor="middle" class="c2cs-m">−</text>
+  <text x="320.0" y="200.0" text-anchor="middle" class="c2cs-m">−</text>
+  <text x="270.0" y="226.0" text-anchor="middle" class="c2cs-sm">대전된 막대</text>
+  <text x="180.0" y="26.0" text-anchor="middle" class="c2cs-b">물 H₂O (극성 분자)</text>
+  <text x="180.0" y="326.0" text-anchor="middle" class="c2cs-b" style="fill:var(--fig-blue)">막대 쪽으로 휜다</text>
+  <rect x="14" y="140" width="112" height="140" rx="6" class="c2cs-zoom"/>
+  <text x="70.0" y="158.0" text-anchor="middle" class="c2cs-sm">확대(모식)</text>
+  <line x1="52" y1="192" x2="68" y2="182" style="stroke:var(--fig-ink);stroke-width:2"/><line x1="52" y1="192" x2="68" y2="202" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <circle cx="68" cy="182" r="6" class="c2cs-H"/><circle cx="68" cy="202" r="6" class="c2cs-H"/><circle cx="52" cy="192" r="9" class="c2cs-O"/>
+  <line x1="92" y1="222" x2="108" y2="212" style="stroke:var(--fig-ink);stroke-width:2"/><line x1="92" y1="222" x2="108" y2="232" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <circle cx="108" cy="212" r="6" class="c2cs-H"/><circle cx="108" cy="232" r="6" class="c2cs-H"/><circle cx="92" cy="222" r="9" class="c2cs-O"/>
+  <line x1="52" y1="252" x2="68" y2="242" style="stroke:var(--fig-ink);stroke-width:2"/><line x1="52" y1="252" x2="68" y2="262" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <circle cx="68" cy="242" r="6" class="c2cs-H"/><circle cx="68" cy="262" r="6" class="c2cs-H"/><circle cx="52" cy="252" r="9" class="c2cs-O"/>
+  <text x="70.0" y="274.0" text-anchor="middle" class="c2cs-sm">δ+(H) 쪽이 막대로</text>
+  <line x1="126.0" y1="210.0" x2="139.0" y2="210.0" style="stroke:var(--fig-line);stroke-width:1.5"/><path d="M146.0 210.0 L139.0 213.5 L139.0 206.5 Z" style="fill:var(--fig-line)"/>
+  <line x1="360" y1="20" x2="360" y2="330" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
+  <rect x="496" y="40" width="28" height="60" rx="3" class="c2cs-bur"/>
+  <path d="M504 100 L508 114 L512 114 L516 100 Z" class="c2cs-bur"/>
+  <path d="M510 116 L511 300" style="fill:none;stroke:var(--fig-amber);stroke-width:4;stroke-linecap:round"/>
+  <path d="M510 116 L510 300" style="fill:none;stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:3 4;opacity:0"/>
+  <rect x="560" y="186" width="140" height="18" rx="9" class="c2cs-rod"/>
+  <text x="576.0" y="200.0" text-anchor="middle" class="c2cs-m">−</text>
+  <text x="602.0" y="200.0" text-anchor="middle" class="c2cs-m">−</text>
+  <text x="628.0" y="200.0" text-anchor="middle" class="c2cs-m">−</text>
+  <text x="654.0" y="200.0" text-anchor="middle" class="c2cs-m">−</text>
+  <text x="680.0" y="200.0" text-anchor="middle" class="c2cs-m">−</text>
+  <text x="630.0" y="226.0" text-anchor="middle" class="c2cs-sm">대전된 막대</text>
+  <text x="540.0" y="26.0" text-anchor="middle" class="c2cs-b">헥세인 C₆H₁₄ (무극성 분자)</text>
+  <text x="540.0" y="326.0" text-anchor="middle" class="c2cs-b" style="fill:var(--fig-amber)">거의 휘지 않는다</text>
+  <text x="400.0" y="150.0" text-anchor="start" class="c2cs-sm">쌍극자의 합이 0이라</text>
+  <text x="400.0" y="168.0" text-anchor="start" class="c2cs-sm">끌리는 쪽이 없다</text>
+  <text x="400.0" y="268.0" text-anchor="start" class="c2cs-sm">(+)로 대전된 막대를</text>
+  <text x="400.0" y="286.0" text-anchor="start" class="c2cs-sm">써도 결과는 같다</text>
+</svg>
