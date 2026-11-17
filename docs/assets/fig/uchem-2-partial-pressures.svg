@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-uchem-2-partial-pressures d-uchem-2-partial-pressures">
+  <title id="t-uchem-2-partial-pressures">그림 일반화학 2-5 돌턴의 부분 압력 법칙</title>
+  <desc id="d-uchem-2-partial-pressures">부피와 온도가 같은 세 용기. N₂ 분자 6개만 넣으면 0.60 atm, O₂ 분자 3개만 넣으면 0.30 atm이다. 둘을 한 용기에 섞으면 각 기체는 혼자 있을 때와 같은 압력을 내므로 전체 압력은 0.90 atm이고, N₂의 부분 압력은 몰 분율 6/9 × 0.90 atm = 0.60 atm이다(분자 수는 설명을 위한 모식도).</desc>
+  <style>
+    .uchem-2-partial-pressures-t{font-size:14px;fill:var(--fig-ink)}
+    .uchem-2-partial-pressures-s{font-size:13px;fill:var(--fig-muted)}
+    .uchem-2-partial-pressures-b{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+
+  </style>
+  <rect x="20.0" y="92.0" width="180.0" height="180.0" rx="6" style="fill:var(--fig-paper);stroke:var(--fig-ink);stroke-width:2"/>
+  <circle cx="80.0" cy="48.0" r="22.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.8"/>
+  <path d="M63 56 A18 18 0 1 1 97 56" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <line x1="80.0" y1="48.0" x2="86.0" y2="33.2" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <circle cx="80.0" cy="48.0" r="3.0" style="fill:var(--fig-ink);stroke:none"/>
+  <line x1="80.0" y1="70.0" x2="80.0" y2="82.0" style="stroke:var(--fig-ink);stroke-width:3"/>
+  <text x="110.0" y="54.0" class="uchem-2-partial-pressures-b">0.60 atm</text>
+  <circle cx="55.0" cy="137.0" r="9.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <circle cx="120.0" cy="127.0" r="9.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <circle cx="165.0" cy="172.0" r="9.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <circle cx="70.0" cy="207.0" r="9.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <circle cx="135.0" cy="222.0" r="9.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <circle cx="175.0" cy="127.0" r="9.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <text x="110.0" y="294.0" text-anchor="middle" class="uchem-2-partial-pressures-t">N₂만 6개</text>
+  <text x="110.0" y="312.0" text-anchor="middle" class="uchem-2-partial-pressures-s" style="font-size:13px">P(N₂) = 0.60 atm</text>
+  <rect x="270.0" y="92.0" width="180.0" height="180.0" rx="6" style="fill:var(--fig-paper);stroke:var(--fig-ink);stroke-width:2"/>
+  <circle cx="330.0" cy="48.0" r="22.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.8"/>
+  <path d="M313 56 A18 18 0 1 1 347 56" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <line x1="330.0" y1="48.0" x2="318.9" y2="36.5" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <circle cx="330.0" cy="48.0" r="3.0" style="fill:var(--fig-ink);stroke:none"/>
+  <line x1="330.0" y1="70.0" x2="330.0" y2="82.0" style="stroke:var(--fig-ink);stroke-width:3"/>
+  <text x="360.0" y="54.0" class="uchem-2-partial-pressures-b">0.30 atm</text>
+  <circle cx="345.0" cy="172.0" r="10.0" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8"/>
+  <circle cx="300.0" cy="247.0" r="10.0" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8"/>
+  <circle cx="405.0" cy="257.0" r="10.0" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8"/>
+  <text x="360.0" y="294.0" text-anchor="middle" class="uchem-2-partial-pressures-t">O₂만 3개</text>
+  <text x="360.0" y="312.0" text-anchor="middle" class="uchem-2-partial-pressures-s" style="font-size:13px">P(O₂) = 0.30 atm</text>
+  <rect x="520.0" y="92.0" width="180.0" height="180.0" rx="6" style="fill:var(--fig-paper);stroke:var(--fig-ink);stroke-width:2"/>
+  <circle cx="580.0" cy="48.0" r="22.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.8"/>
+  <path d="M563 56 A18 18 0 1 1 597 56" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <line x1="580.0" y1="48.0" x2="596.0" y2="47.4" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <circle cx="580.0" cy="48.0" r="3.0" style="fill:var(--fig-ink);stroke:none"/>
+  <line x1="580.0" y1="70.0" x2="580.0" y2="82.0" style="stroke:var(--fig-ink);stroke-width:3"/>
+  <text x="610.0" y="54.0" class="uchem-2-partial-pressures-b">0.90 atm</text>
+  <circle cx="555.0" cy="137.0" r="9.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <circle cx="620.0" cy="127.0" r="9.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <circle cx="665.0" cy="172.0" r="9.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <circle cx="570.0" cy="207.0" r="9.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <circle cx="635.0" cy="222.0" r="9.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <circle cx="675.0" cy="127.0" r="9.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <circle cx="595.0" cy="172.0" r="10.0" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8"/>
+  <circle cx="550.0" cy="247.0" r="10.0" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8"/>
+  <circle cx="655.0" cy="257.0" r="10.0" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8"/>
+  <text x="610.0" y="294.0" text-anchor="middle" class="uchem-2-partial-pressures-t">섞으면 9개</text>
+  <text x="610.0" y="312.0" text-anchor="middle" class="uchem-2-partial-pressures-s" style="font-size:13px">P = 0.60 + 0.30 = 0.90 atm</text>
+  <text x="235.0" y="190.0" text-anchor="middle" class="uchem-2-partial-pressures-b" style="font-size:30px">+</text>
+  <text x="485.0" y="190.0" text-anchor="middle" class="uchem-2-partial-pressures-b" style="font-size:30px">=</text>
+  <text x="20.0" y="22.0" class="uchem-2-partial-pressures-s">세 용기 모두 같은 V, 같은 T</text>
+</svg>

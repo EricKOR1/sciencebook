@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-uphy-8-capacitor-network d-uphy-8-capacitor-network">
+  <title id="t-uphy-8-capacitor-network">그림 일반물리학 8-8 축전기 회로망(예제 13)</title>
+  <desc id="d-uphy-8-capacitor-network">C₁ = 2.0 μF와 C₂ = 3.0 μF를 직렬로 이은 가지와 C₃ = 4.0 μF 가지가 12 V 전지에 병렬로 연결되어 있다. 직렬 가지의 두 축전기는 전하가 14.4 μC으로 같고 전압이 7.2 V와 4.8 V로 나뉜다. C₃에는 전지 전압 12 V가 그대로 걸려 48 μC이 저장된다.</desc>
+  <style>.uphy-8-capacitor-network-t{font-size:14px;fill:var(--fig-ink)} .uphy-8-capacitor-network-b{font-size:14px;fill:var(--fig-ink);font-weight:700} .uphy-8-capacitor-network-s{font-size:13px;fill:var(--fig-muted)} .uphy-8-capacitor-network-ax{stroke:var(--fig-ink);stroke-width:1.5;fill:none} .uphy-8-capacitor-network-grid{stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4;fill:none}</style>
+  <path d="M120 70 L120 156 M120 176 L120 270" style="stroke:var(--fig-ink);stroke-width:2.2;fill:none"/>
+  <line x1="100" y1="156" x2="140" y2="156" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <line x1="109" y1="176" x2="131" y2="176" style="stroke:var(--fig-ink);stroke-width:5"/>
+  <text x="146" y="158" class="uphy-8-capacitor-network-b" style="fill:var(--fig-red)">+</text>
+  <text x="146" y="184" class="uphy-8-capacitor-network-b" style="fill:var(--fig-blue)">−</text>
+  <text x="92" y="170" text-anchor="end" class="uphy-8-capacitor-network-b">12 V</text>
+  <path d="M120 70 L284 70 M296 70 L424 70 M436 70 L520 70 L520 270 L120 270" style="stroke:var(--fig-ink);stroke-width:2.2;fill:none"/>
+  <path d="M220 70 L220 200 L354 200 M366 200 L520 200" style="stroke:var(--fig-ink);stroke-width:2.2;fill:none"/>
+  <circle cx="220" cy="70" r="4" style="fill:var(--fig-ink)"/>
+  <circle cx="520" cy="200" r="4" style="fill:var(--fig-ink)"/>
+  <line x1="284" y1="48" x2="284" y2="92" style="stroke:var(--fig-ink);stroke-width:3.5"/>
+  <line x1="296" y1="48" x2="296" y2="92" style="stroke:var(--fig-ink);stroke-width:3.5"/>
+  <text x="290" y="38" text-anchor="middle" class="uphy-8-capacitor-network-b">C₁ = 2.0 μF</text>
+  <text x="290" y="112" text-anchor="middle" class="uphy-8-capacitor-network-s">14.4 μC</text>
+  <text x="290" y="130" text-anchor="middle" class="uphy-8-capacitor-network-s">7.2 V</text>
+  <line x1="424" y1="48" x2="424" y2="92" style="stroke:var(--fig-ink);stroke-width:3.5"/>
+  <line x1="436" y1="48" x2="436" y2="92" style="stroke:var(--fig-ink);stroke-width:3.5"/>
+  <text x="430" y="38" text-anchor="middle" class="uphy-8-capacitor-network-b">C₂ = 3.0 μF</text>
+  <text x="430" y="112" text-anchor="middle" class="uphy-8-capacitor-network-s">14.4 μC</text>
+  <text x="430" y="130" text-anchor="middle" class="uphy-8-capacitor-network-s">4.8 V</text>
+  <line x1="354" y1="178" x2="354" y2="222" style="stroke:var(--fig-ink);stroke-width:3.5"/>
+  <line x1="366" y1="178" x2="366" y2="222" style="stroke:var(--fig-ink);stroke-width:3.5"/>
+  <text x="360" y="172" text-anchor="middle" class="uphy-8-capacitor-network-b">C₃ = 4.0 μF</text>
+  <text x="360" y="242" text-anchor="middle" class="uphy-8-capacitor-network-s">48 μC, 12 V</text>
+  <text x="575" y="80" class="uphy-8-capacitor-network-t">직렬 묶음</text>
+  <text x="575" y="100" class="uphy-8-capacitor-network-s">C₁₂ = 1.2 μF</text>
+  <text x="575" y="120" class="uphy-8-capacitor-network-s">Q는 같고 V는 나뉜다</text>
+  <text x="575" y="200" class="uphy-8-capacitor-network-t">병렬</text>
+  <text x="575" y="220" class="uphy-8-capacitor-network-s">C = 1.2 + 4.0</text>
+  <text x="575" y="240" class="uphy-8-capacitor-network-s">    = 5.2 μF</text>
+  <text x="575" y="260" class="uphy-8-capacitor-network-s">V는 같고 Q가 더해진다</text>
+</svg>

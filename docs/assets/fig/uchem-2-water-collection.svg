@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-uchem-2-water-collection d-uchem-2-water-collection">
+  <title id="t-uchem-2-water-collection">그림 일반화학 2-6 물 위에서 기체 모으기(수상 치환)</title>
+  <desc id="d-uchem-2-water-collection">아연과 묽은 염산에서 생긴 수소를 물을 채워 거꾸로 세운 눈금 실린더에 모은다. 실린더를 위아래로 움직여 안팎의 수면 높이를 맞추면 실린더 속 기체의 전체 압력이 대기압과 같아진다. 이 기체는 수소와 수증기의 혼합물이므로 수소의 부분 압력은 대기압에서 그 온도의 물의 증기 압력을 뺀 값이다(예제 4의 수치, 모식도).</desc>
+  <style>
+    .uchem-2-water-collection-t{font-size:14px;fill:var(--fig-ink)}
+    .uchem-2-water-collection-s{font-size:13px;fill:var(--fig-muted)}
+    .uchem-2-water-collection-b{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+
+  </style>
+  <clipPath id="uchem-2-water-collection-fl"><path d="M90 150 V190 L45 290 H155 L110 190 V150 Z"/></clipPath>
+  <rect x="40" y="238" width="120" height="60" clip-path="url(#uchem-2-water-collection-fl)" style="fill:var(--fig-soft-teal)"/>
+  <path d="M90 150 V190 L45 290 H155 L110 190 V150" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <rect x="86.0" y="136.0" width="28.0" height="18.0" rx="2" style="fill:var(--fig-line);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <path d="M74 288 l4.2 -8 l9.8 2 l4.2 6 Z" style="fill:var(--fig-muted);stroke:var(--fig-ink);stroke-width:1"/>
+  <path d="M96 288 l3.6 -8 l8.4 2 l3.6 6 Z" style="fill:var(--fig-muted);stroke:var(--fig-ink);stroke-width:1"/>
+  <path d="M118 288 l4.2 -8 l9.8 2 l4.2 6 Z" style="fill:var(--fig-muted);stroke:var(--fig-ink);stroke-width:1"/>
+  <circle cx="80.0" cy="268.0" r="3.0" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:1.2"/>
+  <circle cx="102.0" cy="260.0" r="3.0" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:1.2"/>
+  <circle cx="122.0" cy="270.0" r="3.0" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:1.2"/>
+  <circle cx="94.0" cy="246.0" r="3.0" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:1.2"/>
+  <circle cx="112.0" cy="250.0" r="3.0" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:1.2"/>
+  <text x="100.0" y="318.0" text-anchor="middle" class="uchem-2-water-collection-t">Zn + 묽은 HCl</text>
+  <rect x="230.0" y="215.0" width="240.0" height="85.0" rx="0" style="fill:var(--fig-soft-blue);stroke:none"/>
+  <path d="M230 190 V300 H470 V190" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <rect x="318.0" y="215.0" width="74.0" height="57.0" rx="0" style="fill:var(--fig-soft-blue);stroke:none"/>
+  <rect x="318.0" y="60.0" width="74.0" height="155.0" rx="0" style="fill:var(--fig-soft-amber);stroke:none"/>
+  <path d="M318 272 V66 Q318 60 324 60 H386 Q392 60 392 66 V272" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <line x1="378.0" y1="80.0" x2="392.0" y2="80.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="378.0" y1="100.0" x2="392.0" y2="100.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="378.0" y1="120.0" x2="392.0" y2="120.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="378.0" y1="140.0" x2="392.0" y2="140.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="378.0" y1="160.0" x2="392.0" y2="160.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="378.0" y1="180.0" x2="392.0" y2="180.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="378.0" y1="200.0" x2="392.0" y2="200.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="378.0" y1="220.0" x2="392.0" y2="220.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="378.0" y1="240.0" x2="392.0" y2="240.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="355.0" y="130.0" text-anchor="middle" class="uchem-2-water-collection-b">H₂</text>
+  <text x="355.0" y="150.0" text-anchor="middle" class="uchem-2-water-collection-s">+ H₂O(g)</text>
+  <path d="M100 136 V96 H300 V288 H352 V246" style="fill:none;stroke:var(--fig-ink);stroke-width:5;stroke-linejoin:round"/>
+  <path d="M100 136 V96 H300 V288 H352 V246" style="fill:none;stroke:var(--fig-paper);stroke-width:2;stroke-linejoin:round"/>
+  <circle cx="352.0" cy="236.0" r="4.0" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <circle cx="357.0" cy="224.0" r="3.0" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <circle cx="350.0" cy="214.0" r="3.5" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <line x1="396.0" y1="215.0" x2="488.0" y2="215.0" style="stroke:var(--fig-red);stroke-width:1.5;stroke-dasharray:5 3"/>
+  <line x1="212.0" y1="215.0" x2="314.0" y2="215.0" style="stroke:var(--fig-red);stroke-width:1.5;stroke-dasharray:5 3"/>
+  <text x="492.0" y="220.0" class="uchem-2-water-collection-t" style="fill:var(--fig-red)">안팎 수면 같게</text>
+  <rect x="488.0" y="40.0" width="220.0" height="132.0" rx="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <text x="500.0" y="64.0" class="uchem-2-water-collection-t">수면을 맞추면</text>
+  <text x="500.0" y="86.0" class="uchem-2-water-collection-b">P(실린더 속) = P(대기)</text>
+  <text x="500.0" y="112.0" class="uchem-2-water-collection-t">P(대기) = P(H₂) + P(H₂O)</text>
+  <text x="500.0" y="136.0" class="uchem-2-water-collection-s">755.0 = 731.2 + 23.8 torr</text>
+  <text x="500.0" y="156.0" class="uchem-2-water-collection-s">(25 °C 물의 증기 압력 23.8 torr)</text>
+  <text x="234.0" y="318.0" class="uchem-2-water-collection-s">물이 담긴 수조</text>
+</svg>

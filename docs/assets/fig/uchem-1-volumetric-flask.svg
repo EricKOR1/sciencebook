@@ -30,11 +30,11 @@
   <path d="M470 20 L460 52" style="fill:none;stroke:var(--fig-ink);stroke-width:3"/>
   <ellipse cx="472" cy="16" rx="6" ry="9" style="fill:var(--fig-soft-red);stroke:var(--fig-ink);stroke-width:1.5"/>
   <circle cx="459.0" cy="60.0" r="2.5" style="fill:var(--fig-blue);stroke:none"/>
-  <line x1="460.0" y1="78.0" x2="492.0" y2="92.0" style="stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:3 3"/>
-  <circle cx="526.0" cy="92.0" r="34.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
-  <clipPath id="uchem-1-volumetric-flask-mag"><circle cx="526" cy="92" r="33"/></clipPath>
-  <g clip-path="url(#uchem-1-volumetric-flask-mag)"><path d="M504 84 Q526 104 548 84 V132 H504 Z" style="fill:var(--fig-soft-blue);stroke:none"/><path d="M504 84 Q526 104 548 84" style="fill:none;stroke:var(--fig-blue);stroke-width:2"/><line x1="492" y1="94" x2="560" y2="94" style="stroke:var(--fig-red);stroke-width:2"/><line x1="504" y1="52" x2="504" y2="132" style="stroke:var(--fig-ink);stroke-width:2"/><line x1="548" y1="52" x2="548" y2="132" style="stroke:var(--fig-ink);stroke-width:2"/></g>
-  <text x="530.0" y="48.0" text-anchor="middle" class="uchem-1-volumetric-flask-s">아랫면 = 눈금선</text>
+  <line x1="440.0" y1="78.0" x2="408.0" y2="92.0" style="stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:3 3"/>
+  <circle cx="374.0" cy="92.0" r="34.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <clipPath id="uchem-1-volumetric-flask-mag"><circle cx="374" cy="92" r="33"/></clipPath>
+  <g clip-path="url(#uchem-1-volumetric-flask-mag)"><path d="M352 84 Q374 104 396 84 V132 H352 Z" style="fill:var(--fig-soft-blue);stroke:none"/><path d="M352 84 Q374 104 396 84" style="fill:none;stroke:var(--fig-blue);stroke-width:2"/><line x1="340" y1="94" x2="408" y2="94" style="stroke:var(--fig-red);stroke-width:2"/><line x1="352" y1="52" x2="352" y2="132" style="stroke:var(--fig-ink);stroke-width:2"/><line x1="396" y1="52" x2="396" y2="132" style="stroke:var(--fig-ink);stroke-width:2"/></g>
+  <text x="378.0" y="48.0" text-anchor="middle" class="uchem-1-volumetric-flask-s">아랫면 = 눈금선</text>
   <g transform="rotate(-30 630 150)">
   <clipPath id="uchem-1-volumetric-flask-c4"><path d="M622 40 V120 C622 134 580 142 580 210 Q580 240 608 240 H652 Q680 240 680 210 C680 142 638 134 638 120 V40 Z"/></clipPath>
   <rect x="570" y="78" width="120" height="164" clip-path="url(#uchem-1-volumetric-flask-c4)" style="fill:var(--fig-soft-blue)"/>

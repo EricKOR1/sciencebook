@@ -21,12 +21,12 @@
   <text x="187.5" y="91.7" class="uphy-7-adiabat-isotherm-b">C</text>
   <text x="647.2" y="302.9" class="uphy-7-adiabat-isotherm-s">1.32 T₀</text>
   <text x="647.2" y="331.5" class="uphy-7-adiabat-isotherm-s">0.76 T₀</text>
-  <line x1="110" y1="268" x2="140" y2="268" style="stroke:var(--fig-blue);stroke-width:3"/>
-  <text x="148" y="273" class="uphy-7-adiabat-isotherm-t" style="fill:var(--fig-blue)">등온선 T₀ (PV = 일정)</text>
-  <line x1="110" y1="290" x2="140" y2="290" style="stroke:var(--fig-red);stroke-width:3"/>
-  <text x="148" y="295" class="uphy-7-adiabat-isotherm-t" style="fill:var(--fig-red)">단열선 (PV^γ = 일정)</text>
-  <line x1="110" y1="312" x2="140" y2="312" style="stroke:var(--fig-muted);stroke-width:1.4;stroke-dasharray:6 5"/>
-  <text x="148" y="317" class="uphy-7-adiabat-isotherm-s">다른 온도의 등온선</text>
+  <line x1="110" y1="282" x2="140" y2="282" style="stroke:var(--fig-blue);stroke-width:3"/>
+  <text x="148" y="287" class="uphy-7-adiabat-isotherm-t" style="fill:var(--fig-blue)">등온선 T₀ (PV = 일정)</text>
+  <line x1="110" y1="304" x2="140" y2="304" style="stroke:var(--fig-red);stroke-width:3"/>
+  <text x="148" y="309" class="uphy-7-adiabat-isotherm-t" style="fill:var(--fig-red)">단열선 (PV^γ = 일정)</text>
+  <line x1="110" y1="326" x2="140" y2="326" style="stroke:var(--fig-muted);stroke-width:1.4;stroke-dasharray:6 5"/>
+  <text x="148" y="331" class="uphy-7-adiabat-isotherm-s">다른 온도의 등온선</text>
   <text x="360" y="70" class="uphy-7-adiabat-isotherm-t" style="fill:var(--fig-red)">A → B 단열 팽창: 온도 하강(T₀ → 0.76 T₀)</text>
   <text x="360" y="90" class="uphy-7-adiabat-isotherm-t" style="fill:var(--fig-red)">A → C 단열 압축: 온도 상승(T₀ → 1.32 T₀)</text>
   <text x="360" y="112" class="uphy-7-adiabat-isotherm-s">A에서의 기울기</text>

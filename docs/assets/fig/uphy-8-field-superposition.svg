@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-uphy-8-field-superposition d-uphy-8-field-superposition">
+  <title id="t-uphy-8-field-superposition">그림 일반물리학 8-5 두 전하가 만드는 전기장의 중첩(예제 3)</title>
+  <desc id="d-uphy-8-field-superposition">(−4.0 cm, 0)의 +5.0 nC과 (+4.0 cm, 0)의 −5.0 nC에서 점 P(0, 3.0 cm)까지의 거리는 모두 5.0 cm이다. +전하의 전기장 E₁은 P에서 바깥쪽(그 전하에서 멀어지는 쪽), −전하의 전기장 E₂는 그 전하를 향한다. 크기가 1.80×10⁴ N/C로 같아 y성분은 상쇄되고 x성분만 남아 합이 +x 방향 2.88×10⁴ N/C이다.</desc>
+  <style>.uphy-8-field-superposition-t{font-size:14px;fill:var(--fig-ink)} .uphy-8-field-superposition-b{font-size:14px;fill:var(--fig-ink);font-weight:700} .uphy-8-field-superposition-s{font-size:13px;fill:var(--fig-muted)} .uphy-8-field-superposition-ax{stroke:var(--fig-ink);stroke-width:1.5;fill:none} .uphy-8-field-superposition-grid{stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4;fill:none}</style>
+  <line x1="60" y1="270" x2="560" y2="270" style="stroke:var(--fig-line);stroke-width:1.2"/>
+  <line x1="300" y1="290" x2="300" y2="40" style="stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:4 4"/>
+  <line x1="140" y1="270" x2="300" y2="150" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:5 4"/>
+  <line x1="460" y1="270" x2="300" y2="150" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:5 4"/>
+  <circle cx="140" cy="270" r="15" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <text x="140" y="275" text-anchor="middle" class="uphy-8-field-superposition-b" style="fill:var(--fig-red)">+</text>
+  <circle cx="460" cy="270" r="15" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="460" y="275" text-anchor="middle" class="uphy-8-field-superposition-b" style="fill:var(--fig-blue)">−</text>
+  <text x="140" y="306" text-anchor="middle" class="uphy-8-field-superposition-t">+5.0 nC</text>
+  <text x="460" y="306" text-anchor="middle" class="uphy-8-field-superposition-t">−5.0 nC</text>
+  <text x="206" y="210" text-anchor="end" class="uphy-8-field-superposition-s">5.0 cm</text>
+  <text x="394" y="210" class="uphy-8-field-superposition-s">5.0 cm</text>
+  <text x="306" y="220" class="uphy-8-field-superposition-s">3.0 cm</text>
+  <text x="220" y="288" text-anchor="middle" class="uphy-8-field-superposition-s">4.0 cm</text>
+  <circle cx="300" cy="150" r="5" style="fill:var(--fig-ink)"/>
+  <text x="288" y="142" text-anchor="end" class="uphy-8-field-superposition-b">P</text>
+  <line x1="396" y1="78" x2="396" y2="150" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:3 3"/>
+  <line x1="396" y1="222" x2="396" y2="150" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:3 3"/>
+  <line x1="300" y1="150" x2="387.2" y2="84.6" style="stroke:var(--fig-red);stroke-width:3"/>
+  <path d="M396 78 L389.6 89.5 L383.2 80.9 Z" style="fill:var(--fig-red)"/>
+  <line x1="300" y1="150" x2="387.2" y2="215.4" style="stroke:var(--fig-blue);stroke-width:3"/>
+  <path d="M396 222 L383.2 219.1 L389.6 210.5 Z" style="fill:var(--fig-blue)"/>
+  <line x1="300" y1="150" x2="480" y2="150" style="stroke:var(--fig-accent);stroke-width:3.6"/>
+  <path d="M492 150 L479 155.8 L479 144.2 Z" style="fill:var(--fig-accent)"/>
+  <text x="402" y="76" class="uphy-8-field-superposition-t" style="fill:var(--fig-red)">E₁ (+전하에서 멀어짐)</text>
+  <text x="404" y="234" class="uphy-8-field-superposition-t" style="fill:var(--fig-blue)">E₂ (−전하를 향함)</text>
+  <text x="500" y="155" class="uphy-8-field-superposition-b" style="fill:var(--fig-accent)">E = 2.88×10⁴ N/C</text>
+  <text x="590" y="250" text-anchor="middle" class="uphy-8-field-superposition-s">y성분: 상쇄</text>
+  <text x="590" y="270" text-anchor="middle" class="uphy-8-field-superposition-s">x성분: 2 × 0.8 × E₁</text>
+</svg>
