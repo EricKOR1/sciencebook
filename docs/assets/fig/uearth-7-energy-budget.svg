@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-labelledby="t-uearth-7-energy-budget d-uearth-7-energy-budget">
+  <title id="t-uearth-7-energy-budget">그림 일반지구과학 7-4 전 지구 평균 에너지 수지(W/m²)</title>
+  <desc id="d-uearth-7-energy-budget">지구 평균 에너지 흐름을 화살표 굵기에 비례하게 그린 그림이다. 대기 꼭대기에 들어오는 태양 복사 340 가운데 100은 구름·대기·지표가 반사하고, 80은 대기가, 160은 지표가 흡수한다. 지표는 장파 398을 내보내고 대기 역복사 342를 받으며, 증발(잠열) 82와 전도·대류(현열) 21로도 대기에 열을 준다. 대기는 우주로 장파 239를 내보낸다. 대기 꼭대기(340 대 339), 대기(581 대 581), 지표(502 대 501)에서 들어온 양과 나간 양이 거의 같고, 차이 약 1은 반올림과 현재의 에너지 불균형이다. 값은 대표값(약)이다.</desc>
+  <style>
+    .uearth-7-energy-budget-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .uearth-7-energy-budget-t{font-size:13px;fill:var(--fig-ink)}
+    .uearth-7-energy-budget-b{font-size:13px;font-weight:600;fill:var(--fig-ink)}
+    .uearth-7-energy-budget-s{font-size:13px;fill:var(--fig-muted)}
+    .uearth-7-energy-budget-ax{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .uearth-7-energy-budget-grid{fill:none;stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 4}
+    .uearth-7-energy-budget-panel{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1}
+    .uearth-7-energy-budget-sea{fill:var(--fig-soft-blue);stroke:none}
+    .uearth-7-energy-budget-land{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:0.7;fill-rule:evenodd}
+    .uearth-7-energy-budget-grat{fill:none;stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 4}
+    .uearth-7-energy-budget-frame{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .uearth-7-energy-budget-c-ink{font-size:13px;font-weight:600;fill:var(--fig-ink)}
+    .uearth-7-energy-budget-c-muted{font-size:13px;font-weight:600;fill:var(--fig-muted)}
+    .uearth-7-energy-budget-c-line{font-size:13px;font-weight:600;fill:var(--fig-line)}
+    .uearth-7-energy-budget-c-accent{font-size:13px;font-weight:600;fill:var(--fig-accent)}
+    .uearth-7-energy-budget-c-blue{font-size:13px;font-weight:600;fill:var(--fig-blue)}
+    .uearth-7-energy-budget-c-red{font-size:13px;font-weight:600;fill:var(--fig-red)}
+    .uearth-7-energy-budget-c-green{font-size:13px;font-weight:600;fill:var(--fig-green)}
+    .uearth-7-energy-budget-c-amber{font-size:13px;font-weight:600;fill:var(--fig-amber)}
+    .uearth-7-energy-budget-c-violet{font-size:13px;font-weight:600;fill:var(--fig-violet)}
+    .uearth-7-energy-budget-c-teal{font-size:13px;font-weight:600;fill:var(--fig-teal)}
+    .uearth-7-energy-budget-atm{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1}
+    .uearth-7-energy-budget-sfc{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1}
+    .uearth-7-energy-budget-num{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+  </style>
+  <line x1="20" y1="70" x2="700" y2="70" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:6 4"/>
+  <text x="700.0" y="64.0" class="uearth-7-energy-budget-s" text-anchor="end">대기 꼭대기</text>
+  <rect x="20" y="150" width="680" height="110" class="uearth-7-energy-budget-atm" style="opacity:0.8"/>
+  <text x="700.0" y="252.0" class="uearth-7-energy-budget-c-blue" text-anchor="end">대기(구름 포함)</text>
+  <rect x="20" y="350" width="680" height="34" class="uearth-7-energy-budget-sfc"/>
+  <text x="700.0" y="374.0" class="uearth-7-energy-budget-c-green" text-anchor="end">지표</text>
+  <text x="20.0" y="20.0" class="uearth-7-energy-budget-c-amber">태양 복사(단파)</text>
+  <text x="300.0" y="20.0" class="uearth-7-energy-budget-c-red">지구 복사(장파)</text>
+  <text x="486.0" y="20.0" class="uearth-7-energy-budget-c-teal">잠열·현열</text>
+  <path d="M58.7,34 L58.7,144.0 L51.7,144.0 L70,160 L88.3,144.0 L81.3,144.0 L81.3,34 Z" style="fill:var(--fig-amber);opacity:0.85;stroke:none"/>
+  <text x="86.0" y="56.0" class="uearth-7-energy-budget-num">입사 340</text>
+  <path d="M172.7,160 L172.7,50.0 L165.7,50.0 L176,34 L186.3,50.0 L179.3,50.0 L179.3,160 Z" style="fill:var(--fig-amber);opacity:0.85;stroke:none"/>
+  <text x="190.0" y="56.0" class="uearth-7-energy-budget-num">반사 100</text>
+  <rect x="57.0" y="187.0" width="88.8" height="18" rx="3" style="fill:var(--fig-paper);opacity:0.85;stroke:none"/>
+  <text x="60.0" y="200.0" class="uearth-7-energy-budget-b">대기 흡수 80</text>
+  <path d="M94.7,160 L94.7,338.0 L87.7,338.0 L100,354 L112.3,338.0 L105.3,338.0 L105.3,160 Z" style="fill:var(--fig-amber);opacity:0.85;stroke:none"/>
+  <text x="116.0" y="332.0" class="uearth-7-energy-budget-num">지표 흡수 160</text>
+  <path d="M306.7,354 L306.7,176.0 L299.7,176.0 L320,160 L340.3,176.0 L333.3,176.0 L333.3,354 Z" style="fill:var(--fig-red);opacity:0.85;stroke:none"/>
+  <text x="298.0" y="280.0" class="uearth-7-energy-budget-b" text-anchor="end">지표 방출</text>
+  <text x="298.0" y="298.0" class="uearth-7-energy-budget-num" text-anchor="end">398</text>
+  <path d="M388.6,160 L388.6,338.0 L381.6,338.0 L400,354 L418.4,338.0 L411.4,338.0 L411.4,160 Z" style="fill:var(--fig-red);opacity:0.85;stroke:none"/>
+  <text x="422.0" y="280.0" class="uearth-7-energy-budget-b">대기 역복사</text>
+  <text x="422.0" y="298.0" class="uearth-7-energy-budget-num">342</text>
+  <path d="M632.0,160 L632.0,50.0 L625.0,50.0 L640,34 L655.0,50.0 L648.0,50.0 L648.0,160 Z" style="fill:var(--fig-red);opacity:0.85;stroke:none"/>
+  <text x="624.0" y="56.0" class="uearth-7-energy-budget-num" text-anchor="end">우주로 장파 239</text>
+  <path d="M517.3,354 L517.3,196.0 L510.3,196.0 L520,180 L529.7,196.0 L522.7,196.0 L522.7,354 Z" style="fill:var(--fig-teal);opacity:0.85;stroke:none"/>
+  <text x="536.0" y="280.0" class="uearth-7-energy-budget-num">잠열 82</text>
+  <text x="536.0" y="298.0" class="uearth-7-energy-budget-s">(증발)</text>
+  <path d="M598.9,354 L598.9,196.0 L591.9,196.0 L600,180 L608.1,196.0 L601.1,196.0 L601.1,354 Z" style="fill:var(--fig-teal);opacity:0.85;stroke:none"/>
+  <text x="612.0" y="330.0" class="uearth-7-energy-budget-num">현열 21</text>
+  <text x="20.0" y="410.0" class="uearth-7-energy-budget-t">대기 꼭대기: 들어옴 340 ↔ 나감 100 + 239 = 339 (차이 약 1 = 에너지 불균형)</text>
+  <text x="20.0" y="430.0" class="uearth-7-energy-budget-t">대기: 80 + 398 + 82 + 21 = 581 ↔ 342 + 239 = 581</text>
+  <text x="20.0" y="450.0" class="uearth-7-energy-budget-t">지표: 160 + 342 = 502 ↔ 398 + 82 + 21 = 501 · 화살표 굵기 ∝ 에너지 흐름</text>
+</svg>

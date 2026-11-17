@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-uearth-8-station-model d-uearth-8-station-model">
+  <title id="t-uearth-8-station-model">그림 일반지구과학 8-10 지상 일기도의 관측소 모형과 전선 기호</title>
+  <desc id="d-uearth-8-station-model">왼쪽은 지상 일기도의 관측소 모형 예이다. 원 안의 색칠한 비율이 구름량(여기서는 약 6/8), 깃대는 바람이 불어오는 방향(북서쪽), 긴 깃 2개와 짧은 깃 1개는 풍속 25 kt(약 13 m/s)를 뜻한다. 원의 왼쪽 위는 기온 25 °C, 왼쪽 아래는 이슬점 18 °C, 오른쪽 위의 132는 해면 기압 1013.2 hPa이다. 오른쪽은 바람 깃의 값과 네 가지 전선 기호이며, 전선 기호의 삼각형·반원이 향하는 쪽으로 전선이 움직인다. 정체 전선은 두 기호가 반대쪽에 번갈아 붙는다.</desc>
+  <style>
+    .uearth-8-station-model-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .uearth-8-station-model-t{font-size:13px;fill:var(--fig-ink)}
+    .uearth-8-station-model-b{font-size:13px;font-weight:600;fill:var(--fig-ink)}
+    .uearth-8-station-model-s{font-size:13px;fill:var(--fig-muted)}
+    .uearth-8-station-model-ax{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .uearth-8-station-model-grid{fill:none;stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 4}
+    .uearth-8-station-model-panel{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1}
+    .uearth-8-station-model-sea{fill:var(--fig-soft-blue);stroke:none}
+    .uearth-8-station-model-land{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:0.7;fill-rule:evenodd}
+    .uearth-8-station-model-grat{fill:none;stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 4}
+    .uearth-8-station-model-frame{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .uearth-8-station-model-c-ink{font-size:13px;font-weight:600;fill:var(--fig-ink)}
+    .uearth-8-station-model-c-muted{font-size:13px;font-weight:600;fill:var(--fig-muted)}
+    .uearth-8-station-model-c-line{font-size:13px;font-weight:600;fill:var(--fig-line)}
+    .uearth-8-station-model-c-accent{font-size:13px;font-weight:600;fill:var(--fig-accent)}
+    .uearth-8-station-model-c-blue{font-size:13px;font-weight:600;fill:var(--fig-blue)}
+    .uearth-8-station-model-c-red{font-size:13px;font-weight:600;fill:var(--fig-red)}
+    .uearth-8-station-model-c-green{font-size:13px;font-weight:600;fill:var(--fig-green)}
+    .uearth-8-station-model-c-amber{font-size:13px;font-weight:600;fill:var(--fig-amber)}
+    .uearth-8-station-model-c-violet{font-size:13px;font-weight:600;fill:var(--fig-violet)}
+    .uearth-8-station-model-c-teal{font-size:13px;font-weight:600;fill:var(--fig-teal)}
+    .uearth-8-station-model-st{fill:var(--fig-paper);stroke:var(--fig-ink);stroke-width:2}
+    .uearth-8-station-model-big{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+  </style>
+  <text x="14.0" y="22.0" class="uearth-8-station-model-h">(가) 관측소 모형 읽기</text>
+  <line x1="179.4" y1="164.4" x2="114.3" y2="99.3" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <line x1="114.3" y1="99.3" x2="126.3" y2="74.5" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <line x1="123.4" y1="108.4" x2="135.4" y2="83.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <line x1="132.6" y1="117.6" x2="139.0" y2="104.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <circle cx="190" cy="175" r="15" class="uearth-8-station-model-st"/>
+  <path d="M190,175 L190.0,160.0 A15,15 0 1,1 175.0,175.0 Z" style="fill:var(--fig-ink)"/>
+  <text x="166.0" y="163.0" class="uearth-8-station-model-big" text-anchor="end">25</text>
+  <text x="166.0" y="205.0" class="uearth-8-station-model-big" text-anchor="end">18</text>
+  <text x="214.0" y="163.0" class="uearth-8-station-model-big">132</text>
+  <line x1="148.0" y1="158.0" x2="96.0" y2="110.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="14.0" y="106.0" class="uearth-8-station-model-b">기온 25 °C</text>
+  <line x1="148.0" y1="200.0" x2="108.0" y2="250.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="14.0" y="255.0" class="uearth-8-station-model-b">이슬점 18 °C</text>
+  <line x1="240.0" y1="158.0" x2="300.0" y2="110.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="304.0" y="106.0" class="uearth-8-station-model-b">해면 기압</text>
+  <text x="304.0" y="123.0" class="uearth-8-station-model-s">132 → 1013.2 hPa</text>
+  <line x1="200.0" y1="187.0" x2="300.0" y2="240.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="304.0" y="236.0" class="uearth-8-station-model-b">구름량 약 6/8</text>
+  <text x="304.0" y="253.0" class="uearth-8-station-model-s">(색칠한 비율)</text>
+  <line x1="122.3" y1="119.3" x2="300.0" y2="60.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="304.0" y="56.0" class="uearth-8-station-model-b">바람: 북서풍 25 kt</text>
+  <text x="304.0" y="73.0" class="uearth-8-station-model-s">깃대 = 불어오는 쪽</text>
+  <text x="14.0" y="300.0" class="uearth-8-station-model-s">기압 끝 세 자리: 132 → 1013.2 hPa, 985 → 998.5 hPa</text>
+  <text x="14.0" y="320.0" class="uearth-8-station-model-s">(앞에 10 또는 9를 붙여 950~1050 hPa 사이 값이 되게 읽는다)</text>
+  <line x1="450" y1="30" x2="450" y2="315" style="stroke:var(--fig-line);stroke-width:1"/>
+  <text x="470.0" y="22.0" class="uearth-8-station-model-h">(나) 바람 깃과 전선 기호</text>
+  <line x1="470.0" y1="58.0" x2="530.0" y2="58.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <line x1="522.0" y1="58.0" x2="528.0" y2="49.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <text x="550.0" y="62.0" class="uearth-8-station-model-t">짧은 깃 5 kt</text>
+  <line x1="470.0" y1="88.0" x2="530.0" y2="88.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <line x1="530.0" y1="88.0" x2="538.0" y2="72.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <text x="550.0" y="92.0" class="uearth-8-station-model-t">긴 깃 10 kt</text>
+  <line x1="470.0" y1="118.0" x2="530.0" y2="118.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <path d="M530,118 L536,102 L520,118 Z" style="fill:var(--fig-ink)"/>
+  <text x="550.0" y="122.0" class="uearth-8-station-model-t">삼각기 50 kt</text>
+  <text x="470.0" y="152.0" class="uearth-8-station-model-s">1 kt ≈ 0.51 m/s</text>
+  <line x1="470.0" y1="192.0" x2="590.0" y2="192.0" style="fill:none;stroke:var(--fig-blue);stroke-width:2.6"/>
+  <path d="M478,192 L492,192 L485,181 Z" style="fill:var(--fig-blue)"/>
+  <path d="M508,192 L522,192 L515,181 Z" style="fill:var(--fig-blue)"/>
+  <path d="M538,192 L552,192 L545,181 Z" style="fill:var(--fig-blue)"/>
+  <path d="M568,192 L582,192 L575,181 Z" style="fill:var(--fig-blue)"/>
+  <text x="602.0" y="196.0" class="uearth-8-station-model-t">한랭 전선</text>
+  <line x1="470.0" y1="224.0" x2="590.0" y2="224.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.6"/>
+  <path d="M478,224 A7,7 0 0,1 492,224 Z" style="fill:var(--fig-red)"/>
+  <path d="M508,224 A7,7 0 0,1 522,224 Z" style="fill:var(--fig-red)"/>
+  <path d="M538,224 A7,7 0 0,1 552,224 Z" style="fill:var(--fig-red)"/>
+  <path d="M568,224 A7,7 0 0,1 582,224 Z" style="fill:var(--fig-red)"/>
+  <text x="602.0" y="228.0" class="uearth-8-station-model-t">온난 전선</text>
+  <line x1="470.0" y1="256.0" x2="590.0" y2="256.0" style="fill:none;stroke:var(--fig-violet);stroke-width:2.6"/>
+  <path d="M478,256 L492,256 L485,245 Z" style="fill:var(--fig-violet)"/>
+  <path d="M508,256 A7,7 0 0,1 522,256 Z" style="fill:var(--fig-violet)"/>
+  <path d="M538,256 L552,256 L545,245 Z" style="fill:var(--fig-violet)"/>
+  <path d="M568,256 A7,7 0 0,1 582,256 Z" style="fill:var(--fig-violet)"/>
+  <text x="602.0" y="260.0" class="uearth-8-station-model-t">폐색 전선</text>
+  <line x1="470.0" y1="288.0" x2="500.0" y2="288.0" style="fill:none;stroke:var(--fig-blue);stroke-width:2.6"/>
+  <line x1="500.0" y1="288.0" x2="530.0" y2="288.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.6"/>
+  <line x1="530.0" y1="288.0" x2="560.0" y2="288.0" style="fill:none;stroke:var(--fig-blue);stroke-width:2.6"/>
+  <line x1="560.0" y1="288.0" x2="590.0" y2="288.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.6"/>
+  <path d="M478,288 L492,288 L485,277 Z" style="fill:var(--fig-blue)"/>
+  <path d="M508,288 A7,7 0 0,0 522,288 Z" style="fill:var(--fig-red)"/>
+  <path d="M538,288 L552,288 L545,277 Z" style="fill:var(--fig-blue)"/>
+  <path d="M568,288 A7,7 0 0,0 582,288 Z" style="fill:var(--fig-red)"/>
+  <text x="602.0" y="292.0" class="uearth-8-station-model-t">정체 전선</text>
+  <text x="470.0" y="320.0" class="uearth-8-station-model-s">기호가 향하는 쪽으로 이동</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-labelledby="t-uearth-5-decay-curve d-uearth-5-decay-curve">
+<title id="t-uearth-5-decay-curve">그림 일반지구과학 5-6 방사성 붕괴 — 모원소는 줄고 자원소는 쌓인다</title>
+<desc id="d-uearth-5-decay-curve">가로축은 반감기 단위의 시간이다. 모원소의 양(파랑)은 반감기마다 절반으로 줄어 1/2, 1/4, 1/8로 지수적으로 감소하고, 붕괴한 만큼 방사성 기원 자원소(빨강)가 쌓인다. 두 곡선은 반감기 1회에서 만나며, 이때 자원소/모원소 비는 1, 2회에서 3, 3회에서 7이다.</desc>
+<style>
+.uearth-5-decay-curve-t{font-size:14px;fill:var(--fig-ink)} .uearth-5-decay-curve-s{font-size:13px;fill:var(--fig-muted)} .uearth-5-decay-curve-b{font-size:14px;fill:var(--fig-ink);font-weight:600} .uearth-5-decay-curve-h{font-size:15px;fill:var(--fig-ink);font-weight:600}
+</style>
+<rect x="0" y="0" width="720" height="370" style="fill:var(--fig-paper)"/>
+<line x1="80.0" y1="310.0" x2="80.0" y2="50.0" style="stroke:var(--fig-line);stroke-width:1"/>
+<text x="80.0" y="330.0" text-anchor="middle" class="uearth-5-decay-curve-s">0</text>
+<line x1="196.0" y1="310.0" x2="196.0" y2="50.0" style="stroke:var(--fig-line);stroke-width:1"/>
+<text x="196.0" y="330.0" text-anchor="middle" class="uearth-5-decay-curve-s">1</text>
+<line x1="312.0" y1="310.0" x2="312.0" y2="50.0" style="stroke:var(--fig-line);stroke-width:1"/>
+<text x="312.0" y="330.0" text-anchor="middle" class="uearth-5-decay-curve-s">2</text>
+<line x1="428.0" y1="310.0" x2="428.0" y2="50.0" style="stroke:var(--fig-line);stroke-width:1"/>
+<text x="428.0" y="330.0" text-anchor="middle" class="uearth-5-decay-curve-s">3</text>
+<line x1="544.0" y1="310.0" x2="544.0" y2="50.0" style="stroke:var(--fig-line);stroke-width:1"/>
+<text x="544.0" y="330.0" text-anchor="middle" class="uearth-5-decay-curve-s">4</text>
+<line x1="660.0" y1="310.0" x2="660.0" y2="50.0" style="stroke:var(--fig-line);stroke-width:1"/>
+<text x="660.0" y="330.0" text-anchor="middle" class="uearth-5-decay-curve-s">5</text>
+<line x1="80.0" y1="310.0" x2="660.0" y2="310.0" style="stroke:var(--fig-line);stroke-width:1"/>
+<text x="72.0" y="315.0" text-anchor="end" class="uearth-5-decay-curve-s">0</text>
+<line x1="80.0" y1="245.0" x2="660.0" y2="245.0" style="stroke:var(--fig-line);stroke-width:1"/>
+<text x="72.0" y="250.0" text-anchor="end" class="uearth-5-decay-curve-s">0.25</text>
+<line x1="80.0" y1="180.0" x2="660.0" y2="180.0" style="stroke:var(--fig-line);stroke-width:1"/>
+<text x="72.0" y="185.0" text-anchor="end" class="uearth-5-decay-curve-s">0.5</text>
+<line x1="80.0" y1="115.0" x2="660.0" y2="115.0" style="stroke:var(--fig-line);stroke-width:1"/>
+<text x="72.0" y="120.0" text-anchor="end" class="uearth-5-decay-curve-s">0.75</text>
+<line x1="80.0" y1="50.0" x2="660.0" y2="50.0" style="stroke:var(--fig-line);stroke-width:1"/>
+<text x="72.0" y="55.0" text-anchor="end" class="uearth-5-decay-curve-s">1</text>
+<line x1="80.0" y1="310.0" x2="660.0" y2="310.0" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+<line x1="80.0" y1="310.0" x2="80.0" y2="50.0" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+<text x="370.0" y="354.0" text-anchor="middle" class="uearth-5-decay-curve-s">경과 시간(반감기의 몇 배)</text>
+<text x="30.0" y="32.0" class="uearth-5-decay-curve-s">처음 모원소 수에 대한 비</text>
+<path d="M80.0 50.0 L85.8 58.9 L91.6 67.4 L97.4 75.7 L103.2 83.7 L109.0 91.4 L114.8 98.8 L120.6 106.0 L126.4 113.0 L132.2 119.7 L138.0 126.2 L143.8 132.4 L149.6 138.5 L155.4 144.3 L161.2 150.0 L167.0 155.4 L172.8 160.7 L178.6 165.8 L184.4 170.7 L190.2 175.4 L196.0 180.0 L201.8 184.4 L207.6 188.7 L213.4 192.8 L219.2 196.8 L225.0 200.7 L230.8 204.4 L236.6 208.0 L242.4 211.5 L248.2 214.8 L254.0 218.1 L259.8 221.2 L265.6 224.2 L271.4 227.2 L277.2 230.0 L283.0 232.7 L288.8 235.3 L294.6 237.9 L300.4 240.3 L306.2 242.7 L312.0 245.0 L317.8 247.2 L323.6 249.4 L329.4 251.4 L335.2 253.4 L341.0 255.3 L346.8 257.2 L352.6 259.0 L358.4 260.7 L364.2 262.4 L370.0 264.0 L375.8 265.6 L381.6 267.1 L387.4 268.6 L393.2 270.0 L399.0 271.4 L404.8 272.7 L410.6 273.9 L416.4 275.2 L422.2 276.4 L428.0 277.5 L433.8 278.6 L439.6 279.7 L445.4 280.7 L451.2 281.7 L457.0 282.7 L462.8 283.6 L468.6 284.5 L474.4 285.4 L480.2 286.2 L486.0 287.0 L491.8 287.8 L497.6 288.6 L503.4 289.3 L509.2 290.0 L515.0 290.7 L520.8 291.3 L526.6 292.0 L532.4 292.6 L538.2 293.2 L544.0 293.8 L549.8 294.3 L555.6 294.8 L561.4 295.4 L567.2 295.9 L573.0 296.3 L578.8 296.8 L584.6 297.3 L590.4 297.7 L596.2 298.1 L602.0 298.5 L607.8 298.9 L613.6 299.3 L619.4 299.6 L625.2 300.0 L631.0 300.3 L636.8 300.7 L642.6 301.0 L648.4 301.3 L654.2 301.6 L660.0 301.9" style="fill:none;stroke:var(--fig-blue);stroke-width:3;stroke-linejoin:round;stroke-linecap:round"/>
+<path d="M80.0 310.0 L85.8 301.1 L91.6 292.6 L97.4 284.3 L103.2 276.3 L109.0 268.6 L114.8 261.2 L120.6 254.0 L126.4 247.0 L132.2 240.3 L138.0 233.8 L143.8 227.6 L149.6 221.5 L155.4 215.7 L161.2 210.0 L167.0 204.6 L172.8 199.3 L178.6 194.2 L184.4 189.3 L190.2 184.6 L196.0 180.0 L201.8 175.6 L207.6 171.3 L213.4 167.2 L219.2 163.2 L225.0 159.3 L230.8 155.6 L236.6 152.0 L242.4 148.5 L248.2 145.2 L254.0 141.9 L259.8 138.8 L265.6 135.8 L271.4 132.8 L277.2 130.0 L283.0 127.3 L288.8 124.7 L294.6 122.1 L300.4 119.7 L306.2 117.3 L312.0 115.0 L317.8 112.8 L323.6 110.6 L329.4 108.6 L335.2 106.6 L341.0 104.7 L346.8 102.8 L352.6 101.0 L358.4 99.3 L364.2 97.6 L370.0 96.0 L375.8 94.4 L381.6 92.9 L387.4 91.4 L393.2 90.0 L399.0 88.6 L404.8 87.3 L410.6 86.1 L416.4 84.8 L422.2 83.6 L428.0 82.5 L433.8 81.4 L439.6 80.3 L445.4 79.3 L451.2 78.3 L457.0 77.3 L462.8 76.4 L468.6 75.5 L474.4 74.6 L480.2 73.8 L486.0 73.0 L491.8 72.2 L497.6 71.4 L503.4 70.7 L509.2 70.0 L515.0 69.3 L520.8 68.7 L526.6 68.0 L532.4 67.4 L538.2 66.8 L544.0 66.2 L549.8 65.7 L555.6 65.2 L561.4 64.6 L567.2 64.1 L573.0 63.7 L578.8 63.2 L584.6 62.7 L590.4 62.3 L596.2 61.9 L602.0 61.5 L607.8 61.1 L613.6 60.7 L619.4 60.4 L625.2 60.0 L631.0 59.7 L636.8 59.3 L642.6 59.0 L648.4 58.7 L654.2 58.4 L660.0 58.1" style="fill:none;stroke:var(--fig-red);stroke-width:3;stroke-linejoin:round;stroke-linecap:round"/>
+<circle cx="196.0" cy="180.0" r="4.5" style="fill:var(--fig-blue)"/>
+<circle cx="196.0" cy="180.0" r="4.5" style="fill:var(--fig-red)"/>
+<circle cx="312.0" cy="245.0" r="4.5" style="fill:var(--fig-blue)"/>
+<circle cx="312.0" cy="115.0" r="4.5" style="fill:var(--fig-red)"/>
+<circle cx="428.0" cy="277.5" r="4.5" style="fill:var(--fig-blue)"/>
+<circle cx="428.0" cy="82.5" r="4.5" style="fill:var(--fig-red)"/>
+<text x="204.0" y="202.0" class="uearth-5-decay-curve-b" style="fill:var(--fig-blue)">1/2</text>
+<text x="318.0" y="265.0" class="uearth-5-decay-curve-b" style="fill:var(--fig-blue)">1/4</text>
+<text x="434.0" y="297.5" class="uearth-5-decay-curve-b" style="fill:var(--fig-blue)">1/8</text>
+<text x="318.0" y="105.0" class="uearth-5-decay-curve-s" style="fill:var(--fig-red)">D*/N = 3</text>
+<text x="434.0" y="72.5" class="uearth-5-decay-curve-s" style="fill:var(--fig-red)">D*/N = 7</text>
+<text x="204.0" y="170.0" class="uearth-5-decay-curve-s" style="fill:var(--fig-ink)">D*/N = 1</text>
+<text x="555.6" y="278.8" class="uearth-5-decay-curve-b" style="fill:var(--fig-blue)">모원소 N</text>
+<text x="555.6" y="86.4" class="uearth-5-decay-curve-b" style="fill:var(--fig-red)">자원소 D*</text>
+<text x="97.4" y="65.6" class="uearth-5-decay-curve-s" style="fill:var(--fig-blue)">N = N₀e^(−λt)</text>
+</svg>

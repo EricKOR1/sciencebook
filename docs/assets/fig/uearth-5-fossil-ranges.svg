@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-uearth-5-fossil-ranges d-uearth-5-fossil-ranges">
+<title id="t-uearth-5-fossil-ranges">그림 일반지구과학 5-7 화석 산출 범위의 겹침으로 시대 좁히기</title>
+<desc id="d-uearth-5-fossil-ranges">세로축은 시간(위로 갈수록 젊음)이고 막대는 화석 종 가~라가 살았던 기간(산출 범위)이다. 어떤 지층에서 가, 나, 다가 함께 나왔다면 그 지층은 세 막대가 모두 겹치는 구간(색칠한 띠), 즉 가장 늦게 나타난 종의 출현과 가장 먼저 사라진 종의 소멸 사이에 쌓였다. 막대 하나만 쓸 때보다 시대가 훨씬 좁아진다. 가상의 자료이다.</desc>
+<style>
+.uearth-5-fossil-ranges-t{font-size:14px;fill:var(--fig-ink)} .uearth-5-fossil-ranges-s{font-size:13px;fill:var(--fig-muted)} .uearth-5-fossil-ranges-b{font-size:14px;fill:var(--fig-ink);font-weight:600} .uearth-5-fossil-ranges-h{font-size:15px;fill:var(--fig-ink);font-weight:600}
+</style>
+<rect x="0" y="0" width="720" height="340" style="fill:var(--fig-paper)"/>
+<line x1="110.0" y1="300.0" x2="110.0" y2="34.0" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+<path d="M0 0 l-9.0 -4.5 l0 9.0 z" transform="translate(110.0,30.0) rotate(-90.0)" style="fill:var(--fig-ink)"/>
+<text x="100.0" y="40.0" text-anchor="end" class="uearth-5-fossil-ranges-s">젊음</text>
+<text x="100.0" y="300.0" text-anchor="end" class="uearth-5-fossil-ranges-s">오래됨</text>
+<rect x="114.0" y="138.8" width="560.0" height="41.6" style="fill:var(--fig-soft-red)"/>
+<line x1="114.0" y1="138.8" x2="680.0" y2="138.8" style="stroke:var(--fig-red);stroke-width:1.2;stroke-dasharray:5 4"/>
+<line x1="114.0" y1="180.4" x2="680.0" y2="180.4" style="stroke:var(--fig-red);stroke-width:1.2;stroke-dasharray:5 4"/>
+<rect x="176.0" y="138.8" width="28.0" height="135.2" rx="4" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+<text x="190.0" y="324.0" text-anchor="middle" class="uearth-5-fossil-ranges-h">가</text>
+<rect x="266.0" y="92.0" width="28.0" height="130.0" rx="4" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.8"/>
+<text x="280.0" y="324.0" text-anchor="middle" class="uearth-5-fossil-ranges-h">나</text>
+<rect x="356.0" y="50.4" width="28.0" height="130.0" rx="4" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.8"/>
+<text x="370.0" y="324.0" text-anchor="middle" class="uearth-5-fossil-ranges-h">다</text>
+<rect x="446.0" y="45.2" width="28.0" height="72.8" rx="4" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+<text x="460.0" y="324.0" text-anchor="middle" class="uearth-5-fossil-ranges-h">라</text>
+<text x="560.0" y="162.8" class="uearth-5-fossil-ranges-b" style="fill:var(--fig-red)">가·나·다가 함께</text>
+<text x="560.0" y="180.8" class="uearth-5-fossil-ranges-b" style="fill:var(--fig-red)">산출되는 지층의 시대</text>
+<text x="620.0" y="130.8" text-anchor="middle" class="uearth-5-fossil-ranges-s" style="fill:var(--fig-red)">가가 사라짐</text>
+<text x="620.0" y="198.4" text-anchor="middle" class="uearth-5-fossil-ranges-s" style="fill:var(--fig-red)">다가 나타남</text>
+<text x="400.0" y="334.0" text-anchor="middle" class="uearth-5-fossil-ranges-s">막대: 화석 종이 산출되는 범위(가상의 자료)</text>
+</svg>
