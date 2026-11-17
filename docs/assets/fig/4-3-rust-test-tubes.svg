@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-4-3-rust-test-tubes d-4-3-rust-test-tubes">
+  <title id="t-4-3-rust-test-tubes">그림 4-3-7 철이 녹스는 조건을 찾는 시험관 실험 장치</title>
+  <desc id="d-4-3-rust-test-tubes">(가) 수돗물에 반쯤 잠긴 못, (나) 끓여 식힌 물에 완전히 잠기고 식용유 막으로 덮인 못, (다) 염화 칼슘과 솜 위에 두고 마개로 막은 못, (라) 소금물에 반쯤 잠긴 못, (마) 아연 조각을 감아 수돗물에 반쯤 잠기게 한 못. 한 가지 조건만 바꾸어 비교한다. 모식도.</desc>
+  <style>
+    .rt-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .rt-t{font-size:13px;fill:var(--fig-ink)}
+    .rt-mu{font-size:13px;fill:var(--fig-muted)}
+    .rt-glass{fill:none;stroke:var(--fig-ink);stroke-width:2}
+    .rt-water{fill:var(--fig-soft-blue);stroke:none}
+    .rt-salt{fill:var(--fig-soft-teal);stroke:none}
+    .rt-oil{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1}
+    .rt-cacl{fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:2 2}
+    .rt-cotton{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1}
+    .rt-nail{fill:var(--fig-muted);stroke:var(--fig-ink);stroke-width:1}
+    .rt-zn{fill:none;stroke:var(--fig-violet);stroke-width:3}
+    .rt-stop{fill:var(--fig-ink);stroke:none}
+  </style>
+  <text x="80" y="32" text-anchor="middle" class="rt-h">(가)</text>
+  <rect x="56.0" y="160" width="48" height="90" class="rt-water"/>
+  <path d="M73 110 H87 V116 H83 V222 L80 230 L77 222 V116 H73 Z" class="rt-nail"/>
+  <path d="M56.0 50 V250 Q56.0 274 80 274 Q104.0 274 104.0 250 V50" class="rt-glass"/>
+  <text x="80" y="298" text-anchor="middle" class="rt-t">수돗물</text><text x="80" y="318" text-anchor="middle" class="rt-mu">물·공기 모두</text>
+  <text x="220" y="32" text-anchor="middle" class="rt-h">(나)</text>
+  <rect x="196.0" y="100" width="48" height="150" class="rt-water"/>
+  <rect x="196.0" y="86" width="48" height="14" class="rt-oil"/>
+  <path d="M213 110 H227 V116 H223 V228 L220 236 L217 228 V116 H213 Z" class="rt-nail"/>
+  <path d="M196.0 50 V250 Q196.0 274 220 274 Q244.0 274 244.0 250 V50" class="rt-glass"/>
+  <text x="220" y="298" text-anchor="middle" class="rt-t">끓여 식힌 물·기름</text><text x="220" y="318" text-anchor="middle" class="rt-mu">산소 차단</text>
+  <text x="360" y="32" text-anchor="middle" class="rt-h">(다)</text>
+  <rect x="336.0" y="210" width="48" height="40" class="rt-cacl"/>
+  <rect x="336.0" y="196" width="48" height="14" class="rt-cotton"/>
+  <rect x="332.0" y="40" width="56" height="16" rx="3" class="rt-stop"/>
+  <path d="M353 80 H367 V86 H363 V184 L360 192 L357 184 V86 H353 Z" class="rt-nail"/>
+  <path d="M336.0 50 V250 Q336.0 274 360 274 Q384.0 274 384.0 250 V50" class="rt-glass"/>
+  <text x="360" y="298" text-anchor="middle" class="rt-t">염화 칼슘(건조제)</text><text x="360" y="318" text-anchor="middle" class="rt-mu">물 없음</text>
+  <text x="500" y="32" text-anchor="middle" class="rt-h">(라)</text>
+  <rect x="476.0" y="160" width="48" height="90" class="rt-salt"/>
+  <path d="M493 110 H507 V116 H503 V222 L500 230 L497 222 V116 H493 Z" class="rt-nail"/>
+  <path d="M476.0 50 V250 Q476.0 274 500 274 Q524.0 274 524.0 250 V50" class="rt-glass"/>
+  <text x="500" y="298" text-anchor="middle" class="rt-t">소금물</text><text x="500" y="318" text-anchor="middle" class="rt-mu">염분</text>
+  <text x="640" y="32" text-anchor="middle" class="rt-h">(마)</text>
+  <rect x="616.0" y="160" width="48" height="90" class="rt-water"/>
+  <path d="M633 110 H647 V116 H643 V222 L640 230 L637 222 V116 H633 Z" class="rt-nail"/>
+  <path d="M631 150 L649 155" class="rt-zn"/>
+  <path d="M631 158 L649 163" class="rt-zn"/>
+  <path d="M631 166 L649 171" class="rt-zn"/>
+  <path d="M631 174 L649 179" class="rt-zn"/>
+  <path d="M631 182 L649 187" class="rt-zn"/>
+  <path d="M631 190 L649 195" class="rt-zn"/>
+  <path d="M631 198 L649 203" class="rt-zn"/>
+  <path d="M616.0 50 V250 Q616.0 274 640 274 Q664.0 274 664.0 250 V50" class="rt-glass"/>
+  <text x="640" y="298" text-anchor="middle" class="rt-t">아연 감은 못</text><text x="640" y="318" text-anchor="middle" class="rt-mu">반응성 큰 금속</text>
+</svg>

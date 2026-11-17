@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-4-3-lemon-cell d-4-3-lemon-cell">
+  <title id="t-4-3-lemon-cell">그림 4-3-6 레몬 전지 — 산화와 환원이 떨어진 곳에서 일어난다</title>
+  <desc id="d-4-3-lemon-cell">레몬에 아연판과 구리판을 꽂고 도선으로 발광 다이오드(LED)를 연결하면, 아연판에서는 아연이 전자를 잃고 Zn²⁺가 되어 녹아 나가고(산화), 전자는 도선을 따라 구리판으로 이동하며, 구리판 표면에서는 수소 이온이 전자를 얻어 수소 기체가 된다(환원). 모식도(크기 비율은 실제와 다름).</desc>
+  <style>
+    .lc-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .lc-t{font-size:14px;fill:var(--fig-ink)}
+    .lc-mu{font-size:13px;fill:var(--fig-muted)}
+    .lc-lemon{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+    .lc-zn{fill:var(--fig-line);stroke:var(--fig-ink);stroke-width:1.2}
+    .lc-cu{fill:var(--fig-amber);stroke:var(--fig-ink);stroke-width:1.2}
+    .lc-wire{fill:none;stroke:var(--fig-ink);stroke-width:2.5;stroke-linejoin:round}
+    .lc-led{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2}
+    .lc-e{fill:var(--fig-blue)}
+    .lc-earr{fill:none;stroke:var(--fig-blue);stroke-width:2.2}
+    .lc-earrh{fill:var(--fig-blue)}
+    .lc-bub{fill:var(--fig-paper);stroke:var(--fig-blue);stroke-width:1.2}
+    .lc-ox{font-size:14px;font-weight:700;fill:var(--fig-red)}
+    .lc-rd{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+    .lc-box{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1}
+  </style>
+  <ellipse cx="360" cy="270" rx="150" ry="70" class="lc-lemon"/>
+  <text x="360" y="318" text-anchor="middle" class="lc-mu">레몬(산성 즙 속 H⁺)</text>
+  <rect x="290" y="150" width="12" height="150" class="lc-zn"/>
+  <rect x="418" y="150" width="12" height="150" class="lc-cu"/>
+  <path d="M296 150 V70 H344 M376 70 H424 V150" class="lc-wire"/>
+  <circle cx="360" cy="70" r="16" class="lc-led"/>
+  <text x="360" y="40" text-anchor="middle" class="lc-t">LED</text>
+  <path d="M310 58 H338" class="lc-earr"/><path d="M334 52 L344 58 L334 64 Z" class="lc-earrh"/>
+  <path d="M382 58 H410" class="lc-earr"/><path d="M406 52 L416 58 L406 64 Z" class="lc-earrh"/>
+  <path d="M284 140 V96" class="lc-earr"/><path d="M278 100 L284 88 L290 100 Z" class="lc-earrh"/>
+  <path d="M436 96 V140" class="lc-earr"/><path d="M430 136 L436 148 L442 136 Z" class="lc-earrh"/>
+  <text x="360" y="104" text-anchor="middle" class="lc-rd">전자(e⁻)의 이동 →</text>
+  <circle cx="440" cy="236" r="4" class="lc-bub"/><circle cx="446" cy="214" r="5" class="lc-bub"/><circle cx="440" cy="192" r="4" class="lc-bub"/>
+  <text x="312" y="250" class="lc-mu">Zn²⁺</text>
+  <text x="296" y="176" text-anchor="middle" class="lc-mu" style="font-size:12px" transform="rotate(-90 296 176)">아연판</text>
+  <text x="424" y="176" text-anchor="middle" class="lc-mu" style="font-size:12px" transform="rotate(-90 424 176)">구리판</text>
+  <rect x="8" y="120" width="228" height="120" rx="6" class="lc-box"/>
+  <text x="122" y="146" text-anchor="middle" class="lc-h">아연판</text>
+  <text x="122" y="172" text-anchor="middle" class="lc-ox">Zn → Zn²⁺ + 2e⁻</text>
+  <text x="122" y="196" text-anchor="middle" class="lc-t">전자를 잃음 = 산화</text>
+  <text x="122" y="220" text-anchor="middle" class="lc-mu">아연판이 조금씩 녹는다</text>
+  <rect x="484" y="120" width="228" height="120" rx="6" class="lc-box"/>
+  <text x="598" y="146" text-anchor="middle" class="lc-h">구리판</text>
+  <text x="598" y="172" text-anchor="middle" class="lc-rd">2H⁺ + 2e⁻ → H₂</text>
+  <text x="598" y="196" text-anchor="middle" class="lc-t">전자를 얻음 = 환원</text>
+  <text x="598" y="220" text-anchor="middle" class="lc-mu">표면에 수소 기체 거품</text>
+  <text x="360" y="352" text-anchor="middle" class="lc-mu">아연이 내놓은 전자가 직접 건너가지 않고 도선을 지나간다 — 이 전자의 흐름이 전류</text>
+</svg>
