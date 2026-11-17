@@ -32,7 +32,7 @@ Sims.register('u-climate-model', {
           else co2 += y <= 2030 ? 2.5 : -1;
         }
         var F = 5.35 * Math.log(co2 / 280) + (st.volc && y === 1991 ? -3 : 0);
-        out.push({ y: y, c: co2, F: F, T: T, eq: F / lam });
+        out.push({ y: y, c: co2, F: F, T: T, eq: 5.35 * Math.log(co2 / 280) / lam });   // 평형값은 CO₂ 강제력만으로
         T = T + DT / C * (F - lam * T);
       }
       return out;
