@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-uchem-1-electrolytes d-uchem-1-electrolytes">
+  <title id="t-uchem-1-electrolytes">그림 일반화학 1-7 강전해질·약전해질·비전해질의 입자 모형</title>
+  <desc id="d-uchem-1-electrolytes">같은 농도의 세 수용액에 전극을 넣고 전구를 연결했다. NaCl은 거의 전부 Na⁺와 Cl⁻로 해리해 전구가 밝고, 아세트산은 대부분 분자로 있고 일부만 이온화해 전구가 흐리며, 설탕은 분자 그대로 녹아 이온이 없어 전구가 켜지지 않는다. 물 분자는 생략한 모식도이다.</desc>
+  <style>
+    .uchem-1-electrolytes-t{font-size:14px;fill:var(--fig-ink)}
+    .uchem-1-electrolytes-s{font-size:13px;fill:var(--fig-muted)}
+    .uchem-1-electrolytes-b{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+
+  </style>
+  <rect x="30.0" y="150.0" width="190.0" height="120.0" rx="0" style="fill:var(--fig-soft-blue);stroke:none"/>
+  <path d="M30 110 V270 H220 V110" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <rect x="70.0" y="92.0" width="10.0" height="120.0" rx="0" style="fill:var(--fig-line);stroke:var(--fig-ink);stroke-width:1"/>
+  <rect x="170.0" y="92.0" width="10.0" height="120.0" rx="0" style="fill:var(--fig-line);stroke:var(--fig-ink);stroke-width:1"/>
+  <path d="M75 92 V60 H111 M139 60 H175 V92" style="fill:none;stroke:var(--fig-ink);stroke-width:1.8"/>
+  <circle cx="125.0" cy="58.0" r="14.0" style="fill:var(--fig-amber);stroke:var(--fig-ink);stroke-width:1.8"/>
+  <line x1="144.0" y1="58.0" x2="152.0" y2="58.0" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="138.4" y1="44.6" x2="144.1" y2="38.9" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="111.6" y1="44.6" x2="105.9" y2="38.9" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="106.0" y1="58.0" x2="98.0" y2="58.0" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="111.6" y1="71.4" x2="105.9" y2="77.1" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="125.0" y1="77.0" x2="125.0" y2="85.0" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="138.4" y1="71.4" x2="144.1" y2="77.1" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <text x="125.0" y="294.0" text-anchor="middle" class="uchem-1-electrolytes-b">강전해질: NaCl</text>
+  <text x="125.0" y="314.0" text-anchor="middle" class="uchem-1-electrolytes-s">거의 전부 이온으로 해리</text>
+  <circle cx="53.0" cy="172.0" r="8.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <text x="53.0" y="176.5" text-anchor="middle" class="uchem-1-electrolytes-s" style="fill:var(--fig-violet);font-weight:700">+</text>
+  <circle cx="105.0" cy="240.0" r="8.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <text x="105.0" y="244.5" text-anchor="middle" class="uchem-1-electrolytes-s" style="fill:var(--fig-violet);font-weight:700">+</text>
+  <circle cx="150.0" cy="180.0" r="8.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <text x="150.0" y="184.5" text-anchor="middle" class="uchem-1-electrolytes-s" style="fill:var(--fig-violet);font-weight:700">+</text>
+  <circle cx="195.0" cy="238.0" r="8.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <text x="195.0" y="242.5" text-anchor="middle" class="uchem-1-electrolytes-s" style="fill:var(--fig-violet);font-weight:700">+</text>
+  <circle cx="57.0" cy="228.0" r="8.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <text x="57.0" y="232.5" text-anchor="middle" class="uchem-1-electrolytes-s" style="fill:var(--fig-violet);font-weight:700">+</text>
+  <circle cx="95.0" cy="190.0" r="11.0" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <text x="95.0" y="194.5" text-anchor="middle" class="uchem-1-electrolytes-s" style="fill:var(--fig-green);font-weight:700">−</text>
+  <circle cx="135.0" cy="220.0" r="11.0" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <text x="135.0" y="224.5" text-anchor="middle" class="uchem-1-electrolytes-s" style="fill:var(--fig-green);font-weight:700">−</text>
+  <circle cx="197.0" cy="175.0" r="11.0" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <text x="197.0" y="179.5" text-anchor="middle" class="uchem-1-electrolytes-s" style="fill:var(--fig-green);font-weight:700">−</text>
+  <circle cx="110.0" cy="165.0" r="11.0" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <text x="110.0" y="169.5" text-anchor="middle" class="uchem-1-electrolytes-s" style="fill:var(--fig-green);font-weight:700">−</text>
+  <circle cx="165.0" cy="252.0" r="11.0" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <text x="165.0" y="256.5" text-anchor="middle" class="uchem-1-electrolytes-s" style="fill:var(--fig-green);font-weight:700">−</text>
+  <rect x="265.0" y="150.0" width="190.0" height="120.0" rx="0" style="fill:var(--fig-soft-blue);stroke:none"/>
+  <path d="M265 110 V270 H455 V110" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <rect x="305.0" y="92.0" width="10.0" height="120.0" rx="0" style="fill:var(--fig-line);stroke:var(--fig-ink);stroke-width:1"/>
+  <rect x="405.0" y="92.0" width="10.0" height="120.0" rx="0" style="fill:var(--fig-line);stroke:var(--fig-ink);stroke-width:1"/>
+  <path d="M310 92 V60 H346 M374 60 H410 V92" style="fill:none;stroke:var(--fig-ink);stroke-width:1.8"/>
+  <circle cx="360.0" cy="58.0" r="14.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-ink);stroke-width:1.8"/>
+  <text x="360.0" y="294.0" text-anchor="middle" class="uchem-1-electrolytes-b">약전해질: CH₃COOH</text>
+  <text x="360.0" y="314.0" text-anchor="middle" class="uchem-1-electrolytes-s">대부분 분자, 일부만 이온</text>
+  <ellipse cx="290" cy="175" rx="15" ry="9" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <ellipse cx="340" cy="205" rx="15" ry="9" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <ellipse cx="388" cy="172" rx="15" ry="9" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <ellipse cx="426" cy="228" rx="15" ry="9" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <ellipse cx="298" cy="240" rx="15" ry="9" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <ellipse cx="370" cy="250" rx="15" ry="9" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <circle cx="400.0" cy="205.0" r="8.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <text x="400.0" y="209.5" text-anchor="middle" class="uchem-1-electrolytes-s" style="fill:var(--fig-violet);font-weight:700">+</text>
+  <circle cx="338.0" cy="170.0" r="11.0" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <text x="338.0" y="174.5" text-anchor="middle" class="uchem-1-electrolytes-s" style="fill:var(--fig-green);font-weight:700">−</text>
+  <rect x="500.0" y="150.0" width="190.0" height="120.0" rx="0" style="fill:var(--fig-soft-blue);stroke:none"/>
+  <path d="M500 110 V270 H690 V110" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <rect x="540.0" y="92.0" width="10.0" height="120.0" rx="0" style="fill:var(--fig-line);stroke:var(--fig-ink);stroke-width:1"/>
+  <rect x="640.0" y="92.0" width="10.0" height="120.0" rx="0" style="fill:var(--fig-line);stroke:var(--fig-ink);stroke-width:1"/>
+  <path d="M545 92 V60 H581 M609 60 H645 V92" style="fill:none;stroke:var(--fig-ink);stroke-width:1.8"/>
+  <circle cx="595.0" cy="58.0" r="14.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.8"/>
+  <text x="595.0" y="294.0" text-anchor="middle" class="uchem-1-electrolytes-b">비전해질: 설탕</text>
+  <text x="595.0" y="314.0" text-anchor="middle" class="uchem-1-electrolytes-s">분자 그대로 녹음(이온 없음)</text>
+  <ellipse cx="529" cy="178" rx="15" ry="9" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <ellipse cx="577" cy="212" rx="15" ry="9" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <ellipse cx="627" cy="176" rx="15" ry="9" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <ellipse cx="661" cy="232" rx="15" ry="9" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <ellipse cx="535" cy="244" rx="15" ry="9" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <ellipse cx="607" cy="250" rx="15" ry="9" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <text x="20.0" y="24.0" class="uchem-1-electrolytes-s">범례:</text>
+  <circle cx="68.0" cy="19.0" r="8.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <text x="68.0" y="23.5" text-anchor="middle" class="uchem-1-electrolytes-s" style="fill:var(--fig-violet);font-weight:700">+</text>
+  <text x="82.0" y="24.0" class="uchem-1-electrolytes-s">양이온</text>
+  <circle cx="140.0" cy="19.0" r="11.0" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <text x="140.0" y="23.5" text-anchor="middle" class="uchem-1-electrolytes-s" style="fill:var(--fig-green);font-weight:700">−</text>
+  <text x="157.0" y="24.0" class="uchem-1-electrolytes-s">음이온</text>
+  <ellipse cx="222" cy="19" rx="15" ry="9" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <text x="242.0" y="24.0" class="uchem-1-electrolytes-s">아세트산 분자</text>
+  <ellipse cx="350" cy="19" rx="15" ry="9" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <text x="370.0" y="24.0" class="uchem-1-electrolytes-s">설탕 분자</text>
+</svg>

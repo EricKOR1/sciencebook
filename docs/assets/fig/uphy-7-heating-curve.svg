@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-uphy-7-heating-curve d-uphy-7-heating-curve">
+  <title id="t-uphy-7-heating-curve">그림 일반물리학 7-5 얼음 0.500 kg을 가열할 때의 온도 변화(예제 3)</title>
+  <desc id="d-uphy-7-heating-curve">가로축은 가한 열 Q(kJ), 세로축은 온도(°C)이다. −20 °C 얼음을 0 °C까지 데우는 데 20.9 kJ, 0 °C에서 모두 녹이는 데 온도 변화 없이 166.5 kJ, 물을 40 °C까지 데우는 데 83.7 kJ이 들어 모두 약 271 kJ이다. 기울기는 1/(mc)이므로 비열이 작은 얼음 구간이 물 구간보다 약 2배 가파르다.</desc>
+  <style>.uphy-7-heating-curve-t{font-size:14px;fill:var(--fig-ink)} .uphy-7-heating-curve-b{font-size:14px;fill:var(--fig-ink);font-weight:700} .uphy-7-heating-curve-s{font-size:13px;fill:var(--fig-muted)} .uphy-7-heating-curve-ax{stroke:var(--fig-ink);stroke-width:1.5;fill:none} .uphy-7-heating-curve-grid{stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4;fill:none}</style>
+  <line x1="180" y1="320" x2="180" y2="70" class="uphy-7-heating-curve-grid"/>
+  <text x="180" y="338" text-anchor="middle" class="uphy-7-heating-curve-s">50</text>
+  <line x1="270" y1="320" x2="270" y2="70" class="uphy-7-heating-curve-grid"/>
+  <text x="270" y="338" text-anchor="middle" class="uphy-7-heating-curve-s">100</text>
+  <line x1="360" y1="320" x2="360" y2="70" class="uphy-7-heating-curve-grid"/>
+  <text x="360" y="338" text-anchor="middle" class="uphy-7-heating-curve-s">150</text>
+  <line x1="450" y1="320" x2="450" y2="70" class="uphy-7-heating-curve-grid"/>
+  <text x="450" y="338" text-anchor="middle" class="uphy-7-heating-curve-s">200</text>
+  <line x1="540" y1="320" x2="540" y2="70" class="uphy-7-heating-curve-grid"/>
+  <text x="540" y="338" text-anchor="middle" class="uphy-7-heating-curve-s">250</text>
+  <line x1="630" y1="320" x2="630" y2="70" class="uphy-7-heating-curve-grid"/>
+  <text x="630" y="338" text-anchor="middle" class="uphy-7-heating-curve-s">300</text>
+  <line x1="90" y1="288.8" x2="630" y2="288.8" class="uphy-7-heating-curve-grid"/>
+  <text x="82" y="292.8" text-anchor="end" class="uphy-7-heating-curve-s">-20</text>
+  <line x1="90" y1="226.2" x2="630" y2="226.2" class="uphy-7-heating-curve-grid"/>
+  <text x="82" y="230.2" text-anchor="end" class="uphy-7-heating-curve-s">0</text>
+  <line x1="90" y1="163.8" x2="630" y2="163.8" class="uphy-7-heating-curve-grid"/>
+  <text x="82" y="167.8" text-anchor="end" class="uphy-7-heating-curve-s">20</text>
+  <line x1="90" y1="101.2" x2="630" y2="101.2" class="uphy-7-heating-curve-grid"/>
+  <text x="82" y="105.2" text-anchor="end" class="uphy-7-heating-curve-s">40</text>
+  <text x="90" y="338" text-anchor="middle" class="uphy-7-heating-curve-s">0</text>
+  <path d="M90 50 L90 320 L660 320" style="stroke:var(--fig-ink);stroke-width:1.5;fill:none"/>
+  <path d="M90 42 l-4 9 l8 0 z" style="fill:var(--fig-ink)"/>
+  <path d="M668 320 l-9 -4 l0 8 z" style="fill:var(--fig-ink)"/>
+  <text x="664" y="312" text-anchor="end" class="uphy-7-heating-curve-s">Q (kJ)</text>
+  <text x="98" y="54" class="uphy-7-heating-curve-s">T (°C)</text>
+  <line x1="90" y1="288.8" x2="127.6" y2="226.2" style="stroke:var(--fig-blue);stroke-width:4;stroke-linecap:round"/>
+  <line x1="127.6" y1="226.2" x2="427.3" y2="226.2" style="stroke:var(--fig-amber);stroke-width:4;stroke-linecap:round"/>
+  <line x1="427.3" y1="226.2" x2="578" y2="101.2" style="stroke:var(--fig-teal);stroke-width:4;stroke-linecap:round"/>
+  <circle cx="90" cy="288.8" r="4.5" style="fill:var(--fig-ink)"/>
+  <circle cx="127.6" cy="226.2" r="4.5" style="fill:var(--fig-ink)"/>
+  <circle cx="427.3" cy="226.2" r="4.5" style="fill:var(--fig-ink)"/>
+  <circle cx="578" cy="101.2" r="4.5" style="fill:var(--fig-ink)"/>
+  <text x="135.6" y="254.4" class="uphy-7-heating-curve-t" style="fill:var(--fig-blue)">① 얼음 가열</text>
+  <text x="135.6" y="272.4" class="uphy-7-heating-curve-s">20.9 kJ, ΔT = 20 K</text>
+  <text x="277.2" y="198.2" text-anchor="middle" class="uphy-7-heating-curve-t" style="fill:var(--fig-amber)">② 융해: 166.5 kJ</text>
+  <text x="277.2" y="216.2" text-anchor="middle" class="uphy-7-heating-curve-s">얼음과 물이 섞여 온도 일정</text>
+  <text x="499.6" y="138.8" text-anchor="end" class="uphy-7-heating-curve-t" style="fill:var(--fig-teal)">③ 물 가열</text>
+  <text x="499.6" y="156.8" text-anchor="end" class="uphy-7-heating-curve-s">83.7 kJ, ΔT = 40 K</text>
+  <text x="584" y="91.2" class="uphy-7-heating-curve-s">합 271 kJ</text>
+  <text x="375" y="362" text-anchor="middle" class="uphy-7-heating-curve-s">기울기 ΔT/Q = 1/(mc): 얼음(c ≈ 2090) 구간이 물(c ≈ 4186) 구간보다 약 2배 가파르다</text>
+</svg>

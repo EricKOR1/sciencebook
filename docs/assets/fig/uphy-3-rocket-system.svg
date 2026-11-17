@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-uphy-3-rocket-system d-uphy-3-rocket-system">
+  <title id="t-uphy-3-rocket-system">그림 일반물리학 3-7 로켓 방정식을 세우는 계 — 로켓과 내뿜은 가스</title>
+  <desc id="d-uphy-3-rocket-system">(가) 시각 t에 질량 M인 로켓이 땅에 대해 속도 v로 움직인다. (나) dt 뒤 로켓의 질량은 M + dM(dM &lt; 0), 속도는 v + dv가 되고, 질량 −dM인 가스가 로켓에 대해 v_ex의 속력으로 뒤로 나가므로 땅에서 본 가스의 속도는 v + dv − v_ex이다. 로켓과 가스를 한 계(점선 상자)로 보면 외력이 없으므로 두 순간의 운동량이 같다.</desc>
+  <rect x="10.0" y="10.0" width="700.0" height="310.0" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="26.0" y="36.0" style="font-size:15px;fill:var(--fig-ink);font-weight:600">(가) 시각 t</text>
+  <text x="366.0" y="36.0" style="font-size:15px;fill:var(--fig-ink);font-weight:600">(나) 시각 t + dt</text>
+  <rect x="40.0" y="70.0" width="300.0" height="120.0" rx="6" style="fill:var(--fig-paper);stroke:var(--fig-muted);stroke-width:1.5;stroke-dasharray:6 4"/>
+  <path d="M110 107 L230 107 L260 125 L230 143 L110 143 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <path d="M110 107 L96 95 L126 107 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <path d="M110 143 L96 155 L126 143 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="170.0" y="130.0" text-anchor="middle" style="font-size:16px;fill:var(--fig-ink);font-weight:600">M</text>
+  <line x1="140.0" y1="177.0" x2="229.0" y2="177.0" style="stroke:var(--fig-ink);stroke-width:3;fill:none"/>
+  <path d="M240.0 177.0 L229.0 182.5 L229.0 171.5 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="250.0" y="182.0" style="font-size:15px;fill:var(--fig-ink);font-weight:600">v</text>
+  <text x="50.0" y="88.0" style="font-size:13px;fill:var(--fig-muted)">계</text>
+  <text x="190.0" y="222.0" text-anchor="middle" style="font-size:15px;fill:var(--fig-ink);font-weight:600">운동량: Mv</text>
+  <rect x="380.0" y="70.0" width="320.0" height="120.0" rx="6" style="fill:var(--fig-paper);stroke:var(--fig-muted);stroke-width:1.5;stroke-dasharray:6 4"/>
+  <path d="M510 107 L610 107 L640 125 L610 143 L510 143 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <path d="M510 107 L496 95 L526 107 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <path d="M510 143 L496 155 L526 143 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="560.0" y="130.0" text-anchor="middle" style="font-size:15px;fill:var(--fig-ink);font-weight:600">M + dM</text>
+  <line x1="530.0" y1="177.0" x2="629.0" y2="177.0" style="stroke:var(--fig-ink);stroke-width:3;fill:none"/>
+  <path d="M640.0 177.0 L629.0 182.5 L629.0 171.5 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="646.0" y="182.0" style="font-size:14px;fill:var(--fig-ink);font-weight:600">v + dv</text>
+  <circle cx="420.0" cy="107.0" r="6.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <circle cx="438.0" cy="107.0" r="6.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <circle cx="456.0" cy="107.0" r="6.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <circle cx="426.0" cy="125.0" r="6.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <circle cx="444.0" cy="125.0" r="6.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <circle cx="462.0" cy="125.0" r="6.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <circle cx="432.0" cy="143.0" r="6.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <circle cx="450.0" cy="143.0" r="6.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <circle cx="468.0" cy="143.0" r="6.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <text x="440.0" y="92.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-amber);font-weight:600">가스 −dM</text>
+  <line x1="470.0" y1="165.0" x2="419.0" y2="165.0" style="stroke:var(--fig-muted);stroke-width:2;fill:none;stroke-dasharray:5 3"/>
+  <path d="M410.0 165.0 L419.0 160.5 L419.0 169.5 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <text x="440.0" y="183.0" text-anchor="middle" style="font-size:12px;fill:var(--fig-muted)">v<tspan dy="4" style="font-size:11px">ex</tspan><tspan dy="-4">​</tspan> (로켓 기준)</text>
+  <text x="540.0" y="222.0" text-anchor="middle" style="font-size:14px;fill:var(--fig-ink);font-weight:600">운동량: (M + dM)(v + dv) + (−dM)(v + dv − v<tspan dy="4" style="font-size:11px">ex</tspan><tspan dy="-4">​</tspan>)</text>
+  <text x="540.0" y="242.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-amber)">가스의 땅 기준 속도 = v + dv − v<tspan dy="4" style="font-size:11px">ex</tspan><tspan dy="-4">​</tspan></text>
+  <text x="360.0" y="278.0" text-anchor="middle" style="font-size:15px;fill:var(--fig-ink);font-weight:600">외력 없음 → 두 순간의 운동량이 같다 → M dv = −v<tspan dy="4" style="font-size:11px">ex</tspan><tspan dy="-4">​</tspan> dM</text>
+  <text x="360.0" y="302.0" text-anchor="middle" style="font-size:14px;fill:var(--fig-violet);font-weight:600">적분하면 Δv = v<tspan dy="4" style="font-size:11px">ex</tspan><tspan dy="-4">​</tspan> ln(M<tspan dy="4" style="font-size:11px">i</tspan><tspan dy="-4">​</tspan>/M<tspan dy="4" style="font-size:11px">f</tspan><tspan dy="-4">​</tspan>)</text>
+</svg>

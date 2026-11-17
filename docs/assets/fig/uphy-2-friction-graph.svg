@@ -23,20 +23,17 @@
   <text x="282.0" y="96.0" style="font-size:13px;fill:var(--fig-ink)">최대 정지 마찰력 — 미끄러지기 시작</text>
   <text x="320.0" y="159.0" style="font-size:14px;fill:var(--fig-red);font-weight:600">운동 마찰력 f<tspan dy="4" style="font-size:11px">k</tspan><tspan dy="-4">​</tspan> = μ<tspan dy="4" style="font-size:11px">k</tspan><tspan dy="-4">​</tspan>N</text>
   <text x="320.0" y="177.0" style="font-size:13px;fill:var(--fig-red)">(속력과 거의 무관하게 일정)</text>
-  <text x="180.0" y="60.0" text-anchor="middle" style="font-size:14px;fill:var(--fig-ink);font-weight:600">정지</text>
-  <text x="387.5" y="60.0" text-anchor="middle" style="font-size:14px;fill:var(--fig-ink);font-weight:600">미끄러짐</text>
-  <line x1="270.0" y1="50.0" x2="270.0" y2="66.0" style="stroke:var(--fig-line);stroke-width:1.5;fill:none"/>
+  <text x="200.0" y="80.0" text-anchor="middle" style="font-size:14px;fill:var(--fig-ink);font-weight:600">정지</text>
+  <text x="387.5" y="74.0" text-anchor="middle" style="font-size:14px;fill:var(--fig-ink);font-weight:600">미끄러짐</text>
+  <line x1="270.0" y1="62.0" x2="270.0" y2="80.0" style="stroke:var(--fig-line);stroke-width:1.5;fill:none"/>
   <line x1="535.0" y1="230.0" x2="700.0" y2="230.0" style="stroke:var(--fig-line);stroke-width:2;fill:none"/>
   <rect x="580.0" y="190.0" width="70.0" height="40.0" rx="3" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
   <line x1="535.0" y1="210.0" x2="570.0" y2="210.0" style="stroke:var(--fig-ink);stroke-width:3;fill:none"/>
   <path d="M580.0 210.0 L570.0 215.0 L570.0 205.0 Z" style="fill:var(--fig-ink);stroke:none"/>
   <text x="535.0" y="202.0" style="font-size:14px;fill:var(--fig-ink);font-weight:600">F</text>
-  <line x1="650.0" y1="226.0" x2="683.0" y2="226.0" style="stroke:var(--fig-muted);stroke-width:2;fill:none"/>
-  <path d="M692.0 226.0 L683.0 230.5 L683.0 221.5 Z" style="fill:var(--fig-muted);stroke:none"/>
   <line x1="615.0" y1="230.0" x2="585.0" y2="230.0" style="stroke:var(--fig-red);stroke-width:3;fill:none"/>
   <path d="M575.0 230.0 L585.0 225.0 L585.0 235.0 Z" style="fill:var(--fig-red);stroke:none"/>
   <text x="590.0" y="250.0" text-anchor="middle" style="font-size:14px;fill:var(--fig-red);font-weight:600">f</text>
-  <text x="655.0" y="216.0" style="font-size:12px;fill:var(--fig-muted)">(밀리려는 쪽)</text>
   <text x="620.0" y="130.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-ink)">마찰력은 미끄러지려는</text>
   <text x="620.0" y="148.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-ink)">상대 운동의 반대 방향</text>
   <text x="30.0" y="308.0" style="font-size:13px;fill:var(--fig-muted)">모식도 — μs와 μk의 비율은 접촉면에 따라 다르다</text>

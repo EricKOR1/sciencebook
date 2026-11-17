@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-labelledby="t-uphy-5-fluid-element d-uphy-5-fluid-element">
+  <title id="t-uphy-5-fluid-element">그림 일반물리학 5-7 유체 조각의 힘의 평형과 부력의 원인</title>
+  <desc id="d-uphy-5-fluid-element">왼쪽: 정지한 액체 속 넓이 A, 두께 dy인 얇은 조각에는 아래 면에서 위로 PA, 위 면에서 아래로 (P + dP)A, 그리고 무게 ρgA dy가 작용하며 이들이 평형을 이루어 dP/dy = −ρg가 된다. 오른쪽: 잠긴 물체의 옆면이 받는 힘은 서로 상쇄되고, 더 깊은 아랫면이 받는 큰 압력과 윗면의 작은 압력의 차이가 위쪽 알짜힘, 즉 부력이 된다.</desc>
+  <style>
+    .uphy5fluidelement-t{font-size:14px;fill:var(--fig-ink)} .uphy5fluidelement-s{font-size:13px;fill:var(--fig-muted)}
+    .uphy5fluidelement-b{font-size:15px;fill:var(--fig-ink);font-weight:600} .uphy5fluidelement-i{font-size:15px;fill:var(--fig-ink);font-style:italic}
+  </style>
+  <rect x="50.0" y="70.0" width="280.0" height="250.0" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:0"/>
+  <path d="M50.0 50.0 L50.0 320.0 L330.0 320.0 L330.0 50.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round"/>
+  <line x1="50.0" y1="70.0" x2="330.0" y2="70.0" style="fill:none;stroke:var(--fig-blue);stroke-width:1.6;stroke-linecap:round"/>
+  <text x="324.0" y="62.0" text-anchor="end" class="uphy5fluidelement-s" style="fill:var(--fig-blue)">수면 P<tspan baseline-shift="sub" font-size="11">0</tspan></text>
+  <rect x="120.0" y="170.0" width="130.0" height="44.0" rx="3" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2"/>
+  <text x="262.0" y="197.0" class="uphy5fluidelement-i" style="fill:var(--fig-teal)">dy</text>
+  <text x="128.0" y="197.0" class="uphy5fluidelement-s" style="fill:var(--fig-teal)">넓이 A</text>
+  <line x1="154.0" y1="286.0" x2="154.0" y2="225.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.6;stroke-linecap:butt"/>
+  <path d="M154.0 216.0 L158.5 226.0 L149.5 226.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="162.0" y="276.0" class="uphy5fluidelement-i" style="fill:var(--fig-red);font-weight:600">PA</text>
+  <line x1="154.0" y1="106.0" x2="154.0" y2="159.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.6;stroke-linecap:butt"/>
+  <path d="M154.0 168.0 L149.5 158.0 L158.5 158.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="162.0" y="120.0" class="uphy5fluidelement-i" style="fill:var(--fig-red);font-weight:600">(P + dP)A</text>
+  <line x1="216.0" y1="192.0" x2="216.0" y2="254.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.4;stroke-linecap:butt"/>
+  <path d="M216.0 262.0 L211.9 253.0 L220.1 253.0 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="224.0" y="256.0" class="uphy5fluidelement-i" style="font-weight:600">ρgA dy</text>
+  <line x1="30.0" y1="320.0" x2="30.0" y2="67.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.6;stroke-linecap:butt"/>
+  <path d="M30.0 60.0 L33.6 68.0 L26.4 68.0 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <text x="22.0" y="66.0" text-anchor="end" class="uphy5fluidelement-i">y</text>
+  <text x="190.0" y="342.0" text-anchor="middle" class="uphy5fluidelement-t">PA = (P + dP)A + ρgA dy</text>
+  <line x1="360.0" y1="30.0" x2="360.0" y2="345.0" style="fill:none;stroke:var(--fig-line);stroke-width:1;stroke-linecap:round;stroke-dasharray:3 5"/>
+  <rect x="400.0" y="70.0" width="290.0" height="250.0" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:0"/>
+  <path d="M400.0 50.0 L400.0 320.0 L690.0 320.0 L690.0 50.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round"/>
+  <line x1="400.0" y1="70.0" x2="690.0" y2="70.0" style="fill:none;stroke:var(--fig-blue);stroke-width:1.6;stroke-linecap:round"/>
+  <rect x="500.0" y="150.0" width="110.0" height="90.0" rx="3" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="514.0" y1="114.4" x2="514.0" y2="141.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.2;stroke-linecap:butt"/>
+  <path d="M514.0 148.0 L510.4 140.0 L517.6 140.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="514.0" y1="313.4" x2="514.0" y2="249.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.2;stroke-linecap:butt"/>
+  <path d="M514.0 242.0 L517.6 250.0 L510.4 250.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="541.0" y1="114.4" x2="541.0" y2="141.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.2;stroke-linecap:butt"/>
+  <path d="M541.0 148.0 L537.4 140.0 L544.6 140.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="541.0" y1="313.4" x2="541.0" y2="249.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.2;stroke-linecap:butt"/>
+  <path d="M541.0 242.0 L544.6 250.0 L537.4 250.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="568.0" y1="114.4" x2="568.0" y2="141.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.2;stroke-linecap:butt"/>
+  <path d="M568.0 148.0 L564.4 140.0 L571.6 140.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="568.0" y1="313.4" x2="568.0" y2="249.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.2;stroke-linecap:butt"/>
+  <path d="M568.0 242.0 L571.6 250.0 L564.4 250.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="595.0" y1="114.4" x2="595.0" y2="141.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.2;stroke-linecap:butt"/>
+  <path d="M595.0 148.0 L591.4 140.0 L598.6 140.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="595.0" y1="313.4" x2="595.0" y2="249.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.2;stroke-linecap:butt"/>
+  <path d="M595.0 242.0 L598.6 250.0 L591.4 250.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="456.8" y1="168.0" x2="492.0" y2="168.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.8;stroke-linecap:butt"/>
+  <path d="M498.0 168.0 L491.0 171.2 L491.0 164.8 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <line x1="653.2" y1="168.0" x2="618.0" y2="168.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.8;stroke-linecap:butt"/>
+  <path d="M612.0 168.0 L619.0 164.8 L619.0 171.2 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <line x1="445.5" y1="195.0" x2="492.0" y2="195.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.8;stroke-linecap:butt"/>
+  <path d="M498.0 195.0 L491.0 198.2 L491.0 191.8 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <line x1="664.5" y1="195.0" x2="618.0" y2="195.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.8;stroke-linecap:butt"/>
+  <path d="M612.0 195.0 L619.0 191.8 L619.0 198.2 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <line x1="434.2" y1="222.0" x2="492.0" y2="222.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.8;stroke-linecap:butt"/>
+  <path d="M498.0 222.0 L491.0 225.2 L491.0 218.8 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <line x1="675.8" y1="222.0" x2="618.0" y2="222.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.8;stroke-linecap:butt"/>
+  <path d="M612.0 222.0 L619.0 218.8 L619.0 225.2 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <text x="555.0" y="106.4" text-anchor="middle" class="uphy5fluidelement-s" style="fill:var(--fig-red)">P<tspan baseline-shift="sub" font-size="11">1</tspan> (얕다)</text>
+  <text x="629.0" y="300.0" class="uphy5fluidelement-s" style="fill:var(--fig-red)">P<tspan baseline-shift="sub" font-size="11">2</tspan> (깊다)</text>
+  <text x="555.0" y="200.0" text-anchor="middle" class="uphy5fluidelement-i" style="fill:var(--fig-amber)">h</text>
+  <text x="410.0" y="100.0" class="uphy5fluidelement-s" style="fill:var(--fig-muted)">옆면: 상쇄</text>
+  <text x="545.0" y="342.0" text-anchor="middle" class="uphy5fluidelement-t">F<tspan baseline-shift="sub" font-size="11">B</tspan> = (P<tspan baseline-shift="sub" font-size="11">2</tspan> − P<tspan baseline-shift="sub" font-size="11">1</tspan>)A = ρ<tspan baseline-shift="sub" font-size="11">유체</tspan>ghA = ρ<tspan baseline-shift="sub" font-size="11">유체</tspan>Vg</text>
+</svg>

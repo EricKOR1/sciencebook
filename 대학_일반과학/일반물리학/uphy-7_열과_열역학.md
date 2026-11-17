@@ -184,6 +184,8 @@ $$
 
 고체 속 원자는 이웃 원자와 퍼텐셜 에너지 곡선의 바닥 근처에서 진동한다. 이 곡선은 좌우 대칭이 아니어서(가까워질 때 더 가파르다) 진폭이 커지면 평균 간격이 늘어난다. 이것이 **열팽창(thermal expansion)** 의 미시적 원인이다. 온도 변화가 크지 않을 때 길이 변화는 온도 변화에 비례한다.
 
+<!-- fig:uphy-7-thermal-expansion -->
+
 $$
 \frac{dL}{L} = \alpha\,dT \quad\Rightarrow\quad \Delta L \approx \alpha L\,\Delta T
 $$
@@ -280,6 +282,8 @@ $-20\ ^\circ\mathrm{C}$의 얼음 $0.500\ \mathrm{kg}$을 $40\ ^\circ\mathrm{C}$
 - 물 가열: $0.500\times4186\times40 = 8.37\times10^4\ \mathrm{J}$
 - 합: $Q \approx 2.71\times10^5\ \mathrm{J}$. 녹이는 단계가 전체의 60 % 이상을 차지한다.
 
+<!-- fig:uphy-7-heating-curve -->
+
 #### 예제 4 — 열량 측정: 뜨거운 물에 얼음 넣기
 
 단열 용기 속 $80\ ^\circ\mathrm{C}$의 물 $0.250\ \mathrm{kg}$에 $0\ ^\circ\mathrm{C}$의 얼음 $0.050\ \mathrm{kg}$을 넣었다. 최종 온도는? (용기의 열용량은 무시)
@@ -322,6 +326,8 @@ $k$는 **열전도도(thermal conductivity)** 이고, − 부호는 열이 온�
 (1) $R_{\text{벽돌}} = \dfrac{0.20}{0.60\times10} = 0.0333\ \mathrm{K/W}$, $R_{\text{단열}} = \dfrac{0.050}{0.040\times10} = 0.125\ \mathrm{K/W}$
 $P = \dfrac{25}{0.0333 + 0.125} \approx 1.6\times10^2\ \mathrm{W}$
 (2) 벽돌만 있으면 $P = 25/0.0333 = 750\ \mathrm{W}$. 얇은 단열재 하나로 열손실이 약 $\frac{1}{5}$로 줄었다. 단열재와 벽돌 경계의 온도는 $20 - 158\times0.125 \approx 0.3\ ^\circ\mathrm{C}$로, 온도 차의 대부분이 단열재 양쪽에 걸린다. 실제로는 벽 표면의 공기층도 열저항으로 더해진다.
+
+<!-- fig:uphy-7-wall-layers -->
 
 #### 대류와 뉴턴 냉각 법칙
 
@@ -572,6 +578,8 @@ $$
 W = nC_V(T_i - T_f) = \frac{P_iV_i - P_fV_f}{\gamma - 1}
 $$
 
+<!-- fig:uphy-7-adiabat-isotherm -->
+
 #### 예제 11 — 디젤 기관의 압축 점화
 
 $300\ \mathrm{K}$, $1.0\times10^5\ \mathrm{Pa}$의 공기($\gamma = 1.40$)를 부피가 $\frac{1}{18}$이 되도록 빠르게(단열) 압축한다. (1) 압축 후 온도, (2) 압력을 구하시오. (3) 공기 $1.00\ \mathrm{mol}$에 해 준 일은?
@@ -712,6 +720,8 @@ e_{\text{오토}} = 1 - \frac{1}{r^{\gamma - 1}}
 $$
 
 $r = 10$, $\gamma = 1.40$이면 $e \approx 0.60$이지만, 실제 자동차 기관은 마찰, 불완전 연소, 유한한 속도의 열전달(비가역성) 때문에 약 25~35 %에 그친다. 압축비를 너무 높이면 연료가 미리 폭발하는 노킹이 생겨 가솔린 기관의 압축비는 대략 10 안팎으로 제한된다.
+
+<!-- fig:uphy-7-otto-cycle -->
 
 #### 냉동기와 히트 펌프
 

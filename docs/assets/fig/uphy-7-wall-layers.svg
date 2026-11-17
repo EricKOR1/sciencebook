@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-uphy-7-wall-layers d-uphy-7-wall-layers">
+  <title id="t-uphy-7-wall-layers">그림 일반물리학 7-6 단열재를 붙인 벽 속의 온도 분포(예제 5)</title>
+  <desc id="d-uphy-7-wall-layers">실내(20 °C) 쪽에 스티로폼 5 cm, 바깥쪽에 벽돌 20 cm가 있고 실외는 −5 °C이다. 같은 열전달률 약 158 W가 두 층을 차례로 지나므로(직렬 열저항), 각 층의 온도 차는 열저항에 비례한다. 열저항이 큰 스티로폼 양쪽에서 약 20 K, 두꺼운 벽돌 양쪽에서는 약 5 K만 떨어지고 경계는 약 0.3 °C이다. 층 두께는 비율대로 그렸다.</desc>
+  <style>.uphy-7-wall-layers-t{font-size:14px;fill:var(--fig-ink)} .uphy-7-wall-layers-b{font-size:14px;fill:var(--fig-ink);font-weight:700} .uphy-7-wall-layers-s{font-size:13px;fill:var(--fig-muted)} .uphy-7-wall-layers-ax{stroke:var(--fig-ink);stroke-width:1.5;fill:none} .uphy-7-wall-layers-grid{stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4;fill:none}</style>
+  <rect x="50" y="64" width="160" height="236" style="fill:var(--fig-soft-red);fill-opacity:0.35;stroke:none"/>
+  <rect x="210" y="64" width="60" height="236" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <rect x="270" y="64" width="240" height="236" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <rect x="510" y="64" width="160" height="236" style="fill:var(--fig-soft-blue);fill-opacity:0.5;stroke:none"/>
+  <line x1="50" y1="111.4" x2="670" y2="111.4" style="stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4"/>
+  <line x1="50" y1="174.3" x2="670" y2="174.3" style="stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4"/>
+  <line x1="50" y1="237.1" x2="670" y2="237.1" style="stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4"/>
+  <line x1="50" y1="268.6" x2="670" y2="268.6" style="stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4"/>
+  <polyline points="50,111.4 210,111.4 270,235.5 510,268.6 670,268.6" style="stroke:var(--fig-red);stroke-width:3.5;fill:none;stroke-linejoin:round"/>
+  <circle cx="210" cy="111.4" r="4.5" style="fill:var(--fig-red)"/>
+  <circle cx="270" cy="235.5" r="4.5" style="fill:var(--fig-red)"/>
+  <circle cx="510" cy="268.6" r="4.5" style="fill:var(--fig-red)"/>
+  <text x="60" y="101.4" class="uphy-7-wall-layers-b">실내 20 °C</text>
+  <text x="660" y="258.6" text-anchor="end" class="uphy-7-wall-layers-b">실외 −5 °C</text>
+  <text x="278" y="225.5" class="uphy-7-wall-layers-t">경계 약 0.3 °C</text>
+  <text x="204" y="174.3" text-anchor="end" class="uphy-7-wall-layers-s">ΔT ≈ 20 K</text>
+  <text x="390" y="280.9" text-anchor="middle" class="uphy-7-wall-layers-s">ΔT ≈ 5 K</text>
+  <line x1="140" y1="44" x2="568" y2="44" style="stroke:var(--fig-accent);stroke-width:3"/>
+  <path d="M580 44 L567 49.9 L567 38.1 Z" style="fill:var(--fig-accent)"/>
+  <text x="360" y="34" text-anchor="middle" class="uphy-7-wall-layers-t">열전달률 P ≈ 158 W (두 층 모두 같다)</text>
+  <text x="266" y="320" text-anchor="end" class="uphy-7-wall-layers-b">스티로폼</text>
+  <text x="266" y="338" text-anchor="end" class="uphy-7-wall-layers-s">5 cm, k = 0.040</text>
+  <text x="266" y="356" text-anchor="end" class="uphy-7-wall-layers-s">R = 0.125 K/W</text>
+  <text x="280" y="320" class="uphy-7-wall-layers-b">벽돌 20 cm, k = 0.60</text>
+  <text x="280" y="338" class="uphy-7-wall-layers-s">R = 0.0333 K/W</text>
+  <text x="280" y="356" class="uphy-7-wall-layers-s">두껍지만 열저항은 스티로폼의 약 1/4</text>
+</svg>

@@ -28,36 +28,36 @@
   <text x="26.0" y="88.0" style="font-size:13px;fill:var(--fig-ink)">수직 방향: N = mg cos θ</text>
   <text x="26.0" y="108.0" style="font-size:13px;fill:var(--fig-ink);font-weight:600">직전 → μ<tspan dy="4" style="font-size:11px">s</tspan><tspan dy="-4">​</tspan> = tan θ (질량과 무관)</text>
   <text x="26.0" y="352.0" style="font-size:13px;fill:var(--fig-muted)">모식도 — 축을 빗면에 나란하게, 수직하게 잡는다</text>
-  <line x1="380.0" y1="175.0" x2="700.0" y2="175.0" style="stroke:var(--fig-line);stroke-width:2;fill:none"/>
-  <rect x="430.0" y="135.0" width="64.0" height="40.0" rx="3" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
-  <line x1="462.0" y1="155.0" x2="550.5" y2="110.7" style="stroke:var(--fig-ink);stroke-width:3;fill:none"/>
-  <path d="M560.4 105.7 L553.0 115.6 L548.1 105.8 Z" style="fill:var(--fig-ink);stroke:none"/>
-  <text x="566.1" y="105.7" style="font-size:15px;fill:var(--fig-ink);font-weight:600">F</text>
-  <line x1="462.0" y1="155.0" x2="532.0" y2="155.0" style="stroke:var(--fig-line);stroke-width:1.2;fill:none;stroke-dasharray:4 3"/>
-  <path d="M502.0 155.0 A40 40 0 0 0 497.8 137.1" style="fill:none;stroke:var(--fig-ink);stroke-width:1.3"/>
-  <text x="508.0" y="149.0" style="font-size:13px;fill:var(--fig-ink)">θ</text>
-  <line x1="456.0" y1="155.0" x2="456.0" y2="215.0" style="stroke:var(--fig-ink);stroke-width:2.5;fill:none"/>
-  <path d="M456.0 225.0 L451.0 215.0 L461.0 215.0 Z" style="fill:var(--fig-ink);stroke:none"/>
-  <text x="450.0" y="227.0" text-anchor="end" style="font-size:13px;fill:var(--fig-ink);font-weight:600">mg</text>
-  <line x1="468.0" y1="175.0" x2="468.0" y2="100.0" style="stroke:var(--fig-green);stroke-width:2.5;fill:none"/>
-  <path d="M468.0 90.0 L473.0 100.0 L463.0 100.0 Z" style="fill:var(--fig-green);stroke:none"/>
-  <text x="474.0" y="105.0" style="font-size:12px;fill:var(--fig-green);font-weight:600">N = mg − F sin θ</text>
-  <line x1="430.0" y1="171.0" x2="392.0" y2="171.0" style="stroke:var(--fig-red);stroke-width:2.5;fill:none"/>
-  <path d="M382.0 171.0 L392.0 166.0 L392.0 176.0 Z" style="fill:var(--fig-red);stroke:none"/>
-  <text x="380.0" y="163.0" text-anchor="end" style="font-size:13px;fill:var(--fig-red);font-weight:600">f<tspan dy="4" style="font-size:11px">s</tspan><tspan dy="-4">​</tspan></text>
+  <line x1="380.0" y1="165.0" x2="700.0" y2="165.0" style="stroke:var(--fig-line);stroke-width:2;fill:none"/>
+  <rect x="430.0" y="125.0" width="64.0" height="40.0" rx="3" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <line x1="462.0" y1="145.0" x2="550.5" y2="100.7" style="stroke:var(--fig-ink);stroke-width:3;fill:none"/>
+  <path d="M560.4 95.7 L553.0 105.6 L548.1 95.8 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="566.1" y="95.7" style="font-size:15px;fill:var(--fig-ink);font-weight:600">F</text>
+  <line x1="462.0" y1="145.0" x2="532.0" y2="145.0" style="stroke:var(--fig-line);stroke-width:1.2;fill:none;stroke-dasharray:4 3"/>
+  <path d="M502.0 145.0 A40 40 0 0 0 497.8 127.1" style="fill:none;stroke:var(--fig-ink);stroke-width:1.3"/>
+  <text x="508.0" y="139.0" style="font-size:13px;fill:var(--fig-ink)">θ</text>
+  <line x1="456.0" y1="145.0" x2="456.0" y2="190.0" style="stroke:var(--fig-ink);stroke-width:2.5;fill:none"/>
+  <path d="M456.0 200.0 L451.0 190.0 L461.0 190.0 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="450.0" y="200.0" text-anchor="end" style="font-size:13px;fill:var(--fig-ink);font-weight:600">mg</text>
+  <line x1="468.0" y1="165.0" x2="468.0" y2="93.0" style="stroke:var(--fig-green);stroke-width:2.5;fill:none"/>
+  <path d="M468.0 83.0 L473.0 93.0 L463.0 93.0 Z" style="fill:var(--fig-green);stroke:none"/>
+  <text x="460.0" y="77.0" style="font-size:12px;fill:var(--fig-green);font-weight:600">N = mg − F sin θ</text>
+  <line x1="430.0" y1="161.0" x2="392.0" y2="161.0" style="stroke:var(--fig-red);stroke-width:2.5;fill:none"/>
+  <path d="M382.0 161.0 L392.0 156.0 L392.0 166.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="380.0" y="153.0" text-anchor="end" style="font-size:13px;fill:var(--fig-red);font-weight:600">f<tspan dy="4" style="font-size:11px">s</tspan><tspan dy="-4">​</tspan></text>
   <line x1="420.0" y1="345.0" x2="692.0" y2="345.0" style="stroke:var(--fig-muted);stroke-width:1.4;fill:none"/>
   <path d="M700.0 345.0 L692.0 349.0 L692.0 341.0 Z" style="fill:var(--fig-muted);stroke:none"/>
-  <text x="696.0" y="363.0" text-anchor="end" style="font-size:13px;fill:var(--fig-muted)">θ</text>
-  <line x1="420.0" y1="345.0" x2="420.0" y2="223.0" style="stroke:var(--fig-muted);stroke-width:1.4;fill:none"/>
-  <path d="M420.0 215.0 L424.0 223.0 L416.0 223.0 Z" style="fill:var(--fig-muted);stroke:none"/>
-  <text x="426.0" y="219.0" style="font-size:13px;fill:var(--fig-muted)">F (N)</text>
-  <path d="M420.0 264.0 L422.2 265.9 L424.5 267.7 L426.8 269.6 L429.0 271.3 L431.2 273.0 L433.5 274.7 L435.8 276.3 L438.0 277.9 L440.2 279.4 L442.5 280.9 L444.8 282.3 L447.0 283.7 L449.2 285.1 L451.5 286.4 L453.8 287.7 L456.0 288.9 L458.2 290.1 L460.5 291.3 L462.8 292.4 L465.0 293.5 L467.2 294.5 L469.5 295.5 L471.8 296.5 L474.0 297.5 L476.2 298.4 L478.5 299.2 L480.8 300.1 L483.0 300.9 L485.2 301.6 L487.5 302.4 L489.8 303.1 L492.0 303.8 L494.2 304.4 L496.5 305.0 L498.8 305.6 L501.0 306.1 L503.2 306.6 L505.5 307.1 L507.8 307.5 L510.0 308.0 L512.2 308.3 L514.5 308.7 L516.8 309.0 L519.0 309.3 L521.2 309.6 L523.5 309.8 L525.8 310.0 L528.0 310.2 L530.2 310.3 L532.5 310.4 L534.8 310.5 L537.0 310.5 L539.2 310.6 L541.5 310.5 L543.8 310.5 L546.0 310.4 L548.2 310.3 L550.5 310.2 L552.8 310.0 L555.0 309.8 L557.2 309.6 L559.5 309.4 L561.8 309.1 L564.0 308.8 L566.2 308.4 L568.5 308.1 L570.8 307.7 L573.0 307.2 L575.2 306.7 L577.5 306.2 L579.8 305.7 L582.0 305.1 L584.2 304.6 L586.5 303.9 L588.8 303.3 L591.0 302.6 L593.2 301.8 L595.5 301.1 L597.8 300.3 L600.0 299.5 L602.2 298.6 L604.5 297.7 L606.8 296.8 L609.0 295.8 L611.2 294.8 L613.5 293.8 L615.8 292.7 L618.0 291.6 L620.2 290.4 L622.5 289.2 L624.8 288.0 L627.0 286.7 L629.2 285.4 L631.5 284.1 L633.8 282.7 L636.0 281.2 L638.2 279.8 L640.5 278.3 L642.8 276.7 L645.0 275.1 L647.2 273.4 L649.5 271.8 L651.8 270.0 L654.0 268.2 L656.2 266.4 L658.5 264.5 L660.8 262.6 L663.0 260.6 L665.2 258.5 L667.5 256.4 L669.8 254.3 L672.0 252.1 L674.2 249.8 L676.5 247.5 L678.8 245.1 L681.0 242.7 L683.2 240.2 L685.5 237.7 L687.8 235.0 L690.0 232.3" style="fill:none;stroke:var(--fig-violet);stroke-width:2.5"/>
-  <circle cx="539.7" cy="310.5" r="4.5" style="fill:var(--fig-violet);stroke:none;stroke-width:1.5"/>
-  <line x1="539.7" y1="310.5" x2="539.7" y2="345.0" style="stroke:var(--fig-line);stroke-width:1.2;fill:none;stroke-dasharray:4 3"/>
+  <text x="696.0" y="337.0" text-anchor="end" style="font-size:13px;fill:var(--fig-muted)">θ</text>
+  <line x1="420.0" y1="345.0" x2="420.0" y2="238.0" style="stroke:var(--fig-muted);stroke-width:1.4;fill:none"/>
+  <path d="M420.0 230.0 L424.0 238.0 L416.0 238.0 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <text x="426.0" y="234.0" style="font-size:13px;fill:var(--fig-muted)">F (N)</text>
+  <path d="M420.0 274.1 L422.2 275.8 L424.5 277.4 L426.8 279.0 L429.0 280.5 L431.2 282.0 L433.5 283.5 L435.8 284.9 L438.0 286.3 L440.2 287.6 L442.5 288.9 L444.8 290.1 L447.0 291.4 L449.2 292.6 L451.5 293.7 L453.8 294.8 L456.0 295.9 L458.2 297.0 L460.5 298.0 L462.8 299.0 L465.0 299.9 L467.2 300.8 L469.5 301.7 L471.8 302.6 L474.0 303.4 L476.2 304.2 L478.5 305.0 L480.8 305.7 L483.0 306.4 L485.2 307.1 L487.5 307.7 L489.8 308.3 L492.0 308.9 L494.2 309.5 L496.5 310.0 L498.8 310.5 L501.0 311.0 L503.2 311.4 L505.5 311.8 L507.8 312.2 L510.0 312.6 L512.2 312.9 L514.5 313.2 L516.8 313.5 L519.0 313.8 L521.2 314.0 L523.5 314.2 L525.8 314.4 L528.0 314.5 L530.2 314.6 L532.5 314.7 L534.8 314.8 L537.0 314.8 L539.2 314.9 L541.5 314.9 L543.8 314.8 L546.0 314.8 L548.2 314.7 L550.5 314.6 L552.8 314.4 L555.0 314.2 L557.2 314.0 L559.5 313.8 L561.8 313.6 L564.0 313.3 L566.2 313.0 L568.5 312.7 L570.8 312.3 L573.0 311.9 L575.2 311.5 L577.5 311.1 L579.8 310.6 L582.0 310.1 L584.2 309.6 L586.5 309.1 L588.8 308.5 L591.0 307.9 L593.2 307.2 L595.5 306.6 L597.8 305.9 L600.0 305.2 L602.2 304.4 L604.5 303.6 L606.8 302.8 L609.0 301.9 L611.2 301.1 L613.5 300.2 L615.8 299.2 L618.0 298.2 L620.2 297.2 L622.5 296.2 L624.8 295.1 L627.0 294.0 L629.2 292.9 L631.5 291.7 L633.8 290.5 L636.0 289.2 L638.2 287.9 L640.5 286.6 L642.8 285.2 L645.0 283.8 L647.2 282.4 L649.5 280.9 L651.8 279.4 L654.0 277.8 L656.2 276.2 L658.5 274.6 L660.8 272.9 L663.0 271.1 L665.2 269.3 L667.5 267.5 L669.8 265.6 L672.0 263.7 L674.2 261.7 L676.5 259.7 L678.8 257.6 L681.0 255.5 L683.2 253.3 L685.5 251.1 L687.8 248.8 L690.0 246.4" style="fill:none;stroke:var(--fig-violet);stroke-width:2.5"/>
+  <circle cx="539.7" cy="314.8" r="4.5" style="fill:var(--fig-violet);stroke:none;stroke-width:1.5"/>
+  <line x1="539.7" y1="314.8" x2="539.7" y2="345.0" style="stroke:var(--fig-line);stroke-width:1.2;fill:none;stroke-dasharray:4 3"/>
   <text x="539.7" y="361.0" text-anchor="middle" style="font-size:12px;fill:var(--fig-violet);font-weight:600">26.6°</text>
-  <text x="547.7" y="328.5" style="font-size:12px;fill:var(--fig-violet);font-weight:600">최소 131 N</text>
+  <text x="547.7" y="332.8" style="font-size:12px;fill:var(--fig-violet);font-weight:600">최소 131 N</text>
   <text x="420.0" y="361.0" text-anchor="middle" style="font-size:12px;fill:var(--fig-muted)">0°</text>
   <text x="690.0" y="361.0" text-anchor="middle" style="font-size:12px;fill:var(--fig-muted)">60°</text>
-  <text x="426.0" y="258.0" style="font-size:12px;fill:var(--fig-muted)">147 N (수평)</text>
-  <text x="686.0" y="224.3" text-anchor="end" style="font-size:12px;fill:var(--fig-muted)">158 N</text>
+  <text x="426.0" y="268.1" style="font-size:12px;fill:var(--fig-muted)">147 N (수평)</text>
+  <text x="686.0" y="238.4" text-anchor="end" style="font-size:12px;fill:var(--fig-muted)">158 N</text>
 </svg>
