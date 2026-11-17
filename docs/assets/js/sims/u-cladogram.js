@@ -125,7 +125,7 @@ Sims.register('u-cladogram', {
       var d = D(), root = build(), nT = d.taxa.length;
       var maxDepth = 0;
       (function dep(n, k) { n.depth = k; if (n.kids) { maxDepth = Math.max(maxDepth, k); n.kids.forEach(function (c) { dep(c, k + 1); }); } })(root, 0);
-      var nameW = 64, L = r.x + 28, R = r.x + r.w - nameW - 8, Tp = r.y + 34, B = r.y + r.h - 34;
+      var nameW = 100, L = r.x + 28, R = r.x + r.w - nameW - 8, Tp = r.y + 34, B = r.y + r.h - 34;
       var dx = (R - L) / (maxDepth + 1), tipY = (B - Tp) / (nT - 1), order = 0, nodes = 0;
       (function place(n) {
         if (n.tip != null) { n.x = R; n.y = Tp + tipY * order++; return; }
@@ -160,7 +160,6 @@ Sims.register('u-cladogram', {
         ctx.font = '600 13px ' + T.fontBody; ctx.textAlign = 'center'; ctx.fillStyle = T.figAmber; ctx.fillText(NUM[j], root.x - 9, root.y - 11);
       });
       ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'left';
-      for (var t = 0; t < nT; t++) { ctx.fillStyle = t === 0 ? T.figMuted : T.figInk; }
       (function names(n) { if (n.tip != null) { ctx.fillStyle = n.tip === 0 ? T.figMuted : T.figInk; ctx.fillText(d.taxa[n.tip] + (n.tip === 0 ? '(외군)' : ''), n.x + 6, n.y + 4); } else n.kids.forEach(names); })(root);
       ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
       ctx.fillText('분기도 (가지 길이는 의미 없음)', r.x + 8, r.y + 16);

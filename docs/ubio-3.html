@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="assets/katex/katex.min.css">
 <link rel="stylesheet" href="assets/book.css">
 <script src="assets/js/book.js" defer></script>
-
+<script src="assets/js/sims/u-atp-yield.js" defer></script>
 </head>
 <body class="" data-lesson="ubio-3" data-title="물질대사·세포호흡·광합성" data-where="일반생명과학">
 <header class="topbar">
@@ -841,6 +841,8 @@
 <p>NADH 1개 = <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7713em;"></span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7713em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">+</span></span></span></span></span></span></span></span></span></span></span> 10개 ÷ 4 = <strong>2.5 ATP</strong>, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">FAD</span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span> 1개 = 6 ÷ 4 = <strong>1.5 ATP</strong>. 이 값을 <strong>P/O 비</strong>라고도 한다. 정수가 아닌 것은 양성자 기울기라는 &#39;공동 저수지&#39;를 거치기 때문이다.</p>
 <p>세포질의 NADH는 내막을 통과하지 못해 전자만 미토콘드리아로 넘긴다. 간과 심장은 <strong>말산–아스파트산 셔틀</strong>로 전자를 기질의 NADH로 넘겨 2.5 ATP를, 골격근과 뇌는 <strong>글리세롤 인산 셔틀</strong>로 전자를 막의 FAD(→ Q)로 넘겨 1.5 ATP를 얻는다. 그래서 총 ATP는 32 또는 30이다.</p>
 <p><strong>효율</strong> 32 × 30.5 = 976 kJ, 976/2870 ≈ <strong>34%</strong>(표준 조건 기준). 세포 속 ATP의 실제 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal">G</span></span></span></span>(약 50 kJ/mol)로 계산하면 더 높아진다. 나머지는 열로 방출되어 체온을 유지한다.</p>
+<figure class="sim" id="sim-u-atp-yield" data-sim="u-atp-yield"><noscript>이 애니메이션은 자바스크립트가 필요하다.</noscript></figure>
+
 <h4 id="5-저해제와-짝풀림-물질-화학-삼투의-증거">(5) 저해제와 짝풀림 물질 — 화학 삼투의 증거</h4>
 <div class="table-wrap"><table><thead><tr>
 <th>물질</th>
@@ -1241,10 +1243,10 @@
   <rect x="89.4" y="304" width="161.2" height="24" rx="12" style="fill:var(--fig-panel);stroke:var(--fig-violet);stroke-width:1.6"/>
   <text x="170.0" y="321.0" text-anchor="middle" class="ubio-3-c4cam-k">루비스코 → 캘빈 회로</text>
   <path d="M170 274 L170 302" style="fill:none;stroke:var(--fig-ink);stroke-width:2.2" marker-end="url(#ubio-3-c4cam-a-ink)"/>
-  <rect x="250.3" y="304" width="99.4" height="24" rx="12" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.6"/>
-  <text x="300.0" y="321.0" text-anchor="middle" class="ubio-3-c4cam-k">피루브산 3C</text>
-  <path d="M330 274 L312 302" style="fill:none;stroke:var(--fig-ink);stroke-width:2.2" marker-end="url(#ubio-3-c4cam-a-ink)"/>
-  <path d="M300 304 Q270 200 232 122" style="fill:none;stroke:var(--fig-teal);stroke-width:1.8;stroke-dasharray:5 4" marker-end="url(#ubio-3-c4cam-a-teal)"/>
+  <rect x="268.3" y="304" width="99.4" height="24" rx="12" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.6"/>
+  <text x="318.0" y="321.0" text-anchor="middle" class="ubio-3-c4cam-k">피루브산 3C</text>
+  <path d="M330 274 L322 302" style="fill:none;stroke:var(--fig-ink);stroke-width:2.2" marker-end="url(#ubio-3-c4cam-a-ink)"/>
+  <path d="M300 304 Q266 200 232 122" style="fill:none;stroke:var(--fig-teal);stroke-width:1.8;stroke-dasharray:5 4" marker-end="url(#ubio-3-c4cam-a-teal)"/>
   <text x="252.0" y="196.0" text-anchor="end" class="ubio-3-c4cam-t">ATP 써서</text>
   <text x="252.0" y="212.0" text-anchor="end" class="ubio-3-c4cam-t">PEP 재생</text>
   <text x="208.0" y="368.0" text-anchor="middle" class="ubio-3-c4cam-s">광호흡 매우 적음, 대신 CO₂ 1분자당 ATP 2개 더</text>

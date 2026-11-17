@@ -23,7 +23,7 @@ Sims.register('u-coordination', {
       return { name: angs[0] === 180 ? '트랜스 (맞은편)' : '시스 (이웃)', angs: angs };
     }
     var S = api.scene3d({
-      yaw: 0.6, pitch: 0.38, dist: 10, scale: 0.2, label: '배위 화합물의 입체 모형',
+      yaw: 0.6, pitch: 0.38, dist: 10, scale: 0.15, label: '배위 화합물의 입체 모형',
       draw: function (g, T) {
         var P = geo[st.g].pos, L = 1.9, isB = function (i) { return st.B.indexOf(i) >= 0; };
         // 다면체 모서리(옅게)

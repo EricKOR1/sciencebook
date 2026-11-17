@@ -73,7 +73,7 @@ Sims.register('u-crystal-field', {
       var mid = ex.x + ex.w * 0.56, bw = 34, gap = 14;
       ctx.setLineDash([3, 4]); ctx.strokeStyle = T.figLine; ctx.lineWidth = 1;
       ctx.beginPath(); ctx.moveTo(ex.x + 40, bar); ctx.lineTo(ex.x + ex.w - 10, bar); ctx.stroke(); ctx.setLineDash([]);
-      ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left'; ctx.fillText('평균', ex.x + 40, bar - 4);
+      ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right'; ctx.fillText('평균', ex.x + ex.w - 10, bar - 4);
       function box(x, y, n, col) {
         ctx.strokeStyle = col; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(x + bw, y); ctx.stroke();
         ctx.strokeStyle = T.figInk; ctx.fillStyle = T.figInk; ctx.lineWidth = 2;

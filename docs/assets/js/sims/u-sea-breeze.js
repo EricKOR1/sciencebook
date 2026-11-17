@@ -11,7 +11,7 @@ Sims.register('u-sea-breeze', {
     var rZ = api.readout('900 hPa 면 높이 차 ');
     var rP = api.readout('같은 높이의 기압 차 ');
     var rW = api.readout('지상 바람 ');
-    var sTime = api.slider({ id: 'u-sea-breeze-t', label: '시각', min: 0, max: 24, step: 0.25, value: st.t,
+    var sTime = api.slider({ id: 'u-sea-breeze-t', label: '시각', min: 0, max: 24, step: 0.01, value: st.t,
       format: function (v) { var hh = Math.floor(v) % 24, mm = Math.round((v - Math.floor(v)) * 60); return (hh < 10 ? '0' : '') + hh + ':' + (mm < 10 ? '0' : '') + mm; },
       onInput: function (v) { st.t = v; update(); } });
     api.slider({ id: 'u-sea-breeze-a', label: '최대 기온 차', min: 1, max: 10, step: 0.5, value: st.A,
@@ -36,7 +36,7 @@ Sims.register('u-sea-breeze', {
     var loop = api.loop(function (dt) {
       if (dt <= 0) return;
       st.phase += dt * Math.min(1.2, Math.abs(dp()) * 0.9);
-      if (st.play) { var t = st.t + dt * 1.5; if (t >= 24) t -= 24; sTime.set(t); } else draw();
+      if (st.play) { var t = st.t + dt * 2; if (t >= 24) t -= 24; sTime.set(t); } else draw();
     });
     if (api.reduced) loop.pause();
 

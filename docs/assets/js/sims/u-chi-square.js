@@ -12,8 +12,9 @@ Sims.register('u-chi-square', {
     var rDec = api.readout('판정(유의 수준 0.05)');
     var rRej = api.readout('반복에서 기각된 비율');
 
-    api.slider({ id: 'u-chi-square-n', label: '자손 수', min: Math.log10(20), max: Math.log10(2000), step: 0.01, value: Math.log10(400),
-      format: function (v) { return Math.round(Math.pow(10, v)) + '개체'; }, onInput: function (v) { s.N = Math.round(Math.pow(10, v)); s.chis = []; one(); } });
+    var NS = [20, 40, 80, 160, 400, 800, 1600, 3200];
+    api.slider({ id: 'u-chi-square-n', label: '자손 수', min: 0, max: NS.length - 1, step: 1, value: 4,
+      format: function (v) { return NS[v] + '개체'; }, onInput: function (v) { s.N = NS[v]; s.chis = []; one(); } });
     api.slider({ id: 'u-chi-square-v', label: '열성·열성 개체의 실제 생존율', min: 0.3, max: 1, step: 0.05, value: 1,
       format: function (v) { return v >= 0.999 ? '1(가설대로)' : v.toFixed(2); }, onInput: function (v) { s.v = v; s.chis = []; one(); } });
     var g = api.group();
@@ -44,7 +45,7 @@ Sims.register('u-chi-square', {
     }
     function bars(T, r) {
       var o = s.obs, n = s.N, e = expected(n);
-      var L = r.x + 44, R = r.x + r.w - 10, top = r.y + 30, B = r.y + r.h - 62;
+      var warn = n / 16 < 5, L = r.x + 44, R = r.x + r.w - 10, top = r.y + (warn ? 46 : 30), B = r.y + r.h - 62;
       var maxV = Math.max.apply(null, o.concat(e)) * 1.15;
       var sy = function (v) { return B - v / maxV * (B - top); };
       ctx.fillStyle = T.figInk; ctx.font = '600 13px ' + T.fontBody; ctx.textAlign = 'left';
@@ -69,7 +70,7 @@ Sims.register('u-chi-square', {
       }
       ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
       ctx.fillText('(관찰−기대)²/기대 →', r.x + 2, B + 56);
-      if (n / 16 < 5) { ctx.fillStyle = T.figRed; ctx.textAlign = 'right'; ctx.fillText('기대 수 5 미만인 범주가 있어 검정이 부정확', R, B + 56); }
+      if (warn) { ctx.fillStyle = T.figRed; ctx.textAlign = 'left'; ctx.fillText('기대 수가 5 미만인 범주가 있어 검정이 부정확하다', r.x + 8, r.y + 34); }
     }
     function hist(T, r) {
       var L = r.x + 36, R = r.x + r.w - 10, top = r.y + 30, B = r.y + r.h - 34, XM = 20;

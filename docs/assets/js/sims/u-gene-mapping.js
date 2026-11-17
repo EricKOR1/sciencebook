@@ -14,7 +14,7 @@ Sims.register('u-gene-mapping', {
     ];
     var KN = { P: '어버이형', S1: '단일 교차(A–C)', S2: '단일 교차(C–B)', D: '이중 교차' };
 
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.45 : 0.6; }, label: '3점 검정 교배 자손 수 표와 실제·추정 유전자 지도' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.75 : 0.6; }, label: '3점 검정 교배 자손 수 표와 실제·추정 유전자 지도' });
     var ctx = cv.ctx;
     var rOrd = api.readout('추정 순서');
     var rD = api.readout('추정 거리');
@@ -69,8 +69,8 @@ Sims.register('u-gene-mapping', {
     function draw() {
       var T = api.tokens(), w = cv.w, h = cv.h, narrow = w < 560;
       ctx.clearRect(0, 0, w, h);
-      var A = narrow ? { x: 0, y: 0, w: w, h: h * 0.55 } : { x: 0, y: 0, w: w * 0.52, h: h };
-      var M = narrow ? { x: 0, y: h * 0.57, w: w, h: h * 0.43 } : { x: w * 0.55, y: 0, w: w * 0.45, h: h };
+      var A = narrow ? { x: 0, y: 0, w: w, h: h * 0.5 } : { x: 0, y: 0, w: w * 0.52, h: h };
+      var M = narrow ? { x: 0, y: h * 0.52, w: w, h: h * 0.48 } : { x: w * 0.55, y: 0, w: w * 0.45, h: h };
       table(T, A); maps(T, M);
     }
     function colOf(T, k) { return { P: T.figBlue, S1: T.figGreen, S2: T.figAmber, D: T.figRed }[k]; }
@@ -94,9 +94,9 @@ Sims.register('u-gene-mapping', {
     function maps(T, r) {
       var L = r.x + 18, R = r.x + r.w - 18, scale = (R - L) / 50;    // 50 cM 를 폭 전체로
       ctx.textAlign = 'left'; ctx.fillStyle = T.figInk; ctx.font = '600 13px ' + T.fontBody;
-      var y1 = r.y + 52, y2 = r.y + r.h * 0.5 + 10;
+      var y1 = r.y + 52, y2 = r.y + Math.max(r.h * 0.5 + 10, 150);
       ctx.fillText('실제 지도', L, y1 - 30);
-      chrom(T, y1, [['A', 0], ['C', s.d1], ['B', s.d1 + s.d2]], L, scale, T.figLine);
+      chrom(T, y1, [['A', 0], ['C', s.d1], ['B', s.d1 + s.d2]], L, scale, T.figMuted);
       ctx.fillStyle = T.figInk; ctx.font = '600 13px ' + T.fontBody; ctx.textAlign = 'left';
       ctx.fillText('자손 수로 추정한 지도', L, y2 - 30);
       chrom(T, y2, [[est.L, 0], [est.M, est.e1 * 100], [est.R, (est.e1 + est.e2) * 100]], L, scale, est.ok ? T.figAccent : T.figRed);

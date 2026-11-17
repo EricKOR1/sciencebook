@@ -659,6 +659,21 @@
       document.addEventListener('click', function (e) { if (locked && !e.target.closest('.map-chip')) { locked = null; focus(null); } });
     }
     mountAll();
+    // 글 속의 긴 수식이 화면 밖으로 나가면 그 수식만 옆으로 밀어 볼 수 있게 한다(휴대폰 화면)
+    var fixWideMath = function () {
+      var box = document.querySelector('main .prose'); if (!box) return;
+      var right = box.getBoundingClientRect().right + 1;
+      [].slice.call(box.querySelectorAll('.katex')).forEach(function (k) {
+        if (k.parentNode.classList.contains('katex-display') || k.classList.contains('katex-scroll')) return;
+        if (k.getBoundingClientRect().right > right) k.classList.add('katex-scroll');
+      });
+    };
+    fixWideMath();
+    window.addEventListener('load', fixWideMath);
+    window.addEventListener('resize', function () {
+      [].slice.call(document.querySelectorAll('.katex-scroll')).forEach(function (k) { k.classList.remove('katex-scroll'); });
+      fixWideMath();
+    });
     // 학습 기록
     paintMarks(); initLessonProgress(); initCoverProgress();
     window.addEventListener('storage', paintMarks);

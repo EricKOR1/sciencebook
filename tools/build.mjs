@@ -143,9 +143,42 @@ function protectMath(md, store) {
     return p;
   }).join('');
 }
+// 한 덩어리 \mathrm{…}로 쓴 긴 화학 반응식은 휴대폰 화면에서 줄이 바뀌지 못해 옆으로 넘친다.
+// 맨 바깥 수준의 +, 화살표에서 덩어리를 나눠 KaTeX가 그 자리에서 줄을 바꿀 수 있게 한다(글 속 수식에만 적용).
+function splitChem(tex) {
+  const t = tex.trim();
+  if (t.length < 28 || !t.startsWith('\\mathrm{')) return tex;
+  let depth = 0, end = -1;
+  for (let i = 7; i < t.length; i++) {
+    const c = t[i];
+    if (c === '\\') { i++; continue; }
+    if (c === '{') depth++;
+    else if (c === '}') { depth--; if (depth === 0) { end = i; break; } }
+  }
+  if (end !== t.length - 1) return tex;
+  const inner = t.slice(8, end);
+  const parts = [];
+  let cur = '';
+  depth = 0;
+  const OPS = ['\\rightleftharpoons', '\\longrightarrow', '\\rightarrow', '\\to'];
+  for (let i = 0; i < inner.length; i++) {
+    const c = inner[i];
+    if (depth === 0) {
+      const op = OPS.find((o) => inner.startsWith(o, i) && !/[a-zA-Z]/.test(inner[i + o.length] || ''));
+      if (op) { parts.push(cur, op); cur = ''; i += op.length - 1; continue; }
+      if (c === '+' && inner[i - 1] === ' ' && inner[i + 1] === ' ') { parts.push(cur, '+'); cur = ''; continue; }
+    }
+    if (c === '\\') { cur += c + (inner[i + 1] || ''); i++; continue; }
+    if (c === '{') depth++; else if (c === '}') depth--;
+    cur += c;
+  }
+  parts.push(cur);
+  if (parts.length < 3) return tex;
+  return parts.map((x, i) => (i % 2 ? ` ${x} ` : (x.trim() ? `\\mathrm{${x.trim()}}` : ''))).join('');
+}
 function renderMath(m) {
   // KaTeX는 가운뎃점(·)을 처리하지 못하므로 \cdot 으로 바꾼다(\text{…} 안에서는 잠시 밖으로 꺼낸다)
-  const tex = m.tex.replace(/\\text\{([^{}]*)\}/g, (all, inner) => `\\text{${inner.replace(/·/g, '}\\cdot\\text{')}}`).replace(/·/g, '\\cdot ').replace(/µ/g, 'μ')
+  const tex = (m.display ? m.tex : splitChem(m.tex)).replace(/\\text\{([^{}]*)\}/g, (all, inner) => `\\text{${inner.replace(/·/g, '}\\cdot\\text{')}}`).replace(/·/g, '\\cdot ').replace(/µ/g, 'μ')
     // 핵종 표기처럼 간격 명령 바로 뒤에 위·아래 첨자가 오면(\, ^{4}_{2}He) KaTeX가 처리하지 못하므로 빈 묶음을 끼운다
     .replace(/(\\[,;:!]|\\quad|\\qquad)\s*(?=[\^_])/g, '$1{}')
     // KaTeX 기본 글꼴에 없는 기호는 \text 로 감싸 본문 글꼴로 보여 준다

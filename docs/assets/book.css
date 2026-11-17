@@ -432,3 +432,4 @@ figcaption b { color: var(--ink); font-weight: 600; margin-right: 0.25rem; }
 .progress-admin .pa-btns { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
 @media print { .read-bar, .resume-toast, .done-box, .resume-panel, .progress-admin { display: none !important; } }
 .sim-glabel { align-self: center; font: 600 0.8rem/1.2 var(--font-body); color: var(--muted); margin-right: 0.15rem; }
+.katex.katex-scroll { display: inline-block; max-width: 100%; overflow-x: auto; overflow-y: hidden; vertical-align: middle; padding-block: 0.25em; }

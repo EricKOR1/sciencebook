@@ -54,7 +54,7 @@ Sims.register('u-seafloor-spreading', {
       ctx.font = '600 13px ' + T.fontBody; ctx.textAlign = 'center'; ctx.fillStyle = T.figRed;
       ctx.fillText('해령 축', cx, 16);
       ctx.textAlign = 'left'; ctx.fillStyle = T.figInk; ctx.font = '12px ' + T.fontBody;
-      ctx.fillText('자기 이상(모식)', L, yA + 10);
+      ctx.fillText('자기 이상(모식, 위쪽 +)', L, yA + 4);
       // 자기 이상: 자화(+1/−1)를 가우스 함수로 부드럽게 한 곡선
       var step = 1, sig = 4, ker = [], k;
       for (k = -12; k <= 12; k++) ker.push(Math.exp(-k * k / (2 * sig * sig)));
@@ -70,8 +70,6 @@ Sims.register('u-seafloor-spreading', {
         if (!started) { ctx.moveTo(sx(d), yy); started = true; } else ctx.lineTo(sx(d), yy);
       }
       ctx.strokeStyle = T.figAccent; ctx.lineWidth = 2; ctx.stroke();
-      ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right';
-      ctx.fillText('+', L + 2, yA + hA * 0.2); ctx.fillText('−', L + 2, yA + hA * 0.86);
 
       // 줄무늬(위에서 본 해저)
       for (var px = Math.floor(L); px < R; px++) {
@@ -113,8 +111,8 @@ Sims.register('u-seafloor-spreading', {
       var badge = p > 0 ? '정자극기 기록 중' : '역자극기 기록 중';
       ctx.font = '600 12px ' + T.fontBody; var bw = ctx.measureText(badge).width + 16;
       ctx.fillStyle = p > 0 ? T.figBlue : T.figPanel; ctx.strokeStyle = T.figBlue; ctx.lineWidth = 1.5;
-      rr(cx + 8, 4, bw, 20, 10); ctx.fill(); ctx.stroke();
-      ctx.fillStyle = p > 0 ? T.figPanel : T.figBlue; ctx.textAlign = 'left'; ctx.fillText(badge, cx + 16, 18);
+      rr(cx + 34, 4, bw, 20, 10); ctx.fill(); ctx.stroke();
+      ctx.fillStyle = p > 0 ? T.figPanel : T.figBlue; ctx.textAlign = 'left'; ctx.fillText(badge, cx + 42, 18);
 
       // 나이–거리 그래프
       var gL = L + 44, gR = R - 8, gT = yG, gB = yG + hG;
@@ -145,7 +143,7 @@ Sims.register('u-seafloor-spreading', {
       ctx.fillText('2.5 cm/년(예제 3)', gx(lx * 0.62) + 8, gy(lx * 0.62 / 25) + 4);
       // 브뤼느–마투야마 경계 점
       var dB = 0.781 * v;
-      if (dB <= RANGE && dB <= formed + 1e-9) {
+      if (dB <= RANGE && n < 0.005) {
         ctx.fillStyle = T.figRed; ctx.beginPath(); ctx.arc(gx(dB), gy(0.781), 4.5, 0, 7); ctx.fill();
         ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
         ctx.fillText('78만 년 · ' + dB.toFixed(1) + ' km', gx(dB) + 8, gy(0.781) - 6);
@@ -153,7 +151,7 @@ Sims.register('u-seafloor-spreading', {
       // 읽음값
       rV.set(state.v.toFixed(1) + ' cm/년 (= ' + v.toFixed(0) + ' km/백만 년)');
       rFull.set((2 * state.v).toFixed(1) + ' cm/년');
-      rB.set(n < 0.005 ? '축에서 ' + dB.toFixed(1) + ' km' : '아직 형성 중');
+      rB.set(n < 0.005 ? '축에서 ' + dB.toFixed(1) + ' km' : '현재 시각에서 확인');
       rNow.set(fmtNow(n));
       rPol.set(p > 0 ? '정자극기' : '역자극기');
     }

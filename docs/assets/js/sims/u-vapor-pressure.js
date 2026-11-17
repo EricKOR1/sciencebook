@@ -108,10 +108,12 @@ Sims.register('u-vapor-pressure', {
       ctx.strokeStyle = T.figInk; ctx.lineWidth = 1; ctx.setLineDash([2, 3]);
       ctx.beginPath(); ctx.moveTo(sx(xa), sy(ya)); ctx.lineTo(sx(xb), sy(ya)); ctx.lineTo(sx(xb), sy(yb)); ctx.stroke(); ctx.setLineDash([]);
       ctx.restore();
-      ctx.fillStyle = T.figInk; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'right';
-      ctx.fillText('기울기 = −ΔH기화/R = −' + Math.round(L.H * 1000 / R) + ' K', f.R - 4, f.T + 14);
-      ctx.font = '11px ' + T.fontBody; ctx.fillStyle = T.figMuted;
-      ctx.fillText('← 온도가 높다      온도가 낮다 →', f.R - 4, f.T + 30);
+      var txt = '기울기 = −ΔH기화/R = −' + Math.round(L.H * 1000 / R) + ' K', wide = f.R - f.L > 300;
+      ctx.font = '600 12px ' + T.fontBody; var tw = ctx.measureText(txt).width;
+      ctx.globalAlpha = 0.9; ctx.fillStyle = T.figPanel; ctx.fillRect(f.R - tw - 10, f.T + 1, tw + 8, wide ? 36 : 20); ctx.globalAlpha = 1;
+      ctx.fillStyle = T.figInk; ctx.textAlign = 'right';
+      ctx.fillText(txt, f.R - 4, f.T + 14);
+      if (wide) { ctx.font = '11px ' + T.fontBody; ctx.fillStyle = T.figMuted; ctx.fillText('← 온도가 높다      온도가 낮다 →', f.R - 4, f.T + 30); }
     }
     api.onResize(draw);
     update();

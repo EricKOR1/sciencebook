@@ -114,7 +114,7 @@ Sims.register('u-rc-circuit', {
         ctx.fillStyle = T.figAccent; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right'; ctx.fillText('Cε', R - 2, sy(qf()) - 4); }
     }
     function circuit(T, b) {
-      var cx = b.x + b.w / 2, cy = b.y + b.h / 2, W = Math.min(b.w - 40, 190), H = Math.min(b.h - 50, 150);
+      var cx = b.x + b.w / 2, cy = b.y + b.h / 2, W = Math.min(b.w - 80, 190), H = Math.min(b.h - 50, 150);
       var x0 = cx - W / 2, x1 = cx + W / 2, y0 = cy - H / 2 + 6, y1 = cy + H / 2 + 6;
       var charging = st.mode === 'charge';
       ctx.strokeStyle = T.figInk; ctx.lineWidth = 2; ctx.fillStyle = T.figInk;
