@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 590" role="img" aria-labelledby="t-uearth-8-fronts-section d-uearth-8-fronts-section">
+  <title id="t-uearth-8-fronts-section">그림 일반지구과학 8-8 한랭 전선과 온난 전선의 연직 단면</title>
+  <desc id="d-uearth-8-fronts-section">위는 한랭 전선, 아래는 온난 전선의 연직 단면이다. 한랭 전선에서는 무거운 찬 공기가 따뜻한 공기 밑으로 파고들며 전선면이 가파르게(약 1/50~1/100) 서고, 따뜻한 공기가 급히 들어 올려져 전선 부근 좁은 띠에 적란운과 소나기·뇌우가 생긴다. 온난 전선에서는 따뜻한 공기가 찬 공기 위로 완만하게(약 1/100~1/200) 타고 올라, 지상 전선 앞 수백~1000여 km에 걸쳐 권운, 권층운, 고층운, 난층운이 차례로 낮아지며 나타나고 넓은 지역에 지속적인 비가 내린다. 가로·세로 축척은 같지 않으며 높이를 약 50배 과장한 모식도이다.</desc>
+  <style>
+    .uearth-8-fronts-section-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .uearth-8-fronts-section-t{font-size:13px;fill:var(--fig-ink)}
+    .uearth-8-fronts-section-b{font-size:13px;font-weight:600;fill:var(--fig-ink)}
+    .uearth-8-fronts-section-s{font-size:13px;fill:var(--fig-muted)}
+    .uearth-8-fronts-section-ax{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .uearth-8-fronts-section-grid{fill:none;stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 4}
+    .uearth-8-fronts-section-panel{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1}
+    .uearth-8-fronts-section-sea{fill:var(--fig-soft-blue);stroke:none}
+    .uearth-8-fronts-section-land{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:0.7;fill-rule:evenodd}
+    .uearth-8-fronts-section-grat{fill:none;stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 4}
+    .uearth-8-fronts-section-frame{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .uearth-8-fronts-section-c-ink{font-size:13px;font-weight:600;fill:var(--fig-ink)}
+    .uearth-8-fronts-section-c-muted{font-size:13px;font-weight:600;fill:var(--fig-muted)}
+    .uearth-8-fronts-section-c-line{font-size:13px;font-weight:600;fill:var(--fig-line)}
+    .uearth-8-fronts-section-c-accent{font-size:13px;font-weight:600;fill:var(--fig-accent)}
+    .uearth-8-fronts-section-c-blue{font-size:13px;font-weight:600;fill:var(--fig-blue)}
+    .uearth-8-fronts-section-c-red{font-size:13px;font-weight:600;fill:var(--fig-red)}
+    .uearth-8-fronts-section-c-green{font-size:13px;font-weight:600;fill:var(--fig-green)}
+    .uearth-8-fronts-section-c-amber{font-size:13px;font-weight:600;fill:var(--fig-amber)}
+    .uearth-8-fronts-section-c-violet{font-size:13px;font-weight:600;fill:var(--fig-violet)}
+    .uearth-8-fronts-section-c-teal{font-size:13px;font-weight:600;fill:var(--fig-teal)}
+    .uearth-8-fronts-section-cold{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2}
+    .uearth-8-fronts-section-warm{fill:var(--fig-soft-red);stroke:none}
+    .uearth-8-fronts-section-cloud{fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.3}
+    .uearth-8-fronts-section-cloudd{fill:var(--fig-line);stroke:var(--fig-muted);stroke-width:1.3;opacity:0.85}
+    .uearth-8-fronts-section-rain{fill:none;stroke:var(--fig-blue);stroke-width:1.4}
+    .uearth-8-fronts-section-gnd{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
+  </style>
+  <defs>
+    <marker id="uearth-8-fronts-section-ah-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--fig-blue)"/></marker>
+    <marker id="uearth-8-fronts-section-ah-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--fig-ink)"/></marker>
+    <marker id="uearth-8-fronts-section-ah-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--fig-red)"/></marker>
+  </defs>
+  <text x="14.0" y="18.0" class="uearth-8-fronts-section-h">(가) 한랭 전선 — 가파른 전선면, 좁은 띠의 적란운</text>
+  <rect x="40" y="41.0" width="660" height="189.0" class="uearth-8-fronts-section-warm"/>
+  <path d="M40,230 L470,230 C474,206 464,190 440,183.2 L199.1,50.0 L40,50.0 Z" class="uearth-8-fronts-section-cold"/>
+  <path d="M440,208.4 C410,194.0 420,122.0 430,77.0 C380,64.4 350,53.6 360,46.4 L620,46.4 C630,53.6 600,64.4 540,77.0 C560,122.0 550,194.0 510,208.4 Z" class="uearth-8-fronts-section-cloudd"/>
+  <line x1="444.0" y1="208.4" x2="439.0" y2="227.0" class="uearth-8-fronts-section-rain" style="stroke-dasharray:6 6"/>
+  <line x1="451.0" y1="208.4" x2="446.0" y2="227.0" class="uearth-8-fronts-section-rain" style="stroke-dasharray:6 6"/>
+  <line x1="458.0" y1="208.4" x2="453.0" y2="227.0" class="uearth-8-fronts-section-rain" style="stroke-dasharray:6 6"/>
+  <line x1="465.0" y1="208.4" x2="460.0" y2="227.0" class="uearth-8-fronts-section-rain" style="stroke-dasharray:6 6"/>
+  <line x1="472.0" y1="208.4" x2="467.0" y2="227.0" class="uearth-8-fronts-section-rain" style="stroke-dasharray:6 6"/>
+  <line x1="479.0" y1="208.4" x2="474.0" y2="227.0" class="uearth-8-fronts-section-rain" style="stroke-dasharray:6 6"/>
+  <line x1="486.0" y1="208.4" x2="481.0" y2="227.0" class="uearth-8-fronts-section-rain" style="stroke-dasharray:6 6"/>
+  <line x1="493.0" y1="208.4" x2="488.0" y2="227.0" class="uearth-8-fronts-section-rain" style="stroke-dasharray:6 6"/>
+  <line x1="500.0" y1="208.4" x2="495.0" y2="227.0" class="uearth-8-fronts-section-rain" style="stroke-dasharray:6 6"/>
+  <text x="475.0" y="131.0" class="uearth-8-fronts-section-b" text-anchor="middle">적란운</text>
+  <path d="M640,210 C550,204 500,194.0 480,113.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.4" marker-end="url(#uearth-8-fronts-section-ah-red)"/>
+  <path d="M150,206.6 L330,206.6" style="fill:none;stroke:var(--fig-blue);stroke-width:2.4" marker-end="url(#uearth-8-fronts-section-ah-blue)"/>
+  <text x="120.0" y="176.0" class="uearth-8-fronts-section-c-blue">찬 공기</text>
+  <text x="600.0" y="167.0" class="uearth-8-fronts-section-c-red" text-anchor="middle">따뜻한 공기</text>
+  <text x="600.0" y="185.0" class="uearth-8-fronts-section-s" text-anchor="middle">(급히 들어 올려짐)</text>
+  <path d="M462,230 L478,230 L470,218 Z" style="fill:var(--fig-blue)"/>
+  <path d="M120,248 L180,248" style="fill:none;stroke:var(--fig-ink);stroke-width:2" marker-end="url(#uearth-8-fronts-section-ah-ink)"/>
+  <text x="186.0" y="253.0" class="uearth-8-fronts-section-t">전선 이동(빠름, 약 30~50 km/h)</text>
+  <text x="60.0" y="113.0" class="uearth-8-fronts-section-s">전선면 기울기</text>
+  <text x="60.0" y="130.0" class="uearth-8-fronts-section-s">약 1/50~1/100</text>
+  <text x="482.0" y="253.0" class="uearth-8-fronts-section-b">지상 전선</text>
+  <line x1="40" y1="230" x2="700" y2="230" class="uearth-8-fronts-section-gnd"/>
+  <rect x="527.0" y="206.2" width="150.9" height="18" rx="3" style="fill:var(--fig-paper);opacity:0.85;stroke:none"/>
+  <text x="530.0" y="219.2" class="uearth-8-fronts-section-c-blue">좁은 띠의 소나기·뇌우</text>
+  <text x="14.0" y="310.0" class="uearth-8-fronts-section-h">(나) 온난 전선 — 완만한 전선면, 넓은 층운형 구름과 지속적인 비</text>
+  <rect x="40" y="333.0" width="660" height="189.0" class="uearth-8-fronts-section-warm"/>
+  <path d="M110,522 L700,522 L690.5,342.0 Z" class="uearth-8-fronts-section-cold"/>
+  <path d="M120,516 L237.7,482.4 L243.7,424.8 C197.7,439.2 150,453.6 114,468.0 Z" class="uearth-8-fronts-section-cloudd"/>
+  <text x="165.0" y="475.2" class="uearth-8-fronts-section-b" text-anchor="middle">난층운</text>
+  <line x1="124.0" y1="500.4" x2="119.0" y2="519.0" class="uearth-8-fronts-section-rain" style="stroke-dasharray:6 6"/>
+  <line x1="132.0" y1="500.4" x2="127.0" y2="519.0" class="uearth-8-fronts-section-rain" style="stroke-dasharray:6 6"/>
+  <line x1="140.0" y1="500.4" x2="135.0" y2="519.0" class="uearth-8-fronts-section-rain" style="stroke-dasharray:6 6"/>
+  <line x1="148.0" y1="500.4" x2="143.0" y2="519.0" class="uearth-8-fronts-section-rain" style="stroke-dasharray:6 6"/>
+  <line x1="156.0" y1="500.4" x2="151.0" y2="519.0" class="uearth-8-fronts-section-rain" style="stroke-dasharray:6 6"/>
+  <line x1="164.0" y1="500.4" x2="159.0" y2="519.0" class="uearth-8-fronts-section-rain" style="stroke-dasharray:6 6"/>
+  <line x1="172.0" y1="500.4" x2="167.0" y2="519.0" class="uearth-8-fronts-section-rain" style="stroke-dasharray:6 6"/>
+  <line x1="180.0" y1="500.4" x2="175.0" y2="519.0" class="uearth-8-fronts-section-rain" style="stroke-dasharray:6 6"/>
+  <line x1="188.0" y1="500.4" x2="183.0" y2="519.0" class="uearth-8-fronts-section-rain" style="stroke-dasharray:6 6"/>
+  <line x1="196.0" y1="500.4" x2="191.0" y2="519.0" class="uearth-8-fronts-section-rain" style="stroke-dasharray:6 6"/>
+  <line x1="204.0" y1="500.4" x2="199.0" y2="519.0" class="uearth-8-fronts-section-rain" style="stroke-dasharray:6 6"/>
+  <line x1="212.0" y1="500.4" x2="207.0" y2="519.0" class="uearth-8-fronts-section-rain" style="stroke-dasharray:6 6"/>
+  <line x1="220.0" y1="500.4" x2="215.0" y2="519.0" class="uearth-8-fronts-section-rain" style="stroke-dasharray:6 6"/>
+  <line x1="228.0" y1="500.4" x2="223.0" y2="519.0" class="uearth-8-fronts-section-rain" style="stroke-dasharray:6 6"/>
+  <path d="M237.7,475.2 L380.9,432.6 L380.9,412.8 L237.7,442.8 Z" class="uearth-8-fronts-section-cloud"/>
+  <text x="309.3" y="413.4" class="uearth-8-fronts-section-b" text-anchor="middle">고층운</text>
+  <path d="M388.6,426.6 L520.2,387.6 L520.2,378.6 L388.6,414.0 Z" class="uearth-8-fronts-section-cloud"/>
+  <text x="454.4" y="386.4" class="uearth-8-fronts-section-b" text-anchor="middle">권층운(무리)</text>
+  <path d="M533.0,378.0 q14,-2 22,-10 M541.0,381.0 q14,-2 22,-10" style="fill:none;stroke:var(--fig-muted);stroke-width:1.6"/>
+  <path d="M571.8,366.0 q14,-2 22,-10 M579.8,369.0 q14,-2 22,-10" style="fill:none;stroke:var(--fig-muted);stroke-width:1.6"/>
+  <path d="M610.5,354.0 q14,-2 22,-10 M618.5,357.0 q14,-2 22,-10" style="fill:none;stroke:var(--fig-muted);stroke-width:1.6"/>
+  <text x="593.8" y="340.0" class="uearth-8-fronts-section-b" text-anchor="middle">권운</text>
+  <path d="M50,506 L100,506 C190,482 410,441.0 530,385.2" style="fill:none;stroke:var(--fig-red);stroke-width:2.4" marker-end="url(#uearth-8-fronts-section-ah-red)"/>
+  <text x="60.0" y="482.4" class="uearth-8-fronts-section-c-red">따뜻한 공기</text>
+  <text x="560.0" y="496.8" class="uearth-8-fronts-section-c-blue" text-anchor="middle">찬 공기</text>
+  <path d="M101,522 A9,9 0 0,1 119,522 Z" style="fill:var(--fig-red)"/>
+  <line x1="40" y1="522" x2="700" y2="522" class="uearth-8-fronts-section-gnd"/>
+  <text x="110.0" y="545.0" class="uearth-8-fronts-section-b" text-anchor="middle">지상 전선</text>
+  <path d="M170,540 L230,540" style="fill:none;stroke:var(--fig-ink);stroke-width:2" marker-end="url(#uearth-8-fronts-section-ah-ink)"/>
+  <text x="236.0" y="545.0" class="uearth-8-fronts-section-t">전선 이동(느림, 약 15~30 km/h)</text>
+  <line x1="303.5" y1="522" x2="303.5" y2="528" class="uearth-8-fronts-section-gnd"/>
+  <text x="303.5" y="562.0" class="uearth-8-fronts-section-s" text-anchor="middle">500 km</text>
+  <line x1="497.0" y1="522" x2="497.0" y2="528" class="uearth-8-fronts-section-gnd"/>
+  <text x="497.0" y="562.0" class="uearth-8-fronts-section-s" text-anchor="middle">1000 km</text>
+  <line x1="690.5" y1="522" x2="690.5" y2="528" class="uearth-8-fronts-section-gnd"/>
+  <text x="690.5" y="562.0" class="uearth-8-fronts-section-s" text-anchor="end">1500 km</text>
+  <text x="110.0" y="562.0" class="uearth-8-fronts-section-s" text-anchor="middle">0</text>
+  <text x="700.0" y="327.0" class="uearth-8-fronts-section-s" text-anchor="end">전선면 기울기 약 1/100~1/200 · 높이를 약 50배 과장</text>
+</svg>

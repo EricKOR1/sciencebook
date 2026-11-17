@@ -19,11 +19,12 @@
   <line x1="262.0" y1="180.0" x2="300.0" y2="180.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 3"/>
   <line x1="414.0" y1="180.0" x2="414.0" y2="248.0" style="stroke:var(--fig-blue);stroke-width:1.8" marker-end="url(#ubio-3-activation-a-blue)"/>
   <line x1="390.0" y1="180.0" x2="420.0" y2="180.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 3"/>
-  <text x="408.0" y="219.0" text-anchor="end" class="ubio-3-activation-blue">ΔG</text>
+  <text x="422.0" y="219.0" text-anchor="start" class="ubio-3-activation-blue">ΔG</text>
   <text x="120.0" y="170.0" text-anchor="middle" class="ubio-3-activation-k">반응물</text>
-  <text x="310.0" y="242.0" text-anchor="middle" class="ubio-3-activation-k">생성물</text>
+  <text x="350.0" y="270.0" text-anchor="middle" class="ubio-3-activation-k">생성물</text>
   <text x="240.0" y="48.6" text-anchor="middle" class="ubio-3-activation-s">전이 상태</text>
-  <text x="416.0" y="278.0" text-anchor="end" class="ubio-3-activation-blue">ΔG(평형의 위치)는 그대로</text>
+  <text x="68.0" y="260.0" text-anchor="start" class="ubio-3-activation-blue">효소가 있어도 ΔG와</text>
+  <text x="68.0" y="278.0" text-anchor="start" class="ubio-3-activation-blue">평형의 위치는 그대로</text>
   <text x="590.0" y="26.0" text-anchor="middle" class="ubio-3-activation-b">유도 적합</text>
   <path d="M482 150 L482 90 Q482 70 502 70 L508 70 L512 98 L548 98 L552 70 L558 70 Q578 70 578 90 L578 150 Z" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2;stroke-linejoin:round;stroke-linecap:round"/>
   <rect x="518.0" y="40.0" width="24.0" height="22.0" rx="4" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6"/>

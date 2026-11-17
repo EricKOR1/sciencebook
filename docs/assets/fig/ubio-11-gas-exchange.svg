@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-ubio-11-gas-exchange d-ubio-11-gas-exchange">
+  <title id="t-ubio-11-gas-exchange">그림 일반생명과학 11-10 폐포와 조직에서의 분압 차와 기체 교환</title>
+  <desc id="d-ubio-11-gas-exchange">왼쪽: 폐포. 폐포 공기(PO₂ 약 100, PCO₂ 약 40 mmHg)와 폐동맥에서 온 정맥혈(PO₂ 40, PCO₂ 46) 사이의 분압 차를 따라 산소는 혈액으로, 이산화 탄소는 폐포로 확산하여 혈액은 PO₂ 100, PCO₂ 40이 된다. 오른쪽: 조직. 동맥혈(100, 40)과 세포호흡을 하는 조직 세포(PO₂ 40 이하, PCO₂ 46 이상) 사이에서 산소는 세포로, 이산화 탄소는 혈액으로 확산해 정맥혈(40, 46)이 된다. 단위는 mmHg, 휴식 시 예시 값의 모식도이다.</desc>
+  <style>.ubio-11-gas-exchange-t{font-size:14px;fill:var(--fig-ink)} .ubio-11-gas-exchange-b{font-size:14px;fill:var(--fig-ink);font-weight:700} .ubio-11-gas-exchange-s{font-size:13px;fill:var(--fig-muted)} .ubio-11-gas-exchange-h{font-size:15px;fill:var(--fig-ink);font-weight:700} .ubio-11-gas-exchange-lead{stroke:var(--fig-muted);stroke-width:1;fill:none}</style>
+  <defs><linearGradient id="ubio-11-gas-exchange-a" x1="0" x2="1"><stop offset="0" style="stop-color:var(--fig-blue)"/><stop offset="1" style="stop-color:var(--fig-red)"/></linearGradient><linearGradient id="ubio-11-gas-exchange-b" x1="0" x2="1"><stop offset="0" style="stop-color:var(--fig-red)"/><stop offset="1" style="stop-color:var(--fig-blue)"/></linearGradient></defs>
+  <path d="M166,30 L166,104 L194,104 L194,30" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <circle cx="180.0" cy="170.0" r="72.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <rect x="167.0" y="96.0" width="26.0" height="12.0" style="fill:var(--fig-soft-blue);stroke:none"/>
+  <text x="202.0" y="46.0" class="ubio-11-gas-exchange-s">들숨 PO₂ 160</text>
+  <text x="180.0" y="152.0" text-anchor="middle" class="ubio-11-gas-exchange-b">폐포</text>
+  <text x="180.0" y="174.0" text-anchor="middle" class="ubio-11-gas-exchange-t">PO₂ 100</text>
+  <text x="180.0" y="194.0" text-anchor="middle" class="ubio-11-gas-exchange-t">PCO₂ 40</text>
+  <path d="M30,272 C80,272 100,250 180,250 C260,250 280,272 330,272" style="fill:none;stroke:url(#ubio-11-gas-exchange-a);stroke-width:22;stroke-opacity:0.45"/>
+  <path d="M30,272 C80,272 100,250 180,250 C260,250 280,272 330,272" style="fill:none;stroke:var(--fig-line);stroke-width:1"/>
+  <line x1="150.0" y1="238.0" x2="150.0" y2="252.0" style="stroke:var(--fig-teal);stroke-width:2.2"/>
+  <path d="M150.0 260.0 L146.0 252.0 L154.0 252.0 Z" style="fill:var(--fig-teal)"/>
+  <line x1="210.0" y1="256.0" x2="210.0" y2="242.0" style="stroke:var(--fig-muted);stroke-width:2.2"/>
+  <path d="M210.0 234.0 L214.0 242.0 L206.0 242.0 Z" style="fill:var(--fig-muted)"/>
+  <text x="144.0" y="232.0" text-anchor="end" class="ubio-11-gas-exchange-b">O₂</text>
+  <text x="216.0" y="232.0" class="ubio-11-gas-exchange-b">CO₂</text>
+  <line x1="40.0" y1="296.0" x2="101.0" y2="296.0" style="stroke:var(--fig-blue);stroke-width:2"/>
+  <path d="M110.0 296.0 L101.0 300.5 L101.0 291.5 Z" style="fill:var(--fig-blue)"/>
+  <line x1="250.0" y1="296.0" x2="311.0" y2="296.0" style="stroke:var(--fig-red);stroke-width:2"/>
+  <path d="M320.0 296.0 L311.0 300.5 L311.0 291.5 Z" style="fill:var(--fig-red)"/>
+  <text x="30.0" y="322.0" class="ubio-11-gas-exchange-s">폐동맥에서 온 혈액</text>
+  <text x="30.0" y="340.0" class="ubio-11-gas-exchange-t">PO₂ 40, PCO₂ 46</text>
+  <text x="330.0" y="322.0" text-anchor="end" class="ubio-11-gas-exchange-s">폐정맥으로</text>
+  <text x="330.0" y="340.0" text-anchor="end" class="ubio-11-gas-exchange-t">PO₂ 100, PCO₂ 40</text>
+  <text x="180.0" y="22.0" text-anchor="middle" class="ubio-11-gas-exchange-h">(가) 폐포</text>
+  <text x="550.0" y="22.0" text-anchor="middle" class="ubio-11-gas-exchange-h">(나) 조직</text>
+  <rect x="400.0" y="114.0" width="300.0" height="32.0" rx="16" style="fill:url(#ubio-11-gas-exchange-b);fill-opacity:0.45;stroke:var(--fig-line);stroke-width:1"/>
+  <text x="400.0" y="100.0" class="ubio-11-gas-exchange-t">동맥혈 PO₂ 100, PCO₂ 40</text>
+  <text x="700.0" y="182.0" text-anchor="end" class="ubio-11-gas-exchange-t"></text>
+  <rect x="412.0" y="190.0" width="62.0" height="60.0" rx="10" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <circle cx="443.0" cy="220.0" r="8.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2"/>
+  <rect x="484.0" y="190.0" width="62.0" height="60.0" rx="10" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <circle cx="515.0" cy="220.0" r="8.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2"/>
+  <rect x="556.0" y="190.0" width="62.0" height="60.0" rx="10" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <circle cx="587.0" cy="220.0" r="8.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2"/>
+  <rect x="628.0" y="190.0" width="62.0" height="60.0" rx="10" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <circle cx="659.0" cy="220.0" r="8.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2"/>
+  <line x1="470.0" y1="148.0" x2="470.0" y2="178.0" style="stroke:var(--fig-teal);stroke-width:2.2"/>
+  <path d="M470.0 186.0 L466.0 178.0 L474.0 178.0 Z" style="fill:var(--fig-teal)"/>
+  <line x1="610.0" y1="186.0" x2="610.0" y2="156.0" style="stroke:var(--fig-muted);stroke-width:2.2"/>
+  <path d="M610.0 148.0 L614.0 156.0 L606.0 156.0 Z" style="fill:var(--fig-muted)"/>
+  <text x="462.0" y="168.0" text-anchor="end" class="ubio-11-gas-exchange-b">O₂</text>
+  <text x="618.0" y="168.0" class="ubio-11-gas-exchange-b">CO₂</text>
+  <text x="550.0" y="274.0" text-anchor="middle" class="ubio-11-gas-exchange-b">조직 세포(세포호흡)</text>
+  <text x="550.0" y="294.0" text-anchor="middle" class="ubio-11-gas-exchange-t">PO₂ 40 이하, PCO₂ 46 이상</text>
+  <line x1="690.0" y1="130.0" x2="697.0" y2="130.0" style="stroke:var(--fig-blue);stroke-width:2"/>
+  <path d="M706.0 130.0 L697.0 134.5 L697.0 125.5 Z" style="fill:var(--fig-blue)"/>
+  <text x="700.0" y="324.0" text-anchor="end" class="ubio-11-gas-exchange-t">정맥혈 PO₂ 40, PCO₂ 46</text>
+  <polyline points="680.0,146.0 680.0,308.0" class="ubio-11-gas-exchange-lead"/>
+  <text x="550.0" y="360.0" text-anchor="middle" class="ubio-11-gas-exchange-s">격렬한 운동 시 근육은 PO₂ 20 이하로 내려가</text>
+  <text x="550.0" y="378.0" text-anchor="middle" class="ubio-11-gas-exchange-s">같은 혈액에서 더 많은 O₂를 받는다</text>
+  <line x1="365.0" y1="30.0" x2="365.0" y2="380.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
+  <text x="360.0" y="396.0" text-anchor="middle" class="ubio-11-gas-exchange-s">기체는 분압이 높은 곳 → 낮은 곳으로 확산 · 단위 mmHg · 모식도</text>
+</svg>

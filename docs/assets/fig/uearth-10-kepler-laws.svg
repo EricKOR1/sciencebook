@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 352" role="img" aria-labelledby="t-uearth-10-kepler-laws d-uearth-10-kepler-laws">
+  <title id="t-uearth-10-kepler-laws">그림 일반지구과학 10-5 케플러 제1법칙과 제2법칙</title>
+  <desc id="d-uearth-10-kepler-laws">왼쪽: 행성은 태양을 한 초점으로 하는 타원 궤도를 돈다. 긴반지름 a, 짧은반지름 b, 중심에서 초점까지 ae, 근일점 거리 q = a(1 − e), 원일점 거리 Q = a(1 + e)를 나타냈다. 오른쪽: 같은 시간 동안 태양–행성 선분이 쓸고 지나가는 두 부채꼴의 넓이가 같다. 근일점 부근에서는 짧고 넓게, 원일점 부근에서는 길고 좁게 쓸므로 근일점에서 더 빠르다. 이심률 0.6으로 과장한 모식도.</desc>
+  <style>
+    .uearth-10-kepler-laws-h{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .uearth-10-kepler-laws-t{font-size:13px;fill:var(--fig-ink)}
+    .uearth-10-kepler-laws-s{font-size:13px;fill:var(--fig-muted)}
+    .uearth-10-kepler-laws-n{font-size:12px;fill:var(--fig-muted)}
+    .uearth-10-kepler-laws-b{font-size:13px;font-weight:600;fill:var(--fig-ink)}
+    .uearth-10-kepler-laws-o{paint-order:stroke;stroke:var(--fig-paper);stroke-width:4px;stroke-linejoin:round}
+  </style>
+  <defs><marker id="uearth-10-kepler-laws-ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" style="fill:var(--fig-muted)"/></marker><marker id="uearth-10-kepler-laws-arI" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" style="fill:var(--fig-ink)"/></marker></defs>
+  <text x="182.0" y="26.0" text-anchor="middle" class="uearth-10-kepler-laws-h">제1법칙 — 태양을 한 초점으로 하는 타원</text>
+  <ellipse cx="182.0" cy="175.0" rx="140.0" ry="112.0" style="fill:none;stroke:var(--fig-blue);stroke-width:2.2"/>
+  <line x1="42.0" y1="175.0" x2="322.0" y2="175.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 3"/>
+  <line x1="182.0" y1="63.0" x2="182.0" y2="287.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 3"/>
+  <circle cx="266.0" cy="175.0" r="11.0" style="fill:var(--fig-amber)"/>
+  <text x="268.0" y="157.0" text-anchor="middle" class="uearth-10-kepler-laws-b">태양(초점)</text>
+  <circle cx="98.0" cy="175.0" r="3.5" style="fill:var(--fig-paper);stroke:var(--fig-muted);stroke-width:1.5"/>
+  <text x="98.0" y="165.0" text-anchor="middle" class="uearth-10-kepler-laws-n">빈 초점</text>
+  <circle cx="182.0" cy="175.0" r="2.5" style="fill:var(--fig-muted)"/>
+  <line x1="42.0" y1="199.0" x2="182.0" y2="199.0" style="stroke:var(--fig-ink);stroke-width:1.3"/>
+  <line x1="42.0" y1="194.0" x2="42.0" y2="204.0" style="stroke:var(--fig-ink);stroke-width:1.3"/>
+  <line x1="182.0" y1="194.0" x2="182.0" y2="204.0" style="stroke:var(--fig-ink);stroke-width:1.3"/>
+  <text x="112.0" y="216.0" text-anchor="middle" class="uearth-10-kepler-laws-b" style="fill:var(--fig-ink)">a (긴반지름)</text>
+  <text x="188.0" y="119.0" class="uearth-10-kepler-laws-b">b</text>
+  <line x1="182.0" y1="199.0" x2="266.0" y2="199.0" style="stroke:var(--fig-amber);stroke-width:1.3"/>
+  <line x1="182.0" y1="194.0" x2="182.0" y2="204.0" style="stroke:var(--fig-amber);stroke-width:1.3"/>
+  <line x1="266.0" y1="194.0" x2="266.0" y2="204.0" style="stroke:var(--fig-amber);stroke-width:1.3"/>
+  <text x="224.0" y="216.0" text-anchor="middle" class="uearth-10-kepler-laws-b" style="fill:var(--fig-amber)">ae</text>
+  <line x1="266.0" y1="131.0" x2="322.0" y2="131.0" style="stroke:var(--fig-red);stroke-width:1.3"/>
+  <line x1="266.0" y1="126.0" x2="266.0" y2="136.0" style="stroke:var(--fig-red);stroke-width:1.3"/>
+  <line x1="322.0" y1="126.0" x2="322.0" y2="136.0" style="stroke:var(--fig-red);stroke-width:1.3"/>
+  <text x="294.0" y="148.0" text-anchor="middle" class="uearth-10-kepler-laws-b" style="fill:var(--fig-red)"></text>
+  <line x1="42.0" y1="299.0" x2="266.0" y2="299.0" style="stroke:var(--fig-violet);stroke-width:1.3"/>
+  <line x1="42.0" y1="294.0" x2="42.0" y2="304.0" style="stroke:var(--fig-violet);stroke-width:1.3"/>
+  <line x1="266.0" y1="294.0" x2="266.0" y2="304.0" style="stroke:var(--fig-violet);stroke-width:1.3"/>
+  <text x="154.0" y="316.0" text-anchor="middle" class="uearth-10-kepler-laws-b" style="fill:var(--fig-violet)">Q = a(1 + e)  (원일점 거리)</text>
+  <circle cx="322.0" cy="175.0" r="6.0" style="fill:var(--fig-teal)"/>
+  <text x="324.0" y="197.0" text-anchor="middle" class="uearth-10-kepler-laws-s">근일점</text>
+  <circle cx="42.0" cy="175.0" r="6.0" style="fill:var(--fig-teal)"/>
+  <text x="40.0" y="163.0" text-anchor="middle" class="uearth-10-kepler-laws-s">원일점</text>
+  <text x="296.0" y="121.0" text-anchor="middle" class="uearth-10-kepler-laws-b" style="fill:var(--fig-red)">q = a(1 − e)</text>
+  <text x="540.0" y="26.0" text-anchor="middle" class="uearth-10-kepler-laws-h">제2법칙 — 같은 시간에 같은 넓이</text>
+  <path d="M611.0 172.0 L615.6 255.5 L619.1 253.1 L622.7 250.5 L626.1 247.8 L629.6 244.9 L633.0 241.8 L636.4 238.5 L639.6 235.0 L642.8 231.3 L645.9 227.4 L648.8 223.3 L651.6 219.0 L654.1 214.4 L656.5 209.7 L658.7 204.7 L660.5 199.6 L662.1 194.3 L663.3 188.8 L664.3 183.3 L664.8 177.7 L665.0 172.0 L664.8 166.3 L664.3 160.7 L663.3 155.2 L662.1 149.7 L660.5 144.4 L658.7 139.3 L656.5 134.3 L654.1 129.6 L651.6 125.0 L648.8 120.7 L645.9 116.6 L642.8 112.7 L639.6 109.0 L636.4 105.5 L633.0 102.2 L629.6 99.1 L626.1 96.2 L622.7 93.5 L619.1 90.9 L615.6 88.5 Z" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <path d="M611.0 172.0 L399.7 143.9 L399.2 145.2 L398.8 146.6 L398.4 148.0 L398.0 149.4 L397.6 150.8 L397.3 152.2 L397.0 153.6 L396.7 155.0 L396.4 156.4 L396.2 157.9 L395.9 159.3 L395.7 160.7 L395.6 162.1 L395.4 163.5 L395.3 164.9 L395.2 166.3 L395.1 167.7 L395.0 169.2 L395.0 170.6 L395.0 172.0 L395.0 173.4 L395.0 174.8 L395.1 176.3 L395.2 177.7 L395.3 179.1 L395.4 180.5 L395.6 181.9 L395.7 183.3 L395.9 184.7 L396.2 186.1 L396.4 187.6 L396.7 189.0 L397.0 190.4 L397.3 191.8 L397.6 193.2 L398.0 194.6 L398.4 196.0 L398.8 197.4 L399.2 198.8 L399.7 200.1 Z" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <ellipse cx="530.0" cy="172.0" rx="135.0" ry="108.0" style="fill:none;stroke:var(--fig-blue);stroke-width:2.2"/>
+  <circle cx="611.0" cy="172.0" r="11.0" style="fill:var(--fig-amber)"/>
+  <text x="609.0" y="202.0" text-anchor="middle" class="uearth-10-kepler-laws-b">태양</text>
+  <circle cx="615.6" cy="255.5" r="4.5" style="fill:var(--fig-teal)"/>
+  <circle cx="615.6" cy="88.5" r="5.5" style="fill:var(--fig-teal)"/>
+  <circle cx="399.7" cy="143.9" r="4.5" style="fill:var(--fig-teal)"/>
+  <circle cx="399.7" cy="200.1" r="5.5" style="fill:var(--fig-teal)"/>
+  <line x1="607.2" y1="83.4" x2="579.0" y2="71.4" style="stroke:var(--fig-ink);stroke-width:2" marker-end="url(#uearth-10-kepler-laws-arI)"/>
+  <line x1="400.8" y1="203.4" x2="405.9" y2="214.5" style="stroke:var(--fig-ink);stroke-width:2" marker-end="url(#uearth-10-kepler-laws-arI)"/>
+  <text x="669.0" y="102.0" text-anchor="middle" class="uearth-10-kepler-laws-b" style="fill:var(--fig-red)">빠르다</text>
+  <text x="669.0" y="118.0" text-anchor="middle" class="uearth-10-kepler-laws-n">(근일점 부근)</text>
+  <text x="425.0" y="106.0" text-anchor="middle" class="uearth-10-kepler-laws-b" style="fill:var(--fig-violet)">느리다</text>
+  <text x="425.0" y="122.0" text-anchor="middle" class="uearth-10-kepler-laws-n">(원일점 부근)</text>
+  <text x="540.0" y="310.0" text-anchor="middle" class="uearth-10-kepler-laws-b">두 부채꼴: 같은 시간 Δt, 같은 넓이 ΔA</text>
+  <text x="540.0" y="328.0" text-anchor="middle" class="uearth-10-kepler-laws-n">dA/dt = L/2m = 일정 (각운동량 보존)  →  q·v근 = Q·v원</text>
+  <text x="360.0" y="344.0" text-anchor="middle" class="uearth-10-kepler-laws-n">이심률 e = 0.6으로 과장한 모식도(지구 궤도는 e ≈ 0.017로 원과 거의 구별되지 않는다)</text>
+</svg>
