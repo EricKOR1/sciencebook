@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t-bio-1-energy-matter d-bio-1-energy-matter">
+  <title id="t-bio-1-energy-matter">그림 생명과학 1-5 에너지의 흐름과 탄소의 순환</title>
+  <desc id="d-bio-1-energy-matter">(가) 빛에너지가 생산자의 화학 에너지가 된 뒤 먹이 사슬을 따라 약 10%씩 다음 단계로 전달되고, 각 단계와 분해자에서 호흡으로 열이 되어 빠져나간다(에너지 값은 예시 상대값). (나) 탄소는 광합성으로 생산자에 고정되어 먹이 사슬을 따라 이동하고, 호흡·분해·연소로 다시 CO₂가 되어 순환한다. 모식도.</desc>
+  <style>
+    .b1em-lbl{font-size:13.5px;fill:var(--fig-ink)} .b1em-b{font-size:14.5px;font-weight:700;fill:var(--fig-ink)}
+    .b1em-sm{font-size:12.5px;fill:var(--fig-muted)} .b1em-lead{fill:none;stroke:var(--fig-muted);stroke-width:1.1}
+    .b1em-ink{fill:var(--fig-ink)} .b1em-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
+    
+  </style>
+  <rect x="8" y="8" width="346" height="404" rx="12" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.2"/>
+  <rect x="366" y="8" width="346" height="404" rx="12" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.2"/>
+  <text x="181.0" y="34.0" text-anchor="middle" class="b1em-b">(가) 에너지는 한 방향으로 흐른다</text>
+  <text x="539.0" y="34.0" text-anchor="middle" class="b1em-b">(나) 탄소는 생태계 안에서 순환한다</text>
+  <circle cx="54" cy="84" r="20" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2.5"/>
+  <line x1="80.0" y1="84.0" x2="87.0" y2="84.0" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="72.4" y1="102.4" x2="77.3" y2="107.3" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="54.0" y1="110.0" x2="54.0" y2="117.0" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="35.6" y1="102.4" x2="30.7" y2="107.3" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="28.0" y1="84.0" x2="21.0" y2="84.0" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="35.6" y1="65.6" x2="30.7" y2="60.7" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="54.0" y1="58.0" x2="54.0" y2="51.0" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="72.4" y1="65.6" x2="77.3" y2="60.7" style="stroke:var(--fig-amber);stroke-width:2"/>
+  <text x="54.0" y="132.0" text-anchor="middle" class="b1em-sm">빛에너지</text>
+  <rect x="110" y="92" width="150" height="46" rx="8" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+  <text x="185.0" y="112.0" text-anchor="middle" class="b1em-b">생산자</text>
+  <text x="185.0" y="130.0" text-anchor="middle" class="b1em-sm">에너지 1000</text>
+  <line x1="264.0" y1="115.0" x2="309.0" y2="115.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.2"/>
+  <path d="M318.0 115.0 L309.0 119.5 L309.0 110.5 Z" style="fill:var(--fig-red)"/>
+  <text x="322.0" y="120.0" class="b1em-lbl" style="fill:var(--fig-red);font-weight:700">열</text>
+  <line x1="150.0" y1="140.0" x2="150.0" y2="173.0" style="fill:none;stroke:var(--fig-green);stroke-width:2.6"/>
+  <path d="M150.0 182.0 L145.5 173.0 L154.5 173.0 Z" style="fill:var(--fig-green)"/>
+  <text x="158.0" y="164.0" class="b1em-sm">먹이로 약 10%</text>
+  <rect x="110" y="184" width="120" height="46" rx="8" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+  <text x="170.0" y="204.0" text-anchor="middle" class="b1em-b">1차 소비자</text>
+  <text x="170.0" y="222.0" text-anchor="middle" class="b1em-sm">에너지 100</text>
+  <line x1="234.0" y1="207.0" x2="309.0" y2="207.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.2"/>
+  <path d="M318.0 207.0 L309.0 211.5 L309.0 202.5 Z" style="fill:var(--fig-red)"/>
+  <text x="322.0" y="212.0" class="b1em-lbl" style="fill:var(--fig-red);font-weight:700">열</text>
+  <line x1="150.0" y1="232.0" x2="150.0" y2="265.0" style="fill:none;stroke:var(--fig-green);stroke-width:2.6"/>
+  <path d="M150.0 274.0 L145.5 265.0 L154.5 265.0 Z" style="fill:var(--fig-green)"/>
+  <text x="158.0" y="256.0" class="b1em-sm">먹이로 약 10%</text>
+  <rect x="110" y="276" width="90" height="46" rx="8" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+  <text x="155.0" y="296.0" text-anchor="middle" class="b1em-b">2차 소비자</text>
+  <text x="155.0" y="314.0" text-anchor="middle" class="b1em-sm">에너지 10</text>
+  <line x1="204.0" y1="299.0" x2="309.0" y2="299.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.2"/>
+  <path d="M318.0 299.0 L309.0 303.5 L309.0 294.5 Z" style="fill:var(--fig-red)"/>
+  <text x="322.0" y="304.0" class="b1em-lbl" style="fill:var(--fig-red);font-weight:700">열</text>
+  <line x1="78.0" y1="98.0" x2="99.8" y2="108.2" style="fill:none;stroke:var(--fig-amber);stroke-width:2.4"/>
+  <path d="M108.0 112.0 L97.9 112.3 L101.7 104.1 Z" style="fill:var(--fig-amber)"/>
+  <text x="318.0" y="92.0" text-anchor="end" class="b1em-sm">호흡</text>
+  <rect x="40" y="350" width="150" height="40" rx="8" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2"/>
+  <text x="115.0" y="375.0" text-anchor="middle" class="b1em-b">분해자</text>
+  <line x1="104.0" y1="140.0" x2="67.6" y2="336.2" style="fill:none;stroke:var(--fig-teal);stroke-width:1.8;stroke-dasharray:5 4"/>
+  <path d="M66.0 345.0 L63.2 335.3 L72.1 337.0 Z" style="fill:var(--fig-teal)"/>
+  <text x="30.0" y="250.0" class="b1em-sm">사체·</text>
+  <text x="30.0" y="266.0" class="b1em-sm">배설물</text>
+  <line x1="194.0" y1="370.0" x2="309.0" y2="370.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.2"/>
+  <path d="M318.0 370.0 L309.0 374.5 L309.0 365.5 Z" style="fill:var(--fig-red)"/>
+  <text x="322.0" y="375.0" class="b1em-lbl" style="fill:var(--fig-red);font-weight:700">열</text>
+  <text x="181.0" y="404.0" text-anchor="middle" class="b1em-sm">열은 생산자가 다시 쓸 수 없어 생태계 밖으로 나간다</text>
+  <rect x="475.0" y="62" width="128" height="40" rx="8" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="539.0" y="87.0" text-anchor="middle" class="b1em-b">대기·물의 CO₂</text>
+  <rect x="604.0" y="180" width="92" height="40" rx="8" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+  <text x="650.0" y="205.0" text-anchor="middle" class="b1em-b">생산자</text>
+  <rect x="493.0" y="298" width="92" height="40" rx="8" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+  <text x="539.0" y="323.0" text-anchor="middle" class="b1em-b">소비자</text>
+  <rect x="382.0" y="180" width="92" height="40" rx="8" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2"/>
+  <text x="428.0" y="205.0" text-anchor="middle" class="b1em-b">분해자</text>
+  <line x1="605.0" y1="102.0" x2="636.2" y2="169.8" style="fill:none;stroke:var(--fig-green);stroke-width:2.4"/>
+  <path d="M640.0 178.0 L632.1 171.7 L640.3 167.9 Z" style="fill:var(--fig-green)"/>
+  <text x="632.0" y="132.0" class="b1em-lbl">광합성</text>
+  <line x1="640.0" y1="222.0" x2="585.5" y2="292.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.2"/>
+  <path d="M580.0 300.0 L581.9 290.1 L589.1 295.6 Z" style="fill:var(--fig-ink)"/>
+  <text x="626.0" y="278.0" class="b1em-lbl">먹이 사슬</text>
+  <line x1="500.0" y1="304.0" x2="450.9" y2="229.5" style="fill:none;stroke:var(--fig-ink);stroke-width:2.2"/>
+  <path d="M446.0 222.0 L454.7 227.0 L447.2 232.0 Z" style="fill:var(--fig-ink)"/>
+  <text x="412.0" y="282.0" class="b1em-lbl">사체·배설물</text>
+  <line x1="636.0" y1="180.0" x2="508.4" y2="226.9" style="fill:none;stroke:var(--fig-ink);stroke-width:1.6;stroke-dasharray:5 4"/>
+  <path d="M500.0 230.0 L506.9 222.7 L510.0 231.1 Z" style="fill:var(--fig-ink)"/>
+  <text x="560.0" y="218.0" text-anchor="middle" class="b1em-sm">낙엽·사체</text>
+  <line x1="436.0" y1="178.0" x2="484.7" y2="111.3" style="fill:none;stroke:var(--fig-red);stroke-width:2.2"/>
+  <path d="M490.0 104.0 L488.3 113.9 L481.1 108.6 Z" style="fill:var(--fig-red)"/>
+  <text x="384.0" y="130.0" class="b1em-lbl" style="fill:var(--fig-red)">분해</text>
+  <line x1="539.0" y1="296.0" x2="539.0" y2="113.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.2"/>
+  <path d="M539.0 104.0 L543.5 113.0 L534.5 113.0 Z" style="fill:var(--fig-red)"/>
+  <text x="546.0" y="160.0" class="b1em-lbl" style="fill:var(--fig-red)">호흡</text>
+  <line x1="682.0" y1="178.0" x2="623.5" y2="103.1" style="fill:none;stroke:var(--fig-red);stroke-width:1.8;stroke-dasharray:4 3"/>
+  <path d="M618.0 96.0 L627.1 100.3 L620.0 105.9 Z" style="fill:var(--fig-red)"/>
+  <text x="686.0" y="128.0" text-anchor="end" class="b1em-sm">호흡</text>
+  <rect x="390" y="352" width="120" height="34" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="450.0" y="374.0" text-anchor="middle" class="b1em-lbl">화석 연료</text>
+  <line x1="452.0" y1="350.0" x2="517.6" y2="112.7" style="fill:none;stroke:var(--fig-red);stroke-width:1.6;stroke-dasharray:4 3"/>
+  <path d="M520.0 104.0 L521.9 113.9 L513.3 111.5 Z" style="fill:var(--fig-red)"/>
+  <text x="468.0" y="342.0" class="b1em-sm">연소</text>
+  <text x="539.0" y="404.0" text-anchor="middle" class="b1em-sm">물질은 무기물 ↔ 유기물로 형태를 바꾸며 되돌아온다</text>
+
+</svg>

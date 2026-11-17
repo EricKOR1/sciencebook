@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 444" role="img" aria-labelledby="t-6-1-transmission-tree d-6-1-transmission-tree">
+  <title id="t-6-1-transmission-tree">그림 6-1-4 감염시키는 수가 1보다 큰가 작은가</title>
+  <desc id="d-6-1-transmission-tree">왼쪽은 감염자 1명이 평균 2명을 감염시켜 세대마다 1, 2, 4, 8명으로 늘어나는 경우이고, 오른쪽은 추적·격리로 절반의 감염자가 아무도 감염시키지 못해 평균 0.5명이 되어 8, 4, 2, 1명으로 줄어드는 경우이다. 모식도이다.</desc>
+  <defs>
+    <marker id="f61tt-arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" style="fill:var(--fig-ink)"/></marker>
+  </defs>
+  <style>
+    .f61tt-h{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .f61tt-t{font-size:13px;fill:var(--fig-ink)}
+    .f61tt-s{font-size:12px;fill:var(--fig-muted)}
+    .f61tt-ln{fill:none;stroke:var(--fig-line);stroke-width:1.5}
+    .f61tt-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.5}
+    .f61tt-ar{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
+    .f61tt-box{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2}
+  </style>
+  <rect x="20" y="14" width="330" height="352" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.2"/>
+  <text x="185.0" y="38.0" text-anchor="middle" class="f61tt-h">대책이 없을 때</text>
+  <text x="185.0" y="58.0" text-anchor="middle" class="f61tt-s">감염자 1명이 평균 2명을 감염시킴</text>
+  <text x="30.0" y="100.0" text-anchor="start" class="f61tt-s">0세대</text>
+  <text x="30.0" y="174.0" text-anchor="start" class="f61tt-s">1세대</text>
+  <text x="30.0" y="248.0" text-anchor="start" class="f61tt-s">2세대</text>
+  <text x="30.0" y="322.0" text-anchor="start" class="f61tt-s">3세대</text>
+  <rect x="370" y="14" width="330" height="352" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.2"/>
+  <text x="535.0" y="38.0" text-anchor="middle" class="f61tt-h">접촉자 추적·격리를 할 때</text>
+  <text x="535.0" y="58.0" text-anchor="middle" class="f61tt-s">감염자 1명이 평균 0.5명을 감염시킴</text>
+  <text x="380.0" y="100.0" text-anchor="start" class="f61tt-s">0세대</text>
+  <text x="380.0" y="174.0" text-anchor="start" class="f61tt-s">1세대</text>
+  <text x="380.0" y="248.0" text-anchor="start" class="f61tt-s">2세대</text>
+  <text x="380.0" y="322.0" text-anchor="start" class="f61tt-s">3세대</text>
+  <line x1="207.5" y1="107" x2="141.2" y2="159" style="stroke:var(--fig-muted);stroke-width:1.6"/>
+  <line x1="207.5" y1="107" x2="273.8" y2="159" style="stroke:var(--fig-muted);stroke-width:1.6"/>
+  <line x1="141.2" y1="181" x2="108.1" y2="233" style="stroke:var(--fig-muted);stroke-width:1.6"/>
+  <line x1="141.2" y1="181" x2="174.4" y2="233" style="stroke:var(--fig-muted);stroke-width:1.6"/>
+  <line x1="273.8" y1="181" x2="240.6" y2="233" style="stroke:var(--fig-muted);stroke-width:1.6"/>
+  <line x1="273.8" y1="181" x2="306.9" y2="233" style="stroke:var(--fig-muted);stroke-width:1.6"/>
+  <line x1="108.1" y1="255" x2="91.6" y2="307" style="stroke:var(--fig-muted);stroke-width:1.6"/>
+  <line x1="108.1" y1="255" x2="124.7" y2="307" style="stroke:var(--fig-muted);stroke-width:1.6"/>
+  <line x1="174.4" y1="255" x2="157.8" y2="307" style="stroke:var(--fig-muted);stroke-width:1.6"/>
+  <line x1="174.4" y1="255" x2="190.9" y2="307" style="stroke:var(--fig-muted);stroke-width:1.6"/>
+  <line x1="240.6" y1="255" x2="224.1" y2="307" style="stroke:var(--fig-muted);stroke-width:1.6"/>
+  <line x1="240.6" y1="255" x2="257.2" y2="307" style="stroke:var(--fig-muted);stroke-width:1.6"/>
+  <line x1="306.9" y1="255" x2="290.3" y2="307" style="stroke:var(--fig-muted);stroke-width:1.6"/>
+  <line x1="306.9" y1="255" x2="323.4" y2="307" style="stroke:var(--fig-muted);stroke-width:1.6"/>
+  <circle cx="207.5" cy="96" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <circle cx="141.2" cy="170" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <circle cx="273.8" cy="170" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <circle cx="108.1" cy="244" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <circle cx="174.4" cy="244" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <circle cx="240.6" cy="244" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <circle cx="306.9" cy="244" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <circle cx="91.6" cy="318" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <circle cx="124.7" cy="318" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <circle cx="157.8" cy="318" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <circle cx="190.9" cy="318" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <circle cx="224.1" cy="318" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <circle cx="257.2" cy="318" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <circle cx="290.3" cy="318" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <circle cx="323.4" cy="318" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <line x1="441.6" y1="107" x2="458.1" y2="159" style="stroke:var(--fig-muted);stroke-width:1.6"/>
+  <line x1="507.8" y1="107" x2="524.4" y2="159" style="stroke:var(--fig-muted);stroke-width:1.6"/>
+  <line x1="574.1" y1="107" x2="590.6" y2="159" style="stroke:var(--fig-muted);stroke-width:1.6"/>
+  <line x1="640.3" y1="107" x2="656.9" y2="159" style="stroke:var(--fig-muted);stroke-width:1.6"/>
+  <line x1="458.1" y1="181" x2="491.2" y2="233" style="stroke:var(--fig-muted);stroke-width:1.6"/>
+  <line x1="590.6" y1="181" x2="623.8" y2="233" style="stroke:var(--fig-muted);stroke-width:1.6"/>
+  <line x1="491.2" y1="255" x2="557.5" y2="307" style="stroke:var(--fig-muted);stroke-width:1.6"/>
+  <circle cx="441.6" cy="96" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <rect x="459.7" y="81" width="30" height="30" rx="5" style="fill:none;stroke:var(--fig-green);stroke-width:2.2"/>
+  <circle cx="474.7" cy="96" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <circle cx="507.8" cy="96" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <rect x="525.9" y="81" width="30" height="30" rx="5" style="fill:none;stroke:var(--fig-green);stroke-width:2.2"/>
+  <circle cx="540.9" cy="96" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <circle cx="574.1" cy="96" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <rect x="592.2" y="81" width="30" height="30" rx="5" style="fill:none;stroke:var(--fig-green);stroke-width:2.2"/>
+  <circle cx="607.2" cy="96" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <circle cx="640.3" cy="96" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <rect x="658.4" y="81" width="30" height="30" rx="5" style="fill:none;stroke:var(--fig-green);stroke-width:2.2"/>
+  <circle cx="673.4" cy="96" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <circle cx="458.1" cy="170" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <rect x="509.4" y="155" width="30" height="30" rx="5" style="fill:none;stroke:var(--fig-green);stroke-width:2.2"/>
+  <circle cx="524.4" cy="170" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <circle cx="590.6" cy="170" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <rect x="641.9" y="155" width="30" height="30" rx="5" style="fill:none;stroke:var(--fig-green);stroke-width:2.2"/>
+  <circle cx="656.9" cy="170" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <circle cx="491.2" cy="244" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <rect x="608.8" y="229" width="30" height="30" rx="5" style="fill:none;stroke:var(--fig-green);stroke-width:2.2"/>
+  <circle cx="623.8" cy="244" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <circle cx="557.5" cy="318" r="10" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <text x="185.0" y="352.0" text-anchor="middle" class="f61tt-t" style="fill:var(--fig-red);font-weight:600">새 감염자 1 → 2 → 4 → 8 (늘어남)</text>
+  <text x="535.0" y="352.0" text-anchor="middle" class="f61tt-t" style="fill:var(--fig-green);font-weight:600">새 감염자 8 → 4 → 2 → 1 (줄어듦)</text>
+  <circle cx="40" cy="392" r="9" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <text x="56.0" y="397.0" text-anchor="start" class="f61tt-t">감염자</text>
+  <line x1="120" y1="392" x2="150" y2="392" style="stroke:var(--fig-muted);stroke-width:1.6"/>
+  <text x="158.0" y="397.0" text-anchor="start" class="f61tt-t">감염시킴</text>
+  <rect x="240" y="379" width="26" height="26" rx="5" style="fill:none;stroke:var(--fig-green);stroke-width:2.2"/>
+  <text x="274.0" y="397.0" text-anchor="start" class="f61tt-t">빨리 찾아 격리 → 아무도 감염시키지 못함</text>
+  <text x="360.0" y="428.0" text-anchor="middle" class="f61tt-h">감염시키는 수가 1보다 크면 세대마다 늘고, 1보다 작으면 세대마다 줄어든다.</text>
+
+</svg>

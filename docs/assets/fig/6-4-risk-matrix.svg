@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-labelledby="t-6-4-risk-matrix d-6-4-risk-matrix">
+  <title id="t-6-4-risk-matrix">그림 6-4-3 위험의 두 축 — 가능성과 피해의 크기</title>
+  <desc id="d-6-4-risk-matrix">가로축은 일어날 가능성, 세로축은 피해의 크기이다. 드물지만 피해가 엄청난 대형 사고와 잦지만 피해가 작은 불편은 가능성과 피해를 곱한 값이 같은 선 위에 있어도 성격이 다른 위험이다. 새로운 기술은 가능성 자체를 정확히 몰라 넓은 범위(불확실성)로 나타난다. 위치는 모식도이다.</desc>
+  <defs>
+    <marker id="f64rm-arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" style="fill:var(--fig-ink)"/></marker>
+  </defs>
+  <style>
+    .f64rm-h{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .f64rm-t{font-size:13px;fill:var(--fig-ink)}
+    .f64rm-s{font-size:12px;fill:var(--fig-muted)}
+    .f64rm-ln{fill:none;stroke:var(--fig-line);stroke-width:1.5}
+    .f64rm-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.5}
+    .f64rm-ar{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
+    .f64rm-box{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2}
+  </style>
+  <rect x="90.0" y="185.0" width="205.0" height="145.0" style="fill:var(--fig-soft-green);fill-opacity:0.6"/>
+  <rect x="295.0" y="185.0" width="205.0" height="145.0" style="fill:var(--fig-soft-amber);fill-opacity:0.6"/>
+  <rect x="90.0" y="40.0" width="205.0" height="145.0" style="fill:var(--fig-soft-amber);fill-opacity:0.6"/>
+  <rect x="295.0" y="40.0" width="205.0" height="145.0" style="fill:var(--fig-soft-red);fill-opacity:0.6"/>
+  <line x1="90" y1="330" x2="512" y2="330" class="f64rm-ax" marker-end="url(#f64rm-arw)"/>
+  <line x1="90" y1="330" x2="90" y2="28" class="f64rm-ax" marker-end="url(#f64rm-arw)"/>
+  <text x="295.0" y="356.0" text-anchor="middle" class="f64rm-t">일어날 가능성 (낮음 → 높음)</text>
+  <text x="0" y="0" transform="translate(50 185.0) rotate(-90)" text-anchor="middle" class="f64rm-t">피해의 크기 (작음 → 큼)</text>
+  <polyline points="124.8,57.1 128.4,82.3 131.9,103.2 135.5,120.9 139.0,136.0 142.6,149.1 146.1,160.5 149.7,170.6 153.2,179.5 156.8,187.5 160.3,194.7 163.9,201.2 167.4,207.1 171.0,212.5 174.5,217.4 178.0,222.0 181.6,226.2 185.1,230.0 188.7,233.6 192.2,237.0 195.8,240.1 199.3,243.0 202.9,245.7 206.4,248.3 210.0,250.7 213.5,253.0 217.1,255.1 220.6,257.2 224.2,259.1 227.7,260.9 231.2,262.7 234.8,264.3 238.3,265.9 241.9,267.4 245.4,268.8 249.0,270.2 252.5,271.5 256.1,272.7 259.6,273.9 263.2,275.1 266.7,276.2 270.3,277.2 273.8,278.2 277.3,279.2 280.9,280.2 284.4,281.1 288.0,282.0 291.5,282.8 295.1,283.6 298.6,284.4 302.2,285.2 305.7,285.9 309.3,286.6 312.8,287.3 316.4,288.0 319.9,288.6 323.5,289.3 327.0,289.9 330.5,290.5 334.1,291.0 337.6,291.6 341.2,292.1 344.7,292.7 348.3,293.2 351.8,293.7 355.4,294.2 358.9,294.6 362.5,295.1 366.0,295.5 369.6,296.0 373.1,296.4 376.7,296.8 380.2,297.2 383.7,297.6 387.3,298.0 390.8,298.4 394.4,298.8 397.9,299.1 401.5,299.5 405.0,299.8 408.6,300.1 412.1,300.5 415.7,300.8 419.2,301.1 422.8,301.4 426.3,301.7 429.8,302.0 433.4,302.3 436.9,302.6 440.5,302.9 444.0,303.1 447.6,303.4 451.1,303.7 454.7,303.9 458.2,304.2 461.8,304.4 465.3,304.7 468.9,304.9 472.4,305.1 476.0,305.4 479.5,305.6" style="fill:none;stroke:var(--fig-muted);stroke-width:1.6;stroke-dasharray:6 4"/>
+  <text x="315.5" y="274.9" text-anchor="start" class="f64rm-s">가능성 × 피해가 같은 선</text>
+  <ellipse cx="262.2" cy="150.2" rx="131.2" ry="20" style="fill:var(--fig-soft-violet);fill-opacity:0.55;stroke:var(--fig-violet);stroke-width:1.8;stroke-dasharray:5 4"/>
+  <text x="262.2" y="147.2" text-anchor="middle" class="f64rm-t">새로운 기술</text>
+  <text x="262.2" y="163.2" text-anchor="middle" class="f64rm-s" style="fill:var(--fig-ink)">가능성을 정확히 모름(불확실성)</text>
+  <circle cx="131.0" cy="98.0" r="7" style="fill:var(--fig-red);stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="143.0" y="92.0" text-anchor="start" class="f64rm-h">대형 사고</text>
+  <text x="143.0" y="110.0" text-anchor="start" class="f64rm-s">드물지만 피해가 엄청남</text>
+  <circle cx="418.0" cy="301.0" r="7" style="fill:var(--fig-red);stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="406.0" y="295.0" text-anchor="end" class="f64rm-h">작은 불편</text>
+  <text x="406.0" y="313.0" text-anchor="end" class="f64rm-s">잦지만 피해가 작음</text>
+  <text x="528.0" y="60.0" text-anchor="start" class="f64rm-h">위험의 크기 ≈</text>
+  <text x="528.0" y="80.0" text-anchor="start" class="f64rm-h">가능성 × 피해의 크기</text>
+  <text x="528.0" y="116.0" text-anchor="start" class="f64rm-t">두 빨간 점은 곱이 같아도</text>
+  <text x="528.0" y="135.0" text-anchor="start" class="f64rm-t">성격이 전혀 다른 위험이다.</text>
+  <text x="528.0" y="173.0" text-anchor="start" class="f64rm-t">· 드문 대형 사고는 넓고</text>
+  <text x="528.0" y="192.0" text-anchor="start" class="f64rm-t">  오래가며 되돌리기 어렵다.</text>
+  <text x="528.0" y="211.0" text-anchor="start" class="f64rm-t">· 새 기술은 데이터가 부족해</text>
+  <text x="528.0" y="230.0" text-anchor="start" class="f64rm-t">  가능성 자체가 불확실하다.</text>
+  <text x="528.0" y="249.0" text-anchor="start" class="f64rm-t">· 스스로 고른 위험보다 남이</text>
+  <text x="528.0" y="268.0" text-anchor="start" class="f64rm-t">  정한 위험을 더 크게 느낀다.</text>
+  <text x="528.0" y="306.0" text-anchor="start" class="f64rm-t">→ 곱한 값 하나로만 비교하기</text>
+  <text x="528.0" y="325.0" text-anchor="start" class="f64rm-t">   어렵다.</text>
+
+</svg>

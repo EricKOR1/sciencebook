@@ -293,7 +293,201 @@
 </tbody></table></div>
 <h4 id="인공-신경망과-딥러닝">인공 신경망과 딥러닝</h4>
 <p>중학교에서 배운 <strong>뉴런</strong>은 여러 신호를 받아 일정 기준을 넘으면 다음 뉴런으로 신호를 전달한다. <strong>인공 신경망</strong>은 이를 본떠 여러 입력값에 각각 가중치(중요도)를 곱해 더하고, 그 결과에 따라 다음 단계로 값을 넘기는 계산 단위를 층층이 연결한 것이다. 층을 깊게 쌓은 인공 신경망으로 학습하는 것을 <strong>딥러닝(deep learning)</strong> 이라 한다. 인공 신경망 연구의 기초를 놓은 공로로 2024년 노벨 물리학상이 수여되었다.</p>
+<figure class="fig" id="fig-6-3-artificial-neuron"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 458" role="img" aria-labelledby="t-6-3-artificial-neuron d-6-3-artificial-neuron">
+  <title id="t-6-3-artificial-neuron">그림 6-3-3 뉴런과 인공 뉴런, 그리고 인공 신경망</title>
+  <desc id="d-6-3-artificial-neuron">뉴런은 여러 신호를 받아 기준을 넘으면 다음 뉴런으로 전달한다. 인공 뉴런은 입력값에 가중치를 곱해 더한 값(예: 0.6+0+0.5=1.1)을 기준(1.0)과 비교해 다음 단계로 값을 넘긴다. 이런 계산 단위를 층층이 연결한 것이 인공 신경망이며, 층을 깊게 쌓아 학습하면 딥러닝이다. 모식도이다.</desc>
+  <defs>
+    <marker id="f63an-arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" style="fill:var(--fig-ink)"/></marker>
+  </defs>
+  <style>
+    .f63an-h{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .f63an-t{font-size:13px;fill:var(--fig-ink)}
+    .f63an-s{font-size:12px;fill:var(--fig-muted)}
+    .f63an-ln{fill:none;stroke:var(--fig-line);stroke-width:1.5}
+    .f63an-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.5}
+    .f63an-ar{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
+    .f63an-box{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2}
+  </style>
+  <rect x="16" y="14" width="320" height="230" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.2"/>
+  <rect x="352" y="14" width="352" height="230" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.2"/>
+  <text x="176.0" y="38.0" text-anchor="middle" class="f63an-h">① 뉴런(신경 세포)</text>
+  <text x="528.0" y="38.0" text-anchor="middle" class="f63an-h">② 인공 뉴런(계산 단위)</text>
+  <line x1="100.0" y1="130.0" x2="58.4" y2="106.0" style="stroke:var(--fig-violet);stroke-width:2.2"/>
+  <line x1="58.4" y1="106.0" x2="50.4" y2="94.5" style="stroke:var(--fig-violet);stroke-width:1.6"/>
+  <line x1="58.4" y1="106.0" x2="44.5" y2="104.8" style="stroke:var(--fig-violet);stroke-width:1.6"/>
+  <line x1="100.0" y1="130.0" x2="52.0" y2="130.0" style="stroke:var(--fig-violet);stroke-width:2.2"/>
+  <line x1="52.0" y1="130.0" x2="39.3" y2="124.1" style="stroke:var(--fig-violet);stroke-width:1.6"/>
+  <line x1="52.0" y1="130.0" x2="39.3" y2="135.9" style="stroke:var(--fig-violet);stroke-width:1.6"/>
+  <line x1="100.0" y1="130.0" x2="58.4" y2="154.0" style="stroke:var(--fig-violet);stroke-width:2.2"/>
+  <line x1="58.4" y1="154.0" x2="44.5" y2="155.2" style="stroke:var(--fig-violet);stroke-width:1.6"/>
+  <line x1="58.4" y1="154.0" x2="50.4" y2="165.5" style="stroke:var(--fig-violet);stroke-width:1.6"/>
+  <line x1="100.0" y1="130.0" x2="76.0" y2="88.4" style="stroke:var(--fig-violet);stroke-width:2.2"/>
+  <line x1="76.0" y1="88.4" x2="74.8" y2="74.5" style="stroke:var(--fig-violet);stroke-width:1.6"/>
+  <line x1="76.0" y1="88.4" x2="64.5" y2="80.4" style="stroke:var(--fig-violet);stroke-width:1.6"/>
+  <line x1="100.0" y1="130.0" x2="76.0" y2="171.6" style="stroke:var(--fig-violet);stroke-width:2.2"/>
+  <line x1="76.0" y1="171.6" x2="64.5" y2="179.6" style="stroke:var(--fig-violet);stroke-width:1.6"/>
+  <line x1="76.0" y1="171.6" x2="74.8" y2="185.5" style="stroke:var(--fig-violet);stroke-width:1.6"/>
+  <path d="M120 130 L270 130" style="fill:none;stroke:var(--fig-violet);stroke-width:3"/>
+  <rect x="140" y="124" width="22" height="12" rx="6" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1"/>
+  <rect x="170" y="124" width="22" height="12" rx="6" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1"/>
+  <rect x="200" y="124" width="22" height="12" rx="6" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1"/>
+  <rect x="230" y="124" width="22" height="12" rx="6" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1"/>
+  <line x1="270" y1="130" x2="290" y2="116" style="stroke:var(--fig-violet);stroke-width:2"/>
+  <line x1="270" y1="130" x2="290" y2="130" style="stroke:var(--fig-violet);stroke-width:2"/>
+  <line x1="270" y1="130" x2="290" y2="144" style="stroke:var(--fig-violet);stroke-width:2"/>
+  <circle cx="100" cy="130" r="22" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <text x="56.0" y="74.0" text-anchor="start" class="f63an-s">가지 돌기: 신호를 받음</text>
+  <text x="100.0" y="176.0" text-anchor="middle" class="f63an-s">신경 세포체</text>
+  <text x="160.0" y="114.0" text-anchor="start" class="f63an-s">축삭 돌기: 신호 전달</text>
+  <text x="176.0" y="210.0" text-anchor="middle" class="f63an-t">여러 신호를 받아 일정 기준을</text>
+  <text x="176.0" y="228.0" text-anchor="middle" class="f63an-t">넘으면 다음 뉴런으로 전달</text>
+  <circle cx="390" cy="70" r="17" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="390.0" y="75.0" text-anchor="middle" class="f63an-t">1</text>
+  <line x1="408.0" y1="70.0" x2="516.0" y2="115.0" class="f63an-ar" marker-end="url(#f63an-arw)"/>
+  <text x="462.0" y="86.5" text-anchor="middle" class="f63an-t" style="fill:var(--fig-amber);font-weight:600">×0.6</text>
+  <circle cx="390" cy="130" r="17" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="390.0" y="135.0" text-anchor="middle" class="f63an-t">0</text>
+  <line x1="408.0" y1="130.0" x2="516.0" y2="130.0" class="f63an-ar" marker-end="url(#f63an-arw)"/>
+  <text x="462.0" y="124.0" text-anchor="middle" class="f63an-t" style="fill:var(--fig-amber);font-weight:600">×0.2</text>
+  <circle cx="390" cy="190" r="17" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="390.0" y="195.0" text-anchor="middle" class="f63an-t">1</text>
+  <line x1="408.0" y1="190.0" x2="516.0" y2="145.0" class="f63an-ar" marker-end="url(#f63an-arw)"/>
+  <text x="462.0" y="161.5" text-anchor="middle" class="f63an-t" style="fill:var(--fig-amber);font-weight:600">×0.5</text>
+  <text x="390.0" y="228.0" text-anchor="middle" class="f63an-s">입력값</text>
+  <circle cx="540" cy="130" r="22" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <text x="540.0" y="136.0" text-anchor="middle" class="f63an-s" style="font-size:11.5px;fill:var(--fig-ink)">더하기</text>
+  <text x="540.0" y="170.0" text-anchor="middle" class="f63an-s">0.6+0+0.5</text>
+  <text x="540.0" y="186.0" text-anchor="middle" class="f63an-s">= 1.1</text>
+  <line x1="564.0" y1="130.0" x2="590.0" y2="130.0" class="f63an-ar" marker-end="url(#f63an-arw)"/>
+  <rect x="592" y="96" width="102" height="68" rx="6" class="f63an-box"/>
+  <text x="643.0" y="118.0" text-anchor="middle" class="f63an-t">기준 1.0과</text>
+  <text x="643.0" y="136.0" text-anchor="middle" class="f63an-t">비교</text>
+  <text x="643.0" y="155.0" text-anchor="middle" class="f63an-s">1.1 &gt; 1.0</text>
+  <line x1="643.0" y1="166.0" x2="643.0" y2="200.0" class="f63an-ar" marker-end="url(#f63an-arw)"/>
+  <text x="643.0" y="218.0" text-anchor="middle" class="f63an-s">다음 단계로 값을</text>
+  <text x="643.0" y="234.0" text-anchor="middle" class="f63an-s">넘김</text>
+  <text x="470.0" y="60.0" text-anchor="middle" class="f63an-s" style="fill:var(--fig-amber)">가중치(중요도)를 곱함</text>
+  <text x="360.0" y="276.0" text-anchor="middle" class="f63an-h">③ 계산 단위를 층층이 연결 — 층을 깊게 쌓아 학습하면 딥러닝</text>
+  <line x1="150" y1="330.0" x2="255" y2="300.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="150" y1="330.0" x2="255" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="150" y1="330.0" x2="255" y2="360.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="150" y1="330.0" x2="255" y2="390.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="150" y1="330.0" x2="255" y2="420.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="150" y1="360.0" x2="255" y2="300.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="150" y1="360.0" x2="255" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="150" y1="360.0" x2="255" y2="360.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="150" y1="360.0" x2="255" y2="390.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="150" y1="360.0" x2="255" y2="420.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="150" y1="390.0" x2="255" y2="300.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="150" y1="390.0" x2="255" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="150" y1="390.0" x2="255" y2="360.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="150" y1="390.0" x2="255" y2="390.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="150" y1="390.0" x2="255" y2="420.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="255" y1="300.0" x2="360" y2="300.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="255" y1="300.0" x2="360" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="255" y1="300.0" x2="360" y2="360.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="255" y1="300.0" x2="360" y2="390.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="255" y1="300.0" x2="360" y2="420.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="255" y1="330.0" x2="360" y2="300.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="255" y1="330.0" x2="360" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="255" y1="330.0" x2="360" y2="360.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="255" y1="330.0" x2="360" y2="390.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="255" y1="330.0" x2="360" y2="420.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="255" y1="360.0" x2="360" y2="300.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="255" y1="360.0" x2="360" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="255" y1="360.0" x2="360" y2="360.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="255" y1="360.0" x2="360" y2="390.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="255" y1="360.0" x2="360" y2="420.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="255" y1="390.0" x2="360" y2="300.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="255" y1="390.0" x2="360" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="255" y1="390.0" x2="360" y2="360.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="255" y1="390.0" x2="360" y2="390.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="255" y1="390.0" x2="360" y2="420.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="255" y1="420.0" x2="360" y2="300.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="255" y1="420.0" x2="360" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="255" y1="420.0" x2="360" y2="360.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="255" y1="420.0" x2="360" y2="390.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="255" y1="420.0" x2="360" y2="420.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="360" y1="300.0" x2="465" y2="300.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="360" y1="300.0" x2="465" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="360" y1="300.0" x2="465" y2="360.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="360" y1="300.0" x2="465" y2="390.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="360" y1="300.0" x2="465" y2="420.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="360" y1="330.0" x2="465" y2="300.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="360" y1="330.0" x2="465" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="360" y1="330.0" x2="465" y2="360.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="360" y1="330.0" x2="465" y2="390.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="360" y1="330.0" x2="465" y2="420.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="360" y1="360.0" x2="465" y2="300.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="360" y1="360.0" x2="465" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="360" y1="360.0" x2="465" y2="360.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="360" y1="360.0" x2="465" y2="390.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="360" y1="360.0" x2="465" y2="420.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="360" y1="390.0" x2="465" y2="300.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="360" y1="390.0" x2="465" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="360" y1="390.0" x2="465" y2="360.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="360" y1="390.0" x2="465" y2="390.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="360" y1="390.0" x2="465" y2="420.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="360" y1="420.0" x2="465" y2="300.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="360" y1="420.0" x2="465" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="360" y1="420.0" x2="465" y2="360.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="360" y1="420.0" x2="465" y2="390.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="360" y1="420.0" x2="465" y2="420.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="465" y1="300.0" x2="570" y2="345.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="465" y1="300.0" x2="570" y2="375.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="465" y1="330.0" x2="570" y2="345.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="465" y1="330.0" x2="570" y2="375.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="465" y1="360.0" x2="570" y2="345.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="465" y1="360.0" x2="570" y2="375.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="465" y1="390.0" x2="570" y2="345.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="465" y1="390.0" x2="570" y2="375.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="465" y1="420.0" x2="570" y2="345.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <line x1="465" y1="420.0" x2="570" y2="375.0" style="stroke:var(--fig-line);stroke-width:0.8"/>
+  <circle cx="150" cy="330.0" r="9" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
+  <circle cx="150" cy="360.0" r="9" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
+  <circle cx="150" cy="390.0" r="9" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
+  <circle cx="255" cy="300.0" r="9" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6"/>
+  <circle cx="255" cy="330.0" r="9" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6"/>
+  <circle cx="255" cy="360.0" r="9" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6"/>
+  <circle cx="255" cy="390.0" r="9" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6"/>
+  <circle cx="255" cy="420.0" r="9" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6"/>
+  <circle cx="360" cy="300.0" r="9" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6"/>
+  <circle cx="360" cy="330.0" r="9" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6"/>
+  <circle cx="360" cy="360.0" r="9" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6"/>
+  <circle cx="360" cy="390.0" r="9" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6"/>
+  <circle cx="360" cy="420.0" r="9" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6"/>
+  <circle cx="465" cy="300.0" r="9" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6"/>
+  <circle cx="465" cy="330.0" r="9" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6"/>
+  <circle cx="465" cy="360.0" r="9" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6"/>
+  <circle cx="465" cy="390.0" r="9" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6"/>
+  <circle cx="465" cy="420.0" r="9" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6"/>
+  <circle cx="570" cy="345.0" r="9" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6"/>
+  <circle cx="570" cy="375.0" r="9" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6"/>
+  <text x="150.0" y="446.0" text-anchor="middle" class="f63an-s">입력</text>
+  <text x="360.0" y="446.0" text-anchor="middle" class="f63an-s">여러 층의 계산 단위</text>
+  <text x="570.0" y="446.0" text-anchor="middle" class="f63an-s">출력(예측)</text>
+
+</svg>
+</div><figcaption><b>그림 6-3-3 뉴런과 인공 뉴런, 그리고 인공 신경망</b> 뉴런은 여러 신호를 받아 기준을 넘으면 다음 뉴런으로 전달한다. 인공 뉴런은 입력값에 가중치를 곱해 더한 값(예: 0.6+0+0.5=1.1)을 기준(1.0)과 비교해 다음 단계로 값을 넘긴다. 이런 계산 단위를 층층이 연결한 것이 인공 신경망이며, 층을 깊게 쌓아 학습하면 딥러닝이다. 모식도이다.</figcaption></figure>
+
 <p>최근에는 대량의 글·그림 데이터를 학습하여 새로운 글, 그림, 음성을 만들어 내는 <strong>생성형 인공지능</strong>이 널리 쓰인다. 그럴듯하지만 사실과 다른 내용을 만들어 내기도 하므로, 결과를 반드시 확인해야 한다.</p>
+<h4 id="바로-확인" class="quick-h"><span class="qc-badge">바로 확인</span><span class="qc-note">방금 읽은 내용, 바로 점검하기</span></h4>
+<ol>
+<li>(O/X) 기계학습에서는 사람이 모든 규칙을 직접 프로그래밍한다.</li>
+<li>짝짓기: 스팸 메일 분류, 비슷한 소비 패턴의 고객 묶기, 바둑 인공지능을 지도학습·비지도학습·강화학습과 각각 짝지으시오.</li>
+<li>예제 1의 규칙(토양 수분 30% 미만이면 물을 준다)으로 토양 수분 29%인 화분을 판단하시오.</li>
+<li>빈칸: 인공 신경망의 계산 단위는 여러 입력값에 각각 (    )를 곱해 더하고, 그 결과에 따라 다음 단계로 값을 넘긴다.</li>
+</ol>
+<details class="answer"><summary><span>정답</span></summary><div class="answer-body">
+
+<ol>
+<li>X — 기계학습은 컴퓨터가 데이터에서 규칙을 찾는다.</li>
+<li>스팸 분류 – 지도학습, 고객 묶기 – 비지도학습, 바둑 – 강화학습</li>
+<li>물을 준다 — 29%는 30% 미만이다. 다만 경계에 가까워 판단이 불확실한 영역이다.</li>
+<li>가중치(중요도)</li>
+</ol>
+</div></details>
+
 <h3 id="6-3-②-로봇-감지하고-판단하고-움직이는-기계">6-3-② 로봇 — 감지하고, 판단하고, 움직이는 기계</h3>
 <p>&#39;로봇(robot)&#39;이라는 말은 1920년 체코의 작가 차페크(K. Čapek)의 희곡에서 처음 쓰였으며, 체코어로 &#39;힘든 노동&#39;을 뜻하는 말에서 왔다. 오늘날 <strong>로봇</strong>은 <strong>외부 환경을 감지하고, 스스로 판단하여, 물리적으로 동작하는 기계</strong>를 말한다.</p>
 <div class="table-wrap"><table><thead><tr>
@@ -477,6 +671,21 @@
 </svg>
 </div><figcaption><b>그림 6-3-1 로봇청소기 속의 감지–판단–동작</b> 로봇청소기를 위에서 본 모식도이다. 센서(파랑)가 장애물·바닥·충돌을 감지하면 제어 장치(보라)가 판단하고, 바퀴 모터와 솔 모터(주황)가 동작한다. 점선은 바닥 쪽에 있는 부품이다.</figcaption></figure>
 
+<h4 id="바로-확인-2" class="quick-h"><span class="qc-badge">바로 확인</span><span class="qc-note">방금 읽은 내용, 바로 점검하기</span></h4>
+<ol>
+<li>빈칸: 로봇은 외부 환경을 (    )하고, 스스로 판단하여, 물리적으로 동작하는 기계이다.</li>
+<li>로봇 팔을 움직이는 전동기(모터)는 로봇의 어떤 구성 요소인가?</li>
+<li>(O/X) 협동 로봇은 사람과 닿으면 멈추거나 힘을 줄인다.</li>
+</ol>
+<details class="answer"><summary><span>정답</span></summary><div class="answer-body">
+
+<ol>
+<li>감지</li>
+<li>구동기(동작) — 실제로 힘을 내어 움직인다. 우리 몸의 근육에 해당한다.</li>
+<li>O</li>
+</ol>
+</div></details>
+
 <h3 id="6-3-③-사물인터넷-사물이-서로-연결되어-대화하다">6-3-③ 사물인터넷 — 사물이 서로 연결되어 대화하다</h3>
 <p><strong>사물인터넷(IoT, Internet of Things)</strong> 은 센서와 통신 기능을 가진 사물들이 인터넷으로 연결되어 <strong>데이터를 주고받고, 사람의 개입을 최소화하며 스스로 작동</strong>하는 기술이다. 1999년 무렵부터 이 용어가 쓰이기 시작했다.</p>
 <div class="table-wrap"><table><thead><tr>
@@ -530,6 +739,21 @@
 <td>자동 급수 펌프를 켜고, 관리 담당 학생의 스마트폰에 알림을 보낸다. 고장이 나서 값이 이상하면 경고를 보낸다</td>
 </tr>
 </tbody></table></div>
+<h4 id="바로-확인-3" class="quick-h"><span class="qc-badge">바로 확인</span><span class="qc-note">방금 읽은 내용, 바로 점검하기</span></h4>
+<ol>
+<li>고르기: &quot;측정값을 와이파이로 서버에 보낸다&quot;는 사물인터넷의 어느 계층에 해당하는가? (가) 감지 (나) 연결 (다) 분석 (라) 서비스</li>
+<li>(O/X) 사물인터넷에서는 기기 하나가 혼자서 감지–판단–동작을 모두 맡는다.</li>
+<li>스마트 홈에서 문 열림 센서가 문이 열린 것을 측정하는 것은 &#39;감지&#39; 계층이다. 그 결과로 스마트폰에 알림이 오는 것은 어느 계층인가?</li>
+</ol>
+<details class="answer"><summary><span>정답</span></summary><div class="answer-body">
+
+<ol>
+<li>(나) 연결</li>
+<li>X — 여러 사물이 네트워크로 연결되어 감지·판단·동작을 나누어 맡는다.</li>
+<li>서비스(응용)</li>
+</ol>
+</div></details>
+
 <h3 id="6-3-④-인간의-삶과-환경을-개선하는-사례">6-3-④ 인간의 삶과 환경을 개선하는 사례</h3>
 <div class="table-wrap"><table><thead><tr>
 <th>분야</th>
@@ -718,8 +942,117 @@
 (1) 실내 온도가 기준인 28 °C에 도달했기 때문이다.
 (2) 닫는 기준은 24 °C 이하이다. 25 °C는 아직 24 °C보다 높으므로 열린 상태를 유지한다. 여는 온도와 닫는 온도를 다르게 하면 기준 근처에서 창문이 너무 자주 열고 닫히는 것을 막을 수 있다.
 (3) 온도 센서가 실내 온도를 측정 → 제어 장치가 기준과 비교해 판단 → 구동기(모터)가 천창을 열어 온도가 내려감 → 센서가 다시 측정하는 과정이 반복되며 온도를 적정 범위로 유지한다.</p>
+<figure class="fig" id="fig-6-3-greenhouse-hysteresis"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-labelledby="t-6-3-greenhouse-hysteresis d-6-3-greenhouse-hysteresis">
+  <title id="t-6-3-greenhouse-hysteresis">그림 6-3-4 스마트 비닐하우스 천창의 되먹임 제어</title>
+  <desc id="d-6-3-greenhouse-hysteresis">예제 5의 실내 온도 기록을 그래프로 나타냈다. 온도가 여는 기준 28 °C에 도달한 11시에 천창이 열리고, 닫는 기준 24 °C 이하로 내려갈 때까지는 25 °C인 16시에도 열린 상태를 유지하다가 18시(22 °C)에 닫힌다. 두 기준 사이에서는 이전 상태를 유지하여 창이 너무 자주 열리고 닫히지 않는다.</desc>
+  <defs>
+    <marker id="f63gh-arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" style="fill:var(--fig-ink)"/></marker>
+  </defs>
+  <style>
+    .f63gh-h{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .f63gh-t{font-size:13px;fill:var(--fig-ink)}
+    .f63gh-s{font-size:12px;fill:var(--fig-muted)}
+    .f63gh-ln{fill:none;stroke:var(--fig-line);stroke-width:1.5}
+    .f63gh-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.5}
+    .f63gh-ar{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
+    .f63gh-box{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2}
+  </style>
+  <rect x="90" y="52" width="580" height="238" style="fill:var(--fig-paper);stroke:none"/>
+  <line x1="90" y1="290" x2="670" y2="290" style="stroke:var(--fig-line);stroke-width:0.6"/>
+  <text x="82.0" y="294.0" text-anchor="end" class="f63gh-s">16</text>
+  <line x1="90" y1="256" x2="670" y2="256" style="stroke:var(--fig-line);stroke-width:0.6"/>
+  <text x="82.0" y="260.0" text-anchor="end" class="f63gh-s">18</text>
+  <line x1="90" y1="222" x2="670" y2="222" style="stroke:var(--fig-line);stroke-width:0.6"/>
+  <text x="82.0" y="226.0" text-anchor="end" class="f63gh-s">20</text>
+  <line x1="90" y1="188" x2="670" y2="188" style="stroke:var(--fig-line);stroke-width:0.6"/>
+  <text x="82.0" y="192.0" text-anchor="end" class="f63gh-s">22</text>
+  <line x1="90" y1="154" x2="670" y2="154" style="stroke:var(--fig-line);stroke-width:0.6"/>
+  <text x="82.0" y="158.0" text-anchor="end" class="f63gh-s">24</text>
+  <line x1="90" y1="120" x2="670" y2="120" style="stroke:var(--fig-line);stroke-width:0.6"/>
+  <text x="82.0" y="124.0" text-anchor="end" class="f63gh-s">26</text>
+  <line x1="90" y1="86" x2="670" y2="86" style="stroke:var(--fig-line);stroke-width:0.6"/>
+  <text x="82.0" y="90.0" text-anchor="end" class="f63gh-s">28</text>
+  <line x1="90" y1="52" x2="670" y2="52" style="stroke:var(--fig-line);stroke-width:0.6"/>
+  <text x="82.0" y="56.0" text-anchor="end" class="f63gh-s">30</text>
+  <line x1="90" y1="290" x2="680" y2="290" class="f63gh-ax"/>
+  <line x1="90" y1="290" x2="90" y2="44" class="f63gh-ax"/>
+  <text x="0" y="0" transform="translate(32 171) rotate(-90)" text-anchor="middle" class="f63gh-s">실내 온도(°C)</text>
+  <rect x="90" y="86" width="580" height="68" style="fill:var(--fig-soft-amber);fill-opacity:0.5"/>
+  <line x1="90" y1="86" x2="670" y2="86" style="stroke:var(--fig-red);stroke-width:2;stroke-dasharray:7 4"/>
+  <line x1="90" y1="154" x2="670" y2="154" style="stroke:var(--fig-blue);stroke-width:2;stroke-dasharray:7 4"/>
+  <text x="676.0" y="90.0" text-anchor="start" class="f63gh-s" style="fill:var(--fig-red)">여는 기준</text>
+  <text x="676.0" y="105.0" text-anchor="start" class="f63gh-s" style="fill:var(--fig-red)">28 °C</text>
+  <text x="676.0" y="158.0" text-anchor="start" class="f63gh-s" style="fill:var(--fig-blue)">닫는 기준</text>
+  <text x="676.0" y="173.0" text-anchor="start" class="f63gh-s" style="fill:var(--fig-blue)">24 °C</text>
+  <polyline points="90.0,256.0 206.0,154.0 264.0,86.0 322.0,103.0 380.0,120.0 438.0,86.0 554.0,137.0 670.0,188.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.2"/>
+  <circle cx="90.0" cy="256.0" r="5.5" style="fill:var(--fig-ink)"/>
+  <text x="90.0" y="246.0" text-anchor="middle" class="f63gh-s" style="fill:var(--fig-ink)">18</text>
+  <rect x="67.0" y="328" width="46" height="26" rx="5" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.5"/>
+  <text x="90.0" y="346.0" text-anchor="middle" class="f63gh-t">닫힘</text>
+  <text x="90.0" y="308.0" text-anchor="middle" class="f63gh-s">8시</text>
+  <circle cx="206.0" cy="154.0" r="5.5" style="fill:var(--fig-ink)"/>
+  <text x="206.0" y="144.0" text-anchor="middle" class="f63gh-s" style="fill:var(--fig-ink)">24</text>
+  <rect x="183.0" y="328" width="46" height="26" rx="5" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.5"/>
+  <text x="206.0" y="346.0" text-anchor="middle" class="f63gh-t">닫힘</text>
+  <text x="206.0" y="308.0" text-anchor="middle" class="f63gh-s">10시</text>
+  <circle cx="264.0" cy="86.0" r="5.5" style="fill:var(--fig-ink)"/>
+  <text x="264.0" y="76.0" text-anchor="middle" class="f63gh-s" style="fill:var(--fig-ink)">28</text>
+  <rect x="241.0" y="328" width="46" height="26" rx="5" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <text x="264.0" y="346.0" text-anchor="middle" class="f63gh-t">열림</text>
+  <text x="264.0" y="308.0" text-anchor="middle" class="f63gh-s">11시</text>
+  <circle cx="322.0" cy="103.0" r="5.5" style="fill:var(--fig-ink)"/>
+  <text x="322.0" y="93.0" text-anchor="middle" class="f63gh-s" style="fill:var(--fig-ink)">27</text>
+  <rect x="299.0" y="328" width="46" height="26" rx="5" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <text x="322.0" y="346.0" text-anchor="middle" class="f63gh-t">열림</text>
+  <text x="322.0" y="308.0" text-anchor="middle" class="f63gh-s">12시</text>
+  <circle cx="380.0" cy="120.0" r="5.5" style="fill:var(--fig-ink)"/>
+  <text x="380.0" y="110.0" text-anchor="middle" class="f63gh-s" style="fill:var(--fig-ink)">26</text>
+  <rect x="357.0" y="328" width="46" height="26" rx="5" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <text x="380.0" y="346.0" text-anchor="middle" class="f63gh-t">열림</text>
+  <text x="380.0" y="308.0" text-anchor="middle" class="f63gh-s">13시</text>
+  <circle cx="438.0" cy="86.0" r="5.5" style="fill:var(--fig-ink)"/>
+  <text x="438.0" y="76.0" text-anchor="middle" class="f63gh-s" style="fill:var(--fig-ink)">28</text>
+  <rect x="415.0" y="328" width="46" height="26" rx="5" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <text x="438.0" y="346.0" text-anchor="middle" class="f63gh-t">열림</text>
+  <text x="438.0" y="308.0" text-anchor="middle" class="f63gh-s">14시</text>
+  <circle cx="554.0" cy="137.0" r="5.5" style="fill:var(--fig-ink)"/>
+  <text x="554.0" y="127.0" text-anchor="middle" class="f63gh-s" style="fill:var(--fig-ink)">25</text>
+  <rect x="531.0" y="328" width="46" height="26" rx="5" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <text x="554.0" y="346.0" text-anchor="middle" class="f63gh-t">열림</text>
+  <text x="554.0" y="308.0" text-anchor="middle" class="f63gh-s">16시</text>
+  <circle cx="670.0" cy="188.0" r="5.5" style="fill:var(--fig-ink)"/>
+  <text x="670.0" y="178.0" text-anchor="middle" class="f63gh-s" style="fill:var(--fig-ink)">22</text>
+  <rect x="647.0" y="328" width="46" height="26" rx="5" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.5"/>
+  <text x="670.0" y="346.0" text-anchor="middle" class="f63gh-t">닫힘</text>
+  <text x="670.0" y="308.0" text-anchor="middle" class="f63gh-s">18시</text>
+  <text x="20.0" y="346.0" text-anchor="start" class="f63gh-h">천창</text>
+  <text x="380.0" y="40.0" text-anchor="middle" class="f63gh-t">두 기준 사이(색 띠)에서는 이전 상태를 그대로 유지한다</text>
+  <line x1="554.0" y1="145.0" x2="574.0" y2="239.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="514.0" y="253.0" text-anchor="start" class="f63gh-s">16시: 25 °C이지만 24 °C 이하가</text>
+  <text x="514.0" y="269.0" text-anchor="start" class="f63gh-s">아니므로 계속 열림</text>
+  <line x1="264.0" y1="94.0" x2="294.0" y2="205.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="274.0" y="219.0" text-anchor="start" class="f63gh-s">11시: 28 °C 도달 → 열림</text>
+
+</svg>
+</div><figcaption><b>그림 6-3-4 스마트 비닐하우스 천창의 되먹임 제어</b> 예제 5의 실내 온도 기록을 그래프로 나타냈다. 온도가 여는 기준 28 °C에 도달한 11시에 천창이 열리고, 닫는 기준 24 °C 이하로 내려갈 때까지는 25 °C인 16시에도 열린 상태를 유지하다가 18시(22 °C)에 닫힌다. 두 기준 사이에서는 이전 상태를 유지하여 창이 너무 자주 열리고 닫히지 않는다.</figcaption></figure>
+
 <h4 id="재난-현장의-로봇-실제-사례">재난 현장의 로봇 — 실제 사례</h4>
 <p>2011년 일본 후쿠시마 원자력 발전소 사고 때 사람이 들어갈 수 없는 건물 내부를 조사하는 데 원격 조종 로봇이 투입되었다. 이 경험을 계기로 재난 현장에서 차량 운전, 문 열기, 밸브 돌리기, 계단 오르기 같은 과제를 수행하는 국제 재난 로봇 대회가 열렸고, 2015년 결선에서 우리나라 대학 연구팀의 인간형 로봇이 우승하였다. 재난 로봇은 아직 사람의 원격 조종에 상당 부분 의존하며, 험한 지형과 통신이 끊긴 환경에서 스스로 판단하는 능력이 핵심 과제로 남아 있다.</p>
+<h4 id="바로-확인-4" class="quick-h"><span class="qc-badge">바로 확인</span><span class="qc-note">방금 읽은 내용, 바로 점검하기</span></h4>
+<ol>
+<li>예제 5의 비닐하우스에서 천창이 닫혀 있고 실내 온도가 26 °C에서 오르고 있다. 지금 천창은 어떻게 되는가?</li>
+<li>짝짓기: 스마트 그리드, 재난 로봇, 스마트팜에서 쓰는 기술을 &#39;열화상 카메라, 스마트 계량기, 토양 수분 센서&#39; 중에서 고르시오.</li>
+<li>(O/X) 돌봄 로봇은 사람의 정서적 돌봄을 완전히 대신할 수 있다.</li>
+</ol>
+<details class="answer"><summary><span>정답</span></summary><div class="answer-body">
+
+<ol>
+<li>닫힌 채로 있다 — 여는 기준인 28 °C에 아직 도달하지 않았다.</li>
+<li>스마트 그리드 – 스마트 계량기, 재난 로봇 – 열화상 카메라, 스마트팜 – 토양 수분 센서</li>
+<li>X — 돌봄 공백을 보완하는 보조 수단이다.</li>
+</ol>
+</div></details>
+
 <h3 id="6-3-⑤-유용성과-한계를-예측하기">6-3-⑤ 유용성과 한계를 예측하기</h3>
 <p>새로운 기술의 미래를 예측할 때는 <strong>좋은 점만 보거나 나쁜 점만 보지 않고</strong>, 여러 영역에 미칠 영향을 차례로 따져 보아야 한다.</p>
 <div class="table-wrap"><table><thead><tr>
@@ -769,6 +1102,21 @@
 </ul>
 <aside class="callout tip"><p class="callout-title">도움말</p><p>💡 <strong>좋은 예측의 조건</strong> — ① 근거(사례·데이터)를 든다. ② 유용성과 한계를 <strong>모두</strong> 본다. ③ 누구에게 이익이고 누구에게 부담인지(이해관계자)를 나눈다. ④ 한계를 줄일 방법까지 제시한다.</p>
 </aside>
+<h4 id="바로-확인-5" class="quick-h"><span class="qc-badge">바로 확인</span><span class="qc-note">방금 읽은 내용, 바로 점검하기</span></h4>
+<ol>
+<li>(O/X) 인공지능과 데이터 센터는 환경 감시에 쓰이므로 환경에 부담을 주지 않는다.</li>
+<li>미래 바퀴에서 &#39;자율주행 택시 확산 → 운전 직업 감소&#39;의 2차 결과로 제시된 것은 무엇인가?</li>
+<li>사물인터넷 기기의 해킹 위험을 줄이는 간단한 방법 두 가지를 쓰시오.</li>
+</ol>
+<details class="answer"><summary><span>정답</span></summary><div class="answer-body">
+
+<ol>
+<li>X — 학습과 운영에 많은 전기가 들고 전자 폐기물도 늘어난다. 개선 효과와 부담을 함께 따져야 한다.</li>
+<li>직업 전환 교육이 필요해진다.</li>
+<li>초기 비밀번호 바꾸기, 소프트웨어 업데이트하기</li>
+</ol>
+</div></details>
+
 <hr>
 <h2 id="step-4" class="step-h s4"><span class="step-badge s4">STEP 4</span><span class="h-text">오개념 바로잡기</span></h2>
 <div class="table-wrap"><table><thead><tr>
@@ -1152,6 +1500,160 @@
 (그 밖에 1차: 운전 관련 직업 감소 → 2차: 직업 전환 교육 필요 등도 가능)
 (2) 관점 A(제조사 책임): 운전을 판단한 주체가 자동차의 소프트웨어이므로, 그 판단 알고리즘을 설계·판매한 제조사가 책임져야 한다. 관점 B(공동 책임): 사람이 개입해야 하는 단계의 자율주행에서는 운전자가 경고에 대응할 의무가 있으므로, 상황에 따라 운전자와 제조사가 책임을 나누어야 한다. 이 문제는 기술 수준(자율주행 단계), 사고 원인 분석 데이터, 법과 보험 제도가 함께 고려되어야 하며, 6-4 단원에서 더 깊이 다룬다.</p>
 <p><strong>채점 포인트</strong> ① 1차·2차 결과의 논리적 연결 ② 서로 다른 두 관점 ③ 각 관점의 근거</p>
+</div></details>
+
+<h3 id="실력-다지기">실력 다지기<span class="level" title="난이도"><span class="sr">난이도 2단계(3단계 중) </span>★★<i>★</i></span></h3>
+<p><strong>10.</strong> 예제 1의 화단에서 계절을 바꿔 가며 데이터를 더 모았다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>토양 수분(%)</th>
+<th>25</th>
+<th>35</th>
+<th>28</th>
+<th>32</th>
+<th>38</th>
+<th>45</th>
+<th>40</th>
+<th>22</th>
+</tr>
+</thead><tbody><tr>
+<td>기온(°C)</td>
+<td>15</td>
+<td>15</td>
+<td>20</td>
+<td>30</td>
+<td>30</td>
+<td>30</td>
+<td>15</td>
+<td>25</td>
+</tr>
+<tr>
+<td>물 줘야 함?</td>
+<td>예</td>
+<td>아니요</td>
+<td>예</td>
+<td>예</td>
+<td>예</td>
+<td>아니요</td>
+<td>아니요</td>
+<td>예</td>
+</tr>
+</tbody></table></div>
+<p>(1) 토양 수분만 보는 규칙 &quot;30% 미만이면 물을 준다&quot;로 8개를 판단하면 몇 개가 맞는가? 틀린 것은 어떤 경우인가?
+(2) 기온을 함께 보아 &quot;기온이 25 °C 이상이면 ○○% 미만일 때, 25 °C 미만이면 30% 미만일 때 물을 준다&quot;는 규칙을 만들려 한다. ○○에 알맞은 값을 하나 정하고, 이 규칙으로 8개가 모두 맞는지 확인하시오.
+(3) 이 결과를 예제 2와 연결하여, 입력을 늘리는 것이 왜 도움이 되었는지 설명하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> (1) 6개(75%), 틀린 것은 수분 32%·38%이면서 기온 30 °C인 경우 (2) 예: 40(38 초과 45 이하의 값이면 된다), 8개 모두 맞는다 (3) 해설 참고</p>
+<p>(1) 30% 미만인 25, 28, 22는 &#39;예&#39;로 맞고, 30% 이상인 35, 45, 40은 &#39;아니요&#39;로 맞는다. 그러나 32%와 38%(기온 30 °C)는 실제로 &#39;예&#39;인데 &#39;아니요&#39;로 판단한다. → <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">6</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">÷</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">8</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8056em;vertical-align:-0.0556em;"></span><span class="mord">75%</span></span></span></span>
+(2) 기온 25 °C 이상인 자료: 32(예), 38(예), 45(아니요), 22(예). &#39;예&#39;의 가장 큰 값 38과 &#39;아니요&#39;의 가장 작은 값 45 사이에 경계를 두면 된다(예: 40%). 기온 25 °C 미만인 자료: 25(예), 28(예), 35(아니요), 40(아니요)는 30% 기준으로 모두 맞는다. → 8개 모두 맞는다.
+(3) 더운 날에는 증발이 빨라 같은 토양 수분에서도 물이 더 필요하다. 수분 하나만 입력하면 이 차이를 구별할 수 없지만, 기온을 입력에 더하면 상황에 따라 다른 경계를 배울 수 있다. 예제 2에서 제안한 &#39;여러 계절의 데이터 모으기&#39;와 &#39;입력 추가&#39;가 실제로 정확도를 높인 것이다.</p>
+</div></details>
+
+<p><strong>11.</strong> 예제 5의 비닐하우스가 같은 날 12시부터 10분 간격으로 기록한 실내 온도가 다음과 같다(창의 상태가 온도에 주는 영향은 무시하고, 두 규칙에서 온도가 똑같이 변했다고 가정한다).</p>
+<div class="table-wrap"><table><thead><tr>
+<th>시각</th>
+<th>12:00</th>
+<th>12:10</th>
+<th>12:20</th>
+<th>12:30</th>
+<th>12:40</th>
+<th>12:50</th>
+<th>13:00</th>
+<th>13:10</th>
+<th>13:20</th>
+<th>13:30</th>
+<th>13:40</th>
+</tr>
+</thead><tbody><tr>
+<td>온도(°C)</td>
+<td>27.6</td>
+<td>28.0</td>
+<td>27.8</td>
+<td>28.3</td>
+<td>27.9</td>
+<td>28.1</td>
+<td>27.7</td>
+<td>28.0</td>
+<td>26.5</td>
+<td>25.0</td>
+<td>23.8</td>
+</tr>
+</tbody></table></div>
+<ul>
+<li>규칙 가: 28 °C 이상이면 열고, 28 °C 미만이면 닫는다.</li>
+<li>규칙 나: 28 °C 이상이면 열고, 24 °C 이하이면 닫는다(예제 5의 규칙).</li>
+</ul>
+<p>12:00에 천창이 닫혀 있었다. (1) 각 규칙에서 천창이 열리고 닫히는 동작은 모두 몇 번 일어나는가? (2) 규칙 가의 문제점을 구동기와 에너지의 관점에서 설명하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> (1) 규칙 가 8번, 규칙 나 2번 (2) 해설 참고</p>
+<p>(1) 규칙 가: 12:10 열림, 12:20 닫힘, 12:30 열림, 12:40 닫힘, 12:50 열림, 13:00 닫힘, 13:10 열림, 13:20 닫힘 → <strong>8번</strong>
+규칙 나: 12:10에 열린 뒤 24 °C 이하가 될 때까지 열린 상태를 유지하다가 13:40에 닫힘 → <strong>2번</strong>
+(2) 기준 온도 근처에서 온도가 조금씩 오르내릴 때마다 창이 열리고 닫혀, 모터(구동기)가 너무 자주 작동하므로 빨리 닳고 전기도 낭비된다. 실내 환경도 안정되지 않는다. 여는 온도와 닫는 온도 사이에 간격을 두면 이런 잦은 동작을 막을 수 있다.</p>
+</div></details>
+
+<p><strong>12.</strong> 어느 학교가 교실 30곳의 조명에 사람이 있는지 감지하는 사물인터넷 센서를 달아, 사람이 없으면 조명을 자동으로 끄려 한다. (설명을 위해 가정한 값이다.)</p>
+<ul>
+<li>교실 조명의 소비 전력은 1 kW이고 하루 8시간 켜 두는데, 그중 2시간은 교실이 비어 있다.</li>
+<li>수업일은 1년에 200일이다.</li>
+<li>센서와 통신 장치는 교실마다 2 W를 1년 내내(365일, 하루 24시간) 사용한다.</li>
+</ul>
+<p>(1) 센서로 1년에 줄일 수 있는 조명 전력량은 몇 kWh인가?
+(2) 센서와 통신 장치가 1년에 쓰는 전력량은 몇 kWh인가?
+(3) 이 결과를 바탕으로, 기술의 환경 개선 효과를 평가할 때 왜 (2)와 같은 계산이 필요한지 쓰시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> (1) 12 000 kWh (2) 약 526 kWh (3) 해설 참고</p>
+<p>(1) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7778em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">kW</span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7778em;vertical-align:-0.0833em;"></span><span class="mord">2</span><span class="mspace"> </span><span class="mord mathrm">h</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">30</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">200</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord">12</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">kWh</span></span></span></span></span>
+(2) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord">2</span><span class="mspace"> </span><span class="mord mathrm" style="margin-right:0.01389em;">W</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">30</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7778em;vertical-align:-0.0833em;"></span><span class="mord">24</span><span class="mspace"> </span><span class="mord mathrm">h</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">365</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord">525</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">600</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">Wh</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord">526</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">kWh</span></span></span></span></span>
+(3) 실제 절약량은 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">12</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">000</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">526</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord">11</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">474</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">kWh</span></span></span></span></span>로, 센서 자체가 쓰는 전기만큼 효과가 줄어든다. 이 경우에는 절약 효과가 훨씬 크지만, 비어 있는 시간이 짧거나 기기가 많은 전력을 쓰면 오히려 손해일 수도 있다. 기술이 환경을 개선하는 효과와 기술 자체가 주는 부담(전력, 기기 생산, 전자 폐기물)을 <strong>함께 따져야</strong> 올바른 평가가 된다.</p>
+</div></details>
+
+<h3 id="도전">도전<span class="level" title="난이도"><span class="sr">난이도 3단계(3단계 중) </span>★★★<i></i></span></h3>
+<p><strong>13.</strong> A 병원의 폐 영상 데이터로 학습한 인공지능을 A, B 두 병원에서 시험한 결과가 다음과 같다.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>시험한 병원</th>
+<th>실제 환자 100명 중 환자로 찾아냄</th>
+<th>실제 정상 900명 중 정상으로 판단</th>
+</tr>
+</thead><tbody><tr>
+<td>A 병원</td>
+<td>95명</td>
+<td>870명</td>
+</tr>
+<tr>
+<td>B 병원</td>
+<td>70명</td>
+<td>864명</td>
+</tr>
+</tbody></table></div>
+<p>학습에 쓴 영상은 모두 A 병원의 촬영 장비로 찍은 것이고, B 병원은 다른 회사의 장비를 쓴다.</p>
+<p>(1) 두 병원에서 환자를 놓친 비율을 각각 구하시오.
+(2) B 병원에서 성능이 떨어진 까닭을 학습 데이터와 연결하여 추론하시오.
+(3) (2)의 추론이 맞는지 확인하는 실험을 설계하시오. 무엇을 같게 하고 무엇을 다르게 할지 밝히시오.
+(4) 이 인공지능을 B 병원에서 쓰기 위한 조건을 두 가지 제안하시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> (1) A 병원 5%, B 병원 30% (2)~(4) 해설 참고</p>
+<p>(1) A: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">100</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">100</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">95</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8056em;vertical-align:-0.0556em;"></span><span class="mord">5%</span></span></span></span>, B: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">100</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">100</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">70</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8056em;vertical-align:-0.0556em;"></span><span class="mord">30%</span></span></span></span> (정상을 정상으로 판단한 비율은 약 96.7%와 96%로 비슷하다.)
+(2) 인공지능은 학습한 데이터 범위 안에서 가장 잘 작동한다. 학습 영상이 모두 A 병원 장비로 찍은 것이라, 장비가 다르면 영상의 밝기·선명도 등이 달라져 인공지능이 배운 적 없는 입력이 된다. 그 결과 환자의 특징을 알아보지 못하는 경우가 늘었을 것이다. (B 병원 환자의 특성이 다를 가능성도 함께 고려할 수 있다.)
+(3) (예) 같은 환자들(같은 진단 결과를 아는 사람들)을 A 병원 장비와 B 병원 장비로 각각 촬영하여 같은 인공지능에 넣고 놓친 비율을 비교한다. <strong>환자 집단과 인공지능은 같게, 촬영 장비만 다르게</strong> 한다. B 장비 영상에서만 놓친 비율이 크게 높다면 장비 차이가 원인임을 뒷받침한다.
+(4) ① B 병원 장비로 찍은 영상을 학습 데이터에 추가하여 다시 학습시키고, B 병원 자료로 성능을 다시 검증한다. ② 성능이 확인되기 전까지는 인공지능의 판단을 보조 자료로만 쓰고 최종 판단은 의사가 하며, 병원·장비별 오류율을 정기적으로 점검한다.</p>
+<p><strong>채점 포인트</strong> ① 놓친 비율 계산과 비교 ② 학습 데이터 범위(편향)와 성능 저하 연결 ③ 변인을 통제한 비교 실험 설계 ④ 재학습·검증·사람의 검토를 포함한 사용 조건</p>
+</div></details>
+
+<p><strong>14.</strong> 넓이 100 ha의 논에서 해충이 생긴 곳은 전체의 15%이다. 지금까지는 논 전체에 농약을 1 ha당 2 L씩 뿌렸다. 새로 드론과 사물인터넷 센서로 해충이 생긴 구역을 찾아 그곳에만 같은 양(1 ha당 2 L)을 뿌리는 방법을 도입하려 한다. 그런데 이 시스템은 해충이 생긴 구역의 80%만 찾아낸다고 한다. (설명을 위해 가정한 값이다.)</p>
+<p>(1) 새 방법은 기존 방법보다 농약 사용량을 몇 % 줄이는가?
+(2) 새 방법으로 농약을 뿌리지 못한 해충 구역은 몇 ha인가? 이것이 어떤 문제로 이어질 수 있는지 예측하고, 보완 방법을 제안하시오.
+(3) 이 기술이 미래 농촌에 가져올 유용성과 한계를 이해관계자(농민, 소비자, 지역 환경 등)를 나누어 예측하고, 도입에 대한 자신의 입장을 근거와 함께 쓰시오.</p>
+<details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
+
+<p><strong>정답</strong> (1) 88% (2) 3 ha (3) 해설 참고</p>
+<p>(1) 기존: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">100</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">200</span><span class="mspace"> </span><span class="mord mathrm">L</span></span></span></span>. 해충 구역 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">100</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0.15</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord">15</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">ha</span></span></span></span></span> 중 찾아낸 곳 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">15</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0.8</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord">12</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">ha</span></span></span></span></span> → 새 방법: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">12</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">24</span><span class="mspace"> </span><span class="mord mathrm">L</span></span></span></span>. 줄어든 비율 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">200</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">200</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">24</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8056em;vertical-align:-0.0556em;"></span><span class="mord">88%</span></span></span></span>
+(2) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">15</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">12</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord">3</span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">ha</span></span></span></span></span>. 이 구역의 해충이 번식하여 주변으로 퍼지면 피해가 커지고, 나중에 더 많은 농약이 필요할 수 있다. 보완(예): 며칠 간격으로 다시 촬영해 새로 생기거나 놓친 구역을 찾는다, 사람이 경계 구역을 함께 확인한다, 찾아내는 성능을 높이도록 데이터를 더 모아 다시 학습시킨다.
+(3) (예시) 유용성 — 농민: 농약 비용과 살포 노동이 줄고 농약에 노출되는 위험도 줄어든다. 소비자: 농약 잔류에 대한 걱정이 줄어든다. 환경: 하천으로 흘러드는 농약이 줄어 수질과 생태계에 이롭다. 한계 — 장비 가격과 운영 지식 때문에 소규모·고령 농가가 도입하기 어렵다(격차). 센서가 놓친 구역의 피해, 기기 고장·통신 두절 시 대응 문제가 있다. 드론 비행에 따른 안전·사생활 문제도 생길 수 있다.
+입장(예): 농약 사용을 크게 줄이는 이점이 분명하므로 도입에 찬성한다. 다만 놓친 구역을 다시 확인하는 절차를 두고, 공동 구매·임대나 교육 지원으로 소규모 농가도 쓸 수 있게 하는 조건이 필요하다.</p>
+<p><strong>채점 포인트</strong> ① 사용량 계산(찾아낸 구역만 살포) ② 놓친 구역의 결과 예측과 보완 ③ 이해관계자별 유용성과 한계 ④ 근거와 조건을 갖춘 입장</p>
 </div></details>
 
 <hr>

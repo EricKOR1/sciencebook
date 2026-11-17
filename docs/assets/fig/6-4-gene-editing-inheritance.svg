@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-labelledby="t-6-4-gene-editing-inheritance d-6-4-gene-editing-inheritance">
+  <title id="t-6-4-gene-editing-inheritance">그림 6-4-4 체세포 편집과 배아 편집 — 유전되는가</title>
+  <desc id="d-6-4-gene-editing-inheritance">체세포 편집은 환자 몸의 일부 세포만 바꾸므로 자녀에게 전해지지 않는다. 생식세포·배아를 편집하면 몸의 모든 세포와 정자·난자까지 바뀌어 자녀와 그 자손에게 대대로 유전된다. 모식도이다.</desc>
+  <defs>
+    <marker id="f64ge-arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" style="fill:var(--fig-ink)"/></marker>
+  </defs>
+  <style>
+    .f64ge-h{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .f64ge-t{font-size:13px;fill:var(--fig-ink)}
+    .f64ge-s{font-size:12px;fill:var(--fig-muted)}
+    .f64ge-ln{fill:none;stroke:var(--fig-line);stroke-width:1.5}
+    .f64ge-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.5}
+    .f64ge-ar{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
+    .f64ge-box{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2}
+  </style>
+  <rect x="16" y="14" width="336" height="330" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.2"/>
+  <text x="184.0" y="40.0" text-anchor="middle" class="f64ge-h">① 체세포 편집</text>
+  <rect x="368" y="14" width="336" height="330" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.2"/>
+  <text x="536.0" y="40.0" text-anchor="middle" class="f64ge-h">② 생식세포·배아 편집</text>
+  <circle cx="184" cy="73.0" r="16.8" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:2"/>
+  <rect x="163.0" y="94.0" width="42.0" height="64.4" rx="14.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:2"/>
+  <circle cx="175.6" cy="115.0" r="4.5" style="fill:var(--fig-violet)"/>
+  <circle cx="191.0" cy="123.4" r="4.5" style="fill:var(--fig-violet)"/>
+  <circle cx="179.8" cy="134.6" r="4.5" style="fill:var(--fig-violet)"/>
+  <circle cx="193.8" cy="143.0" r="4.5" style="fill:var(--fig-violet)"/>
+  <text x="184.0" y="190.0" text-anchor="middle" class="f64ge-t">환자 몸의 일부 세포만 바뀐다</text>
+  <text x="184.0" y="208.0" text-anchor="middle" class="f64ge-s">(예: 혈액을 만드는 세포)</text>
+  <line x1="184.0" y1="216.0" x2="184.0" y2="244.0" class="f64ge-ar" marker-end="url(#f64ge-arw)"/>
+  <circle cx="140" cy="260.0" r="12.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:2"/>
+  <rect x="125.0" y="275.0" width="30.0" height="46.0" rx="10.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:2"/>
+  <circle cx="228" cy="260.0" r="12.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:2"/>
+  <rect x="213.0" y="275.0" width="30.0" height="46.0" rx="10.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:2"/>
+  <text x="184.0" y="336.0" text-anchor="middle" class="f64ge-t">자녀: 바뀌지 않음 — 본인에게만 영향</text>
+  <circle cx="420" cy="105" r="26" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <circle cx="411" cy="96" r="8" style="fill:var(--fig-violet);fill-opacity:0.55"/>
+  <circle cx="429" cy="96" r="8" style="fill:var(--fig-violet);fill-opacity:0.55"/>
+  <circle cx="411" cy="114" r="8" style="fill:var(--fig-violet);fill-opacity:0.55"/>
+  <circle cx="429" cy="114" r="8" style="fill:var(--fig-violet);fill-opacity:0.55"/>
+  <text x="420.0" y="151.0" text-anchor="middle" class="f64ge-t">배아</text>
+  <line x1="450.0" y1="105.0" x2="500.0" y2="105.0" class="f64ge-ar" marker-end="url(#f64ge-arw)"/>
+  <circle cx="540" cy="73.0" r="16.8" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <rect x="519.0" y="94.0" width="42.0" height="64.4" rx="14.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <text x="600.0" y="96.0" text-anchor="start" class="f64ge-s">몸의 모든</text>
+  <text x="600.0" y="112.0" text-anchor="start" class="f64ge-s">세포가 바뀜</text>
+  <text x="536.0" y="190.0" text-anchor="middle" class="f64ge-t">정자·난자에도 바뀐 유전자</text>
+  <line x1="536.0" y1="200.0" x2="536.0" y2="244.0" class="f64ge-ar" marker-end="url(#f64ge-arw)"/>
+  <circle cx="492" cy="260.0" r="12.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <rect x="477.0" y="275.0" width="30.0" height="46.0" rx="10.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <circle cx="580" cy="260.0" r="12.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <rect x="565.0" y="275.0" width="30.0" height="46.0" rx="10.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <text x="536.0" y="336.0" text-anchor="middle" class="f64ge-t" style="fill:var(--fig-violet);font-weight:600">자녀·그 자손에게 대대로 유전</text>
+  <rect x="140" y="358" width="18" height="18" rx="4" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <text x="166.0" y="372.0" text-anchor="start" class="f64ge-t">편집된 유전자를 가짐</text>
+  <rect x="370" y="358" width="18" height="18" rx="4" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:2"/>
+  <text x="396.0" y="372.0" text-anchor="start" class="f64ge-t">편집되지 않음</text>
+
+</svg>

@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t-6-1-snow-map d-6-1-snow-map">
+  <title id="t-6-1-snow-map">그림 6-1-3 존 스노의 콜레라 지도 — 데이터로 감염원 찾기</title>
+  <desc id="d-6-1-snow-map">사망자가 나온 집을 점으로 찍으면 브로드가의 공용 펌프 주변에 점이 몰리고 다른 펌프 주변에는 드물다. 이 패턴으로 오염된 펌프 물을 원인으로 추론하였다. 거리와 점의 배치는 실제 지도를 단순화한 모식도이다.</desc>
+  <defs>
+    <marker id="f61sm-arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" style="fill:var(--fig-ink)"/></marker>
+  </defs>
+  <style>
+    .f61sm-h{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .f61sm-t{font-size:13px;fill:var(--fig-ink)}
+    .f61sm-s{font-size:12px;fill:var(--fig-muted)}
+    .f61sm-ln{fill:none;stroke:var(--fig-line);stroke-width:1.5}
+    .f61sm-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.5}
+    .f61sm-ar{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
+    .f61sm-box{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2}
+  </style>
+  <text x="20.0" y="24.0" text-anchor="start" class="f61sm-h">1854년 런던 콜레라 사망자 지도(모식도)</text>
+  <rect x="20" y="40" width="480" height="360" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.2"/>
+  <rect x="29" y="49" width="72" height="62" rx="3" style="fill:var(--fig-panel);stroke:none"/>
+  <rect x="29" y="129" width="72" height="72" rx="3" style="fill:var(--fig-panel);stroke:none"/>
+  <rect x="29" y="219" width="72" height="72" rx="3" style="fill:var(--fig-panel);stroke:none"/>
+  <rect x="29" y="309" width="72" height="82" rx="3" style="fill:var(--fig-panel);stroke:none"/>
+  <rect x="119" y="49" width="82" height="62" rx="3" style="fill:var(--fig-panel);stroke:none"/>
+  <rect x="119" y="129" width="82" height="72" rx="3" style="fill:var(--fig-panel);stroke:none"/>
+  <rect x="119" y="219" width="82" height="72" rx="3" style="fill:var(--fig-panel);stroke:none"/>
+  <rect x="119" y="309" width="82" height="82" rx="3" style="fill:var(--fig-panel);stroke:none"/>
+  <rect x="219" y="49" width="72" height="62" rx="3" style="fill:var(--fig-panel);stroke:none"/>
+  <rect x="219" y="129" width="72" height="72" rx="3" style="fill:var(--fig-panel);stroke:none"/>
+  <rect x="219" y="219" width="72" height="72" rx="3" style="fill:var(--fig-panel);stroke:none"/>
+  <rect x="219" y="309" width="72" height="82" rx="3" style="fill:var(--fig-panel);stroke:none"/>
+  <rect x="309" y="49" width="82" height="62" rx="3" style="fill:var(--fig-panel);stroke:none"/>
+  <rect x="309" y="129" width="82" height="72" rx="3" style="fill:var(--fig-panel);stroke:none"/>
+  <rect x="309" y="219" width="82" height="72" rx="3" style="fill:var(--fig-panel);stroke:none"/>
+  <rect x="309" y="309" width="82" height="82" rx="3" style="fill:var(--fig-panel);stroke:none"/>
+  <rect x="409" y="49" width="82" height="62" rx="3" style="fill:var(--fig-panel);stroke:none"/>
+  <rect x="409" y="129" width="82" height="72" rx="3" style="fill:var(--fig-panel);stroke:none"/>
+  <rect x="409" y="219" width="82" height="72" rx="3" style="fill:var(--fig-panel);stroke:none"/>
+  <rect x="409" y="309" width="82" height="82" rx="3" style="fill:var(--fig-panel);stroke:none"/>
+  <rect x="239.7" y="228.5" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="241.1" y="193.8" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="207.4" y="198.0" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="305.4" y="224.8" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="301.8" y="217.5" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="270.9" y="214.8" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="172.0" y="242.9" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="276.3" y="228.0" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="170.8" y="133.8" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="209.3" y="187.3" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="266.7" y="205.1" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="277.0" y="180.0" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="266.8" y="223.6" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="220.3" y="279.1" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="278.7" y="257.3" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="222.2" y="175.9" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="235.5" y="202.5" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="282.3" y="217.4" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="230.5" y="166.8" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="227.0" y="258.3" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="213.2" y="217.3" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="272.5" y="144.4" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="254.3" y="261.9" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="155.3" y="193.5" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="246.9" y="172.7" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="275.9" y="204.4" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="181.7" y="241.8" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="284.1" y="246.7" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="321.1" y="222.2" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="257.7" y="152.4" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="230.3" y="153.9" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="313.9" y="121.7" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="182.0" y="217.1" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="321.3" y="231.3" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="160.8" y="101.2" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="269.2" y="176.1" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="198.3" y="248.0" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="328.5" y="233.0" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="176.7" y="260.8" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="297.8" y="229.2" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="157.3" y="180.4" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="292.4" y="130.9" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="243.2" y="249.8" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="189.1" y="274.6" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="267.6" y="234.3" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="257.8" y="255.1" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="220.2" y="189.6" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="302.0" y="208.1" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="209.7" y="246.8" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="322.3" y="188.3" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="185.8" y="201.3" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="319.4" y="163.9" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="312.5" y="153.7" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="214.2" y="233.5" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="306.2" y="243.1" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="259.3" y="231.2" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="243.5" y="218.7" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="288.7" y="230.8" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="348.5" y="220.6" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="231.5" y="191.4" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="251.4" y="245.8" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="340.2" y="99.3" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="57.0" y="67.0" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="467.0" y="367.0" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="157.0" y="357.0" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="437.0" y="147.0" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="67.0" y="257.0" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="347.0" y="377.0" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <rect x="457.0" y="237.0" width="6" height="6" style="fill:var(--fig-ink)"/>
+  <circle cx="110" cy="120" r="8" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2.5"/>
+  <circle cx="400" cy="300" r="8" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2.5"/>
+  <circle cx="110" cy="360" r="8" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2.5"/>
+  <circle cx="450" cy="80" r="8" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2.5"/>
+  <circle cx="255" cy="210" r="11" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:3"/>
+  <circle cx="255" cy="210" r="62" style="fill:none;stroke:var(--fig-red);stroke-width:1.5;stroke-dasharray:6 5"/>
+  <text x="520.0" y="64.0" text-anchor="start" class="f61sm-h">범례</text>
+  <rect x="520" y="82" width="8" height="8" style="fill:var(--fig-ink)"/>
+  <text x="538.0" y="91.0" text-anchor="start" class="f61sm-t">사망자가 나온 집</text>
+  <circle cx="525" cy="116" r="8" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:3"/>
+  <text x="538.0" y="121.0" text-anchor="start" class="f61sm-t">브로드가 공용 펌프</text>
+  <circle cx="525" cy="146" r="7" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2.5"/>
+  <text x="538.0" y="151.0" text-anchor="start" class="f61sm-t">다른 공용 펌프</text>
+  <rect x="518" y="164" width="16" height="12" rx="2" style="fill:var(--fig-panel)"/>
+  <text x="538.0" y="175.0" text-anchor="start" class="f61sm-t">건물 구역</text>
+  <text x="520.0" y="216.0" text-anchor="start" class="f61sm-h">데이터가 보여 준 것</text>
+  <text x="520.0" y="240.0" text-anchor="start" class="f61sm-t">사망자가 한 펌프 주변에</text>
+  <text x="520.0" y="260.0" text-anchor="start" class="f61sm-t">몰려 있다(점선 원).</text>
+  <text x="520.0" y="280.0" text-anchor="start" class="f61sm-t">다른 펌프 주변은 드물다.</text>
+  <text x="520.0" y="300.0" text-anchor="start" class="f61sm-t">→ 그 펌프의 물을 원인으로</text>
+  <text x="520.0" y="320.0" text-anchor="start" class="f61sm-t">추론하고 손잡이를 뗐다.</text>
+  <text x="520.0" y="340.0" text-anchor="start" class="f61sm-s">(원인균을 보기 전에</text>
+  <text x="520.0" y="360.0" text-anchor="start" class="f61sm-s"> 데이터로 추론)</text>
+
+</svg>

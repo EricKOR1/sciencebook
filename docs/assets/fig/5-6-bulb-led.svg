@@ -11,18 +11,18 @@
   <text x="20" y="26" class="bl-lbl">같은 밝기, 1초 동안의 에너지</text>
   <text x="20" y="46" class="bl-sm">막대 길이 = 1초 동안 공급한 전기 에너지(J)</text>
   <text x="20" y="92" class="bl-lbl">백열전구</text><text x="20" y="110" class="bl-sm">60 W</text>
-  <rect x="120.0" y="70" width="28.5" height="46" class="bl-light"/>
-  <rect x="148.5" y="70" width="541.5" height="46" class="bl-heat"/>
-  <text x="419.2" y="98.0" text-anchor="middle" class="bl-in">열에너지 57 J</text>
+  <rect x="120.0" y="70" width="27.0" height="46" class="bl-light"/>
+  <rect x="147.0" y="70" width="513.0" height="46" class="bl-heat"/>
+  <text x="403.5" y="98.0" text-anchor="middle" class="bl-in">열에너지 57 J</text>
   <line x1="134" y1="70" x2="160" y2="58" class="bl-ptr"/><text x="164" y="60" class="bl-ink">빛에너지 3 J</text>
-  <text x="696.0" y="98" class="bl-ink" style="font-weight:700">60 J</text>
+  <text x="666" y="98" class="bl-ink" style="font-weight:700">60 J</text>
   <text x="120" y="136" class="bl-ink">효율 = 3 ÷ 60 × 100 = <tspan style="font-weight:700;fill:var(--fig-red)">5%</tspan></text>
   <text x="20" y="192" class="bl-lbl">LED 전등</text><text x="20" y="210" class="bl-sm">10 W</text>
-  <rect x="120.0" y="170" width="28.5" height="46" class="bl-light"/>
-  <text x="134.2" y="198.0" text-anchor="middle" class="bl-in">빛 3 J</text>
-  <rect x="148.5" y="170" width="66.5" height="46" class="bl-heat"/>
-  <line x1="181.5" y1="216" x2="198.5" y2="230" class="bl-ptr"/><text x="202.5" y="236" class="bl-ink">열에너지 7 J</text>
-  <text x="221.0" y="198" class="bl-ink" style="font-weight:700">10 J</text>
+  <rect x="120.0" y="170" width="27.0" height="46" class="bl-light"/>
+  <rect x="147.0" y="170" width="63.0" height="46" class="bl-heat"/>
+  <line x1="180" y1="216" x2="197" y2="230" class="bl-ptr"/><text x="201" y="236" class="bl-ink">열에너지 7 J</text>
+  <line x1="134" y1="170" x2="160" y2="158" class="bl-ptr"/><text x="164" y="160" class="bl-ink">빛에너지 3 J</text>
+  <text x="216" y="198" class="bl-ink" style="font-weight:700">10 J</text>
   <text x="290" y="198" class="bl-ink">효율 = 3 ÷ 10 × 100 = <tspan style="font-weight:700;fill:var(--fig-green)">30%</tspan></text>
   <rect x="120" y="258" width="16" height="14" class="bl-light"/><text x="142" y="270" class="bl-ink">유용한 에너지(빛)</text>
   <rect x="290" y="258" width="16" height="14" class="bl-heat"/><text x="312" y="270" class="bl-ink">버려지는 에너지(주로 열)</text>

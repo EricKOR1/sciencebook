@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 284" role="img" aria-labelledby="t-bio-1-age-pyramid d-bio-1-age-pyramid">
+  <title id="t-bio-1-age-pyramid">그림 생명과학 1-6 연령 피라미드의 세 가지 유형</title>
+  <desc id="d-bio-1-age-pyramid">연령별 개체 수를 아래(어린 개체)부터 쌓은 연령 피라미드이다. 생식 전 연령층이 넓은 발전형은 개체군이 커지고, 층별 크기가 비슷한 안정형은 유지되며, 생식 전 연령층이 좁은 쇠퇴형은 줄어들 것으로 예측한다. 모식도.</desc>
+  <style>
+    .b1age-lbl{font-size:13.5px;fill:var(--fig-ink)} .b1age-b{font-size:14.5px;font-weight:700;fill:var(--fig-ink)}
+    .b1age-sm{font-size:12.5px;fill:var(--fig-muted)} .b1age-lead{fill:none;stroke:var(--fig-muted);stroke-width:1.1}
+    .b1age-ink{fill:var(--fig-ink)} .b1age-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
+    
+  </style>
+  <text x="140.0" y="30.0" text-anchor="middle" class="b1age-b">발전형</text>
+  <rect x="131.0" y="46" width="18.0" height="15" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <rect x="122.0" y="63" width="36.0" height="15" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <rect x="113.0" y="80" width="54.0" height="15" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <rect x="104.0" y="97" width="72.0" height="15" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2"/>
+  <rect x="95.0" y="114" width="90.0" height="15" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2"/>
+  <rect x="86.0" y="131" width="108.0" height="15" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2"/>
+  <rect x="77.0" y="148" width="126.0" height="15" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2"/>
+  <rect x="68.0" y="165" width="144.0" height="15" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.2"/>
+  <rect x="59.0" y="182" width="162.0" height="15" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.2"/>
+  <rect x="50.0" y="199" width="180.0" height="15" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.2"/>
+  <line x1="140" y1="42" x2="140" y2="218" style="stroke:var(--fig-line);stroke-width:1"/>
+  <text x="140.0" y="240.0" text-anchor="middle" class="b1age-lbl">개체 수 증가 예상</text>
+  <text x="360.0" y="30.0" text-anchor="middle" class="b1age-b">안정형</text>
+  <rect x="340.2" y="46" width="39.6" height="15" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <rect x="327.6" y="63" width="64.8" height="15" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <rect x="318.6" y="80" width="82.8" height="15" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <rect x="313.2" y="97" width="93.6" height="15" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2"/>
+  <rect x="309.6" y="114" width="100.8" height="15" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2"/>
+  <rect x="307.8" y="131" width="104.4" height="15" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2"/>
+  <rect x="306.0" y="148" width="108.0" height="15" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2"/>
+  <rect x="306.0" y="165" width="108.0" height="15" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.2"/>
+  <rect x="304.2" y="182" width="111.6" height="15" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.2"/>
+  <rect x="304.2" y="199" width="111.6" height="15" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.2"/>
+  <line x1="360" y1="42" x2="360" y2="218" style="stroke:var(--fig-line);stroke-width:1"/>
+  <text x="360.0" y="240.0" text-anchor="middle" class="b1age-lbl">개체 수 유지 예상</text>
+  <text x="580.0" y="30.0" text-anchor="middle" class="b1age-b">쇠퇴형</text>
+  <rect x="553.0" y="46" width="54.0" height="15" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <rect x="538.6" y="63" width="82.8" height="15" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <rect x="526.0" y="80" width="108.0" height="15" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <rect x="518.8" y="97" width="122.4" height="15" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2"/>
+  <rect x="517.0" y="114" width="126.0" height="15" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2"/>
+  <rect x="518.8" y="131" width="122.4" height="15" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2"/>
+  <rect x="524.2" y="148" width="111.6" height="15" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2"/>
+  <rect x="531.4" y="165" width="97.2" height="15" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.2"/>
+  <rect x="538.6" y="182" width="82.8" height="15" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.2"/>
+  <rect x="544.0" y="199" width="72.0" height="15" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.2"/>
+  <line x1="580" y1="42" x2="580" y2="218" style="stroke:var(--fig-line);stroke-width:1"/>
+  <text x="580.0" y="240.0" text-anchor="middle" class="b1age-lbl">개체 수 감소 예상</text>
+  <text x="22.0" y="60.0" class="b1age-sm">노년</text>
+  <text x="22.0" y="120.0" class="b1age-sm">생식</text>
+  <text x="22.0" y="136.0" class="b1age-sm">연령</text>
+  <text x="22.0" y="206.0" class="b1age-sm">생식 전</text>
+  <line x1="16.0" y1="214.0" x2="16.0" y2="59.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.4"/>
+  <path d="M16.0 50.0 L20.5 59.0 L11.5 59.0 Z" style="fill:var(--fig-muted)"/>
+  <text x="360.0" y="270.0" text-anchor="middle" class="b1age-sm">막대 길이 = 그 연령층의 개체 수. 아래(생식 전 연령)가 넓을수록 앞으로 생식할 개체가 많다</text>
+
+</svg>

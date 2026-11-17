@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t-6-2-nwp-grid d-6-2-nwp-grid">
+  <title id="t-6-2-nwp-grid">그림 6-2-3 수치예보 — 대기를 격자로 나누어 계산하기</title>
+  <desc id="d-6-2-nwp-grid">수치예보는 대기를 가로·세로·높이 방향의 격자로 나누고, 위성·레이더·지상 관측소·고층 관측에서 모은 자료로 각 칸의 기온·기압·바람·수증기 값을 정한 뒤, 슈퍼컴퓨터가 물리 법칙으로 앞으로의 변화를 계산한다. 격자 크기와 층 수는 모식도이다.</desc>
+  <defs>
+    <marker id="f62ng-arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" style="fill:var(--fig-ink)"/></marker>
+  </defs>
+  <style>
+    .f62ng-h{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .f62ng-t{font-size:13px;fill:var(--fig-ink)}
+    .f62ng-s{font-size:12px;fill:var(--fig-muted)}
+    .f62ng-ln{fill:none;stroke:var(--fig-line);stroke-width:1.5}
+    .f62ng-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.5}
+    .f62ng-ar{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
+    .f62ng-box{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2}
+  </style>
+  <polygon points="60.0,340.0 360.0,340.0 420.0,260.0 120.0,260.0" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <line x1="110.0" y1="340.0" x2="170.0" y2="260.0" style="stroke:var(--fig-green);stroke-width:0.8"/>
+  <line x1="160.0" y1="340.0" x2="220.0" y2="260.0" style="stroke:var(--fig-green);stroke-width:0.8"/>
+  <line x1="210.0" y1="340.0" x2="270.0" y2="260.0" style="stroke:var(--fig-green);stroke-width:0.8"/>
+  <line x1="260.0" y1="340.0" x2="320.0" y2="260.0" style="stroke:var(--fig-green);stroke-width:0.8"/>
+  <line x1="310.0" y1="340.0" x2="370.0" y2="260.0" style="stroke:var(--fig-green);stroke-width:0.8"/>
+  <line x1="75.0" y1="320.0" x2="375.0" y2="320.0" style="stroke:var(--fig-green);stroke-width:0.8"/>
+  <line x1="90.0" y1="300.0" x2="390.0" y2="300.0" style="stroke:var(--fig-green);stroke-width:0.8"/>
+  <line x1="105.0" y1="280.0" x2="405.0" y2="280.0" style="stroke:var(--fig-green);stroke-width:0.8"/>
+  <line x1="60.0" y1="340.0" x2="60.0" y2="175.0" style="stroke:var(--fig-blue);stroke-width:1;stroke-dasharray:4 3"/>
+  <line x1="360.0" y1="340.0" x2="360.0" y2="175.0" style="stroke:var(--fig-blue);stroke-width:1;stroke-dasharray:4 3"/>
+  <line x1="420.0" y1="260.0" x2="420.0" y2="95.0" style="stroke:var(--fig-blue);stroke-width:1;stroke-dasharray:4 3"/>
+  <line x1="120.0" y1="260.0" x2="120.0" y2="95.0" style="stroke:var(--fig-blue);stroke-width:1;stroke-dasharray:4 3"/>
+  <polygon points="60.0,285.0 360.0,285.0 420.0,205.0 120.0,205.0" style="fill:var(--fig-soft-blue);fill-opacity:0.35;stroke:var(--fig-blue);stroke-width:1"/>
+  <polygon points="175.0,265.0 225.0,265.0 225.0,210.0 175.0,210.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <polygon points="225.0,265.0 240.0,245.0 240.0,190.0 225.0,210.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <polygon points="175.0,210.0 225.0,210.0 240.0,190.0 190.0,190.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <polygon points="60.0,230.0 360.0,230.0 420.0,150.0 120.0,150.0" style="fill:var(--fig-soft-blue);fill-opacity:0.35;stroke:var(--fig-blue);stroke-width:1"/>
+  <polygon points="60.0,175.0 360.0,175.0 420.0,95.0 120.0,95.0" style="fill:var(--fig-soft-blue);fill-opacity:0.35;stroke:var(--fig-blue);stroke-width:1"/>
+  <line x1="110.0" y1="175.0" x2="170.0" y2="95.0" style="stroke:var(--fig-blue);stroke-width:0.6"/>
+  <line x1="160.0" y1="175.0" x2="220.0" y2="95.0" style="stroke:var(--fig-blue);stroke-width:0.6"/>
+  <line x1="210.0" y1="175.0" x2="270.0" y2="95.0" style="stroke:var(--fig-blue);stroke-width:0.6"/>
+  <line x1="260.0" y1="175.0" x2="320.0" y2="95.0" style="stroke:var(--fig-blue);stroke-width:0.6"/>
+  <line x1="310.0" y1="175.0" x2="370.0" y2="95.0" style="stroke:var(--fig-blue);stroke-width:0.6"/>
+  <line x1="75.0" y1="155.0" x2="375.0" y2="155.0" style="stroke:var(--fig-blue);stroke-width:0.6"/>
+  <line x1="90.0" y1="135.0" x2="390.0" y2="135.0" style="stroke:var(--fig-blue);stroke-width:0.6"/>
+  <line x1="105.0" y1="115.0" x2="405.0" y2="115.0" style="stroke:var(--fig-blue);stroke-width:0.6"/>
+  <line x1="229.0" y1="240.0" x2="250" y2="395" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="20.0" y="400.0" text-anchor="start" class="f62ng-t">격자 한 칸 — 기온·기압·바람·수증기 값을 가진다</text>
+  <text x="70.0" y="365.0" text-anchor="start" class="f62ng-s">지표</text>
+  <text x="398.0" y="260.0" text-anchor="start" class="f62ng-s">높이 방향으로도</text>
+  <text x="398.0" y="276.0" text-anchor="start" class="f62ng-s">여러 층</text>
+  <rect x="30" y="22" width="90" height="30" rx="6" class="f62ng-box"/>
+  <text x="75.0" y="42.0" text-anchor="middle" class="f62ng-t">기상 위성</text>
+  <line x1="75.0" y1="54.0" x2="105.0" y2="98.0" class="f62ng-ar" marker-end="url(#f62ng-arw)"/>
+  <rect x="130" y="22" width="90" height="30" rx="6" class="f62ng-box"/>
+  <text x="175.0" y="42.0" text-anchor="middle" class="f62ng-t">기상 레이더</text>
+  <line x1="175.0" y1="54.0" x2="205.0" y2="98.0" class="f62ng-ar" marker-end="url(#f62ng-arw)"/>
+  <rect x="230" y="22" width="90" height="30" rx="6" class="f62ng-box"/>
+  <text x="275.0" y="42.0" text-anchor="middle" class="f62ng-t">지상 관측소</text>
+  <line x1="275.0" y1="54.0" x2="305.0" y2="98.0" class="f62ng-ar" marker-end="url(#f62ng-arw)"/>
+  <rect x="330" y="22" width="90" height="30" rx="6" class="f62ng-box"/>
+  <text x="375.0" y="42.0" text-anchor="middle" class="f62ng-t">고층 관측</text>
+  <line x1="375.0" y1="54.0" x2="405.0" y2="98.0" class="f62ng-ar" marker-end="url(#f62ng-arw)"/>
+  <text x="20.0" y="14.0" text-anchor="start" class="f62ng-s"></text>
+  <rect x="480" y="80" width="220" height="60" rx="8" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <text x="590.0" y="106.0" text-anchor="middle" class="f62ng-h">관측 자료 모으기</text>
+  <text x="590.0" y="126.0" text-anchor="middle" class="f62ng-s">위성·레이더·관측소 등</text>
+  <line x1="590.0" y1="142.0" x2="590.0" y2="186.0" class="f62ng-ar" marker-end="url(#f62ng-arw)"/>
+  <rect x="480" y="190" width="220" height="60" rx="8" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <text x="590.0" y="216.0" text-anchor="middle" class="f62ng-h">슈퍼컴퓨터 계산</text>
+  <text x="590.0" y="236.0" text-anchor="middle" class="f62ng-s">각 칸의 변화를 물리 법칙으로</text>
+  <line x1="590.0" y1="252.0" x2="590.0" y2="296.0" class="f62ng-ar" marker-end="url(#f62ng-arw)"/>
+  <rect x="480" y="300" width="220" height="60" rx="8" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <text x="590.0" y="326.0" text-anchor="middle" class="f62ng-h">예보</text>
+  <text x="590.0" y="346.0" text-anchor="middle" class="f62ng-s">앞으로의 날씨</text>
+  <text x="590.0" y="410.0" text-anchor="middle" class="f62ng-s">격자가 촘촘할수록 계산량이 급격히 는다</text>
+
+</svg>
