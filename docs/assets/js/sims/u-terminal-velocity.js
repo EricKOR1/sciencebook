@@ -87,8 +87,8 @@ Sims.register('u-terminal-velocity', {
       var P = params(), X = axes(), tNow = st.t * X.tmax, vNow = P.v(Math.min(tNow, X.tmax));
       rNow.set(fmtV(vNow) + ' m/s / ' + (vNow / P.vt * (st.model === 'lin' ? 1 : vNow / P.vt)).toFixed(2));
       // 왼쪽: 낙하 물체와 힘
-      var col = narrow ? { x: 0, y: 0, w: w, h: h * 0.3 } : { x: 0, y: 0, w: w * 0.24, h: h };
-      var gr = narrow ? { x: 0, y: h * 0.32, w: w, h: h * 0.68 } : { x: w * 0.26, y: 0, w: w * 0.74, h: h };
+      var col = narrow ? { x: 0, y: 0, w: w, h: h * 0.32 } : { x: 0, y: 0, w: w * 0.24, h: h };
+      var gr = narrow ? { x: 0, y: h * 0.34, w: w, h: h * 0.66 } : { x: w * 0.26, y: 0, w: w * 0.74, h: h };
       ctx.fillStyle = T.figPaper; ctx.fillRect(col.x + 6, col.y + 6, col.w - 12, col.h - 12);
       // 위로 흘러가는 공기 줄무늬(물체 기준으로 본 공기의 움직임)
       ctx.save(); ctx.beginPath(); ctx.rect(col.x + 6, col.y + 6, col.w - 12, col.h - 12); ctx.clip();
@@ -108,8 +108,8 @@ Sims.register('u-terminal-velocity', {
       ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'left';
       ctx.fillStyle = T.figInk; ctx.fillText('mg', cx + 8, cy + R + fk - 2);
       ctx.fillStyle = T.figRed; ctx.fillText('D', cx + 8, cy - R - Math.max(ratioD * fk, 8) + 10);
-      ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'center';
-      ctx.fillText('힘(같은 축척)', cx, col.y + col.h - 14);
+      ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
+      ctx.fillText('물체가 받는 힘', col.x + 12, col.y + 22);
       // 오른쪽: v-t 그래프
       var L = gr.x + 54, Rr = gr.x + gr.w - 14, Tp = gr.y + 20, B = gr.y + gr.h - 40;
       var sx = function (t) { return L + (Rr - L) * t / X.tmax; }, sy = function (v) { return B - (B - Tp) * v / X.vmax; };

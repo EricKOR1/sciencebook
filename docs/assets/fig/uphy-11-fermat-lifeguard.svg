@@ -10,7 +10,7 @@
 <rect x="20" y="175" width="400" height="160" style="fill:var(--fig-soft-blue)"/>
 <line x1="20" y1="175" x2="420" y2="175" style="stroke:var(--fig-line);stroke-width:2"/>
 <text x="410" y="62" text-anchor="end" class="u11a-s">모래: 빨리 달린다 (v₁)</text>
-<text x="410" y="326" text-anchor="end" class="u11a-s">물: 느리게 헤엄친다 (v₂ &lt; v₁)</text>
+<text x="30" y="326" class="u11a-s">물: 느리게 헤엄친다 (v₂ &lt; v₁)</text>
 <polyline points="50,60 353.6,175 380,295" style="fill:none;stroke:var(--fig-muted);stroke-width:1.6;stroke-dasharray:3 4"/>
 <line x1="50" y1="60" x2="380" y2="295" style="fill:none;stroke:var(--fig-muted);stroke-width:1.6;stroke-dasharray:7 5"/>
 <polyline points="50,60 317.9,175 380,295" style="fill:none;stroke:var(--fig-red);stroke-width:3"/>
@@ -20,7 +20,7 @@
 <path d="M317.9 217 A42 42 0 0 0 337.2 212.3" style="fill:none;stroke:var(--fig-red);stroke-width:1.5"/>
 <text x="330.9" y="237.0" text-anchor="middle" class="u11a-sm" style="fill:var(--fig-red)">θ₂</text>
 <circle cx="50" cy="60" r="6" style="fill:var(--fig-ink)"/><text x="60" y="52" class="u11a-tb">P (구조 요원)</text>
-<circle cx="380" cy="295" r="6" style="fill:var(--fig-ink)"/><text x="370" y="317" text-anchor="end" class="u11a-tb">Q (물에 빠진 사람)</text>
+<circle cx="380" cy="295" r="6" style="fill:var(--fig-ink)"/><text x="366" y="300" text-anchor="end" class="u11a-tb">Q (물에 빠진 사람)</text>
 <line x1="32.0" y1="175.0" x2="32.0" y2="67.0" style="stroke:var(--fig-muted);stroke-width:1.2"/><path d="M32.0 60.0 L35.0 67.0 L29.0 67.0 Z" style="fill:var(--fig-muted)"/><line x1="32.0" y1="60.0" x2="32.0" y2="168.0" style="stroke:var(--fig-muted);stroke-width:1.2"/><path d="M32.0 175.0 L29.0 168.0 L35.0 168.0 Z" style="fill:var(--fig-muted)"/>
 <text x="40" y="122" class="u11a-sm">a</text>
 <line x1="396.0" y1="175.0" x2="396.0" y2="288.0" style="stroke:var(--fig-muted);stroke-width:1.2"/><path d="M396.0 295.0 L393.0 288.0 L399.0 288.0 Z" style="fill:var(--fig-muted)"/><line x1="396.0" y1="295.0" x2="396.0" y2="182.0" style="stroke:var(--fig-muted);stroke-width:1.2"/><path d="M396.0 175.0 L399.0 182.0 L393.0 182.0 Z" style="fill:var(--fig-muted)"/>
@@ -41,5 +41,5 @@
 <line x1="648.6" y1="199.0" x2="648.6" y2="205" style="stroke:var(--fig-red);stroke-width:1.2;stroke-dasharray:4 3"/>
 <text x="648.6" y="187.0" text-anchor="middle" class="u11a-s" style="fill:var(--fig-red)">최소</text>
 <circle cx="577.7" cy="173.4" r="4" style="fill:var(--fig-muted)"/>
-<text x="585.7" y="187.4" class="u11a-s">직선 경로</text>
+<text x="569.7" y="165.4" text-anchor="end" class="u11a-s">직선 경로</text>
 </svg>

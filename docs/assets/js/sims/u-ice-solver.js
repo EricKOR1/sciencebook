@@ -174,7 +174,7 @@ Sims.register('u-ice-solver', {
       ctx.fillStyle = T.figInk; ctx.font = '600 13px ' + T.fontBody; ctx.textAlign = 'left';
       ctx.fillText('처음(연한 막대)과 평형(진한 막대) 농도', r.x + 8, r.y + 14);
       ctx.font = '11px ' + T.fontMono; ctx.fillStyle = T.figMuted; ctx.strokeStyle = T.rule; ctx.lineWidth = 1; ctx.textAlign = 'right';
-      for (var v = 0; v <= ymax + 1e-12; v += step) { ctx.beginPath(); ctx.moveTo(L, sy(v)); ctx.lineTo(R, sy(v)); ctx.stroke(); ctx.fillText(sci(v), L - 4, sy(v) + 4); }
+      for (var v = 0; v <= ymax + 1e-12; v += step) { ctx.beginPath(); ctx.moveTo(L, sy(v)); ctx.lineTo(R, sy(v)); ctx.stroke(); ctx.fillText(tick(v, step), L - 4, sy(v) + 4); }
       var C = colors(T), gw = (R - L) / n, bw = Math.min(30, gw * 0.32);
       sp.forEach(function (s, j) {
         var cx = L + gw * (j + 0.5);
@@ -193,7 +193,7 @@ Sims.register('u-ice-solver', {
       ctx.fillStyle = T.figInk; ctx.font = '600 13px ' + T.fontBody; ctx.textAlign = 'left';
       ctx.fillText('농도–시간 곡선', r.x + 8, r.y + 14);
       ctx.font = '11px ' + T.fontMono; ctx.fillStyle = T.figMuted; ctx.strokeStyle = T.rule; ctx.lineWidth = 1; ctx.textAlign = 'right';
-      for (var v = 0; v <= ymax + 1e-12; v += step) { ctx.beginPath(); ctx.moveTo(L, sy(v)); ctx.lineTo(R, sy(v)); ctx.stroke(); ctx.fillText(sci(v), L - 4, sy(v) + 4); }
+      for (var v = 0; v <= ymax + 1e-12; v += step) { ctx.beginPath(); ctx.moveTo(L, sy(v)); ctx.lineTo(R, sy(v)); ctx.stroke(); ctx.fillText(tick(v, step), L - 4, sy(v) + 4); }
       ctx.strokeStyle = T.figInk; ctx.beginPath(); ctx.moveTo(L, Tp - 4); ctx.lineTo(L, B); ctx.lineTo(R, B); ctx.stroke();
       ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right'; ctx.fillText('시간 (임의 단위) →', R, B + 16);
       var C = colors(T);
@@ -209,6 +209,7 @@ Sims.register('u-ice-solver', {
         ctx.fillStyle = C[j]; ctx.fillRect(lx, r.y + 6, 14, 3); ctx.fillStyle = T.figInk; ctx.fillText(s.n, lx + 18, r.y + 12); lx += ctx.measureText(s.n).width + 32;
       });
     }
+    function tick(v, step) { if (v === 0) return '0'; var d = Math.max(0, -Math.floor(Math.log10(step) + 1e-9)); return d > 4 ? sci(v) : v.toFixed(d); }
     function niceStep(range, n) { if (!(range > 0)) return 1; var raw = range / n, e = Math.pow(10, Math.floor(Math.log10(raw))), f = raw / e; return (f < 1.5 ? 1 : f < 3 ? 2 : f < 7 ? 5 : 10) * e; }
 
     api.onResize(draw);

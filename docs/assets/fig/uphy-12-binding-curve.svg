@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 354" role="img" aria-labelledby="t-uphy-12-binding-curve d-uphy-12-binding-curve">
+  <title id="t-uphy-12-binding-curve">그림 일반물리학 12-3 질량수에 따른 핵자당 결합 에너지</title>
+  <desc id="d-uphy-12-binding-curve">핵자당 결합 에너지는 가벼운 핵에서 질량수와 함께 빠르게 커지고(헬륨-4는 주변보다 특히 크다), 질량수 60 근처의 철·니켈에서 약 8.8 MeV로 가장 크며, 그보다 무거운 핵에서는 천천히 줄어 우라늄에서 약 7.6 MeV가 된다. 그래서 가벼운 핵은 합쳐질 때(핵융합), 무거운 핵은 중간 질량의 핵 둘로 쪼개질 때(핵분열) 핵자당 결합 에너지가 커지며 에너지가 나온다. 점은 대표적인 핵종의 실제 값이다.</desc>
+  <style>
+    .u12c-t{font-size:14px;fill:var(--fig-ink)} .u12c-tb{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .u12c-s{font-size:13px;fill:var(--fig-muted)} .u12c-sm{font-size:13px;fill:var(--fig-ink)}
+    .u12c-ax{stroke:var(--fig-ink);stroke-width:1.5;fill:none} .u12c-grid{stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4;fill:none}
+  </style>
+<line x1="80" y1="300.0" x2="690" y2="300.0" class="u12c-grid"/>
+<text x="72" y="305.0" text-anchor="end" class="u12c-s">0</text>
+<line x1="80" y1="271.1" x2="690" y2="271.1" class="u12c-grid"/>
+<line x1="80" y1="242.2" x2="690" y2="242.2" class="u12c-grid"/>
+<text x="72" y="247.2" text-anchor="end" class="u12c-s">2</text>
+<line x1="80" y1="213.3" x2="690" y2="213.3" class="u12c-grid"/>
+<line x1="80" y1="184.4" x2="690" y2="184.4" class="u12c-grid"/>
+<text x="72" y="189.4" text-anchor="end" class="u12c-s">4</text>
+<line x1="80" y1="155.6" x2="690" y2="155.6" class="u12c-grid"/>
+<line x1="80" y1="126.7" x2="690" y2="126.7" class="u12c-grid"/>
+<text x="72" y="131.7" text-anchor="end" class="u12c-s">6</text>
+<line x1="80" y1="97.8" x2="690" y2="97.8" class="u12c-grid"/>
+<line x1="80" y1="68.9" x2="690" y2="68.9" class="u12c-grid"/>
+<text x="72" y="73.9" text-anchor="end" class="u12c-s">8</text>
+<line x1="80" y1="40.0" x2="690" y2="40.0" class="u12c-grid"/>
+<text x="80.0" y="320" text-anchor="middle" class="u12c-s">0</text>
+<text x="181.7" y="320" text-anchor="middle" class="u12c-s">40</text>
+<text x="283.3" y="320" text-anchor="middle" class="u12c-s">80</text>
+<text x="385.0" y="320" text-anchor="middle" class="u12c-s">120</text>
+<text x="486.7" y="320" text-anchor="middle" class="u12c-s">160</text>
+<text x="588.3" y="320" text-anchor="middle" class="u12c-s">200</text>
+<text x="690.0" y="320" text-anchor="middle" class="u12c-s">240</text>
+<line x1="80" y1="300" x2="690" y2="300" class="u12c-ax"/><line x1="80" y1="300" x2="80" y2="34" class="u12c-ax"/>
+<text x="385.0" y="342" text-anchor="middle" class="u12c-t">질량수 A</text>
+<text x="24" y="170.0" text-anchor="middle" transform="rotate(-90 24 170.0)" class="u12c-t">핵자당 결합 에너지 (MeV)</text>
+<rect x="207.1" y="40" width="50.8" height="260" style="fill:var(--fig-soft-green);fill-opacity:0.7"/>
+<polyline points="85.1,267.9 87.6,218.3 90.2,95.6 95.2,146.0 97.8,138.0 102.9,113.3 105.4,112.9 108.0,99.9 110.5,78.1 115.6,84.0 120.7,69.6 128.3,75.3 130.8,68.0 138.5,65.7 141.0,61.3 151.2,55.9 161.3,54.6 181.7,53.0 202.0,48.0 212.2,46.5 222.3,46.1 237.6,45.9 240.1,47.2 242.7,47.6 293.5,48.2 308.8,48.4 329.1,50.5 385.0,54.3 415.5,56.5 430.8,57.5 440.9,58.9 501.9,64.8 547.7,68.7 575.6,71.0 608.7,72.7 669.7,80.0 677.3,80.7 684.9,81.3" style="fill:none;stroke:var(--fig-accent);stroke-width:2"/>
+<circle cx="85.1" cy="267.9" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="87.6" cy="225.7" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="87.6" cy="218.3" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="90.2" cy="95.6" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="95.2" cy="146.0" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="97.8" cy="138.0" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="102.9" cy="113.3" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="105.4" cy="112.9" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="108.0" cy="99.9" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="110.5" cy="78.1" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="115.6" cy="84.0" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="120.7" cy="69.6" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="128.3" cy="75.3" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="130.8" cy="68.0" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="138.5" cy="65.7" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="141.0" cy="61.3" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="151.2" cy="55.9" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="161.3" cy="54.6" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="181.7" cy="53.0" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="202.0" cy="48.0" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="212.2" cy="46.5" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="222.3" cy="46.1" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="237.6" cy="45.9" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="240.1" cy="47.2" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="242.7" cy="47.6" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="293.5" cy="48.2" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="308.8" cy="48.4" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="329.1" cy="50.5" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="385.0" cy="54.3" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="415.5" cy="56.5" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="430.8" cy="57.5" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="440.9" cy="58.9" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="501.9" cy="64.8" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="547.7" cy="68.7" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="575.6" cy="71.0" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="608.7" cy="72.7" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="669.7" cy="80.0" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="677.3" cy="80.7" r="3.5" style="fill:var(--fig-accent)"/>
+<circle cx="684.9" cy="81.3" r="3.5" style="fill:var(--fig-accent)"/>
+<text x="95.1" y="271.9" text-anchor="start" class="u12c-sm">²H</text>
+<text x="100.2" y="99.6" text-anchor="start" class="u12c-sm">⁴He</text>
+<text x="118.5" y="94.1" text-anchor="start" class="u12c-sm">¹²C</text>
+<text x="126.7" y="87.6" text-anchor="start" class="u12c-sm">¹⁶O</text>
+<text x="222.3" y="32.1" text-anchor="middle" class="u12c-sm">⁵⁶Fe</text>
+<text x="608.7" y="60.7" text-anchor="middle" class="u12c-sm">²⁰⁸Pb</text>
+<text x="669.3" y="100.7" text-anchor="end" class="u12c-sm">²³⁵U</text>
+<text x="232.5" y="56" text-anchor="middle" class="u12c-s" style="fill:var(--fig-green)">철·니켈 근처 최대 (약 8.8 MeV)</text>
+<line x1="90.2" y1="138.2" x2="168.7" y2="138.2" style="stroke:var(--fig-red);stroke-width:3"/><path d="M181.7 138.2 L168.7 143.7 L168.7 132.7 Z" style="fill:var(--fig-red)"/>
+<text x="95.2" y="160.2" class="u12c-sm" style="fill:var(--fig-red);font-weight:600">핵융합 → 에너지 방출</text>
+<line x1="669.7" y1="109.3" x2="398.0" y2="109.3" style="stroke:var(--fig-violet);stroke-width:3"/><path d="M385.0 109.3 L398.0 103.8 L398.0 114.8 Z" style="fill:var(--fig-violet)"/>
+<text x="669.7" y="131.3" text-anchor="end" class="u12c-sm" style="fill:var(--fig-violet);font-weight:600">← 핵분열(중간 질량 핵 둘로) → 에너지 방출</text>
+<text x="669.7" y="149.3" text-anchor="end" class="u12c-s">무거운 핵 → 약 7.6 MeV에서 약 8.5 MeV로</text>
+</svg>

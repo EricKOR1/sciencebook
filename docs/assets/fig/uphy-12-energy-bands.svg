@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 356" role="img" aria-labelledby="t-uphy-12-energy-bands d-uphy-12-energy-bands">
+  <title id="t-uphy-12-energy-bands">그림 일반물리학 12-2 도체·절연체·반도체의 에너지띠와 도핑</title>
+  <desc id="d-uphy-12-energy-bands">도체는 전자가 일부만 찬 띠가 있어 작은 전기장에도 전류가 흐른다. 절연체는 꽉 찬 원자가띠와 빈 전도띠 사이의 띠틈이 커서 상온에서 전자가 넘어가지 못한다. 반도체는 띠틈이 작아 일부 전자가 열로 전도띠에 올라가고 원자가띠에 양공을 남긴다. n형은 전도띠 바로 아래의 주개 준위가 전자를 전도띠에 내주고, p형은 원자가띠 바로 위의 받개 준위가 전자를 받아 원자가띠에 양공을 만든다.</desc>
+  <style>
+    .u12b-t{font-size:14px;fill:var(--fig-ink)} .u12b-tb{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .u12b-s{font-size:13px;fill:var(--fig-muted)} .u12b-sm{font-size:13px;fill:var(--fig-ink)}
+    .u12b-ax{stroke:var(--fig-ink);stroke-width:1.5;fill:none} .u12b-grid{stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4;fill:none}
+  </style>
+<line x1="18.0" y1="262.0" x2="18.0" y2="59.0" style="stroke:var(--fig-ink);stroke-width:1.5"/><path d="M18.0 50.0 L21.5 59.0 L14.5 59.0 Z" style="fill:var(--fig-ink)"/>
+<text x="26" y="44" class="u12b-s">에너지</text>
+<text x="111" y="30" text-anchor="middle" class="u12b-tb">도체(금속)</text>
+<rect x="63" y="96" width="96" height="140" style="fill:var(--fig-paper);stroke:var(--fig-blue);stroke-width:1.8"/>
+<rect x="63" y="170" width="96" height="66" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+<line x1="59" y1="170" x2="163" y2="170" style="stroke:var(--fig-ink);stroke-width:1.2;stroke-dasharray:4 3"/>
+<circle cx="75" cy="162" r="4.5" style="fill:var(--fig-blue)"/>
+<circle cx="93" cy="162" r="4.5" style="fill:var(--fig-blue)"/>
+<circle cx="111" cy="162" r="4.5" style="fill:var(--fig-blue)"/>
+<circle cx="129" cy="162" r="4.5" style="fill:var(--fig-blue)"/>
+<circle cx="147" cy="162" r="4.5" style="fill:var(--fig-blue)"/>
+<text x="111" y="130" text-anchor="middle" class="u12b-s">빈 상태</text>
+<text x="111" y="208" text-anchor="middle" class="u12b-sm">찬 상태</text>
+<text x="111" y="262" text-anchor="middle" class="u12b-s">일부만 찬 띠</text>
+<text x="245" y="30" text-anchor="middle" class="u12b-tb">절연체</text>
+<rect x="197" y="56" width="96" height="44" style="fill:var(--fig-paper);stroke:var(--fig-teal);stroke-width:1.8"/>
+<rect x="197" y="196" width="96" height="52" style="fill:var(--fig-paper);stroke:var(--fig-blue);stroke-width:1.8"/>
+<rect x="197" y="196" width="96" height="52" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+<text x="245" y="83.0" text-anchor="middle" class="u12b-s">전도띠</text>
+<text x="245" y="227.0" text-anchor="middle" class="u12b-sm">원자가띠</text>
+<line x1="301.0" y1="100.0" x2="301.0" y2="190.0" style="stroke:var(--fig-muted);stroke-width:1.2"/><path d="M301.0 196.0 L298.5 190.0 L303.5 190.0 Z" style="fill:var(--fig-muted)"/><line x1="301.0" y1="196.0" x2="301.0" y2="106.0" style="stroke:var(--fig-muted);stroke-width:1.2"/><path d="M301.0 100.0 L303.5 106.0 L298.5 106.0 Z" style="fill:var(--fig-muted)"/>
+<text x="307" y="153.0" class="u12b-s">E_g</text>
+<text x="245" y="153.0" text-anchor="middle" class="u12b-s">띠틈이 크다</text>
+<text x="379" y="30" text-anchor="middle" class="u12b-tb">반도체</text>
+<rect x="331" y="76" width="96" height="56" style="fill:var(--fig-paper);stroke:var(--fig-teal);stroke-width:1.8"/>
+<rect x="331" y="164" width="96" height="54" style="fill:var(--fig-paper);stroke:var(--fig-blue);stroke-width:1.8"/>
+<rect x="331" y="164" width="96" height="54" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+<text x="379" y="109.0" text-anchor="middle" class="u12b-s">전도띠</text>
+<text x="379" y="196.0" text-anchor="middle" class="u12b-sm">원자가띠</text>
+<line x1="435.0" y1="132.0" x2="435.0" y2="158.0" style="stroke:var(--fig-muted);stroke-width:1.2"/><path d="M435.0 164.0 L432.5 158.0 L437.5 158.0 Z" style="fill:var(--fig-muted)"/><line x1="435.0" y1="164.0" x2="435.0" y2="138.0" style="stroke:var(--fig-muted);stroke-width:1.2"/><path d="M435.0 132.0 L437.5 138.0 L432.5 138.0 Z" style="fill:var(--fig-muted)"/>
+<text x="441" y="153.0" class="u12b-s">E_g</text>
+<circle cx="361" cy="122" r="4.5" style="fill:var(--fig-blue)"/><circle cx="401" cy="122" r="4.5" style="fill:var(--fig-blue)"/>
+<circle cx="361" cy="174" r="4.5" style="fill:var(--fig-paper);stroke:var(--fig-red);stroke-width:1.8"/><circle cx="401" cy="174" r="4.5" style="fill:var(--fig-paper);stroke:var(--fig-red);stroke-width:1.8"/>
+<text x="513" y="30" text-anchor="middle" class="u12b-tb">n형 반도체</text>
+<rect x="465" y="76" width="96" height="56" style="fill:var(--fig-paper);stroke:var(--fig-teal);stroke-width:1.8"/>
+<rect x="465" y="164" width="96" height="54" style="fill:var(--fig-paper);stroke:var(--fig-blue);stroke-width:1.8"/>
+<rect x="465" y="164" width="96" height="54" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+<text x="513" y="109.0" text-anchor="middle" class="u12b-s">전도띠</text>
+<text x="513" y="196.0" text-anchor="middle" class="u12b-sm">원자가띠</text>
+<line x1="569.0" y1="132.0" x2="569.0" y2="158.0" style="stroke:var(--fig-muted);stroke-width:1.2"/><path d="M569.0 164.0 L566.5 158.0 L571.5 158.0 Z" style="fill:var(--fig-muted)"/><line x1="569.0" y1="164.0" x2="569.0" y2="138.0" style="stroke:var(--fig-muted);stroke-width:1.2"/><path d="M569.0 132.0 L571.5 138.0 L566.5 138.0 Z" style="fill:var(--fig-muted)"/>
+<text x="575" y="153.0" class="u12b-s">E_g</text>
+<line x1="465" y1="141" x2="561" y2="141" style="stroke:var(--fig-green);stroke-width:2;stroke-dasharray:5 4"/>
+<circle cx="485" cy="141" r="4" style="fill:var(--fig-paper);stroke:var(--fig-green);stroke-width:1.5"/>
+<circle cx="525" cy="141" r="4" style="fill:var(--fig-paper);stroke:var(--fig-green);stroke-width:1.5"/>
+<circle cx="505" cy="141" r="4.5" style="fill:var(--fig-blue)"/>
+<circle cx="545" cy="141" r="4.5" style="fill:var(--fig-blue)"/>
+<circle cx="479" cy="122" r="4.5" style="fill:var(--fig-blue)"/>
+<circle cx="499" cy="122" r="4.5" style="fill:var(--fig-blue)"/>
+<circle cx="519" cy="122" r="4.5" style="fill:var(--fig-blue)"/>
+<circle cx="539" cy="122" r="4.5" style="fill:var(--fig-blue)"/>
+<text x="513" y="163" text-anchor="middle" class="u12b-s" style="fill:var(--fig-green)">주개 준위</text>
+<text x="647" y="30" text-anchor="middle" class="u12b-tb">p형 반도체</text>
+<rect x="599" y="76" width="96" height="56" style="fill:var(--fig-paper);stroke:var(--fig-teal);stroke-width:1.8"/>
+<rect x="599" y="164" width="96" height="54" style="fill:var(--fig-paper);stroke:var(--fig-blue);stroke-width:1.8"/>
+<rect x="599" y="164" width="96" height="54" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+<text x="647" y="109.0" text-anchor="middle" class="u12b-s">전도띠</text>
+<text x="647" y="196.0" text-anchor="middle" class="u12b-sm">원자가띠</text>
+<line x1="703.0" y1="132.0" x2="703.0" y2="158.0" style="stroke:var(--fig-muted);stroke-width:1.2"/><path d="M703.0 164.0 L700.5 158.0 L705.5 158.0 Z" style="fill:var(--fig-muted)"/><line x1="703.0" y1="164.0" x2="703.0" y2="138.0" style="stroke:var(--fig-muted);stroke-width:1.2"/><path d="M703.0 132.0 L705.5 138.0 L700.5 138.0 Z" style="fill:var(--fig-muted)"/>
+<text x="709" y="153.0" class="u12b-s">E_g</text>
+<line x1="599" y1="155" x2="695" y2="155" style="stroke:var(--fig-violet);stroke-width:2;stroke-dasharray:5 4"/>
+<circle cx="619" cy="155" r="4.5" style="fill:var(--fig-blue)"/>
+<circle cx="659" cy="155" r="4.5" style="fill:var(--fig-blue)"/>
+<circle cx="613" cy="174" r="4.5" style="fill:var(--fig-paper);stroke:var(--fig-red);stroke-width:1.8"/>
+<circle cx="633" cy="174" r="4.5" style="fill:var(--fig-paper);stroke:var(--fig-red);stroke-width:1.8"/>
+<circle cx="653" cy="174" r="4.5" style="fill:var(--fig-paper);stroke:var(--fig-red);stroke-width:1.8"/>
+<circle cx="673" cy="174" r="4.5" style="fill:var(--fig-paper);stroke:var(--fig-red);stroke-width:1.8"/>
+<text x="647" y="143" text-anchor="middle" class="u12b-s" style="fill:var(--fig-violet)">받개 준위</text>
+<text x="111" y="290" text-anchor="middle" class="u12b-sm">작은 전기장에도</text>
+<text x="111" y="308" text-anchor="middle" class="u12b-s">전류가 흐른다</text>
+<text x="245" y="290" text-anchor="middle" class="u12b-sm">상온 열에너지로는</text>
+<text x="245" y="308" text-anchor="middle" class="u12b-s">띠틈을 넘지 못한다</text>
+<text x="379" y="290" text-anchor="middle" class="u12b-sm">일부 전자가 열로 올라감</text>
+<text x="379" y="308" text-anchor="middle" class="u12b-s">온도 ↑ → 전도도 ↑</text>
+<text x="513" y="290" text-anchor="middle" class="u12b-sm">주된 운반자: 전자</text>
+<text x="513" y="308" text-anchor="middle" class="u12b-s">(15족 원소 첨가)</text>
+<text x="647" y="290" text-anchor="middle" class="u12b-sm">주된 운반자: 양공</text>
+<text x="647" y="308" text-anchor="middle" class="u12b-s">(13족 원소 첨가)</text>
+<circle cx="250" cy="338" r="4.5" style="fill:var(--fig-blue)"/><text x="260" y="343" class="u12b-s">전자</text>
+<circle cx="320" cy="338" r="4.5" style="fill:var(--fig-paper);stroke:var(--fig-red);stroke-width:1.8"/><text x="330" y="343" class="u12b-s">양공(전자가 빠진 자리)</text>
+<text x="510" y="343" class="u12b-s">띠의 높이·간격은 모식도</text>
+</svg>

@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-uphy-9-ampere d-uphy-9-ampere">
+  <title id="t-uphy-9-ampere">그림 일반물리학 9-3 앙페르 고리: 굵은 도선과 솔레노이드</title>
+  <desc id="d-uphy-9-ampere">(가) 전류가 종이 면에서 나오는 굵은 도선(반지름 R)의 단면. 같은 축의 원형 앙페르 고리 위에서 B는 접선 방향으로 크기가 일정하다. 고리가 둘러싼 전류가 안에서는 r²에 비례하므로 B는 r에 비례하고, 바깥에서는 1/r로 준다. (나) 긴 솔레노이드의 단면. 위쪽 도선은 전류가 나오고(⊙) 아래쪽은 들어간다(⊗). 한 변이 내부에 있는 직사각형 고리에서 내부 변만 기여하여 B = μ₀nI가 된다. 모식도이다.</desc>
+  <style>.uphy-9-ampere-t{font-size:14px;fill:var(--fig-ink)} .uphy-9-ampere-b{font-size:14px;fill:var(--fig-ink);font-weight:700} .uphy-9-ampere-s{font-size:13px;fill:var(--fig-muted)} .uphy-9-ampere-loop{fill:none;stroke:var(--fig-teal);stroke-width:2;stroke-dasharray:6 4}</style>
+  <rect x="8" y="8" width="300" height="384" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="22" y="32" text-anchor="start" class="uphy-9-ampere-b">(가) 굵은 도선 (전류 ⊙, 반지름 R)</text>
+  <rect x="316" y="8" width="396" height="384" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="330" y="32" text-anchor="start" class="uphy-9-ampere-b">(나) 긴 솔레노이드 단면</text>
+  <circle cx="150" cy="140" r="46" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <circle cx="150" cy="140" r="2.4" style="fill:var(--fig-amber)"/>
+  <circle cx="128" cy="126" r="2.4" style="fill:var(--fig-amber)"/>
+  <circle cx="172" cy="126" r="2.4" style="fill:var(--fig-amber)"/>
+  <circle cx="128" cy="154" r="2.4" style="fill:var(--fig-amber)"/>
+  <circle cx="172" cy="154" r="2.4" style="fill:var(--fig-amber)"/>
+  <circle cx="150" cy="110" r="2.4" style="fill:var(--fig-amber)"/>
+  <circle cx="150" cy="170" r="2.4" style="fill:var(--fig-amber)"/>
+  <circle cx="150" cy="140" r="28" class="uphy-9-ampere-loop"/>
+  <line x1="169.8" y1="120.2" x2="164.4" y2="114.8" style="stroke:var(--fig-accent);stroke-width:2.2"/>
+  <path d="M159.9 110.3 L167.4 113.2 L162.8 117.8 Z" style="fill:var(--fig-accent)"/>
+  <line x1="130.2" y1="159.8" x2="135.6" y2="165.2" style="stroke:var(--fig-accent);stroke-width:2.2"/>
+  <path d="M140.1 169.7 L132.6 166.8 L137.2 162.2 Z" style="fill:var(--fig-accent)"/>
+  <circle cx="150" cy="140" r="82" class="uphy-9-ampere-loop"/>
+  <line x1="208.0" y1="82.0" x2="202.6" y2="76.6" style="stroke:var(--fig-accent);stroke-width:2.2"/>
+  <path d="M198.1 72.1 L205.6 75.0 L200.9 79.6 Z" style="fill:var(--fig-accent)"/>
+  <line x1="92.0" y1="82.0" x2="86.6" y2="87.4" style="stroke:var(--fig-accent);stroke-width:2.2"/>
+  <path d="M82.1 91.9 L85.0 84.4 L89.6 89.1 Z" style="fill:var(--fig-accent)"/>
+  <line x1="92.0" y1="198.0" x2="97.4" y2="203.4" style="stroke:var(--fig-accent);stroke-width:2.2"/>
+  <path d="M101.9 207.9 L94.4 205.0 L99.1 200.4 Z" style="fill:var(--fig-accent)"/>
+  <line x1="208.0" y1="198.0" x2="213.4" y2="192.6" style="stroke:var(--fig-accent);stroke-width:2.2"/>
+  <path d="M217.9 188.1 L215.0 195.6 L210.4 190.9 Z" style="fill:var(--fig-accent)"/>
+  <text x="210" y="230" text-anchor="start" class="uphy-9-ampere-s" style="fill:var(--fig-teal)">r > R</text>
+  <line x1="150" y1="140" x2="150" y2="186" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="155" y="180" text-anchor="start" class="uphy-9-ampere-b">R</text>
+  <text x="120" y="106" text-anchor="end" class="uphy-9-ampere-s" style="fill:var(--fig-teal)">r < R</text>
+  <path d="M50 250 L50 336 L280 336" style="fill:none;stroke:var(--fig-ink);stroke-width:1.4"/>
+  <polyline points="50,336.0 53,332.9 56,329.8 59,326.7 62,323.7 65,320.6 68,317.5 71,314.4 74,311.3 77,308.2 80,305.1 83,302.1 86,299.0 89,295.9 92,292.8 95,289.7 98,286.6 101,283.5 104,280.5 107,277.4 110,274.3 113,271.2 116,268.1 119,265.0 122,266.0 125,268.8 128,271.4 131,273.8 134,276.0 137,278.1 140,280.0 143,281.8 146,283.5 149,285.1 152,286.6 155,288.0 158,289.3 161,290.6 164,291.8 167,292.9 170,294.0 173,295.0 176,296.0 179,296.9 182,297.8 185,298.7 188,299.5 191,300.3 194,301.0 197,301.7 200,302.4 203,303.1 206,303.7 209,304.3 212,304.9 215,305.5 218,306.0 221,306.5 224,307.0 227,307.5 230,308.0 233,308.5 236,308.9 239,309.3 242,309.8 245,310.2 248,310.5 251,310.9 254,311.3 257,311.7 260,312.0 263,312.3 266,312.7 269,313.0 272,313.3" style="fill:none;stroke:var(--fig-accent);stroke-width:2.4"/>
+  <line x1="120" y1="256" x2="120" y2="336" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:3 3"/>
+  <text x="120" y="352" text-anchor="middle" class="uphy-9-ampere-s">R</text>
+  <text x="280" y="352" text-anchor="end" class="uphy-9-ampere-s">r</text>
+  <text x="44" y="260" text-anchor="end" class="uphy-9-ampere-s">B</text>
+  <text x="74" y="306" text-anchor="start" class="uphy-9-ampere-s" style="fill:var(--fig-accent)">∝ r</text>
+  <text x="200" y="300" text-anchor="start" class="uphy-9-ampere-s" style="fill:var(--fig-accent)">∝ 1/r</text>
+  <text x="24" y="368" text-anchor="start" class="uphy-9-ampere-t">안: B = μ₀Ir / (2πR²)   밖: B = μ₀I / (2πr)</text>
+  <circle cx="352" cy="118" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="352" cy="118" r="2.6" style="fill:var(--fig-amber)"/>
+  <circle cx="352" cy="238" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <path d="M347.5 233.5 L356.5 242.5 M356.5 233.5 L347.5 242.5" style="stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="376" cy="118" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="376" cy="118" r="2.6" style="fill:var(--fig-amber)"/>
+  <circle cx="376" cy="238" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <path d="M371.5 233.5 L380.5 242.5 M380.5 233.5 L371.5 242.5" style="stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="400" cy="118" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="400" cy="118" r="2.6" style="fill:var(--fig-amber)"/>
+  <circle cx="400" cy="238" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <path d="M395.5 233.5 L404.5 242.5 M404.5 233.5 L395.5 242.5" style="stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="424" cy="118" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="424" cy="118" r="2.6" style="fill:var(--fig-amber)"/>
+  <circle cx="424" cy="238" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <path d="M419.5 233.5 L428.5 242.5 M428.5 233.5 L419.5 242.5" style="stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="448" cy="118" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="448" cy="118" r="2.6" style="fill:var(--fig-amber)"/>
+  <circle cx="448" cy="238" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <path d="M443.5 233.5 L452.5 242.5 M452.5 233.5 L443.5 242.5" style="stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="472" cy="118" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="472" cy="118" r="2.6" style="fill:var(--fig-amber)"/>
+  <circle cx="472" cy="238" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <path d="M467.5 233.5 L476.5 242.5 M476.5 233.5 L467.5 242.5" style="stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="496" cy="118" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="496" cy="118" r="2.6" style="fill:var(--fig-amber)"/>
+  <circle cx="496" cy="238" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <path d="M491.5 233.5 L500.5 242.5 M500.5 233.5 L491.5 242.5" style="stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="520" cy="118" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="520" cy="118" r="2.6" style="fill:var(--fig-amber)"/>
+  <circle cx="520" cy="238" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <path d="M515.5 233.5 L524.5 242.5 M524.5 233.5 L515.5 242.5" style="stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="544" cy="118" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="544" cy="118" r="2.6" style="fill:var(--fig-amber)"/>
+  <circle cx="544" cy="238" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <path d="M539.5 233.5 L548.5 242.5 M548.5 233.5 L539.5 242.5" style="stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="568" cy="118" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="568" cy="118" r="2.6" style="fill:var(--fig-amber)"/>
+  <circle cx="568" cy="238" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <path d="M563.5 233.5 L572.5 242.5 M572.5 233.5 L563.5 242.5" style="stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="592" cy="118" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="592" cy="118" r="2.6" style="fill:var(--fig-amber)"/>
+  <circle cx="592" cy="238" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <path d="M587.5 233.5 L596.5 242.5 M596.5 233.5 L587.5 242.5" style="stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="616" cy="118" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="616" cy="118" r="2.6" style="fill:var(--fig-amber)"/>
+  <circle cx="616" cy="238" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <path d="M611.5 233.5 L620.5 242.5 M620.5 233.5 L611.5 242.5" style="stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="640" cy="118" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="640" cy="118" r="2.6" style="fill:var(--fig-amber)"/>
+  <circle cx="640" cy="238" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <path d="M635.5 233.5 L644.5 242.5 M644.5 233.5 L635.5 242.5" style="stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="664" cy="118" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="664" cy="118" r="2.6" style="fill:var(--fig-amber)"/>
+  <circle cx="664" cy="238" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <path d="M659.5 233.5 L668.5 242.5 M668.5 233.5 L659.5 242.5" style="stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="688" cy="118" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <circle cx="688" cy="118" r="2.6" style="fill:var(--fig-amber)"/>
+  <circle cx="688" cy="238" r="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8"/>
+  <path d="M683.5 233.5 L692.5 242.5 M692.5 233.5 L683.5 242.5" style="stroke:var(--fig-amber);stroke-width:1.8"/>
+  <text x="698" y="102" text-anchor="end" class="uphy-9-ampere-s">⊙ 전류가 나옴</text>
+  <text x="698" y="266" text-anchor="end" class="uphy-9-ampere-s">⊗ 전류가 들어감</text>
+  <line x1="352.0" y1="152.0" x2="676.8" y2="152.0" style="stroke:var(--fig-accent);stroke-width:2"/>
+  <path d="M684.0 152.0 L675.8 155.7 L675.8 148.3 Z" style="fill:var(--fig-accent)"/>
+  <line x1="352.0" y1="178.0" x2="676.8" y2="178.0" style="stroke:var(--fig-accent);stroke-width:2"/>
+  <path d="M684.0 178.0 L675.8 181.7 L675.8 174.3 Z" style="fill:var(--fig-accent)"/>
+  <line x1="352.0" y1="204.0" x2="676.8" y2="204.0" style="stroke:var(--fig-accent);stroke-width:2"/>
+  <path d="M684.0 204.0 L675.8 207.7 L675.8 200.3 Z" style="fill:var(--fig-accent)"/>
+  <text x="640" y="170" text-anchor="start" class="uphy-9-ampere-b" style="fill:var(--fig-accent)">B</text>
+  <text x="560" y="80" text-anchor="start" class="uphy-9-ampere-s">바깥: B ≈ 0</text>
+  <rect x="420" y="62" width="120" height="103" class="uphy-9-ampere-loop"/>
+  <path d="M488.0 165.0 L478.9 169.1 L478.9 160.9 Z" style="fill:var(--fig-teal)"/>
+  <path d="M540.0 107.5 L544.1 116.6 L535.9 116.6 Z" style="fill:var(--fig-teal)"/>
+  <path d="M472.0 62.0 L481.1 57.9 L481.1 66.1 Z" style="fill:var(--fig-teal)"/>
+  <path d="M420.0 119.5 L415.9 110.4 L424.1 110.4 Z" style="fill:var(--fig-teal)"/>
+  <text x="416" y="181" text-anchor="end" class="uphy-9-ampere-b" style="fill:var(--fig-teal)">a</text>
+  <text x="544" y="181" text-anchor="start" class="uphy-9-ampere-b" style="fill:var(--fig-teal)">b</text>
+  <text x="544" y="58" text-anchor="start" class="uphy-9-ampere-b" style="fill:var(--fig-teal)">c</text>
+  <text x="416" y="58" text-anchor="end" class="uphy-9-ampere-b" style="fill:var(--fig-teal)">d</text>
+  <text x="480.0" y="183" text-anchor="middle" class="uphy-9-ampere-b" style="fill:var(--fig-teal)">h</text>
+  <text x="330" y="290" text-anchor="start" class="uphy-9-ampere-t">a→b (내부): B h      b→c, d→a: B ⟂ ds → 0</text>
+  <text x="330" y="314" text-anchor="start" class="uphy-9-ampere-t">c→d (바깥): B ≈ 0</text>
+  <text x="330" y="338" text-anchor="start" class="uphy-9-ampere-t">둘러싼 전류: n h I  (n: 단위 길이당 감은 수)</text>
+  <text x="330" y="362" text-anchor="start" class="uphy-9-ampere-b" style="fill:var(--fig-accent)">B h = μ₀ n h I  →  B = μ₀ n I</text>
+</svg>

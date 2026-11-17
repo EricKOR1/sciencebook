@@ -90,7 +90,7 @@ Sims.register('u-rate-laws', {
     }
 
     function graph(T, r, K, idx, straight) {
-      var L = r.x + 50, R = r.x + r.w - 12, Tp = r.y + 30, B = r.y + r.h - 34;
+      var L = r.x + 50, R = r.x + r.w - 12, Tp = r.y + 40, B = r.y + r.h - 34;
       // 자료: 곡선 + 측정점
       var N = 200, pts = [], tEnd = TMAX;
       for (var i = 0; i <= N; i++) {
@@ -122,12 +122,12 @@ Sims.register('u-rate-laws', {
       for (var tt = 0; tt <= TMAX; tt += 50) ctx.fillText(tt, sx(tt), B + 14);
       ctx.strokeStyle = T.figInk; ctx.beginPath(); ctx.moveTo(L, Tp - 4); ctx.lineTo(L, B); ctx.lineTo(R, B); ctx.stroke();
       ctx.fillStyle = T.figInk; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'left';
-      ctx.fillText(K.lab + ' 대 t', L, r.y + 18);
+      ctx.fillText(K.lab + ' 대 t', L - 36, r.y + 16);
       ctx.font = '11px ' + T.fontBody; ctx.fillStyle = T.figMuted; ctx.textAlign = 'right';
       ctx.fillText('t (s)', R, B + 28);
       if (straight) {
         ctx.fillStyle = T.figGreen; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'right';
-        ctx.fillText('직선! 기울기 ' + (idx === 2 ? '+' : '−') + 'k', R, r.y + 18);
+        ctx.fillText('직선! 기울기 ' + (idx === 2 ? '+' : '−') + 'k', R, r.y + 30);
       }
       // 반감기 표시(첫 그래프)
       var col = straight ? T.figGreen : T.figAccent;

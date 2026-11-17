@@ -116,7 +116,7 @@ Sims.register('u-sea-breeze', {
         ctx.font = '700 15px ' + T.fontBody; ctx.textAlign = 'center';
         var hiCol = T.figBlue, loCol = T.figRed;
         ctx.fillStyle = sea ? hiCol : loCol; ctx.fillText(sea ? 'H' : 'L', x1, yt - 10);
-        ctx.fillStyle = sea ? loCol : hiCol; ctx.fillText(sea ? 'H' : 'L', x0, yt - 10);
+        ctx.fillStyle = sea ? loCol : hiCol; ctx.fillText(sea ? 'L' : 'H', x0, yt - 10);
         ctx.fillStyle = sea ? loCol : hiCol; ctx.fillText(sea ? 'L' : 'H', x1 + 22, yb + 4);
         ctx.fillStyle = sea ? hiCol : loCol; ctx.fillText(sea ? 'H' : 'L', x0 - 22, yb + 4);
         // 이름 (바다에서 하강하는 구간의 바깥쪽이 아니라 고리 안쪽 가운데)

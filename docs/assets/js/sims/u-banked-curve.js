@@ -76,10 +76,11 @@ Sims.register('u-banked-curve', {
       ctx.fillStyle = T.figSoftBlue; ctx.strokeStyle = T.figBlue; ctx.lineWidth = 2;
       ctx.beginPath(); ctx.rect(-24, -12, 48, 24); ctx.fill(); ctx.stroke(); ctx.restore();
       // 힘(단위 질량당, 1 m/s² = k px)
-      var k = Math.min(r.h, r.w) * 0.055;
+      var k = Math.max(2, Math.min((cy - r.y - 24) / 19, (r.y + r.h - cy - 4) / G, r.w * 0.03));
       var Nx = cx + nx * F.n * k, Ny = cy + ny * F.n * k;
       var fx = cx + (-tx) * F.f * k, fy = cy + (-ty) * F.f * k;  // + 는 빗면 아래(왼쪽 아래)
       var netx = cx - F.ac * k;
+      ctx.save(); ctx.beginPath(); ctx.rect(r.x, r.y, r.w, r.h); ctx.clip();
       arrow(cx, cy, netx, cy, T.figViolet, 3.2);
       arrow(cx, cy, Nx, Ny, T.figGreen, 2.6);
       arrow(cx, cy, cx, cy + G * k, T.figInk, 2.6);
@@ -90,6 +91,7 @@ Sims.register('u-banked-curve', {
       if (Math.abs(F.f) * k > 2) { ctx.fillStyle = slip ? T.figRed : T.figTeal; ctx.textAlign = F.f > 0 ? 'right' : 'left'; ctx.fillText('필요한 f', fx + (F.f > 0 ? -4 : 6), fy + (F.f > 0 ? 14 : -6)); }
       ctx.fillStyle = T.figViolet; ctx.textAlign = 'center';
       if (F.ac * k > 30) ctx.fillText('mv²/r', cx - F.ac * k / 2, cy - 8);
+      ctx.restore();
       // 판정
       ctx.font = '600 13px ' + T.fontBody; ctx.textAlign = 'left';
       ctx.fillStyle = slip ? T.figRed : T.figGreen;
