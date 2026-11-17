@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-phy-2-series-parallel d-phy-2-series-parallel">
+  <title id="t-phy-2-series-parallel">그림 물리학 2-3 저항의 직렬연결과 병렬연결 회로도</title>
+  <desc id="d-phy-2-series-parallel">(가) 직렬연결은 두 저항이 한 줄로 이어져 같은 전류 I가 흐르고 전원 전압이 V₁, V₂로 나뉜다. (나) 병렬연결은 두 저항이 갈래로 나뉘어 같은 전압 V가 걸리고 전체 전류 I가 I₁, I₂로 나뉜다. 화살표는 전류의 방향이다.</desc>
+  <style>
+    .phy-2-series-parallel-lbl{font-size:14px;fill:var(--fig-ink)} .phy-2-series-parallel-sm{font-size:13px;fill:var(--fig-muted)} .phy-2-series-parallel-b{font-weight:600}
+  </style>
+<text x="180.0" y="28.0" text-anchor="middle" class="phy-2-series-parallel-lbl phy-2-series-parallel-b">(가) 직렬연결</text>
+<path d="M50 80 L310 80 L310 220 L50 220 Z" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+<rect x="83.0" y="70.0" width="64.0" height="20.0" rx="0" style="fill:var(--fig-paper);stroke:none;stroke-width:0"/>
+<path d="M85.0 80.0 L95.0 88.0 L105.0 72.0 L115.0 88.0 L125.0 72.0 L135.0 88.0 L145.0 80.0" style="fill:none;stroke:var(--fig-amber);stroke-width:2.5"/>
+<rect x="203.0" y="70.0" width="64.0" height="20.0" rx="0" style="fill:var(--fig-paper);stroke:none;stroke-width:0"/>
+<path d="M205.0 80.0 L215.0 88.0 L225.0 72.0 L235.0 88.0 L245.0 72.0 L255.0 88.0 L265.0 80.0" style="fill:none;stroke:var(--fig-amber);stroke-width:2.5"/>
+<text x="115" y="62" text-anchor="middle" class="phy-2-series-parallel-lbl phy-2-series-parallel-b">R<tspan style="font-size:11px" dy="4">1</tspan><tspan dy="-4"></tspan></text>
+<text x="235" y="62" text-anchor="middle" class="phy-2-series-parallel-lbl phy-2-series-parallel-b">R<tspan style="font-size:11px" dy="4">2</tspan><tspan dy="-4"></tspan></text>
+<text x="115" y="112" text-anchor="middle" class="phy-2-series-parallel-lbl phy-2-series-parallel-b" style="fill:var(--fig-violet)">V<tspan style="font-size:11px" dy="4">1</tspan><tspan dy="-4"></tspan></text>
+<text x="235" y="112" text-anchor="middle" class="phy-2-series-parallel-lbl phy-2-series-parallel-b" style="fill:var(--fig-violet)">V<tspan style="font-size:11px" dy="4">2</tspan><tspan dy="-4"></tspan></text>
+<rect x="170.0" y="200.0" width="20.0" height="40.0" rx="0" style="fill:var(--fig-paper);stroke:none;stroke-width:0"/>
+<line x1="174.0" y1="202.0" x2="174.0" y2="238.0" style="stroke:var(--fig-ink);stroke-width:3;fill:none"/>
+<line x1="186.0" y1="211.0" x2="186.0" y2="229.0" style="stroke:var(--fig-ink);stroke-width:5;fill:none"/>
+<text x="164.0" y="206.0" text-anchor="end" class="phy-2-series-parallel-sm">+</text>
+<text x="196.0" y="206.0" text-anchor="start" class="phy-2-series-parallel-sm">−</text>
+<text x="180.0" y="256.0" text-anchor="middle" class="phy-2-series-parallel-sm">전원 전압 V</text>
+<line x1="50.0" y1="175.0" x2="50.0" y2="135.0" style="stroke:var(--fig-red);stroke-width:2.5;fill:none"/>
+<path d="M50.0 125.0 L54.5 135.0 L45.5 135.0 Z" style="fill:var(--fig-red)"/>
+<text x="40.0" y="155.0" text-anchor="end" class="phy-2-series-parallel-lbl phy-2-series-parallel-b" style="fill:var(--fig-red)">I</text>
+<line x1="310.0" y1="125.0" x2="310.0" y2="165.0" style="stroke:var(--fig-red);stroke-width:2.5;fill:none"/>
+<path d="M310.0 175.0 L305.5 165.0 L314.5 165.0 Z" style="fill:var(--fig-red)"/>
+<text x="320.0" y="155.0" text-anchor="start" class="phy-2-series-parallel-lbl phy-2-series-parallel-b" style="fill:var(--fig-red)">I</text>
+<text x="180.0" y="290.0" text-anchor="middle" class="phy-2-series-parallel-sm">어디서나 전류 I가 같다</text>
+<text x="180.0" y="310.0" text-anchor="middle" class="phy-2-series-parallel-lbl">V = V₁ + V₂,  R = R₁ + R₂</text>
+<line x1="360.0" y1="20.0" x2="360.0" y2="315.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4;fill:none"/>
+<text x="540.0" y="28.0" text-anchor="middle" class="phy-2-series-parallel-lbl phy-2-series-parallel-b">(나) 병렬연결</text>
+<path d="M410 70 L670 70 M410 140 L670 140 M410 70 L410 220 L670 220 L670 70" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+<rect x="508.0" y="60.0" width="64.0" height="20.0" rx="0" style="fill:var(--fig-paper);stroke:none;stroke-width:0"/>
+<path d="M510.0 70.0 L520.0 78.0 L530.0 62.0 L540.0 78.0 L550.0 62.0 L560.0 78.0 L570.0 70.0" style="fill:none;stroke:var(--fig-amber);stroke-width:2.5"/>
+<rect x="508.0" y="130.0" width="64.0" height="20.0" rx="0" style="fill:var(--fig-paper);stroke:none;stroke-width:0"/>
+<path d="M510.0 140.0 L520.0 148.0 L530.0 132.0 L540.0 148.0 L550.0 132.0 L560.0 148.0 L570.0 140.0" style="fill:none;stroke:var(--fig-amber);stroke-width:2.5"/>
+<text x="540" y="55" text-anchor="middle" class="phy-2-series-parallel-lbl phy-2-series-parallel-b">R<tspan style="font-size:11px" dy="4">1</tspan><tspan dy="-4"></tspan></text>
+<text x="540" y="125" text-anchor="middle" class="phy-2-series-parallel-lbl phy-2-series-parallel-b">R<tspan style="font-size:11px" dy="4">2</tspan><tspan dy="-4"></tspan></text>
+<circle cx="410.0" cy="140.0" r="4" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+<circle cx="670.0" cy="140.0" r="4" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+<line x1="440.0" y1="70.0" x2="470.0" y2="70.0" style="stroke:var(--fig-red);stroke-width:2.5;fill:none"/>
+<path d="M480.0 70.0 L470.0 74.5 L470.0 65.5 Z" style="fill:var(--fig-red)"/>
+<text x="460" y="60" text-anchor="middle" class="phy-2-series-parallel-lbl phy-2-series-parallel-b" style="fill:var(--fig-red)">I<tspan style="font-size:11px" dy="4">1</tspan><tspan dy="-4"></tspan></text>
+<line x1="440.0" y1="140.0" x2="470.0" y2="140.0" style="stroke:var(--fig-red);stroke-width:2.5;fill:none"/>
+<path d="M480.0 140.0 L470.0 144.5 L470.0 135.5 Z" style="fill:var(--fig-red)"/>
+<text x="460" y="130" text-anchor="middle" class="phy-2-series-parallel-lbl phy-2-series-parallel-b" style="fill:var(--fig-red)">I<tspan style="font-size:11px" dy="4">2</tspan><tspan dy="-4"></tspan></text>
+<line x1="410.0" y1="205.0" x2="410.0" y2="170.0" style="stroke:var(--fig-red);stroke-width:2.5;fill:none"/>
+<path d="M410.0 160.0 L414.5 170.0 L405.5 170.0 Z" style="fill:var(--fig-red)"/>
+<text x="400.0" y="188.0" text-anchor="end" class="phy-2-series-parallel-lbl phy-2-series-parallel-b" style="fill:var(--fig-red)">I</text>
+<rect x="530.0" y="200.0" width="20.0" height="40.0" rx="0" style="fill:var(--fig-paper);stroke:none;stroke-width:0"/>
+<line x1="534.0" y1="202.0" x2="534.0" y2="238.0" style="stroke:var(--fig-ink);stroke-width:3;fill:none"/>
+<line x1="546.0" y1="211.0" x2="546.0" y2="229.0" style="stroke:var(--fig-ink);stroke-width:5;fill:none"/>
+<text x="524.0" y="206.0" text-anchor="end" class="phy-2-series-parallel-sm">+</text>
+<text x="556.0" y="206.0" text-anchor="start" class="phy-2-series-parallel-sm">−</text>
+<text x="540.0" y="256.0" text-anchor="middle" class="phy-2-series-parallel-sm">전원 전압 V</text>
+<text x="540.0" y="290.0" text-anchor="middle" class="phy-2-series-parallel-sm">두 저항에 같은 전압 V가 걸린다</text>
+<text x="540.0" y="310.0" text-anchor="middle" class="phy-2-series-parallel-lbl">I = I₁ + I₂,  1/R = 1/R₁ + 1/R₂</text>
+</svg>
