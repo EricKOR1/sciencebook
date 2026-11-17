@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-4-1-fossil-formation d-4-1-fossil-formation">
+  <title id="t-4-1-fossil-formation">그림 4-1-4 화석이 만들어지고 발견되기까지</title>
+  <desc id="d-4-1-fossil-formation">① 단단한 껍데기를 가진 바다 생물이 죽어 바닥에 가라앉는다. ② 썩거나 먹히기 전에 진흙·모래에 빨리 묻힌다. ③ 그 위에 퇴적물이 계속 쌓이고 눌려 굳어 퇴적암이 되고, 생물의 흔적은 화석이 된다. ④ 지각 변동으로 지층이 솟아오르고 깎여 나가면 화석이 땅 위로 드러난다. 모식도(크기와 시간 비율은 실제와 다름).</desc>
+  <style>
+    .ff-h{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+    .ff-t{font-size:13px;fill:var(--fig-ink)}
+    .ff-mu{font-size:13px;fill:var(--fig-muted)}
+    .ff-water{fill:var(--fig-soft-blue);stroke:none}
+    .ff-sky{fill:var(--fig-paper);stroke:none}
+    .ff-sed1{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1}
+    .ff-sed2{fill:var(--fig-panel);stroke:var(--fig-amber);stroke-width:1}
+    .ff-rock1{fill:var(--fig-soft-amber);stroke:var(--fig-ink);stroke-width:1}
+    .ff-rock2{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1}
+    .ff-frame{fill:none;stroke:var(--fig-line);stroke-width:1.5}
+    .ff-shell{fill:var(--fig-paper);stroke:var(--fig-ink);stroke-width:1.6}
+    .ff-fossil{fill:var(--fig-muted);stroke:var(--fig-ink);stroke-width:1.6}
+    .ff-rib{fill:none;stroke:var(--fig-ink);stroke-width:1}
+    .ff-arr{fill:none;stroke:var(--fig-ink);stroke-width:2}
+    .ff-arrh{fill:var(--fig-ink)}
+    .ff-red{fill:none;stroke:var(--fig-red);stroke-width:2}
+    .ff-redh{fill:var(--fig-red)}
+  </style>
+
+  <!-- 조개 모양(원점이 아래 가운데) -->
+  <defs>
+    <g id="ff-shell-shape">
+      <path d="M-16 0 Q-18 -14 0 -18 Q18 -14 16 0 Z"/>
+    </g>
+  </defs>
+
+  <!-- 패널 1 -->
+  <text x="92" y="26" text-anchor="middle" class="ff-h">① 죽어서 가라앉는다</text>
+  <rect x="8" y="40" width="168" height="150" class="ff-water"/>
+  <rect x="8" y="190" width="168" height="60" class="ff-sed1"/>
+  <g transform="translate(92 190)" class="ff-shell"><use href="#ff-shell-shape"/></g>
+  <path d="M84 188 L86 174 M92 188 V172 M100 188 L98 174" class="ff-rib"/>
+  <path d="M92 70 V150" class="ff-arr" style="stroke-dasharray:5 4"/>
+  <path d="M86 146 L92 158 L98 146 Z" class="ff-arrh"/>
+  <text x="92" y="60" text-anchor="middle" class="ff-mu">바닷물</text>
+  <text x="92" y="228" text-anchor="middle" class="ff-mu">진흙·모래</text>
+  <rect x="8" y="40" width="168" height="210" class="ff-frame"/>
+  <text x="92" y="274" text-anchor="middle" class="ff-t">단단한 껍데기를 가진</text>
+  <text x="92" y="292" text-anchor="middle" class="ff-t">생물이 바닥에 가라앉음</text>
+
+  <!-- 패널 2 -->
+  <text x="270" y="26" text-anchor="middle" class="ff-h">② 빨리 묻힌다</text>
+  <rect x="186" y="40" width="168" height="120" class="ff-water"/>
+  <rect x="186" y="160" width="168" height="30" class="ff-sed2"/>
+  <rect x="186" y="190" width="168" height="60" class="ff-sed1"/>
+  <g transform="translate(270 190)" class="ff-shell"><use href="#ff-shell-shape"/></g>
+  <path d="M262 188 L264 174 M270 188 V172 M278 188 L276 174" class="ff-rib"/>
+  <path d="M230 80 L238 140 M270 70 V140 M310 80 L302 140" class="ff-arr" style="stroke:var(--fig-amber);stroke-dasharray:3 4"/>
+  <text x="270" y="60" text-anchor="middle" class="ff-mu">퇴적물이 덮음</text>
+  <rect x="186" y="40" width="168" height="210" class="ff-frame"/>
+  <text x="270" y="274" text-anchor="middle" class="ff-t">썩거나 먹히기 전에</text>
+  <text x="270" y="292" text-anchor="middle" class="ff-t">진흙·모래에 덮임</text>
+
+  <!-- 패널 3 -->
+  <text x="448" y="26" text-anchor="middle" class="ff-h">③ 쌓이고 굳는다</text>
+  <rect x="364" y="40" width="168" height="40" class="ff-water"/>
+  <rect x="364" y="80" width="168" height="35" class="ff-rock2"/>
+  <rect x="364" y="115" width="168" height="45" class="ff-rock1"/>
+  <rect x="364" y="160" width="168" height="30" class="ff-rock2"/>
+  <rect x="364" y="190" width="168" height="60" class="ff-rock1"/>
+  <g transform="translate(448 190)" class="ff-fossil"><use href="#ff-shell-shape"/></g>
+  <path d="M440 188 L442 174 M448 188 V172 M456 188 L454 174" class="ff-rib"/>
+  <path d="M500 92 V146" class="ff-arr"/>
+  <path d="M494 142 L500 154 L506 142 Z" class="ff-arrh"/>
+  <text x="430" y="104" text-anchor="middle" class="ff-mu">위에서 누름</text>
+  <text x="448" y="230" text-anchor="middle" class="ff-t">화석</text>
+  <rect x="364" y="40" width="168" height="210" class="ff-frame"/>
+  <text x="448" y="274" text-anchor="middle" class="ff-t">퇴적암(지층)이 되고</text>
+  <text x="448" y="292" text-anchor="middle" class="ff-t">생물의 흔적은 화석이 됨</text>
+
+  <!-- 패널 4 -->
+  <text x="626" y="26" text-anchor="middle" class="ff-h">④ 솟아오르고 깎인다</text>
+  <rect x="542" y="40" width="168" height="210" class="ff-sky"/>
+  <!-- 깎인 언덕: 위쪽 층은 오른쪽만 남음 -->
+  <path d="M542 250 V200 H560 L590 200 Q600 150 640 110 L710 90 V250 Z" class="ff-rock1"/>
+  <path d="M542 225 H710" class="ff-rib" style="stroke:var(--fig-ink)"/>
+  <path d="M590 200 H710 M616 160 H710 M640 128 H710" class="ff-rib"/>
+  <g transform="translate(608 200)" class="ff-fossil"><use href="#ff-shell-shape"/></g>
+  <path d="M600 198 L602 184 M608 198 V182 M616 198 L614 184" class="ff-rib"/>
+  <path d="M570 120 Q575 160 596 176" class="ff-red"/>
+  <path d="M590 168 L600 182 L601 166 Z" class="ff-redh"/>
+  <text x="572" y="110" text-anchor="middle" class="ff-t" style="fill:var(--fig-red)">발견!</text>
+  <path d="M690 236 V206" class="ff-arr"/>
+  <path d="M684 210 L690 198 L696 210 Z" class="ff-arrh"/>
+  <text x="664" y="244" text-anchor="end" class="ff-mu">융기</text>
+  <rect x="542" y="40" width="168" height="210" class="ff-frame"/>
+  <text x="626" y="274" text-anchor="middle" class="ff-t">지각 변동으로 솟아오르고</text>
+  <text x="626" y="292" text-anchor="middle" class="ff-t">깎여 나가 화석이 드러남</text>
+
+  <text x="360" y="320" text-anchor="middle" class="ff-mu">모식도 — 실제로는 ①→④에 수백만 년 이상이 걸린다</text>
+</svg>

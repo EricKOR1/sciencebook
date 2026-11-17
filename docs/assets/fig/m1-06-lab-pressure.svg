@@ -31,7 +31,7 @@
     .lp-axis{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
     .lp-grid{fill:none;stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4}
     .lp-dash{fill:none;stroke:var(--fig-muted);stroke-width:1.4;stroke-dasharray:5 4}
-    .lp-barrel{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2} .lp-gas{fill:var(--fig-soft-teal);stroke:none} .lp-pist{fill:var(--fig-line);stroke:var(--fig-ink);stroke-width:1.6} .lp-stop{fill:var(--fig-ink)} .lp-pt{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.4} .lp-hit{fill:var(--fig-amber)} .lp-water{fill:var(--fig-soft-blue);stroke:none} .lp-glass{fill:none;stroke:var(--fig-ink);stroke-width:2} .lp-dev{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.8} .lp-tube{fill:none;stroke:var(--fig-muted);stroke-width:4;stroke-linecap:round} .lp-book{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6} .lp-screen{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.2}
+    .lp-barrel{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2} .lp-gas{fill:var(--fig-soft-teal);stroke:none} .lp-pist{fill:var(--fig-line);stroke:var(--fig-ink);stroke-width:1.6} .lp-stop{fill:var(--fig-ink)} .lp-pt{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.4} .lp-hit{fill:var(--fig-amber)} .lp-water{fill:var(--fig-soft-blue);stroke:none} .lp-glass{fill:none;stroke:var(--fig-ink);stroke-width:2} .lp-dev{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.8} .lp-tube{fill:none;stroke:var(--fig-muted);stroke-width:4;stroke-linecap:round} .lp-book{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6} .lp-screen{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.2} .lp-lp-cable{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
   </style>
   <text x="180.0" y="28.0" text-anchor="middle" class="lp-h">압력 센서로 재기</text>
   <rect x="100.0" y="122.0" width="130.0" height="56.0" rx="0" class="lp-gas"/>
@@ -54,12 +54,11 @@
   <path d="M248 150 C280 150 270 230 300 230" class="lp-tube"/>
   <rect x="300.0" y="210.0" width="60.0" height="40.0" rx="6" class="lp-dev"/>
   <text x="330.0" y="235.0" text-anchor="middle" class="lp-t">센서</text>
-  <line x1="360.0" y1="230.0" x2="380.0" y2="230.0" class="lp-ink" style="stroke-width:2;stroke-linecap:round"/>
   <rect x="220.0" y="40.0" width="100.0" height="70.0" rx="6" class="lp-dev"/>
   <rect x="228.0" y="48.0" width="84.0" height="54.0" rx="3" class="lp-screen"/>
   <text x="270.0" y="80.0" text-anchor="middle" class="lp-t">kPa</text>
-  <path d="M360 230 C380 230 360 75 320 75" class="lp-tube"/>
-  <text x="270.0" y="128.0" text-anchor="middle" class="lp-sm">기록 앱</text>
+  <path d="M330 210 C330 170 270 140 270 110" class="lp-lp-cable"/>
+  <text x="326.0" y="105.0" class="lp-sm">기록 앱</text>
   <text x="170.0" y="300.0" text-anchor="middle" class="lp-t">부피를 5 mL씩 줄이며 압력을 기록</text>
   <text x="170.0" y="318.0" text-anchor="middle" class="lp-sm">누른 뒤 잠시 기다렸다 읽는다(온도 일정)</text>
   <line x1="375.0" y1="20.0" x2="375.0" y2="320.0" class="lp-dash" style="stroke-width:1.2;stroke-linecap:round"/>
