@@ -5,21 +5,21 @@
   <rect x="365.0" y="10.0" width="345.0" height="340.0" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
   <text x="26.0" y="36.0" style="font-size:15px;fill:var(--fig-ink);font-weight:600">(가) 달리는 차에서 본 비</text>
   <text x="381.0" y="36.0" style="font-size:15px;fill:var(--fig-ink);font-weight:600">(나) 바람 속의 비행기</text>
-  <path d="M40 290 L40 264 L70 262 L92 240 L150 240 L170 262 L190 266 L190 290 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
-  <circle cx="72.0" cy="292.0" r="11.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
-  <circle cx="158.0" cy="292.0" r="11.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
-  <line x1="20.0" y1="303.0" x2="200.0" y2="303.0" style="stroke:var(--fig-line);stroke-width:2;fill:none"/>
-  <line x1="90.0" y1="322.0" x2="140.0" y2="322.0" style="stroke:var(--fig-red);stroke-width:3;fill:none"/>
-  <path d="M150.0 322.0 L140.0 327.0 L140.0 317.0 Z" style="fill:var(--fig-red);stroke:none"/>
-  <text x="160.0" y="327.0" style="font-size:13px;fill:var(--fig-red);font-weight:600">v차,땅 6.0 m/s</text>
-  <line x1="90.0" y1="70.0" x2="66.0" y2="102.0" style="stroke:var(--fig-teal);stroke-width:2;fill:none"/>
-  <line x1="112.0" y1="84.0" x2="88.0" y2="116.0" style="stroke:var(--fig-teal);stroke-width:2;fill:none"/>
-  <line x1="134.0" y1="98.0" x2="110.0" y2="130.0" style="stroke:var(--fig-teal);stroke-width:2;fill:none"/>
-  <line x1="156.0" y1="70.0" x2="132.0" y2="102.0" style="stroke:var(--fig-teal);stroke-width:2;fill:none"/>
-  <line x1="178.0" y1="84.0" x2="154.0" y2="116.0" style="stroke:var(--fig-teal);stroke-width:2;fill:none"/>
-  <line x1="200.0" y1="98.0" x2="176.0" y2="130.0" style="stroke:var(--fig-teal);stroke-width:2;fill:none"/>
-  <line x1="222.0" y1="70.0" x2="198.0" y2="102.0" style="stroke:var(--fig-teal);stroke-width:2;fill:none"/>
-  <text x="40.0" y="66.0" style="font-size:13px;fill:var(--fig-teal)">차 안 사람이 보는 빗줄기</text>
+  <path d="M40 262 L40 236 L70 234 L92 212 L150 212 L170 234 L190 238 L190 262 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <circle cx="72.0" cy="264.0" r="11.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <circle cx="158.0" cy="264.0" r="11.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <line x1="20.0" y1="275.0" x2="200.0" y2="275.0" style="stroke:var(--fig-line);stroke-width:2;fill:none"/>
+  <line x1="90.0" y1="294.0" x2="140.0" y2="294.0" style="stroke:var(--fig-red);stroke-width:3;fill:none"/>
+  <path d="M150.0 294.0 L140.0 299.0 L140.0 289.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="160.0" y="299.0" style="font-size:13px;fill:var(--fig-red);font-weight:600">v차,땅 6.0 m/s</text>
+  <line x1="60.0" y1="76.0" x2="42.0" y2="100.0" style="stroke:var(--fig-teal);stroke-width:2;fill:none"/>
+  <line x1="76.0" y1="88.0" x2="58.0" y2="112.0" style="stroke:var(--fig-teal);stroke-width:2;fill:none"/>
+  <line x1="92.0" y1="100.0" x2="74.0" y2="124.0" style="stroke:var(--fig-teal);stroke-width:2;fill:none"/>
+  <line x1="108.0" y1="76.0" x2="90.0" y2="100.0" style="stroke:var(--fig-teal);stroke-width:2;fill:none"/>
+  <line x1="124.0" y1="88.0" x2="106.0" y2="112.0" style="stroke:var(--fig-teal);stroke-width:2;fill:none"/>
+  <line x1="140.0" y1="100.0" x2="122.0" y2="124.0" style="stroke:var(--fig-teal);stroke-width:2;fill:none"/>
+  <line x1="156.0" y1="76.0" x2="138.0" y2="100.0" style="stroke:var(--fig-teal);stroke-width:2;fill:none"/>
+  <text x="30.0" y="66.0" style="font-size:13px;fill:var(--fig-teal)">차 안에서 본 빗줄기</text>
   <line x1="250.0" y1="80.0" x2="250.0" y2="190.0" style="stroke:var(--fig-blue);stroke-width:3;fill:none"/>
   <path d="M250.0 200.0 L245.0 190.0 L255.0 190.0 Z" style="fill:var(--fig-blue);stroke:none"/>
   <text x="258.0" y="130.0" style="font-size:13px;fill:var(--fig-blue);font-weight:600">v비,땅</text>
@@ -36,8 +36,8 @@
   <text x="26.0" y="336.0" style="font-size:13px;fill:var(--fig-ink);font-weight:600">v비,차 = v비,땅 − v차,땅 (수치는 예시)</text>
   <line x1="470.0" y1="300.0" x2="470.0" y2="102.0" style="stroke:var(--fig-green);stroke-width:3.5;fill:none"/>
   <path d="M470.0 90.0 L476.0 102.0 L464.0 102.0 Z" style="fill:var(--fig-green);stroke:none"/>
-  <text x="462.0" y="180.0" text-anchor="end" style="font-size:13px;fill:var(--fig-green);font-weight:600">대지 속도</text>
-  <text x="462.0" y="196.0" text-anchor="end" style="font-size:13px;fill:var(--fig-green)">(정북)</text>
+  <text x="480.0" y="160.0" style="font-size:13px;fill:var(--fig-green);font-weight:600">대지 속도</text>
+  <text x="480.0" y="176.0" style="font-size:13px;fill:var(--fig-green)">(정북)</text>
   <line x1="470.0" y1="300.0" x2="405.5" y2="101.4" style="stroke:var(--fig-blue);stroke-width:3.5;fill:none"/>
   <path d="M401.8 90.0 L411.2 99.6 L399.8 103.3 Z" style="fill:var(--fig-blue);stroke:none"/>
   <line x1="401.8" y1="90.0" x2="460.0" y2="90.0" style="stroke:var(--fig-red);stroke-width:3;fill:none"/>
