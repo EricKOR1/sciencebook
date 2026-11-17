@@ -73,6 +73,20 @@ Sims.register('u-fault-blocks', {
         text: function (a, t, o) { g0.text(W(a), t, o); },
       };
     }
+    function subtract(P, Qp, G) {   // 같은 평면 위 볼록 다각형 P에서 Q를 뺀 조각들
+      var out = [], rest = P, qc = [0, 0, 0];
+      Qp.forEach(function (q) { qc = add(qc, q); }); qc = mul(qc, 1 / Qp.length);
+      for (var i = 0; i < Qp.length && rest.length >= 3; i++) {
+        var a = Qp[i], b = Qp[(i + 1) % Qp.length], e = add(b, mul(a, -1));
+        var m = [G.n[1] * e[2] - G.n[2] * e[1], G.n[2] * e[0] - G.n[0] * e[2], G.n[0] * e[1] - G.n[1] * e[0]];
+        if (Math.hypot(m[0], m[1], m[2]) < 1e-9) continue;
+        if (dot(m, qc) - dot(m, a) < 0) m = mul(m, -1);          // m: Q 안쪽을 향함
+        var outside = clip(rest, mul(m, -1), -dot(m, a) + 1e-9);
+        if (outside.length >= 3 && area(outside) > 1e-4) out.push(outside);
+        rest = clip(rest, m, dot(m, a) - 1e-9);
+      }
+      return out;
+    }
     function inPlanePoly(p, poly, G) {   // 단층면 위 점이 볼록 다각형 안에 있는가(면 좌표로)
       var P2 = poly.map(function (q) { return [dot(q, G.s), dot(q, G.dd)]; }), x = dot(p, G.s), y = dot(p, G.dd), sgn = 0;
       for (var i = 0; i < P2.length; i++) {
@@ -95,10 +109,17 @@ Sims.register('u-fault-blocks', {
           var polys = FACES.map(function (F) { return { p: clip(F.p, nrm, 0), n: F.n, top: F.top }; });
           polys.push({ p: capPoly(G), n: mul(G.n, -side), cap: true });
           var other = capPoly(G).map(function (q) { return add(q, side > 0 ? [0, 0, 0] : G.u); });   // 맞닿은 상대 블록의 단층면
+          var pieces = [];
           polys.forEach(function (F) {
             if (F.p.length < 3 || area(F.p) < 1e-4) return;
+            if (F.cap) {   // 상대 블록과 맞닿아 가려진 부분을 뺀, 드러난 단층면만
+              subtract(F.p.map(function (q) { return add(q, shift); }), other, G).forEach(function (Pc) { pieces.push({ p: Pc.map(function (q) { return add(q, mul(shift, -1)); }), n: F.n, cap: true }); });
+            } else pieces.push(F);
+          });
+          pieces.forEach(function (F) {
+            if (F.p.length < 3 || area(F.p) < 1e-4) return;
             if (!visible(S, F.p.map(function (q) { return W(add(q, shift)); }), F.n)) return;
-            // 깊이 정렬이 맞도록 작은 조각으로 나누어 그린다(x·z 방향 0.75, 지층 두께 단위)
+            // 깊이 정렬이 맞도록 작은 조각으로 나누어 그린다(x 0.75, z 1, 지층 두께 단위)
             for (var k = 0; k < BY / LAYER; k++) {
               var y0 = -BY + k * LAYER, B = clip(clip(F.p, [0, 1, 0], y0 - 1e-6), [0, -1, 0], -(y0 + LAYER + 1e-6));
               if (F.top) { if (k) break; B = F.p; }
@@ -107,11 +128,8 @@ Sims.register('u-fault-blocks', {
                 var C = clip(clip(clip(clip(B, [1, 0, 0], ix - 1e-6), [-1, 0, 0], -(ix + 0.75 + 1e-6)), [0, 0, 1], iz - 1e-6), [0, 0, -1], -(iz + 1 + 1e-6));
                 if (C.length < 3 || area(C) < 1e-4) continue;
                 var Q = C.map(function (q) { return add(q, shift); });
-                if (F.cap) {   // 상대 블록과 맞닿아 가려진 단층면 조각은 건너뜀
-                  var cc = [0, 0, 0]; Q.forEach(function (q) { cc = add(cc, q); }); cc = mul(cc, 1 / Q.length);
-                  if (inPlanePoly(cc, other, G)) continue;
-                  g.poly(Q, T.figRed, { alpha: 0.3 });
-                } else if (F.top) g.poly(Q, T.figGreen, { alpha: 0.55 });
+                if (F.cap) g.poly(Q, T.figRed, { alpha: 0.3 });
+                else if (F.top) g.poly(Q, T.figGreen, { alpha: 0.55 });
                 else g.poly(Q, cols[k % cols.length], { alpha: 0.95 });
               }
             }
