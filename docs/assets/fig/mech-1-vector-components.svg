@@ -21,24 +21,24 @@
   <path d="M249.7 144.6 L242.7 158.6 L234.3 147.4 Z" style="fill:var(--fig-ink);stroke:none"/>
   <path d="M120 280 A50 50 0 0 0 109.9 249.9" style="fill:none;stroke:var(--fig-ink);stroke-width:1.5"/>
   <text x="126.0" y="268.0" style="font-size:15px;fill:var(--fig-ink)">θ</text>
-  <text x="141.8" y="198.3" style="font-size:17px;fill:var(--fig-ink);font-weight:600">F</text>
+  <text x="209.7" y="208.6" style="font-size:17px;fill:var(--fig-ink);font-weight:600">F</text>
   <text x="159.8" y="304.0" text-anchor="middle" style="font-size:15px;fill:var(--fig-red);font-weight:600">F<tspan dy="4" style="font-size:11px">x</tspan><tspan dy="-4"></tspan> = F cosθ</text>
-  <text x="80.0" y="192.3" style="font-size:15px;fill:var(--fig-blue);font-weight:600">F<tspan dy="4" style="font-size:11px">y</tspan><tspan dy="-4"></tspan> = F sinθ</text>
-  <text x="182.0" y="318.0" text-anchor="middle" style="font-size:14px;fill:var(--fig-muted)">F = √(F<tspan dy="4" style="font-size:11px">x</tspan><tspan dy="-4"></tspan>² + F<tspan dy="4" style="font-size:11px">y</tspan><tspan dy="-4"></tspan>²)</text>
-  <line x1="425.0" y1="280.0" x2="517.0" y2="280.0" style="stroke:var(--fig-red);stroke-width:4;fill:none"/>
-  <path d="M530.0 280.0 L517.0 286.5 L517.0 273.5 Z" style="fill:var(--fig-red);stroke:none"/>
-  <line x1="425.0" y1="280.0" x2="425.0" y2="153.0" style="stroke:var(--fig-blue);stroke-width:4;fill:none"/>
-  <path d="M425.0 140.0 L431.5 153.0 L418.5 153.0 Z" style="fill:var(--fig-blue);stroke:none"/>
-  <line x1="530.0" y1="280.0" x2="530.0" y2="140.0" style="stroke:var(--fig-line);stroke-width:1.5;fill:none;stroke-dasharray:5 4"/>
-  <line x1="425.0" y1="140.0" x2="530.0" y2="140.0" style="stroke:var(--fig-line);stroke-width:1.5;fill:none;stroke-dasharray:5 4"/>
-  <line x1="425.0" y1="280.0" x2="521.0" y2="152.0" style="stroke:var(--fig-ink);stroke-width:4.5;fill:none"/>
-  <path d="M530.0 140.0 L527.0 156.5 L515.0 147.5 Z" style="fill:var(--fig-ink);stroke:none"/>
-  <path d="M470 280 A45 45 0 0 0 452.0 244.0" style="fill:none;stroke:var(--fig-ink);stroke-width:1.5"/>
-  <text x="475.0" y="262.0" style="font-size:13px;fill:var(--fig-ink)">약 53°</text>
-  <text x="477.5" y="304.0" text-anchor="middle" style="font-size:14px;fill:var(--fig-red);font-weight:600">60 N (동)</text>
-  <text x="417.0" y="210.0" text-anchor="end" style="font-size:14px;fill:var(--fig-blue);font-weight:600">80 N</text>
-  <text x="417.0" y="228.0" text-anchor="end" style="font-size:13px;fill:var(--fig-blue)">(북)</text>
-  <text x="540.0" y="134.0" style="font-size:15px;fill:var(--fig-ink);font-weight:600">합력 100 N</text>
-  <text x="540.0" y="154.0" style="font-size:13px;fill:var(--fig-muted)">√(60² + 80²)</text>
-  <text x="537.0" y="318.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-muted)">대각선이 합력: 크기는 7 N이 아닌 피타고라스로</text>
+  <text x="80.0" y="174.6" style="font-size:15px;fill:var(--fig-blue);font-weight:600">F<tspan dy="4" style="font-size:11px">y</tspan><tspan dy="-4"></tspan> = F sinθ</text>
+  <text x="200.0" y="250.0" text-anchor="middle" style="font-size:14px;fill:var(--fig-muted)">F = √(F<tspan dy="4" style="font-size:11px">x</tspan><tspan dy="-4"></tspan>² + F<tspan dy="4" style="font-size:11px">y</tspan><tspan dy="-4"></tspan>²)</text>
+  <line x1="425.0" y1="272.0" x2="517.0" y2="272.0" style="stroke:var(--fig-red);stroke-width:4;fill:none"/>
+  <path d="M530.0 272.0 L517.0 278.5 L517.0 265.5 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="425.0" y1="272.0" x2="425.0" y2="145.0" style="stroke:var(--fig-blue);stroke-width:4;fill:none"/>
+  <path d="M425.0 132.0 L431.5 145.0 L418.5 145.0 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="530.0" y1="272.0" x2="530.0" y2="132.0" style="stroke:var(--fig-line);stroke-width:1.5;fill:none;stroke-dasharray:5 4"/>
+  <line x1="425.0" y1="132.0" x2="530.0" y2="132.0" style="stroke:var(--fig-line);stroke-width:1.5;fill:none;stroke-dasharray:5 4"/>
+  <line x1="425.0" y1="272.0" x2="521.0" y2="144.0" style="stroke:var(--fig-ink);stroke-width:4.5;fill:none"/>
+  <path d="M530.0 132.0 L527.0 148.5 L515.0 139.5 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <path d="M470 272 A45 45 0 0 0 452.0 236.0" style="fill:none;stroke:var(--fig-ink);stroke-width:1.5"/>
+  <text x="475.0" y="254.0" style="font-size:13px;fill:var(--fig-ink)">약 53°</text>
+  <text x="477.5" y="296.0" text-anchor="middle" style="font-size:14px;fill:var(--fig-red);font-weight:600">60 N (동)</text>
+  <text x="417.0" y="202.0" text-anchor="end" style="font-size:14px;fill:var(--fig-blue);font-weight:600">80 N</text>
+  <text x="417.0" y="220.0" text-anchor="end" style="font-size:13px;fill:var(--fig-blue)">(북)</text>
+  <text x="540.0" y="126.0" style="font-size:15px;fill:var(--fig-ink);font-weight:600">합력 100 N</text>
+  <text x="540.0" y="146.0" style="font-size:13px;fill:var(--fig-muted)">√(60² + 80²)</text>
+  <text x="537.0" y="320.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-muted)">대각선이 합력: 크기는 7 N이 아닌 피타고라스로</text>
 </svg>

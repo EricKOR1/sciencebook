@@ -1,16 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-phy-2-wireless-charging d-phy-2-wireless-charging">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-phy-2-wireless-charging d-phy-2-wireless-charging">
   <title id="t-phy-2-wireless-charging">그림 물리학 2-6 무선 충전 — 송신 코일과 수신 코일</title>
   <desc id="d-phy-2-wireless-charging">충전 패드의 송신 코일에 교류가 흐르면 방향과 세기가 계속 바뀌는 자기장이 생기고, 이 자기장이 위에 놓인 스마트폰의 수신 코일을 지나며 유도 전류를 만든다. 수신 코일이 멀어지면 그 코일을 지나는 자기장(자기력선)이 줄어 유도 전류가 약해진다(모식도, 단면).</desc>
   <style>
     .phy-2-wireless-charging-lbl{font-size:14px;fill:var(--fig-ink)} .phy-2-wireless-charging-sm{font-size:13px;fill:var(--fig-muted)} .phy-2-wireless-charging-b{font-weight:600}
   </style>
 <text x="180.0" y="26.0" text-anchor="middle" class="phy-2-wireless-charging-lbl phy-2-wireless-charging-b">(가) 가까이 놓았을 때</text>
-<path d="M180 255 C180 185 125 185 125 230.5 C125 277 180 277 180 255" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4"/>
-<path d="M180 255 C180 185 235 185 235 230.5 C235 277 180 277 180 255" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4"/>
-<path d="M180 255 C180 140 95 140 95 214.75 C95 277 180 277 180 255" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4"/>
-<path d="M180 255 C180 140 265 140 265 214.75 C265 277 180 277 180 255" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4"/>
-<path d="M180 255 C180 80 60 80 60 193.75 C60 277 180 277 180 255" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4"/>
-<path d="M180 255 C180 80 300 80 300 193.75 C300 277 180 277 180 255" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4"/>
+<path d="M180 255 C180 180 88 180 88 228.75 C88 295 180 295 180 255" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4"/>
+<path d="M180 255 C180 180 272 180 272 228.75 C272 295 180 295 180 255" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4"/>
+<path d="M180 255 C180 135 62 135 62 213.0 C62 295 180 295 180 255" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4"/>
+<path d="M180 255 C180 135 298 135 298 213.0 C298 295 180 295 180 255" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4"/>
+<path d="M180 255 C180 75 32 75 32 192.0 C32 295 180 295 180 255" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4"/>
+<path d="M180 255 C180 75 328 75 328 192.0 C328 295 180 295 180 255" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4"/>
 <line x1="180.0" y1="245.0" x2="180.0" y2="224.0" style="stroke:var(--fig-blue);stroke-width:2;fill:none"/>
 <path d="M180.0 215.0 L184.1 224.0 L175.9 224.0 Z" style="fill:var(--fig-blue)"/>
 <rect x="85.0" y="263.0" width="190.0" height="30.0" rx="4" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
@@ -19,20 +19,20 @@
 <circle cx="232.0" cy="255.0" r="6" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2"/>
 <circle cx="250.0" cy="255.0" r="6" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2"/>
 <text x="180.0" y="283.0" text-anchor="middle" class="phy-2-wireless-charging-sm">충전 패드: 송신 코일 (교류)</text>
-<rect x="100.0" y="181.0" width="160.0" height="22.0" rx="4" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+<rect x="100" y="181" width="160" height="22" rx="4" style="fill:none;stroke:var(--fig-green);stroke-width:2"/>
 <circle cx="125.0" cy="192.0" r="5" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:2"/>
 <circle cx="140.0" cy="192.0" r="5" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:2"/>
 <circle cx="220.0" cy="192.0" r="5" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:2"/>
 <circle cx="235.0" cy="192.0" r="5" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:2"/>
 <text x="268.0" y="196.0" text-anchor="start" class="phy-2-wireless-charging-sm">수신 코일</text>
-<text x="180.0" y="300.0" text-anchor="middle" class="phy-2-wireless-charging-sm" style="fill:var(--fig-green)">수신 코일을 지나는 자기장 많음 → 충전 잘 됨</text>
+<text x="180.0" y="325.0" text-anchor="middle" class="phy-2-wireless-charging-sm" style="fill:var(--fig-green)">수신 코일을 지나는 자기장 많음 → 충전 잘 됨</text>
 <text x="535.0" y="26.0" text-anchor="middle" class="phy-2-wireless-charging-lbl phy-2-wireless-charging-b">(나) 멀리 떨어졌을 때</text>
-<path d="M535 255 C535 185 480 185 480 230.5 C480 277 535 277 535 255" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4"/>
-<path d="M535 255 C535 185 590 185 590 230.5 C590 277 535 277 535 255" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4"/>
-<path d="M535 255 C535 140 450 140 450 214.75 C450 277 535 277 535 255" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4"/>
-<path d="M535 255 C535 140 620 140 620 214.75 C620 277 535 277 535 255" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4"/>
-<path d="M535 255 C535 80 415 80 415 193.75 C415 277 535 277 535 255" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4"/>
-<path d="M535 255 C535 80 655 80 655 193.75 C655 277 535 277 535 255" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4"/>
+<path d="M535 255 C535 180 443 180 443 228.75 C443 295 535 295 535 255" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4"/>
+<path d="M535 255 C535 180 627 180 627 228.75 C627 295 535 295 535 255" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4"/>
+<path d="M535 255 C535 135 417 135 417 213.0 C417 295 535 295 535 255" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4"/>
+<path d="M535 255 C535 135 653 135 653 213.0 C653 295 535 295 535 255" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4"/>
+<path d="M535 255 C535 75 387 75 387 192.0 C387 295 535 295 535 255" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4"/>
+<path d="M535 255 C535 75 683 75 683 192.0 C683 295 535 295 535 255" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4"/>
 <line x1="535.0" y1="245.0" x2="535.0" y2="224.0" style="stroke:var(--fig-blue);stroke-width:2;fill:none"/>
 <path d="M535.0 215.0 L539.0 224.0 L531.0 224.0 Z" style="fill:var(--fig-blue)"/>
 <rect x="440.0" y="263.0" width="190.0" height="30.0" rx="4" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
@@ -41,12 +41,12 @@
 <circle cx="587.0" cy="255.0" r="6" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2"/>
 <circle cx="605.0" cy="255.0" r="6" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2"/>
 <text x="535.0" y="283.0" text-anchor="middle" class="phy-2-wireless-charging-sm">충전 패드: 송신 코일 (교류)</text>
-<rect x="455.0" y="76.0" width="160.0" height="22.0" rx="4" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+<rect x="455" y="76" width="160" height="22" rx="4" style="fill:none;stroke:var(--fig-green);stroke-width:2"/>
 <circle cx="480.0" cy="87.0" r="5" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:2"/>
 <circle cx="495.0" cy="87.0" r="5" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:2"/>
 <circle cx="575.0" cy="87.0" r="5" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:2"/>
 <circle cx="590.0" cy="87.0" r="5" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:2"/>
 <text x="623.0" y="91.0" text-anchor="start" class="phy-2-wireless-charging-sm">수신 코일</text>
-<text x="535.0" y="300.0" text-anchor="middle" class="phy-2-wireless-charging-sm" style="fill:var(--fig-red)">수신 코일을 지나는 자기장 적음 → 충전 약함</text>
+<text x="535.0" y="325.0" text-anchor="middle" class="phy-2-wireless-charging-sm" style="fill:var(--fig-red)">수신 코일을 지나는 자기장 적음 → 충전 약함</text>
 <line x1="362.0" y1="40.0" x2="362.0" y2="310.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4;fill:none"/>
 </svg>

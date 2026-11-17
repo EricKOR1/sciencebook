@@ -24,17 +24,17 @@
   <text x="500.0" y="185.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-ink)">은하단</text>
   <circle cx="680.0" cy="180.0" r="7.0" style="fill:var(--fig-blue);stroke:none;stroke-width:1.5"/>
   <text x="680.0" y="206.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-blue);font-weight:600">관측자</text>
-  <path d="M305.0 180.0 L500.0 108.0 L680.0 180.0" style="fill:none;stroke:var(--fig-amber);stroke-width:2.5"/>
-  <line x1="500.0" y1="108.0" x2="305.0" y2="30.0" style="stroke:var(--fig-line);stroke-width:1.5;fill:none;stroke-dasharray:5 4"/>
-  <circle cx="305.0" cy="30.0" r="8.0" style="fill:none;stroke:var(--fig-violet);stroke-width:2;stroke-dasharray:3 2"/>
-  <text x="319.0" y="35.0" style="font-size:12px;fill:var(--fig-violet)">보이는 상</text>
-  <path d="M305.0 180.0 L500.0 252.0 L680.0 180.0" style="fill:none;stroke:var(--fig-amber);stroke-width:2.5"/>
-  <line x1="500.0" y1="252.0" x2="305.0" y2="330.0" style="stroke:var(--fig-line);stroke-width:1.5;fill:none;stroke-dasharray:5 4"/>
-  <circle cx="305.0" cy="330.0" r="8.0" style="fill:none;stroke:var(--fig-violet);stroke-width:2;stroke-dasharray:3 2"/>
-  <text x="319.0" y="335.0" style="font-size:12px;fill:var(--fig-violet)">보이는 상</text>
-  <line x1="590.0" y1="144.0" x2="592.0" y2="145.0" style="stroke:var(--fig-amber);stroke-width:2.5;fill:none"/>
-  <path d="M600.0 149.0 L589.9 149.0 L594.0 141.0 Z" style="fill:var(--fig-amber);stroke:none"/>
-  <line x1="590.0" y1="216.0" x2="592.0" y2="215.0" style="stroke:var(--fig-amber);stroke-width:2.5;fill:none"/>
-  <path d="M600.0 211.0 L594.0 219.0 L589.9 211.0 Z" style="fill:var(--fig-amber);stroke:none"/>
+  <line x1="305.0" y1="180.0" x2="500.0" y2="136.0" style="stroke:var(--fig-amber);stroke-width:2.5;fill:none"/>
+  <line x1="500.0" y1="136.0" x2="662.3" y2="177.5" style="stroke:var(--fig-amber);stroke-width:2.5;fill:none"/>
+  <path d="M672.0 180.0 L661.1 182.4 L663.6 172.7 Z" style="fill:var(--fig-amber);stroke:none"/>
+  <line x1="500.0" y1="136.0" x2="305.0" y2="88.3" style="stroke:var(--fig-line);stroke-width:1.5;fill:none;stroke-dasharray:5 4"/>
+  <circle cx="305.0" cy="88.3" r="8.0" style="fill:none;stroke:var(--fig-violet);stroke-width:2;stroke-dasharray:3 2"/>
+  <text x="319.0" y="93.3" style="font-size:12px;fill:var(--fig-violet)">보이는 상</text>
+  <line x1="305.0" y1="180.0" x2="500.0" y2="224.0" style="stroke:var(--fig-amber);stroke-width:2.5;fill:none"/>
+  <line x1="500.0" y1="224.0" x2="662.3" y2="182.5" style="stroke:var(--fig-amber);stroke-width:2.5;fill:none"/>
+  <path d="M672.0 180.0 L663.6 187.3 L661.1 177.6 Z" style="fill:var(--fig-amber);stroke:none"/>
+  <line x1="500.0" y1="224.0" x2="305.0" y2="271.7" style="stroke:var(--fig-line);stroke-width:1.5;fill:none;stroke-dasharray:5 4"/>
+  <circle cx="305.0" cy="271.7" r="8.0" style="fill:none;stroke:var(--fig-violet);stroke-width:2;stroke-dasharray:3 2"/>
+  <text x="319.0" y="276.7" style="font-size:12px;fill:var(--fig-violet)">보이는 상</text>
   <text x="490.0" y="312.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-muted)">빛이 질량 근처에서 휘어, 같은 은하가 여러 곳에 보인다</text>
 </svg>

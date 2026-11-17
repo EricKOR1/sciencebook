@@ -1,25 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-mech-1-satellite-orbits d-mech-1-satellite-orbits">
   <title id="t-mech-1-satellite-orbits">그림 역학과 에너지 1-8 인공위성의 궤도 높이와 속력(실제 비율)</title>
   <desc id="d-mech-1-satellite-orbits">지구와 저궤도(국제 우주 정거장, 고도 약 400 km), GPS 위성 궤도(고도 약 20,200 km), 정지 궤도(고도 약 36,000 km)를 실제 크기 비율로 그렸다. 화살표 길이는 궤도 속력에 비례하며, 높은 궤도일수록 속력이 느리고 주기가 길다.</desc>
-  <circle cx="210.0" cy="190.0" r="168.0" style="fill:none;stroke:var(--fig-violet);stroke-width:2;stroke-dasharray:7 5"/>
-  <circle cx="210.0" cy="190.0" r="105.9" style="fill:none;stroke:var(--fig-teal);stroke-width:2;stroke-dasharray:7 5"/>
-  <circle cx="210.0" cy="190.0" r="25.4" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
-  <circle cx="210.0" cy="190.0" r="27.0" style="fill:none;stroke:var(--fig-red);stroke-width:1.5"/>
-  <text x="210.0" y="195.0" text-anchor="middle" style="font-size:12px;fill:var(--fig-ink)">지구</text>
-  <line x1="210.0" y1="163.0" x2="150.7" y2="163.0" style="stroke:var(--fig-red);stroke-width:3;fill:none"/>
-  <path d="M140.7 163.0 L150.7 158.0 L150.7 168.0 Z" style="fill:var(--fig-red);stroke:none"/>
-  <circle cx="210.0" cy="163.0" r="4.5" style="fill:var(--fig-red);stroke:none;stroke-width:1.5"/>
-  <line x1="210.0" y1="84.1" x2="184.9" y2="84.1" style="stroke:var(--fig-teal);stroke-width:3;fill:none"/>
-  <path d="M174.9 84.1 L184.9 79.1 L184.9 89.1 Z" style="fill:var(--fig-teal);stroke:none"/>
-  <circle cx="210.0" cy="84.1" r="4.5" style="fill:var(--fig-teal);stroke:none;stroke-width:1.5"/>
-  <line x1="210.0" y1="22.0" x2="192.1" y2="22.0" style="stroke:var(--fig-violet);stroke-width:3;fill:none"/>
-  <path d="M182.1 22.0 L192.1 17.0 L192.1 27.0 Z" style="fill:var(--fig-violet);stroke:none"/>
-  <circle cx="210.0" cy="22.0" r="4.5" style="fill:var(--fig-violet);stroke:none;stroke-width:1.5"/>
-  <line x1="229.2" y1="209.2" x2="280.0" y2="260.0" style="stroke:var(--fig-red);stroke-width:1;fill:none"/>
-  <text x="282.0" y="274.0" style="font-size:13px;fill:var(--fig-red);font-weight:600">저궤도</text>
-  <text x="273.5" y="292.7" style="font-size:13px;fill:var(--fig-teal);font-weight:600">GPS 궤도</text>
-  <text x="340.0" y="330.0" style="font-size:13px;fill:var(--fig-violet);font-weight:600">정지 궤도</text>
-  <text x="106.0" y="18.0" style="font-size:12px;fill:var(--fig-muted)">화살표 = 궤도 속력</text>
+  <circle cx="190.0" cy="192.0" r="158.0" style="fill:none;stroke:var(--fig-violet);stroke-width:2;stroke-dasharray:7 5"/>
+  <circle cx="190.0" cy="192.0" r="99.6" style="fill:none;stroke:var(--fig-teal);stroke-width:2;stroke-dasharray:7 5"/>
+  <circle cx="190.0" cy="192.0" r="23.9" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <circle cx="190.0" cy="192.0" r="25.4" style="fill:none;stroke:var(--fig-red);stroke-width:1.5"/>
+  <text x="190.0" y="197.0" text-anchor="middle" style="font-size:12px;fill:var(--fig-ink)">지구</text>
+  <line x1="190.0" y1="166.6" x2="130.7" y2="166.6" style="stroke:var(--fig-red);stroke-width:3;fill:none"/>
+  <path d="M120.7 166.6 L130.7 161.6 L130.7 171.6 Z" style="fill:var(--fig-red);stroke:none"/>
+  <circle cx="190.0" cy="166.6" r="4.5" style="fill:var(--fig-red);stroke:none;stroke-width:1.5"/>
+  <line x1="190.0" y1="92.4" x2="164.9" y2="92.4" style="stroke:var(--fig-teal);stroke-width:3;fill:none"/>
+  <path d="M154.9 92.4 L164.9 87.4 L164.9 97.4 Z" style="fill:var(--fig-teal);stroke:none"/>
+  <circle cx="190.0" cy="92.4" r="4.5" style="fill:var(--fig-teal);stroke:none;stroke-width:1.5"/>
+  <line x1="190.0" y1="34.0" x2="172.1" y2="34.0" style="stroke:var(--fig-violet);stroke-width:3;fill:none"/>
+  <path d="M162.1 34.0 L172.1 29.0 L172.1 39.0 Z" style="fill:var(--fig-violet);stroke:none"/>
+  <circle cx="190.0" cy="34.0" r="4.5" style="fill:var(--fig-violet);stroke:none;stroke-width:1.5"/>
+  <text x="200.0" y="158.6" style="font-size:13px;fill:var(--fig-red);font-weight:600">저궤도 7.7 km/s</text>
+  <text x="200.0" y="84.4" style="font-size:13px;fill:var(--fig-teal);font-weight:600">GPS 3.9 km/s</text>
+  <text x="200.0" y="26.0" style="font-size:13px;fill:var(--fig-violet);font-weight:600">정지 궤도 3.1 km/s</text>
+  <text x="20.0" y="372.0" style="font-size:12px;fill:var(--fig-muted)">화살표 길이 = 궤도 속력</text>
   <rect x="412.0" y="40.0" width="296.0" height="250.0" rx="10" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
   <text x="426.0" y="66.0" style="font-size:13px;fill:var(--fig-muted)">궤도</text>
   <text x="522.0" y="66.0" style="font-size:13px;fill:var(--fig-muted)">고도</text>
