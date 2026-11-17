@@ -52,7 +52,10 @@
   <line x1="360.0" y1="185.7" x2="459.0" y2="185.7" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 3"/>
   <line x1="393.0" y1="185.7" x2="393.0" y2="290.0" style="stroke:var(--fig-ink);stroke-width:1;stroke-dasharray:3 3"/>
   <line x1="459.0" y1="185.7" x2="459.0" y2="290.0" style="stroke:var(--fig-blue);stroke-width:1;stroke-dasharray:3 3"/>
-  <text x="690.0" y="120.3" text-anchor="end" class="ubio-3-inhibition-k">저해제 없음</text>
-  <text x="690.0" y="153.5" text-anchor="end" class="ubio-3-inhibition-blue">경쟁적: K<tspan dy="3" style="font-size:10px">m</tspan><tspan dy="-3">이 커짐(6 mM)</tspan></text>
-  <text x="690.0" y="216.8" text-anchor="end" class="ubio-3-inhibition-red">비경쟁적: V<tspan dy="3" style="font-size:10px">max</tspan><tspan dy="-3">가 작아짐(33)</tspan></text>
+  <line x1="501.9" y1="169.1" x2="531.6" y2="169.1" style="stroke:var(--fig-ink);stroke-width:2.6"/>
+  <text x="538.2" y="173.1" text-anchor="start" class="ubio-3-inhibition-ink">저해제 없음</text>
+  <line x1="501.9" y1="188.1" x2="531.6" y2="188.1" style="stroke:var(--fig-blue);stroke-width:2.6;stroke-dasharray:6 4"/>
+  <text x="538.2" y="192.1" text-anchor="start" class="ubio-3-inhibition-blue">경쟁적: K<tspan dy="3" style="font-size:10px">m</tspan><tspan dy="-3"> 2 → 6 mM</tspan></text>
+  <line x1="501.9" y1="207.1" x2="531.6" y2="207.1" style="stroke:var(--fig-red);stroke-width:2.6;stroke-dasharray:2 3"/>
+  <text x="538.2" y="211.1" text-anchor="start" class="ubio-3-inhibition-red">비경쟁적: V<tspan dy="3" style="font-size:10px">max</tspan><tspan dy="-3"> 100 → 33</tspan></text>
 </svg>

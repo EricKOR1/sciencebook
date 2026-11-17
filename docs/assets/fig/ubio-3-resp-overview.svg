@@ -8,9 +8,9 @@
   <rect x="35.0" y="90.0" width="150.0" height="40.0" rx="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6"/>
   <text x="110.0" y="115.0" text-anchor="middle" class="ubio-3-resp-overview-t">포도당 (6C)</text>
   <line x1="110.0" y1="132.0" x2="110.0" y2="186.0" style="stroke:var(--fig-ink);stroke-width:2.2" marker-end="url(#ubio-3-resp-overview-a-ink)"/>
-  <rect x="36.0" y="140.0" width="148.0" height="40.0" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="22.0" y="140.0" width="176.0" height="40.0" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
   <text x="110.0" y="156.0" text-anchor="middle" class="ubio-3-resp-overview-b">해당 과정(10단계)</text>
-  <text x="110.0" y="173.0" text-anchor="middle" class="ubio-3-resp-overview-s">투자 −2 ATP · 회수 +4 ATP</text>
+  <text x="110.0" y="173.0" text-anchor="middle" class="ubio-3-resp-overview-s">−2 ATP 투자, +4 ATP 회수</text>
   <rect x="35.0" y="190.0" width="150.0" height="40.0" rx="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6"/>
   <text x="110.0" y="215.0" text-anchor="middle" class="ubio-3-resp-overview-t">피루브산 2 (3C)</text>
   <text x="110.0" y="252.0" text-anchor="middle" class="ubio-3-resp-overview-k">산물: ATP 2(알짜)</text>
@@ -20,7 +20,7 @@
   <rect x="220.0" y="70.0" width="486.0" height="340.0" rx="40" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
   <rect x="232.0" y="82.0" width="462.0" height="316.0" rx="32" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2.4"/>
   <text x="463.0" y="62.0" text-anchor="middle" class="ubio-3-resp-overview-red">미토콘드리아</text>
-  <text x="250.0" y="110.0" text-anchor="start" class="ubio-3-resp-overview-blue">기질</text>
+  <text x="254.0" y="380.0" text-anchor="start" class="ubio-3-resp-overview-blue">기질</text>
   <line x1="186.0" y1="210.0" x2="268.0" y2="210.0" style="stroke:var(--fig-ink);stroke-width:2.2" marker-end="url(#ubio-3-resp-overview-a-ink)"/>
   <text x="228.0" y="200.0" text-anchor="middle" class="ubio-3-resp-overview-s">운반체</text>
   <rect x="272.0" y="186.0" width="120.0" height="48.0" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
@@ -48,13 +48,12 @@
   <text x="637.0" y="270.0" text-anchor="middle" class="ubio-3-resp-overview-red">O₂ → H₂O</text>
   <text x="637.0" y="300.0" text-anchor="middle" class="ubio-3-resp-overview-b">ATP</text>
   <text x="637.0" y="318.0" text-anchor="middle" class="ubio-3-resp-overview-b">약 26~28</text>
-  <path d="M518 298 L592 272" style="fill:none;stroke:var(--fig-violet);stroke-width:2" marker-end="url(#ubio-3-resp-overview-a-violet)"/>
-  <text x="548.0" y="262.0" text-anchor="middle" class="ubio-3-resp-overview-violet">NADH 6</text>
-  <text x="548.0" y="280.0" text-anchor="middle" class="ubio-3-resp-overview-violet">FADH₂ 2</text>
-  <path d="M392 248 Q500 160 592 150" style="fill:none;stroke:var(--fig-violet);stroke-width:2;stroke-dasharray:5 3" marker-end="url(#ubio-3-resp-overview-a-violet)"/>
-  <text x="520.0" y="156.0" text-anchor="middle" class="ubio-3-resp-overview-violet">NADH 2</text>
-  <path d="M130 280 Q 200 130 592 126" style="fill:none;stroke:var(--fig-violet);stroke-width:1.6;stroke-dasharray:2 4" marker-end="url(#ubio-3-resp-overview-a-violet)"/>
-  <text x="250.0" y="138.0" text-anchor="start" class="ubio-3-resp-overview-violet">해당 과정의 NADH 2(셔틀로 전자만)</text>
+  <path d="M518 306 L592 282" style="fill:none;stroke:var(--fig-violet);stroke-width:2.2" marker-end="url(#ubio-3-resp-overview-a-violet)"/>
+  <text x="556.0" y="250.0" text-anchor="middle" class="ubio-3-resp-overview-violet">NADH 8</text>
+  <text x="556.0" y="268.0" text-anchor="middle" class="ubio-3-resp-overview-violet">FADH₂ 2</text>
+  <text x="470.0" y="386.0" text-anchor="middle" class="ubio-3-resp-overview-s">NADH 8 = 피루브산 산화 2 + 회로 6</text>
+  <path d="M150 282 Q 240 96 592 122" style="fill:none;stroke:var(--fig-violet);stroke-width:1.6;stroke-dasharray:2 4" marker-end="url(#ubio-3-resp-overview-a-violet)"/>
+  <text x="330.0" y="100.0" text-anchor="start" class="ubio-3-resp-overview-violet">해당 과정의 NADH 2(셔틀로 전자만 전달)</text>
   <rect x="16.0" y="340.0" width="192.0" height="70.0" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.4"/>
   <text x="112.0" y="364.0" text-anchor="middle" class="ubio-3-resp-overview-k">포도당 1분자당</text>
   <text x="112.0" y="390.0" text-anchor="middle" class="ubio-3-resp-overview-b">약 30~32 ATP</text>
