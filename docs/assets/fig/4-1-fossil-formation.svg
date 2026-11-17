@@ -76,14 +76,13 @@
   <text x="626" y="26" text-anchor="middle" class="ff-h">④ 솟아오르고 깎인다</text>
   <rect x="542" y="40" width="168" height="210" class="ff-sky"/>
   <!-- 깎인 언덕: 위쪽 층은 오른쪽만 남음 -->
-  <path d="M542 250 V200 H560 L590 200 Q600 150 640 110 L710 90 V250 Z" class="ff-rock1"/>
-  <path d="M542 225 H710" class="ff-rib" style="stroke:var(--fig-ink)"/>
-  <path d="M590 200 H710 M616 160 H710 M640 128 H710" class="ff-rib"/>
-  <g transform="translate(608 200)" class="ff-fossil"><use href="#ff-shell-shape"/></g>
-  <path d="M600 198 L602 184 M608 198 V182 M616 198 L614 184" class="ff-rib"/>
-  <path d="M570 120 Q575 160 596 176" class="ff-red"/>
-  <path d="M590 168 L600 182 L601 166 Z" class="ff-redh"/>
-  <text x="572" y="110" text-anchor="middle" class="ff-t" style="fill:var(--fig-red)">발견!</text>
+  <path d="M542 250 V215 H585 Q592 170 630 120 L710 95 V250 Z" class="ff-rock1"/>
+  <path d="M542 232 H710 M586 208 H710 M603 165 H710 M621 130 H710" class="ff-rib"/>
+  <g transform="translate(598 208)" class="ff-fossil"><use href="#ff-shell-shape"/></g>
+  <path d="M590 206 L592 192 M598 206 V190 M606 206 L604 192" class="ff-rib"/>
+  <path d="M562 130 Q566 168 582 188" class="ff-red"/>
+  <path d="M575 184 L587 196 L586 180 Z" class="ff-redh"/>
+  <text x="562" y="120" text-anchor="middle" class="ff-t" style="fill:var(--fig-red)">발견!</text>
   <path d="M690 236 V206" class="ff-arr"/>
   <path d="M684 210 L690 198 L696 210 Z" class="ff-arrh"/>
   <text x="664" y="244" text-anchor="end" class="ff-mu">융기</text>
