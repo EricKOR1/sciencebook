@@ -124,8 +124,9 @@ Sims.register('u-arrhenius', {
       ctx.fillStyle = T.figAmber; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
       ctx.fillText('25 ℃ → 35 ℃', sx(298.15) - 30, Tp + 10);
       ctx.fillStyle = T.figMuted; ctx.textAlign = 'right';
-      var yr = sy(rel(t1, 53));
-      ctx.fillText('Eₐ = 53 kJ/mol', Rr - 2, Math.min(B - 6, Math.max(Tp + 26, yr + 16)));
+      ctx.textAlign = 'left'; ctx.strokeStyle = T.figMuted; ctx.lineWidth = 1.6; ctx.setLineDash([5, 4]);
+      ctx.beginPath(); ctx.moveTo(L + 8, Tp + 28); ctx.lineTo(L + 30, Tp + 28); ctx.stroke(); ctx.setLineDash([]);
+      ctx.fillText('Eₐ = 53 kJ/mol (10 ℃에 2배)', L + 36, Tp + 32);
     }
     function niceStep(range, n) { var raw = range / n, e = Math.pow(10, Math.floor(Math.log10(raw))), f = raw / e; return (f < 1.5 ? 1 : f < 3 ? 2 : f < 7 ? 5 : 10) * e; }
     function fmtN(v) { return v >= 10 ? String(Math.round(v)) : v >= 1 ? String(Math.round(v * 100) / 100) : v.toFixed(1); }

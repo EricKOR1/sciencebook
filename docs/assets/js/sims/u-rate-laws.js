@@ -21,7 +21,7 @@ Sims.register('u-rate-laws', {
     var btns = ORD.map(function (o, i) {
       return api.button(o.name + ' 반응', function () { choose(i); }, { toggle: true, pressed: i === st.o, parent: g });
     });
-    var kS = api.slider({ id: 'u-rate-laws-k', label: '속도 상수 k', min: 0, max: 1, step: 0.002, value: kToS(st.k),
+    var kS = api.slider({ id: 'u-rate-laws-k', label: '속도 상수 k', min: 0, max: 1, step: 0.0001, value: kToS(st.k),
       format: function (v) { return fmt(sToK(v)) + ' ' + ORD[st.o].unit; },
       onInput: function (v) { st.k = sToK(v); update(); } });
     var aS = api.slider({ id: 'u-rate-laws-a0', label: '처음 농도 [A]₀', min: 0.05, max: 1.0, step: 0.01, value: st.A0,
@@ -152,8 +152,8 @@ Sims.register('u-rate-laws', {
         ctx.fillStyle = T.figPanel; ctx.fill(); ctx.lineWidth = 1.5; ctx.strokeStyle = col; ctx.stroke();
       }
       if (tEnd < TMAX && idx > 0) {
-        ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right';
-        ctx.fillText(idx === 1 && ORD[st.o].n === 0 ? '[A] → 0이면 ln[A] → −∞' : '[A]가 0에 가까워 이후 생략', R, Tp + 12);
+        ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
+        ctx.fillText(idx === 1 && ORD[st.o].n === 0 ? '[A] → 0이면 ln[A] → −∞' : '[A]가 0에 가까워 이후 생략', L + 6, Tp + 12);
       }
     }
     function fmtTick(v, step) {
