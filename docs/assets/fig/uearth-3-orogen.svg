@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 620" role="img" aria-labelledby="t-uearth-3-orogen d-uearth-3-orogen">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 636" role="img" aria-labelledby="t-uearth-3-orogen d-uearth-3-orogen">
   <title id="t-uearth-3-orogen">그림 일반지구과학 3-3 조산대의 세 가지 유형</title>
   <desc id="d-uearth-3-orogen">(가) 해양판이 대륙 아래로 섭입하는 안데스형: 해구, 화산호와 화강암 저반, 대륙 쪽 습곡·충상 단층대. (나) 부가형: 섭입대로 실려 온 해산·호상 열도·지괴가 대륙 가장자리에 차례로 덧붙는다. (다) 대륙–대륙 충돌형: 대양이 닫히고 두 대륙이 충돌하여 충상 단층으로 겹쳐 쌓이고 지각이 두꺼워지며, 사라진 바다의 흔적인 봉합대와 오피올라이트가 남는다.</desc>
   <defs><marker id="uearth-3-orogen-k" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-ink)"/></marker>
@@ -48,9 +48,9 @@
 <path d="M16 78 L280 78 Q312 80 340 100 L470 180 L450 186 L332 112 Q308 98 280 96 L16 96 Z" class="uearth-3-orogen-oc"/>
 <path d="M70 78 L92 50 L114 78 Z" class="uearth-3-orogen-oc"/>
 <path d="M160 78 L180 44 L200 60 L214 46 L236 78 Z" class="uearth-3-orogen-ter1" style="fill:var(--fig-soft-green)"/>
-<line x1="120" y1="40" x2="190" y2="40" class="uearth-3-orogen-k" marker-end="url(#uearth-3-orogen-k)"/>
+<line x1="40" y1="88" x2="110" y2="88" style="stroke:var(--fig-panel)" class="uearth-3-orogen-k" marker-end="url(#uearth-3-orogen-k)"/>
 <text x="92" y="44" text-anchor="middle" class="uearth-3-orogen-s">해산</text>
-<text x="198" y="34" class="uearth-3-orogen-s">호상 열도·지괴</text>
+<text x="242" y="58" class="uearth-3-orogen-s">호상 열도·지괴</text>
 <path d="M316 70 L360 58 L380 60 L400 108 L352 104 Z" class="uearth-3-orogen-ter1"/>
 <path d="M380 60 L440 52 L470 120 L400 108 Z" class="uearth-3-orogen-cc2"/>
 <path d="M440 52 L500 46 L520 130 L470 120 Z" class="uearth-3-orogen-ter1" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal)"/>
@@ -79,8 +79,9 @@
 <text x="560" y="32" class="uearth-3-orogen-l">티베트 고원</text>
 <line x1="470" y1="170" x2="520" y2="190" style="stroke:var(--fig-green);stroke-width:1.4"/>
 <text x="524" y="194" class="uearth-3-orogen-l">봉합대·오피올라이트</text>
-<text x="300" y="150" text-anchor="end" class="uearth-3-orogen-s">두꺼운 뿌리(지각 60~70 km)</text>
+<text x="372" y="140" text-anchor="middle" class="uearth-3-orogen-l">두꺼워진 지각</text>
+<text x="372" y="158" text-anchor="middle" class="uearth-3-orogen-s">(60~70 km)</text>
 <text x="16" y="192" class="uearth-3-orogen-s">화산은 거의 없다</text>
 </g>
-<text x="360" y="612" text-anchor="middle" class="uearth-3-orogen-s">모식도: 크기와 깊이 비율은 실제와 다르다.</text>
+<text x="360" y="628" text-anchor="middle" class="uearth-3-orogen-s">모식도: 크기와 깊이 비율은 실제와 다르다.</text>
 </svg>
