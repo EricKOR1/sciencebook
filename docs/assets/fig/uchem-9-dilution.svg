@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-uchem-9-dilution d-uchem-9-dilution">
+  <title id="t-uchem-9-dilution">그림 일반화학 9-4 묽힐 때 강산과 약산의 pH, 약산의 이온화도</title>
+  <desc id="d-uchem-9-dilution">왼쪽: 농도를 10배씩 묽힐 때 강산(HCl)의 pH는 1씩, 약산(아세트산, Kₐ = 1.8×10⁻⁵)의 pH는 약 0.5씩 오른다. 오른쪽: 아세트산의 이온화도는 묽을수록 커진다(근의 공식과 물의 이온화를 넣어 계산).</desc>
+  <style>.uchem-9-dilution-t{font-size:14px;fill:var(--fig-ink)} .uchem-9-dilution-s{font-size:13px;fill:var(--fig-muted)} .uchem-9-dilution-h{font-size:15px;fill:var(--fig-ink);font-weight:700} .uchem-9-dilution-ax{stroke:var(--fig-ink);stroke-width:1.3;fill:none} .uchem-9-dilution-grid{stroke:var(--fig-line);stroke-width:0.7;stroke-dasharray:3 3;fill:none}</style>
+  <path d="M70 60 L70 310 L330 310" style="stroke:var(--fig-ink);stroke-width:1.3;fill:none"/>
+  <line x1="70" y1="310" x2="70" y2="315" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="70" y="329" text-anchor="middle" class="uchem-9-dilution-s">1</text>
+  <line x1="135" y1="310" x2="135" y2="315" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="135" y="329" text-anchor="middle" class="uchem-9-dilution-s">0.1</text>
+  <line x1="200" y1="310" x2="200" y2="315" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="200" y="329" text-anchor="middle" class="uchem-9-dilution-s">0.01</text>
+  <line x1="265" y1="310" x2="265" y2="315" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="265" y="329" text-anchor="middle" class="uchem-9-dilution-s">10⁻³</text>
+  <line x1="330" y1="310" x2="330" y2="315" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="330" y="329" text-anchor="middle" class="uchem-9-dilution-s">10⁻⁴</text>
+  <line x1="70" y1="310" x2="330" y2="310" style="stroke:var(--fig-line);stroke-width:0.7;stroke-dasharray:3 3"/>
+  <line x1="65" y1="310" x2="70" y2="310" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="62" y="314.5" text-anchor="end" class="uchem-9-dilution-s">0</text>
+  <line x1="70" y1="260" x2="330" y2="260" style="stroke:var(--fig-line);stroke-width:0.7;stroke-dasharray:3 3"/>
+  <line x1="65" y1="260" x2="70" y2="260" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="62" y="264.5" text-anchor="end" class="uchem-9-dilution-s">1</text>
+  <line x1="70" y1="210" x2="330" y2="210" style="stroke:var(--fig-line);stroke-width:0.7;stroke-dasharray:3 3"/>
+  <line x1="65" y1="210" x2="70" y2="210" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="62" y="214.5" text-anchor="end" class="uchem-9-dilution-s">2</text>
+  <line x1="70" y1="160" x2="330" y2="160" style="stroke:var(--fig-line);stroke-width:0.7;stroke-dasharray:3 3"/>
+  <line x1="65" y1="160" x2="70" y2="160" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="62" y="164.5" text-anchor="end" class="uchem-9-dilution-s">3</text>
+  <line x1="70" y1="110" x2="330" y2="110" style="stroke:var(--fig-line);stroke-width:0.7;stroke-dasharray:3 3"/>
+  <line x1="65" y1="110" x2="70" y2="110" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="62" y="114.5" text-anchor="end" class="uchem-9-dilution-s">4</text>
+  <line x1="70" y1="60" x2="330" y2="60" style="stroke:var(--fig-line);stroke-width:0.7;stroke-dasharray:3 3"/>
+  <line x1="65" y1="60" x2="70" y2="60" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="62" y="64.5" text-anchor="end" class="uchem-9-dilution-s">5</text>
+  <text x="200" y="350" text-anchor="middle" class="uchem-9-dilution-t">처음 농도 C (M) — 오른쪽으로 묽어짐</text>
+  <text x="70" y="48" text-anchor="start" class="uchem-9-dilution-t">pH</text>
+  <text x="200" y="24" text-anchor="middle" class="uchem-9-dilution-h">① pH</text>
+  <path d="M70 310 L73.2 307.5 L76.5 305 L79.8 302.5 L83 300 L86.2 297.5 L89.5 295 L92.8 292.5 L96 290 L99.2 287.5 L102.5 285 L105.8 282.5 L109 280 L112.2 277.5 L115.5 275 L118.8 272.5 L122 270 L125.2 267.5 L128.5 265 L131.8 262.5 L135 260 L138.2 257.5 L141.5 255 L144.8 252.5 L148 250 L151.2 247.5 L154.5 245 L157.8 242.5 L161 240 L164.2 237.5 L167.5 235 L170.8 232.5 L174 230 L177.2 227.5 L180.5 225 L183.8 222.5 L187 220 L190.2 217.5 L193.5 215 L196.8 212.5 L200 210 L203.2 207.5 L206.5 205 L209.8 202.5 L213 200 L216.2 197.5 L219.5 195 L222.8 192.5 L226 190 L229.2 187.5 L232.5 185 L235.8 182.5 L239 180 L242.2 177.5 L245.5 175 L248.8 172.5 L252 170 L255.2 167.5 L258.5 165 L261.8 162.5 L265 160 L268.2 157.5 L271.5 155 L274.8 152.5 L278 150 L281.2 147.5 L284.5 145 L287.8 142.5 L291 140 L294.2 137.5 L297.5 135 L300.8 132.5 L304 130 L307.2 127.5 L310.5 125 L313.8 122.5 L317 120 L320.2 117.5 L323.5 115 L326.8 112.5 L330 110" style="fill:none;stroke:var(--fig-red);stroke-width:2.6"/>
+  <path d="M70 191.3 L73.2 190.1 L76.5 188.8 L79.8 187.6 L83 186.3 L86.2 185.1 L89.5 183.8 L92.8 182.6 L96 181.3 L99.2 180.1 L102.5 178.8 L105.8 177.5 L109 176.3 L112.2 175 L115.5 173.8 L118.8 172.5 L122 171.3 L125.2 170 L128.5 168.8 L131.8 167.5 L135 166.2 L138.2 165 L141.5 163.7 L144.8 162.5 L148 161.2 L151.2 159.9 L154.5 158.7 L157.8 157.4 L161 156.2 L164.2 154.9 L167.5 153.6 L170.8 152.4 L174 151.1 L177.2 149.8 L180.5 148.6 L183.8 147.3 L187 146 L190.2 144.7 L193.5 143.5 L196.8 142.2 L200 140.9 L203.2 139.6 L206.5 138.4 L209.8 137.1 L213 135.8 L216.2 134.5 L219.5 133.2 L222.8 131.9 L226 130.7 L229.2 129.4 L232.5 128.1 L235.8 126.8 L239 125.5 L242.2 124.2 L245.5 122.9 L248.8 121.5 L252 120.2 L255.2 118.9 L258.5 117.6 L261.8 116.3 L265 114.9 L268.2 113.6 L271.5 112.2 L274.8 110.9 L278 109.6 L281.2 108.2 L284.5 106.8 L287.8 105.5 L291 104.1 L294.2 102.7 L297.5 101.3 L300.8 99.9 L304 98.5 L307.2 97.1 L310.5 95.6 L313.8 94.2 L317 92.7 L320.2 91.3 L323.5 89.8 L326.8 88.3 L330 86.8" style="fill:none;stroke:var(--fig-blue);stroke-width:2.6"/>
+  <circle cx="70" cy="191.3" r="4" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <circle cx="70" cy="310" r="4" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:1.8"/>
+  <circle cx="135" cy="166.2" r="4" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <circle cx="135" cy="260" r="4" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:1.8"/>
+  <circle cx="200" cy="140.9" r="4" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <circle cx="200" cy="210" r="4" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:1.8"/>
+  <circle cx="265" cy="114.9" r="4" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <circle cx="265" cy="160" r="4" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:1.8"/>
+  <circle cx="330" cy="86.8" r="4" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <circle cx="330" cy="110" r="4" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:1.8"/>
+  <text x="239" y="170" text-anchor="end" class="uchem-9-dilution-t" style="fill:var(--fig-red);font-weight:600">HCl (기울기 1)</text>
+  <text x="174" y="139.1" text-anchor="start" class="uchem-9-dilution-t" style="fill:var(--fig-blue);font-weight:600">CH₃COOH (기울기 ≈ ½)</text>
+  <path d="M430 60 L430 310 L680 310" style="stroke:var(--fig-ink);stroke-width:1.3;fill:none"/>
+  <line x1="430" y1="310" x2="430" y2="315" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="430" y="329" text-anchor="middle" class="uchem-9-dilution-s">1</text>
+  <line x1="492.5" y1="310" x2="492.5" y2="315" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="492.5" y="329" text-anchor="middle" class="uchem-9-dilution-s">0.1</text>
+  <line x1="555" y1="310" x2="555" y2="315" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="555" y="329" text-anchor="middle" class="uchem-9-dilution-s">0.01</text>
+  <line x1="617.5" y1="310" x2="617.5" y2="315" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="617.5" y="329" text-anchor="middle" class="uchem-9-dilution-s">10⁻³</text>
+  <line x1="680" y1="310" x2="680" y2="315" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="680" y="329" text-anchor="middle" class="uchem-9-dilution-s">10⁻⁴</text>
+  <line x1="430" y1="310" x2="680" y2="310" style="stroke:var(--fig-line);stroke-width:0.7;stroke-dasharray:3 3"/>
+  <line x1="425" y1="310" x2="430" y2="310" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="422" y="314.5" text-anchor="end" class="uchem-9-dilution-s">0</text>
+  <line x1="430" y1="247.5" x2="680" y2="247.5" style="stroke:var(--fig-line);stroke-width:0.7;stroke-dasharray:3 3"/>
+  <line x1="425" y1="247.5" x2="430" y2="247.5" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="422" y="252" text-anchor="end" class="uchem-9-dilution-s">10</text>
+  <line x1="430" y1="185" x2="680" y2="185" style="stroke:var(--fig-line);stroke-width:0.7;stroke-dasharray:3 3"/>
+  <line x1="425" y1="185" x2="430" y2="185" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="422" y="189.5" text-anchor="end" class="uchem-9-dilution-s">20</text>
+  <line x1="430" y1="122.5" x2="680" y2="122.5" style="stroke:var(--fig-line);stroke-width:0.7;stroke-dasharray:3 3"/>
+  <line x1="425" y1="122.5" x2="430" y2="122.5" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="422" y="127" text-anchor="end" class="uchem-9-dilution-s">30</text>
+  <line x1="430" y1="60" x2="680" y2="60" style="stroke:var(--fig-line);stroke-width:0.7;stroke-dasharray:3 3"/>
+  <line x1="425" y1="60" x2="430" y2="60" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="422" y="64.5" text-anchor="end" class="uchem-9-dilution-s">40</text>
+  <text x="555" y="350" text-anchor="middle" class="uchem-9-dilution-t">처음 농도 C (M)</text>
+  <text x="430" y="48" text-anchor="start" class="uchem-9-dilution-t">이온화도 α (%)</text>
+  <text x="555" y="24" text-anchor="middle" class="uchem-9-dilution-h">② 아세트산의 이온화도</text>
+  <path d="M430 307.4 L433.1 307.2 L436.2 307 L439.4 306.9 L442.5 306.7 L445.6 306.5 L448.8 306.3 L451.9 306 L455 305.8 L458.1 305.6 L461.2 305.3 L464.4 305 L467.5 304.7 L470.6 304.4 L473.8 304.1 L476.9 303.7 L480 303.4 L483.1 303 L486.2 302.6 L489.4 302.1 L492.5 301.7 L495.6 301.2 L498.8 300.7 L501.9 300.1 L505 299.5 L508.1 298.9 L511.2 298.3 L514.4 297.6 L517.5 296.9 L520.6 296.1 L523.8 295.3 L526.9 294.4 L530 293.5 L533.1 292.5 L536.2 291.5 L539.4 290.4 L542.5 289.3 L545.6 288.1 L548.8 286.8 L551.9 285.5 L555 284 L558.1 282.5 L561.2 280.9 L564.4 279.3 L567.5 277.5 L570.6 275.6 L573.8 273.6 L576.9 271.6 L580 269.4 L583.1 267 L586.2 264.6 L589.4 262 L592.5 259.3 L595.6 256.4 L598.8 253.4 L601.9 250.2 L605 246.8 L608.1 243.3 L611.2 239.6 L614.4 235.7 L617.5 231.6 L620.6 227.3 L623.8 222.7 L626.9 218 L630 213 L633.1 207.7 L636.2 202.2 L639.4 196.5 L642.5 190.5 L645.6 184.2 L648.8 177.6 L651.9 170.8 L655 163.6 L658.1 156.1 L661.2 148.4 L664.4 140.3 L667.5 131.9 L670.6 123.2 L673.8 114.2 L676.9 104.8 L680 95.2" style="fill:none;stroke:var(--fig-blue);stroke-width:2.6"/>
+  <circle cx="430" cy="307.4" r="4" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <text x="423" y="299.4" text-anchor="end" class="uchem-9-dilution-s">0.42</text>
+  <circle cx="492.5" cy="301.7" r="4" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <text x="485.5" y="293.7" text-anchor="end" class="uchem-9-dilution-s">1.3</text>
+  <circle cx="555" cy="284" r="4" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <text x="548" y="276" text-anchor="end" class="uchem-9-dilution-s">4.2</text>
+  <circle cx="617.5" cy="231.6" r="4" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <text x="610.5" y="223.6" text-anchor="end" class="uchem-9-dilution-s">13</text>
+  <circle cx="680" cy="95.2" r="4" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <text x="673" y="87.2" text-anchor="end" class="uchem-9-dilution-s">34</text>
+  <text x="442.5" y="122.5" text-anchor="start" class="uchem-9-dilution-t">α ≈ √(Kₐ/C)</text>
+  <text x="442.5" y="142.5" text-anchor="start" class="uchem-9-dilution-s">묽을수록 이온화 비율 증가</text>
+  <text x="360" y="390" text-anchor="middle" class="uchem-9-dilution-s">10배 묽히면 강산은 [H₃O⁺]가 1/10, 약산은 약 1/√10로만 줄어든다.</text>
+</svg>
