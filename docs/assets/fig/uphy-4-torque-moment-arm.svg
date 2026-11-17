@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-labelledby="t-uphy-4-torque-moment-arm d-uphy-4-torque-moment-arm">
+  <title id="t-uphy-4-torque-moment-arm">그림 일반물리학 4-5 토크와 지레팔</title>
+  <desc id="d-uphy-4-torque-moment-arm">기준점 O에서 힘의 작용점 P까지의 위치 벡터 r와 힘 F가 각 φ를 이룬다. 회전에 기여하는 것은 r에 수직인 성분 F⊥ = F sin φ이고, 같은 토크를 O에서 힘의 작용선까지의 수직 거리(지레팔) r⊥ = r sin φ로도 구할 수 있다. 이 그림에서 토크는 종이면에서 나오는 방향이다.</desc>
+  <style>
+    .uphy4torquemomentarm-t{font-size:14px;fill:var(--fig-ink)} .uphy4torquemomentarm-s{font-size:13px;fill:var(--fig-muted)}
+    .uphy4torquemomentarm-b{font-size:15px;fill:var(--fig-ink);font-weight:600} .uphy4torquemomentarm-i{font-size:15px;fill:var(--fig-ink);font-style:italic}
+  </style>
+  <path d="M94.6 273.2 L411.0 177.2 L403.4 152.3 L87.1 248.4 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:1.5;stroke-linejoin:round;stroke-linecap:round"/>
+  <line x1="341.7" y1="348.7" x2="433.0" y2="10.7" style="fill:none;stroke:var(--fig-muted);stroke-width:1.3;stroke-linecap:round;stroke-dasharray:6 5"/>
+  <line x1="110.0" y1="255.0" x2="349.6" y2="319.7" style="fill:none;stroke:var(--fig-green);stroke-width:2.4;stroke-linecap:round"/>
+  <path d="M352.2 310.0 L342.5 307.4 L339.9 317.1" style="fill:none;stroke:var(--fig-green);stroke-width:1.3;stroke-linejoin:round;stroke-linecap:round"/>
+  <text x="215.8" y="291.4" text-anchor="end" class="uphy4torquemomentarm-i" style="fill:var(--fig-green);font-weight:600">r<tspan baseline-shift="sub" font-size="11">⊥</tspan></text>
+  <line x1="110.0" y1="255.0" x2="381.4" y2="172.6" style="fill:none;stroke:var(--fig-blue);stroke-width:2.8;stroke-linecap:butt"/>
+  <path d="M390.0 170.0 L381.7 177.2 L379.1 168.6 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <text x="256.0" y="242.5" class="uphy4torquemomentarm-i" style="fill:var(--fig-blue);font-weight:600">r</text>
+  <line x1="461.0" y1="148.4" x2="426.5" y2="34.8" style="fill:none;stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:round;stroke-dasharray:4 4"/>
+  <line x1="355.5" y1="56.4" x2="426.5" y2="34.8" style="fill:none;stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:round;stroke-dasharray:4 4"/>
+  <line x1="390.0" y1="170.0" x2="453.3" y2="150.8" style="fill:none;stroke:var(--fig-muted);stroke-width:2;stroke-linecap:butt"/>
+  <path d="M461.0 148.4 L453.6 154.9 L451.2 147.2 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <line x1="390.0" y1="170.0" x2="358.1" y2="65.0" style="fill:none;stroke:var(--fig-amber);stroke-width:2.6;stroke-linecap:butt"/>
+  <path d="M355.5 56.4 L362.7 64.7 L354.1 67.3 Z" style="fill:var(--fig-amber);stroke:none"/>
+  <line x1="390.0" y1="170.0" x2="424.2" y2="43.5" style="fill:none;stroke:var(--fig-red);stroke-width:3;stroke-linecap:butt"/>
+  <path d="M426.5 34.8 L428.2 45.7 L419.6 43.3 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="436.5" y="38.8" class="uphy4torquemomentarm-i" style="fill:var(--fig-red);font-weight:600">F</text>
+  <text x="345.5" y="58.4" text-anchor="end" class="uphy4torquemomentarm-i" style="fill:var(--fig-amber)">F<tspan baseline-shift="sub" font-size="11">⊥</tspan> = F sin φ</text>
+  <text x="467.0" y="170.4" class="uphy4torquemomentarm-i" style="fill:var(--fig-muted)">F cos φ</text>
+  <line x1="390.0" y1="170.0" x2="457.0" y2="149.7" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2;stroke-linecap:round;stroke-dasharray:3 4"/>
+  <path d="M424.4 159.5 L423.9 157.8 L423.2 156.1 L422.5 154.5 L421.6 152.8 L420.7 151.3 L419.7 149.7 L418.7 148.2 L417.5 146.8 L416.3 145.5 L415.1 144.2 L413.7 142.9 L412.3 141.8 L410.9 140.7 L409.3 139.6 L407.8 138.7 L406.2 137.8 L404.5 137.1 L402.9 136.4 L401.1 135.8 L399.4 135.2" style="fill:none;stroke:var(--fig-ink);stroke-width:1.4;stroke-linejoin:round;stroke-linecap:round"/>
+  <text x="434.0" y="140.0" class="uphy4torquemomentarm-i">φ</text>
+  <circle cx="390.0" cy="170.0" r="4.5" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="378.0" y="200.0" text-anchor="end" class="uphy4torquemomentarm-i">P</text>
+  <circle cx="110.0" cy="255.0" r="11.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <circle cx="110.0" cy="255.0" r="3.5" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="106.0" y="287.0" text-anchor="middle" class="uphy4torquemomentarm-s">O (기준점, 축)</text>
+  <text x="130.0" y="285.0" class="uphy4torquemomentarm-s"></text>
+  <text x="520.0" y="250.0" class="uphy4torquemomentarm-b" style="fill:var(--fig-violet)">τ = r × F</text>
+  <text x="520.0" y="276.0" class="uphy4torquemomentarm-i">τ = rF sin φ</text>
+  <text x="520.0" y="300.0" class="uphy4torquemomentarm-i">  = rF<tspan baseline-shift="sub" font-size="11">⊥</tspan> = r<tspan baseline-shift="sub" font-size="11">⊥</tspan>F</text>
+  <text x="520.0" y="330.0" class="uphy4torquemomentarm-s">방향: 오른손 규칙 → 종이면 밖(⊙)</text>
+  <text x="490.0" y="40.0" class="uphy4torquemomentarm-s" style="fill:var(--fig-muted)">작용선</text>
+</svg>

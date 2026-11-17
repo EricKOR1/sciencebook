@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-uphy-1-vector-components d-uphy-1-vector-components">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-uphy-1-vector-components d-uphy-1-vector-components">
   <title id="t-uphy-1-vector-components">그림 일반물리학 1-5 벡터의 성분과 방향각 — Aₓ가 음수일 때</title>
   <desc id="d-uphy-1-vector-components">(가) 크기 5.0, x축과 37°를 이루는 벡터 A의 성분은 Aₓ = A cos θ = 4.0, A_y = A sin θ = 3.0이고, A = 4.0 i + 3.0 j로 쓴다. (나) B = −3.0 i + 4.0 j의 방향을 tan⁻¹(B_y/Bₓ)로 구하면 계산기는 −53.1°(제4사분면)를 주지만, Bₓ가 음수이므로 실제 방향은 180°를 더한 126.9°(제2사분면)이다.</desc>
-  <rect x="10.0" y="10.0" width="345.0" height="320.0" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
-  <rect x="365.0" y="10.0" width="345.0" height="320.0" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="10.0" y="10.0" width="345.0" height="340.0" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="365.0" y="10.0" width="345.0" height="340.0" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
   <text x="26.0" y="36.0" style="font-size:15px;fill:var(--fig-ink);font-weight:600">(가) 성분으로 나누기</text>
   <text x="381.0" y="36.0" style="font-size:15px;fill:var(--fig-ink);font-weight:600">(나) Bₓ &lt; 0 이면 180°를 더한다</text>
   <line x1="40.0" y1="270.0" x2="326.0" y2="270.0" style="stroke:var(--fig-muted);stroke-width:1.5;fill:none"/>
@@ -21,7 +21,7 @@
   <path d="M246.0 138.0 L239.5 151.0 L231.7 140.6 Z" style="fill:var(--fig-ink);stroke:none"/>
   <path d="M120 270 A50 50 0 0 0 110.0 240.0" style="fill:none;stroke:var(--fig-ink);stroke-width:1.5"/>
   <text x="126.0" y="260.0" style="font-size:13px;fill:var(--fig-ink)">θ = 37°</text>
-  <text x="150.0" y="182.0" text-anchor="end" style="font-size:14px;fill:var(--fig-ink);font-weight:600">A (크기 5.0)</text>
+  <text x="182.0" y="228.0" style="font-size:14px;fill:var(--fig-ink);font-weight:600">A (크기 5.0)</text>
   <text x="158.0" y="292.0" text-anchor="middle" style="font-size:14px;fill:var(--fig-red);font-weight:600">Aₓ = A cos θ = 4.0</text>
   <text x="62.0" y="196.0" text-anchor="end" style="font-size:14px;fill:var(--fig-blue);font-weight:600">A<tspan dy="4" style="font-size:11px">y</tspan><tspan dy="-4">​</tspan></text>
   <text x="62.0" y="216.0" text-anchor="end" style="font-size:14px;fill:var(--fig-blue);font-weight:600">= 3.0</text>
@@ -57,6 +57,6 @@
   <path d="M576 200 A36 36 0 0 0 518.4 171.2" style="fill:none;stroke:var(--fig-green);stroke-width:2"/>
   <text x="570.0" y="160.0" style="font-size:14px;fill:var(--fig-green);font-weight:600">126.9°</text>
   <text x="560.0" y="178.0" style="font-size:13px;fill:var(--fig-green)">= −53.1° + 180°</text>
-  <text x="392.0" y="300.0" style="font-size:13px;fill:var(--fig-muted)">분수 B<tspan dy="4" style="font-size:11px">y</tspan><tspan dy="-4">​</tspan>/Bₓ = 4/(−3)은 (−4)/3과 같아</text>
-  <text x="392.0" y="318.0" style="font-size:13px;fill:var(--fig-muted)">계산기가 두 방향을 구별하지 못한다</text>
+  <text x="392.0" y="322.0" style="font-size:13px;fill:var(--fig-muted)">분수 B<tspan dy="4" style="font-size:11px">y</tspan><tspan dy="-4">​</tspan>/Bₓ = 4/(−3)은 (−4)/3과 같아</text>
+  <text x="392.0" y="340.0" style="font-size:13px;fill:var(--fig-muted)">계산기가 두 방향을 구별하지 못한다</text>
 </svg>
