@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-ubio-6-transcription d-ubio-6-transcription">
+  <title id="t-ubio-6-transcription">그림 일반생명과학 6-6 주형 가닥은 유전자마다 다르다, 그리고 전사 개시</title>
+  <desc id="d-ubio-6-transcription">위: 한 DNA 위의 두 유전자. 유전자 1은 프로모터가 왼쪽에 있어 오른쪽으로 전사되므로 아래 가닥이 주형이고, 유전자 2는 프로모터가 오른쪽에 있어 왼쪽으로 전사되므로 위 가닥이 주형이다. 어느 경우든 RNA 중합 효소는 주형 가닥을 3′→5′으로 읽고 RNA를 5′→3′으로 만든다. 아래: 세균은 시그마 인자를 가진 RNA 중합 효소가 전사 시작점(+1) 앞 약 35, 10 염기쌍 부근의 서열에 직접 결합하고, 진핵세포는 TATA 상자(약 −25~−30)에 전사 인자들이 먼저 모인 뒤 RNA 중합 효소 Ⅱ가 결합해 전사 개시 복합체를 이룬다. 모식도.</desc>
+  <style>.ubio-6-transcription-t{font-size:14px;fill:var(--fig-ink)} .ubio-6-transcription-s{font-size:13px;fill:var(--fig-muted)} .ubio-6-transcription-b{font-size:14px;fill:var(--fig-ink);font-weight:600} .ubio-6-transcription-h{font-size:15px;fill:var(--fig-ink);font-weight:700} .ubio-6-transcription-m{font-size:13px;fill:var(--fig-ink)}</style>
+  <defs><marker id="ubio-6-transcription-ar0" viewBox="0 0 10 10" refX="10" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-green)"/></marker><marker id="ubio-6-transcription-ar1" viewBox="0 0 10 10" refX="10" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-red)"/></marker><marker id="ubio-6-transcription-ar2" viewBox="0 0 10 10" refX="10" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-blue)"/></marker></defs>
+  <text x="360.0" y="22.0" text-anchor="middle" class="ubio-6-transcription-b">① 한 DNA 위의 두 유전자 — 프로모터 방향이 주형 가닥을 정한다</text>
+  <line x1="30.0" y1="108.0" x2="690.0" y2="108.0" style="fill:none;stroke:var(--fig-ink);stroke-width:3"/>
+  <line x1="30.0" y1="122.0" x2="690.0" y2="122.0" style="fill:none;stroke:var(--fig-ink);stroke-width:3"/>
+  <text x="24.0" y="113.0" text-anchor="end" class="ubio-6-transcription-m">5′</text>
+  <text x="696.0" y="113.0" text-anchor="start" class="ubio-6-transcription-m">3′</text>
+  <text x="24.0" y="127.0" text-anchor="end" class="ubio-6-transcription-m">3′</text>
+  <text x="696.0" y="127.0" text-anchor="start" class="ubio-6-transcription-m">5′</text>
+  <rect x="60.0" y="102.0" width="50.0" height="26.0" rx="3" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.4"/>
+  <text x="85.0" y="94.0" text-anchor="middle" class="ubio-6-transcription-s">프로모터 1</text>
+  <rect x="116.0" y="106.0" width="200.0" height="18.0" rx="2" style="fill:var(--fig-soft-green)"/>
+  <path d="M116 102 L116 82 L150 82" style="fill:none;stroke:var(--fig-green);stroke-width:2" marker-end="url(#ubio-6-transcription-ar0)"/>
+  <text x="160.0" y="86.0" text-anchor="start" class="ubio-6-transcription-b" style="fill:var(--fig-green)">유전자 1</text>
+  <path d="M120 152 q10 -7 20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0" style="fill:none;stroke:var(--fig-red);stroke-width:2.4" marker-end="url(#ubio-6-transcription-ar1)"/>
+  <text x="116.0" y="156.0" text-anchor="end" class="ubio-6-transcription-s">5′</text>
+  <text x="310.0" y="172.0" text-anchor="start" class="ubio-6-transcription-s">3′</text>
+  <text x="216.0" y="180.0" text-anchor="middle" class="ubio-6-transcription-s" style="fill:var(--fig-red)">RNA 1 — 주형: 아래 가닥</text>
+  <rect x="610.0" y="102.0" width="50.0" height="26.0" rx="3" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.4"/>
+  <text x="635.0" y="94.0" text-anchor="middle" class="ubio-6-transcription-s">프로모터 2</text>
+  <rect x="404.0" y="106.0" width="200.0" height="18.0" rx="2" style="fill:var(--fig-soft-blue)"/>
+  <path d="M604 128 L604 148 L570 148" style="fill:none;stroke:var(--fig-blue);stroke-width:2" marker-end="url(#ubio-6-transcription-ar2)"/>
+  <text x="560.0" y="152.0" text-anchor="end" class="ubio-6-transcription-b" style="fill:var(--fig-blue)">유전자 2</text>
+  <path d="M600 78 q-10 -7 -20 0 t-20 0 t-20 0 t-20 0 t-20 0 t-20 0 t-20 0 t-20 0 t-20 0" style="fill:none;stroke:var(--fig-red);stroke-width:2.4" marker-end="url(#ubio-6-transcription-ar1)"/>
+  <text x="604.0" y="82.0" text-anchor="start" class="ubio-6-transcription-s">5′</text>
+  <text x="410.0" y="64.0" text-anchor="end" class="ubio-6-transcription-s">3′</text>
+  <text x="504.0" y="58.0" text-anchor="middle" class="ubio-6-transcription-s" style="fill:var(--fig-red)">RNA 2 — 주형: 위 가닥</text>
+  <text x="360.0" y="200.0" text-anchor="middle" class="ubio-6-transcription-s">주형 가닥은 3′→5′으로 읽히고, RNA는 5′→3′으로 자란다(새 뉴클레오타이드는 RNA의 3′ 끝에 붙음).</text>
+  <line x1="16.0" y1="212.0" x2="704.0" y2="212.0" style="fill:none;stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
+  <text x="180.0" y="228.0" text-anchor="middle" class="ubio-6-transcription-b">② 세균: 시그마 인자가 프로모터를 인식</text>
+  <text x="540.0" y="228.0" text-anchor="middle" class="ubio-6-transcription-b">③ 진핵세포: 전사 인자가 먼저 모인다</text>
+  <line x1="360.0" y1="214.0" x2="360.0" y2="392.0" style="fill:none;stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
+  <line x1="30.0" y1="320.0" x2="340.0" y2="320.0" style="fill:none;stroke:var(--fig-ink);stroke-width:3"/>
+  <line x1="30.0" y1="330.0" x2="340.0" y2="330.0" style="fill:none;stroke:var(--fig-ink);stroke-width:3"/>
+  <line x1="380.0" y1="320.0" x2="700.0" y2="320.0" style="fill:none;stroke:var(--fig-ink);stroke-width:3"/>
+  <line x1="380.0" y1="330.0" x2="700.0" y2="330.0" style="fill:none;stroke:var(--fig-ink);stroke-width:3"/>
+  <rect x="70.0" y="316.0" width="40.0" height="18.0" rx="3" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.4"/>
+  <rect x="160.0" y="316.0" width="40.0" height="18.0" rx="3" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.4"/>
+  <text x="90.0" y="356.0" text-anchor="middle" class="ubio-6-transcription-m">−35</text>
+  <text x="180.0" y="356.0" text-anchor="middle" class="ubio-6-transcription-m">−10</text>
+  <ellipse cx="170.0" cy="286.0" rx="82" ry="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
+  <text x="180.0" y="282.0" text-anchor="middle" class="ubio-6-transcription-m">RNA 중합 효소</text>
+  <ellipse cx="110.0" cy="310.0" rx="30" ry="13" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6"/>
+  <text x="110.0" y="314.0" text-anchor="middle" class="ubio-6-transcription-b" style="fill:var(--fig-violet)">σ</text>
+  <path d="M226 316 L226 298 L260 298" style="fill:none;stroke:var(--fig-green);stroke-width:2" marker-end="url(#ubio-6-transcription-ar0)"/>
+  <text x="226.0" y="356.0" text-anchor="middle" class="ubio-6-transcription-m">+1</text>
+  <text x="180.0" y="382.0" text-anchor="middle" class="ubio-6-transcription-s">시그마 인자(σ)를 가진 중합 효소가 직접 결합</text>
+  <rect x="470.0" y="316.0" width="40.0" height="18.0" rx="3" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.4"/>
+  <text x="490.0" y="356.0" text-anchor="middle" class="ubio-6-transcription-m">TATA 상자</text>
+  <text x="490.0" y="372.0" text-anchor="middle" class="ubio-6-transcription-s">(약 −25~−30)</text>
+  <ellipse cx="490.0" cy="306.0" rx="24" ry="12" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.6"/>
+  <text x="490.0" y="310.0" text-anchor="middle" class="ubio-6-transcription-s" style="fill:var(--fig-ink)">TBP</text>
+  <ellipse cx="440.0" cy="302.0" rx="22" ry="14" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.4"/>
+  <ellipse cx="548.0" cy="304.0" rx="22" ry="14" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.4"/>
+  <ellipse cx="560.0" cy="266.0" rx="74" ry="28" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
+  <text x="560.0" y="270.0" text-anchor="middle" class="ubio-6-transcription-m">RNA 중합 효소 Ⅱ</text>
+  <text x="420.0" y="276.0" text-anchor="end" class="ubio-6-transcription-s" style="fill:var(--fig-teal)">전사 인자</text>
+  <line x1="424.0" y1="280.0" x2="436.0" y2="290.0" style="fill:none;stroke:var(--fig-teal);stroke-width:1"/>
+  <path d="M600 316 L600 298 L634 298" style="fill:none;stroke:var(--fig-green);stroke-width:2" marker-end="url(#ubio-6-transcription-ar0)"/>
+  <text x="600.0" y="356.0" text-anchor="middle" class="ubio-6-transcription-m">+1</text>
+  <text x="540.0" y="392.0" text-anchor="middle" class="ubio-6-transcription-s">전사 인자 + 중합 효소 Ⅱ = 전사 개시 복합체</text>
+</svg>
