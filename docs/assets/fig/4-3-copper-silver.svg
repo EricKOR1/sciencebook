@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-4-3-copper-silver d-4-3-copper-silver">
+  <title id="t-4-3-copper-silver">그림 4-3-5 질산 은 수용액 속 구리줄 — 겉모습과 입자 모형</title>
+  <desc id="d-4-3-copper-silver">질산 은 수용액에 구리줄을 넣으면 구리줄 표면에 은 결정이 나뭇가지처럼 자라고 수용액이 푸른색으로 변한다. 입자로 보면 구리 원자 1개가 전자 2개를 잃고 Cu²⁺가 되어 녹아 나가고(산화), 은 이온 2개가 전자를 1개씩 얻어 은 원자로 석출된다(환원). 질산 이온은 변하지 않으며, 양이온 수는 Ag⁺ 2개가 Cu²⁺ 1개로 바뀌어 줄어든다. 입자 수를 줄이고 물 분자를 생략한 모식도.</desc>
+  <style>
+    .cs-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .cs-t{font-size:14px;fill:var(--fig-ink)}
+    .cs-mu{font-size:13px;fill:var(--fig-muted)}
+    .cs-glass{fill:none;stroke:var(--fig-ink);stroke-width:2}
+    .cs-sol0{fill:var(--fig-paper);stroke:none}
+    .cs-sol1{fill:var(--fig-soft-blue);stroke:none}
+    .cs-cu{fill:var(--fig-amber);stroke:var(--fig-ink);stroke-width:1}
+    .cs-ag{fill:var(--fig-muted);stroke:var(--fig-ink);stroke-width:1}
+    .cs-agl{fill:none;stroke:var(--fig-muted);stroke-width:2.5;stroke-linecap:round}
+    .cs-ion-ag{fill:var(--fig-paper);stroke:var(--fig-muted);stroke-width:2}
+    .cs-ion-cu{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2}
+    .cs-ion-no{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5}
+    .cs-s{font-size:12px;font-weight:700;fill:var(--fig-ink)}
+    .cs-e{fill:var(--fig-red)}
+    .cs-arr{fill:none;stroke:var(--fig-red);stroke-width:2}
+    .cs-box{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1}
+  </style>
+  <text x="70" y="26" text-anchor="middle" class="cs-h">처음</text>
+  <text x="200" y="26" text-anchor="middle" class="cs-h">얼마 뒤</text>
+  <rect x="32" y="90" width="76" height="140" class="cs-sol0"/>
+  <rect x="66" y="44" width="6" height="170" class="cs-cu"/>
+  <path d="M30 70 V236 Q30 244 38 244 H102 Q110 244 110 236 V70" class="cs-glass"/>
+  <rect x="162" y="90" width="76" height="140" class="cs-sol1"/>
+  <rect x="196" y="44" width="6" height="170" class="cs-cu"/>
+  <path d="M196 110 l-12 -8 m6 4 l-3 -10 M202 116 l12 -8 m-6 4 l3 -10" class="cs-agl"/>
+  <path d="M196 126 l-12 -8 m6 4 l-3 -10 M202 132 l12 -8 m-6 4 l3 -10" class="cs-agl"/>
+  <path d="M196 142 l-12 -8 m6 4 l-3 -10 M202 148 l12 -8 m-6 4 l3 -10" class="cs-agl"/>
+  <path d="M196 158 l-12 -8 m6 4 l-3 -10 M202 164 l12 -8 m-6 4 l3 -10" class="cs-agl"/>
+  <path d="M196 174 l-12 -8 m6 4 l-3 -10 M202 180 l12 -8 m-6 4 l3 -10" class="cs-agl"/>
+  <path d="M196 190 l-12 -8 m6 4 l-3 -10 M202 196 l12 -8 m-6 4 l3 -10" class="cs-agl"/>
+  <path d="M196 206 l-12 -8 m6 4 l-3 -10 M202 212 l12 -8 m-6 4 l3 -10" class="cs-agl"/>
+  <path d="M160 70 V236 Q160 244 168 244 H232 Q240 244 240 236 V70" class="cs-glass"/>
+  <text x="70" y="266" text-anchor="middle" class="cs-t">무색 수용액</text>
+  <text x="200" y="266" text-anchor="middle" class="cs-t">푸른색으로 변함</text>
+  <text x="200" y="286" text-anchor="middle" class="cs-mu">구리줄에 은 결정</text>
+  <text x="135" y="320" text-anchor="middle" class="cs-mu">구리줄(Cu) · 질산 은(AgNO₃) 수용액</text>
+  <rect x="290" y="8" width="422" height="324" rx="6" class="cs-box"/>
+  <text x="501" y="32" text-anchor="middle" class="cs-h">입자로 보면</text>
+  <circle cx="318" cy="70" r="11" class="cs-cu"/><text x="318" y="74" text-anchor="middle" class="cs-s">Cu</text>
+  <circle cx="318" cy="96" r="11" class="cs-cu"/><text x="318" y="100" text-anchor="middle" class="cs-s">Cu</text>
+  <circle cx="318" cy="122" r="11" class="cs-cu"/><text x="318" y="126" text-anchor="middle" class="cs-s">Cu</text>
+  <circle cx="318" cy="148" r="11" class="cs-cu"/><text x="318" y="152" text-anchor="middle" class="cs-s">Cu</text>
+  <circle cx="318" cy="174" r="11" class="cs-cu"/><text x="318" y="178" text-anchor="middle" class="cs-s">Cu</text>
+  <circle cx="380" cy="90" r="13" class="cs-ion-ag"/><text x="380" y="94" text-anchor="middle" class="cs-s">Ag⁺</text>
+  <circle cx="380" cy="150" r="13" class="cs-ion-ag"/><text x="380" y="154" text-anchor="middle" class="cs-s">Ag⁺</text>
+  <circle cx="440" cy="70" r="13" class="cs-ion-no"/><text x="440" y="74" text-anchor="middle" class="cs-s" style="font-size:11px">NO₃⁻</text>
+  <circle cx="450" cy="130" r="13" class="cs-ion-no"/><text x="450" y="134" text-anchor="middle" class="cs-s" style="font-size:11px">NO₃⁻</text>
+  <circle cx="420" cy="190" r="13" class="cs-ion-no"/><text x="420" y="194" text-anchor="middle" class="cs-s" style="font-size:11px">NO₃⁻</text>
+  <text x="395" y="226" text-anchor="middle" class="cs-t">반응 전</text>
+  <text x="395" y="244" text-anchor="middle" class="cs-mu">양이온 Ag⁺ 2개</text>
+  <path d="M478 130 H512" class="cs-glass"/><path d="M508 123 L520 130 L508 137 Z" style="fill:var(--fig-ink)"/>
+  <circle cx="544" cy="70" r="11" class="cs-cu"/><text x="544" y="74" text-anchor="middle" class="cs-s">Cu</text>
+  <circle cx="544" cy="96" r="11" class="cs-cu"/><text x="544" y="100" text-anchor="middle" class="cs-s">Cu</text>
+  <circle cx="544" cy="148" r="11" class="cs-cu"/><text x="544" y="152" text-anchor="middle" class="cs-s">Cu</text>
+  <circle cx="544" cy="174" r="11" class="cs-cu"/><text x="544" y="178" text-anchor="middle" class="cs-s">Cu</text>
+  <circle cx="568" cy="108" r="11" class="cs-ag"/><text x="568" y="112" text-anchor="middle" class="cs-s">Ag</text>
+  <circle cx="568" cy="138" r="11" class="cs-ag"/><text x="568" y="142" text-anchor="middle" class="cs-s">Ag</text>
+  <circle cx="610" cy="122" r="14" class="cs-ion-cu"/><text x="610" y="126" text-anchor="middle" class="cs-s">Cu²⁺</text>
+  <circle cx="660" cy="70" r="13" class="cs-ion-no"/><text x="660" y="74" text-anchor="middle" class="cs-s" style="font-size:11px">NO₃⁻</text>
+  <circle cx="670" cy="130" r="13" class="cs-ion-no"/><text x="670" y="134" text-anchor="middle" class="cs-s" style="font-size:11px">NO₃⁻</text>
+  <circle cx="640" cy="190" r="13" class="cs-ion-no"/><text x="640" y="194" text-anchor="middle" class="cs-s" style="font-size:11px">NO₃⁻</text>
+  <text x="612" y="226" text-anchor="middle" class="cs-t">반응 후</text>
+  <text x="612" y="244" text-anchor="middle" class="cs-mu">양이온 Cu²⁺ 1개</text>
+  <text x="306" y="278" class="cs-t"><tspan style="fill:var(--fig-red);font-weight:700">Cu → Cu²⁺ + 2e⁻</tspan> (산화)</text>
+  <text x="306" y="300" class="cs-t"><tspan style="fill:var(--fig-blue);font-weight:700">2Ag⁺ + 2e⁻ → 2Ag</tspan> (환원)</text>
+  <text x="306" y="322" class="cs-mu">NO₃⁻는 변하지 않는다(구경꾼 이온) · 잃은 전자 2개 = 얻은 전자 2개</text>
+</svg>

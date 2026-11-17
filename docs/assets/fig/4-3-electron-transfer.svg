@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-4-3-electron-transfer d-4-3-electron-transfer">
+  <title id="t-4-3-electron-transfer">그림 4-3-4 마그네슘과 산소 사이의 전자 이동</title>
+  <desc id="d-4-3-electron-transfer">마그네슘 원자(전자 배치 2, 8, 2)는 가장 바깥 껍질의 전자 2개를 잃어 마그네슘 이온(Mg²⁺)이 되고(산화), 산소 원자(2, 6)는 그 전자 2개를 얻어 산화 이온(O²⁻)이 된다(환원). 두 이온 모두 바깥 껍질에 전자가 8개인 안정한 배치가 되며, 잃은 전자 수와 얻은 전자 수는 같다. 원자핵 속 숫자는 양성자 수이다. 모식도.</desc>
+  <style>
+    .et-shell{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .et-e{fill:var(--fig-blue);stroke:none}
+    .et-new{fill:var(--fig-red);stroke:none}
+    .et-nuc{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5}
+    .et-n{font-size:13px;font-weight:700;fill:var(--fig-ink)}
+    .et-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .et-t{font-size:14px;fill:var(--fig-ink)}
+    .et-mu{font-size:13px;fill:var(--fig-muted)}
+    .et-ox{font-size:14px;font-weight:700;fill:var(--fig-red)}
+    .et-rd{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+    .et-arr{fill:none;stroke:var(--fig-red);stroke-width:2.2}
+    .et-arrh{fill:var(--fig-red)}
+    .et-big{fill:var(--fig-muted)}
+    .et-br{fill:none;stroke:var(--fig-ink);stroke-width:1.5}
+  </style>
+  <text x="200" y="28" text-anchor="middle" class="et-h">반응 전 — 원자</text>
+  <text x="560" y="28" text-anchor="middle" class="et-h">반응 후 — 이온</text>
+  <circle cx="100" cy="140" r="18" class="et-shell"/>
+  <circle cx="100.0" cy="122.0" r="4.2" class="et-e"/>
+  <circle cx="100.0" cy="158.0" r="4.2" class="et-e"/>
+  <circle cx="100" cy="140" r="32" class="et-shell"/>
+  <circle cx="109.5" cy="109.4" r="4.2" class="et-e"/>
+  <circle cx="128.3" cy="125.1" r="4.2" class="et-e"/>
+  <circle cx="130.6" cy="149.5" r="4.2" class="et-e"/>
+  <circle cx="114.9" cy="168.3" r="4.2" class="et-e"/>
+  <circle cx="90.5" cy="170.6" r="4.2" class="et-e"/>
+  <circle cx="71.7" cy="154.9" r="4.2" class="et-e"/>
+  <circle cx="69.4" cy="130.5" r="4.2" class="et-e"/>
+  <circle cx="85.1" cy="111.7" r="4.2" class="et-e"/>
+  <circle cx="100" cy="140" r="46" class="et-shell"/>
+  <circle cx="100.0" cy="94.0" r="4.2" class="et-e"/>
+  <circle cx="100.0" cy="186.0" r="4.2" class="et-e"/>
+  <circle cx="100" cy="140" r="10" class="et-nuc"/><text x="100" y="144.5" text-anchor="middle" class="et-n">+12</text>
+  <circle cx="300" cy="140" r="18" class="et-shell"/>
+  <circle cx="300.0" cy="122.0" r="4.2" class="et-e"/>
+  <circle cx="300.0" cy="158.0" r="4.2" class="et-e"/>
+  <circle cx="300" cy="140" r="32" class="et-shell"/>
+  <circle cx="309.5" cy="109.4" r="4.2" class="et-e"/>
+  <circle cx="331.2" cy="132.9" r="4.2" class="et-e"/>
+  <circle cx="321.7" cy="163.5" r="4.2" class="et-e"/>
+  <circle cx="290.5" cy="170.6" r="4.2" class="et-e"/>
+  <circle cx="268.8" cy="147.1" r="4.2" class="et-e"/>
+  <circle cx="278.3" cy="116.5" r="4.2" class="et-e"/>
+  <circle cx="300" cy="140" r="10" class="et-nuc"/><text x="300" y="144.5" text-anchor="middle" class="et-n">+8</text>
+  <path d="M150 112 Q200 70 262 112" class="et-arr"/>
+  <path d="M254 102 L266 116 L249 115 Z" class="et-arrh"/>
+  <text x="205" y="72" text-anchor="middle" class="et-ox" style="fill:var(--fig-red)">전자 2개 이동</text>
+  <text x="100" y="214" text-anchor="middle" class="et-t">마그네슘 원자 Mg</text>
+  <text x="100" y="232" text-anchor="middle" class="et-mu">전자 2, 8, 2</text>
+  <text x="300" y="214" text-anchor="middle" class="et-t">산소 원자 O</text>
+  <text x="300" y="232" text-anchor="middle" class="et-mu">전자 2, 6</text>
+  <path d="M370 140 H410" class="et-br" style="stroke-width:2.5"/><path d="M406 132 L420 140 L406 148 Z" class="et-big"/>
+  <circle cx="490" cy="140" r="18" class="et-shell"/>
+  <circle cx="490.0" cy="122.0" r="4.2" class="et-e"/>
+  <circle cx="490.0" cy="158.0" r="4.2" class="et-e"/>
+  <circle cx="490" cy="140" r="32" class="et-shell"/>
+  <circle cx="499.5" cy="109.4" r="4.2" class="et-e"/>
+  <circle cx="518.3" cy="125.1" r="4.2" class="et-e"/>
+  <circle cx="520.6" cy="149.5" r="4.2" class="et-e"/>
+  <circle cx="504.9" cy="168.3" r="4.2" class="et-e"/>
+  <circle cx="480.5" cy="170.6" r="4.2" class="et-e"/>
+  <circle cx="461.7" cy="154.9" r="4.2" class="et-e"/>
+  <circle cx="459.4" cy="130.5" r="4.2" class="et-e"/>
+  <circle cx="475.1" cy="111.7" r="4.2" class="et-e"/>
+  <circle cx="490" cy="140" r="10" class="et-nuc"/><text x="490" y="144.5" text-anchor="middle" class="et-n">+12</text>
+  <circle cx="630" cy="140" r="18" class="et-shell"/>
+  <circle cx="630.0" cy="122.0" r="4.2" class="et-e"/>
+  <circle cx="630.0" cy="158.0" r="4.2" class="et-e"/>
+  <circle cx="630" cy="140" r="32" class="et-shell"/>
+  <circle cx="639.5" cy="109.4" r="4.2" class="et-e"/>
+  <circle cx="658.3" cy="125.1" r="4.2" class="et-e"/>
+  <circle cx="660.6" cy="149.5" r="4.2" class="et-e"/>
+  <circle cx="644.9" cy="168.3" r="4.2" class="et-e"/>
+  <circle cx="620.5" cy="170.6" r="4.2" class="et-e"/>
+  <circle cx="601.7" cy="154.9" r="4.2" class="et-e"/>
+  <circle cx="599.4" cy="130.5" r="4.2" class="et-new"/>
+  <circle cx="615.1" cy="111.7" r="4.2" class="et-new"/>
+  <circle cx="630" cy="140" r="10" class="et-nuc"/><text x="630" y="144.5" text-anchor="middle" class="et-n">+8</text>
+  <path d="M448 96 h-6 v88 h6 M532 96 h6 v88 h-6" class="et-br"/>
+  <text x="548" y="98" class="et-n">2+</text>
+  <path d="M588 96 h-6 v88 h6 M672 96 h6 v88 h-6" class="et-br"/>
+  <text x="686" y="98" class="et-n">2−</text>
+  <text x="490" y="214" text-anchor="middle" class="et-t">마그네슘 이온 Mg²⁺</text>
+  <text x="490" y="232" text-anchor="middle" class="et-mu">전자 2, 8</text>
+  <text x="630" y="214" text-anchor="middle" class="et-t">산화 이온 O²⁻</text>
+  <text x="630" y="232" text-anchor="middle" class="et-mu">전자 2, 8</text>
+  <rect x="40" y="256" width="640" height="62" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="60" y="281" class="et-ox">Mg → Mg²⁺ + 2e⁻</text><text x="232" y="281" class="et-t">전자를 잃음 = 산화</text>
+  <text x="60" y="306" class="et-rd">O + 2e⁻ → O²⁻</text><text x="232" y="306" class="et-t">전자를 얻음 = 환원</text>
+  <circle cx="470" cy="276" r="4.2" class="et-e"/><text x="482" y="281" class="et-mu">원래 있던 전자</text>
+  <circle cx="470" cy="301" r="4.2" class="et-new"/><text x="482" y="306" class="et-mu">마그네슘에게서 받은 전자</text>
+</svg>

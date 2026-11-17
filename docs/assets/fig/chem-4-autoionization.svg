@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-labelledby="t-chem-4-autoionization d-chem-4-autoionization">
+  <title id="t-chem-4-autoionization">그림 화학 4-3 물의 자동 이온화(입자 모형)</title>
+  <desc id="d-chem-4-autoionization">물 분자 하나가 다른 물 분자에 H⁺를 내주어 하이드로늄 이온(H₃O⁺)과 수산화 이온(OH⁻)이 생기고, 역반응으로 다시 물 분자 두 개가 된다. 25 °C에서는 물 분자 약 5억 개 중 1개 정도만 이온화되어 [H₃O⁺] = [OH⁻] = 1.0×10⁻⁷ M이다. 원자 크기는 모식도이다.</desc>
+  <style>
+    .chem-4-autoionization-t{font-size:14px;fill:var(--fig-ink)} .chem-4-autoionization-b{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .chem-4-autoionization-s{font-size:13px;fill:var(--fig-muted)} .chem-4-autoionization-ax{stroke:var(--fig-ink);stroke-width:1.4;fill:none}
+    .chem-4-autoionization-gr{stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4;fill:none;opacity:0.7}
+    .chem-4-autoionization-box{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5}
+    .chem-4-autoionization-O{fill:var(--fig-red);stroke:var(--fig-red);stroke-width:1}
+    .chem-4-autoionization-H{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.4}
+    .chem-4-autoionization-Hm{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2.4}
+
+  </style>
+<circle cx="70" cy="120" r="22" class="chem-4-autoionization-O"/><circle cx="87.2" cy="97.9" r="12" class="chem-4-autoionization-Hm"/><circle cx="87.2" cy="142.1" r="12" class="chem-4-autoionization-H"/>
+<circle cx="190" cy="120" r="22" class="chem-4-autoionization-O"/><circle cx="172.8" cy="142.1" r="12" class="chem-4-autoionization-H"/><circle cx="172.8" cy="97.9" r="12" class="chem-4-autoionization-H"/>
+<path d="M95 86 Q 130 45 160 90" style="fill:none;stroke:var(--fig-amber);stroke-width:2.2;stroke-dasharray:5 3"/>
+<path d="M160 90 l-11 -3 l4 -9 Z" style="fill:var(--fig-amber)"/>
+<text x="130.0" y="48.0" text-anchor="middle" class="chem-4-autoionization-s" style="fill:var(--fig-amber);font-weight:600">H⁺ 이동</text>
+<text x="70.0" y="180.0" text-anchor="middle" class="chem-4-autoionization-t">H₂O</text>
+<text x="190.0" y="180.0" text-anchor="middle" class="chem-4-autoionization-t">H₂O</text>
+<text x="130.0" y="202.0" text-anchor="middle" class="chem-4-autoionization-s">H⁺를 내준다 · 받는다</text>
+<line x1="285.0" y1="113.0" x2="364.0" y2="113.0" style="stroke:var(--fig-green);stroke-width:3"/><path d="M375.0 113.0 L364.0 119.0 L364.0 107.0 Z" style="fill:var(--fig-green)"/>
+<line x1="375.0" y1="127.0" x2="296.0" y2="127.0" style="stroke:var(--fig-violet);stroke-width:3"/><path d="M285.0 127.0 L296.0 121.0 L296.0 133.1 Z" style="fill:var(--fig-violet)"/>
+<text x="330.0" y="100.0" text-anchor="middle" class="chem-4-autoionization-s">정반응</text>
+<text x="330.0" y="154.0" text-anchor="middle" class="chem-4-autoionization-s">역반응</text>
+<circle cx="470" cy="120" r="22" class="chem-4-autoionization-O"/><circle cx="470.0" cy="148.0" r="12" class="chem-4-autoionization-H"/><circle cx="445.8" cy="106.0" r="12" class="chem-4-autoionization-Hm"/><circle cx="494.2" cy="106.0" r="12" class="chem-4-autoionization-H"/><text x="500.0" y="94.0" class="chem-4-autoionization-b" style="font-size:20px">+</text>
+<circle cx="620" cy="120" r="22" class="chem-4-autoionization-O"/><circle cx="646.3" cy="110.4" r="12" class="chem-4-autoionization-H"/><text x="642.0" y="94.0" class="chem-4-autoionization-b" style="font-size:20px">−</text>
+<text x="470.0" y="180.0" text-anchor="middle" class="chem-4-autoionization-t">H₃O⁺(하이드로늄 이온)</text>
+<text x="620.0" y="180.0" text-anchor="middle" class="chem-4-autoionization-t">OH⁻(수산화 이온)</text>
+<text x="360.0" y="30.0" text-anchor="middle" class="chem-4-autoionization-b">H₂O(l) + H₂O(l) ⇌ H₃O⁺(aq) + OH⁻(aq)</text>
+<rect x="20" y="240" width="680" height="96" rx="10" class="chem-4-autoionization-box"/>
+<text x="40.0" y="268.0" class="chem-4-autoionization-t">25 °C 순수한 물: [H₃O⁺] = [OH⁻] = 1.0×10⁻⁷ M, Kw = [H₃O⁺][OH⁻] = 1.0×10⁻¹⁴</text>
+<text x="40.0" y="292.0" class="chem-4-autoionization-t">물 분자 약 5억 개 중 1개 정도만 이온화 → 평형은 물(반응물) 쪽으로 크게 치우쳐 있다</text>
+<text x="40.0" y="316.0" class="chem-4-autoionization-s">정반응과 역반응은 계속 일어난다(동적 평형). 노란 테두리 H가 옮겨 간 H⁺이다</text>
+</svg>
