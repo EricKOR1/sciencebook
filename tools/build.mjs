@@ -208,6 +208,10 @@ async function convert(md, ctx) {
         let cls = '';
         const step = label.match(/^STEP (\d)\.\s*(.+)$/);
         if (step) { label = `<span class="step-badge s${step[1]}">STEP ${step[1]}</span><span class="h-text">${step[2]}</span>`; cls = ` class="step-h s${step[1]}"`; }
+        // '바로 확인'(개념 직후의 짧은 확인 문항)과 문제 난이도 표시
+        if (level === 4 && /바로 확인$/.test(label)) { label = '<span class="qc-badge">바로 확인</span><span class="qc-note">방금 읽은 내용, 바로 점검하기</span>'; cls = ' class="quick-h"'; }
+        const stars = level === 3 ? { 기본: 1, 응용: 2, '융합·서술형': 2, '실력 다지기': 2, 도전: 3 }[label] : 0;
+        if (stars) label += `<span class="level" title="난이도"><span class="sr">난이도 ${stars}단계(3단계 중) </span>${'★'.repeat(stars)}<i>${'★'.repeat(3 - stars)}</i></span>`;
         const id = uniq(slug(step ? `step-${step[1]}` : stripEmoji(text)));
         if (level === 2) toc.push({ id, text: stripEmoji(text), step: step ? +step[1] : 0 });
         return `<h${level} id="${id}"${cls}>${label}</h${level}>\n`;

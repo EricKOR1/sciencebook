@@ -136,10 +136,41 @@ def check(path):
         P.append(f"확인 문제가 {q}개(8개 이상 필요)")
     if not re.search(r"###\s*핵심 용어\s*\n+\|", text):
         P.append("'### 핵심 용어' 표가 없음")
+    if ENHANCED:   # 보강 작업 점검: 바로 확인, 실력 다지기, 도전
+        s3 = re.search(r"^## STEP 3\..*?(?=^## )", text, flags=re.S | re.M)
+        nsub = len(re.findall(r"^### ", s3.group(0), flags=re.M)) if s3 else 0
+        nqc = len(re.findall(r"^#### ✔ 바로 확인\s*$", text, flags=re.M))
+        if nqc < max(3, nsub - 1):
+            P.append(f"'#### ✔ 바로 확인'이 {nqc}개(STEP 3 소절 {nsub}개 — 소절마다 1개씩 필요)")
+        prob = re.search(r"^## ✅ 개념 확인 문제.*?(?=^## )", text, flags=re.S | re.M)
+        ptxt = prob.group(0) if prob else ""
+        heads = re.findall(r"^### (.+)$", ptxt, flags=re.M)
+        if [h.strip() for h in heads] != ["기본", "응용", "융합·서술형", "실력 다지기", "도전"]:
+            P.append("문제 소제목이 '기본, 응용, 융합·서술형, 실력 다지기, 도전' 순서가 아님: " + ", ".join(heads))
+        else:
+            parts = re.split(r"^### .+$", ptxt, flags=re.M)
+            n_mid = len(re.findall(r"^\*\*\d+\.", parts[4], flags=re.M))
+            n_hard = len(re.findall(r"^\*\*\d+\.", parts[5], flags=re.M))
+            if n_mid < 3:
+                P.append(f"'실력 다지기' 문항이 {n_mid}개(3개 이상 필요)")
+            if n_hard < 2:
+                P.append(f"'도전' 문항이 {n_hard}개(2개 이상 필요)")
+        nums = [int(x) for x in re.findall(r"^\*\*(\d+)\.", ptxt, flags=re.M)]
+        if nums != list(range(1, len(nums) + 1)):
+            P.append("문제 번호가 1부터 차례로 이어지지 않음")
+        if ptxt.count("<details>") < len(nums):
+            P.append("정답·해설(<details>)이 없는 문항이 있음")
     return len(lines), q, P
 
 
+ENHANCED = False
+
+
 def main():
+    global ENHANCED
+    if "--enhanced" in sys.argv:
+        ENHANCED = True
+        sys.argv.remove("--enhanced")
     files = sys.argv[1:]
     if not files:
         for dp, _, fs in os.walk(ROOT):

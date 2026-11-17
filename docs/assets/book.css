@@ -433,3 +433,12 @@ figcaption b { color: var(--ink); font-weight: 600; margin-right: 0.25rem; }
 @media print { .read-bar, .resume-toast, .done-box, .resume-panel, .progress-admin { display: none !important; } }
 .sim-glabel { align-self: center; font: 600 0.8rem/1.2 var(--font-body); color: var(--muted); margin-right: 0.15rem; }
 .katex.katex-scroll { display: inline-block; max-width: 100%; overflow-x: auto; overflow-y: hidden; vertical-align: middle; padding-block: 0.25em; }
+
+/* ───── 바로 확인(개념 직후의 짧은 문항), 문제 난이도 표시 ───── */
+.prose h4.quick-h { display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; margin-top: 1.8rem; padding-top: 0.9rem; border-top: 1.5px dashed var(--rule); }
+.qc-badge { font: 700 0.78rem/1 var(--font-body); letter-spacing: 0.02em; padding: 0.4rem 0.6rem; border-radius: 6px; background: var(--tip-line); color: var(--surface); }
+.qc-note { font: 500 0.82rem/1.3 var(--font-body); color: var(--muted); }
+.prose h4.quick-h + ol, .prose h4.quick-h + ul { margin-top: 0.6rem; }
+.level { margin-left: 0.6rem; font: 400 0.85rem/1 var(--font-body); color: var(--warn-line); letter-spacing: 0.08em; vertical-align: 0.12em; white-space: nowrap; }
+.level i { font-style: normal; opacity: 0.25; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
