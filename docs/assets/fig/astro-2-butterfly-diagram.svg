@@ -13,14 +13,14 @@
   <line x1="85.0" y1="58.1" x2="90.0" y2="58.1" style="stroke:var(--fig-line);stroke-width:1.2"/>
   <text x="81.0" y="62.1" text-anchor="end" class="astro-2-butterfly-diagram-s">150</text>
   <text transform="translate(34.0 115.0) rotate(-90)" text-anchor="middle" class="astro-2-butterfly-diagram-t">흑점 수</text>
-  <text x="174.1" y="66.0" text-anchor="middle" class="astro-2-butterfly-diagram-s">극대기</text>
-  <text x="374.1" y="66.0" text-anchor="middle" class="astro-2-butterfly-diagram-s">극대기</text>
-  <text x="574.1" y="66.0" text-anchor="middle" class="astro-2-butterfly-diagram-s">극대기</text>
+  <text x="174.1" y="44.0" text-anchor="middle" class="astro-2-butterfly-diagram-s">극대기</text>
+  <text x="374.1" y="44.0" text-anchor="middle" class="astro-2-butterfly-diagram-s">극대기</text>
+  <text x="574.1" y="44.0" text-anchor="middle" class="astro-2-butterfly-diagram-s">극대기</text>
   <line x1="90.0" y1="50.0" x2="90.0" y2="380.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4"/>
   <line x1="290.0" y1="50.0" x2="290.0" y2="380.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4"/>
   <line x1="490.0" y1="50.0" x2="490.0" y2="380.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4"/>
   <line x1="690.0" y1="50.0" x2="690.0" y2="380.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4"/>
-  <text x="94.0" y="172.0" text-anchor="start" class="astro-2-butterfly-diagram-s">극소기</text>
+  <text x="490.0" y="196.0" text-anchor="middle" class="astro-2-butterfly-diagram-s">극소기</text>
   <line x1="94.0" y1="194.0" x2="286.0" y2="194.0" style="stroke:var(--fig-ink);stroke-width:1.3"/>
   <path d="M286.0 194.0 L279.6 196.7 L279.6 191.3 Z" style="fill:var(--fig-ink)"/>
   <path d="M94.0 194.0 L100.4 191.3 L100.4 196.7 Z" style="fill:var(--fig-ink)"/>
@@ -58,5 +58,5 @@
   <line x1="130.0" y1="241.7" x2="244.5" y2="276.7" style="stroke:var(--fig-ink);stroke-width:1.4"/>
   <path d="M244.5 276.7 L236.6 277.5 L238.4 271.6 Z" style="fill:var(--fig-ink)"/>
   <text x="197.3" y="252.7" text-anchor="start" class="astro-2-butterfly-diagram-s" style="fill:var(--fig-ink)">점점 적도 쪽으로</text>
-  <text x="20.0" y="26.0" text-anchor="start" class="astro-2-butterfly-diagram-t astro-2-butterfly-diagram-b">흑점 관측 자료 (모식도)</text>
+  <text x="20.0" y="22.0" text-anchor="start" class="astro-2-butterfly-diagram-t astro-2-butterfly-diagram-b">흑점 관측 자료 (모식도)</text>
 </svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 366" role="img" aria-labelledby="t-bio-3-cell-cycle d-bio-3-cell-cycle">
+  <title id="t-bio-3-cell-cycle">그림 생명과학 3-3 세포 주기</title>
+  <desc id="d-bio-3-cell-cycle">세포 주기는 G₁기, S기, G₂기로 이루어진 간기와 분열기(M기)로 나뉘며 화살표 방향으로 진행한다. S기에 DNA가 복제되어 DNA 상대량이 2에서 4가 되고, M기를 거쳐 딸세포는 다시 2가 된다. 간기가 주기의 대부분을 차지한다. 각 시기의 비율은 한 예이다.</desc>
+  <style>
+    .b3cyc-lbl{font-size:13.5px;fill:var(--fig-ink)} .b3cyc-b{font-size:14.5px;font-weight:700;fill:var(--fig-ink)}
+    .b3cyc-sm{font-size:12.5px;fill:var(--fig-muted)} .b3cyc-lead{fill:none;stroke:var(--fig-muted);stroke-width:1.1}
+    .b3cyc-ink{fill:var(--fig-ink)} .b3cyc-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
+    
+  </style>
+  <path d="M192.6 58.0 A128 128 0 0 1 253.9 296.9 L230.9 257.1 A82 82 0 0 0 191.6 104.0 Z" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+  <text x="291.7" y="164.9" text-anchor="middle" class="b3cyc-b">G₁기</text>
+  <path d="M249.4 299.4 A128 128 0 0 1 69.1 228.0 L112.5 212.9 A82 82 0 0 0 228.1 258.6 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="151.3" y="288.6" text-anchor="middle" class="b3cyc-b">S기</text>
+  <path d="M67.5 223.1 A128 128 0 0 1 100.5 94.5 L132.7 127.4 A82 82 0 0 0 111.5 209.8 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <text x="88.3" y="164.9" text-anchor="middle" class="b3cyc-b">G₂기</text>
+  <path d="M104.3 91.0 A128 128 0 0 1 187.4 58.0 L188.4 104.0 A82 82 0 0 0 135.1 125.1 Z" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <text x="151.3" y="93.4" text-anchor="middle" class="b3cyc-b">M기</text>
+  <path d="M230.1 41.5 A150 150 0 0 1 304.7 89.4" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <path d="M310.7 97.4 L296.7 92.4 L307.7 80.4 Z" style="fill:var(--fig-ink)"/>
+  <text x="190.0" y="180.0" text-anchor="middle" class="b3cyc-b">간기</text>
+  <text x="190.0" y="198.0" text-anchor="middle" class="b3cyc-sm">G₁ → S → G₂</text>
+  <text x="190.0" y="216.0" text-anchor="middle" class="b3cyc-sm">+ 분열기(M)</text>
+  <rect x="370" y="48" width="8" height="48" rx="3" style="fill:var(--fig-green)"/>
+  <text x="388.0" y="66.0" class="b3cyc-b">G₁기</text>
+  <text x="436.0" y="66.0" class="b3cyc-lbl">세포가 자라고 단백질 등을 합성</text>
+  <text x="388.0" y="86.0" class="b3cyc-sm">DNA 상대량 2</text>
+  <rect x="370" y="118" width="8" height="48" rx="3" style="fill:var(--fig-blue)"/>
+  <text x="388.0" y="136.0" class="b3cyc-b">S기</text>
+  <text x="436.0" y="136.0" class="b3cyc-lbl">DNA 복제</text>
+  <text x="388.0" y="156.0" class="b3cyc-sm">DNA 상대량 2 → 4</text>
+  <rect x="370" y="188" width="8" height="48" rx="3" style="fill:var(--fig-amber)"/>
+  <text x="388.0" y="206.0" class="b3cyc-b">G₂기</text>
+  <text x="436.0" y="206.0" class="b3cyc-lbl">분열 준비</text>
+  <text x="388.0" y="226.0" class="b3cyc-sm">DNA 상대량 4</text>
+  <rect x="370" y="258" width="8" height="48" rx="3" style="fill:var(--fig-red)"/>
+  <text x="388.0" y="276.0" class="b3cyc-b">M기</text>
+  <text x="436.0" y="276.0" class="b3cyc-lbl">핵분열(전·중·후·말기)과 세포질 분열</text>
+  <text x="388.0" y="296.0" class="b3cyc-sm">DNA 상대량 4 → 2(딸세포)</text>
+  <text x="360.0" y="352.0" text-anchor="middle" class="b3cyc-sm">간기가 세포 주기의 대부분을 차지한다(각 시기의 비율은 세포마다 다르며, 그림은 한 예이다)</text>
+
+</svg>

@@ -13,16 +13,16 @@
   <ellipse cx="181.3" cy="189.2" rx="32.4" ry="16.2" transform="rotate(38 181.3 189.2)" style="fill:none;stroke:var(--fig-amber);stroke-width:1.6;stroke-dasharray:5 3"/>
   <ellipse cx="110.9" cy="151.7" rx="32.4" ry="16.2" transform="rotate(18 110.9 151.7)" style="fill:none;stroke:var(--fig-amber);stroke-width:1.6;stroke-dasharray:5 3"/>
   <path d="M98.2 326.1 L89.0 305.0 L111.8 315.9 L99.2 291.4 L125.4 305.6 L109.5 277.8 L139.0 295.4 L119.7 264.2 L152.6 285.1 L130.0 250.6 L166.2 274.9 L140.2 237.0 L179.8 264.6 L150.5 223.4" style="fill:none;stroke:var(--fig-red);stroke-width:1.4"/>
-  <text x="48.0" y="348.0" text-anchor="start" class="astro-2-sun-structure-t astro-2-sun-structure-b">중심핵</text>
-  <text x="48.0" y="364.0" text-anchor="start" class="astro-2-sun-structure-s">1500만 K</text>
+  <text x="40.0" y="390.0" text-anchor="start" class="astro-2-sun-structure-t astro-2-sun-structure-b">중심핵 1500만 K</text>
   <text x="152.0" y="322.0" text-anchor="start" class="astro-2-sun-structure-t astro-2-sun-structure-b">복사층</text>
   <text x="242.0" y="344.0" text-anchor="start" class="astro-2-sun-structure-t astro-2-sun-structure-b">대류층</text>
   <line x1="166.8" y1="131.6" x2="300.0" y2="50.0" style="stroke:var(--fig-line);stroke-width:1"/>
   <text x="304.0" y="54.0" text-anchor="start" class="astro-2-sun-structure-t astro-2-sun-structure-b">광구 약 5800 K — 보이는 표면</text>
   <line x1="224.0" y1="165.6" x2="320.0" y2="80.0" style="stroke:var(--fig-red);stroke-width:1"/>
   <text x="324.0" y="84.0" text-anchor="start" class="astro-2-sun-structure-t astro-2-sun-structure-b" style="fill:var(--fig-red)">채층 수천~수만 K</text>
-  <text x="258.0" y="132.0" text-anchor="start" class="astro-2-sun-structure-t astro-2-sun-structure-b" style="fill:var(--fig-violet)">코로나</text>
-  <text x="258.0" y="150.0" text-anchor="start" class="astro-2-sun-structure-s" style="fill:var(--fig-violet)">100만 K 이상</text>
+  <line x1="273.6" y1="173.9" x2="312.0" y2="158.0" style="stroke:var(--fig-violet);stroke-width:1"/>
+  <text x="316.0" y="156.0" text-anchor="start" class="astro-2-sun-structure-t astro-2-sun-structure-b" style="fill:var(--fig-violet)">코로나</text>
+  <text x="316.0" y="174.0" text-anchor="start" class="astro-2-sun-structure-s" style="fill:var(--fig-violet)">100만 K 이상</text>
   <text x="20.0" y="26.0" text-anchor="start" class="astro-2-sun-structure-t astro-2-sun-structure-b">태양의 4분의 1 단면 (채층·코로나 두께 과장)</text>
   <text x="420.0" y="112.0" text-anchor="start" class="astro-2-sun-structure-t astro-2-sun-structure-b">쌀알 무늬 (광구 확대)</text>
   <rect x="420.0" y="124.0" width="280.0" height="50.0" rx="0" style="fill:var(--fig-amber);stroke:none;stroke-width:1"/>
@@ -35,7 +35,7 @@
   <text x="700.0" y="192.0" text-anchor="end" class="astro-2-sun-structure-s">위에서 본 모습</text>
   <rect x="420.0" y="230.0" width="280.0" height="100.0" rx="0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1"/>
   <line x1="420.0" y1="230.0" x2="700.0" y2="230.0" style="stroke:var(--fig-ink);stroke-width:2"/>
-  <text x="420.0" y="224.0" text-anchor="start" class="astro-2-sun-structure-s">광구</text>
+  <text x="700.0" y="224.0" text-anchor="end" class="astro-2-sun-structure-s">광구</text>
   <line x1="467.0" y1="322.0" x2="467.0" y2="248.0" style="stroke:var(--fig-red);stroke-width:2.4"/>
   <path d="M467.0 248.0 L470.5 256.3 L463.5 256.3 Z" style="fill:var(--fig-red)"/>
   <path d="M473 242 Q507 234 511 260" style="fill:none;stroke:var(--fig-muted);stroke-width:1.4"/>
