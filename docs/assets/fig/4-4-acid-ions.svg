@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 372" role="img" aria-labelledby="t-4-4-acid-ions d-4-4-acid-ions">
+  <title id="t-4-4-acid-ions">그림 4-4-3 산의 수용액 속 입자 — 공통 입자는 H⁺</title>
+  <desc id="d-4-4-acid-ions">염산은 거의 모두 H⁺와 Cl⁻로, 황산은 한 개가 H⁺ 2개와 SO₄²⁻ 1개로 이온화한다. 아세트산은 일부만 이온화하여 같은 농도의 염산보다 H⁺가 적다. 세 수용액에 공통으로 들어 있는 H⁺가 산의 공통 성질을 나타낸다. 물 분자를 생략한 모식도.</desc>
+  <style>
+    .aci-glass{fill:none;stroke:var(--fig-ink);stroke-width:2;stroke-linejoin:round}
+    .aci-liq{fill:var(--fig-soft-blue);fill-opacity:.55}
+    .aci-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .aci-c{font-size:14px;fill:var(--fig-ink)}
+    .aci-sm{font-size:13px;fill:var(--fig-muted)}
+    .aci-key{font-size:15px;font-weight:700}
+    .aci-t{font-size:13.5px;font-weight:700;fill:var(--fig-ink)}
+    .aci-red{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2} .aci-tred{fill:var(--fig-red)}
+    .aci-blue{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2} .aci-tblue{fill:var(--fig-blue)}
+    .aci-green{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5}
+    .aci-violet{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5}
+    .aci-amber{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5}
+    .aci-teal{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5}
+    .aci-mol{fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.5;stroke-dasharray:4 3}
+  </style>
+  <text x="125" y="36" text-anchor="middle" class="aci-h">묽은 염산 (HCl)</text>
+  <rect x="29" y="80" width="192" height="171" class="aci-liq"/>
+  <path d="M19 52 L25 58 L25 252 L225 252 L225 58 L231 52" class="aci-glass"/>
+  <rect x="55.0" y="88.0" width="40" height="28" rx="14" class="aci-red"/><text x="75" y="107" text-anchor="middle" class="aci-t aci-tred">H⁺</text>
+  <rect x="133.0" y="94.0" width="44" height="28" rx="14" class="aci-green"/><text x="155" y="113" text-anchor="middle" class="aci-t">Cl⁻</text>
+  <rect x="160.0" y="138.0" width="40" height="28" rx="14" class="aci-red"/><text x="180" y="157" text-anchor="middle" class="aci-t aci-tred">H⁺</text>
+  <rect x="73.0" y="136.0" width="44" height="28" rx="14" class="aci-green"/><text x="95" y="155" text-anchor="middle" class="aci-t">Cl⁻</text>
+  <rect x="43.0" y="186.0" width="44" height="28" rx="14" class="aci-green"/><text x="65" y="205" text-anchor="middle" class="aci-t">Cl⁻</text>
+  <rect x="120.0" y="182.0" width="40" height="28" rx="14" class="aci-red"/><text x="140" y="201" text-anchor="middle" class="aci-t aci-tred">H⁺</text>
+  <rect x="163.0" y="218.0" width="44" height="28" rx="14" class="aci-green"/><text x="185" y="237" text-anchor="middle" class="aci-t">Cl⁻</text>
+  <rect x="80.0" y="220.0" width="40" height="28" rx="14" class="aci-red"/><text x="100" y="239" text-anchor="middle" class="aci-t aci-tred">H⁺</text>
+  <text x="125" y="280" text-anchor="middle" class="aci-c">HCl → H⁺ + Cl⁻</text>
+  <text x="125" y="302" text-anchor="middle" class="aci-sm">거의 모두 이온화 → 강한 산</text>
+  <text x="360" y="36" text-anchor="middle" class="aci-h">묽은 황산 (H₂SO₄)</text>
+  <rect x="264" y="80" width="192" height="171" class="aci-liq"/>
+  <path d="M254 52 L260 58 L260 252 L460 252 L460 58 L466 52" class="aci-glass"/>
+  <rect x="290.0" y="90.0" width="40" height="28" rx="14" class="aci-red"/><text x="310" y="109" text-anchor="middle" class="aci-t aci-tred">H⁺</text>
+  <rect x="380.0" y="96.0" width="40" height="28" rx="14" class="aci-red"/><text x="400" y="115" text-anchor="middle" class="aci-t aci-tred">H⁺</text>
+  <rect x="320.0" y="136.0" width="60" height="28" rx="14" class="aci-violet"/><text x="350" y="155" text-anchor="middle" class="aci-t">SO₄²⁻</text>
+  <rect x="285.0" y="184.0" width="40" height="28" rx="14" class="aci-red"/><text x="305" y="203" text-anchor="middle" class="aci-t aci-tred">H⁺</text>
+  <rect x="380.0" y="176.0" width="60" height="28" rx="14" class="aci-violet"/><text x="410" y="195" text-anchor="middle" class="aci-t">SO₄²⁻</text>
+  <rect x="340.0" y="220.0" width="40" height="28" rx="14" class="aci-red"/><text x="360" y="239" text-anchor="middle" class="aci-t aci-tred">H⁺</text>
+  <text x="360" y="280" text-anchor="middle" class="aci-c">H₂SO₄ → 2H⁺ + SO₄²⁻</text>
+  <text x="360" y="302" text-anchor="middle" class="aci-sm">한 개가 H⁺를 2개 내놓는다</text>
+  <text x="595" y="36" text-anchor="middle" class="aci-h">아세트산 수용액</text>
+  <rect x="499" y="80" width="192" height="171" class="aci-liq"/>
+  <path d="M489 52 L495 58 L495 252 L695 252 L695 58 L701 52" class="aci-glass"/>
+  <rect x="509.0" y="88.0" width="92" height="28" rx="14" class="aci-mol"/><text x="555" y="107" text-anchor="middle" class="aci-t">CH₃COOH</text>
+  <rect x="587.0" y="130.0" width="92" height="28" rx="14" class="aci-mol"/><text x="633" y="149" text-anchor="middle" class="aci-t">CH₃COOH</text>
+  <rect x="520.0" y="174.0" width="40" height="28" rx="14" class="aci-red"/><text x="540" y="193" text-anchor="middle" class="aci-t aci-tred">H⁺</text>
+  <rect x="593.0" y="178.0" width="84" height="28" rx="14" class="aci-amber"/><text x="635" y="197" text-anchor="middle" class="aci-t">CH₃COO⁻</text>
+  <rect x="519.0" y="220.0" width="92" height="28" rx="14" class="aci-mol"/><text x="565" y="239" text-anchor="middle" class="aci-t">CH₃COOH</text>
+  <text x="595" y="280" text-anchor="middle" class="aci-c">CH₃COOH → H⁺ + CH₃COO⁻</text>
+  <text x="595" y="302" text-anchor="middle" class="aci-sm">일부만 이온화 → 약한 산</text>
+  <text x="360" y="334" text-anchor="middle" class="aci-c">세 수용액에 공통으로 들어 있는 입자 <tspan class="aci-key aci-tred">H⁺</tspan> → 신맛, 금속과 반응해 수소 발생 등 산의 공통 성질</text>
+  <text x="360" y="360" text-anchor="middle" class="aci-sm">모식도: 물 분자는 생략했다. 점선 테두리는 이온화하지 않은 분자이다.</text>
+</svg>

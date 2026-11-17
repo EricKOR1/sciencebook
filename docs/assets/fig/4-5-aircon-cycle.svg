@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 384" role="img" aria-labelledby="t-4-5-aircon-cycle d-4-5-aircon-cycle">
+  <title id="t-4-5-aircon-cycle">그림 4-5-5 에어컨의 냉매 순환 — 실내의 열을 실외로 옮긴다</title>
+  <desc id="d-4-5-aircon-cycle">실내기(증발기)에서 액체 냉매가 기화하며 실내 공기의 열을 흡수하고, 기체 냉매는 압축기를 거쳐 실외기(응축기)에서 액화하며 바깥 공기로 열을 방출한다. 액체 냉매는 팽창 밸브에서 압력이 낮아진 뒤 다시 실내기로 돌아간다. 모식도.</desc>
+  <style>
+    .acc-wall{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.2}
+    .acc-unit{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.6}
+    .acc-pipe{fill:none;stroke:var(--fig-violet);stroke-width:4;stroke-linejoin:round}
+    .acc-coil{fill:none;stroke:var(--fig-violet);stroke-width:3;stroke-linejoin:round}
+    .acc-flow{fill:var(--fig-violet)}
+    .acc-comp{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2}
+    .acc-valve{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2}
+    .acc-h{font-size:16px;font-weight:700;fill:var(--fig-ink)}
+    .acc-b{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+    .acc-lbl{font-size:13.5px;fill:var(--fig-ink)}
+    .acc-sm{font-size:13px;fill:var(--fig-muted)}
+    .acc-hb{fill:none;stroke:var(--fig-blue);stroke-width:2.5;stroke-linecap:round} .acc-hbh{fill:var(--fig-blue)}
+    .acc-hr{fill:none;stroke:var(--fig-red);stroke-width:2.5;stroke-linecap:round} .acc-hrh{fill:var(--fig-red)}
+    .acc-tb{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+    .acc-tr{font-size:14px;font-weight:700;fill:var(--fig-red)}
+  </style>
+  <rect x="350" y="52" width="20" height="270" class="acc-wall"/><text x="360" y="44" text-anchor="middle" class="acc-sm">벽</text>
+  <text x="175" y="30" text-anchor="middle" class="acc-h">실내</text><text x="580" y="30" text-anchor="middle" class="acc-h">실외</text>
+  <rect x="80" y="104" width="190" height="146" rx="10" class="acc-unit"/><text x="175" y="126" text-anchor="middle" class="acc-b">실내기 (증발기)</text>
+  <path d="M110 236 L110 225 L120 150 L130 225 L140 150 L150 225 L160 150 L170 225 L180 150 L190 225 L200 150 L210 225 L220 150 L230 225 L240 150" class="acc-coil"/>
+  <rect x="470" y="96" width="220" height="186" rx="10" class="acc-unit"/><text x="580" y="118" text-anchor="middle" class="acc-b">실외기 (응축기)</text>
+  <path d="M630 140 L600 148 L660 156 L600 164 L660 172 L600 180 L660 188 L600 196 L660 204 L600 212 L660 220 L630 225" class="acc-coil"/>
+  <path d="M240 150 L496 150" class="acc-pipe"/>
+  <path d="M544 150 L630 150 L630 140" class="acc-pipe"/>
+  <path d="M630 225 L630 236 L110 236" class="acc-pipe"/>
+  <circle cx="520" cy="150" r="24" class="acc-comp"/><text x="520" y="196" text-anchor="middle" class="acc-lbl">압축기</text>
+  <path d="M408 226 L432 246 L432 226 L408 246 Z" class="acc-valve"/><text x="420" y="268" text-anchor="middle" class="acc-lbl">팽창 밸브</text>
+  <path d="M318 150 l-14 -7 v14 z" class="acc-flow"/>
+  <path d="M448 150 l-14 -7 v14 z" class="acc-flow"/>
+  <path d="M588 150 l-14 -7 v14 z" class="acc-flow"/>
+  <path d="M552 236 l14 -7 v14 z" class="acc-flow"/>
+  <path d="M322 236 l14 -7 v14 z" class="acc-flow"/>
+  <path d="M172 236 l14 -7 v14 z" class="acc-flow"/>
+  <text x="410" y="136" text-anchor="middle" class="acc-sm">기체 냉매</text><text x="300" y="256" text-anchor="middle" class="acc-sm">액체 냉매</text>
+  <path d="M18 160 q6 -6 12 0 t12 0 t12 0 t12 0" class="acc-hb"/><path d="M80 160 l-12 -7 v14 z" class="acc-hbh"/>
+  <path d="M18 200 q6 -6 12 0 t12 0 t12 0 t12 0" class="acc-hb"/><path d="M80 200 l-12 -7 v14 z" class="acc-hbh"/>
+  <text x="44" y="186" text-anchor="middle" class="acc-tb">열</text>
+  <path d="M610 92 q-6 -6 0 -12 t0 -12 t0 -12" class="acc-hr"/><path d="M610 48 l-7 12 h14 z" class="acc-hrh"/>
+  <path d="M650 92 q-6 -6 0 -12 t0 -12 t0 -12" class="acc-hr"/><path d="M650 48 l-7 12 h14 z" class="acc-hrh"/>
+  <text x="672" y="66" class="acc-tr">열</text>
+  <text x="175" y="300" text-anchor="middle" class="acc-tb">액체 냉매가 기화하며 열 흡수</text><text x="175" y="320" text-anchor="middle" class="acc-sm">→ 실내가 시원해진다</text>
+  <text x="580" y="304" text-anchor="middle" class="acc-tr">기체 냉매가 액화하며 열 방출</text><text x="580" y="324" text-anchor="middle" class="acc-sm">→ 실외기에서 뜨거운 바람</text>
+  <text x="360" y="366" text-anchor="middle" class="acc-sm">모식도: 냉매는 관 속을 돌며 실내의 열을 실외로 옮긴다. 압축기는 전기 에너지로 기체 냉매를 압축한다.</text>
+</svg>

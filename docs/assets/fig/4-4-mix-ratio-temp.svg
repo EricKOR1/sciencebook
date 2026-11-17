@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 410" role="img" aria-labelledby="t-4-4-mix-ratio-temp d-4-4-mix-ratio-temp">
+  <title id="t-4-4-mix-ratio-temp">그림 4-4-5 섞는 비율에 따른 혼합 용액의 최고 온도</title>
+  <desc id="d-4-4-mix-ratio-temp">농도가 같은 묽은 염산과 수산화 나트륨 수용액을 전체 50 mL가 되게 섞으면, 염산 25 mL + 수산화 나트륨 수용액 25 mL일 때(중화점) 최고 온도가 가장 높고 양쪽으로 갈수록 낮아져 산 모양 그래프가 된다. 중화점 왼쪽은 OH⁻가 남아 BTB가 파란색, 오른쪽은 H⁺가 남아 노란색이다. 처음 온도 20.0 °C, 열 손실 없음을 가정한 예시 값.</desc>
+  <style>
+    .mrt-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.5}
+    .mrt-grid{fill:none;stroke:var(--fig-line);stroke-width:1;stroke-opacity:.45}
+    .mrt-line{fill:none;stroke:var(--fig-muted);stroke-width:2;stroke-dasharray:6 4}
+    .mrt-n{font-size:13px;fill:var(--fig-muted)}
+    .mrt-lbl{font-size:14px;fill:var(--fig-ink)}
+    .mrt-b{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+    .mrt-sm{font-size:13px;fill:var(--fig-muted)}
+    .mrt-blue{fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:1.2}
+    .mrt-green{fill:var(--fig-green);stroke:var(--fig-ink);stroke-width:1.2}
+    .mrt-amber{fill:var(--fig-amber);stroke:var(--fig-ink);stroke-width:1.2}
+    .mrt-tb{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+    .mrt-tg{font-size:14px;font-weight:700;fill:var(--fig-green)}
+    .mrt-ta{font-size:14px;font-weight:700;fill:var(--fig-amber)}
+  </style>
+  <line x1="92" y1="318.0" x2="632" y2="318.0" class="mrt-grid"/><text x="84" y="322.0" text-anchor="end" class="mrt-n">20</text>
+  <line x1="92" y1="255.0" x2="632" y2="255.0" class="mrt-grid"/><text x="84" y="259.0" text-anchor="end" class="mrt-n">22</text>
+  <line x1="92" y1="192.0" x2="632" y2="192.0" class="mrt-grid"/><text x="84" y="196.0" text-anchor="end" class="mrt-n">24</text>
+  <line x1="92" y1="129.0" x2="632" y2="129.0" class="mrt-grid"/><text x="84" y="133.0" text-anchor="end" class="mrt-n">26</text>
+  <line x1="92" y1="66.0" x2="632" y2="66.0" class="mrt-grid"/><text x="84" y="70.0" text-anchor="end" class="mrt-n">28</text>
+  <line x1="92.0" y1="318" x2="92.0" y2="323" class="mrt-ax"/><text x="92.0" y="339" text-anchor="middle" class="mrt-n">0</text><text x="92.0" y="358" text-anchor="middle" class="mrt-n">50</text>
+  <line x1="200.0" y1="318" x2="200.0" y2="323" class="mrt-ax"/><text x="200.0" y="339" text-anchor="middle" class="mrt-n">10</text><text x="200.0" y="358" text-anchor="middle" class="mrt-n">40</text>
+  <line x1="308.0" y1="318" x2="308.0" y2="323" class="mrt-ax"/><text x="308.0" y="339" text-anchor="middle" class="mrt-n">20</text><text x="308.0" y="358" text-anchor="middle" class="mrt-n">30</text>
+  <line x1="362.0" y1="318" x2="362.0" y2="323" class="mrt-ax"/><text x="362.0" y="339" text-anchor="middle" class="mrt-n">25</text><text x="362.0" y="358" text-anchor="middle" class="mrt-n">25</text>
+  <line x1="416.0" y1="318" x2="416.0" y2="323" class="mrt-ax"/><text x="416.0" y="339" text-anchor="middle" class="mrt-n">30</text><text x="416.0" y="358" text-anchor="middle" class="mrt-n">20</text>
+  <line x1="524.0" y1="318" x2="524.0" y2="323" class="mrt-ax"/><text x="524.0" y="339" text-anchor="middle" class="mrt-n">40</text><text x="524.0" y="358" text-anchor="middle" class="mrt-n">10</text>
+  <line x1="632.0" y1="318" x2="632.0" y2="323" class="mrt-ax"/><text x="632.0" y="339" text-anchor="middle" class="mrt-n">50</text><text x="632.0" y="358" text-anchor="middle" class="mrt-n">0</text>
+  <path d="M92 56 L92 318 L642 318" class="mrt-ax"/>
+  <text x="648" y="339" class="mrt-lbl">염산(mL)</text>
+  <text x="648" y="358" class="mrt-lbl">NaOH(mL)</text>
+  <text x="84" y="44" class="mrt-lbl" text-anchor="start">최고 온도(°C)</text>
+  <path d="M92.0 318.0 L362.0 103.8 L632.0 318.0" class="mrt-line"/>
+  <circle cx="200.0" cy="233.0" r="8" class="mrt-blue"/>
+  <text x="184.0" y="227.0" text-anchor="end" class="mrt-b">A 22.7</text>
+  <circle cx="308.0" cy="144.8" r="8" class="mrt-blue"/>
+  <text x="292.0" y="138.8" text-anchor="end" class="mrt-b">B 25.5</text>
+  <circle cx="362.0" cy="103.8" r="8" class="mrt-green"/>
+  <text x="362.0" y="69.8" text-anchor="middle" class="mrt-tg">C 중화점 — 초록색, 온도 최고</text><text x="362.0" y="87.8" text-anchor="middle" class="mrt-b">26.8</text>
+  <circle cx="416.0" cy="144.8" r="8" class="mrt-amber"/>
+  <text x="432.0" y="138.8" text-anchor="start" class="mrt-b">D 25.5</text>
+  <circle cx="524.0" cy="233.0" r="8" class="mrt-amber"/>
+  <text x="540.0" y="227.0" text-anchor="start" class="mrt-b">E 22.7</text>
+  <text x="108.2" y="122.7" class="mrt-tb">A·B: OH⁻가 남음</text><text x="108.2" y="142.7" class="mrt-tb">→ 염기성(BTB 파란색)</text>
+  <text x="621.2" y="122.7" text-anchor="end" class="mrt-ta">D·E: H⁺가 남음</text><text x="621.2" y="142.7" text-anchor="end" class="mrt-ta">→ 산성(BTB 노란색)</text>
+  <text x="360" y="388" text-anchor="middle" class="mrt-sm">예시 값: 농도가 같은 두 용액, 전체 50 mL, 처음 온도 20.0 °C, 열 손실 없음을 가정. 점선은 반응한 양에 비례하는 이론값.</text>
+</svg>

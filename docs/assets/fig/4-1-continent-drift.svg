@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-4-1-continent-drift d-4-1-continent-drift">
+  <title id="t-4-1-continent-drift">그림 4-1-5 판게아의 형성과 분리 — 대륙 배치가 바뀌면 환경도 바뀐다</title>
+  <desc id="d-4-1-continent-drift">왼쪽은 고생대 말(약 2억 5천만 년 전) 여러 대륙이 모여 만든 초대륙 판게아로, 얕은 바다가 줄고 대륙 내부가 건조해졌다. 오른쪽은 중생대 백악기(약 1억 년 전)로, 판게아가 갈라지며 대서양이 열리고 인도가 떨어져 북쪽으로 이동하는 등 오늘날의 배치에 가까워졌다. 점선은 오늘날 대륙의 경계를 뜻한다. 대륙의 모양과 위치를 단순하게 나타낸 모식도이다.</desc>
+  <style>
+    .cd-sea{fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:1}
+    .cd-land{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2;stroke-dasharray:4 3;stroke-linejoin:round}
+    .cd-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .cd-big{font-size:16px;font-weight:700;fill:var(--fig-green)}
+    .cd-c{font-size:13px;fill:var(--fig-ink)}
+    .cd-t{font-size:14px;fill:var(--fig-ink)}
+    .cd-mu{font-size:13px;fill:var(--fig-muted)}
+    .cd-halo{paint-order:stroke;stroke:var(--fig-soft-green);stroke-width:3px;stroke-linejoin:round}
+    .cd-arr{fill:none;stroke:var(--fig-red);stroke-width:2.2}
+    .cd-arrh{fill:var(--fig-red)}
+  </style>
+
+  <!-- 왼쪽: 고생대 말 판게아 -->
+  <text x="184" y="24" text-anchor="middle" class="cd-h">고생대 말 (약 2억 5천만 년 전)</text>
+  <g transform="translate(8 36)">
+    <rect x="0" y="0" width="352" height="240" rx="8" class="cd-sea"/>
+    <path d="M95 40 L165 35 L170 100 L140 122 L108 112 L88 75 Z" class="cd-land"/>
+    <path d="M165 35 L300 28 L322 58 L292 86 L232 82 L205 98 L170 100 Z" class="cd-land"/>
+    <path d="M108 112 L150 118 L158 165 L135 215 L118 200 L104 155 Z" class="cd-land"/>
+    <path d="M140 122 L170 100 L205 98 L222 108 L228 145 L208 195 L170 198 L158 165 L150 118 Z" class="cd-land"/>
+    <path d="M222 108 L250 112 L248 152 L228 158 L228 145 Z" class="cd-land"/>
+    <path d="M150 198 L208 195 L240 188 L250 222 L170 232 Z" class="cd-land"/>
+    <path d="M228 158 L248 152 L290 160 L288 192 L250 200 L240 188 L208 195 Z" class="cd-land"/>
+    <text x="128" y="75" text-anchor="middle" class="cd-c">북아메리카</text>
+    <text x="245" y="58" text-anchor="middle" class="cd-c">유라시아</text>
+    <text x="128" y="160" text-anchor="middle" class="cd-c">남아</text>
+    <text x="128" y="176" text-anchor="middle" class="cd-c">메리카</text>
+    <text x="190" y="150" text-anchor="middle" class="cd-c">아프리카</text>
+    <text x="236" y="136" text-anchor="middle" class="cd-c">인도</text>
+    <text x="200" y="220" text-anchor="middle" class="cd-c">남극</text>
+    <text x="264" y="180" text-anchor="middle" class="cd-c">오스트</text>
+    <text x="22" y="230" class="cd-mu">바다</text>
+    <text x="300" y="130" text-anchor="middle" class="cd-mu">바다</text>
+    <text x="50" y="140" text-anchor="middle" class="cd-big">판게아</text>
+  </g>
+  <text x="184" y="300" text-anchor="middle" class="cd-t">대륙이 하나로 모임(초대륙 판게아)</text>
+  <text x="184" y="322" text-anchor="middle" class="cd-t">→ 대륙 둘레의 얕은 바다(대륙붕) 감소</text>
+  <text x="184" y="344" text-anchor="middle" class="cd-t">→ 바다에서 먼 대륙 내부는 건조</text>
+
+  <!-- 오른쪽: 중생대 백악기 -->
+  <text x="536" y="24" text-anchor="middle" class="cd-h">중생대 백악기 (약 1억 년 전)</text>
+  <g transform="translate(360 36)">
+    <rect x="0" y="0" width="352" height="240" rx="8" class="cd-sea"/>
+    <path d="M58 45 L130 40 L136 98 L106 122 L76 108 L52 76 Z" class="cd-land"/>
+    <path d="M152 36 L300 28 L322 58 L292 86 L232 82 L205 96 L160 88 Z" class="cd-land"/>
+    <path d="M92 132 L134 130 L140 172 L116 218 L100 202 L88 160 Z" class="cd-land"/>
+    <path d="M160 112 L205 104 L224 112 L230 146 L212 192 L180 196 L166 162 L158 128 Z" class="cd-land"/>
+    <path d="M250 128 L276 126 L274 156 L256 162 Z" class="cd-land"/>
+    <path d="M150 212 L236 206 L250 232 L160 236 Z" class="cd-land"/>
+    <path d="M246 180 L296 182 L292 208 L250 210 Z" class="cd-land"/>
+    <text x="94" y="78" text-anchor="middle" class="cd-c">북아메리카</text>
+    <text x="245" y="58" text-anchor="middle" class="cd-c">유라시아</text>
+    <text x="114" y="164" text-anchor="middle" class="cd-c">남아</text>
+    <text x="114" y="180" text-anchor="middle" class="cd-c">메리카</text>
+    <text x="194" y="152" text-anchor="middle" class="cd-c">아프리카</text>
+    <text x="263" y="148" text-anchor="middle" class="cd-c">인도</text>
+    <text x="200" y="226" text-anchor="middle" class="cd-c">남극</text>
+    <text x="271" y="200" text-anchor="middle" class="cd-c">오스트</text>
+    <!-- 대서양 열림 -->
+    <path d="M147 196 L147 130" class="cd-arr" style="stroke-dasharray:4 3"/>
+    <path d="M128 110 L106 110" class="cd-arr"/>
+    <path d="M108 104 L96 110 L108 116 Z" class="cd-arrh"/>
+    <path d="M166 104 L188 98" class="cd-arr" style="display:none"/>
+    <text x="40" y="210" text-anchor="middle" class="cd-c" style="font-weight:700">대서양</text>
+    <text x="40" y="226" text-anchor="middle" class="cd-c" style="font-weight:700">열림</text>
+    <path d="M60 206 Q100 200 140 188" class="cd-arr" style="stroke:var(--fig-ink);stroke-width:1"/>
+    <!-- 인도 북쪽 이동 -->
+    <path d="M286 138 L286 100" class="cd-arr"/>
+    <path d="M280 104 L286 92 L292 104 Z" class="cd-arrh"/>
+    <text x="318" y="122" text-anchor="middle" class="cd-mu">북쪽</text>
+    <text x="318" y="138" text-anchor="middle" class="cd-mu">으로</text>
+  </g>
+  <text x="536" y="300" text-anchor="middle" class="cd-t">판게아가 갈라짐 → 대서양이 열림</text>
+  <text x="536" y="322" text-anchor="middle" class="cd-t">→ 대륙들이 오늘날 배치에 가까워짐</text>
+  <text x="536" y="344" text-anchor="middle" class="cd-t">(신생대: 인도가 아시아와 충돌 → 히말라야)</text>
+
+  <text x="360" y="372" text-anchor="middle" class="cd-mu">점선 = 오늘날 대륙의 경계 · 대륙의 모양과 위치를 단순하게 나타낸 모식도 · 오스트 = 오스트레일리아</text>
+</svg>

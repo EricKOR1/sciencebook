@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 352" role="img" aria-labelledby="t-4-5-pot-cooler d-4-5-pot-cooler">
+  <title id="t-4-5-pot-cooler">그림 4-5-6 증발을 이용한 항아리 냉장고의 단면</title>
+  <desc id="d-4-5-pot-cooler">큰 흙 그릇 안에 작은 그릇을 넣고 그 사이를 젖은 모래로 채운다. 물이 바깥 그릇 표면으로 스며 나와 증발하면서 열을 흡수하므로, 안쪽 그릇의 열이 바깥으로 빠져나가 안쪽이 시원하게 유지된다. 단면 모식도.</desc>
+  <style>
+    .pot-sand{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2;fill-rule:evenodd}
+    .pot-inner{fill:var(--fig-panel);stroke:var(--fig-amber);stroke-width:2}
+    .pot-veg{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5}
+    .pot-cloth{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5}
+    .pot-drop{fill:var(--fig-blue)}
+    .pot-vap{fill:none;stroke:var(--fig-blue);stroke-width:2;stroke-linecap:round;stroke-dasharray:3 4}
+    .pot-heat{fill:none;stroke:var(--fig-red);stroke-width:2.5;stroke-linecap:round} .pot-heath{fill:var(--fig-red)}
+    .pot-lead{fill:none;stroke:var(--fig-muted);stroke-width:1}
+    .pot-lbl{font-size:14px;fill:var(--fig-ink)}
+    .pot-b{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+    .pot-tb{font-size:14px;font-weight:700;fill:var(--fig-blue)}
+    .pot-tr{font-size:14px;font-weight:700;fill:var(--fig-red)}
+    .pot-sm{font-size:13px;fill:var(--fig-muted)}
+  </style>
+  <path d="M250 96 L470 96 L452 292 Q360 306 268 292 Z M290 108 L430 108 L418 272 Q360 282 302 272 Z" class="pot-sand"/>
+  <path d="M290 108 L430 108 L418 272 Q360 282 302 272 Z" class="pot-inner"/>
+  <circle cx="272" cy="140" r="3.5" class="pot-drop"/>
+  <circle cx="276" cy="190" r="3.5" class="pot-drop"/>
+  <circle cx="282" cy="240" r="3.5" class="pot-drop"/>
+  <circle cx="448" cy="140" r="3.5" class="pot-drop"/>
+  <circle cx="444" cy="190" r="3.5" class="pot-drop"/>
+  <circle cx="436" cy="240" r="3.5" class="pot-drop"/>
+  <circle cx="330" cy="286" r="3.5" class="pot-drop"/>
+  <circle cx="390" cy="286" r="3.5" class="pot-drop"/>
+  <circle cx="262" cy="116" r="3.5" class="pot-drop"/>
+  <circle cx="458" cy="116" r="3.5" class="pot-drop"/>
+  <circle cx="330" cy="245" r="20" class="pot-veg"/>
+  <circle cx="378" cy="248" r="22" class="pot-veg"/>
+  <circle cx="352" cy="210" r="19" class="pot-veg"/>
+  <circle cx="395" cy="205" r="16" class="pot-veg"/>
+  <circle cx="322" cy="200" r="14" class="pot-veg"/>
+  <path d="M236 98 Q300 78 360 90 T484 92 L484 100 Q420 94 360 100 T236 106 Z" class="pot-cloth"/>
+  <path d="M250 150 q-10 -6 -20 -2 t-20 -6 t-18 -8" class="pot-vap"/>
+  <path d="M256 210 q-10 -6 -20 -2 t-20 -6 t-18 -8" class="pot-vap"/>
+  <path d="M262 262 q-10 -6 -20 -2 t-20 -6 t-18 -8" class="pot-vap"/>
+  <path d="M470 150 q10 -6 20 -2 t20 -6 t18 -8" class="pot-vap"/>
+  <path d="M464 210 q10 -6 20 -2 t20 -6 t18 -8" class="pot-vap"/>
+  <path d="M458 262 q10 -6 20 -2 t20 -6 t18 -8" class="pot-vap"/>
+  <line x1="345" y1="160" x2="270" y2="172" class="pot-heat"/>
+  <path d="M262 172 l14 -9 l-2 13 z" class="pot-heath"/>
+  <line x1="375" y1="160" x2="450" y2="172" class="pot-heat"/>
+  <path d="M458 172 l-14 -9 l2 13 z" class="pot-heath"/>
+  <text x="360" y="150" text-anchor="middle" class="pot-tr">열</text>
+  <line x1="200" y1="96" x2="240" y2="98" class="pot-lead"/><text x="194" y="92" text-anchor="end" class="pot-lbl">젖은 천 (덮개)</text>
+  <line x1="200" y1="226" x2="278" y2="226" class="pot-lead"/><text x="194" y="222" text-anchor="end" class="pot-b">젖은 모래</text><text x="194" y="240" text-anchor="end" class="pot-sm">물을 머금고 있다</text>
+  <line x1="200" y1="300" x2="300" y2="292" class="pot-lead"/><text x="194" y="296" text-anchor="end" class="pot-lbl">큰 흙 그릇</text><text x="194" y="314" text-anchor="end" class="pot-sm">물이 표면으로 스며 나온다</text>
+  <text x="530" y="150" class="pot-tb">물이 증발하며</text><text x="530" y="170" class="pot-tb">열을 흡수</text>
+  <line x1="520" y1="250" x2="398" y2="250" class="pot-lead"/><text x="530" y="246" class="pot-b">작은 그릇 (채소)</text><text x="530" y="264" class="pot-sm">열을 빼앗겨 시원하게 유지</text>
+  <text x="360" y="340" text-anchor="middle" class="pot-sm">단면 모식도: 건조한 바람이 불수록 증발이 활발해 더 시원하다. 모래에 물을 계속 보충해야 한다.</text>
+</svg>
