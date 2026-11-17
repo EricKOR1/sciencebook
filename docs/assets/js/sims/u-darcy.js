@@ -6,7 +6,7 @@ Sims.register('u-darcy', {
     var A = 100 * 20;
     var SUP = { '-': '⁻', '0': '⁰', '1': '¹', '2': '²', '3': '³', '4': '⁴', '5': '⁵', '6': '⁶', '7': '⁷', '8': '⁸', '9': '⁹' };
     var state = { dh: 5, L: 1000, lk: -4, n: 0.25, t: 0 };
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.05 : 0.5; }, label: '두 관측정 사이 대수층의 단면과 유속 비교 눈금' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.2 : 0.5; }, label: '두 관측정 사이 대수층의 단면과 유속 비교 눈금' });
     var ctx = cv.ctx;
     var rI = api.readout('수리 경사 i');
     var rQ = api.readout('다르시 유속 q');
@@ -62,9 +62,9 @@ Sims.register('u-darcy', {
       section(T, Ly.S); strip(T, Ly.B);
     }
     function section(T, r) {
-      var x0 = r.x + 40, x1 = r.x + r.w - 40, ground = r.y + 36;
-      var aqT = r.y + r.h * 0.58, aqB = r.y + r.h - 18;
-      var hiY = ground + 18, span = (aqT - 14) - hiY;
+      var x0 = r.x + 40, x1 = r.x + r.w - 58, ground = r.y + 36;
+      var aqT = r.y + r.h * 0.62, aqB = r.y + r.h - 18;
+      var hiY = ground + 26, span = (aqT - 44) - hiY;
       var h1 = hiY, h2 = hiY + span * (state.dh / 20);
       // 지층
       ctx.fillStyle = T.figSoftAmber; ctx.fillRect(r.x + 8, ground, r.w - 16, aqT - ground);
@@ -83,7 +83,7 @@ Sims.register('u-darcy', {
       ctx.strokeStyle = T.figRed; ctx.lineWidth = 1.6; ctx.setLineDash([7, 5]);
       ctx.beginPath(); ctx.moveTo(x0, h1); ctx.lineTo(x1, h2); ctx.stroke(); ctx.setLineDash([]);
       ctx.fillStyle = T.figRed; ctx.textAlign = 'center'; ctx.font = '12px ' + T.fontBody;
-      ctx.fillText('수두선 (기울기 = 수리 경사 i)', (x0 + x1) / 2, (h1 + h2) / 2 - 8);
+      ctx.fillText('수두선 (기울기 = 수리 경사 i)', (x0 + x1) / 2, (h1 + h2) / 2 + 17);
       // 우물
       [[x0, h1, '관측정 1'], [x1, h2, '관측정 2']].forEach(function (wl) {
         var wx = wl[0];
@@ -101,7 +101,7 @@ Sims.register('u-darcy', {
       ctx.save(); ctx.translate(x1 + 36, (h1 + h2) / 2); ctx.rotate(-Math.PI / 2); ctx.textAlign = 'center'; ctx.font = '12px ' + T.fontBody; ctx.fillStyle = T.figInk;
       ctx.fillText('Δh ' + state.dh + ' m', 0, 0); ctx.restore();
       ctx.fillStyle = T.figInk; ctx.textAlign = 'center'; ctx.font = '12px ' + T.fontBody;
-      ctx.fillText('← L = ' + state.L + ' m →', (x0 + x1) / 2, ground + 14);
+      ctx.fillText('← 거리 L = ' + state.L + ' m →', (x0 + x1) / 2, aqT - 28);
       // 흐름 화살표
       ctx.strokeStyle = T.figBlue; ctx.lineWidth = 2;
       var ay = (aqT + aqB) / 2 - 6, ax = x1 - 60;
@@ -123,11 +123,11 @@ Sims.register('u-darcy', {
       }
       // 비교 기준
       ctx.font = '11px ' + T.fontBody;
-      [[1e-4, '손톱이 자라는 빠르기'], [86, '달팽이'], [86400, '하천(1 m/s)']].forEach(function (m) {
+      [[1e-4, '손톱이 자라는 빠르기'], [86, '달팽이'], [86400, '하천(1 m/s)']].forEach(function (m, j) {
         var xx = sx(m[0]); ctx.fillStyle = T.figMuted;
         ctx.beginPath(); ctx.moveTo(xx, y + 20); ctx.lineTo(xx, y + 24); ctx.stroke();
         ctx.textAlign = xx > R - 50 ? 'right' : 'center';
-        ctx.fillText(m[1], Math.min(xx, R), y + 34);
+        ctx.fillText(m[1], Math.min(xx, R), y + 34 + (narrow && j === 2 ? 14 : 0));
       });
       var c = calc();
       var vq = c.q * 86400, vv = c.v * 86400;

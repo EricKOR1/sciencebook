@@ -68,6 +68,7 @@ Sims.register('u-arrhenius', {
         ctx.setLineDash(dash || []); ctx.strokeStyle = color; ctx.lineWidth = 2.6; ctx.beginPath();
         ctx.moveTo(sx(x0), sy(lnk(1 / x0, Ea))); ctx.lineTo(sx(x1), sy(lnk(1 / x1, Ea))); ctx.stroke(); ctx.restore();
       }
+      var keepA = st.logA; st.logA = 12; lineFor(75, T.figLine, [2, 4]); st.logA = keepA;
       if (st.cat) lineFor(Math.max(1, st.Ea - 20), T.figGreen, [7, 4]);
       lineFor(st.Ea, T.figAccent);
       // 25 ℃ 표시점
@@ -80,12 +81,14 @@ Sims.register('u-arrhenius', {
           ctx.fillStyle = T.figPanel; ctx.fill(); ctx.strokeStyle = T.figRed; ctx.lineWidth = 2; ctx.stroke();
         });
         ctx.fillStyle = T.figRed; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
-        ctx.fillText('○ 예제 12 측정값(300~340 K)', L + 8, B - 10);
+        ctx.fillText('○ 예제 12 측정값(300~340 K)', L + 6, B - 24);
       }
       // 기울기 설명
       ctx.fillStyle = T.figAccent; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'right';
       ctx.fillText('기울기 = −Eₐ/R', Rr - 4, Tp + 16);
       if (st.cat) { ctx.fillStyle = T.figGreen; ctx.fillText('촉매: 덜 가파름', Rr - 4, Tp + 32); }
+      ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
+      ctx.fillText('점선: 처음 값(Eₐ 75 kJ/mol, A 10¹² s⁻¹)', L + 6, B - 8);
     }
 
     function relPlot(T, r) {
@@ -122,7 +125,7 @@ Sims.register('u-arrhenius', {
       ctx.fillText('25 ℃ → 35 ℃', sx(298.15) - 30, Tp + 10);
       ctx.fillStyle = T.figMuted; ctx.textAlign = 'right';
       var yr = sy(rel(t1, 53));
-      ctx.fillText('Eₐ = 53 kJ/mol', Rr - 2, Math.max(Tp + 26, yr - 6));
+      ctx.fillText('Eₐ = 53 kJ/mol', Rr - 2, Math.min(B - 6, Math.max(Tp + 26, yr + 16)));
     }
     function niceStep(range, n) { var raw = range / n, e = Math.pow(10, Math.floor(Math.log10(raw))), f = raw / e; return (f < 1.5 ? 1 : f < 3 ? 2 : f < 7 ? 5 : 10) * e; }
     function fmtN(v) { return v >= 10 ? String(Math.round(v)) : v >= 1 ? String(Math.round(v * 100) / 100) : v.toFixed(1); }

@@ -52,8 +52,8 @@ Sims.register('u-rate-laws', {
       var ax = Math.abs(x);
       if (ax >= 100) return x.toFixed(0);
       if (ax >= 10) return x.toFixed(1);
-      if (ax >= 1) return x.toFixed(2);
-      if (ax >= 0.01) return x.toFixed(3);
+      if (ax >= 1) return x.toPrecision(3);
+      if (ax >= 0.01) return x.toPrecision(3);
       var e = Math.floor(Math.log10(ax)), m = x / Math.pow(10, e);
       return m.toFixed(2) + '×10' + sup(e);
     }

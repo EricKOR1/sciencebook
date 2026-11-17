@@ -16,7 +16,7 @@ Sims.register('u-parcel-lapse', {
       format: function (v) { return v.toFixed(1) + ' °C'; }, onInput: function (v) { st.T0 = v; if (st.Td0 > v) sD.set(v); else update(); } });
     var sD = api.slider({ id: 'u-parcel-lapse-td', label: '지표 이슬점', min: -10, max: 35, step: 0.5, value: st.Td0,
       format: function (v) { return v.toFixed(1) + ' °C'; }, onInput: function (v) { if (v > st.T0) { sD.set(st.T0); return; } st.Td0 = v; update(); } });
-    var sG = api.slider({ id: 'u-parcel-lapse-g', label: '하층(0~3 km) 기온 감률 Γ', min: -4, max: 12, step: 0.1, value: st.gam,
+    var sG = api.slider({ id: 'u-parcel-lapse-g', label: '하층 기온 감률 Γ', min: -4, max: 12, step: 0.1, value: st.gam,
       format: function (v) { return v.toFixed(1) + ' K/km'; }, onInput: function (v) { st.gam = v; update(); } });
     var g = api.group();
     api.button('여름 오후', function () { preset(30, 22, 7.5); }, { parent: g });
@@ -99,9 +99,9 @@ Sims.register('u-parcel-lapse', {
       ctx.setLineDash([2, 4]); ctx.strokeStyle = T.figMuted; ctx.lineWidth = 1.2;
       ctx.beginPath(); ctx.moveTo(sx(st.T0), sy(0)); ctx.lineTo(sx(st.T0 - GD * ZTOP), sy(ZTOP)); ctx.stroke(); ctx.setLineDash([]);
       // 하층 경계
-      ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right';
-      ctx.fillText('↑ 3 km 위 주변 감률 6.5 K/km', R - 4, sy(ZL) - 4);
-      ctx.strokeStyle = T.figLine; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(R - 40, sy(ZL)); ctx.lineTo(R, sy(ZL)); ctx.stroke();
+      ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
+      ctx.fillText('↑ 3 km 위 주변 감률 6.5 K/km', L + 4, sy(ZL) - 4);
+      ctx.strokeStyle = T.figLine; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(L, sy(ZL)); ctx.lineTo(L + 40, sy(ZL)); ctx.stroke();
       // LCL
       if (res.zl <= ZTOP) {
         ctx.strokeStyle = T.figTeal; ctx.lineWidth = 1.2; ctx.setLineDash([6, 4]);

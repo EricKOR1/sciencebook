@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 392" role="img" aria-labelledby="t-uearth-2-airy-pratt d-uearth-2-airy-pratt">
+  <title id="t-uearth-2-airy-pratt">그림 일반지구과학 2-3 에어리 모형과 프랫 모형</title>
+  <desc id="d-uearth-2-airy-pratt">에어리 모형에서는 밀도가 같은 지각이 두께만 달라, 높은 곳일수록 높이의 약 5.6배 깊이의 뿌리가 맨틀 속으로 내려간다. 프랫 모형에서는 지각의 바닥이 보상 깊이로 같고, 높은 기둥일수록 밀도가 작다. 두 경우 모두 보상 깊이에서 기둥들의 압력이 같다.</desc>
+  <defs><marker id="uearth-2-airy-pratt-ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-ink)"/></marker></defs>
+  <style>
+    .uearth-2-airy-pratt-c{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5}
+    .uearth-2-airy-pratt-m{fill:var(--fig-soft-green);stroke:none}
+    .uearth-2-airy-pratt-h{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .uearth-2-airy-pratt-l{font-size:14px;fill:var(--fig-ink)}
+    .uearth-2-airy-pratt-s{font-size:13px;fill:var(--fig-muted)}
+    .uearth-2-airy-pratt-d{stroke:var(--fig-red);stroke-width:1.5;stroke-dasharray:6 4}
+    .uearth-2-airy-pratt-a{stroke:var(--fig-ink);stroke-width:1.4}
+  </style>
+<text x="180" y="28" text-anchor="middle" class="uearth-2-airy-pratt-h">에어리 모형</text>
+<text x="180" y="48" text-anchor="middle" class="uearth-2-airy-pratt-s">밀도는 같고 두께가 다르다</text>
+<rect x="20" y="164.0" width="320" height="155.2" class="uearth-2-airy-pratt-m"/>
+<rect x="20" y="100.0" width="106" height="112.0" class="uearth-2-airy-pratt-c"/>
+<text x="73" y="161.0" text-anchor="middle" class="uearth-2-airy-pratt-l">2800</text>
+<rect x="127" y="84.0" width="106" height="217.6" class="uearth-2-airy-pratt-c"/>
+<text x="180" y="153.0" text-anchor="middle" class="uearth-2-airy-pratt-l">2800</text>
+<rect x="234" y="92.0" width="106" height="164.8" class="uearth-2-airy-pratt-c"/>
+<text x="287" y="157.0" text-anchor="middle" class="uearth-2-airy-pratt-l">2800</text>
+<text x="73" y="266.4" text-anchor="middle" class="uearth-2-airy-pratt-l">맨틀 3300</text>
+<text x="73" y="284.0" text-anchor="middle" class="uearth-2-airy-pratt-s">(kg/m³)</text>
+<line x1="20" y1="212.0" x2="340" y2="212.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 3"/>
+<line x1="20" y1="311.2" x2="340" y2="311.2" class="uearth-2-airy-pratt-d"/>
+<text x="338" y="328.2" text-anchor="end" class="uearth-2-airy-pratt-s" style="fill:var(--fig-red)">보상 깊이</text>
+<line x1="180" y1="100.0" x2="180" y2="84.0" class="uearth-2-airy-pratt-a" marker-start="url(#uearth-2-airy-pratt-ar)" marker-end="url(#uearth-2-airy-pratt-ar)"/>
+<text x="186" y="96.2" class="uearth-2-airy-pratt-l">h</text>
+<line x1="170" y1="214.0" x2="170" y2="299.6" class="uearth-2-airy-pratt-a" marker-start="url(#uearth-2-airy-pratt-ar)" marker-end="url(#uearth-2-airy-pratt-ar)"/>
+<text x="178" y="261.8" class="uearth-2-airy-pratt-l">뿌리 r</text>
+<text x="178" y="279.8" class="uearth-2-airy-pratt-s">≈ 5.6 h</text>
+<line x1="20" y1="100.0" x2="340" y2="100.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+<text x="24" y="206.0" class="uearth-2-airy-pratt-s">기준 지각 35 km</text>
+<text x="540" y="28" text-anchor="middle" class="uearth-2-airy-pratt-h">프랫 모형</text>
+<text x="540" y="48" text-anchor="middle" class="uearth-2-airy-pratt-s">바닥 깊이는 같고 밀도가 다르다</text>
+<rect x="380" y="228.0" width="320" height="91.2" class="uearth-2-airy-pratt-m"/>
+<rect x="380" y="100.0" width="106" height="128.0" style="fill:var(--fig-soft-amber);stroke:none"/>
+<rect x="380" y="100.0" width="106" height="128.0" style="fill:var(--fig-amber);opacity:0.55;stroke:none"/>
+<rect x="380" y="100.0" width="106" height="128.0" style="fill:none;stroke:var(--fig-amber);stroke-width:1.5"/>
+<text x="433" y="169.0" text-anchor="middle" class="uearth-2-airy-pratt-l" style="font-weight:600">2800</text>
+<rect x="487" y="84.0" width="106" height="144.0" style="fill:var(--fig-soft-amber);stroke:none"/>
+<rect x="487" y="84.0" width="106" height="144.0" style="fill:var(--fig-amber);opacity:0.25;stroke:none"/>
+<rect x="487" y="84.0" width="106" height="144.0" style="fill:none;stroke:var(--fig-amber);stroke-width:1.5"/>
+<text x="540" y="169.0" text-anchor="middle" class="uearth-2-airy-pratt-l" style="font-weight:600">2490</text>
+<rect x="594" y="92.0" width="106" height="136.0" style="fill:var(--fig-soft-amber);stroke:none"/>
+<rect x="594" y="92.0" width="106" height="136.0" style="fill:var(--fig-amber);opacity:0.40;stroke:none"/>
+<rect x="594" y="92.0" width="106" height="136.0" style="fill:none;stroke:var(--fig-amber);stroke-width:1.5"/>
+<text x="647" y="169.0" text-anchor="middle" class="uearth-2-airy-pratt-l" style="font-weight:600">2640</text>
+<line x1="380" y1="100.0" x2="700" y2="100.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+<line x1="380" y1="228.0" x2="700" y2="228.0" class="uearth-2-airy-pratt-d"/>
+<text x="698" y="245.0" text-anchor="end" class="uearth-2-airy-pratt-s" style="fill:var(--fig-red)">보상 깊이 = 지각 바닥</text>
+<text x="540" y="279.2" text-anchor="middle" class="uearth-2-airy-pratt-l">맨틀 3300</text>
+<text x="540" y="70.4" text-anchor="middle" class="uearth-2-airy-pratt-s">밀도가 작은 기둥일수록 높다 (kg/m³)</text>
+<text x="180" y="70.4" text-anchor="middle" class="uearth-2-airy-pratt-s">높은 산 아래 두꺼운 뿌리</text>
+<text x="180" y="352" text-anchor="middle" class="uearth-2-airy-pratt-l">ρc(h + T + r) = ρcT + ρm r → r = ρc h/(ρm − ρc)</text>
+<text x="540" y="352" text-anchor="middle" class="uearth-2-airy-pratt-l">ρ(D + h) = ρ₀D (ρ₀ = 2800, D = 40 km)</text>
+<text x="360" y="380" text-anchor="middle" class="uearth-2-airy-pratt-s">높이(h = 0, 5, 2.5 km)와 깊이를 같은 축척으로 그렸다. 대륙과 산맥은 에어리, 해령은 프랫에 가깝다.</text>
+</svg>

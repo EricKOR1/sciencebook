@@ -142,7 +142,7 @@ Sims.register('u-seasons', {
         ctx.fillStyle = T.figRed; ctx.textAlign = 'left'; ctx.fillText(Math.round(hh / 24 * maxQ), R + 6, syL(hh) + 4);
       });
       ctx.fillStyle = T.figMuted; ctx.textAlign = 'center';
-      var narrow = r.w < 370;
+      var narrow = r.w < 470;
       MONTH0.forEach(function (d, i) { if (!narrow || i % 2 === 0) ctx.fillText((i + 1) + '월', sx(d + 15), B + 15); });
       ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'left';
       ctx.fillStyle = T.figBlue; ctx.fillText(narrow ? '— 낮 길이(시간)' : '— 낮의 길이 (시간)', L - 30, Tp - 14);

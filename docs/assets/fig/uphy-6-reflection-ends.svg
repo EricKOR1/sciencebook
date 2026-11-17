@@ -17,8 +17,8 @@
   <path d="M490 162 L498 158.4 L498 165.6 Z" style="fill:var(--fig-red);stroke:none"/>
   <text x="520" y="82" text-anchor="middle" class="u6re-s" style="fill:var(--fig-red)">돌아가는 펄스</text>
   <rect x="650" y="40" width="14" height="120" rx="0" style="fill:var(--fig-soft-red);stroke:var(--fig-ink);stroke-width:1.5"/>
-  <text x="690" y="30" text-anchor="end" class="u6re-s">끝점 y = 0</text>
-  <text x="690" y="192" text-anchor="end" class="u6re-t" style="fill:var(--fig-red)">뒤집혀 돌아온다(위상 π 변화)</text>
+  <text x="690" y="18" text-anchor="end" class="u6re-s">끝점 y = 0</text>
+  <text x="640" y="192" text-anchor="end" class="u6re-t" style="fill:var(--fig-red)">뒤집혀 돌아온다(위상 π 변화)</text>
   <text x="30" y="215" class="u6re-b">자유단</text>
   <path d="M50 285 L53 285 L56 285 L59 285 L62 285 L65 285 L68 285 L71 285 L74 285 L77 285 L80 285 L83 285 L86 285 L89 285 L92 285 L95 285 L98 285 L101 285 L104 285 L107 285 L110 285 L113 285 L116 285 L119 285 L122 285 L125 285 L128 285 L131 285 L134 284.9 L137 284.9 L140 284.8 L143 284.6 L146 284.4 L149 284 L152 283.5 L155 282.7 L158 281.6 L161 280.2 L164 278.2 L167 275.8 L170 272.9 L173 269.4 L176 265.4 L179 261 L182 256.5 L185 252 L188 247.8 L191 244.2 L194 241.4 L197 239.6 L200 239 L203 239.6 L206 241.4 L209 244.2 L212 247.8 L215 252 L218 256.5 L221 261 L224 265.4 L227 269.4 L230 272.9 L233 275.8 L236 278.2 L239 280.2 L242 281.6 L245 282.7 L248 283.5 L251 284 L254 284.4 L257 284.6 L260 284.8 L263 284.9 L266 284.9 L269 285 L272 285 L275 285 L278 285 L281 285 L284 285 L287 285 L290 285 L293 285 L296 285 L299 285 L302 285 L305 285 L308 285 L311 285 L314 285 L317 285 L320 285" style="fill:none;stroke:var(--fig-blue);stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round"/>
   <line x1="200" y1="223" x2="243" y2="223" style="stroke:var(--fig-blue);stroke-width:2;stroke-linecap:butt"/>
@@ -33,7 +33,7 @@
   <text x="520" y="309" text-anchor="middle" class="u6re-s" style="fill:var(--fig-red)">돌아가는 펄스</text>
   <rect x="656" y="225" width="6" height="120" rx="0" style="fill:var(--fig-line);stroke:var(--fig-ink);stroke-width:1"/>
   <circle cx="659" cy="285" r="7" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
-  <text x="690" y="215" text-anchor="end" class="u6re-s">끝점 ∂y/∂x = 0</text>
-  <text x="690" y="339" text-anchor="end" class="u6re-t" style="fill:var(--fig-red)">그대로 돌아온다(위상 변화 없음)</text>
+  <text x="690" y="203" text-anchor="end" class="u6re-s">끝점 ∂y/∂x = 0</text>
+  <text x="640" y="339" text-anchor="end" class="u6re-t" style="fill:var(--fig-red)">그대로 돌아온다(위상 변화 없음)</text>
   <text x="360" y="390" text-anchor="middle" class="u6re-s">자유단: 마찰 없이 막대를 따라 위아래로 움직이는 가벼운 고리에 줄 끝을 맨다(끝에 가로 힘이 작용하지 않는다)</text>
 </svg>

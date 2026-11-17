@@ -56,7 +56,7 @@ Sims.register('u-driven-oscillator', {
       var Am = amax(st.Q), A = amp(st.r, st.Q), d = lag(st.r, st.Q);
       var spring, chart, ampB, phB;
       if (narrow) {
-        spring = { x: 0, y: 0, w: W, h: H * 0.16 }; chart = { x: 0, y: H * 0.17, w: W, h: H * 0.29 };
+        spring = { x: 0, y: 0, w: W, h: H * 0.17 }; chart = { x: 0, y: H * 0.19, w: W, h: H * 0.27 };
         ampB = { x: 0, y: H * 0.47, w: W, h: H * 0.27 }; phB = { x: 0, y: H * 0.75, w: W, h: H * 0.25 };
       } else {
         spring = { x: 0, y: 0, w: W * 0.3, h: H * 0.44 }; chart = { x: W * 0.32, y: 0, w: W * 0.68, h: H * 0.44 };
@@ -103,8 +103,9 @@ Sims.register('u-driven-oscillator', {
       }
       ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'left';
       ctx.fillStyle = T.figBlue; ctx.fillText('변위 x / (F₀/k)', L + 4, chart.y + 14);
-      ctx.fillStyle = T.figGreen; ctx.fillText('외력 F (모양만)', L + 120, chart.y + 14);
-      ctx.fillStyle = T.figMuted; ctx.textAlign = 'right'; ctx.fillText('점선: 정상 상태 진폭 ±A', R, chart.y + 14);
+      ctx.fillStyle = T.figGreen; ctx.fillText('외력 F (모양만)', L + (narrow ? 110 : 120), chart.y + 14);
+      ctx.fillStyle = T.figMuted; if (narrow) { ctx.textAlign = 'left'; ctx.fillText('점선: 정상 상태 진폭 ±A', L, B + 14); } else { ctx.textAlign = 'right'; ctx.fillText('점선: 정상 상태 진폭 ±A', R, chart.y + 14); }
+      ctx.textAlign = 'right';
       ctx.fillText('최근 6초', R, B + 14);
       // 3) 공명 곡선
       plotPanel(ampB, '정상 상태 진폭 A / (F₀/k)', 0, Am * 1.12, function (r) { return amp(r, st.Q); }, A, T.figBlue,

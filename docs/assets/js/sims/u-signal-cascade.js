@@ -15,9 +15,9 @@ Sims.register('u-signal-cascade', {
     var rRise = api.readout('최댓값의 절반까지');
     var rFall = api.readout('자극 뒤 1/10로 줄기까지');
 
-    api.slider({ id: 'u-signal-cascade-n', label: '단계 수', min: 1, max: 6, step: 1, value: s.n,
+    api.slider({ id: 'u-signal-cascade-n', label: '단계 수 n', min: 1, max: 6, step: 1, value: s.n,
       format: function (v) { return v + '단계'; }, onInput: function (v) { s.n = v; update(); } });
-    api.slider({ id: 'u-signal-cascade-a', label: '단계별 증폭 배수', min: 0, max: 2, step: 0.01, value: 1,
+    api.slider({ id: 'u-signal-cascade-a', label: '단계별 증폭 배수 a', min: 0, max: 2, step: 0.01, value: 1,
       format: function (v) { return '×' + fmtSmall(Math.pow(10, v)); }, onInput: function (v) { s.a = Math.pow(10, v); update(); } });
     api.slider({ id: 'u-signal-cascade-th', label: '활성 분자의 반감기(종료 속도)', min: Math.log10(0.2), max: Math.log10(20), step: 0.01, value: Math.log10(2),
       format: function (v) { return fmtSmall(Math.pow(10, v)) + ' s'; }, onInput: function (v) { s.th = Math.pow(10, v); update(); } });
@@ -74,8 +74,8 @@ Sims.register('u-signal-cascade', {
       ctx.clearRect(0, 0, w, h);
       var COL = colors(T);
       // ── 위: 연쇄 사슬
-      var chainH = narrow ? 112 : 70, nBox = s.n + 1;
-      var perRow = narrow ? Math.min(nBox, 4) : nBox, rows = Math.ceil(nBox / perRow);
+      var nBox = s.n + 1;
+      var perRow = narrow ? Math.min(nBox, 3) : nBox, rows = Math.ceil(nBox / perRow), chainH = rows * 56;
       var bw = Math.min(118, (w - 16 - (perRow - 1) * 20) / perRow), bh = 42;
       for (var i = 0; i < nBox; i++) {
         var r = Math.floor(i / perRow), c = i % perRow;

@@ -152,7 +152,7 @@ Sims.register('u-orbit-launch', {
       ctx.beginPath();
       for (var r = RP; r <= rmax; r += 0.02) { var yy = ey(Math.max(-1 / r, ymin)); if (r === RP) ctx.moveTo(ex(r), yy); else ctx.lineTo(ex(r), yy); }
       ctx.strokeStyle = T.figTeal; ctx.lineWidth = 2.2; ctx.stroke();
-      ctx.fillStyle = T.figTeal; ctx.textAlign = 'left'; ctx.fillText('U = −GMm/r', ex(2.6), ey(-1 / 2.6) + 16);
+      ctx.fillStyle = T.figTeal; ctx.textAlign = 'left'; ctx.fillText('U = −GMm/r', ex(0.8) + 6, ey(-1.6) + 4);
       // E 선과 K
       var E = st.path.E;
       ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.setLineDash([6, 4]);

@@ -17,7 +17,7 @@ Sims.register('u-blackbody', {
       return api.button(s.n, function () { sl.set(Math.log10(s.T)); }, { toggle: true, pressed: s.T === st.T, parent: g });
     });
     var sl = api.slider({ id: 'u-blackbody-t', label: '표면 온도', min: Math.log10(2000), max: Math.log10(30000), step: 0.001, value: Math.log10(st.T),
-      format: function (v) { return Math.round(Math.pow(10, v) / 10) * 10 + ' K'; },
+      format: function (v) { return Math.round(Math.pow(10, v)) + ' K'; },
       onInput: function (v) {
         st.T = Math.pow(10, v);
         stars.forEach(function (s, i) { if (Math.abs(s.T - st.T) < 0.002 * s.T) st.T = s.T; btns[i].setAttribute('aria-pressed', Math.abs(s.T - st.T) < 0.002 * s.T ? 'true' : 'false'); });
@@ -34,7 +34,7 @@ Sims.register('u-blackbody', {
       if (t <= 66) { r = 255; gg = 99.4708025861 * Math.log(t) - 161.1195681661; b = t <= 19 ? 0 : 138.5177312231 * Math.log(t - 10) - 305.0447927307; }
       else { r = 329.698727446 * Math.pow(t - 60, -0.1332047592); gg = 288.1221695283 * Math.pow(t - 60, -0.0755148492); b = 255; }
       var cl = function (v) { return Math.max(0, Math.min(255, Math.round(v))); };
-      return 'rgb(' + cl(r) + ',' + cl(gg) + ',' + cl(b) + ')';
+      return [cl(r), cl(gg), cl(b)];
     }
     // 가시광 띠 색(실제 색)
     function wlColor(l) {
@@ -66,14 +66,14 @@ Sims.register('u-blackbody', {
       for (var l = 380; l < 750; l += 2) { ctx.fillStyle = wlColor(l); ctx.globalAlpha = T.dark ? 0.35 : 0.28; ctx.fillRect(sx(l), Tp, sx(l + 2) - sx(l) + 0.5, Bt - Tp); }
       ctx.globalAlpha = 1;
       ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'center';
-      ctx.fillText('가시광선', sx(565), Tp + 14);
-      ctx.fillText('자외선', sx(190), Tp + 14); ctx.fillText('적외선 →', sx(1150), Tp + 14);
+      ctx.fillText('가시광선', sx(565), Tp - 4);
+      if (!narrow) ctx.fillText('← 자외선', sx(190), Tp - 4); ctx.fillText('적외선 →', sx(1150), Tp - 4);
       // 축
       ctx.strokeStyle = T.figLine; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(L, Tp); ctx.lineTo(L, Bt); ctx.lineTo(R, Bt); ctx.stroke();
       ctx.font = '11px ' + T.fontMono; ctx.fillStyle = T.figMuted;
       for (var t = 0; t <= LMAX; t += 500) { ctx.fillText(t, sx(t), Bt + 14); }
       ctx.font = '12px ' + T.fontBody; ctx.fillText('파장 (nm)', (L + R) / 2, Bt + 32);
-      ctx.save(); ctx.translate(18, (Tp + Bt) / 2); ctx.rotate(-Math.PI / 2); ctx.fillText('복사 세기 B_λ (상댓값)', 0, 0); ctx.restore();
+      ctx.save(); ctx.translate(18, (Tp + Bt) / 2); ctx.rotate(-Math.PI / 2); ctx.fillText('복사 세기 Bλ (상댓값)', 0, 0); ctx.restore();
       // 태양 곡선(기준)
       curve(TSUN, T.figLine, null, 1.5, [5, 4]);
       // 현재 곡선 + 넓이
@@ -89,11 +89,12 @@ Sims.register('u-blackbody', {
       ctx.fillStyle = T.figRed; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = px > (L + R) * 0.6 ? 'right' : 'left';
       ctx.fillText('λmax = ' + Math.round(pk) + ' nm', px + (px > (L + R) * 0.6 ? -6 : 6), Math.max(Tp + 30, py + 2) + (py < Tp + 40 ? 14 : -6));
       ctx.fillStyle = T.figAccent; ctx.textAlign = 'left'; ctx.font = '600 13px ' + T.fontBody;
-      ctx.fillText(Math.round(st.T / 10) * 10 + ' K 흑체 — 색칠한 넓이 ∝ σT⁴', L + 8, narrow ? 24 : Tp - 14 < 14 ? 14 : 22);
+      ctx.fillText(Math.round(st.T) + ' K 흑체' + (narrow ? '' : ' — 색칠한 넓이 ∝ σT⁴'), narrow ? 12 : L + 8, 22);
+      if (narrow) { ctx.font = '12px ' + T.fontBody; ctx.fillText('색칠한 넓이 ∝ σT⁴', 12, 42); }
       // 별 원반 색
       var grd = ctx.createRadialGradient(disc.x, disc.y, disc.r * 0.2, disc.x, disc.y, disc.r * 1.5);
-      var col = bbColor(st.T);
-      grd.addColorStop(0, col); grd.addColorStop(0.65, col); grd.addColorStop(1, 'rgba(0,0,0,0)');
+      var c3 = bbColor(st.T), col = 'rgb(' + c3.join(',') + ')';
+      grd.addColorStop(0, col); grd.addColorStop(0.65, col); grd.addColorStop(1, 'rgba(' + c3.join(',') + ',0)');
       ctx.fillStyle = grd; ctx.beginPath(); ctx.arc(disc.x, disc.y, disc.r * 1.5, 0, Math.PI * 2); ctx.fill();
       ctx.beginPath(); ctx.arc(disc.x, disc.y, disc.r, 0, Math.PI * 2); ctx.fillStyle = col; ctx.fill();
       ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'center';

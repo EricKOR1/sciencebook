@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-uphy-3-collision-2d d-uphy-3-collision-2d">
+  <title id="t-uphy-3-collision-2d">그림 일반물리학 3-3 2차원 충돌의 운동량 벡터 삼각형</title>
+  <desc id="d-uphy-3-collision-2d">왼쪽: 교차로의 완전 비탄성 충돌(예제 13)에서 두 차의 운동량을 더한 벡터가 충돌 후 한 덩어리의 운동량이다. 오른쪽: 질량이 같은 당구공의 비스듬한 탄성 충돌(예제 14)에서는 충돌 전 운동량이 충돌 후 두 운동량의 합과 같고, 두 공이 직각으로 갈라진다.</desc>
+  <style>.uphy-3-collision-2d-t{font-size:14px;fill:var(--fig-ink)} .uphy-3-collision-2d-s{font-size:13px;fill:var(--fig-muted)} .uphy-3-collision-2d-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .uphy-3-collision-2d-f-ink{fill:var(--fig-ink)} .uphy-3-collision-2d-st-ink{stroke:var(--fig-ink);fill:none} .uphy-3-collision-2d-f-muted{fill:var(--fig-muted)} .uphy-3-collision-2d-st-muted{stroke:var(--fig-muted);fill:none} .uphy-3-collision-2d-f-line{fill:var(--fig-line)} .uphy-3-collision-2d-st-line{stroke:var(--fig-line);fill:none} .uphy-3-collision-2d-f-accent{fill:var(--fig-accent)} .uphy-3-collision-2d-st-accent{stroke:var(--fig-accent);fill:none} .uphy-3-collision-2d-f-blue{fill:var(--fig-blue)} .uphy-3-collision-2d-st-blue{stroke:var(--fig-blue);fill:none} .uphy-3-collision-2d-f-red{fill:var(--fig-red)} .uphy-3-collision-2d-st-red{stroke:var(--fig-red);fill:none} .uphy-3-collision-2d-f-green{fill:var(--fig-green)} .uphy-3-collision-2d-st-green{stroke:var(--fig-green);fill:none} .uphy-3-collision-2d-f-amber{fill:var(--fig-amber)} .uphy-3-collision-2d-st-amber{stroke:var(--fig-amber);fill:none} .uphy-3-collision-2d-f-violet{fill:var(--fig-violet)} .uphy-3-collision-2d-st-violet{stroke:var(--fig-violet);fill:none} .uphy-3-collision-2d-f-teal{fill:var(--fig-teal)} .uphy-3-collision-2d-st-teal{stroke:var(--fig-teal);fill:none}</style>
+  <rect x="10.0" y="10.0" width="340.0" height="340.0" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="370.0" y="10.0" width="340.0" height="340.0" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="30.0" y="40.0" class="uphy-3-collision-2d-b">(가) 완전 비탄성 충돌 (예제 13)</text>
+  <text x="390.0" y="40.0" class="uphy-3-collision-2d-b">(나) 같은 질량의 탄성 충돌 (예제 14)</text>
+  <line x1="184.0" y1="270.0" x2="184.0" y2="258.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
+  <line x1="184.0" y1="258.0" x2="196.0" y2="258.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
+  <line x1="70.0" y1="270.0" x2="186.0" y2="270.0" style="stroke:var(--fig-blue);stroke-width:3;stroke-linecap:butt"/>
+  <polygon points="196.0,270.0 185.0,274.9 185.0,265.1" style="fill:var(--fig-blue);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <line x1="196.0" y1="270.0" x2="196.0" y2="154.0" style="stroke:var(--fig-red);stroke-width:3;stroke-linecap:butt"/>
+  <polygon points="196.0,144.0 200.9,155.0 191.1,155.0" style="fill:var(--fig-red);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <line x1="70.0" y1="270.0" x2="188.9" y2="151.1" style="stroke:var(--fig-violet);stroke-width:3.4;stroke-linecap:butt"/>
+  <polygon points="196.0,144.0 191.7,155.3 184.7,148.3" style="fill:var(--fig-violet);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <path d="M110.0 270.0 A40 40 0 0 0 98.3 241.7" style="fill:none;stroke:var(--fig-muted);stroke-width:1.5;stroke-linejoin:round;stroke-linecap:round"/>
+  <text x="116.0" y="258.0" class="uphy-3-collision-2d-s">45.0°</text>
+  <text x="133.0" y="292.0" text-anchor="middle" class="uphy-3-collision-2d-s" style="fill:var(--fig-blue)">p_A = 1500 × 20.0</text>
+  <text x="133.0" y="308.0" text-anchor="middle" class="uphy-3-collision-2d-s" style="fill:var(--fig-blue)">= 3.00 × 10⁴ (동쪽)</text>
+  <text x="206.0" y="201.0" class="uphy-3-collision-2d-s" style="fill:var(--fig-red)">p_B = 2000 × 15.0</text>
+  <text x="206.0" y="217.0" class="uphy-3-collision-2d-s" style="fill:var(--fig-red)">= 3.00 × 10⁴ (북쪽)</text>
+  <text x="30.0" y="150.0" class="uphy-3-collision-2d-t" style="fill:var(--fig-violet);font-weight:600">P = p_A + p_B</text>
+  <text x="30.0" y="168.0" class="uphy-3-collision-2d-s" style="fill:var(--fig-violet)">= 4.24 × 10⁴</text>
+  <text x="30.0" y="330.0" class="uphy-3-collision-2d-s">충돌 후 V = P / 3500 kg = 12.1 m/s (북동 45.0°)</text>
+  <text x="30.0" y="68.0" class="uphy-3-collision-2d-s">단위: kg·m/s</text>
+  <line x1="392.0" y1="150.4" x2="468.0" y2="150.4" style="stroke:var(--fig-muted);stroke-width:1.5;stroke-linecap:round;stroke-dasharray:5 4"/>
+  <line x1="400.0" y1="132.4" x2="438.0" y2="132.4" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:butt"/>
+  <polygon points="445.0,132.4 437.0,136.0 437.0,128.8" style="fill:var(--fig-ink);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <text x="400.0" y="124.4" class="uphy-3-collision-2d-s">2.00 m/s</text>
+  <line x1="477.0" y1="150.4" x2="546.3" y2="110.4" style="stroke:var(--fig-blue);stroke-width:2.6;stroke-linecap:butt"/>
+  <polygon points="555.0,105.4 547.9,115.2 543.0,106.6" style="fill:var(--fig-blue);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <line x1="486.0" y1="166.0" x2="507.0" y2="202.4" style="stroke:var(--fig-red);stroke-width:2.6;stroke-linecap:butt"/>
+  <polygon points="512.0,211.0 502.2,204.0 510.8,199.0" style="fill:var(--fig-red);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <circle cx="477.0" cy="150.4" r="9.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.8"/>
+  <circle cx="486.0" cy="166.0" r="9.0" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8"/>
+  <line x1="477.0" y1="150.4" x2="537.0" y2="150.4" style="stroke:var(--fig-line);stroke-width:1;stroke-linecap:round;stroke-dasharray:3 3"/>
+  <text x="559.0" y="99.4" class="uphy-3-collision-2d-s" style="fill:var(--fig-blue)">수구 1.73 m/s</text>
+  <text x="518.0" y="225.0" class="uphy-3-collision-2d-s" style="fill:var(--fig-red)">맞은 공 1.00 m/s</text>
+  <text x="521.0" y="142.4" class="uphy-3-collision-2d-s">30°</text>
+  <text x="508.0" y="174.0" class="uphy-3-collision-2d-s">60°</text>
+  <text x="390.0" y="296.0" class="uphy-3-collision-2d-s">위에서 본 모습 (모식도)</text>
+  <path d="M650.3 229.8 L655.3 238.5 L664.0 233.5" style="fill:none;stroke:var(--fig-muted);stroke-width:1.2;stroke-linejoin:round;stroke-linecap:round"/>
+  <line x1="560.0" y1="282.0" x2="650.3" y2="229.8" style="stroke:var(--fig-blue);stroke-width:3;stroke-linecap:butt"/>
+  <polygon points="659.0,224.8 651.9,234.6 647.0,226.1" style="fill:var(--fig-blue);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <line x1="659.0" y1="224.8" x2="687.0" y2="273.3" style="stroke:var(--fig-red);stroke-width:3;stroke-linecap:butt"/>
+  <polygon points="692.0,282.0 682.2,275.0 690.8,270.0" style="fill:var(--fig-red);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <line x1="560.0" y1="282.0" x2="682.0" y2="282.0" style="stroke:var(--fig-ink);stroke-width:3.2;stroke-linecap:butt"/>
+  <polygon points="692.0,282.0 681.0,287.0 681.0,277.1" style="fill:var(--fig-ink);stroke:none;stroke-width:1;stroke-linejoin:round"/>
+  <text x="626.0" y="302.0" text-anchor="middle" class="uphy-3-collision-2d-s">p₁ᵢ = m × 2.00</text>
+  <text x="601.5" y="245.4" text-anchor="end" class="uphy-3-collision-2d-s" style="fill:var(--fig-blue)">p₁f</text>
+  <text x="683.5" y="249.4" class="uphy-3-collision-2d-s" style="fill:var(--fig-red)">p₂f</text>
+  <text x="655.0" y="212.8" text-anchor="middle" class="uphy-3-collision-2d-s">90°</text>
+  <text x="390.0" y="330.0" class="uphy-3-collision-2d-s">직각 삼각형: 2.00² = 1.73² + 1.00² (운동 에너지 보존)</text>
+</svg>

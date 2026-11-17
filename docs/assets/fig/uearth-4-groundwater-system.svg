@@ -19,35 +19,35 @@
 <path d="M326 171 Q340 178 354 171 Z" style="fill:var(--fig-blue)"/>
 <!-- 피압 수두면 -->
 <line x1="130" y1="98.0" x2="700" y2="164.0" style="stroke:var(--fig-red);stroke-width:1.8;stroke-dasharray:7 5"/>
-<text x="172" y="93.9" class="uearth-4-groundwater-system-s" style="fill:var(--fig-red)">피압 대수층의 수두면</text>
+<text x="150" y="91.3" class="uearth-4-groundwater-system-s" style="fill:var(--fig-red)">피압 대수층의 수두면</text>
 <!-- 양수 우물(자유면) -->
 <rect x="397" y="136.0" width="6" height="84.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.5"/>
 <line x1="400" y1="136.0" x2="400" y2="122.0" style="stroke:var(--fig-ink);stroke-width:1.5"/>
 <path d="M400 118.0 l-5 8 l10 0 z" style="fill:var(--fig-ink)"/>
 <text x="400" y="112.0" text-anchor="middle" class="uearth-4-groundwater-system-t">양수 우물</text>
-<text x="436" y="222.0" class="uearth-4-groundwater-system-s">하강 원뿔</text>
-<line x1="434" y1="217.0" x2="416" y2="188.5" style="stroke:var(--fig-muted);stroke-width:1"/>
+<text x="390" y="228.0" text-anchor="end" class="uearth-4-groundwater-system-s">하강 원뿔</text>
+<line x1="380" y1="216.0" x2="384" y2="203.4" style="stroke:var(--fig-muted);stroke-width:1"/>
 <!-- 피압 우물 (x=480) -->
 <rect x="477" y="116.0" width="6" height="174.2" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.5"/>
 <rect x="478" y="138.5" width="4" height="151.6" style="fill:var(--fig-blue)"/>
-<text x="472" y="74" text-anchor="end" class="uearth-4-groundwater-system-t">피압 우물</text>
-<text x="472" y="91" text-anchor="end" class="uearth-4-groundwater-system-s">수위가 대수층 위로 오르지만 지표 아래</text>
-<line x1="474" y1="88" x2="479" y2="114.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+<text x="472" y="58" text-anchor="end" class="uearth-4-groundwater-system-t">피압 우물</text>
+<text x="472" y="75" text-anchor="end" class="uearth-4-groundwater-system-s">수위가 대수층 위로 오르지만 지표 아래</text>
+<line x1="474" y1="72" x2="479" y2="114.0" style="stroke:var(--fig-muted);stroke-width:1"/>
 <!-- 자분정 (x=650) -->
 <rect x="647" y="167.0" width="6" height="131.8" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:1.5"/>
 <path d="M650 165.0 q-8 -14 -18 -6 M650 165.0 q8 -14 18 -6 M650 165.0 l0 -16" style="fill:none;stroke:var(--fig-blue);stroke-width:2"/>
 <text x="650" y="141.0" text-anchor="middle" class="uearth-4-groundwater-system-b">자분정</text>
 <!-- 함양 -->
 <path d="M104 72 l0 18 M116 76 l0 18 M128 80 l0 18" style="stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:3 3"/>
-<text x="40" y="56" class="uearth-4-groundwater-system-t">함양 지역: 피압 대수층이 지표에 드러난 곳</text>
+<text x="20" y="36" class="uearth-4-groundwater-system-t">함양 지역: 피압 대수층이 지표에 드러난 곳</text>
 <!-- 구역 라벨 -->
-<text x="560" y="172.7" class="uearth-4-groundwater-system-s">비포화대</text>
-<text x="560" y="200.7" class="uearth-4-groundwater-system-s">포화대</text>
+<text x="575" y="187" class="uearth-4-groundwater-system-s">비포화대</text>
+<text x="575" y="212.6" class="uearth-4-groundwater-system-s">포화대</text>
 <text x="226" y="160.4" class="uearth-4-groundwater-system-t" style="fill:var(--fig-blue)">지하수면</text>
 <text x="540" y="270.5" class="uearth-4-groundwater-system-s">점토층(난대수층)</text>
 <text x="300" y="258.7" class="uearth-4-groundwater-system-t" style="fill:var(--fig-teal)">피압 대수층(사암)</text>
 <text x="420" y="335.2" class="uearth-4-groundwater-system-s">투수성이 매우 작은 기반암</text>
-<text x="500" y="199.2" class="uearth-4-groundwater-system-s">자유면 대수층(모래·자갈)</text>
+<text x="500" y="241.8" class="uearth-4-groundwater-system-s">자유면 대수층</text>
 <text x="340" y="160" text-anchor="middle" class="uearth-4-groundwater-system-s">하천</text>
 <!-- 흐름 화살표 -->
 <path d="M236 180.4 Q 285 202.3 318 203.3" style="fill:none;stroke:var(--fig-blue);stroke-width:1.6"/>

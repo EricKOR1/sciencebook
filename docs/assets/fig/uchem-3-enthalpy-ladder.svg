@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-uchem-3-enthalpy-ladder d-uchem-3-enthalpy-ladder">
+  <title id="t-uchem-3-enthalpy-ladder">그림 일반화학 3-3 표준 생성 엔탈피로 가는 우회 경로</title>
+  <desc id="d-uchem-3-enthalpy-ladder">메테인의 연소를 '반응물 → 성분 원소 → 생성물'의 가상 경로로 나누었다. 가장 안정한 원소의 엔탈피를 0으로 약속하면 두 단계의 합(+74.8 kJ와 −965.1 kJ)이 직접 경로의 ΔH° = −890.3 kJ과 같다. 세로 방향은 엔탈피 값에 비례하게 그렸다(25 °C).</desc>
+  <style>
+    .uchem-3-el-bar{stroke:var(--fig-ink);stroke-width:3.5;stroke-linecap:round}
+    .uchem-3-el-t{font-size:14px;fill:var(--fig-ink)}
+    .uchem-3-el-s{font-size:13px;fill:var(--fig-muted)}
+    .uchem-3-el-b{font-size:15px;font-weight:600}
+    .uchem-3-el-up{stroke:var(--fig-red);stroke-width:2.5;fill:none}
+    .uchem-3-el-dn{stroke:var(--fig-blue);stroke-width:2.5;fill:none}
+    .uchem-3-el-dir{stroke:var(--fig-accent);stroke-width:3.5;fill:none}
+  </style>
+  <!-- 세로축 -->
+  <line x1="50" y1="350" x2="50" y2="40" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+  <path d="M50 32 l-6 12 h12 z" style="fill:var(--fig-ink)"/>
+  <text x="32" y="200" text-anchor="middle" class="uchem-3-el-t" transform="rotate(-90 32 200)">엔탈피 H</text>
+  <!-- 원소(기준 0) -->
+  <line x1="90" y1="84" x2="640" y2="84" class="uchem-3-el-bar"/>
+  <text x="365" y="70" text-anchor="middle" class="uchem-3-el-t">C(s, 흑연) + 2H₂(g) + 2O₂(g)   <tspan class="uchem-3-el-s">가장 안정한 원소: 0 kJ (기준)</tspan></text>
+  <!-- 반응물 -->
+  <line x1="90" y1="102" x2="330" y2="102" class="uchem-3-el-bar"/>
+  <text x="96" y="124" class="uchem-3-el-t">CH₄(g) + 2O₂(g)   <tspan class="uchem-3-el-s">−74.8 kJ</tspan></text>
+  <!-- 생성물 -->
+  <line x1="240" y1="320" x2="640" y2="320" class="uchem-3-el-bar"/>
+  <text x="250" y="342" class="uchem-3-el-t">CO₂(g) + 2H₂O(l)   <tspan class="uchem-3-el-s">−393.5 + 2(−285.8) = −965.1 kJ</tspan></text>
+  <!-- ① 반응물 → 원소 -->
+  <line x1="316" y1="100" x2="316" y2="90" class="uchem-3-el-up"/>
+  <path d="M316 86 l-5 8 h10 z" style="fill:var(--fig-red)"/>
+  <text x="340" y="100" class="uchem-3-el-t" style="fill:var(--fig-red)">① CH₄을 원소로: −ΔH<tspan style="font-size:11px" dy="4">f</tspan><tspan dy="-4">°(CH₄) = +74.8 kJ</tspan></text>
+  <!-- 직접 경로 -->
+  <line x1="290" y1="106" x2="290" y2="306" class="uchem-3-el-dir"/>
+  <path d="M290 316 l-8 -14 h16 z" style="fill:var(--fig-accent)"/>
+  <text x="278" y="206" text-anchor="end" class="uchem-3-el-b" style="fill:var(--fig-accent)">ΔH° = −890.3 kJ</text>
+  <text x="278" y="226" text-anchor="end" class="uchem-3-el-s">직접 경로(실제 연소)</text>
+  <!-- ② 원소 → 생성물 -->
+  <line x1="600" y1="88" x2="600" y2="306" class="uchem-3-el-dn"/>
+  <path d="M600 316 l-7 -13 h14 z" style="fill:var(--fig-blue)"/>
+  <text x="588" y="186" text-anchor="end" class="uchem-3-el-t" style="fill:var(--fig-blue)">② 원소에서 생성물로</text>
+  <text x="588" y="206" text-anchor="end" class="uchem-3-el-t" style="fill:var(--fig-blue)">ΔH<tspan style="font-size:11px" dy="4">f</tspan><tspan dy="-4">°(CO₂) + 2ΔH</tspan><tspan style="font-size:11px" dy="4">f</tspan><tspan dy="-4">°(H₂O, l)</tspan></text>
+  <text x="588" y="226" text-anchor="end" class="uchem-3-el-t" style="fill:var(--fig-blue)">= −965.1 kJ</text>
+  <!-- 결론 -->
+  <text x="360" y="382" text-anchor="middle" class="uchem-3-el-t">① + ② = (+74.8) + (−965.1) = −890.3 kJ  — 경로가 달라도 ΔH는 같다(헤스 법칙)</text>
+</svg>

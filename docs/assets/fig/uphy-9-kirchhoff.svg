@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-uphy-9-kirchhoff d-uphy-9-kirchhoff">
+  <title id="t-uphy-9-kirchhoff">그림 일반물리학 9-1 키르히호프 법칙 적용 — 전원이 두 개인 회로(예제 6)</title>
+  <desc id="d-uphy-9-kirchhoff">두 분기점 a, b 사이에 기전력 12 V와 2.0 Ω, 4.0 Ω, 기전력 6.0 V와 3.0 Ω인 세 가지가 병렬로 있다. 가지 전류의 방향을 가정하고(I1, I3은 위로, I2는 아래로), 두 고리를 시계 방향으로 돌며 부호 규칙에 따라 전위 변화를 더한다. 풀어서 음수가 나온 I3은 실제 방향이 가정과 반대이다.</desc>
+  <style>.uphy-9-kirchhoff-t{font-size:14px;fill:var(--fig-ink)} .uphy-9-kirchhoff-b{font-size:14px;fill:var(--fig-ink);font-weight:700} .uphy-9-kirchhoff-s{font-size:13px;fill:var(--fig-muted)} .uphy-9-kirchhoff-w{stroke:var(--fig-ink);stroke-width:2.2;fill:none;stroke-linejoin:round}</style>
+  <path d="M60 60 L360 60 M60 280 L360 280" class="uphy-9-kirchhoff-w"/>
+  <path d="M60 60 L60 110 M60 120 L60 170 M60 236 L60 280" class="uphy-9-kirchhoff-w"/>
+  <line x1="44" y1="110" x2="76" y2="110" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <line x1="52" y1="120" x2="68" y2="120" style="stroke:var(--fig-ink);stroke-width:5"/>
+  <text x="82" y="108" text-anchor="start" class="uphy-9-kirchhoff-b" style="fill:var(--fig-red)">+</text>
+  <text x="82" y="128" text-anchor="start" class="uphy-9-kirchhoff-b" style="fill:var(--fig-blue)">−</text>
+  <text x="38" y="120" text-anchor="end" class="uphy-9-kirchhoff-b">ε₁ = 12 V</text>
+  <path d="M60 170 L69 175.5 L51 186.5 L69 197.5 L51 208.5 L69 219.5 L51 230.5 L60 236" class="uphy-9-kirchhoff-w"/>
+  <text x="76" y="208.0" text-anchor="start" class="uphy-9-kirchhoff-t">R₁ = 2.0 Ω</text>
+  <path d="M210 60 L210 135 M210 205 L210 280" class="uphy-9-kirchhoff-w"/>
+  <path d="M210 135 L219 140.8 L201 152.5 L219 164.2 L201 175.8 L219 187.5 L201 199.2 L210 205" class="uphy-9-kirchhoff-w"/>
+  <text x="226" y="175.0" text-anchor="start" class="uphy-9-kirchhoff-t">R₂ = 4.0 Ω</text>
+  <path d="M360 60 L360 110 M360 120 L360 170 M360 236 L360 280" class="uphy-9-kirchhoff-w"/>
+  <line x1="344" y1="110" x2="376" y2="110" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <line x1="352" y1="120" x2="368" y2="120" style="stroke:var(--fig-ink);stroke-width:5"/>
+  <text x="382" y="108" text-anchor="start" class="uphy-9-kirchhoff-b" style="fill:var(--fig-red)">+</text>
+  <text x="382" y="128" text-anchor="start" class="uphy-9-kirchhoff-b" style="fill:var(--fig-blue)">−</text>
+  <text x="338" y="120" text-anchor="end" class="uphy-9-kirchhoff-b">ε₂ = 6.0 V</text>
+  <path d="M360 170 L369 175.5 L351 186.5 L369 197.5 L351 208.5 L369 219.5 L351 230.5 L360 236" class="uphy-9-kirchhoff-w"/>
+  <text x="376" y="208.0" text-anchor="start" class="uphy-9-kirchhoff-t">R₃ = 3.0 Ω</text>
+  <circle cx="210" cy="60" r="5" style="fill:var(--fig-ink)"/>
+  <text x="210" y="50" text-anchor="middle" class="uphy-9-kirchhoff-b">a</text>
+  <circle cx="210" cy="280" r="5" style="fill:var(--fig-ink)"/>
+  <text x="210" y="304" text-anchor="middle" class="uphy-9-kirchhoff-b">b</text>
+  <path d="M60.0 258.0 L64.9 269.0 L55.1 269.0 Z" style="fill:var(--fig-red)"/>
+  <text x="50" y="263" text-anchor="end" class="uphy-9-kirchhoff-b" style="fill:var(--fig-red)">I₁</text>
+  <path d="M210.0 250.0 L205.1 239.0 L214.9 239.0 Z" style="fill:var(--fig-red)"/>
+  <text x="200" y="255" text-anchor="end" class="uphy-9-kirchhoff-b" style="fill:var(--fig-red)">I₂</text>
+  <path d="M360.0 258.0 L364.9 269.0 L355.1 269.0 Z" style="fill:var(--fig-red)"/>
+  <text x="350" y="263" text-anchor="end" class="uphy-9-kirchhoff-b" style="fill:var(--fig-red)">I₃</text>
+  <path d="M114 170 A26 26 0 1 1 140 196" style="fill:none;stroke:var(--fig-teal);stroke-width:2;stroke-dasharray:5 3"/>
+  <path d="M140.0 196.0 L149.1 191.9 L149.1 200.1 Z" style="fill:var(--fig-teal)"/>
+  <text x="140" y="175" text-anchor="middle" class="uphy-9-kirchhoff-s" style="fill:var(--fig-teal);font-weight:700">고리 1</text>
+  <path d="M264 170 A26 26 0 1 1 290 196" style="fill:none;stroke:var(--fig-teal);stroke-width:2;stroke-dasharray:5 3"/>
+  <path d="M290.0 196.0 L299.1 191.9 L299.1 200.1 Z" style="fill:var(--fig-teal)"/>
+  <text x="290" y="175" text-anchor="middle" class="uphy-9-kirchhoff-s" style="fill:var(--fig-teal);font-weight:700">고리 2</text>
+  <rect x="400" y="14" width="310" height="312" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="414" y="40" text-anchor="start" class="uphy-9-kirchhoff-b">부호 규칙 (고리를 도는 방향 기준)</text>
+  <text x="414" y="62" text-anchor="start" class="uphy-9-kirchhoff-s">저항: 전류 방향으로 지나면 −IR, 반대면 +IR</text>
+  <text x="414" y="84" text-anchor="start" class="uphy-9-kirchhoff-s">전지: −극 → +극으로 지나면 +ε, 반대면 −ε</text>
+  <text x="414" y="112" text-anchor="start" class="uphy-9-kirchhoff-b">분기점 a</text>
+  <text x="414" y="134" text-anchor="start" class="uphy-9-kirchhoff-t">I₁ + I₃ = I₂</text>
+  <text x="414" y="162" text-anchor="start" class="uphy-9-kirchhoff-b">고리 1 (b → 왼쪽 가지 → a → 가운데 → b)</text>
+  <text x="414" y="184" text-anchor="start" class="uphy-9-kirchhoff-t">−I₁R₁ + ε₁ − I₂R₂ = 0</text>
+  <text x="414" y="212" text-anchor="start" class="uphy-9-kirchhoff-b">고리 2 (a → 오른쪽 가지 → b → 가운데 → a)</text>
+  <text x="414" y="234" text-anchor="start" class="uphy-9-kirchhoff-t">+I₃R₃ − ε₂ + I₂R₂ = 0</text>
+  <text x="414" y="262" text-anchor="start" class="uphy-9-kirchhoff-b">결과</text>
+  <text x="414" y="284" text-anchor="start" class="uphy-9-kirchhoff-t">I₁ = 2.31 A,  I₂ = 1.85 A,  I₃ = −0.46 A</text>
+  <text x="414" y="306" text-anchor="start" class="uphy-9-kirchhoff-s">I₃ < 0: 실제로는 아래로 흘러 ε₂를 충전한다</text>
+</svg>

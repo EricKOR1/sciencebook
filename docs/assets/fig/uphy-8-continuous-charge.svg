@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-labelledby="t-uphy-8-continuous-charge d-uphy-8-continuous-charge">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 362" role="img" aria-labelledby="t-uphy-8-continuous-charge d-uphy-8-continuous-charge">
   <title id="t-uphy-8-continuous-charge">그림 일반물리학 8-1 연속 전하 분포: 조각 dq가 만드는 dE를 세우고 대칭으로 지우기</title>
   <desc id="d-uphy-8-continuous-charge">(가) 막대의 연장선 위 점 P: x에 있는 조각 dq = λdx까지의 거리는 x + d이고, 모든 조각의 dE가 같은 방향(−x)이라 크기만 적분하면 된다. (나) 고리의 축 위 점 P: 마주 보는 두 조각의 dE는 축에 수직인 성분이 상쇄되고, 축 성분 dE cos θ만 남는다. 모식도이다.</desc>
   <style>.uphy-8-continuous-charge-t{font-size:14px;fill:var(--fig-ink)} .uphy-8-continuous-charge-b{font-size:14px;fill:var(--fig-ink);font-weight:700} .uphy-8-continuous-charge-s{font-size:13px;fill:var(--fig-muted)} .uphy-8-continuous-charge-ax{stroke:var(--fig-line);stroke-width:1.2;fill:none} .uphy-8-continuous-charge-dash{stroke:var(--fig-muted);stroke-width:1.2;fill:none;stroke-dasharray:5 4}</style>
-  <rect x="8" y="8" width="346" height="334" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
-  <rect x="366" y="8" width="346" height="334" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="8" y="8" width="346" height="346" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="366" y="8" width="346" height="346" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
   <text x="22" y="32" text-anchor="start" class="uphy-8-continuous-charge-b">(가) 막대의 연장선 위</text>
   <text x="380" y="32" text-anchor="start" class="uphy-8-continuous-charge-b">(나) 고리의 축 위</text>
   <line x1="20" y1="150" x2="342" y2="150" class="uphy-8-continuous-charge-ax"/>
@@ -36,42 +36,42 @@
   <text x="152.5" y="258" text-anchor="middle" class="uphy-8-continuous-charge-s">x + d</text>
   <text x="140" y="120" text-anchor="middle" class="uphy-8-continuous-charge-s">x = 0</text>
   <text x="320" y="120" text-anchor="middle" class="uphy-8-continuous-charge-s">x = L</text>
-  <text x="22" y="292" text-anchor="start" class="uphy-8-continuous-charge-t">모든 dE가 같은 방향(−x) → 크기만 더한다</text>
-  <text x="22" y="320" text-anchor="start" class="uphy-8-continuous-charge-t" style="fill:var(--fig-accent);font-weight:700">E = ∫ kλ dx/(x + d)² = kQ / [d(d + L)]</text>
-  <line x1="395" y1="170" x2="700" y2="170" class="uphy-8-continuous-charge-ax"/>
-  <text x="696" y="162" text-anchor="end" class="uphy-8-continuous-charge-s">축</text>
-  <path d="M455 88 A24 82 0 0 0 455 252" style="fill:none;stroke:var(--fig-red);stroke-width:2;stroke-dasharray:5 4"/>
-  <path d="M455 88 A24 82 0 0 1 455 252" style="fill:none;stroke:var(--fig-red);stroke-width:3.5"/>
-  <circle cx="455" cy="88" r="7" style="fill:var(--fig-red)"/>
-  <text x="443" y="78" text-anchor="end" class="uphy-8-continuous-charge-b" style="fill:var(--fig-red)">dq</text>
-  <line x1="455" y1="88" x2="625" y2="170" class="uphy-8-continuous-charge-dash"/>
-  <circle cx="455" cy="252" r="7" style="fill:var(--fig-red)"/>
-  <text x="443" y="276" text-anchor="end" class="uphy-8-continuous-charge-b" style="fill:var(--fig-red)">dq′</text>
-  <line x1="455" y1="252" x2="625" y2="170" class="uphy-8-continuous-charge-dash"/>
-  <line x1="455" y1="170" x2="455" y2="88" style="stroke:var(--fig-muted);stroke-width:1.2"/>
-  <text x="461" y="129.0" text-anchor="start" class="uphy-8-continuous-charge-t">R</text>
-  <line x1="455" y1="280" x2="625" y2="280" style="stroke:var(--fig-muted);stroke-width:1.2"/>
-  <line x1="455" y1="275" x2="455" y2="285" style="stroke:var(--fig-muted);stroke-width:1.2"/>
-  <line x1="625" y1="275" x2="625" y2="285" style="stroke:var(--fig-muted);stroke-width:1.2"/>
-  <text x="540.0" y="298" text-anchor="middle" class="uphy-8-continuous-charge-s">z</text>
-  <circle cx="625" cy="170" r="5" style="fill:var(--fig-ink)"/>
-  <text x="621" y="192" text-anchor="end" class="uphy-8-continuous-charge-b">P</text>
-  <line x1="625.0" y1="170.0" x2="673.6" y2="193.5" style="stroke:var(--fig-accent);stroke-width:2.5"/>
-  <path d="M680.8 196.9 L670.9 196.4 L674.2 189.4 Z" style="fill:var(--fig-accent)"/>
-  <line x1="625.0" y1="170.0" x2="673.6" y2="146.5" style="stroke:var(--fig-accent);stroke-width:2.5"/>
-  <path d="M680.8 143.1 L674.2 150.6 L670.9 143.6 Z" style="fill:var(--fig-accent)"/>
-  <text x="684.8430679417195" y="210.93606806600587" text-anchor="middle" class="uphy-8-continuous-charge-s">dE (dq에서)</text>
-  <text x="684.8430679417195" y="135.06393193399413" text-anchor="middle" class="uphy-8-continuous-charge-s">dE′ (dq′에서)</text>
-  <line x1="680.8" y1="170.0" x2="680.8" y2="190.5" style="stroke:var(--fig-violet);stroke-width:1.6;stroke-dasharray:4 3"/>
-  <path d="M680.8 196.9 L677.7 189.6 L684.0 189.6 Z" style="fill:var(--fig-violet)"/>
-  <line x1="680.8" y1="170.0" x2="680.8" y2="149.5" style="stroke:var(--fig-violet);stroke-width:1.6;stroke-dasharray:4 3"/>
-  <path d="M680.8 143.1 L684.0 150.4 L677.7 150.4 Z" style="fill:var(--fig-violet)"/>
-  <text x="690.8430679417195" y="136" text-anchor="start" class="uphy-8-continuous-charge-s"></text>
-  <line x1="625.0" y1="170.0" x2="672.8" y2="170.0" style="stroke:var(--fig-green);stroke-width:4"/>
-  <path d="M680.8 170.0 L671.6 173.9 L671.6 166.1 Z" style="fill:var(--fig-green)"/>
-  <path d="M595 170 A30 30 0 0 1 598.0 157.0" style="fill:none;stroke:var(--fig-ink);stroke-width:1.2"/>
-  <text x="583" y="162" text-anchor="middle" class="uphy-8-continuous-charge-t">θ</text>
-  <text x="380" y="292" text-anchor="start" class="uphy-8-continuous-charge-t">수직 성분(보라)은 마주 보는 조각끼리 상쇄,</text>
-  <text x="380" y="312" text-anchor="start" class="uphy-8-continuous-charge-t">축 성분(초록) dE cos θ만 남는다</text>
-  <text x="380" y="334" text-anchor="start" class="uphy-8-continuous-charge-t" style="fill:var(--fig-accent);font-weight:700">E<tspan style="baseline-shift:sub;font-size:11px">z</tspan> = kQz / (z² + R²)<tspan style="baseline-shift:super;font-size:11px">3/2</tspan></text>
+  <text x="22" y="300" text-anchor="start" class="uphy-8-continuous-charge-t">모든 dE가 같은 방향(−x) → 크기만 더한다</text>
+  <text x="22" y="330" text-anchor="start" class="uphy-8-continuous-charge-t" style="fill:var(--fig-accent);font-weight:700">E = ∫ kλ dx/(x + d)² = kQ / [d(d + L)]</text>
+  <line x1="395" y1="158" x2="700" y2="158" class="uphy-8-continuous-charge-ax"/>
+  <text x="397" y="150" text-anchor="start" class="uphy-8-continuous-charge-s">축</text>
+  <path d="M455 86 A24 72 0 0 0 455 230" style="fill:none;stroke:var(--fig-red);stroke-width:2;stroke-dasharray:5 4"/>
+  <path d="M455 86 A24 72 0 0 1 455 230" style="fill:none;stroke:var(--fig-red);stroke-width:3.5"/>
+  <circle cx="455" cy="86" r="7" style="fill:var(--fig-red)"/>
+  <text x="443" y="76" text-anchor="end" class="uphy-8-continuous-charge-b" style="fill:var(--fig-red)">dq</text>
+  <line x1="455" y1="86" x2="625" y2="158" class="uphy-8-continuous-charge-dash"/>
+  <circle cx="455" cy="230" r="7" style="fill:var(--fig-red)"/>
+  <text x="443" y="254" text-anchor="end" class="uphy-8-continuous-charge-b" style="fill:var(--fig-red)">dq′</text>
+  <line x1="455" y1="230" x2="625" y2="158" class="uphy-8-continuous-charge-dash"/>
+  <line x1="455" y1="158" x2="455" y2="86" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="461" y="122.0" text-anchor="start" class="uphy-8-continuous-charge-t">R</text>
+  <line x1="455" y1="244" x2="625" y2="244" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <line x1="455" y1="239" x2="455" y2="249" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <line x1="625" y1="239" x2="625" y2="249" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="540.0" y="262" text-anchor="middle" class="uphy-8-continuous-charge-s">z</text>
+  <circle cx="625" cy="158" r="5" style="fill:var(--fig-ink)"/>
+  <text x="621" y="180" text-anchor="end" class="uphy-8-continuous-charge-b">P</text>
+  <line x1="625.0" y1="158.0" x2="674.7" y2="179.1" style="stroke:var(--fig-accent);stroke-width:2.5"/>
+  <path d="M682.1 182.2 L672.1 182.2 L675.1 175.0 Z" style="fill:var(--fig-accent)"/>
+  <line x1="625.0" y1="158.0" x2="674.7" y2="136.9" style="stroke:var(--fig-accent);stroke-width:2.5"/>
+  <path d="M682.1 133.8 L675.1 141.0 L672.1 133.8 Z" style="fill:var(--fig-accent)"/>
+  <text x="686.0906953401825" y="196.17958861466553" text-anchor="middle" class="uphy-8-continuous-charge-s">dE (dq에서)</text>
+  <text x="686.0906953401825" y="125.82041138533447" text-anchor="middle" class="uphy-8-continuous-charge-s">dE′ (dq′에서)</text>
+  <line x1="682.1" y1="158.0" x2="682.1" y2="175.8" style="stroke:var(--fig-violet);stroke-width:1.6;stroke-dasharray:4 3"/>
+  <path d="M682.1 182.2 L679.0 174.8 L685.2 174.8 Z" style="fill:var(--fig-violet)"/>
+  <line x1="682.1" y1="158.0" x2="682.1" y2="140.2" style="stroke:var(--fig-violet);stroke-width:1.6;stroke-dasharray:4 3"/>
+  <path d="M682.1 133.8 L685.2 141.2 L679.0 141.2 Z" style="fill:var(--fig-violet)"/>
+  <text x="692.0906953401825" y="124" text-anchor="start" class="uphy-8-continuous-charge-s"></text>
+  <line x1="625.0" y1="158.0" x2="674.1" y2="158.0" style="stroke:var(--fig-green);stroke-width:4"/>
+  <path d="M682.1 158.0 L672.9 161.9 L672.9 154.1 Z" style="fill:var(--fig-green)"/>
+  <path d="M595 158 A30 30 0 0 1 597.4 146.3" style="fill:none;stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="583" y="150" text-anchor="middle" class="uphy-8-continuous-charge-t">θ</text>
+  <text x="380" y="300" text-anchor="start" class="uphy-8-continuous-charge-t">수직 성분(보라)은 마주 보는 조각끼리 상쇄,</text>
+  <text x="380" y="320" text-anchor="start" class="uphy-8-continuous-charge-t">축 성분(초록) dE cos θ만 남는다</text>
+  <text x="380" y="344" text-anchor="start" class="uphy-8-continuous-charge-t" style="fill:var(--fig-accent);font-weight:700">E<tspan style="baseline-shift:sub;font-size:11px">z</tspan> = kQz / (z² + R²)<tspan style="baseline-shift:super;font-size:11px">3/2</tspan></text>
 </svg>

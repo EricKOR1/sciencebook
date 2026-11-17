@@ -94,7 +94,7 @@ Sims.register('u-gauss-law', {
       // r 표시
       ctx.strokeStyle = T.figMuted; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(cx, cy); ctx.lineTo(cx - rp * 0.707, cy + rp * 0.707); ctx.stroke();
       ctx.fillStyle = T.figTeal; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'right';
-      ctx.fillText('r', cx - rp * 0.36 - 4, cy + rp * 0.36 + 2);
+      ctx.fillText('r', cx - rp * 0.707 - 6, cy + rp * 0.707 + 14);
       ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
       ctx.fillText(kinds[st.kind] + (st.kind === 1 || st.kind === 2 ? ' (R = 5 cm)' : st.kind === 3 ? ' (중심에서 3 cm)' : ''), b.x + 12, b.y + 22);
       ctx.fillText('단면 ±15 cm', b.x + 12, b.y + b.h - 14);

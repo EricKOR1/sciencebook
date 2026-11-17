@@ -49,7 +49,7 @@ Sims.register('u-stream-transport', {
       var w = cv.w, h = cv.h;
       return w < 560
         ? { G: { x: 0, y: 0, w: w, h: h * 0.62 }, C: { x: 0, y: h * 0.65, w: w, h: h * 0.35 } }
-        : { G: { x: 0, y: 0, w: w * 0.6, h: h }, C: { x: w * 0.62, y: 0, w: w * 0.38, h: h } };
+        : { G: { x: 0, y: 0, w: w * 0.57, h: h }, C: { x: w * 0.59, y: 0, w: w * 0.41, h: h } };
     }
     function draw() {
       var T = api.tokens(), Lay = layout();
@@ -148,7 +148,7 @@ Sims.register('u-stream-transport', {
         if (p.k === state.pick) { ctx.strokeStyle = T.figAccent; ctx.lineWidth = 2; ctx.stroke(); }
       });
       ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'center'; ctx.fillStyle = T.figMuted;
-      GRAINS.forEach(function (gr, k) { ctx.fillText(gr.n, x0 + wl * (k + 0.5), bed + 28); });
+      GRAINS.forEach(function (gr, k) { var nm = gr.n.split(' '); nm.forEach(function (t, j) { ctx.fillText(t, x0 + wl * (k + 0.5), bed + 26 + j * 12 - (nm.length - 1) * 6); }); });
     }
     var loop = api.loop(function (dt) { state.t += dt; draw(); });
     if (api.reduced) loop.pause();

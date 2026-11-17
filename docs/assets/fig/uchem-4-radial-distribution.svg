@@ -32,7 +32,7 @@
   <text x="151" y="200.2" class="uchem-4-rd-t uchem-4-rd-b" style="fill:var(--fig-green)">2s</text>
   <text x="256.5" y="237.8" class="uchem-4-rd-t uchem-4-rd-b" style="fill:var(--fig-red)">3s</text>
   <path d="M96 290 l0 -14" style="stroke:var(--fig-green);stroke-width:2;fill:none"/>
-  <text x="99" y="270" class="uchem-4-rd-s" style="font-size:12px">2s 마디</text>
+  <path d="M96 272 L109.3 166.7" style="stroke:var(--fig-green);stroke-width:1;fill:none"/><text x="110.3" y="162.5" class="uchem-4-rd-s" style="font-size:12px">2s의 지름 마디(106 pm)</text>
   <text x="420" y="36" class="uchem-4-rd-t uchem-4-rd-b">3s · 3p · 3d (침투 비교)</text>
   <line x1="469.1" y1="58" x2="469.1" y2="288" class="uchem-4-rd-gr"/>
   <text x="469.1" y="306" text-anchor="middle" class="uchem-4-rd-s">200</text>
@@ -54,7 +54,7 @@
   <text x="557.5" y="91.5" class="uchem-4-rd-t uchem-4-rd-b" style="fill:var(--fig-violet)">3d</text>
   <text x="623.7" y="110.7" class="uchem-4-rd-t uchem-4-rd-b" style="fill:var(--fig-red)">3s</text>
   <text x="449" y="213.2" class="uchem-4-rd-t uchem-4-rd-b" style="fill:var(--fig-amber)">3p</text>
-  <path d="M428.3 82 L425.4 240.1" style="stroke:var(--fig-ink);stroke-width:1;fill:none"/>
+  <path d="M437.2 82 L426.4 240.1" style="stroke:var(--fig-ink);stroke-width:1;fill:none"/>
   <text x="422.5" y="69.5" class="uchem-4-rd-s" style="font-size:12px">3s의 안쪽 봉우리(침투)</text>
   <text x="360" y="354" text-anchor="middle" class="uchem-4-rd-s">두 그래프의 세로 눈금은 다르다(왼쪽이 약 4.6배 크다). 봉우리 수 = n − l, 지름 마디 수 = n − l − 1</text>
 </svg>

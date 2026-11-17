@@ -111,12 +111,12 @@ Sims.register('u-greenhouse-layer', {
     }
     function drawGraph(T, r) {
       var L = r.x + 50, R = r.x + r.w - 14, Tp = r.y + 26, Bt = r.y + r.h - 40;
-      var tmin = 200, tmax = 340;
+      var tmin = 180, tmax = 340;
       var sx = function (e) { return L + e * (R - L); };
       var sy = function (t) { return Bt - (t - tmin) / (tmax - tmin) * (Bt - Tp); };
       ctx.font = '11px ' + T.fontMono; ctx.fillStyle = T.figMuted; ctx.strokeStyle = T.rule; ctx.lineWidth = 1;
       ctx.textAlign = 'right';
-      for (var t = 200; t <= 340; t += 20) { ctx.beginPath(); ctx.moveTo(L, sy(t)); ctx.lineTo(R, sy(t)); ctx.stroke(); ctx.fillText(t, L - 6, sy(t) + 4); }
+      for (var t = 180; t <= 340; t += 20) { ctx.beginPath(); ctx.moveTo(L, sy(t)); ctx.lineTo(R, sy(t)); ctx.stroke(); ctx.fillText(t, L - 6, sy(t) + 4); }
       ctx.textAlign = 'center';
       for (var e = 0; e <= 1.001; e += 0.25) ctx.fillText(e.toFixed(2), sx(e), Bt + 15);
       ctx.fillStyle = T.figInk; ctx.font = '12px ' + T.fontBody;

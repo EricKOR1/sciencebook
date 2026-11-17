@@ -11,8 +11,8 @@
 <text x="330" y="134.3" text-anchor="middle" class="uearth-4-glacier-budget-b" style="fill:var(--fig-red)">평형선(설선)</text>
 <text x="170" y="28" text-anchor="middle" class="uearth-4-glacier-budget-b">축적 지역</text>
 <text x="170" y="46" text-anchor="middle" class="uearth-4-glacier-budget-s">쌓이는 눈 &gt; 녹는 양</text>
-<text x="470" y="200.0" text-anchor="middle" class="uearth-4-glacier-budget-b">소모 지역</text>
-<text x="470" y="218.0" text-anchor="middle" class="uearth-4-glacier-budget-s">녹는 양 &gt; 쌓이는 눈</text>
+<text x="470" y="180.0" text-anchor="middle" class="uearth-4-glacier-budget-b">소모 지역</text>
+<text x="470" y="198.0" text-anchor="middle" class="uearth-4-glacier-budget-s">녹는 양 &gt; 쌓이는 눈</text>
 
 <line x1="80" y1="47.7" x2="80" y2="67.7" style="stroke:var(--fig-blue);stroke-width:2"/><path d="M80 71.7 l-4 -7 l8 0 z" style="fill:var(--fig-blue)"/>
 <line x1="130" y1="80.8" x2="130" y2="100.8" style="stroke:var(--fig-blue);stroke-width:2"/><path d="M130 104.8 l-4 -7 l8 0 z" style="fill:var(--fig-blue)"/>
@@ -32,7 +32,8 @@
 <polyline points="250.0,170.7 252.7,172.7 255.3,174.7 258.0,176.6 260.7,178.6 263.3,180.5 266.0,182.4 268.7,184.2 271.3,186.1 274.0,187.9 276.7,189.6 279.3,191.4 282.0,193.1 284.7,194.8 287.3,196.4 290.0,198.0 292.7,199.5 295.3,201.1 298.0,202.5 300.7,204.0 303.3,205.4 306.0,206.7 308.7,208.0 311.3,209.3 314.0,210.5 316.7,211.7 319.3,212.9 322.0,214.0 324.7,215.0 327.3,216.0 330.0,217.0 332.7,217.9 335.3,218.8 338.0,219.7 340.7,220.5 343.3,221.3 346.0,222.0 348.7,222.7 351.3,223.4 354.0,224.0 356.7,224.6 359.3,225.2 362.0,225.8 364.7,226.3 367.3,226.8 370.0,227.3 372.7,227.7 375.3,228.2 378.0,228.6 380.7,229.0 383.3,229.4 386.0,229.7 388.7,230.1 391.3,230.5 394.0,230.8 396.7,231.1 399.3,231.5 402.0,231.8 404.7,232.2 407.3,232.5 410.0,232.8" style="fill:none;stroke:var(--fig-accent);stroke-width:1.6;stroke-dasharray:5 3"/>
 <path d="M0 0 l-8 -4 l0 8 z" transform="translate(306.0,206.7) rotate(26.9)" style="fill:var(--fig-accent)"/>
 <path d="M0 0 l-8 -4 l0 8 z" transform="translate(359.3,225.2) rotate(12.3)" style="fill:var(--fig-accent)"/>
-<text x="120" y="184.3" class="uearth-4-glacier-budget-s" style="fill:var(--fig-accent)">얼음의 흐름길(점선): 축적 지역에서 파고들고, 소모 지역에서 떠오른다</text>
+<text x="60" y="262" class="uearth-4-glacier-budget-s" style="fill:var(--fig-accent)">얼음의 흐름길(점선):</text>
+<text x="60" y="280" class="uearth-4-glacier-budget-s" style="fill:var(--fig-accent)">축적 지역에서 파고들고 소모 지역에서 떠오른다</text>
 <path d="M594 300.0 q16 -20 34 1 Z" style="fill:var(--fig-muted)"/>
 <text x="636" y="288.8" class="uearth-4-glacier-budget-t">말단·종퇴석</text>
 <text x="40" y="378" class="uearth-4-glacier-budget-s">말단: 흘러 내려오는 얼음 &gt; 녹는 양이면 전진, &lt; 이면 후퇴(그래도 얼음은 늘 아래로 흐른다) · 모식도</text>

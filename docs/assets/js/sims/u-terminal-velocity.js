@@ -144,8 +144,8 @@ Sims.register('u-terminal-velocity', {
       ctx.restore();
       ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'right';
       ctx.fillStyle = T.figRed; ctx.fillText('v_t = ' + fmtV(P.vt) + ' m/s', Rr - 4, sy(P.vt) - 6);
-      var fx = Math.min(X.tmax, X.vmax / G) * 0.55;
-      ctx.fillStyle = T.figMuted; ctx.textAlign = 'left'; ctx.fillText('v = gt (끌림힘 없음)', sx(fx) + 8, sy(G * fx) + 4);
+      var fx = Math.min(X.tmax, X.vmax / G) * 0.88;
+      ctx.fillStyle = T.figMuted; ctx.textAlign = 'right'; ctx.fillText('v = gt (끌림힘 없음)', sx(fx) - 8, sy(G * fx) + 4);
       if (st.ghosts.some(function (gh) { return Math.abs(gh.P.vt - P.vt) > 1e-9; })) { ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right'; ctx.fillText('회색: 이전 낙하', Rr - 4, B - 8); }
       function curve(PP, frac, c, lw) {
         var tEnd = X.tmax * frac;

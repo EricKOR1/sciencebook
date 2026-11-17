@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-uchem-3-systems-signs d-uchem-3-systems-signs">
+  <title id="t-uchem-3-systems-signs">그림 일반화학 3-1 계의 세 종류와 q·w의 부호 규약</title>
+  <desc id="d-uchem-3-systems-signs">위: 경계를 지나 물질과 에너지를 모두 주고받는 열린계, 에너지만 주고받는 닫힌계, 둘 다 주고받지 않는 고립계. 아래: 화학의 부호 규약. 계로 들어오는 열과 일은 +, 계에서 나가는 열과 일은 −이며 ΔU = q + w이다.</desc>
+  <style>
+    .uchem-3-ss-h{font-size:15px;font-weight:600;fill:var(--fig-ink);text-anchor:middle}
+    .uchem-3-ss-t{font-size:14px;fill:var(--fig-ink)}
+    .uchem-3-ss-s{font-size:13px;fill:var(--fig-muted)}
+    .uchem-3-ss-ok{font-size:13px;fill:var(--fig-green)}
+    .uchem-3-ss-no{font-size:13px;fill:var(--fig-red)}
+    .uchem-3-ss-glass{fill:none;stroke:var(--fig-ink);stroke-width:2}
+    .uchem-3-ss-liq{fill:var(--fig-soft-blue)}
+    .uchem-3-ss-heat{stroke:var(--fig-red);stroke-width:2.5;fill:none}
+    .uchem-3-ss-mat{stroke:var(--fig-blue);stroke-width:2.5;fill:none}
+    .uchem-3-ss-work{stroke:var(--fig-violet);stroke-width:2.5;fill:none}
+    .uchem-3-ss-x{stroke:var(--fig-red);stroke-width:2.5;stroke-linecap:round}
+  </style>
+  <!-- ① 열린계 -->
+  <text x="120" y="24" class="uchem-3-ss-h">열린계</text>
+  <path d="M84 70 V150 H156 V70" class="uchem-3-ss-glass"/>
+  <rect x="86" y="104" width="68" height="44" class="uchem-3-ss-liq"/>
+  <path d="M104 92 q-6 -10 0 -18 q6 -8 0 -18" class="uchem-3-ss-mat"/>
+  <path d="M100 56 l4 -10 l4 10" class="uchem-3-ss-mat"/>
+  <path d="M136 92 q-6 -10 0 -18 q6 -8 0 -18" class="uchem-3-ss-mat"/>
+  <path d="M132 56 l4 -10 l4 10" class="uchem-3-ss-mat"/>
+  <text x="160" y="58" class="uchem-3-ss-s">수증기</text>
+  <path d="M40 126 H80 M74 120 l6 6 l-6 6 M46 120 l-6 6 l6 6" class="uchem-3-ss-heat"/>
+  <text x="120" y="176" class="uchem-3-ss-ok" text-anchor="middle">물질 ○  에너지 ○</text>
+  <!-- ② 닫힌계 -->
+  <text x="360" y="24" class="uchem-3-ss-h">닫힌계</text>
+  <path d="M348 50 V82 Q312 96 312 126 Q312 152 360 152 Q408 152 408 126 Q408 96 372 82 V50" class="uchem-3-ss-glass"/>
+  <rect x="344" y="40" width="32" height="14" rx="3" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <path d="M316 120 Q360 112 404 120 Q408 150 360 150 Q314 150 316 120 Z" class="uchem-3-ss-liq"/>
+  <path d="M276 126 H302 M296 120 l6 6 l-6 6" class="uchem-3-ss-heat"/>
+  <path d="M444 126 H418 M424 120 l-6 6 l6 6" class="uchem-3-ss-heat"/>
+  <text x="360" y="176" class="uchem-3-ss-ok" text-anchor="middle">물질 ×  에너지 ○</text>
+  <!-- ③ 고립계 -->
+  <text x="600" y="24" class="uchem-3-ss-h">고립계</text>
+  <rect x="556" y="46" width="88" height="108" rx="14" style="fill:var(--fig-soft-amber);stroke:var(--fig-ink);stroke-width:2"/>
+  <rect x="566" y="56" width="68" height="88" rx="9" style="fill:var(--fig-paper);stroke:var(--fig-ink);stroke-width:1.5"/>
+  <rect x="568" y="96" width="64" height="46" rx="6" class="uchem-3-ss-liq"/>
+  <path d="M516 100 H544" class="uchem-3-ss-heat"/>
+  <path d="M524 92 l12 16 M536 92 l-12 16" class="uchem-3-ss-x"/>
+  <path d="M656 100 H684" class="uchem-3-ss-heat"/>
+  <path d="M664 92 l12 16 M676 92 l-12 16" class="uchem-3-ss-x"/>
+  <text x="600" y="176" class="uchem-3-ss-no" text-anchor="middle">물질 ×  에너지 ×</text>
+  <!-- 범례 -->
+  <path d="M190 202 h20" class="uchem-3-ss-mat"/><text x="216" y="207" class="uchem-3-ss-s">물질의 출입</text>
+  <path d="M330 202 h20" class="uchem-3-ss-heat"/><text x="356" y="207" class="uchem-3-ss-s">에너지(열)의 출입</text>
+  <line x1="20" y1="222" x2="700" y2="222" style="stroke:var(--fig-line);stroke-width:1"/>
+  <!-- 부호 규약 -->
+  <text x="360" y="248" class="uchem-3-ss-h">부호 규약 — 언제나 계의 입장에서</text>
+  <rect x="290" y="270" width="140" height="92" rx="10" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2"/>
+  <text x="360" y="306" class="uchem-3-ss-h">계</text>
+  <text x="360" y="334" class="uchem-3-ss-t" text-anchor="middle">ΔU = q + w</text>
+  <!-- 열: 왼쪽 -->
+  <path d="M150 292 H282 M272 284 l10 8 l-10 8" class="uchem-3-ss-heat"/>
+  <text x="150" y="282" class="uchem-3-ss-t">q &gt; 0 열 흡수(흡열)</text>
+  <path d="M282 342 H150 M160 334 l-10 8 l10 8" class="uchem-3-ss-heat"/>
+  <text x="150" y="368" class="uchem-3-ss-t">q &lt; 0 열 방출(발열)</text>
+  <!-- 일: 오른쪽 -->
+  <path d="M570 292 H438 M448 284 l-10 8 l10 8" class="uchem-3-ss-work"/>
+  <text x="570" y="282" class="uchem-3-ss-t" text-anchor="end">w &gt; 0 일을 받음(압축)</text>
+  <path d="M438 342 H570 M560 334 l10 8 l-10 8" class="uchem-3-ss-work"/>
+  <text x="570" y="368" class="uchem-3-ss-t" text-anchor="end">w &lt; 0 일을 함(팽창)</text>
+  <text x="360" y="392" class="uchem-3-ss-s" text-anchor="middle">들어오면 +, 나가면 −</text>
+</svg>

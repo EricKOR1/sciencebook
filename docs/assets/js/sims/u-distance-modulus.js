@@ -76,9 +76,9 @@ Sims.register('u-distance-modulus', {
       ctx.restore();
       function line(A, col, dash, lw) { ctx.beginPath(); ctx.moveTo(sx(0), sy(st.M - 5 + A)); ctx.lineTo(sx(9), sy(st.M + 40 + A)); ctx.strokeStyle = col; ctx.lineWidth = lw; ctx.setLineDash(dash); ctx.stroke(); ctx.setLineDash([]); }
       ctx.fillStyle = T.figGreen; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right';
-      ctx.fillText('맨눈 한계 약 6등급', R - 4, sy(6) - 5);
-      ctx.fillStyle = T.figMuted; ctx.textAlign = 'left';
-      if (sy(st.M) > Tp + 10 && sy(st.M) < B - 4) ctx.fillText('M = ' + st.M.toFixed(2) + ' (10 pc에서의 등급)', L + 4, sy(st.M) - 5);
+      ctx.fillText('맨눈 한계 약 6등급', R - 4, sy(6) + 14);
+      ctx.fillStyle = T.figMuted; ctx.textAlign = 'right';
+      if (sy(st.M) > Tp + 10 && sy(st.M) < B - 4) ctx.fillText('M = ' + st.M.toFixed(2) + (narrow ? ' (10 pc)' : ' (10 pc에서의 등급)'), R - 4, sy(st.M) - 5);
       // 현재 점과 분해
       var x = sx(st.ld), yM = sy(st.M), yD = sy(st.M + 5 * st.ld - 5), ym = sy(mOf(st.ld));
       var cy = function (y) { return Math.max(Tp, Math.min(B, y)); };
@@ -93,8 +93,8 @@ Sims.register('u-distance-modulus', {
       ctx.fillStyle = T.figViolet;
       if (Math.abs(yD - yM) > 14) ctx.fillText('5 log d − 5 = ' + (5 * st.ld - 5).toFixed(2), tx, cy((yM + yD) / 2) + 4);
       if (st.A > 0) { ctx.fillStyle = T.figRed; ctx.fillText('+ A = ' + st.A.toFixed(1), tx, cy((yD + ym) / 2 + (Math.abs(ym - yD) < 14 ? 14 : 0)) + 4); }
-      ctx.fillStyle = T.figAccent;
-      ctx.fillText('m = ' + mOf(st.ld).toFixed(2), tx, cy(ym) + (ym < yD ? -10 : 18));
+      ctx.fillStyle = T.figAccent; ctx.textAlign = right ? 'right' : 'left';
+      ctx.fillText('m = ' + mOf(st.ld).toFixed(2), x + (right ? -10 : 10), cy(ym) + 18);
     }
     api.onResize(draw);
     update();

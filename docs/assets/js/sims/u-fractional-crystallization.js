@@ -122,12 +122,16 @@ Sims.register('u-fractional-crystallization', {
         var hh = ch * m / 100; y -= hh;
         ctx.fillStyle = T[stages[i].col]; ctx.globalAlpha = 0.8; ctx.fillRect(x0, y, cw, hh); ctx.globalAlpha = 1;
         // 결정 무늬
-        ctx.strokeStyle = T.figPanel; ctx.lineWidth = 1;
+        ctx.strokeStyle = T.figPanel; ctx.lineWidth = 1; ctx.globalAlpha = 0.35;
         for (var xx = x0 + 6; xx < x0 + cw; xx += 14) for (var yy = y + 5; yy < y + hh - 2; yy += 9) {
           ctx.beginPath(); ctx.moveTo(xx, yy); ctx.lineTo(xx + 4, yy + 3); ctx.stroke();
         }
+        ctx.globalAlpha = 1;
         if (hh > 16) {
-          ctx.fillStyle = T.figInk; ctx.font = '12px ' + T.fontBody;
+          ctx.font = '12px ' + T.fontBody;
+          var lab = (state.mode === 'ol' ? '감람석' : stages[i].short) + ' ' + m.toFixed(0) + ' kg', tw = ctx.measureText(lab).width;
+          ctx.fillStyle = T.figPanel; ctx.globalAlpha = 0.85; roundRect(x0 + cw / 2 - tw / 2 - 6, y + hh / 2 - 9, tw + 12, 18, 6); ctx.fill(); ctx.globalAlpha = 1;
+          ctx.fillStyle = T.figInk;
           ctx.fillText((state.mode === 'ol' ? '감람석' : stages[i].short) + ' ' + m.toFixed(0) + ' kg', x0 + cw / 2, y + hh / 2 + 4);
         }
       }

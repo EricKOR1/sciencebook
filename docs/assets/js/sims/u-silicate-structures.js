@@ -10,7 +10,7 @@ Sims.register('u-silicate-structures', {
       single: { name: '단사슬', share: '2개', ratio: '1 : 3', unit: '(SiO₃)²⁻', charge: '2', ex: '휘석' },
       double: { name: '복사슬', share: '2개와 3개 번갈아(평균 2.5)', ratio: '1 : 2.75', unit: '(Si₄O₁₁)⁶⁻', charge: '1.5', ex: '각섬석' },
       sheet: { name: '판상', share: '3개', ratio: '1 : 2.5', unit: '(Si₂O₅)²⁻', charge: '1', ex: '운모, 점토 광물' },
-      frame: { name: '망상(3차원)', share: '4개', ratio: '1 : 2', unit: 'SiO₂', charge: '0', ex: '석영, 장석(Si 일부를 Al이 치환)' },
+      frame: { name: '망상(3차원)', share: '4개', ratio: '1 : 2', unit: 'SiO₂', charge: '0', ex: '석영, 장석(Al 치환)' },
     };
     var state = { kind: 'single', faces: true };
     var model = null;
@@ -71,7 +71,7 @@ Sims.register('u-silicate-structures', {
       var c = [0, 0, 0]; m.O.forEach(function (o) { c[0] += o.p[0]; c[1] += o.p[1]; c[2] += o.p[2]; });
       c = c.map(function (v) { return v / m.O.length; });
       var R = 0; m.O.forEach(function (o) { R = Math.max(R, Math.hypot(o.p[0] - c[0], o.p[1] - c[1], o.p[2] - c[2])); });
-      var f = Math.min(1, 3.3 / R);
+      var f = Math.min(1, (kind === 'frame' ? 2.4 : 2.8) / R);
       function T(p) { return [(p[0] - c[0]) * f, (p[1] - c[1]) * f, (p[2] - c[2]) * f]; }
       m.O.forEach(function (o) { o.q = T(o.p); });
       m.tets.forEach(function (t) { t.q = T(t.si); });
@@ -126,7 +126,7 @@ Sims.register('u-silicate-structures', {
     var rEx = api.readout('대표 광물');
 
     var S = api.scene3d({
-      yaw: 0.5, pitch: 0.55, dist: 12, scale: 0.135, label: 'Si–O 사면체가 연결된 입체 모형',
+      yaw: 0.5, pitch: 0.55, dist: 16, scale: 0.15, label: 'Si–O 사면체가 연결된 입체 모형',
       draw: function (g, T) {
         if (!model) return;
         var rO = 0.3 * model.f, rS = 0.17 * model.f;

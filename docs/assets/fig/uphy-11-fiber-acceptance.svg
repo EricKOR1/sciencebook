@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 310" role="img" aria-labelledby="t-uphy-11-fiber-acceptance d-uphy-11-fiber-acceptance">
+  <title id="t-uphy-11-fiber-acceptance">그림 일반물리학 11-2 광섬유가 받아들이는 빛의 각과 개구수</title>
+  <desc id="d-uphy-11-fiber-acceptance">공기에서 광섬유 끝면으로 들어온 빛은 굴절각 θ_r로 꺾여 코어 안으로 들어가고, 코어와 클래딩의 경계에 90° − θ_r의 각으로 닿는다. 이 각이 임계각 θ_c 이상이면 전반사를 거듭하며 나아간다. 이렇게 되는 가장 큰 입사각 θ_max가 받아들이는 원뿔을 정하며 sin θ_max = √(n₁² − n₂²)이다. 그보다 비스듬히 들어온 빛은 일부가 클래딩으로 빠져나간다. 굴절률 차와 각을 실제보다 크게 그린 모식도이다.</desc>
+  <style>
+    .u11b-t{font-size:14px;fill:var(--fig-ink)} .u11b-tb{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .u11b-s{font-size:13px;fill:var(--fig-muted)} .u11b-sm{font-size:13px;fill:var(--fig-ink)}
+    .u11b-ax{stroke:var(--fig-ink);stroke-width:1.5;fill:none} .u11b-grid{stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4;fill:none}
+  </style>
+<path d="M230 165 L80 -4.2 L80 334.2 Z" style="fill:var(--fig-soft-green);stroke:none"/>
+<rect x="230" y="85" width="470" height="30" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+<rect x="230" y="215" width="470" height="30" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+<rect x="230" y="115" width="470" height="100" style="fill:var(--fig-soft-blue);stroke:none"/>
+<line x1="230" y1="85" x2="230" y2="245" style="stroke:var(--fig-ink);stroke-width:2"/>
+<line x1="40" y1="165" x2="700" y2="165" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:6 5"/>
+<polyline points="137.1,60.2 230.0,165.0 316.9,215.0 490.6,115.0 664.3,215.0 700.0,194.4" style="fill:none;stroke:var(--fig-red);stroke-width:2.6"/>
+<line x1="137.1" y1="60.2" x2="175.6" y2="103.6" style="stroke:var(--fig-red);stroke-width:0"/><path d="M183.6 112.6 L171.9 107.0 L179.3 100.3 Z" style="fill:var(--fig-red)"/>
+<path d="M178 165 A52 52 0 0 1 195.5 126.1" style="fill:none;stroke:var(--fig-red);stroke-width:1.5"/>
+<text x="144" y="151" class="u11b-sm" style="fill:var(--fig-red)">θ_max</text>
+<path d="M280 165 A50 50 0 0 1 273.3 189.9" style="fill:none;stroke:var(--fig-ink);stroke-width:1.5"/>
+<text x="286" y="185" class="u11b-sm">θ_r</text>
+<line x1="316.9" y1="215" x2="316.9" y2="125" style="stroke:var(--fig-ink);stroke-width:1.2;stroke-dasharray:4 3"/>
+<path d="M316.9 181 A34 34 0 0 0 287.4 198.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1.8"/>
+<text x="308.9" y="173" text-anchor="end" class="u11b-sm" style="fill:var(--fig-violet)">θ_c</text>
+<polyline points="203.8,122.1 230,187 265.6,215 330.2,245" style="fill:none;stroke:var(--fig-amber);stroke-width:2.2;stroke-dasharray:7 4"/>
+<polyline points="265.6,215 392.8,115" style="fill:none;stroke:var(--fig-amber);stroke-width:1.2;stroke-dasharray:3 4"/>
+<text x="40" y="34" class="u11b-tb">공기 n₀ = 1</text>
+<text x="70" y="229" class="u11b-s" style="fill:var(--fig-green)">받아들이는 원뿔</text>
+<text x="690" y="77" text-anchor="end" class="u11b-sm" style="fill:var(--fig-teal)">클래딩 n₂ (n₂ &lt; n₁)</text>
+<text x="690" y="170" text-anchor="end" class="u11b-sm" style="fill:var(--fig-blue)">코어 n₁</text>
+<text x="338.2" y="267" class="u11b-s" style="fill:var(--fig-amber)">θ_max보다 크게 들어온 빛: 경계에 θ_c보다 작게 닿아 일부가 빠져나간다</text>
+<text x="40" y="295" class="u11b-sm">끝면: sin θ_max = n₁ sin θ_r,  옆면: 90° − θ_r ≥ θ_c  →  sin θ_max = √(n₁² − n₂²) (개구수)</text>
+</svg>
