@@ -41,6 +41,6 @@
   <polygon points="415.4,114.6 425.2,116.8 420.3,123.3" style="fill:var(--fig-red)"/>
   <line x1="471.6" y1="156.5" x2="564.0" y2="225.5" style="stroke:var(--fig-red);stroke-width:1.5;stroke-dasharray:6 4;opacity:.8"/>
   <rect x="550.0" y="222.5" width="28.0" height="6.0" rx="2" style="fill:none;stroke:var(--fig-amber);stroke-width:1.6;stroke-dasharray:3 2"/>
-  <text x="564.0" y="247.5" text-anchor="middle" class="m2-03-apparent-depth-t" style="fill:var(--fig-amber);font-weight:600">떠 보이는 동전</text>
+  <text x="564.0" y="247.5" text-anchor="middle" class="m2-03-apparent-depth-t" style="fill:var(--fig-amber);font-weight:600;paint-order:stroke;stroke:var(--fig-soft-blue);stroke-width:4px;stroke-linejoin:round">떠 보이는 동전</text>
   <text x="542.0" y="306.0" text-anchor="middle" class="m2-03-apparent-depth-s">수면에서 꺾인 빛이 가장자리를 넘어 눈에 들어온다</text>
 </svg>

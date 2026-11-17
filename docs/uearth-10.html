@@ -11,7 +11,9 @@
 <link rel="stylesheet" href="assets/book.css">
 <script src="assets/js/book.js" defer></script>
 <script src="assets/js/sims/u-seasons.js" defer></script>
+<script src="assets/js/sims/moon-phases.js" defer></script>
 <script src="assets/js/sims/u-atmosphere-escape.js" defer></script>
+<script src="assets/js/sims/exoplanet-transit.js" defer></script>
 </head>
 <body class="" data-lesson="uearth-10" data-title="태양계" data-where="일반지구과학">
 <header class="topbar">
@@ -227,7 +229,7 @@
   <line x1="463.9" y1="269.6" x2="476.4" y2="260.0" style="stroke:var(--fig-blue);stroke-width:2.2" marker-end="url(#uearth-10-celestial-sphere-arA)"/>
   <line x1="540.0" y1="250.0" x2="540.0" y2="116.9" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:2 3"/>
   <circle cx="540.0" cy="116.9" r="3.0" style="fill:var(--fig-ink)"/>
-  <text x="548.0" y="112.9" class="uearth-10-celestial-sphere-s">천정</text>
+  <text x="534.0" y="110.9" text-anchor="end" class="uearth-10-celestial-sphere-s uearth-10-celestial-sphere-o">천정</text>
   <line x1="540.0" y1="250.0" x2="495.2" y2="116.3" style="stroke:var(--fig-ink);stroke-width:1.5"/>
   <circle cx="502.0" cy="136.7" r="3.5" style="fill:var(--fig-ink)"/>
   <text x="487.2" y="118.3" text-anchor="end" class="uearth-10-celestial-sphere-b">천구 북극</text>
@@ -864,6 +866,8 @@ M1001 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
 </tr>
 </tbody></table></div>
 <p>달은 하루에 약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">36</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6741em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∘</span></span></span></span></span></span></span></span><span class="mord">/29.53</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6741em;"></span><span class="mord">12.</span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6741em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∘</span></span></span></span></span></span></span></span></span></span></span>씩 태양에 대해 동쪽으로 이동하므로 매일 약 50분씩 늦게 뜬다.</p>
+<figure class="sim" id="sim-moon-phases" data-sim="moon-phases"><noscript>이 애니메이션은 자바스크립트가 필요하다.</noscript></figure>
+
 <h4 id="동주기-자전과-칭동">동주기 자전과 칭동</h4>
 <p>달은 자전 주기와 공전 주기가 같아(<strong>동주기 자전</strong>, synchronous rotation) 늘 같은 면을 지구에 보인다. 이는 오랜 세월 지구의 조석력이 달의 자전을 늦춘 결과(<strong>조석 고정</strong>)이다. 다만 궤도가 타원이라 공전 속도가 바뀌고 궤도가 자전축에 대해 기울어 있어, 좌우·상하로 조금씩 흔들려 보이는 <strong>칭동</strong> 덕분에 지구에서 달 표면의 약 59 %를 볼 수 있다.</p>
 <h4 id="식이-일어나는-조건-교점과-식-계절">식이 일어나는 조건 — 교점과 식 계절</h4>
@@ -1914,6 +1918,8 @@ M1001 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
 </tr>
 </tbody></table></div>
 <p>통과 주기로 공전 주기를, 깊이로 <strong>반지름</strong>을 얻는다. 시선속도법의 질량과 합치면(통과하므로 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6595em;"></span><span class="mord mathnormal">i</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6741em;"></span><span class="mord">9</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6741em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∘</span></span></span></span></span></span></span></span></span></span></span>) <strong>평균 밀도</strong>를 구해 암석 행성인지 기체 행성인지 판단할 수 있다. 또 통과하는 동안 별빛이 행성 대기를 지나며 특정 파장이 흡수되는 <strong>투과 분광</strong>으로 대기 성분(수증기, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span> 등)을 잰다.</p>
+<figure class="sim" id="sim-exoplanet-transit" data-sim="exoplanet-transit"><noscript>이 애니메이션은 자바스크립트가 필요하다.</noscript></figure>
+
 <h4 id="3-그-밖의-방법">(3) 그 밖의 방법</h4>
 <div class="table-wrap"><table><thead><tr>
 <th>방법</th>
