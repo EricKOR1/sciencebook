@@ -25,7 +25,7 @@ Sims.register('u-milankovitch', {
     function setAll(e, o, w) { sE.set(e); sO.set(o); sW.set(w); }
     function season(v) {
       var n = ['춘분', '하지', '추분', '동지'], k = Math.round(v / 90) % 4, d = v - Math.round(v / 90) * 90;
-      return '북반구 ' + n[k] + (Math.abs(d) < 3 ? '' : d > 0 ? ' 지난 뒤' : ' 앞') + ' (' + Math.round(v) + '°)';
+      return n[k] + (Math.abs(d) < 3 ? '' : d > 0 ? ' 지난 뒤' : ' 앞') + ' (' + Math.round(v) + '°)';
     }
     function insol(lamDeg, p) {   // 북위 LAT의 하루 평균 일사(W/m²), lam: 태양 황경
       var lam = lamDeg * D2R, phi = LAT * D2R;
@@ -63,8 +63,8 @@ Sims.register('u-milankovitch', {
       ctx.setLineDash([4, 4]); ctx.beginPath(); ctx.moveTo(pp[0], pp[1]); ctx.lineTo(pa[0], pa[1]); ctx.stroke(); ctx.setLineDash([]);
       ctx.fillStyle = T.figAmber; ctx.beginPath(); ctx.arc(cx, cy, 9, 0, Math.PI * 2); ctx.fill();
       ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'center';
-      ctx.fillStyle = T.figRed; ctx.fillText('근일점', pp[0] + (pp[0] - cx) * 0.18, pp[1] + (pp[1] - cy) * 0.18 + 4);
-      ctx.fillStyle = T.figBlue; ctx.fillText('원일점', pa[0] + (pa[0] - cx) * 0.18, pa[1] + (pa[1] - cy) * 0.18 + 4);
+      ctx.fillStyle = T.figRed; ctx.fillText('근일점', pp[0] - (pp[0] - cx) * 0.3, pp[1] - (pp[1] - cy) * 0.3 + 4);
+      ctx.fillStyle = T.figBlue; ctx.fillText('원일점', pa[0] - (pa[0] - cx) * 0.3, pa[1] - (pa[1] - cy) * 0.3 + 4);
       // 절기 위치(지구의 일심 황경 = 태양 황경 + 180°)
       [[0, '춘분'], [90, '하지'], [180, '추분'], [270, '동지']].forEach(function (k) {
         var th = (k[0] + 180) * D2R, p = pos(th);

@@ -11,7 +11,7 @@ Sims.register('u-mutation-translator', {
     var seq, sel = 9, last = null;
     var orig = translate(ORIG.split('').map(function (b) { return { b: b }; }));
 
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.3 : 0.5; }, label: 'DNA 두 가닥, mRNA, 아미노산 서열. 염기를 누르면 그 위치가 선택된다' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.3 : 0.4; }, label: 'DNA 두 가닥, mRNA, 아미노산 서열. 염기를 누르면 그 위치가 선택된다' });
     var ctx = cv.ctx, cells = [];
     var rType = api.readout('결과');
     var rLen = api.readout('아미노산 수(원래 6)');

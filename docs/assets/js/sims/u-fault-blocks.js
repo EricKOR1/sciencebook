@@ -132,14 +132,15 @@ Sims.register('u-fault-blocks', {
       format: function (v) { return v.toFixed(2); }, onInput: function (v) { state.slip = v; upd(); } });
     api.button('미끄러뜨리기 ▶', function () {
       if (api.reduced) { sSlip.set(1); return; }
-      sSlip.set(0); state.anim = true;
+      sSlip.set(0); state.anim = true; loop.play();
     }, { primary: true });
     var stb = api.button('응력 보기', function () { state.stress = !state.stress; stb.setAttribute('aria-pressed', state.stress ? 'true' : 'false'); S.redraw(); }, { toggle: true });
-    S.onFrame(function (dt) {
-      if (!state.anim) return;
+    var loop = api.loop(function (dt) {
+      if (!state.anim) { loop.pause(); return; }
       var v = Math.min(1, state.slip + dt * 0.6); sSlip.set(v);
-      if (v >= 1) state.anim = false;
+      if (v >= 1) { state.anim = false; loop.pause(); }
     });
+    loop.pause();
 
     function fmtStrike(v) { return v === 0 ? 'N–S (N0°E)' : v <= 90 ? 'N' + v + '°E' : 'N' + (180 - v) + '°W'; }
     function dirName(az) {
