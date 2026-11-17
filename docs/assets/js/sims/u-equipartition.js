@@ -8,7 +8,7 @@ Sims.register('u-equipartition', {
       { name: '단원자 (He, Ar)', f: 3, rot: 0 }, { name: '이원자 (N₂, O₂)', f: 5, rot: 2 }, { name: '비선형 다원자', f: 6, rot: 3 },
     ];
     var st = { m: 1, isoP: false, Q: 1000 };
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.3 : 0.5; }, label: '분자의 자유도 그림과 열이 나뉘는 막대, 여섯 경우의 온도 상승 비교' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.75 : 0.5; }, label: '분자의 자유도 그림과 열이 나뉘는 막대, 여섯 경우의 온도 상승 비교' });
     var ctx = cv.ctx;
 
     var rC = api.readout('C_V, C_P');
@@ -46,7 +46,7 @@ Sims.register('u-equipartition', {
     }
     function layout() {
       var w = cv.w, h = cv.h;
-      if (w < 560) return { mol: { x: 0, y: 0, w: w, h: h * 0.3 }, bar: { x: 0, y: h * 0.3, w: w, h: h * 0.3 }, cmp: { x: 0, y: h * 0.6, w: w, h: h * 0.4 } };
+      if (w < 560) return { mol: { x: 0, y: 0, w: w, h: h * 0.25 }, bar: { x: 0, y: h * 0.25, w: w, h: h * 0.33 }, cmp: { x: 0, y: h * 0.58, w: w, h: h * 0.42 } };
       return { mol: { x: 0, y: 0, w: w * 0.3, h: h * 0.55 }, bar: { x: w * 0.32, y: 0, w: w * 0.68, h: h * 0.55 }, cmp: { x: 0, y: h * 0.55, w: w, h: h * 0.45 } };
     }
     function draw() {

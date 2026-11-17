@@ -99,7 +99,7 @@ Sims.register('u-wave-group', {
       ctx.stroke();
       ctx.beginPath(); ctx.moveTo(L, sy(deep)); ctx.lineTo(R, sy(deep)); ctx.stroke(); ctx.setLineDash([]);
       ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right';
-      ctx.fillText('심해파 c = gT/2π', R, sy(deep) - 5);
+      ctx.fillText('심해파 c = gT/2π', sx(60), sy(deep) - 5);
       ctx.textAlign = 'left'; ctx.fillText('√(gh)', sx(1.3), sy(Math.sqrt(G * 1.3)) - 14);
       [['c', T.figRed], ['cg', T.figAccent]].forEach(function (q) {
         ctx.beginPath(); ctx.strokeStyle = q[1]; ctx.lineWidth = 2.4;

@@ -25,9 +25,14 @@ Sims.register('u-ekman', {
     function dirName(b) { return NAMES[Math.round(((b % 360) + 360) % 360 / 45) % 8] + '쪽'; }
 
     var S = api.scene3d({
-      yaw: 0.5, pitch: 0.42, dist: 11, scale: 0.15, label: '바다 표면 아래 깊이별 흐름 화살표와 바람, 알짜 수송',
-      draw: function (g, T) {
-        var c = calc(), D = 2.4, N = 9;
+      yaw: 0.5, pitch: 0.42, dist: 11, scale: 0.14, label: '바다 표면 아래 깊이별 흐름 화살표와 바람, 알짜 수송',
+      draw: function (g0, T) {
+        var c = calc(), D = 2.4, N = 9, OY = 0.75;
+        var sh = function (p) { return [p[0], p[1] + OY, p[2]]; };
+        var g = {
+          poly: function (ps, col, o) { g0.poly(ps.map(sh), col, o); }, line: function (a, b, col, o) { g0.line(sh(a), sh(b), col, o); },
+          arrow: function (a, b, col, o) { g0.arrow(sh(a), sh(b), col, o); }, text: function (p, t, o) { g0.text(sh(p), t, o); },
+        };
         // 해수면
         g.poly([[-2.4, 0, -2.4], [2.4, 0, -2.4], [2.4, 0, 2.4], [-2.4, 0, 2.4]], T.figSoftBlue, { alpha: 0.35, stroke: T.figBlue, strokeWidth: 1 });
         g.line([0, 0.05, 0], [0, -D - 0.2, 0], T.figLine, { width: 1, dash: [4, 4] });
@@ -52,12 +57,12 @@ Sims.register('u-ekman', {
         for (var j = 0; j <= N; j++) {
           var zr = j / N, a = 45 + 180 * zr, sp = Math.exp(-Math.PI * zr);
           var b = c.toward + c.sign * a, y = -D * zr;
-          var tip = vec(b, 1.6 * sp, y);
+          var tip = vec(b, 2.0 * sp, y);
           if (sp > 0.06) g.arrow([0, y, 0], tip, j === 0 ? T.figAccent : T.figBlue, { width: j === 0 ? 3 : 2 });
           if (prev) g.line(prev, tip, T.figBlue, { width: 1, alpha: 0.6 });
           prev = tip;
         }
-        g.text(vec(c.toward + c.sign * 45, 1.85, 0.15), '표층 45°', { color: T.figAccent, size: 12 });
+        g.text(vec(c.toward + c.sign * 45, 2.35, 0.15), '표층 45°', { color: T.figAccent, size: 12 });
         // 알짜 수송
         var L = Math.min(2.4, 0.4 + c.UE / 2.1 * 1.3);
         g.arrow([0, -D * 0.45, 0], vec(c.tb, L, -D * 0.45), T.figRed, { width: 6 });
