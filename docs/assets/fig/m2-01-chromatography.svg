@@ -15,7 +15,7 @@
   <rect x="20" y="78" width="240" height="8" rx="3" style="fill:var(--fig-muted)"/>
   <rect x="80" y="86" width="120" height="232" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5"/>
   <line x1="80.0" y1="285.0" x2="200.0" y2="285.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
-  <circle cx="115" cy="285" r="6" style="fill:var(--fig-ink)"/>
+  <circle cx="115" cy="285" r="6" style="fill:#222;stroke:var(--fig-muted);stroke-width:1.2"/>
   <circle cx="165" cy="285" r="6" style="fill:var(--fig-blue)"/>
   <text x="115.0" y="352.0" text-anchor="middle" class="m2-01-chromatography-s">검은색</text>
   <text x="165.0" y="352.0" text-anchor="middle" class="m2-01-chromatography-s">파란색</text>

@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img" aria-labelledby="t-uearth-7-cloud-types d-uearth-7-cloud-types">
+  <title id="t-uearth-7-cloud-types">그림 일반지구과학 7-6 10가지 기본 운형과 높이(중위도)</title>
+  <desc id="d-uearth-7-cloud-types">구름 10가지 기본 운형을 높이에 따라 배치한 모식도이다. 6 km 이상의 상층에는 빙정으로 된 권운·권적운·권층운(햇무리), 2~6 km의 중층에는 고적운·고층운, 2 km 이하의 하층에는 층적운·층운이 있다. 난층운은 하층에서 중층까지 두껍게 걸쳐 넓은 지역에 지속적인 비를 내린다. 적운은 밑면이 평평하며 그 높이가 상승 응결 고도이고, 적란운은 대류권 계면까지 솟아 꼭대기가 모루처럼 퍼지며 소나기·뇌우를 일으킨다. 높이는 중위도의 대략값이고 모양과 크기는 모식적이다.</desc>
+  <style>
+    .uearth-7-cloud-types-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .uearth-7-cloud-types-t{font-size:13px;fill:var(--fig-ink)}
+    .uearth-7-cloud-types-b{font-size:13px;font-weight:600;fill:var(--fig-ink)}
+    .uearth-7-cloud-types-s{font-size:13px;fill:var(--fig-muted)}
+    .uearth-7-cloud-types-ax{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .uearth-7-cloud-types-grid{fill:none;stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 4}
+    .uearth-7-cloud-types-panel{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1}
+    .uearth-7-cloud-types-sea{fill:var(--fig-soft-blue);stroke:none}
+    .uearth-7-cloud-types-land{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:0.7;fill-rule:evenodd}
+    .uearth-7-cloud-types-grat{fill:none;stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 4}
+    .uearth-7-cloud-types-frame{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .uearth-7-cloud-types-c-ink{font-size:13px;font-weight:600;fill:var(--fig-ink)}
+    .uearth-7-cloud-types-c-muted{font-size:13px;font-weight:600;fill:var(--fig-muted)}
+    .uearth-7-cloud-types-c-line{font-size:13px;font-weight:600;fill:var(--fig-line)}
+    .uearth-7-cloud-types-c-accent{font-size:13px;font-weight:600;fill:var(--fig-accent)}
+    .uearth-7-cloud-types-c-blue{font-size:13px;font-weight:600;fill:var(--fig-blue)}
+    .uearth-7-cloud-types-c-red{font-size:13px;font-weight:600;fill:var(--fig-red)}
+    .uearth-7-cloud-types-c-green{font-size:13px;font-weight:600;fill:var(--fig-green)}
+    .uearth-7-cloud-types-c-amber{font-size:13px;font-weight:600;fill:var(--fig-amber)}
+    .uearth-7-cloud-types-c-violet{font-size:13px;font-weight:600;fill:var(--fig-violet)}
+    .uearth-7-cloud-types-c-teal{font-size:13px;font-weight:600;fill:var(--fig-teal)}
+    .uearth-7-cloud-types-cl{fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.3}
+    .uearth-7-cloud-types-cld{fill:var(--fig-line);stroke:var(--fig-muted);stroke-width:1.3}
+    .uearth-7-cloud-types-rain{stroke:var(--fig-blue);stroke-width:1.4;stroke-dasharray:5 4}
+  </style>
+  <rect x="60" y="37.5" width="650" height="188.5" style="fill:var(--fig-soft-violet);opacity:0.35"/>
+  <rect x="60" y="226.0" width="650" height="116.0" style="fill:var(--fig-soft-blue);opacity:0.35"/>
+  <rect x="60" y="342.0" width="650" height="58.0" style="fill:var(--fig-soft-green);opacity:0.35"/>
+  <line x1="60" y1="400" x2="710" y2="400" style="stroke:var(--fig-ink);stroke-width:1.6"/>
+  <line x1="60" y1="400" x2="60" y2="37.5" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="55" y1="400.0" x2="60" y2="400.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="52.0" y="404.0" class="uearth-7-cloud-types-s" text-anchor="end">0</text>
+  <line x1="55" y1="342.0" x2="60" y2="342.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="52.0" y="346.0" class="uearth-7-cloud-types-s" text-anchor="end">2</text>
+  <line x1="55" y1="284.0" x2="60" y2="284.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="52.0" y="288.0" class="uearth-7-cloud-types-s" text-anchor="end">4</text>
+  <line x1="55" y1="226.0" x2="60" y2="226.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="52.0" y="230.0" class="uearth-7-cloud-types-s" text-anchor="end">6</text>
+  <line x1="55" y1="168.0" x2="60" y2="168.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="52.0" y="172.0" class="uearth-7-cloud-types-s" text-anchor="end">8</text>
+  <line x1="55" y1="110.0" x2="60" y2="110.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="52.0" y="114.0" class="uearth-7-cloud-types-s" text-anchor="end">10</text>
+  <line x1="55" y1="52.0" x2="60" y2="52.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="52.0" y="56.0" class="uearth-7-cloud-types-s" text-anchor="end">12</text>
+  <text x="8.0" y="33.5" class="uearth-7-cloud-types-s">높이(km)</text>
+  <line x1="60" y1="63.6" x2="710" y2="63.6" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:6 4"/>
+  <text x="706.0" y="58.6" class="uearth-7-cloud-types-s" text-anchor="end">대류권 계면(약 11~12 km)</text>
+  <text x="66.0" y="220.0" class="uearth-7-cloud-types-c-violet">상층운</text>
+  <text x="66.0" y="336.0" class="uearth-7-cloud-types-c-blue">중층운</text>
+  <text x="66.0" y="394.0" class="uearth-7-cloud-types-c-green">하층운</text>
+  <path d="M88,127.6 q16,-1 26,-14 M98,131.6 q14,-2 24,-12" style="fill:none;stroke:var(--fig-muted);stroke-width:1.7"/>
+  <path d="M128,110.2 q16,-1 26,-14 M138,114.2 q14,-2 24,-12" style="fill:none;stroke:var(--fig-muted);stroke-width:1.7"/>
+  <path d="M163,136.3 q16,-1 26,-14 M173,140.3 q14,-2 24,-12" style="fill:none;stroke:var(--fig-muted);stroke-width:1.7"/>
+  <text x="148.0" y="156.4" class="uearth-7-cloud-types-b" text-anchor="middle">권운(Ci)</text>
+  <ellipse cx="250" cy="112.9" rx="6" ry="4" class="uearth-7-cloud-types-cl"/>
+  <ellipse cx="266" cy="112.9" rx="6" ry="4" class="uearth-7-cloud-types-cl"/>
+  <ellipse cx="282" cy="112.9" rx="6" ry="4" class="uearth-7-cloud-types-cl"/>
+  <ellipse cx="298" cy="112.9" rx="6" ry="4" class="uearth-7-cloud-types-cl"/>
+  <ellipse cx="314" cy="112.9" rx="6" ry="4" class="uearth-7-cloud-types-cl"/>
+  <ellipse cx="330" cy="112.9" rx="6" ry="4" class="uearth-7-cloud-types-cl"/>
+  <ellipse cx="258" cy="125.9" rx="6" ry="4" class="uearth-7-cloud-types-cl"/>
+  <ellipse cx="274" cy="125.9" rx="6" ry="4" class="uearth-7-cloud-types-cl"/>
+  <ellipse cx="290" cy="125.9" rx="6" ry="4" class="uearth-7-cloud-types-cl"/>
+  <ellipse cx="306" cy="125.9" rx="6" ry="4" class="uearth-7-cloud-types-cl"/>
+  <ellipse cx="322" cy="125.9" rx="6" ry="4" class="uearth-7-cloud-types-cl"/>
+  <ellipse cx="338" cy="125.9" rx="6" ry="4" class="uearth-7-cloud-types-cl"/>
+  <text x="298.0" y="156.4" class="uearth-7-cloud-types-b" text-anchor="middle">권적운(Cc)</text>
+  <rect x="370" y="133.2" width="130" height="10" rx="5" class="uearth-7-cloud-types-cl" style="opacity:0.8"/>
+  <circle cx="435" cy="98.4" r="7" style="fill:var(--fig-amber)"/>
+  <circle cx="435" cy="98.4" r="20" style="fill:none;stroke:var(--fig-amber);stroke-width:1.4;stroke-dasharray:3 3"/>
+  <text x="435.0" y="156.4" class="uearth-7-cloud-types-b" text-anchor="middle">권층운(Cs) — 햇무리</text>
+  <ellipse cx="102.0" cy="262.4" rx="8.0" ry="7.2" class="uearth-7-cloud-types-cl"/><ellipse cx="118.0" cy="262.4" rx="8.0" ry="7.2" class="uearth-7-cloud-types-cl"/><rect x="98.0" y="261.2" width="24.0" height="5.4" rx="3" class="uearth-7-cloud-types-cl" style="stroke:none"/>
+  <ellipse cx="132.0" cy="262.4" rx="8.0" ry="7.2" class="uearth-7-cloud-types-cl"/><ellipse cx="148.0" cy="262.4" rx="8.0" ry="7.2" class="uearth-7-cloud-types-cl"/><rect x="128.0" y="261.2" width="24.0" height="5.4" rx="3" class="uearth-7-cloud-types-cl" style="stroke:none"/>
+  <ellipse cx="162.0" cy="262.4" rx="8.0" ry="7.2" class="uearth-7-cloud-types-cl"/><ellipse cx="178.0" cy="262.4" rx="8.0" ry="7.2" class="uearth-7-cloud-types-cl"/><rect x="158.0" y="261.2" width="24.0" height="5.4" rx="3" class="uearth-7-cloud-types-cl" style="stroke:none"/>
+  <ellipse cx="192.0" cy="262.4" rx="8.0" ry="7.2" class="uearth-7-cloud-types-cl"/><ellipse cx="208.0" cy="262.4" rx="8.0" ry="7.2" class="uearth-7-cloud-types-cl"/><rect x="188.0" y="261.2" width="24.0" height="5.4" rx="3" class="uearth-7-cloud-types-cl" style="stroke:none"/>
+  <ellipse cx="222.0" cy="262.4" rx="8.0" ry="7.2" class="uearth-7-cloud-types-cl"/><ellipse cx="238.0" cy="262.4" rx="8.0" ry="7.2" class="uearth-7-cloud-types-cl"/><rect x="218.0" y="261.2" width="24.0" height="5.4" rx="3" class="uearth-7-cloud-types-cl" style="stroke:none"/>
+  <text x="170.0" y="291.2" class="uearth-7-cloud-types-b" text-anchor="middle">고적운(Ac)</text>
+  <rect x="250" y="257.9" width="150" height="20" rx="8" class="uearth-7-cloud-types-cld" style="opacity:0.75"/>
+  <text x="325.0" y="291.2" class="uearth-7-cloud-types-b" text-anchor="middle">고층운(As)</text>
+  <ellipse cx="100.0" cy="357.4" rx="10.0" ry="8.4" class="uearth-7-cloud-types-cld"/><ellipse cx="120.0" cy="357.4" rx="10.0" ry="8.4" class="uearth-7-cloud-types-cld"/><rect x="95.0" y="356.0" width="30.0" height="6.3" rx="3" class="uearth-7-cloud-types-cld" style="stroke:none"/>
+  <ellipse cx="130.0" cy="357.4" rx="10.0" ry="8.4" class="uearth-7-cloud-types-cld"/><ellipse cx="150.0" cy="357.4" rx="10.0" ry="8.4" class="uearth-7-cloud-types-cld"/><rect x="125.0" y="356.0" width="30.0" height="6.3" rx="3" class="uearth-7-cloud-types-cld" style="stroke:none"/>
+  <ellipse cx="160.0" cy="357.4" rx="10.0" ry="8.4" class="uearth-7-cloud-types-cld"/><ellipse cx="180.0" cy="357.4" rx="10.0" ry="8.4" class="uearth-7-cloud-types-cld"/><rect x="155.0" y="356.0" width="30.0" height="6.3" rx="3" class="uearth-7-cloud-types-cld" style="stroke:none"/>
+  <ellipse cx="190.0" cy="357.4" rx="10.0" ry="8.4" class="uearth-7-cloud-types-cld"/><ellipse cx="210.0" cy="357.4" rx="10.0" ry="8.4" class="uearth-7-cloud-types-cld"/><rect x="185.0" y="356.0" width="30.0" height="6.3" rx="3" class="uearth-7-cloud-types-cld" style="stroke:none"/>
+  <ellipse cx="220.0" cy="357.4" rx="10.0" ry="8.4" class="uearth-7-cloud-types-cld"/><ellipse cx="240.0" cy="357.4" rx="10.0" ry="8.4" class="uearth-7-cloud-types-cld"/><rect x="215.0" y="356.0" width="30.0" height="6.3" rx="3" class="uearth-7-cloud-types-cld" style="stroke:none"/>
+  <text x="170.0" y="385.5" class="uearth-7-cloud-types-b" text-anchor="middle">층적운(Sc)</text>
+  <rect x="250" y="378.2" width="140" height="12" rx="4" class="uearth-7-cloud-types-cld"/>
+  <text x="320.0" y="394.2" class="uearth-7-cloud-types-b" text-anchor="middle">층운(St) — 이슬비</text>
+  <path d="M415,371.0 L520,371.0 C528,327.5 520,269.5 505,249.2 L430,255.0 C412,284.0 408,336.2 415,371.0 Z" class="uearth-7-cloud-types-cld"/>
+  <line x1="422" y1="372.4" x2="418" y2="398" class="uearth-7-cloud-types-rain"/>
+  <line x1="433" y1="372.4" x2="429" y2="398" class="uearth-7-cloud-types-rain"/>
+  <line x1="444" y1="372.4" x2="440" y2="398" class="uearth-7-cloud-types-rain"/>
+  <line x1="455" y1="372.4" x2="451" y2="398" class="uearth-7-cloud-types-rain"/>
+  <line x1="466" y1="372.4" x2="462" y2="398" class="uearth-7-cloud-types-rain"/>
+  <line x1="477" y1="372.4" x2="473" y2="398" class="uearth-7-cloud-types-rain"/>
+  <line x1="488" y1="372.4" x2="484" y2="398" class="uearth-7-cloud-types-rain"/>
+  <line x1="499" y1="372.4" x2="495" y2="398" class="uearth-7-cloud-types-rain"/>
+  <line x1="510" y1="372.4" x2="506" y2="398" class="uearth-7-cloud-types-rain"/>
+  <text x="467.0" y="307.2" class="uearth-7-cloud-types-b" text-anchor="middle">난층운</text>
+  <text x="467.0" y="324.2" class="uearth-7-cloud-types-b" text-anchor="middle">(Ns)</text>
+  <ellipse cx="547.8" cy="359.1" rx="11.5" ry="20.4" class="uearth-7-cloud-types-cl"/><ellipse cx="565.0" cy="359.1" rx="11.5" ry="20.4" class="uearth-7-cloud-types-cl"/><ellipse cx="582.2" cy="359.1" rx="11.5" ry="20.4" class="uearth-7-cloud-types-cl"/><rect x="542.0" y="355.7" width="46.0" height="15.3" rx="3" class="uearth-7-cloud-types-cl" style="stroke:none"/>
+  <line x1="535" y1="371.0" x2="595" y2="371.0" style="stroke:var(--fig-muted);stroke-width:1.6"/>
+  <text x="565.0" y="389.9" class="uearth-7-cloud-types-b" text-anchor="middle">적운(Cu)</text>
+  <text x="568.0" y="333.3" class="uearth-7-cloud-types-s" text-anchor="middle">밑면 = LCL</text>
+  <path d="M620,371.0 C608,313.0 615,197.0 628,104.2 C600,86.8 585,69.4 590,60.7 L705,60.7 C708,72.3 692,86.8 676,104.2 C686,197.0 690,313.0 680,371.0 Z" class="uearth-7-cloud-types-cld"/>
+  <line x1="626" y1="372.4" x2="622" y2="398" class="uearth-7-cloud-types-rain"/>
+  <line x1="636" y1="372.4" x2="632" y2="398" class="uearth-7-cloud-types-rain"/>
+  <line x1="646" y1="372.4" x2="642" y2="398" class="uearth-7-cloud-types-rain"/>
+  <line x1="656" y1="372.4" x2="652" y2="398" class="uearth-7-cloud-types-rain"/>
+  <line x1="666" y1="372.4" x2="662" y2="398" class="uearth-7-cloud-types-rain"/>
+  <line x1="676" y1="372.4" x2="672" y2="398" class="uearth-7-cloud-types-rain"/>
+  <text x="650.0" y="226.0" class="uearth-7-cloud-types-b" text-anchor="middle">적란운</text>
+  <text x="650.0" y="243.0" class="uearth-7-cloud-types-b" text-anchor="middle">(Cb)</text>
+  <text x="650.0" y="39.5" class="uearth-7-cloud-types-s" text-anchor="middle">모루</text>
+  <text x="60.0" y="432.0" class="uearth-7-cloud-types-s">왼쪽 세 무리는 높이로, 오른쪽 적운·적란운은 연직으로 발달한 구름 · 높이는 중위도 대략값</text>
+</svg>

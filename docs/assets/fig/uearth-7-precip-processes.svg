@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-uearth-7-precip-processes d-uearth-7-precip-processes">
+  <title id="t-uearth-7-precip-processes">그림 일반지구과학 7-7 강수 과정 — 병합설과 빙정설</title>
+  <desc id="d-uearth-7-precip-processes">왼쪽은 병합설(충돌–병합 과정)이다. 0 °C보다 따뜻한 구름에서 조금 큰 물방울이 작은 구름 방울보다 빨리 떨어지며 따라잡아 충돌·병합하고, 커질수록 더 빨리 떨어져 더 많이 쓸어 담아 빗방울이 된다. 오른쪽은 빙정설(베르게론 과정)이다. 0 °C보다 찬 구름에서 빙정과 과냉각 물방울이 섞여 있으면 얼음의 포화 수증기압이 물보다 작으므로 수증기가 물방울에서 빙정으로 옮겨 가, 물방울은 증발해 작아지고 빙정은 빠르게 자란다. 자란 빙정은 눈송이가 되어 떨어지고 0 °C 층 아래에서 녹으면 비가 된다. 크기는 과장한 모식도이다.</desc>
+  <style>
+    .uearth-7-precip-processes-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .uearth-7-precip-processes-t{font-size:13px;fill:var(--fig-ink)}
+    .uearth-7-precip-processes-b{font-size:13px;font-weight:600;fill:var(--fig-ink)}
+    .uearth-7-precip-processes-s{font-size:13px;fill:var(--fig-muted)}
+    .uearth-7-precip-processes-ax{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .uearth-7-precip-processes-grid{fill:none;stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 4}
+    .uearth-7-precip-processes-panel{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1}
+    .uearth-7-precip-processes-sea{fill:var(--fig-soft-blue);stroke:none}
+    .uearth-7-precip-processes-land{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:0.7;fill-rule:evenodd}
+    .uearth-7-precip-processes-grat{fill:none;stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 4}
+    .uearth-7-precip-processes-frame{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .uearth-7-precip-processes-c-ink{font-size:13px;font-weight:600;fill:var(--fig-ink)}
+    .uearth-7-precip-processes-c-muted{font-size:13px;font-weight:600;fill:var(--fig-muted)}
+    .uearth-7-precip-processes-c-line{font-size:13px;font-weight:600;fill:var(--fig-line)}
+    .uearth-7-precip-processes-c-accent{font-size:13px;font-weight:600;fill:var(--fig-accent)}
+    .uearth-7-precip-processes-c-blue{font-size:13px;font-weight:600;fill:var(--fig-blue)}
+    .uearth-7-precip-processes-c-red{font-size:13px;font-weight:600;fill:var(--fig-red)}
+    .uearth-7-precip-processes-c-green{font-size:13px;font-weight:600;fill:var(--fig-green)}
+    .uearth-7-precip-processes-c-amber{font-size:13px;font-weight:600;fill:var(--fig-amber)}
+    .uearth-7-precip-processes-c-violet{font-size:13px;font-weight:600;fill:var(--fig-violet)}
+    .uearth-7-precip-processes-c-teal{font-size:13px;font-weight:600;fill:var(--fig-teal)}
+    .uearth-7-precip-processes-cloudp{fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.3}
+    .uearth-7-precip-processes-drop{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.3}
+    .uearth-7-precip-processes-ice{fill:none;stroke:var(--fig-violet);stroke-width:2}
+  </style>
+  <defs>
+    <marker id="uearth-7-precip-processes-ah-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--fig-blue)"/></marker>
+    <marker id="uearth-7-precip-processes-ah-teal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--fig-teal)"/></marker>
+    <marker id="uearth-7-precip-processes-ah-violet" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--fig-violet)"/></marker>
+  </defs>
+  <text x="14.0" y="22.0" class="uearth-7-precip-processes-h">(가) 병합설 — 따뜻한 구름(0 °C 이상)</text>
+  <path d="M30,250 C10,200 40,150 80,150 C90,100 160,80 200,110 C240,70 320,90 320,150 C350,170 345,240 320,250 Z" class="uearth-7-precip-processes-cloudp"/>
+  <circle cx="111.9" cy="189.9" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="146.2" cy="196.4" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="53.4" cy="222.1" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="117.4" cy="155.8" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="308.9" cy="181.7" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="267.5" cy="182.4" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="224.6" cy="137.0" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="247.1" cy="195.0" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="128.3" cy="133.4" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="275.0" cy="182.0" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="236.9" cy="226.7" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="235.7" cy="231.3" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="278.5" cy="140.7" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="85.4" cy="153.9" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="301.0" cy="178.0" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="141.2" cy="194.4" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="227.3" cy="232.2" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="272.7" cy="239.0" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="224.5" cy="147.9" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="273.8" cy="236.1" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="285.2" cy="192.6" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="235.6" cy="153.2" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="266.2" cy="193.1" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="124.1" cy="137.0" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="272.0" cy="238.9" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="73.0" cy="218.1" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="126.4" cy="214.6" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="276.9" cy="134.9" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="236.8" cy="166.4" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="279.0" cy="237.9" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="130.5" cy="138.5" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="101.3" cy="174.9" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <path d="M185,133.2 C187.7,137.3 189.5,139.6 189.5,141.3 A4.5,4.5 0 0,1 180.5,141.3 C180.5,139.6 182.3,137.3 185,133.2 Z" class="uearth-7-precip-processes-drop"/>
+  <path d="M185,174.5 C189.2,180.8 192.0,184.3 192.0,187.1 A7,7 0 0,1 178.0,187.1 C178.0,184.3 180.8,180.8 185,174.5 Z" class="uearth-7-precip-processes-drop"/>
+  <path d="M185,221.0 C191.0,230.0 195.0,235.0 195.0,239.0 A10,10 0 0,1 175.0,239.0 C175.0,235.0 179.0,230.0 185,221.0 Z" class="uearth-7-precip-processes-drop"/>
+  <circle cx="178.0" cy="160.0" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="193.0" cy="163.0" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="181.0" cy="205.0" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <circle cx="191.0" cy="210.0" r="2.6" class="uearth-7-precip-processes-drop"/>
+  <path d="M210,140 L210,234" style="fill:none;stroke:var(--fig-blue);stroke-width:2" marker-end="url(#uearth-7-precip-processes-ah-blue)"/>
+  <text x="218.0" y="175.0" class="uearth-7-precip-processes-s">큰 방울일수록</text>
+  <text x="218.0" y="192.0" class="uearth-7-precip-processes-s">빨리 떨어져</text>
+  <text x="218.0" y="209.0" class="uearth-7-precip-processes-s">작은 방울을</text>
+  <text x="218.0" y="226.0" class="uearth-7-precip-processes-s">쓸어 담음</text>
+  <path d="M185,280.5 C192.8,292.2 198.0,298.7 198.0,303.9 A13,13 0 0,1 172.0,303.9 C172.0,298.7 177.2,292.2 185,280.5 Z" class="uearth-7-precip-processes-drop"/>
+  <text x="185.0" y="338.0" class="uearth-7-precip-processes-b" text-anchor="middle">빗방울(반지름 약 1 mm)</text>
+  <text x="40.0" y="270.0" class="uearth-7-precip-processes-s">구름 방울(약 10 μm)</text>
+  <text x="14.0" y="365.0" class="uearth-7-precip-processes-t">조건: 큰 응결핵(바다 위), 두껍고 오래 가는 구름</text>
+  <text x="14.0" y="385.0" class="uearth-7-precip-processes-t">주된 무대: 열대·여름철 하층의 따뜻한 구름</text>
+  <line x1="360" y1="30" x2="360" y2="390" style="stroke:var(--fig-line);stroke-width:1"/>
+  <text x="370.0" y="22.0" class="uearth-7-precip-processes-h">(나) 빙정설 — 찬 구름(0 °C 미만)</text>
+  <path d="M390,210 C370,170 400,120 440,120 C450,70 520,50 560,80 C600,40 690,60 690,120 C720,140 715,200 690,210 Z" class="uearth-7-precip-processes-cloudp"/>
+  <path d="M520.0,124.0 L520.0,156.0 M520.0,148.8 L517.2,153.6 M520.0,148.8 L522.8,153.6 M520.0,131.2 L522.8,126.4 M520.0,131.2 L517.2,126.4 M533.9,132.0 L506.1,148.0 M512.4,144.4 L506.8,144.4 M512.4,144.4 L509.6,149.2 M527.6,135.6 L533.2,135.6 M527.6,135.6 L530.4,130.8 M533.9,148.0 L506.1,132.0 M512.4,135.6 L509.6,130.8 M512.4,135.6 L506.8,135.6 M527.6,144.4 L530.4,149.2 M527.6,144.4 L533.2,144.4 " class="uearth-7-precip-processes-ice"/>
+  <circle cx="450.0" cy="115.0" r="6" class="uearth-7-precip-processes-drop"/>
+  <path d="M462.6,119.5 L493.4,130.5" style="fill:none;stroke:var(--fig-teal);stroke-width:1.6;stroke-dasharray:4 3" marker-end="url(#uearth-7-precip-processes-ah-teal)"/>
+  <circle cx="445.0" cy="170.0" r="5" class="uearth-7-precip-processes-drop"/>
+  <path d="M458.5,164.6 L491.5,151.4" style="fill:none;stroke:var(--fig-teal);stroke-width:1.6;stroke-dasharray:4 3" marker-end="url(#uearth-7-precip-processes-ah-teal)"/>
+  <circle cx="590.0" cy="110.0" r="6" class="uearth-7-precip-processes-drop"/>
+  <path d="M577.4,115.4 L546.6,128.6" style="fill:none;stroke:var(--fig-teal);stroke-width:1.6;stroke-dasharray:4 3" marker-end="url(#uearth-7-precip-processes-ah-teal)"/>
+  <circle cx="598.0" cy="165.0" r="5" class="uearth-7-precip-processes-drop"/>
+  <path d="M584.0,160.5 L549.6,149.5" style="fill:none;stroke:var(--fig-teal);stroke-width:1.6;stroke-dasharray:4 3" marker-end="url(#uearth-7-precip-processes-ah-teal)"/>
+  <circle cx="490.0" cy="195.0" r="6" class="uearth-7-precip-processes-drop"/>
+  <path d="M495.4,185.1 L508.6,160.9" style="fill:none;stroke:var(--fig-teal);stroke-width:1.6;stroke-dasharray:4 3" marker-end="url(#uearth-7-precip-processes-ah-teal)"/>
+  <circle cx="555.0" cy="192.0" r="5" class="uearth-7-precip-processes-drop"/>
+  <path d="M548.7,182.6 L533.3,159.8" style="fill:none;stroke:var(--fig-teal);stroke-width:1.6;stroke-dasharray:4 3" marker-end="url(#uearth-7-precip-processes-ah-teal)"/>
+  <text x="520.0" y="106.0" class="uearth-7-precip-processes-c-violet" text-anchor="middle">빙정</text>
+  <text x="400.0" y="105.0" class="uearth-7-precip-processes-s">과냉각 물방울(증발하며 작아짐)</text>
+  <text x="608.0" y="210.0" class="uearth-7-precip-processes-c-teal" text-anchor="middle">수증기 이동</text>
+  <line x1="370" y1="262" x2="710" y2="262" style="stroke:var(--fig-red);stroke-width:1.4;stroke-dasharray:6 4"/>
+  <text x="708.0" y="256.0" class="uearth-7-precip-processes-c-red" text-anchor="end">0 °C 층</text>
+  <path d="M520.0,220.0 L520.0,244.0 M520.0,238.6 L517.9,242.2 M520.0,238.6 L522.1,242.2 M520.0,225.4 L522.1,221.8 M520.0,225.4 L517.9,221.8 M530.4,226.0 L509.6,238.0 M514.3,235.3 L510.1,235.3 M514.3,235.3 L512.2,238.9 M525.7,228.7 L529.9,228.7 M525.7,228.7 L527.8,225.1 M530.4,238.0 L509.6,226.0 M514.3,228.7 L512.2,225.1 M514.3,228.7 L510.1,228.7 M525.7,235.3 L527.8,238.9 M525.7,235.3 L529.9,235.3 " class="uearth-7-precip-processes-ice"/>
+  <path d="M520,246 L520,278" style="fill:none;stroke:var(--fig-violet);stroke-width:1.8" marker-end="url(#uearth-7-precip-processes-ah-violet)"/>
+  <text x="540.0" y="238.0" class="uearth-7-precip-processes-s">눈송이로 성장해 낙하</text>
+  <path d="M520,287.0 C526.0,296.0 530.0,301.0 530.0,305.0 A10,10 0 0,1 510.0,305.0 C510.0,301.0 514.0,296.0 520,287.0 Z" class="uearth-7-precip-processes-drop"/>
+  <text x="540.0" y="306.0" class="uearth-7-precip-processes-s">녹으면 비, 다 안 녹으면 눈</text>
+  <text x="370.0" y="365.0" class="uearth-7-precip-processes-t">같은 온도에서 e_s(얼음) < e_s(물) → 빙정 쪽이 과포화</text>
+  <text x="370.0" y="385.0" class="uearth-7-precip-processes-t">−10~−20 °C 층에서 가장 빨리 자란다(중위도 비의 대부분)</text>
+</svg>
