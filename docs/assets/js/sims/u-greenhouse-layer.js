@@ -72,11 +72,9 @@ Sims.register('u-greenhouse-layer', {
       ctx.globalAlpha = 0.25 + 0.75 * st.eps;
       ctx.fillStyle = T.figSoftViolet; ctx.fillRect(x0, layerY, x1 - x0, layerH);
       ctx.globalAlpha = 1; ctx.strokeStyle = T.figViolet; ctx.lineWidth = 1; ctx.strokeRect(x0, layerY, x1 - x0, layerH);
-      label('대기층  Ta = ' + (st.eps > 0 ? c.Ta.toFixed(0) + ' K' : '–') + ',  ε = ' + st.eps.toFixed(2), x0 + 6, layerY + 17, T.figViolet, 'left', true, T.figPanel);
       // 지표
       ctx.fillStyle = T.figSoftGreen; ctx.fillRect(x0, ground, x1 - x0, r.y + r.h - ground - 4);
       ctx.strokeStyle = T.figGreen; ctx.beginPath(); ctx.moveTo(x0, ground); ctx.lineTo(x1, ground); ctx.stroke();
-      label('지표  Ts = ' + c.Ts.toFixed(0) + ' K', x0 + 6, ground + 18, T.figGreen, 'left', true, T.figPanel);
       var W = function (v) { return Math.max(1.5, v / 40); };   // 선 굵기 ∝ 에너지
       var cols = r.w / 5;
       // 1) 태양 복사(입사 S/4)와 반사
@@ -104,6 +102,8 @@ Sims.register('u-greenhouse-layer', {
         arrow(xa, layerY + layerH + 2, xa, ground - 2, T.figViolet, W(c.layer));
         label('역복사 ' + c.layer.toFixed(0), xa + 6, (ground + layerY + layerH) / 2 + 4, T.figViolet, 'left', true);
       }
+      label('대기층  Ta = ' + (st.eps > 0 ? c.Ta.toFixed(0) + ' K' : '–') + ',  ε = ' + st.eps.toFixed(2), x0 + 6, layerY + 17, T.figViolet, 'left', true, T.figPanel);
+      label('지표  Ts = ' + c.Ts.toFixed(0) + ' K', x0 + 6, ground + 18, T.figGreen, 'left', true, T.figPanel);
       // 꼭대기 수지
       var out = through + c.layer;
       label('우주로 나가는 장파 ' + out.toFixed(0) + ' = Q ' + c.Q.toFixed(0) + '  (W/m²)', r.x + r.w - 12, top - 12, T.figInk, 'right', true);
