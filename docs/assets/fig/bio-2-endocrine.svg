@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 490" role="img" aria-labelledby="t-bio-2-endocrine d-bio-2-endocrine">
+  <title id="t-bio-2-endocrine">그림 생명과학 2-7 이 단원에 나오는 내분비샘의 위치</title>
+  <desc id="d-bio-2-endocrine">시상하부와 그 아래의 뇌하수체, 목의 갑상샘, 콩팥 위의 부신, 위 뒤쪽의 이자의 위치와 각 샘에서 분비되는 호르몬을 나타냈다. 점선은 인슐린·글루카곤의 표적인 간과 항이뇨 호르몬의 표적인 콩팥이다. 모식도(크기는 실제와 다름).</desc>
+  <style>
+    .b2end-lbl{font-size:13.5px;fill:var(--fig-ink)} .b2end-b{font-size:14.5px;font-weight:700;fill:var(--fig-ink)}
+    .b2end-sm{font-size:12.5px;fill:var(--fig-muted)} .b2end-lead{fill:none;stroke:var(--fig-muted);stroke-width:1.1}
+    .b2end-ink{fill:var(--fig-ink)} .b2end-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
+    
+  </style>
+  <circle cx="345" cy="56" r="40" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:2"/>
+  <path d="M330 94 L330 112 L270 124 Q248 130 246 156 L244 310 Q244 410 270 450 L420 450 Q446 410 446 310 L444 156 Q442 130 420 124 L360 112 L360 94 Z" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:2"/>
+  <path d="M256 236 Q310 222 364 234 Q354 260 310 274 Q268 278 256 264 Z" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.5;stroke-dasharray:4 3"/>
+  <text x="300.0" y="258.0" text-anchor="middle" class="b2end-sm">간</text>
+  <ellipse cx="280" cy="318" rx="13" ry="22" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.5;stroke-dasharray:4 3"/>
+  <ellipse cx="410" cy="318" rx="13" ry="22" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.5;stroke-dasharray:4 3"/>
+  <text x="280.0" y="358.0" text-anchor="middle" class="b2end-sm">콩팥</text>
+  <ellipse cx="345" cy="58" rx="16" ry="9" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="345" y1="67" x2="345" y2="74" style="stroke:var(--fig-violet);stroke-width:2.5"/>
+  <ellipse cx="345" cy="79" rx="8" ry="6" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <path d="M332 116 Q326 132 336 136 L354 136 Q364 132 358 116 Q350 126 345 126 Q340 126 332 116 Z" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <path d="M268 298 L280 284 L292 298 Z" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+  <path d="M398 298 L410 284 L422 298 Z" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+  <path d="M310 290 Q360 276 408 272 Q414 282 404 286 Q360 290 316 302 Q304 300 310 290 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <line x1="332.0" y1="58.0" x2="144.0" y2="35.0" class="b2end-lead"/>
+  <circle cx="332" cy="58" r="2.6" style="fill:var(--fig-ink)"/>
+  <text x="150.0" y="40.0" text-anchor="end" class="b2end-b">시상하부</text>
+  <text x="150.0" y="57.0" text-anchor="end" class="b2end-sm">TRH 분비, 항상성 조절 중추</text>
+  <text x="150.0" y="74.0" text-anchor="end" class="b2end-sm">뇌하수체를 조절</text>
+  <line x1="353.0" y1="79.0" x2="526.0" y2="55.0" class="b2end-lead"/>
+  <circle cx="353" cy="79" r="2.6" style="fill:var(--fig-ink)"/>
+  <text x="520.0" y="60.0" class="b2end-b">뇌하수체</text>
+  <text x="520.0" y="77.0" class="b2end-sm">전엽: TSH</text>
+  <text x="520.0" y="94.0" class="b2end-sm">후엽: 항이뇨 호르몬(ADH)</text>
+  <line x1="332.0" y1="128.0" x2="144.0" y2="135.0" class="b2end-lead"/>
+  <circle cx="332" cy="128" r="2.6" style="fill:var(--fig-ink)"/>
+  <text x="150.0" y="140.0" text-anchor="end" class="b2end-b">갑상샘</text>
+  <text x="150.0" y="157.0" text-anchor="end" class="b2end-sm">티록신(물질대사 촉진)</text>
+  <line x1="268.0" y1="294.0" x2="144.0" y2="285.0" class="b2end-lead"/>
+  <circle cx="268" cy="294" r="2.6" style="fill:var(--fig-ink)"/>
+  <text x="150.0" y="290.0" text-anchor="end" class="b2end-b">부신</text>
+  <text x="150.0" y="307.0" text-anchor="end" class="b2end-sm">속질: 에피네프린</text>
+  <text x="150.0" y="324.0" text-anchor="end" class="b2end-sm">(혈당 증가)</text>
+  <line x1="390.0" y1="280.0" x2="526.0" y2="265.0" class="b2end-lead"/>
+  <circle cx="390" cy="280" r="2.6" style="fill:var(--fig-ink)"/>
+  <text x="520.0" y="270.0" class="b2end-b">이자</text>
+  <text x="520.0" y="287.0" class="b2end-sm">β세포: 인슐린(혈당 감소)</text>
+  <text x="520.0" y="304.0" class="b2end-sm">α세포: 글루카곤(혈당 증가)</text>
+  <text x="520.0" y="330.0" class="b2end-sm">점선: 호르몬의 표적 기관 예</text>
+  <text x="520.0" y="347.0" class="b2end-sm">간 ← 인슐린·글루카곤</text>
+  <text x="520.0" y="364.0" class="b2end-sm">콩팥 ← 항이뇨 호르몬</text>
+  <text x="360.0" y="474.0" text-anchor="middle" class="b2end-sm">호르몬은 혈액을 따라 온몸으로 가지만, 수용체가 있는 표적 세포에만 작용한다</text>
+
+</svg>

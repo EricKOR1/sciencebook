@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-rxn-2-electron-staircase d-rxn-2-electron-staircase">
+  <title id="t-rxn-2-electron-staircase">그림 화학 반응의 세계 2-6 한꺼번에 태우기와 세포호흡의 단계적 전자 전달</title>
+  <desc id="d-rxn-2-electron-staircase">포도당을 한꺼번에 태우면 에너지가 한 번에 열로 흩어진다. 세포호흡에서는 포도당에서 떼어 낸 전자를 NADH가 실어 나르고, 전자 전달계 단백질을 따라 계단을 내려오듯 조금씩 넘겨 마지막에 산소에 건넨다. 그 사이에 나온 에너지로 ATP를 만든다. 계단의 높이와 개수는 모식적으로 나타냈다.</desc>
+  <style>
+    .rxn-2-electron-staircase-T{font-size:15px;fill:var(--fig-ink);font-weight:700}
+    .rxn-2-electron-staircase-f{font-size:14px;fill:var(--fig-ink);font-weight:600}
+    .rxn-2-electron-staircase-k{font-size:13px;fill:var(--fig-ink)}
+    .rxn-2-electron-staircase-s{font-size:13px;fill:var(--fig-muted)}
+    .rxn-2-electron-staircase-b{font-size:15px;fill:var(--fig-ink);font-weight:600}
+  </style>
+  <text x="112.0" y="24.0" text-anchor="middle" class="rxn-2-electron-staircase-T">한꺼번에 태우면 (연소)</text>
+  <rect x="37.0" y="46.0" width="150.0" height="40.0" rx="8" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <text x="112.0" y="71.0" text-anchor="middle" class="rxn-2-electron-staircase-f">포도당 + O₂</text>
+  <rect x="37.0" y="250.0" width="150.0" height="40.0" rx="8" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="112.0" y="275.0" text-anchor="middle" class="rxn-2-electron-staircase-f">CO₂ + H₂O</text>
+  <line x1="100.0" y1="90.0" x2="100.0" y2="231.4" style="stroke:var(--fig-red);stroke-width:6"/>
+  <path d="M100.0 244.0 L91.8 228.0 L108.2 228.0 Z" style="fill:var(--fig-red)"/>
+  <path d="M150 150 q-10 -18 2 -34 q2 16 12 20 q4 -12 0 -22 q18 14 12 36 q-6 16 -26 0 z" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <text x="126.0" y="180.0" text-anchor="start" class="rxn-2-electron-staircase-k">에너지가</text>
+  <text x="126.0" y="198.0" text-anchor="start" class="rxn-2-electron-staircase-k">한 번에 열로</text>
+  <line x1="228.0" y1="30.0" x2="228.0" y2="300.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
+  <text x="480.0" y="24.0" text-anchor="middle" class="rxn-2-electron-staircase-T">세포호흡 — 전자를 단계적으로 전달</text>
+  <rect x="344.0" y="66.0" width="54.0" height="8.0" rx="3" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <text x="338.0" y="75.0" text-anchor="end" class="rxn-2-electron-staircase-f">포도당</text>
+  <text x="338.0" y="93.0" text-anchor="end" class="rxn-2-electron-staircase-s">전자를 내준다</text>
+  <path d="M398 70 Q433.0 70 433.0 98" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
+  <path d="M433.0 104.0 L429.4 96.9 L436.6 96.9 Z" style="fill:var(--fig-amber)"/>
+  <circle cx="398.0" cy="70.0" r="4.5" style="fill:var(--fig-amber);stroke:none;stroke-width:0"/>
+  <rect x="406.0" y="108.0" width="54.0" height="8.0" rx="3" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <text x="400.0" y="117.0" text-anchor="end" class="rxn-2-electron-staircase-f">NADH</text>
+  <text x="400.0" y="135.0" text-anchor="end" class="rxn-2-electron-staircase-s">전자 운반체</text>
+  <path d="M460 112 Q495.0 112 495.0 140" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
+  <path d="M495.0 146.0 L491.4 138.9 L498.6 138.9 Z" style="fill:var(--fig-amber)"/>
+  <circle cx="460.0" cy="112.0" r="4.5" style="fill:var(--fig-amber);stroke:none;stroke-width:0"/>
+  <text x="503.0" y="134.0" text-anchor="start" class="rxn-2-electron-staircase-k" style="fill:var(--fig-green);font-weight:700">ATP</text>
+  <rect x="468.0" y="150.0" width="54.0" height="8.0" rx="3" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <text x="462.0" y="159.0" text-anchor="end" class="rxn-2-electron-staircase-f">단백질 1</text>
+  <path d="M522 154 Q557.0 154 557.0 182" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
+  <path d="M557.0 188.0 L553.4 180.9 L560.6 180.9 Z" style="fill:var(--fig-amber)"/>
+  <circle cx="522.0" cy="154.0" r="4.5" style="fill:var(--fig-amber);stroke:none;stroke-width:0"/>
+  <text x="565.0" y="176.0" text-anchor="start" class="rxn-2-electron-staircase-k" style="fill:var(--fig-green);font-weight:700">ATP</text>
+  <rect x="530.0" y="192.0" width="54.0" height="8.0" rx="3" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <text x="524.0" y="201.0" text-anchor="end" class="rxn-2-electron-staircase-f">단백질 2</text>
+  <path d="M584 196 Q619.0 196 619.0 224" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
+  <path d="M619.0 230.0 L615.4 222.9 L622.6 222.9 Z" style="fill:var(--fig-amber)"/>
+  <circle cx="584.0" cy="196.0" r="4.5" style="fill:var(--fig-amber);stroke:none;stroke-width:0"/>
+  <text x="627.0" y="218.0" text-anchor="start" class="rxn-2-electron-staircase-k" style="fill:var(--fig-green);font-weight:700">ATP</text>
+  <rect x="592.0" y="234.0" width="54.0" height="8.0" rx="3" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <text x="586.0" y="243.0" text-anchor="end" class="rxn-2-electron-staircase-f">단백질 3</text>
+  <path d="M646 238 Q681.0 238 681.0 266" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
+  <path d="M681.0 272.0 L677.4 264.9 L684.6 264.9 Z" style="fill:var(--fig-amber)"/>
+  <circle cx="646.0" cy="238.0" r="4.5" style="fill:var(--fig-amber);stroke:none;stroke-width:0"/>
+  <text x="689.0" y="260.0" text-anchor="start" class="rxn-2-electron-staircase-k" style="fill:var(--fig-green);font-weight:700">ATP</text>
+  <rect x="654.0" y="276.0" width="54.0" height="8.0" rx="3" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="648.0" y="285.0" text-anchor="end" class="rxn-2-electron-staircase-f">O₂ → H₂O</text>
+  <text x="648.0" y="303.0" text-anchor="end" class="rxn-2-electron-staircase-s">최종 전자 수용체</text>
+  <line x1="256.0" y1="64.0" x2="256.0" y2="285.7" style="stroke:var(--fig-muted);stroke-width:2"/>
+  <path d="M256.0 292.0 L251.9 284.0 L260.1 284.0 Z" style="fill:var(--fig-muted)"/>
+  <text x="264.0" y="72.0" text-anchor="start" class="rxn-2-electron-staircase-s">높음</text>
+  <text x="264.0" y="290.0" text-anchor="start" class="rxn-2-electron-staircase-s">낮음</text>
+  <text x="264.0" y="172.0" text-anchor="start" class="rxn-2-electron-staircase-s">전자의</text>
+  <text x="264.0" y="190.0" text-anchor="start" class="rxn-2-electron-staircase-s">에너지</text>
+  <text x="470.0" y="326.0" text-anchor="middle" class="rxn-2-electron-staircase-s">아래로 갈수록 전자를 끌어당기는 힘(환원 전위)이 크다 — 산소가 가장 아래에 있다.</text>
+</svg>

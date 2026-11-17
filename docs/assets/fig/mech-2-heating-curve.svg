@@ -5,8 +5,8 @@
   <path d="M700.0 290.0 L691.0 294.5 L691.0 285.5 Z" style="fill:var(--fig-ink);stroke:none"/>
   <line x1="80.0" y1="290.0" x2="80.0" y2="51.0" style="stroke:var(--fig-ink);stroke-width:1.5;fill:none"/>
   <path d="M80.0 42.0 L84.5 51.0 L75.5 51.0 Z" style="fill:var(--fig-ink);stroke:none"/>
-  <text x="696.0" y="312.0" text-anchor="end" style="font-size:13px;fill:var(--fig-muted)">가한 열 Q (kJ)</text>
-  <text x="72.0" y="54.0" style="font-size:13px;fill:var(--fig-muted)">온도(°C)</text>
+  <text x="696.0" y="280.0" text-anchor="end" style="font-size:13px;fill:var(--fig-muted)">가한 열 Q (kJ)</text>
+  <text x="90.0" y="54.0" style="font-size:13px;fill:var(--fig-muted)">온도(°C)</text>
   <line x1="75.0" y1="275.6" x2="80.0" y2="275.6" style="stroke:var(--fig-ink);stroke-width:1;fill:none"/>
   <text x="71.0" y="280.6" text-anchor="end" style="font-size:13px;fill:var(--fig-muted)">-20</text>
   <line x1="75.0" y1="246.9" x2="80.0" y2="246.9" style="stroke:var(--fig-ink);stroke-width:1;fill:none"/>
@@ -30,9 +30,8 @@
   <line x1="150.5" y1="246.9" x2="229.2" y2="103.1" style="stroke:var(--fig-green);stroke-width:4;fill:none"/>
   <line x1="229.2" y1="103.1" x2="653.0" y2="103.1" style="stroke:var(--fig-violet);stroke-width:4;fill:none"/>
   <line x1="653.0" y1="103.1" x2="660.5" y2="74.4" style="stroke:var(--fig-red);stroke-width:4;fill:none"/>
-  <text x="91.9" y="279.6" style="font-size:12px;fill:var(--fig-blue)">← 얼음 가열 42 kJ</text>
-  <text x="119.2" y="268.9" text-anchor="middle" style="font-size:13px;fill:var(--fig-teal);font-weight:600">융해 334 kJ</text>
-  <text x="119.2" y="284.9" text-anchor="middle" style="font-size:12px;fill:var(--fig-muted)">얼음+물</text>
+  <text x="95.9" y="269.2" style="font-size:12px;fill:var(--fig-blue)">← 얼음 가열 42 kJ</text>
+  <text x="133.2" y="234.9" text-anchor="middle" style="font-size:13px;fill:var(--fig-teal);font-weight:600">융해 334 kJ</text>
   <text x="211.9" y="183.0" style="font-size:13px;fill:var(--fig-green);font-weight:600">물 가열 420 kJ</text>
   <text x="441.1" y="91.1" text-anchor="middle" style="font-size:13px;fill:var(--fig-violet);font-weight:600">기화 2260 kJ (물+수증기, 온도 일정)</text>
   <text x="654.5" y="64.4" text-anchor="end" style="font-size:12px;fill:var(--fig-red)">수증기</text>

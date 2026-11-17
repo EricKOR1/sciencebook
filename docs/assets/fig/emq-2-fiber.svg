@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 268" role="img" aria-labelledby="t-emq-2-fiber d-emq-2-fiber">
+  <title id="t-emq-2-fiber">그림 전자기와 양자 2-8 광섬유 — 코어와 클래딩 경계의 전반사</title>
+  <desc id="d-emq-2-fiber">굴절률이 큰 코어를 굴절률이 조금 작은 클래딩이 감싼다. 경계면에 임계각보다 큰 입사각으로 닿은 빛은 전반사를 되풀이하며 코어에 갇혀 나아가고, 임계각보다 작은 각으로 닿은 빛은 클래딩으로 빠져나간다. 각을 과장한 모식도이다.</desc>
+  <rect x="40.0" y="62.0" width="640.0" height="140.0" rx="4" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.6"/>
+  <rect x="40.0" y="97.0" width="640.0" height="70.0" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.4"/>
+  <text x="670.0" y="86.0" text-anchor="end" style="font-size:13px;fill:var(--fig-ink)">클래딩 (굴절률 1.46)</text>
+  <text x="600.0" y="194.0" text-anchor="end" style="font-size:13px;fill:var(--fig-ink)">코어 (굴절률 1.48)</text>
+  <line x1="606.0" y1="190.0" x2="623.0" y2="162.7" style="fill:none;stroke:var(--fig-ink);stroke-width:1.2"/>
+  <path d="M626.0 158.0 L625.0 165.6 L619.6 162.3 Z" style="fill:var(--fig-ink)"/>
+  <path d="M40.0 152.0 L176.1 97.0 L349.4 167.0 L522.6 97.0 L680.0 160.6" style="fill:none;stroke:var(--fig-accent);stroke-width:2.4"/>
+  <path d="M112.7 122.6 L105.9 129.8 L102.8 122.2 Z" style="fill:var(--fig-accent)"/>
+  <path d="M267.4 133.9 L257.5 134.3 L260.6 126.7 Z" style="fill:var(--fig-accent)"/>
+  <path d="M440.6 130.1 L433.8 137.3 L430.8 129.7 Z" style="fill:var(--fig-accent)"/>
+  <path d="M606.0 130.7 L596.1 131.0 L599.1 123.5 Z" style="fill:var(--fig-accent)"/>
+  <line x1="349.4" y1="115.0" x2="349.4" y2="187.0" style="fill:none;stroke:var(--fig-ink);stroke-width:1.2;stroke-dasharray:4 3"/>
+  <path d="M325.3 157.3 L326.4 154.9 L327.7 152.7 L329.2 150.6 L330.9 148.7 L332.8 147.0 L334.8 145.4 L337.0 144.1 L339.4 143.0 L341.8 142.1 L344.3 141.5 L346.8 141.1 L349.4 141.0" style="fill:none;stroke:var(--fig-ink);stroke-width:1.4"/>
+  <text x="337.4" y="137.0" text-anchor="end" style="font-size:14px;fill:var(--fig-ink);font-weight:700;font-style:italic">θ</text>
+  <text x="349.4" y="222.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-accent)">θ > 임계각: 전반사를 되풀이하며 갇혀 나아간다</text>
+  <path d="M40.0 140.0 L70.1 97.0 L95.1 62.0 L130.3 40.0" style="fill:none;stroke:var(--fig-amber);stroke-width:2.2"/>
+  <path d="M130.3 40.0 L124.8 48.2 L120.6 41.3 Z" style="fill:var(--fig-amber)"/>
+  <line x1="70.1" y1="97.0" x2="90.1" y2="125.0" style="fill:none;stroke:var(--fig-amber);stroke-width:1.2;stroke-dasharray:3 3"/>
+  <text x="140.3" y="40.0" style="font-size:13px;fill:var(--fig-amber)">임계각보다 작은 각 → 클래딩으로 빠져나간다</text>
+  <text x="360.0" y="258.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-muted)">모식도: 실제로는 빛이 축에 훨씬 더 나란하게(경계면 입사각 약 81° 이상) 나아간다</text>
+</svg>

@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-labelledby="t-gene-1-polygenic d-gene-1-polygenic">
+  <title id="t-gene-1-polygenic">그림 생물의 유전 1-4 관여하는 유전자 수에 따른 표현형 분포</title>
+  <desc id="d-gene-1-polygenic">대문자 대립유전자 하나마다 형질이 같은 양씩 더해진다고 할 때(누적 효과), 이형 접합 부모 사이 자녀의 표현형 분포이다. 유전자 1쌍이면 1:2:1의 3가지, 3쌍이면 1:6:15:20:15:6:1의 7가지 계단 모양이고, 유전자가 아주 많고 환경의 영향까지 더해지면 매끄러운 종 모양(연속 변이)이 된다. 세로축은 각 그래프에서 가장 큰 값을 같은 높이로 맞춘 상대 비율이다.</desc>
+  <style>
+    .gene-1-polygenic-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .gene-1-polygenic-tx{font-size:14px;fill:var(--fig-ink)}
+    .gene-1-polygenic-sm{font-size:13px;fill:var(--fig-muted)}
+    .gene-1-polygenic-mono{font-size:14px;font-weight:600;fill:var(--fig-ink);letter-spacing:1px}
+    .gene-1-polygenic-ln{fill:none;stroke:var(--fig-ink);stroke-width:2}
+    .gene-1-polygenic-lnm{fill:none;stroke:var(--fig-line);stroke-width:1.5}
+    .gene-1-polygenic-dash{fill:none;stroke:var(--fig-line);stroke-width:1.5;stroke-dasharray:5 4}
+    .gene-1-polygenic-ink{fill:var(--fig-ink)}
+    .gene-1-polygenic-paper{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5}
+    .gene-1-polygenic-gray{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.5}
+    .gene-1-polygenic-b-blue{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2}
+    .gene-1-polygenic-f-blue{fill:var(--fig-blue)}
+    .gene-1-polygenic-s-blue{fill:none;stroke:var(--fig-blue);stroke-width:2.5}
+    .gene-1-polygenic-t-blue{fill:var(--fig-blue)}
+    .gene-1-polygenic-b-red{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2}
+    .gene-1-polygenic-f-red{fill:var(--fig-red)}
+    .gene-1-polygenic-s-red{fill:none;stroke:var(--fig-red);stroke-width:2.5}
+    .gene-1-polygenic-t-red{fill:var(--fig-red)}
+    .gene-1-polygenic-b-green{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2}
+    .gene-1-polygenic-f-green{fill:var(--fig-green)}
+    .gene-1-polygenic-s-green{fill:none;stroke:var(--fig-green);stroke-width:2.5}
+    .gene-1-polygenic-t-green{fill:var(--fig-green)}
+    .gene-1-polygenic-b-amber{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+    .gene-1-polygenic-f-amber{fill:var(--fig-amber)}
+    .gene-1-polygenic-s-amber{fill:none;stroke:var(--fig-amber);stroke-width:2.5}
+    .gene-1-polygenic-t-amber{fill:var(--fig-amber)}
+    .gene-1-polygenic-b-violet{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2}
+    .gene-1-polygenic-f-violet{fill:var(--fig-violet)}
+    .gene-1-polygenic-s-violet{fill:none;stroke:var(--fig-violet);stroke-width:2.5}
+    .gene-1-polygenic-t-violet{fill:var(--fig-violet)}
+    .gene-1-polygenic-b-teal{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2}
+    .gene-1-polygenic-f-teal{fill:var(--fig-teal)}
+    .gene-1-polygenic-s-teal{fill:none;stroke:var(--fig-teal);stroke-width:2.5}
+    .gene-1-polygenic-t-teal{fill:var(--fig-teal)}
+  </style>
+  <text x="124.0" y="40.0" text-anchor="middle" class="gene-1-polygenic-h" style="font-size:14px">유전자 1쌍 (Aa × Aa)</text>
+  <line x1="30.0" y1="250.0" x2="224.0" y2="250.0" class="gene-1-polygenic-ln"/>
+  <line x1="30.0" y1="250.0" x2="30.0" y2="64.0" class="gene-1-polygenic-ln"/>
+  <rect x="40.0" y="160.0" width="55.3" height="90.0" rx="0" class="gene-1-polygenic-b-blue"/>
+  <text x="67.7" y="154.0" text-anchor="middle" class="gene-1-polygenic-sm" style="font-size:12px">1</text>
+  <text x="67.7" y="268.0" text-anchor="middle" class="gene-1-polygenic-sm" style="font-size:12px">0</text>
+  <rect x="99.3" y="70.0" width="55.3" height="180.0" rx="0" class="gene-1-polygenic-b-blue"/>
+  <text x="127.0" y="64.0" text-anchor="middle" class="gene-1-polygenic-sm" style="font-size:12px">2</text>
+  <text x="127.0" y="268.0" text-anchor="middle" class="gene-1-polygenic-sm" style="font-size:12px">1</text>
+  <rect x="158.7" y="160.0" width="55.3" height="90.0" rx="0" class="gene-1-polygenic-b-blue"/>
+  <text x="186.3" y="154.0" text-anchor="middle" class="gene-1-polygenic-sm" style="font-size:12px">1</text>
+  <text x="186.3" y="268.0" text-anchor="middle" class="gene-1-polygenic-sm" style="font-size:12px">2</text>
+  <text x="124.0" y="290.0" text-anchor="middle" class="gene-1-polygenic-sm">대문자 대립유전자 수</text>
+  <text x="124.0" y="308.0" text-anchor="middle" class="gene-1-polygenic-sm">(3가지 표현형)</text>
+  <text x="24.0" y="56.0" class="gene-1-polygenic-sm">비율</text>
+  <text x="360.0" y="40.0" text-anchor="middle" class="gene-1-polygenic-h" style="font-size:14px">유전자 3쌍 (AaBbCc × AaBbCc)</text>
+  <line x1="266.0" y1="250.0" x2="460.0" y2="250.0" class="gene-1-polygenic-ln"/>
+  <line x1="266.0" y1="250.0" x2="266.0" y2="64.0" class="gene-1-polygenic-ln"/>
+  <rect x="276.0" y="241.0" width="21.4" height="9.0" rx="0" class="gene-1-polygenic-b-blue"/>
+  <text x="286.7" y="235.0" text-anchor="middle" class="gene-1-polygenic-sm" style="font-size:12px">1</text>
+  <text x="286.7" y="268.0" text-anchor="middle" class="gene-1-polygenic-sm" style="font-size:12px">0</text>
+  <rect x="301.4" y="196.0" width="21.4" height="54.0" rx="0" class="gene-1-polygenic-b-blue"/>
+  <text x="312.1" y="190.0" text-anchor="middle" class="gene-1-polygenic-sm" style="font-size:12px">6</text>
+  <text x="312.1" y="268.0" text-anchor="middle" class="gene-1-polygenic-sm" style="font-size:12px">1</text>
+  <rect x="326.9" y="115.0" width="21.4" height="135.0" rx="0" class="gene-1-polygenic-b-blue"/>
+  <text x="337.6" y="109.0" text-anchor="middle" class="gene-1-polygenic-sm" style="font-size:12px">15</text>
+  <text x="337.6" y="268.0" text-anchor="middle" class="gene-1-polygenic-sm" style="font-size:12px">2</text>
+  <rect x="352.3" y="70.0" width="21.4" height="180.0" rx="0" class="gene-1-polygenic-b-blue"/>
+  <text x="363.0" y="64.0" text-anchor="middle" class="gene-1-polygenic-sm" style="font-size:12px">20</text>
+  <text x="363.0" y="268.0" text-anchor="middle" class="gene-1-polygenic-sm" style="font-size:12px">3</text>
+  <rect x="377.7" y="115.0" width="21.4" height="135.0" rx="0" class="gene-1-polygenic-b-blue"/>
+  <text x="388.4" y="109.0" text-anchor="middle" class="gene-1-polygenic-sm" style="font-size:12px">15</text>
+  <text x="388.4" y="268.0" text-anchor="middle" class="gene-1-polygenic-sm" style="font-size:12px">4</text>
+  <rect x="403.1" y="196.0" width="21.4" height="54.0" rx="0" class="gene-1-polygenic-b-blue"/>
+  <text x="413.9" y="190.0" text-anchor="middle" class="gene-1-polygenic-sm" style="font-size:12px">6</text>
+  <text x="413.9" y="268.0" text-anchor="middle" class="gene-1-polygenic-sm" style="font-size:12px">5</text>
+  <rect x="428.6" y="241.0" width="21.4" height="9.0" rx="0" class="gene-1-polygenic-b-blue"/>
+  <text x="439.3" y="235.0" text-anchor="middle" class="gene-1-polygenic-sm" style="font-size:12px">1</text>
+  <text x="439.3" y="268.0" text-anchor="middle" class="gene-1-polygenic-sm" style="font-size:12px">6</text>
+  <text x="360.0" y="290.0" text-anchor="middle" class="gene-1-polygenic-sm">대문자 대립유전자 수</text>
+  <text x="360.0" y="308.0" text-anchor="middle" class="gene-1-polygenic-sm">(7가지 표현형)</text>
+  <text x="260.0" y="56.0" class="gene-1-polygenic-sm">비율</text>
+  <text x="596.0" y="40.0" text-anchor="middle" class="gene-1-polygenic-h" style="font-size:14px">유전자 많음 + 환경</text>
+  <line x1="502.0" y1="250.0" x2="696.0" y2="250.0" class="gene-1-polygenic-ln"/>
+  <line x1="502.0" y1="250.0" x2="502.0" y2="64.0" class="gene-1-polygenic-ln"/>
+  <rect x="510.5" y="250.0" width="7.5" height="0.0" rx="0" class="gene-1-polygenic-b-blue" style="stroke-width:0.8;opacity:0.6"/>
+  <rect x="519.0" y="250.0" width="7.5" height="0.0" rx="0" class="gene-1-polygenic-b-blue" style="stroke-width:0.8;opacity:0.6"/>
+  <rect x="527.5" y="249.8" width="7.5" height="0.2" rx="0" class="gene-1-polygenic-b-blue" style="stroke-width:0.8;opacity:0.6"/>
+  <rect x="535.9" y="248.9" width="7.5" height="1.1" rx="0" class="gene-1-polygenic-b-blue" style="stroke-width:0.8;opacity:0.6"/>
+  <rect x="544.4" y="245.3" width="7.5" height="4.7" rx="0" class="gene-1-polygenic-b-blue" style="stroke-width:0.8;opacity:0.6"/>
+  <rect x="552.9" y="234.9" width="7.5" height="15.1" rx="0" class="gene-1-polygenic-b-blue" style="stroke-width:0.8;opacity:0.6"/>
+  <rect x="561.4" y="212.2" width="7.5" height="37.8" rx="0" class="gene-1-polygenic-b-blue" style="stroke-width:0.8;opacity:0.6"/>
+  <rect x="569.8" y="174.5" width="7.5" height="75.5" rx="0" class="gene-1-polygenic-b-blue" style="stroke-width:0.8;opacity:0.6"/>
+  <rect x="578.3" y="127.3" width="7.5" height="122.7" rx="0" class="gene-1-polygenic-b-blue" style="stroke-width:0.8;opacity:0.6"/>
+  <rect x="586.8" y="86.4" width="7.5" height="163.6" rx="0" class="gene-1-polygenic-b-blue" style="stroke-width:0.8;opacity:0.6"/>
+  <rect x="595.3" y="70.0" width="7.5" height="180.0" rx="0" class="gene-1-polygenic-b-blue" style="stroke-width:0.8;opacity:0.6"/>
+  <rect x="603.7" y="86.4" width="7.5" height="163.6" rx="0" class="gene-1-polygenic-b-blue" style="stroke-width:0.8;opacity:0.6"/>
+  <rect x="612.2" y="127.3" width="7.5" height="122.7" rx="0" class="gene-1-polygenic-b-blue" style="stroke-width:0.8;opacity:0.6"/>
+  <rect x="620.7" y="174.5" width="7.5" height="75.5" rx="0" class="gene-1-polygenic-b-blue" style="stroke-width:0.8;opacity:0.6"/>
+  <rect x="629.2" y="212.2" width="7.5" height="37.8" rx="0" class="gene-1-polygenic-b-blue" style="stroke-width:0.8;opacity:0.6"/>
+  <rect x="637.6" y="234.9" width="7.5" height="15.1" rx="0" class="gene-1-polygenic-b-blue" style="stroke-width:0.8;opacity:0.6"/>
+  <rect x="646.1" y="245.3" width="7.5" height="4.7" rx="0" class="gene-1-polygenic-b-blue" style="stroke-width:0.8;opacity:0.6"/>
+  <rect x="654.6" y="248.9" width="7.5" height="1.1" rx="0" class="gene-1-polygenic-b-blue" style="stroke-width:0.8;opacity:0.6"/>
+  <rect x="663.1" y="249.8" width="7.5" height="0.2" rx="0" class="gene-1-polygenic-b-blue" style="stroke-width:0.8;opacity:0.6"/>
+  <rect x="671.5" y="250.0" width="7.5" height="0.0" rx="0" class="gene-1-polygenic-b-blue" style="stroke-width:0.8;opacity:0.6"/>
+  <rect x="680.0" y="250.0" width="7.5" height="0.0" rx="0" class="gene-1-polygenic-b-blue" style="stroke-width:0.8;opacity:0.6"/>
+  <path d="M506.0 249.9 L507.9 249.9 L509.7 249.9 L511.6 249.8 L513.4 249.8 L515.3 249.7 L517.2 249.6 L519.0 249.5 L520.9 249.4 L522.7 249.2 L524.6 248.9 L526.5 248.6 L528.3 248.3 L530.2 247.8 L532.0 247.3 L533.9 246.6 L535.8 245.8 L537.6 244.9 L539.5 243.7 L541.3 242.4 L543.2 240.8 L545.1 238.9 L546.9 236.8 L548.8 234.4 L550.6 231.6 L552.5 228.5 L554.4 225.0 L556.2 221.1 L558.1 216.8 L559.9 212.1 L561.8 207.0 L563.7 201.5 L565.5 195.6 L567.4 189.4 L569.2 182.9 L571.1 176.2 L573.0 169.3 L574.8 162.3 L576.7 155.3 L578.5 148.3 L580.4 141.5 L582.3 135.0 L584.1 128.8 L586.0 123.1 L587.8 117.9 L589.7 113.3 L591.6 109.5 L593.4 106.4 L595.3 104.2 L597.1 102.9 L599.0 102.4 L600.9 102.9 L602.7 104.2 L604.6 106.4 L606.4 109.5 L608.3 113.3 L610.2 117.9 L612.0 123.1 L613.9 128.8 L615.7 135.0 L617.6 141.5 L619.5 148.3 L621.3 155.3 L623.2 162.3 L625.0 169.3 L626.9 176.2 L628.8 182.9 L630.6 189.4 L632.5 195.6 L634.3 201.5 L636.2 207.0 L638.1 212.1 L639.9 216.8 L641.8 221.1 L643.6 225.0 L645.5 228.5 L647.4 231.6 L649.2 234.4 L651.1 236.8 L652.9 238.9 L654.8 240.8 L656.7 242.4 L658.5 243.7 L660.4 244.9 L662.2 245.8 L664.1 246.6 L666.0 247.3 L667.8 247.8 L669.7 248.3 L671.5 248.6 L673.4 248.9 L675.3 249.2 L677.1 249.4 L679.0 249.5 L680.8 249.6 L682.7 249.7 L684.6 249.8 L686.4 249.8 L688.3 249.9 L690.1 249.9 L692.0 249.9" class="gene-1-polygenic-s-red"/>
+  <text x="596.0" y="272.0" text-anchor="middle" class="gene-1-polygenic-sm">키, 피부색 등 (연속 변이)</text>
+  <text x="596.0" y="290.0" text-anchor="middle" class="gene-1-polygenic-sm">막대: 유전자 10쌍의 예</text>
+  <text x="596.0" y="308.0" text-anchor="middle" class="gene-1-polygenic-sm" style="fill:var(--fig-red)">곡선: 환경까지 더한 분포</text>
+  <text x="496.0" y="56.0" class="gene-1-polygenic-sm">비율</text>
+</svg>

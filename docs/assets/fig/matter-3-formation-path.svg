@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 424" role="img" aria-labelledby="t-matter-3-formation-path d-matter-3-formation-path">
+  <title id="t-matter-3-formation-path">그림 물질과 에너지 3-5 생성 엔탈피로 반응 엔탈피 구하기</title>
+  <desc id="d-matter-3-formation-path">에탄올의 연소를, 에탄올을 성분 원소로 분해하는 단계(+277.7 kJ)와 원소로부터 이산화 탄소와 물을 만드는 단계(−1644.4 kJ)로 나누어 생각하면 두 값의 합이 직접 반응의 엔탈피(−1366.7 kJ)와 같다. 층의 높이 차는 실제 값에 비례하게 그렸다.</desc>
+  <style>
+    .matter-3-formation-path-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.5}
+    .matter-3-formation-path-gr{fill:none;stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4}
+    .matter-3-formation-path-g{fill:none;stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:4 4}
+    .matter-3-formation-path-lv{fill:none;stroke:var(--fig-ink);stroke-width:3;stroke-linecap:round}
+    .matter-3-formation-path-ink{fill:var(--fig-ink)}
+    .matter-3-formation-path-l{font-size:14px;fill:var(--fig-ink)}
+    .matter-3-formation-path-b{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .matter-3-formation-path-s{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .matter-3-formation-path-t{font-size:13px;fill:var(--fig-muted)}
+  </style>
+  <path d="M40 30 L40 380" style="fill:none;stroke:var(--fig-muted);stroke-width:1.4"/>
+  <path d="M40 22 l-5 10 l10 0 z" style="fill:var(--fig-muted)"/>
+  <text x="50.0" y="30.0" class="matter-3-formation-path-t">엔탈피 H</text>
+  <line x1="300" y1="80.0" x2="690" y2="80.0" class="matter-3-formation-path-lv"/>
+  <text x="690.0" y="68.0" text-anchor="end" class="matter-3-formation-path-s">2C(s, 흑연) + 3H₂(g) + ⁷⁄₂O₂(g)</text>
+  <text x="690.0" y="102.0" text-anchor="end" class="matter-3-formation-path-t">성분 원소 (생성 엔탈피 0)</text>
+  <line x1="70" y1="127.3" x2="400" y2="127.3" class="matter-3-formation-path-lv"/>
+  <text x="70.0" y="115.3" class="matter-3-formation-path-s">C₂H₅OH(l) + 3O₂(g)</text>
+  <line x1="70" y1="360.0" x2="690" y2="360.0" class="matter-3-formation-path-lv"/>
+  <text x="690.0" y="384.0" text-anchor="end" class="matter-3-formation-path-s">2CO₂(g) + 3H₂O(l)</text>
+  <line x1="150.0" y1="131.3" x2="150.0" y2="345.0" style="stroke:var(--fig-red);stroke-width:3;fill:none"/>
+  <path d="M150.0 357.0 L144.0 345.0 L156.0 345.0 Z" style="fill:var(--fig-red)"/>
+  <text x="162.0" y="225.0" class="matter-3-formation-path-s" style="fill:var(--fig-red)">직접 반응</text>
+  <text x="162.0" y="245.0" class="matter-3-formation-path-b" style="fill:var(--fig-red)">ΔH = −1366.7 kJ</text>
+  <line x1="340.0" y1="124.3" x2="340.0" y2="93.0" style="stroke:var(--fig-blue);stroke-width:3;fill:none"/>
+  <path d="M340.0 83.0 L345.0 93.0 L335.0 93.0 Z" style="fill:var(--fig-blue)"/>
+  <text x="332.0" y="113.3" text-anchor="end" class="matter-3-formation-path-s" style="fill:var(--fig-blue)">① 분해</text>
+  <text x="350.0" y="111.6" class="matter-3-formation-path-s" style="fill:var(--fig-blue)">+277.7 kJ</text>
+  <line x1="540.0" y1="84.0" x2="540.0" y2="345.0" style="stroke:var(--fig-blue);stroke-width:3;fill:none"/>
+  <path d="M540.0 357.0 L534.0 345.0 L546.0 345.0 Z" style="fill:var(--fig-blue)"/>
+  <text x="552.0" y="205.0" class="matter-3-formation-path-s" style="fill:var(--fig-blue)">② 원소로부터 생성</text>
+  <text x="552.0" y="225.0" class="matter-3-formation-path-t">2(−393.5) + 3(−285.8)</text>
+  <text x="552.0" y="243.0" class="matter-3-formation-path-s" style="fill:var(--fig-blue)">= −1644.4 kJ</text>
+  <text x="380.0" y="300.0" text-anchor="middle" class="matter-3-formation-path-t">(+277.7) + (−1644.4) = −1366.7 kJ</text>
+  <text x="360.0" y="412.0" text-anchor="middle" class="matter-3-formation-path-t">반응물을 성분 원소로 분해했다가(①) 생성물을 만드는(②) 가상의 경로로 돌아가도 ΔH는 같다</text>
+</svg>

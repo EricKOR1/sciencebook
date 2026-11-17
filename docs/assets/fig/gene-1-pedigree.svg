@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-gene-1-pedigree d-gene-1-pedigree">
+  <title id="t-gene-1-pedigree">그림 생물의 유전 1-3 가계도 기호와 가계도 분석의 예</title>
+  <desc id="d-gene-1-pedigree">왼쪽은 가계도 기호(네모는 남자, 동그라미는 여자, 색칠은 형질이 나타난 사람, 가로줄은 부부, 세로줄은 자녀)이다. 가운데는 예제 2의 가계도로, 정상인 부모 1, 2 사이에서 유전병인 딸 3이 태어나 열성이고, 딸 3의 아버지가 정상이므로 상염색체 열성이다. 오른쪽은 X 염색체 열성인 적록 색맹의 예로, 보인자 어머니에게서 색맹 아들이 태어난다.</desc>
+  <style>
+    .gene-1-pedigree-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .gene-1-pedigree-tx{font-size:14px;fill:var(--fig-ink)}
+    .gene-1-pedigree-sm{font-size:13px;fill:var(--fig-muted)}
+    .gene-1-pedigree-mono{font-size:14px;font-weight:600;fill:var(--fig-ink);letter-spacing:1px}
+    .gene-1-pedigree-ln{fill:none;stroke:var(--fig-ink);stroke-width:2}
+    .gene-1-pedigree-lnm{fill:none;stroke:var(--fig-line);stroke-width:1.5}
+    .gene-1-pedigree-dash{fill:none;stroke:var(--fig-line);stroke-width:1.5;stroke-dasharray:5 4}
+    .gene-1-pedigree-ink{fill:var(--fig-ink)}
+    .gene-1-pedigree-paper{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5}
+    .gene-1-pedigree-gray{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.5}
+    .gene-1-pedigree-b-blue{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2}
+    .gene-1-pedigree-f-blue{fill:var(--fig-blue)}
+    .gene-1-pedigree-s-blue{fill:none;stroke:var(--fig-blue);stroke-width:2.5}
+    .gene-1-pedigree-t-blue{fill:var(--fig-blue)}
+    .gene-1-pedigree-b-red{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2}
+    .gene-1-pedigree-f-red{fill:var(--fig-red)}
+    .gene-1-pedigree-s-red{fill:none;stroke:var(--fig-red);stroke-width:2.5}
+    .gene-1-pedigree-t-red{fill:var(--fig-red)}
+    .gene-1-pedigree-b-green{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2}
+    .gene-1-pedigree-f-green{fill:var(--fig-green)}
+    .gene-1-pedigree-s-green{fill:none;stroke:var(--fig-green);stroke-width:2.5}
+    .gene-1-pedigree-t-green{fill:var(--fig-green)}
+    .gene-1-pedigree-b-amber{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+    .gene-1-pedigree-f-amber{fill:var(--fig-amber)}
+    .gene-1-pedigree-s-amber{fill:none;stroke:var(--fig-amber);stroke-width:2.5}
+    .gene-1-pedigree-t-amber{fill:var(--fig-amber)}
+    .gene-1-pedigree-b-violet{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2}
+    .gene-1-pedigree-f-violet{fill:var(--fig-violet)}
+    .gene-1-pedigree-s-violet{fill:none;stroke:var(--fig-violet);stroke-width:2.5}
+    .gene-1-pedigree-t-violet{fill:var(--fig-violet)}
+    .gene-1-pedigree-b-teal{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2}
+    .gene-1-pedigree-f-teal{fill:var(--fig-teal)}
+    .gene-1-pedigree-s-teal{fill:none;stroke:var(--fig-teal);stroke-width:2.5}
+    .gene-1-pedigree-t-teal{fill:var(--fig-teal)}
+  </style>
+  <rect x="14.0" y="14.0" width="186.0" height="332.0" rx="8" class="gene-1-pedigree-gray"/>
+  <rect x="214.0" y="14.0" width="246.0" height="332.0" rx="8" class="gene-1-pedigree-gray"/>
+  <rect x="474.0" y="14.0" width="232.0" height="332.0" rx="8" class="gene-1-pedigree-gray"/>
+  <text x="30.0" y="42.0" class="gene-1-pedigree-h">가계도 기호</text>
+  <rect x="31.0" y="61.0" width="30.0" height="30.0" rx="0" class="gene-1-pedigree-paper"/>
+  <text x="72.0" y="81.0" class="gene-1-pedigree-tx">정상 남자</text>
+  <rect x="31.0" y="103.0" width="30.0" height="30.0" rx="0" class="gene-1-pedigree-b-violet" style="fill:var(--fig-violet)"/>
+  <text x="72.0" y="123.0" class="gene-1-pedigree-tx" style="font-size:13px">형질이 나타난 남자</text>
+  <circle cx="46.0" cy="160.0" r="15.0" class="gene-1-pedigree-paper"/>
+  <text x="72.0" y="165.0" class="gene-1-pedigree-tx">정상 여자</text>
+  <circle cx="46.0" cy="202.0" r="15.0" class="gene-1-pedigree-b-violet" style="fill:var(--fig-violet)"/>
+  <text x="72.0" y="207.0" class="gene-1-pedigree-tx" style="font-size:13px">형질이 나타난 여자</text>
+  <line x1="34.0" y1="242.0" x2="90.0" y2="242.0" class="gene-1-pedigree-ln"/>
+  <text x="100.0" y="247.0" class="gene-1-pedigree-tx">부부</text>
+  <line x1="46.0" y1="266.0" x2="46.0" y2="296.0" class="gene-1-pedigree-ln"/>
+  <line x1="30.0" y1="266.0" x2="62.0" y2="266.0" class="gene-1-pedigree-lnm"/>
+  <text x="72.0" y="286.0" class="gene-1-pedigree-tx">자녀(세로줄)</text>
+  <text x="30.0" y="328.0" class="gene-1-pedigree-sm">Ⅰ, Ⅱ = 세대</text>
+  <text x="230.0" y="42.0" class="gene-1-pedigree-h">예제 2 — 상염색체 열성</text>
+  <text x="226.0" y="104.0" class="gene-1-pedigree-sm">Ⅰ</text>
+  <text x="226.0" y="196.0" class="gene-1-pedigree-sm">Ⅱ</text>
+  <rect x="270.0" y="85.0" width="30.0" height="30.0" rx="0" class="gene-1-pedigree-paper"/>
+  <circle cx="395.0" cy="100.0" r="15.0" class="gene-1-pedigree-paper"/>
+  <line x1="300.0" y1="100.0" x2="380.0" y2="100.0" class="gene-1-pedigree-ln"/>
+  <line x1="340.0" y1="100.0" x2="340.0" y2="146.0" class="gene-1-pedigree-ln"/>
+  <line x1="295.0" y1="146.0" x2="385.0" y2="146.0" class="gene-1-pedigree-ln"/>
+  <line x1="295.0" y1="146.0" x2="295.0" y2="176.0" class="gene-1-pedigree-ln"/>
+  <line x1="385.0" y1="146.0" x2="385.0" y2="176.0" class="gene-1-pedigree-ln"/>
+  <circle cx="295.0" cy="192.0" r="15.0" class="gene-1-pedigree-b-violet" style="fill:var(--fig-violet)"/>
+  <rect x="370.0" y="177.0" width="30.0" height="30.0" rx="0" class="gene-1-pedigree-paper"/>
+  <text x="285.0" y="105.0" text-anchor="middle" class="gene-1-pedigree-tx">1</text>
+  <text x="395.0" y="105.0" text-anchor="middle" class="gene-1-pedigree-tx">2</text>
+  <text x="385.0" y="197.0" text-anchor="middle" class="gene-1-pedigree-tx">4</text>
+  <text x="295.0" y="197.0" text-anchor="middle" class="gene-1-pedigree-tx" style="fill:var(--fig-panel);font-weight:700">3</text>
+  <text x="285.0" y="136.0" text-anchor="middle" class="gene-1-pedigree-tx" style="fill:var(--fig-accent);font-weight:600">Aa</text>
+  <text x="395.0" y="136.0" text-anchor="middle" class="gene-1-pedigree-tx" style="fill:var(--fig-accent);font-weight:600">Aa</text>
+  <text x="295.0" y="228.0" text-anchor="middle" class="gene-1-pedigree-tx" style="fill:var(--fig-accent);font-weight:600">aa</text>
+  <text x="385.0" y="228.0" text-anchor="middle" class="gene-1-pedigree-tx" style="fill:var(--fig-accent);font-weight:600">AA 또는 Aa</text>
+  <text x="230.0" y="262.0" class="gene-1-pedigree-tx" style="font-size:13px">① 정상 부모 → 형질 자녀: 열성</text>
+  <text x="230.0" y="282.0" class="gene-1-pedigree-tx" style="font-size:13px">② 형질인 딸 3의 아버지 1이 정상</text>
+  <text x="230.0" y="302.0" class="gene-1-pedigree-tx" style="font-size:13px">   → X 염색체 열성이 아니다</text>
+  <text x="230.0" y="322.0" class="gene-1-pedigree-tx" style="font-size:13px">③ 4가 Aa일 확률 = 2/3</text>
+  <text x="490.0" y="42.0" class="gene-1-pedigree-h">적록 색맹 — X 염색체 열성</text>
+  <rect x="520.0" y="85.0" width="30.0" height="30.0" rx="0" class="gene-1-pedigree-paper"/>
+  <circle cx="645.0" cy="100.0" r="15.0" class="gene-1-pedigree-paper"/>
+  <line x1="550.0" y1="100.0" x2="630.0" y2="100.0" class="gene-1-pedigree-ln"/>
+  <line x1="590.0" y1="100.0" x2="590.0" y2="146.0" class="gene-1-pedigree-ln"/>
+  <line x1="520.0" y1="146.0" x2="660.0" y2="146.0" class="gene-1-pedigree-ln"/>
+  <line x1="520.0" y1="146.0" x2="520.0" y2="176.0" class="gene-1-pedigree-ln"/>
+  <line x1="590.0" y1="146.0" x2="590.0" y2="176.0" class="gene-1-pedigree-ln"/>
+  <line x1="660.0" y1="146.0" x2="660.0" y2="176.0" class="gene-1-pedigree-ln"/>
+  <rect x="505.0" y="177.0" width="30.0" height="30.0" rx="0" class="gene-1-pedigree-b-violet" style="fill:var(--fig-violet)"/>
+  <circle cx="590.0" cy="192.0" r="15.0" class="gene-1-pedigree-paper"/>
+  <rect x="645.0" y="177.0" width="30.0" height="30.0" rx="0" class="gene-1-pedigree-paper"/>
+  <text x="535.0" y="136.0" text-anchor="middle" class="gene-1-pedigree-tx" style="fill:var(--fig-accent);font-weight:600">X<tspan baseline-shift="super" style="font-size:10px">R</tspan>Y</text>
+  <text x="645.0" y="136.0" text-anchor="middle" class="gene-1-pedigree-tx" style="fill:var(--fig-accent);font-weight:600">X<tspan baseline-shift="super" style="font-size:10px">R</tspan>X<tspan baseline-shift="super" style="font-size:10px">r</tspan></text>
+  <text x="520.0" y="228.0" text-anchor="middle" class="gene-1-pedigree-tx" style="fill:var(--fig-accent);font-weight:600">X<tspan baseline-shift="super" style="font-size:10px">r</tspan>Y</text>
+  <text x="590.0" y="228.0" text-anchor="middle" class="gene-1-pedigree-tx" style="fill:var(--fig-accent);font-weight:600">X<tspan baseline-shift="super" style="font-size:10px">R</tspan>X<tspan baseline-shift="super" style="font-size:10px">-</tspan></text>
+  <text x="660.0" y="228.0" text-anchor="middle" class="gene-1-pedigree-tx" style="fill:var(--fig-accent);font-weight:600">X<tspan baseline-shift="super" style="font-size:10px">R</tspan>Y</text>
+  <text x="645.0" y="82.0" text-anchor="middle" class="gene-1-pedigree-sm" style="font-size:12px">보인자</text>
+  <text x="490.0" y="262.0" class="gene-1-pedigree-tx" style="font-size:13px">① 아들의 X는 어머니에게서 온다</text>
+  <text x="490.0" y="282.0" class="gene-1-pedigree-tx" style="font-size:13px">② 보인자(정상) 어머니 → 색맹 아들</text>
+  <text x="490.0" y="302.0" class="gene-1-pedigree-tx" style="font-size:13px">③ 정상 아버지의 딸은 색맹이 아니다</text>
+  <text x="490.0" y="322.0" class="gene-1-pedigree-tx" style="font-size:13px">   (아버지의 X<tspan baseline-shift="super" style="font-size:10px">R</tspan>을 받음)</text>
+</svg>

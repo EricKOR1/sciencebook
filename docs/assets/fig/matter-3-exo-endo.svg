@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 346" role="img" aria-labelledby="t-matter-3-exo-endo d-matter-3-exo-endo">
+  <title id="t-matter-3-exo-endo">그림 물질과 에너지 3-4 발열 반응과 흡열 반응의 엔탈피 변화</title>
+  <desc id="d-matter-3-exo-endo">발열 반응은 생성물의 엔탈피가 반응물보다 낮아 ΔH가 음수이고 주위의 온도가 올라간다. 흡열 반응은 생성물의 엔탈피가 더 높아 ΔH가 양수이고 주위의 온도가 내려간다. 높이는 모식도이다.</desc>
+  <style>
+    .matter-3-exo-endo-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.5}
+    .matter-3-exo-endo-gr{fill:none;stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4}
+    .matter-3-exo-endo-g{fill:none;stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:4 4}
+    .matter-3-exo-endo-lv{fill:none;stroke:var(--fig-ink);stroke-width:3;stroke-linecap:round}
+    .matter-3-exo-endo-ink{fill:var(--fig-ink)}
+    .matter-3-exo-endo-l{font-size:14px;fill:var(--fig-ink)}
+    .matter-3-exo-endo-b{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .matter-3-exo-endo-s{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .matter-3-exo-endo-t{font-size:13px;fill:var(--fig-muted)}
+  </style>
+  <rect x="30" y="14" width="310" height="300" rx="10" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2"/>
+  <text x="185.0" y="42.0" text-anchor="middle" class="matter-3-exo-endo-b" style="fill:var(--fig-red)">발열 반응 (ΔH &lt; 0)</text>
+  <path d="M58 280 L58 66" class="matter-3-exo-endo-ax"/>
+  <path d="M58 58 l-5 10 l10 0 z" class="matter-3-exo-endo-ink"/>
+  <text x="66.0" y="70.0" class="matter-3-exo-endo-l" style="font-style:italic">H</text>
+  <line x1="78" y1="100" x2="188" y2="100" class="matter-3-exo-endo-lv"/>
+  <line x1="208" y1="236" x2="328" y2="236" class="matter-3-exo-endo-lv"/>
+  <text x="133.0" y="90.0" text-anchor="middle" class="matter-3-exo-endo-s">반응물</text>
+  <text x="133.0" y="122.0" text-anchor="middle" class="matter-3-exo-endo-t">CH₄(g) + 2O₂(g)</text>
+  <text x="268.0" y="226.0" text-anchor="middle" class="matter-3-exo-endo-s">생성물</text>
+  <text x="268.0" y="258.0" text-anchor="middle" class="matter-3-exo-endo-t">CO₂(g) + 2H₂O(l)</text>
+  <line x1="188" y1="100" x2="208" y2="100" class="matter-3-exo-endo-g"/>
+  <line x1="198.0" y1="104.0" x2="198.0" y2="221.0" style="stroke:var(--fig-red);stroke-width:3;fill:none"/>
+  <path d="M198.0 233.0 L192.0 221.0 L204.0 221.0 Z" style="fill:var(--fig-red)"/>
+  <text x="210.0" y="173.0" class="matter-3-exo-endo-s" style="fill:var(--fig-red)">ΔH = −890 kJ</text>
+  <text x="185.0" y="290.0" text-anchor="middle" class="matter-3-exo-endo-t">열을 주위로 내보냄</text>
+  <text x="185.0" y="306.0" text-anchor="middle" class="matter-3-exo-endo-t">→ 주위의 온도 ↑</text>
+  <rect x="380" y="14" width="310" height="300" rx="10" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2"/>
+  <text x="535.0" y="42.0" text-anchor="middle" class="matter-3-exo-endo-b" style="fill:var(--fig-blue)">흡열 반응 (ΔH &gt; 0)</text>
+  <path d="M408 280 L408 66" class="matter-3-exo-endo-ax"/>
+  <path d="M408 58 l-5 10 l10 0 z" class="matter-3-exo-endo-ink"/>
+  <text x="416.0" y="70.0" class="matter-3-exo-endo-l" style="font-style:italic">H</text>
+  <line x1="428" y1="236" x2="538" y2="236" class="matter-3-exo-endo-lv"/>
+  <line x1="558" y1="100" x2="678" y2="100" class="matter-3-exo-endo-lv"/>
+  <text x="483.0" y="226.0" text-anchor="middle" class="matter-3-exo-endo-s">반응물</text>
+  <text x="483.0" y="258.0" text-anchor="middle" class="matter-3-exo-endo-t">NH₄NO₃(s)</text>
+  <text x="618.0" y="90.0" text-anchor="middle" class="matter-3-exo-endo-s">생성물</text>
+  <text x="618.0" y="122.0" text-anchor="middle" class="matter-3-exo-endo-t">NH₄⁺(aq) + NO₃⁻(aq)</text>
+  <line x1="538" y1="236" x2="558" y2="236" class="matter-3-exo-endo-g"/>
+  <line x1="548.0" y1="232.0" x2="548.0" y2="115.0" style="stroke:var(--fig-blue);stroke-width:3;fill:none"/>
+  <path d="M548.0 103.0 L554.0 115.0 L542.0 115.0 Z" style="fill:var(--fig-blue)"/>
+  <text x="560.0" y="173.0" class="matter-3-exo-endo-s" style="fill:var(--fig-blue)">ΔH ≈ +26 kJ</text>
+  <text x="535.0" y="290.0" text-anchor="middle" class="matter-3-exo-endo-t">열을 주위에서 받아들임</text>
+  <text x="535.0" y="306.0" text-anchor="middle" class="matter-3-exo-endo-t">→ 주위의 온도 ↓</text>
+  <text x="360.0" y="336.0" text-anchor="middle" class="matter-3-exo-endo-t">ΔH = H(생성물) − H(반응물). 층의 높이는 크기를 비교하지 않은 모식도이다.</text>
+</svg>

@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-labelledby="t-emq-2-lcd-pixel d-emq-2-lcd-pixel">
+  <title id="t-emq-2-lcd-pixel">그림 전자기와 양자 2-6 액정 디스플레이(LCD) 화소가 빛을 켜고 끄는 원리</title>
+  <desc id="d-emq-2-lcd-pixel">백라이트의 비편광 빛이 편광판 1(투과축 세로)을 지나 세로 선편광이 된다. 전압을 걸지 않으면 액정이 편광 방향을 90° 돌려 가로가 되므로 투과축이 가로인 편광판 2를 통과해 밝다. 전압을 걸면 액정 분자가 전기장 방향으로 늘어서 편광을 돌리지 못하므로 세로 편광이 편광판 2에서 막혀 어둡다.</desc>
+  <text x="20.0" y="30.0" style="font-size:15px;fill:var(--fig-ink);font-weight:600">(가) 전압을 걸지 않을 때 — 액정이 편광을 90° 돌린다</text>
+  <rect x="20.0" y="66.0" width="56.0" height="80.0" rx="6" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6"/>
+  <line x1="80.0" y1="106.0" x2="126.0" y2="106.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.2"/>
+  <path d="M89.0 104.0 L95.0 101.3 L95.0 106.7 Z" style="fill:var(--fig-accent)"/>
+  <line x1="93.8" y1="104.0" x2="112.2" y2="104.0" style="fill:none;stroke:var(--fig-accent);stroke-width:1.6"/>
+  <path d="M117.0 104.0 L111.0 106.7 L111.0 101.3 Z" style="fill:var(--fig-accent)"/>
+  <path d="M93.1 94.1 L99.3 96.4 L95.4 100.3 Z" style="fill:var(--fig-accent)"/>
+  <line x1="96.5" y1="97.5" x2="109.5" y2="110.5" style="fill:none;stroke:var(--fig-accent);stroke-width:1.6"/>
+  <path d="M112.9 113.9 L106.7 111.6 L110.6 107.7 Z" style="fill:var(--fig-accent)"/>
+  <path d="M103.0 90.0 L105.7 96.0 L100.3 96.0 Z" style="fill:var(--fig-accent)"/>
+  <line x1="103.0" y1="94.8" x2="103.0" y2="113.2" style="fill:none;stroke:var(--fig-accent);stroke-width:1.6"/>
+  <path d="M103.0 118.0 L100.3 112.0 L105.7 112.0 Z" style="fill:var(--fig-accent)"/>
+  <path d="M112.9 94.1 L110.6 100.3 L106.7 96.4 Z" style="fill:var(--fig-accent)"/>
+  <line x1="109.5" y1="97.5" x2="96.5" y2="110.5" style="fill:none;stroke:var(--fig-accent);stroke-width:1.6"/>
+  <path d="M93.1 113.9 L95.4 107.7 L99.3 111.6 Z" style="fill:var(--fig-accent)"/>
+  <rect x="131.0" y="60.0" width="18.0" height="92.0" rx="3" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6"/>
+  <line x1="136.0" y1="66.0" x2="136.0" y2="146.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="140.0" y1="66.0" x2="140.0" y2="146.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="144.0" y1="66.0" x2="144.0" y2="146.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="152.0" y1="106.0" x2="200.0" y2="106.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.2"/>
+  <path d="M176.0 90.0 L179.6 98.0 L172.4 98.0 Z" style="fill:var(--fig-accent)"/>
+  <line x1="176.0" y1="96.4" x2="176.0" y2="115.6" style="fill:none;stroke:var(--fig-accent);stroke-width:2.2"/>
+  <path d="M176.0 122.0 L172.4 114.0 L179.6 114.0 Z" style="fill:var(--fig-accent)"/>
+  <rect x="206.0" y="62.0" width="140.0" height="88.0" rx="6" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.6"/>
+  <ellipse cx="226.0" cy="106.0" rx="11.0" ry="5.0" transform="rotate(90 226.0 106.0)" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <ellipse cx="251.0" cy="106.0" rx="11.0" ry="5.0" transform="rotate(67.5 251.0 106.0)" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <ellipse cx="276.0" cy="106.0" rx="11.0" ry="5.0" transform="rotate(45 276.0 106.0)" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <ellipse cx="301.0" cy="106.0" rx="11.0" ry="5.0" transform="rotate(22.5 301.0 106.0)" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <ellipse cx="326.0" cy="106.0" rx="11.0" ry="5.0" transform="rotate(0 326.0 106.0)" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <line x1="352.0" y1="106.0" x2="402.0" y2="106.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.2"/>
+  <path d="M361.0 106.0 L369.0 102.4 L369.0 109.6 Z" style="fill:var(--fig-accent)"/>
+  <line x1="367.4" y1="106.0" x2="386.6" y2="106.0" style="fill:none;stroke:var(--fig-accent);stroke-width:2.2"/>
+  <path d="M393.0 106.0 L385.0 109.6 L385.0 102.4 Z" style="fill:var(--fig-accent)"/>
+  <rect x="405.0" y="60.0" width="18.0" height="92.0" rx="3" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6"/>
+  <line x1="408.0" y1="66.0" x2="420.0" y2="66.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="408.0" y1="74.0" x2="420.0" y2="74.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="408.0" y1="82.0" x2="420.0" y2="82.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="408.0" y1="90.0" x2="420.0" y2="90.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="408.0" y1="98.0" x2="420.0" y2="98.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="408.0" y1="106.0" x2="420.0" y2="106.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="408.0" y1="114.0" x2="420.0" y2="114.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="408.0" y1="122.0" x2="420.0" y2="122.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="408.0" y1="130.0" x2="420.0" y2="130.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="408.0" y1="138.0" x2="420.0" y2="138.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="408.0" y1="146.0" x2="420.0" y2="146.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="426.0" y1="106.0" x2="470.0" y2="106.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.2"/>
+  <path d="M432.0 106.0 L440.0 102.4 L440.0 109.6 Z" style="fill:var(--fig-accent)"/>
+  <line x1="438.4" y1="106.0" x2="457.6" y2="106.0" style="fill:none;stroke:var(--fig-accent);stroke-width:2.2"/>
+  <path d="M464.0 106.0 L456.0 109.6 L456.0 102.4 Z" style="fill:var(--fig-accent)"/>
+  <rect x="486.0" y="80.0" width="52.0" height="52.0" rx="6" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <text x="550.0" y="102.0" style="font-size:15px;fill:var(--fig-ink);font-weight:700">통과 → 밝음</text>
+  <text x="550.0" y="122.0" style="font-size:13px;fill:var(--fig-muted)">가로 편광 ∥ 투과축(가로)</text>
+  <text x="48.0" y="172.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-ink)">백라이트</text>
+  <text x="140.0" y="172.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-ink)">편광판 1</text>
+  <text x="276.0" y="172.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-ink)">액정 층</text>
+  <text x="414.0" y="172.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-ink)">편광판 2</text>
+  <text x="140.0" y="52.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-violet)">투과축 ↕</text>
+  <text x="414.0" y="52.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-violet)">투과축 ↔</text>
+  <text x="20.0" y="206.0" style="font-size:15px;fill:var(--fig-ink);font-weight:600">(나) 전압을 걸 때 — 액정이 늘어서 편광을 돌리지 못한다</text>
+  <rect x="20.0" y="230.0" width="56.0" height="80.0" rx="6" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6"/>
+  <line x1="80.0" y1="270.0" x2="126.0" y2="270.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.2"/>
+  <path d="M89.0 268.0 L95.0 265.3 L95.0 270.7 Z" style="fill:var(--fig-accent)"/>
+  <line x1="93.8" y1="268.0" x2="112.2" y2="268.0" style="fill:none;stroke:var(--fig-accent);stroke-width:1.6"/>
+  <path d="M117.0 268.0 L111.0 270.7 L111.0 265.3 Z" style="fill:var(--fig-accent)"/>
+  <path d="M93.1 258.1 L99.3 260.4 L95.4 264.3 Z" style="fill:var(--fig-accent)"/>
+  <line x1="96.5" y1="261.5" x2="109.5" y2="274.5" style="fill:none;stroke:var(--fig-accent);stroke-width:1.6"/>
+  <path d="M112.9 277.9 L106.7 275.6 L110.6 271.7 Z" style="fill:var(--fig-accent)"/>
+  <path d="M103.0 254.0 L105.7 260.0 L100.3 260.0 Z" style="fill:var(--fig-accent)"/>
+  <line x1="103.0" y1="258.8" x2="103.0" y2="277.2" style="fill:none;stroke:var(--fig-accent);stroke-width:1.6"/>
+  <path d="M103.0 282.0 L100.3 276.0 L105.7 276.0 Z" style="fill:var(--fig-accent)"/>
+  <path d="M112.9 258.1 L110.6 264.3 L106.7 260.4 Z" style="fill:var(--fig-accent)"/>
+  <line x1="109.5" y1="261.5" x2="96.5" y2="274.5" style="fill:none;stroke:var(--fig-accent);stroke-width:1.6"/>
+  <path d="M93.1 277.9 L95.4 271.7 L99.3 275.6 Z" style="fill:var(--fig-accent)"/>
+  <rect x="131.0" y="224.0" width="18.0" height="92.0" rx="3" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6"/>
+  <line x1="136.0" y1="230.0" x2="136.0" y2="310.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="140.0" y1="230.0" x2="140.0" y2="310.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="144.0" y1="230.0" x2="144.0" y2="310.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="152.0" y1="270.0" x2="200.0" y2="270.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.2"/>
+  <path d="M176.0 254.0 L179.6 262.0 L172.4 262.0 Z" style="fill:var(--fig-accent)"/>
+  <line x1="176.0" y1="260.4" x2="176.0" y2="279.6" style="fill:none;stroke:var(--fig-accent);stroke-width:2.2"/>
+  <path d="M176.0 286.0 L172.4 278.0 L179.6 278.0 Z" style="fill:var(--fig-accent)"/>
+  <rect x="206.0" y="226.0" width="140.0" height="88.0" rx="6" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.6"/>
+  <ellipse cx="226.0" cy="270.0" rx="11.0" ry="5.0" transform="rotate(0 226.0 270.0)" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <ellipse cx="251.0" cy="270.0" rx="11.0" ry="5.0" transform="rotate(0 251.0 270.0)" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <ellipse cx="276.0" cy="270.0" rx="11.0" ry="5.0" transform="rotate(0 276.0 270.0)" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <ellipse cx="301.0" cy="270.0" rx="11.0" ry="5.0" transform="rotate(0 301.0 270.0)" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <ellipse cx="326.0" cy="270.0" rx="11.0" ry="5.0" transform="rotate(0 326.0 270.0)" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <line x1="206.0" y1="226.0" x2="206.0" y2="314.0" style="fill:none;stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="346.0" y1="226.0" x2="346.0" y2="314.0" style="fill:none;stroke:var(--fig-blue);stroke-width:3"/>
+  <text x="206.0" y="330.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-red)">전압 +</text>
+  <text x="346.0" y="330.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-blue)">−</text>
+  <line x1="352.0" y1="270.0" x2="402.0" y2="270.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.2"/>
+  <path d="M377.0 254.0 L380.6 262.0 L373.4 262.0 Z" style="fill:var(--fig-accent)"/>
+  <line x1="377.0" y1="260.4" x2="377.0" y2="279.6" style="fill:none;stroke:var(--fig-accent);stroke-width:2.2"/>
+  <path d="M377.0 286.0 L373.4 278.0 L380.6 278.0 Z" style="fill:var(--fig-accent)"/>
+  <rect x="405.0" y="224.0" width="18.0" height="92.0" rx="3" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6"/>
+  <line x1="408.0" y1="230.0" x2="420.0" y2="230.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="408.0" y1="238.0" x2="420.0" y2="238.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="408.0" y1="246.0" x2="420.0" y2="246.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="408.0" y1="254.0" x2="420.0" y2="254.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="408.0" y1="262.0" x2="420.0" y2="262.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="408.0" y1="270.0" x2="420.0" y2="270.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="408.0" y1="278.0" x2="420.0" y2="278.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="408.0" y1="286.0" x2="420.0" y2="286.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="408.0" y1="294.0" x2="420.0" y2="294.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="408.0" y1="302.0" x2="420.0" y2="302.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="408.0" y1="310.0" x2="420.0" y2="310.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1"/>
+  <line x1="426.0" y1="270.0" x2="446.0" y2="270.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="458.0" y="276.0" text-anchor="middle" style="font-size:18px;fill:var(--fig-red);font-weight:700">✕</text>
+  <rect x="486" y="244" width="52" height="52" rx="6" style="fill:#16181d;stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="550.0" y="266.0" style="font-size:15px;fill:var(--fig-ink);font-weight:700">막힘 → 어두움</text>
+  <text x="550.0" y="286.0" style="font-size:13px;fill:var(--fig-muted)">세로 편광 ⊥ 투과축(가로)</text>
+</svg>

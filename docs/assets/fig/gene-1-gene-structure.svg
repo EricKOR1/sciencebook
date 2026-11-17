@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-labelledby="t-gene-1-gene-structure d-gene-1-gene-structure">
+  <title id="t-gene-1-gene-structure">그림 생물의 유전 1-7 원핵세포와 진핵세포의 유전자 구조</title>
+  <desc id="d-gene-1-gene-structure">위는 원핵세포의 오페론으로, 기능이 관련된 유전자 A, B, C가 하나의 프로모터 뒤에 끊김 없이 이어져 있어 하나의 mRNA로 함께 전사된다. 아래는 진핵세포의 유전자로, 유전자마다 프로모터가 있고 암호화 부위가 엑손과 인트론으로 나뉘어 있으며, 수천 염기쌍 이상 떨어진 곳에 인핸서 같은 조절 부위가 있다. 길이 비율은 실제와 다른 모식도이다.</desc>
+  <style>
+    .gene-1-gene-structure-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .gene-1-gene-structure-tx{font-size:14px;fill:var(--fig-ink)}
+    .gene-1-gene-structure-sm{font-size:13px;fill:var(--fig-muted)}
+    .gene-1-gene-structure-mono{font-size:14px;font-weight:600;fill:var(--fig-ink);letter-spacing:1px}
+    .gene-1-gene-structure-ln{fill:none;stroke:var(--fig-ink);stroke-width:2}
+    .gene-1-gene-structure-lnm{fill:none;stroke:var(--fig-line);stroke-width:1.5}
+    .gene-1-gene-structure-dash{fill:none;stroke:var(--fig-line);stroke-width:1.5;stroke-dasharray:5 4}
+    .gene-1-gene-structure-ink{fill:var(--fig-ink)}
+    .gene-1-gene-structure-paper{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5}
+    .gene-1-gene-structure-gray{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.5}
+    .gene-1-gene-structure-b-blue{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2}
+    .gene-1-gene-structure-f-blue{fill:var(--fig-blue)}
+    .gene-1-gene-structure-s-blue{fill:none;stroke:var(--fig-blue);stroke-width:2.5}
+    .gene-1-gene-structure-t-blue{fill:var(--fig-blue)}
+    .gene-1-gene-structure-b-red{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2}
+    .gene-1-gene-structure-f-red{fill:var(--fig-red)}
+    .gene-1-gene-structure-s-red{fill:none;stroke:var(--fig-red);stroke-width:2.5}
+    .gene-1-gene-structure-t-red{fill:var(--fig-red)}
+    .gene-1-gene-structure-b-green{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2}
+    .gene-1-gene-structure-f-green{fill:var(--fig-green)}
+    .gene-1-gene-structure-s-green{fill:none;stroke:var(--fig-green);stroke-width:2.5}
+    .gene-1-gene-structure-t-green{fill:var(--fig-green)}
+    .gene-1-gene-structure-b-amber{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+    .gene-1-gene-structure-f-amber{fill:var(--fig-amber)}
+    .gene-1-gene-structure-s-amber{fill:none;stroke:var(--fig-amber);stroke-width:2.5}
+    .gene-1-gene-structure-t-amber{fill:var(--fig-amber)}
+    .gene-1-gene-structure-b-violet{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2}
+    .gene-1-gene-structure-f-violet{fill:var(--fig-violet)}
+    .gene-1-gene-structure-s-violet{fill:none;stroke:var(--fig-violet);stroke-width:2.5}
+    .gene-1-gene-structure-t-violet{fill:var(--fig-violet)}
+    .gene-1-gene-structure-b-teal{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2}
+    .gene-1-gene-structure-f-teal{fill:var(--fig-teal)}
+    .gene-1-gene-structure-s-teal{fill:none;stroke:var(--fig-teal);stroke-width:2.5}
+    .gene-1-gene-structure-t-teal{fill:var(--fig-teal)}
+  </style>
+  <text x="20.0" y="34.0" class="gene-1-gene-structure-h">원핵세포 — 오페론</text>
+  <line x1="30.0" y1="90.0" x2="690.0" y2="90.0" class="gene-1-gene-structure-ln" style="stroke-width:3;stroke:var(--fig-line)"/>
+  <rect x="90.0" y="77.0" width="70.0" height="26.0" rx="3" class="gene-1-gene-structure-b-amber"/>
+  <text x="125.0" y="122.0" text-anchor="middle" class="gene-1-gene-structure-sm">프로모터</text>
+  <rect x="160.0" y="77.0" width="140.0" height="26.0" rx="0" class="gene-1-gene-structure-b-blue"/>
+  <text x="230.0" y="95.0" text-anchor="middle" class="gene-1-gene-structure-tx">유전자 A</text>
+  <rect x="300.0" y="77.0" width="140.0" height="26.0" rx="0" class="gene-1-gene-structure-b-blue"/>
+  <text x="370.0" y="95.0" text-anchor="middle" class="gene-1-gene-structure-tx">유전자 B</text>
+  <rect x="440.0" y="77.0" width="140.0" height="26.0" rx="0" class="gene-1-gene-structure-b-blue"/>
+  <text x="510.0" y="95.0" text-anchor="middle" class="gene-1-gene-structure-tx">유전자 C</text>
+  <path d="M 160 77 L 160 58 L 186 58" class="gene-1-gene-structure-ln"/>
+  <polygon points="190.0,58.0 183.1,62.0 183.1,54.0" class="gene-1-gene-structure-ink"/>
+  <text x="196.0" y="54.0" class="gene-1-gene-structure-sm">전사 시작</text>
+  <path d="M 160 134 Q 170 128 180 134 Q 190 140 200 134 Q 210 128 220 134 Q 230 140 240 134 Q 250 128 260 134 Q 270 140 280 134 Q 290 128 300 134 Q 310 140 320 134 Q 330 128 340 134 Q 350 140 360 134 Q 370 128 380 134 Q 390 140 400 134 Q 410 128 420 134 Q 430 140 440 134 Q 450 128 460 134 Q 470 140 480 134 Q 490 128 500 134 Q 510 140 520 134 Q 530 128 540 134 Q 550 140 560 134 Q 570 128 580 134" class="gene-1-gene-structure-s-teal"/>
+  <text x="590.0" y="140.0" class="gene-1-gene-structure-tx" style="fill:var(--fig-teal)">mRNA 1개</text>
+  <text x="30.0" y="172.0" class="gene-1-gene-structure-tx" style="font-size:13px">· 하나의 프로모터가 여러 유전자를 함께 전사 → mRNA 하나에 여러 유전자의 정보</text>
+  <text x="30.0" y="192.0" class="gene-1-gene-structure-tx" style="font-size:13px">· 인트론이 거의 없어 암호화 부위가 끊김 없이 이어짐</text>
+  <line x1="20.0" y1="200.0" x2="700.0" y2="200.0" class="gene-1-gene-structure-dash"/>
+  <text x="20.0" y="232.0" class="gene-1-gene-structure-h">진핵세포 — 유전자 하나</text>
+  <line x1="30.0" y1="286.0" x2="120.0" y2="286.0" class="gene-1-gene-structure-ln" style="stroke-width:3;stroke:var(--fig-line)"/>
+  <line x1="150.0" y1="286.0" x2="690.0" y2="286.0" class="gene-1-gene-structure-ln" style="stroke-width:3;stroke:var(--fig-line)"/>
+  <text x="135.0" y="292.0" text-anchor="middle" class="gene-1-gene-structure-tx" style="font-weight:700">//</text>
+  <text x="135.0" y="264.0" text-anchor="middle" class="gene-1-gene-structure-sm" style="font-size:12px">수천 염기쌍 이상</text>
+  <rect x="50.0" y="273.0" width="60.0" height="26.0" rx="3" class="gene-1-gene-structure-b-violet"/>
+  <text x="80.0" y="318.0" text-anchor="middle" class="gene-1-gene-structure-sm">인핸서</text>
+  <rect x="170.0" y="273.0" width="60.0" height="26.0" rx="3" class="gene-1-gene-structure-b-amber"/>
+  <text x="200.0" y="318.0" text-anchor="middle" class="gene-1-gene-structure-sm">프로모터</text>
+  <rect x="230.0" y="273.0" width="80.0" height="26.0" rx="0" class="gene-1-gene-structure-b-blue"/>
+  <text x="270.0" y="291.0" text-anchor="middle" class="gene-1-gene-structure-tx" style="font-size:13px">엑손1</text>
+  <rect x="310.0" y="273.0" width="90.0" height="26.0" rx="0" class="gene-1-gene-structure-gray"/>
+  <text x="355.0" y="291.0" text-anchor="middle" class="gene-1-gene-structure-sm" style="font-size:13px">인트론</text>
+  <rect x="400.0" y="273.0" width="70.0" height="26.0" rx="0" class="gene-1-gene-structure-b-blue"/>
+  <text x="435.0" y="291.0" text-anchor="middle" class="gene-1-gene-structure-tx" style="font-size:13px">엑손2</text>
+  <rect x="470.0" y="273.0" width="100.0" height="26.0" rx="0" class="gene-1-gene-structure-gray"/>
+  <text x="520.0" y="291.0" text-anchor="middle" class="gene-1-gene-structure-sm" style="font-size:13px">인트론</text>
+  <rect x="570.0" y="273.0" width="80.0" height="26.0" rx="0" class="gene-1-gene-structure-b-blue"/>
+  <text x="610.0" y="291.0" text-anchor="middle" class="gene-1-gene-structure-tx" style="font-size:13px">엑손3</text>
+  <path d="M 230 273 L 230 254 L 256 254" class="gene-1-gene-structure-ln"/>
+  <polygon points="260.0,254.0 253.1,258.0 253.1,250.0" class="gene-1-gene-structure-ink"/>
+  <text x="266.0" y="250.0" class="gene-1-gene-structure-sm">전사 시작</text>
+  <text x="470.0" y="318.0" text-anchor="middle" class="gene-1-gene-structure-sm">엑손: 최종 mRNA에 남음 / 인트론: 잘려 나감</text>
+</svg>

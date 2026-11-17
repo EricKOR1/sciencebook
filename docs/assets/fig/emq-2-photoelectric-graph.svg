@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 310" role="img" aria-labelledby="t-emq-2-photoelectric-graph d-emq-2-photoelectric-graph">
+  <title id="t-emq-2-photoelectric-graph">그림 전자기와 양자 2-7 광전효과 — 진동수와 빛의 세기가 하는 일</title>
+  <desc id="d-emq-2-photoelectric-graph">광전자의 최대 운동 에너지는 빛의 진동수에 대해 기울기가 플랑크 상수 h인 직선이며, 문턱 진동수 f₀ 아래에서는 광전자가 나오지 않는다. 일함수가 다른 금속 A(2.0 eV), B(3.0 eV)는 기울기가 같고 문턱 진동수만 다르다. 진동수가 일정할 때 빛의 세기를 키우면 광전류는 늘지만 최대 운동 에너지는 그대로이다.</desc>
+  <line x1="450.0" y1="20.0" x2="450.0" y2="300.0" style="fill:none;stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
+  <line x1="80.0" y1="172.0" x2="423.6" y2="172.0" style="fill:none;stroke:var(--fig-ink);stroke-width:1.4"/>
+  <path d="M430.0 172.0 L422.0 175.6 L422.0 168.4 Z" style="fill:var(--fig-ink)"/>
+  <line x1="80.0" y1="262.0" x2="80.0" y2="46.4" style="fill:none;stroke:var(--fig-ink);stroke-width:1.4"/>
+  <path d="M80.0 40.0 L83.6 48.0 L76.4 48.0 Z" style="fill:var(--fig-ink)"/>
+  <text x="430.0" y="206.0" text-anchor="end" style="font-size:13px;fill:var(--fig-ink)">진동수 f</text>
+  <text x="88.0" y="40.0" style="font-size:13px;fill:var(--fig-ink)">광전자의 최대 운동 에너지</text>
+  <text x="74.0" y="176.0" text-anchor="end" style="font-size:13px;fill:var(--fig-muted)">0</text>
+  <line x1="80.0" y1="224.0" x2="186.4" y2="172.0" style="fill:none;stroke:var(--fig-accent);stroke-width:1.5;stroke-dasharray:5 4"/>
+  <line x1="186.4" y1="172.0" x2="366.0" y2="84.2" style="fill:none;stroke:var(--fig-accent);stroke-width:2.6"/>
+  <circle cx="186.4" cy="172.0" r="4.0" style="fill:var(--fig-accent);stroke:none;stroke-width:0"/>
+  <text x="372.0" y="89.2" style="font-size:14px;fill:var(--fig-accent);font-weight:700">금속 A</text>
+  <text x="74.0" y="229.0" text-anchor="end" style="font-size:13px;fill:var(--fig-accent)">−W<tspan baseline-shift="sub" style="font-size:10px">A</tspan></text>
+  <text x="190.4" y="192.0" style="font-size:13px;fill:var(--fig-accent)">f<tspan baseline-shift="sub" style="font-size:10px">0</tspan>(A)</text>
+  <line x1="80.0" y1="250.0" x2="239.6" y2="172.0" style="fill:none;stroke:var(--fig-red);stroke-width:1.5;stroke-dasharray:5 4"/>
+  <line x1="239.6" y1="172.0" x2="366.0" y2="110.2" style="fill:none;stroke:var(--fig-red);stroke-width:2.6"/>
+  <circle cx="239.6" cy="172.0" r="4.0" style="fill:var(--fig-red);stroke:none;stroke-width:0"/>
+  <text x="372.0" y="115.2" style="font-size:14px;fill:var(--fig-red);font-weight:700">금속 B</text>
+  <text x="74.0" y="255.0" text-anchor="end" style="font-size:13px;fill:var(--fig-red)">−W<tspan baseline-shift="sub" style="font-size:10px">B</tspan></text>
+  <text x="243.6" y="192.0" style="font-size:13px;fill:var(--fig-red)">f<tspan baseline-shift="sub" style="font-size:10px">0</tspan>(B)</text>
+  <rect x="82.0" y="112.0" width="102.4" height="56.0" rx="4" style="fill:var(--fig-soft-red);stroke:none;stroke-width:0;opacity:0.6"/>
+  <text x="133.2" y="138.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-ink)">광전자</text>
+  <text x="133.2" y="154.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-ink)">없음</text>
+  <text x="250.0" y="290.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-ink)">두 직선의 기울기 = h (금속에 관계없이 같다)</text>
+  <text x="470.0" y="30.0" style="font-size:15px;fill:var(--fig-ink);font-weight:600">진동수 일정(f > f₀)일 때</text>
+  <line x1="500.0" y1="140.0" x2="684.4" y2="140.0" style="fill:none;stroke:var(--fig-ink);stroke-width:1.2"/>
+  <path d="M690.0 140.0 L683.0 143.2 L683.0 136.8 Z" style="fill:var(--fig-ink)"/>
+  <line x1="500.0" y1="140.0" x2="500.0" y2="57.6" style="fill:none;stroke:var(--fig-ink);stroke-width:1.2"/>
+  <path d="M500.0 52.0 L503.1 59.0 L496.9 59.0 Z" style="fill:var(--fig-ink)"/>
+  <text x="690.0" y="158.0" text-anchor="end" style="font-size:13px;fill:var(--fig-ink)">빛의 세기</text>
+  <text x="508.0" y="58.0" style="font-size:13px;fill:var(--fig-ink)">광전류(광전자의 수)</text>
+  <line x1="500.0" y1="140.0" x2="680.0" y2="70.0" style="fill:none;stroke:var(--fig-accent);stroke-width:2.6"/>
+  <text x="640.0" y="110.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-accent)">비례</text>
+  <line x1="500.0" y1="270.0" x2="684.4" y2="270.0" style="fill:none;stroke:var(--fig-ink);stroke-width:1.2"/>
+  <path d="M690.0 270.0 L683.0 273.1 L683.0 266.9 Z" style="fill:var(--fig-ink)"/>
+  <line x1="500.0" y1="270.0" x2="500.0" y2="187.6" style="fill:none;stroke:var(--fig-ink);stroke-width:1.2"/>
+  <path d="M500.0 182.0 L503.1 189.0 L496.9 189.0 Z" style="fill:var(--fig-ink)"/>
+  <text x="690.0" y="288.0" text-anchor="end" style="font-size:13px;fill:var(--fig-ink)">빛의 세기</text>
+  <text x="508.0" y="188.0" style="font-size:13px;fill:var(--fig-ink)">최대 운동 에너지</text>
+  <line x1="500.0" y1="220.0" x2="680.0" y2="220.0" style="fill:none;stroke:var(--fig-accent);stroke-width:2.6"/>
+  <text x="620.0" y="210.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-accent)">변하지 않음</text>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-matter-1-partial-pressure d-matter-1-partial-pressure">
+  <title id="t-matter-1-partial-pressure">그림 물질과 에너지 1-4 혼합 기체의 부분 압력</title>
+  <desc id="d-matter-1-partial-pressure">같은 부피, 같은 온도의 용기에 질소 분자 8개만 넣으면 2.0 atm, 산소 분자 4개만 넣으면 1.0 atm일 때, 두 기체를 한 용기에 섞으면 전체 압력은 두 부분 압력의 합인 3.0 atm이다. 각 기체의 부분 압력은 분자 수의 비율(몰 분율)에 비례한다. 분자 수는 줄여 나타낸 모식도이다.</desc>
+  <style>
+    .matter-1-partial-pressure-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.5}
+    .matter-1-partial-pressure-gr{fill:none;stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4}
+    .matter-1-partial-pressure-l{font-size:14px;fill:var(--fig-ink)}
+    .matter-1-partial-pressure-t{font-size:13px;fill:var(--fig-muted)}
+    .matter-1-partial-pressure-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .matter-1-partial-pressure-ink{fill:var(--fig-ink)}
+    .matter-1-partial-pressure-box{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2}
+    .matter-1-partial-pressure-n{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6}
+    .matter-1-partial-pressure-o{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6}
+    .matter-1-partial-pressure-op{font-size:30px;font-weight:700;fill:var(--fig-muted)}
+  </style>
+  <text x="360" y="24" text-anchor="middle" class="matter-1-partial-pressure-t">같은 부피 V, 같은 온도 T</text>
+  <rect x="40" y="74" width="170" height="150" rx="6" class="matter-1-partial-pressure-box"/>
+  <text x="125" y="60" text-anchor="middle" class="matter-1-partial-pressure-h">질소만</text>
+  <text x="125" y="250" text-anchor="middle" class="matter-1-partial-pressure-l" style="font-weight:700">P(N₂) = 2.0 atm</text>
+  <circle cx="97.2" cy="108.2" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="107" cy="113" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="139.5" cy="100" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="149.7" cy="104" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="126.6" cy="129.7" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="132.8" cy="138.8" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="72.1" cy="146.8" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="62.9" cy="152.8" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="64.4" cy="101" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="73.7" cy="106.9" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="116.6" cy="179.6" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="113.8" cy="190.3" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="189.2" cy="94.1" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="184.6" cy="104.1" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="169.5" cy="120.8" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="173.7" cy="130.9" r="7" class="matter-1-partial-pressure-n"/>
+  <rect x="275" y="74" width="170" height="150" rx="6" class="matter-1-partial-pressure-box"/>
+  <text x="360" y="60" text-anchor="middle" class="matter-1-partial-pressure-h">산소만</text>
+  <text x="360" y="250" text-anchor="middle" class="matter-1-partial-pressure-l" style="font-weight:700">P(O₂) = 1.0 atm</text>
+  <circle cx="365.4" cy="95.5" r="7" class="matter-1-partial-pressure-o"/>
+  <circle cx="367" cy="106.3" r="7" class="matter-1-partial-pressure-o"/>
+  <circle cx="299.5" cy="112.2" r="7" class="matter-1-partial-pressure-o"/>
+  <circle cx="306" cy="121.1" r="7" class="matter-1-partial-pressure-o"/>
+  <circle cx="387.8" cy="137.7" r="7" class="matter-1-partial-pressure-o"/>
+  <circle cx="379.1" cy="144.3" r="7" class="matter-1-partial-pressure-o"/>
+  <circle cx="339.1" cy="154" r="7" class="matter-1-partial-pressure-o"/>
+  <circle cx="332.6" cy="162.9" r="7" class="matter-1-partial-pressure-o"/>
+  <rect x="510" y="74" width="170" height="150" rx="6" class="matter-1-partial-pressure-box"/>
+  <text x="595" y="60" text-anchor="middle" class="matter-1-partial-pressure-h">혼합 기체</text>
+  <text x="595" y="250" text-anchor="middle" class="matter-1-partial-pressure-l" style="font-weight:700">P(전체) = 3.0 atm</text>
+  <circle cx="560.1" cy="151.9" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="563.4" cy="162.4" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="603.7" cy="189.4" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="592.9" cy="191.2" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="628.4" cy="121.5" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="621.3" cy="129.9" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="652.7" cy="104.2" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="662.2" cy="109.8" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="624.3" cy="154.9" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="634.5" cy="159.2" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="634.3" cy="195.4" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="644.1" cy="200.4" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="538.2" cy="143.2" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="527.7" cy="146.4" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="556.4" cy="103.7" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="547.3" cy="110" r="7" class="matter-1-partial-pressure-n"/>
+  <circle cx="532.7" cy="176.1" r="7" class="matter-1-partial-pressure-o"/>
+  <circle cx="542.6" cy="180.9" r="7" class="matter-1-partial-pressure-o"/>
+  <circle cx="595.3" cy="144.4" r="7" class="matter-1-partial-pressure-o"/>
+  <circle cx="585.9" cy="150.1" r="7" class="matter-1-partial-pressure-o"/>
+  <circle cx="604.2" cy="109.8" r="7" class="matter-1-partial-pressure-o"/>
+  <circle cx="593.2" cy="110.5" r="7" class="matter-1-partial-pressure-o"/>
+  <circle cx="658.9" cy="132.7" r="7" class="matter-1-partial-pressure-o"/>
+  <circle cx="653.7" cy="142.4" r="7" class="matter-1-partial-pressure-o"/>
+  <text x="242" y="160" text-anchor="middle" class="matter-1-partial-pressure-op">+</text>
+  <text x="477" y="160" text-anchor="middle" class="matter-1-partial-pressure-op">=</text>
+  <circle cx="60" cy="290" r="7" class="matter-1-partial-pressure-n"/>
+  <text x="74" y="295" class="matter-1-partial-pressure-t">질소 분자</text>
+  <circle cx="160" cy="290" r="7" class="matter-1-partial-pressure-o"/>
+  <text x="174" y="295" class="matter-1-partial-pressure-t">산소 분자</text>
+  <text x="595" y="278" text-anchor="middle" class="matter-1-partial-pressure-t">X(N₂) = 8/12 = 2/3</text>
+  <text x="595" y="297" text-anchor="middle" class="matter-1-partial-pressure-t">P(N₂) = 2/3 × 3.0 = 2.0 atm</text>
+  <text x="360" y="322" text-anchor="middle" class="matter-1-partial-pressure-t">분자 사이에 힘이 없으므로 각 기체는 혼자 있을 때와 같은 압력을 낸다</text>
+</svg>

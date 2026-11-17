@@ -52,7 +52,10 @@
   <circle cx="586.7" cy="63.7" r="4.0" style="fill:var(--fig-violet);stroke:none;stroke-width:1.5"/>
   <circle cx="621.1" cy="49.6" r="4.0" style="fill:var(--fig-violet);stroke:none;stroke-width:1.5"/>
   <circle cx="107.2" cy="260.0" r="6.0" style="fill:var(--fig-red);stroke:none;stroke-width:1.5"/>
-  <text x="115.2" y="248.0" style="font-size:14px;fill:var(--fig-red);font-weight:600">세 직선이 한 점에서 만난다: −273 °C = 0 K</text>
-  <text x="552.2" y="53.5" text-anchor="middle" style="font-size:13px;fill:var(--fig-ink)">측정 구간(점)</text>
+  <text x="83.8" y="179.5" style="font-size:14px;fill:var(--fig-red);font-weight:600">세 직선이 한 점에서 만난다</text>
+  <text x="83.8" y="199.5" style="font-size:14px;fill:var(--fig-red);font-weight:600">−273 °C = 0 K</text>
+  <line x1="114.1" y1="207.5" x2="109.6" y2="243.1" style="stroke:var(--fig-red);stroke-width:1.5;fill:none"/>
+  <path d="M108.6 251.0 L105.6 242.6 L113.6 243.6 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="552.2" y="221.5" text-anchor="middle" style="font-size:13px;fill:var(--fig-ink)">측정 구간(점)</text>
   <text x="290.4" y="158.5" text-anchor="middle" style="font-size:13px;fill:var(--fig-muted)">연장한 선(점선)</text>
 </svg>

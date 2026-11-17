@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 476" role="img" aria-labelledby="t-astro-1-ellipse-geometry d-astro-1-ellipse-geometry">
+  <title id="t-astro-1-ellipse-geometry">그림 행성우주과학 1-3 타원 궤도의 기하 — 초점, 긴반지름, 이심률</title>
+  <desc id="d-astro-1-ellipse-geometry">태양은 타원의 중심이 아니라 한 초점에 있고, 다른 초점은 비어 있다. 타원 위 어느 점이든 두 초점까지 거리의 합은 긴지름 2a로 같다. 근일점 거리는 a(1−e), 원일점 거리는 a(1+e)이다. 이심률을 0.7로 크게 잡은 모식도이다.</desc>
+  <style>.astro-1-ellipse-geometry-ink{fill:var(--fig-ink)} .astro-1-ellipse-geometry-mut{fill:var(--fig-muted)} .astro-1-ellipse-geometry-t{font-size:14px;fill:var(--fig-ink)} .astro-1-ellipse-geometry-s{font-size:13px;fill:var(--fig-muted)} .astro-1-ellipse-geometry-b{font-weight:600} .astro-1-ellipse-geometry-ax{stroke:var(--fig-line);stroke-width:1.5;fill:none}</style>
+  <ellipse cx="360" cy="242" rx="230" ry="164.3" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2.5"/>
+  <line x1="110.0" y1="242.0" x2="610.0" y2="242.0" style="stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:5 4"/>
+  <line x1="360.0" y1="71.7" x2="360.0" y2="412.3" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4"/>
+  <circle cx="360.0" cy="242.0" r="3.0" style="fill:var(--fig-muted);stroke:none;stroke-width:1"/>
+  <text x="354.0" y="260.0" text-anchor="end" class="astro-1-ellipse-geometry-s">중심</text>
+  <line x1="273.8" y1="89.7" x2="521.0" y2="242.0" style="stroke:var(--fig-red);stroke-width:2"/>
+  <line x1="273.8" y1="89.7" x2="199.0" y2="242.0" style="stroke:var(--fig-green);stroke-width:2"/>
+  <text x="409.4" y="161.9" text-anchor="start" class="astro-1-ellipse-geometry-t astro-1-ellipse-geometry-b" style="fill:var(--fig-red)">r₁</text>
+  <text x="224.4" y="161.9" text-anchor="end" class="astro-1-ellipse-geometry-t astro-1-ellipse-geometry-b" style="fill:var(--fig-green)">r₂</text>
+  <circle cx="273.8" cy="89.7" r="8.0" style="fill:var(--fig-blue);stroke:var(--fig-panel);stroke-width:2"/>
+  <text x="259.8" y="81.7" text-anchor="end" class="astro-1-ellipse-geometry-t astro-1-ellipse-geometry-b">행성</text>
+  <rect x="520.0" y="338.0" width="190.0" height="30.0" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="615.0" y="358.0" text-anchor="middle" class="astro-1-ellipse-geometry-t astro-1-ellipse-geometry-b">r₁ + r₂ = 2a (늘 일정)</text>
+  <circle cx="521.0" cy="242.0" r="13.0" style="fill:var(--fig-amber);stroke:var(--fig-panel);stroke-width:2"/>
+  <text x="521.0" y="276.0" text-anchor="middle" class="astro-1-ellipse-geometry-t astro-1-ellipse-geometry-b" style="fill:var(--fig-amber)">태양 (초점)</text>
+  <circle cx="199.0" cy="242.0" r="6.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <text x="199.0" y="268.0" text-anchor="middle" class="astro-1-ellipse-geometry-s">빈 초점</text>
+  <circle cx="590.0" cy="242.0" r="4.5" style="fill:var(--fig-ink);stroke:none;stroke-width:1"/>
+  <circle cx="130.0" cy="242.0" r="4.5" style="fill:var(--fig-ink);stroke:none;stroke-width:1"/>
+  <text x="598.0" y="232.0" text-anchor="start" class="astro-1-ellipse-geometry-t astro-1-ellipse-geometry-b">근일점</text>
+  <text x="122.0" y="232.0" text-anchor="end" class="astro-1-ellipse-geometry-t astro-1-ellipse-geometry-b">원일점</text>
+  <line x1="590.0" y1="236.0" x2="590.0" y2="55.7" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:2 3"/>
+  <line x1="360.0" y1="71.7" x2="360.0" y2="55.7" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:2 3"/>
+  <line x1="362.0" y1="61.7" x2="588.0" y2="61.7" style="stroke:var(--fig-violet);stroke-width:1.5"/>
+  <path d="M588.0 61.7 L580.6 64.9 L580.6 58.6 Z" style="fill:var(--fig-violet)"/>
+  <path d="M362.0 61.7 L369.4 58.6 L369.4 64.9 Z" style="fill:var(--fig-violet)"/>
+  <text x="475.0" y="54.7" text-anchor="middle" class="astro-1-ellipse-geometry-t astro-1-ellipse-geometry-b" style="fill:var(--fig-violet)">긴반지름 a</text>
+  <line x1="362.0" y1="294.0" x2="519.0" y2="294.0" style="stroke:var(--fig-muted);stroke-width:1.3"/>
+  <path d="M519.0 294.0 L512.6 296.7 L512.6 291.3 Z" style="fill:var(--fig-muted)"/>
+  <path d="M362.0 294.0 L368.4 291.3 L368.4 296.7 Z" style="fill:var(--fig-muted)"/>
+  <line x1="521.0" y1="256.0" x2="521.0" y2="300.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:2 3"/>
+  <text x="440.5" y="312.0" text-anchor="middle" class="astro-1-ellipse-geometry-s">ae (중심–초점)</text>
+  <line x1="130.0" y1="248.0" x2="130.0" y2="442.3" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:2 3"/>
+  <line x1="521.0" y1="248.0" x2="521.0" y2="442.3" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:2 3"/>
+  <line x1="590.0" y1="248.0" x2="590.0" y2="442.3" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:2 3"/>
+  <line x1="523.0" y1="436.3" x2="588.0" y2="436.3" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M588.0 436.3 L580.6 439.4 L580.6 433.1 Z" style="fill:var(--fig-red)"/>
+  <path d="M523.0 436.3 L530.4 433.1 L530.4 439.4 Z" style="fill:var(--fig-red)"/>
+  <line x1="132.0" y1="436.3" x2="519.0" y2="436.3" style="stroke:var(--fig-teal);stroke-width:1.6"/>
+  <path d="M519.0 436.3 L511.6 439.4 L511.6 433.1 Z" style="fill:var(--fig-teal)"/>
+  <path d="M132.0 436.3 L139.4 433.1 L139.4 439.4 Z" style="fill:var(--fig-teal)"/>
+  <text x="555.5" y="458.3" text-anchor="middle" class="astro-1-ellipse-geometry-t astro-1-ellipse-geometry-b" style="fill:var(--fig-red)">q = a(1 − e)</text>
+  <text x="325.5" y="458.3" text-anchor="middle" class="astro-1-ellipse-geometry-t astro-1-ellipse-geometry-b" style="fill:var(--fig-teal)">원일점 거리 Q = a(1 + e)</text>
+  <text x="555.5" y="428.3" text-anchor="middle" class="astro-1-ellipse-geometry-s">근일점 거리</text>
+  <text x="20.0" y="26.0" text-anchor="start" class="astro-1-ellipse-geometry-t astro-1-ellipse-geometry-b">이심률 e = (중심–초점 거리) ÷ a  ·  이 그림은 e = 0.7</text>
+  <text x="20.0" y="46.0" text-anchor="start" class="astro-1-ellipse-geometry-s">e = 0이면 두 초점이 중심에서 만나 원이 된다</text>
+</svg>

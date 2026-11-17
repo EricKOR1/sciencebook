@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-phy-3-lens-cases d-phy-3-lens-cases">
+  <title id="t-phy-3-lens-cases">그림 물리학 3-5 볼록렌즈 — 확대된 실상과 허상</title>
+  <desc id="d-phy-3-lens-cases">(가) 물체가 초점과 초점 거리의 2배 사이에 있으면 렌즈 뒤 2F′보다 먼 곳에 거꾸로 선 확대된 실상이 생긴다(빔 프로젝터). (나) 물체가 초점 안쪽에 있으면 굴절한 광선이 퍼져 나가고, 그 연장선이 모이는 물체 쪽 자리에 바로 선 확대된 허상이 보인다(돋보기).</desc>
+  <style>
+    .phy-3-lens-cases-lbl{font-size:14px;fill:var(--fig-ink)} .phy-3-lens-cases-sm{font-size:13px;fill:var(--fig-muted)} .phy-3-lens-cases-b{font-weight:600}
+  </style>
+<text x="180.0" y="26.0" text-anchor="middle" class="phy-3-lens-cases-lbl phy-3-lens-cases-b">(가) 물체가 F와 2F 사이에 있을 때</text>
+<line x1="10.0" y1="150.0" x2="350.0" y2="150.0" style="stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:6 4;fill:none"/>
+<path d="M130 55 Q148 150 130 245 Q112 150 130 55 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+<circle cx="10.0" cy="150.0" r="3" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+<text x="10.0" y="168.0" text-anchor="middle" class="phy-3-lens-cases-sm">2F</text>
+<circle cx="70.0" cy="150.0" r="3" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+<text x="70.0" y="168.0" text-anchor="middle" class="phy-3-lens-cases-sm">F</text>
+<circle cx="190.0" cy="150.0" r="3" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+<text x="190.0" y="168.0" text-anchor="middle" class="phy-3-lens-cases-sm">F′</text>
+<circle cx="250.0" cy="150.0" r="3" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+<text x="250.0" y="168.0" text-anchor="middle" class="phy-3-lens-cases-sm">2F′</text>
+<line x1="40.0" y1="150.0" x2="40.0" y2="119.0" style="stroke:var(--fig-green);stroke-width:3;fill:none"/>
+<path d="M40.0 110.0 L44.5 120.0 L35.5 120.0 Z" style="fill:var(--fig-green)"/>
+<line x1="310.0" y1="150.0" x2="310.0" y2="221.0" style="stroke:var(--fig-red);stroke-width:3;fill:none"/>
+<path d="M310.0 230.0 L305.5 220.0 L314.5 220.0 Z" style="fill:var(--fig-red)"/>
+<path d="M40.0 110.0 L130.0 110.0 L335.0 246.7" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
+<path d="M40.0 110.0 L335.0 241.1" style="fill:none;stroke:var(--fig-violet);stroke-width:2"/>
+<text x="40.0" y="190.0" text-anchor="middle" class="phy-3-lens-cases-sm">물체</text>
+<text x="310.0" y="252.0" text-anchor="end" class="phy-3-lens-cases-sm" style="fill:var(--fig-red)">실상: 거꾸로, 확대</text>
+<line x1="360.0" y1="30.0" x2="360.0" y2="310.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4;fill:none"/>
+<text x="540.0" y="26.0" text-anchor="middle" class="phy-3-lens-cases-lbl phy-3-lens-cases-b">(나) 물체가 초점 안쪽에 있을 때</text>
+<line x1="370.0" y1="150.0" x2="710.0" y2="150.0" style="stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:6 4;fill:none"/>
+<path d="M565 55 Q583 150 565 245 Q547 150 565 55 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+<circle cx="505.0" cy="150.0" r="3" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+<text x="505.0" y="168.0" text-anchor="middle" class="phy-3-lens-cases-sm">F</text>
+<circle cx="625.0" cy="150.0" r="3" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+<text x="625.0" y="168.0" text-anchor="middle" class="phy-3-lens-cases-sm">F′</text>
+<line x1="505.0" y1="150.0" x2="505.0" y2="99.0" style="stroke:var(--fig-violet);stroke-width:3;stroke-dasharray:5 4;fill:none"/>
+<path d="M505.0 90.0 L509.5 100.0 L500.5 100.0 Z" style="fill:var(--fig-violet)"/>
+<line x1="535.0" y1="150.0" x2="535.0" y2="129.0" style="stroke:var(--fig-green);stroke-width:3;fill:none"/>
+<path d="M535.0 120.0 L539.5 130.0 L530.5 130.0 Z" style="fill:var(--fig-green)"/>
+<path d="M535.0 120.0 L565.0 120.0 L695.0 185.0" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
+<path d="M535.0 120.0 L660.0 245.0" style="fill:none;stroke:var(--fig-violet);stroke-width:2"/>
+<path d="M565.0 120.0 L505.0 90.0" style="fill:none;stroke:var(--fig-amber);stroke-width:1.5;stroke-dasharray:4 3"/>
+<path d="M535.0 120.0 L505.0 90.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1.5;stroke-dasharray:4 3"/>
+<text x="490.0" y="80.0" text-anchor="end" class="phy-3-lens-cases-sm" style="fill:var(--fig-violet)">허상: 바로 선, 확대</text>
+<text x="535.0" y="190.0" text-anchor="middle" class="phy-3-lens-cases-sm">물체</text>
+<text x="685.0" y="230.0" text-anchor="start" class="phy-3-lens-cases-sm">눈 →</text>
+<text x="615.0" y="280.0" text-anchor="middle" class="phy-3-lens-cases-sm">점선: 굴절 광선의 연장선</text>
+<text x="180.0" y="315.0" text-anchor="middle" class="phy-3-lens-cases-sm">주황: 광축에 나란한 광선, 보라: 렌즈 중심을 지나는 광선</text>
+</svg>

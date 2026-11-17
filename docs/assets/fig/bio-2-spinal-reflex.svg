@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 356" role="img" aria-labelledby="t-bio-2-spinal-reflex d-bio-2-spinal-reflex">
+  <title id="t-bio-2-spinal-reflex">그림 생명과학 2-5 척수의 단면과 회피 반사의 경로</title>
+  <desc id="d-bio-2-spinal-reflex">척수의 가로 단면은 겉쪽이 백질, 속쪽이 나비 모양의 회색질이다. 피부의 자극은 감각 뉴런을 따라 척수의 등 쪽으로 들어가 회색질의 연합 뉴런을 거쳐, 운동 뉴런을 따라 배 쪽으로 나가 근육을 수축시킨다. 감각 정보는 따로 대뇌로도 올라가므로 반사가 일어난 뒤에 감각을 느낀다. 모식도.</desc>
+  <style>
+    .b2spn-lbl{font-size:13.5px;fill:var(--fig-ink)} .b2spn-b{font-size:14.5px;font-weight:700;fill:var(--fig-ink)}
+    .b2spn-sm{font-size:12.5px;fill:var(--fig-muted)} .b2spn-lead{fill:none;stroke:var(--fig-muted);stroke-width:1.1}
+    .b2spn-ink{fill:var(--fig-ink)} .b2spn-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
+    
+  </style>
+  <ellipse cx="360" cy="180" rx="118" ry="88" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2.2"/>
+  <path d="M360 158 C346 150 330 110 312 108 C294 108 298 140 308 158 C316 174 280 200 286 228 C292 250 324 242 334 220 C342 204 352 198 360 198 C368 198 378 204 386 220 C396 242 428 250 434 228 C440 200 404 174 412 158 C422 140 426 108 408 108 C390 110 374 150 360 158 Z" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <circle cx="360" cy="180" r="4" style="fill:var(--fig-paper);stroke:var(--fig-violet);stroke-width:1.2"/>
+  <path d="M40 60 Q110 70 164 100" style="fill:none;stroke:var(--fig-blue);stroke-width:3"/>
+  <path d="M192 100 Q260 104 314 130" style="fill:none;stroke:var(--fig-blue);stroke-width:3"/>
+  <ellipse cx="178" cy="100" rx="20" ry="13" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <circle cx="178" cy="99" r="6" style="fill:var(--fig-blue)"/>
+  <line x1="60.0" y1="62.0" x2="88.0" y2="65.1" style="fill:none;stroke:var(--fig-blue);stroke-width:2"/>
+  <path d="M96.0 66.0 L87.6 69.1 L88.5 61.1 Z" style="fill:var(--fig-blue)"/>
+  <path d="M314 130 Q320 180 310 218" style="fill:none;stroke:var(--fig-green);stroke-width:3"/>
+  <circle cx="317" cy="176" r="6" style="fill:var(--fig-green)"/>
+  <circle cx="308" cy="224" r="8" style="fill:var(--fig-red)"/>
+  <path d="M302 228 Q240 270 150 290 Q90 300 52 296" style="fill:none;stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="110.0" y1="296.0" x2="78.0" y2="296.8" style="fill:none;stroke:var(--fig-red);stroke-width:2"/>
+  <path d="M70.0 297.0 L77.9 292.8 L78.1 300.8 Z" style="fill:var(--fig-red)"/>
+  <rect x="14" y="40" width="24" height="40" rx="5" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <text x="26.0" y="30.0" class="b2spn-sm">피부(감각기)</text>
+  <ellipse cx="34" cy="296" rx="22" ry="14" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <text x="14.0" y="330.0" class="b2spn-sm">근육(반응기)</text>
+  <line x1="390.0" y1="110.0" x2="390.0" y2="35.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.8;stroke-dasharray:5 4"/>
+  <path d="M390.0 26.0 L394.5 35.0 L385.5 35.0 Z" style="fill:var(--fig-muted)"/>
+  <path d="M320 140 Q360 120 390 110" style="fill:none;stroke:var(--fig-muted);stroke-width:1.8;stroke-dasharray:5 4"/>
+  <text x="398.0" y="32.0" class="b2spn-sm">대뇌로(나중에 '뜨겁다'고 느낌)</text>
+  <text x="178.0" y="76.0" text-anchor="middle" class="b2spn-b" style="fill:var(--fig-blue)">감각 뉴런</text>
+  <text x="178.0" y="128.0" text-anchor="middle" class="b2spn-sm">신경절(세포체)</text>
+  <text x="170.0" y="250.0" text-anchor="middle" class="b2spn-b" style="fill:var(--fig-red)">운동 뉴런</text>
+  <line x1="320.0" y1="176.0" x2="240.0" y2="178.0" class="b2spn-lead"/>
+  <text x="236.0" y="182.0" text-anchor="end" class="b2spn-b" style="fill:var(--fig-green)">연합 뉴런</text>
+  <line x1="460.0" y1="150.0" x2="520.0" y2="90.0" class="b2spn-lead"/>
+  <text x="526.0" y="88.0" class="b2spn-b">백질(겉쪽)</text>
+  <text x="526.0" y="105.0" class="b2spn-sm">축삭 돌기가 모인 곳</text>
+  <line x1="420.0" y1="220.0" x2="520.0" y2="200.0" class="b2spn-lead"/>
+  <text x="526.0" y="200.0" class="b2spn-b">회색질(속쪽)</text>
+  <text x="526.0" y="217.0" class="b2spn-sm">신경 세포체가 모인 곳</text>
+  <text x="360.0" y="82.0" text-anchor="middle" class="b2spn-sm">등 쪽</text>
+  <text x="360.0" y="286.0" text-anchor="middle" class="b2spn-sm">배 쪽</text>
+  <text x="526.0" y="276.0" class="b2spn-sm">척수는 대뇌와 반대로</text>
+  <text x="526.0" y="293.0" class="b2spn-sm">겉이 백질, 속이 회색질이다</text>
+  <text x="360.0" y="340.0" text-anchor="middle" class="b2spn-lbl">경로: 감각기 → 감각 뉴런 → 연합 뉴런 → 운동 뉴런 → 반응기 (대뇌를 거치지 않음)</text>
+
+</svg>

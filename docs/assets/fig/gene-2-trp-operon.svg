@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-gene-2-trp-operon d-gene-2-trp-operon">
+  <title id="t-gene-2-trp-operon">그림 생물의 유전 2-5 트립토판 오페론 — 산물이 많아지면 전사가 꺼진다</title>
+  <desc id="d-gene-2-trp-operon">위: 트립토판이 적을 때는 조절 유전자가 만든 억제 단백질이 작동 부위에 붙지 못하므로 RNA 중합 효소가 구조 유전자(트립토판 합성 효소 유전자)를 전사한다. 아래: 트립토판이 많아지면 트립토판이 억제 단백질에 결합하여 억제 단백질이 작동 부위에 붙을 수 있게 되고, RNA 중합 효소가 구조 유전자를 전사하지 못한다. 최종 산물이 자기 합성을 멈추는 억제 방식이다. 모식도이다.</desc>
+  <style>
+    .gene-2-trp-operon-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .gene-2-trp-operon-tx{font-size:14px;fill:var(--fig-ink)}
+    .gene-2-trp-operon-sm{font-size:13px;fill:var(--fig-muted)}
+    .gene-2-trp-operon-mono{font-size:14px;font-weight:600;fill:var(--fig-ink);letter-spacing:1px}
+    .gene-2-trp-operon-ln{fill:none;stroke:var(--fig-ink);stroke-width:2}
+    .gene-2-trp-operon-lnm{fill:none;stroke:var(--fig-line);stroke-width:1.5}
+    .gene-2-trp-operon-dash{fill:none;stroke:var(--fig-line);stroke-width:1.5;stroke-dasharray:5 4}
+    .gene-2-trp-operon-ink{fill:var(--fig-ink)}
+    .gene-2-trp-operon-paper{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5}
+    .gene-2-trp-operon-gray{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.5}
+    .gene-2-trp-operon-b-blue{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2}
+    .gene-2-trp-operon-f-blue{fill:var(--fig-blue)}
+    .gene-2-trp-operon-s-blue{fill:none;stroke:var(--fig-blue);stroke-width:2.5}
+    .gene-2-trp-operon-t-blue{fill:var(--fig-blue)}
+    .gene-2-trp-operon-b-red{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2}
+    .gene-2-trp-operon-f-red{fill:var(--fig-red)}
+    .gene-2-trp-operon-s-red{fill:none;stroke:var(--fig-red);stroke-width:2.5}
+    .gene-2-trp-operon-t-red{fill:var(--fig-red)}
+    .gene-2-trp-operon-b-green{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2}
+    .gene-2-trp-operon-f-green{fill:var(--fig-green)}
+    .gene-2-trp-operon-s-green{fill:none;stroke:var(--fig-green);stroke-width:2.5}
+    .gene-2-trp-operon-t-green{fill:var(--fig-green)}
+    .gene-2-trp-operon-b-amber{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+    .gene-2-trp-operon-f-amber{fill:var(--fig-amber)}
+    .gene-2-trp-operon-s-amber{fill:none;stroke:var(--fig-amber);stroke-width:2.5}
+    .gene-2-trp-operon-t-amber{fill:var(--fig-amber)}
+    .gene-2-trp-operon-b-violet{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2}
+    .gene-2-trp-operon-f-violet{fill:var(--fig-violet)}
+    .gene-2-trp-operon-s-violet{fill:none;stroke:var(--fig-violet);stroke-width:2.5}
+    .gene-2-trp-operon-t-violet{fill:var(--fig-violet)}
+    .gene-2-trp-operon-b-teal{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2}
+    .gene-2-trp-operon-f-teal{fill:var(--fig-teal)}
+    .gene-2-trp-operon-s-teal{fill:none;stroke:var(--fig-teal);stroke-width:2.5}
+    .gene-2-trp-operon-t-teal{fill:var(--fig-teal)}
+  </style>
+  <rect x="14.0" y="14.0" width="692.0" height="176.0" rx="8" class="gene-2-trp-operon-gray"/>
+  <text x="28.0" y="40.0" class="gene-2-trp-operon-h">트립토판이 적을 때 — 전사 켜짐</text>
+  <line x1="30.0" y1="120.0" x2="690.0" y2="120.0" class="gene-2-trp-operon-ln" style="stroke-width:3;stroke:var(--fig-line)"/>
+  <rect x="40.0" y="107.0" width="90.0" height="26.0" rx="0" class="gene-2-trp-operon-b-red"/>
+  <text x="85.0" y="125.0" text-anchor="middle" class="gene-2-trp-operon-tx" style="font-size:12px">조절 유전자</text>
+  <rect x="200.0" y="107.0" width="70.0" height="26.0" rx="0" class="gene-2-trp-operon-b-amber"/>
+  <text x="235.0" y="152.0" text-anchor="middle" class="gene-2-trp-operon-sm" style="font-size:12px">프로모터</text>
+  <rect x="270.0" y="107.0" width="50.0" height="26.0" rx="0" class="gene-2-trp-operon-b-violet"/>
+  <text x="295.0" y="152.0" text-anchor="middle" class="gene-2-trp-operon-sm" style="font-size:12px">작동 부위</text>
+  <rect x="320.0" y="107.0" width="340.0" height="26.0" rx="0" class="gene-2-trp-operon-b-blue"/>
+  <text x="490.0" y="125.0" text-anchor="middle" class="gene-2-trp-operon-tx" style="font-size:13px">구조 유전자 (트립토판 합성 효소)</text>
+  <path d="M 265 76 Q 259 42 295 38 Q 331 42 325 76 Q 295 62 265 76 Z" class="gene-2-trp-operon-b-red"/>
+  <text x="340.0" y="66.0" class="gene-2-trp-operon-sm" style="font-size:12px">억제 단백질(작동 부위에 못 붙음)</text>
+  <line x1="100.0" y1="104.0" x2="243.3" y2="63.3" style="fill:none;stroke:var(--fig-red);stroke-width:1.5;stroke-dasharray:5 4"/>
+  <polygon points="248.0,62.0 243.1,67.0 241.2,60.3" class="gene-2-trp-operon-ink" style="fill:var(--fig-red)"/>
+  <ellipse cx="400.0" cy="120.0" rx="34.0" ry="22.0" class="gene-2-trp-operon-b-amber" style="opacity:0.9"/>
+  <text x="400.0" y="125.0" text-anchor="middle" class="gene-2-trp-operon-sm" style="font-size:11px;fill:var(--fig-ink)">RNA 중합 효소</text>
+  <line x1="438.0" y1="92.0" x2="493.7" y2="92.0" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
+  <polygon points="500.0,92.0 492.2,96.5 492.2,87.5" class="gene-2-trp-operon-ink" style="fill:var(--fig-amber)"/>
+  <path d="M 330 158 Q 338 152 346 158 Q 354 164 362 158 Q 370 152 378 158 Q 386 164 394 158 Q 402 152 410 158 Q 418 164 426 158 Q 434 152 442 158 Q 450 164 458 158 Q 466 152 474 158 Q 482 164 490 158 Q 498 152 506 158 Q 514 164 522 158 Q 530 152 538 158 Q 546 164 554 158" class="gene-2-trp-operon-s-teal"/>
+  <text x="560.0" y="163.0" class="gene-2-trp-operon-sm" style="font-size:12px">mRNA → 트립토판 합성 효소 → 트립토판</text>
+  <rect x="14.0" y="204.0" width="692.0" height="182.0" rx="8" class="gene-2-trp-operon-gray"/>
+  <text x="28.0" y="230.0" class="gene-2-trp-operon-h">트립토판이 많을 때 — 전사 꺼짐</text>
+  <line x1="30.0" y1="318.0" x2="690.0" y2="318.0" class="gene-2-trp-operon-ln" style="stroke-width:3;stroke:var(--fig-line)"/>
+  <rect x="40.0" y="305.0" width="90.0" height="26.0" rx="0" class="gene-2-trp-operon-b-red"/>
+  <text x="85.0" y="323.0" text-anchor="middle" class="gene-2-trp-operon-tx" style="font-size:12px">조절 유전자</text>
+  <rect x="200.0" y="305.0" width="70.0" height="26.0" rx="0" class="gene-2-trp-operon-b-amber"/>
+  <text x="235.0" y="350.0" text-anchor="middle" class="gene-2-trp-operon-sm" style="font-size:12px">프로모터</text>
+  <rect x="270.0" y="305.0" width="50.0" height="26.0" rx="0" class="gene-2-trp-operon-b-violet"/>
+  <text x="295.0" y="350.0" text-anchor="middle" class="gene-2-trp-operon-sm" style="font-size:12px">작동 부위</text>
+  <rect x="320.0" y="305.0" width="340.0" height="26.0" rx="0" class="gene-2-trp-operon-b-blue"/>
+  <text x="490.0" y="323.0" text-anchor="middle" class="gene-2-trp-operon-tx" style="font-size:13px">구조 유전자 (트립토판 합성 효소)</text>
+  <path d="M 261 305 L 261 275 Q 295 253 329 275 L 329 305 L 315 305 L 315 293 L 275 293 L 275 305 Z" class="gene-2-trp-operon-b-red"/>
+  <circle cx="279.0" cy="264.0" r="9.0" class="gene-2-trp-operon-b-green"/>
+  <circle cx="311.0" cy="264.0" r="9.0" class="gene-2-trp-operon-b-green"/>
+  <text x="340.0" y="252.0" class="gene-2-trp-operon-sm" style="font-size:12px">Trp가 결합한 억제 단백질 → 작동 부위에 결합</text>
+  <text x="295.0" y="243.0" text-anchor="middle" class="gene-2-trp-operon-sm" style="font-size:12px;fill:var(--fig-green)">Trp</text>
+  <ellipse cx="220.0" cy="284.0" rx="34.0" ry="20.0" class="gene-2-trp-operon-b-amber" style="opacity:0.9"/>
+  <text x="220.0" y="289.0" text-anchor="middle" class="gene-2-trp-operon-sm" style="font-size:11px;fill:var(--fig-ink)">RNA 중합 효소</text>
+  <text x="160.0" y="258.0" text-anchor="middle" class="gene-2-trp-operon-sm" style="fill:var(--fig-red);font-weight:600">진행 못 함</text>
+  <line x1="470.0" y1="278.0" x2="500.0" y2="298.0" class="gene-2-trp-operon-s-red"/>
+  <line x1="470.0" y1="298.0" x2="500.0" y2="278.0" class="gene-2-trp-operon-s-red"/>
+  <text x="512.0" y="293.0" class="gene-2-trp-operon-sm" style="font-size:12px;fill:var(--fig-red)">구조 유전자 전사 없음</text>
+</svg>

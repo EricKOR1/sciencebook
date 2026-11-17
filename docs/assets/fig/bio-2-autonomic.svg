@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-labelledby="t-bio-2-autonomic d-bio-2-autonomic">
+  <title id="t-bio-2-autonomic">그림 생명과학 2-6 체성 신경과 자율 신경(교감·부교감)의 연결 방식</title>
+  <desc id="d-bio-2-autonomic">체성 신경계의 운동 신경은 뉴런 하나가 중추에서 골격근까지 이어지고 말단에서 아세틸콜린을 분비한다. 자율 신경은 신경절에서 두 뉴런이 이어지며, 교감 신경은 신경절 이후 뉴런 말단에서 주로 노르에피네프린을, 부교감 신경은 아세틸콜린을 분비한다. 모식도.</desc>
+  <style>
+    .b2aut-lbl{font-size:13.5px;fill:var(--fig-ink)} .b2aut-b{font-size:14.5px;font-weight:700;fill:var(--fig-ink)}
+    .b2aut-sm{font-size:12.5px;fill:var(--fig-muted)} .b2aut-lead{fill:none;stroke:var(--fig-muted);stroke-width:1.1}
+    .b2aut-ink{fill:var(--fig-ink)} .b2aut-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.6}
+    
+  </style>
+  <rect x="14" y="28" width="62" height="282" rx="10" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <text x="45.0" y="160.0" text-anchor="middle" class="b2aut-b">중추</text>
+  <text x="45.0" y="178.0" text-anchor="middle" class="b2aut-b">신경계</text>
+  <text x="45.0" y="200.0" text-anchor="middle" class="b2aut-sm">(뇌·척수)</text>
+  <text x="100.0" y="44.0" class="b2aut-b">체성 신경계(운동 신경)</text>
+  <circle cx="88" cy="70" r="8" style="fill:var(--fig-blue)"/>
+  <line x1="96" y1="70" x2="520" y2="70" style="stroke:var(--fig-blue);stroke-width:3.5"/>
+  <path d="M520 70 l8 -7 M520 70 l8 7 M520 70 l10 0" style="fill:none;stroke:var(--fig-blue);stroke-width:2.2"/>
+  <text x="518.0" y="92.0" text-anchor="end" class="b2aut-sm">아세틸콜린</text>
+  <text x="300.0" y="62.0" text-anchor="middle" class="b2aut-sm">뉴런 하나가 중추에서 근육까지</text>
+  <rect x="540" y="48" width="110" height="44" rx="10" style="fill:var(--fig-soft-red);stroke:var(--fig-line);stroke-width:1.6"/>
+  <text x="595.0" y="75.0" text-anchor="middle" class="b2aut-b">골격근</text>
+  <text x="100.0" y="144.0" class="b2aut-b">교감 신경</text>
+  <circle cx="88" cy="170" r="8" style="fill:var(--fig-red)"/>
+  <line x1="96" y1="170" x2="206" y2="170" style="stroke:var(--fig-red);stroke-width:3.5"/>
+  <path d="M206 170 l8 -7 M206 170 l8 7 M206 170 l10 0" style="fill:none;stroke:var(--fig-red);stroke-width:2.2"/>
+  <text x="204.0" y="192.0" text-anchor="end" class="b2aut-sm">아세틸콜린</text>
+  <circle cx="242" cy="170" r="8" style="fill:var(--fig-red)"/>
+  <line x1="250" y1="170" x2="520" y2="170" style="stroke:var(--fig-red);stroke-width:3.5"/>
+  <path d="M520 170 l8 -7 M520 170 l8 7 M520 170 l10 0" style="fill:none;stroke:var(--fig-red);stroke-width:2.2"/>
+  <text x="518.0" y="192.0" text-anchor="end" class="b2aut-sm">노르에피네프린</text>
+  <ellipse cx="218" cy="170" rx="18" ry="14" style="fill:none;stroke:var(--fig-muted);stroke-width:1.5;stroke-dasharray:4 3"/>
+  <text x="218.0" y="140.0" text-anchor="middle" class="b2aut-sm">신경절</text>
+  <text x="151.0" y="162.0" text-anchor="middle" class="b2aut-sm">신경절 이전 뉴런</text>
+  <text x="385.0" y="162.0" text-anchor="middle" class="b2aut-sm">신경절 이후 뉴런</text>
+  <rect x="540" y="148" width="110" height="44" rx="10" style="fill:var(--fig-soft-amber);stroke:var(--fig-line);stroke-width:1.6"/>
+  <text x="595.0" y="175.0" text-anchor="middle" class="b2aut-b">내장 기관</text>
+  <text x="100.0" y="244.0" class="b2aut-b">부교감 신경</text>
+  <circle cx="88" cy="270" r="8" style="fill:var(--fig-green)"/>
+  <line x1="96" y1="270" x2="388" y2="270" style="stroke:var(--fig-green);stroke-width:3.5"/>
+  <path d="M388 270 l8 -7 M388 270 l8 7 M388 270 l10 0" style="fill:none;stroke:var(--fig-green);stroke-width:2.2"/>
+  <text x="386.0" y="292.0" text-anchor="end" class="b2aut-sm">아세틸콜린</text>
+  <circle cx="424" cy="270" r="8" style="fill:var(--fig-green)"/>
+  <line x1="432" y1="270" x2="520" y2="270" style="stroke:var(--fig-green);stroke-width:3.5"/>
+  <path d="M520 270 l8 -7 M520 270 l8 7 M520 270 l10 0" style="fill:none;stroke:var(--fig-green);stroke-width:2.2"/>
+  <text x="518.0" y="292.0" text-anchor="end" class="b2aut-sm">아세틸콜린</text>
+  <ellipse cx="400" cy="270" rx="18" ry="14" style="fill:none;stroke:var(--fig-muted);stroke-width:1.5;stroke-dasharray:4 3"/>
+  <text x="400.0" y="240.0" text-anchor="middle" class="b2aut-sm">신경절</text>
+  <text x="242.0" y="262.0" text-anchor="middle" class="b2aut-sm">신경절 이전 뉴런</text>
+  <text x="476.0" y="262.0" text-anchor="middle" class="b2aut-sm">신경절 이후 뉴런</text>
+  <rect x="540" y="248" width="110" height="44" rx="10" style="fill:var(--fig-soft-amber);stroke:var(--fig-line);stroke-width:1.6"/>
+  <text x="595.0" y="275.0" text-anchor="middle" class="b2aut-b">내장 기관</text>
+  <text x="660.0" y="175.0" class="b2aut-sm">길항</text>
+  <text x="660.0" y="191.0" class="b2aut-sm">작용</text>
+  <path d="M656 158 Q676 220 656 282" style="fill:none;stroke:var(--fig-muted);stroke-width:1.5"/>
+  <text x="360.0" y="336.0" text-anchor="middle" class="b2aut-sm">교감: 신경절 이전 뉴런이 짧고 이후 뉴런이 길다 · 부교감: 신경절 이전 뉴런이 길고 이후 뉴런이 짧다</text>
+
+</svg>

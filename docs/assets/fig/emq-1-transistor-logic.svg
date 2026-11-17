@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-emq-1-transistor-logic d-emq-1-transistor-logic">
   <title id="t-emq-1-transistor-logic">그림 전자기와 양자 1-8 트랜지스터의 전류와 스위치로 만든 논리 게이트</title>
-  <desc id="d-emq-1-transistor-logic">(가) 트랜지스터는 베이스로 들어가는 작은 전류가 컬렉터에서 이미터로 흐르는 큰 전류를 조절한다. I_C = βI_B, I_E = I_B + I_C. (나) 트랜지스터를 스위치로 쓰면 두 스위치를 직렬로 이어 AND, (다) 병렬로 이어 OR 게이트를 만들 수 있다.</desc>
+  <desc id="d-emq-1-transistor-logic">(가) 트랜지스터는 베이스로 들어가는 작은 전류가 컬렉터에서 이미터로 흐르는 큰 전류를 조절한다(컬렉터 전류 = β × 베이스 전류, 이미터 전류 = 베이스 전류 + 컬렉터 전류). (나) 트랜지스터를 스위치로 쓰면 두 스위치를 직렬로 이어 AND, (다) 병렬로 이어 OR 게이트를 만들 수 있다.</desc>
   <line x1="243.0" y1="20.0" x2="243.0" y2="318.0" style="fill:none;stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
   <line x1="476.0" y1="20.0" x2="476.0" y2="318.0" style="fill:none;stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
   <text x="20.0" y="32.0" style="font-size:15px;fill:var(--fig-ink);font-weight:600">(가) 트랜지스터(npn)</text>
@@ -17,14 +17,14 @@
   <text x="156.0" y="260.0" style="font-size:15px;fill:var(--fig-ink);font-weight:700">E</text>
   <line x1="44.0" y1="160.0" x2="72.4" y2="160.0" style="fill:none;stroke:var(--fig-red);stroke-width:1.6"/>
   <path d="M78.0 160.0 L71.0 163.2 L71.0 156.8 Z" style="fill:var(--fig-red)"/>
-  <text x="62.0" y="144.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-red)">I_B (작다)</text>
+  <text x="62.0" y="144.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-red)">I<tspan baseline-shift="sub" style="font-size:10px">B</tspan> (작다)</text>
   <line x1="134.0" y1="70.0" x2="134.0" y2="100.4" style="fill:none;stroke:var(--fig-red);stroke-width:4"/>
   <path d="M134.0 110.0 L128.6 98.0 L139.4 98.0 Z" style="fill:var(--fig-red)"/>
-  <text x="130.0" y="66.0" text-anchor="end" style="font-size:13px;fill:var(--fig-red)">I_C (크다)</text>
+  <text x="130.0" y="66.0" text-anchor="end" style="font-size:13px;fill:var(--fig-red)">I<tspan baseline-shift="sub" style="font-size:10px">C</tspan> (크다)</text>
   <line x1="134.0" y1="230.0" x2="134.0" y2="260.4" style="fill:none;stroke:var(--fig-red);stroke-width:4"/>
   <path d="M134.0 270.0 L128.6 258.0 L139.4 258.0 Z" style="fill:var(--fig-red)"/>
-  <text x="130.0" y="282.0" text-anchor="end" style="font-size:13px;fill:var(--fig-red)">I_E = I_B + I_C</text>
-  <text x="20.0" y="316.0" style="font-size:14px;fill:var(--fig-ink);font-weight:600">I_C = βI_B (β: 수십~수백)</text>
+  <text x="130.0" y="282.0" text-anchor="end" style="font-size:13px;fill:var(--fig-red)">I<tspan baseline-shift="sub" style="font-size:10px">E</tspan> = I<tspan baseline-shift="sub" style="font-size:10px">B</tspan> + I<tspan baseline-shift="sub" style="font-size:10px">C</tspan></text>
+  <text x="20.0" y="316.0" style="font-size:14px;fill:var(--fig-ink);font-weight:600">I<tspan baseline-shift="sub" style="font-size:11px">C</tspan> = βI<tspan baseline-shift="sub" style="font-size:11px">B</tspan> (β: 수십~수백)</text>
   <text x="263.0" y="32.0" style="font-size:15px;fill:var(--fig-ink);font-weight:600">(나) AND — 직렬</text>
   <line x1="288.0" y1="110.0" x2="318.0" y2="110.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
   <circle cx="318.0" cy="110.0" r="3.5" style="fill:var(--fig-ink);stroke:none;stroke-width:0"/>

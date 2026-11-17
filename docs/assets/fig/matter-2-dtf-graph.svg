@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-matter-2-dtf-graph d-matter-2-dtf-graph">
+  <title id="t-matter-2-dtf-graph">그림 물질과 에너지 2-8 몰랄 농도에 따른 어는점 내림과 끓는점 오름</title>
+  <desc id="d-matter-2-dtf-graph">본문 예시 자료를 그래프로 나타내면 어는점 내림과 끓는점 오름 모두 몰랄 농도에 비례하여 원점을 지나는 직선이 되고, 기울기는 각각 약 1.87과 0.51 °C·kg/mol로 물의 Kf, Kb와 같다.</desc>
+  <style>
+    .matter-2-dtf-graph-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.5}
+    .matter-2-dtf-graph-gr{fill:none;stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4}
+    .matter-2-dtf-graph-l{font-size:14px;fill:var(--fig-ink)}
+    .matter-2-dtf-graph-t{font-size:13px;fill:var(--fig-muted)}
+    .matter-2-dtf-graph-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .matter-2-dtf-graph-ink{fill:var(--fig-ink)}
+  </style>
+  <line x1="80" y1="260.9" x2="560" y2="260.9" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="80" y1="221.9" x2="560" y2="221.9" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="80" y1="182.8" x2="560" y2="182.8" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="80" y1="143.8" x2="560" y2="143.8" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="80" y1="104.7" x2="560" y2="104.7" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="80" y1="65.6" x2="560" y2="65.6" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <path d="M80 38 L80 300 L572 300" class="matter-2-dtf-graph-ax"/>
+  <path d="M80 32 l-5 9 l10 0 z" class="matter-2-dtf-graph-ink"/>
+  <path d="M578 300 l-9 -5 l0 10 z" class="matter-2-dtf-graph-ink"/>
+  <text x="72" y="305" text-anchor="end" class="matter-2-dtf-graph-t">0.0</text>
+  <text x="72" y="226.9" text-anchor="end" class="matter-2-dtf-graph-t">1.0</text>
+  <text x="72" y="148.8" text-anchor="end" class="matter-2-dtf-graph-t">2.0</text>
+  <text x="72" y="70.6" text-anchor="end" class="matter-2-dtf-graph-t">3.0</text>
+  <text x="80" y="320" text-anchor="middle" class="matter-2-dtf-graph-t">0</text>
+  <text x="230" y="320" text-anchor="middle" class="matter-2-dtf-graph-t">0.50</text>
+  <text x="380" y="320" text-anchor="middle" class="matter-2-dtf-graph-t">1.00</text>
+  <text x="530" y="320" text-anchor="middle" class="matter-2-dtf-graph-t">1.50</text>
+  <text x="578" y="340" text-anchor="end" class="matter-2-dtf-graph-l">몰랄 농도 m(mol/kg)</text>
+  <text x="88" y="30" class="matter-2-dtf-graph-l">온도 변화(°C)</text>
+  <line x1="80" y1="300" x2="560" y2="66.2" style="stroke:var(--fig-blue);stroke-width:2.4"/>
+  <line x1="80" y1="300" x2="560" y2="236.2" style="stroke:var(--fig-red);stroke-width:2.4"/>
+  <circle cx="80" cy="300" r="6" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:2.4"/>
+  <circle cx="230" cy="226.6" r="6" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:2.4"/>
+  <circle cx="380" cy="153.9" r="6" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:2.4"/>
+  <circle cx="530" cy="81.3" r="6" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:2.4"/>
+  <rect x="74.5" y="294.5" width="11" height="11" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2.4"/>
+  <rect x="224.5" y="274.2" width="11" height="11" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2.4"/>
+  <rect x="374.5" y="254.7" width="11" height="11" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2.4"/>
+  <rect x="524.5" y="234.3" width="11" height="11" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2.4"/>
+  <text x="542" y="103.3" class="matter-2-dtf-graph-t" style="fill:var(--fig-blue)">2.80</text>
+  <text x="532" y="227.8" class="matter-2-dtf-graph-t" style="fill:var(--fig-red)">0.77</text>
+  <circle cx="606" cy="100" r="6" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:2.4"/>
+  <text x="620" y="105" class="matter-2-dtf-graph-l" style="fill:var(--fig-blue);font-weight:700">ΔTf</text>
+  <text x="600" y="128" class="matter-2-dtf-graph-t">기울기 ≈ 1.87</text>
+  <text x="600" y="147" class="matter-2-dtf-graph-t">= 물의 Kf</text>
+  <rect x="600.5" y="194.5" width="11" height="11" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2.4"/>
+  <text x="620" y="205" class="matter-2-dtf-graph-l" style="fill:var(--fig-red);font-weight:700">ΔTb</text>
+  <text x="600" y="228" class="matter-2-dtf-graph-t">기울기 ≈ 0.51</text>
+  <text x="600" y="247" class="matter-2-dtf-graph-t">= 물의 Kb</text>
+  <text x="320" y="372" text-anchor="middle" class="matter-2-dtf-graph-t">설탕물(물 100 g)의 예시 자료 — 원점을 지나는 직선: ΔT = K × m</text>
+</svg>
