@@ -38,32 +38,17 @@
   <circle cx="146.2" cy="196.4" r="2.6" class="uearth-7-precip-processes-drop"/>
   <circle cx="53.4" cy="222.1" r="2.6" class="uearth-7-precip-processes-drop"/>
   <circle cx="117.4" cy="155.8" r="2.6" class="uearth-7-precip-processes-drop"/>
-  <circle cx="308.9" cy="181.7" r="2.6" class="uearth-7-precip-processes-drop"/>
-  <circle cx="267.5" cy="182.4" r="2.6" class="uearth-7-precip-processes-drop"/>
   <circle cx="224.6" cy="137.0" r="2.6" class="uearth-7-precip-processes-drop"/>
-  <circle cx="247.1" cy="195.0" r="2.6" class="uearth-7-precip-processes-drop"/>
   <circle cx="128.3" cy="133.4" r="2.6" class="uearth-7-precip-processes-drop"/>
-  <circle cx="275.0" cy="182.0" r="2.6" class="uearth-7-precip-processes-drop"/>
-  <circle cx="236.9" cy="226.7" r="2.6" class="uearth-7-precip-processes-drop"/>
-  <circle cx="235.7" cy="231.3" r="2.6" class="uearth-7-precip-processes-drop"/>
   <circle cx="278.5" cy="140.7" r="2.6" class="uearth-7-precip-processes-drop"/>
   <circle cx="85.4" cy="153.9" r="2.6" class="uearth-7-precip-processes-drop"/>
-  <circle cx="301.0" cy="178.0" r="2.6" class="uearth-7-precip-processes-drop"/>
   <circle cx="141.2" cy="194.4" r="2.6" class="uearth-7-precip-processes-drop"/>
-  <circle cx="227.3" cy="232.2" r="2.6" class="uearth-7-precip-processes-drop"/>
-  <circle cx="272.7" cy="239.0" r="2.6" class="uearth-7-precip-processes-drop"/>
   <circle cx="224.5" cy="147.9" r="2.6" class="uearth-7-precip-processes-drop"/>
-  <circle cx="273.8" cy="236.1" r="2.6" class="uearth-7-precip-processes-drop"/>
-  <circle cx="285.2" cy="192.6" r="2.6" class="uearth-7-precip-processes-drop"/>
   <circle cx="235.6" cy="153.2" r="2.6" class="uearth-7-precip-processes-drop"/>
-  <circle cx="266.2" cy="193.1" r="2.6" class="uearth-7-precip-processes-drop"/>
   <circle cx="124.1" cy="137.0" r="2.6" class="uearth-7-precip-processes-drop"/>
-  <circle cx="272.0" cy="238.9" r="2.6" class="uearth-7-precip-processes-drop"/>
   <circle cx="73.0" cy="218.1" r="2.6" class="uearth-7-precip-processes-drop"/>
   <circle cx="126.4" cy="214.6" r="2.6" class="uearth-7-precip-processes-drop"/>
   <circle cx="276.9" cy="134.9" r="2.6" class="uearth-7-precip-processes-drop"/>
-  <circle cx="236.8" cy="166.4" r="2.6" class="uearth-7-precip-processes-drop"/>
-  <circle cx="279.0" cy="237.9" r="2.6" class="uearth-7-precip-processes-drop"/>
   <circle cx="130.5" cy="138.5" r="2.6" class="uearth-7-precip-processes-drop"/>
   <circle cx="101.3" cy="174.9" r="2.6" class="uearth-7-precip-processes-drop"/>
   <path d="M185,133.2 C187.7,137.3 189.5,139.6 189.5,141.3 A4.5,4.5 0 0,1 180.5,141.3 C180.5,139.6 182.3,137.3 185,133.2 Z" class="uearth-7-precip-processes-drop"/>
@@ -100,8 +85,10 @@
   <circle cx="555.0" cy="192.0" r="5" class="uearth-7-precip-processes-drop"/>
   <path d="M548.7,182.6 L533.3,159.8" style="fill:none;stroke:var(--fig-teal);stroke-width:1.6;stroke-dasharray:4 3" marker-end="url(#uearth-7-precip-processes-ah-teal)"/>
   <text x="520.0" y="106.0" class="uearth-7-precip-processes-c-violet" text-anchor="middle">빙정</text>
-  <text x="400.0" y="105.0" class="uearth-7-precip-processes-s">과냉각 물방울(증발하며 작아짐)</text>
-  <text x="608.0" y="210.0" class="uearth-7-precip-processes-c-teal" text-anchor="middle">수증기 이동</text>
+  <rect x="377.0" y="37.0" width="226.8" height="18" rx="3" style="fill:var(--fig-paper);opacity:0.85;stroke:none"/>
+  <text x="380.0" y="50.0" class="uearth-7-precip-processes-s">과냉각 물방울 — 증발하며 작아짐</text>
+  <rect x="574.0" y="189.0" width="81.9" height="18" rx="3" style="fill:var(--fig-paper);opacity:0.85;stroke:none"/>
+  <text x="615.0" y="202.0" class="uearth-7-precip-processes-c-teal" text-anchor="middle">수증기 이동</text>
   <line x1="370" y1="262" x2="710" y2="262" style="stroke:var(--fig-red);stroke-width:1.4;stroke-dasharray:6 4"/>
   <text x="708.0" y="256.0" class="uearth-7-precip-processes-c-red" text-anchor="end">0 °C 층</text>
   <path d="M520.0,220.0 L520.0,244.0 M520.0,238.6 L517.9,242.2 M520.0,238.6 L522.1,242.2 M520.0,225.4 L522.1,221.8 M520.0,225.4 L517.9,221.8 M530.4,226.0 L509.6,238.0 M514.3,235.3 L510.1,235.3 M514.3,235.3 L512.2,238.9 M525.7,228.7 L529.9,228.7 M525.7,228.7 L527.8,225.1 M530.4,238.0 L509.6,226.0 M514.3,228.7 L512.2,225.1 M514.3,228.7 L510.1,228.7 M525.7,235.3 L527.8,238.9 M525.7,235.3 L529.9,235.3 " class="uearth-7-precip-processes-ice"/>
