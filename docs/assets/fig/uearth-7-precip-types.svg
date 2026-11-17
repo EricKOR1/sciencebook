@@ -29,81 +29,88 @@
     .uearth-7-precip-types-pel{fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:2}
   </style>
   <text x="80.0" y="26.0" class="uearth-7-precip-types-h" text-anchor="middle">비</text>
-  <rect x="24" y="70" width="112" height="230" style="fill:none;stroke:var(--fig-line);stroke-width:1"/>
-  <rect x="24" y="146.7" width="112" height="153.3" class="uearth-7-precip-types-warm"/>
-  <line x1="80.0" y1="70" x2="80.0" y2="300" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 3"/>
-  <polyline points="124.8,300.0 80.0,146.7 57.6,70.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.4"/>
-  <path d="M40.0,82.2 L40.0,96.2 M46.1,85.7 L33.9,92.7 M46.1,92.7 L33.9,85.7 " class="uearth-7-precip-types-snow"/>
-  <path d="M40.0,129.7 L40.0,143.7 M46.1,133.2 L33.9,140.2 M46.1,140.2 L33.9,133.2 " class="uearth-7-precip-types-snow"/>
-  <path d="M40,176.7 C43.0,181.2 45.0,183.7 45.0,185.7 A5,5 0 0,1 35.0,185.7 C35.0,183.7 37.0,181.2 40,176.7 Z" class="uearth-7-precip-types-drop"/>
-  <path d="M40,224.3 C43.0,228.8 45.0,231.3 45.0,233.3 A5,5 0 0,1 35.0,233.3 C35.0,231.3 37.0,228.8 40,224.3 Z" class="uearth-7-precip-types-drop"/>
-  <path d="M40,271.8 C43.0,276.3 45.0,278.8 45.0,280.8 A5,5 0 0,1 35.0,280.8 C35.0,278.8 37.0,276.3 40,271.8 Z" class="uearth-7-precip-types-drop"/>
+  <rect x="24" y="78" width="112" height="222" style="fill:none;stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="24" y="152.0" width="112" height="148.0" class="uearth-7-precip-types-warm"/>
+  <line x1="80.0" y1="78" x2="80.0" y2="300" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 3"/>
+  <polyline points="124.8,300.0 80.0,152.0 57.6,78.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.4"/>
+  <path d="M40.0,89.5 L40.0,103.5 M46.1,93.0 L33.9,100.0 M46.1,100.0 L33.9,93.0 " class="uearth-7-precip-types-snow"/>
+  <path d="M40.0,135.4 L40.0,149.4 M46.1,138.9 L33.9,145.9 M46.1,145.9 L33.9,138.9 " class="uearth-7-precip-types-snow"/>
+  <path d="M40,180.8 C43.0,185.3 45.0,187.8 45.0,189.8 A5,5 0 0,1 35.0,189.8 C35.0,187.8 37.0,185.3 40,180.8 Z" class="uearth-7-precip-types-drop"/>
+  <path d="M40,226.6 C43.0,231.1 45.0,233.6 45.0,235.6 A5,5 0 0,1 35.0,235.6 C35.0,233.6 37.0,231.1 40,226.6 Z" class="uearth-7-precip-types-drop"/>
+  <path d="M40,272.5 C43.0,277.0 45.0,279.5 45.0,281.5 A5,5 0 0,1 35.0,281.5 C35.0,279.5 37.0,277.0 40,272.5 Z" class="uearth-7-precip-types-drop"/>
   <line x1="24" y1="300" x2="136" y2="300" style="stroke:var(--fig-ink);stroke-width:1.6"/>
-  <text x="24.0" y="316.0" class="uearth-7-precip-types-s" text-anchor="middle">-10</text>
-  <text x="80.0" y="316.0" class="uearth-7-precip-types-s" text-anchor="middle">0</text>
-  <text x="136.0" y="316.0" class="uearth-7-precip-types-s" text-anchor="middle">10</text>
+  <line x1="24.0" y1="300" x2="24.0" y2="304" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="80.0" y1="300" x2="80.0" y2="304" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="136.0" y1="300" x2="136.0" y2="304" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="80.0" y="317.0" class="uearth-7-precip-types-s" text-anchor="middle">0 °C</text>
   <text x="80.0" y="48.0" class="uearth-7-precip-types-s" text-anchor="middle">0 °C 이상 층이 두꺼움</text>
   <text x="222.0" y="26.0" class="uearth-7-precip-types-h" text-anchor="middle">눈</text>
-  <rect x="166" y="70" width="112" height="230" style="fill:none;stroke:var(--fig-line);stroke-width:1"/>
-  <line x1="222.0" y1="70" x2="222.0" y2="300" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 3"/>
-  <polyline points="210.8,300.0 166.0,70.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.4"/>
-  <path d="M182.0,82.2 L182.0,96.2 M188.1,85.7 L175.9,92.7 M188.1,92.7 L175.9,85.7 " class="uearth-7-precip-types-snow"/>
-  <path d="M182.0,129.7 L182.0,143.7 M188.1,133.2 L175.9,140.2 M188.1,140.2 L175.9,133.2 " class="uearth-7-precip-types-snow"/>
-  <path d="M182.0,177.2 L182.0,191.2 M188.1,180.7 L175.9,187.7 M188.1,187.7 L175.9,180.7 " class="uearth-7-precip-types-snow"/>
-  <path d="M182.0,224.8 L182.0,238.8 M188.1,228.3 L175.9,235.3 M188.1,235.3 L175.9,228.3 " class="uearth-7-precip-types-snow"/>
-  <path d="M182.0,272.3 L182.0,286.3 M188.1,275.8 L175.9,282.8 M188.1,282.8 L175.9,275.8 " class="uearth-7-precip-types-snow"/>
+  <rect x="166" y="78" width="112" height="222" style="fill:none;stroke:var(--fig-line);stroke-width:1"/>
+  <line x1="222.0" y1="78" x2="222.0" y2="300" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 3"/>
+  <polyline points="210.8,300.0 166.0,78.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.4"/>
+  <path d="M260.0,89.5 L260.0,103.5 M266.1,93.0 L253.9,100.0 M266.1,100.0 L253.9,93.0 " class="uearth-7-precip-types-snow"/>
+  <path d="M260.0,135.4 L260.0,149.4 M266.1,138.9 L253.9,145.9 M266.1,145.9 L253.9,138.9 " class="uearth-7-precip-types-snow"/>
+  <path d="M260.0,181.3 L260.0,195.3 M266.1,184.8 L253.9,191.8 M266.1,191.8 L253.9,184.8 " class="uearth-7-precip-types-snow"/>
+  <path d="M260.0,227.1 L260.0,241.1 M266.1,230.6 L253.9,237.6 M266.1,237.6 L253.9,230.6 " class="uearth-7-precip-types-snow"/>
+  <path d="M260.0,273.0 L260.0,287.0 M266.1,276.5 L253.9,283.5 M266.1,283.5 L253.9,276.5 " class="uearth-7-precip-types-snow"/>
   <line x1="166" y1="300" x2="278" y2="300" style="stroke:var(--fig-ink);stroke-width:1.6"/>
-  <text x="166.0" y="316.0" class="uearth-7-precip-types-s" text-anchor="middle">-10</text>
-  <text x="222.0" y="316.0" class="uearth-7-precip-types-s" text-anchor="middle">0</text>
-  <text x="278.0" y="316.0" class="uearth-7-precip-types-s" text-anchor="middle">10</text>
+  <line x1="166.0" y1="300" x2="166.0" y2="304" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="222.0" y1="300" x2="222.0" y2="304" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="278.0" y1="300" x2="278.0" y2="304" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="222.0" y="317.0" class="uearth-7-precip-types-s" text-anchor="middle">0 °C</text>
   <text x="222.0" y="48.0" class="uearth-7-precip-types-s" text-anchor="middle">지표까지 0 °C 이하</text>
   <text x="364.0" y="26.0" class="uearth-7-precip-types-h" text-anchor="middle">진눈깨비</text>
-  <rect x="308" y="70" width="112" height="230" style="fill:none;stroke:var(--fig-line);stroke-width:1"/>
-  <rect x="308" y="269.3" width="112" height="30.7" class="uearth-7-precip-types-warm"/>
-  <line x1="364.0" y1="70" x2="364.0" y2="300" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 3"/>
-  <polyline points="375.2,300.0 364.0,269.3 313.6,70.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.4"/>
-  <path d="M324.0,82.2 L324.0,96.2 M330.1,85.7 L317.9,92.7 M330.1,92.7 L317.9,85.7 " class="uearth-7-precip-types-snow"/>
-  <path d="M324.0,129.7 L324.0,143.7 M330.1,133.2 L317.9,140.2 M330.1,140.2 L317.9,133.2 " class="uearth-7-precip-types-snow"/>
-  <path d="M324.0,177.2 L324.0,191.2 M330.1,180.7 L317.9,187.7 M330.1,187.7 L317.9,180.7 " class="uearth-7-precip-types-snow"/>
-  <path d="M324.0,224.8 L324.0,238.8 M330.1,228.3 L317.9,235.3 M330.1,235.3 L317.9,228.3 " class="uearth-7-precip-types-snow"/>
-  <path d="M318.0,274.3 L318.0,284.3 M322.3,276.8 L313.7,281.8 M322.3,281.8 L313.7,276.8 " class="uearth-7-precip-types-snow"/>
-  <path d="M330,273.3 C332.4,276.9 334.0,278.9 334.0,280.5 A4,4 0 0,1 326.0,280.5 C326.0,278.9 327.6,276.9 330,273.3 Z" class="uearth-7-precip-types-drop"/>
+  <rect x="308" y="78" width="112" height="222" style="fill:none;stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="308" y="270.4" width="112" height="29.6" class="uearth-7-precip-types-warm"/>
+  <line x1="364.0" y1="78" x2="364.0" y2="300" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 3"/>
+  <polyline points="375.2,300.0 364.0,270.4 313.6,78.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.4"/>
+  <path d="M402.0,89.5 L402.0,103.5 M408.1,93.0 L395.9,100.0 M408.1,100.0 L395.9,93.0 " class="uearth-7-precip-types-snow"/>
+  <path d="M402.0,135.4 L402.0,149.4 M408.1,138.9 L395.9,145.9 M408.1,145.9 L395.9,138.9 " class="uearth-7-precip-types-snow"/>
+  <path d="M402.0,181.3 L402.0,195.3 M408.1,184.8 L395.9,191.8 M408.1,191.8 L395.9,184.8 " class="uearth-7-precip-types-snow"/>
+  <path d="M402.0,227.1 L402.0,241.1 M408.1,230.6 L395.9,237.6 M408.1,237.6 L395.9,230.6 " class="uearth-7-precip-types-snow"/>
+  <path d="M396.0,275.0 L396.0,285.0 M400.3,277.5 L391.7,282.5 M400.3,282.5 L391.7,277.5 " class="uearth-7-precip-types-snow"/>
+  <path d="M408,274.0 C410.4,277.6 412.0,279.6 412.0,281.2 A4,4 0 0,1 404.0,281.2 C404.0,279.6 405.6,277.6 408,274.0 Z" class="uearth-7-precip-types-drop"/>
   <line x1="308" y1="300" x2="420" y2="300" style="stroke:var(--fig-ink);stroke-width:1.6"/>
-  <text x="308.0" y="316.0" class="uearth-7-precip-types-s" text-anchor="middle">-10</text>
-  <text x="364.0" y="316.0" class="uearth-7-precip-types-s" text-anchor="middle">0</text>
-  <text x="420.0" y="316.0" class="uearth-7-precip-types-s" text-anchor="middle">10</text>
+  <line x1="308.0" y1="300" x2="308.0" y2="304" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="364.0" y1="300" x2="364.0" y2="304" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="420.0" y1="300" x2="420.0" y2="304" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="364.0" y="317.0" class="uearth-7-precip-types-s" text-anchor="middle">0 °C</text>
   <text x="364.0" y="48.0" class="uearth-7-precip-types-s" text-anchor="middle">지표 부근 얕은 영상 층</text>
   <text x="506.0" y="26.0" class="uearth-7-precip-types-h" text-anchor="middle">얼음싸라기</text>
-  <rect x="450" y="70" width="112" height="230" style="fill:none;stroke:var(--fig-line);stroke-width:1"/>
-  <rect x="450" y="131.3" width="112" height="83.6" class="uearth-7-precip-types-warm"/>
-  <line x1="506.0" y1="70" x2="506.0" y2="300" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 3"/>
-  <polyline points="472.4,300.0 506.0,215.7 522.8,177.3 506.0,131.3 483.6,70.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.4"/>
-  <path d="M466.0,82.2 L466.0,96.2 M472.1,85.7 L459.9,92.7 M472.1,92.7 L459.9,85.7 " class="uearth-7-precip-types-snow"/>
-  <path d="M466,129.2 C469.0,133.7 471.0,136.2 471.0,138.2 A5,5 0 0,1 461.0,138.2 C461.0,136.2 463.0,133.7 466,129.2 Z" class="uearth-7-precip-types-drop"/>
-  <path d="M466,176.7 C469.0,181.2 471.0,183.7 471.0,185.7 A5,5 0 0,1 461.0,185.7 C461.0,183.7 463.0,181.2 466,176.7 Z" class="uearth-7-precip-types-drop"/>
-  <circle cx="466" cy="231.8" r="5" class="uearth-7-precip-types-pel"/>
-  <circle cx="466" cy="279.3" r="5" class="uearth-7-precip-types-pel"/>
+  <rect x="450" y="78" width="112" height="222" style="fill:none;stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="450" y="137.2" width="112" height="80.7" class="uearth-7-precip-types-warm"/>
+  <line x1="506.0" y1="78" x2="506.0" y2="300" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 3"/>
+  <polyline points="472.4,300.0 506.0,218.6 522.8,181.6 506.0,137.2 483.6,78.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.4"/>
+  <path d="M466.0,89.5 L466.0,103.5 M472.1,93.0 L459.9,100.0 M472.1,100.0 L459.9,93.0 " class="uearth-7-precip-types-snow"/>
+  <path d="M466,134.9 C469.0,139.4 471.0,141.9 471.0,143.9 A5,5 0 0,1 461.0,143.9 C461.0,141.9 463.0,139.4 466,134.9 Z" class="uearth-7-precip-types-drop"/>
+  <path d="M466,180.8 C469.0,185.3 471.0,187.8 471.0,189.8 A5,5 0 0,1 461.0,189.8 C461.0,187.8 463.0,185.3 466,180.8 Z" class="uearth-7-precip-types-drop"/>
+  <circle cx="466" cy="234.1" r="5" class="uearth-7-precip-types-pel"/>
+  <circle cx="466" cy="280.0" r="5" class="uearth-7-precip-types-pel"/>
   <line x1="450" y1="300" x2="562" y2="300" style="stroke:var(--fig-ink);stroke-width:1.6"/>
-  <text x="450.0" y="316.0" class="uearth-7-precip-types-s" text-anchor="middle">-10</text>
-  <text x="506.0" y="316.0" class="uearth-7-precip-types-s" text-anchor="middle">0</text>
-  <text x="562.0" y="316.0" class="uearth-7-precip-types-s" text-anchor="middle">10</text>
+  <line x1="450.0" y1="300" x2="450.0" y2="304" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="506.0" y1="300" x2="506.0" y2="304" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="562.0" y1="300" x2="562.0" y2="304" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="506.0" y="317.0" class="uearth-7-precip-types-s" text-anchor="middle">0 °C</text>
   <text x="506.0" y="48.0" class="uearth-7-precip-types-s" text-anchor="middle">상층 녹는 층</text>
+  <text x="506.0" y="64.0" class="uearth-7-precip-types-s" text-anchor="middle">+ 두꺼운 영하층</text>
   <text x="648.0" y="26.0" class="uearth-7-precip-types-h" text-anchor="middle">어는비</text>
-  <rect x="592" y="70" width="112" height="230" style="fill:none;stroke:var(--fig-line);stroke-width:1"/>
-  <rect x="592" y="131.3" width="112" height="141.8" class="uearth-7-precip-types-warm"/>
-  <line x1="648.0" y1="70" x2="648.0" y2="300" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 3"/>
-  <polyline points="636.8,300.0 648.0,273.2 670.4,200.3 648.0,131.3 625.6,70.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.4"/>
-  <path d="M608.0,82.2 L608.0,96.2 M614.1,85.7 L601.9,92.7 M614.1,92.7 L601.9,85.7 " class="uearth-7-precip-types-snow"/>
-  <path d="M608,129.2 C611.0,133.7 613.0,136.2 613.0,138.2 A5,5 0 0,1 603.0,138.2 C603.0,136.2 605.0,133.7 608,129.2 Z" class="uearth-7-precip-types-drop"/>
-  <path d="M608,176.7 C611.0,181.2 613.0,183.7 613.0,185.7 A5,5 0 0,1 603.0,185.7 C603.0,183.7 605.0,181.2 608,176.7 Z" class="uearth-7-precip-types-drop"/>
-  <path d="M608,224.3 C611.0,228.8 613.0,231.3 613.0,233.3 A5,5 0 0,1 603.0,233.3 C603.0,231.3 605.0,228.8 608,224.3 Z" class="uearth-7-precip-types-drop"/>
-  <path d="M608,271.8 C611.0,276.3 613.0,278.8 613.0,280.8 A5,5 0 0,1 603.0,280.8 C603.0,278.8 605.0,276.3 608,271.8 Z" class="uearth-7-precip-types-drop"/>
+  <rect x="592" y="78" width="112" height="222" style="fill:none;stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="592" y="137.2" width="112" height="136.9" class="uearth-7-precip-types-warm"/>
+  <line x1="648.0" y1="78" x2="648.0" y2="300" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 3"/>
+  <polyline points="636.8,300.0 648.0,274.1 670.4,203.8 648.0,137.2 625.6,78.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.4"/>
+  <path d="M608.0,89.5 L608.0,103.5 M614.1,93.0 L601.9,100.0 M614.1,100.0 L601.9,93.0 " class="uearth-7-precip-types-snow"/>
+  <path d="M608,134.9 C611.0,139.4 613.0,141.9 613.0,143.9 A5,5 0 0,1 603.0,143.9 C603.0,141.9 605.0,139.4 608,134.9 Z" class="uearth-7-precip-types-drop"/>
+  <path d="M608,180.8 C611.0,185.3 613.0,187.8 613.0,189.8 A5,5 0 0,1 603.0,189.8 C603.0,187.8 605.0,185.3 608,180.8 Z" class="uearth-7-precip-types-drop"/>
+  <path d="M608,226.6 C611.0,231.1 613.0,233.6 613.0,235.6 A5,5 0 0,1 603.0,235.6 C603.0,233.6 605.0,231.1 608,226.6 Z" class="uearth-7-precip-types-drop"/>
+  <path d="M608,272.5 C611.0,277.0 613.0,279.5 613.0,281.5 A5,5 0 0,1 603.0,281.5 C603.0,279.5 605.0,277.0 608,272.5 Z" class="uearth-7-precip-types-drop"/>
   <rect x="592" y="296" width="112" height="4" style="fill:var(--fig-teal)"/>
   <line x1="592" y1="300" x2="704" y2="300" style="stroke:var(--fig-ink);stroke-width:1.6"/>
-  <text x="592.0" y="316.0" class="uearth-7-precip-types-s" text-anchor="middle">-10</text>
-  <text x="648.0" y="316.0" class="uearth-7-precip-types-s" text-anchor="middle">0</text>
-  <text x="704.0" y="316.0" class="uearth-7-precip-types-s" text-anchor="middle">10</text>
+  <line x1="592.0" y1="300" x2="592.0" y2="304" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="648.0" y1="300" x2="648.0" y2="304" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="704.0" y1="300" x2="704.0" y2="304" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="648.0" y="317.0" class="uearth-7-precip-types-s" text-anchor="middle">0 °C</text>
   <text x="648.0" y="48.0" class="uearth-7-precip-types-s" text-anchor="middle">상층 녹는 층</text>
-  <text x="14.0" y="340.0" class="uearth-7-precip-types-s">세로: 높이 0~3 km · 가로: 기온(°C) · 빨간 선: 기온 분포 · 붉은 띠: 0 °C 이상 층 · 점선: 0 °C</text>
+  <text x="648.0" y="64.0" class="uearth-7-precip-types-s" text-anchor="middle">+ 얇은 영하층</text>
+  <text x="14.0" y="340.0" class="uearth-7-precip-types-s">세로: 높이 0~3 km · 가로: 기온 −10~10 °C · 빨간 선: 기온 분포 · 붉은 띠: 0 °C 이상 층 · 점선: 0 °C</text>
   <text x="14.0" y="362.0" class="uearth-7-precip-types-s">눈(보라) → 녹으면 물방울(파랑) → 다시 얼면 얼음싸라기(초록 원) · 어는비: 지면에 닿는 순간 얼어 우빙(초록 막)</text>
 </svg>
