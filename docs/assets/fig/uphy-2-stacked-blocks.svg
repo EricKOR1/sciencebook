@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-uphy-2-stacked-blocks d-uphy-2-stacked-blocks">
+  <title id="t-uphy-2-stacked-blocks">그림 일반물리학 2-6 포개진 두 토막의 자유 물체 도형</title>
+  <desc id="d-uphy-2-stacked-blocks">예제 6에서 아래 토막(8.00 kg)을 39.2 N으로 당겨 두 토막이 3.92 m/s²로 함께 움직일 때의 힘이다. 위 토막을 앞으로 가속시키는 힘은 아래 토막이 주는 정지 마찰력 7.84 N뿐이고, 그 반작용으로 아래 토막은 뒤쪽 마찰력 7.84 N을 받는다. 위 토막과 아래 토막이 서로 누르는 수직 항력 19.6 N도 작용–반작용 쌍이다. 모식도이며 화살표 길이는 크기에 비례하지 않는다.</desc>
+  <rect x="10.0" y="10.0" width="700.0" height="340.0" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="26.0" y="36.0" style="font-size:15px;fill:var(--fig-ink);font-weight:600">(가) 상황</text>
+  <text x="270.0" y="36.0" style="font-size:15px;fill:var(--fig-ink);font-weight:600">(나) 위 토막 (2.00 kg)</text>
+  <text x="490.0" y="36.0" style="font-size:15px;fill:var(--fig-ink);font-weight:600">(다) 아래 토막 (8.00 kg)</text>
+  <line x1="25.0" y1="230.0" x2="240.0" y2="230.0" style="stroke:var(--fig-line);stroke-width:2;fill:none"/>
+  <rect x="50.0" y="180.0" width="150.0" height="50.0" rx="3" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <text x="125.0" y="210.0" text-anchor="middle" style="font-size:15px;fill:var(--fig-ink);font-weight:600">M</text>
+  <rect x="95.0" y="144.0" width="60.0" height="36.0" rx="3" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="125.0" y="168.0" text-anchor="middle" style="font-size:15px;fill:var(--fig-ink);font-weight:600">m</text>
+  <line x1="200.0" y1="205.0" x2="235.0" y2="205.0" style="stroke:var(--fig-ink);stroke-width:3;fill:none"/>
+  <path d="M245.0 205.0 L235.0 210.0 L235.0 200.0 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="225.0" y="197.0" text-anchor="middle" style="font-size:14px;fill:var(--fig-ink);font-weight:600">F</text>
+  <text x="40.0" y="256.0" style="font-size:13px;fill:var(--fig-muted)">바닥 마찰 없음</text>
+  <text x="40.0" y="274.0" style="font-size:13px;fill:var(--fig-muted)">두 토막 사이 μ<tspan dy="4" style="font-size:11px">s</tspan><tspan dy="-4">​</tspan> = 0.400</text>
+  <line x1="70.0" y1="100.0" x2="121.0" y2="100.0" style="stroke:var(--fig-violet);stroke-width:2.5;fill:none"/>
+  <path d="M130.0 100.0 L121.0 104.5 L121.0 95.5 Z" style="fill:var(--fig-violet);stroke:none"/>
+  <text x="138.0" y="105.0" style="font-size:13px;fill:var(--fig-violet);font-weight:600">a = 3.92 m/s²</text>
+  <text x="40.0" y="80.0" style="font-size:13px;fill:var(--fig-violet)">함께 가속</text>
+  <rect x="310.0" y="150.0" width="60.0" height="40.0" rx="3" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <line x1="340.0" y1="190.0" x2="340.0" y2="245.0" style="stroke:var(--fig-ink);stroke-width:3;fill:none"/>
+  <path d="M340.0 255.0 L335.0 245.0 L345.0 245.0 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="348.0" y="250.0" style="font-size:13px;fill:var(--fig-ink);font-weight:600">mg 19.6 N</text>
+  <line x1="340.0" y1="150.0" x2="340.0" y2="95.0" style="stroke:var(--fig-green);stroke-width:3;fill:none"/>
+  <path d="M340.0 85.0 L345.0 95.0 L335.0 95.0 Z" style="fill:var(--fig-green);stroke:none"/>
+  <text x="348.0" y="100.0" style="font-size:13px;fill:var(--fig-green);font-weight:600">N₁ 19.6 N</text>
+  <text x="348.0" y="116.0" style="font-size:12px;fill:var(--fig-green)">(아래 토막이 밂)</text>
+  <line x1="370.0" y1="186.0" x2="415.0" y2="186.0" style="stroke:var(--fig-red);stroke-width:3;fill:none"/>
+  <path d="M425.0 186.0 L415.0 191.0 L415.0 181.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="380.0" y="208.0" style="font-size:14px;fill:var(--fig-red);font-weight:600">f</text>
+  <text x="380.0" y="224.0" style="font-size:12px;fill:var(--fig-red)">7.84 N</text>
+  <text x="270.0" y="300.0" style="font-size:13px;fill:var(--fig-ink)">정지 마찰력 f가</text>
+  <text x="270.0" y="318.0" style="font-size:13px;fill:var(--fig-ink);font-weight:600">위 토막을 앞으로 가속시킨다</text>
+  <rect x="535.0" y="153.0" width="110.0" height="44.0" rx="3" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="565.0" y1="197.0" x2="565.0" y2="257.0" style="stroke:var(--fig-ink);stroke-width:3;fill:none"/>
+  <path d="M565.0 267.0 L560.0 257.0 L570.0 257.0 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="560.0" y="265.0" text-anchor="end" style="font-size:13px;fill:var(--fig-ink);font-weight:600">Mg 78.4 N</text>
+  <line x1="615.0" y1="90.0" x2="615.0" y2="143.0" style="stroke:var(--fig-green);stroke-width:3;fill:none;stroke-dasharray:6 3"/>
+  <path d="M615.0 153.0 L610.0 143.0 L620.0 143.0 Z" style="fill:var(--fig-green);stroke:none"/>
+  <text x="622.0" y="105.0" style="font-size:13px;fill:var(--fig-green);font-weight:600">N₁′ 19.6 N</text>
+  <text x="622.0" y="121.0" style="font-size:12px;fill:var(--fig-green)">(위 토막이 누름)</text>
+  <line x1="615.0" y1="275.0" x2="615.0" y2="207.0" style="stroke:var(--fig-green);stroke-width:3;fill:none"/>
+  <path d="M615.0 197.0 L620.0 207.0 L610.0 207.0 Z" style="fill:var(--fig-green);stroke:none"/>
+  <text x="622.0" y="255.0" style="font-size:13px;fill:var(--fig-green);font-weight:600">N₂ 98.0 N</text>
+  <text x="622.0" y="271.0" style="font-size:12px;fill:var(--fig-green)">(바닥이 밂)</text>
+  <line x1="645.0" y1="175.0" x2="685.0" y2="175.0" style="stroke:var(--fig-ink);stroke-width:3;fill:none"/>
+  <path d="M695.0 175.0 L685.0 180.0 L685.0 170.0 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="670.0" y="167.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-ink);font-weight:600">F 39.2 N</text>
+  <line x1="535.0" y1="159.0" x2="495.0" y2="159.0" style="stroke:var(--fig-red);stroke-width:3;fill:none;stroke-dasharray:6 3"/>
+  <path d="M485.0 159.0 L495.0 154.0 L495.0 164.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="510.0" y="151.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-red);font-weight:600">f′ 7.84 N</text>
+  <text x="470.0" y="318.0" style="font-size:13px;fill:var(--fig-muted)">점선 화살표: (나)의 힘의 반작용</text>
+  <text x="470.0" y="336.0" style="font-size:13px;fill:var(--fig-ink)">수평: 39.2 − 7.84 = 8.00 × 3.92</text>
+</svg>
