@@ -22,23 +22,24 @@
   <path d="M610 94 C610 150 160 150 160 92" style="fill:none;stroke:var(--fig-red);stroke-width:2.2;stroke-dasharray:7 5"/>
   <path d="M160.0 90.0 L164.1 99.1 L155.9 99.1 Z" style="fill:var(--fig-red)"/>
   <text x="385.0" y="160.0" text-anchor="middle" class="cell-2-feedback-r">D가 많으면 효소 1을 억제</text>
-  <text x="180.0" y="200.0" text-anchor="middle" class="cell-2-feedback-b">D가 적을 때</text>
-  <path d="M120 270 C120 230 140 228 154 228 L162 228 L162 248 L190 248 L190 228 L210 228 C232 228 240 240 240 256 L226 256 L226 282 L240 282 C240 308 220 314 180 314 C140 314 120 308 120 270 Z" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
-  <text x="172.0" y="288.0" text-anchor="middle" class="cell-2-feedback-bs">효소 1</text>
-  <rect x="164.0" y="228.0" width="26.0" height="20.0" rx="3" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
-  <text x="177.0" y="243.0" text-anchor="middle" class="cell-2-feedback-bs">A</text>
-  <text x="260.0" y="236.0" class="cell-2-feedback-s">활성 부위에 A 결합</text>
-  <text x="260.0" y="254.0" class="cell-2-feedback-s">→ 반응 진행</text>
-  <text x="520.0" y="200.0" text-anchor="middle" class="cell-2-feedback-b">D가 많을 때</text>
-  <path d="M460 270 C460 230 480 228 494 228 L506 236 L516 242 L526 236 L534 228 L550 228 C572 228 580 240 580 256 L566 256 L566 282 L580 282 C580 308 560 314 520 314 C480 314 460 308 460 270 Z" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
-  <text x="512.0" y="288.0" text-anchor="middle" class="cell-2-feedback-bs">효소 1</text>
-  <rect x="567.0" y="257.0" width="22.0" height="24.0" rx="3" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8"/>
-  <text x="578.0" y="274.0" text-anchor="middle" class="cell-2-feedback-r">D</text>
-  <rect x="498.0" y="210.0" width="26.0" height="20.0" rx="3" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
-  <text x="511.0" y="225.0" text-anchor="middle" class="cell-2-feedback-bs">A</text>
-  <path d="M492 206 L530 236 M530 206 L492 236" style="fill:none;stroke:var(--fig-red);stroke-width:2"/>
-  <text x="600.0" y="300.0" class="cell-2-feedback-s">D는 활성 부위가 아닌</text>
-  <text x="600.0" y="318.0" class="cell-2-feedback-s">다른 부위에 결합</text>
-  <text x="400.0" y="262.0" text-anchor="end" class="cell-2-feedback-s">활성 부위 모양이</text>
-  <text x="400.0" y="280.0" text-anchor="end" class="cell-2-feedback-s">바뀌어 A가 못 붙음</text>
+  <text x="150.0" y="200.0" text-anchor="middle" class="cell-2-feedback-b">D가 적을 때</text>
+  <path d="M90 270 C90 230 110 228 124 228 L132 228 L132 248 L160 248 L160 228 L180 228 C202 228 210 240 210 256 L196 256 L196 282 L210 282 C210 308 190 314 150 314 C110 314 90 308 90 270 Z" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <text x="142.0" y="288.0" text-anchor="middle" class="cell-2-feedback-bs">효소 1</text>
+  <rect x="134.0" y="228.0" width="26.0" height="20.0" rx="3" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <text x="147.0" y="243.0" text-anchor="middle" class="cell-2-feedback-bs">A</text>
+  <text x="226.0" y="256.0" class="cell-2-feedback-s">활성 부위에 A 결합</text>
+  <text x="226.0" y="274.0" class="cell-2-feedback-s">→ 반응 진행</text>
+  <line x1="370.0" y1="196.0" x2="370.0" y2="320.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
+  <text x="450.0" y="200.0" text-anchor="middle" class="cell-2-feedback-b">D가 많을 때</text>
+  <path d="M390 270 C390 230 410 228 424 228 L436 236 L446 242 L456 236 L464 228 L480 228 C502 228 510 240 510 256 L496 256 L496 282 L510 282 C510 308 490 314 450 314 C410 314 390 308 390 270 Z" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2"/>
+  <text x="442.0" y="288.0" text-anchor="middle" class="cell-2-feedback-bs">효소 1</text>
+  <rect x="497.0" y="257.0" width="22.0" height="24.0" rx="3" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8"/>
+  <text x="508.0" y="274.0" text-anchor="middle" class="cell-2-feedback-r">D</text>
+  <rect x="428.0" y="210.0" width="26.0" height="20.0" rx="3" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <text x="441.0" y="225.0" text-anchor="middle" class="cell-2-feedback-bs">A</text>
+  <path d="M422 206 L460 236 M460 206 L422 236" style="fill:none;stroke:var(--fig-red);stroke-width:2"/>
+  <text x="536.0" y="246.0" class="cell-2-feedback-s">D: 활성 부위가 아닌</text>
+  <text x="536.0" y="264.0" class="cell-2-feedback-s">다른 부위에 결합</text>
+  <text x="536.0" y="282.0" class="cell-2-feedback-s">→ 활성 부위 모양 변함</text>
+  <text x="536.0" y="300.0" class="cell-2-feedback-s">→ A가 붙지 못함</text>
 </svg>

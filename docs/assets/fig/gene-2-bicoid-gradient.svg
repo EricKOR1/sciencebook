@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="t-gene-2-bicoid-gradient d-gene-2-bicoid-gradient">
+  <title id="t-gene-2-bicoid-gradient">그림 생물의 유전 2-6 비코이드 농도 기울기에서 마디까지 — 초파리 발생 초기의 연쇄적 발현 조절</title>
+  <desc id="d-gene-2-bicoid-gradient">① 어미는 비코이드 mRNA를 난자의 앞쪽 끝에 넣어 둔다. ② 수정 후 번역된 비코이드 단백질이 앞에서 뒤로 퍼지며 농도 기울기를 이룬다(그래프). ③ 이 농도에 따라 간극 유전자들이 서로 다른 큰 구역에서 발현된다. ④ 짝 규칙 유전자는 일정한 간격의 띠(7줄)로 발현되어 마디의 틀을 만든다. ⑤ 혹스 유전자가 각 마디가 머리·가슴·배 중 무엇이 될지 정한다. 구역의 위치와 개수는 예시를 단순화한 모식도이다.</desc>
+  <style>
+    .gene-2-bicoid-gradient-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .gene-2-bicoid-gradient-tx{font-size:14px;fill:var(--fig-ink)}
+    .gene-2-bicoid-gradient-sm{font-size:13px;fill:var(--fig-muted)}
+    .gene-2-bicoid-gradient-mono{font-size:14px;font-weight:600;fill:var(--fig-ink);letter-spacing:1px}
+    .gene-2-bicoid-gradient-ln{fill:none;stroke:var(--fig-ink);stroke-width:2}
+    .gene-2-bicoid-gradient-lnm{fill:none;stroke:var(--fig-line);stroke-width:1.5}
+    .gene-2-bicoid-gradient-dash{fill:none;stroke:var(--fig-line);stroke-width:1.5;stroke-dasharray:5 4}
+    .gene-2-bicoid-gradient-ink{fill:var(--fig-ink)}
+    .gene-2-bicoid-gradient-paper{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.5}
+    .gene-2-bicoid-gradient-gray{fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1.5}
+    .gene-2-bicoid-gradient-b-blue{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2}
+    .gene-2-bicoid-gradient-f-blue{fill:var(--fig-blue)}
+    .gene-2-bicoid-gradient-s-blue{fill:none;stroke:var(--fig-blue);stroke-width:2.5}
+    .gene-2-bicoid-gradient-t-blue{fill:var(--fig-blue)}
+    .gene-2-bicoid-gradient-b-red{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2}
+    .gene-2-bicoid-gradient-f-red{fill:var(--fig-red)}
+    .gene-2-bicoid-gradient-s-red{fill:none;stroke:var(--fig-red);stroke-width:2.5}
+    .gene-2-bicoid-gradient-t-red{fill:var(--fig-red)}
+    .gene-2-bicoid-gradient-b-green{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2}
+    .gene-2-bicoid-gradient-f-green{fill:var(--fig-green)}
+    .gene-2-bicoid-gradient-s-green{fill:none;stroke:var(--fig-green);stroke-width:2.5}
+    .gene-2-bicoid-gradient-t-green{fill:var(--fig-green)}
+    .gene-2-bicoid-gradient-b-amber{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2}
+    .gene-2-bicoid-gradient-f-amber{fill:var(--fig-amber)}
+    .gene-2-bicoid-gradient-s-amber{fill:none;stroke:var(--fig-amber);stroke-width:2.5}
+    .gene-2-bicoid-gradient-t-amber{fill:var(--fig-amber)}
+    .gene-2-bicoid-gradient-b-violet{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2}
+    .gene-2-bicoid-gradient-f-violet{fill:var(--fig-violet)}
+    .gene-2-bicoid-gradient-s-violet{fill:none;stroke:var(--fig-violet);stroke-width:2.5}
+    .gene-2-bicoid-gradient-t-violet{fill:var(--fig-violet)}
+    .gene-2-bicoid-gradient-b-teal{fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2}
+    .gene-2-bicoid-gradient-f-teal{fill:var(--fig-teal)}
+    .gene-2-bicoid-gradient-s-teal{fill:none;stroke:var(--fig-teal);stroke-width:2.5}
+    .gene-2-bicoid-gradient-t-teal{fill:var(--fig-teal)}
+  </style>
+  <defs><linearGradient id="gene-2-bicoid-gradient-gr" x1="0" x2="1" y1="0" y2="0"><stop offset="0" style="stop-color:var(--fig-violet);stop-opacity:0.95"/><stop offset="0.15" style="stop-color:var(--fig-violet);stop-opacity:0.55"/><stop offset="0.3" style="stop-color:var(--fig-violet);stop-opacity:0.3"/><stop offset="0.5" style="stop-color:var(--fig-violet);stop-opacity:0.1"/><stop offset="0.75" style="stop-color:var(--fig-violet);stop-opacity:0.02"/><stop offset="1" style="stop-color:var(--fig-violet);stop-opacity:0"/></linearGradient></defs>
+  <text x="150.0" y="26.0" class="gene-2-bicoid-gradient-sm">앞쪽(머리 쪽)</text>
+  <text x="650.0" y="26.0" text-anchor="end" class="gene-2-bicoid-gradient-sm">뒤쪽</text>
+  <ellipse cx="400.0" cy="62.0" rx="250.0" ry="30.0" class="gene-2-bicoid-gradient-paper"/>
+  <circle cx="162.0" cy="56.0" r="3.0" class="gene-2-bicoid-gradient-f-violet"/>
+  <circle cx="168.0" cy="66.0" r="3.0" class="gene-2-bicoid-gradient-f-violet"/>
+  <circle cx="160.0" cy="72.0" r="3.0" class="gene-2-bicoid-gradient-f-violet"/>
+  <circle cx="174.0" cy="60.0" r="3.0" class="gene-2-bicoid-gradient-f-violet"/>
+  <circle cx="166.0" cy="48.0" r="3.0" class="gene-2-bicoid-gradient-f-violet"/>
+  <circle cx="176.0" cy="74.0" r="3.0" class="gene-2-bicoid-gradient-f-violet"/>
+  <circle cx="158.0" cy="62.0" r="3.0" class="gene-2-bicoid-gradient-f-violet"/>
+  <circle cx="182.0" cy="66.0" r="3.0" class="gene-2-bicoid-gradient-f-violet"/>
+  <circle cx="170.0" cy="78.0" r="3.0" class="gene-2-bicoid-gradient-f-violet"/>
+  <circle cx="180.0" cy="52.0" r="3.0" class="gene-2-bicoid-gradient-f-violet"/>
+  <text x="20.0" y="58.0" class="gene-2-bicoid-gradient-tx" style="font-size:13px;font-weight:700">① 난자</text>
+  <text x="20.0" y="76.0" class="gene-2-bicoid-gradient-sm" style="font-size:12px">비코이드 mRNA</text>
+  <text x="200.0" y="67.0" class="gene-2-bicoid-gradient-sm" style="font-size:12px;fill:var(--fig-violet)">← 비코이드 mRNA</text>
+  <ellipse cx="400.0" cy="142.0" rx="250.0" ry="30.0" class="gene-2-bicoid-gradient-paper"/>
+  <ellipse cx="400.0" cy="142.0" rx="250.0" ry="30.0" class="gene-2-bicoid-gradient-lnm" style="fill:url(#gene-2-bicoid-gradient-gr);stroke:var(--fig-ink);stroke-width:1.5"/>
+  <text x="20.0" y="138.0" class="gene-2-bicoid-gradient-tx" style="font-size:13px;font-weight:700">② 수정 후</text>
+  <text x="20.0" y="156.0" class="gene-2-bicoid-gradient-sm" style="font-size:12px">비코이드 단백질</text>
+  <line x1="150.0" y1="270.0" x2="650.0" y2="270.0" class="gene-2-bicoid-gradient-ln"/>
+  <line x1="150.0" y1="270.0" x2="150.0" y2="190.0" class="gene-2-bicoid-gradient-ln"/>
+  <path d="M150.0 196.0 L155.0 199.6 L160.0 203.0 L165.0 206.3 L170.0 209.4 L175.0 212.4 L180.0 215.2 L185.0 217.9 L190.0 220.4 L195.0 222.8 L200.0 225.1 L205.0 227.3 L210.0 229.4 L215.0 231.4 L220.0 233.3 L225.0 235.0 L230.0 236.7 L235.0 238.4 L240.0 239.9 L245.0 241.4 L250.0 242.8 L255.0 244.1 L260.0 245.4 L265.0 246.6 L270.0 247.7 L275.0 248.8 L280.0 249.8 L285.0 250.8 L290.0 251.8 L295.0 252.6 L300.0 253.5 L305.0 254.3 L310.0 255.1 L315.0 255.8 L320.0 256.5 L325.0 257.1 L330.0 257.8 L335.0 258.4 L340.0 258.9 L345.0 259.5 L350.0 260.0 L355.0 260.5 L360.0 260.9 L365.0 261.4 L370.0 261.8 L375.0 262.2 L380.0 262.6 L385.0 262.9 L390.0 263.3 L395.0 263.6 L400.0 263.9 L405.0 264.2 L410.0 264.5 L415.0 264.8 L420.0 265.0 L425.0 265.3 L430.0 265.5 L435.0 265.7 L440.0 265.9 L445.0 266.1 L450.0 266.3 L455.0 266.5 L460.0 266.7 L465.0 266.8 L470.0 267.0 L475.0 267.1 L480.0 267.3 L485.0 267.4 L490.0 267.5 L495.0 267.7 L500.0 267.8 L505.0 267.9 L510.0 268.0 L515.0 268.1 L520.0 268.2 L525.0 268.3 L530.0 268.3 L535.0 268.4 L540.0 268.5 L545.0 268.6 L550.0 268.6 L555.0 268.7 L560.0 268.8 L565.0 268.8 L570.0 268.9 L575.0 268.9 L580.0 269.0 L585.0 269.0 L590.0 269.1 L595.0 269.1 L600.0 269.2 L605.0 269.2 L610.0 269.3 L615.0 269.3 L620.0 269.3 L625.0 269.4 L630.0 269.4 L635.0 269.4 L640.0 269.4 L645.0 269.5 L650.0 269.5" class="gene-2-bicoid-gradient-s-violet" style="stroke-width:3"/>
+  <text x="144.0" y="200.0" text-anchor="end" class="gene-2-bicoid-gradient-sm" style="font-size:12px">농도</text>
+  <text x="650.0" y="286.0" text-anchor="end" class="gene-2-bicoid-gradient-sm" style="font-size:12px">위치 →</text>
+  <line x1="150.0" y1="236.7" x2="650.0" y2="236.7" class="gene-2-bicoid-gradient-dash" style="stroke-width:1"/>
+  <text x="654.0" y="240.7" class="gene-2-bicoid-gradient-sm" style="font-size:11px">기준 농도(높음)</text>
+  <line x1="229.9" y1="236.7" x2="229.9" y2="312.0" class="gene-2-bicoid-gradient-dash" style="stroke:var(--fig-violet);stroke-width:1.2"/>
+  <line x1="150.0" y1="258.9" x2="650.0" y2="258.9" class="gene-2-bicoid-gradient-dash" style="stroke-width:1"/>
+  <text x="654.0" y="262.9" class="gene-2-bicoid-gradient-sm" style="font-size:11px">기준 농도(중간)</text>
+  <line x1="339.7" y1="258.9" x2="339.7" y2="312.0" class="gene-2-bicoid-gradient-dash" style="stroke:var(--fig-violet);stroke-width:1.2"/>
+  <text x="20.0" y="232.0" class="gene-2-bicoid-gradient-tx" style="font-size:13px;font-weight:700"> 농도 기울기</text>
+  <text x="20.0" y="250.0" class="gene-2-bicoid-gradient-sm" style="font-size:12px">앞 → 뒤로 감소</text>
+  <clipPath id="gene-2-bicoid-gradient-c342"><ellipse cx="400.0" cy="342" rx="250.0" ry="30"/></clipPath><g clip-path="url(#gene-2-bicoid-gradient-c342)">
+  <rect x="150.0" y="312.0" width="79.9" height="60.0" rx="0" class="gene-2-bicoid-gradient-b-blue" style="stroke-width:0"/>
+  <text x="201.9" y="347.0" text-anchor="middle" class="gene-2-bicoid-gradient-tx" style="font-size:12px">구역 1</text>
+  <rect x="229.9" y="312.0" width="109.9" height="60.0" rx="0" class="gene-2-bicoid-gradient-b-green" style="stroke-width:0"/>
+  <text x="284.8" y="347.0" text-anchor="middle" class="gene-2-bicoid-gradient-tx" style="font-size:12px">구역 2</text>
+  <rect x="339.7" y="312.0" width="235.3" height="60.0" rx="0" class="gene-2-bicoid-gradient-b-amber" style="stroke-width:0"/>
+  <text x="457.4" y="347.0" text-anchor="middle" class="gene-2-bicoid-gradient-tx" style="font-size:12px">구역 3</text>
+  </g>
+  <ellipse cx="400.0" cy="342.0" rx="250.0" ry="30.0" class="gene-2-bicoid-gradient-lnm" style="fill:none;stroke:var(--fig-ink);stroke-width:1.5"/>
+  <text x="20.0" y="338.0" class="gene-2-bicoid-gradient-tx" style="font-size:13px;font-weight:700">③ 간극 유전자</text>
+  <text x="20.0" y="356.0" class="gene-2-bicoid-gradient-sm" style="font-size:12px">큰 구역(예시)</text>
+  <clipPath id="gene-2-bicoid-gradient-c418"><ellipse cx="400.0" cy="418" rx="250.0" ry="30"/></clipPath><g clip-path="url(#gene-2-bicoid-gradient-c418)">
+  <rect x="260.0" y="388.0" width="22.5" height="60.0" rx="0" class="gene-2-bicoid-gradient-b-red" style="stroke-width:0"/>
+  <rect x="307.5" y="388.0" width="22.5" height="60.0" rx="0" class="gene-2-bicoid-gradient-b-red" style="stroke-width:0"/>
+  <rect x="355.0" y="388.0" width="22.5" height="60.0" rx="0" class="gene-2-bicoid-gradient-b-red" style="stroke-width:0"/>
+  <rect x="402.5" y="388.0" width="22.5" height="60.0" rx="0" class="gene-2-bicoid-gradient-b-red" style="stroke-width:0"/>
+  <rect x="450.0" y="388.0" width="22.5" height="60.0" rx="0" class="gene-2-bicoid-gradient-b-red" style="stroke-width:0"/>
+  <rect x="497.5" y="388.0" width="22.5" height="60.0" rx="0" class="gene-2-bicoid-gradient-b-red" style="stroke-width:0"/>
+  <rect x="545.0" y="388.0" width="22.5" height="60.0" rx="0" class="gene-2-bicoid-gradient-b-red" style="stroke-width:0"/>
+  </g>
+  <ellipse cx="400.0" cy="418.0" rx="250.0" ry="30.0" class="gene-2-bicoid-gradient-lnm" style="fill:none;stroke:var(--fig-ink);stroke-width:1.5"/>
+  <text x="20.0" y="414.0" class="gene-2-bicoid-gradient-tx" style="font-size:13px;font-weight:700">④ 짝 규칙 유전자</text>
+  <text x="20.0" y="432.0" class="gene-2-bicoid-gradient-sm" style="font-size:12px">7줄의 띠 → 마디의 틀</text>
+  <rect x="150.0" y="476.0" width="78.6" height="48.0" rx="8" class="gene-2-bicoid-gradient-b-violet"/>
+  <text x="189.3" y="505.0" text-anchor="middle" class="gene-2-bicoid-gradient-tx" style="font-size:12px">머리</text>
+  <rect x="228.6" y="476.0" width="34.4" height="48.0" rx="2" class="gene-2-bicoid-gradient-b-green"/>
+  <text x="245.8" y="505.0" text-anchor="middle" class="gene-2-bicoid-gradient-tx" style="font-size:12px">T1</text>
+  <rect x="263.0" y="476.0" width="34.4" height="48.0" rx="2" class="gene-2-bicoid-gradient-b-green"/>
+  <text x="280.2" y="505.0" text-anchor="middle" class="gene-2-bicoid-gradient-tx" style="font-size:12px">T2</text>
+  <rect x="297.3" y="476.0" width="34.4" height="48.0" rx="2" class="gene-2-bicoid-gradient-b-green"/>
+  <text x="314.5" y="505.0" text-anchor="middle" class="gene-2-bicoid-gradient-tx" style="font-size:12px">T3</text>
+  <rect x="331.7" y="476.0" width="39.8" height="48.0" rx="2" class="gene-2-bicoid-gradient-b-amber"/>
+  <text x="351.6" y="505.0" text-anchor="middle" class="gene-2-bicoid-gradient-tx" style="font-size:12px">A1</text>
+  <rect x="371.5" y="476.0" width="39.8" height="48.0" rx="2" class="gene-2-bicoid-gradient-b-amber"/>
+  <text x="391.4" y="505.0" text-anchor="middle" class="gene-2-bicoid-gradient-tx" style="font-size:12px">A2</text>
+  <rect x="411.3" y="476.0" width="39.8" height="48.0" rx="2" class="gene-2-bicoid-gradient-b-amber"/>
+  <text x="431.2" y="505.0" text-anchor="middle" class="gene-2-bicoid-gradient-tx" style="font-size:12px">A3</text>
+  <rect x="451.1" y="476.0" width="39.8" height="48.0" rx="2" class="gene-2-bicoid-gradient-b-amber"/>
+  <text x="471.0" y="505.0" text-anchor="middle" class="gene-2-bicoid-gradient-tx" style="font-size:12px">A4</text>
+  <rect x="490.9" y="476.0" width="39.8" height="48.0" rx="2" class="gene-2-bicoid-gradient-b-amber"/>
+  <text x="510.8" y="505.0" text-anchor="middle" class="gene-2-bicoid-gradient-tx" style="font-size:12px">A5</text>
+  <rect x="530.6" y="476.0" width="39.8" height="48.0" rx="2" class="gene-2-bicoid-gradient-b-amber"/>
+  <text x="550.5" y="505.0" text-anchor="middle" class="gene-2-bicoid-gradient-tx" style="font-size:12px">A6</text>
+  <rect x="570.4" y="476.0" width="39.8" height="48.0" rx="2" class="gene-2-bicoid-gradient-b-amber"/>
+  <text x="590.3" y="505.0" text-anchor="middle" class="gene-2-bicoid-gradient-tx" style="font-size:12px">A7</text>
+  <rect x="610.2" y="476.0" width="39.8" height="48.0" rx="8" class="gene-2-bicoid-gradient-b-amber"/>
+  <text x="630.1" y="505.0" text-anchor="middle" class="gene-2-bicoid-gradient-tx" style="font-size:12px">A8</text>
+  <text x="20.0" y="496.0" class="gene-2-bicoid-gradient-tx" style="font-size:13px;font-weight:700">⑤ 혹스 유전자</text>
+  <text x="20.0" y="514.0" class="gene-2-bicoid-gradient-sm" style="font-size:12px">마디의 정체성</text>
+  <text x="400.0" y="544.0" text-anchor="middle" class="gene-2-bicoid-gradient-sm" style="font-size:12px">머리 · 가슴(T1~T3) · 배(A1~A8)</text>
+</svg>
