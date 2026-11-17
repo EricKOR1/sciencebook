@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-mech-2-window-heat-loss d-mech-2-window-heat-loss">
+  <title id="t-mech-2-window-heat-loss">그림 역학과 에너지 2-5 겨울철 창문을 통한 열손실 — 전도·대류·복사(모식도)</title>
+  <desc id="d-mech-2-window-heat-loss">실내의 따뜻한 공기는 차가운 유리에 열을 주고 식어 내려가는 대류를 일으키고, 열은 유리 속을 전도로 지나며, 바깥쪽 유리 표면의 열은 바깥 공기의 대류로 빠져나간다. 따뜻한 실내 물체가 내는 적외선 복사의 일부도 유리를 통해 열을 잃게 한다. 이중창은 유리 사이에 대류가 거의 없는 얇은 기체층을 두어 전도와 대류를 함께 줄인다.</desc>
+  <rect x="10.0" y="10.0" width="330.0" height="310.0" rx="10" style="fill:var(--fig-soft-red);stroke:none;stroke-width:0"/>
+  <rect x="380.0" y="10.0" width="330.0" height="310.0" rx="10" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:0"/>
+  <rect x="340.0" y="10.0" width="40.0" height="310.0" rx="0" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2"/>
+  <text x="26.0" y="38.0" style="font-size:15px;fill:var(--fig-red);font-weight:600">실내 약 20 °C</text>
+  <text x="694.0" y="38.0" text-anchor="end" style="font-size:15px;fill:var(--fig-blue);font-weight:600">실외 약 0 °C</text>
+  <text x="360.0" y="304.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-teal);font-weight:600">유리</text>
+  <path d="M300 260 C300 160 300 110 320 70" style="fill:none;stroke:none;stroke-width:0"/>
+  <path d="M200 80 L310 80 L325 100 L325 250 L310 270 L200 270 L185 250 L185 100 Z" style="fill:none;stroke:none;stroke-width:0"/>
+  <line x1="215.0" y1="70.0" x2="295.0" y2="70.0" style="stroke:var(--fig-red);stroke-width:2.5;fill:none"/>
+  <path d="M305.0 70.0 L295.0 75.0 L295.0 65.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="322.0" y1="85.0" x2="322.0" y2="245.0" style="stroke:var(--fig-blue);stroke-width:2.5;fill:none"/>
+  <path d="M322.0 255.0 L317.0 245.0 L327.0 245.0 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="305.0" y1="272.0" x2="225.0" y2="272.0" style="stroke:var(--fig-blue);stroke-width:2.5;fill:none"/>
+  <path d="M215.0 272.0 L225.0 267.0 L225.0 277.0 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="198.0" y1="255.0" x2="198.0" y2="95.0" style="stroke:var(--fig-red);stroke-width:2.5;fill:none"/>
+  <path d="M198.0 85.0 L203.0 95.0 L193.0 95.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="260.0" y="160.0" text-anchor="middle" style="font-size:15px;fill:var(--fig-ink);font-weight:600">대류</text>
+  <text x="260.0" y="180.0" text-anchor="middle" style="font-size:12px;fill:var(--fig-muted)">유리 근처에서 식은</text>
+  <text x="260.0" y="196.0" text-anchor="middle" style="font-size:12px;fill:var(--fig-muted)">공기가 내려간다</text>
+  <line x1="334.0" y1="130.0" x2="377.0" y2="130.0" style="stroke:var(--fig-amber);stroke-width:4;fill:none"/>
+  <path d="M388.0 130.0 L377.0 135.5 L377.0 124.5 Z" style="fill:var(--fig-amber);stroke:none"/>
+  <line x1="334.0" y1="175.0" x2="377.0" y2="175.0" style="stroke:var(--fig-amber);stroke-width:4;fill:none"/>
+  <path d="M388.0 175.0 L377.0 180.5 L377.0 169.5 Z" style="fill:var(--fig-amber);stroke:none"/>
+  <line x1="334.0" y1="220.0" x2="377.0" y2="220.0" style="stroke:var(--fig-amber);stroke-width:4;fill:none"/>
+  <path d="M388.0 220.0 L377.0 225.5 L377.0 214.5 Z" style="fill:var(--fig-amber);stroke:none"/>
+  <text x="360.0" y="112.0" text-anchor="middle" style="font-size:14px;fill:var(--fig-amber);font-weight:600">전도</text>
+  <line x1="400.0" y1="250.0" x2="400.0" y2="100.0" style="stroke:var(--fig-blue);stroke-width:2.5;fill:none"/>
+  <path d="M400.0 90.0 L405.0 100.0 L395.0 100.0 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="410.0" y1="70.0" x2="490.0" y2="70.0" style="stroke:var(--fig-blue);stroke-width:2.5;fill:none"/>
+  <path d="M500.0 70.0 L490.0 75.0 L490.0 65.0 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <text x="470.0" y="160.0" text-anchor="middle" style="font-size:15px;fill:var(--fig-ink);font-weight:600">대류</text>
+  <text x="470.0" y="180.0" text-anchor="middle" style="font-size:12px;fill:var(--fig-muted)">바깥 공기가</text>
+  <text x="470.0" y="196.0" text-anchor="middle" style="font-size:12px;fill:var(--fig-muted)">열을 실어 간다</text>
+  <rect x="50.0" y="200.0" width="70.0" height="70.0" rx="6" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <text x="85.0" y="240.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-ink)">난로</text>
+  <path d="M122.0 215.0 L128.6 220.0 L135.5 222.4 L142.8 221.3 L150.3 217.8 L157.8 214.3 L165.0 213.4 L171.9 216.0 L178.5 221.0 L185.2 225.9 L192.1 228.2 L199.3 227.0 L206.8 223.4 L214.3 220.0 L221.6 219.2 L228.4 221.9 L235.0 227.0 L241.7 231.8 L248.6 234.0 L255.9 232.7 L263.4 229.0 L270.9 225.7 L278.1 225.0 L285.0 227.9 L291.6 233.0 L298.2 237.8 L305.2 239.8 L312.4 238.3 L320.0 234.7 L327.5 231.4 L334.6 230.9 L341.5 233.9 L348.1 239.0 L354.8 243.7 L361.7 245.6 L369.0 244.0 L376.5 240.3 L384.0 237.1 L391.2 236.7 L398.0 239.8 L404.6 245.0 L411.3 249.6 L418.2 251.4 L425.6 249.6 L433.1 245.9 L440.6 242.8 L447.7 242.5 L454.5 245.8 L461.1 251.0 L467.8 255.6 L474.8 257.2 L482.1 255.3 L489.7 251.5 L497.1 248.5 L504.3 248.4 L511.1 251.8 L517.7 257.0 L524.3 261.5 L531.3 262.9 L538.7 260.9 L546.2 257.1" style="fill:none;stroke:var(--fig-violet);stroke-width:2.5"/>
+  <line x1="546.2" y1="257.1" x2="549.2" y2="257.8" style="stroke:var(--fig-violet);stroke-width:2.5;fill:none"/>
+  <path d="M560.0 260.0 L548.1 263.1 L550.4 252.4 Z" style="fill:var(--fig-violet);stroke:none"/>
+  <text x="600.0" y="280.0" text-anchor="middle" style="font-size:14px;fill:var(--fig-violet);font-weight:600">복사(적외선)</text>
+  <text x="85.0" y="300.0" text-anchor="middle" style="font-size:12px;fill:var(--fig-muted)">따뜻한 물체</text>
+  <rect x="560.0" y="90.0" width="140.0" height="130.0" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="630.0" y="112.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-ink);font-weight:600">이중창</text>
+  <rect x="590.0" y="124.0" width="12.0" height="80.0" rx="0" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <rect x="628.0" y="124.0" width="12.0" height="80.0" rx="0" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <rect x="602.0" y="124.0" width="26.0" height="80.0" rx="0" style="fill:var(--fig-panel);stroke:none;stroke-width:1.5"/>
+  <text x="615.0" y="168.0" text-anchor="middle" style="font-size:11px;fill:var(--fig-muted)">공기</text>
+  <text x="660.0" y="150.0" style="font-size:11px;fill:var(--fig-muted)">얇은</text>
+  <text x="660.0" y="165.0" style="font-size:11px;fill:var(--fig-muted)">기체층:</text>
+  <text x="660.0" y="180.0" style="font-size:11px;fill:var(--fig-muted)">전도·대류↓</text>
+</svg>
