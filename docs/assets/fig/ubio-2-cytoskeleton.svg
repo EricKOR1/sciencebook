@@ -153,9 +153,10 @@
   <circle cx="450.0" cy="234.3" r="6.2" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:1.1"/>
   <text x="30.0" y="237.0" text-anchor="end" class="ubio-2-cytoskeleton-b">−</text>
   <text x="472.0" y="237.0" text-anchor="start" class="ubio-2-cytoskeleton-b">+</text>
-  <text x="600.0" y="170.0" text-anchor="start" class="ubio-2-cytoskeleton-s">굵기 순서</text>
-  <text x="600.0" y="190.0" text-anchor="start" class="ubio-2-cytoskeleton-s">미세 소관 > 중간 섬유</text>
-  <text x="600.0" y="208.0" text-anchor="start" class="ubio-2-cytoskeleton-s">> 미세 섬유</text>
+  <text x="520.0" y="162.0" text-anchor="start" class="ubio-2-cytoskeleton-k">굵기 순서</text>
+  <text x="520.0" y="182.0" text-anchor="start" class="ubio-2-cytoskeleton-s">미세 소관(25 nm)</text>
+  <text x="520.0" y="200.0" text-anchor="start" class="ubio-2-cytoskeleton-s">> 중간 섬유(8~12 nm)</text>
+  <text x="520.0" y="218.0" text-anchor="start" class="ubio-2-cytoskeleton-s">> 미세 섬유(7 nm)</text>
   <rect x="6.0" y="276.0" width="470.0" height="166.0" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
   <text x="20.0" y="296.0" text-anchor="start" class="ubio-2-cytoskeleton-b">모터 단백질: 미세 소관 레일 위를 ATP로 걷는다</text>
   <rect x="30.0" y="392.0" width="420.0" height="14.0" rx="7" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
@@ -169,14 +170,14 @@
   <circle cx="330.0" cy="334.0" r="18.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6"/>
   <text x="330.0" y="338.0" text-anchor="middle" class="ubio-2-cytoskeleton-s" style="font-size:11px">소낭</text>
   <line x1="360.0" y1="362.0" x2="420.0" y2="362.0" style="stroke:var(--fig-violet);stroke-width:2" marker-end="url(#ubio-2-cytoskeleton-a-violet)"/>
-  <text x="390.0" y="352.0" text-anchor="middle" class="ubio-2-cytoskeleton-violet">키네신 → +끝</text>
+  <text x="354.0" y="352.0" text-anchor="start" class="ubio-2-cytoskeleton-violet">키네신 → +끝</text>
   <circle cx="144.0" cy="378.0" r="9.0" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
   <circle cx="160.0" cy="378.0" r="9.0" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
   <line x1="152.0" y1="370.0" x2="152.0" y2="352.0" style="stroke:var(--fig-teal);stroke-width:2"/>
   <circle cx="152.0" cy="334.0" r="18.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6"/>
   <text x="152.0" y="338.0" text-anchor="middle" class="ubio-2-cytoskeleton-s" style="font-size:11px">소낭</text>
   <line x1="124.0" y1="362.0" x2="64.0" y2="362.0" style="stroke:var(--fig-teal);stroke-width:2" marker-end="url(#ubio-2-cytoskeleton-a-teal)"/>
-  <text x="94.0" y="352.0" text-anchor="middle" class="ubio-2-cytoskeleton-teal">−끝 ← 다인에인</text>
+  <text x="128.0" y="352.0" text-anchor="end" class="ubio-2-cytoskeleton-teal">−끝 ← 다인에인</text>
   <text x="600.0" y="284.0" text-anchor="middle" class="ubio-2-cytoskeleton-b">섬모·편모 단면(9 + 2)</text>
   <circle cx="600.0" cy="356.0" r="64.0" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
   <circle cx="594.0" cy="312.0" r="7.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.4"/>
@@ -208,5 +209,6 @@
   <line x1="580.9" y1="314.6" x2="590.9" y2="314.0" style="stroke:var(--fig-violet);stroke-width:2.2"/>
   <circle cx="592.0" cy="356.0" r="7.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.4"/>
   <circle cx="608.0" cy="356.0" r="7.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.4"/>
-  <text x="600.0" y="442.0" text-anchor="middle" class="ubio-2-cytoskeleton-s">파랑: 미세 소관 · 보라: 다인에인 팔</text>
+  <text x="600.0" y="440.0" text-anchor="middle" class="ubio-2-cytoskeleton-s">파랑: 미세 소관 쌍</text>
+  <text x="600.0" y="456.0" text-anchor="middle" class="ubio-2-cytoskeleton-s">보라: 다인에인 팔</text>
 </svg>

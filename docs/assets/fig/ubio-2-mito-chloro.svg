@@ -18,23 +18,23 @@
   <rect x="232.0" y="63.0" width="8.0" height="6.0" rx="0" style="fill:var(--fig-soft-red);stroke:none"/>
   <rect x="266.0" y="108.0" width="12.0" height="70.0" rx="6" style="fill:var(--fig-soft-red);stroke:var(--fig-blue);stroke-width:2"/>
   <rect x="268.0" y="173.0" width="8.0" height="6.0" rx="0" style="fill:var(--fig-soft-red);stroke:none"/>
-  <circle cx="240.0" cy="158.0" r="9.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1.8"/>
+  <circle cx="246.0" cy="166.0" r="7.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1.8"/>
+  <text x="246.0" y="151.0" text-anchor="middle" class="ubio-2-mito-chloro-violet">DNA</text>
   <circle cx="110.0" cy="96.0" r="2.3" style="fill:var(--fig-ink);stroke:none"/>
   <circle cx="146.0" cy="152.0" r="2.3" style="fill:var(--fig-ink);stroke:none"/>
   <circle cx="200.0" cy="90.0" r="2.3" style="fill:var(--fig-ink);stroke:none"/>
-  <circle cx="270.0" cy="146.0" r="2.3" style="fill:var(--fig-ink);stroke:none"/>
+  <circle cx="270.0" cy="126.0" r="2.3" style="fill:var(--fig-ink);stroke:none"/>
   <circle cx="74.0" cy="120.0" r="2.3" style="fill:var(--fig-ink);stroke:none"/>
-  <line x1="70.0" y1="62.0" x2="30.0" y2="200.0" style="stroke:var(--fig-line);stroke-width:0.9"/>
-  <text x="30.0" y="214.0" text-anchor="middle" class="ubio-2-mito-chloro-k">외막</text>
-  <line x1="100.0" y1="86.0" x2="90.0" y2="200.0" style="stroke:var(--fig-line);stroke-width:0.9"/>
-  <text x="90.0" y="214.0" text-anchor="middle" class="ubio-2-mito-chloro-k">내막</text>
-  <line x1="58.0" y1="86.0" x2="150.0" y2="200.0" style="stroke:var(--fig-line);stroke-width:0.9"/>
-  <text x="150.0" y="214.0" text-anchor="middle" class="ubio-2-mito-chloro-k">막 사이 공간</text>
-  <line x1="164.0" y1="106.0" x2="238.0" y2="200.0" style="stroke:var(--fig-line);stroke-width:0.9"/>
-  <text x="238.0" y="214.0" text-anchor="middle" class="ubio-2-mito-chloro-k">크리스타</text>
-  <line x1="180.0" y1="156.0" x2="300.0" y2="200.0" style="stroke:var(--fig-line);stroke-width:0.9"/>
-  <text x="300.0" y="214.0" text-anchor="middle" class="ubio-2-mito-chloro-k">기질</text>
-  <text x="262.0" y="146.0" text-anchor="start" class="ubio-2-mito-chloro-violet">DNA</text>
+  <line x1="41.0" y1="121.0" x2="50.0" y2="200.0" style="stroke:var(--fig-line);stroke-width:0.9"/>
+  <text x="50.0" y="214.0" text-anchor="middle" class="ubio-2-mito-chloro-k">외막</text>
+  <line x1="140.0" y1="181.0" x2="122.0" y2="200.0" style="stroke:var(--fig-line);stroke-width:0.9"/>
+  <text x="122.0" y="214.0" text-anchor="middle" class="ubio-2-mito-chloro-k">막 사이 공간</text>
+  <line x1="190.0" y1="176.0" x2="196.0" y2="200.0" style="stroke:var(--fig-line);stroke-width:0.9"/>
+  <text x="196.0" y="214.0" text-anchor="middle" class="ubio-2-mito-chloro-k">내막</text>
+  <line x1="272.0" y1="160.0" x2="252.0" y2="200.0" style="stroke:var(--fig-line);stroke-width:0.9"/>
+  <text x="252.0" y="214.0" text-anchor="middle" class="ubio-2-mito-chloro-k">크리스타</text>
+  <line x1="296.0" y1="120.0" x2="306.0" y2="200.0" style="stroke:var(--fig-line);stroke-width:0.9"/>
+  <text x="306.0" y="214.0" text-anchor="middle" class="ubio-2-mito-chloro-k">기질</text>
   <text x="180.0" y="236.0" text-anchor="middle" class="ubio-2-mito-chloro-s">내막: 전자 전달계·ATP 합성 효소 / 기질: 시트르산 회로</text>
   <text x="546.0" y="24.0" text-anchor="middle" class="ubio-2-mito-chloro-b">엽록체(지름 약 3~10 µm)</text>
   <ellipse cx="546.0" cy="121.0" rx="160.0" ry="68.0" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
@@ -93,8 +93,8 @@
   <rect x="290.0" y="332.0" width="40.0" height="18.0" rx="9" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8"/>
   <line x1="336.0" y1="338.0" x2="372.0" y2="308.0" style="stroke:var(--fig-line);stroke-width:0.9"/>
   <text x="374.0" y="294.0" text-anchor="start" class="ubio-2-mito-chloro-teal">바깥 막 = 숙주의 막</text>
-  <line x1="330.0" y1="344.0" x2="372.0" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.9"/>
-  <text x="374.0" y="334.0" text-anchor="start" class="ubio-2-mito-chloro-red">안쪽 막 = 세균의 막</text>
+  <line x1="330.0" y1="344.0" x2="372.0" y2="310.0" style="stroke:var(--fig-line);stroke-width:0.9"/>
+  <text x="374.0" y="314.0" text-anchor="start" class="ubio-2-mito-chloro-red">안쪽 막 = 세균의 막</text>
   <text x="296.0" y="432.0" text-anchor="middle" class="ubio-2-mito-chloro-k">미토콘드리아(2중막)</text>
   <line x1="380.0" y1="370.0" x2="440.0" y2="370.0" style="stroke:var(--fig-ink);stroke-width:2" marker-end="url(#ubio-2-mito-chloro-a-ink)"/>
   <rect x="394.0" y="378.0" width="40.0" height="18.0" rx="9" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6"/>

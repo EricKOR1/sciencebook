@@ -2,7 +2,6 @@
   <title id="t-ubio-5-kinetochore-orientation">그림 일반생명과학 5-4 체세포 분열, 감수 1분열, 감수 2분열의 중기와 후기 비교</title>
   <desc id="d-ubio-5-kinetochore-orientation">상동 염색체 한 쌍(파랑, 빨강)만 그렸다. 체세포 분열 중기에는 자매 염색 분체가 서로 반대 극의 방추사에 붙고, 후기에 코헤신이 한꺼번에 잘려 자매 염색 분체가 갈라진다. 감수 1분열 중기에는 2가 염색체의 자매 염색 분체가 같은 극을 향하고, 후기에 팔 부분의 코헤신만 잘려 교차로 이어져 있던 상동 염색체가 갈라지며 동원체 부근의 코헤신은 보호된다. 감수 2분열은 체세포 분열처럼 자매 염색 분체가 반대 극을 향하고, 남은 동원체 코헤신이 잘려 자매 염색 분체가 갈라진다. 모식도.</desc>
   <style>.ubio-5-kinetochore-orientation-t{font-size:14px;fill:var(--fig-ink)} .ubio-5-kinetochore-orientation-s{font-size:13px;fill:var(--fig-muted)} .ubio-5-kinetochore-orientation-b{font-size:14px;fill:var(--fig-ink);font-weight:600} .ubio-5-kinetochore-orientation-h{font-size:15px;fill:var(--fig-ink);font-weight:700} .ubio-5-kinetochore-orientation-m{font-size:13px;fill:var(--fig-ink)}</style>
-  <defs><marker id="ubio-5-kinetochore-orientation-ar0" viewBox="0 0 10 10" refX="10" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-ink)"/></marker></defs>
   <text x="120.0" y="24.0" text-anchor="middle" class="ubio-5-kinetochore-orientation-h">체세포 분열</text>
   <text x="360.0" y="24.0" text-anchor="middle" class="ubio-5-kinetochore-orientation-h">감수 1분열</text>
   <text x="600.0" y="24.0" text-anchor="middle" class="ubio-5-kinetochore-orientation-h">감수 2분열</text>
@@ -15,7 +14,9 @@
   <rect x="494.0" y="48.0" width="212.0" height="128.0" rx="14" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2"/>
   <rect x="594.0" y="52.0" width="12.0" height="6.0" rx="0" style="fill:var(--fig-ink)"/>
   <rect x="594.0" y="166.0" width="12.0" height="6.0" rx="0" style="fill:var(--fig-ink)"/>
-  <text x="14.0" y="117.0" text-anchor="start" class="ubio-5-kinetochore-orientation-b">중기</text>
+  <text x="24.0" y="66.0" text-anchor="start" class="ubio-5-kinetochore-orientation-s">중기</text>
+  <text x="264.0" y="66.0" text-anchor="start" class="ubio-5-kinetochore-orientation-s">중기</text>
+  <text x="504.0" y="66.0" text-anchor="start" class="ubio-5-kinetochore-orientation-s">중기</text>
   <rect x="14.0" y="202.0" width="212.0" height="128.0" rx="14" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2"/>
   <rect x="114.0" y="206.0" width="12.0" height="6.0" rx="0" style="fill:var(--fig-ink)"/>
   <rect x="114.0" y="320.0" width="12.0" height="6.0" rx="0" style="fill:var(--fig-ink)"/>
@@ -25,7 +26,9 @@
   <rect x="494.0" y="202.0" width="212.0" height="128.0" rx="14" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2"/>
   <rect x="594.0" y="206.0" width="12.0" height="6.0" rx="0" style="fill:var(--fig-ink)"/>
   <rect x="594.0" y="320.0" width="12.0" height="6.0" rx="0" style="fill:var(--fig-ink)"/>
-  <text x="14.0" y="271.0" text-anchor="start" class="ubio-5-kinetochore-orientation-b">후기</text>
+  <text x="24.0" y="220.0" text-anchor="start" class="ubio-5-kinetochore-orientation-s">후기</text>
+  <text x="264.0" y="220.0" text-anchor="start" class="ubio-5-kinetochore-orientation-s">후기</text>
+  <text x="504.0" y="220.0" text-anchor="start" class="ubio-5-kinetochore-orientation-s">후기</text>
   <rect x="44.0" y="103.0" width="64.0" height="8.0" rx="4.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
   <rect x="44.0" y="113.0" width="64.0" height="8.0" rx="4.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
   <ellipse cx="54.0" cy="112.0" rx="2.6" ry="6" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
@@ -60,8 +63,6 @@
   <rect x="132.0" y="288.0" width="64.0" height="8.0" rx="4.0" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6"/>
   <circle cx="164.0" cy="292.0" r="2.6" style="fill:var(--fig-ink)"/>
   <line x1="120.0" y1="320.0" x2="164.0" y2="296.0" style="fill:none;stroke:var(--fig-green);stroke-width:1.4"/>
-  <line x1="30.0" y1="260.0" x2="30.0" y2="244.0" style="fill:none;stroke:var(--fig-ink);stroke-width:1.4" marker-end="url(#ubio-5-kinetochore-orientation-ar0)"/>
-  <line x1="30.0" y1="272.0" x2="30.0" y2="288.0" style="fill:none;stroke:var(--fig-ink);stroke-width:1.4" marker-end="url(#ubio-5-kinetochore-orientation-ar0)"/>
   <rect x="300.0" y="93.0" width="120.0" height="8.0" rx="4.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
   <rect x="300.0" y="102.0" width="82.0" height="8.0" rx="2" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
   <rect x="382.0" y="102.0" width="38.0" height="8.0" rx="2" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6"/>
@@ -80,8 +81,8 @@
   <circle cx="332.0" cy="122.5" r="3" style="fill:var(--fig-ink)"/>
   <line x1="360.0" y1="64.0" x2="332.0" y2="96.0" style="fill:none;stroke:var(--fig-green);stroke-width:1.4"/>
   <line x1="360.0" y1="166.0" x2="332.0" y2="128.0" style="fill:none;stroke:var(--fig-green);stroke-width:1.4"/>
-  <text x="386.0" y="84.0" text-anchor="start" class="ubio-5-kinetochore-orientation-s">교차(키아즈마)</text>
-  <line x1="390.0" y1="88.0" x2="384.0" y2="108.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="412.0" y="156.0" text-anchor="middle" class="ubio-5-kinetochore-orientation-s">교차(키아즈마)</text>
+  <line x1="404.0" y1="144.0" x2="384.0" y2="116.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1"/>
   <rect x="300.0" y="231.0" width="120.0" height="8.0" rx="4.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
   <rect x="300.0" y="241.0" width="82.0" height="8.0" rx="2" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
   <rect x="382.0" y="241.0" width="38.0" height="8.0" rx="2" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6"/>
@@ -94,7 +95,7 @@
   <ellipse cx="332.0" cy="292.0" rx="2.6" ry="6" style="fill:none;stroke:var(--fig-amber);stroke-width:2"/>
   <circle cx="332.0" cy="292.0" r="3" style="fill:var(--fig-ink)"/>
   <line x1="360.0" y1="320.0" x2="332.0" y2="300.0" style="fill:none;stroke:var(--fig-green);stroke-width:1.4"/>
-  <text x="426.0" y="270.0" text-anchor="middle" class="ubio-5-kinetochore-orientation-s" style="fill:var(--fig-amber)">동원체 코헤신은 보호</text>
+  <text x="374.0" y="271.0" text-anchor="middle" class="ubio-5-kinetochore-orientation-s" style="fill:var(--fig-amber)">동원체 코헤신은 보호</text>
   <rect x="558.0" y="103.0" width="84.0" height="8.0" rx="4.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
   <rect x="558.0" y="113.0" width="62.0" height="8.0" rx="2" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
   <rect x="620.0" y="113.0" width="22.0" height="8.0" rx="2" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6"/>
@@ -103,7 +104,6 @@
   <circle cx="586.0" cy="117.0" r="2.6" style="fill:var(--fig-ink)"/>
   <line x1="600.0" y1="64.0" x2="586.0" y2="103.0" style="fill:none;stroke:var(--fig-green);stroke-width:1.4"/>
   <line x1="600.0" y1="166.0" x2="586.0" y2="121.0" style="fill:none;stroke:var(--fig-green);stroke-width:1.4"/>
-  <text x="654.0" y="142.0" text-anchor="middle" class="ubio-5-kinetochore-orientation-s">(n = 1인 세포 하나)</text>
   <rect x="558.0" y="236.0" width="84.0" height="8.0" rx="4.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
   <rect x="558.0" y="288.0" width="62.0" height="8.0" rx="2" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
   <rect x="620.0" y="288.0" width="22.0" height="8.0" rx="2" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6"/>
