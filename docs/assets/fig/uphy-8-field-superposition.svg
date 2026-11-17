@@ -13,7 +13,7 @@
   <text x="140" y="306" text-anchor="middle" class="uphy-8-field-superposition-t">+5.0 nC</text>
   <text x="460" y="306" text-anchor="middle" class="uphy-8-field-superposition-t">−5.0 nC</text>
   <text x="206" y="210" text-anchor="end" class="uphy-8-field-superposition-s">5.0 cm</text>
-  <text x="394" y="210" class="uphy-8-field-superposition-s">5.0 cm</text>
+  <text x="440" y="236" class="uphy-8-field-superposition-s">5.0 cm</text>
   <text x="306" y="220" class="uphy-8-field-superposition-s">3.0 cm</text>
   <text x="220" y="288" text-anchor="middle" class="uphy-8-field-superposition-s">4.0 cm</text>
   <circle cx="300" cy="150" r="5" style="fill:var(--fig-ink)"/>
@@ -27,8 +27,8 @@
   <line x1="300" y1="150" x2="480" y2="150" style="stroke:var(--fig-accent);stroke-width:3.6"/>
   <path d="M492 150 L479 155.8 L479 144.2 Z" style="fill:var(--fig-accent)"/>
   <text x="402" y="76" class="uphy-8-field-superposition-t" style="fill:var(--fig-red)">E₁ (+전하에서 멀어짐)</text>
-  <text x="404" y="234" class="uphy-8-field-superposition-t" style="fill:var(--fig-blue)">E₂ (−전하를 향함)</text>
+  <text x="386" y="244" text-anchor="end" class="uphy-8-field-superposition-t" style="fill:var(--fig-blue)">E₂ (−전하 쪽)</text>
   <text x="500" y="155" class="uphy-8-field-superposition-b" style="fill:var(--fig-accent)">E = 2.88×10⁴ N/C</text>
-  <text x="590" y="250" text-anchor="middle" class="uphy-8-field-superposition-s">y성분: 상쇄</text>
-  <text x="590" y="270" text-anchor="middle" class="uphy-8-field-superposition-s">x성분: 2 × 0.8 × E₁</text>
+  <text x="610" y="300" text-anchor="middle" class="uphy-8-field-superposition-s">y성분: 상쇄</text>
+  <text x="610" y="320" text-anchor="middle" class="uphy-8-field-superposition-s">x성분: 2 × 0.8 × E₁</text>
 </svg>
