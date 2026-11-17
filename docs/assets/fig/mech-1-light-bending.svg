@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-mech-1-light-bending d-mech-1-light-bending">
+  <title id="t-mech-1-light-bending">그림 역학과 에너지 1-9 가속하는 엘리베이터 속의 빛과 중력 렌즈</title>
+  <desc id="d-mech-1-light-bending">(가) 위로 가속하는 엘리베이터에서 수평으로 쏜 빛은, 빛이 건너가는 동안 바닥이 위로 빨라지므로 안에서 보면 아래로 휘어 맞은편 벽의 더 낮은 곳에 닿는다. 등가 원리에 따라 중력 속에서도 빛이 휜다. (나) 먼 은하에서 온 빛이 앞쪽 은하단의 중력에 의해 휘어 관측자에게 오면, 관측자는 빛이 온 방향의 연장선에서 은하의 상을 여러 개 본다. 휘는 각도는 크게 과장한 모식도이다.</desc>
+  <rect x="10.0" y="10.0" width="250.0" height="320.0" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="270.0" y="10.0" width="440.0" height="320.0" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="24.0" y="36.0" style="font-size:15px;fill:var(--fig-ink);font-weight:600">(가) 가속하는 엘리베이터</text>
+  <rect x="50.0" y="70.0" width="170.0" height="210.0" rx="4" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2.5"/>
+  <line x1="238.0" y1="280.0" x2="238.0" y2="121.0" style="stroke:var(--fig-red);stroke-width:3;fill:none"/>
+  <path d="M238.0 110.0 L243.5 121.0 L232.5 121.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="232.0" y="100.0" text-anchor="middle" style="font-size:15px;fill:var(--fig-red);font-weight:600">a</text>
+  <rect x="52.0" y="132.0" width="14.0" height="16.0" rx="2" style="fill:var(--fig-amber);stroke:none;stroke-width:0"/>
+  <line x1="66.0" y1="140.0" x2="220.0" y2="140.0" style="stroke:var(--fig-line);stroke-width:1.5;fill:none;stroke-dasharray:5 4"/>
+  <path d="M66.0 140.0 L71.1 140.1 L76.3 140.3 L81.4 140.7 L86.5 141.2 L91.7 141.9 L96.8 142.8 L101.9 143.8 L107.1 145.0 L112.2 146.3 L117.3 147.8 L122.5 149.4 L127.6 151.2 L132.7 153.1 L137.9 155.2 L143.0 157.5 L148.1 159.9 L153.3 162.5 L158.4 165.2 L163.5 168.1 L168.7 171.1 L173.8 174.3 L178.9 177.6 L184.1 181.1 L189.2 184.8 L194.3 188.6 L199.5 192.6 L204.6 196.7 L209.7 201.0 L214.9 205.4 L220.0 210.0" style="fill:none;stroke:var(--fig-amber);stroke-width:3"/>
+  <circle cx="218.0" cy="210.0" r="5.0" style="fill:var(--fig-amber);stroke:none;stroke-width:1.5"/>
+  <text x="135.0" y="126.0" text-anchor="middle" style="font-size:12px;fill:var(--fig-muted)">가속이 없을 때</text>
+  <text x="80.0" y="244.0" style="font-size:13px;fill:var(--fig-amber);font-weight:600">안에서 본 빛의 경로</text>
+  <text x="80.0" y="262.0" style="font-size:13px;fill:var(--fig-amber);font-weight:600">→ 아래로 휜다</text>
+  <text x="135.0" y="312.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-muted)">중력 속에서도 똑같이 휜다</text>
+  <text x="284.0" y="36.0" style="font-size:15px;fill:var(--fig-ink);font-weight:600">(나) 중력 렌즈(모식도)</text>
+  <circle cx="305.0" cy="180.0" r="9.0" style="fill:var(--fig-violet);stroke:none;stroke-width:1.5"/>
+  <text x="305.0" y="208.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-violet);font-weight:600">먼 은하</text>
+  <text x="305.0" y="224.0" text-anchor="middle" style="font-size:12px;fill:var(--fig-muted)">(실제 위치)</text>
+  <circle cx="500.0" cy="180.0" r="26.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <text x="500.0" y="185.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-ink)">은하단</text>
+  <circle cx="680.0" cy="180.0" r="7.0" style="fill:var(--fig-blue);stroke:none;stroke-width:1.5"/>
+  <text x="680.0" y="206.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-blue);font-weight:600">관측자</text>
+  <path d="M305.0 180.0 L500.0 108.0 L680.0 180.0" style="fill:none;stroke:var(--fig-amber);stroke-width:2.5"/>
+  <line x1="500.0" y1="108.0" x2="305.0" y2="30.0" style="stroke:var(--fig-line);stroke-width:1.5;fill:none;stroke-dasharray:5 4"/>
+  <circle cx="305.0" cy="30.0" r="8.0" style="fill:none;stroke:var(--fig-violet);stroke-width:2;stroke-dasharray:3 2"/>
+  <text x="319.0" y="35.0" style="font-size:12px;fill:var(--fig-violet)">보이는 상</text>
+  <path d="M305.0 180.0 L500.0 252.0 L680.0 180.0" style="fill:none;stroke:var(--fig-amber);stroke-width:2.5"/>
+  <line x1="500.0" y1="252.0" x2="305.0" y2="330.0" style="stroke:var(--fig-line);stroke-width:1.5;fill:none;stroke-dasharray:5 4"/>
+  <circle cx="305.0" cy="330.0" r="8.0" style="fill:none;stroke:var(--fig-violet);stroke-width:2;stroke-dasharray:3 2"/>
+  <text x="319.0" y="335.0" style="font-size:12px;fill:var(--fig-violet)">보이는 상</text>
+  <line x1="590.0" y1="144.0" x2="592.0" y2="145.0" style="stroke:var(--fig-amber);stroke-width:2.5;fill:none"/>
+  <path d="M600.0 149.0 L589.9 149.0 L594.0 141.0 Z" style="fill:var(--fig-amber);stroke:none"/>
+  <line x1="590.0" y1="216.0" x2="592.0" y2="215.0" style="stroke:var(--fig-amber);stroke-width:2.5;fill:none"/>
+  <path d="M600.0 211.0 L594.0 219.0 L589.9 211.0 Z" style="fill:var(--fig-amber);stroke:none"/>
+  <text x="490.0" y="312.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-muted)">빛이 질량 근처에서 휘어, 같은 은하가 여러 곳에 보인다</text>
+</svg>

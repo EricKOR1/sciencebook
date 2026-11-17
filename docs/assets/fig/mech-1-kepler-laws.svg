@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-mech-1-kepler-laws d-mech-1-kepler-laws">
+  <title id="t-mech-1-kepler-laws">그림 역학과 에너지 1-7 케플러 제1·2·3법칙</title>
+  <desc id="d-mech-1-kepler-laws">(가) 행성은 태양을 한 초점으로 하는 타원 궤도를 돌며, 태양과 행성을 잇는 선이 같은 시간 동안 쓸고 지나가는 넓이가 같다. 그래서 태양에 가까운 근일점에서 빠르고 먼 원일점에서 느리다. 타원의 납작한 정도는 과장한 모식도이다. (나) 수성부터 화성까지 공전 주기의 제곱(년²)과 궤도 긴반지름의 세제곱(AU³)이 한 직선 위에 놓인다.</desc>
+  <rect x="10.0" y="10.0" width="450.0" height="340.0" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <rect x="470.0" y="10.0" width="240.0" height="340.0" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="24.0" y="36.0" style="font-size:15px;fill:var(--fig-ink);font-weight:600">(가) 타원 궤도와 면적 속도 일정(모식도)</text>
+  <path d="M333.0 195.0 L339.1 306.3 L343.8 303.1 L348.5 299.7 L353.2 296.1 L357.8 292.2 L362.3 288.1 L366.8 283.7 L371.2 279.0 L375.4 274.1 L379.5 268.9 L383.4 263.4 L387.1 257.6 L390.5 251.6 L393.7 245.2 L396.5 238.6 L399.0 231.8 L401.1 224.7 L402.8 217.5 L404.0 210.1 L404.8 202.6 L405.0 195.0 L404.8 187.4 L404.0 179.9 L402.8 172.5 L401.1 165.3 L399.0 158.2 L396.5 151.4 L393.7 144.8 L390.5 138.4 L387.1 132.4 L383.4 126.6 L379.5 121.1 L375.4 115.9 L371.2 111.0 L366.8 106.3 L362.3 101.9 L357.8 97.8 L353.2 93.9 L348.5 90.3 L343.8 86.9 L339.1 83.7 Z" style="fill:var(--fig-soft-red);stroke:none;stroke-width:0"/>
+  <path d="M333.0 195.0 L51.2 157.5 L50.6 159.3 L50.0 161.2 L49.5 163.0 L49.0 164.9 L48.5 166.8 L48.0 168.6 L47.6 170.5 L47.2 172.4 L46.9 174.3 L46.6 176.1 L46.3 178.0 L46.0 179.9 L45.8 181.8 L45.6 183.7 L45.4 185.6 L45.2 187.4 L45.1 189.3 L45.1 191.2 L45.0 193.1 L45.0 195.0 L45.0 196.9 L45.1 198.8 L45.1 200.7 L45.2 202.6 L45.4 204.4 L45.6 206.3 L45.8 208.2 L46.0 210.1 L46.3 212.0 L46.6 213.9 L46.9 215.7 L47.2 217.6 L47.6 219.5 L48.0 221.4 L48.5 223.2 L49.0 225.1 L49.5 227.0 L50.0 228.8 L50.6 230.7 L51.2 232.5 Z" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:0"/>
+  <path d="M45 195 A180 144.0 0 1 0 405 195 A180 144.0 0 1 0 45 195" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <circle cx="333.0" cy="195.0" r="13.0" style="fill:var(--fig-amber);stroke:none;stroke-width:1.5"/>
+  <text x="333.0" y="229.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-ink)">태양(초점)</text>
+  <circle cx="117.0" cy="195.0" r="3.0" style="fill:var(--fig-line);stroke:none;stroke-width:1.5"/>
+  <text x="117.0" y="213.0" text-anchor="middle" style="font-size:12px;fill:var(--fig-muted)">다른 초점</text>
+  <circle cx="405.0" cy="195.0" r="7.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <circle cx="45.0" cy="195.0" r="7.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <line x1="405.0" y1="195.0" x2="405.0" y2="143.0" style="stroke:var(--fig-blue);stroke-width:3;fill:none"/>
+  <path d="M405.0 133.0 L410.0 143.0 L400.0 143.0 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="45.0" y1="195.0" x2="45.0" y2="210.0" style="stroke:var(--fig-blue);stroke-width:3;fill:none"/>
+  <path d="M45.0 220.0 L40.0 210.0 L50.0 210.0 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <text x="399.0" y="125.0" text-anchor="end" style="font-size:13px;fill:var(--fig-ink);font-weight:600">근일점: 빠르다</text>
+  <text x="51.0" y="235.0" style="font-size:13px;fill:var(--fig-ink);font-weight:600">원일점: 느리다</text>
+  <text x="373.0" y="189.0" style="font-size:15px;fill:var(--fig-red);font-weight:600">A</text>
+  <text x="105.0" y="189.0" style="font-size:15px;fill:var(--fig-blue);font-weight:600">B</text>
+  <text x="235.0" y="338.0" text-anchor="middle" style="font-size:14px;fill:var(--fig-ink);font-weight:600">같은 시간 동안 쓴 넓이 A = B</text>
+  <text x="484.0" y="36.0" style="font-size:15px;fill:var(--fig-ink);font-weight:600">(나) T² ∝ a³</text>
+  <line x1="515.0" y1="300.0" x2="690.0" y2="300.0" style="stroke:var(--fig-ink);stroke-width:1.5;fill:none"/>
+  <path d="M698.0 300.0 L690.0 304.0 L690.0 296.0 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <line x1="515.0" y1="300.0" x2="515.0" y2="80.0" style="stroke:var(--fig-ink);stroke-width:1.5;fill:none"/>
+  <path d="M515.0 72.0 L519.0 80.0 L511.0 80.0 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <line x1="558.8" y1="300.0" x2="558.8" y2="304.0" style="stroke:var(--fig-ink);stroke-width:1;fill:none"/>
+  <text x="558.8" y="318.0" text-anchor="middle" style="font-size:12px;fill:var(--fig-muted)">1</text>
+  <line x1="511.0" y1="245.0" x2="515.0" y2="245.0" style="stroke:var(--fig-ink);stroke-width:1;fill:none"/>
+  <text x="507.0" y="249.0" text-anchor="end" style="font-size:12px;fill:var(--fig-muted)">1</text>
+  <line x1="602.5" y1="300.0" x2="602.5" y2="304.0" style="stroke:var(--fig-ink);stroke-width:1;fill:none"/>
+  <text x="602.5" y="318.0" text-anchor="middle" style="font-size:12px;fill:var(--fig-muted)">2</text>
+  <line x1="511.0" y1="190.0" x2="515.0" y2="190.0" style="stroke:var(--fig-ink);stroke-width:1;fill:none"/>
+  <text x="507.0" y="194.0" text-anchor="end" style="font-size:12px;fill:var(--fig-muted)">2</text>
+  <line x1="646.2" y1="300.0" x2="646.2" y2="304.0" style="stroke:var(--fig-ink);stroke-width:1;fill:none"/>
+  <text x="646.2" y="318.0" text-anchor="middle" style="font-size:12px;fill:var(--fig-muted)">3</text>
+  <line x1="511.0" y1="135.0" x2="515.0" y2="135.0" style="stroke:var(--fig-ink);stroke-width:1;fill:none"/>
+  <text x="507.0" y="139.0" text-anchor="end" style="font-size:12px;fill:var(--fig-muted)">3</text>
+  <line x1="690.0" y1="300.0" x2="690.0" y2="304.0" style="stroke:var(--fig-ink);stroke-width:1;fill:none"/>
+  <text x="690.0" y="318.0" text-anchor="middle" style="font-size:12px;fill:var(--fig-muted)">4</text>
+  <line x1="511.0" y1="80.0" x2="515.0" y2="80.0" style="stroke:var(--fig-ink);stroke-width:1;fill:none"/>
+  <text x="507.0" y="84.0" text-anchor="end" style="font-size:12px;fill:var(--fig-muted)">4</text>
+  <line x1="515.0" y1="300.0" x2="690.0" y2="80.0" style="stroke:var(--fig-line);stroke-width:1.5;fill:none;stroke-dasharray:5 4"/>
+  <circle cx="517.5" cy="296.8" r="5.0" style="fill:var(--fig-blue);stroke:none;stroke-width:1.5"/>
+  <text x="525.5" y="312.8" style="font-size:12px;fill:var(--fig-ink)">수성</text>
+  <circle cx="531.5" cy="279.2" r="5.0" style="fill:var(--fig-blue);stroke:none;stroke-width:1.5"/>
+  <text x="539.5" y="293.2" style="font-size:12px;fill:var(--fig-ink)">금성</text>
+  <circle cx="558.8" cy="245.0" r="5.0" style="fill:var(--fig-blue);stroke:none;stroke-width:1.5"/>
+  <text x="550.8" y="241.0" text-anchor="end" style="font-size:12px;fill:var(--fig-ink)">지구</text>
+  <circle cx="669.9" cy="105.4" r="5.0" style="fill:var(--fig-blue);stroke:none;stroke-width:1.5"/>
+  <text x="661.9" y="101.4" text-anchor="end" style="font-size:12px;fill:var(--fig-ink)">화성</text>
+  <text x="606.5" y="338.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-muted)">a³ (AU³)</text>
+  <text x="521.0" y="78.0" style="font-size:13px;fill:var(--fig-muted)">T² (년²)</text>
+  <text x="590.0" y="338.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-muted)">기울기 1: T²/a³ ≈ 1</text>
+</svg>
