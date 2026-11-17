@@ -63,28 +63,57 @@ Sims.register('u-fault-blocks', {
       var rc = rotv(S, c), rn = rotv(S, nrm);
       return dot(rn, [-rc[0], -rc[1], 16 - rc[2]]) > 0;
     }
+    var OFF = [0, BY / 2, 0];
+    function W(p) { return add(p, OFF); }
+    function wrap(g0) {
+      return {
+        poly: function (P, c, o) { g0.poly(P.map(W), c, o); },
+        line: function (a, b, c, o) { g0.line(W(a), W(b), c, o); },
+        arrow: function (a, b, c, o) { g0.arrow(W(a), W(b), c, o); },
+        text: function (a, t, o) { g0.text(W(a), t, o); },
+      };
+    }
+    function inPlanePoly(p, poly, G) {   // 단층면 위 점이 볼록 다각형 안에 있는가(면 좌표로)
+      var P2 = poly.map(function (q) { return [dot(q, G.s), dot(q, G.dd)]; }), x = dot(p, G.s), y = dot(p, G.dd), sgn = 0;
+      for (var i = 0; i < P2.length; i++) {
+        var a = P2[i], b = P2[(i + 1) % P2.length], cr = (b[0] - a[0]) * (y - a[1]) - (b[1] - a[1]) * (x - a[0]);
+        if (Math.abs(cr) < 1e-9) continue;
+        if (!sgn) sgn = cr > 0 ? 1 : -1; else if ((cr > 0 ? 1 : -1) !== sgn) return false;
+      }
+      return true;
+    }
     function area(poly) { var a = [0, 0, 0]; for (var i = 1; i + 1 < poly.length; i++) { var u = add(poly[i], mul(poly[0], -1)), v = add(poly[i + 1], mul(poly[0], -1)); a = add(a, [u[1] * v[2] - u[2] * v[1], u[2] * v[0] - u[0] * v[2], u[0] * v[1] - u[1] * v[0]]); } return Math.hypot(a[0], a[1], a[2]) / 2; }
 
     var S = api.scene3d({
-      yaw: -0.55, pitch: 0.5, dist: 16, scale: 0.12, label: '단층으로 나뉜 두 지각 블록의 입체 모형',
+      yaw: -0.55, pitch: 0.5, dist: 16, scale: 0.11, label: '단층으로 나뉜 두 지각 블록의 입체 모형',
       aspect: function (w) { return w < 560 ? 0.95 : 0.6; },
-      draw: function (g, T, S) {
+      draw: function (g0, T, S) {
+        var g = wrap(g0);
         var G = geom(), cols = [T.figSoftAmber, T.figSoftGreen, T.figSoftViolet, T.figSoftTeal, T.figSoftRed];
         [-1, 1].forEach(function (side) {
           var nrm = mul(G.n, side), shift = side > 0 ? G.u : [0, 0, 0];
           var polys = FACES.map(function (F) { return { p: clip(F.p, nrm, 0), n: F.n, top: F.top }; });
           polys.push({ p: capPoly(G), n: mul(G.n, -side), cap: true });
+          var other = capPoly(G).map(function (q) { return add(q, side > 0 ? [0, 0, 0] : G.u); });   // 맞닿은 상대 블록의 단층면
           polys.forEach(function (F) {
             if (F.p.length < 3 || area(F.p) < 1e-4) return;
-            var P = F.p.map(function (q) { return add(q, shift); });
-            if (!visible(S, P, F.n)) return;
-            if (F.top) { g.poly(P, T.figGreen, { alpha: 0.5, stroke: T.figLine, strokeWidth: 1 }); return; }
-            if (F.cap && side < 0) { g.poly(P, T.figRed, { alpha: 0.28, stroke: T.figRed, strokeWidth: 1.5 }); return; }
-            // 지층 띠(움직이기 전 높이로 자른 뒤 함께 옮김)
+            if (!visible(S, F.p.map(function (q) { return W(add(q, shift)); }), F.n)) return;
+            // 깊이 정렬이 맞도록 작은 조각으로 나누어 그린다(x·z 방향 0.75, 지층 두께 단위)
             for (var k = 0; k < BY / LAYER; k++) {
-              var y0 = -BY + k * LAYER, B = clip(clip(F.p, [0, 1, 0], y0), [0, -1, 0], -(y0 + LAYER));
-              if (B.length < 3 || area(B) < 1e-4) continue;
-              g.poly(B.map(function (q) { return add(q, shift); }), cols[k % cols.length], { alpha: 0.95, stroke: T.figLine, strokeWidth: 0.6 });
+              var y0 = -BY + k * LAYER, B = clip(clip(F.p, [0, 1, 0], y0 - 1e-6), [0, -1, 0], -(y0 + LAYER + 1e-6));
+              if (F.top) { if (k) break; B = F.p; }
+              if (B.length < 3) continue;
+              for (var ix = -BX; ix < BX - 1e-9; ix += 0.75) for (var iz = -BZ; iz < BZ - 1e-9; iz += 1) {
+                var C = clip(clip(clip(clip(B, [1, 0, 0], ix - 1e-6), [-1, 0, 0], -(ix + 0.75 + 1e-6)), [0, 0, 1], iz - 1e-6), [0, 0, -1], -(iz + 1 + 1e-6));
+                if (C.length < 3 || area(C) < 1e-4) continue;
+                var Q = C.map(function (q) { return add(q, shift); });
+                if (F.cap) {   // 상대 블록과 맞닿아 가려진 단층면 조각은 건너뜀
+                  var cc = [0, 0, 0]; Q.forEach(function (q) { cc = add(cc, q); }); cc = mul(cc, 1 / Q.length);
+                  if (inPlanePoly(cc, other, G)) continue;
+                  g.poly(Q, T.figRed, { alpha: 0.3 });
+                } else if (F.top) g.poly(Q, T.figGreen, { alpha: 0.55 });
+                else g.poly(Q, cols[k % cols.length], { alpha: 0.95 });
+              }
             }
           });
         });
