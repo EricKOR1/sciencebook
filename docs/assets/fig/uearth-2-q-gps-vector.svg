@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 300" class="fig-small" role="img" aria-labelledby="t-uearth-2-q-gps-vector d-uearth-2-q-gps-vector">
+<title id="t-uearth-2-q-gps-vector">그림 일반지구과학 2-11 예제 6 풀이 — GPS 속도의 합성</title>
+<desc id="d-uearth-2-q-gps-vector">동쪽 성분 3.0 cm/년과 북쪽 성분 4.0 cm/년을 합성하면 북쪽에서 동쪽으로 약 37° 기운 5.0 cm/년의 속도가 된다. 화살표 길이는 속력에 비례한다.</desc>
+<style>.uearth-2-q-gps-vector-t{font-size:14px;fill:var(--fig-ink)} .uearth-2-q-gps-vector-s{font-size:13px;fill:var(--fig-muted)} .uearth-2-q-gps-vector-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .uearth-2-q-gps-vector-b{font-size:14px;font-weight:700;fill:var(--fig-ink)}</style>
+<line x1="150" y1="250" x2="150" y2="50" style="stroke:var(--fig-muted);stroke-width:1;fill:none;stroke-dasharray:4 4"/>
+<line x1="150" y1="250" x2="260" y2="250" style="stroke:var(--fig-teal);stroke-width:2.5"/>
+<polygon points="270,250 260,245 260,255" style="fill:var(--fig-teal)"/>
+<line x1="270" y1="250" x2="270" y2="90" style="stroke:var(--fig-violet);stroke-width:2;fill:none;stroke-dasharray:6 4"/>
+<line x1="150" y1="250" x2="150" y2="100" style="stroke:var(--fig-violet);stroke-width:2.5"/>
+<polygon points="150,90 145,100 155,100" style="fill:var(--fig-violet)"/>
+<line x1="150" y1="90" x2="270" y2="90" style="stroke:var(--fig-teal);stroke-width:1.4;fill:none;stroke-dasharray:6 4"/>
+<line x1="150" y1="250" x2="262.2" y2="100.4" style="stroke:var(--fig-red);stroke-width:3"/>
+<polygon points="270,90 257,96.5 267.4,104.3" style="fill:var(--fig-red)"/>
+<circle cx="150" cy="250" r="4" style="fill:var(--fig-ink)"/>
+<text x="142" y="268" text-anchor="end" class="uearth-2-q-gps-vector-s">관측소</text>
+<text x="210" y="272" text-anchor="middle" class="uearth-2-q-gps-vector-t">동 3.0 cm/년</text>
+<text x="140" y="170" text-anchor="end" class="uearth-2-q-gps-vector-t">북 4.0 cm/년</text>
+<text x="280" y="160" class="uearth-2-q-gps-vector-b">5.0 cm/년</text>
+<path d="M150 198 A52 52 0 0 1 181.2 208.4" style="stroke:var(--fig-ink);stroke-width:1.4;fill:none"/>
+<text x="162" y="190" class="uearth-2-q-gps-vector-b">37°</text>
+<line x1="390" y1="120" x2="390" y2="70" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+<polygon points="390,60 385,70 395,70" style="fill:var(--fig-ink)"/>
+<text x="390" y="50" text-anchor="middle" class="uearth-2-q-gps-vector-t">북</text>
+<line x1="370" y1="120" x2="410" y2="120" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/>
+<text x="418" y="125" class="uearth-2-q-gps-vector-t">동</text>
+<text x="20" y="290" class="uearth-2-q-gps-vector-s">1 cm/년 = 40 px 비율(화살표 길이는 속력에 비례)</text>
+</svg>

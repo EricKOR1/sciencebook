@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-uearth-7-q-two-layer d-uearth-7-q-two-layer">
+  <title id="t-uearth-7-q-two-layer">그림 일반지구과학 7-13 문제 17의 두 층 대기 모형</title>
+  <desc id="d-uearth-7-q-two-layer">지표(온도 Ts) 위에 장파를 모두 흡수하는 아래층(T₂)과 위층(T₁)이 있고, 흡수 태양 복사 Q는 두 층을 그대로 통과해 지표에 흡수된다. 각 층은 위아래로 같은 양의 장파를 내보낸다. 화살표 길이는 크기와 무관하다.</desc>
+  <style>
+    .uearth-7-q-two-layer-t{font-size:14px;fill:var(--fig-ink)}
+    .uearth-7-q-two-layer-b{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+    .uearth-7-q-two-layer-s{font-size:13px;fill:var(--fig-muted)}
+    .uearth-7-q-two-layer-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .uearth-7-q-two-layer-red{font-size:14px;font-weight:600;fill:var(--fig-red)}
+    .uearth-7-q-two-layer-blue{font-size:14px;font-weight:600;fill:var(--fig-blue)}
+    .uearth-7-q-two-layer-green{font-size:14px;font-weight:600;fill:var(--fig-green)}
+    .uearth-7-q-two-layer-amber{font-size:14px;font-weight:600;fill:var(--fig-amber)}
+    .uearth-7-q-two-layer-violet{font-size:14px;font-weight:600;fill:var(--fig-violet)}
+    .uearth-7-q-two-layer-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.4}
+    .uearth-7-q-two-layer-grid{fill:none;stroke:var(--fig-line);stroke-width:0.7;stroke-dasharray:3 3}
+  </style>
+  <rect x="60" y="330" width="600" height="40" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <text x="72.0" y="356.0" class="uearth-7-q-two-layer-b">지표 (Ts)</text>
+  <rect x="60" y="225" width="600" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="72.0" y="245.0" class="uearth-7-q-two-layer-b">아래층 (T₂)</text>
+  <rect x="60" y="125" width="600" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="72.0" y="145.0" class="uearth-7-q-two-layer-b">위층 (T₁)</text>
+  <text x="60.0" y="30.0" class="uearth-7-q-two-layer-h">우주</text>
+  <line x1="170.0" y1="40.0" x2="170.0" y2="316.0" style="fill:none;stroke:var(--fig-amber);stroke-width:3"/>
+  <path d="M170.0,328.0 L164.6,316.0 L175.4,316.0 Z" style="fill:var(--fig-amber);stroke:none"/>
+  <text x="180.0" y="60.0" class="uearth-7-q-two-layer-amber">Q</text>
+  <text x="180.0" y="78.0" class="uearth-7-q-two-layer-s">(태양 복사)</text>
+  <line x1="290.0" y1="330.0" x2="290.0" y2="267.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.5"/>
+  <path d="M290.0,257.0 L294.5,267.0 L285.5,267.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="298.0" y="300.0" class="uearth-7-q-two-layer-red">σTs⁴</text>
+  <line x1="400.0" y1="225.0" x2="400.0" y2="167.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.5"/>
+  <path d="M400.0,157.0 L404.5,167.0 L395.5,167.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="408.0" y="196.0" class="uearth-7-q-two-layer-red">σT₂⁴</text>
+  <line x1="400.0" y1="255.0" x2="400.0" y2="318.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.5"/>
+  <path d="M400.0,328.0 L395.5,318.0 L404.5,318.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="408.0" y="300.0" class="uearth-7-q-two-layer-red">σT₂⁴</text>
+  <line x1="530.0" y1="125.0" x2="530.0" y2="55.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.5"/>
+  <path d="M530.0,45.0 L534.5,55.0 L525.5,55.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="538.0" y="90.0" class="uearth-7-q-two-layer-red">σT₁⁴</text>
+  <line x1="530.0" y1="155.0" x2="530.0" y2="213.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.5"/>
+  <path d="M530.0,223.0 L525.5,213.0 L534.5,213.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="538.0" y="196.0" class="uearth-7-q-two-layer-red">σT₁⁴</text>
+  <text x="660.0" y="30.0" class="uearth-7-q-two-layer-s" text-anchor="end">단파: 모두 통과 / 장파: 각 층이 모두 흡수</text>
+  <text x="660.0" y="392.0" class="uearth-7-q-two-layer-s" text-anchor="end">화살표 길이는 크기와 무관</text>
+</svg>
