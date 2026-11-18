@@ -889,6 +889,8 @@ $\Delta H \approx 2253 - 2346 = -93\ \mathrm{kJ}$ (실제 값 −92.2 kJ과 비�
 용액이 잃는 열이 2600 J이므로 $\Delta t = \dfrac{2600}{4.18\times100} \approx 6.2\ \mathrm{^\circ C}$ → 최저 온도 $\approx 25.0 - 6.2 = 18.8\ \mathrm{^\circ C}$
 (2) 용액이 주위보다 차가워지면 공기와 컵에서 용액으로 열이 흘러 들어와 온도가 덜 내려간다. 스타이로폼 컵과 뚜껑은 열의 출입을 줄일 뿐 완전히 막지는 못한다.
 
+<!-- fig:matter-3-q-cooling-curve -->
+
 **채점 포인트** ① 몰수 → 흡수열 계산 ② $Q = cm\Delta t$로 온도 변화 ③ 흡열 반응에서는 열이 바깥에서 '들어와' 온도 변화가 작게 측정됨
 
 </details>
@@ -907,6 +909,8 @@ $\Delta H \approx 2253 - 2346 = -93\ \mathrm{kJ}$ (실제 값 −92.2 kJ과 비�
 세 식을 더하면 $\mathrm{O_2}$는 $3 + \tfrac12 = \tfrac72$ mol이 양쪽에서 지워지고, $\mathrm{CO_2}$ 2 mol, $\mathrm{H_2O}$ 3 mol도 지워진다.
 $\Delta H = (-1411) + (-285.8) + 1560 = -136.8\ \mathrm{kJ}$
 
+<!-- fig:matter-3-q-hydrogenation-hess -->
+
 </details>
 
 **13.** $\mathrm{H_2(g) + F_2(g) \rightarrow 2HF(g)}$의 반응 엔탈피는 약 −542 kJ이다. 결합 에너지 H–H 436 kJ/mol, F–F 158 kJ/mol을 이용하여 (1) H–F의 결합 에너지를 어림하고, (2) H–Cl(431 kJ/mol)과 비교하여 어느 결합이 더 끊기 어려운지 쓰시오.
@@ -918,6 +922,8 @@ $\Delta H = (-1411) + (-285.8) + 1560 = -136.8\ \mathrm{kJ}$
 
 (1) $\Delta H \approx (436 + 158) - 2x = -542$ → $2x = 594 + 542 = 1136$ → $x = 568\ \mathrm{kJ/mol}$
 (2) 결합 에너지가 클수록 그 결합 1 mol을 끊는 데 더 많은 에너지가 필요하므로 H–F 결합이 더 끊기 어렵다.
+
+<!-- fig:matter-3-q-hf-bond -->
 
 </details>
 
@@ -958,13 +964,18 @@ $\Delta H = (-1411) + (-285.8) + 1560 = -136.8\ \mathrm{kJ}$
 Ⅱ: $Q = 4.18\times100\times3.6 \approx 1505\ \mathrm{J}$ → $\Delta H_2 \approx -150\ \mathrm{kJ/mol}$
 (2) 목표 식 = Ⅰ − Ⅱ + (문헌값 식). Ⅰ을 그대로, Ⅱ를 뒤집어($\mathrm{MgCl_2(aq) + H_2O(l) \rightarrow MgO(s) + 2HCl(aq)}$), 물의 생성 식을 더하면 $\mathrm{HCl}$, $\mathrm{MgCl_2}$, $\mathrm{H_2}$, $\mathrm{H_2O}$가 모두 지워진다.
 $\Delta H = (-459.8) - (-150.5) + (-285.8) \approx -595\ \mathrm{kJ/mol}$ (문헌값 약 −602 kJ/mol)
+
+<!-- fig:matter-3-q-mg-hess -->
+
 (3) 열이 새면 측정한 온도 상승이 작아져 $\Delta H_1$, $\Delta H_2$의 크기가 모두 실제의 90 %로 작게 나온다. 그러면 $\Delta H_1 - \Delta H_2$(약 −309 kJ)의 크기도 90 %(약 −278 kJ)로 줄어 결과는 약 −564 kJ/mol이 되므로, 실제보다 덜 음수이다.
 
 **채점 포인트** ① 온도 변화 → 1 mol당 $\Delta H$(부호 포함) ② 목표 식이 나오도록 식을 뒤집고 더함 ③ 열 손실이 두 측정값에 주는 영향을 따져 결과의 방향을 판단
 
 </details>
 
-**16. [자료 해석·추론]** 적갈색 기체 $\mathrm{NO_2}$와 무색 기체 $\mathrm{N_2O_4}$가 섞여 있는 밀폐된 유리관 두 개를 하나는 얼음물에, 하나는 뜨거운 물에 넣었다. 얼음물 속 관은 색이 옅어졌고(무색인 $\mathrm{N_2O_4}$가 많아짐), 뜨거운 물 속 관은 색이 진해졌다($\mathrm{NO_2}$가 많아짐). 이 관찰만으로 반응 $\mathrm{2NO_2(g) \rightarrow N_2O_4(g)}$의 (1) 계의 엔트로피 변화의 부호와 (2) 반응 엔탈피의 부호를 추론하고, 그 근거를 자발성의 네 가지 경우와 관련지어 설명하시오.
+**16. [자료 해석·추론]** 그림과 같이 적갈색 기체 $\mathrm{NO_2}$와 무색 기체 $\mathrm{N_2O_4}$가 섞여 있는 밀폐된 유리관 두 개를 하나는 얼음물에, 하나는 뜨거운 물에 넣었다. 얼음물 속 관은 색이 옅어졌고(무색인 $\mathrm{N_2O_4}$가 많아짐), 뜨거운 물 속 관은 색이 진해졌다($\mathrm{NO_2}$가 많아짐). 이 관찰만으로 반응 $\mathrm{2NO_2(g) \rightarrow N_2O_4(g)}$의 (1) 계의 엔트로피 변화의 부호와 (2) 반응 엔탈피의 부호를 추론하고, 그 근거를 자발성의 네 가지 경우와 관련지어 설명하시오.
+
+<!-- fig:matter-3-q-no2-tubes -->
 
 <details>
 <summary>정답 및 해설</summary>

@@ -64,9 +64,9 @@
   <circle cx="428" cy="146.7" r="4.5" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:2.2"/>
   <circle cx="602" cy="114.4" r="4.5" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:2.2"/>
   <line x1="264" y1="82.2" x2="264" y2="211.1" style="stroke:var(--fig-green);stroke-width:5;stroke-opacity:0.7"/>
-  <text x="272" y="151.7" class="matter-4-q-pressure-curve-s" style="fill:var(--fig-green);font-weight:600">남은 양 ½</text>
+  <text x="256" y="151.7" text-anchor="end" class="matter-4-q-pressure-curve-s" style="fill:var(--fig-green);font-weight:600">남은 양 ½</text>
   <line x1="438" y1="82.2" x2="438" y2="146.7" style="stroke:var(--fig-green);stroke-width:5;stroke-opacity:0.7"/>
-  <text x="446" y="119.4" class="matter-4-q-pressure-curve-s" style="fill:var(--fig-green);font-weight:600">남은 양 ¼</text>
+  <text x="430" y="119.4" text-anchor="end" class="matter-4-q-pressure-curve-s" style="fill:var(--fig-green);font-weight:600">남은 양 ¼</text>
   <line x1="612" y1="82.2" x2="612" y2="114.4" style="stroke:var(--fig-green);stroke-width:5;stroke-opacity:0.7"/>
-  <text x="620" y="103.3" class="matter-4-q-pressure-curve-s" style="fill:var(--fig-green);font-weight:600">남은 양 ⅛</text>
+  <text x="604" y="103.3" text-anchor="end" class="matter-4-q-pressure-curve-s" style="fill:var(--fig-green);font-weight:600">남은 양 ⅛</text>
 </svg>
