@@ -92,4 +92,10 @@ for path in targets:
         print(f'  참조 {c}곳: {os.path.relpath(path, ROOT)}')
     if write and new != text:
         open(path, 'w', encoding='utf-8').write(new)
+# 단원의 표시 번호를 다 쓰지 않은 참조(예: "물질과 에너지 3" 단원에서 "그림 3-5")는 고칠 수 없으므로 알려 준다
+for p, label, _ in lessons:
+    text = open(p, encoding='utf-8').read()
+    for m in re.finditer(r'그림\s+((?:[가-힣A-Za-z]+\s?)*\d+(?:-\d+)+)', text):
+        if not m.group(1).startswith(label + '-'):
+            print(f'  ? 표시 번호가 다른 참조: {os.path.relpath(p, ROOT)} — "그림 {m.group(1)}" (이 단원은 "그림 {label}-n")')
 print(f'바꿀 그림 {changed}개, 본문 속 참조 {refs}곳' + (' (고침)' if write else ''))
