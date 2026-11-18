@@ -13,11 +13,8 @@
   <ellipse cx="120" cy="106" rx="34" ry="34" style="fill:none;stroke:var(--fig-ink);stroke-width:1.8"/>
   <ellipse cx="120" cy="133.5" rx="12.4" ry="12.4" style="fill:none;stroke:var(--fig-ink);stroke-width:1.8"/>
   <ellipse cx="120" cy="185" rx="4.6" ry="4.4" style="fill:none;stroke:var(--fig-ink);stroke-width:1.8"/>
-  <ellipse cx="120" cy="236.5" rx="1.9" ry="1.4" style="fill:none;stroke:var(--fig-ink);stroke-width:1.8"/>
-  <line x1="120" y1="296" x2="114.2" y2="296" style="stroke:var(--fig-ink);stroke-width:1.8;fill:none"/>
-  <path d="M121.2 296 L114.2 299.5 L114.2 292.5 Z" style="fill:var(--fig-ink)"/>
-  <line x1="120" y1="296" x2="125.8" y2="296" style="stroke:var(--fig-ink);stroke-width:1.8;fill:none"/>
-  <path d="M118.8 296 L125.8 292.5 L125.8 299.5 Z" style="fill:var(--fig-ink)"/>
+  <circle cx="120" cy="236.5" r="2" style="fill:var(--fig-ink)"/>
+  <circle cx="120" cy="296" r="2" style="fill:var(--fig-ink)"/>
   <rect x="260" y="70" width="200" height="230" style="fill:var(--fig-soft-blue);stroke:none"/>
   <line x1="260" y1="70" x2="460" y2="70" style="stroke:var(--fig-blue);stroke-width:2"/>
   <rect x="260" y="300" width="200" height="10" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>

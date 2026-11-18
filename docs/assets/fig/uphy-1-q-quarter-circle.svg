@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-uphy-1-q-quarter-circle d-uphy-1-q-quarter-circle">
+  <title id="t-uphy-1-q-quarter-circle">그림 일반물리학 1-12 문제 15 해설: 1/4바퀴 동안의 평균 속도와 평균 가속도</title>
+  <desc id="d-uphy-1-q-quarter-circle">왼쪽: 반지름 5.0 m인 원의 1/4바퀴에서 변위(현)는 7.07 m, 이동 거리(호)는 7.85 m이다. 속도 v(0) = 7.85 m/s 북쪽, v(1.0 s) = 7.85 m/s 서쪽이다. 오른쪽: 두 속도를 꼬리끼리 맞추면 차 Δv의 크기는 11.1 m/s로, 평균 가속도 11.1 m/s²는 구심 가속도 12.3 m/s²보다 작다. 속도 화살표는 크기에 비례한다.</desc>
+  <path d="M299.4 303.1 A150.0 150.0 0 0 0 0.6 276.9" style="fill:none;stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:5 4"/>
+  <path d="M300.0 290.0 A150.0 150.0 0 0 0 150.0 140.0" style="fill:none;stroke:var(--fig-blue);stroke-width:3"/>
+  <line x1="300.0" y1="290.0" x2="150.0" y2="140.0" style="stroke:var(--fig-red);stroke-width:2;fill:none;stroke-dasharray:7 4"/>
+  <circle cx="150.0" cy="290.0" r="3.5" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+  <text x="142.0" y="308.0" style="font-size:13px;fill:var(--fig-ink)">O</text>
+  <line x1="150.0" y1="290.0" x2="300.0" y2="290.0" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
+  <text x="225.0" y="308.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-muted)">5.0 m</text>
+  <circle cx="300.0" cy="290.0" r="4.5" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+  <circle cx="150.0" cy="140.0" r="4.5" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+  <text x="308.0" y="308.0" style="font-size:13px;fill:var(--fig-ink)">t = 0</text>
+  <text x="158.0" y="130.0" style="font-size:13px;fill:var(--fig-ink)">t = 1.0 s</text>
+  <line x1="300.0" y1="290.0" x2="300.0" y2="211.1" style="stroke:var(--fig-violet);stroke-width:2.8;fill:none"/>
+  <path d="M300.0 200.0 L305.2 211.6 L294.8 211.6 Z" style="fill:var(--fig-violet);stroke:none"/>
+  <line x1="150.0" y1="140.0" x2="71.1" y2="140.0" style="stroke:var(--fig-violet);stroke-width:2.8;fill:none"/>
+  <path d="M60.0 140.0 L71.6 134.8 L71.6 145.2 Z" style="fill:var(--fig-violet);stroke:none"/>
+  <text x="308.0" y="230.0" style="font-size:14px;fill:var(--fig-violet);font-weight:600">v(0)</text>
+  <text x="105.0" y="130.0" text-anchor="middle" style="font-size:14px;fill:var(--fig-violet);font-weight:600">v(1.0 s)</text>
+  <text x="206.0" y="214.0" text-anchor="end" style="font-size:13px;fill:var(--fig-red);font-weight:600">현 7.07 m</text>
+  <text x="272.0" y="168.0" style="font-size:13px;fill:var(--fig-blue);font-weight:600">호 7.85 m</text>
+  <text x="380.0" y="40.0" style="font-size:14px;fill:var(--fig-ink);font-weight:600">속도의 변화</text>
+  <line x1="500.0" y1="250.0" x2="500.0" y2="170.7" style="stroke:var(--fig-violet);stroke-width:2.6;fill:none"/>
+  <path d="M500.0 160.0 L505.0 171.2 L495.0 171.2 Z" style="fill:var(--fig-violet);stroke:none"/>
+  <line x1="500.0" y1="250.0" x2="420.7" y2="250.0" style="stroke:var(--fig-violet);stroke-width:2.6;fill:none"/>
+  <path d="M410.0 250.0 L421.2 245.0 L421.2 255.0 Z" style="fill:var(--fig-violet);stroke:none"/>
+  <line x1="500.0" y1="160.0" x2="418.1" y2="241.9" style="stroke:var(--fig-red);stroke-width:3;fill:none"/>
+  <path d="M410.0 250.0 L414.7 237.7 L422.3 245.3 Z" style="fill:var(--fig-red);stroke:none"/>
+  <path d="M500.0 240.0 L490.0 240.0 L490.0 250.0" style="fill:none;stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="508.0" y="210.0" style="font-size:14px;fill:var(--fig-violet);font-weight:600">v(0)</text>
+  <text x="455.0" y="270.0" text-anchor="middle" style="font-size:14px;fill:var(--fig-violet);font-weight:600">v(1.0 s)</text>
+  <text x="450.0" y="194.0" text-anchor="end" style="font-size:15px;fill:var(--fig-red);font-weight:700">Δv</text>
+  <text x="530.0" y="120.0" style="font-size:13px;fill:var(--fig-red)">|Δv| = 7.85√2 = 11.1 m/s</text>
+  <text x="530.0" y="150.0" style="font-size:13px;fill:var(--fig-ink)">평균 가속도 = 11.1 m/s²</text>
+  <text x="530.0" y="172.0" style="font-size:13px;fill:var(--fig-ink)">구심 가속도 Rω² = 12.3 m/s²</text>
+  <text x="530.0" y="202.0" style="font-size:13px;fill:var(--fig-ink)">평균 속도 7.07 m/s</text>
+  <text x="530.0" y="224.0" style="font-size:13px;fill:var(--fig-ink)">속력 7.85 m/s</text>
+  <text x="530.0" y="254.0" style="font-size:13px;fill:var(--fig-muted)">현 &lt; 호이기 때문</text>
+</svg>

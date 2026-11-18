@@ -952,8 +952,10 @@ $v = \dfrac{g}{f}\dfrac{\Delta h}{\Delta x} = \dfrac{9.8}{9.4\times10^{-5}}\time
 
 </details>
 
-**9.** 그래프 설명은 두 관측소 A, B의 하루 조위 변화이다. A는 하루에 두 번 만조가 나타나고 조차가 약 6 m이며 두 만조 높이가 비슷하다. B는 하루에 두 번 만조가 나타나지만 조차가 약 0.3 m이고 두 만조 높이가 크게 다르다.
+**9.** 그림은 두 관측소 A, B의 하루 조위 변화이다. A는 하루에 두 번 만조가 나타나고 조차가 약 6 m이며 두 만조 높이가 비슷하다. B는 하루에 두 번 만조가 나타나지만 조차가 약 0.3 m이고 두 만조 높이가 크게 다르다.
 (1) A와 B의 조석 유형을 각각 쓰시오. (2) A와 B 중 우리나라 동해안 관측소일 가능성이 큰 것과, 두 지역의 조차가 다른 까닭을 쓰시오.
+
+<!-- fig:esys-2-q-tide-two-stations -->
 
 <details>
 <summary>정답 및 해설</summary>
@@ -997,6 +999,8 @@ $v = \dfrac{g}{f}\dfrac{\Delta h}{\Delta x} = \dfrac{9.8}{9.4\times10^{-5}}\time
 
 **정답** (1) 약 0.54 m/s, 북쪽 (2) 약 0.38 m/s로 느려진다 (3) 해설 참고
 
+<!-- fig:esys-2-q-geostrophic-balance -->
+
 (1) $v = \dfrac{g}{f}\dfrac{\Delta h}{\Delta x} = \dfrac{9.8}{7.3\times10^{-5}}\times\dfrac{0.2}{5.0\times10^4} \approx 0.54\ \mathrm{m/s}$. 북반구에서는 흐름의 오른쪽에 해수면이 높은 쪽이 있으므로, 높은 동쪽을 오른쪽에 두려면 **북쪽**으로 흘러야 한다.
 (2) $v = \dfrac{9.8}{1.03\times10^{-4}}\times\dfrac{0.2}{5.0\times10^4} \approx 0.38\ \mathrm{m/s}$. 전향 인자가 커서 같은 수압 경도력과 균형을 이루는 데 더 느린 속력이면 충분하다.
 (3) 바람에 의한 에크만 수송이 해수를 한쪽(여기서는 동쪽 해역)으로 모아 해수면을 높였다. 예를 들어 아열대 해역에서는 무역풍과 편서풍에 의한 에크만 수송이 중앙으로 모여 해수면이 볼록해진다.
@@ -1010,6 +1014,8 @@ $v = \dfrac{g}{f}\dfrac{\Delta h}{\Delta x} = \dfrac{9.8}{9.4\times10^{-5}}\time
 <summary>정답 및 해설</summary>
 
 **정답** (1) 약 156 m, 약 15.6 m/s (2) 100 m: 심해파, 20 m: 전이파 (3) 약 4.4 m/s, 약 44 m, 만족함
+
+<!-- fig:esys-2-q-wave-orbits -->
 
 (1) $c = \dfrac{gT}{2\pi} = \dfrac{9.8\times10}{6.28} \approx 15.6\ \mathrm{m/s}$, $L = cT \approx 156\ \mathrm{m}$
 (2) 수심 100 m는 $L/2 = 78\ \mathrm{m}$보다 깊으므로 **심해파**. 수심 20 m는 $L/2$보다 얕고 $L/20 \approx 7.8\ \mathrm{m}$보다 깊으므로 **전이파**(이때 파장은 이미 156 m보다 짧아지기 시작하지만, 20 m가 천해파 조건을 만족할 만큼 얕지는 않다).
@@ -1038,6 +1044,8 @@ $v = \dfrac{g}{f}\dfrac{\Delta h}{\Delta x} = \dfrac{9.8}{9.4\times10^{-5}}\time
 
 **정답** (1) 약 0.4 m (2) 만조: 약 8.9 m로 넘침, 간조: 약 2.9 m로 넘지 않음 (3) 해설 참고
 
+<!-- fig:esys-2-q-surge-levels -->
+
 (1) $\Delta P = 40\ \mathrm{hPa} = 4000\ \mathrm{Pa}$, $\Delta h = \dfrac{4000}{1025\times9.8} \approx 0.4\ \mathrm{m}$
 (2) 만조: $7.0 + 0.4 + 1.5 = 8.9\ \mathrm{m}$ > 8.0 m → **넘친다**. 간조: $1.0 + 0.4 + 1.5 = 2.9\ \mathrm{m}$ → 넘지 않는다. 같은 태풍이라도 상륙 시각에 따라 해수면이 6 m나 차이 난다.
 (3) 동해안은 조차가 수십 cm에 불과하여 만조와 간조의 해수면 차이가 작기 때문이다.
@@ -1061,6 +1069,8 @@ $v = \dfrac{g}{f}\dfrac{\Delta h}{\Delta x} = \dfrac{9.8}{9.4\times10^{-5}}\time
 
 **정답** (1) 약 74분 (2) 약 44분, 도착 시간을 30분 가까이 짧게 잡는다 (3) 해설 참고
 
+<!-- fig:esys-2-q-tsunami-share -->
+
 (1) $c = \sqrt{gh}$로 ① $\approx 198\ \mathrm{m/s}$, $\dfrac{3.0\times10^5}{198} \approx 1515\ \mathrm{s}$ ② $\approx 99\ \mathrm{m/s}$, $\approx 2020\ \mathrm{s}$ ③ $\approx 22\ \mathrm{m/s}$, $\approx 904\ \mathrm{s}$. 합계 약 $4440\ \mathrm{s} \approx 74$분.
 (2) $\dfrac{5.2\times10^5}{198} \approx 2630\ \mathrm{s} \approx 44$분. 쓰나미는 얕은 곳에서 느려지므로 깊은 바다의 속력만 쓰면 도착 시간을 실제보다 짧게 잡는다(경보 측면에서는 이르게 예측하지만, 도착 순서·시각 예측이 틀린다). 경로를 따라 수심별로 나누어 시간을 더해야 한다.
 (3) 시간: ③은 거리가 짧아도 속력이 대양의 약 9분의 1로 느려 전체 시간의 약 20 %(약 15분)를 차지한다. 파고: 이 얕은 구간에서 파의 앞부분이 느려지는 동안 뒷부분이 따라와 파장이 짧아지고 에너지가 모여 **파고가 크게 높아진다.** 그래서 피해 규모는 대륙붕과 해안 지형에 크게 좌우된다.
@@ -1074,6 +1084,8 @@ $v = \dfrac{g}{f}\dfrac{\Delta h}{\Delta x} = \dfrac{9.8}{9.4\times10^{-5}}\time
 
 <details>
 <summary>정답 및 해설</summary>
+
+<!-- fig:esys-2-q-spring-neap -->
 
 **예시 답안**
 (1) 사리: $2 + 1 = 3$, 조금: $2 - 1 = 1$이므로 조차 비는 **3 : 1**. 사리 조차가 6 m이면 조금 조차는 약 **2 m**로 어림된다.
