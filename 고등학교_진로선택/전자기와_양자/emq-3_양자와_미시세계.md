@@ -876,7 +876,8 @@ $\Delta p \geq \dfrac{6.63\times10^{-34}}{4\pi\times1.0\times10^{-9}} \approx 5.
 <details>
 <summary>정답 및 해설</summary>
 
-**정답 및 해설**
+**정답** (1) (가) 흡수되지 않음 (나) 흡수, $n = 3$으로 들뜸 (다) 흡수되지 않음 (라) 흡수, 이온화 (2) 해설 참고
+
 (1) 바닥상태에서 올라갈 수 있는 에너지 차는 $1 \rightarrow 2$: $10.2\ \mathrm{eV}$, $1 \rightarrow 3$: $13.6\left(1 - \frac{1}{9}\right) \approx 12.09\ \mathrm{eV}$, $1 \rightarrow 4$: $12.75\ \mathrm{eV}$, …, 전자가 떨어져 나가려면 $13.6\ \mathrm{eV}$이다.
 (가) $2.55\ \mathrm{eV}$는 어떤 준위 차와도 맞지 않아 흡수되지 않는다($2 \rightarrow 4$의 에너지이지만 원자가 $n = 2$에 있지 않다).
 (나) $12.09\ \mathrm{eV}$는 $1 \rightarrow 3$과 꼭 맞아 흡수되고 원자는 $n = 3$으로 들뜬다.
