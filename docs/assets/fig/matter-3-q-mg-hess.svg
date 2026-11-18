@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 446" role="img" aria-labelledby="t-matter-3-q-mg-hess d-matter-3-q-mg-hess">
+  <title id="t-matter-3-q-mg-hess">그림 물질과 에너지 3-8 문제 15의 엔탈피 경로</title>
+  <desc id="d-matter-3-q-mg-hess">마그네슘이 염산과 반응한 뒤(실험 Ⅰ) 수소가 연소하는 경로와, 마그네슘이 먼저 산화 마그네슘이 된 뒤 염산과 반응하는(실험 Ⅱ) 경로는 출발과 도착이 같다. 그래서 MgO의 생성 엔탈피 = ΔH₁ − ΔH₂ + (−285.8) ≈ −595 kJ/mol이다. 층의 높이 차는 값에 비례하게 그렸다.</desc>
+  <style>
+    .matter-3-q-mg-hess-l{font-size:14px;fill:var(--fig-ink)} .matter-3-q-mg-hess-b{font-size:14px;font-weight:600;fill:var(--fig-ink)} .matter-3-q-mg-hess-s{font-size:13px;fill:var(--fig-muted)} .matter-3-q-mg-hess-ax{fill:none;stroke:var(--fig-muted);stroke-width:1.4} .matter-3-q-mg-hess-gr{fill:none;stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4} .matter-3-q-mg-hess-lv{fill:none;stroke:var(--fig-ink);stroke-width:3;stroke-linecap:round} .matter-3-q-mg-hess-dash{fill:none;stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:5 4}
+  </style>
+  <line x1="40" y1="400" x2="40" y2="28" class="matter-3-q-mg-hess-ax"/>
+  <path d="M40 20 l-5 10 l10 0 z" style="fill:var(--fig-muted)"/>
+  <text x="50" y="30" class="matter-3-q-mg-hess-s">엔탈피 H</text>
+  <line x1="70" y1="70" x2="700" y2="70" class="matter-3-q-mg-hess-lv"/>
+  <text x="70" y="58" class="matter-3-q-mg-hess-b">Mg(s) + 2HCl(aq) + ½O₂(g)</text>
+  <line x1="70" y1="255" x2="330" y2="255" class="matter-3-q-mg-hess-lv"/>
+  <text x="162" y="245" class="matter-3-q-mg-hess-b">MgCl₂(aq) + H₂(g) + ½O₂(g)</text>
+  <line x1="440" y1="309.4" x2="700" y2="309.4" class="matter-3-q-mg-hess-lv"/>
+  <text x="700" y="299.4" text-anchor="end" class="matter-3-q-mg-hess-b">MgO(s) + 2HCl(aq)</text>
+  <line x1="70" y1="370" x2="700" y2="370" class="matter-3-q-mg-hess-lv"/>
+  <text x="70" y="394" class="matter-3-q-mg-hess-b">MgCl₂(aq) + H₂O(l)</text>
+  <line x1="150" y1="73" x2="150" y2="242" style="stroke:var(--fig-blue);stroke-width:2.6"/>
+  <path d="M150 253 L144.5 242 L155.5 242 Z" style="fill:var(--fig-blue)"/>
+  <text x="162" y="150" class="matter-3-q-mg-hess-l" style="font-weight:700;fill:var(--fig-blue)">실험 Ⅰ</text>
+  <text x="162" y="169" class="matter-3-q-mg-hess-l">ΔH₁ ≈ −459.8 kJ</text>
+  <line x1="280" y1="258" x2="280" y2="357" style="stroke:var(--fig-blue);stroke-width:2.6"/>
+  <path d="M280 368 L274.5 357 L285.5 357 Z" style="fill:var(--fig-blue)"/>
+  <text x="292" y="307" class="matter-3-q-mg-hess-l" style="fill:var(--fig-blue)">문헌값 −285.8 kJ</text>
+  <line x1="480" y1="73" x2="480" y2="296.4" style="stroke:var(--fig-red);stroke-width:2.6"/>
+  <path d="M480 307.4 L474.5 296.4 L485.5 296.4 Z" style="fill:var(--fig-red)"/>
+  <text x="492" y="170" class="matter-3-q-mg-hess-l" style="font-weight:700;fill:var(--fig-red)">MgO의 생성 엔탈피</text>
+  <text x="492" y="189" class="matter-3-q-mg-hess-l">ΔH ≈ −595 kJ</text>
+  <line x1="600" y1="312.4" x2="600" y2="357" style="stroke:var(--fig-violet);stroke-width:2.6"/>
+  <path d="M600 368 L594.5 357 L605.5 357 Z" style="fill:var(--fig-violet)"/>
+  <text x="588" y="345.4" text-anchor="end" class="matter-3-q-mg-hess-l" style="fill:var(--fig-violet)">실험 Ⅱ  ΔH₂ ≈ −150.5 kJ</text>
+  <text x="360" y="432" text-anchor="middle" class="matter-3-q-mg-hess-s">두 경로의 출발 층과 도착 층이 같다: ΔH₁ + (−285.8) = ΔH + ΔH₂  (높이 차는 값에 비례)</text>
+</svg>
