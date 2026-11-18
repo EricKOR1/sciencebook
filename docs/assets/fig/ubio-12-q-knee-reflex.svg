@@ -5,8 +5,8 @@
   <style>.ubio-12-q-knee-reflex-t{font-size:14px;fill:var(--fig-ink)} .ubio-12-q-knee-reflex-s{font-size:13px;fill:var(--fig-muted)} .ubio-12-q-knee-reflex-b{font-size:15px;fill:var(--fig-ink);font-weight:700}</style>
   <ellipse cx="140" cy="120" rx="82" ry="62" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.8"/>
   <path d="M140 110 L128 106 L110 72 L98 76 L112 110 L90 130 L86 156 L108 166 L126 136 L140 132 L140 132 L154 136 L172 166 L194 156 L190 130 L168 110 L182 76 L170 72 L152 106 L140 110 L140 110" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.4;stroke-linejoin:round;stroke-linecap:round"/>
-  <text x="140" y="50" text-anchor="middle" class="ubio-12-q-knee-reflex-s">등쪽</text>
-  <text x="140" y="205" text-anchor="middle" class="ubio-12-q-knee-reflex-t">척수(가로 단면)</text>
+  <text x="140" y="52" text-anchor="middle" class="ubio-12-q-knee-reflex-s">등쪽</text>
+  <text x="140" y="30" text-anchor="middle" class="ubio-12-q-knee-reflex-t">척수(가로 단면)</text>
   <path d="M330 236 L598 236 Q634 238 636 268 L648 388 L600 388 L590 292 L330 290 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.8;stroke-linejoin:round;stroke-linecap:round"/>
   <text x="345" y="278" text-anchor="start" class="ubio-12-q-knee-reflex-s">넓적다리</text>
   <ellipse cx="470" cy="238" rx="122" ry="16" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6"/>
@@ -21,22 +21,22 @@
   <path d="M488 238 Q500 230 512 238 Q500 246 488 238 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.4;stroke-linejoin:round;stroke-linecap:round"/>
   <text x="526" y="214" text-anchor="start" class="ubio-12-q-knee-reflex-s" style="fill:var(--fig-blue)">근방추</text>
   <line x1="524" y1="218" x2="506" y2="236" style="stroke:var(--fig-blue);stroke-width:1;fill:none"/>
-  <path d="M500 238 C470 170, 360 82, 282 80 L240 78 C200 76, 186 88, 182 104 C178 118, 180 128, 182 136" style="fill:none;stroke:var(--fig-blue);stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round"/>
+  <path d="M500 238 C470 170, 360 82, 282 80 L240 78 C200 76, 186 88, 182 104 C178 118, 176 128, 176 136" style="fill:none;stroke:var(--fig-blue);stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round"/>
   <ellipse cx="268" cy="80" rx="18" ry="12" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.4"/>
   <circle cx="268" cy="71" r="6" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
   <line x1="268" y1="77" x2="268" y2="80" style="stroke:var(--fig-blue);stroke-width:2;fill:none"/>
   <text x="268" y="54" text-anchor="middle" class="ubio-12-q-knee-reflex-s">척수 신경절</text>
-  <circle cx="182" cy="138" r="3.5" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
-  <circle cx="194" cy="148" r="7" style="fill:var(--fig-red);stroke:var(--fig-red);stroke-width:1"/>
-  <path d="M201 150 C240 158, 262 168, 300 186 C340 206, 370 222, 402 232" style="fill:none;stroke:var(--fig-red);stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round"/>
+  <circle cx="176" cy="139" r="3.5" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <circle cx="184" cy="150" r="6.5" style="fill:var(--fig-red);stroke:var(--fig-red);stroke-width:1"/>
+  <path d="M190 151 C240 158, 262 168, 300 186 C340 206, 370 222, 402 232" style="fill:none;stroke:var(--fig-red);stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round"/>
   <path d="M396 233 L410 233" style="fill:none;stroke:var(--fig-red);stroke-width:4;stroke-linejoin:round;stroke-linecap:round"/>
   <line x1="420" y1="150" x2="405" y2="138" style="stroke:var(--fig-blue);stroke-width:2;fill:none" marker-end="url(#ubio-12-q-knee-reflex-a-blue)"/>
-  <line x1="300" y1="196" x2="316" y2="205" style="stroke:var(--fig-red);stroke-width:2;fill:none" marker-end="url(#ubio-12-q-knee-reflex-a-red)"/>
-  <text x="372" y="112" text-anchor="start" class="ubio-12-q-knee-reflex-t" style="fill:var(--fig-blue)">감각 뉴런</text>
-  <text x="372" y="130" text-anchor="start" class="ubio-12-q-knee-reflex-s" style="fill:var(--fig-blue)">경로 0.9 m</text>
-  <text x="236" y="214" text-anchor="start" class="ubio-12-q-knee-reflex-t" style="fill:var(--fig-red)">운동 뉴런</text>
-  <text x="236" y="232" text-anchor="start" class="ubio-12-q-knee-reflex-s" style="fill:var(--fig-red)">경로 0.9 m</text>
-  <line x1="182" y1="138" x2="120" y2="250" style="stroke:var(--fig-ink);stroke-width:1;fill:none"/>
+  <line x1="262" y1="172" x2="278" y2="180" style="stroke:var(--fig-red);stroke-width:2;fill:none" marker-end="url(#ubio-12-q-knee-reflex-a-red)"/>
+  <text x="468" y="140" text-anchor="start" class="ubio-12-q-knee-reflex-t" style="fill:var(--fig-blue)">감각 뉴런</text>
+  <text x="468" y="158" text-anchor="start" class="ubio-12-q-knee-reflex-s" style="fill:var(--fig-blue)">경로 0.9 m</text>
+  <text x="222" y="214" text-anchor="start" class="ubio-12-q-knee-reflex-t" style="fill:var(--fig-red)">운동 뉴런</text>
+  <text x="222" y="232" text-anchor="start" class="ubio-12-q-knee-reflex-s" style="fill:var(--fig-red)">경로 0.9 m</text>
+  <line x1="176" y1="139" x2="110" y2="250" style="stroke:var(--fig-ink);stroke-width:1;fill:none"/>
   <text x="20" y="266" text-anchor="start" class="ubio-12-q-knee-reflex-t">척수 안의 시냅스</text>
   <text x="20" y="284" text-anchor="start" class="ubio-12-q-knee-reflex-s">(지연 1.0 ms)</text>
   <line x1="404" y1="234" x2="380" y2="320" style="stroke:var(--fig-ink);stroke-width:1;fill:none"/>
