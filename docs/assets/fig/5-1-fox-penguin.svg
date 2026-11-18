@@ -16,8 +16,8 @@
     .fp-arrh{fill:var(--fig-muted)}
     .fp-sep{stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4}
     .fp-ground{stroke:var(--fig-line);stroke-width:2}
-    .fp-pg{fill:var(--fig-ink)}
-    .fp-belly{fill:var(--fig-panel)}
+    .fp-pg{fill:#1f2937;stroke:var(--fig-line);stroke-width:1.2}
+    .fp-belly{fill:#f8fafc}
     .fp-beak{fill:var(--fig-amber)}
   </style>
 <text x="16" y="26" class="fp-ttl">알렌 규칙 — 추운 곳일수록 귀(말단 부위)가 작다</text>
