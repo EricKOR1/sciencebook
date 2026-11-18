@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-5-4-q-hydro-vs-tidal d-5-4-q-hydro-vs-tidal">
+  <title id="t-5-4-q-hydro-vs-tidal">그림 5-4-7 문제 13 해설: 물을 높은 곳으로 올려놓는 것의 차이</title>
+  <desc id="d-5-4-q-hydro-vs-tidal">왼쪽 수력 발전에서는 태양 복사 에너지가 바닷물을 증발시키고, 수증기가 구름이 되어 산 위에 비로 내려 저수지에 물이 고인다. 오른쪽 조력 발전에서는 달(과 태양)의 인력으로 밀물 때 바닷물이 높아져 저수지(만)에 물이 들어오고, 썰물 때 높이 차로 물이 빠져나가며 수차를 돌린다. 모식도이다.</desc>
+  <style>.f5-4-q-hydro-vs-tidal-sea{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2} .f5-4-q-hydro-vs-tidal-land{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2} .f5-4-q-hydro-vs-tidal-dam{fill:var(--fig-muted);stroke:var(--fig-ink);stroke-width:1.2} .f5-4-q-hydro-vs-tidal-cloud{fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.3} .f5-4-q-hydro-vs-tidal-sun{fill:#ffc83d;stroke:var(--fig-ink);stroke-width:1} .f5-4-q-hydro-vs-tidal-moon{fill:#d9d9d9;stroke:var(--fig-ink);stroke-width:1} .f5-4-q-hydro-vs-tidal-ev{stroke:var(--fig-red);stroke-width:2;fill:none} .f5-4-q-hydro-vs-tidal-evh{fill:var(--fig-red)} .f5-4-q-hydro-vs-tidal-rn{stroke:var(--fig-blue);stroke-width:1.6} .f5-4-q-hydro-vs-tidal-fl{stroke:var(--fig-blue);stroke-width:2.4;fill:none} .f5-4-q-hydro-vs-tidal-flh{fill:var(--fig-blue)} .f5-4-q-hydro-vs-tidal-gv{stroke:var(--fig-violet);stroke-width:2;fill:none;stroke-dasharray:6 4} .f5-4-q-hydro-vs-tidal-gvh{fill:var(--fig-violet)} .f5-4-q-hydro-vs-tidal-tu{fill:var(--fig-paper);stroke:var(--fig-ink);stroke-width:1.4} .f5-4-q-hydro-vs-tidal-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .f5-4-q-hydro-vs-tidal-t{font-size:13px;fill:var(--fig-ink)} .f5-4-q-hydro-vs-tidal-k{font-size:14px;font-weight:700} .f5-4-q-hydro-vs-tidal-s{font-size:13px;fill:var(--fig-muted)}</style>
+  <text x="180" y="24" text-anchor="middle" class="f5-4-q-hydro-vs-tidal-h">(가) 수력 발전</text>
+  <path d="M20 290 H150 V300 H20 Z" class="f5-4-q-hydro-vs-tidal-sea"/>
+  <path d="M150 300 L150 290 L230 230 L280 150 L300 140 L330 200 L350 300 Z" class="f5-4-q-hydro-vs-tidal-land"/>
+  <path d="M282 152 Q300 175 322 188 L302 188 Z" class="f5-4-q-hydro-vs-tidal-sea"/>
+  <rect x="318" y="180" width="8" height="30" class="f5-4-q-hydro-vs-tidal-dam"/>
+  <path d="M326 205 Q336 240 340 280" class="f5-4-q-hydro-vs-tidal-fl"/><path d="M340 288 L344.1 277.6 L334.1 278.5 Z" class="f5-4-q-hydro-vs-tidal-flh"/>
+  <circle cx="340" cy="296" r="9" class="f5-4-q-hydro-vs-tidal-tu"/><text x="340" y="326" text-anchor="middle" class="f5-4-q-hydro-vs-tidal-s">발전기</text>
+  <circle cx="44" cy="62" r="18" class="f5-4-q-hydro-vs-tidal-sun"/>
+  <path d="M58 76 L84 220" class="f5-4-q-hydro-vs-tidal-ev" style="stroke:var(--fig-amber)"/><path d="M84 222 L87.1 211.3 L77.3 213.1 Z" class="f5-4-q-hydro-vs-tidal-evh" style="fill:var(--fig-amber)"/>
+  <path d="M90 282 q-6 -12 0 -24 q6 -12 0 -24 q-6 -12 0 -24" class="f5-4-q-hydro-vs-tidal-ev"/><path d="M90 200 L85.5 209 L94.5 209 Z" class="f5-4-q-hydro-vs-tidal-evh"/>
+  <path d="M115 282 q-6 -12 0 -24 q6 -12 0 -24 q-6 -12 0 -24" class="f5-4-q-hydro-vs-tidal-ev"/><path d="M115 200 L110.5 209 L119.5 209 Z" class="f5-4-q-hydro-vs-tidal-evh"/>
+  <path d="M140 282 q-6 -12 0 -24 q6 -12 0 -24 q-6 -12 0 -24" class="f5-4-q-hydro-vs-tidal-ev"/><path d="M140 200 L135.5 209 L144.5 209 Z" class="f5-4-q-hydro-vs-tidal-evh"/>
+  <text x="70" y="272" text-anchor="end" class="f5-4-q-hydro-vs-tidal-t">증발</text>
+  <path d="M180 108 a16 16 0 0 1 22 -22 a22 22 0 0 1 40 -6 a16 16 0 0 1 26 20 a12 12 0 0 1 -6 14 z" class="f5-4-q-hydro-vs-tidal-cloud"/>
+  <path d="M150 190 Q160 120 178 104" class="f5-4-q-hydro-vs-tidal-ev" style="stroke-dasharray:4 3"/><path d="M180 102 L170.5 105.2 L176.8 111.5 Z" class="f5-4-q-hydro-vs-tidal-evh"/>
+  <line x1="222" y1="118" x2="230" y2="138" class="f5-4-q-hydro-vs-tidal-rn"/>
+  <line x1="238" y1="118" x2="246" y2="138" class="f5-4-q-hydro-vs-tidal-rn"/>
+  <line x1="254" y1="118" x2="262" y2="138" class="f5-4-q-hydro-vs-tidal-rn"/>
+  <line x1="270" y1="118" x2="278" y2="138" class="f5-4-q-hydro-vs-tidal-rn"/>
+  <text x="290" y="100" class="f5-4-q-hydro-vs-tidal-t">비(높은 곳)</text>
+  <text x="20" y="352" class="f5-4-q-hydro-vs-tidal-k" style="fill:var(--fig-red)">물을 올리는 것: 태양 복사 에너지(증발)</text>
+  <line x1="370" y1="40" x2="370" y2="330" style="stroke:var(--fig-line);stroke-width:1.2"/>
+  <text x="545" y="24" text-anchor="middle" class="f5-4-q-hydro-vs-tidal-h">(나) 조력 발전</text>
+  <circle cx="640" cy="66" r="16" class="f5-4-q-hydro-vs-tidal-moon"/><text x="664" y="62" class="f5-4-q-hydro-vs-tidal-t">달</text>
+  <path d="M400 300 V200 H555 V300 Z" class="f5-4-q-hydro-vs-tidal-sea"/>
+  <path d="M400 300 V236 H555" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2;stroke-dasharray:5 4"/>
+  <text x="408" y="252" class="f5-4-q-hydro-vs-tidal-s">썰물 때 수위</text><text x="408" y="194" class="f5-4-q-hydro-vs-tidal-s">밀물 때 수위</text>
+  <rect x="555" y="170" width="16" height="130" class="f5-4-q-hydro-vs-tidal-dam"/>
+  <path d="M571 300 V214 H700 V300 Z" class="f5-4-q-hydro-vs-tidal-sea"/>
+  <circle cx="563" cy="282" r="9" class="f5-4-q-hydro-vs-tidal-tu"/>
+  <text x="636" y="244" text-anchor="middle" class="f5-4-q-hydro-vs-tidal-t">저수지(만)</text>
+  <text x="563" y="326" text-anchor="middle" class="f5-4-q-hydro-vs-tidal-s">방조제·수차</text>
+  <path d="M630 84 Q560 110 490 186" class="f5-4-q-hydro-vs-tidal-gv"/><path d="M486 190 L496.6 186.5 L489.5 179.4 Z" class="f5-4-q-hydro-vs-tidal-gvh"/>
+  <text x="540" y="104" text-anchor="end" class="f5-4-q-hydro-vs-tidal-t">인력</text>
+  <rect x="400" y="300" width="300" height="10" class="f5-4-q-hydro-vs-tidal-land"/><rect x="20" y="300" width="330" height="10" class="f5-4-q-hydro-vs-tidal-land"/>
+  <text x="390" y="352" class="f5-4-q-hydro-vs-tidal-k" style="fill:var(--fig-violet)">물을 올리는 것: 달(과 태양)의 인력(밀물)</text>
+</svg>

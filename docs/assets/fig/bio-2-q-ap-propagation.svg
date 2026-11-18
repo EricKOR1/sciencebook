@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 310" role="img" aria-labelledby="t-bio-2-q-ap-propagation d-bio-2-q-ap-propagation">
+  <title id="t-bio-2-q-ap-propagation">그림 생명과학 2-10 예제 2의 막전위 변화와 측정 지점</title>
+  <desc id="d-bio-2-q-ap-propagation">(가) 활동 전위가 시작된 뒤 한 지점의 막전위가 0, 1, 2, 3 ms에 −70, +30, −80, −70 mV로 변하는 그래프. (나) 뉴런의 한 끝 X를 자극하고, X에서 2 cm, 4 cm, 6 cm 떨어진 지점의 막전위를 묻는다.</desc>
+  <style>.bio-2-q-ap-propagation-t{font-size:14px;fill:var(--fig-ink)} .bio-2-q-ap-propagation-s{font-size:13px;fill:var(--fig-muted)} .bio-2-q-ap-propagation-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .bio-2-q-ap-propagation-ax{stroke:var(--fig-ink);stroke-width:1.4;fill:none} .bio-2-q-ap-propagation-grid{stroke:var(--fig-line);stroke-width:0.7;stroke-dasharray:3 3;fill:none}</style>
+  <line x1="80.0" y1="224.6" x2="350.0" y2="224.6" class="bio-2-q-ap-propagation-grid"/>
+  <line x1="80.0" y1="209.2" x2="350.0" y2="209.2" class="bio-2-q-ap-propagation-grid"/>
+  <line x1="80.0" y1="163.1" x2="350.0" y2="163.1" class="bio-2-q-ap-propagation-grid"/>
+  <line x1="80.0" y1="101.5" x2="350.0" y2="101.5" class="bio-2-q-ap-propagation-grid"/>
+  <line x1="80.0" y1="55.4" x2="350.0" y2="55.4" class="bio-2-q-ap-propagation-grid"/>
+  <line x1="159.4" y1="40.0" x2="159.4" y2="240.0" class="bio-2-q-ap-propagation-grid"/>
+  <line x1="238.8" y1="40.0" x2="238.8" y2="240.0" class="bio-2-q-ap-propagation-grid"/>
+  <line x1="318.2" y1="40.0" x2="318.2" y2="240.0" class="bio-2-q-ap-propagation-grid"/>
+  <path d="M80.0 32.0 L80.0 240.0 L360.0 240.0" class="bio-2-q-ap-propagation-ax"/>
+  <path d="M366.0 240.0 L358.0 243.6 L358.0 236.4 Z" style="fill:var(--fig-ink)"/>
+  <path d="M80.0 26.0 L83.6 34.0 L76.4 34.0 Z" style="fill:var(--fig-ink)"/>
+  <line x1="80.0" y1="240.0" x2="80.0" y2="245.0" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <text x="80.0" y="260.0" text-anchor="middle" class="bio-2-q-ap-propagation-s">0</text>
+  <line x1="159.4" y1="240.0" x2="159.4" y2="245.0" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <text x="159.4" y="260.0" text-anchor="middle" class="bio-2-q-ap-propagation-s">1</text>
+  <line x1="238.8" y1="240.0" x2="238.8" y2="245.0" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <text x="238.8" y="260.0" text-anchor="middle" class="bio-2-q-ap-propagation-s">2</text>
+  <line x1="318.2" y1="240.0" x2="318.2" y2="245.0" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <text x="318.2" y="260.0" text-anchor="middle" class="bio-2-q-ap-propagation-s">3</text>
+  <line x1="75.0" y1="224.6" x2="80.0" y2="224.6" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <text x="71.0" y="229.1" text-anchor="end" class="bio-2-q-ap-propagation-s">−80</text>
+  <line x1="75.0" y1="209.2" x2="80.0" y2="209.2" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <text x="71.0" y="213.7" text-anchor="end" class="bio-2-q-ap-propagation-s">−70</text>
+  <line x1="75.0" y1="163.1" x2="80.0" y2="163.1" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <text x="71.0" y="167.6" text-anchor="end" class="bio-2-q-ap-propagation-s">−40</text>
+  <line x1="75.0" y1="101.5" x2="80.0" y2="101.5" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <text x="71.0" y="106.0" text-anchor="end" class="bio-2-q-ap-propagation-s">0</text>
+  <line x1="75.0" y1="55.4" x2="80.0" y2="55.4" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <text x="71.0" y="59.9" text-anchor="end" class="bio-2-q-ap-propagation-s">+30</text>
+  <text x="215.0" y="280.0" text-anchor="middle" class="bio-2-q-ap-propagation-s">활동 전위 시작 후 시간 (ms)</text>
+  <text x="90.0" y="32.0" text-anchor="start" class="bio-2-q-ap-propagation-s">막전위 (mV)</text>
+  <path d="M80.0 209.2 L82.0 205.3 L84.0 201.2 L86.0 196.9 L87.9 192.5 L89.9 187.9 L91.9 183.2 L93.9 178.4 L95.9 173.5 L97.9 168.6 L99.9 163.6 L101.8 158.5 L103.8 153.4 L105.8 148.3 L107.8 143.1 L109.8 138.0 L111.8 132.9 L113.8 127.9 L115.7 122.9 L117.7 117.9 L119.7 113.1 L121.7 108.3 L123.7 103.7 L125.7 99.2 L127.6 94.8 L129.6 90.5 L131.6 86.5 L133.6 82.6 L135.6 78.9 L137.6 75.5 L139.6 72.2 L141.5 69.2 L143.5 66.5 L145.5 64.0 L147.5 61.8 L149.5 59.9 L151.5 58.3 L153.5 57.1 L155.4 56.1 L157.4 55.6 L159.4 55.4 L161.4 55.7 L163.4 56.6 L165.4 58.1 L167.4 60.1 L169.3 62.7 L171.3 65.7 L173.3 69.1 L175.3 73.0 L177.3 77.2 L179.3 81.8 L181.2 86.7 L183.2 91.9 L185.2 97.4 L187.2 103.1 L189.2 108.9 L191.2 115.0 L193.2 121.1 L195.1 127.3 L197.1 133.7 L199.1 140.0 L201.1 146.3 L203.1 152.7 L205.1 158.9 L207.1 165.0 L209.0 171.1 L211.0 176.9 L213.0 182.6 L215.0 188.1 L217.0 193.3 L219.0 198.2 L221.0 202.8 L222.9 207.0 L224.9 210.9 L226.9 214.3 L228.9 217.3 L230.9 219.9 L232.9 221.9 L234.9 223.4 L236.8 224.3 L238.8 224.6 L240.8 224.6 L242.8 224.5 L244.8 224.4 L246.8 224.3 L248.8 224.2 L250.7 224.0 L252.7 223.8 L254.7 223.5 L256.7 223.2 L258.7 222.9 L260.7 222.6 L262.6 222.3 L264.6 221.9 L266.6 221.5 L268.6 221.1 L270.6 220.7 L272.6 220.2 L274.6 219.8 L276.5 219.3 L278.5 218.8 L280.5 218.4 L282.5 217.9 L284.5 217.4 L286.5 216.9 L288.5 216.4 L290.4 215.8 L292.4 215.3 L294.4 214.8 L296.4 214.3 L298.4 213.8 L300.4 213.3 L302.4 212.8 L304.3 212.3 L306.3 211.8 L308.3 211.4 L310.3 210.9 L312.3 210.5 L314.3 210.0 L316.2 209.6 L318.2 209.2 L342.1 209.2" style="fill:none;stroke:var(--fig-red);stroke-width:2.2"/>
+  <circle cx="80.0" cy="209.2" r="4" style="fill:var(--fig-red);stroke:var(--fig-paper);stroke-width:1"/>
+  <circle cx="159.4" cy="55.4" r="4" style="fill:var(--fig-red);stroke:var(--fig-paper);stroke-width:1"/>
+  <circle cx="238.8" cy="224.6" r="4" style="fill:var(--fig-red);stroke:var(--fig-paper);stroke-width:1"/>
+  <circle cx="318.2" cy="209.2" r="4" style="fill:var(--fig-red);stroke:var(--fig-paper);stroke-width:1"/>
+  <text x="215.0" y="296.0" text-anchor="middle" class="bio-2-q-ap-propagation-t">(가) 한 지점의 막전위 변화</text>
+  <rect x="410" y="161" width="290" height="18" rx="9" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <path d="M424 126 L435 126 L430 140 L438 140 L427 158 L430 145 L422 145 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5;stroke-linejoin:round"/>
+  <text x="430.0" y="120.0" text-anchor="middle" class="bio-2-q-ap-propagation-h">X(자극)</text>
+  <line x1="510.0" y1="130.0" x2="510.0" y2="151.0" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+  <path d="M510 158 L505 149 L515 149 Z" style="fill:var(--fig-ink)"/>
+  <text x="510.0" y="124.0" text-anchor="middle" class="bio-2-q-ap-propagation-h">2 cm</text>
+  <line x1="590.0" y1="130.0" x2="590.0" y2="151.0" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+  <path d="M590 158 L585 149 L595 149 Z" style="fill:var(--fig-ink)"/>
+  <text x="590.0" y="124.0" text-anchor="middle" class="bio-2-q-ap-propagation-h">4 cm</text>
+  <line x1="670.0" y1="130.0" x2="670.0" y2="151.0" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+  <path d="M670 158 L665 149 L675 149 Z" style="fill:var(--fig-ink)"/>
+  <text x="670.0" y="124.0" text-anchor="middle" class="bio-2-q-ap-propagation-h">6 cm</text>
+  <line x1="430.0" y1="200.0" x2="510.0" y2="200.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <line x1="430.0" y1="195.0" x2="430.0" y2="205.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <line x1="510.0" y1="195.0" x2="510.0" y2="205.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="470.0" y="194.0" text-anchor="middle" class="bio-2-q-ap-propagation-s">2 cm</text>
+  <line x1="430.0" y1="226.0" x2="590.0" y2="226.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <line x1="430.0" y1="221.0" x2="430.0" y2="231.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <line x1="590.0" y1="221.0" x2="590.0" y2="231.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="510.0" y="220.0" text-anchor="middle" class="bio-2-q-ap-propagation-s">4 cm</text>
+  <line x1="430.0" y1="252.0" x2="670.0" y2="252.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <line x1="430.0" y1="247.0" x2="430.0" y2="257.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <line x1="670.0" y1="247.0" x2="670.0" y2="257.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="550.0" y="246.0" text-anchor="middle" class="bio-2-q-ap-propagation-s">6 cm</text>
+  <text x="555.0" y="296.0" text-anchor="middle" class="bio-2-q-ap-propagation-t">(나) 자극 지점 X와 세 지점</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-5-3-q-energy-budget-blanks d-5-3-q-energy-budget-blanks">
+  <title id="t-5-3-q-energy-budget-blanks">그림 5-3-6 문제 5의 지구 열수지</title>
+  <desc id="d-5-3-q-energy-budget-blanks">지구에 들어오는 태양 복사를 100으로 둔 지구 열수지이다. 반사 30, 대기 흡수 23, 지표 복사 116, 그중 대기를 그대로 통과하는 12, 증발 23, 전도·대류 5는 주어진 값이고, (가)~(다)는 구할 값이다. 화살표 굵기는 크기와 무관하다.</desc>
+  <style>.f5-3-q-energy-budget-blanks-space{fill:var(--fig-paper)} .f5-3-q-energy-budget-blanks-atm{fill:var(--fig-soft-blue)} .f5-3-q-energy-budget-blanks-gr{fill:var(--fig-soft-green)} .f5-3-q-energy-budget-blanks-sun{fill:var(--fig-amber);stroke:var(--fig-ink);stroke-width:1} .f5-3-q-energy-budget-blanks-sw{stroke:var(--fig-amber);stroke-width:4;fill:none} .f5-3-q-energy-budget-blanks-swh{fill:var(--fig-amber)} .f5-3-q-energy-budget-blanks-lw{stroke:var(--fig-red);stroke-width:4;fill:none} .f5-3-q-energy-budget-blanks-lwh{fill:var(--fig-red)} .f5-3-q-energy-budget-blanks-ht{stroke:var(--fig-teal);stroke-width:4;fill:none} .f5-3-q-energy-budget-blanks-hth{fill:var(--fig-teal)} .f5-3-q-energy-budget-blanks-band{font-size:15px;font-weight:700;fill:var(--fig-ink)} .f5-3-q-energy-budget-blanks-l{font-size:14px;font-weight:600;fill:var(--fig-ink)} .f5-3-q-energy-budget-blanks-q{font-size:15px;font-weight:700;fill:var(--fig-violet)} .f5-3-q-energy-budget-blanks-s{font-size:13px;fill:var(--fig-muted)} .f5-3-q-energy-budget-blanks-qb{fill:var(--fig-paper);stroke:var(--fig-violet);stroke-width:1.6}</style>
+  <rect x="0" y="0" width="720" height="96" class="f5-3-q-energy-budget-blanks-space"/>
+  <rect x="0" y="104" width="720" height="150" class="f5-3-q-energy-budget-blanks-atm"/>
+  <rect x="0" y="330" width="720" height="40" class="f5-3-q-energy-budget-blanks-gr"/>
+  <text x="12" y="24" class="f5-3-q-energy-budget-blanks-band">우주</text><text x="12" y="128" class="f5-3-q-energy-budget-blanks-band">대기</text><text x="12" y="356" class="f5-3-q-energy-budget-blanks-band">지표</text>
+  <circle cx="90" cy="32" r="16" class="f5-3-q-energy-budget-blanks-sun"/>
+  <line x1="90" y1="50" x2="90" y2="318" class="f5-3-q-energy-budget-blanks-sw"/>
+  <path d="M90 330 L96.5 317 L83.5 317 Z" class="f5-3-q-energy-budget-blanks-swh"/>
+  <text x="114" y="56" class="f5-3-q-energy-budget-blanks-l" style="fill:var(--fig-amber)">태양 복사 100</text>
+  <path d="M92 150 Q190 150 190 112 V44" class="f5-3-q-energy-budget-blanks-sw"/>
+  <path d="M190 32 L183.5 45 L196.5 45 Z" class="f5-3-q-energy-budget-blanks-swh"/>
+  <text x="200" y="84" class="f5-3-q-energy-budget-blanks-l">반사 30</text>
+  <path d="M92 200 Q130 200 150 214" class="f5-3-q-energy-budget-blanks-sw"/>
+  <path d="M162 222 L154.9 209.3 L147.6 220 Z" class="f5-3-q-energy-budget-blanks-swh"/>
+  <text x="170" y="228" class="f5-3-q-energy-budget-blanks-l">대기 흡수 23</text>
+  <rect x="104" y="290" width="104" height="28" rx="6" class="f5-3-q-energy-budget-blanks-qb"/><text x="156" y="309" text-anchor="middle" class="f5-3-q-energy-budget-blanks-q">흡수 (가)</text>
+  <line x1="330" y1="328" x2="330" y2="180" class="f5-3-q-energy-budget-blanks-lw"/>
+  <path d="M330 168 L323.5 181 L336.5 181 Z" class="f5-3-q-energy-budget-blanks-lwh"/>
+  <path d="M330 236 Q366 236 366 200 V44" class="f5-3-q-energy-budget-blanks-lw"/>
+  <path d="M366 32 L359.5 45 L372.5 45 Z" class="f5-3-q-energy-budget-blanks-lwh"/>
+  <text x="320" y="300" text-anchor="end" class="f5-3-q-energy-budget-blanks-l">지표 복사 116</text>
+  <text x="376" y="84" class="f5-3-q-energy-budget-blanks-l">대기 통과 12</text>
+  <line x1="430" y1="328" x2="430" y2="190" class="f5-3-q-energy-budget-blanks-ht"/>
+  <path d="M430 180 L423.5 193 L436.5 193 Z" class="f5-3-q-energy-budget-blanks-hth"/>
+  <line x1="454" y1="328" x2="454" y2="190" class="f5-3-q-energy-budget-blanks-ht"/>
+  <path d="M454 180 L447.5 193 L460.5 193 Z" class="f5-3-q-energy-budget-blanks-hth"/>
+  <text x="466" y="280" class="f5-3-q-energy-budget-blanks-l" style="fill:var(--fig-teal)">증발 23</text>
+  <text x="466" y="302" class="f5-3-q-energy-budget-blanks-l" style="fill:var(--fig-teal)">전도·대류 5</text>
+  <line x1="600" y1="180" x2="600" y2="320" class="f5-3-q-energy-budget-blanks-lw"/>
+  <path d="M600 330 L606.5 317 L593.5 317 Z" class="f5-3-q-energy-budget-blanks-lwh"/>
+  <rect x="606" y="262" width="104" height="28" rx="6" class="f5-3-q-energy-budget-blanks-qb"/><text x="658" y="281" text-anchor="middle" class="f5-3-q-energy-budget-blanks-q">역복사 (나)</text>
+  <line x1="640" y1="180" x2="640" y2="42" class="f5-3-q-energy-budget-blanks-lw"/>
+  <path d="M640 32 L633.5 45 L646.5 45 Z" class="f5-3-q-energy-budget-blanks-lwh"/>
+  <rect x="508" y="66" width="122" height="28" rx="6" class="f5-3-q-energy-budget-blanks-qb"/><text x="569" y="85" text-anchor="middle" class="f5-3-q-energy-budget-blanks-q">우주로 (다)</text>
+  <text x="12" y="392" class="f5-3-q-energy-budget-blanks-s">태양 복사 100 기준. 화살표 굵기는 크기와 무관하다.</text>
+</svg>
