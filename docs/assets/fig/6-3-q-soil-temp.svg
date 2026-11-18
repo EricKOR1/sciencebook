@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-6-3-q-soil-temp d-6-3-q-soil-temp">
+  <title id="t-6-3-q-soil-temp">그림 6-3-5 문제 10의 자료 — 토양 수분과 기온</title>
+  <desc id="d-6-3-q-soil-temp">표의 8개 자료를 가로축 토양 수분(%), 세로축 기온(°C)인 평면에 나타냈다. 채운 원은 물을 줘야 하는 경우(예), 빈 네모는 주지 않아도 되는 경우(아니요)이다.</desc>
+  <style>
+    .f6-3-q-soil-h{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .f6-3-q-soil-t{font-size:13px;fill:var(--fig-ink)}
+    .f6-3-q-soil-s{font-size:13px;fill:var(--fig-muted)}
+    .f6-3-q-soil-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.5}
+    .f6-3-q-soil-gr{fill:none;stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4}
+  </style>
+  <line x1="90.0" y1="300.0" x2="90.0" y2="60.0" class="f6-3-q-soil-gr" style=""/>
+  <text x="90.0" y="320.0" text-anchor="middle" class="f6-3-q-soil-s">15</text>
+  <line x1="157.1" y1="300.0" x2="157.1" y2="60.0" class="f6-3-q-soil-gr" style=""/>
+  <text x="157.1" y="320.0" text-anchor="middle" class="f6-3-q-soil-s">20</text>
+  <line x1="224.3" y1="300.0" x2="224.3" y2="60.0" class="f6-3-q-soil-gr" style=""/>
+  <text x="224.3" y="320.0" text-anchor="middle" class="f6-3-q-soil-s">25</text>
+  <line x1="291.4" y1="300.0" x2="291.4" y2="60.0" class="f6-3-q-soil-gr" style=""/>
+  <text x="291.4" y="320.0" text-anchor="middle" class="f6-3-q-soil-s">30</text>
+  <line x1="358.6" y1="300.0" x2="358.6" y2="60.0" class="f6-3-q-soil-gr" style=""/>
+  <text x="358.6" y="320.0" text-anchor="middle" class="f6-3-q-soil-s">35</text>
+  <line x1="425.7" y1="300.0" x2="425.7" y2="60.0" class="f6-3-q-soil-gr" style=""/>
+  <text x="425.7" y="320.0" text-anchor="middle" class="f6-3-q-soil-s">40</text>
+  <line x1="492.9" y1="300.0" x2="492.9" y2="60.0" class="f6-3-q-soil-gr" style=""/>
+  <text x="492.9" y="320.0" text-anchor="middle" class="f6-3-q-soil-s">45</text>
+  <line x1="560.0" y1="300.0" x2="560.0" y2="60.0" class="f6-3-q-soil-gr" style=""/>
+  <text x="560.0" y="320.0" text-anchor="middle" class="f6-3-q-soil-s">50</text>
+  <line x1="90.0" y1="300.0" x2="560.0" y2="300.0" class="f6-3-q-soil-gr" style=""/>
+  <text x="82.0" y="304.5" text-anchor="end" class="f6-3-q-soil-s">10</text>
+  <line x1="90.0" y1="252.0" x2="560.0" y2="252.0" class="f6-3-q-soil-gr" style=""/>
+  <text x="82.0" y="256.5" text-anchor="end" class="f6-3-q-soil-s">15</text>
+  <line x1="90.0" y1="204.0" x2="560.0" y2="204.0" class="f6-3-q-soil-gr" style=""/>
+  <text x="82.0" y="208.5" text-anchor="end" class="f6-3-q-soil-s">20</text>
+  <line x1="90.0" y1="156.0" x2="560.0" y2="156.0" class="f6-3-q-soil-gr" style=""/>
+  <text x="82.0" y="160.5" text-anchor="end" class="f6-3-q-soil-s">25</text>
+  <line x1="90.0" y1="108.0" x2="560.0" y2="108.0" class="f6-3-q-soil-gr" style=""/>
+  <text x="82.0" y="112.5" text-anchor="end" class="f6-3-q-soil-s">30</text>
+  <line x1="90.0" y1="60.0" x2="560.0" y2="60.0" class="f6-3-q-soil-gr" style=""/>
+  <text x="82.0" y="64.5" text-anchor="end" class="f6-3-q-soil-s">35</text>
+  <line x1="90.0" y1="300.0" x2="568.0" y2="300.0" class="f6-3-q-soil-ax" style=""/>
+  <line x1="90.0" y1="300.0" x2="90.0" y2="52.0" class="f6-3-q-soil-ax" style=""/>
+  <text x="325.0" y="342.0" text-anchor="middle" class="f6-3-q-soil-s">토양 수분(%)</text>
+  <text x="0" y="0" transform="translate(44 180.0) rotate(-90)" text-anchor="middle" class="f6-3-q-soil-s">기온(°C)</text>
+  <circle cx="224.3" cy="252.0" r="7" style="fill:var(--fig-blue);stroke:var(--fig-paper);stroke-width:1.2"/>
+  <rect x="352.1" y="245.5" width="13" height="13" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2.4"/>
+  <circle cx="264.6" cy="204.0" r="7" style="fill:var(--fig-blue);stroke:var(--fig-paper);stroke-width:1.2"/>
+  <circle cx="318.3" cy="108.0" r="7" style="fill:var(--fig-blue);stroke:var(--fig-paper);stroke-width:1.2"/>
+  <circle cx="398.9" cy="108.0" r="7" style="fill:var(--fig-blue);stroke:var(--fig-paper);stroke-width:1.2"/>
+  <rect x="486.4" y="101.5" width="13" height="13" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2.4"/>
+  <rect x="419.2" y="245.5" width="13" height="13" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2.4"/>
+  <circle cx="184.0" cy="156.0" r="7" style="fill:var(--fig-blue);stroke:var(--fig-paper);stroke-width:1.2"/>
+  <circle cx="590.0" cy="120.0" r="7" style="fill:var(--fig-blue);stroke:var(--fig-paper);stroke-width:1.2"/>
+  <text x="604.0" y="124.5" text-anchor="start" class="f6-3-q-soil-t">물 줘야 함: 예</text>
+  <rect x="583.5" y="141.5" width="13" height="13" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2.4"/>
+  <text x="604.0" y="152.5" text-anchor="start" class="f6-3-q-soil-t">물 줘야 함: 아니요</text>
+</svg>

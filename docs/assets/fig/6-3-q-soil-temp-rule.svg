@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-6-3-q-soil-temp-rule d-6-3-q-soil-temp-rule">
+  <title id="t-6-3-q-soil-temp-rule">그림 6-3-6 문제 10 해설 — 입력을 하나 더하면 달라지는 경계</title>
+  <desc id="d-6-3-q-soil-temp-rule">점선은 토양 수분만 보는 경계(30%)로, 기온 30 °C에서 수분 32%와 38%인 두 자료(동그라미 표시)를 잘못 나눈다. 실선은 기온 25 °C 이상에서는 40%, 25 °C 미만에서는 30%를 경계로 삼은 규칙으로, 실선 왼쪽(색칠한 쪽)이 물을 주는 영역이며 8개 자료를 모두 바르게 나눈다.</desc>
+  <style>
+    .f6-3-q-soilr-h{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .f6-3-q-soilr-t{font-size:13px;fill:var(--fig-ink)}
+    .f6-3-q-soilr-s{font-size:13px;fill:var(--fig-muted)}
+    .f6-3-q-soilr-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.5}
+    .f6-3-q-soilr-gr{fill:none;stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4}
+  </style>
+  <polygon points="90.0,300.0 291.4,300.0 291.4,156.0 425.7,156.0 425.7,60.0 90.0,60.0" style="fill:var(--fig-soft-blue);fill-opacity:0.6"/>
+  <line x1="90.0" y1="300.0" x2="90.0" y2="60.0" class="f6-3-q-soilr-gr" style=""/>
+  <text x="90.0" y="320.0" text-anchor="middle" class="f6-3-q-soilr-s">15</text>
+  <line x1="157.1" y1="300.0" x2="157.1" y2="60.0" class="f6-3-q-soilr-gr" style=""/>
+  <text x="157.1" y="320.0" text-anchor="middle" class="f6-3-q-soilr-s">20</text>
+  <line x1="224.3" y1="300.0" x2="224.3" y2="60.0" class="f6-3-q-soilr-gr" style=""/>
+  <text x="224.3" y="320.0" text-anchor="middle" class="f6-3-q-soilr-s">25</text>
+  <line x1="291.4" y1="300.0" x2="291.4" y2="60.0" class="f6-3-q-soilr-gr" style=""/>
+  <text x="291.4" y="320.0" text-anchor="middle" class="f6-3-q-soilr-s">30</text>
+  <line x1="358.6" y1="300.0" x2="358.6" y2="60.0" class="f6-3-q-soilr-gr" style=""/>
+  <text x="358.6" y="320.0" text-anchor="middle" class="f6-3-q-soilr-s">35</text>
+  <line x1="425.7" y1="300.0" x2="425.7" y2="60.0" class="f6-3-q-soilr-gr" style=""/>
+  <text x="425.7" y="320.0" text-anchor="middle" class="f6-3-q-soilr-s">40</text>
+  <line x1="492.9" y1="300.0" x2="492.9" y2="60.0" class="f6-3-q-soilr-gr" style=""/>
+  <text x="492.9" y="320.0" text-anchor="middle" class="f6-3-q-soilr-s">45</text>
+  <line x1="560.0" y1="300.0" x2="560.0" y2="60.0" class="f6-3-q-soilr-gr" style=""/>
+  <text x="560.0" y="320.0" text-anchor="middle" class="f6-3-q-soilr-s">50</text>
+  <line x1="90.0" y1="300.0" x2="560.0" y2="300.0" class="f6-3-q-soilr-gr" style=""/>
+  <text x="82.0" y="304.5" text-anchor="end" class="f6-3-q-soilr-s">10</text>
+  <line x1="90.0" y1="252.0" x2="560.0" y2="252.0" class="f6-3-q-soilr-gr" style=""/>
+  <text x="82.0" y="256.5" text-anchor="end" class="f6-3-q-soilr-s">15</text>
+  <line x1="90.0" y1="204.0" x2="560.0" y2="204.0" class="f6-3-q-soilr-gr" style=""/>
+  <text x="82.0" y="208.5" text-anchor="end" class="f6-3-q-soilr-s">20</text>
+  <line x1="90.0" y1="156.0" x2="560.0" y2="156.0" class="f6-3-q-soilr-gr" style=""/>
+  <text x="82.0" y="160.5" text-anchor="end" class="f6-3-q-soilr-s">25</text>
+  <line x1="90.0" y1="108.0" x2="560.0" y2="108.0" class="f6-3-q-soilr-gr" style=""/>
+  <text x="82.0" y="112.5" text-anchor="end" class="f6-3-q-soilr-s">30</text>
+  <line x1="90.0" y1="60.0" x2="560.0" y2="60.0" class="f6-3-q-soilr-gr" style=""/>
+  <text x="82.0" y="64.5" text-anchor="end" class="f6-3-q-soilr-s">35</text>
+  <line x1="90.0" y1="300.0" x2="568.0" y2="300.0" class="f6-3-q-soilr-ax" style=""/>
+  <line x1="90.0" y1="300.0" x2="90.0" y2="52.0" class="f6-3-q-soilr-ax" style=""/>
+  <text x="325.0" y="342.0" text-anchor="middle" class="f6-3-q-soilr-s">토양 수분(%)</text>
+  <text x="0" y="0" transform="translate(44 180.0) rotate(-90)" text-anchor="middle" class="f6-3-q-soilr-s">기온(°C)</text>
+  <line x1="291.4" y1="300.0" x2="291.4" y2="60.0" style="stroke:var(--fig-muted);stroke-width:2;stroke-dasharray:6 5"/>
+  <polyline points="291.4,300.0 291.4,156.0 425.7,156.0 425.7,60.0" style="fill:none;stroke:var(--fig-green);stroke-width:3"/>
+  <circle cx="224.3" cy="252.0" r="7" style="fill:var(--fig-blue);stroke:var(--fig-paper);stroke-width:1.2"/>
+  <rect x="352.1" y="245.5" width="13" height="13" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2.4"/>
+  <circle cx="264.6" cy="204.0" r="7" style="fill:var(--fig-blue);stroke:var(--fig-paper);stroke-width:1.2"/>
+  <circle cx="318.3" cy="108.0" r="7" style="fill:var(--fig-blue);stroke:var(--fig-paper);stroke-width:1.2"/>
+  <circle cx="398.9" cy="108.0" r="7" style="fill:var(--fig-blue);stroke:var(--fig-paper);stroke-width:1.2"/>
+  <rect x="486.4" y="101.5" width="13" height="13" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2.4"/>
+  <rect x="419.2" y="245.5" width="13" height="13" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2.4"/>
+  <circle cx="184.0" cy="156.0" r="7" style="fill:var(--fig-blue);stroke:var(--fig-paper);stroke-width:1.2"/>
+  <circle cx="318.3" cy="108.0" r="13" style="fill:none;stroke:var(--fig-amber);stroke-width:2.2"/>
+  <circle cx="398.9" cy="108.0" r="13" style="fill:none;stroke:var(--fig-amber);stroke-width:2.2"/>
+  <text x="291.4" y="50.0" text-anchor="middle" class="f6-3-q-soilr-s">30% (수분만 보는 경계)</text>
+  <circle cx="590.0" cy="90.0" r="7" style="fill:var(--fig-blue);stroke:var(--fig-paper);stroke-width:1.2"/>
+  <text x="604.0" y="94.5" text-anchor="start" class="f6-3-q-soilr-t">물 줘야 함: 예</text>
+  <rect x="583.5" y="111.5" width="13" height="13" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2.4"/>
+  <text x="604.0" y="122.5" text-anchor="start" class="f6-3-q-soilr-t">물 줘야 함: 아니요</text>
+  <line x1="586.0" y1="166.0" x2="614.0" y2="166.0" style="stroke:var(--fig-green);stroke-width:3"/>
+  <text x="620.0" y="170.5" text-anchor="start" class="f6-3-q-soilr-t">새 경계</text>
+  <line x1="586.0" y1="194.0" x2="614.0" y2="194.0" style="stroke:var(--fig-muted);stroke-width:2;stroke-dasharray:6 5"/>
+  <text x="620.0" y="198.5" text-anchor="start" class="f6-3-q-soilr-t">30% 경계</text>
+  <circle cx="600" cy="222" r="10" style="fill:none;stroke:var(--fig-amber);stroke-width:2.2"/>
+  <text x="620.0" y="226.5" text-anchor="start" class="f6-3-q-soilr-t">30% 경계로는</text>
+  <text x="620.0" y="244.5" text-anchor="start" class="f6-3-q-soilr-t">틀리는 자료</text>
+  <text x="588.0" y="278.0" text-anchor="start" class="f6-3-q-soilr-s">색칠한 쪽: 물을 준다</text>
+</svg>

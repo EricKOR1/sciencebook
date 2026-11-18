@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-6-3-q-greenhouse-10min d-6-3-q-greenhouse-10min">
+  <title id="t-6-3-q-greenhouse-10min">그림 6-3-7 문제 11의 실내 온도 기록</title>
+  <desc id="d-6-3-q-greenhouse-10min">12시부터 10분 간격으로 기록한 비닐하우스의 실내 온도를 점과 선으로 나타냈다. 가로 점선은 28 °C와 24 °C이고, 점 옆의 수는 기록된 온도이다.</desc>
+  <style>
+    .f6-3-q-gh-h{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .f6-3-q-gh-t{font-size:13px;fill:var(--fig-ink)}
+    .f6-3-q-gh-s{font-size:13px;fill:var(--fig-muted)}
+    .f6-3-q-gh-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.5}
+    .f6-3-q-gh-gr{fill:none;stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4}
+  </style>
+  <line x1="80.0" y1="290.0" x2="640.0" y2="290.0" class="f6-3-q-gh-gr" style=""/>
+  <text x="72.0" y="294.5" text-anchor="end" class="f6-3-q-gh-s">23</text>
+  <line x1="80.0" y1="250.0" x2="640.0" y2="250.0" class="f6-3-q-gh-gr" style=""/>
+  <text x="72.0" y="254.5" text-anchor="end" class="f6-3-q-gh-s">24</text>
+  <line x1="80.0" y1="210.0" x2="640.0" y2="210.0" class="f6-3-q-gh-gr" style=""/>
+  <text x="72.0" y="214.5" text-anchor="end" class="f6-3-q-gh-s">25</text>
+  <line x1="80.0" y1="170.0" x2="640.0" y2="170.0" class="f6-3-q-gh-gr" style=""/>
+  <text x="72.0" y="174.5" text-anchor="end" class="f6-3-q-gh-s">26</text>
+  <line x1="80.0" y1="130.0" x2="640.0" y2="130.0" class="f6-3-q-gh-gr" style=""/>
+  <text x="72.0" y="134.5" text-anchor="end" class="f6-3-q-gh-s">27</text>
+  <line x1="80.0" y1="90.0" x2="640.0" y2="90.0" class="f6-3-q-gh-gr" style=""/>
+  <text x="72.0" y="94.5" text-anchor="end" class="f6-3-q-gh-s">28</text>
+  <line x1="80.0" y1="50.0" x2="640.0" y2="50.0" class="f6-3-q-gh-gr" style=""/>
+  <text x="72.0" y="54.5" text-anchor="end" class="f6-3-q-gh-s">29</text>
+  <line x1="80.0" y1="90.0" x2="640.0" y2="90.0" style="stroke:var(--fig-red);stroke-width:1.8;stroke-dasharray:8 4"/>
+  <text x="646.0" y="94.5" text-anchor="start" class="f6-3-q-gh-t" style="fill:var(--fig-red);font-weight:600">28 °C</text>
+  <line x1="80.0" y1="250.0" x2="640.0" y2="250.0" style="stroke:var(--fig-blue);stroke-width:1.8;stroke-dasharray:8 4"/>
+  <text x="646.0" y="254.5" text-anchor="start" class="f6-3-q-gh-t" style="fill:var(--fig-blue);font-weight:600">24 °C</text>
+  <line x1="80.0" y1="290.0" x2="640.0" y2="290.0" class="f6-3-q-gh-ax" style=""/>
+  <line x1="80.0" y1="290.0" x2="80.0" y2="42.0" class="f6-3-q-gh-ax" style=""/>
+  <text x="0" y="0" transform="translate(34 170.0) rotate(-90)" text-anchor="middle" class="f6-3-q-gh-s">실내 온도(°C)</text>
+  <polyline points="100.0,106.0 152.0,90.0 204.0,98.0 256.0,78.0 308.0,94.0 360.0,86.0 412.0,102.0 464.0,90.0 516.0,150.0 568.0,210.0 620.0,258.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <circle cx="100.0" cy="106.0" r="4.5" style="fill:var(--fig-ink)"/>
+  <text x="100.0" y="127.0" text-anchor="middle" class="f6-3-q-gh-t">27.6</text>
+  <text x="100.0" y="310.0" text-anchor="middle" class="f6-3-q-gh-s">12:00</text>
+  <circle cx="152.0" cy="90.0" r="4.5" style="fill:var(--fig-ink)"/>
+  <text x="152.0" y="79.0" text-anchor="middle" class="f6-3-q-gh-t">28.0</text>
+  <text x="152.0" y="310.0" text-anchor="middle" class="f6-3-q-gh-s">12:10</text>
+  <circle cx="204.0" cy="98.0" r="4.5" style="fill:var(--fig-ink)"/>
+  <text x="204.0" y="119.0" text-anchor="middle" class="f6-3-q-gh-t">27.8</text>
+  <text x="204.0" y="310.0" text-anchor="middle" class="f6-3-q-gh-s">12:20</text>
+  <circle cx="256.0" cy="78.0" r="4.5" style="fill:var(--fig-ink)"/>
+  <text x="256.0" y="67.0" text-anchor="middle" class="f6-3-q-gh-t">28.3</text>
+  <text x="256.0" y="310.0" text-anchor="middle" class="f6-3-q-gh-s">12:30</text>
+  <circle cx="308.0" cy="94.0" r="4.5" style="fill:var(--fig-ink)"/>
+  <text x="308.0" y="115.0" text-anchor="middle" class="f6-3-q-gh-t">27.9</text>
+  <text x="308.0" y="310.0" text-anchor="middle" class="f6-3-q-gh-s">12:40</text>
+  <circle cx="360.0" cy="86.0" r="4.5" style="fill:var(--fig-ink)"/>
+  <text x="360.0" y="75.0" text-anchor="middle" class="f6-3-q-gh-t">28.1</text>
+  <text x="360.0" y="310.0" text-anchor="middle" class="f6-3-q-gh-s">12:50</text>
+  <circle cx="412.0" cy="102.0" r="4.5" style="fill:var(--fig-ink)"/>
+  <text x="412.0" y="123.0" text-anchor="middle" class="f6-3-q-gh-t">27.7</text>
+  <text x="412.0" y="310.0" text-anchor="middle" class="f6-3-q-gh-s">13:00</text>
+  <circle cx="464.0" cy="90.0" r="4.5" style="fill:var(--fig-ink)"/>
+  <text x="464.0" y="79.0" text-anchor="middle" class="f6-3-q-gh-t">28.0</text>
+  <text x="464.0" y="310.0" text-anchor="middle" class="f6-3-q-gh-s">13:10</text>
+  <circle cx="516.0" cy="150.0" r="4.5" style="fill:var(--fig-ink)"/>
+  <text x="522.0" y="140.0" text-anchor="start" class="f6-3-q-gh-t">26.5</text>
+  <text x="516.0" y="310.0" text-anchor="middle" class="f6-3-q-gh-s">13:20</text>
+  <circle cx="568.0" cy="210.0" r="4.5" style="fill:var(--fig-ink)"/>
+  <text x="574.0" y="200.0" text-anchor="start" class="f6-3-q-gh-t">25.0</text>
+  <text x="568.0" y="310.0" text-anchor="middle" class="f6-3-q-gh-s">13:30</text>
+  <circle cx="620.0" cy="258.0" r="4.5" style="fill:var(--fig-ink)"/>
+  <text x="626.0" y="248.0" text-anchor="start" class="f6-3-q-gh-t">23.8</text>
+  <text x="620.0" y="310.0" text-anchor="middle" class="f6-3-q-gh-s">13:40</text>
+  <text x="360.0" y="334.0" text-anchor="middle" class="f6-3-q-gh-s">시각</text>
+</svg>
