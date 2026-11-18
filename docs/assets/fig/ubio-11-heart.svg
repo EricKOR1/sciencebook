@@ -4,15 +4,15 @@
   <style>.ubio-11-heart-t{font-size:14px;fill:var(--fig-ink)} .ubio-11-heart-b{font-size:14px;fill:var(--fig-ink);font-weight:700} .ubio-11-heart-s{font-size:13px;fill:var(--fig-muted)} .ubio-11-heart-h{font-size:15px;fill:var(--fig-ink);font-weight:700} .ubio-11-heart-lead{stroke:var(--fig-muted);stroke-width:1;fill:none}</style>
   <path d="M248,40 L282,40 L282,190 L248,190 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
   <path d="M248,330 L282,330 L282,440 L248,440 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
-  <path d="M372,250 L372,96 C372,40 470,40 480,92 L480,150 L454,150 L454,98 C450,72 400,70 398,98 L398,250 Z" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
-  <path d="M316,250 L316,128 L280,108 L292,90 L330,112 L350,98 L362,118 L342,132 L342,250 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
   <path d="M262,190 C238,220 238,300 270,350 C300,398 360,430 392,442 C440,418 500,360 508,290 C514,230 492,186 452,176 C420,170 300,170 262,190 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2.5"/>
-  <ellipse cx="300.0" cy="232.0" rx="40.0" ry="40.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <ellipse cx="288.0" cy="232.0" rx="30.0" ry="40.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
   <path d="M272,292 C276,340 320,392 376,414 L374,300 C350,292 300,290 272,292 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
   <ellipse cx="452.0" cy="220.0" rx="38.0" ry="34.0" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
   <path d="M410,300 L406,412 C452,392 482,346 484,300 C462,292 430,292 410,300 Z" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
   <path d="M486,206 L528,196 L530,210 L488,222 Z" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
   <path d="M486,232 L528,238 L526,252 L484,246 Z" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <path d="M372,250 L372,96 C372,40 470,40 480,92 L480,150 L454,150 L454,98 C450,72 400,70 398,98 L398,250 Z" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <path d="M320,250 L320,128 L280,108 L292,90 L330,112 L350,98 L362,118 L342,132 L342,250 Z" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
   <path d="M280,268 L296,288 M322,268 L308,288" style="fill:none;stroke:var(--fig-ink);stroke-width:3;stroke-linecap:round"/>
   <path d="M432,250 L444,288 M474,252 L460,288" style="fill:none;stroke:var(--fig-ink);stroke-width:3;stroke-linecap:round"/>
   <path d="M318,246 Q329,236 340,246" style="fill:none;stroke:var(--fig-ink);stroke-width:3"/>
@@ -34,8 +34,8 @@
   <path d="M476.0 225.0 L485.0 220.5 L485.0 229.5 Z" style="fill:var(--fig-red)"/>
   <line x1="452.0" y1="244.0" x2="452.0" y2="331.0" style="stroke:var(--fig-red);stroke-width:2.5"/>
   <path d="M452.0 340.0 L447.5 331.0 L456.5 331.0 Z" style="fill:var(--fig-red)"/>
-  <line x1="424.0" y1="390.0" x2="386.3" y2="128.9" style="stroke:var(--fig-red);stroke-width:2.5"/>
-  <path d="M385.0 120.0 L390.7 128.3 L381.8 129.6 Z" style="fill:var(--fig-red)"/>
+  <line x1="410.0" y1="392.0" x2="381.0" y2="129.0" style="stroke:var(--fig-red);stroke-width:2.5"/>
+  <path d="M380.0 120.0 L385.5 128.5 L376.5 129.5 Z" style="fill:var(--fig-red)"/>
   <polyline points="250.0,60.0 206.0,55.0" class="ubio-11-heart-lead"/>
   <text x="200.0" y="60.0" text-anchor="end" class="ubio-11-heart-b">대정맥(위)</text>
   <text x="200.0" y="77.0" text-anchor="end" class="ubio-11-heart-s">온몸에서</text>
@@ -45,7 +45,7 @@
   <polyline points="276.0,196.0 206.0,155.0" class="ubio-11-heart-lead"/>
   <text x="200.0" y="160.0" text-anchor="end" class="ubio-11-heart-b">동방 결절</text>
   <text x="200.0" y="177.0" text-anchor="end" class="ubio-11-heart-s">박동원</text>
-  <polyline points="282.0,226.0 206.0,201.0" class="ubio-11-heart-lead"/>
+  <polyline points="280.0,226.0 206.0,201.0" class="ubio-11-heart-lead"/>
   <text x="200.0" y="206.0" text-anchor="end" class="ubio-11-heart-b">우심방</text>
   <polyline points="288.0,278.0 206.0,247.0" class="ubio-11-heart-lead"/>
   <text x="200.0" y="252.0" text-anchor="end" class="ubio-11-heart-b">삼첨판</text>
@@ -74,7 +74,7 @@
   <polyline points="470.0,340.0 554.0,365.0" class="ubio-11-heart-lead"/>
   <text x="560.0" y="370.0" class="ubio-11-heart-b">좌심실</text>
   <text x="560.0" y="387.0" class="ubio-11-heart-s">벽이 가장 두껍다</text>
-  <polyline points="440.0,404.0 554.0,415.0" class="ubio-11-heart-lead"/>
+  <polyline points="435.0,398.0 554.0,415.0" class="ubio-11-heart-lead"/>
   <text x="560.0" y="420.0" class="ubio-11-heart-b">푸르킨예 섬유</text>
   <text x="560.0" y="437.0" class="ubio-11-heart-s">심첨부터 흥분</text>
   <text x="30.0" y="456.0" class="ubio-11-heart-s">파랑: 산소가 적은 혈액, 빨강: 산소가 많은 혈액, 주황: 흥분 전도계 · 모식도</text>
