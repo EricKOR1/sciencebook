@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 310" class="fig-small" role="img" aria-labelledby="t-matter-2-q-u-tube d-matter-2-q-u-tube">
+  <title id="t-matter-2-q-u-tube">그림 물질과 에너지 2-11 문제 4의 U자관</title>
+  <desc id="d-matter-2-q-u-tube">U자관의 가운데를 반투과성 막으로 막고, 왼쪽에 0.1 M 설탕물, 오른쪽에 0.3 M 설탕물을 같은 높이로 넣은 처음 상태. 설탕 입자 수는 농도 비에 맞춰 줄여 그린 모식도이다.</desc>
+  <style>
+    .matter-2-q-u-tube-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.5}
+    .matter-2-q-u-tube-gr{fill:none;stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4}
+    .matter-2-q-u-tube-l{font-size:14px;fill:var(--fig-ink)}
+    .matter-2-q-u-tube-t{font-size:13px;fill:var(--fig-muted)}
+    .matter-2-q-u-tube-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .matter-2-q-u-tube-ink{fill:var(--fig-ink)}
+    .matter-2-q-u-tube-lead{fill:none;stroke:var(--fig-muted);stroke-width:1}
+    .matter-2-q-u-tube-tube{fill:none;stroke:var(--fig-ink);stroke-width:2.4;stroke-linejoin:round}
+    .matter-2-q-u-tube-sol{fill:var(--fig-soft-blue)}
+    .matter-2-q-u-tube-su{fill:var(--fig-amber);stroke:var(--fig-ink);stroke-width:0.8}
+  </style>
+  <path d="M120 100 L120 230 Q120 270 160 270 L230 270 L230 210 L180 210 L180 100 Z" class="matter-2-q-u-tube-sol"/>
+  <path d="M230 270 L300 270 Q340 270 340 230 L340 100 L280 100 L280 210 L230 210 Z" class="matter-2-q-u-tube-sol"/>
+  <line x1="120" y1="100" x2="180" y2="100" style="stroke:var(--fig-blue);stroke-width:2"/>
+  <line x1="280" y1="100" x2="340" y2="100" style="stroke:var(--fig-blue);stroke-width:2"/>
+  <line x1="96" y1="100" x2="364" y2="100" class="matter-2-q-u-tube-gr"/>
+  <circle cx="150" cy="150" r="5" class="matter-2-q-u-tube-su"/>
+  <circle cx="200" cy="245" r="5" class="matter-2-q-u-tube-su"/>
+  <circle cx="296" cy="122" r="5" class="matter-2-q-u-tube-su"/>
+  <circle cx="322" cy="150" r="5" class="matter-2-q-u-tube-su"/>
+  <circle cx="300" cy="178" r="5" class="matter-2-q-u-tube-su"/>
+  <circle cx="324" cy="205" r="5" class="matter-2-q-u-tube-su"/>
+  <circle cx="258" cy="238" r="5" class="matter-2-q-u-tube-su"/>
+  <circle cx="306" cy="250" r="5" class="matter-2-q-u-tube-su"/>
+  <path d="M120 40 L120 230 Q120 270 160 270 L300 270 Q340 270 340 230 L340 40" class="matter-2-q-u-tube-tube"/>
+  <path d="M180 40 L180 210 L280 210 L280 40" class="matter-2-q-u-tube-tube"/>
+  <line x1="230" y1="210" x2="230" y2="270" style="stroke:var(--fig-green);stroke-width:4;stroke-dasharray:5 3"/>
+  <line x1="230" y1="272" x2="230" y2="286" class="matter-2-q-u-tube-lead"/>
+  <text x="230" y="302" text-anchor="middle" class="matter-2-q-u-tube-t">반투과성 막</text>
+  <text x="150" y="28" text-anchor="middle" class="matter-2-q-u-tube-l">0.1 M 설탕물</text>
+  <text x="310" y="28" text-anchor="middle" class="matter-2-q-u-tube-l">0.3 M 설탕물</text>
+  <text x="230" y="92" text-anchor="middle" class="matter-2-q-u-tube-t">처음 수면</text>
+  <circle cx="380" cy="250" r="5" class="matter-2-q-u-tube-su"/>
+  <text x="390" y="255" class="matter-2-q-u-tube-t">설탕</text>
+</svg>

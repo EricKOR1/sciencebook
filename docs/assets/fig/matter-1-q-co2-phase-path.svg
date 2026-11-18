@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-matter-1-q-co2-phase-path d-matter-1-q-co2-phase-path">
+  <title id="t-matter-1-q-co2-phase-path">그림 물질과 에너지 1-12 문제 17 해설: 이산화 탄소의 상평형 그림과 상태 변화의 경로</title>
+  <desc id="d-matter-1-q-co2-phase-path">이산화 탄소의 상평형 그림(모식도, 눈금은 실제 비율과 다르다). 1 atm은 삼중점 압력(5.1 atm)보다 낮아 드라이아이스는 −78 °C에서 승화한다. ① 관을 막으면 승화한 기체로 압력이 높아져 삼중점을 넘어 액체 영역에 들어간다. ② 마개를 풀면 압력이 1 atm 가까이로 떨어져 액체가 끓고, 기화열로 냉각되어 일부가 고체로 돌아간다.</desc>
+  <style>
+    .matter-1-q-co2-phase-path-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.5}
+    .matter-1-q-co2-phase-path-gr{fill:none;stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4}
+    .matter-1-q-co2-phase-path-l{font-size:14px;fill:var(--fig-ink)}
+    .matter-1-q-co2-phase-path-t{font-size:13px;fill:var(--fig-muted)}
+    .matter-1-q-co2-phase-path-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .matter-1-q-co2-phase-path-ink{fill:var(--fig-ink)}
+    .matter-1-q-co2-phase-path-lead{fill:none;stroke:var(--fig-muted);stroke-width:1}
+  </style>
+  <path d="M60 28 L60 290 L440 290" class="matter-1-q-co2-phase-path-ax"/>
+  <path d="M60 22 l-5 9 l10 0 z" class="matter-1-q-co2-phase-path-ink"/>
+  <path d="M446 290 l-9 -5 l0 10 z" class="matter-1-q-co2-phase-path-ink"/>
+  <text x="440" y="314" text-anchor="end" class="matter-1-q-co2-phase-path-l">온도</text>
+  <text x="68" y="24" class="matter-1-q-co2-phase-path-l">압력</text>
+  <path d="M70 286 Q140 262 150 250 Q200 225 230 180" style="fill:none;stroke:var(--fig-ink);stroke-width:2.5"/>
+  <path d="M230 180 Q330 150 410 60" style="fill:none;stroke:var(--fig-ink);stroke-width:2.5"/>
+  <path d="M230 180 L275 34" style="fill:none;stroke:var(--fig-ink);stroke-width:2.5"/>
+  <line x1="60" y1="250" x2="440" y2="250" class="matter-1-q-co2-phase-path-gr"/>
+  <text x="54" y="255" text-anchor="end" class="matter-1-q-co2-phase-path-t">1</text>
+  <line x1="60" y1="180" x2="230" y2="180" class="matter-1-q-co2-phase-path-gr"/>
+  <text x="54" y="185" text-anchor="end" class="matter-1-q-co2-phase-path-t">5.1</text>
+  <text x="54" y="272" text-anchor="end" class="matter-1-q-co2-phase-path-t">(atm)</text>
+  <line x1="150" y1="250" x2="150" y2="290" class="matter-1-q-co2-phase-path-gr"/>
+  <text x="150" y="308" text-anchor="middle" class="matter-1-q-co2-phase-path-t">−78</text>
+  <line x1="230" y1="180" x2="230" y2="290" class="matter-1-q-co2-phase-path-gr"/>
+  <text x="230" y="308" text-anchor="middle" class="matter-1-q-co2-phase-path-t">−57 (°C)</text>
+  <circle cx="230" cy="180" r="5" class="matter-1-q-co2-phase-path-ink"/>
+  <text x="240" y="200" class="matter-1-q-co2-phase-path-t">삼중점</text>
+  <text x="120" y="110" text-anchor="middle" class="matter-1-q-co2-phase-path-h">고체</text>
+  <text x="340" y="80" text-anchor="middle" class="matter-1-q-co2-phase-path-h">액체</text>
+  <text x="380" y="225" text-anchor="middle" class="matter-1-q-co2-phase-path-h">기체</text>
+  <path d="M154 244 Q215 205 294 126" style="fill:none;stroke:var(--fig-red);stroke-width:2.6"/>
+<path d="M294 126 L291.1 135.6 L284.4 128.9 Z" style="fill:var(--fig-red)"/>
+  <circle cx="150" cy="250" r="5" style="fill:var(--fig-red)"/>
+  <circle cx="300" cy="120" r="5" style="fill:var(--fig-red)"/>
+  <path d="M304 128 Q330 245 162 256" style="fill:none;stroke:var(--fig-blue);stroke-width:2.6;stroke-dasharray:7 4"/>
+<path d="M162 256 L170.5 250.7 L171.1 260.1 Z" style="fill:var(--fig-blue)"/>
+  <circle cx="253" cy="133" r="11" style="fill:var(--fig-red)"/>
+  <text x="253" y="138" text-anchor="middle" style="font-size:13px;font-weight:700;fill:var(--fig-paper)">1</text>
+  <circle cx="330" cy="200" r="11" style="fill:var(--fig-blue)"/>
+  <text x="330" y="205" text-anchor="middle" style="font-size:13px;font-weight:700;fill:var(--fig-paper)">2</text>
+  <text x="470" y="70" class="matter-1-q-co2-phase-path-h" style="fill:var(--fig-red)">① 마개를 막을 때</text>
+  <text x="470" y="94" class="matter-1-q-co2-phase-path-t">승화한 CO₂가 갇혀 압력 상승</text>
+  <text x="470" y="118" class="matter-1-q-co2-phase-path-t">→ 5.1 atm, −57 °C를 넘어</text>
+  <text x="470" y="142" class="matter-1-q-co2-phase-path-t">   액체 영역으로</text>
+  <text x="470" y="178" class="matter-1-q-co2-phase-path-h" style="fill:var(--fig-blue)">② 마개를 풀 때</text>
+  <text x="470" y="202" class="matter-1-q-co2-phase-path-t">압력이 1 atm 가까이로 떨어짐</text>
+  <text x="470" y="226" class="matter-1-q-co2-phase-path-t">→ 액체가 끓고(기화) 기화열로</text>
+  <text x="470" y="250" class="matter-1-q-co2-phase-path-t">   냉각되어 고체 영역으로</text>
+  <text x="470" y="292" class="matter-1-q-co2-phase-path-t">축의 눈금은 실제 비율과 다른 모식도</text>
+</svg>
