@@ -41,12 +41,9 @@
   <path d="M70,266 C62,240 78,220 70,190" style="fill:none;stroke:var(--fig-teal);stroke-width:1.8" marker-end="url(#uearth-9-oxygen-isotope-ah-teal)"/>
   <path d="M100,266 C92,240 108,220 100,190" style="fill:none;stroke:var(--fig-teal);stroke-width:1.8" marker-end="url(#uearth-9-oxygen-isotope-ah-teal)"/>
   <path d="M130,266 C122,240 138,220 130,190" style="fill:none;stroke:var(--fig-teal);stroke-width:1.8" marker-end="url(#uearth-9-oxygen-isotope-ah-teal)"/>
-  <text x="150.0" y="230.0" class="uearth-9-oxygen-isotope-c-teal">증발: ¹⁶O가 먼저 빠져나감</text>
+  <rect x="147.0" y="243.0" width="185.4" height="18" rx="3" style="fill:var(--fig-paper);opacity:0.85;stroke:none"/>
+  <text x="150.0" y="256.0" class="uearth-9-oxygen-isotope-c-teal">증발: ¹⁶O가 먼저 빠져나감</text>
   <ellipse cx="110" cy="120" rx="60" ry="25" class="uearth-9-oxygen-isotope-cl"/>
-  <line x1="82" y1="143" x2="77" y2="270" class="uearth-9-oxygen-isotope-rain"/>
-  <line x1="101" y1="143" x2="96" y2="270" class="uearth-9-oxygen-isotope-rain"/>
-  <line x1="119" y1="143" x2="114" y2="270" class="uearth-9-oxygen-isotope-rain"/>
-  <line x1="138" y1="143" x2="133" y2="270" class="uearth-9-oxygen-isotope-rain"/>
   <path d="M172,116 L202,101" style="fill:none;stroke:var(--fig-ink);stroke-width:1.8" marker-end="url(#uearth-9-oxygen-isotope-ah-ink)"/>
   <ellipse cx="260" cy="105" rx="52" ry="22" class="uearth-9-oxygen-isotope-cl"/>
   <line x1="236" y1="125" x2="231" y2="270" class="uearth-9-oxygen-isotope-rain"/>
@@ -81,6 +78,6 @@
   <rect x="235.5" y="203.0" width="288.9" height="18" rx="3" style="fill:var(--fig-paper);opacity:0.85;stroke:none"/>
   <text x="380.0" y="216.0" class="uearth-9-oxygen-isotope-c-red" text-anchor="middle">극으로 갈수록, 기온이 낮을수록 δ¹⁸O 감소</text>
   <text x="20.0" y="344.0" class="uearth-9-oxygen-isotope-t">빙기: ¹⁶O가 많은 물이 빙상에 갇힘 → 바닷물·유공충 껍데기 δ¹⁸O ↑ (해저 퇴적물에서 "높으면 빙기")</text>
-  <text x="20.0" y="366.0" class="uearth-9-oxygen-isotope-t">         더 추움 → 극지 얼음 δ¹⁸O ↓ (빙하 코어에서 "낮으면 추운 시기")</text>
+  <text x="56.0" y="366.0" class="uearth-9-oxygen-isotope-t">더 추움 → 극지 얼음 δ¹⁸O ↓ (빙하 코어에서 "낮으면 추운 시기")</text>
   <text x="20.0" y="390.0" class="uearth-9-oxygen-isotope-s">δ¹⁸O = (시료의 ¹⁸O/¹⁶O ÷ 표준의 ¹⁸O/¹⁶O − 1) × 1000 ‰</text>
 </svg>
