@@ -118,8 +118,8 @@
   <circle cx="454" cy="181.2" r="2.6" style="fill:var(--fig-blue);stroke:none;stroke-width:1.5"/>
   <circle cx="510" cy="178.5" r="2.6" style="fill:var(--fig-blue);stroke:none;stroke-width:1.5"/>
   <circle cx="158" cy="192.3" r="7" style="fill:none;stroke:var(--fig-blue);stroke-width:1.8"/>
-  <line x1="149" y1="192.3" x2="118" y2="192.3" style="stroke:var(--fig-blue);stroke-width:1.2"/>
-  <text x="114" y="196.3" text-anchor="end" class="astro-3-q-cmd-xy-s" style="fill:var(--fig-blue)">전향점(V = 7.0)</text>
+  <line x1="164" y1="186.3" x2="180" y2="172.3" style="stroke:var(--fig-blue);stroke-width:1.2"/>
+  <text x="183" y="170.3" text-anchor="start" class="astro-3-q-cmd-xy-s" style="fill:var(--fig-blue)">전향점(V = 7.0)</text>
   <line x1="566" y1="212.9" x2="566" y2="307.7" style="stroke:var(--fig-blue);stroke-width:1.6"/>
   <path d="M566 315.7 L569.6 307.7 L562.4 307.7 Z" style="fill:var(--fig-blue)"/>
   <text x="574" y="264.3" text-anchor="start" class="astro-3-q-cmd-xy-s" style="fill:var(--fig-blue)">8.0등급</text>
@@ -197,8 +197,8 @@
   <line x1="608" y1="226.1" x2="608" y2="390.1" style="stroke:var(--fig-red);stroke-width:1.6"/>
   <path d="M608 398.1 L611.6 390.1 L604.4 390.1 Z" style="fill:var(--fig-red)"/>
   <text x="616" y="312.1" text-anchor="start" class="astro-3-q-cmd-xy-s" style="fill:var(--fig-red)">13.0등급</text>
-  <text x="352" y="257.5" text-anchor="end" class="astro-3-q-cmd-xy-t astro-3-q-cmd-xy-b" style="fill:var(--fig-blue)">성단 X</text>
-  <text x="440" y="378.9" text-anchor="start" class="astro-3-q-cmd-xy-t astro-3-q-cmd-xy-b" style="fill:var(--fig-red)">성단 Y</text>
+  <text x="328" y="220" text-anchor="start" class="astro-3-q-cmd-xy-t astro-3-q-cmd-xy-b" style="fill:var(--fig-blue)">성단 X</text>
+  <text x="412" y="391.7" text-anchor="start" class="astro-3-q-cmd-xy-t astro-3-q-cmd-xy-b" style="fill:var(--fig-red)">성단 Y</text>
   <text x="20" y="26" text-anchor="start" class="astro-3-q-cmd-xy-t">등급 (성단: 겉보기 등급 V, 표준 주계열: 절대등급)</text>
   <text x="370" y="440" text-anchor="middle" class="astro-3-q-cmd-xy-s">색지수 B − V</text>
 </svg>

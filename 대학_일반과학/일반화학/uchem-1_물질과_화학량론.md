@@ -1086,6 +1086,8 @@ $\mathrm{H_2SO_4 + 2NaOH \rightarrow Na_2SO_4 + 2H_2O}$. NaOH $0.1050\times32.40
 
 (1) 넣은 HCl: $0.500\times50.00 = 25.0\ \mathrm{mmol}$, 남은 HCl = NaOH: $0.200\times15.60 = 3.12\ \mathrm{mmol}$, 반응한 HCl: $25.0 - 3.12 = 21.88 \approx 21.9\ \mathrm{mmol}$. $\mathrm{CaCO_3 + 2H^+ \rightarrow Ca^{2+} + H_2O + CO_2}$이므로 $\mathrm{CaCO_3}$ $= 21.88\div2 = 10.94\ \mathrm{mmol}$ → $10.94\times100.09 = 1094.98\ \mathrm{mg}$ → 유효 숫자 3개로 1.09 g (중간값 21.88 mmol은 반올림하지 않고 계산한다)
 
+<!-- fig:uchem-1-q-back-titration-bar -->
+
 (2) **예시 답안** 탄산 칼슘은 물에 잘 녹지 않아 산과 천천히 반응하므로, 직접 적정하면 종말점에서 반응이 끝났는지 판단하기 어렵다. 과잉의 산으로 먼저 완전히 반응시키고, 남은 산을 빠르게 반응하는 강염기로 적정하면 종말점이 분명해진다. 또 발생하는 이산화 탄소를 가열로 제거한 뒤 적정할 수 있다.
 
 **채점 포인트** ① 반응한 산 = 넣은 산 − 남은 산 ② 계수비 1 : 2 ③ 느린 반응·불용성 고체라는 이유
@@ -1145,6 +1147,8 @@ $\mathrm{H_2SO_4 + 2NaOH \rightarrow Na_2SO_4 + 2H_2O}$. NaOH $0.1050\times32.40
 (1) $\mathrm{Ag^+}$ 10.0 mmol, $\mathrm{Cl^-}$ $2\times4.00 = 8.00\ \mathrm{mmol}$. $\mathrm{Ag^+ + Cl^- \rightarrow AgCl}$(1 : 1)에서 $\mathrm{Cl^-}$가 한계 반응물 → AgCl 8.00 mmol → $8.00\times143.32 = 1147\ \mathrm{mg} \approx 1.15\ \mathrm{g}$
 (2) 전체 90.0 mL. 남은 $\mathrm{Ag^+}$ 2.00 mmol, 구경꾼 $\mathrm{NO_3^-}$ 10.0 mmol, $\mathrm{Ca^{2+}}$ 4.00 mmol을 각각 90.0 mL로 나눈다. 전하 균형: $0.0222 + 2(0.0444) = 0.111$ ✓
 
+<!-- fig:uchem-1-q-agcl-ion-model -->
+
 </details>
 
 **15. [자료 해석]** 0.100 M 질산 납(Ⅱ) 수용액 20.0 mL에 0.100 M 아이오딘화 칼륨 수용액을 부피를 바꾸어 넣고, 생긴 $\mathrm{PbI_2}$ 앙금을 거르고 말려 질량을 쟀다.
@@ -1161,6 +1165,9 @@ $\mathrm{H_2SO_4 + 2NaOH \rightarrow Na_2SO_4 + 2H_2O}$. NaOH $0.1050\times32.40
 **정답** (1) 40.0 mL (2) 해설 참고 (3) 30.0 mL에서는 $\mathrm{I^-}$, 50.0 mL 이후에는 $\mathrm{Pb^{2+}}$가 모두 소모되었기 때문
 
 (1) 40.0 mL까지는 10.0 mL마다 0.231 g씩 늘고, 그 뒤로는 일정하다. 질량–부피 그래프의 두 직선이 40.0 mL에서 꺾인다.
+
+<!-- fig:uchem-1-q-pbi2-mass-graph -->
+
 (2) 꺾이는 점에서 $\mathrm{Pb^{2+}}$: $0.100\times20.0 = 2.00\ \mathrm{mmol}$, $\mathrm{I^-}$: $0.100\times40.0 = 4.00\ \mathrm{mmol}$ → 1 : 2. 또 최대 질량 0.922 g ÷ 461.0 g/mol = 2.00 mmol로 $\mathrm{Pb^{2+}}$의 몰수와 같다.
 (3) 30.0 mL에서는 $\mathrm{I^-}$ 3.00 mmol이 $\mathrm{Pb^{2+}}$ 1.50 mmol과만 반응하므로 $\mathrm{I^-}$가 한계 반응물이다. 40.0 mL를 넘으면 $\mathrm{Pb^{2+}}$가 한계 반응물이 되어 KI를 더 넣어도 앙금이 늘지 않는다.
 
@@ -1170,12 +1177,14 @@ $\mathrm{H_2SO_4 + 2NaOH \rightarrow Na_2SO_4 + 2H_2O}$. NaOH $0.1050\times32.40
 
 ### 도전
 
-**16. [실험 오차 분석]** 예제 10처럼 KHP로 NaOH 용액을 표준화하는 실험에서 다음 실수가 있었다. 각 실수가 계산한 NaOH 농도를 참값보다 크게 하는지, 작게 하는지, 영향이 없는지 판단하고 이유를 쓰시오.
+**16. [실험 오차 분석]** 예제 10처럼 KHP로 NaOH 용액을 표준화하는 실험(장치는 아래 그림과 같다)에서 다음 실수가 있었다. 각 실수가 계산한 NaOH 농도를 참값보다 크게 하는지, 작게 하는지, 영향이 없는지 판단하고 이유를 쓰시오.
 (가) 말리지 않아 물기를 머금은 KHP의 질량을 쟀다.
 (나) 적정 전 뷰렛 끝에 있던 공기 방울이 적정 중에 빠져나갔다.
 (다) 종말점을 지나쳐 진한 분홍색이 될 때까지 적정했다.
 (라) KHP를 녹이기 전 삼각 플라스크에 증류수가 조금 남아 있었다.
 또, (가)의 NaOH 용액으로 농도를 모르는 산을 적정하면 산의 농도는 어떻게 계산되는가?
+
+<!-- fig:uchem-1-q-titration-setup -->
 
 <details>
 <summary>정답 및 해설</summary>
