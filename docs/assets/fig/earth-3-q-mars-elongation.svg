@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 400" class="fig-small" role="img" aria-labelledby="t-earth-3-q-mars-elongation d-earth-3-q-mars-elongation">
+  <title id="t-earth-3-q-mars-elongation">그림 지구과학 3-17 문제 16 해설 — 화성에서 본 지구의 최대 이각</title>
+  <desc id="d-earth-3-q-mars-elongation">태양계를 북쪽에서 내려다본 모식도이다. 화성에서 지구 궤도에 그은 접선 방향에 지구가 있을 때 태양–지구–화성이 직각을 이루며, 이때의 각 θ가 최대 이각이다. sin θ = 1/1.52 ≈ 0.66이므로 θ ≈ 41°이다.</desc>
+  <style>.earth-3-q-mars-elongation-t{font-size:14px;fill:var(--fig-ink)} .earth-3-q-mars-elongation-s{font-size:13px;fill:var(--fig-muted)} .earth-3-q-mars-elongation-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .earth-3-q-mars-elongation-b{font-size:15px;font-weight:700;fill:var(--fig-ink)} .earth-3-q-mars-elongation-ax{stroke:var(--fig-ink);stroke-width:1.4;fill:none} .earth-3-q-mars-elongation-grid{stroke:var(--fig-line);stroke-width:0.7;fill:none;stroke-dasharray:3 3}</style>
+  <circle cx="200.0" cy="200.0" r="110.0" style="fill:none;stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:5 4"/>
+  <circle cx="200.0" cy="200.0" r="167.2" style="fill:none;stroke:var(--fig-red);stroke-width:1.5;stroke-dasharray:5 4"/>
+  <circle cx="200.0" cy="200.0" r="13.0" style="fill:#ffc23d;stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="200.0" y="232.0" text-anchor="middle" class="earth-3-q-mars-elongation-t">태양</text>
+  <line x1="200.0" y1="200.0" x2="367.2" y2="200.0" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <line x1="367.2" y1="200.0" x2="272.4" y2="117.2" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <line x1="200.0" y1="200.0" x2="272.4" y2="117.2" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <path d="M264.5 126.2 L273.5 134.1 L281.4 125.1" style="fill:none;stroke:var(--fig-ink);stroke-width:1.2"/>
+  <path d="M321.2 200.0 A46 46 0 0 1 332.6 169.7" style="fill:none;stroke:var(--fig-red);stroke-width:1.8"/>
+  <text x="311.0" y="183.9" text-anchor="middle" class="earth-3-q-mars-elongation-h" style="fill:var(--fig-red)">θ</text>
+  <circle cx="272.4" cy="117.2" r="8.0" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="268.4" y="103.2" text-anchor="middle" class="earth-3-q-mars-elongation-t">지구</text>
+  <circle cx="367.2" cy="200.0" r="8.0" style="fill:var(--fig-red);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="365.2" y="226.0" text-anchor="middle" class="earth-3-q-mars-elongation-t">화성</text>
+  <text x="218.2" y="160.6" text-anchor="end" class="earth-3-q-mars-elongation-s">1 AU</text>
+  <text x="313.6" y="218.0" text-anchor="middle" class="earth-3-q-mars-elongation-s">1.52 AU</text>
+  <text x="20.0" y="385.0" class="earth-3-q-mars-elongation-t">sin θ = 1 / 1.52 ≈ 0.66 → θ ≈ 41°</text>
+  <text x="120.8" y="297.2" text-anchor="middle" class="earth-3-q-mars-elongation-s">지구 궤도</text>
+  <text x="99.7" y="60.2" text-anchor="middle" class="earth-3-q-mars-elongation-s">화성 궤도</text>
+</svg>
