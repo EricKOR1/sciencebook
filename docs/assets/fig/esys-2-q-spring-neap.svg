@@ -4,8 +4,9 @@
   <style>
     .esys-2-q-spring-neap-t{font-size:14px;fill:var(--fig-ink)} .esys-2-q-spring-neap-b{font-size:14px;font-weight:600;fill:var(--fig-ink)} .esys-2-q-spring-neap-s{font-size:13px;fill:var(--fig-muted)} .esys-2-q-spring-neap-ax{fill:none;stroke:var(--fig-muted);stroke-width:1.4} .esys-2-q-spring-neap-gr{fill:none;stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4}
   </style>
-  <text x="180" y="26" text-anchor="middle" class="esys-2-q-spring-neap-b">(가) 사리</text>
-  <text x="540" y="26" text-anchor="middle" class="esys-2-q-spring-neap-b">(나) 조금</text>
+  <text x="180" y="24" text-anchor="middle" class="esys-2-q-spring-neap-b">(가) 사리</text>
+  <text x="500" y="24" text-anchor="middle" class="esys-2-q-spring-neap-b">(나) 조금</text>
+  <line x1="368" y1="40" x2="368" y2="225" style="stroke:var(--fig-line);stroke-width:1"/>
   <circle cx="40" cy="130" r="22" style="fill:#f6c343;stroke:var(--fig-amber);stroke-width:2"/>
   <text x="40" y="172" text-anchor="middle" class="esys-2-q-spring-neap-s">태양</text>
   <ellipse cx="210" cy="130" rx="52" ry="36" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:4 3"/>
@@ -20,8 +21,9 @@
   <ellipse cx="560" cy="130" rx="38" ry="44" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5;stroke-dasharray:4 3"/>
   <circle cx="560" cy="130" r="28" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
   <text x="560" y="135" text-anchor="middle" class="esys-2-q-spring-neap-s" style="fill:var(--fig-ink)">지구</text>
-  <circle cx="560" cy="54" r="11" style="fill:var(--fig-line);stroke:var(--fig-ink);stroke-width:1.5"/>
-  <text x="560" y="36" text-anchor="middle" class="esys-2-q-spring-neap-s">상현·하현</text>
+  <circle cx="560" cy="60" r="11" style="fill:var(--fig-line);stroke:var(--fig-ink);stroke-width:1.5"/>
+  <text x="560" y="90" text-anchor="middle" class="esys-2-q-spring-neap-s"></text>
+  <text x="580" y="65" class="esys-2-q-spring-neap-s">상현 또는 하현</text>
   <circle cx="560" cy="206" r="11" style="fill:none;stroke:var(--fig-ink);stroke-width:1.5;stroke-dasharray:3 3"/>
   <text x="560" y="236" text-anchor="middle" class="esys-2-q-spring-neap-s"></text>
   <rect x="90" y="250" width="80" height="16" style="fill:var(--fig-soft-violet);stroke:var(--fig-ink);stroke-width:1"/>
