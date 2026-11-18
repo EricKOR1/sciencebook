@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-uearth-9-carbon-budget d-uearth-9-carbon-budget">
+  <title id="t-uearth-9-carbon-budget">그림 일반지구과학 9-7 누적 배출량과 온난화, 탄소 예산을 쓰는 두 경로</title>
+  <desc id="d-uearth-9-carbon-budget">왼쪽은 지구 온난화가 누적 CO₂ 배출량에 거의 비례함을 보이는 그래프로, 1000 Gt CO₂당 약 0.45 °C(가능성 높은 범위 약 0.27~0.63 °C, 색칠한 부채꼴)이며 1850~2019년 누적 약 2400 Gt CO₂에서 약 1.1 °C가 된다. 오른쪽은 예제 10처럼 남은 예산 500 Gt CO₂를 쓰는 두 경로이다. 해마다 40 Gt를 그대로 배출하면 12.5년 만에 바닥나고, 지금부터 직선으로 줄이면 25년 뒤에 순배출 0에 이르러야 한다. 두 경로의 넓이(누적 배출량)는 같다.</desc>
+  <style>
+    .uearth-9-carbon-budget-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .uearth-9-carbon-budget-t{font-size:13px;fill:var(--fig-ink)}
+    .uearth-9-carbon-budget-b{font-size:13px;font-weight:600;fill:var(--fig-ink)}
+    .uearth-9-carbon-budget-s{font-size:13px;fill:var(--fig-muted)}
+    .uearth-9-carbon-budget-ax{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .uearth-9-carbon-budget-grid{fill:none;stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 4}
+    .uearth-9-carbon-budget-panel{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1}
+    .uearth-9-carbon-budget-sea{fill:var(--fig-soft-blue);stroke:none}
+    .uearth-9-carbon-budget-land{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:0.7;fill-rule:evenodd}
+    .uearth-9-carbon-budget-grat{fill:none;stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 4}
+    .uearth-9-carbon-budget-frame{fill:none;stroke:var(--fig-line);stroke-width:1.2}
+    .uearth-9-carbon-budget-c-ink{font-size:13px;font-weight:600;fill:var(--fig-ink)}
+    .uearth-9-carbon-budget-c-muted{font-size:13px;font-weight:600;fill:var(--fig-muted)}
+    .uearth-9-carbon-budget-c-line{font-size:13px;font-weight:600;fill:var(--fig-line)}
+    .uearth-9-carbon-budget-c-accent{font-size:13px;font-weight:600;fill:var(--fig-accent)}
+    .uearth-9-carbon-budget-c-blue{font-size:13px;font-weight:600;fill:var(--fig-blue)}
+    .uearth-9-carbon-budget-c-red{font-size:13px;font-weight:600;fill:var(--fig-red)}
+    .uearth-9-carbon-budget-c-green{font-size:13px;font-weight:600;fill:var(--fig-green)}
+    .uearth-9-carbon-budget-c-amber{font-size:13px;font-weight:600;fill:var(--fig-amber)}
+    .uearth-9-carbon-budget-c-violet{font-size:13px;font-weight:600;fill:var(--fig-violet)}
+    .uearth-9-carbon-budget-c-teal{font-size:13px;font-weight:600;fill:var(--fig-teal)}
+  </style>
+  <text x="14.0" y="22.0" class="uearth-9-carbon-budget-h">(가) 온난화 ∝ 누적 CO₂ 배출량</text>
+  <rect x="70" y="60" width="270" height="230" style="fill:none;stroke:var(--fig-line);stroke-width:1.2"/>
+  <path d="M70.0,290.0 L340.0,58.2 L340.0,190.6 Z" style="fill:var(--fig-soft-red);opacity:0.8"/>
+  <line x1="70.0" y1="290.0" x2="340.0" y2="124.4" style="stroke:var(--fig-red);stroke-width:2.6"/>
+  <text x="70.0" y="308.0" class="uearth-9-carbon-budget-s" text-anchor="middle">0</text>
+  <text x="137.5" y="308.0" class="uearth-9-carbon-budget-s" text-anchor="middle">1000</text>
+  <text x="205.0" y="308.0" class="uearth-9-carbon-budget-s" text-anchor="middle">2000</text>
+  <text x="272.5" y="308.0" class="uearth-9-carbon-budget-s" text-anchor="middle">3000</text>
+  <text x="340.0" y="308.0" class="uearth-9-carbon-budget-s" text-anchor="middle">4000</text>
+  <text x="62.0" y="294.0" class="uearth-9-carbon-budget-s" text-anchor="end">0.0</text>
+  <text x="62.0" y="248.0" class="uearth-9-carbon-budget-s" text-anchor="end">0.5</text>
+  <text x="62.0" y="202.0" class="uearth-9-carbon-budget-s" text-anchor="end">1.0</text>
+  <text x="62.0" y="156.0" class="uearth-9-carbon-budget-s" text-anchor="end">1.5</text>
+  <text x="62.0" y="110.0" class="uearth-9-carbon-budget-s" text-anchor="end">2.0</text>
+  <text x="62.0" y="64.0" class="uearth-9-carbon-budget-s" text-anchor="end">2.5</text>
+  <text x="205.0" y="328.0" class="uearth-9-carbon-budget-s" text-anchor="middle">1850년 이후 누적 CO₂ 배출량 (Gt CO₂)</text>
+  <text x="14.0" y="50.0" class="uearth-9-carbon-budget-s">기온 상승 (°C)</text>
+  <line x1="232.0" y1="290" x2="232.0" y2="190.6" style="stroke:var(--fig-muted);stroke-dasharray:4 3"/>
+  <line x1="70" y1="190.6" x2="232.0" y2="190.6" style="stroke:var(--fig-muted);stroke-dasharray:4 3"/>
+  <circle cx="232.0" cy="190.6" r="4.5" style="fill:var(--fig-ink);stroke:none;stroke-width:1"/>
+  <rect x="4.1" y="165.6" width="219.9" height="18" rx="3" style="fill:var(--fig-paper);opacity:0.85;stroke:none"/>
+  <text x="224.0" y="178.6" class="uearth-9-carbon-budget-b" text-anchor="end">2019년까지 약 2400 → 약 1.1 °C</text>
+  <text x="336.6" y="239.4" class="uearth-9-carbon-budget-c-red" text-anchor="end">1000 Gt당 약 0.45 °C</text>
+  <text x="336.6" y="256.4" class="uearth-9-carbon-budget-s" text-anchor="end">(색칠: 범위 0.27~0.63)</text>
+  <line x1="390" y1="30" x2="390" y2="340" style="stroke:var(--fig-line);stroke-width:1"/>
+  <text x="404.0" y="22.0" class="uearth-9-carbon-budget-h">(나) 남은 예산 500 Gt CO₂를 쓰는 두 경로</text>
+  <rect x="450" y="70" width="250" height="220" style="fill:none;stroke:var(--fig-line);stroke-width:1.2"/>
+  <path d="M450.0,290.0 L450.0,114.0 L658.3,290.0 Z" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2.4;opacity:0.9"/>
+  <path d="M450.0,290.0 L450.0,114.0 L554.2,114.0 L554.2,290.0 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2.4;opacity:0.75"/>
+  <text x="450.0" y="308.0" class="uearth-9-carbon-budget-s" text-anchor="middle">2020</text>
+  <text x="533.3" y="308.0" class="uearth-9-carbon-budget-s" text-anchor="middle">2030</text>
+  <text x="616.7" y="308.0" class="uearth-9-carbon-budget-s" text-anchor="middle">2040</text>
+  <text x="700.0" y="308.0" class="uearth-9-carbon-budget-s" text-anchor="middle">2050</text>
+  <text x="442.0" y="294.0" class="uearth-9-carbon-budget-s" text-anchor="end">0</text>
+  <text x="442.0" y="250.0" class="uearth-9-carbon-budget-s" text-anchor="end">10</text>
+  <text x="442.0" y="206.0" class="uearth-9-carbon-budget-s" text-anchor="end">20</text>
+  <text x="442.0" y="162.0" class="uearth-9-carbon-budget-s" text-anchor="end">30</text>
+  <text x="442.0" y="118.0" class="uearth-9-carbon-budget-s" text-anchor="end">40</text>
+  <text x="442.0" y="74.0" class="uearth-9-carbon-budget-s" text-anchor="end">50</text>
+  <text x="575.0" y="328.0" class="uearth-9-carbon-budget-s" text-anchor="middle">연도</text>
+  <text x="410.0" y="60.0" class="uearth-9-carbon-budget-s">연간 배출량 (Gt CO₂/년)</text>
+  <rect x="433.5" y="83.4" width="137.1" height="18" rx="3" style="fill:var(--fig-paper);opacity:0.85;stroke:none"/>
+  <text x="502.1" y="96.4" class="uearth-9-carbon-budget-c-amber" text-anchor="middle">그대로 배출: 12.5년</text>
+  <rect x="536.3" y="215.4" width="144.0" height="18" rx="3" style="fill:var(--fig-paper);opacity:0.85;stroke:none"/>
+  <text x="608.3" y="228.4" class="uearth-9-carbon-budget-c-green" text-anchor="middle">직선 감소: 25년 뒤 0</text>
+  <text x="562.5" y="149.2" class="uearth-9-carbon-budget-b">두 넓이 = 500 Gt CO₂</text>
+</svg>
