@@ -24,7 +24,7 @@
 <circle cx="140.0" cy="192.0" r="5" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:2"/>
 <circle cx="220.0" cy="192.0" r="5" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:2"/>
 <circle cx="235.0" cy="192.0" r="5" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:2"/>
-<text x="268.0" y="196.0" text-anchor="start" class="phy-2-wireless-charging-sm">수신 코일</text>
+<text x="268.0" y="196.0" text-anchor="start" class="phy-2-wireless-charging-sm" style="paint-order:stroke;stroke:var(--fig-paper);stroke-width:4px;stroke-linejoin:round">수신 코일</text>
 <text x="180.0" y="325.0" text-anchor="middle" class="phy-2-wireless-charging-sm" style="fill:var(--fig-green)">수신 코일을 지나는 자기장 많음 → 충전 잘 됨</text>
 <text x="535.0" y="26.0" text-anchor="middle" class="phy-2-wireless-charging-lbl phy-2-wireless-charging-b">(나) 멀리 떨어졌을 때</text>
 <path d="M535 255 C535 180 443 180 443 228.75 C443 295 535 295 535 255" style="fill:none;stroke:var(--fig-blue);stroke-width:1.4"/>
