@@ -1147,6 +1147,8 @@ $\Delta G^\circ = -RT\ln K = -8.314\times298.15\times\ln(1.0\times10^{-5}) = -24
 
 **정답** (1) $+48.4\ \mathrm{kJ}$ (2) $+112\ \mathrm{J/K}$
 
+<!-- fig:uchem-10-q-vanthoff-two -->
+
 (1) $\ln\dfrac{K_2}{K_1} = \ln 16 = 2.773 = -\dfrac{\Delta H^\circ}{R}\left(\dfrac{1}{350} - \dfrac{1}{300}\right) = \dfrac{\Delta H^\circ}{8.314}\times4.762\times10^{-4}$
 $\Delta H^\circ = 2.773\times8.314/4.762\times10^{-4} = 4.84\times10^4\ \mathrm{J}$
 (2) $\ln K_1 = -\dfrac{\Delta H^\circ}{RT_1} + \dfrac{\Delta S^\circ}{R}$에서 $\Delta S^\circ = R\ln K_1 + \dfrac{\Delta H^\circ}{T_1} = 8.314\times(-5.991) + \dfrac{48\,410}{300} = -49.81 + 161.4 = 111.5 \approx 112\ \mathrm{J/K}$.
@@ -1253,13 +1255,17 @@ $K = P/P^\circ = \exp\!\left(-\dfrac{4350}{8.314\times300}\right) = e^{-1.744} =
 
 **정답** (1) $\Delta H^\circ = +90.0\ \mathrm{kJ}$, $\Delta S^\circ = +120\ \mathrm{J/K}$ (2) 750 K (3) 늘어날 가능성이 크다.
 
+<!-- fig:uchem-10-q-dg-line -->
+
 (1) $\Delta G^\circ = \Delta H^\circ - T\Delta S^\circ$는 $T$에 대한 직선이다. 기울기 $= \dfrac{-18.0 - 54.0}{900 - 300} = -0.120\ \mathrm{kJ/K}$이므로 $\Delta S^\circ = +120\ \mathrm{J/K}$. 세로축 절편 $\Delta H^\circ = 54.0 + 300\times0.120 = 90.0\ \mathrm{kJ}$ (네 점이 모두 한 직선 위에 있다).
 (2) $K = 1 \Leftrightarrow \Delta G^\circ = 0$: $T = 90\,000/120 = 750\ \mathrm{K}$
 (3) $\Delta S^\circ$가 크게 양수(기체 1 mol이 늘 때 대략 +100 J/K)이므로 기체 몰수가 늘어나는 반응일 가능성이 크다. 흡열이고 엔트로피가 늘어나는 분해 반응형이다.
 
 </details>
 
-**15.** 25 ℃에서 1.00 L 용기 두 개에 이상 기체 A와 B가 각각 1.00 mol씩 들어 있다. 사이의 마개를 열어 두 기체가 2.00 L 전체에 고르게 섞였다. (1) 계의 $\Delta S$를 구하시오. (2) 혼합의 $\Delta H$와 $\Delta G$를 구하시오. (3) 두 용기에 **같은** 기체 A가 1.00 mol씩 들어 있었다면 $\Delta S$는 얼마인지 쓰고, (1)과 다른 까닭을 미시 상태로 설명하시오.
+**15.** 그림과 같이 25 ℃에서 1.00 L 용기 두 개에 이상 기체 A와 B가 각각 1.00 mol씩 들어 있다. 사이의 마개를 열어 두 기체가 2.00 L 전체에 고르게 섞였다. (1) 계의 $\Delta S$를 구하시오. (2) 혼합의 $\Delta H$와 $\Delta G$를 구하시오. (3) 두 용기에 **같은** 기체 A가 1.00 mol씩 들어 있었다면 $\Delta S$는 얼마인지 쓰고, (1)과 다른 까닭을 미시 상태로 설명하시오.
+
+<!-- fig:uchem-10-q-gas-mixing -->
 
 <details>
 <summary>정답 및 해설</summary>
@@ -1292,8 +1298,10 @@ $\Delta G = \Delta G^{\circ\prime} + RT\ln Q = -30.5 + \dfrac{8.314\times310.15}
 
 ### 도전
 
-**17. [실험 설계·오차 분석]** $\mathrm{N_2O_4(g) \rightleftharpoons 2NO_2(g)}$의 열역학 값을 압력 측정으로 구하려 한다. 진공 플라스크(부피 일정)에 $\mathrm{N_2O_4}$를 넣고 밀봉했는데, 해리가 전혀 없다면 298.15 K에서 압력이 $P_0 = 0.500\ \mathrm{bar}$가 될 양이다. 평형에서 측정한 전체 압력은 298.15 K에서 0.618 bar, 350.0 K에서 1.011 bar였다.
+**17. [실험 설계·오차 분석]** $\mathrm{N_2O_4(g) \rightleftharpoons 2NO_2(g)}$의 열역학 값을 압력 측정으로 구하려 한다. 그림과 같이 진공 플라스크(부피 일정)에 $\mathrm{N_2O_4}$를 넣고 밀봉했는데, 해리가 전혀 없다면 298.15 K에서 압력이 $P_0 = 0.500\ \mathrm{bar}$가 될 양이다. 평형에서 측정한 전체 압력은 298.15 K에서 0.618 bar, 350.0 K에서 1.011 bar였다.
 (1) 해리도를 $\alpha$라 할 때 전체 압력이 $P_0(1 + \alpha)$이고 $K_p = \dfrac{4\alpha^2 P_0}{1 - \alpha}$임을 보이고, 두 온도의 $K_p$를 구하시오. (2) $\Delta H^\circ$와 $\Delta S^\circ$를 구하시오. (3) 한 학생이 350.0 K에서도 $P_0 = 0.500\ \mathrm{bar}$를 그대로 썼다. 어떤 결과가 나오며, 이 실수를 어떻게 알아챌 수 있는가? (4) 압력계가 늘 0.010 bar씩 높게 읽는다면 $\Delta H^\circ$는 실제보다 크게 나오는가, 작게 나오는가?
+
+<!-- fig:uchem-10-q-n2o4-flask -->
 
 <details>
 <summary>정답 및 해설</summary>
@@ -1313,8 +1321,10 @@ $\Delta S^\circ = R\ln K_1 + \dfrac{\Delta H^\circ}{T_1} = 8.314\ln 0.146 + \dfr
 
 </details>
 
-**18. [통계적 해석]** 얼음 결정에서 각 산소 원자는 이웃 산소 4개와 수소 결합을 하며, 수소 원자는 산소 사이마다 한쪽에 치우쳐 하나씩 놓인다. 폴링은 다음과 같이 어림하였다. 물 분자 하나가 이웃 4개 쪽으로 두 수소를 향하게 놓는 방법은 $_4\mathrm{C}_2 = 6$가지이다. 그런데 한 수소 결합에는 수소가 정확히 하나만 있어야 하므로, 각 결합이 이 규칙을 만족할 확률이 $1/2$이고 분자 하나당 맡는 결합이 2개이므로 $(1/2)^2$을 곱한다.
+**18. [통계적 해석]** 얼음 결정에서 각 산소 원자는 이웃 산소 4개와 수소 결합을 하며, 수소 원자는 산소 사이마다 한쪽에 치우쳐 하나씩 놓인다(아래 그림은 이 배치를 평면에 펼친 모식도이다). 폴링은 다음과 같이 어림하였다. 물 분자 하나가 이웃 4개 쪽으로 두 수소를 향하게 놓는 방법은 $_4\mathrm{C}_2 = 6$가지이다. 그런데 한 수소 결합에는 수소가 정확히 하나만 있어야 하므로, 각 결합이 이 규칙을 만족할 확률이 $1/2$이고 분자 하나당 맡는 결합이 2개이므로 $(1/2)^2$을 곱한다.
 (1) 얼음 1 mol의 미시 상태 수 $W$를 $N_\mathrm{A}$로 나타내고, 0 K에 남는 잔류 엔트로피를 구하시오. (2) CO의 잔류 엔트로피 이론값($R\ln 2$)보다 작은 까닭을 미시 상태로 설명하시오. (3) 0 K에서 얼음의 엔트로피를 0으로 놓고 열량 측정만으로 $S^\circ(\mathrm{H_2O(l)})$를 정하면, $\mathrm{2H_2(g) + O_2(g) \rightarrow 2H_2O(l)}$의 $\Delta S^\circ$(기본 문제 3의 값 $-326.7\ \mathrm{J/K}$)는 얼마나, 어느 쪽으로 틀리게 되는가?
+
+<!-- fig:uchem-10-q-ice-rule -->
 
 <details>
 <summary>정답 및 해설</summary>

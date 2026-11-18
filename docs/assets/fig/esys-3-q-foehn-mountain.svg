@@ -19,15 +19,15 @@
   <path d="M100 240 L110 240 L120 240 L130 240 L140 240 L150 240 L160 239.3 L170 237.2 L180 233.7 L190 228.9 L200 222.8 L210 215.6 L220 207.4 L230 198.2 L240 188.3 L250 177.8 L260 166.9 L270 155.7 L280 144.3 L290 133.1 L300 122.2 L310 111.7 L320 101.8 L330 92.6 L340 84.4 L350 77.2 L360 71.1 L370 66.3 L380 62.8 L390 60.7 L400 60 L410 60.7 L420 62.8 L430 66.3 L440 71.1 L450 77.2 L460 84.4 L470 92.6 L480 101.8 L490 111.7 L500 122.2 L510 133.1 L520 144.3 L530 155.7 L540 166.9 L550 177.8 L560 188.3 L570 198.2 L580 207.4 L590 215.6 L600 222.8 L610 228.9 L620 233.7 L630 237.2 L640 239.3 L650 240 L660 240 L670 240 L680 240 L690 240 L700 240" style="fill:none;stroke:var(--fig-blue);stroke-width:2.2;stroke-dasharray:7 5"/>
   <line x1="680" y1="240" x2="700" y2="240" style="stroke:var(--fig-blue);stroke-width:2.2;fill:none"/>
   <path d="M710 240 L700 245 L700 235 Z" style="fill:var(--fig-blue)"/>
-  <line x1="40" y1="150" x2="110" y2="150" style="stroke:var(--fig-ink);stroke-width:2.5;fill:none"/>
-  <path d="M120 150 L110 155 L110 145 Z" style="fill:var(--fig-ink)"/>
-  <text x="80" y="140" text-anchor="middle" class="esys-3-q-foehn-mountain-s">바람</text>
+  <line x1="100" y1="140" x2="160" y2="140" style="stroke:var(--fig-ink);stroke-width:2.5;fill:none"/>
+  <path d="M170 140 L160 145 L160 135 Z" style="fill:var(--fig-ink)"/>
+  <text x="135" y="128" text-anchor="middle" class="esys-3-q-foehn-mountain-s">바람</text>
   <circle cx="110" cy="240" r="6" style="fill:var(--fig-blue)"/>
   <text x="110" y="272" text-anchor="middle" class="esys-3-q-foehn-mountain-b">출발(0 m)</text>
   <text x="110" y="292" text-anchor="middle" class="esys-3-q-foehn-mountain-s">기온 20 °C, 이슬점 12 °C</text>
   <circle cx="400" cy="60" r="6" style="fill:var(--fig-blue)"/>
   <text x="400" y="46" text-anchor="middle" class="esys-3-q-foehn-mountain-b">산꼭대기(2000 m)</text>
   <circle cx="690" cy="240" r="6" style="fill:var(--fig-blue)"/>
-  <text x="680" y="272" text-anchor="middle" class="esys-3-q-foehn-mountain-b">반대편 지표(0 m)</text>
-  <text x="680" y="292" text-anchor="middle" class="esys-3-q-foehn-mountain-s">기온 ?, 이슬점 ?</text>
+  <text x="712" y="272" text-anchor="end" class="esys-3-q-foehn-mountain-b">반대편 지표(0 m)</text>
+  <text x="712" y="292" text-anchor="end" class="esys-3-q-foehn-mountain-s">기온 ?, 이슬점 ?</text>
 </svg>

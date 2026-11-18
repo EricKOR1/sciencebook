@@ -816,6 +816,8 @@ $Q_p = \dfrac{(0.60)^2}{(0.50)^2(0.20)} = 7.2 > 4.3$이므로 $\mathrm{SO_3}$가
 
 처음에 $Q = \infty > K$이므로 역반응으로 $y$만큼 $\mathrm{PCl_5}$가 생긴다: $\dfrac{(0.100 - y)^2}{y} = 0.0420$ → $y^2 - 0.242y + 0.0100 = 0$ → $y = 0.0529$ (다른 근 0.189는 농도를 음수로 만든다). 원자의 총량이 같으면 어느 쪽에서 출발하든 **같은 평형**에 도달한다.
 
+<!-- fig:uchem-8-q-two-directions -->
+
 </details>
 
 **7.** 엔진 속 높은 온도에서 $\mathrm{N_2(g) + O_2(g) \rightleftharpoons 2NO(g)}$의 $K_p = 1.0\times10^{-5}$이라 하자. 처음 분압이 $P_{\mathrm{N_2}} = 0.78\ \mathrm{bar}$, $P_{\mathrm{O_2}} = 0.21\ \mathrm{bar}$인 공기가 평형에 도달했을 때 NO의 분압을 구하고, 근사가 타당한지 확인하시오.
@@ -852,6 +854,8 @@ $P_{\mathrm{H_2S}} = 0.300 + 0.227 = 0.527\ \mathrm{bar}$, 전체 $0.227 + 0.527
 
 $\alpha = \sqrt{\dfrac{0.150}{4\times0.500 + 0.150}} = \sqrt{0.0698} = 0.264$, $P_{\mathrm{NO_2}} = \dfrac{2\times0.264}{1.264}\times0.500 = 0.209\ \mathrm{bar}$
 1.00 bar에서는 $\alpha = 0.190$이었다. 압력을 낮추자 기체 몰수가 늘어나는 정반응(해리) 쪽으로 이동해 해리도가 커졌으므로 르샤틀리에 원리와 맞는다.
+
+<!-- fig:uchem-8-q-dissociation-pressure -->
 
 </details>
 
@@ -912,6 +916,8 @@ $\alpha = \sqrt{\dfrac{0.150}{4\times0.500 + 0.150}} = \sqrt{0.0698} = 0.264$, $
 
 **채점 포인트** ① Q 계산과 방향 ② 계수비를 반영한 ICE 표 ③ 물리적으로 맞는 근 선택
 
+<!-- fig:uchem-8-q-no2-approach -->
+
 </details>
 
 **14.** 600 K에서 $\mathrm{NH_4Cl(s) \rightleftharpoons NH_3(g) + HCl(g)}$의 $K_p = 0.0400$이라 하자. 5.00 L 용기에 $\mathrm{NH_3}$와 HCl이 각각 0.150 bar 들어 있다. (1) 고체 $\mathrm{NH_4Cl}$이 없을 때 이 혼합물에서 반응이 일어나는가? (2) 고체 $\mathrm{NH_4Cl}$을 충분히 넣으면 평형 분압은 얼마가 되고, 고체는 몇 mol 분해되는가? (3) 이 반응의 $K_c$를 구하시오. ($R = 0.08314\ \mathrm{L\cdot bar/(mol\cdot K)}$)
@@ -929,7 +935,9 @@ $\alpha = \sqrt{\dfrac{0.150}{4\times0.500 + 0.150}} = \sqrt{0.0698} = 0.264$, $
 
 </details>
 
-**15.** 예제 11의 $\mathrm{N_2O_4(g) \rightleftharpoons 2NO_2(g)}$($K_p = 0.150$)가 전체 압력 1.00 bar에서 평형(해리도 0.190)에 있다. (1) 부피를 일정하게 두고 아르곤을 넣어 전체 압력을 2.00 bar로 만들었다. 해리도는? (2) 전체 압력을 1.00 bar로 유지하면서 아르곤을 넣었더니 $\mathrm{N_2O_4}$와 $\mathrm{NO_2}$ 분압의 합이 0.500 bar가 되었다. 새 해리도를 구하시오. (3) 두 경우의 차이를 Q로 설명하시오.
+**15.** 예제 11의 $\mathrm{N_2O_4(g) \rightleftharpoons 2NO_2(g)}$($K_p = 0.150$)가 전체 압력 1.00 bar에서 평형(해리도 0.190)에 있다(아래 그림 (가)). (1) 그림 (나)와 같이 부피를 일정하게 두고 아르곤을 넣어 전체 압력을 2.00 bar로 만들었다. 해리도는? (2) 그림 (다)와 같이 전체 압력을 1.00 bar로 유지하면서 아르곤을 넣었더니 $\mathrm{N_2O_4}$와 $\mathrm{NO_2}$ 분압의 합이 0.500 bar가 되었다. 새 해리도를 구하시오. (3) 두 경우의 차이를 Q로 설명하시오.
+
+<!-- fig:uchem-8-q-argon-addition -->
 
 <details>
 <summary>정답 및 해설</summary>

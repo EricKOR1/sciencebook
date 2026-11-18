@@ -19,7 +19,7 @@
   <text x="52" y="85" text-anchor="end" class="esys-3-q-foehn-profile-s">1500</text>
   <line x1="64" y1="80" x2="700" y2="80" class="esys-3-q-foehn-profile-gr"/>
   <text x="52" y="62" text-anchor="end" class="esys-3-q-foehn-profile-s">높이(m)</text>
-  <path d="M200.1 200 C170.1 160 260 50 320 46 C350 20 400 40 386 74 L246.1 200 Z" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.5"/>
+  <path d="M240.1 200 L247.1 191.8 L254.1 183.3 L261.1 174.8 L268.1 166.2 L275.1 157.6 L282.1 149.2 L289.1 140.9 L296.1 132.9 L303.1 125.3 L310.1 118 L317.1 111.3 L324 105 L331 99.4 L338 94.4 L345 90.1 L352 86.5 L359 83.7 L366 81.6 L373 80.4 L380 80 L350 58 L343 58.4 L336 59.6 L329 61.7 L322 64.5 L315 68.1 L308 72.4 L301 77.4 L294 83 L287.1 89.3 L280.1 96 L273.1 103.3 L266.1 110.9 L259.1 118.9 L252.1 127.2 L245.1 135.6 L238.1 144.2 L231.1 152.8 L224.1 161.3 L217.1 169.8 L210.1 178 Z" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.5;stroke-linejoin:round"/>
   <line x1="180.1" y1="200" x2="300.1" y2="200" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:4 3"/>
   <line x1="230.1" y1="206" x2="224.1" y2="222" style="stroke:var(--fig-blue);stroke-width:1.5"/>
   <line x1="260.1" y1="206" x2="254.1" y2="222" style="stroke:var(--fig-blue);stroke-width:1.5"/>
@@ -32,9 +32,9 @@
   <text x="380" y="50" text-anchor="middle" class="esys-3-q-foehn-profile-s">5 °C / 5 °C</text>
   <text x="660" y="286" text-anchor="middle" class="esys-3-q-foehn-profile-b">반대편 0 m</text>
   <text x="660" y="304" text-anchor="middle" class="esys-3-q-foehn-profile-s">20 °C / 8 °C</text>
-  <text x="205" y="248" text-anchor="middle" class="esys-3-q-foehn-profile-s" style="fill:var(--fig-blue)">건조 단열</text>
-  <text x="310" y="150" text-anchor="middle" class="esys-3-q-foehn-profile-s" style="fill:var(--fig-green)">습윤 단열</text>
-  <text x="520" y="180" text-anchor="middle" class="esys-3-q-foehn-profile-s" style="fill:var(--fig-red)">건조 단열</text>
-  <text x="520" y="198" text-anchor="middle" class="esys-3-q-foehn-profile-s" style="fill:var(--fig-red)">(10 °C/km)</text>
+  <text x="110" y="244" text-anchor="middle" class="esys-3-q-foehn-profile-s" style="fill:var(--fig-blue)">건조 단열</text>
+  <text x="222" y="160" text-anchor="end" class="esys-3-q-foehn-profile-s" style="fill:var(--fig-green)">습윤 단열(구름 속)</text>
+  <text x="560" y="150" text-anchor="middle" class="esys-3-q-foehn-profile-s" style="fill:var(--fig-red)">건조 단열</text>
+  <text x="560" y="168" text-anchor="middle" class="esys-3-q-foehn-profile-s" style="fill:var(--fig-red)">(10 °C/km)</text>
   <text x="700" y="24" text-anchor="end" class="esys-3-q-foehn-profile-s">(기온 / 이슬점)</text>
 </svg>
