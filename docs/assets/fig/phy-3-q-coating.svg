@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 260" class="fig-small" role="img" aria-labelledby="t-phy-3-q-coating d-phy-3-q-coating">
+  <title id="t-phy-3-q-coating">그림 물리학 3-11 예제 3의 반사 방지 코팅</title>
+  <desc id="d-phy-3-q-coating">렌즈(유리) 표면에 얇은 코팅 막을 입혔다. 비스듬히 들어온 빛의 일부는 막의 윗면에서 반사하고(①), 일부는 막 안으로 들어가 아랫면에서 반사한 뒤 다시 나온다(②). 막의 두께와 각도는 알아보기 쉽게 과장했다.</desc>
+  <style>.phy-3-q-coating-t{font-size:14px;fill:var(--fig-ink)} .phy-3-q-coating-s{font-size:13px;fill:var(--fig-muted)} .phy-3-q-coating-b{font-weight:700} .phy-3-q-coating-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .phy-3-q-coating-r{fill:var(--fig-red)} .phy-3-q-coating-bl{fill:var(--fig-blue)} .phy-3-q-coating-g{fill:var(--fig-green)}</style>
+  <rect x="10" y="120" width="450" height="40" rx="0" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.2"/>
+  <rect x="10" y="160" width="450" height="90" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <line x1="170" y1="50" x2="170" y2="130" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round;stroke-dasharray:3 3"/>
+  <line x1="120" y1="33.4" x2="165" y2="111.3" style="stroke:var(--fig-amber);stroke-width:2.5;stroke-linecap:butt"/>
+  <path d="M170 120 L159.3 113.5 L169.7 107.4 Z" style="fill:var(--fig-amber);stroke:none"/>
+  <text x="122" y="27.4" text-anchor="middle" class="phy-3-q-coating-s">들어오는 빛</text>
+  <line x1="170" y1="120" x2="208" y2="54.2" style="stroke:var(--fig-red);stroke-width:2.2;stroke-linecap:butt"/>
+  <path d="M212.5 46.4 L212.3 57.8 L202.7 52.3 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="170" y1="120" x2="185.5" y2="160" style="stroke:var(--fig-amber);stroke-width:2;stroke-linecap:round"/>
+  <line x1="185.5" y1="160" x2="201.1" y2="120" style="stroke:var(--fig-amber);stroke-width:2;stroke-linecap:round"/>
+  <line x1="201.1" y1="120" x2="239.1" y2="54.2" style="stroke:var(--fig-violet);stroke-width:2.2;stroke-linecap:butt"/>
+  <path d="M243.6 46.4 L243.4 57.8 L233.8 52.3 Z" style="fill:var(--fig-violet);stroke:none"/>
+  <line x1="185.5" y1="160" x2="210.3" y2="230" style="stroke:var(--fig-amber);stroke-width:1.6;stroke-linecap:round;stroke-dasharray:5 4"/>
+  <text x="208.5" y="38.4" text-anchor="middle" class="phy-3-q-coating-h" style="fill:var(--fig-red)">①</text>
+  <text x="251.6" y="38.4" text-anchor="middle" class="phy-3-q-coating-h" style="fill:var(--fig-violet)">②</text>
+  <text x="450" y="100" text-anchor="end" class="phy-3-q-coating-t">공기</text>
+  <text x="450" y="146" text-anchor="end" class="phy-3-q-coating-t">코팅 막</text>
+  <text x="450" y="190" text-anchor="end" class="phy-3-q-coating-t">렌즈(유리)</text>
+  <text x="225.5" y="226" class="phy-3-q-coating-s">투과하는 빛</text>
+</svg>
