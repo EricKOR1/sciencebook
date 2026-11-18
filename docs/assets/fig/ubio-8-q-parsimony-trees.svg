@@ -1,50 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" role="img" aria-labelledby="t-ubio-8-q-parsimony-trees d-ubio-8-q-parsimony-trees">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 310" role="img" aria-labelledby="t-ubio-8-q-parsimony-trees d-ubio-8-q-parsimony-trees">
 <title id="t-ubio-8-q-parsimony-trees">그림 일반생명과학 8-11 예제 12 풀이의 세 나무와 변화 횟수</title>
 <desc id="d-ubio-8-q-parsimony-trees">네 서열로 만들 수 있는 세 가지 뿌리 없는 나무. 가지 옆의 동그라미 숫자는 그 가지에서 염기가 바뀐 위치이며(가능한 배치 중 하나), 숫자의 총개수가 그 나무에 필요한 최소 변화 횟수이다. ((W,X),(Y,Z))가 6번으로 가장 적다.</desc>
 <style>.ubio-8-q-parsimony-trees-t{font-size:14px;fill:var(--fig-ink)} .ubio-8-q-parsimony-trees-s{font-size:13px;fill:var(--fig-muted)} .ubio-8-q-parsimony-trees-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .ubio-8-q-parsimony-trees-b{font-size:14px;font-weight:700;fill:var(--fig-ink)} .ubio-8-q-parsimony-trees-sup{font-size:11px;fill:var(--fig-ink)}</style>
-<rect x="20.0" y="20.0" width="215.0" height="250.0" rx="8" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5;"/>
-<line x1="95.0" y1="140.0" x2="160.0" y2="140.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
-<line x1="95.0" y1="140.0" x2="50.0" y2="80.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
-<text x="40.0" y="74.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">W</text>
-<line x1="95.0" y1="140.0" x2="50.0" y2="200.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
-<text x="40.0" y="218.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">X</text>
-<text x="80.5" y="175.0" text-anchor="start" class="ubio-8-q-parsimony-trees-t" style="fill:var(--fig-red)">③</text>
-<line x1="160.0" y1="140.0" x2="205.0" y2="80.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
-<text x="215.0" y="74.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">Y</text>
-<line x1="160.0" y1="140.0" x2="205.0" y2="200.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
-<text x="215.0" y="218.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">Z</text>
-<text x="174.5" y="175.0" text-anchor="end" class="ubio-8-q-parsimony-trees-t" style="fill:var(--fig-red)">③④</text>
-<text x="127.5" y="130.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-t" style="fill:var(--fig-red)">①②⑤</text>
-<text x="127.0" y="46.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">((W,X),(Y,Z))</text>
-<text x="127.0" y="252.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-h">변화 6번</text>
-<rect x="255.0" y="20.0" width="215.0" height="250.0" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1;"/>
-<line x1="330.0" y1="140.0" x2="395.0" y2="140.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
-<line x1="330.0" y1="140.0" x2="285.0" y2="80.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
-<text x="275.0" y="74.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">W</text>
-<line x1="330.0" y1="140.0" x2="285.0" y2="200.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
-<text x="275.0" y="218.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">Y</text>
-<text x="315.5" y="175.0" text-anchor="start" class="ubio-8-q-parsimony-trees-t" style="fill:var(--fig-red)">①②⑤</text>
-<line x1="395.0" y1="140.0" x2="440.0" y2="80.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
-<text x="450.0" y="74.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">X</text>
-<line x1="395.0" y1="140.0" x2="440.0" y2="200.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
-<text x="450.0" y="218.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">Z</text>
-<text x="409.5" y="175.0" text-anchor="end" class="ubio-8-q-parsimony-trees-t" style="fill:var(--fig-red)">①②④⑤</text>
-<text x="362.5" y="130.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-t" style="fill:var(--fig-red)">③</text>
-<text x="362.0" y="46.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">((W,Y),(X,Z))</text>
-<text x="362.0" y="252.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-h">변화 8번</text>
-<rect x="490.0" y="20.0" width="215.0" height="250.0" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1;"/>
-<line x1="565.0" y1="140.0" x2="630.0" y2="140.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
-<line x1="565.0" y1="140.0" x2="520.0" y2="80.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
-<text x="510.0" y="74.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">W</text>
-<line x1="565.0" y1="140.0" x2="520.0" y2="200.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
-<text x="510.0" y="218.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">Z</text>
-<text x="550.5" y="175.0" text-anchor="start" class="ubio-8-q-parsimony-trees-t" style="fill:var(--fig-red)">①②③④⑤</text>
-<line x1="630.0" y1="140.0" x2="675.0" y2="80.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
-<text x="685.0" y="74.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">X</text>
-<text x="644.5" y="115.0" text-anchor="end" class="ubio-8-q-parsimony-trees-t" style="fill:var(--fig-red)">③</text>
-<line x1="630.0" y1="140.0" x2="675.0" y2="200.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
-<text x="685.0" y="218.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">Y</text>
-<text x="644.5" y="175.0" text-anchor="end" class="ubio-8-q-parsimony-trees-t" style="fill:var(--fig-red)">①②⑤</text>
-<text x="597.0" y="46.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">((W,Z),(X,Y))</text>
-<text x="597.0" y="252.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-h">변화 9번</text>
+<rect x="20.0" y="16.0" width="215.0" height="284.0" rx="8" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5;"/>
+<line x1="95.0" y1="150.0" x2="160.0" y2="150.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
+<line x1="95.0" y1="150.0" x2="50.0" y2="90.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
+<text x="50.0" y="82.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">W</text>
+<line x1="95.0" y1="150.0" x2="50.0" y2="210.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
+<text x="50.0" y="230.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">X</text>
+<text x="36.0" y="248.0" text-anchor="start" class="ubio-8-q-parsimony-trees-t" style="fill:var(--fig-red)">③</text>
+<line x1="160.0" y1="150.0" x2="205.0" y2="90.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
+<text x="205.0" y="82.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">Y</text>
+<line x1="160.0" y1="150.0" x2="205.0" y2="210.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
+<text x="205.0" y="230.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">Z</text>
+<text x="219.0" y="248.0" text-anchor="end" class="ubio-8-q-parsimony-trees-t" style="fill:var(--fig-red)">③④</text>
+<text x="127.5" y="140.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-t" style="fill:var(--fig-red)">①②⑤</text>
+<text x="127.0" y="40.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">((W,X),(Y,Z))</text>
+<text x="127.0" y="288.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-h">변화 6번</text>
+<rect x="255.0" y="16.0" width="215.0" height="284.0" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1;"/>
+<line x1="330.0" y1="150.0" x2="395.0" y2="150.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
+<line x1="330.0" y1="150.0" x2="285.0" y2="90.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
+<text x="285.0" y="82.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">W</text>
+<line x1="330.0" y1="150.0" x2="285.0" y2="210.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
+<text x="285.0" y="230.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">Y</text>
+<text x="271.0" y="248.0" text-anchor="start" class="ubio-8-q-parsimony-trees-t" style="fill:var(--fig-red)">①②⑤</text>
+<line x1="395.0" y1="150.0" x2="440.0" y2="90.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
+<text x="440.0" y="82.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">X</text>
+<line x1="395.0" y1="150.0" x2="440.0" y2="210.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
+<text x="440.0" y="230.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">Z</text>
+<text x="454.0" y="248.0" text-anchor="end" class="ubio-8-q-parsimony-trees-t" style="fill:var(--fig-red)">①②④⑤</text>
+<text x="362.5" y="140.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-t" style="fill:var(--fig-red)">③</text>
+<text x="362.0" y="40.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">((W,Y),(X,Z))</text>
+<text x="362.0" y="288.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-h">변화 8번</text>
+<rect x="490.0" y="16.0" width="215.0" height="284.0" rx="8" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1;"/>
+<line x1="565.0" y1="150.0" x2="630.0" y2="150.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
+<line x1="565.0" y1="150.0" x2="520.0" y2="90.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
+<text x="520.0" y="82.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">W</text>
+<line x1="565.0" y1="150.0" x2="520.0" y2="210.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
+<text x="520.0" y="230.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">Z</text>
+<text x="506.0" y="248.0" text-anchor="start" class="ubio-8-q-parsimony-trees-t" style="fill:var(--fig-red)">①②③④⑤</text>
+<line x1="630.0" y1="150.0" x2="675.0" y2="90.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
+<text x="675.0" y="82.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">X</text>
+<text x="689.0" y="64.0" text-anchor="end" class="ubio-8-q-parsimony-trees-t" style="fill:var(--fig-red)">③</text>
+<line x1="630.0" y1="150.0" x2="675.0" y2="210.0" style="stroke:var(--fig-ink);stroke-width:2.4;"/>
+<text x="675.0" y="230.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">Y</text>
+<text x="689.0" y="248.0" text-anchor="end" class="ubio-8-q-parsimony-trees-t" style="fill:var(--fig-red)">①②⑤</text>
+<text x="597.0" y="40.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-b">((W,Z),(X,Y))</text>
+<text x="597.0" y="288.0" text-anchor="middle" class="ubio-8-q-parsimony-trees-h">변화 9번</text>
 </svg>
