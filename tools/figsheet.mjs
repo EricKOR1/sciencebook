@@ -1,5 +1,6 @@
 // 그림 모아 보기(점검용): node figsheet.mjs <저장할 png> <light|dark> <단원id:그림이름> …
 // 빌드된 쪽에서 그림(figure#fig-이름)을 찍어 한 장으로 모은다. 여러 그림을 한눈에 확인할 때 쓴다.
+// 접힌 정답·해설(<details>) 안의 그림도 펼쳐서 찍는다.
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
@@ -15,6 +16,7 @@ for (const it of items) {
   const [pg, fig] = it.split(':');
   let p = pages.get(pg);
   if (!p) { p = await b.newPage(); await p.setViewport({ width: 1100, height: 900, deviceScaleFactor: 1 }); await p.emulateMediaFeatures([{ name: 'prefers-color-scheme', value: theme }]); await p.goto('file://' + path.resolve(HERE, '../docs', pg + '.html'), { waitUntil: 'load' }); pages.set(pg, p); }
+  await p.evaluate(() => document.querySelectorAll('details').forEach((d) => { d.open = true; }));   // 정답·해설 안의 그림도 찍히게 펼친다
   const el = await p.$('#fig-' + fig + ' .fig-art') || await p.$('#fig-' + fig);
   if (!el) { console.log('없음:', it); continue; }
   const f = path.join(tmp, fig + '.png');

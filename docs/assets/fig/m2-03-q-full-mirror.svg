@@ -3,9 +3,9 @@
   <desc id="d-m2-03-q-full-mirror">발끝(빨강)과 정수리(파랑)에서 나온 빛이 거울에서 반사되어 눈(높이 150 cm)에 들어온다. 반사점은 눈과 거울 뒤 상의 각 점을 이은 선이 거울면과 만나는 곳으로, 높이 75 cm와 155 cm이다. 거울은 그 사이 80 cm만 있으면 된다. 높이(cm)는 비율에 맞게 그렸다.</desc>
   <style>.m2-03-q-full-mirror-t{font-size:14px;fill:var(--fig-ink)} .m2-03-q-full-mirror-s{font-size:13px;fill:var(--fig-muted)} .m2-03-q-full-mirror-b{font-size:15px;font-weight:700;fill:var(--fig-ink)} </style>
 <line x1="20" y1="300" x2="460" y2="300" style="stroke:var(--fig-line);stroke-width:2"/>
-<rect x="270" y="7.5" width="6" height="292.5" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1"/>
+<rect x="270" y="33" width="6" height="267" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1"/>
 <rect x="269" y="67.5" width="8" height="120" style="fill:var(--fig-teal)"/>
-<text x="273" y="-0.5" text-anchor="middle" class="m2-03-q-full-mirror-s">평면거울</text>
+<text x="273" y="23" text-anchor="middle" class="m2-03-q-full-mirror-s">평면거울</text>
 <circle cx="120" cy="72" r="12" style="stroke:var(--fig-ink);stroke-width:2.4;fill:none"/>
 <path d="M120 84 L120 180 M120 180 L106 300 M120 180 L134 300 M100 112.5 L120 102 L140 112.5" style="stroke:var(--fig-ink);stroke-width:2.4;fill:none"/>
 <circle cx="420" cy="72" r="12" style="stroke:var(--fig-ink);stroke-width:2.4;fill:none;stroke-dasharray:5 4;opacity:0.65"/>
@@ -24,8 +24,8 @@
 <line x1="278" y1="187.5" x2="292" y2="187.5" style="stroke:var(--fig-ink);stroke-width:1.2"/>
 <line x1="278" y1="67.5" x2="292" y2="67.5" style="stroke:var(--fig-ink);stroke-width:1.2"/>
 <text x="296" y="192.5" class="m2-03-q-full-mirror-t">75 cm</text>
-<text x="296" y="64.5" class="m2-03-q-full-mirror-t">155 cm</text>
-<text x="296" y="132.5" class="m2-03-q-full-mirror-b" style="fill:var(--fig-teal)">80 cm</text>
+<text x="296" y="83.5" class="m2-03-q-full-mirror-t">155 cm</text>
+<text x="296" y="140" class="m2-03-q-full-mirror-b" style="fill:var(--fig-teal)">80 cm</text>
 <line x1="40" y1="60" x2="40" y2="300" style="stroke:var(--fig-muted);stroke-width:1"/>
 <line x1="34" y1="60" x2="106" y2="60" style="stroke:var(--fig-muted);stroke-width:0.8;stroke-dasharray:3 3"/>
 <line x1="34" y1="75" x2="114" y2="75" style="stroke:var(--fig-muted);stroke-width:0.8;stroke-dasharray:3 3"/>

@@ -10,8 +10,8 @@
   <text x="230" y="239" text-anchor="middle" class="m1-07-q-moon-sunset-sky-b">남</text>
   <line x1="420" y1="215" x2="420" y2="221" style="stroke:var(--fig-ink);stroke-width:1.5"/>
   <text x="420" y="239" text-anchor="middle" class="m1-07-q-moon-sunset-sky-b">서</text>
-  <ellipse cx="420" cy="215" rx="60" ry="26" style="fill:var(--fig-amber);fill-opacity:0.35;stroke:none"/>
-  <text x="420" y="181" text-anchor="middle" class="m1-07-q-moon-sunset-sky-s">해가 진 쪽</text>
+  <path d="M370 215 A40 24 0 0 1 450 215 Z" style="fill:var(--fig-amber);fill-opacity:0.35;stroke:none"/>
+  <text x="410" y="183" text-anchor="middle" class="m1-07-q-moon-sunset-sky-s">해가 진 쪽</text>
   <circle cx="230" cy="85" r="24" style="fill:#3b4352;stroke:var(--fig-ink);stroke-width:1.2"/>
   <path d="M230 61 A24 24 0 0 1 230 109 Z" style="fill:#f4e3a0;stroke:none"/>
   <circle cx="230" cy="85" r="24" style="fill:none;stroke:var(--fig-ink);stroke-width:1.2"/>
