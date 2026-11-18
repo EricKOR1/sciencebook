@@ -3,16 +3,22 @@
   <desc id="d-5-5-q-induction-trials">실험 A~D에서 코일의 감은 수(200회, 400회), 자석의 세기(약한 자석, 센 자석), 자석을 넣는 빠르기(천천히, 빠르게)를 다르게 하였다. 자석은 매번 같은 거리만큼 코일 속으로 넣었다. 감은 횟수와 화살표 길이는 실제 값이 아닌 모식도이다.</desc>
   <style>.f5-5-q-induction-trials-t{font-size:14px;fill:var(--fig-ink)} .f5-5-q-induction-trials-s{font-size:13px;fill:var(--fig-muted)} .f5-5-q-induction-trials-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .f5-5-q-induction-trials-ax{stroke:var(--fig-ink);stroke-width:1.4;fill:none} .f5-5-q-induction-trials-grid{stroke:var(--fig-line);stroke-width:0.8;fill:none} .f5-5-q-induction-trials-w{stroke:var(--fig-ink);stroke-width:2;fill:none} .f5-5-q-induction-trials-coil{stroke:var(--fig-amber);stroke-width:2.6;fill:none}</style>
   <text x="90" y="30" text-anchor="middle" class="f5-5-q-induction-trials-h">A</text>
+  <path d="M90.0 106 A5 24 0 0 0 90.0 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M102.0 106 A5 24 0 0 0 102.0 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M114.0 106 A5 24 0 0 0 114.0 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M126.0 106 A5 24 0 0 0 126.0 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M138.0 106 A5 24 0 0 0 138.0 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M150.0 106 A5 24 0 0 0 150.0 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
   <rect x="14" y="120" width="35" height="20" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.4"/>
   <text x="31.5" y="135" text-anchor="middle" class="f5-5-q-induction-trials-h" style="fill:var(--fig-blue);font-size:14px">S</text>
   <rect x="49" y="120" width="35" height="20" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.4"/>
   <text x="66.5" y="135" text-anchor="middle" class="f5-5-q-induction-trials-h" style="fill:var(--fig-red);font-size:14px">N</text>
-  <ellipse cx="90.0" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="102.0" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="114.0" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="126.0" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="138.0" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="150.0" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
+  <path d="M90.0 106 A5 24 0 0 1 90.0 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M102.0 106 A5 24 0 0 1 102.0 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M114.0 106 A5 24 0 0 1 114.0 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M126.0 106 A5 24 0 0 1 126.0 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M138.0 106 A5 24 0 0 1 138.0 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M150.0 106 A5 24 0 0 1 150.0 154" class="f5-5-q-induction-trials-coil"/>
   <polyline points="90,154 90,222 101,222" class="f5-5-q-induction-trials-w" style="stroke-width:1.6"/>
   <polyline points="150,154 150,222 139,222" class="f5-5-q-induction-trials-w" style="stroke-width:1.6"/>
   <circle cx="120" cy="222" r="19" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
@@ -27,16 +33,22 @@
   <text x="120" y="268" text-anchor="middle" class="f5-5-q-induction-trials-s">검류계</text>
   <line x1="180" y1="20" x2="180" y2="285" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
   <text x="270" y="30" text-anchor="middle" class="f5-5-q-induction-trials-h">B</text>
+  <path d="M270.0 106 A5 24 0 0 0 270.0 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M282.0 106 A5 24 0 0 0 282.0 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M294.0 106 A5 24 0 0 0 294.0 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M306.0 106 A5 24 0 0 0 306.0 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M318.0 106 A5 24 0 0 0 318.0 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M330.0 106 A5 24 0 0 0 330.0 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
   <rect x="194" y="120" width="35" height="20" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.4"/>
   <text x="211.5" y="135" text-anchor="middle" class="f5-5-q-induction-trials-h" style="fill:var(--fig-blue);font-size:14px">S</text>
   <rect x="229" y="120" width="35" height="20" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.4"/>
   <text x="246.5" y="135" text-anchor="middle" class="f5-5-q-induction-trials-h" style="fill:var(--fig-red);font-size:14px">N</text>
-  <ellipse cx="270.0" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="282.0" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="294.0" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="306.0" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="318.0" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="330.0" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
+  <path d="M270.0 106 A5 24 0 0 1 270.0 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M282.0 106 A5 24 0 0 1 282.0 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M294.0 106 A5 24 0 0 1 294.0 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M306.0 106 A5 24 0 0 1 306.0 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M318.0 106 A5 24 0 0 1 318.0 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M330.0 106 A5 24 0 0 1 330.0 154" class="f5-5-q-induction-trials-coil"/>
   <polyline points="270,154 270,222 281,222" class="f5-5-q-induction-trials-w" style="stroke-width:1.6"/>
   <polyline points="330,154 330,222 319,222" class="f5-5-q-induction-trials-w" style="stroke-width:1.6"/>
   <circle cx="300" cy="222" r="19" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
@@ -51,22 +63,34 @@
   <text x="300" y="268" text-anchor="middle" class="f5-5-q-induction-trials-s">검류계</text>
   <line x1="360" y1="20" x2="360" y2="285" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
   <text x="450" y="30" text-anchor="middle" class="f5-5-q-induction-trials-h">C</text>
+  <path d="M450.0 106 A5 24 0 0 0 450.0 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M455.5 106 A5 24 0 0 0 455.5 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M460.9 106 A5 24 0 0 0 460.9 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M466.4 106 A5 24 0 0 0 466.4 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M471.8 106 A5 24 0 0 0 471.8 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M477.3 106 A5 24 0 0 0 477.3 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M482.7 106 A5 24 0 0 0 482.7 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M488.2 106 A5 24 0 0 0 488.2 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M493.6 106 A5 24 0 0 0 493.6 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M499.1 106 A5 24 0 0 0 499.1 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M504.5 106 A5 24 0 0 0 504.5 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M510.0 106 A5 24 0 0 0 510.0 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
   <rect x="374" y="120" width="35" height="20" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.4"/>
   <text x="391.5" y="135" text-anchor="middle" class="f5-5-q-induction-trials-h" style="fill:var(--fig-blue);font-size:14px">S</text>
   <rect x="409" y="120" width="35" height="20" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.4"/>
   <text x="426.5" y="135" text-anchor="middle" class="f5-5-q-induction-trials-h" style="fill:var(--fig-red);font-size:14px">N</text>
-  <ellipse cx="450.0" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="455.5" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="460.9" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="466.4" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="471.8" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="477.3" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="482.7" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="488.2" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="493.6" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="499.1" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="504.5" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="510.0" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
+  <path d="M450.0 106 A5 24 0 0 1 450.0 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M455.5 106 A5 24 0 0 1 455.5 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M460.9 106 A5 24 0 0 1 460.9 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M466.4 106 A5 24 0 0 1 466.4 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M471.8 106 A5 24 0 0 1 471.8 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M477.3 106 A5 24 0 0 1 477.3 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M482.7 106 A5 24 0 0 1 482.7 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M488.2 106 A5 24 0 0 1 488.2 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M493.6 106 A5 24 0 0 1 493.6 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M499.1 106 A5 24 0 0 1 499.1 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M504.5 106 A5 24 0 0 1 504.5 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M510.0 106 A5 24 0 0 1 510.0 154" class="f5-5-q-induction-trials-coil"/>
   <polyline points="450,154 450,222 461,222" class="f5-5-q-induction-trials-w" style="stroke-width:1.6"/>
   <polyline points="510,154 510,222 499,222" class="f5-5-q-induction-trials-w" style="stroke-width:1.6"/>
   <circle cx="480" cy="222" r="19" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
@@ -81,22 +105,34 @@
   <text x="480" y="268" text-anchor="middle" class="f5-5-q-induction-trials-s">검류계</text>
   <line x1="540" y1="20" x2="540" y2="285" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
   <text x="630" y="30" text-anchor="middle" class="f5-5-q-induction-trials-h">D</text>
+  <path d="M630.0 106 A5 24 0 0 0 630.0 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M635.5 106 A5 24 0 0 0 635.5 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M640.9 106 A5 24 0 0 0 640.9 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M646.4 106 A5 24 0 0 0 646.4 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M651.8 106 A5 24 0 0 0 651.8 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M657.3 106 A5 24 0 0 0 657.3 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M662.7 106 A5 24 0 0 0 662.7 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M668.2 106 A5 24 0 0 0 668.2 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M673.6 106 A5 24 0 0 0 673.6 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M679.1 106 A5 24 0 0 0 679.1 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M684.5 106 A5 24 0 0 0 684.5 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
+  <path d="M690.0 106 A5 24 0 0 0 690.0 154" class="f5-5-q-induction-trials-coil" style="stroke-opacity:0.45"/>
   <rect x="554" y="120" width="35" height="20" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2.4"/>
   <text x="571.5" y="135" text-anchor="middle" class="f5-5-q-induction-trials-h" style="fill:var(--fig-blue);font-size:14px">S</text>
   <rect x="589" y="120" width="35" height="20" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2.4"/>
   <text x="606.5" y="135" text-anchor="middle" class="f5-5-q-induction-trials-h" style="fill:var(--fig-red);font-size:14px">N</text>
-  <ellipse cx="630.0" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="635.5" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="640.9" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="646.4" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="651.8" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="657.3" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="662.7" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="668.2" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="673.6" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="679.1" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="684.5" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
-  <ellipse cx="690.0" cy="130" rx="5" ry="24" class="f5-5-q-induction-trials-coil"/>
+  <path d="M630.0 106 A5 24 0 0 1 630.0 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M635.5 106 A5 24 0 0 1 635.5 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M640.9 106 A5 24 0 0 1 640.9 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M646.4 106 A5 24 0 0 1 646.4 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M651.8 106 A5 24 0 0 1 651.8 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M657.3 106 A5 24 0 0 1 657.3 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M662.7 106 A5 24 0 0 1 662.7 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M668.2 106 A5 24 0 0 1 668.2 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M673.6 106 A5 24 0 0 1 673.6 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M679.1 106 A5 24 0 0 1 679.1 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M684.5 106 A5 24 0 0 1 684.5 154" class="f5-5-q-induction-trials-coil"/>
+  <path d="M690.0 106 A5 24 0 0 1 690.0 154" class="f5-5-q-induction-trials-coil"/>
   <polyline points="630,154 630,222 641,222" class="f5-5-q-induction-trials-w" style="stroke-width:1.6"/>
   <polyline points="690,154 690,222 679,222" class="f5-5-q-induction-trials-w" style="stroke-width:1.6"/>
   <circle cx="660" cy="222" r="19" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
