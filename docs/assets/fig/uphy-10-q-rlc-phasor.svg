@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 440" class="fig-small" role="img" aria-labelledby="t-uphy-10-q-rlc-phasor d-uphy-10-q-rlc-phasor">
+  <title id="t-uphy-10-q-rlc-phasor">그림 일반물리학 10-9 예제 8 풀이의 페이저</title>
+  <desc id="d-uphy-10-q-rlc-phasor">전류를 기준(가로)으로 그린 예제 8의 전압 페이저이다. V_R = 176 V는 가로, V_L = 443 V는 위, V_C = 312 V는 아래를 향한다. V_L과 V_C를 먼저 더하면 위로 131 V가 남고, 이것과 V_R의 합이 전원 전압 220 V이며 전류보다 약 36.7° 앞선다. 화살표 길이는 전압의 크기에 비례한다.</desc>
+  <style>.u10qb-t{font-size:14px;fill:var(--fig-ink)} .u10qb-b{font-size:14px;font-weight:600;fill:var(--fig-ink)} .u10qb-s{font-size:13px;fill:var(--fig-muted)} .u10qb-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}</style>
+<line x1="40.0" y1="235.0" x2="450.0" y2="235.0" style="stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:4 4;fill:none"/>
+<text x="450.0" y="255.0" text-anchor="end" class="u10qb-s">I (기준)</text>
+<line x1="110.0" y1="235.0" x2="110.0" y2="58.9" style="stroke:var(--fig-red);stroke-width:2.6;fill:none"/>
+<path d="M110.0 48.9 L115.0 58.9 L105.0 58.9 Z" style="fill:var(--fig-red);stroke:none"/>
+<text x="102.0" y="60.9" text-anchor="end" class="u10qb-t" style="fill:var(--fig-red)">V_L = 443 V</text>
+<line x1="110.0" y1="235.0" x2="110.0" y2="356.0" style="stroke:var(--fig-blue);stroke-width:2.6;fill:none"/>
+<path d="M110.0 366.0 L105.0 356.0 L115.0 356.0 Z" style="fill:var(--fig-blue);stroke:none"/>
+<text x="102.0" y="362.0" text-anchor="end" class="u10qb-t" style="fill:var(--fig-blue)">V_C = 312 V</text>
+<line x1="110.0" y1="235.0" x2="173.9" y2="235.0" style="stroke:var(--fig-green);stroke-width:2.8;fill:none"/>
+<path d="M183.9 235.0 L173.9 240.0 L173.9 230.0 Z" style="fill:var(--fig-green);stroke:none"/>
+<text x="147.0" y="257.0" text-anchor="middle" class="u10qb-t" style="fill:var(--fig-green)">V_R = 176 V</text>
+<line x1="183.9" y1="235.0" x2="183.9" y2="190.0" style="stroke:var(--fig-violet);stroke-width:2.2;stroke-dasharray:6 4;fill:none"/>
+<path d="M183.9 180.0 L188.9 190.0 L178.9 190.0 Z" style="fill:var(--fig-violet);stroke:none"/>
+<text x="193.9" y="212.5" class="u10qb-t" style="fill:var(--fig-violet)">V_L − V_C = 131 V</text>
+<line x1="110.0" y1="235.0" x2="175.9" y2="186.0" style="stroke:var(--fig-ink);stroke-width:3.2;fill:none"/>
+<path d="M183.9 180.0 L178.9 190.0 L172.9 181.9 Z" style="fill:var(--fig-ink);stroke:none"/>
+<text x="175.9" y="168.0" text-anchor="end" class="u10qb-b">V = 220 V</text>
+<path d="M156.0 235.0 A46 46 0 0 0 146.9 207.5" style="fill:none;stroke:var(--fig-muted);stroke-width:1.5"/>
+<text x="164.0" y="227.0" class="u10qb-s">φ ≈ 36.7°</text>
+<text x="240.0" y="425.0" text-anchor="middle" class="u10qb-s">실횻값 페이저 (길이는 크기에 비례)</text>
+</svg>

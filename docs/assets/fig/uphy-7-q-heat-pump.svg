@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 320" class="fig-small" role="img" aria-labelledby="t-uphy-7-q-heat-pump d-uphy-7-q-heat-pump">
+  <title id="t-uphy-7-q-heat-pump">그림 일반물리학 7-11 문제 10의 히트 펌프 에너지 흐름</title>
+  <desc id="d-uphy-7-q-heat-pump">히트 펌프가 전력 W를 받아 실외(0 °C)에서 열 Q_C를 가져와 실내(20 °C)에 난방 열 Q_H = 10 kW를 넣는다. 화살표의 굵기는 크기와 무관하다.</desc>
+  <style>.uphy-7-q-heat-pump-t{font-size:14px;fill:var(--fig-ink)} .uphy-7-q-heat-pump-b{font-size:14px;fill:var(--fig-ink);font-weight:700} .uphy-7-q-heat-pump-s{font-size:13px;fill:var(--fig-muted)} .uphy-7-q-heat-pump-h{font-size:15px;fill:var(--fig-ink);font-weight:700} .uphy-7-q-heat-pump-w{stroke:var(--fig-ink);stroke-width:2.2;fill:none;stroke-linejoin:round;stroke-linecap:round}</style>
+  <rect x="80.0" y="18.0" width="300.0" height="54.0" rx="6" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <text x="230.0" y="42.0" text-anchor="middle" class="uphy-7-q-heat-pump-b">실내 (고온 쪽)</text>
+  <text x="230.0" y="62.0" text-anchor="middle" class="uphy-7-q-heat-pump-t">T_H = 20 °C</text>
+  <rect x="80.0" y="248.0" width="300.0" height="54.0" rx="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="230.0" y="272.0" text-anchor="middle" class="uphy-7-q-heat-pump-b">실외 (저온 쪽)</text>
+  <text x="230.0" y="292.0" text-anchor="middle" class="uphy-7-q-heat-pump-t">T_C = 0 °C</text>
+  <circle cx="230.0" cy="160.0" r="40.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <text x="230.0" y="156.0" text-anchor="middle" class="uphy-7-q-heat-pump-b">히트</text>
+  <text x="230.0" y="174.0" text-anchor="middle" class="uphy-7-q-heat-pump-b">펌프</text>
+  <line x1="230.0" y1="119.0" x2="230.0" y2="85.2" style="stroke:var(--fig-red);stroke-width:4;stroke-linecap:butt"/>
+  <path d="M230.0 74.0 L235.7 86.8 L224.3 86.8 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="244.0" y="102.0" text-anchor="start" class="uphy-7-q-heat-pump-b" style="fill:var(--fig-red)">Q_H = 10 kW</text>
+  <line x1="230.0" y1="246.0" x2="230.0" y2="213.2" style="stroke:var(--fig-blue);stroke-width:4;stroke-linecap:butt"/>
+  <path d="M230.0 202.0 L235.7 214.8 L224.3 214.8 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <text x="244.0" y="230.0" text-anchor="start" class="uphy-7-q-heat-pump-b" style="fill:var(--fig-blue)">Q_C</text>
+  <line x1="70.0" y1="160.0" x2="176.8" y2="160.0" style="stroke:var(--fig-amber);stroke-width:4;stroke-linecap:butt"/>
+  <path d="M188.0 160.0 L175.2 165.7 L175.2 154.3 Z" style="fill:var(--fig-amber);stroke:none"/>
+  <text x="120.0" y="148.0" text-anchor="middle" class="uphy-7-q-heat-pump-b" style="fill:var(--fig-amber)">전력 W</text>
+  <text x="300.0" y="156.0" text-anchor="start" class="uphy-7-q-heat-pump-s">화살표 굵기는</text>
+  <text x="300.0" y="174.0" text-anchor="start" class="uphy-7-q-heat-pump-s">크기와 무관</text>
+</svg>

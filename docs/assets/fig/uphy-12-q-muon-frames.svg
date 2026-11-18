@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-uphy-12-q-muon-frames d-uphy-12-q-muon-frames">
+  <title id="t-uphy-12-q-muon-frames">그림 일반물리학 12-12 예제 1 풀이의 두 기준틀에서 본 뮤온</title>
+  <desc id="d-uphy-12-q-muon-frames">(가) 지상 기준틀: 뮤온이 고도 10 km에서 0.995c로 내려오는 데 33.5 μs가 걸리지만, 뮤온의 시계는 그 1/γ인 3.35 μs만 간다. (나) 뮤온 기준틀: 뮤온은 정지해 있고 대기층과 지면이 0.995c로 다가오며, 대기층의 두께는 10 km/γ ≈ 1.0 km로 수축해 있다. 두 칸의 세로 길이는 같은 축척이다.</desc>
+  <style>.u12qd-t{font-size:14px;fill:var(--fig-ink)} .u12qd-b{font-size:14px;font-weight:600;fill:var(--fig-ink)} .u12qd-s{font-size:13px;fill:var(--fig-muted)} .u12qd-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}</style>
+<text x="40.0" y="30.0" class="u12qd-b">(가) 지상 기준틀</text>
+<rect x="60.0" y="50.0" width="230.0" height="240.0" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:0"/>
+<rect x="40.0" y="290.0" width="270.0" height="12.0" rx="0" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+<text x="300.0" y="282.0" text-anchor="end" class="u12qd-s">지면</text>
+<line x1="74.0" y1="50.0" x2="86.0" y2="50.0" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
+<line x1="74.0" y1="290.0" x2="86.0" y2="290.0" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
+<line x1="80.0" y1="170.0" x2="80.0" y2="57.0" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
+<path d="M80.0 50.0 L83.5 57.0 L76.5 57.0 Z" style="fill:var(--fig-muted);stroke:none"/>
+<line x1="80.0" y1="170.0" x2="80.0" y2="283.0" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
+<path d="M80.0 290.0 L76.5 283.0 L83.5 283.0 Z" style="fill:var(--fig-muted);stroke:none"/>
+<text x="88.0" y="175.0" class="u12qd-t">10 km</text>
+<circle cx="200.0" cy="66.0" r="7" style="fill:var(--fig-red);stroke:var(--fig-ink);stroke-width:1.2"/>
+<text x="212.0" y="62.0" class="u12qd-s">뮤온 생성</text>
+<line x1="200.0" y1="80.0" x2="200.0" y2="150.0" style="stroke:var(--fig-red);stroke-width:2.6;fill:none"/>
+<path d="M200.0 160.0 L195.0 150.0 L205.0 150.0 Z" style="fill:var(--fig-red);stroke:none"/>
+<text x="208.0" y="130.0" class="u12qd-t" style="fill:var(--fig-red)">0.995c</text>
+<text x="175.0" y="200.0" text-anchor="middle" class="u12qd-t">지상 시계 33.5 μs</text>
+<text x="175.0" y="220.0" text-anchor="middle" class="u12qd-t">뮤온 시계 3.35 μs</text>
+<text x="380.0" y="30.0" class="u12qd-b">(나) 뮤온 기준틀</text>
+<rect x="400.0" y="150.0" width="230.0" height="24.0" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+<rect x="380.0" y="174.0" width="270.0" height="12.0" rx="0" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+<text x="650.0" y="206.0" text-anchor="end" class="u12qd-s">지면</text>
+<text x="640.0" y="142.0" text-anchor="end" class="u12qd-t">대기층 약 1.0 km</text>
+<circle cx="540.0" cy="148.0" r="7" style="fill:var(--fig-red);stroke:var(--fig-ink);stroke-width:1.2"/>
+<text x="552.0" y="114.0" class="u12qd-s">뮤온 (정지)</text>
+<line x1="430.0" y1="244.0" x2="430.0" y2="202.0" style="stroke:var(--fig-ink);stroke-width:2.4;fill:none"/>
+<path d="M430.0 192.0 L435.0 202.0 L425.0 202.0 Z" style="fill:var(--fig-ink);stroke:none"/>
+<line x1="500.0" y1="244.0" x2="500.0" y2="202.0" style="stroke:var(--fig-ink);stroke-width:2.4;fill:none"/>
+<path d="M500.0 192.0 L505.0 202.0 L495.0 202.0 Z" style="fill:var(--fig-ink);stroke:none"/>
+<text x="516.0" y="230.0" class="u12qd-t">0.995c로 다가옴</text>
+<text x="515.0" y="290.0" text-anchor="middle" class="u12qd-t">뮤온 시계 3.35 μs 동안 지나간다</text>
+</svg>

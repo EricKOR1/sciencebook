@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 200" class="fig-small" role="img" aria-labelledby="t-uphy-12-q-probe-velocity d-uphy-12-q-probe-velocity">
+  <title id="t-uphy-12-q-probe-velocity">그림 일반물리학 12-13 예제 3의 우주선과 탐사선</title>
+  <desc id="d-uphy-12-q-probe-velocity">우주선이 지구에 대해 0.80c로 날아가며, 앞쪽으로 우주선에 대해 0.60c인 탐사선을 쏘았다. 크기와 거리는 실제와 다른 모식도이다.</desc>
+  <style>.u12qe-t{font-size:14px;fill:var(--fig-ink)} .u12qe-b{font-size:14px;font-weight:600;fill:var(--fig-ink)} .u12qe-s{font-size:13px;fill:var(--fig-muted)} .u12qe-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}</style>
+<circle cx="50.0" cy="110.0" r="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+<text x="50.0" y="160.0" text-anchor="middle" class="u12qe-t">지구</text>
+<path d="M150 95 L250 95 L280 110 L250 125 L150 125 L140 110 Z" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+<path d="M150 95 L135 80 L165 95 Z M150 125 L135 140 L165 125 Z" style="fill:var(--fig-muted);stroke:var(--fig-ink);stroke-width:1.2"/>
+<text x="205.0" y="150.0" text-anchor="middle" class="u12qe-t">우주선</text>
+<line x1="160.0" y1="62.0" x2="250.0" y2="62.0" style="stroke:var(--fig-red);stroke-width:2.6;fill:none"/>
+<path d="M260.0 62.0 L250.0 67.0 L250.0 57.0 Z" style="fill:var(--fig-red);stroke:none"/>
+<text x="210.0" y="50.0" text-anchor="middle" class="u12qe-t" style="fill:var(--fig-red)">0.80c (지구에 대해)</text>
+<path d="M330 103 L362 103 L372 110 L362 117 L330 117 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+<text x="352.0" y="150.0" text-anchor="middle" class="u12qe-t">탐사선</text>
+<line x1="340.0" y1="82.0" x2="410.0" y2="82.0" style="stroke:var(--fig-violet);stroke-width:2.6;fill:none"/>
+<path d="M420.0 82.0 L410.0 87.0 L410.0 77.0 Z" style="fill:var(--fig-violet);stroke:none"/>
+<text x="470.0" y="72.0" text-anchor="end" class="u12qe-t" style="fill:var(--fig-violet)">0.60c (우주선에 대해)</text>
+</svg>
