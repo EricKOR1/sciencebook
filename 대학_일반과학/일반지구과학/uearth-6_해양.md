@@ -1228,7 +1228,7 @@ CCD보다 얕은 곳에서는 석회질 껍데기가 다 녹기 전에 쌓이지
 
 (1) 북반구에서 지형류는 높은 쪽을 오른쪽에 두므로, 북쪽으로 흐르면 오른쪽인 **동쪽**(아열대 환류의 가운데 쪽)이 높다.
 (2) $f = 7.29\times10^{-5}\ \mathrm{s^{-1}}$, $v = \dfrac{9.8}{7.29\times10^{-5}}\times\dfrac{1.0}{1.0\times10^5} \approx 1.3\ \mathrm{m/s}$
-(3) 평균 속력 $= 1.3/2 \approx 0.67\ \mathrm{m/s}$, 수송량 $= 0.67\times800\times1.0\times10^5 \approx 5.4\times10^7\ \mathrm{m^3/s} \approx 54\ \mathrm{Sv}$ — 세계의 모든 강을 합한 것(약 1 Sv)의 50배가 넘는다.
+(3) 평균 속력 $= 1.34/2 \approx 0.67\ \mathrm{m/s}$, 수송량 $= 0.67\times800\times1.0\times10^5 \approx 5.4\times10^7\ \mathrm{m^3/s} \approx 54\ \mathrm{Sv}$ — 세계의 모든 강을 합한 것(약 1 Sv)의 50배가 넘는다.
 
 <!-- fig:uearth-6-q-baroclinic -->
 
