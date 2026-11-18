@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 320" class="fig-small" role="img" aria-labelledby="t-uchem-3-q-piston-expansion d-uchem-3-q-piston-expansion">
+  <title id="t-uchem-3-q-piston-expansion">그림 일반화학 3-8 예제 1의 실린더 속 기체</title>
+  <desc id="d-uchem-3-q-piston-expansion">피스톤이 달린 실린더 속 기체가 열을 흡수하며 일정한 외부 압력 1.20 atm에 맞서 부피 2.00 L에서 5.00 L로 팽창한다. 기체 부분의 높이는 부피에 비례하게 그렸다.</desc>
+  <style>.uchem-3-q-piston-expansion-t{font-size:14px;fill:var(--fig-ink)} .uchem-3-q-piston-expansion-s{font-size:13px;fill:var(--fig-muted)} .uchem-3-q-piston-expansion-b{font-size:15px;font-weight:700;fill:var(--fig-ink)} .uchem-3-q-piston-expansion-p{font-size:13px;fill:var(--fig-ink)} .uchem-3-q-piston-expansion-r{font-size:14px;fill:var(--fig-red)} .uchem-3-q-piston-expansion-bl{font-size:14px;fill:var(--fig-blue)} .uchem-3-q-piston-expansion-g{font-size:14px;fill:var(--fig-green)}</style>
+  <rect x="60" y="210" width="100" height="60" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1.5"/>
+  <path d="M60.0 60 L60.0 270 L160.0 270 L160.0 60" style="fill:none;stroke:var(--fig-ink);stroke-width:2.2"/>
+  <rect x="62" y="198" width="96" height="12" rx="0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.5"/>
+  <line x1="85" y1="160" x2="85" y2="188.6" style="stroke:var(--fig-red);stroke-width:1.8"/>
+  <polygon points="85,195 81.4,187 88.6,187" style="fill:var(--fig-red);stroke:none;stroke-width:1"/>
+  <line x1="110" y1="160" x2="110" y2="188.6" style="stroke:var(--fig-red);stroke-width:1.8"/>
+  <polygon points="110,195 106.4,187 113.6,187" style="fill:var(--fig-red);stroke:none;stroke-width:1"/>
+  <line x1="135" y1="160" x2="135" y2="188.6" style="stroke:var(--fig-red);stroke-width:1.8"/>
+  <polygon points="135,195 131.4,187 138.6,187" style="fill:var(--fig-red);stroke:none;stroke-width:1"/>
+  <text x="110" y="154" text-anchor="middle" class="uchem-3-q-piston-expansion-r">P(외부) = 1.20 atm</text>
+  <text x="110" y="292" text-anchor="middle" class="uchem-3-q-piston-expansion-t">처음 2.00 L</text>
+  <text x="110" y="245" text-anchor="middle" class="uchem-3-q-piston-expansion-p">기체</text>
+  <rect x="280" y="120" width="100" height="150" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1.5"/>
+  <path d="M280.0 60 L280.0 270 L380.0 270 L380.0 60" style="fill:none;stroke:var(--fig-ink);stroke-width:2.2"/>
+  <rect x="282" y="108" width="96" height="12" rx="0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.5"/>
+  <line x1="305" y1="70" x2="305" y2="98.6" style="stroke:var(--fig-red);stroke-width:1.8"/>
+  <polygon points="305,105 301.4,97 308.6,97" style="fill:var(--fig-red);stroke:none;stroke-width:1"/>
+  <line x1="330" y1="70" x2="330" y2="98.6" style="stroke:var(--fig-red);stroke-width:1.8"/>
+  <polygon points="330,105 326.4,97 333.6,97" style="fill:var(--fig-red);stroke:none;stroke-width:1"/>
+  <line x1="355" y1="70" x2="355" y2="98.6" style="stroke:var(--fig-red);stroke-width:1.8"/>
+  <polygon points="355,105 351.4,97 358.6,97" style="fill:var(--fig-red);stroke:none;stroke-width:1"/>
+  <text x="330" y="64" text-anchor="middle" class="uchem-3-q-piston-expansion-r">P(외부) = 1.20 atm</text>
+  <text x="330" y="292" text-anchor="middle" class="uchem-3-q-piston-expansion-t">나중 5.00 L</text>
+  <text x="330" y="200" text-anchor="middle" class="uchem-3-q-piston-expansion-p">기체</text>
+  <line x1="180" y1="200" x2="251.2" y2="200" style="stroke:var(--fig-ink);stroke-width:2.2"/>
+  <polygon points="260,200 249,204.9 249,195.1" style="fill:var(--fig-ink);stroke:none;stroke-width:1"/>
+  <text x="220" y="186" text-anchor="middle" class="uchem-3-q-piston-expansion-s">팽창</text>
+  <line x1="220" y1="310" x2="220" y2="260" style="stroke:var(--fig-amber);stroke-width:2.2"/>
+  <polygon points="220,252 224.5,262 215.5,262" style="fill:var(--fig-amber);stroke:none;stroke-width:1"/>
+  <text x="232" y="300" class="uchem-3-q-piston-expansion-t">열 250 J 흡수</text>
+</svg>

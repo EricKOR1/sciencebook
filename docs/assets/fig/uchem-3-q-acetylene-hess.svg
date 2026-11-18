@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" role="img" aria-labelledby="t-uchem-3-q-acetylene-hess d-uchem-3-q-acetylene-hess">
+  <title id="t-uchem-3-q-acetylene-hess">그림 일반화학 3-11 문제 14의 엔탈피 도표</title>
+  <desc id="d-uchem-3-q-acetylene-hess">성분 원소(2C + H₂ + 5/2 O₂)를 기준(0)으로, C₂H₂ + 5/2 O₂는 +226.8 kJ, 2CO₂ + H₂O는 −1072.8 kJ에 있다. 원소에서 연소 생성물로 가는 두 경로의 ΔH가 같으므로 ΔH(생성) = −1072.8 − (−1299.6) = +226.8 kJ이다. 화살표 길이는 ΔH의 크기에 비례한다.</desc>
+  <style>.uchem-3-q-acetylene-hess-t{font-size:14px;fill:var(--fig-ink)} .uchem-3-q-acetylene-hess-s{font-size:13px;fill:var(--fig-muted)} .uchem-3-q-acetylene-hess-b{font-size:15px;font-weight:700;fill:var(--fig-ink)} .uchem-3-q-acetylene-hess-p{font-size:13px;fill:var(--fig-ink)} .uchem-3-q-acetylene-hess-r{font-size:14px;fill:var(--fig-red)} .uchem-3-q-acetylene-hess-bl{font-size:14px;fill:var(--fig-blue)} .uchem-3-q-acetylene-hess-g{font-size:14px;fill:var(--fig-green)}</style>
+  <line x1="60" y1="132.4" x2="300" y2="132.4" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <text x="60" y="154.4" class="uchem-3-q-acetylene-hess-t">2C(s, 흑연) + H₂(g) + 5/2 O₂(g)</text>
+  <text x="305" y="137.4" class="uchem-3-q-acetylene-hess-s">0</text>
+  <line x1="400" y1="80" x2="660" y2="80" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <text x="400" y="70" class="uchem-3-q-acetylene-hess-t">C₂H₂(g) + 5/2 O₂(g)</text>
+  <text x="665" y="85" class="uchem-3-q-acetylene-hess-s">+226.8</text>
+  <line x1="60" y1="380" x2="660" y2="380" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <text x="360" y="404" text-anchor="middle" class="uchem-3-q-acetylene-hess-t">2CO₂(g) + H₂O(l)</text>
+  <text x="665" y="385" class="uchem-3-q-acetylene-hess-s">−1072.8</text>
+  <line x1="250" y1="132.4" x2="411.6" y2="84.5" style="stroke:var(--fig-red);stroke-width:2.4"/>
+  <polygon points="420,82 410.9,89.9 408,80.4" style="fill:var(--fig-red);stroke:none;stroke-width:1"/>
+  <text x="250" y="82" class="uchem-3-q-acetylene-hess-r">ΔH = +226.8 kJ (구하는 값)</text>
+  <line x1="120" y1="132.4" x2="120" y2="371.2" style="stroke:var(--fig-blue);stroke-width:2.4"/>
+  <polygon points="120,380 115,369 125,369" style="fill:var(--fig-blue);stroke:none;stroke-width:1"/>
+  <text x="132" y="246.2" class="uchem-3-q-acetylene-hess-bl">2 × (−393.5) + (−285.8)</text>
+  <text x="132" y="266.2" class="uchem-3-q-acetylene-hess-bl">= −1072.8 kJ</text>
+  <line x1="600" y1="80" x2="600" y2="371.2" style="stroke:var(--fig-green);stroke-width:2.4"/>
+  <polygon points="600,380 595,369 605,369" style="fill:var(--fig-green);stroke:none;stroke-width:1"/>
+  <text x="588" y="230" text-anchor="end" class="uchem-3-q-acetylene-hess-g">−1299.6 kJ</text>
+  <text x="588" y="250" text-anchor="end" class="uchem-3-q-acetylene-hess-s">(C₂H₂ 연소)</text>
+  <text x="20" y="420" class="uchem-3-q-acetylene-hess-s">세로 길이는 엔탈피 차이에 비례 (모식도)</text>
+</svg>
