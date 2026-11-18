@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="t-5-6-q-pumped-storage d-5-6-q-pumped-storage">
+  <title id="t-5-6-q-pumped-storage">그림 5-6-8 문제 14의 양수 발전소</title>
+  <desc id="d-5-6-q-pumped-storage">위 저수지와 아래 저수지를 관으로 잇고 그 사이에 펌프 겸 발전기를 두었다. 낮에는 전기로 물을 위 저수지로 퍼 올리고, 저녁에는 물을 떨어뜨려 발전한다. 두 수면의 높이 차는 300 m이다. 모식도.</desc>
+  <style>.f5-6-q-pumped-storage-t{font-size:14px;fill:var(--fig-ink)} .f5-6-q-pumped-storage-s{font-size:13px;fill:var(--fig-muted)} .f5-6-q-pumped-storage-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .f5-6-q-pumped-storage-ax{stroke:var(--fig-ink);stroke-width:1.4;fill:none} .f5-6-q-pumped-storage-grid{stroke:var(--fig-line);stroke-width:0.8;fill:none} .f5-6-q-pumped-storage-w{stroke:var(--fig-ink);stroke-width:2;fill:none} .f5-6-q-pumped-storage-coil{stroke:var(--fig-amber);stroke-width:2.6;fill:none}</style>
+  <path d="M20,290 L20,60 L70,60 L70,100 L220,100 L220,60 L250,60 L360,250 L470,250 L470,270 L680,270 L680,240 L700,240 L700,290 Z" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <rect x="70" y="70" width="150" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <rect x="470" y="240" width="210" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <text x="145" y="48" text-anchor="middle" class="f5-6-q-pumped-storage-t">위 저수지</text>
+  <text x="520" y="230" text-anchor="middle" class="f5-6-q-pumped-storage-t">아래 저수지</text>
+  <polyline points="215,96 232,96 350,238 384,238" style="fill:none;stroke:var(--fig-muted);stroke-width:7;stroke-linejoin:round"/>
+  <polyline points="436,238 476,256" style="fill:none;stroke:var(--fig-muted);stroke-width:7"/>
+  <rect x="380" y="216" width="60" height="34" rx="4" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.8"/>
+  <text x="410" y="238" text-anchor="middle" class="f5-6-q-pumped-storage-s" style="fill:var(--fig-ink)">P/G</text>
+  <text x="410" y="206" text-anchor="middle" class="f5-6-q-pumped-storage-s">펌프 겸 발전기</text>
+  <line x1="346.92" y1="199.939" x2="285.942" y2="126.407" style="stroke:var(--fig-blue);stroke-width:2.6"/>
+  <path d="M278.9 117.9 L290.6 122.6 L281.3 130.2 Z" style="fill:var(--fig-blue)"/>
+  <line x1="295.841" y1="103.879" x2="356.819" y2="177.411" style="stroke:var(--fig-red);stroke-width:2.6"/>
+  <path d="M363.8 185.9 L352.2 181.2 L361.4 173.6 Z" style="fill:var(--fig-red)"/>
+  <text x="380" y="110" class="f5-6-q-pumped-storage-t" style="fill:var(--fig-blue)">낮: 물을 퍼 올림(효율 85%)</text>
+  <text x="380" y="134" class="f5-6-q-pumped-storage-t" style="fill:var(--fig-red)">저녁: 떨어뜨려 발전(효율 85%)</text>
+  <line x1="220" y1="70" x2="680" y2="70" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:5 4"/>
+  <line x1="650" y1="70" x2="650" y2="240" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <line x1="642" y1="70" x2="658" y2="70" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <text x="658" y="160" class="f5-6-q-pumped-storage-h">300 m</text>
+</svg>

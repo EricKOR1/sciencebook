@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 310" role="img" aria-labelledby="t-6-1-q-screening-tree d-6-1-q-screening-tree">
+  <title id="t-6-1-q-screening-tree">그림 6-1-8 문제 13 해설: 2단계 검사의 흐름</title>
+  <desc id="d-6-1-q-screening-tree">전교생 1000명은 실제 감염자 50명과 비감염자 950명이다. 신속항원검사에서 감염자의 80%인 40명과 비감염자의 2%인 19명이 양성으로 나와, 양성 59명만 PCR 검사를 받는다. 감염자 10명은 음성으로 나와 놓친다.</desc>
+  <style>.f6-1-q-screening-tree-t{font-size:14px;fill:var(--fig-ink)} .f6-1-q-screening-tree-s{font-size:13px;fill:var(--fig-muted)} .f6-1-q-screening-tree-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .f6-1-q-screening-tree-ax{stroke:var(--fig-ink);stroke-width:1.4;fill:none} .f6-1-q-screening-tree-grid{stroke:var(--fig-line);stroke-width:0.8;fill:none} .f6-1-q-screening-tree-w{stroke:var(--fig-ink);stroke-width:2;fill:none} .f6-1-q-screening-tree-coil{stroke:var(--fig-amber);stroke-width:2.6;fill:none}</style>
+  <rect x="16" y="133" width="100" height="44" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.6"/>
+  <text x="66" y="152" text-anchor="middle" class="f6-1-q-screening-tree-t">전교생</text>
+  <text x="66" y="170" text-anchor="middle" class="f6-1-q-screening-tree-s" style="fill:var(--fig-ink)">1000명</text>
+  <rect x="190" y="53" width="120" height="44" rx="6" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6"/>
+  <text x="250" y="72" text-anchor="middle" class="f6-1-q-screening-tree-t">실제 감염</text>
+  <text x="250" y="90" text-anchor="middle" class="f6-1-q-screening-tree-s" style="fill:var(--fig-ink)">50명</text>
+  <rect x="190" y="213" width="120" height="44" rx="6" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6"/>
+  <text x="250" y="232" text-anchor="middle" class="f6-1-q-screening-tree-t">실제 비감염</text>
+  <text x="250" y="250" text-anchor="middle" class="f6-1-q-screening-tree-s" style="fill:var(--fig-ink)">950명</text>
+  <line x1="116" y1="155" x2="181.547" y2="91.2737" style="stroke:var(--fig-ink);stroke-width:1.6"/>
+  <path d="M188.0 85.0 L184.7 94.5 L178.4 88.0 Z" style="fill:var(--fig-ink)"/>
+  <line x1="116" y1="155" x2="181.547" y2="218.726" style="stroke:var(--fig-ink);stroke-width:1.6"/>
+  <path d="M188.0 225.0 L178.4 222.0 L184.7 215.5 Z" style="fill:var(--fig-ink)"/>
+  <line x1="310" y1="75" x2="389.914" y2="35.9512" style="stroke:var(--fig-ink);stroke-width:1.6"/>
+  <path d="M398.0 32.0 L391.9 40.0 L387.9 31.9 Z" style="fill:var(--fig-ink)"/>
+  <text x="352" y="47.5" text-anchor="middle" class="f6-1-q-screening-tree-s">80%</text>
+  <rect x="400" y="10" width="130" height="44" rx="6" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6"/>
+  <text x="465" y="29" text-anchor="middle" class="f6-1-q-screening-tree-t">양성</text>
+  <text x="465" y="47" text-anchor="middle" class="f6-1-q-screening-tree-s" style="fill:var(--fig-ink)">40명</text>
+  <line x1="310" y1="75" x2="389.914" y2="114.049" style="stroke:var(--fig-ink);stroke-width:1.6"/>
+  <path d="M398.0 118.0 L387.9 118.1 L391.9 110.0 Z" style="fill:var(--fig-ink)"/>
+  <text x="352" y="112.5" text-anchor="middle" class="f6-1-q-screening-tree-s">20%</text>
+  <rect x="400" y="96" width="130" height="44" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.6"/>
+  <text x="465" y="115" text-anchor="middle" class="f6-1-q-screening-tree-t">음성(놓침)</text>
+  <text x="465" y="133" text-anchor="middle" class="f6-1-q-screening-tree-s" style="fill:var(--fig-ink)">10명</text>
+  <line x1="310" y1="235" x2="389.914" y2="195.951" style="stroke:var(--fig-ink);stroke-width:1.6"/>
+  <path d="M398.0 192.0 L391.9 200.0 L387.9 191.9 Z" style="fill:var(--fig-ink)"/>
+  <text x="352" y="207.5" text-anchor="middle" class="f6-1-q-screening-tree-s">2%</text>
+  <rect x="400" y="170" width="130" height="44" rx="6" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6"/>
+  <text x="465" y="189" text-anchor="middle" class="f6-1-q-screening-tree-t">양성(위양성)</text>
+  <text x="465" y="207" text-anchor="middle" class="f6-1-q-screening-tree-s" style="fill:var(--fig-ink)">19명</text>
+  <line x1="310" y1="235" x2="389.914" y2="274.049" style="stroke:var(--fig-ink);stroke-width:1.6"/>
+  <path d="M398.0 278.0 L387.9 278.1 L391.9 270.0 Z" style="fill:var(--fig-ink)"/>
+  <text x="352" y="272.5" text-anchor="middle" class="f6-1-q-screening-tree-s">98%</text>
+  <rect x="400" y="256" width="130" height="44" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.6"/>
+  <text x="465" y="275" text-anchor="middle" class="f6-1-q-screening-tree-t">음성</text>
+  <text x="465" y="293" text-anchor="middle" class="f6-1-q-screening-tree-s" style="fill:var(--fig-ink)">931명</text>
+  <rect x="596" y="90" width="110" height="44" rx="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
+  <text x="651" y="109" text-anchor="middle" class="f6-1-q-screening-tree-t">PCR 검사</text>
+  <text x="651" y="127" text-anchor="middle" class="f6-1-q-screening-tree-s" style="fill:var(--fig-ink)">40+19=59명</text>
+  <line x1="530" y1="32" x2="587.832" y2="93.4462" style="stroke:var(--fig-ink);stroke-width:1.6"/>
+  <path d="M594.0 100.0 L584.6 96.5 L591.1 90.4 Z" style="fill:var(--fig-ink)"/>
+  <line x1="530" y1="192" x2="587.832" y2="130.554" style="stroke:var(--fig-ink);stroke-width:1.6"/>
+  <path d="M594.0 124.0 L591.1 133.6 L584.6 127.5 Z" style="fill:var(--fig-ink)"/>
+  <text x="560" y="20" text-anchor="middle" class="f6-1-q-screening-tree-s">1단계: 신속항원검사</text>
+</svg>

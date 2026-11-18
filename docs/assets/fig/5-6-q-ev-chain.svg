@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 250" role="img" aria-labelledby="t-5-6-q-ev-chain d-5-6-q-ev-chain">
+  <title id="t-5-6-q-ev-chain">그림 5-6-9 문제 15의 두 자동차의 에너지 전환 단계</title>
+  <desc id="d-5-6-q-ev-chain">휘발유 자동차는 엔진 한 단계(효율 25%)를 거치고, 석탄 화력 발전소의 전기로 충전하는 전기 자동차는 발전(40%), 송전(95%), 배터리 충전(90%), 구동 모터(90%)의 네 단계를 거쳐 바퀴의 운동 에너지가 된다.</desc>
+  <style>.f5-6-q-ev-chain-t{font-size:14px;fill:var(--fig-ink)} .f5-6-q-ev-chain-s{font-size:13px;fill:var(--fig-muted)} .f5-6-q-ev-chain-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .f5-6-q-ev-chain-ax{stroke:var(--fig-ink);stroke-width:1.4;fill:none} .f5-6-q-ev-chain-grid{stroke:var(--fig-line);stroke-width:0.8;fill:none} .f5-6-q-ev-chain-w{stroke:var(--fig-ink);stroke-width:2;fill:none} .f5-6-q-ev-chain-coil{stroke:var(--fig-amber);stroke-width:2.6;fill:none}</style>
+  <text x="20" y="32" class="f5-6-q-ev-chain-h">휘발유 자동차</text>
+  <rect x="20" y="48" width="64" height="44" rx="6" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6"/>
+  <text x="52" y="75" text-anchor="middle" class="f5-6-q-ev-chain-t">연료</text>
+  <line x1="86" y1="70" x2="101" y2="70" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <path d="M112.0 70.0 L101.0 76.0 L101.0 64.0 Z" style="fill:var(--fig-ink)"/>
+  <rect x="114" y="44" width="104" height="52" rx="6" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6"/>
+  <text x="166" y="67" text-anchor="middle" class="f5-6-q-ev-chain-t">엔진</text>
+  <text x="166" y="85" text-anchor="middle" class="f5-6-q-ev-chain-h" style="font-size:14px">효율 25%</text>
+  <line x1="220" y1="70" x2="637" y2="70" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <path d="M648.0 70.0 L637.0 76.0 L637.0 64.0 Z" style="fill:var(--fig-ink)"/>
+  <rect x="650" y="48" width="64" height="44" rx="6" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6"/>
+  <text x="682" y="75" text-anchor="middle" class="f5-6-q-ev-chain-t">바퀴</text>
+  <text x="20" y="152" class="f5-6-q-ev-chain-h">전기 자동차 (석탄 화력 발전소의 전기로 충전)</text>
+  <rect x="20" y="168" width="64" height="44" rx="6" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6"/>
+  <text x="52" y="195" text-anchor="middle" class="f5-6-q-ev-chain-t">연료</text>
+  <line x1="86" y1="190" x2="101" y2="190" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <path d="M112.0 190.0 L101.0 196.0 L101.0 184.0 Z" style="fill:var(--fig-ink)"/>
+  <rect x="114" y="164" width="104" height="52" rx="6" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6"/>
+  <text x="166" y="187" text-anchor="middle" class="f5-6-q-ev-chain-t">발전소</text>
+  <text x="166" y="205" text-anchor="middle" class="f5-6-q-ev-chain-h" style="font-size:14px">효율 40%</text>
+  <line x1="220" y1="190" x2="235" y2="190" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <path d="M246.0 190.0 L235.0 196.0 L235.0 184.0 Z" style="fill:var(--fig-ink)"/>
+  <rect x="248" y="164" width="104" height="52" rx="6" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6"/>
+  <text x="300" y="187" text-anchor="middle" class="f5-6-q-ev-chain-t">송전</text>
+  <text x="300" y="205" text-anchor="middle" class="f5-6-q-ev-chain-h" style="font-size:14px">효율 95%</text>
+  <line x1="354" y1="190" x2="369" y2="190" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <path d="M380.0 190.0 L369.0 196.0 L369.0 184.0 Z" style="fill:var(--fig-ink)"/>
+  <rect x="382" y="164" width="104" height="52" rx="6" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6"/>
+  <text x="434" y="187" text-anchor="middle" class="f5-6-q-ev-chain-t">배터리 충전</text>
+  <text x="434" y="205" text-anchor="middle" class="f5-6-q-ev-chain-h" style="font-size:14px">효율 90%</text>
+  <line x1="488" y1="190" x2="503" y2="190" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <path d="M514.0 190.0 L503.0 196.0 L503.0 184.0 Z" style="fill:var(--fig-ink)"/>
+  <rect x="516" y="164" width="104" height="52" rx="6" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6"/>
+  <text x="568" y="187" text-anchor="middle" class="f5-6-q-ev-chain-t">구동 모터</text>
+  <text x="568" y="205" text-anchor="middle" class="f5-6-q-ev-chain-h" style="font-size:14px">효율 90%</text>
+  <line x1="622" y1="190" x2="637" y2="190" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <path d="M648.0 190.0 L637.0 196.0 L637.0 184.0 Z" style="fill:var(--fig-ink)"/>
+  <rect x="650" y="168" width="64" height="44" rx="6" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6"/>
+  <text x="682" y="195" text-anchor="middle" class="f5-6-q-ev-chain-t">바퀴</text>
+</svg>

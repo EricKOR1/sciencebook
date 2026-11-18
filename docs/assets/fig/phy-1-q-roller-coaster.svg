@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" class="fig-small" role="img" aria-labelledby="t-phy-1-q-roller-coaster d-phy-1-q-roller-coaster">
+  <title id="t-phy-1-q-roller-coaster">그림 물리학 1-11 예제 12의 롤러코스터 궤도</title>
+  <desc id="d-phy-1-q-roller-coaster">높이 20 m인 꼭대기에서 거의 정지 상태로 출발한 차가 높이 0 m인 바닥을 지나 높이 15 m인 둘째 언덕 꼭대기를 넘는다. 마찰은 없고, 높이는 비율대로 그렸다.</desc>
+  <style>.phy-1-q-roller-coaster-t{font-size:14px;fill:var(--fig-ink)} .phy-1-q-roller-coaster-s{font-size:13px;fill:var(--fig-muted)} .phy-1-q-roller-coaster-b{font-weight:700} .phy-1-q-roller-coaster-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .phy-1-q-roller-coaster-r{fill:var(--fig-red)} .phy-1-q-roller-coaster-bl{fill:var(--fig-blue)} .phy-1-q-roller-coaster-g{fill:var(--fig-green)}</style>
+  <line x1="40" y1="250" x2="470" y2="250" style="stroke:var(--fig-line);stroke-width:1.5;stroke-linecap:round"/>
+  <line x1="40" y1="250" x2="40" y2="60" style="stroke:var(--fig-muted);stroke-width:1.5;stroke-linecap:round"/>
+  <line x1="34" y1="250" x2="40" y2="250" style="stroke:var(--fig-muted);stroke-width:1.5;stroke-linecap:round"/>
+  <text x="30" y="255" text-anchor="end" class="phy-1-q-roller-coaster-s">0 m</text>
+  <line x1="34" y1="115" x2="40" y2="115" style="stroke:var(--fig-muted);stroke-width:1.5;stroke-linecap:round"/>
+  <text x="30" y="120" text-anchor="end" class="phy-1-q-roller-coaster-s">15 m</text>
+  <line x1="34" y1="70" x2="40" y2="70" style="stroke:var(--fig-muted);stroke-width:1.5;stroke-linecap:round"/>
+  <text x="30" y="75" text-anchor="end" class="phy-1-q-roller-coaster-s">20 m</text>
+  <text x="40" y="54" text-anchor="middle" class="phy-1-q-roller-coaster-s">높이</text>
+  <path d="M70 70 L105 70 C155 70 145 250 200 250 C255 250 265 115 315 115 C365 115 375 250 430 250 L468 250" style="fill:none;stroke:var(--fig-ink);stroke-width:3;stroke-linejoin:round"/>
+  <line x1="40" y1="70" x2="68" y2="70" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round;stroke-dasharray:3 3"/>
+  <line x1="40" y1="115" x2="312" y2="115" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round;stroke-dasharray:3 3"/>
+  <rect x="76" y="54" width="26" height="14" rx="3" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8"/>
+  <circle cx="82" cy="68" r="3" style="fill:var(--fig-ink);stroke:none"/>
+  <circle cx="96" cy="68" r="3" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="89" y="46" class="phy-1-q-roller-coaster-s">출발(거의 정지)</text>
+  <circle cx="200" cy="250" r="4" style="fill:var(--fig-red);stroke:none"/>
+  <text x="200" y="270" text-anchor="middle" class="phy-1-q-roller-coaster-t">(1) 바닥</text>
+  <circle cx="315" cy="115" r="4" style="fill:var(--fig-red);stroke:none"/>
+  <text x="315" y="103" text-anchor="middle" class="phy-1-q-roller-coaster-t">(2) 둘째 언덕 꼭대기</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="t-phy-1-q-tension-fbd d-phy-1-q-tension-fbd">
+  <title id="t-phy-1-q-tension-fbd">그림 물리학 1-14 문제 11에서 물체가 받는 힘</title>
+  <desc id="d-phy-1-q-tension-fbd">세 경우 모두 물체는 줄의 장력 T(위)와 중력 20 N(아래)만 받는다. (1) 가속도가 위쪽이면 T가 20 N보다 크고(24 N), (2) 가속도가 0이면 같으며(20 N), (3) 가속도가 아래쪽이면 작다(16 N). 화살표 길이는 힘의 크기에 비례한다.</desc>
+  <style>.phy-1-q-tension-fbd-t{font-size:14px;fill:var(--fig-ink)} .phy-1-q-tension-fbd-s{font-size:13px;fill:var(--fig-muted)} .phy-1-q-tension-fbd-b{font-weight:700} .phy-1-q-tension-fbd-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .phy-1-q-tension-fbd-r{fill:var(--fig-red)} .phy-1-q-tension-fbd-bl{fill:var(--fig-blue)} .phy-1-q-tension-fbd-g{fill:var(--fig-green)}</style>
+  <text x="120" y="28" text-anchor="middle" class="phy-1-q-tension-fbd-h">(1) 위로 빨라짐</text>
+  <rect x="94" y="138" width="52" height="44" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="120" y="165" text-anchor="middle" class="phy-1-q-tension-fbd-s">2 kg</text>
+  <line x1="120" y1="138" x2="120" y2="48.2" style="stroke:var(--fig-red);stroke-width:3;stroke-linecap:butt"/>
+  <path d="M120 37.2 L126.6 49.2 L113.4 49.2 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="128" y="49.2" class="phy-1-q-tension-fbd-t" style="fill:var(--fig-red)">T = 24 N</text>
+  <line x1="120" y1="182" x2="120" y2="255" style="stroke:var(--fig-blue);stroke-width:3;stroke-linecap:butt"/>
+  <path d="M120 266 L113.4 254 L126.6 254 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <text x="128" y="262" class="phy-1-q-tension-fbd-t" style="fill:var(--fig-blue)">중력 20 N</text>
+  <line x1="58" y1="178" x2="58" y2="147" style="stroke:var(--fig-green);stroke-width:2.5;stroke-linecap:butt"/>
+  <path d="M58 138 L63.5 148 L52.5 148 Z" style="fill:var(--fig-green);stroke:none"/>
+  <text x="52" y="206" text-anchor="middle" class="phy-1-q-tension-fbd-s" style="fill:var(--fig-green)">a: 위 2 m/s²</text>
+  <text x="360" y="28" text-anchor="middle" class="phy-1-q-tension-fbd-h">(2) 위로 등속</text>
+  <rect x="334" y="138" width="52" height="44" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="360" y="165" text-anchor="middle" class="phy-1-q-tension-fbd-s">2 kg</text>
+  <line x1="360" y1="138" x2="360" y2="65" style="stroke:var(--fig-red);stroke-width:3;stroke-linecap:butt"/>
+  <path d="M360 54 L366.6 66 L353.4 66 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="368" y="66" class="phy-1-q-tension-fbd-t" style="fill:var(--fig-red)">T = 20 N</text>
+  <line x1="360" y1="182" x2="360" y2="255" style="stroke:var(--fig-blue);stroke-width:3;stroke-linecap:butt"/>
+  <path d="M360 266 L353.4 254 L366.6 254 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <text x="368" y="262" class="phy-1-q-tension-fbd-t" style="fill:var(--fig-blue)">중력 20 N</text>
+  <text x="292" y="206" text-anchor="middle" class="phy-1-q-tension-fbd-s" style="fill:var(--fig-green)">a: 0</text>
+  <text x="600" y="28" text-anchor="middle" class="phy-1-q-tension-fbd-h">(3) 위로 느려짐</text>
+  <rect x="574" y="138" width="52" height="44" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="600" y="165" text-anchor="middle" class="phy-1-q-tension-fbd-s">2 kg</text>
+  <line x1="600" y1="138" x2="600" y2="81.8" style="stroke:var(--fig-red);stroke-width:3;stroke-linecap:butt"/>
+  <path d="M600 70.8 L606.6 82.8 L593.4 82.8 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="608" y="82.8" class="phy-1-q-tension-fbd-t" style="fill:var(--fig-red)">T = 16 N</text>
+  <line x1="600" y1="182" x2="600" y2="255" style="stroke:var(--fig-blue);stroke-width:3;stroke-linecap:butt"/>
+  <path d="M600 266 L593.4 254 L606.6 254 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <text x="608" y="262" class="phy-1-q-tension-fbd-t" style="fill:var(--fig-blue)">중력 20 N</text>
+  <line x1="538" y1="142" x2="538" y2="173" style="stroke:var(--fig-green);stroke-width:2.5;stroke-linecap:butt"/>
+  <path d="M538 182 L532.5 172 L543.5 172 Z" style="fill:var(--fig-green);stroke:none"/>
+  <text x="532" y="206" text-anchor="middle" class="phy-1-q-tension-fbd-s" style="fill:var(--fig-green)">a: 아래 2 m/s²</text>
+</svg>

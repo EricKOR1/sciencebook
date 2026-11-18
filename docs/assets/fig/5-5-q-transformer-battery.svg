@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" class="fig-small" role="img" aria-labelledby="t-5-5-q-transformer-battery d-5-5-q-transformer-battery">
+  <title id="t-5-5-q-transformer-battery">그림 5-5-9 문제 12의 실험 장치</title>
+  <desc id="d-5-5-q-transformer-battery">철심에 두 코일을 감고, 1차 코일에는 건전지와 스위치 S를, 2차 코일에는 검류계를 연결하였다. 모식도.</desc>
+  <style>.f5-5-q-transformer-battery-t{font-size:14px;fill:var(--fig-ink)} .f5-5-q-transformer-battery-s{font-size:13px;fill:var(--fig-muted)} .f5-5-q-transformer-battery-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .f5-5-q-transformer-battery-ax{stroke:var(--fig-ink);stroke-width:1.4;fill:none} .f5-5-q-transformer-battery-grid{stroke:var(--fig-line);stroke-width:0.8;fill:none} .f5-5-q-transformer-battery-w{stroke:var(--fig-ink);stroke-width:2;fill:none} .f5-5-q-transformer-battery-coil{stroke:var(--fig-amber);stroke-width:2.6;fill:none}</style>
+  <path d="M170,40 h160 v160 h-160 Z M200,70 v100 h100 v-100 Z" style="fill:var(--fig-line);fill-opacity:0.4;fill-rule:evenodd;stroke:var(--fig-ink);stroke-width:1.5"/>
+  <text x="250" y="125" text-anchor="middle" class="f5-5-q-transformer-battery-s">철심</text>
+  <ellipse cx="185" cy="80" rx="25" ry="6" class="f5-5-q-transformer-battery-coil"/>
+  <ellipse cx="315" cy="80" rx="25" ry="6" class="f5-5-q-transformer-battery-coil"/>
+  <ellipse cx="185" cy="96" rx="25" ry="6" class="f5-5-q-transformer-battery-coil"/>
+  <ellipse cx="315" cy="96" rx="25" ry="6" class="f5-5-q-transformer-battery-coil"/>
+  <ellipse cx="185" cy="112" rx="25" ry="6" class="f5-5-q-transformer-battery-coil"/>
+  <ellipse cx="315" cy="112" rx="25" ry="6" class="f5-5-q-transformer-battery-coil"/>
+  <ellipse cx="185" cy="128" rx="25" ry="6" class="f5-5-q-transformer-battery-coil"/>
+  <ellipse cx="315" cy="128" rx="25" ry="6" class="f5-5-q-transformer-battery-coil"/>
+  <ellipse cx="185" cy="144" rx="25" ry="6" class="f5-5-q-transformer-battery-coil"/>
+  <ellipse cx="315" cy="144" rx="25" ry="6" class="f5-5-q-transformer-battery-coil"/>
+  <ellipse cx="185" cy="160" rx="25" ry="6" class="f5-5-q-transformer-battery-coil"/>
+  <ellipse cx="315" cy="160" rx="25" ry="6" class="f5-5-q-transformer-battery-coil"/>
+  <polyline points="160,80 130,80" class="f5-5-q-transformer-battery-w"/>
+  <polyline points="96,80 80,80 80,118" class="f5-5-q-transformer-battery-w"/>
+  <polyline points="80,132 80,160 160,160" class="f5-5-q-transformer-battery-w"/>
+  <circle cx="130" cy="80" r="3" style="fill:var(--fig-ink)"/><circle cx="96" cy="80" r="3" style="fill:var(--fig-ink)"/>
+  <line x1="130" y1="80" x2="100" y2="64" style="stroke:var(--fig-ink);stroke-width:2.2"/>
+  <text x="113" y="54" text-anchor="middle" class="f5-5-q-transformer-battery-s">스위치 S</text>
+  <line x1="66" y1="118" x2="94" y2="118" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <line x1="73" y1="132" x2="87" y2="132" style="stroke:var(--fig-ink);stroke-width:4"/>
+  <text x="58" y="130" text-anchor="end" class="f5-5-q-transformer-battery-t">건전지</text>
+  <polyline points="340,80 410,80 410,106" class="f5-5-q-transformer-battery-w"/>
+  <polyline points="340,160 410,160 410,144" class="f5-5-q-transformer-battery-w"/>
+  <circle cx="410" cy="125" r="19" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <path d="M398 123 A13 13 0 0 1 422 123" style="fill:none;stroke:var(--fig-muted);stroke-width:1.2"/>
+  <line x1="410" y1="131" x2="410" y2="112" style="stroke:var(--fig-red);stroke-width:1.8"/>
+  <text x="410" y="140" text-anchor="middle" class="f5-5-q-transformer-battery-s" style="font-size:11px;fill:var(--fig-ink)">G</text>
+  <text x="410" y="190" text-anchor="middle" class="f5-5-q-transformer-battery-t">검류계</text>
+  <text x="185" y="228" text-anchor="middle" class="f5-5-q-transformer-battery-t">1차 코일</text>
+  <text x="315" y="228" text-anchor="middle" class="f5-5-q-transformer-battery-t">2차 코일</text>
+</svg>

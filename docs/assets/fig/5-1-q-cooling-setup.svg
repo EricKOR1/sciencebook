@@ -32,25 +32,25 @@
     .f5-1-q-cooling-setup-thr{fill:var(--fig-red)}
   </style>
   <rect x="20" y="30" width="680" height="250" class="f5-1-q-cooling-setup-wall"/>
-  <rect x="40" y="60" width="120" height="110" class="f5-1-q-cooling-setup-win"/>
-  <path d="M100 60 L132 74 L132 184 L100 170 Z" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:1.8"/>
-  <text x="100" y="52" text-anchor="middle" class="f5-1-q-cooling-setup-b">열린 창문</text>
-  <rect x="40" y="200" width="160" height="14" class="f5-1-q-cooling-setup-desk"/>
-  <rect x="50" y="214" width="10" height="66" class="f5-1-q-cooling-setup-desk"/><rect x="180" y="214" width="10" height="66" class="f5-1-q-cooling-setup-desk"/>
+  <rect x="40" y="60" width="90" height="110" class="f5-1-q-cooling-setup-win"/>
+  <path d="M85 60 L110 72 L110 182 L85 170 Z" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:1.8"/>
+  <text x="85" y="52" text-anchor="middle" class="f5-1-q-cooling-setup-b">열린 창문</text>
+  <rect x="60" y="200" width="200" height="14" class="f5-1-q-cooling-setup-desk"/>
+  <rect x="70" y="214" width="10" height="66" class="f5-1-q-cooling-setup-desk"/><rect x="240" y="214" width="10" height="66" class="f5-1-q-cooling-setup-desk"/>
   <rect x="440" y="200" width="220" height="14" class="f5-1-q-cooling-setup-desk"/>
   <rect x="452" y="214" width="10" height="66" class="f5-1-q-cooling-setup-desk"/><rect x="638" y="214" width="10" height="66" class="f5-1-q-cooling-setup-desk"/>
   <text x="550" y="304" text-anchor="middle" class="f5-1-q-cooling-setup-t">교실 안쪽 책상</text>
-  <text x="120" y="304" text-anchor="middle" class="f5-1-q-cooling-setup-t">창문 옆</text>
-  <rect x="129" y="155.2" width="42" height="42.8" class="f5-1-q-cooling-setup-wat"/>
-  <path d="M123 144 L127 148 V200 H173 V148 L177 144" class="f5-1-q-cooling-setup-gl"/>
-  <rect x="154.3" y="104" width="8" height="82" rx="4" class="f5-1-q-cooling-setup-th"/>
-  <circle cx="158.3" cy="188" r="6" class="f5-1-q-cooling-setup-thr"/>
-  <text x="150" y="80" text-anchor="middle" class="f5-1-q-cooling-setup-b">작은 컵</text>
-  <text x="150" y="98" text-anchor="middle" class="f5-1-q-cooling-setup-t">약 70 °C</text>
-  <rect x="497" y="112" width="106" height="86" class="f5-1-q-cooling-setup-wat"/>
-  <path d="M491 90 L495 94 V200 H605 V94 L609 90" class="f5-1-q-cooling-setup-gl"/>
-  <rect x="565.8" y="50" width="8" height="136" rx="4" class="f5-1-q-cooling-setup-th"/>
+  <text x="160" y="304" text-anchor="middle" class="f5-1-q-cooling-setup-t">창문 옆</text>
+  <rect x="154" y="155.2" width="42" height="42.8" class="f5-1-q-cooling-setup-wat"/>
+  <path d="M148 144 L152 148 V200 H198 V148 L202 144" class="f5-1-q-cooling-setup-gl"/>
+  <rect x="179.3" y="104" width="8" height="82" rx="4" class="f5-1-q-cooling-setup-th"/>
+  <circle cx="183.3" cy="188" r="6" class="f5-1-q-cooling-setup-thr"/>
+  <text x="175" y="80" text-anchor="middle" class="f5-1-q-cooling-setup-b">작은 컵</text>
+  <text x="175" y="98" text-anchor="middle" class="f5-1-q-cooling-setup-t">약 70 °C</text>
+  <rect x="497" y="128" width="106" height="70" class="f5-1-q-cooling-setup-wat"/>
+  <path d="M491 110 L495 114 V200 H605 V114 L609 110" class="f5-1-q-cooling-setup-gl"/>
+  <rect x="565.8" y="70" width="8" height="116" rx="4" class="f5-1-q-cooling-setup-th"/>
   <circle cx="569.8" cy="188" r="6" class="f5-1-q-cooling-setup-thr"/>
-  <text x="550" y="26" text-anchor="middle" class="f5-1-q-cooling-setup-b">큰 비커</text>
-  <text x="550" y="44" text-anchor="middle" class="f5-1-q-cooling-setup-t">약 55 °C</text>
+  <text x="550" y="46" text-anchor="middle" class="f5-1-q-cooling-setup-b">큰 비커</text>
+  <text x="550" y="64" text-anchor="middle" class="f5-1-q-cooling-setup-t">약 55 °C</text>
 </svg>

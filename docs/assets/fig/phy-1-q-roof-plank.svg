@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" role="img" aria-labelledby="t-phy-1-q-roof-plank d-phy-1-q-roof-plank">
+  <title id="t-phy-1-q-roof-plank">그림 물리학 1-17 문제 15의 옥상 가장자리에 걸친 널빤지</title>
+  <desc id="d-phy-1-q-roof-plank">길이 4 m, 무게 300 N인 균일한 널빤지가 수평한 옥상 바닥에 놓여 있고, 한쪽 끝이 옥상 가장자리 밖으로 1.5 m 튀어나와 있다. 무게 600 N인 사람이 튀어나온 쪽으로 걸어간다. (2)에서는 옥상 안쪽 끝에 추를 올려놓는다. 길이는 비율대로 그렸다.</desc>
+  <style>.phy-1-q-roof-plank-t{font-size:14px;fill:var(--fig-ink)} .phy-1-q-roof-plank-s{font-size:13px;fill:var(--fig-muted)} .phy-1-q-roof-plank-b{font-weight:700} .phy-1-q-roof-plank-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .phy-1-q-roof-plank-r{fill:var(--fig-red)} .phy-1-q-roof-plank-bl{fill:var(--fig-blue)} .phy-1-q-roof-plank-g{fill:var(--fig-green)}</style>
+  <rect x="20" y="170" width="450" height="50" rx="0" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2"/>
+  <text x="150" y="202" text-anchor="middle" class="phy-1-q-roof-plank-t">옥상</text>
+  <rect x="170" y="158" width="480" height="12" rx="0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <circle cx="470" cy="170" r="4" style="fill:var(--fig-ink);stroke:none"/>
+  <line x1="470" y1="176" x2="510" y2="200" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:round"/>
+  <text x="514" y="206" class="phy-1-q-roof-plank-s">옥상 가장자리</text>
+  <rect x="170" y="130" width="34" height="28" rx="0" style="fill:none;stroke:var(--fig-violet);stroke-width:1.6;stroke-dasharray:4 3"/>
+  <text x="187" y="149" text-anchor="middle" class="phy-1-q-roof-plank-s" style="fill:var(--fig-violet)">추</text>
+  <text x="164" y="124" class="phy-1-q-roof-plank-s" style="fill:var(--fig-violet)">(2)에서 올려놓는 추</text>
+  <circle cx="400" cy="96" r="9" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <line x1="400" y1="105" x2="400" y2="134" style="stroke:var(--fig-ink);stroke-width:2.5;stroke-linecap:round"/>
+  <line x1="400" y1="134" x2="391" y2="158" style="stroke:var(--fig-ink);stroke-width:2.5;stroke-linecap:round"/>
+  <line x1="400" y1="134" x2="409" y2="158" style="stroke:var(--fig-ink);stroke-width:2.5;stroke-linecap:round"/>
+  <line x1="400" y1="113" x2="390" y2="126" style="stroke:var(--fig-ink);stroke-width:2.5;stroke-linecap:round"/>
+  <line x1="400" y1="113" x2="411" y2="124" style="stroke:var(--fig-ink);stroke-width:2.5;stroke-linecap:round"/>
+  <text x="400" y="78" text-anchor="middle" class="phy-1-q-roof-plank-t">사람 600 N</text>
+  <line x1="422" y1="108" x2="463" y2="108" style="stroke:var(--fig-red);stroke-width:2.2;stroke-linecap:butt"/>
+  <path d="M472 108 L462 113.5 L462 102.5 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="447" y="100" text-anchor="middle" class="phy-1-q-roof-plank-s" style="fill:var(--fig-red)">이동</text>
+  <line x1="170" y1="170" x2="170" y2="249" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round;stroke-dasharray:3 3"/>
+  <line x1="650" y1="170" x2="650" y2="249" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round;stroke-dasharray:3 3"/>
+  <line x1="470" y1="220" x2="470" y2="249" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round;stroke-dasharray:3 3"/>
+  <line x1="320" y1="245" x2="176" y2="245" style="stroke:var(--fig-muted);stroke-width:1.3;stroke-linecap:butt"/>
+  <path d="M170 245 L177 241.2 L177 248.8 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <line x1="320" y1="245" x2="464" y2="245" style="stroke:var(--fig-muted);stroke-width:1.3;stroke-linecap:butt"/>
+  <path d="M470 245 L463 248.8 L463 241.2 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <text x="320" y="239" text-anchor="middle" class="phy-1-q-roof-plank-s">2.5 m</text>
+  <line x1="560" y1="245" x2="476" y2="245" style="stroke:var(--fig-muted);stroke-width:1.3;stroke-linecap:butt"/>
+  <path d="M470 245 L477 241.2 L477 248.8 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <line x1="560" y1="245" x2="644" y2="245" style="stroke:var(--fig-muted);stroke-width:1.3;stroke-linecap:butt"/>
+  <path d="M650 245 L643 248.8 L643 241.2 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <text x="560" y="239" text-anchor="middle" class="phy-1-q-roof-plank-s">1.5 m</text>
+  <text x="410" y="26" text-anchor="middle" class="phy-1-q-roof-plank-t">널빤지: 길이 4 m, 무게 300 N(균일)</text>
+</svg>

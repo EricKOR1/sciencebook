@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-labelledby="t-6-1-q-spread-bars d-6-1-q-spread-bars">
+  <title id="t-6-1-q-spread-bars">그림 6-1-7 문제 12 해설: 세대별 새 감염자 수</title>
+  <desc id="d-6-1-q-spread-bars">처음 감염자 10명에서 시작하여, 대책이 없으면(감염시키는 수 2) 새 감염자가 10, 20, 40, 80명으로 늘고, 추적·격리를 하면(0.8) 10, 8, 6.4, 5.12명으로 줄어든다. 3세대까지 더하면 각각 150명과 약 30명이다.</desc>
+  <style>.f6-1-q-spread-bars-t{font-size:14px;fill:var(--fig-ink)} .f6-1-q-spread-bars-s{font-size:13px;fill:var(--fig-muted)} .f6-1-q-spread-bars-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .f6-1-q-spread-bars-ax{stroke:var(--fig-ink);stroke-width:1.4;fill:none} .f6-1-q-spread-bars-grid{stroke:var(--fig-line);stroke-width:0.8;fill:none} .f6-1-q-spread-bars-w{stroke:var(--fig-ink);stroke-width:2;fill:none} .f6-1-q-spread-bars-coil{stroke:var(--fig-amber);stroke-width:2.6;fill:none}</style>
+  <line x1="90" y1="260" x2="560" y2="260" class="f6-1-q-spread-bars-grid"/>
+  <text x="82" y="265" text-anchor="end" class="f6-1-q-spread-bars-s">0</text>
+  <line x1="90" y1="212" x2="560" y2="212" class="f6-1-q-spread-bars-grid"/>
+  <text x="82" y="217" text-anchor="end" class="f6-1-q-spread-bars-s">20</text>
+  <line x1="90" y1="164" x2="560" y2="164" class="f6-1-q-spread-bars-grid"/>
+  <text x="82" y="169" text-anchor="end" class="f6-1-q-spread-bars-s">40</text>
+  <line x1="90" y1="116" x2="560" y2="116" class="f6-1-q-spread-bars-grid"/>
+  <text x="82" y="121" text-anchor="end" class="f6-1-q-spread-bars-s">60</text>
+  <line x1="90" y1="68" x2="560" y2="68" class="f6-1-q-spread-bars-grid"/>
+  <text x="82" y="73" text-anchor="end" class="f6-1-q-spread-bars-s">80</text>
+  <line x1="90" y1="260" x2="570" y2="260" class="f6-1-q-spread-bars-ax"/>
+  <line x1="90" y1="260" x2="90" y2="40" class="f6-1-q-spread-bars-ax"/>
+  <text x="20" y="30" class="f6-1-q-spread-bars-s">새 감염자 수(명)</text>
+  <rect x="116" y="236.0" width="32" height="24.0" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <text x="132" y="230" text-anchor="middle" class="f6-1-q-spread-bars-s" style="fill:var(--fig-red)">10</text>
+  <rect x="152" y="236.0" width="32" height="24.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="168" y="230" text-anchor="middle" class="f6-1-q-spread-bars-s" style="fill:var(--fig-blue)">10</text>
+  <text x="150" y="280" text-anchor="middle" class="f6-1-q-spread-bars-t">처음</text>
+  <rect x="226" y="212.0" width="32" height="48.0" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <text x="242" y="206" text-anchor="middle" class="f6-1-q-spread-bars-s" style="fill:var(--fig-red)">20</text>
+  <rect x="262" y="240.8" width="32" height="19.2" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="278" y="234.8" text-anchor="middle" class="f6-1-q-spread-bars-s" style="fill:var(--fig-blue)">8</text>
+  <text x="260" y="280" text-anchor="middle" class="f6-1-q-spread-bars-t">1세대</text>
+  <rect x="336" y="164.0" width="32" height="96.0" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <text x="352" y="158" text-anchor="middle" class="f6-1-q-spread-bars-s" style="fill:var(--fig-red)">40</text>
+  <rect x="372" y="244.6" width="32" height="15.4" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="388" y="238.64" text-anchor="middle" class="f6-1-q-spread-bars-s" style="fill:var(--fig-blue)">6.4</text>
+  <text x="370" y="280" text-anchor="middle" class="f6-1-q-spread-bars-t">2세대</text>
+  <rect x="446" y="68.0" width="32" height="192.0" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <text x="462" y="62" text-anchor="middle" class="f6-1-q-spread-bars-s" style="fill:var(--fig-red)">80</text>
+  <rect x="482" y="247.7" width="32" height="12.3" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="498" y="241.712" text-anchor="middle" class="f6-1-q-spread-bars-s" style="fill:var(--fig-blue)">5.12</text>
+  <text x="480" y="280" text-anchor="middle" class="f6-1-q-spread-bars-t">3세대</text>
+  <rect x="585" y="70" width="16" height="16" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <text x="607" y="84" class="f6-1-q-spread-bars-t">대책 없음(2)</text>
+  <text x="607" y="104" class="f6-1-q-spread-bars-s">누적 150명</text>
+  <rect x="585" y="130" width="16" height="16" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="607" y="144" class="f6-1-q-spread-bars-t">추적·격리(0.8)</text>
+  <text x="607" y="164" class="f6-1-q-spread-bars-s">누적 약 30명</text>
+  <text x="330" y="306" text-anchor="middle" class="f6-1-q-spread-bars-s">세대(감염이 한 번 옮겨 가는 단계)</text>
+</svg>

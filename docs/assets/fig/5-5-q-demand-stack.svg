@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-labelledby="t-5-5-q-demand-stack d-5-5-q-demand-stack">
+  <title id="t-5-5-q-demand-stack">그림 5-5-11 문제 15 해설: 시각별 발전소 출력 나누기</title>
+  <desc id="d-5-5-q-demand-stack">원자력 발전소는 하루 종일 60으로 일정하게 운전하고, 수요에서 60을 뺀 나머지(0, 20, 25, 40, 10)를 천연가스 발전소가 시각에 따라 출력을 바꾸어 맞춘다. 막대 전체 높이가 그 시각의 전력 수요이다.</desc>
+  <style>.f5-5-q-demand-stack-t{font-size:14px;fill:var(--fig-ink)} .f5-5-q-demand-stack-s{font-size:13px;fill:var(--fig-muted)} .f5-5-q-demand-stack-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .f5-5-q-demand-stack-ax{stroke:var(--fig-ink);stroke-width:1.4;fill:none} .f5-5-q-demand-stack-grid{stroke:var(--fig-line);stroke-width:0.8;fill:none} .f5-5-q-demand-stack-w{stroke:var(--fig-ink);stroke-width:2;fill:none} .f5-5-q-demand-stack-coil{stroke:var(--fig-amber);stroke-width:2.6;fill:none}</style>
+  <line x1="90" y1="270" x2="600" y2="270" class="f5-5-q-demand-stack-grid"/>
+  <text x="82" y="275" text-anchor="end" class="f5-5-q-demand-stack-s">0</text>
+  <line x1="90" y1="230" x2="600" y2="230" class="f5-5-q-demand-stack-grid"/>
+  <text x="82" y="235" text-anchor="end" class="f5-5-q-demand-stack-s">20</text>
+  <line x1="90" y1="190" x2="600" y2="190" class="f5-5-q-demand-stack-grid"/>
+  <text x="82" y="195" text-anchor="end" class="f5-5-q-demand-stack-s">40</text>
+  <line x1="90" y1="150" x2="600" y2="150" class="f5-5-q-demand-stack-grid"/>
+  <text x="82" y="155" text-anchor="end" class="f5-5-q-demand-stack-s">60</text>
+  <line x1="90" y1="110" x2="600" y2="110" class="f5-5-q-demand-stack-grid"/>
+  <text x="82" y="115" text-anchor="end" class="f5-5-q-demand-stack-s">80</text>
+  <line x1="90" y1="70" x2="600" y2="70" class="f5-5-q-demand-stack-grid"/>
+  <text x="82" y="75" text-anchor="end" class="f5-5-q-demand-stack-s">100</text>
+  <line x1="90" y1="270" x2="610" y2="270" class="f5-5-q-demand-stack-ax"/>
+  <line x1="90" y1="270" x2="90" y2="34" class="f5-5-q-demand-stack-ax"/>
+  <text x="20" y="26" class="f5-5-q-demand-stack-s">출력·수요(상댓값)</text>
+  <rect x="117" y="150" width="56" height="120" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
+  <text x="145" y="215" text-anchor="middle" class="f5-5-q-demand-stack-t" style="fill:var(--fig-blue)">60</text>
+  <text x="145" y="144" text-anchor="middle" class="f5-5-q-demand-stack-t" style="fill:var(--fig-amber);font-weight:700">0</text>
+  <text x="145" y="290" text-anchor="middle" class="f5-5-q-demand-stack-t">4시</text>
+  <rect x="217" y="150" width="56" height="120" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
+  <rect x="217" y="110" width="56" height="40" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6"/>
+  <text x="245" y="215" text-anchor="middle" class="f5-5-q-demand-stack-t" style="fill:var(--fig-blue)">60</text>
+  <text x="245" y="135" text-anchor="middle" class="f5-5-q-demand-stack-t" style="fill:var(--fig-amber);font-weight:700">20</text>
+  <text x="245" y="290" text-anchor="middle" class="f5-5-q-demand-stack-t">10시</text>
+  <rect x="317" y="150" width="56" height="120" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
+  <rect x="317" y="100" width="56" height="50" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6"/>
+  <text x="345" y="215" text-anchor="middle" class="f5-5-q-demand-stack-t" style="fill:var(--fig-blue)">60</text>
+  <text x="345" y="130" text-anchor="middle" class="f5-5-q-demand-stack-t" style="fill:var(--fig-amber);font-weight:700">25</text>
+  <text x="345" y="290" text-anchor="middle" class="f5-5-q-demand-stack-t">14시</text>
+  <rect x="417" y="150" width="56" height="120" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
+  <rect x="417" y="70" width="56" height="80" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6"/>
+  <text x="445" y="215" text-anchor="middle" class="f5-5-q-demand-stack-t" style="fill:var(--fig-blue)">60</text>
+  <text x="445" y="115" text-anchor="middle" class="f5-5-q-demand-stack-t" style="fill:var(--fig-amber);font-weight:700">40</text>
+  <text x="445" y="290" text-anchor="middle" class="f5-5-q-demand-stack-t">19시</text>
+  <rect x="517" y="150" width="56" height="120" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
+  <rect x="517" y="130" width="56" height="20" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6"/>
+  <text x="545" y="215" text-anchor="middle" class="f5-5-q-demand-stack-t" style="fill:var(--fig-blue)">60</text>
+  <text x="545" y="124" text-anchor="middle" class="f5-5-q-demand-stack-t" style="fill:var(--fig-amber);font-weight:700">10</text>
+  <text x="545" y="290" text-anchor="middle" class="f5-5-q-demand-stack-t">23시</text>
+  <rect x="620" y="60" width="16" height="16" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6"/>
+  <text x="642" y="74" class="f5-5-q-demand-stack-t">천연가스</text>
+  <rect x="620" y="90" width="16" height="16" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
+  <text x="642" y="104" class="f5-5-q-demand-stack-t">원자력</text>
+</svg>

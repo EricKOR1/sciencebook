@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-5-6-q-car-sankey d-5-6-q-car-sankey">
+  <title id="t-5-6-q-car-sankey">그림 5-6-7 문제 10 해설: 휘발유 자동차의 에너지 흐름</title>
+  <desc id="d-5-6-q-car-sankey">연료의 화학 에너지 100 가운데 25만 바퀴를 굴리는 운동 에너지가 되고, 배기가스의 열 40, 냉각수의 열 30, 마찰·소리 등 5는 버려진다. 띠의 굵기는 에너지의 양에 비례한다.</desc>
+  <style>.f5-6-q-car-sankey-t{font-size:14px;fill:var(--fig-ink)} .f5-6-q-car-sankey-s{font-size:13px;fill:var(--fig-muted)} .f5-6-q-car-sankey-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .f5-6-q-car-sankey-ax{stroke:var(--fig-ink);stroke-width:1.4;fill:none} .f5-6-q-car-sankey-grid{stroke:var(--fig-line);stroke-width:0.8;fill:none} .f5-6-q-car-sankey-w{stroke:var(--fig-ink);stroke-width:2;fill:none} .f5-6-q-car-sankey-coil{stroke:var(--fig-amber);stroke-width:2.6;fill:none}</style>
+  <rect x="40" y="50" width="130" height="200.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <text x="105" y="145" text-anchor="middle" class="f5-6-q-car-sankey-t">연료의</text>
+  <text x="105" y="165" text-anchor="middle" class="f5-6-q-car-sankey-t">화학 에너지 100</text>
+  <path d="M170 50 C280 50 280 50 380 50 L470 50 L470 100.0 L380 100.0 C280 100.0 280 100.0 170 100.0 Z" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2"/>
+  <text x="480" y="75" class="f5-6-q-car-sankey-t" style="fill:var(--fig-green);font-weight:600">바퀴의 운동 에너지 25</text>
+  <text x="480" y="93" class="f5-6-q-car-sankey-s">(유용한 에너지)</text>
+  <path d="M170 100.0 C280 100.0 280 122 380 122 L470 122 L470 202.0 L380 202.0 C280 202.0 280 180.0 170 180.0 Z" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.2"/>
+  <text x="480" y="162" class="f5-6-q-car-sankey-t" style="fill:var(--fig-red);font-weight:600">배기가스의 열 40</text>
+  <text x="480" y="180" class="f5-6-q-car-sankey-s">(ㄱ)</text>
+  <path d="M170 180.0 C280 180.0 280 222 380 222 L470 222 L470 282.0 L380 282.0 C280 282.0 280 240.0 170 240.0 Z" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.2"/>
+  <text x="480" y="257" class="f5-6-q-car-sankey-t" style="fill:var(--fig-red);font-weight:600">냉각수의 열 30</text>
+  <path d="M170 240.0 C280 240.0 280 302 380 302 L470 302 L470 312.0 L380 312.0 C280 312.0 280 250.0 170 250.0 Z" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.2"/>
+  <text x="480" y="312" class="f5-6-q-car-sankey-t" style="fill:var(--fig-red);font-weight:600">기타(마찰·소리) 5</text>
+  <text x="360" y="322" text-anchor="middle" class="f5-6-q-car-sankey-t">효율 = 25 ÷ 100 × 100 = 25%</text>
+</svg>
