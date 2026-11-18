@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="t-uphy-3-q-three-particles d-uphy-3-q-three-particles">
+  <title id="t-uphy-3-q-three-particles">그림 일반물리학 3-8 예제 8의 세 입자와 밀도가 변하는 막대</title>
+  <desc id="d-uphy-3-q-three-particles">(1) 1.0 kg 입자가 (0, 0), 2.0 kg 입자가 (4.0 m, 0), 3.0 kg 입자가 (2.0 m, 3.0 m)에 있다. (2) 길이 2.00 m인 막대의 선밀도가 x = 0에서 λ₀이고 다른 끝으로 갈수록 λ(x) = λ₀(1 + x/L)로 커진다(진한 쪽이 무겁다).</desc>
+  <rect x="10.0" y="10.0" width="345.0" height="280.0" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="24.0" y="34.0" style="font-size:15px;fill:var(--fig-ink);font-weight:600">(1) 세 입자</text>
+  <rect x="365.0" y="10.0" width="345.0" height="280.0" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="379.0" y="34.0" style="font-size:15px;fill:var(--fig-ink);font-weight:600">(2) 밀도가 변하는 막대</text>
+  <line x1="60.0" y1="250.0" x2="60.0" y2="62.8" style="stroke:var(--fig-line);stroke-width:0.7;fill:none"/>
+  <text x="60.0" y="268.0" text-anchor="middle" style="font-size:12px;fill:var(--fig-muted)">0</text>
+  <line x1="112.0" y1="250.0" x2="112.0" y2="62.8" style="stroke:var(--fig-line);stroke-width:0.7;fill:none"/>
+  <text x="112.0" y="268.0" text-anchor="middle" style="font-size:12px;fill:var(--fig-muted)">1</text>
+  <line x1="164.0" y1="250.0" x2="164.0" y2="62.8" style="stroke:var(--fig-line);stroke-width:0.7;fill:none"/>
+  <text x="164.0" y="268.0" text-anchor="middle" style="font-size:12px;fill:var(--fig-muted)">2</text>
+  <line x1="216.0" y1="250.0" x2="216.0" y2="62.8" style="stroke:var(--fig-line);stroke-width:0.7;fill:none"/>
+  <text x="216.0" y="268.0" text-anchor="middle" style="font-size:12px;fill:var(--fig-muted)">3</text>
+  <line x1="268.0" y1="250.0" x2="268.0" y2="62.8" style="stroke:var(--fig-line);stroke-width:0.7;fill:none"/>
+  <text x="268.0" y="268.0" text-anchor="middle" style="font-size:12px;fill:var(--fig-muted)">4</text>
+  <line x1="320.0" y1="250.0" x2="320.0" y2="62.8" style="stroke:var(--fig-line);stroke-width:0.7;fill:none"/>
+  <text x="320.0" y="268.0" text-anchor="middle" style="font-size:12px;fill:var(--fig-muted)">5</text>
+  <line x1="60.0" y1="250.0" x2="320.0" y2="250.0" style="stroke:var(--fig-line);stroke-width:0.7;fill:none"/>
+  <text x="52.0" y="254.0" text-anchor="end" style="font-size:12px;fill:var(--fig-muted)">0</text>
+  <line x1="60.0" y1="198.0" x2="320.0" y2="198.0" style="stroke:var(--fig-line);stroke-width:0.7;fill:none"/>
+  <text x="52.0" y="202.0" text-anchor="end" style="font-size:12px;fill:var(--fig-muted)">1</text>
+  <line x1="60.0" y1="146.0" x2="320.0" y2="146.0" style="stroke:var(--fig-line);stroke-width:0.7;fill:none"/>
+  <text x="52.0" y="150.0" text-anchor="end" style="font-size:12px;fill:var(--fig-muted)">2</text>
+  <line x1="60.0" y1="94.0" x2="320.0" y2="94.0" style="stroke:var(--fig-line);stroke-width:0.7;fill:none"/>
+  <text x="52.0" y="98.0" text-anchor="end" style="font-size:12px;fill:var(--fig-muted)">3</text>
+  <line x1="60.0" y1="250.0" x2="327.3" y2="250.0" style="stroke:var(--fig-ink);stroke-width:1.4;fill:none"/>
+  <path d="M335.6 250.0 L326.8 254.0 L326.8 246.0 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <line x1="60.0" y1="250.0" x2="60.0" y2="55.5" style="stroke:var(--fig-ink);stroke-width:1.4;fill:none"/>
+  <path d="M60.0 47.2 L64.0 56.0 L56.0 56.0 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="335.6" y="268.0" text-anchor="end" style="font-size:12px;fill:var(--fig-muted)">x (m)</text>
+  <text x="68.0" y="57.2" style="font-size:12px;fill:var(--fig-muted)">y (m)</text>
+  <circle cx="60.0" cy="250.0" r="8.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="70.0" y="238.0" style="font-size:13px;fill:var(--fig-ink);font-weight:600">1.0 kg</text>
+  <circle cx="268.0" cy="250.0" r="11.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="268.0" y="232.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-ink);font-weight:600">2.0 kg</text>
+  <circle cx="164.0" cy="94.0" r="14.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="184.0" y="99.0" style="font-size:13px;fill:var(--fig-ink);font-weight:600">3.0 kg</text>
+  <rect x="400.0" y="140.0" width="14.3" height="26.0" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:0;fill-opacity:0.165"/>
+  <rect x="414.0" y="140.0" width="14.3" height="26.0" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:0;fill-opacity:0.195"/>
+  <rect x="428.0" y="140.0" width="14.3" height="26.0" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:0;fill-opacity:0.225"/>
+  <rect x="442.0" y="140.0" width="14.3" height="26.0" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:0;fill-opacity:0.255"/>
+  <rect x="456.0" y="140.0" width="14.3" height="26.0" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:0;fill-opacity:0.285"/>
+  <rect x="470.0" y="140.0" width="14.3" height="26.0" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:0;fill-opacity:0.315"/>
+  <rect x="484.0" y="140.0" width="14.3" height="26.0" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:0;fill-opacity:0.345"/>
+  <rect x="498.0" y="140.0" width="14.3" height="26.0" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:0;fill-opacity:0.375"/>
+  <rect x="512.0" y="140.0" width="14.3" height="26.0" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:0;fill-opacity:0.405"/>
+  <rect x="526.0" y="140.0" width="14.3" height="26.0" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:0;fill-opacity:0.435"/>
+  <rect x="540.0" y="140.0" width="14.3" height="26.0" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:0;fill-opacity:0.465"/>
+  <rect x="554.0" y="140.0" width="14.3" height="26.0" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:0;fill-opacity:0.495"/>
+  <rect x="568.0" y="140.0" width="14.3" height="26.0" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:0;fill-opacity:0.525"/>
+  <rect x="582.0" y="140.0" width="14.3" height="26.0" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:0;fill-opacity:0.555"/>
+  <rect x="596.0" y="140.0" width="14.3" height="26.0" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:0;fill-opacity:0.585"/>
+  <rect x="610.0" y="140.0" width="14.3" height="26.0" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:0;fill-opacity:0.615"/>
+  <rect x="624.0" y="140.0" width="14.3" height="26.0" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:0;fill-opacity:0.645"/>
+  <rect x="638.0" y="140.0" width="14.3" height="26.0" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:0;fill-opacity:0.675"/>
+  <rect x="652.0" y="140.0" width="14.3" height="26.0" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:0;fill-opacity:0.705"/>
+  <rect x="666.0" y="140.0" width="14.3" height="26.0" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:0;fill-opacity:0.735"/>
+  <rect x="400.0" y="140.0" width="280.0" height="26.0" rx="0" style="fill:none;stroke:var(--fig-blue);stroke-width:2"/>
+  <line x1="400.0" y1="200.0" x2="687.7" y2="200.0" style="stroke:var(--fig-ink);stroke-width:1.4;fill:none"/>
+  <path d="M696.0 200.0 L687.2 204.0 L687.2 196.0 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <line x1="400.0" y1="195.0" x2="400.0" y2="205.0" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/>
+  <line x1="680.0" y1="195.0" x2="680.0" y2="205.0" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/>
+  <text x="400.0" y="222.0" text-anchor="middle" style="font-size:13px;fill:var(--fig-ink)">x = 0</text>
+  <text x="680.0" y="222.0" text-anchor="end" style="font-size:13px;fill:var(--fig-ink)">x = L = 2.00 m</text>
+  <text x="400.0" y="128.0" text-anchor="middle" style="font-size:14px;fill:var(--fig-blue);font-weight:600">λ<tspan dy="4" style="font-size:11px">0</tspan><tspan dy="-4">​</tspan></text>
+  <text x="680.0" y="128.0" text-anchor="middle" style="font-size:14px;fill:var(--fig-blue);font-weight:600">2λ<tspan dy="4" style="font-size:11px">0</tspan><tspan dy="-4">​</tspan></text>
+  <text x="540.0" y="92.0" text-anchor="middle" style="font-size:15px;fill:var(--fig-ink);font-weight:600">λ(x) = λ<tspan dy="4" style="font-size:11px">0</tspan><tspan dy="-4">​</tspan>(1 + x/L)</text>
+  <text x="540.0" y="262.0" text-anchor="middle" style="font-size:12px;fill:var(--fig-muted)">색이 진할수록 단위 길이당 질량이 크다</text>
+</svg>

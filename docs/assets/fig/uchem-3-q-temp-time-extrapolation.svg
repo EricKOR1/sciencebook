@@ -72,7 +72,8 @@
   <line x1="263" y1="300" x2="263" y2="42" style="stroke:var(--fig-ink);stroke-width:1.1;stroke-dasharray:3 3"/>
   <text x="269" y="292" class="uchem-3-q-temp-time-extrapolation-s">섞은 순간</text>
   <circle cx="345.5" cy="75" r="5" style="fill:var(--fig-red);stroke:var(--fig-red);stroke-width:1"/>
-  <text x="355.5" y="95" class="uchem-3-q-temp-time-extrapolation-r">관측한 최고 온도 26.5 °C</text>
+  <line x1="345.5" y1="75" x2="378.9" y2="111" style="stroke:var(--fig-red);stroke-width:1"/>
+  <text x="381.9" y="114" class="uchem-3-q-temp-time-extrapolation-r">관측한 최고 온도 26.5 °C</text>
   <circle cx="263" cy="69.2" r="5" style="fill:var(--fig-paper);stroke:var(--fig-ink);stroke-width:1.8"/>
   <text x="275" y="59.2" class="uchem-3-q-temp-time-extrapolation-t">외삽한 온도</text>
   <line x1="177.6" y1="263.6" x2="177.6" y2="75.6" style="stroke:var(--fig-blue);stroke-width:1.8"/>
