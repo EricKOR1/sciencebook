@@ -10,7 +10,7 @@
     .f2-4-q-n2-dot-ld{stroke:var(--fig-muted);stroke-width:1.1;fill:none} .f2-4-q-n2-dot-sep{stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4}
     .f2-4-q-n2-dot-r1{fill:none;stroke:var(--fig-blue);stroke-width:1.4;stroke-dasharray:6 4} .f2-4-q-n2-dot-r2{fill:none;stroke:var(--fig-red);stroke-width:1.4;stroke-dasharray:6 4}
   </style>
-  <text x="14.0" y="24.0" text-anchor="start" class="f2-4-q-n2-dot-sm">● 빨간 점: 왼쪽 N의 전자   ● 파란 점: 오른쪽 N의 전자</text>
+  <text x="14.0" y="24.0" text-anchor="start" class="f2-4-q-n2-dot-sm"><tspan class="f2-4-q-n2-dot-e2">●</tspan> 빨간 점: 왼쪽 N의 전자   <tspan class="f2-4-q-n2-dot-e1">●</tspan> 파란 점: 오른쪽 N의 전자</text>
   <ellipse cx="190" cy="122" rx="60" ry="42" class="f2-4-q-n2-dot-r2"/>
   <ellipse cx="270" cy="122" rx="60" ry="42" class="f2-4-q-n2-dot-r1"/>
   <rect x="218" y="99" width="24" height="46" rx="10" class="f2-4-q-n2-dot-sh"/>
