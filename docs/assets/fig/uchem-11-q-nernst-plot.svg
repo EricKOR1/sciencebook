@@ -50,8 +50,8 @@
   <circle cx="445.0" cy="154.4" r="6" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2.5"/>
   <circle cx="595.0" cy="193.9" r="6" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2.5"/>
   <text x="307.0" y="98.6" class="uchem-11-q-nernst-plot-x" style="fill:var(--fig-blue)">기울기 = −0.0292 V = −0.0592/n → n = 2</text>
-  <line x1="595.0" y1="201.9" x2="595.0" y2="237.8" style="stroke:var(--fig-blue);stroke-width:1;stroke-linecap:round"/>
-  <text x="632.5" y="251.8" text-anchor="end" class="uchem-11-q-nernst-plot-x" style="fill:var(--fig-blue)">절편 0.741 V = 0.34 − E°(M)</text>
+  <line x1="595.0" y1="201.9" x2="595.0" y2="251.9" style="stroke:var(--fig-blue);stroke-width:1;stroke-linecap:round"/>
+  <text x="632.5" y="265.9" text-anchor="end" class="uchem-11-q-nernst-plot-x" style="fill:var(--fig-blue)">절편 0.741 V = 0.34 − E°(M)</text>
   <text x="130.0" y="251.8" class="uchem-11-q-nernst-plot-s">점선: 전류가 흐르는 상태로 잰 값</text>
   <text x="130.0" y="269.8" class="uchem-11-q-nernst-plot-s">(모든 값이 0.03 V 작음)</text>
 </svg>
