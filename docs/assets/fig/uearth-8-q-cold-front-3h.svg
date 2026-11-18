@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" class="fig-small" role="img" aria-labelledby="t-uearth-8-q-cold-front-3h d-uearth-8-q-cold-front-3h">
+  <title id="t-uearth-8-q-cold-front-3h">그림 일반지구과학 8-16 문제 17 해설 — 한랭 전선이 지나고 3시간 뒤의 단면</title>
+  <desc id="d-uearth-8-q-cold-front-3h">지상 한랭 전선은 3시간 동안 시속 40 km로 120 km 동쪽으로 이동했다. 전선면은 찬 공기 쪽(뒤쪽, 서쪽)으로 기울기 1/80로 기울어 있으므로 관측소 바로 위의 전선면 높이는 120 km × 1/80 = 1.5 km이다. 세로를 크게 과장한 모식도이다.</desc>
+  <style>
+    .uearth-8-q-cold-front-3h-t{font-size:14px;fill:var(--fig-ink)}
+    .uearth-8-q-cold-front-3h-b{font-size:14px;font-weight:700;fill:var(--fig-ink)}
+    .uearth-8-q-cold-front-3h-s{font-size:13px;fill:var(--fig-muted)}
+    .uearth-8-q-cold-front-3h-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}
+    .uearth-8-q-cold-front-3h-red{font-size:14px;font-weight:600;fill:var(--fig-red)}
+    .uearth-8-q-cold-front-3h-blue{font-size:14px;font-weight:600;fill:var(--fig-blue)}
+    .uearth-8-q-cold-front-3h-green{font-size:14px;font-weight:600;fill:var(--fig-green)}
+    .uearth-8-q-cold-front-3h-amber{font-size:14px;font-weight:600;fill:var(--fig-amber)}
+    .uearth-8-q-cold-front-3h-violet{font-size:14px;font-weight:600;fill:var(--fig-violet)}
+    .uearth-8-q-cold-front-3h-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.4}
+    .uearth-8-q-cold-front-3h-grid{fill:none;stroke:var(--fig-line);stroke-width:0.7;stroke-dasharray:3 3}
+  </style>
+  <path d="M30,215 L400,215 L30,76.2 Z" style="fill:var(--fig-soft-blue);stroke:none"/>
+  <rect x="30" y="40" width="430" height="175" style="fill:var(--fig-soft-red);opacity:0.45;stroke:none"/>
+  <path d="M30,215 L400,215 L30,76.2 Z" style="fill:var(--fig-soft-blue);stroke:none"/>
+  <line x1="30.0" y1="76.2" x2="400.0" y2="215.0" style="stroke:var(--fig-blue);stroke-width:3"/>
+  <line x1="16.0" y1="215.0" x2="464.0" y2="215.0" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <text x="80.0" y="197.0" class="uearth-8-q-cold-front-3h-blue">찬 공기</text>
+  <text x="330.0" y="80.0" class="uearth-8-q-cold-front-3h-red">따뜻한 공기</text>
+  <path d="M152.0,215 L160.0,201 L168.0,215 Z" style="fill:var(--fig-ink)"/>
+  <text x="160.0" y="235.0" class="uearth-8-q-cold-front-3h-t" text-anchor="middle">관측소</text>
+  <line x1="160.0" y1="201.0" x2="160.0" y2="125.0" style="stroke:var(--fig-ink);stroke-width:1.5;stroke-dasharray:4 3"/>
+  <circle cx="160.0" cy="125.0" r="4" style="fill:var(--fig-ink)"/>
+  <text x="168.0" y="170.0" class="uearth-8-q-cold-front-3h-b">1.5 km</text>
+  <path d="M392,215 L408,215 L400,202 Z" style="fill:var(--fig-blue)"/>
+  <text x="400.0" y="235.0" class="uearth-8-q-cold-front-3h-t" text-anchor="middle">지상 전선</text>
+  <line x1="412.0" y1="185.0" x2="452.0" y2="185.0" style="fill:none;stroke:var(--fig-blue);stroke-width:2.5"/>
+  <path d="M462.0,185.0 L452.0,189.5 L452.0,180.5 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <text x="437.0" y="175.0" class="uearth-8-q-cold-front-3h-s" text-anchor="middle">40 km/h</text>
+  <line x1="280.0" y1="257.0" x2="168.0" y2="257.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.4"/>
+  <path d="M160.0,257.0 L168.0,253.4 L168.0,260.6 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <line x1="280.0" y1="257.0" x2="392.0" y2="257.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.4"/>
+  <path d="M400.0,257.0 L392.0,260.6 L392.0,253.4 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <text x="280.0" y="253.0" class="uearth-8-q-cold-front-3h-s" text-anchor="middle">120 km (3시간)</text>
+  <text x="34.0" y="30.0" class="uearth-8-q-cold-front-3h-s">전선면 기울기 1/80 (세로 과장)</text>
+</svg>
