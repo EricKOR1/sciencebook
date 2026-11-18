@@ -1165,10 +1165,10 @@ $\mathrm{Al_2SiO_5}$ 동질 이상 중 남정석은 높은 압력, 홍주석은 
 <details>
 <summary>정답 및 해설</summary>
 
-**정답** (1) 약 8.5 km (2) 약 69 °C/km (3) 접촉 변성
+**정답** (1) 약 8.4 km (2) 약 70 °C/km (3) 접촉 변성
 
-(1) $z = \dfrac{P}{\rho g} = \dfrac{0.23\times10^{9}}{2800\times9.8} \approx 8.4\times10^{3}\ \mathrm{m}$, 약 8.5 km
-(2) $\dfrac{600 - 15}{8.5} \approx 69\ ^\circ\mathrm{C/km}$
+(1) $z = \dfrac{P}{\rho g} = \dfrac{0.23\times10^{9}}{2800\times9.8} \approx 8.4\times10^{3}\ \mathrm{m}$, 약 8.4 km
+(2) $\dfrac{600 - 15}{8.4} \approx 70\ ^\circ\mathrm{C/km}$
 (3) 보통 대륙 지각(약 25 °C/km)의 세 배 가까운 기울기이다. 얕은 곳에서 높은 온도에 이르려면 마그마 관입처럼 국지적인 열원이 있어야 하므로 접촉 변성(저압·고온)이다.
 
 </details>
