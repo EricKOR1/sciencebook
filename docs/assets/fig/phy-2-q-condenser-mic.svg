@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 290" class="fig-small" role="img" aria-labelledby="t-phy-2-q-condenser-mic d-phy-2-q-condenser-mic">
+  <title id="t-phy-2-q-condenser-mic">그림 물리학 2-8 예제 8의 콘덴서 마이크</title>
+  <desc id="d-phy-2-q-condenser-mic">얇은 진동판과 고정판이 마주 보며 축전기를 이루고, 두 판은 전압이 일정한 전원과 저항에 연결되어 있다. 소리가 진동판을 밀면 진동판이 고정판 쪽으로 가까워졌다가 멀어지기를 반복한다. 모식도이다.</desc>
+  <style>.phy-2-q-condenser-mic-t{font-size:14px;fill:var(--fig-ink)} .phy-2-q-condenser-mic-s{font-size:13px;fill:var(--fig-muted)} .phy-2-q-condenser-mic-b{font-weight:700} .phy-2-q-condenser-mic-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .phy-2-q-condenser-mic-r{fill:var(--fig-red)} .phy-2-q-condenser-mic-bl{fill:var(--fig-blue)} .phy-2-q-condenser-mic-g{fill:var(--fig-green)}</style>
+  <path d="M48 100 A 20 20 0 0 1 48 140" style="fill:none;stroke:var(--fig-muted);stroke-width:1.8;stroke-linejoin:round"/>
+  <path d="M53.6 86 A 34 34 0 0 1 53.6 154" style="fill:none;stroke:var(--fig-muted);stroke-width:1.8;stroke-linejoin:round"/>
+  <path d="M59.2 72 A 48 48 0 0 1 59.2 168" style="fill:none;stroke:var(--fig-muted);stroke-width:1.8;stroke-linejoin:round"/>
+  <text x="48" y="186" text-anchor="middle" class="phy-2-q-condenser-mic-t">소리</text>
+  <path d="M170 45 Q178 120 170 195" style="fill:none;stroke:var(--fig-violet);stroke-width:3;stroke-linejoin:round"/>
+  <path d="M170 45 Q196 120 170 195" style="fill:none;stroke:var(--fig-violet);stroke-width:1.2;stroke-linejoin:round;stroke-dasharray:4 4"/>
+  <rect x="222" y="45" width="10" height="150" rx="0" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2"/>
+  <text x="166" y="34" text-anchor="end" class="phy-2-q-condenser-mic-t">진동판</text>
+  <text x="236" y="34" class="phy-2-q-condenser-mic-t">고정판</text>
+  <line x1="174" y1="214" x2="197" y2="214" style="stroke:var(--fig-violet);stroke-width:1.8;stroke-linecap:butt"/>
+  <path d="M204 214 L196 218.4 L196 209.6 Z" style="fill:var(--fig-violet);stroke:none"/>
+  <line x1="200" y1="214" x2="177" y2="214" style="stroke:var(--fig-violet);stroke-width:1.8;stroke-linecap:butt"/>
+  <path d="M170 214 L178 209.6 L178 218.4 Z" style="fill:var(--fig-violet);stroke:none"/>
+  <text x="187" y="207" text-anchor="middle" class="phy-2-q-condenser-mic-s" style="fill:var(--fig-violet)">떨림</text>
+  <line x1="170" y1="195" x2="170" y2="250" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <line x1="170" y1="250" x2="250" y2="250" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <line x1="250" y1="237" x2="250" y2="263" style="stroke:var(--fig-ink);stroke-width:2.2;stroke-linecap:round"/>
+  <line x1="262" y1="243" x2="262" y2="257" style="stroke:var(--fig-ink);stroke-width:4.5;stroke-linecap:butt"/>
+  <line x1="262" y1="250" x2="310" y2="250" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <path d="M310 250 L315 243 L325 257 L335 243 L345 257 L355 243 L365 257 L370 250" style="fill:none;stroke:var(--fig-ink);stroke-width:2;stroke-linejoin:round"/>
+  <line x1="370" y1="250" x2="420" y2="250" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <line x1="420" y1="250" x2="420" y2="120" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <line x1="420" y1="120" x2="232" y2="120" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <text x="256" y="280" text-anchor="middle" class="phy-2-q-condenser-mic-s">전원(전압 일정)</text>
+  <text x="340" y="280" text-anchor="middle" class="phy-2-q-condenser-mic-s">저항</text>
+</svg>

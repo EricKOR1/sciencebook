@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 260" class="fig-small" role="img" aria-labelledby="t-phy-2-q-circuit-abc d-phy-2-q-circuit-abc">
+  <title id="t-phy-2-q-circuit-abc">그림 물리학 2-10 문제 11의 회로</title>
+  <desc id="d-phy-2-q-circuit-abc">12 V 전원에 2 Ω 저항 A가 연결되고, 그 뒤에 3 Ω 저항 B와 6 Ω 저항 C를 병렬로 묶은 부분이 직렬로 연결되어 있다. 전지 기호의 긴 선이 (+)극이다.</desc>
+  <style>.phy-2-q-circuit-abc-t{font-size:14px;fill:var(--fig-ink)} .phy-2-q-circuit-abc-s{font-size:13px;fill:var(--fig-muted)} .phy-2-q-circuit-abc-b{font-weight:700} .phy-2-q-circuit-abc-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .phy-2-q-circuit-abc-r{fill:var(--fig-red)} .phy-2-q-circuit-abc-bl{fill:var(--fig-blue)} .phy-2-q-circuit-abc-g{fill:var(--fig-green)}</style>
+  <line x1="52" y1="123" x2="88" y2="123" style="stroke:var(--fig-ink);stroke-width:2.2;stroke-linecap:round"/>
+  <line x1="61" y1="137" x2="79" y2="137" style="stroke:var(--fig-ink);stroke-width:4.5;stroke-linecap:butt"/>
+  <line x1="70" y1="55" x2="70" y2="123" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <line x1="70" y1="137" x2="70" y2="205" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <text x="92" y="119" class="phy-2-q-circuit-abc-t">+</text>
+  <line x1="70" y1="55" x2="150" y2="55" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <path d="M150 55 L155.8 48 L167.5 62 L179.2 48 L190.8 62 L202.5 48 L214.2 62 L220 55" style="fill:none;stroke:var(--fig-ink);stroke-width:2;stroke-linejoin:round"/>
+  <line x1="220" y1="55" x2="410" y2="55" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <text x="185" y="39" text-anchor="middle" class="phy-2-q-circuit-abc-t">A  2 Ω</text>
+  <text x="44" y="135" text-anchor="end" class="phy-2-q-circuit-abc-t">12 V</text>
+  <line x1="300" y1="55" x2="300" y2="95" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <path d="M300 95 L293 100.8 L307 112.5 L293 124.2 L307 135.8 L293 147.5 L307 159.2 L300 165" style="fill:none;stroke:var(--fig-ink);stroke-width:2;stroke-linejoin:round"/>
+  <line x1="300" y1="165" x2="300" y2="205" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <text x="314" y="135" class="phy-2-q-circuit-abc-t">B  3 Ω</text>
+  <line x1="410" y1="55" x2="410" y2="95" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <path d="M410 95 L403 100.8 L417 112.5 L403 124.2 L417 135.8 L403 147.5 L417 159.2 L410 165" style="fill:none;stroke:var(--fig-ink);stroke-width:2;stroke-linejoin:round"/>
+  <line x1="410" y1="165" x2="410" y2="205" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <text x="424" y="135" class="phy-2-q-circuit-abc-t">C  6 Ω</text>
+  <line x1="70" y1="205" x2="410" y2="205" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <circle cx="300" cy="55" r="3.5" style="fill:var(--fig-ink);stroke:none"/>
+  <circle cx="300" cy="205" r="3.5" style="fill:var(--fig-ink);stroke:none"/>
+</svg>

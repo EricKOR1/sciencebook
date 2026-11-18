@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 290" class="fig-small" role="img" aria-labelledby="t-phy-2-q-horseshoe-wire d-phy-2-q-horseshoe-wire">
+  <title id="t-phy-2-q-horseshoe-wire">그림 물리학 2-9 예제 10의 말굽자석과 도선</title>
+  <desc id="d-phy-2-q-horseshoe-wire">말굽자석의 N극을 위, S극을 아래에 두어 두 극 사이에 위에서 아래로 향하는 자기장을 만들고, 그 속에 수평 도선을 놓아 왼쪽에서 오른쪽으로 전류를 흘린다. 자석의 굽은 부분은 도선 뒤쪽에 있다.</desc>
+  <style>.phy-2-q-horseshoe-wire-t{font-size:14px;fill:var(--fig-ink)} .phy-2-q-horseshoe-wire-s{font-size:13px;fill:var(--fig-muted)} .phy-2-q-horseshoe-wire-b{font-weight:700} .phy-2-q-horseshoe-wire-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .phy-2-q-horseshoe-wire-r{fill:var(--fig-red)} .phy-2-q-horseshoe-wire-bl{fill:var(--fig-blue)} .phy-2-q-horseshoe-wire-g{fill:var(--fig-green)}</style>
+  <path d="M330 40 L130 40 Q90 40 90 80 L90 210 Q90 250 130 250 L330 250 L330 205 L140 205 L140 85 L330 85 Z" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:2;stroke-linejoin:round"/>
+  <rect x="250" y="40" width="80" height="45" rx="0" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <text x="290" y="70" text-anchor="middle" class="phy-2-q-horseshoe-wire-h" style="fill:var(--fig-red)">N</text>
+  <rect x="250" y="205" width="80" height="45" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="290" y="235" text-anchor="middle" class="phy-2-q-horseshoe-wire-h" style="fill:var(--fig-blue)">S</text>
+  <line x1="262" y1="90" x2="262" y2="192" style="stroke:var(--fig-line);stroke-width:1.6;stroke-linecap:butt"/>
+  <path d="M262 200 L257.1 191 L266.9 191 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="290" y1="90" x2="290" y2="192" style="stroke:var(--fig-line);stroke-width:1.6;stroke-linecap:butt"/>
+  <path d="M290 200 L285.1 191 L294.9 191 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="318" y1="90" x2="318" y2="192" style="stroke:var(--fig-line);stroke-width:1.6;stroke-linecap:butt"/>
+  <path d="M318 200 L313.1 191 L322.9 191 Z" style="fill:var(--fig-line);stroke:none"/>
+  <text x="345" y="110" class="phy-2-q-horseshoe-wire-s">자기장</text>
+  <line x1="30" y1="145" x2="450" y2="145" style="stroke:var(--fig-ink);stroke-width:3.5;stroke-linecap:round"/>
+  <line x1="345" y1="145" x2="408" y2="145" style="stroke:var(--fig-red);stroke-width:3;stroke-linecap:butt"/>
+  <path d="M420 145 L407 152.2 L407 137.8 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="395" y="168" text-anchor="middle" class="phy-2-q-horseshoe-wire-t" style="fill:var(--fig-red)">전류</text>
+  <text x="45" y="135" class="phy-2-q-horseshoe-wire-t">도선</text>
+</svg>
