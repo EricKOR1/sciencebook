@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-esys-2-q-wave-orbits d-esys-2-q-wave-orbits">
+  <title id="t-esys-2-q-wave-orbits">그림 지구시스템과학 2-11 문제 13 해설의 수심에 따른 물 입자 운동</title>
+  <desc id="d-esys-2-q-wave-orbits">주기 10초인 해파가 수심 100 m, 20 m, 2 m인 곳을 지날 때 물 입자가 그리는 궤도를 선형 파동 이론으로 계산한 모식도이다. 수심 100 m(심해파)에서는 원 궤도가 깊어질수록 급히 작아지고, 20 m(전이파)에서는 아래로 갈수록 납작한 타원, 2 m(천해파)에서는 납작한 타원이 바닥에서 수평 왕복 운동이 된다. 칸마다 깊이 눈금과 궤도 크기의 배율이 다르다.</desc>
+  <style>
+    .esys-2-q-wave-orbits-t{font-size:14px;fill:var(--fig-ink)} .esys-2-q-wave-orbits-b{font-size:14px;font-weight:600;fill:var(--fig-ink)} .esys-2-q-wave-orbits-s{font-size:13px;fill:var(--fig-muted)} .esys-2-q-wave-orbits-ax{fill:none;stroke:var(--fig-muted);stroke-width:1.4} .esys-2-q-wave-orbits-gr{fill:none;stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4}
+  </style>
+  <rect x="20" y="70" width="200" height="230" style="fill:var(--fig-soft-blue);stroke:none"/>
+  <line x1="20" y1="70" x2="220" y2="70" style="stroke:var(--fig-blue);stroke-width:2"/>
+  <rect x="20" y="300" width="200" height="10" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <text x="120" y="26" text-anchor="middle" class="esys-2-q-wave-orbits-b">수심 100 m</text>
+  <text x="120" y="46" text-anchor="middle" class="esys-2-q-wave-orbits-s">심해파 (h > L/2)</text>
+  <text x="120" y="334" text-anchor="middle" class="esys-2-q-wave-orbits-s">파장 약 156 m</text>
+  <ellipse cx="120" cy="106" rx="34" ry="34" style="fill:none;stroke:var(--fig-ink);stroke-width:1.8"/>
+  <ellipse cx="120" cy="133.5" rx="12.4" ry="12.4" style="fill:none;stroke:var(--fig-ink);stroke-width:1.8"/>
+  <ellipse cx="120" cy="185" rx="4.6" ry="4.4" style="fill:none;stroke:var(--fig-ink);stroke-width:1.8"/>
+  <ellipse cx="120" cy="236.5" rx="1.9" ry="1.4" style="fill:none;stroke:var(--fig-ink);stroke-width:1.8"/>
+  <line x1="120" y1="296" x2="114.2" y2="296" style="stroke:var(--fig-ink);stroke-width:1.8;fill:none"/>
+  <path d="M121.2 296 L114.2 299.5 L114.2 292.5 Z" style="fill:var(--fig-ink)"/>
+  <line x1="120" y1="296" x2="125.8" y2="296" style="stroke:var(--fig-ink);stroke-width:1.8;fill:none"/>
+  <path d="M118.8 296 L125.8 292.5 L125.8 299.5 Z" style="fill:var(--fig-ink)"/>
+  <rect x="260" y="70" width="200" height="230" style="fill:var(--fig-soft-blue);stroke:none"/>
+  <line x1="260" y1="70" x2="460" y2="70" style="stroke:var(--fig-blue);stroke-width:2"/>
+  <rect x="260" y="300" width="200" height="10" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <text x="360" y="26" text-anchor="middle" class="esys-2-q-wave-orbits-b">수심 20 m</text>
+  <text x="360" y="46" text-anchor="middle" class="esys-2-q-wave-orbits-s">전이파 (L/20 < h < L/2)</text>
+  <text x="360" y="334" text-anchor="middle" class="esys-2-q-wave-orbits-s">파장 약 121 m</text>
+  <ellipse cx="360" cy="106" rx="34" ry="26.4" style="fill:none;stroke:var(--fig-ink);stroke-width:1.8"/>
+  <ellipse cx="360" cy="133.5" rx="28.2" ry="18.4" style="fill:none;stroke:var(--fig-ink);stroke-width:1.8"/>
+  <ellipse cx="360" cy="185" rx="24.4" ry="11.6" style="fill:none;stroke:var(--fig-ink);stroke-width:1.8"/>
+  <ellipse cx="360" cy="236.5" rx="22.1" ry="5.6" style="fill:none;stroke:var(--fig-ink);stroke-width:1.8"/>
+  <line x1="360" y1="296" x2="374.4" y2="296" style="stroke:var(--fig-ink);stroke-width:1.8;fill:none"/>
+  <path d="M381.4 296 L374.4 299.5 L374.4 292.5 Z" style="fill:var(--fig-ink)"/>
+  <line x1="360" y1="296" x2="345.6" y2="296" style="stroke:var(--fig-ink);stroke-width:1.8;fill:none"/>
+  <path d="M338.6 296 L345.6 292.5 L345.6 299.5 Z" style="fill:var(--fig-ink)"/>
+  <rect x="500" y="70" width="200" height="230" style="fill:var(--fig-soft-blue);stroke:none"/>
+  <line x1="500" y1="70" x2="700" y2="70" style="stroke:var(--fig-blue);stroke-width:2"/>
+  <rect x="500" y="300" width="200" height="10" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <text x="600" y="26" text-anchor="middle" class="esys-2-q-wave-orbits-b">수심 2 m</text>
+  <text x="600" y="46" text-anchor="middle" class="esys-2-q-wave-orbits-s">천해파 (h < L/20)</text>
+  <text x="600" y="334" text-anchor="middle" class="esys-2-q-wave-orbits-s">파장 약 44 m</text>
+  <ellipse cx="600" cy="106" rx="34" ry="9.5" style="fill:none;stroke:var(--fig-ink);stroke-width:1.8"/>
+  <ellipse cx="600" cy="133.5" rx="33.4" ry="7.1" style="fill:none;stroke:var(--fig-ink);stroke-width:1.8"/>
+  <ellipse cx="600" cy="185" rx="33" ry="4.7" style="fill:none;stroke:var(--fig-ink);stroke-width:1.8"/>
+  <ellipse cx="600" cy="236.5" rx="32.7" ry="2.3" style="fill:none;stroke:var(--fig-ink);stroke-width:1.8"/>
+  <line x1="600" y1="296" x2="625.6" y2="296" style="stroke:var(--fig-ink);stroke-width:1.8;fill:none"/>
+  <path d="M632.6 296 L625.6 299.5 L625.6 292.5 Z" style="fill:var(--fig-ink)"/>
+  <line x1="600" y1="296" x2="574.4" y2="296" style="stroke:var(--fig-ink);stroke-width:1.8;fill:none"/>
+  <path d="M567.4 296 L574.4 292.5 L574.4 299.5 Z" style="fill:var(--fig-ink)"/>
+</svg>

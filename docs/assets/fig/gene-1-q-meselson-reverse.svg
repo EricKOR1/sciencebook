@@ -2,28 +2,28 @@
   <title id="t-gene-1-q-meselson-reverse">그림 생물의 유전 1-11 문제 15 해설 — 세 가설로 예상한 2세대 뒤의 띠</title>
   <desc id="d-gene-1-q-meselson-reverse">¹⁴N 배지에서 키운 대장균을 ¹⁵N 배지로 옮겨 2세대 분열시켰을 때의 예상이다. 위쪽일수록 가볍다. 반보존적이면 중간 띠와 무거운 띠가 1 : 1, 보존적이면 가벼운 띠와 무거운 띠가 1 : 3, 분산적이면 중간 띠와 무거운 띠 사이(¹⁵N 비율 3/4)에 띠 하나가 나타난다. 띠의 굵기는 DNA 양에 비례하게 그렸다.</desc>
   <style>.gene-1-q-meselson-reverse-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .gene-1-q-meselson-reverse-t{font-size:14px;fill:var(--fig-ink)} .gene-1-q-meselson-reverse-s{font-size:13px;fill:var(--fig-muted)} .gene-1-q-meselson-reverse-m{font-size:14px;font-weight:600;fill:var(--fig-ink);letter-spacing:1px} .gene-1-q-meselson-reverse-ln{fill:none;stroke:var(--fig-ink);stroke-width:2} .gene-1-q-meselson-reverse-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.4} .gene-1-q-meselson-reverse-gr{fill:none;stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 3}</style>
-  <line x1="170.0" y1="110.0" x2="690.0" y2="110.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
-  <text x="156.0" y="115.0" text-anchor="end" class="gene-1-q-meselson-reverse-s">가벼운 DNA (¹⁴N/¹⁴N)</text>
-  <line x1="170.0" y1="170.0" x2="690.0" y2="170.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
-  <text x="156.0" y="175.0" text-anchor="end" class="gene-1-q-meselson-reverse-s">중간 DNA (¹⁴N/¹⁵N)</text>
-  <line x1="170.0" y1="230.0" x2="690.0" y2="230.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
-  <text x="156.0" y="235.0" text-anchor="end" class="gene-1-q-meselson-reverse-s">무거운 DNA (¹⁵N/¹⁵N)</text>
-  <text x="260.0" y="40.0" text-anchor="middle" class="gene-1-q-meselson-reverse-h">반보존적 복제</text>
-  <path d="M238 60 L238 262 Q238 290 260 290 Q282 290 282 262 L282 60" style="fill:var(--fig-soft-blue);stroke:var(--fig-ink);stroke-width:2"/>
-  <rect x="241.0" y="167.4" width="38.0" height="5.2" rx="1" style="fill:var(--fig-blue);stroke:none"/>
-  <rect x="241.0" y="227.4" width="38.0" height="5.2" rx="1" style="fill:var(--fig-blue);stroke:none"/>
-  <text x="260.0" y="318.0" text-anchor="middle" class="gene-1-q-meselson-reverse-s">중간 : 무거운 = 1 : 1</text>
-  <text x="430.0" y="40.0" text-anchor="middle" class="gene-1-q-meselson-reverse-h">보존적 복제</text>
-  <path d="M408 60 L408 262 Q408 290 430 290 Q452 290 452 262 L452 60" style="fill:var(--fig-soft-blue);stroke:var(--fig-ink);stroke-width:2"/>
-  <rect x="411.0" y="107.4" width="38.0" height="5.2" rx="1" style="fill:var(--fig-blue);stroke:none"/>
-  <rect x="411.0" y="225.2" width="38.0" height="9.6" rx="1" style="fill:var(--fig-blue);stroke:none"/>
-  <text x="430.0" y="318.0" text-anchor="middle" class="gene-1-q-meselson-reverse-s">가벼운 : 무거운 = 1 : 3</text>
-  <text x="600.0" y="40.0" text-anchor="middle" class="gene-1-q-meselson-reverse-h">분산적 복제</text>
-  <path d="M578 60 L578 262 Q578 290 600 290 Q622 290 622 262 L622 60" style="fill:var(--fig-soft-blue);stroke:var(--fig-ink);stroke-width:2"/>
-  <rect x="581.0" y="194.1" width="38.0" height="11.8" rx="1" style="fill:var(--fig-blue);stroke:none"/>
-  <text x="600.0" y="318.0" text-anchor="middle" class="gene-1-q-meselson-reverse-s">중간과 무거운 사이에 띠 1개</text>
-  <line x1="40.0" y1="70.0" x2="40.0" y2="271.0" style="stroke:var(--fig-muted);stroke-width:1.4"/>
-  <path d="M40.0 280.0 L35.5 271.0 L44.5 271.0 Z" style="fill:var(--fig-muted)"/>
-  <text x="48.0" y="66.0" class="gene-1-q-meselson-reverse-s">가벼움</text>
-  <text x="48.0" y="296.0" class="gene-1-q-meselson-reverse-s">무거움</text>
+  <line x1="232.0" y1="110.0" x2="650.0" y2="110.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
+  <text x="222.0" y="115.0" text-anchor="end" class="gene-1-q-meselson-reverse-s">가벼운 DNA (¹⁴N/¹⁴N)</text>
+  <line x1="232.0" y1="170.0" x2="650.0" y2="170.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
+  <text x="222.0" y="175.0" text-anchor="end" class="gene-1-q-meselson-reverse-s">중간 DNA (¹⁴N/¹⁵N)</text>
+  <line x1="232.0" y1="230.0" x2="650.0" y2="230.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
+  <text x="222.0" y="235.0" text-anchor="end" class="gene-1-q-meselson-reverse-s">무거운 DNA (¹⁵N/¹⁵N)</text>
+  <text x="310.0" y="40.0" text-anchor="middle" class="gene-1-q-meselson-reverse-h">반보존적 복제</text>
+  <path d="M288 60 L288 262 Q288 290 310 290 Q332 290 332 262 L332 60" style="fill:var(--fig-soft-blue);stroke:var(--fig-ink);stroke-width:2"/>
+  <rect x="291.0" y="167.4" width="38.0" height="5.2" rx="1" style="fill:var(--fig-blue);stroke:none"/>
+  <rect x="291.0" y="227.4" width="38.0" height="5.2" rx="1" style="fill:var(--fig-blue);stroke:none"/>
+  <text x="310.0" y="318.0" text-anchor="middle" class="gene-1-q-meselson-reverse-s">중간 : 무거운 = 1 : 1</text>
+  <text x="460.0" y="40.0" text-anchor="middle" class="gene-1-q-meselson-reverse-h">보존적 복제</text>
+  <path d="M438 60 L438 262 Q438 290 460 290 Q482 290 482 262 L482 60" style="fill:var(--fig-soft-blue);stroke:var(--fig-ink);stroke-width:2"/>
+  <rect x="441.0" y="107.4" width="38.0" height="5.2" rx="1" style="fill:var(--fig-blue);stroke:none"/>
+  <rect x="441.0" y="225.2" width="38.0" height="9.6" rx="1" style="fill:var(--fig-blue);stroke:none"/>
+  <text x="460.0" y="318.0" text-anchor="middle" class="gene-1-q-meselson-reverse-s">가벼운 : 무거운 = 1 : 3</text>
+  <text x="605.0" y="40.0" text-anchor="middle" class="gene-1-q-meselson-reverse-h">분산적 복제</text>
+  <path d="M583 60 L583 262 Q583 290 605 290 Q627 290 627 262 L627 60" style="fill:var(--fig-soft-blue);stroke:var(--fig-ink);stroke-width:2"/>
+  <rect x="586.0" y="194.1" width="38.0" height="11.8" rx="1" style="fill:var(--fig-blue);stroke:none"/>
+  <text x="605.0" y="318.0" text-anchor="middle" class="gene-1-q-meselson-reverse-s">중간과 무거운 사이에 띠 1개</text>
+  <line x1="690.0" y1="84.0" x2="690.0" y2="253.0" style="stroke:var(--fig-muted);stroke-width:1.4"/>
+  <path d="M690.0 262.0 L685.5 253.0 L694.5 253.0 Z" style="fill:var(--fig-muted)"/>
+  <text x="690.0" y="76.0" text-anchor="middle" class="gene-1-q-meselson-reverse-s">가벼움</text>
+  <text x="690.0" y="280.0" text-anchor="middle" class="gene-1-q-meselson-reverse-s">무거움</text>
 </svg>

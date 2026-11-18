@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 330" class="fig-small" role="img" aria-labelledby="t-esys-2-q-geostrophic-balance d-esys-2-q-geostrophic-balance">
+  <title id="t-esys-2-q-geostrophic-balance">그림 지구시스템과학 2-10 문제 12 해설의 지형류 힘 균형</title>
+  <desc id="d-esys-2-q-geostrophic-balance">위에서 본 해역으로, 해수면 높이가 동쪽으로 갈수록 높다(50 km에 0.2 m). 수압 경도력은 높은 동쪽에서 낮은 서쪽으로 향하고, 크기가 같고 방향이 반대인 전향력이 동쪽으로 작용한다. 전향력이 흐름의 오른쪽 직각이므로 해수는 북쪽으로 흐른다. 두 힘 화살표의 길이는 같다.</desc>
+  <style>
+    .esys-2-q-geostrophic-balance-t{font-size:14px;fill:var(--fig-ink)} .esys-2-q-geostrophic-balance-b{font-size:14px;font-weight:600;fill:var(--fig-ink)} .esys-2-q-geostrophic-balance-s{font-size:13px;fill:var(--fig-muted)} .esys-2-q-geostrophic-balance-ax{fill:none;stroke:var(--fig-muted);stroke-width:1.4} .esys-2-q-geostrophic-balance-gr{fill:none;stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4}
+  </style>
+  <line x1="110" y1="60" x2="110" y2="270" style="stroke:var(--fig-teal);stroke-width:1.6;stroke-dasharray:6 4"/>
+  <text x="110" y="50" text-anchor="middle" class="esys-2-q-geostrophic-balance-s">0 m</text>
+  <line x1="230" y1="60" x2="230" y2="270" style="stroke:var(--fig-teal);stroke-width:1.6;stroke-dasharray:6 4"/>
+  <text x="230" y="50" text-anchor="middle" class="esys-2-q-geostrophic-balance-s">+0.1 m</text>
+  <line x1="350" y1="60" x2="350" y2="270" style="stroke:var(--fig-teal);stroke-width:1.6;stroke-dasharray:6 4"/>
+  <text x="350" y="50" text-anchor="middle" class="esys-2-q-geostrophic-balance-s">+0.2 m</text>
+  <text x="60" y="165" text-anchor="middle" class="esys-2-q-geostrophic-balance-s">낮음</text>
+  <text x="400" y="165" text-anchor="middle" class="esys-2-q-geostrophic-balance-s">높음</text>
+  <text x="60" y="183" text-anchor="middle" class="esys-2-q-geostrophic-balance-s">(서)</text>
+  <text x="400" y="183" text-anchor="middle" class="esys-2-q-geostrophic-balance-s">(동)</text>
+  <text x="230" y="26" text-anchor="middle" class="esys-2-q-geostrophic-balance-b">해수면 높이(등고선)</text>
+  <line x1="230" y1="200" x2="143" y2="200" style="stroke:var(--fig-red);stroke-width:3.2;fill:none"/>
+  <path d="M130 200 L143 193.5 L143 206.5 Z" style="fill:var(--fig-red)"/>
+  <line x1="230" y1="200" x2="317" y2="200" style="stroke:var(--fig-violet);stroke-width:3.2;fill:none"/>
+  <path d="M330 200 L317 206.5 L317 193.5 Z" style="fill:var(--fig-violet)"/>
+  <line x1="230" y1="200" x2="230" y2="103" style="stroke:var(--fig-blue);stroke-width:3.2;fill:none"/>
+  <path d="M230 90 L236.5 103 L223.5 103 Z" style="fill:var(--fig-blue)"/>
+  <circle cx="230" cy="200" r="8" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <text x="178" y="226" text-anchor="middle" class="esys-2-q-geostrophic-balance-s" style="fill:var(--fig-red);font-weight:600">수압 경도력</text>
+  <text x="282" y="226" text-anchor="middle" class="esys-2-q-geostrophic-balance-s" style="fill:var(--fig-violet);font-weight:600">전향력</text>
+  <text x="238" y="108" class="esys-2-q-geostrophic-balance-s" style="fill:var(--fig-blue);font-weight:600">흐름(북쪽)</text>
+  <line x1="110" y1="300" x2="350" y2="300" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <line x1="110" y1="294" x2="110" y2="306" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <line x1="350" y1="294" x2="350" y2="306" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <text x="230" y="322" text-anchor="middle" class="esys-2-q-geostrophic-balance-s">50 km</text>
+  <line x1="420" y1="100" x2="420" y2="72" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
+  <path d="M420 62 L425 72 L415 72 Z" style="fill:var(--fig-ink)"/>
+  <text x="420" y="118" text-anchor="middle" class="esys-2-q-geostrophic-balance-s">N</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" class="fig-small" role="img" aria-labelledby="t-astro-2-q-synodic-rotation d-astro-2-q-synodic-rotation">
+  <title id="t-astro-2-q-synodic-rotation">그림 행성우주과학 2-8 예제 1 태양의 항성 자전 주기와 회합 자전 주기</title>
+  <desc id="d-astro-2-q-synodic-rotation">태양의 북극 쪽에서 내려다본 모식도이다. 태양이 별을 기준으로 한 바퀴 자전하는 동안(항성 주기) 지구도 같은 방향으로 공전하여 앞으로 나아가 있으므로, 흑점이 다시 지구를 향하려면 조금 더 돌아야 한다. 그래서 지구에서 본 회합 주기가 항성 주기보다 길다. 크기와 거리는 실제와 다르다.</desc>
+  <style>.astro-2-q-synodic-rotation-t{font-size:14px;fill:var(--fig-ink)} .astro-2-q-synodic-rotation-s{font-size:13px;fill:var(--fig-muted)} .astro-2-q-synodic-rotation-b{font-weight:600} .astro-2-q-synodic-rotation-L{font-size:15px;fill:var(--fig-ink)}</style>
+  <path d="M413.4 262.4 A300 300 0 0 0 349.8 7.2" style="fill:none;stroke:var(--fig-line);stroke-width:1.4;stroke-dasharray:5 4"/>
+  <line x1="120" y1="200" x2="420" y2="200" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:3 3"/>
+  <line x1="120" y1="200" x2="387.5" y2="64.3" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:3 3"/>
+  <circle cx="120" cy="200" r="46" style="fill:#f4b400;stroke:var(--fig-amber);stroke-width:1.5"/>
+  <circle cx="420" cy="200" r="8" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <circle cx="387.5" cy="64.3" r="8" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <text x="416" y="228" text-anchor="middle" class="astro-2-q-synodic-rotation-s" style="fill:var(--fig-blue)">처음 지구</text>
+  <text x="399.5" y="52.3" text-anchor="middle" class="astro-2-q-synodic-rotation-s" style="fill:var(--fig-blue)">약 27일 뒤 지구</text>
+  <line x1="367.9" y1="31" x2="362.3" y2="23.4" style="stroke:var(--fig-blue);stroke-width:2"/>
+  <path d="M356.4 15.3 L358.7 26 L365.9 20.7 Z" style="fill:var(--fig-blue)"/>
+  <text x="410.4" y="277.4" text-anchor="middle" class="astro-2-q-synodic-rotation-s" style="fill:var(--fig-blue)">지구의 공전</text>
+  <circle cx="160" cy="200" r="5" style="fill:#3a2a10;stroke:var(--fig-ink);stroke-width:1"/>
+  <circle cx="156.6" cy="181.5" r="5" style="fill:#3a2a10;stroke:var(--fig-ink);stroke-width:1;stroke-dasharray:2 2"/>
+  <path d="M187.3 190.5 A68 68 0 1 0 187.3 209.5" style="fill:none;stroke:var(--fig-amber);stroke-width:1.8"/>
+  <line x1="186" y1="216.5" x2="186.4" y2="213.6" style="stroke:var(--fig-amber);stroke-width:1.8"/>
+  <path d="M187.8 204.7 L182.4 213 L190.4 214.3 Z" style="fill:var(--fig-amber)"/>
+  <text x="120" y="290" text-anchor="middle" class="astro-2-q-synodic-rotation-s" style="fill:var(--fig-amber)">한 바퀴 자전 = 항성 주기 약 25.4일</text>
+  <path d="M206 200 A86 86 0 0 0 196.7 161.1" style="fill:none;stroke:var(--fig-red);stroke-width:2.2"/>
+  <text x="209.6" y="150" text-anchor="start" class="astro-2-q-synodic-rotation-s" style="fill:var(--fig-red)">더 돌아야 하는 각</text>
+  <text x="209.6" y="167" text-anchor="start" class="astro-2-q-synodic-rotation-s" style="fill:var(--fig-red)">(약 27°)</text>
+  <text x="20" y="26" text-anchor="start" class="astro-2-q-synodic-rotation-s">태양 북극 쪽에서 본 모식도 (자전·공전 모두 시계 반대 방향)</text>
+  <text x="20" y="44" text-anchor="start" class="astro-2-q-synodic-rotation-s">실선 흑점: 처음 위치, 점선 흑점: 다시 지구를 향한 위치</text>
+</svg>
