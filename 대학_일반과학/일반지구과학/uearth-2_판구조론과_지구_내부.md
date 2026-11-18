@@ -1116,10 +1116,10 @@ $d(64) - d(0) = 350\times\sqrt{64} = 2800\ \mathrm{m}$ 깊다.
 <details>
 <summary>정답 및 해설</summary>
 
-**정답** (1) 약 30°N, 약 45°N (2) 약 3.3 cm/년 (3) 해설 참고
+**정답** (1) 약 30°N, 약 45°N (2) 약 3.2 cm/년 (3) 해설 참고
 
 (1) $\tan\lambda = \tan I/2$: $\tan49°/2 \approx 0.575 \Rightarrow \lambda \approx 30°$, $\tan63°/2 \approx 0.98 \Rightarrow \lambda \approx 44.5° \approx 45°$
-(2) 위도 약 15° 이동 $\approx 15\times111 \approx 1.67\times10^{3}$ km, $\dfrac{1.67\times10^{8}\ \mathrm{cm}}{5.0\times10^{7}\ \text{년}} \approx 3.3\ \mathrm{cm/년}$. 5000만 년 전 이후로는 위도 변화가 거의 없다.
+(2) 위도 약 14.5° 이동 $\approx 14.5\times111 \approx 1.61\times10^{3}$ km, $\dfrac{1.61\times10^{8}\ \mathrm{cm}}{5.0\times10^{7}\ \text{년}} \approx 3.2\ \mathrm{cm/년}$. 5000만 년 전 이후로는 위도 변화가 거의 없다.
 (3) 복각은 위도 변화만 알려 주므로 동서 방향(경도) 이동은 빠져 있다. 실제 이동은 남북 성분과 동서 성분을 합친 것이라 이 값보다 크거나 같다. 해저 자기 줄무늬와 변환 단층 방향으로 구한 상대 운동, 열점 자취 등을 함께 쓰면 동서 성분을 보완할 수 있다.
 
 **채점 포인트** ① 복각–위도 식 적용 ② 거리·속도 계산과 단위 ③ 경도 정보가 없다는 점 ④ 보완 자료 제안
