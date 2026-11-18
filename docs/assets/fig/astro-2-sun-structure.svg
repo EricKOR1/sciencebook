@@ -25,13 +25,13 @@
   <text x="316.0" y="174.0" text-anchor="start" class="astro-2-sun-structure-s" style="fill:var(--fig-violet)">100만 K 이상</text>
   <text x="20.0" y="26.0" text-anchor="start" class="astro-2-sun-structure-t astro-2-sun-structure-b">태양의 4분의 1 단면 (채층·코로나 두께 과장)</text>
   <text x="420.0" y="112.0" text-anchor="start" class="astro-2-sun-structure-t astro-2-sun-structure-b">쌀알 무늬 (광구 확대)</text>
-  <rect x="420.0" y="124.0" width="280.0" height="50.0" rx="0" style="fill:var(--fig-amber);stroke:none;stroke-width:1"/>
-  <rect x="430.0" y="129.8" width="39.6" height="42.0" rx="12" style="fill:var(--fig-soft-amber);stroke:none;stroke-width:1"/>
-  <rect x="476.0" y="127.3" width="32.5" height="42.0" rx="12" style="fill:var(--fig-soft-amber);stroke:none;stroke-width:1"/>
-  <rect x="522.0" y="129.2" width="38.7" height="42.0" rx="12" style="fill:var(--fig-soft-amber);stroke:none;stroke-width:1"/>
-  <rect x="568.0" y="127.9" width="37.4" height="42.0" rx="12" style="fill:var(--fig-soft-amber);stroke:none;stroke-width:1"/>
-  <rect x="614.0" y="128.8" width="36.8" height="42.0" rx="12" style="fill:var(--fig-soft-amber);stroke:none;stroke-width:1"/>
-  <rect x="660.0" y="127.5" width="36.6" height="42.0" rx="12" style="fill:var(--fig-soft-amber);stroke:none;stroke-width:1"/>
+  <rect x="420.0" y="124.0" width="280.0" height="50.0" rx="0" style="fill:#b8740a;stroke:none;stroke-width:1"/>
+  <rect x="430.0" y="129.8" width="39.6" height="42.0" rx="12" style="fill:#fde9b8;stroke:none;stroke-width:1"/>
+  <rect x="476.0" y="127.3" width="32.5" height="42.0" rx="12" style="fill:#fde9b8;stroke:none;stroke-width:1"/>
+  <rect x="522.0" y="129.2" width="38.7" height="42.0" rx="12" style="fill:#fde9b8;stroke:none;stroke-width:1"/>
+  <rect x="568.0" y="127.9" width="37.4" height="42.0" rx="12" style="fill:#fde9b8;stroke:none;stroke-width:1"/>
+  <rect x="614.0" y="128.8" width="36.8" height="42.0" rx="12" style="fill:#fde9b8;stroke:none;stroke-width:1"/>
+  <rect x="660.0" y="127.5" width="36.6" height="42.0" rx="12" style="fill:#fde9b8;stroke:none;stroke-width:1"/>
   <text x="700.0" y="192.0" text-anchor="end" class="astro-2-sun-structure-s">위에서 본 모습</text>
   <rect x="420.0" y="230.0" width="280.0" height="100.0" rx="0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1"/>
   <line x1="420.0" y1="230.0" x2="700.0" y2="230.0" style="stroke:var(--fig-ink);stroke-width:2"/>
@@ -60,8 +60,8 @@
   <text x="467.0" y="368.0" text-anchor="middle" class="astro-2-sun-structure-s" style="fill:var(--fig-red)">→ 밝은 가운데</text>
   <text x="606.0" y="352.0" text-anchor="middle" class="astro-2-sun-structure-s" style="fill:var(--fig-blue)">식은 기체 하강</text>
   <text x="606.0" y="368.0" text-anchor="middle" class="astro-2-sun-structure-s" style="fill:var(--fig-blue)">→ 어두운 경계</text>
-  <line x1="424.0" y1="208.0" x2="509.0" y2="208.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
-  <path d="M509.0 208.0 L503.5 210.3 L503.5 205.7 Z" style="fill:var(--fig-muted)"/>
-  <path d="M424.0 208.0 L429.5 205.7 L429.5 210.3 Z" style="fill:var(--fig-muted)"/>
-  <text x="516.0" y="212.0" text-anchor="start" class="astro-2-sun-structure-s">쌀알 하나 약 1000 km</text>
+  <line x1="430.0" y1="208.0" x2="470.0" y2="208.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <path d="M470.0 208.0 L464.5 210.3 L464.5 205.7 Z" style="fill:var(--fig-muted)"/>
+  <path d="M430.0 208.0 L435.5 205.7 L435.5 210.3 Z" style="fill:var(--fig-muted)"/>
+  <text x="478.0" y="212.0" text-anchor="start" class="astro-2-sun-structure-s">쌀알 하나 약 1000 km</text>
 </svg>
