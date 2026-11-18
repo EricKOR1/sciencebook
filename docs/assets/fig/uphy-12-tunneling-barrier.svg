@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-labelledby="t-uphy-12-tunneling-barrier d-uphy-12-tunneling-barrier">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 346" role="img" aria-labelledby="t-uphy-12-tunneling-barrier d-uphy-12-tunneling-barrier">
   <title id="t-uphy-12-tunneling-barrier">그림 일반물리학 12-6 퍼텐셜 장벽과 터널링 — 장벽을 지나는 파동 함수</title>
-  <desc id="d-uphy-12-tunneling-barrier">에너지 E = 1.0 eV인 전자가 높이 U₀ = 5.0 eV, 폭 0.15 nm인 장벽에 왼쪽에서 다가올 때 슈뢰딩거 방정식의 해(파동 함수의 실수부)를 에너지 높이에 겹쳐 그렸다. 왼쪽에는 입사파와 반사파가 겹쳐 있고, 장벽 안(고전적으로 갈 수 없는 영역)에서는 파동 함수가 진동하지 않고 지수 함수적으로 줄어들며, 오른쪽에는 진폭이 작은 투과파가 나아간다. 투과 확률은 진폭 비의 제곱이다. 파동 함수의 세로 크기는 임의 단위이다.</desc>
+  <desc id="d-uphy-12-tunneling-barrier">에너지 E = 1.0 eV인 전자가 높이 U₀ = 5.0 eV, 폭 0.15 nm인 장벽에 왼쪽에서 다가올 때 슈뢰딩거 방정식의 해(파동 함수의 실수부)를 에너지 높이에 겹쳐 그렸다. 왼쪽에는 입사파와 반사파가 겹쳐 있고, 장벽 안(고전적으로 갈 수 없는 영역)에서는 파동 함수가 진동하지 않고 지수 함수적으로 줄어들며, 오른쪽에는 진폭이 작은 투과파가 나아간다. 투과 확률은 진폭 비의 제곱으로 약 0.12이며, κL ≈ 1.5로 장벽이 얇아 근사식 e^(−2κL)(약 0.05)보다 크다. 파동 함수의 세로 크기는 임의 단위이다.</desc>
   <style>
     .u12t-t{font-size:14px;fill:var(--fig-ink)} .u12t-b{font-size:14px;font-weight:600;fill:var(--fig-ink)}
     .u12t-s{font-size:13px;fill:var(--fig-muted)} .u12t-sm{font-size:13px;fill:var(--fig-ink)}
@@ -22,6 +22,7 @@
 <text x="372.7" y="36.0" text-anchor="middle" class="u12t-sm">장벽 안: 지수 함수로 감소</text>
 <text x="372.7" y="54.0" text-anchor="middle" class="u12t-s">ψ ∝ e^(−κx)</text>
 <text x="550.7" y="36.0" text-anchor="middle" class="u12t-sm">투과파(진폭 작음)</text>
-<text x="550.7" y="54.0" text-anchor="middle" class="u12t-s">T = |진폭 비|² ≈ 0.12</text>
-<text x="40.0" y="310.0" class="u12t-s">κ = √(2m(U₀ − E))/ħ, 두껍고 높은 장벽에서 T ≈ e^(−2κL)</text>
+<text x="550.7" y="54.0" text-anchor="middle" class="u12t-s">T = |진폭 비|² ≈ 0.12 (L = 0.15 nm)</text>
+<text x="40.0" y="318.0" class="u12t-s">κ = √(2m(U₀ − E))/ħ. 이 그림은 κL ≈ 1.5인 얇은 장벽이라 정확한 해의 값이다.</text>
+<text x="40.0" y="336.0" class="u12t-s">근사식 T ≈ e^(−2κL)(여기서는 ≈ 0.05)은 κL ≫ 1인 두꺼운 장벽(예제 10)에서 쓴다.</text>
 </svg>
