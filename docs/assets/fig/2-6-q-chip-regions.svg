@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 244" class="fig-small" role="img" aria-labelledby="t-2-6-q-chip-regions d-2-6-q-chip-regions">
+  <title id="t-2-6-q-chip-regions">그림 2-6-11 문제 15 규소 조각에 만들 세 영역</title>
+  <desc id="d-2-6-q-chip-regions">하나의 규소 조각 윗면 가까이에 영역 P와 Q를 나란히 만들고, 그 사이에 두 영역을 나누는 경계 R을 둔다. 각 영역에 넣을 불순물과 R의 재료는 문제에서 정한다. 단면 모식도이다.</desc>
+  <style>
+    .f2-6-q-chip-regions-t{font-size:14px;fill:var(--fig-ink)} .f2-6-q-chip-regions-sm{font-size:13px;fill:var(--fig-muted)}
+    .f2-6-q-chip-regions-lbl{font-size:16px;font-weight:700;fill:var(--fig-ink)}
+    .f2-6-q-chip-regions-si{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.6} .f2-6-q-chip-regions-p{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6}
+    .f2-6-q-chip-regions-q{fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6} .f2-6-q-chip-regions-r{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6}
+    .f2-6-q-chip-regions-ld{stroke:var(--fig-muted);stroke-width:1.1;fill:none}
+  </style>
+  <rect x="40" y="90" width="380" height="110" class="f2-6-q-chip-regions-si"/>
+  <rect x="80" y="90" width="110" height="50" class="f2-6-q-chip-regions-p"/>
+  <rect x="270" y="90" width="110" height="50" class="f2-6-q-chip-regions-q"/>
+  <rect x="205" y="90" width="50" height="66" class="f2-6-q-chip-regions-r"/>
+  <path d="M135 110 V62" class="f2-6-q-chip-regions-ld"/>  <text x="135.0" y="54.0" text-anchor="middle" class="f2-6-q-chip-regions-lbl">P</text>
+  <path d="M325 110 V62" class="f2-6-q-chip-regions-ld"/>  <text x="325.0" y="54.0" text-anchor="middle" class="f2-6-q-chip-regions-lbl">Q</text>
+  <path d="M230 120 V62" class="f2-6-q-chip-regions-ld"/>  <text x="230.0" y="54.0" text-anchor="middle" class="f2-6-q-chip-regions-lbl">R</text>
+  <text x="230.0" y="182.0" text-anchor="middle" class="f2-6-q-chip-regions-sm">규소 조각</text>
+  <text x="230.0" y="228.0" text-anchor="middle" class="f2-6-q-chip-regions-sm">하나의 규소 조각의 단면 모식도</text>
+</svg>

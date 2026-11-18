@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" role="img" aria-labelledby="t-1-1-q-lidar-pulses d-1-1-q-lidar-pulses">
+  <title id="t-1-1-q-lidar-pulses">그림 1-1-7 문제 14 해설: 펄스를 너무 자주 쏠 때</title>
+  <desc id="d-1-1-q-lidar-pulses">펄스를 0.8 μs마다 쏘면, 200 m 떨어진 물체에서 1.33 μs 뒤에 돌아온 펄스 1의 빛을 방금 쏜 펄스 2의 빛으로 착각할 수 있다. 그러면 걸린 시간을 0.53 μs로 재어 거리를 80 m로 잘못 계산한다.</desc>
+  <style>.f1-1-q-lidar-pulses-t{font-size:14px;fill:var(--fig-ink)} .f1-1-q-lidar-pulses-s{font-size:13px;fill:var(--fig-muted)} .f1-1-q-lidar-pulses-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .f1-1-q-lidar-pulses-ax{stroke:var(--fig-ink);stroke-width:1.4;fill:none} .f1-1-q-lidar-pulses-tk{stroke:var(--fig-ink);stroke-width:1.1;fill:none} .f1-1-q-lidar-pulses-grid{stroke:var(--fig-line);stroke-width:0.8;fill:none}</style>
+  <text x="16" y="96" class="f1-1-q-lidar-pulses-h">쏜 펄스</text>
+  <text x="16" y="186" class="f1-1-q-lidar-pulses-h">돌아온 빛</text>
+  <line x1="114" y1="100" x2="692" y2="100" class="f1-1-q-lidar-pulses-ax"/>
+  <line x1="114" y1="190" x2="692" y2="190" class="f1-1-q-lidar-pulses-ax"/>
+  <path d="M700 190 L692.6 193.1 L692.6 186.9 Z" style="fill:var(--fig-ink)"/>
+  <text x="704" y="214" text-anchor="end" class="f1-1-q-lidar-pulses-s">시간(μs)</text>
+  <line x1="120" y1="190" x2="120" y2="195" class="f1-1-q-lidar-pulses-tk"/>
+  <text x="120" y="210" text-anchor="middle" class="f1-1-q-lidar-pulses-s">0</text>
+  <line x1="250" y1="190" x2="250" y2="195" class="f1-1-q-lidar-pulses-tk"/>
+  <text x="250" y="210" text-anchor="middle" class="f1-1-q-lidar-pulses-s">0.5</text>
+  <line x1="380" y1="190" x2="380" y2="195" class="f1-1-q-lidar-pulses-tk"/>
+  <text x="380" y="210" text-anchor="middle" class="f1-1-q-lidar-pulses-s">1</text>
+  <line x1="510" y1="190" x2="510" y2="195" class="f1-1-q-lidar-pulses-tk"/>
+  <text x="510" y="210" text-anchor="middle" class="f1-1-q-lidar-pulses-s">1.5</text>
+  <line x1="640" y1="190" x2="640" y2="195" class="f1-1-q-lidar-pulses-tk"/>
+  <text x="640" y="210" text-anchor="middle" class="f1-1-q-lidar-pulses-s">2</text>
+  <rect x="115" y="70" width="10" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
+  <text x="120" y="62" text-anchor="middle" class="f1-1-q-lidar-pulses-t">펄스 1</text>
+  <rect x="323" y="70" width="10" height="30" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.6"/>
+  <text x="328" y="62" text-anchor="middle" class="f1-1-q-lidar-pulses-t">펄스 2</text>
+  <rect x="531" y="70" width="10" height="30" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.6"/>
+  <text x="536" y="62" text-anchor="middle" class="f1-1-q-lidar-pulses-t">펄스 3</text>
+  <rect x="461.7" y="168" width="10" height="22" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.6"/>
+  <text x="478.7" y="182" class="f1-1-q-lidar-pulses-s">200 m 물체에서 돌아온 펄스 1의 빛</text>
+  <line x1="120" y1="110" x2="328" y2="110" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="224" y="126" text-anchor="middle" class="f1-1-q-lidar-pulses-s">간격 0.8 μs</text>
+  <line x1="328" y1="104" x2="328" y2="140" style="stroke:var(--fig-red);stroke-width:1;stroke-dasharray:3 3"/>
+  <line x1="466.7" y1="140" x2="466.7" y2="166" style="stroke:var(--fig-red);stroke-width:1;stroke-dasharray:3 3"/>
+  <line x1="328" y1="140" x2="466.7" y2="140" style="stroke:var(--fig-red);stroke-width:1.8"/>
+  <path d="M466.7 140 L459.3 143.1 L459.3 136.9 Z" style="fill:var(--fig-red)"/>
+  <text x="334" y="133" class="f1-1-q-lidar-pulses-t" style="fill:var(--fig-red)">펄스 2의 빛으로 착각: 0.53 μs → 80 m로 잘못 계산</text>
+  <line x1="120" y1="104" x2="120" y2="236" style="stroke:var(--fig-blue);stroke-width:1;stroke-dasharray:3 3"/>
+  <line x1="466.7" y1="190" x2="466.7" y2="236" style="stroke:var(--fig-blue);stroke-width:1;stroke-dasharray:3 3"/>
+  <line x1="120" y1="236" x2="466.7" y2="236" style="stroke:var(--fig-blue);stroke-width:1.8"/>
+  <path d="M466.7 236 L459.3 239.1 L459.3 232.9 Z" style="fill:var(--fig-blue)"/>
+  <text x="126" y="255" class="f1-1-q-lidar-pulses-t" style="fill:var(--fig-blue)">실제: 펄스 1의 왕복 시간 1.33 μs → 200 m</text>
+  <text x="360" y="282" text-anchor="middle" class="f1-1-q-lidar-pulses-s">펄스 간격이 왕복 시간보다 짧으면, 돌아온 빛이 어느 펄스의 것인지 가릴 수 없다</text>
+</svg>

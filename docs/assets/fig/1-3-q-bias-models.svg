@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 310" role="img" aria-labelledby="t-1-3-q-bias-models d-1-3-q-bias-models">
+  <title id="t-1-3-q-bias-models">그림 1-3-7 문제 14 해설: 치우침을 가려내는 방법</title>
+  <desc id="d-1-3-q-bias-models">저울 나의 치우침(표시값 − 실제 질량)을 올린 질량에 따라 나타냈다. 늘 같은 크기로 치우치면 어느 질량에서나 1.20 g이고, 질량에 비례하여 치우치면 50 g에서 0.60 g, 200 g에서 2.40 g이다. 100 g 분동 한 가지로만 재면 두 경우의 결과가 같아 구별할 수 없다.</desc>
+  <style>.f1-3-q-bias-models-t{font-size:14px;fill:var(--fig-ink)} .f1-3-q-bias-models-s{font-size:13px;fill:var(--fig-muted)} .f1-3-q-bias-models-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .f1-3-q-bias-models-ax{stroke:var(--fig-ink);stroke-width:1.4;fill:none} .f1-3-q-bias-models-tk{stroke:var(--fig-ink);stroke-width:1.1;fill:none} .f1-3-q-bias-models-grid{stroke:var(--fig-line);stroke-width:0.8;fill:none}</style>
+  <line x1="100" y1="250" x2="620" y2="250" class="f1-3-q-bias-models-grid"/>
+  <text x="92" y="254.5" text-anchor="end" class="f1-3-q-bias-models-s">0.0</text>
+  <line x1="100" y1="210" x2="620" y2="210" class="f1-3-q-bias-models-grid"/>
+  <text x="92" y="214.5" text-anchor="end" class="f1-3-q-bias-models-s">0.5</text>
+  <line x1="100" y1="170" x2="620" y2="170" class="f1-3-q-bias-models-grid"/>
+  <text x="92" y="174.5" text-anchor="end" class="f1-3-q-bias-models-s">1.0</text>
+  <line x1="100" y1="130" x2="620" y2="130" class="f1-3-q-bias-models-grid"/>
+  <text x="92" y="134.5" text-anchor="end" class="f1-3-q-bias-models-s">1.5</text>
+  <line x1="100" y1="90" x2="620" y2="90" class="f1-3-q-bias-models-grid"/>
+  <text x="92" y="94.5" text-anchor="end" class="f1-3-q-bias-models-s">2.0</text>
+  <line x1="100" y1="50" x2="620" y2="50" class="f1-3-q-bias-models-grid"/>
+  <text x="92" y="54.5" text-anchor="end" class="f1-3-q-bias-models-s">2.5</text>
+  <line x1="100" y1="250" x2="100" y2="256" class="f1-3-q-bias-models-tk"/>
+  <text x="100" y="272" text-anchor="middle" class="f1-3-q-bias-models-s">0</text>
+  <line x1="230" y1="250" x2="230" y2="256" class="f1-3-q-bias-models-tk"/>
+  <text x="230" y="272" text-anchor="middle" class="f1-3-q-bias-models-s">50</text>
+  <line x1="360" y1="250" x2="360" y2="256" class="f1-3-q-bias-models-tk"/>
+  <text x="360" y="272" text-anchor="middle" class="f1-3-q-bias-models-s">100</text>
+  <line x1="490" y1="250" x2="490" y2="256" class="f1-3-q-bias-models-tk"/>
+  <text x="490" y="272" text-anchor="middle" class="f1-3-q-bias-models-s">150</text>
+  <line x1="620" y1="250" x2="620" y2="256" class="f1-3-q-bias-models-tk"/>
+  <text x="620" y="272" text-anchor="middle" class="f1-3-q-bias-models-s">200</text>
+  <line x1="100" y1="250" x2="633" y2="250" class="f1-3-q-bias-models-ax"/>
+  <line x1="100" y1="250" x2="100" y2="38" class="f1-3-q-bias-models-ax"/>
+  <text x="360" y="294" text-anchor="middle" class="f1-3-q-bias-models-t">올린 표준 분동의 질량(g)</text>
+  <text x="20" y="26" class="f1-3-q-bias-models-t">표시값 − 실제 질량(g)</text>
+  <line x1="100" y1="154" x2="620" y2="154" style="stroke:var(--fig-blue);stroke-width:2.2"/>
+  <line x1="100" y1="250" x2="620" y2="58" style="stroke:var(--fig-red);stroke-width:2.2;stroke-dasharray:7 4"/>
+  <circle cx="230" cy="154" r="5" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <rect x="225.5" y="197.5" width="9" height="9" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8"/>
+  <circle cx="360" cy="154" r="5" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <rect x="355.5" y="149.5" width="9" height="9" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8"/>
+  <circle cx="620" cy="154" r="5" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8"/>
+  <rect x="615.5" y="53.5" width="9" height="9" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8"/>
+  <text x="620" y="176" text-anchor="end" class="f1-3-q-bias-models-t" style="fill:var(--fig-blue)">(2) 늘 같은 크기(1.20 g)로 치우침</text>
+  <text x="570" y="56" text-anchor="end" class="f1-3-q-bias-models-t" style="fill:var(--fig-red)">(3) 질량에 비례하여 치우침</text>
+  <line x1="364" y1="160" x2="384" y2="194" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="386" y="206" class="f1-3-q-bias-models-s">100 g 분동으로만 재면 두 경우의 결과가 같다</text>
+</svg>

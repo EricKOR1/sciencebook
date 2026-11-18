@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" class="fig-small" role="img" aria-labelledby="t-m1-03-q-bimetal-alarm d-m1-03-q-bimetal-alarm">
+  <title id="t-m1-03-q-bimetal-alarm">그림 중1-3-15 문제 15의 화재 경보 장치</title>
+  <desc id="d-m1-03-q-bimetal-alarm">왼쪽 끝을 고정한 바이메탈의 오른쪽 끝 바로 위에 접점이 있고, 바이메탈·전지·벨·접점이 전선으로 이어져 있다. ㉠은 바이메탈의 위쪽 금속, ㉡은 아래쪽 금속이다(실온일 때의 모습).</desc>
+  <style>.m1-03-q-bimetal-alarm-t{font-size:14px;fill:var(--fig-ink)} .m1-03-q-bimetal-alarm-b{font-size:15px;font-weight:700;fill:var(--fig-ink)} .m1-03-q-bimetal-alarm-s{font-size:13px;fill:var(--fig-muted)} .m1-03-q-bimetal-alarm-big{font-size:18px;font-weight:700;fill:var(--fig-ink)}</style>
+  <rect x="40" y="130" width="40" height="60" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <line x1="42.0" y1="188.0" x2="50.0" y2="132.0" style="stroke:var(--fig-amber);stroke-width:1"/>
+  <line x1="51.0" y1="188.0" x2="59.0" y2="132.0" style="stroke:var(--fig-amber);stroke-width:1"/>
+  <line x1="60.0" y1="188.0" x2="68.0" y2="132.0" style="stroke:var(--fig-amber);stroke-width:1"/>
+  <line x1="69.0" y1="188.0" x2="77.0" y2="132.0" style="stroke:var(--fig-amber);stroke-width:1"/>
+  <line x1="78.0" y1="188.0" x2="86.0" y2="132.0" style="stroke:var(--fig-amber);stroke-width:1"/>
+  <text x="60.0" y="210.0" text-anchor="middle" class="m1-03-q-bimetal-alarm-s">고정</text>
+  <rect x="80" y="146" width="250" height="9" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <rect x="80" y="155" width="250" height="9" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <line x1="150.0" y1="149.0" x2="140.0" y2="117.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="100.0" y="112.0" text-anchor="start" class="m1-03-q-bimetal-alarm-t">㉠ 위쪽 금속</text>
+  <line x1="220.0" y1="160.0" x2="236.0" y2="200.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="238.0" y="216.0" text-anchor="start" class="m1-03-q-bimetal-alarm-t">㉡ 아래쪽 금속</text>
+  <rect x="312" y="118" width="22" height="10" style="fill:var(--fig-amber);stroke:var(--fig-amber);stroke-width:1"/>
+  <line x1="323.0" y1="118.0" x2="323.0" y2="60.0" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <text x="372.0" y="128.0" text-anchor="middle" class="m1-03-q-bimetal-alarm-t">접점</text>
+  <path d="M60 130 L60 60 L150 60" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <line x1="150.0" y1="44.0" x2="150.0" y2="76.0" style="stroke:var(--fig-ink);stroke-width:2.5"/>
+  <line x1="162.0" y1="52.0" x2="162.0" y2="68.0" style="stroke:var(--fig-ink);stroke-width:5"/>
+  <text x="146.0" y="38.0" text-anchor="end" class="m1-03-q-bimetal-alarm-t">+</text>
+  <text x="184.0" y="44.0" text-anchor="middle" class="m1-03-q-bimetal-alarm-s">전지</text>
+  <path d="M162 60 L220 60" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <path d="M222 70 L222 58 Q222 36 240 36 Q258 36 258 58 L258 70 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <circle cx="240" cy="74" r="4" style="fill:var(--fig-amber);stroke:none"/>
+  <text x="240.0" y="24.0" text-anchor="middle" class="m1-03-q-bimetal-alarm-s">벨</text>
+  <path d="M258 60 L323 60" style="fill:none;stroke:var(--fig-ink);stroke-width:2"/>
+  <text x="240.0" y="270.0" text-anchor="middle" class="m1-03-q-bimetal-alarm-s">실온에서는 바이메탈이 곧게 펴져 있다</text>
+</svg>

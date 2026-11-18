@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="t-m3-07-q-wet-stopping d-m3-07-q-wet-stopping">
+  <title id="t-m3-07-q-wet-stopping">그림 중3-7-10 문제 13 풀이: 마른 길과 빗길의 정지 거리</title>
+  <desc id="d-m3-07-q-wet-stopping">반응 시간 1초일 때 마른 길 20 m/s는 반응 거리 20 m와 제동 거리 25 m로 정지 거리 45 m, 빗길 20 m/s는 20 m와 50 m로 70 m, 빗길 15 m/s는 15 m와 약 28.1 m로 약 43.1 m이다. 막대 길이는 거리에 비례한다.</desc>
+  <style>
+    .m3-07-q-wet-stopping-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .m3-07-q-wet-stopping-tx{font-size:14px;fill:var(--fig-ink)}
+    .m3-07-q-wet-stopping-sm{font-size:13px;fill:var(--fig-muted)}
+    .m3-07-q-wet-stopping-ln{fill:none;stroke:var(--fig-ink);stroke-width:2}
+    .m3-07-q-wet-stopping-off{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2}
+    .m3-07-q-wet-stopping-on{fill:var(--fig-violet);stroke:var(--fig-ink);stroke-width:2}
+    .m3-07-q-wet-stopping-re{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.8}
+    .m3-07-q-wet-stopping-br{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8}
+  </style>
+  <rect x="20" y="18" width="24" height="15" class="m3-07-q-wet-stopping-re"/>  <text x="52.0" y="30.0" class="m3-07-q-wet-stopping-tx">반응 거리</text>
+  <rect x="150" y="18" width="24" height="15" class="m3-07-q-wet-stopping-br"/>  <text x="182.0" y="30.0" class="m3-07-q-wet-stopping-tx">제동 거리</text>
+  <text x="20.0" y="84.0" class="m3-07-q-wet-stopping-lbl">마른 길</text>
+  <text x="20.0" y="102.0" class="m3-07-q-wet-stopping-sm">20 m/s</text>
+  <rect x="180" y="70" width="130.0" height="30" class="m3-07-q-wet-stopping-re"/>
+  <rect x="310.0" y="70" width="162.5" height="30" class="m3-07-q-wet-stopping-br"/>
+  <text x="245.0" y="90.0" text-anchor="middle" class="m3-07-q-wet-stopping-tx">20 m</text>
+  <text x="391.2" y="90.0" text-anchor="middle" class="m3-07-q-wet-stopping-tx">25 m</text>
+  <text x="480.5" y="90.0" class="m3-07-q-wet-stopping-lbl">= 45 m</text>
+  <text x="20.0" y="150.0" class="m3-07-q-wet-stopping-lbl">빗길</text>
+  <text x="20.0" y="168.0" class="m3-07-q-wet-stopping-sm">20 m/s</text>
+  <rect x="180" y="136" width="130.0" height="30" class="m3-07-q-wet-stopping-re"/>
+  <rect x="310.0" y="136" width="325.0" height="30" class="m3-07-q-wet-stopping-br"/>
+  <text x="245.0" y="156.0" text-anchor="middle" class="m3-07-q-wet-stopping-tx">20 m</text>
+  <text x="511.5" y="156.0" text-anchor="middle" class="m3-07-q-wet-stopping-tx">50 m</text>
+  <text x="643.0" y="156.0" class="m3-07-q-wet-stopping-lbl">= 70 m</text>
+  <text x="20.0" y="216.0" class="m3-07-q-wet-stopping-lbl">빗길</text>
+  <text x="20.0" y="234.0" class="m3-07-q-wet-stopping-sm">15 m/s</text>
+  <rect x="180" y="202" width="97.5" height="30" class="m3-07-q-wet-stopping-re"/>
+  <rect x="277.5" y="202" width="182.8" height="30" class="m3-07-q-wet-stopping-br"/>
+  <text x="228.8" y="222.0" text-anchor="middle" class="m3-07-q-wet-stopping-tx">15 m</text>
+  <text x="368.9" y="222.0" text-anchor="middle" class="m3-07-q-wet-stopping-tx">약 28.1 m</text>
+  <text x="480.5" y="222.0" class="m3-07-q-wet-stopping-lbl">= 약 43.1 m</text>
+  <line x1="472.5" y1="60" x2="472.5" y2="256" style="stroke:var(--fig-ink);stroke-width:1.5;stroke-dasharray:5 4"/>
+  <text x="472.5" y="54.0" text-anchor="middle" class="m3-07-q-wet-stopping-sm">마른 길 20 m/s의 정지 거리(45 m)</text>
+  <line x1="180" y1="258" x2="635.0" y2="258" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <line x1="180.0" y1="258" x2="180.0" y2="264" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="180.0" y="278.0" text-anchor="middle" class="m3-07-q-wet-stopping-sm">0</text>
+  <line x1="245.0" y1="258" x2="245.0" y2="264" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="245.0" y="278.0" text-anchor="middle" class="m3-07-q-wet-stopping-sm">10</text>
+  <line x1="310.0" y1="258" x2="310.0" y2="264" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="310.0" y="278.0" text-anchor="middle" class="m3-07-q-wet-stopping-sm">20</text>
+  <line x1="375.0" y1="258" x2="375.0" y2="264" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="375.0" y="278.0" text-anchor="middle" class="m3-07-q-wet-stopping-sm">30</text>
+  <line x1="440.0" y1="258" x2="440.0" y2="264" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="440.0" y="278.0" text-anchor="middle" class="m3-07-q-wet-stopping-sm">40</text>
+  <line x1="505.0" y1="258" x2="505.0" y2="264" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="505.0" y="278.0" text-anchor="middle" class="m3-07-q-wet-stopping-sm">50</text>
+  <line x1="570.0" y1="258" x2="570.0" y2="264" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="570.0" y="278.0" text-anchor="middle" class="m3-07-q-wet-stopping-sm">60</text>
+  <line x1="635.0" y1="258" x2="635.0" y2="264" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="635.0" y="278.0" text-anchor="middle" class="m3-07-q-wet-stopping-sm">70</text>
+  <text x="649.0" y="278.0" class="m3-07-q-wet-stopping-sm">m</text>
+</svg>

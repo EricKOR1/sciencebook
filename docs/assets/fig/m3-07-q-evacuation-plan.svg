@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-m3-07-q-evacuation-plan d-m3-07-q-evacuation-plan">
+  <title id="t-m3-07-q-evacuation-plan">그림 중3-7-9 문제 15의 공장과 학교 주변</title>
+  <desc id="d-m3-07-q-evacuation-plan">위에서 본 모식도이다. 바람은 서쪽에서 동쪽으로 분다. 유독 기체가 새어 나온 공장에서 동쪽으로 2 km 떨어진 곳에 학교가 있고, 학교의 북쪽에는 언덕이, 학교 건물 아래에는 지하 주차장이 있다.</desc>
+  <style>
+    .m3-07-q-evacuation-plan-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .m3-07-q-evacuation-plan-tx{font-size:14px;fill:var(--fig-ink)}
+    .m3-07-q-evacuation-plan-sm{font-size:13px;fill:var(--fig-muted)}
+    .m3-07-q-evacuation-plan-ln{fill:none;stroke:var(--fig-ink);stroke-width:2}
+    .m3-07-q-evacuation-plan-off{fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2}
+    .m3-07-q-evacuation-plan-on{fill:var(--fig-violet);stroke:var(--fig-ink);stroke-width:2}
+  </style>
+  <rect x="16" y="16" width="688" height="308" rx="10" style="fill:var(--fig-paper);stroke:var(--fig-line);stroke-width:1"/>
+  <line x1="660" y1="92" x2="660" y2="48" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <path d="M660 40 l-7 13 l14 0 z" style="fill:var(--fig-ink)"/>
+  <text x="660.0" y="110.0" text-anchor="middle" class="m3-07-q-evacuation-plan-lbl">북</text>
+  <line x1="60" y1="56" x2="190" y2="56" style="stroke:var(--fig-teal);stroke-width:3"/>
+  <path d="M200 56 l-13 -7 l0 14 z" style="fill:var(--fig-teal)"/>
+  <text x="210.0" y="61.0" class="m3-07-q-evacuation-plan-tx" style="fill:var(--fig-teal);font-weight:600">바람 (서쪽 → 동쪽)</text>
+  <ellipse cx="520" cy="110" rx="120" ry="46" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6"/>
+  <ellipse cx="520" cy="110" rx="82" ry="30" style="fill:none;stroke:var(--fig-green);stroke-width:1.6"/>
+  <ellipse cx="520" cy="110" rx="44" ry="15" style="fill:none;stroke:var(--fig-green);stroke-width:1.6"/>
+  <text x="520.0" y="115.0" text-anchor="middle" class="m3-07-q-evacuation-plan-lbl">언덕</text>
+  <rect x="100" y="204" width="100" height="52" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <rect x="170" y="174" width="14" height="30" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+  <text x="150.0" y="235.0" text-anchor="middle" class="m3-07-q-evacuation-plan-lbl">공장</text>
+  <text x="150.0" y="278.0" text-anchor="middle" class="m3-07-q-evacuation-plan-tx" style="fill:var(--fig-red);font-weight:600">유독 기체 누출 (공기보다 무거움)</text>
+  <rect x="460" y="204" width="120" height="52" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="520.0" y="235.0" text-anchor="middle" class="m3-07-q-evacuation-plan-lbl">학교</text>
+  <text x="520.0" y="278.0" text-anchor="middle" class="m3-07-q-evacuation-plan-tx">건물 아래: 지하 주차장</text>
+  <line x1="150" y1="303" x2="520" y2="303" style="stroke:var(--fig-muted);stroke-width:1.5;stroke-dasharray:5 4"/>
+  <line x1="150" y1="295" x2="150" y2="311" style="stroke:var(--fig-muted);stroke-width:1.5"/>
+  <line x1="520" y1="295" x2="520" y2="311" style="stroke:var(--fig-muted);stroke-width:1.5"/>
+  <rect x="307.0" y="293" width="56" height="20" style="fill:var(--fig-paper)"/>
+  <text x="335.0" y="308.0" text-anchor="middle" class="m3-07-q-evacuation-plan-tx">2 km</text>
+  <text x="40.0" y="315.0" class="m3-07-q-evacuation-plan-sm">모식도</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" class="fig-small" role="img" aria-labelledby="t-m2-03-q-diver d-m2-03-q-diver">
+  <title id="t-m2-03-q-diver">그림 중2-3-13 문제 14 해설: 잠수부가 본 나무 꼭대기</title>
+  <desc id="d-m2-03-q-diver">나무 꼭대기에서 나온 빛이 공기에서 물로 들어가며 법선 쪽으로 꺾여 잠수부의 눈에 들어온다. 눈은 빛이 곧게 왔다고 여기므로, 물속 광선을 거꾸로 연장한 점선 위, 실제보다 높은 곳에 나무 꼭대기가 있는 것처럼 보인다. 꺾이는 각은 물에 맞춰 계산했다.</desc>
+  <style>.m2-03-q-diver-t{font-size:14px;fill:var(--fig-ink)} .m2-03-q-diver-s{font-size:13px;fill:var(--fig-muted)} .m2-03-q-diver-b{font-size:15px;font-weight:700;fill:var(--fig-ink)} </style>
+<rect x="0" y="200" width="480" height="160" style="fill:var(--fig-soft-blue)"/>
+<path d="M0 194 L150 194 L176 260 L176 360 L0 360 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+<line x1="150" y1="200" x2="480" y2="200" style="stroke:var(--fig-blue);stroke-width:2"/>
+<text x="470" y="192" text-anchor="end" class="m2-03-q-diver-s">수면</text>
+<text x="470" y="220" text-anchor="end" class="m2-03-q-diver-s">물</text>
+<text x="470" y="174" text-anchor="end" class="m2-03-q-diver-s">공기</text>
+<rect x="104" y="140" width="12" height="54" style="fill:var(--fig-amber)"/>
+<path d="M110 100 L144 152 L76 152 Z" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+<circle cx="110" cy="100" r="4" style="fill:var(--fig-red)"/>
+<path d="M110 24.4 L144 76.4 L76 76.4 Z" style="fill:none;stroke:var(--fig-green);stroke-width:1.5;stroke-dasharray:5 4"/>
+<circle cx="110" cy="24.4" r="4" style="fill:none;stroke:var(--fig-red);stroke-width:2"/>
+<line x1="240.7" y1="120" x2="240.7" y2="290" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:5 4"/>
+<text x="246.7" y="304" class="m2-03-q-diver-s">법선</text>
+<line x1="110" y1="100" x2="167.4" y2="143.9" style="stroke:var(--fig-red);stroke-width:2.4"/><path d="M175.3 150 L170.1 140.3 L164.7 147.5 Z" style="fill:var(--fig-red)"/>
+<line x1="175.3" y1="150" x2="240.7" y2="200" style="stroke:var(--fig-red);stroke-width:2.4"/>
+<line x1="240.7" y1="200" x2="279.4" y2="252" style="stroke:var(--fig-red);stroke-width:2.4"/><path d="M285.3 260 L283 249.3 L275.8 254.7 Z" style="fill:var(--fig-red)"/>
+<line x1="285.3" y1="260" x2="324" y2="314" style="stroke:var(--fig-red);stroke-width:2.4"/>
+<line x1="240.7" y1="200" x2="114" y2="27.4" style="stroke:var(--fig-red);stroke-width:1.4;stroke-dasharray:6 4"/>
+<circle cx="340" cy="328" r="14" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.8"/>
+<path d="M350 338 L420 354" style="stroke:var(--fig-ink);stroke-width:12;stroke-linecap:round"/>
+<circle cx="330" cy="320" r="3.5" style="fill:var(--fig-ink)"/>
+<text x="370" y="312" class="m2-03-q-diver-s" style="fill:var(--fig-ink)">잠수부의 눈</text>
+<text x="152" y="28.4" class="m2-03-q-diver-s" style="fill:var(--fig-ink)">보이는 꼭대기(연장선 위)</text>
+<text x="152" y="102" class="m2-03-q-diver-s" style="fill:var(--fig-ink)">실제 꼭대기</text>
+<text x="250" y="130" class="m2-03-q-diver-s" style="fill:var(--fig-ink)">공기 → 물: 법선 쪽으로 꺾임</text>
+</svg>

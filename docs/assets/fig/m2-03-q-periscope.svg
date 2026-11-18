@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 350" class="fig-small" role="img" aria-labelledby="t-m2-03-q-periscope d-m2-03-q-periscope">
+  <title id="t-m2-03-q-periscope">그림 중2-3-12 문제 10의 잠망경</title>
+  <desc id="d-m2-03-q-periscope">평면거울 두 장으로 만든 잠망경이다. 담장 너머 물체에서 수평으로 들어오는 빛이 위쪽 거울과 45°를 이루고, 아래쪽 거울은 위쪽 거울과 나란하다. 눈은 잠망경 아래쪽 입구 옆에 있다. 모식도이다.</desc>
+  <style>.m2-03-q-periscope-t{font-size:14px;fill:var(--fig-ink)} .m2-03-q-periscope-s{font-size:13px;fill:var(--fig-muted)} .m2-03-q-periscope-b{font-size:15px;font-weight:700;fill:var(--fig-ink)} </style>
+<line x1="10" y1="330" x2="450" y2="330" style="stroke:var(--fig-line);stroke-width:2"/>
+<rect x="150" y="150" width="34" height="180" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+<text x="167" y="140" text-anchor="middle" class="m2-03-q-periscope-s">담장</text>
+<line x1="50" y1="330" x2="50" y2="88" style="stroke:var(--fig-green);stroke-width:3"/>
+<circle cx="50" cy="76" r="12" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2"/>
+<text x="60" y="116" class="m2-03-q-periscope-s" style="fill:var(--fig-ink)">물체</text>
+<rect x="240" y="40" width="60" height="260" style="fill:var(--fig-soft-blue);stroke:none"/>
+<polyline points="240,104 240,300 300,300 300,286" style="fill:none;stroke:var(--fig-ink);stroke-width:2.5"/>
+<polyline points="240,50 240,40 300,40 300,214" style="fill:none;stroke:var(--fig-ink);stroke-width:2.5"/>
+<line x1="244" y1="48" x2="296" y2="104" style="stroke:var(--fig-teal);stroke-width:5;stroke-linecap:round"/>
+<line x1="244" y1="226" x2="296" y2="282" style="stroke:var(--fig-teal);stroke-width:5;stroke-linecap:round"/>
+<line x1="304" y1="78" x2="340" y2="78" style="stroke:var(--fig-muted);stroke-width:1"/>
+<text x="344" y="83" class="m2-03-q-periscope-t">위쪽 거울</text>
+<line x1="294" y1="275" x2="334" y2="296" style="stroke:var(--fig-muted);stroke-width:1"/>
+<text x="338" y="300" class="m2-03-q-periscope-t">아래쪽 거울</text>
+<text x="338" y="318" class="m2-03-q-periscope-s">(위쪽 거울과 나란함)</text>
+<line x1="64" y1="76" x2="158" y2="76" style="stroke:var(--fig-red);stroke-width:2.4"/><path d="M168 76 L158 71.5 L158 80.5 Z" style="fill:var(--fig-red)"/>
+<line x1="168" y1="76" x2="270" y2="76" style="stroke:var(--fig-red);stroke-width:2.4"/>
+<path d="M246 76 A24 24 0 0 1 253 59" style="fill:none;stroke:var(--fig-ink);stroke-width:1.3"/>
+<text x="234" y="66" text-anchor="end" class="m2-03-q-periscope-s" style="fill:var(--fig-ink)">45°</text>
+<text x="125" y="58" text-anchor="middle" class="m2-03-q-periscope-s">수평으로 들어오는 빛</text>
+<path d="M378 254 Q392 243 406 254 Q392 265 378 254 Z" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.6"/>
+<circle cx="386" cy="254" r="4.5" style="fill:var(--fig-ink)"/>
+<text x="414" y="259" class="m2-03-q-periscope-t">눈</text>
+</svg>

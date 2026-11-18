@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 300" class="fig-small" role="img" aria-labelledby="t-1-3-q-cylinder-zoom d-1-3-q-cylinder-zoom">
+  <title id="t-1-3-q-cylinder-zoom">그림 1-3-5 문제 1의 눈금실린더 액면</title>
+  <desc id="d-1-3-q-cylinder-zoom">최소 눈금이 1 mL인 눈금실린더의 액면 부근을 확대한 모식도이다. 눈높이를 액면과 같게 맞추어 본다.</desc>
+  <style>.f1-3-q-cylinder-zoom-t{font-size:14px;fill:var(--fig-ink)} .f1-3-q-cylinder-zoom-s{font-size:13px;fill:var(--fig-muted)} .f1-3-q-cylinder-zoom-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .f1-3-q-cylinder-zoom-ax{stroke:var(--fig-ink);stroke-width:1.4;fill:none} .f1-3-q-cylinder-zoom-tk{stroke:var(--fig-ink);stroke-width:1.1;fill:none} .f1-3-q-cylinder-zoom-grid{stroke:var(--fig-line);stroke-width:0.8;fill:none}</style>
+  <path d="M200 290 L200 120.2 Q265 142.2 330 120.2 L330 290 Z" style="fill:var(--fig-soft-blue);stroke:none"/>
+  <path d="M200 120.2 Q265 142.2 330 120.2" style="fill:none;stroke:var(--fig-blue);stroke-width:1.6"/>
+  <line x1="200" y1="30" x2="200" y2="290" style="stroke:var(--fig-ink);stroke-width:2.2"/>
+  <line x1="330" y1="30" x2="330" y2="290" style="stroke:var(--fig-ink);stroke-width:2.2"/>
+  <line x1="200" y1="272" x2="230" y2="272" class="f1-3-q-cylinder-zoom-tk"/>
+  <text x="236" y="277" class="f1-3-q-cylinder-zoom-t">30</text>
+  <line x1="200" y1="250" x2="216" y2="250" class="f1-3-q-cylinder-zoom-tk"/>
+  <line x1="200" y1="228" x2="216" y2="228" class="f1-3-q-cylinder-zoom-tk"/>
+  <line x1="200" y1="206" x2="216" y2="206" class="f1-3-q-cylinder-zoom-tk"/>
+  <line x1="200" y1="184" x2="216" y2="184" class="f1-3-q-cylinder-zoom-tk"/>
+  <line x1="200" y1="162" x2="230" y2="162" class="f1-3-q-cylinder-zoom-tk"/>
+  <text x="236" y="167" class="f1-3-q-cylinder-zoom-t">35</text>
+  <line x1="200" y1="140" x2="216" y2="140" class="f1-3-q-cylinder-zoom-tk"/>
+  <line x1="200" y1="118" x2="216" y2="118" class="f1-3-q-cylinder-zoom-tk"/>
+  <line x1="200" y1="96" x2="216" y2="96" class="f1-3-q-cylinder-zoom-tk"/>
+  <line x1="200" y1="74" x2="216" y2="74" class="f1-3-q-cylinder-zoom-tk"/>
+  <line x1="200" y1="52" x2="230" y2="52" class="f1-3-q-cylinder-zoom-tk"/>
+  <text x="236" y="57" class="f1-3-q-cylinder-zoom-t">40</text>
+  <text x="324" y="24" text-anchor="end" class="f1-3-q-cylinder-zoom-s">mL</text>
+  <path d="M52 131.2 Q70 118.2 88 131.2 Q70 144.2 52 131.2 Z" style="fill:var(--fig-paper);stroke:var(--fig-ink);stroke-width:1.5"/>
+  <circle cx="73" cy="131.2" r="5" style="fill:var(--fig-ink)"/>
+  <line x1="92" y1="131.2" x2="194" y2="131.2" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:5 4"/>
+  <text x="70" y="163.2" text-anchor="middle" class="f1-3-q-cylinder-zoom-s">눈높이</text>
+</svg>
