@@ -2,90 +2,69 @@
   <title id="t-uphy-10-q-falling-rod">그림 일반물리학 10-8 예제 3의 수직 레일과 막대</title>
   <desc id="d-uphy-10-q-falling-rod">연직으로 세운 두 레일의 위쪽 끝을 저항 R로 잇고, 질량 m인 막대를 두 레일에 걸쳐 정지 상태에서 놓는다. 레일 간격은 L이고, 균일한 자기장 B는 레일 평면에 수직(종이에 들어가는 방향)이다. 수치는 문제에 주어진 값이다.</desc>
   <style>.u10qa-t{font-size:14px;fill:var(--fig-ink)} .u10qa-b{font-size:14px;font-weight:600;fill:var(--fig-ink)} .u10qa-s{font-size:13px;fill:var(--fig-muted)} .u10qa-h{font-size:15px;font-weight:700;fill:var(--fig-ink)}</style>
-<circle cx="50.0" cy="75.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="46.4" y1="71.4" x2="53.6" y2="78.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="46.4" y1="78.6" x2="53.6" y2="71.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="50.0" cy="121.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="46.4" y1="117.4" x2="53.6" y2="124.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="46.4" y1="124.6" x2="53.6" y2="117.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="50.0" cy="167.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="46.4" y1="163.4" x2="53.6" y2="170.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="46.4" y1="170.6" x2="53.6" y2="163.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="50.0" cy="213.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="46.4" y1="209.4" x2="53.6" y2="216.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="46.4" y1="216.6" x2="53.6" y2="209.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="50.0" cy="259.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="46.4" y1="255.4" x2="53.6" y2="262.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="46.4" y1="262.6" x2="53.6" y2="255.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="102.0" cy="75.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="98.4" y1="71.4" x2="105.6" y2="78.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="98.4" y1="78.6" x2="105.6" y2="71.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="102.0" cy="121.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="98.4" y1="117.4" x2="105.6" y2="124.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="98.4" y1="124.6" x2="105.6" y2="117.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="102.0" cy="167.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="98.4" y1="163.4" x2="105.6" y2="170.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="98.4" y1="170.6" x2="105.6" y2="163.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="102.0" cy="213.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="98.4" y1="209.4" x2="105.6" y2="216.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="98.4" y1="216.6" x2="105.6" y2="209.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="102.0" cy="259.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="98.4" y1="255.4" x2="105.6" y2="262.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="98.4" y1="262.6" x2="105.6" y2="255.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="154.0" cy="121.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="150.4" y1="117.4" x2="157.6" y2="124.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="150.4" y1="124.6" x2="157.6" y2="117.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="154.0" cy="259.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="150.4" y1="255.4" x2="157.6" y2="262.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="150.4" y1="262.6" x2="157.6" y2="255.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="206.0" cy="121.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="202.4" y1="117.4" x2="209.6" y2="124.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="202.4" y1="124.6" x2="209.6" y2="117.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="206.0" cy="259.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="202.4" y1="255.4" x2="209.6" y2="262.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="202.4" y1="262.6" x2="209.6" y2="255.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="258.0" cy="121.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="254.4" y1="117.4" x2="261.6" y2="124.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="254.4" y1="124.6" x2="261.6" y2="117.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="258.0" cy="259.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="254.4" y1="255.4" x2="261.6" y2="262.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="254.4" y1="262.6" x2="261.6" y2="255.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="310.0" cy="121.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="306.4" y1="117.4" x2="313.6" y2="124.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="306.4" y1="124.6" x2="313.6" y2="117.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="310.0" cy="259.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="306.4" y1="255.4" x2="313.6" y2="262.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="306.4" y1="262.6" x2="313.6" y2="255.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="362.0" cy="75.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="358.4" y1="71.4" x2="365.6" y2="78.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="358.4" y1="78.6" x2="365.6" y2="71.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="362.0" cy="121.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="358.4" y1="117.4" x2="365.6" y2="124.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="358.4" y1="124.6" x2="365.6" y2="117.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="362.0" cy="167.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="358.4" y1="163.4" x2="365.6" y2="170.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="358.4" y1="170.6" x2="365.6" y2="163.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="362.0" cy="213.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="358.4" y1="209.4" x2="365.6" y2="216.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="358.4" y1="216.6" x2="365.6" y2="209.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="362.0" cy="259.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="358.4" y1="255.4" x2="365.6" y2="262.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="358.4" y1="262.6" x2="365.6" y2="255.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="414.0" cy="75.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="410.4" y1="71.4" x2="417.6" y2="78.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="410.4" y1="78.6" x2="417.6" y2="71.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="414.0" cy="121.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="410.4" y1="117.4" x2="417.6" y2="124.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="410.4" y1="124.6" x2="417.6" y2="117.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="414.0" cy="167.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="410.4" y1="163.4" x2="417.6" y2="170.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="410.4" y1="170.6" x2="417.6" y2="163.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="414.0" cy="213.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="410.4" y1="209.4" x2="417.6" y2="216.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="410.4" y1="216.6" x2="417.6" y2="209.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<circle cx="414.0" cy="259.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
-<line x1="410.4" y1="255.4" x2="417.6" y2="262.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
-<line x1="410.4" y1="262.6" x2="417.6" y2="255.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<circle cx="60.0" cy="80.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
+<line x1="56.4" y1="76.4" x2="63.6" y2="83.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<line x1="56.4" y1="83.6" x2="63.6" y2="76.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<circle cx="60.0" cy="126.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
+<line x1="56.4" y1="122.4" x2="63.6" y2="129.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<line x1="56.4" y1="129.6" x2="63.6" y2="122.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<circle cx="60.0" cy="172.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
+<line x1="56.4" y1="168.4" x2="63.6" y2="175.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<line x1="56.4" y1="175.6" x2="63.6" y2="168.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<circle cx="60.0" cy="218.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
+<line x1="56.4" y1="214.4" x2="63.6" y2="221.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<line x1="56.4" y1="221.6" x2="63.6" y2="214.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<circle cx="60.0" cy="264.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
+<line x1="56.4" y1="260.4" x2="63.6" y2="267.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<line x1="56.4" y1="267.6" x2="63.6" y2="260.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<circle cx="105.0" cy="80.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
+<line x1="101.4" y1="76.4" x2="108.6" y2="83.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<line x1="101.4" y1="83.6" x2="108.6" y2="76.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<circle cx="105.0" cy="126.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
+<line x1="101.4" y1="122.4" x2="108.6" y2="129.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<line x1="101.4" y1="129.6" x2="108.6" y2="122.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<circle cx="105.0" cy="172.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
+<line x1="101.4" y1="168.4" x2="108.6" y2="175.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<line x1="101.4" y1="175.6" x2="108.6" y2="168.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<circle cx="105.0" cy="218.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
+<line x1="101.4" y1="214.4" x2="108.6" y2="221.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<line x1="101.4" y1="221.6" x2="108.6" y2="214.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<circle cx="105.0" cy="264.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
+<line x1="101.4" y1="260.4" x2="108.6" y2="267.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<line x1="101.4" y1="267.6" x2="108.6" y2="260.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<circle cx="190.0" cy="126.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
+<line x1="186.4" y1="122.4" x2="193.6" y2="129.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<line x1="186.4" y1="129.6" x2="193.6" y2="122.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<circle cx="190.0" cy="264.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
+<line x1="186.4" y1="260.4" x2="193.6" y2="267.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<line x1="186.4" y1="267.6" x2="193.6" y2="260.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<circle cx="230.0" cy="126.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
+<line x1="226.4" y1="122.4" x2="233.6" y2="129.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<line x1="226.4" y1="129.6" x2="233.6" y2="122.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<circle cx="230.0" cy="264.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
+<line x1="226.4" y1="260.4" x2="233.6" y2="267.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<line x1="226.4" y1="267.6" x2="233.6" y2="260.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<circle cx="270.0" cy="126.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
+<line x1="266.4" y1="122.4" x2="273.6" y2="129.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<line x1="266.4" y1="129.6" x2="273.6" y2="122.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<circle cx="270.0" cy="264.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
+<line x1="266.4" y1="260.4" x2="273.6" y2="267.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<line x1="266.4" y1="267.6" x2="273.6" y2="260.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<circle cx="355.0" cy="80.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
+<line x1="351.4" y1="76.4" x2="358.6" y2="83.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<line x1="351.4" y1="83.6" x2="358.6" y2="76.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<circle cx="355.0" cy="126.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
+<line x1="351.4" y1="122.4" x2="358.6" y2="129.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<line x1="351.4" y1="129.6" x2="358.6" y2="122.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<circle cx="355.0" cy="264.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
+<line x1="351.4" y1="260.4" x2="358.6" y2="267.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<line x1="351.4" y1="267.6" x2="358.6" y2="260.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<circle cx="400.0" cy="80.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
+<line x1="396.4" y1="76.4" x2="403.6" y2="83.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<line x1="396.4" y1="83.6" x2="403.6" y2="76.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<circle cx="400.0" cy="126.0" r="7.5" style="fill:none;stroke:var(--fig-blue);stroke-width:1.2"/>
+<line x1="396.4" y1="122.4" x2="403.6" y2="129.6" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
+<line x1="396.4" y1="129.6" x2="403.6" y2="122.4" style="stroke:var(--fig-blue);stroke-width:1.4;fill:none"/>
 <line x1="150.0" y1="60.0" x2="150.0" y2="315.0" style="stroke:var(--fig-ink);stroke-width:3;fill:none"/>
 <line x1="310.0" y1="60.0" x2="310.0" y2="315.0" style="stroke:var(--fig-ink);stroke-width:3;fill:none"/>
 <line x1="150.0" y1="60.0" x2="200.0" y2="60.0" style="stroke:var(--fig-ink);stroke-width:2.5;fill:none"/>
@@ -93,11 +72,11 @@
 <path d="M200 60 L206 51 L218 69 L230 51 L242 69 L260 60" style="fill:none;stroke:var(--fig-ink);stroke-width:2.5;stroke-linejoin:round"/>
 <text x="230.0" y="44.0" text-anchor="middle" class="u10qa-b">R</text>
 <rect x="138.0" y="186.0" width="184.0" height="14.0" rx="3" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
-<text x="342.0" y="198.0" class="u10qa-t">막대 (질량 m)</text>
-<text x="342.0" y="216.0" class="u10qa-s">정지 상태에서 놓음</text>
-<line x1="430.0" y1="150.0" x2="430.0" y2="210.0" style="stroke:var(--fig-red);stroke-width:2.2;fill:none"/>
-<path d="M430.0 220.0 L425.0 210.0 L435.0 210.0 Z" style="fill:var(--fig-red);stroke:none"/>
-<text x="438.0" y="190.0" class="u10qa-b">g</text>
+<text x="332.0" y="198.0" class="u10qa-t">막대 (질량 m)</text>
+<text x="332.0" y="216.0" class="u10qa-s">정지 상태에서 놓음</text>
+<line x1="430.0" y1="250.0" x2="430.0" y2="300.0" style="stroke:var(--fig-red);stroke-width:2.2;fill:none"/>
+<path d="M430.0 310.0 L425.0 300.0 L435.0 300.0 Z" style="fill:var(--fig-red);stroke:none"/>
+<text x="438.0" y="290.0" class="u10qa-b">g</text>
 <line x1="150.0" y1="332.0" x2="150.0" y2="344.0" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
 <line x1="310.0" y1="332.0" x2="310.0" y2="344.0" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
 <line x1="230.0" y1="338.0" x2="157.0" y2="338.0" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
