@@ -584,7 +584,7 @@
 </tr>
 </tbody></table></div>
 <figure class="fig" id="fig-1-4-q-temp-quantize"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-labelledby="t-1-4-q-temp-quantize d-1-4-q-temp-quantize">
-  <title id="t-1-4-q-temp-quantize">그림 1-4-6 예제 2 풀이: 기온의 표본화와 양자화</title>
+  <title id="t-1-4-q-temp-quantize">그림 1-4-3 예제 2 풀이: 기온의 표본화와 양자화</title>
   <desc id="d-1-4-q-temp-quantize">예제 2의 기온을 4시간마다 표본화한 값(점)을 5 °C 간격의 양자화 단계 위에 나타냈다. 각 점은 그 점이 들어 있는 구간(색칠한 칸)의 단계 번호로 바뀌고, 단계 번호는 3비트 이진수로 부호화된다. 12.4 °C와 14.1 °C는 같은 부호 010이 된다.</desc>
   <style>.f1-4-q-temp-quantize-t{font-size:14px;fill:var(--fig-ink)} .f1-4-q-temp-quantize-s{font-size:13px;fill:var(--fig-muted)} .f1-4-q-temp-quantize-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .f1-4-q-temp-quantize-ax{stroke:var(--fig-ink);stroke-width:1.4;fill:none} .f1-4-q-temp-quantize-tk{stroke:var(--fig-ink);stroke-width:1.1;fill:none} .f1-4-q-temp-quantize-grid{stroke:var(--fig-line);stroke-width:0.8;fill:none}</style>
   <rect x="110" y="268" width="515" height="32" style="fill:var(--fig-panel);stroke:none"/>
@@ -660,7 +660,7 @@
   <text x="535" y="166" text-anchor="middle" class="f1-4-q-temp-quantize-t" style="font-weight:700">011</text>
   <text x="554" y="188.5" class="f1-4-q-temp-quantize-s">18.2</text>
 </svg>
-</div><figcaption><b>그림 1-4-6 예제 2 풀이: 기온의 표본화와 양자화</b> 예제 2의 기온을 4시간마다 표본화한 값(점)을 5 °C 간격의 양자화 단계 위에 나타냈다. 각 점은 그 점이 들어 있는 구간(색칠한 칸)의 단계 번호로 바뀌고, 단계 번호는 3비트 이진수로 부호화된다. 12.4 °C와 14.1 °C는 같은 부호 010이 된다.</figcaption></figure>
+</div><figcaption><b>그림 1-4-3 예제 2 풀이: 기온의 표본화와 양자화</b> 예제 2의 기온을 4시간마다 표본화한 값(점)을 5 °C 간격의 양자화 단계 위에 나타냈다. 각 점은 그 점이 들어 있는 구간(색칠한 칸)의 단계 번호로 바뀌고, 단계 번호는 3비트 이진수로 부호화된다. 12.4 °C와 14.1 °C는 같은 부호 010이 된다.</figcaption></figure>
 
 <p>하루의 기온이 <code>010 001 010 100 101 011</code>, 즉 18비트의 디지털 정보가 되었다. 그런데 12.4 °C와 14.1 °C가 같은 부호(010)가 되었다. <strong>양자화 과정에서 5 °C보다 작은 차이는 버려진 것</strong>이다. 또 4시간 사이에 기온이 잠깐 크게 변했더라도 표본화하지 않은 순간이므로 기록되지 않는다.</p>
 <h4 id="더-정확하게-바꾸려면">더 정확하게 바꾸려면?</h4>
@@ -716,7 +716,7 @@
 <h4 id="그림과-영상">그림과 영상</h4>
 <p>중학교에서 배운 것처럼 화면의 한 점(<strong>화소, pixel</strong>)은 빨강·초록·파랑 빛의 밝기를 합성하여 색을 만든다. 각 색의 밝기를 8비트(256단계)로 나타내면 한 화소는 24비트(3바이트)가 되고, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">25</span><span class="mord"><span class="mord">6</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">16</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">777</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">216</span></span></span></span>가지 색을 표현할 수 있다.</p>
 <figure class="fig" id="fig-1-4-pixel-rgb"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-1-4-pixel-rgb d-1-4-pixel-rgb">
-  <title id="t-1-4-pixel-rgb">그림 1-4-3 화소 하나를 0과 1로 나타내기</title>
+  <title id="t-1-4-pixel-rgb">그림 1-4-4 화소 하나를 0과 1로 나타내기</title>
   <desc id="d-1-4-pixel-rgb">디지털 사진은 작은 화소들로 이루어진다. 화소 하나는 빨강·초록·파랑 빛의 밝기를 각각 8비트(0~255)로 나타내므로 24비트(3바이트)이고, 256×256×256 = 16 777 216가지 색을 나타낼 수 있다. 그림 속 색은 실제 색을 보여 주기 위한 것이다.</desc>
   <style>
     .pix14-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)}
@@ -794,7 +794,7 @@
   <rect x="420" y="38" width="22" height="22" rx="3" style="fill:rgb(255,165,0);stroke:var(--fig-ink);stroke-width:1"/>
   <text x="450.0" y="55.0" text-anchor="start" class="pix14-sm">이 화소의 색(주황)</text>
 </svg>
-</div><figcaption><b>그림 1-4-3 화소 하나를 0과 1로 나타내기</b> 디지털 사진은 작은 화소들로 이루어진다. 화소 하나는 빨강·초록·파랑 빛의 밝기를 각각 8비트(0~255)로 나타내므로 24비트(3바이트)이고, 256×256×256 = 16 777 216가지 색을 나타낼 수 있다. 그림 속 색은 실제 색을 보여 주기 위한 것이다.</figcaption></figure>
+</div><figcaption><b>그림 1-4-4 화소 하나를 0과 1로 나타내기</b> 디지털 사진은 작은 화소들로 이루어진다. 화소 하나는 빨강·초록·파랑 빛의 밝기를 각각 8비트(0~255)로 나타내므로 24비트(3바이트)이고, 256×256×256 = 16 777 216가지 색을 나타낼 수 있다. 그림 속 색은 실제 색을 보여 주기 위한 것이다.</figcaption></figure>
 
 <h4 id="예제-4-사진-한-장의-데이터-양">예제 4 — 사진 한 장의 데이터 양</h4>
 <p>가로 4000개, 세로 3000개 화소로 이루어진 사진(1200만 화소)을 화소당 3바이트로 압축 없이 저장하면 몇 MB인가?</p>
@@ -861,7 +861,7 @@
 <li><strong>통신의 한계</strong>: 신호도 빛의 속력보다 빠를 수는 없다. 화성까지는 거리에 따라 전파가 가는 데만 약 3분에서 20분 넘게 걸리므로, 화성 탐사 로봇은 지구의 실시간 조종 없이 스스로 판단하는 기능이 필요하다.</li>
 </ul>
 <figure class="fig" id="fig-1-4-optical-fiber"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-1-4-optical-fiber d-1-4-optical-fiber">
-  <title id="t-1-4-optical-fiber">그림 1-4-4 광섬유로 0과 1 보내기</title>
+  <title id="t-1-4-optical-fiber">그림 1-4-5 광섬유로 0과 1 보내기</title>
   <desc id="d-1-4-optical-fiber">레이저 빛을 켜고 끄는 깜빡임으로 1과 0을 나타낸다. 빛은 머리카락처럼 가는 유리 섬유 안에서 경계에 반사를 거듭하며 멀리까지 전달되고, 받는 쪽에서 다시 1과 0으로 읽는다. 모식도(섬유의 굵기는 크게 과장함).</desc>
   <style>
     .fib14-lbl{font-size:15px;font-weight:600;fill:var(--fig-ink)}
@@ -903,7 +903,7 @@
   <text x="360.0" y="297.0" text-anchor="middle" class="fib14-sm">중간에서 약해진 신호는 0과 1로 되살려 다시 보낼 수 있다</text>
   <text x="360.0" y="319.0" text-anchor="middle" class="fib14-sm">모식도: 섬유 굵기와 반사 각도는 알아보기 쉽게 과장함</text>
 </svg>
-</div><figcaption><b>그림 1-4-4 광섬유로 0과 1 보내기</b> 레이저 빛을 켜고 끄는 깜빡임으로 1과 0을 나타낸다. 빛은 머리카락처럼 가는 유리 섬유 안에서 경계에 반사를 거듭하며 멀리까지 전달되고, 받는 쪽에서 다시 1과 0으로 읽는다. 모식도(섬유의 굵기는 크게 과장함).</figcaption></figure>
+</div><figcaption><b>그림 1-4-5 광섬유로 0과 1 보내기</b> 레이저 빛을 켜고 끄는 깜빡임으로 1과 0을 나타낸다. 빛은 머리카락처럼 가는 유리 섬유 안에서 경계에 반사를 거듭하며 멀리까지 전달되고, 받는 쪽에서 다시 1과 0으로 읽는다. 모식도(섬유의 굵기는 크게 과장함).</figcaption></figure>
 
 <h4 id="현대-문명에-미친-영향">현대 문명에 미친 영향</h4>
 <div class="table-wrap"><table><thead><tr>
@@ -1375,7 +1375,7 @@
 (2) 잡음으로 생기는 전압 변화가 얼마보다 작으면 원래의 0과 1을 언제나 정확히 되살릴 수 있는가?
 (3) 같은 잡음이 섞인 아날로그 신호는 왜 원래대로 되살릴 수 없는지 비교하여 쓰시오.</p>
 <figure class="fig" id="fig-1-4-q-received-voltage"><div class="fig-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" role="img" aria-labelledby="t-1-4-q-received-voltage d-1-4-q-received-voltage">
-  <title id="t-1-4-q-received-voltage">그림 1-4-5 문제 12에서 받은 전압</title>
+  <title id="t-1-4-q-received-voltage">그림 1-4-6 문제 12에서 받은 전압</title>
   <desc id="d-1-4-q-received-voltage">0은 0 V, 1은 5 V로 보낸 신호에 잡음이 섞여, 받는 쪽에 도착한 전압을 순서대로 나타냈다. 점선은 판단 기준인 2.5 V이다.</desc>
   <style>.f1-4-q-received-voltage-t{font-size:14px;fill:var(--fig-ink)} .f1-4-q-received-voltage-s{font-size:13px;fill:var(--fig-muted)} .f1-4-q-received-voltage-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .f1-4-q-received-voltage-ax{stroke:var(--fig-ink);stroke-width:1.4;fill:none} .f1-4-q-received-voltage-tk{stroke:var(--fig-ink);stroke-width:1.1;fill:none} .f1-4-q-received-voltage-grid{stroke:var(--fig-line);stroke-width:0.8;fill:none}</style>
   <line x1="100" y1="240" x2="600" y2="240" class="f1-4-q-received-voltage-grid"/>
@@ -1424,7 +1424,7 @@
   <text x="575" y="260" text-anchor="middle" class="f1-4-q-received-voltage-s">6</text>
   <text x="350" y="280" text-anchor="middle" class="f1-4-q-received-voltage-t">순서</text>
 </svg>
-</div><figcaption><b>그림 1-4-5 문제 12에서 받은 전압</b> 0은 0 V, 1은 5 V로 보낸 신호에 잡음이 섞여, 받는 쪽에 도착한 전압을 순서대로 나타냈다. 점선은 판단 기준인 2.5 V이다.</figcaption></figure>
+</div><figcaption><b>그림 1-4-6 문제 12에서 받은 전압</b> 0은 0 V, 1은 5 V로 보낸 신호에 잡음이 섞여, 받는 쪽에 도착한 전압을 순서대로 나타냈다. 점선은 판단 기준인 2.5 V이다.</figcaption></figure>
 
 <details class="answer"><summary><span>정답 및 해설</span></summary><div class="answer-body">
 
