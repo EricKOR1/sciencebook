@@ -19,7 +19,7 @@
   <line x1="260" y1="70" x2="460" y2="70" style="stroke:var(--fig-blue);stroke-width:2"/>
   <rect x="260" y="300" width="200" height="10" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
   <text x="360" y="26" text-anchor="middle" class="esys-2-q-wave-orbits-b">수심 20 m</text>
-  <text x="360" y="46" text-anchor="middle" class="esys-2-q-wave-orbits-s">전이파 (L/20 < h < L/2)</text>
+  <text x="360" y="46" text-anchor="middle" class="esys-2-q-wave-orbits-s">전이파 (L/20 &lt; h &lt; L/2)</text>
   <text x="360" y="334" text-anchor="middle" class="esys-2-q-wave-orbits-s">파장 약 121 m</text>
   <ellipse cx="360" cy="110" rx="25" ry="19.4" style="fill:none;stroke:var(--fig-ink);stroke-width:1.8"/>
   <ellipse cx="360" cy="155.5" rx="20.8" ry="13.5" style="fill:none;stroke:var(--fig-ink);stroke-width:1.8"/>
@@ -33,7 +33,7 @@
   <line x1="500" y1="70" x2="700" y2="70" style="stroke:var(--fig-blue);stroke-width:2"/>
   <rect x="500" y="300" width="200" height="10" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
   <text x="600" y="26" text-anchor="middle" class="esys-2-q-wave-orbits-b">수심 2 m</text>
-  <text x="600" y="46" text-anchor="middle" class="esys-2-q-wave-orbits-s">천해파 (h < L/20)</text>
+  <text x="600" y="46" text-anchor="middle" class="esys-2-q-wave-orbits-s">천해파 (h &lt; L/20)</text>
   <text x="600" y="334" text-anchor="middle" class="esys-2-q-wave-orbits-s">파장 약 44 m</text>
   <ellipse cx="600" cy="110" rx="25" ry="7" style="fill:none;stroke:var(--fig-ink);stroke-width:1.8"/>
   <ellipse cx="600" cy="155.5" rx="24.6" ry="5.2" style="fill:none;stroke:var(--fig-ink);stroke-width:1.8"/>
