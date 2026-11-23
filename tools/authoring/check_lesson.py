@@ -50,7 +50,7 @@ def check(path):
     one = re.search(r"\*\*성취기준 \[(10통과[12]-\d\d-\d\d)\]\*\*\s*(.+)", text)
     if one:
         stds = [(one.group(1), one.group(2))]
-    univ = bool(re.match(r"^u[a-z]+-\d+$", lid))          # 대학 일반 과학 단원: 성취기준 대신 '이 단원의 범위' 상자
+    univ = bool(re.match(r"^(u[a-z]+|pchem|ochem|ichem|achem|bchem)-\d+$", lid))          # 대학 일반 과학 단원: 성취기준 대신 '이 단원의 범위' 상자
     if univ:
         stds = []
         if not re.search(r"> \[!NOTE\]\n> \*\*이 단원의 범위\*\*", text):

@@ -437,7 +437,7 @@ ${groups}
 function mapBody() {
   const stages = [];
   for (const g of CFG.groups) {
-    if (g.id === 'general' || g.id === 'career' || g.id === 'university') stages.push({ name: g.name.replace('고등학교 ', ''), list: lessons.filter((l) => l.group === g), showPart: true });
+    if (g.id === 'general' || g.id === 'career' || g.id === 'university' || g.id === 'major') stages.push({ name: g.name.replace('고등학교 ', ''), list: lessons.filter((l) => l.group === g), showPart: true });
     else for (const p of g.parts) stages.push({ name: g.id === 'middle' ? `중학교 ${p.name}` : p.name, list: partLessons(p) });
   }
   const rows = stages.filter((s) => s.list.length).map((s) => `<tr><th scope="row">${s.name}</th>${STRANDS.map((st) => {
