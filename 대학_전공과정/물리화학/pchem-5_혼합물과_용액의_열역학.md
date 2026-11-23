@@ -73,14 +73,14 @@ flowchart LR
 | 일반화학 「분자 간 힘과 액체·고체·용액」 '라울 법칙과 총괄성' | $P_A = X_AP_A^\circ$, 벤젠–톨루엔 증기의 조성, 양·음의 벗어남(정성적), $\Delta T_b = iK_bm$, $\Pi = iMRT$, 클라우지우스–클라페이롱 식으로 $K_b$ 어림 | 라울 법칙을 화학 퍼텐셜의 같음으로 **유도**, 벗어남을 활동도 계수로 **정량화**, 총괄성을 $\mu_A$의 내림으로 통일 |
 | 일반화학 「분자 간 힘과 액체·고체·용액」 '헨리 법칙' | 기체 용해도는 부분 압력에 비례($C = k_\mathrm{H}P$) | 헨리 법칙이 **용질의 극한 법칙**임을 보이고, 깁스–뒤앙 식으로 라울 법칙과 짝을 이룸을 증명 |
 | 일반화학 「화학 열역학」 | 이상 기체 혼합의 $\Delta S = nR\ln(V_2/V_1)$(문제로), $\Delta G = \Delta G^\circ + RT\ln Q$ | 혼합 깁스 에너지 $\Delta_\text{mix}G = nRT\sum x_i\ln x_i$, 초과 함수 |
-| 물리화학 「자유 에너지와 화학 퍼텐셜」 | $dG = V\,dP - S\,dT + \sum\mu_i\,dn_i$, 화학 퍼텐셜, $\mu = \mu^\circ + RT\ln(p/p^\circ)$, 퓨가시티 | 부분 몰 양의 일반 이론, 액체 속 성분의 $\mu$, 활동도(퓨가시티의 용액판) |
+| 물리화학 「자유 에너지와 화학 퍼텐셜」 | $dG = V\,dp - S\,dT + \sum\mu_i\,dn_i$, 화학 퍼텐셜, $\mu = \mu^\circ + RT\ln(p/p^\circ)$, 퓨가시티 | 부분 몰 양의 일반 이론, 액체 속 성분의 $\mu$, 활동도(퓨가시티의 용액판) |
 | 물리화학 「순물질의 상평형」 | 상평형 조건 $\mu^\alpha = \mu^\beta$, 상 도표, 클라페이롱 식, 깁스의 상 규칙 $F = C - P + 2$ | 성분이 2개($C = 2$)인 상 도표, 지렛대 규칙, 공비점과 공융점 |
 
 ### 준비 운동 (사전 진단)
 
 **Q1.** 깁스의 상 규칙 $F = C - P + 2$에서 2성분계의 두 상(액체와 증기)이 공존할 때 자유도는 몇인가? 온도를 고정하면 몇이 남는가?
 
-**Q2.** $G(T, P, n_A, n_B)$의 전미분 $dG$를 쓰고, $\mu_A$를 편미분으로 정의하시오.
+**Q2.** $G(T, p, n_A, n_B)$의 전미분 $dG$를 쓰고, $\mu_A$를 편미분으로 정의하시오.
 
 **Q3.** 이상 기체 1 mol의 압력을 일정한 온도 298 K에서 1 bar에서 0.50 bar로 낮추면 화학 퍼텐셜은 얼마나 변하는가?
 
@@ -91,7 +91,7 @@ flowchart LR
 
 **Q1.** $F = 2 - 2 + 2 = 2$. 온도를 고정하면 1이 남는다. 즉 일정한 온도에서 액체 조성을 하나 정하면 증기 압력과 증기 조성이 저절로 정해진다. STEP 3 ⑨의 증기압–조성 도표가 이 '자유도 1'을 그림으로 그린 것이다.
 
-**Q2.** $dG = V\,dP - S\,dT + \mu_A\,dn_A + \mu_B\,dn_B$, $\mu_A = \left(\dfrac{\partial G}{\partial n_A}\right)_{T,P,n_B}$.
+**Q2.** $dG = V\,dp - S\,dT + \mu_A\,dn_A + \mu_B\,dn_B$, $\mu_A = \left(\dfrac{\partial G}{\partial n_A}\right)_{T,p,n_B}$.
 
 **Q3.** $\Delta\mu = RT\ln(0.50/1) = 8.314\times298\times(-0.693) = -1.72\ \mathrm{kJ/mol}$. 압력(퍼진 정도)이 낮아지면 화학 퍼텐셜이 내려간다. 섞여서 '묽어지는' 것도 같은 효과를 낸다는 것이 이 단원의 출발점이다.
 
@@ -130,14 +130,14 @@ $$
 
 ### 디딤돌 2. 화학 퍼텐셜과 기본 방정식 — 「자유 에너지와 화학 퍼텐셜」 되짚기
 
-조성이 변하는 계의 깁스 에너지 전미분은 다음과 같다. $dG = V\,dP - S\,dT + \sum_i \mu_i\,dn_i, \qquad \mu_i = \left(\frac{\partial G}{\partial n_i}\right)_{T,P,n_{j\ne i}}$
+조성이 변하는 계의 깁스 에너지 전미분은 다음과 같다. $dG = V\,dp - S\,dT + \sum_i \mu_i\,dn_i, \qquad \mu_i = \left(\frac{\partial G}{\partial n_i}\right)_{T,p,n_{j\ne i}}$
 
 | 사실 | 식 | 이 단원에서의 쓰임 |
 |---|---|---|
 | 이상 기체의 화학 퍼텐셜 | $\mu = \mu^\circ + RT\ln(p/p^\circ)$ | 증기와 평형인 액체의 $\mu$를 구하는 다리 |
 | 순물질의 $\mu$는 몰 깁스 에너지 | $\mu^* = G_\mathrm{m}^*$ | 위첨자 $*$는 '순수한'을 뜻한다 |
 | 상평형 조건 | $\mu_i^\alpha = \mu_i^\beta$ (모든 성분 $i$) | 라울·헨리 법칙, 총괄성, 상 도표 |
-| 온도·압력 의존 | $(\partial\mu/\partial T)_P = -S_\mathrm{m}$, $(\partial\mu/\partial P)_T = V_\mathrm{m}$ | 총괄성의 유도, 삼투압 |
+| 온도·압력 의존 | $(\partial\mu/\partial T)_p = -S_\mathrm{m}$, $(\partial\mu/\partial p)_T = V_\mathrm{m}$ | 총괄성의 유도, 삼투압 |
 | 물질은 $\mu$가 높은 곳에서 낮은 곳으로 | $dG = (\mu^\beta - \mu^\alpha)dn < 0$ | 삼투, 확산의 방향 |
 
 #### 예제 2 — 압력이 낮아질 때의 화학 퍼텐셜
@@ -201,7 +201,7 @@ $x_B = 0.10$: $\ln 0.90 = -0.1054$, 상대 오차 약 5 %.
 순수한 물 1 mol의 부피는 $18.07\ \mathrm{cm^3}$이다. 그런데 커다란 에탄올 통에 물 1 mol을 부으면 전체 부피는 약 $14\ \mathrm{cm^3}$ 남짓만 늘어난다. 물 분자가 에탄올 분자 사이에 들어가 수소 결합으로 촘촘히 자리를 잡기 때문이다. 이처럼 **혼합물 속에서 한 성분이 실제로 기여하는 몫**은 그 성분이 순수할 때의 몰 성질과 다르고, 주변 조성에 따라 달라진다. 이것을 편미분으로 정의한 것이 **부분 몰 양(partial molar quantity)** 이다.
 
 $$
-V_J = \left(\frac{\partial V}{\partial n_J}\right)_{T,\,P,\,n'} \qquad (n'\text{: J 이외의 모든 성분의 몰수를 고정})
+V_J = \left(\frac{\partial V}{\partial n_J}\right)_{T,\,p,\,n'} \qquad (n'\text{: J 이외의 모든 성분의 몰수를 고정})
 $$
 
 $V_J$를 성분 J의 **부분 몰 부피(partial molar volume)** 라 한다. 뜻은 두 가지로 읽을 수 있다.
@@ -244,7 +244,7 @@ $b = 0.50\ \mathrm{mol/kg}$에서 (1) X의 부분 몰 부피, (2) 물의 부분 
 #### ✔ 바로 확인
 
 1. (O/X) 부분 몰 부피는 그 성분 분자의 실제 부피이므로 항상 양수이다.
-2. 빈칸: 일정한 $T$, $P$에서 2성분 혼합물의 부피는 $V = n_AV_A + (\quad)$이다.
+2. 빈칸: 일정한 $T$, $p$에서 2성분 혼합물의 부피는 $V = n_AV_A + (\quad)$이다.
 3. 예제 5의 맞춤식에서 $b = 1.00\ \mathrm{mol/kg}$일 때 X의 부분 몰 부피는?
 
 <details>
@@ -260,27 +260,27 @@ $b = 0.50\ \mathrm{mol/kg}$에서 (1) X의 부분 몰 부피, (2) 물의 부분 
 
 #### 화학 퍼텐셜은 부분 몰 깁스 에너지이다
 
-일정한 $T$, $P$에서 $\mu_J = (\partial G/\partial n_J)_{T,P,n'} = G_J$이다. 그래서 화학 퍼텐셜은 부분 몰 양의 성질을 모두 가진다. 기본 방정식 $dG = V\,dP - S\,dT + \sum\mu_J\,dn_J$에서 교차 미분이 같다는 조건(수학 도구 1 '고계 편미분과 교차 미분의 같음')을 쓰면
+일정한 $T$, $p$에서 $\mu_J = (\partial G/\partial n_J)_{T,p,n'} = G_J$이다. 그래서 화학 퍼텐셜은 부분 몰 양의 성질을 모두 가진다. 기본 방정식 $dG = V\,dp - S\,dT + \sum\mu_J\,dn_J$에서 교차 미분이 같다는 조건(수학 도구 1 '고계 편미분과 교차 미분의 같음')을 쓰면
 
 $$
-\left(\frac{\partial\mu_J}{\partial P}\right)_{T,n} = \left(\frac{\partial V}{\partial n_J}\right)_{T,P,n'} = V_J, \qquad \left(\frac{\partial\mu_J}{\partial T}\right)_{P,n} = -S_J
+\left(\frac{\partial\mu_J}{\partial p}\right)_{T,n} = \left(\frac{\partial V}{\partial n_J}\right)_{T,p,n'} = V_J, \qquad \left(\frac{\partial\mu_J}{\partial T}\right)_{p,n} = -S_J
 $$
 
-순물질에서 $(\partial\mu/\partial P)_T = V_\mathrm{m}$, $(\partial\mu/\partial T)_P = -S_\mathrm{m}$이었던 것(「자유 에너지와 화학 퍼텐셜」)이 혼합물에서는 **부분 몰** 부피와 엔트로피로 바뀐다. ⑦의 삼투압 유도에 바로 쓰인다.
+순물질에서 $(\partial\mu/\partial p)_T = V_\mathrm{m}$, $(\partial\mu/\partial T)_p = -S_\mathrm{m}$이었던 것(「자유 에너지와 화학 퍼텐셜」)이 혼합물에서는 **부분 몰** 부피와 엔트로피로 바뀐다. ⑦의 삼투압 유도에 바로 쓰인다.
 
 #### 깁스–뒤앙 식의 유도
 
-**가정**: 일정한 $T$, $P$.
+**가정**: 일정한 $T$, $p$.
 **1단계** 오일러 정리로 $G = \sum_J n_J\mu_J$. 이것을 전미분하면 $dG = \sum_J \mu_J\,dn_J + \sum_J n_J\,d\mu_J$
 
-**2단계** 기본 방정식에서 일정한 $T$, $P$이면 $dG = \sum_J\mu_J\,dn_J$이다.
+**2단계** 기본 방정식에서 일정한 $T$, $p$이면 $dG = \sum_J\mu_J\,dn_J$이다.
 **3단계** 두 식을 비교하면 둘째 합이 0이어야 한다.
 
 $$
-\boxed{\;\sum_J n_J\,d\mu_J = 0 \qquad (T,\,P\text{ 일정})\;}
+\boxed{\;\sum_J n_J\,d\mu_J = 0 \qquad (T,\,p\text{ 일정})\;}
 $$
 
-이것이 **깁스–뒤앙 식(Gibbs–Duhem equation)** 이다. 온도와 압력이 변하는 경우까지 포함한 일반형은 $S\,dT - V\,dP + \sum_J n_J\,d\mu_J = 0$이다. 같은 논리는 모든 부분 몰 양에 성립하므로 $\sum_J n_J\,dV_J = 0$도 참이다.
+이것이 **깁스–뒤앙 식(Gibbs–Duhem equation)** 이다. 온도와 압력이 변하는 경우까지 포함한 일반형은 $S\,dT - V\,dp + \sum_J n_J\,d\mu_J = 0$이다. 같은 논리는 모든 부분 몰 양에 성립하므로 $\sum_J n_J\,dV_J = 0$도 참이다.
 
 #### 2성분계에서의 뜻
 
@@ -309,7 +309,7 @@ $$
 예제 5의 맞춤식에서 $V_X = 17.4 + 3.0\,b$였다. 깁스–뒤앙 식만 써서 물의 부분 몰 부피를 $b$의 함수로 구하고, $b = 0.50$에서 예제 5의 결과와 비교하시오.
 
 **풀이**
-**1단계** 일정한 $T$, $P$에서 $n_\text{물}\,dV_\text{물} + n_X\,dV_X = 0$, $n_X = b$, $dV_X = 3.0\,db$이므로 $dV_\text{물} = -\frac{b}{n_\text{물}}\times3.0\,db$
+**1단계** 일정한 $T$, $p$에서 $n_\text{물}\,dV_\text{물} + n_X\,dV_X = 0$, $n_X = b$, $dV_X = 3.0\,db$이므로 $dV_\text{물} = -\frac{b}{n_\text{물}}\times3.0\,db$
 
 **2단계** $b = 0$(순수한 물, $V_\text{물}^* = 18.067\ \mathrm{cm^3/mol}$)에서 $b$까지 적분한다. $V_\text{물}(b) = V_\text{물}^* - \frac{3.0}{n_\text{물}}\int_0^b b'\,db' = V_\text{물}^* - \frac{1.5\,b^2}{n_\text{물}}$
 
@@ -319,9 +319,9 @@ $$
 
 #### ✔ 바로 확인
 
-1. 빈칸: 일정한 $T$, $P$에서 2성분계의 깁스–뒤앙 식은 $n_A\,d\mu_A + (\quad) = 0$이다.
+1. 빈칸: 일정한 $T$, $p$에서 2성분계의 깁스–뒤앙 식은 $n_A\,d\mu_A + (\quad) = 0$이다.
 2. (O/X) 2성분 용액에서 성분 A의 화학 퍼텐셜이 조성에 따라 증가하는 구간에서는 성분 B의 화학 퍼텐셜도 증가한다.
-3. 빈칸: $(\partial\mu_J/\partial P)_{T,n}$는 성분 J의 (    )이다.
+3. 빈칸: $(\partial\mu_J/\partial p)_{T,n}$는 성분 J의 (    )이다.
 4. 2성분계에서 $x_A = 0.25$인 조성에서 조성을 조금 바꿨더니 $d\mu_B = +0.30\ \mathrm{J/mol}$이었다. $d\mu_A$는?
 
 <details>
@@ -498,7 +498,7 @@ $y_\text{벤젠} = 3.18/6.02 = 0.528$
 
 용매는 라울 법칙, 용질은 헨리 법칙을 따르는 용액을 **이상 묽은 용액(ideal-dilute solution)** 이라 한다. 두 법칙이 따로따로 성립하는 우연이 아니라, 깁스–뒤앙 식이 둘을 묶고 있음을 보이자.
 
-**가정**: 일정한 $T$, $P$, 증기는 이상 기체, 어떤 농도 범위에서 용질이 헨리 법칙을 따른다.
+**가정**: 일정한 $T$, $p$, 증기는 이상 기체, 어떤 농도 범위에서 용질이 헨리 법칙을 따른다.
 **1단계** 용질의 화학 퍼텐셜은 $\mu_B = \mu_B^\circ(\text{g}) + RT\ln(x_BK_B/p^\circ)$이므로 $d\mu_B = RT\,dx_B/x_B$.
 **2단계** 깁스–뒤앙 식 $x_A\,d\mu_A = -x_B\,d\mu_B = -RT\,dx_B = RT\,dx_A$ ($dx_B = -dx_A$).
 **3단계** $d\mu_A = RT\,dx_A/x_A = RT\,d\ln x_A$를 $x_A = 1$(순수한 A, $\mu_A^*$)에서 적분하면 $\mu_A = \mu_A^* + RT\ln x_A$, 즉 용매는 라울 법칙을 따른다.
@@ -648,7 +648,7 @@ $$
 
 용매는 통과시키고 용질은 막는 **반투막(semipermeable membrane)** 으로 순수한 용매와 용액을 나누면, 용매가 용액 쪽으로 흘러 들어간다. 용액 쪽에 압력 $\Pi$를 더 걸어 주면 이 흐름을 멈출 수 있다. 이 압력이 **삼투압(osmotic pressure)** 이다.
 
-용매가 흘러 들어가는 까닭은 용액 속 용매의 화학 퍼텐셜이 $RT\ln x_A$만큼 낮기 때문이다. 용질이 막을 '미는' 것이 아니라, **용매가 화학 퍼텐셜이 낮은 쪽으로 이동하는 것**이다. 용액 쪽 압력을 올리면 $(\partial\mu/\partial P)_T = V$에 따라 용매의 $\mu$가 다시 올라가고, 두 쪽이 같아지는 압력에서 평형이 된다.
+용매가 흘러 들어가는 까닭은 용액 속 용매의 화학 퍼텐셜이 $RT\ln x_A$만큼 낮기 때문이다. 용질이 막을 '미는' 것이 아니라, **용매가 화학 퍼텐셜이 낮은 쪽으로 이동하는 것**이다. 용액 쪽 압력을 올리면 $(\partial\mu/\partial p)_T = V_\mathrm{m}$에 따라 용매의 $\mu$가 다시 올라가고, 두 쪽이 같아지는 압력에서 평형이 된다.
 
 <!-- 그림 요청: 삼투압 장치 모식도. U자관 가운데를 반투막(점선 세로선)이 나누고, 왼쪽은 순수한 용매(물 분자만), 오른쪽은 용액(물 분자 + 큰 용질 입자). 물 분자가 막을 지나 오른쪽으로 가는 화살표. 오른쪽 위에 피스톤이 있고 "추가 압력 Π를 걸면 흐름이 멈춘다". 아래에 두 상의 조건을 적은 상자: 왼쪽 "μ_A*(p)", 오른쪽 "μ_A*(p+Π) + RT ln x_A", 가운데 "평형: 두 값이 같다". -->
 
@@ -661,7 +661,7 @@ $$
 \mu_A^*(p) = \mu_A(x_A,\, p + \Pi) = \mu_A^*(p + \Pi) + RT\ln x_A
 $$
 
-**2단계 — 압력 효과** $\mu_A^*(p + \Pi) = \mu_A^*(p) + \displaystyle\int_p^{p+\Pi}V_\mathrm{m}\,dP = \mu_A^*(p) + \Pi V_\mathrm{m}$
+**2단계 — 압력 효과** $\mu_A^*(p + \Pi) = \mu_A^*(p) + \displaystyle\int_p^{p+\Pi}V_\mathrm{m}\,dp' = \mu_A^*(p) + \Pi V_\mathrm{m}$
 
 **3단계 — 정리** 두 식에서 $\Pi V_\mathrm{m} = -RT\ln x_A$
 
@@ -995,10 +995,10 @@ $T = 314\ \mathrm{K}$에서 첫 항 0.445, 둘째 항 0.555로 합이 1이다. �
 이상 용액의 $\Delta_\text{mix}H$와 $\Delta_\text{mix}V$는 0이므로 $H^\mathrm{E} = \Delta_\text{mix}H$, $V^\mathrm{E} = \Delta_\text{mix}V$이다(물–에탄올의 부피 수축은 $V^\mathrm{E} < 0$). 초과 깁스 에너지는 활동도 계수와 직접 연결된다. $\mu_J = \mu_J^* + RT\ln x_J + RT\ln\gamma_J$에서 마지막 항이 이상에서 벗어난 몫이므로
 
 $$
-G^\mathrm{E} = RT\,(n_A\ln\gamma_A + n_B\ln\gamma_B), \qquad \mu_J^\mathrm{E} = \left(\frac{\partial G^\mathrm{E}}{\partial n_J}\right)_{T,P,n'} = RT\ln\gamma_J
+G^\mathrm{E} = RT\,(n_A\ln\gamma_A + n_B\ln\gamma_B), \qquad \mu_J^\mathrm{E} = \left(\frac{\partial G^\mathrm{E}}{\partial n_J}\right)_{T,p,n'} = RT\ln\gamma_J
 $$
 
-그리고 다른 초과 함수는 $S^\mathrm{E} = -(\partial G^\mathrm{E}/\partial T)_P$, $H^\mathrm{E} = G^\mathrm{E} + TS^\mathrm{E}$로 얻는다.
+그리고 다른 초과 함수는 $S^\mathrm{E} = -(\partial G^\mathrm{E}/\partial T)_p$, $H^\mathrm{E} = G^\mathrm{E} + TS^\mathrm{E}$로 얻는다.
 
 | 계 (25 ℃ 부근, 부호) | $G^\mathrm{E}$ | $H^\mathrm{E}$ | $TS^\mathrm{E}$ | 해석 |
 |---|---|---|---|---|
@@ -1303,7 +1303,7 @@ $\Pi = cRT = 50\ \mathrm{mol/m^3}\times8.314\times298.15 = 1.24\times10^5\ \math
 
 ### 응용
 
-**6.** 일정한 $T$, $P$에서 2성분 용액의 B의 활동도 계수(라울 기준)가 $\ln\gamma_B = 0.90\,x_A^2$로 측정되었다. 깁스–뒤앙 식으로 $\ln\gamma_A$를 구하시오.
+**6.** 일정한 $T$, $p$에서 2성분 용액의 B의 활동도 계수(라울 기준)가 $\ln\gamma_B = 0.90\,x_A^2$로 측정되었다. 깁스–뒤앙 식으로 $\ln\gamma_A$를 구하시오.
 
 <details>
 <summary>정답 및 해설</summary>
@@ -1483,7 +1483,7 @@ $\ln a = -\dfrac{6010}{8.314}\left(\dfrac{1}{271.15} - \dfrac{1}{273.15}\right) 
 
 ### 핵심 요약
 
-- **부분 몰 양** $V_J = (\partial V/\partial n_J)_{T,P,n'}$은 조성에 따라 변하며 음수일 수도 있다. 크기 성질이므로 $V = \sum n_JV_J$, $G = \sum n_J\mu_J$(오일러 정리).
+- **부분 몰 양** $V_J = (\partial V/\partial n_J)_{T,p,n'}$은 조성에 따라 변하며 음수일 수도 있다. 크기 성질이므로 $V = \sum n_JV_J$, $G = \sum n_J\mu_J$(오일러 정리).
 - **깁스–뒤앙 식** $\sum n_J\,d\mu_J = 0$: 2성분계에서 한 성분의 $\mu$(또는 $V_J$, $\gamma_J$)가 정해지면 다른 성분의 것도 정해진다. 자료의 열역학적 일관성 검사, 절편법의 근거이다.
 - **이상 혼합**(이상 기체·이상 용액): $\Delta_\text{mix}G = nRT\sum x_i\ln x_i < 0$, $\Delta_\text{mix}S = -nR\sum x_i\ln x_i$, $\Delta_\text{mix}H = \Delta_\text{mix}V = 0$. 혼합은 엔트로피가 이끈다.
 - 용액 속 성분의 $\mu_A = \mu_A^* + RT\ln(p_A/p_A^*)$. **라울 법칙** $p_A = x_Ap_A^*$(용매, 이상 용액), **헨리 법칙** $p_B = x_BK_B$(묽은 용질). 깁스–뒤앙 식이 두 법칙을 묶는다.
@@ -1512,9 +1512,9 @@ $\ln a = -\dfrac{6010}{8.314}\left(\dfrac{1}{271.15} - \dfrac{1}{273.15}\right) 
 
 | 용어 | 뜻 |
 |---|---|
-| 부분 몰 양(partial molar quantity) | 다른 성분의 양과 $T$, $P$를 고정하고 한 성분의 몰수로 편미분한 크기 성질 |
-| 화학 퍼텐셜 | 부분 몰 깁스 에너지 $\mu_J = (\partial G/\partial n_J)_{T,P,n'}$ |
-| 깁스–뒤앙 식 | 일정한 $T$, $P$에서 $\sum n_J\,d\mu_J = 0$. 성분들의 성질을 서로 묶는다 |
+| 부분 몰 양(partial molar quantity) | 다른 성분의 양과 $T$, $p$를 고정하고 한 성분의 몰수로 편미분한 크기 성질 |
+| 화학 퍼텐셜 | 부분 몰 깁스 에너지 $\mu_J = (\partial G/\partial n_J)_{T,p,n'}$ |
+| 깁스–뒤앙 식 | 일정한 $T$, $p$에서 $\sum n_J\,d\mu_J = 0$. 성분들의 성질을 서로 묶는다 |
 | 이상 용액(ideal solution) | 모든 조성에서 모든 성분이 라울 법칙을 따르는 용액 |
 | 이상 묽은 용액(ideal-dilute solution) | 용매는 라울 법칙, 용질은 헨리 법칙을 따르는 용액 |
 | 헨리 상수 | 묽은 용질의 부분 증기 압력과 몰 분율의 비례 상수 $K_B$ |
