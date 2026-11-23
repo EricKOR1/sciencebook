@@ -1,7 +1,7 @@
 /* 수학 도구 1 미분과 편미분: 라그랑주 승수법 탐색기 — 제약 곡선 위에서 ∇f와 ∇g가 평행해지는 점 */
 Sims.register('mj-lagrange', {
   title: '라그랑주 승수 탐색기 — 등고선이 제약 곡선에 접하는 점 찾기',
-  caption: '제약 곡선(초록) 위의 점을 끌거나 "점의 위치" 슬라이더로 움직이며 ∇f(파랑)와 ∇g(초록)의 방향을 비교해 보자. 두 벡터가 평행해지는 점(빈 동그라미)이 극값 후보이고, 그때 ∇f = λ∇g의 λ가 표시된다. c를 바꾸면 오른쪽 그래프에 제약 곡선 위의 최솟값 f*(c)가 그려지고, 현재 c에서의 접선 기울기가 최솟점의 λ와 같다(λ = df*/dc). 화살표는 방향만 보이도록 같은 길이로 그렸다. 원 제약은 g = √(x² + y²) = c(반지름 c)로 두어 λ가 c에 대한 변화율이 되게 했다.',
+  caption: '제약 곡선(초록) 위의 점을 끌거나 "점의 위치" 슬라이더로 움직이며 ∇f(파랑)와 ∇g(초록)의 방향을 비교해 보자. 두 벡터가 평행해지는 점(빈 동그라미)이 극값 후보이고, 그때 ∇f = λ∇g의 λ가 표시된다. c를 바꾸면 오른쪽 그래프에 제약 곡선 위의 최솟값 f*(c)가 그려지고, 현재 c에서의 접선 기울기가 최솟점의 λ와 같다(λ = df*/dc). 화살표는 방향만 보이도록 일정한 길이로 그렸다(∇g는 겹쳐도 보이게 더 짧게). 원 제약은 g = √(x² + y²) = c(반지름 c)로 두어 λ가 c에 대한 변화율이 되게 했다.',
   init: function (api) {
     var FN = {
       ell: { name: 'f = x² + 2y²', f: function (x, y) { return x * x + 2 * y * y; }, gx: function (x, y) { return 2 * x; }, gy: function (x, y) { return 4 * y; }, levels: [0.5, 1, 2, 3, 4, 6] },
@@ -80,13 +80,13 @@ Sims.register('mj-lagrange', {
       // 현재 점과 벡터
       var p = C.p(st.c, st.u), G = grads(p[0], p[1]);
       var len = Math.min(P.w, P.h) * 0.16;
-      function arrow(v, col) {
+      function arrow(v, col, k) {
         var m = Math.hypot(v[0], v[1]); if (m < 1e-9) return;
-        var ex = sx(p[0]) + v[0] / m * len, ey = sy(p[1]) - v[1] / m * len, a = Math.atan2(ey - sy(p[1]), ex - sx(p[0]));
+        var ex = sx(p[0]) + v[0] / m * len * k, ey = sy(p[1]) - v[1] / m * len * k, a = Math.atan2(ey - sy(p[1]), ex - sx(p[0]));
         ctx.strokeStyle = col; ctx.fillStyle = col; ctx.lineWidth = 2.6; ctx.beginPath(); ctx.moveTo(sx(p[0]), sy(p[1])); ctx.lineTo(ex - 6 * Math.cos(a), ey - 6 * Math.sin(a)); ctx.stroke();
         ctx.beginPath(); ctx.moveTo(ex, ey); ctx.lineTo(ex - 11 * Math.cos(a - 0.4), ey - 11 * Math.sin(a - 0.4)); ctx.lineTo(ex - 11 * Math.cos(a + 0.4), ey - 11 * Math.sin(a + 0.4)); ctx.closePath(); ctx.fill();
       }
-      arrow(G.g, T.figGreen); arrow(G.f, T.figBlue);
+      arrow(G.f, T.figBlue, 1); arrow(G.g, T.figGreen, 0.6);
       ctx.beginPath(); ctx.arc(sx(p[0]), sy(p[1]), 5.5, 0, Math.PI * 2); ctx.fillStyle = T.figInk; ctx.fill();
       ctx.restore();
       ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'left';

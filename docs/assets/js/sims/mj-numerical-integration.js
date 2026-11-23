@@ -82,7 +82,7 @@ Sims.register('mj-numerical-integration', {
     }
     function panels() {
       var w = cv.w, h = cv.h;
-      if (w < 560) return { A: { x: 44, y: 14, w: w - 58, h: h * 0.42 }, B: { x: 54, y: h * 0.53, w: w - 68, h: h * 0.38 } };
+      if (w < 560) return { A: { x: 44, y: 14, w: w - 58, h: h * 0.42 }, B: { x: 76, y: h * 0.53, w: w - 90, h: h * 0.38 } };
       return { A: { x: 44, y: 14, w: w * 0.48 - 50, h: h - 50 }, B: { x: w * 0.56, y: 14, w: w * 0.44 - 18, h: h - 50 } };
     }
     function draw() {
@@ -147,7 +147,7 @@ Sims.register('mj-numerical-integration', {
       ctx.strokeStyle = T.figMuted; ctx.lineWidth = 1.2; ctx.strokeRect(B.x, B.y, B.w, B.h);
       ctx.fillStyle = T.figInk; ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'center';
       ctx.fillText('간격 h (로그 눈금)', B.x + B.w / 2, B.y + B.h + 29);
-      ctx.save(); ctx.translate(B.x - 40, B.y + B.h / 2); ctx.rotate(-Math.PI / 2); ctx.fillText('오차 (로그 눈금)', 0, 0); ctx.restore();
+      ctx.save(); ctx.translate(B.x - 56, B.y + B.h / 2); ctx.rotate(-Math.PI / 2); ctx.fillText('오차 (로그 눈금)', 0, 0); ctx.restore();
       if (st.fn === 'data') {
         ctx.fillStyle = T.figMuted; ctx.textAlign = 'center';
         ctx.fillText('자료 모드: 참값이 없어', B.x + B.w / 2, B.y + B.h / 2 - 8);

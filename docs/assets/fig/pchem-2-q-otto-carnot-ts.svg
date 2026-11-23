@@ -67,19 +67,15 @@
   <path d="M6.0 0 L-6.0 5.0 L-6.0 -5.0 Z" transform="translate(282.8,259.2) rotate(166.9)" style="fill:var(--fig-blue)"/>
   <path d="M6.0 0 L-6.0 5.0 L-6.0 -5.0 Z" transform="translate(80.0,265.8) rotate(-90.0)" style="fill:var(--fig-ink)"/>
   <path d="M6.0 0 L-6.0 5.0 L-6.0 -5.0 Z" transform="translate(412.6,146.2) rotate(90.0)" style="fill:var(--fig-ink)"/>
-  <rect x="80.0" y="70.0" width="213.8" height="225.0" rx="0" style="fill:var(--fig-panel);stroke:var(--fig-violet);stroke-width:2.2;stroke-dasharray:7 5"/>
+  <rect x="80.0" y="70.0" width="213.8" height="225.0" rx="0" style="fill:var(--fig-panel);stroke:var(--fig-violet);stroke-width:2.2;stroke-dasharray:7 5;fill-opacity:0"/>
   <circle cx="80.0" cy="295.0" r="4.5" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
-  <text x="70.0" y="309.0" text-anchor="end" class="pc2q-otto-carnot-ts-b">1</text>
+  <text x="70.0" y="309.0" text-anchor="end" class="pc2q-otto-carnot-ts-b">1 (300 K)</text>
   <circle cx="80.0" cy="236.6" r="4.5" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
-  <text x="70.0" y="240.6" text-anchor="end" class="pc2q-otto-carnot-ts-b">2</text>
+  <text x="70.0" y="240.6" text-anchor="end" class="pc2q-otto-carnot-ts-b">2 (689 K)</text>
   <circle cx="412.6" cy="70.0" r="4.5" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
-  <text x="420.6" y="74.0" class="pc2q-otto-carnot-ts-b">3</text>
+  <text x="420.6" y="74.0" class="pc2q-otto-carnot-ts-b">3 (1800 K)</text>
   <circle cx="412.6" cy="222.5" r="4.5" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
-  <text x="420.6" y="226.5" class="pc2q-otto-carnot-ts-b">4</text>
-  <text x="434.6" y="74.0" class="pc2q-otto-carnot-ts-s">1800 K</text>
-  <text x="434.6" y="226.5" class="pc2q-otto-carnot-ts-s">783 K</text>
-  <text x="86.0" y="254.6" class="pc2q-otto-carnot-ts-s">689 K</text>
-  <text x="418.6" y="311.0" class="pc2q-otto-carnot-ts-s">300 K</text>
+  <text x="420.6" y="226.5" class="pc2q-otto-carnot-ts-b">4 (783 K)</text>
   <line x1="80.0" y1="52.0" x2="293.8" y2="52.0" style="stroke:var(--fig-violet);stroke-width:1" marker-end="url(#pc2q-otto-carnot-ts-ar-violet)" marker-start="url(#pc2q-otto-carnot-ts-ar-violet)"/>
   <text x="186.9" y="46.0" text-anchor="middle" class="pc2q-otto-carnot-ts-s">12.8 J/K</text>
   <line x1="80.0" y1="317.5" x2="412.6" y2="317.5" style="stroke:var(--fig-amber);stroke-width:1" marker-end="url(#pc2q-otto-carnot-ts-ar-amber)" marker-start="url(#pc2q-otto-carnot-ts-ar-amber)"/>
