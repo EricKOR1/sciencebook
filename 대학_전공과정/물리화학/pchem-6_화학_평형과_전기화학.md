@@ -1268,3 +1268,200 @@ $$
 $\mathrm{2H^+ + 2e^- \rightarrow H_2}$: $E = 0 - \dfrac{0.05916}{2}\log\dfrac{p_{\mathrm{H_2}}/p^\circ}{a_{\mathrm{H^+}}^2} = -0.05916\,\mathrm{pH} = -0.05916\times3.00 = -0.177\ \mathrm{V}$. pH가 1 커질 때마다 59 mV씩 낮아진다. 이것이 pH 측정의 원리이다.
 
 </details>
+
+### 응용
+
+**6.** 어떤 온도에서 $\mathrm{PCl_5(g) \rightleftharpoons PCl_3(g) + Cl_2(g)}$의 $K = 1.80$이다. 순수한 $\mathrm{PCl_5}$에서 출발할 때 (1) 해리도 $\alpha$를 전체 압력 $p$로 나타내고, (2) $p = 1.00\ \mathrm{bar}$와 $5.00\ \mathrm{bar}$에서 $\alpha$를 구하시오.
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) $\alpha = [K/(K + p/p^\circ)]^{1/2}$ (2) 0.802, 0.514
+
+(1) 양은 $1-\alpha$, $\alpha$, $\alpha$, 합 $1+\alpha$. $K = \dfrac{[\alpha/(1+\alpha)]^2}{(1-\alpha)/(1+\alpha)}\cdot\dfrac{p}{p^\circ} = \dfrac{\alpha^2}{1-\alpha^2}\cdot\dfrac{p}{p^\circ}$에서 $\alpha^2 = K/(K + p/p^\circ)$.
+(2) $\sqrt{1.80/2.80} = 0.802$, $\sqrt{1.80/6.80} = 0.514$. $\Delta\nu = +1$이므로 압력을 높이면 해리가 줄어든다. $K$는 두 압력에서 같다.
+
+</details>
+
+**7.** 어떤 해리 반응의 평형 상수가 $\ln K = 8.00 - (6000\ \mathrm{K})/T$로 잘 맞는다. (1) $\Delta_\mathrm{r}H^\circ$와 $\Delta_\mathrm{r}S^\circ$, (2) $K = 1$이 되는 온도, (3) 600 K에서의 $\Delta_\mathrm{r}G^\circ$를 구하시오.
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) $+49.9\ \mathrm{kJ/mol}$, $+66.5\ \mathrm{J/(mol\cdot K)}$ (2) 750 K (3) $+9.98\ \mathrm{kJ/mol}$
+
+(1) $\ln K = -\Delta_\mathrm{r}H^\circ/RT + \Delta_\mathrm{r}S^\circ/R$와 비교하면 $\Delta_\mathrm{r}H^\circ = 6000R = 4.99\times10^4\ \mathrm{J/mol}$, $\Delta_\mathrm{r}S^\circ = 8.00R = 66.5\ \mathrm{J/(mol\cdot K)}$. $\ln T$ 항이 없으므로 이 범위에서 $\Delta_\mathrm{r}C_p^\circ \approx 0$이다.
+(2) $\ln K = 0$: $T = 6000/8.00 = 750\ \mathrm{K}$.
+(3) $\ln K(600) = 8.00 - 10.00 = -2.00$, $\Delta_\mathrm{r}G^\circ = -RT\ln K = 8.314\times600\times2.00 = 9.98\times10^3\ \mathrm{J/mol}$.
+
+</details>
+
+**8.** 25 ℃에서 0.020 mol/kg $\mathrm{MgCl_2}$ 수용액의 $\gamma_\pm$를 (1) 극한 법칙, (2) 확장 디바이–휘켈 식($Ba = 1$)으로 구하고, (3) 두 값의 차이가 생기는 물리적 까닭을 쓰시오.
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) 0.563 (2) 0.631 (3) 서술
+
+$I = 3\times0.020 = 0.060$, $\sqrt{I} = 0.245$.
+(1) $\log\gamma_\pm = -0.509\times2\times0.245 = -0.249$, $\gamma_\pm = 0.563$.
+(2) $\log\gamma_\pm = -0.249/1.245 = -0.200$, $\gamma_\pm = 0.631$.
+(3) 극한 법칙은 이온을 점전하로 보아, 반대 전하 이온이 중심 이온에 한없이 가까이 올 수 있다고 가정한다. 실제 이온은 크기가 있어 거리 $a$ 안으로 들어오지 못하므로 이온 분위기가 덜 조밀하고 안정화가 작다. 그래서 $\gamma_\pm$가 극한 법칙보다 1에 가깝다. 이 차이는 $\kappa a$가 1에 가까워지는 $I$에서 커진다.
+
+</details>
+
+**9.** 25 ℃에서 농도차 전지 $\mathrm{Ag\,\lvert\,AgNO_3(0.0010\ mol/kg)\,\lVert\,AgNO_3(0.100\ mol/kg)\,\lvert\,Ag}$의 전위를 (1) 활동도 계수를 1로 보고, (2) $\gamma_\pm(0.0010) = 0.965$, $\gamma_\pm(0.100) = 0.734$를 $\mathrm{Ag^+}$의 활동도 계수로 써서 구하시오. 액간 접촉 전위는 무시한다.
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) 0.118 V (2) 0.111 V
+
+전지 반응은 $\mathrm{Ag^+}(0.100) \rightarrow \mathrm{Ag^+}(0.0010)$, $\nu = 1$, $E = (RT/F)\ln(a_\text{오른쪽}/a_\text{왼쪽})$.
+(1) $0.025693\ln 100 = 0.1183\ \mathrm{V}$.
+(2) $0.025693\ln\dfrac{0.734\times0.100}{0.965\times0.0010} = 0.025693\ln 76.1 = 0.1113\ \mathrm{V}$. 진한 쪽 활동도 계수가 작아 활동도 비가 줄어든 만큼 7 mV 낮아진다.
+
+</details>
+
+### 융합·서술형
+
+**10. [생명과학 연계]** 생화학에서는 pH 7을 표준으로 잡은 전위 $E^{\circ\prime}$을 쓴다. 25 ℃에서 (1) $\mathrm{2H^+ + 2e^- \rightarrow H_2}$의 $E^{\circ\prime}$을 구하시오. (2) $\mathrm{NAD^+ + H^+ + 2e^- \rightarrow NADH}$의 $E^{\circ\prime} = -0.320\ \mathrm{V}$일 때 $\mathrm{H^+}$의 활동도 1을 표준으로 하는 $E^\circ$를 구하시오. (3) $\mathrm{\tfrac{1}{2}O_2 + 2H^+ + 2e^- \rightarrow H_2O}$의 $E^{\circ\prime} = +0.816\ \mathrm{V}$이다. NADH가 산소로 산화되는 반응의 $\Delta_\mathrm{r}G^{\circ\prime}$을 구하고, 세포가 이 에너지를 한 번에 쓰지 않고 전자 전달 사슬로 나누어 쓰는 것이 왜 유리한지 서술하시오.
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) $-0.414\ \mathrm{V}$ (2) $-0.113\ \mathrm{V}$ (3) $-219\ \mathrm{kJ/mol}$, 서술
+
+(1) $E^{\circ\prime} = 0 - \dfrac{0.05916}{2}\log\dfrac{1}{(10^{-7})^2} = -0.05916\times7 = -0.414\ \mathrm{V}$.
+(2) 네른스트 식에서 $E = E^\circ - \dfrac{0.05916}{2}\log\dfrac{a_{\mathrm{NADH}}}{a_{\mathrm{NAD^+}}a_{\mathrm{H^+}}}$. $a_{\mathrm{H^+}} = 10^{-7}$을 표준으로 넣은 것이 $E^{\circ\prime}$이므로 $E^{\circ\prime} = E^\circ - \dfrac{0.05916}{2}\times7$, $E^\circ = -0.320 + 0.207 = -0.113\ \mathrm{V}$.
+(3) $\mathrm{NADH + H^+ + \tfrac{1}{2}O_2 \rightarrow NAD^+ + H_2O}$, $\Delta E^{\circ\prime} = 0.816 - (-0.320) = 1.136\ \mathrm{V}$, $\Delta_\mathrm{r}G^{\circ\prime} = -2\times96\,485\times1.136 = -2.19\times10^5\ \mathrm{J/mol}$.
+**예시 답안** 219 kJ/mol을 한 번에 방출하면 대부분이 열로 흩어진다. ATP 합성에는 한 번에 수십 kJ/mol 정도만 필요하므로, 전위가 조금씩 높아지는 여러 운반체를 거쳐 전자를 단계적으로 넘기면 각 단계의 작은 $\Delta G$를 양성자 퍼 올리기(화학 퍼텐셜 차)로 저장할 수 있다. 전체 $\Delta G$는 경로와 무관하게 같지만, 일로 꺼내는 효율은 '평형에 가까운 작은 단계'로 나눌수록 가역 과정에 가까워져 높아진다.
+
+**채점 포인트** ① $E^{\circ\prime}$과 $E^\circ$의 차이를 $\mathrm{H^+}$ 활동도와 전자·양성자 수로 정확히 처리 ② $\Delta_\mathrm{r}G^{\circ\prime} = -\nu F\Delta E^{\circ\prime}$ 계산 ③ 단계적 전달이 가역성(일 효율)과 이어진다는 논리
+
+</details>
+
+**11. [에너지 연계]** 25 ℃에서 수소–산소 연료 전지 $\mathrm{H_2(g) + \tfrac{1}{2}O_2(g) \rightarrow H_2O(l)}$의 $\Delta_\mathrm{r}G^\circ = -237.13\ \mathrm{kJ/mol}$, $\Delta_\mathrm{r}H^\circ = -285.83\ \mathrm{kJ/mol}$, $\Delta_\mathrm{r}S^\circ = -163.3\ \mathrm{J/(mol\cdot K)}$이다. (1) $E^\circ$와 $dE^\circ/dT$를 구하시오. (2) $\Delta_\mathrm{r}S^\circ$가 일정하다고 보고 80 ℃에서의 $E^\circ$를 구하시오(물은 액체). (3) 물의 전기 분해에서 $\Delta_\mathrm{r}H^\circ/2F$로 정의되는 '열중립 전압'을 구하고, 전해조를 1.23 V와 1.48 V 사이에서 운전하면 전해조가 주위에서 열을 흡수하는 까닭을 서술하시오.
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) $1.229\ \mathrm{V}$, $-0.846\ \mathrm{mV/K}$ (2) $1.182\ \mathrm{V}$ (3) $1.481\ \mathrm{V}$, 서술
+
+(1) $E^\circ = 237\,130/(2\times96\,485) = 1.229\ \mathrm{V}$, $dE^\circ/dT = \Delta_\mathrm{r}S^\circ/2F = -163.3/192\,971 = -8.46\times10^{-4}\ \mathrm{V/K}$.
+(2) $1.229 - 8.46\times10^{-4}\times55 = 1.182\ \mathrm{V}$.
+(3) $285\,830/192\,971 = 1.481\ \mathrm{V}$.
+**예시 답안** 전기 분해 $\mathrm{H_2O \rightarrow H_2 + \tfrac{1}{2}O_2}$에는 $\Delta_\mathrm{r}H^\circ = +285.8\ \mathrm{kJ}$가 필요하다. 이 가운데 $\Delta_\mathrm{r}G^\circ = 237.1\ \mathrm{kJ}$(1.23 V)는 반드시 전기적 일로 주어야 하고, 나머지 $T\Delta_\mathrm{r}S^\circ = 48.7\ \mathrm{kJ}$는 열로 받아도 된다. 전압이 1.48 V보다 낮으면 전기로 준 에너지($2FV$)가 $\Delta_\mathrm{r}H^\circ$에 모자라므로 부족분을 주위에서 열로 흡수하고, 1.48 V보다 높으면 남는 에너지가 열로 나온다.
+
+**채점 포인트** ① $E^\circ$, $dE/dT$를 $\Delta G$, $\Delta S$에서 바르게 계산 ② 열중립 전압이 $\Delta H$에서 나옴을 계산 ③ $\Delta G$(일)과 $T\Delta S$(열)의 역할 구분으로 열 흡수를 설명
+
+</details>
+
+### 실력 다지기
+
+**12.** 400 K, 전체 압력 1 bar에서 이상 기체 반응 $\mathrm{A \rightleftharpoons B}$의 혼합물을 분석했더니 $x_\mathrm{B} = 0.20$일 때 $\Delta_\mathrm{r}G = -1.50\ \mathrm{kJ/mol}$이었다. (1) $\Delta_\mathrm{r}G^\circ$와 $K$를 구하시오. (2) 평형에서 $x_\mathrm{B}$를 구하시오. (3) 이 혼합물의 $G(\xi)$ 곡선에서 $x_\mathrm{B} = 0.20$인 점은 바닥의 왼쪽인가, 오른쪽인가?
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) $\Delta_\mathrm{r}G^\circ = +3.11\ \mathrm{kJ/mol}$, $K = 0.392$ (2) 0.282 (3) 왼쪽
+
+(1) $RT = 8.314\times400 = 3326\ \mathrm{J/mol}$. $\Delta_\mathrm{r}G = \Delta_\mathrm{r}G^\circ + RT\ln(x_\mathrm{B}/x_\mathrm{A})$에서 $\Delta_\mathrm{r}G^\circ = -1500 - 3326\ln 0.25 = -1500 + 4611 = +3.11\times10^3\ \mathrm{J/mol}$. $K = e^{-3110/3326} = 0.392$.
+(2) $x_\mathrm{B}/(1 - x_\mathrm{B}) = 0.392$ → $x_\mathrm{B} = 0.392/1.392 = 0.282$.
+(3) $\Delta_\mathrm{r}G < 0$(내려가는 기울기)이므로 바닥의 왼쪽이다. $\Delta_\mathrm{r}G^\circ > 0$인데도 이 조성에서는 정반응이 자발적이다.
+
+</details>
+
+**13.** 어떤 전지 반응($\nu = 2$)의 25 ℃ 값이 $E^\circ = 0.500\ \mathrm{V}$, $dE^\circ/dT = +2.0\times10^{-4}\ \mathrm{V/K}$이다(온도에 무관하다고 본다). (1) $\Delta_\mathrm{r}G^\circ$, $\Delta_\mathrm{r}S^\circ$, $\Delta_\mathrm{r}H^\circ$를 구하시오. (2) 25 ℃와 50 ℃의 $K$를 구하시오. (3) 온도가 오를 때 $E^\circ$는 커지는데 $K$는 작아진다. 모순인지 판단하고 설명하시오.
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) $-96.5\ \mathrm{kJ/mol}$, $+38.6\ \mathrm{J/(mol\cdot K)}$, $-85.0\ \mathrm{kJ/mol}$ (2) $8.0\times10^{16}$, $5.6\times10^{15}$ (3) 모순이 아니다.
+
+(1) $\Delta_\mathrm{r}G^\circ = -2\times96\,485\times0.500 = -96.5\ \mathrm{kJ/mol}$, $\Delta_\mathrm{r}S^\circ = 2\times96\,485\times2.0\times10^{-4} = +38.6\ \mathrm{J/(mol\cdot K)}$, $\Delta_\mathrm{r}H^\circ = -96.49 + 298.15\times0.0386 = -85.0\ \mathrm{kJ/mol}$.
+(2) 25 ℃: $\ln K = 2FE^\circ/RT = 38.92$, $K = 8.0\times10^{16}$. 50 ℃: $E^\circ = 0.505\ \mathrm{V}$, $\ln K = 2\times96\,485\times0.505/(8.314\times323.15) = 36.27$, $K = 5.6\times10^{15}$.
+(3) $\ln K = \nu FE^\circ/RT$에서 분모의 $T$도 커진다. $E^\circ$의 증가율(1 %)보다 $T$의 증가율(8.4 %)이 커서 $\ln K$가 줄어든다. 판트호프 식으로도 $\Delta_\mathrm{r}H^\circ < 0$(발열)이므로 $K$가 줄어야 하며, 실제로 $\ln K(50\ ℃) = 38.92 - (-85\,000/8.314)(1/323.15 - 1/298.15) = 36.27$로 같은 값이 나온다.
+
+</details>
+
+**14.** 25 ℃에서 하네드 전지 $\mathrm{Pt\,\lvert\,H_2(1\ bar)\,\lvert\,HCl(0.0100\ mol/kg)\,\lvert\,AgCl\,\lvert\,Ag}$의 전위가 $0.4641\ \mathrm{V}$였다. $E^\circ = 0.2223\ \mathrm{V}$일 때 (1) $\gamma_\pm$를 구하고, (2) 극한 법칙, (3) 확장 식($Ba = 1$)의 값과 비교하시오. (4) 전위 측정의 불확도가 $\pm0.2\ \mathrm{mV}$이면 $\gamma_\pm$의 불확도는 몇 %인가?
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) 0.905 (2) 0.889 (3) 0.899 (4) 약 0.4 %
+
+(1) $\ln\gamma_\pm = \dfrac{E^\circ - E}{2RT/F} - \ln b = \dfrac{0.2223 - 0.4641}{0.05139} + 4.605 = -4.705 + 4.605 = -0.100$, $\gamma_\pm = 0.905$.
+(2) $10^{-0.509\times0.100} = 0.889$ (3) $10^{-0.0509/1.100} = 0.899$. 확장 식이 측정값에 더 가깝다.
+(4) $\delta\ln\gamma_\pm = \delta E/(2RT/F) = 0.0002/0.05139 = 0.0039$, 약 0.4 %. 전위 측정이 활동도 계수를 1 % 미만의 정밀도로 준다.
+
+</details>
+
+**15.** 25 ℃에서 $E^\circ(\mathrm{AgBr/Ag}) = +0.0713\ \mathrm{V}$, $E^\circ(\mathrm{Ag^+/Ag}) = +0.7996\ \mathrm{V}$이다. (1) $K_\mathrm{sp}(\mathrm{AgBr})$를 구하시오. (2) 순수한 물, (3) 0.010 mol/kg $\mathrm{KNO_3}$, (4) 0.010 mol/kg KBr 용액에서 AgBr의 몰랄 용해도를 구하시오(필요하면 극한 법칙을 쓴다). 두 염이 용해도에 반대 방향으로 작용하는 까닭을 한 문장으로 쓰시오.
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) $4.9\times10^{-13}$ (2) $7.0\times10^{-7}$ (3) $7.9\times10^{-7}$ (4) $6.2\times10^{-11}\ \mathrm{mol/kg}$
+
+(1) $\ln K_\mathrm{sp} = (0.0713 - 0.7996)/0.025693 = -28.35$, $K_\mathrm{sp} = 4.9\times10^{-13}$.
+(2) $s = \sqrt{K_\mathrm{sp}} = 7.0\times10^{-7}$ (이온 세기가 매우 작아 $\gamma_\pm \approx 1$).
+(3) $I = 0.010$, $\gamma_\pm = 0.889$, $s = 7.0\times10^{-7}/0.889 = 7.9\times10^{-7}$.
+(4) $I = 0.010$, $a_{\mathrm{Br^-}} = 0.889\times0.010$이므로 $s = K_\mathrm{sp}/(\gamma_\pm^2\times0.010) = 4.9\times10^{-13}/(0.791\times0.010) = 6.2\times10^{-11}$.
+$\mathrm{KNO_3}$는 이온 분위기로 $\mathrm{Ag^+}$와 $\mathrm{Br^-}$의 활동도를 낮추어 용해도를 키우고(염 효과, 약 12 %), KBr은 공통 이온 $\mathrm{Br^-}$의 활동도를 직접 높여 용해도를 약 1만분의 1로 줄인다.
+
+</details>
+
+### 도전
+
+**16. [유도]** 디바이–휘켈 이론에 대하여 답하시오. (1) 단일 이온의 식 $\ln\gamma_j = -z_j^2C\sqrt{I}$($C$는 상수)와 전기적 중성 조건으로 $\ln\gamma_\pm = -\lvert z_+z_- \rvert C\sqrt{I}$를 유도하시오. (2) 본문의 $A$ 식에 $e = 1.602\times10^{-19}\ \mathrm{C}$, $\varepsilon_0 = 8.854\times10^{-12}\ \mathrm{C^2/(J\cdot m)}$, $\varepsilon_\mathrm{r} = 78.54$, $k_\mathrm{B} = 1.381\times10^{-23}\ \mathrm{J/K}$, $N_\mathrm{A} = 6.022\times10^{23}\ \mathrm{mol^{-1}}$, $\rho^* = 997.0\ \mathrm{kg/m^3}$, $b^\circ = 1\ \mathrm{mol/kg}$를 넣어 25 ℃의 $A$를 계산하시오. (3) $A \propto (\rho^*)^{1/2}(\varepsilon_\mathrm{r}T)^{-3/2}$임을 보이고, 0 ℃($\varepsilon_\mathrm{r} = 87.90$, $\rho^* = 999.8\ \mathrm{kg/m^3}$)의 $A$를 구하시오. (4) 물보다 유전율이 훨씬 작은 메탄올($\varepsilon_\mathrm{r} \approx 33$)에서 같은 이온 세기의 $\gamma_\pm$는 물에서보다 1에서 더 벗어나는가, 덜 벗어나는가?
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) 유도 (2) 0.509 (3) 0.490 (4) 더 벗어난다.
+
+(1) $s\ln\gamma_\pm = p\ln\gamma_+ + q\ln\gamma_- = -C\sqrt{I}(pz_+^2 + qz_-^2)$. 전기적 중성 $pz_+ = q\lvert z_- \rvert$에서 $pz_+^2 = z_+(q\lvert z_- \rvert)$, $qz_-^2 = \lvert z_- \rvert(pz_+)$이므로 $pz_+^2 + qz_-^2 = z_+\lvert z_- \rvert(p + q)$. 양변을 $s = p + q$로 나누면 결과가 나온다.
+(2) $\varepsilon = 6.954\times10^{-10}\ \mathrm{C^2/(J\cdot m)}$, $k_\mathrm{B}T = 4.116\times10^{-21}\ \mathrm{J}$.
+$\kappa^2/I = 2e^2N_\mathrm{A}\rho^*b^\circ/(\varepsilon k_\mathrm{B}T) = 2(2.567\times10^{-38})(6.022\times10^{23})(997.0)/(2.862\times10^{-30}) = 1.077\times10^{19}\ \mathrm{m^{-2}}$, $\kappa/\sqrt{I} = 3.28\times10^{9}\ \mathrm{m^{-1}}$ (디바이 길이 0.304 nm).
+$A = \dfrac{e^2(\kappa/\sqrt{I})}{8\pi\varepsilon k_\mathrm{B}T\ln 10} = \dfrac{(2.567\times10^{-38})(3.28\times10^9)}{8\pi(2.862\times10^{-30})(2.303)} = 0.509$.
+(3) $A \propto \varepsilon^{-1}T^{-1}\cdot(\rho^*/\varepsilon T)^{1/2} = (\rho^*)^{1/2}(\varepsilon_\mathrm{r}T)^{-3/2}$. $A(0\ ℃) = 0.509\times\left(\dfrac{78.54\times298.15}{87.90\times273.15}\right)^{3/2}\left(\dfrac{999.8}{997.0}\right)^{1/2} = 0.509\times0.9645 = 0.491$ (상수를 직접 넣어 계산하면 0.490).
+(4) $\varepsilon_\mathrm{r}$이 작으면 $A \propto \varepsilon_\mathrm{r}^{-3/2}$가 커져 $\lvert\log\gamma_\pm\rvert$가 약 $(78.5/33)^{3/2} \approx 3.7$배가 된다. 쿨롱 상호작용이 덜 가려져 이온 분위기의 안정화가 커지기 때문이며, 실제로는 이온쌍 형성도 심해진다.
+
+**채점 포인트** ① 전기적 중성을 쓴 대수 처리 ② 단위를 맞춘 수치 계산($\kappa$의 단위 $\mathrm{m^{-1}}$) ③ $\varepsilon_\mathrm{r}T$ 의존의 지수 $-3/2$ ④ 유전율과 가려막기의 정성적 연결
+
+</details>
+
+**17. [오류 찾기·실험 설계]** 탐구 활동 A의 하네드 전지 자료(7점)로 두 학생이 $E^\circ$를 구했다. 학생 갑은 $y = E + (2RT/F)\ln b$를 $b$(제곱근이 아님)에 대해 7점 모두로 직선 맞춤하여 절편 0.2257 V를 얻었다. 학생 을은 $y_1 = E + (RT/F)\ln b$를 $\sqrt{b}$에 대해 묽은 4점으로 맞춤하여 절편 0.4230 V를 얻었다. (1) 각 학생의 잘못을 찾고, 결과가 어느 쪽으로 치우쳤는지 설명하시오. (2) 자료를 다시 처리하는 가장 좋은 방법과 그 결과를 쓰시오. (3) 실험 자체를 개선해 외삽의 불확도를 줄이는 방법 두 가지를 제안하시오.
+
+<!-- 그림 요청: 문제 17의 두 학생 그래프 비교(정답을 드러내지 않게 점과 직선만). 왼쪽 "학생 갑": 가로축 b(0~0.10), 세로축 y/V(0.222~0.236), 7개 점 (0.001, 0.22414), (0.002, 0.22486), (0.005, 0.22615), (0.010, 0.22756), (0.020, 0.22918), (0.050, 0.23186), (0.100, 0.23408)과 맞춤 직선 y = 0.2257 + 0.094b. 오른쪽 "학생 을": 가로축 √b(0~0.11), 세로축 y₁/V(0.33~0.43), 4개 점 (0.0316, 0.40162), (0.0447, 0.38453), (0.0707, 0.36227), (0.1000, 0.34588)과 맞춤 직선 y₁ = 0.4230 − 0.800√b. -->
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) 갑: 가로축 선택 오류로 0.0034 V 크게, 을: 네른스트 식의 계수 2 누락으로 의미 없는 값 (2) 확장 식 보정 후 외삽, $E^\circ \approx 0.2223\ \mathrm{V}$ (3) 서술
+
+(1) **갑** 극한 법칙이 직선을 약속하는 변수는 $\sqrt{b}$이다. $y$는 묽은 쪽에서 $\sqrt{b}$에 비례해 가파르게 내려가므로, $b$에 대해 그리면 원점 근처에서 급히 꺾인다. 진한 점들이 직선을 끌어 절편이 실제(0.2223 V)보다 3.4 mV 크게 나왔다.
+**을** 전지 반응에서 $a_{\mathrm{H^+}}a_{\mathrm{Cl^-}} = (\gamma_\pm b)^2$이므로 $\ln b$ 앞의 계수는 $2RT/F$이다. 계수를 $RT/F$로 쓰면 $y_1 = y - (RT/F)\ln b$가 되어 $b \rightarrow 0$에서 발산하는 $-\ln b$ 항이 남는다. 절편 0.423 V는 물리적 의미가 없으며, 기울기($-0.80\ \mathrm{V}$)가 이론값(+0.060 V)과 부호까지 다른 것으로 알아챌 수 있다.
+(2) 확장 디바이–휘켈 식으로 $y' = y + (2RT/F)\ln\gamma_\pm^\text{확장}$을 계산하면 7점이 $b$에 대한 완만한 직선(기울기 약 $-0.027\ \mathrm{V}$)에 놓이고 절편은 $0.2223\ \mathrm{V}$이다. 묽은 4점만으로 $y$–$\sqrt{b}$를 외삽해도 0.2226 V로, 갑의 값보다 훨씬 낫다.
+(3) ① $b = 10^{-4}\sim10^{-3}$의 더 묽은 점을 늘린다(단, 너무 묽으면 용존 산소·불순물·AgCl의 용해가 상대적으로 커지므로 탈기와 고순도 시약이 필요하다). ② 온도를 ±0.01 K로 일정하게 하고, 수소 압력을 대기압과 수증기압으로 보정해 정확히 1 bar 기준으로 환산한다. 그 밖에 전극을 여러 개 만들어 전극 간 편차를 평균하는 것도 좋다.
+
+**채점 포인트** ① 갑: $\sqrt{b}$를 써야 하는 이론적 근거 ② 을: 계수 2의 출처($\gamma_\pm^2b^2$)와 기울기 부호로 오류 판별 ③ 확장 식 보정 외삽의 결과 ④ 실험 개선안의 구체성
+
+</details>
+
+**18. [처음 보는 상황]** 예제 4의 (나)에서 구한 700 K의 $K = 6.7\times10^{-5}$를 써서, $\mathrm{N_2 : H_2 = 1 : 3}$으로 넣은 혼합물이 700 K, 전체 압력 100 bar에서 평형에 이르렀을 때 (1) 평형 조건식을 $\mathrm{N_2}$ 1 mol당 반응 진행도 $\xi$로 세우고, (2) 수치적으로 풀어 암모니아의 몰분율을 구하시오(이상 기체). (3) 300 bar에서는 몰분율이 약 0.34가 된다. 이 결과와 STEP 6 사례 1을 근거로, 실제 공정의 수득률이 이상 기체 계산과 어떻게 다를지 예측하시오.
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) $K = \dfrac{(2\xi)^2(4 - 2\xi)^2}{(1-\xi)(3-3\xi)^3}\left(\dfrac{p^\circ}{p}\right)^2$ (2) $\xi \approx 0.30$, $x_{\mathrm{NH_3}} \approx 0.18$ (3) 서술
+
+(1) 양: $\mathrm{N_2}$ $1-\xi$, $\mathrm{H_2}$ $3-3\xi$, $\mathrm{NH_3}$ $2\xi$, 합 $4-2\xi$. $K = \dfrac{x_{\mathrm{NH_3}}^2}{x_{\mathrm{N_2}}x_{\mathrm{H_2}}^3}\left(\dfrac{p}{p^\circ}\right)^{-2}$에 몰분율을 넣으면 위 식이 된다.
+(2) $p/p^\circ = 100$을 넣고 이분법(또는 스프레드시트 목표값 찾기)으로 풀면 $\xi = 0.304$. $x_{\mathrm{NH_3}} = 2(0.304)/(4 - 0.608) = 0.179$. 검산: $(0.608)^2(3.392)^2/[(0.696)(2.088)^3]\times10^{-4} = 4.254/6.336\times10^{-4} = 6.7\times10^{-5}$.
+(3) **예시 답안** 압력을 높이면 $K_x = K(p/p^\circ)^2$가 커져 수득률이 올라간다(100 bar 0.18 → 300 bar 0.34). 그런데 이 압력에서는 $K_\phi < 1$이므로 $K_p = K/K_\phi$가 이상 기체의 $K$보다 커서, 실제 평형 수득률은 이 계산보다 다소 높다(700 K, 100 bar 부근의 실측 평형값은 약 20 % 안팎). 또 $K$ 자체가 $\Delta_\mathrm{r}C_p^\circ$ 처리에 따라 몇 배 달라지므로, 공정 설계에는 온도에 따라 변하는 열용량과 상태 방정식의 퓨가시티 계수를 모두 넣어야 한다.
+
+**채점 포인트** ① 몰분율과 전체 압력을 포함한 평형식 ② 수치 풀이와 검산 ③ $K_\phi$의 방향(1보다 작음 → 수득률 증가)과 $\Delta_\mathrm{r}C_p$ 불확도의 언급
+
+</details>

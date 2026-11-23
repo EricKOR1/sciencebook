@@ -1344,3 +1344,342 @@ $$
 
 ---
 
+## ✅ 개념 확인 문제
+
+### 기본
+
+**1.** 메테인 1.00 mol이 300 K에서 0.500 L 용기에 들어 있다. 이상 기체 방정식과 판데르발스 식($a = 2.25\ \mathrm{atm\cdot L^2/mol^2}$, $b = 0.0428\ \mathrm{L/mol}$)으로 압력을 각각 구하고, 판데르발스 압력에 해당하는 $Z$를 구하시오. ($R = 0.082\,06\ \mathrm{L\cdot atm/(mol\cdot K)}$)
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** 이상 기체 49.2 atm, 판데르발스 44.8 atm, $Z = 0.911$
+
+$p_\text{이상} = 0.082\,06\times300/0.500 = 49.2\ \mathrm{atm}$. $p_\text{vdW} = \dfrac{24.62}{0.500 - 0.0428} - \dfrac{2.25}{0.250} = 53.8 - 9.00 = 44.8\ \mathrm{atm}$. $Z = pV_\mathrm{m}/RT = 44.8/49.2 = 0.911$로 인력이 우세하다.
+
+</details>
+
+**2.** 이상 기체 2.00 mol이 350 K에서 5.00 L에서 20.0 L로 등온 팽창한다. (1) 가역 팽창과 (2) 나중 압력과 같은 일정한 외부 압력에 맞선 팽창의 $w$를 구하시오.
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) $-8.07\ \mathrm{kJ}$ (2) $-4.36\ \mathrm{kJ}$
+
+(1) $w = -nRT\ln(V_2/V_1) = -2.00\times8.314\times350\times\ln 4.00 = -8.07\times10^3\ \mathrm{J}$
+(2) $p_2 = nRT/V_2 = 2.00\times8.314\times350/0.0200 = 2.91\times10^5\ \mathrm{Pa}$, $w = -p_2\Delta V = -2.91\times10^5\times0.0150 = -4.36\times10^3\ \mathrm{J}$. 두 경우 모두 $\Delta U = 0$이므로 흡수한 열도 일의 크기만큼 다르다.
+
+</details>
+
+**3.** 298 K에서 다음 반응의 $\Delta_\mathrm{r}H - \Delta_\mathrm{r}U$를 구하시오. 기체는 이상 기체로 본다. (1) $\mathrm{2CO(g) + O_2(g) \rightarrow 2CO_2(g)}$ (2) $\mathrm{CaCO_3(s) \rightarrow CaO(s) + CO_2(g)}$
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) $-2.48\ \mathrm{kJ/mol}$ (2) $+2.48\ \mathrm{kJ/mol}$
+
+$\Delta_\mathrm{r}H - \Delta_\mathrm{r}U = \Delta n_\text{기체}RT$, $RT = 2.48\ \mathrm{kJ/mol}$. (1) $\Delta n_\text{기체} = 2 - 3 = -1$ (2) $+1$. 고체의 부피 변화는 무시한다.
+
+</details>
+
+**4.** 디젤 기관에서 300 K, 1.00 bar의 공기($\gamma = 1.40$, 이상 기체)를 부피가 1/16이 되도록 가역 단열 압축한다. 나중 온도와 압력을 구하시오.
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** 약 909 K, 약 48.5 bar
+
+$T_2 = T_1(V_1/V_2)^{\gamma-1} = 300\times16^{0.40} = 909\ \mathrm{K}$, $p_2 = p_1(V_1/V_2)^\gamma = 16^{1.40} = 48.5\ \mathrm{bar}$. 같은 부피비의 등온 압축(16 bar)보다 압력이 3배 높다. 경유의 자연 발화 온도(약 500~600 K)를 넉넉히 넘는다.
+
+</details>
+
+**5.** 다음 미분이 완전 미분인지 판별하고, 완전 미분이면 그 함수를 구하시오. (1) $df = y\,dx - x\,dy$ (2) $df = (y + 2x)\,dx + x\,dy$
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) 불완전 미분 (2) 완전 미분, $f = xy + x^2$ (+상수)
+
+(1) $\partial(y)/\partial y = 1$, $\partial(-x)/\partial x = -1$로 다르다. (2) $\partial(y + 2x)/\partial y = 1 = \partial(x)/\partial x$. $\partial f/\partial x = y + 2x$를 적분하면 $f = xy + x^2 + g(y)$이고, $\partial f/\partial y = x + g'(y) = x$에서 $g$는 상수이다.
+
+</details>
+
+### 응용
+
+**6.** $\mathrm{N_2}$의 $T_\mathrm{c} = 126.2\ \mathrm{K}$, $p_\mathrm{c} = 33.5\ \mathrm{atm}$이다. (1) 판데르발스 상수 $a$, $b$를 구하고 ②의 표와 비교하시오. (2) 이 상수로 보일 온도를 예측하고, 실측값(약 327 K)과 비교하시오.
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) $a = 1.35\ \mathrm{atm\cdot L^2/mol^2}$, $b = 0.0386\ \mathrm{L/mol}$ (2) 약 426 K (약 30 % 크다)
+
+(1) 임계 상수 식에서 $b = RT_\mathrm{c}/8p_\mathrm{c} = 0.082\,06\times126.2/(8\times33.5) = 0.0386\ \mathrm{L/mol}$, $a = 27R^2T_\mathrm{c}^2/64p_\mathrm{c} = 27\times(0.082\,06\times126.2)^2/(64\times33.5) = 1.35\ \mathrm{atm\cdot L^2/mol^2}$. 표의 1.39, 0.0391과 약 3 % 이내로 맞는다(표는 다른 자료 맞춤에서 온 값).
+(2) $T_\mathrm{B} = a/Rb = \tfrac{27}{8}T_\mathrm{c} = 426\ \mathrm{K}$. 판데르발스 식은 $T_\mathrm{B}/T_\mathrm{c}$를 3.375로 고정하지만 실제는 약 2.6이다.
+
+</details>
+
+**7.** $\mathrm{CO(g) + \tfrac{1}{2}O_2(g) \rightarrow CO_2(g)}$의 $\Delta_\mathrm{r}H^\circ(298.15\ \mathrm{K}) = -282.98\ \mathrm{kJ/mol}$이다. ⑤의 경험식 계수와 CO의 계수($a = 28.41$, $b = 4.10\times10^{-3}$, $c = -0.46\times10^5$)를 써서 1000 K의 $\Delta_\mathrm{r}H^\circ$를 구하시오. 또 298 K의 $\Delta_\mathrm{r}C_p^\circ$(약 $-6.6\ \mathrm{J/(mol\cdot K)}$)가 일정하다고 본 결과와 비교하시오.
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** 약 $-282.9\ \mathrm{kJ/mol}$ (일정 근사는 약 $-287.6\ \mathrm{kJ/mol}$)
+
+$\Delta a = 44.22 - 28.41 - \tfrac{1}{2}(29.96) = 0.83$, $\Delta b = (8.79 - 4.10 - 2.09)\times10^{-3} = 2.60\times10^{-3}$, $\Delta c = (-8.62 + 0.46 + 0.835)\times10^5 = -7.33\times10^5$
+$\displaystyle\int_{298.15}^{1000}\Delta_\mathrm{r}C_p^\circ\,dT = 0.83\times701.85 + \tfrac{1}{2}(2.60\times10^{-3})(1000^2 - 298.15^2) + 7.33\times10^5\left(\tfrac{1}{1000} - \tfrac{1}{298.15}\right) = 583 + 1184 - 1725 = +43\ \mathrm{J/mol}$
+$\Delta_\mathrm{r}H^\circ(1000\ \mathrm{K}) = -282.98 + 0.04 = -282.9\ \mathrm{kJ/mol}$.
+298 K의 $\Delta_\mathrm{r}C_p^\circ = 0.83 + 0.775 - 8.24 = -6.6\ \mathrm{J/(mol\cdot K)}$를 일정하다고 보면 $-282.98 - 6.6\times0.702 = -287.6\ \mathrm{kJ/mol}$. 실제로는 $\Delta_\mathrm{r}C_p^\circ$가 약 450 K에서 부호가 바뀌어 거의 상쇄되므로, 넓은 범위에서는 온도 의존을 넣어야 한다.
+
+</details>
+
+**8.** 판데르발스 상수로 (1) Ar($a = 1.34$, $b = 0.0322$)과 (2) He($a = 0.0341$, $b = 0.0237$, 단위는 atm·L²/mol²와 L/mol)의 낮은 압력 역전 온도를 구하시오. (3) 77 K(액체 질소 온도)로 예비 냉각한 헬륨을 조임 팽창시키면 식는가?
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) 약 1010 K (2) 약 35 K (3) 식지 않는다(데워진다).
+
+$T_\mathrm{I} = 2a/Rb$: (1) $2\times1.34/(0.082\,06\times0.0322) = 1.01\times10^3\ \mathrm{K}$ (실측 최대 역전 온도 약 720 K) (2) $2\times0.0341/(0.082\,06\times0.0237) = 35\ \mathrm{K}$ (실측 약 40 K)
+(3) 77 K는 역전 온도보다 높으므로 $\mu < 0$이다. 헬륨은 액체 수소(20 K)로 더 식히거나, 일을 하며 팽창하는 팽창 기관(가역 단열 팽창에 가까운 냉각)으로 먼저 역전 온도 아래로 내려야 한다.
+
+</details>
+
+**9.** $\mathrm{N_2}$ 2.00 mol(이상 기체, $C_{p,\mathrm{m}} = 29.1\ \mathrm{J/(mol\cdot K)}$, 일정)을 300 K에서 400 K로 (1) 일정 부피에서, (2) 일정 압력에서 데울 때 각각 $q$, $w$, $\Delta U$, $\Delta H$를 구하시오.
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) $q = \Delta U = 4.16\ \mathrm{kJ}$, $w = 0$, $\Delta H = 5.82\ \mathrm{kJ}$ (2) $q = \Delta H = 5.82\ \mathrm{kJ}$, $w = -1.66\ \mathrm{kJ}$, $\Delta U = 4.16\ \mathrm{kJ}$
+
+$C_{V,\mathrm{m}} = 29.1 - 8.314 = 20.8\ \mathrm{J/(mol\cdot K)}$. $\Delta U = nC_{V,\mathrm{m}}\Delta T = 2.00\times20.8\times100 = 4.16\ \mathrm{kJ}$, $\Delta H = nC_{p,\mathrm{m}}\Delta T = 5.82\ \mathrm{kJ}$. 이상 기체이므로 $\Delta U$, $\Delta H$는 두 경로에서 같다(온도만의 함수). (2)의 $w = -nR\Delta T = -1.66\ \mathrm{kJ}$. 경로 함수인 $q$, $w$만 달라진다.
+
+</details>
+
+### 융합·서술형
+
+**10. [지구과학 연계]** 그림처럼 건조한 공기 덩어리가 산을 타고 올라가며 주위와 열을 주고받지 않고 천천히 팽창한다.
+
+<!-- 그림 요청: 건조 공기 덩어리가 산비탈을 따라 올라가는 모식도. 왼쪽 산기슭(고도 0 m, 기온 20 ℃)에서 둥근 공기 덩어리가 출발해 화살표를 따라 꼭대기(고도 2000 m, 온도 '?')로 올라간다. 고도가 높아질수록 공기 덩어리 원을 조금씩 크게 그려 팽창을 나타낸다. 오른쪽에 고도 눈금(0, 1000, 2000 m)과 '열 출입 없음, 주위 압력과 늘 같음' 글상자. -->
+
+(1) 단열 가역 과정에서 $dH = V\,dp$(⑤의 $dH = dq + V\,dp$에서)와 정역학 평형 $dp = -\rho g\,dz$를 써서 기온 감률 $dT/dz = -g/c_p$를 유도하시오($c_p$는 질량당 정압 비열). (2) 공기의 $C_{p,\mathrm{m}} = 29.1\ \mathrm{J/(mol\cdot K)}$, $M = 28.96\ \mathrm{g/mol}$, $g = 9.80\ \mathrm{m/s^2}$로 값을 구하고, 20 ℃의 공기가 2000 m를 올라갔을 때의 온도를 구하시오. (3) 실제 대기의 평균 기온 감률(약 6.5 K/km)이 이보다 작은 까닭을 서술하시오.
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) 유도 (2) 약 9.8 K/km, 약 0.5 ℃ (3) 서술
+
+(1) 질량 $m$인 공기 덩어리에서 단열이면 $dq = 0$이므로 $dH = V\,dp$. 이상 기체의 $dH = mc_p\,dT$이고, 덩어리 안의 압력은 주위와 같아 $dp = -\rho g\,dz$($\rho = m/V$)이다. $mc_p\,dT = V(-\rho g\,dz) = -mg\,dz$이므로 $dT/dz = -g/c_p$.
+(2) $c_p = 29.1/0.028\,96 = 1005\ \mathrm{J/(kg\cdot K)}$, $dT/dz = -9.80/1005 = -9.75\times10^{-3}\ \mathrm{K/m}$, 곧 약 9.8 K/km. 2000 m에서 $20 - 19.5 = 0.5\ \mathrm{℃}$.
+(3) **예시 답안** 실제 공기에는 수증기가 있어, 올라가며 식다가 이슬점에 이르면 수증기가 응결하며 숨은열을 내놓는다. 이 열이 단열 냉각을 일부 상쇄하므로 습윤 공기의 감률은 약 5~6 K/km로 작다. 또 대기는 복사·혼합으로 열을 주고받아 엄밀한 단열이 아니다.
+
+**채점 포인트** ① $dq = 0$에서 $dH = V\,dp$ ② 정역학 평형을 넣어 $c_p\,dT = -g\,dz$ ③ 9.8 K/km 계산 ④ 응결 숨은열로 감률이 작아짐
+
+</details>
+
+**11. [생활 연계]** 탄산음료 병의 윗공간 기체(대부분 $\mathrm{CO_2}$, $\gamma = 1.29$, 이상 기체로 본다)가 10 ℃, 3.0 bar에 있다. 마개를 따면 기체가 1.0 bar로 빠르게 팽창하며 병목에 하얀 안개가 생긴다. (1) 가역 단열 팽창으로 본 나중 온도, (2) 외부 압력 1.0 bar에 맞선 비가역 단열 팽창으로 본 나중 온도를 구하고, (3) 안개가 생기는 까닭과 실제 온도가 두 값 중 어느 쪽에 가까울지 서술하시오.
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) 약 221 K (2) 약 241 K (3) 서술
+
+(1) $T_2 = 283.15\times(1.0/3.0)^{0.29/1.29} = 283.15\times0.781 = 221\ \mathrm{K}$
+(2) $C_{V,\mathrm{m}} = R/(\gamma - 1) = 3.45R$. $3.45R(T_2 - T_1) = -p_\text{외부}(V_2 - V_1) = -RT_2 + RT_1/3.0$에서 $T_2 = T_1\dfrac{3.45 + 0.333}{4.45} = 0.850T_1 = 241\ \mathrm{K}$
+(3) **예시 답안** 기체가 열을 받을 틈 없이 대기를 밀어내며 일을 하므로 내부 에너지가 줄어 급격히 식는다. 병목의 수증기(윗공간에 섞인 것과 주변 공기)가 이슬점 아래로 식어 작은 물방울이 되어 안개가 된다. 마개를 따는 순간의 팽창은 압력 차가 커서 비가역에 가까우므로, 실제 온도 하강은 (2)의 값 쪽에 가깝거나 그보다 작다(주변 공기와 섞이고 벽에서 열을 받으므로).
+
+**채점 포인트** ① 두 단열 계산 ② 일을 하며 내부 에너지 감소 → 냉각 ③ 수증기 응결 ④ 비가역에 가까움을 근거로 판단
+
+</details>
+
+**12. [공학 연계]** 가정용 냉장고에서는 압축·응축된 액체 냉매가 가는 모세관을 지나 증발기로 들어가며 크게 식는다. (1) 이 모세관 과정이 등엔탈피 과정인 까닭을 제1법칙으로 설명하시오. (2) 냉매가 이상 기체이고 모세관 뒤에서도 기체 상태로만 있다면 온도가 어떻게 될지 쓰고, 실제 냉매가 크게 식는 까닭을 두 가지 서술하시오.
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1)·(2) 서술
+
+(1) **예시 답안** 모세관은 짧은 시간에 지나가 열 출입이 거의 없고($q = 0$), 축이 돌아가는 장치가 없어 흐름을 밀어 넣는 일 $p_1V_1$과 밀어내는 일 $-p_2V_2$만 있다. $U_2 - U_1 = p_1V_1 - p_2V_2$이므로 $H_1 = H_2$이다(⑩과 같은 유도).
+(2) **예시 답안** 이상 기체라면 $H$가 온도만의 함수이므로 온도가 변하지 않는다. 실제 냉매가 크게 식는 까닭은 ① 분자 간 인력이 강해 줄–톰슨 계수가 큰 양수이고, ② 무엇보다 압력이 떨어지면서 액체의 일부가 증발하는데, 등엔탈피 조건에서 증발 엔탈피만큼의 에너지를 나머지 유체의 온도를 낮추어 충당하기 때문이다. 식은 냉매가 증발기에서 냉장고 안의 열을 흡수하며 마저 증발한다.
+
+**채점 포인트** ① $q = 0$, 흐름 일로 $H_1 = H_2$ ② 이상 기체는 온도 불변 ③ 분자 간 힘과 상변화(증발 엔탈피)로 냉각
+
+</details>
+
+### 실력 다지기
+
+**13.** 어떤 기체의 300 K 압축 인자를 측정하여 아래 그림의 자료를 얻었다(10 bar: 0.9950, 20 bar: 0.9900, 30 bar: 0.9851, 40 bar: 0.9801). (1) 제2 비리얼 계수 $B$($\mathrm{cm^3/mol}$)를 구하시오. (2) 이 기체를 $b = 0.0391\ \mathrm{L/mol}$인 판데르발스 기체로 보고 $a$와 보일 온도를 어림하시오.
+
+<!-- 그림 요청: 어떤 기체의 300 K 압축 인자 자료 그래프. 가로축 p(0~45 bar), 세로축 Z(0.975~1.002). 점 네 개 (10, 0.9950), (20, 0.9900), (30, 0.9851), (40, 0.9801)를 검은 원으로 찍고, p = 0, Z = 1에 빈 원. 추세선은 그리지 않는다. -->
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) 약 $-12.4\ \mathrm{cm^3/mol}$ (2) $a \approx 0.128\ \mathrm{Pa\cdot m^6/mol^2}$ (약 $1.27\ \mathrm{atm\cdot L^2/mol^2}$), $T_\mathrm{B} \approx 395\ \mathrm{K}$
+
+(1) 점들이 직선 위에 있고 기울기는 최소 제곱 맞춤으로 $-4.96\times10^{-4}\ \mathrm{bar^{-1}} = -4.96\times10^{-9}\ \mathrm{Pa^{-1}}$이다. 이것이 $B' = B/RT$이므로 $B = -4.96\times10^{-9}\times8.314\times300 = -1.24\times10^{-5}\ \mathrm{m^3/mol} = -12.4\ \mathrm{cm^3/mol}$.
+(2) $B = b - a/RT$에서 $a = (b - B)RT = (39.1 + 12.4)\times10^{-6}\times2494 = 0.128\ \mathrm{Pa\cdot m^6/mol^2}$. $T_\mathrm{B} = a/Rb = 0.128/(8.314\times3.91\times10^{-5}) = 395\ \mathrm{K}$. (질소와 비슷한 기체이다.)
+
+</details>
+
+**14.** 단원자 이상 기체 1.00 mol이 그림의 순환을 한다. A(300 K, 1.00 bar) → B: 일정 부피에서 압력이 2.00 bar가 될 때까지 가열 → C: 600 K에서 1.00 bar까지 가역 등온 팽창 → A: 1.00 bar에서 일정 압력으로 냉각. (1) 각 단계의 $q$, $w$, $\Delta U$를 구하시오. (2) 한 순환에서 계가 한 알짜 일과, 흡수한 열에 대한 비(효율)를 구하시오.
+
+<!-- 그림 요청: p–V 도표의 순환 A → B → C → A. 가로축 V(0~55 L), 세로축 p(0~2.5 bar). A(24.9 L, 1.00 bar), B(24.9 L, 2.00 bar), C(49.9 L, 1.00 bar). A→B 수직 위 화살표, B→C 등온 곡선(아래로 볼록)을 따라 오른쪽 아래 화살표, C→A 수평 왼쪽 화살표. 꼭짓점에 A, B, C만 표시하고 온도·일 값은 쓰지 않는다. -->
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) 아래 표 (2) 알짜 일 0.963 kJ, 효율 약 13 %
+
+| 단계 | $q$ (J) | $w$ (J) | $\Delta U$ (J) |
+|---|---|---|---|
+| A→B 정적 | $\tfrac{3}{2}R(300) = +3741$ | 0 | +3741 |
+| B→C 등온 | $R(600)\ln 2 = +3458$ | −3458 | 0 |
+| C→A 정압 | $\tfrac{5}{2}R(-300) = -6236$ | $-p\Delta V = +R(300) = +2494$ | −3741 |
+| 합 | +963 | −963 | 0 |
+
+(2) 계가 한 알짜 일 963 J(순환이 시계 방향이므로 양수). 흡수한 열은 A→B와 B→C의 $3741 + 3458 = 7199\ \mathrm{J}$이므로 효율 $= 963/7199 = 0.134$. 같은 최고·최저 온도(600 K, 300 K) 사이의 카르노 효율 50 %보다 훨씬 작다(다음 단원).
+
+</details>
+
+**15.** 298.15 K의 $\Delta_\mathrm{f}H^\circ(\mathrm{H_2O, l}) = -285.83\ \mathrm{kJ/mol}$에서 출발하여, 400 K의 반응 $\mathrm{H_2(g) + \tfrac{1}{2}O_2(g) \rightarrow H_2O(g)}$의 $\Delta_\mathrm{r}H^\circ$를 구하시오. ($C_{p,\mathrm{m}}$: $\mathrm{H_2}$ 28.82, $\mathrm{O_2}$ 29.36, $\mathrm{H_2O(l)}$ 75.29, $\mathrm{H_2O(g)}$ 33.58 J/(mol·K), 모두 일정. 373.15 K의 $\Delta_\text{vap}H = 40.66\ \mathrm{kJ/mol}$)
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** 약 $-243.1\ \mathrm{kJ/mol}$
+
+<!-- 그림 요청: 풀이용 엔탈피 순환 도표. 위쪽 400 K 줄: 'H₂ + ½O₂ (400 K)' → 'H₂O(g) (400 K)' 점선 화살표 '구하는 값'. 왼쪽 아래로 '① 반응물 400 → 298.15 K 냉각', 아래쪽 298.15 K 줄: '② 반응, H₂O(l) 생성 −285.83 kJ', 오른쪽 위로 차례로 '③ 물 298.15 → 373.15 K 가열', '④ 373.15 K 증발 +40.66 kJ', '⑤ 수증기 373.15 → 400 K 가열'. 각 화살표 옆에 단계 번호. -->
+
+상전이가 끼어 있으므로 순환을 다섯 단계로 나눈다.
+① 반응물 냉각: $(28.82 + 14.68)\times(298.15 - 400)\times10^{-3} = -4.43\ \mathrm{kJ}$
+② 298.15 K 반응: $-285.83\ \mathrm{kJ}$
+③ 물 가열: $75.29\times75.0\times10^{-3} = +5.65\ \mathrm{kJ}$
+④ 증발: $+40.66\ \mathrm{kJ}$
+⑤ 수증기 가열: $33.58\times26.85\times10^{-3} = +0.90\ \mathrm{kJ}$
+합: $-243.05 \approx -243.1\ \mathrm{kJ/mol}$. 정밀 자료의 값(약 $-242.8\ \mathrm{kJ/mol}$)과 0.1 % 안에서 맞는다. 키르히호프 법칙을 한 번에 쓰면 상전이를 빠뜨리게 된다.
+
+</details>
+
+**16.** 300 K, 1.00 bar의 $\mathrm{N_2}$ 1.00 mol(이상 기체, $C_{V,\mathrm{m}} = \tfrac{5}{2}R$)이 단열 실린더 안에서 일정한 외부 압력 10.0 bar에 의해 갑자기 압축되어 10.0 bar에서 평형에 이르렀다. (1) 나중 온도와 계가 받은 일을 구하시오. (2) 같은 압력까지 가역 단열 압축할 때와 비교하고, 차이가 생기는 까닭을 설명하시오.
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) 약 1071 K, $+16.0\ \mathrm{kJ}$ (2) 가역: 약 579 K, $+5.80\ \mathrm{kJ}$
+
+(1) $\tfrac{5}{2}R(T_2 - T_1) = -p_\text{외부}\left(\dfrac{RT_2}{p_\text{외부}} - \dfrac{RT_1}{p_1}\right) = -RT_2 + 10.0RT_1$
+$\Rightarrow 3.5T_2 = 12.5T_1$, $T_2 = 1071\ \mathrm{K}$, $w = \Delta U = \tfrac{5}{2}\times8.314\times771 = +16.0\ \mathrm{kJ}$
+(2) $T_2 = 300\times10^{0.4/1.4} = 579\ \mathrm{K}$, $w = \tfrac{5}{2}\times8.314\times279 = +5.80\ \mathrm{kJ}$
+비가역 압축에서는 외부 압력이 처음부터 나중 압력(10 bar)으로 기체를 밀므로, 매 순간 기체 압력에 맞춰 밀어 주는 가역 압축보다 훨씬 많은 일을 해 준다. 단열이므로 그 일이 모두 내부 에너지(온도)로 남는다. ④에서 본 '가역 압축이 가장 적은 일을 받는다'의 단열판이다.
+
+</details>
+
+### 도전
+
+**17. [유도·자료 해석]** (1) 판데르발스 식에서 $B = b - a/RT$, $T_\mathrm{B} = a/Rb$를 유도하고, ⑩의 결과와 묶어 낮은 압력의 역전 온도가 $T_\mathrm{I} = 2T_\mathrm{B}$임을 보이시오. (2) 다음 실측값(약)으로 $T_\mathrm{I}/T_\mathrm{B}$를 계산하시오: $\mathrm{N_2}$ ($T_\mathrm{B}$ 327 K, $T_\mathrm{I}$ 621 K), Ar (411 K, 723 K), He (23 K, 40 K). (3) 판데르발스 식의 예측과 실측의 차이에서 두 상수 $a$, $b$의 어떤 가정이 의심스러운지 하나 이상 서술하시오.
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) 유도 (2) 1.90, 1.76, 1.74 (3) 서술
+
+(1) $Z = \dfrac{1}{1 - b/V_\mathrm{m}} - \dfrac{a}{RTV_\mathrm{m}} = 1 + \left(b - \dfrac{a}{RT}\right)\dfrac{1}{V_\mathrm{m}} + \cdots$이므로 $B = b - a/RT$, $B(T_\mathrm{B}) = 0$에서 $T_\mathrm{B} = a/Rb$. ⑩에서 $\mu \propto 2a/RT - b$이므로 $\mu = 0$인 온도는 $T_\mathrm{I} = 2a/Rb = 2T_\mathrm{B}$.
+(2) $621/327 = 1.90$, $723/411 = 1.76$, $40/23 = 1.74$ — 2보다 조금 작지만 '역전 온도는 보일 온도의 약 2배'라는 예측은 의미 있게 맞는다.
+(3) **예시 답안** 판데르발스 식은 $a$와 $b$를 온도와 무관한 상수로 본다. 실제 분자의 반발은 단단한 구가 아니라 부드러워서, 온도가 높아 빠르게 부딪히는 분자일수록 더 가까이 파고든다. 그러면 유효 $b$가 고온에서 작아지고, $B(T)$와 $\mu$의 부호가 바뀌는 온도가 예측과 달라진다. 또 인력도 $1/V_\mathrm{m}^2$ 꼴의 평균장(분자들이 고르게 퍼져 있다는 가정)에서 벗어난다. 이런 가정을 분자 간 퍼텐셜로 바꾼 것이 STEP 5 맛보기 ①이다.
+
+**채점 포인트** ① 전개로 $B$ 유도 ② $\mu = 0$ 조건에서 $T_\mathrm{I} = 2T_\mathrm{B}$ ③ 비 계산 ④ $a$, $b$의 온도 무관 가정(단단한 구, 평균장)의 한계를 구체적으로 지적
+
+</details>
+
+**18. [오류 찾기]** 한 학생이 "298.15 K, 10.0 bar의 아르곤 1.00 mol이 단열 용기 안에서 외부 압력 1.00 bar에 맞서 한 번에 팽창한다"는 문제를 다음과 같이 풀었다. "$pV^\gamma$ = 일정이므로 $T_2 = 298.15\times0.100^{0.4} = 118.7\ \mathrm{K}$, 따라서 $w = C_V\Delta T = -2.24\ \mathrm{kJ}$." (1) 이 풀이의 답이 제1법칙과 모순됨을, 학생의 나중 상태로 $-p_\text{외부}\Delta V$를 계산하여 보이시오. (2) 오류의 원인을 쓰고 바른 답을 구하시오.
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) $-p_\text{외부}\Delta V = -0.739\ \mathrm{kJ} \ne C_V\Delta T = -2.24\ \mathrm{kJ}$ (2) 바른 답 약 191 K, $-1.34\ \mathrm{kJ}$
+
+(1) 학생의 나중 상태: $V_2 = RT_2/p_2 = 8.314\times118.7/10^5 = 9.87\ \mathrm{L}$, 처음 $V_1 = 2.48\ \mathrm{L}$. 이 팽창에서 외부 압력에 맞서 한 일은 $w = -p_\text{외부}\Delta V = -10^5\times7.39\times10^{-3} = -739\ \mathrm{J}$인데, 단열이면 $w = \Delta U = C_V\Delta T = -2238\ \mathrm{J}$이어야 한다. 같은 과정의 일이 두 값일 수 없으므로 모순이다.
+(2) $pV^\gamma$ = 일정은 $p_\text{외부} = p$인 **가역** 단열 과정에서만 유도된다. 비가역 과정에서는 처음·나중 상태 사이에 $C_V(T_2 - T_1) = -p_\text{외부}(V_2 - V_1)$을 풀어야 한다. 예제 10 (2)와 같이 $T_2 = 190.8\ \mathrm{K}$, $w = -1.34\ \mathrm{kJ}$. (확인: $V_2 = 15.86\ \mathrm{L}$, $-p_\text{외부}\Delta V = -1.34\ \mathrm{kJ}$로 두 값이 일치한다.)
+
+**채점 포인트** ① 학생의 나중 상태에서 $-p_\text{외부}\Delta V$를 계산해 $\Delta U$와 비교 ② $pV^\gamma$의 가역 조건 지적 ③ 제1법칙으로 바른 $T_2$ 계산 ④ 풀이를 스스로 검산
+
+</details>
+
+**19. [유도]** (1) 판데르발스 기체 1 mol에서 ⑦의 일반식 $C_{p,\mathrm{m}} - C_{V,\mathrm{m}} = (p + \pi_T)(\partial V_\mathrm{m}/\partial T)_p$와 $\pi_T = a/V_\mathrm{m}^2$을 써서
+
+$$
+C_{p,\mathrm{m}} - C_{V,\mathrm{m}} = \frac{R}{1 - \dfrac{2a(V_\mathrm{m} - b)^2}{RTV_\mathrm{m}^3}}
+$$
+
+임을 보이시오. (2) 300 K의 $\mathrm{CO_2}$($a = 0.364\ \mathrm{Pa\cdot m^6/mol^2}$, $b = 4.27\times10^{-5}\ \mathrm{m^3/mol}$)에서 $V_\mathrm{m} = 24.6\ \mathrm{L/mol}$(약 1 bar)과 $1.00\ \mathrm{L/mol}$(약 22 bar)일 때 값을 구하시오. (3) 분모가 0에 가까워지면 어떤 일이 일어나며, 그것이 어떤 상태에 해당하는지 쓰시오.
+
+<details>
+<summary>정답 및 해설</summary>
+
+**정답** (1) 유도 (2) $8.41$과 $11.3\ \mathrm{J/(mol\cdot K)}$ (3) 서술
+
+(1) $p + \pi_T = \dfrac{RT}{V_\mathrm{m} - b} - \dfrac{a}{V_\mathrm{m}^2} + \dfrac{a}{V_\mathrm{m}^2} = \dfrac{RT}{V_\mathrm{m} - b}$. 판데르발스 식을 일정 압력에서 미분하면 $0 = \dfrac{R\,dT}{V_\mathrm{m} - b} - \left[\dfrac{RT}{(V_\mathrm{m} - b)^2} - \dfrac{2a}{V_\mathrm{m}^3}\right]dV_\mathrm{m}$이므로
+$\left(\dfrac{\partial V_\mathrm{m}}{\partial T}\right)_p = \dfrac{R/(V_\mathrm{m} - b)}{RT/(V_\mathrm{m} - b)^2 - 2a/V_\mathrm{m}^3}$.
+곱하면 $\dfrac{R^2T/(V_\mathrm{m} - b)^2}{RT/(V_\mathrm{m} - b)^2 - 2a/V_\mathrm{m}^3} = \dfrac{R}{1 - 2a(V_\mathrm{m} - b)^2/(RTV_\mathrm{m}^3)}$. ($a = 0$이면 $R$로 돌아간다.)
+(2) $V_\mathrm{m} = 24.6\ \mathrm{L}$: 분모의 보정 항 $= 0.0118$, 값 $= 8.314/0.9882 = 8.41\ \mathrm{J/(mol\cdot K)}$ (이상 기체보다 1.2 % 큼)
+$V_\mathrm{m} = 1.00\ \mathrm{L}$: 보정 항 $= 0.267$, 값 $= 8.314/0.733 = 11.3\ \mathrm{J/(mol\cdot K)}$ (36 % 큼)
+(3) **예시 답안** 분모 $= 0$은 $RT/(V_\mathrm{m} - b)^2 = 2a/V_\mathrm{m}^3$, 곧 $(\partial p/\partial V_\mathrm{m})_T = 0$인 상태이다. 그러면 $(\partial V/\partial T)_p$와 $C_p$가 무한히 커진다. 이 조건은 임계점(그리고 판데르발스 고리의 극대·극소)에 해당하며, 실제로 임계점 근처에서 $C_p$와 압축률이 매우 커지는 현상이 관찰된다.
+
+**채점 포인트** ① $p + \pi_T = RT/(V_\mathrm{m} - b)$ ② 음함수 미분으로 $(\partial V_\mathrm{m}/\partial T)_p$ ③ 두 조건의 수치 계산 ④ 분모 0 ↔ $(\partial p/\partial V)_T = 0$ ↔ 임계점 연결
+
+</details>
+
+---
+
+## 📝 한눈에 정리
+
+### 핵심 요약
+
+- 실제 기체는 **압축 인자** $Z = pV_\mathrm{m}/RT$로 이상 기체에서의 벗어남을 잰다. **비리얼 식** $Z = 1 + B/V_\mathrm{m} + \cdots$의 $B(T)$는 저온에서 음수(인력), 고온에서 양수(반발)이며 $B = 0$인 온도가 **보일 온도**이다.
+- **판데르발스 식** $p = RT/(V_\mathrm{m} - b) - a/V_\mathrm{m}^2$에서 $V_\mathrm{c} = 3b$, $T_\mathrm{c} = 8a/27Rb$, $p_\mathrm{c} = a/27b^2$, $Z_\mathrm{c} = 3/8$, $B = b - a/RT$가 나온다. 환산 변수로 쓰면 물질 상수가 사라진다(**대응 상태의 원리**).
+- **제1법칙** $dU = dq + dw$: $U$는 상태 함수(완전 미분), $q$와 $w$는 경로 함수(불완전 미분)이다. 이상 기체의 $U$는 온도만의 함수이다.
+- 팽창 일 $w = -\int p_\text{외부}\,dV$. 자유 팽창 0, 일정 외부 압력 $-p_\text{외부}\Delta V$, 가역 등온 $-nRT\ln(V_2/V_1)$. 가역 팽창이 최대 일을 한다.
+- **엔탈피** $H = U + pV$, 일정 압력에서 $\Delta H = q_p$. $C_V = (\partial U/\partial T)_V$, $C_p = (\partial H/\partial T)_p$, 넓은 온도 범위에서는 $C_{p,\mathrm{m}} = a + bT + c/T^2$를 적분한다.
+- $dU = C_V\,dT + \pi_T\,dV$. **내부 압력** $\pi_T = (\partial U/\partial V)_T$는 이상 기체 0, 판데르발스 기체 $a/V_\mathrm{m}^2$이다.
+- $C_p - C_V = (p + \pi_T)(\partial V/\partial T)_p = \alpha^2TV/\kappa_T$, 이상 기체는 $nR$이다.
+- 가역 단열: $TV^{\gamma-1}$, $pV^\gamma$ = 일정, $w = C_V\Delta T$. 비가역 단열은 $nC_{V,\mathrm{m}}\Delta T = -p_\text{외부}\Delta V$로 푼다.
+- **줄–톰슨 팽창**은 등엔탈피 과정이며 $\mu = (\partial T/\partial p)_H = -(\partial H/\partial p)_T/C_p \approx (2a/RT - b)/C_{p,\mathrm{m}}$. $T < T_\mathrm{I} = 2a/Rb$이면 팽창으로 식는다.
+- 통 열량계는 $\Delta U$를 재며 $\Delta H = \Delta U + \Delta n_\text{기체}RT$로 바꾼다. **키르히호프 법칙** $d\Delta_\mathrm{r}H^\circ/dT = \Delta_\mathrm{r}C_p^\circ$로 다른 온도의 반응 엔탈피를 구한다(상전이는 따로 더한다).
+
+| 주요 식 | 쓰임 |
+|---|---|
+| $Z = 1 + B/V_\mathrm{m} + C/V_\mathrm{m}^2 + \cdots$, $B' = B/RT$ | 비리얼 상태 방정식 |
+| $p = RT/(V_\mathrm{m} - b) - a/V_\mathrm{m}^2$ | 판데르발스 식 |
+| $V_\mathrm{c} = 3b$, $T_\mathrm{c} = 8a/27Rb$, $p_\mathrm{c} = a/27b^2$ | 판데르발스 임계 상수 |
+| $dU = dq + dw$, $dw = -p_\text{외부}\,dV$ | 제1법칙, 팽창 일 |
+| $w_\text{가역} = -nRT\ln(V_2/V_1)$ | 이상 기체 가역 등온 일 |
+| $H = U + pV$, $\Delta H = q_p$ | 엔탈피 |
+| $dU = C_V\,dT + \pi_T\,dV$, $dH = C_p\,dT - \mu C_p\,dp$ | 상태 함수의 전미분 |
+| $C_p - C_V = (p + \pi_T)\alpha V = \alpha^2TV/\kappa_T$ | 열용량 관계 |
+| $pV^\gamma$ = 일정, $TV^{\gamma-1}$ = 일정 | 이상 기체 가역 단열 |
+| $\mu = (\partial T/\partial p)_H \approx (2a/RT - b)/C_{p,\mathrm{m}}$ | 줄–톰슨 계수 |
+| $\Delta_\mathrm{r}H^\circ(T_2) = \Delta_\mathrm{r}H^\circ(T_1) + \int\Delta_\mathrm{r}C_p^\circ\,dT$ | 키르히호프 법칙 |
+
+### 핵심 용어
+
+| 용어 | 뜻 |
+|---|---|
+| 압축 인자(compressibility factor) | $Z = pV_\mathrm{m}/RT$, 실제 기체가 이상 기체에서 벗어난 정도 |
+| 비리얼 계수(virial coefficient) | $Z$를 $1/V_\mathrm{m}$의 급수로 쓸 때의 계수 $B(T)$, $C(T)$. 분자 쌍·세 분자의 상호작용을 반영 |
+| 보일 온도(Boyle temperature) | 제2 비리얼 계수가 0이 되는 온도 |
+| 임계점(critical point) | 기체와 액체의 구별이 사라지는 점. 등온선이 수평한 변곡점 |
+| 대응 상태의 원리 | 같은 환산 온도·환산 압력의 기체는 비슷한 $Z$를 가진다는 원리 |
+| 열역학 제1법칙 | $dU = dq + dw$. 고립계의 내부 에너지는 일정하다 |
+| 가역 과정(reversible process) | 매 순간 평형에 무한히 가까워 미소한 변화로 방향이 뒤집히는 과정 |
+| 엔탈피(enthalpy) | $H = U + pV$. 일정 압력에서 변화량이 열과 같은 상태 함수 |
+| 정적·정압 열용량 | $C_V = (\partial U/\partial T)_V$, $C_p = (\partial H/\partial T)_p$ |
+| 완전 미분(exact differential) | 어떤 함수의 전미분. 적분이 경로와 무관하고 순환 적분이 0 |
+| 내부 압력(internal pressure) | $\pi_T = (\partial U/\partial V)_T$. 등온 부피 변화에 따른 분자 간 퍼텐셜 에너지 변화 |
+| 단열 과정(adiabatic process) | 열 출입이 없는 과정. $dU = dw$ |
+| 줄–톰슨 계수 | $\mu = (\partial T/\partial p)_H$. 등엔탈피 팽창에서의 온도 변화율 |
+| 역전 온도(inversion temperature) | 줄–톰슨 계수의 부호가 바뀌는 온도 |
+| 키르히호프 법칙(Kirchhoff's law) | 반응 엔탈피의 온도 변화율은 반응 열용량 $\Delta_\mathrm{r}C_p^\circ$와 같다 |
+
+### 다음 단원으로
+
+제1법칙은 에너지가 보존된다는 것만 말할 뿐, 변화가 **어느 방향으로** 일어나는지는 말하지 않는다. 예제 10에서 같은 처음 상태의 단열 팽창이 가역이냐 비가역이냐에 따라 서로 다른 나중 상태에 도착했고, 예제 8에서는 열 $dq_\text{가역}$이 불완전 미분이지만 $dq_\text{가역}/T$는 순환 적분이 0인 완전 미분이었다. 다음 단원 「열역학 제2·3법칙과 엔트로피」에서는 이 새 상태 함수를 **엔트로피**로 정의하고, 카르노 순환과 클라우지우스 부등식으로 자발적 변화의 방향을 정한다. 이 단원에서 익힌 편미분의 언어와 $C_V$, $C_p$, $\pi_T$는 엔트로피 계산에 그대로 쓰인다.
