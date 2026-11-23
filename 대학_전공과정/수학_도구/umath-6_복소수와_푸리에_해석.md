@@ -1572,3 +1572,58 @@ $$
 **채점 포인트** ① 이동 벡터가 위상 인자 $e^{i\pi h}$가 됨 ② 면심 격자 인자 4 또는 0 ③ 세기 비 계산 ④ 산란 능력이 같으면 홀수 반사가 사라짐을 근거로 한 해석
 
 </details>
+
+---
+
+## 📝 한눈에 정리
+
+### 핵심 요약
+
+- 복소수 $z = x + iy = re^{i\theta}$는 복소 평면의 화살표이다. 덧셈은 직교 꼴, 곱셈·나눗셈·거듭제곱은 극형식이 편하며, 곱하면 크기는 곱해지고 각은 더해진다. $\lvert z\rvert^2 = zz^*$.
+- **오일러 공식** $e^{i\theta} = \cos\theta + i\sin\theta$는 테일러 급수에서 나온다. $\cos\theta = (e^{i\theta} + e^{-i\theta})/2$, 드무아브르 정리, 1의 $n$제곱근 $e^{2\pi ik/n}$(합은 0)이 따라 나오며, 고리형 휘켈 오비탈 $E_k = \alpha + 2\beta\cos(2\pi k/n)$을 준다.
+- 진동은 $x = \mathrm{Re}[\tilde{X}e^{i\omega t}]$로 쓴다. 미분은 $i\omega$ 곱하기가 되어 강제 진동은 $\tilde{X} = (F_0/m)/(\omega_0^2 - \omega^2 + i\gamma\omega)$, 회로는 임피던스 $R$, $i\omega L$, $1/(i\omega C)$로 푼다. 곱(전력)은 $\frac{1}{2}\mathrm{Re}[\tilde{A}\tilde{B}^*]$.
+- 파동은 $\mathrm{Re}[\tilde{A}e^{i(kx - \omega t)}]$. 중첩은 위상자의 합, 세기는 $\lvert\tilde{A}\rvert^2$, 복소 굴절률 $n + i\kappa$의 허수부는 흡수 $\alpha = 4\pi\kappa/\lambda_0$를 준다.
+- **푸리에 급수**: 주기 함수 = 배음의 합. 계수는 직교성으로 $c_n = \frac{1}{2L}\int f e^{-in\pi x/L}dx$. 불연속은 $1/n$로 느리게 줄어드는 계수와 깁스 현상을 만들고, 파스발 정리는 파워를 성분별로 나눈다.
+- **푸리에 변환** $F(\omega) = \int f e^{-i\omega t}dt$: 사각 펄스 ↔ sinc, 가우스 ↔ 가우스, 지수 감쇠 ↔ 로렌츠(반치 전폭 $1/\pi T_2$). 이동은 위상, 미분은 $i\omega$, 합성곱은 곱이 된다.
+- **불확정 관계** $\Delta t\,\Delta\omega \ge 1/2$, $\Delta x\,\Delta k \ge 1/2$ (가우스에서 등호)는 파동의 성질이며, $p = \hbar k$로 $\Delta x\,\Delta p \ge \hbar/2$가 된다. 수명이 짧을수록 선이 넓다.
+- **표본화**: 간격 $\Delta t$가 범위($\nu_\text{N} = 1/2\Delta t$, 넘으면 겹침), 기록 시간이 분해능($1/T_\text{acq}$)을 정한다. 0 채우기는 보간일 뿐이고, FFT는 계산량을 $N^2$에서 $N\log_2N$으로 줄인다.
+- **FT-NMR**은 FID(시간)를, **FT-IR**은 인터페로그램(광 경로차)을 푸리에 변환한다. 봉우리 넓이는 양에, 너비는 $T_2^*$에 대응하고, FT-IR 분해능은 약 $1/\delta_\text{max}$이며 다중화·처리량 이점이 있다.
+- **회절** 진폭은 투과 함수(결정에서는 전자 밀도)의 푸리에 변환이다. 구조 인자 $F_{hkl} = \sum f_je^{2\pi i(hx_j + ky_j + lz_j)}$가 계통 소멸을 설명하며, 세기만 측정되므로 위상 문제가 생긴다.
+
+| 주요 식 | 쓰임 |
+|---|---|
+| $z = re^{i\theta}$, $e^{i\theta} = \cos\theta + i\sin\theta$ | 극형식, 오일러 공식 |
+| $z^n = 1 \Rightarrow z_k = e^{2\pi ik/n}$, $\sum_je^{2\pi ijk/n} = 0$ | 1의 거듭제곱근, 고리형 휘켈, DFT·격자의 합 |
+| $\tilde{X} = \dfrac{F_0/m}{\omega_0^2 - \omega^2 + i\gamma\omega}$, $Q = \omega_0/\gamma$ | 강제 감쇠 진동, 공명 |
+| $\tilde{Z} = R + i(\omega L - 1/\omega C)$, $\langle P\rangle = \frac{1}{2}\mathrm{Re}[\tilde{V}\tilde{I}^*]$ | 교류 회로 |
+| $I = I_0e^{-\alpha x}$, $\alpha = 4\pi\kappa/\lambda_0$ | 복소 굴절률과 흡수 |
+| $c_n = \dfrac{1}{2L}\displaystyle\int_{-L}^{L}f e^{-in\pi x/L}dx$, $\dfrac{1}{2L}\displaystyle\int\lvert f\rvert^2 = \sum\lvert c_n\rvert^2$ | 푸리에 급수, 파스발 |
+| $F(\omega) = \displaystyle\int fe^{-i\omega t}dt$, $f = \dfrac{1}{2\pi}\displaystyle\int Fe^{i\omega t}d\omega$ | 푸리에 변환 |
+| $\Delta t\,\Delta\omega \ge \frac{1}{2}$, $\Delta x\,\Delta p \ge \frac{\hbar}{2}$, 로렌츠 $\Delta\nu = 1/\pi T_2$ | 불확정 관계, 선 너비 |
+| $\nu_\text{N} = 1/2\Delta t$, $\delta\nu = 1/T_\text{acq}$, $\Delta\tilde{\nu} \approx 1/\delta_\text{max}$ | 표본화, FT 분광기 |
+| $F_{hkl} = \sum_jf_je^{2\pi i(hx_j + ky_j + lz_j)}$, $I \propto \lvert F\rvert^2$ | X선 회절 |
+
+### 핵심 용어
+
+| 용어 | 뜻 |
+|---|---|
+| 복소 평면(complex plane) | 실수부를 가로축, 허수부를 세로축으로 하여 복소수를 점(화살표)으로 나타낸 평면 |
+| 극형식(polar form) | 복소수를 크기 $r$와 편각 $\theta$로 $re^{i\theta}$처럼 나타낸 꼴 |
+| 오일러 공식(Euler's formula) | $e^{i\theta} = \cos\theta + i\sin\theta$ |
+| 위상자(phasor) | 진동 $\mathrm{Re}[\tilde{X}e^{i\omega t}]$의 진폭과 위상을 담은 복소 진폭 $\tilde{X}$ |
+| 임피던스(impedance) | 교류에서 전압 위상자와 전류 위상자의 비, 복소수 |
+| 품질 인자(quality factor) | $Q = \omega_0/\gamma$, 공명의 날카로움과 감쇠의 느림을 나타내는 수 |
+| 로렌츠 함수(Lorentzian) | $1/[(\omega - \omega_0)^2 + (\Gamma/2)^2]$ 꼴의 봉우리, 지수 감쇠 진동의 스펙트럼 |
+| 복소 굴절률 | $n + i\kappa$, 실수부는 굴절, 허수부(소광 계수)는 흡수를 나타낸다 |
+| 푸리에 급수(Fourier series) | 주기 함수를 기본 진동수의 정수배 진동들의 합으로 나타낸 것 |
+| 깁스 현상(Gibbs phenomenon) | 불연속점 근처에서 푸리에 부분합이 약 9 % 넘쳐 솟는 현상 |
+| 파스발 정리 | 신호의 전체 파워가 각 푸리에 성분의 파워의 합과 같다는 정리 |
+| 푸리에 변환(Fourier transform) | 비주기 신호를 연속적인 진동수 성분 $F(\omega)$로 나타내는 변환 |
+| 합성곱 정리 | 한 영역의 합성곱이 다른 영역에서 곱이 된다는 성질 |
+| 불확정 관계 | 신호의 시간(위치) 폭과 진동수(파수) 폭의 곱이 $1/2$보다 작을 수 없다는 관계 |
+| 나이퀴스트 진동수 | 표본화 간격 $\Delta t$로 겹침 없이 볼 수 있는 최대 진동수 $1/(2\Delta t)$ |
+| 구조 인자(structure factor) | 단위 세포 안 원자들의 산란 위상자의 합 $F_{hkl}$, 회절 세기는 $\lvert F_{hkl}\rvert^2$ |
+
+### 다음 단원으로
+
+이 단원에서 신호를 '진동수 성분의 합'으로 보는 눈을 얻었다. 측정한 스펙트럼의 잡음, 여러 번 평균할 때 $\sqrt{n}$배 좋아지는 신호 대 잡음비, 가우스 모양의 폭은 모두 **확률과 통계**의 언어로 정확하게 말할 수 있다. 다음 단원 「확률과 통계」에서는 분포와 평균·분산, 볼츠만 분포, 측정의 불확도와 오차 전파를 다룬다. 그리고 물리화학 「양자역학의 기초」에서는 이 단원의 평면파 $e^{i(kx - \omega t)}$, 파동 묶음, $\Delta x\,\Delta p \ge \hbar/2$가 슈뢰딩거 방정식과 파동 함수의 해석으로 이어진다. 그때 복소수는 계산의 편의가 아니라 자연을 기술하는 데 꼭 필요한 언어가 된다.
