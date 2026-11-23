@@ -27,7 +27,8 @@
   <line x1="290.0" y1="242.0" x2="256.0" y2="242.0" style="stroke:var(--fig-red);stroke-width:2.4;stroke-linecap:round"/>
   <polygon points="256.0,242.0 265.2,238.1 265.2,245.9" style="fill:var(--fig-red);stroke:none"/>
   <polygon points="290.0,242.0 280.8,245.9 280.8,238.1" style="fill:var(--fig-red);stroke:none"/>
-  <text x="294.0" y="230.0" text-anchor="start" class="pchem-3-spontaneity-conditions-s" style="fill:var(--fig-red)">열 dq</text>
+  <rect x="254.8" y="216.0" width="38.4" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
+  <text x="274.0" y="228.0" text-anchor="middle" class="pchem-3-spontaneity-conditions-s" style="fill:var(--fig-red)">열 dq</text>
   <text x="190.0" y="374.0" text-anchor="middle" class="pchem-3-spontaneity-conditions-b" style="fill:var(--fig-accent)">일정 T, V  →  dA ≤ 0</text>
   <rect x="380.0" y="150.0" width="300.0" height="190.0" rx="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
   <path d="M390.0,180.0 Q395.5,177.0 401.0,180.0 T412.0,180.0 Q417.5,177.0 423.0,180.0 T434.0,180.0 Q439.5,177.0 445.0,180.0 T456.0,180.0 Q461.5,177.0 467.0,180.0 T460.0,180.0" style="fill:none;stroke:var(--fig-blue);stroke-width:1;stroke-linejoin:round;stroke-linecap:round"/>
@@ -41,7 +42,7 @@
   <path d="M390.0,316.0 Q395.5,313.0 401.0,316.0 T412.0,316.0 Q417.5,313.0 423.0,316.0 T434.0,316.0 Q439.5,313.0 445.0,316.0 T456.0,316.0 Q461.5,313.0 467.0,316.0 T460.0,316.0" style="fill:none;stroke:var(--fig-blue);stroke-width:1;stroke-linejoin:round;stroke-linecap:round"/>
   <path d="M600.0,316.0 Q605.5,313.0 611.0,316.0 T622.0,316.0 Q627.5,313.0 633.0,316.0 T644.0,316.0 Q649.5,313.0 655.0,316.0 T666.0,316.0 Q671.5,313.0 677.0,316.0 T670.0,316.0" style="fill:none;stroke:var(--fig-blue);stroke-width:1;stroke-linejoin:round;stroke-linecap:round"/>
   <text x="388.0" y="332.0" text-anchor="start" class="pchem-3-spontaneity-conditions-s" style="fill:var(--fig-blue)">항온조 (온도 T)</text>
-  <rect x="475.0" y="170.0" width="110.0" height="130.0" rx="0" style="fill:var(--fig-panel);stroke:none"/>
+  <rect x="475.0" y="151.0" width="110.0" height="149.0" rx="0" style="fill:var(--fig-panel);stroke:none"/>
   <line x1="475.0" y1="110.0" x2="475.0" y2="300.0" style="stroke:var(--fig-muted);stroke-width:5;stroke-linecap:round"/>
   <line x1="585.0" y1="110.0" x2="585.0" y2="300.0" style="stroke:var(--fig-muted);stroke-width:5;stroke-linecap:round"/>
   <line x1="475.0" y1="300.0" x2="585.0" y2="300.0" style="stroke:var(--fig-muted);stroke-width:5;stroke-linecap:round"/>
@@ -55,9 +56,10 @@
   <polygon points="611.0,168.0 614.5,176.3 607.5,176.3" style="fill:var(--fig-green);stroke:none"/>
   <polygon points="611.0,218.0 607.5,209.7 614.5,209.7" style="fill:var(--fig-green);stroke:none"/>
   <text x="619.0" y="196.0" text-anchor="start" class="pchem-3-spontaneity-conditions-s" style="fill:var(--fig-green)">dV</text>
-  <line x1="655.0" y1="260.0" x2="593.0" y2="260.0" style="stroke:var(--fig-red);stroke-width:2.4;stroke-linecap:round"/>
-  <polygon points="593.0,260.0 602.2,256.1 602.2,263.9" style="fill:var(--fig-red);stroke:none"/>
-  <polygon points="655.0,260.0 645.8,263.9 645.8,256.1" style="fill:var(--fig-red);stroke:none"/>
-  <text x="625.0" y="250.0" text-anchor="middle" class="pchem-3-spontaneity-conditions-s" style="fill:var(--fig-red)">열 dq</text>
+  <line x1="655.0" y1="268.0" x2="593.0" y2="268.0" style="stroke:var(--fig-red);stroke-width:2.4;stroke-linecap:round"/>
+  <polygon points="593.0,268.0 602.2,264.1 602.2,271.9" style="fill:var(--fig-red);stroke:none"/>
+  <polygon points="655.0,268.0 645.8,271.9 645.8,264.1" style="fill:var(--fig-red);stroke:none"/>
+  <rect x="605.8" y="242.0" width="38.4" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
+  <text x="625.0" y="254.0" text-anchor="middle" class="pchem-3-spontaneity-conditions-s" style="fill:var(--fig-red)">열 dq</text>
   <text x="530.0" y="374.0" text-anchor="middle" class="pchem-3-spontaneity-conditions-b" style="fill:var(--fig-accent)">일정 T, p  →  dG ≤ 0</text>
 </svg>

@@ -118,8 +118,8 @@ Sims.register('mj-spherical-harmonics', {
           for (var kk = 0; kk < am; kk++) {
             // cos mφ = 0 → φ = (2k+1)π/2m,  sin mφ = 0 → φ = kπ/m
             var phn = st.m > 0 ? (2 * kk + 1) * Math.PI / (2 * am) : kk * Math.PI / am;
-            var ex = Math.cos(phn) * Rn, ey = Math.sin(phn) * Rn;
-            g.poly([P(ex, ey, Rn), P(-ex, -ey, Rn), P(-ex, -ey, -Rn), P(ex, ey, -Rn)], T.figLine, { alpha: 0.18, stroke: T.figMuted, strokeWidth: 1 });
+            var ex = Math.cos(phn) * 2.3, ey = Math.sin(phn) * 2.3, hz = 1.9;
+            g.poly([P(ex, ey, hz), P(-ex, -ey, hz), P(-ex, -ey, -hz), P(ex, ey, -hz)], T.figLine, { alpha: 0.12, stroke: T.figMuted, strokeWidth: 1 });
           }
         }
       },

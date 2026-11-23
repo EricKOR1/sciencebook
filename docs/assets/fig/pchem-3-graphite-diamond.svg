@@ -51,12 +51,16 @@
   <circle cx="446.8" cy="154.0" r="5.5" style="fill:var(--fig-red);stroke:none"/>
   <rect x="453.8" y="294.6" width="160.3" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
   <text x="456.8" y="306.6" text-anchor="start" class="pchem-3-graphite-diamond-s" style="fill:var(--fig-red)">평형 압력 약 1.5×10⁴ bar</text>
-  <text x="675.2" y="33.3" text-anchor="end" class="pchem-3-graphite-diamond-s">흑연 (기울기 5.315 cm³/mol)  13.3</text>
-  <text x="675.2" y="104.8" text-anchor="end" class="pchem-3-graphite-diamond-s" style="fill:var(--fig-violet)">다이아몬드 (기울기 3.417 cm³/mol)  11.4</text>
+  <rect x="263.0" y="248.6" width="175.4" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
+  <text x="266.0" y="260.6" text-anchor="start" class="pchem-3-graphite-diamond-s">흑연: 기울기 5.315 cm³/mol</text>
+  <rect x="44.6" y="186.9" width="214.4" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
+  <text x="256.0" y="198.9" text-anchor="end" class="pchem-3-graphite-diamond-s" style="fill:var(--fig-violet)">다이아몬드: 기울기 3.417 cm³/mol</text>
+  <text x="674.0" y="45.3" text-anchor="end" class="pchem-3-graphite-diamond-s">13.3</text>
+  <text x="674.0" y="100.8" text-anchor="end" class="pchem-3-graphite-diamond-s" style="fill:var(--fig-violet)">11.4</text>
   <text x="84.8" y="257.9" text-anchor="start" class="pchem-3-graphite-diamond-s" style="fill:var(--fig-violet)">2.900</text>
   <text x="263.4" y="60.1" text-anchor="middle" class="pchem-3-graphite-diamond-b" style="fill:var(--fig-green)">흑연 안정</text>
   <text x="263.4" y="78.1" text-anchor="middle" class="pchem-3-graphite-diamond-s">(흑연의 G가 낮다)</text>
-  <text x="563.4" y="60.1" text-anchor="middle" class="pchem-3-graphite-diamond-b" style="fill:var(--fig-violet)">다이아몬드 안정</text>
-  <text x="563.4" y="78.1" text-anchor="middle" class="pchem-3-graphite-diamond-s">(다이아몬드의 G가 낮다)</text>
+  <text x="583.4" y="231.6" text-anchor="middle" class="pchem-3-graphite-diamond-b" style="fill:var(--fig-violet)">다이아몬드 안정</text>
+  <text x="583.4" y="249.6" text-anchor="middle" class="pchem-3-graphite-diamond-s">(다이아몬드의 G가 낮다)</text>
   <text x="380.0" y="380.0" text-anchor="middle" class="pchem-3-graphite-diamond-s">1 cm³/mol × 10⁴ bar = 1 kJ/mol, 두 고체는 압축되지 않는다고 보았다</text>
 </svg>

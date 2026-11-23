@@ -43,11 +43,11 @@
   <circle cx="370.8" cy="211.9" r="6.5" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.4"/>
   <text x="42.0" y="84.0" text-anchor="start" class="pchem-3-chemical-potential-flow-i" style="font-size:18px;font-weight:600">α</text>
   <text x="438.0" y="84.0" text-anchor="end" class="pchem-3-chemical-potential-flow-i" style="font-size:18px;font-weight:600">β</text>
-  <text x="240.0" y="48.0" text-anchor="middle" class="pchem-3-chemical-potential-flow-b">μ<tspan dy="4" font-size="11">i</tspan><tspan dx="-3" dy="-11" font-size="11">α</tspan><tspan dy="7"> </tspan> > μ<tspan dy="4" font-size="11">i</tspan><tspan dx="-3" dy="-11" font-size="11">β</tspan><tspan dy="7"> </tspan></text>
+  <text x="240.0" y="48.0" text-anchor="middle" class="pchem-3-chemical-potential-flow-b">μ<tspan baseline-shift="sub" font-size="11">i</tspan><tspan baseline-shift="super" font-size="11" dx="-3">α</tspan> > μ<tspan baseline-shift="sub" font-size="11">i</tspan><tspan baseline-shift="super" font-size="11" dx="-3">β</tspan></text>
   <rect x="188.0" y="138.0" width="82.0" height="18.0" rx="2" style="fill:var(--fig-red);stroke:none"/>
   <polygon points="270.0,129.0 296.0,147.0 270.0,165.0" style="fill:var(--fig-red);stroke:none"/>
   <rect x="140.8" y="241.0" width="266.4" height="19.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
-  <text x="274.0" y="254.0" text-anchor="middle" class="pchem-3-chemical-potential-flow-t">dn > 0,  dG = (μ<tspan dy="4" font-size="11">i</tspan><tspan dx="-3" dy="-11" font-size="11">β</tspan><tspan dy="7"> </tspan> − μ<tspan dy="4" font-size="11">i</tspan><tspan dx="-3" dy="-11" font-size="11">α</tspan><tspan dy="7"> </tspan>) dn &lt; 0</text>
+  <text x="274.0" y="254.0" text-anchor="middle" class="pchem-3-chemical-potential-flow-t">dn > 0,  dG = (μ<tspan baseline-shift="sub" font-size="11">i</tspan><tspan baseline-shift="super" font-size="11" dx="-3">β</tspan> − μ<tspan baseline-shift="sub" font-size="11">i</tspan><tspan baseline-shift="super" font-size="11" dx="-3">α</tspan>) dn &lt; 0</text>
   <text x="240.0" y="274.0" text-anchor="middle" class="pchem-3-chemical-potential-flow-s">칸막이(점선): 성분 i만 지나간다</text>
   <line x1="240.0" y1="282.0" x2="240.0" y2="300.0" style="stroke:var(--fig-muted);stroke-width:1.6;stroke-linecap:round"/>
   <polygon points="240.0,300.0 236.9,292.6 243.1,292.6" style="fill:var(--fig-muted);stroke:none"/>
@@ -90,7 +90,7 @@
   <circle cx="280.4" cy="368.2" r="5.5" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.3"/>
   <circle cx="372.8" cy="355.3" r="5.5" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.3"/>
   <circle cx="329.7" cy="387.6" r="5.5" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.3"/>
-  <text x="240.0" y="452.0" text-anchor="middle" class="pchem-3-chemical-potential-flow-b" style="fill:var(--fig-green)">μ<tspan dy="4" font-size="11">i</tspan><tspan dx="-3" dy="-11" font-size="11">α</tspan><tspan dy="7"> </tspan> = μ<tspan dy="4" font-size="11">i</tspan><tspan dx="-3" dy="-11" font-size="11">β</tspan><tspan dy="7"> </tspan> : 평형</text>
+  <text x="240.0" y="452.0" text-anchor="middle" class="pchem-3-chemical-potential-flow-b" style="fill:var(--fig-green)">μ<tspan baseline-shift="sub" font-size="11">i</tspan><tspan baseline-shift="super" font-size="11" dx="-3">α</tspan> = μ<tspan baseline-shift="sub" font-size="11">i</tspan><tspan baseline-shift="super" font-size="11" dx="-3">β</tspan> : 평형</text>
   <text x="595.0" y="48.0" text-anchor="middle" class="pchem-3-chemical-potential-flow-s">같은 구조의 비유</text>
   <rect x="490.0" y="62.0" width="82.0" height="70.0" rx="4" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
   <rect x="618.0" y="62.0" width="82.0" height="70.0" rx="4" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>

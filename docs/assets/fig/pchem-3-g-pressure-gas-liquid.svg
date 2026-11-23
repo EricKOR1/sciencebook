@@ -75,11 +75,12 @@
   <rect x="163.0" y="178.8" width="280.0" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
   <text x="166.0" y="190.8" text-anchor="start" class="pchem-3-g-pressure-gas-liquid-s">p = 100 bar: 기울기 = V<tspan baseline-shift="sub" font-size="10">m</tspan> = RT/p = 248 cm³/mol</text>
   <circle cx="440.0" cy="311.8" r="5.0" style="fill:var(--fig-ink);stroke:none"/>
-  <rect x="407.0" y="285.8" width="247.8" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
-  <text x="410.0" y="297.8" text-anchor="start" class="pchem-3-g-pressure-gas-liquid-s">기울기 = V<tspan baseline-shift="sub" font-size="10">m</tspan> = 18.07 cm³/mol (거의 일정)</text>
+  <line x1="440.0" y1="305.8" x2="380.0" y2="277.8" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
+  <rect x="317.0" y="259.8" width="247.8" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
+  <text x="320.0" y="271.8" text-anchor="start" class="pchem-3-g-pressure-gas-liquid-s">기울기 = V<tspan baseline-shift="sub" font-size="10">m</tspan> = 18.07 cm³/mol (거의 일정)</text>
   <text x="416.0" y="80.7" text-anchor="middle" class="pchem-3-g-pressure-gas-liquid-b" style="fill:var(--fig-red)">이상 기체: RT ln(p/1 bar)</text>
   <text x="674.0" y="93.2" text-anchor="end" class="pchem-3-g-pressure-gas-liquid-s" style="fill:var(--fig-red)">17.1</text>
-  <text x="596.0" y="322.9" text-anchor="middle" class="pchem-3-g-pressure-gas-liquid-b" style="fill:var(--fig-blue)">액체 물: V<tspan baseline-shift="sub" font-size="10">m</tspan>(p − 1)</text>
+  <text x="560.0" y="292.3" text-anchor="middle" class="pchem-3-g-pressure-gas-liquid-b" style="fill:var(--fig-blue)">액체 물: V<tspan baseline-shift="sub" font-size="10">m</tspan>(p − 1)</text>
   <text x="674.0" y="292.9" text-anchor="end" class="pchem-3-g-pressure-gas-liquid-s" style="fill:var(--fig-blue)">1.8</text>
   <text x="380.0" y="380.0" text-anchor="middle" class="pchem-3-g-pressure-gas-liquid-s">1 cm³/mol = 10⁻⁴ kJ/(mol·bar)</text>
 </svg>
