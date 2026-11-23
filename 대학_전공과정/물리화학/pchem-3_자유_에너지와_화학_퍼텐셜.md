@@ -1574,3 +1574,55 @@ $\ln\varphi \approx \epsilon - [\epsilon - bp/RT] - ap/(RT)^2 = (b - a/RT)p/RT$
 
 ---
 
+## 📝 한눈에 정리
+
+### 핵심 요약
+
+- 클라우지우스 부등식 $T\,dS \ge dq$에서 일정 $T$, $V$이면 $dA \le 0$, 일정 $T$, $p$이면 $dG \le 0$이 자발성의 기준이다($A = U - TS$, $G = H - TS$). $-dA/T$, $-dG/T$는 각 조건에서 전체 엔트로피의 증가이다.
+- 등온에서 계가 할 수 있는 전체 일의 최댓값은 $-\Delta A$, 일정 $T$, $p$에서 비팽창 일의 최댓값은 $-\Delta G$이며, 가역 과정에서 얻는다. $\Delta S > 0$이면 $\lvert\Delta H\rvert$보다 큰 일도 가능하다.
+- 기본 방정식 $dU = T\,dS - p\,dV$는 이웃한 평형 상태 사이의 모든 변화에 성립한다. 르장드르 변환으로 $dH = T\,dS + V\,dp$, $dA = -S\,dT - p\,dV$, $dG = -S\,dT + V\,dp$를 얻는다.
+- 자연 변수로 쓴 퍼텐셜 하나(예: $G(T, p)$)는 계의 모든 열역학 정보를 담는다.
+- 맥스웰 관계식은 완전 미분의 교차 미분이 같다는 데서 나오며, 특히 $(\partial S/\partial V)_T = (\partial p/\partial T)_V = \alpha/\kappa_T$, $(\partial S/\partial p)_T = -V\alpha$로 잴 수 없는 양을 잴 수 있는 양으로 바꾼다.
+- 열역학적 상태 방정식 $\pi_T = T(\partial p/\partial T)_V - p$: 이상 기체 0, 판데르발스 기체 $a/V_\mathrm{m}^2$, 액체는 수천 bar. 줄–톰슨 계수 $\mu_\mathrm{JT} = V(T\alpha - 1)/C_p$, 낮은 압력 판데르발스 기체의 역전 온도 $2a/Rb$.
+- $C_p - C_V = TV\alpha^2/\kappa_T \ge 0$: 이상 기체는 $nR$, 물은 약 1 %, 열팽창이 큰 유기 액체는 수십 %.
+- $(\partial G/\partial p)_T = V$: 응축상은 $V\Delta p$로 작고, 이상 기체는 $nRT\ln(p_2/p_1)$. $(\partial G/\partial T)_p = -S$와 깁스–헬름홀츠 식 $(\partial(G/T)/\partial T)_p = -H/T^2$로 다른 온도의 $\Delta G$를 구한다($\Delta C_p$ 보정 가능).
+- 화학 퍼텐셜 $\mu_i = (\partial G/\partial n_i)_{T,p,n_j}$는 부분 몰 깁스 에너지이며 순물질에서는 $G_\mathrm{m}$이다. 물질은 $\mu$가 높은 곳에서 낮은 곳으로 이동하고, 평형에서 각 성분의 $\mu$가 모든 상에서 같다.
+- 실제 기체는 $\mu = \mu^\circ + RT\ln(f/p^\circ)$, $f = \varphi p$, $\ln\varphi = \int_0^p (Z - 1)\,dp/p$로 다룬다. 표준 상태는 1 bar의 가상 이상 기체이며, 낮은 압력에서 $\ln\varphi \approx Bp/RT$이다.
+
+| 주요 식 | 쓰임 |
+|---|---|
+| $dA_{T,V} \le 0$, $dG_{T,p} \le 0$ | 자발성의 기준 |
+| $-w \le -\Delta A$, $-w_\text{추가} \le -\Delta G$ | 최대 일, 최대 비팽창 일 |
+| $dU = T\,dS - p\,dV$, $dH = T\,dS + V\,dp$, $dA = -S\,dT - p\,dV$, $dG = -S\,dT + V\,dp$ | 네 퍼텐셜의 기본 방정식 |
+| $(\partial S/\partial V)_T = (\partial p/\partial T)_V$, $(\partial S/\partial p)_T = -(\partial V/\partial T)_p$ | 맥스웰 관계식(자주 쓰는 둘) |
+| $\pi_T = T(\partial p/\partial T)_V - p$, $(\partial H/\partial p)_T = V(1 - T\alpha)$ | 열역학적 상태 방정식 |
+| $C_p - C_V = TV\alpha^2/\kappa_T$ | 열용량의 차 |
+| $(\partial G/\partial p)_T = V$, $(\partial G/\partial T)_p = -S$ | 깁스 에너지의 압력·온도 의존 |
+| $(\partial(\Delta G/T)/\partial T)_p = -\Delta H/T^2$ | 깁스–헬름홀츠 식 |
+| $\mu_i = (\partial G/\partial n_i)_{T,p,n_j}$, $\mu_i^\alpha = \mu_i^\beta$ | 화학 퍼텐셜과 물질 평형 |
+| $\mu = \mu^\circ + RT\ln(f/p^\circ)$, $\ln\varphi = \int_0^p (Z - 1)\,dp/p$ | 퓨가시티 |
+
+### 핵심 용어
+
+| 용어 | 뜻 |
+|---|---|
+| 헬름홀츠 에너지(Helmholtz energy) | $A = U - TS$. 일정 $T$, $V$에서 자발성의 기준, $-\Delta A$는 등온 최대 일 |
+| 깁스 에너지(Gibbs energy) | $G = H - TS$. 일정 $T$, $p$에서 자발성의 기준, $-\Delta G$는 최대 비팽창 일 |
+| 열역학 기본 방정식(fundamental equation) | $dU = T\,dS - p\,dV$. 제1·2법칙을 합친 식 |
+| 자연 변수(natural variables) | 퍼텐셜의 미분이 가장 단순해지는 변수. $U(S, V)$, $H(S, p)$, $A(T, V)$, $G(T, p)$ |
+| 르장드르 변환(Legendre transform) | 함수의 기울기를 새 변수로 삼는 변환. $f - sx$ |
+| 열역학 퍼텐셜(thermodynamic potentials) | $U$, $H$, $A$, $G$. 자연 변수를 고정한 계의 평형에서 최소가 된다 |
+| 맥스웰 관계식(Maxwell relations) | 퍼텐셜의 교차 미분이 같다는 데서 나오는 네 관계식 |
+| 열팽창 계수·등온 압축률 | $\alpha = V^{-1}(\partial V/\partial T)_p$, $\kappa_T = -V^{-1}(\partial V/\partial p)_T$ |
+| 열역학적 상태 방정식 | $\pi_T = T(\partial p/\partial T)_V - p$ |
+| 내부 압력(internal pressure) | $\pi_T = (\partial U/\partial V)_T$. 분자 사이 인력의 척도 |
+| 역전 온도(inversion temperature) | 줄–톰슨 계수의 부호가 바뀌는 온도 |
+| 깁스–헬름홀츠 식(Gibbs–Helmholtz equation) | $(\partial(G/T)/\partial T)_p = -H/T^2$ |
+| 화학 퍼텐셜(chemical potential) | $\mu_i = (\partial G/\partial n_i)_{T,p,n_j}$. 물질 이동의 방향을 정하는 세기 변수 |
+| 부분 몰 깁스 에너지 | 일정 $T$, $p$에서 성분 1 mol을 더할 때의 $G$ 증가율. 화학 퍼텐셜과 같다 |
+| 퓨가시티(fugacity) | 실제 기체의 화학 퍼텐셜 식에서 압력 자리에 들어가는 유효 압력 $f$ |
+| 퓨가시티 계수(fugacity coefficient) | $\varphi = f/p$. 1보다 작으면 인력, 크면 반발력 우세 |
+
+### 다음 단원으로
+
+이 단원에서 얻은 두 결과, $(\partial\mu/\partial T)_p = -S_\mathrm{m}$과 $(\partial\mu/\partial p)_T = V_\mathrm{m}$, 그리고 "두 상이 공존하려면 화학 퍼텐셜이 같아야 한다"는 평형 조건만 있으면 순물질의 상평형을 모두 설명할 수 있다. 다음 단원 「순물질의 상평형」에서는 고체·액체·기체의 $\mu$–$T$ 곡선이 만나는 점으로 녹는점과 끓는점을 읽고, 상 도표의 경계선 기울기를 클라페이롱 식으로 유도하며, 표면의 곡률이 화학 퍼텐셜을 바꾸는 효과(켈빈 식)까지 다룬다. 이 단원 ⑦·⑧의 그래프 두 장이 그 출발점이다.
