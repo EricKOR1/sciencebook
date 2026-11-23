@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-umath-5-co2-modes d-umath-5-co2-modes">
   <title id="t-umath-5-co2-modes">그림 수학 도구 5-11 이산화 탄소 직선 모형의 세 모드</title>
   <desc id="d-umath-5-co2-modes">O–C–O 직선 모형의 축 방향 모드. (가) 병진: 세 원자가 같이 움직여 ω = 0. (나) 대칭 신축: 두 O가 반대로, C는 정지, 쌍극자 변화 없음(IR 비활성). (다) 비대칭 신축: 두 O는 오른쪽, C는 왼쪽으로 O의 2.67배(질량 중심 고정), 쌍극자 변화 있음(IR 활성, 관측 2349 cm⁻¹).</desc>
-  <style>.umath-5-co2-modes-t{font-size:14px;fill:var(--fig-ink)} .umath-5-co2-modes-s{font-size:13px;fill:var(--fig-muted)} .umath-5-co2-modes-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .umath-5-co2-modes-i{font-style:italic} .umath-5-co2-modes-sub{font-size:70%;baseline-shift:sub} .umath-5-co2-modes-sup{font-size:70%;baseline-shift:super}</style>
+  <style>.umath-5-co2-modes-t{font-size:14px;fill:var(--fig-ink)} .umath-5-co2-modes-s{font-size:13px;fill:var(--fig-muted)} .umath-5-co2-modes-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .umath-5-co2-modes-i{font-style:italic} .umath-5-co2-modes-sub{font-size:70%} .umath-5-co2-modes-sup{font-size:70%}</style>
   <text x="20.0" y="75.0" text-anchor="start" class="umath-5-co2-modes-b">(가) 병진</text>
   <line x1="260.0" y1="66.0" x2="360.0" y2="66.0" style="stroke:var(--fig-line);stroke-width:2.5;fill:none"/>
   <line x1="260.0" y1="74.0" x2="360.0" y2="74.0" style="stroke:var(--fig-line);stroke-width:2.5;fill:none"/>
@@ -35,7 +35,7 @@
   <text x="460.0" y="180.0" text-anchor="middle" class="umath-5-co2-modes-b" style="fill:var(--fig-paper);">O</text>
   <line x1="460.0" y1="143.0" x2="478.0" y2="143.0" style="stroke:var(--fig-accent);stroke-width:2.8;fill:none"/>
   <path d="M486.0 143.0 L476.0 138.5 L476.0 147.5 Z" style="fill:var(--fig-accent);stroke:none"/>
-  <text x="540" y="171" class="umath-5-co2-modes-t">ω² = k/m<tspan class="umath-5-co2-modes-sub">O</tspan></text>
+  <text x="540" y="171" class="umath-5-co2-modes-t">ω² = k/m<tspan class="umath-5-co2-modes-sub" dy="4">O</tspan><tspan dy="-4">​</tspan></text>
   <text x="540.0" y="191.0" text-anchor="start" class="umath-5-co2-modes-s">탄소는 정지</text>
   <text x="360.0" y="219.0" text-anchor="middle" class="umath-5-co2-modes-s">쌍극자 변화 없음 → IR 비활성 (라만 활성)</text>
   <text x="20.0" y="285.0" text-anchor="start" class="umath-5-co2-modes-b">(다) 비대칭 신축</text>
@@ -55,8 +55,8 @@
   <text x="460.0" y="285.0" text-anchor="middle" class="umath-5-co2-modes-b" style="fill:var(--fig-paper);">O</text>
   <line x1="460.0" y1="248.0" x2="478.0" y2="248.0" style="stroke:var(--fig-accent);stroke-width:2.8;fill:none"/>
   <path d="M486.0 248.0 L476.0 243.5 L476.0 252.5 Z" style="fill:var(--fig-accent);stroke:none"/>
-  <text x="540" y="276" class="umath-5-co2-modes-t">ω² = (k/m<tspan class="umath-5-co2-modes-sub">O</tspan>)(1 + 2m<tspan class="umath-5-co2-modes-sub">O</tspan>/m<tspan class="umath-5-co2-modes-sub">C</tspan>)</text>
+  <text x="540" y="276" class="umath-5-co2-modes-t">ω² = (k/m<tspan class="umath-5-co2-modes-sub" dy="4">O</tspan><tspan dy="-4">​</tspan>)(1 + 2m<tspan class="umath-5-co2-modes-sub" dy="4">O</tspan><tspan dy="-4">​</tspan>/m<tspan class="umath-5-co2-modes-sub" dy="4">C</tspan><tspan dy="-4">​</tspan>)</text>
   <text x="540.0" y="296.0" text-anchor="start" class="umath-5-co2-modes-s">C 화살표 = O의 2.67배</text>
   <text x="360.0" y="324.0" text-anchor="middle" class="umath-5-co2-modes-s" style="fill:var(--fig-violet);">쌍극자 변화 있음 → IR 활성 (관측 2349 cm⁻¹)</text>
-  <text x="360" y="350" text-anchor="middle" class="umath-5-co2-modes-s">화살표 길이는 변위의 비에 비례 · (다): 2m<tspan class="umath-5-co2-modes-sub">O</tspan> × 1 = m<tspan class="umath-5-co2-modes-sub">C</tspan> × 2.67 → 질량 중심 고정</text>
+  <text x="360" y="350" text-anchor="middle" class="umath-5-co2-modes-s">화살표 길이는 변위의 비에 비례 · (다): 2m<tspan class="umath-5-co2-modes-sub" dy="4">O</tspan><tspan dy="-4">​</tspan> × 1 = m<tspan class="umath-5-co2-modes-sub" dy="4">C</tspan><tspan dy="-4">​</tspan> × 2.67 → 질량 중심 고정</text>
 </svg>

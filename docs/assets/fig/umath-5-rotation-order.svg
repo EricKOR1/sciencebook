@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" role="img" aria-labelledby="t-umath-5-rotation-order d-umath-5-rotation-order">
   <title id="t-umath-5-rotation-order">그림 수학 도구 5-3 회전의 순서를 바꾸면 결과가 다르다</title>
   <desc id="d-umath-5-rotation-order">위 줄: x 방향 결합을 z축 둘레로 90° 돌리면 +y, 다시 x축 둘레로 90° 돌리면 +z. 아래 줄: x축 둘레로 먼저 돌리면 그대로 +x, 다음 z축 둘레로 돌리면 +y. 굵은 축은 회전축, 굽은 화살표는 오른손 규칙의 회전 방향이다.</desc>
-  <style>.umath-5-rotation-order-t{font-size:14px;fill:var(--fig-ink)} .umath-5-rotation-order-s{font-size:13px;fill:var(--fig-muted)} .umath-5-rotation-order-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .umath-5-rotation-order-i{font-style:italic} .umath-5-rotation-order-sub{font-size:70%;baseline-shift:sub} .umath-5-rotation-order-sup{font-size:70%;baseline-shift:super}</style>
+  <style>.umath-5-rotation-order-t{font-size:14px;fill:var(--fig-ink)} .umath-5-rotation-order-s{font-size:13px;fill:var(--fig-muted)} .umath-5-rotation-order-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .umath-5-rotation-order-i{font-style:italic} .umath-5-rotation-order-sub{font-size:70%} .umath-5-rotation-order-sup{font-size:70%}</style>
   <text x="20.0" y="26.0" text-anchor="start" class="umath-5-rotation-order-b">(가) 먼저 z축, 다음 x축 둘레로 90°</text>
   <text x="20.0" y="236.0" text-anchor="start" class="umath-5-rotation-order-b">(나) 먼저 x축, 다음 z축 둘레로 90°</text>
   <line x1="118.6" y1="123.4" x2="110.0" y2="130.0" style="stroke:var(--fig-line);stroke-width:1.2;fill:none"/>
@@ -21,7 +21,7 @@
   <text x="120.0" y="202.0" text-anchor="middle" class="umath-5-rotation-order-t">결합 +x</text>
   <line x1="205.0" y1="130.0" x2="267.8" y2="130.0" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
   <path d="M275.0 130.0 L266.0 126.0 L266.0 134.1 Z" style="fill:var(--fig-ink);stroke:none"/>
-  <text x="240.0" y="120" text-anchor="middle" class="umath-5-rotation-order-t"><tspan class="umath-5-rotation-order-i">R</tspan><tspan class="umath-5-rotation-order-sub">z</tspan>(90°)</text>
+  <text x="240.0" y="120" text-anchor="middle" class="umath-5-rotation-order-t"><tspan class="umath-5-rotation-order-i">R</tspan><tspan class="umath-5-rotation-order-sub" dy="4">z</tspan><tspan dy="-4">​</tspan>(90°)</text>
   <line x1="348.6" y1="123.4" x2="340.0" y2="130.0" style="stroke:var(--fig-line);stroke-width:1.2;fill:none"/>
   <line x1="340.0" y1="130.0" x2="309.3" y2="153.4" style="stroke:var(--fig-line);stroke-width:1.2;fill:none"/>
   <path d="M304.2 157.3 L312.8 155.3 L308.4 149.6 Z" style="fill:var(--fig-line);stroke:none"/>
@@ -43,7 +43,7 @@
   <text x="350.0" y="202.0" text-anchor="middle" class="umath-5-rotation-order-t">결합 +y</text>
   <line x1="435.0" y1="130.0" x2="497.8" y2="130.0" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
   <path d="M505.0 130.0 L496.0 126.0 L496.0 134.1 Z" style="fill:var(--fig-ink);stroke:none"/>
-  <text x="470.0" y="120" text-anchor="middle" class="umath-5-rotation-order-t"><tspan class="umath-5-rotation-order-i">R</tspan><tspan class="umath-5-rotation-order-sub">x</tspan>(90°)</text>
+  <text x="470.0" y="120" text-anchor="middle" class="umath-5-rotation-order-t"><tspan class="umath-5-rotation-order-i">R</tspan><tspan class="umath-5-rotation-order-sub" dy="4">x</tspan><tspan dy="-4">​</tspan>(90°)</text>
   <line x1="578.6" y1="123.4" x2="570.0" y2="130.0" style="stroke:var(--fig-amber);stroke-width:3.2;fill:none"/>
   <line x1="570.0" y1="130.0" x2="539.3" y2="153.4" style="stroke:var(--fig-amber);stroke-width:3.2;fill:none"/>
   <path d="M534.2 157.3 L542.8 155.3 L538.4 149.6 Z" style="fill:var(--fig-amber);stroke:none"/>
@@ -64,7 +64,7 @@
   <path d="M570.0 78.0 L564.6 90.0 L575.4 90.0 Z" style="fill:var(--fig-red);stroke:none"/>
   <text x="580.0" y="202.0" text-anchor="middle" class="umath-5-rotation-order-b" style="fill:var(--fig-red);">결합 +z</text>
   <rect x="530.0" y="184.0" width="100.0" height="26.0" rx="6" style="stroke:var(--fig-red);stroke-width:1.6;fill:none"/>
-  <text x="700" y="52" text-anchor="end" class="umath-5-rotation-order-b" style="fill:var(--fig-accent)"><tspan class="umath-5-rotation-order-i">R</tspan><tspan class="umath-5-rotation-order-sub">x</tspan><tspan class="umath-5-rotation-order-i">R</tspan><tspan class="umath-5-rotation-order-sub">z</tspan><tspan class="umath-5-rotation-order-i"> v</tspan> = +z</text>
+  <text x="700" y="52" text-anchor="end" class="umath-5-rotation-order-b" style="fill:var(--fig-accent)"><tspan class="umath-5-rotation-order-i">R</tspan><tspan class="umath-5-rotation-order-sub" dy="4">x</tspan><tspan dy="-4">​</tspan><tspan class="umath-5-rotation-order-i">R</tspan><tspan class="umath-5-rotation-order-sub" dy="4">z</tspan><tspan dy="-4">​</tspan><tspan class="umath-5-rotation-order-i"> v</tspan> = +z</text>
   <line x1="118.6" y1="333.4" x2="110.0" y2="340.0" style="stroke:var(--fig-line);stroke-width:1.2;fill:none"/>
   <line x1="110.0" y1="340.0" x2="79.3" y2="363.4" style="stroke:var(--fig-line);stroke-width:1.2;fill:none"/>
   <path d="M74.2 367.3 L82.8 365.3 L78.4 359.6 Z" style="fill:var(--fig-line);stroke:none"/>
@@ -82,7 +82,7 @@
   <text x="120.0" y="412.0" text-anchor="middle" class="umath-5-rotation-order-t">결합 +x</text>
   <line x1="205.0" y1="340.0" x2="267.8" y2="340.0" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
   <path d="M275.0 340.0 L266.0 335.9 L266.0 344.1 Z" style="fill:var(--fig-ink);stroke:none"/>
-  <text x="240.0" y="330" text-anchor="middle" class="umath-5-rotation-order-t"><tspan class="umath-5-rotation-order-i">R</tspan><tspan class="umath-5-rotation-order-sub">x</tspan>(90°)</text>
+  <text x="240.0" y="330" text-anchor="middle" class="umath-5-rotation-order-t"><tspan class="umath-5-rotation-order-i">R</tspan><tspan class="umath-5-rotation-order-sub" dy="4">x</tspan><tspan dy="-4">​</tspan>(90°)</text>
   <line x1="348.6" y1="333.4" x2="340.0" y2="340.0" style="stroke:var(--fig-amber);stroke-width:3.2;fill:none"/>
   <line x1="340.0" y1="340.0" x2="309.3" y2="363.4" style="stroke:var(--fig-amber);stroke-width:3.2;fill:none"/>
   <path d="M304.2 367.3 L312.8 365.3 L308.4 359.6 Z" style="fill:var(--fig-amber);stroke:none"/>
@@ -102,7 +102,7 @@
   <text x="350.0" y="412.0" text-anchor="middle" class="umath-5-rotation-order-t">결합 +x</text>
   <line x1="435.0" y1="340.0" x2="497.8" y2="340.0" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
   <path d="M505.0 340.0 L496.0 335.9 L496.0 344.1 Z" style="fill:var(--fig-ink);stroke:none"/>
-  <text x="470.0" y="330" text-anchor="middle" class="umath-5-rotation-order-t"><tspan class="umath-5-rotation-order-i">R</tspan><tspan class="umath-5-rotation-order-sub">z</tspan>(90°)</text>
+  <text x="470.0" y="330" text-anchor="middle" class="umath-5-rotation-order-t"><tspan class="umath-5-rotation-order-i">R</tspan><tspan class="umath-5-rotation-order-sub" dy="4">z</tspan><tspan dy="-4">​</tspan>(90°)</text>
   <line x1="578.6" y1="333.4" x2="570.0" y2="340.0" style="stroke:var(--fig-line);stroke-width:1.2;fill:none"/>
   <line x1="570.0" y1="340.0" x2="539.3" y2="363.4" style="stroke:var(--fig-line);stroke-width:1.2;fill:none"/>
   <path d="M534.2 367.3 L542.8 365.3 L538.4 359.6 Z" style="fill:var(--fig-line);stroke:none"/>
@@ -123,6 +123,6 @@
   <path d="M622.0 340.0 L610.0 334.6 L610.0 345.4 Z" style="fill:var(--fig-red);stroke:none"/>
   <text x="580.0" y="412.0" text-anchor="middle" class="umath-5-rotation-order-b" style="fill:var(--fig-red);">결합 +y</text>
   <rect x="530.0" y="394.0" width="100.0" height="26.0" rx="6" style="stroke:var(--fig-red);stroke-width:1.6;fill:none"/>
-  <text x="700" y="262" text-anchor="end" class="umath-5-rotation-order-b" style="fill:var(--fig-accent)"><tspan class="umath-5-rotation-order-i">R</tspan><tspan class="umath-5-rotation-order-sub">z</tspan><tspan class="umath-5-rotation-order-i">R</tspan><tspan class="umath-5-rotation-order-sub">x</tspan><tspan class="umath-5-rotation-order-i"> v</tspan> = +y</text>
+  <text x="700" y="262" text-anchor="end" class="umath-5-rotation-order-b" style="fill:var(--fig-accent)"><tspan class="umath-5-rotation-order-i">R</tspan><tspan class="umath-5-rotation-order-sub" dy="4">z</tspan><tspan dy="-4">​</tspan><tspan class="umath-5-rotation-order-i">R</tspan><tspan class="umath-5-rotation-order-sub" dy="4">x</tspan><tspan dy="-4">​</tspan><tspan class="umath-5-rotation-order-i"> v</tspan> = +y</text>
   <text x="360.0" y="450.0" text-anchor="middle" class="umath-5-rotation-order-s">굵은 주황 축 = 회전축, 굽은 화살표 = 오른손 규칙의 90° 회전 방향, 점선 = 회전 전 결합</text>
 </svg>

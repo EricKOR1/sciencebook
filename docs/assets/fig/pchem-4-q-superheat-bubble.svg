@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="t-pchem-4-q-superheat-bubble d-pchem-4-q-superheat-bubble">
+  <title id="t-pchem-4-q-superheat-bubble">그림 물리화학 4-17 문제 17의 수증기 기포와 끓임쪽</title>
+  <desc id="d-pchem-4-q-superheat-bubble">왼쪽: 물속에 있는 반지름 r인 수증기 기포의 단면. 기포 안의 증기 압력은 p, 바깥 물의 압력은 1 atm이며, 기포 경계의 표면 장력 γ가 기포를 안쪽으로 조인다. 오른쪽: 끓임쪽 표면의 작은 구멍을 확대한 모습. 구멍 속에 기체가 갇혀 있고 구멍 입구의 기체–액체 경계는 액체 쪽으로 볼록하다.</desc>
+  <style>.pchem-4-q-superheat-bubble-t{font-size:14px;fill:var(--fig-ink)} .pchem-4-q-superheat-bubble-s{font-size:13px;fill:var(--fig-muted)} .pchem-4-q-superheat-bubble-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .pchem-4-q-superheat-bubble-i{font-size:14px;font-style:italic;fill:var(--fig-ink)} </style>
+  <rect x="20.0" y="20.0" width="400.0" height="260.0" rx="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <circle cx="210.0" cy="150.0" r="78.0" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:2.2"/>
+  <text x="210.0" y="140.0" text-anchor="middle" class="pchem-4-q-superheat-bubble-s">수증기</text>
+  <text x="210.0" y="162.0" text-anchor="middle" class="pchem-4-q-superheat-bubble-t">증기 압력 p</text>
+  <line x1="210.0" y1="150.0" x2="269.7" y2="99.8" style="stroke:var(--fig-ink);stroke-width:1.3;stroke-linecap:round"/>
+  <circle cx="210.0" cy="150.0" r="2.5" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="248.0" y="116.0" text-anchor="start" class="pchem-4-q-superheat-bubble-i">r</text>
+  <line x1="304.0" y1="184.2" x2="286.1" y2="177.7" style="stroke:var(--fig-red);stroke-width:1.6;stroke-linecap:round"/>
+  <polygon points="286.1,177.7 293.1,177.3 291.2,182.5" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="227.4" y1="248.5" x2="224.1" y2="229.8" style="stroke:var(--fig-red);stroke-width:1.6;stroke-linecap:round"/>
+  <polygon points="224.1,229.8 227.9,235.6 222.5,236.6" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="133.4" y1="214.3" x2="148.0" y2="202.1" style="stroke:var(--fig-red);stroke-width:1.6;stroke-linecap:round"/>
+  <polygon points="148.0,202.1 144.8,208.3 141.3,204.1" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="116.0" y1="115.8" x2="133.9" y2="122.3" style="stroke:var(--fig-red);stroke-width:1.6;stroke-linecap:round"/>
+  <polygon points="133.9,122.3 126.9,122.7 128.8,117.5" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="192.6" y1="51.5" x2="195.9" y2="70.2" style="stroke:var(--fig-red);stroke-width:1.6;stroke-linecap:round"/>
+  <polygon points="195.9,70.2 192.1,64.4 197.5,63.4" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="286.6" y1="85.7" x2="272.0" y2="97.9" style="stroke:var(--fig-red);stroke-width:1.6;stroke-linecap:round"/>
+  <polygon points="272.0,97.9 275.2,91.7 278.7,95.9" style="fill:var(--fig-red);stroke:none"/>
+  <text x="318.0" y="216.0" text-anchor="start" class="pchem-4-q-superheat-bubble-i" style="fill:var(--fig-red);font-size:16px">γ</text>
+  <text x="40.0" y="48.0" text-anchor="start" class="pchem-4-q-superheat-bubble-t">물  P<tspan baseline-shift="sub" font-size="10">대기</tspan> = 1 atm</text>
+  <text x="470.0" y="36.0" text-anchor="start" class="pchem-4-q-superheat-bubble-s" style="fill:var(--fig-ink)">끓임쪽 표면의 작은 구멍(확대)</text>
+  <rect x="470.0" y="50.0" width="230.0" height="120.0" rx="0" style="fill:var(--fig-soft-blue);stroke:none"/>
+  <text x="480.0" y="72.0" text-anchor="start" class="pchem-4-q-superheat-bubble-s" style="fill:var(--fig-ink)">물</text>
+  <path d="M470,170 L565,170 L565,250 Q585,262 605,250 L605,170 L700,170 L700,280 L470,280 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6;stroke-linejoin:round;stroke-linecap:round"/>
+  <path d="M565,170 L565,250 Q585,262 605,250 L605,170 A20,20 0 0 0 565,170 Z" style="fill:var(--fig-panel);stroke:none;stroke-linejoin:round;stroke-linecap:round"/>
+  <path d="M565,170 A20,20 0 0 1 605,170" style="fill:none;stroke:var(--fig-blue);stroke-width:2;stroke-linejoin:round;stroke-linecap:round"/>
+  <path d="M565,170 L565,250 Q585,262 605,250 L605,170" style="fill:none;stroke:var(--fig-amber);stroke-width:1.6;stroke-linejoin:round;stroke-linecap:round"/>
+  <text x="585.0" y="215.0" text-anchor="middle" class="pchem-4-q-superheat-bubble-s" style="fill:var(--fig-ink)">기체</text>
+  <text x="650.0" y="230.0" text-anchor="middle" class="pchem-4-q-superheat-bubble-s" style="fill:var(--fig-ink)">끓임쪽</text>
+</svg>

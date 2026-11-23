@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" class="fig-small" role="img" aria-labelledby="t-umath-5-q-co2-coupling d-umath-5-q-co2-coupling">
   <title id="t-umath-5-q-co2-coupling">그림 수학 도구 5-18 문제 17의 직선 O–C–O 모형</title>
   <desc id="d-umath-5-q-co2-coupling">질량 mO, mC, mO인 세 공이 힘상수 k인 용수철 두 개로 이어져 있고, 두 결합 사이에 상호작용 힘상수 k′이 있다. 변위 x1, x2, x3과 두 결합의 늘어남 r1 = x2 − x1, r2 = x3 − x2.</desc>
-  <style>.umath-5-q-co2-coupling-t{font-size:14px;fill:var(--fig-ink)} .umath-5-q-co2-coupling-s{font-size:13px;fill:var(--fig-muted)} .umath-5-q-co2-coupling-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .umath-5-q-co2-coupling-i{font-style:italic} .umath-5-q-co2-coupling-sub{font-size:70%;baseline-shift:sub} .umath-5-q-co2-coupling-sup{font-size:70%;baseline-shift:super}</style>
+  <style>.umath-5-q-co2-coupling-t{font-size:14px;fill:var(--fig-ink)} .umath-5-q-co2-coupling-s{font-size:13px;fill:var(--fig-muted)} .umath-5-q-co2-coupling-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .umath-5-q-co2-coupling-i{font-style:italic} .umath-5-q-co2-coupling-sub{font-size:70%} .umath-5-q-co2-coupling-sup{font-size:70%}</style>
   <path d="M96.0 130.0 L108.6 130.0 L115.8 139.0 L123.0 121.0 L130.2 139.0 L137.4 121.0 L144.6 139.0 L151.8 121.0 L159.0 139.0 L166.2 121.0 L173.4 139.0 L180.6 121.0 L187.8 139.0 L195.0 121.0 L202.2 139.0 L209.4 130.0 L222.0 130.0" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
   <path d="M258.0 130.0 L270.6 130.0 L277.8 139.0 L285.0 121.0 L292.2 139.0 L299.4 121.0 L306.6 139.0 L313.8 121.0 L321.0 139.0 L328.2 121.0 L335.4 139.0 L342.6 121.0 L349.8 139.0 L357.0 121.0 L364.2 139.0 L371.4 130.0 L384.0 130.0" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
   <circle cx="70.0" cy="130.0" r="26.0" style="stroke:var(--fig-ink);stroke-width:1.4;fill:var(--fig-red)"/>
@@ -10,9 +10,9 @@
   <text x="240.0" y="135.0" text-anchor="middle" class="umath-5-q-co2-coupling-b" style="fill:var(--fig-paper);">C</text>
   <circle cx="410.0" cy="130.0" r="26.0" style="stroke:var(--fig-ink);stroke-width:1.4;fill:var(--fig-red)"/>
   <text x="410.0" y="135.0" text-anchor="middle" class="umath-5-q-co2-coupling-b" style="fill:var(--fig-paper);">O</text>
-  <text x="70" y="180" text-anchor="middle" class="umath-5-q-co2-coupling-t">m<tspan class="umath-5-q-co2-coupling-sub">O</tspan></text>
-  <text x="240" y="180" text-anchor="middle" class="umath-5-q-co2-coupling-t">m<tspan class="umath-5-q-co2-coupling-sub">C</tspan></text>
-  <text x="410" y="180" text-anchor="middle" class="umath-5-q-co2-coupling-t">m<tspan class="umath-5-q-co2-coupling-sub">O</tspan></text>
+  <text x="70" y="180" text-anchor="middle" class="umath-5-q-co2-coupling-t">m<tspan class="umath-5-q-co2-coupling-sub" dy="4">O</tspan><tspan dy="-4">​</tspan></text>
+  <text x="240" y="180" text-anchor="middle" class="umath-5-q-co2-coupling-t">m<tspan class="umath-5-q-co2-coupling-sub" dy="4">C</tspan><tspan dy="-4">​</tspan></text>
+  <text x="410" y="180" text-anchor="middle" class="umath-5-q-co2-coupling-t">m<tspan class="umath-5-q-co2-coupling-sub" dy="4">O</tspan><tspan dy="-4">​</tspan></text>
   <text x="155.0" y="158.0" text-anchor="middle" class="umath-5-q-co2-coupling-b" style="font-style:italic">k</text>
   <text x="325.0" y="158.0" text-anchor="middle" class="umath-5-q-co2-coupling-b" style="font-style:italic">k</text>
   <path d="M155 112 Q240 45 325 112" style="stroke:var(--fig-violet);stroke-width:2;fill:none;stroke-dasharray:6 4"/>
@@ -22,13 +22,13 @@
   <text x="240" y="64" text-anchor="middle" class="umath-5-q-co2-coupling-b" style="fill:var(--fig-violet)">결합 사이 상호작용 k′</text>
   <line x1="70.0" y1="196.0" x2="93.6" y2="196.0" style="stroke:var(--fig-accent);stroke-width:2;fill:none"/>
   <path d="M100.0 196.0 L92.0 192.4 L92.0 199.6 Z" style="fill:var(--fig-accent);stroke:none"/>
-  <text x="104" y="201" class="umath-5-q-co2-coupling-t">x<tspan class="umath-5-q-co2-coupling-sub">1</tspan></text>
+  <text x="104" y="201" class="umath-5-q-co2-coupling-t">x<tspan class="umath-5-q-co2-coupling-sub" dy="4">1</tspan><tspan dy="-4">​</tspan></text>
   <line x1="240.0" y1="196.0" x2="263.6" y2="196.0" style="stroke:var(--fig-accent);stroke-width:2;fill:none"/>
   <path d="M270.0 196.0 L262.0 192.4 L262.0 199.6 Z" style="fill:var(--fig-accent);stroke:none"/>
-  <text x="274" y="201" class="umath-5-q-co2-coupling-t">x<tspan class="umath-5-q-co2-coupling-sub">2</tspan></text>
+  <text x="274" y="201" class="umath-5-q-co2-coupling-t">x<tspan class="umath-5-q-co2-coupling-sub" dy="4">2</tspan><tspan dy="-4">​</tspan></text>
   <line x1="410.0" y1="196.0" x2="433.6" y2="196.0" style="stroke:var(--fig-accent);stroke-width:2;fill:none"/>
   <path d="M440.0 196.0 L432.0 192.4 L432.0 199.6 Z" style="fill:var(--fig-accent);stroke:none"/>
-  <text x="444" y="201" class="umath-5-q-co2-coupling-t">x<tspan class="umath-5-q-co2-coupling-sub">3</tspan></text>
-  <text x="240" y="238" text-anchor="middle" class="umath-5-q-co2-coupling-t">r<tspan class="umath-5-q-co2-coupling-sub">1</tspan> = x<tspan class="umath-5-q-co2-coupling-sub">2</tspan> − x<tspan class="umath-5-q-co2-coupling-sub">1</tspan>,   r<tspan class="umath-5-q-co2-coupling-sub">2</tspan> = x<tspan class="umath-5-q-co2-coupling-sub">3</tspan> − x<tspan class="umath-5-q-co2-coupling-sub">2</tspan></text>
+  <text x="444" y="201" class="umath-5-q-co2-coupling-t">x<tspan class="umath-5-q-co2-coupling-sub" dy="4">3</tspan><tspan dy="-4">​</tspan></text>
+  <text x="240" y="238" text-anchor="middle" class="umath-5-q-co2-coupling-t">r<tspan class="umath-5-q-co2-coupling-sub" dy="4">1</tspan><tspan dy="-4">​</tspan> = x<tspan class="umath-5-q-co2-coupling-sub" dy="4">2</tspan><tspan dy="-4">​</tspan> − x<tspan class="umath-5-q-co2-coupling-sub" dy="4">1</tspan><tspan dy="-4">​</tspan>,   r<tspan class="umath-5-q-co2-coupling-sub" dy="4">2</tspan><tspan dy="-4">​</tspan> = x<tspan class="umath-5-q-co2-coupling-sub" dy="4">3</tspan><tspan dy="-4">​</tspan> − x<tspan class="umath-5-q-co2-coupling-sub" dy="4">2</tspan><tspan dy="-4">​</tspan></text>
   <text x="240.0" y="260.0" text-anchor="middle" class="umath-5-q-co2-coupling-s">(변위는 축 방향, 오른쪽을 + 로 잰다)</text>
 </svg>

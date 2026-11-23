@@ -39,11 +39,12 @@
   <line x1="104.0" y1="222.0" x2="236.0" y2="250.0" style="stroke:var(--fig-blue);stroke-width:1"/>
   <text x="52.0" y="400.0" class="pchem-6-ph-electrodes-teal">얇은 유리 막</text>
   <line x1="140.0" y1="396.0" x2="222.0" y2="378.0" style="stroke:var(--fig-teal);stroke-width:1"/>
-  <text x="250.0" y="350.0" text-anchor="middle" class="pchem-6-ph-electrodes-sm">안쪽</text>
-  <text x="330.0" y="325.0" class="pchem-6-ph-electrodes-lbl">안쪽 a(H⁺): 일정</text>
-  <text x="330.0" y="345.0" class="pchem-6-ph-electrodes-lbl">바깥쪽 a(H⁺): 시료</text>
-  <text x="330.0" y="372.0" class="pchem-6-ph-electrodes-acc">막 전위: 25 ℃에서</text>
-  <text x="330.0" y="390.0" class="pchem-6-ph-electrodes-acc">59.16 mV/pH</text>
+  <text x="300.0" y="322.0" class="pchem-6-ph-electrodes-lbl">안쪽 a(H⁺): 일정</text>
+  <line x1="298.0" y1="318.0" x2="256.0" y2="350.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="300.0" y="344.0" class="pchem-6-ph-electrodes-lbl">바깥쪽 a(H⁺): 시료</text>
+  <line x1="298.0" y1="340.0" x2="284.0" y2="372.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="300.0" y="374.0" class="pchem-6-ph-electrodes-acc">막 전위:</text>
+  <text x="300.0" y="392.0" class="pchem-6-ph-electrodes-acc">59.16 mV/pH (25 ℃)</text>
   <text x="506.0" y="104.0" class="pchem-6-ph-electrodes-b">기준 전극</text>
   <text x="506.0" y="124.0" class="pchem-6-ph-electrodes-sm">(Ag/AgCl, 포화 KCl)</text>
   <text x="500.0" y="196.0" class="pchem-6-ph-electrodes-amber">포화 KCl</text>

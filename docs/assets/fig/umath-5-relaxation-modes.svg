@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-umath-5-relaxation-modes d-umath-5-relaxation-modes">
   <title id="t-umath-5-relaxation-modes">그림 수학 도구 5-7 A ⇌ B의 이완 = 두 모드의 합</title>
   <desc id="d-umath-5-relaxation-modes">예제 9의 [A](t) = 0.25 + 0.75e^(−0.40t), [B](t) = 0.75(1 − e^(−0.40t)) 곡선. 고유값 0의 모드가 평형 농도 0.25 M, 0.75 M을 정하고, 고유값 −0.40 s⁻¹의 모드 (1, −1)이 지수적으로 사라진다. t = 5.0 s에서 0.352 M, 0.648 M.</desc>
-  <style>.umath-5-relaxation-modes-t{font-size:14px;fill:var(--fig-ink)} .umath-5-relaxation-modes-s{font-size:13px;fill:var(--fig-muted)} .umath-5-relaxation-modes-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .umath-5-relaxation-modes-i{font-style:italic} .umath-5-relaxation-modes-sub{font-size:70%;baseline-shift:sub} .umath-5-relaxation-modes-sup{font-size:70%;baseline-shift:super}</style>
+  <style>.umath-5-relaxation-modes-t{font-size:14px;fill:var(--fig-ink)} .umath-5-relaxation-modes-s{font-size:13px;fill:var(--fig-muted)} .umath-5-relaxation-modes-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .umath-5-relaxation-modes-i{font-style:italic} .umath-5-relaxation-modes-sub{font-size:70%} .umath-5-relaxation-modes-sup{font-size:70%}</style>
   <line x1="80.0" y1="270.0" x2="80.0" y2="39.0" style="stroke:var(--fig-line);stroke-width:0.5;fill:none;opacity:0.5"/>
   <text x="80.0" y="288.0" text-anchor="middle" class="umath-5-relaxation-modes-s">0</text>
   <line x1="172.0" y1="270.0" x2="172.0" y2="39.0" style="stroke:var(--fig-line);stroke-width:0.5;fill:none;opacity:0.5"/>
@@ -43,6 +43,6 @@
   <text x="126.0" y="243.6" text-anchor="start" class="umath-5-relaxation-modes-b" style="fill:var(--fig-red);">[B]</text>
   <text x="632.0" y="97.0" text-anchor="end" class="umath-5-relaxation-modes-s" style="fill:var(--fig-red);">평형 0.75 M (고유값 0 모드)</text>
   <text x="632.0" y="207.0" text-anchor="end" class="umath-5-relaxation-modes-s" style="fill:var(--fig-blue);">평형 0.25 M (고유값 0 모드)</text>
-  <text x="365.2" y="155.6" class="umath-5-relaxation-modes-t">평형과의 차이 = 0.75e<tspan class="umath-5-relaxation-modes-sup">−0.40t</tspan></text>
+  <text x="365.2" y="155.6" class="umath-5-relaxation-modes-t">평형과의 차이 = 0.75e<tspan class="umath-5-relaxation-modes-sup" dy="-6">−0.40t</tspan><tspan dy="6">​</tspan></text>
   <text x="365.2" y="175.6" class="umath-5-relaxation-modes-s">모드 (1, −1)이 τ = 1/(k₁ + k₂) = 2.5 s로 사라진다</text>
 </svg>
