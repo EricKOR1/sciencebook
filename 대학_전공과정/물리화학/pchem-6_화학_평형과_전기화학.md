@@ -1403,10 +1403,10 @@ $\mathrm{KNO_3}$는 이온 분위기로 $\mathrm{Ag^+}$와 $\mathrm{Br^-}$의 �
 **정답** (1) 유도 (2) 0.508 (3) 0.490 (4) 더 벗어난다.
 
 (1) $s\ln\gamma_\pm = p\ln\gamma_+ + q\ln\gamma_- = -C\sqrt{I}(pz_+^2 + qz_-^2)$. 전기적 중성 $pz_+ = q\lvert z_- \rvert$에서 $pz_+^2 = z_+(q\lvert z_- \rvert)$, $qz_-^2 = \lvert z_- \rvert(pz_+)$이므로 $pz_+^2 + qz_-^2 = z_+\lvert z_- \rvert(p + q)$. 양변을 $s = p + q$로 나누면 결과가 나온다.
-(2) $\varepsilon = 6.954\times10^{-10}\ \mathrm{C^2/(J\cdot m)}$, $k_\mathrm{B}T = 4.116\times10^{-21}\ \mathrm{J}$.
-$\kappa^2/I = 2e^2N_\mathrm{A}\rho^*b^\circ/(\varepsilon k_\mathrm{B}T) = 2(2.567\times10^{-38})(6.022\times10^{23})(997.0)/(2.862\times10^{-30}) = 1.077\times10^{19}\ \mathrm{m^{-2}}$, $\kappa/\sqrt{I} = 3.28\times10^{9}\ \mathrm{m^{-1}}$ (디바이 길이 0.304 nm).
-$A = \dfrac{e^2(\kappa/\sqrt{I})}{8\pi\varepsilon k_\mathrm{B}T\ln 10} = \dfrac{(2.567\times10^{-38})(3.28\times10^9)}{8\pi(2.862\times10^{-30})(2.303)} = 0.508$. 본문의 0.509와의 차이는 $\varepsilon_\mathrm{r}$ 값(78.5와 78.54)과 상수의 반올림에서 오는 것으로, $A \propto \varepsilon_\mathrm{r}^{-3/2}$이라 $\varepsilon_\mathrm{r}$이 0.1 % 달라지면 $A$는 0.15 % 달라진다.
-(3) $A \propto \varepsilon^{-1}T^{-1}\cdot(\rho^*/\varepsilon T)^{1/2} = (\rho^*)^{1/2}(\varepsilon_\mathrm{r}T)^{-3/2}$. $A(0\,^\circ\mathrm{C}) = 0.509\times\left(\dfrac{78.54\times298.15}{87.90\times273.15}\right)^{3/2}\left(\dfrac{999.8}{997.0}\right)^{1/2} = 0.508\times0.9645 = 0.490$ (상수를 직접 넣어 계산해도 0.490).
+(2) $\varepsilon = 6.954\times10^{-10}\ \mathrm{C^2/(J\cdot m)}$, $k_\mathrm{B}T = 4.117\times10^{-21}\ \mathrm{J}$.
+$\kappa^2/I = 2e^2N_\mathrm{A}\rho^*b^\circ/(\varepsilon k_\mathrm{B}T) = 2(2.566\times10^{-38})(6.022\times10^{23})(997.0)/(2.863\times10^{-30}) = 1.076\times10^{19}\ \mathrm{m^{-2}}$, $\kappa/\sqrt{I} = 3.28\times10^{9}\ \mathrm{m^{-1}}$ (디바이 길이 약 0.30 nm).
+$A = \dfrac{e^2(\kappa/\sqrt{I})}{8\pi\varepsilon k_\mathrm{B}T\ln 10} = \dfrac{(2.566\times10^{-38})(3.28\times10^9)}{8\pi(2.863\times10^{-30})(2.303)} = 0.508$. 본문의 0.509와의 차이는 $\varepsilon_\mathrm{r}$ 값(78.5와 78.54)과 상수의 반올림에서 오는 것으로, $A \propto \varepsilon_\mathrm{r}^{-3/2}$이라 $\varepsilon_\mathrm{r}$이 0.1 % 달라지면 $A$는 0.15 % 달라진다.
+(3) $A \propto \varepsilon^{-1}T^{-1}\cdot(\rho^*/\varepsilon T)^{1/2} = (\rho^*)^{1/2}(\varepsilon_\mathrm{r}T)^{-3/2}$. $A(0\,^\circ\mathrm{C}) = 0.508\times\left(\dfrac{78.54\times298.15}{87.90\times273.15}\right)^{3/2}\left(\dfrac{999.8}{997.0}\right)^{1/2} = 0.508\times0.9645 = 0.490$ (상수를 직접 넣어 계산해도 0.490).
 (4) $\varepsilon_\mathrm{r}$이 작으면 $A \propto \varepsilon_\mathrm{r}^{-3/2}$가 커져(밀도와 온도의 차이는 작게 보고) $\lvert\log\gamma_\pm\rvert$가 약 $(78.5/33)^{3/2} \approx 3.7$배가 된다. 쿨롱 상호작용이 덜 가려져 이온 분위기의 안정화가 커지기 때문이며, 실제로는 이온쌍 형성도 심해진다.
 
 **채점 포인트** ① 전기적 중성을 쓴 대수 처리 ② 단위를 맞춘 수치 계산($\kappa$의 단위 $\mathrm{m^{-1}}$) ③ $\varepsilon_\mathrm{r}T$ 의존의 지수 $-3/2$ ④ 유전율과 가려막기의 정성적 연결
