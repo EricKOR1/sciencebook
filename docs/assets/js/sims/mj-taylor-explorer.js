@@ -87,7 +87,7 @@ Sims.register('mj-taylor-explorer', {
       ctx.globalAlpha = 1;
       // 격자와 축
       ctx.font = '11px ' + T.fontMono; ctx.fillStyle = T.figMuted; ctx.strokeStyle = T.rule; ctx.lineWidth = 1;
-      var step = (xr[1] - xr[0]) > 8 ? 2 : (xr[1] - xr[0]) > 5 ? 1 : 0.5;
+      var step = (xr[1] - xr[0]) > 8 ? 2 : (xr[1] - xr[0]) > 5 ? 1 : 0.5; if (w < 560) step *= 2;
       ctx.textAlign = 'center';
       for (var gx = Math.ceil(xr[0] / step) * step; gx <= xr[1] + 1e-9; gx += step) {
         ctx.beginPath(); ctx.moveTo(X(gx), lay.t); ctx.lineTo(X(gx), lay.b); ctx.stroke();

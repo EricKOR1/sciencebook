@@ -1,11 +1,11 @@
 /* 수학 도구 4 상미분방정식: 특성근의 복소 평면 위치와 해의 모양, 강제 진동의 과도·정상 응답 분해 */
 Sims.register('mj-ode-roots-forced', {
-  title: '특성근의 위치로 읽는 감쇠·강제 진동 — x = x_h + x_p',
-  caption: '감쇠 γ/ω₀를 0에서 2까지 움직이며 왼쪽 복소 평면의 두 특성근(파란 점)이 반지름 ω₀인 원을 따라 내려와 실수축에서 만난 뒤 갈라지는 모습과, 오른쪽 해의 모양(진동 → 임계 → 느린 복귀)을 함께 보자. 구동 진폭을 올리면 해가 과도 응답 x_h(주황 점선)와 정상 상태 x_p(보라 점선)의 합으로 나뉜다. 복소 평면의 초록 점 iω는 구동 각진동수이며, 정상 상태 진폭은 iω에서 두 근까지의 거리의 곱에 반비례한다(|X| = f/(d₁d₂)). 그래서 감쇠가 작아 근이 허수축에 가까울 때 ω ≈ ω₀이면 공명이 크다. γ = 0, ω = ω₀이면 진폭이 t에 비례해 커지고, ω가 ω₀에 가까우면 맥놀이가 생긴다. ω₀ = 2π rad/s(1 Hz)로 고정했고, 구동력은 f cos ωt, 진폭은 정적 변형 f/ω₀²을 단위로 나타냈다.',
+  title: '특성근의 위치로 읽는 감쇠·강제 진동 — x = xₕ + xₚ',
+  caption: '감쇠 γ/ω₀를 0에서 2까지 움직이며 왼쪽 복소 평면의 두 특성근(파란 점)이 반지름 ω₀인 원을 따라 내려와 실수축에서 만난 뒤 갈라지는 모습과, 오른쪽 해의 모양(진동 → 임계 → 느린 복귀)을 함께 보자. 구동 진폭을 올리면 해가 과도 응답 xₕ(주황 점선)와 정상 상태 xₚ(보라 점선)의 합으로 나뉜다. 복소 평면의 초록 점 iω는 구동 각진동수이며, 정상 상태 진폭은 iω에서 두 근까지의 거리의 곱에 반비례한다(|X| = f/(d₁d₂)). 그래서 감쇠가 작아 근이 허수축에 가까울 때 ω ≈ ω₀이면 공명이 크다. γ = 0, ω = ω₀이면 진폭이 t에 비례해 커지고, ω가 ω₀에 가까우면 맥놀이가 생긴다. ω₀ = 2π rad/s(1 Hz)로 고정했고, 구동력은 f cos ωt, 진폭은 정적 변형 f/ω₀²을 단위로 나타냈다.',
   init: function (api) {
     var W0 = 2 * Math.PI, TMAX = 10;
-    var st = { z: 0.15, F: 0, r: 0.9, x0: 1 };
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.45 : 0.5; }, label: '복소 평면의 특성근과 구동 진동수, 시간에 따른 해 x(t), 과도 응답, 정상 상태 응답' });
+    var st = { z: 0.1, F: 0.5, r: 1.5, x0: 1 };
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.45 : 0.56; }, label: '복소 평면의 특성근과 구동 진동수, 시간에 따른 해 x(t), 과도 응답, 정상 상태 응답' });
     var ctx = cv.ctx;
     var rRoot = api.readout('특성근 λ (s⁻¹)');
     var rCase = api.readout('경우');
@@ -160,7 +160,7 @@ Sims.register('mj-ode-roots-forced', {
       // 범례
       ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'left';
       var items = [['x(t)', T.figBlue, []]];
-      if (st.F > 0) items.push(['x_h 과도', T.figAmber, [6, 4]], ['x_p 정상', T.figViolet, [6, 4]], ['구동력(모양)', T.figLine, []]);
+      if (st.F > 0) items.push(['xₕ 과도', T.figAmber, [6, 4]], ['xₚ 정상', T.figViolet, [6, 4]], ['구동력(모양)', T.figLine, []]);
       var lx = G.x + 8, ly = G.y + 14;
       items.forEach(function (it, k) {
         var cx = lx + (narrow ? (k % 2) * 140 : k * (G.w - 16) / 4), cy = ly + (narrow ? Math.floor(k / 2) * 16 : 0);
