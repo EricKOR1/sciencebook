@@ -120,11 +120,7 @@ $$
 어떤 2성분 혼합물의 부피가 $V = a\,n_A + b\,n_B + c\,\dfrac{n_An_B}{n_A + n_B}$로 주어진다($a$, $b$, $c$는 상수). $n_A\,\partial V/\partial n_A + n_B\,\partial V/\partial n_B = V$임을 확인하시오.
 
 **풀이**
-$N = n_A + n_B$라 하자. 몫의 미분으로
-
-$$
-\frac{\partial V}{\partial n_A} = a + c\,\frac{n_B N - n_An_B}{N^2} = a + c\,\frac{n_B^2}{N^2}, \qquad \frac{\partial V}{\partial n_B} = b + c\,\frac{n_A^2}{N^2}
-$$
+$N = n_A + n_B$라 하자. 몫의 미분으로 $\frac{\partial V}{\partial n_A} = a + c\,\frac{n_B N - n_An_B}{N^2} = a + c\,\frac{n_B^2}{N^2}, \qquad \frac{\partial V}{\partial n_B} = b + c\,\frac{n_A^2}{N^2}$
 
 $$
 n_A\frac{\partial V}{\partial n_A} + n_B\frac{\partial V}{\partial n_B} = a\,n_A + b\,n_B + c\,\frac{n_An_B(n_B + n_A)}{N^2} = a\,n_A + b\,n_B + c\,\frac{n_An_B}{N} = V
@@ -134,11 +130,7 @@ $$
 
 ### 디딤돌 2. 화학 퍼텐셜과 기본 방정식 — 「자유 에너지와 화학 퍼텐셜」 되짚기
 
-조성이 변하는 계의 깁스 에너지 전미분은 다음과 같다.
-
-$$
-dG = V\,dP - S\,dT + \sum_i \mu_i\,dn_i, \qquad \mu_i = \left(\frac{\partial G}{\partial n_i}\right)_{T,P,n_{j\ne i}}
-$$
+조성이 변하는 계의 깁스 에너지 전미분은 다음과 같다. $dG = V\,dP - S\,dT + \sum_i \mu_i\,dn_i, \qquad \mu_i = \left(\frac{\partial G}{\partial n_i}\right)_{T,P,n_{j\ne i}}$
 
 | 사실 | 식 | 이 단원에서의 쓰임 |
 |---|---|---|
@@ -159,11 +151,7 @@ $\Delta\mu = RT\ln(0.20/1.00) = 8.314\times298.15\times\ln 0.20 = -3.99\times10^
 
 ### 디딤돌 3. $x\ln x$ 함수 — 혼합 엔트로피의 모양
 
-혼합의 엔트로피와 깁스 에너지에는 늘 다음 함수가 나온다.
-
-$$
-f(x) = x\ln x + (1 - x)\ln(1 - x), \qquad 0 < x < 1
-$$
+혼합의 엔트로피와 깁스 에너지에는 늘 다음 함수가 나온다. $f(x) = x\ln x + (1 - x)\ln(1 - x), \qquad 0 < x < 1$
 
 | 성질 | 내용 | 물리적 의미 |
 |---|---|---|
@@ -732,11 +720,7 @@ $\gamma_A$가 **활동도 계수(activity coefficient)** 이다. 라울 기준�
 
 #### 용질의 활동도 (헨리 기준)
 
-용질은 순수한 상태가 실험적으로 의미가 없거나(고체, 기체) 묽은 영역에서만 다루므로, 헨리 법칙을 기준으로 삼는 것이 편하다.
-
-$$
-\mu_B = \mu_B^\dagger + RT\ln a_B, \qquad a_B = \frac{p_B}{K_B}, \qquad a_B = \gamma_Bx_B, \qquad x_B \to 0\text{에서 } \gamma_B \to 1
-$$
+용질은 순수한 상태가 실험적으로 의미가 없거나(고체, 기체) 묽은 영역에서만 다루므로, 헨리 법칙을 기준으로 삼는 것이 편하다. $\mu_B = \mu_B^\dagger + RT\ln a_B, \qquad a_B = \frac{p_B}{K_B}, \qquad a_B = \gamma_Bx_B, \qquad x_B \to 0\text{에서 } \gamma_B \to 1$
 
 기준 상태 $\mu_B^\dagger$는 '헨리 법칙을 $x_B = 1$까지 연장한 가상의 순수 B'이다. 실제로 존재하지 않는 상태이지만, 묽은 영역의 성질을 기준으로 삼는다는 점에서 자연스럽다. 화학에서 더 자주 쓰는 것은 몰랄 농도 기준이다. $\mu_B = \mu_B^\circ + RT\ln a_B, \qquad a_B = \gamma_B\frac{b_B}{b^\circ}, \qquad b^\circ = 1\ \mathrm{mol/kg}, \qquad b_B \to 0\text{에서 } \gamma_B \to 1$
 
@@ -969,11 +953,7 @@ $$
 나프탈렌(N: 녹는점 353.4 K, $\Delta_\text{fus}H \approx 19.0\ \mathrm{kJ/mol}$)과 바이페닐(B: 녹는점 342.4 K, $\Delta_\text{fus}H \approx 18.6\ \mathrm{kJ/mol}$)이 액체에서 이상 용액을 이루고 고체에서는 섞이지 않는다고 하자. (1) 공융 온도와 공융 조성을 구하시오. (2) $x_\text{N} = 0.80$인 액체를 식힐 때 고체가 처음 생기는 온도는? (3) 45 ℃에서 고체와 액체의 몰 비율을 구하시오.
 
 **풀이**
-(1) 공융점에서는 두 액상선의 조성이 서로 맞아떨어져야 하므로 $x_\text{N}(T) + x_\text{B}(T) = 1$을 푼다.
-
-$$
-\exp\!\left[-\frac{19\,000}{8.314}\left(\frac{1}{T} - \frac{1}{353.4}\right)\right] + \exp\!\left[-\frac{18\,600}{8.314}\left(\frac{1}{T} - \frac{1}{342.4}\right)\right] = 1
-$$
+(1) 공융점에서는 두 액상선의 조성이 서로 맞아떨어져야 하므로 $x_\text{N}(T) + x_\text{B}(T) = 1$을 푼다. $\exp\!\left[-\frac{19\,000}{8.314}\left(\frac{1}{T} - \frac{1}{353.4}\right)\right] + \exp\!\left[-\frac{18\,600}{8.314}\left(\frac{1}{T} - \frac{1}{342.4}\right)\right] = 1$
 
 $T = 314\ \mathrm{K}$에서 첫 항 0.445, 둘째 항 0.555로 합이 1이다. 공융점은 약 314 K(41 ℃), $x_\text{N} \approx 0.45$.
 (2) $x_\text{N} = 0.80$: $\dfrac{1}{T} = \dfrac{1}{353.4} - \dfrac{8.314\ln 0.80}{19\,000}$, $T = 341.6\ \mathrm{K}$ (약 68 ℃)에서 고체 나프탈렌이 석출되기 시작한다.
@@ -1028,11 +1008,7 @@ $$
 
 #### 정규 용액 모형
 
-가장 간단한 비이상 모형은 **엔트로피는 이상 혼합 그대로**($S^\mathrm{E} = 0$, 분자가 무작위로 섞인다), **엔탈피만 0이 아니다**라고 보는 것이다. 이것을 **정규 용액(regular solution)** 이라 한다. 격자 위에 A와 B가 무작위로 놓인다고 보고 이웃 사이 상호작용 에너지만 세면(배위수 $z$, 짝 에너지 $\varepsilon_{AA}$, $\varepsilon_{BB}$, $\varepsilon_{AB}$, 인력이면 음수)
-
-$$
-H^\mathrm{E} = nWx_Ax_B, \qquad W = zN_\mathrm{A}\left(\varepsilon_{AB} - \frac{\varepsilon_{AA} + \varepsilon_{BB}}{2}\right)
-$$
+가장 간단한 비이상 모형은 **엔트로피는 이상 혼합 그대로**($S^\mathrm{E} = 0$, 분자가 무작위로 섞인다), **엔탈피만 0이 아니다**라고 보는 것이다. 이것을 **정규 용액(regular solution)** 이라 한다. 격자 위에 A와 B가 무작위로 놓인다고 보고 이웃 사이 상호작용 에너지만 세면(배위수 $z$, 짝 에너지 $\varepsilon_{AA}$, $\varepsilon_{BB}$, $\varepsilon_{AB}$, 인력이면 음수) $H^\mathrm{E} = nWx_Ax_B, \qquad W = zN_\mathrm{A}\left(\varepsilon_{AB} - \frac{\varepsilon_{AA} + \varepsilon_{BB}}{2}\right)$
 
 $W > 0$이면 A–B 짝이 같은 분자끼리의 평균보다 덜 안정하다(양의 벗어남), $W < 0$이면 더 안정하다(음의 벗어남). 무차원 매개변수 $\xi = W/RT$를 쓰면
 
@@ -1040,11 +1016,7 @@ $$
 \boxed{\;G^\mathrm{E} = n\,\xi RT\,x_Ax_B, \qquad \Delta_\text{mix}G = nRT\,\big(x_A\ln x_A + x_B\ln x_B + \xi\,x_Ax_B\big)\;}
 $$
 
-**활동도 계수의 유도** $G^\mathrm{E} = W\dfrac{n_An_B}{n_A + n_B}$를 $n_A$로 편미분하면(STEP 2 예제 1과 같은 계산) $\mu_A^\mathrm{E} = W\dfrac{n_B^2}{n^2} = Wx_B^2$이다. 따라서
-
-$$
-\ln\gamma_A = \xi\,x_B^2, \qquad \ln\gamma_B = \xi\,x_A^2 \qquad (\textbf{한 매개변수 마굴레스 식})
-$$
+**활동도 계수의 유도** $G^\mathrm{E} = W\dfrac{n_An_B}{n_A + n_B}$를 $n_A$로 편미분하면(STEP 2 예제 1과 같은 계산) $\mu_A^\mathrm{E} = W\dfrac{n_B^2}{n^2} = Wx_B^2$이다. 따라서 $\ln\gamma_A = \xi\,x_B^2, \qquad \ln\gamma_B = \xi\,x_A^2$ (**한 매개변수 마굴레스 식**)
 
 이 두 식이 깁스–뒤앙 식 $x_A\,d\ln\gamma_A + x_B\,d\ln\gamma_B = 0$을 만족함은 직접 미분해 확인할 수 있다($x_A\cdot2\xi x_B(-1) + x_B\cdot2\xi x_A = 0$). 부분 증기 압력은 $p_A = x_A\,e^{\xi x_B^2}\,p_A^*$이고, $x_A \to 0$에서 $p_A \to x_A\,e^{\xi}\,p_A^*$이므로 헨리 상수는 $K_A = e^{\xi}p_A^*$이다.
 
