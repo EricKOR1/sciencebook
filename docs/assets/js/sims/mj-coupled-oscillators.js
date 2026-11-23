@@ -130,7 +130,7 @@ Sims.register('mj-coupled-oscillators', {
     }
     function bars(T, r) {
       ctx.fillStyle = T.figInk; ctx.font = '600 13px ' + T.fontBody; ctx.textAlign = 'left';
-      ctx.fillText('처음 상태 = c₁·(모드 1) + c₂·(모드 2)', r.x + 10, r.y + 16);
+      ctx.fillText('처음 상태의 기준 진동 성분', r.x + 10, r.y + 16);
       var E = MD.map(function (o) { return o.c * o.c * o.w * o.w; }), Et = E[0] + E[1] || 1;
       var maxc = Math.max(1, Math.abs(MD[0].c), Math.abs(MD[1].c));
       MD.forEach(function (o, i) {
