@@ -61,8 +61,8 @@
   <text x="296.0" y="124.0" text-anchor="end" class="umath-5-linear-systems-s">4</text>
   <line x1="264.0" y1="144.0" x2="395.8" y2="275.8" style="stroke:var(--fig-blue);stroke-width:2.4;fill:none"/>
   <line x1="264.0" y1="84.0" x2="455.5" y2="275.5" style="stroke:var(--fig-red);stroke-width:2.4;fill:none"/>
-  <text x="289.0" y="155.0" text-anchor="start" class="umath-5-linear-systems-b" style="fill:var(--fig-blue);transform:rotate(45deg);transform-origin:289.0px 155.0px">x + y = 2</text>
-  <text x="355.0" y="161.0" text-anchor="start" class="umath-5-linear-systems-b" style="fill:var(--fig-red);transform:rotate(45deg);transform-origin:355.0px 161.0px">x + y = 4</text>
+  <text x="289.0" y="155.0" transform="rotate(45 289.0 155.0)" class="umath-5-linear-systems-b" style="fill:var(--fig-blue)">x + y = 2</text>
+  <text x="355.0" y="161.0" transform="rotate(45 355.0 161.0)" class="umath-5-linear-systems-b" style="fill:var(--fig-red)">x + y = 4</text>
   <text x="402.0" y="108.0" text-anchor="middle" class="umath-5-linear-systems-s">평행</text>
   <text x="360.0" y="300.0" text-anchor="middle" class="umath-5-linear-systems-b" style="fill:var(--fig-accent);">det A = 0 (모순)</text>
   <text x="600.0" y="26.0" text-anchor="middle" class="umath-5-linear-systems-b">(다) 해가 무수히 많음</text>
@@ -92,7 +92,7 @@
   <text x="536.0" y="124.0" text-anchor="end" class="umath-5-linear-systems-s">4</text>
   <line x1="504.0" y1="144.0" x2="635.8" y2="275.8" style="stroke:var(--fig-violet);stroke-width:6;fill:none;opacity:0.55"/>
   <line x1="504.0" y1="144.0" x2="635.8" y2="275.8" style="stroke:var(--fig-amber);stroke-width:2;fill:none;stroke-dasharray:7 5"/>
-  <text x="579.0" y="201.0" text-anchor="start" class="umath-5-linear-systems-b" style="fill:var(--fig-violet);transform:rotate(45deg);transform-origin:579.0px 201.0px">x + y = 2</text>
-  <text x="509.0" y="181.0" text-anchor="start" class="umath-5-linear-systems-b" style="fill:var(--fig-amber);transform:rotate(45deg);transform-origin:509.0px 181.0px">2x + 2y = 4</text>
+  <text x="579.0" y="201.0" transform="rotate(45 579.0 201.0)" class="umath-5-linear-systems-b" style="fill:var(--fig-violet)">x + y = 2</text>
+  <text x="509.0" y="181.0" transform="rotate(45 509.0 181.0)" class="umath-5-linear-systems-b" style="fill:var(--fig-amber)">2x + 2y = 4</text>
   <text x="600.0" y="300.0" text-anchor="middle" class="umath-5-linear-systems-b" style="fill:var(--fig-accent);">det A = 0 (겹침)</text>
 </svg>
