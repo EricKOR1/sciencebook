@@ -327,7 +327,7 @@ $\left(\dfrac{\partial P}{\partial T}\right)_V = \dfrac{R}{V-b} = \dfrac{0.08314
 $\left(\dfrac{\partial P}{\partial V}\right)_T = -\dfrac{RT}{(V-b)^2} + \dfrac{2a}{V^3} = -119.3 + 58.2 = -61.0\ \mathrm{bar/L}$ (이상 기체: $-RT/V^2 = -99.8\ \mathrm{bar/L}$)
 의미: 인력 항이 $+2a/V^3$만큼 기울기를 완만하게 만든다. 분자들이 서로 끌어당기므로 같은 부피 감소에 대해 압력이 덜 오른다. 즉 이 상태의 $\mathrm{CO_2}$는 이상 기체보다 **더 잘 압축된다.** 임계점에서는 이 기울기가 정확히 0이 된다(물리화학 「기체의 성질과 열역학 제1법칙」).
 
-<!-- 그림 요청: CO₂ 판데르발스 등온선 세 개(T = 280 K, 304 K, 330 K)를 P–V 그래프로 그린다. 가로축 V = 0.06~0.6 L (1 mol), 세로축 P = 0~120 bar. 식 P = 0.08314T/(V − 0.04267) − 3.640/V². 280 K 곡선에는 극대·극소가 있는 물결 모양이 보이게, 304 K(임계 온도 근처)는 변곡점에서 기울기가 0, 330 K는 단조 감소로 그린다. 300 K에 해당하는 점선 곡선 위 V = 0.500 L 점에 접선(기울기 −61 bar/L)을 그리고, 같은 점에서 이상 기체 등온선의 접선(−99.8 bar/L)을 비교용 회색 점선으로 덧그린다. -->
+<!-- 그림 요청: CO₂ 판데르발스 등온선 세 개(T = 280 K, 304 K, 330 K)를 P–V 그래프로 그린다. 가로축 V = 0.06~0.6 L (1 mol), 세로축 P = 0~120 bar. 식 P = 0.08314T/(V − 0.04267) − 3.640/V². 280 K 곡선에는 극대·극소가 있는 물결 모양이 보이게, 304 K(임계 온도 근처)는 변곡점에서 기울기가 0, 330 K는 단조 감소로 그린다. 여기에 300 K 등온선을 점선으로 하나 더 그리고, 그 곡선 위 V = 0.500 L 점에 접선(기울기 −61 bar/L)을 그리고, 같은 점에서 이상 기체 등온선의 접선(−99.8 bar/L)을 비교용 회색 점선으로 덧그린다. -->
 
 #### ✔ 바로 확인
 
@@ -857,7 +857,7 @@ $$
 를 최소로 하는 조성을 라그랑주 승수법으로 구하시오. $\Delta G^\circ = \mu_\mathrm{B}^\circ - \mu_\mathrm{A}^\circ = -3.00\ \mathrm{kJ/mol}$이다.
 
 **풀이**
-① 편미분: $x_\mathrm{A}$, $x_\mathrm{B}$도 $n_\mathrm{A}$에 의존하므로 조심해서 미분한다. $\partial\ln x_\mathrm{A}/\partial n_\mathrm{A} = 1/n_\mathrm{A} - 1/n$, $\partial\ln x_\mathrm{B}/\partial n_\mathrm{A} = -1/n$이므로
+① 편미분: $x_\mathrm{A}$, $x_\mathrm{B}$도 $n_\mathrm{A}$에 의존하므로 조심해서 미분한다($n_\mathrm{B}$를 고정하고 $n_\mathrm{A}$만 바꾸므로 이 단계에서는 분모 $n = n_\mathrm{A} + n_\mathrm{B}$도 함께 변한다. 제약은 ②에서 승수로 넣는다). $\partial\ln x_\mathrm{A}/\partial n_\mathrm{A} = 1/n_\mathrm{A} - 1/n$, $\partial\ln x_\mathrm{B}/\partial n_\mathrm{A} = -1/n$이므로
 $$
 \frac{\partial G}{\partial n_\mathrm{A}} = \mu_\mathrm{A}^\circ + RT\ln x_\mathrm{A} + RT\left[n_\mathrm{A}\left(\frac{1}{n_\mathrm{A}} - \frac{1}{n}\right) - \frac{n_\mathrm{B}}{n}\right] = \mu_\mathrm{A}^\circ + RT\ln x_\mathrm{A}
 $$
@@ -897,7 +897,7 @@ $$
 |---|---|---|
 | 편미분의 아래첨자(고정한 변수)는 생략해도 된다 | 같은 양을 다른 변수 쌍으로 나타낼 수 있어 "$T$에 대한 미분"이 하나로 정해지지 않는다 | $(\partial U/\partial T)_V$와 $(\partial U/\partial T)_P$는 다른 양이며, 그 차이는 $(\partial U/\partial V)_T(\partial V/\partial T)_P$이다 |
 | $\partial$는 분수처럼 약분되므로 $(\partial x/\partial y)_z(\partial y/\partial z)_x(\partial z/\partial x)_y = 1$이다 | 세 인자는 서로 **다른 변수를 고정**한 미분이어서 약분할 수 없다 | 순환 관계로 $-1$이다. 이상 기체로 직접 확인할 수 있다 |
-| 역수 관계 $(\partial x/\partial y) = 1/(\partial y/\partial x)$는 아무 때나 쓸 수 있다 | 두 미분에서 고정한 변수가 같을 때만 성립한다 | $(\partial T/\partial P)_V = 1/(\partial P/\partial T)_V$는 맞지만 $(\partial T/\partial P)_V$와 $1/(\partial P/\partial T)_S$는 관계가 없다 |
+| 역수 관계 $(\partial x/\partial y) = 1/(\partial y/\partial x)$는 아무 때나 쓸 수 있다 | 두 미분에서 고정한 변수가 같을 때만 성립한다 | $(\partial T/\partial P)_V = 1/(\partial P/\partial T)_V$는 맞지만 $(\partial T/\partial P)_V$와 $1/(\partial P/\partial T)_S$는 일반적으로 같지 않다 |
 | 순환 과정에서 $\oint\delta q \ne 0$이면 에너지 보존이 깨진 것이다 | 열은 부정확 미분이라 한 바퀴 적분이 0일 이유가 없다 | 0이 되어야 하는 것은 상태 함수의 변화 $\oint dU = 0$이며, 이때 $\oint\delta q = -\oint\delta w$이다 |
 | $f'(x) = 0$이면 극값이다 | 변곡점(예: $x^3$의 원점)에서도 $f' = 0$이다 | 2계 도함수나 더 높은 차수로 판정하고, 닫힌 구간에서는 끝점도 비교한다 |
 | 두 변수 함수에서 $f_{xx} > 0$, $f_{yy} > 0$이면 극소이다 | 비스듬한 방향의 휘어짐($f_{xy}$)을 빠뜨렸다 | $D = f_{xx}f_{yy} - f_{xy}^2 > 0$까지 확인해야 하며, $D < 0$이면 안장점이다 |
@@ -1236,7 +1236,7 @@ $\dfrac{d^2\Delta G}{dT^2} = -\dfrac{\Delta C_p}{T} < 0$이므로 최대이다. 
 
 **정답** (1) $x = 2.821$ (2) $\nu_\text{max} = 3.39\times10^{14}\ \mathrm{Hz}$, $c/\nu_\text{max} = 884\ \mathrm{nm}$. 분포를 어떤 변수의 '단위 폭당'으로 나타냈는지가 다르기 때문이다.
 
-(1) $\ln u_\nu = \text{상수} + 3\ln\nu - \ln(e^x - 1)$, $dx/d\nu = x/\nu$이므로 $\dfrac{d\ln u_\nu}{d\nu} = \dfrac{1}{\nu}\left(3 - \dfrac{xe^x}{e^x - 1}\right) = 0$ → $x = 3(1 - e^{-x})$. $x_{n+1} = 3(1 - e^{-x_n})$을 $x_0 = 3$에서 되풀이하면 $2.851 \to 2.827 \to 2.822 \to 2.821$.
+(1) $\ln u_\nu = \text{상수} + 3\ln\nu - \ln(e^x - 1)$, $dx/d\nu = x/\nu$이므로 $\dfrac{d\ln u_\nu}{d\nu} = \dfrac{1}{\nu}\left(3 - \dfrac{xe^x}{e^x - 1}\right) = 0$ → $x = 3(1 - e^{-x})$. $x_{n+1} = 3(1 - e^{-x_n})$을 $x_0 = 3$에서 되풀이하면 $2.8506 \to 2.8266 \to 2.8224 \to 2.8216 \to 2.8215 \to 2.8214$이므로 $x = 2.821$.
 (2) $\nu_\text{max} = \dfrac{2.821\times1.381\times10^{-23}\times5772}{6.626\times10^{-34}} = 3.39\times10^{14}\ \mathrm{Hz}$, $c/\nu_\text{max} = 884\ \mathrm{nm}$.
 $u_\lambda\,d\lambda$와 $u_\nu\,d\nu$는 같은 띠의 에너지를 나타내므로 $u_\nu = u_\lambda\lvert d\lambda/d\nu\rvert = u_\lambda\lambda^2/c$이다. 변수를 바꿀 때 곱해지는 인자 $\lambda^2/c$가 파장에 따라 달라서 봉우리 위치가 옮겨 간다. "스펙트럼의 봉우리"는 물리적 사실이 아니라 무엇을 가로축으로 잡았는가에 따라 달라지는 양이다.
 

@@ -1361,7 +1361,7 @@ $I = 3\times0.020 = 0.060$, $\sqrt{I} = 0.245$.
 
 (1) $\Delta_\mathrm{r}G^\circ = -2\times96\,485\times0.500 = -96.5\ \mathrm{kJ/mol}$, $\Delta_\mathrm{r}S^\circ = 2\times96\,485\times2.0\times10^{-4} = +38.6\ \mathrm{J/(mol\cdot K)}$, $\Delta_\mathrm{r}H^\circ = -96.49 + 298.15\times0.0386 = -85.0\ \mathrm{kJ/mol}$.
 (2) 25 ℃: $\ln K = 2FE^\circ/RT = 38.92$, $K = 8.0\times10^{16}$. 50 ℃: $E^\circ = 0.505\ \mathrm{V}$, $\ln K = 2\times96\,485\times0.505/(8.314\times323.15) = 36.27$, $K = 5.6\times10^{15}$.
-(3) $\ln K = \nu FE^\circ/RT$에서 분모의 $T$도 커진다. $E^\circ$의 증가율(1 %)보다 $T$의 증가율(8.4 %)이 커서 $\ln K$가 줄어든다. 판트호프 식으로도 $\Delta_\mathrm{r}H^\circ < 0$(발열)이므로 $K$가 줄어야 하며, 실제로 $\ln K(50\ ℃) = 38.92 - (-85\,000/8.314)(1/323.15 - 1/298.15) = 36.27$로 같은 값이 나온다.
+(3) $\ln K = \nu FE^\circ/RT$에서 분모의 $T$도 커진다. $E^\circ$의 증가율(1 %)보다 $T$의 증가율(8.4 %)이 커서 $\ln K$가 줄어든다. 판트호프 식으로도 $\Delta_\mathrm{r}H^\circ < 0$(발열)이므로 $K$가 줄어야 하며, 실제로 $\ln K(50\,^\circ\mathrm{C}) = 38.92 - (-85\,000/8.314)(1/323.15 - 1/298.15) = 36.27$로 같은 값이 나온다.
 
 </details>
 
@@ -1406,7 +1406,7 @@ $\mathrm{KNO_3}$는 이온 분위기로 $\mathrm{Ag^+}$와 $\mathrm{Br^-}$의 �
 (2) $\varepsilon = 6.954\times10^{-10}\ \mathrm{C^2/(J\cdot m)}$, $k_\mathrm{B}T = 4.116\times10^{-21}\ \mathrm{J}$.
 $\kappa^2/I = 2e^2N_\mathrm{A}\rho^*b^\circ/(\varepsilon k_\mathrm{B}T) = 2(2.567\times10^{-38})(6.022\times10^{23})(997.0)/(2.862\times10^{-30}) = 1.077\times10^{19}\ \mathrm{m^{-2}}$, $\kappa/\sqrt{I} = 3.28\times10^{9}\ \mathrm{m^{-1}}$ (디바이 길이 0.304 nm).
 $A = \dfrac{e^2(\kappa/\sqrt{I})}{8\pi\varepsilon k_\mathrm{B}T\ln 10} = \dfrac{(2.567\times10^{-38})(3.28\times10^9)}{8\pi(2.862\times10^{-30})(2.303)} = 0.509$.
-(3) $A \propto \varepsilon^{-1}T^{-1}\cdot(\rho^*/\varepsilon T)^{1/2} = (\rho^*)^{1/2}(\varepsilon_\mathrm{r}T)^{-3/2}$. $A(0\ ℃) = 0.509\times\left(\dfrac{78.54\times298.15}{87.90\times273.15}\right)^{3/2}\left(\dfrac{999.8}{997.0}\right)^{1/2} = 0.509\times0.9645 = 0.491$ (상수를 직접 넣어 계산하면 0.490).
+(3) $A \propto \varepsilon^{-1}T^{-1}\cdot(\rho^*/\varepsilon T)^{1/2} = (\rho^*)^{1/2}(\varepsilon_\mathrm{r}T)^{-3/2}$. $A(0\,^\circ\mathrm{C}) = 0.509\times\left(\dfrac{78.54\times298.15}{87.90\times273.15}\right)^{3/2}\left(\dfrac{999.8}{997.0}\right)^{1/2} = 0.509\times0.9645 = 0.491$ (상수를 직접 넣어 계산하면 0.490).
 (4) $\varepsilon_\mathrm{r}$이 작으면 $A \propto \varepsilon_\mathrm{r}^{-3/2}$가 커져(밀도와 온도의 차이는 작게 보고) $\lvert\log\gamma_\pm\rvert$가 약 $(78.5/33)^{3/2} \approx 3.7$배가 된다. 쿨롱 상호작용이 덜 가려져 이온 분위기의 안정화가 커지기 때문이며, 실제로는 이온쌍 형성도 심해진다.
 
 **채점 포인트** ① 전기적 중성을 쓴 대수 처리 ② 단위를 맞춘 수치 계산($\kappa$의 단위 $\mathrm{m^{-1}}$) ③ $\varepsilon_\mathrm{r}T$ 의존의 지수 $-3/2$ ④ 유전율과 가려막기의 정성적 연결
