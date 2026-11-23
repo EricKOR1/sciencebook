@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-umath-7-q-polymer-chain d-umath-7-q-polymer-chain">
+  <title id="t-umath-7-q-polymer-chain">그림 수학 도구 7-13 문제 12의 무작위 코일 사슬</title>
+  <desc id="d-umath-7-q-polymer-chain">길이 b인 결합 20개가 무작위 방향으로 이어진 3차원 고분자 사슬을 평면에 투영한 모식도와 양 끝 벡터 R, 그리고 같은 결합 20개를 일직선으로 편 길이 nb를 나란히 비교한 그림.</desc>
+  <style>
+    .umath-7-q-polymer-chain-ax{stroke:var(--fig-ink);stroke-width:1.3;fill:none}
+    .umath-7-q-polymer-chain-grid{stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:2 4;fill:none;opacity:0.7}
+    .umath-7-q-polymer-chain-tk{font-size:13px;fill:var(--fig-muted)}
+    .umath-7-q-polymer-chain-lb{font-size:14px;fill:var(--fig-ink)}
+    .umath-7-q-polymer-chain-t{font-size:14px;fill:var(--fig-ink)}
+    .umath-7-q-polymer-chain-tb{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .umath-7-q-polymer-chain-s{font-size:13px;fill:var(--fig-muted)}
+    .umath-7-q-polymer-chain-ink{fill:var(--fig-ink)}
+    .umath-7-q-polymer-chain-bd{stroke:var(--fig-teal);stroke-width:3;stroke-linecap:round;fill:none}
+    .umath-7-q-polymer-chain-bk{stroke:var(--fig-teal);stroke-width:3;stroke-linecap:round;fill:none;opacity:0.45}
+    .umath-7-q-polymer-chain-at{fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:1.6}
+    .umath-7-q-polymer-chain-R{stroke:var(--fig-red);stroke-width:3.2;fill:none}
+    .umath-7-q-polymer-chain-rl{font-size:16px;font-weight:600;fill:var(--fig-red);font-style:italic}
+    .umath-7-q-polymer-chain-st{fill:var(--fig-green);stroke:var(--fig-panel);stroke-width:1.2}
+    .umath-7-q-polymer-chain-en{fill:var(--fig-red);stroke:var(--fig-panel);stroke-width:1.2}
+    .umath-7-q-polymer-chain-rod{stroke:var(--fig-teal);stroke-width:3;fill:none}
+    .umath-7-q-polymer-chain-br{stroke:var(--fig-ink);stroke-width:1.3;fill:none}
+  </style>
+  <defs>
+    <marker id="umath-7-q-polymer-chain-ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-red)"/></marker>
+    <marker id="umath-7-q-polymer-chain-ah-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-ink)"/></marker>
+  </defs>
+<line x1="274.2" y1="108.3" x2="254.0" y2="123.8" class="umath-7-q-polymer-chain-bk"/>
+<line x1="254.0" y1="123.8" x2="249.5" y2="153.4" class="umath-7-q-polymer-chain-bk"/>
+<line x1="249.5" y1="153.4" x2="231.8" y2="136.9" class="umath-7-q-polymer-chain-bk"/>
+<line x1="231.8" y1="136.9" x2="258.0" y2="122.4" class="umath-7-q-polymer-chain-bk"/>
+<line x1="258.0" y1="122.4" x2="271.9" y2="98.0" class="umath-7-q-polymer-chain-bk"/>
+<line x1="271.9" y1="98.0" x2="283.6" y2="98.8" class="umath-7-q-polymer-chain-bk"/>
+<line x1="283.6" y1="98.8" x2="257.5" y2="108.2" class="umath-7-q-polymer-chain-bd"/>
+<line x1="257.5" y1="108.2" x2="262.1" y2="137.2" class="umath-7-q-polymer-chain-bd"/>
+<line x1="262.1" y1="137.2" x2="250.6" y2="160.5" class="umath-7-q-polymer-chain-bd"/>
+<line x1="250.6" y1="160.5" x2="253.3" y2="183.2" class="umath-7-q-polymer-chain-bd"/>
+<line x1="253.3" y1="183.2" x2="242.6" y2="211.2" class="umath-7-q-polymer-chain-bd"/>
+<line x1="242.6" y1="211.2" x2="262.5" y2="218.3" class="umath-7-q-polymer-chain-bd"/>
+<line x1="262.5" y1="218.3" x2="277.9" y2="226.8" class="umath-7-q-polymer-chain-bd"/>
+<line x1="277.9" y1="226.8" x2="258.4" y2="208.0" class="umath-7-q-polymer-chain-bd"/>
+<line x1="258.4" y1="208.0" x2="235.9" y2="227.9" class="umath-7-q-polymer-chain-bd"/>
+<line x1="235.9" y1="227.9" x2="235.3" y2="208.1" class="umath-7-q-polymer-chain-bd"/>
+<line x1="235.3" y1="208.1" x2="216.4" y2="211.2" class="umath-7-q-polymer-chain-bd"/>
+<line x1="216.4" y1="211.2" x2="217.6" y2="232.0" class="umath-7-q-polymer-chain-bk"/>
+<line x1="217.6" y1="232.0" x2="246.4" y2="231.5" class="umath-7-q-polymer-chain-bk"/>
+<line x1="246.4" y1="231.5" x2="275.0" y2="222.7" class="umath-7-q-polymer-chain-bk"/>
+<circle cx="254.0" cy="123.8" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="249.5" cy="153.4" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="231.8" cy="136.9" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="258.0" cy="122.4" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="271.9" cy="98.0" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="283.6" cy="98.8" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="257.5" cy="108.2" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="262.1" cy="137.2" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="250.6" cy="160.5" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="253.3" cy="183.2" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="242.6" cy="211.2" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="262.5" cy="218.3" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="277.9" cy="226.8" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="258.4" cy="208.0" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="235.9" cy="227.9" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="235.3" cy="208.1" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="216.4" cy="211.2" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="217.6" cy="232.0" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="246.4" cy="231.5" r="4" class="umath-7-q-polymer-chain-at"/>
+<line x1="274.2" y1="116.3" x2="274.9" y2="213.7" class="umath-7-q-polymer-chain-R" marker-end="url(#umath-7-q-polymer-chain-ah-red)"/>
+<circle cx="274.2" cy="108.3" r="6.5" class="umath-7-q-polymer-chain-st"/>
+<circle cx="275.0" cy="222.7" r="6.5" class="umath-7-q-polymer-chain-en"/>
+<text x="256.6" y="170.6" text-anchor="middle" class="umath-7-q-polymer-chain-rl">R</text>
+<text x="274.2" y="130.3" text-anchor="middle" class="umath-7-q-polymer-chain-s">시작</text>
+<text x="275.0" y="210.7" text-anchor="middle" class="umath-7-q-polymer-chain-s">끝</text>
+<text x="480" y="80" class="umath-7-q-polymer-chain-tb">무작위 코일 (모식도)</text>
+<text x="480" y="106" class="umath-7-q-polymer-chain-t">길이 b인 결합 20개가</text>
+<text x="480" y="126" class="umath-7-q-polymer-chain-t">서로 무관한 방향으로 이어짐</text>
+<text x="480" y="154" class="umath-7-q-polymer-chain-t" style="fill:var(--fig-red)">R: 양 끝 벡터</text>
+<text x="480" y="180" class="umath-7-q-polymer-chain-s">3차원 사슬을 평면에 투영했다</text>
+<text x="480" y="198" class="umath-7-q-polymer-chain-s">(연한 결합이 뒤쪽)</text>
+<line x1="60" y1="345" x2="660" y2="345" class="umath-7-q-polymer-chain-rod"/>
+<circle cx="60" cy="345" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="90" cy="345" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="120" cy="345" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="150" cy="345" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="180" cy="345" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="210" cy="345" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="240" cy="345" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="270" cy="345" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="300" cy="345" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="330" cy="345" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="360" cy="345" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="390" cy="345" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="420" cy="345" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="450" cy="345" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="480" cy="345" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="510" cy="345" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="540" cy="345" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="570" cy="345" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="600" cy="345" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="630" cy="345" r="4" class="umath-7-q-polymer-chain-at"/>
+<circle cx="660" cy="345" r="4" class="umath-7-q-polymer-chain-at"/>
+<path d="M60 359 L60 367 L660 367 L660 359" class="umath-7-q-polymer-chain-br"/>
+<text x="360" y="387" text-anchor="middle" class="umath-7-q-polymer-chain-t">쭉 편 길이 nb (결합 n = 20개)</text>
+<path d="M60 333 L60 327 L90 327 L90 333" class="umath-7-q-polymer-chain-br"/>
+<text x="75.0" y="321" text-anchor="middle" class="umath-7-q-polymer-chain-t">b</text>
+<text x="674" y="350" class="umath-7-q-polymer-chain-s">같은 결합</text>
+<line x1="40" y1="300" x2="680" y2="300" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
+</svg>

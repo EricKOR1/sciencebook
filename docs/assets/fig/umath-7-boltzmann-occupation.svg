@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-umath-7-boltzmann-occupation d-umath-7-boltzmann-occupation">
+  <title id="t-umath-7-boltzmann-occupation">그림 수학 도구 7-5 다섯 준위의 볼츠만 점유와 온도</title>
+  <desc id="d-umath-7-boltzmann-occupation">간격이 ε로 일정하고 축퇴가 없는 다섯 준위의 볼츠만 점유 n_j/N(다섯 준위만으로 정규화). k_BT = 0.5ε에서 0.87, 0.12, 0.02, 0.00, 0.00, k_BT = ε에서 0.64, 0.23, 0.09, 0.03, 0.01, k_BT = 3ε에서 0.35, 0.25, 0.18, 0.13, 0.09이다. 막대 끝은 지수 곡선 위에 놓이며, 온도가 높을수록 분포가 납작해진다.</desc>
+  <style>
+    .umath-7-boltzmann-occupation-ax{stroke:var(--fig-ink);stroke-width:1.3;fill:none}
+    .umath-7-boltzmann-occupation-grid{stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:2 4;fill:none;opacity:0.7}
+    .umath-7-boltzmann-occupation-tk{font-size:13px;fill:var(--fig-muted)}
+    .umath-7-boltzmann-occupation-lb{font-size:14px;fill:var(--fig-ink)}
+    .umath-7-boltzmann-occupation-t{font-size:14px;fill:var(--fig-ink)}
+    .umath-7-boltzmann-occupation-tb{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .umath-7-boltzmann-occupation-s{font-size:13px;fill:var(--fig-muted)}
+    .umath-7-boltzmann-occupation-ink{fill:var(--fig-ink)}
+    .umath-7-boltzmann-occupation-bar{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.4}
+    .umath-7-boltzmann-occupation-ex{stroke:var(--fig-red);stroke-width:1.8;stroke-dasharray:5 4;fill:none}
+    .umath-7-boltzmann-occupation-v{font-size:13px;font-weight:600;fill:var(--fig-violet)}
+    .umath-7-boltzmann-occupation-red{font-size:13px;fill:var(--fig-red)}
+    .umath-7-boltzmann-occupation-big{stroke:var(--fig-ink);stroke-width:2;fill:none}
+  </style>
+  <defs>
+    <marker id="umath-7-boltzmann-occupation-ah-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-ink)"/></marker>
+  </defs>
+<line x1="70" y1="270.0" x2="240" y2="270.0" class="umath-7-boltzmann-occupation-grid"/>
+<line x1="70" y1="226.0" x2="240" y2="226.0" class="umath-7-boltzmann-occupation-grid"/>
+<line x1="70" y1="182.0" x2="240" y2="182.0" class="umath-7-boltzmann-occupation-grid"/>
+<line x1="70" y1="138.0" x2="240" y2="138.0" class="umath-7-boltzmann-occupation-grid"/>
+<line x1="70" y1="94.0" x2="240" y2="94.0" class="umath-7-boltzmann-occupation-grid"/>
+<line x1="70" y1="50.0" x2="240" y2="50.0" class="umath-7-boltzmann-occupation-grid"/>
+<line x1="70" y1="270" x2="240" y2="270" class="umath-7-boltzmann-occupation-ax"/>
+<line x1="70" y1="50" x2="70" y2="270" class="umath-7-boltzmann-occupation-ax"/>
+<line x1="89.6" y1="270" x2="89.6" y2="275" class="umath-7-boltzmann-occupation-ax"/>
+<text x="89.6" y="290" text-anchor="middle" class="umath-7-boltzmann-occupation-tk">0</text>
+<line x1="122.3" y1="270" x2="122.3" y2="275" class="umath-7-boltzmann-occupation-ax"/>
+<text x="122.3" y="290" text-anchor="middle" class="umath-7-boltzmann-occupation-tk">1</text>
+<line x1="155.0" y1="270" x2="155.0" y2="275" class="umath-7-boltzmann-occupation-ax"/>
+<text x="155.0" y="290" text-anchor="middle" class="umath-7-boltzmann-occupation-tk">2</text>
+<line x1="187.7" y1="270" x2="187.7" y2="275" class="umath-7-boltzmann-occupation-ax"/>
+<text x="187.7" y="290" text-anchor="middle" class="umath-7-boltzmann-occupation-tk">3</text>
+<line x1="220.4" y1="270" x2="220.4" y2="275" class="umath-7-boltzmann-occupation-ax"/>
+<text x="220.4" y="290" text-anchor="middle" class="umath-7-boltzmann-occupation-tk">4</text>
+<line x1="65" y1="270.0" x2="70" y2="270.0" class="umath-7-boltzmann-occupation-ax"/>
+<text x="62" y="274.5" text-anchor="end" class="umath-7-boltzmann-occupation-tk">0.0</text>
+<line x1="65" y1="226.0" x2="70" y2="226.0" class="umath-7-boltzmann-occupation-ax"/>
+<text x="62" y="230.5" text-anchor="end" class="umath-7-boltzmann-occupation-tk">0.2</text>
+<line x1="65" y1="182.0" x2="70" y2="182.0" class="umath-7-boltzmann-occupation-ax"/>
+<text x="62" y="186.5" text-anchor="end" class="umath-7-boltzmann-occupation-tk">0.4</text>
+<line x1="65" y1="138.0" x2="70" y2="138.0" class="umath-7-boltzmann-occupation-ax"/>
+<text x="62" y="142.5" text-anchor="end" class="umath-7-boltzmann-occupation-tk">0.6</text>
+<line x1="65" y1="94.0" x2="70" y2="94.0" class="umath-7-boltzmann-occupation-ax"/>
+<text x="62" y="98.5" text-anchor="end" class="umath-7-boltzmann-occupation-tk">0.8</text>
+<line x1="65" y1="50.0" x2="70" y2="50.0" class="umath-7-boltzmann-occupation-ax"/>
+<text x="62" y="54.5" text-anchor="end" class="umath-7-boltzmann-occupation-tk">1.0</text>
+<text x="155.0" y="308" text-anchor="middle" class="umath-7-boltzmann-occupation-lb">준위 j (ε_j = jε)</text>
+<text x="22" y="160.0" text-anchor="middle" transform="rotate(-90 22 160.0)" class="umath-7-boltzmann-occupation-lb">n_j / N</text>
+<rect x="77.6" y="79.8" width="24" height="190.2" class="umath-7-boltzmann-occupation-bar"/>
+<text x="89.6" y="73.8" text-anchor="middle" class="umath-7-boltzmann-occupation-v">0.87</text>
+<rect x="110.3" y="244.3" width="24" height="25.7" class="umath-7-boltzmann-occupation-bar"/>
+<text x="122.3" y="238.3" text-anchor="middle" class="umath-7-boltzmann-occupation-v">0.12</text>
+<rect x="143.0" y="266.5" width="24" height="3.5" class="umath-7-boltzmann-occupation-bar"/>
+<text x="155.0" y="260.5" text-anchor="middle" class="umath-7-boltzmann-occupation-v">0.02</text>
+<rect x="175.7" y="269.5" width="24" height="0.5" class="umath-7-boltzmann-occupation-bar"/>
+<text x="187.7" y="263.5" text-anchor="middle" class="umath-7-boltzmann-occupation-v">0.00</text>
+<rect x="208.4" y="269.9" width="24" height="0.1" class="umath-7-boltzmann-occupation-bar"/>
+<text x="220.4" y="263.9" text-anchor="middle" class="umath-7-boltzmann-occupation-v">0.00</text>
+<path d="M89.6 79.8 L91.2 97.9 L92.9 114.2 L94.5 129.1 L96.2 142.5 L97.8 154.6 L99.4 165.6 L101.1 175.5 L102.7 184.5 L104.3 192.7 L106.0 200.0 L107.6 206.7 L109.2 212.7 L110.9 218.2 L112.5 223.1 L114.1 227.6 L115.8 231.6 L117.4 235.2 L119.0 238.6 L120.7 241.5 L122.3 244.3 L123.9 246.7 L125.6 248.9 L127.2 250.9 L128.8 252.7 L130.5 254.4 L132.1 255.9 L133.8 257.2 L135.4 258.4 L137.0 259.5 L138.7 260.5 L140.3 261.4 L141.9 262.2 L143.6 263.0 L145.2 263.7 L146.8 264.3 L148.5 264.8 L150.1 265.3 L151.7 265.7 L153.4 266.1 L155.0 266.5 L156.6 266.8 L158.3 267.1 L159.9 267.4 L161.5 267.7 L163.2 267.9 L164.8 268.1 L166.4 268.3 L168.1 268.4 L169.7 268.6 L171.3 268.7 L173.0 268.8 L174.6 269.0 L176.3 269.1 L177.9 269.1 L179.5 269.2 L181.2 269.3 L182.8 269.4 L184.4 269.4 L186.1 269.5 L187.7 269.5 L189.3 269.6 L191.0 269.6 L192.6 269.7 L194.2 269.7 L195.9 269.7 L197.5 269.7 L199.1 269.8 L200.8 269.8 L202.4 269.8 L204.0 269.8 L205.7 269.8 L207.3 269.9 L208.9 269.9 L210.6 269.9 L212.2 269.9 L213.8 269.9 L215.5 269.9 L217.1 269.9 L218.8 269.9 L220.4 269.9" class="umath-7-boltzmann-occupation-ex"/>
+<text x="155.0" y="32" text-anchor="middle" class="umath-7-boltzmann-occupation-tb">k_BT = 0.5ε</text>
+<line x1="290" y1="270.0" x2="460" y2="270.0" class="umath-7-boltzmann-occupation-grid"/>
+<line x1="290" y1="226.0" x2="460" y2="226.0" class="umath-7-boltzmann-occupation-grid"/>
+<line x1="290" y1="182.0" x2="460" y2="182.0" class="umath-7-boltzmann-occupation-grid"/>
+<line x1="290" y1="138.0" x2="460" y2="138.0" class="umath-7-boltzmann-occupation-grid"/>
+<line x1="290" y1="94.0" x2="460" y2="94.0" class="umath-7-boltzmann-occupation-grid"/>
+<line x1="290" y1="50.0" x2="460" y2="50.0" class="umath-7-boltzmann-occupation-grid"/>
+<line x1="290" y1="270" x2="460" y2="270" class="umath-7-boltzmann-occupation-ax"/>
+<line x1="290" y1="50" x2="290" y2="270" class="umath-7-boltzmann-occupation-ax"/>
+<line x1="309.6" y1="270" x2="309.6" y2="275" class="umath-7-boltzmann-occupation-ax"/>
+<text x="309.6" y="290" text-anchor="middle" class="umath-7-boltzmann-occupation-tk">0</text>
+<line x1="342.3" y1="270" x2="342.3" y2="275" class="umath-7-boltzmann-occupation-ax"/>
+<text x="342.3" y="290" text-anchor="middle" class="umath-7-boltzmann-occupation-tk">1</text>
+<line x1="375.0" y1="270" x2="375.0" y2="275" class="umath-7-boltzmann-occupation-ax"/>
+<text x="375.0" y="290" text-anchor="middle" class="umath-7-boltzmann-occupation-tk">2</text>
+<line x1="407.7" y1="270" x2="407.7" y2="275" class="umath-7-boltzmann-occupation-ax"/>
+<text x="407.7" y="290" text-anchor="middle" class="umath-7-boltzmann-occupation-tk">3</text>
+<line x1="440.4" y1="270" x2="440.4" y2="275" class="umath-7-boltzmann-occupation-ax"/>
+<text x="440.4" y="290" text-anchor="middle" class="umath-7-boltzmann-occupation-tk">4</text>
+<line x1="285" y1="270.0" x2="290" y2="270.0" class="umath-7-boltzmann-occupation-ax"/>
+<text x="282" y="274.5" text-anchor="end" class="umath-7-boltzmann-occupation-tk"></text>
+<line x1="285" y1="226.0" x2="290" y2="226.0" class="umath-7-boltzmann-occupation-ax"/>
+<text x="282" y="230.5" text-anchor="end" class="umath-7-boltzmann-occupation-tk"></text>
+<line x1="285" y1="182.0" x2="290" y2="182.0" class="umath-7-boltzmann-occupation-ax"/>
+<text x="282" y="186.5" text-anchor="end" class="umath-7-boltzmann-occupation-tk"></text>
+<line x1="285" y1="138.0" x2="290" y2="138.0" class="umath-7-boltzmann-occupation-ax"/>
+<text x="282" y="142.5" text-anchor="end" class="umath-7-boltzmann-occupation-tk"></text>
+<line x1="285" y1="94.0" x2="290" y2="94.0" class="umath-7-boltzmann-occupation-ax"/>
+<text x="282" y="98.5" text-anchor="end" class="umath-7-boltzmann-occupation-tk"></text>
+<line x1="285" y1="50.0" x2="290" y2="50.0" class="umath-7-boltzmann-occupation-ax"/>
+<text x="282" y="54.5" text-anchor="end" class="umath-7-boltzmann-occupation-tk"></text>
+<text x="375.0" y="308" text-anchor="middle" class="umath-7-boltzmann-occupation-lb">준위 j (ε_j = jε)</text>
+<rect x="297.6" y="130.0" width="24" height="140.0" class="umath-7-boltzmann-occupation-bar"/>
+<text x="309.6" y="124.0" text-anchor="middle" class="umath-7-boltzmann-occupation-v">0.64</text>
+<rect x="330.3" y="218.5" width="24" height="51.5" class="umath-7-boltzmann-occupation-bar"/>
+<text x="342.3" y="212.5" text-anchor="middle" class="umath-7-boltzmann-occupation-v">0.23</text>
+<rect x="363.0" y="251.1" width="24" height="18.9" class="umath-7-boltzmann-occupation-bar"/>
+<text x="375.0" y="245.1" text-anchor="middle" class="umath-7-boltzmann-occupation-v">0.09</text>
+<rect x="395.7" y="263.0" width="24" height="7.0" class="umath-7-boltzmann-occupation-bar"/>
+<text x="407.7" y="257.0" text-anchor="middle" class="umath-7-boltzmann-occupation-v">0.03</text>
+<rect x="428.4" y="267.4" width="24" height="2.6" class="umath-7-boltzmann-occupation-bar"/>
+<text x="440.4" y="261.4" text-anchor="middle" class="umath-7-boltzmann-occupation-v">0.01</text>
+<path d="M309.6 130.0 L311.2 136.8 L312.9 143.3 L314.5 149.5 L316.2 155.4 L317.8 161.0 L319.4 166.3 L321.1 171.3 L322.7 176.1 L324.3 180.7 L326.0 185.1 L327.6 189.2 L329.2 193.2 L330.9 196.9 L332.5 200.5 L334.1 203.9 L335.8 207.1 L337.4 210.2 L339.0 213.1 L340.7 215.9 L342.3 218.5 L343.9 221.0 L345.6 223.4 L347.2 225.7 L348.8 227.8 L350.5 229.9 L352.1 231.8 L353.8 233.7 L355.4 235.5 L357.0 237.2 L358.7 238.8 L360.3 240.3 L361.9 241.7 L363.6 243.1 L365.2 244.4 L366.8 245.7 L368.5 246.9 L370.1 248.0 L371.7 249.1 L373.4 250.1 L375.0 251.1 L376.6 252.0 L378.3 252.9 L379.9 253.7 L381.5 254.5 L383.2 255.2 L384.8 256.0 L386.4 256.6 L388.1 257.3 L389.7 257.9 L391.3 258.5 L393.0 259.1 L394.6 259.6 L396.3 260.1 L397.9 260.6 L399.5 261.0 L401.2 261.5 L402.8 261.9 L404.4 262.3 L406.1 262.7 L407.7 263.0 L409.3 263.4 L411.0 263.7 L412.6 264.0 L414.2 264.3 L415.9 264.6 L417.5 264.8 L419.1 265.1 L420.8 265.3 L422.4 265.6 L424.0 265.8 L425.7 266.0 L427.3 266.2 L428.9 266.4 L430.6 266.5 L432.2 266.7 L433.8 266.9 L435.5 267.0 L437.1 267.2 L438.8 267.3 L440.4 267.4" class="umath-7-boltzmann-occupation-ex"/>
+<text x="375.0" y="32" text-anchor="middle" class="umath-7-boltzmann-occupation-tb">k_BT = ε</text>
+<line x1="510" y1="270.0" x2="680" y2="270.0" class="umath-7-boltzmann-occupation-grid"/>
+<line x1="510" y1="226.0" x2="680" y2="226.0" class="umath-7-boltzmann-occupation-grid"/>
+<line x1="510" y1="182.0" x2="680" y2="182.0" class="umath-7-boltzmann-occupation-grid"/>
+<line x1="510" y1="138.0" x2="680" y2="138.0" class="umath-7-boltzmann-occupation-grid"/>
+<line x1="510" y1="94.0" x2="680" y2="94.0" class="umath-7-boltzmann-occupation-grid"/>
+<line x1="510" y1="50.0" x2="680" y2="50.0" class="umath-7-boltzmann-occupation-grid"/>
+<line x1="510" y1="270" x2="680" y2="270" class="umath-7-boltzmann-occupation-ax"/>
+<line x1="510" y1="50" x2="510" y2="270" class="umath-7-boltzmann-occupation-ax"/>
+<line x1="529.6" y1="270" x2="529.6" y2="275" class="umath-7-boltzmann-occupation-ax"/>
+<text x="529.6" y="290" text-anchor="middle" class="umath-7-boltzmann-occupation-tk">0</text>
+<line x1="562.3" y1="270" x2="562.3" y2="275" class="umath-7-boltzmann-occupation-ax"/>
+<text x="562.3" y="290" text-anchor="middle" class="umath-7-boltzmann-occupation-tk">1</text>
+<line x1="595.0" y1="270" x2="595.0" y2="275" class="umath-7-boltzmann-occupation-ax"/>
+<text x="595.0" y="290" text-anchor="middle" class="umath-7-boltzmann-occupation-tk">2</text>
+<line x1="627.7" y1="270" x2="627.7" y2="275" class="umath-7-boltzmann-occupation-ax"/>
+<text x="627.7" y="290" text-anchor="middle" class="umath-7-boltzmann-occupation-tk">3</text>
+<line x1="660.4" y1="270" x2="660.4" y2="275" class="umath-7-boltzmann-occupation-ax"/>
+<text x="660.4" y="290" text-anchor="middle" class="umath-7-boltzmann-occupation-tk">4</text>
+<line x1="505" y1="270.0" x2="510" y2="270.0" class="umath-7-boltzmann-occupation-ax"/>
+<text x="502" y="274.5" text-anchor="end" class="umath-7-boltzmann-occupation-tk"></text>
+<line x1="505" y1="226.0" x2="510" y2="226.0" class="umath-7-boltzmann-occupation-ax"/>
+<text x="502" y="230.5" text-anchor="end" class="umath-7-boltzmann-occupation-tk"></text>
+<line x1="505" y1="182.0" x2="510" y2="182.0" class="umath-7-boltzmann-occupation-ax"/>
+<text x="502" y="186.5" text-anchor="end" class="umath-7-boltzmann-occupation-tk"></text>
+<line x1="505" y1="138.0" x2="510" y2="138.0" class="umath-7-boltzmann-occupation-ax"/>
+<text x="502" y="142.5" text-anchor="end" class="umath-7-boltzmann-occupation-tk"></text>
+<line x1="505" y1="94.0" x2="510" y2="94.0" class="umath-7-boltzmann-occupation-ax"/>
+<text x="502" y="98.5" text-anchor="end" class="umath-7-boltzmann-occupation-tk"></text>
+<line x1="505" y1="50.0" x2="510" y2="50.0" class="umath-7-boltzmann-occupation-ax"/>
+<text x="502" y="54.5" text-anchor="end" class="umath-7-boltzmann-occupation-tk"></text>
+<text x="595.0" y="308" text-anchor="middle" class="umath-7-boltzmann-occupation-lb">준위 j (ε_j = jε)</text>
+<rect x="517.6" y="193.1" width="24" height="76.9" class="umath-7-boltzmann-occupation-bar"/>
+<text x="529.6" y="187.1" text-anchor="middle" class="umath-7-boltzmann-occupation-v">0.35</text>
+<rect x="550.3" y="214.9" width="24" height="55.1" class="umath-7-boltzmann-occupation-bar"/>
+<text x="562.3" y="208.9" text-anchor="middle" class="umath-7-boltzmann-occupation-v">0.25</text>
+<rect x="583.0" y="230.5" width="24" height="39.5" class="umath-7-boltzmann-occupation-bar"/>
+<text x="595.0" y="224.5" text-anchor="middle" class="umath-7-boltzmann-occupation-v">0.18</text>
+<rect x="615.7" y="241.7" width="24" height="28.3" class="umath-7-boltzmann-occupation-bar"/>
+<text x="627.7" y="235.7" text-anchor="middle" class="umath-7-boltzmann-occupation-v">0.13</text>
+<rect x="648.4" y="249.7" width="24" height="20.3" class="umath-7-boltzmann-occupation-bar"/>
+<text x="660.4" y="243.7" text-anchor="middle" class="umath-7-boltzmann-occupation-v">0.09</text>
+<path d="M529.6 193.1 L531.2 194.4 L532.9 195.6 L534.5 196.9 L536.2 198.1 L537.8 199.3 L539.4 200.4 L541.1 201.6 L542.7 202.7 L544.3 203.8 L546.0 204.9 L547.6 206.0 L549.2 207.1 L550.9 208.1 L552.5 209.1 L554.1 210.1 L555.8 211.1 L557.4 212.1 L559.0 213.0 L560.7 214.0 L562.3 214.9 L563.9 215.8 L565.6 216.7 L567.2 217.6 L568.8 218.5 L570.5 219.3 L572.1 220.2 L573.8 221.0 L575.4 221.8 L577.0 222.6 L578.7 223.4 L580.3 224.1 L581.9 224.9 L583.6 225.6 L585.2 226.4 L586.8 227.1 L588.5 227.8 L590.1 228.5 L591.7 229.2 L593.4 229.9 L595.0 230.5 L596.6 231.2 L598.3 231.8 L599.9 232.5 L601.5 233.1 L603.2 233.7 L604.8 234.3 L606.4 234.9 L608.1 235.5 L609.7 236.0 L611.3 236.6 L613.0 237.1 L614.6 237.7 L616.2 238.2 L617.9 238.7 L619.5 239.3 L621.2 239.8 L622.8 240.3 L624.4 240.8 L626.1 241.2 L627.7 241.7 L629.3 242.2 L631.0 242.6 L632.6 243.1 L634.2 243.5 L635.9 244.0 L637.5 244.4 L639.1 244.8 L640.8 245.2 L642.4 245.7 L644.0 246.1 L645.7 246.5 L647.3 246.8 L648.9 247.2 L650.6 247.6 L652.2 248.0 L653.8 248.3 L655.5 248.7 L657.1 249.0 L658.8 249.4 L660.4 249.7" class="umath-7-boltzmann-occupation-ex"/>
+<text x="595.0" y="32" text-anchor="middle" class="umath-7-boltzmann-occupation-tb">k_BT = 3ε</text>
+<line x1="120" y1="338" x2="610" y2="338" class="umath-7-boltzmann-occupation-big" marker-end="url(#umath-7-boltzmann-occupation-ah-ink)"/>
+<text x="365" y="330" text-anchor="middle" class="umath-7-boltzmann-occupation-t">온도가 높을수록 높은 준위가 더 점유되어 분포가 납작해진다</text>
+<line x1="200" y1="360" x2="228" y2="360" class="umath-7-boltzmann-occupation-ex"/><text x="234" y="365" class="umath-7-boltzmann-occupation-red">점선: 지수 곡선 e^(−ε_j/k_BT) / q (막대 끝을 잇는다)</text>
+</svg>

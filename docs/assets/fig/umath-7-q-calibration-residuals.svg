@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-labelledby="t-umath-7-q-calibration-residuals d-umath-7-q-calibration-residuals">
+  <title id="t-umath-7-q-calibration-residuals">그림 수학 도구 7-15 문제 17의 두 맞춤과 잔차 그림</title>
+  <desc id="d-umath-7-q-calibration-residuals">문제 17 해설. 위: 다섯 측정점과 원점을 지나는 직선 A = 0.0568c(빨간 점선), 절편이 있는 직선 A = 0.05015c + 0.0485(파란 실선). 아래: 원점 맞춤의 잔차(+0.035, +0.021, +0.011, −0.007, −0.017)는 농도에 따라 한 방향으로 줄어드는 체계적 패턴이고, 절편 맞춤의 잔차는 ±0.003 안에서 0 둘레에 무작위하다.</desc>
+  <style>
+    .umath-7-q-calibration-residuals-ax{stroke:var(--fig-ink);stroke-width:1.3;fill:none}
+    .umath-7-q-calibration-residuals-grid{stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:2 4;fill:none;opacity:0.7}
+    .umath-7-q-calibration-residuals-tk{font-size:13px;fill:var(--fig-muted)}
+    .umath-7-q-calibration-residuals-lb{font-size:14px;fill:var(--fig-ink)}
+    .umath-7-q-calibration-residuals-t{font-size:14px;fill:var(--fig-ink)}
+    .umath-7-q-calibration-residuals-tb{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .umath-7-q-calibration-residuals-s{font-size:13px;fill:var(--fig-muted)}
+    .umath-7-q-calibration-residuals-ink{fill:var(--fig-ink)}
+    .umath-7-q-calibration-residuals-pt{fill:var(--fig-ink);stroke:var(--fig-panel);stroke-width:1.2}
+    .umath-7-q-calibration-residuals-l0{stroke:var(--fig-red);stroke-width:2;stroke-dasharray:7 5;fill:none}
+    .umath-7-q-calibration-residuals-l1{stroke:var(--fig-blue);stroke-width:2.2;fill:none}
+    .umath-7-q-calibration-residuals-r0{fill:var(--fig-red);stroke:var(--fig-panel);stroke-width:1.2}
+    .umath-7-q-calibration-residuals-r1{fill:var(--fig-blue);stroke:var(--fig-panel);stroke-width:1.2}
+    .umath-7-q-calibration-residuals-z{stroke:var(--fig-ink);stroke-width:1.2;fill:none}
+    .umath-7-q-calibration-residuals-red{font-size:13px;fill:var(--fig-red)}
+    .umath-7-q-calibration-residuals-blu{font-size:13px;fill:var(--fig-blue)}
+  </style>
+<line x1="90" y1="280.0" x2="680" y2="280.0" class="umath-7-q-calibration-residuals-grid"/>
+<line x1="90" y1="238.3" x2="680" y2="238.3" class="umath-7-q-calibration-residuals-grid"/>
+<line x1="90" y1="196.7" x2="680" y2="196.7" class="umath-7-q-calibration-residuals-grid"/>
+<line x1="90" y1="155.0" x2="680" y2="155.0" class="umath-7-q-calibration-residuals-grid"/>
+<line x1="90" y1="113.3" x2="680" y2="113.3" class="umath-7-q-calibration-residuals-grid"/>
+<line x1="90" y1="71.7" x2="680" y2="71.7" class="umath-7-q-calibration-residuals-grid"/>
+<line x1="90" y1="30.0" x2="680" y2="30.0" class="umath-7-q-calibration-residuals-grid"/>
+<line x1="90" y1="280" x2="680" y2="280" class="umath-7-q-calibration-residuals-ax"/>
+<line x1="90" y1="30" x2="90" y2="280" class="umath-7-q-calibration-residuals-ax"/>
+<line x1="90.0" y1="280" x2="90.0" y2="285" class="umath-7-q-calibration-residuals-ax"/>
+<text x="90.0" y="300" text-anchor="middle" class="umath-7-q-calibration-residuals-tk">0</text>
+<line x1="208.0" y1="280" x2="208.0" y2="285" class="umath-7-q-calibration-residuals-ax"/>
+<text x="208.0" y="300" text-anchor="middle" class="umath-7-q-calibration-residuals-tk">2</text>
+<line x1="326.0" y1="280" x2="326.0" y2="285" class="umath-7-q-calibration-residuals-ax"/>
+<text x="326.0" y="300" text-anchor="middle" class="umath-7-q-calibration-residuals-tk">4</text>
+<line x1="444.0" y1="280" x2="444.0" y2="285" class="umath-7-q-calibration-residuals-ax"/>
+<text x="444.0" y="300" text-anchor="middle" class="umath-7-q-calibration-residuals-tk">6</text>
+<line x1="562.0" y1="280" x2="562.0" y2="285" class="umath-7-q-calibration-residuals-ax"/>
+<text x="562.0" y="300" text-anchor="middle" class="umath-7-q-calibration-residuals-tk">8</text>
+<line x1="680.0" y1="280" x2="680.0" y2="285" class="umath-7-q-calibration-residuals-ax"/>
+<text x="680.0" y="300" text-anchor="middle" class="umath-7-q-calibration-residuals-tk">10</text>
+<line x1="85" y1="280.0" x2="90" y2="280.0" class="umath-7-q-calibration-residuals-ax"/>
+<text x="82" y="284.5" text-anchor="end" class="umath-7-q-calibration-residuals-tk">0.0</text>
+<line x1="85" y1="238.3" x2="90" y2="238.3" class="umath-7-q-calibration-residuals-ax"/>
+<text x="82" y="242.8" text-anchor="end" class="umath-7-q-calibration-residuals-tk">0.1</text>
+<line x1="85" y1="196.7" x2="90" y2="196.7" class="umath-7-q-calibration-residuals-ax"/>
+<text x="82" y="201.2" text-anchor="end" class="umath-7-q-calibration-residuals-tk">0.2</text>
+<line x1="85" y1="155.0" x2="90" y2="155.0" class="umath-7-q-calibration-residuals-ax"/>
+<text x="82" y="159.5" text-anchor="end" class="umath-7-q-calibration-residuals-tk">0.3</text>
+<line x1="85" y1="113.3" x2="90" y2="113.3" class="umath-7-q-calibration-residuals-ax"/>
+<text x="82" y="117.8" text-anchor="end" class="umath-7-q-calibration-residuals-tk">0.4</text>
+<line x1="85" y1="71.7" x2="90" y2="71.7" class="umath-7-q-calibration-residuals-ax"/>
+<text x="82" y="76.2" text-anchor="end" class="umath-7-q-calibration-residuals-tk">0.5</text>
+<line x1="85" y1="30.0" x2="90" y2="30.0" class="umath-7-q-calibration-residuals-ax"/>
+<text x="82" y="34.5" text-anchor="end" class="umath-7-q-calibration-residuals-tk">0.6</text>
+<text x="40" y="155.0" text-anchor="middle" transform="rotate(-90 40 155.0)" class="umath-7-q-calibration-residuals-lb">흡광도 A</text>
+<path d="M90.0 280.0 L680.0 43.3" class="umath-7-q-calibration-residuals-l0"/>
+<path d="M90.0 259.8 L680.0 50.8" class="umath-7-q-calibration-residuals-l1"/>
+<circle cx="208.0" cy="217.9" r="5" class="umath-7-q-calibration-residuals-pt"/>
+<circle cx="326.0" cy="176.7" r="5" class="umath-7-q-calibration-residuals-pt"/>
+<circle cx="444.0" cy="133.3" r="5" class="umath-7-q-calibration-residuals-pt"/>
+<circle cx="562.0" cy="93.8" r="5" class="umath-7-q-calibration-residuals-pt"/>
+<circle cx="680.0" cy="50.4" r="5" class="umath-7-q-calibration-residuals-pt"/>
+<line x1="107.7" y1="46.7" x2="143.1" y2="46.7" class="umath-7-q-calibration-residuals-l0"/>
+<text x="149.0" y="51.7" class="umath-7-q-calibration-residuals-red">원점을 지나는 맞춤 A = 0.0568c</text>
+<line x1="107.7" y1="71.7" x2="143.1" y2="71.7" class="umath-7-q-calibration-residuals-l1"/>
+<text x="149.0" y="76.7" class="umath-7-q-calibration-residuals-blu">절편 있는 맞춤 A = 0.05015c + 0.0485</text>
+<text x="98.8" y="251.8" class="umath-7-q-calibration-residuals-blu">b = 0.0485</text>
+<line x1="90" y1="468.6" x2="680" y2="468.6" class="umath-7-q-calibration-residuals-grid"/>
+<line x1="90" y1="425.7" x2="680" y2="425.7" class="umath-7-q-calibration-residuals-grid"/>
+<line x1="90" y1="382.9" x2="680" y2="382.9" class="umath-7-q-calibration-residuals-grid"/>
+<line x1="90" y1="340.0" x2="680" y2="340.0" class="umath-7-q-calibration-residuals-grid"/>
+<line x1="90" y1="490" x2="680" y2="490" class="umath-7-q-calibration-residuals-ax"/>
+<line x1="90" y1="340" x2="90" y2="490" class="umath-7-q-calibration-residuals-ax"/>
+<line x1="90.0" y1="490" x2="90.0" y2="495" class="umath-7-q-calibration-residuals-ax"/>
+<text x="90.0" y="510" text-anchor="middle" class="umath-7-q-calibration-residuals-tk">0</text>
+<line x1="208.0" y1="490" x2="208.0" y2="495" class="umath-7-q-calibration-residuals-ax"/>
+<text x="208.0" y="510" text-anchor="middle" class="umath-7-q-calibration-residuals-tk">2</text>
+<line x1="326.0" y1="490" x2="326.0" y2="495" class="umath-7-q-calibration-residuals-ax"/>
+<text x="326.0" y="510" text-anchor="middle" class="umath-7-q-calibration-residuals-tk">4</text>
+<line x1="444.0" y1="490" x2="444.0" y2="495" class="umath-7-q-calibration-residuals-ax"/>
+<text x="444.0" y="510" text-anchor="middle" class="umath-7-q-calibration-residuals-tk">6</text>
+<line x1="562.0" y1="490" x2="562.0" y2="495" class="umath-7-q-calibration-residuals-ax"/>
+<text x="562.0" y="510" text-anchor="middle" class="umath-7-q-calibration-residuals-tk">8</text>
+<line x1="680.0" y1="490" x2="680.0" y2="495" class="umath-7-q-calibration-residuals-ax"/>
+<text x="680.0" y="510" text-anchor="middle" class="umath-7-q-calibration-residuals-tk">10</text>
+<line x1="85" y1="468.6" x2="90" y2="468.6" class="umath-7-q-calibration-residuals-ax"/>
+<text x="82" y="473.1" text-anchor="end" class="umath-7-q-calibration-residuals-tk">−0.02</text>
+<line x1="85" y1="425.7" x2="90" y2="425.7" class="umath-7-q-calibration-residuals-ax"/>
+<text x="82" y="430.2" text-anchor="end" class="umath-7-q-calibration-residuals-tk">0</text>
+<line x1="85" y1="382.9" x2="90" y2="382.9" class="umath-7-q-calibration-residuals-ax"/>
+<text x="82" y="387.4" text-anchor="end" class="umath-7-q-calibration-residuals-tk">0.02</text>
+<line x1="85" y1="340.0" x2="90" y2="340.0" class="umath-7-q-calibration-residuals-ax"/>
+<text x="82" y="344.5" text-anchor="end" class="umath-7-q-calibration-residuals-tk">0.04</text>
+<text x="385.0" y="530" text-anchor="middle" class="umath-7-q-calibration-residuals-lb">농도 c (μM)</text>
+<text x="34" y="415.0" text-anchor="middle" transform="rotate(-90 34 415.0)" class="umath-7-q-calibration-residuals-lb">잔차</text>
+<line x1="90.0" y1="425.7" x2="680.0" y2="425.7" class="umath-7-q-calibration-residuals-z"/>
+<path d="M208.0 349.7 L326.0 380.8 L444.0 401.2 L562.0 440.9 L680.0 461.4" style="stroke:var(--fig-red);stroke-width:1.2;stroke-dasharray:3 3;fill:none"/>
+<circle cx="204.0" cy="349.7" r="5" class="umath-7-q-calibration-residuals-r0"/>
+<rect x="208.0" y="420.8" width="9" height="9" class="umath-7-q-calibration-residuals-r1"/>
+<circle cx="322.0" cy="380.8" r="5" class="umath-7-q-calibration-residuals-r0"/>
+<rect x="326.0" y="423.6" width="9" height="9" class="umath-7-q-calibration-residuals-r1"/>
+<circle cx="440.0" cy="401.2" r="5" class="umath-7-q-calibration-residuals-r0"/>
+<rect x="444.0" y="415.6" width="9" height="9" class="umath-7-q-calibration-residuals-r1"/>
+<circle cx="558.0" cy="440.9" r="5" class="umath-7-q-calibration-residuals-r0"/>
+<rect x="562.0" y="427.0" width="9" height="9" class="umath-7-q-calibration-residuals-r1"/>
+<circle cx="676.0" cy="461.4" r="5" class="umath-7-q-calibration-residuals-r0"/>
+<rect x="680.0" y="419.1" width="9" height="9" class="umath-7-q-calibration-residuals-r1"/>
+<text x="343.7" y="355.0" class="umath-7-q-calibration-residuals-red">● 원점 맞춤: + 에서 − 로 한 방향 (체계적)</text>
+<text x="107.7" y="472.9" class="umath-7-q-calibration-residuals-blu">■ 절편 맞춤: ±0.003 안에서 무작위</text>
+</svg>

@@ -1,0 +1,364 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="t-umath-7-bayes-area d-umath-7-bayes-area">
+  <title id="t-umath-7-bayes-area">그림 수학 도구 7-1 베이즈 정리의 넓이 그림 — 10 000명 표</title>
+  <desc id="d-umath-7-bayes-area">유병률 1 %, 민감도 95 %, 특이도 98 %인 검사를 10 000명에게 했을 때의 넓이 그림. 왼쪽 정사각형의 한 칸이 한 사람이며, 맨 왼쪽 한 줄 100명이 환자(양성 95명, 음성 5명), 나머지 9900명 중 198명이 거짓 양성이다. 양성 293명만 모으면 진짜 환자는 95명으로 약 32 %이다.</desc>
+  <style>
+    .umath-7-bayes-area-ax{stroke:var(--fig-ink);stroke-width:1.3;fill:none}
+    .umath-7-bayes-area-grid{stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:2 4;fill:none;opacity:0.7}
+    .umath-7-bayes-area-tk{font-size:13px;fill:var(--fig-muted)}
+    .umath-7-bayes-area-lb{font-size:14px;fill:var(--fig-ink)}
+    .umath-7-bayes-area-t{font-size:14px;fill:var(--fig-ink)}
+    .umath-7-bayes-area-tb{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .umath-7-bayes-area-s{font-size:13px;fill:var(--fig-muted)}
+    .umath-7-bayes-area-ink{fill:var(--fig-ink)}
+    .umath-7-bayes-area-dp{fill:var(--fig-red)}
+    .umath-7-bayes-area-dn{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:0.6}
+    .umath-7-bayes-area-hp{fill:var(--fig-amber);opacity:0.55}
+    .umath-7-bayes-area-hn{fill:var(--fig-panel)}
+    .umath-7-bayes-area-g{stroke:var(--fig-line);stroke-width:0.5;fill:none}
+    .umath-7-bayes-area-fr{stroke:var(--fig-ink);stroke-width:1.4;fill:none}
+    .umath-7-bayes-area-lead{stroke:var(--fig-muted);stroke-width:1;fill:none}
+    .umath-7-bayes-area-big{font-size:15px;font-weight:600;fill:var(--fig-red)}
+  </style>
+  <defs>
+    <marker id="umath-7-bayes-area-ah-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-ink)"/></marker>
+    <marker id="umath-7-bayes-area-ah-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-muted)"/></marker>
+  </defs>
+<rect x="40" y="70" width="340.0" height="340.0" class="umath-7-bayes-area-hn"/>
+<rect x="40" y="70" width="3.4" height="323.0" class="umath-7-bayes-area-dp"/>
+<rect x="40" y="393.0" width="3.4" height="17.0" class="umath-7-bayes-area-dn"/>
+<rect x="43.4" y="70" width="3.4" height="340.0" class="umath-7-bayes-area-hp"/>
+<rect x="46.8" y="70" width="3.4" height="333.2" class="umath-7-bayes-area-hp"/>
+<line x1="74.0" y1="70" x2="74.0" y2="410.0" class="umath-7-bayes-area-g"/>
+<line x1="40" y1="104.0" x2="380.0" y2="104.0" class="umath-7-bayes-area-g"/>
+<line x1="108.0" y1="70" x2="108.0" y2="410.0" class="umath-7-bayes-area-g"/>
+<line x1="40" y1="138.0" x2="380.0" y2="138.0" class="umath-7-bayes-area-g"/>
+<line x1="142.0" y1="70" x2="142.0" y2="410.0" class="umath-7-bayes-area-g"/>
+<line x1="40" y1="172.0" x2="380.0" y2="172.0" class="umath-7-bayes-area-g"/>
+<line x1="176.0" y1="70" x2="176.0" y2="410.0" class="umath-7-bayes-area-g"/>
+<line x1="40" y1="206.0" x2="380.0" y2="206.0" class="umath-7-bayes-area-g"/>
+<line x1="210.0" y1="70" x2="210.0" y2="410.0" class="umath-7-bayes-area-g"/>
+<line x1="40" y1="240.0" x2="380.0" y2="240.0" class="umath-7-bayes-area-g"/>
+<line x1="244.0" y1="70" x2="244.0" y2="410.0" class="umath-7-bayes-area-g"/>
+<line x1="40" y1="274.0" x2="380.0" y2="274.0" class="umath-7-bayes-area-g"/>
+<line x1="278.0" y1="70" x2="278.0" y2="410.0" class="umath-7-bayes-area-g"/>
+<line x1="40" y1="308.0" x2="380.0" y2="308.0" class="umath-7-bayes-area-g"/>
+<line x1="312.0" y1="70" x2="312.0" y2="410.0" class="umath-7-bayes-area-g"/>
+<line x1="40" y1="342.0" x2="380.0" y2="342.0" class="umath-7-bayes-area-g"/>
+<line x1="346.0" y1="70" x2="346.0" y2="410.0" class="umath-7-bayes-area-g"/>
+<line x1="40" y1="376.0" x2="380.0" y2="376.0" class="umath-7-bayes-area-g"/>
+<line x1="43.4" y1="70" x2="43.4" y2="410.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+<rect x="40" y="70" width="340.0" height="340.0" class="umath-7-bayes-area-fr"/>
+<text x="210.0" y="30" text-anchor="middle" class="umath-7-bayes-area-tb">전체 10 000명 (작은 칸 하나 = 1명, 격자 한 칸 = 100명)</text>
+<path d="M40 64 L40 58 L43.4 58 L43.4 64" class="umath-7-bayes-area-lead"/>
+<path d="M45.4 64 L45.4 58 L380.0 58 L380.0 64" class="umath-7-bayes-area-lead"/>
+<text x="240" y="52" text-anchor="middle" class="umath-7-bayes-area-s">질병 없음 9900명 (99 %)</text>
+<path d="M41.7 410.0 L41.7 424.0" class="umath-7-bayes-area-lead"/>
+<text x="36" y="438.0" class="umath-7-bayes-area-t">왼쪽 한 줄 = 질병 있음 100명 (1 %)</text>
+<rect x="40" y="450.0" width="12" height="12" class="umath-7-bayes-area-dp"/><text x="58" y="461.0" class="umath-7-bayes-area-t">환자 · 양성 95명</text>
+<rect x="190" y="450.0" width="12" height="12" class="umath-7-bayes-area-dn"/><text x="208" y="461.0" class="umath-7-bayes-area-t">환자 · 음성 5명</text>
+<rect x="40" y="472.0" width="12" height="12" class="umath-7-bayes-area-hp"/><text x="58" y="483.0" class="umath-7-bayes-area-t">건강 · 양성 198명</text>
+<rect x="190" y="472.0" width="12" height="12" class="umath-7-bayes-area-hn" style="stroke:var(--fig-line)"/><text x="208" y="483.0" class="umath-7-bayes-area-t">건강 · 음성 9702명</text>
+<path d="M56.2 220 C 200 180, 392 180, 452 220" class="umath-7-bayes-area-lead" style="stroke:var(--fig-ink);stroke-width:1.6" marker-end="url(#umath-7-bayes-area-ah-ink)"/>
+<rect x="160" y="158" width="170" height="22" rx="4" style="fill:var(--fig-paper)"/>
+<text x="245" y="174" text-anchor="middle" class="umath-7-bayes-area-t">양성 판정만 모으면</text>
+<rect x="462" y="70" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="472" y="70" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="482" y="70" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="492" y="70" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="502" y="70" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="512" y="70" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="522" y="70" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="532" y="70" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="542" y="70" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="552" y="70" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="462" y="80" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="472" y="80" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="482" y="80" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="492" y="80" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="502" y="80" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="512" y="80" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="522" y="80" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="532" y="80" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="542" y="80" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="552" y="80" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="462" y="90" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="472" y="90" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="482" y="90" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="492" y="90" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="502" y="90" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="512" y="90" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="522" y="90" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="532" y="90" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="542" y="90" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="552" y="90" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="462" y="100" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="472" y="100" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="482" y="100" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="492" y="100" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="502" y="100" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="512" y="100" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="522" y="100" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="532" y="100" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="542" y="100" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="552" y="100" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="462" y="110" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="472" y="110" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="482" y="110" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="492" y="110" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="502" y="110" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="512" y="110" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="522" y="110" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="532" y="110" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="542" y="110" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="552" y="110" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="462" y="120" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="472" y="120" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="482" y="120" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="492" y="120" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="502" y="120" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="512" y="120" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="522" y="120" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="532" y="120" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="542" y="120" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="552" y="120" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="462" y="130" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="472" y="130" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="482" y="130" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="492" y="130" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="502" y="130" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="512" y="130" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="522" y="130" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="532" y="130" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="542" y="130" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="552" y="130" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="462" y="140" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="472" y="140" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="482" y="140" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="492" y="140" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="502" y="140" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="512" y="140" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="522" y="140" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="532" y="140" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="542" y="140" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="552" y="140" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="462" y="150" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="472" y="150" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="482" y="150" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="492" y="150" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="502" y="150" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="512" y="150" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="522" y="150" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="532" y="150" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="542" y="150" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="552" y="150" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="462" y="160" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="472" y="160" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="482" y="160" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="492" y="160" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="502" y="160" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>
+<rect x="512" y="160" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="522" y="160" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="532" y="160" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="542" y="160" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="552" y="160" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="462" y="170" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="472" y="170" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="482" y="170" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="492" y="170" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="502" y="170" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="512" y="170" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="522" y="170" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="532" y="170" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="542" y="170" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="552" y="170" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="462" y="180" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="472" y="180" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="482" y="180" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="492" y="180" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="502" y="180" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="512" y="180" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="522" y="180" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="532" y="180" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="542" y="180" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="552" y="180" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="462" y="190" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="472" y="190" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="482" y="190" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="492" y="190" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="502" y="190" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="512" y="190" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="522" y="190" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="532" y="190" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="542" y="190" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="552" y="190" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="462" y="200" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="472" y="200" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="482" y="200" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="492" y="200" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="502" y="200" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="512" y="200" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="522" y="200" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="532" y="200" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="542" y="200" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="552" y="200" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="462" y="210" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="472" y="210" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="482" y="210" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="492" y="210" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="502" y="210" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="512" y="210" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="522" y="210" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="532" y="210" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="542" y="210" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="552" y="210" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="462" y="220" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="472" y="220" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="482" y="220" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="492" y="220" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="502" y="220" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="512" y="220" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="522" y="220" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="532" y="220" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="542" y="220" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="552" y="220" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="462" y="230" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="472" y="230" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="482" y="230" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="492" y="230" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="502" y="230" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="512" y="230" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="522" y="230" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="532" y="230" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="542" y="230" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="552" y="230" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="462" y="240" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="472" y="240" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="482" y="240" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="492" y="240" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="502" y="240" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="512" y="240" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="522" y="240" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="532" y="240" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="542" y="240" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="552" y="240" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="462" y="250" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="472" y="250" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="482" y="250" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="492" y="250" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="502" y="250" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="512" y="250" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="522" y="250" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="532" y="250" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="542" y="250" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="552" y="250" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="462" y="260" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="472" y="260" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="482" y="260" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="492" y="260" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="502" y="260" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="512" y="260" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="522" y="260" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="532" y="260" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="542" y="260" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="552" y="260" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="462" y="270" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="472" y="270" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="482" y="270" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="492" y="270" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="502" y="270" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="512" y="270" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="522" y="270" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="532" y="270" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="542" y="270" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="552" y="270" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="462" y="280" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="472" y="280" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="482" y="280" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="492" y="280" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="502" y="280" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="512" y="280" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="522" y="280" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="532" y="280" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="542" y="280" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="552" y="280" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="462" y="290" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="472" y="290" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="482" y="290" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="492" y="290" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="502" y="290" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="512" y="290" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="522" y="290" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="532" y="290" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="542" y="290" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="552" y="290" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="462" y="300" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="472" y="300" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="482" y="300" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="492" y="300" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="502" y="300" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="512" y="300" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="522" y="300" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="532" y="300" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="542" y="300" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="552" y="300" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="462" y="310" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="472" y="310" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="482" y="310" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="492" y="310" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="502" y="310" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="512" y="310" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="522" y="310" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="532" y="310" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="542" y="310" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="552" y="310" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="462" y="320" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="472" y="320" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="482" y="320" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="492" y="320" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="502" y="320" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="512" y="320" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="522" y="320" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="532" y="320" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="542" y="320" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="552" y="320" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="462" y="330" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="472" y="330" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="482" y="330" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="492" y="330" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="502" y="330" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="512" y="330" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="522" y="330" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="532" y="330" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="542" y="330" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="552" y="330" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="462" y="340" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="472" y="340" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="482" y="340" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="492" y="340" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="502" y="340" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="512" y="340" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="522" y="340" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="532" y="340" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="542" y="340" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="552" y="340" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="462" y="350" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="472" y="350" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="482" y="350" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="492" y="350" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="502" y="350" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="512" y="350" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="522" y="350" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="532" y="350" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="542" y="350" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="552" y="350" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="462" y="360" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="472" y="360" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<rect x="482" y="360" width="8.5" height="8.5" class="umath-7-bayes-area-hp"/>
+<text x="512" y="60" text-anchor="middle" class="umath-7-bayes-area-tb">양성 293명</text>
+<path d="M568 70 L574 70 L574 165.0 L568 165.0" class="umath-7-bayes-area-lead"/>
+<text x="580" y="110" class="umath-7-bayes-area-t">진짜 환자</text><text x="580" y="128" class="umath-7-bayes-area-t">95명</text>
+<path d="M568 168.0 L574 168.0 L574 363.0 L568 363.0" class="umath-7-bayes-area-lead"/>
+<text x="580" y="255.0" class="umath-7-bayes-area-t">거짓 양성</text><text x="580" y="273.0" class="umath-7-bayes-area-t">198명</text>
+<text x="547" y="403.0" text-anchor="middle" class="umath-7-bayes-area-big">P(질병 | 양성) = 95 / 293 ≈ 0.32</text>
+<text x="547" y="425.0" text-anchor="middle" class="umath-7-bayes-area-s">양성의 약 3분의 2가 거짓 양성</text>
+</svg>

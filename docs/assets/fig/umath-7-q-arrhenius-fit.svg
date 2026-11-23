@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="t-umath-7-q-arrhenius-fit d-umath-7-q-arrhenius-fit">
+  <title id="t-umath-7-q-arrhenius-fit">그림 수학 도구 7-10 예제 17의 아레니우스 도시와 잔차</title>
+  <desc id="d-umath-7-q-arrhenius-fit">예제 17의 아레니우스 도시. 위: x = 1000/T, y = ln k인 다섯 측정점과 최소 제곱 직선 y = −9.0306x + 26.05, 무게중심(별표). 아래: 각 점의 잔차(−0.011, +0.019, −0.010, +0.010, −0.007)가 0 기준선 둘레 ±s_y(0.0155) 안팎에 무작위로 흩어져 있다.</desc>
+  <style>
+    .umath-7-q-arrhenius-fit-ax{stroke:var(--fig-ink);stroke-width:1.3;fill:none}
+    .umath-7-q-arrhenius-fit-grid{stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:2 4;fill:none;opacity:0.7}
+    .umath-7-q-arrhenius-fit-tk{font-size:13px;fill:var(--fig-muted)}
+    .umath-7-q-arrhenius-fit-lb{font-size:14px;fill:var(--fig-ink)}
+    .umath-7-q-arrhenius-fit-t{font-size:14px;fill:var(--fig-ink)}
+    .umath-7-q-arrhenius-fit-tb{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .umath-7-q-arrhenius-fit-s{font-size:13px;fill:var(--fig-muted)}
+    .umath-7-q-arrhenius-fit-ink{fill:var(--fig-ink)}
+    .umath-7-q-arrhenius-fit-pt{fill:var(--fig-blue);stroke:var(--fig-panel);stroke-width:1.4}
+    .umath-7-q-arrhenius-fit-ln{stroke:var(--fig-red);stroke-width:2;fill:none}
+    .umath-7-q-arrhenius-fit-st{fill:var(--fig-amber);stroke:var(--fig-ink);stroke-width:1}
+    .umath-7-q-arrhenius-fit-z{stroke:var(--fig-ink);stroke-width:1.2;fill:none}
+    .umath-7-q-arrhenius-fit-sd{stroke:var(--fig-muted);stroke-width:1.3;stroke-dasharray:5 4;fill:none}
+    .umath-7-q-arrhenius-fit-red{font-size:14px;fill:var(--fig-red)}
+    .umath-7-q-arrhenius-fit-amb{font-size:13px;fill:var(--fig-amber)}
+  </style>
+<line x1="90" y1="261.1" x2="680" y2="261.1" class="umath-7-q-arrhenius-fit-grid"/>
+<line x1="90" y1="203.3" x2="680" y2="203.3" class="umath-7-q-arrhenius-fit-grid"/>
+<line x1="90" y1="145.6" x2="680" y2="145.6" class="umath-7-q-arrhenius-fit-grid"/>
+<line x1="90" y1="87.8" x2="680" y2="87.8" class="umath-7-q-arrhenius-fit-grid"/>
+<line x1="90" y1="30.0" x2="680" y2="30.0" class="umath-7-q-arrhenius-fit-grid"/>
+<line x1="90" y1="290" x2="680" y2="290" class="umath-7-q-arrhenius-fit-ax"/>
+<line x1="90" y1="30" x2="90" y2="290" class="umath-7-q-arrhenius-fit-ax"/>
+<line x1="90.0" y1="290" x2="90.0" y2="295" class="umath-7-q-arrhenius-fit-ax"/>
+<text x="90.0" y="310" text-anchor="middle" class="umath-7-q-arrhenius-fit-tk">2.9</text>
+<line x1="208.0" y1="290" x2="208.0" y2="295" class="umath-7-q-arrhenius-fit-ax"/>
+<text x="208.0" y="310" text-anchor="middle" class="umath-7-q-arrhenius-fit-tk">3.0</text>
+<line x1="326.0" y1="290" x2="326.0" y2="295" class="umath-7-q-arrhenius-fit-ax"/>
+<text x="326.0" y="310" text-anchor="middle" class="umath-7-q-arrhenius-fit-tk">3.1</text>
+<line x1="444.0" y1="290" x2="444.0" y2="295" class="umath-7-q-arrhenius-fit-ax"/>
+<text x="444.0" y="310" text-anchor="middle" class="umath-7-q-arrhenius-fit-tk">3.2</text>
+<line x1="562.0" y1="290" x2="562.0" y2="295" class="umath-7-q-arrhenius-fit-ax"/>
+<text x="562.0" y="310" text-anchor="middle" class="umath-7-q-arrhenius-fit-tk">3.3</text>
+<line x1="680.0" y1="290" x2="680.0" y2="295" class="umath-7-q-arrhenius-fit-ax"/>
+<text x="680.0" y="310" text-anchor="middle" class="umath-7-q-arrhenius-fit-tk">3.4</text>
+<line x1="85" y1="261.1" x2="90" y2="261.1" class="umath-7-q-arrhenius-fit-ax"/>
+<text x="82" y="265.6" text-anchor="end" class="umath-7-q-arrhenius-fit-tk">−4</text>
+<line x1="85" y1="203.3" x2="90" y2="203.3" class="umath-7-q-arrhenius-fit-ax"/>
+<text x="82" y="207.8" text-anchor="end" class="umath-7-q-arrhenius-fit-tk">−3</text>
+<line x1="85" y1="145.6" x2="90" y2="145.6" class="umath-7-q-arrhenius-fit-ax"/>
+<text x="82" y="150.1" text-anchor="end" class="umath-7-q-arrhenius-fit-tk">−2</text>
+<line x1="85" y1="87.8" x2="90" y2="87.8" class="umath-7-q-arrhenius-fit-ax"/>
+<text x="82" y="92.3" text-anchor="end" class="umath-7-q-arrhenius-fit-tk">−1</text>
+<line x1="85" y1="30.0" x2="90" y2="30.0" class="umath-7-q-arrhenius-fit-ax"/>
+<text x="82" y="34.5" text-anchor="end" class="umath-7-q-arrhenius-fit-tk">0</text>
+<text x="40" y="160.0" text-anchor="middle" transform="rotate(-90 40 160.0)" class="umath-7-q-arrhenius-fit-lb">ln k</text>
+<path d="M90.0 38.0 L680.0 298.9" class="umath-7-q-arrhenius-fit-ln"/>
+<circle cx="601.3" cy="264.7" r="5.5" class="umath-7-q-arrhenius-fit-pt"/>
+<circle cx="474.4" cy="206.9" r="5.5" class="umath-7-q-arrhenius-fit-pt"/>
+<circle cx="355.5" cy="156.0" r="5.5" class="umath-7-q-arrhenius-fit-pt"/>
+<circle cx="243.8" cy="105.4" r="5.5" class="umath-7-q-arrhenius-fit-pt"/>
+<circle cx="138.6" cy="59.9" r="5.5" class="umath-7-q-arrhenius-fit-pt"/>
+<path d="M362.7 148.6 L365.2 155.2 L372.2 155.5 L366.7 159.9 L368.6 166.7 L362.7 162.8 L356.8 166.7 L358.7 159.9 L353.2 155.5 L360.3 155.2 Z" class="umath-7-q-arrhenius-fit-st"/>
+<text x="348.7" y="184.6" text-anchor="end" class="umath-7-q-arrhenius-fit-amb">무게중심 (x̄, ȳ) = (3.131, −2.226)</text>
+<text x="408.6" y="82.0" class="umath-7-q-arrhenius-fit-red">최소 제곱 직선</text>
+<text x="408.6" y="102.0" class="umath-7-q-arrhenius-fit-red">y = −9.0306x + 26.05</text>
+<text x="408.6" y="122.0" class="umath-7-q-arrhenius-fit-s">기울기 = −E_a/R (단위 1000 K)</text>
+<line x1="90" y1="470.0" x2="680" y2="470.0" class="umath-7-q-arrhenius-fit-grid"/>
+<line x1="90" y1="437.5" x2="680" y2="437.5" class="umath-7-q-arrhenius-fit-grid"/>
+<line x1="90" y1="405.0" x2="680" y2="405.0" class="umath-7-q-arrhenius-fit-grid"/>
+<line x1="90" y1="372.5" x2="680" y2="372.5" class="umath-7-q-arrhenius-fit-grid"/>
+<line x1="90" y1="340.0" x2="680" y2="340.0" class="umath-7-q-arrhenius-fit-grid"/>
+<line x1="90" y1="470" x2="680" y2="470" class="umath-7-q-arrhenius-fit-ax"/>
+<line x1="90" y1="340" x2="90" y2="470" class="umath-7-q-arrhenius-fit-ax"/>
+<line x1="90.0" y1="470" x2="90.0" y2="475" class="umath-7-q-arrhenius-fit-ax"/>
+<text x="90.0" y="490" text-anchor="middle" class="umath-7-q-arrhenius-fit-tk">2.9</text>
+<line x1="208.0" y1="470" x2="208.0" y2="475" class="umath-7-q-arrhenius-fit-ax"/>
+<text x="208.0" y="490" text-anchor="middle" class="umath-7-q-arrhenius-fit-tk">3.0</text>
+<line x1="326.0" y1="470" x2="326.0" y2="475" class="umath-7-q-arrhenius-fit-ax"/>
+<text x="326.0" y="490" text-anchor="middle" class="umath-7-q-arrhenius-fit-tk">3.1</text>
+<line x1="444.0" y1="470" x2="444.0" y2="475" class="umath-7-q-arrhenius-fit-ax"/>
+<text x="444.0" y="490" text-anchor="middle" class="umath-7-q-arrhenius-fit-tk">3.2</text>
+<line x1="562.0" y1="470" x2="562.0" y2="475" class="umath-7-q-arrhenius-fit-ax"/>
+<text x="562.0" y="490" text-anchor="middle" class="umath-7-q-arrhenius-fit-tk">3.3</text>
+<line x1="680.0" y1="470" x2="680.0" y2="475" class="umath-7-q-arrhenius-fit-ax"/>
+<text x="680.0" y="490" text-anchor="middle" class="umath-7-q-arrhenius-fit-tk">3.4</text>
+<line x1="85" y1="470.0" x2="90" y2="470.0" class="umath-7-q-arrhenius-fit-ax"/>
+<text x="82" y="474.5" text-anchor="end" class="umath-7-q-arrhenius-fit-tk">−0.030</text>
+<line x1="85" y1="437.5" x2="90" y2="437.5" class="umath-7-q-arrhenius-fit-ax"/>
+<text x="82" y="442.0" text-anchor="end" class="umath-7-q-arrhenius-fit-tk">−0.015</text>
+<line x1="85" y1="405.0" x2="90" y2="405.0" class="umath-7-q-arrhenius-fit-ax"/>
+<text x="82" y="409.5" text-anchor="end" class="umath-7-q-arrhenius-fit-tk">0</text>
+<line x1="85" y1="372.5" x2="90" y2="372.5" class="umath-7-q-arrhenius-fit-ax"/>
+<text x="82" y="377.0" text-anchor="end" class="umath-7-q-arrhenius-fit-tk">0.015</text>
+<line x1="85" y1="340.0" x2="90" y2="340.0" class="umath-7-q-arrhenius-fit-ax"/>
+<text x="82" y="344.5" text-anchor="end" class="umath-7-q-arrhenius-fit-tk">0.030</text>
+<text x="385.0" y="510" text-anchor="middle" class="umath-7-q-arrhenius-fit-lb">x = 1000/T (K⁻¹)</text>
+<text x="32" y="405.0" text-anchor="middle" transform="rotate(-90 32 405.0)" class="umath-7-q-arrhenius-fit-lb">잔차 r</text>
+<line x1="90.0" y1="405.0" x2="680.0" y2="405.0" class="umath-7-q-arrhenius-fit-z"/>
+<line x1="90.0" y1="371.4" x2="680.0" y2="371.4" class="umath-7-q-arrhenius-fit-sd"/>
+<line x1="90.0" y1="438.6" x2="680.0" y2="438.6" class="umath-7-q-arrhenius-fit-sd"/>
+<text x="676.0" y="366.4" text-anchor="end" class="umath-7-q-arrhenius-fit-s">+s_y = 0.0155</text>
+<text x="676.0" y="454.6" text-anchor="end" class="umath-7-q-arrhenius-fit-s">−s_y</text>
+<line x1="601.3" y1="405.0" x2="601.3" y2="429.1" style="stroke:var(--fig-blue);stroke-width:1.4"/>
+<circle cx="601.3" cy="429.1" r="5" class="umath-7-q-arrhenius-fit-pt"/>
+<line x1="474.4" y1="405.0" x2="474.4" y2="363.8" style="stroke:var(--fig-blue);stroke-width:1.4"/>
+<circle cx="474.4" cy="363.8" r="5" class="umath-7-q-arrhenius-fit-pt"/>
+<line x1="355.5" y1="405.0" x2="355.5" y2="426.2" style="stroke:var(--fig-blue);stroke-width:1.4"/>
+<circle cx="355.5" cy="426.2" r="5" class="umath-7-q-arrhenius-fit-pt"/>
+<line x1="243.8" y1="405.0" x2="243.8" y2="383.7" style="stroke:var(--fig-blue);stroke-width:1.4"/>
+<circle cx="243.8" cy="383.7" r="5" class="umath-7-q-arrhenius-fit-pt"/>
+<line x1="138.6" y1="405.0" x2="138.6" y2="419.5" style="stroke:var(--fig-blue);stroke-width:1.4"/>
+<circle cx="138.6" cy="419.5" r="5" class="umath-7-q-arrhenius-fit-pt"/>
+<text x="95.9" y="332.0" class="umath-7-q-arrhenius-fit-t">잔차가 0 위아래로 무작위하게 흩어진다 → 직선 모형이 맞다</text>
+</svg>

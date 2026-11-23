@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-labelledby="t-umath-7-exponential-lifetime d-umath-7-exponential-lifetime">
+  <title id="t-umath-7-exponential-lifetime">그림 수학 도구 7-2 분자 하나의 수명 — 지수 분포</title>
+  <desc id="d-umath-7-exponential-lifetime">1차 반응에서 분자 하나의 수명 분포 p(t) = k e^(−kt). 가로축은 kt, 세로축은 p(t)/k이다. kt = 1(평균 수명) 오른쪽의 칠한 넓이가 e⁻¹ ≈ 0.37이고, 반감기 kt = ln 2 ≈ 0.69 오른쪽 넓이는 1/2이다.</desc>
+  <style>
+    .umath-7-exponential-lifetime-ax{stroke:var(--fig-ink);stroke-width:1.3;fill:none}
+    .umath-7-exponential-lifetime-grid{stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:2 4;fill:none;opacity:0.7}
+    .umath-7-exponential-lifetime-tk{font-size:13px;fill:var(--fig-muted)}
+    .umath-7-exponential-lifetime-lb{font-size:14px;fill:var(--fig-ink)}
+    .umath-7-exponential-lifetime-t{font-size:14px;fill:var(--fig-ink)}
+    .umath-7-exponential-lifetime-tb{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .umath-7-exponential-lifetime-s{font-size:13px;fill:var(--fig-muted)}
+    .umath-7-exponential-lifetime-ink{fill:var(--fig-ink)}
+    .umath-7-exponential-lifetime-cv{stroke:var(--fig-blue);stroke-width:2.6;fill:none}
+    .umath-7-exponential-lifetime-sh{fill:var(--fig-soft-blue)}
+    .umath-7-exponential-lifetime-v1{stroke:var(--fig-red);stroke-width:1.6;stroke-dasharray:6 4;fill:none}
+    .umath-7-exponential-lifetime-v2{stroke:var(--fig-amber);stroke-width:1.6;stroke-dasharray:6 4;fill:none}
+    .umath-7-exponential-lifetime-red{font-size:14px;fill:var(--fig-red)}
+    .umath-7-exponential-lifetime-amb{font-size:14px;fill:var(--fig-amber)}
+    .umath-7-exponential-lifetime-bl{font-size:15px;font-weight:600;fill:var(--fig-blue)}
+  </style>
+<path d="M230.0 202.4 L232.5 203.9 L235.0 205.3 L237.5 206.7 L240.0 208.1 L242.5 209.4 L245.0 210.7 L247.5 212.1 L250.0 213.3 L252.5 214.6 L255.0 215.9 L257.5 217.1 L260.0 218.3 L262.5 219.5 L265.0 220.6 L267.5 221.8 L270.0 222.9 L272.5 224.0 L275.0 225.1 L277.5 226.2 L280.0 227.2 L282.5 228.3 L285.0 229.3 L287.5 230.3 L290.0 231.3 L292.5 232.3 L295.0 233.2 L297.5 234.1 L300.0 235.1 L302.5 236.0 L305.0 236.9 L307.5 237.8 L310.0 238.6 L312.5 239.5 L315.0 240.3 L317.5 241.1 L320.0 241.9 L322.5 242.7 L325.0 243.5 L327.5 244.3 L330.0 245.0 L332.5 245.8 L335.0 246.5 L337.5 247.2 L340.0 247.9 L342.5 248.6 L345.0 249.3 L347.5 250.0 L350.0 250.6 L352.5 251.3 L355.0 251.9 L357.5 252.6 L360.0 253.2 L362.5 253.8 L365.0 254.4 L367.5 255.0 L370.0 255.6 L372.5 256.1 L375.0 256.7 L377.5 257.2 L380.0 257.8 L382.5 258.3 L385.0 258.8 L387.5 259.3 L390.0 259.9 L392.5 260.4 L395.0 260.8 L397.5 261.3 L400.0 261.8 L402.5 262.3 L405.0 262.7 L407.5 263.2 L410.0 263.6 L412.5 264.1 L415.0 264.5 L417.5 264.9 L420.0 265.3 L422.5 265.7 L425.0 266.1 L427.5 266.5 L430.0 266.9 L432.5 267.3 L435.0 267.7 L437.5 268.0 L440.0 268.4 L442.5 268.8 L445.0 269.1 L447.5 269.5 L450.0 269.8 L452.5 270.1 L455.0 270.5 L457.5 270.8 L460.0 271.1 L462.5 271.4 L465.0 271.7 L467.5 272.0 L470.0 272.3 L472.5 272.6 L475.0 272.9 L477.5 273.2 L480.0 273.5 L482.5 273.7 L485.0 274.0 L487.5 274.3 L490.0 274.5 L492.5 274.8 L495.0 275.0 L497.5 275.3 L500.0 275.5 L502.5 275.8 L505.0 276.0 L507.5 276.2 L510.0 276.5 L512.5 276.7 L515.0 276.9 L517.5 277.1 L520.0 277.3 L522.5 277.5 L525.0 277.7 L527.5 277.9 L530.0 278.1 L532.5 278.3 L535.0 278.5 L537.5 278.7 L540.0 278.9 L542.5 279.1 L545.0 279.3 L547.5 279.5 L550.0 279.6 L552.5 279.8 L555.0 280.0 L557.5 280.1 L560.0 280.3 L562.5 280.5 L565.0 280.6 L567.5 280.8 L570.0 280.9 L572.5 281.1 L575.0 281.2 L577.5 281.4 L580.0 281.5 L582.5 281.6 L585.0 281.8 L587.5 281.9 L590.0 282.1 L592.5 282.2 L595.0 282.3 L597.5 282.4 L600.0 282.6 L602.5 282.7 L605.0 282.8 L607.5 282.9 L610.0 283.0 L612.5 283.2 L615.0 283.3 L617.5 283.4 L620.0 283.5 L622.5 283.6 L625.0 283.7 L627.5 283.8 L630.0 283.9 L632.5 284.0 L635.0 284.1 L637.5 284.2 L640.0 284.3 L642.5 284.4 L645.0 284.5 L647.5 284.6 L650.0 284.7 L652.5 284.8 L655.0 284.8 L657.5 284.9 L660.0 285.0 L662.5 285.1 L665.0 285.2 L667.5 285.3 L670.0 285.3 L672.5 285.4 L675.0 285.5 L677.5 285.6 L680.0 285.6 L680.0 290.0 L230.0 290.0 Z" class="umath-7-exponential-lifetime-sh"/>
+<line x1="80" y1="290.0" x2="680" y2="290.0" class="umath-7-exponential-lifetime-grid"/>
+<line x1="80" y1="242.4" x2="680" y2="242.4" class="umath-7-exponential-lifetime-grid"/>
+<line x1="80" y1="194.8" x2="680" y2="194.8" class="umath-7-exponential-lifetime-grid"/>
+<line x1="80" y1="147.1" x2="680" y2="147.1" class="umath-7-exponential-lifetime-grid"/>
+<line x1="80" y1="99.5" x2="680" y2="99.5" class="umath-7-exponential-lifetime-grid"/>
+<line x1="80" y1="51.9" x2="680" y2="51.9" class="umath-7-exponential-lifetime-grid"/>
+<line x1="80" y1="290" x2="680" y2="290" class="umath-7-exponential-lifetime-ax"/>
+<line x1="80" y1="40" x2="80" y2="290" class="umath-7-exponential-lifetime-ax"/>
+<line x1="80.0" y1="290" x2="80.0" y2="295" class="umath-7-exponential-lifetime-ax"/>
+<text x="80.0" y="310" text-anchor="middle" class="umath-7-exponential-lifetime-tk">0</text>
+<line x1="155.0" y1="290" x2="155.0" y2="295" class="umath-7-exponential-lifetime-ax"/>
+<text x="155.0" y="310" text-anchor="middle" class="umath-7-exponential-lifetime-tk">0.5</text>
+<line x1="230.0" y1="290" x2="230.0" y2="295" class="umath-7-exponential-lifetime-ax"/>
+<text x="230.0" y="310" text-anchor="middle" class="umath-7-exponential-lifetime-tk">1</text>
+<line x1="305.0" y1="290" x2="305.0" y2="295" class="umath-7-exponential-lifetime-ax"/>
+<text x="305.0" y="310" text-anchor="middle" class="umath-7-exponential-lifetime-tk">1.5</text>
+<line x1="380.0" y1="290" x2="380.0" y2="295" class="umath-7-exponential-lifetime-ax"/>
+<text x="380.0" y="310" text-anchor="middle" class="umath-7-exponential-lifetime-tk">2</text>
+<line x1="455.0" y1="290" x2="455.0" y2="295" class="umath-7-exponential-lifetime-ax"/>
+<text x="455.0" y="310" text-anchor="middle" class="umath-7-exponential-lifetime-tk">2.5</text>
+<line x1="530.0" y1="290" x2="530.0" y2="295" class="umath-7-exponential-lifetime-ax"/>
+<text x="530.0" y="310" text-anchor="middle" class="umath-7-exponential-lifetime-tk">3</text>
+<line x1="605.0" y1="290" x2="605.0" y2="295" class="umath-7-exponential-lifetime-ax"/>
+<text x="605.0" y="310" text-anchor="middle" class="umath-7-exponential-lifetime-tk">3.5</text>
+<line x1="680.0" y1="290" x2="680.0" y2="295" class="umath-7-exponential-lifetime-ax"/>
+<text x="680.0" y="310" text-anchor="middle" class="umath-7-exponential-lifetime-tk">4</text>
+<line x1="75" y1="290.0" x2="80" y2="290.0" class="umath-7-exponential-lifetime-ax"/>
+<text x="72" y="294.5" text-anchor="end" class="umath-7-exponential-lifetime-tk">0.0</text>
+<line x1="75" y1="242.4" x2="80" y2="242.4" class="umath-7-exponential-lifetime-ax"/>
+<text x="72" y="246.9" text-anchor="end" class="umath-7-exponential-lifetime-tk">0.2</text>
+<line x1="75" y1="194.8" x2="80" y2="194.8" class="umath-7-exponential-lifetime-ax"/>
+<text x="72" y="199.3" text-anchor="end" class="umath-7-exponential-lifetime-tk">0.4</text>
+<line x1="75" y1="147.1" x2="80" y2="147.1" class="umath-7-exponential-lifetime-ax"/>
+<text x="72" y="151.6" text-anchor="end" class="umath-7-exponential-lifetime-tk">0.6</text>
+<line x1="75" y1="99.5" x2="80" y2="99.5" class="umath-7-exponential-lifetime-ax"/>
+<text x="72" y="104.0" text-anchor="end" class="umath-7-exponential-lifetime-tk">0.8</text>
+<line x1="75" y1="51.9" x2="80" y2="51.9" class="umath-7-exponential-lifetime-ax"/>
+<text x="72" y="56.4" text-anchor="end" class="umath-7-exponential-lifetime-tk">1.0</text>
+<text x="380.0" y="330" text-anchor="middle" class="umath-7-exponential-lifetime-lb">kt (시간 × 속도 상수)</text>
+<text x="32" y="165.0" text-anchor="middle" transform="rotate(-90 32 165.0)" class="umath-7-exponential-lifetime-lb">p(t) / k</text>
+<path d="M80.0 51.9 L82.5 55.8 L85.0 59.7 L87.5 63.5 L90.0 67.3 L92.5 70.9 L95.0 74.6 L97.5 78.1 L100.0 81.6 L102.5 85.1 L105.0 88.5 L107.5 91.8 L110.0 95.1 L112.5 98.3 L115.0 101.5 L117.5 104.6 L120.0 107.6 L122.5 110.7 L125.0 113.6 L127.5 116.5 L130.0 119.4 L132.5 122.2 L135.0 125.0 L137.5 127.7 L140.0 130.4 L142.5 133.0 L145.0 135.6 L147.5 138.2 L150.0 140.7 L152.5 143.2 L155.0 145.6 L157.5 148.0 L160.0 150.3 L162.5 152.6 L165.0 154.9 L167.5 157.1 L170.0 159.3 L172.5 161.5 L175.0 163.6 L177.5 165.7 L180.0 167.8 L182.5 169.8 L185.0 171.8 L187.5 173.7 L190.0 175.6 L192.5 177.5 L195.0 179.4 L197.5 181.2 L200.0 183.0 L202.5 184.8 L205.0 186.5 L207.5 188.2 L210.0 189.9 L212.5 191.6 L215.0 193.2 L217.5 194.8 L220.0 196.4 L222.5 197.9 L225.0 199.4 L227.5 200.9 L230.0 202.4 L232.5 203.9 L235.0 205.3 L237.5 206.7 L240.0 208.1 L242.5 209.4 L245.0 210.7 L247.5 212.1 L250.0 213.3 L252.5 214.6 L255.0 215.9 L257.5 217.1 L260.0 218.3 L262.5 219.5 L265.0 220.6 L267.5 221.8 L270.0 222.9 L272.5 224.0 L275.0 225.1 L277.5 226.2 L280.0 227.2 L282.5 228.3 L285.0 229.3 L287.5 230.3 L290.0 231.3 L292.5 232.3 L295.0 233.2 L297.5 234.1 L300.0 235.1 L302.5 236.0 L305.0 236.9 L307.5 237.8 L310.0 238.6 L312.5 239.5 L315.0 240.3 L317.5 241.1 L320.0 241.9 L322.5 242.7 L325.0 243.5 L327.5 244.3 L330.0 245.0 L332.5 245.8 L335.0 246.5 L337.5 247.2 L340.0 247.9 L342.5 248.6 L345.0 249.3 L347.5 250.0 L350.0 250.6 L352.5 251.3 L355.0 251.9 L357.5 252.6 L360.0 253.2 L362.5 253.8 L365.0 254.4 L367.5 255.0 L370.0 255.6 L372.5 256.1 L375.0 256.7 L377.5 257.2 L380.0 257.8 L382.5 258.3 L385.0 258.8 L387.5 259.3 L390.0 259.9 L392.5 260.4 L395.0 260.8 L397.5 261.3 L400.0 261.8 L402.5 262.3 L405.0 262.7 L407.5 263.2 L410.0 263.6 L412.5 264.1 L415.0 264.5 L417.5 264.9 L420.0 265.3 L422.5 265.7 L425.0 266.1 L427.5 266.5 L430.0 266.9 L432.5 267.3 L435.0 267.7 L437.5 268.0 L440.0 268.4 L442.5 268.8 L445.0 269.1 L447.5 269.5 L450.0 269.8 L452.5 270.1 L455.0 270.5 L457.5 270.8 L460.0 271.1 L462.5 271.4 L465.0 271.7 L467.5 272.0 L470.0 272.3 L472.5 272.6 L475.0 272.9 L477.5 273.2 L480.0 273.5 L482.5 273.7 L485.0 274.0 L487.5 274.3 L490.0 274.5 L492.5 274.8 L495.0 275.0 L497.5 275.3 L500.0 275.5 L502.5 275.8 L505.0 276.0 L507.5 276.2 L510.0 276.5 L512.5 276.7 L515.0 276.9 L517.5 277.1 L520.0 277.3 L522.5 277.5 L525.0 277.7 L527.5 277.9 L530.0 278.1 L532.5 278.3 L535.0 278.5 L537.5 278.7 L540.0 278.9 L542.5 279.1 L545.0 279.3 L547.5 279.5 L550.0 279.6 L552.5 279.8 L555.0 280.0 L557.5 280.1 L560.0 280.3 L562.5 280.5 L565.0 280.6 L567.5 280.8 L570.0 280.9 L572.5 281.1 L575.0 281.2 L577.5 281.4 L580.0 281.5 L582.5 281.6 L585.0 281.8 L587.5 281.9 L590.0 282.1 L592.5 282.2 L595.0 282.3 L597.5 282.4 L600.0 282.6 L602.5 282.7 L605.0 282.8 L607.5 282.9 L610.0 283.0 L612.5 283.2 L615.0 283.3 L617.5 283.4 L620.0 283.5 L622.5 283.6 L625.0 283.7 L627.5 283.8 L630.0 283.9 L632.5 284.0 L635.0 284.1 L637.5 284.2 L640.0 284.3 L642.5 284.4 L645.0 284.5 L647.5 284.6 L650.0 284.7 L652.5 284.8 L655.0 284.8 L657.5 284.9 L660.0 285.0 L662.5 285.1 L665.0 285.2 L667.5 285.3 L670.0 285.3 L672.5 285.4 L675.0 285.5 L677.5 285.6 L680.0 285.6" class="umath-7-exponential-lifetime-cv"/>
+<line x1="184.0" y1="290.0" x2="184.0" y2="51.9" class="umath-7-exponential-lifetime-v2"/>
+<circle cx="184.0" cy="171.0" r="4" style="fill:var(--fig-amber)"/>
+<line x1="230.0" y1="290.0" x2="230.0" y2="51.9" class="umath-7-exponential-lifetime-v1"/>
+<circle cx="230.0" cy="202.4" r="4" style="fill:var(--fig-red)"/>
+<text x="176.0" y="61.4" text-anchor="end" class="umath-7-exponential-lifetime-amb">반감기</text>
+<text x="176.0" y="79.4" text-anchor="end" class="umath-7-exponential-lifetime-amb">kt = ln 2 ≈ 0.69</text>
+<text x="238.0" y="61.4" class="umath-7-exponential-lifetime-red">평균 수명 τ = 1/k</text>
+<text x="238.0" y="79.4" class="umath-7-exponential-lifetime-red">kt = 1</text>
+<text x="387.5" y="237.6" class="umath-7-exponential-lifetime-bl">칠한 넓이 = P(t &gt; 1/k) = e⁻¹ ≈ 0.37</text>
+<text x="387.5" y="257.6" class="umath-7-exponential-lifetime-s">평균 수명보다 오래 사는 분자의 비율</text>
+<text x="98.0" y="275.7" class="umath-7-exponential-lifetime-s">왼쪽 넓이 0.63</text>
+<text x="297.5" y="142.4" class="umath-7-exponential-lifetime-s">p(t)/k = e^(−kt)</text>
+</svg>
