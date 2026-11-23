@@ -21,7 +21,7 @@ Sims.register('mj-kelvin-laplace', {
     var g = api.group();
     var bs = LIQ.map(function (L, i) { return api.button(L.name, function () { pick(i); }, { toggle: true, pressed: i === 0, parent: g }); });
     var sR = api.slider({ id: 'mj-kelvin-laplace-r', label: '반지름 r', min: Math.log10(0.5), max: 4, step: 0.01, value: st.lr,
-      format: function (v) { return fmtR(Math.pow(10, v)); }, onInput: function (v) { st.lr = v; draw(); } });
+      format: function (v) { return fmtR(Math.pow(10, v)); }, onInput: function (v) { if (!st.run) st.lr = v; draw(); } });
     api.slider({ id: 'mj-kelvin-laplace-t', label: '온도', min: 0, max: 100, step: 1, value: st.t,
       format: function (v) { return v + ' °C'; }, onInput: function (v) { st.t = v; draw(); } });
     api.slider({ id: 'mj-kelvin-laplace-s', label: '과포화도 S = p/p*', min: -3, max: Math.log10(3), step: 0.01, value: st.ls,
@@ -44,7 +44,7 @@ Sims.register('mj-kelvin-laplace', {
       st.lr += v * 0.5 * dt;
       if (st.lr <= Math.log10(0.5)) { st.lr = Math.log10(0.5); stop(); }
       if (st.lr >= 4) { st.lr = 4; stop(); }
-      sR.input.value = st.lr; sR.input.dispatchEvent(new Event('input'));
+      var keep = st.lr; sR.set(keep); st.lr = keep; draw();
     });
     loop.pause();
     function start() { if (api.reduced) { jump(); return; } st.run = true; runBtn.textContent = '멈춤'; loop.play(); }
@@ -122,9 +122,11 @@ Sims.register('mj-kelvin-laplace', {
       ctx.fillStyle = Tk.figBlue; ctx.beginPath(); ctx.arc(xr, sy(Kc), 4.5, 0, 7); ctx.fill();
       ctx.restore();
       ctx.font = '600 11px ' + Tk.fontBody; ctx.textAlign = 'right';
-      ctx.fillStyle = Tk.figRed; ctx.fillText('볼록(물방울)', Rr - 4, sy(1) - 22);
-      ctx.fillStyle = Tk.figBlue; ctx.fillText('오목(메니스커스)', Rr - 4, sy(1) + 18);
-      ctx.fillStyle = Tk.figGreen; ctx.fillText('주위 증기 S', Rr - 4, sy(s) - (s - 1 < 0.15 ? -16 : 6) - (s - 1 < 0.15 ? 26 : 0));
+      ctx.textAlign = 'left';
+      ctx.fillStyle = Tk.figRed; ctx.fillText('볼록(물방울)', L + 6, Tp + 14);
+      ctx.fillStyle = Tk.figBlue; ctx.fillText('오목(메니스커스)', L + 6, sy(0.12));
+      ctx.textAlign = 'right';
+      ctx.fillStyle = Tk.figGreen; ctx.fillText('주위 증기 S = ' + s.toFixed(3), Rr - 4, sy(s) - 6);
       // 읽은 값
       var L0 = LIQ[st.k];
       rG.set((p.gam * 1000).toFixed(1) + ' mN/m, ' + (p.Vm * 1e6).toFixed(2) + ' cm³/mol' + (st.t < L0.mp || st.t > L0.bp ? ' (1 atm에서 액체 범위 밖)' : ''));
