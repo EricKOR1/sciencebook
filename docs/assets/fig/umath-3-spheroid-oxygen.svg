@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-labelledby="t-umath-3-spheroid-oxygen d-umath-3-spheroid-oxygen">
+  <title id="t-umath-3-spheroid-oxygen">그림 수학 도구 3-11 세포 덩어리 속 산소 농도 분포</title>
+  <desc id="d-umath-3-spheroid-oxygen">c(r) = c_s − Q(R² − r²)/(6D)를 c_s = 0.20 mol/m³, Q = 0.020 mol/(m³·s), D = 2.0×10⁻⁹ m²/s로 계산한 곡선. 반지름 R = 100, 200, 346 μm일 때 중심 농도는 약 0.183, 0.133, 0 mol/m³이다. R = 346 μm(R_max)이면 중심의 산소가 막 바닥난다. 오른쪽은 세포 덩어리 단면 모식도이다.</desc>
+  <style>.umath-3-spheroid-oxygen-t{font-size:14px;fill:var(--fig-ink)} .umath-3-spheroid-oxygen-s{font-size:13px;fill:var(--fig-muted)} .umath-3-spheroid-oxygen-b{font-size:14px;font-weight:700;fill:var(--fig-ink)} .umath-3-spheroid-oxygen-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .umath-3-spheroid-oxygen-bl{font-size:14px;fill:var(--fig-blue)} .umath-3-spheroid-oxygen-rd{font-size:14px;fill:var(--fig-red)} .umath-3-spheroid-oxygen-gr{font-size:14px;fill:var(--fig-green)} .umath-3-spheroid-oxygen-am{font-size:14px;fill:var(--fig-amber)} .umath-3-spheroid-oxygen-vi{font-size:14px;fill:var(--fig-violet)} .umath-3-spheroid-oxygen-te{font-size:14px;fill:var(--fig-teal)} .umath-3-spheroid-oxygen-ax{font-size:13px;fill:var(--fig-ink)}</style>
+  <line x1="80" y1="310" x2="470" y2="310" style="stroke:var(--fig-line);stroke-width:0.6;stroke-opacity:0.6"/>
+  <text x="74" y="314" text-anchor="end" class="umath-3-spheroid-oxygen-ax">0.00</text>
+  <line x1="80" y1="248.6" x2="470" y2="248.6" style="stroke:var(--fig-line);stroke-width:0.6;stroke-opacity:0.6"/>
+  <text x="74" y="252.6" text-anchor="end" class="umath-3-spheroid-oxygen-ax">0.05</text>
+  <line x1="80" y1="187.3" x2="470" y2="187.3" style="stroke:var(--fig-line);stroke-width:0.6;stroke-opacity:0.6"/>
+  <text x="74" y="191.3" text-anchor="end" class="umath-3-spheroid-oxygen-ax">0.10</text>
+  <line x1="80" y1="125.9" x2="470" y2="125.9" style="stroke:var(--fig-line);stroke-width:0.6;stroke-opacity:0.6"/>
+  <text x="74" y="129.9" text-anchor="end" class="umath-3-spheroid-oxygen-ax">0.15</text>
+  <line x1="80" y1="64.5" x2="470" y2="64.5" style="stroke:var(--fig-line);stroke-width:0.6;stroke-opacity:0.6"/>
+  <text x="74" y="68.5" text-anchor="end" class="umath-3-spheroid-oxygen-ax">0.20</text>
+  <line x1="80" y1="310" x2="80" y2="315" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="80" y="329" text-anchor="middle" class="umath-3-spheroid-oxygen-ax">0</text>
+  <line x1="177.5" y1="310" x2="177.5" y2="315" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="177.5" y="329" text-anchor="middle" class="umath-3-spheroid-oxygen-ax">100</text>
+  <line x1="275" y1="310" x2="275" y2="315" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="275" y="329" text-anchor="middle" class="umath-3-spheroid-oxygen-ax">200</text>
+  <line x1="372.5" y1="310" x2="372.5" y2="315" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="372.5" y="329" text-anchor="middle" class="umath-3-spheroid-oxygen-ax">300</text>
+  <line x1="470" y1="310" x2="470" y2="315" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="470" y="329" text-anchor="middle" class="umath-3-spheroid-oxygen-ax">400</text>
+  <line x1="80" y1="310" x2="470" y2="310" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <line x1="80" y1="310" x2="80" y2="40" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <text x="275" y="350" text-anchor="middle" class="umath-3-spheroid-oxygen-t"><tspan>지름 방향 거리 </tspan><tspan style="font-style:italic">r</tspan><tspan> (μm)</tspan></text>
+  <text x="24" y="175" transform="rotate(-90 24 175)" text-anchor="middle" class="umath-3-spheroid-oxygen-t">산소 농도 <tspan style="font-style:italic">c</tspan> (mol/m³)</text>
+  <path d="M80 85 L81 85 L82 85 L82.9 85 L83.9 85 L84.9 84.9 L85.8 84.9 L86.8 84.9 L87.8 84.9 L88.8 84.8 L89.8 84.8 L90.7 84.8 L91.7 84.7 L92.7 84.7 L93.7 84.6 L94.6 84.5 L95.6 84.5 L96.6 84.4 L97.5 84.3 L98.5 84.3 L99.5 84.2 L100.5 84.1 L101.5 84 L102.4 83.9 L103.4 83.8 L104.4 83.7 L105.3 83.6 L106.3 83.5 L107.3 83.4 L108.3 83.3 L109.2 83.2 L110.2 83 L111.2 82.9 L112.2 82.8 L113.2 82.6 L114.1 82.5 L115.1 82.3 L116.1 82.2 L117 82 L118 81.9 L119 81.7 L120 81.6 L120.9 81.4 L121.9 81.2 L122.9 81 L123.9 80.9 L124.8 80.7 L125.8 80.5 L126.8 80.3 L127.8 80.1 L128.8 79.9 L129.7 79.7 L130.7 79.5 L131.7 79.3 L132.7 79 L133.6 78.8 L134.6 78.6 L135.6 78.4 L136.6 78.1 L137.5 77.9 L138.5 77.6 L139.5 77.4 L140.4 77.1 L141.4 76.9 L142.4 76.6 L143.4 76.4 L144.4 76.1 L145.3 75.8 L146.3 75.5 L147.3 75.3 L148.2 75 L149.2 74.7 L150.2 74.4 L151.2 74.1 L152.2 73.8 L153.1 73.5 L154.1 73.2 L155.1 72.9 L156.1 72.6 L157 72.2 L158 71.9 L159 71.6 L159.9 71.2 L160.9 70.9 L161.9 70.6 L162.9 70.2 L163.8 69.9 L164.8 69.5 L165.8 69.2 L166.8 68.8 L167.8 68.4 L168.7 68.1 L169.7 67.7 L170.7 67.3 L171.6 66.9 L172.6 66.5 L173.6 66.1 L174.6 65.8 L175.6 65.4 L176.5 65 L177.5 64.5" style="fill:none;stroke:var(--fig-blue);stroke-width:2.6;stroke-linejoin:round;stroke-linecap:round"/>
+  <circle cx="177.5" cy="64.5" r="3.5" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <path d="M80 146.4 L82 146.4 L83.9 146.3 L85.8 146.3 L87.8 146.2 L89.8 146.2 L91.7 146.1 L93.7 146 L95.6 145.8 L97.5 145.7 L99.5 145.5 L101.5 145.4 L103.4 145.2 L105.3 145 L107.3 144.8 L109.2 144.5 L111.2 144.3 L113.2 144 L115.1 143.7 L117 143.4 L119 143.1 L120.9 142.8 L122.9 142.4 L124.8 142 L126.8 141.7 L128.8 141.2 L130.7 140.8 L132.7 140.4 L134.6 139.9 L136.6 139.5 L138.5 139 L140.4 138.5 L142.4 138 L144.4 137.5 L146.3 136.9 L148.2 136.3 L150.2 135.8 L152.2 135.2 L154.1 134.5 L156.1 133.9 L158 133.3 L159.9 132.6 L161.9 131.9 L163.8 131.2 L165.8 130.5 L167.8 129.8 L169.7 129.1 L171.6 128.3 L173.6 127.5 L175.6 126.7 L177.5 125.9 L179.4 125.1 L181.4 124.2 L183.4 123.4 L185.3 122.5 L187.2 121.6 L189.2 120.7 L191.1 119.8 L193.1 118.8 L195.1 117.9 L197 116.9 L198.9 115.9 L200.9 114.9 L202.8 113.9 L204.8 112.9 L206.8 111.8 L208.7 110.7 L210.7 109.6 L212.6 108.5 L214.5 107.4 L216.5 106.3 L218.4 105.1 L220.4 103.9 L222.3 102.8 L224.3 101.6 L226.2 100.3 L228.2 99.1 L230.2 97.9 L232.1 96.6 L234.1 95.3 L236 94 L238 92.7 L239.9 91.3 L241.8 90 L243.8 88.6 L245.8 87.2 L247.7 85.9 L249.7 84.4 L251.6 83 L253.6 81.6 L255.5 80.1 L257.5 78.6 L259.4 77.1 L261.4 75.6 L263.3 74.1 L265.2 72.5 L267.2 71 L269.1 69.4 L271.1 67.8 L273.1 66.2 L275 64.5" style="fill:none;stroke:var(--fig-green);stroke-width:2.6;stroke-linejoin:round;stroke-linecap:round"/>
+  <circle cx="275" cy="64.5" r="3.5" style="fill:var(--fig-green);stroke:var(--fig-green);stroke-width:1"/>
+  <path d="M80 310 L83.4 310 L86.8 309.9 L90.1 309.8 L93.5 309.6 L96.9 309.4 L100.3 309.1 L103.6 308.8 L107 308.4 L110.4 308 L113.8 307.5 L117.2 307 L120.5 306.5 L123.9 305.9 L127.3 305.2 L130.7 304.5 L134 303.7 L137.4 302.9 L140.8 302 L144.2 301.1 L147.5 300.2 L150.9 299.2 L154.3 298.1 L157.7 297 L161.1 295.9 L164.4 294.7 L167.8 293.4 L171.2 292.1 L174.6 290.8 L177.9 289.4 L181.3 287.9 L184.7 286.4 L188.1 284.9 L191.5 283.3 L194.8 281.6 L198.2 279.9 L201.6 278.2 L205 276.4 L208.3 274.6 L211.7 272.7 L215.1 270.7 L218.5 268.7 L221.9 266.7 L225.2 264.6 L228.6 262.5 L232 260.3 L235.4 258.1 L238.7 255.8 L242.1 253.4 L245.5 251.1 L248.9 248.6 L252.3 246.2 L255.6 243.6 L259 241.1 L262.4 238.4 L265.8 235.7 L269.1 233 L272.5 230.3 L275.9 227.4 L279.3 224.6 L282.6 221.6 L286 218.7 L289.4 215.6 L292.8 212.6 L296.2 209.5 L299.5 206.3 L302.9 203.1 L306.3 199.8 L309.7 196.5 L313 193.1 L316.4 189.7 L319.8 186.3 L323.2 182.8 L326.6 179.2 L329.9 175.6 L333.3 171.9 L336.7 168.2 L340.1 164.5 L343.4 160.7 L346.8 156.8 L350.2 152.9 L353.6 149 L357 145 L360.3 140.9 L363.7 136.8 L367.1 132.7 L370.5 128.5 L373.8 124.2 L377.2 119.9 L380.6 115.6 L384 111.2 L387.4 106.7 L390.7 102.2 L394.1 97.7 L397.5 93.1 L400.9 88.5 L404.2 83.8 L407.6 79.1 L411 74.3 L414.4 69.4 L417.7 64.5" style="fill:none;stroke:var(--fig-red);stroke-width:2.6;stroke-linejoin:round;stroke-linecap:round"/>
+  <circle cx="417.7" cy="64.5" r="3.5" style="fill:var(--fig-red);stroke:var(--fig-red);stroke-width:1"/>
+  <line x1="417.7" y1="64.5" x2="470" y2="64.5" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 4"/>
+  <text x="423.2" y="56.5" class="umath-3-spheroid-oxygen-s"><tspan style="font-style:italic">c</tspan><tspan dy="4" style="font-size:78%">s</tspan><tspan dy="-4"> = 0.20</tspan></text>
+  <text x="109.2" y="103.8" class="umath-3-spheroid-oxygen-bl">R = 100 μm</text>
+  <text x="197" y="160.3" class="umath-3-spheroid-oxygen-gr">R = 200 μm</text>
+  <text x="275" y="267" class="umath-3-spheroid-oxygen-rd">R = 346 μm</text>
+  <circle cx="80" cy="310" r="5" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2"/>
+  <line x1="86" y1="304" x2="119" y2="260.9" style="stroke:var(--fig-red);stroke-width:1"/>
+  <text x="120.9" y="257.2" class="umath-3-spheroid-oxygen-rd"><tspan style="font-style:italic">R</tspan><tspan dy="4" style="font-size:78%">max</tspan><tspan dy="-4">: 중심 농도 0</tspan></text>
+  <text x="275" y="301" class="umath-3-spheroid-oxygen-s">(= √(6Dc_s/Q))</text>
+  <text x="84" y="28" class="umath-3-spheroid-oxygen-s">점: 덩어리 표면(r = R)</text>
+  <text x="605" y="50" text-anchor="middle" class="umath-3-spheroid-oxygen-b">세포 덩어리 단면 (모식도)</text>
+  <circle cx="545" cy="125" r="28" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6"/>
+  <text x="545" y="175" text-anchor="middle" class="umath-3-spheroid-oxygen-s"><tspan style="font-style:italic">R</tspan><tspan> &lt; </tspan><tspan style="font-style:italic">R</tspan><tspan dy="4" style="font-size:78%">max</tspan></text>
+  <text x="545" y="192" text-anchor="middle" class="umath-3-spheroid-oxygen-s">모두 살아 있음</text>
+  <circle cx="655" cy="125" r="46" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6"/>
+  <circle cx="655" cy="125" r="24" style="fill:var(--fig-muted);stroke:var(--fig-muted);stroke-width:1.2;fill-opacity:0.45"/>
+  <text x="655" y="192" text-anchor="middle" class="umath-3-spheroid-oxygen-s"><tspan style="font-style:italic">R</tspan><tspan> &gt; </tspan><tspan style="font-style:italic">R</tspan><tspan dy="4" style="font-size:78%">max</tspan></text>
+  <text x="655" y="209" text-anchor="middle" class="umath-3-spheroid-oxygen-s">중심 괴사</text>
+  <text x="605" y="250" text-anchor="middle" class="umath-3-spheroid-oxygen-gr">바깥: 살아 있는 세포</text>
+  <text x="605" y="270" text-anchor="middle" class="umath-3-spheroid-oxygen-s">회색 중심: 산소 부족으로 괴사</text>
+  <text x="605" y="302" text-anchor="middle" class="umath-3-spheroid-oxygen-s">공급은 표면(∝ R²),</text>
+  <text x="605" y="320" text-anchor="middle" class="umath-3-spheroid-oxygen-s">소모는 부피(∝ R³)</text>
+</svg>

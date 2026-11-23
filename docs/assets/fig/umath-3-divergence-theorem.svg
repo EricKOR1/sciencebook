@@ -1,0 +1,253 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t-umath-3-divergence-theorem d-umath-3-divergence-theorem">
+  <title id="t-umath-3-divergence-theorem">그림 수학 도구 3-10 발산 정리의 직관: 안쪽 면은 지워지고 바깥 면만 남는다</title>
+  <desc id="d-umath-3-divergence-theorem">영역을 작은 상자(단면에서는 칸)로 나누면, 이웃한 두 상자가 맞닿은 면에서는 두 상자의 바깥 법선이 반대 방향이어서 선속이 서로 지워진다. 바깥 경계의 면에서 나가는 선속만 남으므로, 상자마다의 (∇·F)ΔV를 모두 더한 것이 표면의 선속 ∮F·dA와 같다.</desc>
+  <style>.umath-3-divergence-theorem-t{font-size:14px;fill:var(--fig-ink)} .umath-3-divergence-theorem-s{font-size:13px;fill:var(--fig-muted)} .umath-3-divergence-theorem-b{font-size:14px;font-weight:700;fill:var(--fig-ink)} .umath-3-divergence-theorem-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .umath-3-divergence-theorem-bl{font-size:14px;fill:var(--fig-blue)} .umath-3-divergence-theorem-rd{font-size:14px;fill:var(--fig-red)} .umath-3-divergence-theorem-gr{font-size:14px;fill:var(--fig-green)} .umath-3-divergence-theorem-am{font-size:14px;fill:var(--fig-amber)} .umath-3-divergence-theorem-vi{font-size:14px;fill:var(--fig-violet)} .umath-3-divergence-theorem-te{font-size:14px;fill:var(--fig-teal)} .umath-3-divergence-theorem-ax{font-size:13px;fill:var(--fig-ink)}</style>
+  <rect x="345" y="180" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="75" y="270" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="45" y="150" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="375" y="150" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="225" y="300" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="285" y="120" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="105" y="150" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="165" y="240" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="165" y="210" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="195" y="240" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="195" y="210" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="345" y="120" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="375" y="90" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="225" y="240" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="225" y="210" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="105" y="90" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="165" y="180" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="195" y="180" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="135" y="150" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="225" y="180" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="285" y="270" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="105" y="300" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="195" y="120" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="165" y="120" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="315" y="150" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="45" y="240" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="45" y="210" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="375" y="210" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="135" y="90" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="225" y="120" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="255" y="90" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="105" y="240" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="105" y="210" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="165" y="330" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="195" y="330" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="315" y="90" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="45" y="180" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="375" y="180" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="135" y="300" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="225" y="330" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="255" y="300" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="405" y="150" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="105" y="180" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="165" y="270" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="195" y="270" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="375" y="120" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="75" y="150" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="135" y="240" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="135" y="210" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="225" y="270" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="255" y="240" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="255" y="210" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="105" y="120" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="315" y="240" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="315" y="210" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="135" y="180" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="255" y="180" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="315" y="180" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="135" y="120" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="255" y="120" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="285" y="150" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="105" y="270" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="315" y="120" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="345" y="150" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="75" y="210" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="75" y="240" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="135" y="330" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="285" y="90" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="165" y="300" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="345" y="90" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="75" y="180" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="135" y="270" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="255" y="270" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="165" y="150" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="195" y="150" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="315" y="270" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="75" y="120" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="225" y="150" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="285" y="240" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="285" y="210" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="165" y="90" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="195" y="90" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="345" y="240" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="345" y="210" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="255" y="150" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="225" y="90" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="285" y="180" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="405" y="180" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <rect x="195" y="300" width="30" height="30" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:0.8"/>
+  <path d="M415.2 210 L417.7 203.3 L419.8 196.4 L421.5 189.4 L422.6 182.2 L423.2 175.1 L423.2 167.9 L422.7 160.7 L421.6 153.6 L420 146.6 L417.9 139.8 L415.1 133.2 L411.9 126.8 L408.2 120.7 L404 114.8 L399.3 109.4 L394.2 104.3 L388.7 99.6 L382.9 95.2 L376.8 91.4 L370.5 87.9 L363.9 84.9 L357.2 82.3 L350.4 80.2 L343.4 78.5 L336.5 77.2 L329.5 76.2 L322.6 75.7 L315.8 75.4 L309 75.5 L302.4 75.9 L296 76.5 L289.7 77.3 L283.7 78.3 L277.8 79.4 L272.1 80.6 L266.7 81.8 L261.4 83.1 L256.3 84.3 L251.4 85.6 L246.7 86.7 L242.2 87.8 L237.7 88.8 L233.4 89.7 L229.2 90.4 L225 91 L220.9 91.4 L216.7 91.7 L212.6 91.9 L208.4 91.9 L204.2 91.8 L199.8 91.7 L195.4 91.4 L190.9 91.2 L186.3 90.9 L181.5 90.6 L176.6 90.3 L171.6 90.1 L166.5 90 L161.2 90 L155.8 90.2 L150.3 90.5 L144.8 91.1 L139.2 91.8 L133.5 92.9 L127.8 94.2 L122.2 95.8 L116.5 97.7 L111 99.9 L105.5 102.4 L100.1 105.2 L94.9 108.4 L89.9 111.9 L85.1 115.6 L80.5 119.7 L76.1 124 L72 128.7 L68.2 133.5 L64.7 138.6 L61.5 144 L58.6 149.5 L56.1 155.1 L53.9 160.9 L52 166.9 L50.4 172.9 L49.2 179 L48.3 185.2 L47.7 191.4 L47.4 197.6 L47.4 203.8 L47.7 210 L48.2 216.2 L49 222.3 L50 228.4 L51.3 234.4 L52.8 240.4 L54.4 246.3 L56.3 252.1 L58.3 257.8 L60.5 263.4 L62.9 269 L65.4 274.5 L68.1 279.8 L71 285.1 L73.9 290.3 L77 295.4 L80.3 300.4 L83.7 305.3 L87.2 310.1 L90.9 314.8 L94.7 319.3 L98.7 323.7 L102.9 328 L107.1 332.1 L111.6 336 L116.1 339.7 L120.9 343.3 L125.7 346.6 L130.7 349.7 L135.9 352.6 L141.1 355.2 L146.5 357.6 L152 359.7 L157.6 361.5 L163.2 363 L168.9 364.2 L174.6 365.1 L180.4 365.7 L186.1 365.9 L191.9 365.9 L197.6 365.5 L203.2 364.8 L208.8 363.9 L214.3 362.7 L219.7 361.2 L225 359.4 L230.1 357.5 L235.2 355.3 L240 352.9 L244.7 350.4 L249.3 347.8 L253.7 345 L257.9 342.1 L262.1 339.2 L266 336.2 L269.9 333.3 L273.6 330.3 L277.2 327.3 L280.8 324.4 L284.3 321.5 L287.8 318.7 L291.2 316 L294.7 313.3 L298.1 310.7 L301.7 308.1 L305.3 305.6 L308.9 303.2 L312.7 300.8 L316.6 298.5 L320.6 296.1 L324.8 293.7 L329.1 291.3 L333.5 288.8 L338.1 286.3 L342.7 283.6 L347.6 280.8 L352.5 277.8 L357.5 274.6 L362.5 271.2 L367.6 267.6 L372.7 263.7 L377.7 259.6 L382.7 255.2 L387.5 250.5 L392.3 245.6 L396.8 240.3 L401.1 234.7 L405.1 228.9 L408.8 222.9 L412.2 216.5 L415.2 210 Z" style="fill:none;stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:4 4;stroke-linejoin:round;stroke-linecap:round"/>
+  <line x1="75" y1="300" x2="75" y2="270" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="75" y1="285" x2="64.8" y2="285" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M60 285 L66 282 L66 288 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="75" y1="300" x2="105" y2="300" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="90" y1="300" x2="90" y2="310.2" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M90 315 L87 309 L93 309 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="45" y1="180" x2="45" y2="150" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="45" y1="165" x2="34.8" y2="165" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M30 165 L36 162 L36 168 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="45" y1="150" x2="75" y2="150" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="60" y1="150" x2="60" y2="139.8" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M60 135 L63 141 L57 141 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="405" y1="120" x2="405" y2="90" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="405" y1="105" x2="415.2" y2="105" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M420 105 L414 108 L414 102 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="375" y1="90" x2="405" y2="90" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="390" y1="90" x2="390" y2="79.8" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M390 75 L393 81 L387 81 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="105" y1="120" x2="105" y2="90" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="105" y1="105" x2="94.8" y2="105" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M90 105 L96 102 L96 108 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="105" y1="90" x2="135" y2="90" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="120" y1="90" x2="120" y2="79.8" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M120 75 L123 81 L117 81 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="285" y1="300" x2="315" y2="300" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="300" y1="300" x2="300" y2="310.2" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M300 315 L297 309 L303 309 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="105" y1="330" x2="105" y2="300" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="105" y1="315" x2="94.8" y2="315" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M90 315 L96 312 L96 318 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="105" y1="330" x2="135" y2="330" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="120" y1="330" x2="120" y2="340.2" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M120 345 L117 339 L123 339 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="45" y1="270" x2="45" y2="240" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="45" y1="255" x2="34.8" y2="255" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M30 255 L36 252 L36 258 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="45" y1="270" x2="75" y2="270" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="60" y1="270" x2="60" y2="280.2" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M60 285 L57 279 L63 279 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="45" y1="240" x2="45" y2="210" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="45" y1="225" x2="34.8" y2="225" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M30 225 L36 222 L36 228 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="405" y1="240" x2="405" y2="210" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="405" y1="225" x2="415.2" y2="225" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M420 225 L414 228 L414 222 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="375" y1="240" x2="405" y2="240" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="390" y1="240" x2="390" y2="250.2" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M390 255 L387 249 L393 249 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="135" y1="90" x2="165" y2="90" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="150" y1="90" x2="150" y2="79.8" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M150 75 L153 81 L147 81 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="255" y1="90" x2="285" y2="90" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="270" y1="90" x2="270" y2="79.8" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M270 75 L273 81 L267 81 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="165" y1="360" x2="195" y2="360" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="180" y1="360" x2="180" y2="370.2" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M180 375 L177 369 L183 369 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="195" y1="360" x2="225" y2="360" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="210" y1="360" x2="210" y2="370.2" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M210 375 L207 369 L213 369 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="315" y1="90" x2="345" y2="90" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="330" y1="90" x2="330" y2="79.8" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M330 75 L333 81 L327 81 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="45" y1="210" x2="45" y2="180" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="45" y1="195" x2="34.8" y2="195" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M30 195 L36 192 L36 198 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="255" y1="360" x2="255" y2="330" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="255" y1="345" x2="265.2" y2="345" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M270 345 L264 348 L264 342 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="225" y1="360" x2="255" y2="360" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="240" y1="360" x2="240" y2="370.2" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M240 375 L237 369 L243 369 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="285" y1="330" x2="285" y2="300" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="285" y1="315" x2="295.2" y2="315" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M300 315 L294 318 L294 312 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="255" y1="330" x2="285" y2="330" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="270" y1="330" x2="270" y2="340.2" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M270 345 L267 339 L273 339 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="435" y1="180" x2="435" y2="150" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="435" y1="165" x2="445.2" y2="165" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M450 165 L444 168 L444 162 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="405" y1="150" x2="435" y2="150" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="420" y1="150" x2="420" y2="139.8" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M420 135 L423 141 L417 141 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="405" y1="150" x2="405" y2="120" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="405" y1="135" x2="415.2" y2="135" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M420 135 L414 138 L414 132 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="135" y1="360" x2="135" y2="330" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="135" y1="345" x2="124.8" y2="345" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M120 345 L126 342 L126 348 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="135" y1="360" x2="165" y2="360" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="150" y1="360" x2="150" y2="370.2" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M150 375 L147 369 L153 369 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="285" y1="90" x2="315" y2="90" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="300" y1="90" x2="300" y2="79.8" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M300 75 L303 81 L297 81 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="345" y1="90" x2="375" y2="90" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="360" y1="90" x2="360" y2="79.8" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M360 75 L363 81 L357 81 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="345" y1="300" x2="345" y2="270" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="345" y1="285" x2="355.2" y2="285" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M360 285 L354 288 L354 282 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="315" y1="300" x2="345" y2="300" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="330" y1="300" x2="330" y2="310.2" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M330 315 L327 309 L333 309 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="75" y1="150" x2="75" y2="120" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="75" y1="135" x2="64.8" y2="135" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M60 135 L66 132 L66 138 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="75" y1="120" x2="105" y2="120" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="90" y1="120" x2="90" y2="109.8" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M90 105 L93 111 L87 111 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="165" y1="90" x2="195" y2="90" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="180" y1="90" x2="180" y2="79.8" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M180 75 L183 81 L177 81 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="195" y1="90" x2="225" y2="90" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="210" y1="90" x2="210" y2="79.8" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M210 75 L213 81 L207 81 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="375" y1="270" x2="375" y2="240" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="375" y1="255" x2="385.2" y2="255" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M390 255 L384 258 L384 252 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="345" y1="270" x2="375" y2="270" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="360" y1="270" x2="360" y2="280.2" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M360 285 L357 279 L363 279 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="225" y1="90" x2="255" y2="90" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="240" y1="90" x2="240" y2="79.8" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M240 75 L243 81 L237 81 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="435" y1="210" x2="435" y2="180" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="435" y1="195" x2="445.2" y2="195" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M450 195 L444 198 L444 192 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="405" y1="210" x2="435" y2="210" style="stroke:var(--fig-red);stroke-width:3"/>
+  <line x1="420" y1="210" x2="420" y2="220.2" style="stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M420 225 L417 219 L423 219 Z" style="fill:var(--fig-red);stroke:none"/>
+  <rect x="165" y="150" width="30" height="30" style="fill:var(--fig-soft-amber);stroke:var(--fig-accent);stroke-width:2"/>
+  <rect x="195" y="150" width="30" height="30" style="fill:var(--fig-soft-amber);stroke:var(--fig-accent);stroke-width:2"/>
+  <line x1="182" y1="159" x2="189.2" y2="159" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <path d="M194 159 L188 162 L188 156 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <line x1="208" y1="171" x2="200.8" y2="171" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <path d="M196 171 L202 168 L202 174 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <rect x="255" y="240" width="30" height="30" style="fill:var(--fig-soft-amber);stroke:var(--fig-accent);stroke-width:2"/>
+  <rect x="255" y="210" width="30" height="30" style="fill:var(--fig-soft-amber);stroke:var(--fig-accent);stroke-width:2"/>
+  <line x1="264" y1="253" x2="264" y2="245.8" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <path d="M264 241 L267 247 L261 247 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <line x1="276" y1="227" x2="276" y2="234.2" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <path d="M276 239 L273 233 L279 233 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <line x1="195" y1="156" x2="464" y2="92" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <line x1="278" y1="240" x2="464" y2="112" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="470" y="88" class="umath-3-divergence-theorem-b">안쪽 면: 서로 지워짐</text>
+  <text x="470" y="108" class="umath-3-divergence-theorem-s">맞닿은 면에서 두 상자의 바깥 법선이</text>
+  <text x="470" y="126" class="umath-3-divergence-theorem-s">반대 방향 → 선속의 합 0</text>
+  <line x1="451" y1="195" x2="464" y2="196" style="stroke:var(--fig-red);stroke-width:1"/>
+  <text x="470" y="192" class="umath-3-divergence-theorem-rd">바깥 면: 남음</text>
+  <text x="470" y="214" class="umath-3-divergence-theorem-rd">남은 선속의 합 = ∮F·dA</text>
+  <text x="470" y="262" class="umath-3-divergence-theorem-t">상자 하나에서 나가는 선속 = (∇·F)ΔV</text>
+  <text x="470" y="284" class="umath-3-divergence-theorem-t">모든 상자에 대해 더하면</text>
+  <text x="470" y="310" class="umath-3-divergence-theorem-h">∫(∇·F) dV = ∮F·dA</text>
+  <text x="470" y="350" class="umath-3-divergence-theorem-s">점선: 실제 영역의 경계(단면)</text>
+  <text x="470" y="370" class="umath-3-divergence-theorem-s">작은 상자를 더 잘게 나눌수록</text>
+  <text x="470" y="388" class="umath-3-divergence-theorem-s">계단 모양 경계가 점선에 가까워진다</text>
+</svg>

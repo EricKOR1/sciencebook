@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-labelledby="t-umath-3-two-paths d-umath-3-two-paths">
+  <title id="t-umath-3-two-paths">그림 수학 도구 3-8 같은 두 점을 잇는 두 경로와 F₂ = (y, −x)의 일</title>
+  <desc id="d-umath-3-two-paths">원점 O에서 P(1, 1)까지 경로 A(O → (1, 0) → P)와 경로 B(직선 y = x). 배경 화살표는 시계 방향으로 도는 벡터장 F₂ = (y, −x)이다. F₂가 한 일은 경로 A에서 −1, 경로 B에서 0으로 경로에 따라 다르다.</desc>
+  <style>.umath-3-two-paths-t{font-size:14px;fill:var(--fig-ink)} .umath-3-two-paths-s{font-size:13px;fill:var(--fig-muted)} .umath-3-two-paths-b{font-size:14px;font-weight:700;fill:var(--fig-ink)} .umath-3-two-paths-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .umath-3-two-paths-bl{font-size:14px;fill:var(--fig-blue)} .umath-3-two-paths-rd{font-size:14px;fill:var(--fig-red)} .umath-3-two-paths-gr{font-size:14px;fill:var(--fig-green)} .umath-3-two-paths-am{font-size:14px;fill:var(--fig-amber)} .umath-3-two-paths-vi{font-size:14px;fill:var(--fig-violet)} .umath-3-two-paths-te{font-size:14px;fill:var(--fig-teal)} .umath-3-two-paths-ax{font-size:13px;fill:var(--fig-ink)}</style>
+  <line x1="22" y1="300" x2="389.5" y2="300" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <line x1="85" y1="342" x2="85" y2="16.5" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <line x1="379" y1="300" x2="390.2" y2="300" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <path d="M395.8 300 L388.8 303.5 L388.8 296.5 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <line x1="85" y1="27" x2="85" y2="15.8" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <path d="M85 10.2 L88.5 17.2 L81.5 17.2 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <text x="399.8" y="305" class="umath-3-two-paths-t"><tspan style="font-style:italic">x</tspan></text>
+  <text x="93" y="18.4" class="umath-3-two-paths-t"><tspan style="font-style:italic">y</tspan></text>
+  <line x1="295" y1="297" x2="295" y2="303" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <line x1="82" y1="90" x2="88" y2="90" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="77" y="95" text-anchor="end" class="umath-3-two-paths-s">1</text>
+  <line x1="35.8" y1="355.8" x2="32.4" y2="352.4" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M29.2 349.2 L35.2 351.2 L31.2 355.2 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="32.5" y1="303.3" x2="32.5" y2="299.9" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M32.5 296.7 L34.5 300.7 L30.5 300.7 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="29.2" y1="250.8" x2="32.6" y2="247.4" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M35.8 244.2 L33.8 250.2 L29.8 246.2 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="25.8" y1="198.3" x2="34.9" y2="193.8" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M39.2 191.7 L35.2 197 L32.5 191.7 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="22.5" y1="145.8" x2="38" y2="140.7" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M42.5 139.2 L37.8 143.9 L35.9 138.2 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="19.1" y1="93.3" x2="41.2" y2="87.8" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M45.9 86.7 L40.8 91 L39.3 85.2 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="15.8" y1="40.8" x2="44.5" y2="35.1" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M49.2 34.2 L43.9 38.3 L42.7 32.4 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="88.3" y1="352.5" x2="84.9" y2="352.5" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M81.7 352.5 L85.7 350.5 L85.7 354.5 Z" style="fill:var(--fig-line);stroke:none"/>
+  <circle cx="85" cy="300" r="2" style="fill:var(--fig-line);stroke:var(--fig-line);stroke-width:1"/>
+  <line x1="81.7" y1="247.5" x2="85.1" y2="247.5" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M88.3 247.5 L84.3 249.5 L84.3 245.5 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="78.3" y1="195" x2="86.9" y2="195" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M91.7 195 L85.7 198 L85.7 192 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="75" y1="142.5" x2="90.2" y2="142.5" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M95 142.5 L89 145.5 L89 139.5 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="71.6" y1="90" x2="93.6" y2="90" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M98.4 90 L92.4 93 L92.4 87 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="68.3" y1="37.5" x2="96.9" y2="37.5" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M101.7 37.5 L95.7 40.5 L95.7 34.5 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="140.8" y1="349.2" x2="137.4" y2="352.6" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M134.2 355.8 L136.2 349.8 L140.2 353.8 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="137.5" y1="296.7" x2="137.5" y2="300.1" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M137.5 303.3 L135.5 299.3 L139.5 299.3 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="134.2" y1="244.2" x2="137.6" y2="247.6" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M140.8 250.8 L134.8 248.8 L138.8 244.8 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="130.8" y1="191.7" x2="139.9" y2="196.2" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M144.2 198.3 L137.5 198.3 L140.2 193 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="127.5" y1="139.2" x2="143" y2="144.3" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M147.5 145.8 L140.9 146.8 L142.8 141.1 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="124.1" y1="86.7" x2="146.2" y2="92.2" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M150.9 93.3 L144.3 94.8 L145.8 89 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="120.8" y1="34.2" x2="149.5" y2="39.9" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M154.2 40.8 L147.7 42.6 L148.9 36.7 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="193.3" y1="345.8" x2="188.8" y2="354.9" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M186.7 359.2 L186.7 352.5 L192 355.2 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="190" y1="293.3" x2="190" y2="301.9" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M190 306.7 L187 300.7 L193 300.7 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="186.7" y1="240.8" x2="191.2" y2="249.9" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M193.3 254.2 L188 250.2 L193.3 247.5 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="183.3" y1="188.3" x2="193.3" y2="198.3" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M196.7 201.7 L190.3 199.6 L194.6 195.3 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="180" y1="135.8" x2="196" y2="146.5" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M200 149.2 L193.4 148.4 L196.7 143.4 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="176.6" y1="83.3" x2="199.1" y2="94.5" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M203.4 96.7 L196.7 96.7 L199.3 91.3 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="173.3" y1="30.8" x2="202.2" y2="42.4" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M206.7 44.2 L200 44.7 L202.2 39.2 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="245.8" y1="342.5" x2="240.7" y2="358" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M239.2 362.5 L238.2 355.9 L243.9 357.8 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="242.5" y1="290" x2="242.5" y2="305.2" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M242.5 310 L239.5 304 L245.5 304 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="239.2" y1="237.5" x2="244.3" y2="253" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M245.8 257.5 L241.1 252.8 L246.8 250.9 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="235.8" y1="185" x2="246.5" y2="201" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M249.2 205 L243.4 201.7 L248.4 198.4 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="232.5" y1="132.5" x2="249.1" y2="149.1" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M252.5 152.5 L246.2 150.4 L250.4 146.2 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="229.1" y1="80" x2="252" y2="97.1" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M255.9 100 L249.3 98.8 L252.9 94 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="225.8" y1="27.5" x2="255.1" y2="45.1" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M259.2 47.5 L252.5 47 L255.6 41.9 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="298.3" y1="339.1" x2="292.8" y2="361.2" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M291.7 365.9 L290.2 359.3 L296 360.8 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="295" y1="286.6" x2="295" y2="308.6" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M295 313.4 L292 307.4 L298 307.4 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="291.7" y1="234.1" x2="297.2" y2="256.2" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M298.3 260.9 L294 255.8 L299.8 254.3 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="288.3" y1="181.6" x2="299.5" y2="204.1" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M301.7 208.4 L296.3 204.3 L301.7 201.7 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="285" y1="129.1" x2="302.1" y2="152" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M305 155.9 L299 152.9 L303.8 149.3 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="281.6" y1="76.6" x2="305" y2="100" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M308.4 103.4 L302 101.2 L306.2 97 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="278.3" y1="24.1" x2="308" y2="47.9" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M311.7 50.9 L305.1 49.5 L308.9 44.8 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="350.8" y1="335.8" x2="345.1" y2="364.5" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M344.2 369.2 L342.4 362.7 L348.3 363.9 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="347.5" y1="283.3" x2="347.5" y2="311.9" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M347.5 316.7 L344.5 310.7 L350.5 310.7 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="344.2" y1="230.8" x2="349.9" y2="259.5" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M350.8 264.2 L346.7 258.9 L352.6 257.7 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="340.8" y1="178.3" x2="352.4" y2="207.2" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M354.2 211.7 L349.2 207.2 L354.7 205 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="337.5" y1="125.8" x2="355.1" y2="155.1" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M357.5 159.2 L351.9 155.6 L357 152.5 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="334.1" y1="73.3" x2="357.9" y2="103" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M360.9 106.7 L354.8 103.9 L359.5 100.1 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="330.8" y1="20.8" x2="360.8" y2="50.8" style="stroke:var(--fig-line);stroke-width:1.4"/>
+  <path d="M364.2 54.2 L357.8 52.1 L362.1 47.8 Z" style="fill:var(--fig-line);stroke:none"/>
+  <path d="M85 300 L295 300 L295 90" style="fill:none;stroke:var(--fig-blue);stroke-width:3.2;stroke-linejoin:round;stroke-linecap:round"/>
+  <path d="M211 300 L198 307 L198 293 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <path d="M295 174 L302 187 L288 187 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="85" y1="300" x2="295" y2="90" style="stroke:var(--fig-amber);stroke-width:3.2"/>
+  <path d="M211 174 L206.8 188.1 L196.9 178.2 Z" style="fill:var(--fig-amber);stroke:none"/>
+  <circle cx="85" cy="300" r="4.5" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="69" y="318" class="umath-3-two-paths-b">O</text>
+  <circle cx="295" cy="90" r="4.5" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="303" y="82" class="umath-3-two-paths-b">P(1, 1)</text>
+  <circle cx="295" cy="300" r="4.5" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="303" y="318" class="umath-3-two-paths-b">(1, 0)</text>
+  <text x="307" y="205.5" class="umath-3-two-paths-bl">경로 A</text>
+  <text x="142" y="211.8" text-anchor="end" class="umath-3-two-paths-am">경로 B</text>
+  <text x="440" y="60" class="umath-3-two-paths-h"><tspan style="font-weight:700;font-style:italic">F</tspan><tspan dy="4" style="font-size:78%">2</tspan><tspan dy="-4"> = (</tspan><tspan style="font-style:italic">y</tspan><tspan>, −</tspan><tspan style="font-style:italic">x</tspan><tspan>)</tspan></text>
+  <text x="440" y="82" class="umath-3-two-paths-s">(연한 화살표, 시계 방향으로 돈다)</text>
+  <text x="440" y="124" class="umath-3-two-paths-bl">경로 A: O → (1, 0) → P</text>
+  <text x="452" y="148" class="umath-3-two-paths-b"><tspan style="font-style:italic">W</tspan><tspan>(</tspan><tspan style="font-weight:700;font-style:italic">F</tspan><tspan dy="4" style="font-size:78%">2</tspan><tspan dy="-4">) = 0 + (−1) = −1</tspan></text>
+  <text x="440" y="188" class="umath-3-two-paths-am">경로 B: 직선 y = x</text>
+  <text x="452" y="212" class="umath-3-two-paths-b"><tspan style="font-style:italic">W</tspan><tspan>(</tspan><tspan style="font-weight:700;font-style:italic">F</tspan><tspan dy="4" style="font-size:78%">2</tspan><tspan dy="-4">) = 0</tspan></text>
+  <text x="452" y="232" class="umath-3-two-paths-s">(장이 경로에 늘 수직)</text>
+  <text x="440" y="276" class="umath-3-two-paths-t">같은 두 점, 다른 일 → 보존력이 아니다</text>
+  <text x="440" y="298" class="umath-3-two-paths-t"><tspan>∇×</tspan><tspan style="font-weight:700;font-style:italic">F</tspan><tspan dy="4" style="font-size:78%">2</tspan><tspan dy="-4"> = (0, 0, −2) ≠ 0</tspan></text>
+</svg>
