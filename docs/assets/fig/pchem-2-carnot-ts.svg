@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-pchem-2-carnot-ts d-pchem-2-carnot-ts">
+  <title id="t-pchem-2-carnot-ts">그림 물리화학 2-5 예제 2의 카르노 순환을 T–S 도표로 나타낸 모습</title>
+  <desc id="d-pchem-2-carnot-ts">예제 2의 카르노 순환은 T–S 도표에서 직사각형이다. A→B는 600 K 수평선(엔트로피 9.13 J/K 증가), B→C는 수직선(가역 단열, 등엔트로피), C→D는 300 K 수평선, D→A는 수직선이다. 직사각형 넓이가 알짜 일 2.74 kJ, 300 K 선 아래 넓이가 버린 열 2.74 kJ이다.</desc>
+  <style>
+    .pc2carnot-ts-t{font-size:14px;fill:var(--fig-ink)}
+    .pc2carnot-ts-s{font-size:13px;fill:var(--fig-muted)}
+    .pc2carnot-ts-b{font-size:14px;fill:var(--fig-ink);font-weight:600}
+    .pc2carnot-ts-ax{font-size:13px;fill:var(--fig-muted)}
+    .pc2carnot-ts-fink{fill:var(--fig-ink)}
+    .pc2carnot-ts-fmuted{fill:var(--fig-muted)}
+    .pc2carnot-ts-fline{fill:var(--fig-line)}
+    .pc2carnot-ts-fblue{fill:var(--fig-blue)}
+    .pc2carnot-ts-fred{fill:var(--fig-red)}
+    .pc2carnot-ts-fgreen{fill:var(--fig-green)}
+    .pc2carnot-ts-famber{fill:var(--fig-amber)}
+    .pc2carnot-ts-fviolet{fill:var(--fig-violet)}
+    .pc2carnot-ts-fteal{fill:var(--fig-teal)}
+    .pc2carnot-ts-faccent{fill:var(--fig-accent)}
+  </style>
+  <defs><marker id="pc2carnot-ts-ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-ink)"/></marker><marker id="pc2carnot-ts-am-ink" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-ink)"/></marker><marker id="pc2carnot-ts-ar-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-muted)"/></marker><marker id="pc2carnot-ts-am-muted" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-muted)"/></marker><marker id="pc2carnot-ts-ar-line" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-line)"/></marker><marker id="pc2carnot-ts-am-line" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-line)"/></marker><marker id="pc2carnot-ts-ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-blue)"/></marker><marker id="pc2carnot-ts-am-blue" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-blue)"/></marker><marker id="pc2carnot-ts-ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-red)"/></marker><marker id="pc2carnot-ts-am-red" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-red)"/></marker><marker id="pc2carnot-ts-ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-green)"/></marker><marker id="pc2carnot-ts-am-green" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-green)"/></marker><marker id="pc2carnot-ts-ar-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-amber)"/></marker><marker id="pc2carnot-ts-am-amber" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-amber)"/></marker><marker id="pc2carnot-ts-ar-violet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-violet)"/></marker><marker id="pc2carnot-ts-am-violet" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-violet)"/></marker><marker id="pc2carnot-ts-ar-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-teal)"/></marker><marker id="pc2carnot-ts-am-teal" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-teal)"/></marker><marker id="pc2carnot-ts-ar-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-accent)"/></marker><marker id="pc2carnot-ts-am-accent" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-accent)"/></marker></defs>
+  <line x1="80.0" y1="40.0" x2="80.0" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="80.0" y1="330.0" x2="80.0" y2="335.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="80.0" y="349.0" text-anchor="middle" class="pc2carnot-ts-ax">0</text>
+  <line x1="146.7" y1="40.0" x2="146.7" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="146.7" y1="330.0" x2="146.7" y2="335.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="146.7" y="349.0" text-anchor="middle" class="pc2carnot-ts-ax">2</text>
+  <line x1="213.3" y1="40.0" x2="213.3" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="213.3" y1="330.0" x2="213.3" y2="335.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="213.3" y="349.0" text-anchor="middle" class="pc2carnot-ts-ax">4</text>
+  <line x1="280.0" y1="40.0" x2="280.0" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="280.0" y1="330.0" x2="280.0" y2="335.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="280.0" y="349.0" text-anchor="middle" class="pc2carnot-ts-ax">6</text>
+  <line x1="346.7" y1="40.0" x2="346.7" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="346.7" y1="330.0" x2="346.7" y2="335.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="346.7" y="349.0" text-anchor="middle" class="pc2carnot-ts-ax">8</text>
+  <line x1="413.3" y1="40.0" x2="413.3" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="413.3" y1="330.0" x2="413.3" y2="335.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="413.3" y="349.0" text-anchor="middle" class="pc2carnot-ts-ax">10</text>
+  <line x1="480.0" y1="40.0" x2="480.0" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="480.0" y1="330.0" x2="480.0" y2="335.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="480.0" y="349.0" text-anchor="middle" class="pc2carnot-ts-ax">12</text>
+  <line x1="80.0" y1="330.0" x2="480.0" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="75.0" y1="330.0" x2="80.0" y2="330.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="72.0" y="334.5" text-anchor="end" class="pc2carnot-ts-ax">0</text>
+  <line x1="80.0" y1="288.6" x2="480.0" y2="288.6" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="75.0" y1="288.6" x2="80.0" y2="288.6" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="72.0" y="293.1" text-anchor="end" class="pc2carnot-ts-ax">100</text>
+  <line x1="80.0" y1="247.1" x2="480.0" y2="247.1" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="75.0" y1="247.1" x2="80.0" y2="247.1" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="72.0" y="251.6" text-anchor="end" class="pc2carnot-ts-ax">200</text>
+  <line x1="80.0" y1="205.7" x2="480.0" y2="205.7" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="75.0" y1="205.7" x2="80.0" y2="205.7" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="72.0" y="210.2" text-anchor="end" class="pc2carnot-ts-ax">300</text>
+  <line x1="80.0" y1="164.3" x2="480.0" y2="164.3" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="75.0" y1="164.3" x2="80.0" y2="164.3" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="72.0" y="168.8" text-anchor="end" class="pc2carnot-ts-ax">400</text>
+  <line x1="80.0" y1="122.9" x2="480.0" y2="122.9" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="75.0" y1="122.9" x2="80.0" y2="122.9" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="72.0" y="127.4" text-anchor="end" class="pc2carnot-ts-ax">500</text>
+  <line x1="80.0" y1="81.4" x2="480.0" y2="81.4" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="75.0" y1="81.4" x2="80.0" y2="81.4" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="72.0" y="85.9" text-anchor="end" class="pc2carnot-ts-ax">600</text>
+  <line x1="80.0" y1="40.0" x2="480.0" y2="40.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="75.0" y1="40.0" x2="80.0" y2="40.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="72.0" y="44.5" text-anchor="end" class="pc2carnot-ts-ax">700</text>
+  <line x1="80.0" y1="330.0" x2="480.0" y2="330.0" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <line x1="80.0" y1="40.0" x2="80.0" y2="330.0" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <text x="280.0" y="370.0" text-anchor="middle" class="pc2carnot-ts-t">엔트로피 S − S₀ (J/K)</text>
+  <text x="76.0" y="28.0" class="pc2carnot-ts-t">온도 T (K)</text>
+  <rect x="126.7" y="81.4" width="304.5" height="124.3" rx="0" style="fill:var(--fig-soft-amber);stroke:none;stroke-width:1.5"/>
+  <pattern id="pc2carnot-ts-hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" style="fill:var(--fig-soft-blue)"/><line x1="0" y1="0" x2="0" y2="8" style="stroke:var(--fig-blue);stroke-width:1.2;opacity:0.55"/></pattern>
+  <rect x="126.7" y="205.7" width="304.5" height="124.3" style="fill:url(#pc2carnot-ts-hatch);stroke:none"/>
+  <line x1="126.7" y1="81.4" x2="431.1" y2="81.4" style="stroke:var(--fig-red);stroke-width:3"/>
+  <path d="M6.0 0 L-6.0 5.0 L-6.0 -5.0 Z" transform="translate(278.9,81.4) rotate(0.0)" style="fill:var(--fig-red)"/>
+  <line x1="431.1" y1="81.4" x2="431.1" y2="205.7" style="stroke:var(--fig-ink);stroke-width:3"/>
+  <path d="M6.0 0 L-6.0 5.0 L-6.0 -5.0 Z" transform="translate(431.1,143.6) rotate(90.0)" style="fill:var(--fig-ink)"/>
+  <line x1="431.1" y1="205.7" x2="126.7" y2="205.7" style="stroke:var(--fig-blue);stroke-width:3"/>
+  <path d="M6.0 0 L-6.0 5.0 L-6.0 -5.0 Z" transform="translate(278.9,205.7) rotate(180.0)" style="fill:var(--fig-blue)"/>
+  <line x1="126.7" y1="205.7" x2="126.7" y2="81.4" style="stroke:var(--fig-ink);stroke-width:3"/>
+  <path d="M6.0 0 L-6.0 5.0 L-6.0 -5.0 Z" transform="translate(126.7,143.6) rotate(-90.0)" style="fill:var(--fig-ink)"/>
+  <circle cx="126.7" cy="81.4" r="4.5" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+  <text x="112.7" y="73.4" text-anchor="end" class="pc2carnot-ts-b">A</text>
+  <circle cx="431.1" cy="81.4" r="4.5" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+  <text x="439.1" y="73.4" class="pc2carnot-ts-b">B</text>
+  <circle cx="431.1" cy="205.7" r="4.5" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+  <text x="439.1" y="221.7" class="pc2carnot-ts-b">C</text>
+  <circle cx="126.7" cy="205.7" r="4.5" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+  <text x="112.7" y="221.7" text-anchor="end" class="pc2carnot-ts-b">D</text>
+  <text x="278.9" y="148.6" text-anchor="middle" class="pc2carnot-ts-b">−w = 2.74 kJ</text>
+  <rect x="208.9" y="253.9" width="140" height="22" rx="4" style="fill:var(--fig-panel);stroke:none;opacity:0.9"/>
+  <text x="278.9" y="269.9" text-anchor="middle" class="pc2carnot-ts-b">|<tspan style="font-style:italic">q</tspan><tspan baseline-shift="sub" style="font-size:10px">c</tspan>| = 2.74 kJ</text>
+  <line x1="126.7" y1="64.9" x2="431.1" y2="64.9" style="stroke:var(--fig-muted);stroke-width:1" marker-end="url(#pc2carnot-ts-ar-muted)" marker-start="url(#pc2carnot-ts-ar-muted)"/>
+  <text x="278.9" y="57.9" text-anchor="middle" class="pc2carnot-ts-s">Δ S = 9.13 J/K</text>
+  <text x="506.0" y="80.0" class="pc2carnot-ts-t">A→B: <tspan style="font-style:italic">q</tspan><tspan baseline-shift="sub" style="font-size:10px">h</tspan> = <tspan style="font-style:italic">T</tspan><tspan baseline-shift="sub" style="font-size:10px">h</tspan>ΔS = 5.48 kJ</text>
+  <text x="506.0" y="104.0" class="pc2carnot-ts-s">(600 K 수평선 아래 넓이 전체)</text>
+  <rect x="506.0" y="130.0" width="18.0" height="14.0" rx="0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1"/>
+  <text x="532.0" y="142.0" class="pc2carnot-ts-t">직사각형 = 알짜 일 −w</text>
+  <rect x="506.0" y="158.0" width="18.0" height="14.0" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <text x="532.0" y="170.0" class="pc2carnot-ts-t">300 K 선 아래 = 버린 열</text>
+  <text x="506.0" y="214.0" class="pc2carnot-ts-b">등온 = 수평선</text>
+  <text x="506.0" y="238.0" class="pc2carnot-ts-b">가역 단열 = 수직선(등엔트로피)</text>
+  <text x="506.0" y="276.0" class="pc2carnot-ts-s">효율 = 직사각형 ÷ <tspan style="font-style:italic">T</tspan><tspan baseline-shift="sub" style="font-size:10px">h</tspan> 아래 넓이</text>
+  <text x="506.0" y="296.0" class="pc2carnot-ts-s">= 2.74 / 5.48 = 0.500</text>
+</svg>

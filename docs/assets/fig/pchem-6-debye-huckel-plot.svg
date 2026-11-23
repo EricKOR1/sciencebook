@@ -2,39 +2,39 @@
   <title id="t-pchem-6-debye-huckel-plot">그림 물리화학 6-5 log γ±–√I 그래프와 디바이–휘켈 극한 법칙</title>
   <desc id="d-pchem-6-debye-huckel-plot">25 ℃에서 극한 법칙 log γ± = −0.509|z₊z₋|√I의 직선(1:1 기울기 −0.509, 2:1 기울기 −1.018, 2:2 기울기 −2.036)과 HCl 측정점. 측정점은 √I가 작을 때 1:1 직선에 붙어 있다가 √I가 커지면 직선 위로 벗어난다. 극한 법칙은 √I → 0에서 곡선의 접선이다.</desc>
   <style>.pchem-6-debye-huckel-plot-lbl{font-size:14px;fill:var(--fig-ink)} .pchem-6-debye-huckel-plot-sm{font-size:13px;fill:var(--fig-muted)} .pchem-6-debye-huckel-plot-b{font-size:14px;font-weight:600;fill:var(--fig-ink)} .pchem-6-debye-huckel-plot-tk{font-size:13px;fill:var(--fig-muted)} .pchem-6-debye-huckel-plot-ax{font-size:14px;fill:var(--fig-ink)} .pchem-6-debye-huckel-plot-red{font-size:14px;fill:var(--fig-red)} .pchem-6-debye-huckel-plot-blue{font-size:14px;fill:var(--fig-blue)} .pchem-6-debye-huckel-plot-green{font-size:14px;fill:var(--fig-green)} .pchem-6-debye-huckel-plot-amber{font-size:14px;fill:var(--fig-amber)} .pchem-6-debye-huckel-plot-violet{font-size:14px;fill:var(--fig-violet)} .pchem-6-debye-huckel-plot-teal{font-size:14px;fill:var(--fig-teal)} .pchem-6-debye-huckel-plot-acc{font-size:14px;fill:var(--fig-accent)} .pchem-6-debye-huckel-plot-big{font-size:18px;font-weight:700;fill:var(--fig-ink)}</style>
-  <line x1="96.0" y1="328.3" x2="600.0" y2="328.3" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
-  <line x1="96.0" y1="284.8" x2="600.0" y2="284.8" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
-  <line x1="96.0" y1="241.3" x2="600.0" y2="241.3" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
-  <line x1="96.0" y1="197.9" x2="600.0" y2="197.9" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
-  <line x1="96.0" y1="154.4" x2="600.0" y2="154.4" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
-  <line x1="96.0" y1="110.9" x2="600.0" y2="110.9" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
-  <line x1="96.0" y1="67.5" x2="600.0" y2="67.5" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
-  <line x1="96.0" y1="24.0" x2="600.0" y2="24.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="96.0" y1="328.3" x2="545.0" y2="328.3" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="96.0" y1="284.8" x2="545.0" y2="284.8" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="96.0" y1="241.3" x2="545.0" y2="241.3" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="96.0" y1="197.9" x2="545.0" y2="197.9" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="96.0" y1="154.4" x2="545.0" y2="154.4" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="96.0" y1="110.9" x2="545.0" y2="110.9" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="96.0" y1="67.5" x2="545.0" y2="67.5" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="96.0" y1="24.0" x2="545.0" y2="24.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
   <line x1="96.0" y1="24.0" x2="96.0" y2="350.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
-  <line x1="168.0" y1="24.0" x2="168.0" y2="350.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
-  <line x1="240.0" y1="24.0" x2="240.0" y2="350.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
-  <line x1="312.0" y1="24.0" x2="312.0" y2="350.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
-  <line x1="384.0" y1="24.0" x2="384.0" y2="350.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
-  <line x1="456.0" y1="24.0" x2="456.0" y2="350.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
-  <line x1="528.0" y1="24.0" x2="528.0" y2="350.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
-  <line x1="600.0" y1="24.0" x2="600.0" y2="350.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
-  <rect x="96.0" y="24.0" width="504.0" height="326.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.2"/>
+  <line x1="160.1" y1="24.0" x2="160.1" y2="350.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="224.3" y1="24.0" x2="224.3" y2="350.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="288.4" y1="24.0" x2="288.4" y2="350.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="352.6" y1="24.0" x2="352.6" y2="350.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="416.7" y1="24.0" x2="416.7" y2="350.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="480.9" y1="24.0" x2="480.9" y2="350.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="545.0" y1="24.0" x2="545.0" y2="350.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <rect x="96.0" y="24.0" width="449.0" height="326.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.2"/>
   <line x1="96.0" y1="350.0" x2="96.0" y2="355.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
   <text x="96.0" y="370.0" text-anchor="middle" class="pchem-6-debye-huckel-plot-tk">0.00</text>
-  <line x1="168.0" y1="350.0" x2="168.0" y2="355.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
-  <text x="168.0" y="370.0" text-anchor="middle" class="pchem-6-debye-huckel-plot-tk">0.05</text>
-  <line x1="240.0" y1="350.0" x2="240.0" y2="355.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
-  <text x="240.0" y="370.0" text-anchor="middle" class="pchem-6-debye-huckel-plot-tk">0.10</text>
-  <line x1="312.0" y1="350.0" x2="312.0" y2="355.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
-  <text x="312.0" y="370.0" text-anchor="middle" class="pchem-6-debye-huckel-plot-tk">0.15</text>
-  <line x1="384.0" y1="350.0" x2="384.0" y2="355.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
-  <text x="384.0" y="370.0" text-anchor="middle" class="pchem-6-debye-huckel-plot-tk">0.20</text>
-  <line x1="456.0" y1="350.0" x2="456.0" y2="355.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
-  <text x="456.0" y="370.0" text-anchor="middle" class="pchem-6-debye-huckel-plot-tk">0.25</text>
-  <line x1="528.0" y1="350.0" x2="528.0" y2="355.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
-  <text x="528.0" y="370.0" text-anchor="middle" class="pchem-6-debye-huckel-plot-tk">0.30</text>
-  <line x1="600.0" y1="350.0" x2="600.0" y2="355.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
-  <text x="600.0" y="370.0" text-anchor="middle" class="pchem-6-debye-huckel-plot-tk">0.35</text>
+  <line x1="160.1" y1="350.0" x2="160.1" y2="355.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="160.1" y="370.0" text-anchor="middle" class="pchem-6-debye-huckel-plot-tk">0.05</text>
+  <line x1="224.3" y1="350.0" x2="224.3" y2="355.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="224.3" y="370.0" text-anchor="middle" class="pchem-6-debye-huckel-plot-tk">0.10</text>
+  <line x1="288.4" y1="350.0" x2="288.4" y2="355.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="288.4" y="370.0" text-anchor="middle" class="pchem-6-debye-huckel-plot-tk">0.15</text>
+  <line x1="352.6" y1="350.0" x2="352.6" y2="355.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="352.6" y="370.0" text-anchor="middle" class="pchem-6-debye-huckel-plot-tk">0.20</text>
+  <line x1="416.7" y1="350.0" x2="416.7" y2="355.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="416.7" y="370.0" text-anchor="middle" class="pchem-6-debye-huckel-plot-tk">0.25</text>
+  <line x1="480.9" y1="350.0" x2="480.9" y2="355.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="480.9" y="370.0" text-anchor="middle" class="pchem-6-debye-huckel-plot-tk">0.30</text>
+  <line x1="545.0" y1="350.0" x2="545.0" y2="355.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="545.0" y="370.0" text-anchor="middle" class="pchem-6-debye-huckel-plot-tk">0.35</text>
   <line x1="91.0" y1="328.3" x2="96.0" y2="328.3" style="stroke:var(--fig-muted);stroke-width:1.2"/>
   <text x="88.0" y="332.8" text-anchor="end" class="pchem-6-debye-huckel-plot-tk">−0.7</text>
   <line x1="91.0" y1="284.8" x2="96.0" y2="284.8" style="stroke:var(--fig-muted);stroke-width:1.2"/>
@@ -51,21 +51,21 @@
   <text x="88.0" y="72.0" text-anchor="end" class="pchem-6-debye-huckel-plot-tk">−0.1</text>
   <line x1="91.0" y1="24.0" x2="96.0" y2="24.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
   <text x="88.0" y="28.5" text-anchor="end" class="pchem-6-debye-huckel-plot-tk">0.0</text>
-  <text x="348.0" y="392.0" text-anchor="middle" class="pchem-6-debye-huckel-plot-ax">√I</text>
+  <text x="320.5" y="392.0" text-anchor="middle" class="pchem-6-debye-huckel-plot-ax">√I</text>
   <text x="44.0" y="187.0" text-anchor="middle" transform="rotate(-90 44.0 187.0)" class="pchem-6-debye-huckel-plot-ax">log γ±</text>
-  <path d="M96.0 24.0 L600.0 101.4" style="fill:none;stroke:var(--fig-blue);stroke-width:2.2;stroke-dasharray:8 5"/>
-  <text x="608.0" y="106.4" class="pchem-6-debye-huckel-plot-blue">1:1 (기울기 −0.509)</text>
-  <path d="M96.0 24.0 L600.0 178.9" style="fill:none;stroke:var(--fig-violet);stroke-width:2.2;stroke-dasharray:8 5"/>
-  <text x="608.0" y="183.9" class="pchem-6-debye-huckel-plot-violet">2:1 (기울기 −1.018)</text>
-  <path d="M96.0 24.0 L600.0 333.7" style="fill:none;stroke:var(--fig-red);stroke-width:2.2;stroke-dasharray:8 5"/>
-  <text x="608.0" y="338.7" class="pchem-6-debye-huckel-plot-red">2:2 (기울기 −2.036)</text>
-  <circle cx="141.5" cy="30.7" r="5.5" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
-  <circle cx="197.8" cy="37.9" r="5.5" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
-  <circle cx="240.0" cy="43.0" r="5.5" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
-  <circle cx="418.6" cy="59.2" r="5.5" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
-  <circle cx="551.0" cy="67.1" r="5.5" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
-  <text x="551.0" y="55.1" text-anchor="middle" class="pchem-6-debye-huckel-plot-b">HCl 측정값</text>
-  <text x="268.8" y="267.4" class="pchem-6-debye-huckel-plot-lbl">극한 법칙(점선)은 √I → 0에서의 접선이다.</text>
-  <text x="268.8" y="287.4" class="pchem-6-debye-huckel-plot-lbl">측정점은 묽은 쪽에서 1:1 직선에 붙어 있다가</text>
-  <text x="268.8" y="307.4" class="pchem-6-debye-huckel-plot-lbl">√I가 커지면 직선 위로 벗어난다.</text>
+  <path d="M96.0 24.0 L545.0 101.4" style="fill:none;stroke:var(--fig-blue);stroke-width:2.2;stroke-dasharray:8 5"/>
+  <text x="553.0" y="106.4" class="pchem-6-debye-huckel-plot-blue">1:1 (기울기 −0.509)</text>
+  <path d="M96.0 24.0 L545.0 178.9" style="fill:none;stroke:var(--fig-violet);stroke-width:2.2;stroke-dasharray:8 5"/>
+  <text x="553.0" y="183.9" class="pchem-6-debye-huckel-plot-violet">2:1 (기울기 −1.018)</text>
+  <path d="M96.0 24.0 L545.0 333.7" style="fill:none;stroke:var(--fig-red);stroke-width:2.2;stroke-dasharray:8 5"/>
+  <text x="553.0" y="338.7" class="pchem-6-debye-huckel-plot-red">2:2 (기울기 −2.036)</text>
+  <circle cx="136.5" cy="30.7" r="5.5" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <circle cx="186.7" cy="37.9" r="5.5" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <circle cx="224.3" cy="43.0" r="5.5" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <circle cx="383.4" cy="59.2" r="5.5" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <circle cx="501.4" cy="67.1" r="5.5" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <text x="501.4" y="55.1" text-anchor="middle" class="pchem-6-debye-huckel-plot-b">HCl 측정값</text>
+  <text x="103.7" y="278.3" class="pchem-6-debye-huckel-plot-lbl">극한 법칙(점선)은 √I → 0에서의 접선이다.</text>
+  <text x="103.7" y="298.3" class="pchem-6-debye-huckel-plot-lbl">측정점은 묽은 쪽에서 1:1 직선에 붙어 있다가</text>
+  <text x="103.7" y="318.3" class="pchem-6-debye-huckel-plot-lbl">√I가 커지면 직선 위로 벗어난다.</text>
 </svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-pchem-2-q-vaporization-path d-pchem-2-q-vaporization-path">
+  <title id="t-pchem-2-q-vaporization-path">그림 물리화학 2-8 예제 8의 가역 경로</title>
+  <desc id="d-pchem-2-q-vaporization-path">298.15 K의 물(l)을 1 bar, 298.15 K의 수증기(g)로 바꾸는 과정(굵은 점선)을, 373.15 K까지 가열 ㉠, 정상 끓는점에서 가역 증발 ㉡, 298.15 K까지 냉각 ㉢의 세 가역 단계로 대신한다. 엔트로피는 상태 함수이므로 세 단계의 합이 구하는 ΔS°이다.</desc>
+  <style>
+    .pc2q-vaporization-path-t{font-size:14px;fill:var(--fig-ink)}
+    .pc2q-vaporization-path-s{font-size:13px;fill:var(--fig-muted)}
+    .pc2q-vaporization-path-b{font-size:14px;fill:var(--fig-ink);font-weight:600}
+    .pc2q-vaporization-path-ax{font-size:13px;fill:var(--fig-muted)}
+    .pc2q-vaporization-path-fink{fill:var(--fig-ink)}
+    .pc2q-vaporization-path-fmuted{fill:var(--fig-muted)}
+    .pc2q-vaporization-path-fline{fill:var(--fig-line)}
+    .pc2q-vaporization-path-fblue{fill:var(--fig-blue)}
+    .pc2q-vaporization-path-fred{fill:var(--fig-red)}
+    .pc2q-vaporization-path-fgreen{fill:var(--fig-green)}
+    .pc2q-vaporization-path-famber{fill:var(--fig-amber)}
+    .pc2q-vaporization-path-fviolet{fill:var(--fig-violet)}
+    .pc2q-vaporization-path-fteal{fill:var(--fig-teal)}
+    .pc2q-vaporization-path-faccent{fill:var(--fig-accent)}
+  </style>
+  <defs><marker id="pc2q-vaporization-path-ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-ink)"/></marker><marker id="pc2q-vaporization-path-am-ink" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-ink)"/></marker><marker id="pc2q-vaporization-path-ar-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-muted)"/></marker><marker id="pc2q-vaporization-path-am-muted" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-muted)"/></marker><marker id="pc2q-vaporization-path-ar-line" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-line)"/></marker><marker id="pc2q-vaporization-path-am-line" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-line)"/></marker><marker id="pc2q-vaporization-path-ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-blue)"/></marker><marker id="pc2q-vaporization-path-am-blue" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-blue)"/></marker><marker id="pc2q-vaporization-path-ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-red)"/></marker><marker id="pc2q-vaporization-path-am-red" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-red)"/></marker><marker id="pc2q-vaporization-path-ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-green)"/></marker><marker id="pc2q-vaporization-path-am-green" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-green)"/></marker><marker id="pc2q-vaporization-path-ar-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-amber)"/></marker><marker id="pc2q-vaporization-path-am-amber" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-amber)"/></marker><marker id="pc2q-vaporization-path-ar-violet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-violet)"/></marker><marker id="pc2q-vaporization-path-am-violet" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-violet)"/></marker><marker id="pc2q-vaporization-path-ar-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-teal)"/></marker><marker id="pc2q-vaporization-path-am-teal" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-teal)"/></marker><marker id="pc2q-vaporization-path-ar-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-accent)"/></marker><marker id="pc2q-vaporization-path-am-accent" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-accent)"/></marker></defs>
+  <line x1="70.0" y1="300.0" x2="70.0" y2="50.0" style="stroke:var(--fig-ink);stroke-width:1.4" marker-end="url(#pc2q-vaporization-path-ar-ink)"/>
+  <text x="62.0" y="40.0" class="pc2q-vaporization-path-t">온도 T</text>
+  <line x1="64.0" y1="270.0" x2="70.0" y2="270.0" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="60.0" y="275.0" text-anchor="end" class="pc2q-vaporization-path-ax">298.15 K</text>
+  <line x1="70.0" y1="270.0" x2="690.0" y2="270.0" style="stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4;opacity:0.6"/>
+  <line x1="64.0" y1="90.0" x2="70.0" y2="90.0" style="stroke:var(--fig-ink);stroke-width:1.2"/>
+  <text x="60.0" y="95.0" text-anchor="end" class="pc2q-vaporization-path-ax">373.15 K</text>
+  <line x1="70.0" y1="90.0" x2="690.0" y2="90.0" style="stroke:var(--fig-line);stroke-width:0.8;stroke-dasharray:3 4;opacity:0.6"/>
+  <rect x="150.0" y="245.0" width="200.0" height="50.0" rx="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="250.0" y="266.0" text-anchor="middle" class="pc2q-vaporization-path-b">물(l)</text>
+  <text x="250.0" y="285.0" text-anchor="middle" class="pc2q-vaporization-path-s">298.15 K</text>
+  <rect x="480.0" y="245.0" width="200.0" height="50.0" rx="6" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <text x="580.0" y="266.0" text-anchor="middle" class="pc2q-vaporization-path-b">수증기(g)</text>
+  <text x="580.0" y="285.0" text-anchor="middle" class="pc2q-vaporization-path-s">298.15 K, 1 bar (가상 상태)</text>
+  <rect x="150.0" y="65.0" width="200.0" height="50.0" rx="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="250.0" y="86.0" text-anchor="middle" class="pc2q-vaporization-path-b">물(l)</text>
+  <text x="250.0" y="105.0" text-anchor="middle" class="pc2q-vaporization-path-s">373.15 K</text>
+  <rect x="480.0" y="65.0" width="200.0" height="50.0" rx="6" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.5"/>
+  <text x="580.0" y="86.0" text-anchor="middle" class="pc2q-vaporization-path-b">수증기(g)</text>
+  <text x="580.0" y="105.0" text-anchor="middle" class="pc2q-vaporization-path-s">373.15 K, 1 bar</text>
+  <line x1="354.0" y1="270.0" x2="474.0" y2="270.0" style="stroke:var(--fig-ink);stroke-width:3;stroke-dasharray:8 5" marker-end="url(#pc2q-vaporization-path-ar-ink)"/>
+  <text x="415.0" y="300.0" text-anchor="middle" class="pc2q-vaporization-path-b">구하려는 과정 ΔS°(298.15 K)</text>
+  <line x1="250.0" y1="242.0" x2="250.0" y2="119.0" style="stroke:var(--fig-blue);stroke-width:2.4" marker-end="url(#pc2q-vaporization-path-ar-blue)"/>
+  <text x="260.0" y="166.0" class="pc2q-vaporization-path-b">㉠ 가열</text>
+  <text x="260.0" y="186.0" class="pc2q-vaporization-path-s">ΔS = 75.3 ln(373.15/298.15)</text>
+  <line x1="354.0" y1="90.0" x2="474.0" y2="90.0" style="stroke:var(--fig-violet);stroke-width:2.4" marker-end="url(#pc2q-vaporization-path-ar-violet)"/>
+  <text x="415.0" y="52.0" text-anchor="middle" class="pc2q-vaporization-path-b">㉡ 증발  ΔS = 40 660/373.15</text>
+  <line x1="580.0" y1="119.0" x2="580.0" y2="242.0" style="stroke:var(--fig-red);stroke-width:2.4" marker-end="url(#pc2q-vaporization-path-ar-red)"/>
+  <text x="570.0" y="166.0" text-anchor="end" class="pc2q-vaporization-path-b">㉢ 냉각</text>
+  <text x="570.0" y="186.0" text-anchor="end" class="pc2q-vaporization-path-s">ΔS = 33.6 ln(298.15/373.15)</text>
+</svg>
