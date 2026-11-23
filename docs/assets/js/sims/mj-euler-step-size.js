@@ -65,6 +65,14 @@ Sims.register('mj-euler-step-size', {
       return e;
     }
 
+    var cache = {};
+    function errCurve(eq, mm) {
+      var key = eq + '|' + mm + '|' + st.k1 + '|' + (eq === 1 ? st.k2 : '');
+      if (cache[key]) return cache[key];
+      var out = [];
+      for (var s = -2; s <= Math.log10(2.5) + 1e-9; s += 0.04) out.push([s, maxErr(eq, solve(eq, mm, Math.pow(10, s)))]);
+      return (cache[key] = out);
+    }
     function draw() {
       var T = api.tokens(), W = cv.w, H = cv.h, narrow = W < 560;
       ctx.clearRect(0, 0, W, H);
@@ -114,15 +122,14 @@ Sims.register('mj-euler-step-size', {
       var Q = panel(B, '최대 오차와 h (로그–로그)', -2, Math.log10(2.5), -12, 2, true, true, 'h');
       for (var mm = 0; mm < 3; mm++) {
         ctx.strokeStyle = [T.figRed, T.figViolet, T.figTeal][mm]; ctx.lineWidth = mm === m ? 2.6 : 1.2; ctx.globalAlpha = mm === m ? 1 : 0.5;
-        ctx.beginPath(); var first = true;
-        for (var s = -2; s <= Math.log10(2.5) + 1e-9; s += 0.04) {
-          var e = maxErr(eq, solve(eq, mm, Math.pow(10, s)));
-          var ly = Math.log10(Math.max(Math.min(isFinite(e) ? e : 1e3, 1e3), 1e-13));
-          if (first) { ctx.moveTo(Q.X(s), Q.Y(ly)); first = false; } else ctx.lineTo(Q.X(s), Q.Y(ly));
-        }
+        ctx.beginPath();
+        errCurve(eq, mm).forEach(function (p, i) {
+          var ly = Math.log10(Math.max(Math.min(isFinite(p[1]) ? p[1] : 1e2, 1e2), 1e-12));
+          if (i === 0) ctx.moveTo(Q.X(p[0]), Q.Y(ly)); else ctx.lineTo(Q.X(p[0]), Q.Y(ly));
+        });
         ctx.stroke(); ctx.globalAlpha = 1;
       }
-      var ce = Math.log10(Math.max(Math.min(isFinite(err) ? err : 1e3, 1e3), 1e-13));
+      var ce = Math.log10(Math.max(Math.min(isFinite(err) ? err : 1e2, 1e2), 1e-12));
       ctx.save(); ctx.beginPath(); ctx.rect(Q.l, Q.t - 6, Q.r - Q.l, Q.b - Q.t + 12); ctx.clip();
       ctx.beginPath(); ctx.arc(Q.X(st.s), Q.Y(ce), 5.5, 0, Math.PI * 2); ctx.fillStyle = T.figAmber; ctx.fill(); ctx.strokeStyle = T.figInk; ctx.lineWidth = 1.4; ctx.stroke();
       ctx.restore();
