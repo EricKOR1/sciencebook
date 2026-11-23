@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 330" class="fig-small" role="img" aria-labelledby="t-pchem-2-clausius-cycle d-pchem-2-clausius-cycle">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 350" class="fig-small" role="img" aria-labelledby="t-pchem-2-clausius-cycle d-pchem-2-clausius-cycle">
   <title id="t-pchem-2-clausius-cycle">그림 물리화학 2-6 비가역 과정 I와 가역 과정 R로 만든 순환</title>
   <desc id="d-pchem-2-clausius-cycle">상태 A에서 B로 가는 비가역 과정 I는 중간 상태가 정의되지 않으므로 물결 모양 점선으로, B에서 A로 돌아오는 가역 과정 R은 실선으로 나타냈다. 두 과정을 이은 순환에 클라우지우스 부등식을 쓰면 ΔS ≥ ∫dq/T열원을 얻는다.</desc>
   <style>
@@ -30,9 +30,9 @@
   <text x="114.0" y="74.0" text-anchor="end" class="pc2clausius-cycle-b">A</text>
   <circle cx="354.0" cy="180.0" r="5.0" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
   <text x="364.0" y="184.0" class="pc2clausius-cycle-b">B</text>
-  <text x="262.8" y="64.0" class="pc2clausius-cycle-t">I (비가역): ∫d<tspan style="font-style:italic">q</tspan>/<tspan style="font-style:italic">T</tspan><tspan baseline-shift="sub" style="font-size:10px">열원</tspan></text>
-  <text x="262.8" y="82.0" class="pc2clausius-cycle-s">중간 상태가 정의되지 않음</text>
-  <text x="148.8" y="182.0" class="pc2clausius-cycle-t">R (가역): ∫d<tspan style="font-style:italic">q</tspan><tspan baseline-shift="sub" style="font-size:10px">가역</tspan>/<tspan style="font-style:italic">T</tspan> = <tspan style="font-style:italic">S</tspan><tspan baseline-shift="sub" style="font-size:10px">A</tspan> − <tspan style="font-style:italic">S</tspan><tspan baseline-shift="sub" style="font-size:10px">B</tspan></text>
-  <text x="230.0" y="292.0" text-anchor="middle" class="pc2clausius-cycle-b">순환 I + R: ∮d<tspan style="font-style:italic">q</tspan>/<tspan style="font-style:italic">T</tspan> ≤ 0</text>
-  <text x="230.0" y="314.0" text-anchor="middle" class="pc2clausius-cycle-b">⇒ Δ<tspan style="font-style:italic">S</tspan> = <tspan style="font-style:italic">S</tspan><tspan baseline-shift="sub" style="font-size:10px">B</tspan> − <tspan style="font-style:italic">S</tspan><tspan baseline-shift="sub" style="font-size:10px">A</tspan> ≥ ∫d<tspan style="font-style:italic">q</tspan>/<tspan style="font-style:italic">T</tspan><tspan baseline-shift="sub" style="font-size:10px">열원</tspan></text>
+  <text x="430.0" y="36.0" text-anchor="end" class="pc2clausius-cycle-t">I (비가역): ∫d<tspan style="font-style:italic">q</tspan>/<tspan style="font-style:italic">T</tspan><tspan baseline-shift="sub" style="font-size:10px">열원</tspan></text>
+  <text x="430.0" y="54.0" text-anchor="end" class="pc2clausius-cycle-s">중간 상태가 정의되지 않음</text>
+  <text x="65.2" y="216.0" class="pc2clausius-cycle-t">R (가역): ∫d<tspan style="font-style:italic">q</tspan><tspan baseline-shift="sub" style="font-size:10px">가역</tspan>/<tspan style="font-style:italic">T</tspan> = <tspan style="font-style:italic">S</tspan><tspan baseline-shift="sub" style="font-size:10px">A</tspan> − <tspan style="font-style:italic">S</tspan><tspan baseline-shift="sub" style="font-size:10px">B</tspan></text>
+  <text x="230.0" y="306.0" text-anchor="middle" class="pc2clausius-cycle-b">순환 I + R: ∮d<tspan style="font-style:italic">q</tspan>/<tspan style="font-style:italic">T</tspan> ≤ 0</text>
+  <text x="230.0" y="330.0" text-anchor="middle" class="pc2clausius-cycle-b">⇒ Δ<tspan style="font-style:italic">S</tspan> = <tspan style="font-style:italic">S</tspan><tspan baseline-shift="sub" style="font-size:10px">B</tspan> − <tspan style="font-style:italic">S</tspan><tspan baseline-shift="sub" style="font-size:10px">A</tspan> ≥ ∫d<tspan style="font-style:italic">q</tspan>/<tspan style="font-style:italic">T</tspan><tspan baseline-shift="sub" style="font-size:10px">열원</tspan></text>
 </svg>

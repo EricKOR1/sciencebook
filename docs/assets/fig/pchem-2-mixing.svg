@@ -93,6 +93,8 @@
   <text x="565.0" y="68.7" text-anchor="middle" class="pc2mixing-b">ln 2 = 0.693</text>
   <line x1="439.0" y1="281.6" x2="453.0" y2="210.6" style="stroke:var(--fig-red);stroke-width:1.8"/>
   <line x1="691.0" y1="281.6" x2="677.0" y2="210.6" style="stroke:var(--fig-red);stroke-width:1.8"/>
-  <text x="455.0" y="159.2" class="pc2mixing-s">양 끝: 기울기 → ∞</text>
-  <line x1="453.0" y1="155.2" x2="450.0" y2="208.1" style="stroke:var(--fig-red);stroke-width:1"/>
+  <text x="565.0" y="216.8" text-anchor="middle" class="pc2mixing-s">양 끝에서</text>
+  <text x="565.0" y="233.8" text-anchor="middle" class="pc2mixing-s">기울기 → ∞</text>
+  <line x1="530.0" y1="208.1" x2="455.0" y2="208.1" style="stroke:var(--fig-red);stroke-width:1" marker-end="url(#pc2mixing-ar-red)"/>
+  <line x1="600.0" y1="208.1" x2="675.0" y2="208.1" style="stroke:var(--fig-red);stroke-width:1" marker-end="url(#pc2mixing-ar-red)"/>
 </svg>
