@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" role="img" aria-labelledby="t-umath-1-total-differential d-umath-1-total-differential">
+  <title id="t-umath-1-total-differential">그림 수학 도구 1-4 전미분: 접평면 위에서 두 방향의 변화를 더한다</title>
+  <desc id="d-umath-1-total-differential">곡면 z = f(x, y)와 점 A에서의 접평면(초록). 바닥에서 A로부터 x 방향으로 dx, y 방향으로 dy만큼 간 점이 B이다. 접평면 위의 높이 변화 dz는 x 방향 몫 (∂z/∂x)dx(빨강)와 y 방향 몫 (∂z/∂y)dy(파랑)의 합(검정)이고, 곡면 위의 실제 변화 Δz와는 작은 차이(회색 괄호)가 난다. 걸음은 보기 쉽게 크게 그린 모식도이다.</desc>
+  <style>
+    .umath-1-td-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.3}
+    .umath-1-td-tk{fill:none;stroke:var(--fig-ink);stroke-width:1}
+    .umath-1-td-gr{fill:none;stroke:var(--fig-line);stroke-width:0.7;stroke-dasharray:2 4}
+    .umath-1-td-t{font-size:13px;fill:var(--fig-ink)}
+    .umath-1-td-tb{font-size:14px;fill:var(--fig-ink);font-weight:600}
+    .umath-1-td-m{font-size:13px;fill:var(--fig-muted)}
+    .umath-1-td-halo{paint-order:stroke;stroke:var(--fig-paper);stroke-width:4px;stroke-linejoin:round}
+    .umath-1-td-blue{fill:var(--fig-blue)} .umath-1-td-red{fill:var(--fig-red)} .umath-1-td-green{fill:var(--fig-green)}
+    .umath-1-td-amber{fill:var(--fig-amber)} .umath-1-td-violet{fill:var(--fig-violet)} .umath-1-td-teal{fill:var(--fig-teal)}
+    .umath-1-td-ink{fill:var(--fig-ink)} .umath-1-td-mut{fill:var(--fig-muted)}
+  </style>
+  <path d="M70.0 400.0 L400.0 448.4 L609.0 312.0 L279.0 263.6 Z" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <path d="M100.0 404.4 L309.0 268.0" style="fill:none;stroke:var(--fig-line);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2 4"/>
+  <path d="M89.0 387.6 L419.0 436.0" style="fill:none;stroke:var(--fig-line);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2 4"/>
+  <path d="M130.0 408.8 L339.0 272.4" style="fill:none;stroke:var(--fig-line);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2 4"/>
+  <path d="M108.0 375.2 L438.0 423.6" style="fill:none;stroke:var(--fig-line);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2 4"/>
+  <path d="M160.0 413.2 L369.0 276.8" style="fill:none;stroke:var(--fig-line);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2 4"/>
+  <path d="M127.0 362.8 L457.0 411.2" style="fill:none;stroke:var(--fig-line);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2 4"/>
+  <path d="M190.0 417.6 L399.0 281.2" style="fill:none;stroke:var(--fig-line);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2 4"/>
+  <path d="M146.0 350.4 L476.0 398.8" style="fill:none;stroke:var(--fig-line);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2 4"/>
+  <path d="M220.0 422.0 L429.0 285.6" style="fill:none;stroke:var(--fig-line);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2 4"/>
+  <path d="M165.0 338.0 L495.0 386.4" style="fill:none;stroke:var(--fig-line);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2 4"/>
+  <path d="M250.0 426.4 L459.0 290.0" style="fill:none;stroke:var(--fig-line);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2 4"/>
+  <path d="M184.0 325.6 L514.0 374.0" style="fill:none;stroke:var(--fig-line);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2 4"/>
+  <path d="M280.0 430.8 L489.0 294.4" style="fill:none;stroke:var(--fig-line);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2 4"/>
+  <path d="M203.0 313.2 L533.0 361.6" style="fill:none;stroke:var(--fig-line);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2 4"/>
+  <path d="M310.0 435.2 L519.0 298.8" style="fill:none;stroke:var(--fig-line);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2 4"/>
+  <path d="M222.0 300.8 L552.0 349.2" style="fill:none;stroke:var(--fig-line);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2 4"/>
+  <path d="M340.0 439.6 L549.0 303.2" style="fill:none;stroke:var(--fig-line);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2 4"/>
+  <path d="M241.0 288.4 L571.0 336.8" style="fill:none;stroke:var(--fig-line);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2 4"/>
+  <path d="M370.0 444.0 L579.0 307.6" style="fill:none;stroke:var(--fig-line);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2 4"/>
+  <path d="M260.0 276.0 L590.0 324.4" style="fill:none;stroke:var(--fig-line);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2 4"/>
+  <path d="M192.5 380.0 L192.5 262.1" style="fill:none;stroke:var(--fig-ink);stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3 3"/>
+  <path d="M260.0 146.4 L290.0 136.8 L309.0 121.7 L279.0 131.3 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M290.0 136.8 L320.0 128.1 L339.0 113.0 L309.0 121.7 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M320.0 128.1 L350.0 120.3 L369.0 105.2 L339.0 113.0 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M350.0 120.3 L380.0 113.3 L399.0 98.2 L369.0 105.2 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M380.0 113.3 L410.0 107.2 L429.0 92.1 L399.0 98.2 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M410.0 107.2 L440.0 102.0 L459.0 86.8 L429.0 92.1 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M440.0 102.0 L470.0 97.6 L489.0 82.4 L459.0 86.8 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M470.0 97.6 L500.0 94.0 L519.0 78.9 L489.0 82.4 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M500.0 94.0 L530.0 91.4 L549.0 76.3 L519.0 78.9 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M530.0 91.4 L560.0 89.6 L579.0 74.5 L549.0 76.3 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M560.0 89.6 L590.0 88.7 L609.0 73.5 L579.0 74.5 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M241.0 162.3 L271.0 152.7 L290.0 136.8 L260.0 146.4 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M271.0 152.7 L301.0 144.0 L320.0 128.1 L290.0 136.8 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M301.0 144.0 L331.0 136.2 L350.0 120.3 L320.0 128.1 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M331.0 136.2 L361.0 129.2 L380.0 113.3 L350.0 120.3 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M361.0 129.2 L391.0 123.1 L410.0 107.2 L380.0 113.3 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M391.0 123.1 L421.0 117.9 L440.0 102.0 L410.0 107.2 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M421.0 117.9 L451.0 113.5 L470.0 97.6 L440.0 102.0 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M451.0 113.5 L481.0 110.0 L500.0 94.0 L470.0 97.6 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M481.0 110.0 L511.0 107.3 L530.0 91.4 L500.0 94.0 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M511.0 107.3 L541.0 105.5 L560.0 89.6 L530.0 91.4 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M541.0 105.5 L571.0 104.6 L590.0 88.7 L560.0 89.6 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M222.0 179.0 L252.0 169.4 L271.0 152.7 L241.0 162.3 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M252.0 169.4 L282.0 160.7 L301.0 144.0 L271.0 152.7 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M282.0 160.7 L312.0 152.9 L331.0 136.2 L301.0 144.0 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M312.0 152.9 L342.0 145.9 L361.0 129.2 L331.0 136.2 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M342.0 145.9 L372.0 139.8 L391.0 123.1 L361.0 129.2 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M372.0 139.8 L402.0 134.5 L421.0 117.9 L391.0 123.1 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M402.0 134.5 L432.0 130.1 L451.0 113.5 L421.0 117.9 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M432.0 130.1 L462.0 126.6 L481.0 110.0 L451.0 113.5 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M462.0 126.6 L492.0 124.0 L511.0 107.3 L481.0 110.0 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M492.0 124.0 L522.0 122.2 L541.0 105.5 L511.0 107.3 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M522.0 122.2 L552.0 121.2 L571.0 104.6 L541.0 105.5 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M203.0 196.4 L233.0 186.8 L252.0 169.4 L222.0 179.0 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M233.0 186.8 L263.0 178.1 L282.0 160.7 L252.0 169.4 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M263.0 178.1 L293.0 170.3 L312.0 152.9 L282.0 160.7 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M293.0 170.3 L323.0 163.3 L342.0 145.9 L312.0 152.9 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M323.0 163.3 L353.0 157.2 L372.0 139.8 L342.0 145.9 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M353.0 157.2 L383.0 152.0 L402.0 134.5 L372.0 139.8 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M383.0 152.0 L413.0 147.6 L432.0 130.1 L402.0 134.5 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M413.0 147.6 L443.0 144.1 L462.0 126.6 L432.0 130.1 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M443.0 144.1 L473.0 141.4 L492.0 124.0 L462.0 126.6 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M473.0 141.4 L503.0 139.6 L522.0 122.2 L492.0 124.0 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M503.0 139.6 L533.0 138.7 L552.0 121.2 L522.0 122.2 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M184.0 214.6 L214.0 205.1 L233.0 186.8 L203.0 196.4 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M214.0 205.1 L244.0 196.4 L263.0 178.1 L233.0 186.8 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M244.0 196.4 L274.0 188.5 L293.0 170.3 L263.0 178.1 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M274.0 188.5 L304.0 181.5 L323.0 163.3 L293.0 170.3 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M304.0 181.5 L334.0 175.4 L353.0 157.2 L323.0 163.3 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M334.0 175.4 L364.0 170.2 L383.0 152.0 L353.0 157.2 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M364.0 170.2 L394.0 165.8 L413.0 147.6 L383.0 152.0 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M394.0 165.8 L424.0 162.3 L443.0 144.1 L413.0 147.6 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M424.0 162.3 L454.0 159.6 L473.0 141.4 L443.0 144.1 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M454.0 159.6 L484.0 157.8 L503.0 139.6 L473.0 141.4 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M484.0 157.8 L514.0 156.9 L533.0 138.7 L503.0 139.6 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M165.0 233.6 L195.0 224.0 L214.0 205.1 L184.0 214.6 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M195.0 224.0 L225.0 215.3 L244.0 196.4 L214.0 205.1 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M225.0 215.3 L255.0 207.5 L274.0 188.5 L244.0 196.4 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M255.0 207.5 L285.0 200.5 L304.0 181.5 L274.0 188.5 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M285.0 200.5 L315.0 194.4 L334.0 175.4 L304.0 181.5 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M315.0 194.4 L345.0 189.2 L364.0 170.2 L334.0 175.4 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M345.0 189.2 L375.0 184.8 L394.0 165.8 L364.0 170.2 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M375.0 184.8 L405.0 181.2 L424.0 162.3 L394.0 165.8 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M405.0 181.2 L435.0 178.6 L454.0 159.6 L424.0 162.3 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M435.0 178.6 L465.0 176.8 L484.0 157.8 L454.0 159.6 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M465.0 176.8 L495.0 175.9 L514.0 156.9 L484.0 157.8 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M146.0 253.3 L176.0 243.8 L195.0 224.0 L165.0 233.6 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M176.0 243.8 L206.0 235.1 L225.0 215.3 L195.0 224.0 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M206.0 235.1 L236.0 227.2 L255.0 207.5 L225.0 215.3 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M236.0 227.2 L266.0 220.3 L285.0 200.5 L255.0 207.5 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M266.0 220.3 L296.0 214.1 L315.0 194.4 L285.0 200.5 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M296.0 214.1 L326.0 208.9 L345.0 189.2 L315.0 194.4 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M326.0 208.9 L356.0 204.5 L375.0 184.8 L345.0 189.2 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M356.0 204.5 L386.0 201.0 L405.0 181.2 L375.0 184.8 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M386.0 201.0 L416.0 198.3 L435.0 178.6 L405.0 181.2 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M416.0 198.3 L446.0 196.5 L465.0 176.8 L435.0 178.6 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M446.0 196.5 L476.0 195.6 L495.0 175.9 L465.0 176.8 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M127.0 273.9 L157.0 264.3 L176.0 243.8 L146.0 253.3 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M157.0 264.3 L187.0 255.6 L206.0 235.1 L176.0 243.8 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M187.0 255.6 L217.0 247.7 L236.0 227.2 L206.0 235.1 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M217.0 247.7 L247.0 240.8 L266.0 220.3 L236.0 227.2 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M247.0 240.8 L277.0 234.7 L296.0 214.1 L266.0 220.3 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M277.0 234.7 L307.0 229.4 L326.0 208.9 L296.0 214.1 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M307.0 229.4 L337.0 225.0 L356.0 204.5 L326.0 208.9 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M337.0 225.0 L367.0 221.5 L386.0 201.0 L356.0 204.5 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M367.0 221.5 L397.0 218.8 L416.0 198.3 L386.0 201.0 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M397.0 218.8 L427.0 217.1 L446.0 196.5 L416.0 198.3 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M427.0 217.1 L457.0 216.1 L476.0 195.6 L446.0 196.5 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M108.0 295.1 L138.0 285.6 L157.0 264.3 L127.0 273.9 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M138.0 285.6 L168.0 276.9 L187.0 255.6 L157.0 264.3 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M168.0 276.9 L198.0 269.0 L217.0 247.7 L187.0 255.6 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M198.0 269.0 L228.0 262.0 L247.0 240.8 L217.0 247.7 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M228.0 262.0 L258.0 255.9 L277.0 234.7 L247.0 240.8 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M258.0 255.9 L288.0 250.7 L307.0 229.4 L277.0 234.7 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M288.0 250.7 L318.0 246.3 L337.0 225.0 L307.0 229.4 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M318.0 246.3 L348.0 242.8 L367.0 221.5 L337.0 225.0 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M348.0 242.8 L378.0 240.1 L397.0 218.8 L367.0 221.5 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M378.0 240.1 L408.0 238.3 L427.0 217.1 L397.0 218.8 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M408.0 238.3 L438.0 237.4 L457.0 216.1 L427.0 217.1 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M89.0 317.2 L119.0 307.6 L138.0 285.6 L108.0 295.1 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M119.0 307.6 L149.0 298.9 L168.0 276.9 L138.0 285.6 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M149.0 298.9 L179.0 291.1 L198.0 269.0 L168.0 276.9 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M179.0 291.1 L209.0 284.1 L228.0 262.0 L198.0 269.0 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M209.0 284.1 L239.0 278.0 L258.0 255.9 L228.0 262.0 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M239.0 278.0 L269.0 272.7 L288.0 250.7 L258.0 255.9 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M269.0 272.7 L299.0 268.4 L318.0 246.3 L288.0 250.7 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M299.0 268.4 L329.0 264.8 L348.0 242.8 L318.0 246.3 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M329.0 264.8 L359.0 262.2 L378.0 240.1 L348.0 242.8 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M359.0 262.2 L389.0 260.4 L408.0 238.3 L378.0 240.1 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M389.0 260.4 L419.0 259.5 L438.0 237.4 L408.0 238.3 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M70.0 340.0 L100.0 330.4 L119.0 307.6 L89.0 317.2 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M100.0 330.4 L130.0 321.7 L149.0 298.9 L119.0 307.6 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M130.0 321.7 L160.0 313.9 L179.0 291.1 L149.0 298.9 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M160.0 313.9 L190.0 306.9 L209.0 284.1 L179.0 291.1 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M190.0 306.9 L220.0 300.8 L239.0 278.0 L209.0 284.1 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M220.0 300.8 L250.0 295.6 L269.0 272.7 L239.0 278.0 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M250.0 295.6 L280.0 291.2 L299.0 268.4 L269.0 272.7 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M280.0 291.2 L310.0 287.6 L329.0 264.8 L299.0 268.4 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M310.0 287.6 L340.0 285.0 L359.0 262.2 L329.0 264.8 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M340.0 285.0 L370.0 283.2 L389.0 260.4 L359.0 262.2 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M370.0 283.2 L400.0 282.3 L419.0 259.5 L389.0 260.4 Z" style="fill:var(--fig-soft-blue);fill-opacity:0.72;stroke:var(--fig-line);stroke-width:0.6;stroke-linejoin:round"/>
+  <path d="M131.2 298.5 L371.2 235.8 L513.8 76.2 L273.8 138.9 Z" style="fill:var(--fig-soft-green);fill-opacity:0.75;stroke:var(--fig-green);stroke-width:1.4"/>
+  <path d="M192.5 262.1 L357.5 286.3 L452.5 224.3" style="fill:none;stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:5 4"/>
+  <path d="M192.5 262.1 L357.5 219.0 L452.5 112.6" style="fill:none;stroke:var(--fig-green);stroke-width:2;stroke-linecap:round;stroke-linejoin:round"/>
+  <line x1="192.5" y1="380.0" x2="349.6" y2="403.0" style="stroke:var(--fig-red);stroke-width:2.2;fill:none"/>
+  <path d="M357.5 404.2 L347.8 406.5 L348.8 399.2 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="357.5" y1="404.2" x2="445.8" y2="346.6" style="stroke:var(--fig-blue);stroke-width:2.2;fill:none"/>
+  <path d="M452.5 342.2 L446.8 350.4 L442.7 344.2 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <text x="275.0" y="412.1" text-anchor="middle" class="umath-1-td-tb" style="fill:var(--fig-red)">dx</text>
+  <text x="415.0" y="387.2" class="umath-1-td-tb" style="fill:var(--fig-blue)">dy</text>
+  <path d="M452.5 342.2 L452.5 224.3" style="fill:none;stroke:var(--fig-ink);stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3 3"/>
+  <circle cx="192.5" cy="380.0" r="4" style="fill:var(--fig-ink);stroke:var(--fig-paper);stroke-width:1.5"/>
+  <circle cx="452.5" cy="342.2" r="4" style="fill:var(--fig-ink);stroke:var(--fig-paper);stroke-width:1.5"/>
+  <text x="184.5" y="396.0" text-anchor="end" class="umath-1-td-t">A₀</text>
+  <text x="460.5" y="346.2" class="umath-1-td-tb">B</text>
+  <path d="M357.5 286.3 L357.5 219.0" style="fill:none;stroke:var(--fig-red);stroke-width:3.4;stroke-linecap:round;stroke-linejoin:round"/>
+  <path d="M452.5 224.3 L452.5 157.0" style="fill:none;stroke:var(--fig-red);stroke-width:3.4;stroke-linecap:round;stroke-linejoin:round"/>
+  <path d="M452.5 157.0 L452.5 112.6" style="fill:none;stroke:var(--fig-blue);stroke-width:3.4;stroke-linecap:round;stroke-linejoin:round"/>
+  <path d="M467.5 226.5 L467.5 114.8" style="fill:none;stroke:var(--fig-ink);stroke-width:3.6;stroke-linecap:round;stroke-linejoin:round"/>
+  <circle cx="452.5" cy="135.2" r="5" style="fill:var(--fig-amber);stroke:var(--fig-paper);stroke-width:1.5"/>
+  <circle cx="452.5" cy="112.6" r="5" style="fill:var(--fig-green);stroke:var(--fig-paper);stroke-width:1.5"/>
+  <circle cx="192.5" cy="262.1" r="5.5" style="fill:var(--fig-ink);stroke:var(--fig-paper);stroke-width:1.5"/>
+  <text x="182.5" y="254.1" text-anchor="end" class="umath-1-td-tb umath-1-td-halo">A</text>
+  <path d="M434.5 131.7 L428.5 131.7 L428.5 109.1 L434.5 109.1" style="fill:none;stroke:var(--fig-muted);stroke-width:2"/>
+  <text x="365.5" y="256.6" class="umath-1-td-t umath-1-td-halo" style="fill:var(--fig-red)">(∂z/∂x)<tspan style="font-size:72%" baseline-shift="sub">y</tspan> dx</text>
+  <text x="477.5" y="141.0" class="umath-1-td-t umath-1-td-halo" style="fill:var(--fig-blue)">(∂z/∂y)<tspan style="font-size:72%" baseline-shift="sub">x</tspan> dy</text>
+  <text x="477.5" y="202.6" class="umath-1-td-tb umath-1-td-halo">dz (합, 접평면)</text>
+  <text x="420.5" y="124.4" text-anchor="end" class="umath-1-td-t umath-1-td-halo" style="fill:var(--fig-muted)">Δz − dz</text>
+  <text x="462.5" y="151.2" class="umath-1-td-m umath-1-td-halo">곡면 위 점 (높이 변화 Δz)</text>
+  <text x="462.5" y="104.6" class="umath-1-td-m umath-1-td-halo">접평면 위 점 (높이 변화 dz)</text>
+  <rect x="470" y="26" width="236" height="54" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="588.0" y="48.0" text-anchor="middle" class="umath-1-td-t">dz = (∂z/∂x)<tspan style="font-size:72%" baseline-shift="sub">y</tspan> dx + (∂z/∂y)<tspan style="font-size:72%" baseline-shift="sub">x</tspan> dy</text>
+  <text x="588.0" y="68.0" text-anchor="middle" class="umath-1-td-m">Δz ≈ dz (걸음이 작을수록 정확)</text>
+  <text x="408.0" y="454.4" class="umath-1-td-tb">x</text>
+  <text x="271.0" y="259.6" text-anchor="end" class="umath-1-td-tb">y</text>
+  <path d="M70.0 400.0 L70.0 124.0" style="fill:none;stroke:var(--fig-ink);stroke-width:1.3;stroke-linecap:round;stroke-linejoin:round"/>
+  <path d="M70.0 124.0 L73.3 132.4 L66.7 132.4 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="78.0" y="130.0" class="umath-1-td-tb">z</text>
+</svg>

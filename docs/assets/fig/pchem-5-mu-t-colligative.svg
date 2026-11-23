@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img" aria-labelledby="t-pchem-5-mu-t-colligative d-pchem-5-mu-t-colligative">
+  <title id="t-pchem-5-mu-t-colligative">그림 물리화학 5-7 용매의 화학 퍼텐셜이 내려가면 어는점은 내려가고 끓는점은 올라간다</title>
+  <desc id="d-pchem-5-mu-t-colligative">일정한 압력에서 화학 퍼텐셜 μ를 온도 T에 대해 그린 모식도. 순수한 고체 용매(기울기 가장 완만), 순수한 액체 용매, 기체(가장 가파름)의 직선과, 순수한 액체 직선을 RT ln x_A만큼 아래로 옮긴 점선(용액 속 용매)이 있다. 점선은 고체 직선과 T_f* 보다 낮은 T_f에서, 기체 직선과 T_b* 보다 높은 T_b에서 만난다. 고체와 액체의 기울기 차가 작아서 어는점 내림 ΔT_f가 끓는점 오름 ΔT_b보다 크다. 이동 폭은 과장했다.</desc>
+  <style>.pchem-5-mu-t-colligative-t{font-size:14px;fill:var(--fig-ink)} .pchem-5-mu-t-colligative-s{font-size:13px;fill:var(--fig-muted)} .pchem-5-mu-t-colligative-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .pchem-5-mu-t-colligative-i{font-size:14px;font-style:italic;fill:var(--fig-ink)} </style>
+  <defs><clipPath id="pchem-5-mu-t-colligative-c"><rect x="90.0" y="30.0" width="560.0" height="320.0"/></clipPath></defs>
+  <rect x="90.0" y="30.0" width="560.0" height="320.0" rx="0" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="370.0" y="412.0" text-anchor="middle" class="pchem-5-mu-t-colligative-t">온도 T →</text>
+  <text x="50.0" y="190.0" text-anchor="middle" class="pchem-5-mu-t-colligative-t" transform="rotate(-90 50.0 190.0)">화학 퍼텐셜 μ →</text>
+  <polyline points="90.0,50.7 650.0,249.4" style="fill:none;stroke:var(--fig-blue);stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round" clip-path="url(#pchem-5-mu-t-colligative-c)"/>
+  <polyline points="90.0,5.7 650.0,336.8" style="fill:none;stroke:var(--fig-green);stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round" clip-path="url(#pchem-5-mu-t-colligative-c)"/>
+  <polyline points="342.0,55.4 650.0,455.9" style="fill:none;stroke:var(--fig-red);stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round" clip-path="url(#pchem-5-mu-t-colligative-c)"/>
+  <polyline points="90.0,30.0 650.0,361.0" style="fill:none;stroke:var(--fig-green);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:7 5" clip-path="url(#pchem-5-mu-t-colligative-c)"/>
+  <line x1="280.4" y1="118.3" x2="280.4" y2="350.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round;stroke-dasharray:3 4"/>
+  <circle cx="280.4" cy="118.3" r="5.0" style="fill:var(--fig-ink);stroke:none"/>
+  <line x1="482.0" y1="237.4" x2="482.0" y2="350.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round;stroke-dasharray:3 4"/>
+  <circle cx="482.0" cy="237.4" r="5.0" style="fill:var(--fig-ink);stroke:none"/>
+  <line x1="177.7" y1="81.9" x2="177.7" y2="350.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round;stroke-dasharray:3 4"/>
+  <circle cx="177.7" cy="81.9" r="5.0" style="fill:var(--fig-violet);stroke:none"/>
+  <line x1="516.2" y1="282.0" x2="516.2" y2="350.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round;stroke-dasharray:3 4"/>
+  <circle cx="516.2" cy="282.0" r="5.0" style="fill:var(--fig-violet);stroke:none"/>
+  <text x="284.4" y="370.0" text-anchor="start" class="pchem-5-mu-t-colligative-t">T<tspan baseline-shift="sub" font-size="10">f</tspan><tspan baseline-shift="super" font-size="10">*</tspan></text>
+  <text x="173.7" y="370.0" text-anchor="end" class="pchem-5-mu-t-colligative-t" style="fill:var(--fig-violet)">T<tspan baseline-shift="sub" font-size="10">f</tspan></text>
+  <text x="478.0" y="370.0" text-anchor="end" class="pchem-5-mu-t-colligative-t">T<tspan baseline-shift="sub" font-size="10">b</tspan><tspan baseline-shift="super" font-size="10">*</tspan></text>
+  <text x="520.2" y="370.0" text-anchor="start" class="pchem-5-mu-t-colligative-t" style="fill:var(--fig-violet)">T<tspan baseline-shift="sub" font-size="10">b</tspan></text>
+  <line x1="280.4" y1="390.0" x2="177.7" y2="390.0" style="stroke:var(--fig-violet);stroke-width:2;stroke-linecap:round"/>
+  <polygon points="177.7,390.0 185.1,386.9 185.1,393.1" style="fill:var(--fig-violet);stroke:none"/>
+  <text x="229.1" y="408.0" text-anchor="middle" class="pchem-5-mu-t-colligative-t" style="fill:var(--fig-violet);font-weight:600">ΔT<tspan baseline-shift="sub" font-size="10">f</tspan></text>
+  <line x1="482.0" y1="390.0" x2="516.2" y2="390.0" style="stroke:var(--fig-violet);stroke-width:2;stroke-linecap:round"/>
+  <polygon points="516.2,390.0 508.9,393.1 508.9,386.9" style="fill:var(--fig-violet);stroke:none"/>
+  <text x="513.1" y="408.0" text-anchor="middle" class="pchem-5-mu-t-colligative-t" style="fill:var(--fig-violet);font-weight:600">ΔT<tspan baseline-shift="sub" font-size="10">b</tspan></text>
+  <rect x="101.0" y="67.7" width="90.2" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
+  <text x="104.0" y="79.7" text-anchor="start" class="pchem-5-mu-t-colligative-s" style="fill:var(--fig-blue)">고체 용매(순수)</text>
+  <rect x="151.4" y="21.8" width="90.2" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
+  <text x="154.4" y="33.8" text-anchor="start" class="pchem-5-mu-t-colligative-s" style="fill:var(--fig-green)">액체 용매(순수)</text>
+  <rect x="351.5" y="86.7" width="29.9" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
+  <text x="378.4" y="98.7" text-anchor="end" class="pchem-5-mu-t-colligative-s" style="fill:var(--fig-red)">기체</text>
+  <rect x="344.6" y="160.3" width="163.6" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
+  <text x="347.6" y="172.3" text-anchor="start" class="pchem-5-mu-t-colligative-s" style="fill:var(--fig-green)">용액 속 용매: μ* + RT ln x<tspan baseline-shift="sub" font-size="10">A</tspan></text>
+  <line x1="403.6" y1="191.1" x2="403.6" y2="214.4" style="stroke:var(--fig-ink);stroke-width:1.4;stroke-linecap:round"/>
+  <polygon points="403.6,214.4 401.3,208.9 405.9,208.9" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="397.6" y="208.2" text-anchor="end" class="pchem-5-mu-t-colligative-s">RT ln x<tspan baseline-shift="sub" font-size="10">A</tspan> &lt; 0</text>
+  <text x="360.0" y="432.0" text-anchor="middle" class="pchem-5-mu-t-colligative-s">모식도: 직선은 기울기 −S<tspan baseline-shift="sub" font-size="10">m</tspan>. 기울기 차(ΔS<tspan baseline-shift="sub" font-size="10">fus</tspan> &lt; ΔS<tspan baseline-shift="sub" font-size="10">vap</tspan>)가 작은 고체–액체 교점이 더 많이 움직인다.</text>
+</svg>

@@ -496,9 +496,7 @@
   <path d="M130.8 211.8 L131.0 212.7 L131.2 213.7 L131.6 214.6 L132.1 215.5 L132.7 216.4 L133.5 217.3 L134.3 218.2 L135.3 219.1 L136.3 219.9 L137.5 220.7 L138.8 221.5 L140.2 222.2 L141.6 223.0 L143.2 223.7 L144.9 224.3 L146.6 224.9 L148.4 225.5 L150.3 226.1 L152.2 226.6 L154.2 227.0 L156.3 227.5 L158.4 227.8 L160.6 228.2 L162.8 228.5 L165.1 228.7 L167.3 228.9 L169.6 229.0 L171.9 229.1 L174.2 229.2 L176.5 229.1 L178.9 229.1 L181.2 229.0 L183.4 228.8 L185.7 228.6 L187.9 228.4 L190.1 228.1 L192.3 227.7 L194.4 227.3 L196.4 226.9 L198.4 226.4 L200.4 225.9 L202.2 225.3 L204.0 224.7 L205.7 224.1 L207.3 223.4 L208.9 222.7 L210.3 222.0 L211.6 221.2 L212.9 220.4 L214.0 219.6 L215.1 218.8 L216.0 217.9 L216.8 217.0 L217.5 216.1 L218.1 215.2 L218.5 214.3 L218.9 213.4 L219.1 212.4 L219.2 211.5" style="fill:none;stroke:var(--fig-red);stroke-width:2.6"/>
   <line x1="191.6" y1="227.8" x2="191.6" y2="271.7" style="stroke:var(--fig-red);stroke-width:1.3;stroke-dasharray:4 3"/>
   <circle cx="191.6" cy="227.8" r="3.2" style="fill:var(--fig-red)"/>
-  <text x="141.6" y="293.8" class="umath-2-gaussian-rings-t" text-anchor="end" style="fill:var(--fig-red)">높이 e</text>
-  <text x="141.6" y="293.8" class="umath-2-gaussian-rings-t" style="fill:var(--fig-red)"><tspan dy="-7" style="font-size:10px">−ar²</tspan></text>
-  <line x1="145.6" y1="285.8" x2="187.6" y2="257.8" style="stroke:var(--fig-red);stroke-width:0.8"/>
+  <text x="30.0" y="370.0" class="umath-2-gaussian-rings-t" style="fill:var(--fig-red)">빨간 원 위의 높이는 모두 e<tspan dy="-7" style="font-size:10px">−ar²</tspan></text>
   <line x1="265.4" y1="232.0" x2="283.5" y2="227.4" style="stroke:var(--fig-ink);stroke-width:1.2"/>
   <path d="M289.7 225.9 L283.4 230.8 L281.8 224.5 Z" style="fill:var(--fig-ink);stroke:none"/>
   <text x="297.7" y="229.9" class="umath-2-gaussian-rings-t" text-anchor="middle">x</text>
@@ -511,42 +509,42 @@
   <text x="175.0" y="36.0" class="umath-2-gaussian-rings-b" text-anchor="end">z = e</text>
   <text x="175.0" y="36.0" class="umath-2-gaussian-rings-b"><tspan dy="-7" style="font-size:11px">−(x² + y²)</tspan><tspan dy="7">  (a = 1)</tspan></text>
   <text x="175.0" y="56.0" class="umath-2-gaussian-rings-s" text-anchor="middle">종 모양 곡면 아래 부피 = I²</text>
-  <path d="M527.8 210.0 A7.8 7.8 0 1 0 512.2 210.0 A7.8 7.8 0 1 0 527.8 210.0 Z " style="fill:var(--fig-teal);fill-opacity:0.618;fill-rule:evenodd;stroke:none"/>
-  <path d="M535.5 210.0 A15.5 15.5 0 1 0 504.5 210.0 A15.5 15.5 0 1 0 535.5 210.0 Z M527.8 210.0 A7.8 7.8 0 1 1 512.2 210.0 A7.8 7.8 0 1 1 527.8 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.599;fill-rule:evenodd;stroke:none"/>
-  <path d="M543.2 210.0 A23.2 23.2 0 1 0 496.8 210.0 A23.2 23.2 0 1 0 543.2 210.0 Z M535.5 210.0 A15.5 15.5 0 1 1 504.5 210.0 A15.5 15.5 0 1 1 535.5 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.562;fill-rule:evenodd;stroke:none"/>
-  <path d="M551.0 210.0 A31.0 31.0 0 1 0 489.0 210.0 A31.0 31.0 0 1 0 551.0 210.0 Z M543.2 210.0 A23.2 23.2 0 1 1 496.8 210.0 A23.2 23.2 0 1 1 543.2 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.512;fill-rule:evenodd;stroke:none"/>
-  <path d="M558.8 210.0 A38.8 38.8 0 1 0 481.2 210.0 A38.8 38.8 0 1 0 558.8 210.0 Z M551.0 210.0 A31.0 31.0 0 1 1 489.0 210.0 A31.0 31.0 0 1 1 551.0 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.452;fill-rule:evenodd;stroke:none"/>
-  <path d="M566.5 210.0 A46.5 46.5 0 1 0 473.5 210.0 A46.5 46.5 0 1 0 566.5 210.0 Z M558.8 210.0 A38.8 38.8 0 1 1 481.2 210.0 A38.8 38.8 0 1 1 558.8 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.386;fill-rule:evenodd;stroke:none"/>
-  <path d="M574.2 210.0 A54.2 54.2 0 1 0 465.8 210.0 A54.2 54.2 0 1 0 574.2 210.0 Z M566.5 210.0 A46.5 46.5 0 1 1 473.5 210.0 A46.5 46.5 0 1 1 566.5 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.320;fill-rule:evenodd;stroke:none"/>
-  <path d="M582.0 210.0 A62.0 62.0 0 1 0 458.0 210.0 A62.0 62.0 0 1 0 582.0 210.0 Z M574.2 210.0 A54.2 54.2 0 1 1 465.8 210.0 A54.2 54.2 0 1 1 574.2 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.257;fill-rule:evenodd;stroke:none"/>
-  <path d="M589.8 210.0 A69.8 69.8 0 1 0 450.2 210.0 A69.8 69.8 0 1 0 589.8 210.0 Z M582.0 210.0 A62.0 62.0 0 1 1 458.0 210.0 A62.0 62.0 0 1 1 582.0 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.200;fill-rule:evenodd;stroke:none"/>
-  <path d="M597.5 210.0 A77.5 77.5 0 1 0 442.5 210.0 A77.5 77.5 0 1 0 597.5 210.0 Z M589.8 210.0 A69.8 69.8 0 1 1 450.2 210.0 A69.8 69.8 0 1 1 589.8 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.151;fill-rule:evenodd;stroke:none"/>
-  <path d="M605.2 210.0 A85.2 85.2 0 1 0 434.8 210.0 A85.2 85.2 0 1 0 605.2 210.0 Z M597.5 210.0 A77.5 77.5 0 1 1 442.5 210.0 A77.5 77.5 0 1 1 597.5 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.111;fill-rule:evenodd;stroke:none"/>
-  <path d="M613.0 210.0 A93.0 93.0 0 1 0 427.0 210.0 A93.0 93.0 0 1 0 613.0 210.0 Z M605.2 210.0 A85.2 85.2 0 1 1 434.8 210.0 A85.2 85.2 0 1 1 605.2 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.079;fill-rule:evenodd;stroke:none"/>
-  <path d="M620.8 210.0 A100.8 100.8 0 1 0 419.2 210.0 A100.8 100.8 0 1 0 620.8 210.0 Z M613.0 210.0 A93.0 93.0 0 1 1 427.0 210.0 A93.0 93.0 0 1 1 613.0 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.054;fill-rule:evenodd;stroke:none"/>
-  <path d="M628.5 210.0 A108.5 108.5 0 1 0 411.5 210.0 A108.5 108.5 0 1 0 628.5 210.0 Z M620.8 210.0 A100.8 100.8 0 1 1 419.2 210.0 A100.8 100.8 0 1 1 620.8 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.036;fill-rule:evenodd;stroke:none"/>
-  <path d="M636.2 210.0 A116.2 116.2 0 1 0 403.8 210.0 A116.2 116.2 0 1 0 636.2 210.0 Z M628.5 210.0 A108.5 108.5 0 1 1 411.5 210.0 A108.5 108.5 0 1 1 628.5 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.023;fill-rule:evenodd;stroke:none"/>
-  <rect x="396.0" y="86.0" width="248.0" height="248.0" style="fill:none;stroke:var(--fig-line);stroke-width:1"/>
-  <line x1="390.0" y1="210.0" x2="653.6" y2="210.0" style="stroke:var(--fig-ink);stroke-width:1"/>
-  <path d="M660.0 210.0 L652.7 213.3 L652.7 206.7 Z" style="fill:var(--fig-ink);stroke:none"/>
-  <line x1="520.0" y1="340.0" x2="520.0" y2="76.4" style="stroke:var(--fig-ink);stroke-width:1"/>
-  <path d="M520.0 70.0 L523.3 77.3 L516.7 77.3 Z" style="fill:var(--fig-ink);stroke:none"/>
-  <text x="664.0" y="215.0" class="umath-2-gaussian-rings-t">x</text>
-  <text x="526.0" y="74.0" class="umath-2-gaussian-rings-t">y</text>
-  <path d="M586.3 210.0 A66.3 66.3 0 1 0 453.7 210.0 A66.3 66.3 0 1 0 586.3 210.0 Z M572.7 210.0 A52.7 52.7 0 1 1 467.3 210.0 A52.7 52.7 0 1 1 572.7 210.0 Z" style="fill:var(--fig-soft-red);fill-rule:evenodd;stroke:var(--fig-red);stroke-width:1.6"/>
-  <line x1="520.0" y1="210.0" x2="557.9" y2="183.4" style="stroke:var(--fig-ink);stroke-width:1.5"/>
-  <path d="M563.2 179.8 L559.1 186.6 L555.3 181.3 Z" style="fill:var(--fig-ink);stroke:none"/>
-  <text x="543.6" y="186.9" class="umath-2-gaussian-rings-t" text-anchor="middle" style="font-style:italic">r</text>
-  <line x1="479.6" y1="243.9" x2="469.2" y2="252.6" style="stroke:var(--fig-red);stroke-width:2"/>
-  <line x1="469.2" y1="252.6" x2="439.2" y2="274.6" style="stroke:var(--fig-red);stroke-width:0.8"/>
-  <text x="437.2" y="288.6" class="umath-2-gaussian-rings-t" text-anchor="middle" style="fill:var(--fig-red)">두께 dr</text>
-  <text x="652.0" y="113.9" class="umath-2-gaussian-rings-t">고리 넓이</text>
-  <text x="652.0" y="132.9" class="umath-2-gaussian-rings-b" style="fill:var(--fig-red)">≈ 2πr dr</text>
-  <line x1="650.0" y1="121.9" x2="567.8" y2="164.2" style="stroke:var(--fig-red);stroke-width:0.8"/>
-  <text x="652.0" y="284.4" class="umath-2-gaussian-rings-t">고리 위의 높이</text>
-  <text x="652.0" y="303.4" class="umath-2-gaussian-rings-b">e</text>
-  <text x="661.0" y="303.4" class="umath-2-gaussian-rings-b"><tspan dy="-7" style="font-size:11px">−ar²</tspan></text>
-  <text x="520.0" y="36.0" class="umath-2-gaussian-rings-b" text-anchor="middle">위에서 본 xy 평면</text>
-  <text x="520.0" y="56.0" class="umath-2-gaussian-rings-s" text-anchor="middle">진할수록 곡면이 높다</text>
+  <path d="M485.8 210.0 A7.8 7.8 0 1 0 470.2 210.0 A7.8 7.8 0 1 0 485.8 210.0 Z " style="fill:var(--fig-teal);fill-opacity:0.618;fill-rule:evenodd;stroke:none"/>
+  <path d="M493.5 210.0 A15.5 15.5 0 1 0 462.5 210.0 A15.5 15.5 0 1 0 493.5 210.0 Z M485.8 210.0 A7.8 7.8 0 1 1 470.2 210.0 A7.8 7.8 0 1 1 485.8 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.599;fill-rule:evenodd;stroke:none"/>
+  <path d="M501.2 210.0 A23.2 23.2 0 1 0 454.8 210.0 A23.2 23.2 0 1 0 501.2 210.0 Z M493.5 210.0 A15.5 15.5 0 1 1 462.5 210.0 A15.5 15.5 0 1 1 493.5 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.562;fill-rule:evenodd;stroke:none"/>
+  <path d="M509.0 210.0 A31.0 31.0 0 1 0 447.0 210.0 A31.0 31.0 0 1 0 509.0 210.0 Z M501.2 210.0 A23.2 23.2 0 1 1 454.8 210.0 A23.2 23.2 0 1 1 501.2 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.512;fill-rule:evenodd;stroke:none"/>
+  <path d="M516.8 210.0 A38.8 38.8 0 1 0 439.2 210.0 A38.8 38.8 0 1 0 516.8 210.0 Z M509.0 210.0 A31.0 31.0 0 1 1 447.0 210.0 A31.0 31.0 0 1 1 509.0 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.452;fill-rule:evenodd;stroke:none"/>
+  <path d="M524.5 210.0 A46.5 46.5 0 1 0 431.5 210.0 A46.5 46.5 0 1 0 524.5 210.0 Z M516.8 210.0 A38.8 38.8 0 1 1 439.2 210.0 A38.8 38.8 0 1 1 516.8 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.386;fill-rule:evenodd;stroke:none"/>
+  <path d="M532.2 210.0 A54.2 54.2 0 1 0 423.8 210.0 A54.2 54.2 0 1 0 532.2 210.0 Z M524.5 210.0 A46.5 46.5 0 1 1 431.5 210.0 A46.5 46.5 0 1 1 524.5 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.320;fill-rule:evenodd;stroke:none"/>
+  <path d="M540.0 210.0 A62.0 62.0 0 1 0 416.0 210.0 A62.0 62.0 0 1 0 540.0 210.0 Z M532.2 210.0 A54.2 54.2 0 1 1 423.8 210.0 A54.2 54.2 0 1 1 532.2 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.257;fill-rule:evenodd;stroke:none"/>
+  <path d="M547.8 210.0 A69.8 69.8 0 1 0 408.2 210.0 A69.8 69.8 0 1 0 547.8 210.0 Z M540.0 210.0 A62.0 62.0 0 1 1 416.0 210.0 A62.0 62.0 0 1 1 540.0 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.200;fill-rule:evenodd;stroke:none"/>
+  <path d="M555.5 210.0 A77.5 77.5 0 1 0 400.5 210.0 A77.5 77.5 0 1 0 555.5 210.0 Z M547.8 210.0 A69.8 69.8 0 1 1 408.2 210.0 A69.8 69.8 0 1 1 547.8 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.151;fill-rule:evenodd;stroke:none"/>
+  <path d="M563.2 210.0 A85.2 85.2 0 1 0 392.8 210.0 A85.2 85.2 0 1 0 563.2 210.0 Z M555.5 210.0 A77.5 77.5 0 1 1 400.5 210.0 A77.5 77.5 0 1 1 555.5 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.111;fill-rule:evenodd;stroke:none"/>
+  <path d="M571.0 210.0 A93.0 93.0 0 1 0 385.0 210.0 A93.0 93.0 0 1 0 571.0 210.0 Z M563.2 210.0 A85.2 85.2 0 1 1 392.8 210.0 A85.2 85.2 0 1 1 563.2 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.079;fill-rule:evenodd;stroke:none"/>
+  <path d="M578.8 210.0 A100.8 100.8 0 1 0 377.2 210.0 A100.8 100.8 0 1 0 578.8 210.0 Z M571.0 210.0 A93.0 93.0 0 1 1 385.0 210.0 A93.0 93.0 0 1 1 571.0 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.054;fill-rule:evenodd;stroke:none"/>
+  <path d="M586.5 210.0 A108.5 108.5 0 1 0 369.5 210.0 A108.5 108.5 0 1 0 586.5 210.0 Z M578.8 210.0 A100.8 100.8 0 1 1 377.2 210.0 A100.8 100.8 0 1 1 578.8 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.036;fill-rule:evenodd;stroke:none"/>
+  <path d="M594.2 210.0 A116.2 116.2 0 1 0 361.8 210.0 A116.2 116.2 0 1 0 594.2 210.0 Z M586.5 210.0 A108.5 108.5 0 1 1 369.5 210.0 A108.5 108.5 0 1 1 586.5 210.0 Z" style="fill:var(--fig-teal);fill-opacity:0.023;fill-rule:evenodd;stroke:none"/>
+  <rect x="354.0" y="86.0" width="248.0" height="248.0" style="fill:none;stroke:var(--fig-line);stroke-width:1"/>
+  <line x1="348.0" y1="210.0" x2="611.6" y2="210.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <path d="M618.0 210.0 L610.7 213.3 L610.7 206.7 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <line x1="478.0" y1="340.0" x2="478.0" y2="76.4" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <path d="M478.0 70.0 L481.3 77.3 L474.7 77.3 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="622.0" y="215.0" class="umath-2-gaussian-rings-t">x</text>
+  <text x="484.0" y="74.0" class="umath-2-gaussian-rings-t">y</text>
+  <path d="M544.3 210.0 A66.3 66.3 0 1 0 411.7 210.0 A66.3 66.3 0 1 0 544.3 210.0 Z M530.7 210.0 A52.7 52.7 0 1 1 425.3 210.0 A52.7 52.7 0 1 1 530.7 210.0 Z" style="fill:var(--fig-soft-red);fill-rule:evenodd;stroke:var(--fig-red);stroke-width:1.6"/>
+  <line x1="478.0" y1="210.0" x2="515.9" y2="183.4" style="stroke:var(--fig-ink);stroke-width:1.5"/>
+  <path d="M521.2 179.8 L517.1 186.6 L513.3 181.3 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="501.6" y="186.9" class="umath-2-gaussian-rings-t" text-anchor="middle" style="font-style:italic">r</text>
+  <line x1="437.6" y1="243.9" x2="427.2" y2="252.6" style="stroke:var(--fig-red);stroke-width:2"/>
+  <line x1="427.2" y1="252.6" x2="397.2" y2="274.6" style="stroke:var(--fig-red);stroke-width:0.8"/>
+  <text x="395.2" y="288.6" class="umath-2-gaussian-rings-t" text-anchor="middle" style="fill:var(--fig-red)">두께 dr</text>
+  <text x="610.0" y="113.9" class="umath-2-gaussian-rings-t">고리 넓이</text>
+  <text x="610.0" y="132.9" class="umath-2-gaussian-rings-b" style="fill:var(--fig-red)">≈ 2πr dr</text>
+  <line x1="608.0" y1="121.9" x2="525.8" y2="164.2" style="stroke:var(--fig-red);stroke-width:0.8"/>
+  <text x="610.0" y="284.4" class="umath-2-gaussian-rings-t">고리 위의 높이</text>
+  <text x="610.0" y="303.4" class="umath-2-gaussian-rings-b">e</text>
+  <text x="619.0" y="303.4" class="umath-2-gaussian-rings-b"><tspan dy="-7" style="font-size:11px">−ar²</tspan></text>
+  <text x="478.0" y="36.0" class="umath-2-gaussian-rings-b" text-anchor="middle">위에서 본 xy 평면</text>
+  <text x="478.0" y="56.0" class="umath-2-gaussian-rings-s" text-anchor="middle">진할수록 곡면이 높다</text>
   <text x="360.0" y="402.0" class="umath-2-gaussian-rings-b" text-anchor="middle">I² = ∬ e<tspan dy="-7" style="font-size:10px">−a(x²+y²)</tspan><tspan dy="7"> dx dy = ∫</tspan><tspan dy="5" style="font-size:10px">0</tspan><tspan dx="-7" dy="-13" style="font-size:10px">∞</tspan><tspan dy="8"> </tspan>e<tspan dy="-7" style="font-size:10px">−ar²</tspan><tspan dy="7"> · 2πr dr = π/a</tspan></text>
 </svg>

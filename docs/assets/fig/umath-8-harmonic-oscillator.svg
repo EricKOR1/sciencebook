@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t-umath-8-harmonic-oscillator d-umath-8-harmonic-oscillator">
+  <title id="t-umath-8-harmonic-oscillator">그림 수학 도구 8-6 조화 진동자의 퍼텐셜, 에너지 준위와 에르미트 함수</title>
+  <desc id="d-umath-8-harmonic-oscillator">포물선 V = ½kx²와 같은 간격 ħω의 에너지 준위 E = ½, 3/2, 5/2, 7/2 ħω를 그리고, 각 준위선을 기준으로 규격화된 에르미트 함수 ψ₀~ψ₃(마디 0~3개)을 그렸다. 짧은 점선은 고전적 전환점 y = ±√(2n + 1)이고, ψ₀이 전환점 바깥으로 스며 나간 부분을 옅게 칠했다. 파동 함수의 세로 크기는 보기 좋게 맞춘 것이다.</desc>
+  <style>
+    .u8ho-ax{stroke:var(--fig-ink);stroke-width:1.4;fill:none}
+    .u8ho-grid{stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 4;fill:none}
+    .u8ho-t{font-size:14px;fill:var(--fig-ink)}
+    .u8ho-s{font-size:13px;fill:var(--fig-muted)}
+    .u8ho-b{font-size:14px;fill:var(--fig-ink);font-weight:600}
+    .u8ho-tk{stroke:var(--fig-ink);stroke-width:1.2}
+    .u8ho-c0{stroke:var(--fig-blue);stroke-width:2.3;fill:none}
+    .u8ho-l0{font-size:14px;fill:var(--fig-blue);font-weight:600}
+    .u8ho-c1{stroke:var(--fig-green);stroke-width:2.3;fill:none}
+    .u8ho-l1{font-size:14px;fill:var(--fig-green);font-weight:600}
+    .u8ho-c2{stroke:var(--fig-amber);stroke-width:2.3;fill:none}
+    .u8ho-l2{font-size:14px;fill:var(--fig-amber);font-weight:600}
+    .u8ho-c3{stroke:var(--fig-red);stroke-width:2.3;fill:none}
+    .u8ho-l3{font-size:14px;fill:var(--fig-red);font-weight:600}
+    .u8ho-pot{stroke:var(--fig-ink);stroke-width:2.2;fill:none}
+    .u8ho-lev{stroke:var(--fig-muted);stroke-width:1.1;fill:none}
+    .u8ho-tp{stroke:var(--fig-ink);stroke-width:1.2;stroke-dasharray:3 3;fill:none}
+    .u8ho-leak{fill:var(--fig-blue);fill-opacity:0.25}
+    .u8ho-box{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1}
+
+  </style>
+  <path d="M80 20 L80 360 L550 360" class="u8ho-ax"/>
+  <line x1="80" y1="360" x2="80" y2="365" class="u8ho-tk"/>
+  <text x="80" y="379" text-anchor="middle" class="u8ho-s">−4</text>
+  <line x1="138.8" y1="360" x2="138.8" y2="365" class="u8ho-tk"/>
+  <text x="138.8" y="379" text-anchor="middle" class="u8ho-s">−3</text>
+  <line x1="197.5" y1="360" x2="197.5" y2="365" class="u8ho-tk"/>
+  <text x="197.5" y="379" text-anchor="middle" class="u8ho-s">−2</text>
+  <line x1="256.2" y1="360" x2="256.2" y2="365" class="u8ho-tk"/>
+  <text x="256.2" y="379" text-anchor="middle" class="u8ho-s">−1</text>
+  <line x1="315" y1="360" x2="315" y2="365" class="u8ho-tk"/>
+  <text x="315" y="379" text-anchor="middle" class="u8ho-s">0</text>
+  <line x1="373.8" y1="360" x2="373.8" y2="365" class="u8ho-tk"/>
+  <text x="373.8" y="379" text-anchor="middle" class="u8ho-s">1</text>
+  <line x1="432.5" y1="360" x2="432.5" y2="365" class="u8ho-tk"/>
+  <text x="432.5" y="379" text-anchor="middle" class="u8ho-s">2</text>
+  <line x1="491.2" y1="360" x2="491.2" y2="365" class="u8ho-tk"/>
+  <text x="491.2" y="379" text-anchor="middle" class="u8ho-s">3</text>
+  <line x1="550" y1="360" x2="550" y2="365" class="u8ho-tk"/>
+  <text x="550" y="379" text-anchor="middle" class="u8ho-s">4</text>
+  <line x1="75" y1="360" x2="80" y2="360" class="u8ho-tk"/>
+  <text x="72" y="364.5" text-anchor="end" class="u8ho-s">0</text>
+  <line x1="75" y1="323" x2="80" y2="323" class="u8ho-tk"/>
+  <text x="72" y="327.5" text-anchor="end" class="u8ho-s">½</text>
+  <line x1="75" y1="249.1" x2="80" y2="249.1" class="u8ho-tk"/>
+  <text x="72" y="253.6" text-anchor="end" class="u8ho-s">3/2</text>
+  <line x1="75" y1="175.2" x2="80" y2="175.2" class="u8ho-tk"/>
+  <text x="72" y="179.7" text-anchor="end" class="u8ho-s">5/2</text>
+  <line x1="75" y1="101.3" x2="80" y2="101.3" class="u8ho-tk"/>
+  <text x="72" y="105.8" text-anchor="end" class="u8ho-s">7/2</text>
+  <line x1="75" y1="27.4" x2="80" y2="27.4" class="u8ho-tk"/>
+  <text x="72" y="31.9" text-anchor="end" class="u8ho-s">9/2</text>
+  <text x="315" y="396" text-anchor="middle" class="u8ho-t">y = x / α</text>
+  <text x="36" y="190" text-anchor="middle" transform="rotate(-90 36 190)" class="u8ho-t">에너지 (ħω 단위)</text>
+  <path d="M80 323 L148.2 322.5 L169.3 321.6 L186.9 320.2 L204 317.9 L219.8 314.8 L235.7 310.8 L256.2 304.5 L256.2 323 L80 323 Z" class="u8ho-leak"/>
+  <path d="M373.8 304.5 L394.3 310.8 L410.2 314.8 L426 317.9 L443.1 320.2 L460.7 321.6 L481.8 322.5 L550 323 L373.8 323 Z" class="u8ho-leak"/>
+  <line x1="80" y1="323" x2="550" y2="323" class="u8ho-lev"/>
+  <line x1="256.2" y1="309" x2="256.2" y2="337" class="u8ho-tp"/>
+  <line x1="373.8" y1="309" x2="373.8" y2="337" class="u8ho-tp"/>
+  <path d="M80 323 L125.8 322.9 L153.4 322.3 L175.8 321.2 L194.6 319.3 L211 316.7 L227.5 313 L242.2 308.9 L272.7 299.5 L286.8 295.8 L301.5 293.3 L315 292.5 L328.5 293.3 L343.2 295.8 L357.3 299.5 L387.9 308.9 L402.5 313 L419 316.7 L435.4 319.3 L454.2 321.2 L476.6 322.3 L504.2 322.9 L550 323" class="u8ho-c0"/>
+  <text x="560" y="328" class="u8ho-l0">ψ₀  (마디 0)</text>
+  <line x1="80" y1="249.1" x2="550" y2="249.1" class="u8ho-lev"/>
+  <line x1="213.2" y1="235.1" x2="213.2" y2="263.1" class="u8ho-tp"/>
+  <line x1="416.8" y1="235.1" x2="416.8" y2="263.1" class="u8ho-tp"/>
+  <path d="M80 249.2 L109.4 249.5 L130.5 250.1 L148.2 251.3 L163.4 253.1 L176.9 255.5 L189.9 258.6 L201.6 262.1 L225.7 269.8 L236.3 272.7 L246.8 274.7 L256.2 275.3 L263.3 274.9 L270.4 273.7 L277.4 271.6 L284.4 268.7 L291.5 265.1 L299.1 260.4 L327.9 239.9 L340.3 232.2 L347.3 228.7 L354.4 226 L360.8 224.3 L367.9 223.2 L373.8 222.9 L379.6 223.2 L385.5 223.9 L392 225.1 L403.1 228.1 L429 236.4 L441.3 239.9 L454.8 243.1 L468.3 245.4 L483.6 247.1 L500.7 248.2 L521.2 248.8 L550 249.1" class="u8ho-c1"/>
+  <text x="560" y="254.1" class="u8ho-l1">ψ₁  (마디 1)</text>
+  <line x1="80" y1="175.2" x2="550" y2="175.2" class="u8ho-lev"/>
+  <line x1="183.6" y1="161.2" x2="183.6" y2="189.2" class="u8ho-tp"/>
+  <line x1="446.4" y1="161.2" x2="446.4" y2="189.2" class="u8ho-tp"/>
+  <path d="M80 175 L99.4 174.6 L115.2 173.7 L129.3 172.4 L141.7 170.7 L152.3 168.5 L163.4 165.7 L194.6 155.7 L204 153 L213.4 151.1 L222.2 150.5 L228.6 150.9 L235.1 152.1 L241 154 L247.4 156.9 L253.3 160.2 L259.8 164.6 L283.3 183 L292.7 189.5 L298 192.4 L303.2 194.7 L307.9 196 L312.6 196.7 L317.4 196.7 L322.6 195.9 L327.3 194.5 L332.6 192.1 L337.9 189.1 L343.8 185.2 L367.3 166.7 L378.4 159.2 L384.9 155.7 L390.8 153.3 L396.7 151.7 L403.1 150.7 L407.8 150.5 L413.1 150.7 L424.3 152.6 L434.9 155.5 L467.2 165.8 L478.9 168.8 L490.1 170.9 L502.4 172.6 L515.9 173.8 L531.2 174.6 L550 175" class="u8ho-c2"/>
+  <text x="560" y="180.2" class="u8ho-l2">ψ₂  (마디 2)</text>
+  <line x1="80" y1="101.3" x2="550" y2="101.3" class="u8ho-lev"/>
+  <line x1="159.6" y1="87.3" x2="159.6" y2="115.3" class="u8ho-tp"/>
+  <line x1="470.4" y1="87.3" x2="470.4" y2="115.3" class="u8ho-tp"/>
+  <path d="M80 102 L102.9 103.5 L112.9 104.7 L122.3 106.2 L131.7 108.3 L141.7 111 L170.5 120.5 L179.9 123.1 L190.4 125 L195.7 125.2 L200.4 125 L206.3 124 L211.6 122.4 L216.9 120.1 L222.8 116.9 L232.8 109.8 L254.5 91.9 L259.8 88.2 L264.5 85.4 L269.2 83.2 L273.3 81.9 L277.4 81.3 L281.5 81.2 L285.6 81.9 L289.7 83.1 L293.9 85 L298.6 87.8 L306.8 94.1 L325.6 110.5 L330.3 114 L335 117 L339.7 119.3 L343.8 120.6 L347.9 121.3 L352 121.4 L356.1 120.8 L360.2 119.6 L364.9 117.5 L369.6 114.8 L378.4 108.4 L399 91.4 L404.9 87.2 L410.8 83.7 L416.6 80.9 L422.5 78.9 L428.4 77.8 L434.3 77.4 L442.5 78 L451.9 79.9 L460.7 82.5 L487.7 91.5 L497.1 94 L505.9 96 L515.9 97.8 L525.9 99 L537.1 100 L550 100.6" class="u8ho-c3"/>
+  <text x="560" y="106.3" class="u8ho-l3">ψ₃  (마디 3)</text>
+  <path d="M137 20.7 L148.9 64.6 L159.6 101.5 L170.3 135.9 L181 167.9 L191.8 197.4 L203.7 227.3 L214.4 251.6 L225.1 273.5 L237 294.9 L247.7 311.5 L258.4 325.7 L264.4 332.6 L269.2 337.5 L275.1 343 L279.9 346.8 L285.8 350.9 L291.8 354.2 L297.7 356.8 L303.7 358.6 L308.5 359.5 L314.4 360 L320.4 359.7 L326.3 358.6 L332.3 356.8 L337 354.8 L343 351.6 L348.9 347.7 L353.7 344 L359.7 338.7 L365.6 332.6 L371.6 325.7 L382.3 311.5 L393 294.9 L403.7 275.7 L414.4 254.2 L426.3 227.3 L437 200.5 L449 167.9 L459.7 135.9 L470.4 101.5 L481.1 64.6 L493 20.7" class="u8ho-pot"/>
+  <text x="85.9" y="38.5" class="u8ho-t">V = ½kx²</text>
+  <text x="560" y="291.1" class="u8ho-s">ħω</text>
+  <text x="400.2" y="345.2" class="u8ho-s">스며 나간 부분 (고전적으로 금지된 영역)</text>
+  <text x="560" y="351.1" class="u8ho-s">점선: 고전적 전환점</text>
+</svg>

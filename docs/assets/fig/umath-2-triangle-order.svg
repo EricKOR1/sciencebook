@@ -27,8 +27,6 @@
   <line x1="235.4" y1="273.6" x2="235.4" y2="158.6" style="stroke:var(--fig-amber);stroke-width:2"/>
   <path d="M235.4 151.4 L239.0 159.6 L231.7 159.6 Z" style="fill:var(--fig-amber);stroke:none"/>
   <text x="248.9" y="215.7" class="umath-2-triangle-order-t" style="fill:var(--fig-amber);font-weight:600">y: 0 → x</text>
-  <line x1="137.9" y1="305.7" x2="292.2" y2="305.7" style="stroke:var(--fig-muted);stroke-width:1.2"/>
-  <path d="M298.6 305.7 L291.3 309.0 L291.3 302.5 Z" style="fill:var(--fig-muted);stroke:none"/>
   <text x="235.4" y="299.0" class="umath-2-triangle-order-tick" text-anchor="middle">x</text>
   <text x="215.0" y="316.0" class="umath-2-triangle-order-s" text-anchor="middle">세로 띠 → x 방향으로 쓸기</text>
   <text x="215.0" y="348.0" class="umath-2-triangle-order-b" text-anchor="middle">∫<tspan dy="5" style="font-size:10px">0</tspan><tspan dx="-6" dy="-13" style="font-size:10px">1</tspan><tspan dy="8"> </tspan>∫<tspan dy="5" style="font-size:10px">0</tspan><tspan dx="-6" dy="-13" style="font-size:10px">x</tspan><tspan dy="8"> </tspan>f dy dx</text>
@@ -51,7 +49,7 @@
   <path d="M545.0 190.0 L669.3 190.0 L669.3 175.0 L560.0 175.0 Z" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
   <line x1="557.9" y1="182.5" x2="657.8" y2="182.5" style="stroke:var(--fig-amber);stroke-width:2"/>
   <path d="M665.0 182.5 L656.8 186.2 L656.8 178.8 Z" style="fill:var(--fig-amber);stroke:none"/>
-  <text x="587.9" y="167.0" class="umath-2-triangle-order-t" text-anchor="middle" style="fill:var(--fig-amber);font-weight:600">x: y → 1</text>
+  <text x="626.4" y="167.0" class="umath-2-triangle-order-t" text-anchor="middle" style="fill:var(--fig-amber);font-weight:600">x: y → 1</text>
   <text x="447.0" y="186.5" class="umath-2-triangle-order-tick" text-anchor="end">y</text>
   <text x="575.0" y="316.0" class="umath-2-triangle-order-s" text-anchor="middle">가로 띠 → y 방향으로 쓸기</text>
   <text x="575.0" y="348.0" class="umath-2-triangle-order-b" text-anchor="middle">∫<tspan dy="5" style="font-size:10px">0</tspan><tspan dx="-6" dy="-13" style="font-size:10px">1</tspan><tspan dy="8"> </tspan>∫<tspan dy="5" style="font-size:10px">y</tspan><tspan dx="-6" dy="-13" style="font-size:10px">1</tspan><tspan dy="8"> </tspan>f dx dy</text>

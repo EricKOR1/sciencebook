@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-umath-5-basis-change d-umath-5-basis-change">
+  <title id="t-umath-5-basis-change">그림 수학 도구 5-1 같은 벡터, 두 기저</title>
+  <desc id="d-umath-5-basis-change">같은 벡터 v = (3, 2)를 왼쪽은 표준 기저 e1, e2로, 오른쪽은 45° 돌린 정규 직교 기저 u1, u2로 나타냈다. 성분은 각각 (3, 2)와 (5/√2, −1/√2) ≈ (3.54, −0.71)이다.</desc>
+  <style>.umath-5-basis-change-t{font-size:14px;fill:var(--fig-ink)} .umath-5-basis-change-s{font-size:13px;fill:var(--fig-muted)} .umath-5-basis-change-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .umath-5-basis-change-i{font-style:italic} .umath-5-basis-change-sub{font-size:70%;baseline-shift:sub} .umath-5-basis-change-sup{font-size:70%;baseline-shift:super}</style>
+  <text x="150.0" y="34.0" text-anchor="middle" class="umath-5-basis-change-b">(가) 표준 기저 e₁, e₂</text>
+  <line x1="24.8" y1="260.0" x2="276.8" y2="260.0" style="stroke:var(--fig-line);stroke-width:1.2;fill:none"/>
+  <path d="M282.4 260.0 L275.4 256.9 L275.4 263.1 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="80.0" y1="324.4" x2="80.0" y2="100.0" style="stroke:var(--fig-line);stroke-width:1.2;fill:none"/>
+  <path d="M80.0 94.4 L76.8 101.4 L83.2 101.4 Z" style="fill:var(--fig-line);stroke:none"/>
+  <text x="282.4" y="278.0" text-anchor="end" class="umath-5-basis-change-s">x</text>
+  <text x="72.0" y="98.4" text-anchor="end" class="umath-5-basis-change-s">y</text>
+  <line x1="218.0" y1="168.0" x2="218.0" y2="260.0" style="stroke:var(--fig-muted);stroke-width:1.3;fill:none;stroke-dasharray:5 4"/>
+  <line x1="218.0" y1="168.0" x2="80.0" y2="168.0" style="stroke:var(--fig-muted);stroke-width:1.3;fill:none;stroke-dasharray:5 4"/>
+  <text x="218.0" y="280.0" text-anchor="middle" class="umath-5-basis-change-b" style="fill:var(--fig-blue);">3</text>
+  <text x="70.0" y="173.0" text-anchor="end" class="umath-5-basis-change-b" style="fill:var(--fig-green);">2</text>
+  <line x1="80.0" y1="260.0" x2="118.0" y2="260.0" style="stroke:var(--fig-blue);stroke-width:3;fill:none"/>
+  <path d="M126.0 260.0 L116.0 255.5 L116.0 264.5 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="80.0" y1="260.0" x2="80.0" y2="222.0" style="stroke:var(--fig-green);stroke-width:3;fill:none"/>
+  <path d="M80.0 214.0 L75.5 224.0 L84.5 224.0 Z" style="fill:var(--fig-green);stroke:none"/>
+  <text x="103.0" y="280.0" text-anchor="middle" class="umath-5-basis-change-b" style="fill:var(--fig-blue);">e₁</text>
+  <text x="70.0" y="232.4" text-anchor="end" class="umath-5-basis-change-b" style="fill:var(--fig-green);">e₂</text>
+  <text x="153.6" y="312.0" text-anchor="start" class="umath-5-basis-change-t">v = 3e₁ + 2e₂</text>
+  <line x1="80.0" y1="260.0" x2="210.0" y2="173.3" style="stroke:var(--fig-red);stroke-width:3;fill:none"/>
+  <path d="M218.0 168.0 L205.0 170.2 L211.0 179.1 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="226.0" y="160.0" text-anchor="start" class="umath-5-basis-change-b" style="fill:var(--fig-red);">v</text>
+  <text x="520.0" y="34.0" text-anchor="middle" class="umath-5-basis-change-b">(나) 45° 돌린 기저 u₁, u₂</text>
+  <line x1="394.8" y1="260.0" x2="646.8" y2="260.0" style="stroke:var(--fig-line);stroke-width:1.2;fill:none"/>
+  <path d="M652.4 260.0 L645.4 256.9 L645.4 263.1 Z" style="fill:var(--fig-line);stroke:none"/>
+  <line x1="450.0" y1="324.4" x2="450.0" y2="100.0" style="stroke:var(--fig-line);stroke-width:1.2;fill:none"/>
+  <path d="M450.0 94.4 L446.9 101.4 L453.1 101.4 Z" style="fill:var(--fig-line);stroke:none"/>
+  <text x="652.4" y="278.0" text-anchor="end" class="umath-5-basis-change-s">x</text>
+  <text x="442.0" y="98.4" text-anchor="end" class="umath-5-basis-change-s">y</text>
+  <line x1="407.7" y1="302.3" x2="593.1" y2="116.9" style="stroke:var(--fig-violet);stroke-width:1;fill:none;stroke-dasharray:2 3"/>
+  <line x1="495.5" y1="305.5" x2="388.2" y2="198.2" style="stroke:var(--fig-violet);stroke-width:1;fill:none;stroke-dasharray:2 3"/>
+  <line x1="588.0" y1="168.0" x2="565.0" y2="145.0" style="stroke:var(--fig-muted);stroke-width:1.3;fill:none;stroke-dasharray:5 4"/>
+  <line x1="588.0" y1="168.0" x2="473.0" y2="283.0" style="stroke:var(--fig-muted);stroke-width:1.3;fill:none;stroke-dasharray:5 4"/>
+  <circle cx="565.0" cy="145.0" r="3.0" style="stroke:none;stroke-width:1.5;fill:var(--fig-violet)"/>
+  <circle cx="473.0" cy="283.0" r="3.0" style="stroke:none;stroke-width:1.5;fill:var(--fig-teal)"/>
+  <text x="577.0" y="163.0" text-anchor="start" class="umath-5-basis-change-b" style="fill:var(--fig-violet);">5/√2 ≈ 3.54</text>
+  <text x="463.0" y="303.0" text-anchor="end" class="umath-5-basis-change-b" style="fill:var(--fig-teal);">−1/√2 ≈ −0.71</text>
+  <line x1="450.0" y1="260.0" x2="476.9" y2="233.1" style="stroke:var(--fig-violet);stroke-width:3;fill:none"/>
+  <path d="M482.5 227.5 L472.3 231.4 L478.6 237.7 Z" style="fill:var(--fig-violet);stroke:none"/>
+  <line x1="450.0" y1="260.0" x2="423.1" y2="233.1" style="stroke:var(--fig-teal);stroke-width:3;fill:none"/>
+  <path d="M417.5 227.5 L421.4 237.7 L427.7 231.4 Z" style="fill:var(--fig-teal);stroke:none"/>
+  <text x="478.5" y="215.5" text-anchor="end" class="umath-5-basis-change-b" style="fill:var(--fig-violet);">u₁</text>
+  <text x="411.5" y="221.5" text-anchor="end" class="umath-5-basis-change-b" style="fill:var(--fig-teal);">u₂</text>
+  <text x="523.6" y="312.0" text-anchor="start" class="umath-5-basis-change-t">v = 3.54u₁ − 0.71u₂</text>
+  <line x1="450.0" y1="260.0" x2="580.0" y2="173.3" style="stroke:var(--fig-red);stroke-width:3;fill:none"/>
+  <path d="M588.0 168.0 L575.0 170.2 L581.0 179.1 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="596.0" y="160.0" text-anchor="start" class="umath-5-basis-change-b" style="fill:var(--fig-red);">v</text>
+  <text x="360.0" y="345.0" text-anchor="middle" class="umath-5-basis-change-b" style="fill:var(--fig-accent);">벡터는 같고 성분만 다르다 — 기저를 바꾸면 성분이 바뀐다</text>
+</svg>

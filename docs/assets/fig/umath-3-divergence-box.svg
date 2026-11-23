@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="t-umath-3-divergence-box d-umath-3-divergence-box">
+  <title id="t-umath-3-divergence-box">그림 수학 도구 3-5 발산의 뜻: 작은 상자에서 알짜로 빠져나가는 양</title>
+  <desc id="d-umath-3-divergence-box">x 방향 흐름이 왼쪽 면으로 F_x(x)만큼 들어오고 오른쪽 면으로 F_x(x+Δx)만큼 나가면, x 방향의 알짜 유출은 (∂F_x/∂x)ΔxΔyΔz이다. 아래는 2차원 예: 원천 F = (x, y)는 ∇·F &gt; 0, 흡수원 F = −(x, y)는 ∇·F &lt; 0, 균일한 흐름은 ∇·F = 0이다.</desc>
+  <style>.umath-3-divergence-box-t{font-size:14px;fill:var(--fig-ink)} .umath-3-divergence-box-s{font-size:13px;fill:var(--fig-muted)} .umath-3-divergence-box-b{font-size:14px;font-weight:700;fill:var(--fig-ink)} .umath-3-divergence-box-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .umath-3-divergence-box-bl{font-size:14px;fill:var(--fig-blue)} .umath-3-divergence-box-rd{font-size:14px;fill:var(--fig-red)} .umath-3-divergence-box-gr{font-size:14px;fill:var(--fig-green)} .umath-3-divergence-box-am{font-size:14px;fill:var(--fig-amber)} .umath-3-divergence-box-vi{font-size:14px;fill:var(--fig-violet)} .umath-3-divergence-box-te{font-size:14px;fill:var(--fig-teal)} .umath-3-divergence-box-ax{font-size:13px;fill:var(--fig-ink)}</style>
+  <line x1="178.1" y1="213" x2="223.9" y2="213" style="stroke:var(--fig-blue);stroke-width:2.4"/>
+  <path d="M231.1 213 L222.1 217.5 L222.1 208.5 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="208.9" y1="143.8" x2="254.7" y2="143.8" style="stroke:var(--fig-blue);stroke-width:2.4"/>
+  <path d="M261.9 143.8 L252.9 148.3 L252.9 139.3 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="178.1" y1="159" x2="223.9" y2="159" style="stroke:var(--fig-blue);stroke-width:2.4"/>
+  <path d="M231.1 159 L222.1 163.5 L222.1 154.5 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="208.9" y1="197.8" x2="254.7" y2="197.8" style="stroke:var(--fig-blue);stroke-width:2.4"/>
+  <path d="M261.9 197.8 L252.9 202.3 L252.9 193.3 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <path d="M210 265 L400 265 L400 145 L210 145 Z" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:0;fill-opacity:0.7;stroke-linejoin:round;stroke-linecap:round"/>
+  <path d="M400 265 L477 211.8 L477 91.8 L400 145 Z" style="fill:var(--fig-soft-amber);stroke:none;stroke-width:0;fill-opacity:0.9;stroke-linejoin:round;stroke-linecap:round"/>
+  <path d="M210 265 L287 211.8 L287 91.8 L210 145 Z" style="fill:var(--fig-soft-amber);stroke:none;stroke-width:0;fill-opacity:0.6;stroke-linejoin:round;stroke-linecap:round"/>
+  <line x1="210" y1="265" x2="400" y2="265" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <line x1="210" y1="265" x2="287" y2="211.8" style="stroke:var(--fig-ink);stroke-width:1.2;stroke-dasharray:5 4"/>
+  <line x1="210" y1="265" x2="210" y2="145" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <line x1="210" y1="145" x2="400" y2="145" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <line x1="210" y1="145" x2="287" y2="91.8" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <line x1="287" y1="211.8" x2="477" y2="211.8" style="stroke:var(--fig-ink);stroke-width:1.2;stroke-dasharray:5 4"/>
+  <line x1="287" y1="211.8" x2="287" y2="91.8" style="stroke:var(--fig-ink);stroke-width:1.2;stroke-dasharray:5 4"/>
+  <line x1="287" y1="91.8" x2="477" y2="91.8" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <line x1="400" y1="265" x2="477" y2="211.8" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <line x1="400" y1="265" x2="400" y2="145" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <line x1="400" y1="145" x2="477" y2="91.8" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <line x1="477" y1="211.8" x2="477" y2="91.8" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <line x1="425.1" y1="213" x2="515.9" y2="213" style="stroke:var(--fig-red);stroke-width:2.4"/>
+  <path d="M523.1 213 L514.1 217.5 L514.1 208.5 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="455.9" y1="143.8" x2="546.7" y2="143.8" style="stroke:var(--fig-red);stroke-width:2.4"/>
+  <path d="M553.9 143.8 L544.9 148.3 L544.9 139.3 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="425.1" y1="159" x2="515.9" y2="159" style="stroke:var(--fig-red);stroke-width:2.4"/>
+  <path d="M523.1 159 L514.1 163.5 L514.1 154.5 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="455.9" y1="197.8" x2="546.7" y2="197.8" style="stroke:var(--fig-red);stroke-width:2.4"/>
+  <path d="M553.9 197.8 L544.9 202.3 L544.9 193.3 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="60" y="289" class="umath-3-divergence-box-bl"><tspan>들어옴 </tspan><tspan style="font-style:italic">F</tspan><tspan dy="4" style="font-size:78%">x</tspan><tspan dy="-4">(</tspan><tspan style="font-style:italic">x</tspan><tspan>) Δ</tspan><tspan style="font-style:italic">y</tspan><tspan>Δ</tspan><tspan style="font-style:italic">z</tspan></text>
+  <text x="430" y="289" class="umath-3-divergence-box-rd"><tspan>나감 </tspan><tspan style="font-style:italic">F</tspan><tspan dy="4" style="font-size:78%">x</tspan><tspan dy="-4">(</tspan><tspan style="font-style:italic">x</tspan><tspan> + Δ</tspan><tspan style="font-style:italic">x</tspan><tspan>) Δ</tspan><tspan style="font-style:italic">y</tspan><tspan>Δ</tspan><tspan style="font-style:italic">z</tspan></text>
+  <text x="305" y="285" text-anchor="middle" class="umath-3-divergence-box-t"><tspan>Δ</tspan><tspan style="font-style:italic">x</tspan></text>
+  <text x="452.5" y="254.4" class="umath-3-divergence-box-t"><tspan>Δ</tspan><tspan style="font-style:italic">y</tspan></text>
+  <text x="200" y="210" text-anchor="end" class="umath-3-divergence-box-t"><tspan>Δ</tspan><tspan style="font-style:italic">z</tspan></text>
+  <text x="360" y="30" text-anchor="middle" class="umath-3-divergence-box-b"><tspan>나가는 것 − 들어오는 것 = [</tspan><tspan style="font-style:italic">F</tspan><tspan dy="4" style="font-size:78%">x</tspan><tspan dy="-4">(</tspan><tspan style="font-style:italic">x</tspan><tspan>+Δ</tspan><tspan style="font-style:italic">x</tspan><tspan>) − </tspan><tspan style="font-style:italic">F</tspan><tspan dy="4" style="font-size:78%">x</tspan><tspan dy="-4">(</tspan><tspan style="font-style:italic">x</tspan><tspan>)]Δ</tspan><tspan style="font-style:italic">y</tspan><tspan>Δ</tspan><tspan style="font-style:italic">z</tspan><tspan> ≈ (∂</tspan><tspan style="font-style:italic">F</tspan><tspan dy="4" style="font-size:78%">x</tspan><tspan dy="-4">/∂</tspan><tspan style="font-style:italic">x</tspan><tspan>)Δ</tspan><tspan style="font-style:italic">x</tspan><tspan>Δ</tspan><tspan style="font-style:italic">y</tspan><tspan>Δ</tspan><tspan style="font-style:italic">z</tspan></text>
+  <text x="360" y="52" text-anchor="middle" class="umath-3-divergence-box-s">y, z 방향 면도 더한 뒤 부피 ΔxΔyΔz로 나누면 ∇·F</text>
+  <line x1="20" y1="318" x2="700" y2="318" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 4"/>
+  <rect x="42" y="346" width="156" height="144" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <line x1="69.2" y1="464" x2="54.2" y2="479" style="stroke:var(--fig-red);stroke-width:1.7"/>
+  <path d="M50.8 482.4 L52.9 476 L57.2 480.3 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="69.2" y1="441" x2="55.1" y2="448" style="stroke:var(--fig-red);stroke-width:1.7"/>
+  <path d="M50.8 450.2 L54.8 444.8 L57.5 450.2 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="69.2" y1="418" x2="55.6" y2="418" style="stroke:var(--fig-red);stroke-width:1.7"/>
+  <path d="M50.8 418 L56.8 415 L56.8 421 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="69.2" y1="395" x2="55.1" y2="388" style="stroke:var(--fig-red);stroke-width:1.7"/>
+  <path d="M50.8 385.8 L57.5 385.8 L54.8 391.2 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="69.2" y1="372" x2="54.2" y2="357" style="stroke:var(--fig-red);stroke-width:1.7"/>
+  <path d="M50.8 353.6 L57.2 355.7 L52.9 360 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="94.6" y1="464" x2="87.6" y2="478.1" style="stroke:var(--fig-red);stroke-width:1.7"/>
+  <path d="M85.4 482.4 L85.4 475.7 L90.8 478.4 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="94.6" y1="441" x2="88.8" y2="446.8" style="stroke:var(--fig-red);stroke-width:1.7"/>
+  <path d="M85.4 450.2 L87.5 443.8 L91.8 448.1 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="94.6" y1="418" x2="89.8" y2="418" style="stroke:var(--fig-red);stroke-width:1.7"/>
+  <path d="M85.4 418 L90.9 415.2 L90.9 420.8 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="94.6" y1="395" x2="88.8" y2="389.2" style="stroke:var(--fig-red);stroke-width:1.7"/>
+  <path d="M85.4 385.8 L91.8 387.9 L87.5 392.2 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="94.6" y1="372" x2="87.6" y2="357.9" style="stroke:var(--fig-red);stroke-width:1.7"/>
+  <path d="M85.4 353.6 L90.8 357.6 L85.4 360.3 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="120" y1="464" x2="120" y2="477.6" style="stroke:var(--fig-red);stroke-width:1.7"/>
+  <path d="M120 482.4 L117 476.4 L123 476.4 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="120" y1="441" x2="120" y2="445.8" style="stroke:var(--fig-red);stroke-width:1.7"/>
+  <path d="M120 450.2 L117.2 444.7 L122.8 444.7 Z" style="fill:var(--fig-red);stroke:none"/>
+  <circle cx="120" cy="418" r="2.5" style="fill:var(--fig-red);stroke:var(--fig-red);stroke-width:1"/>
+  <line x1="120" y1="395" x2="120" y2="390.2" style="stroke:var(--fig-red);stroke-width:1.7"/>
+  <path d="M120 385.8 L122.8 391.3 L117.2 391.3 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="120" y1="372" x2="120" y2="358.4" style="stroke:var(--fig-red);stroke-width:1.7"/>
+  <path d="M120 353.6 L123 359.6 L117 359.6 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="145.4" y1="464" x2="152.4" y2="478.1" style="stroke:var(--fig-red);stroke-width:1.7"/>
+  <path d="M154.6 482.4 L149.2 478.4 L154.6 475.7 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="145.4" y1="441" x2="151.2" y2="446.8" style="stroke:var(--fig-red);stroke-width:1.7"/>
+  <path d="M154.6 450.2 L148.2 448.1 L152.5 443.8 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="145.4" y1="418" x2="150.2" y2="418" style="stroke:var(--fig-red);stroke-width:1.7"/>
+  <path d="M154.6 418 L149.1 420.8 L149.1 415.2 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="145.4" y1="395" x2="151.2" y2="389.2" style="stroke:var(--fig-red);stroke-width:1.7"/>
+  <path d="M154.6 385.8 L152.5 392.2 L148.2 387.9 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="145.4" y1="372" x2="152.4" y2="357.9" style="stroke:var(--fig-red);stroke-width:1.7"/>
+  <path d="M154.6 353.6 L154.6 360.3 L149.2 357.6 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="170.8" y1="464" x2="185.8" y2="479" style="stroke:var(--fig-red);stroke-width:1.7"/>
+  <path d="M189.2 482.4 L182.8 480.3 L187.1 476 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="170.8" y1="441" x2="184.9" y2="448" style="stroke:var(--fig-red);stroke-width:1.7"/>
+  <path d="M189.2 450.2 L182.5 450.2 L185.2 444.8 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="170.8" y1="418" x2="184.4" y2="418" style="stroke:var(--fig-red);stroke-width:1.7"/>
+  <path d="M189.2 418 L183.2 421 L183.2 415 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="170.8" y1="395" x2="184.9" y2="388" style="stroke:var(--fig-red);stroke-width:1.7"/>
+  <path d="M189.2 385.8 L185.2 391.2 L182.5 385.8 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="170.8" y1="372" x2="185.8" y2="357" style="stroke:var(--fig-red);stroke-width:1.7"/>
+  <path d="M189.2 353.6 L187.1 360 L182.8 355.7 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="120" y="336" text-anchor="middle" class="umath-3-divergence-box-b">(가) 원천  F = (x, y)</text>
+  <text x="120" y="508" text-anchor="middle" class="umath-3-divergence-box-t">∇·F = 2 &gt; 0</text>
+  <rect x="282" y="346" width="156" height="144" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <line x1="290.8" y1="482.4" x2="305.8" y2="467.4" style="stroke:var(--fig-blue);stroke-width:1.7"/>
+  <path d="M309.2 464 L307.1 470.4 L302.8 466.1 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="290.8" y1="450.2" x2="304.9" y2="443.2" style="stroke:var(--fig-blue);stroke-width:1.7"/>
+  <path d="M309.2 441 L305.2 446.4 L302.5 441 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="290.8" y1="418" x2="304.4" y2="418" style="stroke:var(--fig-blue);stroke-width:1.7"/>
+  <path d="M309.2 418 L303.2 421 L303.2 415 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="290.8" y1="385.8" x2="304.9" y2="392.8" style="stroke:var(--fig-blue);stroke-width:1.7"/>
+  <path d="M309.2 395 L302.5 395 L305.2 389.6 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="290.8" y1="353.6" x2="305.8" y2="368.6" style="stroke:var(--fig-blue);stroke-width:1.7"/>
+  <path d="M309.2 372 L302.8 369.9 L307.1 365.6 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="325.4" y1="482.4" x2="332.4" y2="468.3" style="stroke:var(--fig-blue);stroke-width:1.7"/>
+  <path d="M334.6 464 L334.6 470.7 L329.2 468 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="325.4" y1="450.2" x2="331.2" y2="444.4" style="stroke:var(--fig-blue);stroke-width:1.7"/>
+  <path d="M334.6 441 L332.5 447.4 L328.2 443.1 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="325.4" y1="418" x2="330.2" y2="418" style="stroke:var(--fig-blue);stroke-width:1.7"/>
+  <path d="M334.6 418 L329.1 420.8 L329.1 415.2 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="325.4" y1="385.8" x2="331.2" y2="391.6" style="stroke:var(--fig-blue);stroke-width:1.7"/>
+  <path d="M334.6 395 L328.2 392.9 L332.5 388.6 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="325.4" y1="353.6" x2="332.4" y2="367.7" style="stroke:var(--fig-blue);stroke-width:1.7"/>
+  <path d="M334.6 372 L329.2 368 L334.6 365.3 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="360" y1="482.4" x2="360" y2="468.8" style="stroke:var(--fig-blue);stroke-width:1.7"/>
+  <path d="M360 464 L363 470 L357 470 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="360" y1="450.2" x2="360" y2="445.4" style="stroke:var(--fig-blue);stroke-width:1.7"/>
+  <path d="M360 441 L362.8 446.5 L357.2 446.5 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <circle cx="360" cy="418" r="2.5" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <line x1="360" y1="385.8" x2="360" y2="390.6" style="stroke:var(--fig-blue);stroke-width:1.7"/>
+  <path d="M360 395 L357.2 389.5 L362.8 389.5 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="360" y1="353.6" x2="360" y2="367.2" style="stroke:var(--fig-blue);stroke-width:1.7"/>
+  <path d="M360 372 L357 366 L363 366 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="394.6" y1="482.4" x2="387.6" y2="468.3" style="stroke:var(--fig-blue);stroke-width:1.7"/>
+  <path d="M385.4 464 L390.8 468 L385.4 470.7 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="394.6" y1="450.2" x2="388.8" y2="444.4" style="stroke:var(--fig-blue);stroke-width:1.7"/>
+  <path d="M385.4 441 L391.8 443.1 L387.5 447.4 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="394.6" y1="418" x2="389.8" y2="418" style="stroke:var(--fig-blue);stroke-width:1.7"/>
+  <path d="M385.4 418 L390.9 415.2 L390.9 420.8 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="394.6" y1="385.8" x2="388.8" y2="391.6" style="stroke:var(--fig-blue);stroke-width:1.7"/>
+  <path d="M385.4 395 L387.5 388.6 L391.8 392.9 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="394.6" y1="353.6" x2="387.6" y2="367.7" style="stroke:var(--fig-blue);stroke-width:1.7"/>
+  <path d="M385.4 372 L385.4 365.3 L390.8 368 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="429.2" y1="482.4" x2="414.2" y2="467.4" style="stroke:var(--fig-blue);stroke-width:1.7"/>
+  <path d="M410.8 464 L417.2 466.1 L412.9 470.4 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="429.2" y1="450.2" x2="415.1" y2="443.2" style="stroke:var(--fig-blue);stroke-width:1.7"/>
+  <path d="M410.8 441 L417.5 441 L414.8 446.4 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="429.2" y1="418" x2="415.6" y2="418" style="stroke:var(--fig-blue);stroke-width:1.7"/>
+  <path d="M410.8 418 L416.8 415 L416.8 421 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="429.2" y1="385.8" x2="415.1" y2="392.8" style="stroke:var(--fig-blue);stroke-width:1.7"/>
+  <path d="M410.8 395 L414.8 389.6 L417.5 395 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="429.2" y1="353.6" x2="414.2" y2="368.6" style="stroke:var(--fig-blue);stroke-width:1.7"/>
+  <path d="M410.8 372 L412.9 365.6 L417.2 369.9 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <text x="360" y="336" text-anchor="middle" class="umath-3-divergence-box-b">(나) 흡수원  F = −(x, y)</text>
+  <text x="360" y="508" text-anchor="middle" class="umath-3-divergence-box-t">∇·F = −2 &lt; 0</text>
+  <rect x="522" y="346" width="156" height="144" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <line x1="527" y1="473.2" x2="548.2" y2="473.2" style="stroke:var(--fig-green);stroke-width:1.7"/>
+  <path d="M553 473.2 L547 476.2 L547 470.2 Z" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="527" y1="445.6" x2="548.2" y2="445.6" style="stroke:var(--fig-green);stroke-width:1.7"/>
+  <path d="M553 445.6 L547 448.6 L547 442.6 Z" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="527" y1="418" x2="548.2" y2="418" style="stroke:var(--fig-green);stroke-width:1.7"/>
+  <path d="M553 418 L547 421 L547 415 Z" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="527" y1="390.4" x2="548.2" y2="390.4" style="stroke:var(--fig-green);stroke-width:1.7"/>
+  <path d="M553 390.4 L547 393.4 L547 387.4 Z" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="527" y1="362.8" x2="548.2" y2="362.8" style="stroke:var(--fig-green);stroke-width:1.7"/>
+  <path d="M553 362.8 L547 365.8 L547 359.8 Z" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="557" y1="473.2" x2="578.2" y2="473.2" style="stroke:var(--fig-green);stroke-width:1.7"/>
+  <path d="M583 473.2 L577 476.2 L577 470.2 Z" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="557" y1="445.6" x2="578.2" y2="445.6" style="stroke:var(--fig-green);stroke-width:1.7"/>
+  <path d="M583 445.6 L577 448.6 L577 442.6 Z" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="557" y1="418" x2="578.2" y2="418" style="stroke:var(--fig-green);stroke-width:1.7"/>
+  <path d="M583 418 L577 421 L577 415 Z" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="557" y1="390.4" x2="578.2" y2="390.4" style="stroke:var(--fig-green);stroke-width:1.7"/>
+  <path d="M583 390.4 L577 393.4 L577 387.4 Z" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="557" y1="362.8" x2="578.2" y2="362.8" style="stroke:var(--fig-green);stroke-width:1.7"/>
+  <path d="M583 362.8 L577 365.8 L577 359.8 Z" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="587" y1="473.2" x2="608.2" y2="473.2" style="stroke:var(--fig-green);stroke-width:1.7"/>
+  <path d="M613 473.2 L607 476.2 L607 470.2 Z" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="587" y1="445.6" x2="608.2" y2="445.6" style="stroke:var(--fig-green);stroke-width:1.7"/>
+  <path d="M613 445.6 L607 448.6 L607 442.6 Z" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="587" y1="418" x2="608.2" y2="418" style="stroke:var(--fig-green);stroke-width:1.7"/>
+  <path d="M613 418 L607 421 L607 415 Z" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="587" y1="390.4" x2="608.2" y2="390.4" style="stroke:var(--fig-green);stroke-width:1.7"/>
+  <path d="M613 390.4 L607 393.4 L607 387.4 Z" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="587" y1="362.8" x2="608.2" y2="362.8" style="stroke:var(--fig-green);stroke-width:1.7"/>
+  <path d="M613 362.8 L607 365.8 L607 359.8 Z" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="617" y1="473.2" x2="638.2" y2="473.2" style="stroke:var(--fig-green);stroke-width:1.7"/>
+  <path d="M643 473.2 L637 476.2 L637 470.2 Z" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="617" y1="445.6" x2="638.2" y2="445.6" style="stroke:var(--fig-green);stroke-width:1.7"/>
+  <path d="M643 445.6 L637 448.6 L637 442.6 Z" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="617" y1="418" x2="638.2" y2="418" style="stroke:var(--fig-green);stroke-width:1.7"/>
+  <path d="M643 418 L637 421 L637 415 Z" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="617" y1="390.4" x2="638.2" y2="390.4" style="stroke:var(--fig-green);stroke-width:1.7"/>
+  <path d="M643 390.4 L637 393.4 L637 387.4 Z" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="617" y1="362.8" x2="638.2" y2="362.8" style="stroke:var(--fig-green);stroke-width:1.7"/>
+  <path d="M643 362.8 L637 365.8 L637 359.8 Z" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="647" y1="473.2" x2="668.2" y2="473.2" style="stroke:var(--fig-green);stroke-width:1.7"/>
+  <path d="M673 473.2 L667 476.2 L667 470.2 Z" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="647" y1="445.6" x2="668.2" y2="445.6" style="stroke:var(--fig-green);stroke-width:1.7"/>
+  <path d="M673 445.6 L667 448.6 L667 442.6 Z" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="647" y1="418" x2="668.2" y2="418" style="stroke:var(--fig-green);stroke-width:1.7"/>
+  <path d="M673 418 L667 421 L667 415 Z" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="647" y1="390.4" x2="668.2" y2="390.4" style="stroke:var(--fig-green);stroke-width:1.7"/>
+  <path d="M673 390.4 L667 393.4 L667 387.4 Z" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="647" y1="362.8" x2="668.2" y2="362.8" style="stroke:var(--fig-green);stroke-width:1.7"/>
+  <path d="M673 362.8 L667 365.8 L667 359.8 Z" style="fill:var(--fig-green);stroke:none"/>
+  <text x="600" y="336" text-anchor="middle" class="umath-3-divergence-box-b">(다) 균일한 흐름  F = (1, 0)</text>
+  <text x="600" y="508" text-anchor="middle" class="umath-3-divergence-box-t">∇·F = 0</text>
+</svg>

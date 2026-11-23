@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 380" class="fig-small" role="img" aria-labelledby="t-umath-1-q-refraction d-umath-1-q-refraction">
+  <title id="t-umath-1-q-refraction">그림 수학 도구 1-17 문제 19의 빛의 경로</title>
+  <desc id="d-umath-1-q-refraction">공기 중의 점 A(경계면 위 h₁ = 1.00 m)에서 경계면의 점 O를 거쳐 물속의 점 B(경계면 아래 h₂ = 1.00 m)로 가는 빛. A와 B의 수평 거리는 1.50 m = x₁ + x₂이다. O의 위치는 임의로 그린 모식도이다.</desc>
+  <style>
+    .umath-1-rf-ax{fill:none;stroke:var(--fig-ink);stroke-width:1.3}
+    .umath-1-rf-tk{fill:none;stroke:var(--fig-ink);stroke-width:1}
+    .umath-1-rf-gr{fill:none;stroke:var(--fig-line);stroke-width:0.7;stroke-dasharray:2 4}
+    .umath-1-rf-t{font-size:13px;fill:var(--fig-ink)}
+    .umath-1-rf-tb{font-size:14px;fill:var(--fig-ink);font-weight:600}
+    .umath-1-rf-m{font-size:13px;fill:var(--fig-muted)}
+    .umath-1-rf-halo{paint-order:stroke;stroke:var(--fig-paper);stroke-width:4px;stroke-linejoin:round}
+    .umath-1-rf-blue{fill:var(--fig-blue)} .umath-1-rf-red{fill:var(--fig-red)} .umath-1-rf-green{fill:var(--fig-green)}
+    .umath-1-rf-amber{fill:var(--fig-amber)} .umath-1-rf-violet{fill:var(--fig-violet)} .umath-1-rf-teal{fill:var(--fig-teal)}
+    .umath-1-rf-ink{fill:var(--fig-ink)} .umath-1-rf-mut{fill:var(--fig-muted)}
+  </style>
+  <rect x="20" y="190" width="440" height="180" style="fill:var(--fig-soft-blue);stroke:none"/>
+  <line x1="20.0" y1="190.0" x2="460.0" y2="190.0" style="fill:none;stroke:var(--fig-blue);stroke-width:2;stroke-linecap:round;stroke-linejoin:round"/>
+  <text x="440.0" y="180.0" text-anchor="end" class="umath-1-rf-m">공기 (n₁ = 1.00)</text>
+  <text x="440.0" y="212.0" text-anchor="end" class="umath-1-rf-m">물 (n₂ = 1.33)</text>
+  <line x1="193.0" y1="40.0" x2="193.0" y2="340.0" style="fill:none;stroke:var(--fig-ink);stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:5 4"/>
+  <text x="197.0" y="36.0" class="umath-1-rf-m">법선</text>
+  <line x1="70.0" y1="40.0" x2="193.0" y2="190.0" style="fill:none;stroke:var(--fig-amber);stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round"/>
+  <line x1="193.0" y1="190.0" x2="295.0" y2="340.0" style="fill:none;stroke:var(--fig-amber);stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round"/>
+  <line x1="70.0" y1="40.0" x2="131.6" y2="115.1" style="stroke:var(--fig-amber);stroke-width:0.1;fill:none"/>
+  <path d="M137.7 122.5 L127.1 116.7 L134.0 111.1 Z" style="fill:var(--fig-amber);stroke:none"/>
+  <line x1="193.0" y1="190.0" x2="243.7" y2="264.6" style="stroke:var(--fig-amber);stroke-width:0.1;fill:none"/>
+  <path d="M249.1 272.5 L239.2 265.8 L246.5 260.8 Z" style="fill:var(--fig-amber);stroke:none"/>
+  <path d="M193.0 146.0 A44 44 0 0 0 165.1 156.0" style="fill:none;stroke:var(--fig-red);stroke-width:1.6"/>
+  <path d="M217.7 226.4 A44 44 0 0 1 193.0 234.0" style="fill:none;stroke:var(--fig-red);stroke-width:1.6"/>
+  <text x="171.0" y="136.0" text-anchor="middle" class="umath-1-rf-tb" style="fill:var(--fig-red)">θ₁</text>
+  <text x="213.0" y="254.0" text-anchor="middle" class="umath-1-rf-tb" style="fill:var(--fig-red)">θ₂</text>
+  <circle cx="70.0" cy="40.0" r="5" style="fill:var(--fig-ink);stroke:var(--fig-paper);stroke-width:1.5"/>
+  <text x="60.0" y="40.0" text-anchor="middle" class="umath-1-rf-tb">A</text>
+  <circle cx="295.0" cy="340.0" r="5" style="fill:var(--fig-ink);stroke:var(--fig-paper);stroke-width:1.5"/>
+  <text x="307.0" y="344.0" text-anchor="middle" class="umath-1-rf-tb">B</text>
+  <circle cx="193.0" cy="190.0" r="5" style="fill:var(--fig-ink);stroke:var(--fig-paper);stroke-width:1.5"/>
+  <text x="179.0" y="184.0" text-anchor="middle" class="umath-1-rf-tb">O</text>
+  <line x1="42.0" y1="46.4" x2="42.0" y2="183.6" style="stroke:var(--fig-muted);stroke-width:1.3;fill:none"/>
+  <path d="M42.0 190.0 L39.0 182.6 L45.0 182.6 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <path d="M42.0 40.0 L45.0 47.4 L39.0 47.4 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <text x="36.0" y="120.0" text-anchor="end" class="umath-1-rf-t">h₁</text>
+  <line x1="36.0" y1="40.0" x2="64.0" y2="40.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round;stroke-linejoin:round"/>
+  <line x1="323.0" y1="196.4" x2="323.0" y2="333.6" style="stroke:var(--fig-muted);stroke-width:1.3;fill:none"/>
+  <path d="M323.0 340.0 L320.0 332.6 L326.0 332.6 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <path d="M323.0 190.0 L326.0 197.4 L320.0 197.4 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <text x="329.0" y="270.0" class="umath-1-rf-t">h₂</text>
+  <line x1="301.0" y1="340.0" x2="329.0" y2="340.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round;stroke-linejoin:round"/>
+  <line x1="76.4" y1="176.0" x2="186.6" y2="176.0" style="stroke:var(--fig-muted);stroke-width:1.3;fill:none"/>
+  <path d="M193.0 176.0 L185.6 179.0 L185.6 173.0 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <path d="M70.0 176.0 L77.4 173.0 L77.4 179.0 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <text x="131.5" y="170.0" text-anchor="middle" class="umath-1-rf-t">x₁</text>
+  <line x1="199.4" y1="204.0" x2="288.6" y2="204.0" style="stroke:var(--fig-muted);stroke-width:1.3;fill:none"/>
+  <path d="M295.0 204.0 L287.6 207.0 L287.6 201.0 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <path d="M193.0 204.0 L200.4 201.0 L200.4 207.0 Z" style="fill:var(--fig-muted);stroke:none"/>
+  <text x="252.0" y="222.0" text-anchor="middle" class="umath-1-rf-t">x₂</text>
+  <line x1="70.0" y1="40.0" x2="70.0" y2="190.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2 3"/>
+  <line x1="295.0" y1="190.0" x2="295.0" y2="340.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2 3"/>
+  <text x="240.0" y="370.0" text-anchor="middle" class="umath-1-rf-m">x₁ + x₂ = d = 1.50 m  (모식도)</text>
+</svg>

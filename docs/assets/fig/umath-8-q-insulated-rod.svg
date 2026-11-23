@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" role="img" aria-labelledby="t-umath-8-q-insulated-rod d-umath-8-q-insulated-rod">
+  <title id="t-umath-8-q-insulated-rod">그림 수학 도구 8-11 문제 6의 단열된 막대와 처음 온도 분포</title>
+  <desc id="d-umath-8-q-insulated-rod">위: 옆면과 양 끝이 단열재(빗금)로 감싸인 길이 L = 0.30 m인 알루미늄 막대. 양 끝에서 열 흐름은 0이다. 아래: 처음 온도 분포 T(x, 0) = 50 + 30 cos(πx/L)로, x = 0에서 80 ℃, x = L에서 20 ℃이다.</desc>
+  <style>
+    .u8ir-ax{stroke:var(--fig-ink);stroke-width:1.4;fill:none}
+    .u8ir-grid{stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 4;fill:none}
+    .u8ir-t{font-size:14px;fill:var(--fig-ink)}
+    .u8ir-s{font-size:13px;fill:var(--fig-muted)}
+    .u8ir-b{font-size:14px;fill:var(--fig-ink);font-weight:600}
+    .u8ir-tk{stroke:var(--fig-ink);stroke-width:1.2}
+    .u8ir-rod{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6}
+    .u8ir-ins{fill:url(#u8ir-hat);stroke:var(--fig-muted);stroke-width:1.2}
+    .u8ir-hl{stroke:var(--fig-muted);stroke-width:1.2}
+    .u8ir-c{stroke:var(--fig-red);stroke-width:2.6;fill:none}
+    .u8ir-dot{fill:var(--fig-red)}
+    .u8ir-r{font-size:13px;fill:var(--fig-red);font-weight:600}
+
+  </style>
+  <defs><pattern id="u8ir-hat" width="7" height="7" patternUnits="userSpaceOnUse"><path d="M0 7 L7 0" class="u8ir-hl"/></pattern></defs>
+  <rect x="98" y="28" width="524" height="64" rx="4" class="u8ir-ins"/>
+  <rect x="120" y="46" width="480" height="28" class="u8ir-rod"/>
+  <text x="360" y="65" text-anchor="middle" class="u8ir-t">알루미늄 막대</text>
+  <text x="360" y="20" text-anchor="middle" class="u8ir-s">단열재(빗금)로 옆면과 양 끝을 감쌈</text>
+  <text x="110" y="112" text-anchor="middle" class="u8ir-s">열 흐름 0 (∂T/∂x = 0)</text>
+  <text x="610" y="112" text-anchor="middle" class="u8ir-s">열 흐름 0 (∂T/∂x = 0)</text>
+  <text x="120" y="132" text-anchor="middle" class="u8ir-t">x = 0</text>
+  <text x="600" y="132" text-anchor="middle" class="u8ir-t">x = L = 0.30 m</text>
+  <line x1="120" y1="370" x2="600" y2="370" class="u8ir-grid"/>
+  <line x1="120" y1="323.3" x2="600" y2="323.3" class="u8ir-grid"/>
+  <line x1="120" y1="276.7" x2="600" y2="276.7" class="u8ir-grid"/>
+  <line x1="120" y1="230" x2="600" y2="230" class="u8ir-grid"/>
+  <line x1="120" y1="183.3" x2="600" y2="183.3" class="u8ir-grid"/>
+  <path d="M120 160 L120 370 L600 370" class="u8ir-ax"/>
+  <line x1="120" y1="370" x2="120" y2="375" class="u8ir-tk"/>
+  <text x="120" y="389" text-anchor="middle" class="u8ir-s">0</text>
+  <line x1="200" y1="370" x2="200" y2="375" class="u8ir-tk"/>
+  <text x="200" y="389" text-anchor="middle" class="u8ir-s">0.05</text>
+  <line x1="280" y1="370" x2="280" y2="375" class="u8ir-tk"/>
+  <text x="280" y="389" text-anchor="middle" class="u8ir-s">0.10</text>
+  <line x1="360" y1="370" x2="360" y2="375" class="u8ir-tk"/>
+  <text x="360" y="389" text-anchor="middle" class="u8ir-s">0.15</text>
+  <line x1="440" y1="370" x2="440" y2="375" class="u8ir-tk"/>
+  <text x="440" y="389" text-anchor="middle" class="u8ir-s">0.20</text>
+  <line x1="520" y1="370" x2="520" y2="375" class="u8ir-tk"/>
+  <text x="520" y="389" text-anchor="middle" class="u8ir-s">0.25</text>
+  <line x1="600" y1="370" x2="600" y2="375" class="u8ir-tk"/>
+  <text x="600" y="389" text-anchor="middle" class="u8ir-s">0.30</text>
+  <line x1="115" y1="370" x2="120" y2="370" class="u8ir-tk"/>
+  <text x="112" y="374.5" text-anchor="end" class="u8ir-s">0</text>
+  <line x1="115" y1="323.3" x2="120" y2="323.3" class="u8ir-tk"/>
+  <text x="112" y="327.8" text-anchor="end" class="u8ir-s">20</text>
+  <line x1="115" y1="276.7" x2="120" y2="276.7" class="u8ir-tk"/>
+  <text x="112" y="281.2" text-anchor="end" class="u8ir-s">40</text>
+  <line x1="115" y1="230" x2="120" y2="230" class="u8ir-tk"/>
+  <text x="112" y="234.5" text-anchor="end" class="u8ir-s">60</text>
+  <line x1="115" y1="183.3" x2="120" y2="183.3" class="u8ir-tk"/>
+  <text x="112" y="187.8" text-anchor="end" class="u8ir-s">80</text>
+  <text x="360" y="406" text-anchor="middle" class="u8ir-t">위치 x (m)</text>
+  <text x="76" y="265" text-anchor="middle" transform="rotate(-90 76 265)" class="u8ir-t">T(x, 0) (℃)</text>
+  <path d="M120 183.3 L134.5 183.6 L148.9 184.6 L163.4 186.1 L180.3 188.7 L194.8 191.6 L211.7 195.6 L226.1 199.6 L243 204.8 L269.5 214.3 L300.9 226.9 L329.8 239.6 L397.4 270.3 L431.2 284.8 L448 291.5 L464.9 297.7 L479.4 302.6 L493.9 307.1 L508.3 311.1 L520.4 314 L534.9 317.1 L546.9 319.2 L561.4 321.1 L573.5 322.3 L587.9 323.1 L600 323.3" class="u8ir-c"/>
+  <circle cx="120" cy="183.3" r="4" class="u8ir-dot"/>
+  <circle cx="600" cy="323.3" r="4" class="u8ir-dot"/>
+  <text x="128" y="175.3" class="u8ir-r">80 ℃</text>
+  <text x="592" y="341.3" text-anchor="end" class="u8ir-r">20 ℃</text>
+  <text x="368" y="216" class="u8ir-r">T(x, 0) = 50 + 30 cos(πx/L)</text>
+</svg>

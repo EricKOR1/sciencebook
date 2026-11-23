@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t-umath-8-string-vs-well d-umath-8-string-vs-well">
+  <title id="t-umath-8-string-vs-well">그림 수학 도구 8-3 양 끝 고정 줄의 정상파와 무한 우물 속 입자: 같은 고유값 문제</title>
+  <desc id="d-umath-8-string-vs-well">왼쪽은 양 끝이 고정된 줄의 n = 1, 2, 3 정상파(반파장 1, 2, 3개, 검은 점은 마디)로 진동수는 f₁, 2f₁, 3f₁이다. 오른쪽은 폭 L인 무한 우물의 ψ₁, ψ₂, ψ₃을 에너지 준위 E₁, 4E₁, 9E₁ 높이에 그린 것으로 준위 간격이 위로 갈수록 벌어진다. 두 경우 모두 k_n = nπ/L이다.</desc>
+  <style>
+    .u8sw-ax{stroke:var(--fig-ink);stroke-width:1.4;fill:none}
+    .u8sw-grid{stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 4;fill:none}
+    .u8sw-t{font-size:14px;fill:var(--fig-ink)}
+    .u8sw-s{font-size:13px;fill:var(--fig-muted)}
+    .u8sw-b{font-size:14px;fill:var(--fig-ink);font-weight:600}
+    .u8sw-tk{stroke:var(--fig-ink);stroke-width:1.2}
+    .u8sw-c0{stroke:var(--fig-blue);stroke-width:2.4;fill:none}
+    .u8sw-l0{font-size:14px;fill:var(--fig-blue);font-weight:600}
+    .u8sw-c1{stroke:var(--fig-green);stroke-width:2.4;fill:none}
+    .u8sw-l1{font-size:14px;fill:var(--fig-green);font-weight:600}
+    .u8sw-c2{stroke:var(--fig-red);stroke-width:2.4;fill:none}
+    .u8sw-l2{font-size:14px;fill:var(--fig-red);font-weight:600}
+    .u8sw-cg{stroke:var(--fig-line);stroke-width:1.2;stroke-dasharray:4 3;fill:none}
+    .u8sw-nd{fill:var(--fig-ink)}
+    .u8sw-pin{fill:var(--fig-muted)}
+    .u8sw-wall{fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5}
+    .u8sw-lev{stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:5 3;fill:none}
+    .u8sw-band{fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5}
+    .u8sw-bt{font-size:14px;fill:var(--fig-ink);font-weight:600}
+
+  </style>
+  <text x="160" y="24" text-anchor="middle" class="u8sw-bt">양 끝 고정 줄 (고전 파동)</text>
+  <text x="565" y="24" text-anchor="middle" class="u8sw-bt">무한 우물 속 입자 (양자)</text>
+  <path d="M40 90 L47.7 78.3 L53.2 70.7 L58.7 64.1 L63.1 59.9 L68.6 56.1 L73 54.4 L77.4 54 L81.8 54.9 L85.1 56.3 L89.5 59.3 L93.9 63.4 L98.3 68.4 L106 78.9 L123.6 105.3 L128 111.2 L132.4 116.2 L136.8 120.4 L141.2 123.5 L145.6 125.4 L150 126 L154.4 125.4 L158.8 123.5 L163.2 120.4 L167.6 116.2 L172 111.2 L176.4 105.3 L194 78.9 L201.7 68.4 L206.1 63.4 L210.5 59.3 L214.9 56.3 L218.2 54.9 L222.6 54 L227 54.4 L231.4 56.1 L236.9 59.9 L241.3 64.1 L246.8 70.7 L252.3 78.3 L260 90" class="u8sw-c2"/>
+  <path d="M40 90 L47.7 101.7 L53.2 109.3 L58.7 115.9 L63.1 120.1 L68.6 123.9 L73 125.6 L77.4 126 L81.8 125.1 L85.1 123.7 L89.5 120.7 L93.9 116.6 L98.3 111.6 L106 101.1 L123.6 74.7 L128 68.8 L132.4 63.8 L136.8 59.6 L141.2 56.5 L145.6 54.6 L150 54 L154.4 54.6 L158.8 56.5 L163.2 59.6 L167.6 63.8 L172 68.8 L176.4 74.7 L194 101.1 L201.7 111.6 L206.1 116.6 L210.5 120.7 L214.9 123.7 L218.2 125.1 L222.6 126 L227 125.6 L231.4 123.9 L236.9 120.1 L241.3 115.9 L246.8 109.3 L252.3 101.7 L260 90" class="u8sw-cg"/>
+  <circle cx="40" cy="90" r="4" class="u8sw-nd"/>
+  <circle cx="113.3" cy="90" r="4" class="u8sw-nd"/>
+  <circle cx="186.7" cy="90" r="4" class="u8sw-nd"/>
+  <circle cx="260" cy="90" r="4" class="u8sw-nd"/>
+  <rect x="32" y="79" width="6" height="22" class="u8sw-pin"/>
+  <rect x="262" y="79" width="6" height="22" class="u8sw-pin"/>
+  <text x="278" y="84" class="u8sw-l2">n = 3</text>
+  <text x="278" y="104" class="u8sw-t">f = 3f₁</text>
+  <path d="M40 205 L49.9 195 L57.6 187.7 L64.2 182.1 L70.8 177.3 L77.4 173.5 L82.9 171.1 L89.5 169.4 L95 169 L101.6 169.6 L108.2 171.5 L114.8 174.6 L121.4 178.8 L128 183.8 L134.6 189.7 L162.1 217.2 L173.1 227.1 L179.7 232 L185.2 235.4 L191.8 238.5 L197.3 240.1 L203.9 241 L210.5 240.6 L217.1 238.9 L224.8 235.4 L232.5 230.5 L240.2 224.3 L249 216.1 L260 205" class="u8sw-c1"/>
+  <path d="M40 205 L49.9 215 L57.6 222.3 L64.2 227.9 L70.8 232.7 L77.4 236.5 L82.9 238.9 L89.5 240.6 L95 241 L101.6 240.4 L108.2 238.5 L114.8 235.4 L121.4 231.2 L128 226.2 L134.6 220.3 L162.1 192.8 L173.1 182.9 L179.7 178 L185.2 174.6 L191.8 171.5 L197.3 169.9 L203.9 169 L210.5 169.4 L217.1 171.1 L224.8 174.6 L232.5 179.5 L240.2 185.7 L249 193.9 L260 205" class="u8sw-cg"/>
+  <circle cx="40" cy="205" r="4" class="u8sw-nd"/>
+  <circle cx="150" cy="205" r="4" class="u8sw-nd"/>
+  <circle cx="260" cy="205" r="4" class="u8sw-nd"/>
+  <rect x="32" y="194" width="6" height="22" class="u8sw-pin"/>
+  <rect x="262" y="194" width="6" height="22" class="u8sw-pin"/>
+  <text x="278" y="199" class="u8sw-l1">n = 2</text>
+  <text x="278" y="219" class="u8sw-t">f = 2f₁</text>
+  <path d="M40 320 L59.8 310 L75.2 302.7 L88.4 297.1 L101.6 292.3 L113.7 288.7 L125.8 286.1 L137.9 284.5 L150 284 L162.1 284.5 L174.2 286.1 L186.3 288.7 L198.4 292.3 L211.6 297.1 L224.8 302.7 L240.2 310 L260 320" class="u8sw-c0"/>
+  <path d="M40 320 L59.8 330 L75.2 337.3 L88.4 342.9 L101.6 347.7 L113.7 351.3 L125.8 353.9 L137.9 355.5 L150 356 L162.1 355.5 L174.2 353.9 L186.3 351.3 L198.4 347.7 L211.6 342.9 L224.8 337.3 L240.2 330 L260 320" class="u8sw-cg"/>
+  <circle cx="40" cy="320" r="4" class="u8sw-nd"/>
+  <circle cx="260" cy="320" r="4" class="u8sw-nd"/>
+  <rect x="32" y="309" width="6" height="22" class="u8sw-pin"/>
+  <rect x="262" y="309" width="6" height="22" class="u8sw-pin"/>
+  <text x="278" y="314" class="u8sw-l0">n = 1</text>
+  <text x="278" y="334" class="u8sw-t">f = f₁</text>
+  <text x="160" y="400" text-anchor="middle" class="u8sw-s">진동수 ∝ n (같은 간격)</text>
+  <rect x="336" y="60" width="44" height="310" rx="8" class="u8sw-band"/>
+  <text x="358" y="215" text-anchor="middle" transform="rotate(-90 358 215)" class="u8sw-bt">같은 고유값 문제  k_n = nπ/L</text>
+  <rect x="456" y="56" width="14" height="320" class="u8sw-wall"/>
+  <rect x="660" y="56" width="14" height="320" class="u8sw-wall"/>
+  <line x1="470" y1="376" x2="660" y2="376" class="u8sw-ax"/>
+  <text x="470" y="394" text-anchor="middle" class="u8sw-s">0</text>
+  <text x="660" y="394" text-anchor="middle" class="u8sw-s">L</text>
+  <text x="440" y="225.1" text-anchor="middle" class="u8sw-s">V = ∞</text>
+  <text x="694" y="77.1" text-anchor="middle" class="u8sw-s">V = ∞</text>
+  <line x1="470" y1="345.8" x2="660" y2="345.8" class="u8sw-lev"/>
+  <path d="M470 345.8 L487.1 335.3 L500.4 327.6 L511.8 321.8 L523.2 316.7 L533.6 313 L544.1 310.3 L554.5 308.6 L565 308.1 L575.5 308.6 L585.9 310.3 L596.4 313 L606.8 316.7 L618.2 321.8 L629.6 327.6 L642.9 335.3 L660 345.8" class="u8sw-c0"/>
+  <text x="436" y="350.8" class="u8sw-l0">ψ₁</text>
+  <text x="680" y="350.8" class="u8sw-t">E₁</text>
+  <line x1="470" y1="255.2" x2="660" y2="255.2" class="u8sw-lev"/>
+  <path d="M470 255.2 L485.2 237.1 L490.9 231.2 L496.6 226.2 L502.3 222.2 L507.1 219.7 L512.8 218 L517.5 217.5 L523.2 218.2 L528.9 220.2 L534.6 223.4 L540.3 227.7 L546 233.1 L551.7 239.2 L575.5 268 L585 278.4 L590.6 283.6 L595.4 287.1 L601.1 290.3 L605.9 292.1 L611.5 293 L617.2 292.5 L623 290.8 L629.6 287.1 L636.2 281.9 L642.9 275.5 L650.5 266.9 L660 255.2" class="u8sw-c1"/>
+  <text x="436" y="260.2" class="u8sw-l1">ψ₂</text>
+  <text x="680" y="260.2" class="u8sw-t">4E₁</text>
+  <line x1="470" y1="104.3" x2="660" y2="104.3" class="u8sw-lev"/>
+  <path d="M470 104.3 L476.6 92.1 L481.4 84.1 L486.1 77.2 L489.9 72.8 L494.7 68.8 L498.5 67 L502.3 66.6 L506.1 67.5 L508.9 69 L512.8 72.1 L516.5 76.4 L520.4 81.6 L527 92.6 L542.2 120.4 L546 126.5 L549.8 131.8 L553.6 136.2 L557.4 139.4 L561.2 141.4 L565 142 L568.8 141.4 L572.6 139.4 L576.4 136.2 L580.2 131.8 L584 126.5 L587.8 120.4 L603 92.6 L609.6 81.6 L613.5 76.4 L617.2 72.1 L621 69 L623.9 67.5 L627.7 66.6 L631.5 67 L635.3 68.8 L640 72.8 L643.9 77.2 L648.6 84.1 L653.4 92.1 L660 104.3" class="u8sw-c2"/>
+  <text x="436" y="109.3" class="u8sw-l2">ψ₃</text>
+  <text x="680" y="109.3" class="u8sw-t">9E₁</text>
+  <text x="565" y="400" text-anchor="middle" class="u8sw-s">에너지 ∝ n² (간격이 벌어짐)</text>
+</svg>

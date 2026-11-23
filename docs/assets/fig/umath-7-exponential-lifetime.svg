@@ -64,12 +64,13 @@
 <circle cx="184.0" cy="171.0" r="4" style="fill:var(--fig-amber)"/>
 <line x1="230.0" y1="290.0" x2="230.0" y2="51.9" class="umath-7-exponential-lifetime-v1"/>
 <circle cx="230.0" cy="202.4" r="4" style="fill:var(--fig-red)"/>
-<text x="176.0" y="61.4" text-anchor="end" class="umath-7-exponential-lifetime-amb">반감기</text>
-<text x="176.0" y="79.4" text-anchor="end" class="umath-7-exponential-lifetime-amb">kt = ln 2 ≈ 0.69</text>
+<text x="177.0" y="194.8" text-anchor="end" class="umath-7-exponential-lifetime-amb">반감기</text>
+<text x="177.0" y="212.8" text-anchor="end" class="umath-7-exponential-lifetime-amb">kt = ln 2</text>
+<text x="177.0" y="230.8" text-anchor="end" class="umath-7-exponential-lifetime-amb">≈ 0.69</text>
 <text x="238.0" y="61.4" class="umath-7-exponential-lifetime-red">평균 수명 τ = 1/k</text>
 <text x="238.0" y="79.4" class="umath-7-exponential-lifetime-red">kt = 1</text>
 <text x="387.5" y="237.6" class="umath-7-exponential-lifetime-bl">칠한 넓이 = P(t &gt; 1/k) = e⁻¹ ≈ 0.37</text>
 <text x="387.5" y="257.6" class="umath-7-exponential-lifetime-s">평균 수명보다 오래 사는 분자의 비율</text>
-<text x="98.0" y="275.7" class="umath-7-exponential-lifetime-s">왼쪽 넓이 0.63</text>
+<text x="89.0" y="275.7" class="umath-7-exponential-lifetime-s">넓이 0.63</text>
 <text x="297.5" y="142.4" class="umath-7-exponential-lifetime-s">p(t)/k = e^(−kt)</text>
 </svg>

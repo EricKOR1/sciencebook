@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="t-umath-8-finite-difference d-umath-8-finite-difference">
+  <title id="t-umath-8-finite-difference">그림 수학 도구 8-10 열 방정식의 유한 차분 격자</title>
+  <desc id="d-umath-8-finite-difference">가로는 위치 격자점 x₀~x₁₀, 세로는 시간 단계 n과 n + 1이다. 양 끝 칸은 u = 0으로 고정된다. 새 시각의 값 u_i는 이전 시각의 세 칸 u_(i−1), u_i, u_(i+1)에 가중치 r, 1 − 2r, r을 곱해 더한 것이다(r = αΔt/Δx²).</desc>
+  <style>
+    .u8fd-ax{stroke:var(--fig-ink);stroke-width:1.4;fill:none}
+    .u8fd-grid{stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:3 4;fill:none}
+    .u8fd-t{font-size:14px;fill:var(--fig-ink)}
+    .u8fd-s{font-size:13px;fill:var(--fig-muted)}
+    .u8fd-b{font-size:14px;fill:var(--fig-ink);font-weight:600}
+    .u8fd-tk{stroke:var(--fig-ink);stroke-width:1.2}
+    .u8fd-cell{fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1.2}
+    .u8fd-fix{fill:var(--fig-line);fill-opacity:0.45;stroke:var(--fig-line);stroke-width:1.2}
+    .u8fd-hi{fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2}
+    .u8fd-new{fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:2}
+    .u8fd-ar{stroke:var(--fig-blue);stroke-width:2;fill:none}
+    .u8fd-ah{fill:var(--fig-blue)}
+    .u8fd-w{font-size:14px;fill:var(--fig-blue);font-weight:600}
+    .u8fd-sm{font-size:13px;fill:var(--fig-ink)}
+
+  </style>
+  <rect x="60" y="200" width="50" height="40" class="u8fd-fix"/>
+  <text x="85" y="225" text-anchor="middle" class="u8fd-sm">0</text>
+  <rect x="110" y="200" width="50" height="40" class="u8fd-cell"/>
+  <rect x="160" y="200" width="50" height="40" class="u8fd-cell"/>
+  <rect x="210" y="200" width="50" height="40" class="u8fd-cell"/>
+  <rect x="260" y="200" width="50" height="40" class="u8fd-hi"/>
+  <rect x="310" y="200" width="50" height="40" class="u8fd-hi"/>
+  <rect x="360" y="200" width="50" height="40" class="u8fd-hi"/>
+  <rect x="410" y="200" width="50" height="40" class="u8fd-cell"/>
+  <rect x="460" y="200" width="50" height="40" class="u8fd-cell"/>
+  <rect x="510" y="200" width="50" height="40" class="u8fd-cell"/>
+  <rect x="560" y="200" width="50" height="40" class="u8fd-fix"/>
+  <text x="585" y="225" text-anchor="middle" class="u8fd-sm">0</text>
+  <text x="50" y="225" text-anchor="end" class="u8fd-b">시간 n</text>
+  <rect x="60" y="70" width="50" height="40" class="u8fd-fix"/>
+  <text x="85" y="95" text-anchor="middle" class="u8fd-sm">0</text>
+  <rect x="110" y="70" width="50" height="40" class="u8fd-cell"/>
+  <rect x="160" y="70" width="50" height="40" class="u8fd-cell"/>
+  <rect x="210" y="70" width="50" height="40" class="u8fd-cell"/>
+  <rect x="260" y="70" width="50" height="40" class="u8fd-cell"/>
+  <rect x="310" y="70" width="50" height="40" class="u8fd-new"/>
+  <rect x="360" y="70" width="50" height="40" class="u8fd-cell"/>
+  <rect x="410" y="70" width="50" height="40" class="u8fd-cell"/>
+  <rect x="460" y="70" width="50" height="40" class="u8fd-cell"/>
+  <rect x="510" y="70" width="50" height="40" class="u8fd-cell"/>
+  <rect x="560" y="70" width="50" height="40" class="u8fd-fix"/>
+  <text x="585" y="95" text-anchor="middle" class="u8fd-sm">0</text>
+  <text x="50" y="95" text-anchor="end" class="u8fd-b">n + 1</text>
+  <text x="85" y="262" text-anchor="middle" class="u8fd-s">x₀</text>
+  <text x="135" y="262" text-anchor="middle" class="u8fd-s">x₁</text>
+  <text x="185" y="262" text-anchor="middle" class="u8fd-s">x₂</text>
+  <text x="235" y="262" text-anchor="middle" class="u8fd-s">x₃</text>
+  <text x="285" y="262" text-anchor="middle" class="u8fd-s">x₄</text>
+  <text x="335" y="262" text-anchor="middle" class="u8fd-s">x₅</text>
+  <text x="385" y="262" text-anchor="middle" class="u8fd-s">x₆</text>
+  <text x="435" y="262" text-anchor="middle" class="u8fd-s">x₇</text>
+  <text x="485" y="262" text-anchor="middle" class="u8fd-s">x₈</text>
+  <text x="535" y="262" text-anchor="middle" class="u8fd-s">x₉</text>
+  <text x="585" y="262" text-anchor="middle" class="u8fd-s">x₁₀</text>
+  <text x="85" y="60" text-anchor="middle" class="u8fd-s">u = 0 고정</text>
+  <text x="585" y="60" text-anchor="middle" class="u8fd-s">u = 0 고정</text>
+  <text x="285" y="225" text-anchor="middle" class="u8fd-sm">u_(i−1)</text>
+  <line x1="285" y1="200" x2="325" y2="122" class="u8fd-ar"/>
+  <path d="M325 116 L324.4 125 L318.4 122.1 Z" class="u8fd-ah"/>
+  <text x="291" y="162" text-anchor="end" class="u8fd-w">r</text>
+  <text x="335" y="225" text-anchor="middle" class="u8fd-sm">u_i</text>
+  <line x1="335" y1="200" x2="335" y2="122" class="u8fd-ar"/>
+  <path d="M335 116 L338.3 124.4 L331.7 124.4 Z" class="u8fd-ah"/>
+  <text x="343" y="162" text-anchor="start" class="u8fd-w">1 − 2r</text>
+  <text x="385" y="225" text-anchor="middle" class="u8fd-sm">u_(i+1)</text>
+  <line x1="385" y1="200" x2="345" y2="122" class="u8fd-ar"/>
+  <path d="M345 116 L351.6 122.1 L345.6 125 Z" class="u8fd-ah"/>
+  <text x="379" y="162" text-anchor="start" class="u8fd-w">r</text>
+  <text x="335" y="94" text-anchor="middle" class="u8fd-sm">u_i(새)</text>
+  <text x="690" y="148" text-anchor="end" class="u8fd-b">r = αΔt/Δx²</text>
+  <text x="60" y="290" class="u8fd-s">u_i(새) = r·u_(i−1) + (1 − 2r)·u_i + r·u_(i+1)</text>
+</svg>
