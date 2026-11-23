@@ -28,16 +28,14 @@
   <line x1="482.0" y1="390.0" x2="516.2" y2="390.0" style="stroke:var(--fig-violet);stroke-width:2;stroke-linecap:round"/>
   <polygon points="516.2,390.0 508.9,393.1 508.9,386.9" style="fill:var(--fig-violet);stroke:none"/>
   <text x="513.1" y="408.0" text-anchor="middle" class="pchem-5-mu-t-colligative-t" style="fill:var(--fig-violet);font-weight:600">ΔT<tspan baseline-shift="sub" font-size="10">b</tspan></text>
-  <rect x="101.0" y="67.7" width="90.2" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
-  <text x="104.0" y="79.7" text-anchor="start" class="pchem-5-mu-t-colligative-s" style="fill:var(--fig-blue)">고체 용매(순수)</text>
-  <rect x="151.4" y="21.8" width="90.2" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
-  <text x="154.4" y="33.8" text-anchor="start" class="pchem-5-mu-t-colligative-s" style="fill:var(--fig-green)">액체 용매(순수)</text>
+  <rect x="518.2" y="179.7" width="90.2" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
+  <text x="521.2" y="191.7" text-anchor="start" class="pchem-5-mu-t-colligative-s" style="fill:var(--fig-blue)">고체 용매(순수)</text>
+  <rect x="199.0" y="47.9" width="90.2" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
+  <text x="202.0" y="59.9" text-anchor="start" class="pchem-5-mu-t-colligative-s" style="fill:var(--fig-green)">액체 용매(순수)</text>
   <rect x="351.5" y="86.7" width="29.9" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
   <text x="378.4" y="98.7" text-anchor="end" class="pchem-5-mu-t-colligative-s" style="fill:var(--fig-red)">기체</text>
-  <rect x="344.6" y="160.3" width="163.6" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
-  <text x="347.6" y="172.3" text-anchor="start" class="pchem-5-mu-t-colligative-s" style="fill:var(--fig-green)">용액 속 용매: μ* + RT ln x<tspan baseline-shift="sub" font-size="10">A</tspan></text>
-  <line x1="403.6" y1="191.1" x2="403.6" y2="214.4" style="stroke:var(--fig-ink);stroke-width:1.4;stroke-linecap:round"/>
-  <polygon points="403.6,214.4 401.3,208.9 405.9,208.9" style="fill:var(--fig-ink);stroke:none"/>
-  <text x="397.6" y="208.2" text-anchor="end" class="pchem-5-mu-t-colligative-s">RT ln x<tspan baseline-shift="sub" font-size="10">A</tspan> &lt; 0</text>
+  <line x1="166.8" y1="256.8" x2="235.6" y2="119.1" style="stroke:var(--fig-green);stroke-width:1.2;stroke-linecap:round"/>
+  <text x="106.8" y="272.8" text-anchor="start" class="pchem-5-mu-t-colligative-s" style="fill:var(--fig-green)">점선: 용액 속 용매</text>
+  <text x="106.8" y="290.8" text-anchor="start" class="pchem-5-mu-t-colligative-s" style="fill:var(--fig-green)">μ* + RT ln x<tspan baseline-shift="sub" font-size="10">A</tspan> (RT ln x<tspan baseline-shift="sub" font-size="10">A</tspan> &lt; 0만큼 아래)</text>
   <text x="360.0" y="432.0" text-anchor="middle" class="pchem-5-mu-t-colligative-s">모식도: 직선은 기울기 −S<tspan baseline-shift="sub" font-size="10">m</tspan>. 기울기 차(ΔS<tspan baseline-shift="sub" font-size="10">fus</tspan> &lt; ΔS<tspan baseline-shift="sub" font-size="10">vap</tspan>)가 작은 고체–액체 교점이 더 많이 움직인다.</text>
 </svg>

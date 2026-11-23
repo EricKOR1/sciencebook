@@ -34,13 +34,12 @@
   <circle cx="417.7" cy="64.5" r="3.5" style="fill:var(--fig-red);stroke:var(--fig-red);stroke-width:1"/>
   <line x1="417.7" y1="64.5" x2="470" y2="64.5" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 4"/>
   <text x="423.2" y="56.5" class="umath-3-spheroid-oxygen-s"><tspan style="font-style:italic">c</tspan><tspan dy="4" style="font-size:78%">s</tspan><tspan dy="-4"> = 0.20</tspan></text>
-  <text x="109.2" y="103.8" class="umath-3-spheroid-oxygen-bl">R = 100 μm</text>
-  <text x="197" y="160.3" class="umath-3-spheroid-oxygen-gr">R = 200 μm</text>
-  <text x="275" y="267" class="umath-3-spheroid-oxygen-rd">R = 346 μm</text>
+  <text x="109.2" y="103.8" class="umath-3-spheroid-oxygen-bl"><tspan style="font-style:italic">R</tspan><tspan> = 100 μm</tspan></text>
+  <text x="197" y="160.3" class="umath-3-spheroid-oxygen-gr"><tspan style="font-style:italic">R</tspan><tspan> = 200 μm</tspan></text>
+  <text x="271.1" y="267" class="umath-3-spheroid-oxygen-rd"><tspan style="font-style:italic">R</tspan><tspan> = 346 μm (= </tspan><tspan style="font-style:italic">R</tspan><tspan dy="4" style="font-size:78%">max</tspan><tspan dy="-4">)</tspan></text>
   <circle cx="80" cy="310" r="5" style="fill:var(--fig-panel);stroke:var(--fig-red);stroke-width:2"/>
-  <line x1="86" y1="304" x2="119" y2="260.9" style="stroke:var(--fig-red);stroke-width:1"/>
-  <text x="120.9" y="257.2" class="umath-3-spheroid-oxygen-rd"><tspan style="font-style:italic">R</tspan><tspan dy="4" style="font-size:78%">max</tspan><tspan dy="-4">: 중심 농도 0</tspan></text>
-  <text x="275" y="301" class="umath-3-spheroid-oxygen-s">(= √(6Dc_s/Q))</text>
+  <line x1="85" y1="305" x2="101.5" y2="238.8" style="stroke:var(--fig-red);stroke-width:1"/>
+  <text x="93.7" y="229" class="umath-3-spheroid-oxygen-rd"><tspan style="font-style:italic">R</tspan><tspan dy="4" style="font-size:78%">max</tspan><tspan dy="-4">: 중심 농도 0</tspan></text>
   <text x="84" y="28" class="umath-3-spheroid-oxygen-s">점: 덩어리 표면(r = R)</text>
   <text x="605" y="50" text-anchor="middle" class="umath-3-spheroid-oxygen-b">세포 덩어리 단면 (모식도)</text>
   <circle cx="545" cy="125" r="28" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.6"/>

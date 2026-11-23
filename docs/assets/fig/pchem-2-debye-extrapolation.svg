@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-pchem-2-debye-extrapolation d-pchem-2-debye-extrapolation">
+  <title id="t-pchem-2-debye-extrapolation">그림 물리화학 2-12 디바이 T³ 외삽</title>
+  <desc id="d-pchem-2-debye-extrapolation">10~20 K에서 잰 몰 열용량(점)은 Cp = aT³ (a = 2.4×10⁻⁴ J mol⁻¹ K⁻⁴)에 맞는다. 측정하지 못한 0~10 K는 같은 식으로 외삽한다(점선). 삽입 그래프: Cp/T를 T²에 대해 그리면 원점을 지나는 직선이다. 10 K까지의 엔트로피는 Cp(10 K)/3 = 0.080 J/(mol·K)이다.</desc>
+  <style>
+    .pc2debye-extrapolation-t{font-size:14px;fill:var(--fig-ink)}
+    .pc2debye-extrapolation-s{font-size:13px;fill:var(--fig-muted)}
+    .pc2debye-extrapolation-b{font-size:14px;fill:var(--fig-ink);font-weight:600}
+    .pc2debye-extrapolation-ax{font-size:13px;fill:var(--fig-muted)}
+    .pc2debye-extrapolation-fink{fill:var(--fig-ink)}
+    .pc2debye-extrapolation-fmuted{fill:var(--fig-muted)}
+    .pc2debye-extrapolation-fline{fill:var(--fig-line)}
+    .pc2debye-extrapolation-fblue{fill:var(--fig-blue)}
+    .pc2debye-extrapolation-fred{fill:var(--fig-red)}
+    .pc2debye-extrapolation-fgreen{fill:var(--fig-green)}
+    .pc2debye-extrapolation-famber{fill:var(--fig-amber)}
+    .pc2debye-extrapolation-fviolet{fill:var(--fig-violet)}
+    .pc2debye-extrapolation-fteal{fill:var(--fig-teal)}
+    .pc2debye-extrapolation-faccent{fill:var(--fig-accent)}
+  </style>
+  <defs><marker id="pc2debye-extrapolation-ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-ink)"/></marker><marker id="pc2debye-extrapolation-am-ink" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-ink)"/></marker><marker id="pc2debye-extrapolation-ar-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-muted)"/></marker><marker id="pc2debye-extrapolation-am-muted" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-muted)"/></marker><marker id="pc2debye-extrapolation-ar-line" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-line)"/></marker><marker id="pc2debye-extrapolation-am-line" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-line)"/></marker><marker id="pc2debye-extrapolation-ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-blue)"/></marker><marker id="pc2debye-extrapolation-am-blue" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-blue)"/></marker><marker id="pc2debye-extrapolation-ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-red)"/></marker><marker id="pc2debye-extrapolation-am-red" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-red)"/></marker><marker id="pc2debye-extrapolation-ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-green)"/></marker><marker id="pc2debye-extrapolation-am-green" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-green)"/></marker><marker id="pc2debye-extrapolation-ar-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-amber)"/></marker><marker id="pc2debye-extrapolation-am-amber" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-amber)"/></marker><marker id="pc2debye-extrapolation-ar-violet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-violet)"/></marker><marker id="pc2debye-extrapolation-am-violet" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-violet)"/></marker><marker id="pc2debye-extrapolation-ar-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-teal)"/></marker><marker id="pc2debye-extrapolation-am-teal" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-teal)"/></marker><marker id="pc2debye-extrapolation-ar-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-accent)"/></marker><marker id="pc2debye-extrapolation-am-accent" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-accent)"/></marker></defs>
+  <line x1="80.0" y1="40.0" x2="80.0" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="80.0" y1="330.0" x2="80.0" y2="335.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="80.0" y="349.0" text-anchor="middle" class="pc2debye-extrapolation-ax">0</text>
+  <line x1="164.0" y1="40.0" x2="164.0" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="164.0" y1="330.0" x2="164.0" y2="335.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="164.0" y="349.0" text-anchor="middle" class="pc2debye-extrapolation-ax">4</text>
+  <line x1="248.0" y1="40.0" x2="248.0" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="248.0" y1="330.0" x2="248.0" y2="335.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="248.0" y="349.0" text-anchor="middle" class="pc2debye-extrapolation-ax">8</text>
+  <line x1="332.0" y1="40.0" x2="332.0" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="332.0" y1="330.0" x2="332.0" y2="335.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="332.0" y="349.0" text-anchor="middle" class="pc2debye-extrapolation-ax">12</text>
+  <line x1="416.0" y1="40.0" x2="416.0" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="416.0" y1="330.0" x2="416.0" y2="335.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="416.0" y="349.0" text-anchor="middle" class="pc2debye-extrapolation-ax">16</text>
+  <line x1="500.0" y1="40.0" x2="500.0" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="500.0" y1="330.0" x2="500.0" y2="335.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="500.0" y="349.0" text-anchor="middle" class="pc2debye-extrapolation-ax">20</text>
+  <line x1="80.0" y1="330.0" x2="500.0" y2="330.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="75.0" y1="330.0" x2="80.0" y2="330.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="72.0" y="334.5" text-anchor="end" class="pc2debye-extrapolation-ax">0.0</text>
+  <line x1="80.0" y1="257.5" x2="500.0" y2="257.5" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="75.0" y1="257.5" x2="80.0" y2="257.5" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="72.0" y="262.0" text-anchor="end" class="pc2debye-extrapolation-ax">0.5</text>
+  <line x1="80.0" y1="185.0" x2="500.0" y2="185.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="75.0" y1="185.0" x2="80.0" y2="185.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="72.0" y="189.5" text-anchor="end" class="pc2debye-extrapolation-ax">1.0</text>
+  <line x1="80.0" y1="112.5" x2="500.0" y2="112.5" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="75.0" y1="112.5" x2="80.0" y2="112.5" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="72.0" y="117.0" text-anchor="end" class="pc2debye-extrapolation-ax">1.5</text>
+  <line x1="80.0" y1="40.0" x2="500.0" y2="40.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="75.0" y1="40.0" x2="80.0" y2="40.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="72.0" y="44.5" text-anchor="end" class="pc2debye-extrapolation-ax">2.0</text>
+  <line x1="80.0" y1="330.0" x2="500.0" y2="330.0" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <line x1="80.0" y1="40.0" x2="80.0" y2="330.0" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <text x="290.0" y="370.0" text-anchor="middle" class="pc2debye-extrapolation-t">온도 <tspan style="font-style:italic">T</tspan> (K)</text>
+  <text x="76.0" y="28.0" class="pc2debye-extrapolation-t"><tspan style="font-style:italic">C</tspan><tspan baseline-shift="sub" style="font-size:10px">p,m</tspan> (J mol⁻¹ K⁻¹)</text>
+  <path d="M80.0 330.0 L83.6 330.0 L87.1 330.0 L90.7 330.0 L94.2 330.0 L97.8 330.0 L101.4 330.0 L104.9 329.9 L108.5 329.9 L112.0 329.9 L115.6 329.8 L119.2 329.8 L122.7 329.7 L126.3 329.6 L129.8 329.5 L133.4 329.4 L136.9 329.3 L140.5 329.2 L144.1 329.0 L147.6 328.8 L151.2 328.6 L154.7 328.4 L158.3 328.2 L161.9 327.9 L165.4 327.7 L169.0 327.4 L172.5 327.0 L176.1 326.7 L179.7 326.3 L183.2 325.9 L186.8 325.4 L190.3 325.0 L193.9 324.4 L197.5 323.9 L201.0 323.3 L204.6 322.7 L208.1 322.1 L211.7 321.4 L215.3 320.7 L218.8 319.9 L222.4 319.2 L225.9 318.3 L229.5 317.4 L233.1 316.5 L236.6 315.6 L240.2 314.6 L243.7 313.5 L247.3 312.4 L250.8 311.3 L254.4 310.1 L258.0 308.8 L261.5 307.5 L265.1 306.2 L268.6 304.8 L272.2 303.3 L275.8 301.8 L279.3 300.2 L282.9 298.6 L286.4 296.9 L290.0 295.2" style="fill:none;stroke:var(--fig-blue);stroke-width:2.2;stroke-dasharray:5 4;stroke-linejoin:round"/>
+  <path d="M290.0 295.2 L293.6 293.4 L297.1 291.5 L300.7 289.6 L304.2 287.6 L307.8 285.6 L311.4 283.5 L314.9 281.3 L318.5 279.0 L322.0 276.7 L325.6 274.3 L329.2 271.9 L332.7 269.4 L336.3 266.8 L339.8 264.1 L343.4 261.3 L346.9 258.5 L350.5 255.6 L354.1 252.6 L357.6 249.6 L361.2 246.5 L364.7 243.2 L368.3 240.0 L371.9 236.6 L375.4 233.1 L379.0 229.6 L382.5 225.9 L386.1 222.2 L389.7 218.4 L393.2 214.5 L396.8 210.5 L400.3 206.5 L403.9 202.3 L407.5 198.1 L411.0 193.7 L414.6 189.3 L418.1 184.7 L421.7 180.1 L425.3 175.4 L428.8 170.5 L432.4 165.6 L435.9 160.6 L439.5 155.4 L443.1 150.2 L446.6 144.8 L450.2 139.4 L453.7 133.8 L457.3 128.2 L460.8 122.4 L464.4 116.6 L468.0 110.6 L471.5 104.5 L475.1 98.3 L478.6 91.9 L482.2 85.5 L485.8 79.0 L489.3 72.3 L492.9 65.5 L496.4 58.6 L500.0 51.6" style="fill:none;stroke:var(--fig-blue);stroke-width:1.6;stroke-linejoin:round"/>
+  <circle cx="290.0" cy="295.2" r="5.0" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+  <circle cx="332.0" cy="269.9" r="5.0" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+  <circle cx="374.0" cy="234.5" r="5.0" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+  <circle cx="416.0" cy="187.5" r="5.0" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+  <circle cx="458.0" cy="127.0" r="5.0" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+  <circle cx="500.0" cy="51.6" r="5.0" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+  <text x="147.2" y="283.6" class="pc2debye-extrapolation-t"><tspan style="font-style:italic">C</tspan><tspan baseline-shift="sub" style="font-size:10px">p</tspan> = <tspan style="font-style:italic">a</tspan><tspan style="font-style:italic">T</tspan><tspan baseline-shift="super" style="font-size:10px">3</tspan> 외삽</text>
+  <line x1="216.5" y1="289.4" x2="239.6" y2="311.7" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="384.5" y="76.2" text-anchor="end" class="pc2debye-extrapolation-t">● 측정값</text>
+  <rect x="92.6" y="47.2" width="230.0" height="44.0" rx="6" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.2"/>
+  <text x="102.6" y="65.2" class="pc2debye-extrapolation-t"><tspan style="font-style:italic">S</tspan>(10 K) = <tspan style="font-style:italic">C</tspan><tspan baseline-shift="sub" style="font-size:10px">p</tspan>(10 K)/3</text>
+  <text x="102.6" y="83.2" class="pc2debye-extrapolation-t">= 0.24/3 = 0.080 J/(mol·K)</text>
+  <line x1="560.0" y1="70.0" x2="560.0" y2="270.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="560.0" y1="270.0" x2="560.0" y2="275.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="560.0" y="289.0" text-anchor="middle" class="pc2debye-extrapolation-ax">0</text>
+  <line x1="630.0" y1="70.0" x2="630.0" y2="270.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="630.0" y1="270.0" x2="630.0" y2="275.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="630.0" y="289.0" text-anchor="middle" class="pc2debye-extrapolation-ax">200</text>
+  <line x1="700.0" y1="70.0" x2="700.0" y2="270.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="700.0" y1="270.0" x2="700.0" y2="275.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="700.0" y="289.0" text-anchor="middle" class="pc2debye-extrapolation-ax">400</text>
+  <line x1="560.0" y1="270.0" x2="700.0" y2="270.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="555.0" y1="270.0" x2="560.0" y2="270.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="552.0" y="274.5" text-anchor="end" class="pc2debye-extrapolation-ax">0.00</text>
+  <line x1="560.0" y1="170.0" x2="700.0" y2="170.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="555.0" y1="170.0" x2="560.0" y2="170.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="552.0" y="174.5" text-anchor="end" class="pc2debye-extrapolation-ax">0.05</text>
+  <line x1="560.0" y1="70.0" x2="700.0" y2="70.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
+  <line x1="555.0" y1="70.0" x2="560.0" y2="70.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="552.0" y="74.5" text-anchor="end" class="pc2debye-extrapolation-ax">0.10</text>
+  <line x1="560.0" y1="270.0" x2="700.0" y2="270.0" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <line x1="560.0" y1="70.0" x2="560.0" y2="270.0" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <text x="630.0" y="310.0" text-anchor="middle" class="pc2debye-extrapolation-t"><tspan style="font-style:italic">T</tspan><tspan baseline-shift="super" style="font-size:10px">2</tspan> (K²)</text>
+  <text x="556.0" y="58.0" class="pc2debye-extrapolation-t"><tspan style="font-style:italic">C</tspan><tspan baseline-shift="sub" style="font-size:10px">p</tspan>/<tspan style="font-style:italic">T</tspan></text>
+  <line x1="560.0" y1="270.0" x2="595.0" y2="222.0" style="stroke:var(--fig-blue);stroke-width:1.6;stroke-dasharray:5 4"/>
+  <line x1="595.0" y1="222.0" x2="700.0" y2="78.0" style="stroke:var(--fig-blue);stroke-width:1.6"/>
+  <circle cx="595.0" cy="222.0" r="3.5" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+  <circle cx="610.4" cy="200.9" r="3.5" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+  <circle cx="628.6" cy="175.9" r="3.5" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+  <circle cx="649.6" cy="147.1" r="3.5" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+  <circle cx="673.4" cy="114.5" r="3.5" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+  <circle cx="700.0" cy="78.0" r="3.5" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
+  <text x="563.5" y="94.0" class="pc2debye-extrapolation-s">기울기 <tspan style="font-style:italic">a</tspan></text>
+  <text x="630.0" y="328.0" text-anchor="middle" class="pc2debye-extrapolation-s">원점을 지나는 직선</text>
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-pchem-2-three-devices d-pchem-2-three-devices">
+  <title id="t-pchem-2-three-devices">그림 물리화학 2-14 열기관·냉동기·열펌프의 에너지 흐름</title>
+  <desc id="d-pchem-2-three-devices">세 장치는 같은 순환을 다른 목적으로 쓴다. (가) 열기관은 고온에서 qh를 받아 일 −w를 내고 |qc|를 버린다. (나) 냉동기는 일 w로 저온에서 qc를 빼내고(원하는 것) 고온에 |qh| = qc + w를 넣는다. (다) 열펌프는 흐름이 냉동기와 같지만 고온에 넣는 |qh|가 원하는 것이다. 화살표 굵기는 에너지 크기에 비례한다(qh : qc : w = 10 : 6 : 4로 그림).</desc>
+  <style>
+    .pc2three-devices-t{font-size:14px;fill:var(--fig-ink)}
+    .pc2three-devices-s{font-size:13px;fill:var(--fig-muted)}
+    .pc2three-devices-b{font-size:14px;fill:var(--fig-ink);font-weight:600}
+    .pc2three-devices-ax{font-size:13px;fill:var(--fig-muted)}
+    .pc2three-devices-fink{fill:var(--fig-ink)}
+    .pc2three-devices-fmuted{fill:var(--fig-muted)}
+    .pc2three-devices-fline{fill:var(--fig-line)}
+    .pc2three-devices-fblue{fill:var(--fig-blue)}
+    .pc2three-devices-fred{fill:var(--fig-red)}
+    .pc2three-devices-fgreen{fill:var(--fig-green)}
+    .pc2three-devices-famber{fill:var(--fig-amber)}
+    .pc2three-devices-fviolet{fill:var(--fig-violet)}
+    .pc2three-devices-fteal{fill:var(--fig-teal)}
+    .pc2three-devices-faccent{fill:var(--fig-accent)}
+  </style>
+  <defs><marker id="pc2three-devices-ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-ink)"/></marker><marker id="pc2three-devices-am-ink" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-ink)"/></marker><marker id="pc2three-devices-ar-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-muted)"/></marker><marker id="pc2three-devices-am-muted" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-muted)"/></marker><marker id="pc2three-devices-ar-line" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-line)"/></marker><marker id="pc2three-devices-am-line" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-line)"/></marker><marker id="pc2three-devices-ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-blue)"/></marker><marker id="pc2three-devices-am-blue" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-blue)"/></marker><marker id="pc2three-devices-ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-red)"/></marker><marker id="pc2three-devices-am-red" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-red)"/></marker><marker id="pc2three-devices-ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-green)"/></marker><marker id="pc2three-devices-am-green" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-green)"/></marker><marker id="pc2three-devices-ar-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-amber)"/></marker><marker id="pc2three-devices-am-amber" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-amber)"/></marker><marker id="pc2three-devices-ar-violet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-violet)"/></marker><marker id="pc2three-devices-am-violet" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-violet)"/></marker><marker id="pc2three-devices-ar-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-teal)"/></marker><marker id="pc2three-devices-am-teal" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-teal)"/></marker><marker id="pc2three-devices-ar-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-accent)"/></marker><marker id="pc2three-devices-am-accent" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-accent)"/></marker></defs>
+  <text x="120.0" y="26.0" text-anchor="middle" class="pc2three-devices-b">(가) 열기관</text>
+  <rect x="20.0" y="40.0" width="200.0" height="34.0" rx="6" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.4"/>
+  <text x="120.0" y="62.0" text-anchor="middle" class="pc2three-devices-t">고온 <tspan style="font-style:italic">T</tspan><tspan baseline-shift="sub" style="font-size:10px">h</tspan></text>
+  <rect x="20.0" y="286.0" width="200.0" height="34.0" rx="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.4"/>
+  <text x="120.0" y="308.0" text-anchor="middle" class="pc2three-devices-t">저온 <tspan style="font-style:italic">T</tspan><tspan baseline-shift="sub" style="font-size:10px">c</tspan></text>
+  <circle cx="120.0" cy="180.0" r="30.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <line x1="120.0" y1="76.0" x2="120.0" y2="146.0" style="stroke:var(--fig-red);stroke-width:20.0"/>
+  <path d="M104 136 L136 136 L120 150 Z" style="fill:var(--fig-red)"/>
+  <line x1="120.0" y1="210.0" x2="120.0" y2="270.0" style="stroke:var(--fig-blue);stroke-width:12.0"/>
+  <path d="M108 270 L132 270 L120 284 Z" style="fill:var(--fig-blue)"/>
+  <line x1="150.0" y1="180.0" x2="206.0" y2="180.0" style="stroke:var(--fig-amber);stroke-width:8.0"/>
+  <path d="M206 170 L206 190 L220 180 Z" style="fill:var(--fig-amber)"/>
+  <text x="138.0" y="112.0" class="pc2three-devices-t"><tspan style="font-style:italic">q</tspan><tspan baseline-shift="sub" style="font-size:10px">h</tspan></text>
+  <text x="136.0" y="250.0" class="pc2three-devices-t">|<tspan style="font-style:italic">q</tspan><tspan baseline-shift="sub" style="font-size:10px">c</tspan>|</text>
+  <text x="186.0" y="166.0" text-anchor="middle" class="pc2three-devices-b">−<tspan style="font-style:italic">w</tspan></text>
+  <text x="186.0" y="206.0" text-anchor="middle" class="pc2three-devices-s">원하는 것</text>
+  <text x="120.0" y="352.0" text-anchor="middle" class="pc2three-devices-t">η ≤ 1 − <tspan style="font-style:italic">T</tspan><tspan baseline-shift="sub" style="font-size:10px">c</tspan>/<tspan style="font-style:italic">T</tspan><tspan baseline-shift="sub" style="font-size:10px">h</tspan></text>
+  <text x="360.0" y="26.0" text-anchor="middle" class="pc2three-devices-b">(나) 냉동기</text>
+  <rect x="260.0" y="40.0" width="200.0" height="34.0" rx="6" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.4"/>
+  <text x="360.0" y="62.0" text-anchor="middle" class="pc2three-devices-t">고온 <tspan style="font-style:italic">T</tspan><tspan baseline-shift="sub" style="font-size:10px">h</tspan></text>
+  <rect x="260.0" y="286.0" width="200.0" height="34.0" rx="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.4"/>
+  <text x="360.0" y="308.0" text-anchor="middle" class="pc2three-devices-t">저온 <tspan style="font-style:italic">T</tspan><tspan baseline-shift="sub" style="font-size:10px">c</tspan></text>
+  <circle cx="360.0" cy="180.0" r="30.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <line x1="360.0" y1="150.0" x2="360.0" y2="90.0" style="stroke:var(--fig-red);stroke-width:20.0"/>
+  <path d="M344 90 L376 90 L360 76 Z" style="fill:var(--fig-red)"/>
+  <line x1="360.0" y1="284.0" x2="360.0" y2="224.0" style="stroke:var(--fig-accent);stroke-width:12.0"/>
+  <path d="M348 224 L372 224 L360 210 Z" style="fill:var(--fig-accent)"/>
+  <line x1="264.0" y1="180.0" x2="316.0" y2="180.0" style="stroke:var(--fig-amber);stroke-width:8.0"/>
+  <path d="M316 170 L316 190 L330 180 Z" style="fill:var(--fig-amber)"/>
+  <text x="378.0" y="118.0" class="pc2three-devices-t">|<tspan style="font-style:italic">q</tspan><tspan baseline-shift="sub" style="font-size:10px">h</tspan>| = <tspan style="font-style:italic">q</tspan><tspan baseline-shift="sub" style="font-size:10px">c</tspan> + <tspan style="font-style:italic">w</tspan></text>
+  <text x="376.0" y="252.0" class="pc2three-devices-b"><tspan style="font-style:italic">q</tspan><tspan baseline-shift="sub" style="font-size:10px">c</tspan></text>
+  <text x="290.0" y="166.0" text-anchor="middle" class="pc2three-devices-b"><tspan style="font-style:italic">w</tspan></text>
+  <text x="378.0" y="272.0" class="pc2three-devices-s">원하는 것</text>
+  <text x="360.0" y="352.0" text-anchor="middle" class="pc2three-devices-t">COP<tspan baseline-shift="sub" style="font-size:10px">R</tspan> ≤ <tspan style="font-style:italic">T</tspan><tspan baseline-shift="sub" style="font-size:10px">c</tspan>/(<tspan style="font-style:italic">T</tspan><tspan baseline-shift="sub" style="font-size:10px">h</tspan> − <tspan style="font-style:italic">T</tspan><tspan baseline-shift="sub" style="font-size:10px">c</tspan>)</text>
+  <text x="600.0" y="26.0" text-anchor="middle" class="pc2three-devices-b">(다) 열펌프</text>
+  <rect x="500.0" y="40.0" width="200.0" height="34.0" rx="6" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.4"/>
+  <text x="600.0" y="62.0" text-anchor="middle" class="pc2three-devices-t">고온 <tspan style="font-style:italic">T</tspan><tspan baseline-shift="sub" style="font-size:10px">h</tspan></text>
+  <rect x="500.0" y="286.0" width="200.0" height="34.0" rx="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.4"/>
+  <text x="600.0" y="308.0" text-anchor="middle" class="pc2three-devices-t">저온 <tspan style="font-style:italic">T</tspan><tspan baseline-shift="sub" style="font-size:10px">c</tspan></text>
+  <circle cx="600.0" cy="180.0" r="30.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <line x1="600.0" y1="150.0" x2="600.0" y2="90.0" style="stroke:var(--fig-accent);stroke-width:20.0"/>
+  <path d="M584 90 L616 90 L600 76 Z" style="fill:var(--fig-accent)"/>
+  <line x1="600.0" y1="284.0" x2="600.0" y2="224.0" style="stroke:var(--fig-blue);stroke-width:12.0"/>
+  <path d="M588 224 L612 224 L600 210 Z" style="fill:var(--fig-blue)"/>
+  <line x1="504.0" y1="180.0" x2="556.0" y2="180.0" style="stroke:var(--fig-amber);stroke-width:8.0"/>
+  <path d="M556 170 L556 190 L570 180 Z" style="fill:var(--fig-amber)"/>
+  <text x="618.0" y="118.0" class="pc2three-devices-b">|<tspan style="font-style:italic">q</tspan><tspan baseline-shift="sub" style="font-size:10px">h</tspan>| = <tspan style="font-style:italic">q</tspan><tspan baseline-shift="sub" style="font-size:10px">c</tspan> + <tspan style="font-style:italic">w</tspan></text>
+  <text x="616.0" y="252.0" class="pc2three-devices-t"><tspan style="font-style:italic">q</tspan><tspan baseline-shift="sub" style="font-size:10px">c</tspan></text>
+  <text x="530.0" y="166.0" text-anchor="middle" class="pc2three-devices-b"><tspan style="font-style:italic">w</tspan></text>
+  <text x="618.0" y="138.0" class="pc2three-devices-s">원하는 것</text>
+  <text x="600.0" y="352.0" text-anchor="middle" class="pc2three-devices-t">COP<tspan baseline-shift="sub" style="font-size:10px">HP</tspan> ≤ <tspan style="font-style:italic">T</tspan><tspan baseline-shift="sub" style="font-size:10px">h</tspan>/(<tspan style="font-style:italic">T</tspan><tspan baseline-shift="sub" style="font-size:10px">h</tspan> − <tspan style="font-style:italic">T</tspan><tspan baseline-shift="sub" style="font-size:10px">c</tspan>)</text>
+  <text x="360.0" y="388.0" text-anchor="middle" class="pc2three-devices-s">파란 강조색(굵은 글씨) 화살표가 각 장치에서 원하는 것</text>
+</svg>
