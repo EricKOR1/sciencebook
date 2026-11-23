@@ -13,57 +13,57 @@
     .umath-1-mp-amber{fill:var(--fig-amber)} .umath-1-mp-violet{fill:var(--fig-violet)} .umath-1-mp-teal{fill:var(--fig-teal)}
     .umath-1-mp-ink{fill:var(--fig-ink)} .umath-1-mp-mut{fill:var(--fig-muted)}
   </style>
-  <rect x="90" y="110" width="170" height="120" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:1.2"/>
-  <circle cx="90.0" cy="230.0" r="13" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.4"/>
-  <text x="90.0" y="235.0" text-anchor="middle" class="umath-1-mp-tb">+</text>
-  <text x="74.0" y="252.0" text-anchor="end" class="umath-1-mp-m">(x, y)</text>
-  <circle cx="260.0" cy="230.0" r="13" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.4"/>
-  <text x="260.0" y="235.0" text-anchor="middle" class="umath-1-mp-tb">−</text>
-  <text x="276.0" y="252.0" class="umath-1-mp-m">(x+h, y)</text>
-  <circle cx="90.0" cy="110.0" r="13" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.4"/>
-  <text x="90.0" y="115.0" text-anchor="middle" class="umath-1-mp-tb">−</text>
-  <text x="74.0" y="98.0" text-anchor="end" class="umath-1-mp-m">(x, y+k)</text>
-  <circle cx="260.0" cy="110.0" r="13" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.4"/>
-  <text x="260.0" y="115.0" text-anchor="middle" class="umath-1-mp-tb">+</text>
-  <text x="276.0" y="98.0" class="umath-1-mp-m">(x+h, y+k)</text>
-  <line x1="108.0" y1="220.0" x2="234.0" y2="220.0" style="stroke:var(--fig-red);stroke-width:2.4;fill:none"/>
-  <path d="M242.0 220.0 L232.7 223.7 L232.7 216.3 Z" style="fill:var(--fig-red);stroke:none"/>
-  <line x1="108.0" y1="120.0" x2="234.0" y2="120.0" style="stroke:var(--fig-red);stroke-width:2.4;fill:none"/>
-  <path d="M242.0 120.0 L232.7 123.7 L232.7 116.3 Z" style="fill:var(--fig-red);stroke:none"/>
-  <text x="175.0" y="212.0" text-anchor="middle" class="umath-1-mp-t">① x 방향 차이</text>
-  <text x="175.0" y="140.0" text-anchor="middle" class="umath-1-mp-t">① x 방향 차이</text>
-  <line x1="175.0" y1="190.0" x2="175.0" y2="162.0" style="stroke:var(--fig-blue);stroke-width:2.4;fill:none"/>
-  <path d="M175.0 154.0 L178.7 163.3 L171.3 163.3 Z" style="fill:var(--fig-blue);stroke:none"/>
-  <text x="181.0" y="175.0" class="umath-1-mp-t umath-1-mp-halo">② 위 − 아래</text>
-  <text x="175.0" y="290.0" text-anchor="middle" class="umath-1-mp-tb">x 방향 차이 먼저 → f<tspan style="font-size:72%" baseline-shift="sub">xy</tspan></text>
-  <rect x="460" y="110" width="170" height="120" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:1.2"/>
-  <circle cx="460.0" cy="230.0" r="13" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.4"/>
-  <text x="460.0" y="235.0" text-anchor="middle" class="umath-1-mp-tb">+</text>
-  <text x="444.0" y="252.0" text-anchor="end" class="umath-1-mp-m">(x, y)</text>
-  <circle cx="630.0" cy="230.0" r="13" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.4"/>
-  <text x="630.0" y="235.0" text-anchor="middle" class="umath-1-mp-tb">−</text>
-  <text x="646.0" y="252.0" class="umath-1-mp-m">(x+h, y)</text>
-  <circle cx="460.0" cy="110.0" r="13" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.4"/>
-  <text x="460.0" y="115.0" text-anchor="middle" class="umath-1-mp-tb">−</text>
-  <text x="444.0" y="98.0" text-anchor="end" class="umath-1-mp-m">(x, y+k)</text>
-  <circle cx="630.0" cy="110.0" r="13" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.4"/>
-  <text x="630.0" y="115.0" text-anchor="middle" class="umath-1-mp-tb">+</text>
-  <text x="646.0" y="98.0" class="umath-1-mp-m">(x+h, y+k)</text>
-  <line x1="470.0" y1="212.0" x2="470.0" y2="136.0" style="stroke:var(--fig-blue);stroke-width:2.4;fill:none"/>
-  <path d="M470.0 128.0 L473.7 137.3 L466.3 137.3 Z" style="fill:var(--fig-blue);stroke:none"/>
-  <line x1="620.0" y1="212.0" x2="620.0" y2="136.0" style="stroke:var(--fig-blue);stroke-width:2.4;fill:none"/>
-  <path d="M620.0 128.0 L623.7 137.3 L616.3 137.3 Z" style="fill:var(--fig-blue);stroke:none"/>
-  <text x="478.0" y="148.0" class="umath-1-mp-t">①</text>
-  <text x="612.0" y="148.0" text-anchor="end" class="umath-1-mp-t">①</text>
-  <text x="545.0" y="148.0" text-anchor="middle" class="umath-1-mp-m">y 방향 차이</text>
-  <line x1="494.0" y1="170.0" x2="588.0" y2="170.0" style="stroke:var(--fig-red);stroke-width:2.4;fill:none"/>
-  <path d="M596.0 170.0 L586.7 173.7 L586.7 166.3 Z" style="fill:var(--fig-red);stroke:none"/>
-  <text x="545.0" y="192.0" text-anchor="middle" class="umath-1-mp-t umath-1-mp-halo">② 오른쪽 − 왼쪽</text>
-  <text x="545.0" y="290.0" text-anchor="middle" class="umath-1-mp-tb">y 방향 차이 먼저 → f<tspan style="font-size:72%" baseline-shift="sub">yx</tspan></text>
+  <rect x="80" y="110" width="170" height="120" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:1.2"/>
+  <circle cx="80.0" cy="230.0" r="13" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.4"/>
+  <text x="80.0" y="235.0" text-anchor="middle" class="umath-1-mp-tb">+</text>
+  <text x="64.0" y="252.0" text-anchor="end" class="umath-1-mp-m">(x, y)</text>
+  <circle cx="250.0" cy="230.0" r="13" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.4"/>
+  <text x="250.0" y="235.0" text-anchor="middle" class="umath-1-mp-tb">−</text>
+  <text x="266.0" y="252.0" class="umath-1-mp-m">(x+h, y)</text>
+  <circle cx="80.0" cy="110.0" r="13" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.4"/>
+  <text x="80.0" y="115.0" text-anchor="middle" class="umath-1-mp-tb">−</text>
+  <text x="64.0" y="98.0" text-anchor="end" class="umath-1-mp-m">(x, y+k)</text>
+  <circle cx="250.0" cy="110.0" r="13" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.4"/>
+  <text x="250.0" y="115.0" text-anchor="middle" class="umath-1-mp-tb">+</text>
+  <text x="266.0" y="98.0" class="umath-1-mp-m">(x+h, y+k)</text>
+  <line x1="98.0" y1="220.0" x2="224.0" y2="220.0" style="stroke:var(--fig-red);stroke-width:2.4;fill:none"/>
+  <path d="M232.0 220.0 L222.7 223.7 L222.7 216.3 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="98.0" y1="120.0" x2="224.0" y2="120.0" style="stroke:var(--fig-red);stroke-width:2.4;fill:none"/>
+  <path d="M232.0 120.0 L222.7 123.7 L222.7 116.3 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="165.0" y="212.0" text-anchor="middle" class="umath-1-mp-t">① x 방향 차이</text>
+  <text x="165.0" y="140.0" text-anchor="middle" class="umath-1-mp-t">① x 방향 차이</text>
+  <line x1="165.0" y1="190.0" x2="165.0" y2="162.0" style="stroke:var(--fig-blue);stroke-width:2.4;fill:none"/>
+  <path d="M165.0 154.0 L168.7 163.3 L161.3 163.3 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <text x="171.0" y="175.0" class="umath-1-mp-t umath-1-mp-halo">② 위 − 아래</text>
+  <text x="165.0" y="290.0" text-anchor="middle" class="umath-1-mp-tb">x 방향 차이 먼저 → f<tspan style="font-size:72%" baseline-shift="sub">xy</tspan></text>
+  <rect x="470" y="110" width="170" height="120" style="fill:var(--fig-soft-blue);stroke:var(--fig-line);stroke-width:1.2"/>
+  <circle cx="470.0" cy="230.0" r="13" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.4"/>
+  <text x="470.0" y="235.0" text-anchor="middle" class="umath-1-mp-tb">+</text>
+  <text x="454.0" y="252.0" text-anchor="end" class="umath-1-mp-m">(x, y)</text>
+  <circle cx="640.0" cy="230.0" r="13" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.4"/>
+  <text x="640.0" y="235.0" text-anchor="middle" class="umath-1-mp-tb">−</text>
+  <text x="656.0" y="252.0" class="umath-1-mp-m">(x+h, y)</text>
+  <circle cx="470.0" cy="110.0" r="13" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.4"/>
+  <text x="470.0" y="115.0" text-anchor="middle" class="umath-1-mp-tb">−</text>
+  <text x="454.0" y="98.0" text-anchor="end" class="umath-1-mp-m">(x, y+k)</text>
+  <circle cx="640.0" cy="110.0" r="13" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.4"/>
+  <text x="640.0" y="115.0" text-anchor="middle" class="umath-1-mp-tb">+</text>
+  <text x="656.0" y="98.0" class="umath-1-mp-m">(x+h, y+k)</text>
+  <line x1="480.0" y1="212.0" x2="480.0" y2="136.0" style="stroke:var(--fig-blue);stroke-width:2.4;fill:none"/>
+  <path d="M480.0 128.0 L483.7 137.3 L476.3 137.3 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="630.0" y1="212.0" x2="630.0" y2="136.0" style="stroke:var(--fig-blue);stroke-width:2.4;fill:none"/>
+  <path d="M630.0 128.0 L633.7 137.3 L626.3 137.3 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <text x="488.0" y="148.0" class="umath-1-mp-t">①</text>
+  <text x="622.0" y="148.0" text-anchor="end" class="umath-1-mp-t">①</text>
+  <text x="555.0" y="148.0" text-anchor="middle" class="umath-1-mp-m">y 방향 차이</text>
+  <line x1="504.0" y1="170.0" x2="598.0" y2="170.0" style="stroke:var(--fig-red);stroke-width:2.4;fill:none"/>
+  <path d="M606.0 170.0 L596.7 173.7 L596.7 166.3 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="555.0" y="192.0" text-anchor="middle" class="umath-1-mp-t umath-1-mp-halo">② 오른쪽 − 왼쪽</text>
+  <text x="555.0" y="290.0" text-anchor="middle" class="umath-1-mp-tb">y 방향 차이 먼저 → f<tspan style="font-size:72%" baseline-shift="sub">yx</tspan></text>
   <text x="360.0" y="40.0" text-anchor="middle" class="umath-1-mp-tb">Δ<tspan style="font-size:72%" baseline-shift="super">2</tspan> = f(x+h, y+k) − f(x+h, y) − f(x, y+k) + f(x, y)</text>
-  <rect x="292" y="140" width="136" height="64" rx="6" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1"/>
-  <text x="360.0" y="164.0" text-anchor="middle" class="umath-1-mp-t">같은 네 수의</text>
-  <text x="360.0" y="184.0" text-anchor="middle" class="umath-1-mp-t">같은 조합</text>
-  <text x="360.0" y="230.0" text-anchor="middle" class="umath-1-mp-tb">f<tspan style="font-size:72%" baseline-shift="sub">xy</tspan> = f<tspan style="font-size:72%" baseline-shift="sub">yx</tspan></text>
-  <text x="360.0" y="250.0" text-anchor="middle" class="umath-1-mp-m">(Δ<tspan style="font-size:72%" baseline-shift="super">2</tspan>/hk, h, k → 0)</text>
+  <rect x="296" y="122" width="128" height="98" rx="6" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1"/>
+  <text x="360.0" y="144.0" text-anchor="middle" class="umath-1-mp-t">같은 네 수의</text>
+  <text x="360.0" y="162.0" text-anchor="middle" class="umath-1-mp-t">같은 조합</text>
+  <text x="360.0" y="188.0" text-anchor="middle" class="umath-1-mp-tb">→ f<tspan style="font-size:72%" baseline-shift="sub">xy</tspan> = f<tspan style="font-size:72%" baseline-shift="sub">yx</tspan></text>
+  <text x="360.0" y="208.0" text-anchor="middle" class="umath-1-mp-m">(Δ<tspan style="font-size:72%" baseline-shift="super">2</tspan>/hk, h, k → 0)</text>
 </svg>

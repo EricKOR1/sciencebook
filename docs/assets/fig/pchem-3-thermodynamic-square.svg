@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" role="img" aria-labelledby="t-pchem-3-thermodynamic-square d-pchem-3-thermodynamic-square">
+  <title id="t-pchem-3-thermodynamic-square">그림 물리화학 3-4 열역학 사각형(외우기 도표)</title>
+  <desc id="d-pchem-3-thermodynamic-square">정사각형의 꼭짓점에 왼쪽 위부터 시계 방향으로 V, T, p, S를, 변의 가운데에 위 A, 오른쪽 G, 아래 H, 왼쪽 U를 놓고, 대각선 화살표 두 개를 S → T, p → V 방향으로 긋는다. 퍼텐셜 양옆의 꼭짓점이 자연 변수, 대각선 맞은편이 그 계수이며, 화살표가 변수에서 계수로 향하면 +, 계수에서 변수로 향하면 −이다. 예: dG = −S dT + V dp.</desc>
+  <style>.pchem-3-thermodynamic-square-t{font-size:14px;fill:var(--fig-ink)} .pchem-3-thermodynamic-square-s{font-size:13px;fill:var(--fig-muted)} .pchem-3-thermodynamic-square-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .pchem-3-thermodynamic-square-i{font-size:14px;font-style:italic;fill:var(--fig-ink)} </style>
+  <rect x="60.0" y="70.0" width="220.0" height="220.0" rx="0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
+  <line x1="78.4" y1="271.6" x2="261.6" y2="88.4" style="stroke:var(--fig-red);stroke-width:2.6;stroke-linecap:round"/>
+  <polygon points="261.6,88.4 256.7,100.4 249.6,93.3" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="261.6" y1="271.6" x2="78.4" y2="88.4" style="stroke:var(--fig-blue);stroke-width:2.6;stroke-linecap:round"/>
+  <polygon points="78.4,88.4 90.4,93.3 83.3,100.4" style="fill:var(--fig-blue);stroke:none"/>
+  <circle cx="60.0" cy="70.0" r="20.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <text x="60.0" y="77.0" text-anchor="middle" class="pchem-3-thermodynamic-square-i" style="font-size:20px;font-weight:600">V</text>
+  <circle cx="280.0" cy="70.0" r="20.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <text x="280.0" y="77.0" text-anchor="middle" class="pchem-3-thermodynamic-square-i" style="font-size:20px;font-weight:600">T</text>
+  <circle cx="280.0" cy="290.0" r="20.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <text x="280.0" y="297.0" text-anchor="middle" class="pchem-3-thermodynamic-square-i" style="font-size:20px;font-weight:600">p</text>
+  <circle cx="60.0" cy="290.0" r="20.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <text x="60.0" y="297.0" text-anchor="middle" class="pchem-3-thermodynamic-square-i" style="font-size:20px;font-weight:600">S</text>
+  <rect x="153.0" y="53.0" width="34.0" height="34.0" rx="6" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+  <text x="170.0" y="77.0" text-anchor="middle" class="pchem-3-thermodynamic-square-i" style="font-size:20px;font-weight:600">A</text>
+  <rect x="263.0" y="163.0" width="34.0" height="34.0" rx="6" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+  <text x="280.0" y="187.0" text-anchor="middle" class="pchem-3-thermodynamic-square-i" style="font-size:20px;font-weight:600">G</text>
+  <rect x="153.0" y="273.0" width="34.0" height="34.0" rx="6" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+  <text x="170.0" y="297.0" text-anchor="middle" class="pchem-3-thermodynamic-square-i" style="font-size:20px;font-weight:600">H</text>
+  <rect x="43.0" y="163.0" width="34.0" height="34.0" rx="6" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2"/>
+  <text x="60.0" y="187.0" text-anchor="middle" class="pchem-3-thermodynamic-square-i" style="font-size:20px;font-weight:600">U</text>
+  <text x="170.0" y="330.0" text-anchor="middle" class="pchem-3-thermodynamic-square-s">꼭짓점: 변수   변: 퍼텐셜</text>
+  <text x="170.0" y="350.0" text-anchor="middle" class="pchem-3-thermodynamic-square-s">대각선 화살표: S → T, p → V</text>
+  <text x="330.0" y="40.0" text-anchor="start" class="pchem-3-thermodynamic-square-b">읽는 법 (예: dG)</text>
+  <text x="330.0" y="70.0" text-anchor="start" class="pchem-3-thermodynamic-square-t">① G 양옆의 꼭짓점 T, p가 자연 변수이다.</text>
+  <text x="330.0" y="96.0" text-anchor="start" class="pchem-3-thermodynamic-square-t">② dT의 계수는 대각선 맞은편의 S.</text>
+  <text x="330.0" y="122.0" text-anchor="start" class="pchem-3-thermodynamic-square-s" style="fill:var(--fig-red)">    화살표가 S에서 T로(계수 → 변수) 향하므로 −S dT</text>
+  <text x="330.0" y="148.0" text-anchor="start" class="pchem-3-thermodynamic-square-t">③ dp의 계수는 대각선 맞은편의 V.</text>
+  <text x="330.0" y="174.0" text-anchor="start" class="pchem-3-thermodynamic-square-s" style="fill:var(--fig-blue)">    화살표가 p에서 V로(변수 → 계수) 향하므로 +V dp</text>
+  <text x="330.0" y="200.0" text-anchor="start" class="pchem-3-thermodynamic-square-b">④ 결과  dG = −S dT + V dp</text>
+  <rect x="322.0" y="214.0" width="388.0" height="52.0" rx="6" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.2"/>
+  <text x="330.0" y="232.0" text-anchor="start" class="pchem-3-thermodynamic-square-t">일반 규칙: 화살표가 변수에서 계수로 향하면 +,</text>
+  <text x="330.0" y="254.0" text-anchor="start" class="pchem-3-thermodynamic-square-t">계수에서 변수로 향하면 −</text>
+  <text x="330.0" y="298.0" text-anchor="start" class="pchem-3-thermodynamic-square-s">같은 방법으로 나머지 셋도 읽는다:</text>
+  <text x="344.0" y="320.0" text-anchor="start" class="pchem-3-thermodynamic-square-t">dU = T dS − p dV</text>
+  <text x="344.0" y="342.0" text-anchor="start" class="pchem-3-thermodynamic-square-t">dH = T dS + V dp</text>
+  <text x="344.0" y="364.0" text-anchor="start" class="pchem-3-thermodynamic-square-t">dA = −S dT − p dV</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-labelledby="t-umath-2-q-pendulum-period d-umath-2-q-pendulum-period">
+  <title id="t-umath-2-q-pendulum-period">그림 수학 도구 2-17 문제 12 해설: 진폭에 따른 단진자 주기 보정</title>
+  <desc id="d-umath-2-q-pendulum-period">정확한 주기 비 T/T₀ = (2/π)K(sin²(θ₀/2))(실선)와 근사 1 + θ₀²/16(점선, θ₀는 라디안). 30°까지는 두 곡선이 거의 겹치고(30°에서 1.0174와 1.0171), 진폭이 커질수록 근사가 작게 어림한다(90°에서 1.1803과 1.1542). T/T₀ = 1은 주기가 진폭과 무관하다는 작은 각 근사이다.</desc>
+  <style>
+    .umath-2-q-pendulum-period-t{font-size:14px;fill:var(--fig-ink)}
+    .umath-2-q-pendulum-period-s{font-size:13px;fill:var(--fig-muted)}
+    .umath-2-q-pendulum-period-b{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .umath-2-q-pendulum-period-tick{font-size:13px;fill:var(--fig-muted)}
+  </style>
+  <defs><clipPath id="umath-2-q-pendulum-period-clip-80-30"><rect x="80.0" y="29.0" width="601.0" height="252.0"/></clipPath></defs>
+  <line x1="80.0" y1="280.0" x2="680.0" y2="280.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:2 4"/>
+  <line x1="80.0" y1="217.5" x2="680.0" y2="217.5" style="stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:2 4"/>
+  <line x1="80.0" y1="155.0" x2="680.0" y2="155.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:2 4"/>
+  <line x1="80.0" y1="92.5" x2="680.0" y2="92.5" style="stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:2 4"/>
+  <line x1="80.0" y1="30.0" x2="680.0" y2="30.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:2 4"/>
+  <line x1="80.0" y1="280.0" x2="80.0" y2="285.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="80.0" y="299.0" class="umath-2-q-pendulum-period-tick" text-anchor="middle">0</text>
+  <line x1="180.0" y1="280.0" x2="180.0" y2="285.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="180.0" y="299.0" class="umath-2-q-pendulum-period-tick" text-anchor="middle">15</text>
+  <line x1="280.0" y1="280.0" x2="280.0" y2="285.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="280.0" y="299.0" class="umath-2-q-pendulum-period-tick" text-anchor="middle">30</text>
+  <line x1="380.0" y1="280.0" x2="380.0" y2="285.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="380.0" y="299.0" class="umath-2-q-pendulum-period-tick" text-anchor="middle">45</text>
+  <line x1="480.0" y1="280.0" x2="480.0" y2="285.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="480.0" y="299.0" class="umath-2-q-pendulum-period-tick" text-anchor="middle">60</text>
+  <line x1="580.0" y1="280.0" x2="580.0" y2="285.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="580.0" y="299.0" class="umath-2-q-pendulum-period-tick" text-anchor="middle">75</text>
+  <line x1="680.0" y1="280.0" x2="680.0" y2="285.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="680.0" y="299.0" class="umath-2-q-pendulum-period-tick" text-anchor="middle">90</text>
+  <line x1="75.0" y1="280.0" x2="80.0" y2="280.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="72.0" y="284.5" class="umath-2-q-pendulum-period-tick" text-anchor="end">1.00</text>
+  <line x1="75.0" y1="217.5" x2="80.0" y2="217.5" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="72.0" y="222.0" class="umath-2-q-pendulum-period-tick" text-anchor="end">1.05</text>
+  <line x1="75.0" y1="155.0" x2="80.0" y2="155.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="72.0" y="159.5" class="umath-2-q-pendulum-period-tick" text-anchor="end">1.10</text>
+  <line x1="75.0" y1="92.5" x2="80.0" y2="92.5" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="72.0" y="97.0" class="umath-2-q-pendulum-period-tick" text-anchor="end">1.15</text>
+  <line x1="75.0" y1="30.0" x2="80.0" y2="30.0" style="stroke:var(--fig-ink);stroke-width:1"/>
+  <text x="72.0" y="34.5" class="umath-2-q-pendulum-period-tick" text-anchor="end">1.20</text>
+  <line x1="80.0" y1="280.0" x2="680.0" y2="280.0" style="stroke:var(--fig-ink);stroke-width:1.3"/>
+  <line x1="80.0" y1="30.0" x2="80.0" y2="280.0" style="stroke:var(--fig-ink);stroke-width:1.3"/>
+  <text x="380.0" y="316.0" class="umath-2-q-pendulum-period-t" text-anchor="middle">진폭 θ₀ (°)</text>
+  <text x="30.0" y="155.0" class="umath-2-q-pendulum-period-t" text-anchor="middle" transform="rotate(-90 30.0 155.0)">T/T₀</text>
+  <rect x="80.0" y="30.0" width="200.0" height="250.0" style="fill:var(--fig-soft-green);stroke:none;opacity:0.7"/>
+  <line x1="80.0" y1="280.0" x2="680.0" y2="280.0" style="stroke:var(--fig-muted);stroke-width:2"/>
+  <g clip-path="url(#umath-2-q-pendulum-period-clip-80-30)"><path d="M80.0 280.0 L83.3 280.0 L86.7 280.0 L90.0 279.9 L93.3 279.9 L96.7 279.9 L100.0 279.8 L103.3 279.7 L106.7 279.6 L110.0 279.5 L113.3 279.4 L116.7 279.3 L120.0 279.1 L123.3 279.0 L126.7 278.8 L130.0 278.7 L133.3 278.5 L136.7 278.3 L140.0 278.1 L143.3 277.9 L146.7 277.6 L150.0 277.4 L153.3 277.1 L156.7 276.9 L160.0 276.6 L163.3 276.3 L166.7 276.0 L170.0 275.7 L173.3 275.3 L176.7 275.0 L180.0 274.6 L183.3 274.3 L186.7 273.9 L190.0 273.5 L193.3 273.1 L196.7 272.7 L200.0 272.3 L203.3 271.9 L206.7 271.4 L210.0 271.0 L213.3 270.5 L216.7 270.0 L220.0 269.5 L223.3 269.0 L226.7 268.5 L230.0 268.0 L233.3 267.4 L236.7 266.9 L240.0 266.3 L243.3 265.7 L246.7 265.1 L250.0 264.5 L253.3 263.9 L256.7 263.3 L260.0 262.7 L263.3 262.0 L266.7 261.3 L270.0 260.7 L273.3 260.0 L276.7 259.3 L280.0 258.6 L283.3 257.9 L286.7 257.1 L290.0 256.4 L293.3 255.6 L296.7 254.9 L300.0 254.1 L303.3 253.3 L306.7 252.5 L310.0 251.7 L313.3 250.8 L316.7 250.0 L320.0 249.2 L323.3 248.3 L326.7 247.4 L330.0 246.5 L333.3 245.6 L336.7 244.7 L340.0 243.8 L343.3 242.9 L346.7 241.9 L350.0 241.0 L353.3 240.0 L356.7 239.0 L360.0 238.0 L363.3 237.0 L366.7 236.0 L370.0 235.0 L373.3 233.9 L376.7 232.9 L380.0 231.8 L383.3 230.7 L386.7 229.6 L390.0 228.5 L393.3 227.4 L396.7 226.3 L400.0 225.2 L403.3 224.0 L406.7 222.9 L410.0 221.7 L413.3 220.5 L416.7 219.3 L420.0 218.1 L423.3 216.9 L426.7 215.6 L430.0 214.4 L433.3 213.2 L436.7 211.9 L440.0 210.6 L443.3 209.3 L446.7 208.0 L450.0 206.7 L453.3 205.4 L456.7 204.0 L460.0 202.7 L463.3 201.3 L466.7 199.9 L470.0 198.6 L473.3 197.2 L476.7 195.7 L480.0 194.3 L483.3 192.9 L486.7 191.4 L490.0 190.0 L493.3 188.5 L496.7 187.0 L500.0 185.5 L503.3 184.0 L506.7 182.5 L510.0 181.0 L513.3 179.5 L516.7 177.9 L520.0 176.3 L523.3 174.8 L526.7 173.2 L530.0 171.6 L533.3 170.0 L536.7 168.3 L540.0 166.7 L543.3 165.0 L546.7 163.4 L550.0 161.7 L553.3 160.0 L556.7 158.3 L560.0 156.6 L563.3 154.9 L566.7 153.2 L570.0 151.4 L573.3 149.7 L576.7 147.9 L580.0 146.1 L583.3 144.3 L586.7 142.5 L590.0 140.7 L593.3 138.9 L596.7 137.1 L600.0 135.2 L603.3 133.3 L606.7 131.5 L610.0 129.6 L613.3 127.7 L616.7 125.8 L620.0 123.9 L623.3 121.9 L626.7 120.0 L630.0 118.0 L633.3 116.1 L636.7 114.1 L640.0 112.1 L643.3 110.1 L646.7 108.1 L650.0 106.0 L653.3 104.0 L656.7 101.9 L660.0 99.9 L663.3 97.8 L666.7 95.7 L670.0 93.6 L673.3 91.5 L676.7 89.4 L680.0 87.2" style="fill:none;stroke:var(--fig-blue);stroke-width:2.2;stroke-dasharray:7 5"/></g>
+  <g clip-path="url(#umath-2-q-pendulum-period-clip-80-30)"><path d="M80.0 280.0 L83.3 280.0 L86.7 280.0 L90.0 279.9 L93.3 279.9 L96.7 279.9 L100.0 279.8 L103.3 279.7 L106.7 279.6 L110.0 279.5 L113.3 279.4 L116.7 279.3 L120.0 279.1 L123.3 279.0 L126.7 278.8 L130.0 278.7 L133.3 278.5 L136.7 278.3 L140.0 278.1 L143.3 277.8 L146.7 277.6 L150.0 277.4 L153.3 277.1 L156.7 276.8 L160.0 276.6 L163.3 276.3 L166.7 276.0 L170.0 275.6 L173.3 275.3 L176.7 275.0 L180.0 274.6 L183.3 274.3 L186.7 273.9 L190.0 273.5 L193.3 273.1 L196.7 272.7 L200.0 272.2 L203.3 271.8 L206.7 271.4 L210.0 270.9 L213.3 270.4 L216.7 269.9 L220.0 269.4 L223.3 268.9 L226.7 268.4 L230.0 267.8 L233.3 267.3 L236.7 266.7 L240.0 266.2 L243.3 265.6 L246.7 265.0 L250.0 264.3 L253.3 263.7 L256.7 263.1 L260.0 262.4 L263.3 261.8 L266.7 261.1 L270.0 260.4 L273.3 259.7 L276.7 259.0 L280.0 258.2 L283.3 257.5 L286.7 256.7 L290.0 256.0 L293.3 255.2 L296.7 254.4 L300.0 253.6 L303.3 252.8 L306.7 251.9 L310.0 251.1 L313.3 250.2 L316.7 249.3 L320.0 248.4 L323.3 247.5 L326.7 246.6 L330.0 245.7 L333.3 244.7 L336.7 243.8 L340.0 242.8 L343.3 241.8 L346.7 240.8 L350.0 239.8 L353.3 238.8 L356.7 237.7 L360.0 236.7 L363.3 235.6 L366.7 234.5 L370.0 233.4 L373.3 232.3 L376.7 231.2 L380.0 230.0 L383.3 228.9 L386.7 227.7 L390.0 226.5 L393.3 225.3 L396.7 224.1 L400.0 222.9 L403.3 221.6 L406.7 220.3 L410.0 219.1 L413.3 217.8 L416.7 216.5 L420.0 215.1 L423.3 213.8 L426.7 212.4 L430.0 211.1 L433.3 209.7 L436.7 208.3 L440.0 206.9 L443.3 205.4 L446.7 204.0 L450.0 202.5 L453.3 201.0 L456.7 199.5 L460.0 198.0 L463.3 196.5 L466.7 194.9 L470.0 193.3 L473.3 191.7 L476.7 190.1 L480.0 188.5 L483.3 186.9 L486.7 185.2 L490.0 183.6 L493.3 181.9 L496.7 180.2 L500.0 178.4 L503.3 176.7 L506.7 174.9 L510.0 173.1 L513.3 171.3 L516.7 169.5 L520.0 167.7 L523.3 165.8 L526.7 164.0 L530.0 162.1 L533.3 160.2 L536.7 158.2 L540.0 156.3 L543.3 154.3 L546.7 152.3 L550.0 150.3 L553.3 148.3 L556.7 146.2 L560.0 144.2 L563.3 142.1 L566.7 140.0 L570.0 137.8 L573.3 135.7 L576.7 133.5 L580.0 131.3 L583.3 129.1 L586.7 126.8 L590.0 124.6 L593.3 122.3 L596.7 120.0 L600.0 117.7 L603.3 115.3 L606.7 112.9 L610.0 110.6 L613.3 108.1 L616.7 105.7 L620.0 103.2 L623.3 100.7 L626.7 98.2 L630.0 95.7 L633.3 93.1 L636.7 90.5 L640.0 87.9 L643.3 85.3 L646.7 82.6 L650.0 79.9 L653.3 77.2 L656.7 74.5 L660.0 71.7 L663.3 68.9 L666.7 66.1 L670.0 63.3 L673.3 60.4 L676.7 57.5 L680.0 54.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.6"/></g>
+  <text x="666.7" y="272.0" class="umath-2-q-pendulum-period-t" text-anchor="end" style="fill:var(--fig-muted)">T/T₀ = 1 : 작은 각 근사</text>
+  <text x="180.0" y="67.5" class="umath-2-q-pendulum-period-t" text-anchor="middle" style="fill:var(--fig-green);font-weight:600">근사가 잘</text>
+  <text x="180.0" y="85.5" class="umath-2-q-pendulum-period-t" text-anchor="middle" style="fill:var(--fig-green);font-weight:600">맞는 범위</text>
+  <circle cx="280.0" cy="258.2" r="3.5" style="fill:var(--fig-ink)"/>
+  <circle cx="480.0" cy="188.5" r="3.5" style="fill:var(--fig-ink)"/>
+  <circle cx="680.0" cy="54.6" r="3.5" style="fill:var(--fig-ink)"/>
+  <text x="280.0" y="248.2" class="umath-2-q-pendulum-period-s" text-anchor="middle">1.0174</text>
+  <text x="474.0" y="180.5" class="umath-2-q-pendulum-period-s" text-anchor="end">1.0732</text>
+  <text x="674.0" y="52.6" class="umath-2-q-pendulum-period-s" text-anchor="end">1.1803</text>
+  <text x="674.0" y="105.2" class="umath-2-q-pendulum-period-s" text-anchor="end" style="fill:var(--fig-blue)">1.1542</text>
+  <text x="426.7" y="111.2" class="umath-2-q-pendulum-period-t" text-anchor="end" style="font-weight:600">정확한 값 (2/π)K</text>
+  <text x="520.0" y="223.8" class="umath-2-q-pendulum-period-t" style="fill:var(--fig-blue);font-weight:600">근사 1 + θ₀²/16</text>
+</svg>

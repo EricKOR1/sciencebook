@@ -57,20 +57,18 @@
   <polyline points="84.0,71.1 325.3,176.8" style="fill:none;stroke:var(--fig-teal);stroke-width:1.2;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:2 4"/>
   <line x1="534.2" y1="50.0" x2="534.2" y2="350.0" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:round;stroke-dasharray:3 4"/>
   <circle cx="534.2" cy="257.6" r="4.5" style="fill:var(--fig-panel);stroke:var(--fig-blue);stroke-width:2"/>
-  <rect x="541.2" y="235.6" width="102.7" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
-  <text x="544.2" y="247.6" text-anchor="start" class="pchem-4-triple-point-lnp-s" style="fill:var(--fig-blue)">과냉각 물 288 Pa</text>
+  <rect x="541.2" y="235.6" width="143.0" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
+  <text x="544.2" y="247.6" text-anchor="start" class="pchem-4-triple-point-lnp-s" style="fill:var(--fig-blue)">과냉각 물(준안정) 288 Pa</text>
   <circle cx="534.2" cy="268.4" r="4.5" style="fill:var(--fig-panel);stroke:var(--fig-teal);stroke-width:2"/>
-  <rect x="541.2" y="274.4" width="78.5" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
-  <text x="544.2" y="286.4" text-anchor="start" class="pchem-4-triple-point-lnp-s" style="fill:var(--fig-teal)">얼음 260 Pa</text>
+  <rect x="448.6" y="280.4" width="78.5" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
+  <text x="524.2" y="292.4" text-anchor="end" class="pchem-4-triple-point-lnp-s" style="fill:var(--fig-teal)">얼음 260 Pa</text>
   <text x="534.2" y="342.0" text-anchor="middle" class="pchem-4-triple-point-lnp-s">263.15 K (−10 ℃)</text>
   <circle cx="325.3" cy="176.8" r="5.5" style="fill:var(--fig-red);stroke:none"/>
   <text x="335.3" y="162.8" text-anchor="start" class="pchem-4-triple-point-lnp-t" style="fill:var(--fig-red)">삼중점</text>
   <text x="335.3" y="178.8" text-anchor="start" class="pchem-4-triple-point-lnp-s" style="fill:var(--fig-red)">(1/273.16 K, 6.416)</text>
   <rect x="118.5" y="112.0" width="175.3" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
   <text x="121.5" y="124.0" text-anchor="start" class="pchem-4-triple-point-lnp-s" style="fill:var(--fig-blue)">물(액체)의 증발선: 기울기 −5413 K</text>
-  <rect x="516.0" y="211.7" width="86.6" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
-  <text x="519.0" y="223.7" text-anchor="start" class="pchem-4-triple-point-lnp-s" style="fill:var(--fig-blue)">과냉각 물(준안정)</text>
-  <rect x="381.0" y="214.6" width="159.1" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
-  <text x="384.0" y="226.6" text-anchor="start" class="pchem-4-triple-point-lnp-s" style="fill:var(--fig-teal)">얼음의 승화선: 기울기 −6134 K</text>
+  <rect x="201.0" y="273.7" width="159.1" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
+  <text x="204.0" y="285.7" text-anchor="start" class="pchem-4-triple-point-lnp-s" style="fill:var(--fig-teal)">얼음의 승화선: 기울기 −6134 K</text>
   <text x="360.0" y="410.0" text-anchor="middle" class="pchem-4-triple-point-lnp-s">1/T이 커지는 오른쪽이 낮은 온도이다. 가는 점선은 삼중점 위의 과열 얼음(준안정) 쪽 연장이다.</text>
 </svg>

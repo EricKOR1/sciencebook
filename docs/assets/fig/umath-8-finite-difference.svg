@@ -60,17 +60,17 @@
   <text x="85" y="60" text-anchor="middle" class="u8fd-s">u = 0 고정</text>
   <text x="585" y="60" text-anchor="middle" class="u8fd-s">u = 0 고정</text>
   <text x="285" y="225" text-anchor="middle" class="u8fd-sm">u_(i−1)</text>
-  <line x1="285" y1="200" x2="325" y2="122" class="u8fd-ar"/>
-  <path d="M325 116 L324.4 125 L318.4 122.1 Z" class="u8fd-ah"/>
-  <text x="291" y="162" text-anchor="end" class="u8fd-w">r</text>
+  <path d="M285 200 Q240 160 325 120" class="u8fd-ar"/>
+  <path d="M325 114 L319.2 120.9 L316.1 115 Z" class="u8fd-ah"/>
+  <text x="263" y="150" text-anchor="end" class="u8fd-w">r</text>
   <text x="335" y="225" text-anchor="middle" class="u8fd-sm">u_i</text>
-  <line x1="335" y1="200" x2="335" y2="122" class="u8fd-ar"/>
-  <path d="M335 116 L338.3 124.4 L331.7 124.4 Z" class="u8fd-ah"/>
-  <text x="343" y="162" text-anchor="start" class="u8fd-w">1 − 2r</text>
+  <path d="M335 200 Q335 160 335 120" class="u8fd-ar"/>
+  <path d="M335 114 L338.3 122.4 L331.7 122.4 Z" class="u8fd-ah"/>
+  <text x="341" y="158" class="u8fd-w">1 − 2r</text>
   <text x="385" y="225" text-anchor="middle" class="u8fd-sm">u_(i+1)</text>
-  <line x1="385" y1="200" x2="345" y2="122" class="u8fd-ar"/>
-  <path d="M345 116 L351.6 122.1 L345.6 125 Z" class="u8fd-ah"/>
-  <text x="379" y="162" text-anchor="start" class="u8fd-w">r</text>
+  <path d="M385 200 Q430 160 345 120" class="u8fd-ar"/>
+  <path d="M345 114 L353.9 115 L350.8 120.9 Z" class="u8fd-ah"/>
+  <text x="407" y="150" text-anchor="start" class="u8fd-w">r</text>
   <text x="335" y="94" text-anchor="middle" class="u8fd-sm">u_i(새)</text>
   <text x="690" y="148" text-anchor="end" class="u8fd-b">r = αΔt/Δx²</text>
   <text x="60" y="290" class="u8fd-s">u_i(새) = r·u_(i−1) + (1 − 2r)·u_i + r·u_(i+1)</text>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-umath-4-euler-geometry d-umath-4-euler-geometry">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 412" role="img" aria-labelledby="t-umath-4-euler-geometry d-umath-4-euler-geometry">
   <title id="t-umath-4-euler-geometry">그림 수학 도구 4-11 오일러법의 기하적 의미</title>
   <desc id="d-umath-4-euler-geometry">y′ = −y, y(0) = 1을 계단 h = 0.25로 푼 오일러 꺾은선(점 (0, 1), (0.25, 0.75), (0.5, 0.5625), (0.75, 0.4219), (1.0, 0.3164))과 정확한 해 y = e^(−t). 각 계단은 시작점의 기울기로 직선을 그어 나아간다. 첫 계단의 국소 오차는 0.7788 − 0.75 = 0.029, t = 1의 전체 오차는 0.3679 − 0.3164 = 0.0515이다.</desc>
   <defs><clipPath id="umath-4-euler-geometry-clip1"><rect x="80" y="38" width="520" height="304"/></clipPath></defs>
@@ -58,5 +58,5 @@
   <text x="616" y="333.94" text-anchor="start" style="font-size:12px;fill:var(--fig-ink)">0.0515</text>
   <text x="371.2" y="202.86" text-anchor="start" style="font-size:14px;fill:var(--fig-blue);font-weight:600;paint-order:stroke;stroke:var(--fig-paper);stroke-width:4px;stroke-linejoin:round">정확한 해 y = e<tspan dy="-5" style="font-size:0.72em">−t</tspan><tspan dy="5">​</tspan></text>
   <text x="272.4" y="271.43" text-anchor="start" style="font-size:14px;fill:var(--fig-red);font-weight:600;paint-order:stroke;stroke:var(--fig-paper);stroke-width:4px;stroke-linejoin:round">오일러 꺾은선 (h = 0.25)</text>
-  <text x="80" y="392" text-anchor="start" style="font-size:12px;fill:var(--fig-muted)">점 좌표: (0, 1), (0.25, 0.75), (0.5, 0.5625), (0.75, 0.4219), (1.0, 0.3164)</text>
+  <text x="80" y="404" text-anchor="start" style="font-size:12px;fill:var(--fig-muted)">점 좌표: (0, 1), (0.25, 0.75), (0.5, 0.5625), (0.75, 0.4219), (1.0, 0.3164)</text>
 </svg>

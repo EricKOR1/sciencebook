@@ -30,11 +30,11 @@
   <line x1="80" y1="50.7" x2="680" y2="50.7" class="u8gs-grid"/>
   <path d="M80 24 L80 264 L680 264" class="u8gs-ax"/>
   <line x1="80" y1="264" x2="80" y2="269" class="u8gs-tk"/>
-  <text x="80" y="283" text-anchor="middle" class="u8gs-s">-6</text>
+  <text x="80" y="283" text-anchor="middle" class="u8gs-s">−6</text>
   <line x1="180" y1="264" x2="180" y2="269" class="u8gs-tk"/>
-  <text x="180" y="283" text-anchor="middle" class="u8gs-s">-4</text>
+  <text x="180" y="283" text-anchor="middle" class="u8gs-s">−4</text>
   <line x1="280" y1="264" x2="280" y2="269" class="u8gs-tk"/>
-  <text x="280" y="283" text-anchor="middle" class="u8gs-s">-2</text>
+  <text x="280" y="283" text-anchor="middle" class="u8gs-s">−2</text>
   <line x1="380" y1="264" x2="380" y2="269" class="u8gs-tk"/>
   <text x="380" y="283" text-anchor="middle" class="u8gs-s">0</text>
   <line x1="480" y1="264" x2="480" y2="269" class="u8gs-tk"/>
@@ -70,7 +70,8 @@
   <line x1="313.3" y1="233.6" x2="446.7" y2="233.6" class="u8gs-ar"/>
   <path d="M309.3 233.6 L316.7 230.6 L316.7 236.5 Z" class="u8gs-ah"/>
   <path d="M450.7 233.6 L443.3 236.5 L443.3 230.6 Z" class="u8gs-ah"/>
-  <text x="380" y="225.6" text-anchor="middle" class="u8gs-l2">±√(2Dt) = ±1.41</text>
+  <text x="90" y="200" class="u8gs-l2">t = 1의 폭 ±√(2Dt) = ±1.41</text>
+  <line x1="200" y1="205.3" x2="330" y2="230.6" class="u8gs-ar"/>
   <line x1="309.3" y1="233.6" x2="309.3" y2="264" class="u8gs-grid"/>
   <line x1="450.7" y1="233.6" x2="450.7" y2="264" class="u8gs-grid"/>
   <rect x="90" y="36.4" width="196" height="50" rx="6" class="u8gs-box"/>
