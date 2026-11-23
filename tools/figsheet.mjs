@@ -1,6 +1,7 @@
 // 그림 모아 보기(점검용): node figsheet.mjs <저장할 png> <light|dark> <단원id:그림이름> …
 // 빌드된 쪽에서 그림(figure#fig-이름)을 찍어 한 장으로 모은다. 여러 그림을 한눈에 확인할 때 쓴다.
 // 접힌 정답·해설(<details>) 안의 그림도 펼쳐서 찍는다.
+import fs0 from 'node:fs';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
@@ -9,7 +10,7 @@ import puppeteer from 'puppeteer';
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const [, , out, theme, ...items] = process.argv;
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'figsheet-'));
-const b = await puppeteer.launch({ executablePath: process.env.CHROME_PATH || '/opt/pw-browsers/chromium-1194/chrome-linux/chrome', args: ['--no-sandbox'] });
+const b = await puppeteer.launch({ executablePath: process.env.CHROME_PATH || (fs0.existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : '/opt/pw-browsers/chromium-1194/chrome-linux/chrome'), args: ['--no-sandbox'] });
 const shots = [];
 const pages = new Map();
 for (const it of items) {

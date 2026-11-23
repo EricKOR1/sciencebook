@@ -1,9 +1,10 @@
 // 화면 확인 도구: node screenshot.mjs <html 파일> <저장할 png> [CSS 선택자|-] [light|dark] [너비]
 // 콘솔 오류와, 애니메이션(figure.sim)이 제대로 붙었는지도 함께 알려 준다.
+import fs0 from 'node:fs';
 import path from 'node:path';
 import puppeteer from 'puppeteer';
 const [, , file, out, sel = '-', theme = 'light', width = '1280'] = process.argv;
-const b = await puppeteer.launch({ executablePath: process.env.CHROME_PATH || '/opt/pw-browsers/chromium-1194/chrome-linux/chrome', args: ['--no-sandbox'] });
+const b = await puppeteer.launch({ executablePath: process.env.CHROME_PATH || (fs0.existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : '/opt/pw-browsers/chromium-1194/chrome-linux/chrome'), args: ['--no-sandbox'] });
 const p = await b.newPage();
 const errs = [];
 p.on('console', (m) => { if (m.type() === 'error') errs.push(m.text()); });

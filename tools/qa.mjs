@@ -1,6 +1,7 @@
 // 사이트 전체 점검: node qa.mjs [쪽 이름 …]   (이름을 주지 않으면 docs/*.html 전부)
 // 쪽마다 밝은 화면 1280px, 어두운 화면 390px 로 열어 콘솔 오류, 가로 넘침, 시뮬레이션 작동 여부를 보고,
 // 내부 링크(파일·#위치)가 끊어진 곳이 없는지 확인한다.
+import fs0 from 'node:fs';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -31,7 +32,7 @@ for (const pg of pages) {
 }
 
 // 2) 화면
-const browser = await puppeteer.launch({ executablePath: process.env.CHROME_PATH || '/opt/pw-browsers/chromium-1194/chrome-linux/chrome', args: ['--no-sandbox'] });
+const browser = await puppeteer.launch({ executablePath: process.env.CHROME_PATH || (fs0.existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : '/opt/pw-browsers/chromium-1194/chrome-linux/chrome'), args: ['--no-sandbox'] });
 const CONFIGS = [{ theme: 'light', width: 1280 }, { theme: 'dark', width: 390 }];
 let simTotal = 0;
 async function check(pg, cfg) {

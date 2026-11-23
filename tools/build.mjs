@@ -11,6 +11,7 @@
 //     <!-- fig:이름 -->            docs/assets/fig/이름.svg 그림
 //     <!-- sim:이름 -->            docs/assets/js/sims/이름.js 인터랙티브 시뮬레이션
 //     <!-- photo:이름 -->          docs/assets/photos/photos.json 에 등록된 사진(파일이 있을 때만)
+import fs0 from 'node:fs';
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
@@ -23,7 +24,7 @@ const ROOT = path.resolve(HERE, '..');
 const OUT = path.join(ROOT, 'docs');
 const ASSETS = path.join(OUT, 'assets');
 const CACHE = path.join(HERE, '.cache');
-const CHROME = process.env.CHROME_PATH || '/opt/pw-browsers/chromium-1194/chrome-linux/chrome';
+const CHROME = process.env.CHROME_PATH || (fs0.existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : '/opt/pw-browsers/chromium-1194/chrome-linux/chrome');
 const CFG = JSON.parse(fs.readFileSync(path.join(HERE, 'book.json'), 'utf8'));
 const BOOK = CFG.title;
 const EXTRA = CFG.extra;
