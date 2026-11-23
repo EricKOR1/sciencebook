@@ -276,7 +276,7 @@ $\Delta_\mathrm{r}G^\circ$는 온도와 표준 상태의 선택에만 의존하�
 ($f_J$는 물리화학 3의 **퓨가시티**, $\phi_J$는 퓨가시티 계수이다.) 순수한 응축상의 활동도가 1인 것은 '양이 많아도 화학 퍼텐셜이 그대로'이기 때문이다. 엄밀히는 $\ln a = V_\mathrm{m}(p - p^\circ)/RT$만큼 압력에 의존하지만, 고체의 몰부피는 작아서, 몰부피가 $40\ \mathrm{cm^3/mol}$인 고체도 $p = 10\ \mathrm{bar}$에서 $a = e^{0.0145} \approx 1.015$로 1에서 2 % 이내로 벗어날 뿐이다.
 
 > [!WARNING]
-> 표준 상태의 '1 mol/kg 용액'이나 '1 bar 이상 기체'는 **실제로 존재하는 용액·기체가 아니라 가상 상태**이다. 실제 1 mol/kg 염화 나트륨 용액의 활동도는 1이 아니라 약 0.66이다. $\Delta_\mathrm{r}G^\circ$는 이 가상 상태들 사이의 차이이며, 같은 반응이라도 표준 상태를 몰 농도($c^\circ = 1\ \mathrm{mol/L}$) 기준으로 바꾸면 $\Delta_\mathrm{r}G^\circ$와 $K$의 값이 달라진다.
+> 표준 상태의 '1 mol/kg 용액'이나 '1 bar 이상 기체'는 **실제로 존재하는 용액·기체가 아니라 가상 상태**이다. 실제 1 mol/kg 염화 나트륨 용액에서 이온의 평균 활동도 $a_\pm = \gamma_\pm b/b^\circ$(⑤)는 1이 아니라 약 0.66이다. $\Delta_\mathrm{r}G^\circ$는 이 가상 상태들 사이의 차이이며, 같은 반응이라도 표준 상태를 몰 농도($c^\circ = 1\ \mathrm{mol/L}$) 기준으로 바꾸면 $\Delta_\mathrm{r}G^\circ$와 $K$의 값이 달라진다.
 
 #### 여러 가지 평형 상수의 관계
 
@@ -289,7 +289,7 @@ $\Delta_\mathrm{r}G^\circ$는 온도와 표준 상태의 선택에만 의존하�
 | $K_x$ | $\prod x_J^{\nu_J}$ | $K = K_x\left(\dfrac{p}{p^\circ}\right)^{\Delta\nu}$ |
 | (실제 기체) | $K = K_\phi K_p$ | $K_\phi = \prod\phi_J^{\nu_J}$ |
 
-$K_c$ 관계는 $p_J = c_JRT$에서, $K_x$ 관계는 $p_J = x_Jp$에서 바로 나온다. $K_c$와 $K_x$는 일반적으로 무차원이 아니면서 각각 온도, 압력에 의존하는 '편의상의 상수'이고, 열역학적 의미를 갖는 것은 $K$이다.
+$K_c$ 관계는 $p_J = c_JRT$에서, $K_x$ 관계는 $p_J = x_Jp$에서 바로 나온다. $K_c$는 $(c^\circ RT/p^\circ)^{\Delta\nu}$ 인자 때문에 $K$와 다른 온도 의존을 갖고, $K_x$는 $\Delta\nu \neq 0$이면 압력에도 의존하는 '편의상의 상수'이고, 열역학적 의미를 갖는 것은 $K$이다.
 
 #### 예제 2 — 표준 생성 깁스 에너지로 $K$와 $K_c$ 구하기
 
@@ -913,7 +913,7 @@ $y$를 $\sqrt{b}$에 대해 그리면 묽은 쪽에서 직선이 되고, **절�
 |---|---|---|---|---|
 | $E$ (V) | 0.5791 | 0.5442 | 0.4984 | 0.4642 |
 
-(1) $y = E + (2RT/F)\ln b$와 $\sqrt{b}$를 계산하고 최소 제곱 직선으로 $E^\circ$를 구하시오. (2) 정밀 측정값 $E^\circ = 0.2223\ \mathrm{V}$를 써서 $b = 0.0100$에서의 $\gamma_\pm$를 구하고 극한 법칙과 비교하시오. ($2RT/F = 0.05139\ \mathrm{V}$)
+(1) $y = E + (2RT/F)\ln b$와 $\sqrt{b}$를 계산하고 최소 제곱 직선으로 $E^\circ$를 구하시오. (2) 정밀 측정값 $E^\circ = 0.2223\ \mathrm{V}$를 써서 $b = 0.0100$에서의 $\gamma_\pm$를 구하고 극한 법칙과 비교하시오. ($2RT/F = 0.051385\ \mathrm{V}$)
 
 <!-- 그림 요청: 하네드 전지 외삽 그래프. 가로축 √(b/b°)(0~0.11), 세로축 y = E + (2RT/F)ln(b/b°)/V(0.221~0.229). 측정점 4개(원): (0.0316, 0.22414), (0.0447, 0.22486), (0.0707, 0.22615), (0.1000, 0.22756). 최소 제곱 직선(실선) y = 0.2226 + 0.0498√b를 √b = 0까지 늘려(점선) 세로축과 만나는 점에 "E° ≈ 0.2226 V"라 표시. 비교용으로 극한 법칙의 이론 기울기 0.0602 V를 갖고 E° = 0.2223 V를 지나는 직선을 회색 점선으로 그린다. -->
 
@@ -1005,7 +1005,7 @@ $\Delta_\mathrm{r}S^\circ = 96\,485\times(-6.5\times10^{-4}) = -62.7\ \mathrm{J/
 $\Delta_\mathrm{r}H^\circ = -21.45 + 298.15\times(-0.0627) = -21.45 - 18.70 = -40.15\ \mathrm{kJ/mol}$.
 열화학 자료: $\Delta_\mathrm{r}H^\circ = -167.16 - (-127.07) = -40.09\ \mathrm{kJ/mol}$, $\Delta_\mathrm{r}S^\circ = 42.55 + 56.5 - \tfrac{1}{2}(130.68) - 96.2 = -62.5\ \mathrm{J/(mol\cdot K)}$.
 
-**의미** 전압계와 온도계만으로 구한 값이 열량계·제3법칙 자료와 0.1 % 안팎에서 일치한다. 또 $T\Delta_\mathrm{r}S^\circ$($-18.7\ \mathrm{kJ}$)가 $\Delta_\mathrm{r}G^\circ$와 비슷한 크기이므로, $dE/dT$가 mV/K보다 작은 값이라고 무시하면 $\Delta_\mathrm{r}H^\circ$를 거의 두 배나 틀린다. 이 전지는 가역적으로 방전해도 반응 1 mol당 18.7 kJ의 열을 주위로 내놓는다($\Delta_\mathrm{r}S < 0$).
+**의미** 전압계와 온도계만으로 구한 값이 열량계·제3법칙 자료와 0.5 % 이내에서 일치한다. 또 $T\Delta_\mathrm{r}S^\circ$($-18.7\ \mathrm{kJ}$)가 $\Delta_\mathrm{r}G^\circ$와 비슷한 크기이므로, $dE/dT$가 mV/K보다 작은 값이라고 무시하면 $\Delta_\mathrm{r}H^\circ$를 거의 두 배나 틀린다. 이 전지는 가역적으로 방전해도 반응 1 mol당 18.7 kJ의 열을 주위로 내놓는다($\Delta_\mathrm{r}S < 0$).
 
 #### ✔ 바로 확인
 
@@ -1400,12 +1400,12 @@ $\mathrm{KNO_3}$는 이온 분위기로 $\mathrm{Ag^+}$와 $\mathrm{Br^-}$의 �
 <details>
 <summary>정답 및 해설</summary>
 
-**정답** (1) 유도 (2) 0.509 (3) 0.490 (4) 더 벗어난다.
+**정답** (1) 유도 (2) 0.508 (3) 0.490 (4) 더 벗어난다.
 
 (1) $s\ln\gamma_\pm = p\ln\gamma_+ + q\ln\gamma_- = -C\sqrt{I}(pz_+^2 + qz_-^2)$. 전기적 중성 $pz_+ = q\lvert z_- \rvert$에서 $pz_+^2 = z_+(q\lvert z_- \rvert)$, $qz_-^2 = \lvert z_- \rvert(pz_+)$이므로 $pz_+^2 + qz_-^2 = z_+\lvert z_- \rvert(p + q)$. 양변을 $s = p + q$로 나누면 결과가 나온다.
 (2) $\varepsilon = 6.954\times10^{-10}\ \mathrm{C^2/(J\cdot m)}$, $k_\mathrm{B}T = 4.116\times10^{-21}\ \mathrm{J}$.
 $\kappa^2/I = 2e^2N_\mathrm{A}\rho^*b^\circ/(\varepsilon k_\mathrm{B}T) = 2(2.567\times10^{-38})(6.022\times10^{23})(997.0)/(2.862\times10^{-30}) = 1.077\times10^{19}\ \mathrm{m^{-2}}$, $\kappa/\sqrt{I} = 3.28\times10^{9}\ \mathrm{m^{-1}}$ (디바이 길이 0.304 nm).
-$A = \dfrac{e^2(\kappa/\sqrt{I})}{8\pi\varepsilon k_\mathrm{B}T\ln 10} = \dfrac{(2.567\times10^{-38})(3.28\times10^9)}{8\pi(2.862\times10^{-30})(2.303)} = 0.509$.
+$A = \dfrac{e^2(\kappa/\sqrt{I})}{8\pi\varepsilon k_\mathrm{B}T\ln 10} = \dfrac{(2.567\times10^{-38})(3.28\times10^9)}{8\pi(2.862\times10^{-30})(2.303)} = 0.508$. 본문의 0.509와의 차이는 $\varepsilon_\mathrm{r}$ 값(78.5와 78.54)과 상수의 반올림에서 오는 것으로, $A \propto \varepsilon_\mathrm{r}^{-3/2}$이라 $\varepsilon_\mathrm{r}$이 0.1 % 달라지면 $A$는 0.15 % 달라진다.
 (3) $A \propto \varepsilon^{-1}T^{-1}\cdot(\rho^*/\varepsilon T)^{1/2} = (\rho^*)^{1/2}(\varepsilon_\mathrm{r}T)^{-3/2}$. $A(0\,^\circ\mathrm{C}) = 0.509\times\left(\dfrac{78.54\times298.15}{87.90\times273.15}\right)^{3/2}\left(\dfrac{999.8}{997.0}\right)^{1/2} = 0.509\times0.9645 = 0.491$ (상수를 직접 넣어 계산하면 0.490).
 (4) $\varepsilon_\mathrm{r}$이 작으면 $A \propto \varepsilon_\mathrm{r}^{-3/2}$가 커져(밀도와 온도의 차이는 작게 보고) $\lvert\log\gamma_\pm\rvert$가 약 $(78.5/33)^{3/2} \approx 3.7$배가 된다. 쿨롱 상호작용이 덜 가려져 이온 분위기의 안정화가 커지기 때문이며, 실제로는 이온쌍 형성도 심해진다.
 
