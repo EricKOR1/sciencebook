@@ -1489,7 +1489,7 @@ $[\mathrm{B}]_\text{최대} = \dfrac{0.20}{-0.15}(e^{-1.848} - e^{-0.462}) = -1.
 <details>
 <summary>정답 및 해설</summary>
 
-**정답** (1) $k \approx 1.56\times10^3\ \mathrm{N/m}$, $k' \approx 1.4\times10^2\ \mathrm{N/m}$ (2) 약 $2282\ \mathrm{cm^{-1}}$, 대칭 신축은 변하지 않는다 (3) 서술
+**정답** (1) $k \approx 1.56\times10^3\ \mathrm{N/m}$, $k' \approx 1.4\times10^2\ \mathrm{N/m}$ (2) 약 $2282\ \mathrm{cm^{-1}}$, 대칭 신축은 이 모형에서 변하지 않는다 (3) 서술
 
 (1) $m_\mathrm{O} = 2.656\times10^{-26}\ \mathrm{kg}$, $m_\mathrm{C} = 1.993\times10^{-26}\ \mathrm{kg}$.
 $k + k' = m_\mathrm{O}(2\pi c\times1340)^2 = 1692\ \mathrm{N/m}$ (예제 13).

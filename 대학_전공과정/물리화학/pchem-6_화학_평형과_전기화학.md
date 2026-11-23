@@ -4,7 +4,7 @@
 
 > [!NOTE]
 > **이 단원의 범위**
-> - 반응 진행도 $\xi$와 반응 깁스 에너지 $\Delta_\mathrm{r}G = (\partial G/\partial\xi)_{T,P}$, 평형 조건 $\sum_J \nu_J\mu_J = 0$
+> - 반응 진행도 $\xi$와 반응 깁스 에너지 $\Delta_\mathrm{r}G = (\partial G/\partial\xi)_{T,p}$, 평형 조건 $\sum_J \nu_J\mu_J = 0$
 > - 평형 상수의 열역학적 정의(활동도), 표준 상태, $K$·$K_c$·$K_x$의 관계, 비이상성(퓨가시티 계수)
 > - 평형의 압력 의존과 비활성 기체의 효과, 온도 의존(깁스–헬름홀츠 식 → 판트호프 식, $\Delta_\mathrm{r}C_p$ 보정)
 > - 전해질 용액의 화학 퍼텐셜, 평균 활동도와 평균 활동도 계수, 이온 세기, 디바이–휘켈 극한 법칙의 유도와 확장
@@ -65,7 +65,7 @@ flowchart LR
 | 일반화학 「화학 평형」 | 질량 작용의 법칙, $K_c$와 $K_p$, $K_p = K_c(RT)^{\Delta n}$, 반응 지수 $Q$, 르샤틀리에 원리 | $K$를 활동도로 **정의**하고, 질량 작용의 법칙을 화학 퍼텐셜에서 **유도**한다. 르샤틀리에 원리를 $K_x$의 압력 의존과 판트호프 식으로 정량화 |
 | 일반화학 「화학 열역학」 | $\Delta G = \Delta G^\circ + RT\ln Q$, $\Delta G^\circ = -RT\ln K$, $\Delta H^\circ$ 일정 근사의 판트호프 식 | 이 식들이 $G(\xi)$의 기울기에서 나오는 까닭, $\Delta_\mathrm{r}C_p$를 넣은 엄밀한 온도 의존 |
 | 일반화학 「전기화학」 | 표준 환원 전위, $\Delta G^\circ = -nFE^\circ$, $E = E^\circ - (0.0592/n)\log Q$(농도 사용), 농도차 전지 | 전기적 일에서 $-\nu FE$를 유도, 네른스트 식에 **활동도**를 넣고 외삽으로 $E^\circ$를 결정, 온도 계수로 $\Delta S$·$\Delta H$ |
-| 물리화학 3 「자유 에너지와 화학 퍼텐셜」 | $dG = V\,dP - S\,dT$, 깁스–헬름홀츠 식, 화학 퍼텐셜, 퓨가시티 | $dG = \sum\mu_J\,dn_J$를 반응에 적용, 깁스–헬름홀츠 식에서 판트호프 식 |
+| 물리화학 3 「자유 에너지와 화학 퍼텐셜」 | $dG = V\,dp - S\,dT$, 깁스–헬름홀츠 식, 화학 퍼텐셜, 퓨가시티 | $dG = \sum\mu_J\,dn_J$를 반응에 적용, 깁스–헬름홀츠 식에서 판트호프 식 |
 | 물리화학 5 「혼합물과 용액의 열역학」 | 이상 기체·이상 용액의 혼합 깁스 에너지, 라울·헨리 법칙, 활동도와 활동도 계수 | 혼합 항이 평형을 반응 중간에 멈추게 하는 까닭, 전해질의 **평균** 활동도 계수 |
 
 ### 준비 운동 (사전 진단)
@@ -76,7 +76,7 @@ flowchart LR
 
 **Q3.** 다니엘 전지 $\mathrm{Zn(s) + Cu^{2+}(aq) \rightarrow Zn^{2+}(aq) + Cu(s)}$의 $E^\circ = 1.10\ \mathrm{V}$이다. $\mathrm{[Zn^{2+}]}$를 10배로 늘리면 25 ℃에서 전지 전위는 얼마나 변하는가(농도를 활동도로 본다)?
 
-**Q4.** 물리화학 3의 기본 방정식 $dG = V\,dP - S\,dT$에서 $(\partial G/\partial T)_P$와 $(\partial G/\partial P)_T$를 쓰시오.
+**Q4.** 물리화학 3의 기본 방정식 $dG = V\,dp - S\,dT$에서 $(\partial G/\partial T)_p$와 $(\partial G/\partial p)_T$를 쓰시오.
 
 <details>
 <summary>정답 및 해설</summary>
@@ -87,7 +87,7 @@ flowchart LR
 
 **Q3.** $Q = [\mathrm{Zn^{2+}}]/[\mathrm{Cu^{2+}}]$가 10배가 되므로 $\Delta E = -(0.0592/2)\log 10 = -0.0296\ \mathrm{V}$, 약 30 mV 줄어든다.
 
-**Q4.** $(\partial G/\partial T)_P = -S$, $(\partial G/\partial P)_T = V$. STEP 3 ③·④에서 이 두 식이 각각 평형의 압력 의존과 온도 의존의 뿌리가 된다.
+**Q4.** $(\partial G/\partial T)_p = -S$, $(\partial G/\partial p)_T = V$. STEP 3 ③·④에서 이 두 식이 각각 평형의 압력 의존과 온도 의존의 뿌리가 된다.
 
 </details>
 
@@ -100,10 +100,10 @@ flowchart LR
 수학 도구 1 '다변수 함수와 편미분'에서 익힌 몫의 미분을 일정 압력에서 $G/T$에 적용하면
 
 $$
-\left(\frac{\partial (G/T)}{\partial T}\right)_P = \frac{1}{T}\left(\frac{\partial G}{\partial T}\right)_P - \frac{G}{T^2} = \frac{-TS - G}{T^2} = -\frac{H}{T^2}
+\left(\frac{\partial (G/T)}{\partial T}\right)_p = \frac{1}{T}\left(\frac{\partial G}{\partial T}\right)_p - \frac{G}{T^2} = \frac{-TS - G}{T^2} = -\frac{H}{T^2}
 $$
 
-($G + TS = H$를 썼다.) 반응에 대해서도 같은 꼴, $\left(\partial(\Delta_\mathrm{r}G^\circ/T)/\partial T\right)_P = -\Delta_\mathrm{r}H^\circ/T^2$가 성립한다. 표준 상태의 양은 압력이 $p^\circ$로 고정되어 있으므로 실제로는 상미분이다. 이 식은 "**$\Delta_\mathrm{r}G/T$의 온도 변화는 $\Delta_\mathrm{r}H$가 정한다**"는 뜻으로, ④에서 판트호프 식이 된다. $d(1/T) = -dT/T^2$이므로 변수를 $1/T$로 바꾸면 $d(\Delta G/T)/d(1/T) = \Delta H$로 더 간단해진다.
+($G + TS = H$를 썼다.) 반응에 대해서도 같은 꼴, $\left(\partial(\Delta_\mathrm{r}G^\circ/T)/\partial T\right)_p = -\Delta_\mathrm{r}H^\circ/T^2$가 성립한다. 표준 상태의 양은 압력이 $p^\circ$로 고정되어 있으므로 실제로는 상미분이다. 이 식은 "**$\Delta_\mathrm{r}G/T$의 온도 변화는 $\Delta_\mathrm{r}H$가 정한다**"는 뜻으로, ④에서 판트호프 식이 된다. $d(1/T) = -dT/T^2$이므로 변수를 $1/T$로 바꾸면 $d(\Delta G/T)/d(1/T) = \Delta H$로 더 간단해진다.
 
 **예** $\Delta G/T$가 $1/T$에 대해 직선이면 그 기울기가 곧 $\Delta H$이다. 어떤 반응에서 $\Delta_\mathrm{r}G^\circ/T$가 $1/T = 3.00\times10^{-3}\ \mathrm{K^{-1}}$에서 $-40.0\ \mathrm{J/(mol\cdot K)}$, $2.50\times10^{-3}\ \mathrm{K^{-1}}$에서 $-15.0\ \mathrm{J/(mol\cdot K)}$이면 $\Delta_\mathrm{r}H^\circ = (-40.0 + 15.0)/(0.50\times10^{-3}) = -5.0\times10^4\ \mathrm{J/mol}$이다. $1/T$가 커질 때(온도가 낮아질 때) $\Delta G/T$가 더 음수가 되므로 발열 반응이다.
 
@@ -161,10 +161,10 @@ $$
 
 #### 반응 깁스 에너지는 $G(\xi)$의 기울기이다
 
-물리화학 5에서 익힌 다성분계의 기본 방정식은 $dG = V\,dP - S\,dT + \sum_J \mu_J\,dn_J$이다. 온도와 압력이 일정하면 앞의 두 항이 사라지고, $dn_J = \nu_J\,d\xi$를 넣으면
+물리화학 5에서 익힌 다성분계의 기본 방정식은 $dG = V\,dp - S\,dT + \sum_J \mu_J\,dn_J$이다. 온도와 압력이 일정하면 앞의 두 항이 사라지고, $dn_J = \nu_J\,d\xi$를 넣으면
 
 $$
-dG = \sum_J \mu_J\nu_J\,d\xi \qquad\Longrightarrow\qquad \boxed{\;\Delta_\mathrm{r}G \equiv \left(\frac{\partial G}{\partial \xi}\right)_{T,P} = \sum_J \nu_J\mu_J\;}
+dG = \sum_J \mu_J\nu_J\,d\xi \qquad\Longrightarrow\qquad \boxed{\;\Delta_\mathrm{r}G \equiv \left(\frac{\partial G}{\partial \xi}\right)_{T,p} = \sum_J \nu_J\mu_J\;}
 $$
 
 이것을 **반응 깁스 에너지(reaction Gibbs energy)** 라 한다. 이름에 $\Delta$가 있지만 '두 상태의 차'가 아니라 **그 순간 조성에서의 기울기**이다. 단위는 $\mathrm{J/mol}$(반응 진행도 1 mol당)이다.
@@ -175,10 +175,10 @@ $$
 | $= 0$ | 바닥(최솟값) | 평형 |
 | $> 0$ | 오른쪽으로 올라가는 기울기 | 역반응($\xi$ 감소) |
 
-일정한 $T$, $P$에서 자발적 변화는 $dG < 0$이므로(물리화학 3) 계는 $G$가 내려가는 쪽으로 $\xi$를 바꾸다가 기울기가 0인 곳에서 멈춘다. 그래서 **평형 조건**은
+일정한 $T$, $p$에서 자발적 변화는 $dG < 0$이므로(물리화학 3) 계는 $G$가 내려가는 쪽으로 $\xi$를 바꾸다가 기울기가 0인 곳에서 멈춘다. 그래서 **평형 조건**은
 
 $$
-\sum_J \nu_J\mu_J = 0 \qquad (\text{평형, 일정 } T,\ P)
+\sum_J \nu_J\mu_J = 0 \qquad (\text{평형, 일정 } T,\ p)
 $$
 
 이다. 상평형의 조건 '$\mu_\alpha = \mu_\beta$'(물리화학 4)도 $\alpha \rightarrow \beta$라는 '반응'에 이 조건을 적용한 특수한 경우이다.
@@ -226,7 +226,7 @@ $\xi = 0.90$: $-2.00 + 2.479\ln 9 = -2.00 + 5.45 = +3.45\ \mathrm{kJ/mol}$ → �
 #### ✔ 바로 확인
 
 1. (O/X) 반응 깁스 에너지 $\Delta_\mathrm{r}G$는 반응 혼합물의 조성과 관계없이 반응마다 하나의 값을 가진다.
-2. 빈칸: 일정한 $T$, $P$에서 평형 조건은 $\sum_J \nu_J(\quad) = 0$이다.
+2. 빈칸: 일정한 $T$, $p$에서 평형 조건은 $\sum_J \nu_J(\quad) = 0$이다.
 3. 예제 1의 $G(\xi) - \mu_\mathrm{A}^\circ = \xi\Delta_\mathrm{r}G^\circ + RT[(1-\xi)\ln(1-\xi) + \xi\ln\xi]$에 $\Delta_\mathrm{r}G^\circ = -RT\ln K$와 $\xi = K/(1+K)$를 넣어 $-RT\ln(1+K)$가 됨을 보이시오.
 4. $\mathrm{N_2 + 3H_2 \rightarrow 2NH_3}$에서 처음에 $\mathrm{N_2}$ 2.0 mol, $\mathrm{H_2}$ 3.0 mol이 있었다. 암모니아가 0.80 mol 생겼을 때 $\xi$와 남은 $\mathrm{H_2}$의 양은?
 
@@ -686,8 +686,8 @@ $s = 1.32\times10^{-5}/0.889 = 1.49\times10^{-5}\ \mathrm{mol/kg}$ — 약 12 % 
 
 #### 전기적 일에서 $-\nu FE$ 유도
 
-- **가정** 일정한 $T$, $P$. 전지 전위를 전류가 0인 상태(가역)에서 잰다.
-- **1단계** 물리화학 3에서 일정한 $T$, $P$의 가역 과정에서 팽창 이외의 일(여기서는 전기적 일)은 $dw_\text{e} = dG$이다.
+- **가정** 일정한 $T$, $p$. 전지 전위를 전류가 0인 상태(가역)에서 잰다.
+- **1단계** 물리화학 3에서 일정한 $T$, $p$의 가역 과정에서 팽창 이외의 일(여기서는 전기적 일)은 $dw_\text{e} = dG$이다.
 - **2단계** 반응이 $d\xi$만큼 진행하면 전자 $\nu\,d\xi$ mol이 외부 회로를 따라 왼쪽에서 오른쪽 전극으로 간다. $\nu$는 전지 반응식에서 주고받는 전자 수(무차원), $F = eN_\mathrm{A} = 96\,485\ \mathrm{C/mol}$은 패러데이 상수이다. 옮겨진 전하는 $-\nu F\,d\xi$이다.
 - **3단계** 전하 $Q$가 전위차를 지날 때 계가 받는 일은 (전하)×(도착점과 출발점의 전위차)이다. 전자는 전위가 $\phi_\text{왼쪽}$인 곳에서 $\phi_\text{오른쪽}$인 곳으로 가므로
 $$
@@ -977,22 +977,22 @@ $E = E_\text{오른쪽} - E_\text{왼쪽} = 0.241 + 0.05916\,\mathrm{pH} = 0.627
 
 #### 유도
 
-물리화학 3의 $(\partial G/\partial T)_P = -S$를 반응에 적용하면 $(\partial\Delta_\mathrm{r}G/\partial T)_P = -\Delta_\mathrm{r}S$이다. $\Delta_\mathrm{r}G = -\nu FE$를 넣으면
+물리화학 3의 $(\partial G/\partial T)_p = -S$를 반응에 적용하면 $(\partial\Delta_\mathrm{r}G/\partial T)_p = -\Delta_\mathrm{r}S$이다. $\Delta_\mathrm{r}G = -\nu FE$를 넣으면
 
 $$
-\boxed{\;\Delta_\mathrm{r}S = \nu F\left(\frac{\partial E}{\partial T}\right)_P\;}, \qquad \Delta_\mathrm{r}H = \Delta_\mathrm{r}G + T\Delta_\mathrm{r}S = -\nu F\left[E - T\left(\frac{\partial E}{\partial T}\right)_P\right]
+\boxed{\;\Delta_\mathrm{r}S = \nu F\left(\frac{\partial E}{\partial T}\right)_p\;}, \qquad \Delta_\mathrm{r}H = \Delta_\mathrm{r}G + T\Delta_\mathrm{r}S = -\nu F\left[E - T\left(\frac{\partial E}{\partial T}\right)_p\right]
 $$
 
-한 번 더 미분하면 $\Delta_\mathrm{r}C_p = (\partial\Delta_\mathrm{r}H/\partial T)_P = \nu FT(\partial^2E/\partial T^2)_P$도 얻는다. 전위는 0.01 mV까지 잴 수 있으므로, 여러 온도에서 $E$를 재면 **열량계 없이** 반응의 엔탈피·엔트로피·열용량 변화를 모두 얻는다. 표준 상태의 값이 필요하면 각 온도에서 ⑨의 방법으로 $E^\circ$를 구한 뒤 같은 식에 넣는다.
+한 번 더 미분하면 $\Delta_\mathrm{r}C_p = (\partial\Delta_\mathrm{r}H/\partial T)_p = \nu FT(\partial^2E/\partial T^2)_p$도 얻는다. 전위는 0.01 mV까지 잴 수 있으므로, 여러 온도에서 $E$를 재면 **열량계 없이** 반응의 엔탈피·엔트로피·열용량 변화를 모두 얻는다. 표준 상태의 값이 필요하면 각 온도에서 ⑨의 방법으로 $E^\circ$를 구한 뒤 같은 식에 넣는다.
 
 | 측정량 | 얻는 것 | 물리적 의미 |
 |---|---|---|
 | $E$ | $\Delta_\mathrm{r}G = -\nu FE$ | 꺼낼 수 있는 최대 전기적 일 |
-| $(\partial E/\partial T)_P$ | $\Delta_\mathrm{r}S$ | 가역 방전 때 주위와 주고받는 열 $q_\text{가역} = T\Delta_\mathrm{r}S$ |
-| $E - T(\partial E/\partial T)_P$ | $\Delta_\mathrm{r}H$ | 같은 반응을 열량계에서 일으킬 때의 열 |
-| $(\partial^2E/\partial T^2)_P$ | $\Delta_\mathrm{r}C_p$ | $\Delta_\mathrm{r}H$의 온도 변화 |
+| $(\partial E/\partial T)_p$ | $\Delta_\mathrm{r}S$ | 가역 방전 때 주위와 주고받는 열 $q_\text{가역} = T\Delta_\mathrm{r}S$ |
+| $E - T(\partial E/\partial T)_p$ | $\Delta_\mathrm{r}H$ | 같은 반응을 열량계에서 일으킬 때의 열 |
+| $(\partial^2E/\partial T^2)_p$ | $\Delta_\mathrm{r}C_p$ | $\Delta_\mathrm{r}H$의 온도 변화 |
 
-<!-- 그림 요청: 전지 전위 E의 온도 의존 그래프(개념도). 가로축 T/K(273~333), 세로축 E/V. 아래로 약간 휘어진 곡선 하나를 그리고, T = 298.15 K의 점에 접선을 긋는다. 접선의 기울기에 "(∂E/∂T)_P = ΔrS/νF", 접선이 T = 0 쪽으로 연장되어 세로축(가상의 T = 0 위치)과 만나는 값에 "E − T(∂E/∂T) = −ΔrH/νF"라 표시한다(가로축을 0까지 끊어진 축으로 그려도 된다). 곡률에 "∂²E/∂T² → ΔrCp"라는 이름표. -->
+<!-- 그림 요청: 전지 전위 E의 온도 의존 그래프(개념도). 가로축 T/K(273~333), 세로축 E/V. 아래로 약간 휘어진 곡선 하나를 그리고, T = 298.15 K의 점에 접선을 긋는다. 접선의 기울기에 "(∂E/∂T)_p = ΔrS/νF", 접선이 T = 0 쪽으로 연장되어 세로축(가상의 T = 0 위치)과 만나는 값에 "E − T(∂E/∂T) = −ΔrH/νF"라 표시한다(가로축을 0까지 끊어진 축으로 그려도 된다). 곡률에 "∂²E/∂T² → ΔrCp"라는 이름표. -->
 
 #### 예제 14 — 하네드 전지 반응의 엔탈피와 엔트로피
 
@@ -1009,16 +1009,16 @@ $\Delta_\mathrm{r}H^\circ = -21.45 + 298.15\times(-0.0627) = -21.45 - 18.70 = -4
 
 #### ✔ 바로 확인
 
-1. 어떤 전지($\nu = 2$)의 $(\partial E/\partial T)_P = +1.0\times10^{-4}\ \mathrm{V/K}$이다. $\Delta_\mathrm{r}S$는?
-2. (O/X) $(\partial E/\partial T)_P > 0$인 전지는 가역적으로 방전할 때 주위에서 열을 흡수한다.
+1. 어떤 전지($\nu = 2$)의 $(\partial E/\partial T)_p = +1.0\times10^{-4}\ \mathrm{V/K}$이다. $\Delta_\mathrm{r}S$는?
+2. (O/X) $(\partial E/\partial T)_p > 0$인 전지는 가역적으로 방전할 때 주위에서 열을 흡수한다.
 3. 빈칸: $\Delta_\mathrm{r}H = -\nu F[E - T(\quad)]$
 
 <details>
 <summary>정답</summary>
 
 1. $+19.3\ \mathrm{J/(mol\cdot K)}$ — $2\times96\,485\times1.0\times10^{-4}$.
-2. O — $q_\text{가역} = T\Delta_\mathrm{r}S = \nu FT(\partial E/\partial T)_P > 0$.
-3. $(\partial E/\partial T)_P$
+2. O — $q_\text{가역} = T\Delta_\mathrm{r}S = \nu FT(\partial E/\partial T)_p > 0$.
+3. $(\partial E/\partial T)_p$
 
 </details>
 
@@ -1149,7 +1149,7 @@ $$
 
 ### 활동 B. (실험) 다니엘 전지 전위의 온도 의존으로 $\Delta_\mathrm{r}S$와 $\Delta_\mathrm{r}H$ 구하기
 
-**목표** 여러 온도에서 전지 전위를 재어 $(\partial E/\partial T)_P$를 얻고, 반응 엔트로피와 엔탈피를 구한 뒤 열역학 자료표의 값과 비교한다.
+**목표** 여러 온도에서 전지 전위를 재어 $(\partial E/\partial T)_p$를 얻고, 반응 엔트로피와 엔탈피를 구한 뒤 열역학 자료표의 값과 비교한다.
 
 **준비물** 아연판·구리판(사포로 닦은 것), 0.100 mol/kg $\mathrm{ZnSO_4}$와 0.100 mol/kg $\mathrm{CuSO_4}$ 용액 각 50 mL, 큰 시험관 2개 또는 H형 전지 용기, 포화 $\mathrm{KNO_3}$ 한천 염다리, 고임피던스 디지털 전압계(입력 저항 10 MΩ 이상, 0.1 mV 분해능), 온도 조절 물중탕, 온도계 2개, 보안경, 니트릴 장갑
 
@@ -1157,7 +1157,7 @@ $$
 1. 두 용기에 각 용액을 담고 금속판을 꽂은 뒤 염다리로 잇고, 두 용기를 함께 물중탕에 잠기게 고정한다.
 2. 물중탕을 15 ℃에 맞추고, 용액 온도가 0.1 ℃ 이내로 일정해질 때까지(약 10분) 기다린 뒤 전위를 1분 간격으로 3회 읽는다.
 3. 20, 25, 30, 35, 40 ℃에서 2를 반복한다. 온도를 올리고 내리며 한 번씩 재어 이력(히스테리시스)이 없는지 확인한다.
-4. $E$–$T$ 그래프를 그리고 최소 제곱 직선의 기울기 $(\partial E/\partial T)_P$와 25 ℃의 $E$를 읽는다.
+4. $E$–$T$ 그래프를 그리고 최소 제곱 직선의 기울기 $(\partial E/\partial T)_p$와 25 ℃의 $E$를 읽는다.
 5. ⑩의 식으로 $\Delta_\mathrm{r}G$, $\Delta_\mathrm{r}S$, $\Delta_\mathrm{r}H$를 계산한다($\nu = 2$).
 
 **결과 기록**
@@ -1454,7 +1454,7 @@ $A = \dfrac{e^2(\kappa/\sqrt{I})}{8\pi\varepsilon k_\mathrm{B}T\ln 10} = \dfrac{
 
 ### 핵심 요약
 
-- **반응 진행도** $\xi$($dn_J = \nu_J\,d\xi$)로 쓰면 **반응 깁스 에너지** $\Delta_\mathrm{r}G = (\partial G/\partial\xi)_{T,P} = \sum\nu_J\mu_J$는 $G(\xi)$의 기울기이며, 평형은 기울기가 0인 바닥이다. 혼합 깁스 에너지 때문에 기체·용액 반응의 바닥은 반드시 중간에 있다.
+- **반응 진행도** $\xi$($dn_J = \nu_J\,d\xi$)로 쓰면 **반응 깁스 에너지** $\Delta_\mathrm{r}G = (\partial G/\partial\xi)_{T,p} = \sum\nu_J\mu_J$는 $G(\xi)$의 기울기이며, 평형은 기울기가 0인 바닥이다. 혼합 깁스 에너지 때문에 기체·용액 반응의 바닥은 반드시 중간에 있다.
 - $\mu_J = \mu_J^\circ + RT\ln a_J$에서 $\Delta_\mathrm{r}G = \Delta_\mathrm{r}G^\circ + RT\ln Q$, 평형에서 $\Delta_\mathrm{r}G^\circ = -RT\ln K$. $K = \prod a_J^{\nu_J}$는 무차원이고 온도만의 함수이며, 표준 상태의 선택에 따라 값이 달라진다.
 - 활동도: 기체 $\phi p/p^\circ$, 용질 $\gamma b/b^\circ$, 순수 응축상 1. $K = K_\phi K_p = K_\gamma K_b$, 이상 기체에서 $K = K_x(p/p^\circ)^{\Delta\nu} = K_c(c^\circ RT/p^\circ)^{\Delta\nu}$.
 - **압력**은 $K$가 아니라 $K_x$를 바꾼다($\partial\ln K_x/\partial\ln p = -\Delta\nu$). 비활성 기체는 부피 일정이면 영향이 없고, 압력 일정이면 분압을 낮춘다.
@@ -1463,11 +1463,11 @@ $A = \dfrac{e^2(\kappa/\sqrt{I})}{8\pi\varepsilon k_\mathrm{B}T\ln 10} = \dfrac{
 - **디바이–휘켈 극한 법칙** $\log\gamma_\pm = -A\lvert z_+z_- \rvert\sqrt{I}$ ($A = 0.509$, 25 ℃ 물)은 선형화한 푸아송–볼츠만 방정식, 디바이 길이 $1/\kappa = 0.304\ \mathrm{nm}/\sqrt{I}$의 이온 분위기, 대전 일에서 유도된다. 극한에서만 정확하며, 이온 크기를 넣은 확장 식이 더 넓게 맞는다.
 - 전류 0에서 잰 전지 전위는 $\Delta_\mathrm{r}G = -\nu FE$이며, **네른스트 식** $E = E^\circ - (RT/\nu F)\ln Q$에는 활동도를 넣는다. 평형에서 $E = 0$, $E^\circ = (RT/\nu F)\ln K$.
 - 표준 전위로 $K$, $K_\mathrm{sp}$, $K_\mathrm{w}$, 이온의 $\Delta_\mathrm{f}G^\circ$를 구한다. 반쪽 전위의 결합은 $\nu E^\circ$로 한다. $E^\circ$는 $\sqrt{b}$에 대한 외삽으로 결정하고, pH는 표준 완충 용액과 비교하는 조작적 정의를 쓴다.
-- 전위의 온도 계수로 $\Delta_\mathrm{r}S = \nu F(\partial E/\partial T)_P$, $\Delta_\mathrm{r}H = -\nu F[E - T(\partial E/\partial T)_P]$를 얻는다.
+- 전위의 온도 계수로 $\Delta_\mathrm{r}S = \nu F(\partial E/\partial T)_p$, $\Delta_\mathrm{r}H = -\nu F[E - T(\partial E/\partial T)_p]$를 얻는다.
 
 | 주요 식 | 쓰임 |
 |---|---|
-| $\Delta_\mathrm{r}G = (\partial G/\partial\xi)_{T,P} = \sum_J\nu_J\mu_J$ | 반응 깁스 에너지, 평형 조건 |
+| $\Delta_\mathrm{r}G = (\partial G/\partial\xi)_{T,p} = \sum_J\nu_J\mu_J$ | 반응 깁스 에너지, 평형 조건 |
 | $\Delta_\mathrm{r}G = \Delta_\mathrm{r}G^\circ + RT\ln Q$, $\Delta_\mathrm{r}G^\circ = -RT\ln K$ | 열역학적 평형 상수 |
 | $K = K_x(p/p^\circ)^{\Delta\nu}$, $K = K_c(c^\circ RT/p^\circ)^{\Delta\nu}$ | 평형 상수의 환산, 압력 의존 |
 | $d\ln K/dT = \Delta_\mathrm{r}H^\circ/RT^2$ | 판트호프 식 |
@@ -1476,14 +1476,14 @@ $A = \dfrac{e^2(\kappa/\sqrt{I})}{8\pi\varepsilon k_\mathrm{B}T\ln 10} = \dfrac{
 | $\log\gamma_\pm = -A\lvert z_+z_- \rvert\sqrt{I}$, $\log\gamma_\pm = -\dfrac{A\lvert z_+z_- \rvert\sqrt{I}}{1 + Ba\sqrt{I}}$ | 디바이–휘켈 극한 법칙과 확장 식 |
 | $\Delta_\mathrm{r}G = -\nu FE$, $E = E^\circ - \dfrac{RT}{\nu F}\ln Q$ | 전지 전위, 네른스트 식 |
 | $E^\circ = \dfrac{RT}{\nu F}\ln K$, $E_3^\circ = \dfrac{\nu_1E_1^\circ + \nu_2E_2^\circ}{\nu_1 + \nu_2}$ | 평형 상수, 반쪽 전위의 결합 |
-| $\Delta_\mathrm{r}S = \nu F(\partial E/\partial T)_P$, $\Delta_\mathrm{r}H = -\nu F[E - T(\partial E/\partial T)_P]$ | 전위로 열역학 함수 결정 |
+| $\Delta_\mathrm{r}S = \nu F(\partial E/\partial T)_p$, $\Delta_\mathrm{r}H = -\nu F[E - T(\partial E/\partial T)_p]$ | 전위로 열역학 함수 결정 |
 
 ### 핵심 용어
 
 | 용어 | 뜻 |
 |---|---|
 | 반응 진행도(extent of reaction) | $dn_J = \nu_J\,d\xi$로 정의되어 반응이 얼마나 진행했는지를 나타내는 변수(mol) |
-| 반응 깁스 에너지 | 일정 $T$, $P$에서 $G$를 $\xi$로 미분한 기울기 $\sum\nu_J\mu_J$ |
+| 반응 깁스 에너지 | 일정 $T$, $p$에서 $G$를 $\xi$로 미분한 기울기 $\sum\nu_J\mu_J$ |
 | 활동도(activity) | $\mu_J = \mu_J^\circ + RT\ln a_J$를 만족하는 무차원의 '유효 농도' |
 | 표준 상태 | 활동도가 1인 기준 상태(기체 1 bar 이상 기체, 용질 1 mol/kg 가상 이상 용액, 순수 상) |
 | 열역학적 평형 상수 | 평형에서의 $\prod a_J^{\nu_J}$, $\Delta_\mathrm{r}G^\circ = -RT\ln K$ |
