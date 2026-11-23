@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="t-umath-7-bayes-area d-umath-7-bayes-area">
   <title id="t-umath-7-bayes-area">그림 수학 도구 7-1 베이즈 정리의 넓이 그림 — 10 000명 표</title>
-  <desc id="d-umath-7-bayes-area">유병률 1 %, 민감도 95 %, 특이도 98 %인 검사를 10 000명에게 했을 때의 넓이 그림. 왼쪽 정사각형의 한 칸이 한 사람이며, 맨 왼쪽 한 줄 100명이 환자(양성 95명, 음성 5명), 나머지 9900명 중 198명이 거짓 양성이다. 양성 293명만 모으면 진짜 환자는 95명으로 약 32 %이다.</desc>
+  <desc id="d-umath-7-bayes-area">유병률 1 %, 민감도 95 %, 특이도 98 %인 검사를 10 000명에게 했을 때의 넓이 그림. 왼쪽 정사각형의 한 칸이 한 사람이며, 맨 왼쪽 한 줄 100명이 환자(양성 95명, 음성 5명), 나머지 9900명 중 198명이 거짓 양성이다(왼쪽 세 줄을 가로로 늘린 확대 그림을 함께 보였다). 양성 293명만 모으면 진짜 환자는 95명으로 약 32 %이다.</desc>
   <style>
     .umath-7-bayes-area-ax{stroke:var(--fig-ink);stroke-width:1.3;fill:none}
     .umath-7-bayes-area-grid{stroke:var(--fig-line);stroke-width:0.6;stroke-dasharray:2 4;fill:none;opacity:0.7}
@@ -48,6 +48,29 @@
 <line x1="40" y1="376.0" x2="380.0" y2="376.0" class="umath-7-bayes-area-g"/>
 <line x1="43.4" y1="70" x2="43.4" y2="410.0" style="stroke:var(--fig-ink);stroke-width:1"/>
 <rect x="40" y="70" width="340.0" height="340.0" class="umath-7-bayes-area-fr"/>
+<rect x="95" y="71" width="81.4" height="338.0" style="fill:var(--fig-paper)"/>
+<rect x="100" y="70" width="23.8" height="323.0" class="umath-7-bayes-area-dp"/>
+<rect x="100" y="393.0" width="23.8" height="17.0" class="umath-7-bayes-area-dn"/>
+<rect x="123.8" y="70" width="23.8" height="340.0" class="umath-7-bayes-area-hp"/>
+<rect x="147.6" y="70" width="23.8" height="333.2" class="umath-7-bayes-area-hp"/>
+<rect x="147.6" y="403.2" width="23.8" height="6.8" class="umath-7-bayes-area-hn"/>
+<line x1="100" y1="104.0" x2="171.4" y2="104.0" class="umath-7-bayes-area-g"/>
+<line x1="100" y1="138.0" x2="171.4" y2="138.0" class="umath-7-bayes-area-g"/>
+<line x1="100" y1="172.0" x2="171.4" y2="172.0" class="umath-7-bayes-area-g"/>
+<line x1="100" y1="206.0" x2="171.4" y2="206.0" class="umath-7-bayes-area-g"/>
+<line x1="100" y1="240.0" x2="171.4" y2="240.0" class="umath-7-bayes-area-g"/>
+<line x1="100" y1="274.0" x2="171.4" y2="274.0" class="umath-7-bayes-area-g"/>
+<line x1="100" y1="308.0" x2="171.4" y2="308.0" class="umath-7-bayes-area-g"/>
+<line x1="100" y1="342.0" x2="171.4" y2="342.0" class="umath-7-bayes-area-g"/>
+<line x1="100" y1="376.0" x2="171.4" y2="376.0" class="umath-7-bayes-area-g"/>
+<line x1="123.8" y1="70" x2="123.8" y2="410.0" style="stroke:var(--fig-ink);stroke-width:0.8"/>
+<line x1="147.6" y1="70" x2="147.6" y2="410.0" style="stroke:var(--fig-ink);stroke-width:0.8"/>
+<rect x="100" y="70" width="71.4" height="340.0" style="fill:none;stroke:var(--fig-ink);stroke-width:1.2;stroke-dasharray:4 3"/>
+<text x="111.9" y="233.2" text-anchor="middle" style="font-size:12px;font-weight:600;fill:#fff">95</text>
+<text x="183.3" y="408.0" class="umath-7-bayes-area-s" style="font-size:12px">← 5명은 음성</text>
+<path d="M53.2 90 L91 90" class="umath-7-bayes-area-lead" style="stroke:var(--fig-ink)" marker-end="url(#umath-7-bayes-area-ah-ink)"/>
+<text x="181.4" y="94" class="umath-7-bayes-area-t">왼쪽 세 줄 확대</text>
+<text x="181.4" y="112" class="umath-7-bayes-area-s">(가로만 7배)</text>
 <text x="210.0" y="30" text-anchor="middle" class="umath-7-bayes-area-tb">전체 10 000명 (작은 칸 하나 = 1명, 격자 한 칸 = 100명)</text>
 <path d="M40 64 L40 58 L43.4 58 L43.4 64" class="umath-7-bayes-area-lead"/>
 <path d="M45.4 64 L45.4 58 L380.0 58 L380.0 64" class="umath-7-bayes-area-lead"/>
@@ -58,7 +81,7 @@
 <rect x="190" y="450.0" width="12" height="12" class="umath-7-bayes-area-dn"/><text x="208" y="461.0" class="umath-7-bayes-area-t">환자 · 음성 5명</text>
 <rect x="40" y="472.0" width="12" height="12" class="umath-7-bayes-area-hp"/><text x="58" y="483.0" class="umath-7-bayes-area-t">건강 · 양성 198명</text>
 <rect x="190" y="472.0" width="12" height="12" class="umath-7-bayes-area-hn" style="stroke:var(--fig-line)"/><text x="208" y="483.0" class="umath-7-bayes-area-t">건강 · 음성 9702명</text>
-<path d="M56.2 220 C 200 180, 392 180, 452 220" class="umath-7-bayes-area-lead" style="stroke:var(--fig-ink);stroke-width:1.6" marker-end="url(#umath-7-bayes-area-ah-ink)"/>
+<path d="M177.4 220 C 240 180, 392 180, 452 220" class="umath-7-bayes-area-lead" style="stroke:var(--fig-ink);stroke-width:1.6" marker-end="url(#umath-7-bayes-area-ah-ink)"/>
 <rect x="160" y="158" width="170" height="22" rx="4" style="fill:var(--fig-paper)"/>
 <text x="245" y="174" text-anchor="middle" class="umath-7-bayes-area-t">양성 판정만 모으면</text>
 <rect x="462" y="70" width="8.5" height="8.5" class="umath-7-bayes-area-dp"/>

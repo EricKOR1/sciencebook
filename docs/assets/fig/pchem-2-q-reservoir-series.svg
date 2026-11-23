@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t-pchem-2-q-reservoir-series d-pchem-2-q-reservoir-series">
+  <title id="t-pchem-2-q-reservoir-series">그림 물리화학 2-21 문제 19의 열원 줄</title>
+  <desc id="d-pchem-2-q-reservoir-series">300 K의 물이 든 비커를 305 K, 310 K, …, 350 K인 열원 10개에 차례로 닿게 하여 350 K까지 데운다. i번째 열원의 온도는 Ti = 300 + 5i K이다. 아래는 열원이 하나(350 K)인 경우와 둘(325 K, 350 K)인 경우이다.</desc>
+  <style>
+    .pc2q-reservoir-series-t{font-size:14px;fill:var(--fig-ink)}
+    .pc2q-reservoir-series-s{font-size:13px;fill:var(--fig-muted)}
+    .pc2q-reservoir-series-b{font-size:14px;fill:var(--fig-ink);font-weight:600}
+    .pc2q-reservoir-series-ax{font-size:13px;fill:var(--fig-muted)}
+    .pc2q-reservoir-series-fink{fill:var(--fig-ink)}
+    .pc2q-reservoir-series-fmuted{fill:var(--fig-muted)}
+    .pc2q-reservoir-series-fline{fill:var(--fig-line)}
+    .pc2q-reservoir-series-fblue{fill:var(--fig-blue)}
+    .pc2q-reservoir-series-fred{fill:var(--fig-red)}
+    .pc2q-reservoir-series-fgreen{fill:var(--fig-green)}
+    .pc2q-reservoir-series-famber{fill:var(--fig-amber)}
+    .pc2q-reservoir-series-fviolet{fill:var(--fig-violet)}
+    .pc2q-reservoir-series-fteal{fill:var(--fig-teal)}
+    .pc2q-reservoir-series-faccent{fill:var(--fig-accent)}
+  </style>
+  <defs><marker id="pc2q-reservoir-series-ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-ink)"/></marker><marker id="pc2q-reservoir-series-am-ink" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-ink)"/></marker><marker id="pc2q-reservoir-series-ar-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-muted)"/></marker><marker id="pc2q-reservoir-series-am-muted" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-muted)"/></marker><marker id="pc2q-reservoir-series-ar-line" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-line)"/></marker><marker id="pc2q-reservoir-series-am-line" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-line)"/></marker><marker id="pc2q-reservoir-series-ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-blue)"/></marker><marker id="pc2q-reservoir-series-am-blue" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-blue)"/></marker><marker id="pc2q-reservoir-series-ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-red)"/></marker><marker id="pc2q-reservoir-series-am-red" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-red)"/></marker><marker id="pc2q-reservoir-series-ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-green)"/></marker><marker id="pc2q-reservoir-series-am-green" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-green)"/></marker><marker id="pc2q-reservoir-series-ar-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-amber)"/></marker><marker id="pc2q-reservoir-series-am-amber" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-amber)"/></marker><marker id="pc2q-reservoir-series-ar-violet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-violet)"/></marker><marker id="pc2q-reservoir-series-am-violet" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-violet)"/></marker><marker id="pc2q-reservoir-series-ar-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-teal)"/></marker><marker id="pc2q-reservoir-series-am-teal" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-teal)"/></marker><marker id="pc2q-reservoir-series-ar-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-accent)"/></marker><marker id="pc2q-reservoir-series-am-accent" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-accent)"/></marker></defs>
+  <rect x="40.0" y="110.0" width="56.0" height="46.0" rx="4" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.3"/>
+  <text x="68.0" y="138.0" text-anchor="middle" class="pc2q-reservoir-series-t">305 K</text>
+  <text x="68.0" y="174.0" text-anchor="middle" class="pc2q-reservoir-series-s">1</text>
+  <rect x="104.0" y="110.0" width="56.0" height="46.0" rx="4" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.3"/>
+  <text x="132.0" y="138.0" text-anchor="middle" class="pc2q-reservoir-series-t">310 K</text>
+  <text x="132.0" y="174.0" text-anchor="middle" class="pc2q-reservoir-series-s">2</text>
+  <rect x="168.0" y="110.0" width="56.0" height="46.0" rx="4" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.3"/>
+  <text x="196.0" y="138.0" text-anchor="middle" class="pc2q-reservoir-series-t">315 K</text>
+  <text x="196.0" y="174.0" text-anchor="middle" class="pc2q-reservoir-series-s">3</text>
+  <rect x="232.0" y="110.0" width="56.0" height="46.0" rx="4" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.3"/>
+  <text x="260.0" y="138.0" text-anchor="middle" class="pc2q-reservoir-series-t">320 K</text>
+  <text x="260.0" y="174.0" text-anchor="middle" class="pc2q-reservoir-series-s">4</text>
+  <rect x="296.0" y="110.0" width="56.0" height="46.0" rx="4" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.3"/>
+  <text x="324.0" y="138.0" text-anchor="middle" class="pc2q-reservoir-series-t">325 K</text>
+  <text x="324.0" y="174.0" text-anchor="middle" class="pc2q-reservoir-series-s">5</text>
+  <rect x="360.0" y="110.0" width="56.0" height="46.0" rx="4" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.3"/>
+  <text x="388.0" y="138.0" text-anchor="middle" class="pc2q-reservoir-series-t">330 K</text>
+  <text x="388.0" y="174.0" text-anchor="middle" class="pc2q-reservoir-series-s">6</text>
+  <rect x="424.0" y="110.0" width="56.0" height="46.0" rx="4" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.3"/>
+  <text x="452.0" y="138.0" text-anchor="middle" class="pc2q-reservoir-series-t">335 K</text>
+  <text x="452.0" y="174.0" text-anchor="middle" class="pc2q-reservoir-series-s">7</text>
+  <rect x="488.0" y="110.0" width="56.0" height="46.0" rx="4" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.3"/>
+  <text x="516.0" y="138.0" text-anchor="middle" class="pc2q-reservoir-series-t">340 K</text>
+  <text x="516.0" y="174.0" text-anchor="middle" class="pc2q-reservoir-series-s">8</text>
+  <rect x="552.0" y="110.0" width="56.0" height="46.0" rx="4" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.3"/>
+  <text x="580.0" y="138.0" text-anchor="middle" class="pc2q-reservoir-series-t">345 K</text>
+  <text x="580.0" y="174.0" text-anchor="middle" class="pc2q-reservoir-series-s">9</text>
+  <rect x="616.0" y="110.0" width="56.0" height="46.0" rx="4" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.3"/>
+  <text x="644.0" y="138.0" text-anchor="middle" class="pc2q-reservoir-series-t">350 K</text>
+  <text x="644.0" y="174.0" text-anchor="middle" class="pc2q-reservoir-series-s">10</text>
+  <text x="34.0" y="174.0" text-anchor="end" class="pc2q-reservoir-series-s">i =</text>
+  <text x="360.0" y="202.0" text-anchor="middle" class="pc2q-reservoir-series-t">열원 <tspan style="font-style:italic">i</tspan>: <tspan style="font-style:italic">T</tspan><tspan baseline-shift="sub" style="font-size:10px">i</tspan> = 300 + 5<tspan style="font-style:italic">i</tspan> K</text>
+  <path d="M44 36 L50 92 L86 92 L92 36" style="fill:none;stroke:var(--fig-ink);stroke-width:1.8;stroke-linejoin:round"/>
+  <path d="M47 56 L49 90 L87 90 L89 56 Z" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:0;stroke-linejoin:round"/>
+  <text x="104.0" y="70.0" class="pc2q-reservoir-series-s">물 1.00 kg</text>
+  <line x1="174.0" y1="66.0" x2="650.0" y2="66.0" style="stroke:var(--fig-accent);stroke-width:2.2" marker-end="url(#pc2q-reservoir-series-ar-accent)"/>
+  <text x="400.0" y="58.0" text-anchor="middle" class="pc2q-reservoir-series-s">차례로 닿게 한다 (물: 300 K → 350 K)</text>
+  <text x="40.0" y="262.0" class="pc2q-reservoir-series-b"><tspan style="font-style:italic">N</tspan> = 1</text>
+  <rect x="90.0" y="240.0" width="56.0" height="36.0" rx="4" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.3"/>
+  <text x="118.0" y="263.0" text-anchor="middle" class="pc2q-reservoir-series-t">350 K</text>
+  <text x="330.0" y="262.0" class="pc2q-reservoir-series-b"><tspan style="font-style:italic">N</tspan> = 2</text>
+  <rect x="380.0" y="240.0" width="56.0" height="36.0" rx="4" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.3"/>
+  <text x="408.0" y="263.0" text-anchor="middle" class="pc2q-reservoir-series-t">325 K</text>
+  <rect x="444.0" y="240.0" width="56.0" height="36.0" rx="4" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.3"/>
+  <text x="472.0" y="263.0" text-anchor="middle" class="pc2q-reservoir-series-t">350 K</text>
+  <text x="360.0" y="310.0" text-anchor="middle" class="pc2q-reservoir-series-s">처음·끝 상태는 같고, 열원의 수만 다르다</text>
+</svg>

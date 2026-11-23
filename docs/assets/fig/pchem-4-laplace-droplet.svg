@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-pchem-4-laplace-droplet d-pchem-4-laplace-droplet">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-pchem-4-laplace-droplet d-pchem-4-laplace-droplet">
   <title id="t-pchem-4-laplace-droplet">그림 물리화학 4-10 라플라스 식의 유도: 물방울과 비눗방울</title>
   <desc id="d-pchem-4-laplace-droplet">(가) 반지름 r인 구형 물방울의 단면. 반지름이 dr만큼 늘면 겉넓이는 dσ = 8πr dr, 부피는 dV = 4πr² dr 늘어나며, 표면 일 γ dσ와 압력 차가 하는 일 (P_안 − P_밖) dV가 같다는 조건에서 ΔP = 2γ/r를 얻는다. (나) 공기 중 비눗방울은 막의 안쪽 면과 바깥쪽 면, 두 표면이 있어 ΔP = 4γ/r이다(막 두께는 과장해 그렸다).</desc>
   <style>.pchem-4-laplace-droplet-t{font-size:14px;fill:var(--fig-ink)} .pchem-4-laplace-droplet-s{font-size:13px;fill:var(--fig-muted)} .pchem-4-laplace-droplet-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .pchem-4-laplace-droplet-i{font-size:14px;font-style:italic;fill:var(--fig-ink)} </style>
@@ -13,11 +13,11 @@
   <text x="295.7" y="258.8" text-anchor="start" class="pchem-4-laplace-droplet-i">dr</text>
   <text x="170.0" y="192.0" text-anchor="middle" class="pchem-4-laplace-droplet-t">P<tspan baseline-shift="sub" font-size="10">안</tspan></text>
   <text x="170.0" y="212.0" text-anchor="middle" class="pchem-4-laplace-droplet-s">(액체)</text>
-  <text x="330.0" y="70.0" text-anchor="start" class="pchem-4-laplace-droplet-t">P<tspan baseline-shift="sub" font-size="10">밖</tspan></text>
-  <text x="330.0" y="88.0" text-anchor="start" class="pchem-4-laplace-droplet-s">(공기)</text>
+  <text x="300.0" y="76.0" text-anchor="start" class="pchem-4-laplace-droplet-t">P<tspan baseline-shift="sub" font-size="10">밖</tspan></text>
+  <text x="300.0" y="94.0" text-anchor="start" class="pchem-4-laplace-droplet-s">(공기)</text>
   <line x1="107.4" y1="99.4" x2="70.0" y2="52.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
-  <text x="40.0" y="300.0" text-anchor="start" class="pchem-4-laplace-droplet-t">dσ = 8πr dr,  dV = 4πr<tspan baseline-shift="super" font-size="10">2</tspan> dr</text>
-  <text x="40.0" y="322.0" text-anchor="start" class="pchem-4-laplace-droplet-t">(P<tspan baseline-shift="sub" font-size="10">안</tspan> − P<tspan baseline-shift="sub" font-size="10">밖</tspan>) dV = γ dσ  →  ΔP = 2γ/r</text>
+  <text x="40.0" y="336.0" text-anchor="start" class="pchem-4-laplace-droplet-t">dσ = 8πr dr,  dV = 4πr<tspan baseline-shift="super" font-size="10">2</tspan> dr</text>
+  <text x="40.0" y="360.0" text-anchor="start" class="pchem-4-laplace-droplet-t">(P<tspan baseline-shift="sub" font-size="10">안</tspan> − P<tspan baseline-shift="sub" font-size="10">밖</tspan>) dV = γ dσ  →  ΔP = 2γ/r</text>
   <text x="74.0" y="50.0" text-anchor="start" class="pchem-4-laplace-droplet-s">반지름 r + dr (점선)</text>
   <text x="400.0" y="30.0" text-anchor="start" class="pchem-4-laplace-droplet-b">(나) 비눗방울: 표면 2개</text>
   <circle cx="540.0" cy="182.0" r="110.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
@@ -33,5 +33,5 @@
   <text x="408.0" y="266.0" text-anchor="end" class="pchem-4-laplace-droplet-s" style="fill:var(--fig-ink)">바깥쪽 면</text>
   <line x1="640.3" y1="151.0" x2="680.0" y2="120.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
   <text x="684.0" y="116.0" text-anchor="end" class="pchem-4-laplace-droplet-s">비누막</text>
-  <text x="400.0" y="322.0" text-anchor="start" class="pchem-4-laplace-droplet-t">표면 2개 → ΔP = 2 × 2γ/r = 4γ/r</text>
+  <text x="400.0" y="360.0" text-anchor="start" class="pchem-4-laplace-droplet-t">표면 2개 → ΔP = 2 × 2γ/r = 4γ/r</text>
 </svg>

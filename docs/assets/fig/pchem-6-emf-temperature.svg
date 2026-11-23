@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t-pchem-6-emf-temperature d-pchem-6-emf-temperature">
+  <title id="t-pchem-6-emf-temperature">그림 물리화학 6-10 전지 전위의 온도 의존에서 ΔrS°, ΔrH°, ΔrCp° 읽기</title>
+  <desc id="d-pchem-6-emf-temperature">하네드 전지(은–염화 은 전극)의 E°를 온도에 대해 그린 그래프(실측 맞춤식). 왼쪽: 298.15 K에서 그은 접선의 기울기 (∂E/∂T)p = −0.65 mV/K가 ΔrS°/νF이고, 접선을 T = 0까지 늘린 절편 E − T(∂E/∂T)p = 0.415 V가 −ΔrH°/νF이다(ΔrS° ≈ −62 J/(mol·K), ΔrH° ≈ −40.0 kJ/mol, 예제 14와 같은 값). 오른쪽: 접선에서 벗어난 정도를 확대하면 아래로 휜 곡률이 보이며, ∂²E/∂T²가 ΔrCp°를 준다.</desc>
+  <style>.pchem-6-emf-temperature-lbl{font-size:14px;fill:var(--fig-ink)} .pchem-6-emf-temperature-sm{font-size:13px;fill:var(--fig-muted)} .pchem-6-emf-temperature-b{font-size:14px;font-weight:600;fill:var(--fig-ink)} .pchem-6-emf-temperature-tk{font-size:13px;fill:var(--fig-muted)} .pchem-6-emf-temperature-ax{font-size:14px;fill:var(--fig-ink)} .pchem-6-emf-temperature-red{font-size:14px;fill:var(--fig-red)} .pchem-6-emf-temperature-blue{font-size:14px;fill:var(--fig-blue)} .pchem-6-emf-temperature-green{font-size:14px;fill:var(--fig-green)} .pchem-6-emf-temperature-amber{font-size:14px;fill:var(--fig-amber)} .pchem-6-emf-temperature-violet{font-size:14px;fill:var(--fig-violet)} .pchem-6-emf-temperature-teal{font-size:14px;fill:var(--fig-teal)} .pchem-6-emf-temperature-acc{font-size:14px;fill:var(--fig-accent)} .pchem-6-emf-temperature-big{font-size:18px;font-weight:700;fill:var(--fig-ink)}</style>
+  <line x1="82.0" y1="317.2" x2="420.0" y2="317.2" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="82.0" y1="260.3" x2="420.0" y2="260.3" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="82.0" y1="203.4" x2="420.0" y2="203.4" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="82.0" y1="146.5" x2="420.0" y2="146.5" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="82.0" y1="89.5" x2="420.0" y2="89.5" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="82.0" y1="44.0" x2="82.0" y2="340.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="181.4" y1="44.0" x2="181.4" y2="340.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="280.8" y1="44.0" x2="280.8" y2="340.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="380.2" y1="44.0" x2="380.2" y2="340.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <rect x="82.0" y="44.0" width="338.0" height="296.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.2"/>
+  <line x1="82.0" y1="340.0" x2="82.0" y2="345.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="82.0" y="360.0" text-anchor="middle" class="pchem-6-emf-temperature-tk">0</text>
+  <line x1="181.4" y1="340.0" x2="181.4" y2="345.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="181.4" y="360.0" text-anchor="middle" class="pchem-6-emf-temperature-tk">100</text>
+  <line x1="280.8" y1="340.0" x2="280.8" y2="345.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="280.8" y="360.0" text-anchor="middle" class="pchem-6-emf-temperature-tk">200</text>
+  <line x1="380.2" y1="340.0" x2="380.2" y2="345.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="380.2" y="360.0" text-anchor="middle" class="pchem-6-emf-temperature-tk">300</text>
+  <line x1="77.0" y1="317.2" x2="82.0" y2="317.2" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="74.0" y="321.7" text-anchor="end" class="pchem-6-emf-temperature-tk">0.20</text>
+  <line x1="77.0" y1="260.3" x2="82.0" y2="260.3" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="74.0" y="264.8" text-anchor="end" class="pchem-6-emf-temperature-tk">0.25</text>
+  <line x1="77.0" y1="203.4" x2="82.0" y2="203.4" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="74.0" y="207.9" text-anchor="end" class="pchem-6-emf-temperature-tk">0.30</text>
+  <line x1="77.0" y1="146.5" x2="82.0" y2="146.5" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="74.0" y="151.0" text-anchor="end" class="pchem-6-emf-temperature-tk">0.35</text>
+  <line x1="77.0" y1="89.5" x2="82.0" y2="89.5" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="74.0" y="94.0" text-anchor="end" class="pchem-6-emf-temperature-tk">0.40</text>
+  <text x="251.0" y="382.0" text-anchor="middle" class="pchem-6-emf-temperature-ax">T / K</text>
+  <text x="30.0" y="192.0" text-anchor="middle" transform="rotate(-90 30.0 192.0)" class="pchem-6-emf-temperature-ax">E° / V</text>
+  <path d="M82.0 72.6 L420.0 322.5" style="fill:none;stroke:var(--fig-red);stroke-width:2;stroke-dasharray:7 5"/>
+  <path d="M353.5 275.6 L354.3 276.0 L355.1 276.4 L355.8 276.9 L356.6 277.3 L357.3 277.7 L358.1 278.2 L358.8 278.6 L359.6 279.1 L360.3 279.5 L361.1 280.0 L361.8 280.5 L362.6 280.9 L363.4 281.4 L364.1 281.9 L364.9 282.4 L365.6 282.9 L366.4 283.3 L367.1 283.8 L367.9 284.3 L368.6 284.8 L369.4 285.4 L370.2 285.9 L370.9 286.4 L371.7 286.9 L372.4 287.4 L373.2 288.0 L373.9 288.5 L374.7 289.0 L375.4 289.6 L376.2 290.1 L376.9 290.7 L377.7 291.2 L378.5 291.8 L379.2 292.3 L380.0 292.9 L380.7 293.5 L381.5 294.0 L382.2 294.6 L383.0 295.2 L383.7 295.8 L384.5 296.4 L385.3 297.0 L386.0 297.6 L386.8 298.1 L387.5 298.8 L388.3 299.4 L389.0 300.0 L389.8 300.6 L390.5 301.2 L391.3 301.8 L392.0 302.4 L392.8 303.1 L393.6 303.7 L394.3 304.3 L395.1 305.0 L395.8 305.6 L396.6 306.3 L397.3 306.9 L398.1 307.6 L398.8 308.2 L399.6 308.9 L400.4 309.5 L401.1 310.2 L401.9 310.9 L402.6 311.6 L403.4 312.2 L404.1 312.9 L404.9 313.6 L405.6 314.3 L406.4 315.0 L407.2 315.7 L407.9 316.4 L408.7 317.1 L409.4 317.8 L410.2 318.5 L410.9 319.2 L411.7 319.9 L412.4 320.6 L413.2 321.3" style="fill:none;stroke:var(--fig-accent);stroke-width:4"/>
+  <circle cx="378.4" cy="291.7" r="5.5" style="fill:var(--fig-ink);stroke:var(--fig-panel);stroke-width:1.5"/>
+  <circle cx="82.0" cy="72.6" r="6" style="fill:var(--fig-red);stroke:var(--fig-panel);stroke-width:1.5"/>
+  <text x="151.6" y="62.2" class="pchem-6-emf-temperature-red">T = 0의 절편 = E − T(∂E/∂T)p</text>
+  <line x1="149.6" y1="59.9" x2="89.0" y2="72.6" style="stroke:var(--fig-red);stroke-width:1"/>
+  <text x="151.6" y="80.2" class="pchem-6-emf-temperature-red">= 0.415 V = −Δ<tspan baseline-shift="sub" style="font-size:10px">r</tspan>H°/νF</text>
+  <text x="90.0" y="266.0" class="pchem-6-emf-temperature-red">접선 기울기 (∂E/∂T)p</text>
+  <text x="90.0" y="284.0" class="pchem-6-emf-temperature-red">= −0.65 mV/K = Δ<tspan baseline-shift="sub" style="font-size:10px">r</tspan>S°/νF</text>
+  <text x="415.0" y="333.2" text-anchor="end" class="pchem-6-emf-temperature-lbl">298.15 K: E° = 0.2224 V</text>
+  <text x="416.0" y="174.9" text-anchor="end" class="pchem-6-emf-temperature-acc">굵은 선: 측정 범위</text>
+  <text x="416.0" y="192.9" text-anchor="end" class="pchem-6-emf-temperature-acc">273~333 K</text>
+  <text x="251.0" y="24.0" text-anchor="middle" class="pchem-6-emf-temperature-b">접선과 그 절편</text>
+  <line x1="520.0" y1="310.4" x2="700.0" y2="310.4" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="520.0" y1="251.2" x2="700.0" y2="251.2" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="520.0" y1="192.0" x2="700.0" y2="192.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="520.0" y1="132.8" x2="700.0" y2="132.8" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="520.0" y1="73.6" x2="700.0" y2="73.6" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="540.6" y1="44.0" x2="540.6" y2="340.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="600.6" y1="44.0" x2="600.6" y2="340.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <line x1="660.6" y1="44.0" x2="660.6" y2="340.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
+  <rect x="520.0" y="44.0" width="180.0" height="296.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.2"/>
+  <line x1="540.6" y1="340.0" x2="540.6" y2="345.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="540.6" y="360.0" text-anchor="middle" class="pchem-6-emf-temperature-tk">280</text>
+  <line x1="600.6" y1="340.0" x2="600.6" y2="345.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="600.6" y="360.0" text-anchor="middle" class="pchem-6-emf-temperature-tk">300</text>
+  <line x1="660.6" y1="340.0" x2="660.6" y2="345.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="660.6" y="360.0" text-anchor="middle" class="pchem-6-emf-temperature-tk">320</text>
+  <line x1="515.0" y1="310.4" x2="520.0" y2="310.4" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="512.0" y="314.9" text-anchor="end" class="pchem-6-emf-temperature-tk">−4</text>
+  <line x1="515.0" y1="251.2" x2="520.0" y2="251.2" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="512.0" y="255.7" text-anchor="end" class="pchem-6-emf-temperature-tk">−3</text>
+  <line x1="515.0" y1="192.0" x2="520.0" y2="192.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="512.0" y="196.5" text-anchor="end" class="pchem-6-emf-temperature-tk">−2</text>
+  <line x1="515.0" y1="132.8" x2="520.0" y2="132.8" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="512.0" y="137.3" text-anchor="end" class="pchem-6-emf-temperature-tk">−1</text>
+  <line x1="515.0" y1="73.6" x2="520.0" y2="73.6" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="512.0" y="78.1" text-anchor="end" class="pchem-6-emf-temperature-tk">0</text>
+  <text x="610.0" y="382.0" text-anchor="middle" class="pchem-6-emf-temperature-ax">T / K</text>
+  <text x="472.0" y="192.0" text-anchor="middle" transform="rotate(-90 472.0 192.0)" class="pchem-6-emf-temperature-ax">E° − 접선 / mV</text>
+  <path d="M520.0 73.6 L700.0 73.6" style="fill:none;stroke:var(--fig-red);stroke-width:2;stroke-dasharray:7 5"/>
+  <path d="M520.0 189.3 L522.3 182.2 L524.6 175.4 L526.8 168.8 L529.1 162.4 L531.4 156.2 L533.7 150.3 L535.9 144.6 L538.2 139.1 L540.5 133.9 L542.8 128.9 L545.1 124.1 L547.3 119.5 L549.6 115.2 L551.9 111.0 L554.2 107.1 L556.5 103.5 L558.7 100.0 L561.0 96.8 L563.3 93.7 L565.6 90.9 L567.8 88.3 L570.1 85.9 L572.4 83.8 L574.7 81.8 L577.0 80.1 L579.2 78.5 L581.5 77.2 L583.8 76.1 L586.1 75.2 L588.4 74.5 L590.6 74.0 L592.9 73.7 L595.2 73.6 L597.5 73.7 L599.7 74.0 L602.0 74.6 L604.3 75.3 L606.6 76.2 L608.9 77.3 L611.1 78.7 L613.4 80.2 L615.7 81.9 L618.0 83.8 L620.3 85.9 L622.5 88.2 L624.8 90.7 L627.1 93.4 L629.4 96.2 L631.6 99.3 L633.9 102.5 L636.2 106.0 L638.5 109.6 L640.8 113.4 L643.0 117.4 L645.3 121.6 L647.6 126.0 L649.9 130.5 L652.2 135.2 L654.4 140.1 L656.7 145.2 L659.0 150.5 L661.3 155.9 L663.5 161.6 L665.8 167.4 L668.1 173.3 L670.4 179.5 L672.7 185.8 L674.9 192.3 L677.2 199.0 L679.5 205.8 L681.8 212.8 L684.1 220.0 L686.3 227.3 L688.6 234.8 L690.9 242.5 L693.2 250.3 L695.4 258.3 L697.7 266.5 L700.0 274.8" style="fill:none;stroke:var(--fig-accent);stroke-width:3"/>
+  <circle cx="595.0" cy="73.6" r="5" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="610.0" y="283.8" text-anchor="middle" class="pchem-6-emf-temperature-acc">아래로 휜 곡률</text>
+  <text x="610.0" y="301.8" text-anchor="middle" class="pchem-6-emf-temperature-acc">∂²E/∂T² → Δ<tspan baseline-shift="sub" style="font-size:10px">r</tspan>C<tspan baseline-shift="sub" style="font-size:10px">p</tspan>°</text>
+  <text x="610.0" y="24.0" text-anchor="middle" class="pchem-6-emf-temperature-b">곡률 확대</text>
+</svg>
