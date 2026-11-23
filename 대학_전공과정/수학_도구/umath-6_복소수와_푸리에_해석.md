@@ -1207,15 +1207,16 @@ $$
 
 </details>
 
-**2.** (1) $e^{i\pi/3}$을 직교 꼴로 쓰시오. (2) $i = e^{i\pi/2}$임을 이용해 $i^i$이 실수임을 보이고 그 값을 구하시오(주값).
+**2.** (1) $e^{i\pi/3}$을 직교 꼴로 쓰시오. (2) $i = e^{i\pi/2}$임을 이용해 $i^i$이 실수임을 보이고 그 값을 구하시오(주값). (3) 진동 $x(t) = \mathrm{Re}[(1 + i)e^{i\omega t}]$의 진폭과 위상을 구하고 $\cos$ 하나로 쓰시오.
 
 <details>
 <summary>정답 및 해설</summary>
 
-**정답** (1) $\dfrac{1}{2} + \dfrac{\sqrt{3}}{2}i$ (2) $e^{-\pi/2} \approx 0.208$
+**정답** (1) $\dfrac{1}{2} + \dfrac{\sqrt{3}}{2}i$ (2) $e^{-\pi/2} \approx 0.208$ (3) 진폭 $\sqrt{2}$, 위상 $+\pi/4$, $x = \sqrt{2}\cos(\omega t + \pi/4)$
 
 (1) $\cos 60^\circ + i\sin 60^\circ$.
 (2) $i^i = (e^{i\pi/2})^i = e^{i^2\pi/2} = e^{-\pi/2} = 0.208$. (편각에 $2\pi n$을 더한 값들도 있으나 주값은 이것이다.)
+(3) $1 + i = \sqrt{2}e^{i\pi/4}$이므로 $x = \mathrm{Re}[\sqrt{2}e^{i(\omega t + \pi/4)}] = \sqrt{2}\cos(\omega t + \pi/4)$. 검산: 직접 전개하면 $\mathrm{Re}[(1 + i)(\cos\omega t + i\sin\omega t)] = \cos\omega t - \sin\omega t$이고, $\sqrt{2}\cos(\omega t + \pi/4)$를 덧셈 정리로 풀어도 같다.
 
 </details>
 
