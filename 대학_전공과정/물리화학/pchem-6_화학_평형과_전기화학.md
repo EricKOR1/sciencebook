@@ -103,7 +103,7 @@ $$
 \left(\frac{\partial (G/T)}{\partial T}\right)_P = \frac{1}{T}\left(\frac{\partial G}{\partial T}\right)_P - \frac{G}{T^2} = \frac{-TS - G}{T^2} = -\frac{H}{T^2}
 $$
 
-($G + TS = H$를 썼다.) 반응에 대해서도 같은 꼴, $\left(\partial(\Delta_\mathrm{r}G^\circ/T)/\partial T\right)_P = -\Delta_\mathrm{r}H^\circ/T^2$가 성립한다. 표준 상태의 양은 압력이 $p^\circ$로 고정되어 있으므로 실제로는 상미분이다. 이 식은 "**$\Delta_\mathrm{r}G/T$의 온도 변화는 $\Delta_\mathrm{r}H$가 정한다**"는 뜻으로, ④에서 판트호프 식이 된다.
+($G + TS = H$를 썼다.) 반응에 대해서도 같은 꼴, $\left(\partial(\Delta_\mathrm{r}G^\circ/T)/\partial T\right)_P = -\Delta_\mathrm{r}H^\circ/T^2$가 성립한다. 표준 상태의 양은 압력이 $p^\circ$로 고정되어 있으므로 실제로는 상미분이다. 이 식은 "**$\Delta_\mathrm{r}G/T$의 온도 변화는 $\Delta_\mathrm{r}H$가 정한다**"는 뜻으로, ④에서 판트호프 식이 된다. $d(1/T) = -dT/T^2$이므로 변수를 $1/T$로 바꾸면 $d(\Delta G/T)/d(1/T) = \Delta H$로 더 간단해진다.
 
 **예** $\Delta G/T$가 $1/T$에 대해 직선이면 그 기울기가 곧 $\Delta H$이다. 어떤 반응에서 $\Delta_\mathrm{r}G^\circ/T$가 $1/T = 3.00\times10^{-3}\ \mathrm{K^{-1}}$에서 $-40.0\ \mathrm{J/(mol\cdot K)}$, $2.50\times10^{-3}\ \mathrm{K^{-1}}$에서 $-15.0\ \mathrm{J/(mol\cdot K)}$이면 $\Delta_\mathrm{r}H^\circ = (-40.0 + 15.0)/(0.50\times10^{-3}) = -5.0\times10^4\ \mathrm{J/mol}$이다. $1/T$가 커질 때(온도가 낮아질 때) $\Delta G/T$가 더 음수가 되므로 발열 반응이다.
 
