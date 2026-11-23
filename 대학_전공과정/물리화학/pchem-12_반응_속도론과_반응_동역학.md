@@ -307,3 +307,150 @@ $$
 
 </details>
 
+### ③ 가역 반응과 이완 — 평형으로 다가가는 속도
+
+#### 1차–1차 가역 반응 $\mathrm{A \rightleftharpoons B}$
+
+정반응 속도 상수를 $k_1$, 역반응을 $k_{-1}$이라 하자. 처음에 A만 $[\mathrm{A}]_0$ 있으면 $[\mathrm{B}] = [\mathrm{A}]_0 - [\mathrm{A}]$이고
+
+$$
+\frac{d[\mathrm{A}]}{dt} = -k_1[\mathrm{A}] + k_{-1}([\mathrm{A}]_0 - [\mathrm{A}]) = -(k_1 + k_{-1})[\mathrm{A}] + k_{-1}[\mathrm{A}]_0
+$$
+
+이것은 STEP 2 디딤돌 1의 꼴($a = k_1 + k_{-1}$, $f = k_{-1}[\mathrm{A}]_0$ 일정)이므로
+
+$$
+[\mathrm{A}](t) = [\mathrm{A}]_0\,\frac{k_{-1} + k_1e^{-(k_1 + k_{-1})t}}{k_1 + k_{-1}}
+$$
+
+$t \to \infty$에서 $[\mathrm{A}]_\text{eq} = k_{-1}[\mathrm{A}]_0/(k_1 + k_{-1})$, $[\mathrm{B}]_\text{eq} = k_1[\mathrm{A}]_0/(k_1 + k_{-1})$이므로
+
+$$
+K = \frac{[\mathrm{B}]_\text{eq}}{[\mathrm{A}]_\text{eq}} = \frac{k_1}{k_{-1}}
+$$
+
+평형 상수는 정·역 속도 상수의 비이다. 평형에서 반응이 멈추는 것이 아니라 **두 방향의 속도가 같아진 것**이다(동적 평형). 여러 단계가 있으면 각 단일 단계가 평형에서 따로 균형을 이루어야 한다는 **세부 균형(detailed balance)** 원리가 성립하며, 전체의 $K$는 각 단계의 $k_i/k_{-i}$를 곱한 것이다.
+
+중요한 결론은 평형으로 다가가는 속도가 $k_1$ 하나가 아니라 **합 $k_1 + k_{-1}$** 로 정해진다는 것이다. 편차 $[\mathrm{A}] - [\mathrm{A}]_\text{eq}$는 시간 상수 $\tau = 1/(k_1 + k_{-1})$로 지수적으로 줄어든다. $\tau$와 $K$ 두 값을 재면 $k_1$, $k_{-1}$을 따로 얻는다.
+
+#### 이완법 — 평형을 살짝 흔들고 돌아오는 것을 본다
+
+용액의 평형 혼합물에 고전압 방전이나 적외선 레이저 펄스로 수 μs 안에 온도를 몇 K 올리면(**온도 도약, temperature jump**), $K$가 새 온도의 값으로 바뀌어 계가 새 평형을 향해 **이완(relaxation)** 한다. 변화가 작으므로 STEP 2 디딤돌 2의 선형화가 쓰인다.
+
+2분자–1분자 반응 $\mathrm{A + B \underset{k_{-1}}{\overset{k_1}{\rightleftharpoons}} C}$를 보자. 새 평형값에서의 편차를 $x$라 하여 $[\mathrm{A}] = [\mathrm{A}]_\text{eq} + x$, $[\mathrm{B}] = [\mathrm{B}]_\text{eq} + x$, $[\mathrm{C}] = [\mathrm{C}]_\text{eq} - x$로 두면
+
+$$
+\frac{dx}{dt} = -k_1([\mathrm{A}]_\text{eq} + x)([\mathrm{B}]_\text{eq} + x) + k_{-1}([\mathrm{C}]_\text{eq} - x)
+$$
+
+평형 조건 $k_1[\mathrm{A}]_\text{eq}[\mathrm{B}]_\text{eq} = k_{-1}[\mathrm{C}]_\text{eq}$로 상수항이 지워지고, $x^2$을 버리면
+
+$$
+\frac{dx}{dt} = -\left[k_1([\mathrm{A}]_\text{eq} + [\mathrm{B}]_\text{eq}) + k_{-1}\right]x \quad\Longrightarrow\quad \frac{1}{\tau} = k_1([\mathrm{A}]_\text{eq} + [\mathrm{B}]_\text{eq}) + k_{-1}
+$$
+
+평형 농도를 바꾸며 $1/\tau$를 재어 $([\mathrm{A}]_\text{eq} + [\mathrm{B}]_\text{eq})$에 대해 그리면 기울기가 $k_1$, 절편이 $k_{-1}$이다.
+
+<!-- 그림 요청: 온도 도약 이완 곡선. 가로축 시간/μs(−20~200), 세로축 [C](또는 흡광도). t < 0에서 낮은 온도의 평형값(수평선), t = 0에 세로 화살표 "온도 도약(수 μs)"을 표시. t > 0에서 곡선이 새 평형값(수평 점선, 더 낮은 값)으로 지수적으로 이완: [C] − [C]eq,새 ∝ e^(−t/τ), τ = 36 μs. t = τ인 곳에 점을 찍고 "처음 편차의 1/e = 0.37"이라 표시. 오른쪽 끼움 그래프: 가로축 [A]eq + [B]eq, 세로축 1/τ인 직선(기울기 k1, 절편 k−1에 이름표). -->
+
+#### 예제 3 — 이완 시간에서 속도 상수 구하기
+
+(1) $\mathrm{A \rightleftharpoons B}$의 평형 상수가 $K = 4.0$이고 온도 도약 뒤 이완 시간이 2.0 ms였다. $k_1$과 $k_{-1}$을 구하시오.
+(2) 25 ℃ 순수한 물에서 $\mathrm{H^+ + OH^- \rightleftharpoons H_2O}$의 재결합 속도 상수는 약 $1.4\times10^{11}\ \mathrm{M^{-1}\,s^{-1}}$이다. 이완 시간을 어림하시오. ($[\mathrm{H^+}]_\text{eq} = [\mathrm{OH^-}]_\text{eq} = 1.0\times10^{-7}\ \mathrm{M}$, $[\mathrm{H_2O}] = 55.5\ \mathrm{M}$, $K_\mathrm{w} = 1.0\times10^{-14}$)
+
+**풀이**
+(1) $k_1 + k_{-1} = 1/\tau = 500\ \mathrm{s^{-1}}$, $k_1 = 4.0k_{-1}$이므로 $k_{-1} = 100\ \mathrm{s^{-1}}$, $k_1 = 400\ \mathrm{s^{-1}}$.
+(2) 역반응(물의 해리)은 1차로 쓰면 $k_{-1}[\mathrm{H_2O}] = k_1[\mathrm{H^+}][\mathrm{OH^-}]$이므로 $k_{-1} = (1.4\times10^{11})(1.0\times10^{-14})/55.5 = 2.5\times10^{-5}\ \mathrm{s^{-1}}$로 무시할 만하다.
+
+$$
+\frac{1}{\tau} = k_1(2.0\times10^{-7}) = 2.8\times10^4\ \mathrm{s^{-1}} \quad\Longrightarrow\quad \tau \approx 36\ \mu\mathrm{s}
+$$
+
+**의미** (2)의 $k_1$은 지금까지 알려진 용액 반응 가운데 가장 큰 축에 든다. 그 크기가 이온의 확산으로 설명되는지는 ⑪에서 확인한다. 물의 해리 속도 상수 $k_{-1}$이 이렇게 작은데도 pH가 순식간에 평형을 회복하는 것은 이완 속도가 큰 쪽 $k_1$의 항에 지배되기 때문이다.
+
+#### ✔ 바로 확인
+
+1. (O/X) $\mathrm{A \rightleftharpoons B}$가 평형에 다가가는 속도는 정반응 속도 상수 $k_1$만으로 정해진다.
+2. 빈칸: 1차–1차 가역 반응의 이완 시간은 $\tau = 1/(\quad)$이다.
+3. $\mathrm{A + B \rightleftharpoons C}$의 이완 실험에서 $1/\tau$를 $([\mathrm{A}]_\text{eq} + [\mathrm{B}]_\text{eq})$에 대해 그린 직선의 절편이 $50\ \mathrm{s^{-1}}$, 기울기가 $5.0\times10^{7}\ \mathrm{M^{-1}\,s^{-1}}$이다. 평형 상수 $K = [\mathrm{C}]/[\mathrm{A}][\mathrm{B}]$는?
+
+<details>
+<summary>정답</summary>
+
+1. X — 편차는 $e^{-(k_1 + k_{-1})t}$로 줄어든다. 역반응도 이완을 돕는다.
+2. $k_1 + k_{-1}$
+3. $1.0\times10^{6}\ \mathrm{M^{-1}}$ — $K = k_1/k_{-1} = 5.0\times10^7/50$.
+
+</details>
+
+### ④ 연속 반응과 병행 반응 — 정확한 해
+
+#### 연속 반응 $\mathrm{A \xrightarrow{k_1} I \xrightarrow{k_2} P}$
+
+각 단계가 1차이고 처음에 A만 있으면
+
+$$
+\frac{d[\mathrm{A}]}{dt} = -k_1[\mathrm{A}], \qquad \frac{d[\mathrm{I}]}{dt} = k_1[\mathrm{A}] - k_2[\mathrm{I}], \qquad \frac{d[\mathrm{P}]}{dt} = k_2[\mathrm{I}]
+$$
+
+첫 식에서 $[\mathrm{A}] = [\mathrm{A}]_0e^{-k_1t}$. 둘째 식은 $d[\mathrm{I}]/dt + k_2[\mathrm{I}] = k_1[\mathrm{A}]_0e^{-k_1t}$로 디딤돌 1의 꼴이며, 준비 운동 Q4의 결과($a = k_2$, $c = k_1$, $b = k_1[\mathrm{A}]_0$)를 쓰면
+
+$$
+[\mathrm{I}] = \frac{k_1[\mathrm{A}]_0}{k_2 - k_1}\left(e^{-k_1t} - e^{-k_2t}\right), \qquad [\mathrm{P}] = [\mathrm{A}]_0\left[1 + \frac{k_1e^{-k_2t} - k_2e^{-k_1t}}{k_2 - k_1}\right]
+$$
+
+($[\mathrm{P}] = [\mathrm{A}]_0 - [\mathrm{A}] - [\mathrm{I}]$, $k_1 \neq k_2$.) $d[\mathrm{I}]/dt = 0$으로 놓으면 중간체가 가장 많아지는 시각과 그때의 농도가 나온다.
+
+$$
+t_\text{max} = \frac{\ln(k_1/k_2)}{k_1 - k_2}, \qquad \frac{[\mathrm{I}]_\text{max}}{[\mathrm{A}]_0} = \left(\frac{k_1}{k_2}\right)^{k_2/(k_2 - k_1)}
+$$
+
+두 극한이 중요하다.
+
+| 조건 | 중간체 | 생성물이 생기는 속도를 정하는 것 |
+|---|---|---|
+| $k_2 \gg k_1$ | 생기자마자 소모되어 늘 아주 적다 | 첫 단계($k_1$) — 첫 단계가 **속도 결정 단계** |
+| $k_1 \gg k_2$ | A가 거의 다 I로 바뀐 뒤 천천히 줄어든다 | 둘째 단계($k_2$) |
+
+$[\mathrm{P}]$ 곡선은 처음에 기울기 0에서 출발해 S자 모양이 된다. 이 **유도기(induction period)** 는 중간체가 쌓이는 시간으로, 메커니즘에 중간체가 있다는 실험적 증거가 된다.
+
+<!-- 그림 요청: 연속 반응 A → I → P(k1 = 0.20 min⁻¹, k2 = 0.050 min⁻¹, [A]0 = 1)의 농도–시간 곡선. 가로축 t/min(0~80), 세로축 농도/[A]0(0~1). 세 곡선: [A] = e^(−0.20t)(실선, 지수 감소), [I] = (0.20/(−0.15))(e^(−0.20t) − e^(−0.050t)) = (4/3)(e^(−0.050t) − e^(−0.20t))(굵은 실선, t = 9.24 min에서 최댓값 0.630에 점과 이름표), [P](점선, S자 모양, 처음 기울기 0). t = 9.24 min에 세로 점선. 세 곡선의 합이 늘 1임을 오른쪽 위에 "[A]+[I]+[P] = [A]0"으로 적는다. -->
+
+<!-- 시뮬레이션 요청: 연속 반응 A → I → P의 농도–시간 곡선 조작. 슬라이더: k1, k2(각각 0.01~10 s⁻¹, 로그 눈금), 표시할 시간 범위. 보여 줄 것: 정확한 해 [A], [I], [P] 곡선과 함께 정류 상태 근사 [I]ss = k1[A]/k2, [P]ss = [A]0(1 − e^(−k1 t))를 점선으로 겹쳐 그리고, k2/k1 비와 t = 1/k1에서의 [P] 상대 오차(%)를 숫자로 표시. k2/k1이 1보다 작아지면 두 곡선이 크게 어긋나는 것을 볼 수 있게 한다. t_max와 [I]_max도 표시. -->
+
+#### 병행 반응 — 한 반응물, 두 갈래
+
+A가 두 경로로 동시에 반응하는 $\mathrm{A \xrightarrow{k_\mathrm{B}} B}$, $\mathrm{A \xrightarrow{k_\mathrm{C}} C}$를 생각하자.
+
+$$
+[\mathrm{A}] = [\mathrm{A}]_0e^{-(k_\mathrm{B} + k_\mathrm{C})t}, \qquad \frac{d[\mathrm{B}]/dt}{d[\mathrm{C}]/dt} = \frac{k_\mathrm{B}}{k_\mathrm{C}} \;\Rightarrow\; \frac{[\mathrm{B}]}{[\mathrm{C}]} = \frac{k_\mathrm{B}}{k_\mathrm{C}}\ (\text{언제나})
+$$
+
+A의 소멸은 두 속도 상수의 **합**으로 정해지고, 생성물의 비(**가지 비, branching ratio**)는 두 속도 상수의 **비**로 정해진다. A의 반감기 하나만 재서는 각 경로의 속도 상수를 알 수 없으며, 생성물 비를 함께 재야 한다. 역반응이 없을 때 생성물 비는 시간에 무관하며 생성물의 안정성이 아니라 속도 상수의 비가 정한다. 이것을 **속도론적 지배(kinetic control)** 라 한다. 역반응이 충분히 빠르고 오래 기다리면 생성물 비는 평형 상수의 비로 옮겨 간다(**열역학적 지배**, 유기화학 「유기 반응의 개관과 알킬 할라이드의 치환·제거 반응」과 1,2-·1,4-첨가에서 다시 만난다).
+
+#### 예제 4 — 중간체를 가장 많이 얻는 시각과 병행 반응의 수득률
+
+(1) $\mathrm{A \rightarrow I \rightarrow P}$에서 $k_1 = 0.20\ \mathrm{min^{-1}}$, $k_2 = 0.050\ \mathrm{min^{-1}}$이다. I를 가장 많이 얻으려면 몇 분에 반응을 멈추어야 하며, 그때 I의 수득률은?
+(2) A가 $k_\mathrm{B} = 3.0\times10^{-3}\ \mathrm{s^{-1}}$, $k_\mathrm{C} = 1.0\times10^{-3}\ \mathrm{s^{-1}}$로 병행 반응한다. A의 반감기와 최종 생성물 중 B의 몰분율을 구하시오.
+
+**풀이**
+(1) $t_\text{max} = \ln(0.20/0.050)/(0.20 - 0.050) = 1.386/0.150 = 9.2\ \mathrm{min}$. $[\mathrm{I}]_\text{max}/[\mathrm{A}]_0 = 4^{0.050/(0.050 - 0.20)} = 4^{-1/3} = 0.63$, 즉 63 %.
+(2) $t_{1/2} = \ln 2/(k_\mathrm{B} + k_\mathrm{C}) = 0.693/(4.0\times10^{-3}) = 173\ \mathrm{s}$. B의 몰분율 $= k_\mathrm{B}/(k_\mathrm{B} + k_\mathrm{C}) = 0.75$.
+
+**의미** (1)에서 9.2분보다 일찍 멈추면 A가 많이 남고, 늦게 멈추면 I가 P로 넘어가 버린다. 의약품 합성에서 불안정한 중간 생성물을 꺼내는 시점이나, 방사성 붕괴 계열에서 딸핵종을 '착유'하는 시점이 이 계산으로 정해진다.
+
+#### ✔ 바로 확인
+
+1. (O/X) 병행 반응 $\mathrm{A \rightarrow B}$, $\mathrm{A \rightarrow C}$에서 A의 반감기는 빠른 쪽 속도 상수만으로 정해진다.
+2. 연속 반응에서 $k_1 = k_2$일 때 위의 $[\mathrm{I}]$ 식을 그대로 쓸 수 없다. 이 경우 $[\mathrm{I}] = k_1[\mathrm{A}]_0\,t\,e^{-k_1t}$임을 이용해 $t_\text{max}$를 구하시오.
+3. 빈칸: 연속 반응의 생성물 곡선이 처음에 기울기 0에서 S자로 출발하는 구간을 (    )라 한다.
+
+<details>
+<summary>정답</summary>
+
+1. X — A는 $k_\mathrm{B} + k_\mathrm{C}$로 사라진다.
+2. $t_\text{max} = 1/k_1$ — $d(te^{-k_1t})/dt = (1 - k_1t)e^{-k_1t} = 0$.
+3. 유도기 — 중간체가 쌓이는 동안 생성물이 늦게 생긴다.
+
+</details>
+

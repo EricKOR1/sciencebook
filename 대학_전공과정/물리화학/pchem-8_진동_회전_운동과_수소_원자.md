@@ -514,3 +514,193 @@ $\lambda = hc/\Delta E = 1.9864\times10^{-25}/9.48\times10^{-19} = 2.10\times10^
 
 </details>
 
+### ⑤ 구 위의 입자 — 강체 회전자와 구면 조화 함수
+
+#### 모형과 변수 분리
+
+이번에는 입자가 반지름 $R$인 구면 위에서 자유롭게 움직인다. 이원자 분자가 결합 길이를 고정한 채 방향을 바꾸는 운동(**강체 회전자**, rigid rotor)이 정확히 이 문제이다(①에서 상대 좌표의 $\theta$, $\phi$, 질량 $\mu$, $I = \mu r_\mathrm{e}^2$). $r = R$이 일정하므로 디딤돌 1의 라플라시안에서 지름 미분이 사라지고
+
+$$
+\hat{H} = -\frac{\hbar^2}{2I}\Lambda^2, \qquad \Lambda^2 = \frac{1}{\sin\theta}\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial}{\partial\theta}\right) + \frac{1}{\sin^2\theta}\frac{\partial^2}{\partial\phi^2}
+$$
+
+이다. 고유값 방정식 $\Lambda^2Y = -\beta Y$ ($\beta = 2IE/\hbar^2$)를 푼다.
+
+1. **분리**: $Y = \Theta(\theta)\Phi(\phi)$를 넣고 양변에 $\sin^2\theta/(\Theta\Phi)$를 곱하면
+$$
+\frac{\sin\theta}{\Theta}\frac{d}{d\theta}\left(\sin\theta\frac{d\Theta}{d\theta}\right) + \beta\sin^2\theta = -\frac{1}{\Phi}\frac{d^2\Phi}{d\phi^2}
+$$
+왼쪽은 $\theta$만, 오른쪽은 $\phi$만의 함수이므로 둘 다 상수 $m_l^2$이어야 한다.
+2. **$\phi$ 방정식**: $\Phi'' = -m_l^2\Phi$는 ④와 똑같다. 한 값 조건에서 $\Phi = e^{im_l\phi}/\sqrt{2\pi}$, $m_l$은 정수.
+3. **$\theta$ 방정식**: $x = \cos\theta$로 바꾸면 연관 르장드르 방정식이 된다(수학 도구 8 '르장드르 다항식과 구면 조화 함수'). 급수 해가 북극·남극($x = \pm1$)에서 유한하려면 급수가 끊겨야 하고, 그 조건이 $\beta = l(l + 1)$, $l = 0, 1, 2, \dots$, 그리고 $\lvert m_l\rvert \le l$이다.
+
+$$
+\boxed{\;E_l = \frac{l(l + 1)\hbar^2}{2I}, \qquad l = 0, 1, 2, \dots, \qquad m_l = -l, \dots, +l \;\;(2l + 1\text{겹 축퇴})\;}
+$$
+
+고유 함수 $Y_l^{m_l}(\theta, \phi) = \Theta_{l,m_l}(\theta)\,\Phi_{m_l}(\phi)$가 **구면 조화 함수**이다. 고리에서는 '한 바퀴 돌면 같은 값' 하나가 조건이었는데, 구에서는 여기에 '극에서 유한' 조건이 더해져 양자수가 두 개($l$, $m_l$)가 되었다. 각 방향의 자유도 2개에 양자수 2개가 대응한다.
+
+**확인** $Y_1^0 \propto \cos\theta$에 $\Lambda^2$를 작용시키자. $\phi$ 미분은 0이고 $\dfrac{1}{\sin\theta}\dfrac{d}{d\theta}\left(\sin\theta\cdot(-\sin\theta)\right) = \dfrac{-2\sin\theta\cos\theta}{\sin\theta} = -2\cos\theta$이므로 고유값 $-2 = -l(l + 1)$, $l = 1$이다.
+
+| $l$ | $m_l$ | $Y_l^{m_l}$ | 에너지 ($\hbar^2/2I$ 단위) | 축퇴 |
+|---|---|---|---|---|
+| 0 | 0 | $(4\pi)^{-1/2}$ | 0 | 1 |
+| 1 | 0 | $(3/4\pi)^{1/2}\cos\theta$ | 2 | 3 |
+| 1 | $\pm1$ | $\mp(3/8\pi)^{1/2}\sin\theta\,e^{\pm i\phi}$ | 2 | |
+| 2 | 0 | $(5/16\pi)^{1/2}(3\cos^2\theta - 1)$ | 6 | 5 |
+| 2 | $\pm1$ | $\mp(15/8\pi)^{1/2}\sin\theta\cos\theta\,e^{\pm i\phi}$ | 6 | |
+| 2 | $\pm2$ | $(15/32\pi)^{1/2}\sin^2\theta\,e^{\pm2i\phi}$ | 6 | |
+
+준위 간격은 $E_{l+1} - E_l = 2(l + 1)\hbar^2/2I$로 위로 갈수록 벌어진다. 그리고 $l = 0$이 허용되므로 회전에도 **영점 에너지가 없다**(고리와 같은 이유).
+
+#### 이원자 분자의 회전 준위와 회전 상수
+
+분광학에서는 회전 양자수를 $J$로 쓰고 에너지를 파수로 나타낸다.
+
+$$
+E_J = hc\tilde{B}\,J(J + 1), \qquad \tilde{B} = \frac{\hbar}{4\pi cI}, \qquad I = \mu r_\mathrm{e}^2
+$$
+
+$\tilde{B}$를 **회전 상수(rotational constant)** 라 한다. 회전 상수는 관성 모멘트, 곧 결합 길이에만 의존하므로, 거꾸로 회전 스펙트럼에서 $\tilde{B}$를 재면 결합 길이를 $0.1\ \mathrm{pm}$ 수준까지 정할 수 있다(「분자 분광학」).
+
+| 분자 | $r_\mathrm{e}$ (pm) | $\tilde{B}$ (cm⁻¹) | $hc\tilde{B}/k_\mathrm{B}$ (K) | $\tilde{\nu}$ (cm⁻¹) | $hc\tilde{\nu}/k_\mathrm{B}$ (K) |
+|---|---|---|---|---|---|
+| $\mathrm{H_2}$ | 74.1 | 60.9 | 87.6 | 4401 | 6332 |
+| $\mathrm{^1H^{35}Cl}$ | 127.5 | 10.6 | 15.2 | 2991 | 4303 |
+| $\mathrm{N_2}$ | 109.8 | 2.00 | 2.88 | 2359 | 3393 |
+| $\mathrm{CO}$ | 112.8 | 1.93 | 2.78 | 2170 | 3122 |
+| $\mathrm{I_2}$ | 266.6 | 0.0374 | 0.054 | 214.5 | 309 |
+
+표의 두 '온도'는 준위 간격을 $k_\mathrm{B}T$와 비교하는 잣대이다. 상온($T \approx 300\ \mathrm{K}$)은 회전 준위 간격보다 훨씬 크고 진동 준위 간격보다는 훨씬 작다. 그래서 **상온의 분자는 여러 회전 준위에 퍼져 있지만 거의 모두 진동 바닥 상태에 있다.** 25 ℃에서 $v = 1$과 $v = 0$의 분자 수 비 $e^{-hc\tilde{\nu}/k_\mathrm{B}T}$는 CO가 $2.8\times10^{-5}$, HCl이 $5\times10^{-7}$이고, 결합이 무른 $\mathrm{I_2}$만 0.36이다.
+
+#### 회전 준위의 분포
+
+볼츠만 분포(일반화학 「화학 열역학」 STEP 5, 「통계 열역학」에서 유도)에 따르면 에너지 $E_J$인 **상태 하나**의 상대 분포는 $e^{-E_J/k_\mathrm{B}T}$이다. 준위 $J$에는 $2J + 1$개의 상태가 있으므로
+
+$$
+\frac{N_J}{N_0} = (2J + 1)\,e^{-hc\tilde{B}J(J + 1)/k_\mathrm{B}T}
+$$
+
+축퇴가 커지는 효과와 볼츠만 인자가 작아지는 효과가 겨루어 중간의 $J$에서 분포가 최대가 된다. $J$를 연속 변수로 보고 미분하면 $J_\text{최대} \approx \sqrt{k_\mathrm{B}T/(2hc\tilde{B})} - \tfrac12$이다.
+
+#### 예제 6 — HCl의 회전 준위와 분포
+
+$\mathrm{^1H^{35}Cl}$($\mu = 0.97959\ \mathrm{u}$, $r_\mathrm{e} = 127.5\ \mathrm{pm}$)에 대하여
+(1) 관성 모멘트와 회전 상수를 구하시오.
+(2) $J = 0 \sim 5$ 준위의 에너지(cm⁻¹)와 25 ℃에서의 상대 분포 $N_J/N_0$을 구하고, 분포가 가장 큰 $J$를 찾으시오. ($k_\mathrm{B}T/hc = 207.2\ \mathrm{cm^{-1}}$)
+
+**풀이**
+(1) $I = \mu r_\mathrm{e}^2 = 0.97959\times1.66054\times10^{-27}\times(1.275\times10^{-10})^2 = 2.644\times10^{-47}\ \mathrm{kg\cdot m^2}$
+$\tilde{B} = \dfrac{\hbar}{4\pi cI} = \dfrac{1.05457\times10^{-34}}{4\pi\times2.99792\times10^{10}\ \mathrm{cm/s}\times2.644\times10^{-47}} = 10.59\ \mathrm{cm^{-1}}$
+(2) $E_J = 10.59\,J(J + 1)$
+
+| $J$ | 0 | 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|---|---|
+| $E_J$ (cm⁻¹) | 0 | 21.2 | 63.5 | 127.1 | 211.8 | 317.7 |
+| $2J + 1$ | 1 | 3 | 5 | 7 | 9 | 11 |
+| $N_J/N_0$ | 1.00 | 2.71 | 3.68 | 3.79 | 3.24 | 2.37 |
+
+최대는 $J = 3$이다(어림식: $\sqrt{207.2/21.18} - 0.5 = 2.63$, 가장 가까운 정수 3).
+
+**의미** 바닥 준위($J = 0$)보다 $J = 2, 3$에 분자가 더 많다. 상태 하나하나는 낮은 에너지일수록 많이 차지되지만, 준위의 축퇴가 그것을 뒤집는다. 회전 스펙트럼 선의 세기가 $J$에 따라 커졌다 작아지는 모양(「분자 분광학」의 진동–회전 스펙트럼)이 이 분포를 그대로 비춘다. 반대로 진동은 $v = 1$이 $5\times10^{-7}$에 불과하다.
+
+<!-- 그림 요청: 강체 회전자 HCl의 회전 준위와 분포. 왼쪽: 준위 사다리, 세로축 E/cm⁻¹(0~330), J = 0~5의 가로선을 E = 0, 21.2, 63.5, 127.1, 211.8, 317.7 높이에 긋고 각 선 옆에 "J, 2J+1 = 1, 3, 5, 7, 9, 11"을 적는다. 이웃 간격이 2B̃(J+1) = 21.2, 42.4, 63.5, 84.7, 105.9 cm⁻¹로 벌어짐을 화살표로 표시. 가로 점선으로 kT/hc = 207 cm⁻¹(25 ℃) 높이를 표시. 오른쪽: 막대그래프, 가로축 J(0~10), 세로축 N_J/N_0, 값 1.00, 2.71, 3.68, 3.79, 3.24, 2.37, 1.52, 0.86, 0.43, 0.19, 0.08, J = 3에 "최대" 표시. -->
+
+#### ✔ 바로 확인
+
+1. 강체 회전자에서 $l = 3$ 준위의 축퇴도와 에너지($\hbar^2/2I$ 단위)는?
+2. (O/X) 결합 길이가 같다면 $\mathrm{D_2}$의 회전 상수는 $\mathrm{H_2}$의 약 절반이다.
+3. 빈칸: 구 위의 입자에서 양자수 $l$은 $\theta$ 방정식의 해가 (    )에서 유한해야 한다는 조건에서 나온다.
+4. $\tilde{B} = 2.0\ \mathrm{cm^{-1}}$인 분자에서 $J = 1 \rightarrow 2$ 준위 간격은 몇 cm⁻¹인가?
+
+<details>
+<summary>정답</summary>
+
+1. 7겹, 12 — $2l + 1 = 7$, $l(l + 1) = 12$.
+2. O — $\mu$가 약 2배이므로 $I$가 2배, $\tilde{B} \propto 1/I$.
+3. 극($\theta = 0, \pi$) 또는 $x = \cos\theta = \pm1$
+4. $8.0\ \mathrm{cm^{-1}}$ — $\tilde{B}[2\cdot3 - 1\cdot2] = 4\tilde{B}$.
+
+</details>
+
+### ⑥ 각운동량의 양자역학 — 교환 관계와 벡터 모형
+
+#### 성분 연산자와 교환 관계
+
+고전적 각운동량 $\mathbf{L} = \mathbf{r}\times\mathbf{p}$의 성분을 연산자로 쓰면
+
+$$
+\hat{L}_x = \hat{y}\hat{p}_z - \hat{z}\hat{p}_y, \qquad \hat{L}_y = \hat{z}\hat{p}_x - \hat{x}\hat{p}_z, \qquad \hat{L}_z = \hat{x}\hat{p}_y - \hat{y}\hat{p}_x
+$$
+
+이다. $[\hat{L}_x, \hat{L}_y]$를 계산하자. 서로 다른 좌표끼리는 교환되고 $[\hat{z}, \hat{p}_z] = i\hbar$이므로, 네 항 가운데 $z$와 $p_z$가 함께 있는 두 항만 남는다.
+
+$$
+[\hat{L}_x, \hat{L}_y] = [\hat{y}\hat{p}_z, \hat{z}\hat{p}_x] + [\hat{z}\hat{p}_y, \hat{x}\hat{p}_z] = \hat{y}\hat{p}_x[\hat{p}_z, \hat{z}] + \hat{x}\hat{p}_y[\hat{z}, \hat{p}_z] = -i\hbar\hat{y}\hat{p}_x + i\hbar\hat{x}\hat{p}_y
+$$
+
+$$
+\boxed{\;[\hat{L}_x, \hat{L}_y] = i\hbar\hat{L}_z, \qquad [\hat{L}_y, \hat{L}_z] = i\hbar\hat{L}_x, \qquad [\hat{L}_z, \hat{L}_x] = i\hbar\hat{L}_y, \qquad [\hat{L}^2, \hat{L}_q] = 0\;}
+$$
+
+(나머지 둘은 $x \rightarrow y \rightarrow z \rightarrow x$로 돌려 얻는다. $\hat{L}^2 = \hat{L}_x^2 + \hat{L}_y^2 + \hat{L}_z^2$이 각 성분과 교환된다는 것은 개념 확인 문제에서 확인한다.)
+
+| 교환 관계 | 결론 |
+|---|---|
+| $[\hat{L}^2, \hat{L}_z] = 0$ | 크기와 $z$ 성분은 **동시에** 정해진다: $l(l + 1)\hbar^2$, $m_l\hbar$ ($Y_l^{m_l}$이 동시 고유 함수) |
+| $[\hat{L}_x, \hat{L}_y] \ne 0$ | 세 성분 가운데 **하나만** 정해진다. $z$ 성분을 정하면 $x$, $y$ 성분은 불확정 |
+| $[\hat{L}_z, \hat{H}] = 0$, $[\hat{L}^2, \hat{H}] = 0$ (중심력) | 에너지와 함께 $l$, $m_l$이 좋은 양자수가 된다 |
+
+구면 좌표로 쓰면 $\hat{L}_z = -i\hbar\,\partial/\partial\phi$ (④), $\hat{L}^2 = -\hbar^2\Lambda^2$이다. 그래서 ⑤의 결과는 각운동량의 언어로
+
+$$
+\hat{L}^2Y_l^{m_l} = l(l + 1)\hbar^2\,Y_l^{m_l}, \qquad \hat{L}_zY_l^{m_l} = m_l\hbar\,Y_l^{m_l}, \qquad E = \frac{L^2}{2I}
+$$
+
+이다. 고전 회전 에너지 $L^2/2I$에서 $L^2$만 $l(l + 1)\hbar^2$으로 바꾸면 된다.
+
+#### 벡터 모형과 공간 양자화
+
+각운동량 벡터의 길이는 $\sqrt{l(l + 1)}\,\hbar$이고 $z$ 성분은 $m_l\hbar$이다. $\lvert m_l\rvert \le l < \sqrt{l(l + 1)}$이므로 **벡터는 결코 $z$축과 나란할 수 없다.** 만약 나란하다면 $L_x = L_y = 0$이 정확히 정해져 교환 관계와 모순된다. 그래서 벡터는 $z$축과 각 $\theta$를 이루는 원뿔 위의 어딘가에 있다고 그린다($\cos\theta = m_l/\sqrt{l(l + 1)}$). 원뿔 둘레의 방위각은 정해지지 않으며, 이를 반영해
+
+$$
+\langle L_x\rangle = \langle L_y\rangle = 0, \qquad \langle L_x^2\rangle = \langle L_y^2\rangle = \frac12\left[l(l + 1) - m_l^2\right]\hbar^2
+$$
+
+이다($\langle L^2\rangle - \langle L_z^2\rangle$를 $x$, $y$가 똑같이 나눈다). 방향이 이렇게 $2l + 1$개의 원뿔로만 허용되는 것을 **공간 양자화(space quantization)** 라 한다. 공간 양자화는 ⑩의 슈테른–게를라흐 실험에서 직접 '보인다'.
+
+<!-- 그림 요청: l = 2 각운동량의 벡터 모형. z축을 세로로 긋고, 원점에서 길이 √6 ħ = 2.45ħ인 벡터들이 놓이는 다섯 개의 원뿔을 그린다(m_l = +2, +1, 0, −1, −2, z축과의 각 35.3°, 65.9°, 90°, 114.1°, 144.7°). 각 원뿔의 윗면 원을 점선으로, 원뿔 위의 벡터 하나를 실선 화살표로 그리고, z축 위에 높이 +2ħ, +ħ, 0, −ħ, −2ħ 눈금을 표시. 원점 중심으로 반지름 2.45ħ의 반원(점선)을 그려 모든 벡터 끝이 그 위에 놓임을 보인다. 오른쪽에 "Lz는 정해짐, Lx·Ly는 원뿔 둘레에서 불확정" 이름표. -->
+
+#### 각운동량 양자수는 정수만이 아니다
+
+위의 교환 관계 $[\hat{L}_x, \hat{L}_y] = i\hbar\hat{L}_z$ **만으로** 고유값을 구하면(사다리 연산자 $\hat{L}_\pm = \hat{L}_x \pm i\hat{L}_y$를 쓰는 대수적 방법), 허용되는 크기 양자수는 $j = 0, \tfrac12, 1, \tfrac32, 2, \dots$이고 $m_j = -j, -j + 1, \dots, j$로 나온다. 궤도 각운동량에서 반정수가 빠진 것은 교환 관계 때문이 아니라 $e^{im_l\phi}$가 한 바퀴 돌아 같은 값이어야 한다는 **공간 파동 함수의 조건** 때문이다. 공간에서 도는 운동이 아닌 각운동량이라면 반정수도 가능하다. 자연은 그 자리를 비워 두지 않았다(⑩ 스핀).
+
+#### 예제 7 — $l = 2$의 벡터 모형
+
+$l = 2$인 각운동량에 대하여
+(1) 각운동량의 크기를 $\hbar$ 단위로 구하고, $m_l = 2, 1, 0$일 때 벡터가 $z$축과 이루는 각을 구하시오.
+(2) $m_l = 2$ 상태에서 $\Delta L_x = \langle L_x^2\rangle^{1/2}$을 구하고, 불확정성 관계 $\Delta L_x\Delta L_y \ge \tfrac12\lvert\langle L_z\rangle\rvert\hbar$가 성립하는지 확인하시오.
+
+**풀이**
+(1) $\lvert\mathbf{L}\rvert = \sqrt{2\times3}\,\hbar = \sqrt6\,\hbar = 2.45\hbar$. $\theta = \cos^{-1}(m_l/\sqrt6)$: $m_l = 2$ → $35.3°$, $m_l = 1$ → $65.9°$, $m_l = 0$ → $90°$.
+(2) $\langle L_x^2\rangle = \tfrac12(6 - 4)\hbar^2 = \hbar^2$, $\Delta L_x = \hbar$ ($\langle L_x\rangle = 0$이므로). 같은 방법으로 $\Delta L_y = \hbar$. 왼쪽 $= \hbar^2$, 오른쪽 $= \tfrac12\times2\hbar\times\hbar = \hbar^2$. 등호로 성립한다.
+
+**의미** 가장 '위를 향한' 상태($m_l = l$)에서도 벡터는 $z$축에서 $35°$나 기울어 있고, 그 기울기가 정확히 불확정성 원리가 요구하는 최소량이다. $l$이 커지면 $\cos\theta = l/\sqrt{l(l + 1)} \rightarrow 1$이 되어 고전적인 '한 방향을 가리키는 각운동량'에 다가간다(대응 원리).
+
+#### ✔ 바로 확인
+
+1. $l = 1$, $m_l = 0$인 상태에서 각운동량 벡터가 $z$축과 이루는 각은?
+2. (O/X) 각운동량의 $z$ 성분이 $2\hbar$로 정해지면 $x$ 성분도 동시에 정확히 정할 수 있다.
+3. 빈칸: $[\hat{L}_y, \hat{L}_z] = (\quad)$
+4. $l = 1$, $m_l = 1$ 상태의 $\langle L_x^2\rangle$은?
+
+<details>
+<summary>정답</summary>
+
+1. $90°$ — $\cos\theta = 0/\sqrt2$. 벡터는 $xy$ 평면의 원 위에 있다.
+2. X — $[\hat{L}_z, \hat{L}_x] = i\hbar\hat{L}_y \ne 0$이므로 동시에 정해지지 않는다.
+3. $i\hbar\hat{L}_x$
+4. $\tfrac12\hbar^2$ — $\tfrac12(2 - 1)\hbar^2$.
+
+</details>
+
