@@ -1313,7 +1313,7 @@ $T_2 = T_1(V_1/V_2)^{\gamma-1} = 300\times16^{0.40} = 909\ \mathrm{K}$, $p_2 = p
 $\Delta a = 44.22 - 28.41 - \tfrac{1}{2}(29.96) = 0.83$, $\Delta b = (8.79 - 4.10 - 2.09)\times10^{-3} = 2.60\times10^{-3}$, $\Delta c = (-8.62 + 0.46 + 0.835)\times10^5 = -7.33\times10^5$
 $\displaystyle\int_{298.15}^{1000}\Delta_\mathrm{r}C_p^\circ\,dT = 0.83\times701.85 + \tfrac{1}{2}(2.60\times10^{-3})(1000^2 - 298.15^2) + 7.33\times10^5\left(\tfrac{1}{1000} - \tfrac{1}{298.15}\right) = 583 + 1184 - 1725 = +43\ \mathrm{J/mol}$
 $\Delta_\mathrm{r}H^\circ(1000\ \mathrm{K}) = -282.98 + 0.04 = -282.9\ \mathrm{kJ/mol}$.
-298 K의 $\Delta_\mathrm{r}C_p^\circ = 0.83 + 0.775 - 8.24 = -6.6\ \mathrm{J/(mol\cdot K)}$를 일정하다고 보면 $-282.98 - 6.6\times0.702 = -287.6\ \mathrm{kJ/mol}$. 실제로는 $\Delta_\mathrm{r}C_p^\circ$가 약 450 K에서 부호가 바뀌어 거의 상쇄되므로, 넓은 범위에서는 온도 의존을 넣어야 한다.
+298 K의 $\Delta_\mathrm{r}C_p^\circ = 0.83 + 0.775 - 8.24 = -6.6\ \mathrm{J/(mol\cdot K)}$를 일정하다고 보면 $-282.98 - 6.6\times0.702 = -287.6\ \mathrm{kJ/mol}$. 실제로는 $\Delta_\mathrm{r}C_p^\circ$가 약 560 K에서 부호가 바뀌어 거의 상쇄되므로, 넓은 범위에서는 온도 의존을 넣어야 한다.
 
 </details>
 
