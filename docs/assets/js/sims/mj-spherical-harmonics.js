@@ -60,7 +60,7 @@ Sims.register('mj-spherical-harmonics', {
     var rL = api.readout('l, m'), rTot = api.readout('각 마디 총수'), rCone = api.readout('마디 원뿔'), rPlane = api.readout('마디면');
 
     var S = api.scene3d({
-      yaw: 0.5, pitch: 0.38, dist: 10, scale: 0.17, label: '구면 조화 함수의 극좌표 표면',
+      yaw: 0.5, pitch: 0.38, dist: 10, scale: 0.15, label: '구면 조화 함수의 극좌표 표면',
       draw: function (g, T, S) {
         var axLen = 2.7;
         [[[axLen, 0, 0], 'x'], [[0, axLen, 0], 'y'], [[0, 0, axLen], 'z']].forEach(function (a) {

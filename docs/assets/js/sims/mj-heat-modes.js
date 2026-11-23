@@ -68,10 +68,10 @@ Sims.register('mj-heat-modes', {
       var top = { x: 52, y: 14, w: w - 66, h: h * 0.52 - 40 };
       var bot = { x: 52, y: h * 0.52 + 14, w: w - 66, h: h * 0.48 - 50 };
       // 위: 온도 분포
-      var UMAX = 55, UMIN = -10;
+      var UMAX = 70, UMIN = -10;
       var sx = function (x) { return top.x + x / L * top.w; }, sy = function (v) { return top.y + (UMAX - v) / (UMAX - UMIN) * top.h; };
       ctx.font = '11px ' + T.fontMono; ctx.fillStyle = T.figMuted; ctx.textAlign = 'right'; ctx.strokeStyle = T.rule; ctx.lineWidth = 1;
-      [-10, 0, 10, 20, 30, 40, 50].forEach(function (v) { ctx.beginPath(); ctx.moveTo(top.x, sy(v)); ctx.lineTo(top.x + top.w, sy(v)); ctx.stroke(); ctx.fillText(String(v).replace('-', '−'), top.x - 6, sy(v) + 4); });
+      [-10, 0, 10, 20, 30, 40, 50, 60, 70].forEach(function (v) { ctx.beginPath(); ctx.moveTo(top.x, sy(v)); ctx.lineTo(top.x + top.w, sy(v)); ctx.stroke(); ctx.fillText(String(v).replace('-', '−'), top.x - 6, sy(v) + 4); });
       ctx.textAlign = 'center';
       [0, 0.1, 0.2, 0.3, 0.4, 0.5].forEach(function (x) { ctx.fillText(x.toFixed(1), sx(x), top.y + top.h + 14); });
       ctx.fillStyle = T.figInk; ctx.font = '12px ' + T.fontBody;

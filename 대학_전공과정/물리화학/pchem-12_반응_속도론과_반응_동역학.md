@@ -564,7 +564,7 @@ $1/k_\text{uni}$: $3.00\times10^4$, $5.50\times10^3\ \mathrm{s}$. $1/[\mathrm{M}
 절편 $= 1/k_\infty = 5.50\times10^3 - 0.050\times1.0\times10^4 = 5.0\times10^3\ \mathrm{s}$ → $k_\infty = 2.0\times10^{-4}\ \mathrm{s^{-1}}$.
 $[\mathrm{M}]_{1/2} = k_\infty/k_a = 1.0\times10^{-5}\ \mathrm{M} = 1.0\times10^{-2}\ \mathrm{mol/m^3}$, $p = cRT = 1.0\times10^{-2}\times8.314\times700 = 58\ \mathrm{Pa}$.
 
-**의미** 수십 Pa(대기압의 약 1/2000) 아래에서야 2차 거동이 드러난다. 보통 압력에서 '단분자 반응'이 1차로 보이는 까닭이다.
+**의미** 수십 Pa(대기압의 약 1/1700) 아래에서야 2차 거동이 드러난다. 보통 압력에서 '단분자 반응'이 1차로 보이는 까닭이다.
 
 #### ✔ 바로 확인
 
