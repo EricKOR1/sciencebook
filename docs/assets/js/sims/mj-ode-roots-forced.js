@@ -80,10 +80,10 @@ Sims.register('mj-ode-roots-forced', {
 
       var P, G;
       if (narrow) { P = { x: 0, y: 0, w: W, h: H * 0.42 }; G = { x: 0, y: H * 0.45, w: W, h: H * 0.55 }; }
-      else { P = { x: 0, y: 0, w: W * 0.4, h: H }; G = { x: W * 0.42, y: 0, w: W * 0.58, h: H }; }
+      else { P = { x: 0, y: 0, w: W * 0.46, h: H }; G = { x: W * 0.47, y: 0, w: W * 0.53, h: H }; }
 
       // ── 복소 평면 (단위: ω₀)
-      var reMin = -4.1, reMax = 0.7, imMax = 1.45;
+      var reMin = -4.0, reMax = 0.55, imMax = 1.45;
       var pl = P.x + 8, pr = P.x + P.w - 8, pt = P.y + 26, pb = P.y + P.h - 26;
       var sc = Math.min((pr - pl) / (reMax - reMin), (pb - pt) / (2 * imMax));
       var ox = pr - reMax * sc, oy = (pt + pb) / 2;
@@ -95,7 +95,7 @@ Sims.register('mj-ode-roots-forced', {
       ctx.beginPath(); ctx.moveTo(ox, oy - imMax * sc); ctx.lineTo(ox, oy + imMax * sc); ctx.stroke();
       ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody;
       ctx.textAlign = 'right'; ctx.fillText('Re λ', ox + reMax * sc, oy + 14);
-      ctx.textAlign = 'left'; ctx.fillText('Im λ', ox + 4, oy - imMax * sc + 10);
+      ctx.textAlign = 'right'; ctx.fillText('Im λ', ox - 4, oy - imMax * sc + 10);
       ctx.font = '11px ' + T.fontMono; ctx.textAlign = 'center';
       [-3, -2, -1].forEach(function (k) {
         ctx.beginPath(); ctx.moveTo(ox + k * sc, oy - 3); ctx.lineTo(ox + k * sc, oy + 3); ctx.stroke();
