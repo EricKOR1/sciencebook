@@ -704,3 +704,141 @@ $l = 2$인 각운동량에 대하여
 
 </details>
 
+### ⑦ 수소꼴 원자 Ⅰ — 슈뢰딩거 방정식과 지름·각 부분의 분리
+
+#### 해밀토니언
+
+**수소꼴 원자(hydrogenic atom)** 는 핵전하 $Ze$인 핵 하나와 전자 하나로 된 계이다($\mathrm{H}$, $\mathrm{He^+}$, $\mathrm{Li^{2+}}$, …). ①에 따라 질량 중심 운동을 떼어 내면 상대 운동의 해밀토니언은
+
+$$
+\hat{H} = -\frac{\hbar^2}{2\mu}\nabla^2 - \frac{Ze^2}{4\pi\varepsilon_0r}, \qquad \mu = \frac{m_\mathrm{e}m_\mathrm{N}}{m_\mathrm{e} + m_\mathrm{N}}
+$$
+
+이다. 퍼텐셜이 $r$에만 의존하는 **중심력** 문제이므로, 디딤돌 1의 라플라시안을 그대로 쓸 수 있다.
+
+#### 유도 — 변수 분리
+
+1. **분리**: $\psi(r, \theta, \phi) = R(r)\,Y(\theta, \phi)$를 넣고 $\nabla^2 = \dfrac{1}{r^2}\dfrac{\partial}{\partial r}r^2\dfrac{\partial}{\partial r} + \dfrac{1}{r^2}\Lambda^2$을 쓴 뒤, 양변에 $2\mu r^2/(\hbar^2RY)$를 곱해 정리하면
+$$
+\underbrace{\frac{1}{R}\frac{d}{dr}\left(r^2\frac{dR}{dr}\right) + \frac{2\mu r^2}{\hbar^2}\left[E - V(r)\right]}_{r\text{만의 함수}} = \underbrace{-\frac{1}{Y}\Lambda^2Y}_{\theta,\ \phi\text{만의 함수}}
+$$
+2. **각 부분**: 양변이 같은 상수여야 한다. 오른쪽은 ⑤의 구 위의 입자 방정식 그대로이므로, 상수는 $l(l + 1)$이고 $Y = Y_l^{m_l}$이다. **원자 오비탈의 각 부분은 퍼텐셜의 모양과 무관하게 구면 조화 함수이다.** 퍼텐셜이 구 대칭이기만 하면 된다.
+3. **지름 부분**: $u(r) = rR(r)$로 바꾸면 1차원 슈뢰딩거 방정식 꼴이 된다.
+$$
+-\frac{\hbar^2}{2\mu}\frac{d^2u}{dr^2} + V_\text{eff}(r)\,u = Eu, \qquad V_\text{eff}(r) = -\frac{Ze^2}{4\pi\varepsilon_0r} + \frac{l(l + 1)\hbar^2}{2\mu r^2}
+$$
+4. **경계 조건**: $\psi$가 유한하고 규격화되려면 $u(0) = 0$, $r \rightarrow \infty$에서 $u \rightarrow 0$.
+
+**$u = rR$로 바꾸는 까닭** $\dfrac{1}{r^2}\dfrac{d}{dr}\left(r^2\dfrac{dR}{dr}\right) = \dfrac{1}{r}\dfrac{d^2(rR)}{dr^2}$이라는 항등식 때문이다. 직접 미분해 확인할 수 있다($R = u/r$를 넣으면 양쪽 모두 $u''/r$).
+
+#### 유효 퍼텐셜과 원심력 장벽
+
+$V_\text{eff}$의 둘째 항은 각운동량 때문에 생기는 **원심력 장벽**이다. 고전적으로 각운동량 $L$을 가진 입자의 회전 에너지 $L^2/(2\mu r^2)$에서 $L^2$을 $l(l + 1)\hbar^2$으로 바꾼 것이다. $r \rightarrow 0$에서 $1/r^2$이 $-1/r$을 이기므로, $l > 0$인 전자는 핵에 다가가지 못한다. 원점 근처의 해는 $u \propto r^{l+1}$, 곧 $R \propto r^l$이다. **s 오비탈($l = 0$)만 핵 위치에서 0이 아닌 확률 밀도를 가진다.** 이 사실은 핵과 전자의 접촉 상호작용(NMR의 페르미 접촉, ESR의 초미세 결합)과 다전자 원자의 침투 효과(⑨, 다음 단원)의 근거이다.
+
+<!-- 그림 요청: 수소 원자의 유효 퍼텐셜. 가로축 r/a0(0~20), 세로축 V_eff/Eh(하트리, −1.0~+0.5; 1 Eh = 27.21 eV). 원자 단위식 V_eff = −1/r + l(l+1)/(2r²)의 세 곡선: l = 0(쿨롱 −1/r, 점선), l = 1(최솟값 (2, −0.25)), l = 2(최솟값 (6, −0.0833)). 최솟값에 점을 찍고 좌표를 적는다. 가로 점선으로 E1 = −0.5, E2 = −0.125, E3 = −0.0556 Eh 준위를 그리고 "n = 1, 2, 3"이라 쓴다. l = 1 곡선이 원점 근처에서 위로 치솟는 부분에 "원심력 장벽"이라 이름표. -->
+
+#### 예제 8 — 유효 퍼텐셜과 1s 해의 확인
+
+($Z = 1$, 핵을 무한히 무겁게 보아 $\mu = m_\mathrm{e}$, $a_0 = 4\pi\varepsilon_0\hbar^2/(m_\mathrm{e}e^2) = 52.92\ \mathrm{pm}$, $E_\mathrm{h} = e^2/(4\pi\varepsilon_0a_0) = 27.21\ \mathrm{eV}$)
+(1) $l = 1$일 때 $V_\text{eff}$가 최소가 되는 $r$과 그 값을 구하시오.
+(2) $R(r) = e^{-r/a}$가 $l = 0$ 지름 방정식의 해가 되는 $a$와 $E$를 구하시오.
+
+**풀이**
+(1) $r$을 $a_0$ 단위, 에너지를 $E_\mathrm{h}$ 단위로 쓰면($\hbar^2/(m_\mathrm{e}a_0^2) = E_\mathrm{h}$이므로) $V_\text{eff} = -\dfrac1r + \dfrac{l(l + 1)}{2r^2}$. $dV_\text{eff}/dr = 1/r^2 - l(l + 1)/r^3 = 0$ → $r = l(l + 1) = 2a_0 = 106\ \mathrm{pm}$. $V_\text{eff} = -\tfrac12 + \tfrac{2}{8} = -\tfrac14E_\mathrm{h} = -6.80\ \mathrm{eV}$.
+(2) $u = re^{-r/a}$. $u' = (1 - r/a)e^{-r/a}$, $u'' = (-2/a + r/a^2)e^{-r/a}$. 지름 방정식에 넣고 $e^{-r/a}$로 나누면
+$$
+-\frac{\hbar^2}{2m_\mathrm{e}}\left(\frac{r}{a^2} - \frac{2}{a}\right) - \frac{e^2}{4\pi\varepsilon_0} = Er
+$$
+모든 $r$에서 성립하려면 상수항과 $r$의 계수가 따로 같아야 한다. 상수항: $\dfrac{\hbar^2}{m_\mathrm{e}a} = \dfrac{e^2}{4\pi\varepsilon_0}$ → $a = a_0$. $r$의 계수: $E = -\dfrac{\hbar^2}{2m_\mathrm{e}a_0^2} = -\tfrac12E_\mathrm{h} = -13.6\ \mathrm{eV}$.
+
+**의미** 보어 반지름과 보어 에너지가 '전자가 원 궤도를 돈다'는 가정 없이 미분방정식의 해에서 나왔다. (1)의 $-6.80\ \mathrm{eV}$는 $n = 2$ 준위($-3.40\ \mathrm{eV}$)보다 낮다. 2p 전자의 에너지가 우물 바닥보다 높은 것은 영점 운동 때문이다.
+
+#### ✔ 바로 확인
+
+1. (O/X) 수소꼴 원자의 오비탈 각 부분은 퍼텐셜이 쿨롱 퍼텐셜이기 때문에 구면 조화 함수이다.
+2. 빈칸: $l > 0$이면 원점 근처에서 지름 함수는 $R \propto r^{(\quad)}$로 0이 된다.
+3. $l = 2$일 때 $V_\text{eff}$가 최소가 되는 반지름은 $a_0$의 몇 배인가?
+
+<details>
+<summary>정답</summary>
+
+1. X — 퍼텐셜이 구 대칭이기만 하면 된다. 쿨롱 꼴은 지름 부분과 에너지를 정한다.
+2. $l$ — 원심력 장벽 때문이다.
+3. 6배 — $r = l(l + 1)a_0$.
+
+</details>
+
+### ⑧ 수소꼴 원자 Ⅱ — 에너지 준위, 축퇴, 스펙트럼
+
+#### 에너지 준위
+
+지름 방정식의 급수 해는 수학 도구 8 '라게르 함수와 수소 원자의 지름 부분'에서 풀었다. 먼 곳에서 $u \sim e^{-\kappa r}$, 원점에서 $u \sim r^{l+1}$인 꼴을 떼어 낸 다항식이 끊겨야 한다는 조건(디딤돌 3)에서 정수 $n = l + 1, l + 2, \dots$가 나오고
+
+$$
+\boxed{\;E_n = -\frac{Z^2\mu e^4}{32\pi^2\varepsilon_0^2\hbar^2}\cdot\frac{1}{n^2} = -\frac{Z^2}{n^2}hc\tilde{R}_\mu, \qquad a_\mu = \frac{4\pi\varepsilon_0\hbar^2}{\mu e^2} = \frac{m_\mathrm{e}}{\mu}a_0\;}
+$$
+
+이다. 핵이 무한히 무거운 극한($\mu = m_\mathrm{e}$)의 뤼드베리 상수는 $\tilde{R}_\infty = 109\,737.3\ \mathrm{cm^{-1}}$ ($hc\tilde{R}_\infty = 13.606\ \mathrm{eV}$)이고, 실제 원자는 $\tilde{R}_\mu = \tilde{R}_\infty\,\mu/m_\mathrm{e}$이다. 수소는 $\tilde{R}_\mathrm{H} = 109\,677.6\ \mathrm{cm^{-1}}$이고, 이온화 에너지는 $hc\tilde{R}_\mathrm{H} = 13.598\ \mathrm{eV}$이다.
+
+| 양자수 | 허용값 | 어디서 나오나 |
+|---|---|---|
+| $n$ (주 양자수) | $1, 2, 3, \dots$ | 지름 급수의 끊김 |
+| $l$ (각운동량 양자수) | $0, 1, \dots, n - 1$ | $\theta$ 방정식의 유한성, 지름 다항식의 차수 $n - l - 1 \ge 0$ |
+| $m_l$ (자기 양자수) | $-l, \dots, +l$ | $\phi$의 한 값 조건, $\lvert m_l\rvert \le l$ |
+
+#### 축퇴 — 수소 원자만의 특별한 성질
+
+에너지가 $n$에만 의존하므로, 한 준위에 속하는 공간 상태의 수는
+
+$$
+g_n = \sum_{l=0}^{n-1}(2l + 1) = n^2
+$$
+
+이다(스핀까지 세면 $2n^2$, ⑩). 같은 $l$ 안의 $2l + 1$겹 축퇴는 구 대칭이면 언제나 생긴다. 그러나 **서로 다른 $l$끼리의 축퇴**(2s와 2p가 같은 에너지)는 퍼텐셜이 정확히 $1/r$일 때만 생기는 '우연한' 축퇴이다. 다전자 원자에서는 다른 전자의 가려막기로 퍼텐셜이 $1/r$에서 벗어나 이 축퇴가 풀리고, 2s < 2p, 3s < 3p < 3d가 된다(「다전자 원자와 화학 결합」).
+
+#### 비리얼 정리로 본 에너지
+
+쿨롱 퍼텐셜은 $s = -1$이므로(③) $\langle T\rangle = -\tfrac12\langle V\rangle$, $E = \langle T\rangle + \langle V\rangle = \tfrac12\langle V\rangle = -\langle T\rangle$이다. 바닥 상태 수소에서 $\langle T\rangle = +13.6\ \mathrm{eV}$, $\langle V\rangle = -27.2\ \mathrm{eV}$이다. 그리고 $\langle V\rangle = -e^2\langle 1/r\rangle/(4\pi\varepsilon_0)$이므로 $\langle 1/r\rangle_n = Z/(n^2a_\mu)$를 얻는다. 전자가 핵에 가까이 갈수록 퍼텐셜 에너지는 내려가지만 운동 에너지는 그 절반만큼 올라간다.
+
+#### 스펙트럼
+
+준위 $n_2 \rightarrow n_1$ 전이에서 나오는 빛의 파수는
+
+$$
+\tilde{\nu} = Z^2\tilde{R}_\mu\left(\frac{1}{n_1^2} - \frac{1}{n_2^2}\right)
+$$
+
+로, 일반화학의 뤼드베리 식이 그대로 나온다($n_1 = 1$ 라이먼, 2 발머, 3 파셴 계열). 원자 스펙트럼의 선택 규칙은 $\Delta l = \pm1$(광자가 각운동량 $\hbar$를 가져가기 때문)이며, $n$은 아무렇게나 바뀔 수 있다.
+
+<!-- 그림 요청: 수소 원자의 에너지 준위도(그로트리안 도표 형식). 세로축 E/eV(−14~0), 가로로 l = 0(s), 1(p), 2(d), 3(f) 네 열. n = 1~5 준위선을 E = −13.60, −3.40, −1.51, −0.85, −0.54 eV 높이에 해당 열에만 긋는다(n = 1은 s만, n = 2는 s·p, n = 3은 s·p·d, …). 같은 n의 선이 모두 같은 높이임을 가로 점선으로 이어 "우연 축퇴, gn = n²"이라 표시. E = 0에 "이온화(13.60 eV)" 선. 전이 화살표: 라이먼 α(2p → 1s, 121.6 nm), 발머 α(3s → 2p, 3d → 2p, 656.5 nm), 발머 β(4d → 2p, 486.3 nm)를 Δl = ±1을 지키며 비스듬히 그린다. -->
+
+#### 예제 9 — 중수소의 발견: 발머 α선의 동위 원소 이동
+
+수소($\tilde{R}_\mathrm{H} = 109\,677.58\ \mathrm{cm^{-1}}$)와 중수소($m_\mathrm{D}/m_\mathrm{e} = 3670.48$, $\tilde{R}_\infty = 109\,737.32\ \mathrm{cm^{-1}}$)의 발머 α선($n = 3 \rightarrow 2$)의 진공 파장을 구하고 그 차이를 구하시오.
+
+**풀이**
+$\tilde{R}_\mathrm{D} = \dfrac{\tilde{R}_\infty}{1 + m_\mathrm{e}/m_\mathrm{D}} = \dfrac{109\,737.32}{1.000\,272\,4} = 109\,707.43\ \mathrm{cm^{-1}}$
+$\tilde{\nu} = \tilde{R}(1/4 - 1/9) = \tfrac{5}{36}\tilde{R}$
+H: $\lambda = \dfrac{36}{5\times109\,677.58}\ \mathrm{cm} = 6.5647\times10^{-5}\ \mathrm{cm} = 656.47\ \mathrm{nm}$
+D: $\lambda = \dfrac{36}{5\times109\,707.43}\ \mathrm{cm} = 656.29\ \mathrm{nm}$
+차이 $0.18\ \mathrm{nm}$ (D가 짧다)
+
+**의미** 환산 질량이 약 0.027 % 커질 뿐인데, 좋은 분광기는 0.18 nm 차이를 넉넉히 분리한다. 1930년대 초, 진하게 만든 수소 시료의 발머선 옆에 정확히 이 위치의 희미한 선이 나타난 것이 질량 2인 수소 동위 원소의 존재를 확인한 결정적 증거가 되었다. 환산 질량은 작은 보정이지만 '보이는' 보정이다.
+
+#### ✔ 바로 확인
+
+1. $n = 4$ 준위의 공간 상태 수(축퇴도)는?
+2. $\mathrm{He^+}$의 이온화 에너지는 수소의 약 몇 배인가?
+3. (O/X) 수소 원자에서 2s와 2p 오비탈은 에너지가 같다(스핀–궤도 상호작용 등 미세한 효과는 무시).
+4. 바닥 상태 수소 원자의 $\langle T\rangle$와 $\langle V\rangle$는 각각 몇 eV인가?
+
+<details>
+<summary>정답</summary>
+
+1. 16 — $n^2$. ($l = 0, 1, 2, 3$에서 $1 + 3 + 5 + 7$)
+2. 4배 — $Z^2 = 4$, 약 54.4 eV.
+3. O — $1/r$ 퍼텐셜의 우연 축퇴이다. 다전자 원자에서는 풀린다.
+4. $+13.6\ \mathrm{eV}$, $-27.2\ \mathrm{eV}$ — 비리얼 정리 $\langle T\rangle = -\tfrac12\langle V\rangle$.
+
+</details>
+
