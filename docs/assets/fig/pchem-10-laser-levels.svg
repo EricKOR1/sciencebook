@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="t-pchem-10-laser-levels d-pchem-10-laser-levels">
+  <title id="t-pchem-10-laser-levels">그림 물리화학 10-11 3준위·4준위 레이저와 공진기</title>
+  <desc id="d-pchem-10-laser-levels">왼쪽 3준위 레이저: 바닥 준위 1에서 넓은 펌핑 띠 3으로 올린 분자가 빠른 무복사 전이로 수명이 긴 준안정 준위 2에 모이고, 준위 2의 분자 수가 준위 1보다 많아지면(밀도 반전 N₂ &gt; N₁) 2 → 1 레이저 발진이 일어난다. 바닥 준위의 절반 이상을 비워야 하므로 펌핑이 세야 한다. 오른쪽 4준위 레이저: 0 → 3 펌핑, 3 → 2 빠른 무복사, 2 → 1 발진, 1 → 0 빠른 무복사. 발진의 아래 준위 1이 곧 비워지므로 준위 2에 분자가 조금만 있어도 반전이 된다. 점은 분자 수를 나타내는 모식이다. 아래: 이득 매질 양쪽에 전반사 거울과 부분 투과 거울을 둔 공진기. 빛이 왕복하며 증폭되고 일부가 레이저 빔으로 나간다.</desc>
+  <style>.pchem-10-laser-levels-lbl{font-size:14px;fill:var(--fig-ink)} .pchem-10-laser-levels-sm{font-size:13px;fill:var(--fig-muted)} .pchem-10-laser-levels-b{font-size:14px;font-weight:600;fill:var(--fig-ink)} .pchem-10-laser-levels-tk{font-size:13px;fill:var(--fig-muted)} .pchem-10-laser-levels-ax{font-size:14px;fill:var(--fig-ink)} .pchem-10-laser-levels-red{font-size:14px;fill:var(--fig-red)} .pchem-10-laser-levels-blue{font-size:14px;fill:var(--fig-blue)} .pchem-10-laser-levels-green{font-size:14px;fill:var(--fig-green)} .pchem-10-laser-levels-amber{font-size:14px;fill:var(--fig-amber)} .pchem-10-laser-levels-violet{font-size:14px;fill:var(--fig-violet)} .pchem-10-laser-levels-teal{font-size:14px;fill:var(--fig-teal)} .pchem-10-laser-levels-acc{font-size:14px;fill:var(--fig-accent)} .pchem-10-laser-levels-mut{font-size:14px;fill:var(--fig-muted)} .pchem-10-laser-levels-big{font-size:16px;font-weight:700;fill:var(--fig-ink)}</style>
+  <text x="180.0" y="26.0" text-anchor="middle" class="pchem-10-laser-levels-b">3준위 레이저 (예: 루비)</text>
+  <rect x="50.0" y="56.0" width="230.0" height="28.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <text x="44.0" y="75.0" text-anchor="end" class="pchem-10-laser-levels-big">3</text>
+  <text x="286.0" y="75.0" class="pchem-10-laser-levels-sm">펌핑 띠</text>
+  <line x1="50.0" y1="150.0" x2="280.0" y2="150.0" style="stroke:var(--fig-ink);stroke-width:2.6"/>
+  <text x="44.0" y="155.0" text-anchor="end" class="pchem-10-laser-levels-big">2</text>
+  <text x="286.0" y="148.0" class="pchem-10-laser-levels-sm">준안정</text>
+  <text x="286.0" y="164.0" class="pchem-10-laser-levels-sm">(수명 길다)</text>
+  <line x1="50.0" y1="320.0" x2="280.0" y2="320.0" style="stroke:var(--fig-ink);stroke-width:2.6"/>
+  <text x="44.0" y="325.0" text-anchor="end" class="pchem-10-laser-levels-big">1</text>
+  <text x="286.0" y="325.0" class="pchem-10-laser-levels-sm">바닥</text>
+  <path d="M85.0 84.0 L91.0 96.0 L79.0 96.0 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="85.0" y1="320.0" x2="85.0" y2="95.7" style="stroke:var(--fig-blue);stroke-width:5"/>
+  <text x="80.0" y="240.0" text-anchor="end" class="pchem-10-laser-levels-blue">펌핑</text>
+  <path d="M112.0 84.0 L111.6 85.7 L111.6 87.3 L114.2 88.2 L116.9 89.1 L114.8 91.2 L111.5 93.5 L111.7 95.1 L115.5 95.7 L118.6 96.5 L117.6 98.3 L114.1 100.8 L113.1 102.6 L116.4 103.4 L120.2 104.0 L120.2 105.5 L116.8 107.9 L114.9 110.0 L117.3 111.0 L121.4 111.5 L122.5 112.8 L119.7 115.1 L116.9 117.4 L118.3 118.6 L122.5 119.1 L124.6 120.2 L122.5 122.3 L119.3 124.6 L119.5 126.2 L123.4 126.8 L126.4 127.6 L125.3 129.4 L121.8 131.9 L120.9 133.7 L124.2 134.4 L127.3 135.2 L126.6 137.0 L125.4 138.8 L126.1 140.2" style="fill:none;stroke:var(--fig-amber);stroke-width:2;stroke-linejoin:round"/>
+  <path d="M128.0 148.0 L122.2 141.2 L129.9 139.3 Z" style="fill:var(--fig-amber);stroke:none"/>
+  <text x="158.0" y="112.0" class="pchem-10-laser-levels-amber">빠른 무복사</text>
+  <path d="M230.0 320.0 L225.0 310.0 L235.0 310.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="230.0" y1="150.0" x2="230.0" y2="310.3" style="stroke:var(--fig-red);stroke-width:3.2"/>
+  <text x="238.0" y="240.0" class="pchem-10-laser-levels-red">레이저</text>
+  <text x="238.0" y="257.0" class="pchem-10-laser-levels-red">발진</text>
+  <circle cx="152.0" cy="143.0" r="5" style="fill:var(--fig-accent);stroke:none"/>
+  <circle cx="165.0" cy="143.0" r="5" style="fill:var(--fig-accent);stroke:none"/>
+  <circle cx="178.0" cy="143.0" r="5" style="fill:var(--fig-accent);stroke:none"/>
+  <circle cx="191.0" cy="143.0" r="5" style="fill:var(--fig-accent);stroke:none"/>
+  <circle cx="204.0" cy="143.0" r="5" style="fill:var(--fig-accent);stroke:none"/>
+  <circle cx="217.0" cy="143.0" r="5" style="fill:var(--fig-accent);stroke:none"/>
+  <circle cx="150.0" cy="313.0" r="5" style="fill:var(--fig-accent);stroke:none"/>
+  <circle cx="163.0" cy="313.0" r="5" style="fill:var(--fig-accent);stroke:none"/>
+  <circle cx="176.0" cy="313.0" r="5" style="fill:var(--fig-accent);stroke:none"/>
+  <circle cx="189.0" cy="313.0" r="5" style="fill:var(--fig-accent);stroke:none"/>
+  <circle cx="214.0" cy="70.0" r="5" style="fill:var(--fig-accent);stroke:none"/>
+  <text x="165.0" y="350.0" text-anchor="middle" class="pchem-10-laser-levels-b">밀도 반전: N<tspan baseline-shift="sub" style="font-size:10px">2</tspan> &gt; N<tspan baseline-shift="sub" style="font-size:10px">1</tspan></text>
+  <text x="540.0" y="26.0" text-anchor="middle" class="pchem-10-laser-levels-b">4준위 레이저 (예: Nd:YAG)</text>
+  <rect x="410.0" y="56.0" width="230.0" height="28.0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.5"/>
+  <text x="404.0" y="75.0" text-anchor="end" class="pchem-10-laser-levels-big">3</text>
+  <text x="646.0" y="75.0" class="pchem-10-laser-levels-sm">펌핑 띠</text>
+  <line x1="410.0" y1="150.0" x2="640.0" y2="150.0" style="stroke:var(--fig-ink);stroke-width:2.6"/>
+  <text x="404.0" y="155.0" text-anchor="end" class="pchem-10-laser-levels-big">2</text>
+  <text x="646.0" y="148.0" class="pchem-10-laser-levels-sm">준안정</text>
+  <text x="646.0" y="164.0" class="pchem-10-laser-levels-sm">(위 준위)</text>
+  <line x1="410.0" y1="250.0" x2="640.0" y2="250.0" style="stroke:var(--fig-ink);stroke-width:2.6"/>
+  <text x="404.0" y="255.0" text-anchor="end" class="pchem-10-laser-levels-big">1</text>
+  <text x="646.0" y="255.0" class="pchem-10-laser-levels-sm">아래 준위</text>
+  <line x1="410.0" y1="320.0" x2="640.0" y2="320.0" style="stroke:var(--fig-ink);stroke-width:2.6"/>
+  <text x="404.0" y="325.0" text-anchor="end" class="pchem-10-laser-levels-big">0</text>
+  <text x="646.0" y="325.0" class="pchem-10-laser-levels-sm">바닥</text>
+  <path d="M440.0 84.0 L446.0 96.0 L434.0 96.0 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="440.0" y1="320.0" x2="440.0" y2="95.7" style="stroke:var(--fig-blue);stroke-width:5"/>
+  <text x="448.0" y="200.0" class="pchem-10-laser-levels-blue">펌핑</text>
+  <path d="M470.0 84.0 L469.5 85.7 L469.5 87.2 L472.0 88.2 L474.7 89.2 L472.8 91.1 L469.4 93.4 L469.2 95.0 L472.9 95.8 L476.2 96.6 L475.4 98.3 L471.9 100.6 L470.5 102.5 L473.3 103.4 L477.3 104.1 L477.8 105.5 L474.6 107.8 L472.2 109.9 L473.9 111.0 L478.1 111.7 L479.8 112.8 L477.4 114.9 L474.2 117.2 L474.7 118.6 L478.6 119.3 L481.5 120.2 L480.1 122.1 L476.6 124.4 L475.8 126.1 L479.1 126.9 L482.8 127.7 L482.6 129.3 L479.2 131.6 L477.3 133.5 L479.6 134.6 L483.1 135.4 L483.2 136.9 L482.0 138.7 L482.3 140.2" style="fill:none;stroke:var(--fig-amber);stroke-width:2;stroke-linejoin:round"/>
+  <path d="M484.0 148.0 L478.4 141.0 L486.2 139.3 Z" style="fill:var(--fig-amber);stroke:none"/>
+  <text x="512.0" y="112.0" class="pchem-10-laser-levels-amber">빠른 무복사</text>
+  <path d="M585.0 250.0 L580.0 240.0 L590.0 240.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="585.0" y1="150.0" x2="585.0" y2="240.3" style="stroke:var(--fig-red);stroke-width:3.2"/>
+  <text x="593.0" y="196.0" class="pchem-10-laser-levels-red">레이저</text>
+  <text x="593.0" y="213.0" class="pchem-10-laser-levels-red">발진</text>
+  <path d="M615.0 250.0 L614.2 251.5 L613.8 253.0 L616.0 254.5 L618.5 256.0 L616.3 257.5 L612.5 259.0 L611.8 260.5 L615.0 262.0 L618.2 263.5 L617.5 265.0 L613.7 266.5 L611.5 268.0 L613.7 269.5 L617.5 271.0 L618.2 272.5 L615.0 274.0 L611.8 275.5 L612.5 277.0 L616.3 278.5 L618.5 280.0 L616.3 281.5 L612.5 283.0 L611.8 284.5 L615.0 286.0 L618.2 287.5 L617.5 289.0 L613.7 290.5 L611.5 292.0 L613.7 293.5 L617.5 295.0 L618.2 296.5 L615.0 298.0 L611.8 299.5 L612.5 301.0 L616.3 302.5 L618.5 304.0 L616.0 305.5 L613.8 307.0 L614.2 308.5 L615.0 310.0" style="fill:none;stroke:var(--fig-amber);stroke-width:2;stroke-linejoin:round"/>
+  <path d="M615.0 318.0 L611.0 310.0 L619.0 310.0 Z" style="fill:var(--fig-amber);stroke:none"/>
+  <circle cx="510.0" cy="143.0" r="5" style="fill:var(--fig-accent);stroke:none"/>
+  <circle cx="523.0" cy="143.0" r="5" style="fill:var(--fig-accent);stroke:none"/>
+  <circle cx="536.0" cy="143.0" r="5" style="fill:var(--fig-accent);stroke:none"/>
+  <circle cx="480.0" cy="313.0" r="5" style="fill:var(--fig-accent);stroke:none"/>
+  <circle cx="493.0" cy="313.0" r="5" style="fill:var(--fig-accent);stroke:none"/>
+  <circle cx="506.0" cy="313.0" r="5" style="fill:var(--fig-accent);stroke:none"/>
+  <circle cx="519.0" cy="313.0" r="5" style="fill:var(--fig-accent);stroke:none"/>
+  <circle cx="532.0" cy="313.0" r="5" style="fill:var(--fig-accent);stroke:none"/>
+  <circle cx="545.0" cy="313.0" r="5" style="fill:var(--fig-accent);stroke:none"/>
+  <circle cx="558.0" cy="313.0" r="5" style="fill:var(--fig-accent);stroke:none"/>
+  <circle cx="571.0" cy="313.0" r="5" style="fill:var(--fig-accent);stroke:none"/>
+  <circle cx="584.0" cy="313.0" r="5" style="fill:var(--fig-accent);stroke:none"/>
+  <text x="525.0" y="242.0" text-anchor="middle" class="pchem-10-laser-levels-sm">거의 비어 있다</text>
+  <text x="525.0" y="350.0" text-anchor="middle" class="pchem-10-laser-levels-b">아래 준위가 곧 비워진다 → 약한 펌핑으로도 N<tspan baseline-shift="sub" style="font-size:10px">2</tspan> &gt; N<tspan baseline-shift="sub" style="font-size:10px">1</tspan></text>
+  <line x1="20.0" y1="372.0" x2="700.0" y2="372.0" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:4 4"/>
+  <text x="360.0" y="396.0" text-anchor="middle" class="pchem-10-laser-levels-b">공진기</text>
+  <text x="700.0" y="396.0" text-anchor="end" class="pchem-10-laser-levels-sm">점(●) = 분자</text>
+  <rect x="200.0" y="421.0" width="300.0" height="48.0" rx="6" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.6"/>
+  <text x="350.0" y="489.0" text-anchor="middle" class="pchem-10-laser-levels-sm">이득 매질(밀도 반전)</text>
+  <path d="M150 399 Q138 445 150 491" style="fill:none;stroke:var(--fig-ink);stroke-width:7"/>
+  <path d="M550 399 Q562 445 550 491" style="fill:none;stroke:var(--fig-muted);stroke-width:5;stroke-dasharray:6 3"/>
+  <text x="150.0" y="511.0" text-anchor="middle" class="pchem-10-laser-levels-sm">전반사 거울</text>
+  <text x="556.0" y="511.0" text-anchor="middle" class="pchem-10-laser-levels-sm">부분 투과 거울</text>
+  <path d="M535.0 437.0 L527.0 441.0 L527.0 433.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="165.0" y1="437.0" x2="527.3" y2="437.0" style="stroke:var(--fig-red);stroke-width:2"/>
+  <path d="M165.0 453.0 L173.0 449.0 L173.0 457.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="535.0" y1="453.0" x2="172.7" y2="453.0" style="stroke:var(--fig-red);stroke-width:2"/>
+  <path d="M690.0 445.0 L677.0 451.5 L677.0 438.5 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="565.0" y1="445.0" x2="677.3" y2="445.0" style="stroke:var(--fig-red);stroke-width:5"/>
+  <text x="628.0" y="431.0" text-anchor="middle" class="pchem-10-laser-levels-red">레이저 빔</text>
+</svg>

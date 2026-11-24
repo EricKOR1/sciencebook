@@ -41,7 +41,7 @@ Sims.register('mj-consecutive-steady-state', {
       ctx.fillStyle = T.figPanel; ctx.fillRect(L, Tp, R - L, B - Tp);
       ctx.strokeStyle = T.figLine; ctx.lineWidth = 1; ctx.strokeRect(L, Tp, R - L, B - Tp);
       ctx.font = '11px ' + T.fontMono; ctx.fillStyle = T.figMuted;
-      (o.xt || []).forEach(function (q) { ctx.textAlign = 'center'; ctx.fillText(q[1], sx(q[0]), B + 14); grid(sx(q[0]), Tp, sx(q[0]), B); });
+      (o.xt || []).forEach(function (q, qi, arr) { ctx.textAlign = qi === arr.length - 1 && arr.length > 1 ? 'right' : 'center'; ctx.fillText(q[1], sx(q[0]), B + 14); grid(sx(q[0]), Tp, sx(q[0]), B); });
       (o.yt || []).forEach(function (q) { ctx.textAlign = 'right'; ctx.fillStyle = T.figMuted; ctx.fillText(q[1], L - 5, sy(q[0]) + 4); grid(L, sy(q[0]), R, sy(q[0])); });
       function grid(x1, y1, x2, y2) { ctx.save(); ctx.strokeStyle = T.figLine; ctx.setLineDash([2, 4]); ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.stroke(); ctx.restore(); }
       ctx.fillStyle = T.figInk; ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'center';

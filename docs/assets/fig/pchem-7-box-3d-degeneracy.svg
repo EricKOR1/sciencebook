@@ -2,73 +2,79 @@
   <title id="t-pchem-7-box-3d-degeneracy">그림 물리화학 7-12 정육면체 상자와 늘인 상자의 에너지 준위</title>
   <desc id="d-pchem-7-box-3d-degeneracy">왼쪽은 정육면체(a = b = c) 상자의 준위 n_x² + n_y² + n_z² = 3, 6, 9, 11, 12, 14(짧은 가로선 수가 축퇴도 g), 오른쪽은 z 방향으로 10 % 늘인 상자(c = 1.10a)의 준위 E = n_x² + n_y² + n_z²/1.21(단위 h²/8ma²)로, E ≤ 15인 것을 모두 그렸다. 점선은 대응하는 준위를 잇는다. 6의 삼중 축퇴는 (1,1,2)의 5.31과 (2,1,1)·(1,2,1)의 5.83으로 1 + 2로 갈라지고, 남은 이중 축퇴는 x–y 정사각형 대칭에서 나온다.</desc>
   <style>.pchem-7-box-3d-degeneracy-lbl{font-size:14px;fill:var(--fig-ink)} .pchem-7-box-3d-degeneracy-sm{font-size:13px;fill:var(--fig-muted)} .pchem-7-box-3d-degeneracy-b{font-size:14px;font-weight:600;fill:var(--fig-ink)} .pchem-7-box-3d-degeneracy-tk{font-size:13px;fill:var(--fig-muted)} .pchem-7-box-3d-degeneracy-ax{font-size:14px;fill:var(--fig-ink)} .pchem-7-box-3d-degeneracy-big{font-size:16px;font-weight:700;fill:var(--fig-ink)} .pchem-7-box-3d-degeneracy-red{font-size:14px;fill:var(--fig-red)} .pchem-7-box-3d-degeneracy-redb{font-size:14px;font-weight:600;fill:var(--fig-red)} .pchem-7-box-3d-degeneracy-blue{font-size:14px;fill:var(--fig-blue)} .pchem-7-box-3d-degeneracy-blueb{font-size:14px;font-weight:600;fill:var(--fig-blue)} .pchem-7-box-3d-degeneracy-green{font-size:14px;fill:var(--fig-green)} .pchem-7-box-3d-degeneracy-greenb{font-size:14px;font-weight:600;fill:var(--fig-green)} .pchem-7-box-3d-degeneracy-amber{font-size:14px;fill:var(--fig-amber)} .pchem-7-box-3d-degeneracy-amberb{font-size:14px;font-weight:600;fill:var(--fig-amber)} .pchem-7-box-3d-degeneracy-violet{font-size:14px;fill:var(--fig-violet)} .pchem-7-box-3d-degeneracy-violetb{font-size:14px;font-weight:600;fill:var(--fig-violet)} .pchem-7-box-3d-degeneracy-teal{font-size:14px;fill:var(--fig-teal)} .pchem-7-box-3d-degeneracy-tealb{font-size:14px;font-weight:600;fill:var(--fig-teal)} .pchem-7-box-3d-degeneracy-accent{font-size:14px;fill:var(--fig-accent)} .pchem-7-box-3d-degeneracy-accentb{font-size:14px;font-weight:600;fill:var(--fig-accent)}</style>
-  <line x1="70.0" y1="40.0" x2="70.0" y2="560.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
-  <line x1="65.0" y1="560.0" x2="70.0" y2="560.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
-  <text x="60.0" y="564.5" text-anchor="end" class="pchem-7-box-3d-degeneracy-tk">0</text>
-  <line x1="65.0" y1="456.0" x2="70.0" y2="456.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
-  <text x="60.0" y="460.5" text-anchor="end" class="pchem-7-box-3d-degeneracy-tk">3</text>
-  <line x1="65.0" y1="352.0" x2="70.0" y2="352.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
-  <text x="60.0" y="356.5" text-anchor="end" class="pchem-7-box-3d-degeneracy-tk">6</text>
-  <line x1="65.0" y1="248.0" x2="70.0" y2="248.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
-  <text x="60.0" y="252.5" text-anchor="end" class="pchem-7-box-3d-degeneracy-tk">9</text>
-  <line x1="65.0" y1="144.0" x2="70.0" y2="144.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
-  <text x="60.0" y="148.5" text-anchor="end" class="pchem-7-box-3d-degeneracy-tk">12</text>
-  <line x1="65.0" y1="40.0" x2="70.0" y2="40.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
-  <text x="60.0" y="44.5" text-anchor="end" class="pchem-7-box-3d-degeneracy-tk">15</text>
+  <line x1="60.0" y1="40.0" x2="60.0" y2="560.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <line x1="55.0" y1="560.0" x2="60.0" y2="560.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="50.0" y="564.5" text-anchor="end" class="pchem-7-box-3d-degeneracy-tk">0</text>
+  <line x1="55.0" y1="40.0" x2="60.0" y2="40.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="50.0" y="44.5" text-anchor="end" class="pchem-7-box-3d-degeneracy-tk">15</text>
+  <line x1="57.0" y1="525.3" x2="60.0" y2="525.3" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <line x1="57.0" y1="490.7" x2="60.0" y2="490.7" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <line x1="57.0" y1="456.0" x2="60.0" y2="456.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <line x1="57.0" y1="421.3" x2="60.0" y2="421.3" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <line x1="57.0" y1="386.7" x2="60.0" y2="386.7" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <line x1="57.0" y1="352.0" x2="60.0" y2="352.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <line x1="57.0" y1="317.3" x2="60.0" y2="317.3" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <line x1="57.0" y1="282.7" x2="60.0" y2="282.7" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <line x1="57.0" y1="248.0" x2="60.0" y2="248.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <line x1="57.0" y1="213.3" x2="60.0" y2="213.3" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <line x1="57.0" y1="178.7" x2="60.0" y2="178.7" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <line x1="57.0" y1="144.0" x2="60.0" y2="144.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <line x1="57.0" y1="109.3" x2="60.0" y2="109.3" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <line x1="57.0" y1="74.7" x2="60.0" y2="74.7" style="stroke:var(--fig-muted);stroke-width:1"/>
   <text x="26.0" y="300.0" text-anchor="middle" transform="rotate(-90 26.0 300.0)" class="pchem-7-box-3d-degeneracy-ax">E/(h<tspan baseline-shift="super" style="font-size:75%">2</tspan>/8ma<tspan baseline-shift="super" style="font-size:75%">2</tspan>)</text>
-  <text x="190.0" y="28.0" text-anchor="middle" class="pchem-7-box-3d-degeneracy-b">정육면체 a = b = c</text>
+  <text x="230.0" y="28.0" text-anchor="middle" class="pchem-7-box-3d-degeneracy-b">정육면체 a = b = c</text>
   <text x="470.0" y="28.0" text-anchor="middle" class="pchem-7-box-3d-degeneracy-b">c = 1.10a</text>
-  <line x1="110.0" y1="456.0" x2="270.0" y2="456.0" style="stroke:var(--fig-ink);stroke-width:2.6"/>
-  <text x="102.0" y="461.0" text-anchor="end" class="pchem-7-box-3d-degeneracy-lbl">3  (g = 1)</text>
-  <line x1="110.0" y1="352.0" x2="160.0" y2="352.0" style="stroke:var(--fig-red);stroke-width:3.4"/>
-  <line x1="165.0" y1="352.0" x2="215.0" y2="352.0" style="stroke:var(--fig-red);stroke-width:3.4"/>
-  <line x1="220.0" y1="352.0" x2="270.0" y2="352.0" style="stroke:var(--fig-red);stroke-width:3.4"/>
-  <text x="102.0" y="357.0" text-anchor="end" class="pchem-7-box-3d-degeneracy-redb">6  (g = 3)</text>
-  <line x1="110.0" y1="248.0" x2="160.0" y2="248.0" style="stroke:var(--fig-ink);stroke-width:2.6"/>
-  <line x1="165.0" y1="248.0" x2="215.0" y2="248.0" style="stroke:var(--fig-ink);stroke-width:2.6"/>
-  <line x1="220.0" y1="248.0" x2="270.0" y2="248.0" style="stroke:var(--fig-ink);stroke-width:2.6"/>
-  <text x="102.0" y="253.0" text-anchor="end" class="pchem-7-box-3d-degeneracy-lbl">9  (g = 3)</text>
-  <line x1="110.0" y1="178.7" x2="160.0" y2="178.7" style="stroke:var(--fig-ink);stroke-width:2.6"/>
-  <line x1="165.0" y1="178.7" x2="215.0" y2="178.7" style="stroke:var(--fig-ink);stroke-width:2.6"/>
-  <line x1="220.0" y1="178.7" x2="270.0" y2="178.7" style="stroke:var(--fig-ink);stroke-width:2.6"/>
-  <text x="102.0" y="183.7" text-anchor="end" class="pchem-7-box-3d-degeneracy-lbl">11  (g = 3)</text>
-  <line x1="110.0" y1="144.0" x2="270.0" y2="144.0" style="stroke:var(--fig-ink);stroke-width:2.6"/>
-  <text x="102.0" y="149.0" text-anchor="end" class="pchem-7-box-3d-degeneracy-lbl">12  (g = 1)</text>
-  <line x1="110.0" y1="74.7" x2="132.5" y2="74.7" style="stroke:var(--fig-ink);stroke-width:2.6"/>
-  <line x1="137.5" y1="74.7" x2="160.0" y2="74.7" style="stroke:var(--fig-ink);stroke-width:2.6"/>
-  <line x1="165.0" y1="74.7" x2="187.5" y2="74.7" style="stroke:var(--fig-ink);stroke-width:2.6"/>
-  <line x1="192.5" y1="74.7" x2="215.0" y2="74.7" style="stroke:var(--fig-ink);stroke-width:2.6"/>
-  <line x1="220.0" y1="74.7" x2="242.5" y2="74.7" style="stroke:var(--fig-ink);stroke-width:2.6"/>
-  <line x1="247.5" y1="74.7" x2="270.0" y2="74.7" style="stroke:var(--fig-ink);stroke-width:2.6"/>
-  <text x="102.0" y="79.7" text-anchor="end" class="pchem-7-box-3d-degeneracy-lbl">14  (g = 6)</text>
+  <line x1="160.0" y1="456.0" x2="300.0" y2="456.0" style="stroke:var(--fig-ink);stroke-width:2.6"/>
+  <text x="152.0" y="461.0" text-anchor="end" class="pchem-7-box-3d-degeneracy-lbl">3  (g = 1)</text>
+  <line x1="160.0" y1="352.0" x2="203.3" y2="352.0" style="stroke:var(--fig-red);stroke-width:3.4"/>
+  <line x1="208.3" y1="352.0" x2="251.7" y2="352.0" style="stroke:var(--fig-red);stroke-width:3.4"/>
+  <line x1="256.7" y1="352.0" x2="300.0" y2="352.0" style="stroke:var(--fig-red);stroke-width:3.4"/>
+  <text x="152.0" y="357.0" text-anchor="end" class="pchem-7-box-3d-degeneracy-redb">6  (g = 3)</text>
+  <line x1="160.0" y1="248.0" x2="203.3" y2="248.0" style="stroke:var(--fig-ink);stroke-width:2.6"/>
+  <line x1="208.3" y1="248.0" x2="251.7" y2="248.0" style="stroke:var(--fig-ink);stroke-width:2.6"/>
+  <line x1="256.7" y1="248.0" x2="300.0" y2="248.0" style="stroke:var(--fig-ink);stroke-width:2.6"/>
+  <text x="152.0" y="253.0" text-anchor="end" class="pchem-7-box-3d-degeneracy-lbl">9  (g = 3)</text>
+  <line x1="160.0" y1="178.7" x2="203.3" y2="178.7" style="stroke:var(--fig-ink);stroke-width:2.6"/>
+  <line x1="208.3" y1="178.7" x2="251.7" y2="178.7" style="stroke:var(--fig-ink);stroke-width:2.6"/>
+  <line x1="256.7" y1="178.7" x2="300.0" y2="178.7" style="stroke:var(--fig-ink);stroke-width:2.6"/>
+  <text x="152.0" y="183.7" text-anchor="end" class="pchem-7-box-3d-degeneracy-lbl">11  (g = 3)</text>
+  <line x1="160.0" y1="144.0" x2="300.0" y2="144.0" style="stroke:var(--fig-ink);stroke-width:2.6"/>
+  <text x="152.0" y="149.0" text-anchor="end" class="pchem-7-box-3d-degeneracy-lbl">12  (g = 1)</text>
+  <line x1="160.0" y1="74.7" x2="179.2" y2="74.7" style="stroke:var(--fig-ink);stroke-width:2.6"/>
+  <line x1="184.2" y1="74.7" x2="203.3" y2="74.7" style="stroke:var(--fig-ink);stroke-width:2.6"/>
+  <line x1="208.3" y1="74.7" x2="227.5" y2="74.7" style="stroke:var(--fig-ink);stroke-width:2.6"/>
+  <line x1="232.5" y1="74.7" x2="251.7" y2="74.7" style="stroke:var(--fig-ink);stroke-width:2.6"/>
+  <line x1="256.7" y1="74.7" x2="275.8" y2="74.7" style="stroke:var(--fig-ink);stroke-width:2.6"/>
+  <line x1="280.8" y1="74.7" x2="300.0" y2="74.7" style="stroke:var(--fig-ink);stroke-width:2.6"/>
+  <text x="152.0" y="79.7" text-anchor="end" class="pchem-7-box-3d-degeneracy-lbl">14  (g = 6)</text>
   <line x1="420.0" y1="462.0" x2="520.0" y2="462.0" style="stroke:var(--fig-ink);stroke-width:2.6"/>
-  <line x1="274.0" y1="456.0" x2="416.0" y2="462.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 4"/>
+  <line x1="304.0" y1="456.0" x2="416.0" y2="462.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 4"/>
   <line x1="420.0" y1="376.1" x2="520.0" y2="376.1" style="stroke:var(--fig-red);stroke-width:3.4"/>
-  <line x1="274.0" y1="352.0" x2="416.0" y2="376.1" style="stroke:var(--fig-red);stroke-width:1.6;stroke-dasharray:4 4"/>
+  <line x1="304.0" y1="352.0" x2="416.0" y2="376.1" style="stroke:var(--fig-red);stroke-width:1.6;stroke-dasharray:4 4"/>
   <line x1="420.0" y1="358.0" x2="467.5" y2="358.0" style="stroke:var(--fig-red);stroke-width:3.4"/>
   <line x1="472.5" y1="358.0" x2="520.0" y2="358.0" style="stroke:var(--fig-red);stroke-width:3.4"/>
-  <line x1="274.0" y1="352.0" x2="416.0" y2="358.0" style="stroke:var(--fig-red);stroke-width:1.6;stroke-dasharray:4 4"/>
+  <line x1="304.0" y1="352.0" x2="416.0" y2="358.0" style="stroke:var(--fig-red);stroke-width:1.6;stroke-dasharray:4 4"/>
   <line x1="420.0" y1="272.1" x2="467.5" y2="272.1" style="stroke:var(--fig-ink);stroke-width:2.6"/>
   <line x1="472.5" y1="272.1" x2="520.0" y2="272.1" style="stroke:var(--fig-ink);stroke-width:2.6"/>
-  <line x1="274.0" y1="248.0" x2="416.0" y2="272.1" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 4"/>
+  <line x1="304.0" y1="248.0" x2="416.0" y2="272.1" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 4"/>
   <line x1="420.0" y1="254.0" x2="520.0" y2="254.0" style="stroke:var(--fig-ink);stroke-width:2.6"/>
-  <line x1="274.0" y1="248.0" x2="416.0" y2="254.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 4"/>
+  <line x1="304.0" y1="248.0" x2="416.0" y2="254.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 4"/>
   <line x1="420.0" y1="232.8" x2="520.0" y2="232.8" style="stroke:var(--fig-ink);stroke-width:2.6"/>
-  <line x1="274.0" y1="178.7" x2="416.0" y2="232.8" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 4"/>
+  <line x1="304.0" y1="178.7" x2="416.0" y2="232.8" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 4"/>
   <line x1="420.0" y1="184.7" x2="467.5" y2="184.7" style="stroke:var(--fig-ink);stroke-width:2.6"/>
   <line x1="472.5" y1="184.7" x2="520.0" y2="184.7" style="stroke:var(--fig-ink);stroke-width:2.6"/>
-  <line x1="274.0" y1="178.7" x2="416.0" y2="184.7" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 4"/>
+  <line x1="304.0" y1="178.7" x2="416.0" y2="184.7" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 4"/>
   <line x1="420.0" y1="168.1" x2="520.0" y2="168.1" style="stroke:var(--fig-ink);stroke-width:2.6"/>
-  <line x1="274.0" y1="144.0" x2="416.0" y2="168.1" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 4"/>
+  <line x1="304.0" y1="144.0" x2="416.0" y2="168.1" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 4"/>
   <line x1="420.0" y1="128.8" x2="467.5" y2="128.8" style="stroke:var(--fig-ink);stroke-width:2.6"/>
   <line x1="472.5" y1="128.8" x2="520.0" y2="128.8" style="stroke:var(--fig-ink);stroke-width:2.6"/>
-  <line x1="274.0" y1="74.7" x2="416.0" y2="128.8" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 4"/>
+  <line x1="304.0" y1="74.7" x2="416.0" y2="128.8" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 4"/>
   <line x1="420.0" y1="98.7" x2="467.5" y2="98.7" style="stroke:var(--fig-ink);stroke-width:2.6"/>
   <line x1="472.5" y1="98.7" x2="520.0" y2="98.7" style="stroke:var(--fig-ink);stroke-width:2.6"/>
-  <line x1="274.0" y1="74.7" x2="416.0" y2="98.7" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 4"/>
+  <line x1="304.0" y1="74.7" x2="416.0" y2="98.7" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 4"/>
   <line x1="420.0" y1="80.7" x2="467.5" y2="80.7" style="stroke:var(--fig-ink);stroke-width:2.6"/>
   <line x1="472.5" y1="80.7" x2="520.0" y2="80.7" style="stroke:var(--fig-ink);stroke-width:2.6"/>
-  <line x1="274.0" y1="74.7" x2="416.0" y2="80.7" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 4"/>
+  <line x1="304.0" y1="74.7" x2="416.0" y2="80.7" style="stroke:var(--fig-muted);stroke-width:1;stroke-dasharray:4 4"/>
   <text x="530.0" y="467.0" class="pchem-7-box-3d-degeneracy-lbl">2.83  (1,1,1)</text>
   <text x="530.0" y="381.1" class="pchem-7-box-3d-degeneracy-redb">5.31  (1,1,2)</text>
   <text x="530.0" y="363.0" class="pchem-7-box-3d-degeneracy-redb">5.83  (2,1,1)(1,2,1)</text>
@@ -80,6 +86,6 @@
   <text x="530.0" y="133.8" class="pchem-7-box-3d-degeneracy-lbl">12.44  (1,2,3)(2,1,3)</text>
   <text x="530.0" y="103.7" class="pchem-7-box-3d-degeneracy-lbl">13.31  (1,3,2)(3,1,2)</text>
   <text x="530.0" y="85.7" class="pchem-7-box-3d-degeneracy-lbl">13.83  (2,3,1)(3,2,1)</text>
-  <text x="300.0" y="406.9" text-anchor="middle" class="pchem-7-box-3d-degeneracy-redb">6 → 1 + 2로 갈라짐</text>
+  <text x="340.0" y="406.9" text-anchor="middle" class="pchem-7-box-3d-degeneracy-redb">6 → 1 + 2로 갈라짐</text>
   <text x="420.0" y="554.0" class="pchem-7-box-3d-degeneracy-sm">E ≤ 15인 준위 모두</text>
 </svg>

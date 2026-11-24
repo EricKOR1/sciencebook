@@ -65,18 +65,18 @@
   <circle cx="322.3" cy="190.0" r="5" style="fill:var(--fig-blue);stroke:none"/>
   <circle cx="80.0" cy="282.0" r="5" style="fill:var(--fig-blue);stroke:none"/>
   <text x="90.0" y="287.0" class="pchem-7-photoelectric-lines-blueb">−Φ/e = −2.30 V</text>
-  <text x="328.3" y="180.0" class="pchem-7-photoelectric-lines-blueb">ν<tspan baseline-shift="sub" style="font-size:75%">0</tspan> = 5.56</text>
+  <text x="314.3" y="180.0" text-anchor="end" class="pchem-7-photoelectric-lines-blueb">ν<tspan baseline-shift="sub" style="font-size:75%">0</tspan> = 5.56</text>
   <text x="681.3" y="75.7" text-anchor="end" class="pchem-7-photoelectric-lines-blueb">금속 A (Φ = 2.30 eV)</text>
   <path d="M80.0 370.0 L554.1 190.0" style="fill:none;stroke:var(--fig-red);stroke-width:2;stroke-dasharray:6 5"/>
   <path d="M554.1 190.0 L690.0 138.4" style="fill:none;stroke:var(--fig-red);stroke-width:2.8"/>
   <circle cx="554.1" cy="190.0" r="5" style="fill:var(--fig-red);stroke:none"/>
   <circle cx="80.0" cy="370.0" r="5" style="fill:var(--fig-red);stroke:none"/>
   <text x="90.0" y="375.0" class="pchem-7-photoelectric-lines-redb">−Φ/e = −4.50 V</text>
-  <text x="560.1" y="180.0" class="pchem-7-photoelectric-lines-redb">ν<tspan baseline-shift="sub" style="font-size:75%">0</tspan> = 10.88</text>
+  <text x="546.1" y="180.0" text-anchor="end" class="pchem-7-photoelectric-lines-redb">ν<tspan baseline-shift="sub" style="font-size:75%">0</tspan> = 10.88</text>
   <text x="681.3" y="163.7" text-anchor="end" class="pchem-7-photoelectric-lines-redb">금속 B (Φ = 4.50 eV)</text>
-  <text x="337.1" y="212.0" class="pchem-7-photoelectric-lines-lbl">문턱 진동수 ν<tspan baseline-shift="sub" style="font-size:75%">0</tspan></text>
+  <text x="328.4" y="212.0" class="pchem-7-photoelectric-lines-lbl">문턱 진동수 ν<tspan baseline-shift="sub" style="font-size:75%">0</tspan> (가로축 절편)</text>
   <path d="M428.6 149.7 L515.7 149.7 L515.7 116.6" style="fill:none;stroke:var(--fig-ink);stroke-width:1.3"/>
   <text x="472.1" y="166.7" text-anchor="middle" class="pchem-7-photoelectric-lines-sm">Δν = 2</text>
   <text x="521.7" y="138.1" class="pchem-7-photoelectric-lines-sm">ΔV = 0.827 V</text>
-  <text x="385.0" y="74.0" class="pchem-7-photoelectric-lines-b">기울기 h/e = 4.136×10<tspan baseline-shift="super" style="font-size:75%">−15</tspan> V·s (금속과 무관)</text>
+  <text x="97.4" y="58.0" class="pchem-7-photoelectric-lines-b">기울기 h/e = 4.136×10<tspan baseline-shift="super" style="font-size:75%">−15</tspan> V·s (금속과 무관)</text>
 </svg>

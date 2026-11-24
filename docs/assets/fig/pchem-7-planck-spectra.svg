@@ -2,80 +2,80 @@
   <title id="t-pchem-7-planck-spectra">그림 물리화학 7-1 흑체 복사의 스펙트럼 에너지 밀도와 레일리–진스 곡선</title>
   <desc id="d-pchem-7-planck-spectra">플랑크 분포 ρ(λ) = (8πhc/λ⁵)/(e^(hc/λkT) − 1)을 5800 K, 4000 K, 3000 K에서 계산해 그렸다(세로축은 5800 K 봉우리를 1로 둔 임의 단위). 봉우리 λmax는 0.500, 0.724, 0.966 μm이고 봉우리들을 잇는 점선 위에서 λmax T = 2.898 mm·K이다. 회색 점선은 5800 K의 레일리–진스 곡선 ρ = 8πkT/λ⁴로, 짧은 파장에서 끝없이 커진다(자외선 파탄). 긴 파장에서는 두 곡선이 가까워진다. 색 띠는 가시광선(0.38~0.75 μm).</desc>
   <style>.pchem-7-planck-spectra-lbl{font-size:14px;fill:var(--fig-ink)} .pchem-7-planck-spectra-sm{font-size:13px;fill:var(--fig-muted)} .pchem-7-planck-spectra-b{font-size:14px;font-weight:600;fill:var(--fig-ink)} .pchem-7-planck-spectra-tk{font-size:13px;fill:var(--fig-muted)} .pchem-7-planck-spectra-ax{font-size:14px;fill:var(--fig-ink)} .pchem-7-planck-spectra-big{font-size:16px;font-weight:700;fill:var(--fig-ink)} .pchem-7-planck-spectra-red{font-size:14px;fill:var(--fig-red)} .pchem-7-planck-spectra-redb{font-size:14px;font-weight:600;fill:var(--fig-red)} .pchem-7-planck-spectra-blue{font-size:14px;fill:var(--fig-blue)} .pchem-7-planck-spectra-blueb{font-size:14px;font-weight:600;fill:var(--fig-blue)} .pchem-7-planck-spectra-green{font-size:14px;fill:var(--fig-green)} .pchem-7-planck-spectra-greenb{font-size:14px;font-weight:600;fill:var(--fig-green)} .pchem-7-planck-spectra-amber{font-size:14px;fill:var(--fig-amber)} .pchem-7-planck-spectra-amberb{font-size:14px;font-weight:600;fill:var(--fig-amber)} .pchem-7-planck-spectra-violet{font-size:14px;fill:var(--fig-violet)} .pchem-7-planck-spectra-violetb{font-size:14px;font-weight:600;fill:var(--fig-violet)} .pchem-7-planck-spectra-teal{font-size:14px;fill:var(--fig-teal)} .pchem-7-planck-spectra-tealb{font-size:14px;font-weight:600;fill:var(--fig-teal)} .pchem-7-planck-spectra-accent{font-size:14px;fill:var(--fig-accent)} .pchem-7-planck-spectra-accentb{font-size:14px;font-weight:600;fill:var(--fig-accent)}</style>
-  <rect x="157.3" y="30.0" width="1.3" height="350.0" style="fill:#f400ff;opacity:0.22;stroke:none"/>
-  <rect x="158.3" y="30.0" width="1.3" height="350.0" style="fill:#df00ff;opacity:0.22;stroke:none"/>
-  <rect x="159.3" y="30.0" width="1.3" height="350.0" style="fill:#c900ff;opacity:0.22;stroke:none"/>
-  <rect x="160.3" y="30.0" width="1.3" height="350.0" style="fill:#b400ff;opacity:0.22;stroke:none"/>
-  <rect x="161.3" y="30.0" width="1.3" height="350.0" style="fill:#9f00ff;opacity:0.22;stroke:none"/>
-  <rect x="162.4" y="30.0" width="1.3" height="350.0" style="fill:#8a00ff;opacity:0.22;stroke:none"/>
-  <rect x="163.4" y="30.0" width="1.3" height="350.0" style="fill:#7400ff;opacity:0.22;stroke:none"/>
-  <rect x="164.4" y="30.0" width="1.3" height="350.0" style="fill:#5f00ff;opacity:0.22;stroke:none"/>
-  <rect x="165.4" y="30.0" width="1.3" height="350.0" style="fill:#4a00ff;opacity:0.22;stroke:none"/>
-  <rect x="166.4" y="30.0" width="1.3" height="350.0" style="fill:#3500ff;opacity:0.22;stroke:none"/>
-  <rect x="167.4" y="30.0" width="1.3" height="350.0" style="fill:#1f00ff;opacity:0.22;stroke:none"/>
-  <rect x="168.4" y="30.0" width="1.3" height="350.0" style="fill:#0a00ff;opacity:0.22;stroke:none"/>
-  <rect x="169.5" y="30.0" width="1.3" height="350.0" style="fill:#000cff;opacity:0.22;stroke:none"/>
-  <rect x="170.5" y="30.0" width="1.3" height="350.0" style="fill:#0026ff;opacity:0.22;stroke:none"/>
-  <rect x="171.5" y="30.0" width="1.3" height="350.0" style="fill:#003fff;opacity:0.22;stroke:none"/>
-  <rect x="172.5" y="30.0" width="1.3" height="350.0" style="fill:#0059ff;opacity:0.22;stroke:none"/>
-  <rect x="173.5" y="30.0" width="1.3" height="350.0" style="fill:#0072ff;opacity:0.22;stroke:none"/>
-  <rect x="174.6" y="30.0" width="1.3" height="350.0" style="fill:#008cff;opacity:0.22;stroke:none"/>
-  <rect x="175.6" y="30.0" width="1.3" height="350.0" style="fill:#00a5ff;opacity:0.22;stroke:none"/>
-  <rect x="176.6" y="30.0" width="1.3" height="350.0" style="fill:#00bfff;opacity:0.22;stroke:none"/>
-  <rect x="177.6" y="30.0" width="1.3" height="350.0" style="fill:#00d8ff;opacity:0.22;stroke:none"/>
-  <rect x="178.6" y="30.0" width="1.3" height="350.0" style="fill:#00f2ff;opacity:0.22;stroke:none"/>
-  <rect x="179.6" y="30.0" width="1.3" height="350.0" style="fill:#00ffdf;opacity:0.22;stroke:none"/>
-  <rect x="180.7" y="30.0" width="1.3" height="350.0" style="fill:#00ff9f;opacity:0.22;stroke:none"/>
-  <rect x="181.7" y="30.0" width="1.3" height="350.0" style="fill:#00ff5f;opacity:0.22;stroke:none"/>
-  <rect x="182.7" y="30.0" width="1.3" height="350.0" style="fill:#00ff1f;opacity:0.22;stroke:none"/>
-  <rect x="183.7" y="30.0" width="1.3" height="350.0" style="fill:#09ff00;opacity:0.22;stroke:none"/>
-  <rect x="184.7" y="30.0" width="1.3" height="350.0" style="fill:#1bff00;opacity:0.22;stroke:none"/>
-  <rect x="185.7" y="30.0" width="1.3" height="350.0" style="fill:#2dff00;opacity:0.22;stroke:none"/>
-  <rect x="186.8" y="30.0" width="1.3" height="350.0" style="fill:#3fff00;opacity:0.22;stroke:none"/>
-  <rect x="187.8" y="30.0" width="1.3" height="350.0" style="fill:#51ff00;opacity:0.22;stroke:none"/>
-  <rect x="188.8" y="30.0" width="1.3" height="350.0" style="fill:#64ff00;opacity:0.22;stroke:none"/>
-  <rect x="189.8" y="30.0" width="1.3" height="350.0" style="fill:#76ff00;opacity:0.22;stroke:none"/>
-  <rect x="190.8" y="30.0" width="1.3" height="350.0" style="fill:#88ff00;opacity:0.22;stroke:none"/>
-  <rect x="191.8" y="30.0" width="1.3" height="350.0" style="fill:#9aff00;opacity:0.22;stroke:none"/>
-  <rect x="192.9" y="30.0" width="1.3" height="350.0" style="fill:#adff00;opacity:0.22;stroke:none"/>
-  <rect x="193.9" y="30.0" width="1.3" height="350.0" style="fill:#bfff00;opacity:0.22;stroke:none"/>
-  <rect x="194.9" y="30.0" width="1.3" height="350.0" style="fill:#d1ff00;opacity:0.22;stroke:none"/>
-  <rect x="195.9" y="30.0" width="1.3" height="350.0" style="fill:#e3ff00;opacity:0.22;stroke:none"/>
-  <rect x="196.9" y="30.0" width="1.3" height="350.0" style="fill:#f5ff00;opacity:0.22;stroke:none"/>
-  <rect x="197.9" y="30.0" width="1.3" height="350.0" style="fill:#fff500;opacity:0.22;stroke:none"/>
-  <rect x="198.9" y="30.0" width="1.3" height="350.0" style="fill:#ffe100;opacity:0.22;stroke:none"/>
-  <rect x="200.0" y="30.0" width="1.3" height="350.0" style="fill:#ffcd00;opacity:0.22;stroke:none"/>
-  <rect x="201.0" y="30.0" width="1.3" height="350.0" style="fill:#ffba00;opacity:0.22;stroke:none"/>
-  <rect x="202.0" y="30.0" width="1.3" height="350.0" style="fill:#ffa600;opacity:0.22;stroke:none"/>
-  <rect x="203.0" y="30.0" width="1.3" height="350.0" style="fill:#ff9300;opacity:0.22;stroke:none"/>
-  <rect x="204.0" y="30.0" width="1.3" height="350.0" style="fill:#ff7f00;opacity:0.22;stroke:none"/>
-  <rect x="205.1" y="30.0" width="1.3" height="350.0" style="fill:#ff6b00;opacity:0.22;stroke:none"/>
-  <rect x="206.1" y="30.0" width="1.3" height="350.0" style="fill:#ff5800;opacity:0.22;stroke:none"/>
-  <rect x="207.1" y="30.0" width="1.3" height="350.0" style="fill:#ff4400;opacity:0.22;stroke:none"/>
-  <rect x="208.1" y="30.0" width="1.3" height="350.0" style="fill:#ff3100;opacity:0.22;stroke:none"/>
-  <rect x="209.1" y="30.0" width="1.3" height="350.0" style="fill:#ff1d00;opacity:0.22;stroke:none"/>
-  <rect x="210.1" y="30.0" width="1.3" height="350.0" style="fill:#ff0900;opacity:0.22;stroke:none"/>
-  <rect x="211.2" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.22;stroke:none"/>
-  <rect x="212.2" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.22;stroke:none"/>
-  <rect x="213.2" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.22;stroke:none"/>
-  <rect x="214.2" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.22;stroke:none"/>
-  <rect x="215.2" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.22;stroke:none"/>
-  <rect x="216.2" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.22;stroke:none"/>
-  <rect x="217.2" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.22;stroke:none"/>
-  <rect x="218.3" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.22;stroke:none"/>
-  <rect x="219.3" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.22;stroke:none"/>
-  <rect x="220.3" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.22;stroke:none"/>
-  <rect x="221.3" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.22;stroke:none"/>
-  <rect x="222.3" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.22;stroke:none"/>
-  <rect x="223.3" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.22;stroke:none"/>
-  <rect x="224.4" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.22;stroke:none"/>
-  <rect x="225.4" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.22;stroke:none"/>
-  <rect x="226.4" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.22;stroke:none"/>
-  <rect x="227.4" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.22;stroke:none"/>
-  <rect x="228.4" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.22;stroke:none"/>
-  <rect x="229.4" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.22;stroke:none"/>
-  <rect x="230.5" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.22;stroke:none"/>
-  <rect x="231.5" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.22;stroke:none"/>
+  <rect x="157.3" y="30.0" width="1.3" height="350.0" style="fill:#f400ff;opacity:0.15;stroke:none"/>
+  <rect x="158.3" y="30.0" width="1.3" height="350.0" style="fill:#df00ff;opacity:0.15;stroke:none"/>
+  <rect x="159.3" y="30.0" width="1.3" height="350.0" style="fill:#c900ff;opacity:0.15;stroke:none"/>
+  <rect x="160.3" y="30.0" width="1.3" height="350.0" style="fill:#b400ff;opacity:0.15;stroke:none"/>
+  <rect x="161.3" y="30.0" width="1.3" height="350.0" style="fill:#9f00ff;opacity:0.15;stroke:none"/>
+  <rect x="162.4" y="30.0" width="1.3" height="350.0" style="fill:#8a00ff;opacity:0.15;stroke:none"/>
+  <rect x="163.4" y="30.0" width="1.3" height="350.0" style="fill:#7400ff;opacity:0.15;stroke:none"/>
+  <rect x="164.4" y="30.0" width="1.3" height="350.0" style="fill:#5f00ff;opacity:0.15;stroke:none"/>
+  <rect x="165.4" y="30.0" width="1.3" height="350.0" style="fill:#4a00ff;opacity:0.15;stroke:none"/>
+  <rect x="166.4" y="30.0" width="1.3" height="350.0" style="fill:#3500ff;opacity:0.15;stroke:none"/>
+  <rect x="167.4" y="30.0" width="1.3" height="350.0" style="fill:#1f00ff;opacity:0.15;stroke:none"/>
+  <rect x="168.4" y="30.0" width="1.3" height="350.0" style="fill:#0a00ff;opacity:0.15;stroke:none"/>
+  <rect x="169.5" y="30.0" width="1.3" height="350.0" style="fill:#000cff;opacity:0.15;stroke:none"/>
+  <rect x="170.5" y="30.0" width="1.3" height="350.0" style="fill:#0026ff;opacity:0.15;stroke:none"/>
+  <rect x="171.5" y="30.0" width="1.3" height="350.0" style="fill:#003fff;opacity:0.15;stroke:none"/>
+  <rect x="172.5" y="30.0" width="1.3" height="350.0" style="fill:#0059ff;opacity:0.15;stroke:none"/>
+  <rect x="173.5" y="30.0" width="1.3" height="350.0" style="fill:#0072ff;opacity:0.15;stroke:none"/>
+  <rect x="174.6" y="30.0" width="1.3" height="350.0" style="fill:#008cff;opacity:0.15;stroke:none"/>
+  <rect x="175.6" y="30.0" width="1.3" height="350.0" style="fill:#00a5ff;opacity:0.15;stroke:none"/>
+  <rect x="176.6" y="30.0" width="1.3" height="350.0" style="fill:#00bfff;opacity:0.15;stroke:none"/>
+  <rect x="177.6" y="30.0" width="1.3" height="350.0" style="fill:#00d8ff;opacity:0.15;stroke:none"/>
+  <rect x="178.6" y="30.0" width="1.3" height="350.0" style="fill:#00f2ff;opacity:0.15;stroke:none"/>
+  <rect x="179.6" y="30.0" width="1.3" height="350.0" style="fill:#00ffdf;opacity:0.15;stroke:none"/>
+  <rect x="180.7" y="30.0" width="1.3" height="350.0" style="fill:#00ff9f;opacity:0.15;stroke:none"/>
+  <rect x="181.7" y="30.0" width="1.3" height="350.0" style="fill:#00ff5f;opacity:0.15;stroke:none"/>
+  <rect x="182.7" y="30.0" width="1.3" height="350.0" style="fill:#00ff1f;opacity:0.15;stroke:none"/>
+  <rect x="183.7" y="30.0" width="1.3" height="350.0" style="fill:#09ff00;opacity:0.15;stroke:none"/>
+  <rect x="184.7" y="30.0" width="1.3" height="350.0" style="fill:#1bff00;opacity:0.15;stroke:none"/>
+  <rect x="185.7" y="30.0" width="1.3" height="350.0" style="fill:#2dff00;opacity:0.15;stroke:none"/>
+  <rect x="186.8" y="30.0" width="1.3" height="350.0" style="fill:#3fff00;opacity:0.15;stroke:none"/>
+  <rect x="187.8" y="30.0" width="1.3" height="350.0" style="fill:#51ff00;opacity:0.15;stroke:none"/>
+  <rect x="188.8" y="30.0" width="1.3" height="350.0" style="fill:#64ff00;opacity:0.15;stroke:none"/>
+  <rect x="189.8" y="30.0" width="1.3" height="350.0" style="fill:#76ff00;opacity:0.15;stroke:none"/>
+  <rect x="190.8" y="30.0" width="1.3" height="350.0" style="fill:#88ff00;opacity:0.15;stroke:none"/>
+  <rect x="191.8" y="30.0" width="1.3" height="350.0" style="fill:#9aff00;opacity:0.15;stroke:none"/>
+  <rect x="192.9" y="30.0" width="1.3" height="350.0" style="fill:#adff00;opacity:0.15;stroke:none"/>
+  <rect x="193.9" y="30.0" width="1.3" height="350.0" style="fill:#bfff00;opacity:0.15;stroke:none"/>
+  <rect x="194.9" y="30.0" width="1.3" height="350.0" style="fill:#d1ff00;opacity:0.15;stroke:none"/>
+  <rect x="195.9" y="30.0" width="1.3" height="350.0" style="fill:#e3ff00;opacity:0.15;stroke:none"/>
+  <rect x="196.9" y="30.0" width="1.3" height="350.0" style="fill:#f5ff00;opacity:0.15;stroke:none"/>
+  <rect x="197.9" y="30.0" width="1.3" height="350.0" style="fill:#fff500;opacity:0.15;stroke:none"/>
+  <rect x="198.9" y="30.0" width="1.3" height="350.0" style="fill:#ffe100;opacity:0.15;stroke:none"/>
+  <rect x="200.0" y="30.0" width="1.3" height="350.0" style="fill:#ffcd00;opacity:0.15;stroke:none"/>
+  <rect x="201.0" y="30.0" width="1.3" height="350.0" style="fill:#ffba00;opacity:0.15;stroke:none"/>
+  <rect x="202.0" y="30.0" width="1.3" height="350.0" style="fill:#ffa600;opacity:0.15;stroke:none"/>
+  <rect x="203.0" y="30.0" width="1.3" height="350.0" style="fill:#ff9300;opacity:0.15;stroke:none"/>
+  <rect x="204.0" y="30.0" width="1.3" height="350.0" style="fill:#ff7f00;opacity:0.15;stroke:none"/>
+  <rect x="205.1" y="30.0" width="1.3" height="350.0" style="fill:#ff6b00;opacity:0.15;stroke:none"/>
+  <rect x="206.1" y="30.0" width="1.3" height="350.0" style="fill:#ff5800;opacity:0.15;stroke:none"/>
+  <rect x="207.1" y="30.0" width="1.3" height="350.0" style="fill:#ff4400;opacity:0.15;stroke:none"/>
+  <rect x="208.1" y="30.0" width="1.3" height="350.0" style="fill:#ff3100;opacity:0.15;stroke:none"/>
+  <rect x="209.1" y="30.0" width="1.3" height="350.0" style="fill:#ff1d00;opacity:0.15;stroke:none"/>
+  <rect x="210.1" y="30.0" width="1.3" height="350.0" style="fill:#ff0900;opacity:0.15;stroke:none"/>
+  <rect x="211.2" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.15;stroke:none"/>
+  <rect x="212.2" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.15;stroke:none"/>
+  <rect x="213.2" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.15;stroke:none"/>
+  <rect x="214.2" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.15;stroke:none"/>
+  <rect x="215.2" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.15;stroke:none"/>
+  <rect x="216.2" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.15;stroke:none"/>
+  <rect x="217.2" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.15;stroke:none"/>
+  <rect x="218.3" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.15;stroke:none"/>
+  <rect x="219.3" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.15;stroke:none"/>
+  <rect x="220.3" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.15;stroke:none"/>
+  <rect x="221.3" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.15;stroke:none"/>
+  <rect x="222.3" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.15;stroke:none"/>
+  <rect x="223.3" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.15;stroke:none"/>
+  <rect x="224.4" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.15;stroke:none"/>
+  <rect x="225.4" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.15;stroke:none"/>
+  <rect x="226.4" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.15;stroke:none"/>
+  <rect x="227.4" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.15;stroke:none"/>
+  <rect x="228.4" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.15;stroke:none"/>
+  <rect x="229.4" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.15;stroke:none"/>
+  <rect x="230.5" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.15;stroke:none"/>
+  <rect x="231.5" y="30.0" width="1.3" height="350.0" style="fill:#ff0000;opacity:0.15;stroke:none"/>
   <line x1="80.0" y1="380.0" x2="690.0" y2="380.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
   <line x1="80.0" y1="321.7" x2="690.0" y2="321.7" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
   <line x1="80.0" y1="263.3" x2="690.0" y2="263.3" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.5"/>
@@ -130,12 +130,14 @@
   <path d="M305.2 28.0 L309.7 37.0 L300.7 37.0 Z" style="fill:var(--fig-muted);stroke:none"/>
   <text x="315.2" y="46.0" class="pchem-7-planck-spectra-b">자외선 파탄 (레일리–진스, 5800 K)</text>
   <text x="435.8" y="242.9" class="pchem-7-planck-spectra-sm">레일리–진스 ρ = 8πkT/λ<tspan baseline-shift="super" style="font-size:75%">4</tspan></text>
-  <path d="M175.6 -15.9 L176.8 9.1 L178.1 32.2 L179.3 53.6 L180.6 73.4 L181.8 91.8 L183.1 108.9 L184.3 124.8 L185.6 139.6 L186.8 153.3 L188.1 166.2 L189.3 178.1 L190.6 189.3 L191.9 199.8 L193.1 209.5 L194.4 218.7 L195.6 227.2 L196.9 235.2 L198.1 242.7 L199.4 249.8 L200.6 256.4 L201.9 262.6 L203.1 268.5 L204.4 274.0 L205.6 279.2 L206.9 284.1 L208.1 288.7 L209.4 293.0 L210.6 297.1 L211.9 301.0 L213.2 304.6 L214.4 308.1 L215.7 311.3 L216.9 314.4 L218.2 317.3 L219.4 320.1 L220.7 322.7 L221.9 325.2 L223.2 327.5 L224.4 329.8 L225.7 331.9 L226.9 333.9 L228.2 335.8 L229.4 337.7 L230.7 339.4 L231.9 341.0 L233.2 342.6 L234.5 344.1 L235.7 345.5 L237.0 346.9 L238.2 348.2 L239.5 349.4 L240.7 350.6 L242.0 351.7 L243.2 352.8 L244.5 353.8 L245.7 354.8 L247.0 355.7 L248.2 356.6 L249.5 357.4 L250.7 358.3 L252.0 359.0 L253.2 359.8 L254.5 360.5 L255.7 361.2 L257.0 361.8 L258.3 362.5 L259.5 363.1 L260.8 363.6 L262.0 364.2 L263.3 364.7 L264.5 365.2 L265.8 365.7 L267.0 366.2 L268.3 366.7 L269.5 367.1 L270.8 367.5 L272.0 367.9 L273.3 368.3 L274.5 368.7 L275.8 369.0 L277.0 369.4 L278.3 369.7 L279.6 370.0 L280.8 370.3 L282.1 370.6 L283.3 370.9 L284.6 371.2 L285.8 371.5 L287.1 371.7 L288.3 372.0 L289.6 372.2 L290.8 372.4 L292.1 372.6 L293.3 372.9 L294.6 373.1 L295.8 373.3 L297.1 373.5 L298.3 373.6 L299.6 373.8" style="fill:none;stroke:var(--fig-ink);stroke-width:1.3;stroke-dasharray:3 4"/>
+  <path d="M181.7 89.5 L182.8 105.1 L183.9 119.7 L185.1 133.4 L186.2 146.2 L187.3 158.3 L188.4 169.6 L189.6 180.2 L190.7 190.2 L191.8 199.6 L193.0 208.4 L194.1 216.8 L195.2 224.6 L196.4 232.0 L197.5 239.0 L198.6 245.6 L199.7 251.8 L200.9 257.7 L202.0 263.2 L203.1 268.5 L204.3 273.5 L205.4 278.2 L206.5 282.6 L207.6 286.9 L208.8 290.9 L209.9 294.7 L211.0 298.3 L212.2 301.7 L213.3 305.0 L214.4 308.1 L215.6 311.1 L216.7 313.9 L217.8 316.5 L218.9 319.1 L220.1 321.5 L221.2 323.8 L222.3 326.0 L223.5 328.1 L224.6 330.1 L225.7 332.0 L226.9 333.8 L228.0 335.5 L229.1 337.2 L230.2 338.8 L231.4 340.3 L232.5 341.7 L233.6 343.1 L234.8 344.5 L235.9 345.7 L237.0 346.9 L238.1 348.1 L239.3 349.2 L240.4 350.3 L241.5 351.3 L242.7 352.3 L243.8 353.2 L244.9 354.1 L246.1 355.0 L247.2 355.8 L248.3 356.6 L249.4 357.4 L250.6 358.1 L251.7 358.9 L252.8 359.5 L254.0 360.2 L255.1 360.8 L256.2 361.4 L257.4 362.0 L258.5 362.6 L259.6 363.1 L260.7 363.6 L261.9 364.1 L263.0 364.6 L264.1 365.1 L265.3 365.5 L266.4 366.0 L267.5 366.4 L268.6 366.8 L269.8 367.2 L270.9 367.6 L272.0 367.9 L273.2 368.3 L274.3 368.6 L275.4 368.9 L276.6 369.2 L277.7 369.5 L278.8 369.8 L279.9 370.1 L281.1 370.4 L282.2 370.7 L283.3 370.9 L284.5 371.2 L285.6 371.4 L286.7 371.6 L287.9 371.9 L289.0 372.1 L290.1 372.3 L291.2 372.5 L292.4 372.7 L293.5 372.9" style="fill:none;stroke:var(--fig-ink);stroke-width:1.3;stroke-dasharray:3 4"/>
   <circle cx="181.6" cy="88.3" r="5" style="fill:var(--fig-blue);stroke:none"/>
-  <text x="190.6" y="82.3" class="pchem-7-planck-spectra-blueb">5800 K, λ<tspan baseline-shift="sub" style="font-size:75%">max</tspan> = 0.500 μm</text>
+  <text x="189.7" y="79.6" class="pchem-7-planck-spectra-blueb">5800 K, λ<tspan baseline-shift="sub" style="font-size:75%">max</tspan> = 0.500 μm</text>
   <circle cx="227.3" cy="334.5" r="5" style="fill:var(--fig-amber);stroke:none"/>
-  <text x="236.3" y="328.5" class="pchem-7-planck-spectra-amberb">4000 K, λ<tspan baseline-shift="sub" style="font-size:75%">max</tspan> = 0.724 μm</text>
+  <text x="254.9" y="310.0" class="pchem-7-planck-spectra-amberb">4000 K, λ<tspan baseline-shift="sub" style="font-size:75%">max</tspan> = 0.724 μm</text>
   <circle cx="276.4" cy="369.2" r="5" style="fill:var(--fig-red);stroke:none"/>
-  <text x="285.4" y="363.2" class="pchem-7-planck-spectra-redb">3000 K, λ<tspan baseline-shift="sub" style="font-size:75%">max</tspan> = 0.966 μm</text>
-  <text x="307.7" y="324.4" class="pchem-7-planck-spectra-lbl">λ<tspan baseline-shift="sub" style="font-size:75%">max</tspan>T = 2.898 mm·K</text>
+  <text x="295.5" y="350.8" class="pchem-7-planck-spectra-redb">3000 K, λ<tspan baseline-shift="sub" style="font-size:75%">max</tspan> = 0.966 μm</text>
+  <text x="395.2" y="146.7" class="pchem-7-planck-spectra-sm">점선: 봉우리를 잇는 선</text>
+  <text x="395.2" y="165.7" class="pchem-7-planck-spectra-b">λ<tspan baseline-shift="sub" style="font-size:75%">max</tspan>T = 2.898 mm·K</text>
+  <line x1="391.1" y1="152.5" x2="210.1" y2="295.4" style="stroke:var(--fig-muted);stroke-width:1"/>
 </svg>
