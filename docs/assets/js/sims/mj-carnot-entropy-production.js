@@ -64,7 +64,7 @@ Sims.register('mj-carnot-entropy-production', {
       return pts;
     }
     function sub(str, x, y, px, bold, color) {
-      var T = api.tokens(), parts = String(str).split(/_([^\s()·,\/|]+)/), f1 = (bold ? '600 ' : '') + px + 'px ' + T.fontBody, f2 = (bold ? '600 ' : '') + Math.round(px * 0.78) + 'px ' + T.fontBody;
+      var T = api.tokens(), parts = String(str).split(/_(생성|전체|[A-Za-z0-9]+)/), f1 = (bold ? '600 ' : '') + px + 'px ' + T.fontBody, f2 = (bold ? '600 ' : '') + Math.round(px * 0.78) + 'px ' + T.fontBody;
       var al = ctx.textAlign, wsum = 0;
       parts.forEach(function (p, i) { ctx.font = i % 2 ? f2 : f1; wsum += ctx.measureText(p).width; });
       var x0 = al === 'center' ? x - wsum / 2 : al === 'right' ? x - wsum : x;
@@ -73,7 +73,7 @@ Sims.register('mj-carnot-entropy-production', {
       ctx.textAlign = al;
     }
     function frame(T, r, xmax, ymax, xt, yt, xl, yl, xf, yf) {
-      var L = r.x + 52, R = r.x + r.w - 10, Tp = r.y + 28, B = r.y + r.h - 40;
+      var L = r.x + 52, R = r.x + r.w - 20, Tp = r.y + 28, B = r.y + r.h - 40;
       var o = { L: L, R: R, T: Tp, B: B, X: function (v) { return L + v / xmax * (R - L); }, Y: function (v) { return B - v / ymax * (B - Tp); } };
       ctx.lineWidth = 1; ctx.strokeStyle = T.rule; ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontMono;
       ctx.textAlign = 'center'; xt.forEach(function (v) { ctx.beginPath(); ctx.moveTo(o.X(v), Tp); ctx.lineTo(o.X(v), B); ctx.stroke(); ctx.fillText(xf(v), o.X(v), B + 14); });
@@ -106,7 +106,7 @@ Sims.register('mj-carnot-entropy-production', {
       ctx.textAlign = 'right'; sub('고온 열원 T_h', o.R - 2, o.Y(Th) - 6, 11, false, T.figRed);
       sub('저온 열원 T_c', o.R - 2, o.Y(Tc) + 15, 11, false, T.figBlue);
       // 잃어버린 일: T_c × S_생성 (빗금)
-      var xg0 = o.X(s0 + DS), xg1 = o.X(s0 + sC);
+      var xg0 = o.X(s0 + sH), xg1 = o.X(s0 + sC);
       ctx.save(); ctx.beginPath(); ctx.rect(xg0, o.Y(Tc), xg1 - xg0, o.Y(0) - o.Y(Tc)); ctx.clip();
       ctx.fillStyle = T.figSoftViolet; ctx.fillRect(xg0, o.Y(Tc), xg1 - xg0, o.Y(0) - o.Y(Tc));
       ctx.strokeStyle = T.figViolet; ctx.lineWidth = 1;
@@ -145,7 +145,7 @@ Sims.register('mj-carnot-entropy-production', {
       ctx.strokeStyle = T.figRed; ctx.beginPath(); ctx.moveTo(b.X(etaC), b.T); ctx.lineTo(b.X(etaC), b.B); ctx.stroke();
       ctx.strokeStyle = T.figTeal; ctx.beginPath(); ctx.moveTo(b.X(etaCA), b.T); ctx.lineTo(b.X(etaCA), b.B); ctx.stroke();
       ctx.setLineDash([]);
-      ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right'; ctx.fillStyle = T.figRed; ctx.fillText('카르노', b.X(etaC) - 3, b.T + 10);
+      ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right'; ctx.fillStyle = T.figRed; ctx.fillText('카르노', b.X(etaC) - 3, b.T + 24);
       ctx.textAlign = 'left'; ctx.fillStyle = T.figTeal; ctx.fillText('쿠존–알본', b.X(etaCA) + 3, b.T + 10);
       var pNow = power(Th, Tc, st.dh, st.dc) / (pmax || 1);
       ctx.fillStyle = T.figAccent; ctx.beginPath(); ctx.arc(b.X(Math.max(eta, 0)), b.Y(pNow), 6, 0, 7); ctx.fill();
@@ -164,7 +164,7 @@ Sims.register('mj-carnot-entropy-production', {
       list.forEach(function (t) {
         if (!/_[^\s]/.test(t.nodeValue)) return;
         var fr = document.createDocumentFragment();
-        t.nodeValue.split(/_([^\s()·,\/|]+)/).forEach(function (p, i) {
+        t.nodeValue.split(/_(생성|전체|[A-Za-z0-9]+)/).forEach(function (p, i) {
           if (i % 2) { var s = document.createElement('sub'); s.textContent = p; fr.appendChild(s); } else if (p) fr.appendChild(document.createTextNode(p));
         });
         t.parentNode.replaceChild(fr, t);

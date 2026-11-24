@@ -123,7 +123,7 @@ Sims.register('mj-thermal-contact-entropy', {
       list.forEach(function (t) {
         if (!/_[^\s]/.test(t.nodeValue)) return;
         var fr = document.createDocumentFragment();
-        t.nodeValue.split(/_([^\s()·,\/|=]+)/).forEach(function (p, i) {
+        t.nodeValue.split(/_(생성|전체|[A-Za-z0-9]+)/).forEach(function (p, i) {
           if (i % 2) { var s = document.createElement('sub'); s.textContent = p; fr.appendChild(s); } else if (p) fr.appendChild(document.createTextNode(p));
         });
         t.parentNode.replaceChild(fr, t);

@@ -1347,6 +1347,7 @@ $I = 3\times0.020 = 0.060$, $\sqrt{I} = 0.245$.
 
 (1) $RT = 8.314\times400 = 3326\ \mathrm{J/mol}$. $\Delta_\mathrm{r}G = \Delta_\mathrm{r}G^\circ + RT\ln(x_\mathrm{B}/x_\mathrm{A})$에서 $\Delta_\mathrm{r}G^\circ = -1500 - 3326\ln 0.25 = -1500 + 4611 = +3.11\times10^3\ \mathrm{J/mol}$. $K = e^{-3110/3326} = 0.392$.
 (2) $x_\mathrm{B}/(1 - x_\mathrm{B}) = 0.392$ → $x_\mathrm{B} = 0.392/1.392 = 0.282$.
+
 <!-- fig:pchem-6-q-gibbs-400k -->
 
 (3) $\Delta_\mathrm{r}G < 0$(내려가는 기울기)이므로 바닥의 왼쪽이다. $\Delta_\mathrm{r}G^\circ > 0$인데도 이 조성에서는 정반응이 자발적이다.
@@ -1441,6 +1442,7 @@ $A = \dfrac{e^2(\kappa/\sqrt{I})}{8\pi\varepsilon k_\mathrm{B}T\ln 10} = \dfrac{
 
 (1) 양: $\mathrm{N_2}$ $1-\xi$, $\mathrm{H_2}$ $3-3\xi$, $\mathrm{NH_3}$ $2\xi$, 합 $4-2\xi$. $K = \dfrac{x_{\mathrm{NH_3}}^2}{x_{\mathrm{N_2}}x_{\mathrm{H_2}}^3}\left(\dfrac{p}{p^\circ}\right)^{-2}$에 몰분율을 넣으면 위 식이 된다.
 (2) $p/p^\circ = 100$을 넣고 이분법(또는 스프레드시트 목표값 찾기)으로 풀면 $\xi = 0.304$. $x_{\mathrm{NH_3}} = 2(0.304)/(4 - 0.608) = 0.179$. 검산: $(0.608)^2(3.392)^2/[(0.696)(2.088)^3]\times10^{-4} = 4.254/6.336\times10^{-4} = 6.7\times10^{-5}$.
+
 <!-- fig:pchem-6-q-ammonia-pressure -->
 
 (3) **예시 답안** 압력을 높이면 $K_x = K(p/p^\circ)^2$가 커져 수득률이 올라간다(100 bar 0.18 → 300 bar 0.34). 그런데 이 압력에서는 $K_\phi < 1$이므로 $K_p = K/K_\phi$가 이상 기체의 $K$보다 커서, 실제 평형 수득률은 이 계산보다 다소 높다(700 K, 100 bar 부근의 실측 평형값은 약 20 % 안팎). 또 $K$ 자체가 $\Delta_\mathrm{r}C_p^\circ$ 처리에 따라 몇 배 달라지므로, 공정 설계에는 온도에 따라 변하는 열용량과 상태 방정식의 퓨가시티 계수를 모두 넣어야 한다.

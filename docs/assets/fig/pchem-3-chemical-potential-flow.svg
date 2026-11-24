@@ -48,10 +48,10 @@
   <polygon points="270.0,129.0 296.0,147.0 270.0,165.0" style="fill:var(--fig-red);stroke:none"/>
   <rect x="140.8" y="241.0" width="266.4" height="19.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
   <text x="274.0" y="254.0" text-anchor="middle" class="pchem-3-chemical-potential-flow-t">dn > 0,  dG = (μ<tspan baseline-shift="sub" font-size="11">i</tspan><tspan baseline-shift="super" font-size="11" dx="-3">β</tspan> − μ<tspan baseline-shift="sub" font-size="11">i</tspan><tspan baseline-shift="super" font-size="11" dx="-3">α</tspan>) dn &lt; 0</text>
-  <text x="240.0" y="274.0" text-anchor="middle" class="pchem-3-chemical-potential-flow-s">칸막이(점선): 성분 i만 지나간다</text>
-  <line x1="240.0" y1="282.0" x2="240.0" y2="300.0" style="stroke:var(--fig-muted);stroke-width:1.6;stroke-linecap:round"/>
-  <polygon points="240.0,300.0 236.9,292.6 243.1,292.6" style="fill:var(--fig-muted);stroke:none"/>
-  <text x="250.0" y="292.0" text-anchor="start" class="pchem-3-chemical-potential-flow-s">시간이 지나면</text>
+  <text x="30.0" y="276.0" text-anchor="start" class="pchem-3-chemical-potential-flow-s">칸막이(점선): 성분 i만 지나간다</text>
+  <line x1="260.0" y1="266.0" x2="260.0" y2="300.0" style="stroke:var(--fig-muted);stroke-width:1.6;stroke-linecap:round"/>
+  <polygon points="260.0,300.0 256.9,292.6 263.1,292.6" style="fill:var(--fig-muted);stroke:none"/>
+  <text x="270.0" y="292.0" text-anchor="start" class="pchem-3-chemical-potential-flow-s">시간이 지나면</text>
   <rect x="90.0" y="306.0" width="300.0" height="120.0" rx="4" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2"/>
   <line x1="240.0" y1="308.0" x2="240.0" y2="424.0" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round;stroke-dasharray:6 5"/>
   <circle cx="157.1" cy="371.8" r="5.5" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.3"/>
