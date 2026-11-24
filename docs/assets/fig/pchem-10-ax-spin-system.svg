@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t-pchem-10-ax-spin-system d-pchem-10-ax-spin-system">
+  <title id="t-pchem-10-ax-spin-system">그림 물리화학 10-14 AX 스핀계의 준위와 스펙트럼</title>
+  <desc id="d-pchem-10-ax-spin-system">왼쪽: 두 스핀 ½ 핵 A, X의 네 준위(A의 스핀을 앞에 쓴다, ν_A &gt; ν_X). 짝지음이 없으면(가운데 열의 왼쪽) A 전이 두 개의 에너지가 같고 X 전이 두 개도 같다. 짝지음 에너지 hJm_Am_X를 넣으면 αα와 ββ는 J/4만큼 올라가고 αβ와 βα는 J/4만큼 내려가, A 전이(αα→βα, αβ→ββ)는 ν_A ∓ J/2, X 전이(αα→αβ, βα→ββ)는 ν_X ∓ J/2가 된다. 오른쪽: 그래서 스펙트럼은 ν_A를 중심으로 간격 J인 이중선과 ν_X를 중심으로 간격 J인 이중선이며, 두 중심 사이 Δν = ν_A − ν_X는 J보다 훨씬 크다(모식도, J를 과장해 그렸다).</desc>
+  <style>.pchem-10-ax-spin-system-lbl{font-size:14px;fill:var(--fig-ink)} .pchem-10-ax-spin-system-sm{font-size:13px;fill:var(--fig-muted)} .pchem-10-ax-spin-system-b{font-size:14px;font-weight:600;fill:var(--fig-ink)} .pchem-10-ax-spin-system-tk{font-size:13px;fill:var(--fig-muted)} .pchem-10-ax-spin-system-ax{font-size:14px;fill:var(--fig-ink)} .pchem-10-ax-spin-system-red{font-size:14px;fill:var(--fig-red)} .pchem-10-ax-spin-system-blue{font-size:14px;fill:var(--fig-blue)} .pchem-10-ax-spin-system-green{font-size:14px;fill:var(--fig-green)} .pchem-10-ax-spin-system-amber{font-size:14px;fill:var(--fig-amber)} .pchem-10-ax-spin-system-violet{font-size:14px;fill:var(--fig-violet)} .pchem-10-ax-spin-system-teal{font-size:14px;fill:var(--fig-teal)} .pchem-10-ax-spin-system-acc{font-size:14px;fill:var(--fig-accent)} .pchem-10-ax-spin-system-mut{font-size:14px;fill:var(--fig-muted)} .pchem-10-ax-spin-system-big{font-size:16px;font-weight:700;fill:var(--fig-ink)}</style>
+  <text x="85.0" y="26.0" text-anchor="middle" class="pchem-10-ax-spin-system-b">짝지음 없음</text>
+  <text x="245.0" y="26.0" text-anchor="middle" class="pchem-10-ax-spin-system-b">짝지음 J 포함</text>
+  <line x1="40.0" y1="370.4" x2="130.0" y2="370.4" style="stroke:var(--fig-ink);stroke-width:2.2"/>
+  <line x1="190.0" y1="359.9" x2="300.0" y2="359.9" style="stroke:var(--fig-ink);stroke-width:2.2"/>
+  <line x1="130.0" y1="370.4" x2="190.0" y2="359.9" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 3"/>
+  <text x="34.0" y="375.4" text-anchor="end" class="pchem-10-ax-spin-system-lbl">αα</text>
+  <text x="306.0" y="364.9" class="pchem-10-ax-spin-system-sm">αα (+J/4)</text>
+  <line x1="40.0" y1="269.6" x2="130.0" y2="269.6" style="stroke:var(--fig-ink);stroke-width:2.2"/>
+  <line x1="190.0" y1="280.1" x2="300.0" y2="280.1" style="stroke:var(--fig-ink);stroke-width:2.2"/>
+  <line x1="130.0" y1="269.6" x2="190.0" y2="280.1" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 3"/>
+  <text x="34.0" y="274.6" text-anchor="end" class="pchem-10-ax-spin-system-lbl">αβ</text>
+  <text x="306.0" y="285.1" class="pchem-10-ax-spin-system-sm">αβ (−J/4)</text>
+  <line x1="40.0" y1="160.4" x2="130.0" y2="160.4" style="stroke:var(--fig-ink);stroke-width:2.2"/>
+  <line x1="190.0" y1="170.9" x2="300.0" y2="170.9" style="stroke:var(--fig-ink);stroke-width:2.2"/>
+  <line x1="130.0" y1="160.4" x2="190.0" y2="170.9" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 3"/>
+  <text x="34.0" y="165.4" text-anchor="end" class="pchem-10-ax-spin-system-lbl">βα</text>
+  <text x="306.0" y="175.9" class="pchem-10-ax-spin-system-sm">βα (−J/4)</text>
+  <line x1="40.0" y1="59.6" x2="130.0" y2="59.6" style="stroke:var(--fig-ink);stroke-width:2.2"/>
+  <line x1="190.0" y1="49.1" x2="300.0" y2="49.1" style="stroke:var(--fig-ink);stroke-width:2.2"/>
+  <line x1="130.0" y1="59.6" x2="190.0" y2="49.1" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:3 3"/>
+  <text x="34.0" y="64.6" text-anchor="end" class="pchem-10-ax-spin-system-lbl">ββ</text>
+  <text x="306.0" y="54.1" class="pchem-10-ax-spin-system-sm">ββ (+J/4)</text>
+  <path d="M205.0 170.9 L209.0 178.9 L201.0 178.9 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="205.0" y1="359.9" x2="205.0" y2="178.6" style="stroke:var(--fig-red);stroke-width:2.2"/>
+  <path d="M228.0 49.1 L232.0 57.1 L224.0 57.1 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="228.0" y1="280.1" x2="228.0" y2="56.8" style="stroke:var(--fig-red);stroke-width:2.2"/>
+  <path d="M262.0 280.1 L266.0 288.1 L258.0 288.1 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="262.0" y1="359.9" x2="262.0" y2="287.8" style="stroke:var(--fig-blue);stroke-width:2.2"/>
+  <path d="M285.0 49.1 L289.0 57.1 L281.0 57.1 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="285.0" y1="170.9" x2="285.0" y2="56.8" style="stroke:var(--fig-blue);stroke-width:2.2"/>
+  <text x="216.0" y="386.0" text-anchor="middle" class="pchem-10-ax-spin-system-red">A 전이</text>
+  <text x="273.0" y="386.0" text-anchor="middle" class="pchem-10-ax-spin-system-blue">X 전이</text>
+  <text x="170.0" y="410.0" text-anchor="middle" class="pchem-10-ax-spin-system-sm">세로 간격은 모식적(J를 크게 그림)</text>
+  <line x1="410.0" y1="320.0" x2="700.0" y2="320.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="555.0" y="364.0" text-anchor="middle" class="pchem-10-ax-spin-system-sm">← 진동수 ν (δ) 증가</text>
+  <line x1="515.0" y1="320.0" x2="515.0" y2="166.2" style="stroke:var(--fig-red);stroke-width:3.2"/>
+  <line x1="465.0" y1="320.0" x2="465.0" y2="166.2" style="stroke:var(--fig-red);stroke-width:3.2"/>
+  <line x1="490.0" y1="320.0" x2="490.0" y2="326.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="490.0" y="342.0" text-anchor="middle" class="pchem-10-ax-spin-system-red">ν<tspan baseline-shift="sub" style="font-size:10px">A</tspan></text>
+  <path d="M513.0 243.1 L507.0 246.1 L507.0 240.1 Z" style="fill:var(--fig-red);stroke:none"/>
+  <path d="M467.0 243.1 L473.0 240.1 L473.0 246.1 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="473.0" y1="243.1" x2="507.0" y2="243.1" style="stroke:var(--fig-red);stroke-width:1.3"/>
+  <text x="490.0" y="235.1" text-anchor="middle" class="pchem-10-ax-spin-system-red">J</text>
+  <text x="490.0" y="158.2" text-anchor="middle" class="pchem-10-ax-spin-system-red">A의 이중선</text>
+  <line x1="645.0" y1="320.0" x2="645.0" y2="166.2" style="stroke:var(--fig-blue);stroke-width:3.2"/>
+  <line x1="595.0" y1="320.0" x2="595.0" y2="166.2" style="stroke:var(--fig-blue);stroke-width:3.2"/>
+  <line x1="620.0" y1="320.0" x2="620.0" y2="326.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="620.0" y="342.0" text-anchor="middle" class="pchem-10-ax-spin-system-blue">ν<tspan baseline-shift="sub" style="font-size:10px">X</tspan></text>
+  <path d="M643.0 243.1 L637.0 246.1 L637.0 240.1 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <path d="M597.0 243.1 L603.0 240.1 L603.0 246.1 Z" style="fill:var(--fig-blue);stroke:none"/>
+  <line x1="603.0" y1="243.1" x2="637.0" y2="243.1" style="stroke:var(--fig-blue);stroke-width:1.3"/>
+  <text x="620.0" y="235.1" text-anchor="middle" class="pchem-10-ax-spin-system-blue">J</text>
+  <text x="620.0" y="158.2" text-anchor="middle" class="pchem-10-ax-spin-system-blue">X의 이중선</text>
+  <path d="M620.0 132.3 L614.0 135.3 L614.0 129.3 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <path d="M490.0 132.3 L496.0 129.3 L496.0 135.3 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <line x1="496.0" y1="132.3" x2="614.0" y2="132.3" style="stroke:var(--fig-ink);stroke-width:1.3"/>
+  <text x="555.0" y="124.3" text-anchor="middle" class="pchem-10-ax-spin-system-lbl">Δν = ν<tspan baseline-shift="sub" style="font-size:10px">A</tspan> − ν<tspan baseline-shift="sub" style="font-size:10px">X</tspan> ≫ J</text>
+</svg>

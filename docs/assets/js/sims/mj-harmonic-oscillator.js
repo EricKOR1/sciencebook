@@ -1,7 +1,7 @@
 /* 물리화학 8 진동·회전 운동: 조화 진동자의 준위 사다리, 에르미트 함수, 고전 분포와 터널링 꼬리, H → D 치환 비교 */
 Sims.register('mj-harmonic-oscillator', {
   title: '조화 진동자 탐색기 — 준위 사다리, 파동 함수, 금지 영역의 꼬리',
-  caption: 'v, 힘 상수 k, 환산 질량 μ를 바꾸어 보자. 위 그래프는 포물선 퍼텐셜 ½kx²와 준위 사다리(간격 ħω), 고른 준위 위에 그린 ψ_v이고, 아래 그래프는 |ψ_v|²(실선)와 같은 에너지의 고전 확률 밀도(점선)이다. 전환점 바깥(주황)으로 스며 나간 꼬리가 고전적 금지 영역에서 발견될 확률이며, v가 커질수록 작아지고 |ψ_v|²의 봉우리는 전환점 쪽으로 몰린다(대응 원리). 오른쪽 막대는 ⟨T⟩와 ⟨V⟩로, 어느 상태에서나 같다(비리얼 정리). ‘H 하나를 D로’는 결합의 가벼운 원자를 수소로 보고 μ를 바꾼 뒤, 바꾸기 전의 퍼텐셜·준위·ψ를 회색 점선으로 남겨 비교한다(k는 그대로). 순수한 조화 근사이므로 해리와 비조화성은 없다.',
+  caption: 'v, 힘 상수 k, 환산 질량 μ를 바꾸어 보자. 위 그래프는 포물선 퍼텐셜 ½kx²와 준위 사다리(간격 ħω), 고른 준위 위에 그린 ψᵥ이고, 아래 그래프는 |ψᵥ|²(실선)와 같은 에너지의 고전 확률 밀도(점선)이다. 전환점 바깥(주황)으로 스며 나간 꼬리가 고전적 금지 영역에서 발견될 확률이며, v가 커질수록 작아지고 |ψᵥ|²의 봉우리는 전환점 쪽으로 몰린다(대응 원리). 오른쪽 막대는 ⟨T⟩와 ⟨V⟩로, 어느 상태에서나 같다(비리얼 정리). ‘H 하나를 D로’는 결합의 가벼운 원자를 수소로 보고 μ를 바꾼 뒤, 바꾸기 전의 퍼텐셜·준위·ψ를 회색 점선으로 남겨 비교한다(k는 그대로). 순수한 조화 근사이므로 해리와 비조화성은 없다.',
   init: function (api) {
     var HBAR = 1.054571817e-34, U = 1.66053907e-27, C = 2.99792458e10, KJ = 0.0119627; // cm⁻¹ → kJ/mol
     var MH = 1.00783, MD = 2.01410;
@@ -59,7 +59,7 @@ Sims.register('mj-harmonic-oscillator', {
       var E = function (n, pp) { return (n + 0.5) * pp.nu * KJ; };              // kJ/mol
       var aMax = Math.max(P.alpha, G ? G.alpha : 0);
       var XR = (yt + 2.6) * aMax;                                                // pm
-      var Etop = Math.max(E(v + 1.3, P), G ? E(v + 1.3, G) : 0);
+      var vt = Math.max(v + 1.3, 3.6), Etop = Math.max(E(vt, P), G ? E(vt, G) : 0);
       var barW = narrow ? 0 : 92;
       var A = { x: 54, y: 12, w: w - 54 - 12 - barW, h: narrow ? h * 0.48 : h * 0.56 };
       var B = { x: 54, y: A.y + A.h + 46, w: A.w, h: narrow ? h * 0.26 : h - A.h - 46 - 52 };
@@ -99,7 +99,7 @@ Sims.register('mj-harmonic-oscillator', {
       drawPsi(P, T.figBlue, true);
       ctx.restore();
       ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'left'; ctx.fillStyle = T.figBlue;
-      ctx.fillText('ψ_' + v + '  (E_' + v + ' = ' + E(v, P).toFixed(E(v, P) < 10 ? 2 : 1) + ' kJ/mol)', A.x + 6, A.y + 14);
+      ctx.fillText('ψ' + sub(v) + '  (E' + sub(v) + ' = ' + E(v, P).toFixed(E(v, P) < 10 ? 2 : 1) + ' kJ/mol)', A.x + 6, A.y + 14);
       ctx.fillStyle = T.figAmber; ctx.font = '12px ' + T.fontBody; ctx.fillText('주황: 전환점 바깥의 꼬리', A.x + 6, A.y + 30);
       if (G) { ctx.fillStyle = T.figMuted; ctx.fillText('회색 점선: 바꾸기 전(μ = ' + st.ghost.mu.toFixed(3) + ' u)', A.x + 6, A.y + 46); }
       if (msg) { ctx.fillStyle = T.figRed; ctx.fillText(msg, A.x + 6, A.y + (G ? 62 : 46)); msg = ''; }
@@ -113,9 +113,9 @@ Sims.register('mj-harmonic-oscillator', {
       ctx.strokeStyle = T.figMuted; ctx.lineWidth = 1.2; ctx.strokeRect(B.x, B.y, B.w, B.h);
       ctx.fillStyle = T.figSoftAmber; var xt = yt * P.alpha;
       [-1, 1].forEach(function (sg) {
-        ctx.beginPath(); ctx.moveTo(sx(sg * xt), by(0));
+        ctx.beginPath(); ctx.moveTo(sx(sg > 0 ? xt : -XR), by(0));
         for (var j = 0; j <= NS; j++) { var x3 = -XR + 2 * XR * j / NS; if (sg * x3 >= xt) ctx.lineTo(sx(x3), by(ys[j])); }
-        ctx.lineTo(sx(sg * XR), by(0)); ctx.closePath(); ctx.fill();
+        ctx.lineTo(sx(sg > 0 ? XR : -xt), by(0)); ctx.closePath(); ctx.fill();
       });
       ctx.save(); ctx.beginPath(); ctx.rect(B.x, B.y, B.w, B.h); ctx.clip();
       ctx.setLineDash([6, 4]); ctx.strokeStyle = T.figViolet; ctx.lineWidth = 1.8;
@@ -131,7 +131,7 @@ Sims.register('mj-harmonic-oscillator', {
       for (i = 0; i <= NS; i++) { var x4 = -XR + 2 * XR * i / NS; if (i) ctx.lineTo(sx(x4), by(ys[i])); else ctx.moveTo(sx(x4), by(ys[i])); }
       ctx.stroke(); ctx.restore();
       ctx.fillStyle = T.figInk; ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'left';
-      ctx.fillText('|ψ_' + v + '|² (실선), 고전 확률 밀도 (점선)', B.x + 6, B.y + 15);
+      ctx.fillText('|ψ' + sub(v) + '|² (실선), 고전 확률 밀도 (점선)', B.x + 6, B.y + 15);
       ctx.textAlign = 'center'; ctx.fillText('x (pm)', B.x + B.w / 2, B.y + B.h + 28);
 
       // ⟨T⟩, ⟨V⟩ 막대
@@ -144,7 +144,7 @@ Sims.register('mj-harmonic-oscillator', {
         ctx.strokeStyle = T.figInk; ctx.setLineDash([4, 3]); ctx.beginPath(); ctx.moveTo(bx - 4, bs(Ev)); ctx.lineTo(bx + 58, bs(Ev)); ctx.stroke(); ctx.setLineDash([]);
         ctx.fillStyle = T.figInk; ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'center';
         ctx.fillText('⟨T⟩', bx + 11, bot + 16); ctx.fillText('⟨V⟩', bx + 43, bot + 16);
-        ctx.fillText('E_v', bx + 27, bs(Ev) - 6);
+        ctx.fillText('Eᵥ', bx + 27, bs(Ev) - 6);
         ctx.font = '11px ' + T.fontMono; ctx.fillText(half.toFixed(half < 10 ? 2 : 1), bx + 27, bs(half) - 6);
         ctx.font = '11px ' + T.fontBody; ctx.fillText('kJ/mol', bx + 27, bot + 32);
       } else {
@@ -154,7 +154,7 @@ Sims.register('mj-harmonic-oscillator', {
         ctx.fillStyle = T.figRed; ctx.fillRect(54, yb, full / 2, 13);
         ctx.fillStyle = T.figGreen; ctx.fillRect(54, yb + 20, full / 2, 13);
         ctx.strokeStyle = T.figInk; ctx.strokeRect(54, yb - 2, full, 37);
-        ctx.fillStyle = T.figInk; ctx.fillText('각각 ½E_v = ' + half.toFixed(half < 10 ? 2 : 1) + ' kJ/mol', 54 + full / 2 + 6, yb + 22);
+        ctx.fillStyle = T.figInk; ctx.fillText('각각 ½Eᵥ = ' + half.toFixed(half < 10 ? 2 : 1) + ' kJ/mol', 54 + full / 2 + 6, yb + 22);
       }
       rNu.set(P.nu.toFixed(0) + ' cm⁻¹');
       rZpe.set((0.5 * P.nu * KJ).toFixed(2) + ' kJ/mol');
@@ -176,6 +176,7 @@ Sims.register('mj-harmonic-oscillator', {
         }
       }
     }
+    function sub(n) { return String(n).replace(/\d/g, function (d) { return '₀₁₂₃₄₅₆₇₈₉'[+d]; }); }
     function niceStep(x) { var p = Math.pow(10, Math.floor(Math.log10(x))), m = x / p; return (m < 1.5 ? 1 : m < 3.5 ? 2 : m < 7.5 ? 5 : 10) * p; }
     function fmt(x) { var s = Math.abs(x) < 1e-9 ? '0' : (Math.abs(x) >= 10 ? x.toFixed(0) : +x.toFixed(2) + ''); return s.replace('-', '−'); }
     api.onResize(draw);
