@@ -147,7 +147,7 @@ Sims.register('mj-huckel-calculator', {
         var a2 = P[i], b2 = P[(i + 1) % N], mx = (a2[0] + b2[0]) / 2, my = (a2[1] + b2[1]) / 2, vx, vy;
         if (st.ring) { vx = mx - cx; vy = my - cy; var l2 = Math.hypot(vx, vy) || 1; vx /= l2; vy /= l2; }
         else { vx = 0; vy = (i % 2 ? 1 : -1); }
-        var po = st.ring ? 14 : 20; ctx.fillText(sol.p[i].toFixed(2), mx + vx * po, my + vy * po + 4);
+        var po = st.ring ? 14 : 20; ctx.fillText(f2(sol.p[i], 2).replace('+', '').replace('−0.00', '0.00'), mx + vx * po, my + vy * po + 4);
       }
       ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left'; ctx.fillStyle = T.figMuted;
       ctx.fillText('원 넓이 ∝ c², 파랑 +, 빨강 −', x0 + 8, y0 + h - 6);

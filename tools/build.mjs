@@ -10,7 +10,7 @@
 //     <!-- next: phy-1 -->         이 단원에서 이어지는 관련 단원 id
 //     <!-- fig:이름 -->            docs/assets/fig/이름.svg 그림
 //     <!-- sim:이름 -->            docs/assets/js/sims/이름.js 인터랙티브 시뮬레이션
-//     <!-- photo:이름 -->          docs/assets/photos/photos.json 에 등록된 사진(파일이 있을 때만)
+//     <!-- photo:이름 -->          docs/assets/photos/photos.json 에 등록된 사진·사실적 삽화(자유 이용 자료, 출처 표시)
 import fs0 from 'node:fs';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -89,6 +89,26 @@ LINKMAP.set('핵심_용어_사전.md', 'glossary.html');
 const photos = fs.existsSync(path.join(ASSETS, 'photos/photos.json'))
   ? JSON.parse(fs.readFileSync(path.join(ASSETS, 'photos/photos.json'), 'utf8')) : {};
 const escapeHtml = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+// 사진·사실적 삽화(자유 이용 자료). photos.json 의 한 항목:
+//   { file, w, h, title, caption, alt, author, license, license_url, source, changes, labels: [{x, y, text, anchor, sub}] }
+// labels 는 그림 위에 얹는 한글 이름표(좌표는 그림의 w×h 기준).
+const photoCredit = (p) => {
+  const bits = [];
+  if (p.author) bits.push(escapeHtml(p.author));
+  if (p.source) bits.push(`<a href="${escapeHtml(p.source)}" rel="noopener">Wikimedia Commons</a>`);
+  if (p.license) bits.push(p.license_url ? `<a href="${escapeHtml(p.license_url)}" rel="noopener">${escapeHtml(p.license)}</a>` : escapeHtml(p.license));
+  return `출처: ${bits.join(', ')}${p.changes ? ` · ${escapeHtml(p.changes)}` : ''}`;
+};
+function photoFigure(name, p) {
+  const labels = (p.labels || []).map((l) => `<text x="${l.x}" y="${l.y}" text-anchor="${l.anchor || 'start'}" class="${l.sub ? 'pl-sub' : 'pl-main'}">${escapeHtml(l.text)}</text>`).join('');
+  const overlay = labels ? `<svg class="photo-labels" viewBox="0 0 ${p.w} ${p.h}" aria-hidden="true">${labels}</svg>` : '';
+  const anim = /\.(gif|webm|mp4)$/i.test(p.file);
+  const media = /\.(webm|mp4)$/i.test(p.file)
+    ? `<video src="assets/photos/${p.file}" width="${p.w}" height="${p.h}" controls loop muted playsinline preload="metadata" aria-label="${escapeHtml(p.alt || p.title)}"></video>`
+    : `<img src="assets/photos/${p.file}" width="${p.w}" height="${p.h}" alt="${escapeHtml(p.alt || p.title)}" loading="lazy">`;
+  return `<figure class="photo${labels ? ' labeled' : ''}${anim ? ' anim' : ''}${p.w <= 560 ? ' small' : ''}" id="photo-${name}"><div class="photo-art"><div class="photo-stack">${media}${overlay}</div></div>`
+    + `<figcaption><b>${escapeHtml(p.title)}</b>${p.caption ? ` ${escapeHtml(p.caption)}` : ''} <span class="credit">${photoCredit(p)}</span></figcaption></figure>`;
+}
 const slug = (s) => s.toLowerCase().replace(/<[^>]+>/g, '').replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-|-$/g, '') || 'sec';
 const stripEmoji = (s) => s.replace(/[\p{Extended_Pictographic}\u{FE0F}\u{200D}]/gu, '').replace(/\s{2,}/g, ' ').trim();
 
@@ -266,8 +286,9 @@ async function convert(md, ctx) {
     }
     if (kind === 'photo') {
       const p = photos[name];
-      if (!p || !fs.existsSync(path.join(ASSETS, 'photos', p.file))) return '';
-      return `<figure class="photo"><img src="assets/photos/${p.file}" alt="${escapeHtml(p.alt || p.caption)}" loading="lazy"><figcaption><b>${p.caption}</b> <span class="credit">${p.credit || ''}</span></figcaption></figure>`;
+      if (!p || !fs.existsSync(path.join(ASSETS, 'photos', p.file))) { console.warn(`  ! 사진 없음: ${name}`); return ''; }
+      (ctx.photos = ctx.photos || []).push(name);
+      return photoFigure(name, p);
     }
     const js = path.join(ASSETS, 'js', 'sims', `${name}.js`);
     if (!fs.existsSync(js)) { console.warn(`  ! 애니메이션 없음: ${name}`); return ''; }
@@ -283,6 +304,7 @@ const FINDERS = [
   { id: 'map', out: 'map.html', title: '개념 연계 지도' },
   { id: 'glossary', out: 'glossary.html', title: '핵심 용어 사전' },
   { id: 'sims', out: 'sims.html', title: '시뮬레이션 모아 보기' },
+  ...(Object.keys(photos).length ? [{ id: 'credits', out: 'credits.html', title: '사진·삽화 출처' }] : []),
 ];
 const partLessons = (part) => lessons.filter((l) => l.part === part);
 // 과목 이름이 붙은 번호("일반물리학 3")는 그 과목 목록 안에서는 숫자만 보여 준다
@@ -504,6 +526,22 @@ function simsBody() {
   <p class="lesson-sub">직접 조작해 보는 시뮬레이션 ${rows.length}개. 3D 표시는 마우스나 손가락으로 끌어서 돌려 볼 수 있는 입체 모형이다.</p></header>${by}</article>`, count: rows.length };
 }
 
+// 사진·삽화 출처: 자유 이용 자료의 저작자·라이선스를 한곳에 모아 밝힌다
+function creditsBody() {
+  const rows = [];
+  for (const l of lessons) for (const m of l.md.matchAll(/<!--\s*photo:([\w-]+)\s*-->/g)) {
+    const p = photos[m[1]];
+    if (p) rows.push({ l, name: m[1], p });
+  }
+  const by = CFG.groups.map((g) => {
+    const rs = rows.filter((r) => r.l.group === g);
+    if (!rs.length) return '';
+    return `<h2>${g.name}</h2><ul class="credit-index">${rs.map((r) => `<li><a href="${r.l.out}#photo-${r.name}"><b>${escapeHtml(r.p.title)}</b></a> <small>${escapeHtml(where(r.l))} · ${escapeHtml(r.l.title)}</small><br><span class="credit">${photoCredit(r.p)}</span></li>`).join('')}</ul>`;
+  }).join('');
+  return `<article class="prose wide"><header class="lesson-hero plain"><p class="eyebrow">${BOOK}</p><h1>사진·삽화 출처</h1>
+  <p class="lesson-sub">이 책의 사진과 사실적인 삽화 ${rows.length}점은 퍼블릭 도메인이거나 자유 이용 라이선스(CC BY, CC BY-SA)로 공개된 자료이다. 저작자와 라이선스를 아래에 밝힌다. 한글 이름표를 덧붙이거나 일부를 잘라 쓴 경우에는 그 사실을 함께 적었다. CC BY-SA 자료를 고친 그림은 같은 라이선스로 다시 쓸 수 있다.</p></header>${by}</article>`;
+}
+
 async function main() {
   fs.mkdirSync(OUT, { recursive: true });
   // KaTeX 글꼴·스타일 복사
@@ -535,6 +573,7 @@ async function main() {
   const sm = simsBody();
   fs.writeFileSync(path.join(OUT, 'sims.html'), page({ title: '시뮬레이션 모아 보기', current: 'sims', body: sm.html }));
   fs.writeFileSync(path.join(OUT, 'index.html'), page({ title: BOOK, current: 'home', body: coverBody(), bodyClass: 'home' }));
+  if (Object.keys(photos).length) fs.writeFileSync(path.join(OUT, 'credits.html'), page({ title: '사진·삽화 출처', current: 'credits', body: creditsBody() }));
   console.log('✓ glossary.html, map.html, sims.html, index.html');
   if (browser) await browser.close();
   console.log(`\n완료: 단원 ${lessons.length}개, 시뮬레이션 ${sm.count}개, 용어 ${g.count}개`);
