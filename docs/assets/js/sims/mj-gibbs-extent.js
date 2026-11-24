@@ -4,15 +4,15 @@ Sims.register('mj-gibbs-extent', {
   caption: 'ΔrG°와 온도를 바꾸고, 그래프를 누르거나 아래 슬라이더로 ξ를 골라 보자. 이상 기체 반응 A ⇌ B(전체 압력 1 bar, A 1 mol에서 출발)의 G − μ°A = ξΔrG° + RT[(1−ξ)ln(1−ξ) + ξ ln ξ]는 순수 성분의 직선(파란 점선)과 혼합 깁스 에너지(주황 점선)의 합이고, 고른 ξ에서 그은 접선의 기울기가 ΔrG = ΔrG° + RT ln[ξ/(1−ξ)]이다. 바닥(기울기 0)의 위치가 ξ평형 = K/(1+K), K = e^(−ΔrG°/RT)이다. ‘혼합 항 넣기’를 끄면 G가 직선이 되어 최솟값이 양 끝으로 간다. 이상 기체와 ΔrG°가 온도에 무관하다고 가정했다.',
   init: function (api) {
     var R = 8.314e-3;   // kJ/(mol·K)
-    var st = { g0: -2.0, T: 298, xi: 0.2, showLin: true, showMix: true, mixOn: true };
+    var st = { g0: -2.0, T: 298.15, xi: 0.2, showLin: true, showMix: true, mixOn: true };
     var cv = api.canvas({ aspect: function (w) { return w < 560 ? 0.95 : 0.56; }, label: 'A ⇌ B 반응 혼합물의 깁스 에너지를 반응 진행도에 대해 그린 그래프' });
     var ctx = cv.ctx;
     var rEq = api.readout('바닥 ξ평형'), rK = api.readout('K = ξ평형/(1−ξ평형)'), rG = api.readout('고른 ξ의 ΔrG'), rDir = api.readout('방향');
 
     api.slider({ id: 'mj-gibbs-extent-g0', label: 'ΔrG°', min: -10, max: 10, step: 0.1, value: st.g0,
       format: function (v) { return fmt(v, 1) + ' kJ/mol'; }, onInput: function (v) { st.g0 = v; draw(); } });
-    api.slider({ id: 'mj-gibbs-extent-t', label: '온도 T', min: 200, max: 1000, step: 1, value: st.T,
-      format: function (v) { return v + ' K'; }, onInput: function (v) { st.T = v; draw(); } });
+    api.slider({ id: 'mj-gibbs-extent-t', label: '온도 T', min: 200, max: 1000, step: 0.05, value: st.T,
+      format: function (v) { return (Math.abs(v - Math.round(v)) < 1e-6 ? v.toFixed(0) : v.toFixed(2)) + ' K'; }, onInput: function (v) { st.T = v; draw(); } });
     var sXi = api.slider({ id: 'mj-gibbs-extent-xi', label: '고른 ξ', min: 0.01, max: 0.99, step: 0.01, value: st.xi,
       format: function (v) { return v.toFixed(2) + ' mol'; }, onInput: function (v) { st.xi = v; draw(); } });
     var g = api.group();
@@ -46,7 +46,7 @@ Sims.register('mj-gibbs-extent', {
     function draw() {
       var T = api.tokens(), w = cv.w, h = cv.h, small = w < 560;
       ctx.clearRect(0, 0, w, h);
-      var L = small ? 54 : 70, Rr = w - 16, Tp = 18, B = h - 44;
+      var L = small ? 54 : 70, Rr = w - 16, Tp = small ? 56 : 36, B = h - 44;
       box = { L: L, R: Rr };
       var RT = R * st.T, K = Math.exp(-st.g0 / RT), xe = K / (1 + K);
       // 세로 범위
@@ -104,20 +104,21 @@ Sims.register('mj-gibbs-extent', {
       ctx.textAlign = lx < L + 60 ? 'left' : lx > Rr - 60 ? 'right' : 'center';
       if (ly < Tp + 14) ly = sy(gm) + 22;
       ctx.fillText(st.mixOn ? '바닥(평형)' : '최솟값이 끝에', lx, ly);
-      // 범례
+      // 범례(그래프 위 한두 줄)
       ctx.textAlign = 'left'; ctx.font = '12px ' + T.fontBody;
-      var ly0 = Tp + 16, items = [];
+      var items = [];
       if (st.showLin) items.push([T.figBlue, '직선 항 ξΔrG°', [7, 5]]);
       if (st.showMix) items.push([T.figAmber, '혼합 항', [3, 4]]);
       items.push([T.figAccent, st.mixOn ? 'G = 두 항의 합' : 'G (혼합 항 없음)', []]);
       items.push([T.figRed, '고른 ξ의 접선', []]);
-      var legX = st.g0 > 0 ? Rr - 150 : L + 10;
-      if (small) legX = L + 8;
-      items.forEach(function (it, k) {
-        var yy = ly0 + k * 17;
+      var lgx = L, lgy = 16;
+      items.forEach(function (it) {
+        var tw = 30 + ctx.measureText(it[1]).width + 16;
+        if (lgx + tw > Rr && lgx > L) { lgx = L; lgy += 18; }
         ctx.strokeStyle = it[0]; ctx.lineWidth = 2.4; ctx.setLineDash(it[2]);
-        ctx.beginPath(); ctx.moveTo(legX, yy - 4); ctx.lineTo(legX + 24, yy - 4); ctx.stroke(); ctx.setLineDash([]);
-        ctx.fillStyle = T.figInk; ctx.fillText(it[1], legX + 30, yy);
+        ctx.beginPath(); ctx.moveTo(lgx, lgy - 4); ctx.lineTo(lgx + 24, lgy - 4); ctx.stroke(); ctx.setLineDash([]);
+        ctx.fillStyle = T.figInk; ctx.fillText(it[1], lgx + 30, lgy);
+        lgx += tw;
       });
       // 읽기 값
       if (st.mixOn) {

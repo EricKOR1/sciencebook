@@ -28,6 +28,11 @@ Sims.register('mj-debye-huckel', {
     function logGlim(sI) { return -A * st.z * sI; }
     function logGext(sI) { return -A * st.z * sI / (1 + Bc * st.a * sI); }
     // r 안의 반대 전하 비율(선형화 해, 반지름 a 안은 비어 있음)
+    function tag(T, text, x, y, color) {
+      var tw = ctx.measureText(text).width;
+      ctx.fillStyle = T.figPanel; ctx.globalAlpha = 0.85; ctx.fillRect(x - 3, y - 11, tw + 6, 15); ctx.globalAlpha = 1;
+      ctx.fillStyle = color; ctx.fillText(text, x, y);
+    }
     function Q(r, kap, a) { if (r <= a) return 0; return 1 - (1 + kap * r) * Math.exp(-kap * (r - a)) / (1 + kap * a); }
 
     function panelQ(T, x0, y0, w, h) {
@@ -70,8 +75,8 @@ Sims.register('mj-debye-huckel', {
       ctx.textAlign = right ? 'left' : 'right';
       ctx.fillText('1/κ = ' + (Ld >= 10 ? Ld.toFixed(0) : Ld.toFixed(Ld >= 1 ? 1 : 2)) + ' nm', tx + (right ? 5 : -5), Tp + 16);
       ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
-      ctx.fillStyle = T.figViolet; ctx.fillText('실선: 이온 크기 a 고려', L + 6, B - 26);
-      ctx.fillStyle = T.figMuted; ctx.fillText('점선: 점전하(a = 0)', L + 6, B - 10);
+      tag(T, '실선: 이온 크기 a 고려', L + 6, B - 26, T.figViolet);
+      tag(T, '점선: 점전하(a = 0)', L + 6, B - 10, T.figMuted);
       if (a > 0.1) { ctx.fillStyle = T.figAmber; ctx.textAlign = 'left'; ctx.fillText('r < a', L + 3, Tp + 32); }
       return { Ld: Ld, ka: kap * a };
     }
@@ -110,8 +115,8 @@ Sims.register('mj-debye-huckel', {
       ctx.fillStyle = T.figAccent; ctx.beginPath(); ctx.arc(sx(sI), sy(logGext(sI)), 6, 0, 7); ctx.fill();
       ctx.restore();
       ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
-      ctx.fillStyle = T.figAccent; ctx.fillText('실선: 확장 식 (a = ' + st.a.toFixed(2) + ' nm)', L + 6, B - 26);
-      ctx.fillStyle = T.figMuted; ctx.fillText('점선: 극한 법칙 (기울기 ' + mfmt(-A * st.z, 3) + ')', L + 6, B - 10);
+      tag(T, '실선: 확장 식 (a = ' + st.a.toFixed(2) + ' nm)', L + 6, B - 26, T.figAccent);
+      tag(T, '점선: 극한 법칙 (기울기 ' + mfmt(-A * st.z, 3) + ')', L + 6, B - 10, T.figMuted);
     }
 
     function draw() {
