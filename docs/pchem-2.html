@@ -10,7 +10,8 @@
 <link rel="stylesheet" href="assets/katex/katex.min.css">
 <link rel="stylesheet" href="assets/book.css">
 <script src="assets/js/book.js" defer></script>
-
+<script src="assets/js/sims/mj-carnot-entropy-production.js" defer></script>
+<script src="assets/js/sims/mj-thermal-contact-entropy.js" defer></script>
 </head>
 <body class="" data-lesson="pchem-2" data-title="열역학 제2·3법칙과 엔트로피" data-where="물리화학">
 <header class="topbar">
@@ -606,7 +607,7 @@
 </svg>
 </div><figcaption><b>그림 물리화학 2-3 이상 기체 카르노 순환의 p–V 도표(예제 2)</b> 이원자 이상 기체 1.00 mol(γ = 1.40)이 600 K와 300 K 사이에서 도는 카르노 순환. A(1.00 L)→B(3.00 L) 600 K 등온 팽창에서 열을 받고, B→C 단열 팽창, C(16.97 L)→D(5.66 L) 300 K 등온 압축에서 열을 버리고, D→A 단열 압축으로 돌아온다. 열기관이므로 시계 방향으로 돌며, 둘러싼 넓이가 알짜 일이다. 단열선은 같은 점을 지나는 등온선보다 가파르다.</figcaption></figure>
 
-
+<figure class="sim" id="sim-mj-carnot-entropy-production" data-sim="mj-carnot-entropy-production"><noscript>이 애니메이션은 자바스크립트가 필요하다.</noscript></figure>
 
 <h4 id="카르노-정리와-열역학적-온도">카르노 정리와 열역학적 온도</h4>
 <aside class="callout important"><p class="callout-title">핵심</p><p><strong>카르노 정리(Carnot&#39;s theorem)</strong> 같은 두 열원 사이에서 작동하는 기관 가운데 가역 기관보다 효율이 큰 기관은 없으며, <strong>모든 가역 기관의 효율은 작동 물질과 관계없이 같다.</strong></p>
@@ -889,7 +890,7 @@
   <circle cx="354.0" cy="180.0" r="5.0" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
   <text x="364.0" y="184.0" class="pc2clausius-cycle-b">B</text>
   <text x="430.0" y="36.0" text-anchor="end" class="pc2clausius-cycle-t">I (비가역): ∫d<tspan style="font-style:italic">q</tspan>/<tspan style="font-style:italic">T</tspan><tspan baseline-shift="sub" style="font-size:10px">열원</tspan></text>
-  <text x="430.0" y="54.0" text-anchor="end" class="pc2clausius-cycle-s">중간 상태가 정의되지 않음</text>
+  <text x="430.0" y="60.0" text-anchor="end" class="pc2clausius-cycle-s">중간 상태가 정의되지 않음</text>
   <text x="65.2" y="216.0" class="pc2clausius-cycle-t">R (가역): ∫d<tspan style="font-style:italic">q</tspan><tspan baseline-shift="sub" style="font-size:10px">가역</tspan>/<tspan style="font-style:italic">T</tspan> = <tspan style="font-style:italic">S</tspan><tspan baseline-shift="sub" style="font-size:10px">A</tspan> − <tspan style="font-style:italic">S</tspan><tspan baseline-shift="sub" style="font-size:10px">B</tspan></text>
   <text x="230.0" y="306.0" text-anchor="middle" class="pc2clausius-cycle-b">순환 I + R: ∮d<tspan style="font-style:italic">q</tspan>/<tspan style="font-style:italic">T</tspan> ≤ 0</text>
   <text x="230.0" y="330.0" text-anchor="middle" class="pc2clausius-cycle-b">⇒ Δ<tspan style="font-style:italic">S</tspan> = <tspan style="font-style:italic">S</tspan><tspan baseline-shift="sub" style="font-size:10px">B</tspan> − <tspan style="font-style:italic">S</tspan><tspan baseline-shift="sub" style="font-size:10px">A</tspan> ≥ ∫d<tspan style="font-style:italic">q</tspan>/<tspan style="font-style:italic">T</tspan><tspan baseline-shift="sub" style="font-size:10px">열원</tspan></text>
@@ -1543,7 +1544,7 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
 </svg>
 </div><figcaption><b>그림 물리화학 2-10 두 구리 덩어리의 엔트로피 변화와 이동한 열(예제 10)</b> 100 ℃와 0 ℃의 구리 덩어리(각 열용량 385 J/K) 사이에서 이동한 열 q에 따른 엔트로피 변화. 위: 뜨거운 덩어리는 엔트로피가 줄고 차가운 덩어리는 더 많이 는다. 아래: 합은 q = 19.25 kJ에서 최대 9.33 J/K이며, 이때 두 온도가 50 ℃로 같아진다. 고립계는 엔트로피가 최대인 상태에서 평형에 이른다.</figcaption></figure>
 
-
+<figure class="sim" id="sim-mj-thermal-contact-entropy" data-sim="mj-thermal-contact-entropy"><noscript>이 애니메이션은 자바스크립트가 필요하다.</noscript></figure>
 
 <h4 id="예제-11-비가역-등온-압축">예제 11 — 비가역 등온 압축</h4>
 <p>이상 기체 1.00 mol이 298.15 K 항온조 안에서 1.00 bar에서 <strong>일정한 외부 압력 5.00 bar</strong>로 단번에 눌려 5.00 bar가 되었다. <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord">Δ</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.0576em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord text mtight"><span class="mord hangul_fallback mtight">계</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord">Δ</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.0576em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord text mtight"><span class="mord hangul_fallback mtight">주위</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord">Δ</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.0576em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord text mtight"><span class="mord hangul_fallback mtight">우주</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>를 구하고, 가역 압축과 비교하시오.</p>
@@ -2319,11 +2320,9 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
   <text x="108.2" y="58.3" text-anchor="end" class="pc2otto-pv-b">3</text>
   <circle cx="461.8" cy="328.6" r="4.5" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
   <text x="451.8" y="330.6" text-anchor="end" class="pc2otto-pv-b">4</text>
-  <line x1="463.8" y1="332.7" x2="471.8" y2="301.4" style="stroke:var(--fig-muted);stroke-width:1"/>
-  <text x="463.8" y="297.4" text-anchor="middle" class="pc2otto-pv-s"><tspan style="font-style:italic">T</tspan><tspan baseline-shift="sub" style="font-size:10px">1</tspan> = 300 K</text>
   <text x="128.2" y="52.3" class="pc2otto-pv-s"><tspan style="font-style:italic">T</tspan><tspan baseline-shift="sub" style="font-size:10px">3</tspan> = 2000 K</text>
   <text x="108.2" y="143.3" text-anchor="end" class="pc2otto-pv-b"><tspan style="font-style:italic">q</tspan><tspan baseline-shift="sub" style="font-size:10px">in</tspan></text>
-  <text x="471.8" y="326.6" class="pc2otto-pv-b"><tspan style="font-style:italic">q</tspan><tspan baseline-shift="sub" style="font-size:10px">out</tspan></text>
+  <text x="467.8" y="305.7" class="pc2otto-pv-b"><tspan style="font-style:italic">q</tspan><tspan baseline-shift="sub" style="font-size:10px">out</tspan></text>
   <text x="206.0" y="284.3" text-anchor="middle" class="pc2otto-pv-b">알짜 일</text>
   <text x="528.0" y="70.0" class="pc2otto-pv-t">1→2 단열 압축</text>
   <text x="528.0" y="96.0" class="pc2otto-pv-b">2→3 등적 가열</text>
@@ -2334,7 +2333,7 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
   <text x="528.0" y="214.0" class="pc2otto-pv-s">(버린 열의 크기)</text>
   <rect x="528.0" y="236.0" width="18.0" height="14.0" rx="0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1"/>
   <text x="554.0" y="248.0" class="pc2otto-pv-t">둘러싼 넓이 = 알짜 일</text>
-  <text x="528.0" y="286.0" class="pc2otto-pv-s"><tspan style="font-style:italic">r</tspan> = 10, γ = 1.40 (예제 15)</text>
+  <text x="528.0" y="286.0" class="pc2otto-pv-s"><tspan style="font-style:italic">r</tspan> = 10, γ = 1.40, <tspan style="font-style:italic">T</tspan><tspan baseline-shift="sub" style="font-size:10px">1</tspan> = 300 K</text>
   <text x="528.0" y="306.0" class="pc2otto-pv-s">두 단열선은 곡선,</text>
   <text x="528.0" y="324.0" class="pc2otto-pv-s">두 등적선은 수직선</text>
 </svg>
@@ -3106,7 +3105,7 @@ M1001 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
   <text x="300.1" y="317.1" text-anchor="middle" class="pc2q-four-expansions-b">f3 (T = ?)</text>
   <text x="288.3" y="147.1" class="pc2q-four-expansions-b">(나)</text>
   <text x="346.7" y="232.9" class="pc2q-four-expansions-b">(가)</text>
-  <text x="226.7" y="239.3" class="pc2q-four-expansions-b">(다)</text>
+  <text x="186.7" y="250.0" class="pc2q-four-expansions-b">(다)</text>
   <text x="151.1" y="190.0" text-anchor="end" class="pc2q-four-expansions-b">(라)</text>
   <line x1="536.0" y1="60.0" x2="562.0" y2="60.0" style="stroke:var(--fig-red);stroke-width:2.6"/>
   <text x="568.0" y="64.0" class="pc2q-four-expansions-t">(가) 가역 등온 팽창</text>
