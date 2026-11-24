@@ -452,7 +452,7 @@ function coverBody() {
 </section>
 ${groups}
 <section class="appendix-row"><h2>찾아보기·부록</h2><ul>${[...FINDERS, ...EXTRA].map((e) => `<li><a href="${e.out}">${e.title}</a></li>`).join('')}</ul>
-<p class="source">근거: 교육부 고시 제2022-33호 [별책 9] 「과학과 교육과정」. 중학교 단원의 학년 배치는 교과서(학교)에 따라 다를 수 있다. 대학 일반 과학 단원은 정해진 교육과정이 없어, 대학 1학년 과정에서 널리 쓰이는 교재들의 공통 목차를 참고해 범위를 정했다.</p></section>
+<p class="source">근거: 교육부 고시 제2022-33호 [별책 9] 「과학과 교육과정」. 중학교 단원의 학년 배치는 교과서(학교)에 따라 다를 수 있다. 대학 일반 과학과 대학 전공 과정 단원은 정해진 교육과정이 없어, 대학에서 널리 쓰이는 교재들의 공통 목차를 참고해 범위를 정했다.</p></section>
 <section class="progress-admin" id="progress-admin" hidden><h2>학습 기록</h2>
 <p>읽던 위치, 읽은 정도, 완료 표시는 지금 쓰는 기기의 이 브라우저에만 저장된다. 다른 기기나 다른 브라우저에서는 따로 기록되며, 브라우저의 사이트 데이터를 지우면 함께 사라진다.</p>
 <div class="pa-btns"></div></section>`;
