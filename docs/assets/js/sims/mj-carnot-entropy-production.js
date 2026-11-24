@@ -64,7 +64,7 @@ Sims.register('mj-carnot-entropy-production', {
       return pts;
     }
     function sub(str, x, y, px, bold, color) {
-      var T = api.tokens(), parts = String(str).split(/_([^ ()·,]+)/), f1 = (bold ? '600 ' : '') + px + 'px ' + T.fontBody, f2 = (bold ? '600 ' : '') + Math.round(px * 0.78) + 'px ' + T.fontBody;
+      var T = api.tokens(), parts = String(str).split(/_([^\s()·,\/|]+)/), f1 = (bold ? '600 ' : '') + px + 'px ' + T.fontBody, f2 = (bold ? '600 ' : '') + Math.round(px * 0.78) + 'px ' + T.fontBody;
       var al = ctx.textAlign, wsum = 0;
       parts.forEach(function (p, i) { ctx.font = i % 2 ? f2 : f1; wsum += ctx.measureText(p).width; });
       var x0 = al === 'center' ? x - wsum / 2 : al === 'right' ? x - wsum : x;
@@ -94,8 +94,8 @@ Sims.register('mj-carnot-entropy-production', {
       var A = narrow ? { x: 0, y: 0, w: w, h: h * 0.56 } : { x: 0, y: 0, w: w * 0.56, h: h };
       var Bx = narrow ? { x: 0, y: h * 0.58, w: w, h: h * 0.42 } : { x: w * 0.58, y: 0, w: w * 0.42, h: h };
       // ── T–S
-      var Smax = 16, Tmax = 1300;
-      var o = frame(T, A, Smax, Tmax, [0, 4, 8, 12, 16], [0, 300, 600, 900, 1200], '엔트로피 S (J/K, 상대값)', '온도 T (K)',
+      var Smax = Math.max(16, Math.ceil((1 + sC + 1) / 4) * 4), Tmax = 1300, sT = []; for (var q = 0; q <= Smax; q += 4) sT.push(q);
+      var o = frame(T, A, Smax, Tmax, sT, [0, 300, 600, 900, 1200], '엔트로피 S (J/K, 상대값)', '온도 T (K)',
         function (v) { return v; }, function (v) { return v; });
       var s0 = 1.0;
       // 열원 온도선
@@ -164,7 +164,7 @@ Sims.register('mj-carnot-entropy-production', {
       list.forEach(function (t) {
         if (!/_[^\s]/.test(t.nodeValue)) return;
         var fr = document.createDocumentFragment();
-        t.nodeValue.split(/_([^\s()·,]+)/).forEach(function (p, i) {
+        t.nodeValue.split(/_([^\s()·,\/|]+)/).forEach(function (p, i) {
           if (i % 2) { var s = document.createElement('sub'); s.textContent = p; fr.appendChild(s); } else if (p) fr.appendChild(document.createTextNode(p));
         });
         t.parentNode.replaceChild(fr, t);

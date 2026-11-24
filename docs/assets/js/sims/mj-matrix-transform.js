@@ -155,7 +155,7 @@ Sims.register('mj-matrix-transform', {
       var lx = view.narrow ? 10 : view.side + 18, ly = view.narrow ? view.side + 22 : 26;
       ctx.font = '600 14px ' + T.fontBody; ctx.fillStyle = T.figInk; ctx.textAlign = 'left';
       ctx.fillText('A = [[' + fmt(st.a) + ', ' + fmt(st.b) + '], [' + fmt(st.c) + ', ' + fmt(st.d) + ']]', lx, ly);
-      var items = [[T.figInk, '단위원(점선)과 v'], [T.figRed, 'Av'], [T.figBlue, '단위원의 상(타원)'], [T.figAmber, '단위 정사각형의 상(넓이 |det A|)'],
+      var items = [[T.figInk, '단위원(점선)과 v'], [T.figRed, 'Av'], [T.figBlue, '단위원의 상(타원)'], [T.figAmber, '단위 정사각형의 상'],
         [T.figGreen, '열벡터 Ae₁, Ae₂'], [T.figAccent, '변환된 격자'], [T.figViolet, '고유벡터 방향(점선)']];
       ctx.font = '12px ' + T.fontBody;
       items.forEach(function (it, n) {

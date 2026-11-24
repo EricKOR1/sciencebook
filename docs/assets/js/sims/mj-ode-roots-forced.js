@@ -95,7 +95,7 @@ Sims.register('mj-ode-roots-forced', {
       ctx.beginPath(); ctx.moveTo(ox, oy - imMax * sc); ctx.lineTo(ox, oy + imMax * sc); ctx.stroke();
       ctx.fillStyle = T.figMuted; ctx.font = '11px ' + T.fontBody;
       ctx.textAlign = 'right'; ctx.fillText('Re λ', ox + reMax * sc, oy + 14);
-      ctx.textAlign = 'right'; ctx.fillText('Im λ', ox - 4, oy - imMax * sc + 10);
+      ctx.textAlign = 'right'; ctx.fillText('Im λ', ox - 4, oy + imMax * sc - 2);
       ctx.font = '11px ' + T.fontMono; ctx.textAlign = 'center';
       [-3, -2, -1].forEach(function (k) {
         ctx.beginPath(); ctx.moveTo(ox + k * sc, oy - 3); ctx.lineTo(ox + k * sc, oy + 3); ctx.stroke();
@@ -110,8 +110,8 @@ Sims.register('mj-ode-roots-forced', {
         m.roots.forEach(function (r) { ctx.beginPath(); ctx.moveTo(ox, wy); ctx.lineTo(X(r[0]), Y(r[1])); ctx.stroke(); });
         ctx.setLineDash([]);
         ctx.beginPath(); ctx.arc(ox, wy, 5.5, 0, Math.PI * 2); ctx.fillStyle = T.figGreen; ctx.fill();
-        ctx.fillStyle = T.figGreen; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'left';
-        ctx.fillText('iω (구동)', ox + 8, wy - 6);
+        ctx.fillStyle = T.figGreen; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'right';
+        ctx.fillText('iω (구동)', ox - 9, wy - 4);
       }
       // 근
       m.roots.forEach(function (r, i) {
@@ -127,7 +127,7 @@ Sims.register('mj-ode-roots-forced', {
       ctx.fillText('점선 원: 반지름 ω₀', P.x + 8, pb + 18);
 
       // ── 시간 그래프
-      var gl = G.x + 44, gr = G.x + G.w - 8, gt = G.y + 40, gb = G.y + G.h - 28;
+      var gl = G.x + 44, gr = G.x + G.w - 8, gt = G.y + (narrow ? 62 : 40), gb = G.y + G.h - 28;
       var N = 1200, xs = [], xh = [], xp = [], ymax = 1;
       for (var i = 0; i <= N; i++) {
         var t = TMAX * i / N, a = m.xh(t), b = st.F > 0 ? m.xp(t) : 0;
@@ -169,7 +169,7 @@ Sims.register('mj-ode-roots-forced', {
         ctx.fillStyle = T.figInk; ctx.fillText(it[0], cx + 25, cy);
       });
       ctx.fillStyle = T.figMuted; ctx.textAlign = 'right'; ctx.font = '11px ' + T.fontBody;
-      ctx.fillText('세로: x / (f/ω₀²) 단위, x(0) = ' + st.x0.toFixed(2), gr, gt - 6);
+      ctx.fillText('세로: x / (f/ω₀²) 단위, x(0) = ' + st.x0.toFixed(2), gr, gt - (narrow ? 10 : 6));
 
       function arr(a) {
         ctx.beginPath();

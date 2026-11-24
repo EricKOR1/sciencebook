@@ -58,8 +58,9 @@
   <line x1="451.4" y1="340.3" x2="435.8" y2="276.9" style="stroke:var(--fig-red);stroke-width:1"/>
   <text x="388.7" y="254.9" class="pchem-1-adiabat-vs-isotherm-b" style="fill:var(--fig-red)"><tspan>비가역 단열의 나중 상태</tspan></text>
   <text x="388.7" y="272.9" class="pchem-1-adiabat-vs-isotherm-s" style="fill:var(--fig-red)"><tspan>(경로는 정의되지 않음)</tspan></text>
-  <text x="223.9" y="239.1" class="pchem-1-adiabat-vs-isotherm-b" style="fill:var(--fig-muted)"><tspan>등온선 (298 K)</tspan></text>
-  <text x="193.3" y="296.9" class="pchem-1-adiabat-vs-isotherm-b" style="fill:var(--fig-blue)"><tspan>가역 단열선 (γ = 5/3)</tspan></text>
+  <text x="252.2" y="260.4" class="pchem-1-adiabat-vs-isotherm-b" style="fill:var(--fig-muted)"><tspan>등온선 (298 K)</tspan></text>
+  <text x="89.8" y="294.9" class="pchem-1-adiabat-vs-isotherm-b" style="fill:var(--fig-blue)"><tspan>가역 단열선</tspan></text>
+  <text x="89.8" y="313.9" class="pchem-1-adiabat-vs-isotherm-b" style="fill:var(--fig-blue)"><tspan>(γ = 5/3)</tspan></text>
   <path d="M122.2 -26.5 L159.9 184.7" clip-path="url(#pchem-1-adiabat-vs-isotherm-cp1)" style="fill:none;stroke:var(--fig-muted);stroke-width:1.3;stroke-dasharray:3 3"/>
   <path d="M122.2 -79.3 L159.9 272.8" clip-path="url(#pchem-1-adiabat-vs-isotherm-cp1)" style="fill:none;stroke:var(--fig-blue);stroke-width:1.3;stroke-dasharray:3 3"/>
   <rect x="398.1" y="39.6" width="236" height="52" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
