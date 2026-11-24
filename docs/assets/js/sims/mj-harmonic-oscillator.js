@@ -24,7 +24,7 @@ Sims.register('mj-harmonic-oscillator', {
       return 2 * s * h / 3;
     }
 
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.45 : 0.66; }, label: '조화 진동자의 퍼텐셜, 준위, 파동 함수와 확률 밀도' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.75 : 0.66; }, label: '조화 진동자의 퍼텐셜, 준위, 파동 함수와 확률 밀도' });
     var ctx = cv.ctx;
     var rNu = api.readout('ν̃'), rZpe = api.readout('영점 에너지'), rA = api.readout('α'), rTp = api.readout('전환점'), rF = api.readout('금지 영역 확률');
 
@@ -98,6 +98,7 @@ Sims.register('mj-harmonic-oscillator', {
       }
       drawPsi(P, T.figBlue, true);
       ctx.restore();
+      ctx.fillStyle = T.figPaper; ctx.globalAlpha = 0.82; ctx.fillRect(A.x + 2, A.y + 2, Math.min(250, A.w - 4), G || msg ? 50 : 34); ctx.globalAlpha = 1;
       ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'left'; ctx.fillStyle = T.figBlue;
       ctx.fillText('ψ' + sub(v) + '  (E' + sub(v) + ' = ' + E(v, P).toFixed(E(v, P) < 10 ? 2 : 1) + ' kJ/mol)', A.x + 6, A.y + 14);
       ctx.fillStyle = T.figAmber; ctx.font = '12px ' + T.fontBody; ctx.fillText('주황: 전환점 바깥의 꼬리', A.x + 6, A.y + 30);
@@ -154,7 +155,7 @@ Sims.register('mj-harmonic-oscillator', {
         ctx.fillStyle = T.figRed; ctx.fillRect(54, yb, full / 2, 13);
         ctx.fillStyle = T.figGreen; ctx.fillRect(54, yb + 20, full / 2, 13);
         ctx.strokeStyle = T.figInk; ctx.strokeRect(54, yb - 2, full, 37);
-        ctx.fillStyle = T.figInk; ctx.fillText('각각 ½Eᵥ = ' + half.toFixed(half < 10 ? 2 : 1) + ' kJ/mol', 54 + full / 2 + 6, yb + 22);
+        ctx.fillStyle = T.figInk; ctx.fillText('½Eᵥ = ' + half.toFixed(half < 10 ? 2 : 1) + ' kJ/mol', 54 + full / 2 + 6, yb + 22);
       }
       rNu.set(P.nu.toFixed(0) + ' cm⁻¹');
       rZpe.set((0.5 * P.nu * KJ).toFixed(2) + ' kJ/mol');

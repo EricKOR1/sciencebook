@@ -1,20 +1,20 @@
 /* 물리화학 7 양자역학의 기초: 플랑크 분포와 레일리–진스 식 비교 — 가로축(λ ↔ ν)에 따라 다른 봉우리, 모드당 평균 에너지의 '얼어붙음', 적분으로 구한 σT⁴ */
 Sims.register('mj-planck-rayleigh-jeans', {
   title: '플랑크 대 레일리–진스 — 양자화가 자외선 파탄을 막는다',
-  caption: '온도를 바꾸고 가로축을 파장 λ와 진동수 ν 사이에서 바꿔 보자. 위 그래프는 플랑크 분포(실선)와 레일리–진스 식(점선)이고, 아래 그래프는 같은 가로축에서 모드 하나의 평균 에너지 ⟨E⟩/k_BT = x/(eˣ − 1)(x = hν/k_BT)이다. 고전 이론은 모든 모드에 k_BT를 주지만(아래 점선 1), 양자화된 모드는 hν가 k_BT보다 크면 얼어붙어 짧은 파장에서 곡선이 0으로 떨어진다. 봉우리는 λ축에서 x = 4.965(λmaxT = 2.898 mm·K), ν축에서 x = 2.821로 서로 다른 자리에 생기며, 곡선 아래 넓이를 수치 적분한 M = (c/4)∫ρ는 σT⁴와 같다. 공동 복사(흑체)를 가정했고, 원의 색은 플랑크 스펙트럼을 CIE 1931 등색 함수의 근사식으로 sRGB로 바꾼 뒤 가장 밝은 채널을 1로 맞춘 것이다.',
+  caption: '온도를 바꾸고 가로축을 파장 λ와 진동수 ν 사이에서 바꿔 보자. 위 그래프는 플랑크 분포(실선)와 레일리–진스 식(점선)이고, 아래 그래프는 같은 가로축에서 모드 하나의 평균 에너지 ⟨E⟩/kT = x/(eˣ − 1)(x = hν/kT)이다. 고전 이론은 모든 모드에 kT를 주지만(아래 점선 1), 양자화된 모드는 hν가 kT보다 크면 얼어붙어 짧은 파장에서 곡선이 0으로 떨어진다. 봉우리는 λ축에서 x = 4.965(λmaxT = 2.898 mm·K), ν축에서 x = 2.821로 서로 다른 자리에 생기며, 곡선 아래 넓이를 수치 적분한 M = (c/4)∫ρ는 σT⁴와 같다. 공동 복사(흑체)를 가정했고, 원의 색은 플랑크 스펙트럼을 CIE 1931 등색 함수의 근사식으로 sRGB로 바꾼 뒤 가장 밝은 채널을 1로 맞춘 것이다(약 800 K 아래에서는 가시광선이 너무 약해 검게 칠했다).',
   init: function (api) {
     var H = 6.62607e-34, C = 2.99792458e8, K = 1.380649e-23, SIG = 5.670374e-8;
     var st = { T: 5800, nu: false, rj: true };
     var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.35 : 0.62; }, label: '플랑크 분포와 레일리–진스 곡선, 모드당 평균 에너지 그래프' });
     var ctx = cv.ctx;
     var rPk = api.readout('봉우리 위치');
-    var rX = api.readout('봉우리의 x = hν/k_BT');
+    var rX = api.readout('봉우리의 x = hν/kT');
     var rM = api.readout('M = (c/4)∫ρ (수치 적분)');
     var rRJ = api.readout('레일리–진스/플랑크 (봉우리에서)');
 
     api.slider({ id: 'mj-planck-rayleigh-jeans-t', label: '온도 T', min: Math.log10(300), max: 4, step: 0.001, value: Math.log10(st.T),
-      format: function (v) { return Math.round(Math.pow(10, v)).toLocaleString('en-US').replace(/,/g, ' ') + ' K'; },
-      onInput: function (v) { st.T = Math.pow(10, v); draw(); } });
+      format: function (v) { return Number(Math.pow(10, v).toPrecision(3)).toLocaleString('en-US').replace(/,/g, ' ') + ' K'; },
+      onInput: function (v) { st.T = Number(Math.pow(10, v).toPrecision(3)); draw(); } });
     var g = api.group();
     var bL = api.button('가로축: 파장 λ', function () { setAxis(false); }, { toggle: true, pressed: true, parent: g });
     var bN = api.button('가로축: 진동수 ν', function () { setAxis(true); }, { toggle: true, pressed: false, parent: g });
@@ -121,16 +121,17 @@ Sims.register('mj-planck-rayleigh-jeans', {
       ctx.restore();
       ctx.fillStyle = Tk.figRed; ctx.beginPath(); ctx.arc(sx(pkX), sy(pkY), 5, 0, 7); ctx.fill();
       ctx.font = '600 12px ' + Tk.fontBody; ctx.textAlign = 'left';
-      var pkLab = st.nu ? 'ν_max = ' + (nmW / 1e14).toPrecision(3) + ' × 10¹⁴ Hz' : 'λ_max = ' + fmtL(lmW);
+      var pkLab = st.nu ? 'νmax = ' + (nmW / 1e14).toPrecision(3) + ' × 10¹⁴ Hz' : 'λmax = ' + fmtL(lmW);
       ctx.fillText(pkLab, Math.min(sx(pkX) + 8, R - 160), sy(pkY) - 8);
       if (other < xmax) {
         ctx.fillStyle = Tk.figViolet; ctx.font = '11px ' + Tk.fontBody;
-        ctx.fillText(st.nu ? 'c/λ_max (λ축 봉우리)' : 'c/ν_max (ν축 봉우리)', Math.min(sx(other) + 5, R - 120), top + 16);
+        ctx.fillText(st.nu ? 'c/λmax (λ축 봉우리)' : 'c/νmax (ν축 봉우리)', Math.min(sx(other) + 5, R - 120), top + (B1 - top) * 0.55);
       }
       if (st.rj) {
         ctx.fillStyle = Tk.figMuted; ctx.font = '600 12px ' + Tk.fontBody; ctx.textAlign = 'center';
-        var xr = st.nu ? xmax * 0.85 : xmax * 0.12;
-        ctx.fillText('레일리–진스 → ∞', Math.max(L + 70, Math.min(sx(xr), R - 70)), top + (narrow ? 34 : 30));
+        var xs = st.nu ? Math.sqrt(ymax * C * C * C / (8 * Math.PI * K * T)) : Math.pow(8 * Math.PI * K * T / ymax, 0.25);
+        ctx.textAlign = st.nu ? 'right' : 'left';
+        ctx.fillText('레일리–진스 → ∞', st.nu ? Math.max(L + 120, sx(xs) - 8) : Math.min(R - 120, sx(xs) + 8), top + 16);
       }
       // 아래: 모드당 평균 에너지
       var sy2 = function (v) { return B2 - v / 1.15 * (B2 - T2); };
@@ -145,21 +146,22 @@ Sims.register('mj-planck-rayleigh-jeans', {
       }
       ctx.stroke(); ctx.restore();
       ctx.fillStyle = Tk.figInk; ctx.font = '600 12px ' + Tk.fontBody; ctx.textAlign = 'left';
-      ctx.fillText('모드당 평균 에너지 ⟨E⟩/k_BT', L + 4, T2 - 8);
+      ctx.fillText('모드당 평균 에너지 ⟨E⟩/kT', L + 4, T2 - 8);
       ctx.fillStyle = Tk.figMuted; ctx.font = '11px ' + Tk.fontBody; ctx.textAlign = 'right';
       ctx.fillText('고전(등분배) = 1', R - 4, sy2(1) - 5);
       ctx.fillStyle = Tk.figGreen; ctx.textAlign = st.nu ? 'right' : 'left';
-      ctx.fillText('hν ≫ k_BT: 얼어붙음', st.nu ? R - 4 : L + 6, sy2(0.12));
+      ctx.fillText('hν ≫ kT: 얼어붙음', st.nu ? R - 4 : L + 6, sy2(0.12));
       // 색 견본
       var cx = narrow ? w - 34 : w - 58, cy = narrow ? 34 : 70, rr = narrow ? 22 : 34;
-      ctx.fillStyle = bbRGB(T); ctx.beginPath(); ctx.arc(cx, cy, rr, 0, 7); ctx.fill();
+      var dim = T < 800;   // 약 800 K(드레이퍼 점) 아래에서는 가시광선이 너무 약해 눈에 보이지 않는다
+      ctx.fillStyle = dim ? '#111' : bbRGB(T); ctx.beginPath(); ctx.arc(cx, cy, rr, 0, 7); ctx.fill();
       ctx.strokeStyle = Tk.figLine; ctx.lineWidth = 1.2; ctx.stroke();
-      ctx.fillStyle = Tk.figInk; ctx.font = '11px ' + Tk.fontBody; ctx.textAlign = 'center';
-      ctx.fillText('눈에 보이는 색', cx - (narrow ? 50 : 0), narrow ? cy + 4 : cy + rr + 16);
+      ctx.fillStyle = Tk.figInk; ctx.font = '11px ' + Tk.fontBody; ctx.textAlign = narrow ? 'right' : 'center';
+      ctx.fillText(dim ? '거의 빛나지 않음' : '눈에 보이는 색', narrow ? cx - rr - 6 : cx, narrow ? cy + 4 : cy + rr + 16);
       if (narrow) { ctx.textAlign = 'right'; }
       // 읽은 값
-      rPk.set(st.nu ? 'ν_max = ' + (nmW / 1e14).toPrecision(4) + ' × 10¹⁴ Hz (c/ν_max = ' + fmtL(C / nmW) + ')' : 'λ_max = ' + fmtL(lmW) + ' (λ_max·T = 2.898 mm·K)');
-      rX.set(st.nu ? '2.821 (ν축)' : '4.965 (λ축) — c/λ_max와 ν_max는 1.76배 다르다');
+      rPk.set(st.nu ? 'νmax = ' + (nmW / 1e14).toPrecision(4) + ' × 10¹⁴ Hz (c/νmax = ' + fmtL(C / nmW) + ')' : 'λmax = ' + fmtL(lmW) + ' (λmax·T = 2.898 mm·K)');
+      rX.set(st.nu ? '2.821 (ν축)' : '4.965 (λ축) — c/λmax와 νmax는 1.76배 다르다');
       var M = integralM(T);
       rM.set(sci(M, 3) + ' W/m², σT⁴ = ' + sci(SIG * Math.pow(T, 4), 3) + ' W/m² (레일리–진스: ∞)');
       rRJ.set((fr(pkX) / pkY).toFixed(2) + '배');
