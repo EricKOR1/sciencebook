@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-labelledby="t-pchem-11-configurations d-pchem-11-configurations">
+  <title id="t-pchem-11-configurations">그림 물리화학 11-1 예제 1의 다섯 배치와 무게</title>
+  <desc id="d-pchem-11-configurations">에너지 0, ε, 2ε, 3ε, 4ε인 준위에 구별되는 분자 6개를 전체 에너지 4ε로 놓는 다섯 배치. 각 배치의 무게는 W = 60, 30, 15, 15, 6(합 126)이고, W = 60인 (3, 2, 1, 0, 0)이 전체의 48 %를 차지한다. 오른쪽 막대는 다섯 배치를 무게로 평균한 준위별 평균 점유 수 3.33, 1.67, 0.71, 0.24, 0.05로, 위로 갈수록 대략 절반씩 준다.</desc>
+  <style>
+    .pchem-11-configurations-t{font-size:14px;fill:var(--fig-ink)}
+    .pchem-11-configurations-b{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .pchem-11-configurations-h{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .pchem-11-configurations-s{font-size:13px;fill:var(--fig-muted)}
+    .pchem-11-configurations-ax{font-size:13px;fill:var(--fig-muted)}
+    .pchem-11-configurations-big{font-size:18px;font-weight:600;fill:var(--fig-ink)}
+  </style>
+  <defs><marker id="pchem-11-configurations-ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-ink)"/></marker><marker id="pchem-11-configurations-ar-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-muted)"/></marker><marker id="pchem-11-configurations-ar-line" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-line)"/></marker><marker id="pchem-11-configurations-ar-paper" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-paper)"/></marker><marker id="pchem-11-configurations-ar-panel" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-panel)"/></marker><marker id="pchem-11-configurations-ar-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-accent)"/></marker><marker id="pchem-11-configurations-ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-blue)"/></marker><marker id="pchem-11-configurations-ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-red)"/></marker><marker id="pchem-11-configurations-ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-green)"/></marker><marker id="pchem-11-configurations-ar-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-amber)"/></marker><marker id="pchem-11-configurations-ar-violet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-violet)"/></marker><marker id="pchem-11-configurations-ar-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-teal)"/></marker><marker id="pchem-11-configurations-ar-soft-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-soft-blue)"/></marker><marker id="pchem-11-configurations-ar-soft-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-soft-red)"/></marker><marker id="pchem-11-configurations-ar-soft-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-soft-green)"/></marker><marker id="pchem-11-configurations-ar-soft-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-soft-amber)"/></marker><marker id="pchem-11-configurations-ar-soft-violet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-soft-violet)"/></marker><marker id="pchem-11-configurations-ar-soft-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-soft-teal)"/></marker></defs>
+  <text x="40" y="255" class="pchem-11-configurations-t" text-anchor="end">0</text>
+  <text x="40" y="215" class="pchem-11-configurations-t" text-anchor="end">ε</text>
+  <text x="40" y="175" class="pchem-11-configurations-t" text-anchor="end">2ε</text>
+  <text x="40" y="135" class="pchem-11-configurations-t" text-anchor="end">3ε</text>
+  <text x="40" y="95" class="pchem-11-configurations-t" text-anchor="end">4ε</text>
+  <text x="6" y="30" class="pchem-11-configurations-s">준위</text>
+  <rect x="56" y="50" width="98" height="284" rx="6" style="fill:var(--fig-soft-amber);stroke:var(--fig-accent);stroke-width:2.6;fill-opacity:0.55"/>
+  <line x1="64" y1="250" x2="146" y2="250" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
+  <circle cx="90" cy="242" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="105" cy="242" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="120" cy="242" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <line x1="64" y1="210" x2="146" y2="210" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
+  <circle cx="97.5" cy="202" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="112.5" cy="202" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <line x1="64" y1="170" x2="146" y2="170" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
+  <circle cx="105" cy="162" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <line x1="64" y1="130" x2="146" y2="130" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
+  <line x1="64" y1="90" x2="146" y2="90" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
+  <text x="105" y="68" class="pchem-11-configurations-s" text-anchor="middle">(3, 2, 1, 0, 0)</text>
+  <text x="105" y="284" class="pchem-11-configurations-h" text-anchor="middle">W = 60</text>
+  <text x="105" y="304" class="pchem-11-configurations-s" text-anchor="middle">확률 0.476</text>
+  <rect x="160" y="50" width="98" height="284" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <line x1="168" y1="250" x2="250" y2="250" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
+  <circle cx="186.5" cy="242" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="201.5" cy="242" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="216.5" cy="242" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="231.5" cy="242" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <line x1="168" y1="210" x2="250" y2="210" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
+  <circle cx="209" cy="202" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <line x1="168" y1="170" x2="250" y2="170" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
+  <line x1="168" y1="130" x2="250" y2="130" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
+  <circle cx="209" cy="122" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <line x1="168" y1="90" x2="250" y2="90" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
+  <text x="209" y="68" class="pchem-11-configurations-s" text-anchor="middle">(4, 1, 0, 1, 0)</text>
+  <text x="209" y="284" class="pchem-11-configurations-b" text-anchor="middle">W = 30</text>
+  <text x="209" y="304" class="pchem-11-configurations-s" text-anchor="middle">확률 0.238</text>
+  <rect x="264" y="50" width="98" height="284" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <line x1="272" y1="250" x2="354" y2="250" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
+  <circle cx="305.5" cy="242" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="320.5" cy="242" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <line x1="272" y1="210" x2="354" y2="210" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
+  <circle cx="290.5" cy="202" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="305.5" cy="202" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="320.5" cy="202" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="335.5" cy="202" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <line x1="272" y1="170" x2="354" y2="170" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
+  <line x1="272" y1="130" x2="354" y2="130" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
+  <line x1="272" y1="90" x2="354" y2="90" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
+  <text x="313" y="68" class="pchem-11-configurations-s" text-anchor="middle">(2, 4, 0, 0, 0)</text>
+  <text x="313" y="284" class="pchem-11-configurations-b" text-anchor="middle">W = 15</text>
+  <text x="313" y="304" class="pchem-11-configurations-s" text-anchor="middle">확률 0.119</text>
+  <rect x="368" y="50" width="98" height="284" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <line x1="376" y1="250" x2="458" y2="250" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
+  <circle cx="394.5" cy="242" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="409.5" cy="242" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="424.5" cy="242" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="439.5" cy="242" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <line x1="376" y1="210" x2="458" y2="210" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
+  <line x1="376" y1="170" x2="458" y2="170" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
+  <circle cx="409.5" cy="162" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="424.5" cy="162" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <line x1="376" y1="130" x2="458" y2="130" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
+  <line x1="376" y1="90" x2="458" y2="90" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
+  <text x="417" y="68" class="pchem-11-configurations-s" text-anchor="middle">(4, 0, 2, 0, 0)</text>
+  <text x="417" y="284" class="pchem-11-configurations-b" text-anchor="middle">W = 15</text>
+  <text x="417" y="304" class="pchem-11-configurations-s" text-anchor="middle">확률 0.119</text>
+  <rect x="472" y="50" width="98" height="284" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <line x1="480" y1="250" x2="562" y2="250" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
+  <circle cx="491" cy="242" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="506" cy="242" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="521" cy="242" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="536" cy="242" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="551" cy="242" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <line x1="480" y1="210" x2="562" y2="210" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
+  <line x1="480" y1="170" x2="562" y2="170" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
+  <line x1="480" y1="130" x2="562" y2="130" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
+  <line x1="480" y1="90" x2="562" y2="90" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none"/>
+  <circle cx="521" cy="82" r="6" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <text x="521" y="68" class="pchem-11-configurations-s" text-anchor="middle">(5, 0, 0, 0, 1)</text>
+  <text x="521" y="284" class="pchem-11-configurations-b" text-anchor="middle">W = 6</text>
+  <text x="521" y="304" class="pchem-11-configurations-s" text-anchor="middle">확률 0.048</text>
+  <text x="105" y="324" class="pchem-11-configurations-b" text-anchor="middle" style="fill:var(--fig-accent)">지배적 배치</text>
+  <text x="313" y="30" class="pchem-11-configurations-s" text-anchor="middle">분자 6개, 전체 에너지 4ε (●는 분자 하나)</text>
+  <text x="642" y="30" class="pchem-11-configurations-b" text-anchor="middle">평균 점유 수 ⟨n<tspan style="font-size:11px;baseline-shift:sub">j</tspan>⟩</text>
+  <text x="642" y="50" class="pchem-11-configurations-s" text-anchor="middle">(무게로 평균)</text>
+  <line x1="590" y1="250" x2="700" y2="250" style="stroke:var(--fig-line);stroke-width:0.8;fill:none;stroke-dasharray:2 3"/>
+  <rect x="590" y="234" width="100" height="14" rx="0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.3"/>
+  <text x="695" y="246" class="pchem-11-configurations-t">3.33</text>
+  <line x1="590" y1="210" x2="700" y2="210" style="stroke:var(--fig-line);stroke-width:0.8;fill:none;stroke-dasharray:2 3"/>
+  <rect x="590" y="194" width="50" height="14" rx="0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.3"/>
+  <text x="645" y="206" class="pchem-11-configurations-t">1.67</text>
+  <line x1="590" y1="170" x2="700" y2="170" style="stroke:var(--fig-line);stroke-width:0.8;fill:none;stroke-dasharray:2 3"/>
+  <rect x="590" y="154" width="21.43" height="14" rx="0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.3"/>
+  <text x="616.43" y="166" class="pchem-11-configurations-t">0.71</text>
+  <line x1="590" y1="130" x2="700" y2="130" style="stroke:var(--fig-line);stroke-width:0.8;fill:none;stroke-dasharray:2 3"/>
+  <rect x="590" y="114" width="7.14" height="14" rx="0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.3"/>
+  <text x="602.14" y="126" class="pchem-11-configurations-t">0.24</text>
+  <line x1="590" y1="90" x2="700" y2="90" style="stroke:var(--fig-line);stroke-width:0.8;fill:none;stroke-dasharray:2 3"/>
+  <rect x="590" y="74" width="1.43" height="14" rx="0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.3"/>
+  <text x="596.43" y="86" class="pchem-11-configurations-t">0.05</text>
+  <line x1="590" y1="80" x2="590" y2="262" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/>
+</svg>
