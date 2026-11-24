@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-pchem-11-entropy-contributions d-pchem-11-entropy-contributions">
   <title id="t-pchem-11-entropy-contributions">그림 물리화학 11-10 표준 몰 엔트로피의 운동별 기여(298 K, 1 bar)</title>
-  <desc id="d-pchem-11-entropy-contributions">분광 자료로 계산한 표준 몰 엔트로피를 병진·회전·진동·전자 기여로 쌓은 막대(J/(mol·K)). Ar 154.8(병진만), N₂ 150.4 + 41.1 = 191.6, CO 150.4 + 47.2 = 197.6, O₂ 152.1 + 43.8 + 9.1(R ln 3) = 205.1, I₂ 177.9 + 74.2 + 8.4 = 260.5. 검은 점은 열역학 자료표의 값 154.8, 191.6, 197.7, 205.1, 260.7로 계산값과 거의 겹친다. 어느 기체에서나 병진이 가장 크다.</desc>
+  <desc id="d-pchem-11-entropy-contributions">분광 자료로 계산한 298.15 K, 1 bar 표준 몰 엔트로피를 병진·회전·진동·전자 기여로 쌓은 막대(J/(mol·K)). Ar 154.85(병진만), N₂ 150.42 + 41.14 = 191.56, CO 150.42 + 47.19 = 197.61, O₂ 152.08 + 43.83 + 0.04(진동) + 9.13(전자, R ln 3) = 205.08, I₂ 177.91 + 74.22 + 8.39 = 260.52(I₂는 298 K에서 실제로는 고체이므로 가상의 1 bar 이상 기체 상태의 값). 0.01보다 작은 진동 기여(N₂, CO)는 생략했다. 검은 점은 열역학 자료표의 값 154.8, 191.6, 197.7, 205.1, 260.7로 계산값과 거의 겹친다. 어느 기체에서나 병진이 가장 크다.</desc>
   <style>
     .pchem-11-entropy-contributions-t{font-size:14px;fill:var(--fig-ink)}
     .pchem-11-entropy-contributions-b{font-size:14px;font-weight:600;fill:var(--fig-ink)}
@@ -35,41 +35,43 @@
   <line x1="70" y1="300" x2="690" y2="300" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/>
   <text x="70" y="338" class="pchem-11-entropy-contributions-t"></text>
   <text x="60" y="91" class="pchem-11-entropy-contributions-h" text-anchor="end">Ar</text>
-  <rect x="70" y="72" width="319.92" height="28" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
-  <text x="229.96" y="91" class="pchem-11-entropy-contributions-t" text-anchor="middle">154.8</text>
-  <text x="403.92" y="91" class="pchem-11-entropy-contributions-b">= 154.8</text>
+  <rect x="70" y="72" width="320.02" height="28" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <text x="230.01" y="91" class="pchem-11-entropy-contributions-t" text-anchor="middle">154.85</text>
+  <text x="404.02" y="91" class="pchem-11-entropy-contributions-b">= 154.85</text>
   <circle cx="389.92" cy="86" r="4" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1"/>
   <text x="60" y="137" class="pchem-11-entropy-contributions-h" text-anchor="end">N₂</text>
-  <rect x="70" y="118" width="310.83" height="28" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
-  <text x="225.41" y="137" class="pchem-11-entropy-contributions-t" text-anchor="middle">150.4</text>
-  <rect x="380.83" y="118" width="84.94" height="28" rx="0" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2"/>
-  <text x="423.3" y="137" class="pchem-11-entropy-contributions-t" text-anchor="middle">41.1</text>
-  <text x="479.77" y="137" class="pchem-11-entropy-contributions-b">= 191.6</text>
+  <rect x="70" y="118" width="310.87" height="28" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <text x="225.43" y="137" class="pchem-11-entropy-contributions-t" text-anchor="middle">150.42</text>
+  <rect x="380.87" y="118" width="85.02" height="28" rx="0" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2"/>
+  <text x="423.38" y="137" class="pchem-11-entropy-contributions-t" text-anchor="middle">41.14</text>
+  <text x="479.89" y="137" class="pchem-11-entropy-contributions-b">= 191.56</text>
   <circle cx="465.97" cy="132" r="4" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1"/>
   <text x="60" y="183" class="pchem-11-entropy-contributions-h" text-anchor="end">CO</text>
-  <rect x="70" y="164" width="310.83" height="28" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
-  <text x="225.41" y="183" class="pchem-11-entropy-contributions-t" text-anchor="middle">150.4</text>
-  <rect x="380.83" y="164" width="97.55" height="28" rx="0" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2"/>
-  <text x="429.6" y="183" class="pchem-11-entropy-contributions-t" text-anchor="middle">47.2</text>
-  <text x="492.37" y="183" class="pchem-11-entropy-contributions-b">= 197.6</text>
+  <rect x="70" y="164" width="310.87" height="28" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <text x="225.43" y="183" class="pchem-11-entropy-contributions-t" text-anchor="middle">150.42</text>
+  <rect x="380.87" y="164" width="97.53" height="28" rx="0" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2"/>
+  <text x="429.63" y="183" class="pchem-11-entropy-contributions-t" text-anchor="middle">47.19</text>
+  <text x="492.39" y="183" class="pchem-11-entropy-contributions-b">= 197.61</text>
   <circle cx="478.58" cy="178" r="4" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1"/>
   <text x="60" y="229" class="pchem-11-entropy-contributions-h" text-anchor="end">O₂</text>
-  <rect x="70" y="210" width="314.34" height="28" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
-  <text x="227.17" y="229" class="pchem-11-entropy-contributions-t" text-anchor="middle">152.1</text>
-  <rect x="384.34" y="210" width="90.52" height="28" rx="0" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2"/>
-  <text x="429.6" y="229" class="pchem-11-entropy-contributions-t" text-anchor="middle">43.8</text>
-  <rect x="474.86" y="210" width="18.81" height="28" rx="0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2"/>
-  <text x="484.26" y="206" class="pchem-11-entropy-contributions-s" text-anchor="middle">9.1</text>
-  <text x="507.67" y="229" class="pchem-11-entropy-contributions-b">= 205.1</text>
+  <rect x="70" y="210" width="314.3" height="28" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <text x="227.15" y="229" class="pchem-11-entropy-contributions-t" text-anchor="middle">152.08</text>
+  <rect x="384.3" y="210" width="90.58" height="28" rx="0" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2"/>
+  <text x="429.59" y="229" class="pchem-11-entropy-contributions-t" text-anchor="middle">43.83</text>
+  <rect x="474.88" y="210" width="0.08" height="28" rx="0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.2"/>
+  <text x="474.88" y="252" class="pchem-11-entropy-contributions-s" text-anchor="middle">진동 0.04</text>
+  <rect x="474.96" y="210" width="18.87" height="28" rx="0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2"/>
+  <text x="484.4" y="206" class="pchem-11-entropy-contributions-s" text-anchor="middle">9.13</text>
+  <text x="507.83" y="229" class="pchem-11-entropy-contributions-b">= 205.08</text>
   <circle cx="493.87" cy="224" r="4" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1"/>
   <text x="60" y="275" class="pchem-11-entropy-contributions-h" text-anchor="end">I₂</text>
-  <rect x="70" y="256" width="367.66" height="28" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
-  <text x="253.83" y="275" class="pchem-11-entropy-contributions-t" text-anchor="middle">177.9</text>
-  <rect x="437.66" y="256" width="153.35" height="28" rx="0" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2"/>
-  <text x="514.33" y="275" class="pchem-11-entropy-contributions-t" text-anchor="middle">74.2</text>
-  <rect x="591.01" y="256" width="17.36" height="28" rx="0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.2"/>
-  <text x="599.69" y="252" class="pchem-11-entropy-contributions-s" text-anchor="middle">8.4</text>
-  <text x="622.37" y="275" class="pchem-11-entropy-contributions-b">= 260.5</text>
+  <rect x="70" y="256" width="367.68" height="28" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <text x="253.84" y="275" class="pchem-11-entropy-contributions-t" text-anchor="middle">177.91</text>
+  <rect x="437.68" y="256" width="153.39" height="28" rx="0" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2"/>
+  <text x="514.37" y="275" class="pchem-11-entropy-contributions-t" text-anchor="middle">74.22</text>
+  <rect x="591.07" y="256" width="17.34" height="28" rx="0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.2"/>
+  <text x="599.74" y="252" class="pchem-11-entropy-contributions-s" text-anchor="middle">8.39</text>
+  <text x="622.41" y="275" class="pchem-11-entropy-contributions-b">= 260.52</text>
   <circle cx="608.78" cy="270" r="4" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1"/>
   <text x="80.33" y="52" class="pchem-11-entropy-contributions-s">점(●) = 자료표의 값</text>
   <rect x="380" y="40" width="18" height="14" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>

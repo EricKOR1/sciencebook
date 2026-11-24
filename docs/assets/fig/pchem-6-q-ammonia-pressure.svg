@@ -46,6 +46,6 @@
   <line x1="133.5" y1="321.8" x2="97.5" y2="326.2" style="stroke:var(--fig-red);stroke-width:1"/>
   <line x1="390.0" y1="133.3" x2="390.0" y2="91.3" style="stroke:var(--fig-violet);stroke-width:1.8;stroke-dasharray:5 4"/>
   <path d="M390.0 83.3 L394.0 91.3 L386.0 91.3 Z" style="fill:var(--fig-violet);stroke:none"/>
-  <text x="380.0" y="75.3" text-anchor="end" class="pchem-6-q-ammonia-pressure-violet">실제 기체(K<tspan baseline-shift="sub" style="font-size:10px">φ</tspan> &lt; 1)는 이보다 위</text>
+  <text x="380.0" y="75.3" text-anchor="end" class="pchem-6-q-ammonia-pressure-violet">실제 기체(K<tspan dy="4" style="font-size:10px">φ</tspan><tspan dy="-4"> &lt; 1)는 이보다 위</tspan></text>
   <text x="682.5" y="248.4" text-anchor="end" class="pchem-6-q-ammonia-pressure-acc">이상 기체 계산 (K = 6.7×10⁻⁵, 700 K)</text>
 </svg>

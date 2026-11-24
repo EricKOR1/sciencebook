@@ -48,5 +48,5 @@
   <circle cx="540.0" cy="301.1" r="5.5" style="fill:var(--fig-red);stroke:var(--fig-panel);stroke-width:1.5"/>
   <text x="550.0" y="289.1" class="pchem-6-n2o4-dissociation-red">p = 10 bar, α = 0.061</text>
   <text x="356.7" y="95.5" class="pchem-6-n2o4-dissociation-b">K = 0.148은 일정,</text>
-  <text x="356.7" y="115.5" class="pchem-6-n2o4-dissociation-b">K<tspan baseline-shift="sub" style="font-size:10px">x</tspan> = K(p/p°)⁻¹이 변한다</text>
+  <text x="356.7" y="115.5" class="pchem-6-n2o4-dissociation-b">K<tspan dy="4" style="font-size:10px">x</tspan><tspan dy="-4"> = K(p/p°)⁻¹이 변한다</tspan></text>
 </svg>

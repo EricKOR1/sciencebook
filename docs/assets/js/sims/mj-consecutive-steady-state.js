@@ -1,7 +1,7 @@
 /* 물리화학 12 반응 속도론: 연속 반응 A → I → P의 정확한 해와 정류 상태 근사 — 근사의 오차와 k₂/k₁ 비 */
 Sims.register('mj-consecutive-steady-state', {
   title: '정류 상태 근사는 언제 맞을까? — 연속 반응의 정확한 해와 근사',
-  caption: 'k₁과 k₂를 바꾸어 보자. 첫 그래프는 정확한 해 [A], [I], [P](실선)와 정류 상태 근사 [P]ss = [A]₀(1 − e^(−k₁t)), [I]ss = k₁[A]/k₂(점선)이고, 둘째 그래프는 [I]만 크게 본 것이다. ' +
+  caption: 'k₁과 k₂를 바꾸어 보자. 첫 그래프는 정확한 해 [A], [I], [P](실선)와 정류 상태 근사 [P]ss = [A]₀(1 − e^(−k₁t))(점선)이고, 둘째 그래프는 [I]와 근사 [I]ss = k₁[A]/k₂(점선)를 크게 본 것이다. ' +
     '셋째 그래프는 t = 1/k₁에서 [P] 근사의 상대 오차를 k₂/k₁에 대해 그린 로그–로그 그래프로, 현재 값이 주황 점이다. k₂/k₁이 클수록 오차는 약 0.58k₁/k₂로 줄고(회색 점선), ' +
     'k₂/k₁이 1 근처나 그보다 작으면 근사가 크게 틀린다. 두 단계 모두 1차이고 처음에는 A만 [A]₀ = 1 있다고 두었다.',
   init: function (api) {
@@ -31,6 +31,7 @@ Sims.register('mj-consecutive-steady-state', {
       if (a >= 1000 || a < 0.01) { var e = Math.floor(Math.log10(a)), m = v / Math.pow(10, e); return m.toFixed(2) + '×10' + sup(e); }
       return v.toPrecision(3);
     }
+    function fmtT(v) { var a = Math.abs(v); return v === 0 ? '0' : (a >= 1000 || a < 0.01) ? fmtN(v) : String(+v.toPrecision(4)); }
     function sup(e) { var m = { '-': '⁻', '0': '⁰', '1': '¹', '2': '²', '3': '³', '4': '⁴', '5': '⁵', '6': '⁶', '7': '⁷', '8': '⁸', '9': '⁹' }; return String(e).split('').map(function (c) { return m[c]; }).join(''); }
     function niceStep(span) { var raw = span / 4, m = Math.pow(10, Math.floor(Math.log10(raw))), r = raw / m; return (r < 1.5 ? 1 : r < 3 ? 2 : r < 7 ? 5 : 10) * m; }
 
@@ -71,7 +72,7 @@ Sims.register('mj-consecutive-steady-state', {
         A.push([t, s.a]); I.push([t, s.i]); P.push([t, s.p]); Ps.push([t, 1 - s.a]); Is.push([t, k1 / k2 * s.a]);
       }
       var xs = niceStep(tend), xt = [];
-      for (var x = 0; x <= tend * 1.0001; x += xs) xt.push([x, fmtN(+x.toPrecision(6))]);
+      for (var x = 0; x <= tend * 1.0001; x += xs) xt.push([x, fmtT(+x.toPrecision(6))]);
       // 1) 전체
       var f1 = frame(T, rs[0], [0, tend], [0, 1.05], { title: '농도 (실선: 정확, 점선: 근사)', xlab: 't (s)', ylab: '농도 / [A]₀', xt: xt, yt: [[0, '0'], [0.5, '0.5'], [1, '1.0']] });
       plot(f1, A, T.figBlue, 2.2); plot(f1, P, T.figGreen, 2.4); plot(f1, I, T.figRed, 2.4);
@@ -83,7 +84,7 @@ Sims.register('mj-consecutive-steady-state', {
       var imax = 0; I.concat(Is).forEach(function (q) { if (q[1] > imax) imax = q[1]; });
       var ycap = Math.min(imax, Math.max.apply(null, I.map(function (q) { return q[1]; })) * 2.2) * 1.1 || 1e-6;
       var ys = niceStep(ycap), yt = [];
-      for (var y = 0; y <= ycap * 1.0001; y += ys) yt.push([y, fmtN(+y.toPrecision(6))]);
+      for (var y = 0; y <= ycap * 1.0001; y += ys) yt.push([y, fmtT(+y.toPrecision(6))]);
       var f2 = frame(T, rs[1], [0, tend], [0, ycap], { title: '중간체 [I] 확대', xlab: 't (s)', ylab: '[I] / [A]₀', xt: xt, yt: yt });
       plot(f2, I, T.figRed, 2.6); plot(f2, Is, T.figRed, 1.8, [6, 4]);
       var tm, im;
@@ -101,9 +102,9 @@ Sims.register('mj-consecutive-steady-state', {
         xt: [[0.01, '0.01'], [0.1, '0.1'], [1, '1'], [10, '10'], [100, '100'], [1000, '10³']], yt: [[1e-3, '0.1 %'], [1e-2, '1 %'], [0.1, '10 %'], [1, '100 %'], [10, '1000 %']] });
       plot(f3, Rf, T.figMuted, 1.4, [5, 4]); plot(f3, E, T.figViolet, 2.4);
       var r0 = k2 / k1, e0 = perr(r0);
-      ctx.beginPath(); ctx.arc(f3.sx(r0), f3.sy(Math.max(e0, 1e-3)), 5, 0, 7); ctx.fillStyle = T.figAccent; ctx.fill(); ctx.strokeStyle = T.figPaper; ctx.lineWidth = 1.5; ctx.stroke();
+      ctx.beginPath(); ctx.arc(Math.min(Math.max(f3.sx(r0), f3.L), f3.R), Math.min(Math.max(f3.sy(Math.max(e0, 1e-3)), f3.Tp), f3.B), 5, 0, 7); ctx.fillStyle = T.figAccent; ctx.fill(); ctx.strokeStyle = T.figPaper; ctx.lineWidth = 1.5; ctx.stroke();
       ctx.font = '11px ' + T.fontBody; ctx.fillStyle = T.figMuted; ctx.textAlign = 'right'; ctx.fillText('점선: 0.58 k₁/k₂', f3.R - 6, f3.Tp + 14);
-      rR.set(r0.toPrecision(3) + (r0 >= 10 ? ' (근사 성립)' : r0 >= 3 ? ' (오차 큼)' : ' (근사 실패)'));
+      rR.set(fmtN(r0) + (r0 >= 10 ? ' (근사 성립)' : r0 >= 3 ? ' (오차 큼)' : ' (근사 실패)'));
       rE.set((e0 * 100 >= 1000 ? Math.round(e0 * 100).toLocaleString('en-US') : (e0 * 100).toPrecision(3)) + ' %');
       rT.set(fmtN(tm) + ' s, ' + im.toPrecision(3));
     }

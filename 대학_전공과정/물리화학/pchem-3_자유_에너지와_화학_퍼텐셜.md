@@ -1319,9 +1319,7 @@ He: $2(0.00346)/(8.314\times2.38\times10^{-5}) = 35\ \mathrm{K}$, $\mathrm{H_2}$
 |---|---|---|---|---|
 | $\Delta G^\circ$ (kJ) | −20.00 | −9.37 | +2.27 | +14.71 |
 
-<!-- fig:pchem-3-q-gibbs-helmholtz-data -->
-
-(1) 위 그림과 같이 $\Delta G^\circ/T$를 $1/T$에 대해 나타내고, 이웃한 두 점 사이의 기울기로 세 구간의 $\Delta H^\circ$를 구하시오. (2) $\Delta H^\circ$가 온도에 따라 변하는가? 변한다면 $\Delta C_p^\circ$를 어림하시오. (3) $\Delta G^\circ = \Delta H^\circ - T\Delta S^\circ$를 직선으로 보고 처음 두 점만으로 $\Delta S^\circ$를 구한 학생의 방법은 어떤 가정을 깔고 있는가?
+(1) $\Delta G^\circ/T$를 $1/T$에 대해 나타내고, 이웃한 두 점 사이의 기울기로 세 구간의 $\Delta H^\circ$를 구하시오. (2) $\Delta H^\circ$가 온도에 따라 변하는가? 변한다면 $\Delta C_p^\circ$를 어림하시오. (3) $\Delta G^\circ = \Delta H^\circ - T\Delta S^\circ$를 직선으로 보고 처음 두 점만으로 $\Delta S^\circ$를 구한 학생의 방법은 어떤 가정을 깔고 있는가?
 
 <details>
 <summary>정답 및 해설</summary>
@@ -1330,6 +1328,9 @@ He: $2(0.00346)/(8.314\times2.38\times10^{-5}) = 35\ \mathrm{K}$, $\mathrm{H_2}$
 
 (1) $\Delta G^\circ/T$: −66.67, −23.43, +4.54, +24.52 J/K, $1/T$: 3.333, 2.500, 2.000, 1.667 ($10^{-3}\ \mathrm{K^{-1}}$). 깁스–헬름홀츠 식의 둘째 꼴 $\partial(\Delta G/T)/\partial(1/T) = \Delta H$에서
 300–400 K: $\dfrac{-23.43 - (-66.67)}{(2.500 - 3.333)\times10^{-3}} = -5.19\times10^4\ \mathrm{J}$, 400–500 K: $-5.59\times10^4\ \mathrm{J}$, 500–600 K: $-5.99\times10^4\ \mathrm{J}$
+
+<!-- fig:pchem-3-q-gibbs-helmholtz-data -->
+
 (2) 100 K마다 약 4.0 kJ씩 더 음수가 되므로 $\Delta C_p^\circ = d\Delta H^\circ/dT \approx -4000/100 = -40\ \mathrm{J/K}$ (각 기울기를 구간 중간 온도 350, 450, 550 K의 $\Delta H^\circ$로 본다).
 (3) $\Delta G^\circ$가 $T$에 대해 직선이라는 것은 $\Delta H^\circ$와 $\Delta S^\circ$가 일정하다는($\Delta C_p^\circ = 0$) 가정이다. 이 자료는 $\Delta C_p^\circ \ne 0$이므로 좁은 온도 범위에서만 근사로 쓸 수 있다.
 

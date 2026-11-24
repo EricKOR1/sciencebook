@@ -64,6 +64,12 @@ Sims.register('mj-vdw-fugacity', {
       var s = v.toFixed(Math.min(d, 6)); if (+s === 0) s = '0';
       return s.replace('-', '−');
     }
+    // 아주 큰 값(낮은 온도·높은 압력의 He 등)은 지수 꼴로 줄여 쓴다
+    function big(v, d) {
+      if (Math.abs(v) < 1e5) return v.toFixed(d);
+      var e = Math.floor(Math.log10(Math.abs(v))), m = v / Math.pow(10, e), sup = '⁰¹²³⁴⁵⁶⁷⁸⁹';
+      return m.toFixed(2) + '×10' + String(e).split('').map(function (c) { return sup[+c]; }).join('');
+    }
     function panel(T, r, o) {
       var L = r.x + 58, Rr = r.x + r.w - 12, Tp = r.y + 28, B = r.y + r.h - 40;
       var sx = function (x) { return L + x / PMAX * (Rr - L); };
@@ -145,7 +151,9 @@ Sims.register('mj-vdw-fugacity', {
         } });
       // 3) f
       var fr = [0, Math.max(PMAX, F[N][1], st.approx ? Fa[N][1] : 0) * 1.05];
-      panel(T, rs[2], { title: '퓨가시티 f = φp', ylab: 'f (bar)', yr: fr,
+      var fstep = niceStep(fr[1] - fr[0]);
+      panel(T, rs[2], { title: '퓨가시티 f = φp', ylab: 'f (bar)', yr: fr, ystep: fstep,
+        yfmt: fr[1] >= 1e5 ? function (y) { return Math.abs(y) < 1e-9 ? '0' : big(y, 0).replace(/\.00×/, '×'); } : null,
         refs: [{ pts: [[0, 0], [PMAX, PMAX]], col: T.figMuted }], curves: [{ pts: F, col: T.figRed }].concat(st.approx ? [{ pts: Fa, col: T.figAmber, w: 1.8, dash: [3, 3] }] : []),
         pt: [st.p, st.p * phi],
         labels: function (sx, sy, L, Rr, Tp) {
@@ -156,7 +164,7 @@ Sims.register('mj-vdw-fugacity', {
       rT.set(Tk.toFixed(Tk < 100 ? 1 : 0) + ' K / ' + g.TB.toFixed(g.TB < 100 ? 1 : 0) + ' K = ' + (Tk / g.TB).toFixed(2));
       rZ.set(cur.Z.toFixed(3));
       rL.set(cur.lnphi.toFixed(3).replace('-', '−') + '  (근사 ' + (Bv * st.p / RT).toFixed(3).replace('-', '−') + ')');
-      rF.set('φ = ' + phi.toFixed(3) + ', f = ' + (st.p * phi).toFixed(1) + ' bar');
+      rF.set('φ = ' + big(phi, 3) + ', f = ' + big(st.p * phi, 1) + ' bar');
     }
     api.onResize(draw);
     api.onTheme(draw);

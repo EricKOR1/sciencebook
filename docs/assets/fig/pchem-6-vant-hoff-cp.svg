@@ -44,16 +44,16 @@
   <circle cx="126.7" cy="300.9" r="5.5" style="fill:var(--fig-blue);stroke:var(--fig-panel);stroke-width:1.5"/>
   <circle cx="126.7" cy="320.1" r="5.5" style="fill:var(--fig-accent);stroke:var(--fig-panel);stroke-width:1.5"/>
   <circle cx="676.9" cy="33.1" r="5.5" style="fill:var(--fig-ink);stroke:var(--fig-panel);stroke-width:1.5"/>
-  <text x="284.3" y="272.2" class="pchem-6-vant-hoff-cp-blue">700 K, Δ<tspan baseline-shift="sub" style="font-size:10px">r</tspan>H° 일정: ln K = −8.08 (K = 3.1×10⁻⁴)</text>
+  <text x="284.3" y="272.2" class="pchem-6-vant-hoff-cp-blue">700 K, Δ<tspan dy="4" style="font-size:10px">r</tspan><tspan dy="-4">H° 일정: ln K = −8.08 (K = 3.1×10⁻⁴)</tspan></text>
   <line x1="280.3" y1="267.2" x2="132.7" y2="300.9" style="stroke:var(--fig-blue);stroke-width:1"/>
-  <text x="284.3" y="292.3" class="pchem-6-vant-hoff-cp-acc">700 K, Δ<tspan baseline-shift="sub" style="font-size:10px">r</tspan>C<tspan baseline-shift="sub" style="font-size:10px">p</tspan>° 보정: ln K = −9.61 (K = 6.7×10⁻⁵)</text>
+  <text x="284.3" y="292.3" class="pchem-6-vant-hoff-cp-acc">700 K, Δ<tspan dy="4" style="font-size:10px">r</tspan><tspan dy="-4">C</tspan><tspan dy="4" style="font-size:10px">p</tspan><tspan dy="-4">° 보정: ln K = −9.61 (K = 6.7×10⁻⁵)</tspan></text>
   <line x1="280.3" y1="287.3" x2="132.7" y2="320.1" style="stroke:var(--fig-accent);stroke-width:1"/>
-  <text x="284.3" y="312.4" class="pchem-6-vant-hoff-cp-red">700 K 접선의 기울기 = −Δ<tspan baseline-shift="sub" style="font-size:10px">r</tspan>H°(700 K)/R,</text>
+  <text x="284.3" y="312.4" class="pchem-6-vant-hoff-cp-red">700 K 접선의 기울기 = −Δ<tspan dy="4" style="font-size:10px">r</tspan><tspan dy="-4">H°(700 K)/R,</tspan></text>
   <line x1="280.3" y1="307.4" x2="164.2" y2="301.7" style="stroke:var(--fig-red);stroke-width:1"/>
-  <text x="284.3" y="329.9" class="pchem-6-vant-hoff-cp-red">Δ<tspan baseline-shift="sub" style="font-size:10px">r</tspan>H°(700 K) = −110.5 kJ/mol</text>
+  <text x="284.3" y="329.9" class="pchem-6-vant-hoff-cp-red">Δ<tspan dy="4" style="font-size:10px">r</tspan><tspan dy="-4">H°(700 K) = −110.5 kJ/mol</tspan></text>
   <text x="644.3" y="39.7" text-anchor="end" class="pchem-6-vant-hoff-cp-lbl">298.15 K: ln K = 13.27 (두 선이 접함)</text>
-  <text x="118.6" y="144.4" class="pchem-6-vant-hoff-cp-blue">Δ<tspan baseline-shift="sub" style="font-size:10px">r</tspan>H° = −92.22 kJ/mol 일정 (직선)</text>
-  <text x="447.1" y="184.5" class="pchem-6-vant-hoff-cp-acc">Δ<tspan baseline-shift="sub" style="font-size:10px">r</tspan>C<tspan baseline-shift="sub" style="font-size:10px">p</tspan>° = −45.46 J/(mol·K) 일정 (곡선)</text>
+  <text x="118.6" y="144.4" class="pchem-6-vant-hoff-cp-blue">Δ<tspan dy="4" style="font-size:10px">r</tspan><tspan dy="-4">H° = −92.22 kJ/mol 일정 (직선)</tspan></text>
+  <text x="447.1" y="184.5" class="pchem-6-vant-hoff-cp-acc">Δ<tspan dy="4" style="font-size:10px">r</tspan><tspan dy="-4">C</tspan><tspan dy="4" style="font-size:10px">p</tspan><tspan dy="-4">° = −45.46 J/(mol·K) 일정 (곡선)</tspan></text>
   <text x="90.0" y="392.0" class="pchem-6-vant-hoff-cp-sm">← 고온</text>
   <text x="690.0" y="392.0" text-anchor="end" class="pchem-6-vant-hoff-cp-sm">저온 →</text>
 </svg>

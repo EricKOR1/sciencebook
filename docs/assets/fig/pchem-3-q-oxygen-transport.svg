@@ -5,7 +5,7 @@
   <circle cx="130.0" cy="160.0" r="88.0" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2.5"/>
   <text x="130.0" y="146.0" text-anchor="middle" class="pchem-3-q-oxygen-transport-b" style="fill:var(--fig-teal)">폐포</text>
   <text x="130.0" y="168.0" text-anchor="middle" class="pchem-3-q-oxygen-transport-s">(공기 주머니)</text>
-  <text x="130.0" y="192.0" text-anchor="middle" class="pchem-3-q-oxygen-transport-t">P<tspan baseline-shift="sub" font-size="10">O₂</tspan> ≈ 100 mmHg</text>
+  <text x="130.0" y="192.0" text-anchor="middle" class="pchem-3-q-oxygen-transport-t">p<tspan baseline-shift="sub" font-size="10">O₂</tspan> ≈ 100 mmHg</text>
   <rect x="214.0" y="148.0" width="256.0" height="40.0" rx="4" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.8"/>
   <ellipse cx="250" cy="168" rx="14" ry="9" style="fill:var(--fig-red);stroke:var(--fig-ink);stroke-width:0.8;fill-opacity:0.85"/>
   <ellipse cx="300" cy="168" rx="14" ry="9" style="fill:var(--fig-red);stroke:var(--fig-ink);stroke-width:0.8;fill-opacity:0.85"/>
@@ -18,7 +18,7 @@
   <text x="350.0" y="228.0" text-anchor="middle" class="pchem-3-q-oxygen-transport-s" style="fill:var(--fig-red)">혈류</text>
   <rect x="480.0" y="80.0" width="210.0" height="170.0" rx="30" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:2.5"/>
   <text x="585.0" y="106.0" text-anchor="middle" class="pchem-3-q-oxygen-transport-b" style="fill:var(--fig-green)">조직 세포</text>
-  <text x="585.0" y="128.0" text-anchor="middle" class="pchem-3-q-oxygen-transport-t">P<tspan baseline-shift="sub" font-size="10">O₂</tspan> ≈ 40 mmHg</text>
+  <text x="585.0" y="128.0" text-anchor="middle" class="pchem-3-q-oxygen-transport-t">p<tspan baseline-shift="sub" font-size="10">O₂</tspan> ≈ 40 mmHg</text>
   <ellipse cx="585" cy="186" rx="52" ry="26" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
   <path d="M545,186 q8,-16 16,0 t16,0 t16,0 t16,0 t16,0" style="fill:none;stroke:var(--fig-amber);stroke-width:1.6;stroke-linejoin:round;stroke-linecap:round"/>
   <text x="585.0" y="230.0" text-anchor="middle" class="pchem-3-q-oxygen-transport-s" style="fill:var(--fig-amber)">미토콘드리아: O₂ 소비</text>

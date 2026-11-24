@@ -145,9 +145,9 @@ Sims.register('mj-huckel-calculator', {
       ctx.fillStyle = T.figViolet;
       for (i = 0; i < nb; i++) {
         var a2 = P[i], b2 = P[(i + 1) % N], mx = (a2[0] + b2[0]) / 2, my = (a2[1] + b2[1]) / 2, vx, vy;
-        if (st.ring) { vx = mx - cx; vy = my - cy; var l2 = Math.hypot(vx, vy) || 1; vx /= l2; vy /= l2; vx = -vx; vy = -vy; }
+        if (st.ring) { vx = mx - cx; vy = my - cy; var l2 = Math.hypot(vx, vy) || 1; vx /= l2; vy /= l2; }
         else { vx = 0; vy = (i % 2 ? 1 : -1); }
-        ctx.fillText(sol.p[i].toFixed(2), mx + vx * 20, my + vy * 20 + 4);
+        var po = st.ring ? 14 : 20; ctx.fillText(sol.p[i].toFixed(2), mx + vx * po, my + vy * po + 4);
       }
       ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left'; ctx.fillStyle = T.figMuted;
       ctx.fillText('원 넓이 ∝ c², 파랑 +, 빨강 −', x0 + 8, y0 + h - 6);
@@ -193,7 +193,7 @@ Sims.register('mj-huckel-calculator', {
       rE.set(n + 'α ' + (bx >= 0 ? '+ ' : '− ') + Math.abs(bx).toFixed(3) + 'β');
       rG.set(sol.open ? '0 (축퇴 준위가 반쯤 참)' : (isNaN(sol.gap) ? '–' : sol.gap.toFixed(3) + ' |β|'));
       var x = sol.orb[st.k - 1].x;
-      rO.set('ψ' + st.k + ' = α ' + (x >= 0 ? '+ ' : '− ') + Math.abs(x).toFixed(3) + 'β');
+      rO.set('ψ' + st.k + ' = α' + (Math.abs(x) < 5e-4 ? '' : (x >= 0 ? ' + ' : ' − ') + Math.abs(x).toFixed(3) + 'β'));
       rSh.set(sol.open ? '열린 껍질 (홀전자 있음)' : (n % 2 ? '홀전자 1개' : '닫힌 껍질'));
       sK.input.max = st.N;
     }

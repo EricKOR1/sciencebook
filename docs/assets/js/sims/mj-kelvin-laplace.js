@@ -89,7 +89,7 @@ Sims.register('mj-kelvin-laplace', {
       var sy = function (v) { return B - v / Y1 * (B - Tp); };
       ctx.strokeStyle = Tk.rule; ctx.lineWidth = 1; ctx.fillStyle = Tk.figMuted; ctx.font = '11px ' + Tk.fontMono;
       ctx.textAlign = 'center';
-      [[0, '1 nm'], [1, '10'], [2, '100'], [3, '1 μm'], [4, '10 μm']].forEach(function (q) { ctx.beginPath(); ctx.moveTo(sx(q[0]), Tp); ctx.lineTo(sx(q[0]), B); ctx.stroke(); ctx.fillText(q[1], sx(q[0]), B + 14); });
+      [[0, '1 nm'], [1, '10'], [2, '100'], [3, '1 μm'], [4, '10 μm']].forEach(function (q) { ctx.beginPath(); ctx.moveTo(sx(q[0]), Tp); ctx.lineTo(sx(q[0]), B); ctx.stroke(); ctx.textAlign = q[0] === 4 ? 'right' : 'center'; ctx.fillText(q[1], sx(q[0]) + (q[0] === 4 ? 4 : 0), B + 14); });
       ctx.textAlign = 'right';
       [0, 0.5, 1, 1.5, 2, 2.5, 3].forEach(function (v) { ctx.beginPath(); ctx.moveTo(L, sy(v)); ctx.lineTo(Rr, sy(v)); ctx.stroke(); ctx.fillText(v.toFixed(1), L - 5, sy(v) + 4); });
       ctx.strokeStyle = Tk.figLine; ctx.strokeRect(L, Tp, Rr - L, B - Tp);

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-labelledby="t-umath-3-relaxation-grid d-umath-3-relaxation-grid">
   <title id="t-umath-3-relaxation-grid">그림 수학 도구 3-14 이완법으로 구한 격자 위의 라플라스 방정식 해</title>
-  <desc id="d-umath-3-relaxation-grid">11×11 격자에서 위쪽 경계를 100, 나머지 경계를 0으로 고정하고 각 칸을 이웃 네 칸의 평균으로 되풀이해 바꾼 결과. 색은 값(빨강 100 ~ 파랑 0), 선은 등위선 V = 10, 25, 50, 75, 검은 화살표는 −∇V(값이 높은 곳에서 낮은 곳으로)이다. 중심 칸의 값은 약 25이다.</desc>
+  <desc id="d-umath-3-relaxation-grid">11×11 격자에서 위쪽 경계를 100, 나머지 경계를 0으로 고정하고 각 칸을 이웃 네 칸의 평균으로 되풀이해 바꾼 결과. 색은 값(빨강 100 ~ 파랑 0), 선은 등위선 V = 10, 25, 50, 75, 화살표는 −∇V(값이 높은 곳에서 낮은 곳으로)이다. 중심 칸의 값은 약 25이다.</desc>
   <style>.umath-3-relaxation-grid-t{font-size:14px;fill:var(--fig-ink)} .umath-3-relaxation-grid-s{font-size:13px;fill:var(--fig-muted)} .umath-3-relaxation-grid-b{font-size:14px;font-weight:700;fill:var(--fig-ink)} .umath-3-relaxation-grid-h{font-size:15px;font-weight:700;fill:var(--fig-ink)} .umath-3-relaxation-grid-bl{font-size:14px;fill:var(--fig-blue)} .umath-3-relaxation-grid-rd{font-size:14px;fill:var(--fig-red)} .umath-3-relaxation-grid-gr{font-size:14px;fill:var(--fig-green)} .umath-3-relaxation-grid-am{font-size:14px;fill:var(--fig-amber)} .umath-3-relaxation-grid-vi{font-size:14px;fill:var(--fig-violet)} .umath-3-relaxation-grid-te{font-size:14px;fill:var(--fig-teal)} .umath-3-relaxation-grid-ax{font-size:13px;fill:var(--fig-ink)}</style>
   <rect x="40" y="40" width="27" height="27" style="fill:var(--fig-blue);stroke:none;stroke-width:0;fill-opacity:0.0"/>
   <rect x="40" y="40" width="27" height="27" style="fill:var(--fig-red);stroke:var(--fig-line);stroke-width:0.5;fill-opacity:0.85"/>
@@ -405,6 +405,6 @@
   <text x="608" y="180" text-anchor="middle" class="umath-3-relaxation-grid-t"><tspan style="font-style:italic">V</tspan><tspan dy="4" style="font-size:78%">오</tspan></text>
   <text x="560" y="281" text-anchor="middle" class="umath-3-relaxation-grid-b"><tspan style="font-style:italic">V</tspan><tspan dy="4" style="font-size:78%">중심</tspan><tspan dy="-4"> = (</tspan><tspan style="font-style:italic">V</tspan><tspan dy="4" style="font-size:78%">위</tspan><tspan dy="-4"> + </tspan><tspan style="font-style:italic">V</tspan><tspan dy="4" style="font-size:78%">아래</tspan><tspan dy="-4"> + </tspan><tspan style="font-style:italic">V</tspan><tspan dy="4" style="font-size:78%">왼</tspan><tspan dy="-4"> + </tspan><tspan style="font-style:italic">V</tspan><tspan dy="4" style="font-size:78%">오</tspan><tspan dy="-4">)/4</tspan></text>
   <text x="560" y="305" text-anchor="middle" class="umath-3-relaxation-grid-s">→ 모든 칸이 이웃의 평균 = ∇²V ≈ 0</text>
-  <text x="560" y="333" text-anchor="middle" class="umath-3-relaxation-grid-s">검은 화살표: −∇V (길이 ∝ 크기)</text>
+  <text x="560" y="333" text-anchor="middle" class="umath-3-relaxation-grid-s">화살표: −∇V (길이 ∝ 크기)</text>
   <text x="560" y="351" text-anchor="middle" class="umath-3-relaxation-grid-s">점선 안: 계산하는 9×9 칸</text>
 </svg>

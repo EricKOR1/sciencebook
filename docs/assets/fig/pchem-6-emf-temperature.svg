@@ -38,9 +38,9 @@
   <circle cx="82.0" cy="72.6" r="6" style="fill:var(--fig-red);stroke:var(--fig-panel);stroke-width:1.5"/>
   <text x="151.6" y="62.2" class="pchem-6-emf-temperature-red">T = 0의 절편 = E − T(∂E/∂T)p</text>
   <line x1="149.6" y1="59.9" x2="89.0" y2="72.6" style="stroke:var(--fig-red);stroke-width:1"/>
-  <text x="151.6" y="80.2" class="pchem-6-emf-temperature-red">= 0.415 V = −Δ<tspan baseline-shift="sub" style="font-size:10px">r</tspan>H°/νF</text>
+  <text x="151.6" y="80.2" class="pchem-6-emf-temperature-red">= 0.415 V = −Δ<tspan dy="4" style="font-size:10px">r</tspan><tspan dy="-4">H°/νF</tspan></text>
   <text x="90.0" y="266.0" class="pchem-6-emf-temperature-red">접선 기울기 (∂E/∂T)p</text>
-  <text x="90.0" y="284.0" class="pchem-6-emf-temperature-red">= −0.65 mV/K = Δ<tspan baseline-shift="sub" style="font-size:10px">r</tspan>S°/νF</text>
+  <text x="90.0" y="284.0" class="pchem-6-emf-temperature-red">= −0.65 mV/K = Δ<tspan dy="4" style="font-size:10px">r</tspan><tspan dy="-4">S°/νF</tspan></text>
   <text x="415.0" y="333.2" text-anchor="end" class="pchem-6-emf-temperature-lbl">298.15 K: E° = 0.2224 V</text>
   <text x="416.0" y="174.9" text-anchor="end" class="pchem-6-emf-temperature-acc">굵은 선: 측정 범위</text>
   <text x="416.0" y="192.9" text-anchor="end" class="pchem-6-emf-temperature-acc">273~333 K</text>
@@ -76,6 +76,6 @@
   <path d="M520.0 189.3 L522.3 182.2 L524.6 175.4 L526.8 168.8 L529.1 162.4 L531.4 156.2 L533.7 150.3 L535.9 144.6 L538.2 139.1 L540.5 133.9 L542.8 128.9 L545.1 124.1 L547.3 119.5 L549.6 115.2 L551.9 111.0 L554.2 107.1 L556.5 103.5 L558.7 100.0 L561.0 96.8 L563.3 93.7 L565.6 90.9 L567.8 88.3 L570.1 85.9 L572.4 83.8 L574.7 81.8 L577.0 80.1 L579.2 78.5 L581.5 77.2 L583.8 76.1 L586.1 75.2 L588.4 74.5 L590.6 74.0 L592.9 73.7 L595.2 73.6 L597.5 73.7 L599.7 74.0 L602.0 74.6 L604.3 75.3 L606.6 76.2 L608.9 77.3 L611.1 78.7 L613.4 80.2 L615.7 81.9 L618.0 83.8 L620.3 85.9 L622.5 88.2 L624.8 90.7 L627.1 93.4 L629.4 96.2 L631.6 99.3 L633.9 102.5 L636.2 106.0 L638.5 109.6 L640.8 113.4 L643.0 117.4 L645.3 121.6 L647.6 126.0 L649.9 130.5 L652.2 135.2 L654.4 140.1 L656.7 145.2 L659.0 150.5 L661.3 155.9 L663.5 161.6 L665.8 167.4 L668.1 173.3 L670.4 179.5 L672.7 185.8 L674.9 192.3 L677.2 199.0 L679.5 205.8 L681.8 212.8 L684.1 220.0 L686.3 227.3 L688.6 234.8 L690.9 242.5 L693.2 250.3 L695.4 258.3 L697.7 266.5 L700.0 274.8" style="fill:none;stroke:var(--fig-accent);stroke-width:3"/>
   <circle cx="595.0" cy="73.6" r="5" style="fill:var(--fig-ink);stroke:none"/>
   <text x="610.0" y="283.8" text-anchor="middle" class="pchem-6-emf-temperature-acc">아래로 휜 곡률</text>
-  <text x="610.0" y="301.8" text-anchor="middle" class="pchem-6-emf-temperature-acc">∂²E/∂T² → Δ<tspan baseline-shift="sub" style="font-size:10px">r</tspan>C<tspan baseline-shift="sub" style="font-size:10px">p</tspan>°</text>
+  <text x="610.0" y="301.8" text-anchor="middle" class="pchem-6-emf-temperature-acc">∂²E/∂T² → Δ<tspan dy="4" style="font-size:10px">r</tspan><tspan dy="-4">C</tspan><tspan dy="4" style="font-size:10px">p</tspan><tspan dy="-4">°</tspan></text>
   <text x="610.0" y="24.0" text-anchor="middle" class="pchem-6-emf-temperature-b">곡률 확대</text>
 </svg>

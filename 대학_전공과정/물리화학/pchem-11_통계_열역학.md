@@ -607,7 +607,7 @@ $$
 
 #### 예제 7 — 질소와 아이오딘의 진동
 
-298.15 K와 1000 K에서 $\mathrm{N_2}$($\theta_\mathrm{V} = 3393\ \mathrm{K}$)와 $\mathrm{I_2}$($\theta_\mathrm{V} = 308.6\ \mathrm{K}$)의 $q^\mathrm{V}$와 들뜬 진동 상태에 있는 분자의 비율을 구하시오.
+298.15 K와 1000 K에서 $\mathrm{N_2}$($\theta_\mathrm{V} = 3393\ \mathrm{K}$)와 $\mathrm{I_2}$($\theta_\mathrm{V} = 308.6\ \mathrm{K}$)의 $q^\mathrm{V}$와 들뜬 진동 상태에 있는 분자의 비율을 구하시오. ($\mathrm{I_2}$는 298 K에서 실제로는 고체이지만, 이 단원에서는 298 K의 $\mathrm{I_2}$를 가상의 이상 기체 상태로 다룬다.)
 
 **풀이**
 들뜬 상태 비율은 $1 - p_0 = 1 - (1 - e^{-x}) = e^{-x}$ ($x = \theta_\mathrm{V}/T$).
@@ -957,12 +957,12 @@ $$
 $\mathrm{N_2}$($M = 28.01\ \mathrm{g/mol}$, $\theta_\mathrm{R} = 2.875\ \mathrm{K}$, $\sigma = 2$, $\theta_\mathrm{V} = 3393\ \mathrm{K}$, 전자 바닥 상태 비축퇴)의 298.15 K, 1 bar 표준 몰 엔트로피를 구하시오.
 
 **풀이**
-① 병진: 자쿠어–테트로데 식에서 $S^\mathrm{T} = 150.4\ \mathrm{J/(mol\cdot K)}$ (아르곤 값에 $\tfrac{3}{2}R\ln(28.01/39.95) = -4.43$을 더해도 된다).
+① 병진: 자쿠어–테트로데 식에서 $S^\mathrm{T} = 150.42\ \mathrm{J/(mol\cdot K)}$ (아르곤 값에 $\tfrac{3}{2}R\ln(28.01/39.95) = -4.43$을 더해도 된다).
 ② 회전: $U^\mathrm{R} = RT$, $q^\mathrm{R} = T/\sigma\theta_\mathrm{R} = 298.15/5.750 = 51.85$
-$S^\mathrm{R} = R + R\ln 51.85 = 8.314\times(1 + 3.948) = 41.1\ \mathrm{J/(mol\cdot K)}$
+$S^\mathrm{R} = R + R\ln 51.85 = 8.314\times(1 + 3.948) = 41.14\ \mathrm{J/(mol\cdot K)}$
 ③ 진동: $x = 11.38$이므로 $S^\mathrm{V} = 0.001\ \mathrm{J/(mol\cdot K)}$ (무시)
 ④ 전자: $R\ln 1 = 0$
-합: $S_\mathrm{m}^\circ = 150.4 + 41.1 + 0.0 = 191.6\ \mathrm{J/(mol\cdot K)}$
+합: $S_\mathrm{m}^\circ = 150.42 + 41.14 + 0.00 = 191.56 \approx 191.6\ \mathrm{J/(mol\cdot K)}$
 
 **의미** 열량 측정으로 얻은 표의 값 $191.6\ \mathrm{J/(mol\cdot K)}$와 일치한다. 이렇게 분자 자료로 계산한 값을 **통계 엔트로피**(분광 엔트로피)라 한다. 같은 계산을 CO($\sigma = 1$, $\theta_\mathrm{R} = 2.78\ \mathrm{K}$)에 하면 $197.6\ \mathrm{J/(mol\cdot K)}$가 나오는데, 열량 측정값은 약 $193.1$이다. 그 차이 약 $4.5\ \mathrm{J/(mol\cdot K)}$(표의 통계값 197.7과 비교하면 4.6)가 물리화학 2에서 본 CO 결정의 **잔류 엔트로피**이다. 통계 계산이 열량 측정의 숨은 가정(0 K에서 $S = 0$)을 검증하는 셈이다.
 

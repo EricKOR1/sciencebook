@@ -6,7 +6,7 @@ Sims.register('mj-barrier-tunneling', {
     var HB = 1.054571817e-34, EV = 1.602176634e-19, ME = 9.1093837e-31;
     var P = [{ n: '전자', m: ME, s: 'e⁻' }, { n: '양성자', m: 1.67262192e-27, s: 'p' }, { n: '중양성자', m: 3.3435837e-27, s: 'd' }];
     var st = { p: 0, E: 2.0, V: 5.0, a: 0.30 };
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.7 : 0.6; }, label: '사각 장벽의 파동 함수와 확률 밀도, 장벽 폭에 따른 투과 확률 그래프' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.95 : 0.6; }, label: '사각 장벽의 파동 함수와 확률 밀도, 장벽 폭에 따른 투과 확률 그래프' });
     var ctx = cv.ctx;
     var rK = api.readout('k, κ (또는 k₂)');
     var rT = api.readout('정확한 T');
@@ -76,14 +76,14 @@ Sims.register('mj-barrier-tunneling', {
       var s = solve(m, E, V, a), lt = lnT(m, E, V, a), T = Math.exp(lt);
       // 영역 배치
       var A1, A2, A3;
-      if (narrow) { A1 = { x: 44, y: 18, w: w - 56, h: h * 0.27 }; A2 = { x: 44, y: h * 0.27 + 40, w: w - 56, h: h * 0.17 }; A3 = { x: 44, y: h * 0.52 + 30, w: w - 56, h: h * 0.36 }; }
+      if (narrow) { A1 = { x: 44, y: 18, w: w - 56, h: h * 0.25 }; A2 = { x: 44, y: h * 0.25 + 40, w: w - 56, h: h * 0.15 }; A3 = { x: 44, y: h * 0.40 + 90, w: w - 56, h: h * 0.27 }; }
       else { A1 = { x: 44, y: 18, w: w * 0.56 - 44, h: h * 0.5 - 30 }; A2 = { x: 44, y: h * 0.5 + 18, w: w * 0.56 - 44, h: h * 0.5 - 56 }; A3 = { x: w * 0.62 + 22, y: 18, w: w * 0.38 - 36, h: h * 0.62 - 30 }; }
       var span = Math.max(0.5, 0.9 * a), x0 = -span, x1 = a + span;
       var sx = function (x) { return A1.x + (x - x0) / (x1 - x0) * A1.w; };
       // ── 위: 퍼텐셜 + Re ψ
       var Emax = 10.5, syE = function (e) { return A1.y + A1.h - e / Emax * A1.h; };
-      ctx.fillStyle = Tk.figPanel; ctx.strokeStyle = Tk.figMuted; ctx.lineWidth = 1.2;
-      ctx.fillRect(sx(0), syE(V), sx(a) - sx(0), syE(0) - syE(V)); ctx.strokeRect(sx(0), syE(V), sx(a) - sx(0), syE(0) - syE(V));
+      ctx.fillStyle = Tk.figMuted; ctx.strokeStyle = Tk.figMuted; ctx.lineWidth = 1.2;
+      ctx.globalAlpha = 0.25; ctx.fillRect(sx(0), syE(V), sx(a) - sx(0), syE(0) - syE(V)); ctx.globalAlpha = 1; ctx.strokeRect(sx(0), syE(V), sx(a) - sx(0), syE(0) - syE(V));
       ctx.strokeStyle = Tk.figLine; ctx.strokeRect(A1.x, A1.y, A1.w, A1.h);
       ctx.strokeStyle = Tk.figAmber; ctx.setLineDash([6, 4]); ctx.lineWidth = 1.6;
       ctx.beginPath(); ctx.moveTo(A1.x, syE(E)); ctx.lineTo(A1.x + A1.w, syE(E)); ctx.stroke(); ctx.setLineDash([]);
@@ -110,6 +110,8 @@ Sims.register('mj-barrier-tunneling', {
       var Famp = Math.sqrt(abs2(s.F)), mag = 0;
       if (Famp > 0 && Famp < 0.1 * maxA) {
         mag = Math.pow(10, Math.floor(Math.log10(0.4 * maxA / Famp)));
+      }
+      if (mag >= 10) {
         ctx.strokeStyle = Tk.figTeal; ctx.lineWidth = 1.6; ctx.setLineDash([3, 3]); ctx.beginPath();
         var st0 = false;
         pts.forEach(function (p) { if (p[0] < a) return; var v = (pxPerWave >= 6 ? p[1].re : Math.sqrt(abs2(p[1]))) * mag; var X = sx(p[0]), Y = base - v * amp; if (st0) ctx.lineTo(X, Y); else { ctx.moveTo(X, Y); st0 = true; } });
@@ -121,11 +123,11 @@ Sims.register('mj-barrier-tunneling', {
       ctx.textAlign = 'left'; ctx.font = '11px ' + Tk.fontBody;
       ctx.fillStyle = Tk.figAmber; ctx.fillText('E', A1.x + 4, base - 4);
       ctx.fillStyle = Tk.figBlue; ctx.fillText(pxPerWave >= 6 ? 'Re ψ (옅은 띠: ±|ψ|)' : '파장이 너무 짧아 ±|ψ|만 그림', A1.x + 18, A1.y + A1.h - 6);
-      if (mag) { ctx.fillStyle = Tk.figTeal; ctx.textAlign = 'right'; ctx.fillText('영역 III ×' + (mag >= 1e4 ? '10' + String(Math.round(Math.log10(mag))).replace(/\d/g, function (d) { return '⁰¹²³⁴⁵⁶⁷⁸⁹'[d]; }) : mag) + ' 확대', A1.x + A1.w - 4, A1.y + 28); }
+      if (mag >= 10) { ctx.fillStyle = Tk.figTeal; ctx.textAlign = 'right'; ctx.fillText('영역 III ×' + (mag >= 1e4 ? '10' + String(Math.round(Math.log10(mag))).replace(/\d/g, function (d) { return '⁰¹²³⁴⁵⁶⁷⁸⁹'[d]; }) : mag) + ' 확대', A1.x + A1.w - 4, A1.y + 28); }
       // ── 가운데: |ψ|²
       var ym = 0; pts.forEach(function (p) { ym = Math.max(ym, abs2(p[1])); }); ym = Math.max(ym * 1.1, 0.05);
       var sy2 = function (v) { return A2.y + A2.h - v / ym * A2.h; };
-      ctx.fillStyle = Tk.figPanel; ctx.fillRect(sx(0), A2.y, sx(a) - sx(0), A2.h);
+      ctx.fillStyle = Tk.figMuted; ctx.globalAlpha = 0.18; ctx.fillRect(sx(0), A2.y, sx(a) - sx(0), A2.h); ctx.globalAlpha = 1;
       ctx.strokeStyle = Tk.figLine; ctx.lineWidth = 1; ctx.strokeRect(A2.x, A2.y, A2.w, A2.h);
       ctx.fillStyle = Tk.figMuted; ctx.font = '11px ' + Tk.fontMono; ctx.textAlign = 'right';
       ctx.fillText('0', A2.x - 4, A2.y + A2.h + 4); ctx.fillText(ym.toPrecision(2), A2.x - 4, A2.y + 9);
@@ -162,6 +164,7 @@ Sims.register('mj-barrier-tunneling', {
       });
       ctx.setLineDash([]); ctx.restore();
       ctx.fillStyle = cols[st.p]; ctx.beginPath(); ctx.arc(sxa(a), sya(Math.max(lt / Math.LN10, lo)), 5, 0, 7); ctx.fill();
+      if (lt / Math.LN10 < lo) { ctx.font = '11px ' + Tk.fontBody; ctx.textAlign = 'center'; ctx.fillText('↓ 눈금 아래 (' + fmtT(lt) + ')', Math.min(Math.max(sxa(a), A3.x + 70), A3.x + A3.w - 70), sya(lo) - 8); }
       ctx.font = '600 11px ' + Tk.fontBody; ctx.textAlign = 'right';
       P.forEach(function (q, qi) { ctx.fillStyle = cols[qi]; ctx.fillText(q.n + (qi === st.p ? ' (선택)' : ''), A3.x + A3.w - 6, A3.y + 16 + qi * 15); });
       // 막대: 정확 대 근사
