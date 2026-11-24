@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-pchem-1-kirchhoff-cycle d-pchem-1-kirchhoff-cycle">
+  <title id="t-pchem-1-kirchhoff-cycle">그림 물리화학 1-12 키르히호프 법칙의 열역학 순환</title>
+  <desc id="d-pchem-1-kirchhoff-cycle">반응물을 T₁에서 T₂로 데운 뒤 T₂에서 반응시키는 길과, T₁에서 반응시킨 뒤 생성물을 T₂로 데우는 길은 처음과 나중이 같으므로 엔탈피 변화가 같다. 발열 반응의 예로 생성물을 반응물보다 아래에 그렸다. 세로 위치는 엔탈피의 크기를 나타낸 모식도이다.</desc>
+  <style>.pchem-1-kirchhoff-cycle-t{font-size:14px;fill:var(--fig-ink)} .pchem-1-kirchhoff-cycle-s{font-size:13px;fill:var(--fig-muted)} .pchem-1-kirchhoff-cycle-b{font-size:14px;fill:var(--fig-ink);font-weight:600} .pchem-1-kirchhoff-cycle-l{font-size:15px;fill:var(--fig-ink);font-weight:600} .pchem-1-kirchhoff-cycle-m{font-size:13px;fill:var(--fig-ink)}</style>
+  <line x1="40" y1="340" x2="40" y2="39" style="stroke:var(--fig-ink);stroke-width:1.8;fill:none"/>
+  <path d="M40.0 30.0 L36.0 39.0 L44.0 39.0 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="28" y="190" class="pchem-1-kirchhoff-cycle-t" text-anchor="middle" transform="rotate(-90 28 190)">엔탈피 <tspan style="font-style:italic;">H</tspan></text>
+  <rect x="110" y="220" width="170" height="44" rx="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="195" y="248" class="pchem-1-kirchhoff-cycle-b" text-anchor="middle"><tspan>반응물 (</tspan><tspan style="font-style:italic;">T</tspan><tspan dy="4" style="font-size:10px;">1</tspan><tspan dy="-4">)</tspan></text>
+  <rect x="470" y="285" width="170" height="44" rx="6" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <text x="555" y="313" class="pchem-1-kirchhoff-cycle-b" text-anchor="middle"><tspan>생성물 (</tspan><tspan style="font-style:italic;">T</tspan><tspan dy="4" style="font-size:10px;">1</tspan><tspan dy="-4">)</tspan></text>
+  <rect x="110" y="80" width="170" height="44" rx="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="195" y="108" class="pchem-1-kirchhoff-cycle-b" text-anchor="middle"><tspan>반응물 (</tspan><tspan style="font-style:italic;">T</tspan><tspan dy="4" style="font-size:10px;">2</tspan><tspan dy="-4">)</tspan></text>
+  <rect x="470" y="145" width="170" height="44" rx="6" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <text x="555" y="173" class="pchem-1-kirchhoff-cycle-b" text-anchor="middle"><tspan>생성물 (</tspan><tspan style="font-style:italic;">T</tspan><tspan dy="4" style="font-size:10px;">2</tspan><tspan dy="-4">)</tspan></text>
+  <line x1="280" y1="242" x2="459.4" y2="299.3" style="stroke:var(--fig-red);stroke-width:2.4;fill:none"/>
+  <path d="M468.0 302.0 L460.7 295.4 L458.2 303.1 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="380" y="255" class="pchem-1-kirchhoff-cycle-b" text-anchor="middle" style="fill:var(--fig-red)"><tspan>Δ</tspan><tspan dy="4" style="font-size:10px;">r</tspan><tspan dy="-4" style="font-style:italic;">H</tspan><tspan>°(</tspan><tspan style="font-style:italic;">T</tspan><tspan dy="4" style="font-size:10px;">1</tspan><tspan dy="-4">)</tspan></text>
+  <line x1="280" y1="102" x2="459.4" y2="159.3" style="stroke:var(--fig-red);stroke-width:2.4;fill:none"/>
+  <path d="M468.0 162.0 L460.7 155.4 L458.2 163.1 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="380" y="115" class="pchem-1-kirchhoff-cycle-b" text-anchor="middle" style="fill:var(--fig-red)"><tspan>Δ</tspan><tspan dy="4" style="font-size:10px;">r</tspan><tspan dy="-4" style="font-style:italic;">H</tspan><tspan>°(</tspan><tspan style="font-style:italic;">T</tspan><tspan dy="4" style="font-size:10px;">2</tspan><tspan dy="-4">)</tspan></text>
+  <line x1="195" y1="218" x2="195" y2="135" style="stroke:var(--fig-ink);stroke-width:2.2;fill:none"/>
+  <path d="M195.0 126.0 L190.9 135.0 L199.1 135.0 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="205" y="178" class="pchem-1-kirchhoff-cycle-m"><tspan>∫</tspan><tspan style="font-style:italic;">C</tspan><tspan dy="4" style="font-size:10px;font-style:italic;">p</tspan><tspan dy="-4">(반응물)d</tspan><tspan style="font-style:italic;">T</tspan></text>
+  <line x1="555" y1="283" x2="555" y2="200" style="stroke:var(--fig-ink);stroke-width:2.2;fill:none"/>
+  <path d="M555.0 191.0 L551.0 200.0 L559.0 200.0 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="565" y="243" class="pchem-1-kirchhoff-cycle-m"><tspan>∫</tspan><tspan style="font-style:italic;">C</tspan><tspan dy="4" style="font-size:10px;font-style:italic;">p</tspan><tspan dy="-4">(생성물)d</tspan><tspan style="font-style:italic;">T</tspan></text>
+  <text x="650" y="102" class="pchem-1-kirchhoff-cycle-b" text-anchor="middle"><tspan style="font-style:italic;">T</tspan><tspan dy="4" style="font-size:10px;">2</tspan></text>
+  <text x="650" y="242" class="pchem-1-kirchhoff-cycle-b" text-anchor="middle"><tspan style="font-style:italic;">T</tspan><tspan dy="4" style="font-size:10px;">1</tspan></text>
+  <line x1="630" y1="98" x2="630" y2="98" style=""/>
+  <rect x="110" y="350" width="530" height="36" rx="8" style="fill:var(--fig-panel);stroke:var(--fig-accent);stroke-width:1.4"/>
+  <text x="375" y="374" class="pchem-1-kirchhoff-cycle-b" text-anchor="middle"><tspan>Δ</tspan><tspan dy="4" style="font-size:10px;">r</tspan><tspan dy="-4" style="font-style:italic;">H</tspan><tspan>°(</tspan><tspan style="font-style:italic;">T</tspan><tspan dy="4" style="font-size:10px;">2</tspan><tspan dy="-4">) = Δ</tspan><tspan dy="4" style="font-size:10px;">r</tspan><tspan dy="-4" style="font-style:italic;">H</tspan><tspan>°(</tspan><tspan style="font-style:italic;">T</tspan><tspan dy="4" style="font-size:10px;">1</tspan><tspan dy="-4">) + ∫ Δ</tspan><tspan dy="4" style="font-size:10px;">r</tspan><tspan dy="-4" style="font-style:italic;">C</tspan><tspan dy="4" style="font-size:10px;font-style:italic;">p</tspan><tspan dy="-4">° d</tspan><tspan style="font-style:italic;">T</tspan><tspan>   (∫ 구간: </tspan><tspan style="font-style:italic;">T</tspan><tspan dy="4" style="font-size:10px;">1</tspan><tspan dy="-4"> → </tspan><tspan style="font-style:italic;">T</tspan><tspan dy="4" style="font-size:10px;">2</tspan><tspan dy="-4">)</tspan></text>
+</svg>
