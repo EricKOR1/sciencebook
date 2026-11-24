@@ -1,6 +1,6 @@
 {
   "title": "한 권으로 잇는 과학",
-  "subtitle": "중학교 1학년부터 대학 일반 과학까지",
+  "subtitle": "중학교 1학년부터 대학 전공 과정까지",
   "strands": [
     { "id": "energy", "name": "운동과 에너지" },
     { "id": "matter", "name": "물질" },
@@ -66,10 +66,10 @@
       "parts": [
         { "id": "umath", "name": "수학 도구", "short": "수학 도구", "dir": "대학_전공과정/수학_도구", "strand": "society" },
         { "id": "pchem", "name": "물리화학", "short": "물리화학", "dir": "대학_전공과정/물리화학", "strand": "matter" },
-        { "id": "ochem", "name": "유기화학", "short": "유기화학", "dir": "대학_전공과정/유기화학", "strand": "matter" },
-        { "id": "ichem", "name": "무기화학", "short": "무기화학", "dir": "대학_전공과정/무기화학", "strand": "matter" },
-        { "id": "achem", "name": "분석화학", "short": "분석화학", "dir": "대학_전공과정/분석화학", "strand": "matter" },
-        { "id": "bchem", "name": "생화학", "short": "생화학", "dir": "대학_전공과정/생화학", "strand": "life" }
+        { "id": "ochem", "draft": true, "name": "유기화학", "short": "유기화학", "dir": "대학_전공과정/유기화학", "strand": "matter" },
+        { "id": "ichem", "draft": true, "name": "무기화학", "short": "무기화학", "dir": "대학_전공과정/무기화학", "strand": "matter" },
+        { "id": "achem", "draft": true, "name": "분석화학", "short": "분석화학", "dir": "대학_전공과정/분석화학", "strand": "matter" },
+        { "id": "bchem", "draft": true, "name": "생화학", "short": "생화학", "dir": "대학_전공과정/생화학", "strand": "life" }
       ]
     }
   ],

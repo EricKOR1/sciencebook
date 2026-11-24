@@ -33,6 +33,7 @@ const ID_RE = /^([a-z0-9]+-\d+)_.*\.md$/;
 
 // ───────────────────────── 원고 목록 ─────────────────────────
 const natural = (a, b) => a.localeCompare(b, 'en', { numeric: true });
+const WANT = new Set(process.argv.slice(2));
 const lessons = [];
 for (const g of CFG.groups) {
   for (const part of g.parts) {
@@ -44,6 +45,7 @@ for (const g of CFG.groups) {
         const src = path.join(u.dir, f);
         const md = fs.readFileSync(path.join(ROOT, src), 'utf8');
         const id = f.match(ID_RE)[1];
+        if (part.draft && !WANT.has(id)) continue;   // 아직 만드는 중인 과목: 그 단원을 지정해 빌드할 때만 넣는다
         const h1 = md.match(/^# (.+?)\. (.+?)(?: — (.+))?$/m);
         if (!h1) { console.warn(`  ! 제목 줄 형식 오류: ${src}`); continue; }
         const meta = (key) => [...md.matchAll(new RegExp(`<!--\\s*${key}:\\s*([^>]*?)\\s*-->`, 'g'))]
