@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="t-umath-6-q-free-decay-lorentz d-umath-6-q-free-decay-lorentz">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-umath-6-q-free-decay-lorentz d-umath-6-q-free-decay-lorentz">
   <title id="t-umath-6-q-free-decay-lorentz">그림 수학 도구 6-16 문제 12 풀이: 자유 감쇠와 공명 곡선</title>
   <desc id="d-umath-6-q-free-decay-lorentz">왼쪽: 구동을 멈춘 뒤의 자유 진동 x(t) = e^(−t/T)cos(2π·1000t), T = 15.9 ms, 점선은 포락선 ±e^(−t/T). 오른쪽: 이 신호의 파워 스펙트럼(1000 Hz 중심 로렌츠, 점선)과 Q = 50 강제 진동의 |X̃|² 공명 곡선(실선)을 높이를 1 로 맞추어 겹쳤다. 두 곡선은 반치 전폭 20 Hz 로 사실상 같다.</desc>
   <style>.umath-6-q-free-decay-lorentz-t{font-size:14px;fill:var(--fig-ink)} .umath-6-q-free-decay-lorentz-s{font-size:13px;fill:var(--fig-muted)} .umath-6-q-free-decay-lorentz-b{font-weight:600} .umath-6-q-free-decay-lorentz-i{font-style:italic}</style>
@@ -63,9 +63,9 @@
   <path d="M536.7 147.4 L542.7 144.9 L542.7 149.9 Z" style="fill:var(--fig-ink);stroke:none"/>
   <text x="560.0" y="141.4" class="umath-6-q-free-decay-lorentz-t" text-anchor="middle"></text>
   <text x="588.0" y="152.4" class="umath-6-q-free-decay-lorentz-s umath-6-q-free-decay-lorentz-b">반치 전폭 20 Hz</text>
-  <line x1="430.0" y1="262.0" x2="452.0" y2="262.0" style="stroke:var(--fig-accent);stroke-width:2.6"/>
-  <text x="458.0" y="267.0" class="umath-6-q-free-decay-lorentz-s umath-6-q-free-decay-lorentz-b" style="fill:var(--fig-accent)">강제 진동 |X̃|²</text>
-  <line x1="570.0" y1="262.0" x2="592.0" y2="262.0" style="stroke:var(--fig-red);stroke-width:2;stroke-dasharray:6 4"/>
-  <text x="598.0" y="267.0" class="umath-6-q-free-decay-lorentz-s umath-6-q-free-decay-lorentz-b" style="fill:var(--fig-red)">자유 진동의 파워 스펙트럼</text>
-  <text x="560.0" y="290.0" class="umath-6-q-free-decay-lorentz-s umath-6-q-free-decay-lorentz-b" text-anchor="middle">두 곡선이 같다(서로의 푸리에 변환)</text>
+  <line x1="430.0" y1="290.0" x2="452.0" y2="290.0" style="stroke:var(--fig-accent);stroke-width:2.6"/>
+  <text x="458.0" y="295.0" class="umath-6-q-free-decay-lorentz-s umath-6-q-free-decay-lorentz-b" style="fill:var(--fig-accent)">강제 진동의 |X̃|² 공명 곡선</text>
+  <line x1="430.0" y1="310.0" x2="452.0" y2="310.0" style="stroke:var(--fig-red);stroke-width:2;stroke-dasharray:6 4"/>
+  <text x="458.0" y="315.0" class="umath-6-q-free-decay-lorentz-s umath-6-q-free-decay-lorentz-b" style="fill:var(--fig-red)">자유 진동의 파워 스펙트럼</text>
+  <text x="560.0" y="334.0" class="umath-6-q-free-decay-lorentz-s umath-6-q-free-decay-lorentz-b" text-anchor="middle">두 곡선이 같다(서로의 푸리에 변환)</text>
 </svg>

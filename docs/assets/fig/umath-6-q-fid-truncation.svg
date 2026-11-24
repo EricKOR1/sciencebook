@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-labelledby="t-umath-6-q-fid-truncation d-umath-6-q-fid-truncation">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 492" role="img" aria-labelledby="t-umath-6-q-fid-truncation d-umath-6-q-fid-truncation">
   <title id="t-umath-6-q-fid-truncation">그림 수학 도구 6-18 문제 16 풀이: 잘린 FID와 창 함수</title>
-  <desc id="d-umath-6-q-fid-truncation">위: FID e^(−t/1.0 s)cos(2π·50t) 가 t = 0.25 s 에서 아직 진폭 0.78 인 채로 잘렸다(잘린 뒤는 0, 회색 점선). 아래: 그 스펙트럼(흡수형 실수부, 실선)은 봉우리 양옆에 간격 약 4 Hz(= 1/T_acq)의 sinc 물결이 붙는다. LB = 5.5 Hz 지수 창 함수를 곱하면(점선) 물결은 사라지지만 반치 전폭이 약 5.9 Hz 로 넓어진다. 두 곡선은 높이를 1 로 맞추었다.</desc>
+  <desc id="d-umath-6-q-fid-truncation">위: FID e^(−t/1.0 s)cos(2π·50t) 가 t = 0.25 s 에서 아직 진폭 0.78 인 채로 잘렸다(잘린 뒤는 0, 회색 점선). 아래: 그 스펙트럼(흡수형 실수부, 실선)은 봉우리 양옆에 간격 약 4 Hz(= 1/T_acq)의 sinc 물결이 붙는다. LB = 5.5 Hz 지수 창 함수를 곱하면(점선) 물결은 사라지지만 반치 전폭이 0.32 + 5.5 ≈ 5.8 Hz 로 넓어진다. 두 곡선은 높이를 1 로 맞추었다.</desc>
   <style>.umath-6-q-fid-truncation-t{font-size:14px;fill:var(--fig-ink)} .umath-6-q-fid-truncation-s{font-size:13px;fill:var(--fig-muted)} .umath-6-q-fid-truncation-b{font-weight:600} .umath-6-q-fid-truncation-i{font-style:italic}</style>
   <line x1="70.0" y1="105.0" x2="690.0" y2="105.0" style="stroke:var(--fig-muted);stroke-width:1"/>
   <line x1="70.0" y1="170.0" x2="690.0" y2="170.0" style="stroke:var(--fig-ink);stroke-width:1.2"/>
@@ -85,9 +85,9 @@
   <path d="M425.0 312.9 L420.0 315.0 L420.0 310.8 Z" style="fill:var(--fig-red);stroke:none"/>
   <path d="M335.0 312.9 L340.0 310.8 L340.0 315.0 Z" style="fill:var(--fig-red);stroke:none"/>
   <text x="380.0" y="306.9" class="umath-6-q-fid-truncation-t" text-anchor="middle" style="fill:var(--fig-red)"></text>
-  <text x="329.0" y="317.9" class="umath-6-q-fid-truncation-s umath-6-q-fid-truncation-b" text-anchor="end" style="fill:var(--fig-red)">창 함수 뒤 반치 전폭 ≈ 5.9 Hz</text>
-  <line x1="90.0" y1="450.0" x2="116.0" y2="450.0" style="stroke:var(--fig-accent);stroke-width:2"/>
-  <text x="122.0" y="455.0" class="umath-6-q-fid-truncation-s umath-6-q-fid-truncation-b" style="fill:var(--fig-accent)">잘린 FID 그대로(sinc 물결)</text>
-  <line x1="330.0" y1="450.0" x2="356.0" y2="450.0" style="stroke:var(--fig-red);stroke-width:2.2;stroke-dasharray:6 4"/>
-  <text x="362.0" y="455.0" class="umath-6-q-fid-truncation-s umath-6-q-fid-truncation-b" style="fill:var(--fig-red)">LB = 5.5 Hz 창 함수를 곱한 뒤</text>
+  <text x="329.0" y="317.9" class="umath-6-q-fid-truncation-s umath-6-q-fid-truncation-b" text-anchor="end" style="fill:var(--fig-red)">창 함수 뒤 반치 전폭 ≈ 5.8 Hz</text>
+  <line x1="90.0" y1="476.0" x2="116.0" y2="476.0" style="stroke:var(--fig-accent);stroke-width:2"/>
+  <text x="122.0" y="481.0" class="umath-6-q-fid-truncation-s umath-6-q-fid-truncation-b" style="fill:var(--fig-accent)">잘린 FID 그대로(sinc 물결)</text>
+  <line x1="330.0" y1="476.0" x2="356.0" y2="476.0" style="stroke:var(--fig-red);stroke-width:2.2;stroke-dasharray:6 4"/>
+  <text x="362.0" y="481.0" class="umath-6-q-fid-truncation-s umath-6-q-fid-truncation-b" style="fill:var(--fig-red)">LB = 5.5 Hz 창 함수를 곱한 뒤</text>
 </svg>

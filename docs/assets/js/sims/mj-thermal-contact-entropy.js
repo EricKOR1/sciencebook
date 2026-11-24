@@ -38,8 +38,10 @@ Sims.register('mj-thermal-contact-entropy', {
       if (!st.engine) { st.a -= qd * dt / st.C1; st.b += qd * dt / st.C2; st.Q += qd * dt; }
       else {
         var hot = st.a >= st.b, Th = hot ? st.a : st.b, Tc = hot ? st.b : st.a, q = Math.abs(qd) * dt, qc = q * Tc / Th;
-        if (hot) { st.a -= q / st.C1; st.b += qc / st.C2; } else { st.b -= q / st.C2; st.a += qc / st.C1; }
-        st.Q += hot ? q : -q; st.W += q - qc;
+        /* 가역 기관: 두 물체의 엔트로피 합이 변하지 않게 차가운 쪽 온도를 정확히 맞춘다 */
+        var Ch = hot ? st.C1 : st.C2, Cc = hot ? st.C2 : st.C1, Thn = Th - q / Ch, Tcn = Tc * Math.pow(Th / Thn, Ch / Cc);
+        if (hot) { st.a = Thn; st.b = Tcn; } else { st.b = Thn; st.a = Tcn; }
+        st.Q += hot ? q : -q; st.W += q - Cc * (Tcn - Tc);
       }
       st.t += dt;
     }
@@ -114,7 +116,7 @@ Sims.register('mj-thermal-contact-entropy', {
       // 값
       rTf.set(Tf.toFixed(1) + ' K' + (st.engine ? ' (기하 평균)' : ' (가중 산술 평균)'));
       rQ.set((Math.abs(st.Q) / 1000).toFixed(2) + ' kJ');
-      rS.set(tot.toFixed(2) + ' J/K' + (st.engine ? ' (가역: 0)' : ''));
+      rS.set((Math.abs(tot) < 0.005 ? 0 : tot).toFixed(2) + ' J/K' + (st.engine ? ' (가역: 0)' : ''));
       rL.set(st.engine ? '얻은 일 ' + (st.W / 1000).toFixed(2) + ' kJ' : (T0 * tot / 1000).toFixed(2) + ' kJ');
     }
     function subify(root) {

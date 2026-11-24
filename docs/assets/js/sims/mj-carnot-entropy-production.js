@@ -133,7 +133,7 @@ Sims.register('mj-carnot-entropy-production', {
       sub('|q_c|/T_c (저온 열원이 얻음)', o.X(s0), o.Y(Tc) + 40, 11);
       ctx.textAlign = 'center'; ctx.fillStyle = T.figInk;
       if (o.Y(tcw) - o.Y(thw) > 26) sub('기체가 한 일 W', (o.X(s0) + o.X(s0 + DS)) / 2, (o.Y(thw) + o.Y(tcw)) / 2 + 4, 12, true);
-      if (xg1 - xg0 > 14) { ctx.textAlign = 'left'; sub('T_c·S_생성', xg1 + 4, o.Y(Tc / 2), 11, true, T.figViolet); }
+      if (xg1 - xg0 > 14) { ctx.textAlign = 'center'; ctx.fillStyle = T.figPanel; ctx.fillRect((xg0 + xg1) / 2 - 34, o.Y(Tc * 0.3) - 12, 68, 17); sub('T_c·S_생성', (xg0 + xg1) / 2, o.Y(Tc * 0.3), 11, true, T.figViolet); }
       // ── 효율–출력
       var pts = curve(), pmax = 0; pts.forEach(function (p) { if (p[1] > pmax) pmax = p[1]; });
       var etaMax = Math.ceil(etaC * 10 + 0.5) / 10;
