@@ -283,7 +283,7 @@ Sims.register('mj-vector-field', {
       for (var sx = -V.xm + 0.5; sx < V.xm; sx += 1.0) {
         for (var sy = -Math.floor(V.ym) + 0.5; sy < V.ym; sy += 1.0) {
           [1, -1].forEach(function (dir) {
-            var x = sx, y = sy;
+            var x = sx, y = sy, px = 0, py = 0;
             ctx.beginPath(); ctx.moveTo(V.X(x), V.Y(y));
             for (var i = 0; i < 160; i++) {
               var v = F(x, y), m = Math.hypot(v[0], v[1]);
@@ -291,7 +291,10 @@ Sims.register('mj-vector-field', {
               var mx = x + dir * step * 0.5 * v[0] / m, my = y + dir * step * 0.5 * v[1] / m;
               var v2 = F(mx, my), m2 = Math.hypot(v2[0], v2[1]);
               if (!ok(v2) || m2 < 1e-6 || m2 > 1e4) break;
-              x += dir * step * v2[0] / m2; y += dir * step * v2[1] / m2;
+              var nx = v2[0] / m2, ny = v2[1] / m2;
+              if (i > 0 && nx * px + ny * py < 0.3) break;   // 방향이 갑자기 꺾이면(장이 0인 점 근처) 멈춘다
+              px = nx; py = ny;
+              x += dir * step * nx; y += dir * step * ny;
               if (Math.abs(x) > V.xm + 0.2 || Math.abs(y) > V.ym + 0.2) break;
               ctx.lineTo(V.X(x), V.Y(y));
             }
