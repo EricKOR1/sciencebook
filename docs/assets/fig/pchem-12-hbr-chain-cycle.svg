@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-pchem-12-hbr-chain-cycle d-pchem-12-hbr-chain-cycle">
+  <title id="t-pchem-12-hbr-chain-cycle">그림 물리화학 12-7 H₂ + Br₂ 연쇄 반응의 순환</title>
+  <desc id="d-pchem-12-hbr-chain-cycle">두 연쇄 운반체 Br·(위)와 H·(아래)가 고리를 돈다. Br·는 H₂와 반응해 HBr과 H·를 만들고(전파 1), H·는 Br₂와 반응해 HBr과 Br·를 되살린다(전파 2). 한 바퀴마다 HBr 2개가 생긴다. 점선 지름길은 H·가 생성물 HBr과 반응해 H₂로 되돌리는 억제 단계이다. 고리 밖 왼쪽에서 개시(Br₂ + M → 2Br·)로 운반체가 들어오고, 오른쪽으로 종결(2Br· + M → Br₂ + M)로 빠져나간다.</desc>
+  <style>.pchem-12-hbr-chain-cycle-t{font-size:14px;fill:var(--fig-ink)} .pchem-12-hbr-chain-cycle-s{font-size:13px;fill:var(--fig-muted)} .pchem-12-hbr-chain-cycle-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .pchem-12-hbr-chain-cycle-i{font-size:14px;font-style:italic;fill:var(--fig-ink)} </style>
+  <path d="M394.0,100.4 A110,110 0 0 1 394.0,309.6" style="fill:none;stroke:var(--fig-blue);stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round"/>
+  <polygon points="394.0,309.6 402.3,302.4 405.0,310.6" style="fill:var(--fig-blue);stroke:none"/>
+  <path d="M326.0,309.6 A110,110 0 0 1 326.0,100.4" style="fill:none;stroke:var(--fig-green);stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round"/>
+  <polygon points="326.0,100.4 317.7,107.6 315.0,99.4" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="360.0" y1="283.0" x2="360.0" y2="139.0" style="stroke:var(--fig-red);stroke-width:2;stroke-linecap:round;stroke-dasharray:6 5"/>
+  <polygon points="360.0,129.0 363.9,138.2 356.1,138.2" style="fill:var(--fig-red);stroke:none"/>
+  <circle cx="360.0" cy="95.0" r="30.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <text x="360.0" y="101.0" text-anchor="middle" class="pchem-12-hbr-chain-cycle-b" style="font-size:17px">Br·</text>
+  <circle cx="360.0" cy="315.0" r="30.0" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2"/>
+  <text x="360.0" y="321.0" text-anchor="middle" class="pchem-12-hbr-chain-cycle-b" style="font-size:17px">H·</text>
+  <text x="484.0" y="199.0" text-anchor="start" class="pchem-12-hbr-chain-cycle-t" style="fill:var(--fig-blue)">+ H₂ → HBr</text>
+  <text x="484.0" y="219.0" text-anchor="start" class="pchem-12-hbr-chain-cycle-s" style="fill:var(--fig-blue)">(전파 1)</text>
+  <text x="236.0" y="199.0" text-anchor="end" class="pchem-12-hbr-chain-cycle-t" style="fill:var(--fig-green)">+ Br₂ → HBr</text>
+  <text x="236.0" y="219.0" text-anchor="end" class="pchem-12-hbr-chain-cycle-s" style="fill:var(--fig-green)">(전파 2)</text>
+  <text x="368.0" y="215.0" text-anchor="start" class="pchem-12-hbr-chain-cycle-s" style="fill:var(--fig-red)">+ HBr → H₂</text>
+  <text x="368.0" y="232.0" text-anchor="start" class="pchem-12-hbr-chain-cycle-s" style="fill:var(--fig-red)">(억제)</text>
+  <line x1="110.0" y1="70.0" x2="326.0" y2="91.0" style="stroke:var(--fig-violet);stroke-width:2;stroke-linecap:round"/>
+  <polygon points="326.0,91.0 318.4,93.4 319.0,87.2" style="fill:var(--fig-violet);stroke:none"/>
+  <text x="40.0" y="56.0" text-anchor="start" class="pchem-12-hbr-chain-cycle-t" style="fill:var(--fig-violet)">Br₂ + M → 2Br· (개시)</text>
+  <line x1="394.0" y1="91.0" x2="610.0" y2="70.0" style="stroke:var(--fig-accent);stroke-width:2;stroke-linecap:round"/>
+  <polygon points="610.0,70.0 603.0,73.8 602.4,67.6" style="fill:var(--fig-accent);stroke:none"/>
+  <text x="690.0" y="56.0" text-anchor="end" class="pchem-12-hbr-chain-cycle-t" style="fill:var(--fig-accent)">2Br· + M → Br₂ + M (종결)</text>
+  <text x="360.0" y="388.0" text-anchor="middle" class="pchem-12-hbr-chain-cycle-t">고리 한 바퀴(전파 1 + 전파 2)마다 HBr 2개, 운반체는 다시 Br·</text>
+</svg>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t-umath-4-afm-cantilever d-umath-4-afm-cantilever">
   <title id="t-umath-4-afm-cantilever">그림 수학 도구 4-8 원자힘 현미경 캔틸레버의 구동과 측정</title>
-  <desc id="d-umath-4-afm-cantilever">왼쪽(모식도): 압전 소자가 캔틸레버를 cos ωt로 흔들고, 캔틸레버 뒷면에서 반사된 레이저의 위치를 4분할 광검출기가 읽어 진동을 잰다. 오른쪽: 공명 곡선(f₀ = 300 kHz, Q = 400, 반치폭 750 Hz). 표면 힘으로 공명이 왼쪽으로 옮겨 가면, 고정된 구동 진동수 f₀에서 진폭이 A₁에서 A₂로 줄어든다.</desc>
+  <desc id="d-umath-4-afm-cantilever">왼쪽(모식도): 압전 소자가 캔틸레버를 cos ωt로 흔들고, 캔틸레버 뒷면에서 반사된 레이저의 위치를 4분할 광검출기가 읽어 진동을 잰다. 오른쪽: 공명 곡선(f₀ = 300 kHz, Q = 400, 반치폭 750 Hz). 표면 힘으로 공명이 왼쪽으로 옮겨 가면, 고정된 구동 진동수 f₀에서 진폭이 A₁에서 A₂로 줄어든다. 빨간 곡선의 이동량(400 Hz)은 설명을 위한 예시값이다.</desc>
   <defs><clipPath id="umath-4-afm-cantilever-clip1"><rect x="440" y="48" width="262" height="234"/></clipPath></defs>
   <rect x="24" y="282" width="312" height="30" rx="0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
   <circle cx="34" cy="278" r="6.5" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.2"/>
@@ -85,11 +85,12 @@
   <line x1="535.91" y1="138.58" x2="606.09" y2="138.58" style="stroke:var(--fig-blue);stroke-width:1.5;fill:none"/>
   <path d="M606.09 138.58 L600.09 141.28 L600.09 135.88 Z" style="stroke:none;stroke-width:0;fill:var(--fig-blue);stroke-linejoin:round;stroke-linecap:round"/>
   <path d="M535.91 138.58 L541.91 135.88 L541.91 141.28 Z" style="stroke:none;stroke-width:0;fill:var(--fig-blue);stroke-linejoin:round;stroke-linecap:round"/>
-  <text x="610.3" y="132.58" text-anchor="start" style="font-size:12px;fill:var(--fig-blue);font-weight:600;paint-order:stroke;stroke:var(--fig-paper);stroke-width:4px;stroke-linejoin:round">반치폭</text>
-  <text x="610.3" y="148.58" text-anchor="start" style="font-size:12px;fill:var(--fig-blue);paint-order:stroke;stroke:var(--fig-paper);stroke-width:4px;stroke-linejoin:round">Δf = f₀/Q</text>
+  <text x="638.37" y="132.58" text-anchor="start" style="font-size:12px;fill:var(--fig-blue);font-weight:600;paint-order:stroke;stroke:var(--fig-paper);stroke-width:4px;stroke-linejoin:round">반치폭</text>
+  <text x="638.37" y="148.58" text-anchor="start" style="font-size:12px;fill:var(--fig-blue);paint-order:stroke;stroke:var(--fig-paper);stroke-width:4px;stroke-linejoin:round">Δf = f₀/Q</text>
   <line x1="563.51" y1="72.5" x2="541.06" y2="72.5" style="stroke:var(--fig-red);stroke-width:1.6;fill:none"/>
   <path d="M541.06 72.5 L548.06 69.35 L548.06 75.65 Z" style="stroke:none;stroke-width:0;fill:var(--fig-red);stroke-linejoin:round;stroke-linecap:round"/>
   <text x="529.57" y="60.5" text-anchor="end" style="font-size:12px;fill:var(--fig-red);font-weight:600;paint-order:stroke;stroke:var(--fig-paper);stroke-width:4px;stroke-linejoin:round">표면 힘 → 공명 이동</text>
   <text x="697.32" y="250" text-anchor="end" style="font-size:12px;fill:var(--fig-blue);paint-order:stroke;stroke:var(--fig-paper);stroke-width:4px;stroke-linejoin:round">탐침이 멀 때</text>
-  <text x="444.68" y="180" text-anchor="start" style="font-size:12px;fill:var(--fig-red);paint-order:stroke;stroke:var(--fig-paper);stroke-width:4px;stroke-linejoin:round">표면 근처</text>
+  <text x="444.68" y="145" text-anchor="start" style="font-size:12px;fill:var(--fig-red);paint-order:stroke;stroke:var(--fig-paper);stroke-width:4px;stroke-linejoin:round">표면 근처</text>
+  <text x="440" y="344" text-anchor="start" style="font-size:12px;fill:var(--fig-muted)">빨간 곡선: 공명이 400 Hz 옮겨 간 경우(예시값)</text>
 </svg>

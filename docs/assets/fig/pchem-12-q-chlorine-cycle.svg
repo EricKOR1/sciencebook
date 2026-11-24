@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-pchem-12-q-chlorine-cycle d-pchem-12-q-chlorine-cycle">
+  <title id="t-pchem-12-q-chlorine-cycle">그림 물리화학 12-13 문제 10의 성층권 염소 순환</title>
+  <desc id="d-pchem-12-q-chlorine-cycle">고리 위쪽의 Cl이 O₃와 반응해 ClO와 O₂가 되고, 아래쪽의 ClO가 O 원자와 반응해 Cl과 O₂가 되어 Cl로 돌아온다. 고리 밖으로 빠지는 점선은 Cl + CH₄ → HCl + CH₃, ClO + NO₂ → ClONO₂로 저장 화합물이 생기는 단계이다. 고리의 전체 반응은 비워 두었다.</desc>
+  <style>.pchem-12-q-chlorine-cycle-t{font-size:14px;fill:var(--fig-ink)} .pchem-12-q-chlorine-cycle-s{font-size:13px;fill:var(--fig-muted)} .pchem-12-q-chlorine-cycle-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .pchem-12-q-chlorine-cycle-i{font-size:14px;font-style:italic;fill:var(--fig-ink)} </style>
+  <path d="M364.0,90.4 A110,110 0 0 1 364.0,299.6" style="fill:none;stroke:var(--fig-blue);stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round"/>
+  <polygon points="364.0,299.6 372.3,292.4 375.0,300.6" style="fill:var(--fig-blue);stroke:none"/>
+  <path d="M296.0,299.6 A110,110 0 0 1 296.0,90.4" style="fill:none;stroke:var(--fig-green);stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round"/>
+  <polygon points="296.0,90.4 287.7,97.6 285.0,89.4" style="fill:var(--fig-green);stroke:none"/>
+  <circle cx="330.0" cy="85.0" r="30.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <text x="330.0" y="91.0" text-anchor="middle" class="pchem-12-q-chlorine-cycle-b" style="font-size:17px">Cl</text>
+  <circle cx="330.0" cy="305.0" r="32.0" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:2"/>
+  <text x="330.0" y="311.0" text-anchor="middle" class="pchem-12-q-chlorine-cycle-b" style="font-size:17px">ClO</text>
+  <text x="454.0" y="189.0" text-anchor="start" class="pchem-12-q-chlorine-cycle-t" style="fill:var(--fig-blue)">+ O₃ → O₂</text>
+  <text x="206.0" y="189.0" text-anchor="end" class="pchem-12-q-chlorine-cycle-t" style="fill:var(--fig-green)">+ O → O₂</text>
+  <rect x="278.0" y="177.0" width="104.0" height="34.0" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="330.0" y="200.0" text-anchor="middle" class="pchem-12-q-chlorine-cycle-b">전체: ?</text>
+  <line x1="362.0" y1="85.0" x2="520.0" y2="60.0" style="stroke:var(--fig-red);stroke-width:1.8;stroke-linecap:round;stroke-dasharray:6 4"/>
+  <polygon points="520.0,60.0 513.2,64.2 512.2,58.1" style="fill:var(--fig-red);stroke:none"/>
+  <text x="528.0" y="50.0" text-anchor="start" class="pchem-12-q-chlorine-cycle-t" style="fill:var(--fig-red)">Cl + CH₄ → HCl + CH₃</text>
+  <text x="528.0" y="70.0" text-anchor="start" class="pchem-12-q-chlorine-cycle-s" style="fill:var(--fig-red)">(저장 화합물)</text>
+  <line x1="364.0" y1="305.0" x2="520.0" y2="330.0" style="stroke:var(--fig-red);stroke-width:1.8;stroke-linecap:round;stroke-dasharray:6 4"/>
+  <polygon points="520.0,330.0 512.2,331.9 513.2,325.8" style="fill:var(--fig-red);stroke:none"/>
+  <text x="528.0" y="330.0" text-anchor="start" class="pchem-12-q-chlorine-cycle-t" style="fill:var(--fig-red)">ClO + NO₂ → ClONO₂</text>
+  <text x="528.0" y="350.0" text-anchor="start" class="pchem-12-q-chlorine-cycle-s" style="fill:var(--fig-red)">(저장 화합물)</text>
+</svg>

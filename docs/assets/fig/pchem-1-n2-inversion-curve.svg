@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 450" role="img" aria-labelledby="t-pchem-1-n2-inversion-curve d-pchem-1-n2-inversion-curve">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 472" role="img" aria-labelledby="t-pchem-1-n2-inversion-curve d-pchem-1-n2-inversion-curve">
   <title id="t-pchem-1-n2-inversion-curve">그림 물리화학 1-11 N₂의 등엔탈피선과 역전 곡선</title>
   <desc id="d-pchem-1-n2-inversion-curve">N₂의 T–p 도표에 등엔탈피선(가는 실선)과 그 꼭짓점을 이은 역전 곡선(굵은 점선)을 그렸다. 역전 곡선은 p → 0에서 약 620 K(위쪽 끝)이고 최대 압력은 약 380 bar이다. 곡선 안쪽에서는 μ &gt; 0이어서 조임 팽창하면 식고, 바깥쪽에서는 μ &lt; 0이어서 데워진다. 등엔탈피선 위 한 점의 접선 기울기가 그 상태의 μ = (∂T/∂p)_H이다. 역전 곡선 실측값에 맞춘 펑–로빈슨 식으로 계산했다.</desc>
   <style>.pchem-1-n2-inversion-curve-t{font-size:14px;fill:var(--fig-ink)} .pchem-1-n2-inversion-curve-s{font-size:13px;fill:var(--fig-muted)} .pchem-1-n2-inversion-curve-b{font-size:14px;fill:var(--fig-ink);font-weight:600} .pchem-1-n2-inversion-curve-l{font-size:15px;fill:var(--fig-ink);font-weight:600} .pchem-1-n2-inversion-curve-m{font-size:13px;fill:var(--fig-ink)}</style>
@@ -92,9 +92,8 @@
   <path d="M90.2 311.7 L103.1 314.2 L100.7 303.7 Z" style="fill:var(--fig-violet);stroke:none"/>
   <circle cx="307.5" cy="284.8" r="5" style="fill:var(--fig-violet)"/>
   <path d="M185.1 291.6 L429.9 278.0" clip-path="url(#pchem-1-n2-inversion-curve-cp1)" style="fill:none;stroke:var(--fig-violet);stroke-width:1.5;stroke-dasharray:4 3"/>
-  <text x="328.9" y="264.8" class="pchem-1-n2-inversion-curve-m" style="fill:var(--fig-violet)"><tspan>접선 기울기 = μ = (∂</tspan><tspan style="font-style:italic;">T</tspan><tspan>/∂</tspan><tspan style="font-style:italic;">p</tspan><tspan>)</tspan><tspan dy="4" style="font-size:10px;font-style:italic;">H</tspan></text>
-  <text x="157.6" y="338.8" class="pchem-1-n2-inversion-curve-b" style="fill:var(--fig-violet)"><tspan>조임 팽창(</tspan><tspan style="font-style:italic;">H</tspan><tspan> 일정): 압력 ↓, 온도 ↓</tspan></text>
-  <text x="307.5" y="156.1" class="pchem-1-n2-inversion-curve-b" text-anchor="middle"><tspan>μ &gt; 0: 팽창하면 식는다</tspan></text>
+  <text x="384" y="464" class="pchem-1-n2-inversion-curve-s" text-anchor="middle" style="fill:var(--fig-violet)"><tspan>보라색: 조임 팽창(</tspan><tspan style="font-style:italic;">H</tspan><tspan> 일정, 압력 ↓ → 온도 ↓). 보라 점선: 출발점의 접선, 기울기 = μ = (∂</tspan><tspan style="font-style:italic;">T</tspan><tspan>/∂</tspan><tspan style="font-style:italic;">p</tspan><tspan>)</tspan><tspan dy="4" style="font-size:10px;font-style:italic;">H</tspan></text>
+  <text x="307.5" y="174.5" class="pchem-1-n2-inversion-curve-b" text-anchor="middle"><tspan>μ &gt; 0: 팽창하면 식는다</tspan></text>
   <text x="682.4" y="347.3" class="pchem-1-n2-inversion-curve-b" text-anchor="end"><tspan>μ &lt; 0: 팽창하면</tspan></text>
   <text x="682.4" y="366.3" class="pchem-1-n2-inversion-curve-b" text-anchor="end"><tspan>데워진다</tspan></text>
   <text x="682.4" y="48.9" class="pchem-1-n2-inversion-curve-b" text-anchor="end"><tspan>μ &lt; 0</tspan></text>

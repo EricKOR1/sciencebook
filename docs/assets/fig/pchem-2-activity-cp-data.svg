@@ -70,7 +70,8 @@
   <circle cx="250.0" cy="87.5" r="3.8" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
   <circle cx="295.0" cy="83.6" r="3.8" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
   <circle cx="338.3" cy="81.5" r="3.8" style="fill:var(--fig-ink);stroke:none;stroke-width:1.5"/>
-  <text x="82.6" y="261.7" class="pc2activity-cp-data-s">0~10 K: T³ 외삽</text>
+  <line x1="77.2" y1="287.4" x2="164.5" y2="260.0" style="stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="167.2" y="264.0" class="pc2activity-cp-data-s">0~10 K: T³ 외삽(점선)</text>
   <line x1="440.0" y1="50.0" x2="440.0" y2="290.0" style="stroke:var(--fig-line);stroke-width:0.6;opacity:0.45"/>
   <line x1="440.0" y1="290.0" x2="440.0" y2="295.0" style="stroke:var(--fig-muted);stroke-width:1"/>
   <text x="440.0" y="309.0" text-anchor="middle" class="pc2activity-cp-data-ax">0</text>

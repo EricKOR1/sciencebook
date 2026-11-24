@@ -28,11 +28,11 @@ Sims.register('mj-mu-temperature', {
       format: function (v) { return v.toFixed(1) + ' cm³/mol'; }, onInput: function (v) { st.V[0] = v; draw(); } }));
     sl.push(api.slider({ id: 'mj-mu-temperature-vl', label: 'V_m(l)', min: 10, max: 50, step: 0.1, value: st.V[1],
       format: function (v) { return v.toFixed(1) + ' cm³/mol'; }, onInput: function (v) { st.V[1] = v; draw(); } }));
-    sl.push(api.slider({ id: 'mj-mu-temperature-ss', label: 'S_m(s)', min: 20, max: 100, step: 0.5, value: st.S[0],
+    sl.push(api.slider({ id: 'mj-mu-temperature-ss', label: 'S_m(s)', min: 20, max: 100, step: 0.1, value: st.S[0],
       format: function (v) { return v.toFixed(1) + ' J/(mol·K)'; }, onInput: function (v) { st.S[0] = v; draw(); } }));
-    sl.push(api.slider({ id: 'mj-mu-temperature-sl', label: 'S_m(l)', min: 30, max: 140, step: 0.5, value: st.S[1],
+    sl.push(api.slider({ id: 'mj-mu-temperature-sl', label: 'S_m(l)', min: 30, max: 140, step: 0.1, value: st.S[1],
       format: function (v) { return v.toFixed(1) + ' J/(mol·K)'; }, onInput: function (v) { st.S[1] = v; draw(); } }));
-    sl.push(api.slider({ id: 'mj-mu-temperature-sg', label: 'S_m(g) (1 bar)', min: 120, max: 260, step: 0.5, value: st.S[2],
+    sl.push(api.slider({ id: 'mj-mu-temperature-sg', label: 'S_m(g) (1 bar)', min: 120, max: 260, step: 0.1, value: st.S[2],
       format: function (v) { return v.toFixed(1) + ' J/(mol·K)'; }, onInput: function (v) { st.S[2] = v; draw(); } }));
 
     function fmtP(v) {
@@ -62,7 +62,7 @@ Sims.register('mj-mu-temperature', {
     }
     function triple() {
       var f = function (lp) { var P = Math.pow(10, lp); return cross(0, 1, P) - cross(1, 2, P); };
-      var lo = -9, hi = 4, flo = f(lo), fhi = f(hi);
+      var lo = -9, hi = 3, flo = f(lo), fhi = f(hi);
       if (!isFinite(flo) || !isFinite(fhi) || (flo > 0) === (fhi > 0)) return null;
       for (var n = 0; n < 80; n++) { var m = (lo + hi) / 2, fm = f(m); if ((fm > 0) === (flo > 0)) { lo = m; flo = fm; } else hi = m; }
       var P = Math.pow(10, (lo + hi) / 2);

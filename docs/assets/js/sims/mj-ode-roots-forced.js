@@ -1,7 +1,7 @@
 /* 수학 도구 4 상미분방정식: 특성근의 복소 평면 위치와 해의 모양, 강제 진동의 과도·정상 응답 분해 */
 Sims.register('mj-ode-roots-forced', {
   title: '특성근의 위치로 읽는 감쇠·강제 진동 — x = xₕ + xₚ',
-  caption: '감쇠 γ/ω₀를 0에서 2까지 움직이며 왼쪽 복소 평면의 두 특성근(파란 점)이 반지름 ω₀인 원을 따라 내려와 실수축에서 만난 뒤 갈라지는 모습과, 오른쪽 해의 모양(진동 → 임계 → 느린 복귀)을 함께 보자. 구동 진폭을 올리면 해가 과도 응답 xₕ(주황 점선)와 정상 상태 xₚ(보라 점선)의 합으로 나뉜다. 복소 평면의 초록 점 iω는 구동 각진동수이며, 정상 상태 진폭은 iω에서 두 근까지의 거리의 곱에 반비례한다(|X| = f/(d₁d₂)). 그래서 감쇠가 작아 근이 허수축에 가까울 때 ω ≈ ω₀이면 공명이 크다. γ = 0, ω = ω₀이면 진폭이 t에 비례해 커지고, ω가 ω₀에 가까우면 맥놀이가 생긴다. ω₀ = 2π rad/s(1 Hz)로 고정했고, 구동력은 f cos ωt, 진폭은 정적 변형 f/ω₀²을 단위로 나타냈다.',
+  caption: '감쇠 γ/ω₀를 0에서 2까지 움직이며 왼쪽 복소 평면의 두 특성근(파란 점)이 반지름 ω₀인 원을 따라 실수축 쪽으로 움직여 −ω₀에서 만난 뒤 실수축 위에서 갈라지는 모습과, 오른쪽 해의 모양(진동 → 임계 → 느린 복귀)을 함께 보자. 구동 진폭을 올리면 해가 과도 응답 xₕ(주황 점선)와 정상 상태 xₚ(보라 점선)의 합으로 나뉜다. 복소 평면의 초록 점 iω는 구동 각진동수이며, 정상 상태 진폭은 iω에서 두 근까지의 거리의 곱에 반비례한다(|X| = f/(d₁d₂)). 그래서 감쇠가 작아 근이 허수축에 가까울 때 ω ≈ ω₀이면 공명이 크다. γ = 0, ω = ω₀이면 진폭이 t에 비례해 커지고, ω가 ω₀에 가까우면 맥놀이가 생긴다. ω₀ = 2π rad/s(1 Hz)로 고정했고, 구동력은 f cos ωt이고, 정상 상태 진폭 |X|는 정적 변형 f/ω₀²을 단위로 나타냈다(x와 f/ω₀²은 x(0)과 같은 길이 단위).',
   init: function (api) {
     var W0 = 2 * Math.PI, TMAX = 10;
     var st = { z: 0.1, F: 0.5, r: 1.5, x0: 1 };
@@ -83,7 +83,7 @@ Sims.register('mj-ode-roots-forced', {
       else { P = { x: 0, y: 0, w: W * 0.46, h: H }; G = { x: W * 0.47, y: 0, w: W * 0.53, h: H }; }
 
       // ── 복소 평면 (단위: ω₀)
-      var reMin = -4.0, reMax = 0.55, imMax = 1.45;
+      var reMin = -4.0, reMax = 0.55, imMax = 2.15;   // 구동점 iω(ω ≤ 2ω₀)가 좁은 화면에서도 안에 들어오게
       var pl = P.x + 8, pr = P.x + P.w - 8, pt = P.y + 26, pb = P.y + P.h - 26;
       var sc = Math.min((pr - pl) / (reMax - reMin), (pb - pt) / (2 * imMax));
       var ox = pr - reMax * sc, oy = (pt + pb) / 2;
@@ -169,7 +169,7 @@ Sims.register('mj-ode-roots-forced', {
         ctx.fillStyle = T.figInk; ctx.fillText(it[0], cx + 25, cy);
       });
       ctx.fillStyle = T.figMuted; ctx.textAlign = 'right'; ctx.font = '11px ' + T.fontBody;
-      ctx.fillText('세로: x / (f/ω₀²) 단위, x(0) = ' + st.x0.toFixed(2), gr, gt - (narrow ? 10 : 6));
+      ctx.fillText('세로: x(t), x(0) = ' + st.x0.toFixed(2), gr, gt - (narrow ? 10 : 6));
 
       function arr(a) {
         ctx.beginPath();

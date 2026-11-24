@@ -1,7 +1,7 @@
 /* 수학 도구 6 불확정 관계: 펄스 모양·폭·반송 진동수를 바꾸며 시간 신호와 파워 스펙트럼 |F(ν)|²의 폭을 비교 — Δt·Δν 는 모양마다 정해진 상수 */
 Sims.register('mj-time-freq-uncertainty', {
   title: '짧은 펄스, 넓은 스펙트럼 — 시간–진동수 불확정성 탐색기',
-  caption: '펄스 모양을 고르고 폭 슬라이더를 움직여 보자. 위는 시간 신호 Re f(t)(파랑)와 포락선(점선), 아래는 파워 스펙트럼 |F(ν)|²(높이를 1로 맞춤)이다. 폭을 줄이면 스펙트럼이 그만큼 넓어지고, 두 폭의 곱은 모양마다 정해진 상수로 변하지 않는다: 가우스 0.441(가장 작다), 사각 펄스 0.886. 지수 감쇠는 진폭 감쇠 시간 T₂와 로렌츠 반치 전폭 1/(πT₂)의 곱 1/π ≈ 0.318을 보인다(반치 전폭으로 정의한 폭은 모양마다 상수가 다르므로 표준 편차로 정의한 Δt·Δω ≥ 1/2와 직접 비교하지 않는다). 반송 진동수는 스펙트럼의 중심만 옮기고 폭은 바꾸지 않는다. 스펙트럼은 복소 신호 e^{2πiν₀t}×포락선의 것으로, 음의 진동수 쪽 거울상은 생략했다.',
+  caption: '펄스 모양을 고르고 폭 슬라이더를 움직여 보자. 위는 시간 신호 Re f(t)(파랑)와 포락선(점선), 아래는 파워 스펙트럼 |F(ν)|²(높이를 1로 맞춤)이다. 폭을 줄이면 스펙트럼이 그만큼 넓어지고, 두 폭의 곱은 모양마다 정해진 상수로 변하지 않는다: 가우스 0.441(가장 작다), 사각 펄스 0.886. 지수 감쇠는 진폭 감쇠 시간 T₂와 로렌츠 반치 전폭 1/(πT₂)의 곱 1/π ≈ 0.318을 보인다(반치 전폭으로 정의한 폭은 모양마다 상수가 다르므로 표준 편차로 정의한 Δt·Δω ≥ 1/2와 직접 비교하지 않는다). 반송 진동수는 스펙트럼의 중심만 옮기고 폭은 바꾸지 않는다. 스펙트럼은 복소 신호 exp(2πiν₀t)×포락선의 것으로, 음의 진동수 쪽 거울상은 생략했다.',
   init: function (api) {
     var LN2 = Math.log(2);
     var state = { shape: 'gauss', w: 1.0, nu0: 3.0 };
@@ -105,9 +105,9 @@ Sims.register('mj-time-freq-uncertainty', {
       ctx.strokeStyle = T.figRed; ctx.lineWidth = 1.5; ctx.beginPath();
       ctx.moveTo(BX(state.nu0 - dn / 2), BY(0.5)); ctx.lineTo(BX(state.nu0 + dn / 2), BY(0.5)); ctx.stroke();
       ctx.fillStyle = T.figInk; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'left';
-      ctx.fillText('파워 스펙트럼 |F(ν)|² (높이 1로 맞춤)', bot.x, bot.y - 10);
+      ctx.fillText(w < 560 ? '|F(ν)|² (높이 1)' : '파워 스펙트럼 |F(ν)|² (높이 1로 맞춤)', bot.x, bot.y - 10);
       ctx.fillStyle = T.figRed; ctx.textAlign = 'right';
-      ctx.fillText('빨간 선: 반치 전폭 Δν', bot.x + bot.w, bot.y - 10);
+      ctx.fillText(w < 560 ? '빨간 선: Δν' : '빨간 선: 반치 전폭 Δν', bot.x + bot.w, bot.y - 10);
       // readouts
       rT.set((state.shape === 'exp' ? 'T₂ = ' : state.shape === 'rect' ? 'τ = ' : '') + W.toFixed(2) + ' ms');
       rN.set(dn.toFixed(3) + ' kHz');

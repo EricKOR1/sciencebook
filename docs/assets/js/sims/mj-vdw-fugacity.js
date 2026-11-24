@@ -119,7 +119,7 @@ Sims.register('mj-vdw-fugacity', {
       panel(T, rs[0], { title: '압축 인자 Z = pVₘ/RT', ylab: 'Z', yr: zr,
         refs: [{ pts: [[0, 1], [PMAX, 1]], col: T.figMuted }], curves: [{ pts: Zs, col: T.figBlue }].concat(st.approx ? [{ pts: Za, col: T.figAmber, w: 1.8, dash: [3, 3] }] : []),
         pt: [st.p, cur.Z],
-        labels: function (sx, sy, L, Rr) { ctx.font = '11px ' + T.fontBody; ctx.fillStyle = T.figMuted; ctx.textAlign = 'right'; ctx.fillText('Z = 1 (이상 기체)', Rr - 4, sy(1) + (zr[1] - 1 > (zr[1] - zr[0]) * 0.15 ? -5 : 14)); } });
+        labels: function (sx, sy, L, Rr) { ctx.font = '11px ' + T.fontBody; ctx.fillStyle = T.figMuted; ctx.textAlign = 'left'; ctx.fillText('Z = 1 (이상 기체)', L + 8, sy(1) + (zr[1] - 1 > (zr[1] - zr[0]) * 0.15 ? -5 : 14)); } });
       // 2) (Z−1)/p 와 넓이
       var yv = ZP.map(function (q) { return q[1] * 1e3; });
       if (st.approx) yv.push(Bv / RT * 1e3);

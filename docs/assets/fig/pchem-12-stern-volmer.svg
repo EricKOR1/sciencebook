@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-labelledby="t-pchem-12-stern-volmer d-pchem-12-stern-volmer">
+  <title id="t-pchem-12-stern-volmer">그림 물리화학 12-9 슈테른–폴머 도시</title>
+  <desc id="d-pchem-12-stern-volmer">예제 10의 점 (0, 1.00), (0.010, 1.40), (0.020, 1.80), (0.040, 2.60)이 직선 I₀/I = 1 + 40[Q] 위에 놓인다. 세로 절편은 1, 기울기는 K_SV = kq τ₀ = 40 M⁻¹이다. 오른쪽 도식은 들뜬 분자 A*가 사라지는 세 경로(형광 k_f, 비복사 소멸 k_nr, 소광 k_q[Q])이다.</desc>
+  <style>.pchem-12-stern-volmer-t{font-size:14px;fill:var(--fig-ink)} .pchem-12-stern-volmer-s{font-size:13px;fill:var(--fig-muted)} .pchem-12-stern-volmer-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .pchem-12-stern-volmer-i{font-size:14px;font-style:italic;fill:var(--fig-ink)} </style>
+  <defs><clipPath id="pchem-12-stern-volmer-c"><rect x="80.0" y="30.0" width="380.0" height="260.0"/></clipPath></defs>
+  <rect x="80.0" y="30.0" width="380.0" height="260.0" rx="0" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <line x1="80.0" y1="290.0" x2="80.0" y2="294.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
+  <text x="80.0" y="308.0" text-anchor="middle" class="pchem-12-stern-volmer-s">0</text>
+  <line x1="156.0" y1="290.0" x2="156.0" y2="294.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
+  <line x1="156.0" y1="30.0" x2="156.0" y2="290.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-linecap:round;stroke-dasharray:2 4"/>
+  <text x="156.0" y="308.0" text-anchor="middle" class="pchem-12-stern-volmer-s">0.01</text>
+  <line x1="232.0" y1="290.0" x2="232.0" y2="294.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
+  <line x1="232.0" y1="30.0" x2="232.0" y2="290.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-linecap:round;stroke-dasharray:2 4"/>
+  <text x="232.0" y="308.0" text-anchor="middle" class="pchem-12-stern-volmer-s">0.02</text>
+  <line x1="308.0" y1="290.0" x2="308.0" y2="294.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
+  <line x1="308.0" y1="30.0" x2="308.0" y2="290.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-linecap:round;stroke-dasharray:2 4"/>
+  <text x="308.0" y="308.0" text-anchor="middle" class="pchem-12-stern-volmer-s">0.03</text>
+  <line x1="384.0" y1="290.0" x2="384.0" y2="294.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
+  <line x1="384.0" y1="30.0" x2="384.0" y2="290.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-linecap:round;stroke-dasharray:2 4"/>
+  <text x="384.0" y="308.0" text-anchor="middle" class="pchem-12-stern-volmer-s">0.04</text>
+  <line x1="460.0" y1="290.0" x2="460.0" y2="294.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
+  <text x="460.0" y="308.0" text-anchor="middle" class="pchem-12-stern-volmer-s">0.05</text>
+  <line x1="76.0" y1="290.0" x2="80.0" y2="290.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
+  <text x="72.0" y="294.5" text-anchor="end" class="pchem-12-stern-volmer-s">1.0</text>
+  <line x1="76.0" y1="225.0" x2="80.0" y2="225.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
+  <line x1="80.0" y1="225.0" x2="460.0" y2="225.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-linecap:round;stroke-dasharray:2 4"/>
+  <text x="72.0" y="229.5" text-anchor="end" class="pchem-12-stern-volmer-s">1.5</text>
+  <line x1="76.0" y1="160.0" x2="80.0" y2="160.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
+  <line x1="80.0" y1="160.0" x2="460.0" y2="160.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-linecap:round;stroke-dasharray:2 4"/>
+  <text x="72.0" y="164.5" text-anchor="end" class="pchem-12-stern-volmer-s">2.0</text>
+  <line x1="76.0" y1="95.0" x2="80.0" y2="95.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
+  <line x1="80.0" y1="95.0" x2="460.0" y2="95.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-linecap:round;stroke-dasharray:2 4"/>
+  <text x="72.0" y="99.5" text-anchor="end" class="pchem-12-stern-volmer-s">2.5</text>
+  <line x1="76.0" y1="30.0" x2="80.0" y2="30.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
+  <text x="72.0" y="34.5" text-anchor="end" class="pchem-12-stern-volmer-s">3.0</text>
+  <text x="270.0" y="326.0" text-anchor="middle" class="pchem-12-stern-volmer-t">[Q] (M)</text>
+  <text x="34.0" y="160.0" text-anchor="middle" class="pchem-12-stern-volmer-t" transform="rotate(-90 34.0 160.0)">I₀ / I</text>
+  <polyline points="80.0,290.0 460.0,30.0" style="fill:none;stroke:var(--fig-blue);stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round" clip-path="url(#pchem-12-stern-volmer-c)"/>
+  <circle cx="80.0" cy="290.0" r="4.5" style="fill:var(--fig-ink);stroke:var(--fig-paper);stroke-width:1.5"/>
+  <circle cx="156.0" cy="238.0" r="4.5" style="fill:var(--fig-ink);stroke:var(--fig-paper);stroke-width:1.5"/>
+  <circle cx="232.0" cy="186.0" r="4.5" style="fill:var(--fig-ink);stroke:var(--fig-paper);stroke-width:1.5"/>
+  <circle cx="384.0" cy="82.0" r="4.5" style="fill:var(--fig-ink);stroke:var(--fig-paper);stroke-width:1.5"/>
+  <rect x="88.4" y="266.0" width="86.0" height="18.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
+  <text x="91.4" y="278.0" text-anchor="start" class="pchem-12-stern-volmer-s">세로 절편 = 1</text>
+  <rect x="63.3" y="101.5" width="202.1" height="19.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
+  <text x="262.4" y="114.5" text-anchor="end" class="pchem-12-stern-volmer-t" style="fill:var(--fig-blue)">기울기 K_SV = kq τ₀ = 40 M⁻¹</text>
+  <rect x="490.0" y="30.0" width="220.0" height="230.0" rx="6" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="502.0" y="50.0" text-anchor="start" class="pchem-12-stern-volmer-b">들뜬 상태가 사라지는 길</text>
+  <circle cx="526.0" cy="155.0" r="20.0" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.5"/>
+  <text x="526.0" y="160.0" text-anchor="middle" class="pchem-12-stern-volmer-b">A*</text>
+  <line x1="548.0" y1="137.5" x2="598.0" y2="85.0" style="stroke:var(--fig-violet);stroke-width:1.8;stroke-linecap:round"/>
+  <polygon points="598.0,85.0 595.2,92.5 590.7,88.2" style="fill:var(--fig-violet);stroke:none"/>
+  <text x="604.0" y="86.0" text-anchor="start" class="pchem-12-stern-volmer-t">A + hν_f</text>
+  <text x="604.0" y="103.0" text-anchor="start" class="pchem-12-stern-volmer-s" style="fill:var(--fig-violet)">형광 k_f</text>
+  <line x1="548.0" y1="155.0" x2="598.0" y2="155.0" style="stroke:var(--fig-red);stroke-width:1.8;stroke-linecap:round"/>
+  <polygon points="598.0,155.0 590.6,158.1 590.6,151.9" style="fill:var(--fig-red);stroke:none"/>
+  <text x="604.0" y="156.0" text-anchor="start" class="pchem-12-stern-volmer-t">A + 열</text>
+  <text x="604.0" y="173.0" text-anchor="start" class="pchem-12-stern-volmer-s" style="fill:var(--fig-red)">비복사 k_nr</text>
+  <line x1="548.0" y1="172.5" x2="598.0" y2="225.0" style="stroke:var(--fig-blue);stroke-width:1.8;stroke-linecap:round"/>
+  <polygon points="598.0,225.0 590.7,221.8 595.2,217.5" style="fill:var(--fig-blue);stroke:none"/>
+  <text x="604.0" y="226.0" text-anchor="start" class="pchem-12-stern-volmer-t">A + Q</text>
+  <text x="604.0" y="243.0" text-anchor="start" class="pchem-12-stern-volmer-s" style="fill:var(--fig-blue)">+ Q, 소광 k_q</text>
+</svg>

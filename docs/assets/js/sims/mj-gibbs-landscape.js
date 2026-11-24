@@ -23,7 +23,7 @@ Sims.register('mj-gibbs-landscape', {
 
     var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.45 : 0.5; }, label: '몰 깁스 에너지의 온도 의존과 압력 의존 그래프' });
     var ctx = cv.ctx;
-    var rS = api.readout('Sₘ(T, p)'), rV = api.readout('Vₘ(T, p)'), rT = api.readout('(∂G/∂T)ₚ = −Sₘ'), rP = api.readout('(∂G/∂p)_T = Vₘ');
+    var rS = api.readout('Sₘ(T, p)'), rV = api.readout('Vₘ(T, p)'), rT = api.readout('(∂G/∂T), p 일정 = −Sₘ'), rP = api.readout('(∂G/∂p), T 일정 = Vₘ');
 
     var g = api.group();
     var btns = subs.map(function (s, k) {
@@ -42,7 +42,7 @@ Sims.register('mj-gibbs-landscape', {
       return (r < 1.5 ? 1 : r < 3 ? 2 : r < 7 ? 5 : 10) * m;
     }
     function fmt(v) {
-      var a = Math.abs(v), s = a >= 10 ? v.toFixed(0) : a >= 1 ? v.toFixed(1) : a >= 0.1 ? v.toFixed(2) : v.toFixed(3);
+      var a = Math.abs(v), s = String(+(a >= 10 ? v.toFixed(0) : a >= 1 ? v.toFixed(1) : a >= 0.1 ? v.toFixed(2) : v.toFixed(3)));
       if (+s === 0) s = '0';
       return s.replace('-', '−');
     }
@@ -111,7 +111,7 @@ Sims.register('mj-gibbs-landscape', {
         curves: shown.map(function (s) { return { f: function (t) { return GT(s, t, st.p); }, col: T[s.col], bold: s === cur || st.all }; }),
         pts: shown.map(function (s) { return { x: st.T, y: GT(s, st.T, st.p), slope: -S(s, st.T, st.p) / 1000, col: T[s.col] }; }),
         legend: st.all ? subs.map(function (s) { return { name: s.name, col: T[s.col] }; }) : null, legendRight: true,
-        note: st.all ? null : '기울기 = −Sₘ = ' + (-S(cur, st.T, st.p)).toFixed(1).replace('-', '−') + ' J/(mol·K)', noteAlign: 'left',
+        note: st.all ? null : '기울기 = −Sₘ = ' + (-S(cur, st.T, st.p)).toFixed(1).replace('-', '−') + ' J/(mol·K)', noteAlign: 'right', noteTop: true,
       });
       // 오른쪽: G(p)
       var yr = [0, 0];

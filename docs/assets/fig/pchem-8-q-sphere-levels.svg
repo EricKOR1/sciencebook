@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t-pchem-8-q-sphere-levels d-pchem-8-q-sphere-levels">
+  <title id="t-pchem-8-q-sphere-levels">그림 물리화학 8-16 문제 19 풀이: 구 위의 자유 전자 모형의 준위 채우기</title>
+  <desc id="d-pchem-8-q-sphere-levels">C₆₀의 π 전자 60개를 구 위의 자유 전자로 본 준위 E = l(l + 1)(ħ²/2mR²). l = 0~6의 높이는 0, 2, 6, 12, 20, 30, 42이고 각 준위의 자리는 2(2l + 1) = 2, 6, 10, 14, 18, 22, 26개, 누적 2, 8, 18, 32, 50, 72개이다. l = 0~4가 가득(50개) 차고 l = 5는 22자리 중 10자리만 찬다. l = 5 → 6 들뜸은 ΔE = 12ħ²/2mR² = 3.63 eV.</desc>
+  <style>.pchem-8-q-sphere-levels-lbl{font-size:14px;fill:var(--fig-ink)} .pchem-8-q-sphere-levels-sm{font-size:13px;fill:var(--fig-muted)} .pchem-8-q-sphere-levels-b{font-size:14px;font-weight:600;fill:var(--fig-ink)} .pchem-8-q-sphere-levels-tk{font-size:13px;fill:var(--fig-muted)} .pchem-8-q-sphere-levels-ax{font-size:14px;fill:var(--fig-ink)} .pchem-8-q-sphere-levels-big{font-size:16px;font-weight:700;fill:var(--fig-ink)} .pchem-8-q-sphere-levels-red{font-size:14px;fill:var(--fig-red)} .pchem-8-q-sphere-levels-redb{font-size:14px;font-weight:600;fill:var(--fig-red)} .pchem-8-q-sphere-levels-blue{font-size:14px;fill:var(--fig-blue)} .pchem-8-q-sphere-levels-blueb{font-size:14px;font-weight:600;fill:var(--fig-blue)} .pchem-8-q-sphere-levels-green{font-size:14px;fill:var(--fig-green)} .pchem-8-q-sphere-levels-greenb{font-size:14px;font-weight:600;fill:var(--fig-green)} .pchem-8-q-sphere-levels-amber{font-size:14px;fill:var(--fig-amber)} .pchem-8-q-sphere-levels-amberb{font-size:14px;font-weight:600;fill:var(--fig-amber)} .pchem-8-q-sphere-levels-violet{font-size:14px;fill:var(--fig-violet)} .pchem-8-q-sphere-levels-violetb{font-size:14px;font-weight:600;fill:var(--fig-violet)} .pchem-8-q-sphere-levels-teal{font-size:14px;fill:var(--fig-teal)} .pchem-8-q-sphere-levels-tealb{font-size:14px;font-weight:600;fill:var(--fig-teal)} .pchem-8-q-sphere-levels-accent{font-size:14px;fill:var(--fig-accent)} .pchem-8-q-sphere-levels-accentb{font-size:14px;font-weight:600;fill:var(--fig-accent)}</style>
+  <line x1="90.0" y1="368.3" x2="90.0" y2="26.0" style="stroke:var(--fig-muted);stroke-width:1.3"/>
+  <text x="44.0" y="204.9" text-anchor="middle" transform="rotate(-90 44.0 204.9)" class="pchem-8-q-sphere-levels-ax">E / (ħ<tspan baseline-shift="super" style="font-size:75%">2</tspan>/2mR<tspan baseline-shift="super" style="font-size:75%">2</tspan>)</text>
+  <line x1="85.0" y1="368.3" x2="90.0" y2="368.3" style="stroke:var(--fig-muted);stroke-width:1.3"/>
+  <text x="82.0" y="372.8" text-anchor="end" class="pchem-8-q-sphere-levels-tk">0</text>
+  <text x="98.0" y="373.3" class="pchem-8-q-sphere-levels-b">l = 0</text>
+  <rect x="150.0" y="362.8" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="160.0" y="362.8" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <text x="422.0" y="373.3" class="pchem-8-q-sphere-levels-lbl">2자리, 누적 2</text>
+  <line x1="85.0" y1="352.8" x2="90.0" y2="352.8" style="stroke:var(--fig-muted);stroke-width:1.3"/>
+  <text x="82.0" y="357.3" text-anchor="end" class="pchem-8-q-sphere-levels-tk">2</text>
+  <text x="98.0" y="357.8" class="pchem-8-q-sphere-levels-b">l = 1</text>
+  <rect x="150.0" y="347.3" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="160.0" y="347.3" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="170.0" y="347.3" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="180.0" y="347.3" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="190.0" y="347.3" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="200.0" y="347.3" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <text x="422.0" y="357.8" class="pchem-8-q-sphere-levels-lbl">6자리, 누적 8</text>
+  <line x1="85.0" y1="321.6" x2="90.0" y2="321.6" style="stroke:var(--fig-muted);stroke-width:1.3"/>
+  <text x="82.0" y="326.1" text-anchor="end" class="pchem-8-q-sphere-levels-tk">6</text>
+  <text x="98.0" y="326.6" class="pchem-8-q-sphere-levels-b">l = 2</text>
+  <rect x="150.0" y="316.1" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="160.0" y="316.1" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="170.0" y="316.1" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="180.0" y="316.1" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="190.0" y="316.1" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="200.0" y="316.1" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="210.0" y="316.1" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="220.0" y="316.1" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="230.0" y="316.1" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="240.0" y="316.1" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <text x="422.0" y="326.6" class="pchem-8-q-sphere-levels-lbl">10자리, 누적 18</text>
+  <line x1="85.0" y1="275.0" x2="90.0" y2="275.0" style="stroke:var(--fig-muted);stroke-width:1.3"/>
+  <text x="82.0" y="279.5" text-anchor="end" class="pchem-8-q-sphere-levels-tk">12</text>
+  <text x="98.0" y="280.0" class="pchem-8-q-sphere-levels-b">l = 3</text>
+  <rect x="150.0" y="269.5" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="160.0" y="269.5" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="170.0" y="269.5" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="180.0" y="269.5" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="190.0" y="269.5" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="200.0" y="269.5" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="210.0" y="269.5" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="220.0" y="269.5" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="230.0" y="269.5" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="240.0" y="269.5" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="250.0" y="269.5" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="260.0" y="269.5" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="270.0" y="269.5" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="280.0" y="269.5" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <text x="422.0" y="280.0" class="pchem-8-q-sphere-levels-lbl">14자리, 누적 32</text>
+  <line x1="85.0" y1="212.7" x2="90.0" y2="212.7" style="stroke:var(--fig-muted);stroke-width:1.3"/>
+  <text x="82.0" y="217.2" text-anchor="end" class="pchem-8-q-sphere-levels-tk">20</text>
+  <text x="98.0" y="217.7" class="pchem-8-q-sphere-levels-b">l = 4</text>
+  <rect x="150.0" y="207.2" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="160.0" y="207.2" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="170.0" y="207.2" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="180.0" y="207.2" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="190.0" y="207.2" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="200.0" y="207.2" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="210.0" y="207.2" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="220.0" y="207.2" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="230.0" y="207.2" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="240.0" y="207.2" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="250.0" y="207.2" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="260.0" y="207.2" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="270.0" y="207.2" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="280.0" y="207.2" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="290.0" y="207.2" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="300.0" y="207.2" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="310.0" y="207.2" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="320.0" y="207.2" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <text x="422.0" y="217.7" class="pchem-8-q-sphere-levels-lbl">18자리, 누적 50</text>
+  <line x1="85.0" y1="134.9" x2="90.0" y2="134.9" style="stroke:var(--fig-muted);stroke-width:1.3"/>
+  <text x="82.0" y="139.4" text-anchor="end" class="pchem-8-q-sphere-levels-tk">30</text>
+  <text x="98.0" y="139.9" class="pchem-8-q-sphere-levels-b">l = 5</text>
+  <rect x="150.0" y="129.4" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="160.0" y="129.4" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="170.0" y="129.4" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="180.0" y="129.4" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="190.0" y="129.4" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="200.0" y="129.4" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="210.0" y="129.4" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="220.0" y="129.4" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="230.0" y="129.4" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="240.0" y="129.4" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
+  <rect x="250.0" y="129.4" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="260.0" y="129.4" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="270.0" y="129.4" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="280.0" y="129.4" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="290.0" y="129.4" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="300.0" y="129.4" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="310.0" y="129.4" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="320.0" y="129.4" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="330.0" y="129.4" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="340.0" y="129.4" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="350.0" y="129.4" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="360.0" y="129.4" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="422.0" y="139.9" class="pchem-8-q-sphere-levels-redb">22자리, 누적 72</text>
+  <line x1="85.0" y1="41.6" x2="90.0" y2="41.6" style="stroke:var(--fig-muted);stroke-width:1.3"/>
+  <text x="82.0" y="46.1" text-anchor="end" class="pchem-8-q-sphere-levels-tk">42</text>
+  <text x="98.0" y="46.6" class="pchem-8-q-sphere-levels-b">l = 6</text>
+  <rect x="150.0" y="36.1" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="160.0" y="36.1" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="170.0" y="36.1" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="180.0" y="36.1" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="190.0" y="36.1" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="200.0" y="36.1" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="210.0" y="36.1" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="220.0" y="36.1" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="230.0" y="36.1" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="240.0" y="36.1" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="250.0" y="36.1" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="260.0" y="36.1" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="270.0" y="36.1" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="280.0" y="36.1" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="290.0" y="36.1" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="300.0" y="36.1" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="310.0" y="36.1" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="320.0" y="36.1" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="330.0" y="36.1" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="340.0" y="36.1" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="350.0" y="36.1" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="360.0" y="36.1" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="370.0" y="36.1" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="380.0" y="36.1" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="390.0" y="36.1" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <rect x="400.0" y="36.1" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1"/>
+  <text x="422.0" y="46.6" class="pchem-8-q-sphere-levels-lbl">26자리, 누적 98</text>
+  <text x="422.0" y="156.9" class="pchem-8-q-sphere-levels-red">→ 10개만 참 (전자 60개)</text>
+  <line x1="630.0" y1="126.9" x2="630.0" y2="59.6" style="stroke:var(--fig-red);stroke-width:2.4"/>
+  <path d="M630.0 49.6 L635.0 59.6 L625.0 59.6 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="620.0" y="93.2" text-anchor="end" class="pchem-8-q-sphere-levels-redb">ΔE = 12 ħ<tspan baseline-shift="super" style="font-size:75%">2</tspan>/2mR<tspan baseline-shift="super" style="font-size:75%">2</tspan> = 3.63 eV</text>
+  <rect x="150.0" y="392.0" width="9.0" height="11.0" style="fill:var(--fig-blue);stroke:var(--fig-blue)"/>
+  <text x="166.0" y="402.0" class="pchem-8-q-sphere-levels-sm">찬 자리(전자 1개)</text>
+  <rect x="310.0" y="392.0" width="9.0" height="11.0" style="fill:var(--fig-panel);stroke:var(--fig-muted)"/>
+  <text x="326.0" y="402.0" class="pchem-8-q-sphere-levels-sm">빈 자리</text>
+</svg>

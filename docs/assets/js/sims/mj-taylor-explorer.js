@@ -52,8 +52,8 @@ Sims.register('mj-taylor-explorer', {
     function fmt(v) {
       if (!isFinite(v)) return '정의 안 됨';
       var a = Math.abs(v);
-      if (a !== 0 && (a < 1e-3 || a >= 1e4)) return v.toExponential(2).replace('e', '×10^').replace('-', '−');
-      return v.toPrecision(4).replace('-', '−');
+      if (a !== 0 && (a < 1e-3 || a >= 1e4)) return v.toExponential(2).replace('e', '×10^').replace(/-/g, '−');
+      return v.toPrecision(4).replace(/-/g, '−');
     }
     function L() {
       var w = cv.w, h = cv.h;

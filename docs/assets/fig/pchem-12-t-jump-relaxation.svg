@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-pchem-12-t-jump-relaxation d-pchem-12-t-jump-relaxation">
+  <title id="t-pchem-12-t-jump-relaxation">그림 물리화학 12-3 온도 도약 뒤의 이완 곡선</title>
+  <desc id="d-pchem-12-t-jump-relaxation">t &lt; 0에서는 처음 온도의 평형 농도에 머물던 [C]가, t = 0에 수 μs 동안 온도를 올리면 새 온도의 더 낮은 평형값(점선)으로 [C] − [C]eq,새 ∝ e^(−t/τ)를 따라 지수적으로 이완한다(τ = 36 μs). t = τ에서 편차는 처음 편차의 1/e = 0.37이다. 오른쪽 끼움 그래프는 여러 평형 농도에서 잰 1/τ를 ([A]eq + [B]eq)에 대해 그린 직선으로, 기울기가 k₁, 절편이 k₋₁이다(모식도, 눈금 없음).</desc>
+  <style>.pchem-12-t-jump-relaxation-t{font-size:14px;fill:var(--fig-ink)} .pchem-12-t-jump-relaxation-s{font-size:13px;fill:var(--fig-muted)} .pchem-12-t-jump-relaxation-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .pchem-12-t-jump-relaxation-i{font-size:14px;font-style:italic;fill:var(--fig-ink)} </style>
+  <defs><clipPath id="pchem-12-t-jump-relaxation-c"><rect x="80.0" y="30.0" width="390.0" height="280.0"/></clipPath></defs>
+  <rect x="80.0" y="30.0" width="390.0" height="280.0" rx="0" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <line x1="80.0" y1="310.0" x2="80.0" y2="314.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
+  <text x="80.0" y="328.0" text-anchor="middle" class="pchem-12-t-jump-relaxation-s">−20</text>
+  <line x1="115.5" y1="310.0" x2="115.5" y2="314.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
+  <line x1="115.5" y1="30.0" x2="115.5" y2="310.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-linecap:round;stroke-dasharray:2 4"/>
+  <text x="115.5" y="328.0" text-anchor="middle" class="pchem-12-t-jump-relaxation-s">0</text>
+  <line x1="204.1" y1="310.0" x2="204.1" y2="314.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
+  <line x1="204.1" y1="30.0" x2="204.1" y2="310.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-linecap:round;stroke-dasharray:2 4"/>
+  <text x="204.1" y="328.0" text-anchor="middle" class="pchem-12-t-jump-relaxation-s">50</text>
+  <line x1="292.7" y1="310.0" x2="292.7" y2="314.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
+  <line x1="292.7" y1="30.0" x2="292.7" y2="310.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-linecap:round;stroke-dasharray:2 4"/>
+  <text x="292.7" y="328.0" text-anchor="middle" class="pchem-12-t-jump-relaxation-s">100</text>
+  <line x1="381.4" y1="310.0" x2="381.4" y2="314.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
+  <line x1="381.4" y1="30.0" x2="381.4" y2="310.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-linecap:round;stroke-dasharray:2 4"/>
+  <text x="381.4" y="328.0" text-anchor="middle" class="pchem-12-t-jump-relaxation-s">150</text>
+  <line x1="470.0" y1="310.0" x2="470.0" y2="314.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
+  <text x="470.0" y="328.0" text-anchor="middle" class="pchem-12-t-jump-relaxation-s">200</text>
+  <line x1="76.0" y1="310.0" x2="80.0" y2="310.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
+  <text x="72.0" y="314.5" text-anchor="end" class="pchem-12-t-jump-relaxation-s">0.70</text>
+  <line x1="76.0" y1="230.0" x2="80.0" y2="230.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
+  <line x1="80.0" y1="230.0" x2="470.0" y2="230.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-linecap:round;stroke-dasharray:2 4"/>
+  <text x="72.0" y="234.5" text-anchor="end" class="pchem-12-t-jump-relaxation-s">0.80</text>
+  <line x1="76.0" y1="150.0" x2="80.0" y2="150.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
+  <line x1="80.0" y1="150.0" x2="470.0" y2="150.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-linecap:round;stroke-dasharray:2 4"/>
+  <text x="72.0" y="154.5" text-anchor="end" class="pchem-12-t-jump-relaxation-s">0.90</text>
+  <line x1="76.0" y1="70.0" x2="80.0" y2="70.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
+  <line x1="80.0" y1="70.0" x2="470.0" y2="70.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-linecap:round;stroke-dasharray:2 4"/>
+  <text x="72.0" y="74.5" text-anchor="end" class="pchem-12-t-jump-relaxation-s">1.00</text>
+  <text x="275.0" y="346.0" text-anchor="middle" class="pchem-12-t-jump-relaxation-t">시간 t (μs)</text>
+  <text x="24.0" y="170.0" text-anchor="middle" class="pchem-12-t-jump-relaxation-t" transform="rotate(-90 24.0 170.0)">[C] (처음 평형값 = 1)</text>
+  <line x1="80.0" y1="230.0" x2="470.0" y2="230.0" style="stroke:var(--fig-red);stroke-width:1.4;stroke-linecap:round;stroke-dasharray:6 4"/>
+  <text x="466.5" y="248.0" text-anchor="end" class="pchem-12-t-jump-relaxation-s" style="fill:var(--fig-red)">새 온도의 평형값 [C]eq,새</text>
+  <polyline points="80.0,70.0 115.5,70.0 115.5,70.0 117.2,74.4 119.0,78.6 120.8,82.8 122.5,86.8 124.3,90.7 126.1,94.6 127.9,98.3 129.6,101.9 131.4,105.4 133.2,108.8 135.0,112.1 136.7,115.4 138.5,118.5 140.3,121.6 142.0,124.5 143.8,127.4 145.6,130.2 147.4,133.0 149.1,135.6 150.9,138.2 152.7,140.7 154.5,143.2 156.2,145.5 158.0,147.9 159.8,150.1 161.5,152.3 163.3,154.4 165.1,156.5 166.9,158.5 168.6,160.5 170.4,162.4 172.2,164.2 174.0,166.0 175.7,167.8 177.5,169.5 179.3,171.1 181.0,172.8 182.8,174.3 184.6,175.8 186.4,177.3 188.1,178.8 189.9,180.2 191.7,181.5 193.5,182.9 195.2,184.2 197.0,185.4 198.8,186.6 200.5,187.8 202.3,189.0 204.1,190.1 205.9,191.2 207.6,192.3 209.4,193.3 211.2,194.3 213.0,195.3 214.7,196.2 216.5,197.2 218.3,198.1 220.0,198.9 221.8,199.8 223.6,200.6 225.4,201.4 227.1,202.2 228.9,203.0 230.7,203.7 232.5,204.4 234.2,205.1 236.0,205.8 237.8,206.5 239.5,207.1 241.3,207.7 243.1,208.3 244.9,208.9 246.6,209.5 248.4,210.1 250.2,210.6 252.0,211.2 253.7,211.7 255.5,212.2 257.3,212.7 259.0,213.1 260.8,213.6 262.6,214.0 264.4,214.5 266.1,214.9 267.9,215.3 269.7,215.7 271.5,216.1 273.2,216.5 275.0,216.9 276.8,217.2 278.5,217.6 280.3,217.9 282.1,218.2 283.9,218.6 285.6,218.9 287.4,219.2 289.2,219.5 291.0,219.8 292.7,220.1 294.5,220.3 296.3,220.6 298.0,220.8 299.8,221.1 301.6,221.3 303.4,221.6 305.1,221.8 306.9,222.0 308.7,222.3 310.5,222.5 312.2,222.7 314.0,222.9 315.8,223.1 317.5,223.3 319.3,223.4 321.1,223.6 322.9,223.8 324.6,224.0 326.4,224.1 328.2,224.3 330.0,224.4 331.7,224.6 333.5,224.7 335.3,224.9 337.0,225.0 338.8,225.2 340.6,225.3 342.4,225.4 344.1,225.6 345.9,225.7 347.7,225.8 349.5,225.9 351.2,226.0 353.0,226.1 354.8,226.2 356.5,226.3 358.3,226.4 360.1,226.5 361.9,226.6 363.6,226.7 365.4,226.8 367.2,226.9 369.0,227.0 370.7,227.1 372.5,227.1 374.3,227.2 376.0,227.3 377.8,227.4 379.6,227.4 381.4,227.5 383.1,227.6 384.9,227.7 386.7,227.7 388.5,227.8 390.2,227.8 392.0,227.9 393.8,228.0 395.5,228.0 397.3,228.1 399.1,228.1 400.9,228.2 402.6,228.2 404.4,228.3 406.2,228.3 408.0,228.4 409.7,228.4 411.5,228.5 413.3,228.5 415.0,228.5 416.8,228.6 418.6,228.6 420.4,228.7 422.1,228.7 423.9,228.7 425.7,228.8 427.5,228.8 429.2,228.8 431.0,228.9 432.8,228.9 434.5,228.9 436.3,229.0 438.1,229.0 439.9,229.0 441.6,229.0 443.4,229.1 445.2,229.1 447.0,229.1 448.7,229.1 450.5,229.2 452.3,229.2 454.0,229.2 455.8,229.2 457.6,229.2 459.4,229.3 461.1,229.3 462.9,229.3 464.7,229.3 466.5,229.3 468.2,229.4 470.0,229.4" style="fill:none;stroke:var(--fig-blue);stroke-width:2.6;stroke-linejoin:round;stroke-linecap:round" clip-path="url(#pchem-12-t-jump-relaxation-c)"/>
+  <text x="83.5" y="62.0" text-anchor="start" class="pchem-12-t-jump-relaxation-s">처음 온도의 평형</text>
+  <line x1="115.5" y1="282.0" x2="115.5" y2="102.0" style="stroke:var(--fig-accent);stroke-width:2.2;stroke-linecap:round"/>
+  <polygon points="115.5,102.0 118.6,109.4 112.3,109.4" style="fill:var(--fig-accent);stroke:none"/>
+  <rect x="123.1" y="261.0" width="110.7" height="19.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
+  <text x="126.1" y="274.0" text-anchor="start" class="pchem-12-t-jump-relaxation-t" style="fill:var(--fig-accent)">온도 도약(수 μs)</text>
+  <line x1="179.3" y1="230.0" x2="179.3" y2="171.1" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round;stroke-dasharray:3 3"/>
+  <text x="183.3" y="246.0" text-anchor="start" class="pchem-12-t-jump-relaxation-s">t = τ = 36 μs</text>
+  <circle cx="179.3" cy="171.1" r="4.5" style="fill:var(--fig-accent);stroke:var(--fig-paper);stroke-width:1.5"/>
+  <rect x="186.3" y="148.1" width="201.3" height="19.0" rx="2" style="fill:var(--fig-panel);stroke:none"/>
+  <text x="189.3" y="161.1" text-anchor="start" class="pchem-12-t-jump-relaxation-t">편차 = 처음 편차의 1/e = 0.37</text>
+  <line x1="390.2" y1="230.0" x2="390.2" y2="227.3" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
+  <polygon points="390.2,227.3 392.2,231.9 388.3,231.9" style="fill:var(--fig-muted);stroke:none"/>
+  <rect x="540.0" y="70.0" width="150.0" height="150.0" rx="0" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="540.0" y="56.0" text-anchor="start" class="pchem-12-t-jump-relaxation-b">끼움: 1/τ와 평형 농도</text>
+  <line x1="540.0" y1="220.0" x2="690.0" y2="220.0" style="stroke:var(--fig-ink);stroke-width:1.2;stroke-linecap:round"/>
+  <line x1="540.0" y1="220.0" x2="540.0" y2="70.0" style="stroke:var(--fig-ink);stroke-width:1.2;stroke-linecap:round"/>
+  <line x1="540.0" y1="182.5" x2="690.0" y2="85.0" style="stroke:var(--fig-green);stroke-width:2.4;stroke-linecap:round"/>
+  <circle cx="574.5" cy="160.1" r="3.5" style="fill:var(--fig-green);stroke:var(--fig-paper);stroke-width:1.5"/>
+  <circle cx="609.0" cy="137.6" r="3.5" style="fill:var(--fig-green);stroke:var(--fig-paper);stroke-width:1.5"/>
+  <circle cx="643.5" cy="115.2" r="3.5" style="fill:var(--fig-green);stroke:var(--fig-paper);stroke-width:1.5"/>
+  <circle cx="678.0" cy="92.8" r="3.5" style="fill:var(--fig-green);stroke:var(--fig-paper);stroke-width:1.5"/>
+  <text x="615.0" y="110.0" text-anchor="end" class="pchem-12-t-jump-relaxation-t">기울기 = k₁</text>
+  <circle cx="540.0" cy="182.5" r="3.5" style="fill:var(--fig-red);stroke:none"/>
+  <text x="546.0" y="200.5" text-anchor="start" class="pchem-12-t-jump-relaxation-t" style="fill:var(--fig-red)">절편 = k₋₁</text>
+  <text x="615.0" y="240.0" text-anchor="middle" class="pchem-12-t-jump-relaxation-s">[A]eq + [B]eq</text>
+  <text x="530.0" y="145.0" text-anchor="middle" class="pchem-12-t-jump-relaxation-s" transform="rotate(-90 530.0 145.0)">1/τ</text>
+  <text x="540.0" y="268.0" text-anchor="start" class="pchem-12-t-jump-relaxation-t">1/τ = k₁([A]eq + [B]eq) + k₋₁</text>
+  <text x="540.0" y="288.0" text-anchor="start" class="pchem-12-t-jump-relaxation-s">(모식도, 눈금 없음)</text>
+</svg>

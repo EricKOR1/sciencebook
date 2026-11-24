@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" role="img" aria-labelledby="t-pchem-9-helium-coordinates d-pchem-9-helium-coordinates">
+  <title id="t-pchem-9-helium-coordinates">그림 물리화학 9-1 헬륨 원자의 좌표와 해밀토니언의 다섯 항</title>
+  <desc id="d-pchem-9-helium-coordinates">원자핵(+2e)에서 두 전자까지의 거리 r₁, r₂와 두 전자 사이의 거리 r₁₂. 오른쪽은 원자 단위 해밀토니언의 항을 운동 에너지, 핵 인력, 전자 반발로 나누어 적은 것으로, 마지막 항 1/r₁₂이 두 전자의 좌표를 묶어 변수 분리를 막는다.</desc>
+  <style>.pchem-9-helium-coordinates-lbl{font-size:14px;fill:var(--fig-ink)} .pchem-9-helium-coordinates-sm{font-size:13px;fill:var(--fig-muted)} .pchem-9-helium-coordinates-b{font-size:14px;font-weight:600;fill:var(--fig-ink)} .pchem-9-helium-coordinates-tk{font-size:13px;fill:var(--fig-muted)} .pchem-9-helium-coordinates-ax{font-size:14px;fill:var(--fig-ink)} .pchem-9-helium-coordinates-big{font-size:16px;font-weight:700;fill:var(--fig-ink)} .pchem-9-helium-coordinates-red{font-size:14px;fill:var(--fig-red)} .pchem-9-helium-coordinates-redb{font-size:14px;font-weight:600;fill:var(--fig-red)} .pchem-9-helium-coordinates-blue{font-size:14px;fill:var(--fig-blue)} .pchem-9-helium-coordinates-blueb{font-size:14px;font-weight:600;fill:var(--fig-blue)} .pchem-9-helium-coordinates-green{font-size:14px;fill:var(--fig-green)} .pchem-9-helium-coordinates-greenb{font-size:14px;font-weight:600;fill:var(--fig-green)} .pchem-9-helium-coordinates-amber{font-size:14px;fill:var(--fig-amber)} .pchem-9-helium-coordinates-amberb{font-size:14px;font-weight:600;fill:var(--fig-amber)} .pchem-9-helium-coordinates-violet{font-size:14px;fill:var(--fig-violet)} .pchem-9-helium-coordinates-violetb{font-size:14px;font-weight:600;fill:var(--fig-violet)} .pchem-9-helium-coordinates-teal{font-size:14px;fill:var(--fig-teal)} .pchem-9-helium-coordinates-tealb{font-size:14px;font-weight:600;fill:var(--fig-teal)} .pchem-9-helium-coordinates-accent{font-size:14px;fill:var(--fig-accent)} .pchem-9-helium-coordinates-accentb{font-size:14px;font-weight:600;fill:var(--fig-accent)}</style>
+  <line x1="150.0" y1="185.0" x2="76.5" y2="90.1" style="stroke:var(--fig-green);stroke-width:2.2"/>
+  <path d="M71.0 83.0 L80.1 87.4 L73.0 92.9 Z" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="150.0" y1="185.0" x2="263.5" y2="109.0" style="stroke:var(--fig-green);stroke-width:2.2"/>
+  <path d="M271.0 104.0 L266.0 112.7 L261.0 105.3 Z" style="fill:var(--fig-green);stroke:none"/>
+  <line x1="172.0" y1="82.0" x2="83.9" y2="71.9" style="stroke:var(--fig-red);stroke-width:2.2"/>
+  <path d="M76.0 71.0 L84.4 67.9 L83.5 75.9 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="172.0" y1="82.0" x2="260.1" y2="92.1" style="stroke:var(--fig-red);stroke-width:2.2"/>
+  <path d="M268.0 93.0 L259.6 96.1 L260.5 88.1 Z" style="fill:var(--fig-red);stroke:none"/>
+  <circle cx="150.0" cy="185.0" r="13" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:2"/>
+  <text x="150.0" y="190.0" text-anchor="middle" class="pchem-9-helium-coordinates-b">+2e</text>
+  <text x="150.0" y="221.0" text-anchor="middle" class="pchem-9-helium-coordinates-sm">원자핵 (Z = 2, 고정)</text>
+  <circle cx="62.0" cy="72.0" r="11" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="62.0" y="77.0" text-anchor="middle" class="pchem-9-helium-coordinates-b">−e</text>
+  <text x="62.0" y="52.0" text-anchor="middle" class="pchem-9-helium-coordinates-blueb">전자 1</text>
+  <circle cx="282.0" cy="96.0" r="11" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:2"/>
+  <text x="282.0" y="101.0" text-anchor="middle" class="pchem-9-helium-coordinates-b">−e</text>
+  <text x="282.0" y="76.0" text-anchor="middle" class="pchem-9-helium-coordinates-blueb">전자 2</text>
+  <text x="88.0" y="138.0" text-anchor="middle" class="pchem-9-helium-coordinates-greenb">r<tspan baseline-shift="sub" style="font-size:75%">1</tspan></text>
+  <text x="232.0" y="150.0" text-anchor="middle" class="pchem-9-helium-coordinates-greenb">r<tspan baseline-shift="sub" style="font-size:75%">2</tspan></text>
+  <text x="172.0" y="70.0" text-anchor="middle" class="pchem-9-helium-coordinates-redb">r<tspan baseline-shift="sub" style="font-size:75%">12</tspan></text>
+  <text x="360.0" y="38.0" class="pchem-9-helium-coordinates-b">Ĥ (원자 단위, 핵 고정)</text>
+  <rect x="360.0" y="58.0" width="190.0" height="34.0" rx="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.4"/>
+  <text x="372.0" y="80.0" class="pchem-9-helium-coordinates-blueb">−½∇<tspan baseline-shift="sub" style="font-size:75%">1</tspan><tspan baseline-shift="super" style="font-size:75%">2</tspan> − ½∇<tspan baseline-shift="sub" style="font-size:75%">2</tspan><tspan baseline-shift="super" style="font-size:75%">2</tspan></text>
+  <text x="562.0" y="80.0" class="pchem-9-helium-coordinates-blueb">운동 에너지</text>
+  <rect x="360.0" y="108.0" width="190.0" height="34.0" rx="6" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.4"/>
+  <text x="372.0" y="130.0" class="pchem-9-helium-coordinates-greenb">− Z/r<tspan baseline-shift="sub" style="font-size:75%">1</tspan> − Z/r<tspan baseline-shift="sub" style="font-size:75%">2</tspan></text>
+  <text x="562.0" y="130.0" class="pchem-9-helium-coordinates-greenb">핵 인력</text>
+  <rect x="360.0" y="158.0" width="190.0" height="34.0" rx="6" style="fill:var(--fig-soft-red);stroke:var(--fig-red);stroke-width:1.4"/>
+  <text x="372.0" y="180.0" class="pchem-9-helium-coordinates-redb">+ 1/r<tspan baseline-shift="sub" style="font-size:75%">12</tspan></text>
+  <text x="562.0" y="180.0" class="pchem-9-helium-coordinates-redb">전자 반발</text>
+  <text x="360.0" y="234.0" class="pchem-9-helium-coordinates-redb">↑ 이 항 때문에 변수 분리 불가:</text>
+  <text x="360.0" y="254.0" class="pchem-9-helium-coordinates-sm">전자 1과 2의 좌표가 함께 들어 있다</text>
+  <text x="360.0" y="282.0" class="pchem-9-helium-coordinates-sm">앞의 네 항 = 수소꼴 원자 두 개 (정확히 풀림)</text>
+</svg>

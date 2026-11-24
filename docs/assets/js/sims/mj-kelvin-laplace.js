@@ -20,7 +20,7 @@ Sims.register('mj-kelvin-laplace', {
 
     var g = api.group();
     var bs = LIQ.map(function (L, i) { return api.button(L.name, function () { pick(i); }, { toggle: true, pressed: i === 0, parent: g }); });
-    var sR = api.slider({ id: 'mj-kelvin-laplace-r', label: '반지름 r', min: Math.log10(0.5), max: 4, step: 0.01, value: st.lr,
+    var sR = api.slider({ id: 'mj-kelvin-laplace-r', label: '반지름 r', min: (-0.3), max: 4, step: 0.01, value: st.lr,
       format: function (v) { return fmtR(Math.pow(10, v)); }, onInput: function (v) { if (!st.run) st.lr = v; draw(); } });
     api.slider({ id: 'mj-kelvin-laplace-t', label: '온도', min: 0, max: 100, step: 1, value: st.t,
       format: function (v) { return v + ' °C'; }, onInput: function (v) { st.t = v; draw(); } });
@@ -37,21 +37,21 @@ Sims.register('mj-kelvin-laplace', {
     function S() { return 1 + Math.pow(10, st.ls); }
 
     var loop = api.loop(function (dt) {
-      var p = props(), r = Math.pow(10, st.lr), K = Math.exp(p.len / r), s = S(); console.log('tick', dt, st.lr);
+      var p = props(), r = Math.pow(10, st.lr), K = Math.exp(p.len / r), s = S();
       // 성장 속도 dr/dt ∝ (S − K)/r : 로그 반지름으로 보기 좋게 바꾼 속도(화면용)
       var v = (s - K) / Math.max(s - 1, 1e-3);
       v = Math.max(-1, Math.min(1, v));
       st.lr += v * 0.5 * dt;
-      if (st.lr <= Math.log10(0.5)) { st.lr = Math.log10(0.5); stop(); }
+      if (st.lr <= (-0.3)) { st.lr = (-0.3); stop(); }
       if (st.lr >= 4) { st.lr = 4; stop(); }
       var keep = st.lr; sR.set(keep); st.lr = keep; draw();
     });
     loop.pause();
-    function start() { console.log('start', api.reduced, typeof loop); if (api.reduced) { jump(); return; } st.run = true; runBtn.textContent = '멈춤'; loop.play(); }
+    function start() { if (api.reduced) { jump(); return; } st.run = true; runBtn.textContent = '멈춤'; loop.play(); }
     function stop() { st.run = false; runBtn.textContent = '시간 흐르게'; loop.pause(); }
     function jump() {   // 움직임 줄이기: 끝 상태로 바로
       var p = props(), r = Math.pow(10, st.lr);
-      st.lr = Math.exp(p.len / r) > S() ? Math.log10(0.5) : 4; sR.set(st.lr);
+      st.lr = Math.exp(p.len / r) > S() ? (-0.3) : 4; sR.set(st.lr);
     }
 
     function draw() {
@@ -64,7 +64,7 @@ Sims.register('mj-kelvin-laplace', {
       // 물방울 그림 (반지름은 로그로 바꾼 크기)
       var cx = A.x + A.w / 2, cy = A.y + A.h / 2 + 6;
       var maxR = Math.min(A.w, A.h) * 0.34;
-      var f = (st.lr - Math.log10(0.5)) / (4 - Math.log10(0.5));
+      var f = (st.lr - (-0.3)) / (4 - (-0.3));
       var pr = 6 + f * (maxR - 6);
       ctx.fillStyle = Tk.figSoftBlue; ctx.strokeStyle = Tk.figBlue; ctx.lineWidth = 2;
       ctx.beginPath(); ctx.arc(cx, cy, pr, 0, 7); ctx.fill(); ctx.stroke();
@@ -84,7 +84,7 @@ Sims.register('mj-kelvin-laplace', {
       ctx.fillText('r = ' + fmtR(r) + ' (그림 크기는 로그로 바꿈)', cx, A.y + A.h - 6);
       // 그래프
       var L = G.x + 48, Rr = G.x + G.w - 12, Tp = G.y + 16, B = G.y + G.h - 34;
-      var lx0 = Math.log10(0.5), lx1 = 4, Y1 = 3.2;
+      var lx0 = (-0.3), lx1 = 4, Y1 = 3.2;
       var sx = function (lr) { return L + (lr - lx0) / (lx1 - lx0) * (Rr - L); };
       var sy = function (v) { return B - v / Y1 * (B - Tp); };
       ctx.strokeStyle = Tk.rule; ctx.lineWidth = 1; ctx.fillStyle = Tk.figMuted; ctx.font = '11px ' + Tk.fontMono;
@@ -112,7 +112,7 @@ Sims.register('mj-kelvin-laplace', {
         var xs = sx(Math.log10(rstar));
         ctx.fillStyle = Tk.figGreen; ctx.beginPath(); ctx.arc(xs, sy(s), 5, 0, 7); ctx.fill();
         ctx.font = '600 11px ' + Tk.fontBody; ctx.textAlign = 'left';
-        ctx.fillText('r* = ' + fmtR(rstar), Math.min(xs + 8, Rr - 80), sy(s) - 8);
+        ctx.fillText('r* = ' + fmtR(rstar), Math.min(xs + 8, Rr - 80), sy(s) + 16);
       }
       // 현재 r
       var xr = sx(st.lr);

@@ -98,7 +98,7 @@ Sims.register('mj-fourier-synth', {
       });
       ctx.textAlign = 'center';
       [[-Math.PI, '−π'], [0, '0'], [Math.PI, 'π'], [2 * Math.PI, '2π']].forEach(function (p) { ctx.fillText(p[1], X(p[0]), top.y + top.h + 15); });
-      ctx.fillStyle = T.figInk; ctx.font = '12px ' + T.fontBody; ctx.fillText('x', top.x + top.w - 6, top.y + top.h + 15);
+      ctx.fillStyle = T.figInk; ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'right'; ctx.fillText('x', top.x + top.w, top.y + top.h + 30);
       // 목표 파형
       var M = Math.max(600, Math.round(top.w * 2)), i, x;
       ctx.strokeStyle = T.figLine; ctx.lineWidth = 4; ctx.globalAlpha = 0.7; ctx.beginPath();

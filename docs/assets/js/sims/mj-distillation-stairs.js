@@ -105,7 +105,7 @@ Sims.register('mj-distillation-stairs', {
         ctx.moveTo(A.X(p[0]), A.Y(p[0])); ctx.lineTo(A.X(p[0]), A.Y(p[1])); ctx.lineTo(A.X(p[1]), A.Y(p[1]));
       });
       ctx.stroke();
-      if (S.n <= 25) {
+      if (S.n <= 25 && S.reached) {
         ctx.font = '600 11px ' + T.fontBody; ctx.fillStyle = T.figInk; ctx.textAlign = 'right'; ctx.textBaseline = 'bottom';
         S.pts.forEach(function (p, k) { ctx.fillText(String(k + 1), A.X(p[0]) - 3, A.Y(p[1]) - 1); });
       }

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t-pchem-11-q-gibbs-paradox d-pchem-11-q-gibbs-paradox">
+  <title id="t-pchem-11-q-gibbs-paradox">그림 물리화학 11-17 문제 19 해설: 깁스의 역설</title>
+  <desc id="d-pchem-11-q-gibbs-paradox">위: 칸막이 양쪽의 서로 다른 기체 A(파랑 6개)와 B(빨강 6개)는 칸막이를 치우면 섞이고 ΔS = 2nR ln 2이다. 아래: 양쪽 모두 같은 기체(파랑 6개씩)이면 칸막이를 치워도 거시적으로 달라진 것이 없고, Q = q^N/N!의 1/N! 덕분에 ΔS = 0이 나온다. 1/N!을 빼면 아래 줄도 2nR ln 2가 되어 모순이다.</desc>
+  <style>
+    .pchem-11-q-gibbs-paradox-t{font-size:14px;fill:var(--fig-ink)}
+    .pchem-11-q-gibbs-paradox-b{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .pchem-11-q-gibbs-paradox-h{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .pchem-11-q-gibbs-paradox-s{font-size:13px;fill:var(--fig-muted)}
+    .pchem-11-q-gibbs-paradox-ax{font-size:13px;fill:var(--fig-muted)}
+    .pchem-11-q-gibbs-paradox-big{font-size:18px;font-weight:600;fill:var(--fig-ink)}
+  </style>
+  <defs><marker id="pchem-11-q-gibbs-paradox-ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-ink)"/></marker><marker id="pchem-11-q-gibbs-paradox-ar-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-muted)"/></marker><marker id="pchem-11-q-gibbs-paradox-ar-line" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-line)"/></marker><marker id="pchem-11-q-gibbs-paradox-ar-paper" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-paper)"/></marker><marker id="pchem-11-q-gibbs-paradox-ar-panel" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-panel)"/></marker><marker id="pchem-11-q-gibbs-paradox-ar-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-accent)"/></marker><marker id="pchem-11-q-gibbs-paradox-ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-blue)"/></marker><marker id="pchem-11-q-gibbs-paradox-ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-red)"/></marker><marker id="pchem-11-q-gibbs-paradox-ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-green)"/></marker><marker id="pchem-11-q-gibbs-paradox-ar-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-amber)"/></marker><marker id="pchem-11-q-gibbs-paradox-ar-violet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-violet)"/></marker><marker id="pchem-11-q-gibbs-paradox-ar-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-teal)"/></marker><marker id="pchem-11-q-gibbs-paradox-ar-soft-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-soft-blue)"/></marker><marker id="pchem-11-q-gibbs-paradox-ar-soft-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-soft-red)"/></marker><marker id="pchem-11-q-gibbs-paradox-ar-soft-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-soft-green)"/></marker><marker id="pchem-11-q-gibbs-paradox-ar-soft-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-soft-amber)"/></marker><marker id="pchem-11-q-gibbs-paradox-ar-soft-violet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-soft-violet)"/></marker><marker id="pchem-11-q-gibbs-paradox-ar-soft-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-soft-teal)"/></marker></defs>
+  <text x="30" y="34" class="pchem-11-q-gibbs-paradox-b">서로 다른 기체 A(파랑)와 B(빨강)</text>
+  <rect x="30" y="46" width="220" height="100" rx="0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.6"/>
+  <line x1="140" y1="46" x2="140" y2="146" style="stroke:var(--fig-ink);stroke-width:3;fill:none"/>
+  <circle cx="80.9" cy="100.54" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="121.48" cy="93.39" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="57.88" cy="96.91" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="96.17" cy="118.27" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="49.8" cy="119.53" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="101.64" cy="61.18" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="236.47" cy="131.32" r="7" style="fill:var(--fig-red);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="208.24" cy="104.78" r="7" style="fill:var(--fig-red);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="165.54" cy="59.14" r="7" style="fill:var(--fig-red);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="197.44" cy="62.53" r="7" style="fill:var(--fig-red);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="154.59" cy="93.26" r="7" style="fill:var(--fig-red);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="189.89" cy="122.02" r="7" style="fill:var(--fig-red);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <line x1="264" y1="96" x2="316" y2="96" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none" marker-end="url(#pchem-11-q-gibbs-paradox-ar-ink)"/>
+  <text x="290" y="86" class="pchem-11-q-gibbs-paradox-s" text-anchor="middle">칸막이 제거</text>
+  <rect x="330" y="46" width="220" height="100" rx="0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.6"/>
+  <circle cx="443.75" cy="106.66" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="431.64" cy="79.14" r="7" style="fill:var(--fig-red);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="537.54" cy="133.67" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="506.68" cy="111.79" r="7" style="fill:var(--fig-red);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="403.79" cy="75.45" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="492.19" cy="88.43" r="7" style="fill:var(--fig-red);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="342.11" cy="73.94" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="520.41" cy="93.72" r="7" style="fill:var(--fig-red);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="356.32" cy="105.84" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="365.13" cy="76.73" r="7" style="fill:var(--fig-red);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="379.37" cy="113.62" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="401.61" cy="125.25" r="7" style="fill:var(--fig-red);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <text x="564" y="92" class="pchem-11-q-gibbs-paradox-h">ΔS = 2nR ln 2</text>
+  <text x="564" y="112" class="pchem-11-q-gibbs-paradox-s">섞임</text>
+  <text x="30" y="194" class="pchem-11-q-gibbs-paradox-b">같은 기체 A(파랑)</text>
+  <rect x="30" y="206" width="220" height="100" rx="0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.6"/>
+  <line x1="140" y1="206" x2="140" y2="306" style="stroke:var(--fig-ink);stroke-width:3;fill:none"/>
+  <circle cx="60.12" cy="247.96" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="115.48" cy="266.78" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="50.63" cy="293.19" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="108.45" cy="243" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="67.48" cy="223.58" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="91.41" cy="283.86" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="167.72" cy="229.71" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="230.12" cy="280.15" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="168.91" cy="290.21" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="188.25" cy="225.89" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="203.3" cy="240.3" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="200.11" cy="282.78" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <line x1="264" y1="256" x2="316" y2="256" style="stroke:var(--fig-ink);stroke-width:1.6;fill:none" marker-end="url(#pchem-11-q-gibbs-paradox-ar-ink)"/>
+  <text x="290" y="246" class="pchem-11-q-gibbs-paradox-s" text-anchor="middle">칸막이 제거</text>
+  <rect x="330" y="206" width="220" height="100" rx="0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.6"/>
+  <circle cx="462.4" cy="239.3" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="521.8" cy="233.5" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="345.25" cy="238.46" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="429.36" cy="222.59" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="376.55" cy="246.03" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="412.98" cy="285.71" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="534.18" cy="267.93" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="477.48" cy="262.42" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="369.51" cy="220.67" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="345.51" cy="287.18" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="479.39" cy="291.17" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="346.17" cy="266.35" r="7" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <text x="564" y="252" class="pchem-11-q-gibbs-paradox-h">ΔS = 0</text>
+  <text x="564" y="272" class="pchem-11-q-gibbs-paradox-s">(1/N! 덕분)</text>
+  <text x="690" y="328" class="pchem-11-q-gibbs-paradox-s" text-anchor="end" style="fill:var(--fig-red)">1/N!을 빼면 아래 줄도 2nR ln 2 → 모순</text>
+</svg>

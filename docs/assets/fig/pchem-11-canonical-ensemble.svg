@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" role="img" aria-labelledby="t-pchem-11-canonical-ensemble d-pchem-11-canonical-ensemble">
+  <title id="t-pchem-11-canonical-ensemble">그림 물리화학 11-8 바른틀 앙상블(모식도)</title>
+  <desc id="d-pchem-11-canonical-ensemble">N과 V가 같은 계의 복제본 25개가 열은 통하고 물질은 통하지 않는 얇은 벽으로 맞붙어 있고, 전체는 단열된 두꺼운 테두리로 둘러싸여 총에너지 Ẽ가 일정하다. 색의 진하기는 복제본마다 다른 계 에너지 E_i를 나타내고, 물결 화살표는 이웃한 복제본 사이의 열 교환이다. 복제본 하나에서 보면 나머지 전체가 온도 T인 열 저장고 역할을 한다. 실제로는 복제본 수 Ñ → ∞로 생각한다.</desc>
+  <style>
+    .pchem-11-canonical-ensemble-t{font-size:14px;fill:var(--fig-ink)}
+    .pchem-11-canonical-ensemble-b{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .pchem-11-canonical-ensemble-h{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .pchem-11-canonical-ensemble-s{font-size:13px;fill:var(--fig-muted)}
+    .pchem-11-canonical-ensemble-ax{font-size:13px;fill:var(--fig-muted)}
+    .pchem-11-canonical-ensemble-big{font-size:18px;font-weight:600;fill:var(--fig-ink)}
+  </style>
+  <defs><marker id="pchem-11-canonical-ensemble-ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-ink)"/></marker><marker id="pchem-11-canonical-ensemble-ar-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-muted)"/></marker><marker id="pchem-11-canonical-ensemble-ar-line" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-line)"/></marker><marker id="pchem-11-canonical-ensemble-ar-paper" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-paper)"/></marker><marker id="pchem-11-canonical-ensemble-ar-panel" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-panel)"/></marker><marker id="pchem-11-canonical-ensemble-ar-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-accent)"/></marker><marker id="pchem-11-canonical-ensemble-ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-blue)"/></marker><marker id="pchem-11-canonical-ensemble-ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-red)"/></marker><marker id="pchem-11-canonical-ensemble-ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-green)"/></marker><marker id="pchem-11-canonical-ensemble-ar-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-amber)"/></marker><marker id="pchem-11-canonical-ensemble-ar-violet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-violet)"/></marker><marker id="pchem-11-canonical-ensemble-ar-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-teal)"/></marker><marker id="pchem-11-canonical-ensemble-ar-soft-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-soft-blue)"/></marker><marker id="pchem-11-canonical-ensemble-ar-soft-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-soft-red)"/></marker><marker id="pchem-11-canonical-ensemble-ar-soft-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-soft-green)"/></marker><marker id="pchem-11-canonical-ensemble-ar-soft-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-soft-amber)"/></marker><marker id="pchem-11-canonical-ensemble-ar-soft-violet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-soft-violet)"/></marker><marker id="pchem-11-canonical-ensemble-ar-soft-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-soft-teal)"/></marker></defs>
+  <rect x="50" y="70" width="58" height="58" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1"/>
+  <rect x="50" y="70" width="58" height="58" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;fill-opacity:0.2255"/>
+  <text x="79" y="104" class="pchem-11-canonical-ensemble-s" text-anchor="middle" style="fill:var(--fig-ink)">N, V</text>
+  <rect x="108" y="70" width="58" height="58" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1"/>
+  <rect x="108" y="70" width="58" height="58" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;fill-opacity:0.14850000000000002"/>
+  <text x="137" y="104" class="pchem-11-canonical-ensemble-s" text-anchor="middle" style="fill:var(--fig-ink)">N, V</text>
+  <rect x="166" y="70" width="58" height="58" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1"/>
+  <rect x="166" y="70" width="58" height="58" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;fill-opacity:0.36850000000000005"/>
+  <text x="195" y="104" class="pchem-11-canonical-ensemble-s" text-anchor="middle" style="fill:var(--fig-ink)">N, V</text>
+  <rect x="224" y="70" width="58" height="58" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1"/>
+  <rect x="224" y="70" width="58" height="58" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;fill-opacity:0.1155"/>
+  <text x="253" y="104" class="pchem-11-canonical-ensemble-s" text-anchor="middle" style="fill:var(--fig-ink)">N, V</text>
+  <rect x="282" y="70" width="58" height="58" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1"/>
+  <rect x="282" y="70" width="58" height="58" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;fill-opacity:0.319"/>
+  <text x="311" y="104" class="pchem-11-canonical-ensemble-s" text-anchor="middle" style="fill:var(--fig-ink)">N, V</text>
+  <rect x="50" y="128" width="58" height="58" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1"/>
+  <rect x="50" y="128" width="58" height="58" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;fill-opacity:0.24200000000000002"/>
+  <text x="79" y="162" class="pchem-11-canonical-ensemble-s" text-anchor="middle" style="fill:var(--fig-ink)">N, V</text>
+  <rect x="108" y="128" width="58" height="58" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1"/>
+  <rect x="108" y="128" width="58" height="58" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;fill-opacity:0.11000000000000001"/>
+  <text x="137" y="162" class="pchem-11-canonical-ensemble-s" text-anchor="middle" style="fill:var(--fig-ink)">N, V</text>
+  <rect x="166" y="128" width="58" height="58" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1"/>
+  <rect x="166" y="128" width="58" height="58" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;fill-opacity:0.30800000000000005"/>
+  <text x="195" y="162" class="pchem-11-canonical-ensemble-s" text-anchor="middle" style="fill:var(--fig-ink)">N, V</text>
+  <rect x="224" y="128" width="58" height="58" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1"/>
+  <rect x="224" y="128" width="58" height="58" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;fill-opacity:0.099"/>
+  <text x="253" y="162" class="pchem-11-canonical-ensemble-s" text-anchor="middle" style="fill:var(--fig-ink)">N, V</text>
+  <rect x="282" y="128" width="58" height="58" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1"/>
+  <rect x="282" y="128" width="58" height="58" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;fill-opacity:0.275"/>
+  <text x="311" y="162" class="pchem-11-canonical-ensemble-s" text-anchor="middle" style="fill:var(--fig-ink)">N, V</text>
+  <rect x="50" y="186" width="58" height="58" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1"/>
+  <rect x="50" y="186" width="58" height="58" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;fill-opacity:0.1155"/>
+  <text x="79" y="220" class="pchem-11-canonical-ensemble-s" text-anchor="middle" style="fill:var(--fig-ink)">N, V</text>
+  <rect x="108" y="186" width="58" height="58" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1"/>
+  <rect x="108" y="186" width="58" height="58" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;fill-opacity:0.12100000000000001"/>
+  <text x="137" y="220" class="pchem-11-canonical-ensemble-s" text-anchor="middle" style="fill:var(--fig-ink)">N, V</text>
+  <rect x="166" y="186" width="58" height="58" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1"/>
+  <rect x="166" y="186" width="58" height="58" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;fill-opacity:0.2695"/>
+  <text x="195" y="220" class="pchem-11-canonical-ensemble-s" text-anchor="middle" style="fill:var(--fig-ink)">N, V</text>
+  <rect x="224" y="186" width="58" height="58" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1"/>
+  <rect x="224" y="186" width="58" height="58" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;fill-opacity:0.44550000000000006"/>
+  <text x="253" y="220" class="pchem-11-canonical-ensemble-s" text-anchor="middle" style="fill:var(--fig-ink)">N, V</text>
+  <rect x="282" y="186" width="58" height="58" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1"/>
+  <rect x="282" y="186" width="58" height="58" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;fill-opacity:0.1375"/>
+  <text x="311" y="220" class="pchem-11-canonical-ensemble-s" text-anchor="middle" style="fill:var(--fig-ink)">N, V</text>
+  <rect x="50" y="244" width="58" height="58" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1"/>
+  <rect x="50" y="244" width="58" height="58" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;fill-opacity:0.18150000000000002"/>
+  <text x="79" y="278" class="pchem-11-canonical-ensemble-s" text-anchor="middle" style="fill:var(--fig-ink)">N, V</text>
+  <rect x="108" y="244" width="58" height="58" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1"/>
+  <rect x="108" y="244" width="58" height="58" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;fill-opacity:0.35750000000000004"/>
+  <text x="137" y="278" class="pchem-11-canonical-ensemble-s" text-anchor="middle" style="fill:var(--fig-ink)">N, V</text>
+  <rect x="166" y="244" width="58" height="58" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1"/>
+  <rect x="166" y="244" width="58" height="58" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;fill-opacity:0.5005000000000001"/>
+  <text x="195" y="278" class="pchem-11-canonical-ensemble-s" text-anchor="middle" style="fill:var(--fig-ink)">N, V</text>
+  <rect x="224" y="244" width="58" height="58" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1"/>
+  <rect x="224" y="244" width="58" height="58" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;fill-opacity:0.3355"/>
+  <text x="253" y="278" class="pchem-11-canonical-ensemble-s" text-anchor="middle" style="fill:var(--fig-ink)">N, V</text>
+  <rect x="282" y="244" width="58" height="58" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1"/>
+  <rect x="282" y="244" width="58" height="58" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;fill-opacity:0.2585"/>
+  <text x="311" y="278" class="pchem-11-canonical-ensemble-s" text-anchor="middle" style="fill:var(--fig-ink)">N, V</text>
+  <rect x="50" y="302" width="58" height="58" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1"/>
+  <rect x="50" y="302" width="58" height="58" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;fill-opacity:0.5115000000000001"/>
+  <text x="79" y="336" class="pchem-11-canonical-ensemble-s" text-anchor="middle" style="fill:var(--fig-ink)">N, V</text>
+  <rect x="108" y="302" width="58" height="58" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1"/>
+  <rect x="108" y="302" width="58" height="58" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;fill-opacity:0.10450000000000001"/>
+  <text x="137" y="336" class="pchem-11-canonical-ensemble-s" text-anchor="middle" style="fill:var(--fig-ink)">N, V</text>
+  <rect x="166" y="302" width="58" height="58" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1"/>
+  <rect x="166" y="302" width="58" height="58" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;fill-opacity:0.462"/>
+  <text x="195" y="336" class="pchem-11-canonical-ensemble-s" text-anchor="middle" style="fill:var(--fig-ink)">N, V</text>
+  <rect x="224" y="302" width="58" height="58" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1"/>
+  <rect x="224" y="302" width="58" height="58" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;fill-opacity:0.20900000000000002"/>
+  <text x="253" y="336" class="pchem-11-canonical-ensemble-s" text-anchor="middle" style="fill:var(--fig-ink)">N, V</text>
+  <rect x="282" y="302" width="58" height="58" rx="0" style="fill:var(--fig-soft-blue);stroke:none;stroke-width:1"/>
+  <rect x="282" y="302" width="58" height="58" rx="0" style="fill:var(--fig-blue);stroke:none;stroke-width:1;fill-opacity:0.14850000000000002"/>
+  <text x="311" y="336" class="pchem-11-canonical-ensemble-s" text-anchor="middle" style="fill:var(--fig-ink)">N, V</text>
+  <line x1="108" y1="70" x2="108" y2="360" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
+  <line x1="50" y1="128" x2="340" y2="128" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
+  <line x1="166" y1="70" x2="166" y2="360" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
+  <line x1="50" y1="186" x2="340" y2="186" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
+  <line x1="224" y1="70" x2="224" y2="360" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
+  <line x1="50" y1="244" x2="340" y2="244" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
+  <line x1="282" y1="70" x2="282" y2="360" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
+  <line x1="50" y1="302" x2="340" y2="302" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none"/>
+  <rect x="47" y="67" width="296" height="296" rx="0" style="fill:none;stroke:var(--fig-ink);stroke-width:6"/>
+  <path d="M152 84 L153.17 85.75 L154.33 87.03 L155.5 87.5 L156.67 87.03 L157.83 85.75 L159 84 L160.17 82.25 L161.33 80.97 L162.5 80.5 L163.67 80.97 L164.83 82.25 L166 84 L167.17 85.75 L168.33 87.03 L169.5 87.5 L170.67 87.03 L171.83 85.75 L173 84 L174.17 82.25 L175.33 80.97 L176.5 80.5 L177.67 80.97 L178.83 82.25 L180 84" style="stroke:var(--fig-red);stroke-width:1.6;fill:none;stroke-linejoin:round" marker-end="url(#pchem-11-canonical-ensemble-ar-red)"/>
+  <path d="M238 172 L236.25 173.17 L234.97 174.33 L234.5 175.5 L234.97 176.67 L236.25 177.83 L238 179 L239.75 180.17 L241.03 181.33 L241.5 182.5 L241.03 183.67 L239.75 184.83 L238 186 L236.25 187.17 L234.97 188.33 L234.5 189.5 L234.97 190.67 L236.25 191.83 L238 193 L239.75 194.17 L241.03 195.33 L241.5 196.5 L241.03 197.67 L239.75 198.83 L238 200" style="stroke:var(--fig-red);stroke-width:1.6;fill:none;stroke-linejoin:round" marker-end="url(#pchem-11-canonical-ensemble-ar-red)"/>
+  <path d="M94 200 L95.17 201.75 L96.33 203.03 L97.5 203.5 L98.67 203.03 L99.83 201.75 L101 200 L102.17 198.25 L103.33 196.97 L104.5 196.5 L105.67 196.97 L106.83 198.25 L108 200 L109.17 201.75 L110.33 203.03 L111.5 203.5 L112.67 203.03 L113.83 201.75 L115 200 L116.17 198.25 L117.33 196.97 L118.5 196.5 L119.67 196.97 L120.83 198.25 L122 200" style="stroke:var(--fig-red);stroke-width:1.6;fill:none;stroke-linejoin:round" marker-end="url(#pchem-11-canonical-ensemble-ar-red)"/>
+  <path d="M210 258 L211.17 259.75 L212.33 261.03 L213.5 261.5 L214.67 261.03 L215.83 259.75 L217 258 L218.17 256.25 L219.33 254.97 L220.5 254.5 L221.67 254.97 L222.83 256.25 L224 258 L225.17 259.75 L226.33 261.03 L227.5 261.5 L228.67 261.03 L229.83 259.75 L231 258 L232.17 256.25 L233.33 254.97 L234.5 254.5 L235.67 254.97 L236.83 256.25 L238 258" style="stroke:var(--fig-red);stroke-width:1.6;fill:none;stroke-linejoin:round" marker-end="url(#pchem-11-canonical-ensemble-ar-red)"/>
+  <path d="M296 288 L294.25 289.17 L292.97 290.33 L292.5 291.5 L292.97 292.67 L294.25 293.83 L296 295 L297.75 296.17 L299.03 297.33 L299.5 298.5 L299.03 299.67 L297.75 300.83 L296 302 L294.25 303.17 L292.97 304.33 L292.5 305.5 L292.97 306.67 L294.25 307.83 L296 309 L297.75 310.17 L299.03 311.33 L299.5 312.5 L299.03 313.67 L297.75 314.83 L296 316" style="stroke:var(--fig-red);stroke-width:1.6;fill:none;stroke-linejoin:round" marker-end="url(#pchem-11-canonical-ensemble-ar-red)"/>
+  <path d="M152 316 L153.17 317.75 L154.33 319.03 L155.5 319.5 L156.67 319.03 L157.83 317.75 L159 316 L160.17 314.25 L161.33 312.97 L162.5 312.5 L163.67 312.97 L164.83 314.25 L166 316 L167.17 317.75 L168.33 319.03 L169.5 319.5 L170.67 319.03 L171.83 317.75 L173 316 L174.17 314.25 L175.33 312.97 L176.5 312.5 L177.67 312.97 L178.83 314.25 L180 316" style="stroke:var(--fig-red);stroke-width:1.6;fill:none;stroke-linejoin:round" marker-end="url(#pchem-11-canonical-ensemble-ar-red)"/>
+  <text x="195" y="40" class="pchem-11-canonical-ensemble-b" text-anchor="middle">복제본 Ñ개 (Ñ → ∞)</text>
+  <text x="195" y="58" class="pchem-11-canonical-ensemble-s" text-anchor="middle">두꺼운 테두리: 단열 → 총에너지 Ẽ 일정</text>
+  <text x="50" y="386" class="pchem-11-canonical-ensemble-s">얇은 벽: 열은 통하고 물질은 막는다</text>
+  <text x="50" y="404" class="pchem-11-canonical-ensemble-s">색의 진하기: 복제본마다 다른 에너지 E<tspan style="font-size:11px;baseline-shift:sub">i</tspan></text>
+  <path d="M362 394 L363.17 395.75 L364.33 397.03 L365.5 397.5 L366.67 397.03 L367.83 395.75 L369 394 L370.17 392.25 L371.33 390.97 L372.5 390.5 L373.67 390.97 L374.83 392.25 L376 394 L377.17 395.75 L378.33 397.03 L379.5 397.5 L380.67 397.03 L381.83 395.75 L383 394 L384.17 392.25 L385.33 390.97 L386.5 390.5 L387.67 390.97 L388.83 392.25 L390 394" style="stroke:var(--fig-red);stroke-width:1.6;fill:none;stroke-linejoin:round" marker-end="url(#pchem-11-canonical-ensemble-ar-red)"/>
+  <text x="396" y="399" class="pchem-11-canonical-ensemble-s">열 교환</text>
+  <rect x="282" y="128" width="58" height="58" rx="0" style="fill:none;stroke:var(--fig-accent);stroke-width:2.4"/>
+  <line x1="340" y1="128" x2="460" y2="96" style="stroke:var(--fig-accent);stroke-width:1;fill:none;stroke-dasharray:4 3"/>
+  <line x1="340" y1="186" x2="460" y2="246" style="stroke:var(--fig-accent);stroke-width:1;fill:none;stroke-dasharray:4 3"/>
+  <rect x="460" y="96" width="150" height="150" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-accent);stroke-width:2.4"/>
+  <circle cx="478" cy="118" r="5" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="515" cy="171" r="5" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="552" cy="224" r="5" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="589" cy="169" r="5" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="508" cy="222" r="5" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="545" cy="167" r="5" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="582" cy="220" r="5" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="501" cy="165" r="5" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="538" cy="218" r="5" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="575" cy="163" r="5" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="494" cy="216" r="5" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="531" cy="161" r="5" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="568" cy="214" r="5" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <circle cx="487" cy="159" r="5" style="fill:var(--fig-blue);stroke:var(--fig-ink);stroke-width:0.8"/>
+  <text x="535" y="84" class="pchem-11-canonical-ensemble-b" text-anchor="middle">복제본 하나: 계 (N, V)</text>
+  <text x="535" y="272" class="pchem-11-canonical-ensemble-t" text-anchor="middle">에너지 E<tspan style="font-size:11px;baseline-shift:sub">i</tspan>는 열 교환으로 바뀐다</text>
+  <text x="535" y="296" class="pchem-11-canonical-ensemble-b" text-anchor="middle">나머지 전체가</text>
+  <text x="535" y="316" class="pchem-11-canonical-ensemble-b" text-anchor="middle">온도 T의 열 저장고</text>
+</svg>
