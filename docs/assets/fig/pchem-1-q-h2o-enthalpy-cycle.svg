@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-pchem-1-q-h2o-enthalpy-cycle d-pchem-1-q-h2o-enthalpy-cycle">
+  <title id="t-pchem-1-q-h2o-enthalpy-cycle">그림 물리화학 1-17 문제 14 풀이의 엔탈피 순환</title>
+  <desc id="d-pchem-1-q-h2o-enthalpy-cycle">400 K의 반응 H₂ + ½O₂ → H₂O(g)의 엔탈피(점선, 구하는 값)를 다섯 단계로 우회해 구한다. ① 반응물을 298.15 K로 냉각, ② 298.15 K에서 반응해 H₂O(l) 생성(−285.83 kJ), ③ 물을 373.15 K로 가열, ④ 373.15 K에서 증발(+40.66 kJ), ⑤ 수증기를 400 K로 가열.</desc>
+  <style>.pchem-1-q-h2o-enthalpy-cycle-t{font-size:14px;fill:var(--fig-ink)} .pchem-1-q-h2o-enthalpy-cycle-s{font-size:13px;fill:var(--fig-muted)} .pchem-1-q-h2o-enthalpy-cycle-b{font-size:14px;fill:var(--fig-ink);font-weight:600} .pchem-1-q-h2o-enthalpy-cycle-l{font-size:15px;fill:var(--fig-ink);font-weight:600} .pchem-1-q-h2o-enthalpy-cycle-m{font-size:13px;fill:var(--fig-ink)}</style>
+  <rect x="40" y="40" width="190" height="40" rx="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="135" y="66" class="pchem-1-q-h2o-enthalpy-cycle-b" text-anchor="middle"><tspan>H₂ + ½O₂ (400 K)</tspan></text>
+  <rect x="40" y="320" width="190" height="40" rx="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.5"/>
+  <text x="135" y="346" class="pchem-1-q-h2o-enthalpy-cycle-b" text-anchor="middle"><tspan>H₂ + ½O₂ (298.15 K)</tspan></text>
+  <rect x="480" y="40" width="190" height="40" rx="6" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <text x="575" y="66" class="pchem-1-q-h2o-enthalpy-cycle-b" text-anchor="middle"><tspan>H₂O(g) (400 K)</tspan></text>
+  <rect x="480" y="133" width="190" height="40" rx="6" style="fill:var(--fig-soft-teal);stroke:var(--fig-teal);stroke-width:1.5"/>
+  <text x="575" y="159" class="pchem-1-q-h2o-enthalpy-cycle-b" text-anchor="middle"><tspan>H₂O(g) (373.15 K)</tspan></text>
+  <rect x="480" y="226" width="190" height="40" rx="6" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <text x="575" y="252" class="pchem-1-q-h2o-enthalpy-cycle-b" text-anchor="middle"><tspan>H₂O(l) (373.15 K)</tspan></text>
+  <rect x="480" y="320" width="190" height="40" rx="6" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.5"/>
+  <text x="575" y="346" class="pchem-1-q-h2o-enthalpy-cycle-b" text-anchor="middle"><tspan>H₂O(l) (298.15 K)</tspan></text>
+  <line x1="232" y1="60" x2="465" y2="60" style="stroke:var(--fig-red);stroke-width:2.4;fill:none;stroke-dasharray:7 5"/>
+  <path d="M476.0 60.0 L465.0 55.0 L465.0 65.0 Z" style="fill:var(--fig-red);stroke:none"/>
+  <text x="354" y="52" class="pchem-1-q-h2o-enthalpy-cycle-b" text-anchor="middle" style="fill:var(--fig-red)"><tspan>구하는 값 Δ</tspan><tspan dy="4" style="font-size:10px;">r</tspan><tspan dy="-4" style="font-style:italic;">H</tspan><tspan>°(400 K)</tspan></text>
+  <line x1="135" y1="82" x2="135" y2="307" style="stroke:var(--fig-ink);stroke-width:2.2;fill:none"/>
+  <path d="M135.0 316.0 L139.1 307.0 L130.9 307.0 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="145" y="190" class="pchem-1-q-h2o-enthalpy-cycle-m"><tspan>① 반응물 400 → 298.15 K 냉각</tspan></text>
+  <text x="145" y="210" class="pchem-1-q-h2o-enthalpy-cycle-s"><tspan>−4.43 kJ</tspan></text>
+  <line x1="232" y1="340" x2="467" y2="340" style="stroke:var(--fig-ink);stroke-width:2.2;fill:none"/>
+  <path d="M476.0 340.0 L467.0 335.9 L467.0 344.1 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="354" y="332" class="pchem-1-q-h2o-enthalpy-cycle-m" text-anchor="middle"><tspan>② 반응, H₂O(l) 생성</tspan></text>
+  <text x="354" y="362" class="pchem-1-q-h2o-enthalpy-cycle-s" text-anchor="middle"><tspan>−285.83 kJ</tspan></text>
+  <line x1="575" y1="318" x2="575" y2="277" style="stroke:var(--fig-ink);stroke-width:2.2;fill:none"/>
+  <path d="M575.0 268.0 L571.0 277.0 L579.0 277.0 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="565" y="298" class="pchem-1-q-h2o-enthalpy-cycle-m" text-anchor="end"><tspan>③ 물 298.15 → 373.15 K 가열</tspan></text>
+  <text x="585" y="298" class="pchem-1-q-h2o-enthalpy-cycle-s"><tspan>+5.65 kJ</tspan></text>
+  <line x1="575" y1="224" x2="575" y2="184" style="stroke:var(--fig-ink);stroke-width:2.2;fill:none"/>
+  <path d="M575.0 175.0 L571.0 184.0 L579.0 184.0 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="565" y="204.5" class="pchem-1-q-h2o-enthalpy-cycle-m" text-anchor="end"><tspan>④ 373.15 K 증발</tspan></text>
+  <text x="585" y="204.5" class="pchem-1-q-h2o-enthalpy-cycle-s"><tspan>+40.66 kJ</tspan></text>
+  <line x1="575" y1="131" x2="575" y2="91" style="stroke:var(--fig-ink);stroke-width:2.2;fill:none"/>
+  <path d="M575.0 82.0 L571.0 91.0 L579.0 91.0 Z" style="fill:var(--fig-ink);stroke:none"/>
+  <text x="565" y="111.5" class="pchem-1-q-h2o-enthalpy-cycle-m" text-anchor="end"><tspan>⑤ 수증기 373.15 → 400 K 가열</tspan></text>
+  <text x="585" y="111.5" class="pchem-1-q-h2o-enthalpy-cycle-s"><tspan>+0.90 kJ</tspan></text>
+  <text x="360" y="392" class="pchem-1-q-h2o-enthalpy-cycle-b" text-anchor="middle"><tspan>합: −4.43 − 285.83 + 5.65 + 40.66 + 0.90 = −243.05 kJ/mol</tspan></text>
+</svg>

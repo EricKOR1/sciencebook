@@ -37,7 +37,7 @@ Sims.register('mj-kelvin-laplace', {
     function S() { return 1 + Math.pow(10, st.ls); }
 
     var loop = api.loop(function (dt) {
-      var p = props(), r = Math.pow(10, st.lr), K = Math.exp(p.len / r), s = S();
+      var p = props(), r = Math.pow(10, st.lr), K = Math.exp(p.len / r), s = S(); console.log('tick', dt, st.lr);
       // 성장 속도 dr/dt ∝ (S − K)/r : 로그 반지름으로 보기 좋게 바꾼 속도(화면용)
       var v = (s - K) / Math.max(s - 1, 1e-3);
       v = Math.max(-1, Math.min(1, v));
@@ -47,7 +47,7 @@ Sims.register('mj-kelvin-laplace', {
       var keep = st.lr; sR.set(keep); st.lr = keep; draw();
     });
     loop.pause();
-    function start() { if (api.reduced) { jump(); return; } st.run = true; runBtn.textContent = '멈춤'; loop.play(); }
+    function start() { console.log('start', api.reduced, typeof loop); if (api.reduced) { jump(); return; } st.run = true; runBtn.textContent = '멈춤'; loop.play(); }
     function stop() { st.run = false; runBtn.textContent = '시간 흐르게'; loop.pause(); }
     function jump() {   // 움직임 줄이기: 끝 상태로 바로
       var p = props(), r = Math.pow(10, st.lr);

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t-pchem-10-rigid-rotor-levels d-pchem-10-rigid-rotor-levels">
+  <title id="t-pchem-10-rigid-rotor-levels">그림 물리화학 10-2 강체 회전자의 준위와 순수 회전 스펙트럼</title>
+  <desc id="d-pchem-10-rigid-rotor-levels">왼쪽: 이원자 분자의 회전 준위 F(J) = BJ(J+1)을 J = 0~5에 대해 실제 비율(0, 2B, 6B, 12B, 20B, 30B)로 그렸고, 축퇴도는 2J+1이다. ΔJ = +1 흡수 전이의 에너지는 2B, 4B, 6B, 8B, 10B로 하나씩 2B만큼 커진다. 오른쪽: 그 전이들이 만드는 스펙트럼 선은 파수 2B, 4B, …, 10B에 간격 2B로 늘어선다(막대 높이는 같게 두었다. 실제 세기는 개체 수 분포를 따른다).</desc>
+  <style>.pchem-10-rigid-rotor-levels-lbl{font-size:14px;fill:var(--fig-ink)} .pchem-10-rigid-rotor-levels-sm{font-size:13px;fill:var(--fig-muted)} .pchem-10-rigid-rotor-levels-b{font-size:14px;font-weight:600;fill:var(--fig-ink)} .pchem-10-rigid-rotor-levels-tk{font-size:13px;fill:var(--fig-muted)} .pchem-10-rigid-rotor-levels-ax{font-size:14px;fill:var(--fig-ink)} .pchem-10-rigid-rotor-levels-red{font-size:14px;fill:var(--fig-red)} .pchem-10-rigid-rotor-levels-blue{font-size:14px;fill:var(--fig-blue)} .pchem-10-rigid-rotor-levels-green{font-size:14px;fill:var(--fig-green)} .pchem-10-rigid-rotor-levels-amber{font-size:14px;fill:var(--fig-amber)} .pchem-10-rigid-rotor-levels-violet{font-size:14px;fill:var(--fig-violet)} .pchem-10-rigid-rotor-levels-teal{font-size:14px;fill:var(--fig-teal)} .pchem-10-rigid-rotor-levels-acc{font-size:14px;fill:var(--fig-accent)} .pchem-10-rigid-rotor-levels-mut{font-size:14px;fill:var(--fig-muted)} .pchem-10-rigid-rotor-levels-big{font-size:16px;font-weight:700;fill:var(--fig-ink)}</style>
+  <line x1="70.0" y1="335.0" x2="330.0" y2="335.0" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <text x="62.0" y="340.0" text-anchor="end" class="pchem-10-rigid-rotor-levels-tk">0</text>
+  <text x="338.0" y="340.0" class="pchem-10-rigid-rotor-levels-lbl">J = 0, 축퇴도 1</text>
+  <line x1="70.0" y1="317.0" x2="330.0" y2="317.0" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <text x="62.0" y="322.0" text-anchor="end" class="pchem-10-rigid-rotor-levels-tk">2B</text>
+  <text x="338.0" y="322.0" class="pchem-10-rigid-rotor-levels-lbl">J = 1, 축퇴도 3</text>
+  <line x1="70.0" y1="281.0" x2="330.0" y2="281.0" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <text x="62.0" y="286.0" text-anchor="end" class="pchem-10-rigid-rotor-levels-tk">6B</text>
+  <text x="338.0" y="286.0" class="pchem-10-rigid-rotor-levels-lbl">J = 2, 축퇴도 5</text>
+  <line x1="70.0" y1="227.0" x2="330.0" y2="227.0" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <text x="62.0" y="232.0" text-anchor="end" class="pchem-10-rigid-rotor-levels-tk">12B</text>
+  <text x="338.0" y="232.0" class="pchem-10-rigid-rotor-levels-lbl">J = 3, 축퇴도 7</text>
+  <line x1="70.0" y1="155.0" x2="330.0" y2="155.0" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <text x="62.0" y="160.0" text-anchor="end" class="pchem-10-rigid-rotor-levels-tk">20B</text>
+  <text x="338.0" y="160.0" class="pchem-10-rigid-rotor-levels-lbl">J = 4, 축퇴도 9</text>
+  <line x1="70.0" y1="65.0" x2="330.0" y2="65.0" style="stroke:var(--fig-ink);stroke-width:2"/>
+  <text x="62.0" y="70.0" text-anchor="end" class="pchem-10-rigid-rotor-levels-tk">30B</text>
+  <text x="338.0" y="70.0" class="pchem-10-rigid-rotor-levels-lbl">J = 5, 축퇴도 11</text>
+  <text x="22.0" y="200.0" text-anchor="middle" transform="rotate(-90 22.0 200.0)" class="pchem-10-rigid-rotor-levels-ax">에너지 F(J)</text>
+  <path d="M110.0 317.0 L114.0 325.0 L106.0 325.0 Z" style="fill:var(--fig-accent);stroke:none"/>
+  <line x1="110.0" y1="335.0" x2="110.0" y2="324.7" style="stroke:var(--fig-accent);stroke-width:2.2"/>
+  <text x="115.0" y="353.0" class="pchem-10-rigid-rotor-levels-acc">2B</text>
+  <path d="M152.0 281.0 L156.0 289.0 L148.0 289.0 Z" style="fill:var(--fig-accent);stroke:none"/>
+  <line x1="152.0" y1="317.0" x2="152.0" y2="288.7" style="stroke:var(--fig-accent);stroke-width:2.2"/>
+  <text x="157.0" y="304.0" class="pchem-10-rigid-rotor-levels-acc">4B</text>
+  <path d="M194.0 227.0 L198.0 235.0 L190.0 235.0 Z" style="fill:var(--fig-accent);stroke:none"/>
+  <line x1="194.0" y1="281.0" x2="194.0" y2="234.7" style="stroke:var(--fig-accent);stroke-width:2.2"/>
+  <text x="199.0" y="259.0" class="pchem-10-rigid-rotor-levels-acc">6B</text>
+  <path d="M236.0 155.0 L240.0 163.0 L232.0 163.0 Z" style="fill:var(--fig-accent);stroke:none"/>
+  <line x1="236.0" y1="227.0" x2="236.0" y2="162.7" style="stroke:var(--fig-accent);stroke-width:2.2"/>
+  <text x="241.0" y="196.0" class="pchem-10-rigid-rotor-levels-acc">8B</text>
+  <path d="M278.0 65.0 L282.0 73.0 L274.0 73.0 Z" style="fill:var(--fig-accent);stroke:none"/>
+  <line x1="278.0" y1="155.0" x2="278.0" y2="72.7" style="stroke:var(--fig-accent);stroke-width:2.2"/>
+  <text x="283.0" y="115.0" class="pchem-10-rigid-rotor-levels-acc">10B</text>
+  <text x="70.0" y="22.0" class="pchem-10-rigid-rotor-levels-acc">ΔJ = +1 흡수 전이</text>
+  <line x1="500.0" y1="318.0" x2="700.0" y2="318.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <line x1="500.0" y1="318.0" x2="500.0" y2="323.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="500.0" y="338.0" text-anchor="middle" class="pchem-10-rigid-rotor-levels-tk">0</text>
+  <line x1="533.3" y1="318.0" x2="533.3" y2="323.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="533.3" y="338.0" text-anchor="middle" class="pchem-10-rigid-rotor-levels-tk">2B</text>
+  <line x1="566.7" y1="318.0" x2="566.7" y2="323.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="566.7" y="338.0" text-anchor="middle" class="pchem-10-rigid-rotor-levels-tk">4B</text>
+  <line x1="600.0" y1="318.0" x2="600.0" y2="323.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="600.0" y="338.0" text-anchor="middle" class="pchem-10-rigid-rotor-levels-tk">6B</text>
+  <line x1="633.3" y1="318.0" x2="633.3" y2="323.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="633.3" y="338.0" text-anchor="middle" class="pchem-10-rigid-rotor-levels-tk">8B</text>
+  <line x1="666.7" y1="318.0" x2="666.7" y2="323.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="666.7" y="338.0" text-anchor="middle" class="pchem-10-rigid-rotor-levels-tk">10B</text>
+  <line x1="700.0" y1="318.0" x2="700.0" y2="323.0" style="stroke:var(--fig-muted);stroke-width:1.2"/>
+  <text x="700.0" y="338.0" text-anchor="middle" class="pchem-10-rigid-rotor-levels-tk">12B</text>
+  <text x="600.0" y="360.0" text-anchor="middle" class="pchem-10-rigid-rotor-levels-ax">파수 ν̃</text>
+  <line x1="533.3" y1="318.0" x2="533.3" y2="239.6" style="stroke:var(--fig-accent);stroke-width:3"/>
+  <text x="533.3" y="233.6" text-anchor="middle" class="pchem-10-rigid-rotor-levels-sm">0→1</text>
+  <line x1="566.7" y1="318.0" x2="566.7" y2="239.6" style="stroke:var(--fig-accent);stroke-width:3"/>
+  <text x="566.7" y="233.6" text-anchor="middle" class="pchem-10-rigid-rotor-levels-sm">1→2</text>
+  <line x1="600.0" y1="318.0" x2="600.0" y2="239.6" style="stroke:var(--fig-accent);stroke-width:3"/>
+  <text x="600.0" y="233.6" text-anchor="middle" class="pchem-10-rigid-rotor-levels-sm">2→3</text>
+  <line x1="633.3" y1="318.0" x2="633.3" y2="239.6" style="stroke:var(--fig-accent);stroke-width:3"/>
+  <text x="633.3" y="233.6" text-anchor="middle" class="pchem-10-rigid-rotor-levels-sm">3→4</text>
+  <line x1="666.7" y1="318.0" x2="666.7" y2="239.6" style="stroke:var(--fig-accent);stroke-width:3"/>
+  <text x="666.7" y="233.6" text-anchor="middle" class="pchem-10-rigid-rotor-levels-sm">4→5</text>
+  <path d="M564.7 282.7 L558.7 285.7 L558.7 279.7 Z" style="fill:var(--fig-red);stroke:none"/>
+  <path d="M535.3 282.7 L541.3 279.7 L541.3 285.7 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="541.3" y1="282.7" x2="558.7" y2="282.7" style="stroke:var(--fig-red);stroke-width:1.3"/>
+  <path d="M598.0 282.7 L592.0 285.7 L592.0 279.7 Z" style="fill:var(--fig-red);stroke:none"/>
+  <path d="M568.7 282.7 L574.7 279.7 L574.7 285.7 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="574.7" y1="282.7" x2="592.0" y2="282.7" style="stroke:var(--fig-red);stroke-width:1.3"/>
+  <path d="M631.3 282.7 L625.3 285.7 L625.3 279.7 Z" style="fill:var(--fig-red);stroke:none"/>
+  <path d="M602.0 282.7 L608.0 279.7 L608.0 285.7 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="608.0" y1="282.7" x2="625.3" y2="282.7" style="stroke:var(--fig-red);stroke-width:1.3"/>
+  <path d="M664.7 282.7 L658.7 285.7 L658.7 279.7 Z" style="fill:var(--fig-red);stroke:none"/>
+  <path d="M635.3 282.7 L641.3 279.7 L641.3 285.7 Z" style="fill:var(--fig-red);stroke:none"/>
+  <line x1="641.3" y1="282.7" x2="658.7" y2="282.7" style="stroke:var(--fig-red);stroke-width:1.3"/>
+  <text x="600.0" y="211.6" text-anchor="middle" class="pchem-10-rigid-rotor-levels-red">이웃한 선의 간격은 모두 2B</text>
+  <text x="600.0" y="158.0" text-anchor="middle" class="pchem-10-rigid-rotor-levels-b">순수 회전 스펙트럼</text>
+</svg>

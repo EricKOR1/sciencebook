@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t-pchem-3-heat-capacity-bars d-pchem-3-heat-capacity-bars">
   <title id="t-pchem-3-heat-capacity-bars">그림 물리화학 3-6 네 물질의 몰 열용량 C_p,m과 C_V,m (25 ℃)</title>
-  <desc id="d-pchem-3-heat-capacity-bars">물 75.3/74.5, 벤젠 136/94, 구리 24.4/23.7, 단원자 이상 기체 20.8/12.5 J/(mol·K)(진한 막대 C_p,m, 옅은 막대 C_V,m). 막대 위의 수는 C_p − C_V = TVα²/κ_T 이다. 구리의 C_V,m은 뒬롱–프티 값 3R = 24.9 J/(mol·K)보다 조금 작다.</desc>
+  <desc id="d-pchem-3-heat-capacity-bars">물 75.3/74.5, 벤젠 136/94, 구리 24.4/23.7, 단원자 이상 기체 20.8/12.5 J/(mol·K)(왼쪽 막대 C_p,m, 오른쪽 막대 C_V,m). 막대 위의 수는 C_p − C_V = TVα²/κ_T 이다. 구리의 C_V,m은 뒬롱–프티 값 3R = 24.9 J/(mol·K)보다 조금 작다.</desc>
   <style>.pchem-3-heat-capacity-bars-t{font-size:14px;fill:var(--fig-ink)} .pchem-3-heat-capacity-bars-s{font-size:13px;fill:var(--fig-muted)} .pchem-3-heat-capacity-bars-b{font-size:15px;font-weight:600;fill:var(--fig-ink)} .pchem-3-heat-capacity-bars-i{font-size:14px;font-style:italic;fill:var(--fig-ink)} </style>
   <rect x="80.0" y="30.0" width="610.0" height="300.0" rx="0" style="fill:var(--fig-panel);stroke:var(--fig-line);stroke-width:1"/>
   <line x1="76.0" y1="330.0" x2="80.0" y2="330.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
@@ -57,8 +57,8 @@
   <text x="461.2" y="240.0" text-anchor="middle" class="pchem-3-heat-capacity-bars-s" style="fill:var(--fig-amber);font-weight:600">3R = 24.9</text>
   <text x="461.2" y="256.0" text-anchor="middle" class="pchem-3-heat-capacity-bars-s" style="fill:var(--fig-amber)">(뒬롱–프티 값)</text>
   <rect x="399.2" y="105.0" width="16.0" height="12.0" rx="0" style="fill:var(--fig-blue);stroke:var(--fig-blue);stroke-width:1"/>
-  <text x="421.2" y="116.0" text-anchor="start" class="pchem-3-heat-capacity-bars-s">C<tspan baseline-shift="sub" font-size="10">p,m</tspan> (진한 막대)</text>
+  <text x="421.2" y="116.0" text-anchor="start" class="pchem-3-heat-capacity-bars-s">C<tspan baseline-shift="sub" font-size="10">p,m</tspan> (왼쪽 막대)</text>
   <rect x="399.2" y="127.0" width="16.0" height="12.0" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1"/>
-  <text x="421.2" y="138.0" text-anchor="start" class="pchem-3-heat-capacity-bars-s">C<tspan baseline-shift="sub" font-size="10">V,m</tspan> (옅은 막대)</text>
+  <text x="421.2" y="138.0" text-anchor="start" class="pchem-3-heat-capacity-bars-s">C<tspan baseline-shift="sub" font-size="10">V,m</tspan> (오른쪽 막대)</text>
   <text x="385.0" y="374.0" text-anchor="middle" class="pchem-3-heat-capacity-bars-s">C<tspan baseline-shift="sub" font-size="10">p</tspan> − C<tspan baseline-shift="sub" font-size="10">V</tspan> = TV<tspan baseline-shift="sub" font-size="10">m</tspan>α²/κ<tspan baseline-shift="sub" font-size="10">T</tspan> (J/(mol·K)), 이상 기체는 R</text>
 </svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" role="img" aria-labelledby="t-pchem-11-n2-i2-vibration-levels d-pchem-11-n2-i2-vibration-levels">
+  <title id="t-pchem-11-n2-i2-vibration-levels">그림 물리화학 11-5 298 K에서 N₂와 I₂의 진동 준위와 점유</title>
+  <desc id="d-pchem-11-n2-i2-vibration-levels">같은 파수 눈금(0~2600 cm⁻¹)에 그린 두 조화 진동자의 준위(영점 에너지를 0으로). N₂는 간격 2359 cm⁻¹여서 v = 1이 k_BT/hc = 207 cm⁻¹(빨간 점선)보다 훨씬 높고, 점유는 v = 0에 0.99999, v = 1에 1.1×10⁻⁵이다. I₂는 간격 214.5 cm⁻¹여서 v = 0~6의 점유가 0.645, 0.229, 0.081, 0.029, 0.010, 0.004, 0.001로 여러 준위에 퍼져 있다.</desc>
+  <style>
+    .pchem-11-n2-i2-vibration-levels-t{font-size:14px;fill:var(--fig-ink)}
+    .pchem-11-n2-i2-vibration-levels-b{font-size:14px;font-weight:600;fill:var(--fig-ink)}
+    .pchem-11-n2-i2-vibration-levels-h{font-size:15px;font-weight:600;fill:var(--fig-ink)}
+    .pchem-11-n2-i2-vibration-levels-s{font-size:13px;fill:var(--fig-muted)}
+    .pchem-11-n2-i2-vibration-levels-ax{font-size:13px;fill:var(--fig-muted)}
+    .pchem-11-n2-i2-vibration-levels-big{font-size:18px;font-weight:600;fill:var(--fig-ink)}
+  </style>
+  <defs><marker id="pchem-11-n2-i2-vibration-levels-ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-ink)"/></marker><marker id="pchem-11-n2-i2-vibration-levels-ar-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-muted)"/></marker><marker id="pchem-11-n2-i2-vibration-levels-ar-line" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-line)"/></marker><marker id="pchem-11-n2-i2-vibration-levels-ar-paper" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-paper)"/></marker><marker id="pchem-11-n2-i2-vibration-levels-ar-panel" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-panel)"/></marker><marker id="pchem-11-n2-i2-vibration-levels-ar-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-accent)"/></marker><marker id="pchem-11-n2-i2-vibration-levels-ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-blue)"/></marker><marker id="pchem-11-n2-i2-vibration-levels-ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-red)"/></marker><marker id="pchem-11-n2-i2-vibration-levels-ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-green)"/></marker><marker id="pchem-11-n2-i2-vibration-levels-ar-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-amber)"/></marker><marker id="pchem-11-n2-i2-vibration-levels-ar-violet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-violet)"/></marker><marker id="pchem-11-n2-i2-vibration-levels-ar-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-teal)"/></marker><marker id="pchem-11-n2-i2-vibration-levels-ar-soft-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-soft-blue)"/></marker><marker id="pchem-11-n2-i2-vibration-levels-ar-soft-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-soft-red)"/></marker><marker id="pchem-11-n2-i2-vibration-levels-ar-soft-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-soft-green)"/></marker><marker id="pchem-11-n2-i2-vibration-levels-ar-soft-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-soft-amber)"/></marker><marker id="pchem-11-n2-i2-vibration-levels-ar-soft-violet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-soft-violet)"/></marker><marker id="pchem-11-n2-i2-vibration-levels-ar-soft-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--fig-soft-teal)"/></marker></defs>
+  <line x1="80" y1="390" x2="80" y2="50" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/>
+  <line x1="75" y1="390" x2="80" y2="390" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/>
+  <text x="71" y="394.5" class="pchem-11-n2-i2-vibration-levels-ax" text-anchor="end">0</text>
+  <line x1="75" y1="324.62" x2="80" y2="324.62" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/>
+  <text x="71" y="329.12" class="pchem-11-n2-i2-vibration-levels-ax" text-anchor="end">500</text>
+  <line x1="75" y1="259.23" x2="80" y2="259.23" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/>
+  <text x="71" y="263.73" class="pchem-11-n2-i2-vibration-levels-ax" text-anchor="end">1000</text>
+  <line x1="75" y1="193.85" x2="80" y2="193.85" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/>
+  <text x="71" y="198.35" class="pchem-11-n2-i2-vibration-levels-ax" text-anchor="end">1500</text>
+  <line x1="75" y1="128.46" x2="80" y2="128.46" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/>
+  <text x="71" y="132.96" class="pchem-11-n2-i2-vibration-levels-ax" text-anchor="end">2000</text>
+  <line x1="75" y1="63.08" x2="80" y2="63.08" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none"/>
+  <text x="71" y="67.58" class="pchem-11-n2-i2-vibration-levels-ax" text-anchor="end">2500</text>
+  <text x="24" y="220" class="pchem-11-n2-i2-vibration-levels-t" text-anchor="middle" transform="rotate(-90 24 220)">진동 에너지 (cm<tspan style="font-size:11px;baseline-shift:super">−1</tspan>, v = 0 기준)</text>
+  <line x1="80" y1="362.9" x2="700" y2="362.9" style="stroke:var(--fig-red);stroke-width:1.4;fill:none;stroke-dasharray:6 4"/>
+  <text x="340" y="356.9" class="pchem-11-n2-i2-vibration-levels-s" text-anchor="end" style="fill:var(--fig-red)">k<tspan style="font-size:11px;baseline-shift:sub">B</tspan>T/hc = 207 cm<tspan style="font-size:11px;baseline-shift:super">−1</tspan> (298 K)</text>
+  <text x="225" y="30" class="pchem-11-n2-i2-vibration-levels-h" text-anchor="middle">N₂ (ν̃ = 2359 cm⁻¹)</text>
+  <line x1="110" y1="390" x2="340" y2="390" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
+  <text x="106" y="385" class="pchem-11-n2-i2-vibration-levels-s">v = 0</text>
+  <line x1="110" y1="81.52" x2="340" y2="81.52" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
+  <text x="106" y="76.52" class="pchem-11-n2-i2-vibration-levels-s">v = 1</text>
+  <rect x="158" y="377" width="150" height="11" rx="0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <text x="312" y="387" class="pchem-11-n2-i2-vibration-levels-b">0.99999</text>
+  <text x="162" y="76.52" class="pchem-11-n2-i2-vibration-levels-b">1.1×10<tspan style="font-size:11px;baseline-shift:super">−5</tspan></text>
+  <line x1="285" y1="71.52" x2="285" y2="52" style="stroke:var(--fig-muted);stroke-width:1.2;fill:none" marker-end="url(#pchem-11-n2-i2-vibration-levels-ar-muted)"/>
+  <text x="277" y="55.23" class="pchem-11-n2-i2-vibration-levels-s" text-anchor="end">v = 2는 4718 cm⁻¹</text>
+  <text x="277" y="71.23" class="pchem-11-n2-i2-vibration-levels-s" text-anchor="end">(그림 밖)</text>
+  <text x="225" y="418" class="pchem-11-n2-i2-vibration-levels-t" text-anchor="middle">진동이 얼어 있다: q<tspan style="font-size:11px;baseline-shift:super">V</tspan> = 1.00001</text>
+  <text x="555" y="30" class="pchem-11-n2-i2-vibration-levels-h" text-anchor="middle">I₂ (ν̃ = 214.5 cm⁻¹)</text>
+  <line x1="420" y1="390" x2="690" y2="390" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
+  <text x="414" y="394.5" class="pchem-11-n2-i2-vibration-levels-s" text-anchor="end">0</text>
+  <rect x="428" y="377" width="96.72" height="11" rx="0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2"/>
+  <text x="529.72" y="387" class="pchem-11-n2-i2-vibration-levels-b">0.645</text>
+  <line x1="420" y1="361.95" x2="690" y2="361.95" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
+  <text x="414" y="366.45" class="pchem-11-n2-i2-vibration-levels-s" text-anchor="end">1</text>
+  <rect x="428" y="348.95" width="34.35" height="11" rx="0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2"/>
+  <text x="467.35" y="358.95" class="pchem-11-n2-i2-vibration-levels-t">0.229</text>
+  <line x1="420" y1="333.9" x2="690" y2="333.9" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
+  <text x="414" y="338.4" class="pchem-11-n2-i2-vibration-levels-s" text-anchor="end">2</text>
+  <rect x="428" y="320.9" width="12.2" height="11" rx="0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2"/>
+  <text x="445.2" y="330.9" class="pchem-11-n2-i2-vibration-levels-t">0.081</text>
+  <line x1="420" y1="305.85" x2="690" y2="305.85" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
+  <text x="414" y="310.35" class="pchem-11-n2-i2-vibration-levels-s" text-anchor="end">3</text>
+  <rect x="428" y="292.85" width="4.33" height="11" rx="0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2"/>
+  <text x="437.33" y="302.85" class="pchem-11-n2-i2-vibration-levels-t">0.029</text>
+  <line x1="420" y1="277.8" x2="690" y2="277.8" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
+  <text x="414" y="282.3" class="pchem-11-n2-i2-vibration-levels-s" text-anchor="end">4</text>
+  <rect x="428" y="264.8" width="1.54" height="11" rx="0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2"/>
+  <text x="434.54" y="274.8" class="pchem-11-n2-i2-vibration-levels-t">0.010</text>
+  <line x1="420" y1="249.75" x2="690" y2="249.75" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
+  <text x="414" y="254.25" class="pchem-11-n2-i2-vibration-levels-s" text-anchor="end">5</text>
+  <rect x="428" y="236.75" width="0.8" height="11" rx="0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2"/>
+  <text x="433.55" y="246.75" class="pchem-11-n2-i2-vibration-levels-t">0.004</text>
+  <line x1="420" y1="221.7" x2="690" y2="221.7" style="stroke:var(--fig-ink);stroke-width:2;fill:none"/>
+  <text x="414" y="226.2" class="pchem-11-n2-i2-vibration-levels-s" text-anchor="end">6</text>
+  <rect x="428" y="208.7" width="0.8" height="11" rx="0" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2"/>
+  <text x="433.19" y="218.7" class="pchem-11-n2-i2-vibration-levels-t">0.001</text>
+  <line x1="420" y1="193.65" x2="690" y2="193.65" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none;opacity:0.5"/>
+  <line x1="420" y1="165.6" x2="690" y2="165.6" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none;opacity:0.5"/>
+  <line x1="420" y1="137.55" x2="690" y2="137.55" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none;opacity:0.5"/>
+  <line x1="420" y1="109.5" x2="690" y2="109.5" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none;opacity:0.5"/>
+  <line x1="420" y1="81.45" x2="690" y2="81.45" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none;opacity:0.5"/>
+  <line x1="420" y1="53.4" x2="690" y2="53.4" style="stroke:var(--fig-ink);stroke-width:1.2;fill:none;opacity:0.5"/>
+  <text x="414" y="198.15" class="pchem-11-n2-i2-vibration-levels-s" text-anchor="end">…</text>
+  <text x="398" y="412" class="pchem-11-n2-i2-vibration-levels-s">v</text>
+  <text x="555" y="418" class="pchem-11-n2-i2-vibration-levels-t" text-anchor="middle">여러 준위에 퍼져 있다: q<tspan style="font-size:11px;baseline-shift:super">V</tspan> = 1.551</text>
+</svg>

@@ -36,16 +36,14 @@ Sims.register('mj-regular-solution', {
     var rA = api.readout('공비점 ');
     var rC = api.readout('T_c = W/2R ');
 
-    api.slider({ id: 'mj-regular-solution-w', label: '상호작용 매개변수 W', min: -6, max: 8, step: 0.1, value: st.W,
+    var sW = api.slider({ id: 'mj-regular-solution-w', label: '상호작용 매개변수 W', min: -6, max: 8, step: 0.1, value: st.W,
       format: function (v) { return (v < 0 ? '−' : '') + Math.abs(v).toFixed(1) + ' kJ/mol'; }, onInput: function (v) { st.W = v; draw(); } });
-    api.slider({ id: 'mj-regular-solution-t', label: '온도 T', min: 200, max: 400, step: 1, value: st.T,
+    var sT = api.slider({ id: 'mj-regular-solution-t', label: '온도 T', min: 200, max: 400, step: 1, value: st.T,
       format: function (v) { return v.toFixed(0) + ' K'; }, onInput: function (v) { st.T = v; draw(); } });
     api.slider({ id: 'mj-regular-solution-r', label: '증기 압력 비 p_A*/p_B*', min: 0.5, max: 3, step: 0.05, value: st.r,
       format: function (v) { return v.toFixed(2); }, onInput: function (v) { st.r = v; draw(); } });
     var gb = api.group();
     api.button('예제 18로 되돌리기', function () { sW.set(5.0); sT.set(250); draw(); }, { parent: gb });
-    var sW = { set: function (v) { var e = document.getElementById('mj-regular-solution-w'); e.value = v; e.dispatchEvent(new Event('input')); } };
-    var sT = { set: function (v) { var e = document.getElementById('mj-regular-solution-t'); e.value = v; e.dispatchEvent(new Event('input')); } };
 
     function layout() {
       var w = cv.w, h = cv.h;
@@ -125,10 +123,8 @@ Sims.register('mj-regular-solution', {
       ctx.restore();
       text(T, '점선: 이상 혼합(ξ = 0)', L[0].x + L[0].w - 4, L[0].y + L[0].h - 10, T.figMuted, 'right');
       // ② 압력–조성
-      var pmaxv = 0;
-      for (var i = 0; i <= 100; i++) { var pp = pres(i / 100, Math.min(k, xb !== null ? 0 : k)).p; pmaxv = Math.max(pmaxv, pp); }
-      for (i = 0; i <= 100; i++) pmaxv = Math.max(pmaxv, pres(i / 100, k).p);
-      pmaxv = Math.max(pmaxv, st.r, 1);
+      var pmaxv = Math.max(st.r, 1), i;
+      for (i = 0; i <= 200; i++) { var xq = i / 200; if (xb !== null && xq > xb && xq < 1 - xb) continue; pmaxv = Math.max(pmaxv, pres(xq, k).p); }
       var pyMax = Math.ceil(pmaxv * 1.1 * 2) / 2, pyt = [];
       var ps = pyMax > 6 ? 2 : (pyMax > 3 ? 1 : 0.5);
       for (v = 0; v <= pyMax + 1e-9; v += ps) pyt.push(+v.toFixed(1));
