@@ -154,7 +154,9 @@ Sims.register('mj-vector-field', {
     }
     function localDerivs(x, y) {
       var h = 1e-4;
-      var a = F(x + h, y), b = F(x - h, y), c2 = F(x, y + h), d = F(x, y - h);
+      var a = F(x + h, y), b = F(x - h, y), c2 = F(x, y + h), d = F(x, y - h), o = F(x, y);
+      var big = function (v) { return !ok(v) || Math.hypot(v[0], v[1]) > 1e3; };
+      if (big(o) || big(a) || big(b) || big(c2) || big(d)) return { div: NaN, curl: NaN };
       return { div: (a[0] - b[0]) / (2 * h) + (c2[1] - d[1]) / (2 * h), curl: (a[1] - b[1]) / (2 * h) - (c2[0] - d[0]) / (2 * h) };
     }
     function fmt(v) {
