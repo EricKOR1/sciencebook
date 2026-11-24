@@ -70,8 +70,8 @@ Sims.register('mj-spherical-harmonics', {
           g.text([e[0] * 1.08, e[1] * 1.08, e[2] * 1.08], a[1], { color: T.figMuted, size: 13 });
         });
         if (Math.abs(st.m) > st.l) {
-          g.text([0, 0.3, 0], '|m| > l: 함수가 0이다', { color: T.figRed, size: 15, bold: true });
-          g.text([0, -0.3, 0], '(Pₗᵐ은 Pₗ을 |m|번 미분 → 0)', { color: T.figMuted, size: 12 });
+          g.text([0, -1.5, 0], '|m| > l: 함수가 0이다', { color: T.figRed, size: 15, bold: true });
+          g.text([0, -1.95, 0], '(Pₗᵐ은 Pₗ을 |m|번 미분 → 0)', { color: T.figMuted, size: 12 });
           return;
         }
         // 격자 값과 최댓값
