@@ -147,7 +147,8 @@ Sims.register('mj-franck-condon', {
         ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'right'; ctx.fillText('● 푸아송 e^(−S)S^v′/v′!', Bc.x1, Bc.y0 + 10);
       }
       rS.set(same ? S.toFixed(2) : '— (두 진동 파수가 같을 때)');
-      rMax.set('0–' + imax + ' 띠 (v′ = ' + imax + ')');
+      if (imax === nb - 1 && R.fc[nb] > R.fc[nb - 1]) rMax.set('v′ > ' + (nb - 1) + ' (막대 범위 밖)');
+      else rMax.set('0–' + imax + ' 띠 (v′ = ' + imax + ')');
       rSel.set('v′ = ' + st.v + ': ' + R.fc[st.v].toFixed(3));
     }
     function sub(n) { var d = '₀₁₂₃₄₅₆₇₈₉'; return String(n).split('').map(function (c) { return d[+c]; }).join(''); }

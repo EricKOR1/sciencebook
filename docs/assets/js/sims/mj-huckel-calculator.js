@@ -127,7 +127,7 @@ Sims.register('mj-huckel-calculator', {
       var dist = st.N > 1 ? Math.hypot(P[1][0] - P[0][0], P[1][1] - P[0][1]) : 50, rmax = Math.min(20, dist * 0.42);
       for (i = 0; i < N; i++) {
         var c = o.c[i], r = rmax * Math.abs(c) / 0.75;
-        if (Math.abs(c) > 1e-3) { ctx.globalAlpha = 0.55; ctx.fillStyle = c > 0 ? T.figBlue : T.figRed; ctx.beginPath(); ctx.arc(P[i][0], P[i][1], Math.max(2, Math.sqrt(Math.abs(c)) * rmax), 0, 7); ctx.fill(); ctx.globalAlpha = 1; ctx.strokeStyle = c > 0 ? T.figBlue : T.figRed; ctx.lineWidth = 1.4; ctx.stroke(); }
+        if (Math.abs(c) > 1e-3) { ctx.globalAlpha = 0.55; ctx.fillStyle = c > 0 ? T.figBlue : T.figRed; ctx.beginPath(); ctx.arc(P[i][0], P[i][1], Math.max(2, r), 0, 7); ctx.fill(); ctx.globalAlpha = 1; ctx.strokeStyle = c > 0 ? T.figBlue : T.figRed; ctx.lineWidth = 1.4; ctx.stroke(); }
         ctx.fillStyle = T.figInk; ctx.beginPath(); ctx.arc(P[i][0], P[i][1], 3, 0, 7); ctx.fill();
       }
       // 숫자

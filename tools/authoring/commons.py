@@ -61,11 +61,22 @@ def main():
     else:
         it = info([a.title], a.width)[0]
         if not it['usable']: sys.exit('쓸 수 없는 라이선스: ' + it['license'])
-        src = it['thumb'] or it['url']
-        ext = os.path.splitext(urllib.parse.urlparse(src).path)[1].lower() or '.png'
-        data = fetch(src)
-        open(a.out + ext, 'wb').write(data)
+        # 축소본 서버(thumb.wikimedia.org)는 막혀 있을 수 있으므로 원본을 받아 여기서 줄인다.
+        from PIL import Image
+        import io
+        data = fetch(it['url'])
+        im = Image.open(io.BytesIO(data))
+        if getattr(im, 'is_animated', False):
+            ext = os.path.splitext(urllib.parse.urlparse(it['url']).path)[1].lower()
+            open(a.out + ext, 'wb').write(data)          # 움직이는 그림(GIF)은 그대로 둔다
+        else:
+            if im.width > a.width:
+                im = im.resize((a.width, round(im.height * a.width / im.width)), Image.LANCZOS)
+            alpha = im.mode in ('RGBA', 'LA', 'P')
+            ext = '.webp'
+            im.convert('RGBA' if alpha else 'RGB').save(a.out + ext, 'WEBP', quality=82, method=6)
+        it['saved_width'], it['saved_height'] = im.size
         json.dump(it, open(a.out + '.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-        print(a.out + ext, len(data), 'bytes |', it['license'], '|', it['author'])
+        print(a.out + ext, os.path.getsize(a.out + ext), 'bytes', im.size, '|', it['license'], '|', it['author'][:60])
 if __name__ == '__main__':
     main()
