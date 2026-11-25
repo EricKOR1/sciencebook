@@ -365,16 +365,16 @@ class Fig:
         if orient is not None:
             i, j, want = orient
             kw0 = dict(kw); kw0['rotate'] = 0.0
-            d0 = molsvg(smiles, '%s-%s' % (self.name, key), **kw0)
+            d0 = molsvg(smiles, '%s-mol-%s' % (self.name, key), **kw0)
             a0 = angle_of((d0['atoms'][i]['x'], d0['atoms'][i]['y']), (d0['atoms'][j]['x'], d0['atoms'][j]['y']))
             kw['rotate'] = (want - a0) * (-1 if kw.get('flip') else 1)
-            d = molsvg(smiles, '%s-%s' % (self.name, key), **kw)
+            d = molsvg(smiles, '%s-mol-%s' % (self.name, key), **kw)
             a1 = angle_of((d['atoms'][i]['x'], d['atoms'][i]['y']), (d['atoms'][j]['x'], d['atoms'][j]['y']))
             if abs(((a1 - want + 180) % 360) - 180) > 2:
                 kw['rotate'] = -kw['rotate']
-                d = molsvg(smiles, '%s-%s' % (self.name, key), **kw)
+                d = molsvg(smiles, '%s-mol-%s' % (self.name, key), **kw)
         else:
-            d = molsvg(smiles, '%s-%s' % (self.name, key), **kw)
+            d = molsvg(smiles, '%s-mol-%s' % (self.name, key), **kw)
         if center is not None:
             x, y = center[0] - d['width'] / 2, center[1] - d['height'] / 2
         m = Mol(self, d, x, y)
@@ -389,12 +389,12 @@ class Fig:
             return angle_of((atoms[0]['x'], atoms[0]['y']), (atoms[1]['x'], atoms[1]['y']))
         want = ang(A.atoms)
         for flip in (False, True):
-            d0 = molsvg(smiles, '%s-%s' % (self.name, key), flip=flip, rotate=0.0, **kw)
+            d0 = molsvg(smiles, '%s-mol-%s' % (self.name, key), flip=flip, rotate=0.0, **kw)
             if len(d0['atoms']) != len(A.atoms):
                 break
             base = ang(d0['atoms'])
             for rot in ((want - base), -(want - base)):
-                d = molsvg(smiles, '%s-%s' % (self.name, key), flip=flip, rotate=float(rot), **kw)
+                d = molsvg(smiles, '%s-mol-%s' % (self.name, key), flip=flip, rotate=float(rot), **kw)
                 ok = all(a['el'] == b['el'] and abs((b['x'] - d['atoms'][0]['x']) - (a['x'] - A.atoms[0]['x'])) < 2.0
                          and abs((b['y'] - d['atoms'][0]['y']) - (a['y'] - A.atoms[0]['y'])) < 2.0 for a, b in zip(A.atoms, d['atoms']))
                 if ok:
