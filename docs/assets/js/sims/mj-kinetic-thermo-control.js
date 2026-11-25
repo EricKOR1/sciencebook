@@ -10,16 +10,16 @@ Sims.register('mj-kinetic-thermo-control', {
     '중간체는 정류 상태로 두었고, 장벽 값은 온도와 무관하다고 가정한 모형이다.',
   init: function (api) {
     var R = 8.314, KBH = 2.0837e10;
-    var st = { T: -80, lt: Math.log10(3600), dd: 2.2, dg: 3.6, er: 88 };
+    var st = { T: 40, lt: Math.log10(3600), dd: 2.2, dg: 3.6, er: 88 };
     var cv = api.canvas({ aspect: function (w) { return w < 640 ? 1.25 : 0.46; }, label: '1,2-생성물과 1,4-생성물의 분율–시간 그래프와 에너지 도표' });
     var ctx = cv.ctx;
     var rK = api.readout('속도론적 비 1,2 : 1,4'), rE = api.readout('평형 비 1,2 : 1,4'), rH = api.readout('평형까지 반감기'), rN = api.readout('선택한 시간의 비');
     function ft(v) { var s = Math.pow(10, v); return s < 60 ? s.toFixed(s < 10 ? 1 : 0) + ' s' : s < 3600 ? (s / 60).toFixed(s < 600 ? 1 : 0) + ' 분' : (s / 3600).toFixed(1) + ' 시간'; }
     api.slider({ id: 'mj-kinetic-thermo-control-T', label: '온도', min: -100, max: 80, step: 1, value: st.T, format: function (v) { return v + ' ℃'; }, onInput: function (v) { st.T = v; draw(); } });
     api.slider({ id: 'mj-kinetic-thermo-control-t', label: '반응 시간', min: 0, max: Math.log10(36000), step: 0.01, value: st.lt, format: ft, onInput: function (v) { st.lt = v; draw(); } });
-    api.slider({ id: 'mj-kinetic-thermo-control-dd', label: 'ΔΔG‡ (TS(1,4) − TS(1,2))', min: 0, max: 10, step: 0.1, value: st.dd, format: function (v) { return v.toFixed(1) + ' kJ/mol'; }, onInput: function (v) { st.dd = v; draw(); } });
-    api.slider({ id: 'mj-kinetic-thermo-control-dg', label: '생성물 깁스 에너지 차 G(1,2) − G(1,4)', min: 0, max: 10, step: 0.1, value: st.dg, format: function (v) { return v.toFixed(1) + ' kJ/mol'; }, onInput: function (v) { st.dg = v; draw(); } });
-    api.slider({ id: 'mj-kinetic-thermo-control-er', label: '역반응 장벽(1,2-생성물 → 꼭대기)', min: 60, max: 100, step: 0.5, value: st.er, format: function (v) { return v.toFixed(1) + ' kJ/mol'; }, onInput: function (v) { st.er = v; draw(); } });
+    api.slider({ id: 'mj-kinetic-thermo-control-dd', label: 'ΔΔG‡', min: 0, max: 10, step: 0.1, value: st.dd, format: function (v) { return v.toFixed(1) + ' kJ/mol'; }, onInput: function (v) { st.dd = v; draw(); } });
+    api.slider({ id: 'mj-kinetic-thermo-control-dg', label: '생성물 G 차 (ΔG°)', min: 0, max: 10, step: 0.1, value: st.dg, format: function (v) { return v.toFixed(1) + ' kJ/mol'; }, onInput: function (v) { st.dg = v; draw(); } });
+    api.slider({ id: 'mj-kinetic-thermo-control-er', label: '역반응 장벽', min: 60, max: 100, step: 0.5, value: st.er, format: function (v) { return v.toFixed(1) + ' kJ/mol'; }, onInput: function (v) { st.er = v; draw(); } });
 
     function model(Tc) {
       var T = Tc + 273.15, RT = R * T / 1000, pre = KBH * T;
@@ -77,7 +77,7 @@ Sims.register('mj-kinetic-thermo-control', {
         ctx.fillText('역반응 장벽 ' + st.er.toFixed(0), (xt + xp) / 2 + 6, Y((g12T + G12) / 2));
       })();
       // ── 분율–시간
-      var L = pR.x + 50, Rr = pR.x + pR.w - 12, Tp = pR.y + 26, B = pR.y + pR.h - 40;
+      var L = pR.x + 60, Rr = pR.x + pR.w - 12, Tp = pR.y + 26, B = pR.y + pR.h - 40;
       var lt0 = 0, lt1 = Math.log10(36000);
       var sx = function (lt) { return L + (lt - lt0) / (lt1 - lt0) * (Rr - L); }, sy = function (y) { return B - y * (B - Tp); };
       ctx.fillStyle = T.figPanel; ctx.fillRect(L, Tp, Rr - L, B - Tp);
@@ -90,7 +90,7 @@ Sims.register('mj-kinetic-thermo-control', {
       [0, 0.25, 0.5, 0.75, 1].forEach(function (y) { ctx.textAlign = 'right'; ctx.fillText(Math.round(y * 100) + '%', L - 5, sy(y) + 4); });
       ctx.fillStyle = T.figInk; ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'center';
       ctx.fillText('반응 시간 (로그 눈금)', (L + Rr) / 2, B + 31);
-      ctx.save(); ctx.translate(pR.x + 12, (Tp + B) / 2); ctx.rotate(-Math.PI / 2); ctx.fillText('생성물 분율', 0, 0); ctx.restore();
+      ctx.save(); ctx.translate(pR.x + 10, (Tp + B) / 2); ctx.rotate(-Math.PI / 2); ctx.fillText('생성물 분율', 0, 0); ctx.restore();
       ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'left'; ctx.fillText('생성물 분율 (' + st.T + ' ℃)', L, pR.y + 15);
       function hline(y, col, lab, below) {
         ctx.save(); ctx.strokeStyle = col; ctx.setLineDash([6, 4]); ctx.lineWidth = 1.4; ctx.beginPath(); ctx.moveTo(L, sy(y)); ctx.lineTo(Rr, sy(y)); ctx.stroke(); ctx.restore();
