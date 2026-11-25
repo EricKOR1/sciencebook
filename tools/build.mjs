@@ -98,12 +98,13 @@ if (fs.existsSync(path.join(ASSETS, 'photos'))) {
 }
 const escapeHtml = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 // 사진·사실적 삽화(자유 이용 자료). photos.json 의 한 항목:
-//   { file, w, h, title, caption, alt, author, license, license_url, source, changes, labels: [{x, y, text, anchor, sub}] }
+//   { file, w, h, title, caption, alt, author, license, license_url, source, source_name, changes, labels: [{x, y, text, anchor, sub}] }
+//   source_name 은 출처 링크에 쓸 이름(없으면 Wikimedia Commons). 예: 'OpenStax 《Biology 2e》 그림 4.8'
 // labels 는 그림 위에 얹는 한글 이름표(좌표는 그림의 w×h 기준).
 const photoCredit = (p) => {
   const bits = [];
   if (p.author) bits.push(escapeHtml(p.author));
-  if (p.source) bits.push(`<a href="${escapeHtml(p.source)}" rel="noopener">Wikimedia Commons</a>`);
+  if (p.source) bits.push(`<a href="${escapeHtml(p.source)}" rel="noopener">${escapeHtml(p.source_name || 'Wikimedia Commons')}</a>`);
   if (p.license) bits.push(p.license_url ? `<a href="${escapeHtml(p.license_url)}" rel="noopener">${escapeHtml(p.license)}</a>` : escapeHtml(p.license));
   return `출처: ${bits.join(', ')}${p.changes ? ` · ${escapeHtml(p.changes)}` : ''}`;
 };

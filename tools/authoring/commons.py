@@ -5,7 +5,8 @@
   python3 tools/authoring/commons.py info "File:Blausen 0809 Skin TactileReceptors.png"
   python3 tools/authoring/commons.py get  "File:….png" --width 960 --out <폴더>/name    # 작업용 그림(name.png/.gif/.webm) + name.json(출처 기록)
 
-요청은 모든 담당이 한 줄로 서서 나간다(검색·정보는 6초, 파일은 25초 간격. 서버가 429 를 주면 더 오래 쉰다). 그래서 명령 하나가 수십 초~몇 분 걸릴 수 있다.
+요청은 모든 담당이 한 줄로 서서 나간다(서버가 429 를 주면 그만큼 쉰다). 서버 제한이 분당 1~2회 수준이라 명령 하나가 몇 분 걸릴 수 있다.
+같은 검색·정보 요청의 결과는 scratchpad/photo/cache 에 저장해 다시 묻지 않는다.
 한 번에 여러 명령을 동시에 돌리지 말고, 검색어를 잘 골라 요청 수를 줄인다.
 
 쓸 수 있는 라이선스만 통과시킨다: 퍼블릭 도메인(PD, CC0), CC BY, CC BY-SA. (NC·ND, 공정 이용, 라이선스 불명은 쓰지 않는다.)
@@ -55,11 +56,9 @@ def call(params):
 def strip(s):
     return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', s or ''))).strip()
 
-def info(titles, width=None):
-    p = {'action': 'query', 'titles': '|'.join(titles), 'prop': 'imageinfo', 'iiprop': 'url|size|mime|extmetadata'}
-    if width: p['iiurlwidth'] = width
+def parse(pages):
     out = []
-    for pg in call(p)['query']['pages'].values():
+    for pg in sorted(pages, key=lambda x: x.get('index', 0)):
         ii = (pg.get('imageinfo') or [None])[0]
         if not ii: continue
         m = ii.get('extmetadata', {})
@@ -71,6 +70,24 @@ def info(titles, width=None):
                     'usable': bool(OK.match(lic)) and 'nc' not in lic.lower().split('-') and 'nd' not in lic.lower().split('-')})
     return out
 
+def cached(key, make):
+    """같은 검색·정보 요청은 한 번만 서버에 보낸다(결과를 scratchpad/photo/cache 에 둔다)."""
+    import hashlib
+    d = os.path.join(os.path.dirname(LOCK), 'photo', 'cache'); os.makedirs(d, exist_ok=True)
+    f = os.path.join(d, hashlib.sha1(key.encode()).hexdigest()[:16] + '.json')
+    if os.path.exists(f): return json.load(open(f, encoding='utf-8'))
+    r = make(); json.dump(r, open(f, 'w', encoding='utf-8'), ensure_ascii=False); return r
+
+def info(titles, width=None):
+    p = {'action': 'query', 'titles': '|'.join(titles), 'prop': 'imageinfo', 'iiprop': 'url|size|mime|extmetadata'}
+    return cached('info|' + '|'.join(titles), lambda: parse(call(p).get('query', {}).get('pages', {}).values()))
+
+def search(q, limit=12):
+    # 검색과 라이선스 정보를 요청 한 번으로 받는다(generator=search).
+    p = {'action': 'query', 'generator': 'search', 'gsrsearch': q, 'gsrnamespace': 6, 'gsrlimit': limit,
+         'prop': 'imageinfo', 'iiprop': 'url|size|mime|extmetadata'}
+    return cached(f'search|{q}|{limit}', lambda: parse(call(p).get('query', {}).get('pages', {}).values()))
+
 def main():
     ap = argparse.ArgumentParser(); sub = ap.add_subparsers(dest='cmd', required=True)
     s = sub.add_parser('search'); s.add_argument('q'); s.add_argument('--limit', type=int, default=12)
@@ -78,9 +95,7 @@ def main():
     g = sub.add_parser('get'); g.add_argument('title'); g.add_argument('--width', type=int, default=960); g.add_argument('--out', required=True)
     a = ap.parse_args()
     if a.cmd == 'search':
-        r = call({'action': 'query', 'list': 'search', 'srsearch': a.q, 'srnamespace': 6, 'srlimit': a.limit})
-        titles = [x['title'] for x in r['query']['search']]
-        for it in (info(titles) if titles else []):
+        for it in search(a.q, a.limit):
             print(('✓' if it['usable'] else '✗'), it['title'], '|', it['license'], '|', f"{it['w']}×{it['h']}", it['mime'], '|', it['author'][:50], '|', it['desc'][:90])
     elif a.cmd == 'info':
         for it in info(a.title): print(json.dumps(it, ensure_ascii=False, indent=1))

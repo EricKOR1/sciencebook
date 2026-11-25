@@ -87,7 +87,8 @@ def make(a):
         if size > 260_000:
             print(f'  ! 파일이 크다({size} bytes). 너비를 줄이거나 잘라 내는 것을 생각한다.')
     rec = {'file': fn, 'w': w, 'h': h, 'title': sp['title'], 'caption': sp['caption'], 'alt': sp['alt'], 'author': sp['author'],
-           'license': meta['license'], 'license_url': meta.get('license_url', ''), 'source': meta['page'], 'commons_title': meta['title'],
+           'license': meta['license'], 'license_url': meta.get('license_url', ''), 'source': meta['page'],
+           **({'source_name': meta['source_name']} if meta.get('source_name') else {'commons_title': meta['title']}),
            'changes': sp.get('changes', ''), 'labels': [{k: v for k, v in l.items() if k != 'plate'} for l in sp.get('labels', [])]}
     json.dump(rec, open(os.path.join(OUT, name + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(os.path.join(OUT, fn), f'{w}×{h}', size, 'bytes |', meta['license'])
