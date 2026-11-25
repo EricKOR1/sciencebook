@@ -12,12 +12,12 @@
 """
 import argparse, html, json, os, re, sys, time, urllib.parse, urllib.request
 API = 'https://commons.wikimedia.org/w/api.php'
-UA = 'ScienceTextbookSiteBuilder/1.0 (static educational site builder)'
+UA = 'HanGwonScienceBook/1.0 (https://erickor1.github.io/sciencebook/; open educational textbook) python-urllib'
 OK = re.compile(r'^(pd|cc0|cc-zero|public domain|cc[- ]by(-sa)?[- ]\d|cc by(-sa)? \d|cc-by(-sa)?-\d)', re.I)
 
 # 위키미디어는 이름을 밝히지 않은 자동 요청을 엄격히 제한한다(429). 그래서 모든 담당의 요청을 잠금 파일로 한 줄로 세우고,
 # 검색·정보 요청은 GAP_API 초, 파일 내려받기는 GAP_FILE 초 간격을 지킨다. 서버가 Retry-After 를 주면 그만큼 더 쉰다.
-GAP_API, GAP_FILE = 6.0, 25.0
+GAP_API, GAP_FILE = 2.0, 4.0
 LOCK = '/tmp/claude-0/-home-user-sciencebook/96b7e817-0e5e-5324-8416-180ac4e267af/scratchpad/commons.lock'
 
 def fetch(url, tries=8):

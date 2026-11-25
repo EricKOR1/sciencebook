@@ -101,7 +101,7 @@ Sims.register('mj-acid-base-speciation', {
         if (c.pKa <= 14) {
           var right = X(c.pKa) < (L + R) / 2;
           ctx.textAlign = right ? 'left' : 'right';
-          ctx.fillText('pKa ' + c.pKa + ' (pH = pKa → 50 %)', X(c.pKa) + (right ? 5 : -5), Tp + 14 + k * 15);
+          ctx.fillText(narrow ? 'pKa ' + c.pKa : 'pKa ' + c.pKa + ' (pH = pKa → 50 %)', X(c.pKa) + (right ? 5 : -5), narrow ? Tp + 30 + k * 15 : Y(0.14) + k * 15);
         } else {
           ctx.textAlign = 'right';
           ctx.fillText('pKa ' + c.pKa + ' → 범위 밖(pH 14에서도 거의 산 형태)', R - 5, Y(0.92) + k * 15);
@@ -118,12 +118,12 @@ Sims.register('mj-acid-base-speciation', {
       ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'left';
       list.forEach(function (it, k) {
         var c = it[0];
-        var tx = c.n + (c.type === 'HA' ? '  (HA 중성 / A⁻ 이온)' : '  (BH⁺ 이온 / B 중성)');
+        var tx = c.n + (narrow ? '' : (c.type === 'HA' ? '  (HA 중성 / A⁻ 이온)' : '  (BH⁺ 이온 / B 중성)'));
         var yy = Tp + (narrow ? 0 : 0) + 14 + k * 16, xx = narrow ? L + 6 : R - 8 - ctx.measureText(tx).width - 18;
         if (!narrow) {
           ctx.fillStyle = T.figPanel; ctx.globalAlpha = 0.8; ctx.fillRect(xx - 4, yy - 11, ctx.measureText(tx).width + 26, 15); ctx.globalAlpha = 1;
         }
-        if (narrow) yy = B - 30 + k * 16;
+        if (narrow) { yy = B - 44 + k * 16; xx = R - 8 - ctx.measureText(tx).width - 18; ctx.fillStyle = T.figPanel; ctx.globalAlpha = 0.8; ctx.fillRect(xx - 4, yy - 11, ctx.measureText(tx).width + 26, 15); ctx.globalAlpha = 1; }
         ctx.fillStyle = it[1]; ctx.fillRect(xx, yy - 6, 14, 3);
         ctx.fillStyle = T.figInk; ctx.fillText(tx, xx + 18, yy);
       });
