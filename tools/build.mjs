@@ -103,7 +103,7 @@ const escapeHtml = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace
 // labels 는 그림 위에 얹는 한글 이름표(좌표는 그림의 w×h 기준).
 const photoCredit = (p) => {
   const bits = [];
-  if (p.author) bits.push(escapeHtml(p.author));
+  if (p.author && !(/^OpenStax( \(Rice University\))?$/.test(p.author) && /^OpenStax/.test(p.source_name || ''))) bits.push(escapeHtml(p.author));
   if (p.source) bits.push(`<a href="${escapeHtml(p.source)}" rel="noopener">${escapeHtml(p.source_name || 'Wikimedia Commons')}</a>`);
   if (p.license) bits.push(p.license_url ? `<a href="${escapeHtml(p.license_url)}" rel="noopener">${escapeHtml(p.license)}</a>` : escapeHtml(p.license));
   return `출처: ${bits.join(', ')}${p.changes ? ` · ${escapeHtml(p.changes)}` : ''}`;

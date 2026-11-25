@@ -9,7 +9,7 @@
   <text x="162.0" y="90.0" class="ochem-7-c13-shift-chart-t" text-anchor="end">케톤 C=O</text>
   <rect x="170.0" y="80.0" width="36.1" height="10.0" rx="5" style="fill:var(--fig-red);stroke:var(--fig-red);stroke-width:1;opacity:0.85"/>
   <circle cx="202.3" cy="85.0" r="4.5" style="fill:var(--fig-paper);stroke:var(--fig-ink);stroke-width:1.6"/>
-  <text x="193.3" y="76.0" class="ochem-7-c13-shift-chart-n" text-anchor="end">아세톤 206.6</text>
+  <text x="211.3" y="76.0" class="ochem-7-c13-shift-chart-n" text-anchor="start">아세톤 206.6</text>
   <text x="162.0" y="120.0" class="ochem-7-c13-shift-chart-t" text-anchor="end">알데하이드 C=O</text>
   <rect x="206.1" y="110.0" width="36.1" height="10.0" rx="5" style="fill:var(--fig-red);stroke:var(--fig-red);stroke-width:1;opacity:0.85"/>
   <text x="162.0" y="150.0" class="ochem-7-c13-shift-chart-t" text-anchor="end">산·에스터·아마이드 C=O</text>
@@ -39,7 +39,7 @@
   <line x1="510.0" y1="396.0" x2="510.0" y2="380.0" style="stroke:var(--fig-muted);stroke-width:1.6;stroke-linecap:butt"/>
   <line x1="514.0" y1="396.0" x2="514.0" y2="380.0" style="stroke:var(--fig-muted);stroke-width:1.6;stroke-linecap:butt"/>
   <line x1="518.0" y1="396.0" x2="518.0" y2="380.0" style="stroke:var(--fig-muted);stroke-width:1.6;stroke-linecap:butt"/>
-  <text x="514.0" y="424.0" class="ochem-7-c13-shift-chart-s" text-anchor="middle">CDCl₃ 77.2 (용매 신호, 삼중선)</text>
+  <text x="502.0" y="393.0" class="ochem-7-c13-shift-chart-s" text-anchor="end">CDCl₃ 77.2 (용매 신호)</text>
   <line x1="170.0" y1="404.0" x2="700.0" y2="404.0" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:butt"/>
   <line x1="170.0" y1="404.0" x2="170.0" y2="409.0" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:butt"/>
   <text x="170.0" y="422.0" class="ochem-7-c13-shift-chart-n" text-anchor="middle">220</text>
@@ -65,6 +65,6 @@
   <text x="651.8" y="422.0" class="ochem-7-c13-shift-chart-n" text-anchor="middle">20</text>
   <line x1="700.0" y1="404.0" x2="700.0" y2="409.0" style="stroke:var(--fig-muted);stroke-width:1.2;stroke-linecap:butt"/>
   <text x="700.0" y="422.0" class="ochem-7-c13-shift-chart-n" text-anchor="middle">0</text>
-  <text x="555.0" y="448.0" class="ochem-7-c13-shift-chart-s" text-anchor="middle">δ (ppm)</text>
-  <text x="700.0" y="434.0" class="ochem-7-c13-shift-chart-b" text-anchor="middle">TMS</text>
+  <text x="435.0" y="440.0" class="ochem-7-c13-shift-chart-s" text-anchor="middle">δ (ppm)</text>
+  <text x="700.0" y="440.0" class="ochem-7-c13-shift-chart-b" text-anchor="middle">TMS</text>
 </svg>

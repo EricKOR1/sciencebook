@@ -2,7 +2,8 @@
 """OpenStax 공개 교과서(자유 이용 CC BY 4.0 판)의 그림·사진을 찾아 쓰는 도구. 인터넷 요청이 없어 바로 끝난다.
 
   python3 tools/authoring/openstax.py search "plasma membrane" [--book biology] [--limit 30]
-      그림의 영어 설명(alt·caption)과 절 제목에서 낱말을 찾는다(낱말을 모두 포함하는 그림. 여러 낱말은 띄어 쓴다. "a|b" 는 a 또는 b).
+      그림의 영어 설명(alt·caption)·절 제목·그림 id 에서 낱말을 찾는다(낱말을 모두 포함하는 그림. 여러 낱말은 띄어 쓴다. "a|b" 는 a 또는 b).
+      한 장의 그림을 모두 보려면: search "" --book "chemistry 2e" --chapter 17 --limit 80
   python3 tools/authoring/openstax.py show <그림 id>            # 한 그림의 전체 설명·출처·파일 경로
   python3 tools/authoring/openstax.py get <그림 id> --out <폴더>/name [--part 2]
       작업용 그림(name.png) + name.json(출처 기록, photo.py make 의 meta)을 만든다. 한 그림에 파일이 여럿이면 --part 로 고른다.
@@ -98,7 +99,7 @@ def find(fid):
 
 def main():
     ap = argparse.ArgumentParser(); sub = ap.add_subparsers(dest='cmd', required=True)
-    s = sub.add_parser('search'); s.add_argument('q'); s.add_argument('--book', default=''); s.add_argument('--limit', type=int, default=30)
+    s = sub.add_parser('search'); s.add_argument('q'); s.add_argument('--book', default=''); s.add_argument('--chapter', type=int); s.add_argument('--limit', type=int, default=30)
     sh = sub.add_parser('show'); sh.add_argument('id')
     g = sub.add_parser('get'); g.add_argument('id'); g.add_argument('--out', required=True); g.add_argument('--part', type=int, default=1); g.add_argument('--width', type=int, default=1280)
     sub.add_parser('index')
@@ -109,7 +110,8 @@ def main():
         n = 0
         for f in load():
             if a.book and a.book.lower() not in f['book'].lower(): continue
-            hay = (f['alt'] + ' ' + f['caption'] + ' ' + f['module_title'] + ' ' + f['chapter_title']).lower()
+            if a.chapter and f['chapter'] != a.chapter: continue
+            hay = (f['id'] + ' ' + f['alt'] + ' ' + f['caption'] + ' ' + f['module_title'] + ' ' + f['chapter_title']).lower()
             if all(any(alt in hay for alt in w) for w in words):
                 n += 1
                 if n > a.limit: continue
@@ -122,16 +124,19 @@ def main():
     if a.cmd == 'show':
         print(json.dumps(f, ensure_ascii=False, indent=1)); return
     if not f['usable']: sys.exit('자유 이용인지 분명하지 않은 그림이다(캡션에 허락·저작권 표시). 쓰지 않는다.')
-    from PIL import Image
+    from PIL import Image, PngImagePlugin
+    PngImagePlugin.MAX_TEXT_CHUNK = 64 * 1024 * 1024
     src = f['files'][a.part - 1]
     im = Image.open(src)
     im = im.convert('RGBA' if im.mode in ('RGBA', 'LA', 'P') else 'RGB')
     if im.width > a.width:
         im = im.resize((a.width, round(im.height * a.width / im.width)), Image.LANCZOS)
     os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
+    im.info.pop('icc_profile', None)      # 큰 색 프로필은 떼고 저장한다
     im.save(a.out + '.png')
     slug = SLUG[f['book']]
-    author = 'OpenStax (Rice University)' + (f' — {f["credit"]}' if f['credit'] else '')
+    # 원 저작자가 캡션에 있으면 그 표시를 저작자 칸에 쓴다(없으면 OpenStax). 책 이름은 source_name 으로 따로 나온다.
+    author = (re.sub(r'^credit[^:]*:\s*', '', f['credit']) + ' (OpenStax 수록)') if f['credit'] else 'OpenStax'
     meta = {'title': f['id'], 'license': 'CC BY 4.0', 'license_url': 'https://creativecommons.org/licenses/by/4.0/', 'author': author,
             'page': f'https://openstax.org/details/books/{slug}', 'source_name': f'OpenStax 《{f["book"]}》 {f["section"]} {f["module_title"]}',
             'usable': True, 'alt_en': f['alt'], 'caption_en': f['caption'], 'file': src, 'commit': f['commit']}

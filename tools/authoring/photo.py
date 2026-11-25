@@ -16,14 +16,15 @@ spec.json (좌표는 모두 작업본 기준, 왼쪽 위가 0,0):
   "alt": "…",                                     # 화면을 못 보는 독자를 위한 묘사
   "author": "Blausen.com staff (2014)",           # 저작자 표시(짧게. 라이선스가 요구하는 이름)
   "changes": "영어 이름표를 지우고 한글 이름표를 붙임, 일부를 잘라 냄",   # 고친 것이 없으면 ""
-  "covers": [[x, y, w, h], …],                    # 지울 영역(영어 글자). 둘레 색으로 칠한다. "fill": "#ffffff" 로 색 지정 가능
+  "covers": [[x, y, w, h], …],                    # 지울 영역(영어 글자). 둘레 색으로 칠한다. 색을 정하려면 [x, y, w, h, "#rrggbb"] (사각형마다) 또는 "fill": "#ffffff" (전체)
   "labels": [{"x": 206, "y": 160, "text": "자유 신경 말단", "anchor": "end"}, {"x": 206, "y": 183, "text": "통증·온도", "sub": true, "anchor": "end"}]
 }
-labels: anchor 는 start(기본)·middle·end. sub 는 작은 회색 둘째 줄. 글자는 화면에서 그림 위에 얹힌다(큰 글자 21px, 작은 글자 16.5px — 너비 960 기준).
+labels: x, y 는 글자의 기준점(y 는 글자 밑줄, 곧 글자 아래쪽 끝). anchor 는 start(기본)·middle·end. sub 는 작은 회색 둘째 줄. 글자는 화면에서 그림 위에 얹힌다(큰 글자 21px, 작은 글자 16.5px — 너비 960 기준).
 이름표는 흰 바탕(또는 밝고 고른 바탕) 위에 놓는다. 그림 위에 직접 얹어야 하면 "plate": true 를 주어 흰 판을 깐다.
 """
 import argparse, json, os, shutil, sys
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, PngImagePlugin
+PngImagePlugin.MAX_TEXT_CHUNK = 64 * 1024 * 1024      # 색 프로필이 큰 PNG 도 읽는다
 ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
 OUT = os.path.join(ROOT, 'docs', 'assets', 'photos')
 
@@ -36,6 +37,7 @@ def prep(a):
         im = im.crop(tuple(int(v) for v in a.crop.split(',')))
     if im.width > a.width:
         im = im.resize((a.width, round(im.height * a.width / im.width)), Image.LANCZOS)
+    im.info.pop('icc_profile', None)
     im.save(a.out)
     print(a.out, im.size)
 
@@ -68,7 +70,7 @@ def make(a):
         d = ImageDraw.Draw(im)
         for c in sp.get('covers', []):
             x, y, w, h = c[:4]
-            fill = sp.get('fill')
+            fill = (c[4] if len(c) > 4 else None) or sp.get('fill')      # 사각형마다 색: [x, y, w, h, "#rrggbb"]
             if not fill:     # 둘레 네 모서리 바깥의 색을 평균해 칠한다
                 pts = [(max(0, x - 2), max(0, y - 2)), (min(im.width - 1, x + w + 2), max(0, y - 2)), (max(0, x - 2), min(im.height - 1, y + h + 2)), (min(im.width - 1, x + w + 2), min(im.height - 1, y + h + 2))]
                 px = [im.getpixel(p)[:3] for p in pts]

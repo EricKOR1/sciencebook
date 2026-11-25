@@ -25,6 +25,7 @@ cd tools && node figsheet.mjs <전용 폴더>/now.png light <id>:<그림이름> 
 ```
 python3 tools/authoring/openstax.py search "heart chambers|valves" --limit 20      # 영어 낱말. 띄어 쓰면 '모두 포함', a|b 는 '또는'
 python3 tools/authoring/openstax.py search "cell" --book "anatomy"                 # 책 좁히기: biology, concepts, anatomy, microbiology, chemistry, astronomy, college physics, university physics
+python3 tools/authoring/openstax.py search "" --book "chemistry 2e" --chapter 17 --limit 80   # 한 장(章)의 그림 전체
 python3 tools/authoring/openstax.py show  <그림 id>                                # 전체 설명과 출처
 python3 tools/authoring/openstax.py get   <그림 id> --out <전용 폴더>/raw-이름      # raw-이름.png + raw-이름.json
 ```
@@ -53,9 +54,10 @@ python3 tools/authoring/commons.py get "File:….jpg" --width 1280 --out <전용
 python3 tools/authoring/photo.py prep <전용 폴더>/raw-이름.png --out <전용 폴더>/work-이름.png [--crop x0,y0,x1,y1] --width 960
 ```
 작업본(`work-이름.png`)을 Read 로 보고 좌표를 읽어 spec 을 쓴다(형식은 `tools/authoring/photo.py` 맨 위 설명과 본보기 `docs/assets/photos/m3-05-skin-receptors.json`).
-- `name`: `{단원 id}-{영문 설명}` (예: `bio-2-heart-chambers`). `meta`: `raw-이름.json`. `author`: meta 의 author 를 그대로(길면 이름은 남기고 줄인다).
-- `covers`: 영어 글자를 덮는 사각형. 글자가 흰 바탕 위에 있으면 그대로, 그림 위에 있으면 `"fill"` 로 둘레 색을 맞춘다. **영어 글자가 한 조각도 남지 않게** 한다(그림 속 작은 글자, 축척 표시, 저작권 글자 포함. 저작권 글자를 지웠으면 그 이름을 author 에 반드시 넣는다).
+- `name`: `{단원 id}-{영문 설명}` (예: `bio-2-heart-chambers`). `meta`: `raw-이름.json`. `author`: meta 의 author 를 그대로(길면 이름은 남기고 줄인다). OpenStax 그림은 원 저작자가 있으면 `NASA/JPL-Caltech (OpenStax 수록)` 꼴, 없으면 `OpenStax` 로 이미 채워져 있다(책 이름은 출처 줄에 따로 나오니 author 에 다시 쓰지 않는다).
+- `covers`: 영어 글자를 덮는 사각형 `[x, y, w, h]`. 글자가 고른 바탕 위에 있으면 그대로(둘레 색으로 칠해진다), 색을 정해야 하면 `[x, y, w, h, "#rrggbb"]`. **영어 글자가 한 조각도 남지 않게** 한다(그림 속 작은 글자, 축척 표시, 저작권 글자 포함. 저작권 글자를 지웠으면 그 이름을 author 에 반드시 넣는다).
 - `labels`: 지운 자리에 한글 이름표. **이 교재의 용어**를 쓴다(원고에 나온 낱말 그대로. 원고에 없는 구조는 표준 한글 용어, 꼭 필요하지 않으면 지우기만 하고 지시선이 가리키는 곳에 아무것도 없게 두지 말고 지시선까지 덮는다). 이름표는 지시선 끝에 맞춘다(왼쪽 이름표는 `"anchor": "end"`).
+- 이름표 좌표 y 는 글자 밑줄(글자의 아래쪽 끝)이다. 그림 가장자리에서 글자·지시선이 잘리지 않게 한다(잘리면 prep 의 --crop 을 넓히거나 이름표를 안쪽으로 옮긴다).
 - 영어→한글 대응표를 spec 의 `"map"` 에 적어 둔다(`{"Merkel cell": "메르켈 세포", …}`) — 검토자가 이것으로 확인한다.
 - `title`: 번호 없이 짧게. `caption`: **무엇을 보아야 하는지** 1~3문장(단원의 설명과 이어지게. 수준을 넘는 이름에는 "이름은 외우지 않아도 된다"). `alt`: 그림을 못 보는 독자를 위한 묘사. `changes`: 고친 내용(예: "영어 이름표를 한글로 바꾸고 일부를 잘라 냄").
 - 사진처럼 글자가 없는 그림은 covers·labels 없이 title·caption 만 써도 된다. 꼭 필요하면 `"plate": true` 이름표를 2~4개 얹는다.
@@ -81,7 +83,7 @@ cd tools && node build.mjs <단원 id> && node qa.mjs <단원 id>
 node screenshot.mjs ../docs/<id>.html <전용 폴더>/p-이름.png "#photo-이름" light 1280
 node screenshot.mjs ../docs/<id>.html <전용 폴더>/p-이름-m.png "#photo-이름" dark 390
 ```
-찍은 화면을 Read 로 보고 그림마다 확인한다.
+(그림이 여러 장이면 화면 찍기는 한 명령으로 묶어 백그라운드로 돌린다.) 찍은 화면을 Read 로 보고 그림마다 확인한다.
 - 한글 이름표가 **지시선 끝·가리키는 구조와 맞는가**(원본의 영어 이름표와 하나씩 대조). 이름표끼리, 이름표와 그림이 겹치지 않는가. 그림 밖으로 잘리지 않는가.
 - 영어 글자가 남아 있지 않은가. 덮은 자리가 얼룩처럼 보이지 않는가.
 - 출처 줄에 저작자·출처·라이선스가 나오는가.
