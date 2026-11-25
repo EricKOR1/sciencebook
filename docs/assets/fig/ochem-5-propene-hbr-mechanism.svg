@@ -23,12 +23,12 @@
   <circle cx="205.7" cy="128.7" r="1.7" style="fill:var(--fig-ink)"/>
   <circle cx="186.0" cy="143.9" r="1.7" style="fill:var(--fig-ink)"/>
   <circle cx="191.4" cy="143.9" r="1.7" style="fill:var(--fig-ink)"/>
-  <text x="100.4" y="133.0" class="ochem-5-propene-hbr-mechanism-n" text-anchor="middle">C1</text>
+  <text x="112.4" y="109.0" class="ochem-5-propene-hbr-mechanism-n" text-anchor="middle">C1</text>
   <text x="70.0" y="84.5" class="ochem-5-propene-hbr-mechanism-n" text-anchor="middle">C2</text>
   <path d="M 86.1 104.1 Q 92.2 130.6 115.3 125.9" style="fill:none;stroke:var(--fig-violet);stroke-width:1.7;stroke-linecap:round"/>
   <path d="M 123.3 123.5 L 115.8 129.9 L 116.6 125.5 L 113.5 122.2 Z" style="fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:0.8;stroke-linejoin:round"/>
-  <path d="M 164.9 132.4 Q 165.4 138.5 168.3 140.3" style="fill:none;stroke:var(--fig-violet);stroke-width:1.7;stroke-linecap:round"/>
-  <path d="M 176.2 139.8 L 167.5 144.3 L 169.2 140.2 L 167.0 136.4 Z" style="fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:0.8;stroke-linejoin:round"/>
+  <path d="M 164.8 132.5 Q 163.5 147.4 173.0 147.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1.7;stroke-linecap:round"/>
+  <path d="M 180.9 144.9 L 173.2 151.1 L 174.1 146.7 L 171.2 143.4 Z" style="fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:0.8;stroke-linejoin:round"/>
   <line x1="212.0" y1="111.0" x2="254.0" y2="111.0" style="stroke:var(--fig-ink);stroke-width:1.8"/>
   <path d="M 262.0 111.0 L 252.0 115.5 L 254.5 111.0 L 252.0 106.5 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
   <g transform="translate(286.0,107.0)"><g class="ochem-5-propene-hbr-mechanism-a3">
@@ -55,9 +55,9 @@
   <circle cx="406.7" cy="81.1" r="6.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.2"/><line x1="403.4" y1="81.1" x2="410.0" y2="81.1" style="stroke:var(--fig-ink);stroke-width:1.4"/>
   <path d="M 392.0 108.2 Q 364.8 91.6 338.3 105.5" style="fill:none;stroke:var(--fig-violet);stroke-width:1.7;stroke-linecap:round"/>
   <path d="M 331.4 109.7 L 337.0 101.6 L 337.4 106.1 L 341.1 108.5 Z" style="fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:0.8;stroke-linejoin:round"/>
-  <line x1="450.0" y1="111.0" x2="492.0" y2="111.0" style="stroke:var(--fig-ink);stroke-width:1.8"/>
-  <path d="M 500.0 111.0 L 490.0 115.5 L 492.5 111.0 L 490.0 106.5 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
-  <g transform="translate(536.0,79.0)"><g class="ochem-5-propene-hbr-mechanism-a5">
+  <line x1="450.0" y1="111.0" x2="482.0" y2="111.0" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <path d="M 490.0 111.0 L 480.0 115.5 L 482.5 111.0 L 480.0 106.5 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
+  <g transform="translate(511.0,79.0)"><g class="ochem-5-propene-hbr-mechanism-a5">
 <path class="ochem-5-propene-hbr-mechanism-a5-bond-0 ochem-5-propene-hbr-mechanism-a5-atom-0 ochem-5-propene-hbr-mechanism-a5-atom-1" d="M 5.8,58.1 L 33.9,41.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
 <path class="ochem-5-propene-hbr-mechanism-a5-bond-1 ochem-5-propene-hbr-mechanism-a5-atom-1 ochem-5-propene-hbr-mechanism-a5-atom-2" d="M 33.9,41.8 L 62.1,58.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
 <path class="ochem-5-propene-hbr-mechanism-a5-bond-2 ochem-5-propene-hbr-mechanism-a5-atom-1 ochem-5-propene-hbr-mechanism-a5-atom-3" d="M 33.9,41.8 L 33.9,30.5" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
@@ -65,17 +65,17 @@
 <text x="29.7" y="16.3" class="ochem-5-propene-hbr-mechanism-a5-atom-3" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-green)" >B</text>
 <text x="39.4" y="16.3" class="ochem-5-propene-hbr-mechanism-a5-atom-3" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-green)" >r</text>
 </g></g>
-  <circle cx="589.9" cy="94.4" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="590.5" cy="89.0" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="577.9" cy="78.2" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="572.5" cy="77.6" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="556.7" cy="86.2" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="556.1" cy="91.6" r="1.7" style="fill:var(--fig-ink)"/>
-  <text x="645.0" y="107.0" class="ochem-5-propene-hbr-mechanism-b" text-anchor="start">2-브로모프로페인</text>
-  <text x="645.0" y="125.0" class="ochem-5-propene-hbr-mechanism-g" text-anchor="start">주생성물</text>
+  <circle cx="564.9" cy="94.4" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="565.5" cy="89.0" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="552.9" cy="78.2" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="547.5" cy="77.6" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="531.7" cy="86.2" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="531.1" cy="91.6" r="1.7" style="fill:var(--fig-ink)"/>
+  <text x="605.0" y="107.0" class="ochem-5-propene-hbr-mechanism-b" text-anchor="start">2-브로모프로페인</text>
+  <text x="605.0" y="125.0" class="ochem-5-propene-hbr-mechanism-g" text-anchor="start">주생성물</text>
   <g style="opacity:0.45">
-  <line x1="212.0" y1="135.0" x2="258.7" y2="236.7" style="stroke:var(--fig-ink);stroke-width:1.8"/>
-  <path d="M 262.0 244.0 L 253.7 236.8 L 258.9 237.2 L 261.9 233.0 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
+  <line x1="236.0" y1="139.0" x2="263.8" y2="234.3" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <path d="M 266.0 242.0 L 258.9 233.7 L 263.9 234.8 L 267.5 231.1 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
   <text x="170.0" y="220.0" class="ochem-5-propene-hbr-mechanism-s" text-anchor="middle">H가 C2에 붙으면</text>
   <g transform="translate(280.0,236.0)"><g class="ochem-5-propene-hbr-mechanism-b1">
 <path class="ochem-5-propene-hbr-mechanism-b1-bond-0 ochem-5-propene-hbr-mechanism-b1-atom-0 ochem-5-propene-hbr-mechanism-b1-atom-1" d="M 7.4,18.1 L 34.9,2.3" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
@@ -97,9 +97,9 @@
   <circle cx="416.8" cy="260.8" r="1.7" style="fill:var(--fig-ink)"/>
   <circle cx="420.6" cy="257.0" r="1.7" style="fill:var(--fig-ink)"/>
   <circle cx="406.7" cy="230.1" r="6.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.2"/><line x1="403.4" y1="230.1" x2="410.0" y2="230.1" style="stroke:var(--fig-ink);stroke-width:1.4"/>
-  <line x1="450.0" y1="250.0" x2="492.0" y2="250.0" style="stroke:var(--fig-ink);stroke-width:1.8"/>
-  <path d="M 500.0 250.0 L 490.0 254.5 L 492.5 250.0 L 490.0 245.5 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
-  <g transform="translate(512.0,238.5)"><g class="ochem-5-propene-hbr-mechanism-b3">
+  <line x1="450.0" y1="250.0" x2="482.0" y2="250.0" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <path d="M 490.0 250.0 L 480.0 254.5 L 482.5 250.0 L 480.0 245.5 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
+  <g transform="translate(482.0,238.5)"><g class="ochem-5-propene-hbr-mechanism-b3">
 <path class="ochem-5-propene-hbr-mechanism-b3-bond-0 ochem-5-propene-hbr-mechanism-b3-atom-0 ochem-5-propene-hbr-mechanism-b3-atom-1" d="M 11.2,14.2 L 40.3,1.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
 <path class="ochem-5-propene-hbr-mechanism-b3-bond-1 ochem-5-propene-hbr-mechanism-b3-atom-1 ochem-5-propene-hbr-mechanism-b3-atom-2" d="M 40.3,1.8 L 65.6,20.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
 <path class="ochem-5-propene-hbr-mechanism-b3-bond-2 ochem-5-propene-hbr-mechanism-b3-atom-2 ochem-5-propene-hbr-mechanism-b3-atom-3" d="M 65.6,20.8 L 76.7,16.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
@@ -109,14 +109,14 @@
 <text x="90.5" y="15.5" class="ochem-5-propene-hbr-mechanism-b3-atom-3" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-green)" >B</text>
 <text x="100.1" y="15.5" class="ochem-5-propene-hbr-mechanism-b3-atom-3" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-green)" >r</text>
 </g></g>
-  <circle cx="612.7" cy="261.7" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="617.8" cy="260.1" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="627.1" cy="247.8" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="625.5" cy="242.6" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="607.5" cy="236.3" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="602.4" cy="237.9" r="1.7" style="fill:var(--fig-ink)"/>
-  <text x="645.0" y="246.0" class="ochem-5-propene-hbr-mechanism-b" text-anchor="start">1-브로모프로페인</text>
-  <text x="645.0" y="264.0" class="ochem-5-propene-hbr-mechanism-s" text-anchor="start">거의 생기지 않음</text>
+  <circle cx="582.7" cy="261.7" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="587.8" cy="260.1" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="597.1" cy="247.8" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="595.5" cy="242.6" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="577.5" cy="236.3" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="572.4" cy="237.9" r="1.7" style="fill:var(--fig-ink)"/>
+  <text x="605.0" y="246.0" class="ochem-5-propene-hbr-mechanism-b" text-anchor="start">1-브로모프로페인</text>
+  <text x="605.0" y="264.0" class="ochem-5-propene-hbr-mechanism-s" text-anchor="start">거의 생기지 않음</text>
   </g>
   <line x1="10.0" y1="185.0" x2="710.0" y2="185.0" style="stroke:var(--fig-line);stroke-width:0.8;stroke-linecap:round;stroke-dasharray:4 4"/>
   <text x="14.0" y="318.0" class="ochem-5-propene-hbr-mechanism-s" text-anchor="start">부 경로(옅은 색): 1° 양이온은 2° 양이온보다 훨씬 불안정하므로 장벽이 높다.</text>

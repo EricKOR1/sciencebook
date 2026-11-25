@@ -3,7 +3,7 @@
   <desc id="d-ochem-7-ei-ms-schematic">왼쪽부터 ① 시료 주입구, ② 이온화실(가열 필라멘트의 70 eV 전자선이 시료 분자 흐름과 직각으로 지나며 M•+ 를 만든다), ③ 가속·집속 전극, ④ 질량 분석부(그림은 사중극자), ⑤ 검출기, ⑥ 컴퓨터의 막대 스펙트럼. 파란 선은 검출되는 이온의 경로, 회색 점선은 걸러져 버려지는 이온이다. ②~⑤는 약 10⁻⁵ Pa의 진공 속에 있다. 크기와 거리는 모식도이다.</desc>
   <style>.ochem-7-ei-ms-schematic-t{font-size:14px;fill:var(--fig-ink)} .ochem-7-ei-ms-schematic-b{font-size:14px;fill:var(--fig-ink);font-weight:600} .ochem-7-ei-ms-schematic-h{font-size:15px;fill:var(--fig-ink);font-weight:700} .ochem-7-ei-ms-schematic-s{font-size:13px;fill:var(--fig-muted)} .ochem-7-ei-ms-schematic-n{font-size:13px;fill:var(--fig-muted)} .ochem-7-ei-ms-schematic-r{font-size:13px;fill:var(--fig-red);font-weight:600} .ochem-7-ei-ms-schematic-g{font-size:13px;fill:var(--fig-green);font-weight:600} .ochem-7-ei-ms-schematic-v{font-size:13px;fill:var(--fig-violet)} .ochem-7-ei-ms-schematic-pl{font-size:20px;fill:var(--fig-ink)} .ochem-7-ei-ms-schematic-f{font-size:14px;fill:var(--fig-ink)}</style>
   <rect x="108.0" y="46.0" width="512.0" height="200.0" rx="10" style="fill:none;stroke:var(--fig-muted);stroke-width:1.2;stroke-dasharray:6 4"/>
-  <text x="612.0" y="64.0" class="ochem-7-ei-ms-schematic-s" text-anchor="end">진공 (약 10⁻⁵ Pa)</text>
+  <text x="612.0" y="238.0" class="ochem-7-ei-ms-schematic-s" text-anchor="end">진공 (약 10⁻⁵ Pa)</text>
   <line x1="364.0" y1="246.0" x2="364.0" y2="271.6" style="stroke:var(--fig-muted);stroke-width:1.4"/>
   <path d="M 364.0 278.0 L 360.4 270.0 L 364.0 272.0 L 367.6 270.0 Z" style="fill:var(--fig-muted);stroke:var(--fig-muted);stroke-width:0.8;stroke-linejoin:round"/>
   <text x="372.0" y="274.0" class="ochem-7-ei-ms-schematic-s" text-anchor="start">진공 펌프로</text>
@@ -18,10 +18,10 @@
   <rect x="124.0" y="92.0" width="112.0" height="116.0" rx="4" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.4"/>
   <text x="180.0" y="78.0" class="ochem-7-ei-ms-schematic-b" text-anchor="middle">② 이온화실</text>
   <path d="M 160.0 100.0 L 165.0 108.0 L 170.0 100.0 L 175.0 108.0 L 180.0 100.0 L 185.0 108.0 L 190.0 100.0 L 195.0 108.0 L 200.0 100.0" style="fill:none;stroke:var(--fig-red);stroke-width:2"/>
-  <text x="214.0" y="108.0" class="ochem-7-ei-ms-schematic-s" text-anchor="start">필라멘트</text>
+  <text x="130.0" y="126.0" class="ochem-7-ei-ms-schematic-s" text-anchor="start">필라멘트</text>
   <line x1="180.0" y1="112.0" x2="180.0" y2="189.6" style="stroke:var(--fig-red);stroke-width:1.6;stroke-dasharray:4 3"/>
   <path d="M 180.0 196.0 L 176.4 188.0 L 180.0 190.0 L 183.6 188.0 Z" style="fill:var(--fig-red);stroke:var(--fig-red);stroke-width:0.8;stroke-linejoin:round"/>
-  <text x="186.0" y="182.0" class="ochem-7-ei-ms-schematic-r" text-anchor="start">e⁻ 70 eV</text>
+  <text x="174.0" y="182.0" class="ochem-7-ei-ms-schematic-r" text-anchor="end">e⁻ 70 eV</text>
   <rect x="160.0" y="198.0" width="40.0" height="5.0" rx="1" style="fill:var(--fig-muted);stroke:var(--fig-muted);stroke-width:1.2"/>
   <circle cx="138" cy="150" r="3" style="fill:var(--fig-amber)"/>
   <circle cx="156" cy="150" r="3" style="fill:var(--fig-amber)"/>
@@ -35,20 +35,20 @@
   <rect x="286.0" y="158.0" width="6.0" height="38.0" rx="1" style="fill:var(--fig-soft-violet);stroke:var(--fig-violet);stroke-width:1.2"/>
   <text x="272.0" y="78.0" class="ochem-7-ei-ms-schematic-b" text-anchor="middle">③ 가속·집속</text>
   <text x="272.0" y="214.0" class="ochem-7-ei-ms-schematic-s" text-anchor="middle">전극 (수 kV)</text>
-  <path d="M 330 111 L 520 97 A 4.5 9 0 0 1 520 115 L 330 129 A 4.5 9 0 0 1 330 111 Z" style="fill:var(--fig-soft-teal);stroke:var(--fig-muted);stroke-width:1.2"/>
-  <ellipse cx="330" cy="120" rx="4.5" ry="9" style="fill:var(--fig-soft-teal);stroke:var(--fig-muted);stroke-width:1.2"/>
-  <path d="M 330 135 L 520 121 A 4.5 9 0 0 1 520 139 L 330 153 A 4.5 9 0 0 1 330 135 Z" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2"/>
-  <ellipse cx="330" cy="144" rx="4.5" ry="9" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2"/>
-  <path d="M 185.0 150.0 L 300.0 150.0 L 330.0 153.0 L 337.1 156.4 L 341.9 157.7 L 344.2 157.9 L 346.6 157.8 L 351.4 156.5 L 356.1 154.2 L 365.6 148.1 L 370.4 145.5 L 375.1 143.8 L 377.5 143.5 L 379.9 143.5 L 384.6 144.4 L 389.4 146.3 L 396.5 150.0 L 401.2 152.0 L 406.0 153.1 L 408.4 153.2 L 413.1 152.4 L 417.9 150.4 L 429.8 142.9 L 434.5 140.4 L 439.2 139.0 L 441.6 138.8 L 444.0 138.9 L 448.8 140.0 L 463.0 146.7 L 467.8 148.2 L 470.1 148.5 L 474.9 148.2 L 479.6 146.5 L 484.4 143.9 L 496.2 136.5 L 501.0 134.7 L 503.4 134.2 L 505.8 134.1 L 510.5 134.8 L 515.2 136.6 L 520.0 139.0 L 566.0 140.0" style="fill:none;stroke:var(--fig-blue);stroke-width:2.2"/>
-  <path d="M 330.0 154.0 L 338.2 159.5 L 341.0 160.7 L 343.8 160.9 L 346.5 160.0 L 349.2 158.1 L 357.5 148.8 L 360.2 146.5 L 363.0 145.5 L 365.8 146.3 L 368.5 148.9 L 371.2 153.2 L 379.5 170.5 L 382.2 175.0 L 385.0 177.5 L 387.8 177.6 L 390.5 175.2 L 393.2 170.7 L 401.5 152.8 L 404.2 149.0 L 407.0 147.9 L 409.8 150.0 L 412.5 155.3 L 415.2 163.4 L 423.5 192.9 L 426.2 200.1 L 429.0 203.9 L 431.8 203.9 L 434.5 200.0 L 437.2 193.0 L 440.0 184.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.6;stroke-dasharray:4 3"/>
-  <path d="M 330 159 L 520 145 A 4.5 9 0 0 1 520 163 L 330 177 A 4.5 9 0 0 1 330 159 Z" style="fill:var(--fig-soft-teal);stroke:var(--fig-muted);stroke-width:1.2"/>
-  <ellipse cx="330" cy="168" rx="4.5" ry="9" style="fill:var(--fig-soft-teal);stroke:var(--fig-muted);stroke-width:1.2"/>
-  <path d="M 330 183 L 520 169 A 4.5 9 0 0 1 520 187 L 330 201 A 4.5 9 0 0 1 330 183 Z" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2"/>
-  <ellipse cx="330" cy="192" rx="4.5" ry="9" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2"/>
+  <path d="M 330 105 L 520 91 A 4.5 9 0 0 1 520 109 L 330 123 A 4.5 9 0 0 1 330 105 Z" style="fill:var(--fig-soft-teal);stroke:var(--fig-muted);stroke-width:1.2"/>
+  <ellipse cx="330" cy="114" rx="4.5" ry="9" style="fill:var(--fig-soft-teal);stroke:var(--fig-muted);stroke-width:1.2"/>
+  <path d="M 330 121 L 520 107 A 4.5 9 0 0 1 520 125 L 330 139 A 4.5 9 0 0 1 330 121 Z" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2"/>
+  <ellipse cx="330" cy="130" rx="4.5" ry="9" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2"/>
+  <path d="M 185.0 150.0 L 330.0 150.0 L 339.5 152.9 L 344.2 153.4 L 346.6 153.4 L 353.8 152.0 L 370.4 145.5 L 375.1 144.4 L 377.5 144.2 L 379.9 144.3 L 384.6 144.9 L 401.2 150.2 L 406.0 151.0 L 408.4 151.1 L 410.8 151.0 L 415.5 150.1 L 420.2 148.5 L 432.1 143.6 L 439.2 142.0 L 441.6 141.9 L 446.4 142.3 L 451.1 143.4 L 465.4 148.1 L 470.1 148.7 L 472.5 148.8 L 474.9 148.6 L 479.6 147.5 L 496.2 141.0 L 503.4 139.6 L 505.8 139.6 L 510.5 140.1 L 520.0 143.0 L 566.0 140.0" style="fill:none;stroke:var(--fig-blue);stroke-width:2.2"/>
+  <path d="M 330.0 149.0 L 338.2 151.3 L 343.8 151.8 L 349.2 150.6 L 357.5 147.4 L 360.2 146.7 L 363.0 146.5 L 365.8 146.8 L 368.5 147.8 L 371.2 149.3 L 379.5 155.2 L 382.2 156.6 L 385.0 157.5 L 387.8 157.6 L 390.5 157.0 L 393.2 155.7 L 401.5 150.7 L 404.2 149.8 L 407.0 149.7 L 409.8 150.5 L 412.5 152.3 L 415.2 154.9 L 423.5 164.1 L 426.2 166.4 L 429.0 167.7 L 431.8 168.0 L 434.5 167.1 L 437.2 165.3 L 440.0 163.0" style="fill:none;stroke:var(--fig-muted);stroke-width:1.6;stroke-dasharray:4 3"/>
+  <path d="M 330 165 L 520 151 A 4.5 9 0 0 1 520 169 L 330 183 A 4.5 9 0 0 1 330 165 Z" style="fill:var(--fig-soft-teal);stroke:var(--fig-muted);stroke-width:1.2"/>
+  <ellipse cx="330" cy="174" rx="4.5" ry="9" style="fill:var(--fig-soft-teal);stroke:var(--fig-muted);stroke-width:1.2"/>
+  <path d="M 330 181 L 520 167 A 4.5 9 0 0 1 520 185 L 330 199 A 4.5 9 0 0 1 330 181 Z" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2"/>
+  <ellipse cx="330" cy="190" rx="4.5" ry="9" style="fill:var(--fig-panel);stroke:var(--fig-muted);stroke-width:1.2"/>
   <text x="425.0" y="78.0" class="ochem-7-ei-ms-schematic-b" text-anchor="middle">④ 질량 분석부</text>
   <text x="425.0" y="96.0" class="ochem-7-ei-ms-schematic-s" text-anchor="middle">사중극자 · TOF · 자기장 부채꼴 등</text>
-  <text x="448.0" y="220.0" class="ochem-7-ei-ms-schematic-s" text-anchor="middle">걸러지는 이온</text>
-  <line x1="420.0" y1="208.0" x2="436.0" y2="190.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
+  <text x="448.0" y="222.0" class="ochem-7-ei-ms-schematic-s" text-anchor="middle">걸러져 막대에 부딪히는 이온</text>
+  <line x1="440.0" y1="210.0" x2="440.0" y2="168.0" style="stroke:var(--fig-muted);stroke-width:1;stroke-linecap:round"/>
   <rect x="566.0" y="116.0" width="40.0" height="50.0" rx="4" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.4"/>
   <text x="586.0" y="78.0" class="ochem-7-ei-ms-schematic-b" text-anchor="middle">⑤ 검출기</text>
   <text x="586.0" y="202.0" class="ochem-7-ei-ms-schematic-s" text-anchor="middle">전자 증배관</text>
