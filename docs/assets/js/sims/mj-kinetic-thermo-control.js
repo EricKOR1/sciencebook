@@ -10,7 +10,7 @@ Sims.register('mj-kinetic-thermo-control', {
     '중간체는 정류 상태로 두었고, 장벽 값은 온도와 무관하다고 가정한 모형이다.',
   init: function (api) {
     var R = 8.314, KBH = 2.0837e10;
-    var st = { T: 40, lt: Math.log10(3600), dd: 2.2, dg: 3.6, er: 88 };
+    var st = { T: -80, lt: Math.log10(3600), dd: 2.2, dg: 3.6, er: 88 };
     var cv = api.canvas({ aspect: function (w) { return w < 640 ? 1.25 : 0.46; }, label: '1,2-생성물과 1,4-생성물의 분율–시간 그래프와 에너지 도표' });
     var ctx = cv.ctx;
     var rK = api.readout('속도론적 비 1,2 : 1,4'), rE = api.readout('평형 비 1,2 : 1,4'), rH = api.readout('평형까지 반감기'), rN = api.readout('선택한 시간의 비');
