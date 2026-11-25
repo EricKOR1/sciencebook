@@ -10,7 +10,7 @@
 //     <!-- next: phy-1 -->         이 단원에서 이어지는 관련 단원 id
 //     <!-- fig:이름 -->            docs/assets/fig/이름.svg 그림
 //     <!-- sim:이름 -->            docs/assets/js/sims/이름.js 인터랙티브 시뮬레이션
-//     <!-- photo:이름 -->          docs/assets/photos/photos.json 에 등록된 사진·사실적 삽화(자유 이용 자료, 출처 표시)
+//     <!-- photo:이름 -->          docs/assets/photos/이름.json 에 등록된 사진·사실적 삽화(자유 이용 자료, 출처 표시)
 import fs0 from 'node:fs';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -88,8 +88,14 @@ LINKMAP.set('README.md', 'index.html');
 LINKMAP.set('핵심_용어_사전.md', 'glossary.html');
 
 // ───────────────────────── 보조 자료 ─────────────────────────
-const photos = fs.existsSync(path.join(ASSETS, 'photos/photos.json'))
-  ? JSON.parse(fs.readFileSync(path.join(ASSETS, 'photos/photos.json'), 'utf8')) : {};
+// 사진·사실적 삽화의 정보: docs/assets/photos/{이름}.json (그림마다 하나)
+const photos = {};
+if (fs.existsSync(path.join(ASSETS, 'photos'))) {
+  for (const f of fs.readdirSync(path.join(ASSETS, 'photos')).filter((x) => x.endsWith('.json')).sort()) {
+    try { photos[f.slice(0, -5)] = JSON.parse(fs.readFileSync(path.join(ASSETS, 'photos', f), 'utf8')); }
+    catch (e) { console.warn(`  ! 사진 정보 읽기 실패: ${f}`); }
+  }
+}
 const escapeHtml = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 // 사진·사실적 삽화(자유 이용 자료). photos.json 의 한 항목:
 //   { file, w, h, title, caption, alt, author, license, license_url, source, changes, labels: [{x, y, text, anchor, sub}] }
