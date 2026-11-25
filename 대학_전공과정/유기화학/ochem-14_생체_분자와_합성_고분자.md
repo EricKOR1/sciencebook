@@ -443,7 +443,7 @@ D-글루시톨(SMILES `OC[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)CO`)은 무설탕 �
 단당류를 메탄올과 산 촉매(HCl)로 가열하면 아노머 탄소의 OH만 OMe로 바뀐 **메틸 글리코사이드**가 생긴다. 헤미아세탈이 아세탈이 된 것이며, 「알데하이드와 케톤」 ⑤의 7단계 중 4~7단계와 같다. 아노머 탄소가 OR로 묶인 아세탈을 **글리코사이드**(glycoside), 그 C1–O–R 결합을 **글리코사이드 결합**(glycosidic bond)이라 한다. R이 다른 당이면 이당류·다당류가 되고, R 자리에 질소가 오면(C1–N) **N-글리코사이드**로 뉴클레오사이드(⑬)가 된다.
 
 $$
-\text{D-글루코스} + \mathrm{CH_3OH} \xrightarrow{\ \mathrm{HCl}\ (\text{촉매}),\ \text{가열}\ } \text{메틸 α-D-글루코피라노사이드} + \text{β-아노머} + \mathrm{H_2O}
+\text{D-글루코스} + \mathrm{CH_3OH} \xrightarrow{\ \mathrm{HCl}\ (\text{촉매}),\ \text{가열}\ } \text{메틸 }\alpha\text{-D-글루코피라노사이드} + \beta\text{-아노머} + \mathrm{H_2O}
 $$
 
 | 단계 | 일어나는 일 | 굽은 화살표 |

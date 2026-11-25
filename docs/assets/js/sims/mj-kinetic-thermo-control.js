@@ -96,8 +96,8 @@ Sims.register('mj-kinetic-thermo-control', {
         ctx.save(); ctx.strokeStyle = col; ctx.setLineDash([6, 4]); ctx.lineWidth = 1.4; ctx.beginPath(); ctx.moveTo(L, sy(y)); ctx.lineTo(Rr, sy(y)); ctx.stroke(); ctx.restore();
         ctx.font = '11px ' + T.fontBody; ctx.fillStyle = col; ctx.textAlign = 'right'; ctx.fillText(lab, Rr - 4, sy(y) + (below ? 13 : -4));
       }
-      hline(m.f12, T.figBlue, '속도론적 한계 (1,2 분율 = k12/(k12+k14))', m.f12 < m.xeq);
-      hline(m.xeq, T.figRed, '평형 (1,2 분율 = 1/(1+K))', m.xeq <= m.f12);
+      hline(m.f12, T.figBlue, '속도론적 한계 k12/(k12+k14)', m.f12 < m.xeq);
+      hline(m.xeq, T.figRed, '평형 1/(1+K)', m.xeq <= m.f12);
       function plot(fn, col) {
         ctx.beginPath();
         for (var j = 0; j <= 240; j++) { var lt = lt0 + (lt1 - lt0) * j / 240, X = sx(lt), Yv = sy(fn(Math.pow(10, lt))); if (j) ctx.lineTo(X, Yv); else ctx.moveTo(X, Yv); }
