@@ -3,6 +3,9 @@
 
   python3 tools/authoring/photo.py prep <작업 그림.png> --out <폴더>/work.png [--crop x0,y0,x1,y1] [--width 960]
       원본을 자르고(원본 좌표) 너비를 맞춘 작업본을 만든다. 이 작업본을 Read 로 보고 좌표를 정한다.
+      작은 원본을 키우려면 --upscale (이름표 글자 크기는 너비 960 기준이다).
+  python3 tools/authoring/photo.py boxes <작업본.png> [--thr 90] [--light]
+      작업본 안의 글자 덩어리(낱말) 상자의 좌표 x y w h 를 낸다. covers 좌표를 눈대중하지 않고 이것으로 정한다.
   python3 tools/authoring/photo.py make <spec.json>
       작업본에 가림(영어 이름표 지우기)을 하고 docs/assets/photos/{name}.webp 와 {name}.json 을 쓴다.
 
@@ -35,7 +38,7 @@ def prep(a):
     im = im.convert('RGBA' if im.mode in ('RGBA', 'LA', 'P') else 'RGB')
     if a.crop:
         im = im.crop(tuple(int(v) for v in a.crop.split(',')))
-    if im.width > a.width:
+    if im.width > a.width or (a.upscale and im.width < a.width):
         im = im.resize((a.width, round(im.height * a.width / im.width)), Image.LANCZOS)
     im.info.pop('icc_profile', None)
     im.save(a.out)
@@ -96,7 +99,32 @@ def make(a):
     print(os.path.join(OUT, fn), f'{w}×{h}', size, 'bytes |', meta['license'])
 
 ap = argparse.ArgumentParser(); sub = ap.add_subparsers(dest='cmd', required=True)
-p = sub.add_parser('prep'); p.add_argument('src'); p.add_argument('--out', required=True); p.add_argument('--crop'); p.add_argument('--width', type=int, default=960)
+p = sub.add_parser('prep'); p.add_argument('src'); p.add_argument('--out', required=True); p.add_argument('--crop'); p.add_argument('--width', type=int, default=960); p.add_argument('--upscale', action='store_true')
+b = sub.add_parser('boxes'); b.add_argument('src'); b.add_argument('--thr', type=int, default=90); b.add_argument('--light', action='store_true')
 m = sub.add_parser('make'); m.add_argument('spec')
 a = ap.parse_args()
-prep(a) if a.cmd == 'prep' else make(a)
+def boxes(a):
+    # 글자처럼 보이는 작은 얼룩을 낱말 상자로 묶어 좌표를 낸다(covers 를 정할 때 쓴다). 어두운 글자가 기본, 밝은 글자는 --light.
+    import numpy as np
+    from scipy import ndimage
+    g = np.array(Image.open(a.src).convert('L'))
+    lab, n = ndimage.label((g > 255 - a.thr) if a.light else (g < a.thr))
+    small = []
+    for s in ndimage.find_objects(lab):
+        h = s[0].stop - s[0].start; w = s[1].stop - s[1].start
+        if 3 <= h <= 30 and w <= 40:
+            small.append([s[1].start, s[0].start, s[1].stop, s[0].stop])
+    small.sort(); merged = True
+    while merged:
+        merged = False; out = []
+        for q in small:
+            for o in out:
+                if q[0] <= o[2] + 9 and q[2] >= o[0] - 9 and q[1] <= o[3] + 2 and q[3] >= o[1] - 2:
+                    o[0] = min(o[0], q[0]); o[1] = min(o[1], q[1]); o[2] = max(o[2], q[2]); o[3] = max(o[3], q[3]); merged = True; break
+            else: out.append(list(q))
+        small = out
+    print('x y w h  (낱말 상자. covers 에는 사방 2~3px 여유를 준다)')
+    for q in sorted(small, key=lambda q: (q[1], q[0])):
+        if q[2] - q[0] >= 15: print(q[0], q[1], q[2] - q[0], q[3] - q[1])
+
+{'prep': prep, 'make': make, 'boxes': boxes}[a.cmd](a)

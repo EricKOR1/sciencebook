@@ -109,14 +109,14 @@ def main():
         words = [w.lower().split('|') for w in a.q.split()]
         n = 0
         for f in load():
-            if a.book and a.book.lower() not in f['book'].lower(): continue
+            if a.book and not f['book'].lower().startswith(a.book.lower()): continue      # 책 이름의 앞부분으로 고른다
             if a.chapter and f['chapter'] != a.chapter: continue
             hay = (f['id'] + ' ' + f['alt'] + ' ' + f['caption'] + ' ' + f['module_title'] + ' ' + f['chapter_title']).lower()
             if all(any(alt in hay for alt in w) for w in words):
                 n += 1
                 if n > a.limit: continue
                 print(('✓' if f['usable'] else '✗'), f['id'], f'| {f["book"]} {f["section"]} {f["module_title"]} | 파일 {len(f["files"])}개')
-                print('    ', (f['alt'] or f['caption'])[:230])
+                print('    ', os.path.basename(f['files'][0]), '—', (f['alt'] or f['caption'])[:230])
                 if f['credit']: print('     출처 표시:', f['credit'][:160])
         print(f'— {n}개 찾음' + (f' (처음 {a.limit}개만 보임. 낱말을 더 주거나 --limit 를 늘린다)' if n > a.limit else ''))
         return
@@ -144,4 +144,6 @@ def main():
     print(a.out + '.png', im.size, '|', meta['source_name'], '|', author[:120])
 
 if __name__ == '__main__':
+    import signal
+    signal.signal(signal.SIGPIPE, signal.SIG_DFL)      # | head 로 잘라도 오류가 나지 않게
     main()

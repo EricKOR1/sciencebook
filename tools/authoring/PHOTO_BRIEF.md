@@ -24,7 +24,7 @@ cd tools && node figsheet.mjs <전용 폴더>/now.png light <id>:<그림이름> 
 생물·해부생리·미생물·화학·물리·천문 교과서의 그림 7천여 개(CC BY 4.0)가 내려받아져 있다. 사실적인 해부 삽화, 현미경 사진, 실험·현상 사진, NASA 사진이 많다.
 ```
 python3 tools/authoring/openstax.py search "heart chambers|valves" --limit 20      # 영어 낱말. 띄어 쓰면 '모두 포함', a|b 는 '또는'
-python3 tools/authoring/openstax.py search "cell" --book "anatomy"                 # 책 좁히기: biology, concepts, anatomy, microbiology, chemistry, astronomy, college physics, university physics
+python3 tools/authoring/openstax.py search "cell" --book "anatomy"                 # 책 좁히기(책 이름의 앞부분): biology, concepts, anatomy, microbiology, chemistry, astronomy, college physics, university physics
 python3 tools/authoring/openstax.py search "" --book "chemistry 2e" --chapter 17 --limit 80   # 한 장(章)의 그림 전체
 python3 tools/authoring/openstax.py show  <그림 id>                                # 전체 설명과 출처
 python3 tools/authoring/openstax.py get   <그림 id> --out <전용 폴더>/raw-이름      # raw-이름.png + raw-이름.json
@@ -46,12 +46,16 @@ python3 tools/authoring/commons.py get "File:….jpg" --width 1280 --out <전용
 - **사실적인가**: 입체감 있는 삽화, 현미경 사진, 실물 사진. 지금의 SVG 와 다를 바 없는 평면 도식은 넣을 까닭이 없다.
 - **과학적으로 맞고 이 단원의 수준에 맞는가**: 글과 어긋나는 내용(다른 분류, 낡은 모형)이 있으면 쓰지 않는다.
 - **너비 720 으로 줄여도 알아볼 수 있는가**: 지나치게 빽빽한 그림은 필요한 부분만 잘라 쓴다.
-- 영어 이름표가 **12개를 넘는 그림**은 피하거나 일부만 잘라 쓴다(모두 한글로 바꿔야 한다).
+- 영어 이름표가 **12개를 넘는 그림**은 피하거나 일부만 잘라 쓴다(모두 한글로 바꿔야 한다). 지시선이 그림 위를 가로지르는 그림은 이름표를 일부만 지울 수 없으니, 모두 한글로 바꿀 수 있을 때만 쓴다.
 - 살아 있는 사람의 얼굴, 상표·로고, 혐오감을 줄 수 있는 사진(수술, 심한 병변)은 쓰지 않는다.
 
 ## 4. 가공 — 영어 이름표를 지우고 한글 이름표를 붙인다
 ```
 python3 tools/authoring/photo.py prep <전용 폴더>/raw-이름.png --out <전용 폴더>/work-이름.png [--crop x0,y0,x1,y1] --width 960
+```
+작은 원본(너비 900 미만)은 `--upscale` 을 붙여 960 으로 키운다(이름표 글자 크기가 너비 960 기준이다).
+```
+python3 tools/authoring/photo.py boxes <전용 폴더>/work-이름.png        # 영어 글자(낱말) 상자의 좌표 x y w h — covers 는 눈대중하지 말고 이것으로 정한다
 ```
 작업본(`work-이름.png`)을 Read 로 보고 좌표를 읽어 spec 을 쓴다(형식은 `tools/authoring/photo.py` 맨 위 설명과 본보기 `docs/assets/photos/m3-05-skin-receptors.json`).
 - `name`: `{단원 id}-{영문 설명}` (예: `bio-2-heart-chambers`). `meta`: `raw-이름.json`. `author`: meta 의 author 를 그대로(길면 이름은 남기고 줄인다). OpenStax 그림은 원 저작자가 있으면 `NASA/JPL-Caltech (OpenStax 수록)` 꼴, 없으면 `OpenStax` 로 이미 채워져 있다(책 이름은 출처 줄에 따로 나오니 author 에 다시 쓰지 않는다).
