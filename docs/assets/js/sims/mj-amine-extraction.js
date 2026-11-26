@@ -9,12 +9,12 @@ Sims.register('mj-amine-extraction', {
     ];
     var ACID_PKA = 4.2;
     var st = { pH: 7.0, pk: 9.34, logP: 1.3, r: 1.0, n: 1, three: false };
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.45 : 0.78; }, label: 'pH에 따른 아민의 분율 곡선과 분액 깔때기 속 분자 분포, 추출률 막대' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.62 : 0.78; }, label: 'pH에 따른 아민의 분율 곡선과 분액 깔때기 속 분자 분포, 추출률 막대' });
     var ctx = cv.ctx;
     var rA = api.readout('아민  '), rE = api.readout('추출  '), rC = api.readout('세 성분  ');
     api.slider({ id: 'mj-amine-extraction-ph', label: '수용액 pH', min: 0, max: 14, step: 0.1, value: st.pH,
       format: function (v) { return v.toFixed(1); }, onInput: function (v) { st.pH = v; draw(); } });
-    var skPk = api.slider({ id: 'mj-amine-extraction-pk', label: '아민의 pKaH', min: 0, max: 12, step: 0.05, value: st.pk,
+    var skPk = api.slider({ id: 'mj-amine-extraction-pk', label: '아민의 pKaH', min: 0, max: 12, step: 0.01, value: st.pk,
       format: function (v) { return v.toFixed(2); }, onInput: function (v) { st.pk = v; syncPre(); draw(); } });
     var gp = api.group();
     var lab = document.createElement('span'); lab.textContent = '미리 설정: '; lab.style.fontSize = '0.9em'; gp.appendChild(lab);
@@ -111,8 +111,21 @@ Sims.register('mj-amine-extraction', {
 
       // ── 아래: 분액 깔때기
       var top = gB + 44;
+      if (narrow) {
+        ctx.textAlign = 'left'; ctx.fillStyle = T.figInk; ctx.font = '600 12px ' + T.fontBody;
+        ctx.fillText('E = 유기층으로 옮겨 간 분율', 14, top);
+        ctx.font = '600 18px ' + T.fontBody; ctx.fillStyle = T.figBlue; ctx.fillText('아민 ' + pct(A.E), 14, top + 22);
+        ctx.font = '11px ' + T.fontBody; ctx.fillStyle = T.figMuted;
+        ctx.fillText('같은 총 부피(' + (st.n * st.r).toFixed(1) + '배)로 한 번: ' + pct(A.E1), 14, top + 39);
+        if (st.three) {
+          ctx.font = '600 12px ' + T.fontBody;
+          ctx.fillStyle = T.figGreen; ctx.fillText('카복실산 ' + pct(Ac.E), 14, top + 56);
+          ctx.fillStyle = T.figViolet; ctx.fillText('중성 ' + pct(Ne.E), w / 2, top + 56);
+        }
+        top += 66;
+      }
       var fx, fw, fy = top + 4, fh;
-      if (narrow) { fx = 18; fw = w * 0.5; fh = h - fy - 20; } else { fx = 40; fw = w * 0.36; fh = h - fy - 16; }
+      if (narrow) { fx = 18; fw = w * 0.52; fh = h - fy - 12; } else { fx = 40; fw = w * 0.36; fh = h - fy - 16; }
       var cx = fx + fw / 2;
       // 층 높이: 유기층 부피(n·r) : 물층(1)
       var vo = st.n * st.r, frac = Math.max(0.2, Math.min(0.8, vo / (vo + 1)));
@@ -192,21 +205,7 @@ Sims.register('mj-amine-extraction', {
       var bx0, bx1, by0, by1;
       if (narrow) { bx0 = fx + fw + 70; bx1 = w - 10; by0 = top + 2; by1 = mid - 6; }
       else { bx0 = fx + fw + 140; bx1 = w - 16; by0 = top + 6; by1 = h - 30; }
-      if (narrow) {
-        // 좁은 화면: 큰 숫자만
-        ctx.textAlign = 'left'; ctx.fillStyle = T.figInk; ctx.font = '600 12px ' + T.fontBody;
-        var tx0 = fx + fw + 56;
-        ctx.fillText('E = 유기층으로', tx0, top + 14);
-        ctx.fillText('옮겨 간 분율', tx0, top + 29);
-        ctx.font = '600 20px ' + T.fontBody; ctx.fillStyle = T.figBlue; ctx.fillText(pct(A.E), tx0, top + 56);
-        ctx.font = '11px ' + T.fontBody; ctx.fillStyle = T.figMuted;
-        ctx.fillText('한 번에 ' + (st.n * st.r).toFixed(1) + '배:', tx0, top + 76);
-        ctx.fillText(pct(A.E1), tx0, top + 91);
-        if (st.three) {
-          ctx.fillStyle = T.figGreen; ctx.fillText('산 ' + pct(Ac.E), tx0, top + 110);
-          ctx.fillStyle = T.figViolet; ctx.fillText('중성 ' + pct(Ne.E), tx0, top + 125);
-        }
-      } else {
+      if (!narrow) {
         ctx.textAlign = 'left'; ctx.fillStyle = T.figInk; ctx.font = '600 12px ' + T.fontBody;
         ctx.fillText('E = 유기층으로 옮겨 간 분율', bx0, by0 + 6);
         var list = [['아민', A, T.figBlue]];
