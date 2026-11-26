@@ -196,7 +196,8 @@ Sims.register('mj-amine-extraction', {
       ctx.font = '11px ' + T.fontBody; ctx.textAlign = 'left';
       var ly0 = mid + 48;
       if (narrow) {
-        lg.forEach(function (it, k) { var yy = ly0 + k * 15; if (yy > h - 6) return; mark(lx + 4, yy - 4, { color: it[1], shape: it[2], ring: it[3] }); ctx.fillStyle = T.figInk; ctx.fillText(it[0], lx + 12, yy); });
+        var need = 13 * lg.length, upSpace = mid - (bodyT + 40), dnSpace = h - (mid + 40), y0n = (dnSpace >= need || dnSpace >= upSpace) ? mid + 46 : bodyT + 46;
+        lg.forEach(function (it, k) { var yy = y0n + k * 13; mark(lx + 4, yy - 4, { color: it[1], shape: it[2], ring: it[3] }); ctx.fillStyle = T.figInk; ctx.fillText(it[0], lx + 12, yy); });
       } else {
         lg.forEach(function (it, k) { var yy = ly0 + k * 15; mark(lx + 4, yy - 4, { color: it[1], shape: it[2], ring: it[3] }); ctx.fillStyle = T.figInk; ctx.fillText(it[0], lx + 12, yy); });
       }

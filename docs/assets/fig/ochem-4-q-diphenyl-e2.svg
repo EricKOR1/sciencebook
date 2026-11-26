@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="t-ochem-4-q-diphenyl-e2 d-ochem-4-q-diphenyl-e2">
+  <title id="t-ochem-4-q-diphenyl-e2">그림 유기화학 4-16 예제 14 1-브로모-1,2-다이페닐프로페인의 입체 특이적 E2</title>
+  <desc id="d-ochem-4-q-diphenyl-e2">위: (1R,2R)체를 C1(앞)–C2(뒤) 축으로 내려다보고 C2의 H(12시)와 C1의 Br(6시)이 안티가 되게 돌린 형태. 두 페닐은 이면각 약 60°(앞 2시, 뒤 4시)로 같은 쪽에 놓인다. 굽은 화살표 3개(EtO⁻ 전자쌍 → H, C2–H → C1–C2 결합 자리, C1–Br → Br) 뒤에 두 페닐이 같은 쪽에 남은 (Z)-1,2-다이페닐프로프-1-엔이 생긴다. 아래: (1R,2S)체는 같은 안티 형태에서 두 페닐이 이면각 180°이므로 (E)-1,2-다이페닐프로프-1-엔이 생긴다. 뉴먼 각도는 RDKit 3차원 구조에서 계산했다.</desc>
+  <style>.ochem-4-q-diphenyl-e2-t{font-size:14px;fill:var(--fig-ink)} .ochem-4-q-diphenyl-e2-b{font-size:14px;fill:var(--fig-ink);font-weight:600} .ochem-4-q-diphenyl-e2-h{font-size:15px;fill:var(--fig-ink);font-weight:700} .ochem-4-q-diphenyl-e2-s{font-size:13px;fill:var(--fig-muted)} .ochem-4-q-diphenyl-e2-n{font-size:13px;fill:var(--fig-muted)} .ochem-4-q-diphenyl-e2-r{font-size:13px;fill:var(--fig-red);font-weight:600} .ochem-4-q-diphenyl-e2-g{font-size:13px;fill:var(--fig-green);font-weight:600} .ochem-4-q-diphenyl-e2-v{font-size:13px;fill:var(--fig-violet)} .ochem-4-q-diphenyl-e2-pl{font-size:20px;fill:var(--fig-ink)} .ochem-4-q-diphenyl-e2-f{font-size:14px;fill:var(--fig-ink)}</style>
+  <circle cx="200.0" cy="140.0" r="30" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2.0"/>
+  <line x1="200.0" y1="110.0" x2="200.0" y2="78.0" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <text x="200.0" y="67.0" class="ochem-4-q-diphenyl-e2-b" text-anchor="middle" style="fill:var(--fig-red)">H</text>
+  <line x1="173.4" y1="153.8" x2="144.9" y2="168.5" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <text x="130.7" y="180.9" class="ochem-4-q-diphenyl-e2-t" text-anchor="middle">CH₃</text>
+  <line x1="226.1" y1="154.8" x2="253.9" y2="170.6" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <text x="267.8" y="183.5" class="ochem-4-q-diphenyl-e2-b" text-anchor="middle" style="fill:var(--fig-blue)">C₆H₅</text>
+  <line x1="200.0" y1="140.0" x2="200.0" y2="202.0" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <text x="200.0" y="223.0" class="ochem-4-q-diphenyl-e2-b" text-anchor="middle" style="fill:var(--fig-green)">Br</text>
+  <line x1="200.0" y1="140.0" x2="253.2" y2="108.1" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <text x="266.9" y="104.9" class="ochem-4-q-diphenyl-e2-b" text-anchor="middle" style="fill:var(--fig-blue)">C₆H₅</text>
+  <line x1="200.0" y1="140.0" x2="143.2" y2="115.1" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <text x="128.6" y="113.6" class="ochem-4-q-diphenyl-e2-t" text-anchor="middle">H</text>
+  <circle cx="200.0" cy="140.0" r="2.6" style="fill:var(--fig-ink)"/>
+  <text x="30.0" y="32.0" class="ochem-4-q-diphenyl-e2-h" text-anchor="start">(1R,2R)-1-브로모-1,2-다이페닐프로페인</text>
+  <text x="104.0" y="73.0" class="ochem-4-q-diphenyl-e2-t" text-anchor="end" style="fill:var(--fig-red)">EtO</text>
+  <circle cx="78.0" cy="54.0" r="6.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.2"/><line x1="74.7" y1="54.0" x2="81.3" y2="54.0" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <circle cx="112.0" cy="70.7" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="112.0" cy="65.3" r="1.7" style="fill:var(--fig-ink)"/>
+  <path d="M 117.7 67.1 Q 151.6 87.2 183.4 67.4" style="fill:none;stroke:var(--fig-violet);stroke-width:1.7;stroke-linecap:round"/>
+  <path d="M 190.1 62.7 L 185.0 71.1 L 184.3 66.7 L 180.4 64.5 Z" style="fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:0.8;stroke-linejoin:round"/>
+  <path d="M 200.7 102.8 Q 217.4 121.9 201.8 136.5" style="fill:none;stroke:var(--fig-violet);stroke-width:1.7;stroke-linecap:round"/>
+  <path d="M 195.3 141.5 L 200.0 132.8 L 200.9 137.2 L 204.9 139.2 Z" style="fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:0.8;stroke-linejoin:round"/>
+  <path d="M 199.0 178.3 Q 170.1 187.2 181.2 210.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1.7;stroke-linecap:round"/>
+  <path d="M 185.4 217.1 L 177.4 211.4 L 181.8 211.1 L 184.3 207.3 Z" style="fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:0.8;stroke-linejoin:round"/>
+  <circle cx="217.0" cy="220.7" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="217.0" cy="215.3" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="183.0" cy="215.3" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="183.0" cy="220.7" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="197.3" cy="231.0" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="202.7" cy="231.0" r="1.7" style="fill:var(--fig-ink)"/>
+  <text x="560.0" y="234.0" class="ochem-4-q-diphenyl-e2-b" text-anchor="middle">두 페닐 이면각 약 60° → 같은 쪽</text>
+  <text x="50.0" y="218.0" class="ochem-4-q-diphenyl-e2-s" text-anchor="middle"></text>
+  <line x1="345.0" y1="140.0" x2="407.0" y2="140.0" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <path d="M 415.0 140.0 L 405.0 144.5 L 407.5 140.0 L 405.0 135.5 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
+  <text x="380.0" y="131.0" class="ochem-4-q-diphenyl-e2-s" text-anchor="middle">E2</text>
+  <text x="380.0" y="161.0" class="ochem-4-q-diphenyl-e2-s" text-anchor="middle">−EtOH, −Br⁻</text>
+  <g transform="translate(474.0,72.5)"><g class="ochem-4-q-diphenyl-e2-mol-p0">
+<path class="ochem-4-q-diphenyl-e2-mol-p0-bond-0 ochem-4-q-diphenyl-e2-mol-p0-atom-0 ochem-4-q-diphenyl-e2-mol-p0-atom-1" d="M 123.4,112.8 L 106.1,89.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p0-bond-1 ochem-4-q-diphenyl-e2-mol-p0-atom-1 ochem-4-q-diphenyl-e2-mol-p0-atom-2" d="M 106.1,89.7 L 117.5,63.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p0-bond-2 ochem-4-q-diphenyl-e2-mol-p0-atom-2 ochem-4-q-diphenyl-e2-mol-p0-atom-3" d="M 117.5,63.1 L 146.2,59.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p0-bond-2 ochem-4-q-diphenyl-e2-mol-p0-atom-2 ochem-4-q-diphenyl-e2-mol-p0-atom-3" d="M 119.6,58.1 L 143.0,55.3" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p0-bond-3 ochem-4-q-diphenyl-e2-mol-p0-atom-3 ochem-4-q-diphenyl-e2-mol-p0-atom-4" d="M 146.2,59.6 L 157.6,33.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p0-bond-4 ochem-4-q-diphenyl-e2-mol-p0-atom-4 ochem-4-q-diphenyl-e2-mol-p0-atom-5" d="M 157.6,33.0 L 140.3,9.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p0-bond-4 ochem-4-q-diphenyl-e2-mol-p0-atom-4 ochem-4-q-diphenyl-e2-mol-p0-atom-5" d="M 152.3,33.7 L 138.2,14.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p0-bond-5 ochem-4-q-diphenyl-e2-mol-p0-atom-5 ochem-4-q-diphenyl-e2-mol-p0-atom-6" d="M 140.3,9.8 L 111.5,13.3" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p0-bond-6 ochem-4-q-diphenyl-e2-mol-p0-atom-6 ochem-4-q-diphenyl-e2-mol-p0-atom-7" d="M 111.5,13.3 L 100.1,39.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p0-bond-6 ochem-4-q-diphenyl-e2-mol-p0-atom-6 ochem-4-q-diphenyl-e2-mol-p0-atom-7" d="M 114.7,17.6 L 105.4,39.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p0-bond-7 ochem-4-q-diphenyl-e2-mol-p0-atom-1 ochem-4-q-diphenyl-e2-mol-p0-atom-8" d="M 106.1,89.7 L 77.3,93.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p0-bond-7 ochem-4-q-diphenyl-e2-mol-p0-atom-1 ochem-4-q-diphenyl-e2-mol-p0-atom-8" d="M 102.9,85.4 L 79.4,88.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p0-bond-8 ochem-4-q-diphenyl-e2-mol-p0-atom-8 ochem-4-q-diphenyl-e2-mol-p0-atom-9" d="M 77.3,93.1 L 60.0,69.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p0-bond-9 ochem-4-q-diphenyl-e2-mol-p0-atom-9 ochem-4-q-diphenyl-e2-mol-p0-atom-10" d="M 60.0,69.9 L 71.4,43.3" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p0-bond-9 ochem-4-q-diphenyl-e2-mol-p0-atom-9 ochem-4-q-diphenyl-e2-mol-p0-atom-10" d="M 56.8,65.6 L 66.1,43.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p0-bond-10 ochem-4-q-diphenyl-e2-mol-p0-atom-10 ochem-4-q-diphenyl-e2-mol-p0-atom-11" d="M 71.4,43.3 L 54.0,20.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p0-bond-11 ochem-4-q-diphenyl-e2-mol-p0-atom-11 ochem-4-q-diphenyl-e2-mol-p0-atom-12" d="M 54.0,20.1 L 25.3,23.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p0-bond-11 ochem-4-q-diphenyl-e2-mol-p0-atom-11 ochem-4-q-diphenyl-e2-mol-p0-atom-12" d="M 51.9,25.0 L 28.5,27.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p0-bond-12 ochem-4-q-diphenyl-e2-mol-p0-atom-12 ochem-4-q-diphenyl-e2-mol-p0-atom-13" d="M 25.3,23.6 L 13.9,50.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p0-bond-13 ochem-4-q-diphenyl-e2-mol-p0-atom-13 ochem-4-q-diphenyl-e2-mol-p0-atom-14" d="M 13.9,50.2 L 31.2,73.3" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p0-bond-13 ochem-4-q-diphenyl-e2-mol-p0-atom-13 ochem-4-q-diphenyl-e2-mol-p0-atom-14" d="M 19.2,49.5 L 33.3,68.4" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p0-bond-14 ochem-4-q-diphenyl-e2-mol-p0-atom-7 ochem-4-q-diphenyl-e2-mol-p0-atom-2" d="M 100.1,39.9 L 117.5,63.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p0-bond-15 ochem-4-q-diphenyl-e2-mol-p0-atom-14 ochem-4-q-diphenyl-e2-mol-p0-atom-9" d="M 31.2,73.3 L 60.0,69.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path d="M 144.8,59.8 L 146.2,59.6 L 146.8,58.3" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 157.0,34.3 L 157.6,33.0 L 156.8,31.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 141.1,11.0 L 140.3,9.8 L 138.8,10.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 113.0,13.1 L 111.5,13.3 L 111.0,14.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 100.7,38.5 L 100.1,39.9 L 101.0,41.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 78.8,92.9 L 77.3,93.1 L 76.5,91.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 70.8,44.6 L 71.4,43.3 L 70.5,42.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 54.9,21.3 L 54.0,20.1 L 52.6,20.3" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 26.7,23.4 L 25.3,23.6 L 24.7,24.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 14.5,48.8 L 13.9,50.2 L 14.8,51.3" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 30.4,72.2 L 31.2,73.3 L 32.7,73.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+</g></g>
+  <text x="560.0" y="214.0" class="ochem-4-q-diphenyl-e2-t" text-anchor="middle">(Z)-1,2-다이페닐프로프-1-엔</text>
+  <line x1="10.0" y1="254.0" x2="710.0" y2="254.0" style="stroke:var(--fig-line);stroke-width:0.6;stroke-linecap:round"/>
+  <circle cx="200.0" cy="376.0" r="30" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:2.0"/>
+  <line x1="200.0" y1="346.0" x2="200.0" y2="314.0" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <text x="200.0" y="303.0" class="ochem-4-q-diphenyl-e2-b" text-anchor="middle" style="fill:var(--fig-red)">H</text>
+  <line x1="226.5" y1="390.0" x2="254.8" y2="404.9" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <text x="269.0" y="417.4" class="ochem-4-q-diphenyl-e2-t" text-anchor="middle">CH₃</text>
+  <line x1="173.9" y1="390.8" x2="146.1" y2="406.6" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <text x="132.2" y="419.5" class="ochem-4-q-diphenyl-e2-b" text-anchor="middle" style="fill:var(--fig-blue)">C₆H₅</text>
+  <line x1="200.0" y1="376.0" x2="200.0" y2="438.0" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <text x="200.0" y="459.0" class="ochem-4-q-diphenyl-e2-b" text-anchor="middle" style="fill:var(--fig-green)">Br</text>
+  <line x1="200.0" y1="376.0" x2="253.2" y2="344.1" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <text x="266.9" y="340.9" class="ochem-4-q-diphenyl-e2-b" text-anchor="middle" style="fill:var(--fig-blue)">C₆H₅</text>
+  <line x1="200.0" y1="376.0" x2="143.2" y2="351.2" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <text x="128.5" y="349.8" class="ochem-4-q-diphenyl-e2-t" text-anchor="middle">H</text>
+  <circle cx="200.0" cy="376.0" r="2.6" style="fill:var(--fig-ink)"/>
+  <text x="30.0" y="268.0" class="ochem-4-q-diphenyl-e2-h" text-anchor="start">(1R,2S)-1-브로모-1,2-다이페닐프로페인</text>
+  <text x="104.0" y="309.0" class="ochem-4-q-diphenyl-e2-t" text-anchor="end" style="fill:var(--fig-red)">EtO</text>
+  <circle cx="78.0" cy="290.0" r="6.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.2"/><line x1="74.7" y1="290.0" x2="81.3" y2="290.0" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <circle cx="112.0" cy="306.7" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="112.0" cy="301.3" r="1.7" style="fill:var(--fig-ink)"/>
+  <path d="M 117.7 303.1 Q 151.6 323.2 183.4 303.4" style="fill:none;stroke:var(--fig-violet);stroke-width:1.7;stroke-linecap:round"/>
+  <path d="M 190.1 298.7 L 185.0 307.1 L 184.3 302.7 L 180.4 300.5 Z" style="fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:0.8;stroke-linejoin:round"/>
+  <path d="M 200.7 338.8 Q 217.4 357.9 201.8 372.5" style="fill:none;stroke:var(--fig-violet);stroke-width:1.7;stroke-linecap:round"/>
+  <path d="M 195.3 377.5 L 200.0 368.8 L 200.9 373.2 L 204.9 375.2 Z" style="fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:0.8;stroke-linejoin:round"/>
+  <path d="M 199.0 414.3 Q 170.1 423.2 181.2 446.0" style="fill:none;stroke:var(--fig-violet);stroke-width:1.7;stroke-linecap:round"/>
+  <path d="M 185.4 453.1 L 177.4 447.4 L 181.8 447.1 L 184.3 443.3 Z" style="fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:0.8;stroke-linejoin:round"/>
+  <circle cx="217.0" cy="456.7" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="217.0" cy="451.3" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="183.0" cy="451.3" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="183.0" cy="456.7" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="197.3" cy="467.0" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="202.7" cy="467.0" r="1.7" style="fill:var(--fig-ink)"/>
+  <text x="560.0" y="470.0" class="ochem-4-q-diphenyl-e2-b" text-anchor="middle">두 페닐 이면각 180° → 반대쪽</text>
+  <text x="50.0" y="454.0" class="ochem-4-q-diphenyl-e2-s" text-anchor="middle"></text>
+  <line x1="345.0" y1="376.0" x2="407.0" y2="376.0" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <path d="M 415.0 376.0 L 405.0 380.5 L 407.5 376.0 L 405.0 371.5 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
+  <text x="380.0" y="367.0" class="ochem-4-q-diphenyl-e2-s" text-anchor="middle">E2</text>
+  <text x="380.0" y="397.0" class="ochem-4-q-diphenyl-e2-s" text-anchor="middle">−EtOH, −Br⁻</text>
+  <g transform="translate(446.5,330.5)"><g class="ochem-4-q-diphenyl-e2-mol-p1">
+<path class="ochem-4-q-diphenyl-e2-mol-p1-bond-0 ochem-4-q-diphenyl-e2-mol-p1-atom-0 ochem-4-q-diphenyl-e2-mol-p1-atom-1" d="M 113.3,72.3 L 122.7,44.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p1-bond-1 ochem-4-q-diphenyl-e2-mol-p1-atom-1 ochem-4-q-diphenyl-e2-mol-p1-atom-2" d="M 122.7,44.9 L 151.1,39.3" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p1-bond-2 ochem-4-q-diphenyl-e2-mol-p1-atom-2 ochem-4-q-diphenyl-e2-mol-p1-atom-3" d="M 151.1,39.3 L 170.2,61.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p1-bond-2 ochem-4-q-diphenyl-e2-mol-p1-atom-2 ochem-4-q-diphenyl-e2-mol-p1-atom-3" d="M 156.4,38.3 L 171.9,56.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p1-bond-3 ochem-4-q-diphenyl-e2-mol-p1-atom-3 ochem-4-q-diphenyl-e2-mol-p1-atom-4" d="M 170.2,61.1 L 198.6,55.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p1-bond-4 ochem-4-q-diphenyl-e2-mol-p1-atom-4 ochem-4-q-diphenyl-e2-mol-p1-atom-5" d="M 198.6,55.6 L 208.0,28.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p1-bond-4 ochem-4-q-diphenyl-e2-mol-p1-atom-4 ochem-4-q-diphenyl-e2-mol-p1-atom-5" d="M 195.1,51.5 L 202.7,29.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p1-bond-5 ochem-4-q-diphenyl-e2-mol-p1-atom-5 ochem-4-q-diphenyl-e2-mol-p1-atom-6" d="M 208.0,28.1 L 188.9,6.3" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p1-bond-6 ochem-4-q-diphenyl-e2-mol-p1-atom-6 ochem-4-q-diphenyl-e2-mol-p1-atom-7" d="M 188.9,6.3 L 160.5,11.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p1-bond-6 ochem-4-q-diphenyl-e2-mol-p1-atom-6 ochem-4-q-diphenyl-e2-mol-p1-atom-7" d="M 187.2,11.4 L 164.0,15.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p1-bond-7 ochem-4-q-diphenyl-e2-mol-p1-atom-1 ochem-4-q-diphenyl-e2-mol-p1-atom-8" d="M 122.7,44.9 L 103.6,23.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p1-bond-7 ochem-4-q-diphenyl-e2-mol-p1-atom-1 ochem-4-q-diphenyl-e2-mol-p1-atom-8" d="M 117.4,45.9 L 101.9,28.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p1-bond-8 ochem-4-q-diphenyl-e2-mol-p1-atom-8 ochem-4-q-diphenyl-e2-mol-p1-atom-9" d="M 103.6,23.1 L 75.2,28.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p1-bond-9 ochem-4-q-diphenyl-e2-mol-p1-atom-9 ochem-4-q-diphenyl-e2-mol-p1-atom-10" d="M 75.2,28.7 L 56.2,6.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p1-bond-9 ochem-4-q-diphenyl-e2-mol-p1-atom-9 ochem-4-q-diphenyl-e2-mol-p1-atom-10" d="M 70.0,29.7 L 54.4,11.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p1-bond-10 ochem-4-q-diphenyl-e2-mol-p1-atom-10 ochem-4-q-diphenyl-e2-mol-p1-atom-11" d="M 56.2,6.9 L 27.7,12.4" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p1-bond-11 ochem-4-q-diphenyl-e2-mol-p1-atom-11 ochem-4-q-diphenyl-e2-mol-p1-atom-12" d="M 27.7,12.4 L 18.4,39.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p1-bond-11 ochem-4-q-diphenyl-e2-mol-p1-atom-11 ochem-4-q-diphenyl-e2-mol-p1-atom-12" d="M 31.3,16.5 L 23.6,38.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p1-bond-12 ochem-4-q-diphenyl-e2-mol-p1-atom-12 ochem-4-q-diphenyl-e2-mol-p1-atom-13" d="M 18.4,39.9 L 37.4,61.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p1-bond-13 ochem-4-q-diphenyl-e2-mol-p1-atom-13 ochem-4-q-diphenyl-e2-mol-p1-atom-14" d="M 37.4,61.7 L 65.8,56.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p1-bond-13 ochem-4-q-diphenyl-e2-mol-p1-atom-13 ochem-4-q-diphenyl-e2-mol-p1-atom-14" d="M 39.1,56.6 L 62.3,52.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p1-bond-14 ochem-4-q-diphenyl-e2-mol-p1-atom-7 ochem-4-q-diphenyl-e2-mol-p1-atom-2" d="M 160.5,11.9 L 151.1,39.3" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-4-q-diphenyl-e2-mol-p1-bond-15 ochem-4-q-diphenyl-e2-mol-p1-atom-14 ochem-4-q-diphenyl-e2-mol-p1-atom-9" d="M 65.8,56.1 L 75.2,28.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path d="M 169.2,60.1 L 170.2,61.1 L 171.6,60.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 197.2,55.8 L 198.6,55.6 L 199.1,54.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 207.5,29.5 L 208.0,28.1 L 207.0,27.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 189.9,7.4 L 188.9,6.3 L 187.5,6.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 161.9,11.6 L 160.5,11.9 L 160.0,13.3" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 104.6,24.2 L 103.6,23.1 L 102.2,23.4" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 57.1,7.9 L 56.2,6.9 L 54.7,7.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 29.2,12.2 L 27.7,12.4 L 27.3,13.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 18.8,38.5 L 18.4,39.9 L 19.3,40.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 36.5,60.6 L 37.4,61.7 L 38.8,61.4" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 64.4,56.4 L 65.8,56.1 L 66.3,54.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+</g></g>
+  <text x="560.0" y="450.0" class="ochem-4-q-diphenyl-e2-t" text-anchor="middle">(E)-1,2-다이페닐프로프-1-엔</text>
+</svg>
