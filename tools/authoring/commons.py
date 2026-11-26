@@ -48,7 +48,7 @@ def fetch(url, tries=8):
             return data
         if n == tries - 1 or '404' in str(err) or '403' in str(err):
             raise err
-        print(f'  … 서버가 잠시 쉬라고 함({str(err)[:40]}), {penalty:.0f}초 뒤 다시', file=sys.stderr)
+        print(f'  … {time.strftime("%H:%M:%S")} 서버가 잠시 쉬라고 함({str(err)[:40]}), {penalty:.0f}초 뒤 다시(멈춘 것이 아니다)', file=sys.stderr, flush=True)
 
 def call(params):
     return json.loads(fetch(API + '?' + urllib.parse.urlencode({**params, 'format': 'json'})))
@@ -100,6 +100,10 @@ def main():
     elif a.cmd == 'info':
         for it in info(a.title): print(json.dumps(it, ensure_ascii=False, indent=1))
     else:
+        import glob
+        done = [f for f in glob.glob(a.out + '.*') if not f.endswith('.json')]
+        if done and os.path.exists(a.out + '.json'):       # 이미 받은 파일은 다시 받지 않는다(중단 뒤 다시 돌려도 요청을 쓰지 않는다)
+            print(done[0], '이미 있음(다시 받지 않음)'); return
         it = info([a.title])[0]
         if not it['usable']: sys.exit('쓸 수 없는 라이선스: ' + it['license'])
         # 원본을 통째로 받으면 서버에 부담을 주므로 표준 크기 축소본(960·1280·1920)을 받는다.

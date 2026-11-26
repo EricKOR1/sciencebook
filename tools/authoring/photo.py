@@ -7,6 +7,7 @@
   python3 tools/authoring/photo.py boxes <작업본.png> [--thr 90] [--light]
       작업본 안의 글자 덩어리(낱말) 상자의 좌표 x y w h 를 낸다. covers 좌표를 눈대중하지 않고 이것으로 정한다.
   python3 tools/authoring/photo.py make <spec.json>
+  python3 tools/authoring/photo.py preview <이름> --out <폴더>/pv-이름.png      # make 뒤에: 한글 이름표를 얹은 미리 보기(위치 확인용. 글꼴이 달라 − 같은 기호는 네모로 보일 수 있다)
       작업본에 가림(영어 이름표 지우기)을 하고 docs/assets/photos/{name}.webp 와 {name}.json 을 쓴다.
 
 spec.json (좌표는 모두 작업본 기준, 왼쪽 위가 0,0):
@@ -20,6 +21,7 @@ spec.json (좌표는 모두 작업본 기준, 왼쪽 위가 0,0):
   "author": "Blausen.com staff (2014)",           # 저작자 표시(짧게. 라이선스가 요구하는 이름)
   "changes": "영어 이름표를 지우고 한글 이름표를 붙임, 일부를 잘라 냄",   # 고친 것이 없으면 ""
   "covers": [[x, y, w, h], …],                    # 지울 영역(영어 글자). 둘레 색으로 칠한다. 색을 정하려면 [x, y, w, h, "#rrggbb"] (사각형마다) 또는 "fill": "#ffffff" (전체)
+  "more_meta": ["<폴더>/raw-b.json"],              # (선택) 그림 여러 장을 이어 붙였을 때 나머지 원본의 출처 기록 — 출처 줄에 함께 나온다
   "labels": [{"x": 206, "y": 160, "text": "자유 신경 말단", "anchor": "end"}, {"x": 206, "y": 183, "text": "통증·온도", "sub": true, "anchor": "end"}]
 }
 labels: x, y 는 글자의 기준점(y 는 글자 밑줄, 곧 글자 아래쪽 끝). anchor 는 start(기본)·middle·end. sub 는 작은 회색 둘째 줄. 글자는 화면에서 그림 위에 얹힌다(큰 글자 21px, 작은 글자 16.5px — 너비 960 기준).
@@ -95,6 +97,13 @@ def make(a):
            'license': meta['license'], 'license_url': meta.get('license_url', ''), 'source': meta['page'],
            **({'source_name': meta['source_name']} if meta.get('source_name') else {'commons_title': meta['title']}),
            'changes': sp.get('changes', ''), 'labels': [{k: v for k, v in l.items() if k != 'plate'} for l in sp.get('labels', [])]}
+    more = []
+    for mp in sp.get('more_meta', []):          # 여러 그림을 이어 붙였을 때: 나머지 원본의 출처 기록
+        mm = json.load(open(mp, encoding='utf-8'))
+        if not mm.get('usable'): sys.exit('쓸 수 없는 라이선스: ' + mp)
+        more.append({'author': mm.get('author', ''), 'source': mm['page'], 'source_name': mm.get('source_name', 'Wikimedia Commons'),
+                     'license': mm['license'], 'license_url': mm.get('license_url', '')})
+    if more: rec['more'] = more
     json.dump(rec, open(os.path.join(OUT, name + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(os.path.join(OUT, fn), f'{w}×{h}', size, 'bytes |', meta['license'])
 
@@ -102,6 +111,7 @@ ap = argparse.ArgumentParser(); sub = ap.add_subparsers(dest='cmd', required=Tru
 p = sub.add_parser('prep'); p.add_argument('src'); p.add_argument('--out', required=True); p.add_argument('--crop'); p.add_argument('--width', type=int, default=960); p.add_argument('--upscale', action='store_true')
 b = sub.add_parser('boxes'); b.add_argument('src'); b.add_argument('--thr', type=int, default=90); b.add_argument('--light', action='store_true')
 m = sub.add_parser('make'); m.add_argument('spec')
+pv = sub.add_parser('preview'); pv.add_argument('name'); pv.add_argument('--out', required=True)
 a = ap.parse_args()
 def boxes(a):
     # 글자처럼 보이는 작은 얼룩을 낱말 상자로 묶어 좌표를 낸다(covers 를 정할 때 쓴다). 어두운 글자가 기본, 밝은 글자는 --light.
@@ -127,4 +137,19 @@ def boxes(a):
     for q in sorted(small, key=lambda q: (q[1], q[0])):
         if q[2] - q[0] >= 15: print(q[0], q[1], q[2] - q[0], q[3] - q[1])
 
-{'prep': prep, 'make': make, 'boxes': boxes}[a.cmd](a)
+def preview(a):
+    # 만든 그림(docs/assets/photos/이름)에 한글 이름표를 얹은 미리 보기 PNG 를 만든다(빌드·화면 찍기 전에 위치를 본다. 글꼴은 사이트와 조금 다르다).
+    from PIL import ImageFont
+    rec = json.load(open(os.path.join(OUT, a.name + '.json'), encoding='utf-8'))
+    im = Image.open(os.path.join(OUT, rec['file'])).convert('RGB')
+    k = im.width / 960 if im.width > 560 else 1.0          # 사이트에서는 너비 960 기준으로 글자가 그려진다
+    d = ImageDraw.Draw(im)
+    for l in rec.get('labels', []):
+        fs = round((16.5 if l.get('sub') else 21) * (rec['w'] / 960 if rec['w'] > 960 else 1))
+        font = ImageFont.truetype('/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc', fs)
+        w = d.textlength(l['text'], font=font)
+        x = l['x'] - (w if l.get('anchor') == 'end' else w / 2 if l.get('anchor') == 'middle' else 0)
+        d.text((x, l['y'] - fs * 0.86), l['text'], font=font, fill=(75, 85, 107) if l.get('sub') else (28, 34, 51), stroke_width=0 if l.get('sub') else 1, stroke_fill=(28, 34, 51))
+    im.save(a.out); print(a.out, im.size, '이름표', len(rec.get('labels', [])), '개')
+
+{'prep': prep, 'make': make, 'boxes': boxes, 'preview': preview}[a.cmd](a)

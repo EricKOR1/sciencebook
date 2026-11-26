@@ -112,7 +112,7 @@ def main():
             if a.book and not f['book'].lower().startswith(a.book.lower()): continue      # 책 이름의 앞부분으로 고른다
             if a.chapter and f['chapter'] != a.chapter: continue
             hay = (f['id'] + ' ' + f['alt'] + ' ' + f['caption'] + ' ' + f['module_title'] + ' ' + f['chapter_title']).lower()
-            if all(any(alt in hay for alt in w) for w in words):
+            if all(any(re.search(r'\b' + re.escape(alt), hay) for alt in w) for w in words):      # 낱말의 앞부분이 맞아야 한다(mica 가 chemical 에 걸리지 않게)
                 n += 1
                 if n > a.limit: continue
                 print(('✓' if f['usable'] else '✗'), f['id'], f'| {f["book"]} {f["section"]} {f["module_title"]} | 파일 {len(f["files"])}개')

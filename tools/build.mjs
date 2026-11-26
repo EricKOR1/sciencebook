@@ -106,7 +106,9 @@ const photoCredit = (p) => {
   if (p.author && !(/^OpenStax( \(Rice University\))?$/.test(p.author) && /^OpenStax/.test(p.source_name || ''))) bits.push(escapeHtml(p.author));
   if (p.source) bits.push(`<a href="${escapeHtml(p.source)}" rel="noopener">${escapeHtml(p.source_name || 'Wikimedia Commons')}</a>`);
   if (p.license) bits.push(p.license_url ? `<a href="${escapeHtml(p.license_url)}" rel="noopener">${escapeHtml(p.license)}</a>` : escapeHtml(p.license));
-  return `출처: ${bits.join(', ')}${p.changes ? ` · ${escapeHtml(p.changes)}` : ''}`;
+  const more = (p.more || []).map((m) => [m.author ? escapeHtml(m.author) : '', `<a href="${escapeHtml(m.source)}" rel="noopener">${escapeHtml(m.source_name || 'Wikimedia Commons')}</a>`,
+    m.license_url ? `<a href="${escapeHtml(m.license_url)}" rel="noopener">${escapeHtml(m.license)}</a>` : escapeHtml(m.license || '')].filter(Boolean).join(', '));
+  return `출처: ${[bits.join(', '), ...more].join(' / ')}${p.changes ? ` · ${escapeHtml(p.changes)}` : ''}`;
 };
 function photoFigure(name, p) {
   const labels = (p.labels || []).map((l) => `<text x="${l.x}" y="${l.y}" text-anchor="${l.anchor || 'start'}" class="${l.sub ? 'pl-sub' : 'pl-main'}">${escapeHtml(l.text)}</text>`).join('');

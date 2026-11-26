@@ -35,7 +35,7 @@ python3 tools/authoring/openstax.py get   <그림 id> --out <전용 폴더>/raw-
 ### (나) 위키미디어 공용 — OpenStax 에 없을 때만(느리다)
 지구과학(암석·지형·날씨), 움직이는 그림(GIF·WEBM), 특정 생물·기구의 사진은 여기서 찾는다. 서버가 요청을 **1분에 한두 번**으로 제한하므로:
 - 명령은 반드시 **백그라운드(run_in_background)** 로 돌리고 기다리는 동안 다른 일을 한다. 한 명령이 몇 분~수십 분 걸린다.
-- 단원 하나에 **검색 3번, 내려받기 2번 이내**. 검색어는 영어로 정확하게(예: `"basalt columnar jointing"`, `"cumulonimbus"`, `"mitosis animation gif"`).
+- 단원 하나에 **검색 3번, 내려받기 3번 이내**(이미 받은 파일은 다시 받지 않으니, 중단되면 같은 명령을 다시 돌린다). 긴 대기(수백 초)가 나와도 멈춘 것이 아니다. 검색어는 영어로 정확하게(예: `"basalt columnar jointing"`, `"cumulonimbus"`, `"mitosis animation gif"`).
 ```
 python3 tools/authoring/commons.py search "검색어" --limit 15       # ✓ = 쓸 수 있는 라이선스(PD, CC0, CC BY, CC BY-SA)
 python3 tools/authoring/commons.py get "File:….jpg" --width 1280 --out <전용 폴더>/raw-이름
@@ -68,6 +68,11 @@ python3 tools/authoring/photo.py boxes <전용 폴더>/work-이름.png        # 
 - GIF·WEBM 은 prep 하지 않고 원본을 spec 의 `work` 에 적는다(GIF 1.6 MB, WEBM 3 MB 이하만. 영어 글자가 들어 있으면 쓰지 않는다).
 ```
 python3 tools/authoring/photo.py make <전용 폴더>/spec-이름.json      # docs/assets/photos/이름.webp + 이름.json
+```
+- 그림 여러 장을 한 장으로 이어 붙일 때는 PIL 로 작업본을 직접 만들고(같은 높이로 맞추고 사이에 흰 띠), spec 의 `meta` 에 첫 그림의 json, `more_meta` 에 나머지 그림의 json 을 적는다(출처 줄에 모두 나온다). 서로 라이선스가 맞는 그림끼리만 붙인다.
+- `photo.py boxes` 는 사진의 무늬도 글자로 잡을 수 있다. 사진에서는 눈으로 확인한 상자만 쓴다.
+```
+python3 tools/authoring/photo.py preview 이름 --out <전용 폴더>/pv-이름.png   # 한글 이름표를 얹은 미리 보기 — 빌드 전에 위치를 먼저 본다
 ```
 파일은 한 장에 260 KB 이하(넘으면 너비를 줄이거나 잘라 낸다).
 
