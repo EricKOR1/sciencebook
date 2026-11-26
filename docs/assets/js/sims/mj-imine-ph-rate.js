@@ -7,7 +7,7 @@ Sims.register('mj-imine-ph-rate', {
     var PRE = [{ n: '예제 10 (9.0)', v: 9.0 }, { n: '하이드록실아민 (6.0)', v: 6.0 }, { n: '메틸아민 (10.6)', v: 10.6 }];
     var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.45 : 0.6; }, label: '이민 생성 속도의 pH 의존 그래프와 반응 용기 모식도' });
     var ctx = cv.ctx;
-    var rA = api.readout('이 pH에서  '), rB = api.readout('꼭대기  ');
+    var rA = api.readout('이 pH에서  '), rC = api.readout('속도  '), rB = api.readout('꼭대기  ');
     var sp = api.slider({ id: 'mj-imine-ph-rate-ph', label: 'pH', min: 0, max: 12, step: 0.05, value: st.pH,
       format: function (v) { return v.toFixed(2); }, onInput: function (v) { st.pH = v; draw(); } });
     var sk = api.slider({ id: 'mj-imine-ph-rate-pka', label: '아민의 pKaH', min: 4, max: 11, step: 0.1, value: st.pKa,
@@ -58,7 +58,7 @@ Sims.register('mj-imine-ph-rate', {
       curve(function (p) { return -p; }, Y1, top1, b1, T.figRed, 2.5);
       ctx.font = '600 11px ' + T.fontBody; ctx.textAlign = 'left';
       ctx.fillStyle = T.figBlue; ctx.fillText('자유 아민 분율 f', L + 6, b1 - 8);
-      ctx.fillStyle = T.figRed; ctx.textAlign = 'right'; ctx.fillText('[H⁺]', R - 6, b1 - 8);
+      ctx.fillStyle = T.figRed; ctx.textAlign = 'right'; ctx.fillText('[H⁺]', R - 6, Y1(-12 + 1.6));
       // 아래 창: 두 단계 속도(점선)와 겉보기 속도
       curve(function (p) { return lg(f(p) / vmax); }, Y2, top2, b2, T.figMuted, 1.4, [5, 4]);
       curve(function (p) { return lg(Math.pow(10, st.lba) * hh(p) / vmax); }, Y2, top2, b2, T.figMuted, 1.4, [5, 4]);
@@ -68,7 +68,7 @@ Sims.register('mj-imine-ph-rate', {
         ctx.strokeStyle = T.figGreen; ctx.lineWidth = 1.2; ctx.setLineDash([3, 3]);
         ctx.beginPath(); ctx.moveTo(X(pst), top2); ctx.lineTo(X(pst), b2); ctx.stroke(); ctx.setLineDash([]);
         ctx.fillStyle = T.figGreen; ctx.font = '600 11px ' + T.fontBody; ctx.textAlign = X(pst) > (L + R) / 2 ? 'right' : 'left';
-        ctx.fillText('pH* = ' + pst.toFixed(2), X(pst) + (X(pst) > (L + R) / 2 ? -5 : 5), top2 + 14);
+        ctx.fillText('pH* = ' + pst.toFixed(2), X(pst) + (X(pst) > (L + R) / 2 ? -5 : 5), top2 + plotH * 0.62);
       }
       // 현재 pH
       ctx.strokeStyle = T.figInk; ctx.lineWidth = 1; ctx.setLineDash([3, 3]);
@@ -106,10 +106,11 @@ Sims.register('mj-imine-ph-rate', {
           ctx.fillStyle = free ? T.figBlue : T.figMuted; ctx.globalAlpha = free ? 1 : 0.45; ctx.fill(); ctx.globalAlpha = 1;
         }
         ctx.font = '11px ' + T.fontBody; ctx.fillStyle = T.figMuted; ctx.textAlign = 'left';
-        ctx.fillText('파랑: RNH₂ (자유)  회색: RNH₃⁺', bx, vy + vh + 14);
+        ctx.fillText('파랑 RNH₂ ' + nf + '개 / 회색 RNH₃⁺ ' + (n - nf) + '개', bx, vy + vh + 14);
       }
       function pct(x) { x *= 100; return x >= 99.95 ? '> 99.9 %' : x < 0.001 ? x.toExponential(1).replace('-', '−') + ' %' : (x >= 1 ? x.toFixed(1) : x.toPrecision(2)) + ' %'; }
-      rA.set('자유 아민 ' + pct(f(st.pH)) + ' · [H⁺] = 10^' + (-st.pH).toFixed(2).replace('-', '−') + ' M · v/v최대 = ' + pct(v(st.pH) / vmax).replace(' %', '') + ' % · 속도 결정: ' + (addSlow ? '첨가' : '탈수'));
+      rA.set('자유 아민 ' + pct(f(st.pH)) + ' · [H⁺] = 10^' + (-st.pH).toFixed(2).replace('-', '−') + ' M');
+      rC.set('v/v최대 ' + pct(v(st.pH) / vmax) + ' · 속도 결정: ' + (addSlow ? '첨가' : '탈수'));
       rB.set('pH* = ½(pKaH + log(B/A)) = ' + pst.toFixed(2) + (pst < 0 || pst > 12 ? ' (그래프 범위 밖)' : '') + ' · 계산된 최대 pH ' + pbest.toFixed(2));
     }
     api.onResize(draw);

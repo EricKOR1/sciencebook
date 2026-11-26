@@ -36,7 +36,7 @@ Sims.register('mj-polarimeter', {
       yaw: -0.42, pitch: 0.28, dist: 16, scale: 0.135, label: '편광자, 시료관, 검광자를 지나는 빛의 진동면',
       aspect: function (w) { return w < 560 ? 0.85 : 0.52; },
       draw: function (g, T, SS) {
-        SS.zoom = SS.w < 560 ? 0.72 : 1;
+        SS.zoom = SS.w < 560 ? 0.66 : 1;
         var A = alpha() * Math.PI / 180, L = tubeLen(), x0 = -L / 2, x1 = L / 2;
         var xs = -5.2, xp = x0 - 0.9, xa = x1 + 0.9, xe = x1 + 2.2;
         // 광원
