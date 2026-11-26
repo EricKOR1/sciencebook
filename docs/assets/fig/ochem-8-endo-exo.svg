@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="t-ochem-8-endo-exo d-ochem-8-endo-exo">
+  <title id="t-ochem-8-endo-exo">그림 유기화학 8-10 사이클로펜타다이엔 + 말레산 무수물의 엔도·엑소 전이 상태와 생성물</title>
+  <desc id="d-ochem-8-endo-exo">위(엔도): 친다이엔체가 다이엔 아래에서 접근하면서 무수물 고리(C=O 두 개)가 다이엔 C2–C3 바로 밑에 들어가고, C=O의 p 오비탈과 다이엔 C2·C3 p 오비탈 사이에 2차 오비탈 상호작용(초록 점선)이 있다. 생성물에서 무수물 고리는 C5=C6 쪽(아래)을 향하고, CH₂ 다리를 위로 놓으면 고리 접합 H 두 개는 위(엑소 방향)를 향한다. 엔도 · 주생성물 · 속도론적. 아래(엑소): 무수물 고리가 다이엔 바깥쪽(CH₂ 쪽)을 향한 전이 상태로 2차 상호작용이 없다. 생성물에서 무수물 고리는 CH₂ 다리 쪽(위), 고리 접합 H는 아래를 향한다. 엑소 · 더 안정 · 열역학적. 좌표는 RDKit 3차원 구조에서 얻었고, 전이 상태는 친다이엔체를 떼어 놓은 모식도이다.</desc>
+  <style>.ochem-8-endo-exo-t{font-size:14px;fill:var(--fig-ink)} .ochem-8-endo-exo-b{font-size:14px;fill:var(--fig-ink);font-weight:600} .ochem-8-endo-exo-h{font-size:15px;fill:var(--fig-ink);font-weight:700} .ochem-8-endo-exo-s{font-size:13px;fill:var(--fig-muted)} .ochem-8-endo-exo-n{font-size:13px;fill:var(--fig-muted)} .ochem-8-endo-exo-r{font-size:13px;fill:var(--fig-red);font-weight:600} .ochem-8-endo-exo-g{font-size:13px;fill:var(--fig-green);font-weight:600} .ochem-8-endo-exo-v{font-size:13px;fill:var(--fig-violet)} .ochem-8-endo-exo-pl{font-size:20px;fill:var(--fig-ink)} .ochem-8-endo-exo-f{font-size:14px;fill:var(--fig-ink)}</style>
+  <text x="14.0" y="26.0" class="ochem-8-endo-exo-h" text-anchor="start">엔도 (endo)</text>
+  <line x1="187.8" y1="231.2" x2="210.0" y2="238.4" style="stroke:var(--fig-ink);stroke-width:1.8;stroke-linecap:butt"/>
+  <line x1="186.2" y1="236.2" x2="208.4" y2="243.4" style="stroke:var(--fig-ink);stroke-width:1.8;stroke-linecap:butt"/>
+  <circle cx="184.4" cy="232.9" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="174.9" y1="188.7" x2="175.3" y2="177.3" style="stroke:var(--fig-ink);stroke-width:1.5;stroke-linecap:butt"/>
+  <line x1="158.5" y1="253.2" x2="182.2" y2="234.6" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <line x1="183.8" y1="230.2" x2="175.4" y2="194.0" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <circle cx="174.8" cy="191.4" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="124.4" y1="239.8" x2="146.5" y2="253.8" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <line x1="130.0" y1="193.3" x2="116.4" y2="180.7" style="stroke:var(--fig-ink);stroke-width:1.5;stroke-linecap:butt"/>
+  <line x1="172.0" y1="191.6" x2="134.8" y2="194.9" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <circle cx="122.1" cy="238.3" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="131.4" y1="197.8" x2="122.7" y2="235.7" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <line x1="95.9" y1="248.5" x2="118.5" y2="237.2" style="stroke:var(--fig-ink);stroke-width:1.8;stroke-linecap:butt"/>
+  <line x1="98.3" y1="253.1" x2="120.8" y2="241.9" style="stroke:var(--fig-ink);stroke-width:1.8;stroke-linecap:butt"/>
+  <circle cx="132.0" cy="195.1" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <circle cx="201.2" cy="133.3" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="199.2" y1="131.5" x2="172.0" y2="107.0" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <line x1="202.1" y1="162.0" x2="201.3" y2="136.0" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <circle cx="170.0" cy="105.2" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="168.1" y1="107.2" x2="140.7" y2="136.7" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <circle cx="138.8" cy="138.7" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <circle cx="202.2" cy="164.7" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="140.6" y1="140.8" x2="163.0" y2="166.0" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <line x1="167.5" y1="167.8" x2="199.5" y2="165.0" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <circle cx="164.8" cy="168.0" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="144.0" y1="149.6" x2="159.6" y2="167.1" style="stroke:var(--fig-ink);stroke-width:1.5;stroke-linecap:round;stroke-dasharray:3 3"/>
+  <line x1="202.0" y1="163.5" x2="201.4" y2="144.6" style="stroke:var(--fig-ink);stroke-width:1.5;stroke-linecap:round;stroke-dasharray:3 3"/>
+  <line x1="172.3" y1="172.3" x2="194.7" y2="170.4" style="stroke:var(--fig-ink);stroke-width:1.5;stroke-linecap:round;stroke-dasharray:3 3"/>
+  <line x1="166.2" y1="197.1" x2="140.6" y2="199.4" style="stroke:var(--fig-ink);stroke-width:1.5;stroke-linecap:round;stroke-dasharray:3 3"/>
+  <line x1="132.0" y1="195.1" x2="138.8" y2="138.7" style="stroke:var(--fig-blue);stroke-width:3;stroke-linecap:round;stroke-dasharray:5 4"/>
+  <line x1="174.8" y1="191.4" x2="201.2" y2="133.3" style="stroke:var(--fig-blue);stroke-width:3;stroke-linecap:round;stroke-dasharray:5 4"/>
+  <circle cx="216.2" cy="243.1" r="7" style="fill:var(--fig-paper)"/>
+  <text x="216.2" y="248.2" style="font-size:14px;fill:var(--fig-red);text-anchor:middle">O</text>
+  <circle cx="175.5" cy="170.5" r="6.5" style="fill:var(--fig-paper)"/>
+  <text x="175.5" y="175.6" style="font-size:14px;fill:var(--fig-ink);text-anchor:middle">H</text>
+  <circle cx="152.7" cy="257.7" r="7" style="fill:var(--fig-paper)"/>
+  <text x="152.7" y="262.8" style="font-size:14px;fill:var(--fig-red);text-anchor:middle">O</text>
+  <circle cx="111.3" cy="176.1" r="6.5" style="fill:var(--fig-paper)"/>
+  <text x="111.3" y="181.2" style="font-size:14px;fill:var(--fig-ink);text-anchor:middle">H</text>
+  <circle cx="90.5" cy="254.1" r="7" style="fill:var(--fig-paper)"/>
+  <text x="90.5" y="259.1" style="font-size:14px;fill:var(--fig-red);text-anchor:middle">O</text>
+  <line x1="122.1" y1="238.3" x2="164.8" y2="168.0" style="stroke:var(--fig-green);stroke-width:1.4;stroke-linecap:round;stroke-dasharray:2 3"/>
+  <line x1="184.4" y1="232.9" x2="202.2" y2="164.7" style="stroke:var(--fig-green);stroke-width:1.4;stroke-linecap:round;stroke-dasharray:2 3"/>
+  <text x="170.0" y="268.0" class="ochem-8-endo-exo-g" text-anchor="middle">초록 점선: 2차 오비탈 상호작용</text>
+  <text x="170.0" y="286.0" class="ochem-8-endo-exo-s" text-anchor="middle">(C=O의 p ↔ 다이엔 C2·C3의 p)</text>
+  <text x="170.0" y="46.0" class="ochem-8-endo-exo-s" text-anchor="middle">전이 상태 (모식도)</text>
+  <line x1="282.0" y1="150.0" x2="322.0" y2="150.0" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <path d="M 330.0 150.0 L 320.0 154.5 L 322.5 150.0 L 320.0 145.5 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
+  <line x1="460.0" y1="202.6" x2="482.2" y2="209.7" style="stroke:var(--fig-ink);stroke-width:1.8;stroke-linecap:butt"/>
+  <line x1="458.4" y1="207.5" x2="480.7" y2="214.7" style="stroke:var(--fig-ink);stroke-width:1.8;stroke-linecap:butt"/>
+  <circle cx="456.6" cy="204.2" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="447.1" y1="160.0" x2="447.5" y2="148.6" style="stroke:var(--fig-ink);stroke-width:1.5;stroke-linecap:butt"/>
+  <line x1="430.7" y1="224.5" x2="454.5" y2="205.9" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <line x1="456.0" y1="201.5" x2="447.6" y2="165.3" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <circle cx="447.0" cy="162.7" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="396.6" y1="211.1" x2="418.7" y2="225.1" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <line x1="402.3" y1="164.6" x2="388.6" y2="152.0" style="stroke:var(--fig-ink);stroke-width:1.5;stroke-linecap:butt"/>
+  <line x1="444.3" y1="162.9" x2="407.0" y2="166.2" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <circle cx="394.3" cy="209.6" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="403.7" y1="169.1" x2="394.9" y2="207.0" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <line x1="368.2" y1="219.8" x2="390.7" y2="208.5" style="stroke:var(--fig-ink);stroke-width:1.8;stroke-linecap:butt"/>
+  <line x1="370.5" y1="224.4" x2="393.1" y2="213.2" style="stroke:var(--fig-ink);stroke-width:1.8;stroke-linecap:butt"/>
+  <circle cx="404.3" cy="166.4" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="468.9" y1="148.7" x2="449.3" y2="161.2" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <circle cx="471.2" cy="147.3" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="405.1" y1="163.8" x2="408.0" y2="155.3" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <line x1="469.2" y1="145.5" x2="442.0" y2="121.0" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <line x1="472.1" y1="176.0" x2="471.3" y2="150.0" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <circle cx="440.0" cy="119.2" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="438.1" y1="121.2" x2="410.7" y2="150.7" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <circle cx="408.8" cy="152.7" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <circle cx="472.2" cy="178.7" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="410.6" y1="154.8" x2="433.0" y2="180.0" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <line x1="437.3" y1="179.2" x2="469.2" y2="176.4" style="stroke:var(--fig-red);stroke-width:1.8;stroke-linecap:butt"/>
+  <line x1="437.7" y1="184.4" x2="469.7" y2="181.6" style="stroke:var(--fig-red);stroke-width:1.8;stroke-linecap:butt"/>
+  <circle cx="434.8" cy="182.0" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <circle cx="488.4" cy="214.4" r="7" style="fill:var(--fig-paper)"/>
+  <text x="488.4" y="219.5" style="font-size:14px;fill:var(--fig-red);text-anchor:middle">O</text>
+  <circle cx="447.7" cy="141.8" r="6.5" style="fill:var(--fig-paper)"/>
+  <text x="447.7" y="146.9" style="font-size:14px;fill:var(--fig-ink);text-anchor:middle">H</text>
+  <circle cx="425.0" cy="229.0" r="7" style="fill:var(--fig-paper)"/>
+  <text x="425.0" y="234.1" style="font-size:14px;fill:var(--fig-red);text-anchor:middle">O</text>
+  <circle cx="383.5" cy="147.4" r="6.5" style="fill:var(--fig-paper)"/>
+  <text x="383.5" y="152.5" style="font-size:14px;fill:var(--fig-ink);text-anchor:middle">H</text>
+  <circle cx="362.8" cy="225.4" r="7" style="fill:var(--fig-paper)"/>
+  <text x="362.8" y="230.4" style="font-size:14px;fill:var(--fig-red);text-anchor:middle">O</text>
+  <text x="440.0" y="46.0" class="ochem-8-endo-exo-s" text-anchor="middle">엔도 생성물</text>
+  <text x="452.0" y="111.2" class="ochem-8-endo-exo-s" text-anchor="start">CH₂ 다리</text>
+  <text x="568.0" y="120.0" class="ochem-8-endo-exo-b" text-anchor="start">엔도 · 주생성물</text>
+  <text x="568.0" y="140.0" class="ochem-8-endo-exo-b" text-anchor="start">속도론적</text>
+  <text x="568.0" y="166.0" class="ochem-8-endo-exo-s" text-anchor="start">무수물 고리: C5=C6 쪽(아래)</text>
+  <text x="568.0" y="184.0" class="ochem-8-endo-exo-s" text-anchor="start">고리 접합 H: 위</text>
+  <line x1="14.0" y1="298.0" x2="706.0" y2="298.0" style="stroke:var(--fig-line);stroke-width:0.8;stroke-linecap:round"/>
+  <text x="14.0" y="324.0" class="ochem-8-endo-exo-h" text-anchor="start">엑소 (exo)</text>
+  <line x1="192.5" y1="443.7" x2="174.3" y2="451.7" style="stroke:var(--fig-ink);stroke-width:1.8;stroke-linecap:butt"/>
+  <line x1="190.4" y1="438.9" x2="172.2" y2="446.9" style="stroke:var(--fig-ink);stroke-width:1.8;stroke-linecap:butt"/>
+  <line x1="168.1" y1="449.7" x2="138.9" y2="441.7" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <circle cx="170.7" cy="450.4" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="125.8" y1="444.0" x2="110.8" y2="454.3" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <line x1="174.9" y1="475.6" x2="171.2" y2="453.1" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <circle cx="108.6" cy="455.8" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="105.4" y1="457.9" x2="79.5" y2="453.2" style="stroke:var(--fig-ink);stroke-width:1.8;stroke-linecap:butt"/>
+  <line x1="106.3" y1="452.8" x2="80.4" y2="448.1" style="stroke:var(--fig-ink);stroke-width:1.8;stroke-linecap:butt"/>
+  <line x1="176.4" y1="480.9" x2="184.6" y2="500.9" style="stroke:var(--fig-ink);stroke-width:1.5;stroke-linecap:butt"/>
+  <circle cx="175.4" cy="478.3" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="110.4" y1="457.8" x2="130.8" y2="480.0" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <line x1="135.4" y1="481.8" x2="172.7" y2="478.6" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <line x1="131.8" y1="484.6" x2="123.8" y2="506.5" style="stroke:var(--fig-ink);stroke-width:1.5;stroke-linecap:butt"/>
+  <circle cx="132.7" cy="482.0" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <circle cx="201.2" cy="417.3" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="172.0" y1="391.1" x2="199.1" y2="415.5" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <line x1="201.3" y1="420.0" x2="202.1" y2="446.0" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <circle cx="170.0" cy="389.2" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="140.7" y1="420.7" x2="168.1" y2="391.2" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <circle cx="138.8" cy="422.7" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <circle cx="202.2" cy="448.7" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="163.0" y1="450.0" x2="140.6" y2="424.8" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <line x1="199.5" y1="449.0" x2="167.5" y2="451.8" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <circle cx="164.8" cy="452.0" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="201.4" y1="428.6" x2="202.0" y2="447.4" style="stroke:var(--fig-ink);stroke-width:1.5;stroke-linecap:round;stroke-dasharray:3 3"/>
+  <line x1="159.6" y1="451.1" x2="144.0" y2="433.6" style="stroke:var(--fig-ink);stroke-width:1.5;stroke-linecap:round;stroke-dasharray:3 3"/>
+  <line x1="194.8" y1="454.4" x2="172.3" y2="456.4" style="stroke:var(--fig-ink);stroke-width:1.5;stroke-linecap:round;stroke-dasharray:3 3"/>
+  <line x1="141.2" y1="486.3" x2="166.9" y2="484.1" style="stroke:var(--fig-ink);stroke-width:1.5;stroke-linecap:round;stroke-dasharray:3 3"/>
+  <line x1="175.4" y1="478.3" x2="201.2" y2="417.3" style="stroke:var(--fig-blue);stroke-width:3;stroke-linecap:round;stroke-dasharray:5 4"/>
+  <line x1="132.7" y1="482.0" x2="138.8" y2="422.7" style="stroke:var(--fig-blue);stroke-width:3;stroke-linecap:round;stroke-dasharray:5 4"/>
+  <circle cx="198.2" cy="438.4" r="7" style="fill:var(--fig-paper)"/>
+  <text x="198.2" y="443.4" style="font-size:14px;fill:var(--fig-red);text-anchor:middle">O</text>
+  <circle cx="131.9" cy="439.8" r="7" style="fill:var(--fig-paper)"/>
+  <text x="131.9" y="444.8" style="font-size:14px;fill:var(--fig-red);text-anchor:middle">O</text>
+  <circle cx="187.2" cy="507.2" r="6.5" style="fill:var(--fig-paper)"/>
+  <text x="187.2" y="512.2" style="font-size:14px;fill:var(--fig-ink);text-anchor:middle">H</text>
+  <circle cx="72.7" cy="449.3" r="7" style="fill:var(--fig-paper)"/>
+  <text x="72.7" y="454.3" style="font-size:14px;fill:var(--fig-red);text-anchor:middle">O</text>
+  <circle cx="121.5" cy="512.9" r="6.5" style="fill:var(--fig-paper)"/>
+  <text x="121.5" y="517.9" style="font-size:14px;fill:var(--fig-ink);text-anchor:middle">H</text>
+  <text x="170.0" y="540.0" class="ochem-8-endo-exo-s" text-anchor="middle">2차 오비탈 상호작용 없음</text>
+  <line x1="282.0" y1="430.0" x2="322.0" y2="430.0" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <path d="M 330.0 430.0 L 320.0 434.5 L 322.5 430.0 L 320.0 425.5 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
+  <line x1="464.7" y1="411.0" x2="446.5" y2="419.0" style="stroke:var(--fig-ink);stroke-width:1.8;stroke-linecap:butt"/>
+  <line x1="462.7" y1="406.2" x2="444.4" y2="414.2" style="stroke:var(--fig-ink);stroke-width:1.8;stroke-linecap:butt"/>
+  <line x1="440.3" y1="417.0" x2="411.2" y2="409.0" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <circle cx="443.0" cy="417.7" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="398.0" y1="411.3" x2="383.0" y2="421.6" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <line x1="447.2" y1="442.9" x2="443.4" y2="420.4" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <circle cx="380.8" cy="423.1" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="377.6" y1="425.2" x2="351.7" y2="420.5" style="stroke:var(--fig-ink);stroke-width:1.8;stroke-linecap:butt"/>
+  <line x1="378.6" y1="420.1" x2="352.6" y2="415.4" style="stroke:var(--fig-ink);stroke-width:1.8;stroke-linecap:butt"/>
+  <line x1="448.6" y1="448.2" x2="456.8" y2="468.2" style="stroke:var(--fig-ink);stroke-width:1.5;stroke-linecap:butt"/>
+  <circle cx="447.6" cy="445.6" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="382.6" y1="425.1" x2="403.1" y2="447.3" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <line x1="407.6" y1="449.1" x2="444.9" y2="445.9" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <line x1="404.0" y1="451.9" x2="396.0" y2="473.8" style="stroke:var(--fig-ink);stroke-width:1.5;stroke-linecap:butt"/>
+  <circle cx="404.9" cy="449.3" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="449.8" y1="443.9" x2="469.0" y2="429.0" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <circle cx="471.2" cy="427.3" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="408.2" y1="435.4" x2="405.5" y2="446.7" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <line x1="442.0" y1="401.1" x2="469.1" y2="425.5" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <line x1="471.3" y1="430.0" x2="472.1" y2="456.0" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <circle cx="440.0" cy="399.2" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="410.7" y1="430.7" x2="438.1" y2="401.2" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <circle cx="408.8" cy="432.7" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <circle cx="472.2" cy="458.7" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <line x1="433.0" y1="460.0" x2="410.6" y2="434.8" style="stroke:var(--fig-ink);stroke-width:2.0;stroke-linecap:butt"/>
+  <line x1="469.7" y1="461.6" x2="437.8" y2="464.4" style="stroke:var(--fig-red);stroke-width:1.8;stroke-linecap:butt"/>
+  <line x1="469.3" y1="456.4" x2="437.3" y2="459.2" style="stroke:var(--fig-red);stroke-width:1.8;stroke-linecap:butt"/>
+  <circle cx="434.8" cy="462.0" r="2.6" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:1.2"/>
+  <circle cx="470.4" cy="405.7" r="7" style="fill:var(--fig-paper)"/>
+  <text x="470.4" y="410.7" style="font-size:14px;fill:var(--fig-red);text-anchor:middle">O</text>
+  <circle cx="404.1" cy="407.1" r="7" style="fill:var(--fig-paper)"/>
+  <text x="404.1" y="412.1" style="font-size:14px;fill:var(--fig-red);text-anchor:middle">O</text>
+  <circle cx="459.4" cy="474.5" r="6.5" style="fill:var(--fig-paper)"/>
+  <text x="459.4" y="479.5" style="font-size:14px;fill:var(--fig-ink);text-anchor:middle">H</text>
+  <circle cx="344.9" cy="416.6" r="7" style="fill:var(--fig-paper)"/>
+  <text x="344.9" y="421.6" style="font-size:14px;fill:var(--fig-red);text-anchor:middle">O</text>
+  <circle cx="393.7" cy="480.2" r="6.5" style="fill:var(--fig-paper)"/>
+  <text x="393.7" y="485.2" style="font-size:14px;fill:var(--fig-ink);text-anchor:middle">H</text>
+  <text x="428.0" y="389.2" class="ochem-8-endo-exo-s" text-anchor="end">CH₂ 다리</text>
+  <text x="568.0" y="400.0" class="ochem-8-endo-exo-b" text-anchor="start">엑소 · 더 안정</text>
+  <text x="568.0" y="420.0" class="ochem-8-endo-exo-b" text-anchor="start">열역학적</text>
+  <text x="568.0" y="446.0" class="ochem-8-endo-exo-s" text-anchor="start">무수물 고리: CH₂ 쪽(위)</text>
+  <text x="568.0" y="464.0" class="ochem-8-endo-exo-s" text-anchor="start">고리 접합 H: 아래</text>
+  <text x="706.0" y="552.0" class="ochem-8-endo-exo-s" text-anchor="end">C5=C6 이중 결합(생성물)은 빨강</text>
+</svg>
