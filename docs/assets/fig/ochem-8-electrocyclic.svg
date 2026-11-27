@@ -3,36 +3,36 @@
   <desc id="d-ochem-8-electrocyclic">위: (2E,4Z,6E)-옥타-2,4,6-트라이엔(6 π 전자)의 C2–C7 부분을 U 모양으로 놓고 HOMO ψ3의 p 오비탈(위쪽 엽 + + − − + +)을 그렸다. 양 끝 C2·C7의 위쪽 엽이 같은 색이므로, 왼쪽 끝은 시계 방향, 오른쪽 끝은 반시계 방향으로 도는 역방향 회전에서 같은 색 엽끼리 겹쳐 σ 결합이 생기고, 바깥쪽에 있던 두 메틸기가 같은 면으로 가 cis-5,6-다이메틸사이클로헥사-1,3-다이엔이 된다. 빛에서는 들뜬 상태의 HOMO ψ4의 양 끝이 반대 색이어서 동방향 회전 → trans. 아래: cis-3,4-다이메틸사이클로뷰트-1-엔(4 π 전자, 열)의 C3–C4 σ 결합이 끊어지며 두 끝이 같은 방향(둘 다 시계 방향)으로 도는 동방향 회전으로 (2E,4Z)-헥사-2,4-다이엔이 된다. trans 이성질체는 (2E,4E)를 준다. 파랑 = +, 호박색 = −.</desc>
   <style>.ochem-8-electrocyclic-t{font-size:14px;fill:var(--fig-ink)} .ochem-8-electrocyclic-b{font-size:14px;fill:var(--fig-ink);font-weight:600} .ochem-8-electrocyclic-h{font-size:15px;fill:var(--fig-ink);font-weight:700} .ochem-8-electrocyclic-s{font-size:13px;fill:var(--fig-muted)} .ochem-8-electrocyclic-n{font-size:13px;fill:var(--fig-muted)} .ochem-8-electrocyclic-r{font-size:13px;fill:var(--fig-red);font-weight:600} .ochem-8-electrocyclic-g{font-size:13px;fill:var(--fig-green);font-weight:600} .ochem-8-electrocyclic-v{font-size:13px;fill:var(--fig-violet)} .ochem-8-electrocyclic-pl{font-size:20px;fill:var(--fig-ink)} .ochem-8-electrocyclic-f{font-size:14px;fill:var(--fig-ink)}</style>
   <text x="14.0" y="26.0" class="ochem-8-electrocyclic-h" text-anchor="start">6 π 전자 · 열 → 역방향 회전</text>
-  <line x1="130.0" y1="164.6" x2="110.0" y2="130.0" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
-  <line x1="131.3" y1="156.9" x2="117.3" y2="132.7" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
-  <line x1="110.0" y1="130.0" x2="130.0" y2="95.4" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
-  <line x1="130.0" y1="95.4" x2="170.0" y2="95.4" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
-  <line x1="136.0" y1="100.4" x2="164.0" y2="100.4" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
-  <line x1="170.0" y1="95.4" x2="190.0" y2="130.0" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
-  <line x1="190.0" y1="130.0" x2="170.0" y2="164.6" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
-  <line x1="182.7" y1="132.7" x2="168.7" y2="156.9" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
-  <circle cx="130.0" cy="164.6" r="15.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.3;fill-opacity:0.85"/>
-  <circle cx="110.0" cy="130.0" r="10.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.3;fill-opacity:0.85"/>
-  <circle cx="130.0" cy="95.4" r="13.2" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.3;fill-opacity:0.85"/>
-  <circle cx="170.0" cy="95.4" r="13.2" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.3;fill-opacity:0.85"/>
-  <circle cx="190.0" cy="130.0" r="10.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.3;fill-opacity:0.85"/>
-  <circle cx="170.0" cy="164.6" r="15.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.3;fill-opacity:0.85"/>
-  <line x1="130.0" y1="164.6" x2="104.0" y2="179.6" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
-  <text x="100.0" y="195.6" class="ochem-8-electrocyclic-t" text-anchor="end">CH₃</text>
-  <line x1="170.0" y1="164.6" x2="196.0" y2="179.6" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
-  <text x="200.0" y="195.6" class="ochem-8-electrocyclic-t" text-anchor="start">CH₃</text>
-  <text x="146.0" y="168.6" class="ochem-8-electrocyclic-n" text-anchor="start">C2</text>
-  <text x="154.0" y="168.6" class="ochem-8-electrocyclic-n" text-anchor="end">C7</text>
-  <path d="M 87.1 151.3 L 89.2 149.8 L 91.5 148.5 L 93.9 147.6 L 96.4 147.0 L 98.9 146.7 L 101.5 146.7 L 104.1 147.1 L 106.6 147.7 L 108.9 148.7 L 111.2 150.0 L 113.2 151.6 L 115.0 153.4 L 116.6 155.5 L 117.9 157.7 L 118.9 160.1 L 119.6 162.6 L 119.9 165.1 L 120.0 167.7 L 119.7 170.3 L 119.0 172.8 L 118.1 175.2 L 116.8 177.4 L 115.3 179.5" style="fill:none;stroke:var(--fig-violet);stroke-width:2"/>
-  <path d="M 112.1 184.6 L 111.1 176.8 L 119.5 182.2 Z" style="fill:var(--fig-violet)"/>
-  <path d="M 212.9 151.3 L 210.8 149.8 L 208.5 148.5 L 206.1 147.6 L 203.6 147.0 L 201.1 146.7 L 198.5 146.7 L 195.9 147.1 L 193.4 147.7 L 191.1 148.7 L 188.8 150.0 L 186.8 151.6 L 185.0 153.4 L 183.4 155.5 L 182.1 157.7 L 181.1 160.1 L 180.4 162.6 L 180.1 165.1 L 180.0 167.7 L 180.3 170.3 L 181.0 172.8 L 181.9 175.2 L 183.2 177.4 L 184.7 179.5" style="fill:none;stroke:var(--fig-violet);stroke-width:2"/>
-  <path d="M 187.9 184.6 L 180.5 182.2 L 188.9 176.8 Z" style="fill:var(--fig-violet)"/>
-  <text x="100.0" y="138.6" class="ochem-8-electrocyclic-v" text-anchor="middle">시계</text>
-  <text x="200.0" y="138.6" class="ochem-8-electrocyclic-v" text-anchor="middle">반시계</text>
-  <line x1="142.0" y1="168.6" x2="158.0" y2="168.6" style="stroke:var(--fig-green);stroke-width:1.6;stroke-linecap:round;stroke-dasharray:4 3"/>
-  <text x="150.0" y="206.0" class="ochem-8-electrocyclic-s" text-anchor="middle">원: 위에서 본 위쪽 엽(크기 ∝ |계수|)</text>
-  <text x="150.0" y="228.0" class="ochem-8-electrocyclic-s" text-anchor="middle">HOMO ψ3 (+ + − − + +): 양 끝 같은 색</text>
-  <text x="150.0" y="250.0" class="ochem-8-electrocyclic-g" text-anchor="middle">→ 역방향 회전으로 같은 색끼리 겹침</text>
+  <line x1="125.0" y1="151.3" x2="100.0" y2="108.0" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <line x1="126.3" y1="143.6" x2="107.3" y2="110.7" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <line x1="100.0" y1="108.0" x2="125.0" y2="64.7" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <line x1="125.0" y1="64.7" x2="175.0" y2="64.7" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <line x1="131.0" y1="69.7" x2="169.0" y2="69.7" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <line x1="175.0" y1="64.7" x2="200.0" y2="108.0" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <line x1="200.0" y1="108.0" x2="175.0" y2="151.3" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <line x1="192.7" y1="110.7" x2="173.7" y2="143.6" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <circle cx="125.0" cy="151.3" r="15.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.3;fill-opacity:0.85"/>
+  <circle cx="100.0" cy="108.0" r="10.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.3;fill-opacity:0.85"/>
+  <circle cx="125.0" cy="64.7" r="13.2" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.3;fill-opacity:0.85"/>
+  <circle cx="175.0" cy="64.7" r="13.2" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.3;fill-opacity:0.85"/>
+  <circle cx="200.0" cy="108.0" r="10.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.3;fill-opacity:0.85"/>
+  <circle cx="175.0" cy="151.3" r="15.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.3;fill-opacity:0.85"/>
+  <line x1="125.0" y1="151.3" x2="117.0" y2="181.3" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <text x="117.0" y="197.3" class="ochem-8-electrocyclic-t" text-anchor="middle">CH₃</text>
+  <line x1="175.0" y1="151.3" x2="183.0" y2="181.3" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <text x="183.0" y="197.3" class="ochem-8-electrocyclic-t" text-anchor="middle">CH₃</text>
+  <text x="107.0" y="143.3" class="ochem-8-electrocyclic-n" text-anchor="end">C2</text>
+  <text x="193.0" y="143.3" class="ochem-8-electrocyclic-n" text-anchor="start">C7</text>
+  <path d="M 74.1 154.0 L 76.2 152.5 L 78.5 151.2 L 80.9 150.3 L 83.4 149.6 L 85.9 149.3 L 88.5 149.4 L 91.1 149.7 L 93.6 150.4 L 95.9 151.4 L 98.2 152.7 L 100.2 154.3 L 102.0 156.1 L 103.6 158.1 L 104.9 160.4 L 105.9 162.7 L 106.6 165.2 L 106.9 167.8 L 107.0 170.4 L 106.7 172.9 L 106.0 175.4 L 105.1 177.8 L 103.8 180.1 L 102.3 182.2" style="fill:none;stroke:var(--fig-violet);stroke-width:2"/>
+  <path d="M 99.1 187.2 L 98.1 179.5 L 106.5 184.9 Z" style="fill:var(--fig-violet)"/>
+  <path d="M 225.9 154.0 L 223.8 152.5 L 221.5 151.2 L 219.1 150.3 L 216.6 149.6 L 214.1 149.3 L 211.5 149.4 L 208.9 149.7 L 206.4 150.4 L 204.1 151.4 L 201.8 152.7 L 199.8 154.3 L 198.0 156.1 L 196.4 158.1 L 195.1 160.4 L 194.1 162.7 L 193.4 165.2 L 193.1 167.8 L 193.0 170.4 L 193.3 172.9 L 194.0 175.4 L 194.9 177.8 L 196.2 180.1 L 197.7 182.2" style="fill:none;stroke:var(--fig-violet);stroke-width:2"/>
+  <path d="M 200.9 187.2 L 193.5 184.9 L 201.9 179.5 Z" style="fill:var(--fig-violet)"/>
+  <text x="87.0" y="207.3" class="ochem-8-electrocyclic-v" text-anchor="middle">시계</text>
+  <text x="213.0" y="207.3" class="ochem-8-electrocyclic-v" text-anchor="middle">반시계</text>
+  <line x1="137.0" y1="155.3" x2="163.0" y2="155.3" style="stroke:var(--fig-green);stroke-width:1.6;stroke-linecap:round;stroke-dasharray:4 3"/>
+  <text x="150.0" y="232.0" class="ochem-8-electrocyclic-s" text-anchor="middle">원: 위에서 본 위쪽 엽(크기 ∝ |계수|)</text>
+  <text x="150.0" y="250.0" class="ochem-8-electrocyclic-s" text-anchor="middle">HOMO ψ3 (+ + − − + +): 양 끝 같은 색</text>
+  <text x="150.0" y="268.0" class="ochem-8-electrocyclic-g" text-anchor="middle">→ 역방향 회전으로 같은 색끼리 겹침</text>
   <line x1="268.0" y1="130.0" x2="308.0" y2="130.0" style="stroke:var(--fig-ink);stroke-width:1.8"/>
   <path d="M 316.0 130.0 L 306.0 134.5 L 308.5 130.0 L 306.0 125.5 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
   <text x="292.0" y="121.0" class="ochem-8-electrocyclic-s" text-anchor="middle">열</text>
@@ -101,8 +101,8 @@
 <path d="M 23.3,14.4 L 22.5,14.8 L 22.5,15.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
 </g></g>
   <text x="599.0" y="230.0" class="ochem-8-electrocyclic-b" text-anchor="middle">trans</text>
-  <line x1="14.0" y1="270.0" x2="706.0" y2="270.0" style="stroke:var(--fig-line);stroke-width:0.8;stroke-linecap:round"/>
-  <text x="14.0" y="296.0" class="ochem-8-electrocyclic-h" text-anchor="start">4 π 전자 · 열 · 고리 열림 → 동방향 회전</text>
+  <line x1="14.0" y1="282.0" x2="706.0" y2="282.0" style="stroke:var(--fig-line);stroke-width:0.8;stroke-linecap:round"/>
+  <text x="14.0" y="306.0" class="ochem-8-electrocyclic-h" text-anchor="start">4 π 전자 · 열 · 고리 열림 → 동방향 회전</text>
   <g transform="translate(88.5,353.5)"><g class="ochem-8-electrocyclic-mol-cb">
 <path class="ochem-8-electrocyclic-mol-cb-bond-0 ochem-8-electrocyclic-mol-cb-atom-1 ochem-8-electrocyclic-mol-cb-atom-0" d="M 41.2,37.5 L 10.5,11.4 L 15.0,6.8 Z" style="fill:var(--fig-ink);fill-opacity:1;stroke:var(--fig-ink);stroke-width:0.5px;stroke-linecap:butt;stroke-miterlimit:10;" />
 <path class="ochem-8-electrocyclic-mol-cb-bond-1 ochem-8-electrocyclic-mol-cb-atom-1 ochem-8-electrocyclic-mol-cb-atom-2" d="M 41.2,37.5 L 41.2,77.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
@@ -122,9 +122,9 @@
   <path d="M 158.4 360.7 L 150.7 360.2 L 157.6 353.0 Z" style="fill:var(--fig-violet)"/>
   <path d="M 145.6 356.6 L 146.9 355.0 L 148.6 353.6 L 150.7 352.3 L 153.1 351.1 L 155.8 350.1 L 158.7 349.3 L 161.8 348.7 L 165.0 348.2 L 168.3 348.0 L 171.7 348.0 L 175.0 348.2 L 178.2 348.7 L 181.3 349.3 L 184.2 350.1 L 186.9 351.1 L 189.3 352.3 L 191.4 353.6 L 193.1 355.0 L 194.4 356.6" style="fill:none;stroke:var(--fig-violet);stroke-width:2"/>
   <path d="M 198.7 360.7 L 191.0 360.2 L 197.9 353.0 Z" style="fill:var(--fig-violet)"/>
-  <text x="129.7" y="435.0" class="ochem-8-electrocyclic-n" text-anchor="middle">C3</text>
-  <text x="170.0" y="435.0" class="ochem-8-electrocyclic-n" text-anchor="middle">C4</text>
-  <text x="150.0" y="330.0" class="ochem-8-electrocyclic-s" text-anchor="middle">cis-3,4-다이메틸사이클로뷰트-1-엔</text>
+  <text x="115.7" y="409.0" class="ochem-8-electrocyclic-n" text-anchor="end">C3</text>
+  <text x="184.0" y="409.0" class="ochem-8-electrocyclic-n" text-anchor="start">C4</text>
+  <text x="150.0" y="336.0" class="ochem-8-electrocyclic-s" text-anchor="middle">cis-3,4-다이메틸사이클로뷰트-1-엔</text>
   <text x="160.0" y="480.0" class="ochem-8-electrocyclic-s" text-anchor="middle">파랑 엽: 끊어지는 σ 결합</text>
   <text x="160.0" y="498.0" class="ochem-8-electrocyclic-s" text-anchor="middle">두 끝이 같은 방향(시계)으로 회전 = 동방향</text>
   <line x1="258.0" y1="400.0" x2="298.0" y2="400.0" style="stroke:var(--fig-ink);stroke-width:1.8"/>

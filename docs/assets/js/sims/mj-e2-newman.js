@@ -58,7 +58,7 @@ Sims.register('mj-e2-newman', {
         if (anti) g3.line(pf[0], pb[0], T.figRed, { width: 1.5, dash: [5, 4] });
       },
     });
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.55 : 0.42; }, label: '뉴먼 투영식, 형태 에너지 곡선, 생길 알켄' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.7 : 0.42; }, label: '뉴먼 투영식, 형태 에너지 곡선, 생길 알켄' });
     var ctx = cv.ctx;
     function txt(t, x, y, al, col, bold, size) { ctx.fillStyle = col; ctx.textAlign = al || 'center'; ctx.font = (bold ? 'bold ' : '') + (size || 13) + 'px ' + api.tokens().fontBody; ctx.fillText(t, x, y); }
     function draw2d() {
@@ -115,7 +115,6 @@ Sims.register('mj-e2-newman', {
         ctx.strokeStyle = T.figInk; ctx.lineWidth = 2;
         ctx.beginPath(); ctx.moveTo(c1[0], c1[1] - 3); ctx.lineTo(c2[0], c2[1] - 3); ctx.moveTo(c1[0], c1[1] + 3); ctx.lineTo(c2[0], c2[1] + 3); ctx.stroke();
         function side(a) { return Math.cos(rad(a)) > 0 ? -1 : 1; }   // 화면 오른쪽(x > 0) → 위쪽에 그림
-        var hiF = s.front[s.hiF], loF = s.front[3 - s.hiF - 0 === 3 ? 2 : (s.hiF === 1 ? 2 : 1)];
         var fr = [s.front[1], s.front[2]], bk = [[s.back[1][0], backAng(1)], [s.back[2][0], backAng(2)]];
         fr.forEach(function (f) { var sd = side(f[1]); var q = [c1[0] - 26, c1[1] + sd * 30]; ctx.beginPath(); ctx.moveTo(c1[0], c1[1]); ctx.lineTo(q[0] + 6, q[1] - sd * 6); ctx.stroke(); txt(f[0], q[0] - 6, q[1] + 5, 'center', f === s.front[s.hiF] ? T.figRed : T.figInk, f === s.front[s.hiF], 13); });
         bk.forEach(function (b, i) { var sd = side(b[1]); var q = [c2[0] + 26, c2[1] + sd * 30]; ctx.beginPath(); ctx.moveTo(c2[0], c2[1]); ctx.lineTo(q[0] - 6, q[1] - sd * 6); ctx.stroke(); txt(b[0], q[0] + 8, q[1] + 5, 'center', i + 1 === s.hiB ? T.figRed : T.figInk, i + 1 === s.hiB, 13); });

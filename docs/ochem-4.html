@@ -10,7 +10,8 @@
 <link rel="stylesheet" href="assets/katex/katex.min.css">
 <link rel="stylesheet" href="assets/book.css">
 <script src="assets/js/book.js" defer></script>
-
+<script src="assets/js/sims/mj-energy-profile.js" defer></script>
+<script src="assets/js/sims/mj-e2-newman.js" defer></script>
 </head>
 <body class="" data-lesson="ochem-4" data-title="유기 반응의 개관과 알킬 할라이드의 치환·제거 반응" data-where="유기화학">
 <header class="topbar">
@@ -873,7 +874,7 @@
 </svg>
 </div><figcaption><b>그림 유기화학 4-4 해먼드 가설 — 이른 전이 상태와 늦은 전이 상태</b> 왼쪽: 크게 발열인 단계(반응물 0, 생성물 −80 kJ/mol). 꼭대기(+20)가 반응 좌표의 30 % 지점에 있어 반응물에 가깝고 반응물을 닮는다(이른 전이 상태). 오른쪽: 크게 흡열인 단계(생성물 +80). 꼭대기(+95)가 75 % 지점에 있어 생성물을 닮는다(늦은 전이 상태). 점선은 생성물을 +65로 안정하게 한 경우로, 꼭대기도 약 +82로 거의 같은 만큼 내려간다. 높이는 예시 값이다.</figcaption></figure>
 
-
+<figure class="sim" id="sim-mj-energy-profile" data-sim="mj-energy-profile"><noscript>이 애니메이션은 자바스크립트가 필요하다.</noscript></figure>
 
 <h4 id="예제-6-에너지-도표에서-속도와-해석-끌어내기">예제 6 — 에너지 도표에서 속도와 해석 끌어내기</h4>
 <p>2-클로로-2-메틸프로페인(<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mopen">(</span><span class="mord mathrm">C</span><span class="mord"><span class="mord mathrm">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathrm">CCl</span></span></span></span></span>)의 80 % 에탄올 수용액 가용매 분해는 25 ℃에서 1차 속도 상수가 약 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">9</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">6</span></span></span></span></span></span></span></span></span><span class="mspace"> </span><span class="mord"><span class="mord mathrm">s</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mathrm mtight">1</span></span></span></span></span></span></span></span></span></span></span></span>이다. (1) 속도 결정 단계의 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8491em;"></span><span class="mord">Δ</span><span class="mord"><span class="mord mathnormal">G</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8491em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">‡</span></span></span></span></span></span></span></span></span></span></span>와 반감기를 구하시오. (2) 이 단계 뒤 탄소 양이온이 용매에 붙잡히는 단계의 장벽이 약 5 kJ/mol이라면(어림값), 탄소 양이온의 수명은 대략 얼마인가? (3) 이 결과와 해먼드 가설로, 이온화 전이 상태가 무엇을 닮았는지 설명하시오.</p>
@@ -2645,7 +2646,7 @@
 </svg>
 </div><figcaption><b>그림 유기화학 4-13 2-브로모프로페인의 E2 메커니즘과 안티 준평면 배치</b> 왼쪽 위: C1(앞, β 탄소)–C2(뒤, α 탄소) 축으로 내려다본 엇갈린 형태. 앞 탄소의 H가 위, 뒤 탄소의 Br이 아래로 이면각 180°(안티 준평면)이다. 굽은 화살표 3개: 에톡사이드 O의 전자쌍 → 위쪽 H, C1–H 결합 → C1–C2 결합 자리(새 π 결합), C2–Br 결합 → Br. 오른쪽 위: 같은 배치를 옆에서 본 전이 상태. EtO···H···C1, C2···Br이 부분 결합(점선)이고 C1–C2 사이에 부분 π 결합(점선)이 생기며, EtO와 Br에 δ−가 있다. C–H 결합 쪽과 C–Br σ* 쪽의 두 p 성분이 같은 평면에 나란하다. 아래: 생성물 프로펜 + 에탄올 + Br⁻, 그리고 비교용 신 준평면(이면각 0°, 가려진 형태)은 에너지가 높아 드물다.</figcaption></figure>
 
-
+<figure class="sim" id="sim-mj-e2-newman" data-sim="mj-e2-newman"><noscript>이 애니메이션은 자바스크립트가 필요하다.</noscript></figure>
 
 <h4 id="위치-선택성-자이체프-생성물과-호프만-생성물">위치 선택성 — 자이체프 생성물과 호프만 생성물</h4>
 <p>β 탄소가 둘 이상이면 서로 다른 알켄이 생길 수 있다. 작고 강한 염기(에톡사이드, 메톡사이드, 수산화 이온)를 쓰면 <strong>더 많이 치환된(더 안정한) 알켄</strong>이 주생성물이다. 이것을 <strong>자이체프 규칙</strong>(Zaitsev rule)이라 한다. E2 전이 상태에는 C=C가 이미 부분적으로 생겨 있어, 알켄을 안정하게 하는 요인(이중 결합 탄소의 알킬기에 의한 초공액, 「알켄과 알카인」)이 전이 상태도 낮추기 때문이다. 같은 치환도이면 입체 무리가 작은 (E)-알켄이 (Z)-알켄보다 많이 생긴다.</p>
