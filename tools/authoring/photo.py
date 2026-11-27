@@ -20,7 +20,8 @@ spec.json (좌표는 모두 작업본 기준, 왼쪽 위가 0,0):
   "alt": "…",                                     # 화면을 못 보는 독자를 위한 묘사
   "author": "Blausen.com staff (2014)",           # 저작자 표시(짧게. 라이선스가 요구하는 이름)
   "changes": "영어 이름표를 지우고 한글 이름표를 붙임, 일부를 잘라 냄",   # 고친 것이 없으면 ""
-  "covers": [[x, y, w, h], …],                    # 지울 영역(영어 글자). 둘레 색으로 칠한다. 색을 정하려면 [x, y, w, h, "#rrggbb"] (사각형마다) 또는 "fill": "#ffffff" (전체)
+  "covers": [[x, y, w, h], …],                    # 지울 영역(영어 글자). 둘레 색으로 칠한다. 색을 정하려면 [x, y, w, h, "#rrggbb"] (사각형마다) 또는 "fill": "#ffffff" (전체).
+                                                  # 사진·무늬·색 바림 위의 글자는 [x, y, w, h, "heal"] — 둘레의 색으로 부드럽게 메운다
   "more_meta": ["<폴더>/raw-b.json"],              # (선택) 그림 여러 장을 이어 붙였을 때 나머지 원본의 출처 기록 — 출처 줄에 함께 나온다
   "labels": [{"x": 206, "y": 160, "text": "자유 신경 말단", "anchor": "end"}, {"x": 206, "y": 183, "text": "통증·온도", "sub": true, "anchor": "end"}]
 }
@@ -73,7 +74,27 @@ def make(a):
         alpha = im.mode in ('RGBA', 'LA', 'P')
         im = im.convert('RGBA' if alpha else 'RGB')
         d = ImageDraw.Draw(im)
+        heal = [c[:4] for c in sp.get('covers', []) if len(c) > 4 and c[4] == 'heal']
+        if heal:          # 사진·무늬 위의 글자: 사각형 안을 둘레의 색·밝기로 부드럽게 메운다(단색 칠보다 자국이 덜 남는다)
+            import numpy as np
+            from scipy import ndimage as nd
+            arr = np.asarray(im.convert('RGB')).astype(float)
+            mask = np.zeros(arr.shape[:2], bool)
+            for x, y, w, h in heal: mask[max(0, y):y + h, max(0, x):x + w] = True
+            for sg in (2, 4, 8, 16, 32, 64):
+                known = (~mask).astype(float)
+                k = nd.gaussian_filter(known, sg)
+                ok = mask & (k > 0.05)
+                for ch in range(3):
+                    v = nd.gaussian_filter(arr[:, :, ch] * known, sg)
+                    arr[:, :, ch] = np.where(ok, v / np.maximum(k, 1e-6), arr[:, :, ch])
+                mask &= ~ok
+                if not mask.any(): break
+            rgb = Image.fromarray(arr.clip(0, 255).astype('uint8'))
+            if alpha: rgb.putalpha(im.getchannel('A'))
+            im = rgb; d = ImageDraw.Draw(im)
         for c in sp.get('covers', []):
+            if len(c) > 4 and c[4] == 'heal': continue
             x, y, w, h = c[:4]
             fill = (c[4] if len(c) > 4 else None) or sp.get('fill')      # 사각형마다 색: [x, y, w, h, "#rrggbb"]
             if not fill:     # 둘레 네 모서리 바깥의 색을 평균해 칠한다
