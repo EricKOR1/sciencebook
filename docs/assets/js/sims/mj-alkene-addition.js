@@ -101,7 +101,7 @@ Sims.register('mj-alkene-addition', {
     var CA = [-0.67, 0, 0], CB = [0.67, 0, 0];
     function add(p, d, s) { return [p[0] + d[0] * s, p[1] + d[1] * s, p[2] + d[2] * s]; }
     var S = api.scene3d({
-      yaw: 0.55, pitch: 0.38, dist: 10, scale: 0.15, label: '알켄의 두 탄소와 위·아래 면, 시약이 들어오는 방향과 생성물의 3차원 배치',
+      yaw: 0.55, pitch: 0.38, dist: 10, scale: 0.2, label: '알켄의 두 탄소와 위·아래 면, 시약이 들어오는 방향과 생성물의 3차원 배치',
       aspect: function (w) { return w < 560 ? 0.95 : 0.55; },
       draw: function (g, T) {
         var A = ALK[st.a], R = RG[st.r], f = face(), prod = st.prod;

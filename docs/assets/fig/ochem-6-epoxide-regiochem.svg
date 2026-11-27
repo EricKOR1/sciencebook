@@ -37,10 +37,10 @@
   <path d="M 163.4 114.9 L 173.1 116.4 L 169.2 118.7 L 168.7 123.1 Z" style="fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:0.8;stroke-linejoin:round"/>
   <path d="M 151.1 97.7 Q 150.8 98.7 151.8 98.7" style="fill:none;stroke:var(--fig-violet);stroke-width:1.7;stroke-linecap:round"/>
   <path d="M 151.8 98.7 L 151.8 98.7 L 151.8 98.7 L 151.8 98.7 Z" style="fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:0.8;stroke-linejoin:round"/>
-  <text x="168.6" y="84.0" class="ochem-6-epoxide-regiochem-b" text-anchor="middle" style="fill:var(--fig-blue)">덜 치환 · 덜 가려짐</text>
-  <line x1="102.0" y1="130.0" x2="114.0" y2="142.0" style="stroke:var(--fig-muted);stroke-width:2;stroke-linecap:round"/>
-  <line x1="102.0" y1="142.0" x2="114.0" y2="130.0" style="stroke:var(--fig-muted);stroke-width:2;stroke-linecap:round"/>
-  <text x="100.0" y="160.0" class="ochem-6-epoxide-regiochem-s" text-anchor="middle">3° 쪽은 CH₃가 막음</text>
+  <text x="172.6" y="104.0" class="ochem-6-epoxide-regiochem-b" text-anchor="start" style="fill:var(--fig-blue)">덜 치환 · 덜 가려짐</text>
+  <line x1="94.0" y1="128.0" x2="106.0" y2="140.0" style="stroke:var(--fig-muted);stroke-width:2;stroke-linecap:round"/>
+  <line x1="94.0" y1="140.0" x2="106.0" y2="128.0" style="stroke:var(--fig-muted);stroke-width:2;stroke-linecap:round"/>
+  <text x="108.0" y="160.0" class="ochem-6-epoxide-regiochem-s" text-anchor="middle">3° 쪽은 CH₃가 막음</text>
   <line x1="180.0" y1="190.0" x2="180.0" y2="222.0" style="stroke:var(--fig-ink);stroke-width:1.8"/>
   <path d="M 180.0 230.0 L 175.5 220.0 L 180.0 222.5 L 184.5 220.0 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
   <g transform="translate(93.5,248.0)"><g class="ochem-6-epoxide-regiochem-mol-al">
@@ -116,7 +116,7 @@
 <text x="42.7" y="30.3" class="ochem-6-epoxide-regiochem-mol-pe-atom-4" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >O</text>
 <text x="42.7" y="17.9" class="ochem-6-epoxide-regiochem-mol-pe-atom-4" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >H</text>
 </g></g>
-  <circle cx="663.2" cy="96.9" r="6.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.2"/><line x1="659.9" y1="96.9" x2="666.5" y2="96.9" style="stroke:var(--fig-ink);stroke-width:1.4"/><line x1="663.2" y1="93.6" x2="663.2" y2="100.2" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <circle cx="671.2" cy="77.2" r="6.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.2"/><line x1="667.9" y1="77.2" x2="674.5" y2="77.2" style="stroke:var(--fig-ink);stroke-width:1.4"/><line x1="671.2" y1="73.9" x2="671.2" y2="80.5" style="stroke:var(--fig-ink);stroke-width:1.4"/>
   <line x1="540.0" y1="160.0" x2="540.0" y2="188.0" style="stroke:var(--fig-ink);stroke-width:1.8"/>
   <path d="M 540.0 196.0 L 535.5 186.0 L 540.0 188.5 L 544.5 186.0 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
   <text x="550.0" y="182.0" class="ochem-6-epoxide-regiochem-s" text-anchor="start">②</text>
@@ -131,12 +131,12 @@
   <line x1="520.0" y1="270.0" x2="495.6" y2="278.9" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
   <line x1="520.0" y1="270.0" x2="513.3" y2="295.1" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
   <text x="510.0" y="258.3" style="font-size:16px;fill:var(--fig-blue);text-anchor:middle">δ+</text>
-  <text x="494.0" y="240.0" class="ochem-6-epoxide-regiochem-s" text-anchor="end">큰</text>
+  <text x="490.0" y="256.0" class="ochem-6-epoxide-regiochem-s" text-anchor="end">δ+ 큼</text>
   <line x1="458.9" y1="298.9" x2="514.6" y2="272.6" style="stroke:var(--fig-ink);stroke-width:1.6;stroke-linecap:round;stroke-dasharray:4 3"/>
   <text x="448.0" y="309.0" style="font-size:14px;fill:var(--fig-red);text-anchor:middle">O</text>
   <text x="436.0" y="309.0" class="ochem-6-epoxide-regiochem-t" text-anchor="end">H₃C</text>
   <text x="448.0" y="328.0" class="ochem-6-epoxide-regiochem-t" text-anchor="middle">H</text>
-  <text x="600.0" y="310.0" class="ochem-6-epoxide-regiochem-s" text-anchor="middle">CH₂–O 거의 그대로</text>
+  <text x="595.0" y="310.0" class="ochem-6-epoxide-regiochem-s" text-anchor="middle">CH₂–O 거의 그대로</text>
   <text x="526.0" y="214.0" class="ochem-6-epoxide-regiochem-s" text-anchor="end">3° C–O 늘어남</text>
   <line x1="540.0" y1="345.0" x2="540.0" y2="372.0" style="stroke:var(--fig-ink);stroke-width:1.8"/>
   <path d="M 540.0 380.0 L 535.5 370.0 L 540.0 372.5 L 544.5 370.0 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
