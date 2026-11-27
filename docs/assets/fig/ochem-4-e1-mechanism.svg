@@ -57,9 +57,9 @@
 <path d="M 29.0,4.5 L 30.2,3.8 L 31.0,4.3" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
 </g></g><line x1="511.3" y1="101.2" x2="500.1" y2="94.7" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/><line x1="511.3" y1="101.2" x2="522.5" y2="94.7" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/><line x1="511.3" y1="101.2" x2="511.3" y2="114.2" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
   <circle cx="523.3" cy="89.2" r="6.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.2"/><line x1="520.0" y1="89.2" x2="526.6" y2="89.2" style="stroke:var(--fig-ink);stroke-width:1.4"/><line x1="523.3" y1="85.9" x2="523.3" y2="92.5" style="stroke:var(--fig-ink);stroke-width:1.4"/>
-  <line x1="540.0" y1="108.0" x2="572.0" y2="108.0" style="stroke:var(--fig-ink);stroke-width:1.8"/>
-  <path d="M 580.0 108.0 L 570.0 112.5 L 572.5 108.0 L 570.0 103.5 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
-  <text x="560.0" y="99.0" class="ochem-4-e1-mechanism-s" text-anchor="middle">EtOH, −H⁺</text>
+  <line x1="545.0" y1="108.0" x2="577.0" y2="108.0" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <path d="M 585.0 108.0 L 575.0 112.5 L 577.5 108.0 L 575.0 103.5 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
+  <text x="565.0" y="129.0" class="ochem-4-e1-mechanism-s" text-anchor="middle">EtOH, −H⁺</text>
   <g transform="translate(585.5,77.0)"><g class="ochem-4-e1-mechanism-mol-c3">
 <path class="ochem-4-e1-mechanism-mol-c3-bond-0 ochem-4-e1-mechanism-mol-c3-atom-0 ochem-4-e1-mechanism-mol-c3-atom-1" d="M 108.5,5.0 L 99.5,28.3" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
 <path class="ochem-4-e1-mechanism-mol-c3-bond-1 ochem-4-e1-mechanism-mol-c3-atom-1 ochem-4-e1-mechanism-mol-c3-atom-2" d="M 99.5,28.3 L 74.7,32.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
@@ -124,11 +124,11 @@
 <text x="71.6" y="21.7" class="ochem-4-e1-mechanism-mol-b부-atom-5" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-ink)" >H</text>
 </g></g><line x1="130.3" y1="413.5" x2="123.8" y2="424.8" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/><line x1="130.3" y1="413.5" x2="123.8" y2="402.3" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/><line x1="130.3" y1="413.5" x2="143.3" y2="413.5" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
   <circle cx="130.3" cy="427.5" r="6.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.2"/><line x1="127.0" y1="427.5" x2="133.6" y2="427.5" style="stroke:var(--fig-ink);stroke-width:1.4"/><line x1="130.3" y1="424.2" x2="130.3" y2="430.8" style="stroke:var(--fig-ink);stroke-width:1.4"/>
-  <text x="151.1" y="521.5" class="ochem-4-e1-mechanism-t" text-anchor="middle" style="fill:var(--fig-red)">EtOH</text>
-  <circle cx="148.3" cy="504.6" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="143.4" cy="506.9" r="1.7" style="fill:var(--fig-ink)"/>
-  <path d="M 143.2 504.3 Q 135.9 499.8 134.6 492.4" style="fill:none;stroke:var(--fig-violet);stroke-width:1.7;stroke-linecap:round"/>
-  <path d="M 134.8 484.2 L 138.6 493.3 L 134.6 491.2 L 130.6 493.1 Z" style="fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:0.8;stroke-linejoin:round"/>
+  <text x="51.1" y="476.1" class="ochem-4-e1-mechanism-t" text-anchor="middle" style="fill:var(--fig-red)">EtOH</text>
+  <circle cx="72.9" cy="474.9" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="73.2" cy="469.5" r="1.7" style="fill:var(--fig-ink)"/>
+  <path d="M 75.6 470.5 Q 95.7 457.4 114.6 469.1" style="fill:none;stroke:var(--fig-violet);stroke-width:1.7;stroke-linecap:round"/>
+  <path d="M 121.3 473.9 L 111.7 471.8 L 115.6 469.8 L 116.4 465.4 Z" style="fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:0.8;stroke-linejoin:round"/>
   <path d="M 121.3 458.5 Q 107.8 447.0 115.4 435.3" style="fill:none;stroke:var(--fig-violet);stroke-width:1.7;stroke-linecap:round"/>
   <path d="M 120.9 429.1 L 117.9 438.5 L 116.2 434.4 L 111.9 433.2 Z" style="fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:0.8;stroke-linejoin:round"/>
   <text x="20.0" y="435.0" class="ochem-4-e1-mechanism-b" text-anchor="start">(나)</text>

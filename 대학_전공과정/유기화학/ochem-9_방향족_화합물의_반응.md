@@ -501,7 +501,7 @@ $$
 \mathrm{C_6H_6 \xrightarrow{CH_3CH_2COCl,\ AlCl_3} C_6H_5COCH_2CH_3 \xrightarrow{Zn(Hg),\ HCl} C_6H_5CH_2CH_2CH_3}
 $$
 
-<!-- 그림 요청: 프리델–크래프츠 아실화 메커니즘(벤젠 + 아세틸 염화물). (1줄) 아세틸 염화물(SMILES CC(=O)Cl)의 Cl 전자쌍 → Al 화살표, C–Cl 결합 → Cl 화살표 → 아실륨 이온의 두 공명 구조 CH3–C⁺=O ↔ CH3–C≡O⁺(둘째 구조 아래 '모든 원자 옥텟 · 자리 옮김 없음') + AlCl4⁻. (2줄, 1단계) 벤젠 C1=C2 π 결합 → 아실륨 탄소, C≡O의 π 결합 하나 → O 화살표 → 아레늄 이온(C1에 H와 COCH3, ⊕는 C2·C4·C6 공명 구조 세 개를 작게). (3줄, 2단계) ⊕가 C2인 공명 구조에서 AlCl4⁻의 Cl 전자쌍 → H, C1–H → C1–C2 사이 → 아세토페논(SMILES CC(=O)c1ccccc1) + HCl + AlCl3. (4줄) 아세토페논의 C=O 산소 전자쌍 → AlCl3 화살표 → 케톤–AlCl3 착물(O에 ⊕, Al에 ⊖), 옆에 'H2O 처리로 착물 분해 → 아세토페논'과 'AlCl3 1당량 이상 필요' 상자. -->
+<!-- fig:ochem-9-fc-acylation -->
 
 #### 예제 8 — 뷰틸벤젠을 만드는 길
 

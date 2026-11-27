@@ -5,7 +5,7 @@ Sims.register('mj-imine-ph-rate', {
   init: function (api) {
     var st = { pH: 4.5, pKa: 9.0, lba: 0 };
     var PRE = [{ n: '예제 10 (9.0)', v: 9.0 }, { n: '하이드록실아민 (6.0)', v: 6.0 }, { n: '메틸아민 (10.6)', v: 10.6 }];
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.45 : 0.6; }, label: '이민 생성 속도의 pH 의존 그래프와 반응 용기 모식도' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.95 : 0.6; }, label: '이민 생성 속도의 pH 의존 그래프와 반응 용기 모식도' });
     var ctx = cv.ctx;
     var rA = api.readout('이 pH에서  '), rC = api.readout('속도  '), rB = api.readout('꼭대기  ');
     var sp = api.slider({ id: 'mj-imine-ph-rate-ph', label: 'pH', min: 0, max: 12, step: 0.05, value: st.pH,
@@ -30,7 +30,7 @@ Sims.register('mj-imine-ph-rate', {
       ctx.clearRect(0, 0, w, h);
       var narrow = w < 560;
       var L = narrow ? 46 : 58, R = narrow ? w - 14 : w * 0.68, top1 = 26, gap = narrow ? 50 : 48;
-      var plotH = narrow ? h * 0.30 : (h - top1 - gap - 40) / 2;
+      var plotH = narrow ? h * 0.22 : (h - top1 - gap - 40) / 2;
       var b1 = top1 + plotH, top2 = b1 + gap, b2 = top2 + plotH;
       var X = function (p) { return L + p / 12 * (R - L); };
       var Y1 = function (q) { return top1 + (0 - q) / 12 * plotH; };          // log 값 0 ~ −12
