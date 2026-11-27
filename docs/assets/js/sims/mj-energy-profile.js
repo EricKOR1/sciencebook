@@ -54,7 +54,7 @@ Sims.register('mj-energy-profile', {
     function fmt(v) {
       if (!isFinite(v)) return '∞';
       var a = Math.abs(v); if (a === 0) return '0';
-      if (a >= 1e4 || a < 0.01) { var e = Math.floor(Math.log10(a)), m = v / Math.pow(10, e); return m.toFixed(2) + '×10' + sup(e); }
+      if (a >= 1000 || a < 0.01) { var e = Math.floor(Math.log10(a)), m = v / Math.pow(10, e); return m.toFixed(2) + '×10' + sup(e); }
       return v.toPrecision(3);
     }
     function sup(e) { var m = { '-': '⁻', '0': '⁰', '1': '¹', '2': '²', '3': '³', '4': '⁴', '5': '⁵', '6': '⁶', '7': '⁷', '8': '⁸', '9': '⁹' }; return String(e).split('').map(function (c) { return m[c]; }).join(''); }
@@ -129,7 +129,7 @@ Sims.register('mj-energy-profile', {
       rH.set(pp.two ? '1단계 ' + tfmt(Math.LN2 / k1) + ', 2단계 ' + tfmt(Math.LN2 / k2) : tfmt(Math.LN2 / k1));
       rR.set(pp.two ? (rds === 1 ? '1단계(TS1이 가장 높음)' : '2단계(TS2가 가장 높음)') : '한 단계');
       rKe.set(fmt(Ke));
-      if (st.ham) sT1.input.value = st.E0 + st.alpha * st.I;
+      if (st.ham) { sT1.input.value = st.E0 + st.alpha * st.I; var o = sT1.input.parentNode.querySelector('output'); if (o) o.textContent = kj(Math.round(st.E0 + st.alpha * st.I)); }
     }
     sync();
     api.onResize(draw); api.onTheme(draw);

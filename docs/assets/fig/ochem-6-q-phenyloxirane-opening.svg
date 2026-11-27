@@ -39,7 +39,7 @@
   <path d="M 210.0 148.0 L 217.5 140.0 L 216.9 145.1 L 221.0 148.3 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
   <line x1="420.0" y1="110.0" x2="502.6" y2="144.9" style="stroke:var(--fig-ink);stroke-width:1.8"/>
   <path d="M 510.0 148.0 L 499.0 148.3 L 503.1 145.1 L 502.5 140.0 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
-  <circle cx="178.3" cy="229.8" r="11.0" style="fill:var(--fig-soft-green)"/><g transform="translate(80.5,200.0)"><g class="ochem-6-q-phenyloxirane-opening-mol-e1">
+  <circle cx="158.3" cy="214.8" r="11.0" style="fill:var(--fig-soft-green)"/><g transform="translate(60.5,185.0)"><g class="ochem-6-q-phenyloxirane-opening-mol-e1">
 <path class="ochem-6-q-phenyloxirane-opening-mol-e1-bond-0 ochem-6-q-phenyloxirane-opening-mol-e1-atom-0 ochem-6-q-phenyloxirane-opening-mol-e1-atom-1" d="M 97.8,29.8 L 67.6,32.2 L 69.0,29.8 L 67.6,27.4 Z" style="fill:var(--fig-ink);fill-opacity:1;stroke:var(--fig-ink);stroke-width:0.5px;stroke-linecap:butt;stroke-miterlimit:10;" />
 <path class="ochem-6-q-phenyloxirane-opening-mol-e1-bond-1 ochem-6-q-phenyloxirane-opening-mol-e1-atom-1 ochem-6-q-phenyloxirane-opening-mol-e1-atom-2" d="M 69.0,29.8 L 54.5,4.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
 <path class="ochem-6-q-phenyloxirane-opening-mol-e1-bond-1 ochem-6-q-phenyloxirane-opening-mol-e1-atom-1 ochem-6-q-phenyloxirane-opening-mol-e1-atom-2" d="M 63.6,29.8 L 51.9,9.4" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
@@ -65,23 +65,24 @@
 <path d="M 121.6,43.5 L 122.8,44.2 L 122.8,43.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
 <text x="118.6" y="22.4" class="ochem-6-q-phenyloxirane-opening-mol-e1-atom-8" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >O</text>
 </g></g>
-  <circle cx="213.2" cy="208.4" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="208.6" cy="205.4" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="215.2" cy="223.8" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="216.8" cy="218.7" r="1.7" style="fill:var(--fig-ink)"/>
-  <text x="201.8" y="299.2" style="font-size:14px;fill:var(--fig-red);text-anchor:middle">O</text>
-  <text x="211.8" y="299.2" class="ochem-6-q-phenyloxirane-opening-t" text-anchor="start">CH₃</text>
-  <circle cx="194.3" cy="281.2" r="6.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.2"/><line x1="191.0" y1="281.2" x2="197.6" y2="281.2" style="stroke:var(--fig-ink);stroke-width:1.4"/>
-  <circle cx="189.6" cy="295.7" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="191.5" cy="300.8" r="1.7" style="fill:var(--fig-ink)"/>
-  <path d="M 191.3 297.6 Q 216.0 282.5 207.9 258.5" style="fill:none;stroke:var(--fig-violet);stroke-width:1.7;stroke-linecap:round"/>
-  <path d="M 204.7 250.9 L 211.9 257.6 L 207.4 257.3 L 204.5 260.7 Z" style="fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:0.8;stroke-linejoin:round"/>
-  <path d="M 201.8 230.1 Q 188.1 224.8 192.1 215.3" style="fill:none;stroke:var(--fig-violet);stroke-width:1.7;stroke-linecap:round"/>
-  <path d="M 196.7 208.5 L 195.0 218.2 L 192.8 214.3 L 188.3 213.6 Z" style="fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:0.8;stroke-linejoin:round"/>
-  <text x="180.0" y="300.0" class="ochem-6-q-phenyloxirane-opening-s" text-anchor="middle">CH₂(덜 가려짐)를 뒤쪽에서 공격</text>
-  <line x1="180.0" y1="316.0" x2="180.0" y2="348.0" style="stroke:var(--fig-ink);stroke-width:1.8"/>
-  <path d="M 180.0 356.0 L 175.5 346.0 L 180.0 348.5 L 184.5 346.0 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
-  <text x="190.0" y="342.0" class="ochem-6-q-phenyloxirane-opening-s" text-anchor="start">알콕사이드 → CH₃OH에서 H⁺</text>
+  <circle cx="193.2" cy="193.4" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="188.6" cy="190.4" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="195.2" cy="208.8" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="196.8" cy="203.7" r="1.7" style="fill:var(--fig-ink)"/>
+  <text x="181.8" y="284.2" style="font-size:14px;fill:var(--fig-red);text-anchor:middle">O</text>
+  <text x="191.8" y="284.2" class="ochem-6-q-phenyloxirane-opening-t" text-anchor="start">CH₃</text>
+  <circle cx="174.3" cy="266.2" r="6.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.2"/><line x1="171.0" y1="266.2" x2="177.6" y2="266.2" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <circle cx="169.6" cy="280.7" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="171.5" cy="285.8" r="1.7" style="fill:var(--fig-ink)"/>
+  <path d="M 171.3 282.6 Q 196.0 267.5 187.9 243.5" style="fill:none;stroke:var(--fig-violet);stroke-width:1.7;stroke-linecap:round"/>
+  <path d="M 184.7 235.9 L 191.9 242.6 L 187.4 242.3 L 184.5 245.7 Z" style="fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:0.8;stroke-linejoin:round"/>
+  <path d="M 181.8 215.1 Q 168.1 209.8 172.1 200.3" style="fill:none;stroke:var(--fig-violet);stroke-width:1.7;stroke-linecap:round"/>
+  <path d="M 176.7 193.5 L 175.0 203.2 L 172.8 199.3 L 168.3 198.6 Z" style="fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:0.8;stroke-linejoin:round"/>
+  <text x="250.0" y="290.0" class="ochem-6-q-phenyloxirane-opening-s" text-anchor="start">CH₂(덜 가려짐)를</text>
+  <text x="250.0" y="306.0" class="ochem-6-q-phenyloxirane-opening-s" text-anchor="start">뒤쪽에서 공격</text>
+  <line x1="180.0" y1="326.0" x2="180.0" y2="354.0" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <path d="M 180.0 362.0 L 175.5 352.0 L 180.0 354.5 L 184.5 352.0 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
+  <text x="190.0" y="350.0" class="ochem-6-q-phenyloxirane-opening-s" text-anchor="start">알콕사이드 → CH₃OH에서 H⁺</text>
   <circle cx="172.6" cy="434.0" r="11.0" style="fill:var(--fig-soft-green)"/><g transform="translate(88.5,382.5)"><g class="ochem-6-q-phenyloxirane-opening-mol-p1">
 <path class="ochem-6-q-phenyloxirane-opening-mol-p1-bond-0 ochem-6-q-phenyloxirane-opening-mol-p1-atom-0 ochem-6-q-phenyloxirane-opening-mol-p1-atom-1" d="M 14.7,19.3 L 21.8,26.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
 <path class="ochem-6-q-phenyloxirane-opening-mol-p1-bond-0 ochem-6-q-phenyloxirane-opening-mol-p1-atom-0 ochem-6-q-phenyloxirane-opening-mol-p1-atom-1" d="M 21.8,26.1 L 28.8,32.9" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />

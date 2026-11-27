@@ -17,18 +17,18 @@
   <circle cx="175.0" cy="64.7" r="13.2" style="fill:var(--fig-soft-amber);stroke:var(--fig-amber);stroke-width:1.3;fill-opacity:0.85"/>
   <circle cx="200.0" cy="108.0" r="10.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.3;fill-opacity:0.85"/>
   <circle cx="175.0" cy="151.3" r="15.0" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.3;fill-opacity:0.85"/>
-  <line x1="125.0" y1="151.3" x2="117.0" y2="181.3" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
-  <text x="117.0" y="197.3" class="ochem-8-electrocyclic-t" text-anchor="middle">CH₃</text>
-  <line x1="175.0" y1="151.3" x2="183.0" y2="181.3" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
-  <text x="183.0" y="197.3" class="ochem-8-electrocyclic-t" text-anchor="middle">CH₃</text>
-  <text x="107.0" y="143.3" class="ochem-8-electrocyclic-n" text-anchor="end">C2</text>
-  <text x="193.0" y="143.3" class="ochem-8-electrocyclic-n" text-anchor="start">C7</text>
-  <path d="M 74.1 154.0 L 76.2 152.5 L 78.5 151.2 L 80.9 150.3 L 83.4 149.6 L 85.9 149.3 L 88.5 149.4 L 91.1 149.7 L 93.6 150.4 L 95.9 151.4 L 98.2 152.7 L 100.2 154.3 L 102.0 156.1 L 103.6 158.1 L 104.9 160.4 L 105.9 162.7 L 106.6 165.2 L 106.9 167.8 L 107.0 170.4 L 106.7 172.9 L 106.0 175.4 L 105.1 177.8 L 103.8 180.1 L 102.3 182.2" style="fill:none;stroke:var(--fig-violet);stroke-width:2"/>
-  <path d="M 99.1 187.2 L 98.1 179.5 L 106.5 184.9 Z" style="fill:var(--fig-violet)"/>
-  <path d="M 225.9 154.0 L 223.8 152.5 L 221.5 151.2 L 219.1 150.3 L 216.6 149.6 L 214.1 149.3 L 211.5 149.4 L 208.9 149.7 L 206.4 150.4 L 204.1 151.4 L 201.8 152.7 L 199.8 154.3 L 198.0 156.1 L 196.4 158.1 L 195.1 160.4 L 194.1 162.7 L 193.4 165.2 L 193.1 167.8 L 193.0 170.4 L 193.3 172.9 L 194.0 175.4 L 194.9 177.8 L 196.2 180.1 L 197.7 182.2" style="fill:none;stroke:var(--fig-violet);stroke-width:2"/>
-  <path d="M 200.9 187.2 L 193.5 184.9 L 201.9 179.5 Z" style="fill:var(--fig-violet)"/>
-  <text x="87.0" y="207.3" class="ochem-8-electrocyclic-v" text-anchor="middle">시계</text>
-  <text x="213.0" y="207.3" class="ochem-8-electrocyclic-v" text-anchor="middle">반시계</text>
+  <line x1="125.0" y1="151.3" x2="103.0" y2="173.3" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <text x="101.0" y="189.3" class="ochem-8-electrocyclic-t" text-anchor="end">CH₃</text>
+  <line x1="175.0" y1="151.3" x2="197.0" y2="173.3" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <text x="199.0" y="189.3" class="ochem-8-electrocyclic-t" text-anchor="start">CH₃</text>
+  <text x="127.0" y="131.3" class="ochem-8-electrocyclic-n" text-anchor="middle">C2</text>
+  <text x="173.0" y="131.3" class="ochem-8-electrocyclic-n" text-anchor="middle">C7</text>
+  <path d="M 62.1 114.0 L 64.2 112.5 L 66.5 111.2 L 68.9 110.3 L 71.4 109.6 L 73.9 109.3 L 76.5 109.4 L 79.1 109.7 L 81.6 110.4 L 83.9 111.4 L 86.2 112.7 L 88.2 114.3 L 90.0 116.1 L 91.6 118.1 L 92.9 120.4 L 93.9 122.7 L 94.6 125.2 L 94.9 127.8 L 95.0 130.4 L 94.7 132.9 L 94.0 135.4 L 93.1 137.8 L 91.8 140.1 L 90.3 142.2" style="fill:none;stroke:var(--fig-violet);stroke-width:2"/>
+  <path d="M 87.1 147.2 L 86.1 139.5 L 94.5 144.9 Z" style="fill:var(--fig-violet)"/>
+  <path d="M 237.9 114.0 L 235.8 112.5 L 233.5 111.2 L 231.1 110.3 L 228.6 109.6 L 226.1 109.3 L 223.5 109.4 L 220.9 109.7 L 218.4 110.4 L 216.1 111.4 L 213.8 112.7 L 211.8 114.3 L 210.0 116.1 L 208.4 118.1 L 207.1 120.4 L 206.1 122.7 L 205.4 125.2 L 205.1 127.8 L 205.0 130.4 L 205.3 132.9 L 206.0 135.4 L 206.9 137.8 L 208.2 140.1 L 209.7 142.2" style="fill:none;stroke:var(--fig-violet);stroke-width:2"/>
+  <path d="M 212.9 147.2 L 205.5 144.9 L 213.9 139.5 Z" style="fill:var(--fig-violet)"/>
+  <text x="75.0" y="103.3" class="ochem-8-electrocyclic-v" text-anchor="middle">시계</text>
+  <text x="225.0" y="103.3" class="ochem-8-electrocyclic-v" text-anchor="middle">반시계</text>
   <line x1="137.0" y1="155.3" x2="163.0" y2="155.3" style="stroke:var(--fig-green);stroke-width:1.6;stroke-linecap:round;stroke-dasharray:4 3"/>
   <text x="150.0" y="232.0" class="ochem-8-electrocyclic-s" text-anchor="middle">원: 위에서 본 위쪽 엽(크기 ∝ |계수|)</text>
   <text x="150.0" y="250.0" class="ochem-8-electrocyclic-s" text-anchor="middle">HOMO ψ3 (+ + − − + +): 양 끝 같은 색</text>

@@ -58,7 +58,7 @@ Sims.register('mj-e2-newman', {
         if (anti) g3.line(pf[0], pb[0], T.figRed, { width: 1.5, dash: [5, 4] });
       },
     });
-    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.7 : 0.42; }, label: '뉴먼 투영식, 형태 에너지 곡선, 생길 알켄' });
+    var cv = api.canvas({ aspect: function (w) { return w < 560 ? 1.85 : 0.42; }, label: '뉴먼 투영식, 형태 에너지 곡선, 생길 알켄' });
     var ctx = cv.ctx;
     function txt(t, x, y, al, col, bold, size) { ctx.fillStyle = col; ctx.textAlign = al || 'center'; ctx.font = (bold ? 'bold ' : '') + (size || 13) + 'px ' + api.tokens().fontBody; ctx.fillText(t, x, y); }
     function draw2d() {
