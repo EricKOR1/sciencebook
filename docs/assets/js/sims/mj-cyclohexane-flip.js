@@ -32,7 +32,6 @@ Sims.register('mj-cyclohexane-flip', {
       for (i = 0; i < 6; i++) { var th = i * Math.PI / 3; P.push([rr * Math.cos(th), z[i], rr * Math.sin(th)]); }   // y 가 위
       return P;
     }
-    function sub3(a) { return a; }
     function norm(v) { var l = Math.hypot(v[0], v[1], v[2]); return [v[0] / l, v[1] / l, v[2] / l]; }
     function cross(a, b) { return [a[1] * b[2] - a[2] * b[1], a[2] * b[0] - a[0] * b[2], a[0] * b[1] - a[1] * b[0]]; }
     // 고리 원자 i 의 두 치환기 방향(사면체 보충)
@@ -44,7 +43,6 @@ Sims.register('mj-cyclohexane-flip', {
       return [[bis[0] * ca + n[0] * sa, bis[1] * ca + n[1] * sa, bis[2] * ca + n[2] * sa], [bis[0] * ca - n[0] * sa, bis[1] * ca - n[1] * sa, bis[2] * ca - n[2] * sa]];
     }
     // 같은 결합을 따라가도록: 시작 의자(t=0)에서 '위' 결합(y>0)을 0번으로 정하고, 연속으로 가장 가까운 방향을 고른다
-    var trackRef = null;
     function trackedDirs(P) {
       var out = [];
       for (var i = 0; i < 6; i++) {

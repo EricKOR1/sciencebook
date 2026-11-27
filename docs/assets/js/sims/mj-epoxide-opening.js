@@ -89,7 +89,7 @@ Sims.register('mj-epoxide-opening', {
       var T = api.tokens(), ctx = bar.ctx, w = bar.w, h = bar.h, c = cond(), fb = fracB();
       var sym = (st.e === 'cho' || st.e === 'cdmo' || st.e === 'tdmo');
       ctx.clearRect(0, 0, w, h);
-      ctx.font = '13px ' + T.font; ctx.textBaseline = 'middle';
+      ctx.font = '13px ' + T.fontBody; ctx.textBaseline = 'middle';
       var rows = [], narrow = w < 560;
       var la = c.acid && !sym ? 1 + 0.35 * (1 - fb) : 1, lb = c.acid && !sym ? 1 + 0.35 * fb : 1;
       var qa = c.acid ? (sym ? 0.5 : 1 - fb) : 0.15, qb = c.acid ? (sym ? 0.5 : fb) : 0.15;
