@@ -54,12 +54,12 @@ Sims.register('mj-cyclohexane-flip', {
     }
     // 치환기 X 는 C1 의 '아래' 결합(시작 의자에서 적도)에 둔다 → 뒤집은 뒤에는 축(아래)
     var S = api.scene3d({
-      yaw: 0.35, pitch: 0.42, dist: 10, scale: 0.15, viewButtons: true,
+      yaw: 0.35, pitch: 0.3, dist: 10, scale: 0.105, viewButtons: true,
       aspect: function (w) { return w < 560 ? 1.15 : 0.62; },
       label: '사이클로헥세인 의자 형태의 공-막대 모형과 적도·축 비율 막대',
       draw: function (g, T) {
         var P = ringAt(st.t), D = trackedDirs(P), s = SUB[st.sub];
-        var ox = -0.9;   // 모형을 왼쪽으로(막대 자리)
+        var ox = -1.6;   // 모형을 왼쪽으로(막대 자리)
         function sh(p) { return [p[0] + ox, p[1], p[2]]; }
         var i, k;
         for (i = 0; i < 6; i++) {

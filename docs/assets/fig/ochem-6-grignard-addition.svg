@@ -3,13 +3,13 @@
   <desc id="d-ochem-6-grignard-addition">위: 브로모에테인의 C–Br에서 탄소는 δ+이지만 Mg가 끼어든 CH₃CH₂–MgBr에서는 C–Mg 결합의 탄소가 δ−가 된다(극성 역전). 다이에틸 에터 두 분자의 O가 Mg에 배위해(점선) 시약을 안정하게 한다. 가운데: 1단계에서 C–Mg 결합 전자쌍이 아세톤의 카보닐 탄소로 가 새 C–C 결합(초록)을 만들고, C=O π 전자쌍이 O로 간다. 카보닐 O는 Mg에 배위해 네 원자 고리 배치를 이룬다. 생성물은 마그네슘 알콕사이드이다. 아래: 2단계 가공에서 O⁻의 전자쌍이 H₃O⁺의 H로, H–O 결합 전자쌍이 O로 가서 2-메틸뷰탄-2-올, 물, Mg²⁺와 Br⁻가 생긴다.</desc>
   <style>.ochem-6-grignard-addition-t{font-size:14px;fill:var(--fig-ink)} .ochem-6-grignard-addition-b{font-size:14px;fill:var(--fig-ink);font-weight:600} .ochem-6-grignard-addition-h{font-size:15px;fill:var(--fig-ink);font-weight:700} .ochem-6-grignard-addition-s{font-size:13px;fill:var(--fig-muted)} .ochem-6-grignard-addition-n{font-size:13px;fill:var(--fig-muted)} .ochem-6-grignard-addition-r{font-size:13px;fill:var(--fig-red);font-weight:600} .ochem-6-grignard-addition-g{font-size:13px;fill:var(--fig-green);font-weight:600} .ochem-6-grignard-addition-v{font-size:13px;fill:var(--fig-violet)} .ochem-6-grignard-addition-pl{font-size:20px;fill:var(--fig-ink)} .ochem-6-grignard-addition-f{font-size:14px;fill:var(--fig-ink)}</style>
   <text x="14.0" y="24.0" class="ochem-6-grignard-addition-h" text-anchor="start">그리냐르 시약 만들기 — 극성 역전</text>
-  <g transform="translate(54.0,79.0)"><g class="ochem-6-grignard-addition-a">
-<path class="ochem-6-grignard-addition-a-bond-0 ochem-6-grignard-addition-a-atom-0 ochem-6-grignard-addition-a-atom-1" d="M 6.6,16.0 L 31.0,2.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-a-bond-1 ochem-6-grignard-addition-a-atom-1 ochem-6-grignard-addition-a-atom-2" d="M 31.0,2.0 L 39.8,7.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-a-bond-1 ochem-6-grignard-addition-a-atom-1 ochem-6-grignard-addition-a-atom-2" d="M 39.8,7.2 L 48.6,12.3" style="fill:none;stroke:var(--fig-green);stroke-width:2.0px;stroke-linecap:butt" />
+  <g transform="translate(54.0,79.0)"><g class="ochem-6-grignard-addition-mol-a">
+<path class="ochem-6-grignard-addition-mol-a-bond-0 ochem-6-grignard-addition-mol-a-atom-0 ochem-6-grignard-addition-mol-a-atom-1" d="M 6.6,16.0 L 31.0,2.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-a-bond-1 ochem-6-grignard-addition-mol-a-atom-1 ochem-6-grignard-addition-mol-a-atom-2" d="M 31.0,2.0 L 39.8,7.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-a-bond-1 ochem-6-grignard-addition-mol-a-atom-1 ochem-6-grignard-addition-mol-a-atom-2" d="M 39.8,7.2 L 48.6,12.3" style="fill:none;stroke:var(--fig-green);stroke-width:2.0px;stroke-linecap:butt" />
 <path d="M 29.8,2.7 L 31.0,2.0 L 31.4,2.3" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<text x="51.0" y="23.1" class="ochem-6-grignard-addition-a-atom-2" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-green)" >B</text>
-<text x="60.7" y="23.1" class="ochem-6-grignard-addition-a-atom-2" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-green)" >r</text>
+<text x="51.0" y="23.1" class="ochem-6-grignard-addition-mol-a-atom-2" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-green)" >B</text>
+<text x="60.7" y="23.1" class="ochem-6-grignard-addition-mol-a-atom-2" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-green)" >r</text>
 </g></g>
   <circle cx="101.7" cy="106.5" r="1.7" style="fill:var(--fig-ink)"/>
   <circle cx="106.4" cy="109.3" r="1.7" style="fill:var(--fig-ink)"/>
@@ -24,44 +24,44 @@
   <line x1="240.0" y1="92.0" x2="312.0" y2="92.0" style="stroke:var(--fig-ink);stroke-width:1.8"/>
   <path d="M 320.0 92.0 L 310.0 96.5 L 312.5 92.0 L 310.0 87.5 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
   <text x="280.0" y="83.0" class="ochem-6-grignard-addition-s" text-anchor="middle">마른 (CH₃CH₂)₂O</text>
-  <g transform="translate(433.1,83.0)"><g class="ochem-6-grignard-addition-g">
-<path class="ochem-6-grignard-addition-g-bond-0 ochem-6-grignard-addition-g-atom-0 ochem-6-grignard-addition-g-atom-1" d="M 8.3,31.8 L 22.6,7.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-g-bond-1 ochem-6-grignard-addition-g-atom-1 ochem-6-grignard-addition-g-atom-2" d="M 22.6,7.0 L 29.7,7.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-g-bond-1 ochem-6-grignard-addition-g-atom-1 ochem-6-grignard-addition-g-atom-2" d="M 29.7,7.0 L 36.9,7.0" style="fill:none;stroke:var(--fig-violet);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-g-bond-2 ochem-6-grignard-addition-g-atom-2 ochem-6-grignard-addition-g-atom-3" d="M 57.1,7.0 L 65.1,7.0" style="fill:none;stroke:var(--fig-violet);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-g-bond-2 ochem-6-grignard-addition-g-atom-2 ochem-6-grignard-addition-g-atom-3" d="M 65.1,7.0 L 73.1,7.0" style="fill:none;stroke:var(--fig-green);stroke-width:2.0px;stroke-linecap:butt" />
+  <g transform="translate(433.1,83.0)"><g class="ochem-6-grignard-addition-mol-g">
+<path class="ochem-6-grignard-addition-mol-g-bond-0 ochem-6-grignard-addition-mol-g-atom-0 ochem-6-grignard-addition-mol-g-atom-1" d="M 8.3,31.8 L 22.6,7.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-g-bond-1 ochem-6-grignard-addition-mol-g-atom-1 ochem-6-grignard-addition-mol-g-atom-2" d="M 22.6,7.0 L 29.7,7.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-g-bond-1 ochem-6-grignard-addition-mol-g-atom-1 ochem-6-grignard-addition-mol-g-atom-2" d="M 29.7,7.0 L 36.9,7.0" style="fill:none;stroke:var(--fig-violet);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-g-bond-2 ochem-6-grignard-addition-mol-g-atom-2 ochem-6-grignard-addition-mol-g-atom-3" d="M 57.1,7.0 L 65.1,7.0" style="fill:none;stroke:var(--fig-violet);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-g-bond-2 ochem-6-grignard-addition-mol-g-atom-2 ochem-6-grignard-addition-mol-g-atom-3" d="M 65.1,7.0 L 73.1,7.0" style="fill:none;stroke:var(--fig-green);stroke-width:2.0px;stroke-linecap:butt" />
 <path d="M 21.8,8.3 L 22.6,7.0 L 22.9,7.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<text x="39.3" y="14.0" class="ochem-6-grignard-addition-g-atom-2" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-violet)" >M</text>
-<text x="49.0" y="14.0" class="ochem-6-grignard-addition-g-atom-2" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-violet)" >g</text>
-<text x="75.6" y="14.0" class="ochem-6-grignard-addition-g-atom-3" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-green)" >B</text>
-<text x="85.2" y="14.0" class="ochem-6-grignard-addition-g-atom-3" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-green)" >r</text>
+<text x="39.3" y="14.0" class="ochem-6-grignard-addition-mol-g-atom-2" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-violet)" >M</text>
+<text x="49.0" y="14.0" class="ochem-6-grignard-addition-mol-g-atom-2" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-violet)" >g</text>
+<text x="75.6" y="14.0" class="ochem-6-grignard-addition-mol-g-atom-3" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-green)" >B</text>
+<text x="85.2" y="14.0" class="ochem-6-grignard-addition-mol-g-atom-3" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-green)" >r</text>
 </g></g>
   <text x="455.7" y="76.5" style="font-size:13px;fill:var(--fig-red);text-anchor:middle">δ−</text>
   <text x="502.5" y="109.6" style="font-size:13px;fill:var(--fig-blue);text-anchor:middle">δ+</text>
-  <g transform="translate(419.6,22.0)"><g class="ochem-6-grignard-addition-e0">
-<path class="ochem-6-grignard-addition-e0-bond-0 ochem-6-grignard-addition-e0-atom-0 ochem-6-grignard-addition-e0-atom-1" d="M 10.8,16.0 L 35.2,2.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-e0-bond-1 ochem-6-grignard-addition-e0-atom-1 ochem-6-grignard-addition-e0-atom-2" d="M 35.2,2.0 L 44.1,7.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-e0-bond-1 ochem-6-grignard-addition-e0-atom-1 ochem-6-grignard-addition-e0-atom-2" d="M 44.1,7.1 L 53.0,12.2" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-e0-bond-2 ochem-6-grignard-addition-e0-atom-2 ochem-6-grignard-addition-e0-atom-3" d="M 66.2,12.2 L 75.1,7.1" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-e0-bond-2 ochem-6-grignard-addition-e0-atom-2 ochem-6-grignard-addition-e0-atom-3" d="M 75.1,7.1 L 84.0,2.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-e0-bond-3 ochem-6-grignard-addition-e0-atom-3 ochem-6-grignard-addition-e0-atom-4" d="M 84.0,2.0 L 108.4,16.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+  <g transform="translate(419.6,22.0)"><g class="ochem-6-grignard-addition-mol-e0">
+<path class="ochem-6-grignard-addition-mol-e0-bond-0 ochem-6-grignard-addition-mol-e0-atom-0 ochem-6-grignard-addition-mol-e0-atom-1" d="M 10.8,16.0 L 35.2,2.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-e0-bond-1 ochem-6-grignard-addition-mol-e0-atom-1 ochem-6-grignard-addition-mol-e0-atom-2" d="M 35.2,2.0 L 44.1,7.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-e0-bond-1 ochem-6-grignard-addition-mol-e0-atom-1 ochem-6-grignard-addition-mol-e0-atom-2" d="M 44.1,7.1 L 53.0,12.2" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-e0-bond-2 ochem-6-grignard-addition-mol-e0-atom-2 ochem-6-grignard-addition-mol-e0-atom-3" d="M 66.2,12.2 L 75.1,7.1" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-e0-bond-2 ochem-6-grignard-addition-mol-e0-atom-2 ochem-6-grignard-addition-mol-e0-atom-3" d="M 75.1,7.1 L 84.0,2.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-e0-bond-3 ochem-6-grignard-addition-mol-e0-atom-3 ochem-6-grignard-addition-mol-e0-atom-4" d="M 84.0,2.0 L 108.4,16.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
 <path d="M 34.0,2.7 L 35.2,2.0 L 35.6,2.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
 <path d="M 83.6,2.2 L 84.0,2.0 L 85.2,2.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<text x="55.4" y="23.0" class="ochem-6-grignard-addition-e0-atom-2" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >O</text>
+<text x="55.4" y="23.0" class="ochem-6-grignard-addition-mol-e0-atom-2" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >O</text>
 </g></g>
   <line x1="480.0" y1="80.0" x2="480.0" y2="50.0" style="stroke:var(--fig-violet);stroke-width:1.5;stroke-linecap:round;stroke-dasharray:3 3"/>
   <circle cx="486.0" cy="51.3" r="1.7" style="fill:var(--fig-ink)"/>
   <circle cx="490.1" cy="47.8" r="1.7" style="fill:var(--fig-ink)"/>
-  <g transform="translate(419.6,136.0)"><g class="ochem-6-grignard-addition-e1">
-<path class="ochem-6-grignard-addition-e1-bond-0 ochem-6-grignard-addition-e1-atom-0 ochem-6-grignard-addition-e1-atom-1" d="M 107.3,6.0 L 83.5,19.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-e1-bond-1 ochem-6-grignard-addition-e1-atom-1 ochem-6-grignard-addition-e1-atom-2" d="M 83.5,19.7 L 74.8,14.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-e1-bond-1 ochem-6-grignard-addition-e1-atom-1 ochem-6-grignard-addition-e1-atom-2" d="M 74.8,14.8 L 66.2,9.8" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-e1-bond-2 ochem-6-grignard-addition-e1-atom-2 ochem-6-grignard-addition-e1-atom-3" d="M 53.0,9.8 L 44.4,14.8" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-e1-bond-2 ochem-6-grignard-addition-e1-atom-2 ochem-6-grignard-addition-e1-atom-3" d="M 44.4,14.8 L 35.7,19.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-e1-bond-3 ochem-6-grignard-addition-e1-atom-3 ochem-6-grignard-addition-e1-atom-4" d="M 35.7,19.7 L 11.9,6.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+  <g transform="translate(419.6,136.0)"><g class="ochem-6-grignard-addition-mol-e1">
+<path class="ochem-6-grignard-addition-mol-e1-bond-0 ochem-6-grignard-addition-mol-e1-atom-0 ochem-6-grignard-addition-mol-e1-atom-1" d="M 107.3,6.0 L 83.5,19.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-e1-bond-1 ochem-6-grignard-addition-mol-e1-atom-1 ochem-6-grignard-addition-mol-e1-atom-2" d="M 83.5,19.7 L 74.8,14.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-e1-bond-1 ochem-6-grignard-addition-mol-e1-atom-1 ochem-6-grignard-addition-mol-e1-atom-2" d="M 74.8,14.8 L 66.2,9.8" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-e1-bond-2 ochem-6-grignard-addition-mol-e1-atom-2 ochem-6-grignard-addition-mol-e1-atom-3" d="M 53.0,9.8 L 44.4,14.8" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-e1-bond-2 ochem-6-grignard-addition-mol-e1-atom-2 ochem-6-grignard-addition-mol-e1-atom-3" d="M 44.4,14.8 L 35.7,19.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-e1-bond-3 ochem-6-grignard-addition-mol-e1-atom-3 ochem-6-grignard-addition-mol-e1-atom-4" d="M 35.7,19.7 L 11.9,6.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
 <path d="M 84.7,19.1 L 83.5,19.7 L 83.0,19.5" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
 <path d="M 36.2,19.5 L 35.7,19.7 L 34.5,19.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<text x="55.4" y="13.0" class="ochem-6-grignard-addition-e1-atom-2" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >O</text>
+<text x="55.4" y="13.0" class="ochem-6-grignard-addition-mol-e1-atom-2" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >O</text>
 </g></g>
   <line x1="480.0" y1="104.0" x2="480.0" y2="134.0" style="stroke:var(--fig-violet);stroke-width:1.5;stroke-linecap:round;stroke-dasharray:3 3"/>
   <circle cx="474.0" cy="132.7" r="1.7" style="fill:var(--fig-ink)"/>
@@ -74,31 +74,31 @@
   <text x="480.0" y="174.0" class="ochem-6-grignard-addition-s" text-anchor="middle">에터 O 두 개가 Mg에 배위</text>
   <line x1="10.0" y1="196.0" x2="710.0" y2="196.0" style="stroke:var(--fig-line);stroke-width:0.8;stroke-linecap:round"/>
   <text x="14.0" y="222.0" class="ochem-6-grignard-addition-h" text-anchor="start">1단계: 탄소 친핵체의 첨가</text>
-  <g transform="translate(103.3,290.6)"><g class="ochem-6-grignard-addition-k">
-<path class="ochem-6-grignard-addition-k-bond-0 ochem-6-grignard-addition-k-atom-0 ochem-6-grignard-addition-k-atom-1" d="M 4.7,55.9 L 26.7,37.4" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-k-bond-1 ochem-6-grignard-addition-k-atom-1 ochem-6-grignard-addition-k-atom-2" d="M 26.7,37.4 L 53.7,47.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-k-bond-2 ochem-6-grignard-addition-k-atom-1 ochem-6-grignard-addition-k-atom-3" d="M 29.2,38.3 L 27.4,28.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-k-bond-2 ochem-6-grignard-addition-k-atom-1 ochem-6-grignard-addition-k-atom-3" d="M 27.4,28.2 L 25.7,18.2" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-k-bond-2 ochem-6-grignard-addition-k-atom-1 ochem-6-grignard-addition-k-atom-3" d="M 24.7,39.1 L 22.9,29.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-k-bond-2 ochem-6-grignard-addition-k-atom-1 ochem-6-grignard-addition-k-atom-3" d="M 22.9,29.0 L 21.1,19.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
+  <g transform="translate(103.3,290.6)"><g class="ochem-6-grignard-addition-mol-k">
+<path class="ochem-6-grignard-addition-mol-k-bond-0 ochem-6-grignard-addition-mol-k-atom-0 ochem-6-grignard-addition-mol-k-atom-1" d="M 4.7,55.9 L 26.7,37.4" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-k-bond-1 ochem-6-grignard-addition-mol-k-atom-1 ochem-6-grignard-addition-mol-k-atom-2" d="M 26.7,37.4 L 53.7,47.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-k-bond-2 ochem-6-grignard-addition-mol-k-atom-1 ochem-6-grignard-addition-mol-k-atom-3" d="M 29.2,38.3 L 27.4,28.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-k-bond-2 ochem-6-grignard-addition-mol-k-atom-1 ochem-6-grignard-addition-mol-k-atom-3" d="M 27.4,28.2 L 25.7,18.2" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-k-bond-2 ochem-6-grignard-addition-mol-k-atom-1 ochem-6-grignard-addition-mol-k-atom-3" d="M 24.7,39.1 L 22.9,29.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-k-bond-2 ochem-6-grignard-addition-mol-k-atom-1 ochem-6-grignard-addition-mol-k-atom-3" d="M 22.9,29.0 L 21.1,19.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
 <path d="M 25.6,38.3 L 26.7,37.4 L 28.1,37.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<text x="17.5" y="16.1" class="ochem-6-grignard-addition-k-atom-3" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >O</text>
+<text x="17.5" y="16.1" class="ochem-6-grignard-addition-mol-k-atom-3" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >O</text>
 </g></g>
   <circle cx="134.4" cy="292.2" r="1.7" style="fill:var(--fig-ink)"/>
   <circle cx="129.7" cy="289.5" r="1.7" style="fill:var(--fig-ink)"/>
   <circle cx="115.0" cy="294.9" r="1.7" style="fill:var(--fig-ink)"/>
   <circle cx="113.1" cy="300.0" r="1.7" style="fill:var(--fig-ink)"/>
-  <g transform="translate(194.5,264.1)"><g class="ochem-6-grignard-addition-g2">
-<path class="ochem-6-grignard-addition-g2-bond-0 ochem-6-grignard-addition-g2-atom-0 ochem-6-grignard-addition-g2-atom-1" d="M 12.6,79.9 L 5.1,52.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-g2-bond-1 ochem-6-grignard-addition-g2-atom-1 ochem-6-grignard-addition-g2-atom-2" d="M 5.1,52.0 L 10.6,46.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-g2-bond-1 ochem-6-grignard-addition-g2-atom-1 ochem-6-grignard-addition-g2-atom-2" d="M 10.6,46.6 L 16.1,41.1" style="fill:none;stroke:var(--fig-violet);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-g2-bond-2 ochem-6-grignard-addition-g2-atom-2 ochem-6-grignard-addition-g2-atom-3" d="M 31.5,25.7 L 35.4,21.8" style="fill:none;stroke:var(--fig-violet);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-g2-bond-2 ochem-6-grignard-addition-g2-atom-2 ochem-6-grignard-addition-g2-atom-3" d="M 35.4,21.8 L 39.3,17.9" style="fill:none;stroke:var(--fig-green);stroke-width:2.0px;stroke-linecap:butt" />
+  <g transform="translate(194.5,264.1)"><g class="ochem-6-grignard-addition-mol-g2">
+<path class="ochem-6-grignard-addition-mol-g2-bond-0 ochem-6-grignard-addition-mol-g2-atom-0 ochem-6-grignard-addition-mol-g2-atom-1" d="M 12.6,79.9 L 5.1,52.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-g2-bond-1 ochem-6-grignard-addition-mol-g2-atom-1 ochem-6-grignard-addition-mol-g2-atom-2" d="M 5.1,52.0 L 10.6,46.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-g2-bond-1 ochem-6-grignard-addition-mol-g2-atom-1 ochem-6-grignard-addition-mol-g2-atom-2" d="M 10.6,46.6 L 16.1,41.1" style="fill:none;stroke:var(--fig-violet);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-g2-bond-2 ochem-6-grignard-addition-mol-g2-atom-2 ochem-6-grignard-addition-mol-g2-atom-3" d="M 31.5,25.7 L 35.4,21.8" style="fill:none;stroke:var(--fig-violet);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-g2-bond-2 ochem-6-grignard-addition-mol-g2-atom-2 ochem-6-grignard-addition-mol-g2-atom-3" d="M 35.4,21.8 L 39.3,17.9" style="fill:none;stroke:var(--fig-green);stroke-width:2.0px;stroke-linecap:butt" />
 <path d="M 5.5,53.4 L 5.1,52.0 L 5.4,51.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<text x="13.7" y="38.6" class="ochem-6-grignard-addition-g2-atom-2" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-violet)" >M</text>
-<text x="23.4" y="38.6" class="ochem-6-grignard-addition-g2-atom-2" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-violet)" >g</text>
-<text x="41.8" y="18.2" class="ochem-6-grignard-addition-g2-atom-3" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-green)" >B</text>
-<text x="51.4" y="18.2" class="ochem-6-grignard-addition-g2-atom-3" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-green)" >r</text>
+<text x="13.7" y="38.6" class="ochem-6-grignard-addition-mol-g2-atom-2" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-violet)" >M</text>
+<text x="23.4" y="38.6" class="ochem-6-grignard-addition-mol-g2-atom-2" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-violet)" >g</text>
+<text x="41.8" y="18.2" class="ochem-6-grignard-addition-mol-g2-atom-3" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-green)" >B</text>
+<text x="51.4" y="18.2" class="ochem-6-grignard-addition-mol-g2-atom-3" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-green)" >r</text>
 </g></g>
   <path d="M 130.0 328.0 L 125.8 301.7 L 215.8 297.7 L 199.6 316.1 Z" style="fill:var(--fig-soft-violet);stroke:none;opacity:0.45"/>
   <line x1="135.8" y1="301.3" x2="201.8" y2="298.3" style="stroke:var(--fig-violet);stroke-width:1.5;stroke-linecap:round;stroke-dasharray:3 3"/>
@@ -109,15 +109,15 @@
   <text x="150.0" y="370.0" class="ochem-6-grignard-addition-s" text-anchor="middle">네 원자 고리 배치(옅은 색)</text>
   <line x1="300.0" y1="300.0" x2="362.0" y2="300.0" style="stroke:var(--fig-ink);stroke-width:1.8"/>
   <path d="M 370.0 300.0 L 360.0 304.5 L 362.5 300.0 L 360.0 295.5 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
-  <line x1="425.0" y1="291.6" x2="450.0" y2="306.0" style="stroke:var(--fig-green);stroke-width:4.5;stroke-linecap:round;opacity:0.55"/><g transform="translate(392.0,276.2)"><g class="ochem-6-grignard-addition-al">
-<path class="ochem-6-grignard-addition-al-bond-0 ochem-6-grignard-addition-al-atom-0 ochem-6-grignard-addition-al-atom-1" d="M 8.0,29.8 L 33.0,15.4" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-al-bond-1 ochem-6-grignard-addition-al-atom-1 ochem-6-grignard-addition-al-atom-2" d="M 33.0,15.4 L 58.0,29.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-al-bond-2 ochem-6-grignard-addition-al-atom-2 ochem-6-grignard-addition-al-atom-3" d="M 58.0,29.8 L 43.6,54.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-al-bond-3 ochem-6-grignard-addition-al-atom-2 ochem-6-grignard-addition-al-atom-4" d="M 58.0,29.8 L 72.4,4.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-al-bond-4 ochem-6-grignard-addition-al-atom-2 ochem-6-grignard-addition-al-atom-5" d="M 58.0,29.8 L 67.2,35.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-al-bond-4 ochem-6-grignard-addition-al-atom-2 ochem-6-grignard-addition-al-atom-5" d="M 67.2,35.1 L 76.3,40.4" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
+  <line x1="425.0" y1="291.6" x2="450.0" y2="306.0" style="stroke:var(--fig-green);stroke-width:4.5;stroke-linecap:round;opacity:0.55"/><g transform="translate(392.0,276.2)"><g class="ochem-6-grignard-addition-mol-al">
+<path class="ochem-6-grignard-addition-mol-al-bond-0 ochem-6-grignard-addition-mol-al-atom-0 ochem-6-grignard-addition-mol-al-atom-1" d="M 8.0,29.8 L 33.0,15.4" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-al-bond-1 ochem-6-grignard-addition-mol-al-atom-1 ochem-6-grignard-addition-mol-al-atom-2" d="M 33.0,15.4 L 58.0,29.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-al-bond-2 ochem-6-grignard-addition-mol-al-atom-2 ochem-6-grignard-addition-mol-al-atom-3" d="M 58.0,29.8 L 43.6,54.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-al-bond-3 ochem-6-grignard-addition-mol-al-atom-2 ochem-6-grignard-addition-mol-al-atom-4" d="M 58.0,29.8 L 72.4,4.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-al-bond-4 ochem-6-grignard-addition-mol-al-atom-2 ochem-6-grignard-addition-mol-al-atom-5" d="M 58.0,29.8 L 67.2,35.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-al-bond-4 ochem-6-grignard-addition-mol-al-atom-2 ochem-6-grignard-addition-mol-al-atom-5" d="M 67.2,35.1 L 76.3,40.4" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
 <path d="M 31.8,16.1 L 33.0,15.4 L 34.3,16.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<text x="83.0" y="49.2" class="ochem-6-grignard-addition-al-atom-5" style="font-size:14px;stroke:none;text-anchor:middle;fill:var(--fig-red)" >O</text>
+<text x="83.0" y="49.2" class="ochem-6-grignard-addition-mol-al-atom-5" style="font-size:14px;stroke:none;text-anchor:middle;fill:var(--fig-red)" >O</text>
 </g></g><line x1="468.1" y1="316.4" x2="462.5" y2="313.2" style="stroke:var(--fig-red);stroke-width:2"/>
   <circle cx="482.5" cy="333.4" r="6.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.2"/><line x1="479.2" y1="333.4" x2="485.8" y2="333.4" style="stroke:var(--fig-ink);stroke-width:1.4"/>
   <circle cx="487.5" cy="323.1" r="1.7" style="fill:var(--fig-ink)"/>
@@ -131,15 +131,15 @@
   <text x="600.0" y="302.0" class="ochem-6-grignard-addition-g" text-anchor="start">새 C–C 결합</text>
   <line x1="10.0" y1="384.0" x2="710.0" y2="384.0" style="stroke:var(--fig-line);stroke-width:0.8;stroke-linecap:round"/>
   <text x="14.0" y="410.0" class="ochem-6-grignard-addition-h" text-anchor="start">2단계: 산 가공(양성자 전달)</text>
-  <line x1="65.0" y1="465.6" x2="90.0" y2="480.0" style="stroke:var(--fig-green);stroke-width:4.5;stroke-linecap:round;opacity:0.55"/><g transform="translate(32.0,450.2)"><g class="ochem-6-grignard-addition-al2">
-<path class="ochem-6-grignard-addition-al2-bond-0 ochem-6-grignard-addition-al2-atom-0 ochem-6-grignard-addition-al2-atom-1" d="M 8.0,29.8 L 33.0,15.4" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-al2-bond-1 ochem-6-grignard-addition-al2-atom-1 ochem-6-grignard-addition-al2-atom-2" d="M 33.0,15.4 L 58.0,29.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-al2-bond-2 ochem-6-grignard-addition-al2-atom-2 ochem-6-grignard-addition-al2-atom-3" d="M 58.0,29.8 L 43.6,54.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-al2-bond-3 ochem-6-grignard-addition-al2-atom-2 ochem-6-grignard-addition-al2-atom-4" d="M 58.0,29.8 L 72.4,4.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-al2-bond-4 ochem-6-grignard-addition-al2-atom-2 ochem-6-grignard-addition-al2-atom-5" d="M 58.0,29.8 L 67.2,35.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-al2-bond-4 ochem-6-grignard-addition-al2-atom-2 ochem-6-grignard-addition-al2-atom-5" d="M 67.2,35.1 L 76.3,40.4" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
+  <line x1="65.0" y1="465.6" x2="90.0" y2="480.0" style="stroke:var(--fig-green);stroke-width:4.5;stroke-linecap:round;opacity:0.55"/><g transform="translate(32.0,450.2)"><g class="ochem-6-grignard-addition-mol-al2">
+<path class="ochem-6-grignard-addition-mol-al2-bond-0 ochem-6-grignard-addition-mol-al2-atom-0 ochem-6-grignard-addition-mol-al2-atom-1" d="M 8.0,29.8 L 33.0,15.4" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-al2-bond-1 ochem-6-grignard-addition-mol-al2-atom-1 ochem-6-grignard-addition-mol-al2-atom-2" d="M 33.0,15.4 L 58.0,29.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-al2-bond-2 ochem-6-grignard-addition-mol-al2-atom-2 ochem-6-grignard-addition-mol-al2-atom-3" d="M 58.0,29.8 L 43.6,54.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-al2-bond-3 ochem-6-grignard-addition-mol-al2-atom-2 ochem-6-grignard-addition-mol-al2-atom-4" d="M 58.0,29.8 L 72.4,4.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-al2-bond-4 ochem-6-grignard-addition-mol-al2-atom-2 ochem-6-grignard-addition-mol-al2-atom-5" d="M 58.0,29.8 L 67.2,35.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-al2-bond-4 ochem-6-grignard-addition-mol-al2-atom-2 ochem-6-grignard-addition-mol-al2-atom-5" d="M 67.2,35.1 L 76.3,40.4" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
 <path d="M 31.8,16.1 L 33.0,15.4 L 34.3,16.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<text x="83.0" y="49.2" class="ochem-6-grignard-addition-al2-atom-5" style="font-size:14px;stroke:none;text-anchor:middle;fill:var(--fig-red)" >O</text>
+<text x="83.0" y="49.2" class="ochem-6-grignard-addition-mol-al2-atom-5" style="font-size:14px;stroke:none;text-anchor:middle;fill:var(--fig-red)" >O</text>
 </g></g><line x1="108.1" y1="490.4" x2="102.5" y2="487.2" style="stroke:var(--fig-red);stroke-width:2"/>
   <circle cx="122.5" cy="481.4" r="6.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.2"/><line x1="119.2" y1="481.4" x2="125.8" y2="481.4" style="stroke:var(--fig-ink);stroke-width:1.4"/>
   <circle cx="127.5" cy="497.1" r="1.7" style="fill:var(--fig-ink)"/>
@@ -148,17 +148,17 @@
   <circle cx="123.6" cy="503.9" r="1.7" style="fill:var(--fig-ink)"/>
   <circle cx="106.4" cy="503.9" r="1.7" style="fill:var(--fig-ink)"/>
   <circle cx="111.1" cy="506.6" r="1.7" style="fill:var(--fig-ink)"/>
-  <g transform="translate(156.8,461.5)"><g class="ochem-6-grignard-addition-h3">
-<path class="ochem-6-grignard-addition-h3-bond-0 ochem-6-grignard-addition-h3-atom-0 ochem-6-grignard-addition-h3-atom-1" d="M 16.1,34.9 L 23.8,34.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-h3-bond-0 ochem-6-grignard-addition-h3-atom-0 ochem-6-grignard-addition-h3-atom-1" d="M 23.8,34.9 L 31.4,34.9" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-h3-bond-1 ochem-6-grignard-addition-h3-atom-1 ochem-6-grignard-addition-h3-atom-2" d="M 43.6,44.4 L 46.1,48.8" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-h3-bond-1 ochem-6-grignard-addition-h3-atom-1 ochem-6-grignard-addition-h3-atom-2" d="M 46.1,48.8 L 48.6,53.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-h3-bond-2 ochem-6-grignard-addition-h3-atom-1 ochem-6-grignard-addition-h3-atom-3" d="M 42.0,28.2 L 44.5,23.9" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-h3-bond-2 ochem-6-grignard-addition-h3-atom-1 ochem-6-grignard-addition-h3-atom-3" d="M 44.5,23.9 L 47.0,19.5" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<text x="5.2" y="41.9" class="ochem-6-grignard-addition-h3-atom-0" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-ink)" >H</text>
-<text x="33.9" y="41.9" class="ochem-6-grignard-addition-h3-atom-1" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >O</text>
-<text x="48.3" y="66.8" class="ochem-6-grignard-addition-h3-atom-2" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-ink)" >H</text>
-<text x="48.3" y="17.0" class="ochem-6-grignard-addition-h3-atom-3" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-ink)" >H</text>
+  <g transform="translate(156.8,461.5)"><g class="ochem-6-grignard-addition-mol-h3">
+<path class="ochem-6-grignard-addition-mol-h3-bond-0 ochem-6-grignard-addition-mol-h3-atom-0 ochem-6-grignard-addition-mol-h3-atom-1" d="M 16.1,34.9 L 23.8,34.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-h3-bond-0 ochem-6-grignard-addition-mol-h3-atom-0 ochem-6-grignard-addition-mol-h3-atom-1" d="M 23.8,34.9 L 31.4,34.9" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-h3-bond-1 ochem-6-grignard-addition-mol-h3-atom-1 ochem-6-grignard-addition-mol-h3-atom-2" d="M 43.6,44.4 L 46.1,48.8" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-h3-bond-1 ochem-6-grignard-addition-mol-h3-atom-1 ochem-6-grignard-addition-mol-h3-atom-2" d="M 46.1,48.8 L 48.6,53.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-h3-bond-2 ochem-6-grignard-addition-mol-h3-atom-1 ochem-6-grignard-addition-mol-h3-atom-3" d="M 42.0,28.2 L 44.5,23.9" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-h3-bond-2 ochem-6-grignard-addition-mol-h3-atom-1 ochem-6-grignard-addition-mol-h3-atom-3" d="M 44.5,23.9 L 47.0,19.5" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<text x="5.2" y="41.9" class="ochem-6-grignard-addition-mol-h3-atom-0" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-ink)" >H</text>
+<text x="33.9" y="41.9" class="ochem-6-grignard-addition-mol-h3-atom-1" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >O</text>
+<text x="48.3" y="66.8" class="ochem-6-grignard-addition-mol-h3-atom-2" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-ink)" >H</text>
+<text x="48.3" y="17.0" class="ochem-6-grignard-addition-mol-h3-atom-3" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-ink)" >H</text>
 </g></g>
   <circle cx="209.6" cy="490.4" r="6.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.2"/><line x1="206.3" y1="490.4" x2="212.9" y2="490.4" style="stroke:var(--fig-ink);stroke-width:1.4"/><line x1="209.6" y1="487.1" x2="209.6" y2="493.7" style="stroke:var(--fig-ink);stroke-width:1.4"/>
   <circle cx="205.2" cy="507.0" r="1.7" style="fill:var(--fig-ink)"/>
@@ -169,16 +169,16 @@
   <path d="M 192.3 506.7 L 186.3 498.9 L 190.7 499.9 L 194.1 497.0 Z" style="fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:0.8;stroke-linejoin:round"/>
   <line x1="290.0" y1="480.0" x2="342.0" y2="480.0" style="stroke:var(--fig-ink);stroke-width:1.8"/>
   <path d="M 350.0 480.0 L 340.0 484.5 L 342.5 480.0 L 340.0 475.5 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
-  <line x1="395.0" y1="465.6" x2="420.0" y2="480.0" style="stroke:var(--fig-green);stroke-width:4.5;stroke-linecap:round;opacity:0.55"/><g transform="translate(361.1,450.2)"><g class="ochem-6-grignard-addition-pr">
-<path class="ochem-6-grignard-addition-pr-bond-0 ochem-6-grignard-addition-pr-atom-0 ochem-6-grignard-addition-pr-atom-1" d="M 8.9,29.8 L 33.9,15.4" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-pr-bond-1 ochem-6-grignard-addition-pr-atom-1 ochem-6-grignard-addition-pr-atom-2" d="M 33.9,15.4 L 58.9,29.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-pr-bond-2 ochem-6-grignard-addition-pr-atom-2 ochem-6-grignard-addition-pr-atom-3" d="M 58.9,29.8 L 44.4,54.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-pr-bond-3 ochem-6-grignard-addition-pr-atom-2 ochem-6-grignard-addition-pr-atom-4" d="M 58.9,29.8 L 73.3,4.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-pr-bond-4 ochem-6-grignard-addition-pr-atom-2 ochem-6-grignard-addition-pr-atom-5" d="M 58.9,29.8 L 68.0,35.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-6-grignard-addition-pr-bond-4 ochem-6-grignard-addition-pr-atom-2 ochem-6-grignard-addition-pr-atom-5" d="M 68.0,35.1 L 77.2,40.4" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
+  <line x1="395.0" y1="465.6" x2="420.0" y2="480.0" style="stroke:var(--fig-green);stroke-width:4.5;stroke-linecap:round;opacity:0.55"/><g transform="translate(361.1,450.2)"><g class="ochem-6-grignard-addition-mol-pr">
+<path class="ochem-6-grignard-addition-mol-pr-bond-0 ochem-6-grignard-addition-mol-pr-atom-0 ochem-6-grignard-addition-mol-pr-atom-1" d="M 8.9,29.8 L 33.9,15.4" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-pr-bond-1 ochem-6-grignard-addition-mol-pr-atom-1 ochem-6-grignard-addition-mol-pr-atom-2" d="M 33.9,15.4 L 58.9,29.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-pr-bond-2 ochem-6-grignard-addition-mol-pr-atom-2 ochem-6-grignard-addition-mol-pr-atom-3" d="M 58.9,29.8 L 44.4,54.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-pr-bond-3 ochem-6-grignard-addition-mol-pr-atom-2 ochem-6-grignard-addition-mol-pr-atom-4" d="M 58.9,29.8 L 73.3,4.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-pr-bond-4 ochem-6-grignard-addition-mol-pr-atom-2 ochem-6-grignard-addition-mol-pr-atom-5" d="M 58.9,29.8 L 68.0,35.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-6-grignard-addition-mol-pr-bond-4 ochem-6-grignard-addition-mol-pr-atom-2 ochem-6-grignard-addition-mol-pr-atom-5" d="M 68.0,35.1 L 77.2,40.4" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
 <path d="M 32.6,16.1 L 33.9,15.4 L 35.1,16.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<text x="79.7" y="51.2" class="ochem-6-grignard-addition-pr-atom-5" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >O</text>
-<text x="89.3" y="51.2" class="ochem-6-grignard-addition-pr-atom-5" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >H</text>
+<text x="79.7" y="51.2" class="ochem-6-grignard-addition-mol-pr-atom-5" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >O</text>
+<text x="89.3" y="51.2" class="ochem-6-grignard-addition-mol-pr-atom-5" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >H</text>
 </g></g>
   <circle cx="434.0" cy="501.4" r="1.7" style="fill:var(--fig-ink)"/>
   <circle cx="437.1" cy="505.8" r="1.7" style="fill:var(--fig-ink)"/>

@@ -14,22 +14,21 @@ Sims.register('mj-polarimeter', {
     var rA = api.readout('관찰 회전각 α'), rMix = api.readout('조성'), rSp = api.readout('관찰 비선광도'), rAmb = api.readout('검광자로 보면');
     var g1 = api.group();
     var bk = CMP.map(function (c, k) {
-      return api.button(c.n + ' [α] ' + (c.a > 0 ? '+' : '−') + Math.abs(c.a), function () { st.k = k; sync(); }, { toggle: true, pressed: k === st.k, parent: g1 });
+      return api.button(c.n + ' [α] ' + (c.a > 0 ? '+' : '−') + Math.abs(c.a), function () { st.k = k; st.diluted = false; sync(); }, { toggle: true, pressed: k === st.k, parent: g1 });
     });
     var sEe = api.slider({ id: 'mj-polarimeter-ee', label: '거울상 초과량 ee (+: 위 화합물 쪽 과량)', min: -100, max: 100, step: 1, value: st.ee,
       format: function (v) { return (v > 0 ? '+' : '') + v + ' %'; }, onInput: function (v) { st.ee = v; st.diluted = false; sync(); } });
     var sC = api.slider({ id: 'mj-polarimeter-c', label: '농도 c (g/mL)', min: 0, max: 0.20, step: 0.005, value: st.c,
-      format: function (v) { return v.toFixed(3); }, onInput: function (v) { st.c = v; sync(); } });
+      format: function (v) { return v.toFixed(3); }, onInput: function (v) { st.c = v; st.diluted = false; sync(); } });
     var g2 = api.group();
     var LS = [0.5, 1, 2];
     var bl = LS.map(function (L) {
-      return api.button('관 ' + L + ' dm', function () { st.l = L; sync(); }, { toggle: true, pressed: L === st.l, parent: g2 });
+      return api.button('관 ' + L + ' dm', function () { st.l = L; st.diluted = false; sync(); }, { toggle: true, pressed: L === st.l, parent: g2 });
     });
-    var bd = api.button('묽히기(농도 ½)', function () { st.c = Math.round(st.c / 2 * 1000) / 1000; sC.set(st.c); st.diluted = true; sync(); }, { parent: g2 });
+    var bd = api.button('묽히기(농도 ½)', function () { if (st.c <= 0) return; st.before = alpha(); st.c = Math.round(st.c / 2 * 1000) / 1000; sC.set(st.c); st.diluted = true; sync(); }, { parent: g2 });
     // 시료관 안 분자 자리(고정 난수)
     var seed = 7; function rnd() { seed = (seed * 16807) % 2147483647; return seed / 2147483647; }
     var MOL = []; for (var i = 0; i < 80; i++) MOL.push([rnd(), rnd() * 2 * Math.PI, Math.sqrt(rnd()), rnd()]);
-    var prevAlpha = null;
     function alpha() { return CMP[st.k].a * st.l * st.c * st.ee / 100; }
     function tubeLen() { return 1.8 * st.l; }
     var S = api.scene3d({
@@ -101,11 +100,12 @@ Sims.register('mj-polarimeter', {
       rA.set((a >= 0 ? '+' : '−') + Math.abs(a).toFixed(2) + '° ' + (Math.abs(a) < 0.005 ? '(회전 없음)' : (a > 0 ? '(시계 방향, 우선성)' : '(반시계 방향, 좌선성)')));
       rMix.set(c.e + ' ' + main.toFixed(0) + ' % : ' + c.o + ' ' + (100 - main).toFixed(0) + ' %  (파랑 : 주황)');
       rSp.set(st.c > 0 ? ((c.a * st.ee / 100 >= 0 ? '+' : '−') + Math.abs(c.a * st.ee / 100).toFixed(1)) : '–');
-      var alt = a >= 0 ? a - 180 : a + 180;
-      var txt = '눈금 ' + (a >= 0 ? '+' : '−') + Math.abs(a).toFixed(1) + '° 또는 ' + (alt >= 0 ? '+' : '−') + Math.abs(alt).toFixed(1) + '°';
-      if (st.diluted && prevAlpha !== null) txt += ' → 묽힌 뒤 ' + (a >= 0 ? '+' : '−') + Math.abs(a).toFixed(1) + '°(반으로 줄었으니 실제 값)';
+      var f = function (v) { return (v >= 0 ? '+' : '−') + Math.abs(v).toFixed(1) + '°'; };
+      var alt = function (v) { return v >= 0 ? v - 180 : v + 180; };
+      var txt = '눈금 ' + f(a) + ' 또는 ' + f(alt(a));
+      // 묽히기 직후: 묽히기 전 값 b 가 실제라면 b/2, b ± 180° 가 실제라면 (b ± 180°)/2 로 바뀐다. 측정이 b/2 와 맞으니 b 가 실제 값
+      if (st.diluted && st.before !== undefined) txt = '묽히기 전 ' + f(st.before) + ' → 뒤 ' + f(a) + ': 반으로 줄었으니 ' + f(st.before) + '가 실제 값(' + f(alt(st.before)) + '였다면 ' + f(alt(st.before) / 2) + '가 되었을 것)';
       rAmb.set(txt);
-      prevAlpha = a;
       S.redraw();
     }
     if (!api.reduced) S.onFrame(function (dt) { if (dt > 0) st.phase += dt * 3; });

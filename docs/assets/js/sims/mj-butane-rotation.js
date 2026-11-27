@@ -136,9 +136,9 @@ Sims.register('mj-butane-rotation', {
       for (p = 0; p <= 360; p += 2) { if (p) ctx.lineTo(X(p), Y(V(p))); else ctx.moveTo(X(p), Y(V(p))); }
       ctx.stroke();
       ctx.fillStyle = T.figRed; ctx.beginPath(); ctx.arc(X(st.phi), Y(V(st.phi)), 6, 0, Math.PI * 2); ctx.fill();
-      txt('V (kJ/mol)', x0, y0 - 12, { align: 'left', color: T.figMuted, size: 11 });
+      txt('V (kJ/mol)', x0 - 4, y0 - 10, { align: 'right', color: T.figMuted, size: 11 });
       txt('이면각 φ', x0 + w, y0 + h + 28, { align: 'right', color: T.figMuted, size: 11 });
-      txt(st.ethane ? 'V = 6(1 + cos 3φ)' : 'V = 9.77 + 2.27cosφ − 0.27cos2φ + 7.23cos3φ', x0 + w / 2, y0 - 12, { size: 11, color: T.figInk });
+      txt(st.ethane ? 'V = 6(1 + cos 3φ)' : 'V = 9.77 + 2.27cosφ − 0.27cos2φ + 7.23cos3φ', x0 + w / 2, y0 - 26, { size: 11, color: T.figInk });
     }
     function bars(x0, y0, w, h) {
       var P = pops(), items = st.ethane ? [['엇갈림 60°', P.g1], ['엇갈림 180°', P.anti], ['엇갈림 300°', P.g2]] : [['고시 60°', P.g1], ['안티 180°', P.anti], ['고시 300°', P.g2]];
@@ -161,8 +161,8 @@ Sims.register('mj-butane-rotation', {
       if (!small) {
         var top = h * 0.66;
         newman(w * 0.15, top * 0.45, Math.min(w, top) * 0.075);
-        model(w * 0.43, top * 0.45, Math.min(w * 0.055, top * 0.11));
-        curve(w * 0.62, 34, w * 0.36, top - 76);
+        model(w * 0.42, top * 0.45, Math.min(w * 0.07, top * 0.15));
+        curve(w * 0.64, 48, w * 0.34, top - 90);
         bars(16, top + 6, w - 32, h - top - 12);
       } else {
         newman(w * 0.26, h * 0.13, w * 0.06);
