@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img" aria-labelledby="t-ochem-14-dp-conversion d-ochem-14-dp-conversion">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" role="img" aria-labelledby="t-ochem-14-dp-conversion d-ochem-14-dp-conversion">
   <title id="t-ochem-14-dp-conversion">그림 유기화학 14-17 전환율에 따른 수 평균 중합도 — 단계 성장과 사슬 성장</title>
   <desc id="d-ochem-14-dp-conversion">가로축 단위체(작용기) 전환율 p(0~1), 세로축 수 평균 중합도 Xn(로그 눈금, 1~10⁴). (가) 단계 성장: Xn = 1/(1 − p), p = 0.9에서 10, 0.99에서 100, 0.999에서 1000. (나) 리빙 사슬 성장: Xn = p·[M]₀/[I]₀, [M]₀/[I]₀ = 1000일 때 p = 1에서 1000까지 직선(로그 눈금이라 휘어 보인다). (다) 보통 라디칼 사슬 성장: 전환율과 거의 무관하게 약 10³. 단계 성장은 반응의 끝에서야 긴 사슬이 생긴다.</desc>
   <style>.ochem-14-dp-conversion-t{font-size:14px;fill:var(--fig-ink)} .ochem-14-dp-conversion-b{font-size:14px;fill:var(--fig-ink);font-weight:600} .ochem-14-dp-conversion-h{font-size:15px;fill:var(--fig-ink);font-weight:700} .ochem-14-dp-conversion-s{font-size:13px;fill:var(--fig-muted)} .ochem-14-dp-conversion-n{font-size:13px;fill:var(--fig-muted)} .ochem-14-dp-conversion-r{font-size:13px;fill:var(--fig-red);font-weight:600} .ochem-14-dp-conversion-g{font-size:13px;fill:var(--fig-green);font-weight:600} .ochem-14-dp-conversion-v{font-size:13px;fill:var(--fig-violet)} .ochem-14-dp-conversion-pl{font-size:20px;fill:var(--fig-ink)} .ochem-14-dp-conversion-f{font-size:14px;fill:var(--fig-ink)}</style>
@@ -41,11 +41,11 @@
   <circle cx="644.4" cy="195.0" r="4.5" style="fill:var(--fig-blue);stroke:var(--fig-paper);stroke-width:1.5"/>
   <text x="636.4" y="199.0" class="ochem-14-dp-conversion-s" text-anchor="end" style="font-size:12px;fill:var(--fig-blue)">p = 0.99 → 100</text>
   <circle cx="649.4" cy="112.5" r="4.5" style="fill:var(--fig-blue);stroke:var(--fig-paper);stroke-width:1.5"/>
-  <text x="641.4" y="116.5" class="ochem-14-dp-conversion-s" text-anchor="end" style="font-size:12px;fill:var(--fig-blue)">p = 0.999 → 1000</text>
+  <text x="641.4" y="132.5" class="ochem-14-dp-conversion-s" text-anchor="end" style="font-size:12px;fill:var(--fig-blue)">p = 0.999 → 1000</text>
   <text x="370.0" y="325.2" class="ochem-14-dp-conversion-b" text-anchor="middle" style="fill:var(--fig-blue);font-size:13px">(가) 단계 성장 1/(1 − p)</text>
-  <text x="157.2" y="174.5" class="ochem-14-dp-conversion-b" text-anchor="start" style="fill:var(--fig-green);font-size:13px">(나) 리빙 p·[M]₀/[I]₀</text>
-  <text x="157.2" y="191.5" class="ochem-14-dp-conversion-s" text-anchor="start" style="fill:var(--fig-green);font-size:12px">[M]₀/[I]₀ = 1000</text>
+  <text x="274.8" y="172.5" class="ochem-14-dp-conversion-b" text-anchor="start" style="fill:var(--fig-green);font-size:13px">(나) 리빙 p·[M]₀/[I]₀</text>
+  <text x="274.8" y="189.5" class="ochem-14-dp-conversion-s" text-anchor="start" style="fill:var(--fig-green);font-size:12px">[M]₀/[I]₀ = 1000</text>
   <text x="258.0" y="102.5" class="ochem-14-dp-conversion-b" text-anchor="start" style="fill:var(--fig-red);font-size:13px">(다) 보통 라디칼 사슬 성장 ≈ 10³</text>
-  <rect x="120.0" y="395.0" width="480.0" height="30.0" rx="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
-  <text x="360.0" y="415.0" class="ochem-14-dp-conversion-b" text-anchor="middle" style="font-size:13px">단계 성장은 끝에서야 길어진다: p = 0.5에서 Xn = 2</text>
+  <rect x="120.0" y="418.0" width="480.0" height="30.0" rx="6" style="fill:var(--fig-soft-blue);stroke:var(--fig-blue);stroke-width:1.2"/>
+  <text x="360.0" y="438.0" class="ochem-14-dp-conversion-b" text-anchor="middle" style="font-size:13px">단계 성장은 끝에서야 길어진다: p = 0.5에서 Xn = 2</text>
 </svg>
