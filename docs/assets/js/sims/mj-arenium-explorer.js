@@ -85,10 +85,10 @@ Sims.register('mj-arenium-explorer', {
       var cols = narrow ? 2 : n, rows = narrow ? Math.ceil(n / 2) : 1;
       var pw = w / cols, ph = topH / rows;
       for (var k = 0; k < n; k++) panels.push({ x: (k % cols) * pw, y: Math.floor(k / cols) * ph, w: pw, h: ph });
-      var R = Math.min(pw, ph) * 0.17; R = Math.max(14, Math.min(R, 30));
+      var R = Math.min(pw, ph) * 0.22; R = Math.max(15, Math.min(R, 36));
       L.forEach(function (s, k) { drawStruct(T, s, panels[k], R, k, S); });
       // ↔ 표시
-      ctx.fillStyle = T.figMuted; ctx.font = '13px ' + T.fontBody; ctx.textAlign = 'center';
+      ctx.fillStyle = T.figInk; ctx.font = '18px ' + T.fontBody; ctx.textAlign = 'center';
       for (k = 0; k < n - 1; k++) {
         if (narrow && k % 2 === 1) continue;
         var p = panels[k]; ctx.fillText('↔', p.x + p.w, p.y + p.h * 0.48);
@@ -207,7 +207,7 @@ Sims.register('mj-arenium-explorer', {
       for (var e = lo; e <= hi; e += 3) { line([lx - 3, Y(e)], [lx, Y(e)]); ctx.fillText('10' + (e < 0 ? '⁻' + sup(String(-e)) : sup(String(e))), lx - 5, Y(e) + 4); }
       line([lx, top], [lx, bot]);
       ctx.setLineDash([5, 4]); ctx.strokeStyle = T.figInk; line([lx, Y(0)], [x + w, Y(0)]); ctx.setLineDash([]);
-      ctx.textAlign = 'right'; ctx.fillStyle = T.figInk; ctx.fillText('벤젠 = 1', x + w, Y(0) - 4);
+      ctx.textAlign = 'left'; ctx.fillStyle = T.figInk; ctx.fillText('벤젠 = 1', lx + 4, Y(0) - 4);
       ['오쏘', '메타', '파라'].forEach(function (nm, k) {
         var cx = lx + bw * (k + 0.5);
         ctx.textAlign = 'center'; ctx.fillStyle = (k + 2 === st.a) ? T.figViolet : T.figMuted; ctx.fillText(nm, cx, bot + 14);
