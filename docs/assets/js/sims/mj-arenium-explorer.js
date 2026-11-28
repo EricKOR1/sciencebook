@@ -69,7 +69,7 @@ Sims.register('mj-arenium-explorer', {
       if (s.iv) return S.kind === 'donor' ? { c: 'g', t: '옥텟 완성 · 큰 기여' } : { c: 'a', t: '할로늄형 · 기여 작음' };
       if (s.plus !== 1) return null;
       if (S.kind === 'alkyl') return { c: 'g', t: '3차 양이온 · 안정' };
-      if (S.kind === 'donor' || S.kind === 'halo') return { c: 'g0', t: 'Y의 전자쌍 옆 ⊕' };
+      if (S.kind === 'donor' || S.kind === 'halo') return { c: 'g0', t: 'Y 전자쌍 이웃' };
       if (S.kind === 'acc') return { c: 'r', t: '양전하 이웃 · 불안정' };
       return null;
     }
