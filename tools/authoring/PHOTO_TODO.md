@@ -35,3 +35,17 @@
 - m1-02-light-microscope: 맨 위 관(사진 촬영용)에 '접안렌즈' 지시선이 가는 것.
 - uearth-10-terrestrial-surfaces: 화성 사진을 "바이킹 궤도선" 사진이라고 쓴 것.
 - bio-3-galapagos-finches: 핀치 국명 대응.
+- chem-1-one-mole-compounds: 시료 이름의 위치(원본: 왼쪽 위부터 시계 방향으로 1-옥탄올, HgI₂, 메탄올, S₈).
+- uphy-5-smoke-laminar-turbulent: 흰 판 이름표와 글자의 맞춤. uphy-6-ripple-tank-interference: 원본 해상도가 낮다.
+- m3-03-gulf-stream-sst: "멕시코 만류" 이름표(원고에는 없는 용어).
+
+## 못 찾은 자리(계속)
+
+| 단원 | 넣을 자리 | 검색어 또는 파일 |
+|---|---|---|
+| m3-02 | 층운형 구름, 눈이 뚜렷한 태풍 | "stratus cloud", "nimbostratus", "Typhoon eye Himawari" |
+| chem-2 | 대전체에 휘는 물줄기, 물의 전기 분해 실물 | "water stream charged rod", "Hofmann voltameter" |
+| chem-3 | NO₂–N₂O₄ 의 온도별 색, 코발트 착이온의 색 변화 (`chem-3-temperature-tubes` 앞) | "nitrogen dioxide temperature equilibrium", "cobalt chloride equilibrium" |
+| chem-4 | 부피 플라스크·피펫 | "volumetric flask" |
+| uphy-5 | 타코마 다리, 초음속 충격파 | "Tacoma Narrows Bridge 1940 collapse", "FA-18 Hornet sonic boom vapor cone" |
+| uphy-11 | 광섬유의 전반사, CD 의 회절색 | "optical fiber light total internal reflection" |
