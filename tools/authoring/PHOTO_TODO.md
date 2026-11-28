@@ -49,3 +49,12 @@
 | chem-4 | 부피 플라스크·피펫 | "volumetric flask" |
 | uphy-5 | 타코마 다리, 초음속 충격파 | "Tacoma Narrows Bridge 1940 collapse", "FA-18 Hornet sonic boom vapor cone" |
 | uphy-11 | 광섬유의 전반사, CD 의 회절색 | "optical fiber light total internal reflection" |
+
+## 같은 원본을 두 단원이 쓴 것 (동시에 작업하다 겹침 — 검수 때 한쪽을 바꿀지 판단)
+
+- 건물 열화상(College Physics 2e 14.7): `m1-03-building-thermograph`, `mech-2-building-thermograph`
+- 헤모글로빈 리본 모형(Chemistry 2e 19.2): `ubio-1-hemoglobin-ribbon`, `2-5-hemoglobin-structure`
+- 사람 핵형(NHGRI): `m3-06-human-karyotype`, `bio-3-karyotype`
+- 체세포 분열 형광 사진(Roy van Heesbeen): `m3-06-mitosis-micrographs`, `bio-3-mitosis-micrographs`
+- 광학·전자 현미경 비교(살모넬라): `cell-1-light-vs-sem`, `ubio-2-light-vs-sem`
+- 독수리 성운의 기둥, 개미 성운: `2-2-*`, `uearth-11-*`
