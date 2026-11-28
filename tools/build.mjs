@@ -117,6 +117,7 @@ const photoCredit = (p) => {
   const parts = groups.map((g) => [g.authors.map(escapeHtml).join(', '), link(g.e), lic(g.e)].filter(Boolean).join(', '));
   return `출처: ${parts.join(' / ')}${p.changes ? ` · ${escapeHtml(p.changes)}` : ''}`;
 };
+// 이름표 없는 작은 원본(너비 720 미만)은 원래 크기보다 키우지 않는다(흐려지지 않게).
 function photoFigure(name, p) {
   const labels = (p.labels || []).map((l) => `<text x="${l.x}" y="${l.y}" text-anchor="${l.anchor || 'start'}" class="${l.sub ? 'pl-sub' : 'pl-main'}">${escapeHtml(l.text)}</text>`).join('');
   const overlay = labels ? `<svg class="photo-labels" viewBox="0 0 ${p.w} ${p.h}" aria-hidden="true">${labels}</svg>` : '';
@@ -124,7 +125,7 @@ function photoFigure(name, p) {
   const media = /\.(webm|mp4)$/i.test(p.file)
     ? `<video src="assets/photos/${p.file}" width="${p.w}" height="${p.h}" controls loop muted playsinline preload="metadata" aria-label="${escapeHtml(p.alt || p.title)}"></video>`
     : `<img src="assets/photos/${p.file}" width="${p.w}" height="${p.h}" alt="${escapeHtml(p.alt || p.title)}" loading="lazy">`;
-  return `<figure class="photo${labels ? ' labeled' : ''}${anim ? ' anim' : ''}${p.w <= 560 ? ' small' : ''}${p.h > p.w * 1.1 ? ' tall' : ''}" id="photo-${name}"><div class="photo-art"><div class="photo-stack">${media}${overlay}</div></div>`
+  return `<figure class="photo${labels ? ' labeled' : ''}${anim ? ' anim' : ''}${p.w <= 560 ? ' small' : ''}${p.h > p.w * 1.1 ? ' tall' : ''}" id="photo-${name}"><div class="photo-art"><div class="photo-stack"${!labels && p.w < 720 ? ` style="max-width:${p.w}px"` : ''}>${media}${overlay}</div></div>`
     + `<figcaption><b>${escapeHtml(p.title)}</b>${p.caption ? ` ${escapeHtml(p.caption)}` : ''} <span class="credit">${photoCredit(p)}</span></figcaption></figure>`;
 }
 const slug = (s) => s.toLowerCase().replace(/<[^>]+>/g, '').replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-|-$/g, '') || 'sec';
