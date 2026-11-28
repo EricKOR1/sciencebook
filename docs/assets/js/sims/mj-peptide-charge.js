@@ -94,13 +94,14 @@ Sims.register('mj-peptide-charge', {
       ctx.font = '600 12px ' + T.fontBody; ctx.fillStyle = T.figInk; ctx.textAlign = 'left';
       ctx.fillText('pH ' + st.pH.toFixed(2) + '에서 이온화된 분율', bx0, by0 + 10);
       var n = st.groups.length, rowH = Math.min(24, (bh - 20) / Math.max(n, 1)), lw = 78;
+      var fz = Math.max(8, Math.min(11, rowH - 1)), every = Math.max(1, Math.ceil(9 / rowH));   // 행이 좁으면 글자를 줄이고 몇 행마다 이름표(겹침 방지)
       st.groups.forEach(function (g, k) {
-        var y = by0 + 22 + k * rowH, f = frac(g, st.pH);
-        ctx.font = '11px ' + T.fontBody; ctx.fillStyle = T.figInk; ctx.textAlign = 'left'; ctx.fillText(g.n, bx0, y + rowH * 0.6);
+        var y = by0 + 22 + k * rowH, f = frac(g, st.pH), showT = k % every === 0;
+        ctx.font = fz + 'px ' + T.fontBody; ctx.fillStyle = T.figInk; ctx.textAlign = 'left'; if (showT) ctx.fillText(g.n, bx0, y + rowH * 0.5 + fz * 0.35);
         ctx.fillStyle = T.figPanel; ctx.fillRect(bx0 + lw, y + 3, bw - lw - 44, rowH - 7);
         ctx.fillStyle = g.s > 0 ? T.figBlue : T.figRed; ctx.fillRect(bx0 + lw, y + 3, (bw - lw - 44) * f, rowH - 7);
         ctx.strokeStyle = T.figLine; ctx.strokeRect(bx0 + lw, y + 3, bw - lw - 44, rowH - 7);
-        ctx.fillStyle = T.figInk; ctx.textAlign = 'right'; ctx.fillText((g.s > 0 ? '+' : '−') + f.toFixed(2), bx0 + bw, y + rowH * 0.6);
+        ctx.fillStyle = T.figInk; ctx.textAlign = 'right'; if (showT) ctx.fillText((g.s > 0 ? '+' : '−') + f.toFixed(2), bx0 + bw, y + rowH * 0.5 + fz * 0.35);
       });
       // 전기 영동
       var ey = narrow ? h - 30 : h - 44, ex0 = narrow ? 30 : bx0 + 14, ex1 = narrow ? w - 30 : w - 26, ec = (ex0 + ex1) / 2;
