@@ -216,7 +216,7 @@ Sims.register('mj-arenium-explorer', {
           var y0 = Y(0), y1 = Y(lg);
           ctx.fillStyle = f >= 1 ? T.figSoftGreen : T.figSoftRed; ctx.strokeStyle = f >= 1 ? T.figGreen : T.figRed;
           ctx.fillRect(cx - bw * 0.26, Math.min(y0, y1), bw * 0.52, Math.abs(y1 - y0) || 1.5); ctx.strokeRect(cx - bw * 0.26, Math.min(y0, y1), bw * 0.52, Math.abs(y1 - y0) || 1.5);
-          ctx.fillStyle = T.figInk; ctx.fillText(fmt(f), cx, f >= 1 ? y1 - 4 : y1 + 13);
+          ctx.fillStyle = T.figInk; ctx.fillText(fmt(f), cx, f >= 1 ? y1 - 4 : Math.min(y1 + 13, bot - 4));
         }
       });
       if (!(S.k && S.r)) { ctx.fillStyle = T.figMuted; ctx.textAlign = 'center'; ctx.fillText('정성적(상대 속도 자료 없음)', lx + (w - 34) / 2, top + 16); }
