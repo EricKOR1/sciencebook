@@ -102,13 +102,20 @@ const escapeHtml = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace
 //   source_name 은 출처 링크에 쓸 이름(없으면 Wikimedia Commons). 예: 'OpenStax 《Biology 2e》 그림 4.8'
 // labels 는 그림 위에 얹는 한글 이름표(좌표는 그림의 w×h 기준).
 const photoCredit = (p) => {
-  const bits = [];
-  if (p.author && !(/^OpenStax( \(Rice University\))?$/.test(p.author) && /^OpenStax/.test(p.source_name || ''))) bits.push(escapeHtml(p.author));
-  if (p.source) bits.push(`<a href="${escapeHtml(p.source)}" rel="noopener">${escapeHtml(p.source_name || 'Wikimedia Commons')}</a>`);
-  if (p.license) bits.push(p.license_url ? `<a href="${escapeHtml(p.license_url)}" rel="noopener">${escapeHtml(p.license)}</a>` : escapeHtml(p.license));
-  const more = (p.more || []).map((m) => [m.author ? escapeHtml(m.author) : '', `<a href="${escapeHtml(m.source)}" rel="noopener">${escapeHtml(m.source_name || 'Wikimedia Commons')}</a>`,
-    m.license_url ? `<a href="${escapeHtml(m.license_url)}" rel="noopener">${escapeHtml(m.license)}</a>` : escapeHtml(m.license || '')].filter(Boolean).join(', '));
-  return `출처: ${[bits.join(', '), ...more].join(' / ')}${p.changes ? ` · ${escapeHtml(p.changes)}` : ''}`;
+  // 사진판(여러 장 모음)은 출처가 같은 것끼리 묶어 한 번만 적는다.
+  const link = (e) => (e.source ? `<a href="${escapeHtml(e.source)}" rel="noopener">${escapeHtml(e.source_name || 'Wikimedia Commons')}</a>` : '');
+  const lic = (e) => (e.license ? (e.license_url ? `<a href="${escapeHtml(e.license_url)}" rel="noopener">${escapeHtml(e.license)}</a>` : escapeHtml(e.license)) : '');
+  const plain = (e) => !e.author || (/^OpenStax( \(Rice University\))?$/.test(e.author) && /^OpenStax/.test(e.source_name || ''));
+  const base = (a) => a.replace(/\s*\(OpenStax[^)]*\)\s*$/, '').trim();
+  const groups = [];
+  for (const e of [p, ...(p.more || [])]) {
+    const key = `${e.source}|${e.source_name}|${e.license}`;
+    let g = groups.find((x) => x.key === key);
+    if (!g) { g = { key, e, authors: [] }; groups.push(g); }
+    if (!plain(e) && !g.authors.some((a) => a.includes(base(e.author))) && !(p.author || '').includes(base(e.author)) || e === p && !plain(e)) g.authors.push(e.author);
+  }
+  const parts = groups.map((g) => [g.authors.map(escapeHtml).join(', '), link(g.e), lic(g.e)].filter(Boolean).join(', '));
+  return `출처: ${parts.join(' / ')}${p.changes ? ` · ${escapeHtml(p.changes)}` : ''}`;
 };
 function photoFigure(name, p) {
   const labels = (p.labels || []).map((l) => `<text x="${l.x}" y="${l.y}" text-anchor="${l.anchor || 'start'}" class="${l.sub ? 'pl-sub' : 'pl-main'}">${escapeHtml(l.text)}</text>`).join('');
