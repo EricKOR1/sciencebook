@@ -3,7 +3,7 @@ Sims.register('mj-arenium-explorer', {
   title: '아레늄 이온 공명 탐색기 — 치환기 Y와 공격 자리(오쏘·메타·파라)',
   caption: '치환기 Y와 공격 자리를 고르면 나이트로화(친전자체 NO₂⁺)의 아레늄 이온 공명 구조가 차례로 그려지고, 보라색 굽은 화살표가 다음 구조로 옮겨 가는 π 전자쌍(또는 Y의 전자쌍)을 보여 준다. ' +
     '⊕가 Y가 붙은 C1에 오는 구조는 Y에 따라 초록(3차 양이온, 옥텟 완성 구조로 안정화)이나 빨강(양전하를 띤 원자 옆, 불안정화)으로 칠했다. 오쏘·파라에서만 그런 구조가 생기고 메타에서는 생기지 않는다. ' +
-    '아래 막대는 나이트로화의 생성물 비와 부분 속도 인자 f(로그 눈금, 점선 = 벤젠의 한 자리 = 1)이다. 값은 모두 대략값(톨루엔·클로로벤젠·나이트로벤젠은 본문 값)이며, 자료가 없는 치환기는 \'정성적\'으로 표시했다.',
+    '아래 막대는 나이트로화의 생성물 비와 부분 속도 인자 f(로그 눈금, 점선 = 벤젠의 한 자리 = 1)이다. 값은 모두 대략값이다. 톨루엔·클로로벤젠·나이트로벤젠은 본문 값이고, 브로모벤젠·벤즈알데하이드·벤조나이트릴·(트라이플루오로메틸)벤젠은 문헌의 대표값이며, 자료가 없는 치환기는 \'정성적\'으로 표시했다. 벤젠(Y = H)의 막대는 남은 다섯 자리의 통계 비(2 : 2 : 1)이고, 모든 자리의 f는 정의상 1이다.',
   init: function (api) {
     // kind: alkyl / donor(O,N: 넷째 구조 큰 기여) / halo(넷째 구조 작은 기여) / acceptor / none
     var SUBS = [
@@ -107,7 +107,7 @@ Sims.register('mj-arenium-explorer', {
       var dir = S.kind === 'acc' ? '메타 지향' : (S.kind === 'none' ? '—' : '오쏘·파라 지향');
       rDir.set(dir + (S.kind === 'halo' ? ' (비활성화)' : S.kind === 'acc' ? ' (비활성화)' : S.kind === 'none' ? '' : ' (활성화)'));
       rN.set(n + '개');
-      rK.set(S.k ? (S.k >= 0.01 ? String(S.k) : S.k.toExponential(0).replace('e-', '×10⁻').replace(/(\d+)$/, function (m) { return sup(m); })) : '정성적');
+      rK.set(S.k ? (S.n === 'H' ? '1' : '약 ' + (S.k >= 0.01 ? String(S.k) : S.k.toExponential(0).replace('e-', '×10⁻').replace(/(\d+)$/, function (m) { return sup(m); }))) : '정성적');
     }
     function sup(s) { var m = { '0': '⁰', '1': '¹', '2': '²', '3': '³', '4': '⁴', '5': '⁵', '6': '⁶', '7': '⁷', '8': '⁸', '9': '⁹' }; return s.split('').map(function (c) { return m[c]; }).join(''); }
 
@@ -212,7 +212,7 @@ Sims.register('mj-arenium-explorer', {
         var cx = lx + bw * (k + 0.5);
         ctx.textAlign = 'center'; ctx.fillStyle = (k + 2 === st.a) ? T.figViolet : T.figMuted; ctx.fillText(nm, cx, bot + 14);
         if (S.k && S.r) {
-          var f = (k === 2 ? 6 : 3) * S.k * S.r[k] / 100, lg = Math.max(lo, Math.log10(f));
+          var f = S.n === 'H' ? 1 : (k === 2 ? 6 : 3) * S.k * S.r[k] / 100, lg = Math.max(lo, Math.log10(f));
           var y0 = Y(0), y1 = Y(lg);
           ctx.fillStyle = f >= 1 ? T.figSoftGreen : T.figSoftRed; ctx.strokeStyle = f >= 1 ? T.figGreen : T.figRed;
           ctx.fillRect(cx - bw * 0.26, Math.min(y0, y1), bw * 0.52, Math.abs(y1 - y0) || 1.5); ctx.strokeRect(cx - bw * 0.26, Math.min(y0, y1), bw * 0.52, Math.abs(y1 - y0) || 1.5);
