@@ -2,52 +2,52 @@
   <title id="t-ochem-12-q-p9-wieland-miescher">그림 유기화학 12-21 문제 9 풀이 — 빌란트–미셔 케톤</title>
   <desc id="d-ochem-12-q-p9-wieland-miescher">위: 2-메틸사이클로헥세인-1,3-다이온의 엔올레이트(두 C=O 사이 C2)가 뷰트-3-엔-2-온의 β 탄소에 마이클 첨가하고(화살표 3개) 양성자 전달로 2-메틸-2-(3-옥소뷰틸)사이클로헥세인-1,3-다이온이 된다. 아래: 곁사슬 CH₃의 엔올레이트가 고리의 C=O 하나를 공격해(화살표 3개) 새 6원 고리(초록 원)의 β-하이드록시 케톤이 되고, E1cB 탈수로 빌란트–미셔 케톤이 된다. 별표는 고리 접합부의 사차 탄소.</desc>
   <style>.ochem-12-q-p9-wieland-miescher-t{font-size:14px;fill:var(--fig-ink)} .ochem-12-q-p9-wieland-miescher-b{font-size:14px;fill:var(--fig-ink);font-weight:600} .ochem-12-q-p9-wieland-miescher-h{font-size:15px;fill:var(--fig-ink);font-weight:700} .ochem-12-q-p9-wieland-miescher-s{font-size:13px;fill:var(--fig-muted)} .ochem-12-q-p9-wieland-miescher-n{font-size:13px;fill:var(--fig-muted)} .ochem-12-q-p9-wieland-miescher-r{font-size:13px;fill:var(--fig-red);font-weight:600} .ochem-12-q-p9-wieland-miescher-g{font-size:13px;fill:var(--fig-green);font-weight:600} .ochem-12-q-p9-wieland-miescher-v{font-size:13px;fill:var(--fig-violet)} .ochem-12-q-p9-wieland-miescher-pl{font-size:20px;fill:var(--fig-ink)} .ochem-12-q-p9-wieland-miescher-f{font-size:14px;fill:var(--fig-ink)}</style>
-  <circle cx="600.0" cy="356.9" r="11" style="fill:var(--fig-soft-green)"/>
-  <circle cx="625.0" cy="371.4" r="11" style="fill:var(--fig-soft-green)"/>
-  <circle cx="650.1" cy="356.9" r="11" style="fill:var(--fig-soft-green)"/>
-  <circle cx="650.1" cy="328.0" r="11" style="fill:var(--fig-soft-green)"/>
-  <circle cx="625.0" cy="313.5" r="11" style="fill:var(--fig-soft-green)"/>
-  <circle cx="600.0" cy="328.0" r="11" style="fill:var(--fig-soft-green)"/>
-  <circle cx="350.0" cy="357.1" r="11" style="fill:var(--fig-soft-green)"/>
-  <circle cx="375.2" cy="371.6" r="11" style="fill:var(--fig-soft-green)"/>
-  <circle cx="400.3" cy="357.1" r="11" style="fill:var(--fig-soft-green)"/>
-  <circle cx="400.3" cy="328.0" r="11" style="fill:var(--fig-soft-green)"/>
-  <circle cx="375.2" cy="313.5" r="11" style="fill:var(--fig-soft-green)"/>
-  <circle cx="350.0" cy="328.0" r="11" style="fill:var(--fig-soft-green)"/>
+  <circle cx="600.0" cy="356.9" r="11" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2;stroke-opacity:0.8"/>
+  <circle cx="625.0" cy="371.4" r="11" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2;stroke-opacity:0.8"/>
+  <circle cx="650.1" cy="356.9" r="11" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2;stroke-opacity:0.8"/>
+  <circle cx="650.1" cy="328.0" r="11" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2;stroke-opacity:0.8"/>
+  <circle cx="625.0" cy="313.5" r="11" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2;stroke-opacity:0.8"/>
+  <circle cx="600.0" cy="328.0" r="11" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2;stroke-opacity:0.8"/>
+  <circle cx="350.0" cy="357.1" r="11" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2;stroke-opacity:0.8"/>
+  <circle cx="375.2" cy="371.6" r="11" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2;stroke-opacity:0.8"/>
+  <circle cx="400.3" cy="357.1" r="11" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2;stroke-opacity:0.8"/>
+  <circle cx="400.3" cy="328.0" r="11" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2;stroke-opacity:0.8"/>
+  <circle cx="375.2" cy="313.5" r="11" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2;stroke-opacity:0.8"/>
+  <circle cx="350.0" cy="328.0" r="11" style="fill:var(--fig-soft-green);stroke:var(--fig-green);stroke-width:1.2;stroke-opacity:0.8"/>
   <text x="14.0" y="22.0" class="ochem-12-q-p9-wieland-miescher-h" text-anchor="start">마이클 첨가</text>
-  <g transform="translate(45.4,53.2)"><g class="ochem-12-q-p9-wieland-miescher-d">
-<path class="ochem-12-q-p9-wieland-miescher-d-bond-0 ochem-12-q-p9-wieland-miescher-d-atom-0 ochem-12-q-p9-wieland-miescher-d-atom-1" d="M 54.6,30.5 L 54.6,52.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-d-bond-1 ochem-12-q-p9-wieland-miescher-d-atom-1 ochem-12-q-p9-wieland-miescher-d-atom-2" d="M 47.9,55.0 L 30.0,44.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-d-bond-2 ochem-12-q-p9-wieland-miescher-d-atom-2 ochem-12-q-p9-wieland-miescher-d-atom-3" d="M 32.3,45.9 L 32.3,35.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-d-bond-2 ochem-12-q-p9-wieland-miescher-d-atom-2 ochem-12-q-p9-wieland-miescher-d-atom-3" d="M 32.3,35.8 L 32.3,25.7" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-d-bond-2 ochem-12-q-p9-wieland-miescher-d-atom-2 ochem-12-q-p9-wieland-miescher-d-atom-3" d="M 27.7,45.9 L 27.7,35.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-d-bond-2 ochem-12-q-p9-wieland-miescher-d-atom-2 ochem-12-q-p9-wieland-miescher-d-atom-3" d="M 27.7,35.8 L 27.7,25.7" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-d-bond-3 ochem-12-q-p9-wieland-miescher-d-atom-2 ochem-12-q-p9-wieland-miescher-d-atom-4" d="M 30.0,44.6 L 5.5,58.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-d-bond-4 ochem-12-q-p9-wieland-miescher-d-atom-4 ochem-12-q-p9-wieland-miescher-d-atom-5" d="M 5.5,58.8 L 5.5,87.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-d-bond-5 ochem-12-q-p9-wieland-miescher-d-atom-5 ochem-12-q-p9-wieland-miescher-d-atom-6" d="M 5.5,87.2 L 30.0,101.3" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-d-bond-6 ochem-12-q-p9-wieland-miescher-d-atom-6 ochem-12-q-p9-wieland-miescher-d-atom-7" d="M 30.0,101.3 L 54.6,87.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-d-bond-7 ochem-12-q-p9-wieland-miescher-d-atom-7 ochem-12-q-p9-wieland-miescher-d-atom-8" d="M 52.3,88.5 L 52.3,98.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-d-bond-7 ochem-12-q-p9-wieland-miescher-d-atom-7 ochem-12-q-p9-wieland-miescher-d-atom-8" d="M 52.3,98.7 L 52.3,108.9" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-d-bond-7 ochem-12-q-p9-wieland-miescher-d-atom-7 ochem-12-q-p9-wieland-miescher-d-atom-8" d="M 56.8,65.5 L 56.8,98.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-d-bond-7 ochem-12-q-p9-wieland-miescher-d-atom-7 ochem-12-q-p9-wieland-miescher-d-atom-8" d="M 56.8,98.7 L 56.8,108.9" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-d-bond-8 ochem-12-q-p9-wieland-miescher-d-atom-7 ochem-12-q-p9-wieland-miescher-d-atom-1" d="M 54.6,87.2 L 54.6,68.3" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path d="M 30.9,45.2 L 30.0,44.6 L 28.8,45.3" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<path d="M 6.7,58.1 L 5.5,58.8 L 5.5,60.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<path d="M 5.5,85.7 L 5.5,87.2 L 6.7,87.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<path d="M 28.8,100.6 L 30.0,101.3 L 31.2,100.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<path d="M 53.3,87.9 L 54.6,87.2 L 54.6,86.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<text x="25.8" y="23.3" class="ochem-12-q-p9-wieland-miescher-d-atom-3" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >O</text>
-<text x="50.4" y="122.5" class="ochem-12-q-p9-wieland-miescher-d-atom-8" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >O</text>
+  <g transform="translate(42.5,55.0)"><g class="ochem-12-q-p9-wieland-miescher-d">
+<path class="ochem-12-q-p9-wieland-miescher-d-bond-0 ochem-12-q-p9-wieland-miescher-d-atom-0 ochem-12-q-p9-wieland-miescher-d-atom-1" d="M 57.5,28.2 L 57.5,50.3" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-d-bond-1 ochem-12-q-p9-wieland-miescher-d-atom-1 ochem-12-q-p9-wieland-miescher-d-atom-2" d="M 50.8,53.1 L 32.5,42.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-d-bond-2 ochem-12-q-p9-wieland-miescher-d-atom-2 ochem-12-q-p9-wieland-miescher-d-atom-3" d="M 34.8,43.9 L 34.8,33.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-d-bond-2 ochem-12-q-p9-wieland-miescher-d-atom-2 ochem-12-q-p9-wieland-miescher-d-atom-3" d="M 34.8,33.6 L 34.8,23.3" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-d-bond-2 ochem-12-q-p9-wieland-miescher-d-atom-2 ochem-12-q-p9-wieland-miescher-d-atom-3" d="M 30.2,43.9 L 30.2,33.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-d-bond-2 ochem-12-q-p9-wieland-miescher-d-atom-2 ochem-12-q-p9-wieland-miescher-d-atom-3" d="M 30.2,33.6 L 30.2,23.3" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-d-bond-3 ochem-12-q-p9-wieland-miescher-d-atom-2 ochem-12-q-p9-wieland-miescher-d-atom-4" d="M 32.5,42.6 L 7.6,57.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-d-bond-4 ochem-12-q-p9-wieland-miescher-d-atom-4 ochem-12-q-p9-wieland-miescher-d-atom-5" d="M 7.6,57.0 L 7.6,85.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-d-bond-5 ochem-12-q-p9-wieland-miescher-d-atom-5 ochem-12-q-p9-wieland-miescher-d-atom-6" d="M 7.6,85.7 L 32.5,100.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-d-bond-6 ochem-12-q-p9-wieland-miescher-d-atom-6 ochem-12-q-p9-wieland-miescher-d-atom-7" d="M 32.5,100.1 L 57.5,85.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-d-bond-7 ochem-12-q-p9-wieland-miescher-d-atom-7 ochem-12-q-p9-wieland-miescher-d-atom-8" d="M 55.2,87.1 L 64.9,92.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-d-bond-7 ochem-12-q-p9-wieland-miescher-d-atom-7 ochem-12-q-p9-wieland-miescher-d-atom-8" d="M 64.9,92.7 L 74.6,98.3" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-d-bond-7 ochem-12-q-p9-wieland-miescher-d-atom-7 ochem-12-q-p9-wieland-miescher-d-atom-8" d="M 57.5,83.1 L 67.2,88.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-d-bond-7 ochem-12-q-p9-wieland-miescher-d-atom-7 ochem-12-q-p9-wieland-miescher-d-atom-8" d="M 67.2,88.7 L 76.9,94.3" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-d-bond-8 ochem-12-q-p9-wieland-miescher-d-atom-7 ochem-12-q-p9-wieland-miescher-d-atom-1" d="M 57.5,85.7 L 57.5,66.4" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path d="M 33.4,43.1 L 32.5,42.6 L 31.3,43.3" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 8.9,56.2 L 7.6,57.0 L 7.6,58.4" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 7.6,84.3 L 7.6,85.7 L 8.9,86.5" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 31.3,99.4 L 32.5,100.1 L 33.8,99.4" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 56.2,86.5 L 57.5,85.7 L 57.5,84.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<text x="28.3" y="20.8" class="ochem-12-q-p9-wieland-miescher-d-atom-3" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >O</text>
+<text x="78.2" y="107.1" class="ochem-12-q-p9-wieland-miescher-d-atom-8" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >O</text>
 </g></g><line x1="100.0" y1="112.0" x2="100.0" y2="99.0" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/><line x1="100.0" y1="112.0" x2="88.7" y2="105.5" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/><line x1="100.0" y1="112.0" x2="100.0" y2="125.0" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
   <circle cx="87.9" cy="119.0" r="6.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.2"/><line x1="84.6" y1="119.0" x2="91.2" y2="119.0" style="stroke:var(--fig-ink);stroke-width:1.4"/>
-  <circle cx="84.8" cy="62.0" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="80.1" cy="59.3" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="66.7" cy="62.9" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="64.0" cy="67.6" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="88.6" cy="174.6" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="91.3" cy="179.3" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="110.3" cy="179.3" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="113.0" cy="174.6" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="84.4" cy="61.3" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="79.7" cy="58.6" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="66.3" cy="62.2" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="63.6" cy="66.9" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="123.0" cy="169.6" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="128.4" cy="169.6" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="137.9" cy="153.2" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="135.2" cy="148.5" r="1.7" style="fill:var(--fig-ink)"/>
   <g transform="translate(125.4,62.7)"><g class="ochem-12-q-p9-wieland-miescher-mv">
 <path class="ochem-12-q-p9-wieland-miescher-mv-bond-0 ochem-12-q-p9-wieland-miescher-mv-atom-0 ochem-12-q-p9-wieland-miescher-mv-atom-1" d="M 7.6,37.3 L 32.3,51.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
 <path class="ochem-12-q-p9-wieland-miescher-mv-bond-0 ochem-12-q-p9-wieland-miescher-mv-atom-0 ochem-12-q-p9-wieland-miescher-mv-atom-1" d="M 9.9,33.3 L 32.3,46.3" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
@@ -79,109 +79,109 @@
   <text x="295.0" y="103.0" class="ochem-12-q-p9-wieland-miescher-s" text-anchor="middle">양성자</text>
   <text x="295.0" y="133.0" class="ochem-12-q-p9-wieland-miescher-s" text-anchor="middle">전달까지</text>
   <g transform="translate(357.3,53.4)"><g class="ochem-12-q-p9-wieland-miescher-tk">
-<path class="ochem-12-q-p9-wieland-miescher-tk-bond-0 ochem-12-q-p9-wieland-miescher-tk-atom-0 ochem-12-q-p9-wieland-miescher-tk-atom-1" d="M 87.9,102.2 L 113.0,87.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-tk-bond-1 ochem-12-q-p9-wieland-miescher-tk-atom-1 ochem-12-q-p9-wieland-miescher-tk-atom-2" d="M 110.7,89.0 L 120.5,94.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-tk-bond-1 ochem-12-q-p9-wieland-miescher-tk-atom-1 ochem-12-q-p9-wieland-miescher-tk-atom-2" d="M 120.5,94.7 L 130.3,100.3" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-tk-bond-1 ochem-12-q-p9-wieland-miescher-tk-atom-1 ochem-12-q-p9-wieland-miescher-tk-atom-2" d="M 113.0,85.0 L 122.8,90.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-tk-bond-1 ochem-12-q-p9-wieland-miescher-tk-atom-1 ochem-12-q-p9-wieland-miescher-tk-atom-2" d="M 122.8,90.7 L 132.6,96.3" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-tk-bond-2 ochem-12-q-p9-wieland-miescher-tk-atom-1 ochem-12-q-p9-wieland-miescher-tk-atom-3" d="M 113.0,87.7 L 113.0,58.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-tk-bond-3 ochem-12-q-p9-wieland-miescher-tk-atom-3 ochem-12-q-p9-wieland-miescher-tk-atom-4" d="M 113.0,58.6 L 87.9,44.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-tk-bond-4 ochem-12-q-p9-wieland-miescher-tk-atom-4 ochem-12-q-p9-wieland-miescher-tk-atom-5" d="M 87.9,44.1 L 62.7,58.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-tk-bond-5 ochem-12-q-p9-wieland-miescher-tk-atom-5 ochem-12-q-p9-wieland-miescher-tk-atom-6" d="M 62.7,58.6 L 62.7,29.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-tk-bond-6 ochem-12-q-p9-wieland-miescher-tk-atom-5 ochem-12-q-p9-wieland-miescher-tk-atom-7" d="M 62.7,58.6 L 37.6,44.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-tk-bond-7 ochem-12-q-p9-wieland-miescher-tk-atom-7 ochem-12-q-p9-wieland-miescher-tk-atom-8" d="M 39.9,45.5 L 39.9,35.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-tk-bond-7 ochem-12-q-p9-wieland-miescher-tk-atom-7 ochem-12-q-p9-wieland-miescher-tk-atom-8" d="M 39.9,35.0 L 39.9,24.6" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-tk-bond-7 ochem-12-q-p9-wieland-miescher-tk-atom-7 ochem-12-q-p9-wieland-miescher-tk-atom-8" d="M 35.2,45.5 L 35.2,35.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-tk-bond-7 ochem-12-q-p9-wieland-miescher-tk-atom-7 ochem-12-q-p9-wieland-miescher-tk-atom-8" d="M 35.2,35.0 L 35.2,24.6" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-tk-bond-8 ochem-12-q-p9-wieland-miescher-tk-atom-7 ochem-12-q-p9-wieland-miescher-tk-atom-9" d="M 37.6,44.1 L 12.4,58.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-tk-bond-9 ochem-12-q-p9-wieland-miescher-tk-atom-9 ochem-12-q-p9-wieland-miescher-tk-atom-10" d="M 12.4,58.6 L 12.4,87.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-tk-bond-10 ochem-12-q-p9-wieland-miescher-tk-atom-10 ochem-12-q-p9-wieland-miescher-tk-atom-11" d="M 12.4,87.7 L 37.6,102.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-tk-bond-11 ochem-12-q-p9-wieland-miescher-tk-atom-11 ochem-12-q-p9-wieland-miescher-tk-atom-12" d="M 37.6,102.2 L 62.7,87.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-tk-bond-12 ochem-12-q-p9-wieland-miescher-tk-atom-12 ochem-12-q-p9-wieland-miescher-tk-atom-13" d="M 60.4,89.0 L 60.4,99.5" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-tk-bond-12 ochem-12-q-p9-wieland-miescher-tk-atom-12 ochem-12-q-p9-wieland-miescher-tk-atom-13" d="M 60.4,99.5 L 60.4,110.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-tk-bond-12 ochem-12-q-p9-wieland-miescher-tk-atom-12 ochem-12-q-p9-wieland-miescher-tk-atom-13" d="M 65.0,65.3 L 65.0,99.5" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-tk-bond-12 ochem-12-q-p9-wieland-miescher-tk-atom-12 ochem-12-q-p9-wieland-miescher-tk-atom-13" d="M 65.0,99.5 L 65.0,110.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-tk-bond-13 ochem-12-q-p9-wieland-miescher-tk-atom-12 ochem-12-q-p9-wieland-miescher-tk-atom-5" d="M 62.7,87.7 L 62.7,58.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path d="M 111.8,88.4 L 113.0,87.7 L 113.0,86.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<path d="M 113.0,60.1 L 113.0,58.6 L 111.8,57.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<path d="M 89.1,44.8 L 87.9,44.1 L 86.6,44.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<path d="M 38.8,44.8 L 37.6,44.1 L 36.3,44.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<path d="M 13.7,57.9 L 12.4,58.6 L 12.4,60.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<path d="M 12.4,86.2 L 12.4,87.7 L 13.7,88.4" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<path d="M 36.3,101.5 L 37.6,102.2 L 38.8,101.5" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<path d="M 61.5,88.4 L 62.7,87.7 L 62.7,86.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<text x="134.0" y="109.2" class="ochem-12-q-p9-wieland-miescher-tk-atom-2" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >O</text>
-<text x="33.4" y="22.1" class="ochem-12-q-p9-wieland-miescher-tk-atom-8" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >O</text>
-<text x="58.5" y="123.7" class="ochem-12-q-p9-wieland-miescher-tk-atom-13" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >O</text>
+<path class="ochem-12-q-p9-wieland-miescher-tk-bond-0 ochem-12-q-p9-wieland-miescher-tk-atom-0 ochem-12-q-p9-wieland-miescher-tk-atom-1" d="M 87.9,102.1 L 113.0,87.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-tk-bond-1 ochem-12-q-p9-wieland-miescher-tk-atom-1 ochem-12-q-p9-wieland-miescher-tk-atom-2" d="M 110.7,88.9 L 120.5,94.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-tk-bond-1 ochem-12-q-p9-wieland-miescher-tk-atom-1 ochem-12-q-p9-wieland-miescher-tk-atom-2" d="M 120.5,94.6 L 130.3,100.3" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-tk-bond-1 ochem-12-q-p9-wieland-miescher-tk-atom-1 ochem-12-q-p9-wieland-miescher-tk-atom-2" d="M 113.0,84.9 L 122.8,90.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-tk-bond-1 ochem-12-q-p9-wieland-miescher-tk-atom-1 ochem-12-q-p9-wieland-miescher-tk-atom-2" d="M 122.8,90.6 L 132.6,96.2" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-tk-bond-2 ochem-12-q-p9-wieland-miescher-tk-atom-1 ochem-12-q-p9-wieland-miescher-tk-atom-3" d="M 113.0,87.6 L 113.0,58.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-tk-bond-3 ochem-12-q-p9-wieland-miescher-tk-atom-3 ochem-12-q-p9-wieland-miescher-tk-atom-4" d="M 113.0,58.6 L 87.9,44.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-tk-bond-4 ochem-12-q-p9-wieland-miescher-tk-atom-4 ochem-12-q-p9-wieland-miescher-tk-atom-5" d="M 87.9,44.0 L 62.7,58.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-tk-bond-5 ochem-12-q-p9-wieland-miescher-tk-atom-5 ochem-12-q-p9-wieland-miescher-tk-atom-6" d="M 62.7,58.6 L 62.7,29.5" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-tk-bond-6 ochem-12-q-p9-wieland-miescher-tk-atom-5 ochem-12-q-p9-wieland-miescher-tk-atom-7" d="M 62.7,58.6 L 37.6,44.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-tk-bond-7 ochem-12-q-p9-wieland-miescher-tk-atom-7 ochem-12-q-p9-wieland-miescher-tk-atom-8" d="M 39.9,45.4 L 39.9,34.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-tk-bond-7 ochem-12-q-p9-wieland-miescher-tk-atom-7 ochem-12-q-p9-wieland-miescher-tk-atom-8" d="M 39.9,34.9 L 39.9,24.5" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-tk-bond-7 ochem-12-q-p9-wieland-miescher-tk-atom-7 ochem-12-q-p9-wieland-miescher-tk-atom-8" d="M 35.2,45.4 L 35.2,34.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-tk-bond-7 ochem-12-q-p9-wieland-miescher-tk-atom-7 ochem-12-q-p9-wieland-miescher-tk-atom-8" d="M 35.2,34.9 L 35.2,24.5" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-tk-bond-8 ochem-12-q-p9-wieland-miescher-tk-atom-7 ochem-12-q-p9-wieland-miescher-tk-atom-9" d="M 37.6,44.0 L 12.4,58.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-tk-bond-9 ochem-12-q-p9-wieland-miescher-tk-atom-9 ochem-12-q-p9-wieland-miescher-tk-atom-10" d="M 12.4,58.6 L 12.4,87.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-tk-bond-10 ochem-12-q-p9-wieland-miescher-tk-atom-10 ochem-12-q-p9-wieland-miescher-tk-atom-11" d="M 12.4,87.6 L 37.6,102.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-tk-bond-11 ochem-12-q-p9-wieland-miescher-tk-atom-11 ochem-12-q-p9-wieland-miescher-tk-atom-12" d="M 37.6,102.1 L 62.7,87.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-tk-bond-12 ochem-12-q-p9-wieland-miescher-tk-atom-12 ochem-12-q-p9-wieland-miescher-tk-atom-13" d="M 60.6,88.8 L 63.4,99.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-tk-bond-12 ochem-12-q-p9-wieland-miescher-tk-atom-12 ochem-12-q-p9-wieland-miescher-tk-atom-13" d="M 63.4,99.2 L 66.2,109.6" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-tk-bond-12 ochem-12-q-p9-wieland-miescher-tk-atom-12 ochem-12-q-p9-wieland-miescher-tk-atom-13" d="M 62.7,78.6 L 67.9,98.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-tk-bond-12 ochem-12-q-p9-wieland-miescher-tk-atom-12 ochem-12-q-p9-wieland-miescher-tk-atom-13" d="M 67.9,98.0 L 70.7,108.4" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-tk-bond-13 ochem-12-q-p9-wieland-miescher-tk-atom-12 ochem-12-q-p9-wieland-miescher-tk-atom-5" d="M 62.7,87.6 L 62.7,58.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path d="M 111.8,88.3 L 113.0,87.6 L 113.0,86.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 113.0,60.0 L 113.0,58.6 L 111.8,57.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 89.1,44.8 L 87.9,44.0 L 86.6,44.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 38.8,44.8 L 37.6,44.0 L 36.3,44.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 13.7,57.8 L 12.4,58.6 L 12.4,60.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 12.4,86.2 L 12.4,87.6 L 13.7,88.3" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 36.3,101.4 L 37.6,102.1 L 38.8,101.4" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 61.5,88.3 L 62.7,87.6 L 62.7,86.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<text x="134.0" y="109.1" class="ochem-12-q-p9-wieland-miescher-tk-atom-2" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >O</text>
+<text x="33.4" y="22.0" class="ochem-12-q-p9-wieland-miescher-tk-atom-8" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >O</text>
+<text x="66.0" y="122.7" class="ochem-12-q-p9-wieland-miescher-tk-atom-13" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >O</text>
 </g></g>
-  <circle cx="493.6" cy="170.1" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="499.0" cy="170.1" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="505.8" cy="166.2" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="508.5" cy="161.5" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="404.3" cy="61.0" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="399.6" cy="58.3" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="386.2" cy="61.9" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="383.5" cy="66.6" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="408.6" cy="176.0" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="411.3" cy="180.7" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="430.3" cy="180.7" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="433.0" cy="176.0" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="493.6" cy="170.0" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="499.0" cy="170.0" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="505.8" cy="166.1" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="508.5" cy="161.4" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="404.3" cy="60.9" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="399.6" cy="58.2" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="386.2" cy="61.8" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="383.5" cy="66.5" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="417.6" cy="178.0" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="421.4" cy="181.8" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="439.7" cy="176.9" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="441.1" cy="171.7" r="1.7" style="fill:var(--fig-ink)"/>
   <text x="560.0" y="92.0" class="ochem-12-q-p9-wieland-miescher-s" text-anchor="start">2-메틸-2-(3-옥소뷰틸)</text>
   <text x="560.0" y="110.0" class="ochem-12-q-p9-wieland-miescher-s" text-anchor="start">사이클로헥세인-1,3-다이온</text>
   <line x1="10.0" y1="214.0" x2="710.0" y2="214.0" style="stroke:var(--fig-line);stroke-width:0.8;stroke-linecap:round"/>
   <text x="14.0" y="238.0" class="ochem-12-q-p9-wieland-miescher-h" text-anchor="start">분자 내 알돌 → 탈수</text>
-  <g transform="translate(36.7,269.4)"><g class="ochem-12-q-p9-wieland-miescher-se">
-<path class="ochem-12-q-p9-wieland-miescher-se-bond-0 ochem-12-q-p9-wieland-miescher-se-atom-0 ochem-12-q-p9-wieland-miescher-se-atom-1" d="M 87.3,100.2 L 113.6,85.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+  <g transform="translate(36.7,269.5)"><g class="ochem-12-q-p9-wieland-miescher-se">
+<path class="ochem-12-q-p9-wieland-miescher-se-bond-0 ochem-12-q-p9-wieland-miescher-se-atom-0 ochem-12-q-p9-wieland-miescher-se-atom-1" d="M 87.3,100.1 L 113.7,84.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
 <path class="ochem-12-q-p9-wieland-miescher-se-bond-0 ochem-12-q-p9-wieland-miescher-se-atom-0 ochem-12-q-p9-wieland-miescher-se-atom-1" d="M 89.6,104.2 L 116.0,89.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-se-bond-1 ochem-12-q-p9-wieland-miescher-se-atom-1 ochem-12-q-p9-wieland-miescher-se-atom-2" d="M 113.6,87.7 L 122.9,93.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-se-bond-1 ochem-12-q-p9-wieland-miescher-se-atom-1 ochem-12-q-p9-wieland-miescher-se-atom-2" d="M 113.7,87.6 L 122.9,93.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
 <path class="ochem-12-q-p9-wieland-miescher-se-bond-1 ochem-12-q-p9-wieland-miescher-se-atom-1 ochem-12-q-p9-wieland-miescher-se-atom-2" d="M 122.9,93.0 L 132.1,98.3" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-se-bond-2 ochem-12-q-p9-wieland-miescher-se-atom-1 ochem-12-q-p9-wieland-miescher-se-atom-3" d="M 113.6,87.7 L 113.6,58.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-se-bond-3 ochem-12-q-p9-wieland-miescher-se-atom-3 ochem-12-q-p9-wieland-miescher-se-atom-4" d="M 113.6,58.6 L 88.5,44.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-se-bond-4 ochem-12-q-p9-wieland-miescher-se-atom-4 ochem-12-q-p9-wieland-miescher-se-atom-5" d="M 88.5,44.1 L 63.3,58.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-se-bond-5 ochem-12-q-p9-wieland-miescher-se-atom-5 ochem-12-q-p9-wieland-miescher-se-atom-6" d="M 63.3,58.6 L 63.3,29.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-se-bond-6 ochem-12-q-p9-wieland-miescher-se-atom-5 ochem-12-q-p9-wieland-miescher-se-atom-7" d="M 63.3,58.6 L 38.1,44.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-se-bond-7 ochem-12-q-p9-wieland-miescher-se-atom-7 ochem-12-q-p9-wieland-miescher-se-atom-8" d="M 40.5,45.4 L 40.5,35.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-se-bond-7 ochem-12-q-p9-wieland-miescher-se-atom-7 ochem-12-q-p9-wieland-miescher-se-atom-8" d="M 40.5,35.0 L 40.5,24.6" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-se-bond-7 ochem-12-q-p9-wieland-miescher-se-atom-7 ochem-12-q-p9-wieland-miescher-se-atom-8" d="M 35.8,45.4 L 35.8,35.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-se-bond-7 ochem-12-q-p9-wieland-miescher-se-atom-7 ochem-12-q-p9-wieland-miescher-se-atom-8" d="M 35.8,35.0 L 35.8,24.6" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-se-bond-8 ochem-12-q-p9-wieland-miescher-se-atom-7 ochem-12-q-p9-wieland-miescher-se-atom-9" d="M 38.1,44.1 L 13.0,58.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-se-bond-9 ochem-12-q-p9-wieland-miescher-se-atom-9 ochem-12-q-p9-wieland-miescher-se-atom-10" d="M 13.0,58.6 L 13.0,87.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-se-bond-10 ochem-12-q-p9-wieland-miescher-se-atom-10 ochem-12-q-p9-wieland-miescher-se-atom-11" d="M 13.0,87.7 L 38.1,102.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-se-bond-11 ochem-12-q-p9-wieland-miescher-se-atom-11 ochem-12-q-p9-wieland-miescher-se-atom-12" d="M 38.1,102.2 L 63.3,87.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-se-bond-12 ochem-12-q-p9-wieland-miescher-se-atom-12 ochem-12-q-p9-wieland-miescher-se-atom-13" d="M 61.0,89.0 L 61.0,99.5" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-se-bond-12 ochem-12-q-p9-wieland-miescher-se-atom-12 ochem-12-q-p9-wieland-miescher-se-atom-13" d="M 61.0,99.5 L 61.0,110.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-se-bond-12 ochem-12-q-p9-wieland-miescher-se-atom-12 ochem-12-q-p9-wieland-miescher-se-atom-13" d="M 65.6,65.3 L 65.6,99.5" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-se-bond-12 ochem-12-q-p9-wieland-miescher-se-atom-12 ochem-12-q-p9-wieland-miescher-se-atom-13" d="M 65.6,99.5 L 65.6,110.0" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
-<path class="ochem-12-q-p9-wieland-miescher-se-bond-13 ochem-12-q-p9-wieland-miescher-se-atom-12 ochem-12-q-p9-wieland-miescher-se-atom-5" d="M 63.3,87.7 L 63.3,58.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
-<path d="M 114.1,88.0 L 113.6,87.7 L 113.6,86.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<path d="M 113.6,60.1 L 113.6,58.6 L 112.4,57.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<path d="M 89.7,44.8 L 88.5,44.1 L 87.2,44.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<path d="M 39.4,44.8 L 38.1,44.1 L 36.9,44.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<path d="M 14.2,57.9 L 13.0,58.6 L 13.0,60.1" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<path d="M 13.0,86.2 L 13.0,87.7 L 14.2,88.4" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<path d="M 36.9,101.5 L 38.1,102.2 L 39.4,101.5" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
-<path d="M 62.0,88.4 L 63.3,87.7 L 63.3,86.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path class="ochem-12-q-p9-wieland-miescher-se-bond-2 ochem-12-q-p9-wieland-miescher-se-atom-1 ochem-12-q-p9-wieland-miescher-se-atom-3" d="M 113.7,87.6 L 113.7,58.5" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-se-bond-3 ochem-12-q-p9-wieland-miescher-se-atom-3 ochem-12-q-p9-wieland-miescher-se-atom-4" d="M 113.7,58.5 L 88.5,44.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-se-bond-4 ochem-12-q-p9-wieland-miescher-se-atom-4 ochem-12-q-p9-wieland-miescher-se-atom-5" d="M 88.5,44.0 L 63.3,58.5" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-se-bond-5 ochem-12-q-p9-wieland-miescher-se-atom-5 ochem-12-q-p9-wieland-miescher-se-atom-6" d="M 63.3,58.5 L 63.3,29.5" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-se-bond-6 ochem-12-q-p9-wieland-miescher-se-atom-5 ochem-12-q-p9-wieland-miescher-se-atom-7" d="M 63.3,58.5 L 38.1,44.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-se-bond-7 ochem-12-q-p9-wieland-miescher-se-atom-7 ochem-12-q-p9-wieland-miescher-se-atom-8" d="M 40.4,45.4 L 40.4,34.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-se-bond-7 ochem-12-q-p9-wieland-miescher-se-atom-7 ochem-12-q-p9-wieland-miescher-se-atom-8" d="M 40.4,34.9 L 40.4,24.4" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-se-bond-7 ochem-12-q-p9-wieland-miescher-se-atom-7 ochem-12-q-p9-wieland-miescher-se-atom-8" d="M 35.8,45.4 L 35.8,34.9" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-se-bond-7 ochem-12-q-p9-wieland-miescher-se-atom-7 ochem-12-q-p9-wieland-miescher-se-atom-8" d="M 35.8,34.9 L 35.8,24.4" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-se-bond-8 ochem-12-q-p9-wieland-miescher-se-atom-7 ochem-12-q-p9-wieland-miescher-se-atom-9" d="M 38.1,44.0 L 12.9,58.5" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-se-bond-9 ochem-12-q-p9-wieland-miescher-se-atom-9 ochem-12-q-p9-wieland-miescher-se-atom-10" d="M 12.9,58.5 L 12.9,87.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-se-bond-10 ochem-12-q-p9-wieland-miescher-se-atom-10 ochem-12-q-p9-wieland-miescher-se-atom-11" d="M 12.9,87.6 L 38.1,102.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-se-bond-11 ochem-12-q-p9-wieland-miescher-se-atom-11 ochem-12-q-p9-wieland-miescher-se-atom-12" d="M 38.1,102.2 L 63.3,87.6" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-se-bond-12 ochem-12-q-p9-wieland-miescher-se-atom-12 ochem-12-q-p9-wieland-miescher-se-atom-13" d="M 61.2,88.8 L 64.0,99.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-se-bond-12 ochem-12-q-p9-wieland-miescher-se-atom-12 ochem-12-q-p9-wieland-miescher-se-atom-13" d="M 64.0,99.2 L 66.8,109.6" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-se-bond-12 ochem-12-q-p9-wieland-miescher-se-atom-12 ochem-12-q-p9-wieland-miescher-se-atom-13" d="M 63.3,78.6 L 68.5,98.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-se-bond-12 ochem-12-q-p9-wieland-miescher-se-atom-12 ochem-12-q-p9-wieland-miescher-se-atom-13" d="M 68.5,98.0 L 71.3,108.4" style="fill:none;stroke:var(--fig-red);stroke-width:2.0px;stroke-linecap:butt" />
+<path class="ochem-12-q-p9-wieland-miescher-se-bond-13 ochem-12-q-p9-wieland-miescher-se-atom-12 ochem-12-q-p9-wieland-miescher-se-atom-5" d="M 63.3,87.6 L 63.3,58.5" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt" />
+<path d="M 114.1,87.9 L 113.7,87.6 L 113.7,86.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 113.7,60.0 L 113.7,58.5 L 112.4,57.8" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 89.7,44.7 L 88.5,44.0 L 87.2,44.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 39.4,44.7 L 38.1,44.0 L 36.9,44.7" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 14.2,57.8 L 12.9,58.5 L 12.9,60.0" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 12.9,86.2 L 12.9,87.6 L 14.2,88.3" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 36.9,101.4 L 38.1,102.2 L 39.4,101.4" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
+<path d="M 62.0,88.3 L 63.3,87.6 L 63.3,86.2" style="fill:none;stroke:var(--fig-ink);stroke-width:2.0px;stroke-linecap:butt;stroke-miterlimit:10;" />
 <text x="138.8" y="107.2" class="ochem-12-q-p9-wieland-miescher-se-atom-2" style="font-size:14px;stroke:none;text-anchor:middle;fill:var(--fig-red)" >O</text>
-<text x="33.9" y="22.1" class="ochem-12-q-p9-wieland-miescher-se-atom-8" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >O</text>
-<text x="59.1" y="123.7" class="ochem-12-q-p9-wieland-miescher-se-atom-13" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >O</text>
-</g></g><line x1="168.6" y1="367.6" x2="162.9" y2="364.3" style="stroke:var(--fig-red);stroke-width:2"/>
-  <circle cx="175.5" cy="385.6" r="6.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.2"/><line x1="172.2" y1="385.6" x2="178.8" y2="385.6" style="stroke:var(--fig-ink);stroke-width:1.4"/>
-  <circle cx="185.0" cy="380.2" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="187.7" cy="375.5" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="187.7" cy="367.7" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="185.0" cy="363.0" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="84.2" cy="277.0" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="79.5" cy="274.3" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="66.1" cy="277.9" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="63.4" cy="282.6" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="88.6" cy="392.0" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="91.3" cy="396.7" r="1.7" style="fill:var(--fig-ink)"/>
-  <path d="M 188.0 377.3 Q 186.8 361.2 174.1 360.1" style="fill:none;stroke:var(--fig-violet);stroke-width:1.7;stroke-linecap:round"/>
-  <path d="M 165.9 360.7 L 174.6 356.1 L 172.9 360.2 L 175.1 364.0 Z" style="fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:0.8;stroke-linejoin:round"/>
-  <path d="M 135.3 360.6 Q 126.7 353.9 119.2 357.1" style="fill:none;stroke:var(--fig-violet);stroke-width:1.7;stroke-linecap:round"/>
+<text x="33.9" y="21.9" class="ochem-12-q-p9-wieland-miescher-se-atom-8" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >O</text>
+<text x="66.6" y="122.7" class="ochem-12-q-p9-wieland-miescher-se-atom-13" style="font-size:14px;stroke:none;text-anchor:start;fill:var(--fig-red)" >O</text>
+</g></g><line x1="168.6" y1="367.7" x2="162.9" y2="364.4" style="stroke:var(--fig-red);stroke-width:2"/>
+  <circle cx="175.5" cy="385.7" r="6.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.2"/><line x1="172.2" y1="385.7" x2="178.8" y2="385.7" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <circle cx="185.0" cy="380.3" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="187.7" cy="375.6" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="187.7" cy="367.8" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="185.0" cy="363.1" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="84.2" cy="276.9" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="79.5" cy="274.2" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="66.1" cy="277.8" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="63.4" cy="282.5" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="97.6" cy="394.1" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="101.4" cy="397.9" r="1.7" style="fill:var(--fig-ink)"/>
+  <path d="M 188.0 377.4 Q 186.9 361.3 174.2 360.2" style="fill:none;stroke:var(--fig-violet);stroke-width:1.7;stroke-linecap:round"/>
+  <path d="M 166.0 360.7 L 174.7 356.1 L 173.0 360.3 L 175.2 364.1 Z" style="fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:0.8;stroke-linejoin:round"/>
+  <path d="M 135.4 360.6 Q 126.7 353.9 119.2 357.2" style="fill:none;stroke:var(--fig-violet);stroke-width:1.7;stroke-linecap:round"/>
   <path d="M 112.7 362.1 L 117.4 353.5 L 118.3 357.9 L 122.2 359.9 Z" style="fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:0.8;stroke-linejoin:round"/>
-  <path d="M 95.9 372.9 Q 89.0 376.1 87.2 379.1" style="fill:none;stroke:var(--fig-violet);stroke-width:1.7;stroke-linecap:round"/>
-  <path d="M 90.0 385.9 L 82.9 379.1 L 87.4 379.4 L 90.3 376.0 Z" style="fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:0.8;stroke-linejoin:round"/>
+  <path d="M 99.9 373.5 Q 93.9 378.3 92.9 381.7" style="fill:none;stroke:var(--fig-violet);stroke-width:1.7;stroke-linecap:round"/>
+  <path d="M 97.3 387.6 L 88.8 382.8 L 93.2 382.0 L 95.2 378.0 Z" style="fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:0.8;stroke-linejoin:round"/>
   <text x="100.0" y="420.0" class="ochem-12-q-p9-wieland-miescher-s" text-anchor="middle">곁사슬 CH₃의 엔올레이트</text>
   <line x1="214.0" y1="328.0" x2="246.0" y2="328.0" style="stroke:var(--fig-ink);stroke-width:1.8"/>
   <path d="M 254.0 328.0 L 244.0 332.5 L 246.5 328.0 L 244.0 323.5 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>

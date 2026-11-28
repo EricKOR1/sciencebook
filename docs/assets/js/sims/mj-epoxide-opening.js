@@ -72,7 +72,7 @@ Sims.register('mj-epoxide-opening', {
         var Ct = hit === 'a' ? A : B;
         var d = [Ct[0] - O[0], Ct[1] - O[1], Ct[2] - O[2]], L = Math.hypot(d[0], d[1], d[2]);
         d = [d[0] / L, d[1] / L, d[2] / L];
-        var far = 2.6 - 1.2 * st.t;
+        var far = 2.9 - 1.0 * st.t;   // 검토: 친핵체 공이 치환기 공과 겹치지 않게 조금 멀리
         var N = [Ct[0] + d[0] * far, Ct[1] + d[1] * far, Ct[2] + d[2] * far];
         g.sphere(N, 0.34, T.figSoftGreen, { label: c.nu, outline: T.figGreen });
         g.arrow([N[0] - d[0] * 0.3, N[1] - d[1] * 0.3, N[2] - d[2] * 0.3], [Ct[0] + d[0] * 0.38, Ct[1] + d[1] * 0.38, Ct[2] + d[2] * 0.38], T.figViolet, { width: 3 });
