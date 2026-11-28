@@ -543,7 +543,7 @@ $$
 \mathrm{RCOOH + SOCl_2 \longrightarrow RCOCl + SO_2(g) + HCl(g)}
 $$
 
-1. 카복실산의 산소 전자쌍 → $\mathrm{SOCl_2}$의 황, S=O π → O, 이어서 S–Cl 결합 → Cl($\mathrm{Cl^-}$가 떨어진다). 양성자를 잃으면 아실 클로로설파이트가 된다.
+1. 카복실산 OH의 산소 전자쌍 → $\mathrm{SOCl_2}$의 황, 동시에 S–Cl 결합 → Cl($\mathrm{Cl^-}$가 떨어진다). 황 위에서도 첨가(S=O π → O)와 제거가 차례로 일어난다고 볼 수 있지만, 아래 그림은 이를 화살표 두 개의 한 단계로 줄여 그렸다. 양성자를 잃으면 아실 클로로설파이트가 된다.
 2. $\mathrm{Cl^-}$ → 카보닐 탄소(첨가), 사면체 중간체.
 3. O⁻가 C=O를 다시 만들며 $\mathrm{^-OS({=}O)Cl}$이 떨어지고, 이것이 $\mathrm{SO_2}$ 기체와 $\mathrm{Cl^-}$로 쪼개진다.
 

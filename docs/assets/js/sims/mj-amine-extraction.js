@@ -39,7 +39,7 @@ Sims.register('mj-amine-extraction', {
     function syncMode() { bm1.setAttribute('aria-pressed', String(!st.three)); bm2.setAttribute('aria-pressed', String(st.three)); }
     function fmtP(P) { return P >= 100 ? P.toFixed(0) : P >= 10 ? P.toFixed(1) : P >= 1 ? P.toFixed(2) : P.toFixed(3); }
     function pct(v) { v *= 100; return v >= 99.95 ? '> 99.9 %' : v < 0.05 ? '< 0.1 %' : (v >= 10 ? v.toFixed(1) : v.toFixed(2)) + ' %'; }
-    function sci(v) { if (v === 0) return '0'; if (v >= 0.01 && v < 1000) return v >= 100 ? v.toFixed(0) : v >= 10 ? v.toFixed(1) : v.toFixed(3).replace(/0+$/, '').replace(/\.$/, ''); var e = Math.floor(Math.log10(v)); return (v / Math.pow(10, e)).toFixed(1) + '×10^' + e; }
+    function sci(v) { if (v === 0) return '0'; if (v >= 0.01 && v < 1000) return v >= 100 ? v.toFixed(0) : v >= 10 ? v.toFixed(1) : v.toFixed(3).replace(/0+$/, '').replace(/\.$/, ''); var e = Math.floor(Math.log10(v)), m = v / Math.pow(10, e); if (m.toFixed(1) === '10.0') { m = 1; e += 1; } return m.toFixed(1) + '×10^' + e; }
 
     // 계산
     function fB(pk, pH) { return 1 / (1 + Math.pow(10, pk - pH)); }          // 염기: 중성 형태 분율
@@ -60,7 +60,7 @@ Sims.register('mj-amine-extraction', {
       var narrow = w < 560;
       var A = comp('amine'), Ac = comp('acid'), Ne = comp('neutral');
       // ── 위: 분율 그래프
-      var gL = narrow ? 40 : 54, gR = w - (narrow ? 12 : 20), gT = 26, gB = narrow ? h * 0.36 : h * 0.43;
+      var gL = narrow ? 46 : 54, gR = w - (narrow ? 12 : 20), gT = 26, gB = narrow ? h * 0.36 : h * 0.43;
       var X = function (p) { return gL + p / 14 * (gR - gL); }, Y = function (f) { return gB - f * (gB - gT); };
       ctx.lineWidth = 1; ctx.strokeStyle = T.rule; ctx.font = '11px ' + T.fontMono; ctx.fillStyle = T.figMuted;
       for (var p = 0; p <= 14; p += (narrow ? 2 : 1)) {
@@ -199,6 +199,7 @@ Sims.register('mj-amine-extraction', {
         var need = 13 * lg.length, upSpace = mid - (bodyT + 40), dnSpace = h - (mid + 40), y0n = (dnSpace >= need || dnSpace >= upSpace) ? mid + 46 : bodyT + 46;
         lg.forEach(function (it, k) { var yy = y0n + k * 13; mark(lx + 4, yy - 4, { color: it[1], shape: it[2], ring: it[3] }); ctx.fillStyle = T.figInk; ctx.fillText(it[0], lx + 12, yy); });
       } else {
+        if (ly0 + 15 * (lg.length - 1) + 4 > h) ly0 = bodyT + 46;   // 유기층이 커서 물층 아래에 자리가 없으면 위쪽 이름 아래로
         lg.forEach(function (it, k) { var yy = ly0 + k * 15; mark(lx + 4, yy - 4, { color: it[1], shape: it[2], ring: it[3] }); ctx.fillStyle = T.figInk; ctx.fillText(it[0], lx + 12, yy); });
       }
 
