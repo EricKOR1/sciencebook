@@ -60,9 +60,11 @@
   <path d="M 314.6 145.1 L 328.7 114.0 L 322.1 111.8 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
   <path d="M 345.2 145.1 L 337.7 111.8 L 331.1 114.0 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
   <text x="329.9" y="110.1" style="font-size:14px;fill:var(--fig-green);text-anchor:middle">Br</text>
-  <circle cx="332.6" cy="92.6" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="327.2" cy="92.6" r="1.7" style="fill:var(--fig-ink)"/>
-  <circle cx="353.9" cy="99.1" r="6.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.2"/><line x1="350.6" y1="99.1" x2="357.2" y2="99.1" style="stroke:var(--fig-ink);stroke-width:1.4"/><line x1="353.9" y1="95.8" x2="353.9" y2="102.4" style="stroke:var(--fig-ink);stroke-width:1.4"/>
+  <circle cx="341.2" cy="95.9" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="336.6" cy="93.1" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="323.2" cy="93.1" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="318.6" cy="95.9" r="1.7" style="fill:var(--fig-ink)"/>
+  <circle cx="359.9" cy="103.1" r="6.0" style="fill:var(--fig-panel);stroke:var(--fig-ink);stroke-width:1.2"/><line x1="356.6" y1="103.1" x2="363.2" y2="103.1" style="stroke:var(--fig-ink);stroke-width:1.4"/><line x1="359.9" y1="99.8" x2="359.9" y2="106.4" style="stroke:var(--fig-ink);stroke-width:1.4"/>
   <text x="303.9" y="91.1" class="ochem-5-cyclohexene-bromination-s" text-anchor="end">앞면</text>
   <text x="330.0" y="242.0" class="ochem-5-cyclohexene-bromination-s" text-anchor="middle">브로모늄 이온(Br 앞면)</text>
   <text x="252.6" y="184.1" style="font-size:14px;fill:var(--fig-green);text-anchor:middle">Br</text>
@@ -95,33 +97,33 @@
   <path d="M 340.2 110.0 L 335.4 118.6 L 334.6 114.2 L 330.6 112.2 Z" style="fill:var(--fig-violet);stroke:var(--fig-violet);stroke-width:0.8;stroke-linejoin:round"/>
   <text x="330.0" y="260.0" class="ochem-5-cyclohexene-bromination-s" text-anchor="middle">Br⁻는 뒷면(점선 화살표)에서 C1 또는 C2를 같은 확률로 공격</text>
   <text x="470.0" y="24.0" class="ochem-5-cyclohexene-bromination-h" text-anchor="start">생성물(의자 형태)</text>
-  <line x1="549.3" y1="141.7" x2="524.6" y2="149.8" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
-  <line x1="524.6" y1="149.8" x2="475.4" y2="133.2" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
-  <line x1="475.4" y1="133.2" x2="450.7" y2="158.3" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
-  <line x1="450.7" y1="158.3" x2="475.3" y2="150.2" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
-  <line x1="475.3" y1="150.2" x2="524.6" y2="166.8" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
-  <line x1="524.6" y1="166.8" x2="549.3" y2="141.7" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
-  <line x1="450.7" y1="158.3" x2="450.7" y2="179.0" style="stroke:var(--fig-green);stroke-width:2;stroke-linecap:round"/>
-  <text x="450.7" y="196.7" style="font-size:14px;fill:var(--fig-green);text-anchor:middle">Br</text>
-  <line x1="475.3" y1="150.2" x2="475.3" y2="129.5" style="stroke:var(--fig-green);stroke-width:2;stroke-linecap:round"/>
-  <text x="475.3" y="121.9" style="font-size:14px;fill:var(--fig-green);text-anchor:middle">Br</text>
-  <text x="500.0" y="222.0" class="ochem-5-cyclohexene-bromination-t" text-anchor="middle">트랜스-이축</text>
-  <line x1="560.0" y1="176.5" x2="592.0" y2="176.5" style="stroke:var(--fig-ink);stroke-width:1.8"/>
-  <path d="M 596.0 176.5 L 585.0 171.0 L 587.8 176.5 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
-  <line x1="564.0" y1="183.5" x2="596.0" y2="183.5" style="stroke:var(--fig-ink);stroke-width:1.8"/>
-  <path d="M 560.0 183.5 L 571.0 189.0 L 568.2 183.5 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
-  <text x="578.0" y="204.0" class="ochem-5-cyclohexene-bromination-s" text-anchor="middle">뒤집힘</text>
-  <line x1="720.0" y1="142.9" x2="699.0" y2="149.9" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
-  <line x1="699.0" y1="149.9" x2="657.0" y2="135.7" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
-  <line x1="657.0" y1="135.7" x2="636.0" y2="157.1" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
-  <line x1="636.0" y1="157.1" x2="657.0" y2="150.1" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
-  <line x1="657.0" y1="150.1" x2="699.0" y2="164.3" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
-  <line x1="699.0" y1="164.3" x2="720.0" y2="142.9" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
-  <line x1="636.0" y1="157.1" x2="618.9" y2="151.3" style="stroke:var(--fig-green);stroke-width:2;stroke-linecap:round"/>
-  <text x="600.1" y="150.0" style="font-size:14px;fill:var(--fig-green);text-anchor:middle">Br</text>
-  <line x1="657.0" y1="150.1" x2="648.4" y2="158.9" style="stroke:var(--fig-green);stroke-width:2;stroke-linecap:round"/>
-  <text x="639.1" y="173.5" style="font-size:14px;fill:var(--fig-green);text-anchor:middle">Br</text>
-  <text x="668.0" y="222.0" class="ochem-5-cyclohexene-bromination-t" text-anchor="middle">트랜스-이적도</text>
+  <line x1="529.0" y1="137.4" x2="496.5" y2="144.7" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <line x1="496.5" y1="144.7" x2="451.6" y2="132.0" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <line x1="451.6" y1="132.0" x2="439.0" y2="158.6" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <line x1="439.0" y1="158.6" x2="471.5" y2="151.3" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <line x1="471.5" y1="151.3" x2="516.4" y2="164.0" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <line x1="516.4" y1="164.0" x2="529.0" y2="137.4" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <line x1="529.0" y1="137.4" x2="529.0" y2="118.2" style="stroke:var(--fig-green);stroke-width:2;stroke-linecap:round"/>
+  <text x="529.0" y="111.4" style="font-size:14px;fill:var(--fig-green);text-anchor:middle">Br</text>
+  <line x1="516.4" y1="164.0" x2="516.4" y2="183.2" style="stroke:var(--fig-green);stroke-width:2;stroke-linecap:round"/>
+  <text x="516.4" y="200.0" style="font-size:14px;fill:var(--fig-green);text-anchor:middle">Br</text>
+  <text x="486.0" y="222.0" class="ochem-5-cyclohexene-bromination-t" text-anchor="middle">트랜스-이축</text>
+  <line x1="548.0" y1="176.5" x2="580.0" y2="176.5" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <path d="M 584.0 176.5 L 573.0 171.0 L 575.8 176.5 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
+  <line x1="552.0" y1="183.5" x2="584.0" y2="183.5" style="stroke:var(--fig-ink);stroke-width:1.8"/>
+  <path d="M 548.0 183.5 L 559.0 189.0 L 556.2 183.5 Z" style="fill:var(--fig-ink);stroke:var(--fig-ink);stroke-width:0.8;stroke-linejoin:round"/>
+  <text x="566.0" y="204.0" class="ochem-5-cyclohexene-bromination-s" text-anchor="middle">뒤집힘</text>
+  <line x1="676.5" y1="162.6" x2="666.3" y2="141.0" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <line x1="666.3" y1="141.0" x2="629.8" y2="151.3" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <line x1="629.8" y1="151.3" x2="603.5" y2="145.4" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <line x1="603.5" y1="145.4" x2="613.7" y2="167.0" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <line x1="613.7" y1="167.0" x2="650.2" y2="156.7" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <line x1="650.2" y1="156.7" x2="676.5" y2="162.6" style="stroke:var(--fig-ink);stroke-width:2;stroke-linecap:round"/>
+  <line x1="676.5" y1="162.6" x2="691.3" y2="158.3" style="stroke:var(--fig-green);stroke-width:2;stroke-linecap:round"/>
+  <text x="707.4" y="158.7" style="font-size:14px;fill:var(--fig-green);text-anchor:middle">Br</text>
+  <line x1="650.2" y1="156.7" x2="654.3" y2="165.5" style="stroke:var(--fig-green);stroke-width:2;stroke-linecap:round"/>
+  <text x="658.8" y="180.3" style="font-size:14px;fill:var(--fig-green);text-anchor:middle">Br</text>
+  <text x="646.0" y="222.0" class="ochem-5-cyclohexene-bromination-t" text-anchor="middle">트랜스-이적도</text>
   <line x1="10.0" y1="268.0" x2="710.0" y2="268.0" style="stroke:var(--fig-line);stroke-width:0.8;stroke-linecap:round"/>
   <text x="14.0" y="292.0" class="ochem-5-cyclohexene-bromination-h" text-anchor="start">두 공격 경로 → 거울상 이성질체 1 : 1</text>
   <g transform="translate(75.0,346.5)"><g class="ochem-5-cyclohexene-bromination-mol-p0">

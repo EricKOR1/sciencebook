@@ -107,7 +107,7 @@ Sims.register('mj-energy-profile', {
       });
       ctx.font = '12px ' + T.fontBody; ctx.fillStyle = T.figInk; ctx.textAlign = 'center';
       ctx.fillText('R (0)', X(0.07), Y(0) + 18);
-      ctx.fillText('P (' + String(st.P).replace('-', '−') + ')', X(0.93), Y(st.P) + 18);
+      ctx.fillText('P (' + String(st.P).replace('-', '−') + ')', X(0.93), Y(st.P) + 18 > B - 4 ? Y(st.P) - 8 : Y(st.P) + 18);
       if (pp.two) ctx.fillText('I (' + String(st.I).replace('-', '−') + ')', X(0.5), Y(st.I) + 18);
       // 장벽 화살표
       function bar(x, g0, g1, lab, col) {
@@ -122,7 +122,7 @@ Sims.register('mj-energy-profile', {
         bar(Math.max(0.05, pp.xs[0] - 0.1), 0, pp.t1, 'ΔG‡₁ ' + Math.round(pp.t1), T.figViolet);
         bar(pp.xs[1] + 0.07, st.I, pp.t2, 'ΔG‡₂ ' + Math.round(pp.t2 - st.I), T.figViolet);
       } else bar(Math.max(0.05, pp.xs[0] - 0.12), 0, pp.t1, 'ΔG‡ ' + Math.round(pp.t1), T.figViolet);
-      if (st.ham) { ctx.fillStyle = T.figGreen; ctx.textAlign = 'left'; ctx.fillText('해먼드: TS1 = ' + st.E0.toFixed(0) + ' + ' + st.alpha.toFixed(2) + ' × ΔG°₁', L + 8, Tp + 6); }
+      if (st.ham) { ctx.fillStyle = T.figGreen; ctx.textAlign = 'left'; ctx.fillText('해먼드: TS1 = ' + st.E0.toFixed(0) + ' + ' + st.alpha.toFixed(2) + ' × ΔG°₁', L + 8, B - 8); }
       // 읽기
       rK1.set(fmt(k1) + ' s⁻¹');
       rK2.set(pp.two ? fmt(k2) + ' s⁻¹' : '—');
