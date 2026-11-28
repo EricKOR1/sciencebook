@@ -122,6 +122,7 @@ Sims.register('mj-enolate-regioselectivity', {
       }
       curve(0, T.figMuted, 2); curve(2, T.figBlue, 2.6); curve(3, T.figRed, 2.6);
       ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'left';
+      ctx.save(); ctx.globalAlpha = 0.85; ctx.fillStyle = T.figPanel; ctx.fillRect(L + 2, Tp + 2, 236, 18); ctx.restore();   // 범례 뒤 바탕(곡선과 겹쳐도 읽히게)
       ctx.fillStyle = T.figBlue; ctx.fillText('C6 (속도론적)', L + 6, Tp + 15);
       ctx.fillStyle = T.figRed; ctx.fillText('C2 (열역학적)', L + 100, Tp + 15);
       ctx.fillStyle = T.figMuted; ctx.fillText('케톤', L + 194, Tp + 15);
