@@ -41,6 +41,7 @@ Sims.register('mj-acyl-substitution-energy', {
       var prodL = U.L;
       if (D.anion && U.anion) prodL = 4;
       var P = -18 * (prodL - D.L);
+      if (D.L === 3 && st.u === 0) P -= 36 * cat;   // 산성 아마이드 가수 분해: 떨어진 아민이 암모늄 이온으로 잠겨 내리막(⑧)
       return { R: 0, TS1: ts1, I: I, TS2: ts2, P: P };
     }
     function animate() {
@@ -66,7 +67,7 @@ Sims.register('mj-acyl-substitution-energy', {
       rRds.set(E.TS2 > E.TS1 ? '제거(TS2) — 이탈기가 떨어지기 어렵다' : '첨가(TS1)');
       var dg = E.P;
       rDG.set((dg > 0 ? '+' : dg < 0 ? '−' : '') + Math.abs(dg).toFixed(0) + ' kJ/mol ' + (dg < 0 ? '(생성물이 더 안정)' : dg > 0 ? '(생성물이 덜 안정)' : '(평형)'));
-      rProd.set(D.anion ? '— (떨어질 것이 O²⁻)' : U.prod + ' + ' + (D.y === 'OCOR' ? 'RCOO⁻' : D.y === 'Cl' ? 'Cl⁻' : D.y === 'OR′' ? 'R′OH' : 'R′₂NH'));
+      rProd.set(D.anion ? '— (떨어질 것이 O²⁻)' : U.prod + ' + ' + (D.y === 'OCOR' ? 'RCOO⁻' : D.y === 'Cl' ? 'Cl⁻' : D.y === 'OR′' ? 'R′OH' : (st.acid && st.u === 0 ? 'R′₂NH₂⁺ (암모늄 이온)' : 'R′₂NH')));
     }
     function hermite(E, sx, sy) {
       var v = [E.R, E.TS1, E.I, E.TS2, E.P], pts = [];
@@ -118,6 +119,7 @@ Sims.register('mj-acyl-substitution-energy', {
       if (D.anion) msg = '카복실산 이온: 친핵체가 다가가기 어렵고 떨어질 것이 O²⁻ — 사실상 반응하지 않는다';
       else if (E.P > 0) msg = '이 방향으로는 직접 바꿀 수 없다 (사다리 거슬러 오르기)';
       else if (E.P === 0) { msg = '평형 — 과량 시약이나 생성물 제거로 민다'; col = T.figAmber; }
+      if (st.acid && D.L === 3 && st.u === 0) { msg = '산성: 떨어진 아민이 암모늄 이온이 되어 되돌아오지 못한다 → 내리막'; col = T.figGreen; }
       if (st.acid && !catalysable() && !D.anion) {
         msg = U.anion ? '산성 조건에서는 OH⁻가 남아 있지 않다(산 촉매와 함께 쓸 수 없다)' : '산은 아민을 암모늄 이온으로 바꿔 친핵성을 없앤다(산 촉매 효과 없음)';
         col = T.figAmber;
