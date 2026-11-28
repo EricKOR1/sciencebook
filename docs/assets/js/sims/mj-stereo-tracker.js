@@ -80,8 +80,8 @@ Sims.register('mj-stereo-tracker', {
           g.line(C, q, opt && opt.bc ? opt.bc : T.figInk, { width: opt && opt.bw ? opt.bw : 4, dash: opt && opt.dash, alpha: opt && opt.alpha });
           g.sphere(q, r, col, { label: lab, alpha: opt && opt.alpha == null ? 1 : (opt ? opt.alpha : 1) });
         }
-        bond(Lp.g1, S0.g1, T.figInk, 0.42, {});
-        bond(Lp.g2, S0.g2, T.figInk, 0.36, {});
+        bond(Lp.g1, S0.g1, T.figLine, 0.42, {});
+        bond(Lp.g2, S0.g2, T.figLine, 0.36, {});
         bond(Lp.H, 'H', T.figPanel, 0.24, {});
         if (st.rac) {
           bond([1, 0, 0], XLAB[st.x], T[XCOL[st.x]], 0.4, { alpha: 0.5 });
