@@ -59,8 +59,8 @@ Sims.register('mj-cyclohexane-flip', {
       label: '사이클로헥세인 의자 형태의 공-막대 모형과 적도·축 비율 막대',
       draw: function (g, T, Sc) {
         var P = ringAt(st.t), D = trackedDirs(P), s = SUB[st.sub];
-        var ox = Sc && Sc.w < 560 ? 0 : -1.6;   // 모형을 왼쪽으로(막대 자리)
-        function sh(p) { return [p[0] + ox, p[1], p[2]]; }
+        var ox = Sc && Sc.w < 560 ? 0 : -1.6, oy = Sc && Sc.w < 560 ? 1.5 : 0;   // 모형을 왼쪽으로(막대 자리)
+        function sh(p) { return [p[0] + ox, p[1] + oy, p[2]]; }
         var i, k;
         for (i = 0; i < 6; i++) {
           g.line(sh(P[i]), sh(P[(i + 1) % 6]), T.figInk, { width: 4 });
@@ -92,7 +92,7 @@ Sims.register('mj-cyclohexane-flip', {
       overlay: function (ctx, T, Sc) {
         var w = Sc.w, h = Sc.h, small = w < 560;
         var RT = R * st.T, A = SUB[st.sub].A, K = Math.exp(A / RT), fe = K / (1 + K);
-        var x0 = small ? 16 : w * 0.66, y0 = small ? h * 0.6 : h * 0.18, bw = small ? w - 32 : w * 0.3;
+        var x0 = small ? 16 : w * 0.66, y0 = small ? h * 0.62 : h * 0.18, bw = small ? w - 32 : w * 0.3;
         ctx.font = '600 13px ' + T.fontBody; ctx.fillStyle = T.figInk; ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
         ctx.fillText(NAMES[st.sub] + ': A = ' + A.toFixed(1) + ' kJ/mol, T = ' + st.T.toFixed(0) + ' K', x0, y0);
         [['적도', fe, T.figRed], ['축', 1 - fe, T.figBlue]].forEach(function (it, i) {
