@@ -2,7 +2,7 @@
 Sims.register('mj-energy-profile', {
   title: '반응 에너지 도표 탐색기 — 장벽 높이를 속도로, 해먼드 가설을 눈으로',
   caption: '슬라이더로 중간체 I, 두 전이 상태 TS1·TS2, 생성물 P의 높이와 온도를 바꾸어 보자. 각 단계의 속도 상수는 아이링 식 k = (k_BT/h)e^(−ΔG‡/RT)(κ = 1, 모든 단계를 1차로 봄)로 계산하며, ' +
-    '반응물에서 본 가장 높은 꼭대기가 빨갛게 칠해진 속도 결정 단계이다. 장벽을 5.7 kJ/mol 낮출 때마다(25 ℃) k가 10배 커지는 것을 확인할 수 있다. ' +
+    '반응물에서 본 가장 높은 꼭대기가 빨갛게 칠해진 속도 결정 단계이다(I가 R보다 낮으면 I가 쌓이므로 TS2의 장벽은 I에서 재어 비교한다). 장벽을 5.7 kJ/mol 낮출 때마다(25 ℃) k가 10배 커지는 것을 확인할 수 있다. ' +
     '"해먼드 모드"를 켜면 TS1의 높이가 ΔG‡₁ = (고유 장벽) + α·ΔG°₁ (ΔG°₁ = I의 높이)로 I를 따라 움직이고, TS1의 가로 위치가 에너지가 더 가까운 쪽(흡열이면 I 쪽)으로 옮겨 간다. ' +
     '곡선은 정류점을 매끄럽게 이은 모식도이며, 높이는 반응물 R을 0으로 둔 깁스 에너지(kJ/mol)이다.',
   init: function (api) {
@@ -95,7 +95,7 @@ Sims.register('mj-energy-profile', {
       var k1, k2, km1, rds, Ke = Math.exp(-st.P * 1000 / (8.314 * st.T));
       if (pp.two) {
         k1 = eyring(pp.t1, st.T); k2 = eyring(pp.t2 - st.I, st.T); km1 = eyring(pp.t1 - st.I, st.T);
-        rds = pp.t1 >= pp.t2 ? 1 : 2;
+        rds = pp.t1 >= pp.t2 - Math.min(0, st.I) ? 1 : 2;   // I가 R보다 낮으면 I가 쌓이므로 TS2 장벽은 I에서 잰다
       } else { k1 = eyring(pp.t1, st.T); rds = 1; }
       var peaks = pp.two ? [[pp.xs[0], pp.t1, 'TS1'], [pp.xs[1], pp.t2, 'TS2']] : [[pp.xs[0], pp.t1, 'TS']];
       peaks.forEach(function (q, i) {
@@ -127,7 +127,7 @@ Sims.register('mj-energy-profile', {
       rK1.set(fmt(k1) + ' s⁻¹');
       rK2.set(pp.two ? fmt(k2) + ' s⁻¹' : '—');
       rH.set(pp.two ? '1단계 ' + tfmt(Math.LN2 / k1) + ', 2단계 ' + tfmt(Math.LN2 / k2) : tfmt(Math.LN2 / k1));
-      rR.set(pp.two ? (rds === 1 ? '1단계(TS1이 가장 높음)' : '2단계(TS2가 가장 높음)') : '한 단계');
+      rR.set(pp.two ? (rds === 1 ? '1단계(TS1이 가장 높음)' : (pp.t2 >= pp.t1 ? '2단계(TS2가 가장 높음)' : '2단계(I가 R보다 낮아 I에서 잰 ΔG‡₂가 더 큼)')) : '한 단계');
       rKe.set(fmt(Ke));
       if (st.ham) { sT1.input.value = st.E0 + st.alpha * st.I; var o = sT1.input.parentNode.querySelector('output'); if (o) o.textContent = kj(Math.round(st.E0 + st.alpha * st.I)); }
     }

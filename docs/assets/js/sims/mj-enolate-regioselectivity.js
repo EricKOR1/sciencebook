@@ -101,7 +101,7 @@ Sims.register('mj-enolate-regioselectivity', {
       if (stk) { A = { x: 0, y: 0, w: w, h: h * 0.5 }; Bx = { x: 0, y: h * 0.52, w: w * 0.45, h: h * 0.46 }; Cx = { x: w * 0.47, y: h * 0.52, w: w * 0.53, h: h * 0.46 }; }
       else { A = { x: 0, y: 0, w: w * 0.5, h: h }; Bx = { x: w * 0.52, y: 0, w: w * 0.18, h: h }; Cx = { x: w * 0.72, y: 0, w: w * 0.28, h: h }; }
       // 1) 시간 변화
-      var L = A.x + 46, Rr = A.x + A.w - 10, Tp = A.y + 24, Bt = A.y + A.h - 36;
+      var L = A.x + 54, Rr = A.x + A.w - 10, Tp = A.y + 24, Bt = A.y + A.h - 36;
       var lt0 = 0, lt1 = st.lt;
       function sx(t) { return L + (Math.log10(Math.max(t, 1)) - lt0) / (lt1 - lt0) * (Rr - L); }
       function sy(v) { return Bt - v * (Bt - Tp); }
@@ -113,7 +113,7 @@ Sims.register('mj-enolate-regioselectivity', {
       ctx.textAlign = 'right';
       [0, 0.5, 1].forEach(function (v) { ctx.fillText(v.toFixed(1), L - 5, sy(v) + 4); });
       ctx.fillStyle = T.figInk; ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'center'; ctx.fillText('시간 (로그 눈금)', (L + Rr) / 2, Bt + 30);
-      ctx.save(); ctx.translate(A.x + 12, (Tp + Bt) / 2); ctx.rotate(-Math.PI / 2); ctx.fillText('분율', 0, 0); ctx.restore();
+      ctx.save(); ctx.translate(A.x + 10, (Tp + Bt) / 2); ctx.rotate(-Math.PI / 2); ctx.fillText('분율', 0, 0); ctx.restore();
       ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = 'left'; ctx.fillText('엔올레이트 분율의 시간 변화', L, A.y + 15);
       function curve(idx, col, wd) {
         ctx.beginPath(); var started = false;
