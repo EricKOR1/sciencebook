@@ -21,3 +21,17 @@
 | ubio-13 | 2차 천이 | "Yellowstone 1988 fire regrowth lodgepole", "Glacier Bay succession" |
 | uchem-11 | 희생 양극, 아연 도금, 다니엘 전지 | "sacrificial anode ship hull", "galvanized steel", "Daniell cell photo" |
 | uchem-12 | 원자로 노심의 체렌코프 빛 | `File:Cerenkov Effect.jpg` (NRC, PD) |
+| ubio-3 | 엽록체·틸라코이드 전자 현미경 사진 | "chloroplast transmission electron micrograph" |
+| ubio-4 | 세포질 분열, 암세포 | "cytokinesis cleavage furrow", "HeLa cells" |
+| 2-1 | 분광기, 수소 방전관 | "hydrogen discharge tube spectrum" |
+| earth-3 | 금성의 위상 실사진, 금환 일식 | "phases of Venus photograph", "annular solar eclipse" |
+
+## 사진 검수 때 확인할 것 (담당들이 남긴 것)
+
+- 2-1-flame-colors: 불꽃 9종의 원소 이름 순서(뒤의 두 개 세슘·칼륨은 원본 설명이 잘려 있었다) — 위키미디어 원본 쪽에서 확인.
+- ubio-3-atp-synthase-structure: 회색 사슬을 '고정 줄기'로 본 것, 이름표 용어.
+- ubio-5-fly-eye-mutants: 눈 색 이름표 순서(왼쪽 위부터 시계 방향: 갈색·진사색·세피아·주홍색·흰색·붉은색).
+- ubio-10-root-nodules: 전자 현미경 사진의 축척 "100 nm"(원본 값).
+- m1-02-light-microscope: 맨 위 관(사진 촬영용)에 '접안렌즈' 지시선이 가는 것.
+- uearth-10-terrestrial-surfaces: 화성 사진을 "바이킹 궤도선" 사진이라고 쓴 것.
+- bio-3-galapagos-finches: 핀치 국명 대응.
