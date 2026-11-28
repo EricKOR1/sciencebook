@@ -1,0 +1,40 @@
+{
+ "file": "uphy-6-chladni-plate.webp",
+ "w": 960,
+ "h": 503,
+ "title": "진동하는 원판 위의 정상파 무늬",
+ "caption": "모래를 뿌린 금속 원판을 가운데에서 흔들면, 특정한 진동수에서만 모래가 움직이지 않는 마디선에 모여 또렷한 무늬가 생긴다. 원판은 줄처럼 고유 진동수를 여럿 가지며, 진동수가 달라지면 마디선이 동심원(위)이나 원과 지름이 섞인 모양(아래)으로 바뀐다.",
+ "alt": "가운데 축에 고정된 검은 원판 네 장의 사진. 원판 위에 뿌린 모래가 위 두 장에서는 동심원 고리를, 아래 왼쪽은 원 고리와 바퀴살 여덟 개가 이어진 거미줄 모양을, 아래 오른쪽은 원 고리와 지름 네 줄이 엇갈린 모양을 이룬다. 각 사진 아래에 진동수 2.434 kHz, 3.986 kHz, 5.289 kHz, 5.670 kHz 가 적혀 있다.",
+ "author": "OpenStax",
+ "license": "CC BY 4.0",
+ "license_url": "https://creativecommons.org/licenses/by/4.0/",
+ "source": "https://openstax.org/details/books/chemistry-2e",
+ "source_name": "OpenStax 《Chemistry 2e》 6.1 Electromagnetic Energy",
+ "changes": "함수 발생기를 잘라 내고 남은 글자를 지움, 네 사진을 다시 배열하고 진동수를 한글 이름표로 붙임",
+ "labels": [
+  {
+   "x": 237,
+   "y": 236,
+   "text": "2.434 kHz",
+   "anchor": "middle"
+  },
+  {
+   "x": 723,
+   "y": 236,
+   "text": "3.986 kHz",
+   "anchor": "middle"
+  },
+  {
+   "x": 237,
+   "y": 492,
+   "text": "5.289 kHz",
+   "anchor": "middle"
+  },
+  {
+   "x": 723,
+   "y": 492,
+   "text": "5.670 kHz",
+   "anchor": "middle"
+  }
+ ]
+}
