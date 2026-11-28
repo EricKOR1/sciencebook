@@ -55,11 +55,11 @@ Sims.register('mj-cyclohexane-flip', {
     // 치환기 X 는 C1 의 '아래' 결합(시작 의자에서 적도)에 둔다 → 뒤집은 뒤에는 축(아래)
     var S = api.scene3d({
       yaw: 0.35, pitch: 0.3, dist: 10, scale: 0.105, viewButtons: true,
-      aspect: function (w) { return w < 560 ? 1.15 : 0.62; },
+      aspect: function (w) { return w < 560 ? 1.4 : 0.62; },
       label: '사이클로헥세인 의자 형태의 공-막대 모형과 적도·축 비율 막대',
-      draw: function (g, T) {
+      draw: function (g, T, Sc) {
         var P = ringAt(st.t), D = trackedDirs(P), s = SUB[st.sub];
-        var ox = -1.6;   // 모형을 왼쪽으로(막대 자리)
+        var ox = Sc && Sc.w < 560 ? 0 : -1.6;   // 모형을 왼쪽으로(막대 자리)
         function sh(p) { return [p[0] + ox, p[1], p[2]]; }
         var i, k;
         for (i = 0; i < 6; i++) {
@@ -92,7 +92,7 @@ Sims.register('mj-cyclohexane-flip', {
       overlay: function (ctx, T, Sc) {
         var w = Sc.w, h = Sc.h, small = w < 560;
         var RT = R * st.T, A = SUB[st.sub].A, K = Math.exp(A / RT), fe = K / (1 + K);
-        var x0 = small ? 16 : w * 0.66, y0 = small ? h * 0.74 : h * 0.18, bw = small ? w - 32 : w * 0.3;
+        var x0 = small ? 16 : w * 0.66, y0 = small ? h * 0.6 : h * 0.18, bw = small ? w - 32 : w * 0.3;
         ctx.font = '600 13px ' + T.fontBody; ctx.fillStyle = T.figInk; ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
         ctx.fillText(NAMES[st.sub] + ': A = ' + A.toFixed(1) + ' kJ/mol, T = ' + st.T.toFixed(0) + ' K', x0, y0);
         [['적도', fe, T.figRed], ['축', 1 - fe, T.figBlue]].forEach(function (it, i) {
@@ -109,7 +109,7 @@ Sims.register('mj-cyclohexane-flip', {
         ctx.fillText('(한 의자에 평균 ' + tau(1 / kf) + ' 머묾)', x0, y0 + 102);
         var stage = st.t < 0.04 ? '의자' : st.t > 0.96 ? '뒤집힌 의자' : Math.abs(st.t - 0.5) < 0.06 ? '보트 근처' : '뒤집히는 중';
         ctx.fillStyle = T.figInk; ctx.font = '600 12px ' + T.fontBody; ctx.textAlign = small ? 'left' : 'left';
-        ctx.fillText('지금: ' + stage + ' · 파랑 = 축, 빨강 = 적도', small ? 16 : 16, small ? h * 0.69 : h - 18);
+        ctx.fillText('지금: ' + stage + ' · 파랑 = 축, 빨강 = 적도', small ? 16 : 16, small ? h - 12 : h - 18);
       },
     });
     function sci(x) {
