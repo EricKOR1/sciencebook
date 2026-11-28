@@ -101,7 +101,7 @@ Sims.register('mj-alkene-addition', {
     var CA = [-0.67, 0, 0], CB = [0.67, 0, 0];
     function add(p, d, s) { return [p[0] + d[0] * s, p[1] + d[1] * s, p[2] + d[2] * s]; }
     var S = api.scene3d({
-      yaw: 0.55, pitch: 0.38, dist: 10, scale: 0.16, label: '알켄의 두 탄소와 위·아래 면, 시약이 들어오는 방향과 생성물의 3차원 배치',
+      yaw: 0.55, pitch: 0.38, dist: 10, scale: 0.15, label: '알켄의 두 탄소와 위·아래 면, 시약이 들어오는 방향과 생성물의 3차원 배치',
       aspect: function (w) { return w < 560 ? 0.95 : 0.55; },
       draw: function (g, T) {
         var A = ALK[st.a], R = RG[st.r], f = face(), prod = st.prod;
@@ -153,9 +153,9 @@ Sims.register('mj-alkene-addition', {
               g.sphere(add(cb, up, -0.55), 0.32, T.figSoftBlue, { alpha: 0.35, outline: T.figBlue });
               g.text(add(cb, [0.5, 0.3, 0.3], 1), '+', { size: 16, bold: true });
             }
-            g.arrow(add(cb, up, 2.15), add(cb, up, 1.15), T.figViolet, { width: 2 });
+            g.arrow(add(cb, up, 2.05), add(cb, up, 1.15), T.figViolet, { width: 2 });
             g.arrow(add(cb, up, -2.15), add(cb, up, -1.15), T.figViolet, { width: 2 });
-            g.text(add(cb, up, 2.4), R.y + ' (위)', { size: 12, color: T.figViolet });
+            g.text(add(cb, up, 2.3), R.y + ' (위)', { size: 12, color: T.figViolet });
             g.text(add(cb, up, -2.4), R.y + ' (아래)', { size: 12, color: T.figViolet });
           } else if (st.r === 3 || st.r === 5 || st.r === 6) {
             var br = [-0.2, 1.25, 0], lab = st.r === 3 ? 'Hg' : 'Br';
@@ -201,7 +201,7 @@ Sims.register('mj-alkene-addition', {
           var p1 = add(cb, [0, 1, 0], 1.05), p2 = add(cb, [0, -1, 0], 1.05);
           g.line(cb, p1, ink, { width: 2, dash: [4, 4] }); g.line(cb, p2, ink, { width: 2, dash: [4, 4] });
           atom(p1, R.y, true); atom(p2, R.y, true);
-          g.text([cb[0] + 1.0, -0.55, 0], '두 면 1 : 1', { size: 12, color: T.figViolet });
+          g.text([cb[0] + 0.9, -1.5, 0], '두 면 1 : 1', { size: 12, color: T.figViolet });
         } else {
           var pb = add(cb, [0, yUp, 0], 1.05);
           g.line(cb, pb, ink, { width: 3 }); atom(pb, R.y);

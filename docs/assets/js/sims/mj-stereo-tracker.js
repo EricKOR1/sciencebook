@@ -8,14 +8,14 @@ Sims.register('mj-stereo-tracker', {
     var SUBS = {
       b2R: { lab: '(R)-뷰탄-2-올', d: 'R', g1: 'C₂H₅', g2: 'CH₃', kind: 'chain',
         n: { OH: '뷰탄-2-올', OTs: '뷰탄-2-일 토실레이트', OMs: '뷰탄-2-일 메실레이트', OMe: '2-메톡시뷰테인', Br: '2-브로모뷰테인', Cl: '2-클로로뷰테인', CN: '2-메틸뷰테인나이트릴', N3: '2-아자이도뷰테인', OAc: '뷰탄-2-일 아세테이트' },
-        e2: function () { return '뷰트-2-엔(주, E > Z) + 뷰트-1-엔'; } },
+        e2: function (sp, base) { return base === 'KOtBu' ? '뷰트-1-엔(주, 부피 큰 염기 → 호프만) + 뷰트-2-엔' : '뷰트-2-엔(주, E > Z) + 뷰트-1-엔'; } },
       b2S: { lab: '(S)-뷰탄-2-올', d: 'S', g1: 'C₂H₅', g2: 'CH₃', kind: 'chain' },
       pe: { lab: '(R)-1-페닐에탄올', d: 'R', g1: 'C₆H₅', g2: 'CH₃', kind: 'benzyl',
         n: { OH: '1-페닐에탄-1-올', OTs: '1-페닐에틸 토실레이트', OMs: '1-페닐에틸 메실레이트', OMe: '(1-메톡시에틸)벤젠', Br: '(1-브로모에틸)벤젠', Cl: '(1-클로로에틸)벤젠', CN: '2-페닐프로페인나이트릴', N3: '(1-아자이도에틸)벤젠', OAc: '1-페닐에틸 아세테이트' },
         e2: function () { return '스타이렌(에텐일벤젠)'; } },
       mc: { lab: '(1R,2R)-2-메틸사이클로헥산-1-올', d: 'R', g1: 'C2(CH₃)', g2: 'C6', kind: 'ring',
         n: { OH: '2-메틸사이클로헥산-1-올', OTs: '2-메틸사이클로헥실 토실레이트', OMs: '2-메틸사이클로헥실 메실레이트', OMe: '1-메톡시-2-메틸사이클로헥세인', Br: '1-브로모-2-메틸사이클로헥세인', Cl: '1-클로로-2-메틸사이클로헥세인', CN: '2-메틸사이클로헥세인-1-카보나이트릴', N3: '1-아자이도-2-메틸사이클로헥세인', OAc: '2-메틸사이클로헥실 아세테이트' },
-        e2: function (sp) { return sp > 0 ? '3-메틸사이클로헥센만 (trans: C2의 H가 안티가 아님)' : '1-메틸사이클로헥센(주) + 3-메틸사이클로헥센'; } }
+        e2: function (sp, base) { return sp > 0 ? '3-메틸사이클로헥센만 (trans: C2의 H가 안티가 아님)' : (base === 'KOtBu' ? '3-메틸사이클로헥센 + 1-메틸사이클로헥센 (cis: 두 β-H 모두 안티, 부피 큰 염기라 덜 치환된 쪽이 늘어남)' : '1-메틸사이클로헥센(주) + 3-메틸사이클로헥센'); } }
     };
     SUBS.b2S.n = SUBS.b2R.n; SUBS.b2S.e2 = SUBS.b2R.e2;
     var LG = { OTs: 1, OMs: 1, Br: 1, Cl: 1 };
@@ -44,7 +44,7 @@ Sims.register('mj-stereo-tracker', {
     }
     function nameNow() {
       var S0 = SUBS[st.s];
-      if (st.gone === 'e2') return S0.e2(st.sp);
+      if (st.gone === 'e2') return S0.e2(st.sp, st.base);
       if (st.gone === 'ring') return '1-브로모-1-메틸사이클로헥세인(3° 양이온 경유, 입체 중심 없음)';
       if (st.rac) return '라세미 ' + S0.n[st.x] + ' — (R)·(S) 같은 양';
       return desc() + S0.n[st.x];
@@ -103,7 +103,7 @@ Sims.register('mj-stereo-tracker', {
     });
     function show() {
       rName.set(nameNow());
-      var lab = { ret: '유지', inv: '반전', rac: '라세미화', elim: '제거(E2)' };
+      var lab = { ret: '유지', inv: '반전', rac: '라세미화', elim: '제거(E2)', rearr: '자리 옮김(입체 중심 사라짐)' };
       rStep.set(st.step ? lab[st.step] + (st.msg && st.step === 'none' ? '' : '') : (st.msg || '출발 물질'));
       rBond.set(st.bond || '—');
       rHist.set(st.steps.length ? st.steps.join(' → ') : '(시약을 눌러 보자)');
@@ -116,8 +116,8 @@ Sims.register('mj-stereo-tracker', {
       var r = R.f(st.x, SUBS[st.s]);
       if (!r) { st.step = null; st.bond = XLAB[st.x] + '에는 ' + R.t + '가 반응하지 않는다(' + (st.x === 'OH' ? 'OH는 이탈기가 아니다' : '알맞은 이탈기·작용기가 없다') + ')'; show(); return; }
       st.prev = st.x; st.step = r[1]; st.bond = r[2]; st.steps.push(R.t);
-      if (r[0] === 'E2') { st.gone = 'e2'; st.step = 'elim'; }
-      else if (r[0] === 'RING_REARR') { st.gone = 'ring'; st.step = 'rac'; }
+      if (r[0] === 'E2') { st.gone = 'e2'; st.step = 'elim'; st.base = R.t; }
+      else if (r[0] === 'RING_REARR') { st.gone = 'ring'; st.step = 'rearr'; }
       else {
         st.x = r[0];
         if (r[1] === 'inv') st.sp = -st.sp;
@@ -127,7 +127,7 @@ Sims.register('mj-stereo-tracker', {
       if (st.t < 1) loop.play();
       show();
     }
-    function reset() { st.x = 'OH'; st.sp = 1; st.rac = false; st.gone = false; st.prev = null; st.step = null; st.bond = ''; st.steps = []; st.t = 1; show(); }
+    function reset() { st.base = null; st.x = 'OH'; st.sp = 1; st.rac = false; st.gone = false; st.prev = null; st.step = null; st.bond = ''; st.steps = []; st.t = 1; show(); }
     var gS = api.group();
     var bS = Object.keys(SUBS).map(function (k) {
       return api.button(SUBS[k].lab, function () { st.s = k; bS.forEach(function (b, i) { b.setAttribute('aria-pressed', String(Object.keys(SUBS)[i] === k)); }); reset(); }, { toggle: true, pressed: k === st.s, parent: gS });
