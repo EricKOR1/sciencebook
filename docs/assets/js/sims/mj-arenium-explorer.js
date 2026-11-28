@@ -200,14 +200,14 @@ Sims.register('mj-arenium-explorer', {
     }
     function logf(T, x, y, w, h, S) {
       ctx.font = '12px ' + T.fontBody; ctx.textAlign = 'left'; ctx.fillStyle = T.figInk; ctx.textBaseline = 'alphabetic';
-      ctx.fillText('부분 속도 인자 f(로그 눈금)', x, y + 12);
+      ctx.fillText('부분 속도 인자 f(로그 눈금, 점선 = 벤젠 1)', x, y + 12);
       var top = y + 22, bot = y + h - 18, lx = x + 34, bw = (w - 34) / 3, lo = -9, hi = 3;
       function Y(lg) { return bot - (bot - top) * (lg - lo) / (hi - lo); }
       ctx.strokeStyle = T.figLine; ctx.lineWidth = 1; ctx.fillStyle = T.figMuted; ctx.textAlign = 'right';
       for (var e = lo; e <= hi; e += 3) { line([lx - 3, Y(e)], [lx, Y(e)]); ctx.fillText('10' + (e < 0 ? '⁻' + sup(String(-e)) : sup(String(e))), lx - 5, Y(e) + 4); }
       line([lx, top], [lx, bot]);
       ctx.setLineDash([5, 4]); ctx.strokeStyle = T.figInk; line([lx, Y(0)], [x + w, Y(0)]); ctx.setLineDash([]);
-      ctx.textAlign = 'left'; ctx.fillStyle = T.figInk; ctx.fillText('벤젠 = 1', lx + 4, Y(0) - 4);
+      
       ['오쏘', '메타', '파라'].forEach(function (nm, k) {
         var cx = lx + bw * (k + 0.5);
         ctx.textAlign = 'center'; ctx.fillStyle = (k + 2 === st.a) ? T.figViolet : T.figMuted; ctx.fillText(nm, cx, bot + 14);
